@@ -1,0 +1,135 @@
+{
+  "date": "2026-06-13",
+  "questions": [
+    {
+      "category": "History",
+      "question": "Which ancient structure served as a lighthouse and was located on an island near Alexandria, Egypt?",
+      "options": [
+        "The Colossus of Rhodes",
+        "The Pharos of Alexandria",
+        "The Temple of Artemis",
+        "The Hanging Gardens"
+      ],
+      "answer": "The Pharos of Alexandria",
+      "explanation": "Built around 280 BC under Ptolemy II, the Pharos of Alexandria stood roughly 330–430 feet tall — one of the tallest man-made structures for centuries. A fire at its top guided sailors into the harbor. It collapsed from earthquakes by the 14th century.",
+      "memory_hook": "Pharos = lighthouse in Greek. 'Pharos' is the root of the word 'pharmacy' in many languages — both are beacons guiding people to what they need."
+    },
+    {
+      "category": "History",
+      "question": "The Berlin Wall fell in November of which year?",
+      "options": [
+        "1987",
+        "1991",
+        "1989",
+        "1985"
+      ],
+      "answer": "1989",
+      "explanation": "The Berlin Wall fell on November 9, 1989, after East Germany announced citizens could cross freely. Built in 1961, the wall had divided East and West Berlin for 28 years and became the defining symbol of the Cold War.",
+      "memory_hook": "1989: think '89 = eight-nine = ate nine — the Wall got eaten. Also the same year Taylor Swift was born, if that helps."
+    },
+    {
+      "category": "History",
+      "question": "Who was the first woman to win a Nobel Prize?",
+      "options": [
+        "Rosalind Franklin",
+        "Ada Lovelace",
+        "Marie Curie",
+        "Florence Nightingale"
+      ],
+      "answer": "Marie Curie",
+      "explanation": "Marie Curie won the Nobel Prize in Physics in 1903 (shared with Pierre Curie and Henri Becquerel) for her work on radioactivity. She went on to win a second Nobel — this time in Chemistry — in 1911, making her the first person ever to win Nobels in two different sciences.",
+      "memory_hook": "Curie = Curious = always discovering. She wasn't just the first woman — she's the only person, male or female, to win Nobel Prizes in two different sciences."
+    },
+    {
+      "category": "Sports",
+      "question": "How many interlocking rings appear on the Olympic flag?",
+      "options": [
+        "4",
+        "6",
+        "7",
+        "5"
+      ],
+      "answer": "5",
+      "explanation": "The five interlocked rings of the Olympic flag represent the five inhabited continents of the world: Africa, the Americas, Asia, Europe, and Oceania. Designed by Pierre de Coubertin in 1912, every national flag in the world contains at least one of the five ring colors.",
+      "memory_hook": "Five rings, five continents. Count one hand — five fingers, five continents. One ring per continent, all linked together."
+    },
+    {
+      "category": "Sports",
+      "question": "Which country has won the most FIFA World Cup titles?",
+      "options": [
+        "Germany",
+        "Italy",
+        "Argentina",
+        "Brazil"
+      ],
+      "answer": "Brazil",
+      "explanation": "Brazil has won the FIFA World Cup five times (1958, 1962, 1970, 1994, 2002), more than any other nation. They are also the only team to have played in every single World Cup tournament.",
+      "memory_hook": "Brazil wears yellow — picture five gold stars on their jersey. Five stars, five cups. Yellow = gold = trophies."
+    },
+    {
+      "category": "Sports",
+      "question": "In the NBA, how many personal fouls does a player need to accumulate to foul out of a game?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "4"
+      ],
+      "answer": "6",
+      "explanation": "NBA players are disqualified after their 6th personal foul. College basketball (NCAA) uses 5 fouls. The NBA increased from 5 to 6 fouls in 1947 to keep star players in games longer.",
+      "memory_hook": "NBA = 6 fouls. Think 'six feet under' — your sixth foul puts you in the bench graveyard. College = 5, pros = 6."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Which Pink Floyd album features a prism splitting white light into a spectrum on its cover?",
+      "options": [
+        "Wish You Were Here",
+        "Animals",
+        "The Wall",
+        "The Dark Side of the Moon"
+      ],
+      "answer": "The Dark Side of the Moon",
+      "explanation": "Released in 1973, The Dark Side of the Moon features iconic cover art designed by Hipgnosis. The album spent 741 weeks on the Billboard 200 — one of the longest-charting albums in history — and explores themes of conflict, greed, time, and mental illness.",
+      "memory_hook": "Dark on the outside, rainbow on the inside: a prism turns darkness into color. That's the album in one image — and one of the most recognizable covers in music history."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "In the original 1900 novel 'The Wonderful Wizard of Oz,' what were Dorothy's magical slippers made of?",
+      "options": [
+        "Gold",
+        "Ruby",
+        "Silver",
+        "Diamond"
+      ],
+      "answer": "Silver",
+      "explanation": "In L. Frank Baum's original novel, Dorothy wears silver slippers. They were changed to ruby red for the 1939 MGM film to showcase the vibrant colors of the new Technicolor process. It's one of Hollywood's most famous creative deviations from source material.",
+      "memory_hook": "Silver in the book, red in the movie — the shoes changed color exactly when the story went from black-and-white to Technicolor. The film literally upgraded the shoes."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Which director helmed the 1993 blockbuster Jurassic Park?",
+      "options": [
+        "James Cameron",
+        "George Lucas",
+        "Steven Spielberg",
+        "Ron Howard"
+      ],
+      "answer": "Steven Spielberg",
+      "explanation": "Steven Spielberg directed Jurassic Park, based on Michael Crichton's 1990 novel. The film revolutionized CGI visual effects and grossed over $1 billion worldwide, becoming the highest-grossing film of its time. It remains a landmark in cinematic history.",
+      "memory_hook": "Spielberg tamed every kind of beast: a shark (Jaws), an alien (E.T.), Nazis (Indiana Jones), and then dinosaurs. He runs the biggest zoo in Hollywood."
+    },
+    {
+      "category": "History",
+      "question": "The Magna Carta, one of the first documents limiting royal power, was signed in which year?",
+      "options": [
+        "1066",
+        "1215",
+        "1348",
+        "1453"
+      ],
+      "answer": "1215",
+      "explanation": "King John of England sealed the Magna Carta at Runnymede on June 15, 1215, under pressure from rebellious barons. It established the principle that the king was subject to the rule of law — a foundational concept for modern constitutional democracy.",
+      "memory_hook": "1215: think 'twelve-fifteen' — like a meeting at 12:15 between the King and the barons to settle things. The king showed up and had to agree to the rules."
+    }
+  ]
+}

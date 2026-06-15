@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fact Royale</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- LANDING SCREEN -->
+  <div id="screen-landing" class="screen active">
+    <div class="landing-card">
+      <div class="crown">♛</div>
+      <h1 class="logo">Fact Royale</h1>
+      <p class="tagline">Daily trivia. Every answer teaches you something.</p>
+
+      <div class="meta-row">
+        <span class="meta-badge" id="landing-date"></span>
+        <span class="meta-badge" id="landing-streak"></span>
+      </div>
+
+      <div class="category-pills" id="landing-categories"></div>
+
+      <button class="btn-primary" id="btn-start">Start Today's Quiz</button>
+
+      <p class="already-played" id="already-played-msg" style="display:none;">
+        You've already played today. Come back tomorrow!<br/>
+        <span id="final-score-replay"></span>
+      </p>
+    </div>
+  </div>
+
+  <!-- QUIZ SCREEN -->
+  <div id="screen-quiz" class="screen">
+    <header class="quiz-header">
+      <div class="header-left">
+        <span class="logo-small">Fact Royale</span>
+      </div>
+      <div class="header-right">
+        <span class="streak-badge" id="quiz-streak"></span>
+      </div>
+    </header>
+
+    <div class="progress-wrap">
+      <div class="progress-bar" id="progress-bar"></div>
+    </div>
+    <p class="progress-text" id="progress-text"></p>
+
+    <div class="question-card" id="question-card">
+      <span class="category-tag" id="q-category"></span>
+      <p class="question-text" id="q-text"></p>
+
+      <div class="options-grid" id="options-grid"></div>
+
+      <!-- Shown after answering -->
+      <div class="feedback-box" id="feedback-box" style="display:none;">
+        <div class="feedback-result" id="feedback-result"></div>
+        <p class="feedback-explanation" id="feedback-explanation"></p>
+        <div class="memory-hook" id="memory-hook" style="display:none;">
+          <span class="hook-label">💡 Remember it</span>
+          <p id="hook-text"></p>
+        </div>
+        <button class="btn-next" id="btn-next">Next Question →</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- RESULTS SCREEN -->
+  <div id="screen-results" class="screen">
+    <div class="results-card">
+      <div class="crown">♛</div>
+      <h2 class="results-title" id="results-title"></h2>
+      <div class="score-display" id="score-display"></div>
+
+      <div class="category-breakdown" id="category-breakdown"></div>
+
+      <div class="results-actions">
+        <button class="btn-primary" id="btn-share">Copy Score 📋</button>
+        <p class="share-confirm" id="share-confirm" style="display:none;">Copied to clipboard!</p>
+      </div>
+
+      <p class="comeback-msg">New quiz drops tomorrow. See you then.</p>
+    </div>
+  </div>
+
+  <!-- NO QUIZ SCREEN -->
+  <div id="screen-noquiz" class="screen">
+    <div class="landing-card">
+      <div class="crown">♛</div>
+      <h1 class="logo">Fact Royale</h1>
+      <p class="tagline">No quiz loaded for today. Check back soon.</p>
+    </div>
+  </div>
+
+  <script src="quiz.js"></script>
+</body>
+</html>
