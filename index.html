@@ -367,6 +367,10 @@
 
       <!-- Sign Up Form -->
       <form id="form-signup" class="auth-form" style="display:none;">
+        <div class="auth-input-row">
+          <input type="text" class="auth-input" id="signup-firstname" placeholder="First name" autocomplete="given-name" required />
+          <input type="text" class="auth-input" id="signup-lastname"  placeholder="Last name"  autocomplete="family-name" required />
+        </div>
         <input type="text"     class="auth-input" id="signup-name"     placeholder="Display name (shown on leaderboard)" autocomplete="nickname" required />
         <input type="email"    class="auth-input" id="signup-email"    placeholder="Email address" autocomplete="email" required />
         <input type="password" class="auth-input" id="signup-password" placeholder="Password (min 6 characters)" autocomplete="new-password" required />

@@ -112,24 +112,28 @@ document.getElementById('form-login').addEventListener('submit', async (e) => {
 // Uses the same Apps Script endpoint as the notify form.
 const SHEET_URL = 'https://script.google.com/macros/s/AKfycbzCboRQs6V2YbKuUTSnGIdMXZIPlmYl2jLZVMnbvapVNlDIOKlQgLmsW1Qqjsc1BkoK/exec';
 
-function logSignupToSheet(email, name, source) {
+function logSignupToSheet(email, displayName, firstName, lastName, source) {
   fetch(SHEET_URL, {
     method: 'POST',
     mode:   'no-cors',
-    body:   new URLSearchParams({ email, name, source })
+    body:   new URLSearchParams({ email, name: displayName, firstName, lastName, source })
   }).catch(() => {}); // fire-and-forget, never block the signup flow
 }
 
 // ── Email Sign Up ──────────────────────────────────────
 document.getElementById('form-signup').addEventListener('submit', async (e) => {
   e.preventDefault();
-  const name     = document.getElementById('signup-name').value.trim();
-  const email    = document.getElementById('signup-email').value.trim();
-  const password = document.getElementById('signup-password').value;
-  const errorEl  = document.getElementById('signup-error');
-  const btn      = e.target.querySelector('button[type="submit"]');
+  const firstName = document.getElementById('signup-firstname').value.trim();
+  const lastName  = document.getElementById('signup-lastname').value.trim();
+  const name      = document.getElementById('signup-name').value.trim();
+  const email     = document.getElementById('signup-email').value.trim();
+  const password  = document.getElementById('signup-password').value;
+  const errorEl   = document.getElementById('signup-error');
+  const btn       = e.target.querySelector('button[type="submit"]');
 
-  if (!name)              { errorEl.textContent = 'Please enter a display name.'; return; }
+  if (!firstName)          { errorEl.textContent = 'Please enter your first name.'; return; }
+  if (!lastName)           { errorEl.textContent = 'Please enter your last name.'; return; }
+  if (!name)               { errorEl.textContent = 'Please enter a display name.'; return; }
   if (password.length < 6) { errorEl.textContent = 'Password must be at least 6 characters.'; return; }
 
   btn.textContent = 'Creating account…';
@@ -138,8 +142,8 @@ document.getElementById('form-signup').addEventListener('submit', async (e) => {
   try {
     const cred = await auth.createUserWithEmailAndPassword(email, password);
     await cred.user.updateProfile({ displayName: name });
-    await createUserProfile(cred.user, name);
-    logSignupToSheet(email, name, 'account');
+    await createUserProfile(cred.user, name, firstName, lastName);
+    logSignupToSheet(email, name, firstName, lastName, 'account');
     closeAuthModal();
   } catch (err) {
     errorEl.textContent = friendlyAuthError(err.code);
@@ -173,10 +177,12 @@ document.getElementById('btn-signout').addEventListener('click', async () => {
 });
 
 // ── Create User Profile in Firestore ──────────────────
-async function createUserProfile(user, displayName) {
+async function createUserProfile(user, displayName, firstName, lastName) {
   const name = displayName || user.displayName || 'Player';
   await db.collection('users').doc(user.uid).set({
     displayName: name,
+    firstName:   firstName || '',
+    lastName:    lastName  || '',
     email: user.email,
     createdAt: firebase.firestore.FieldValue.serverTimestamp(),
     stats: {
