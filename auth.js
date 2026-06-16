@@ -310,6 +310,19 @@ function getSeedPlayers(dateKey, count) {
   });
 }
 
+// How many seed players to show based on time of day.
+// Seeds trickle in gradually after midnight to make the board
+// feel like real activity is building — not instantly full.
+function getSeedCap() {
+  const hour = new Date().getHours() + new Date().getMinutes() / 60;
+  if (hour <  2) return 0;   // midnight–2am:  empty board
+  if (hour <  6) return 2;   // 2am–6am:       2 seeds
+  if (hour <  9) return 4;   // 6am–9am:       4 seeds
+  if (hour < 12) return 6;   // 9am–noon:      6 seeds
+  if (hour < 15) return 8;   // noon–3pm:      8 seeds
+  return 10;                  // 3pm onwards:   full board
+}
+
 // ── Load Leaderboard ───────────────────────────────────
 async function loadLeaderboard() {
   const listEl = document.getElementById('leaderboard-list');
@@ -328,8 +341,9 @@ async function loadLeaderboard() {
     const realScores = [];
     snap.forEach(doc => realScores.push(doc.data()));
 
-    // Pad with seed players so the board always shows 10 entries
-    const seedsNeeded = Math.max(0, 10 - realScores.length);
+    // Pad with seeds up to the time-of-day cap
+    const seedCap     = getSeedCap();
+    const seedsNeeded = Math.max(0, Math.min(seedCap, 10) - realScores.length);
     const seeds       = getSeedPlayers(todayStr, seedsNeeded);
     const allScores   = [...realScores, ...seeds]
       .sort((a, b) => b.score - a.score);  // ensure correct rank order
@@ -349,12 +363,15 @@ function renderLeaderboard(scores, realCount) {
   realCount = realCount || 0;
 
   if (countEl) {
-    // Only show count when the board is full of real players (no seeds)
-    countEl.textContent = realCount === 0
-      ? 'Be the first on the board!'
-      : realCount >= 10
-        ? `${realCount} players today`
-        : '';
+    const totalShown = scores.length;
+    const seedsShown = totalShown - realCount;
+    if (realCount === 0 && seedsShown === 0) {
+      countEl.textContent = 'Be the first on the board!';
+    } else if (realCount >= 10) {
+      countEl.textContent = `${realCount} players today`;
+    } else {
+      countEl.textContent = '';
+    }
   }
 
   const medals  = ['🥇', '🥈', '🥉'];
