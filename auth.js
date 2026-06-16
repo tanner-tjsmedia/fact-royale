@@ -107,6 +107,19 @@ document.getElementById('form-login').addEventListener('submit', async (e) => {
   }
 });
 
+// ── Log signup to Google Sheet ─────────────────────────
+// Fires on new account creation (email or Google).
+// Uses the same Apps Script endpoint as the notify form.
+const SHEET_URL = 'https://script.google.com/macros/s/AKfycbzCboRQs6V2YbKuUTSnGIdMXZIPlmYl2jLZVMnbvapVNlDIOKlQgLmsW1Qqjsc1BkoK/exec';
+
+function logSignupToSheet(email, name, source) {
+  fetch(SHEET_URL, {
+    method: 'POST',
+    mode:   'no-cors',
+    body:   new URLSearchParams({ email, name, source })
+  }).catch(() => {}); // fire-and-forget, never block the signup flow
+}
+
 // ── Email Sign Up ──────────────────────────────────────
 document.getElementById('form-signup').addEventListener('submit', async (e) => {
   e.preventDefault();
@@ -126,6 +139,7 @@ document.getElementById('form-signup').addEventListener('submit', async (e) => {
     const cred = await auth.createUserWithEmailAndPassword(email, password);
     await cred.user.updateProfile({ displayName: name });
     await createUserProfile(cred.user, name);
+    logSignupToSheet(email, name, 'account');
     closeAuthModal();
   } catch (err) {
     errorEl.textContent = friendlyAuthError(err.code);
@@ -143,6 +157,7 @@ document.getElementById('btn-google-signin').addEventListener('click', async () 
     const snap = await profileRef.get();
     if (!snap.exists) {
       await createUserProfile(cred.user, cred.user.displayName);
+      logSignupToSheet(cred.user.email, cred.user.displayName, 'google');
     }
     closeAuthModal();
   } catch (err) {
