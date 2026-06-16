@@ -306,7 +306,8 @@ async function loadLeaderboard() {
     // Pad with seed players so the board always shows 10 entries
     const seedsNeeded = Math.max(0, 10 - realScores.length);
     const seeds       = getSeedPlayers(todayStr, seedsNeeded);
-    const allScores   = [...realScores, ...seeds];
+    const allScores   = [...realScores, ...seeds]
+      .sort((a, b) => b.score - a.score);  // ensure correct rank order
 
     renderLeaderboard(allScores, realScores.length);
   } catch (err) {
@@ -323,9 +324,12 @@ function renderLeaderboard(scores, realCount) {
   realCount = realCount || 0;
 
   if (countEl) {
+    // Only show count when the board is full of real players (no seeds)
     countEl.textContent = realCount === 0
       ? 'Be the first on the board!'
-      : `${realCount} player${realCount !== 1 ? 's' : ''} today`;
+      : realCount >= 10
+        ? `${realCount} players today`
+        : '';
   }
 
   const medals  = ['🥇', '🥈', '🥉'];

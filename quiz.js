@@ -3,6 +3,8 @@
    =========================== */
 
 // ── Fun Facts ──────────────────────────────────────────
+// One fact per day, cycling through the list annually.
+// Add more facts here to extend before the cycle repeats.
 const FUN_FACTS = [
   "Cleopatra lived closer in time to the Moon landing than to the construction of the Great Pyramid.",
   "Oxford University is older than the Aztec Empire.",
@@ -11,7 +13,7 @@ const FUN_FACTS = [
   "Scotland's national animal is the unicorn.",
   "Nintendo was founded in 1889 — originally as a playing card company.",
   "The Eiffel Tower grows about 6 inches taller in summer due to thermal expansion.",
-  "Honey never spoils. Archaeologists have found 3,000-year-old honey in Egyptian tombs that was still edible.",
+  "Honey never spoils. Archaeologists found 3,000-year-old honey in Egyptian tombs that was still edible.",
   "Bananas are berries, but strawberries are not.",
   "The inventor of the Pringles can is buried in one.",
   "Wombats are the only animals known to produce cube-shaped droppings.",
@@ -22,17 +24,47 @@ const FUN_FACTS = [
   "The Great Wall of China is not visible from space with the naked eye — that's a persistent myth.",
   "The first known computer bug was a real bug: a moth found in a Harvard relay in 1947.",
   "The Hawaiian alphabet has only 13 letters.",
-  "The average person will walk roughly 100,000 miles in their lifetime — about four trips around the Earth.",
-  "Sharks are older than trees. Sharks have existed for ~450 million years; trees for ~350 million.",
+  "The average person walks roughly 100,000 miles in their lifetime — about four trips around the Earth.",
+  "Sharks are older than trees. Sharks have existed ~450 million years; trees ~350 million.",
   "A group of flamingos is called a flamboyance.",
   "The word 'quiz' has no agreed-upon origin — its etymology is genuinely unknown.",
   "Humans share about 60% of their DNA with bananas.",
-  "Marie Curie's notebooks are still radioactive and stored in lead-lined boxes. Visitors must sign a waiver to view them.",
+  "Marie Curie's notebooks are still radioactive. Visitors must sign a waiver to view them.",
   "The total weight of all ants on Earth is roughly comparable to the total weight of all humans.",
+  "It took more time to build Stonehenge than the entire span of the Roman Empire.",
+  "The electric chair was invented by a dentist.",
+  "The blob of toothpaste on a toothbrush is called a nurdle.",
+  "Pope John Paul II was an honorary Harlem Globetrotter.",
+  "A flock of crows is called a murder. A group of owls is called a parliament.",
+  "The average cloud weighs about 1.1 million pounds.",
+  "Cows have regional accents — their moos differ depending on the herd they grew up in.",
+  "The longest English word that can be typed using only the top row of a keyboard is 'typewriter.'",
+  "A group of pugs is called a grumble.",
+  "Pineapples take about two years to grow. Each plant produces roughly one pineapple per year.",
+  "The Statue of Liberty's full name is 'Liberty Enlightening the World.'",
+  "The 'dot' over a lowercase i or j is called a tittle.",
+  "Butterflies taste with their feet.",
+  "The total length of blood vessels in the human body is about 60,000 miles.",
+  "A jiffy is an actual unit of time: 1/100th of a second.",
+  "Mosquitoes are the deadliest animals on Earth, responsible for more human deaths than any other creature.",
+  "The moon is drifting away from Earth at about 1.5 inches per year.",
+  "There is a species of jellyfish that is considered biologically immortal.",
+  "The average person spends about six months of their life waiting at red lights.",
+  "Figs are pollinated by wasps that die inside the fig — you eat them too.",
+  "It is impossible to hum while holding your nose closed.",
+  "A single strand of spaghetti is called a spaghetto.",
+  "The small pocket inside a jeans pocket was originally designed for pocket watches.",
+  "Penguins propose to their mates with a pebble.",
+  "There are more stars in the universe than grains of sand on all of Earth's beaches.",
+  "The fingerprints of a koala are so similar to human fingerprints they have confused crime scene investigators.",
+  "The world's oldest known recipe is for beer, from ancient Mesopotamia around 1800 BC.",
 ];
 
-function getRandomFunFact() {
-  return FUN_FACTS[Math.floor(Math.random() * FUN_FACTS.length)];
+function getDailyFunFact() {
+  const now   = new Date();
+  const start = new Date(now.getFullYear(), 0, 0);
+  const dayOfYear = Math.floor((now - start) / 86400000);
+  return FUN_FACTS[dayOfYear % FUN_FACTS.length];
 }
 
 // ── State ──────────────────────────────────────────────
@@ -345,8 +377,8 @@ function showResults() {
     breakdown.appendChild(streakRow);
   }
 
-  // Fun fact
-  document.getElementById('fun-fact-text').textContent = getRandomFunFact();
+  // Fun fact — same fact for everyone on the same day
+  document.getElementById('fun-fact-text').textContent = getDailyFunFact();
 
   // Share
   document.getElementById('btn-share').onclick = shareScore;
