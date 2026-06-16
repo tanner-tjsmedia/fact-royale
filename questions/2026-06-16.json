@@ -1,0 +1,135 @@
+{
+  "date": "2026-06-16",
+  "questions": [
+    {
+      "category": "History",
+      "question": "Which U.S. President signed the Emancipation Proclamation in 1863?",
+      "options": [
+        "Ulysses S. Grant",
+        "Abraham Lincoln",
+        "Andrew Johnson",
+        "James Buchanan"
+      ],
+      "answer": "Abraham Lincoln",
+      "explanation": "Abraham Lincoln issued the Emancipation Proclamation on January 1, 1863, declaring enslaved people in Confederate states to be free. It didn't end slavery outright — that came with the 13th Amendment in 1865 — but it fundamentally changed the character of the Civil War.",
+      "memory_hook": "Lincoln is on the penny and the $5 bill — two denominations, two big moves: the Proclamation and the 13th Amendment. He did double the work."
+    },
+    {
+      "category": "History",
+      "question": "What ancient city was buried under volcanic ash when Mount Vesuvius erupted in 79 AD?",
+      "options": [
+        "Athens",
+        "Carthage",
+        "Pompeii",
+        "Syracuse"
+      ],
+      "answer": "Pompeii",
+      "explanation": "Mount Vesuvius erupted on August 24, 79 AD, burying the Roman city of Pompeii under 13-20 feet of volcanic ash and pumice. The city was preserved so completely that archaeologists have uncovered entire streets, buildings, artwork, and even the shapes of people frozen at the moment of death.",
+      "memory_hook": "Pompeii = 'frozen in time.' The ash that destroyed it also preserved it — the worst disaster became history's greatest time capsule."
+    },
+    {
+      "category": "History",
+      "question": "The Silk Road was a network of trade routes connecting China to which region?",
+      "options": [
+        "Sub-Saharan Africa",
+        "The Mediterranean and Europe",
+        "The Americas",
+        "Australia"
+      ],
+      "answer": "The Mediterranean and Europe",
+      "explanation": "The Silk Road stretched roughly 4,000 miles, linking China through Central Asia to the Mediterranean world. It wasn't just one road but a network of routes, and it traded far more than silk — spices, glassware, paper, gunpowder, religion, and disease all traveled these routes.",
+      "memory_hook": "Silk Road = East meets West. Think of it as the ancient internet — information, goods, and ideas flowing in both directions across the known world."
+    },
+    {
+      "category": "Sports",
+      "question": "In what sport would you perform a 'slam dunk'?",
+      "options": [
+        "Volleyball",
+        "Tennis",
+        "Basketball",
+        "Water polo"
+      ],
+      "answer": "Basketball",
+      "explanation": "A slam dunk is when a player jumps and forcefully drives the ball down through the basket. Wilt Chamberlain is widely credited with popularizing it in the early 1960s. The dunk was actually banned in college basketball (NCAA) from 1967–1976, largely because Lew Alcindor (later Kareem Abdul-Jabbar) was so dominant.",
+      "memory_hook": "Dunk = down. The ball goes DOWN through the hoop from ABOVE. Simple physics, maximum theater."
+    },
+    {
+      "category": "Sports",
+      "question": "How many players are on the field for one team in American football?",
+      "options": [
+        "10",
+        "12",
+        "9",
+        "11"
+      ],
+      "answer": "11",
+      "explanation": "Each team fields 11 players at a time in American football — the same as soccer. The offense and defense are separate units, each with 11 players, though rosters can carry 53 players (NFL). Having 12 men on the field is actually a penalty.",
+      "memory_hook": "11 on each side — same as soccer. Two very different sports, same number on the field. Eleven is apparently the magic number for team sports."
+    },
+    {
+      "category": "Sports",
+      "question": "Which tennis tournament is played on grass courts and considered the oldest Grand Slam?",
+      "options": [
+        "The US Open",
+        "The Australian Open",
+        "Wimbledon",
+        "The French Open"
+      ],
+      "answer": "Wimbledon",
+      "explanation": "Wimbledon, formally The Championships, has been held at the All England Club in London since 1877, making it the oldest Grand Slam tennis tournament in the world. It is the only Grand Slam still played on grass, and players are traditionally required to wear all white.",
+      "memory_hook": "Wimbledon = white and green. White clothes, green grass, oldest tournament. If you picture a proper English garden party with tennis rackets, you've got Wimbledon."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Who played Iron Man in the Marvel Cinematic Universe?",
+      "options": [
+        "Chris Evans",
+        "Mark Ruffalo",
+        "Chris Hemsworth",
+        "Robert Downey Jr."
+      ],
+      "answer": "Robert Downey Jr.",
+      "explanation": "Robert Downey Jr. portrayed Tony Stark / Iron Man across 10 MCU films from 2008 to 2019. His portrayal launched the entire MCU franchise, and Iron Man (2008) is widely credited as the film that proved the shared superhero universe concept could work at scale.",
+      "memory_hook": "RDJ = Tony Stark. Both have the same energy: charming, a little arrogant, unmistakably themselves. It's the role he was born to play — and he knew it before Marvel did."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Which artist released the best-selling album 'Thriller' in 1982?",
+      "options": [
+        "Prince",
+        "Michael Jackson",
+        "David Bowie",
+        "Stevie Wonder"
+      ],
+      "answer": "Michael Jackson",
+      "explanation": "Thriller was released on November 30, 1982, and remains the best-selling album of all time with an estimated 66-70 million copies sold worldwide. It produced seven Billboard Hot 100 top-10 singles — a record — and the 14-minute 'Thriller' music video is considered a landmark in the art form.",
+      "memory_hook": "Thriller = 66+ million copies. That's roughly the population of the UK, all owning the same album. Michael Jackson didn't just sell records — he sold a cultural moment."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "In the movie 'Home Alone,' in which city is Kevin McCallister's house located?",
+      "options": [
+        "Chicago",
+        "New York City",
+        "Detroit",
+        "Boston"
+      ],
+      "answer": "Chicago",
+      "explanation": "Kevin McCallister's family lives in the fictional address of 671 Lincoln Blvd in Winnetka, a suburb of Chicago, Illinois. The actual house used for filming is located at 671 Lincoln Avenue in Winnetka and is a real landmark that fans visit regularly.",
+      "memory_hook": "Chicago + Christmas + chaos. The city known for wind and hustle gave us a kid who took on two criminals alone. Very on-brand for Chicago."
+    },
+    {
+      "category": "History",
+      "question": "Which explorer is credited with leading the first expedition to circumnavigate the globe?",
+      "options": [
+        "Christopher Columbus",
+        "Vasco da Gama",
+        "Ferdinand Magellan",
+        "Francis Drake"
+      ],
+      "answer": "Ferdinand Magellan",
+      "explanation": "Ferdinand Magellan led the expedition that first circumnavigated the Earth, departing Spain in 1519. Magellan himself was killed in the Philippines in 1521, but his crew completed the voyage under Juan Sebastián Elcano, returning to Spain in 1522 with only 18 of the original 270 men.",
+      "memory_hook": "Magellan started it, but didn't finish it — he died halfway. The trip took 3 years and only 18 men made it back. Going around the world was nearly a death sentence."
+    }
+  ]
+}
