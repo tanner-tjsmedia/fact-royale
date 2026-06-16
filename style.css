@@ -31,11 +31,17 @@
   --page-width: 1100px;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background: var(--bg);
   color: var(--text);
   font-family: 'Nunito', sans-serif;
   min-height: 100vh;
+  /* Prevent font size zoom on iOS input focus */
+  -webkit-text-size-adjust: 100%;
 }
 
 @keyframes fadeIn {
@@ -217,6 +223,9 @@ body {
   white-space: nowrap;
   font-family: 'Nunito', sans-serif;
   box-shadow: 0 0 32px rgba(240,192,64,0.2);
+  -webkit-tap-highlight-color: transparent;
+  touch-action: manipulation;
+  min-height: 52px;
 }
 
 .btn-hero:hover {
@@ -626,6 +635,10 @@ body {
   cursor: pointer;
   transition: background var(--transition), transform var(--transition);
   font-family: 'Nunito', sans-serif;
+  /* Mobile: no tap flash, proper touch sizing */
+  -webkit-tap-highlight-color: transparent;
+  touch-action: manipulation;
+  min-height: 44px;
 }
 
 .btn-primary:hover {
@@ -646,6 +659,9 @@ body {
   font-family: 'Nunito', sans-serif;
   white-space: nowrap;
   align-self: flex-start;
+  -webkit-tap-highlight-color: transparent;
+  touch-action: manipulation;
+  min-height: 44px;
 }
 
 .btn-outline:hover {
@@ -666,6 +682,9 @@ body {
   margin-top: 20px;
   width: 100%;
   font-family: 'Nunito', sans-serif;
+  -webkit-tap-highlight-color: transparent;
+  touch-action: manipulation;
+  min-height: 48px;
 }
 
 .btn-next:hover { background: #2e2e4a; }
@@ -796,6 +815,9 @@ body {
   cursor: pointer;
   transition: border-color var(--transition), background var(--transition), transform var(--transition);
   font-family: 'Nunito', sans-serif;
+  -webkit-tap-highlight-color: transparent;
+  touch-action: manipulation;
+  min-height: 50px;
 }
 
 .option-btn:hover:not(:disabled) {
@@ -909,29 +931,105 @@ body {
 .cat-default { background: rgba(100,116,139,0.15); color: var(--default); }
 
 /* ===========================
-   RESPONSIVE
+   RESPONSIVE — TABLET (≤768px)
    =========================== */
 
 @media (max-width: 768px) {
-  .home-nav  { padding: 16px 20px; }
-  .hero      { padding: 48px 20px 40px; }
-  .hero-title { font-size: 3rem; }
-  .home-section { padding: 48px 20px; }
-  .daily-grid { grid-template-columns: 1fr; }
-  .features-grid { grid-template-columns: 1fr 1fr; }
-  .notify-card { flex-direction: column; gap: 28px; }
+  /* Nav */
+  .home-nav { padding: 16px 20px; }
+  .nav-links { gap: 16px; }
+  .nav-link:not(.nav-link-cta) { display: none; } /* only keep the CTA pill */
+
+  /* Hero */
+  .hero { padding: 48px 20px 40px; }
+  .hero-title { font-size: clamp(2.4rem, 8vw, 3.6rem); }
+  .hero-sub { font-size: 1rem; }
   .hero-stat-row { gap: 0; }
   .hero-stat { padding: 0 24px 0 0; }
   .hero-stat-divider { margin-right: 24px; }
+
+  /* Sections */
+  .home-section { padding: 48px 20px; }
+  .notify-section { padding: 48px 20px; }
+  .home-footer { padding: 24px 20px; }
+
+  /* Grids */
+  .daily-grid { grid-template-columns: 1fr; }
+  .features-grid { grid-template-columns: 1fr 1fr; }
+
+  /* Email */
+  .notify-card { flex-direction: column; gap: 28px; }
+
+  /* Quiz */
+  .quiz-header,
+  .progress-wrap,
+  .progress-text,
+  .question-card {
+    max-width: 100%;
+  }
+  #screen-quiz.active,
+  #screen-results.active,
+  #screen-noquiz.active {
+    padding: 16px 12px;
+    justify-content: flex-start;
+    padding-top: 24px;
+  }
 }
 
+/* ===========================
+   RESPONSIVE — MOBILE (≤480px)
+   =========================== */
+
 @media (max-width: 480px) {
-  .hero-title { font-size: 2.4rem; }
-  .features-grid { grid-template-columns: 1fr; }
-  .hero-stat-row { flex-wrap: wrap; gap: 20px; }
+  /* Hero */
+  .hero-title { font-size: clamp(2rem, 10vw, 2.8rem); letter-spacing: -1px; }
+  .hero-sub { font-size: 0.95rem; }
+  .hero-eyebrow { font-size: 0.7rem; }
+  .hero-actions { flex-direction: column; align-items: stretch; }
+  .btn-hero { text-align: center; }
+  .hero-badges { justify-content: flex-start; }
+  .hero-stat-row { flex-wrap: wrap; gap: 20px; padding-top: 24px; margin-top: 32px; }
   .hero-stat-divider { display: none; }
+  .hero-stat { padding: 0; }
+  .stat-num { font-size: 1.6rem; }
+
+  /* Nav — just the logo + CTA pill */
+  .home-nav { padding: 14px 16px; }
+
+  /* Sections */
+  .home-section { padding: 40px 16px; }
+  .notify-section { padding: 40px 16px; }
+  .section-header { flex-direction: column; gap: 16px; }
+  .section-title { font-size: 1.5rem; }
+  .btn-outline { align-self: stretch; text-align: center; }
+
+  /* Grids */
+  .features-grid { grid-template-columns: 1fr; }
+  .daily-side-cards { flex-direction: column; }
+
+  /* Email */
   .notify-form { flex-direction: column; align-items: stretch; }
-  .notify-input { width: 100%; }
-  .section-header { flex-direction: column; }
-  .hero-actions { flex-direction: column; align-items: flex-start; }
+  .notify-input { width: 100%; box-sizing: border-box; }
+  .notify-btn { width: 100%; text-align: center; }
+  .notify-title { font-size: 1.6rem; }
+
+  /* Footer */
+  .home-footer { padding: 20px 16px; }
+  .footer-inner { flex-direction: column; align-items: flex-start; gap: 6px; }
+
+  /* Quiz card — use full screen width on phones */
+  .question-card { padding: 20px 16px; border-radius: 10px; }
+  .question-text { font-size: 1.05rem; }
+  .option-btn { font-size: 0.9rem; padding: 12px 14px; }
+  .results-card { padding: 32px 20px; border-radius: 10px; }
+  .score-display { font-size: 3rem; }
+
+  /* Safe area padding for notched iPhones */
+  #screen-quiz.active,
+  #screen-results.active,
+  #screen-noquiz.active {
+    padding-bottom: calc(16px + env(safe-area-inset-bottom));
+    padding-left: calc(12px + env(safe-area-inset-left));
+    padding-right: calc(12px + env(safe-area-inset-right));
+  }
 }
