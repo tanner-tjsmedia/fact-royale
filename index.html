@@ -17,84 +17,168 @@
     <nav class="home-nav">
       <span class="nav-logo">♛ Fact Royale</span>
       <div class="nav-links">
-        <a href="#daily" class="nav-link">Daily Quiz</a>
-        <a href="#coming-soon" class="nav-link">Coming Soon</a>
+        <a href="#daily" class="nav-link">Play Today</a>
+        <a href="#coming-soon" class="nav-link">Features</a>
+        <a href="#notify" class="nav-link nav-link-cta">Stay Updated</a>
       </div>
     </nav>
 
     <!-- HERO -->
     <section class="hero">
-      <div class="hero-inner">
-        <p class="hero-eyebrow">The daily trivia platform</p>
-        <h1 class="hero-title">Know More.<br/>Every Day.</h1>
-        <p class="hero-sub">One daily quiz. Real explanations. The kind of facts you actually remember.</p>
-        <div class="hero-meta">
-          <span class="meta-badge" id="landing-date"></span>
-          <span class="meta-badge" id="landing-streak"></span>
+      <div class="hero-glow"></div>
+      <div class="hero-content">
+        <p class="hero-eyebrow">♛ The Daily Trivia Platform</p>
+        <h1 class="hero-title">Know More.<br/><span class="hero-title-accent">Every Day.</span></h1>
+        <p class="hero-sub">One daily quiz. Real explanations after every answer.<br/>The kind of facts that actually stick.</p>
+        <div class="hero-actions">
+          <button class="btn-hero" id="btn-start-hero">Play Today's Quiz →</button>
+          <div class="hero-badges">
+            <span class="meta-badge" id="landing-date"></span>
+            <span class="meta-badge" id="landing-streak"></span>
+          </div>
         </div>
+        <p class="already-played" id="already-played-msg" style="display:none;">
+          You've already played today — nice work! &nbsp;<span id="final-score-replay"></span>&nbsp; Come back tomorrow.
+        </p>
+      </div>
+      <div class="hero-stat-row">
+        <div class="hero-stat"><span class="stat-num">10</span><span class="stat-label">Questions Daily</span></div>
+        <div class="hero-stat-divider"></div>
+        <div class="hero-stat"><span class="stat-num">3</span><span class="stat-label">Categories</span></div>
+        <div class="hero-stat-divider"></div>
+        <div class="hero-stat"><span class="stat-num">100%</span><span class="stat-label">Free to Play</span></div>
       </div>
     </section>
 
-    <!-- TODAY'S QUIZ CARD -->
+    <!-- TODAY'S CHALLENGE -->
     <section class="home-section" id="daily">
-      <h2 class="section-title">Today's Challenge</h2>
-      <div class="daily-card">
-        <div class="daily-card-left">
-          <p class="daily-label">Daily Quiz</p>
-          <p class="daily-desc">10 questions across History, Sports, and Music & Movies. Wrong answers come with a breakdown so you actually learn something.</p>
-          <div class="category-pills" id="landing-categories"></div>
+      <div class="section-header">
+        <div>
+          <h2 class="section-title">Today's Challenge</h2>
+          <p class="section-sub">Fresh questions every day. Wrong answers come with a full breakdown — you'll actually learn something.</p>
         </div>
-        <div class="daily-card-right">
-          <button class="btn-primary" id="btn-start">Play Now →</button>
-          <p class="already-played" id="already-played-msg" style="display:none;">
-            Already played today!<br/>
-            <span id="final-score-replay"></span><br/>
-            Come back tomorrow.
-          </p>
+        <button class="btn-outline" id="btn-start-section">Play Now →</button>
+      </div>
+
+      <div class="daily-grid">
+        <div class="daily-main-card">
+          <div class="daily-card-top">
+            <span class="daily-label">Daily Quiz</span>
+            <span class="daily-live-dot"><span class="dot-pulse"></span> Live</span>
+          </div>
+          <p class="daily-card-title">Test your knowledge across three categories today</p>
+          <div class="category-pills" id="landing-categories"></div>
+          <p class="daily-card-meta" id="landing-date-card"></p>
+        </div>
+
+        <div class="daily-side-cards">
+          <div class="side-card">
+            <div class="side-card-icon">💡</div>
+            <h4 class="side-card-title">Learn from misses</h4>
+            <p class="side-card-desc">Every wrong answer reveals a breakdown and a memory hook so it sticks.</p>
+          </div>
+          <div class="side-card">
+            <div class="side-card-icon">🔥</div>
+            <h4 class="side-card-title">Build your streak</h4>
+            <p class="side-card-desc">Play daily to keep your streak alive. Miss a day and start over.</p>
+          </div>
+          <div class="side-card">
+            <div class="side-card-icon">📤</div>
+            <h4 class="side-card-title">Share your score</h4>
+            <p class="side-card-desc">Copy your result and challenge friends to beat it.</p>
+          </div>
         </div>
       </div>
     </section>
 
     <!-- COMING SOON -->
     <section class="home-section" id="coming-soon">
-      <h2 class="section-title">What's Coming</h2>
-      <p class="section-sub">Fact Royale is just getting started. Here's what's being built.</p>
+      <div class="section-header">
+        <div>
+          <h2 class="section-title">What's Coming</h2>
+          <p class="section-sub">Fact Royale is building out a full trivia platform. Here's what's on the roadmap.</p>
+        </div>
+      </div>
       <div class="features-grid">
 
         <div class="feature-card">
-          <div class="feature-icon">🏆</div>
-          <h3 class="feature-title">Leaderboards</h3>
-          <p class="feature-desc">Compete against other players on daily and all-time rankings. See where you stack up.</p>
+          <div class="feature-icon-wrap">🏆</div>
+          <div class="feature-body">
+            <h3 class="feature-title">Leaderboards</h3>
+            <p class="feature-desc">Daily and all-time rankings. See where you stack up against every other player.</p>
+          </div>
           <span class="feature-badge">Coming Soon</span>
         </div>
 
         <div class="feature-card">
-          <div class="feature-icon">📊</div>
-          <h3 class="feature-title">Category Mastery</h3>
-          <p class="feature-desc">Track your knowledge across every category. Identify your strengths — and your blind spots.</p>
+          <div class="feature-icon-wrap">📊</div>
+          <div class="feature-body">
+            <h3 class="feature-title">Category Mastery</h3>
+            <p class="feature-desc">Track your accuracy across every category and sub-topic over time. Know your strengths.</p>
+          </div>
           <span class="feature-badge">Coming Soon</span>
         </div>
 
         <div class="feature-card">
-          <div class="feature-icon">⚡</div>
-          <h3 class="feature-title">Live Multiplayer</h3>
-          <p class="feature-desc">Head-to-head trivia in real time. Invite friends or match against strangers.</p>
+          <div class="feature-icon-wrap">⚡</div>
+          <div class="feature-body">
+            <h3 class="feature-title">Live Multiplayer</h3>
+            <p class="feature-desc">Head-to-head trivia in real time. Create a lobby, invite friends, and see who wins.</p>
+          </div>
           <span class="feature-badge">Coming Soon</span>
         </div>
 
         <div class="feature-card">
-          <div class="feature-icon">🎯</div>
-          <h3 class="feature-title">Mastery Competitions</h3>
-          <p class="feature-desc">Community-wide events where category masters compete for the top spot. Pub quiz, evolved.</p>
+          <div class="feature-icon-wrap">🎯</div>
+          <div class="feature-body">
+            <h3 class="feature-title">Mastery Competitions</h3>
+            <p class="feature-desc">Community-wide events where category masters go head to head. Pub quiz, evolved.</p>
+          </div>
+          <span class="feature-badge">Coming Soon</span>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon-wrap">🧠</div>
+          <div class="feature-body">
+            <h3 class="feature-title">Study Mode</h3>
+            <p class="feature-desc">Drill specific categories at your own pace. Spaced repetition for the facts that matter to you.</p>
+          </div>
+          <span class="feature-badge">Coming Soon</span>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon-wrap">🎙️</div>
+          <div class="feature-body">
+            <h3 class="feature-title">Host a Quiz</h3>
+            <p class="feature-desc">Run your own live trivia night — online or in person. Custom questions, your crowd, your rules.</p>
+          </div>
           <span class="feature-badge">Coming Soon</span>
         </div>
 
       </div>
     </section>
 
+    <!-- EMAIL SIGNUP -->
+    <section class="home-section notify-section" id="notify">
+      <div class="notify-card">
+        <div class="notify-left">
+          <h2 class="notify-title">Be the first to know.</h2>
+          <p class="notify-sub">Drop your email and we'll let you know when leaderboards, multiplayer, and new features go live. No spam — just updates.</p>
+        </div>
+        <form class="notify-form" id="notify-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+          <input type="email" name="email" class="notify-input" placeholder="your@email.com" required />
+          <button type="submit" class="btn-primary notify-btn">Notify Me</button>
+        </form>
+        <p class="notify-confirm" id="notify-confirm" style="display:none;">You're in! We'll be in touch. ♛</p>
+      </div>
+    </section>
+
     <!-- FOOTER -->
     <footer class="home-footer">
-      <p>♛ Fact Royale &nbsp;·&nbsp; New quiz every day &nbsp;·&nbsp; Built for curious minds</p>
+      <div class="footer-inner">
+        <span class="footer-logo">♛ Fact Royale</span>
+        <p class="footer-copy">New quiz every day · Built for curious minds</p>
+      </div>
     </footer>
 
   </div>

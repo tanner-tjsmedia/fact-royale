@@ -99,14 +99,47 @@ function setupLanding(data) {
     `<span class="pill ${getCategoryClass(c)}">${c}</span>`
   ).join('');
 
+  // Set date on daily card
+  const dateCardEl = document.getElementById('landing-date-card');
+  if (dateCardEl) dateCardEl.textContent = formatDate(todayKey);
+
   // Already played today?
   if (alreadyPlayedToday()) {
-    document.getElementById('btn-start').style.display = 'none';
+    ['btn-start-hero', 'btn-start-section'].forEach(id => {
+      const el = document.getElementById(id);
+      if (el) el.style.display = 'none';
+    });
     document.getElementById('already-played-msg').style.display = 'block';
     document.getElementById('final-score-replay').textContent =
-      `Your score: ${localStorage.getItem('fr_lastScore')}`;
+      `Score: ${localStorage.getItem('fr_lastScore')}`;
   } else {
-    document.getElementById('btn-start').addEventListener('click', startQuiz);
+    ['btn-start-hero', 'btn-start-section'].forEach(id => {
+      const el = document.getElementById(id);
+      if (el) el.addEventListener('click', startQuiz);
+    });
+  }
+
+  // Email form
+  const form = document.getElementById('notify-form');
+  if (form) {
+    form.addEventListener('submit', (e) => {
+      e.preventDefault();
+      // If Formspree ID is set, submit; otherwise just show confirm
+      const action = form.getAttribute('action');
+      if (action && !action.includes('YOUR_FORM_ID')) {
+        fetch(action, {
+          method: 'POST',
+          body: new FormData(form),
+          headers: { 'Accept': 'application/json' }
+        }).then(() => {
+          form.style.display = 'none';
+          document.getElementById('notify-confirm').style.display = 'block';
+        });
+      } else {
+        form.style.display = 'none';
+        document.getElementById('notify-confirm').style.display = 'block';
+      }
+    });
   }
 }
 
