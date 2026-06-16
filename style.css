@@ -37,9 +37,18 @@ body {
   font-family: 'Nunito', sans-serif;
   min-height: 100vh;
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   padding: 16px;
+}
+
+/* Quiz + results screens stay centered vertically */
+#screen-quiz,
+#screen-results,
+#screen-noquiz {
+  justify-content: center;
+  min-height: calc(100vh - 32px);
 }
 
 /* ===========================
@@ -59,23 +68,256 @@ body {
   align-items: center;
 }
 
+/* Homepage gets a wider max-width */
+#screen-landing {
+  max-width: 800px;
+}
+
 @keyframes fadeIn {
   from { opacity: 0; transform: translateY(12px); }
   to   { opacity: 1; transform: translateY(0); }
 }
 
 /* ===========================
-   LANDING
+   HOME — NAV
    =========================== */
 
-.landing-card {
+#screen-landing {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  max-width: 800px;
+  width: 100%;
+  padding-bottom: 60px;
+}
+
+#screen-landing.active {
+  display: flex;
+}
+
+.home-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 20px 4px;
+  margin-bottom: 8px;
+}
+
+.nav-logo {
+  font-size: 1.15rem;
+  font-weight: 900;
+  color: var(--gold);
+  letter-spacing: -0.3px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 24px;
+}
+
+.nav-link {
+  color: var(--text-muted);
+  font-size: 0.88rem;
+  font-weight: 700;
+  text-decoration: none;
+  transition: color var(--transition);
+}
+
+.nav-link:hover {
+  color: var(--text);
+}
+
+/* ===========================
+   HOME — HERO
+   =========================== */
+
+.hero {
+  width: 100%;
+  padding: 48px 0 40px;
+  border-bottom: 1px solid rgba(255,255,255,0.06);
+  margin-bottom: 48px;
+}
+
+.hero-eyebrow {
+  font-size: 0.78rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: var(--gold);
+  margin-bottom: 16px;
+}
+
+.hero-title {
+  font-size: 3rem;
+  font-weight: 900;
+  color: var(--text);
+  line-height: 1.1;
+  letter-spacing: -1px;
+  margin-bottom: 16px;
+}
+
+.hero-sub {
+  font-size: 1.05rem;
+  color: var(--text-muted);
+  line-height: 1.6;
+  max-width: 480px;
+  margin-bottom: 24px;
+}
+
+.hero-meta {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+/* ===========================
+   HOME — SECTIONS
+   =========================== */
+
+.home-section {
+  width: 100%;
+  margin-bottom: 56px;
+}
+
+.section-title {
+  font-size: 1.3rem;
+  font-weight: 900;
+  color: var(--text);
+  margin-bottom: 6px;
+  letter-spacing: -0.3px;
+}
+
+.section-sub {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  margin-bottom: 24px;
+}
+
+/* ===========================
+   HOME — DAILY CARD
+   =========================== */
+
+.daily-card {
   background: var(--surface);
-  border: 1px solid rgba(240, 192, 64, 0.15);
+  border: 1px solid rgba(240, 192, 64, 0.2);
   border-radius: var(--radius);
-  padding: 48px 36px;
-  text-align: center;
+  padding: 28px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.daily-card-left {
+  flex: 1;
+  min-width: 200px;
+}
+
+.daily-label {
+  font-size: 0.72rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--gold);
+  margin-bottom: 8px;
+}
+
+.daily-desc {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  line-height: 1.6;
+  margin-bottom: 14px;
+}
+
+.daily-card-right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  min-width: 160px;
+}
+
+.daily-card-right .btn-primary {
   width: 100%;
 }
+
+/* ===========================
+   HOME — FEATURES GRID
+   =========================== */
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 16px;
+}
+
+.feature-card {
+  background: var(--surface);
+  border: 1px solid rgba(255,255,255,0.06);
+  border-radius: var(--radius);
+  padding: 24px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  transition: border-color var(--transition), transform var(--transition);
+}
+
+.feature-card:hover {
+  border-color: rgba(240, 192, 64, 0.2);
+  transform: translateY(-2px);
+}
+
+.feature-icon {
+  font-size: 1.6rem;
+  margin-bottom: 4px;
+}
+
+.feature-title {
+  font-size: 1rem;
+  font-weight: 800;
+  color: var(--text);
+}
+
+.feature-desc {
+  font-size: 0.84rem;
+  color: var(--text-muted);
+  line-height: 1.5;
+  flex: 1;
+}
+
+.feature-badge {
+  display: inline-block;
+  background: rgba(240, 192, 64, 0.1);
+  border: 1px solid rgba(240, 192, 64, 0.25);
+  color: var(--gold);
+  border-radius: 100px;
+  padding: 3px 10px;
+  font-size: 0.7rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  width: fit-content;
+  margin-top: 4px;
+}
+
+/* ===========================
+   HOME — FOOTER
+   =========================== */
+
+.home-footer {
+  width: 100%;
+  text-align: center;
+  padding-top: 32px;
+  border-top: 1px solid rgba(255,255,255,0.06);
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+
+/* ===========================
+   SHARED LANDING ELEMENTS
+   =========================== */
 
 .crown {
   font-size: 3rem;
@@ -97,14 +339,6 @@ body {
   margin-bottom: 28px;
 }
 
-.meta-row {
-  display: flex;
-  gap: 10px;
-  justify-content: center;
-  flex-wrap: wrap;
-  margin-bottom: 20px;
-}
-
 .meta-badge {
   background: var(--surface2);
   border: 1px solid rgba(255,255,255,0.08);
@@ -118,9 +352,8 @@ body {
 .category-pills {
   display: flex;
   gap: 8px;
-  justify-content: center;
   flex-wrap: wrap;
-  margin-bottom: 32px;
+  margin-bottom: 4px;
 }
 
 .pill {
@@ -134,10 +367,23 @@ body {
 }
 
 .already-played {
-  margin-top: 20px;
   color: var(--text-muted);
-  font-size: 0.9rem;
-  line-height: 1.5;
+  font-size: 0.85rem;
+  line-height: 1.6;
+  text-align: center;
+}
+
+/* ===========================
+   NO QUIZ SCREEN
+   =========================== */
+
+.landing-card {
+  background: var(--surface);
+  border: 1px solid rgba(240, 192, 64, 0.15);
+  border-radius: var(--radius);
+  padding: 48px 36px;
+  text-align: center;
+  width: 100%;
 }
 
 /* ===========================
