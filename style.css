@@ -1555,3 +1555,55 @@ body {
     padding-right: calc(12px + env(safe-area-inset-right));
   }
 }
+
+/* ===========================
+   RESULTS — FUN FACT & HOME
+   =========================== */
+
+.results-fun-fact {
+  background: var(--surface2);
+  border-radius: var(--radius);
+  border-left: 3px solid var(--gold);
+  padding: 1rem 1.25rem;
+  margin: 0 0 24px;
+  text-align: left;
+}
+
+.fun-fact-label {
+  display: block;
+  font-size: 0.72rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--gold);
+  margin-bottom: 6px;
+}
+
+.fun-fact-text {
+  font-size: 0.92rem;
+  color: var(--text-muted);
+  line-height: 1.55;
+}
+
+.btn-results-home {
+  display: block;
+  width: 100%;
+  margin-top: 12px;
+  padding: 13px 20px;
+  background: transparent;
+  border: 2px solid var(--surface2);
+  border-radius: var(--radius);
+  color: var(--text-muted);
+  font-family: 'Nunito', sans-serif;
+  font-size: 0.95rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: border-color var(--transition), color var(--transition);
+  -webkit-tap-highlight-color: transparent;
+  touch-action: manipulation;
+}
+
+.btn-results-home:hover {
+  border-color: rgba(255,255,255,0.25);
+  color: var(--text);
+}

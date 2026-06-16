@@ -2,6 +2,39 @@
    FACT ROYALE — Quiz Logic
    =========================== */
 
+// ── Fun Facts ──────────────────────────────────────────
+const FUN_FACTS = [
+  "Cleopatra lived closer in time to the Moon landing than to the construction of the Great Pyramid.",
+  "Oxford University is older than the Aztec Empire.",
+  "A day on Venus is longer than a year on Venus.",
+  "The shortest war in history lasted 38–45 minutes: the Anglo-Zanzibar War of 1896.",
+  "Scotland's national animal is the unicorn.",
+  "Nintendo was founded in 1889 — originally as a playing card company.",
+  "The Eiffel Tower grows about 6 inches taller in summer due to thermal expansion.",
+  "Honey never spoils. Archaeologists have found 3,000-year-old honey in Egyptian tombs that was still edible.",
+  "Bananas are berries, but strawberries are not.",
+  "The inventor of the Pringles can is buried in one.",
+  "Wombats are the only animals known to produce cube-shaped droppings.",
+  "A bolt of lightning is five times hotter than the surface of the Sun.",
+  "Octopuses have three hearts, nine brains, and blue blood.",
+  "There are more possible games of chess than atoms in the observable universe.",
+  "Alaska is simultaneously the westernmost and easternmost state in the US.",
+  "The Great Wall of China is not visible from space with the naked eye — that's a persistent myth.",
+  "The first known computer bug was a real bug: a moth found in a Harvard relay in 1947.",
+  "The Hawaiian alphabet has only 13 letters.",
+  "The average person will walk roughly 100,000 miles in their lifetime — about four trips around the Earth.",
+  "Sharks are older than trees. Sharks have existed for ~450 million years; trees for ~350 million.",
+  "A group of flamingos is called a flamboyance.",
+  "The word 'quiz' has no agreed-upon origin — its etymology is genuinely unknown.",
+  "Humans share about 60% of their DNA with bananas.",
+  "Marie Curie's notebooks are still radioactive and stored in lead-lined boxes. Visitors must sign a waiver to view them.",
+  "The total weight of all ants on Earth is roughly comparable to the total weight of all humans.",
+];
+
+function getRandomFunFact() {
+  return FUN_FACTS[Math.floor(Math.random() * FUN_FACTS.length)];
+}
+
 // ── State ──────────────────────────────────────────────
 let questions    = [];
 let currentIndex = 0;
@@ -312,8 +345,18 @@ function showResults() {
     breakdown.appendChild(streakRow);
   }
 
+  // Fun fact
+  document.getElementById('fun-fact-text').textContent = getRandomFunFact();
+
   // Share
   document.getElementById('btn-share').onclick = shareScore;
+
+  // Home button
+  document.getElementById('btn-home').onclick = () => {
+    showScreen('screen-landing');
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+    if (typeof loadLeaderboard === 'function') loadLeaderboard();
+  };
 }
 
 function shareScore() {
