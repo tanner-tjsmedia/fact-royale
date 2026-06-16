@@ -267,6 +267,12 @@ function handleAnswer(selected, q) {
 
 function showResults() {
   const streak = saveResult(score);
+
+  // Submit to Firebase if user is logged in (auth.js handles the guard)
+  if (typeof submitScoreToFirebase === 'function') {
+    submitScoreToFirebase(score, questions.length, categoryScores, todayKey);
+  }
+
   showScreen('screen-results');
 
   // Title
@@ -321,7 +327,7 @@ Score: ${score}/${questions.length}
 
 ${catLines}
 
-Play at factroyal.com`;
+Play at fact-royale.com`;
 
   navigator.clipboard.writeText(text).then(() => {
     document.getElementById('share-confirm').style.display = 'block';

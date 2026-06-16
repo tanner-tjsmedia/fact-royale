@@ -1,0 +1,430 @@
+/* =====================================================
+   FACT ROYALE — Auth, Leaderboard & Stats
+   Requires: firebase-config.js loaded first
+   ===================================================== */
+
+// ── Auth State ─────────────────────────────────────────
+let currentUser = null;
+
+// ── Auth State Listener ────────────────────────────────
+auth.onAuthStateChanged(user => {
+  currentUser = user;
+  updateNavForAuth(user);
+  loadLeaderboard();
+
+  const statsSection = document.getElementById('personal-stats-section');
+  const lbCta        = document.getElementById('lb-cta');
+  const statsName    = document.getElementById('stats-username');
+
+  if (user) {
+    if (statsSection) statsSection.style.display = 'block';
+    if (lbCta)        lbCta.style.display        = 'none';
+    if (statsName)    statsName.textContent       = user.displayName || user.email.split('@')[0];
+    loadPersonalStats(user.uid);
+  } else {
+    if (statsSection) statsSection.style.display = 'none';
+    if (lbCta)        lbCta.style.display        = 'block';
+    renderPersonalStatsEmpty();
+  }
+});
+
+// ── Nav Auth UI ────────────────────────────────────────
+function updateNavForAuth(user) {
+  const signInBtn = document.getElementById('nav-signin-btn');
+  const userMenu  = document.getElementById('nav-user-menu');
+  const userName  = document.getElementById('nav-user-name');
+  if (!signInBtn) return;
+
+  if (user) {
+    signInBtn.style.display = 'none';
+    userMenu.style.display  = 'flex';
+    userName.textContent    = user.displayName || user.email.split('@')[0];
+  } else {
+    signInBtn.style.display = 'inline-block';
+    userMenu.style.display  = 'none';
+  }
+}
+
+// ── Modal Controls ─────────────────────────────────────
+function openAuthModal(tab) {
+  tab = tab || 'login';
+  document.getElementById('auth-modal').style.display = 'flex';
+  document.body.style.overflow = 'hidden';
+  switchAuthTab(tab);
+  clearAuthErrors();
+}
+
+function closeAuthModal() {
+  document.getElementById('auth-modal').style.display = 'none';
+  document.body.style.overflow = '';
+}
+
+function switchAuthTab(tab) {
+  const loginForm  = document.getElementById('form-login');
+  const signupForm = document.getElementById('form-signup');
+  const tabLogin   = document.getElementById('tab-login');
+  const tabSignup  = document.getElementById('tab-signup');
+
+  if (tab === 'signup') {
+    loginForm.style.display  = 'none';
+    signupForm.style.display = 'flex';
+    tabLogin.classList.remove('active');
+    tabSignup.classList.add('active');
+  } else {
+    loginForm.style.display  = 'flex';
+    signupForm.style.display = 'none';
+    tabLogin.classList.add('active');
+    tabSignup.classList.remove('active');
+  }
+  clearAuthErrors();
+}
+
+function clearAuthErrors() {
+  ['login-error', 'signup-error'].forEach(id => {
+    const el = document.getElementById(id);
+    if (el) el.textContent = '';
+  });
+}
+
+// ── Email Login ────────────────────────────────────────
+document.getElementById('form-login').addEventListener('submit', async (e) => {
+  e.preventDefault();
+  const email    = document.getElementById('login-email').value.trim();
+  const password = document.getElementById('login-password').value;
+  const errorEl  = document.getElementById('login-error');
+  const btn      = e.target.querySelector('button[type="submit"]');
+
+  btn.textContent = 'Signing in…';
+  btn.disabled    = true;
+
+  try {
+    await auth.signInWithEmailAndPassword(email, password);
+    closeAuthModal();
+  } catch (err) {
+    errorEl.textContent = friendlyAuthError(err.code);
+    btn.textContent     = 'Sign In';
+    btn.disabled        = false;
+  }
+});
+
+// ── Email Sign Up ──────────────────────────────────────
+document.getElementById('form-signup').addEventListener('submit', async (e) => {
+  e.preventDefault();
+  const name     = document.getElementById('signup-name').value.trim();
+  const email    = document.getElementById('signup-email').value.trim();
+  const password = document.getElementById('signup-password').value;
+  const errorEl  = document.getElementById('signup-error');
+  const btn      = e.target.querySelector('button[type="submit"]');
+
+  if (!name)              { errorEl.textContent = 'Please enter a display name.'; return; }
+  if (password.length < 6) { errorEl.textContent = 'Password must be at least 6 characters.'; return; }
+
+  btn.textContent = 'Creating account…';
+  btn.disabled    = true;
+
+  try {
+    const cred = await auth.createUserWithEmailAndPassword(email, password);
+    await cred.user.updateProfile({ displayName: name });
+    await createUserProfile(cred.user, name);
+    closeAuthModal();
+  } catch (err) {
+    errorEl.textContent = friendlyAuthError(err.code);
+    btn.textContent     = 'Create Account';
+    btn.disabled        = false;
+  }
+});
+
+// ── Google Sign-In ─────────────────────────────────────
+document.getElementById('btn-google-signin').addEventListener('click', async () => {
+  const provider = new firebase.auth.GoogleAuthProvider();
+  try {
+    const cred = await auth.signInWithPopup(provider);
+    const profileRef = db.collection('users').doc(cred.user.uid);
+    const snap = await profileRef.get();
+    if (!snap.exists) {
+      await createUserProfile(cred.user, cred.user.displayName);
+    }
+    closeAuthModal();
+  } catch (err) {
+    if (err.code !== 'auth/popup-closed-by-user') {
+      console.error('Google sign-in error:', err);
+    }
+  }
+});
+
+// ── Sign Out ───────────────────────────────────────────
+document.getElementById('btn-signout').addEventListener('click', async () => {
+  await auth.signOut();
+});
+
+// ── Create User Profile in Firestore ──────────────────
+async function createUserProfile(user, displayName) {
+  const name = displayName || user.displayName || 'Player';
+  await db.collection('users').doc(user.uid).set({
+    displayName: name,
+    email: user.email,
+    createdAt: firebase.firestore.FieldValue.serverTimestamp(),
+    stats: {
+      gamesPlayed:        0,
+      questionsAnswered:  0,
+      questionsCorrect:   0,
+      currentStreak:      0,
+      longestStreak:      0,
+      lastPlayedDate:     '',
+      bestScore:          0,
+      bestScoreDate:      ''
+    },
+    categoryStats: {
+      'History':      { played: 0, correct: 0 },
+      'Sports':       { played: 0, correct: 0 },
+      'Music/Movies': { played: 0, correct: 0 }
+    }
+  });
+}
+
+// ── Submit Score to Firestore ──────────────────────────
+// Called from quiz.js at the end of showResults()
+async function submitScoreToFirebase(score, total, categoryScores, dateKey) {
+  if (!currentUser) return;
+
+  const uid         = currentUser.uid;
+  const displayName = currentUser.displayName || currentUser.email.split('@')[0];
+  const scoreDocId  = `${uid}_${dateKey}`;
+
+  try {
+    // One score document per user per day
+    await db.collection('scores').doc(scoreDocId).set({
+      uid,
+      displayName,
+      score,
+      total,
+      date:      dateKey,
+      timestamp: firebase.firestore.FieldValue.serverTimestamp(),
+      categories: categoryScores
+    });
+
+    // Update user's running stats
+    const userRef  = db.collection('users').doc(uid);
+    const userSnap = await userRef.get();
+    if (!userSnap.exists) return;
+
+    const data  = userSnap.data();
+    const stats = data.stats || {};
+
+    // Streak logic (mirrors localStorage logic in quiz.js)
+    const d = new Date();
+    d.setDate(d.getDate() - 1);
+    const yesterday = `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;
+
+    let currentStreak = stats.currentStreak || 0;
+    if (stats.lastPlayedDate === yesterday) {
+      currentStreak += 1;
+    } else if (stats.lastPlayedDate !== dateKey) {
+      currentStreak = 1;
+    }
+    const longestStreak = Math.max(stats.longestStreak || 0, currentStreak);
+
+    // Accumulate category stats
+    const catStats = data.categoryStats || {};
+    Object.entries(categoryScores).forEach(([cat, s]) => {
+      if (!catStats[cat]) catStats[cat] = { played: 0, correct: 0 };
+      catStats[cat].played  += s.total;
+      catStats[cat].correct += s.correct;
+    });
+
+    const totalAnswered = Object.values(categoryScores).reduce((n, s) => n + s.total,   0);
+    const totalCorrect  = Object.values(categoryScores).reduce((n, s) => n + s.correct, 0);
+    const isNewBest     = score > (stats.bestScore || 0);
+
+    await userRef.update({
+      'stats.gamesPlayed':       firebase.firestore.FieldValue.increment(1),
+      'stats.questionsAnswered': firebase.firestore.FieldValue.increment(totalAnswered),
+      'stats.questionsCorrect':  firebase.firestore.FieldValue.increment(totalCorrect),
+      'stats.currentStreak':     currentStreak,
+      'stats.longestStreak':     longestStreak,
+      'stats.lastPlayedDate':    dateKey,
+      'stats.bestScore':         isNewBest ? score : (stats.bestScore || 0),
+      'stats.bestScoreDate':     isNewBest ? dateKey : (stats.bestScoreDate || ''),
+      'categoryStats':           catStats
+    });
+
+    // Refresh leaderboard and stats after submission
+    loadLeaderboard();
+    loadPersonalStats(uid);
+
+  } catch (err) {
+    console.error('Score submission error:', err);
+  }
+}
+
+// ── Load Leaderboard ───────────────────────────────────
+async function loadLeaderboard() {
+  const listEl = document.getElementById('leaderboard-list');
+  if (!listEl) return;
+
+  listEl.innerHTML = '<p class="lb-loading">Loading scores…</p>';
+
+  try {
+    const todayStr = getTodayKeyForAuth();
+    const snap = await db.collection('scores')
+      .where('date', '==', todayStr)
+      .orderBy('score', 'desc')
+      .limit(10)
+      .get();
+
+    const scores = [];
+    snap.forEach(doc => scores.push(doc.data()));
+    renderLeaderboard(scores);
+  } catch (err) {
+    console.error('Leaderboard load error:', err);
+    listEl.innerHTML = '<p class="lb-empty">Leaderboard unavailable — check back soon.</p>';
+  }
+}
+
+function renderLeaderboard(scores) {
+  const listEl  = document.getElementById('leaderboard-list');
+  const countEl = document.getElementById('leaderboard-count');
+  if (!listEl) return;
+
+  if (countEl) {
+    countEl.textContent = scores.length === 0 ? 'No scores yet today'
+                        : `${scores.length} player${scores.length !== 1 ? 's' : ''} today`;
+  }
+
+  if (scores.length === 0) {
+    listEl.innerHTML = `
+      <div class="lb-empty-state">
+        <p class="lb-empty-title">No scores yet today</p>
+        <p class="lb-empty-sub">Be the first one on the board — play the quiz!</p>
+      </div>`;
+    return;
+  }
+
+  const medals  = ['🥇', '🥈', '🥉'];
+  const userUid = currentUser ? currentUser.uid : null;
+
+  listEl.innerHTML = scores.map((s, i) => {
+    const isYou = userUid && s.uid === userUid;
+    const rank  = i < 3 ? medals[i] : `#${i + 1}`;
+    const pct   = Math.round((s.score / s.total) * 100);
+    return `
+      <div class="lb-row${isYou ? ' lb-row-you' : ''}">
+        <span class="lb-rank">${rank}</span>
+        <span class="lb-name">${escapeHtml(s.displayName)}${isYou ? '<span class="lb-you-tag">You</span>' : ''}</span>
+        <span class="lb-score">${s.score}<span class="lb-total">/${s.total}</span></span>
+        <span class="lb-pct">${pct}%</span>
+      </div>`;
+  }).join('');
+}
+
+// ── Load Personal Stats ────────────────────────────────
+async function loadPersonalStats(uid) {
+  try {
+    const snap = await db.collection('users').doc(uid).get();
+    if (snap.exists) renderPersonalStats(snap.data());
+  } catch (err) {
+    console.error('Personal stats error:', err);
+  }
+}
+
+function renderPersonalStats(data) {
+  const stats = data.stats        || {};
+  const cats  = data.categoryStats || {};
+
+  const set = (id, val) => { const el = document.getElementById(id); if (el) el.textContent = val; };
+
+  set('stat-games',      stats.gamesPlayed   || 0);
+  set('stat-streak',     stats.currentStreak || 0);
+  set('stat-longest',    stats.longestStreak || 0);
+  set('stat-best-score', stats.bestScore != null ? `${stats.bestScore}/10` : '—');
+
+  const accuracy = stats.questionsAnswered
+    ? `${Math.round((stats.questionsCorrect / stats.questionsAnswered) * 100)}%`
+    : '—';
+  set('stat-accuracy', accuracy);
+
+  // Category bars
+  const catsEl = document.getElementById('stat-categories');
+  if (!catsEl) return;
+
+  catsEl.innerHTML = Object.entries(cats).map(([cat, s]) => {
+    const pct        = s.played ? Math.round((s.correct / s.played) * 100) : 0;
+    const colorClass = cat.toLowerCase().includes('history') ? 'cat-history'
+                     : cat.toLowerCase().includes('sport')   ? 'cat-sports'
+                     : 'cat-music';
+    const barColor   = cat.toLowerCase().includes('history') ? 'var(--history)'
+                     : cat.toLowerCase().includes('sport')   ? 'var(--sports)'
+                     : 'var(--music)';
+    return `
+      <div class="stat-cat-row">
+        <div class="stat-cat-header">
+          <span class="pill ${colorClass}">${cat}</span>
+          <span class="stat-cat-pct">${s.correct}/${s.played} &nbsp;·&nbsp; ${pct}%</span>
+        </div>
+        <div class="stat-bar-track">
+          <div class="stat-bar-fill" style="width:${pct}%; background:${barColor};"></div>
+        </div>
+      </div>`;
+  }).join('');
+}
+
+function renderPersonalStatsEmpty() {
+  ['stat-games','stat-streak','stat-longest','stat-accuracy','stat-best-score'].forEach(id => {
+    const el = document.getElementById(id);
+    if (el) el.textContent = '—';
+  });
+  const catsEl = document.getElementById('stat-categories');
+  if (catsEl) catsEl.innerHTML = '';
+}
+
+// ── Helpers ────────────────────────────────────────────
+function getTodayKeyForAuth() {
+  const d = new Date();
+  return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;
+}
+
+function escapeHtml(str) {
+  return String(str)
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;');
+}
+
+function friendlyAuthError(code) {
+  const map = {
+    'auth/user-not-found':       'No account found with that email.',
+    'auth/wrong-password':       'Incorrect password.',
+    'auth/invalid-credential':   'Incorrect email or password.',
+    'auth/email-already-in-use': 'That email is already registered — try signing in.',
+    'auth/invalid-email':        'Please enter a valid email address.',
+    'auth/weak-password':        'Password must be at least 6 characters.',
+    'auth/too-many-requests':    'Too many attempts — please try again later.',
+    'auth/popup-closed-by-user': 'Sign-in cancelled.',
+    'auth/network-request-failed': 'Network error — please check your connection.'
+  };
+  return map[code] || 'Something went wrong. Please try again.';
+}
+
+// ── Wire Up Modal Controls ─────────────────────────────
+document.addEventListener('DOMContentLoaded', () => {
+  document.getElementById('modal-close')
+    .addEventListener('click', closeAuthModal);
+
+  // Click outside modal card to close
+  document.getElementById('auth-modal')
+    .addEventListener('click', e => {
+      if (e.target === document.getElementById('auth-modal')) closeAuthModal();
+    });
+
+  document.getElementById('tab-login')
+    .addEventListener('click', () => switchAuthTab('login'));
+  document.getElementById('tab-signup')
+    .addEventListener('click', () => switchAuthTab('signup'));
+
+  document.getElementById('nav-signin-btn')
+    .addEventListener('click', () => openAuthModal('login'));
+
+  // Leaderboard CTA buttons (may be multiple)
+  document.querySelectorAll('.lb-signup-btn')
+    .forEach(btn => btn.addEventListener('click', () => openAuthModal('signup')));
+});
