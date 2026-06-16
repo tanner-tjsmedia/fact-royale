@@ -421,17 +421,20 @@ function escapeHtml(str) {
 
 function friendlyAuthError(code) {
   const map = {
-    'auth/user-not-found':       'No account found with that email.',
-    'auth/wrong-password':       'Incorrect password.',
-    'auth/invalid-credential':   'Incorrect email or password.',
-    'auth/email-already-in-use': 'That email is already registered — try signing in.',
-    'auth/invalid-email':        'Please enter a valid email address.',
-    'auth/weak-password':        'Password must be at least 6 characters.',
-    'auth/too-many-requests':    'Too many attempts — please try again later.',
-    'auth/popup-closed-by-user': 'Sign-in cancelled.',
-    'auth/network-request-failed': 'Network error — please check your connection.'
+    'auth/user-not-found':         'No account found with that email.',
+    'auth/wrong-password':         'Incorrect password.',
+    'auth/invalid-credential':     'Incorrect email or password.',
+    'auth/email-already-in-use':   'That email is already registered — try signing in.',
+    'auth/invalid-email':          'Please enter a valid email address.',
+    'auth/weak-password':          'Password must be at least 6 characters.',
+    'auth/too-many-requests':      'Too many attempts — please try again later.',
+    'auth/popup-closed-by-user':   'Sign-in cancelled.',
+    'auth/network-request-failed': 'Network error — please check your connection.',
+    'auth/unauthorized-domain':    'Domain not authorized — check Firebase Auth settings.',
+    'auth/operation-not-allowed':  'Email sign-up is not enabled — check Firebase Auth providers.',
+    'auth/configuration-not-found':'Firebase configuration error — check project setup.'
   };
-  return map[code] || 'Something went wrong. Please try again.';
+  return map[code] || `Error: ${code}`;
 }
 
 // ── Wire Up Modal Controls ─────────────────────────────
