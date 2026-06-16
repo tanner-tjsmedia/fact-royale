@@ -160,8 +160,12 @@ document.getElementById('btn-google-signin').addEventListener('click', async () 
     const profileRef = db.collection('users').doc(cred.user.uid);
     const snap = await profileRef.get();
     if (!snap.exists) {
-      await createUserProfile(cred.user, cred.user.displayName);
-      logSignupToSheet(cred.user.email, cred.user.displayName, 'google');
+      const fullName  = cred.user.displayName || '';
+      const parts     = fullName.trim().split(/\s+/);
+      const firstName = parts[0] || '';
+      const lastName  = parts.slice(1).join(' ') || '';
+      await createUserProfile(cred.user, fullName, firstName, lastName);
+      logSignupToSheet(cred.user.email, fullName, firstName, lastName, 'google');
     }
     closeAuthModal();
   } catch (err) {
