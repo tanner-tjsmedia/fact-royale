@@ -1106,7 +1106,12 @@ body {
   gap: 10px;
 }
 
-@media (max-width: 380px) {
+.auth-input-row .auth-input {
+  min-width: 0;
+  width: 100%;
+}
+
+@media (max-width: 480px) {
   .auth-input-row { grid-template-columns: 1fr; }
 }
 
