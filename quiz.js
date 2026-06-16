@@ -119,26 +119,30 @@ function setupLanding(data) {
     });
   }
 
-  // Email form
+  // Email form — submits to Google Sheets via Apps Script
+  const SIGNUP_URL = 'https://script.google.com/macros/s/AKfycbzCboRQs6V2YbKuUTSnGIdMXZIPlmYl2jLZVMnbvapVNlDIOKlQgLmsW1Qqjsc1BkoK/exec';
+
   const form = document.getElementById('notify-form');
   if (form) {
     form.addEventListener('submit', (e) => {
       e.preventDefault();
-      // If Formspree ID is set, submit; otherwise just show confirm
-      const action = form.getAttribute('action');
-      if (action && !action.includes('YOUR_FORM_ID')) {
-        fetch(action, {
-          method: 'POST',
-          body: new FormData(form),
-          headers: { 'Accept': 'application/json' }
-        }).then(() => {
-          form.style.display = 'none';
-          document.getElementById('notify-confirm').style.display = 'block';
-        });
-      } else {
-        form.style.display = 'none';
-        document.getElementById('notify-confirm').style.display = 'block';
-      }
+      const emailInput = form.querySelector('input[type="email"]');
+      const email = emailInput ? emailInput.value.trim() : '';
+
+      if (!email) return;
+
+      // Submit to Google Apps Script
+      // mode: 'no-cors' is required — Google doesn't return CORS headers,
+      // so we can't read the response, but the data still saves to your Sheet.
+      fetch(SIGNUP_URL, {
+        method: 'POST',
+        mode: 'no-cors',
+        body: new URLSearchParams({ email })
+      });
+
+      // Show confirmation immediately (optimistic — submission is reliable)
+      form.style.display = 'none';
+      document.getElementById('notify-confirm').style.display = 'block';
     });
   }
 }
