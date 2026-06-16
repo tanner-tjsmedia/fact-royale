@@ -1,0 +1,85 @@
+{
+  "date": "2026-06-20",
+  "questions": [
+    {
+      "category": "History",
+      "question": "The Black Death pandemic in the 14th century killed approximately what fraction of Europe's population?",
+      "options": ["One tenth", "One quarter", "One third", "One half"],
+      "answer": "One third",
+      "explanation": "The Black Death, caused by the bacterium Yersinia pestis, swept through Europe from 1347 to 1351, killing an estimated 30–60% of Europe's population — roughly one third by most historical consensus. It spread via fleas on rats along trade routes and killed as many as 50 million people worldwide. Europe's population didn't recover to pre-plague levels for 200 years.",
+      "memory_hook": "One third of Europe — gone in four years. Imagine every third person you know disappearing by 1351. The Black Death didn't just kill people; it restructured all of European society in its aftermath."
+    },
+    {
+      "category": "History",
+      "question": "In what year was the Roman Colosseum completed?",
+      "options": ["52 AD", "80 AD", "120 AD", "200 AD"],
+      "answer": "80 AD",
+      "explanation": "The Colosseum in Rome was completed around 80 AD under Emperor Titus, though construction began under Emperor Vespasian around 70 AD. It could hold between 50,000 and 80,000 spectators and hosted gladiatorial contests, animal hunts, executions, and mock naval battles. It remains the world's largest ancient amphitheater.",
+      "memory_hook": "80 AD, 80,000 seats. The Colosseum was completed in 80 and held 80,000 — the two 80s are the same. A stadium built for a crowd the size of a modern NFL sellout, nearly 2,000 years ago."
+    },
+    {
+      "category": "History",
+      "question": "Alexander the Great was the king of which ancient kingdom?",
+      "options": ["Athens", "Sparta", "Macedonia", "Persia"],
+      "answer": "Macedonia",
+      "explanation": "Alexander the Great was King of Macedon (Macedonia), a kingdom in northern Greece. Tutored by Aristotle, he became king at 20 and built one of history's largest empires — stretching from Greece through Persia, Egypt, and into northwest India — all by the age of 32, when he died in Babylon in 323 BC.",
+      "memory_hook": "Macedonia = Alexander. He was tutored by Aristotle and went on to conquer the known world. A student of the greatest philosopher becoming the greatest conqueror — the ultimate overachiever."
+    },
+    {
+      "category": "History",
+      "question": "Who invented the World Wide Web in 1989?",
+      "options": ["Bill Gates", "Steve Jobs", "Tim Berners-Lee", "Vint Cerf"],
+      "answer": "Tim Berners-Lee",
+      "explanation": "Tim Berners-Lee, a British scientist at CERN in Switzerland, invented the World Wide Web in 1989 and implemented the first successful communication between an HTTP client and server in December 1990. Crucially, he chose not to patent his invention, giving the web to humanity as a free and open resource.",
+      "memory_hook": "Berners-Lee built the web and gave it away for free. He could have been the richest person in history. Instead, he's a knight (Sir Tim Berners-Lee) and a professor. The most generous decision in tech history."
+    },
+    {
+      "category": "Sports",
+      "question": "Usain Bolt's world record in the 100 meter sprint is approximately how fast?",
+      "options": ["9.27 seconds", "9.58 seconds", "9.69 seconds", "9.84 seconds"],
+      "answer": "9.58 seconds",
+      "explanation": "Usain Bolt set the 100m world record of 9.58 seconds at the 2009 World Championships in Berlin, Germany. At peak speed during the race, he was running approximately 27.8 mph (44.7 km/h). Bolt also holds the 200m world record of 19.19 seconds and won 8 Olympic gold medals across three Games.",
+      "memory_hook": "9.58 — less than 10 seconds to run 100 meters. The world's fastest human took less time than it takes to read this sentence aloud. Bolt was running faster than most people cycle."
+    },
+    {
+      "category": "Sports",
+      "question": "How many players from one team are on the ice at a time during a standard NHL hockey game?",
+      "options": ["5", "6", "7", "8"],
+      "answer": "6",
+      "explanation": "Each NHL team has 6 players on the ice at a time: one goaltender, two defensemen, and three forwards (two wingers and a center). When a player is penalized, their team plays 'shorthanded' with only 5 or 4 skaters, giving the opposing team a 'power play' advantage.",
+      "memory_hook": "6 on ice = 1 goalie + 2 defense + 3 forwards. A triangle up front, a pair in back, and one last line of defense. Pull the goalie for an extra attacker and you're down to five — hockey's ultimate desperation move."
+    },
+    {
+      "category": "Sports",
+      "question": "How long is a standard professional soccer match?",
+      "options": ["80 minutes", "90 minutes", "100 minutes", "120 minutes"],
+      "answer": "90 minutes",
+      "explanation": "A standard professional soccer match consists of two 45-minute halves, totaling 90 minutes. The referee can add 'stoppage time' at the end of each half to compensate for time lost to injuries, substitutions, or other stoppages. If tied after 90 minutes in knockout competition, 30 minutes of extra time are played before a penalty shootout.",
+      "memory_hook": "90 minutes = two 45s. Soccer is 90 minutes of running with one 15-minute break. No timeouts. That's why the fitness level required is extraordinary — imagine running for 90 minutes with almost no break."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Which film holds the record as the highest-grossing movie of all time globally?",
+      "options": ["Avengers: Endgame", "Titanic", "Avatar", "Star Wars: The Force Awakens"],
+      "answer": "Avatar",
+      "explanation": "James Cameron's Avatar (2009) holds the record as the highest-grossing film of all time with over $2.9 billion in global box office receipts — a record it reclaimed after a 2022 re-release, surpassing Avengers: Endgame. Its sequel, Avatar: The Way of Water (2022), also crossed $2 billion.",
+      "memory_hook": "Avatar = blue people, blue ribbon. James Cameron holds both #1 and #2 on the all-time list (Avatar and Titanic). He didn't just make movies — he built the two biggest cinematic box offices in history."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Beethoven composed some of his most celebrated works, including his 9th Symphony, while suffering from what condition?",
+      "options": ["Blindness", "Deafness", "Paralysis", "Chronic pain"],
+      "answer": "Deafness",
+      "explanation": "Ludwig van Beethoven began losing his hearing in his late 20s and was almost completely deaf by his mid-40s, yet continued composing. His 9th Symphony — which includes 'Ode to Joy' — was composed entirely while deaf. At its 1824 premiere, he reportedly had to be turned around to see the audience's standing ovation because he couldn't hear it.",
+      "memory_hook": "Beethoven heard music the world couldn't — because he heard it in his head, not his ears. A deaf composer is like a blind painter. His 9th Symphony is arguably the greatest piece of music ever written, created in total silence."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Which Shakespeare play is the animated film 'The Lion King' loosely based on?",
+      "options": ["Macbeth", "Othello", "King Lear", "Hamlet"],
+      "answer": "Hamlet",
+      "explanation": "The Lion King (1994) is heavily inspired by Shakespeare's Hamlet: a prince whose father is murdered by his uncle, who then usurps the throne. Simba's story mirrors Hamlet's — exile, a ghostly father's appearance, a return to claim the kingdom. Despite the similarities, Disney has never officially acknowledged the connection.",
+      "memory_hook": "Simba = Hamlet. Father murdered by uncle, prince goes into exile, ghost of the father returns, prince comes back to take the throne. Same plot, different species. Hakuna Matata = 'To be or not to be' in animal kingdom terms."
+    }
+  ]
+}

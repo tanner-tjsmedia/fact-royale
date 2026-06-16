@@ -1,0 +1,85 @@
+{
+  "date": "2026-06-24",
+  "questions": [
+    {
+      "category": "History",
+      "question": "The Spanish Armada, a fleet of 130 ships, was defeated by England in what year?",
+      "options": ["1572", "1588", "1601", "1620"],
+      "answer": "1588",
+      "explanation": "Spain's King Philip II launched the Spanish Armada in 1588 to invade England and overthrow Queen Elizabeth I. The English fleet, commanded by Sir Francis Drake, used smaller, faster ships and fire ships to disrupt the Spanish formation. Severe storms in the North Sea finished the job, sinking many Armada ships. The victory cemented England as a naval power.",
+      "memory_hook": "1588 = Armada defeated. Think 15-88: fifteen-eighty-eight. The Spanish thought they were invincible. The English and the weather thought otherwise. It's one of history's great upsets — the underdog fleet plus a storm defeated the world's greatest naval power."
+    },
+    {
+      "category": "History",
+      "question": "What was Leonardo da Vinci's nationality?",
+      "options": ["Spanish", "French", "Italian", "Greek"],
+      "answer": "Italian",
+      "explanation": "Leonardo da Vinci (1452–1519) was born in Vinci, in the Tuscan region of Italy (then the Republic of Florence). The ultimate 'Renaissance man,' he excelled as a painter, sculptor, architect, scientist, mathematician, engineer, inventor, anatomist, geologist, botanist, and writer. His notebooks contain designs for flying machines, tanks, and solar power — centuries before they were invented.",
+      "memory_hook": "Da Vinci = Italian. 'Da Vinci' literally means 'from Vinci' — a small town in Tuscany. He's named after his hometown. The greatest Renaissance man came from a village of about 4,000 people."
+    },
+    {
+      "category": "History",
+      "question": "Martin Luther King Jr. delivered his 'I Have a Dream' speech during the March on Washington in which year?",
+      "options": ["1955", "1960", "1963", "1965"],
+      "answer": "1963",
+      "explanation": "Martin Luther King Jr. delivered his iconic 'I Have a Dream' speech on August 28, 1963, at the Lincoln Memorial during the March on Washington for Jobs and Freedom, attended by approximately 250,000 people. The speech called for an end to racism and is considered one of the greatest speeches in American history. King was awarded the Nobel Peace Prize the following year.",
+      "memory_hook": "1963 — one year before the Civil Rights Act. The speech helped push Congress to pass landmark legislation. King stood at the Lincoln Memorial — in front of the man who signed the Emancipation Proclamation — to demand a promise 100 years overdue."
+    },
+    {
+      "category": "History",
+      "question": "The ancient Stonehenge monument in England is estimated to be approximately how old?",
+      "options": ["1,000 years", "3,000 years", "5,000 years", "8,000 years"],
+      "answer": "5,000 years",
+      "explanation": "Stonehenge on Salisbury Plain in England was built in several stages, with the earliest earthworks dating to around 3000 BC — making it approximately 5,000 years old. The massive sarsen stones in the famous circular arrangement were erected around 2500 BC. How Neolithic people transported these stones from Wales (some up to 250 miles away) remains one of archaeology's great mysteries.",
+      "memory_hook": "Stonehenge = 5,000 years old. It was already ancient when the Roman Empire rose and fell. Older than the pyramids? No — they're roughly the same age. Two massive stone structures built on opposite ends of the known world at roughly the same time."
+    },
+    {
+      "category": "Sports",
+      "question": "The Masters golf tournament is played annually at which legendary golf course?",
+      "options": ["Pebble Beach", "St Andrews", "Augusta National", "Oakmont Country Club"],
+      "answer": "Augusta National",
+      "explanation": "The Masters Tournament is held every April at Augusta National Golf Club in Augusta, Georgia. It is the only major golf championship played at the same course every year. The winner receives the iconic green jacket, presented by the previous year's champion. The course is famous for its pristine conditions, azalea flowers, Amen Corner, and its historically exclusive membership policy.",
+      "memory_hook": "Masters = Augusta = Green Jacket. One tournament, one course, one jacket. The green jacket is only worn on the Augusta National grounds — winners must return it at the end of the year and retrieve it when they come back."
+    },
+    {
+      "category": "Sports",
+      "question": "The Daytona 500 is the most prestigious race in which racing series?",
+      "options": ["Formula 1", "IndyCar", "NASCAR", "IMSA"],
+      "answer": "NASCAR",
+      "explanation": "The Daytona 500 is the most prestigious and richest race in NASCAR, held annually at Daytona International Speedway in Daytona Beach, Florida. First run in 1959, it is held on the first Sunday in February and serves as the opening race of the NASCAR Cup Series season. It is often called 'The Great American Race.'",
+      "memory_hook": "Daytona 500 = NASCAR's Super Bowl. It's the first race of the season and the most important. 500 miles at nearly 200 mph around an oval. The race that opens the year is somehow also the biggest prize of the year."
+    },
+    {
+      "category": "Sports",
+      "question": "LeBron James surpassed which player to become the NBA's all-time leading scorer in 2023?",
+      "options": ["Michael Jordan", "Kobe Bryant", "Kareem Abdul-Jabbar", "Karl Malone"],
+      "answer": "Kareem Abdul-Jabbar",
+      "explanation": "LeBron James surpassed Kareem Abdul-Jabbar's record of 38,387 points on February 7, 2023, becoming the NBA's all-time leading scorer. Kareem held the record for 38 years after passing Oscar Robertson in 1984. LeBron scored his record-breaking point against the Oklahoma City Thunder and was greeted on the court by Kareem himself.",
+      "memory_hook": "Kareem held it for 38 years, LeBron broke it. Kareem's signature move was the skyhook — nearly unblockable. LeBron broke his record by doing everything a little bit, perfectly, for 20 years. Two of the greatest players in the sport, one record."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Schindler's List (1993), directed by Steven Spielberg, is based on the true story of a businessman who saved Jews during which event?",
+      "options": ["The Russian Revolution", "The Holocaust", "The Armenian Genocide", "The Rwandan Genocide"],
+      "answer": "The Holocaust",
+      "explanation": "Schindler's List tells the true story of Oskar Schindler, a German businessman who saved over 1,200 Jewish people from the Holocaust by employing them in his factories. Spielberg won the Academy Award for Best Director and the film won Best Picture. Spielberg donated his entire salary from the film to Holocaust-related charities and donated the original manuscript to the US Holocaust Memorial Museum.",
+      "memory_hook": "Schindler's List = real people, real rescue. The list in the title was a literal list of names — workers Schindler paid to keep alive. The film is in black-and-white except for one detail: a girl in a red coat. The only color stands out from the horror."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Which singer/songwriter is known as 'The Man in Black' and recorded 'Ring of Fire' and 'Folsom Prison Blues'?",
+      "options": ["Willie Nelson", "Waylon Jennings", "Johnny Cash", "Merle Haggard"],
+      "answer": "Johnny Cash",
+      "explanation": "Johnny Cash earned the nickname 'The Man in Black' from his 1971 song of the same name, in which he explained he wore black as a symbol of solidarity with the poor, the hungry, the sick, and the lonely. He recorded 'Folsom Prison Blues' in 1955 and 'Ring of Fire' in 1963. His 2002 cover of Nine Inch Nails' 'Hurt' is widely considered one of the greatest cover recordings ever made.",
+      "memory_hook": "Cash = black. Always in black, always for a reason — not fashion, philosophy. He wore black so he'd never forget the people society forgot. The most principled wardrobe choice in music history."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "E.T. the Extra-Terrestrial (1982) was directed by Steven Spielberg and was the highest-grossing film of its time. What does E.T. famously say?",
+      "options": ["'I'll be back'", "'Phone home'", "'Come home'", "'Go home'"],
+      "answer": "'Phone home'",
+      "explanation": "E.T.'s iconic line — 'E.T. phone home' — is one of the most recognized quotes in cinema history. E.T. the Extra-Terrestrial grossed $792 million worldwide in its original release (1982), making it the highest-grossing film of all time until Return of the Jedi surpassed it in 1983. The film was nominated for 9 Academy Awards and won 4.",
+      "memory_hook": "E.T. phone home. Three words, maximum emotion. An alien learns just enough English to express the deepest feeling there is — homesickness. Spielberg made you cry over a rubber puppet in a bathrobe."
+    }
+  ]
+}

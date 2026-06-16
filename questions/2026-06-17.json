@@ -1,0 +1,85 @@
+{
+  "date": "2026-06-17",
+  "questions": [
+    {
+      "category": "History",
+      "question": "On which date was Julius Caesar assassinated in 44 BC?",
+      "options": ["The Ides of March (March 15)", "The Ides of April (April 15)", "January 1", "December 25"],
+      "answer": "The Ides of March (March 15)",
+      "explanation": "Julius Caesar was stabbed 23 times by a group of Roman senators led by Brutus and Cassius on March 15, 44 BC. The phrase 'Beware the Ides of March' comes from Shakespeare's play Julius Caesar, spoken by a soothsayer warning Caesar of the coming danger.",
+      "memory_hook": "The Ides = the middle. March 15 is roughly the middle of March. Caesar got stabbed in the middle of the month, in the middle of the Forum, by the middle of his own inner circle."
+    },
+    {
+      "category": "History",
+      "question": "Who was the first human to walk on the moon?",
+      "options": ["Buzz Aldrin", "Yuri Gagarin", "Neil Armstrong", "John Glenn"],
+      "answer": "Neil Armstrong",
+      "explanation": "Neil Armstrong became the first human to walk on the moon on July 20, 1969, during NASA's Apollo 11 mission. His famous words upon stepping onto the lunar surface were: 'That's one small step for man, one giant leap for mankind.' Buzz Aldrin followed him minutes later.",
+      "memory_hook": "Armstrong = strong arms to climb the ladder down to the moon. Neil Armstrong, Apollo 11, July 20, 1969 — 7/20/69. The 20th day, the 20th century's greatest achievement."
+    },
+    {
+      "category": "History",
+      "question": "The storming of which Paris fortress marked the symbolic start of the French Revolution in 1789?",
+      "options": ["The Louvre", "The Bastille", "Versailles", "Notre-Dame"],
+      "answer": "The Bastille",
+      "explanation": "On July 14, 1789, Parisian revolutionaries stormed the Bastille — a royal prison and symbol of royal tyranny — marking the flashpoint of the French Revolution. The date is now celebrated as Bastille Day, France's national holiday. Only seven prisoners were inside at the time.",
+      "memory_hook": "Bastille Day = July 14 = France's 4th of July. Both happened within 13 years of each other — revolution was in the air on both sides of the Atlantic."
+    },
+    {
+      "category": "History",
+      "question": "In what year did Christopher Columbus first reach the Americas?",
+      "options": ["1488", "1492", "1498", "1504"],
+      "answer": "1492",
+      "explanation": "Columbus sailed from Spain in August 1492 and reached the Bahamas on October 12, 1492. He never knew he'd found continents unknown to Europeans — he believed he'd reached Asia. He made four voyages to the Americas but never set foot on the North American mainland.",
+      "memory_hook": "In 1492, Columbus sailed the ocean blue. Oldest mnemonic in American education — if you went to school in the US, you already know this one."
+    },
+    {
+      "category": "Sports",
+      "question": "How many NBA championships did Michael Jordan win with the Chicago Bulls?",
+      "options": ["4", "5", "6", "8"],
+      "answer": "6",
+      "explanation": "Michael Jordan won 6 NBA championships with the Chicago Bulls — in two 'three-peats': 1991, 1992, 1993, then 1996, 1997, 1998. He was Finals MVP all six times. Jordan briefly retired between the two runs, attempting a career in minor league baseball.",
+      "memory_hook": "Six rings, six Finals MVPs. Jordan didn't just win — he was the best player in every single one of those series. Picture six championship rings lined up in a row."
+    },
+    {
+      "category": "Sports",
+      "question": "How many innings are in a standard Major League Baseball game?",
+      "options": ["7", "8", "9", "10"],
+      "answer": "9",
+      "explanation": "A standard MLB game consists of 9 innings. Each team gets three outs per inning, both as the batting and fielding team. If the game is tied after 9 innings, extra innings are played until a winner is determined. The 9-inning standard has been in place since the 1850s.",
+      "memory_hook": "9 innings, 9 players on the field, 9 positions. Baseball is the sport of nines. Three strikes, three outs, nine innings — everything divisible by three."
+    },
+    {
+      "category": "Sports",
+      "question": "In which sport would you compete for the Davis Cup?",
+      "options": ["Golf", "Tennis", "Cricket", "Polo"],
+      "answer": "Tennis",
+      "explanation": "The Davis Cup is the premier international team competition in men's tennis, organized by the International Tennis Federation. It began in 1900 as a challenge match between Great Britain and the United States and has grown to include over 130 nations. It's often called the World Cup of Tennis.",
+      "memory_hook": "Davis Cup = Tennis World Cup. Dwight Davis, a Harvard student, donated the trophy in 1900. One wealthy student's gift became 120+ years of international competition."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "In which Star Wars film does Darth Vader reveal he is Luke Skywalker's father?",
+      "options": ["A New Hope", "Return of the Jedi", "The Empire Strikes Back", "Revenge of the Sith"],
+      "answer": "The Empire Strikes Back",
+      "explanation": "The famous reveal — 'No, I am your father' — occurs in The Empire Strikes Back (1980), during the duel between Darth Vader and Luke on Cloud City. It is widely considered one of the greatest plot twists in cinema history. The line is often misquoted as 'Luke, I am your father.'",
+      "memory_hook": "Empire = dark, cold, heavy — the darkest film in the trilogy, with the darkest reveal. The Empire strikes back with the truth. No Luke in the actual quote — just 'I am your father.'"
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Which city were The Beatles from?",
+      "options": ["London", "Manchester", "Liverpool", "Birmingham"],
+      "answer": "Liverpool",
+      "explanation": "The Beatles — John Lennon, Paul McCartney, George Harrison, and Ringo Starr — all hailed from Liverpool, England. They formed in the late 1950s and achieved global fame in 1963-64. Liverpool's Cavern Club, where they performed early in their career, remains a major tourist attraction.",
+      "memory_hook": "Liver + pool = Liverpool. The Beatles came from a city named after a liver bird — an imaginary bird on the city's coat of arms. Four lads from a city that doesn't even have a real bird on its crest."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Which director helmed the 1997 blockbuster Titanic?",
+      "options": ["Steven Spielberg", "Ridley Scott", "James Cameron", "Ron Howard"],
+      "answer": "James Cameron",
+      "explanation": "James Cameron wrote and directed Titanic (1997), which won 11 Academy Awards — tying the record set by Ben-Hur. It was the first film to gross $1 billion at the box office and remained the highest-grossing film of all time until Cameron's own Avatar surpassed it in 2010.",
+      "memory_hook": "Cameron = king of the world — just like Jack in the movie. He directed both the #1 and #2 highest-grossing films of all time. The king of the box office, not just the world."
+    }
+  ]
+}

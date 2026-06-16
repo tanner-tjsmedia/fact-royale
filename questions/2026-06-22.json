@@ -1,0 +1,95 @@
+{
+  "date": "2026-06-22",
+  "questions": [
+    {
+      "category": "History",
+      "question": "The Cuban Missile Crisis of 1962 was a standoff between the United States and which country?",
+      "options": ["Cuba", "The Soviet Union", "China", "North Korea"],
+      "answer": "The Soviet Union",
+      "explanation": "The Cuban Missile Crisis (October 16–28, 1962) was a 13-day confrontation between the US and the Soviet Union after American reconnaissance revealed Soviet ballistic missiles being installed in Cuba. President Kennedy and Premier Khrushchev negotiated a resolution — the Soviets removed the missiles in exchange for a US pledge not to invade Cuba and secret removal of US missiles from Turkey.",
+      "memory_hook": "Cuba was the stage, the US and USSR were the actors. The crisis brought the world closer to nuclear war than any other moment in history — 13 days in October 1962 where everyone held their breath."
+    },
+    {
+      "category": "History",
+      "question": "The 19th Amendment, ratified in 1920, granted which group the right to vote in the United States?",
+      "options": ["African Americans", "Native Americans", "Women", "Citizens aged 18-20"],
+      "answer": "Women",
+      "explanation": "The 19th Amendment to the US Constitution was ratified on August 18, 1920, prohibiting the denial of voting rights based on sex. It was the culmination of a decades-long women's suffrage movement. Key figures like Susan B. Anthony and Elizabeth Cady Stanton fought for this right, though Anthony died 14 years before it was ratified.",
+      "memory_hook": "19th Amendment, 1920. The 19th gives women the vote — remember it as: nineteen-twenty, women can vote now. Susan B. Anthony never lived to vote legally — she died in 1906."
+    },
+    {
+      "category": "History",
+      "question": "D-Day, the largest seaborne invasion in history, took place on what date in 1944?",
+      "options": ["May 6", "June 6", "July 4", "August 15"],
+      "answer": "June 6",
+      "explanation": "D-Day (Operation Overlord) took place on June 6, 1944, when Allied forces landed on five beaches in Normandy, France. Over 156,000 Allied troops crossed the English Channel in more than 5,000 ships. The invasion turned the tide of WWII in Europe. The 'D' in D-Day simply stands for 'Day' — it's a military designation for the day an operation commences.",
+      "memory_hook": "D-Day, June 6, 1944. 6/6/44. Three even numbers. The 'D' just means Day — Day-Day, June Day. Five beaches: Utah, Omaha, Gold, Juno, Sword. Omaha was the bloodiest — it's the one in the movies."
+    },
+    {
+      "category": "History",
+      "question": "Nelson Mandela was imprisoned for 27 years before becoming the first Black president of which country?",
+      "options": ["Kenya", "Nigeria", "Zimbabwe", "South Africa"],
+      "answer": "South Africa",
+      "explanation": "Nelson Mandela was imprisoned from 1964 to 1990 on Robben Island, South Africa, for his anti-apartheid activities. After his release, he led negotiations to end apartheid and was elected South Africa's first Black president in 1994 in the country's first fully democratic election. He served until 1999 and was awarded the Nobel Peace Prize in 1993.",
+      "memory_hook": "Mandela: 27 years in, then president out. He went from prisoner to president in the same country that jailed him. That's not just forgiveness — it's transformation at a national scale."
+    },
+    {
+      "category": "Sports",
+      "question": "Gymnast Simone Biles is the most decorated American gymnast in history. At which Games did she famously withdraw from several events citing mental health?",
+      "options": ["Rio 2016", "Tokyo 2020", "Paris 2024", "London 2012"],
+      "answer": "Tokyo 2020",
+      "explanation": "Simone Biles withdrew from the team final and several individual events at the Tokyo 2020 Olympics (held in 2021 due to COVID-19), citing mental health concerns and the 'twisties' — a dangerous disorientation gymnasts can experience in the air. She returned to win bronze on beam. Her decision sparked a global conversation about athlete mental health.",
+      "memory_hook": "Tokyo 2020 = mental health moment. The greatest gymnast of all time said 'I'm not okay' in front of the world — and it changed how we talk about athlete wellbeing. Courage isn't always a gold medal."
+    },
+    {
+      "category": "Sports",
+      "question": "The Boston Marathon is the world's oldest annual marathon. In what year was it first run?",
+      "options": ["1887", "1897", "1908", "1920"],
+      "answer": "1897",
+      "explanation": "The Boston Marathon was first run on April 19, 1897, inspired by the success of the 1896 Athens Olympics marathon. It is held annually on Patriots' Day (the third Monday in April) and covers 26.2 miles from Hopkinton to Copley Square in Boston. It is one of the six World Marathon Majors and has one of the most demanding qualifying standards of any major marathon.",
+      "memory_hook": "Boston Marathon, 1897 — older than most countries' Olympic programs. It started one year after the modern Olympics were revived. Running 26 miles every April since before the Wright Brothers ever flew."
+    },
+    {
+      "category": "Sports",
+      "question": "What does NASCAR stand for?",
+      "options": [
+        "National Auto Speed Car and Racing",
+        "National Association for Stock Car Auto Racing",
+        "North American Stock Car and Racing",
+        "National Automobile Sports Car Association Racing"
+      ],
+      "answer": "National Association for Stock Car Auto Racing",
+      "explanation": "NASCAR stands for National Association for Stock Car Auto Racing. It was founded by Bill France Sr. in 1948 in Daytona Beach, Florida. 'Stock car' originally referred to standard production cars, though modern NASCAR vehicles are purpose-built race cars that share little with their street counterparts beyond the name and body shape.",
+      "memory_hook": "NASCAR = National Association for Stock Car Auto Racing. The key word is 'Stock' — originally meant cars straight from the factory floor. Today's NASCARs are anything but stock, but the name stuck."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Jimi Hendrix was left-handed but famously played which type of guitar?",
+      "options": ["A specially made left-handed guitar", "A right-handed guitar flipped upside down", "A bass guitar", "An electric piano"],
+      "answer": "A right-handed guitar flipped upside down",
+      "explanation": "Jimi Hendrix was left-handed but played a right-handed guitar turned upside down and restrung — a setup that contributed to his unique playing style and the distinctive way he held the instrument. He is widely regarded as the greatest electric guitarist of all time. His 1969 performance of 'The Star-Spangled Banner' at Woodstock remains one of rock's iconic moments.",
+      "memory_hook": "Hendrix flipped the guitar like he flipped rock music — upside down. A left-handed genius using right-handed tools and somehow making it sound like no one before or since. The instrument was wrong; the music was right."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Complete the famous Forrest Gump quote: 'Life is like a box of chocolates, you never know...'",
+      "options": [
+        "...what flavor you'll get",
+        "...what you're gonna get",
+        "...which one is yours",
+        "...how sweet it'll be"
+      ],
+      "answer": "...what you're gonna get",
+      "explanation": "The full quote from Forrest Gump (1994) is: 'Mama always said life was like a box of chocolates. You never know what you're gonna get.' Tom Hanks won his second consecutive Academy Award for Best Actor for the role. The film won 6 Oscars total including Best Picture. The line is consistently ranked among the most iconic movie quotes of all time.",
+      "memory_hook": "The exact wording trips people up — it's 'what you're gonna get,' not 'what you'll get.' Gump's Southern grammar is part of the charm. His mama's philosophy was simple, and so was he — that's the whole movie."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "In The Matrix (1999), what color pill does Neo take to learn the truth about the Matrix?",
+      "options": ["Blue", "Green", "Red", "White"],
+      "answer": "Red",
+      "explanation": "In The Matrix, Morpheus offers Neo a choice: take the blue pill and return to comfortable ignorance, or take the red pill and discover the disturbing truth about reality. Neo chooses the red pill. The red pill/blue pill concept has since entered popular culture as a metaphor for choosing truth over comfortable illusion.",
+      "memory_hook": "Red = reality, Blue = bliss. Red is the color of alarm, warning, wake-up. Blue is calm, peaceful, sleep. The Wachowskis chose colors that already meant something to the subconscious. Red pill = red alert."
+    }
+  ]
+}
