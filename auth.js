@@ -257,6 +257,34 @@ async function submitScoreToFirebase(score, total, categoryScores, dateKey) {
   }
 }
 
+// ── Seed Players (fill empty leaderboard spots) ────────
+// Real players always rank above seeds. Seeds disappear
+// automatically as real players join.
+const SEED_PLAYERS = [
+  { displayName: 'Alex M.',   baseScore: 9 },
+  { displayName: 'Jordan K.', baseScore: 9 },
+  { displayName: 'Sam R.',    baseScore: 8 },
+  { displayName: 'Taylor B.', baseScore: 8 },
+  { displayName: 'Morgan C.', baseScore: 7 },
+  { displayName: 'Riley P.',  baseScore: 7 },
+  { displayName: 'Casey D.',  baseScore: 7 },
+  { displayName: 'Drew L.',   baseScore: 6 },
+  { displayName: 'Quinn W.',  baseScore: 6 },
+  { displayName: 'Avery H.',  baseScore: 5 },
+];
+
+function getSeedPlayers(dateKey, count) {
+  // Vary scores slightly by date so they look fresh each day
+  const hash = dateKey.replace(/-/g, '').split('')
+    .reduce((a, c) => a + c.charCodeAt(0), 0);
+
+  return SEED_PLAYERS.slice(0, count).map((s, i) => {
+    const variance = ((hash + i * 7) % 3) - 1; // -1, 0, or +1
+    const score    = Math.min(10, Math.max(4, s.baseScore + variance));
+    return { displayName: s.displayName, score, total: 10, uid: `seed_${i}`, isSeed: true };
+  });
+}
+
 // ── Load Leaderboard ───────────────────────────────────
 async function loadLeaderboard() {
   const listEl = document.getElementById('leaderboard-list');
@@ -272,43 +300,44 @@ async function loadLeaderboard() {
       .limit(10)
       .get();
 
-    const scores = [];
-    snap.forEach(doc => scores.push(doc.data()));
-    renderLeaderboard(scores);
+    const realScores = [];
+    snap.forEach(doc => realScores.push(doc.data()));
+
+    // Pad with seed players so the board always shows 10 entries
+    const seedsNeeded = Math.max(0, 10 - realScores.length);
+    const seeds       = getSeedPlayers(todayStr, seedsNeeded);
+    const allScores   = [...realScores, ...seeds];
+
+    renderLeaderboard(allScores, realScores.length);
   } catch (err) {
     console.error('Leaderboard load error:', err);
     listEl.innerHTML = '<p class="lb-empty">Leaderboard unavailable — check back soon.</p>';
   }
 }
 
-function renderLeaderboard(scores) {
+function renderLeaderboard(scores, realCount) {
   const listEl  = document.getElementById('leaderboard-list');
   const countEl = document.getElementById('leaderboard-count');
   if (!listEl) return;
 
-  if (countEl) {
-    countEl.textContent = scores.length === 0 ? 'No scores yet today'
-                        : `${scores.length} player${scores.length !== 1 ? 's' : ''} today`;
-  }
+  realCount = realCount || 0;
 
-  if (scores.length === 0) {
-    listEl.innerHTML = `
-      <div class="lb-empty-state">
-        <p class="lb-empty-title">No scores yet today</p>
-        <p class="lb-empty-sub">Be the first one on the board — play the quiz!</p>
-      </div>`;
-    return;
+  if (countEl) {
+    countEl.textContent = realCount === 0
+      ? 'Be the first on the board!'
+      : `${realCount} player${realCount !== 1 ? 's' : ''} today`;
   }
 
   const medals  = ['🥇', '🥈', '🥉'];
   const userUid = currentUser ? currentUser.uid : null;
 
   listEl.innerHTML = scores.map((s, i) => {
-    const isYou = userUid && s.uid === userUid;
-    const rank  = i < 3 ? medals[i] : `#${i + 1}`;
-    const pct   = Math.round((s.score / s.total) * 100);
+    const isYou  = userUid && s.uid === userUid;
+    const isSeed = !!s.isSeed;
+    const rank   = i < 3 ? medals[i] : `#${i + 1}`;
+    const pct    = Math.round((s.score / s.total) * 100);
     return `
-      <div class="lb-row${isYou ? ' lb-row-you' : ''}">
+      <div class="lb-row${isYou ? ' lb-row-you' : ''}${isSeed ? ' lb-row-seed' : ''}">
         <span class="lb-rank">${rank}</span>
         <span class="lb-name">${escapeHtml(s.displayName)}${isYou ? '<span class="lb-you-tag">You</span>' : ''}</span>
         <span class="lb-score">${s.score}<span class="lb-total">/${s.total}</span></span>

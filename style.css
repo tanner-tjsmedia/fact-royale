@@ -1284,6 +1284,9 @@ body {
   color: var(--text-muted);
 }
 
+.lb-row-seed { opacity: 0.55; }
+.lb-row-seed:hover { opacity: 0.7; }
+
 .lb-loading,
 .lb-empty {
   padding: 32px 20px;
