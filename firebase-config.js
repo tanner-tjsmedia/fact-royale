@@ -8,7 +8,7 @@
    ===================================================== */
 
 const FIREBASE_CONFIG = {
-  apiKey:            "AIzaSyBIsusWIMcFpGKeZeP3CemHikOizby2Zro",
+  apiKey:            "AIzaSyBIsusWIMcFpGKeZeP3CemHiKOizby2Zro",
   authDomain:        "fact-royale.firebaseapp.com",
   projectId:         "fact-royale",
   storageBucket:     "fact-royale.firebasestorage.app",
