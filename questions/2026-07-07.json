@@ -1,0 +1,134 @@
+{
+  "questions": [
+    {
+      "category": "History",
+      "question": "Which war was fought between the North and South in the United States?",
+      "options": [
+        "The Revolutionary War",
+        "The War of 1812",
+        "The Civil War",
+        "The Mexican-American War"
+      ],
+      "answer": "The Civil War",
+      "explanation": "The American Civil War (1861\u20131865) was fought between the Union (Northern states) and the Confederacy (Southern states). The primary cause was slavery. The Union won, and the 13th Amendment abolished slavery. It remains the deadliest war in American history with an estimated 620,000 deaths.",
+      "memory_hook": "Civil War: brother vs. brother, North vs. South, 1861\u20131865."
+    },
+    {
+      "category": "History",
+      "question": "What was the name of the first moon landing mission?",
+      "options": [
+        "Apollo 8",
+        "Apollo 10",
+        "Apollo 11",
+        "Apollo 13"
+      ],
+      "answer": "Apollo 11",
+      "explanation": "Apollo 11 was the first crewed mission to land on the Moon, on July 20, 1969. Neil Armstrong and Buzz Aldrin walked on the surface while Michael Collins orbited above. Armstrong's famous words: 'That's one small step for man, one giant leap for mankind.'",
+      "memory_hook": "Apollo 11: the 11th try was the first to land. One giant leap."
+    },
+    {
+      "category": "Sports",
+      "question": "What color is the first place jersey in the Tour de France?",
+      "options": [
+        "Red",
+        "White",
+        "Yellow",
+        "Green"
+      ],
+      "answer": "Yellow",
+      "explanation": "The leader of the Tour de France wears the yellow jersey (maillot jaune). It was first awarded in 1919 and is the most prestigious prize in cycling. The green jersey goes to the best sprinter, the polka-dot jersey to the best climber, and the white jersey to the best young rider.",
+      "memory_hook": "Yellow jersey = Tour leader. Like a yellow highlighter marking the best."
+    },
+    {
+      "category": "Sports",
+      "question": "Which city has hosted the most Summer Olympic Games?",
+      "options": [
+        "Paris",
+        "London",
+        "Athens",
+        "Los Angeles"
+      ],
+      "answer": "London",
+      "explanation": "London has hosted the Summer Olympic Games three times: 1908, 1948, and 2012. It is the only city to have hosted three Summer Olympics. Paris has hosted twice (1900, 1924) and is set to host again in 2024. Los Angeles hosted in 1932 and 1984.",
+      "memory_hook": "London: three-time Summer Olympics host. The city keeps coming back."
+    },
+    {
+      "category": "Sports",
+      "question": "In swimming, what stroke is swum in the first leg of an individual medley?",
+      "options": [
+        "Butterfly",
+        "Backstroke",
+        "Breaststroke",
+        "Freestyle"
+      ],
+      "answer": "Butterfly",
+      "explanation": "In the individual medley, swimmers complete each stroke in this order: butterfly, backstroke, breaststroke, freestyle. In relay medleys, the order is: backstroke, breaststroke, butterfly, freestyle. The butterfly stroke is generally considered the most physically demanding.",
+      "memory_hook": "Butterfly FIRST in IM \u2014 fly before you float on your back."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Which band sang 'Sweet Home Alabama'?",
+      "options": [
+        "The Allman Brothers Band",
+        "ZZ Top",
+        "Creedence Clearwater Revival",
+        "Lynyrd Skynyrd"
+      ],
+      "answer": "Lynyrd Skynyrd",
+      "explanation": "'Sweet Home Alabama' was released by Lynyrd Skynyrd in 1974. It was written partly as a response to Neil Young's songs 'Southern Man' and 'Alabama,' which criticized the South. The song has become one of the most recognizable rock anthems of all time.",
+      "memory_hook": "'Sweet Home Alabama' \u2014 Lynyrd Skynyrd said it with a Southern drawl."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Which actress played Katniss Everdeen in 'The Hunger Games' films?",
+      "options": [
+        "Emma Watson",
+        "Shailene Woodley",
+        "Jennifer Lawrence",
+        "Kristen Stewart"
+      ],
+      "answer": "Jennifer Lawrence",
+      "explanation": "Jennifer Lawrence played Katniss Everdeen in all four Hunger Games films (2012\u20132015). She was 21 when the first film was released and had already won an Academy Award for Best Actress for Silver Linings Playbook. The franchise grossed nearly $3 billion worldwide.",
+      "memory_hook": "Lawrence as Katniss \u2014 she's on fire. Literally, her character is called 'the girl on fire.'"
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Who wrote and performed 'Imagine'?",
+      "options": [
+        "Paul McCartney",
+        "Bob Dylan",
+        "David Bowie",
+        "John Lennon"
+      ],
+      "answer": "John Lennon",
+      "explanation": "'Imagine' was written and recorded by John Lennon and released in 1971. It is widely regarded as one of the greatest songs ever written, promoting peace, harmony, and a world without divisions. Lennon called it 'virtually the Communist Manifesto' but wrapped in sugar.",
+      "memory_hook": "'Imagine' \u2014 Lennon asked us to picture a better world. Simple piano, profound words."
+    },
+    {
+      "category": "History",
+      "question": "The 'Boston Tea Party' was a protest against taxation by which country?",
+      "options": [
+        "France",
+        "Spain",
+        "Great Britain",
+        "The Netherlands"
+      ],
+      "answer": "Great Britain",
+      "explanation": "The Boston Tea Party occurred on December 16, 1773, when American colonists disguised as Mohawk Indians boarded British ships and dumped 342 chests of tea into Boston Harbor. It was a protest against the Tea Act and British taxation without colonial representation.",
+      "memory_hook": "Boston Tea Party: 'No taxation without representation' \u2014 they threw the tea out."
+    },
+    {
+      "category": "History",
+      "question": "Which scientist developed the theory of general relativity?",
+      "options": [
+        "Isaac Newton",
+        "Niels Bohr",
+        "Max Planck",
+        "Albert Einstein"
+      ],
+      "answer": "Albert Einstein",
+      "explanation": "Albert Einstein published his general theory of relativity in 1915, describing gravity as a curvature of spacetime caused by mass and energy. The theory predicted phenomena including gravitational waves, black holes, and the bending of light around massive objects \u2014 all later confirmed.",
+      "memory_hook": "Einstein bent space with his mind \u2014 general relativity is his masterpiece."
+    }
+  ]
+}

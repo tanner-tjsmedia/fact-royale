@@ -276,6 +276,7 @@ async function submitScoreToFirebase(score, total, categoryScores, dateKey) {
     // Refresh leaderboard and stats after submission
     loadLeaderboard();
     loadPersonalStats(uid);
+    calculateAndShowRankPct(score, dateKey);
 
   } catch (err) {
     console.error('Score submission error:', err);
@@ -392,6 +393,65 @@ function renderLeaderboard(scores, realCount) {
   }).join('');
 }
 
+// ── Streak Banner ──────────────────────────────────────
+function updateStreakBanner(streak, alreadyPlayed) {
+  const banner  = document.getElementById('streak-banner');
+  const textEl  = document.getElementById('streak-banner-text');
+  const btnEl   = document.getElementById('streak-banner-btn');
+  if (!banner || !textEl || streak < 1) return;
+
+  if (alreadyPlayed) {
+    textEl.textContent      = `${streak}-day streak secured — see you tomorrow!`;
+    btnEl.style.display     = 'none';
+    banner.className        = 'streak-banner streak-banner-safe';
+  } else {
+    textEl.textContent      = `You're on a ${streak}-day streak — play today to keep it alive!`;
+    btnEl.style.display     = 'inline-block';
+    btnEl.onclick           = () => document.getElementById('btn-start-hero')?.click();
+    banner.className        = 'streak-banner streak-banner-active';
+  }
+  banner.style.display = 'flex';
+}
+
+// ── Rank Percentage ────────────────────────────────────
+async function calculateAndShowRankPct(userScore, todayStr) {
+  try {
+    const snap = await db.collection('scores')
+      .where('date', '==', todayStr)
+      .get();
+
+    const realScores = [];
+    snap.forEach(doc => realScores.push(doc.data().score));
+
+    // Include seeds so percentage is meaningful from day one
+    const seedCap     = getSeedCap();
+    const seedsNeeded = Math.max(0, Math.min(seedCap, 10) - realScores.length);
+    const seeds       = getSeedPlayers(todayStr, seedsNeeded);
+    const allScores   = [...realScores, ...seeds.map(s => s.score)];
+
+    if (allScores.length < 2) return; // only them, no stat to show
+
+    const beaten = allScores.filter(s => s < userScore).length;
+    const tied   = allScores.filter(s => s === userScore).length - 1; // exclude themselves
+    const pct    = Math.round(((beaten + tied * 0.5) / allScores.length) * 100);
+
+    const wrapEl = document.getElementById('results-rank-wrap');
+    const pctEl  = document.getElementById('results-rank-pct');
+    if (!wrapEl || !pctEl) return;
+
+    if (pct === 100) {
+      pctEl.textContent = '👑 Top score of the day!';
+    } else if (pct === 0) {
+      pctEl.textContent = 'Room to grow — come back tomorrow!';
+    } else {
+      pctEl.textContent = `You beat ${pct}% of today's players`;
+    }
+    wrapEl.style.display = 'block';
+  } catch (err) {
+    console.error('Rank pct error:', err);
+  }
+}
+
 // ── Load Personal Stats ────────────────────────────────
 async function loadPersonalStats(uid) {
   try {
@@ -405,6 +465,12 @@ async function loadPersonalStats(uid) {
 function renderPersonalStats(data) {
   const stats = data.stats        || {};
   const cats  = data.categoryStats || {};
+
+  // Streak banner — check localStorage for today's play state
+  const todayKey     = typeof getTodayKey === 'function' ? getTodayKey() : '';
+  const lastPlayed   = localStorage.getItem('fr_lastPlayed') || '';
+  const alreadyPlayed = lastPlayed === todayKey;
+  updateStreakBanner(stats.currentStreak || 0, alreadyPlayed);
 
   const set = (id, val) => { const el = document.getElementById(id); if (el) el.textContent = val; };
 

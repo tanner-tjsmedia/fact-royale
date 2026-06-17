@@ -1,0 +1,134 @@
+{
+  "questions": [
+    {
+      "category": "History",
+      "question": "The construction of which U.S. landmark began on August 28, 1963, the same day MLK gave his 'I Have a Dream' speech?",
+      "options": [
+        "The Hoover Dam",
+        "The Pentagon",
+        "The space between the Lincoln Memorial and Washington Monument",
+        "The Vietnam Veterans Memorial"
+      ],
+      "answer": "The space between the Lincoln Memorial and Washington Monument",
+      "explanation": "On August 28, 1963, Martin Luther King Jr. delivered his 'I Have a Dream' speech at the Lincoln Memorial during the March on Washington. The speech is considered one of the greatest in American history and was a pivotal moment in the civil rights movement, drawing over 250,000 people.",
+      "memory_hook": "'I Have a Dream' \u2014 Lincoln Memorial steps, August 28, 1963. 250,000 witnesses."
+    },
+    {
+      "category": "History",
+      "question": "Which country was formerly known as 'Persia'?",
+      "options": [
+        "Iraq",
+        "Afghanistan",
+        "Turkey",
+        "Iran"
+      ],
+      "answer": "Iran",
+      "explanation": "Persia was the historical name for the region centered on modern-day Iran. The country officially changed its name to Iran in 1935, during the reign of Reza Shah Pahlavi. 'Iran' comes from the ancient Aryan people who settled the region. 'Persian' is still used to refer to the language and culture.",
+      "memory_hook": "Persia = Iran. The name changed in 1935, the culture never did."
+    },
+    {
+      "category": "Sports",
+      "question": "What is the term for a score of three under par on a single hole in golf?",
+      "options": [
+        "Birdie",
+        "Eagle",
+        "Albatross",
+        "Condor"
+      ],
+      "answer": "Albatross",
+      "explanation": "In golf, an albatross (also called a double eagle) is three strokes under par on a single hole. It is extremely rare \u2014 a condor (four under par, usually a hole-in-one on a par 5) is even rarer. The terms follow a bird theme: birdie (1 under), eagle (2 under), albatross (3 under).",
+      "memory_hook": "Golf birds: birdie, eagle, albatross. Each rarer than the last, like the actual birds."
+    },
+    {
+      "category": "Sports",
+      "question": "How many players are on a water polo team in the pool?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "answer": "7",
+      "explanation": "A water polo team has seven players in the pool during play: one goalkeeper and six field players. Teams have a maximum of 13 players on their roster. Games consist of four periods of eight minutes each, and the pool is at least 1.8 meters deep throughout.",
+      "memory_hook": "7 in the water: 1 goalkeeper + 6 field players. Think of a football team in a pool."
+    },
+    {
+      "category": "Sports",
+      "question": "Who holds the world record for the longest tennis match?",
+      "options": [
+        "Rafael Nadal vs. Roger Federer",
+        "John Isner vs. Nicolas Mahut",
+        "Andy Murray vs. Novak Djokovic",
+        "Pete Sampras vs. Andre Agassi"
+      ],
+      "answer": "John Isner vs. Nicolas Mahut",
+      "explanation": "The longest tennis match in history was played at Wimbledon 2010 between John Isner (USA) and Nicolas Mahut (France). It lasted 11 hours and 5 minutes across three days, with the final set score of 70\u201368. Isner won. The match was a total of 183 games.",
+      "memory_hook": "Isner vs. Mahut: 70-68 in the fifth set. Three days. Wimbledon 2010."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Which film features the famous shower scene score by Bernard Herrmann?",
+      "options": [
+        "Vertigo",
+        "Rear Window",
+        "Psycho",
+        "The Birds"
+      ],
+      "answer": "Psycho",
+      "explanation": "The shower scene in Alfred Hitchcock's Psycho (1960) features Bernard Herrmann's iconic shrieking strings score \u2014 played entirely by string instruments. The scene became one of the most studied in film history. Hitchcock reportedly considered having the scene with no music, but Herrmann convinced him otherwise.",
+      "memory_hook": "Psycho shower scene: screeching strings. You can hear it without seeing the film."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Who sang 'I Will Always Love You' in the film 'The Bodyguard'?",
+      "options": [
+        "Mariah Carey",
+        "Celine Dion",
+        "Whitney Houston",
+        "Toni Braxton"
+      ],
+      "answer": "Whitney Houston",
+      "explanation": "Whitney Houston's version of 'I Will Always Love You' was the theme for The Bodyguard (1992). Originally written and recorded by Dolly Parton in 1973, Houston's version became the best-selling single by a female artist in history at the time. Houston held the note at the end for 14 seconds in the recording.",
+      "memory_hook": "Whitney held that note forever. Dolly wrote it; Whitney made it immortal."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Which country does the band ABBA come from?",
+      "options": [
+        "Denmark",
+        "Finland",
+        "Norway",
+        "Sweden"
+      ],
+      "answer": "Sweden",
+      "explanation": "ABBA is from Stockholm, Sweden. The name is an acronym of the four members' first names: Agnetha F\u00e4ltskog, Bj\u00f6rn Ulvaeus, Benny Andersson, and Anni-Frid Lyngstad. They won the Eurovision Song Contest in 1974 with 'Waterloo' and became one of the best-selling music artists of all time.",
+      "memory_hook": "ABBA: Agnetha, Bj\u00f6rn, Benny, Anni-Frid \u2014 Sweden's biggest export after IKEA."
+    },
+    {
+      "category": "History",
+      "question": "Which Roman emperor converted to Christianity?",
+      "options": [
+        "Augustus",
+        "Nero",
+        "Caligula",
+        "Constantine I"
+      ],
+      "answer": "Constantine I",
+      "explanation": "Constantine I (Constantine the Great) was the first Roman emperor to convert to Christianity. After his vision before the Battle of Milvian Bridge in 312 AD, he issued the Edict of Milan (313 AD) which granted religious tolerance. Christianity became the state religion under his successor Theodosius I in 380 AD.",
+      "memory_hook": "Constantine converted Rome \u2014 from persecuting Christians to becoming one."
+    },
+    {
+      "category": "History",
+      "question": "What was the first country to use the metric system?",
+      "options": [
+        "Germany",
+        "United Kingdom",
+        "United States",
+        "France"
+      ],
+      "answer": "France",
+      "explanation": "France was the first country to adopt the metric system, which was introduced during the French Revolution. The system was legally mandated in France in 1795. The metric system was designed to be a universal, rational system of measurement based on natural constants.",
+      "memory_hook": "France invented the metric system during their Revolution \u2014 rational country, rational units."
+    }
+  ]
+}

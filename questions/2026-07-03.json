@@ -1,0 +1,134 @@
+{
+  "questions": [
+    {
+      "category": "History",
+      "question": "Which disease caused the Black Death pandemic of the 14th century?",
+      "options": [
+        "Smallpox",
+        "Cholera",
+        "Bubonic plague",
+        "Typhoid fever"
+      ],
+      "answer": "Bubonic plague",
+      "explanation": "The Black Death (1347\u20131351) was caused by Yersinia pestis, the bacterium responsible for bubonic plague. It killed an estimated 30\u201360% of Europe's population. The disease was spread primarily by fleas on rats, which traveled along trade routes.",
+      "memory_hook": "Bubonic = buboes (swollen lymph nodes) = the Black Death's calling card."
+    },
+    {
+      "category": "History",
+      "question": "The first successful powered airplane flight was made by whom?",
+      "options": [
+        "Charles Lindbergh",
+        "Glenn Curtiss",
+        "Howard Hughes",
+        "The Wright Brothers"
+      ],
+      "answer": "The Wright Brothers",
+      "explanation": "Orville and Wilbur Wright made the first successful powered airplane flight on December 17, 1903, at Kitty Hawk, North Carolina. The first flight lasted 12 seconds and covered 120 feet. They made four flights that day, the longest lasting 59 seconds.",
+      "memory_hook": "Wright brothers \u2014 they made it right on their first try (after years of trying)."
+    },
+    {
+      "category": "Sports",
+      "question": "In which sport would you find a 'hat trick'?",
+      "options": [
+        "Baseball",
+        "Basketball",
+        "Soccer/Football",
+        "All of these"
+      ],
+      "answer": "All of these",
+      "explanation": "A hat trick occurs in soccer/football (three goals in a game), hockey (three goals in a game), and cricket (three wickets in three balls). The term originally comes from cricket but has been adopted across many sports. It also appears in basketball as a term for a player scoring three consecutive baskets.",
+      "memory_hook": "Three in a row earns you the hat \u2014 take a bow."
+    },
+    {
+      "category": "Sports",
+      "question": "What is the name of the trophy awarded to the Stanley Cup champion?",
+      "options": [
+        "The Grey Cup",
+        "The Stanley Cup",
+        "The Hart Trophy",
+        "The Conn Smythe"
+      ],
+      "answer": "The Stanley Cup",
+      "explanation": "The Stanley Cup is the oldest professional sports trophy in North America, donated by Governor General Lord Stanley of Preston in 1892. Unlike other trophies, the Cup itself travels with the winning team for a year, and each player gets a day with it.",
+      "memory_hook": "Stanley Cup = hockey's holy grail. The cup parties with the winners."
+    },
+    {
+      "category": "Sports",
+      "question": "How many laps make up a standard Formula 1 race?",
+      "options": [
+        "It varies by circuit",
+        "Always 50",
+        "Always 78",
+        "Always 100"
+      ],
+      "answer": "It varies by circuit",
+      "explanation": "The number of laps in a Formula 1 race varies depending on the circuit. Races are designed to cover approximately 305 km (190 miles), with the Monaco Grand Prix being an exception at 260 km. The number of laps is calculated to meet this distance requirement.",
+      "memory_hook": "F1 laps vary \u2014 the distance stays the same, about 305 km per race."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Which 1997 James Cameron film starred Leonardo DiCaprio and Kate Winslet?",
+      "options": [
+        "The Aviator",
+        "Titanic",
+        "The Revenant",
+        "Revolutionary Road"
+      ],
+      "answer": "Titanic",
+      "explanation": "Titanic (1997) starred Leonardo DiCaprio as Jack Dawson and Kate Winslet as Rose DeWitt Bukater. The film won 11 Academy Awards, including Best Picture and Best Director, and was the highest-grossing film of all time until Avatar (also directed by Cameron) surpassed it.",
+      "memory_hook": "DiCaprio never won an Oscar for Titanic \u2014 but the ship won 11."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "What instrument is Yo-Yo Ma famous for playing?",
+      "options": [
+        "Violin",
+        "Piano",
+        "Cello",
+        "Viola"
+      ],
+      "answer": "Cello",
+      "explanation": "Yo-Yo Ma is a world-renowned cellist born in Paris to Chinese parents. He began playing cello at age four and has recorded over 100 albums. He has won 19 Grammy Awards and is known for both classical and cross-genre work including collaboration with bluegrass and tango musicians.",
+      "memory_hook": "Yo-Yo Ma: his name bounces up and down like his bow on the cello strings."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Which film series features 'Hogwarts School of Witchcraft and Wizardry'?",
+      "options": [
+        "The Chronicles of Narnia",
+        "The Lord of the Rings",
+        "Harry Potter",
+        "The Golden Compass"
+      ],
+      "answer": "Harry Potter",
+      "explanation": "The Harry Potter film series (2001\u20132011), based on J.K. Rowling's books, follows Harry Potter at Hogwarts School of Witchcraft and Wizardry. The series of eight films grossed over $7.7 billion worldwide, making it one of the highest-grossing franchises in history.",
+      "memory_hook": "Hogwarts: hogs + warts = not pretty, but magical."
+    },
+    {
+      "category": "History",
+      "question": "Which nation did Germany invade in 1939 to trigger the start of World War II?",
+      "options": [
+        "France",
+        "Soviet Union",
+        "Poland",
+        "Belgium"
+      ],
+      "answer": "Poland",
+      "explanation": "Germany invaded Poland on September 1, 1939, under Adolf Hitler's orders. Britain and France, bound by treaty to defend Poland, declared war on Germany two days later, officially beginning World War II in Europe.",
+      "memory_hook": "Poland first \u2014 one invasion started the world's deadliest war."
+    },
+    {
+      "category": "History",
+      "question": "Who was the first President of the United States?",
+      "options": [
+        "John Adams",
+        "Benjamin Franklin",
+        "Thomas Jefferson",
+        "George Washington"
+      ],
+      "answer": "George Washington",
+      "explanation": "George Washington served as the first President of the United States from 1789 to 1797. He was unanimously elected by the Electoral College and is often called the 'Father of His Country.' He voluntarily stepped down after two terms, setting a precedent for peaceful transfer of power.",
+      "memory_hook": "Washington DC was named after him \u2014 the capital honors the first leader."
+    }
+  ]
+}

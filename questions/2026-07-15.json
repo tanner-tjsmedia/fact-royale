@@ -1,0 +1,134 @@
+{
+  "questions": [
+    {
+      "category": "History",
+      "question": "Which explorer is traditionally credited with 'discovering' America in 1492?",
+      "options": [
+        "Amerigo Vespucci",
+        "Leif Erikson",
+        "Hernando de Soto",
+        "Christopher Columbus"
+      ],
+      "answer": "Christopher Columbus",
+      "explanation": "Christopher Columbus arrived in the Americas on October 12, 1492, when he landed in the Bahamas. While Leif Erikson reached North America around 1000 AD, Columbus's voyage opened sustained contact between Europe and the Americas. Columbus believed he had reached Asia and called the inhabitants 'Indians.'",
+      "memory_hook": "Columbus 1492: sailed the ocean blue. He was wrong about where \u2014 but changed the world anyway."
+    },
+    {
+      "category": "History",
+      "question": "Which country did Hitler's Germany invade to trigger Britain and France entering WWII?",
+      "options": [
+        "France",
+        "Czechoslovakia",
+        "Austria",
+        "Poland"
+      ],
+      "answer": "Poland",
+      "explanation": "Germany invaded Poland on September 1, 1939. Britain and France, bound by treaty obligations to Poland, declared war on Germany two days later on September 3, 1939, officially beginning the European theater of World War II.",
+      "memory_hook": "Poland = the trigger. One invasion started a world war."
+    },
+    {
+      "category": "Sports",
+      "question": "What is the standard height of a basketball hoop from the floor?",
+      "options": [
+        "8 feet",
+        "9 feet",
+        "10 feet",
+        "11 feet"
+      ],
+      "answer": "10 feet",
+      "explanation": "A standard basketball hoop is 10 feet (3.05 meters) above the floor in the NBA, NCAA, and FIBA. The height has been standard since James Naismith invented the game in 1891. Shaquille O'Neal could touch the rim flat-footed due to his height and wingspan.",
+      "memory_hook": "10 feet high \u2014 the standard since basketball was invented in 1891."
+    },
+    {
+      "category": "Sports",
+      "question": "What sport takes place on a 'pitch' with a 'wicket'?",
+      "options": [
+        "Polo",
+        "Lacrosse",
+        "Cricket",
+        "Croquet"
+      ],
+      "answer": "Cricket",
+      "explanation": "Cricket is played on a grass oval called a 'pitch,' with the wicket \u2014 three stumps topped by two bails \u2014 at each end of the central 22-yard strip. The batsman defends the wicket while the bowler attempts to knock off the bails. Cricket is especially popular in the UK, India, Australia, and the Caribbean.",
+      "memory_hook": "Cricket: pitch + wicket + tea breaks. Very British."
+    },
+    {
+      "category": "Sports",
+      "question": "In ski jumping, what is measured to determine the score?",
+      "options": [
+        "Speed only",
+        "Distance and style",
+        "Height only",
+        "Wind resistance"
+      ],
+      "answer": "Distance and style",
+      "explanation": "Ski jumping scoring is based on distance jumped (most points) and style points awarded by five judges, with the highest and lowest scores discarded and the remaining three averaged. Style factors include body position, balance, and landing technique.",
+      "memory_hook": "Ski jumping: go far, look good. Distance + style = total score."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Which Bond film features the song 'Skyfall' by Adele?",
+      "options": [
+        "Casino Royale",
+        "Quantum of Solace",
+        "Skyfall",
+        "Spectre"
+      ],
+      "answer": "Skyfall",
+      "explanation": "Adele's 'Skyfall' was the theme song for the 2012 James Bond film of the same name, directed by Sam Mendes. The song won the Academy Award for Best Original Song, making it the first Bond theme to win the Oscar. The film is the highest-grossing Bond film ever.",
+      "memory_hook": "Skyfall: Adele + Bond = Oscar. The sky literally fell on the competition."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Who played Wolverine in the X-Men film series?",
+      "options": [
+        "Chris Pratt",
+        "Ryan Reynolds",
+        "Hugh Jackman",
+        "Tom Hardy"
+      ],
+      "answer": "Hugh Jackman",
+      "explanation": "Hugh Jackman played Wolverine in nine films from X-Men (2000) to Logan (2017) and later returned for Deadpool & Wolverine (2024). Jackman held the record as the actor to have played the same superhero role the most times in a single film series, recognized by the Guinness World Records.",
+      "memory_hook": "Jackman IS Wolverine \u2014 9 films, 17 years, one set of claws."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Which famous music festival is held annually in Glastonbury, England?",
+      "options": [
+        "Reading Festival",
+        "Coachella",
+        "Glastonbury Festival",
+        "Isle of Wight Festival"
+      ],
+      "answer": "Glastonbury Festival",
+      "explanation": "The Glastonbury Festival of Contemporary Performing Arts is held annually at Worthy Farm in Pilton, Somerset, England. First held in 1970, it is one of the world's largest and most famous music festivals, hosting up to 200,000 attendees. It has become famous for its eclectic lineup and muddy fields.",
+      "memory_hook": "Glastonbury = England's biggest music event. Mud, music, and mayhem since 1970."
+    },
+    {
+      "category": "History",
+      "question": "The 'Cold War' was a period of geopolitical tension between the United States and which other country?",
+      "options": [
+        "China",
+        "Germany",
+        "Soviet Union",
+        "Cuba"
+      ],
+      "answer": "Soviet Union",
+      "explanation": "The Cold War (1947\u20131991) was a period of geopolitical tension between the United States and the Soviet Union, and their respective allies. It involved nuclear arms race, proxy wars, and ideological competition between capitalism and communism but never a direct military conflict between the two superpowers.",
+      "memory_hook": "Cold War: US vs. USSR. No direct fighting \u2014 just everything except fighting."
+    },
+    {
+      "category": "History",
+      "question": "Which ancient Greek philosopher is known for the 'Socratic method'?",
+      "options": [
+        "Plato",
+        "Aristotle",
+        "Socrates",
+        "Epicurus"
+      ],
+      "answer": "Socrates",
+      "explanation": "Socrates (470\u2013399 BC) developed the Socratic method \u2014 a form of inquiry through questioning to stimulate critical thinking. He wrote nothing himself; his ideas are known through his students, primarily Plato. He was tried and executed by Athens for corrupting the youth and impiety, choosing death over exile.",
+      "memory_hook": "Socrates asked questions until Athens killed him for asking too many."
+    }
+  ]
+}

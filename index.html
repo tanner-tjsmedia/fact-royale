@@ -54,6 +54,13 @@
       </div>
     </nav>
 
+    <!-- STREAK BANNER (logged-in users only) -->
+    <div class="streak-banner" id="streak-banner" style="display:none;">
+      <span class="streak-banner-icon">🔥</span>
+      <span class="streak-banner-text" id="streak-banner-text"></span>
+      <button class="streak-banner-btn" id="streak-banner-btn" style="display:none;">Play Now →</button>
+    </div>
+
     <!-- HERO -->
     <section class="hero">
       <div class="hero-glow"></div>
@@ -255,6 +262,10 @@
           <p class="notify-sub">Drop your email and we'll let you know when multiplayer, live competitions, and new features go live. No spam — just updates.</p>
         </div>
         <form class="notify-form" id="notify-form">
+          <div class="notify-name-row">
+            <input type="text"  name="firstName" class="notify-input" placeholder="First name" required />
+            <input type="text"  name="lastName"  class="notify-input" placeholder="Last name"  required />
+          </div>
           <input type="email" name="email" class="notify-input" placeholder="your@email.com" required />
           <button type="submit" class="btn-primary notify-btn">Notify Me</button>
         </form>
@@ -313,6 +324,11 @@
       <div class="crown">♛</div>
       <h2 class="results-title" id="results-title"></h2>
       <div class="score-display" id="score-display"></div>
+
+      <!-- Rank percentage -->
+      <div class="results-rank-wrap" id="results-rank-wrap" style="display:none;">
+        <p class="results-rank-pct" id="results-rank-pct"></p>
+      </div>
 
       <div class="category-breakdown" id="category-breakdown"></div>
 

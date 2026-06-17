@@ -1,0 +1,134 @@
+{
+  "questions": [
+    {
+      "category": "History",
+      "question": "What year did the United States declare independence?",
+      "options": [
+        "1774",
+        "1775",
+        "1776",
+        "1777"
+      ],
+      "answer": "1776",
+      "explanation": "The United States declared independence from Britain on July 4, 1776, when the Continental Congress formally adopted the Declaration of Independence, written primarily by Thomas Jefferson.",
+      "memory_hook": "1776 \u2014 four sevens: se7en se7en se7en... America was born."
+    },
+    {
+      "category": "History",
+      "question": "Which pharaoh is associated with the construction of the Great Pyramid of Giza?",
+      "options": [
+        "Tutankhamun",
+        "Ramesses II",
+        "Cleopatra",
+        "Khufu"
+      ],
+      "answer": "Khufu",
+      "explanation": "The Great Pyramid of Giza was built as a tomb for Pharaoh Khufu (also known as Cheops) around 2560 BC. It stood as the tallest man-made structure in the world for over 3,800 years.",
+      "memory_hook": "Khufu built his tomb so big, it's still standing."
+    },
+    {
+      "category": "Sports",
+      "question": "How long is a standard marathon race?",
+      "options": [
+        "26 miles",
+        "26.2 miles",
+        "26.5 miles",
+        "27 miles"
+      ],
+      "answer": "26.2 miles",
+      "explanation": "A standard marathon is 26.2 miles (42.195 km). The distance was standardized at the 1908 London Olympics to accommodate the British royal family \u2014 the race started at Windsor Castle and ended in front of the royal box at the Olympic stadium.",
+      "memory_hook": "26.2 \u2014 the .2 was added for royalty."
+    },
+    {
+      "category": "Sports",
+      "question": "In which sport is the term 'love' used to mean zero?",
+      "options": [
+        "Squash",
+        "Tennis",
+        "Badminton",
+        "Table Tennis"
+      ],
+      "answer": "Tennis",
+      "explanation": "In tennis, 'love' means zero points. The term is believed to derive from the French word 'l'oeuf' (the egg), referring to the egg-shaped zero. It has been used in tennis scoring since at least the 18th century.",
+      "memory_hook": "Love = zero = egg. In tennis, love means nothing \u2014 literally."
+    },
+    {
+      "category": "Sports",
+      "question": "What sport takes place in a velodrome?",
+      "options": [
+        "Rowing",
+        "Speed skating",
+        "Cycling",
+        "Roller derby"
+      ],
+      "answer": "Cycling",
+      "explanation": "A velodrome is a cycling arena featuring a steeply banked oval track. Track cycling events at the Olympics take place in velodromes. The banked turns allow cyclists to maintain high speeds without losing traction.",
+      "memory_hook": "Velo = bike in French. Velodrome = bike dome."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Which director is known for films like 'Pulp Fiction' and 'Kill Bill'?",
+      "options": [
+        "David Fincher",
+        "Christopher Nolan",
+        "Quentin Tarantino",
+        "Ridley Scott"
+      ],
+      "answer": "Quentin Tarantino",
+      "explanation": "Quentin Tarantino is known for his nonlinear narratives, sharp dialogue, and stylized violence. His films include Pulp Fiction, Kill Bill, Inglourious Basterds, and Django Unchained. Pulp Fiction won the Palme d'Or at Cannes in 1994.",
+      "memory_hook": "Tarantino \u2014 his films are like puzzles: out of order and full of surprises."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Which band performed 'Bohemian Rhapsody'?",
+      "options": [
+        "Led Zeppelin",
+        "The Rolling Stones",
+        "Queen",
+        "Aerosmith"
+      ],
+      "answer": "Queen",
+      "explanation": "'Bohemian Rhapsody' was written by Freddie Mercury and recorded by Queen in 1975. The six-minute song blends ballad, opera, and hard rock and is one of the best-selling singles of all time. It reached a new generation after appearing in the 1992 film Wayne's World.",
+      "memory_hook": "Queen \u2014 is this real life? Is this just fantasy? Yes, it's Bohemian Rhapsody."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "What is the highest-grossing film of all time (not adjusted for inflation)?",
+      "options": [
+        "Titanic",
+        "Avengers: Endgame",
+        "Avatar",
+        "The Lion King"
+      ],
+      "answer": "Avatar",
+      "explanation": "James Cameron's Avatar (2009) is the highest-grossing film of all time with over $2.9 billion worldwide. It reclaimed the top spot from Avengers: Endgame after a re-release in China in 2021. Cameron also directed the previous record-holder, Titanic.",
+      "memory_hook": "Avatar painted the world blue \u2014 and painted box offices green."
+    },
+    {
+      "category": "History",
+      "question": "Who invented the telephone?",
+      "options": [
+        "Thomas Edison",
+        "Nikola Tesla",
+        "Alexander Graham Bell",
+        "Guglielmo Marconi"
+      ],
+      "answer": "Alexander Graham Bell",
+      "explanation": "Alexander Graham Bell is credited with inventing the first practical telephone, receiving a patent in 1876. His first words over the telephone were to his assistant: 'Mr. Watson, come here \u2014 I want to see you.'",
+      "memory_hook": "Bell invented the bell-shaped earpiece \u2014 his name was the clue."
+    },
+    {
+      "category": "History",
+      "question": "Which country was the first to grant women the right to vote?",
+      "options": [
+        "United States",
+        "United Kingdom",
+        "Australia",
+        "New Zealand"
+      ],
+      "answer": "New Zealand",
+      "explanation": "New Zealand became the first self-governing country to grant women the right to vote in 1893. Kate Sheppard led the suffrage movement, and Governor Lord Glasgow signed the Electoral Act into law on September 19, 1893.",
+      "memory_hook": "New Zealand \u2014 new land, new rights first."
+    }
+  ]
+}

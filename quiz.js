@@ -503,18 +503,16 @@ function setupLanding(data) {
   if (form) {
     form.addEventListener('submit', (e) => {
       e.preventDefault();
-      const emailInput = form.querySelector('input[type="email"]');
-      const email = emailInput ? emailInput.value.trim() : '';
+      const firstName = (form.querySelector('input[name="firstName"]')?.value || '').trim();
+      const lastName  = (form.querySelector('input[name="lastName"]')?.value  || '').trim();
+      const email     = (form.querySelector('input[type="email"]')?.value     || '').trim();
 
       if (!email) return;
 
-      // Submit to Google Apps Script
-      // mode: 'no-cors' is required — Google doesn't return CORS headers,
-      // so we can't read the response, but the data still saves to your Sheet.
       fetch(SIGNUP_URL, {
         method: 'POST',
         mode: 'no-cors',
-        body: new URLSearchParams({ email })
+        body: new URLSearchParams({ email, firstName, lastName, source: 'notify-form' })
       });
 
       // Show confirmation immediately (optimistic — submission is reliable)

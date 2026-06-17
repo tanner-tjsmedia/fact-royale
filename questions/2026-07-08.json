@@ -1,0 +1,134 @@
+{
+  "questions": [
+    {
+      "category": "History",
+      "question": "What was the name of the ship on which the Pilgrims sailed to America in 1620?",
+      "options": [
+        "Santa Mar\u00eda",
+        "Nina",
+        "The Endeavour",
+        "Mayflower"
+      ],
+      "answer": "Mayflower",
+      "explanation": "The Mayflower carried 102 passengers and about 30 crew members from Plymouth, England to Plymouth, Massachusetts in 1620. The voyage took 66 days. The Pilgrims signed the Mayflower Compact aboard the ship, which was one of the first governing documents in the New World.",
+      "memory_hook": "Mayflower \u2014 flowers bloomed in a new world."
+    },
+    {
+      "category": "History",
+      "question": "Which country was the first to give women the right to vote in a national election in Europe?",
+      "options": [
+        "Sweden",
+        "Germany",
+        "Finland",
+        "Norway"
+      ],
+      "answer": "Finland",
+      "explanation": "Finland was the first European country to give women the right to vote in national elections in 1906. Finnish women were also the first in the world to be eligible to stand for election. In 1907, 19 women were elected to the Finnish Parliament.",
+      "memory_hook": "Finland was first in Europe for female suffrage \u2014 a Nordic pioneer."
+    },
+    {
+      "category": "Sports",
+      "question": "What is the name of the award given to the best player in the NHL each season?",
+      "options": [
+        "The Vezina Trophy",
+        "The Norris Trophy",
+        "The Hart Trophy",
+        "The Conn Smythe"
+      ],
+      "answer": "The Hart Trophy",
+      "explanation": "The Hart Memorial Trophy is awarded annually to the player judged most valuable to his team in the NHL. It has been awarded since 1924. Wayne Gretzky won it a record nine times. The Vezina Trophy goes to the best goaltender, and the Norris to the best defenseman.",
+      "memory_hook": "Hart Trophy = Heart of the team. MVP of hockey."
+    },
+    {
+      "category": "Sports",
+      "question": "How many events are in a decathlon?",
+      "options": [
+        "8",
+        "10",
+        "12",
+        "15"
+      ],
+      "answer": "10",
+      "explanation": "A decathlon consists of ten events spread over two days: 100m, long jump, shot put, high jump, and 400m on day one; 110m hurdles, discus, pole vault, javelin, and 1500m on day two. The winner is often called 'the world's greatest athlete.'",
+      "memory_hook": "Deca = ten. Decathlon = 10 events, one champion."
+    },
+    {
+      "category": "Sports",
+      "question": "In which city is the famous Wembley Stadium located?",
+      "options": [
+        "Birmingham",
+        "Manchester",
+        "Glasgow",
+        "London"
+      ],
+      "answer": "London",
+      "explanation": "Wembley Stadium is located in Wembley, London, England. The current stadium opened in 2007 and has a capacity of 90,000, making it the largest stadium in the UK. It hosts FA Cup finals, England national team matches, and major concerts.",
+      "memory_hook": "Wembley = London. The arch over the stadium is its calling card."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Which film series features a character who says 'May the Force be with you'?",
+      "options": [
+        "Star Trek",
+        "The Matrix",
+        "Dune",
+        "Star Wars"
+      ],
+      "answer": "Star Wars",
+      "explanation": "'May the Force be with you' is the iconic phrase from the Star Wars franchise, first used in the original 1977 film. The Force is a metaphysical power that connects all living things in the Star Wars universe. May 4 is celebrated as 'Star Wars Day' based on a pun on the phrase.",
+      "memory_hook": "May the Force \u2014 May 4 = Star Wars Day. May the fourth be with you."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Which artist released the albums 'Lemonade' and 'Renaissance'?",
+      "options": [
+        "Rihanna",
+        "Nicki Minaj",
+        "Cardi B",
+        "Beyonc\u00e9"
+      ],
+      "answer": "Beyonc\u00e9",
+      "explanation": "Beyonc\u00e9 released 'Lemonade' as a visual album in 2016 and 'Renaissance' in 2022. 'Lemonade' received widespread critical acclaim and was named album of the year by numerous publications. 'Renaissance' debuted at number one and won the Grammy for Best Dance/Electronic Album.",
+      "memory_hook": "Beyonc\u00e9 made lemonade when life gave her lemons \u2014 and a Renaissance followed."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Which director made 'E.T. the Extra-Terrestrial' and 'Jaws'?",
+      "options": [
+        "James Cameron",
+        "George Lucas",
+        "Steven Spielberg",
+        "Ron Howard"
+      ],
+      "answer": "Steven Spielberg",
+      "explanation": "Steven Spielberg directed both Jaws (1975) and E.T. the Extra-Terrestrial (1982). Jaws is credited with creating the 'summer blockbuster' concept. E.T. was the highest-grossing film of all time for 11 years until Jurassic Park (also Spielberg) surpassed it.",
+      "memory_hook": "Spielberg made the shark scary and the alien lovable. Opposite ends of the spectrum."
+    },
+    {
+      "category": "History",
+      "question": "The 'Trojan War' was fought over which city?",
+      "options": [
+        "Athens",
+        "Sparta",
+        "Troy",
+        "Corinth"
+      ],
+      "answer": "Troy",
+      "explanation": "The Trojan War, as described in Homer's Iliad, was fought between the Greeks and the city of Troy (in present-day Turkey). It began when Paris of Troy took Helen from Sparta. The Greeks used the Trojan Horse to infiltrate the city after a 10-year siege.",
+      "memory_hook": "Trojan Horse, Trojan War, Trojan everything \u2014 Troy was at the center."
+    },
+    {
+      "category": "History",
+      "question": "Which scientist is known for discovering penicillin?",
+      "options": [
+        "Louis Pasteur",
+        "Robert Koch",
+        "Alexander Fleming",
+        "Joseph Lister"
+      ],
+      "answer": "Alexander Fleming",
+      "explanation": "Alexander Fleming discovered penicillin in 1928 when he noticed that a mold (Penicillium notatum) was killing bacteria in one of his petri dishes. This accidental discovery led to the development of antibiotics, which have saved an estimated 200 million lives.",
+      "memory_hook": "Fleming's mold killed bacteria \u2014 a dirty lab dish changed medicine forever."
+    }
+  ]
+}

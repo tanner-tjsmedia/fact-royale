@@ -1,0 +1,134 @@
+{
+  "questions": [
+    {
+      "category": "History",
+      "question": "Which U.S. president was known as 'Honest Abe'?",
+      "options": [
+        "George Washington",
+        "Ulysses S. Grant",
+        "Abraham Lincoln",
+        "Benjamin Harrison"
+      ],
+      "answer": "Abraham Lincoln",
+      "explanation": "Abraham Lincoln earned the nickname 'Honest Abe' early in life for his reputation for integrity. As a young man, he reportedly walked miles to return a few cents he had overcharged a customer. He is consistently ranked as one of the greatest U.S. presidents in historical surveys.",
+      "memory_hook": "Honest Abe walked miles to return pennies. That's the origin of the nickname."
+    },
+    {
+      "category": "History",
+      "question": "The 'Cultural Revolution' in China was led by whom?",
+      "options": [
+        "Deng Xiaoping",
+        "Zhou Enlai",
+        "Jiang Zemin",
+        "Mao Zedong"
+      ],
+      "answer": "Mao Zedong",
+      "explanation": "The Cultural Revolution (1966\u20131976) was launched by Mao Zedong to preserve communist ideology and eliminate perceived capitalist and traditional elements. It resulted in massive social upheaval, persecution of intellectuals, destruction of cultural artifacts, and an estimated 500,000 to 2 million deaths.",
+      "memory_hook": "Mao's Cultural Revolution: books burned, scholars humiliated, chaos unleashed."
+    },
+    {
+      "category": "Sports",
+      "question": "In American football, what is a 'Hail Mary' pass?",
+      "options": [
+        "A running play from near the end zone",
+        "A long forward pass made in desperation at the end of a game",
+        "A trick play involving a lateral",
+        "A punt that lands in the end zone"
+      ],
+      "answer": "A long forward pass made in desperation at the end of a game",
+      "explanation": "A Hail Mary is a long forward pass thrown in desperation near the end of a game, when a team is unlikely to score otherwise. The term became popular after Roger Staubach used it to describe his 50-yard touchdown pass to Drew Pearson with 24 seconds left in a 1975 NFL playoff game.",
+      "memory_hook": "Hail Mary: pray and throw. Roger Staubach literally named it after the prayer."
+    },
+    {
+      "category": "Sports",
+      "question": "What country does tennis player Rafael Nadal represent?",
+      "options": [
+        "Argentina",
+        "Italy",
+        "Portugal",
+        "Spain"
+      ],
+      "answer": "Spain",
+      "explanation": "Rafael Nadal is from Manacor, Mallorca, Spain. He is considered one of the greatest tennis players of all time, particularly dominant on clay courts. He has won 22 Grand Slam singles titles, including a record 14 French Open titles. He is often called 'The King of Clay.'",
+      "memory_hook": "Nadal = Spain = clay courts = the French Open 14 times."
+    },
+    {
+      "category": "Sports",
+      "question": "The 'Ironman Triathlon' consists of swimming, cycling, and running. What is the swimming distance?",
+      "options": [
+        "1.2 miles",
+        "2.4 miles",
+        "3.6 miles",
+        "4.8 miles"
+      ],
+      "answer": "2.4 miles",
+      "explanation": "The Ironman Triathlon consists of a 2.4-mile (3.86 km) swim, a 112-mile (180.25 km) bicycle ride, and a 26.22-mile (42.2 km) marathon run, raced in that order. Athletes must complete the course within 17 hours. The course was designed to settle an argument between athletes about which sport was hardest.",
+      "memory_hook": "Ironman: 2.4 swim + 112 bike + 26.2 run. A day-long test of everything."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "What rapper's real name is Marshall Bruce Mathers III?",
+      "options": [
+        "Jay-Z",
+        "Kanye West",
+        "Eminem",
+        "Lil Wayne"
+      ],
+      "answer": "Eminem",
+      "explanation": "Eminem's full real name is Marshall Bruce Mathers III. He grew up in Detroit, Michigan, and became one of the best-selling music artists of all time. His album 'The Marshall Mathers LP' (2000) is the fastest-selling rap album in history. He's won 15 Grammy Awards.",
+      "memory_hook": "Eminem = M&M = Marshall Mathers. His initials are the candy."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Which film features the villain Hannibal Lecter in three movies?",
+      "options": [
+        "Seven",
+        "Manhunter",
+        "Silence of the Lambs, Hannibal, and Red Dragon",
+        "Prisoners"
+      ],
+      "answer": "Silence of the Lambs, Hannibal, and Red Dragon",
+      "explanation": "Hannibal Lecter appeared in The Silence of the Lambs (1991), Hannibal (2001), and Red Dragon (2002), all played by Anthony Hopkins. Brian Cox first played the character in Manhunter (1986), based on the same novel as Red Dragon. Hopkins' performance is widely considered one of cinema's greatest villain portrayals.",
+      "memory_hook": "Hopkins played Lecter three times: Silence, Hannibal, Red Dragon."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "What band is 'Stairway to Heaven' by?",
+      "options": [
+        "Deep Purple",
+        "Black Sabbath",
+        "Led Zeppelin",
+        "Cream"
+      ],
+      "answer": "Led Zeppelin",
+      "explanation": "'Stairway to Heaven' was written by Jimmy Page and Robert Plant and appears on Led Zeppelin's untitled fourth album (1971). It is often cited as the greatest rock song ever written. The song famously starts quiet and builds to a thundering climax. It has never been released as a single.",
+      "memory_hook": "Stairway to Heaven: Led Zeppelin built a song that still hasn't reached the top."
+    },
+    {
+      "category": "History",
+      "question": "What was the primary purpose of the Berlin Wall?",
+      "options": [
+        "To prevent Western invasion",
+        "To keep East Germans from fleeing to the West",
+        "To mark the border of two countries",
+        "To protect against nuclear attack"
+      ],
+      "answer": "To keep East Germans from fleeing to the West",
+      "explanation": "The Berlin Wall was built by East Germany beginning on August 13, 1961, to stop the mass emigration of East Germans to West Germany through West Berlin. In the decade before the Wall, about 3.5 million East Germans had fled to the West. The Wall fell on November 9, 1989.",
+      "memory_hook": "The Wall kept people IN, not out \u2014 East Germans weren't allowed to leave."
+    },
+    {
+      "category": "History",
+      "question": "Who was the first African American to serve as U.S. Secretary of State?",
+      "options": [
+        "Eric Holder",
+        "Colin Powell",
+        "Condoleezza Rice",
+        "Thurgood Marshall"
+      ],
+      "answer": "Colin Powell",
+      "explanation": "Colin Powell became the first African American Secretary of State when he was appointed by President George W. Bush in 2001. He served until 2005. Condoleezza Rice succeeded him as the second African American (and first African American woman) to hold the office.",
+      "memory_hook": "Powell = first Black Secretary of State. Condoleezza followed. Two firsts in a row."
+    }
+  ]
+}

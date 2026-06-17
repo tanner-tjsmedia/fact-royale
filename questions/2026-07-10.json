@@ -1,0 +1,134 @@
+{
+  "questions": [
+    {
+      "category": "History",
+      "question": "Which ancient Greek philosopher taught Alexander the Great?",
+      "options": [
+        "Socrates",
+        "Plato",
+        "Aristotle",
+        "Pythagoras"
+      ],
+      "answer": "Aristotle",
+      "explanation": "Aristotle tutored the young Alexander the Great from age 13 to 16, commissioned by Alexander's father, King Philip II of Macedon. Aristotle's teachings covered philosophy, science, medicine, and the arts. Alexander reportedly kept a copy of Homer's Iliad, annotated by Aristotle, under his pillow.",
+      "memory_hook": "Aristotle taught the greatest conqueror. Teacher shapes the student who shapes the world."
+    },
+    {
+      "category": "History",
+      "question": "The Eiffel Tower was built for which World's Fair?",
+      "options": [
+        "1876 Philadelphia",
+        "1889 Paris",
+        "1893 Chicago",
+        "1900 Paris"
+      ],
+      "answer": "1889 Paris",
+      "explanation": "The Eiffel Tower was built for the 1889 World's Fair (Exposition Universelle) in Paris, which celebrated the centennial of the French Revolution. Designed by Gustave Eiffel, it was initially criticized as an eyesore by many Parisians but is now one of the most visited monuments in the world.",
+      "memory_hook": "1889 = 100 years after the French Revolution. The tower marked the birthday."
+    },
+    {
+      "category": "Sports",
+      "question": "What is the highest possible break (score) in a single game of snooker?",
+      "options": [
+        "100",
+        "147",
+        "155",
+        "175"
+      ],
+      "answer": "147",
+      "explanation": "The maximum break in snooker is 147, achieved by potting all 15 reds each with a black (15 \u00d7 8 = 120), then potting all the colored balls in order (yellow 2 + green 3 + brown 4 + blue 5 + pink 6 + black 7 = 27), totaling 147. It is called a 'maximum' or 'maximum break.'",
+      "memory_hook": "147 = snooker's perfect game. Ronnie O'Sullivan holds the record for the fastest maximum."
+    },
+    {
+      "category": "Sports",
+      "question": "How wide is an American football goal post (between the uprights) in feet?",
+      "options": [
+        "14.5 feet",
+        "18.5 feet",
+        "23.5 feet",
+        "30 feet"
+      ],
+      "answer": "18.5 feet",
+      "explanation": "NFL goal posts are 18 feet 6 inches (18.5 feet) wide between the uprights. The crossbar is 10 feet above the ground. College football uses the same width. Kickers must split the uprights from sometimes 60+ yards away \u2014 a margin of about 18.5 feet for a tiny ball.",
+      "memory_hook": "18.5 feet wide \u2014 just slightly wider than a yellow school bus."
+    },
+    {
+      "category": "Sports",
+      "question": "What is the name of the swimming stroke where both arms move symmetrically and the legs perform a dolphin kick?",
+      "options": [
+        "Backstroke",
+        "Breaststroke",
+        "Butterfly",
+        "Freestyle"
+      ],
+      "answer": "Butterfly",
+      "explanation": "The butterfly stroke involves both arms moving simultaneously in a circular motion while the legs perform a dolphin kick \u2014 both legs moving together up and down. It was developed in the 1930s as a variant of breaststroke and became an official Olympic event in 1956.",
+      "memory_hook": "Butterfly: both arms like wings, both legs like a dolphin tail."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Which actor starred as Neo in 'The Matrix' trilogy?",
+      "options": [
+        "Will Smith",
+        "Brad Pitt",
+        "Keanu Reeves",
+        "Tom Cruise"
+      ],
+      "answer": "Keanu Reeves",
+      "explanation": "Keanu Reeves played Thomas Anderson/Neo in The Matrix (1999), The Matrix Reloaded (2003), The Matrix Revolutions (2003), and The Matrix Resurrections (2021). Will Smith was originally offered the role of Neo but turned it down to star in Wild Wild West.",
+      "memory_hook": "Reeves chose the red pill \u2014 he became Neo. Will Smith chose Wild Wild West."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "The song 'Purple Rain' is associated with which artist?",
+      "options": [
+        "David Bowie",
+        "Stevie Wonder",
+        "Elton John",
+        "Prince"
+      ],
+      "answer": "Prince",
+      "explanation": "'Purple Rain' was the title track of Prince's 1984 album and accompanying film. It is often considered one of the greatest songs ever recorded. Prince performed it live as a guitar solo at the 2007 Super Bowl halftime show during an actual rainstorm \u2014 widely considered the greatest Super Bowl performance ever.",
+      "memory_hook": "Prince, purple, rain \u2014 he made the weather match the music."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Which 1994 film features the line 'Stupid is as stupid does'?",
+      "options": [
+        "Dumb and Dumber",
+        "Ace Ventura",
+        "Forrest Gump",
+        "Billy Madison"
+      ],
+      "answer": "Forrest Gump",
+      "explanation": "'Stupid is as stupid does' is said by Forrest Gump (played by Tom Hanks) in the 1994 film of the same name. It is a variation of the expression 'handsome is as handsome does,' meaning that a person's actions define them more than their appearance or intelligence.",
+      "memory_hook": "Forrest: 'Stupid is as stupid does' \u2014 wisdom from the simplest character."
+    },
+    {
+      "category": "History",
+      "question": "Which country was divided into East and West after World War II?",
+      "options": [
+        "Austria",
+        "Poland",
+        "Korea",
+        "Germany"
+      ],
+      "answer": "Germany",
+      "explanation": "Germany was divided into West Germany (Federal Republic of Germany, aligned with the West) and East Germany (German Democratic Republic, controlled by the Soviet Union) after World War II. The division lasted until German Reunification on October 3, 1990, after the fall of the Berlin Wall.",
+      "memory_hook": "Germany was split \u2014 West and East \u2014 from 1949 to 1990."
+    },
+    {
+      "category": "History",
+      "question": "The 'Trail of Tears' refers to the forced relocation of which Native American nation?",
+      "options": [
+        "Sioux",
+        "Apache",
+        "Cherokee",
+        "Comanche"
+      ],
+      "answer": "Cherokee",
+      "explanation": "The Trail of Tears was the forced relocation of the Cherokee Nation and other Native American tribes from their homelands in the southeastern United States to 'Indian Territory' in present-day Oklahoma in the 1830s. Approximately 4,000 of the 15,000 Cherokee who were relocated died during the journey.",
+      "memory_hook": "Trail of Tears \u2014 Cherokee forced westward in winter. Tears froze on the trail."
+    }
+  ]
+}

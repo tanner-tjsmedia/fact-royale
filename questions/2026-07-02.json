@@ -1,0 +1,134 @@
+{
+  "questions": [
+    {
+      "category": "History",
+      "question": "Which country was the first to use paper money?",
+      "options": [
+        "Egypt",
+        "India",
+        "China",
+        "Greece"
+      ],
+      "answer": "China",
+      "explanation": "China invented paper money during the Tang Dynasty (618\u2013907 AD) and it became widespread during the Song Dynasty. The Mongol rulers further developed the system. Marco Polo was astonished by paper money during his travels to China.",
+      "memory_hook": "China: they invented paper, then figured out you could print money on it."
+    },
+    {
+      "category": "History",
+      "question": "The Cuban Missile Crisis occurred during the presidency of which U.S. leader?",
+      "options": [
+        "Eisenhower",
+        "Johnson",
+        "Nixon",
+        "Kennedy"
+      ],
+      "answer": "Kennedy",
+      "explanation": "The Cuban Missile Crisis occurred in October 1962 during President John F. Kennedy's administration. The 13-day standoff between the U.S. and Soviet Union, after Soviet missiles were discovered in Cuba, is considered the closest the Cold War came to nuclear conflict.",
+      "memory_hook": "Kennedy vs. Khrushchev \u2014 K vs. K, 13 days, almost the end."
+    },
+    {
+      "category": "Sports",
+      "question": "What sport uses a 'puck'?",
+      "options": [
+        "Lacrosse",
+        "Field hockey",
+        "Ice hockey",
+        "Polo"
+      ],
+      "answer": "Ice hockey",
+      "explanation": "A puck is the small, hard rubber disc used in ice hockey. It is 1 inch thick, 3 inches in diameter, and weighs between 5.5 and 6 ounces. Pucks are frozen before games to reduce bouncing on the ice.",
+      "memory_hook": "Puck \u2014 it rhymes with duck, and it slides like one on ice."
+    },
+    {
+      "category": "Sports",
+      "question": "How many points is a touchdown worth in American football?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "answer": "6",
+      "explanation": "A touchdown is worth 6 points in American football. After scoring a touchdown, teams can attempt a point-after-touchdown kick (1 point) or a two-point conversion by running or passing into the end zone again.",
+      "memory_hook": "6 for touchdown \u2014 then add 1 or 2 for the extra point or conversion."
+    },
+    {
+      "category": "Sports",
+      "question": "Which female tennis player has won the most Grand Slam singles titles?",
+      "options": [
+        "Steffi Graf",
+        "Martina Navratilova",
+        "Venus Williams",
+        "Serena Williams"
+      ],
+      "answer": "Serena Williams",
+      "explanation": "Serena Williams has won 23 Grand Slam singles titles, the most in the Open Era and the most by any player in the modern game. She won her first Grand Slam at the 1999 US Open and her last at the 2017 Australian Open.",
+      "memory_hook": "Serena: 23 slams. She owns the court in every sense."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Which 1994 Disney film features the song 'Circle of Life'?",
+      "options": [
+        "Aladdin",
+        "Beauty and the Beast",
+        "The Lion King",
+        "Mulan"
+      ],
+      "answer": "The Lion King",
+      "explanation": "'Circle of Life' opens The Lion King (1994) and was written by Elton John and Tim Rice. The film features music that went on to inspire a massively successful Broadway musical. It remains one of the highest-grossing animated films of all time.",
+      "memory_hook": "Circle of Life \u2014 Simba rises, the circle continues."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Who directed the 'Dark Knight' trilogy?",
+      "options": [
+        "Zack Snyder",
+        "Christopher Nolan",
+        "Tim Burton",
+        "Sam Raimi"
+      ],
+      "answer": "Christopher Nolan",
+      "explanation": "Christopher Nolan directed Batman Begins (2005), The Dark Knight (2008), and The Dark Knight Rises (2012). The trilogy is credited with revitalizing the superhero film genre. The Dark Knight received widespread critical acclaim and Heath Ledger won a posthumous Oscar for his Joker portrayal.",
+      "memory_hook": "Nolan = No lantern. He made Batman darker than ever."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Which artist is known as the 'King of Pop'?",
+      "options": [
+        "Elvis Presley",
+        "Prince",
+        "Michael Jackson",
+        "James Brown"
+      ],
+      "answer": "Michael Jackson",
+      "explanation": "Michael Jackson earned the title 'King of Pop' due to his extraordinary impact on popular music and culture. His 1982 album 'Thriller' remains the best-selling album of all time, and his signature moonwalk dance move became iconic worldwide.",
+      "memory_hook": "King of Pop \u2014 MJ wore the crown the whole time."
+    },
+    {
+      "category": "History",
+      "question": "The fall of Constantinople in 1453 ended which empire?",
+      "options": [
+        "Roman Empire",
+        "Ottoman Empire",
+        "Byzantine Empire",
+        "Mongol Empire"
+      ],
+      "answer": "Byzantine Empire",
+      "explanation": "The fall of Constantinople on May 29, 1453, to Ottoman Sultan Mehmed II ended the Byzantine Empire \u2014 the eastern continuation of the Roman Empire that had survived for nearly 1,000 years after Rome's fall. It marked the end of the Middle Ages.",
+      "memory_hook": "Byzantine = East Rome. It lasted until 1453 \u2014 almost 1,000 years after Rome fell."
+    },
+    {
+      "category": "History",
+      "question": "Who was the first person to walk on the moon?",
+      "options": [
+        "Buzz Aldrin",
+        "Yuri Gagarin",
+        "Neil Armstrong",
+        "John Glenn"
+      ],
+      "answer": "Neil Armstrong",
+      "explanation": "Neil Armstrong became the first human to walk on the moon on July 20, 1969, during NASA's Apollo 11 mission. His first words upon stepping onto the lunar surface were: 'That's one small step for man, one giant leap for mankind.'",
+      "memory_hook": "Armstrong's arm reached the moon first \u2014 July 20, 1969."
+    }
+  ]
+}

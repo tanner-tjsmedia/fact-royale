@@ -1,0 +1,134 @@
+{
+  "questions": [
+    {
+      "category": "History",
+      "question": "What was the name of Napoleon Bonaparte's final battle?",
+      "options": [
+        "Battle of Austerlitz",
+        "Battle of Trafalgar",
+        "Battle of Waterloo",
+        "Battle of Leipzig"
+      ],
+      "answer": "Battle of Waterloo",
+      "explanation": "The Battle of Waterloo was fought on June 18, 1815, near Brussels, Belgium. Napoleon's French forces were defeated by the Duke of Wellington's allied army and Prussian forces under Bl\u00fccher. Napoleon was exiled to Saint Helena, where he died in 1821. The phrase 'met his Waterloo' derives from this battle.",
+      "memory_hook": "Waterloo = Napoleon's end. ABBA even made a pop song about surrender."
+    },
+    {
+      "category": "History",
+      "question": "Which organization was established after World War II to promote international peace and security?",
+      "options": [
+        "The League of Nations",
+        "NATO",
+        "The United Nations",
+        "The European Union"
+      ],
+      "answer": "The United Nations",
+      "explanation": "The United Nations was established on October 24, 1945, replacing the failed League of Nations. It was founded by 51 countries and now has 193 member states. Its main purpose is to maintain international peace, develop friendly relations among nations, and promote social progress.",
+      "memory_hook": "UN after WWII \u2014 the League of Nations failed once, so they tried again."
+    },
+    {
+      "category": "Sports",
+      "question": "What is the official length of a standard Olympic swimming pool in meters?",
+      "options": [
+        "25 meters",
+        "50 meters",
+        "75 meters",
+        "100 meters"
+      ],
+      "answer": "50 meters",
+      "explanation": "An Olympic swimming pool is 50 meters long and 25 meters wide, with eight lanes each 2.5 meters wide. Short-course competitions use 25-meter pools. World records set in 50-meter pools are the official 'long-course' records and are considered the definitive world standards.",
+      "memory_hook": "50m pool, 8 lanes \u2014 the Olympic standard. Short course is half that."
+    },
+    {
+      "category": "Sports",
+      "question": "In darts, what is the highest score achievable with a single dart?",
+      "options": [
+        "25",
+        "50",
+        "60",
+        "100"
+      ],
+      "answer": "60",
+      "explanation": "The highest score with a single dart is 60, achieved by hitting the triple 20 (the small segment in the triple-scoring ring on the 20 section). The bullseye is worth 50 points. A 'perfect leg' in professional darts requires nine darts \u2014 three treble 20s (180), two more 180s (360), then finishing on 141.",
+      "memory_hook": "Triple 20 = 60. Top of the board, triple ring, maximum dart score."
+    },
+    {
+      "category": "Sports",
+      "question": "Which country has won the most Olympic gold medals in wrestling?",
+      "options": [
+        "Iran",
+        "Turkey",
+        "Japan",
+        "United States"
+      ],
+      "answer": "United States",
+      "explanation": "The United States has historically dominated Olympic wrestling, particularly in freestyle wrestling, winning more gold medals than any other nation overall. The Soviet Union and Russia are also traditionally strong in Greco-Roman wrestling.",
+      "memory_hook": "US leads in Olympic wrestling \u2014 though it's a fierce global competition."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "What is the name of the island in 'Cast Away' where the FedEx plane crashes?",
+      "options": [
+        "The film doesn't name it",
+        "Tikopia",
+        "Mango Island",
+        "Fiji"
+      ],
+      "answer": "The film doesn't name it",
+      "explanation": "In Cast Away (2000) starring Tom Hanks, the island where he is stranded is never given a name in the film. The movie was filmed primarily on the Monuriki island in Fiji. Wilson the volleyball became his most famous companion. The film explored isolation and the will to survive.",
+      "memory_hook": "Cast Away's island has no name \u2014 it's just Tom Hanks, Wilson, and the ocean."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Which rapper's real name is Shawn Corey Carter?",
+      "options": [
+        "Kanye West",
+        "Eminem",
+        "Jay-Z",
+        "Lil Wayne"
+      ],
+      "answer": "Jay-Z",
+      "explanation": "Jay-Z's real name is Shawn Corey Carter. He was born in Brooklyn, New York, and is one of the best-selling music artists of all time with over 100 million records sold. He co-founded Roc-A-Fella Records and Roc Nation, and is married to Beyonc\u00e9. He's also the first rapper inducted into the Rock and Roll Hall of Fame.",
+      "memory_hook": "Shawn Carter became Jay-Z \u2014 from Marcy Projects to global mogul."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Which film won the most Academy Awards in history?",
+      "options": [
+        "Gone with the Wind",
+        "Ben-Hur",
+        "Titanic",
+        "The Lord of the Rings: The Return of the King"
+      ],
+      "answer": "Ben-Hur",
+      "explanation": "Ben-Hur (1959), Titanic (1997), and The Lord of the Rings: The Return of the King (2003) each won 11 Academy Awards \u2014 the most wins in Oscar history. Ben-Hur and Titanic both had 12 nominations; Return of the King won all 11 of its nominations, a perfect record.",
+      "memory_hook": "Three films with 11 Oscars each \u2014 Ben-Hur, Titanic, and Return of the King."
+    },
+    {
+      "category": "History",
+      "question": "Who was the first female Prime Minister of the United Kingdom?",
+      "options": [
+        "Theresa May",
+        "Margaret Thatcher",
+        "Barbara Castle",
+        "Harriet Harman"
+      ],
+      "answer": "Margaret Thatcher",
+      "explanation": "Margaret Thatcher became the UK's first female Prime Minister on May 4, 1979, leading the Conservative Party. She served until 1990, becoming the longest-serving PM of the 20th century. Nicknamed 'The Iron Lady,' she implemented free-market economic policies that became known as 'Thatcherism.'",
+      "memory_hook": "Iron Lady, first female PM \u2014 Thatcher in 1979."
+    },
+    {
+      "category": "History",
+      "question": "The Amazon River flows primarily through which country?",
+      "options": [
+        "Colombia",
+        "Venezuela",
+        "Peru",
+        "Brazil"
+      ],
+      "answer": "Brazil",
+      "explanation": "The Amazon River flows primarily through Brazil (about 60% of its length), with headwaters in Peru. It is the largest river in the world by water discharge, carrying about 20% of all freshwater flowing into the world's oceans. The Amazon basin contains the world's largest tropical rainforest.",
+      "memory_hook": "Amazon starts in the Andes (Peru) and ends in the Atlantic via Brazil."
+    }
+  ]
+}

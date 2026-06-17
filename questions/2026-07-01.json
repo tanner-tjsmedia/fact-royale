@@ -1,0 +1,134 @@
+{
+  "questions": [
+    {
+      "category": "History",
+      "question": "What event triggered the start of World War I?",
+      "options": [
+        "The invasion of Poland",
+        "The assassination of Archduke Franz Ferdinand",
+        "The sinking of the Lusitania",
+        "The bombing of Pearl Harbor"
+      ],
+      "answer": "The assassination of Archduke Franz Ferdinand",
+      "explanation": "Archduke Franz Ferdinand of Austria-Hungary was assassinated in Sarajevo on June 28, 1914, by Gavrilo Princip, a Bosnian Serb nationalist. This triggered a chain of alliances that pulled Europe into World War I within weeks.",
+      "memory_hook": "Franz Ferdinand's death \u2014 one bullet started a world war."
+    },
+    {
+      "category": "History",
+      "question": "The Magna Carta was signed in which year?",
+      "options": [
+        "1066",
+        "1215",
+        "1348",
+        "1492"
+      ],
+      "answer": "1215",
+      "explanation": "The Magna Carta was signed by King John of England on June 15, 1215, at Runnymede. It established for the first time that the king was subject to the rule of law, laying the groundwork for constitutional democracy.",
+      "memory_hook": "1215 \u2014 think twelve-fifteen, like a meeting time that changed history."
+    },
+    {
+      "category": "Sports",
+      "question": "How many dimples does a regulation golf ball have?",
+      "options": [
+        "200",
+        "336",
+        "500",
+        "436"
+      ],
+      "answer": "336",
+      "explanation": "A regulation golf ball typically has between 300 and 500 dimples, with 336 being the most common number. The dimples create turbulence in the air around the ball, reducing drag and allowing it to fly farther than a smooth ball would.",
+      "memory_hook": "336 dimples \u2014 think of a ball so dimpled it looks like it's smiling twice over."
+    },
+    {
+      "category": "Sports",
+      "question": "What does 'NFL' stand for?",
+      "options": [
+        "National Football League",
+        "National Federation of Leagues",
+        "North Football League",
+        "National Field League"
+      ],
+      "answer": "National Football League",
+      "explanation": "The NFL (National Football League) was founded in 1920 as the American Professional Football Association, renamed the NFL in 1922. It is the highest level of professional American football with 32 teams.",
+      "memory_hook": "National Football League \u2014 America's most-watched sport has a national league."
+    },
+    {
+      "category": "Sports",
+      "question": "Which country has won the most Olympic gold medals in gymnastics?",
+      "options": [
+        "China",
+        "Russia",
+        "Romania",
+        "United States"
+      ],
+      "answer": "Russia",
+      "explanation": "Russia (including the Soviet Union) has historically dominated Olympic gymnastics, winning more gold medals than any other nation. The Soviet Union was particularly dominant from the 1950s through the 1980s.",
+      "memory_hook": "Russia = gymnastics gold. Think of Soviet-era gymnasts who seemed to defy gravity."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Who played the Joker in the 2019 film 'Joker'?",
+      "options": [
+        "Heath Ledger",
+        "Jared Leto",
+        "Joaquin Phoenix",
+        "Jack Nicholson"
+      ],
+      "answer": "Joaquin Phoenix",
+      "explanation": "Joaquin Phoenix played Arthur Fleck/Joker in the 2019 film directed by Todd Phillips. Phoenix lost 52 pounds for the role and won the Academy Award for Best Actor. The film grossed over $1 billion worldwide.",
+      "memory_hook": "Phoenix rose from ashes to play the Joker \u2014 and won the Oscar for it."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "'Hotel California' is a song by which band?",
+      "options": [
+        "Fleetwood Mac",
+        "Eagles",
+        "Lynyrd Skynyrd",
+        "Creedence Clearwater Revival"
+      ],
+      "answer": "Eagles",
+      "explanation": "'Hotel California' was released by the Eagles in 1977 on their album of the same name. Written by Don Felder, Don Henley, and Glenn Frey, it won the Grammy for Record of the Year and is widely considered one of the greatest rock songs ever written.",
+      "memory_hook": "Hotel California \u2014 you can check out any time, but you can never leave the Eagles' catalog."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Who wrote the novel that 'The Godfather' film is based on?",
+      "options": [
+        "Stephen King",
+        "Mario Puzo",
+        "John Grisham",
+        "Tom Clancy"
+      ],
+      "answer": "Mario Puzo",
+      "explanation": "Mario Puzo wrote the novel The Godfather in 1969 and co-wrote the screenplay for the 1972 film with director Francis Ford Coppola. The film won the Academy Award for Best Picture and is widely considered one of the greatest films ever made.",
+      "memory_hook": "Puzo made them an offer they couldn't refuse \u2014 publish the novel, make the movie."
+    },
+    {
+      "category": "History",
+      "question": "Which Roman leader was famously betrayed and assassinated on the Ides of March?",
+      "options": [
+        "Augustus",
+        "Nero",
+        "Julius Caesar",
+        "Mark Antony"
+      ],
+      "answer": "Julius Caesar",
+      "explanation": "Julius Caesar was assassinated on March 15, 44 BC (the Ides of March) by a group of senators including Marcus Junius Brutus and Gaius Cassius Longinus. He was stabbed 23 times. The event was dramatized by Shakespeare in his play Julius Caesar.",
+      "memory_hook": "'Et tu, Brute?' \u2014 even his best friend stabbed him."
+    },
+    {
+      "category": "History",
+      "question": "What was the name of the ship on which Charles Darwin made his famous voyage?",
+      "options": [
+        "HMS Victory",
+        "HMS Endeavour",
+        "HMS Beagle",
+        "HMS Discovery"
+      ],
+      "answer": "HMS Beagle",
+      "explanation": "Charles Darwin sailed on HMS Beagle from 1831 to 1836, visiting South America, the Gal\u00e1pagos Islands, Australia, and other locations. His observations during this voyage formed the basis for his theory of evolution by natural selection, published in 'On the Origin of Species' in 1859.",
+      "memory_hook": "The Beagle sniffed out evidence for evolution \u2014 like a good hound following a trail."
+    }
+  ]
+}

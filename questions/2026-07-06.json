@@ -1,0 +1,134 @@
+{
+  "questions": [
+    {
+      "category": "History",
+      "question": "Which U.S. state was purchased from Russia in 1867?",
+      "options": [
+        "Hawaii",
+        "Oregon",
+        "Alaska",
+        "Montana"
+      ],
+      "answer": "Alaska",
+      "explanation": "The United States purchased Alaska from Russia in 1867 for $7.2 million (about 2 cents per acre). Secretary of State William Seward negotiated the deal, and it was initially called 'Seward's Folly' by critics. The discovery of gold in 1896 vindicated the purchase.",
+      "memory_hook": "Seward's Folly became America's largest state \u2014 2 cents an acre was the deal of the century."
+    },
+    {
+      "category": "History",
+      "question": "The Reformation, which challenged the Catholic Church, was started by which figure?",
+      "options": [
+        "John Calvin",
+        "King Henry VIII",
+        "Martin Luther",
+        "John Knox"
+      ],
+      "answer": "Martin Luther",
+      "explanation": "Martin Luther sparked the Protestant Reformation in 1517 when he nailed his 95 Theses to the door of the Castle Church in Wittenberg, challenging Catholic Church practices including the sale of indulgences. His actions led to the creation of Protestant Christianity.",
+      "memory_hook": "Luther nailed it \u2014 literally. 95 theses on a church door."
+    },
+    {
+      "category": "Sports",
+      "question": "What surface is Wimbledon tennis played on?",
+      "options": [
+        "Hard court",
+        "Clay",
+        "Grass",
+        "Carpet"
+      ],
+      "answer": "Grass",
+      "explanation": "Wimbledon, the oldest tennis tournament in the world (held since 1877), is played on grass courts. It is one of the four Grand Slam tournaments and is held annually at the All England Club in London. Grass is the fastest surface in tennis.",
+      "memory_hook": "Wimbledon = grass. Think British lawn \u2014 very proper, very green."
+    },
+    {
+      "category": "Sports",
+      "question": "How many yards is an American football field from end zone to end zone?",
+      "options": [
+        "100",
+        "110",
+        "120",
+        "130"
+      ],
+      "answer": "120",
+      "explanation": "An American football field is 100 yards from goal line to goal line, but including both end zones (each 10 yards deep), the total length is 120 yards. The field is 53\u2153 yards wide. First downs require advancing 10 yards.",
+      "memory_hook": "100 yards of play + 20 yards of end zones = 120 total."
+    },
+    {
+      "category": "Sports",
+      "question": "Which country invented the sport of sumo wrestling?",
+      "options": [
+        "China",
+        "Mongolia",
+        "Korea",
+        "Japan"
+      ],
+      "answer": "Japan",
+      "explanation": "Sumo wrestling originated in Japan and is the country's national sport. It has a history of over 1,500 years and is deeply intertwined with Shinto ritual. Professional sumo is organized into six tournaments (basho) per year, each lasting 15 days.",
+      "memory_hook": "Sumo = Japan. Round wrestlers, ancient roots, honorable sport."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Who played Tony Stark/Iron Man in the Marvel Cinematic Universe?",
+      "options": [
+        "Chris Evans",
+        "Chris Hemsworth",
+        "Robert Downey Jr.",
+        "Mark Ruffalo"
+      ],
+      "answer": "Robert Downey Jr.",
+      "explanation": "Robert Downey Jr. played Tony Stark/Iron Man across 10 Marvel films from 2008's Iron Man through Avengers: Endgame (2019). His portrayal is credited with launching the MCU, which became the highest-grossing film franchise in history.",
+      "memory_hook": "RDJ IS Iron Man \u2014 he didn't play the role, he became it."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Which musician is known as 'The Boss'?",
+      "options": [
+        "Billy Joel",
+        "Bob Dylan",
+        "Bruce Springsteen",
+        "Tom Petty"
+      ],
+      "answer": "Bruce Springsteen",
+      "explanation": "Bruce Springsteen earned the nickname 'The Boss' early in his career from his habit of collecting the band's pay and distributing it. He is known for anthemic rock songs like 'Born to Run,' 'Born in the U.S.A.,' and 'The River,' and his famously energetic live performances.",
+      "memory_hook": "The Boss collects the pay, sets the stage on fire. Springsteen."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "In 'The Silence of the Lambs,' who plays Hannibal Lecter?",
+      "options": [
+        "Gary Oldman",
+        "Anthony Hopkins",
+        "Daniel Day-Lewis",
+        "Jeremy Irons"
+      ],
+      "answer": "Anthony Hopkins",
+      "explanation": "Anthony Hopkins won the Academy Award for Best Actor for his portrayal of Dr. Hannibal Lecter in The Silence of the Lambs (1991), despite appearing on screen for only about 16 minutes. The film swept all five major Oscar categories \u2014 a feat achieved by only two other films.",
+      "memory_hook": "Hopkins as Hannibal \u2014 16 minutes of screen time, a lifetime of nightmares."
+    },
+    {
+      "category": "History",
+      "question": "The 'Silk Road' was a trade network that connected China to which continent?",
+      "options": [
+        "Africa",
+        "Europe",
+        "South America",
+        "Australia"
+      ],
+      "answer": "Europe",
+      "explanation": "The Silk Road was an ancient network of trade routes connecting China to Central Asia, the Middle East, and eventually Europe. It was named for the lucrative silk trade, though many goods and ideas (including paper, gunpowder, and the bubonic plague) also traveled along it.",
+      "memory_hook": "Silk Road: East to West, China to Europe, silk to spice."
+    },
+    {
+      "category": "History",
+      "question": "What year did the Soviet Union launch Yuri Gagarin into space?",
+      "options": [
+        "1957",
+        "1959",
+        "1961",
+        "1963"
+      ],
+      "answer": "1961",
+      "explanation": "Yuri Gagarin became the first human in space on April 12, 1961, completing one orbit of Earth in 108 minutes aboard the Vostok 1 spacecraft. His mission was a major triumph for the Soviet Union in the Space Race. April 12 is now celebrated as Cosmonautics Day in Russia.",
+      "memory_hook": "1961 \u2014 Gagarin circled Earth. One orbit, one giant step."
+    }
+  ]
+}

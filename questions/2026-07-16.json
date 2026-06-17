@@ -1,0 +1,134 @@
+{
+  "questions": [
+    {
+      "category": "History",
+      "question": "Which treaty ended World War II in the Pacific?",
+      "options": [
+        "Treaty of Versailles",
+        "Treaty of San Francisco",
+        "Potsdam Agreement",
+        "Missouri Instrument of Surrender"
+      ],
+      "answer": "Missouri Instrument of Surrender",
+      "explanation": "Japan formally surrendered on September 2, 1945, aboard the USS Missouri in Tokyo Bay, officially ending World War II. The formal treaty \u2014 the Treaty of San Francisco \u2014 was signed in 1951. V-J Day (Victory over Japan Day) is celebrated on August 15 in many countries.",
+      "memory_hook": "USS Missouri = where Japan surrendered. The battleship became the signing table."
+    },
+    {
+      "category": "History",
+      "question": "The 'Harlem Renaissance' was a cultural movement centered in which U.S. city?",
+      "options": [
+        "Chicago",
+        "Philadelphia",
+        "Atlanta",
+        "New York City"
+      ],
+      "answer": "New York City",
+      "explanation": "The Harlem Renaissance was a cultural, social, and artistic explosion centered in Harlem, New York, during the 1920s and 1930s. It produced groundbreaking work in literature (Langston Hughes, Zora Neale Hurston), music (jazz, blues), visual arts, and theater, establishing African American culture as a major force in American life.",
+      "memory_hook": "Harlem = New York. The Renaissance was the rebirth of Black American art."
+    },
+    {
+      "category": "Sports",
+      "question": "What is the length of a standard 100-meter sprint track?",
+      "options": [
+        "90 meters",
+        "100 meters",
+        "110 meters",
+        "120 meters"
+      ],
+      "answer": "100 meters",
+      "explanation": "A standard sprint track is 100 meters from start to finish. The current world record of 9.58 seconds was set by Usain Bolt of Jamaica at the 2009 World Championships in Berlin, averaging approximately 37.6 km/h (23.4 mph). Bolt also holds the 200m record at 19.19 seconds.",
+      "memory_hook": "100 meters: Bolt ran it in 9.58 seconds. Nearly 38 km/h on two legs."
+    },
+    {
+      "category": "Sports",
+      "question": "Which country invented table tennis?",
+      "options": [
+        "China",
+        "Japan",
+        "England",
+        "Germany"
+      ],
+      "answer": "England",
+      "explanation": "Table tennis was invented in England in the 1880s as an after-dinner drawing room game among the upper class. It was originally called 'ping pong,' based on the sound of the ball. China has dominated the sport internationally since the 1960s, winning more Olympic gold medals than any other nation.",
+      "memory_hook": "England invented ping pong \u2014 China perfected it."
+    },
+    {
+      "category": "Sports",
+      "question": "In which sport do athletes compete in the 'halfpipe'?",
+      "options": [
+        "Skateboarding and snowboarding",
+        "Swimming",
+        "Track cycling",
+        "Rowing"
+      ],
+      "answer": "Skateboarding and snowboarding",
+      "explanation": "The halfpipe is a feature used in both skateboarding and snowboarding competitions. Athletes ride up and down the curved walls of a U-shaped structure performing aerial tricks. Halfpipe events are part of the Winter Olympics (snowboarding since 1998) and Summer Olympics (skateboarding since 2020).",
+      "memory_hook": "Halfpipe: literally half a pipe, U-shaped, and terrifyingly vertical."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "What band recorded 'Smells Like Teen Spirit'?",
+      "options": [
+        "Pearl Jam",
+        "Soundgarden",
+        "Alice in Chains",
+        "Nirvana"
+      ],
+      "answer": "Nirvana",
+      "explanation": "'Smells Like Teen Spirit' was released by Nirvana in September 1991 on their album 'Nevermind.' It is widely credited with bringing grunge and alternative rock to mainstream audiences. The song's name came from a deodorant called Teen Spirit that Kurt Cobain's then-girlfriend wore.",
+      "memory_hook": "Nirvana's 'Smells Like Teen Spirit' \u2014 named after a deodorant. Changed rock music anyway."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Who starred in 'Black Panther' as T'Challa?",
+      "options": [
+        "Idris Elba",
+        "Michael B. Jordan",
+        "Chadwick Boseman",
+        "Mahershala Ali"
+      ],
+      "answer": "Chadwick Boseman",
+      "explanation": "Chadwick Boseman played T'Challa/Black Panther in four MCU films, most notably the 2018 film Black Panther, which grossed $1.3 billion worldwide. Boseman died of colon cancer in August 2020, having privately battled the illness for four years while continuing to work. His death shocked the world.",
+      "memory_hook": "Boseman IS Wakanda. He played T'Challa while fighting cancer \u2014 unseen, undefeated."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Which 1984 film featured the phrase 'Just one more thing...'?",
+      "options": [
+        "It's not from a film",
+        "Beverly Hills Cop",
+        "Dragnet",
+        "Columbo"
+      ],
+      "answer": "It's not from a film",
+      "explanation": "'Just one more thing...' is the signature phrase of Lieutenant Columbo from the TV series 'Columbo,' played by Peter Falk. Though Columbo has been adapted into TV movies, it originated as a TV series. The phrase is used by the seemingly scattered detective just before delivering his key insight.",
+      "memory_hook": "Columbo's 'Just one more thing' \u2014 the question that always caught the killer."
+    },
+    {
+      "category": "History",
+      "question": "The ancient city of Constantinople is now known by what name?",
+      "options": [
+        "Athens",
+        "Ankara",
+        "Cairo",
+        "Istanbul"
+      ],
+      "answer": "Istanbul",
+      "explanation": "Constantinople, the capital of the Byzantine Empire, was renamed Istanbul after the Ottoman conquest in 1453. The name Istanbul derives from a Greek phrase meaning 'to the city' or 'in the city.' It remains Turkey's largest city and cultural center, though Ankara is the current capital.",
+      "memory_hook": "Constantinople became Istanbul \u2014 even The Four Tops sang about the change."
+    },
+    {
+      "category": "History",
+      "question": "What was the name of the British spy organization featured in James Bond films?",
+      "options": [
+        "GCHQ",
+        "MI6",
+        "MI5",
+        "SAS"
+      ],
+      "answer": "MI6",
+      "explanation": "MI6 (Military Intelligence, Section 6), officially known as the Secret Intelligence Service (SIS), is the British foreign intelligence agency. James Bond works for MI6 under the director known as 'M.' The real MI6 headquarters is in Vauxhall, London \u2014 depicted in several Bond films.",
+      "memory_hook": "MI6 = James Bond's employer. The real headquarters overlooks the Thames."
+    }
+  ]
+}

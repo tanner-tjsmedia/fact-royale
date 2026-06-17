@@ -1,0 +1,134 @@
+{
+  "questions": [
+    {
+      "category": "History",
+      "question": "In which year did the French Revolution begin?",
+      "options": [
+        "1775",
+        "1789",
+        "1799",
+        "1804"
+      ],
+      "answer": "1789",
+      "explanation": "The French Revolution began in 1789 with the storming of the Bastille on July 14. It was driven by widespread discontent with social inequality, financial crisis, and political oppression under the monarchy. It led to the end of the French monarchy and the rise of Napoleon.",
+      "memory_hook": "1789 = French Revolution. The Bastille fell. Liberty, Equality, Fraternity was born."
+    },
+    {
+      "category": "History",
+      "question": "Which document established the framework for U.S. federal government?",
+      "options": [
+        "The Declaration of Independence",
+        "The Articles of Confederation",
+        "The Bill of Rights",
+        "The U.S. Constitution"
+      ],
+      "answer": "The U.S. Constitution",
+      "explanation": "The U.S. Constitution, drafted in 1787 and ratified in 1788, established the framework for the federal government of the United States, including the separation of powers into three branches: executive, legislative, and judicial. It remains the oldest written national constitution still in use.",
+      "memory_hook": "The Constitution built the government \u2014 the Declaration just said they were leaving."
+    },
+    {
+      "category": "Sports",
+      "question": "Who holds the record for the most home runs in MLB history?",
+      "options": [
+        "Hank Aaron",
+        "Barry Bonds",
+        "Babe Ruth",
+        "Alex Rodriguez"
+      ],
+      "answer": "Barry Bonds",
+      "explanation": "Barry Bonds holds the all-time MLB home run record with 762 career home runs, set when he retired in 2007. Hank Aaron held the record at 755 for 33 years before Bonds surpassed him. Bonds' records are viewed with skepticism due to his connection to PED use.",
+      "memory_hook": "Bonds = 762. The number that came with an asterisk in many minds."
+    },
+    {
+      "category": "Sports",
+      "question": "What is the official weight of a regulation NFL football?",
+      "options": [
+        "12\u201314 ounces",
+        "14\u201315 ounces",
+        "15\u201316 ounces",
+        "16\u201317 ounces"
+      ],
+      "answer": "14\u201315 ounces",
+      "explanation": "An NFL football must weigh between 14 and 15 ounces (397\u2013425 grams). The ball is inflated to 12.5 to 13.5 psi. The New England Patriots were involved in the 'Deflategate' controversy in 2015 when their balls were found underinflated.",
+      "memory_hook": "14-15 oz NFL ball \u2014 Deflategate made everyone suddenly know the spec."
+    },
+    {
+      "category": "Sports",
+      "question": "What country is F1 driver Lewis Hamilton from?",
+      "options": [
+        "Australia",
+        "Germany",
+        "Brazil",
+        "United Kingdom"
+      ],
+      "answer": "United Kingdom",
+      "explanation": "Lewis Hamilton is from Stevenage, Hertfordshire, England. He is the most decorated Formula 1 driver in history, with seven World Championship titles, matching the record held by Michael Schumacher. He was the first Black Formula 1 champion.",
+      "memory_hook": "Hamilton: British, 7 titles, first Black F1 champion \u2014 racing royalty."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "'Don't Stop Me Now' is a classic track by which band?",
+      "options": [
+        "The Rolling Stones",
+        "ABBA",
+        "Queen",
+        "Fleetwood Mac"
+      ],
+      "answer": "Queen",
+      "explanation": "'Don't Stop Me Now' was released by Queen in 1978. Written by Freddie Mercury, it features Mercury playing piano and describes the euphoric rush of performing. Despite being a modest chart success initially, it has since been voted one of the greatest rock songs of all time in multiple polls.",
+      "memory_hook": "Don't stop Queen now \u2014 they're having a good time, having a ball."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Which director made 'Get Out' and 'Us'?",
+      "options": [
+        "Ryan Coogler",
+        "Barry Jenkins",
+        "Ava DuVernay",
+        "Jordan Peele"
+      ],
+      "answer": "Jordan Peele",
+      "explanation": "Jordan Peele wrote and directed both Get Out (2017) and Us (2019). Get Out won him the Academy Award for Best Original Screenplay, making him the first Black writer to win in that category. Both films blend social commentary with horror in a distinctive style.",
+      "memory_hook": "Peele made the world peel back its skin \u2014 Get Out, Us, and our own discomfort."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Which singer is known by the stage name 'Lady Gaga'?",
+      "options": [
+        "Stefani Germanotta",
+        "Robyn Fenty",
+        "Alecia Moore",
+        "Ella Marija Lani Yelich-O'Connor"
+      ],
+      "answer": "Stefani Germanotta",
+      "explanation": "Lady Gaga's real name is Stefani Joanne Angelina Germanotta. She chose her stage name from the Queen song 'Radio Ga Ga.' She rose to fame with 'Just Dance' and 'Poker Face' in 2008 and has since won Oscars, Grammys, and Golden Globes. Robyn Fenty is Rihanna; Alecia Moore is Pink; Ella Yelich-O'Connor is Lorde.",
+      "memory_hook": "Gaga's real name: Stefani Germanotta. Radio Ga Ga gave her the name."
+    },
+    {
+      "category": "History",
+      "question": "What was the name of the first nuclear bomb dropped on Japan in World War II?",
+      "options": [
+        "Fat Man",
+        "Little Boy",
+        "Trinity",
+        "Gadget"
+      ],
+      "answer": "Little Boy",
+      "explanation": "'Little Boy' was the first atomic bomb used in warfare, dropped on Hiroshima on August 6, 1945. Three days later, 'Fat Man' was dropped on Nagasaki. The bombings killed between 129,000 and 226,000 people and led to Japan's surrender and the end of World War II.",
+      "memory_hook": "Little Boy on Hiroshima, Fat Man on Nagasaki \u2014 the names belie the horror."
+    },
+    {
+      "category": "History",
+      "question": "Which ancient Greek city-state was known for its warrior culture?",
+      "options": [
+        "Athens",
+        "Corinth",
+        "Thebes",
+        "Sparta"
+      ],
+      "answer": "Sparta",
+      "explanation": "Sparta was the dominant military city-state of ancient Greece. Spartan boys began military training (agoge) at age 7. Sparta defeated Athens in the Peloponnesian War (431\u2013404 BC). Spartan culture emphasized physical endurance, discipline, and brevity of speech \u2014 from which we get the word 'laconic.'",
+      "memory_hook": "Sparta: warriors from birth. 'This is Sparta!' wasn't just a movie line."
+    }
+  ]
+}

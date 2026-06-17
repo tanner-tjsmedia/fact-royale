@@ -1,0 +1,134 @@
+{
+  "questions": [
+    {
+      "category": "History",
+      "question": "Which explorer is credited with the first circumnavigation of the globe?",
+      "options": [
+        "Christopher Columbus",
+        "Ferdinand Magellan",
+        "Vasco da Gama",
+        "Francis Drake"
+      ],
+      "answer": "Ferdinand Magellan",
+      "explanation": "Ferdinand Magellan led the expedition that first circumnavigated the Earth (1519\u20131522), though he died in the Philippines before completing it. Juan Sebasti\u00e1n Elcano completed the voyage. Magellan gets the credit as the expedition's leader.",
+      "memory_hook": "Magellan mapped the globe \u2014 he just didn't finish the trip."
+    },
+    {
+      "category": "History",
+      "question": "What ancient civilization built Machu Picchu?",
+      "options": [
+        "Aztec",
+        "Maya",
+        "Inca",
+        "Olmec"
+      ],
+      "answer": "Inca",
+      "explanation": "Machu Picchu was built by the Inca Empire in the mid-15th century, likely as a royal estate for Emperor Pachacuti. It sits 7,970 feet above sea level in the Andes Mountains of Peru and was largely unknown to the outside world until 1911.",
+      "memory_hook": "Inca in the Andes \u2014 Machu Picchu is their mountain crown."
+    },
+    {
+      "category": "Sports",
+      "question": "How many players are on a standard volleyball team on the court?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "answer": "6",
+      "explanation": "A standard volleyball team has six players on the court at a time: three in the front row and three in the back row. Teams rotate positions after winning the serve.",
+      "memory_hook": "Six-pack \u2014 volleyball has six on the court like a six-pack standing up."
+    },
+    {
+      "category": "Sports",
+      "question": "What is the maximum score in a single game of ten-pin bowling?",
+      "options": [
+        "250",
+        "270",
+        "300",
+        "330"
+      ],
+      "answer": "300",
+      "explanation": "A perfect game in ten-pin bowling is 300, achieved by bowling 12 consecutive strikes. The 10th frame allows up to three balls if the first two are strikes, enabling 12 total strikes in a game.",
+      "memory_hook": "300 \u2014 like the movie, it's a perfect battle."
+    },
+    {
+      "category": "Sports",
+      "question": "In tennis, what term describes a score of 40-40?",
+      "options": [
+        "Fault",
+        "Love",
+        "Deuce",
+        "Break"
+      ],
+      "answer": "Deuce",
+      "explanation": "Deuce in tennis means both players have won three points each (40-40) in a game. After deuce, a player must win two consecutive points to win the game: the first is called 'advantage' and the second wins the game.",
+      "memory_hook": "Deuce rhymes with 'juice' \u2014 when it's tied, things heat up."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Who sang 'Respect', which became an anthem of the civil rights movement?",
+      "options": [
+        "Diana Ross",
+        "Tina Turner",
+        "Aretha Franklin",
+        "Whitney Houston"
+      ],
+      "answer": "Aretha Franklin",
+      "explanation": "Aretha Franklin recorded 'Respect' in 1967, originally written and recorded by Otis Redding. Franklin's version transformed it into an anthem for both the civil rights and feminist movements. She became known as the 'Queen of Soul.'",
+      "memory_hook": "Aretha R-E-S-P-E-C-T \u2014 she spelled it out for us."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Which film franchise features a character named 'Jack Sparrow'?",
+      "options": [
+        "The Mummy",
+        "Pirates of the Caribbean",
+        "Treasure Island",
+        "Master and Commander"
+      ],
+      "answer": "Pirates of the Caribbean",
+      "explanation": "Captain Jack Sparrow, played by Johnny Depp, is the main character of the Pirates of the Caribbean franchise, which began with 'The Curse of the Black Pearl' in 2003. The character was inspired in part by Rolling Stones guitarist Keith Richards.",
+      "memory_hook": "Jack Sparrow \u2014 sparrow flies free like a pirate."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "What decade did rock and roll emerge as a mainstream genre?",
+      "options": [
+        "1930s",
+        "1940s",
+        "1950s",
+        "1960s"
+      ],
+      "answer": "1950s",
+      "explanation": "Rock and roll emerged in the early 1950s in the United States, blending African American musical styles including blues, boogie woogie, jazz, and gospel. Artists like Chuck Berry, Little Richard, and Elvis Presley brought it to mainstream audiences.",
+      "memory_hook": "Rock 'n' roll was born in the '50s \u2014 when poodle skirts met electric guitars."
+    },
+    {
+      "category": "History",
+      "question": "Which U.S. President signed the Emancipation Proclamation?",
+      "options": [
+        "Ulysses S. Grant",
+        "Abraham Lincoln",
+        "Andrew Johnson",
+        "James Buchanan"
+      ],
+      "answer": "Abraham Lincoln",
+      "explanation": "Abraham Lincoln issued the Emancipation Proclamation on January 1, 1863, declaring that all enslaved people in Confederate states 'shall be then, thenceforward, and forever free.' It was a key turning point in the Civil War.",
+      "memory_hook": "Lincoln freed the nation's conscience as much as its people."
+    },
+    {
+      "category": "History",
+      "question": "The Titanic sank in which ocean?",
+      "options": [
+        "Pacific Ocean",
+        "Indian Ocean",
+        "Arctic Ocean",
+        "Atlantic Ocean"
+      ],
+      "answer": "Atlantic Ocean",
+      "explanation": "The RMS Titanic sank in the North Atlantic Ocean on April 15, 1912, after striking an iceberg. It was on its maiden voyage from Southampton to New York City. More than 1,500 people died, making it one of the deadliest peacetime maritime disasters.",
+      "memory_hook": "Atlantic \u2014 think A for America, where it was headed but never arrived."
+    }
+  ]
+}

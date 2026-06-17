@@ -1,0 +1,134 @@
+{
+  "questions": [
+    {
+      "category": "History",
+      "question": "Which empire built the Colosseum in Rome?",
+      "options": [
+        "Greek Empire",
+        "Byzantine Empire",
+        "Roman Empire",
+        "Ottoman Empire"
+      ],
+      "answer": "Roman Empire",
+      "explanation": "The Colosseum was built between 70\u201380 AD under Emperors Vespasian and Titus of the Roman Empire. It could hold an estimated 50,000\u201380,000 spectators and hosted gladiatorial contests, animal hunts, and public spectacles.",
+      "memory_hook": "Rome wasn't built in a day \u2014 but the Colosseum was built for days of entertainment."
+    },
+    {
+      "category": "History",
+      "question": "What was the name of the first artificial satellite launched into orbit?",
+      "options": [
+        "Explorer 1",
+        "Sputnik 1",
+        "Vostok 1",
+        "Luna 1"
+      ],
+      "answer": "Sputnik 1",
+      "explanation": "Sputnik 1 was launched by the Soviet Union on October 4, 1957, becoming the first artificial satellite to orbit Earth. Its launch shocked the United States and triggered the Space Race. It orbited for three weeks before its batteries failed.",
+      "memory_hook": "Sputnik \u2014 sounds like something that goes 'beep beep' in space."
+    },
+    {
+      "category": "Sports",
+      "question": "Which country invented the sport of rugby?",
+      "options": [
+        "Scotland",
+        "Ireland",
+        "Australia",
+        "England"
+      ],
+      "answer": "England",
+      "explanation": "Rugby originated at Rugby School in Warwickshire, England, in the early 19th century. According to legend, student William Webb Ellis picked up the ball and ran with it during a football game in 1823, though historians debate this origin story.",
+      "memory_hook": "Rugby School = rugby. The school named the sport."
+    },
+    {
+      "category": "Sports",
+      "question": "What is the diameter of a standard basketball hoop in inches?",
+      "options": [
+        "14 inches",
+        "16 inches",
+        "18 inches",
+        "20 inches"
+      ],
+      "answer": "18 inches",
+      "explanation": "A standard NBA basketball hoop has an inner diameter of 18 inches (45.7 cm). A standard basketball has a diameter of about 9.4 inches, meaning two balls could theoretically fit through the hoop at once.",
+      "memory_hook": "18 inches \u2014 think of an 18-year-old going pro."
+    },
+    {
+      "category": "Sports",
+      "question": "In golf, what term describes completing a hole in one stroke under par?",
+      "options": [
+        "Eagle",
+        "Birdie",
+        "Bogey",
+        "Albatross"
+      ],
+      "answer": "Birdie",
+      "explanation": "A birdie is scored when a golfer completes a hole in one stroke fewer than par. The term originated in the United States in the early 20th century \u2014 'bird' was slang for excellent, and 'birdie' stuck as the golf term.",
+      "memory_hook": "Birdie \u2014 one bird below par. Eagle is two below. Albatross is three."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Which artist sang 'Billie Jean' and 'Thriller'?",
+      "options": [
+        "Prince",
+        "Michael Jackson",
+        "Stevie Wonder",
+        "James Brown"
+      ],
+      "answer": "Michael Jackson",
+      "explanation": "Michael Jackson released 'Billie Jean' and 'Thriller' on the 1982 album 'Thriller,' which remains the best-selling album of all time with over 70 million copies sold. The 'Thriller' music video, directed by John Landis, is considered one of the greatest ever made.",
+      "memory_hook": "Jackson 5 became Jackson 1 \u2014 and then 'Thriller' made him Jackson of the world."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Which film won the first Academy Award for Best Picture?",
+      "options": [
+        "Wings",
+        "The Jazz Singer",
+        "Sunrise",
+        "All Quiet on the Western Front"
+      ],
+      "answer": "Wings",
+      "explanation": "Wings (1927) won the first Academy Award for Best Picture at the inaugural ceremony in 1929. The award ceremony covered films released between 1927 and 1928. Wings was a World War I aerial combat film.",
+      "memory_hook": "Wings \u2014 the first Best Picture winner took flight."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Who wrote the music for the film 'Star Wars'?",
+      "options": [
+        "Ennio Morricone",
+        "Hans Zimmer",
+        "John Williams",
+        "Howard Shore"
+      ],
+      "answer": "John Williams",
+      "explanation": "John Williams composed the iconic Star Wars score, which premiered with the original film in 1977. The main theme is one of the most recognizable pieces of music in history. Williams has composed scores for Jaws, Indiana Jones, Schindler's List, and many others.",
+      "memory_hook": "John Williams \u2014 when you hear those brass notes, you know."
+    },
+    {
+      "category": "History",
+      "question": "Which war was ended by the Treaty of Versailles?",
+      "options": [
+        "World War II",
+        "The Korean War",
+        "The Crimean War",
+        "World War I"
+      ],
+      "answer": "World War I",
+      "explanation": "The Treaty of Versailles, signed on June 28, 1919, officially ended World War I between Germany and the Allied Powers. Its harsh terms \u2014 including reparations and territorial losses \u2014 contributed to conditions that led to World War II.",
+      "memory_hook": "Versailles ended WWI \u2014 and planted seeds for WWII."
+    },
+    {
+      "category": "History",
+      "question": "The Renaissance period began in which country?",
+      "options": [
+        "France",
+        "England",
+        "Italy",
+        "Spain"
+      ],
+      "answer": "Italy",
+      "explanation": "The Renaissance began in Italy in the 14th century, particularly in Florence, Milan, and Venice. It marked a revival of interest in classical Greek and Roman culture and produced artists like Leonardo da Vinci, Michelangelo, and Raphael.",
+      "memory_hook": "Italy: the boot of Europe kicked off the Renaissance."
+    }
+  ]
+}

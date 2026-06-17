@@ -1,0 +1,134 @@
+{
+  "questions": [
+    {
+      "category": "History",
+      "question": "Which country invented gunpowder?",
+      "options": [
+        "India",
+        "Korea",
+        "Japan",
+        "China"
+      ],
+      "answer": "China",
+      "explanation": "Gunpowder was invented in China by Taoist alchemists during the Tang Dynasty (9th century AD) while searching for an elixir of immortality. The formula spread along the Silk Road to the Middle East and eventually Europe, where it transformed warfare. The Chinese also invented fireworks.",
+      "memory_hook": "China: invented gunpowder while looking for immortality. Found explosions instead."
+    },
+    {
+      "category": "History",
+      "question": "Who was the South African president who served time in prison before becoming a symbol of freedom?",
+      "options": [
+        "Desmond Tutu",
+        "Oliver Tambo",
+        "Thabo Mbeki",
+        "Nelson Mandela"
+      ],
+      "answer": "Nelson Mandela",
+      "explanation": "Nelson Mandela was imprisoned for 27 years (1964\u20131990) on Robben Island and other prisons for his anti-apartheid activism. After his release, he negotiated the end of apartheid and became South Africa's first democratically elected president in 1994. He was awarded the Nobel Peace Prize in 1993.",
+      "memory_hook": "Mandela: 27 years imprisoned, then president. From cell to chair of state."
+    },
+    {
+      "category": "Sports",
+      "question": "In the Olympics, how many rings interlock to form the Olympic symbol?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "answer": "5",
+      "explanation": "The Olympic rings consist of five interlocking rings of blue, yellow, black, green, and red on a white background. Designed by Pierre de Coubertin in 1912, the colors were chosen because at least one of them appears on the flag of every nation in the world.",
+      "memory_hook": "Five rings, five continents \u2014 at least one Olympic color in every nation's flag."
+    },
+    {
+      "category": "Sports",
+      "question": "How long is a standard NBA game in minutes (regulation)?",
+      "options": [
+        "40 minutes",
+        "48 minutes",
+        "60 minutes",
+        "36 minutes"
+      ],
+      "answer": "48 minutes",
+      "explanation": "A standard NBA game consists of four quarters of 12 minutes each, for a total of 48 minutes of regulation play. NCAA college basketball uses two 20-minute halves (40 minutes total), and FIBA uses four 10-minute quarters (40 minutes total). Overtime periods in the NBA are 5 minutes each.",
+      "memory_hook": "NBA: 4 quarters x 12 minutes = 48. College: 2 halves x 20 = 40."
+    },
+    {
+      "category": "Sports",
+      "question": "What is a 'perfect game' in baseball?",
+      "options": [
+        "A pitcher strikes out every batter",
+        "A pitcher allows no runs",
+        "A team scores in every inning",
+        "A pitcher allows no hits, walks, or runners in 27 consecutive outs"
+      ],
+      "answer": "A pitcher allows no hits, walks, or runners in 27 consecutive outs",
+      "explanation": "A perfect game in baseball occurs when a pitcher faces only 27 batters over 9 innings, retiring each without allowing any to reach base. It is the rarest regular achievement in baseball \u2014 only 24 have been recorded in MLB history. A no-hitter allows no hits but may have walks.",
+      "memory_hook": "Perfect game: 27 up, 27 down. No one reaches base. Baseball's rarest gem."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Who sang 'Shape of You' and 'Bad Habits'?",
+      "options": [
+        "Sam Smith",
+        "Harry Styles",
+        "Ed Sheeran",
+        "Shawn Mendes"
+      ],
+      "answer": "Ed Sheeran",
+      "explanation": "Ed Sheeran released 'Shape of You' in 2017 \u2014 it became one of the best-selling singles of all time with over 3.5 billion Spotify streams. 'Bad Habits' was released in 2021. Sheeran began his career busking on the streets of London and has become one of the world's best-selling music artists.",
+      "memory_hook": "Ed Sheeran: ginger, guitar, global domination. 'Shape of You' + 'Bad Habits.'"
+    },
+    {
+      "category": "Music/Movies",
+      "question": "In 'The Lion King,' what is the name of the villain lion?",
+      "options": [
+        "Sarabi",
+        "Mufasa",
+        "Scar",
+        "Simba"
+      ],
+      "answer": "Scar",
+      "explanation": "Scar (Taka) is the main villain in The Lion King (1994), voiced by Jeremy Irons. He kills his brother Mufasa and usurps the Pride Lands. The story is loosely based on Shakespeare's Hamlet. Scar is one of Disney's most memorable villains, known for his cunning and the song 'Be Prepared.'",
+      "memory_hook": "Scar has a scar. He killed Mufasa. 'Be Prepared' was his evil manifesto."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Which album is considered the best-selling of all time?",
+      "options": [
+        "Thriller by Michael Jackson",
+        "Back in Black by AC/DC",
+        "The Beatles' White Album",
+        "Led Zeppelin IV"
+      ],
+      "answer": "Thriller by Michael Jackson",
+      "explanation": "Michael Jackson's Thriller (1982) is the best-selling album of all time, with estimated sales of 66\u201370 million copies. It produced seven Billboard Top 10 singles and the iconic music video for 'Thriller,' directed by John Landis, which is the most-viewed music video in history on YouTube.",
+      "memory_hook": "Thriller: 70 million copies. The undisputed king of albums."
+    },
+    {
+      "category": "History",
+      "question": "Which French emperor was exiled to the island of St. Helena?",
+      "options": [
+        "Louis XVI",
+        "Napol\u00e9on Bonaparte",
+        "Louis XVIII",
+        "Charles X"
+      ],
+      "answer": "Napol\u00e9on Bonaparte",
+      "explanation": "Napoleon Bonaparte was exiled to the remote island of St. Helena in the South Atlantic Ocean after his final defeat at Waterloo in 1815. He lived there under British supervision until his death in 1821. It is one of the most remote inhabited islands in the world, specifically chosen to prevent his escape.",
+      "memory_hook": "Napoleon's last exile: St. Helena. So remote no one could rescue him."
+    },
+    {
+      "category": "History",
+      "question": "The 'Industrial Revolution' began in which country?",
+      "options": [
+        "France",
+        "Germany",
+        "Belgium",
+        "Great Britain"
+      ],
+      "answer": "Great Britain",
+      "explanation": "The Industrial Revolution began in Great Britain in the mid-18th century, transforming manufacturing, transportation, and society. Key inventions included James Watt's improved steam engine (1769), the spinning jenny, and the power loom. Britain's coal and iron resources, as well as its colonial trade networks, fueled the revolution.",
+      "memory_hook": "Britain sparked the Industrial Revolution \u2014 coal, steam, and an empire of factories."
+    }
+  ]
+}

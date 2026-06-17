@@ -1,0 +1,134 @@
+{
+  "questions": [
+    {
+      "category": "History",
+      "question": "Which mountain range separates Europe from Asia?",
+      "options": [
+        "The Alps",
+        "The Himalayas",
+        "The Ural Mountains",
+        "The Caucasus Mountains"
+      ],
+      "answer": "The Ural Mountains",
+      "explanation": "The Ural Mountains, running north to south through Russia, are the traditional boundary between Europe and Asia. They stretch about 2,500 km from the Arctic Ocean to the northern border of Kazakhstan and are one of the oldest mountain ranges on Earth.",
+      "memory_hook": "Urals divide Eurasia \u2014 Europe on the left, Asia on the right."
+    },
+    {
+      "category": "History",
+      "question": "What is the name of the event where Native Americans and Pilgrims shared a harvest meal in 1621?",
+      "options": [
+        "The First Harvest",
+        "The Plymouth Feast",
+        "The Thanksgiving",
+        "The Great Meal"
+      ],
+      "answer": "The Thanksgiving",
+      "explanation": "The First Thanksgiving was a three-day feast shared between Pilgrim settlers and members of the Wampanoag nation in Plymouth Colony in 1621. The event was a celebration of the harvest. Thanksgiving became a U.S. national holiday in 1863, proclaimed by President Abraham Lincoln.",
+      "memory_hook": "1621 \u2014 Pilgrims and Wampanoag people. Three days of feasting, one lasting tradition."
+    },
+    {
+      "category": "Sports",
+      "question": "In basketball, what is the diameter of the ball in inches?",
+      "options": [
+        "8.5 inches",
+        "9.4 inches",
+        "10.5 inches",
+        "11 inches"
+      ],
+      "answer": "9.4 inches",
+      "explanation": "A standard NBA basketball has a circumference of 29.5 inches, giving it a diameter of approximately 9.4 inches. A WNBA ball is slightly smaller. Both fit through the standard 18-inch rim, which is nearly twice the ball's diameter.",
+      "memory_hook": "9.4 inch ball, 18 inch hoop \u2014 the ball fits twice over with room to spare."
+    },
+    {
+      "category": "Sports",
+      "question": "What country are the All Blacks rugby team from?",
+      "options": [
+        "South Africa",
+        "Australia",
+        "England",
+        "New Zealand"
+      ],
+      "answer": "New Zealand",
+      "explanation": "The All Blacks are the national rugby union team of New Zealand. They are named for their black uniforms and are one of the most successful teams in the history of the sport, with the best winning percentage of any national rugby team. They perform the haka before matches.",
+      "memory_hook": "All Blacks: black jerseys, New Zealand silver fern, and the haka before kickoff."
+    },
+    {
+      "category": "Sports",
+      "question": "What is the circumference of a soccer ball in inches?",
+      "options": [
+        "20\u201322 inches",
+        "22\u201324 inches",
+        "27\u201328 inches",
+        "30\u201332 inches"
+      ],
+      "answer": "27\u201328 inches",
+      "explanation": "A FIFA-regulation soccer ball must have a circumference of between 68 and 70 cm (27\u201328 inches). The ball must weigh between 410 and 450 grams and be inflated to a specific pressure. These standards have been in place since 1937.",
+      "memory_hook": "Soccer ball: 27-28 inches around. Think of a medium-sized watermelon."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Which film features the song 'My Heart Will Go On'?",
+      "options": [
+        "Ghost",
+        "The Bodyguard",
+        "Dirty Dancing",
+        "Titanic"
+      ],
+      "answer": "Titanic",
+      "explanation": "'My Heart Will Go On' was performed by Celine Dion for the 1997 film Titanic. Written by James Horner and Will Jennings, it won the Academy Award for Best Original Song and was one of the best-selling singles of all time. Dion initially didn't want to record it.",
+      "memory_hook": "'My Heart Will Go On' \u2014 Celine's heart, Titanic's soul."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "What was the first video ever played on MTV?",
+      "options": [
+        "Thriller",
+        "Video Killed the Radio Star",
+        "Bohemian Rhapsody",
+        "Girls Just Want to Have Fun"
+      ],
+      "answer": "Video Killed the Radio Star",
+      "explanation": "'Video Killed the Radio Star' by The Buggles was the first music video aired on MTV when the channel launched at 12:01 AM on August 1, 1981. The irony of the song's title \u2014 predicting that video would replace radio \u2014 made it a perfect choice for the launch.",
+      "memory_hook": "MTV's first video predicted its own power: 'Video Killed the Radio Star.'"
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Which actor played James Bond most times?",
+      "options": [
+        "Sean Connery",
+        "Roger Moore",
+        "Pierce Brosnan",
+        "Daniel Craig"
+      ],
+      "answer": "Roger Moore",
+      "explanation": "Roger Moore played James Bond in seven films from 1973 to 1985: Live and Let Die, The Man with the Golden Gun, The Spy Who Loved Me, Moonraker, For Your Eyes Only, Octopussy, and A View to a Kill. He was the oldest Bond, finishing at age 57.",
+      "memory_hook": "Moore Bond films = Roger Moore. Seven times, still suave."
+    },
+    {
+      "category": "History",
+      "question": "The Aztec Empire was conquered by which European explorer?",
+      "options": [
+        "Francisco Pizarro",
+        "Hern\u00e1n Cort\u00e9s",
+        "Christopher Columbus",
+        "Juan Ponce de Le\u00f3n"
+      ],
+      "answer": "Hern\u00e1n Cort\u00e9s",
+      "explanation": "Hern\u00e1n Cort\u00e9s led the Spanish conquest of the Aztec Empire from 1519 to 1521. With a force of about 500 Spanish soldiers, plus thousands of Indigenous allies who opposed Aztec rule, he captured Tenochtitl\u00e1n (modern-day Mexico City). The conquest was aided by smallpox epidemics that devastated the Aztec population.",
+      "memory_hook": "Cort\u00e9s conquered the Aztecs \u2014 a few hundred soldiers changed the whole continent."
+    },
+    {
+      "category": "History",
+      "question": "The 'Louisiana Purchase' doubled the size of the United States by acquiring land from which country?",
+      "options": [
+        "Spain",
+        "Britain",
+        "Mexico",
+        "France"
+      ],
+      "answer": "France",
+      "explanation": "The Louisiana Purchase (1803) was a land deal in which the United States acquired about 828,000 square miles from France under Napoleon Bonaparte for $15 million \u2014 roughly 3 cents per acre. President Thomas Jefferson doubled the country's size with a single transaction.",
+      "memory_hook": "France sold it cheap \u2014 Napoleon needed money, Jefferson needed land."
+    }
+  ]
+}

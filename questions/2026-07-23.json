@@ -1,0 +1,134 @@
+{
+  "questions": [
+    {
+      "category": "History",
+      "question": "Which city was divided by a wall between 1961 and 1989?",
+      "options": [
+        "Vienna",
+        "Warsaw",
+        "Prague",
+        "Berlin"
+      ],
+      "answer": "Berlin",
+      "explanation": "Berlin was divided by the Berlin Wall from August 13, 1961 to November 9, 1989. The Wall separated communist East Berlin (capital of East Germany) from democratic West Berlin. During the Wall's existence, at least 140 people were killed attempting to cross it.",
+      "memory_hook": "Berlin: the Wall divided families for 28 years. It fell in a single night."
+    },
+    {
+      "category": "History",
+      "question": "Who was the first emperor of the Roman Empire?",
+      "options": [
+        "Julius Caesar",
+        "Caligula",
+        "Augustus",
+        "Tiberius"
+      ],
+      "answer": "Augustus",
+      "explanation": "Augustus (born Gaius Octavius, later Gaius Julius Caesar Augustus) became the first Roman Emperor after defeating Mark Antony and Cleopatra at the Battle of Actium in 31 BC. He transformed Rome from a republic into an empire and reigned for 41 years. The month of August is named after him.",
+      "memory_hook": "August = Augustus. The month was named for Rome's first emperor."
+    },
+    {
+      "category": "Sports",
+      "question": "In basketball, what line must be crossed within 8 seconds of gaining possession in the backcourt (NBA)?",
+      "options": [
+        "The half-court line",
+        "The free-throw line",
+        "The three-point line",
+        "The paint boundary"
+      ],
+      "answer": "The half-court line",
+      "explanation": "In the NBA, a team has 8 seconds to advance the ball from their backcourt (behind the half-court line) into the frontcourt. In FIBA (international) rules, the time limit is also 8 seconds. Violation results in a turnover. Previously the NBA rule was 10 seconds.",
+      "memory_hook": "8 seconds to cross half-court \u2014 don't just stand there dribbling."
+    },
+    {
+      "category": "Sports",
+      "question": "What is the scoring system used in volleyball?",
+      "options": [
+        "Traditional side-out only",
+        "Rally scoring to 25",
+        "Timer-based scoring",
+        "Alternating first-to-serve scoring"
+      ],
+      "answer": "Rally scoring to 25",
+      "explanation": "Volleyball uses rally scoring, meaning a point is scored on every rally regardless of who served. Sets are played to 25 points (with a 2-point advantage required), except the deciding fifth set, which is played to 15. Rally scoring replaced side-out scoring in international volleyball in 1999.",
+      "memory_hook": "Rally scoring: every rally = a point. First to 25, needs 2-point lead."
+    },
+    {
+      "category": "Sports",
+      "question": "Who was the first woman to win an Olympic gold medal in a combat sport?",
+      "options": [
+        "Clarissa Shields",
+        "Ronda Rousey",
+        "Sarah Ourahmoune",
+        "Ryoko Tamura"
+      ],
+      "answer": "Clarissa Shields",
+      "explanation": "Clarissa Shields (USA) won the gold medal in women's middleweight boxing at the 2012 London Olympics, becoming the first American woman to win an Olympic gold medal in boxing. She won again at Rio 2016. Women's boxing was added to the Olympics in 2012.",
+      "memory_hook": "Shields won gold in women's boxing at London 2012 \u2014 America's first female boxing champion."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Which musician released the album 'The Dark Side of the Moon' in 1973?",
+      "options": [
+        "Led Zeppelin",
+        "The Rolling Stones",
+        "Pink Floyd",
+        "David Bowie"
+      ],
+      "answer": "Pink Floyd",
+      "explanation": "Pink Floyd's 'The Dark Side of the Moon' was released on March 1, 1973. It spent a record 741 weeks on the US Billboard 200. The album features iconic imagery (a prism splitting white light into a rainbow) and addresses themes of time, money, conflict, and mental illness. It is one of the best-selling albums of all time.",
+      "memory_hook": "Pink Floyd's prism album \u2014 741 weeks on the Billboard chart. The dark side never left."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Who played the Terminator in the original 1984 film?",
+      "options": [
+        "Sylvester Stallone",
+        "Jean-Claude Van Damme",
+        "Chuck Norris",
+        "Arnold Schwarzenegger"
+      ],
+      "answer": "Arnold Schwarzenegger",
+      "explanation": "Arnold Schwarzenegger played the T-800 Model 101 Terminator in James Cameron's 1984 film. His delivery of 'I'll be back' became one of cinema's most quoted lines. O.J. Simpson was reportedly considered for the role, but James Cameron felt audiences wouldn't believe him as a killer.",
+      "memory_hook": "'I'll be back' \u2014 Schwarzenegger's Terminator. The line became bigger than the film."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Which singer's documentary is titled 'Miss Americana'?",
+      "options": [
+        "Katy Perry",
+        "Billie Eilish",
+        "Taylor Swift",
+        "Olivia Rodrigo"
+      ],
+      "answer": "Taylor Swift",
+      "explanation": "'Miss Americana' is a 2020 Netflix documentary directed by Lana Wilson that follows Taylor Swift during the recording of her Lover album, her public political awakening, and her efforts to reclaim ownership of her masters from Scooter Braun. The film offers an intimate look at her life and decision-making.",
+      "memory_hook": "'Miss Americana' \u2014 Taylor Swift goes political and personal on Netflix."
+    },
+    {
+      "category": "History",
+      "question": "The 'Watergate scandal' led to the resignation of which U.S. president?",
+      "options": [
+        "Gerald Ford",
+        "Lyndon B. Johnson",
+        "Jimmy Carter",
+        "Richard Nixon"
+      ],
+      "answer": "Richard Nixon",
+      "explanation": "The Watergate scandal began with the 1972 break-in at the Democratic National Committee headquarters at the Watergate complex in Washington, D.C. Nixon participated in covering up the crime. Facing near-certain impeachment, he resigned on August 9, 1974 \u2014 the only U.S. president to have resigned from office.",
+      "memory_hook": "Nixon, Watergate, resignation: he was going to be impeached, so he quit."
+    },
+    {
+      "category": "History",
+      "question": "Which country's independence was declared on July 4, 1776?",
+      "options": [
+        "Canada",
+        "Australia",
+        "United States",
+        "New Zealand"
+      ],
+      "answer": "United States",
+      "explanation": "The United States declared independence from Great Britain on July 4, 1776. The Declaration of Independence was formally adopted by the Continental Congress, primarily written by Thomas Jefferson. The date is celebrated annually as Independence Day (also called the Fourth of July) in the US.",
+      "memory_hook": "July 4, 1776: the birthday of the United States. Fireworks, hot dogs, independence."
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "questions": [
+    {
+      "category": "History",
+      "question": "Bastille Day, celebrated on July 14, is the national day of which country?",
+      "options": [
+        "Belgium",
+        "Switzerland",
+        "France",
+        "Luxembourg"
+      ],
+      "answer": "France",
+      "explanation": "Bastille Day (July 14) marks the storming of the Bastille prison in Paris on July 14, 1789, a key event in the French Revolution. It is France's national day and is celebrated with military parades, fireworks, and public events. The Bastille itself was demolished after its storming.",
+      "memory_hook": "Bastille Day = July 14 = France. The prison fell and the nation was born."
+    },
+    {
+      "category": "History",
+      "question": "Which European country colonized Brazil?",
+      "options": [
+        "Spain",
+        "France",
+        "Netherlands",
+        "Portugal"
+      ],
+      "answer": "Portugal",
+      "explanation": "Portugal colonized Brazil beginning in 1500 when Pedro \u00c1lvares Cabral landed on the Brazilian coast. Brazil remained a Portuguese colony until 1822, when it declared independence. As a result, Portuguese is the official language of Brazil \u2014 the only country in South America where Spanish is not the dominant language.",
+      "memory_hook": "Portugal got Brazil \u2014 the only South American country that speaks Portuguese."
+    },
+    {
+      "category": "Sports",
+      "question": "What is the maximum weight for a lightweight boxer?",
+      "options": [
+        "130 lbs",
+        "135 lbs",
+        "140 lbs",
+        "147 lbs"
+      ],
+      "answer": "135 lbs",
+      "explanation": "The lightweight division in boxing has a maximum weight limit of 135 pounds (61.2 kg). It is one of the most storied divisions in boxing, with legends like Muhammad Ali (who began as a lightweight), Floyd Mayweather, and Manny Pacquiao having competed at or near this weight.",
+      "memory_hook": "Lightweight = 135 lbs maximum. Not featherweight, not welterweight \u2014 the middle of 'light.'"
+    },
+    {
+      "category": "Sports",
+      "question": "In which sport would you find a 'bully-off'?",
+      "options": [
+        "Rugby",
+        "Lacrosse",
+        "Field hockey",
+        "Cricket"
+      ],
+      "answer": "Field hockey",
+      "explanation": "A bully-off is a way of restarting play in field hockey, similar to a face-off in ice hockey. Two players tap sticks alternately three times before competing for the ball. The bully-off is used in certain restart situations though it has become less common in modern rules.",
+      "memory_hook": "Bully-off: two players tap sticks, then fight for the ball. Field hockey's face-off."
+    },
+    {
+      "category": "Sports",
+      "question": "How many holes are in a standard golf course?",
+      "options": [
+        "9",
+        "12",
+        "18",
+        "36"
+      ],
+      "answer": "18",
+      "explanation": "A standard golf course has 18 holes. The 18-hole standard was established by the St Andrews Links in Scotland in 1764, when the course was redesigned from 22 holes to 18. Today, the Old Course at St Andrews is considered one of the most historic golf venues in the world.",
+      "memory_hook": "18 holes \u2014 St Andrews set the standard in 1764."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Who played the lead role in 'The Revenant' (2015)?",
+      "options": [
+        "Tom Hardy",
+        "Michael Fassbender",
+        "Christian Bale",
+        "Leonardo DiCaprio"
+      ],
+      "answer": "Leonardo DiCaprio",
+      "explanation": "Leonardo DiCaprio played Hugh Glass in The Revenant (2015), a fur trapper seeking revenge after being left for dead. The role won DiCaprio his first Academy Award for Best Actor after five previous nominations. The film was directed by Alejandro Gonz\u00e1lez I\u00f1\u00e1rritu and shot entirely with natural light.",
+      "memory_hook": "DiCaprio finally won the Oscar for The Revenant \u2014 after five nominations and years of memes."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Which famous concert took place in August 1969 in New York?",
+      "options": [
+        "Lollapalooza",
+        "Isle of Wight Festival",
+        "Woodstock",
+        "Glastonbury"
+      ],
+      "answer": "Woodstock",
+      "explanation": "Woodstock Music & Art Fair took place August 15\u201318, 1969, on a dairy farm in Bethel, New York. Approximately 400,000 people attended. Performers included Jimi Hendrix, Janis Joplin, The Who, and Jefferson Airplane. It became the defining cultural event of the hippie era.",
+      "memory_hook": "Woodstock '69 \u2014 400,000 people, one muddy field, and the sound of a generation."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Which Pixar film features the song 'Remember Me'?",
+      "options": [
+        "Soul",
+        "Up",
+        "Ratatouille",
+        "Coco"
+      ],
+      "answer": "Coco",
+      "explanation": "'Remember Me' is the signature song from Pixar's Coco (2017), a film about a young boy in Mexico who journeys to the Land of the Dead to find his great-great-grandfather. The film is set during the D\u00eda de los Muertos celebration and won the Academy Award for Best Animated Feature.",
+      "memory_hook": "'Remember Me' from Coco \u2014 remember the dead, celebrate the living."
+    },
+    {
+      "category": "History",
+      "question": "Which country was the first to develop nuclear weapons?",
+      "options": [
+        "Soviet Union",
+        "United Kingdom",
+        "Germany",
+        "United States"
+      ],
+      "answer": "United States",
+      "explanation": "The United States developed the first nuclear weapons through the Manhattan Project (1942\u20131946). The first nuclear test, code-named 'Trinity,' was conducted on July 16, 1945, in New Mexico. The U.S. remains the only country to have used nuclear weapons in warfare.",
+      "memory_hook": "US built the bomb first \u2014 Trinity test, July 1945. Hiroshima and Nagasaki followed."
+    },
+    {
+      "category": "History",
+      "question": "The 'Hundred Years War' was a conflict between England and which other country?",
+      "options": [
+        "Spain",
+        "Germany",
+        "France",
+        "Italy"
+      ],
+      "answer": "France",
+      "explanation": "The Hundred Years' War (1337\u20131453) was a series of armed conflicts between England and France over the right to the French throne. England won major battles at Cr\u00e9cy, Poitiers, and Agincourt but ultimately lost. Joan of Arc revitalized French forces and played a decisive role in France's eventual victory.",
+      "memory_hook": "Hundred Years, England vs. France \u2014 Joan of Arc turned the tide."
+    }
+  ]
+}

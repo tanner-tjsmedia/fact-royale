@@ -1,0 +1,134 @@
+{
+  "questions": [
+    {
+      "category": "History",
+      "question": "On July 4, 1776, which document was formally adopted by the Continental Congress?",
+      "options": [
+        "The U.S. Constitution",
+        "The Bill of Rights",
+        "The Federalist Papers",
+        "The Declaration of Independence"
+      ],
+      "answer": "The Declaration of Independence",
+      "explanation": "The Declaration of Independence was adopted by the Continental Congress on July 4, 1776, declaring the thirteen American colonies independent from Great Britain. It was primarily drafted by Thomas Jefferson and announced the foundational principle that 'all men are created equal.'",
+      "memory_hook": "July 4 = Independence Day = Declaration of Independence. Simple as fireworks."
+    },
+    {
+      "category": "History",
+      "question": "Which American president delivered the Gettysburg Address?",
+      "options": [
+        "George Washington",
+        "Ulysses S. Grant",
+        "Abraham Lincoln",
+        "Andrew Jackson"
+      ],
+      "answer": "Abraham Lincoln",
+      "explanation": "President Abraham Lincoln delivered the Gettysburg Address on November 19, 1863, at the dedication of the Soldiers' National Cemetery in Gettysburg, Pennsylvania. The speech, just 272 words, became one of the most famous in American history, redefining the Civil War as a fight for human equality.",
+      "memory_hook": "Lincoln at Gettysburg \u2014 short speech, eternal impact."
+    },
+    {
+      "category": "Sports",
+      "question": "The 'Triple Crown' in horse racing includes the Kentucky Derby, the Preakness Stakes, and which third race?",
+      "options": [
+        "The Belmont Stakes",
+        "The Breeders' Cup",
+        "The Arlington Million",
+        "The Travers Stakes"
+      ],
+      "answer": "The Belmont Stakes",
+      "explanation": "The Triple Crown consists of the Kentucky Derby (Churchill Downs), the Preakness Stakes (Pimlico), and the Belmont Stakes (Belmont Park). A horse that wins all three in the same year wins the Triple Crown \u2014 one of the rarest achievements in sport.",
+      "memory_hook": "Derby, Preakness, Belmont \u2014 three jewels, one Triple Crown."
+    },
+    {
+      "category": "Sports",
+      "question": "What is the national sport of Canada?",
+      "options": [
+        "Ice hockey",
+        "Lacrosse",
+        "Baseball",
+        "Football"
+      ],
+      "answer": "Lacrosse",
+      "explanation": "Lacrosse is Canada's official national summer sport (ice hockey is the national winter sport). Lacrosse was originally played by Indigenous peoples of North America long before European contact. Canada passed the National Sports of Canada Act in 1994 designating both sports.",
+      "memory_hook": "Canada has TWO national sports \u2014 lacrosse in summer, hockey in winter."
+    },
+    {
+      "category": "Sports",
+      "question": "How many players are on a baseball team during play?",
+      "options": [
+        "8",
+        "9",
+        "10",
+        "11"
+      ],
+      "answer": "9",
+      "explanation": "A standard baseball team fields nine players at a time: pitcher, catcher, first baseman, second baseman, third baseman, shortstop, and three outfielders (left, center, right). The designated hitter rule in the American League allows a tenth player to bat for the pitcher.",
+      "memory_hook": "Nine players, nine innings \u2014 baseball is built on nines."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Who sang the national anthem at the 1991 Super Bowl in a performance widely considered the best ever?",
+      "options": [
+        "Mariah Carey",
+        "Celine Dion",
+        "Whitney Houston",
+        "Beyonc\u00e9"
+      ],
+      "answer": "Whitney Houston",
+      "explanation": "Whitney Houston's performance of 'The Star-Spangled Banner' at Super Bowl XXV in 1991 is widely considered the greatest rendition of the national anthem ever. Her recording was released as a single and charted on the Billboard Hot 100 twice \u2014 in 1991 and 2001.",
+      "memory_hook": "Whitney at the Super Bowl \u2014 she didn't just sing it, she owned it."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Which film is set on the fictional island of 'Isla Nublar'?",
+      "options": [
+        "King Kong",
+        "The Island of Dr. Moreau",
+        "Jurassic Park",
+        "Congo"
+      ],
+      "answer": "Jurassic Park",
+      "explanation": "Jurassic Park (1993), directed by Steven Spielberg and based on Michael Crichton's novel, is set on Isla Nublar, a fictional island off Costa Rica where genetically recreated dinosaurs are housed in a theme park. The film revolutionized the use of CGI in cinema.",
+      "memory_hook": "Isla Nublar = dinosaur island. Life found a way \u2014 and so did Spielberg."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Which album by Adele contains the songs 'Hello' and 'When We Were Young'?",
+      "options": [
+        "19",
+        "21",
+        "25",
+        "30"
+      ],
+      "answer": "25",
+      "explanation": "Adele's third studio album '25' was released in November 2015 and contains 'Hello' and 'When We Were Young.' It became the fastest-selling album in history at the time, selling 3.38 million copies in its first week in the US alone.",
+      "memory_hook": "Hello from '25' \u2014 Adele called from outside her twenties."
+    },
+    {
+      "category": "History",
+      "question": "What was the primary cause of the Irish Famine (1845\u20131852)?",
+      "options": [
+        "Drought",
+        "A potato blight",
+        "A plague of locusts",
+        "Government food confiscation"
+      ],
+      "answer": "A potato blight",
+      "explanation": "The Irish Famine was caused primarily by Phytophthora infestans, a water mold that caused potato blight, destroying the potato crop which was the main food source for much of Ireland's population. Over 1 million people died and over 1 million emigrated, reducing Ireland's population by 25%.",
+      "memory_hook": "Potato blight = Irish Famine. The crop failed and the country hollowed out."
+    },
+    {
+      "category": "History",
+      "question": "Which empire was ruled by Genghis Khan?",
+      "options": [
+        "Ottoman Empire",
+        "Mongol Empire",
+        "Han Dynasty",
+        "Persian Empire"
+      ],
+      "answer": "Mongol Empire",
+      "explanation": "Genghis Khan founded the Mongol Empire in 1206 after uniting the Mongolian tribes. At its peak, the Mongol Empire was the largest contiguous land empire in history, stretching from the Pacific Ocean to Eastern Europe. Genghis Khan died in 1227.",
+      "memory_hook": "Genghis = Mongol. The name sounds like thunder \u2014 and his empire rumbled across Asia."
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "questions": [
+    {
+      "category": "History",
+      "question": "Which war followed the assassination of Archduke Franz Ferdinand?",
+      "options": [
+        "World War II",
+        "The Korean War",
+        "World War I",
+        "The Crimean War"
+      ],
+      "answer": "World War I",
+      "explanation": "The assassination of Archduke Franz Ferdinand of Austria-Hungary on June 28, 1914, triggered a chain reaction of declarations of war due to entangling alliances, leading to World War I. The war lasted from 1914 to 1918 and resulted in an estimated 20 million deaths.",
+      "memory_hook": "One assassination, two months, four empires at war \u2014 that's World War I in a nutshell."
+    },
+    {
+      "category": "History",
+      "question": "'D-Day' (June 6, 1944) was the invasion of which coastline?",
+      "options": [
+        "The coast of Belgium",
+        "The coast of Normandy, France",
+        "The coast of Sicily, Italy",
+        "The coast of the Netherlands"
+      ],
+      "answer": "The coast of Normandy, France",
+      "explanation": "D-Day (June 6, 1944) was the Normandy landings in Operation Overlord, the largest seaborne invasion in history. Allied forces stormed five beaches (Utah, Omaha, Gold, Juno, Sword) in Nazi-occupied France. It was the beginning of the liberation of Western Europe. Over 156,000 troops landed that day.",
+      "memory_hook": "D-Day: Normandy, June 6, 1944. Omaha Beach. The beginning of the end for Nazi Germany."
+    },
+    {
+      "category": "Sports",
+      "question": "Which tennis tournament is played on clay courts and often called 'Roland Garros'?",
+      "options": [
+        "Wimbledon",
+        "US Open",
+        "Australian Open",
+        "French Open"
+      ],
+      "answer": "French Open",
+      "explanation": "The French Open, officially called Roland-Garros, is held at the Stade Roland Garros in Paris and played on clay courts. It is the second Grand Slam of the year (May-June). Rafael Nadal won the title a record 14 times, earning the nickname 'King of Clay.'",
+      "memory_hook": "Roland Garros = French Open = clay = Rafa Nadal's kingdom."
+    },
+    {
+      "category": "Sports",
+      "question": "What does 'NBA' stand for?",
+      "options": [
+        "National Basketball Association",
+        "North Basketball Alliance",
+        "National Basketball Authority",
+        "National Ball Association"
+      ],
+      "answer": "National Basketball Association",
+      "explanation": "The NBA (National Basketball Association) was formed in 1946. It is the premier professional basketball league in the world, consisting of 30 teams. The league's most prestigious individual award is the MVP (Most Valuable Player), and the championship is decided in the NBA Finals.",
+      "memory_hook": "National Basketball Association \u2014 the world's top basketball league, founded 1946."
+    },
+    {
+      "category": "Sports",
+      "question": "How many players are on a rugby union team?",
+      "options": [
+        "13",
+        "14",
+        "15",
+        "16"
+      ],
+      "answer": "15",
+      "explanation": "A rugby union team has 15 players on the field: eight forwards and seven backs. Rugby league, a different code of rugby, has 13 players per side. Rugby union was played at the 2016 Rio Olympics in the sevens format (7 players per side).",
+      "memory_hook": "Rugby union: 15. Rugby league: 13. Sevens: 7. Three codes, three numbers."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Who wrote 'Thriller' \u2014 the song, not the album?",
+      "options": [
+        "Michael Jackson",
+        "Quincy Jones",
+        "Rod Temperton",
+        "Barry Gordy"
+      ],
+      "answer": "Rod Temperton",
+      "explanation": "'Thriller' the song was written by British musician Rod Temperton, who also wrote 'Rock with You' and 'Off the Wall' for Michael Jackson. Temperton, who was part of the funk band Heatwave, wrote several other hits for other artists. Jackson's Thriller album produced seven Billboard Top 10 singles.",
+      "memory_hook": "Rod Temperton wrote Thriller \u2014 not MJ, but the song became MJ forever."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "What film does the song 'You've Got a Friend in Me' come from?",
+      "options": [
+        "A Bug's Life",
+        "Monsters, Inc.",
+        "Toy Story",
+        "Finding Nemo"
+      ],
+      "answer": "Toy Story",
+      "explanation": "'You've Got a Friend in Me' was written and performed by Randy Newman for the original Toy Story (1995). It has become the signature song of the Toy Story franchise and appears in all four films. Newman received an Academy Award nomination for the song and won an Oscar for 'We Belong Together' from Toy Story 3.",
+      "memory_hook": "Toy Story's heart: 'You've Got a Friend in Me.' Woody and Buzz, forever."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Which singer was known as the 'Voice' and sold over 200 million records worldwide?",
+      "options": [
+        "Frank Sinatra",
+        "Ella Fitzgerald",
+        "Nat King Cole",
+        "Dean Martin"
+      ],
+      "answer": "Frank Sinatra",
+      "explanation": "Frank Sinatra was nicknamed 'Ol' Blue Eyes' and 'The Voice.' He sold an estimated 150\u2013200 million records worldwide, and along with Bing Crosby, dominated popular music before rock and roll. He won the Academy Award for Best Supporting Actor for From Here to Eternity (1953).",
+      "memory_hook": "Sinatra: The Voice. His way was the only way \u2014 'My Way' said it all."
+    },
+    {
+      "category": "History",
+      "question": "The 'Apollo 13' mission is famous for which near-disaster?",
+      "options": [
+        "Loss of communication with Earth",
+        "Oxygen tank explosion that forced the crew to abort the Moon landing",
+        "Computer failure during reentry",
+        "Collision with space debris"
+      ],
+      "answer": "Oxygen tank explosion that forced the crew to abort the Moon landing",
+      "explanation": "On April 13, 1970, an oxygen tank exploded on Apollo 13, crippling the spacecraft 200,000 miles from Earth. The mission to land on the Moon was aborted, and astronauts Jim Lovell, Jack Swigert, and Fred Haise used the lunar module as a lifeboat to return safely to Earth. It was called a 'successful failure.'",
+      "memory_hook": "'Houston, we have a problem' \u2014 Apollo 13's oxygen tank exploded. They made it home anyway."
+    },
+    {
+      "category": "History",
+      "question": "Which ancient wonder was a giant statue at the entrance to the harbor of Rhodes?",
+      "options": [
+        "The Lighthouse of Alexandria",
+        "The Colossus of Rhodes",
+        "The Statue of Zeus",
+        "The Temple of Artemis"
+      ],
+      "answer": "The Colossus of Rhodes",
+      "explanation": "The Colossus of Rhodes was a statue of the sun god Helios, built around 280 BC in the Greek city of Rhodes. It stood approximately 70 cubits (33 meters) high and was considered one of the Seven Wonders of the Ancient World. It stood for only 54 years before being destroyed by an earthquake.",
+      "memory_hook": "Colossus of Rhodes: straddled the harbor (maybe), fell in an earthquake \u2014 a wonder for just 54 years."
+    }
+  ]
+}

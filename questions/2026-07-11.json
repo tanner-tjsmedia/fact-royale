@@ -1,0 +1,134 @@
+{
+  "questions": [
+    {
+      "category": "History",
+      "question": "The 'Great Wall of China' was primarily built to protect against invasions from which direction?",
+      "options": [
+        "South",
+        "East",
+        "West",
+        "North"
+      ],
+      "answer": "North",
+      "explanation": "The Great Wall of China was built along the northern border of China to protect against invasions from nomadic peoples of the Eurasian Steppe, primarily the Mongols and Xiongnu. It stretches over 13,000 miles and was built over many centuries beginning in the 7th century BC.",
+      "memory_hook": "The Great Wall faces north \u2014 a wall against the northern nomads."
+    },
+    {
+      "category": "History",
+      "question": "Who was the last emperor of China?",
+      "options": [
+        "Qianlong",
+        "Guangxu",
+        "Puyi",
+        "Tongzhi"
+      ],
+      "answer": "Puyi",
+      "explanation": "Puyi (Aisin-Gioro Puyi) was the last Emperor of China, ascending the throne at age 2 in 1908 and abdicating in 1912 following the Xinhai Revolution. He was later installed as a puppet ruler of the Japanese puppet state of Manchukuo. His life story is told in the film 'The Last Emperor.'",
+      "memory_hook": "Puyi: the last emperor became a gardener \u2014 from throne to pruning shears."
+    },
+    {
+      "category": "Sports",
+      "question": "How many players are on a polo team?",
+      "options": [
+        "2",
+        "4",
+        "6",
+        "8"
+      ],
+      "answer": "4",
+      "explanation": "A polo team consists of four mounted players. Each player is assigned a position number (1 through 4), with Number 1 being the most offensive player and Number 4 (or 'back') being the most defensive. Games consist of 'chukkers' (periods), typically four to eight per match.",
+      "memory_hook": "Four polo players, four horsemen \u2014 polo's a team sport on horseback."
+    },
+    {
+      "category": "Sports",
+      "question": "Which player has scored the most points in NBA history?",
+      "options": [
+        "Michael Jordan",
+        "Kareem Abdul-Jabbar",
+        "LeBron James",
+        "Karl Malone"
+      ],
+      "answer": "LeBron James",
+      "explanation": "LeBron James surpassed Kareem Abdul-Jabbar's previous all-time scoring record of 38,387 points on February 7, 2023. LeBron continued playing and is still adding to his total. Kareem held the record for 39 years after surpassing Oscar Robertson's mark.",
+      "memory_hook": "LeBron broke Kareem's 39-year record. The King is the all-time scorer."
+    },
+    {
+      "category": "Sports",
+      "question": "In which sport do competitors throw a 'hammer'?",
+      "options": [
+        "Javelin",
+        "Track and field",
+        "Discus",
+        "Archery"
+      ],
+      "answer": "Track and field",
+      "explanation": "The hammer throw is a track and field event where athletes throw a metal ball attached to a wire handle. Men's hammer weighs 7.26 kg (16 lb); women's weighs 4 kg (8.8 lb). Competitors spin in a circle before releasing. The world record stands at 86.74 meters, set in 1986.",
+      "memory_hook": "Hammer throw: spin and release. Track and field's most dizzying event."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Which film first introduced the character of Darth Vader?",
+      "options": [
+        "Return of the Jedi",
+        "The Empire Strikes Back",
+        "A New Hope",
+        "Revenge of the Sith"
+      ],
+      "answer": "A New Hope",
+      "explanation": "Darth Vader first appeared in Star Wars: Episode IV \u2014 A New Hope (1977). The character was voiced by James Earl Jones and physically portrayed by David Prowse. Vader's reveal as Luke Skywalker's father didn't come until The Empire Strikes Back (1980).",
+      "memory_hook": "Vader appeared in A New Hope \u2014 Episode IV, the very beginning."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Who sang 'Rolling in the Deep' and '21'?",
+      "options": [
+        "Taylor Swift",
+        "Adele",
+        "Amy Winehouse",
+        "Lorde"
+      ],
+      "answer": "Adele",
+      "explanation": "'Rolling in the Deep' is from Adele's second studio album '21' (2011). The album spent 24 non-consecutive weeks at number one in the US and 23 weeks in the UK, one of the longest-running number-one albums in chart history. Adele won six Grammy Awards at the 2012 ceremony for the album.",
+      "memory_hook": "Adele rolled deep into '21' \u2014 her second album dominated the world."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Which animated studio produced 'Toy Story' and 'Finding Nemo'?",
+      "options": [
+        "DreamWorks",
+        "Warner Bros.",
+        "Pixar",
+        "Disney"
+      ],
+      "answer": "Pixar",
+      "explanation": "Toy Story (1995) and Finding Nemo (2003) were both produced by Pixar Animation Studios. Toy Story was the first fully computer-animated feature film. Pixar was acquired by Disney in 2006. Both films spawned sequels and are considered classics of animation.",
+      "memory_hook": "Pixar: toys that live, fish that swim, and emotions that make adults cry."
+    },
+    {
+      "category": "History",
+      "question": "What year did the Space Shuttle Challenger disaster occur?",
+      "options": [
+        "1982",
+        "1986",
+        "1990",
+        "1996"
+      ],
+      "answer": "1986",
+      "explanation": "The Space Shuttle Challenger broke apart 73 seconds after launch on January 28, 1986, killing all seven crew members including teacher Christa McAuliffe. The disaster was caused by an O-ring failure in cold temperatures. It led to a 32-month suspension of the shuttle program.",
+      "memory_hook": "1986: 73 seconds. The Challenger fell, and the nation watched in horror."
+    },
+    {
+      "category": "History",
+      "question": "Who was the leader of Cuba during the Cuban Revolution?",
+      "options": [
+        "Che Guevara",
+        "Ra\u00fal Castro",
+        "Fulgencio Batista",
+        "Fidel Castro"
+      ],
+      "answer": "Fidel Castro",
+      "explanation": "Fidel Castro led the Cuban Revolution that overthrew dictator Fulgencio Batista on January 1, 1959. He then ruled Cuba for 49 years until handing power to his brother Ra\u00fal in 2008. Cuba became the first Communist state in the Western Hemisphere under his rule.",
+      "memory_hook": "Castro's beard and Cuba's revolution \u2014 he held power for five decades."
+    }
+  ]
+}

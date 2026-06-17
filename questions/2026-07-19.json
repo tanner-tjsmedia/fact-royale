@@ -1,0 +1,134 @@
+{
+  "questions": [
+    {
+      "category": "History",
+      "question": "Which famous speech begins with 'Four score and seven years ago'?",
+      "options": [
+        "The Declaration of Independence",
+        "The Emancipation Proclamation",
+        "The Gettysburg Address",
+        "The Inaugural Address"
+      ],
+      "answer": "The Gettysburg Address",
+      "explanation": "The Gettysburg Address began with those words \u2014 Lincoln delivered it on November 19, 1863. Four score and seven years = 87 years, dating back to 1776.",
+      "memory_hook": "Four score = 80. Plus seven = 87. 1863 minus 87 = 1776. The math of Lincoln's speech."
+    },
+    {
+      "category": "History",
+      "question": "What was the name of the communist manifesto's co-author alongside Marx?",
+      "options": [
+        "Lenin",
+        "Trotsky",
+        "Engels",
+        "Bakunin"
+      ],
+      "answer": "Engels",
+      "explanation": "Friedrich Engels co-authored The Communist Manifesto with Karl Marx in 1848. Engels provided much of the funding for Marx's work and co-authored or collaborated on many of Marx's writings.",
+      "memory_hook": "Marx and Engels \u2014 the manifesto needed two: the thinker and the funder."
+    },
+    {
+      "category": "Sports",
+      "question": "How many players are in a volleyball team including substitutes?",
+      "options": [
+        "6",
+        "9",
+        "12",
+        "14"
+      ],
+      "answer": "12",
+      "explanation": "A volleyball team roster consists of 12 players (6 on the court and up to 6 substitutes). One player can be designated as the libero \u2014 a defensive specialist who wears a different colored uniform.",
+      "memory_hook": "12 roster, 6 on court \u2014 volleyball's numbers are all sixes and twelves."
+    },
+    {
+      "category": "Sports",
+      "question": "In fencing, what are the three types of weapons used?",
+      "options": [
+        "Sword, sabre, rapier",
+        "Foil, epee, sabre",
+        "Foil, longsword, rapier",
+        "Epee, broadsword, sabre"
+      ],
+      "answer": "Foil, epee, sabre",
+      "explanation": "The three weapons in fencing are the foil (thrusting weapon targeting the torso), the epee (heavier, targets entire body), and the sabre (cutting and thrusting, targets upper body). Each has different scoring rules.",
+      "memory_hook": "Foil, epee, sabre \u2014 the three fencing weapons."
+    },
+    {
+      "category": "Sports",
+      "question": "What is the name of the award given to the best hitter in Major League Baseball?",
+      "options": [
+        "Cy Young Award",
+        "Golden Glove",
+        "Silver Slugger Award",
+        "Batting Title"
+      ],
+      "answer": "Silver Slugger Award",
+      "explanation": "The Silver Slugger Award is given annually to the best offensive player at each position in MLB, as voted by managers and coaches. The Cy Young Award goes to the best pitcher; the Golden Glove to the best fielder.",
+      "memory_hook": "Silver Slugger = best hitter. Gold Glove = best fielder. Cy Young = best pitcher."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Who composed the music for the Jurassic Park film series?",
+      "options": [
+        "Hans Zimmer",
+        "Danny Elfman",
+        "Ennio Morricone",
+        "John Williams"
+      ],
+      "answer": "John Williams",
+      "explanation": "John Williams composed the iconic score for Jurassic Park (1993). The main theme perfectly captures the wonder and danger of encountering living dinosaurs. Williams has composed for over 100 films including Star Wars, Jaws, and Indiana Jones.",
+      "memory_hook": "John Williams: Jurassic Park, Star Wars, Indiana Jones, Jaws \u2014 one composer, all the iconic themes."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Which Tom Petty song became an anthem after featuring in countless road-trip films?",
+      "options": [
+        "American Girl",
+        "Free Fallin",
+        "I Won't Back Down",
+        "Runnin Down a Dream"
+      ],
+      "answer": "Runnin Down a Dream",
+      "explanation": "Runnin Down a Dream (1989) from Full Moon Fever became one of Tom Petty's most recognizable anthems \u2014 a quintessential American road-trip song. Petty wrote it on a sunny drive to a recording studio. He died in October 2017.",
+      "memory_hook": "Runnin Down a Dream: Tom Petty wrote it driving fast on a sunny day. You can feel the speed in the riff."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Which actress played Clarice Starling in The Silence of the Lambs?",
+      "options": [
+        "Meryl Streep",
+        "Glenn Close",
+        "Jodie Foster",
+        "Susan Sarandon"
+      ],
+      "answer": "Jodie Foster",
+      "explanation": "Jodie Foster played FBI trainee Clarice Starling in The Silence of the Lambs (1991), winning the Academy Award for Best Actress. The film won Best Picture, Best Director, Best Actor, and Best Actress \u2014 all five major Oscar categories.",
+      "memory_hook": "Foster played Starling opposite Hopkins' Lecter \u2014 both won Oscars."
+    },
+    {
+      "category": "History",
+      "question": "Which Greek mathematician is known for his theorem about right triangles?",
+      "options": [
+        "Euclid",
+        "Archimedes",
+        "Pythagoras",
+        "Thales"
+      ],
+      "answer": "Pythagoras",
+      "explanation": "Pythagoras (c. 570-495 BC) is known for the Pythagorean theorem: in a right triangle, the square of the hypotenuse equals the sum of the squares of the other two sides (a squared + b squared = c squared).",
+      "memory_hook": "a squared + b squared = c squared \u2014 Pythagoras. Every right triangle, forever."
+    },
+    {
+      "category": "History",
+      "question": "Which U.S. constitutional amendment abolished slavery?",
+      "options": [
+        "The 13th Amendment",
+        "The 14th Amendment",
+        "The 15th Amendment",
+        "The 19th Amendment"
+      ],
+      "answer": "The 13th Amendment",
+      "explanation": "The 13th Amendment to the U.S. Constitution, ratified on December 6, 1865, formally abolished slavery in the United States.",
+      "memory_hook": "13th Amendment ended slavery. 14th gave citizenship. 15th gave Black men the vote."
+    }
+  ]
+}

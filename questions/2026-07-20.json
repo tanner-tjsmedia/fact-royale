@@ -1,0 +1,134 @@
+{
+  "questions": [
+    {
+      "category": "History",
+      "question": "The moon landing occurred on July 20, 1969. Which astronaut remained in orbit while the others walked on the moon?",
+      "options": [
+        "Alan Shepard",
+        "Buzz Aldrin",
+        "Michael Collins",
+        "John Glenn"
+      ],
+      "answer": "Michael Collins",
+      "explanation": "Michael Collins piloted the Columbia command module and orbited the Moon while Neil Armstrong and Buzz Aldrin landed in the Eagle lunar module. Collins is sometimes called 'the forgotten astronaut,' but he described his solo orbits of the moon \u2014 sometimes on the far side with no contact with Earth \u2014 as peaceful.",
+      "memory_hook": "Collins orbited alone \u2014 the most isolated human in history, 250,000 miles from Earth."
+    },
+    {
+      "category": "History",
+      "question": "The 'Panama Canal' connects which two oceans?",
+      "options": [
+        "Atlantic and Indian",
+        "Pacific and Arctic",
+        "Atlantic and Pacific",
+        "Pacific and Southern"
+      ],
+      "answer": "Atlantic and Pacific",
+      "explanation": "The Panama Canal connects the Atlantic Ocean (via the Caribbean Sea) to the Pacific Ocean, cutting through Panama. It opened in 1914 and reduced the voyage between the Atlantic and Pacific by around 12,000 miles, eliminating the need to go around the southern tip of South America.",
+      "memory_hook": "Panama Canal: Atlantic to Pacific. Cut through Central America, saved 12,000 miles."
+    },
+    {
+      "category": "Sports",
+      "question": "In American football, how many points is a field goal worth?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "6"
+      ],
+      "answer": "3",
+      "explanation": "A field goal in American football is worth 3 points. It is scored by kicking the ball through the upright goalposts. The longest successful field goal in NFL history was 66 yards, kicked by Justin Tucker of the Baltimore Ravens in 2021.",
+      "memory_hook": "Field goal = 3. Touchdown = 6. One kicker, half as many points."
+    },
+    {
+      "category": "Sports",
+      "question": "What is the only country to have competed in every Summer Olympics?",
+      "options": [
+        "France",
+        "United States",
+        "United Kingdom",
+        "Greece"
+      ],
+      "answer": "Greece",
+      "explanation": "Greece has competed in every Summer Olympic Games since the inaugural modern Olympics in Athens in 1896. The United States has also competed in all Summer Games. Greece, as the host of the first modern Olympics, has a historical connection to every iteration of the games.",
+      "memory_hook": "Greece invented the Olympics and never missed a game \u2014 not one in over 125 years."
+    },
+    {
+      "category": "Sports",
+      "question": "What sport uses the term 'en garde'?",
+      "options": [
+        "Archery",
+        "Fencing",
+        "Jousting",
+        "Polo"
+      ],
+      "answer": "Fencing",
+      "explanation": "'En garde' is a French phrase meaning 'on guard' and is the starting command in fencing bouts. It instructs fencers to assume their ready positions. The phrase has entered common usage to mean 'prepare to defend yourself' or as a warning that a challenge is coming.",
+      "memory_hook": "'En garde!' \u2014 French for 'get ready to be stabbed.'"
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Who played the title character in 'Black Panther: Wakanda Forever'?",
+      "options": [
+        "Daniel Kaluuya",
+        "Letitia Wright",
+        "Lupita Nyong'o",
+        "Winston Duke"
+      ],
+      "answer": "Letitia Wright",
+      "explanation": "Letitia Wright took center stage in Black Panther: Wakanda Forever (2022) as Shuri, who dons the Black Panther mantle after her brother T'Challa's death (reflecting Chadwick Boseman's real-life passing). The film grossed over $859 million worldwide and paid tribute to Boseman throughout.",
+      "memory_hook": "Shuri (Wright) became Wakanda's new protector after Boseman's T'Challa was mourned on-screen."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "What year was the original 'Ghostbusters' released?",
+      "options": [
+        "1982",
+        "1984",
+        "1986",
+        "1988"
+      ],
+      "answer": "1984",
+      "explanation": "Ghostbusters was released on June 8, 1984, starring Bill Murray, Dan Aykroyd, Harold Ramis, and Ernie Hudson. Written by Aykroyd and Ramis, the film was a massive commercial success and spawned a franchise including sequels, animated series, and a 2021 continuation.",
+      "memory_hook": "1984: Ghostbusters. Who ya gonna call? Answer: the box office \u2014 it was a hit."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "What was the first James Bond film?",
+      "options": [
+        "Goldfinger",
+        "From Russia with Love",
+        "Thunderball",
+        "Dr. No"
+      ],
+      "answer": "Dr. No",
+      "explanation": "Dr. No (1962) was the first James Bond film, starring Sean Connery as 007. It was based on Ian Fleming's 1958 novel and set in Jamaica. The film introduced the Bond formula: exotic locations, beautiful women, a memorable villain, and sophisticated gadgets. Dr. No grossed 60 times its budget.",
+      "memory_hook": "Bond began with 'No' \u2014 Dr. No, 1962, Connery in Jamaica."
+    },
+    {
+      "category": "History",
+      "question": "The Holocaust was the systematic genocide of which group, among others?",
+      "options": [
+        "Only Romani people",
+        "Only LGBTQ+ individuals",
+        "Jewish people and other targeted groups",
+        "Only political prisoners"
+      ],
+      "answer": "Jewish people and other targeted groups",
+      "explanation": "The Holocaust was the systematic, state-sponsored persecution and murder of six million Jewish people by the Nazi regime and its collaborators. Other targeted groups included Roma, people with disabilities, LGBTQ+ individuals, political opponents, and Jehovah's Witnesses. In total, an estimated 11 million people were killed.",
+      "memory_hook": "Six million Jewish lives lost. Eleven million total. Never forget."
+    },
+    {
+      "category": "History",
+      "question": "Who was the last tsar of Russia?",
+      "options": [
+        "Alexander III",
+        "Ivan the Terrible",
+        "Peter the Great",
+        "Nicholas II"
+      ],
+      "answer": "Nicholas II",
+      "explanation": "Nicholas II was the last Emperor of Russia, ruling from 1894 until the Russian Revolution of 1917 forced his abdication. He and his family were executed by Bolshevik forces on July 17, 1918. His reign was marked by political repression and Russia's devastating involvement in World War I.",
+      "memory_hook": "Nicholas II \u2014 the last tsar. Russia's final emperor, executed by his own revolution."
+    }
+  ]
+}

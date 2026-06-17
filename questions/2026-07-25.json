@@ -1,0 +1,134 @@
+{
+  "questions": [
+    {
+      "category": "History",
+      "question": "Which war is known as 'The Great War'?",
+      "options": [
+        "World War II",
+        "The Crimean War",
+        "The Boer War",
+        "World War I"
+      ],
+      "answer": "World War I",
+      "explanation": "World War I (1914\u20131918) was known as 'The Great War' at the time, before World War II redefined the scale of global conflict. It involved most of Europe's major powers, killed an estimated 20 million people, and introduced industrialized warfare including trench warfare, chemical weapons, and aerial bombing.",
+      "memory_hook": "The Great War = WWI. It was so terrible, they called it 'the war to end all wars' \u2014 then WWII happened."
+    },
+    {
+      "category": "History",
+      "question": "Which explorer first circumnavigated the globe solo?",
+      "options": [
+        "Joshua Slocum",
+        "Ferdinand Magellan",
+        "Francis Drake",
+        "Robin Knox-Johnston"
+      ],
+      "answer": "Joshua Slocum",
+      "explanation": "Joshua Slocum completed the first solo circumnavigation of the globe by sea from 1895 to 1898, aboard his boat Spray. He wrote 'Sailing Alone Around the World' (1900) about the journey. He was the first person definitively documented to have sailed around the world alone.",
+      "memory_hook": "Slocum: solo around the world, 1895\u20131898. Three years, one man, one boat."
+    },
+    {
+      "category": "Sports",
+      "question": "What is the distance of a standard marathon in kilometers?",
+      "options": [
+        "40 km",
+        "41 km",
+        "42.195 km",
+        "43 km"
+      ],
+      "answer": "42.195 km",
+      "explanation": "A standard marathon is 42.195 kilometers (26.2 miles). The current world record is 2:00:35 set by Kelvin Kiptum of Kenya in 2023. Eliud Kipchoge broke the 2-hour barrier in an unofficial time trial in Vienna in 2019 with a time of 1:59:40.",
+      "memory_hook": "42.195 km \u2014 the exact distance was set for Queen Alexandra in 1908."
+    },
+    {
+      "category": "Sports",
+      "question": "In which sport does a player score by putting a ball into a 'basket'?",
+      "options": [
+        "Netball",
+        "Basketball",
+        "Water polo",
+        "Korfball"
+      ],
+      "answer": "Basketball",
+      "explanation": "Basketball, invented by Dr. James Naismith in 1891 in Springfield, Massachusetts, is played by shooting a ball through an elevated 18-inch hoop (basket). The sport was originally played with a peach basket \u2014 players had to retrieve the ball from the basket after each score, until the bottom was cut out.",
+      "memory_hook": "Basketball: Naismith used a peach basket in 1891. That's why it's called basketball."
+    },
+    {
+      "category": "Sports",
+      "question": "What is the term for a tennis player who wins all four Grand Slams in a calendar year?",
+      "options": [
+        "The Golden Slam",
+        "The Grand Slam",
+        "The Calendar Slam",
+        "The Career Slam"
+      ],
+      "answer": "The Calendar Slam",
+      "explanation": "Winning all four Grand Slams (Australian Open, French Open, Wimbledon, US Open) in a single calendar year is called the Calendar Grand Slam. Only five players have achieved this: Don Budge (1938), Maureen Connolly (1953), Rod Laver (1962, 1969), Margaret Court (1970), and Steffi Graf (1988, who also won gold at the Seoul Olympics for the 'Golden Slam').",
+      "memory_hook": "Calendar Slam = four Slams in one year. Steffi Graf added Olympic gold for the 'Golden Slam.'"
+    },
+    {
+      "category": "Music/Movies",
+      "question": "What is the name of the fictional kingdom in 'Frozen'?",
+      "options": [
+        "Arendelle",
+        "Agrabah",
+        "Motunui",
+        "Corona"
+      ],
+      "answer": "Arendelle",
+      "explanation": "Arendelle is the fictional Scandinavian kingdom in Disney's Frozen (2013). It is home to sisters Elsa and Anna. The film is loosely based on Hans Christian Andersen's 'The Snow Queen.' 'Let It Go,' performed by Idina Menzel, won the Academy Award for Best Original Song.",
+      "memory_hook": "Arendelle: snowy, Scandinavian, Elsa's kingdom. 'Let It Go' echoes through its mountains."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Which band is known for 'Welcome to the Jungle' and 'November Rain'?",
+      "options": [
+        "M\u00f6tley Cr\u00fce",
+        "Def Leppard",
+        "Aerosmith",
+        "Guns N' Roses"
+      ],
+      "answer": "Guns N' Roses",
+      "explanation": "Guns N' Roses released 'Welcome to the Jungle' and 'November Rain' from their landmark albums Appetite for Destruction (1987) and Use Your Illusion I (1991). Appetite for Destruction is the best-selling debut album in US history. The band's chaotic lineup has centered around guitarist Slash and vocalist Axl Rose.",
+      "memory_hook": "GN'R: jungle in '87, rain in '91. Slash's top hat and Axl's bandana."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Who directed 'Inception' and 'Interstellar'?",
+      "options": [
+        "Denis Villeneuve",
+        "David Fincher",
+        "Christopher Nolan",
+        "Ridley Scott"
+      ],
+      "answer": "Christopher Nolan",
+      "explanation": "Christopher Nolan directed both Inception (2010) and Interstellar (2014). Inception explores dreams within dreams and won four Academy Awards. Interstellar explores black holes, time dilation, and humanity's survival. Nolan is known for complex, nonlinear narratives and spectacular practical effects.",
+      "memory_hook": "Nolan: dreams (Inception) and space (Interstellar). Mind-bending every time."
+    },
+    {
+      "category": "History",
+      "question": "Which event is known as the 'Shot Heard 'Round the World'?",
+      "options": [
+        "The assassination of Archduke Franz Ferdinand",
+        "The first battle of the American Revolution at Lexington",
+        "The dropping of the first atomic bomb",
+        "The assassination of Abraham Lincoln"
+      ],
+      "answer": "The first battle of the American Revolution at Lexington",
+      "explanation": "The phrase 'the shot heard 'round the world' comes from Ralph Waldo Emerson's 'Concord Hymn' (1837), referring to the first shots fired at the Battle of Lexington and Concord on April 19, 1775 \u2014 the opening engagement of the American Revolutionary War. The phrase has since been applied to other significant events.",
+      "memory_hook": "Lexington 1775: the shot that started a revolution that started a democracy."
+    },
+    {
+      "category": "History",
+      "question": "Which nation was the first to achieve full gender equality in its parliament?",
+      "options": [
+        "Norway",
+        "Sweden",
+        "Iceland",
+        "Rwanda"
+      ],
+      "answer": "Rwanda",
+      "explanation": "Rwanda achieved the highest proportion of women in parliament of any country in the world, becoming the first nation where women hold a majority of parliamentary seats (exceeding 50%). This was a result of post-genocide reconstruction policies that specifically targeted gender inclusion in governance.",
+      "memory_hook": "Rwanda: out of tragedy, they built the most gender-equal parliament in the world."
+    }
+  ]
+}

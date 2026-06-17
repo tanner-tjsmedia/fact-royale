@@ -1,0 +1,134 @@
+{
+  "questions": [
+    {
+      "category": "History",
+      "question": "Who wrote 'The Art of War'?",
+      "options": [
+        "Confucius",
+        "Sun Tzu",
+        "Lao Tzu",
+        "Mao Zedong"
+      ],
+      "answer": "Sun Tzu",
+      "explanation": "'The Art of War' is an ancient Chinese military treatise attributed to Sun Tzu, a military strategist who lived in the 5th century BC. It consists of 13 chapters covering strategy, tactics, and the importance of flexibility and adaptability. It remains influential in military strategy, business, and sports.",
+      "memory_hook": "Sun Tzu: 'The Art of War' \u2014 ancient Chinese wisdom still taught in business schools today."
+    },
+    {
+      "category": "History",
+      "question": "The 'Space Race' was a competition primarily between which two countries?",
+      "options": [
+        "USA and China",
+        "USA and Germany",
+        "USA and Soviet Union",
+        "USA and Japan"
+      ],
+      "answer": "USA and Soviet Union",
+      "explanation": "The Space Race (1957\u20131969) was a Cold War competition between the United States and the Soviet Union for supremacy in space exploration. The Soviets launched the first satellite (Sputnik, 1957) and first human in space (Gagarin, 1961). The US won by being first to the Moon (Apollo 11, 1969).",
+      "memory_hook": "Space Race: USSR first to orbit, US first to the Moon. America won the final lap."
+    },
+    {
+      "category": "Sports",
+      "question": "In Formula 1, what flag signals the end of the race?",
+      "options": [
+        "Red flag",
+        "Yellow flag",
+        "White flag",
+        "Checkered flag"
+      ],
+      "answer": "Checkered flag",
+      "explanation": "The checkered flag (black and white squares) signals the end of a Formula 1 race when waved at the finish line. A red flag means the race is stopped, typically due to an accident or dangerous conditions. A yellow flag means caution/no overtaking. A blue flag means let a faster car pass.",
+      "memory_hook": "Checkered flag = race over. The black and white squares mark the finish."
+    },
+    {
+      "category": "Sports",
+      "question": "Which country has won the most Rugby World Cup titles?",
+      "options": [
+        "England",
+        "Australia",
+        "South Africa",
+        "New Zealand"
+      ],
+      "answer": "New Zealand",
+      "explanation": "New Zealand's All Blacks have won the Rugby World Cup three times (1987, 2011, 2015), making them the most successful team in the tournament's history. South Africa has won three times (1995, 2007, 2019), and Australia has won twice (1991, 1999).",
+      "memory_hook": "All Blacks: three World Cups. The most dominant force in rugby history."
+    },
+    {
+      "category": "Sports",
+      "question": "What is the name of the move in figure skating where the skater jumps and rotates in the air?",
+      "options": [
+        "Spin",
+        "Axel",
+        "Glide",
+        "Edge jump"
+      ],
+      "answer": "Axel",
+      "explanation": "The Axel Paulsen jump (named after its inventor) is one of the most difficult jumps in figure skating and the only jump that takes off from a forward edge. A triple Axel has 3.5 rotations in the air. American skater Tonya Harding was the first woman to successfully complete a triple Axel in competition (1991).",
+      "memory_hook": "Axel: the forward-facing jump \u2014 named after Norwegian skater Axel Paulsen."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Who performed at the 2023 Super Bowl halftime show?",
+      "options": [
+        "Taylor Swift",
+        "Drake",
+        "Rihanna",
+        "Beyonc\u00e9"
+      ],
+      "answer": "Rihanna",
+      "explanation": "Rihanna headlined the Super Bowl LVII halftime show on February 12, 2023, at State Farm Stadium in Glendale, Arizona. It was her first major public performance in seven years and was watched by approximately 118 million viewers. During the show, it was revealed she was pregnant with her second child.",
+      "memory_hook": "Rihanna at Super Bowl 2023 \u2014 first show in years, and she announced her pregnancy mid-performance."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Which film features the quote 'Life is like a box of chocolates'?",
+      "options": [
+        "Cast Away",
+        "Big",
+        "You've Got Mail",
+        "Forrest Gump"
+      ],
+      "answer": "Forrest Gump",
+      "explanation": "The full quote from Forrest Gump (1994) is: 'Mama always said life is like a box of chocolates. You never know what you're gonna get.' Interestingly, in the original book by Winston Groom, the quote is slightly different: 'Being an idiot is no box of chocolates.' Tom Hanks' delivery of the line became iconic.",
+      "memory_hook": "'Life is like a box of chocolates' \u2014 Forrest said it. Mama said it first."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "What year was the first 'Harry Potter' film released?",
+      "options": [
+        "1999",
+        "2001",
+        "2003",
+        "2005"
+      ],
+      "answer": "2001",
+      "explanation": "Harry Potter and the Philosopher's Stone (called Sorcerer's Stone in the US) was released on November 16, 2001. Directed by Chris Columbus and starring Daniel Radcliffe, Emma Watson, and Rupert Grint, the film was a massive commercial success, grossing $974 million worldwide and launching the franchise.",
+      "memory_hook": "2001: Harry Potter arrived on screen. A decade of wizardry began."
+    },
+    {
+      "category": "History",
+      "question": "Which American president delivered the 'I Have a Dream' speech? \u2014 Wait, that was MLK. Which president signed the Civil Rights Act of 1964?",
+      "options": [
+        "John F. Kennedy",
+        "Lyndon B. Johnson",
+        "Dwight D. Eisenhower",
+        "Robert F. Kennedy"
+      ],
+      "answer": "Lyndon B. Johnson",
+      "explanation": "The Civil Rights Act of 1964 was signed into law by President Lyndon B. Johnson on July 2, 1964. It outlawed discrimination based on race, color, religion, sex, or national origin. President Kennedy had proposed the legislation, but it was Johnson who pushed it through Congress after Kennedy's assassination.",
+      "memory_hook": "LBJ signed the Civil Rights Act \u2014 Kennedy proposed it; Johnson delivered it."
+    },
+    {
+      "category": "History",
+      "question": "What is the world's oldest continuously operating university?",
+      "options": [
+        "Oxford University",
+        "Harvard University",
+        "University of Bologna",
+        "University of Paris"
+      ],
+      "answer": "University of Bologna",
+      "explanation": "The University of Bologna, founded in 1088 in Bologna, Italy, is the oldest continuously operating university in the world. It was the first institution to use the term universitas (association of students and masters). Oxford was founded in 1096, Harvard in 1636.",
+      "memory_hook": "Bologna 1088: the oldest university, older than Oxford by nearly a decade."
+    }
+  ]
+}
