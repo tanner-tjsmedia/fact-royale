@@ -638,12 +638,33 @@ function handleAnswer(selected, q) {
   };
 }
 
+// ── Play Tracking (anonymous + signed-in) ──────────────
+
+function logPlayToFirestore(finalScore, total) {
+  if (typeof db === 'undefined') return;
+  try {
+    const isSignedIn = !!(typeof firebase !== 'undefined' &&
+                          firebase.auth &&
+                          firebase.auth().currentUser);
+    db.collection('plays').add({
+      date:      todayKey,
+      score:     finalScore,
+      total:     total,
+      signed_in: isSignedIn,
+      ts:        firebase.firestore.FieldValue.serverTimestamp()
+    });
+  } catch (e) { /* fire-and-forget */ }
+}
+
 // ── Results ────────────────────────────────────────────
 
 function showResults() {
   const streak = saveResult(score);
 
-  // Submit to Firebase if user is logged in (auth.js handles the guard)
+  // Log every play for metrics — signed in or not
+  logPlayToFirestore(score, questions.length);
+
+  // Submit to leaderboard if user is logged in (auth.js handles the guard)
   if (typeof submitScoreToFirebase === 'function') {
     submitScoreToFirebase(score, questions.length, categoryScores, todayKey);
   }
@@ -685,6 +706,27 @@ function showResults() {
       <span class="breakdown-score">${streak} days</span>
     `;
     breakdown.appendChild(streakRow);
+  }
+
+  // Sign-up nudge — only for anonymous users
+  const nudgeEl = document.getElementById('signup-nudge');
+  if (nudgeEl) {
+    const isLoggedIn = !!(typeof firebase !== 'undefined' &&
+                          firebase.auth &&
+                          firebase.auth().currentUser);
+    nudgeEl.style.display = isLoggedIn ? 'none' : 'block';
+    if (!isLoggedIn) {
+      const nudgeBtn = document.getElementById('btn-nudge-signup');
+      if (nudgeBtn) nudgeBtn.onclick = () => {
+        const modal = document.getElementById('auth-modal');
+        if (modal) {
+          modal.style.display = 'flex';
+          // Pre-select the Create Account tab
+          const signupTab = document.getElementById('tab-signup');
+          if (signupTab) signupTab.click();
+        }
+      };
+    }
   }
 
   // Fun fact — same fact for everyone on the same day
