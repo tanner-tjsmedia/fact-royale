@@ -21,10 +21,14 @@ auth.onAuthStateChanged(user => {
     if (lbCta)        lbCta.style.display        = 'none';
     if (statsName)    statsName.textContent       = user.displayName || user.email.split('@')[0];
     loadPersonalStats(user.uid);
+    // Hide returning visitor banner if they just signed in
+    const rvBanner = document.getElementById('returning-visitor-banner');
+    if (rvBanner) rvBanner.style.display = 'none';
   } else {
     if (statsSection) statsSection.style.display = 'none';
     if (lbCta)        lbCta.style.display        = 'block';
     renderPersonalStatsEmpty();
+    checkReturningVisitorBanner();
   }
 });
 
@@ -391,6 +395,34 @@ function renderLeaderboard(scores, realCount) {
         <span class="lb-pct">${pct}%</span>
       </div>`;
   }).join('');
+
+  // Anonymous user extras: ghost entry + sign-up CTA
+  if (!currentUser) {
+    const todayStr  = getTodayKeyForAuth();
+    const lastScore = localStorage.getItem('fr_lastScore');
+    const lastPlayed = localStorage.getItem('fr_lastPlayed');
+
+    // Ghost row — only if they played today
+    if (lastScore && lastPlayed === todayStr) {
+      const scoreNum = lastScore.split('/')[0];
+      const ghost    = document.createElement('div');
+      ghost.className = 'lb-row lb-row-ghost';
+      ghost.innerHTML = `
+        <span class="lb-rank">🔒</span>
+        <span class="lb-name">You <span class="lb-ghost-tag">unranked</span></span>
+        <span class="lb-score">${scoreNum}<span class="lb-total">/10</span></span>
+        <span class="lb-ghost-action">Claim your spot →</span>`;
+      ghost.addEventListener('click', () => openAuthModal('signup'));
+      listEl.appendChild(ghost);
+    }
+
+    // CTA below the board
+    const cta = document.createElement('div');
+    cta.className = 'lb-anon-cta';
+    cta.innerHTML = `<button class="lb-anon-btn">Sign up to appear on the board →</button>`;
+    cta.querySelector('button').addEventListener('click', () => openAuthModal('signup'));
+    listEl.appendChild(cta);
+  }
 }
 
 // ── Streak Banner ──────────────────────────────────────
@@ -516,6 +548,29 @@ function renderPersonalStatsEmpty() {
   });
   const catsEl = document.getElementById('stat-categories');
   if (catsEl) catsEl.innerHTML = '';
+}
+
+// ── Returning Visitor Banner ───────────────────────────
+function checkReturningVisitorBanner() {
+  const lastPlayed = localStorage.getItem('fr_lastPlayed');
+  const streak     = parseInt(localStorage.getItem('fr_streak') || '0');
+  if (!lastPlayed || streak < 1) return; // first-time visitor, skip
+
+  const banner  = document.getElementById('returning-visitor-banner');
+  const textEl  = document.getElementById('returning-visitor-text');
+  const btnEl   = document.getElementById('returning-visitor-btn');
+  if (!banner || !textEl) return;
+
+  const todayStr = getTodayKeyForAuth();
+
+  if (lastPlayed === todayStr) {
+    textEl.textContent = `Nice — you played today. But your ${streak}-day streak only lives on this device. Create an account to protect it.`;
+  } else {
+    textEl.textContent = `You're on a ${streak}-day streak. Sign up so it's never lost to a browser clear.`;
+  }
+
+  if (btnEl) btnEl.addEventListener('click', () => openAuthModal('signup'));
+  banner.style.display = 'flex';
 }
 
 // ── Helpers ────────────────────────────────────────────
