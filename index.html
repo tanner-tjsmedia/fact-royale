@@ -358,7 +358,7 @@
       </div>
 
       <div class="results-actions">
-        <button class="btn-primary" id="btn-share">Copy Score 📋</button>
+        <button class="btn-primary" id="btn-share">Share Score →</button>
         <p class="share-confirm" id="share-confirm" style="display:none;">Copied to clipboard!</p>
         <button class="btn-results-home" id="btn-home">← Back to Home</button>
       </div>
@@ -426,6 +426,38 @@
       </button>
 
       <p class="auth-fine-print">We collect your name and email to personalize your experience and keep you updated on new features. No spam — ever.</p>
+    </div>
+  </div>
+
+  <!-- SHARE MODAL -->
+  <div id="share-modal" class="share-modal-overlay" style="display:none;" role="dialog" aria-modal="true" aria-label="Share your score">
+    <div class="share-modal-card">
+      <button class="share-modal-close" id="share-modal-close" aria-label="Close">✕</button>
+      <h3 class="share-modal-title">Share your score</h3>
+      <p class="share-modal-sub">Pick a format for your platform</p>
+
+      <div class="share-fmt-tabs">
+        <button class="share-fmt-btn active" data-format="story">
+          Story<br/><span class="share-fmt-hint">Instagram · Snap</span>
+        </button>
+        <button class="share-fmt-btn" data-format="wide">
+          Wide<br/><span class="share-fmt-hint">Twitter · Facebook</span>
+        </button>
+        <button class="share-fmt-btn" data-format="square">
+          Square<br/><span class="share-fmt-hint">Facebook · Grid</span>
+        </button>
+      </div>
+
+      <div class="share-canvas-wrap">
+        <canvas id="share-canvas"></canvas>
+      </div>
+
+      <div class="share-modal-actions">
+        <button class="btn-primary share-action-btn" id="btn-share-image">Share Image →</button>
+        <button class="btn-outline share-action-btn" id="btn-download-image">Download ↓</button>
+        <button class="btn-outline share-action-btn" id="btn-copy-link">Copy Link</button>
+      </div>
+      <p class="share-modal-note">fact-royale.com is included on every card</p>
     </div>
   </div>
 

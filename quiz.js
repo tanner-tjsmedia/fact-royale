@@ -743,26 +743,419 @@ function showResults() {
   };
 }
 
+// ── Score Card Sharing ─────────────────────────────────
+
+let shareFormat = 'story';
+
+const CARD_SIZES = {
+  story:  { w: 540, h: 960 },
+  wide:   { w: 800, h: 450 },
+  square: { w: 540, h: 540 }
+};
+
+function getShareData() {
+  const rankEl = document.getElementById('results-rank-pct');
+  const rank = rankEl ? rankEl.textContent.trim() : '';
+  return {
+    score,
+    total: questions.length,
+    streak: getStreak(),
+    date: formatDate(todayKey),
+    rank,
+    categories: Object.entries(categoryScores).map(([cat, s]) => ({
+      name: cat, correct: s.correct, total: s.total
+    }))
+  };
+}
+
+function openShareModal() {
+  const modal = document.getElementById('share-modal');
+  if (!modal) return;
+  shareFormat = 'story';
+  modal.querySelectorAll('.share-fmt-btn').forEach(btn => {
+    btn.classList.toggle('active', btn.dataset.format === 'story');
+  });
+  modal.style.display = 'flex';
+  document.body.style.overflow = 'hidden';
+  renderShareCard();
+}
+
+function closeShareModal() {
+  const modal = document.getElementById('share-modal');
+  if (!modal) return;
+  modal.style.display = 'none';
+  document.body.style.overflow = '';
+}
+
+async function renderShareCard() {
+  const canvas = document.getElementById('share-canvas');
+  if (!canvas) return;
+  const { w, h } = CARD_SIZES[shareFormat];
+  canvas.width  = w;
+  canvas.height = h;
+  await document.fonts.ready;
+  const ctx  = canvas.getContext('2d');
+  const data = getShareData();
+  if (shareFormat === 'story')  drawStoryCard(ctx, w, h, data);
+  if (shareFormat === 'wide')   drawWideCard(ctx, w, h, data);
+  if (shareFormat === 'square') drawSquareCard(ctx, w, h, data);
+}
+
+// ── Canvas helpers ─────────────────────────────────────
+
+function drawBg(ctx, w, h, stops) {
+  const grad = ctx.createLinearGradient(0, 0, w * 0.65, h);
+  stops.forEach(([pos, color]) => grad.addColorStop(pos, color));
+  ctx.fillStyle = grad;
+  ctx.fillRect(0, 0, w, h);
+}
+
+function drawGlow(ctx, cx, cy, r, alpha) {
+  const g = ctx.createRadialGradient(cx, cy, 0, cx, cy, r);
+  g.addColorStop(0, `rgba(240,192,64,${alpha})`);
+  g.addColorStop(1,  'rgba(240,192,64,0)');
+  ctx.fillStyle = g;
+  ctx.fillRect(0, 0, cx + r, cy + r);
+}
+
+function drawHLine(ctx, w, y, margin) {
+  const m = margin || w * 0.1;
+  ctx.save();
+  ctx.strokeStyle = 'rgba(240,192,64,0.22)';
+  ctx.lineWidth   = 1;
+  ctx.beginPath();
+  ctx.moveTo(m, y);
+  ctx.lineTo(w - m, y);
+  ctx.stroke();
+  ctx.restore();
+}
+
+function roundRect(ctx, x, y, rw, rh, r) {
+  ctx.beginPath();
+  ctx.moveTo(x + r, y);
+  ctx.lineTo(x + rw - r, y);
+  ctx.arcTo(x + rw, y,      x + rw, y + r,      r);
+  ctx.lineTo(x + rw, y + rh - r);
+  ctx.arcTo(x + rw, y + rh,  x + r,  y + rh,     r);
+  ctx.lineTo(x + r,  y + rh);
+  ctx.arcTo(x,       y + rh,  x,      y + rh - r, r);
+  ctx.lineTo(x,      y + r);
+  ctx.arcTo(x,       y,       x + r,  y,           r);
+  ctx.closePath();
+}
+
+function getCatStyle(name) {
+  const n = name.toLowerCase();
+  if (n.includes('history')) return { bg: 'rgba(245,158,11,0.2)',  text: '#f59e0b' };
+  if (n.includes('sport'))   return { bg: 'rgba(59,130,246,0.2)',  text: '#60a5fa' };
+  return                            { bg: 'rgba(168,85,247,0.2)',  text: '#c084fc' };
+}
+
+function drawPills(ctx, totalW, centerY, categories) {
+  const pillH = 28, padX = 16, gap = 10;
+  ctx.font = '700 12px Nunito, sans-serif';
+  const pills = categories.map(cat => {
+    const label = `${cat.name}   ${cat.correct}/${cat.total}`;
+    const pw    = ctx.measureText(label).width + padX * 2;
+    return { ...cat, label, pw, style: getCatStyle(cat.name) };
+  });
+  const totalW2 = pills.reduce((s, p) => s + p.pw, 0) + gap * (pills.length - 1);
+  let x = (totalW - totalW2) / 2;
+  ctx.textAlign = 'center';
+  pills.forEach(pill => {
+    roundRect(ctx, x, centerY - pillH / 2, pill.pw, pillH, 8);
+    ctx.fillStyle = pill.style.bg;
+    ctx.fill();
+    ctx.fillStyle = pill.style.text;
+    ctx.fillText(pill.label, x + pill.pw / 2, centerY + 4);
+    x += pill.pw + gap;
+  });
+}
+
+// ── Card formats ───────────────────────────────────────
+
+function drawStoryCard(ctx, w, h, data) {
+  drawBg(ctx, w, h, [[0,'#0f0f1a'],[0.55,'#1a1040'],[1,'#0d1a2e']]);
+  drawGlow(ctx, w * 0.82, h * 0.06, w * 0.55, 0.1);
+
+  ctx.textAlign = 'center';
+  let y = 158;
+
+  // Crown + brand
+  ctx.font = '900 38px Nunito, sans-serif';
+  ctx.fillStyle = '#f0c040';
+  ctx.fillText('♛', w / 2, y); y += 50;
+
+  ctx.font = '800 17px Nunito, sans-serif';
+  ctx.fillStyle = '#f0c040';
+  ctx.fillText('FACT ROYALE', w / 2, y); y += 34;
+
+  ctx.font = '400 13px Nunito, sans-serif';
+  ctx.fillStyle = 'rgba(240,192,64,0.52)';
+  ctx.fillText(data.date, w / 2, y); y += 58;
+
+  drawHLine(ctx, w, y); y += 80;
+
+  // Big score
+  ctx.font = '900 98px Nunito, sans-serif';
+  ctx.fillStyle = '#f0c040';
+  ctx.fillText(String(data.score), w / 2, y); y += 26;
+
+  ctx.font = '400 17px Nunito, sans-serif';
+  ctx.fillStyle = 'rgba(232,232,240,0.42)';
+  ctx.fillText('out of ' + data.total, w / 2, y); y += 52;
+
+  // Rank
+  if (data.rank) {
+    ctx.font = '600 15px Nunito, sans-serif';
+    ctx.fillStyle = 'rgba(232,232,240,0.7)';
+    ctx.fillText(data.rank, w / 2, y); y += 40;
+  }
+
+  // Streak
+  if (data.streak > 0) {
+    ctx.font = '400 15px Nunito, sans-serif';
+    ctx.fillStyle = '#f0c040';
+    ctx.fillText('🔥 ' + data.streak + '-day streak', w / 2, y); y += 68;
+  } else {
+    y += 24;
+  }
+
+  drawHLine(ctx, w, y); y += 54;
+  drawPills(ctx, w, y, data.categories); y += 68;
+  drawHLine(ctx, w, y); y += 44;
+
+  ctx.font = '400 12px Nunito, sans-serif';
+  ctx.fillStyle = 'rgba(240,192,64,0.42)';
+  ctx.fillText('fact-royale.com', w / 2, y);
+}
+
+function drawWideCard(ctx, w, h, data) {
+  drawBg(ctx, w, h, [[0,'#0f0f1a'],[0.5,'#1a1040'],[1,'#0d1a2e']]);
+  drawGlow(ctx, w * 0.18, h * 0.25, w * 0.38, 0.08);
+
+  const mid  = w / 2;
+  const padL = 52;
+  const padR = 40;
+
+  // Left: brand + score
+  ctx.textAlign = 'center';
+  const lc = mid / 2;
+  let ly = 68;
+
+  ctx.font = '900 26px Nunito, sans-serif';
+  ctx.fillStyle = '#f0c040';
+  ctx.fillText('♛', lc, ly); ly += 34;
+
+  ctx.font = '800 14px Nunito, sans-serif';
+  ctx.fillStyle = '#f0c040';
+  ctx.fillText('FACT ROYALE', lc, ly); ly += 24;
+
+  ctx.font = '400 11px Nunito, sans-serif';
+  ctx.fillStyle = 'rgba(240,192,64,0.5)';
+  ctx.fillText(data.date, lc, ly); ly += 42;
+
+  ctx.font = '900 82px Nunito, sans-serif';
+  ctx.fillStyle = '#f0c040';
+  ctx.fillText(String(data.score), lc, ly); ly += 12;
+
+  ctx.font = '400 14px Nunito, sans-serif';
+  ctx.fillStyle = 'rgba(232,232,240,0.42)';
+  ctx.fillText('out of ' + data.total, lc, ly);
+
+  // Vertical divider
+  ctx.save();
+  ctx.strokeStyle = 'rgba(240,192,64,0.18)';
+  ctx.lineWidth   = 1;
+  ctx.beginPath();
+  ctx.moveTo(mid, 38);
+  ctx.lineTo(mid, h - 38);
+  ctx.stroke();
+  ctx.restore();
+
+  // Right: stats
+  ctx.textAlign = 'left';
+  const rx = mid + padL;
+  const rw = mid - padL - padR;
+  let ry = 66;
+
+  if (data.rank) {
+    ctx.font = '600 13px Nunito, sans-serif';
+    ctx.fillStyle = 'rgba(232,232,240,0.72)';
+    ctx.fillText(data.rank, rx, ry); ry += 30;
+  }
+
+  if (data.streak > 0) {
+    ctx.font = '400 13px Nunito, sans-serif';
+    ctx.fillStyle = '#f0c040';
+    ctx.fillText('🔥 ' + data.streak + '-day streak', rx, ry); ry += 34;
+  }
+
+  // Thin divider
+  ctx.save();
+  ctx.strokeStyle = 'rgba(240,192,64,0.14)';
+  ctx.lineWidth   = 1;
+  ctx.beginPath();
+  ctx.moveTo(rx, ry);
+  ctx.lineTo(rx + rw, ry);
+  ctx.stroke();
+  ctx.restore();
+  ry += 20;
+
+  // Categories
+  data.categories.forEach(cat => {
+    const style = getCatStyle(cat.name);
+    ctx.font      = '400 12px Nunito, sans-serif';
+    ctx.fillStyle = 'rgba(232,232,240,0.48)';
+    ctx.textAlign = 'left';
+    ctx.fillText(cat.name, rx, ry);
+
+    ctx.font      = '700 12px Nunito, sans-serif';
+    ctx.fillStyle = style.text;
+    ctx.textAlign = 'right';
+    ctx.fillText(cat.correct + '/' + cat.total, rx + rw, ry);
+    ry += 24;
+  });
+
+  // Bottom divider + URL
+  ry += 10;
+  ctx.save();
+  ctx.strokeStyle = 'rgba(240,192,64,0.14)';
+  ctx.lineWidth   = 1;
+  ctx.beginPath();
+  ctx.moveTo(rx, ry);
+  ctx.lineTo(rx + rw, ry);
+  ctx.stroke();
+  ctx.restore();
+  ry += 20;
+
+  ctx.font      = '400 11px Nunito, sans-serif';
+  ctx.fillStyle = 'rgba(240,192,64,0.4)';
+  ctx.textAlign = 'left';
+  ctx.fillText('fact-royale.com', rx, ry);
+}
+
+function drawSquareCard(ctx, w, h, data) {
+  drawBg(ctx, w, h, [[0,'#0f0f1a'],[0.5,'#1a1040'],[1,'#0d1a2e']]);
+  drawGlow(ctx, w * 0.8, h * 0.14, w * 0.5, 0.1);
+
+  ctx.textAlign = 'center';
+  let y = 66;
+
+  ctx.font = '900 30px Nunito, sans-serif';
+  ctx.fillStyle = '#f0c040';
+  ctx.fillText('♛', w / 2, y); y += 38;
+
+  ctx.font = '800 15px Nunito, sans-serif';
+  ctx.fillStyle = '#f0c040';
+  ctx.fillText('FACT ROYALE', w / 2, y); y += 26;
+
+  ctx.font = '400 12px Nunito, sans-serif';
+  ctx.fillStyle = 'rgba(240,192,64,0.5)';
+  ctx.fillText(data.date, w / 2, y); y += 44;
+
+  drawHLine(ctx, w, y); y += 52;
+
+  ctx.font = '900 90px Nunito, sans-serif';
+  ctx.fillStyle = '#f0c040';
+  ctx.fillText(String(data.score), w / 2, y); y += 18;
+
+  ctx.font = '400 15px Nunito, sans-serif';
+  ctx.fillStyle = 'rgba(232,232,240,0.42)';
+  ctx.fillText('out of ' + data.total, w / 2, y); y += 38;
+
+  if (data.rank) {
+    ctx.font = '600 13px Nunito, sans-serif';
+    ctx.fillStyle = 'rgba(232,232,240,0.68)';
+    ctx.fillText(data.rank, w / 2, y); y += 26;
+  }
+
+  if (data.streak > 0) {
+    ctx.font = '400 13px Nunito, sans-serif';
+    ctx.fillStyle = '#f0c040';
+    ctx.fillText('🔥 ' + data.streak + '-day streak', w / 2, y); y += 42;
+  } else {
+    y += 16;
+  }
+
+  drawHLine(ctx, w, y); y += 42;
+  drawPills(ctx, w, y, data.categories); y += 52;
+
+  ctx.font = '400 12px Nunito, sans-serif';
+  ctx.fillStyle = 'rgba(240,192,64,0.42)';
+  ctx.fillText('fact-royale.com', w / 2, y);
+}
+
+// ── Share actions ──────────────────────────────────────
+
+async function shareCardImage() {
+  const canvas = document.getElementById('share-canvas');
+  if (!canvas) return;
+  canvas.toBlob(async (blob) => {
+    const file = new File([blob], 'fact-royale-score.png', { type: 'image/png' });
+    if (navigator.share && navigator.canShare && navigator.canShare({ files: [file] })) {
+      try {
+        await navigator.share({
+          files: [file],
+          title: 'Fact Royale',
+          text: `I scored ${score}/${questions.length} on today's Fact Royale — fact-royale.com`
+        });
+      } catch (e) {
+        if (e.name !== 'AbortError') downloadCardImage();
+      }
+    } else {
+      downloadCardImage();
+    }
+  }, 'image/png');
+}
+
+function downloadCardImage() {
+  const canvas = document.getElementById('share-canvas');
+  if (!canvas) return;
+  const a = document.createElement('a');
+  a.download = `fact-royale-${todayKey}.png`;
+  a.href     = canvas.toDataURL('image/png');
+  a.click();
+}
+
 function shareScore() {
-  const catLines = Object.entries(categoryScores)
-    .map(([cat, s]) => `  ${cat}: ${s.correct}/${s.total}`)
-    .join('\n');
+  openShareModal();
+}
 
-  const text =
-`♛ Fact Royale — ${formatDate(todayKey)}
-Score: ${score}/${questions.length}
+// ── Share modal wiring ─────────────────────────────────
 
-${catLines}
+function initShareModal() {
+  const modal = document.getElementById('share-modal');
+  if (!modal) return;
 
-Play at fact-royale.com`;
+  document.getElementById('share-modal-close')
+    .addEventListener('click', closeShareModal);
 
-  navigator.clipboard.writeText(text).then(() => {
-    document.getElementById('share-confirm').style.display = 'block';
-    setTimeout(() => {
-      document.getElementById('share-confirm').style.display = 'none';
-    }, 2500);
-  }).catch(() => {
-    alert(text); // Fallback if clipboard blocked
+  modal.addEventListener('click', (e) => {
+    if (e.target === modal) closeShareModal();
+  });
+
+  modal.querySelectorAll('.share-fmt-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      shareFormat = btn.dataset.format;
+      modal.querySelectorAll('.share-fmt-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      renderShareCard();
+    });
+  });
+
+  document.getElementById('btn-share-image')
+    .addEventListener('click', shareCardImage);
+
+  document.getElementById('btn-download-image')
+    .addEventListener('click', downloadCardImage);
+
+  const copyLinkBtn = document.getElementById('btn-copy-link');
+  copyLinkBtn.addEventListener('click', () => {
+    navigator.clipboard.writeText('https://fact-royale.com').then(() => {
+      copyLinkBtn.textContent = 'Copied! ✓';
+      setTimeout(() => { copyLinkBtn.textContent = 'Copy Link'; }, 2200);
+    });
   });
 }
 
@@ -770,6 +1163,7 @@ Play at fact-royale.com`;
 
 async function init() {
   todayKey = getTodayKey();
+  initShareModal();
 
   try {
     const res  = await fetch(`questions/${todayKey}.json`);
