@@ -530,6 +530,15 @@ function renderPersonalStats(data) {
     localStorage.setItem('fr_streak',     String(stats.currentStreak || 0));
   }
 
+  // ── Refresh hero badge with authoritative Firestore streak ────────────
+  // setupLanding() runs before auth resolves so it reads stale localStorage.
+  // Overwrite it here once we have the real number from Firestore.
+  const heroBadge = document.getElementById('landing-streak');
+  if (heroBadge) {
+    const s = stats.currentStreak || 0;
+    heroBadge.textContent = s > 0 ? `🔥 ${s} day streak` : 'Start your streak!';
+  }
+
   // ── Streak break detection ────────────────────────────────────────────
   // If lastPlayedDate is set but is neither today nor yesterday, they missed a day.
   const yesterday = (() => {
