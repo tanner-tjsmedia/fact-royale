@@ -426,21 +426,44 @@ function renderLeaderboard(scores, realCount) {
 }
 
 // ── Streak Banner ──────────────────────────────────────
-function updateStreakBanner(streak, alreadyPlayed) {
+function streakLabel(n) {
+  if (n >= 30) return `${n}-day streak 🏆 You're a Fact Royale legend.`;
+  if (n >= 14) return `${n}-day streak 🔥 Two weeks of daily trivia.`;
+  if (n >=  7) return `${n}-day streak 🔥 One week strong — don't break the chain!`;
+  if (n >=  3) return `${n}-day streak 🔥 You're on a roll.`;
+  if (n ===  2) return `2-day streak — nice start, keep it going!`;
+  return `Day 1 — the streak starts now!`;
+}
+
+function updateStreakBanner(streak, alreadyPlayed, streakBroken) {
   const banner  = document.getElementById('streak-banner');
   const textEl  = document.getElementById('streak-banner-text');
   const btnEl   = document.getElementById('streak-banner-btn');
-  if (!banner || !textEl || streak < 1) return;
+  if (!banner || !textEl) return;
+
+  // Broken streak — show recovery message instead
+  if (streakBroken) {
+    textEl.textContent  = `You missed a day — streak reset. Let's build it back up starting today!`;
+    btnEl.style.display = 'inline-block';
+    btnEl.textContent   = 'Play Now →';
+    btnEl.onclick       = () => document.getElementById('btn-start-hero')?.click();
+    banner.className    = 'streak-banner streak-banner-broken';
+    banner.style.display = 'flex';
+    return;
+  }
+
+  if (streak < 1) return;
 
   if (alreadyPlayed) {
-    textEl.textContent      = `${streak}-day streak secured — see you tomorrow!`;
-    btnEl.style.display     = 'none';
-    banner.className        = 'streak-banner streak-banner-safe';
+    textEl.textContent  = `${streakLabel(streak)} Secured for today — see you tomorrow!`;
+    btnEl.style.display = 'none';
+    banner.className    = 'streak-banner streak-banner-safe';
   } else {
-    textEl.textContent      = `You're on a ${streak}-day streak — play today to keep it alive!`;
-    btnEl.style.display     = 'inline-block';
-    btnEl.onclick           = () => document.getElementById('btn-start-hero')?.click();
-    banner.className        = 'streak-banner streak-banner-active';
+    textEl.textContent  = `${streakLabel(streak)} Play today to keep it alive.`;
+    btnEl.style.display = 'inline-block';
+    btnEl.textContent   = 'Play Now →';
+    btnEl.onclick       = () => document.getElementById('btn-start-hero')?.click();
+    banner.className    = 'streak-banner streak-banner-active';
   }
   banner.style.display = 'flex';
 }
@@ -498,11 +521,31 @@ function renderPersonalStats(data) {
   const stats = data.stats        || {};
   const cats  = data.categoryStats || {};
 
-  // Streak banner — check localStorage for today's play state
-  const todayKey     = typeof getTodayKey === 'function' ? getTodayKey() : '';
-  const lastPlayed   = localStorage.getItem('fr_lastPlayed') || '';
-  const alreadyPlayed = lastPlayed === todayKey;
-  updateStreakBanner(stats.currentStreak || 0, alreadyPlayed);
+  const todayKey = typeof getTodayKey === 'function' ? getTodayKey() : getTodayKeyForAuth();
+
+  // ── Cross-device sync: write Firestore streak into localStorage ──────
+  // This ensures playing on phone yesterday doesn't break desktop today.
+  if (stats.lastPlayedDate) {
+    localStorage.setItem('fr_lastPlayed', stats.lastPlayedDate);
+    localStorage.setItem('fr_streak',     String(stats.currentStreak || 0));
+  }
+
+  // ── Streak break detection ────────────────────────────────────────────
+  // If lastPlayedDate is set but is neither today nor yesterday, they missed a day.
+  const yesterday = (() => {
+    const d = new Date();
+    d.setDate(d.getDate() - 1);
+    return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;
+  })();
+  const lastPlayedDate = stats.lastPlayedDate || '';
+  const hasPlayedBefore = !!lastPlayedDate;
+  const streakBroken = hasPlayedBefore &&
+                       lastPlayedDate !== todayKey &&
+                       lastPlayedDate !== yesterday &&
+                       (stats.longestStreak || 0) > 1;
+
+  const alreadyPlayed = lastPlayedDate === todayKey;
+  updateStreakBanner(stats.currentStreak || 0, alreadyPlayed, streakBroken);
 
   const set = (id, val) => { const el = document.getElementById(id); if (el) el.textContent = val; };
 
