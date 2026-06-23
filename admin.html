@@ -358,7 +358,7 @@
     <div class="gate-logo">👑</div>
     <h1>Admin</h1>
     <p>Sign in with your admin account to access the Fact Royale dashboard.</p>
-    <button class="btn btn-primary" onclick="adminSignIn()">Sign in with Google</button>
+    <button class="btn btn-primary" id="gate-signin-btn" onclick="adminSignIn()">Sign in with Google</button>
     <p class="gate-error" id="gate-error"></p>
   </div>
 </div>
@@ -549,11 +549,24 @@ auth.onAuthStateChanged(user => {
   }
 });
 
+let _signingIn = false;
+
 function adminSignIn() {
+  if (_signingIn) return;
+  _signingIn = true;
+
+  const btn = document.getElementById('gate-signin-btn');
+  const errEl = document.getElementById('gate-error');
+  if (btn) { btn.disabled = true; btn.textContent = 'Signing in...'; }
+  if (errEl) errEl.textContent = '';
+
   const provider = new firebase.auth.GoogleAuthProvider();
   auth.signInWithPopup(provider).catch(err => {
-    if (err.code !== 'auth/popup-closed-by-user') {
-      document.getElementById('gate-error').textContent = err.message;
+    _signingIn = false;
+    if (btn) { btn.disabled = false; btn.textContent = 'Sign in with Google'; }
+    const ignored = ['auth/popup-closed-by-user', 'auth/cancelled-popup-request'];
+    if (!ignored.includes(err.code) && errEl) {
+      errEl.textContent = err.message;
     }
   });
 }
