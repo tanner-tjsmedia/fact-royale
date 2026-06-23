@@ -852,10 +852,10 @@ function getCatStyle(name) {
 }
 
 function drawPills(ctx, totalW, centerY, categories) {
-  const pillH = 28, padX = 16, gap = 10;
-  ctx.font = '700 12px Nunito, sans-serif';
+  const pillH = 38, padX = 14, gap = 12;
+  ctx.font = '700 15px Nunito, sans-serif';
   const pills = categories.map(cat => {
-    const label = `${cat.name}   ${cat.correct}/${cat.total}`;
+    const label = `${cat.name}  ${cat.correct}/${cat.total}`;
     const pw    = ctx.measureText(label).width + padX * 2;
     return { ...cat, label, pw, style: getCatStyle(cat.name) };
   });
@@ -863,319 +863,309 @@ function drawPills(ctx, totalW, centerY, categories) {
   let x = (totalW - totalW2) / 2;
   ctx.textAlign = 'center';
   pills.forEach(pill => {
-    roundRect(ctx, x, centerY - pillH / 2, pill.pw, pillH, 8);
+    roundRect(ctx, x, centerY - pillH / 2, pill.pw, pillH, 10);
     ctx.fillStyle = pill.style.bg;
     ctx.fill();
     ctx.fillStyle = pill.style.text;
-    ctx.fillText(pill.label, x + pill.pw / 2, centerY + 4);
+    ctx.fillText(pill.label, x + pill.pw / 2, centerY + 5);
     x += pill.pw + gap;
   });
+}
+
+function drawDotGrid(ctx, w, h) {
+  ctx.fillStyle = 'rgba(240,192,64,0.035)';
+  for (let gx = 22; gx < w; gx += 28) {
+    for (let gy = 22; gy < h; gy += 28) {
+      ctx.beginPath();
+      ctx.arc(gx, gy, 1.1, 0, Math.PI * 2);
+      ctx.fill();
+    }
+  }
+}
+
+function drawTopAccent(ctx, w) {
+  const g = ctx.createLinearGradient(0, 0, w, 0);
+  g.addColorStop(0,   'rgba(240,192,64,0)');
+  g.addColorStop(0.5, 'rgba(240,192,64,0.65)');
+  g.addColorStop(1,   'rgba(240,192,64,0)');
+  ctx.fillStyle = g;
+  ctx.fillRect(0, 0, w, 3);
+}
+
+function drawScoreRing(ctx, cx, cy, r) {
+  const glow = ctx.createRadialGradient(cx, cy, 0, cx, cy, r * 1.5);
+  glow.addColorStop(0,   'rgba(240,192,64,0.10)');
+  glow.addColorStop(0.6, 'rgba(240,192,64,0.04)');
+  glow.addColorStop(1,   'rgba(240,192,64,0)');
+  ctx.fillStyle = glow;
+  ctx.beginPath(); ctx.arc(cx, cy, r * 1.5, 0, Math.PI * 2); ctx.fill();
+  ctx.save();
+  ctx.strokeStyle = 'rgba(240,192,64,0.08)';
+  ctx.lineWidth = 2;
+  ctx.beginPath(); ctx.arc(cx, cy, r * 1.2, 0, Math.PI * 2); ctx.stroke();
+  ctx.strokeStyle = 'rgba(240,192,64,0.24)';
+  ctx.lineWidth = 2;
+  ctx.beginPath(); ctx.arc(cx, cy, r, 0, Math.PI * 2); ctx.stroke();
+  ctx.restore();
+}
+
+function drawPctBadge(ctx, cx, cy, score, total) {
+  const pct = Math.round((score / total) * 100);
+  const isHigh = pct >= 80, isMid = pct >= 60;
+  const bg  = isHigh ? 'rgba(74,222,128,0.12)'  : isMid ? 'rgba(240,192,64,0.12)'  : 'rgba(248,113,113,0.12)';
+  const bdr = isHigh ? 'rgba(74,222,128,0.30)'  : isMid ? 'rgba(240,192,64,0.30)'  : 'rgba(248,113,113,0.30)';
+  const col = isHigh ? '#4ade80'                : isMid ? '#f0c040'                : '#f87171';
+  const label = `${pct}% correct`;
+  ctx.font = '700 22px Nunito, sans-serif';
+  ctx.textAlign = 'center';
+  const tw = ctx.measureText(label).width;
+  const bw = tw + 36, bh = 38;
+  ctx.beginPath();
+  roundRect(ctx, cx - bw / 2, cy - bh / 2, bw, bh, 19);
+  ctx.fillStyle = bg;    ctx.fill();
+  ctx.strokeStyle = bdr; ctx.lineWidth = 1.5; ctx.stroke();
+  ctx.fillStyle = col;
+  ctx.fillText(label, cx, cy + 8);
+}
+
+// Vertical category list — used in Story card (returns ending y)
+function drawCategoryList(ctx, lx, startY, aw, categories) {
+  let y = startY;
+  categories.forEach(cat => {
+    const style = getCatStyle(cat.name);
+    const ratio = cat.total > 0 ? cat.correct / cat.total : 0;
+
+    ctx.font = '700 26px Nunito, sans-serif';
+    ctx.fillStyle = style.text;
+    ctx.textAlign = 'left';
+    ctx.fillText(cat.name, lx, y);
+
+    ctx.textAlign = 'right';
+    ctx.fillText(`${cat.correct}/${cat.total}`, lx + aw, y);
+    y += 18;
+
+    // Bar track
+    ctx.beginPath();
+    roundRect(ctx, lx, y, aw, 10, 5);
+    ctx.fillStyle = 'rgba(255,255,255,0.08)';
+    ctx.fill();
+
+    // Bar fill
+    if (ratio > 0) {
+      ctx.beginPath();
+      roundRect(ctx, lx, y, aw * ratio, 10, 5);
+      ctx.fillStyle = style.text;
+      ctx.globalAlpha = 0.65;
+      ctx.fill();
+      ctx.globalAlpha = 1;
+    }
+    y += 26;
+  });
+  return y;
 }
 
 // ── Card formats ───────────────────────────────────────
 
 function drawStoryCard(ctx, w, h, data) {
-  drawBg(ctx, w, h, [[0,'#0f0f1a'],[0.55,'#1a1040'],[1,'#0d1a2e']]);
-  drawGlow(ctx, w * 0.82, h * 0.06, w * 0.55, 0.1);
+  drawBg(ctx, w, h, [[0,'#090915'],[0.5,'#110c32'],[1,'#0a1524']]);
+  drawDotGrid(ctx, w, h);
+  drawTopAccent(ctx, w);
 
   ctx.textAlign = 'center';
-  let y = 158;
 
-  // Crown + brand
-  ctx.font = '900 38px Nunito, sans-serif';
+  // Header
+  let y = 120;
+  ctx.font = '900 52px Nunito, sans-serif';
   ctx.fillStyle = '#f0c040';
-  ctx.fillText('♛', w / 2, y); y += 50;
+  ctx.fillText('♛', w / 2, y); y += 62;
 
-  ctx.font = '800 17px Nunito, sans-serif';
+  ctx.font = '800 36px Nunito, sans-serif';
   ctx.fillStyle = '#f0c040';
-  ctx.fillText('FACT ROYALE', w / 2, y); y += 34;
+  ctx.fillText('FACT ROYALE', w / 2, y); y += 40;
 
-  ctx.font = '400 13px Nunito, sans-serif';
+  ctx.font = '400 26px Nunito, sans-serif';
   ctx.fillStyle = 'rgba(240,192,64,0.52)';
-  ctx.fillText(data.date, w / 2, y); y += 58;
+  ctx.fillText(data.date, w / 2, y);
 
-  drawHLine(ctx, w, y); y += 80;
+  // Score hero
+  const scoreCY = 380;
+  drawScoreRing(ctx, w / 2, scoreCY, 110);
 
-  // Big score
-  ctx.font = '900 98px Nunito, sans-serif';
+  ctx.font = '900 124px Nunito, sans-serif';
   ctx.fillStyle = '#f0c040';
-  ctx.fillText(String(data.score), w / 2, y); y += 26;
+  ctx.textAlign = 'center';
+  ctx.fillText(String(data.score), w / 2, scoreCY + 46);
 
-  ctx.font = '400 17px Nunito, sans-serif';
-  ctx.fillStyle = 'rgba(232,232,240,0.42)';
-  ctx.fillText('out of ' + data.total, w / 2, y); y += 52;
+  ctx.font = '400 28px Nunito, sans-serif';
+  ctx.fillStyle = 'rgba(232,232,240,0.48)';
+  ctx.fillText('out of ' + data.total, w / 2, scoreCY + 82);
 
-  // Rank
+  drawPctBadge(ctx, w / 2, scoreCY + 124, data.score, data.total);
+
+  // Stats
+  let sy = scoreCY + 180;
   if (data.rank) {
-    ctx.font = '600 15px Nunito, sans-serif';
-    ctx.fillStyle = 'rgba(232,232,240,0.7)';
-    ctx.fillText(data.rank, w / 2, y); y += 40;
+    ctx.font = '600 26px Nunito, sans-serif';
+    ctx.fillStyle = 'rgba(232,232,240,0.72)';
+    ctx.textAlign = 'center';
+    ctx.fillText(data.rank, w / 2, sy); sy += 42;
+  }
+  if (data.streak > 1) {
+    ctx.font = '400 26px Nunito, sans-serif';
+    ctx.fillStyle = '#fbbf24';
+    ctx.textAlign = 'center';
+    ctx.fillText('🔥 ' + data.streak + '-day streak', w / 2, sy); sy += 42;
   }
 
-  // Streak
-  if (data.streak > 0) {
-    ctx.font = '400 15px Nunito, sans-serif';
-    ctx.fillStyle = '#f0c040';
-    ctx.fillText('🔥 ' + data.streak + '-day streak', w / 2, y); y += 68;
-  } else {
-    y += 24;
-  }
+  // Category section (vertical bars)
+  const catY = Math.max(sy + 50, 670);
+  drawHLine(ctx, w, catY - 18);
 
-  drawHLine(ctx, w, y); y += 54;
-  drawPills(ctx, w, y, data.categories); y += 68;
-  drawHLine(ctx, w, y); y += 44;
+  ctx.font = '600 20px Nunito, sans-serif';
+  ctx.fillStyle = 'rgba(240,192,64,0.4)';
+  ctx.textAlign = 'center';
+  ctx.fillText('BREAKDOWN', w / 2, catY + 14);
 
-  ctx.font = '400 12px Nunito, sans-serif';
-  ctx.fillStyle = 'rgba(240,192,64,0.42)';
-  ctx.fillText('fact-royale.com', w / 2, y);
+  const margin = 62;
+  const listEnd = drawCategoryList(ctx, margin, catY + 52, w - margin * 2, data.categories);
+
+  drawHLine(ctx, w, listEnd + 20);
+
+  ctx.font = '700 22px Nunito, sans-serif';
+  ctx.fillStyle = 'rgba(240,192,64,0.55)';
+  ctx.textAlign = 'center';
+  ctx.fillText('♛  fact-royale.com', w / 2, listEnd + 64);
 }
 
 function drawWideCard(ctx, w, h, data) {
-  drawBg(ctx, w, h, [[0,'#0f0f1a'],[0.5,'#1a1040'],[1,'#0d1a2e']]);
-  drawGlow(ctx, w * 0.18, h * 0.25, w * 0.38, 0.08);
+  drawBg(ctx, w, h, [[0,'#090915'],[0.5,'#110c32'],[1,'#0a1524']]);
+  drawDotGrid(ctx, w, h);
+  drawTopAccent(ctx, w);
 
-  const mid  = w / 2;
-  const padL = 52;
-  const padR = 40;
+  const divX = Math.round(w * 0.46);  // divider slightly left of center
+  const lc   = divX / 2;              // left column center
+  const rx   = divX + 44;             // right column start
+  const rEnd = w - 38;                // right column end
+  const rw   = rEnd - rx;
 
-  // Left: brand + score
+  // LEFT: Brand + Score
   ctx.textAlign = 'center';
-  const lc = mid / 2;
-  let ly = 68;
 
-  ctx.font = '900 26px Nunito, sans-serif';
+  ctx.font = '900 28px Nunito, sans-serif';
   ctx.fillStyle = '#f0c040';
-  ctx.fillText('♛', lc, ly); ly += 34;
+  ctx.fillText('♛', lc, 56);
 
-  ctx.font = '800 14px Nunito, sans-serif';
+  ctx.font = '800 22px Nunito, sans-serif';
   ctx.fillStyle = '#f0c040';
-  ctx.fillText('FACT ROYALE', lc, ly); ly += 24;
+  ctx.fillText('FACT ROYALE', lc, 84);
 
-  ctx.font = '400 11px Nunito, sans-serif';
+  ctx.font = '400 17px Nunito, sans-serif';
+  ctx.fillStyle = 'rgba(240,192,64,0.52)';
+  ctx.fillText(data.date, lc, 106);
+
+  // Score ring
+  const scoreCY = 265;
+  drawScoreRing(ctx, lc, scoreCY, 88);
+
+  ctx.font = '900 100px Nunito, sans-serif';
+  ctx.fillStyle = '#f0c040';
+  ctx.textAlign = 'center';
+  ctx.fillText(String(data.score), lc, scoreCY + 38);
+
+  ctx.font = '400 18px Nunito, sans-serif';
+  ctx.fillStyle = 'rgba(232,232,240,0.48)';
+  ctx.fillText('out of ' + data.total, lc, scoreCY + 62);
+
+  drawPctBadge(ctx, lc, scoreCY + 96, data.score, data.total);
+
+  // URL bottom-left
+  ctx.font = '700 15px Nunito, sans-serif';
   ctx.fillStyle = 'rgba(240,192,64,0.5)';
-  ctx.fillText(data.date, lc, ly); ly += 42;
-
-  ctx.font = '900 82px Nunito, sans-serif';
-  ctx.fillStyle = '#f0c040';
-  ctx.fillText(String(data.score), lc, ly); ly += 12;
-
-  ctx.font = '400 14px Nunito, sans-serif';
-  ctx.fillStyle = 'rgba(232,232,240,0.42)';
-  ctx.fillText('out of ' + data.total, lc, ly);
+  ctx.textAlign = 'center';
+  ctx.fillText('♛  fact-royale.com', lc, h - 22);
 
   // Vertical divider
   ctx.save();
   ctx.strokeStyle = 'rgba(240,192,64,0.18)';
-  ctx.lineWidth   = 1;
+  ctx.lineWidth = 1;
   ctx.beginPath();
-  ctx.moveTo(mid, 38);
-  ctx.lineTo(mid, h - 38);
+  ctx.moveTo(divX, 30);
+  ctx.lineTo(divX, h - 30);
   ctx.stroke();
   ctx.restore();
 
-  // Right: stats
-  ctx.textAlign = 'left';
-  const rx = mid + padL;
-  const rw = mid - padL - padR;
-  let ry = 66;
+  // RIGHT: Stats + Category bars (vertically centered)
+  let ry = 52;
 
   if (data.rank) {
-    ctx.font = '600 13px Nunito, sans-serif';
-    ctx.fillStyle = 'rgba(232,232,240,0.72)';
+    ctx.font = '600 18px Nunito, sans-serif';
+    ctx.fillStyle = 'rgba(232,232,240,0.75)';
+    ctx.textAlign = 'left';
     ctx.fillText(data.rank, rx, ry); ry += 30;
   }
 
-  if (data.streak > 0) {
-    ctx.font = '400 13px Nunito, sans-serif';
-    ctx.fillStyle = '#f0c040';
-    ctx.fillText('🔥 ' + data.streak + '-day streak', rx, ry); ry += 34;
+  if (data.streak > 1) {
+    ctx.font = '400 18px Nunito, sans-serif';
+    ctx.fillStyle = '#fbbf24';
+    ctx.textAlign = 'left';
+    ctx.fillText('🔥 ' + data.streak + '-day streak', rx, ry); ry += 30;
   }
 
-  // Thin divider
+  // Divider
+  ry += 6;
   ctx.save();
-  ctx.strokeStyle = 'rgba(240,192,64,0.14)';
-  ctx.lineWidth   = 1;
+  ctx.strokeStyle = 'rgba(240,192,64,0.16)';
+  ctx.lineWidth = 1;
   ctx.beginPath();
   ctx.moveTo(rx, ry);
-  ctx.lineTo(rx + rw, ry);
+  ctx.lineTo(rEnd, ry);
   ctx.stroke();
   ctx.restore();
   ry += 20;
 
-  // Categories
+  // BREAKDOWN label
+  ctx.font = '600 14px Nunito, sans-serif';
+  ctx.fillStyle = 'rgba(240,192,64,0.4)';
+  ctx.textAlign = 'left';
+  ctx.fillText('BREAKDOWN', rx, ry); ry += 22;
+
+  // Category bars
+  const barH = 8, barR = 4;
   data.categories.forEach(cat => {
     const style = getCatStyle(cat.name);
-    ctx.font      = '400 12px Nunito, sans-serif';
-    ctx.fillStyle = 'rgba(232,232,240,0.48)';
+    const ratio = cat.total > 0 ? cat.correct / cat.total : 0;
+
+    ctx.font = '400 18px Nunito, sans-serif';
+    ctx.fillStyle = 'rgba(232,232,240,0.65)';
     ctx.textAlign = 'left';
     ctx.fillText(cat.name, rx, ry);
 
-    ctx.font      = '700 12px Nunito, sans-serif';
+    ctx.font = '700 18px Nunito, sans-serif';
     ctx.fillStyle = style.text;
     ctx.textAlign = 'right';
-    ctx.fillText(cat.correct + '/' + cat.total, rx + rw, ry);
-    ry += 24;
+    ctx.fillText(`${cat.correct}/${cat.total}`, rEnd, ry);
+    ry += 14;
+
+    // Bar track
+    ctx.beginPath();
+    roundRect(ctx, rx, ry, rw, barH, barR);
+    ctx.fillStyle = 'rgba(255,255,255,0.08)';
+    ctx.fill();
+
+    // Bar fill
+    if (ratio > 0) {
+      ctx.beginPath();
+      roundRect(ctx, rx, ry, rw * ratio, barH, barR);
+      ctx.fillStyle = style.text;
+      ctx.globalAlpha = 0.65;
+      ctx.fill();
+      ctx.globalAlpha = 1;
+    }
+    ry += barH + 16;
   });
-
-  // Bottom divider + URL
-  ry += 10;
-  ctx.save();
-  ctx.strokeStyle = 'rgba(240,192,64,0.14)';
-  ctx.lineWidth   = 1;
-  ctx.beginPath();
-  ctx.moveTo(rx, ry);
-  ctx.lineTo(rx + rw, ry);
-  ctx.stroke();
-  ctx.restore();
-  ry += 20;
-
-  ctx.font      = '400 11px Nunito, sans-serif';
-  ctx.fillStyle = 'rgba(240,192,64,0.4)';
-  ctx.textAlign = 'left';
-  ctx.fillText('fact-royale.com', rx, ry);
 }
 
 function drawSquareCard(ctx, w, h, data) {
-  drawBg(ctx, w, h, [[0,'#0f0f1a'],[0.5,'#1a1040'],[1,'#0d1a2e']]);
-  drawGlow(ctx, w * 0.8, h * 0.14, w * 0.5, 0.1);
-
-  ctx.textAlign = 'center';
-  let y = 66;
-
-  ctx.font = '900 30px Nunito, sans-serif';
-  ctx.fillStyle = '#f0c040';
-  ctx.fillText('♛', w / 2, y); y += 38;
-
-  ctx.font = '800 15px Nunito, sans-serif';
-  ctx.fillStyle = '#f0c040';
-  ctx.fillText('FACT ROYALE', w / 2, y); y += 26;
-
-  ctx.font = '400 12px Nunito, sans-serif';
-  ctx.fillStyle = 'rgba(240,192,64,0.5)';
-  ctx.fillText(data.date, w / 2, y); y += 44;
-
-  drawHLine(ctx, w, y); y += 52;
-
-  ctx.font = '900 90px Nunito, sans-serif';
-  ctx.fillStyle = '#f0c040';
-  ctx.fillText(String(data.score), w / 2, y); y += 18;
-
-  ctx.font = '400 15px Nunito, sans-serif';
-  ctx.fillStyle = 'rgba(232,232,240,0.42)';
-  ctx.fillText('out of ' + data.total, w / 2, y); y += 38;
-
-  if (data.rank) {
-    ctx.font = '600 13px Nunito, sans-serif';
-    ctx.fillStyle = 'rgba(232,232,240,0.68)';
-    ctx.fillText(data.rank, w / 2, y); y += 26;
-  }
-
-  if (data.streak > 0) {
-    ctx.font = '400 13px Nunito, sans-serif';
-    ctx.fillStyle = '#f0c040';
-    ctx.fillText('🔥 ' + data.streak + '-day streak', w / 2, y); y += 42;
-  } else {
-    y += 16;
-  }
-
-  drawHLine(ctx, w, y); y += 42;
-  drawPills(ctx, w, y, data.categories); y += 52;
-
-  ctx.font = '400 12px Nunito, sans-serif';
-  ctx.fillStyle = 'rgba(240,192,64,0.42)';
-  ctx.fillText('fact-royale.com', w / 2, y);
-}
-
-// ── Share actions ──────────────────────────────────────
-
-async function shareCardImage() {
-  const canvas = document.getElementById('share-canvas');
-  if (!canvas) return;
-  canvas.toBlob(async (blob) => {
-    const file = new File([blob], 'fact-royale-score.png', { type: 'image/png' });
-    if (navigator.share && navigator.canShare && navigator.canShare({ files: [file] })) {
-      try {
-        await navigator.share({
-          files: [file],
-          title: 'Fact Royale',
-          text: `I scored ${score}/${questions.length} on today's Fact Royale — fact-royale.com`
-        });
-      } catch (e) {
-        if (e.name !== 'AbortError') downloadCardImage();
-      }
-    } else {
-      downloadCardImage();
-    }
-  }, 'image/png');
-}
-
-function downloadCardImage() {
-  const canvas = document.getElementById('share-canvas');
-  if (!canvas) return;
-  const a = document.createElement('a');
-  a.download = `fact-royale-${todayKey}.png`;
-  a.href     = canvas.toDataURL('image/png');
-  a.click();
-}
-
-function shareScore() {
-  openShareModal();
-}
-
-// ── Share modal wiring ─────────────────────────────────
-
-function initShareModal() {
-  const modal = document.getElementById('share-modal');
-  if (!modal) return;
-
-  document.getElementById('share-modal-close')
-    .addEventListener('click', closeShareModal);
-
-  modal.addEventListener('click', (e) => {
-    if (e.target === modal) closeShareModal();
-  });
-
-  modal.querySelectorAll('.share-fmt-btn').forEach(btn => {
-    btn.addEventListener('click', () => {
-      shareFormat = btn.dataset.format;
-      modal.querySelectorAll('.share-fmt-btn').forEach(b => b.classList.remove('active'));
-      btn.classList.add('active');
-      renderShareCard();
-    });
-  });
-
-  document.getElementById('btn-share-image')
-    .addEventListener('click', shareCardImage);
-
-  document.getElementById('btn-download-image')
-    .addEventListener('click', downloadCardImage);
-
-  const copyLinkBtn = document.getElementById('btn-copy-link');
-  copyLinkBtn.addEventListener('click', () => {
-    navigator.clipboard.writeText('https://fact-royale.com').then(() => {
-      copyLinkBtn.textContent = 'Copied! ✓';
-      setTimeout(() => { copyLinkBtn.textContent = 'Copy Link'; }, 2200);
-    });
-  });
-}
-
-// ── Boot ───────────────────────────────────────────────
-
-async function init() {
-  todayKey = getTodayKey();
-  initShareModal();
-
-  try {
-    const res  = await fetch(`questions/${todayKey}.json`);
-    if (!res.ok) throw new Error('No quiz file');
-    const data = await res.json();
-
-    questions = shuffle(data.questions);
-    setupLanding(data);
-    showScreen('screen-landing');
-  } catch (e) {
-    showScreen('screen-noquiz');
-  }
-}
-
-document.addEventListener('DOMContentLoaded', init);
+  drawBg(ctx, w, h, [[0,'#090915'],[0.5,'#110c32'],[1,'#0a1524']]);
+  drawDotGrid(ctx, w, h);
+  drawTop
