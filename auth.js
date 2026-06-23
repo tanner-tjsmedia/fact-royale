@@ -21,6 +21,8 @@ auth.onAuthStateChanged(user => {
     if (lbCta)        lbCta.style.display        = 'none';
     if (statsName)    statsName.textContent       = user.displayName || user.email.split('@')[0];
     loadPersonalStats(user.uid);
+    // Offer push notifications (soft prompt — only shows if not yet decided)
+    if (typeof initNotifications === 'function') initNotifications(user);
     // Hide returning visitor banner if they just signed in
     const rvBanner = document.getElementById('returning-visitor-banner');
     if (rvBanner) rvBanner.style.display = 'none';
