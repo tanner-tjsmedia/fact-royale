@@ -358,7 +358,7 @@ async function loadLeaderboard() {
     renderLeaderboard(allScores, realScores.length);
   } catch (err) {
     console.error('Leaderboard load error:', err);
-    listEl.innerHTML = '<p class="lb-empty">Leaderboard unavailable — check back soon.</p>';
+    listEl.innerHTML = '<p class="lb-empty">Leaderboard unavailable. Check back soon.</p>';
   }
 }
 
@@ -392,7 +392,7 @@ function renderLeaderboard(scores, realCount) {
     return `
       <div class="lb-row${isYou ? ' lb-row-you' : ''}${isSeed ? ' lb-row-seed' : ''}">
         <span class="lb-rank">${rank}</span>
-        <span class="lb-name">${escapeHtml(s.displayName)}${isYou ? '<span class="lb-you-tag">You</span>' : ''}</span>
+        <span class="lb-name"><span class="lb-name-text">${escapeHtml(s.displayName)}</span>${isYou ? '<span class="lb-you-tag">You</span>' : ''}</span>
         <span class="lb-score">${s.score}<span class="lb-total">/${s.total}</span></span>
         <span class="lb-pct">${pct}%</span>
       </div>`;
@@ -431,10 +431,10 @@ function renderLeaderboard(scores, realCount) {
 function streakLabel(n) {
   if (n >= 30) return `${n}-day streak 🏆 You're a Fact Royale legend.`;
   if (n >= 14) return `${n}-day streak 🔥 Two weeks of daily trivia.`;
-  if (n >=  7) return `${n}-day streak 🔥 One week strong — don't break the chain!`;
+  if (n >=  7) return `${n}-day streak 🔥 One week strong. Don't break the chain!`;
   if (n >=  3) return `${n}-day streak 🔥 You're on a roll.`;
-  if (n ===  2) return `2-day streak — nice start, keep it going!`;
-  return `Day 1 — the streak starts now!`;
+  if (n ===  2) return `2-day streak. Nice start, keep it going!`;
+  return `Day 1. The streak starts now!`;
 }
 
 function updateStreakBanner(streak, alreadyPlayed, streakBroken) {
@@ -445,7 +445,7 @@ function updateStreakBanner(streak, alreadyPlayed, streakBroken) {
 
   // Broken streak — show recovery message instead
   if (streakBroken) {
-    textEl.textContent  = `You missed a day — streak reset. Let's build it back up starting today!`;
+    textEl.textContent  = `You missed a day. Streak reset. Let's build it back up starting today!`;
     btnEl.style.display = 'inline-block';
     btnEl.textContent   = 'Play Now →';
     btnEl.onclick       = () => document.getElementById('btn-start-hero')?.click();
@@ -457,7 +457,7 @@ function updateStreakBanner(streak, alreadyPlayed, streakBroken) {
   if (streak < 1) return;
 
   if (alreadyPlayed) {
-    textEl.textContent  = `${streakLabel(streak)} Secured for today — see you tomorrow!`;
+    textEl.textContent  = `${streakLabel(streak)} Secured for today. See you tomorrow!`;
     btnEl.style.display = 'none';
     banner.className    = 'streak-banner streak-banner-safe';
   } else {
@@ -499,7 +499,7 @@ async function calculateAndShowRankPct(userScore, todayStr) {
     if (pct === 100) {
       pctEl.textContent = '👑 Top score of the day!';
     } else if (pct === 0) {
-      pctEl.textContent = 'Room to grow — come back tomorrow!';
+      pctEl.textContent = 'Room to grow. Come back tomorrow!';
     } else {
       pctEl.textContent = `You beat ${pct}% of today's players`;
     }
@@ -618,7 +618,7 @@ function checkReturningVisitorBanner() {
   const todayStr = getTodayKeyForAuth();
 
   if (lastPlayed === todayStr) {
-    textEl.textContent = `Nice — you played today. But your ${streak}-day streak only lives on this device. Create an account to protect it.`;
+    textEl.textContent = `Nice work. You played today, but your ${streak}-day streak only lives on this device. Create an account to protect it.`;
   } else {
     textEl.textContent = `You're on a ${streak}-day streak. Sign up so it's never lost to a browser clear.`;
   }
@@ -645,15 +645,15 @@ function friendlyAuthError(code) {
     'auth/user-not-found':         'No account found with that email.',
     'auth/wrong-password':         'Incorrect password.',
     'auth/invalid-credential':     'Incorrect email or password.',
-    'auth/email-already-in-use':   'That email is already registered — try signing in.',
+    'auth/email-already-in-use':   'That email is already registered. Try signing in.',
     'auth/invalid-email':          'Please enter a valid email address.',
     'auth/weak-password':          'Password must be at least 6 characters.',
-    'auth/too-many-requests':      'Too many attempts — please try again later.',
+    'auth/too-many-requests':      'Too many attempts. Please try again later.',
     'auth/popup-closed-by-user':   'Sign-in cancelled.',
-    'auth/network-request-failed': 'Network error — please check your connection.',
-    'auth/unauthorized-domain':    'Domain not authorized — check Firebase Auth settings.',
-    'auth/operation-not-allowed':  'Email sign-up is not enabled — check Firebase Auth providers.',
-    'auth/configuration-not-found':'Firebase configuration error — check project setup.'
+    'auth/network-request-failed': 'Network error. Please check your connection.',
+    'auth/unauthorized-domain':    'Domain not authorized. Check Firebase Auth settings.',
+    'auth/operation-not-allowed':  'Email sign-up is not enabled. Check Firebase Auth providers.',
+    'auth/configuration-not-found':'Firebase configuration error. Check project setup.'
   };
   return map[code] || `Error: ${code}`;
 }

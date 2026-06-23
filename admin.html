@@ -39,9 +39,26 @@
       line-height: 1.5;
     }
 
+    /* ─── Loading screen ───────────────────────────────── */
+    #auth-loading {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+    }
+
+    .auth-spinner {
+      width: 28px;
+      height: 28px;
+      border: 3px solid #2a2a44;
+      border-top-color: #d4af37;
+      border-radius: 50%;
+      animation: spin 0.7s linear infinite;
+    }
+
     /* ─── Gate ─────────────────────────────────────────── */
     #gate {
-      display: flex;
+      display: none;
       align-items: center;
       justify-content: center;
       min-height: 100vh;
@@ -330,6 +347,11 @@
 </head>
 <body>
 
+<!-- ── Auth Loading ───────────────────────────────────── -->
+<div id="auth-loading">
+  <div class="auth-spinner"></div>
+</div>
+
 <!-- ── Auth Gate ──────────────────────────────────────── -->
 <div id="gate">
   <div class="gate-card">
@@ -507,6 +529,8 @@ function shortLabel(dk) {
 // ── Auth ──────────────────────────────────────────────
 
 auth.onAuthStateChanged(user => {
+  document.getElementById('auth-loading').style.display = 'none';
+
   if (user && user.email === ADMIN_EMAIL) {
     document.getElementById('gate').style.display      = 'none';
     document.getElementById('dashboard').style.display = 'block';
@@ -516,7 +540,8 @@ auth.onAuthStateChanged(user => {
   } else if (user) {
     // Wrong account — sign them out immediately
     auth.signOut();
-    document.getElementById('gate-error').textContent =
+    document.getElementById('gate').style.display      = 'flex';
+    document.getElementById('gate-error').textContent  =
       'Access denied. Sign in with the admin account.';
   } else {
     document.getElementById('gate').style.display      = 'flex';
