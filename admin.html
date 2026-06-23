@@ -1,0 +1,839 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Admin — Fact Royale</title>
+
+  <!-- Firebase SDKs -->
+  <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-auth-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore-compat.js"></script>
+  <script src="firebase-config.js"></script>
+
+  <!-- Chart.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg:           #0f0f1a;
+      --surface:      #1a1a2e;
+      --surface2:     #13132a;
+      --gold:         #d4af37;
+      --gold-dim:     rgba(212,175,55,0.15);
+      --text:         #e8e8f0;
+      --muted:        #7777aa;
+      --border:       #2a2a44;
+      --green:        #4caf82;
+      --purple:       #7c6fcd;
+      --red:          #e05c6a;
+    }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      min-height: 100vh;
+      line-height: 1.5;
+    }
+
+    /* ─── Gate ─────────────────────────────────────────── */
+    #gate {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      padding: 24px;
+    }
+
+    .gate-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 48px 40px;
+      text-align: center;
+      max-width: 380px;
+      width: 100%;
+    }
+
+    .gate-logo { font-size: 52px; margin-bottom: 16px; }
+
+    .gate-card h1 {
+      font-size: 1.75rem;
+      font-weight: 800;
+      color: var(--gold);
+      letter-spacing: -0.02em;
+      margin-bottom: 8px;
+    }
+
+    .gate-card p {
+      color: var(--muted);
+      font-size: 0.9rem;
+      margin-bottom: 28px;
+    }
+
+    .gate-error {
+      color: var(--red);
+      font-size: 0.85rem;
+      margin-top: 14px;
+      min-height: 20px;
+    }
+
+    /* ─── Buttons ───────────────────────────────────────── */
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 10px 20px;
+      border-radius: 10px;
+      border: none;
+      font-size: 0.9rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: opacity 0.18s;
+      white-space: nowrap;
+    }
+    .btn:hover { opacity: 0.82; }
+
+    .btn-primary { background: var(--gold); color: #0f0f1a; }
+
+    .btn-ghost {
+      background: transparent;
+      color: var(--muted);
+      border: 1px solid var(--border);
+      padding: 8px 16px;
+      font-size: 0.82rem;
+    }
+
+    /* ─── Header ────────────────────────────────────────── */
+    header {
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    .header-inner {
+      max-width: 1140px;
+      margin: 0 auto;
+      padding: 14px 24px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+    }
+
+    .header-logo {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-weight: 800;
+      font-size: 1.05rem;
+      text-decoration: none;
+      color: var(--text);
+    }
+
+    .admin-badge {
+      background: var(--gold);
+      color: #0f0f1a;
+      font-size: 0.6rem;
+      font-weight: 900;
+      padding: 3px 9px;
+      border-radius: 20px;
+      text-transform: uppercase;
+      letter-spacing: 0.07em;
+    }
+
+    .header-right {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .header-date {
+      color: var(--muted);
+      font-size: 0.82rem;
+    }
+
+    /* ─── Main layout ───────────────────────────────────── */
+    main {
+      max-width: 1140px;
+      margin: 0 auto;
+      padding: 36px 24px 80px;
+    }
+
+    section { margin-bottom: 44px; }
+
+    section > h2 {
+      font-size: 0.72rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--muted);
+      margin-bottom: 16px;
+    }
+
+    /* ─── Stat grid ─────────────────────────────────────── */
+    .stat-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 14px;
+    }
+
+    @media (max-width: 900px) { .stat-grid { grid-template-columns: repeat(2, 1fr); } }
+    @media (max-width: 480px) { .stat-grid { grid-template-columns: 1fr 1fr; } }
+
+    .stat-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 22px 20px;
+    }
+
+    .stat-value {
+      font-size: 2.2rem;
+      font-weight: 900;
+      line-height: 1;
+      letter-spacing: -0.03em;
+      margin-bottom: 6px;
+    }
+
+    .stat-value.gold  { color: var(--gold); }
+    .stat-value.green { color: var(--green); }
+
+    .stat-label {
+      font-size: 0.78rem;
+      color: var(--muted);
+      font-weight: 500;
+    }
+
+    /* ─── Chart card ────────────────────────────────────── */
+    .chart-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 24px;
+    }
+
+    /* ─── Category bars ─────────────────────────────────── */
+    .cat-list {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 24px;
+      display: flex;
+      flex-direction: column;
+      gap: 22px;
+    }
+
+    .cat-row {
+      display: grid;
+      grid-template-columns: 150px 1fr 52px;
+      align-items: center;
+      gap: 18px;
+    }
+
+    @media (max-width: 600px) {
+      .cat-row { grid-template-columns: 120px 1fr 44px; }
+    }
+
+    .cat-name {
+      font-size: 0.9rem;
+      font-weight: 600;
+    }
+
+    .cat-bar-bg {
+      background: var(--surface2);
+      border-radius: 100px;
+      height: 10px;
+      overflow: hidden;
+    }
+
+    .cat-bar-fill {
+      height: 100%;
+      border-radius: 100px;
+      background: linear-gradient(90deg, var(--gold), #f0d060);
+      transition: width 0.7s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    .cat-pct {
+      font-size: 0.9rem;
+      font-weight: 700;
+      color: var(--gold);
+      text-align: right;
+    }
+
+    /* ─── Streak table ──────────────────────────────────── */
+    .streak-table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    .streak-table th {
+      text-align: left;
+      color: var(--muted);
+      font-size: 0.72rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.07em;
+      padding: 0 12px 12px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .streak-table td {
+      padding: 13px 12px;
+      font-size: 0.9rem;
+      border-bottom: 1px solid var(--border);
+      color: var(--text);
+    }
+
+    .streak-table tr:last-child td { border-bottom: none; }
+    .streak-table td.muted { color: var(--muted); }
+
+    .streak-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      background: var(--gold-dim);
+      color: var(--gold);
+      padding: 3px 11px;
+      border-radius: 100px;
+      font-weight: 700;
+      font-size: 0.85rem;
+    }
+
+    /* ─── Loading ───────────────────────────────────────── */
+    .loading-row td {
+      text-align: center;
+      color: var(--muted);
+      padding: 32px !important;
+      font-size: 0.9rem;
+    }
+
+    .spinner {
+      display: inline-block;
+      width: 16px;
+      height: 16px;
+      border: 2px solid var(--border);
+      border-top-color: var(--gold);
+      border-radius: 50%;
+      animation: spin 0.7s linear infinite;
+      vertical-align: middle;
+      margin-right: 8px;
+    }
+
+    @keyframes spin { to { transform: rotate(360deg); } }
+  </style>
+</head>
+<body>
+
+<!-- ── Auth Gate ──────────────────────────────────────── -->
+<div id="gate">
+  <div class="gate-card">
+    <div class="gate-logo">👑</div>
+    <h1>Admin</h1>
+    <p>Sign in with your admin account to access the Fact Royale dashboard.</p>
+    <button class="btn btn-primary" onclick="adminSignIn()">Sign in with Google</button>
+    <p class="gate-error" id="gate-error"></p>
+  </div>
+</div>
+
+<!-- ── Dashboard ──────────────────────────────────────── -->
+<div id="dashboard" style="display:none">
+
+  <header>
+    <div class="header-inner">
+      <a class="header-logo" href="/">👑 Fact Royale <span class="admin-badge">Admin</span></a>
+      <div class="header-right">
+        <span class="header-date" id="header-date"></span>
+        <button class="btn btn-ghost" onclick="loadData()">↺ Refresh</button>
+        <button class="btn btn-ghost" onclick="firebase.auth().signOut()">Sign Out</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- Today's Snapshot -->
+    <section>
+      <h2>Today</h2>
+      <div class="stat-grid">
+        <div class="stat-card">
+          <div class="stat-value" id="stat-today-total">—</div>
+          <div class="stat-label">Total Plays</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-value gold" id="stat-today-signedin">—</div>
+          <div class="stat-label">Signed In</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-value" id="stat-today-anon">—</div>
+          <div class="stat-label">Anonymous</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-value gold" id="stat-today-rate">—</div>
+          <div class="stat-label">Sign-In Rate</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 14-Day Play Trend -->
+    <section>
+      <h2>14-Day Play Trend</h2>
+      <div class="chart-card">
+        <canvas id="chart-plays" height="220"></canvas>
+      </div>
+    </section>
+
+    <!-- Users & Retention -->
+    <section>
+      <h2>Users & Retention</h2>
+      <div class="stat-grid">
+        <div class="stat-card">
+          <div class="stat-value" id="stat-users-total">—</div>
+          <div class="stat-label">Registered Users</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-value gold" id="stat-active">—</div>
+          <div class="stat-label">Active Today / Yesterday</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-value" id="stat-long-streaks">—</div>
+          <div class="stat-label">3+ Day Streaks</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-value gold" id="stat-new-signups">—</div>
+          <div class="stat-label">New This Week</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Signup Conversion -->
+    <section>
+      <h2>Signup Conversion — 14 Days</h2>
+      <div class="chart-card">
+        <canvas id="chart-conversion" height="180"></canvas>
+      </div>
+    </section>
+
+    <!-- Category Accuracy -->
+    <section>
+      <h2>Category Accuracy (All Users)</h2>
+      <div class="cat-list">
+        <div class="cat-row">
+          <div class="cat-name">📜 History</div>
+          <div class="cat-bar-bg"><div class="cat-bar-fill" id="bar-history" style="width:0%"></div></div>
+          <div class="cat-pct" id="pct-history">—</div>
+        </div>
+        <div class="cat-row">
+          <div class="cat-name">⚽ Sports</div>
+          <div class="cat-bar-bg"><div class="cat-bar-fill" id="bar-sports" style="width:0%"></div></div>
+          <div class="cat-pct" id="pct-sports">—</div>
+        </div>
+        <div class="cat-row">
+          <div class="cat-name">🎬 Music / Movies</div>
+          <div class="cat-bar-bg"><div class="cat-bar-fill" id="bar-movies" style="width:0%"></div></div>
+          <div class="cat-pct" id="pct-movies">—</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Top Active Streaks -->
+    <section>
+      <h2>Top Active Streaks</h2>
+      <div class="chart-card">
+        <table class="streak-table">
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Player</th>
+              <th>Current Streak</th>
+              <th>Best Ever</th>
+              <th>Games Played</th>
+              <th>Last Played</th>
+            </tr>
+          </thead>
+          <tbody id="streak-tbody">
+            <tr class="loading-row">
+              <td colspan="6"><span class="spinner"></span>Loading...</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+  </main>
+</div>
+
+<script>
+/* =====================================================
+   FACT ROYALE — Admin Dashboard
+   Restricted to ADMIN_EMAIL only.
+   ===================================================== */
+
+const ADMIN_EMAIL = 'tanner@tjs16media.com';
+
+const db   = firebase.firestore();
+const auth = firebase.auth();
+
+let playsChart = null;
+let convChart  = null;
+
+// ── Date helpers ──────────────────────────────────────
+
+function dateKey(d) {
+  d = d || new Date();
+  return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;
+}
+
+function last14Days() {
+  const days = [];
+  for (let i = 13; i >= 0; i--) {
+    const d = new Date();
+    d.setDate(d.getDate() - i);
+    days.push(dateKey(d));
+  }
+  return days;
+}
+
+function shortLabel(dk) {
+  const [, m, d] = dk.split('-');
+  const months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+  return `${months[parseInt(m, 10) - 1]} ${parseInt(d, 10)}`;
+}
+
+// ── Auth ──────────────────────────────────────────────
+
+auth.onAuthStateChanged(user => {
+  if (user && user.email === ADMIN_EMAIL) {
+    document.getElementById('gate').style.display      = 'none';
+    document.getElementById('dashboard').style.display = 'block';
+    document.getElementById('header-date').textContent =
+      new Date().toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric' });
+    loadData();
+  } else if (user) {
+    // Wrong account — sign them out immediately
+    auth.signOut();
+    document.getElementById('gate-error').textContent =
+      'Access denied. Sign in with the admin account.';
+  } else {
+    document.getElementById('gate').style.display      = 'flex';
+    document.getElementById('dashboard').style.display = 'none';
+  }
+});
+
+function adminSignIn() {
+  const provider = new firebase.auth.GoogleAuthProvider();
+  auth.signInWithPopup(provider).catch(err => {
+    if (err.code !== 'auth/popup-closed-by-user') {
+      document.getElementById('gate-error').textContent = err.message;
+    }
+  });
+}
+
+// ── Load all data ──────────────────────────────────────
+
+async function loadData() {
+  try {
+    const [playsData, usersData] = await Promise.all([
+      fetchPlays(),
+      fetchUsers()
+    ]);
+
+    renderToday(playsData);
+    renderPlaysChart(playsData);
+    renderUserStats(usersData);
+    renderConversionChart(playsData, usersData);
+    renderCategoryAccuracy(usersData);
+    renderTopStreaks(usersData);
+  } catch (err) {
+    console.error('Admin data error:', err);
+    if (err.code === 'permission-denied') {
+      alert('Firestore permission denied. Make sure the admin rules are updated (see setup notes).');
+    }
+  }
+}
+
+// ── Fetch plays (last 14 days) ─────────────────────────
+
+async function fetchPlays() {
+  const days   = last14Days();
+  const cutoff = new Date();
+  cutoff.setDate(cutoff.getDate() - 13);
+  cutoff.setHours(0, 0, 0, 0);
+
+  const snap = await db.collection('plays')
+    .where('ts', '>=', firebase.firestore.Timestamp.fromDate(cutoff))
+    .get();
+
+  const byDay = {};
+  days.forEach(d => { byDay[d] = { total: 0, signedIn: 0, anon: 0 }; });
+
+  snap.forEach(doc => {
+    const data = doc.data();
+    const dk   = data.date;
+    if (byDay[dk]) {
+      byDay[dk].total++;
+      if (data.signed_in) byDay[dk].signedIn++;
+      else                byDay[dk].anon++;
+    }
+  });
+
+  return { byDay, days };
+}
+
+// ── Fetch all users ────────────────────────────────────
+
+async function fetchUsers() {
+  const snap = await db.collection('users').get();
+  const users = [];
+  snap.forEach(doc => users.push({ uid: doc.id, ...doc.data() }));
+  return users;
+}
+
+// ── Today's snapshot ───────────────────────────────────
+
+function renderToday({ byDay }) {
+  const today = dateKey();
+  const d     = byDay[today] || { total: 0, signedIn: 0, anon: 0 };
+  const rate  = d.total > 0 ? Math.round((d.signedIn / d.total) * 100) : 0;
+
+  setText('stat-today-total',    d.total);
+  setText('stat-today-signedin', d.signedIn);
+  setText('stat-today-anon',     d.anon);
+  setText('stat-today-rate',     `${rate}%`);
+}
+
+// ── Plays chart ────────────────────────────────────────
+
+function renderPlaysChart({ byDay, days }) {
+  if (playsChart) { playsChart.destroy(); playsChart = null; }
+
+  const ctx = document.getElementById('chart-plays').getContext('2d');
+  playsChart = new Chart(ctx, {
+    type: 'bar',
+    data: {
+      labels: days.map(shortLabel),
+      datasets: [
+        {
+          label: 'Signed In',
+          data: days.map(d => byDay[d].signedIn),
+          backgroundColor: '#d4af37',
+          borderRadius: 5,
+          stack: 'plays'
+        },
+        {
+          label: 'Anonymous',
+          data: days.map(d => byDay[d].anon),
+          backgroundColor: '#2e2660',
+          borderRadius: 5,
+          stack: 'plays'
+        }
+      ]
+    },
+    options: {
+      responsive: true,
+      plugins: {
+        legend: { labels: { color: '#7777aa', font: { size: 12 } } }
+      },
+      scales: {
+        x: {
+          stacked: true,
+          ticks: { color: '#7777aa', font: { size: 11 } },
+          grid:  { color: '#1e1e38' }
+        },
+        y: {
+          stacked: true,
+          beginAtZero: true,
+          ticks: { color: '#7777aa', font: { size: 11 }, precision: 0 },
+          grid:  { color: '#1e1e38' }
+        }
+      }
+    }
+  });
+}
+
+// ── User & retention stats ─────────────────────────────
+
+function renderUserStats(users) {
+  const today     = dateKey();
+  const yd        = new Date(); yd.setDate(yd.getDate() - 1);
+  const yesterday = dateKey(yd);
+  const weekAgo   = new Date(); weekAgo.setDate(weekAgo.getDate() - 7);
+
+  let active = 0, longStreaks = 0, newThisWeek = 0;
+
+  users.forEach(u => {
+    const stats = u.stats || {};
+    const lp    = stats.lastPlayedDate || '';
+    if (lp === today || lp === yesterday) active++;
+    if ((stats.currentStreak || 0) >= 3)  longStreaks++;
+    if (u.createdAt && u.createdAt.toDate() >= weekAgo) newThisWeek++;
+  });
+
+  setText('stat-users-total',  users.length);
+  setText('stat-active',       active);
+  setText('stat-long-streaks', longStreaks);
+  setText('stat-new-signups',  newThisWeek);
+}
+
+// ── Conversion chart ───────────────────────────────────
+
+function renderConversionChart({ byDay, days }, users) {
+  if (convChart) { convChart.destroy(); convChart = null; }
+
+  // New signups per day
+  const signupsByDay = {};
+  days.forEach(d => { signupsByDay[d] = 0; });
+  users.forEach(u => {
+    if (!u.createdAt) return;
+    const dk = dateKey(u.createdAt.toDate());
+    if (signupsByDay[dk] !== undefined) signupsByDay[dk]++;
+  });
+
+  const ctx = document.getElementById('chart-conversion').getContext('2d');
+  convChart = new Chart(ctx, {
+    type: 'line',
+    data: {
+      labels: days.map(shortLabel),
+      datasets: [
+        {
+          label: 'Total Plays',
+          data: days.map(d => byDay[d].total),
+          borderColor: '#7c6fcd',
+          backgroundColor: 'rgba(124,111,205,0.10)',
+          fill: true,
+          tension: 0.35,
+          pointRadius: 3,
+          yAxisID: 'yPlays'
+        },
+        {
+          label: 'New Signups',
+          data: days.map(d => signupsByDay[d]),
+          borderColor: '#d4af37',
+          backgroundColor: 'rgba(212,175,55,0.10)',
+          fill: true,
+          tension: 0.35,
+          pointRadius: 3,
+          yAxisID: 'ySignups'
+        }
+      ]
+    },
+    options: {
+      responsive: true,
+      interaction: { mode: 'index', intersect: false },
+      plugins: {
+        legend: { labels: { color: '#7777aa', font: { size: 12 } } }
+      },
+      scales: {
+        x: {
+          ticks: { color: '#7777aa', font: { size: 11 } },
+          grid:  { color: '#1e1e38' }
+        },
+        yPlays: {
+          type: 'linear',
+          position: 'left',
+          beginAtZero: true,
+          ticks: { color: '#7c6fcd', font: { size: 11 }, precision: 0 },
+          grid:  { color: '#1e1e38' },
+          title: { display: true, text: 'Plays', color: '#7c6fcd', font: { size: 11 } }
+        },
+        ySignups: {
+          type: 'linear',
+          position: 'right',
+          beginAtZero: true,
+          ticks: { color: '#d4af37', font: { size: 11 }, precision: 0 },
+          grid:  { drawOnChartArea: false },
+          title: { display: true, text: 'Signups', color: '#d4af37', font: { size: 11 } }
+        }
+      }
+    }
+  });
+}
+
+// ── Category accuracy ──────────────────────────────────
+
+function renderCategoryAccuracy(users) {
+  const cats = {
+    'History':      { played: 0, correct: 0 },
+    'Sports':       { played: 0, correct: 0 },
+    'Music/Movies': { played: 0, correct: 0 }
+  };
+
+  users.forEach(u => {
+    const cs = u.categoryStats || {};
+    Object.keys(cats).forEach(cat => {
+      if (cs[cat]) {
+        cats[cat].played  += cs[cat].played  || 0;
+        cats[cat].correct += cs[cat].correct || 0;
+      }
+    });
+  });
+
+  const catMap = {
+    'History':      { bar: 'bar-history', pct: 'pct-history' },
+    'Sports':       { bar: 'bar-sports',  pct: 'pct-sports'  },
+    'Music/Movies': { bar: 'bar-movies',  pct: 'pct-movies'  }
+  };
+
+  Object.entries(cats).forEach(([cat, s]) => {
+    const pct = s.played > 0 ? Math.round((s.correct / s.played) * 100) : 0;
+    document.getElementById(catMap[cat].bar).style.width = `${pct}%`;
+    document.getElementById(catMap[cat].pct).textContent = `${pct}%`;
+  });
+}
+
+// ── Top streaks ────────────────────────────────────────
+
+function renderTopStreaks(users) {
+  const sorted = [...users]
+    .filter(u => (u.stats?.currentStreak || 0) > 0)
+    .sort((a, b) => (b.stats?.currentStreak || 0) - (a.stats?.currentStreak || 0))
+    .slice(0, 10);
+
+  const tbody = document.getElementById('streak-tbody');
+
+  if (!sorted.length) {
+    tbody.innerHTML = '<tr class="loading-row"><td colspan="6">No active streaks yet.</td></tr>';
+    return;
+  }
+
+  tbody.innerHTML = sorted.map((u, i) => {
+    const s      = u.stats || {};
+    const streak = s.currentStreak || 0;
+    const best   = s.longestStreak || 0;
+    const played = s.gamesPlayed   || 0;
+    const last   = s.lastPlayedDate || '—';
+    const name   = u.displayName   || u.email || 'Unknown';
+    return `
+      <tr>
+        <td class="muted">${i + 1}</td>
+        <td>${escHtml(name)}</td>
+        <td><span class="streak-badge">🔥 ${streak} day${streak !== 1 ? 's' : ''}</span></td>
+        <td class="muted">${best}</td>
+        <td class="muted">${played}</td>
+        <td class="muted">${last}</td>
+      </tr>`;
+  }).join('');
+}
+
+// ── Helpers ────────────────────────────────────────────
+
+function setText(id, val) {
+  const el = document.getElementById(id);
+  if (el) el.textContent = val;
+}
+
+function escHtml(str) {
+  return String(str)
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;');
+}
+</script>
+</body>
+</html>
