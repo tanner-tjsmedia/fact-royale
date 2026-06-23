@@ -561,6 +561,7 @@ function adminSignIn() {
   if (errEl) errEl.textContent = '';
 
   const provider = new firebase.auth.GoogleAuthProvider();
+  provider.setCustomParameters({ login_hint: ADMIN_EMAIL });
   auth.signInWithPopup(provider).catch(err => {
     _signingIn = false;
     if (btn) { btn.disabled = false; btn.textContent = 'Sign in with Google'; }
