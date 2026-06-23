@@ -1480,11 +1480,16 @@ body {
   /* Stats grid — 3 columns on tablet */
   .stats-grid { grid-template-columns: repeat(3, 1fr); }
 
-  /* Leaderboard — hide accuracy column */
+  /* Leaderboard — hide accuracy column, force 3-col grid */
   .lb-header-row,
   .lb-row { grid-template-columns: 48px 1fr 72px; }
-  .lb-pct,
-  .lb-header-row span:last-child { display: none; }
+  .lb-row .lb-pct,
+  .lb-header-row span:last-child {
+    display: none !important;
+    width: 0;
+    overflow: hidden;
+    padding: 0;
+  }
 
   /* Hero */
   .hero { padding: 48px 20px 40px; }
@@ -1566,11 +1571,12 @@ body {
   /* Stats grid — 2 columns on mobile */
   .stats-grid { grid-template-columns: repeat(2, 1fr); }
 
-  /* Leaderboard — simplify to 2 cols */
+  /* Leaderboard — simplify to 3 cols, pct hidden */
   .lb-header-row,
   .lb-row { grid-template-columns: 44px 1fr 60px; }
   .lb-row { padding: 12px 14px; }
   .lb-header-row { padding: 8px 14px; }
+  .lb-row .lb-pct { display: none !important; width: 0; overflow: hidden; padding: 0; }
 
   /* Auth modal */
   .modal-card { padding: 28px 20px; }
