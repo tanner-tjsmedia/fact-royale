@@ -1119,7 +1119,6 @@ function drawStoryCard(ctx, w, h, data) {
   ctx.fillStyle = 'rgba(240,192,64,0.4)';
   ctx.textAlign = 'center';
   ctx.fillText('BREAKDOWN', w / 2, catY + 14);
-
   const margin = 62;
   const listEnd = drawCategoryList(ctx, margin, catY + 52, w - margin * 2, data.categories);
 
@@ -1140,4 +1139,279 @@ function drawWideCard(ctx, w, h, data) {
   const lc   = divX / 2;              // left column center
   const rx   = divX + 44;             // right column start
   const rEnd = w - 38;                // right column end
-  con
+  const rw   = rEnd - rx;
+
+  // LEFT: Brand + Score
+  ctx.textAlign = 'center';
+
+  ctx.font = '900 28px Nunito, sans-serif';
+  ctx.fillStyle = '#f0c040';
+  ctx.fillText('♛', lc, 56);
+
+  ctx.font = '800 22px Nunito, sans-serif';
+  ctx.fillStyle = '#f0c040';
+  ctx.fillText('FACT ROYALE', lc, 84);
+
+  ctx.font = '400 17px Nunito, sans-serif';
+  ctx.fillStyle = 'rgba(240,192,64,0.52)';
+  ctx.fillText(data.date, lc, 106);
+
+  // Score ring
+  const scoreCY = 265;
+  drawScoreRing(ctx, lc, scoreCY, 88);
+
+  ctx.font = '900 100px Nunito, sans-serif';
+  ctx.fillStyle = '#f0c040';
+  ctx.textAlign = 'center';
+  ctx.fillText(String(data.score), lc, scoreCY + 38);
+
+  ctx.font = '400 18px Nunito, sans-serif';
+  ctx.fillStyle = 'rgba(232,232,240,0.48)';
+  ctx.fillText('out of ' + data.total, lc, scoreCY + 62);
+
+  drawPctBadge(ctx, lc, scoreCY + 96, data.score, data.total);
+
+  // URL bottom-left
+  ctx.font = '700 15px Nunito, sans-serif';
+  ctx.fillStyle = 'rgba(240,192,64,0.5)';
+  ctx.textAlign = 'center';
+  ctx.fillText('♛  fact-royale.com', lc, h - 22);
+
+  // Vertical divider
+  ctx.save();
+  ctx.strokeStyle = 'rgba(240,192,64,0.18)';
+  ctx.lineWidth = 1;
+  ctx.beginPath();
+  ctx.moveTo(divX, 30);
+  ctx.lineTo(divX, h - 30);
+  ctx.stroke();
+  ctx.restore();
+
+  // RIGHT: Stats + Category bars (vertically centered)
+  let ry = 52;
+
+  if (data.rank) {
+    ctx.font = '600 18px Nunito, sans-serif';
+    ctx.fillStyle = 'rgba(232,232,240,0.75)';
+    ctx.textAlign = 'left';
+    ctx.fillText(data.rank, rx, ry); ry += 30;
+  }
+
+  if (data.streak > 1) {
+    ctx.font = '400 18px Nunito, sans-serif';
+    ctx.fillStyle = '#fbbf24';
+    ctx.textAlign = 'left';
+    ctx.fillText('🔥 ' + data.streak + '-day streak', rx, ry); ry += 30;
+  }
+
+  // Divider
+  ry += 6;
+  ctx.save();
+  ctx.strokeStyle = 'rgba(240,192,64,0.16)';
+  ctx.lineWidth = 1;
+  ctx.beginPath();
+  ctx.moveTo(rx, ry);
+  ctx.lineTo(rEnd, ry);
+  ctx.stroke();
+  ctx.restore();
+  ry += 20;
+
+  // BREAKDOWN label
+  ctx.font = '600 14px Nunito, sans-serif';
+  ctx.fillStyle = 'rgba(240,192,64,0.4)';
+  ctx.textAlign = 'left';
+  ctx.fillText('BREAKDOWN', rx, ry); ry += 22;
+
+  // Category bars
+  const barH = 8, barR = 4;
+  data.categories.forEach(cat => {
+    const style = getCatStyle(cat.name);
+    const ratio = cat.total > 0 ? cat.correct / cat.total : 0;
+
+    ctx.font = '400 18px Nunito, sans-serif';
+    ctx.fillStyle = 'rgba(232,232,240,0.65)';
+    ctx.textAlign = 'left';
+    ctx.fillText(cat.name, rx, ry);
+
+    ctx.font = '700 18px Nunito, sans-serif';
+    ctx.fillStyle = style.text;
+    ctx.textAlign = 'right';
+    ctx.fillText(`${cat.correct}/${cat.total}`, rEnd, ry);
+    ry += 14;
+
+    // Bar track
+    ctx.beginPath();
+    roundRect(ctx, rx, ry, rw, barH, barR);
+    ctx.fillStyle = 'rgba(255,255,255,0.08)';
+    ctx.fill();
+
+    // Bar fill
+    if (ratio > 0) {
+      ctx.beginPath();
+      roundRect(ctx, rx, ry, rw * ratio, barH, barR);
+      ctx.fillStyle = style.text;
+      ctx.globalAlpha = 0.65;
+      ctx.fill();
+      ctx.globalAlpha = 1;
+    }
+    ry += barH + 16;
+  });
+}
+
+function drawSquareCard(ctx, w, h, data) {
+  drawBg(ctx, w, h, [[0,'#090915'],[0.5,'#110c32'],[1,'#0a1524']]);
+  drawDotGrid(ctx, w, h);
+  drawTopAccent(ctx, w);
+
+  ctx.textAlign = 'center';
+  let y = 62;
+
+  ctx.font = '900 48px Nunito, sans-serif';
+  ctx.fillStyle = '#f0c040';
+  ctx.fillText('♛', w / 2, y); y += 56;
+
+  ctx.font = '800 24px Nunito, sans-serif';
+  ctx.fillStyle = '#f0c040';
+  ctx.fillText('FACT ROYALE', w / 2, y); y += 30;
+
+  ctx.font = '400 18px Nunito, sans-serif';
+  ctx.fillStyle = 'rgba(240,192,64,0.52)';
+  ctx.fillText(data.date, w / 2, y);
+
+  // Score ring
+  const scoreCY = 295;
+  drawScoreRing(ctx, w / 2, scoreCY, 88);
+
+  ctx.font = '900 108px Nunito, sans-serif';
+  ctx.fillStyle = '#f0c040';
+  ctx.textAlign = 'center';
+  ctx.fillText(String(data.score), w / 2, scoreCY + 40);
+
+  ctx.font = '400 20px Nunito, sans-serif';
+  ctx.fillStyle = 'rgba(232,232,240,0.48)';
+  ctx.fillText('out of ' + data.total, w / 2, scoreCY + 66);
+
+  drawPctBadge(ctx, w / 2, scoreCY + 100, data.score, data.total);
+
+  let sy = scoreCY + 148;
+  if (data.rank) {
+    ctx.font = '600 20px Nunito, sans-serif';
+    ctx.fillStyle = 'rgba(232,232,240,0.72)';
+    ctx.textAlign = 'center';
+    ctx.fillText(data.rank, w / 2, sy); sy += 32;
+  }
+  if (data.streak > 1) {
+    ctx.font = '400 20px Nunito, sans-serif';
+    ctx.fillStyle = '#fbbf24';
+    ctx.fillText('🔥 ' + data.streak + '-day streak', w / 2, sy); sy += 32;
+  }
+
+  drawHLine(ctx, w, sy + 12); sy += 34;
+  drawPills(ctx, w, sy + 28, data.categories);
+
+  ctx.font = '700 16px Nunito, sans-serif';
+  ctx.fillStyle = 'rgba(240,192,64,0.52)';
+  ctx.textAlign = 'center';
+  ctx.fillText('♛  fact-royale.com', w / 2, h - 22);
+}
+
+// ── Share actions ──────────────────────────────────────
+
+async function shareCardImage() {
+  const canvas = document.getElementById('share-canvas');
+  if (!canvas) return;
+  canvas.toBlob(async (blob) => {
+    const file = new File([blob], 'fact-royale-score.png', { type: 'image/png' });
+    if (navigator.share && navigator.canShare && navigator.canShare({ files: [file] })) {
+      try {
+        await navigator.share({
+          files: [file],
+          title: 'Fact Royale',
+          text: `I scored ${score}/${questions.length} on today's Fact Royale. fact-royale.com`
+        });
+      } catch (e) {
+        if (e.name !== 'AbortError') downloadCardImage();
+      }
+    } else {
+      downloadCardImage();
+    }
+  }, 'image/png');
+}
+
+function downloadCardImage() {
+  const canvas = document.getElementById('share-canvas');
+  if (!canvas) return;
+  const a = document.createElement('a');
+  a.download = `fact-royale-${todayKey}.png`;
+  a.href     = canvas.toDataURL('image/png');
+  a.click();
+}
+
+function shareScore() {
+  openShareModal();
+}
+
+// ── Share modal wiring ─────────────────────────────────
+
+function initShareModal() {
+  const modal = document.getElementById('share-modal');
+  if (!modal) return;
+
+  // Smart button labels: mobile gets native share sheet, desktop gets download
+  const hasNativeShare = !!(navigator.share && navigator.canShare);
+  const shareBtn = document.getElementById('btn-share-image');
+  const dlBtn    = document.getElementById('btn-download-image');
+  if (shareBtn) shareBtn.textContent = hasNativeShare ? 'Share Image' : 'Download Image';
+  if (dlBtn) dlBtn.style.display = hasNativeShare ? '' : 'none';
+
+  document.getElementById('share-modal-close')
+    .addEventListener('click', closeShareModal);
+
+  modal.addEventListener('click', (e) => {
+    if (e.target === modal) closeShareModal();
+  });
+
+  modal.querySelectorAll('.share-fmt-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      shareFormat = btn.dataset.format;
+      modal.querySelectorAll('.share-fmt-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      renderShareCard();
+    });
+  });
+
+  document.getElementById('btn-share-image')
+    .addEventListener('click', shareCardImage);
+
+  document.getElementById('btn-download-image')
+    .addEventListener('click', downloadCardImage);
+
+  const copyLinkBtn = document.getElementById('btn-copy-link');
+  copyLinkBtn.addEventListener('click', () => {
+    navigator.clipboard.writeText('https://fact-royale.com').then(() => {
+      copyLinkBtn.textContent = 'Copied! ✓';
+      setTimeout(() => { copyLinkBtn.textContent = 'Copy Link'; }, 2200);
+    });
+  });
+}
+
+// ── Boot ───────────────────────────────────────────────
+
+async function init() {
+  todayKey = getTodayKey();
+  initShareModal();
+
+  try {
+    const res  = await fetch(`questions/${todayKey}.json`);
+    if (!res.ok) throw new Error('No quiz file');
+    const data = await res.json();
+
+    questions = shuffle(data.questions);
+    setupLanding(data);
+    showScreen('screen-landing');
+  } catch (e) {
+    showScreen('screen-noquiz');
+  }
+}
+
+document.addEventListener('DOMContentLoaded', init);
