@@ -37,7 +37,7 @@
       ],
       "answer": "The half-court line",
       "explanation": "In the NBA, a team has 8 seconds to advance the ball from their backcourt (behind the half-court line) into the frontcourt. In FIBA (international) rules, the time limit is also 8 seconds. Violation results in a turnover. Previously the NBA rule was 10 seconds.",
-      "memory_hook": "8 seconds to cross half-court \u2014 don't just stand there dribbling."
+      "memory_hook": "8 seconds to cross half-court — don't just stand there dribbling."
     },
     {
       "category": "Sports",
@@ -63,7 +63,7 @@
       ],
       "answer": "Clarissa Shields",
       "explanation": "Clarissa Shields (USA) won the gold medal in women's middleweight boxing at the 2012 London Olympics, becoming the first American woman to win an Olympic gold medal in boxing. She won again at Rio 2016. Women's boxing was added to the Olympics in 2012.",
-      "memory_hook": "Shields won gold in women's boxing at London 2012 \u2014 America's first female boxing champion."
+      "memory_hook": "Shields won gold in women's boxing at London 2012 — America's first female boxing champion."
     },
     {
       "category": "Music/Movies",
@@ -76,7 +76,7 @@
       ],
       "answer": "Pink Floyd",
       "explanation": "Pink Floyd's 'The Dark Side of the Moon' was released on March 1, 1973. It spent a record 741 weeks on the US Billboard 200. The album features iconic imagery (a prism splitting white light into a rainbow) and addresses themes of time, money, conflict, and mental illness. It is one of the best-selling albums of all time.",
-      "memory_hook": "Pink Floyd's prism album \u2014 741 weeks on the Billboard chart. The dark side never left."
+      "memory_hook": "Pink Floyd's prism album — 741 weeks on the Billboard chart. The dark side never left."
     },
     {
       "category": "Music/Movies",
@@ -89,7 +89,7 @@
       ],
       "answer": "Arnold Schwarzenegger",
       "explanation": "Arnold Schwarzenegger played the T-800 Model 101 Terminator in James Cameron's 1984 film. His delivery of 'I'll be back' became one of cinema's most quoted lines. O.J. Simpson was reportedly considered for the role, but James Cameron felt audiences wouldn't believe him as a killer.",
-      "memory_hook": "'I'll be back' \u2014 Schwarzenegger's Terminator. The line became bigger than the film."
+      "memory_hook": "'I'll be back' — Schwarzenegger's Terminator. The line became bigger than the film."
     },
     {
       "category": "Music/Movies",
@@ -102,7 +102,7 @@
       ],
       "answer": "Taylor Swift",
       "explanation": "'Miss Americana' is a 2020 Netflix documentary directed by Lana Wilson that follows Taylor Swift during the recording of her Lover album, her public political awakening, and her efforts to reclaim ownership of her masters from Scooter Braun. The film offers an intimate look at her life and decision-making.",
-      "memory_hook": "'Miss Americana' \u2014 Taylor Swift goes political and personal on Netflix."
+      "memory_hook": "'Miss Americana' — Taylor Swift goes political and personal on Netflix."
     },
     {
       "category": "History",
@@ -114,7 +114,7 @@
         "Richard Nixon"
       ],
       "answer": "Richard Nixon",
-      "explanation": "The Watergate scandal began with the 1972 break-in at the Democratic National Committee headquarters at the Watergate complex in Washington, D.C. Nixon participated in covering up the crime. Facing near-certain impeachment, he resigned on August 9, 1974 \u2014 the only U.S. president to have resigned from office.",
+      "explanation": "The Watergate scandal began with the 1972 break-in at the Democratic National Committee headquarters at the Watergate complex in Washington, D.C. Nixon participated in covering up the crime. Facing near-certain impeachment, he resigned on August 9, 1974 — the only U.S. president to have resigned from office.",
       "memory_hook": "Nixon, Watergate, resignation: he was going to be impeached, so he quit."
     },
     {
@@ -129,6 +129,32 @@
       "answer": "United States",
       "explanation": "The United States declared independence from Great Britain on July 4, 1776. The Declaration of Independence was formally adopted by the Continental Congress, primarily written by Thomas Jefferson. The date is celebrated annually as Independence Day (also called the Fourth of July) in the US.",
       "memory_hook": "July 4, 1776: the birthday of the United States. Fireworks, hot dogs, independence."
+    },
+    {
+      "category": "Geography",
+      "question": "Which is the world's largest freshwater lake by surface area?",
+      "options": [
+        "Lake Victoria",
+        "Lake Huron",
+        "Lake Baikal",
+        "Lake Superior"
+      ],
+      "answer": "Lake Superior",
+      "explanation": "Lake Superior, on the border of the United States and Canada, is the world's largest freshwater lake by surface area at approximately 82,000 square kilometers. The Great Lakes as a system contain about 21% of the world's surface fresh water. Lake Baikal holds more water by volume, but Lake Superior wins on surface area.",
+      "memory_hook": "Lake Superior = largest by surface area. Baikal is deepest and holds the most water, but Superior is widest. On a calm day, you cannot see across it — it looks like an ocean."
+    },
+    {
+      "category": "Science & Nature",
+      "question": "The Sun is classified as what type of star?",
+      "options": [
+        "Red giant",
+        "Blue supergiant",
+        "White dwarf",
+        "Yellow dwarf"
+      ],
+      "answer": "Yellow dwarf",
+      "explanation": "The Sun is a G-type main-sequence star, commonly called a yellow dwarf. It is middle-aged at about 4.6 billion years old and is expected to remain stable for another 5 billion years before expanding into a red giant. Despite being called 'yellow dwarf,' the Sun actually appears white from space — it looks yellow from Earth because of atmospheric scattering.",
+      "memory_hook": "The Sun = yellow dwarf. Middle-aged, middle-sized. About 5 billion years left before it expands and swallows the inner planets. From space it's actually white, not yellow."
     }
   ]
 }

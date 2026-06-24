@@ -1,0 +1,161 @@
+{
+  "date": "2026-08-04",
+  "questions": [
+    {
+      "category": "History",
+      "question": "Which ancient wonder was a giant statue straddling the harbor of the Greek island of Rhodes?",
+      "options": [
+        "Lighthouse of Alexandria",
+        "Statue of Zeus",
+        "Temple of Artemis",
+        "Colossus of Rhodes"
+      ],
+      "answer": "Colossus of Rhodes",
+      "explanation": "The Colossus of Rhodes was a massive statue of the Greek sun god Helios, standing approximately 33 meters (108 feet) tall at the harbor entrance of Rhodes. Built around 280 BC to celebrate Rhodes' victory over Cyprus, it stood for only about 54 years before being toppled by an earthquake in 226 BC. Despite myths, it likely did not straddle the harbor entrance — ships would have sailed beneath it.",
+      "memory_hook": "Colossus of Rhodes = giant statue at a Greek harbor. Stood for 54 years before an earthquake knocked it over. Inspired the concept for the Statue of Liberty — both are colossal harbor statues symbolizing freedom."
+    },
+    {
+      "category": "History",
+      "question": "The Reign of Terror during the French Revolution was associated with which political leader?",
+      "options": [
+        "Napoleon Bonaparte",
+        "Jean-Paul Marat",
+        "Louis XVI",
+        "Maximilien Robespierre"
+      ],
+      "answer": "Maximilien Robespierre",
+      "explanation": "Maximilien Robespierre led the Committee of Public Safety during the Reign of Terror (1793-1794), a period of mass executions of perceived enemies of the French Revolution. An estimated 17,000 were officially executed (including by guillotine) and 23,000 died in prison or without trial. The Terror ended when Robespierre himself was arrested and guillotined in the Thermidorian Reaction.",
+      "memory_hook": "Robespierre = Reign of Terror. He executed thousands in the name of the Revolution — then was guillotined himself. The revolution consumed its own leaders. He died by the same method he'd used on thousands of others."
+    },
+    {
+      "category": "History",
+      "question": "Who wrote the Communist Manifesto, published in 1848?",
+      "options": [
+        "Vladimir Lenin",
+        "Friedrich Engels and Karl Marx",
+        "Leon Trotsky",
+        "Joseph Stalin"
+      ],
+      "answer": "Friedrich Engels and Karl Marx",
+      "explanation": "The Communist Manifesto was written by Karl Marx and Friedrich Engels and published in February 1848, coinciding with the wave of revolutions sweeping Europe. It outlined the theory of historical materialism, class struggle, and called for the workers of the world to unite. It remains one of the most influential political documents ever written.",
+      "memory_hook": "Communist Manifesto = Marx AND Engels, 1848. Both names, not just Marx. Engels also financially supported Marx for much of his life. The last line: 'Workers of the world, unite!' — perhaps the most famous political closing line ever written."
+    },
+    {
+      "category": "History",
+      "question": "The English Civil War resulted in the execution of which monarch in 1649?",
+      "options": [
+        "Charles II",
+        "James I",
+        "Henry VIII",
+        "Charles I"
+      ],
+      "answer": "Charles I",
+      "explanation": "King Charles I of England was executed on January 30, 1649, following defeat in the English Civil War against Parliamentary forces led by Oliver Cromwell. It was the first time in English history that a reigning monarch had been publicly tried and executed. England briefly became a republic (the Commonwealth) before the monarchy was restored under Charles II in 1660.",
+      "memory_hook": "Charles I executed 1649. England tried and beheaded its own king. The country became a republic for 11 years. Then the monarchy returned — as if nothing had happened. The executed king's son became king."
+    },
+    {
+      "category": "Sports",
+      "question": "What is the maximum number of sets in a men's Grand Slam tennis match?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "7"
+      ],
+      "answer": "5",
+      "explanation": "Men's Grand Slam tennis matches (Australian Open, French Open, Wimbledon, US Open) are played best of 5 sets. Women's Grand Slam matches are best of 3 sets. A set is typically won by the first player to reach 6 games with at least a 2-game lead. Tiebreaks are played when sets reach 6-6, with some variations depending on the tournament.",
+      "memory_hook": "Men's Grand Slam = best of 5 sets. Women's = best of 3. A 5-set match can last 5+ hours. The longest Grand Slam match ever was John Isner vs Nicolas Mahut at Wimbledon in 2010 — 11 hours, 5 minutes over 3 days."
+    },
+    {
+      "category": "Sports",
+      "question": "What term describes a perfect game in bowling — 12 consecutive strikes?",
+      "options": [
+        "Turkey",
+        "Grand slam",
+        "Strike out",
+        "300"
+      ],
+      "answer": "300",
+      "explanation": "A perfect game in bowling consists of 12 consecutive strikes (rolling the ball into the pocket and knocking all 10 pins down on the first ball each frame), resulting in a score of 300 — the maximum possible. Bowling a 300 is extremely rare — the odds for an average recreational bowler are roughly 1 in 11,500. Even professional bowlers consider it a remarkable achievement.",
+      "memory_hook": "Perfect bowling game = 300. 12 consecutive strikes. You get 12 balls in a perfect game (not 10) because you get bonus rolls in the 10th frame. A '300 game' is bowling's equivalent of a hole-in-one — rare enough to be memorable."
+    },
+    {
+      "category": "Sports",
+      "question": "At the 2016 Rio Olympics, which gymnast won four gold medals and became the most decorated American gymnast ever?",
+      "options": [
+        "Mary Lou Retton",
+        "Gabby Douglas",
+        "Nastia Liukin",
+        "Simone Biles"
+      ],
+      "answer": "Simone Biles",
+      "explanation": "Simone Biles won four gold medals at the 2016 Rio Olympics (all-around, vault, floor, and team) and one bronze, becoming the most decorated American gymnast in history. She is considered the greatest gymnast of all time, with skills so advanced that four moves have been named after her. She has 37 World Championship medals — the most ever for a gymnast, male or female.",
+      "memory_hook": "Simone Biles = GOAT gymnast. Four gold medals in Rio. Skills named after her in the Code of Points. She has more World Championship medals than any gymnast ever. At the Tokyo Olympics she withdrew to protect her mental health — making her more influential, not less."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Which British band is known for 'Hey Jude,' 'Let It Be,' and 'Come Together'?",
+      "options": [
+        "The Rolling Stones",
+        "The Kinks",
+        "The Who",
+        "The Beatles"
+      ],
+      "answer": "The Beatles",
+      "explanation": "The Beatles — John Lennon, Paul McCartney, George Harrison, and Ringo Starr — are widely considered the most influential band in music history. They dominated the 1960s, introduced the album as an art form, pioneered music video, and transformed pop songwriting. They broke up in 1970. Their music has sold an estimated 600 million records — more than any other act.",
+      "memory_hook": "Beatles = Lennon, McCartney, Harrison, Starr. 600 million records sold, most ever. They changed everything: albums as art, music videos, stadium concerts, global fandom. In 1966 they got death threats in the Philippines for inadvertently snubbing Imelda Marcos."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Which 1980s coming-of-age film featured the song 'Don't You (Forget About Me)' by Simple Minds?",
+      "options": [
+        "Ferris Bueller's Day Off",
+        "Sixteen Candles",
+        "Pretty in Pink",
+        "The Breakfast Club"
+      ],
+      "answer": "The Breakfast Club",
+      "explanation": "The Breakfast Club (1985), directed by John Hughes, starred five high school students in Saturday detention representing different social cliques. The ending, where they raise a fist in solidarity to 'Don't You (Forget About Me),' is one of cinema's most iconic closing shots. The film perfectly captured 1980s teenage anxiety and is still studied in film schools as a model of character-driven storytelling.",
+      "memory_hook": "Breakfast Club = 'Don't You Forget About Me.' Five archetypes: the brain, athlete, basket case, princess, criminal. The fist raise at the end. Simple Minds almost passed on the song — John Hughes called them directly."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "The 1939 film Wizard of Oz starred which actress as Dorothy?",
+      "options": [
+        "Shirley Temple",
+        "Betty Grable",
+        "Lana Turner",
+        "Judy Garland"
+      ],
+      "answer": "Judy Garland",
+      "explanation": "Judy Garland played Dorothy Gale in The Wizard of Oz (1939), one of the most beloved films in cinema history. She was 16 years old during filming. The film's signature song, 'Over the Rainbow,' was almost cut from the film. Garland won a special Academy Award for her performance. The ruby slippers she wore sold for $2 million at auction in 2000.",
+      "memory_hook": "Judy Garland = Dorothy. She was 16. 'Over the Rainbow' was almost deleted from the final film. The ruby slippers originally came in silver in the book — changed to red for Technicolor. She later said the slippers were the most uncomfortable shoes she'd ever worn."
+    },
+    {
+      "category": "Geography",
+      "question": "Which South American country is home to the Galapagos Islands, famous for inspiring Darwin's theory of evolution?",
+      "options": [
+        "Peru",
+        "Chile",
+        "Colombia",
+        "Ecuador"
+      ],
+      "answer": "Ecuador",
+      "explanation": "The Galapagos Islands are located about 1,000 km off the coast of Ecuador in the Pacific Ocean and are an Ecuadorian territory. Charles Darwin visited in 1835 on the HMS Beagle and observed distinct species of finches on different islands — each adapted to local food sources. This observation was key to developing his theory of natural selection, published in On the Origin of Species in 1859.",
+      "memory_hook": "Galapagos = Ecuador. Darwin's finches. Each island had finches with different beak shapes adapted to local food. One trip in 1835 eventually produced the most revolutionary idea in the history of biology."
+    },
+    {
+      "category": "Science & Nature",
+      "question": "What is the term for the process by which one species gradually changes into another over many generations?",
+      "options": [
+        "Mutation",
+        "Natural selection",
+        "Genetic drift",
+        "Evolution"
+      ],
+      "answer": "Evolution",
+      "explanation": "Evolution is the process of change in all forms of life over generations. Driven primarily by natural selection — where individuals with traits better suited to their environment are more likely to survive and reproduce — it explains the diversity of life on Earth. Charles Darwin and Alfred Russel Wallace independently developed the theory of evolution by natural selection, published by Darwin in 1859.",
+      "memory_hook": "Evolution = change over generations. Darwin's big idea. The finches in the Galapagos, the fossils in the rocks, the DNA in every living thing — all tell the same story. Life changes, slowly, generation by generation."
+    }
+  ]
+}

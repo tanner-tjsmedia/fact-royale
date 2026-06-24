@@ -23,7 +23,7 @@
         "Nelson Mandela"
       ],
       "answer": "Nelson Mandela",
-      "explanation": "Nelson Mandela was imprisoned for 27 years (1964\u20131990) on Robben Island and other prisons for his anti-apartheid activism. After his release, he negotiated the end of apartheid and became South Africa's first democratically elected president in 1994. He was awarded the Nobel Peace Prize in 1993.",
+      "explanation": "Nelson Mandela was imprisoned for 27 years (1964–1990) on Robben Island and other prisons for his anti-apartheid activism. After his release, he negotiated the end of apartheid and became South Africa's first democratically elected president in 1994. He was awarded the Nobel Peace Prize in 1993.",
       "memory_hook": "Mandela: 27 years imprisoned, then president. From cell to chair of state."
     },
     {
@@ -37,7 +37,7 @@
       ],
       "answer": "5",
       "explanation": "The Olympic rings consist of five interlocking rings of blue, yellow, black, green, and red on a white background. Designed by Pierre de Coubertin in 1912, the colors were chosen because at least one of them appears on the flag of every nation in the world.",
-      "memory_hook": "Five rings, five continents \u2014 at least one Olympic color in every nation's flag."
+      "memory_hook": "Five rings, five continents — at least one Olympic color in every nation's flag."
     },
     {
       "category": "Sports",
@@ -62,7 +62,7 @@
         "A pitcher allows no hits, walks, or runners in 27 consecutive outs"
       ],
       "answer": "A pitcher allows no hits, walks, or runners in 27 consecutive outs",
-      "explanation": "A perfect game in baseball occurs when a pitcher faces only 27 batters over 9 innings, retiring each without allowing any to reach base. It is the rarest regular achievement in baseball \u2014 only 24 have been recorded in MLB history. A no-hitter allows no hits but may have walks.",
+      "explanation": "A perfect game in baseball occurs when a pitcher faces only 27 batters over 9 innings, retiring each without allowing any to reach base. It is the rarest regular achievement in baseball — only 24 have been recorded in MLB history. A no-hitter allows no hits but may have walks.",
       "memory_hook": "Perfect game: 27 up, 27 down. No one reaches base. Baseball's rarest gem."
     },
     {
@@ -75,7 +75,7 @@
         "Shawn Mendes"
       ],
       "answer": "Ed Sheeran",
-      "explanation": "Ed Sheeran released 'Shape of You' in 2017 \u2014 it became one of the best-selling singles of all time with over 3.5 billion Spotify streams. 'Bad Habits' was released in 2021. Sheeran began his career busking on the streets of London and has become one of the world's best-selling music artists.",
+      "explanation": "Ed Sheeran released 'Shape of You' in 2017 — it became one of the best-selling singles of all time with over 3.5 billion Spotify streams. 'Bad Habits' was released in 2021. Sheeran began his career busking on the streets of London and has become one of the world's best-selling music artists.",
       "memory_hook": "Ed Sheeran: ginger, guitar, global domination. 'Shape of You' + 'Bad Habits.'"
     },
     {
@@ -101,7 +101,7 @@
         "Led Zeppelin IV"
       ],
       "answer": "Thriller by Michael Jackson",
-      "explanation": "Michael Jackson's Thriller (1982) is the best-selling album of all time, with estimated sales of 66\u201370 million copies. It produced seven Billboard Top 10 singles and the iconic music video for 'Thriller,' directed by John Landis, which is the most-viewed music video in history on YouTube.",
+      "explanation": "Michael Jackson's Thriller (1982) is the best-selling album of all time, with estimated sales of 66–70 million copies. It produced seven Billboard Top 10 singles and the iconic music video for 'Thriller,' directed by John Landis, which is the most-viewed music video in history on YouTube.",
       "memory_hook": "Thriller: 70 million copies. The undisputed king of albums."
     },
     {
@@ -109,11 +109,11 @@
       "question": "Which French emperor was exiled to the island of St. Helena?",
       "options": [
         "Louis XVI",
-        "Napol\u00e9on Bonaparte",
+        "Napoléon Bonaparte",
         "Louis XVIII",
         "Charles X"
       ],
-      "answer": "Napol\u00e9on Bonaparte",
+      "answer": "Napoléon Bonaparte",
       "explanation": "Napoleon Bonaparte was exiled to the remote island of St. Helena in the South Atlantic Ocean after his final defeat at Waterloo in 1815. He lived there under British supervision until his death in 1821. It is one of the most remote inhabited islands in the world, specifically chosen to prevent his escape.",
       "memory_hook": "Napoleon's last exile: St. Helena. So remote no one could rescue him."
     },
@@ -128,7 +128,33 @@
       ],
       "answer": "Great Britain",
       "explanation": "The Industrial Revolution began in Great Britain in the mid-18th century, transforming manufacturing, transportation, and society. Key inventions included James Watt's improved steam engine (1769), the spinning jenny, and the power loom. Britain's coal and iron resources, as well as its colonial trade networks, fueled the revolution.",
-      "memory_hook": "Britain sparked the Industrial Revolution \u2014 coal, steam, and an empire of factories."
+      "memory_hook": "Britain sparked the Industrial Revolution — coal, steam, and an empire of factories."
+    },
+    {
+      "category": "Geography",
+      "question": "Which European country has the most UNESCO World Heritage Sites?",
+      "options": [
+        "Greece",
+        "France",
+        "Spain",
+        "Italy"
+      ],
+      "answer": "Italy",
+      "explanation": "Italy leads the world with 58 UNESCO World Heritage Sites, including the Colosseum, Pompeii, Venice, the Amalfi Coast, and the historic centers of Rome, Florence, and Siena. China is close behind with 57. Italy's extraordinary concentration of ancient history, Renaissance art, and natural beauty contributes to its record.",
+      "memory_hook": "Italy = most UNESCO World Heritage Sites in the world. 58 sites. Rome, Venice, Florence, Pompeii — the entire country is essentially a museum you can walk through."
+    },
+    {
+      "category": "Science & Nature",
+      "question": "Which gas do plants primarily absorb during photosynthesis to make food?",
+      "options": [
+        "Oxygen",
+        "Nitrogen",
+        "Hydrogen",
+        "Carbon dioxide"
+      ],
+      "answer": "Carbon dioxide",
+      "explanation": "Plants absorb carbon dioxide (CO2) from the air through tiny pores called stomata in their leaves. Combined with water from the roots and energy from sunlight, they convert CO2 into glucose and release oxygen as a byproduct. This is why forests are called carbon sinks — they continuously pull CO2 out of the atmosphere.",
+      "memory_hook": "Plants breathe in CO2, breathe out oxygen. The exact opposite of animals. Trees are essentially CO2 processors — turning a greenhouse gas into wood and leaves while releasing the oxygen we breathe."
     }
   ]
 }

@@ -1,0 +1,161 @@
+{
+  "date": "2026-08-23",
+  "questions": [
+    {
+      "category": "History",
+      "question": "Which US president delivered the famous 'I Have a Dream' speech — no wait, which president was in office when Martin Luther King Jr. delivered it?",
+      "options": [
+        "Dwight D. Eisenhower",
+        "John F. Kennedy",
+        "Lyndon B. Johnson",
+        "Richard Nixon"
+      ],
+      "answer": "John F. Kennedy",
+      "explanation": "Martin Luther King Jr. delivered his 'I Have a Dream' speech on August 28, 1963, during John F. Kennedy's presidency. Kennedy was assassinated three months later in November 1963. It was Kennedy's Justice Department that was negotiating with civil rights leaders at the time. Kennedy's successor, Lyndon B. Johnson, signed the Civil Rights Act of 1964 and Voting Rights Act of 1965.",
+      "memory_hook": "MLK's 'I Have a Dream' speech happened in August 1963 under JFK. Kennedy was shot 3 months later. LBJ signed the actual Civil Rights Act. History is often delivered by one person and implemented by another."
+    },
+    {
+      "category": "History",
+      "question": "The Meiji Restoration of 1868 transformed which country from a feudal state into a modern industrial power?",
+      "options": [
+        "Korea",
+        "Vietnam",
+        "China",
+        "Japan"
+      ],
+      "answer": "Japan",
+      "explanation": "The Meiji Restoration (1868) ended Japan's feudal government (the Tokugawa shogunate) and restored imperial rule under Emperor Meiji. Japan rapidly modernized — adopting Western technology, military systems, education, and industry. Within 40 years, Japan had become a major world power, defeating Russia in the Russo-Japanese War (1905). The Meiji Restoration is one of history's most remarkable national transformations.",
+      "memory_hook": "Meiji Restoration 1868 = Japan modernizes at warp speed. Went from samurai and rice farmers to a naval power that defeated Russia in 40 years. Japan studied what made Western countries powerful and systematically adopted all of it. Speed of transformation unprecedented in modern history."
+    },
+    {
+      "category": "History",
+      "question": "Who was the first woman elected Prime Minister of the United Kingdom?",
+      "options": [
+        "Barbara Castle",
+        "Shirley Williams",
+        "Angela Merkel",
+        "Margaret Thatcher"
+      ],
+      "answer": "Margaret Thatcher",
+      "explanation": "Margaret Thatcher became the UK's first female Prime Minister on May 4, 1979, serving until November 28, 1990 — the longest continuous term as PM in the 20th century. Known as the 'Iron Lady' (a Soviet nickname she embraced), she privatized state industries, broke union power, fought the Falklands War, and formed a strong partnership with US President Ronald Reagan. She remains the UK's only female Prime Minister.",
+      "memory_hook": "Thatcher = first (and still only) female UK PM. The Iron Lady — a Soviet insult she turned into a badge. 11 years in office, longest 20th century PM. She privatized everything she could and broke the miners' strike. Either a hero or villain depending on who you ask, but no one disputes her impact."
+    },
+    {
+      "category": "History",
+      "question": "The first successful transatlantic telegraph cable, connecting Europe and North America, was completed in which year?",
+      "options": [
+        "1858",
+        "1866",
+        "1876",
+        "1895"
+      ],
+      "answer": "1866",
+      "explanation": "The first permanent transatlantic telegraph cable was successfully laid in 1866 by the SS Great Eastern. Earlier attempts (1857, 1858, 1865) had failed. The cable reduced transatlantic communication from weeks (by ship) to minutes. Queen Victoria sent the first transatlantic telegram to US President James Buchanan in 1858, but that cable failed soon after. The 1866 cable changed global communication permanently.",
+      "memory_hook": "Transatlantic telegraph cable = 1866 (permanent success). Earlier attempts failed. Before the cable, news from Europe took weeks by ship. After: minutes by electricity. It was the 19th century internet — suddenly the world was connected in real time."
+    },
+    {
+      "category": "Sports",
+      "question": "In cricket, what is the term for when all ten wickets are taken for no runs?",
+      "options": [
+        "Perfect bowling",
+        "All out for none",
+        "Hat trick all-round",
+        "Ten for nothing"
+      ],
+      "answer": "All out for none",
+      "explanation": "Being dismissed for zero runs (all out) means the entire batting team was dismissed without scoring a run. This is extremely rare in cricket. A team being bowled out for very low scores — like 26 runs (the lowest Test score) — is already considered a catastrophic collapse. Being all out for zero has never happened in Test cricket; the closest was Pakistan's 35 all out against Australia in 2022.",
+      "memory_hook": "All out for zero = the cricket nightmare. Never happened in Test cricket. Pakistan's 35 all out against Australia in 2022 is considered a modern nadir. Cricket's lowest Test score ever is 26 — made by New Zealand in 1955. The sport moves slowly but disasters happen fast."
+    },
+    {
+      "category": "Sports",
+      "question": "What is the name of the governing body of international soccer (football)?",
+      "options": [
+        "UEFA",
+        "IOC",
+        "CONCACAF",
+        "FIFA"
+      ],
+      "answer": "FIFA",
+      "explanation": "FIFA (Fédération Internationale de Football Association) is the international governing body for soccer, founded in Paris in 1904. It oversees 211 member associations — more members than the United Nations. FIFA organizes the World Cup, Women's World Cup, and various other competitions. Its headquarters are in Zurich, Switzerland. FIFA has been frequently criticized for corruption, particularly surrounding World Cup host selection.",
+      "memory_hook": "FIFA = world soccer's governing body. 211 members — more than the UN. Founded 1904 in Paris. Has been rocked by corruption scandals, particularly around World Cup hosting bids. Qatar 2022 became the most controversial hosting decision in World Cup history."
+    },
+    {
+      "category": "Sports",
+      "question": "How many events make up a track and field heptathlon for women?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "answer": "7",
+      "explanation": "The heptathlon consists of 7 events over two days: 100m hurdles, high jump, shot put, and 200m on day one; long jump, javelin, and 800m on day two. Points are calculated based on performance in each event. The winner is considered the world's greatest female all-round athlete. Jessica Ennis-Hill, Dafne Schippers, and Nafi Thiam are among its most celebrated champions.",
+      "memory_hook": "Heptathlon = 7 events for women. Decathlon = 10 events for men. The heptathlon winner gets called the world's greatest female athlete — seven different disciplines tested in two days. Day 1 tests speed and power; Day 2 tests endurance and technique."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Which American director made 'Apocalypse Now' (1979), a Vietnam War film based on Joseph Conrad's 'Heart of Darkness'?",
+      "options": [
+        "Oliver Stone",
+        "Stanley Kubrick",
+        "Michael Cimino",
+        "Francis Ford Coppola"
+      ],
+      "answer": "Francis Ford Coppola",
+      "explanation": "Francis Ford Coppola directed Apocalypse Now (1979), starring Marlon Brando, Martin Sheen, and Robert Duvall. The production was notoriously troubled — typhoon, Brando arriving unprepared and overweight, Martin Sheen's heart attack, and Coppola's mental breakdown during filming. The documentary Hearts of Darkness (1991) about the making of the film is almost as famous as the film itself.",
+      "memory_hook": "Apocalypse Now = Coppola in Vietnam, 1979. The making of it was as nightmarish as the subject. Marlon Brando showed up unprepared and 100 pounds overweight. Martin Sheen had a heart attack. A typhoon destroyed the sets. Coppola called the film 'a metaphor for Vietnam itself' — ambitious, disastrous, and somehow transcendent."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "The song 'Imagine' (1971) was written by which musician as a vision of world peace?",
+      "options": [
+        "George Harrison",
+        "Ringo Starr",
+        "Paul McCartney",
+        "John Lennon"
+      ],
+      "answer": "John Lennon",
+      "explanation": "John Lennon wrote and recorded 'Imagine' in 1971 at his Tittenhurst Park estate in England. The song asks listeners to imagine a world without countries, religion, or possessions. It is one of the best-selling singles of all time and was voted the greatest song of the 20th century in multiple polls. Lennon was shot and killed in New York City on December 8, 1980.",
+      "memory_hook": "'Imagine' = John Lennon, 1971. Written in his English mansion, which he acknowledged was ironic for a song about no possessions. Shot and killed in 1980 outside his New York apartment by a fan. The most beloved peace anthem written by a man who died violently."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Which director won back-to-back Best Director Oscars for Traffic (2000) and Erin Brockovich (2000)?",
+      "options": [
+        "Ridley Scott",
+        "David Fincher",
+        "Joel Coen",
+        "Steven Soderbergh"
+      ],
+      "answer": "Steven Soderbergh",
+      "explanation": "Steven Soderbergh won the Academy Award for Best Director for Traffic (2000) — an unusual win for that year because Traffic and Erin Brockovich were both his films, both nominated, and he won for the one fewer people expected. This made him the only director in Oscar history to be nominated twice in the same year for Best Director. Soderbergh has since directed numerous critically successful films including the Ocean's trilogy.",
+      "memory_hook": "Soderbergh = won Best Director for Traffic but had Erin Brockovich also nominated the same year. Two films in the Best Director category simultaneously. He's the only director to achieve this. Traffic was a drug war anthology; Erin Brockovich was Julia Roberts winning her Oscar. Two completely different films from the same director in the same year."
+    },
+    {
+      "category": "Geography",
+      "question": "The Serengeti, one of Africa's most iconic national parks, is located in which country?",
+      "options": [
+        "Kenya",
+        "Uganda",
+        "Botswana",
+        "Tanzania"
+      ],
+      "answer": "Tanzania",
+      "explanation": "The Serengeti National Park is located in northern Tanzania, covering about 14,750 square kilometers. It is famous for the annual Great Migration, where over 1.5 million wildebeest, along with hundreds of thousands of zebras and gazelles, migrate in a circular route across the Serengeti and into the Maasai Mara in Kenya. The park was designated a UNESCO World Heritage Site in 1981.",
+      "memory_hook": "Serengeti = Tanzania. The Great Migration: 1.5 million wildebeest plus zebras and gazelles moving in a huge circle through Tanzania and into Kenya every year. The Maasai Mara in Kenya is where tourists watch predators intercept the migration at river crossings. Wildlife television was essentially invented at these river crossings."
+    },
+    {
+      "category": "Science & Nature",
+      "question": "What is the name of the boundary between Earth's crust and mantle?",
+      "options": [
+        "Conrad discontinuity",
+        "Gutenberg discontinuity",
+        "Lehmann discontinuity",
+        "Mohorovicic discontinuity"
+      ],
+      "answer": "Mohorovicic discontinuity",
+      "explanation": "The Mohorovicic discontinuity (or 'Moho') is the boundary between Earth's crust and upper mantle, located approximately 35 km below the continents and 5-10 km below the ocean floor. It was discovered by Croatian seismologist Andrija Mohorovicic in 1909 by analyzing seismic wave speeds. Below the Moho, seismic waves travel faster because of the denser mantle rock.",
+      "memory_hook": "Moho = crust-mantle boundary. Named after Croatian geologist Mohorovicic. Discovered by studying how earthquake waves change speed at this depth. The crust you live on is just the thin surface layer — below it is the mantle where rocks are hot enough to flow over millions of years."
+    }
+  ]
+}

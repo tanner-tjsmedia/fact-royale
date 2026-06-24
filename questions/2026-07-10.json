@@ -36,7 +36,7 @@
         "175"
       ],
       "answer": "147",
-      "explanation": "The maximum break in snooker is 147, achieved by potting all 15 reds each with a black (15 \u00d7 8 = 120), then potting all the colored balls in order (yellow 2 + green 3 + brown 4 + blue 5 + pink 6 + black 7 = 27), totaling 147. It is called a 'maximum' or 'maximum break.'",
+      "explanation": "The maximum break in snooker is 147, achieved by potting all 15 reds each with a black (15 × 8 = 120), then potting all the colored balls in order (yellow 2 + green 3 + brown 4 + blue 5 + pink 6 + black 7 = 27), totaling 147. It is called a 'maximum' or 'maximum break.'",
       "memory_hook": "147 = snooker's perfect game. Ronnie O'Sullivan holds the record for the fastest maximum."
     },
     {
@@ -49,8 +49,8 @@
         "30 feet"
       ],
       "answer": "18.5 feet",
-      "explanation": "NFL goal posts are 18 feet 6 inches (18.5 feet) wide between the uprights. The crossbar is 10 feet above the ground. College football uses the same width. Kickers must split the uprights from sometimes 60+ yards away \u2014 a margin of about 18.5 feet for a tiny ball.",
-      "memory_hook": "18.5 feet wide \u2014 just slightly wider than a yellow school bus."
+      "explanation": "NFL goal posts are 18 feet 6 inches (18.5 feet) wide between the uprights. The crossbar is 10 feet above the ground. College football uses the same width. Kickers must split the uprights from sometimes 60+ yards away — a margin of about 18.5 feet for a tiny ball.",
+      "memory_hook": "18.5 feet wide — just slightly wider than a yellow school bus."
     },
     {
       "category": "Sports",
@@ -62,7 +62,7 @@
         "Freestyle"
       ],
       "answer": "Butterfly",
-      "explanation": "The butterfly stroke involves both arms moving simultaneously in a circular motion while the legs perform a dolphin kick \u2014 both legs moving together up and down. It was developed in the 1930s as a variant of breaststroke and became an official Olympic event in 1956.",
+      "explanation": "The butterfly stroke involves both arms moving simultaneously in a circular motion while the legs perform a dolphin kick — both legs moving together up and down. It was developed in the 1930s as a variant of breaststroke and became an official Olympic event in 1956.",
       "memory_hook": "Butterfly: both arms like wings, both legs like a dolphin tail."
     },
     {
@@ -76,7 +76,7 @@
       ],
       "answer": "Keanu Reeves",
       "explanation": "Keanu Reeves played Thomas Anderson/Neo in The Matrix (1999), The Matrix Reloaded (2003), The Matrix Revolutions (2003), and The Matrix Resurrections (2021). Will Smith was originally offered the role of Neo but turned it down to star in Wild Wild West.",
-      "memory_hook": "Reeves chose the red pill \u2014 he became Neo. Will Smith chose Wild Wild West."
+      "memory_hook": "Reeves chose the red pill — he became Neo. Will Smith chose Wild Wild West."
     },
     {
       "category": "Music/Movies",
@@ -88,8 +88,8 @@
         "Prince"
       ],
       "answer": "Prince",
-      "explanation": "'Purple Rain' was the title track of Prince's 1984 album and accompanying film. It is often considered one of the greatest songs ever recorded. Prince performed it live as a guitar solo at the 2007 Super Bowl halftime show during an actual rainstorm \u2014 widely considered the greatest Super Bowl performance ever.",
-      "memory_hook": "Prince, purple, rain \u2014 he made the weather match the music."
+      "explanation": "'Purple Rain' was the title track of Prince's 1984 album and accompanying film. It is often considered one of the greatest songs ever recorded. Prince performed it live as a guitar solo at the 2007 Super Bowl halftime show during an actual rainstorm — widely considered the greatest Super Bowl performance ever.",
+      "memory_hook": "Prince, purple, rain — he made the weather match the music."
     },
     {
       "category": "Music/Movies",
@@ -102,7 +102,7 @@
       ],
       "answer": "Forrest Gump",
       "explanation": "'Stupid is as stupid does' is said by Forrest Gump (played by Tom Hanks) in the 1994 film of the same name. It is a variation of the expression 'handsome is as handsome does,' meaning that a person's actions define them more than their appearance or intelligence.",
-      "memory_hook": "Forrest: 'Stupid is as stupid does' \u2014 wisdom from the simplest character."
+      "memory_hook": "Forrest: 'Stupid is as stupid does' — wisdom from the simplest character."
     },
     {
       "category": "History",
@@ -115,7 +115,7 @@
       ],
       "answer": "Germany",
       "explanation": "Germany was divided into West Germany (Federal Republic of Germany, aligned with the West) and East Germany (German Democratic Republic, controlled by the Soviet Union) after World War II. The division lasted until German Reunification on October 3, 1990, after the fall of the Berlin Wall.",
-      "memory_hook": "Germany was split \u2014 West and East \u2014 from 1949 to 1990."
+      "memory_hook": "Germany was split — West and East — from 1949 to 1990."
     },
     {
       "category": "History",
@@ -128,7 +128,33 @@
       ],
       "answer": "Cherokee",
       "explanation": "The Trail of Tears was the forced relocation of the Cherokee Nation and other Native American tribes from their homelands in the southeastern United States to 'Indian Territory' in present-day Oklahoma in the 1830s. Approximately 4,000 of the 15,000 Cherokee who were relocated died during the journey.",
-      "memory_hook": "Trail of Tears \u2014 Cherokee forced westward in winter. Tears froze on the trail."
+      "memory_hook": "Trail of Tears — Cherokee forced westward in winter. Tears froze on the trail."
+    },
+    {
+      "category": "Geography",
+      "question": "Australia is unique because it is both a country and what else?",
+      "options": [
+        "A peninsula",
+        "An island",
+        "A continent",
+        "An archipelago"
+      ],
+      "answer": "A continent",
+      "explanation": "Australia is the only nation in the world that occupies an entire continent. It is also the world's largest island if Antarctica is excluded, and the smallest, lowest, and flattest of all continents. The continent is sometimes called 'Sahul' or 'Oceania' in geological contexts.",
+      "memory_hook": "Australia = country + continent. The only place where national borders and continental borders are the same thing. It's also the flattest continent — more than a third of it is desert."
+    },
+    {
+      "category": "Science & Nature",
+      "question": "Watson and Crick are credited with discovering the structure of DNA in 1953. What is that structure called?",
+      "options": [
+        "Triple helix",
+        "Double strand",
+        "Double helix",
+        "Twisted ladder"
+      ],
+      "answer": "Double helix",
+      "explanation": "James Watson and Francis Crick published their model of the DNA double helix in 1953, using X-ray diffraction data from Rosalind Franklin. The double helix resembles a twisted ladder: the two sugar-phosphate backbones form the rails, and the base pairs (A-T and G-C) form the rungs. This structure explained how DNA can be copied precisely.",
+      "memory_hook": "DNA = double helix. Watson, Crick, and the crucial (often uncredited) work of Rosalind Franklin. The twisted ladder that contains the instructions for every living thing on Earth."
     }
   ]
 }

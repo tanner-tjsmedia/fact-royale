@@ -11,7 +11,7 @@
       ],
       "answer": "The Ural Mountains",
       "explanation": "The Ural Mountains, running north to south through Russia, are the traditional boundary between Europe and Asia. They stretch about 2,500 km from the Arctic Ocean to the northern border of Kazakhstan and are one of the oldest mountain ranges on Earth.",
-      "memory_hook": "Urals divide Eurasia \u2014 Europe on the left, Asia on the right."
+      "memory_hook": "Urals divide Eurasia — Europe on the left, Asia on the right."
     },
     {
       "category": "History",
@@ -24,7 +24,7 @@
       ],
       "answer": "The Thanksgiving",
       "explanation": "The First Thanksgiving was a three-day feast shared between Pilgrim settlers and members of the Wampanoag nation in Plymouth Colony in 1621. The event was a celebration of the harvest. Thanksgiving became a U.S. national holiday in 1863, proclaimed by President Abraham Lincoln.",
-      "memory_hook": "1621 \u2014 Pilgrims and Wampanoag people. Three days of feasting, one lasting tradition."
+      "memory_hook": "1621 — Pilgrims and Wampanoag people. Three days of feasting, one lasting tradition."
     },
     {
       "category": "Sports",
@@ -37,7 +37,7 @@
       ],
       "answer": "9.4 inches",
       "explanation": "A standard NBA basketball has a circumference of 29.5 inches, giving it a diameter of approximately 9.4 inches. A WNBA ball is slightly smaller. Both fit through the standard 18-inch rim, which is nearly twice the ball's diameter.",
-      "memory_hook": "9.4 inch ball, 18 inch hoop \u2014 the ball fits twice over with room to spare."
+      "memory_hook": "9.4 inch ball, 18 inch hoop — the ball fits twice over with room to spare."
     },
     {
       "category": "Sports",
@@ -56,13 +56,13 @@
       "category": "Sports",
       "question": "What is the circumference of a soccer ball in inches?",
       "options": [
-        "20\u201322 inches",
-        "22\u201324 inches",
-        "27\u201328 inches",
-        "30\u201332 inches"
+        "20–22 inches",
+        "22–24 inches",
+        "27–28 inches",
+        "30–32 inches"
       ],
-      "answer": "27\u201328 inches",
-      "explanation": "A FIFA-regulation soccer ball must have a circumference of between 68 and 70 cm (27\u201328 inches). The ball must weigh between 410 and 450 grams and be inflated to a specific pressure. These standards have been in place since 1937.",
+      "answer": "27–28 inches",
+      "explanation": "A FIFA-regulation soccer ball must have a circumference of between 68 and 70 cm (27–28 inches). The ball must weigh between 410 and 450 grams and be inflated to a specific pressure. These standards have been in place since 1937.",
       "memory_hook": "Soccer ball: 27-28 inches around. Think of a medium-sized watermelon."
     },
     {
@@ -76,7 +76,7 @@
       ],
       "answer": "Titanic",
       "explanation": "'My Heart Will Go On' was performed by Celine Dion for the 1997 film Titanic. Written by James Horner and Will Jennings, it won the Academy Award for Best Original Song and was one of the best-selling singles of all time. Dion initially didn't want to record it.",
-      "memory_hook": "'My Heart Will Go On' \u2014 Celine's heart, Titanic's soul."
+      "memory_hook": "'My Heart Will Go On' — Celine's heart, Titanic's soul."
     },
     {
       "category": "Music/Movies",
@@ -88,7 +88,7 @@
         "Girls Just Want to Have Fun"
       ],
       "answer": "Video Killed the Radio Star",
-      "explanation": "'Video Killed the Radio Star' by The Buggles was the first music video aired on MTV when the channel launched at 12:01 AM on August 1, 1981. The irony of the song's title \u2014 predicting that video would replace radio \u2014 made it a perfect choice for the launch.",
+      "explanation": "'Video Killed the Radio Star' by The Buggles was the first music video aired on MTV when the channel launched at 12:01 AM on August 1, 1981. The irony of the song's title — predicting that video would replace radio — made it a perfect choice for the launch.",
       "memory_hook": "MTV's first video predicted its own power: 'Video Killed the Radio Star.'"
     },
     {
@@ -109,13 +109,13 @@
       "question": "The Aztec Empire was conquered by which European explorer?",
       "options": [
         "Francisco Pizarro",
-        "Hern\u00e1n Cort\u00e9s",
+        "Hernán Cortés",
         "Christopher Columbus",
-        "Juan Ponce de Le\u00f3n"
+        "Juan Ponce de León"
       ],
-      "answer": "Hern\u00e1n Cort\u00e9s",
-      "explanation": "Hern\u00e1n Cort\u00e9s led the Spanish conquest of the Aztec Empire from 1519 to 1521. With a force of about 500 Spanish soldiers, plus thousands of Indigenous allies who opposed Aztec rule, he captured Tenochtitl\u00e1n (modern-day Mexico City). The conquest was aided by smallpox epidemics that devastated the Aztec population.",
-      "memory_hook": "Cort\u00e9s conquered the Aztecs \u2014 a few hundred soldiers changed the whole continent."
+      "answer": "Hernán Cortés",
+      "explanation": "Hernán Cortés led the Spanish conquest of the Aztec Empire from 1519 to 1521. With a force of about 500 Spanish soldiers, plus thousands of Indigenous allies who opposed Aztec rule, he captured Tenochtitlán (modern-day Mexico City). The conquest was aided by smallpox epidemics that devastated the Aztec population.",
+      "memory_hook": "Cortés conquered the Aztecs — a few hundred soldiers changed the whole continent."
     },
     {
       "category": "History",
@@ -127,8 +127,34 @@
         "France"
       ],
       "answer": "France",
-      "explanation": "The Louisiana Purchase (1803) was a land deal in which the United States acquired about 828,000 square miles from France under Napoleon Bonaparte for $15 million \u2014 roughly 3 cents per acre. President Thomas Jefferson doubled the country's size with a single transaction.",
-      "memory_hook": "France sold it cheap \u2014 Napoleon needed money, Jefferson needed land."
+      "explanation": "The Louisiana Purchase (1803) was a land deal in which the United States acquired about 828,000 square miles from France under Napoleon Bonaparte for $15 million — roughly 3 cents per acre. President Thomas Jefferson doubled the country's size with a single transaction.",
+      "memory_hook": "France sold it cheap — Napoleon needed money, Jefferson needed land."
+    },
+    {
+      "category": "Geography",
+      "question": "The Caspian Sea, the world's largest landlocked body of water, borders five countries. Which of these is NOT one of them?",
+      "options": [
+        "Russia",
+        "Turkey",
+        "Kazakhstan",
+        "Iran"
+      ],
+      "answer": "Turkey",
+      "explanation": "The Caspian Sea is bordered by Russia, Kazakhstan, Turkmenistan, Iran, and Azerbaijan. Turkey, despite being a major country in the region, does not share a coastline with the Caspian. The Caspian Sea is technically a lake despite its name, though it is so large it has its own tides and weather systems.",
+      "memory_hook": "Caspian = Russia, Kazakhstan, Turkmenistan, Iran, Azerbaijan. Five countries, no Turkey. It looks like a sea and acts like a sea, but it has no outlet to any ocean."
+    },
+    {
+      "category": "Science & Nature",
+      "question": "What is the speed of light in a vacuum, approximately?",
+      "options": [
+        "3,000 km per second",
+        "30,000 km per second",
+        "300,000 km per second",
+        "3,000,000 km per second"
+      ],
+      "answer": "300,000 km per second",
+      "explanation": "Light travels at approximately 299,792 km per second (or about 186,000 miles per second) in a vacuum. This is the cosmic speed limit — nothing with mass can reach this speed. At this velocity, light can circle the Earth about 7.5 times per second. Einstein's theory of relativity is built around the constancy of this speed.",
+      "memory_hook": "Light = 300,000 km per second. It circles the Earth 7.5 times every second. Nothing travels faster. Even so, the nearest star is still over 4 years away at that speed."
     }
   ]
 }

@@ -1,0 +1,161 @@
+{
+  "date": "2026-08-01",
+  "questions": [
+    {
+      "category": "History",
+      "question": "The first moon landing was achieved by which country in 1969?",
+      "options": [
+        "Soviet Union",
+        "France",
+        "China",
+        "United States"
+      ],
+      "answer": "United States",
+      "explanation": "NASA's Apollo 11 mission landed astronauts Neil Armstrong and Buzz Aldrin on the Moon on July 20, 1969. Armstrong was the first to step on the surface, saying 'That's one small step for man, one giant leap for mankind.' Michael Collins orbited the Moon in the command module. The mission fulfilled President Kennedy's 1961 pledge to land a man on the Moon before the end of the decade.",
+      "memory_hook": "Moon landing = USA, July 20, 1969. Armstrong first, Aldrin second, Collins in orbit. 'One small step for man.' Kennedy set the goal in 1961 — they made it with 5 months to spare."
+    },
+    {
+      "category": "History",
+      "question": "The Great Depression, one of the worst economic crises in history, began with a stock market crash in which year?",
+      "options": [
+        "1927",
+        "1929",
+        "1931",
+        "1933"
+      ],
+      "answer": "1929",
+      "explanation": "The Great Depression began with the stock market crash of October 1929 (Black Tuesday), when stock prices collapsed catastrophically. By 1932, US unemployment reached 25%. The Depression spread globally, lasted through most of the 1930s, and helped fuel the political instability that led to World War II. It ended largely due to the massive government spending associated with WWII.",
+      "memory_hook": "Great Depression = 1929 crash, Black Tuesday. 25% unemployment. The prosperity of the 1920s collapsed almost overnight. The Depression changed how governments think about their role in managing economies."
+    },
+    {
+      "category": "History",
+      "question": "Which American president issued the Emancipation Proclamation in 1863, declaring enslaved people in Confederate states free?",
+      "options": [
+        "Ulysses S. Grant",
+        "James Buchanan",
+        "Andrew Johnson",
+        "Abraham Lincoln"
+      ],
+      "answer": "Abraham Lincoln",
+      "explanation": "President Abraham Lincoln issued the Emancipation Proclamation on January 1, 1863, during the Civil War. It declared that all enslaved people in Confederate states in rebellion were to be freed. While it didn't immediately free anyone (since the Union had no control over Confederate territory), it transformed the Civil War's moral purpose and paved the way for the 13th Amendment, which formally abolished slavery in 1865.",
+      "memory_hook": "Lincoln = Emancipation Proclamation, 1863. It didn't immediately free enslaved people — the Union didn't control Confederate territory. But it changed the war's meaning and made abolition the Union's official goal."
+    },
+    {
+      "category": "History",
+      "question": "The construction of the Colosseum in Rome was completed in which century AD?",
+      "options": [
+        "1st century BC",
+        "1st century AD",
+        "2nd century AD",
+        "3rd century AD"
+      ],
+      "answer": "1st century AD",
+      "explanation": "The Colosseum was completed in 80 AD under Emperor Titus, having been started by his father Vespasian in 70 AD. It could hold 50,000-80,000 spectators. The arena hosted gladiatorial contests, animal hunts, executions, and mock sea battles (by flooding the arena). Despite earthquakes and stone robbers over the centuries, about two-thirds still stands.",
+      "memory_hook": "Colosseum finished 80 AD. Took 10 years. Could hold 80,000 people — bigger than most modern stadiums. Had elevators, retractable shade awnings, and numbered seats. Ancient Rome had better stadium tech than many modern cities."
+    },
+    {
+      "category": "Sports",
+      "question": "Which country invented the sport of basketball?",
+      "options": [
+        "United States",
+        "Canada",
+        "Britain",
+        "Cuba"
+      ],
+      "answer": "United States",
+      "explanation": "Basketball was invented by Canadian-American physical education instructor Dr. James Naismith in December 1891 at the YMCA International Training School in Springfield, Massachusetts. He created the game as an indoor winter activity, using peach baskets as the original goals. The NBA was founded in 1946, and basketball is now played by an estimated 450 million people worldwide.",
+      "memory_hook": "Basketball invented by Naismith, 1891, Springfield MA. He was Canadian, which creates an amusing national debate. Original baskets were actual peach baskets — someone had to climb a ladder to retrieve the ball after each score."
+    },
+    {
+      "category": "Sports",
+      "question": "In Formula 1 racing, how many points does the winner of a race receive?",
+      "options": [
+        "10",
+        "20",
+        "25",
+        "30"
+      ],
+      "answer": "25",
+      "explanation": "The winner of a Formula 1 Grand Prix receives 25 points in the current scoring system (introduced in 2010). Second place gets 18, third gets 15, decreasing to 1 point for 10th place. An additional point is awarded for the fastest lap (if the driver finishes in the top 10). The driver with the most points at season's end wins the World Drivers' Championship.",
+      "memory_hook": "F1 win = 25 points. Introduced in 2010. Before that, wins were worth 10. The current system rewards consistency — 25 for a win, 18 for second, down to 1 for 10th. Second place pays well in Formula 1."
+    },
+    {
+      "category": "Sports",
+      "question": "What is the only sport that has been played on the Moon?",
+      "options": [
+        "Tennis",
+        "Frisbee",
+        "Baseball",
+        "Golf"
+      ],
+      "answer": "Golf",
+      "explanation": "Alan Shepard, commander of Apollo 14, smuggled a 6-iron club head onto the lunar module and hit two golf balls on the Moon in February 1971. Due to his bulky spacesuit, he had to swing one-handed. He claimed the balls went 'miles and miles and miles,' though NASA estimated the second ball traveled about 40 yards. It remains the most unusual round of golf in history.",
+      "memory_hook": "Golf was played on the Moon. Alan Shepard smuggled a 6-iron head onto Apollo 14 and hit two balls. One-handed swing in a spacesuit. The ball does go farther in one-sixth gravity with no atmosphere."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Which British rock band recorded 'Stairway to Heaven,' widely considered one of the greatest rock songs ever written?",
+      "options": [
+        "The Rolling Stones",
+        "The Kinks",
+        "The Who",
+        "Led Zeppelin"
+      ],
+      "answer": "Led Zeppelin",
+      "explanation": "'Stairway to Heaven' was written by Jimmy Page and Robert Plant and recorded on Led Zeppelin's fourth album (1971). At 8 minutes long, it was never released as a single in the UK but still became one of the most-requested radio songs of all time. Classic rock stations still play it more than 50 years after its release. It has been the subject of a plagiarism lawsuit over its iconic guitar introduction.",
+      "memory_hook": "'Stairway to Heaven' = Led Zeppelin, 1971. Never released as a UK single. Never stopped being played. Eight minutes, no chorus until the end. The most recognizable guitar intro in rock history."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Which actress has won the most Academy Awards for acting, with four wins?",
+      "options": [
+        "Meryl Streep",
+        "Cate Blanchett",
+        "Katharine Hepburn",
+        "Frances McDormand"
+      ],
+      "answer": "Katharine Hepburn",
+      "explanation": "Katharine Hepburn won four Academy Awards for Best Actress — for Morning Glory (1933), Guess Who's Coming to Dinner (1967), The Lion in Winter (1968), and On Golden Pond (1981). She is the only actor to win four acting Oscars. Meryl Streep has three wins and 21 nominations, the most nominations ever.",
+      "memory_hook": "Katharine Hepburn = 4 acting Oscars. No one else has won four. Meryl Streep has 3 wins and 21 nominations — the most nominations ever — but Hepburn has the most wins."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "What Pixar film features a rat who dreams of becoming a gourmet chef in Paris?",
+      "options": [
+        "Monsters Inc",
+        "The Incredibles",
+        "A Bug's Life",
+        "Ratatouille"
+      ],
+      "answer": "Ratatouille",
+      "explanation": "Ratatouille (2007) was directed by Brad Bird and tells the story of Remy, a rat with an extraordinary sense of taste and smell who aspires to become a chef in a Parisian restaurant. The film won the Academy Award for Best Animated Feature and is frequently praised for its sophisticated themes about creativity, class, and the nature of criticism.",
+      "memory_hook": "Ratatouille = rat chef in Paris. Won the Oscar for Best Animated Feature. The villain food critic writes a final review that begins: 'Not everyone can become a great artist, but a great artist can come from anywhere.' Even Pixar films have philosophy."
+    },
+    {
+      "category": "Geography",
+      "question": "Which two continents are connected by the Isthmus of Panama?",
+      "options": [
+        "Africa and Europe",
+        "Australia and Asia",
+        "North America and South America",
+        "North America and Asia"
+      ],
+      "answer": "North America and South America",
+      "explanation": "The Isthmus of Panama is a narrow strip of land connecting North and South America, separating the Pacific and Atlantic oceans. Before the Panama Canal (opened 1914), ships had to sail around Cape Horn. The isthmus is also the reason no land animals could travel between the continents before it formed about 3 million years ago — which is why South American and North American wildlife evolved so differently.",
+      "memory_hook": "Panama = the bridge between North and South America. Before it formed 3 million years ago, the Americas were separate. The Great American Interchange happened when animals crossed — North American predators wiped out many South American species."
+    },
+    {
+      "category": "Science & Nature",
+      "question": "What is the largest organ in the human body?",
+      "options": [
+        "Liver",
+        "Lungs",
+        "Brain",
+        "Skin"
+      ],
+      "answer": "Skin",
+      "explanation": "Skin is the largest organ of the human body, covering about 2 square meters and weighing approximately 3.6 kg in an average adult. It serves multiple functions: protection from pathogens, temperature regulation, sensation, and vitamin D synthesis. Skin is also the body's first line of immune defense. The average person sheds about 30,000-40,000 dead skin cells per hour.",
+      "memory_hook": "Skin = largest organ. People forget it's an organ. 2 square meters, about 3.6 kg. You shed and replace your skin roughly every 2-3 weeks — about 8 pounds of skin cells per year."
+    }
+  ]
+}

@@ -10,8 +10,8 @@
         "Francis Drake"
       ],
       "answer": "Ferdinand Magellan",
-      "explanation": "Ferdinand Magellan led the expedition that first circumnavigated the Earth (1519\u20131522), though he died in the Philippines before completing it. Juan Sebasti\u00e1n Elcano completed the voyage. Magellan gets the credit as the expedition's leader.",
-      "memory_hook": "Magellan mapped the globe \u2014 he just didn't finish the trip."
+      "explanation": "Ferdinand Magellan led the expedition that first circumnavigated the Earth (1519–1522), though he died in the Philippines before completing it. Juan Sebastián Elcano completed the voyage. Magellan gets the credit as the expedition's leader.",
+      "memory_hook": "Magellan mapped the globe — he just didn't finish the trip."
     },
     {
       "category": "History",
@@ -24,7 +24,7 @@
       ],
       "answer": "Inca",
       "explanation": "Machu Picchu was built by the Inca Empire in the mid-15th century, likely as a royal estate for Emperor Pachacuti. It sits 7,970 feet above sea level in the Andes Mountains of Peru and was largely unknown to the outside world until 1911.",
-      "memory_hook": "Inca in the Andes \u2014 Machu Picchu is their mountain crown."
+      "memory_hook": "Inca in the Andes — Machu Picchu is their mountain crown."
     },
     {
       "category": "Sports",
@@ -37,7 +37,7 @@
       ],
       "answer": "6",
       "explanation": "A standard volleyball team has six players on the court at a time: three in the front row and three in the back row. Teams rotate positions after winning the serve.",
-      "memory_hook": "Six-pack \u2014 volleyball has six on the court like a six-pack standing up."
+      "memory_hook": "Six-pack — volleyball has six on the court like a six-pack standing up."
     },
     {
       "category": "Sports",
@@ -50,7 +50,7 @@
       ],
       "answer": "300",
       "explanation": "A perfect game in ten-pin bowling is 300, achieved by bowling 12 consecutive strikes. The 10th frame allows up to three balls if the first two are strikes, enabling 12 total strikes in a game.",
-      "memory_hook": "300 \u2014 like the movie, it's a perfect battle."
+      "memory_hook": "300 — like the movie, it's a perfect battle."
     },
     {
       "category": "Sports",
@@ -63,7 +63,7 @@
       ],
       "answer": "Deuce",
       "explanation": "Deuce in tennis means both players have won three points each (40-40) in a game. After deuce, a player must win two consecutive points to win the game: the first is called 'advantage' and the second wins the game.",
-      "memory_hook": "Deuce rhymes with 'juice' \u2014 when it's tied, things heat up."
+      "memory_hook": "Deuce rhymes with 'juice' — when it's tied, things heat up."
     },
     {
       "category": "Music/Movies",
@@ -76,7 +76,7 @@
       ],
       "answer": "Aretha Franklin",
       "explanation": "Aretha Franklin recorded 'Respect' in 1967, originally written and recorded by Otis Redding. Franklin's version transformed it into an anthem for both the civil rights and feminist movements. She became known as the 'Queen of Soul.'",
-      "memory_hook": "Aretha R-E-S-P-E-C-T \u2014 she spelled it out for us."
+      "memory_hook": "Aretha R-E-S-P-E-C-T — she spelled it out for us."
     },
     {
       "category": "Music/Movies",
@@ -89,7 +89,7 @@
       ],
       "answer": "Pirates of the Caribbean",
       "explanation": "Captain Jack Sparrow, played by Johnny Depp, is the main character of the Pirates of the Caribbean franchise, which began with 'The Curse of the Black Pearl' in 2003. The character was inspired in part by Rolling Stones guitarist Keith Richards.",
-      "memory_hook": "Jack Sparrow \u2014 sparrow flies free like a pirate."
+      "memory_hook": "Jack Sparrow — sparrow flies free like a pirate."
     },
     {
       "category": "Music/Movies",
@@ -102,7 +102,7 @@
       ],
       "answer": "1950s",
       "explanation": "Rock and roll emerged in the early 1950s in the United States, blending African American musical styles including blues, boogie woogie, jazz, and gospel. Artists like Chuck Berry, Little Richard, and Elvis Presley brought it to mainstream audiences.",
-      "memory_hook": "Rock 'n' roll was born in the '50s \u2014 when poodle skirts met electric guitars."
+      "memory_hook": "Rock 'n' roll was born in the '50s — when poodle skirts met electric guitars."
     },
     {
       "category": "History",
@@ -128,7 +128,33 @@
       ],
       "answer": "Atlantic Ocean",
       "explanation": "The RMS Titanic sank in the North Atlantic Ocean on April 15, 1912, after striking an iceberg. It was on its maiden voyage from Southampton to New York City. More than 1,500 people died, making it one of the deadliest peacetime maritime disasters.",
-      "memory_hook": "Atlantic \u2014 think A for America, where it was headed but never arrived."
+      "memory_hook": "Atlantic — think A for America, where it was headed but never arrived."
+    },
+    {
+      "category": "Geography",
+      "question": "Mount Everest sits on the border of which two countries?",
+      "options": [
+        "India and Nepal",
+        "China and India",
+        "Bhutan and Tibet",
+        "Nepal and China"
+      ],
+      "answer": "Nepal and China",
+      "explanation": "Mount Everest straddles the border between Nepal to the south and China (specifically the Tibet Autonomous Region) to the north. At 8,849 meters (29,032 feet), it is the highest point on Earth above sea level. The summit itself is on the border — you can stand in both countries at the top.",
+      "memory_hook": "Everest = Nepal and China. Two countries share the top of the world. The summit straddles both — literally standing in two places at once."
+    },
+    {
+      "category": "Science & Nature",
+      "question": "Which gas makes up approximately 78% of Earth's atmosphere?",
+      "options": [
+        "Oxygen",
+        "Carbon dioxide",
+        "Argon",
+        "Nitrogen"
+      ],
+      "answer": "Nitrogen",
+      "explanation": "Nitrogen makes up about 78% of Earth's atmosphere, with oxygen at roughly 21% and argon at about 0.93%. Despite breathing air constantly, we use only the oxygen fraction. Nitrogen is mostly inert at normal conditions, which is why it makes up the bulk without reacting with everything around us.",
+      "memory_hook": "We breathe mostly nitrogen, not oxygen. Nitrogen 78%, oxygen 21%. The atmosphere is mostly a gas we can't actually use."
     }
   ]
 }

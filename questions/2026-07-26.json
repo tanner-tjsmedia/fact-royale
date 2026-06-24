@@ -11,7 +11,7 @@
       ],
       "answer": "Sun Tzu",
       "explanation": "'The Art of War' is an ancient Chinese military treatise attributed to Sun Tzu, a military strategist who lived in the 5th century BC. It consists of 13 chapters covering strategy, tactics, and the importance of flexibility and adaptability. It remains influential in military strategy, business, and sports.",
-      "memory_hook": "Sun Tzu: 'The Art of War' \u2014 ancient Chinese wisdom still taught in business schools today."
+      "memory_hook": "Sun Tzu: 'The Art of War' — ancient Chinese wisdom still taught in business schools today."
     },
     {
       "category": "History",
@@ -23,7 +23,7 @@
         "USA and Japan"
       ],
       "answer": "USA and Soviet Union",
-      "explanation": "The Space Race (1957\u20131969) was a Cold War competition between the United States and the Soviet Union for supremacy in space exploration. The Soviets launched the first satellite (Sputnik, 1957) and first human in space (Gagarin, 1961). The US won by being first to the Moon (Apollo 11, 1969).",
+      "explanation": "The Space Race (1957–1969) was a Cold War competition between the United States and the Soviet Union for supremacy in space exploration. The Soviets launched the first satellite (Sputnik, 1957) and first human in space (Gagarin, 1961). The US won by being first to the Moon (Apollo 11, 1969).",
       "memory_hook": "Space Race: USSR first to orbit, US first to the Moon. America won the final lap."
     },
     {
@@ -63,7 +63,7 @@
       ],
       "answer": "Axel",
       "explanation": "The Axel Paulsen jump (named after its inventor) is one of the most difficult jumps in figure skating and the only jump that takes off from a forward edge. A triple Axel has 3.5 rotations in the air. American skater Tonya Harding was the first woman to successfully complete a triple Axel in competition (1991).",
-      "memory_hook": "Axel: the forward-facing jump \u2014 named after Norwegian skater Axel Paulsen."
+      "memory_hook": "Axel: the forward-facing jump — named after Norwegian skater Axel Paulsen."
     },
     {
       "category": "Music/Movies",
@@ -72,11 +72,11 @@
         "Taylor Swift",
         "Drake",
         "Rihanna",
-        "Beyonc\u00e9"
+        "Beyoncé"
       ],
       "answer": "Rihanna",
       "explanation": "Rihanna headlined the Super Bowl LVII halftime show on February 12, 2023, at State Farm Stadium in Glendale, Arizona. It was her first major public performance in seven years and was watched by approximately 118 million viewers. During the show, it was revealed she was pregnant with her second child.",
-      "memory_hook": "Rihanna at Super Bowl 2023 \u2014 first show in years, and she announced her pregnancy mid-performance."
+      "memory_hook": "Rihanna at Super Bowl 2023 — first show in years, and she announced her pregnancy mid-performance."
     },
     {
       "category": "Music/Movies",
@@ -89,7 +89,7 @@
       ],
       "answer": "Forrest Gump",
       "explanation": "The full quote from Forrest Gump (1994) is: 'Mama always said life is like a box of chocolates. You never know what you're gonna get.' Interestingly, in the original book by Winston Groom, the quote is slightly different: 'Being an idiot is no box of chocolates.' Tom Hanks' delivery of the line became iconic.",
-      "memory_hook": "'Life is like a box of chocolates' \u2014 Forrest said it. Mama said it first."
+      "memory_hook": "'Life is like a box of chocolates' — Forrest said it. Mama said it first."
     },
     {
       "category": "Music/Movies",
@@ -106,7 +106,7 @@
     },
     {
       "category": "History",
-      "question": "Which American president delivered the 'I Have a Dream' speech? \u2014 Wait, that was MLK. Which president signed the Civil Rights Act of 1964?",
+      "question": "Which American president delivered the 'I Have a Dream' speech? — Wait, that was MLK. Which president signed the Civil Rights Act of 1964?",
       "options": [
         "John F. Kennedy",
         "Lyndon B. Johnson",
@@ -115,7 +115,7 @@
       ],
       "answer": "Lyndon B. Johnson",
       "explanation": "The Civil Rights Act of 1964 was signed into law by President Lyndon B. Johnson on July 2, 1964. It outlawed discrimination based on race, color, religion, sex, or national origin. President Kennedy had proposed the legislation, but it was Johnson who pushed it through Congress after Kennedy's assassination.",
-      "memory_hook": "LBJ signed the Civil Rights Act \u2014 Kennedy proposed it; Johnson delivered it."
+      "memory_hook": "LBJ signed the Civil Rights Act — Kennedy proposed it; Johnson delivered it."
     },
     {
       "category": "History",
@@ -129,6 +129,32 @@
       "answer": "University of Bologna",
       "explanation": "The University of Bologna, founded in 1088 in Bologna, Italy, is the oldest continuously operating university in the world. It was the first institution to use the term universitas (association of students and masters). Oxford was founded in 1096, Harvard in 1636.",
       "memory_hook": "Bologna 1088: the oldest university, older than Oxford by nearly a decade."
+    },
+    {
+      "category": "Geography",
+      "question": "The International Date Line runs mainly through which ocean?",
+      "options": [
+        "Atlantic Ocean",
+        "Indian Ocean",
+        "Arctic Ocean",
+        "Pacific Ocean"
+      ],
+      "answer": "Pacific Ocean",
+      "explanation": "The International Date Line runs roughly along the 180-degree meridian in the Pacific Ocean, zigzagging around island groups to avoid dividing countries between two calendar days. Cross it going west and you jump a day forward; go east and you go back a day. It was established as part of the 1884 International Meridian Conference.",
+      "memory_hook": "Date Line = Pacific Ocean. Cross it heading west, and you gain a day. Go east, lose a day. It bends around islands so Fiji doesn't have one half in Monday and the other in Sunday."
+    },
+    {
+      "category": "Science & Nature",
+      "question": "How many DNA base pairs make up the human genome?",
+      "options": [
+        "3 million",
+        "30 million",
+        "3 billion",
+        "30 billion"
+      ],
+      "answer": "3 billion",
+      "explanation": "The human genome contains approximately 3 billion base pairs of DNA, encoding about 20,000-25,000 genes. If you stretched out all the DNA from a single human cell, it would be about 2 meters long. If you stretched out all the DNA in your body, it would reach from Earth to the Sun and back about 300 times.",
+      "memory_hook": "Human genome = 3 billion base pairs. 2 meters of DNA curled inside a cell too small to see. The instruction manual for a human being fits into a space smaller than the period at the end of this sentence."
     }
   ]
 }

@@ -11,7 +11,7 @@
       ],
       "answer": "Alaska",
       "explanation": "The United States purchased Alaska from Russia in 1867 for $7.2 million (about 2 cents per acre). Secretary of State William Seward negotiated the deal, and it was initially called 'Seward's Folly' by critics. The discovery of gold in 1896 vindicated the purchase.",
-      "memory_hook": "Seward's Folly became America's largest state \u2014 2 cents an acre was the deal of the century."
+      "memory_hook": "Seward's Folly became America's largest state — 2 cents an acre was the deal of the century."
     },
     {
       "category": "History",
@@ -24,7 +24,7 @@
       ],
       "answer": "Martin Luther",
       "explanation": "Martin Luther sparked the Protestant Reformation in 1517 when he nailed his 95 Theses to the door of the Castle Church in Wittenberg, challenging Catholic Church practices including the sale of indulgences. His actions led to the creation of Protestant Christianity.",
-      "memory_hook": "Luther nailed it \u2014 literally. 95 theses on a church door."
+      "memory_hook": "Luther nailed it — literally. 95 theses on a church door."
     },
     {
       "category": "Sports",
@@ -37,7 +37,7 @@
       ],
       "answer": "Grass",
       "explanation": "Wimbledon, the oldest tennis tournament in the world (held since 1877), is played on grass courts. It is one of the four Grand Slam tournaments and is held annually at the All England Club in London. Grass is the fastest surface in tennis.",
-      "memory_hook": "Wimbledon = grass. Think British lawn \u2014 very proper, very green."
+      "memory_hook": "Wimbledon = grass. Think British lawn — very proper, very green."
     },
     {
       "category": "Sports",
@@ -49,7 +49,7 @@
         "130"
       ],
       "answer": "120",
-      "explanation": "An American football field is 100 yards from goal line to goal line, but including both end zones (each 10 yards deep), the total length is 120 yards. The field is 53\u2153 yards wide. First downs require advancing 10 yards.",
+      "explanation": "An American football field is 100 yards from goal line to goal line, but including both end zones (each 10 yards deep), the total length is 120 yards. The field is 53⅓ yards wide. First downs require advancing 10 yards.",
       "memory_hook": "100 yards of play + 20 yards of end zones = 120 total."
     },
     {
@@ -76,7 +76,7 @@
       ],
       "answer": "Robert Downey Jr.",
       "explanation": "Robert Downey Jr. played Tony Stark/Iron Man across 10 Marvel films from 2008's Iron Man through Avengers: Endgame (2019). His portrayal is credited with launching the MCU, which became the highest-grossing film franchise in history.",
-      "memory_hook": "RDJ IS Iron Man \u2014 he didn't play the role, he became it."
+      "memory_hook": "RDJ IS Iron Man — he didn't play the role, he became it."
     },
     {
       "category": "Music/Movies",
@@ -101,8 +101,8 @@
         "Jeremy Irons"
       ],
       "answer": "Anthony Hopkins",
-      "explanation": "Anthony Hopkins won the Academy Award for Best Actor for his portrayal of Dr. Hannibal Lecter in The Silence of the Lambs (1991), despite appearing on screen for only about 16 minutes. The film swept all five major Oscar categories \u2014 a feat achieved by only two other films.",
-      "memory_hook": "Hopkins as Hannibal \u2014 16 minutes of screen time, a lifetime of nightmares."
+      "explanation": "Anthony Hopkins won the Academy Award for Best Actor for his portrayal of Dr. Hannibal Lecter in The Silence of the Lambs (1991), despite appearing on screen for only about 16 minutes. The film swept all five major Oscar categories — a feat achieved by only two other films.",
+      "memory_hook": "Hopkins as Hannibal — 16 minutes of screen time, a lifetime of nightmares."
     },
     {
       "category": "History",
@@ -128,7 +128,33 @@
       ],
       "answer": "1961",
       "explanation": "Yuri Gagarin became the first human in space on April 12, 1961, completing one orbit of Earth in 108 minutes aboard the Vostok 1 spacecraft. His mission was a major triumph for the Soviet Union in the Space Race. April 12 is now celebrated as Cosmonautics Day in Russia.",
-      "memory_hook": "1961 \u2014 Gagarin circled Earth. One orbit, one giant step."
+      "memory_hook": "1961 — Gagarin circled Earth. One orbit, one giant step."
+    },
+    {
+      "category": "Geography",
+      "question": "The Nile River flows northward through how many countries before reaching the Mediterranean Sea?",
+      "options": [
+        "3",
+        "5",
+        "9",
+        "11"
+      ],
+      "answer": "11",
+      "explanation": "The Nile passes through 11 countries: Tanzania, Uganda, Rwanda, Burundi, Democratic Republic of Congo, Kenya, Ethiopia, Eritrea, South Sudan, Sudan, and Egypt before emptying into the Mediterranean Sea. At approximately 6,650 km, it is considered the world's longest river, though the Amazon is a close rival.",
+      "memory_hook": "The Nile runs through 11 countries. Most people think Egypt when they think Nile, but the river starts in the heart of Africa and travels north for thousands of miles through almost a dozen nations."
+    },
+    {
+      "category": "Science & Nature",
+      "question": "How many chambers does the human heart have?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "6"
+      ],
+      "answer": "4",
+      "explanation": "The human heart has four chambers: the left and right atria (upper chambers) and the left and right ventricles (lower chambers). The right side pumps oxygen-depleted blood to the lungs, while the left side pumps oxygenated blood to the rest of the body. The left ventricle is the most muscular, as it must push blood throughout the entire body.",
+      "memory_hook": "Heart = 4 chambers. Two atria on top, two ventricles on the bottom. The left side is stronger because it pumps blood to your whole body. The right side only has to reach the lungs."
     }
   ]
 }

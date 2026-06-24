@@ -10,8 +10,8 @@
         "World War I"
       ],
       "answer": "World War I",
-      "explanation": "World War I (1914\u20131918) was known as 'The Great War' at the time, before World War II redefined the scale of global conflict. It involved most of Europe's major powers, killed an estimated 20 million people, and introduced industrialized warfare including trench warfare, chemical weapons, and aerial bombing.",
-      "memory_hook": "The Great War = WWI. It was so terrible, they called it 'the war to end all wars' \u2014 then WWII happened."
+      "explanation": "World War I (1914–1918) was known as 'The Great War' at the time, before World War II redefined the scale of global conflict. It involved most of Europe's major powers, killed an estimated 20 million people, and introduced industrialized warfare including trench warfare, chemical weapons, and aerial bombing.",
+      "memory_hook": "The Great War = WWI. It was so terrible, they called it 'the war to end all wars' — then WWII happened."
     },
     {
       "category": "History",
@@ -24,7 +24,7 @@
       ],
       "answer": "Joshua Slocum",
       "explanation": "Joshua Slocum completed the first solo circumnavigation of the globe by sea from 1895 to 1898, aboard his boat Spray. He wrote 'Sailing Alone Around the World' (1900) about the journey. He was the first person definitively documented to have sailed around the world alone.",
-      "memory_hook": "Slocum: solo around the world, 1895\u20131898. Three years, one man, one boat."
+      "memory_hook": "Slocum: solo around the world, 1895–1898. Three years, one man, one boat."
     },
     {
       "category": "Sports",
@@ -37,7 +37,7 @@
       ],
       "answer": "42.195 km",
       "explanation": "A standard marathon is 42.195 kilometers (26.2 miles). The current world record is 2:00:35 set by Kelvin Kiptum of Kenya in 2023. Eliud Kipchoge broke the 2-hour barrier in an unofficial time trial in Vienna in 2019 with a time of 1:59:40.",
-      "memory_hook": "42.195 km \u2014 the exact distance was set for Queen Alexandra in 1908."
+      "memory_hook": "42.195 km — the exact distance was set for Queen Alexandra in 1908."
     },
     {
       "category": "Sports",
@@ -49,7 +49,7 @@
         "Korfball"
       ],
       "answer": "Basketball",
-      "explanation": "Basketball, invented by Dr. James Naismith in 1891 in Springfield, Massachusetts, is played by shooting a ball through an elevated 18-inch hoop (basket). The sport was originally played with a peach basket \u2014 players had to retrieve the ball from the basket after each score, until the bottom was cut out.",
+      "explanation": "Basketball, invented by Dr. James Naismith in 1891 in Springfield, Massachusetts, is played by shooting a ball through an elevated 18-inch hoop (basket). The sport was originally played with a peach basket — players had to retrieve the ball from the basket after each score, until the bottom was cut out.",
       "memory_hook": "Basketball: Naismith used a peach basket in 1891. That's why it's called basketball."
     },
     {
@@ -82,7 +82,7 @@
       "category": "Music/Movies",
       "question": "Which band is known for 'Welcome to the Jungle' and 'November Rain'?",
       "options": [
-        "M\u00f6tley Cr\u00fce",
+        "Mötley Crüe",
         "Def Leppard",
         "Aerosmith",
         "Guns N' Roses"
@@ -114,7 +114,7 @@
         "The assassination of Abraham Lincoln"
       ],
       "answer": "The first battle of the American Revolution at Lexington",
-      "explanation": "The phrase 'the shot heard 'round the world' comes from Ralph Waldo Emerson's 'Concord Hymn' (1837), referring to the first shots fired at the Battle of Lexington and Concord on April 19, 1775 \u2014 the opening engagement of the American Revolutionary War. The phrase has since been applied to other significant events.",
+      "explanation": "The phrase 'the shot heard 'round the world' comes from Ralph Waldo Emerson's 'Concord Hymn' (1837), referring to the first shots fired at the Battle of Lexington and Concord on April 19, 1775 — the opening engagement of the American Revolutionary War. The phrase has since been applied to other significant events.",
       "memory_hook": "Lexington 1775: the shot that started a revolution that started a democracy."
     },
     {
@@ -129,6 +129,32 @@
       "answer": "Rwanda",
       "explanation": "Rwanda achieved the highest proportion of women in parliament of any country in the world, becoming the first nation where women hold a majority of parliamentary seats (exceeding 50%). This was a result of post-genocide reconstruction policies that specifically targeted gender inclusion in governance.",
       "memory_hook": "Rwanda: out of tragedy, they built the most gender-equal parliament in the world."
+    },
+    {
+      "category": "Geography",
+      "question": "The Gobi Desert, one of the world's largest, spans which two countries?",
+      "options": [
+        "India and Pakistan",
+        "Kazakhstan and Russia",
+        "China and Mongolia",
+        "Uzbekistan and Turkmenistan"
+      ],
+      "answer": "China and Mongolia",
+      "explanation": "The Gobi Desert covers parts of northern and northwestern China and southern Mongolia, spanning about 1.3 million square kilometers. It is a cold desert — temperatures can drop to -40°C in winter. Unlike the Sahara, the Gobi has little sand; most of it is bare rock. It was a major part of the ancient Silk Road trade route.",
+      "memory_hook": "Gobi = China and Mongolia. Cold desert, not hot. Mostly rock, not sand. Ancient Silk Road ran through it. Dinosaur fossils were first discovered in the Gobi in the 1920s."
+    },
+    {
+      "category": "Science & Nature",
+      "question": "Sound travels fastest through which medium?",
+      "options": [
+        "Air",
+        "A vacuum",
+        "Water",
+        "Steel"
+      ],
+      "answer": "Steel",
+      "explanation": "Sound travels through steel at about 5,120 meters per second, much faster than through water (about 1,480 m/s) or air (about 343 m/s). Sound cannot travel through a vacuum at all because it requires molecules to vibrate. Denser, more elastic materials transmit sound more efficiently — which is why you can hear a train coming by putting your ear to the rail.",
+      "memory_hook": "Sound travels fastest through solid steel. Steel > water > air > vacuum (no sound). Put your ear on a train rail and you hear it long before you'd hear it through air."
     }
   ]
 }

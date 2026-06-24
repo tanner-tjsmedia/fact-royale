@@ -23,7 +23,7 @@
         "Mao Zedong"
       ],
       "answer": "Mao Zedong",
-      "explanation": "The Cultural Revolution (1966\u20131976) was launched by Mao Zedong to preserve communist ideology and eliminate perceived capitalist and traditional elements. It resulted in massive social upheaval, persecution of intellectuals, destruction of cultural artifacts, and an estimated 500,000 to 2 million deaths.",
+      "explanation": "The Cultural Revolution (1966–1976) was launched by Mao Zedong to preserve communist ideology and eliminate perceived capitalist and traditional elements. It resulted in massive social upheaval, persecution of intellectuals, destruction of cultural artifacts, and an estimated 500,000 to 2 million deaths.",
       "memory_hook": "Mao's Cultural Revolution: books burned, scholars humiliated, chaos unleashed."
     },
     {
@@ -115,7 +115,7 @@
       ],
       "answer": "To keep East Germans from fleeing to the West",
       "explanation": "The Berlin Wall was built by East Germany beginning on August 13, 1961, to stop the mass emigration of East Germans to West Germany through West Berlin. In the decade before the Wall, about 3.5 million East Germans had fled to the West. The Wall fell on November 9, 1989.",
-      "memory_hook": "The Wall kept people IN, not out \u2014 East Germans weren't allowed to leave."
+      "memory_hook": "The Wall kept people IN, not out — East Germans weren't allowed to leave."
     },
     {
       "category": "History",
@@ -129,6 +129,32 @@
       "answer": "Colin Powell",
       "explanation": "Colin Powell became the first African American Secretary of State when he was appointed by President George W. Bush in 2001. He served until 2005. Condoleezza Rice succeeded him as the second African American (and first African American woman) to hold the office.",
       "memory_hook": "Powell = first Black Secretary of State. Condoleezza followed. Two firsts in a row."
+    },
+    {
+      "category": "Geography",
+      "question": "Which country has the most neighboring countries, sharing borders with 14 nations?",
+      "options": [
+        "Russia",
+        "Brazil",
+        "India",
+        "China"
+      ],
+      "answer": "China",
+      "explanation": "China shares land borders with 14 countries: Russia, Mongolia, Kazakhstan, Kyrgyzstan, Tajikistan, Afghanistan, Pakistan, India, Nepal, Bhutan, Myanmar, Laos, Vietnam, and North Korea. Russia also borders 14 countries (sharing that record), but China's neighbors span a remarkable geographic range from Central Asia to Southeast Asia.",
+      "memory_hook": "China and Russia each border 14 countries. China's neighbors range from Russia to Vietnam, Central Asia to South Asia. It sits at the crossroads of the continent."
+    },
+    {
+      "category": "Science & Nature",
+      "question": "The boiling point of water at sea level is:",
+      "options": [
+        "90 degrees Celsius",
+        "100 degrees Celsius",
+        "110 degrees Celsius",
+        "212 degrees Fahrenheit only"
+      ],
+      "answer": "100 degrees Celsius",
+      "explanation": "Water boils at 100 degrees Celsius (212 degrees Fahrenheit) at sea level, where atmospheric pressure is 101.3 kPa. At higher altitudes, where atmospheric pressure is lower, water boils at a lower temperature — which is why cooking instructions differ for high-altitude locations. In a pressure cooker, water boils above 100 degrees.",
+      "memory_hook": "Water boils at 100 C at sea level. Higher up the mountain, it boils at lower temperatures. Lower pressure = lower boiling point. That's why pasta takes longer to cook at altitude."
     }
   ]
 }

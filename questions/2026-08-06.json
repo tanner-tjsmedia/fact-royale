@@ -1,0 +1,161 @@
+{
+  "date": "2026-08-06",
+  "questions": [
+    {
+      "category": "History",
+      "question": "What was the name of the ship that carried the Pilgrims to America in 1620?",
+      "options": [
+        "Santa Maria",
+        "Endeavour",
+        "Mayflower",
+        "Pinta"
+      ],
+      "answer": "Mayflower",
+      "explanation": "The Mayflower sailed from Plymouth, England, in September 1620 with 102 passengers — known as the Pilgrims — seeking religious freedom in America. After a 66-day voyage across the Atlantic, they landed near present-day Plymouth, Massachusetts. Before disembarking, they signed the Mayflower Compact, one of the earliest examples of self-governance in North America.",
+      "memory_hook": "Mayflower = Pilgrims, 1620. 66 days at sea, 102 passengers. The Mayflower Compact they signed on board was basically America's first constitution — written before they even got off the ship."
+    },
+    {
+      "category": "History",
+      "question": "The Suez Crisis of 1956 was triggered when Egypt nationalized the Suez Canal. Who was Egypt's president at the time?",
+      "options": [
+        "Hosni Mubarak",
+        "Anwar Sadat",
+        "King Farouk",
+        "Gamal Abdel Nasser"
+      ],
+      "answer": "Gamal Abdel Nasser",
+      "explanation": "Egyptian President Gamal Abdel Nasser nationalized the Suez Canal in July 1956, leading to a military response from Britain, France, and Israel. The US pressured all sides to stand down, humiliating Britain and France and marking the end of their status as global superpowers. The crisis is considered the moment when American and Soviet dominance replaced European colonial power.",
+      "memory_hook": "Suez Crisis 1956 = Nasser nationalized the canal. Britain and France attacked — the US told them to stop. The moment Britain realized it was no longer a superpower. The US saved Egypt by threatening economic ruin to its former allies."
+    },
+    {
+      "category": "History",
+      "question": "The Watergate scandal, which led to President Nixon's resignation in 1974, began with a break-in at which Washington DC complex?",
+      "options": [
+        "Pentagon",
+        "State Department",
+        "Capitol Building",
+        "Watergate Hotel"
+      ],
+      "answer": "Watergate Hotel",
+      "explanation": "The Watergate scandal began with a break-in at the Democratic National Committee headquarters in the Watergate Hotel complex in Washington DC on June 17, 1972. Nixon administration officials tried to cover up White House involvement. The cover-up ultimately destroyed Nixon's presidency. He resigned on August 9, 1974 — the only US president ever to do so. The '-gate' suffix became shorthand for political scandals worldwide.",
+      "memory_hook": "Watergate = hotel break-in, Nixon resignation. 'What did the president know and when did he know it?' The cover-up was worse than the crime. Nixon added '-gate' to the English language as a suffix for every political scandal since."
+    },
+    {
+      "category": "History",
+      "question": "Which country conducted the Manhattan Project, creating the first nuclear weapons during World War II?",
+      "options": [
+        "Germany",
+        "Soviet Union",
+        "Britain",
+        "United States"
+      ],
+      "answer": "United States",
+      "explanation": "The Manhattan Project was a secret US research program (1942-1946) that produced the first nuclear weapons. Led by J. Robert Oppenheimer and conducted at sites including Los Alamos, New Mexico, and Oak Ridge, Tennessee, it involved over 130,000 people. The first test (Trinity) occurred July 16, 1945. The bombs dropped on Hiroshima and Nagasaki weeks later ended World War II.",
+      "memory_hook": "Manhattan Project = US, WWII. Oppenheimer led it. When the first bomb was tested in New Mexico, he thought of the Bhagavad Gita: 'Now I am become Death, the destroyer of worlds.' Three weeks later they used it."
+    },
+    {
+      "category": "Sports",
+      "question": "In which Olympic sport do athletes use a bow and arrows to hit a target?",
+      "options": [
+        "Biathlon",
+        "Pentathlon",
+        "Fencing",
+        "Archery"
+      ],
+      "answer": "Archery",
+      "explanation": "Archery has been part of the Olympic Games since 1900 (with gaps). Olympic archers shoot recurve bows at targets 70 meters away in the outdoor competition. The target is 122 cm in diameter and the gold bullseye is 12.2 cm — about the size of an apple. South Korea has dominated Olympic archery for decades, particularly in the women's category.",
+      "memory_hook": "Archery = Olympic sport since 1900. Shooting at a target 70 meters away, bullseye the size of an apple. South Korea has won the women's Olympic team event at every Olympics since 1988 — one of the most dominant dynasties in Olympic history."
+    },
+    {
+      "category": "Sports",
+      "question": "The 'Fosbury Flop' is a technique used in which track and field event?",
+      "options": [
+        "Long jump",
+        "Triple jump",
+        "Pole vault",
+        "High jump"
+      ],
+      "answer": "High jump",
+      "explanation": "Dick Fosbury won gold at the 1968 Mexico City Olympics using a completely new high jump technique — jumping headfirst and backward over the bar rather than face-down. Before Fosbury, athletes jumped using the 'Western Roll' or 'Straddle.' His technique was so effective that virtually all high jumpers now use it. Fosbury cleared 2.24 meters with his revolutionary style.",
+      "memory_hook": "Fosbury Flop = high jump, 1968 Olympics. Dick Fosbury invented it and won gold. Before 1968, jumpers went over face-down. He went backward and changed the sport forever. Every high jumper in the world now uses his technique."
+    },
+    {
+      "category": "Sports",
+      "question": "In which sport would you perform a 'hat trick'?",
+      "options": [
+        "Basketball",
+        "Baseball",
+        "Tennis",
+        "Soccer or Ice Hockey"
+      ],
+      "answer": "Soccer or Ice Hockey",
+      "explanation": "A hat trick refers to scoring three goals in a single game in soccer or ice hockey. The term originated in cricket, where a bowler taking three wickets with consecutive balls was awarded a hat by his club. In soccer, the ball is sometimes given to the player who scores a hat trick. In ice hockey, fans traditionally throw their hats onto the ice when a player scores three goals.",
+      "memory_hook": "Hat trick = three goals. From cricket (three wickets = new hat). In hockey, fans throw their hats onto the ice. In soccer, the hat-tricker keeps the match ball. The expression has spread to mean three of anything impressive."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Which musician famously performed at Woodstock in 1969 and is known for his electric guitar rendition of the National Anthem?",
+      "options": [
+        "Eric Clapton",
+        "Carlos Santana",
+        "Jimi Hendrix",
+        "B.B. King"
+      ],
+      "answer": "Jimi Hendrix",
+      "explanation": "Jimi Hendrix closed the Woodstock festival in August 1969 with a legendary performance including a deconstructed, feedback-laden version of 'The Star-Spangled Banner.' He played his Fender Stratocaster upside down (he was left-handed) and restrung. Rolling Stone ranks him as the greatest guitarist of all time. He died in September 1970 at age 27 — one of the most devastating losses in music history.",
+      "memory_hook": "Hendrix at Woodstock, 1969. National Anthem on guitar — with feedback and distortion representing jets and bombs. Left-handed guitarist playing a right-handed guitar upside down. He died 13 months after Woodstock. Greatest of all time in under a decade of fame."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Which 2009 animated Pixar film opens with a sequence widely considered one of the most emotional in film history?",
+      "options": [
+        "Wall-E",
+        "Brave",
+        "Inside Out",
+        "Up"
+      ],
+      "answer": "Up",
+      "explanation": "The opening montage of Up (2009), directed by Pete Docter, condenses an entire marriage — from young couple to widower — in about four minutes with minimal dialogue. It is frequently cited as one of the most emotionally resonant sequences in cinema. The film won the Academy Award for Best Animated Feature and Best Original Score and was the second animated film nominated for Best Picture.",
+      "memory_hook": "Up's opening = four minutes, no dialogue, destroys you emotionally. Pixar made adults cry in the first 10 minutes of a children's movie. The rest of the film is about what you do with grief. A flying house and a talking dog are the vehicle for one of cinema's most profound stories about loss."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "The Eagles' 'Hotel California' (1977) is one of the best-selling singles of all time. Which band member wrote most of it?",
+      "options": [
+        "Joe Walsh",
+        "Timothy B. Schmit",
+        "Glenn Frey",
+        "Don Felder"
+      ],
+      "answer": "Don Felder",
+      "explanation": "Don Felder wrote the iconic guitar riff for 'Hotel California' in 1976 while sitting in his Malibu home, staring at the ocean. Don Henley wrote most of the lyrics. The song's allegory about excess and disillusionment in the California music industry was never explicitly explained by the band. The guitar solo at the end — played by Felder and Joe Walsh together — is considered one of the greatest in rock history.",
+      "memory_hook": "'Hotel California' riff = Don Felder. Lyrics = Don Henley. The song is about excess in the California music industry. 'You can check out any time you like, but you can never leave.' They still haven't explained exactly what it means — and that's the point."
+    },
+    {
+      "category": "Geography",
+      "question": "Which Asian country has the most people in the world?",
+      "options": [
+        "China",
+        "Bangladesh",
+        "India",
+        "Indonesia"
+      ],
+      "answer": "India",
+      "explanation": "India surpassed China as the world's most populous country in 2023, with approximately 1.43 billion people. India's population is younger than China's, which began declining due to decades of the one-child policy. At current growth rates, India's population could reach 1.7 billion by mid-century, making it by far the most populous nation on Earth.",
+      "memory_hook": "India = world's most populous country since 2023. Passed China for the first time. India's median age is 28, much younger than China's 38. The two most populous nations together account for over a third of all humans alive."
+    },
+    {
+      "category": "Science & Nature",
+      "question": "What is the name of the boundary below which no light penetrates the ocean?",
+      "options": [
+        "Photic zone",
+        "Abyssal zone",
+        "Benthic zone",
+        "Midnight zone"
+      ],
+      "answer": "Midnight zone",
+      "explanation": "The midnight zone (or bathypelagic zone) extends from about 1,000 to 4,000 meters below the ocean surface, where absolutely no sunlight reaches. Creatures in this zone must either produce their own light (bioluminescence) or rely on organic matter drifting down from above. Pressure at these depths is extreme — hundreds of times greater than at the surface.",
+      "memory_hook": "Midnight zone = no light, 1,000-4,000 meters down. Creatures make their own light. Pressure is crushing. Less explored than the Moon's surface. The deep ocean is the largest inhabitable environment on Earth and the least understood."
+    }
+  ]
+}

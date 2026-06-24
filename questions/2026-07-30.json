@@ -1,0 +1,161 @@
+{
+  "date": "2026-07-30",
+  "questions": [
+    {
+      "category": "History",
+      "question": "Julius Caesar was assassinated on the Ides of March — which date is that?",
+      "options": [
+        "March 1",
+        "March 10",
+        "March 15",
+        "March 20"
+      ],
+      "answer": "March 15",
+      "explanation": "Julius Caesar was stabbed to death on March 15, 44 BC in the Theatre of Pompey by a group of senators including Brutus and Cassius. 'Ides' referred to the 15th in March, May, July, and October; the 13th in other months. Caesar had reportedly been warned to beware the Ides of March by a soothsayer.",
+      "memory_hook": "Ides of March = March 15. Caesar was warned, ignored it. 23 stab wounds from 60 conspirators. Shakespeare made the date immortal."
+    },
+    {
+      "category": "History",
+      "question": "Which civilization built Machu Picchu, the mountain citadel in Peru?",
+      "options": [
+        "Aztec",
+        "Maya",
+        "Olmec",
+        "Inca"
+      ],
+      "answer": "Inca",
+      "explanation": "Machu Picchu was built by the Inca Empire around 1450 AD at approximately 2,430 meters above sea level in the Andes Mountains of Peru. It was likely a royal estate or religious site. The Spanish never discovered it during their conquest, so it wasn't known to the outside world until American historian Hiram Bingham brought it to international attention in 1911.",
+      "memory_hook": "Machu Picchu = Inca. Built around 1450, never found by the Spanish. Hiram Bingham 'rediscovered' it in 1911 — though local people had always known it was there."
+    },
+    {
+      "category": "History",
+      "question": "The Korean War armistice was signed in 1953, effectively creating which boundary between North and South Korea?",
+      "options": [
+        "The 37th parallel",
+        "The 38th parallel",
+        "The 39th parallel",
+        "The 40th parallel"
+      ],
+      "answer": "The 38th parallel",
+      "explanation": "The Korean War armistice, signed on July 27, 1953, established the Korean Demilitarized Zone (DMZ) near the 38th parallel as the boundary between North and South Korea. The 38th parallel had been used as a temporary division after WWII when the Soviet Union occupied the north and the United States occupied the south. The war ended in an armistice — not a peace treaty — so technically the war has never officially ended.",
+      "memory_hook": "Korea divided at the 38th parallel. No peace treaty, just a ceasefire. Technically still at war since 1953. The DMZ is one of the most fortified borders on Earth."
+    },
+    {
+      "category": "History",
+      "question": "Which empire controlled most of the known world during the Pax Romana — the period of relative peace from 27 BC to 180 AD?",
+      "options": [
+        "Greek Empire",
+        "Persian Empire",
+        "Byzantine Empire",
+        "Roman Empire"
+      ],
+      "answer": "Roman Empire",
+      "explanation": "The Pax Romana ('Roman Peace') lasted approximately 206 years, from the reign of Augustus (27 BC) to the death of Marcus Aurelius (180 AD). During this period, the Roman Empire was the dominant power in the Western world, covering about 5 million square kilometers and ruling an estimated 70 million people — about 21% of the world's population at the time.",
+      "memory_hook": "Pax Romana = Roman peace, 27 BC to 180 AD. 200 years of relative stability across the known world. Rome was so dominant that it didn't need to fight major wars — the peace was enforced by the threat of Roman legions."
+    },
+    {
+      "category": "Sports",
+      "question": "In American football, how many points is a touchdown worth?",
+      "options": [
+        "3",
+        "4",
+        "6",
+        "7"
+      ],
+      "answer": "6",
+      "explanation": "A touchdown in American football scores 6 points. After a touchdown, the scoring team can attempt a 'point after touchdown' (PAT) — either a kick for 1 additional point or a two-point conversion by running or passing the ball into the end zone for 2 points. A field goal scores 3 points, and a safety scores 2 points.",
+      "memory_hook": "Touchdown = 6 points. Then you try the extra point (1 or 2 more). People sometimes say 'seven' because 6+1 is the usual result, but the touchdown itself is worth 6."
+    },
+    {
+      "category": "Sports",
+      "question": "In which sport would you find terms like 'birdie,' 'eagle,' and 'bogey'?",
+      "options": [
+        "Tennis",
+        "Cricket",
+        "Golf",
+        "Badminton"
+      ],
+      "answer": "Golf",
+      "explanation": "These scoring terms are all from golf. A birdie is one stroke under par, an eagle is two under par, and a bogey is one over par. An albatross (or double eagle) is three under par — extremely rare. Par is the expected number of strokes for a skilled golfer to complete a hole. The bird theme: the rarer the bird, the more impressive the score.",
+      "memory_hook": "Birdie, eagle, bogey = golf. One under, two under, one over. Golf borrowed birds for its scoring language. Hole-in-one on a par-3 = albatross, the rarest and most majestic bird in the scoring system."
+    },
+    {
+      "category": "Sports",
+      "question": "Which country has won the most Rugby World Cup titles?",
+      "options": [
+        "England",
+        "Australia",
+        "South Africa",
+        "New Zealand"
+      ],
+      "answer": "New Zealand",
+      "explanation": "New Zealand's All Blacks have won the Rugby World Cup four times (1987, 2011, 2015, 2023), more than any other country. South Africa has won four titles as well (1995, 1999, 2007, 2019), tying New Zealand. The All Blacks are considered the most successful international sports team in history by win percentage — they win about 77% of all test matches.",
+      "memory_hook": "All Blacks = most World Cup wins. New Zealand wins 77% of test matches — the best sustained record of any major team sport. The haka before matches is part of the legend."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Which band released the 1979 album 'The Wall,' featuring the hit 'Another Brick in the Wall'?",
+      "options": [
+        "The Who",
+        "Led Zeppelin",
+        "Pink Floyd",
+        "The Doors"
+      ],
+      "answer": "Pink Floyd",
+      "explanation": "The Wall (1979) by Pink Floyd was a concept album written largely by Roger Waters, exploring themes of isolation, abandonment, and mental breakdown. The album spawned a massive live concert production and a 1982 film. 'Another Brick in the Wall (Part II)' — with its iconic chorus sung by schoolchildren — was banned in South Africa during the anti-apartheid movement.",
+      "memory_hook": "The Wall = Pink Floyd, 1979. Roger Waters wrote most of it about his own isolation and his father killed in WWII. The schoolchildren's chorus was banned in South Africa. A protest song disguised as a rock anthem."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Who directed The Godfather (1972), widely considered one of the greatest films ever made?",
+      "options": [
+        "Martin Scorsese",
+        "Brian De Palma",
+        "Sidney Lumet",
+        "Francis Ford Coppola"
+      ],
+      "answer": "Francis Ford Coppola",
+      "explanation": "Francis Ford Coppola directed The Godfather (1972), based on Mario Puzo's novel, starring Marlon Brando, Al Pacino, James Caan, and Robert Duvall. The film won three Academy Awards including Best Picture and is consistently ranked as one of the greatest films in cinema history. It spawned two sequels. Coppola was only 32 when he made it.",
+      "memory_hook": "The Godfather = Francis Ford Coppola, 1972. Marlon Brando's Don Corleone, Al Pacino's Michael. Coppola was 32. The studio didn't want Brando or Pacino — both turned out to be perfect."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Which artist holds the record for the most Grammy Awards won in a single night (32 total career wins as of 2024)?",
+      "options": [
+        "Adele",
+        "Kanye West",
+        "Taylor Swift",
+        "Beyonce"
+      ],
+      "answer": "Beyonce",
+      "explanation": "Beyoncé holds the record for the most Grammy wins ever, with 32 as of 2024. She set the single-night record at the 2023 Grammys by winning four awards to bring her total past Georg Solti's previous all-time record of 31. She has won across multiple categories including pop, R&B, country, and classical crossover.",
+      "memory_hook": "Beyoncé = 32 Grammy wins, most ever. She broke the all-time record in 2023, surpassing a classical conductor who held it for decades. She spans pop, R&B, country, and everything between."
+    },
+    {
+      "category": "Geography",
+      "question": "Which sea lies between Europe and Africa and is almost entirely enclosed by land?",
+      "options": [
+        "Red Sea",
+        "North Sea",
+        "Black Sea",
+        "Mediterranean Sea"
+      ],
+      "answer": "Mediterranean Sea",
+      "explanation": "The Mediterranean Sea is bordered by Southern Europe to the north, North Africa to the south, and the Middle East to the east. Its only natural connection to the Atlantic Ocean is through the Strait of Gibraltar. It has been a crucial crossroads of civilization for thousands of years — the Romans called it 'Mare Nostrum' (Our Sea).",
+      "memory_hook": "Mediterranean = almost landlocked. Surrounded by Europe, Africa, and the Middle East. Only one narrow opening to the Atlantic. The cradle of Western civilization — Greece, Rome, Egypt, Phoenicia all rose around its shores."
+    },
+    {
+      "category": "Science & Nature",
+      "question": "What is the name of the process by which plants lose water through their leaves?",
+      "options": [
+        "Evaporation",
+        "Osmosis",
+        "Respiration",
+        "Transpiration"
+      ],
+      "answer": "Transpiration",
+      "explanation": "Transpiration is the process by which water moves through a plant from roots to leaves and evaporates into the air through tiny pores called stomata. A single large tree can transpire hundreds of liters of water per day. The Amazon rainforest transpires so much water that it generates its own rainfall — the forest creates the rain that sustains it.",
+      "memory_hook": "Transpiration = plants sweating. Water moves up from roots, exits through leaf pores into the air. The Amazon forest transpires so much water it rains on itself — the trees make their own weather."
+    }
+  ]
+}

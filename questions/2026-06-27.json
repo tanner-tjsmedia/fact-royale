@@ -24,7 +24,7 @@
       ],
       "answer": "1989",
       "explanation": "The Berlin Wall fell on November 9, 1989, after East Germany announced that its citizens could cross the border freely. It had divided East and West Berlin since 1961.",
-      "memory_hook": "'89 \u2014 think of it as the end of an era: 1-9-8-9, the Iron Curtain's last breath."
+      "memory_hook": "'89 — think of it as the end of an era: 1-9-8-9, the Iron Curtain's last breath."
     },
     {
       "category": "History",
@@ -37,7 +37,7 @@
       ],
       "answer": "Marie Curie",
       "explanation": "Marie Curie won the Nobel Prize in Physics in 1903, shared with her husband Pierre and Henri Becquerel. She later won a second Nobel Prize in Chemistry in 1911, making her the first person to win Nobel Prizes in two sciences.",
-      "memory_hook": "Curie \u2014 she cured ignorance twice over."
+      "memory_hook": "Curie — she cured ignorance twice over."
     },
     {
       "category": "Sports",
@@ -49,7 +49,7 @@
         "7"
       ],
       "answer": "5",
-      "explanation": "The five interlocking rings on the Olympic flag represent the five continents of the world united by the Olympic movement. The colors \u2014 blue, yellow, black, green, and red \u2014 include at least one color from every national flag.",
+      "explanation": "The five interlocking rings on the Olympic flag represent the five continents of the world united by the Olympic movement. The colors — blue, yellow, black, green, and red — include at least one color from every national flag.",
       "memory_hook": "Five fingers, five continents, five rings."
     },
     {
@@ -63,7 +63,7 @@
       ],
       "answer": "Basketball",
       "explanation": "A slam dunk occurs when a player jumps and forcefully pushes the ball through the basket from above the rim. It was officially allowed in college basketball in 1976 after being banned for nearly a decade.",
-      "memory_hook": "Slam: the sound of the ball hitting the board. Dunk: like dunking a cookie \u2014 just more athletic."
+      "memory_hook": "Slam: the sound of the ball hitting the board. Dunk: like dunking a cookie — just more athletic."
     },
     {
       "category": "Sports",
@@ -102,7 +102,7 @@
       ],
       "answer": "Steven Spielberg",
       "explanation": "Steven Spielberg directed Schindler's List in 1993. The film won seven Academy Awards including Best Picture and Best Director, and is widely regarded as one of the greatest films ever made.",
-      "memory_hook": "Spielberg spelled out the horror \u2014 he also gave us Jaws, E.T., and Indiana Jones."
+      "memory_hook": "Spielberg spelled out the horror — he also gave us Jaws, E.T., and Indiana Jones."
     },
     {
       "category": "Music/Movies",
@@ -128,7 +128,33 @@
       ],
       "answer": "1666",
       "explanation": "The Great Fire of London began on September 2, 1666, in a bakery on Pudding Lane. It burned for four days, destroying 13,200 houses and 87 churches, including St. Paul's Cathedral. Famously, fewer than 10 people officially died.",
-      "memory_hook": "666 in 1666 \u2014 the devil's number burned London down."
+      "memory_hook": "666 in 1666 — the devil's number burned London down."
+    },
+    {
+      "category": "Geography",
+      "question": "Which is the world's smallest country by area?",
+      "options": [
+        "Monaco",
+        "San Marino",
+        "Liechtenstein",
+        "Vatican City"
+      ],
+      "answer": "Vatican City",
+      "explanation": "Vatican City covers just 0.44 square kilometers, located entirely within Rome, Italy. It is the headquarters of the Roman Catholic Church and home to the Pope. Despite its tiny size, it has its own government, currency, passport, radio station, and newspaper.",
+      "memory_hook": "Vatican City = smallest country, inside a city. Smaller than most golf courses. An entire sovereign nation inside Rome."
+    },
+    {
+      "category": "Science & Nature",
+      "question": "What is the chemical symbol for gold?",
+      "options": [
+        "Gd",
+        "Go",
+        "Ag",
+        "Au"
+      ],
+      "answer": "Au",
+      "explanation": "Au comes from 'Aurum,' the Latin word for gold. The periodic table uses Latin (and sometimes Greek) roots for many elements — that's why the symbols don't always match the English name. Silver is Ag (Argentum), iron is Fe (Ferrum), and lead is Pb (Plumbum).",
+      "memory_hook": "Gold = Au = Aurum. The Romans named it. The symbol stuck for 2,000 years."
     }
   ]
 }

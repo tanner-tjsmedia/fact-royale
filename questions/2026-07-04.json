@@ -24,7 +24,7 @@
       ],
       "answer": "Abraham Lincoln",
       "explanation": "President Abraham Lincoln delivered the Gettysburg Address on November 19, 1863, at the dedication of the Soldiers' National Cemetery in Gettysburg, Pennsylvania. The speech, just 272 words, became one of the most famous in American history, redefining the Civil War as a fight for human equality.",
-      "memory_hook": "Lincoln at Gettysburg \u2014 short speech, eternal impact."
+      "memory_hook": "Lincoln at Gettysburg — short speech, eternal impact."
     },
     {
       "category": "Sports",
@@ -36,8 +36,8 @@
         "The Travers Stakes"
       ],
       "answer": "The Belmont Stakes",
-      "explanation": "The Triple Crown consists of the Kentucky Derby (Churchill Downs), the Preakness Stakes (Pimlico), and the Belmont Stakes (Belmont Park). A horse that wins all three in the same year wins the Triple Crown \u2014 one of the rarest achievements in sport.",
-      "memory_hook": "Derby, Preakness, Belmont \u2014 three jewels, one Triple Crown."
+      "explanation": "The Triple Crown consists of the Kentucky Derby (Churchill Downs), the Preakness Stakes (Pimlico), and the Belmont Stakes (Belmont Park). A horse that wins all three in the same year wins the Triple Crown — one of the rarest achievements in sport.",
+      "memory_hook": "Derby, Preakness, Belmont — three jewels, one Triple Crown."
     },
     {
       "category": "Sports",
@@ -50,7 +50,7 @@
       ],
       "answer": "Lacrosse",
       "explanation": "Lacrosse is Canada's official national summer sport (ice hockey is the national winter sport). Lacrosse was originally played by Indigenous peoples of North America long before European contact. Canada passed the National Sports of Canada Act in 1994 designating both sports.",
-      "memory_hook": "Canada has TWO national sports \u2014 lacrosse in summer, hockey in winter."
+      "memory_hook": "Canada has TWO national sports — lacrosse in summer, hockey in winter."
     },
     {
       "category": "Sports",
@@ -63,7 +63,7 @@
       ],
       "answer": "9",
       "explanation": "A standard baseball team fields nine players at a time: pitcher, catcher, first baseman, second baseman, third baseman, shortstop, and three outfielders (left, center, right). The designated hitter rule in the American League allows a tenth player to bat for the pitcher.",
-      "memory_hook": "Nine players, nine innings \u2014 baseball is built on nines."
+      "memory_hook": "Nine players, nine innings — baseball is built on nines."
     },
     {
       "category": "Music/Movies",
@@ -72,11 +72,11 @@
         "Mariah Carey",
         "Celine Dion",
         "Whitney Houston",
-        "Beyonc\u00e9"
+        "Beyoncé"
       ],
       "answer": "Whitney Houston",
-      "explanation": "Whitney Houston's performance of 'The Star-Spangled Banner' at Super Bowl XXV in 1991 is widely considered the greatest rendition of the national anthem ever. Her recording was released as a single and charted on the Billboard Hot 100 twice \u2014 in 1991 and 2001.",
-      "memory_hook": "Whitney at the Super Bowl \u2014 she didn't just sing it, she owned it."
+      "explanation": "Whitney Houston's performance of 'The Star-Spangled Banner' at Super Bowl XXV in 1991 is widely considered the greatest rendition of the national anthem ever. Her recording was released as a single and charted on the Billboard Hot 100 twice — in 1991 and 2001.",
+      "memory_hook": "Whitney at the Super Bowl — she didn't just sing it, she owned it."
     },
     {
       "category": "Music/Movies",
@@ -89,7 +89,7 @@
       ],
       "answer": "Jurassic Park",
       "explanation": "Jurassic Park (1993), directed by Steven Spielberg and based on Michael Crichton's novel, is set on Isla Nublar, a fictional island off Costa Rica where genetically recreated dinosaurs are housed in a theme park. The film revolutionized the use of CGI in cinema.",
-      "memory_hook": "Isla Nublar = dinosaur island. Life found a way \u2014 and so did Spielberg."
+      "memory_hook": "Isla Nublar = dinosaur island. Life found a way — and so did Spielberg."
     },
     {
       "category": "Music/Movies",
@@ -102,11 +102,11 @@
       ],
       "answer": "25",
       "explanation": "Adele's third studio album '25' was released in November 2015 and contains 'Hello' and 'When We Were Young.' It became the fastest-selling album in history at the time, selling 3.38 million copies in its first week in the US alone.",
-      "memory_hook": "Hello from '25' \u2014 Adele called from outside her twenties."
+      "memory_hook": "Hello from '25' — Adele called from outside her twenties."
     },
     {
       "category": "History",
-      "question": "What was the primary cause of the Irish Famine (1845\u20131852)?",
+      "question": "What was the primary cause of the Irish Famine (1845–1852)?",
       "options": [
         "Drought",
         "A potato blight",
@@ -128,7 +128,33 @@
       ],
       "answer": "Mongol Empire",
       "explanation": "Genghis Khan founded the Mongol Empire in 1206 after uniting the Mongolian tribes. At its peak, the Mongol Empire was the largest contiguous land empire in history, stretching from the Pacific Ocean to Eastern Europe. Genghis Khan died in 1227.",
-      "memory_hook": "Genghis = Mongol. The name sounds like thunder \u2014 and his empire rumbled across Asia."
+      "memory_hook": "Genghis = Mongol. The name sounds like thunder — and his empire rumbled across Asia."
+    },
+    {
+      "category": "Geography",
+      "question": "Greenland is a territory of which country?",
+      "options": [
+        "Iceland",
+        "Norway",
+        "Canada",
+        "Denmark"
+      ],
+      "answer": "Denmark",
+      "explanation": "Greenland is an autonomous territory within the Kingdom of Denmark, though it has its own government and handles most of its own affairs. Despite its name, Greenland is 80% covered by ice — it was named 'Greenland' by Erik the Red in 982 AD, reportedly to attract settlers. Iceland, ironically, is greener.",
+      "memory_hook": "Greenland belongs to Denmark. And Greenland is mostly ice while Iceland is mostly green. The names are backwards — a deliberate naming trick from the Viking Age."
+    },
+    {
+      "category": "Science & Nature",
+      "question": "What is the most abundant element in the universe?",
+      "options": [
+        "Oxygen",
+        "Carbon",
+        "Helium",
+        "Hydrogen"
+      ],
+      "answer": "Hydrogen",
+      "explanation": "Hydrogen makes up about 75% of all normal matter in the universe by mass. It is the simplest element — one proton, one electron — and was among the first elements formed after the Big Bang. Stars are essentially giant hydrogen-burning engines, fusing hydrogen into helium to produce energy.",
+      "memory_hook": "Hydrogen = most abundant element in the universe. The simplest atom, the first to form, the fuel of every star. The universe is mostly hydrogen with some helium and a tiny bit of everything else."
     }
   ]
 }

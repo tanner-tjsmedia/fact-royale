@@ -1,0 +1,161 @@
+{
+  "date": "2026-08-19",
+  "questions": [
+    {
+      "category": "History",
+      "question": "Who invented the telephone, receiving the first patent in 1876?",
+      "options": [
+        "Thomas Edison",
+        "Nikola Tesla",
+        "Guglielmo Marconi",
+        "Alexander Graham Bell"
+      ],
+      "answer": "Alexander Graham Bell",
+      "explanation": "Alexander Graham Bell received US Patent 174,465 for the telephone on March 7, 1876 — widely regarded as the most valuable patent ever issued. The first successful voice transmission was made three days later. Bell's achievement is disputed — Elisha Gray filed a patent caveat the same day, and Italian inventor Antonio Meucci had developed a voice communication device earlier but couldn't afford the patent fees.",
+      "memory_hook": "Bell = telephone patent, 1876. Most valuable patent in history. He filed hours before a competitor. He went on to help found AT&T. Ironically, he refused to have a phone in his study — he found it disruptive."
+    },
+    {
+      "category": "History",
+      "question": "Which Roman emperor made Christianity the official religion of the Roman Empire?",
+      "options": [
+        "Marcus Aurelius",
+        "Nero",
+        "Constantine I",
+        "Augustus"
+      ],
+      "answer": "Constantine I",
+      "explanation": "Constantine I issued the Edict of Milan in 313 AD, granting religious tolerance throughout the Roman Empire. He was the first Roman emperor to convert to Christianity (though baptism came only on his deathbed). His mother Helena traveled to the Holy Land and allegedly identified the true cross. Emperor Theodosius I later made Christianity the official state religion in 380 AD, but Constantine's earlier patronage was decisive.",
+      "memory_hook": "Constantine = first Christian emperor. Edict of Milan 313 AD. He saw a cross in the sky before battle and credited his victory to Christ. Changed the Roman Empire — and therefore Western civilization — permanently. He was baptized on his deathbed, waiting until the last moment."
+    },
+    {
+      "category": "History",
+      "question": "The Srebrenica massacre in 1995, in which over 8,000 Bosnian Muslims were killed, occurred during which conflict?",
+      "options": [
+        "Croatian War of Independence",
+        "Chechen Wars",
+        "Kosovo War",
+        "Bosnian War"
+      ],
+      "answer": "Bosnian War",
+      "explanation": "The Srebrenica massacre occurred during the Bosnian War (1992-1995) when Bosnian Serb forces under General Ratko Mladic killed over 8,000 Bosniak Muslim men and boys in and around Srebrenica, a UN-designated safe area. It was the worst atrocity in Europe since World War II. The International Criminal Tribunal for the Former Yugoslavia ruled it genocide. Mladic was sentenced to life imprisonment in 2017.",
+      "memory_hook": "Srebrenica = 8,000 murdered, 1995 Bosnia. The worst European atrocity since WWII. A UN 'safe zone' with Dutch peacekeepers who stood down. It happened while the world watched. The Hague convicted Mladic of genocide in 2017 — 22 years later."
+    },
+    {
+      "category": "History",
+      "question": "The construction of the Hoover Dam, at the time the world's largest dam, was completed in which year?",
+      "options": [
+        "1928",
+        "1931",
+        "1935",
+        "1940"
+      ],
+      "answer": "1935",
+      "explanation": "The Hoover Dam was completed in 1935, two years ahead of schedule and under budget. Located on the Colorado River on the Nevada-Arizona border, it generates hydroelectric power for Nevada, Arizona, and California. Its construction during the Great Depression employed about 21,000 workers and 96 workers died during construction. Lake Mead, the reservoir it created, is the largest reservoir in the US by volume.",
+      "memory_hook": "Hoover Dam = 1935. Two years ahead of schedule during the Depression. Built on the Colorado River between Nevada and Arizona. 96 workers died building it. Lake Mead behind it has been severely affected by drought — water levels have dropped dramatically since 2000."
+    },
+    {
+      "category": "Sports",
+      "question": "In ice hockey, how many players per team are on the ice during regulation play (not including the goaltender)?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "answer": "5",
+      "explanation": "Each ice hockey team has 5 skaters (forwards and defensemen) plus a goaltender on the ice for a total of 6 players per team during regulation. When a team takes a penalty, one of their skaters must leave the ice, giving the opposing team a 'power play' with a 6-on-5 advantage. Teams may also pull their goaltender for an extra skater in desperate situations.",
+      "memory_hook": "Hockey = 5 skaters + 1 goalie = 6 per team. Take a penalty: one player goes in the box, team plays 4 skaters (5-on-4 power play). Pull the goalie: 6 skaters but no one guarding the net. Hockey has more tactical situations than most sports because of these fluid numbers."
+    },
+    {
+      "category": "Sports",
+      "question": "Which country has won the most FIFA Women's World Cup titles?",
+      "options": [
+        "Germany",
+        "Sweden",
+        "Brazil",
+        "United States"
+      ],
+      "answer": "United States",
+      "explanation": "The United States women's national soccer team (USWNT) has won the FIFA Women's World Cup four times (1991, 1999, 2015, 2019) — more than any other country. The 1999 World Cup, held in the US and won in a dramatic penalty shootout against China at the Rose Bowl, is considered a watershed moment for women's sports in America. Brandi Chastain's jersey-removing celebration after the winning penalty became iconic.",
+      "memory_hook": "USWNT = 4 Women's World Cups, most ever. The 1999 final at the Rose Bowl had 90,000 fans — the largest crowd ever for a women's sporting event. Mia Hamm, Brandi Chastain, Julie Foudy — they changed how America viewed women in sports."
+    },
+    {
+      "category": "Sports",
+      "question": "In which sport would you find a 'peloton'?",
+      "options": [
+        "Rowing",
+        "Triathlon",
+        "Cycling",
+        "Speed Skating"
+      ],
+      "answer": "Cycling",
+      "explanation": "A peloton is the main group of riders in professional road cycling. Riders in the peloton save energy by drafting (riding in each other's slipstream), which can reduce wind resistance by up to 40%. The peloton is where most of the field spends most of a race. Individual riders or small breakaway groups (échappées) may escape ahead, but the peloton often catches them.",
+      "memory_hook": "Peloton = the main group in cycling. Drafting saves up to 40% energy. The peloton operates like a living organism — it breathes, accelerates, splits. Team tactics in cycling are like chess at 40 mph. The most powerful teams control the peloton's pace."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Which legendary rock guitarist is known as 'Slowhand' and recorded 'Layla' and 'Tears in Heaven'?",
+      "options": [
+        "Jimi Hendrix",
+        "Pete Townshend",
+        "Jeff Beck",
+        "Eric Clapton"
+      ],
+      "answer": "Eric Clapton",
+      "explanation": "Eric Clapton earned the nickname 'Slowhand' from his habit of restringing guitars mid-concert while the audience clapped. He is one of rock's greatest guitarists, with a career spanning six decades. 'Layla' (1970, with Derek and the Dominos) is widely considered one of the greatest rock songs. 'Tears in Heaven' (1992) was written after the death of his four-year-old son Conor. Clapton is the only musician inducted into the Rock and Roll Hall of Fame three times.",
+      "memory_hook": "Eric Clapton = 'Slowhand.' 'Layla' is about his obsession with George Harrison's wife Pattie Boyd — he later married her. 'Tears in Heaven' was written after his son fell out of a New York apartment window. Three times in the Rock Hall of Fame."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Which 1986 Oliver Stone film about the Vietnam War starred Tom Berenger and Willem Dafoe?",
+      "options": [
+        "Full Metal Jacket",
+        "Apocalypse Now",
+        "Born on the Fourth of July",
+        "Platoon"
+      ],
+      "answer": "Platoon",
+      "explanation": "Platoon (1986), written and directed by Oliver Stone based on his own Vietnam War experiences, won four Academy Awards including Best Picture and Best Director. It starred Tom Berenger as the hardened Sergeant Barnes and Willem Dafoe as the moral Sergeant Elias, representing the war's duality. It was the first major Hollywood film to portray the Vietnam War from an enlisted soldier's perspective.",
+      "memory_hook": "Platoon = Oliver Stone's personal Vietnam War film. He served in Vietnam and wrote it from experience. Tom Berenger vs Willem Dafoe = the war's moral duality. Won Best Picture 1986. The helicopter-lifting image of Dafoe's arms raised in the air became one of cinema's most iconic images."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Which artist created the iconic 'Thriller' music video, often called the greatest music video ever made?",
+      "options": [
+        "Quincy Jones",
+        "John Landis",
+        "Michael Jackson",
+        "Steven Spielberg"
+      ],
+      "answer": "John Landis",
+      "explanation": "The 'Thriller' music video (1983) was directed by John Landis, who also directed An American Werewolf in London and Animal House. The 14-minute short film cost $500,000 (revolutionary for the time), featured Michael Jackson transforming into a zombie, and was the first music video to be added to the National Film Registry by the Library of Congress. It transformed music videos from promotional tools into cinematic art forms.",
+      "memory_hook": "'Thriller' video directed by John Landis — who also made An American Werewolf in London. Perfect choice. $500,000 budget in 1983. 14 minutes. The first music video in the Library of Congress. Jackson insisted on the disclaimer at the start because his Jehovah's Witness faith had issues with occult imagery."
+    },
+    {
+      "category": "Geography",
+      "question": "Which African country is home to Victoria Falls, one of the world's largest and most spectacular waterfalls?",
+      "options": [
+        "Tanzania",
+        "Mozambique",
+        "Zimbabwe and Zambia",
+        "Botswana"
+      ],
+      "answer": "Zimbabwe and Zambia",
+      "explanation": "Victoria Falls sits on the Zambezi River on the border between Zimbabwe and Zambia. The falls are approximately 1,708 meters wide and 108 meters high — making them the world's largest sheet of falling water by area. The local name is 'Mosi-oa-Tunya' meaning 'The Smoke That Thunders.' David Livingstone was the first European to see them in 1855 and named them after Queen Victoria.",
+      "memory_hook": "Victoria Falls = Zimbabwe AND Zambia share it. 'Mosi-oa-Tunya' — The Smoke That Thunders. The spray can be seen 50 km away. Livingstone named it Victoria to honor the queen. The local name is better."
+    },
+    {
+      "category": "Science & Nature",
+      "question": "What is the study of heredity and genetic variation in living organisms?",
+      "options": [
+        "Ecology",
+        "Molecular biology",
+        "Genetics",
+        "Biochemistry"
+      ],
+      "answer": "Genetics",
+      "explanation": "Genetics is the branch of biology that studies heredity — how traits are passed from parents to offspring — and genetic variation. Gregor Mendel, an Austrian monk, laid the foundation of genetics in the 1860s with his pea plant experiments. The discovery of DNA's structure (1953) transformed genetics from observation to molecular understanding. Today, genetic science underpins medicine, agriculture, forensics, and evolutionary biology.",
+      "memory_hook": "Genetics = study of heredity. Mendel and his pea plants in the 1860s. Watson and Crick's DNA structure in 1953. CRISPR gene editing in 2012. Genetics went from 'I wonder why some peas are wrinkled' to editing the code of life in 150 years."
+    }
+  ]
+}

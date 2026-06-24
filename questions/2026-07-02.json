@@ -10,7 +10,7 @@
         "Greece"
       ],
       "answer": "China",
-      "explanation": "China invented paper money during the Tang Dynasty (618\u2013907 AD) and it became widespread during the Song Dynasty. The Mongol rulers further developed the system. Marco Polo was astonished by paper money during his travels to China.",
+      "explanation": "China invented paper money during the Tang Dynasty (618–907 AD) and it became widespread during the Song Dynasty. The Mongol rulers further developed the system. Marco Polo was astonished by paper money during his travels to China.",
       "memory_hook": "China: they invented paper, then figured out you could print money on it."
     },
     {
@@ -24,7 +24,7 @@
       ],
       "answer": "Kennedy",
       "explanation": "The Cuban Missile Crisis occurred in October 1962 during President John F. Kennedy's administration. The 13-day standoff between the U.S. and Soviet Union, after Soviet missiles were discovered in Cuba, is considered the closest the Cold War came to nuclear conflict.",
-      "memory_hook": "Kennedy vs. Khrushchev \u2014 K vs. K, 13 days, almost the end."
+      "memory_hook": "Kennedy vs. Khrushchev — K vs. K, 13 days, almost the end."
     },
     {
       "category": "Sports",
@@ -37,7 +37,7 @@
       ],
       "answer": "Ice hockey",
       "explanation": "A puck is the small, hard rubber disc used in ice hockey. It is 1 inch thick, 3 inches in diameter, and weighs between 5.5 and 6 ounces. Pucks are frozen before games to reduce bouncing on the ice.",
-      "memory_hook": "Puck \u2014 it rhymes with duck, and it slides like one on ice."
+      "memory_hook": "Puck — it rhymes with duck, and it slides like one on ice."
     },
     {
       "category": "Sports",
@@ -50,7 +50,7 @@
       ],
       "answer": "6",
       "explanation": "A touchdown is worth 6 points in American football. After scoring a touchdown, teams can attempt a point-after-touchdown kick (1 point) or a two-point conversion by running or passing into the end zone again.",
-      "memory_hook": "6 for touchdown \u2014 then add 1 or 2 for the extra point or conversion."
+      "memory_hook": "6 for touchdown — then add 1 or 2 for the extra point or conversion."
     },
     {
       "category": "Sports",
@@ -76,7 +76,7 @@
       ],
       "answer": "The Lion King",
       "explanation": "'Circle of Life' opens The Lion King (1994) and was written by Elton John and Tim Rice. The film features music that went on to inspire a massively successful Broadway musical. It remains one of the highest-grossing animated films of all time.",
-      "memory_hook": "Circle of Life \u2014 Simba rises, the circle continues."
+      "memory_hook": "Circle of Life — Simba rises, the circle continues."
     },
     {
       "category": "Music/Movies",
@@ -102,7 +102,7 @@
       ],
       "answer": "Michael Jackson",
       "explanation": "Michael Jackson earned the title 'King of Pop' due to his extraordinary impact on popular music and culture. His 1982 album 'Thriller' remains the best-selling album of all time, and his signature moonwalk dance move became iconic worldwide.",
-      "memory_hook": "King of Pop \u2014 MJ wore the crown the whole time."
+      "memory_hook": "King of Pop — MJ wore the crown the whole time."
     },
     {
       "category": "History",
@@ -114,8 +114,8 @@
         "Mongol Empire"
       ],
       "answer": "Byzantine Empire",
-      "explanation": "The fall of Constantinople on May 29, 1453, to Ottoman Sultan Mehmed II ended the Byzantine Empire \u2014 the eastern continuation of the Roman Empire that had survived for nearly 1,000 years after Rome's fall. It marked the end of the Middle Ages.",
-      "memory_hook": "Byzantine = East Rome. It lasted until 1453 \u2014 almost 1,000 years after Rome fell."
+      "explanation": "The fall of Constantinople on May 29, 1453, to Ottoman Sultan Mehmed II ended the Byzantine Empire — the eastern continuation of the Roman Empire that had survived for nearly 1,000 years after Rome's fall. It marked the end of the Middle Ages.",
+      "memory_hook": "Byzantine = East Rome. It lasted until 1453 — almost 1,000 years after Rome fell."
     },
     {
       "category": "History",
@@ -128,7 +128,33 @@
       ],
       "answer": "Neil Armstrong",
       "explanation": "Neil Armstrong became the first human to walk on the moon on July 20, 1969, during NASA's Apollo 11 mission. His first words upon stepping onto the lunar surface were: 'That's one small step for man, one giant leap for mankind.'",
-      "memory_hook": "Armstrong's arm reached the moon first \u2014 July 20, 1969."
+      "memory_hook": "Armstrong's arm reached the moon first — July 20, 1969."
+    },
+    {
+      "category": "Geography",
+      "question": "Which is the world's longest mountain range?",
+      "options": [
+        "Himalayas",
+        "Rockies",
+        "Alps",
+        "Andes"
+      ],
+      "answer": "Andes",
+      "explanation": "The Andes stretches approximately 7,000 kilometers along the western coast of South America, running through Venezuela, Colombia, Ecuador, Peru, Bolivia, Chile, and Argentina. It is the longest above-water mountain range, though the Mid-Atlantic Ridge is longer if you count underwater ranges.",
+      "memory_hook": "Andes = world's longest mountain range. 7,000 km through 7 countries. The Himalayas are taller, but the Andes are longer — they run almost the entire length of a continent."
+    },
+    {
+      "category": "Science & Nature",
+      "question": "How long does light from the Sun take to reach Earth?",
+      "options": [
+        "About 8 seconds",
+        "About 8 minutes",
+        "About 8 hours",
+        "About 8 days"
+      ],
+      "answer": "About 8 minutes",
+      "explanation": "Light travels at 299,792 km per second, and the Sun is about 150 million km from Earth. That works out to approximately 8 minutes and 20 seconds. This means the sunlight you see right now actually left the Sun over 8 minutes ago — you're always looking at the Sun's recent past.",
+      "memory_hook": "Sunlight = 8 minutes old when it hits you. The Sun you see is 8 minutes in the past. If the Sun disappeared right now, you wouldn't know for over 8 minutes."
     }
   ]
 }

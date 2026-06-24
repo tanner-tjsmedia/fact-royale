@@ -23,8 +23,8 @@
         "Portugal"
       ],
       "answer": "Portugal",
-      "explanation": "Portugal colonized Brazil beginning in 1500 when Pedro \u00c1lvares Cabral landed on the Brazilian coast. Brazil remained a Portuguese colony until 1822, when it declared independence. As a result, Portuguese is the official language of Brazil \u2014 the only country in South America where Spanish is not the dominant language.",
-      "memory_hook": "Portugal got Brazil \u2014 the only South American country that speaks Portuguese."
+      "explanation": "Portugal colonized Brazil beginning in 1500 when Pedro Álvares Cabral landed on the Brazilian coast. Brazil remained a Portuguese colony until 1822, when it declared independence. As a result, Portuguese is the official language of Brazil — the only country in South America where Spanish is not the dominant language.",
+      "memory_hook": "Portugal got Brazil — the only South American country that speaks Portuguese."
     },
     {
       "category": "Sports",
@@ -37,7 +37,7 @@
       ],
       "answer": "135 lbs",
       "explanation": "The lightweight division in boxing has a maximum weight limit of 135 pounds (61.2 kg). It is one of the most storied divisions in boxing, with legends like Muhammad Ali (who began as a lightweight), Floyd Mayweather, and Manny Pacquiao having competed at or near this weight.",
-      "memory_hook": "Lightweight = 135 lbs maximum. Not featherweight, not welterweight \u2014 the middle of 'light.'"
+      "memory_hook": "Lightweight = 135 lbs maximum. Not featherweight, not welterweight — the middle of 'light.'"
     },
     {
       "category": "Sports",
@@ -63,7 +63,7 @@
       ],
       "answer": "18",
       "explanation": "A standard golf course has 18 holes. The 18-hole standard was established by the St Andrews Links in Scotland in 1764, when the course was redesigned from 22 holes to 18. Today, the Old Course at St Andrews is considered one of the most historic golf venues in the world.",
-      "memory_hook": "18 holes \u2014 St Andrews set the standard in 1764."
+      "memory_hook": "18 holes — St Andrews set the standard in 1764."
     },
     {
       "category": "Music/Movies",
@@ -75,8 +75,8 @@
         "Leonardo DiCaprio"
       ],
       "answer": "Leonardo DiCaprio",
-      "explanation": "Leonardo DiCaprio played Hugh Glass in The Revenant (2015), a fur trapper seeking revenge after being left for dead. The role won DiCaprio his first Academy Award for Best Actor after five previous nominations. The film was directed by Alejandro Gonz\u00e1lez I\u00f1\u00e1rritu and shot entirely with natural light.",
-      "memory_hook": "DiCaprio finally won the Oscar for The Revenant \u2014 after five nominations and years of memes."
+      "explanation": "Leonardo DiCaprio played Hugh Glass in The Revenant (2015), a fur trapper seeking revenge after being left for dead. The role won DiCaprio his first Academy Award for Best Actor after five previous nominations. The film was directed by Alejandro González Iñárritu and shot entirely with natural light.",
+      "memory_hook": "DiCaprio finally won the Oscar for The Revenant — after five nominations and years of memes."
     },
     {
       "category": "Music/Movies",
@@ -88,8 +88,8 @@
         "Glastonbury"
       ],
       "answer": "Woodstock",
-      "explanation": "Woodstock Music & Art Fair took place August 15\u201318, 1969, on a dairy farm in Bethel, New York. Approximately 400,000 people attended. Performers included Jimi Hendrix, Janis Joplin, The Who, and Jefferson Airplane. It became the defining cultural event of the hippie era.",
-      "memory_hook": "Woodstock '69 \u2014 400,000 people, one muddy field, and the sound of a generation."
+      "explanation": "Woodstock Music & Art Fair took place August 15–18, 1969, on a dairy farm in Bethel, New York. Approximately 400,000 people attended. Performers included Jimi Hendrix, Janis Joplin, The Who, and Jefferson Airplane. It became the defining cultural event of the hippie era.",
+      "memory_hook": "Woodstock '69 — 400,000 people, one muddy field, and the sound of a generation."
     },
     {
       "category": "Music/Movies",
@@ -101,8 +101,8 @@
         "Coco"
       ],
       "answer": "Coco",
-      "explanation": "'Remember Me' is the signature song from Pixar's Coco (2017), a film about a young boy in Mexico who journeys to the Land of the Dead to find his great-great-grandfather. The film is set during the D\u00eda de los Muertos celebration and won the Academy Award for Best Animated Feature.",
-      "memory_hook": "'Remember Me' from Coco \u2014 remember the dead, celebrate the living."
+      "explanation": "'Remember Me' is the signature song from Pixar's Coco (2017), a film about a young boy in Mexico who journeys to the Land of the Dead to find his great-great-grandfather. The film is set during the Día de los Muertos celebration and won the Academy Award for Best Animated Feature.",
+      "memory_hook": "'Remember Me' from Coco — remember the dead, celebrate the living."
     },
     {
       "category": "History",
@@ -114,8 +114,8 @@
         "United States"
       ],
       "answer": "United States",
-      "explanation": "The United States developed the first nuclear weapons through the Manhattan Project (1942\u20131946). The first nuclear test, code-named 'Trinity,' was conducted on July 16, 1945, in New Mexico. The U.S. remains the only country to have used nuclear weapons in warfare.",
-      "memory_hook": "US built the bomb first \u2014 Trinity test, July 1945. Hiroshima and Nagasaki followed."
+      "explanation": "The United States developed the first nuclear weapons through the Manhattan Project (1942–1946). The first nuclear test, code-named 'Trinity,' was conducted on July 16, 1945, in New Mexico. The U.S. remains the only country to have used nuclear weapons in warfare.",
+      "memory_hook": "US built the bomb first — Trinity test, July 1945. Hiroshima and Nagasaki followed."
     },
     {
       "category": "History",
@@ -127,8 +127,34 @@
         "Italy"
       ],
       "answer": "France",
-      "explanation": "The Hundred Years' War (1337\u20131453) was a series of armed conflicts between England and France over the right to the French throne. England won major battles at Cr\u00e9cy, Poitiers, and Agincourt but ultimately lost. Joan of Arc revitalized French forces and played a decisive role in France's eventual victory.",
-      "memory_hook": "Hundred Years, England vs. France \u2014 Joan of Arc turned the tide."
+      "explanation": "The Hundred Years' War (1337–1453) was a series of armed conflicts between England and France over the right to the French throne. England won major battles at Crécy, Poitiers, and Agincourt but ultimately lost. Joan of Arc revitalized French forces and played a decisive role in France's eventual victory.",
+      "memory_hook": "Hundred Years, England vs. France — Joan of Arc turned the tide."
+    },
+    {
+      "category": "Geography",
+      "question": "Which continent has the most countries?",
+      "options": [
+        "Asia",
+        "Europe",
+        "South America",
+        "Africa"
+      ],
+      "answer": "Africa",
+      "explanation": "Africa has 54 recognized sovereign countries — more than any other continent. Despite being the second-largest continent by area, it was carved into many nations largely as a result of European colonial borders drawn in the 19th century. Nigeria alone has a population of over 220 million people.",
+      "memory_hook": "Africa = most countries. 54 nations. Many of these borders were drawn by European powers with no regard for existing ethnic or tribal territories — the straight lines on the map are a colonial legacy."
+    },
+    {
+      "category": "Science & Nature",
+      "question": "How many chromosomes are in a typical human cell?",
+      "options": [
+        "23",
+        "44",
+        "46",
+        "48"
+      ],
+      "answer": "46",
+      "explanation": "Most human cells contain 46 chromosomes, arranged in 23 pairs. One chromosome from each pair comes from each parent. The 23rd pair determines biological sex — XX for female, XY for male. Sperm and egg cells (gametes) contain only 23 chromosomes each; they combine at fertilization to restore the full 46.",
+      "memory_hook": "46 chromosomes in every cell. 23 pairs, one from each parent. The sperm has 23, the egg has 23, they meet and make 46. Half your DNA from mom, half from dad."
     }
   ]
 }

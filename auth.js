@@ -429,11 +429,21 @@ function renderLeaderboard(scores, realCount) {
 
 // ── Streak Banner ──────────────────────────────────────
 function streakLabel(n) {
-  if (n >= 30) return `${n}-day streak 🏆 You're a Fact Royale legend.`;
-  if (n >= 14) return `${n}-day streak 🔥 Two weeks of daily trivia.`;
-  if (n >=  7) return `${n}-day streak 🔥 One week strong. Don't break the chain!`;
-  if (n >=  3) return `${n}-day streak 🔥 You're on a roll.`;
-  if (n ===  2) return `2-day streak. Nice start, keep it going!`;
+  if (n >= 100) return `${n}-day streak 🏆 Triple digits. You're a Fact Royale legend.`;
+  if (n >= 51)  return `${n}-day streak 🔥 Elite territory.`;
+  if (n === 50) return `50-day streak 🔥 Most people never make it here.`;
+  if (n >= 31)  return `${n}-day streak 🔥 You're a regular now.`;
+  if (n === 30) return `30-day streak 🔥 One full month. That's real dedication.`;
+  if (n === 21) return `21-day streak 🔥 Three weeks solid.`;
+  if (n >= 22)  return `${n}-day streak 🔥 Almost a month. Don't blow it now.`;
+  if (n >= 15)  return `${n}-day streak 🔥 Halfway to a month.`;
+  if (n === 14) return `14-day streak 🔥 Two weeks straight. Rare.`;
+  if (n >= 11)  return `${n}-day streak 🔥 Pushing toward two weeks.`;
+  if (n === 10) return `10-day streak 🔥 Double digits. You're serious about this.`;
+  if (n >=  8)  return `${n}-day streak 🔥 Still going. Most people quit by now.`;
+  if (n ===  7) return `7-day streak 🔥 One week down. Don't stop now.`;
+  if (n >=  4)  return `${n}-day streak 🔥 You're building something.`;
+  if (n >=  2)  return `${n}-day streak. Nice start. Keep going.`;
   return `Day 1. The streak starts now!`;
 }
 

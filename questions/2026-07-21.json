@@ -11,7 +11,7 @@
       ],
       "answer": "World War I",
       "explanation": "The assassination of Archduke Franz Ferdinand of Austria-Hungary on June 28, 1914, triggered a chain reaction of declarations of war due to entangling alliances, leading to World War I. The war lasted from 1914 to 1918 and resulted in an estimated 20 million deaths.",
-      "memory_hook": "One assassination, two months, four empires at war \u2014 that's World War I in a nutshell."
+      "memory_hook": "One assassination, two months, four empires at war — that's World War I in a nutshell."
     },
     {
       "category": "History",
@@ -50,7 +50,7 @@
       ],
       "answer": "National Basketball Association",
       "explanation": "The NBA (National Basketball Association) was formed in 1946. It is the premier professional basketball league in the world, consisting of 30 teams. The league's most prestigious individual award is the MVP (Most Valuable Player), and the championship is decided in the NBA Finals.",
-      "memory_hook": "National Basketball Association \u2014 the world's top basketball league, founded 1946."
+      "memory_hook": "National Basketball Association — the world's top basketball league, founded 1946."
     },
     {
       "category": "Sports",
@@ -67,7 +67,7 @@
     },
     {
       "category": "Music/Movies",
-      "question": "Who wrote 'Thriller' \u2014 the song, not the album?",
+      "question": "Who wrote 'Thriller' — the song, not the album?",
       "options": [
         "Michael Jackson",
         "Quincy Jones",
@@ -76,7 +76,7 @@
       ],
       "answer": "Rod Temperton",
       "explanation": "'Thriller' the song was written by British musician Rod Temperton, who also wrote 'Rock with You' and 'Off the Wall' for Michael Jackson. Temperton, who was part of the funk band Heatwave, wrote several other hits for other artists. Jackson's Thriller album produced seven Billboard Top 10 singles.",
-      "memory_hook": "Rod Temperton wrote Thriller \u2014 not MJ, but the song became MJ forever."
+      "memory_hook": "Rod Temperton wrote Thriller — not MJ, but the song became MJ forever."
     },
     {
       "category": "Music/Movies",
@@ -101,8 +101,8 @@
         "Dean Martin"
       ],
       "answer": "Frank Sinatra",
-      "explanation": "Frank Sinatra was nicknamed 'Ol' Blue Eyes' and 'The Voice.' He sold an estimated 150\u2013200 million records worldwide, and along with Bing Crosby, dominated popular music before rock and roll. He won the Academy Award for Best Supporting Actor for From Here to Eternity (1953).",
-      "memory_hook": "Sinatra: The Voice. His way was the only way \u2014 'My Way' said it all."
+      "explanation": "Frank Sinatra was nicknamed 'Ol' Blue Eyes' and 'The Voice.' He sold an estimated 150–200 million records worldwide, and along with Bing Crosby, dominated popular music before rock and roll. He won the Academy Award for Best Supporting Actor for From Here to Eternity (1953).",
+      "memory_hook": "Sinatra: The Voice. His way was the only way — 'My Way' said it all."
     },
     {
       "category": "History",
@@ -115,7 +115,7 @@
       ],
       "answer": "Oxygen tank explosion that forced the crew to abort the Moon landing",
       "explanation": "On April 13, 1970, an oxygen tank exploded on Apollo 13, crippling the spacecraft 200,000 miles from Earth. The mission to land on the Moon was aborted, and astronauts Jim Lovell, Jack Swigert, and Fred Haise used the lunar module as a lifeboat to return safely to Earth. It was called a 'successful failure.'",
-      "memory_hook": "'Houston, we have a problem' \u2014 Apollo 13's oxygen tank exploded. They made it home anyway."
+      "memory_hook": "'Houston, we have a problem' — Apollo 13's oxygen tank exploded. They made it home anyway."
     },
     {
       "category": "History",
@@ -128,7 +128,33 @@
       ],
       "answer": "The Colossus of Rhodes",
       "explanation": "The Colossus of Rhodes was a statue of the sun god Helios, built around 280 BC in the Greek city of Rhodes. It stood approximately 70 cubits (33 meters) high and was considered one of the Seven Wonders of the Ancient World. It stood for only 54 years before being destroyed by an earthquake.",
-      "memory_hook": "Colossus of Rhodes: straddled the harbor (maybe), fell in an earthquake \u2014 a wonder for just 54 years."
+      "memory_hook": "Colossus of Rhodes: straddled the harbor (maybe), fell in an earthquake — a wonder for just 54 years."
+    },
+    {
+      "category": "Geography",
+      "question": "Which country is home to the Great Barrier Reef?",
+      "options": [
+        "Indonesia",
+        "Philippines",
+        "Fiji",
+        "Australia"
+      ],
+      "answer": "Australia",
+      "explanation": "The Great Barrier Reef stretches over 2,300 km along the northeast coast of Australia, in the Coral Sea. It is the world's largest coral reef system, composed of over 2,900 individual reefs and 900 islands. It is the largest living structure on Earth and is visible from space.",
+      "memory_hook": "Great Barrier Reef = Australia. 2,300 km long, visible from space, the largest living thing on Earth. Climate change and ocean warming are its biggest threats — it has experienced multiple mass bleaching events."
+    },
+    {
+      "category": "Science & Nature",
+      "question": "What tiny organisms are responsible for producing about half of the world's oxygen?",
+      "options": [
+        "Ferns",
+        "Bacteria in soil",
+        "Amazon rainforest trees",
+        "Phytoplankton"
+      ],
+      "answer": "Phytoplankton",
+      "explanation": "Phytoplankton are microscopic algae and cyanobacteria that float in the ocean and perform photosynthesis. They produce roughly 50-80% of Earth's oxygen — far more than all the world's forests combined. They also absorb massive amounts of carbon dioxide, making them critical to the global carbon cycle.",
+      "memory_hook": "Phytoplankton = half of Earth's oxygen. You breathe thanks to microscopic ocean creatures more than rainforests. The ocean, not the forest, is the planet's true lung."
     }
   ]
 }

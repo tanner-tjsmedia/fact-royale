@@ -10,8 +10,8 @@
         "John Glenn"
       ],
       "answer": "Michael Collins",
-      "explanation": "Michael Collins piloted the Columbia command module and orbited the Moon while Neil Armstrong and Buzz Aldrin landed in the Eagle lunar module. Collins is sometimes called 'the forgotten astronaut,' but he described his solo orbits of the moon \u2014 sometimes on the far side with no contact with Earth \u2014 as peaceful.",
-      "memory_hook": "Collins orbited alone \u2014 the most isolated human in history, 250,000 miles from Earth."
+      "explanation": "Michael Collins piloted the Columbia command module and orbited the Moon while Neil Armstrong and Buzz Aldrin landed in the Eagle lunar module. Collins is sometimes called 'the forgotten astronaut,' but he described his solo orbits of the moon — sometimes on the far side with no contact with Earth — as peaceful.",
+      "memory_hook": "Collins orbited alone — the most isolated human in history, 250,000 miles from Earth."
     },
     {
       "category": "History",
@@ -50,7 +50,7 @@
       ],
       "answer": "Greece",
       "explanation": "Greece has competed in every Summer Olympic Games since the inaugural modern Olympics in Athens in 1896. The United States has also competed in all Summer Games. Greece, as the host of the first modern Olympics, has a historical connection to every iteration of the games.",
-      "memory_hook": "Greece invented the Olympics and never missed a game \u2014 not one in over 125 years."
+      "memory_hook": "Greece invented the Olympics and never missed a game — not one in over 125 years."
     },
     {
       "category": "Sports",
@@ -63,7 +63,7 @@
       ],
       "answer": "Fencing",
       "explanation": "'En garde' is a French phrase meaning 'on guard' and is the starting command in fencing bouts. It instructs fencers to assume their ready positions. The phrase has entered common usage to mean 'prepare to defend yourself' or as a warning that a challenge is coming.",
-      "memory_hook": "'En garde!' \u2014 French for 'get ready to be stabbed.'"
+      "memory_hook": "'En garde!' — French for 'get ready to be stabbed.'"
     },
     {
       "category": "Music/Movies",
@@ -89,7 +89,7 @@
       ],
       "answer": "1984",
       "explanation": "Ghostbusters was released on June 8, 1984, starring Bill Murray, Dan Aykroyd, Harold Ramis, and Ernie Hudson. Written by Aykroyd and Ramis, the film was a massive commercial success and spawned a franchise including sequels, animated series, and a 2021 continuation.",
-      "memory_hook": "1984: Ghostbusters. Who ya gonna call? Answer: the box office \u2014 it was a hit."
+      "memory_hook": "1984: Ghostbusters. Who ya gonna call? Answer: the box office — it was a hit."
     },
     {
       "category": "Music/Movies",
@@ -102,7 +102,7 @@
       ],
       "answer": "Dr. No",
       "explanation": "Dr. No (1962) was the first James Bond film, starring Sean Connery as 007. It was based on Ian Fleming's 1958 novel and set in Jamaica. The film introduced the Bond formula: exotic locations, beautiful women, a memorable villain, and sophisticated gadgets. Dr. No grossed 60 times its budget.",
-      "memory_hook": "Bond began with 'No' \u2014 Dr. No, 1962, Connery in Jamaica."
+      "memory_hook": "Bond began with 'No' — Dr. No, 1962, Connery in Jamaica."
     },
     {
       "category": "History",
@@ -128,7 +128,33 @@
       ],
       "answer": "Nicholas II",
       "explanation": "Nicholas II was the last Emperor of Russia, ruling from 1894 until the Russian Revolution of 1917 forced his abdication. He and his family were executed by Bolshevik forces on July 17, 1918. His reign was marked by political repression and Russia's devastating involvement in World War I.",
-      "memory_hook": "Nicholas II \u2014 the last tsar. Russia's final emperor, executed by his own revolution."
+      "memory_hook": "Nicholas II — the last tsar. Russia's final emperor, executed by his own revolution."
+    },
+    {
+      "category": "Geography",
+      "question": "Which river flows through the most countries in Europe?",
+      "options": [
+        "Rhine",
+        "Seine",
+        "Danube",
+        "Volga"
+      ],
+      "answer": "Danube",
+      "explanation": "The Danube flows through or forms the border of 10 countries: Germany, Austria, Slovakia, Hungary, Croatia, Serbia, Bulgaria, Romania, Moldova, and Ukraine before emptying into the Black Sea. At 2,860 km, it is Europe's second longest river after the Volga. Vienna, Bratislava, Budapest, and Belgrade all sit on the Danube.",
+      "memory_hook": "Danube = 10 countries. No other river in the world touches as many nations. Four capital cities sit on its banks. Johann Strauss wrote a famous waltz about it."
+    },
+    {
+      "category": "Science & Nature",
+      "question": "How many elements are currently on the periodic table?",
+      "options": [
+        "92",
+        "104",
+        "118",
+        "126"
+      ],
+      "answer": "118",
+      "explanation": "The periodic table currently contains 118 confirmed elements. Elements 1-94 (hydrogen through plutonium) occur naturally on Earth; elements 95-118 are synthetic and were created in laboratories. Element 118, Oganesson, was first synthesized in 2002 and is so unstable it only exists for milliseconds.",
+      "memory_hook": "118 elements on the periodic table. 94 occur in nature, 24 are man-made. Every substance in the universe is made from combinations of just 118 basic building blocks."
     }
   ]
 }

@@ -11,7 +11,7 @@
       ],
       "answer": "North",
       "explanation": "The Great Wall of China was built along the northern border of China to protect against invasions from nomadic peoples of the Eurasian Steppe, primarily the Mongols and Xiongnu. It stretches over 13,000 miles and was built over many centuries beginning in the 7th century BC.",
-      "memory_hook": "The Great Wall faces north \u2014 a wall against the northern nomads."
+      "memory_hook": "The Great Wall faces north — a wall against the northern nomads."
     },
     {
       "category": "History",
@@ -24,7 +24,7 @@
       ],
       "answer": "Puyi",
       "explanation": "Puyi (Aisin-Gioro Puyi) was the last Emperor of China, ascending the throne at age 2 in 1908 and abdicating in 1912 following the Xinhai Revolution. He was later installed as a puppet ruler of the Japanese puppet state of Manchukuo. His life story is told in the film 'The Last Emperor.'",
-      "memory_hook": "Puyi: the last emperor became a gardener \u2014 from throne to pruning shears."
+      "memory_hook": "Puyi: the last emperor became a gardener — from throne to pruning shears."
     },
     {
       "category": "Sports",
@@ -37,7 +37,7 @@
       ],
       "answer": "4",
       "explanation": "A polo team consists of four mounted players. Each player is assigned a position number (1 through 4), with Number 1 being the most offensive player and Number 4 (or 'back') being the most defensive. Games consist of 'chukkers' (periods), typically four to eight per match.",
-      "memory_hook": "Four polo players, four horsemen \u2014 polo's a team sport on horseback."
+      "memory_hook": "Four polo players, four horsemen — polo's a team sport on horseback."
     },
     {
       "category": "Sports",
@@ -75,8 +75,8 @@
         "Revenge of the Sith"
       ],
       "answer": "A New Hope",
-      "explanation": "Darth Vader first appeared in Star Wars: Episode IV \u2014 A New Hope (1977). The character was voiced by James Earl Jones and physically portrayed by David Prowse. Vader's reveal as Luke Skywalker's father didn't come until The Empire Strikes Back (1980).",
-      "memory_hook": "Vader appeared in A New Hope \u2014 Episode IV, the very beginning."
+      "explanation": "Darth Vader first appeared in Star Wars: Episode IV — A New Hope (1977). The character was voiced by James Earl Jones and physically portrayed by David Prowse. Vader's reveal as Luke Skywalker's father didn't come until The Empire Strikes Back (1980).",
+      "memory_hook": "Vader appeared in A New Hope — Episode IV, the very beginning."
     },
     {
       "category": "Music/Movies",
@@ -89,7 +89,7 @@
       ],
       "answer": "Adele",
       "explanation": "'Rolling in the Deep' is from Adele's second studio album '21' (2011). The album spent 24 non-consecutive weeks at number one in the US and 23 weeks in the UK, one of the longest-running number-one albums in chart history. Adele won six Grammy Awards at the 2012 ceremony for the album.",
-      "memory_hook": "Adele rolled deep into '21' \u2014 her second album dominated the world."
+      "memory_hook": "Adele rolled deep into '21' — her second album dominated the world."
     },
     {
       "category": "Music/Movies",
@@ -122,13 +122,39 @@
       "question": "Who was the leader of Cuba during the Cuban Revolution?",
       "options": [
         "Che Guevara",
-        "Ra\u00fal Castro",
+        "Raúl Castro",
         "Fulgencio Batista",
         "Fidel Castro"
       ],
       "answer": "Fidel Castro",
-      "explanation": "Fidel Castro led the Cuban Revolution that overthrew dictator Fulgencio Batista on January 1, 1959. He then ruled Cuba for 49 years until handing power to his brother Ra\u00fal in 2008. Cuba became the first Communist state in the Western Hemisphere under his rule.",
-      "memory_hook": "Castro's beard and Cuba's revolution \u2014 he held power for five decades."
+      "explanation": "Fidel Castro led the Cuban Revolution that overthrew dictator Fulgencio Batista on January 1, 1959. He then ruled Cuba for 49 years until handing power to his brother Raúl in 2008. Cuba became the first Communist state in the Western Hemisphere under his rule.",
+      "memory_hook": "Castro's beard and Cuba's revolution — he held power for five decades."
+    },
+    {
+      "category": "Geography",
+      "question": "Russia spans how many time zones?",
+      "options": [
+        "7",
+        "9",
+        "11",
+        "13"
+      ],
+      "answer": "11",
+      "explanation": "Russia stretches across 11 time zones from Kaliningrad in the west (UTC+2) to the Chukotka region in the far east (UTC+12). It is the world's largest country by land area, covering about 17 million square kilometers — nearly twice the size of the next largest, Canada.",
+      "memory_hook": "Russia = 11 time zones. When it's Monday morning in Moscow, it's already Monday evening in Siberia. One country, half a day's difference end to end."
+    },
+    {
+      "category": "Science & Nature",
+      "question": "What is the chemical formula for table salt?",
+      "options": [
+        "NaOH",
+        "CaCl2",
+        "KCl",
+        "NaCl"
+      ],
+      "answer": "NaCl",
+      "explanation": "Table salt is sodium chloride — one sodium atom bonded to one chlorine atom. Sodium (Na) is a soft, reactive metal, and chlorine (Cl) is a toxic gas, but together they form a stable, harmless crystal essential for human life. The body uses sodium to regulate fluid balance and nerve function.",
+      "memory_hook": "Salt = NaCl. Sodium + Chlorine = the thing you put on food. A toxic metal and a poisonous gas combine to make something you eat every day."
     }
   ]
 }

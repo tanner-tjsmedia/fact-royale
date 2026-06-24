@@ -4,14 +4,14 @@
       "category": "History",
       "question": "What was the name of the ship on which the Pilgrims sailed to America in 1620?",
       "options": [
-        "Santa Mar\u00eda",
+        "Santa María",
         "Nina",
         "The Endeavour",
         "Mayflower"
       ],
       "answer": "Mayflower",
       "explanation": "The Mayflower carried 102 passengers and about 30 crew members from Plymouth, England to Plymouth, Massachusetts in 1620. The voyage took 66 days. The Pilgrims signed the Mayflower Compact aboard the ship, which was one of the first governing documents in the New World.",
-      "memory_hook": "Mayflower \u2014 flowers bloomed in a new world."
+      "memory_hook": "Mayflower — flowers bloomed in a new world."
     },
     {
       "category": "History",
@@ -24,7 +24,7 @@
       ],
       "answer": "Finland",
       "explanation": "Finland was the first European country to give women the right to vote in national elections in 1906. Finnish women were also the first in the world to be eligible to stand for election. In 1907, 19 women were elected to the Finnish Parliament.",
-      "memory_hook": "Finland was first in Europe for female suffrage \u2014 a Nordic pioneer."
+      "memory_hook": "Finland was first in Europe for female suffrage — a Nordic pioneer."
     },
     {
       "category": "Sports",
@@ -76,7 +76,7 @@
       ],
       "answer": "Star Wars",
       "explanation": "'May the Force be with you' is the iconic phrase from the Star Wars franchise, first used in the original 1977 film. The Force is a metaphysical power that connects all living things in the Star Wars universe. May 4 is celebrated as 'Star Wars Day' based on a pun on the phrase.",
-      "memory_hook": "May the Force \u2014 May 4 = Star Wars Day. May the fourth be with you."
+      "memory_hook": "May the Force — May 4 = Star Wars Day. May the fourth be with you."
     },
     {
       "category": "Music/Movies",
@@ -85,11 +85,11 @@
         "Rihanna",
         "Nicki Minaj",
         "Cardi B",
-        "Beyonc\u00e9"
+        "Beyoncé"
       ],
-      "answer": "Beyonc\u00e9",
-      "explanation": "Beyonc\u00e9 released 'Lemonade' as a visual album in 2016 and 'Renaissance' in 2022. 'Lemonade' received widespread critical acclaim and was named album of the year by numerous publications. 'Renaissance' debuted at number one and won the Grammy for Best Dance/Electronic Album.",
-      "memory_hook": "Beyonc\u00e9 made lemonade when life gave her lemons \u2014 and a Renaissance followed."
+      "answer": "Beyoncé",
+      "explanation": "Beyoncé released 'Lemonade' as a visual album in 2016 and 'Renaissance' in 2022. 'Lemonade' received widespread critical acclaim and was named album of the year by numerous publications. 'Renaissance' debuted at number one and won the Grammy for Best Dance/Electronic Album.",
+      "memory_hook": "Beyoncé made lemonade when life gave her lemons — and a Renaissance followed."
     },
     {
       "category": "Music/Movies",
@@ -115,7 +115,7 @@
       ],
       "answer": "Troy",
       "explanation": "The Trojan War, as described in Homer's Iliad, was fought between the Greeks and the city of Troy (in present-day Turkey). It began when Paris of Troy took Helen from Sparta. The Greeks used the Trojan Horse to infiltrate the city after a 10-year siege.",
-      "memory_hook": "Trojan Horse, Trojan War, Trojan everything \u2014 Troy was at the center."
+      "memory_hook": "Trojan Horse, Trojan War, Trojan everything — Troy was at the center."
     },
     {
       "category": "History",
@@ -128,7 +128,33 @@
       ],
       "answer": "Alexander Fleming",
       "explanation": "Alexander Fleming discovered penicillin in 1928 when he noticed that a mold (Penicillium notatum) was killing bacteria in one of his petri dishes. This accidental discovery led to the development of antibiotics, which have saved an estimated 200 million lives.",
-      "memory_hook": "Fleming's mold killed bacteria \u2014 a dirty lab dish changed medicine forever."
+      "memory_hook": "Fleming's mold killed bacteria — a dirty lab dish changed medicine forever."
+    },
+    {
+      "category": "Geography",
+      "question": "Angel Falls, the world's highest uninterrupted waterfall, is located in which country?",
+      "options": [
+        "Brazil",
+        "Colombia",
+        "Ecuador",
+        "Venezuela"
+      ],
+      "answer": "Venezuela",
+      "explanation": "Angel Falls in Venezuela drops 979 meters (3,212 feet), making it the world's highest uninterrupted waterfall. It cascades off Auyán-tepui, a flat-topped mountain in the Canaima National Park. It was named after American aviator Jimmie Angel, who flew over it in 1933 and brought it to the world's attention.",
+      "memory_hook": "Angel Falls = Venezuela. Nearly 1 km of freefall. Named after an American pilot who spotted it from his plane. The water atomizes into mist before it reaches the bottom."
+    },
+    {
+      "category": "Science & Nature",
+      "question": "Which blood type is considered the universal donor for red blood cell transfusions?",
+      "options": [
+        "A positive",
+        "AB negative",
+        "B negative",
+        "O negative"
+      ],
+      "answer": "O negative",
+      "explanation": "O negative blood lacks the A, B, and Rh antigens, so it can be transfused into patients of any blood type without triggering an immune reaction. It is crucial in emergencies when there is no time to type a patient's blood. Only about 7% of people have O negative blood, making it particularly valuable.",
+      "memory_hook": "O negative = universal donor. No antigens to trigger rejection. It's the emergency room blood type — given when there is no time to check compatibility."
     }
   ]
 }

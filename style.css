@@ -24,6 +24,8 @@
   --history:    #f59e0b;
   --sports:     #3b82f6;
   --music:      #a855f7;
+  --geography:  #22d3ee;
+  --science:    #4ade80;
   --default:    #64748b;
 
   --radius:     14px;
@@ -940,10 +942,12 @@ body {
    CATEGORY COLOURS
    =========================== */
 
-.cat-history { background: rgba(245,158,11,0.15); color: var(--history); }
-.cat-sports  { background: rgba(59,130,246,0.15);  color: var(--sports); }
-.cat-music   { background: rgba(168,85,247,0.15);  color: var(--music); }
-.cat-default { background: rgba(100,116,139,0.15); color: var(--default); }
+.cat-history   { background: rgba(245,158,11,0.15); color: var(--history); }
+.cat-sports    { background: rgba(59,130,246,0.15);  color: var(--sports); }
+.cat-music     { background: rgba(168,85,247,0.15);  color: var(--music); }
+.cat-geography { background: rgba(34,211,238,0.15);  color: var(--geography); }
+.cat-science   { background: rgba(74,222,128,0.15);  color: var(--science); }
+.cat-default   { background: rgba(100,116,139,0.15); color: var(--default); }
 
 /* ===========================
    NAV AUTH

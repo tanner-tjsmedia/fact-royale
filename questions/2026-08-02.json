@@ -1,0 +1,161 @@
+{
+  "date": "2026-08-02",
+  "questions": [
+    {
+      "category": "History",
+      "question": "Who was the first President of the United States?",
+      "options": [
+        "John Adams",
+        "Thomas Jefferson",
+        "James Madison",
+        "George Washington"
+      ],
+      "answer": "George Washington",
+      "explanation": "George Washington was unanimously elected as the first President of the United States, serving two terms from 1789 to 1797. He had commanded the Continental Army during the Revolutionary War. Despite being offered a kingship, Washington insisted on democratic transfer of power and voluntarily stepped down after two terms — setting a precedent that held for 150 years until FDR.",
+      "memory_hook": "Washington = first president. Could have been king — refused. Stepped down after two terms voluntarily. That peaceful transfer of power was radical in the 18th century and set the standard for American democracy."
+    },
+    {
+      "category": "History",
+      "question": "The Black Death, a devastating pandemic that killed roughly one-third of Europe's population, swept across the continent during which century?",
+      "options": [
+        "12th century",
+        "13th century",
+        "14th century",
+        "15th century"
+      ],
+      "answer": "14th century",
+      "explanation": "The Black Death (1347-1351) was a bubonic plague pandemic caused by the bacterium Yersinia pestis, spread by fleas on rats. It killed an estimated 30-60% of Europe's population — possibly 75-200 million people worldwide. The loss of labor led to social upheaval that some historians argue helped end feudalism and accelerate the Renaissance and Reformation.",
+      "memory_hook": "Black Death = 1347-1351, 14th century. Up to 60% of Europe dead. So many died that the survivors demanded better wages — it accidentally launched the collapse of the feudal system and helped cause the Renaissance."
+    },
+    {
+      "category": "History",
+      "question": "The Eiffel Tower was built for which major event in Paris?",
+      "options": [
+        "Napoleon's coronation",
+        "The 1900 Summer Olympics",
+        "The 1889 World's Fair",
+        "Queen Victoria's jubilee"
+      ],
+      "answer": "The 1889 World's Fair",
+      "explanation": "The Eiffel Tower was built as the entrance arch and centerpiece for the 1889 World's Fair (Exposition Universelle) in Paris, held to celebrate the centennial of the French Revolution. Designed by Gustave Eiffel's firm, it was the world's tallest structure at 330 meters when completed. It was meant to be temporary and demolished in 1909, but its antenna proved too valuable for radio transmission to tear down.",
+      "memory_hook": "Eiffel Tower = 1889 World's Fair. Meant to be torn down in 1909. Saved by its radio antenna. Gustave Eiffel had a private apartment at the top — he entertained Thomas Edison there."
+    },
+    {
+      "category": "History",
+      "question": "The Renaissance, meaning 'rebirth,' began in which modern country in the 14th century?",
+      "options": [
+        "France",
+        "Germany",
+        "Spain",
+        "Italy"
+      ],
+      "answer": "Italy",
+      "explanation": "The Renaissance began in Italy in the 14th century, particularly in Florence, which was wealthy from banking and trade. Italian city-states became centers of art, literature, and philosophy, supported by wealthy patrons like the Medici family. The movement rediscovered classical Greek and Roman texts and produced figures like Leonardo da Vinci, Michelangelo, Raphael, and Galileo.",
+      "memory_hook": "Renaissance = Italy, 14th century. Florence was the center — wealth from banking funded the arts. The Medici family were the ultimate patrons: they essentially bankrolled the Renaissance."
+    },
+    {
+      "category": "Sports",
+      "question": "In baseball, how many strikes result in a strikeout?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "answer": "3",
+      "explanation": "Three strikes result in a strikeout in baseball. A 'K' is the scoring shorthand for a strikeout — from the last letter of 'struck,' since 'S' was already used for sacrifice. A batter can foul off the third strike indefinitely (as long as the catcher doesn't catch it), but cannot foul into a third strikeout if they swing and foul the ball directly into the catcher's mitt.",
+      "memory_hook": "Three strikes = out. Baseball uses 'K' for strikeout because 'S' was taken by 'sacrifice.' Three strikes, three outs per half-inning, nine innings per game. Baseball runs on threes."
+    },
+    {
+      "category": "Sports",
+      "question": "Which country's national cricket team is nicknamed the 'Baggy Greens'?",
+      "options": [
+        "England",
+        "South Africa",
+        "India",
+        "Australia"
+      ],
+      "answer": "Australia",
+      "explanation": "The Australian national cricket team is known as the 'Baggy Greens' after their distinctive baggy green cap, which players wear with tremendous pride. Australia is one of the most successful Test cricket nations, having won the ICC Cricket World Cup five times. Wearing the Baggy Green for the first time is considered one of the highest honors in Australian sport.",
+      "memory_hook": "Baggy Greens = Australia. The cap is almost a sacred object in Australian cricket. Players refuse to replace them even when faded and worn. Former captain Steve Waugh wore the same cap for his entire 16-year career."
+    },
+    {
+      "category": "Sports",
+      "question": "How many players are on a standard volleyball team on the court at one time?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "answer": "6",
+      "explanation": "Volleyball teams have 6 players on the court at a time: three in the front row and three in the back row. Players rotate positions clockwise each time their team wins the serve. A standard set is played to 25 points (with a 2-point margin required), and most matches are best of 5 sets. Beach volleyball uses only 2 players per side.",
+      "memory_hook": "Volleyball = 6 players per side. Three front, three back. Rotate clockwise when you win the serve. Beach volleyball is 2-on-2 — same sport, completely different strategy."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "The film 'Forrest Gump' (1994) starred Tom Hanks and won 6 Academy Awards, including Best Picture. Who directed it?",
+      "options": [
+        "Ron Howard",
+        "Barry Levinson",
+        "Oliver Stone",
+        "Robert Zemeckis"
+      ],
+      "answer": "Robert Zemeckis",
+      "explanation": "Robert Zemeckis directed Forrest Gump (1994), starring Tom Hanks in the title role. The film used groundbreaking digital effects to insert Forrest into historical footage alongside Presidents Kennedy, Johnson, Nixon, and Ford. It won Best Picture, Best Director, Best Actor (Hanks), Best Visual Effects, Best Film Editing, and Best Adapted Screenplay.",
+      "memory_hook": "Forrest Gump = Robert Zemeckis. Zemeckis also directed Back to the Future. Tom Hanks won his second consecutive Best Actor Oscar (after Philadelphia). 'Life is like a box of chocolates' — written in 1986, before the digital effects existed to make the film possible."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Nirvana's 'Nevermind' (1991) featured which iconic swimming baby on its cover?",
+      "options": [
+        "Dave Grohl's son",
+        "Kurt Cobain as a baby",
+        "Spencer Elden",
+        "Krist Novoselic's son"
+      ],
+      "answer": "Spencer Elden",
+      "explanation": "Spencer Elden was the 4-month-old baby photographed for Nevermind's cover, swimming toward a dollar bill on a fishhook. The album sold 30 million copies and is one of the best-selling albums ever. Nevermind's release is often cited as the moment grunge went mainstream and alternative rock overtook pop on radio and MTV. Elden later sued Nirvana over the image.",
+      "memory_hook": "Nirvana's baby = Spencer Elden. He was paid $200 for the shoot. The album went on to sell 30 million copies. He later sued — and lost — claiming the image was exploitative. The fishhook dollar bill is one of the most famous album images ever."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Which movie features the line 'Why so serious?' spoken by a villain?",
+      "options": [
+        "Batman Begins",
+        "The Dark Knight",
+        "Suicide Squad",
+        "Batman v Superman"
+      ],
+      "answer": "The Dark Knight",
+      "explanation": "'Why so serious?' is one of the Joker's signature lines from The Dark Knight (2008), directed by Christopher Nolan and starring Heath Ledger as the Joker. Ledger's performance was universally praised and he posthumously won the Academy Award for Best Supporting Actor. The film grossed over $1 billion worldwide.",
+      "memory_hook": "'Why so serious?' = Joker in The Dark Knight. Heath Ledger won the Oscar posthumously — he died before the film was released. His Joker is widely considered the greatest comic book villain performance in cinema history."
+    },
+    {
+      "category": "Geography",
+      "question": "What is the name of the narrow body of water that separates the Asian and North American continents?",
+      "options": [
+        "Davis Strait",
+        "Drake Passage",
+        "Bering Strait",
+        "Strait of Magellan"
+      ],
+      "answer": "Bering Strait",
+      "explanation": "The Bering Strait separates Russia (Asia) from Alaska (North America) at its narrowest point — only about 85 km wide. During the last Ice Age, lower sea levels exposed a land bridge here called Beringia, which humans used to migrate from Asia into the Americas approximately 15,000-25,000 years ago. The strait was named after Danish explorer Vitus Bering, who sailed through it in 1728.",
+      "memory_hook": "Bering Strait = Russia from Alaska, 85 km. The land bridge here is how humans first reached the Americas. On a clear day you can see Russia from Alaska's Little Diomede Island."
+    },
+    {
+      "category": "Science & Nature",
+      "question": "What is the name for a group of stars that forms a recognizable pattern, like Orion or the Big Dipper?",
+      "options": [
+        "Galaxy",
+        "Nebula",
+        "Constellation",
+        "Solar system"
+      ],
+      "answer": "Constellation",
+      "explanation": "A constellation is a group of stars that forms a recognizable pattern when viewed from Earth. The International Astronomical Union recognizes 88 official constellations covering the entire sky. Ancient cultures worldwide used constellations for navigation, agriculture, and mythology. Orion, the Big Dipper (Ursa Major), and Scorpius are among the most recognizable in the Northern Hemisphere.",
+      "memory_hook": "Constellation = star pattern. 88 official ones. The stars in a constellation usually aren't close to each other — they just look grouped from Earth. Orion's stars are between 243 and 1,344 light-years away from us, scattered through space."
+    }
+  ]
+}

@@ -24,7 +24,7 @@
       ],
       "answer": "Tim Berners-Lee",
       "explanation": "Tim Berners-Lee invented the World Wide Web in 1989 while working at CERN. He proposed a system to share information among researchers and wrote the first web browser and server. He made the technology freely available, allowing the internet to grow exponentially.",
-      "memory_hook": "Berners-Lee built the web \u2014 he wove it together for everyone, for free."
+      "memory_hook": "Berners-Lee built the web — he wove it together for everyone, for free."
     },
     {
       "category": "Sports",
@@ -37,7 +37,7 @@
       ],
       "answer": "163 mph",
       "explanation": "The fastest serve ever recorded in professional tennis was 263 km/h (163.4 mph), hit by Australian Sam Groth in 2012 at a Busan Open Challenger event. However, John Isner's 253 km/h serve is the fastest recognized at ATP level.",
-      "memory_hook": "163 mph \u2014 a tennis serve faster than most highway speed limits."
+      "memory_hook": "163 mph — a tennis serve faster than most highway speed limits."
     },
     {
       "category": "Sports",
@@ -49,7 +49,7 @@
         "West Indies"
       ],
       "answer": "Australia",
-      "explanation": "Australia has won the ICC Cricket World Cup five times (1987, 1999, 2003, 2007, 2015), more than any other country. Their 1999\u20132007 run included three consecutive titles, one of the most dominant periods in World Cup history.",
+      "explanation": "Australia has won the ICC Cricket World Cup five times (1987, 1999, 2003, 2007, 2015), more than any other country. Their 1999–2007 run included three consecutive titles, one of the most dominant periods in World Cup history.",
       "memory_hook": "Australia = 5 cups in cricket. Kangaroos jump to the top."
     },
     {
@@ -63,7 +63,7 @@
       ],
       "answer": "12",
       "explanation": "World championship boxing matches are 12 rounds of three minutes each. The standard was reduced from 15 to 12 rounds in 1982 following the death of Duk-koo Kim after a 14-round fight with Ray Mancini, in the interest of fighter safety.",
-      "memory_hook": "12 rounds \u2014 changed from 15 after tragedy. Safety first, sport second."
+      "memory_hook": "12 rounds — changed from 15 after tragedy. Safety first, sport second."
     },
     {
       "category": "Music/Movies",
@@ -76,7 +76,7 @@
       ],
       "answer": "Forrest Gump",
       "explanation": "Forrest Gump (1994) starred Tom Hanks as a slow-witted but good-hearted man who witnesses and influences key historical events. The film won six Academy Awards including Best Picture, Best Director (Robert Zemeckis), and Best Actor (Tom Hanks).",
-      "memory_hook": "'Life is like a box of chocolates' \u2014 Forrest said it, Hanks won the Oscar."
+      "memory_hook": "'Life is like a box of chocolates' — Forrest said it, Hanks won the Oscar."
     },
     {
       "category": "Music/Movies",
@@ -88,8 +88,8 @@
         "Snow White and the Seven Dwarfs"
       ],
       "answer": "Snow White and the Seven Dwarfs",
-      "explanation": "Snow White and the Seven Dwarfs (1937) was the first feature-length animated film produced by Walt Disney and the first feature-length cel-animated film in motion picture history. It was a massive risk \u2014 Hollywood called it 'Disney's Folly' \u2014 but it was a smash hit.",
-      "memory_hook": "Snow White came first \u2014 Disney bet his studio on her and won."
+      "explanation": "Snow White and the Seven Dwarfs (1937) was the first feature-length animated film produced by Walt Disney and the first feature-length cel-animated film in motion picture history. It was a massive risk — Hollywood called it 'Disney's Folly' — but it was a smash hit.",
+      "memory_hook": "Snow White came first — Disney bet his studio on her and won."
     },
     {
       "category": "Music/Movies",
@@ -102,7 +102,7 @@
       ],
       "answer": "Journey",
       "explanation": "'Don't Stop Believin'' was released by Journey in 1981 on their album 'Escape.' Written by Steve Perry, Neal Schon, and Jonathan Cain, it became one of the best-selling digital catalog singles in history and saw renewed popularity after being featured in The Sopranos finale.",
-      "memory_hook": "Journey never stopped believin' \u2014 and neither did a generation of fans."
+      "memory_hook": "Journey never stopped believin' — and neither did a generation of fans."
     },
     {
       "category": "History",
@@ -114,8 +114,8 @@
         "Mount Olympus"
       ],
       "answer": "Mount Vesuvius",
-      "explanation": "Pompeii was buried under ash and pumice during the eruption of Mount Vesuvius on August 24\u201325, 79 AD. The city was preserved remarkably well under the ash, and excavations beginning in the 18th century have revealed extraordinary details about Roman life.",
-      "memory_hook": "Vesuvius buried Pompeii \u2014 frozen in time under volcanic ash."
+      "explanation": "Pompeii was buried under ash and pumice during the eruption of Mount Vesuvius on August 24–25, 79 AD. The city was preserved remarkably well under the ash, and excavations beginning in the 18th century have revealed extraordinary details about Roman life.",
+      "memory_hook": "Vesuvius buried Pompeii — frozen in time under volcanic ash."
     },
     {
       "category": "History",
@@ -127,8 +127,34 @@
         "Winston Churchill"
       ],
       "answer": "Winston Churchill",
-      "explanation": "Winston Churchill served as British Prime Minister from 1940 to 1945 during World War II and again from 1951 to 1955. His wartime leadership and speeches \u2014 including 'We shall fight on the beaches' \u2014 are credited with helping rally Britain through the war.",
+      "explanation": "Winston Churchill served as British Prime Minister from 1940 to 1945 during World War II and again from 1951 to 1955. His wartime leadership and speeches — including 'We shall fight on the beaches' — are credited with helping rally Britain through the war.",
       "memory_hook": "Churchill's bulldog face matched his bulldog determination to fight on."
+    },
+    {
+      "category": "Geography",
+      "question": "Which country has the longest coastline in the world?",
+      "options": [
+        "Norway",
+        "Indonesia",
+        "Russia",
+        "Canada"
+      ],
+      "answer": "Canada",
+      "explanation": "Canada's coastline stretches approximately 202,080 kilometers — the longest of any country in the world. This includes the mainland coast and the shores of offshore islands. Canada borders three oceans: the Atlantic, Pacific, and Arctic.",
+      "memory_hook": "Canada again: longest coastline. Most lakes AND longest coastline. Canada is essentially defined by water — it borders three oceans and contains more lakes than the rest of the world."
+    },
+    {
+      "category": "Science & Nature",
+      "question": "What process do plants use to convert sunlight into food?",
+      "options": [
+        "Respiration",
+        "Fermentation",
+        "Osmosis",
+        "Photosynthesis"
+      ],
+      "answer": "Photosynthesis",
+      "explanation": "Photosynthesis is the process by which plants, algae, and some bacteria convert sunlight, carbon dioxide, and water into glucose and oxygen. It occurs primarily in chloroplasts, which contain chlorophyll — the green pigment that captures light energy. Almost all life on Earth ultimately depends on photosynthesis for energy.",
+      "memory_hook": "Photosynthesis = sunlight + CO2 + water → sugar + oxygen. Plants eat sunlight. Every plant, every tree — running entirely on light, air, and water."
     }
   ]
 }

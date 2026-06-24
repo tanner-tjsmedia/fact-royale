@@ -10,7 +10,7 @@
         "The Inaugural Address"
       ],
       "answer": "The Gettysburg Address",
-      "explanation": "The Gettysburg Address began with those words \u2014 Lincoln delivered it on November 19, 1863. Four score and seven years = 87 years, dating back to 1776.",
+      "explanation": "The Gettysburg Address began with those words — Lincoln delivered it on November 19, 1863. Four score and seven years = 87 years, dating back to 1776.",
       "memory_hook": "Four score = 80. Plus seven = 87. 1863 minus 87 = 1776. The math of Lincoln's speech."
     },
     {
@@ -24,7 +24,7 @@
       ],
       "answer": "Engels",
       "explanation": "Friedrich Engels co-authored The Communist Manifesto with Karl Marx in 1848. Engels provided much of the funding for Marx's work and co-authored or collaborated on many of Marx's writings.",
-      "memory_hook": "Marx and Engels \u2014 the manifesto needed two: the thinker and the funder."
+      "memory_hook": "Marx and Engels — the manifesto needed two: the thinker and the funder."
     },
     {
       "category": "Sports",
@@ -36,8 +36,8 @@
         "14"
       ],
       "answer": "12",
-      "explanation": "A volleyball team roster consists of 12 players (6 on the court and up to 6 substitutes). One player can be designated as the libero \u2014 a defensive specialist who wears a different colored uniform.",
-      "memory_hook": "12 roster, 6 on court \u2014 volleyball's numbers are all sixes and twelves."
+      "explanation": "A volleyball team roster consists of 12 players (6 on the court and up to 6 substitutes). One player can be designated as the libero — a defensive specialist who wears a different colored uniform.",
+      "memory_hook": "12 roster, 6 on court — volleyball's numbers are all sixes and twelves."
     },
     {
       "category": "Sports",
@@ -50,7 +50,7 @@
       ],
       "answer": "Foil, epee, sabre",
       "explanation": "The three weapons in fencing are the foil (thrusting weapon targeting the torso), the epee (heavier, targets entire body), and the sabre (cutting and thrusting, targets upper body). Each has different scoring rules.",
-      "memory_hook": "Foil, epee, sabre \u2014 the three fencing weapons."
+      "memory_hook": "Foil, epee, sabre — the three fencing weapons."
     },
     {
       "category": "Sports",
@@ -76,7 +76,7 @@
       ],
       "answer": "John Williams",
       "explanation": "John Williams composed the iconic score for Jurassic Park (1993). The main theme perfectly captures the wonder and danger of encountering living dinosaurs. Williams has composed for over 100 films including Star Wars, Jaws, and Indiana Jones.",
-      "memory_hook": "John Williams: Jurassic Park, Star Wars, Indiana Jones, Jaws \u2014 one composer, all the iconic themes."
+      "memory_hook": "John Williams: Jurassic Park, Star Wars, Indiana Jones, Jaws — one composer, all the iconic themes."
     },
     {
       "category": "Music/Movies",
@@ -88,7 +88,7 @@
         "Runnin Down a Dream"
       ],
       "answer": "Runnin Down a Dream",
-      "explanation": "Runnin Down a Dream (1989) from Full Moon Fever became one of Tom Petty's most recognizable anthems \u2014 a quintessential American road-trip song. Petty wrote it on a sunny drive to a recording studio. He died in October 2017.",
+      "explanation": "Runnin Down a Dream (1989) from Full Moon Fever became one of Tom Petty's most recognizable anthems — a quintessential American road-trip song. Petty wrote it on a sunny drive to a recording studio. He died in October 2017.",
       "memory_hook": "Runnin Down a Dream: Tom Petty wrote it driving fast on a sunny day. You can feel the speed in the riff."
     },
     {
@@ -101,8 +101,8 @@
         "Susan Sarandon"
       ],
       "answer": "Jodie Foster",
-      "explanation": "Jodie Foster played FBI trainee Clarice Starling in The Silence of the Lambs (1991), winning the Academy Award for Best Actress. The film won Best Picture, Best Director, Best Actor, and Best Actress \u2014 all five major Oscar categories.",
-      "memory_hook": "Foster played Starling opposite Hopkins' Lecter \u2014 both won Oscars."
+      "explanation": "Jodie Foster played FBI trainee Clarice Starling in The Silence of the Lambs (1991), winning the Academy Award for Best Actress. The film won Best Picture, Best Director, Best Actor, and Best Actress — all five major Oscar categories.",
+      "memory_hook": "Foster played Starling opposite Hopkins' Lecter — both won Oscars."
     },
     {
       "category": "History",
@@ -115,7 +115,7 @@
       ],
       "answer": "Pythagoras",
       "explanation": "Pythagoras (c. 570-495 BC) is known for the Pythagorean theorem: in a right triangle, the square of the hypotenuse equals the sum of the squares of the other two sides (a squared + b squared = c squared).",
-      "memory_hook": "a squared + b squared = c squared \u2014 Pythagoras. Every right triangle, forever."
+      "memory_hook": "a squared + b squared = c squared — Pythagoras. Every right triangle, forever."
     },
     {
       "category": "History",
@@ -129,6 +129,32 @@
       "answer": "The 13th Amendment",
       "explanation": "The 13th Amendment to the U.S. Constitution, ratified on December 6, 1865, formally abolished slavery in the United States.",
       "memory_hook": "13th Amendment ended slavery. 14th gave citizenship. 15th gave Black men the vote."
+    },
+    {
+      "category": "Geography",
+      "question": "Cape Horn, the southernmost tip of South America, belongs to which country?",
+      "options": [
+        "Argentina",
+        "Uruguay",
+        "Brazil",
+        "Chile"
+      ],
+      "answer": "Chile",
+      "explanation": "Cape Horn is located on Hornos Island in the Tierra del Fuego archipelago, part of Chile. It is one of the world's most treacherous passages for ships, where the Atlantic and Pacific oceans meet in famously rough conditions. Before the Panama Canal, ships had to round Cape Horn to travel between the two oceans.",
+      "memory_hook": "Cape Horn = Chile. The bottom of South America belongs to Chile, not Argentina. Before the Panama Canal, every ship crossing between oceans had to brave Cape Horn's brutal storms."
+    },
+    {
+      "category": "Science & Nature",
+      "question": "How many teeth do most healthy adult humans have, including wisdom teeth?",
+      "options": [
+        "28",
+        "30",
+        "32",
+        "36"
+      ],
+      "answer": "32",
+      "explanation": "Adult humans have 32 teeth: 8 incisors, 4 canines, 8 premolars, 8 molars, and 4 wisdom teeth (third molars). Many people have their wisdom teeth removed if they don't have room to grow in properly. Some people never develop all four wisdom teeth.",
+      "memory_hook": "32 teeth total, including wisdom teeth. Most people have 28 after wisdom tooth removal. Wisdom teeth are vestigial — our ancient ancestors needed them to chew rougher food, but modern diets and smaller jaws have made them obsolete."
     }
   ]
 }

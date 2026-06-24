@@ -10,7 +10,7 @@
         "Typhoid fever"
       ],
       "answer": "Bubonic plague",
-      "explanation": "The Black Death (1347\u20131351) was caused by Yersinia pestis, the bacterium responsible for bubonic plague. It killed an estimated 30\u201360% of Europe's population. The disease was spread primarily by fleas on rats, which traveled along trade routes.",
+      "explanation": "The Black Death (1347–1351) was caused by Yersinia pestis, the bacterium responsible for bubonic plague. It killed an estimated 30–60% of Europe's population. The disease was spread primarily by fleas on rats, which traveled along trade routes.",
       "memory_hook": "Bubonic = buboes (swollen lymph nodes) = the Black Death's calling card."
     },
     {
@@ -24,7 +24,7 @@
       ],
       "answer": "The Wright Brothers",
       "explanation": "Orville and Wilbur Wright made the first successful powered airplane flight on December 17, 1903, at Kitty Hawk, North Carolina. The first flight lasted 12 seconds and covered 120 feet. They made four flights that day, the longest lasting 59 seconds.",
-      "memory_hook": "Wright brothers \u2014 they made it right on their first try (after years of trying)."
+      "memory_hook": "Wright brothers — they made it right on their first try (after years of trying)."
     },
     {
       "category": "Sports",
@@ -37,7 +37,7 @@
       ],
       "answer": "All of these",
       "explanation": "A hat trick occurs in soccer/football (three goals in a game), hockey (three goals in a game), and cricket (three wickets in three balls). The term originally comes from cricket but has been adopted across many sports. It also appears in basketball as a term for a player scoring three consecutive baskets.",
-      "memory_hook": "Three in a row earns you the hat \u2014 take a bow."
+      "memory_hook": "Three in a row earns you the hat — take a bow."
     },
     {
       "category": "Sports",
@@ -63,7 +63,7 @@
       ],
       "answer": "It varies by circuit",
       "explanation": "The number of laps in a Formula 1 race varies depending on the circuit. Races are designed to cover approximately 305 km (190 miles), with the Monaco Grand Prix being an exception at 260 km. The number of laps is calculated to meet this distance requirement.",
-      "memory_hook": "F1 laps vary \u2014 the distance stays the same, about 305 km per race."
+      "memory_hook": "F1 laps vary — the distance stays the same, about 305 km per race."
     },
     {
       "category": "Music/Movies",
@@ -76,7 +76,7 @@
       ],
       "answer": "Titanic",
       "explanation": "Titanic (1997) starred Leonardo DiCaprio as Jack Dawson and Kate Winslet as Rose DeWitt Bukater. The film won 11 Academy Awards, including Best Picture and Best Director, and was the highest-grossing film of all time until Avatar (also directed by Cameron) surpassed it.",
-      "memory_hook": "DiCaprio never won an Oscar for Titanic \u2014 but the ship won 11."
+      "memory_hook": "DiCaprio never won an Oscar for Titanic — but the ship won 11."
     },
     {
       "category": "Music/Movies",
@@ -101,7 +101,7 @@
         "The Golden Compass"
       ],
       "answer": "Harry Potter",
-      "explanation": "The Harry Potter film series (2001\u20132011), based on J.K. Rowling's books, follows Harry Potter at Hogwarts School of Witchcraft and Wizardry. The series of eight films grossed over $7.7 billion worldwide, making it one of the highest-grossing franchises in history.",
+      "explanation": "The Harry Potter film series (2001–2011), based on J.K. Rowling's books, follows Harry Potter at Hogwarts School of Witchcraft and Wizardry. The series of eight films grossed over $7.7 billion worldwide, making it one of the highest-grossing franchises in history.",
       "memory_hook": "Hogwarts: hogs + warts = not pretty, but magical."
     },
     {
@@ -115,7 +115,7 @@
       ],
       "answer": "Poland",
       "explanation": "Germany invaded Poland on September 1, 1939, under Adolf Hitler's orders. Britain and France, bound by treaty to defend Poland, declared war on Germany two days later, officially beginning World War II in Europe.",
-      "memory_hook": "Poland first \u2014 one invasion started the world's deadliest war."
+      "memory_hook": "Poland first — one invasion started the world's deadliest war."
     },
     {
       "category": "History",
@@ -128,7 +128,33 @@
       ],
       "answer": "George Washington",
       "explanation": "George Washington served as the first President of the United States from 1789 to 1797. He was unanimously elected by the Electoral College and is often called the 'Father of His Country.' He voluntarily stepped down after two terms, setting a precedent for peaceful transfer of power.",
-      "memory_hook": "Washington DC was named after him \u2014 the capital honors the first leader."
+      "memory_hook": "Washington DC was named after him — the capital honors the first leader."
+    },
+    {
+      "category": "Geography",
+      "question": "The Panama Canal connects which two bodies of water?",
+      "options": [
+        "Atlantic and Indian Oceans",
+        "Pacific and Arctic Oceans",
+        "Pacific Ocean and Atlantic Ocean",
+        "Caribbean Sea and Gulf of Mexico"
+      ],
+      "answer": "Pacific Ocean and Atlantic Ocean",
+      "explanation": "The Panama Canal, completed in 1914, cuts through the isthmus of Panama to connect the Pacific Ocean on the west with the Atlantic Ocean (via the Caribbean Sea) on the east. It shortens the sea voyage between the two oceans by about 15,000 km, eliminating the need to sail around South America's Cape Horn.",
+      "memory_hook": "Panama = Pacific to Atlantic shortcut. Before the canal, ships had to go all the way around South America. 15,000 km saved per trip."
+    },
+    {
+      "category": "Science & Nature",
+      "question": "Which organ in the human body produces insulin?",
+      "options": [
+        "Liver",
+        "Kidneys",
+        "Gallbladder",
+        "Pancreas"
+      ],
+      "answer": "Pancreas",
+      "explanation": "The pancreas produces insulin, a hormone that allows cells to absorb glucose from the bloodstream. Without insulin, blood sugar builds up dangerously. In Type 1 diabetes, the immune system destroys the insulin-producing cells. In Type 2, cells become resistant to insulin. The pancreas also produces digestive enzymes.",
+      "memory_hook": "Pancreas = insulin factory. When the pancreas fails to produce insulin, you get diabetes. It's both an endocrine organ (hormones) and a digestive organ (enzymes) at the same time."
     }
   ]
 }

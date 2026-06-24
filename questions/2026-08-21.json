@@ -1,0 +1,161 @@
+{
+  "date": "2026-08-21",
+  "questions": [
+    {
+      "category": "History",
+      "question": "The Battle of Thermopylae in 480 BC saw how many Spartans (plus allies) attempt to hold off the Persian invasion?",
+      "options": [
+        "300",
+        "1,000",
+        "5,000",
+        "10,000"
+      ],
+      "answer": "300",
+      "explanation": "The Battle of Thermopylae (480 BC) saw 300 Spartan warriors under King Leonidas, along with about 700 Thespians and other allies (approximately 7,000 total), delay the massive Persian army of Xerxes I for three days at the narrow coastal pass of Thermopylae. The Spartans fought to the death after being betrayed by a local man who showed the Persians a path around them. Their sacrifice allowed Greece to regroup.",
+      "memory_hook": "300 Spartans at Thermopylae. Plus Greek allies — more than 300 total — but the Spartans are the legend. Three days of fighting until betrayed. Leonidas knew they were going to die and went anyway. 'Then we shall fight in the shade' when told Persian arrows would block the sun."
+    },
+    {
+      "category": "History",
+      "question": "Who assassinated Archduke Franz Ferdinand of Austria in 1914, triggering World War I?",
+      "options": [
+        "A German spy",
+        "A Russian anarchist",
+        "A Serbian nationalist",
+        "A French soldier"
+      ],
+      "answer": "A Serbian nationalist",
+      "explanation": "Archduke Franz Ferdinand, heir to the Austro-Hungarian throne, was assassinated by Gavrilo Princip, a Bosnian Serb nationalist, in Sarajevo on June 28, 1914. Princip was a member of the Black Hand, a secret military society. The assassination triggered a chain of events — Austria-Hungary declared war on Serbia, pulling in Germany, Russia, France, and Britain through their alliances — beginning World War I.",
+      "memory_hook": "Franz Ferdinand killed by Gavrilo Princip in Sarajevo, June 28, 1914. One assassination pulled 20 countries into war through a web of alliances. The domino effect: Austria blamed Serbia, Germany backed Austria, Russia backed Serbia, France backed Russia, Britain backed France. Six weeks from a shooting to a world war."
+    },
+    {
+      "category": "History",
+      "question": "The Rosetta Stone, which allowed scholars to decipher Egyptian hieroglyphics, was discovered by Napoleon's soldiers in which country?",
+      "options": [
+        "Greece",
+        "Sudan",
+        "Italy",
+        "Egypt"
+      ],
+      "answer": "Egypt",
+      "explanation": "The Rosetta Stone was discovered in 1799 by French soldiers during Napoleon's Egyptian campaign, near the town of Rosetta (Rashid). It contains the same decree written in Egyptian hieroglyphics, Demotic script, and Ancient Greek. Since scholars could read Greek, they could decode the other two scripts. Thomas Young and Jean-François Champollion are credited with the decipherment in the early 1820s.",
+      "memory_hook": "Rosetta Stone found in Egypt by Napoleon's soldiers in 1799. Same text in three scripts — Greek was known, hieroglyphics were mystery. Champollion cracked the code in 1822. The stone is in the British Museum. Egypt wants it back. The British Museum says no."
+    },
+    {
+      "category": "History",
+      "question": "The Silk Road, an ancient trade network, primarily connected China with which other civilization?",
+      "options": [
+        "Egypt",
+        "Rome",
+        "Mesopotamia",
+        "Mediterranean Europe and Rome"
+      ],
+      "answer": "Mediterranean Europe and Rome",
+      "explanation": "The Silk Road was a network of trade routes connecting China with Central Asia, the Middle East, and ultimately Rome and Mediterranean Europe. It was used for about 1,500 years (roughly 1st century BC to 15th century AD). Silk, spices, paper, gunpowder, and the bubonic plague all traveled the Silk Road. The route gave rise to great trading cities like Samarkand and Kashgar.",
+      "memory_hook": "Silk Road = China to Rome. 1,500 years of trade. Silk, spices, and ideas went west. The plague went both directions. Marco Polo traveled it in the 13th century. The Mongol Empire's 'Pax Mongolica' actually made the Silk Road safer for a century."
+    },
+    {
+      "category": "Sports",
+      "question": "In which sport is the term 'hat trick' thought to have originated?",
+      "options": [
+        "Soccer",
+        "Ice Hockey",
+        "Baseball",
+        "Cricket"
+      ],
+      "answer": "Cricket",
+      "explanation": "The hat trick originated in cricket, where a bowler who took three wickets with three consecutive balls was traditionally awarded a hat by his club — hence 'hat trick.' The term was later adopted by other sports. In soccer and ice hockey, a hat trick means scoring three goals in one game. In cricket, it remains one of the rarest achievements because of the precision required.",
+      "memory_hook": "Hat trick = cricket first. Three wickets, three balls, win a hat. Then soccer and hockey borrowed the term. Now 'hat trick' appears in football, tennis, baseball — any sport where three consecutive or same-game successes are remarkable. One cricket tradition spread across all sports."
+    },
+    {
+      "category": "Sports",
+      "question": "Which country first hosted both the Summer and Winter Olympic Games?",
+      "options": [
+        "France",
+        "USA",
+        "Great Britain",
+        "Germany"
+      ],
+      "answer": "USA",
+      "explanation": "The United States became the first country to host both the Summer Olympics (1904, St. Louis) and Winter Olympics (1932, Lake Placid). The US has since hosted both multiple times: Summer Olympics in Los Angeles (1932, 1984), and Winter Olympics in Lake Placid (1932, 1980), Squaw Valley (1960), and Salt Lake City (2002). Los Angeles hosted the 2028 Summer Olympics.",
+      "memory_hook": "USA = first to host both Summer and Winter Olympics. The 1932 Games saw America host both in the same year — Summer in LA, Winter in Lake Placid. The 'Miracle on Ice' also happened in Lake Placid (1980). America has more Olympic hosting experience than any other country."
+    },
+    {
+      "category": "Sports",
+      "question": "In boxing, the 'Rumble in the Jungle' refers to which legendary 1974 fight?",
+      "options": [
+        "Frazier vs Foreman",
+        "Foreman vs Norton",
+        "Ali vs Foreman",
+        "Ali vs Frazier"
+      ],
+      "answer": "Ali vs Foreman",
+      "explanation": "The 'Rumble in the Jungle' (October 30, 1974) was held in Kinshasa, Zaire (now DR Congo), promoted by Don King. Muhammad Ali, considered a 7-to-1 underdog against champion George Foreman, used his 'rope-a-dope' strategy — allowing Foreman to punch himself out while Ali leaned on the ropes — before knocking Foreman out in the 8th round. Ali regained the world heavyweight title he'd been stripped of years earlier.",
+      "memory_hook": "Rumble in the Jungle = Ali vs Foreman, Zaire 1974. Ali was a massive underdog. He invented 'rope-a-dope' — let Foreman punch himself exhausted, then knocked him out in the 8th. Foreman was 25 and unbeaten. Ali was 32 and hadn't been champion in 7 years. He won. The documentary 'When We Were Kings' tells the story."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Which 1969 film, directed by Dennis Hopper and starring Peter Fonda, became an emblem of counterculture America?",
+      "options": [
+        "Easy Rider",
+        "Midnight Cowboy",
+        "Bonnie and Clyde",
+        "The Wild Bunch"
+      ],
+      "answer": "Easy Rider",
+      "explanation": "Easy Rider (1969) starred Peter Fonda and Dennis Hopper as two bikers traveling across America. Made for $400,000, it grossed $60 million and became one of the most important independent films ever made. It launched Jack Nicholson's career (he played a lawyer who joins the bikers). The film symbolized the counterculture movement and showed Hollywood that low-budget, director-driven films could be commercially successful.",
+      "memory_hook": "Easy Rider = 1969, counterculture film. $400,000 budget, $60 million gross. Launched Jack Nicholson. Two bikers on the road to nowhere specific — it's less about the destination than what they find (and don't find) along the way. The ending shocked audiences. Still does."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Which song, performed by Whitney Houston in 1992, became the best-selling single of all time at that point?",
+      "options": [
+        "Greatest Love of All",
+        "One Moment in Time",
+        "I Have Nothing",
+        "I Will Always Love You"
+      ],
+      "answer": "I Will Always Love You",
+      "explanation": "Whitney Houston's version of 'I Will Always Love You' was the lead single from the film The Bodyguard (1992). The song was originally written and recorded by Dolly Parton in 1973. Houston's version spent 14 weeks at number one in the US and sold over 20 million copies worldwide — the best-selling single of all time when released. It is still one of the all-time best-selling singles.",
+      "memory_hook": "'I Will Always Love You' = Whitney Houston, but written by Dolly Parton. Parton reportedly made $6 million in royalties from Houston's version. Dolly was offered half of the publishing rights by Elvis Presley's manager in exchange for letting Elvis record it — she said no. Houston's version came along 20 years later. Dolly made the right call."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Which 2013 film starring Leonardo DiCaprio, based on a true story, featured his collaboration with director Martin Scorsese?",
+      "options": [
+        "Django Unchained",
+        "The Revenant",
+        "Inception",
+        "The Wolf of Wall Street"
+      ],
+      "answer": "The Wolf of Wall Street",
+      "explanation": "The Wolf of Wall Street (2013), directed by Martin Scorsese, starred Leonardo DiCaprio as Jordan Belfort, a real stockbroker convicted of securities fraud. The film is 3 hours long and contains more profanity than almost any other film. DiCaprio received an Academy Award nomination. The real Jordan Belfort received a percentage of the film's profits as part of his plea deal.",
+      "memory_hook": "Wolf of Wall Street = Scorsese + DiCaprio, 2013. Jordan Belfort was real — and made money off the film depicting his crimes. 3 hours, 569 uses of the F-word, Jonah Hill in a career performance. The excesses shown weren't exaggerated — Belfort confirmed they were accurate."
+    },
+    {
+      "category": "Geography",
+      "question": "The Atacama Desert, one of the driest places on Earth, is located primarily in which country?",
+      "options": [
+        "Peru",
+        "Argentina",
+        "Bolivia",
+        "Chile"
+      ],
+      "answer": "Chile",
+      "explanation": "The Atacama Desert stretches about 1,600 km along the Pacific coast of South America, primarily in northern Chile with parts in Peru, Bolivia, and Argentina. Some weather stations in the Atacama have never recorded any rain. It is the driest non-polar desert on Earth. Despite its aridity, the Atacama is home to mining operations (copper and lithium) and unique extremophile organisms.",
+      "memory_hook": "Atacama = driest non-polar desert, mostly Chile. Some parts have never recorded rainfall. Yet people mine lithium there — Chile has the world's largest lithium reserves in Atacama salt flats. The driest place on Earth happens to contain one of the most valuable resources for electric vehicles."
+    },
+    {
+      "category": "Science & Nature",
+      "question": "What is the name of the process by which bacteria and fungi break down dead organic matter into simpler substances?",
+      "options": [
+        "Fermentation",
+        "Photosynthesis",
+        "Transpiration",
+        "Decomposition"
+      ],
+      "answer": "Decomposition",
+      "explanation": "Decomposition is the process by which dead organic matter is broken down into simpler organic or inorganic matter by bacteria, fungi, and other organisms called decomposers. This recycling of nutrients is essential to all ecosystems — without decomposers, the world would be buried under dead organisms. Carbon, nitrogen, and other elements are returned to the soil and atmosphere through decomposition.",
+      "memory_hook": "Decomposition = nature's recycling. Without decomposers, dead matter would pile up forever. Bacteria and fungi break everything back down into nutrients that plants can use. Everything that dies becomes food for the living. The cycle never stops."
+    }
+  ]
+}

@@ -11,7 +11,7 @@
       ],
       "answer": "Christopher Columbus",
       "explanation": "Christopher Columbus arrived in the Americas on October 12, 1492, when he landed in the Bahamas. While Leif Erikson reached North America around 1000 AD, Columbus's voyage opened sustained contact between Europe and the Americas. Columbus believed he had reached Asia and called the inhabitants 'Indians.'",
-      "memory_hook": "Columbus 1492: sailed the ocean blue. He was wrong about where \u2014 but changed the world anyway."
+      "memory_hook": "Columbus 1492: sailed the ocean blue. He was wrong about where — but changed the world anyway."
     },
     {
       "category": "History",
@@ -37,7 +37,7 @@
       ],
       "answer": "10 feet",
       "explanation": "A standard basketball hoop is 10 feet (3.05 meters) above the floor in the NBA, NCAA, and FIBA. The height has been standard since James Naismith invented the game in 1891. Shaquille O'Neal could touch the rim flat-footed due to his height and wingspan.",
-      "memory_hook": "10 feet high \u2014 the standard since basketball was invented in 1891."
+      "memory_hook": "10 feet high — the standard since basketball was invented in 1891."
     },
     {
       "category": "Sports",
@@ -49,7 +49,7 @@
         "Croquet"
       ],
       "answer": "Cricket",
-      "explanation": "Cricket is played on a grass oval called a 'pitch,' with the wicket \u2014 three stumps topped by two bails \u2014 at each end of the central 22-yard strip. The batsman defends the wicket while the bowler attempts to knock off the bails. Cricket is especially popular in the UK, India, Australia, and the Caribbean.",
+      "explanation": "Cricket is played on a grass oval called a 'pitch,' with the wicket — three stumps topped by two bails — at each end of the central 22-yard strip. The batsman defends the wicket while the bowler attempts to knock off the bails. Cricket is especially popular in the UK, India, Australia, and the Caribbean.",
       "memory_hook": "Cricket: pitch + wicket + tea breaks. Very British."
     },
     {
@@ -89,7 +89,7 @@
       ],
       "answer": "Hugh Jackman",
       "explanation": "Hugh Jackman played Wolverine in nine films from X-Men (2000) to Logan (2017) and later returned for Deadpool & Wolverine (2024). Jackman held the record as the actor to have played the same superhero role the most times in a single film series, recognized by the Guinness World Records.",
-      "memory_hook": "Jackman IS Wolverine \u2014 9 films, 17 years, one set of claws."
+      "memory_hook": "Jackman IS Wolverine — 9 films, 17 years, one set of claws."
     },
     {
       "category": "Music/Movies",
@@ -114,8 +114,8 @@
         "Cuba"
       ],
       "answer": "Soviet Union",
-      "explanation": "The Cold War (1947\u20131991) was a period of geopolitical tension between the United States and the Soviet Union, and their respective allies. It involved nuclear arms race, proxy wars, and ideological competition between capitalism and communism but never a direct military conflict between the two superpowers.",
-      "memory_hook": "Cold War: US vs. USSR. No direct fighting \u2014 just everything except fighting."
+      "explanation": "The Cold War (1947–1991) was a period of geopolitical tension between the United States and the Soviet Union, and their respective allies. It involved nuclear arms race, proxy wars, and ideological competition between capitalism and communism but never a direct military conflict between the two superpowers.",
+      "memory_hook": "Cold War: US vs. USSR. No direct fighting — just everything except fighting."
     },
     {
       "category": "History",
@@ -127,8 +127,34 @@
         "Epicurus"
       ],
       "answer": "Socrates",
-      "explanation": "Socrates (470\u2013399 BC) developed the Socratic method \u2014 a form of inquiry through questioning to stimulate critical thinking. He wrote nothing himself; his ideas are known through his students, primarily Plato. He was tried and executed by Athens for corrupting the youth and impiety, choosing death over exile.",
+      "explanation": "Socrates (470–399 BC) developed the Socratic method — a form of inquiry through questioning to stimulate critical thinking. He wrote nothing himself; his ideas are known through his students, primarily Plato. He was tried and executed by Athens for corrupting the youth and impiety, choosing death over exile.",
       "memory_hook": "Socrates asked questions until Athens killed him for asking too many."
+    },
+    {
+      "category": "Geography",
+      "question": "The Suez Canal, opened in 1869, connects which two bodies of water?",
+      "options": [
+        "Red Sea and Persian Gulf",
+        "Black Sea and Mediterranean Sea",
+        "Mediterranean Sea and Red Sea",
+        "Atlantic Ocean and Indian Ocean"
+      ],
+      "answer": "Mediterranean Sea and Red Sea",
+      "explanation": "The Suez Canal in Egypt connects the Mediterranean Sea in the north to the Red Sea in the south, cutting through the Isthmus of Suez. It eliminates the need to sail around Africa via the Cape of Good Hope, shortening the sea route from Europe to Asia by up to 7,000 km.",
+      "memory_hook": "Suez = Mediterranean to Red Sea. Opened 1869, changed global trade forever. Before Suez, ships had to go all the way around Africa. After Suez, Europe and Asia were suddenly much closer."
+    },
+    {
+      "category": "Science & Nature",
+      "question": "What is the world's fastest land animal?",
+      "options": [
+        "Lion",
+        "Pronghorn antelope",
+        "Greyhound",
+        "Cheetah"
+      ],
+      "answer": "Cheetah",
+      "explanation": "The cheetah can accelerate from 0 to 100 km/h (62 mph) in about 3 seconds and reach top speeds of up to 120 km/h (75 mph). However, it can only sustain this speed for about 20 to 30 seconds before overheating. The cheetah's body is built entirely for speed: a flexible spine, non-retractable claws for grip, and a large nasal cavity for oxygen intake.",
+      "memory_hook": "Cheetah = fastest land animal. 0 to 100 in 3 seconds. But it runs out of energy in 20 seconds and has to rest. Built for sprinting, not distance."
     }
   ]
 }

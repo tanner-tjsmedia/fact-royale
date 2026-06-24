@@ -1,0 +1,161 @@
+{
+  "date": "2026-08-13",
+  "questions": [
+    {
+      "category": "History",
+      "question": "The Aztec Empire was conquered by Spanish forces led by which conquistador in the early 16th century?",
+      "options": [
+        "Francisco Pizarro",
+        "Juan Ponce de Leon",
+        "Vasco Nunez de Balboa",
+        "Hernan Cortes"
+      ],
+      "answer": "Hernan Cortes",
+      "explanation": "Hernan Cortes conquered the Aztec Empire between 1519 and 1521 with a force of about 600 Spanish soldiers, allied with tens of thousands of indigenous enemies of the Aztecs. He captured the Aztec emperor Moctezuma II, destroyed Tenochtitlan, and established New Spain. The conquest combined military force, disease (smallpox), strategic alliances, and the psychological shock of the Spanish arrival.",
+      "memory_hook": "Cortes conquered the Aztecs, 1519-1521. 600 Spaniards + smallpox + native allies brought down an empire of millions. Disease killed more Aztecs than Spanish weapons. Cortes was specifically ordered not to conquer Mexico — he did it anyway and was eventually removed from power."
+    },
+    {
+      "category": "History",
+      "question": "The Emancipation Proclamation took effect on which date?",
+      "options": [
+        "July 4, 1862",
+        "September 22, 1862",
+        "January 1, 1863",
+        "April 9, 1865"
+      ],
+      "answer": "January 1, 1863",
+      "explanation": "President Lincoln's Emancipation Proclamation took effect on January 1, 1863, declaring that enslaved people in Confederate states in rebellion were free. It was issued after the Union victory at Antietam in September 1862 gave Lincoln the political standing to make such a declaration. The 13th Amendment, which permanently abolished slavery throughout the US, was ratified in December 1865.",
+      "memory_hook": "Emancipation Proclamation = January 1, 1863. New Year's Day. Lincoln waited for a Union victory before issuing it — he didn't want it to look like desperation. It didn't immediately free anyone but changed the moral character of the Civil War forever."
+    },
+    {
+      "category": "History",
+      "question": "Which city served as the capital of the Byzantine Empire until its fall in 1453?",
+      "options": [
+        "Athens",
+        "Alexandria",
+        "Antioch",
+        "Constantinople"
+      ],
+      "answer": "Constantinople",
+      "explanation": "Constantinople (modern Istanbul, Turkey) was founded by Roman Emperor Constantine I in 330 AD and served as the capital of the Byzantine Empire (Eastern Roman Empire) until the Ottoman conquest in 1453. For over 1,000 years it was one of the world's largest and wealthiest cities, a center of trade, culture, and Christianity. After the Ottoman conquest, it was renamed Istanbul.",
+      "memory_hook": "Constantinople = Byzantine capital for 1,000+ years. Founded 330 AD, fell 1453. Istanbul today. The city was so strategically located (controlling access between Europe and Asia, between the Black Sea and Mediterranean) that every great empire wanted it."
+    },
+    {
+      "category": "History",
+      "question": "Charles Darwin published 'On the Origin of Species,' which introduced the theory of evolution by natural selection, in which year?",
+      "options": [
+        "1837",
+        "1848",
+        "1859",
+        "1871"
+      ],
+      "answer": "1859",
+      "explanation": "Charles Darwin published On the Origin of Species on November 24, 1859, presenting his theory of evolution by natural selection. The first edition of 1,250 copies sold out on the first day. Darwin had delayed publication for 20 years, fearing the religious controversy. He was finally pushed to publish when Alfred Russel Wallace independently developed the same theory and wrote to Darwin about it.",
+      "memory_hook": "Darwin's Origin of Species = 1859. Delayed 20 years out of fear. Sold out day one. Wallace's letter forced Darwin's hand — publish or lose credit for your own idea. The most important idea in biology took 20 years to announce because its author was scared."
+    },
+    {
+      "category": "Sports",
+      "question": "In American football, what is a 'Hail Mary' play?",
+      "options": [
+        "A kickoff return",
+        "A defensive blitz",
+        "A field goal attempt",
+        "A long, desperate forward pass"
+      ],
+      "answer": "A long, desperate forward pass",
+      "explanation": "A Hail Mary is a long forward pass thrown in desperation near the end of a game with little time remaining, typically when the trailing team needs a touchdown. The term is associated with a prayer — you throw the ball and 'pray' it's caught. The name was popularized by Roger Staubach of the Dallas Cowboys after a 1975 playoff win. Such passes rarely work, but when they do, they produce some of football's most memorable moments.",
+      "memory_hook": "Hail Mary = desperate long pass. Named after a prayer. Roger Staubach coined the term in 1975 after throwing one. It almost never works, which is why it's desperate. But when it does — Doug Flutie, 1984, one of football's most iconic plays."
+    },
+    {
+      "category": "Sports",
+      "question": "At what age did Tiger Woods become the youngest Masters golf champion in 1997?",
+      "options": [
+        "19",
+        "20",
+        "21",
+        "22"
+      ],
+      "answer": "21",
+      "explanation": "Tiger Woods won the 1997 Masters at age 21, becoming the youngest champion in Masters history. He won by 12 strokes — the largest margin of victory in Masters history. The performance announced the arrival of one of golf's all-time great players. Woods won the Masters five times total (1997, 2001, 2002, 2005, 2019), the 2019 win being one of the great sporting comebacks after back surgeries.",
+      "memory_hook": "Tiger Woods won the 1997 Masters at 21, by 12 strokes — the most dominant performance in golf's most prestigious event. Then he won it 4 more times. The 2019 win after back surgery and personal scandal was called the greatest comeback in golf history."
+    },
+    {
+      "category": "Sports",
+      "question": "What sport uses terms like 'love,' 'deuce,' and 'advantage'?",
+      "options": [
+        "Squash",
+        "Badminton",
+        "Ping pong",
+        "Tennis"
+      ],
+      "answer": "Tennis",
+      "explanation": "Tennis uses the terms love (0 points), 15 (1 point), 30 (2 points), 40 (3 points), deuce (tied at 3 points each), and advantage (one point ahead after deuce). To win a game from deuce, a player must win two consecutive points. The origin of 'love' for zero is debated — it may come from the French 'l'oeuf' (egg) for the oval shape of zero, or from the expression 'playing for love' (no stakes).",
+      "memory_hook": "Tennis scoring = love, 15, 30, 40, deuce. The strangest scoring system in sport. Love = zero (possibly from l'oeuf = egg in French). Deuce means tied at 40-40. From deuce you need 2 consecutive points to win. Tennis decided normal numbers were too boring."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Which 2017 Jordan Peele film about a Black man visiting his white girlfriend's family is considered a landmark of modern horror?",
+      "options": [
+        "Us",
+        "Nope",
+        "Candyman",
+        "Get Out"
+      ],
+      "answer": "Get Out",
+      "explanation": "Get Out (2017), written and directed by Jordan Peele, became a cultural phenomenon. Made on a $4.5 million budget, it earned over $255 million worldwide and won the Academy Award for Best Original Screenplay — the first horror film to win that award. The film uses horror conventions to explore racism in America, particularly the microaggressions and 'liberal racism' of well-meaning white people.",
+      "memory_hook": "Get Out = Jordan Peele's debut. $4.5 million budget, $255 million at the box office. Won the Oscar for Best Screenplay. First horror film to win that award. It's a horror film that works as a horror film AND as social commentary about racism. Peele proved the two aren't mutually exclusive."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Who directed Parasite (2019), the first non-English film to win the Academy Award for Best Picture?",
+      "options": [
+        "Park Chan-wook",
+        "Lee Chang-dong",
+        "Hong Sang-soo",
+        "Bong Joon-ho"
+      ],
+      "answer": "Bong Joon-ho",
+      "explanation": "Bong Joon-ho's Parasite won the Palme d'Or at Cannes and four Academy Awards, including Best Picture, Best Director, Best International Feature Film, and Best Original Screenplay. It was the first non-English language film to win Best Picture at the Oscars. The film explores class inequality through the story of two families — one wealthy, one poor — whose lives become dangerously entangled.",
+      "memory_hook": "Parasite = Bong Joon-ho, 2019. First non-English film to win Best Picture. 4 Oscars total. Bong called subtitles 'the one-inch barrier between you and great film.' Parasite knocked the barrier down for American audiences. Class warfare as thriller, comedy, and tragedy simultaneously."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "The 1990s saw the rise of grunge music. Which band released the album 'Ten' in 1991?",
+      "options": [
+        "Soundgarden",
+        "Alice in Chains",
+        "Stone Temple Pilots",
+        "Pearl Jam"
+      ],
+      "answer": "Pearl Jam",
+      "explanation": "Pearl Jam's debut album Ten was released on August 27, 1991, and became one of the best-selling albums of the 1990s, selling over 13 million copies in the US alone. Featuring 'Alive,' 'Black,' and 'Jeremy,' it was a cornerstone of the grunge movement alongside Nirvana's Nevermind (released a month later). Eddie Vedder's deep baritone vocals became one of rock's most recognizable voices.",
+      "memory_hook": "Pearl Jam = Ten, 1991. Released a month before Nevermind. 13 million copies in the US. Eddie Vedder's voice is instantly recognizable. 'Jeremy' was inspired by real events — a student who shot himself in front of his class. Pearl Jam used their platform responsibly in a way not many 90s bands did."
+    },
+    {
+      "category": "Geography",
+      "question": "Which river, the longest in Asia, flows from the Tibetan Plateau to the East China Sea?",
+      "options": [
+        "Mekong",
+        "Yellow River",
+        "Brahmaputra",
+        "Yangtze River"
+      ],
+      "answer": "Yangtze River",
+      "explanation": "The Yangtze is Asia's longest river at approximately 6,300 km, flowing from the Tibetan Plateau through central China to the East China Sea near Shanghai. It is the world's third longest river. The Three Gorges Dam on the Yangtze is the world's largest hydroelectric power station. The river basin is home to about one-third of China's population.",
+      "memory_hook": "Yangtze = Asia's longest river. Third longest in the world. The Three Gorges Dam on the Yangtze is the largest power plant ever built — it displaced 1.2 million people during construction. The river supports a third of China's population."
+    },
+    {
+      "category": "Science & Nature",
+      "question": "What is the term for an organism that makes its own food using energy from sunlight or chemicals?",
+      "options": [
+        "Heterotroph",
+        "Omnivore",
+        "Decomposer",
+        "Autotroph"
+      ],
+      "answer": "Autotroph",
+      "explanation": "Autotrophs (or 'producers') make their own food. Photoautotrophs use sunlight (plants, algae, cyanobacteria). Chemoautotrophs use chemical energy (certain bacteria living near deep-sea hydrothermal vents with no sunlight). In contrast, heterotrophs (animals, fungi, most bacteria) must consume other organisms for energy. Almost all food chains on Earth begin with autotrophs capturing energy from outside sources.",
+      "memory_hook": "Autotroph = self-feeder. Hetero = other feeder. Plants are autotrophs; animals are heterotrophs. Near deep-sea vents with no sunlight, bacteria are chemosynthetic autotrophs — life running entirely on chemical energy rather than the Sun."
+    }
+  ]
+}

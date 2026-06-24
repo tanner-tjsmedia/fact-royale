@@ -4,7 +4,12 @@
     {
       "category": "History",
       "question": "The ancient Olympic Games were held in which Greek city?",
-      "options": ["Athens", "Sparta", "Corinth", "Olympia"],
+      "options": [
+        "Athens",
+        "Sparta",
+        "Corinth",
+        "Olympia"
+      ],
       "answer": "Olympia",
       "explanation": "The ancient Olympic Games were held at Olympia, a sanctuary in the western Peloponnese region of Greece, beginning in 776 BC. They were held every four years in honor of Zeus and continued for over 1,000 years until banned by Roman Emperor Theodosius I in 393 AD. The modern Olympics were revived in Athens in 1896.",
       "memory_hook": "Olympics = Olympia. Not Athens — Olympia. The Games were named after the place, not the god or the mountain. Common mix-up: Mt. Olympus is where the gods lived; Olympia is where the Games were played."
@@ -12,7 +17,12 @@
     {
       "category": "History",
       "question": "Women's suffrage — the right to vote — was first granted nationally in which country?",
-      "options": ["USA", "UK", "Australia", "New Zealand"],
+      "options": [
+        "USA",
+        "UK",
+        "Australia",
+        "New Zealand"
+      ],
       "answer": "New Zealand",
       "explanation": "New Zealand became the first self-governing country in the world to grant women the right to vote in 1893, following a campaign led by Kate Sheppard. Women in Australia could vote nationally from 1902, Finland from 1906, Norway from 1913, and the US from 1920. Women in Switzerland couldn't vote in federal elections until 1971.",
       "memory_hook": "New Zealand first — the smallest, most remote country, first to do the right thing. Switzerland, one of the world's oldest democracies, didn't let women vote until 1971. Being old and established didn't mean being progressive."
@@ -20,7 +30,12 @@
     {
       "category": "History",
       "question": "Who was the first person to sail solo around the world nonstop?",
-      "options": ["Francis Drake", "Ferdinand Magellan", "Robin Knox-Johnston", "Joshua Slocum"],
+      "options": [
+        "Francis Drake",
+        "Ferdinand Magellan",
+        "Robin Knox-Johnston",
+        "Joshua Slocum"
+      ],
       "answer": "Robin Knox-Johnston",
       "explanation": "Robin Knox-Johnston completed the first solo nonstop circumnavigation of the globe on April 22, 1969, after 312 days at sea in his 32-foot ketch Suhaili. He won the Sunday Times Golden Globe Race — the only entrant to finish. Knox-Johnston donated his prize money to the family of fellow competitor Donald Crowhurst, who had falsified his logs and died at sea.",
       "memory_hook": "Knox-Johnston: alone, nonstop, 312 days. Magellan's crew was first around the world in 1522 — but they weren't alone or nonstop. Knox-Johnston was alone the entire time with no stops. That's a different kind of extraordinary."
@@ -28,7 +43,12 @@
     {
       "category": "History",
       "question": "The Vikings were seafaring people who originated from which region?",
-      "options": ["Iceland", "Finland", "Scandinavia", "Scotland"],
+      "options": [
+        "Iceland",
+        "Finland",
+        "Scandinavia",
+        "Scotland"
+      ],
       "answer": "Scandinavia",
       "explanation": "The Vikings came from Scandinavia — modern-day Norway, Sweden, and Denmark — and were active from the late 8th to early 11th century AD. They were not just raiders; they were traders, explorers, and settlers who reached North America (Vinland) around 1000 AD — nearly 500 years before Columbus. Leif Eriksson is credited as the first European to reach the Americas.",
       "memory_hook": "Vikings = Scandinavia, not Iceland or Finland. They came from the big three: Norway, Sweden, Denmark. And they reached America 500 years before Columbus — they just didn't stick around or write it down in a way Europe noticed."
@@ -36,7 +56,12 @@
     {
       "category": "Sports",
       "question": "Lance Armstrong was stripped of his record seven Tour de France titles due to doping. In what year was this decision made?",
-      "options": ["2008", "2010", "2012", "2015"],
+      "options": [
+        "2008",
+        "2010",
+        "2012",
+        "2015"
+      ],
       "answer": "2012",
       "explanation": "Lance Armstrong was officially stripped of his seven Tour de France titles (1999–2005) by the United States Anti-Doping Agency in August 2012, following an extensive investigation. He was banned from competitive cycling for life. Armstrong later admitted to systematic doping in an interview with Oprah Winfrey in January 2013 — one of sport's most significant fall-from-grace stories.",
       "memory_hook": "Armstrong: seven titles, zero kept. The greatest cycling achievement in history turned out to be the greatest fraud in sports history. He sued journalists who reported the doping. The truth always comes out eventually."
@@ -44,7 +69,12 @@
     {
       "category": "Sports",
       "question": "In which country did table tennis (ping pong) originate?",
-      "options": ["China", "Japan", "England", "France"],
+      "options": [
+        "China",
+        "Japan",
+        "England",
+        "France"
+      ],
       "answer": "England",
       "explanation": "Table tennis originated in England in the 1880s as an after-dinner parlor game among the upper class, using books as nets and rounded bottle caps as balls. It was popularized under the trademark name 'Ping-Pong' and spread to Asia in the early 20th century. China has dominated the sport at Olympic level since the 1980s, leading many to assume it originated there.",
       "memory_hook": "Ping pong = English parlor game. The sport China owns was invented in England. Victorian gentlemen playing after dinner — not a Chinese sports academy. The origin and the dominance are completely disconnected."
@@ -52,7 +82,12 @@
     {
       "category": "Sports",
       "question": "Which sprinter is known as 'The Fastest Woman on Earth' and won three gold medals at the 1988 Seoul Olympics?",
-      "options": ["Marion Jones", "Evelyn Ashford", "Florence Griffith Joyner", "Gail Devers"],
+      "options": [
+        "Marion Jones",
+        "Evelyn Ashford",
+        "Florence Griffith Joyner",
+        "Gail Devers"
+      ],
       "answer": "Florence Griffith Joyner",
       "explanation": "Florence Griffith Joyner — known as 'FloJo' — won three gold medals at the 1988 Seoul Olympics and set world records in the 100m (10.49 seconds) and 200m (21.34 seconds) that still stand today. She was known for her distinctive long nails, flamboyant outfits, and exceptional speed. She passed away in 1998 at age 38.",
       "memory_hook": "FloJo: world records that have stood since 1988. Over 35 years later, no woman has run 100m faster. Her records predate smartphones, the internet, and modern sports science. That's either extraordinary talent or an era of less testing."
@@ -60,7 +95,12 @@
     {
       "category": "Music/Movies",
       "question": "Alfred Hitchcock's Psycho (1960) is famous for a shocking scene in which location?",
-      "options": ["A basement", "A shower", "A hotel lobby", "A cornfield"],
+      "options": [
+        "A basement",
+        "A shower",
+        "A hotel lobby",
+        "A cornfield"
+      ],
       "answer": "A shower",
       "explanation": "The shower scene in Psycho — where Janet Leigh's character Marion Crane is murdered — is one of the most analyzed scenes in film history. It runs 3 minutes, uses 70 camera angles, and 45 edits. Though no nudity is shown and the knife never visibly touches the body, it is deeply disturbing. Hitchcock reportedly received letters from parents saying their daughter refused to shower after seeing it.",
       "memory_hook": "Psycho shower scene — 3 minutes, 70 camera angles. The horror is entirely in the editing. The knife never touches her in any frame. Hitchcock terrified audiences with what they thought they saw, not what they actually saw."
@@ -68,7 +108,12 @@
     {
       "category": "Music/Movies",
       "question": "The Rolling Stones' song 'Paint It Black' is recognizable for featuring which unusual instrument?",
-      "options": ["Sitar", "Bagpipes", "Steel drum", "Theremin"],
+      "options": [
+        "Sitar",
+        "Bagpipes",
+        "Steel drum",
+        "Theremin"
+      ],
       "answer": "Sitar",
       "explanation": "'Paint It Black' (1966) features a prominent sitar played by guitarist Brian Jones, reflecting the mid-1960s trend of incorporating Indian classical music into rock — popularized largely by George Harrison of The Beatles. The song reached #1 in both the UK and US and is one of the Rolling Stones' most recognizable tracks.",
       "memory_hook": "Paint It Black = sitar riff. You know that dark, twisting opening — that's a sitar, not a guitar. The Stones were doing world music fusion in 1966. That distinctive Indian sound is what makes the song instantly recognizable."
@@ -76,10 +121,41 @@
     {
       "category": "Music/Movies",
       "question": "Adele's debut album, released when she was 19, shares its name with her age at the time. What was it called?",
-      "options": ["17", "18", "19", "21"],
+      "options": [
+        "17",
+        "18",
+        "19",
+        "21"
+      ],
       "answer": "19",
       "explanation": "Adele named her debut album '19' after her age when she recorded it, released in 2008. She continued the tradition with '21' (2011), which became one of the best-selling albums of all time with over 31 million copies sold, and '25' (2015) and '30' (2021). Each album reflects a different emotional chapter of her life.",
       "memory_hook": "Adele names albums after her age: 19, 21, 25, 30. Her whole discography is a timeline. Every album is a snapshot of who she was at that age. It's the simplest, most personal naming convention in pop music."
+    },
+    {
+      "category": "Geography",
+      "question": "Which country has more lakes than the rest of the world combined?",
+      "options": [
+        "Russia",
+        "Canada",
+        "Finland",
+        "Brazil"
+      ],
+      "answer": "Canada",
+      "explanation": "Canada holds roughly 60% of the world's lakes — over 3 million of them. The country's lake-dense landscape is largely a result of glacial activity during the last Ice Age, which carved out countless basins now filled with fresh water.",
+      "memory_hook": "Canada = lake capital of Earth. More lakes than every other country put together."
+    },
+    {
+      "category": "Science & Nature",
+      "question": "What is the powerhouse of the cell?",
+      "options": [
+        "Nucleus",
+        "Ribosome",
+        "Mitochondria",
+        "Golgi apparatus"
+      ],
+      "answer": "Mitochondria",
+      "explanation": "Mitochondria produce ATP (adenosine triphosphate), the energy currency that cells use to function. They have their own DNA, suggesting they were once free-living bacteria absorbed into larger cells billions of years ago.",
+      "memory_hook": "Mitochondria = powerhouse. Every biology class, every year. If you remember one cell fact, it's this one."
     }
   ]
 }

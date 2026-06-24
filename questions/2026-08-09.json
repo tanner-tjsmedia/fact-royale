@@ -1,0 +1,161 @@
+{
+  "date": "2026-08-09",
+  "questions": [
+    {
+      "category": "History",
+      "question": "Which empire built the Taj Mahal in India?",
+      "options": [
+        "British Empire",
+        "Ottoman Empire",
+        "Mughal Empire",
+        "Persian Empire"
+      ],
+      "answer": "Mughal Empire",
+      "explanation": "The Taj Mahal was commissioned by Mughal Emperor Shah Jahan in 1632 as a mausoleum for his beloved wife Mumtaz Mahal, who died during childbirth. It took approximately 22 years and 20,000 workers to complete. The white marble structure in Agra, India, is considered the greatest example of Mughal architecture and one of the New Seven Wonders of the World.",
+      "memory_hook": "Taj Mahal = Mughal Emperor's tribute to his wife. She died in childbirth with their 14th child. He built the most beautiful building in the world for her. 22 years, 20,000 workers. Shah Jahan was later imprisoned by his own son and could only see the Taj from his prison window."
+    },
+    {
+      "category": "History",
+      "question": "The first telephone call in history was made by Alexander Graham Bell in 1876. What were his first words?",
+      "options": [
+        "Hello, can you hear me?",
+        "Watson, I need you.",
+        "Mr. Watson, come here. I want to see you.",
+        "Speak and I shall hear."
+      ],
+      "answer": "Mr. Watson, come here. I want to see you.",
+      "explanation": "Alexander Graham Bell made the first successful telephone call on March 10, 1876, saying 'Mr. Watson, come here. I want to see you.' to his assistant Thomas Watson, who was in the next room. Bell had received his patent for the telephone just three days earlier. The telephone transformed human communication more than any invention since writing.",
+      "memory_hook": "First phone call: 'Mr. Watson, come here. I want to see you.' March 10, 1876. Watson was in the next room. The first thing ever said on a phone was essentially 'come here.' Bell accidentally spilled acid on himself during the call."
+    },
+    {
+      "category": "History",
+      "question": "What was the name of the policy of apartheid (racial segregation) that was officially in place in South Africa from 1948 to 1991?",
+      "options": [
+        "Bantustanism",
+        "Apartheid",
+        "Segregationism",
+        "Verwoerdism"
+      ],
+      "answer": "Apartheid",
+      "explanation": "Apartheid (Afrikaans for 'separateness') was the policy of institutionalized racial segregation enforced by the South African government from 1948 to 1991. The system classified citizens by race and restricted where they could live, work, go to school, or even sit on a bus. Nelson Mandela was imprisoned for 27 years for opposing it. Apartheid ended through sustained internal resistance and international sanctions.",
+      "memory_hook": "Apartheid = 'separateness' in Afrikaans. South Africa, 1948-1991. Mandela jailed 27 years for opposing it. Released in 1990, elected president in 1994. The arc from prisoner to president in 4 years is one of history's most remarkable stories."
+    },
+    {
+      "category": "History",
+      "question": "What event in 1989 marked the end of the Cold War era?",
+      "options": [
+        "SALT II Treaty",
+        "The fall of the Berlin Wall",
+        "German Reunification",
+        "Soviet withdrawal from Afghanistan"
+      ],
+      "answer": "The fall of the Berlin Wall",
+      "explanation": "The fall of the Berlin Wall on November 9, 1989, is widely regarded as the pivotal moment ending the Cold War. East Germany announced that citizens could cross the border freely, and crowds on both sides began tearing the wall down. It led to German reunification in 1990 and the dissolution of the Soviet Union in 1991. The wall had divided Berlin since 1961.",
+      "memory_hook": "Berlin Wall fell November 9, 1989. People tore it down with hammers. Live on television worldwide. German reunification followed a year later. The Soviet Union dissolved two years after that. A wall built to keep people in collapsed because enough people said no."
+    },
+    {
+      "category": "Sports",
+      "question": "What is the term in baseball for a batter being hit by a pitched ball?",
+      "options": [
+        "Dead ball",
+        "Hit by pitch",
+        "Strike",
+        "Intentional walk"
+      ],
+      "answer": "Hit by pitch",
+      "explanation": "'Hit by pitch' (HBP) occurs when a pitched ball strikes the batter without the batter swinging, awarding the batter first base. The batter must make an attempt to avoid being hit — if they deliberately lean into the pitch, it can be ruled a non-event. It is abbreviated HBP or HP in scoring. Being hit by a fastball traveling 95+ mph is painful regardless of padded batting gloves.",
+      "memory_hook": "Hit by pitch = free base in baseball. The batter must try to avoid it — leaning into a 95 mph pitch on purpose is rare, painful, and technically against the rules. Some batters are notorious for getting hit often; others are almost never hit."
+    },
+    {
+      "category": "Sports",
+      "question": "How long is a marathon running race?",
+      "options": [
+        "26 miles 385 yards",
+        "25 miles",
+        "26 kilometers",
+        "42 kilometers"
+      ],
+      "answer": "26 miles 385 yards",
+      "explanation": "A marathon is 26 miles and 385 yards (42.195 km). The distance was standardized at the 1908 London Olympics, set to run from Windsor Castle to the Olympic stadium and finish in front of the royal box. The race commemorates the legend of Pheidippides, a Greek messenger who allegedly ran from Marathon to Athens (about 25 miles) to announce a military victory in 490 BC, then collapsed and died.",
+      "memory_hook": "Marathon = 26.2 miles. Standardized because of the British royal family's preference for the 1908 finish line. Named after a battle in ancient Greece. The original messenger legend may be apocryphal — but the race is very real."
+    },
+    {
+      "category": "Sports",
+      "question": "Which country has won the most soccer World Cups?",
+      "options": [
+        "Argentina",
+        "Germany",
+        "Italy",
+        "Brazil"
+      ],
+      "answer": "Brazil",
+      "explanation": "Brazil has won the FIFA World Cup a record five times (1958, 1962, 1970, 1994, 2002). They are also the only nation to have participated in every World Cup tournament. Players like Pelé, Ronaldo, Ronaldinho, and Zico have made Brazil synonymous with beautiful, attacking football. The 2014 World Cup, hosted by Brazil, resulted in an infamous 7-1 semifinal loss to Germany.",
+      "memory_hook": "Brazil = 5 World Cups, most ever. The only nation at every World Cup. Pelé is their legend — World Cup winner at 17, arguably the greatest player of the pre-Messi/Ronaldo era. The 7-1 loss to Germany in 2014 on Brazilian soil is called 'The Mineirazo' — one of football's most shocking results."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Which legendary filmmaker directed 2001: A Space Odyssey (1968) and The Shining (1980)?",
+      "options": [
+        "Ridley Scott",
+        "Roman Polanski",
+        "Brian De Palma",
+        "Stanley Kubrick"
+      ],
+      "answer": "Stanley Kubrick",
+      "explanation": "Stanley Kubrick is one of cinema's most celebrated auteurs, directing films across multiple genres including Dr. Strangelove, 2001: A Space Odyssey, A Clockwork Orange, Barry Lyndon, The Shining, Full Metal Jacket, and Eyes Wide Shut. He was known for extreme perfectionism — some takes ran into the hundreds. He died in 1999, just days after showing his final cut of Eyes Wide Shut to Warner Bros.",
+      "memory_hook": "Kubrick = 2001 + The Shining + Full Metal Jacket. A perfectionist who once did 127 takes of an actress walking through a door. He made films in totally different genres — all look unmistakably like Kubrick. Died 4 days after screening his final film."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "'Smells Like Teen Spirit' by Nirvana became the anthem of which musical movement?",
+      "options": [
+        "Punk revival",
+        "Hair metal",
+        "Grunge",
+        "Britpop"
+      ],
+      "answer": "Grunge",
+      "explanation": "'Smells Like Teen Spirit,' released in September 1991, became the defining song of grunge — a subgenre of alternative rock from Seattle characterized by distorted guitars, angst-filled lyrics, and rejection of mainstream pop aesthetics. The song's music video received heavy rotation on MTV and helped Nirvana's album Nevermind displace Michael Jackson's Dangerous from the top of the charts.",
+      "memory_hook": "'Smells Like Teen Spirit' = grunge anthem. Seattle sound. Knocked Michael Jackson off #1. Kurt Cobain reportedly hated how famous it became — he felt it misrepresented what the band was about. The irony of an anti-commercial song becoming the most commercial song of its era."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Which actress played Katniss Everdeen in the Hunger Games film series?",
+      "options": [
+        "Emma Watson",
+        "Shailene Woodley",
+        "Selena Gomez",
+        "Jennifer Lawrence"
+      ],
+      "answer": "Jennifer Lawrence",
+      "explanation": "Jennifer Lawrence played Katniss Everdeen in all four Hunger Games films (2012-2015), based on Suzanne Collins' novels. She was 21 when the first film was released and became one of the highest-paid actresses in Hollywood. Lawrence also won the Academy Award for Best Actress for Silver Linings Playbook (2013), one of the few Oscar wins while simultaneously starring in a major franchise.",
+      "memory_hook": "Jennifer Lawrence = Katniss. She won the Oscar for Best Actress at 22 — the second-youngest ever. She was starring in a dystopian blockbuster franchise while winning the most prestigious acting award in the world simultaneously."
+    },
+    {
+      "category": "Geography",
+      "question": "Lake Titicaca, the highest navigable lake in the world, sits on the border of which two countries?",
+      "options": [
+        "Ecuador and Colombia",
+        "Argentina and Chile",
+        "Chile and Bolivia",
+        "Peru and Bolivia"
+      ],
+      "answer": "Peru and Bolivia",
+      "explanation": "Lake Titicaca sits at 3,812 meters above sea level on the Andes plateau, straddling the border of Peru and Bolivia. It is the largest lake in South America by volume and the highest navigable lake in the world. The Uros people have lived on floating reed islands on the lake for centuries. Its name is believed to mean 'rock of the puma' in Quechua.",
+      "memory_hook": "Lake Titicaca = Peru and Bolivia, 3,812 meters up. The highest navigable lake on Earth. Floating reed islands with people living on them. The lake is so large it moderates the climate of the surrounding plateau."
+    },
+    {
+      "category": "Science & Nature",
+      "question": "What is the name for the protective ozone layer primarily made of?",
+      "options": [
+        "Oxygen molecules O2",
+        "Ozone molecules O3",
+        "Carbon dioxide",
+        "Nitrogen"
+      ],
+      "answer": "Ozone molecules O3",
+      "explanation": "The ozone layer is made up of ozone molecules, each consisting of three oxygen atoms (O3). Normal atmospheric oxygen has two atoms (O2). Ozone is created when UV radiation splits O2 molecules, and the free oxygen atoms bond with other O2 molecules. The ozone layer absorbs most of the Sun's UV-B and UV-C radiation, protecting life on Earth from DNA damage and skin cancer.",
+      "memory_hook": "Ozone = O3. Three oxygen atoms. Normal air is O2 (two oxygen atoms). The ozone layer is O3 molecules absorbing UV radiation that would otherwise fry life on Earth. CFCs break the O3 back into O2, depleting the protective layer."
+    }
+  ]
+}

@@ -1,0 +1,161 @@
+{
+  "date": "2026-08-10",
+  "questions": [
+    {
+      "category": "History",
+      "question": "The Panama Canal was officially completed and opened in which year?",
+      "options": [
+        "1903",
+        "1909",
+        "1914",
+        "1920"
+      ],
+      "answer": "1914",
+      "explanation": "The Panama Canal was completed and opened on August 15, 1914, after a 10-year construction effort. The US took over construction from a failed French attempt. Over 75,000 workers participated, and disease (particularly yellow fever and malaria) killed an estimated 25,000 workers during construction. The canal cut the sea voyage between the Atlantic and Pacific by approximately 15,000 km.",
+      "memory_hook": "Panama Canal opened 1914. France tried first and failed. The US succeeded partly by figuring out that mosquitoes spread malaria and yellow fever — eliminating them saved thousands of lives. The canal changed global shipping forever."
+    },
+    {
+      "category": "History",
+      "question": "The Chinese leader who led the Communist revolution in 1949, establishing the People's Republic of China, was:",
+      "options": [
+        "Deng Xiaoping",
+        "Zhou Enlai",
+        "Sun Yat-sen",
+        "Mao Zedong"
+      ],
+      "answer": "Mao Zedong",
+      "explanation": "Mao Zedong proclaimed the founding of the People's Republic of China on October 1, 1949, after the Communist Party defeated the Nationalist government of Chiang Kai-shek in the Chinese Civil War. Mao ruled China until his death in 1976. His policies, including the Great Leap Forward and the Cultural Revolution, led to the deaths of tens of millions of people.",
+      "memory_hook": "Mao Zedong = founded Communist China, 1949. October 1, 1949 is China's National Day. His policies caused the greatest famine in human history — 15-55 million dead during the Great Leap Forward (1958-62). His face still appears on Chinese currency."
+    },
+    {
+      "category": "History",
+      "question": "The storming of the Bastille, the iconic event marking the start of the French Revolution, occurred on what date in 1789?",
+      "options": [
+        "June 20",
+        "July 4",
+        "July 14",
+        "August 4"
+      ],
+      "answer": "July 14",
+      "explanation": "The storming of the Bastille prison on July 14, 1789, in Paris is celebrated as the beginning of the French Revolution. The Bastille held only seven prisoners at the time, but it symbolized royal tyranny. The 98 attackers who were killed are still honored annually on Bastille Day — France's national holiday — celebrated on July 14 each year.",
+      "memory_hook": "Bastille Day = July 14, 1789. The revolution's symbolic start. Only 7 prisoners in the Bastille — but the symbol mattered more than the reality. France celebrates July 14 the same way the US celebrates July 4. Both are days a people overthrew what they believed was tyranny."
+    },
+    {
+      "category": "History",
+      "question": "Which explorer circumnavigated the globe for the first time, completing the journey in 1522 (though he died before it finished)?",
+      "options": [
+        "Vasco da Gama",
+        "Christopher Columbus",
+        "Francis Drake",
+        "Ferdinand Magellan"
+      ],
+      "answer": "Ferdinand Magellan",
+      "explanation": "Ferdinand Magellan led the first circumnavigation of the globe but was killed in the Philippines in April 1521. His crew, led by Juan Sebastian Elcano, completed the voyage and returned to Spain in September 1522. Of the 270 men who set out in 5 ships, only 18 returned in 1 ship. Magellan proved the Earth was round and far larger than anyone had imagined.",
+      "memory_hook": "Magellan = first circumnavigation but died partway. 5 ships left, 1 returned. 270 men left, 18 returned. He proved the Earth was round and enormous. The Strait of Magellan at the tip of South America is named for him."
+    },
+    {
+      "category": "Sports",
+      "question": "The Indianapolis 500 car race is approximately how many miles long?",
+      "options": [
+        "300 miles",
+        "400 miles",
+        "500 miles",
+        "600 miles"
+      ],
+      "answer": "500 miles",
+      "explanation": "The Indianapolis 500 (commonly called the Indy 500) consists of 200 laps of the 2.5-mile oval track at Indianapolis Motor Speedway, totaling 500 miles. It has been held annually since 1911 (with gaps for WWII) and is part of IndyCar's Triple Crown. Winning cars average speeds over 185 mph. The Indy 500 is one of the world's oldest and most prestigious motor races.",
+      "memory_hook": "Indy 500 = 500 miles, 200 laps of 2.5 miles. Started in 1911. Drivers average over 185 mph. The winner drinks milk in Victory Lane — a tradition since 1936 when Louis Meyer drank buttermilk after his win. The dairy industry later made it official."
+    },
+    {
+      "category": "Sports",
+      "question": "In which sport do teams use a puck instead of a ball?",
+      "options": [
+        "Field Hockey",
+        "Lacrosse",
+        "Water Polo",
+        "Ice Hockey"
+      ],
+      "answer": "Ice Hockey",
+      "explanation": "Ice hockey uses a vulcanized rubber disc called a puck instead of a ball. The puck is 3 inches in diameter, 1 inch thick, and weighs between 5.5 and 6 ounces. NHL pucks are frozen before games to reduce bouncing on the ice surface. A slap shot can launch the puck at speeds over 100 mph.",
+      "memory_hook": "Ice hockey = puck. Hard rubber disc, frozen before games to reduce bounce. 100 mph slap shots. The NHL puck gets frozen because at room temperature it bounces unpredictably on the ice. Small detail, huge impact on the game."
+    },
+    {
+      "category": "Sports",
+      "question": "What is the weight limit for a 'heavyweight' in professional boxing?",
+      "options": [
+        "Over 200 lbs",
+        "Over 175 lbs",
+        "Over 190 lbs",
+        "No upper limit"
+      ],
+      "answer": "No upper limit",
+      "explanation": "In professional boxing, the heavyweight division has no upper weight limit — any boxer over 200 pounds competes in heavyweight. The light heavyweight division cuts off at 175 lbs. Heavyweight is traditionally the most prestigious division in boxing, with champions including Muhammad Ali, Joe Louis, Rocky Marciano, Mike Tyson, and Lennox Lewis.",
+      "memory_hook": "Heavyweight boxing = no upper weight limit. Over 200 lbs, fight. There's no 'super heavyweight' in professional boxing. The division's prestige comes from its history — Ali, Tyson, Frazier, Foreman. The heavyweight champion was once called 'the baddest man on the planet.'"
+    },
+    {
+      "category": "Music/Movies",
+      "question": "The 1975 film Jaws, which made audiences afraid to swim in the ocean, starred which actor as Chief Brody?",
+      "options": [
+        "James Garner",
+        "Gene Hackman",
+        "Robert Duvall",
+        "Roy Scheider"
+      ],
+      "answer": "Roy Scheider",
+      "explanation": "Roy Scheider played Police Chief Martin Brody in Jaws (1975), directed by Steven Spielberg. The film invented the summer blockbuster and made Universal Pictures a fortune. The mechanical shark (nicknamed 'Bruce') broke down constantly during filming, forcing Spielberg to suggest the shark rather than show it — creating much more tension. Scheider improvised the line 'You're gonna need a bigger boat.'",
+      "memory_hook": "Roy Scheider = Chief Brody. 'You're gonna need a bigger boat' was improvised. The mechanical shark broke constantly — Spielberg had to suggest it instead of show it, which made the film scarier. Jaws invented the summer blockbuster as a concept."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Which musical won both the Tony Award for Best Musical and the Academy Award for Best Picture in 1962?",
+      "options": [
+        "Oklahoma!",
+        "Camelot",
+        "My Fair Lady",
+        "West Side Story"
+      ],
+      "answer": "West Side Story",
+      "explanation": "West Side Story (originally 1957 on Broadway) won 10 Academy Awards for its 1961 film adaptation, including Best Picture. It was adapted from the Broadway production which won the Tony. The story is a modern Romeo and Juliet set among rival gangs (the Jets and Sharks) in New York City. A new film version directed by Steven Spielberg won multiple Oscars in 2022.",
+      "memory_hook": "West Side Story = Romeo and Juliet with rival gangs in 1950s NYC. 10 Oscars for the 1961 film. Spielberg remade it in 2021. The original stage show ran for 732 performances on Broadway. The story is 400 years old in a new setting, and it still works."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "David Bowie's alter ego 'Ziggy Stardust' appeared on which 1972 album?",
+      "options": [
+        "Diamond Dogs",
+        "Aladdin Sane",
+        "Heroes",
+        "The Rise and Fall of Ziggy Stardust and the Spiders from Mars"
+      ],
+      "answer": "The Rise and Fall of Ziggy Stardust and the Spiders from Mars",
+      "explanation": "The Rise and Fall of Ziggy Stardust and the Spiders from Mars (1972) introduced David Bowie's androgynous alien rock star alter ego. The concept album blended glam rock with science fiction themes about a doomed musician who becomes a messiah. Bowie performed as Ziggy for 18 months before dramatically retiring the character onstage. It is one of the most influential albums in rock history.",
+      "memory_hook": "Ziggy Stardust = Bowie, 1972. An alien rock star persona who becomes a messiah. Bowie 'killed' Ziggy onstage in 1973 — announced mid-concert that it was their last show. The audience had no idea. They thought it was part of the act."
+    },
+    {
+      "category": "Geography",
+      "question": "The Great Rift Valley, a geological formation that stretches from the Middle East to Mozambique, passes through how many African countries?",
+      "options": [
+        "5",
+        "9",
+        "14",
+        "21"
+      ],
+      "answer": "14",
+      "explanation": "The Great Rift Valley is a series of connected valleys formed by tectonic activity, running about 6,000 km from the Afar Triangle in Ethiopia south through Kenya, Tanzania, and Mozambique. It passes through approximately 14 countries including Ethiopia, Kenya, Tanzania, Uganda, Rwanda, Malawi, and Mozambique. The Great Rift Valley contains many of Africa's great lakes, including Tanganyika, Malawi, and Albert.",
+      "memory_hook": "Great Rift Valley = Africa splitting apart. 14 countries, 6,000 km long. East Africa is literally separating from the rest of the continent along this fault line. In millions of years, the Horn of Africa will become a new island. You can watch a continent being born in real time."
+    },
+    {
+      "category": "Science & Nature",
+      "question": "What is the scientific name for the study of fossils?",
+      "options": [
+        "Archaeology",
+        "Geology",
+        "Stratigraphy",
+        "Paleontology"
+      ],
+      "answer": "Paleontology",
+      "explanation": "Paleontology is the study of prehistoric life through fossils — the preserved remains or traces of ancient organisms. It differs from archaeology (which focuses on human artifacts) and geology (the study of rocks and Earth's physical history). Paleontologists study everything from dinosaurs to ancient plants, insects, and microorganisms, using fossils to understand the history and evolution of life on Earth.",
+      "memory_hook": "Paleontology = study of fossils. Archaeology is about ancient humans; paleontology is about all ancient life. The earliest fossil evidence of life on Earth is 3.5 billion years old — microbial mats in ancient rocks. Dinosaur fossils are comparatively recent, only 230 million years old."
+    }
+  ]
+}

@@ -1,0 +1,161 @@
+{
+  "date": "2026-07-31",
+  "questions": [
+    {
+      "category": "History",
+      "question": "The Titanic sank in which year?",
+      "options": [
+        "1906",
+        "1909",
+        "1912",
+        "1915"
+      ],
+      "answer": "1912",
+      "explanation": "The RMS Titanic sank on April 15, 1912, after striking an iceberg in the North Atlantic Ocean on its maiden voyage from Southampton to New York. About 1,500 of the 2,224 passengers and crew died. The disaster led to major changes in maritime regulations, including requiring ships to carry enough lifeboats for everyone aboard.",
+      "memory_hook": "Titanic sank in 1912. Maiden voyage. 1,500 deaths. The ship was said to be unsinkable by the press — the White Star Line itself never made that claim. Four days into its first trip."
+    },
+    {
+      "category": "History",
+      "question": "Who was the first woman to win a Nobel Prize, having won two (in Physics and Chemistry)?",
+      "options": [
+        "Rosalind Franklin",
+        "Lise Meitner",
+        "Marie Curie",
+        "Dorothy Hodgkin"
+      ],
+      "answer": "Marie Curie",
+      "explanation": "Marie Curie won the Nobel Prize in Physics (1903, shared) for her work on radioactivity, and the Nobel Prize in Chemistry (1911) for the discovery of radium and polonium. She is the only person to win Nobel Prizes in two different scientific disciplines. Born in Poland as Maria Sklodowska, she moved to Paris to study, where women could attend university.",
+      "memory_hook": "Marie Curie = two Nobel Prizes, two different sciences. Physics and Chemistry. Still the only person to accomplish this. She had to move to France to attend university because Poland didn't allow women in higher education."
+    },
+    {
+      "category": "History",
+      "question": "The atomic bombs dropped on Japan in August 1945 ended World War II. On which two cities were they dropped?",
+      "options": [
+        "Tokyo and Osaka",
+        "Hiroshima and Nagasaki",
+        "Kyoto and Hiroshima",
+        "Nagasaki and Tokyo"
+      ],
+      "answer": "Hiroshima and Nagasaki",
+      "explanation": "The United States dropped an atomic bomb on Hiroshima on August 6, 1945, and another on Nagasaki on August 9, 1945. Hiroshima's bomb ('Little Boy') killed approximately 70,000-80,000 immediately; Nagasaki's ('Fat Man') killed about 40,000 immediately. Japan's Emperor Hirohito announced surrender on August 15, ending World War II. The bombings remain the only use of nuclear weapons in warfare.",
+      "memory_hook": "Hiroshima (Aug 6) then Nagasaki (Aug 9), then Japan surrendered. Three days between the bombs. The only nuclear weapons ever used in war. The decision is still debated by historians today."
+    },
+    {
+      "category": "History",
+      "question": "The construction of the Great Wall of China was started during which dynasty to protect against northern invaders?",
+      "options": [
+        "Han Dynasty",
+        "Tang Dynasty",
+        "Ming Dynasty",
+        "Qin Dynasty"
+      ],
+      "answer": "Qin Dynasty",
+      "explanation": "The first sections of the Great Wall were built during the Qin Dynasty (221-206 BC) under Emperor Qin Shi Huang, who unified China and ordered the connection of existing walls to form a northern frontier defense. Most of the wall visible today was built during the Ming Dynasty (1368-1644). The wall stretches over 20,000 km and took hundreds of years and millions of workers to build.",
+      "memory_hook": "Great Wall started in the Qin Dynasty. Most of what tourists see today is Ming Dynasty. It took over 1,000 years of building across multiple dynasties — no single emperor built the whole thing."
+    },
+    {
+      "category": "Sports",
+      "question": "Which swimmer holds the record for the most Olympic medals of all time?",
+      "options": [
+        "Mark Spitz",
+        "Ian Thorpe",
+        "Ryan Lochte",
+        "Michael Phelps"
+      ],
+      "answer": "Michael Phelps",
+      "explanation": "Michael Phelps won 28 Olympic medals (23 gold, 3 silver, 2 bronze) across four Olympic Games from 2000 to 2016, making him the most decorated Olympian in history. He won 8 gold medals at the 2008 Beijing Olympics alone, beating the single-Games record. He competed in multiple individual and relay events simultaneously.",
+      "memory_hook": "Phelps = 28 Olympic medals, 23 gold. No one is close. At the 2008 Beijing Olympics he won 8 golds in one Games. His arm span (193 cm) exceeds his height, giving him a physical advantage."
+    },
+    {
+      "category": "Sports",
+      "question": "In cricket, what is the maximum number of balls in an 'over'?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "8"
+      ],
+      "answer": "6",
+      "explanation": "An over in cricket consists of 6 legal deliveries bowled by the same bowler from one end of the pitch. After each over, a different bowler delivers from the other end. If a bowler delivers a wide or no-ball, an additional delivery is required. The number of overs in a match varies: Test matches have unlimited overs across 5 days, while T20 matches have just 20 overs per side.",
+      "memory_hook": "Cricket over = 6 balls. One bowler, one end, 6 deliveries. Then switch ends, different bowler. In T20 cricket, each team gets just 20 overs (120 balls) total — which is why it only takes 3 hours."
+    },
+    {
+      "category": "Sports",
+      "question": "What is the only Grand Slam tennis tournament played on clay courts?",
+      "options": [
+        "Australian Open",
+        "US Open",
+        "Wimbledon",
+        "French Open"
+      ],
+      "answer": "French Open",
+      "explanation": "The French Open (Roland Garros) is the only Grand Slam tournament played on clay courts. Clay slows the ball down significantly compared to grass (Wimbledon) or hard courts (US Open, Australian Open), rewarding baseline players who can sustain long rallies. Rafael Nadal has won Roland Garros a record 14 times, making him the undisputed 'King of Clay.'",
+      "memory_hook": "French Open = only Grand Slam on clay. Slower game, longer rallies. Rafa Nadal won it 14 times — he is so dominant on clay that losing there felt like a minor earthquake."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "'Lose Yourself' by Eminem was the first rap song to win the Academy Award for Best Original Song. From which film?",
+      "options": [
+        "8 Mile",
+        "Hustle & Flow",
+        "Straight Outta Compton",
+        "Boyz n the Hood"
+      ],
+      "answer": "8 Mile",
+      "explanation": "'Lose Yourself' won the Academy Award for Best Original Song in 2003, taken from Eminem's semi-autobiographical film 8 Mile (2002). Eminem did not attend the ceremony and was reportedly asleep when the award was announced. The song topped charts in 11 countries and is considered one of the greatest rap songs ever written.",
+      "memory_hook": "'Lose Yourself' = first rap song to win an Oscar. Eminem slept through the ceremony. From 8 Mile — a movie about Eminem's own story of coming up in Detroit."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Which 1977 George Lucas film launched one of the most successful film franchises in history?",
+      "options": [
+        "THX 1138",
+        "American Graffiti",
+        "Raiders of the Lost Ark",
+        "Star Wars"
+      ],
+      "answer": "Star Wars",
+      "explanation": "Star Wars (later subtitled A New Hope) was released on May 25, 1977, and became a cultural phenomenon. It was groundbreaking for its special effects, sound design, and mythological storytelling. It spawned 11 sequel and prequel films, animated series, theme parks, and merchandise that has generated over $70 billion in revenue — the highest-grossing franchise in history at the time.",
+      "memory_hook": "Star Wars, 1977. George Lucas. Studios rejected it repeatedly before Fox took a chance. Lucas gave up his director's fee in exchange for merchandising rights — that decision made him a billionaire."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Which musician is known as the 'King of Rock and Roll'?",
+      "options": [
+        "Chuck Berry",
+        "Jerry Lee Lewis",
+        "Little Richard",
+        "Elvis Presley"
+      ],
+      "answer": "Elvis Presley",
+      "explanation": "Elvis Presley earned the title 'King of Rock and Roll' through his pioneering fusion of country, blues, and gospel music in the 1950s. He recorded hits including 'Hound Dog,' 'Jailhouse Rock,' and 'Love Me Tender,' and starred in 33 films. His hip-swiveling performance style was considered scandalous on television in the 1950s. He died in 1977 at age 42.",
+      "memory_hook": "Elvis = King of Rock and Roll. His TV appearances were so scandalous they filmed him from the waist up. He took Black musical traditions and brought them to white mainstream America — which made him famous and raises ongoing questions about credit and appropriation."
+    },
+    {
+      "category": "Geography",
+      "question": "The Rhine River flows through Germany and empties into which sea?",
+      "options": [
+        "Baltic Sea",
+        "Black Sea",
+        "Mediterranean Sea",
+        "North Sea"
+      ],
+      "answer": "North Sea",
+      "explanation": "The Rhine originates in the Swiss Alps and flows approximately 1,230 km through Switzerland, Austria, Liechtenstein, Germany, France, and the Netherlands before emptying into the North Sea. It passes through several major European cities including Basel, Cologne, and Rotterdam. The Rhine has been a central artery of European trade and culture for millennia.",
+      "memory_hook": "Rhine flows to the North Sea. Starts in the Swiss Alps, ends in the Netherlands. Major European trade route for 2,000 years — Romans, medieval merchants, and modern shipping all used it."
+    },
+    {
+      "category": "Science & Nature",
+      "question": "What is the term for an animal that eats both plants and meat?",
+      "options": [
+        "Herbivore",
+        "Carnivore",
+        "Detritivore",
+        "Omnivore"
+      ],
+      "answer": "Omnivore",
+      "explanation": "Omnivores eat both plant and animal matter. Humans are omnivores. So are bears, pigs, raccoons, and crows. The flexibility to eat a wide range of foods is a major evolutionary advantage — omnivores can adapt to varied environments and food availability. In contrast, strict carnivores (like obligate cats) and herbivores can struggle when their preferred food sources are scarce.",
+      "memory_hook": "Omnivore = eats everything. Herbivore = plants only. Carnivore = meat only. Humans are omnivores — we evolved to eat whatever was available. It's why we can live everywhere from the Arctic to the tropics."
+    }
+  ]
+}

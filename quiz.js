@@ -1,16 +1,16 @@
 /* ===========================
-   FACT ROYALE — Quiz Logic
+   FACT ROYALE | Quiz Logic
    =========================== */
 
 // ── Fun Facts ──────────────────────────────────────────
-// 365 facts — one per day, cycling annually by day-of-year.
+// 365 facts, one per day, cycling annually by day-of-year.
 const FUN_FACTS = [
   "Cleopatra lived closer in time to the Moon landing than to the construction of the Great Pyramid.",
   "Oxford University is older than the Aztec Empire.",
   "A day on Venus is longer than a year on Venus.",
-  "The shortest war in history lasted 38–45 minutes: the Anglo-Zanzibar War of 1896.",
+  "The shortest war in history lasted 38 to 45 minutes: the Anglo-Zanzibar War of 1896.",
   "Scotland's national animal is the unicorn.",
-  "Nintendo was founded in 1889 — originally as a playing card company.",
+  "Nintendo was founded in 1889. Originally as a playing card company.",
   "The Eiffel Tower grows about 6 inches taller in summer due to thermal expansion.",
   "Honey never spoils. Archaeologists found 3,000-year-old honey in Egyptian tombs that was still edible.",
   "Bananas are berries, but strawberries are not.",
@@ -20,13 +20,13 @@ const FUN_FACTS = [
   "Octopuses have three hearts, nine brains, and blue blood.",
   "There are more possible games of chess than atoms in the observable universe.",
   "Alaska is simultaneously the westernmost and easternmost state in the US.",
-  "The Great Wall of China is not visible from space with the naked eye — that's a persistent myth.",
+  "The Great Wall of China is not visible from space with the naked eye. That's a persistent myth.",
   "The first known computer bug was a real bug: a moth found in a Harvard relay in 1947.",
   "The Hawaiian alphabet has only 13 letters.",
-  "The average person walks roughly 100,000 miles in their lifetime — about four trips around the Earth.",
+  "The average person walks roughly 100,000 miles in their lifetime. About four trips around the Earth.",
   "Sharks are older than trees. Sharks have existed ~450 million years; trees for only ~350 million.",
   "A group of flamingos is called a flamboyance.",
-  "The word 'quiz' has no agreed-upon origin — its etymology is genuinely unknown.",
+  "The word 'quiz' has no agreed-upon origin. Its etymology is genuinely unknown.",
   "Humans share about 60% of their DNA with bananas.",
   "Marie Curie's notebooks are still radioactive. Visitors must sign a waiver to view them.",
   "The total weight of all ants on Earth is roughly comparable to the total weight of all humans.",
@@ -36,7 +36,7 @@ const FUN_FACTS = [
   "Pope John Paul II was an honorary Harlem Globetrotter.",
   "A flock of crows is called a murder. A group of owls is called a parliament.",
   "The average cloud weighs about 1.1 million pounds.",
-  "Cows have regional accents — their moos differ depending on the herd they grew up in.",
+  "Cows have regional accents. Their moos differ depending on the herd they grew up in.",
   "The longest English word typed using only the top row of a keyboard is 'typewriter.'",
   "A group of pugs is called a grumble.",
   "Pineapples take about two years to grow, and each plant produces roughly one per year.",
@@ -47,9 +47,9 @@ const FUN_FACTS = [
   "A jiffy is an actual unit of time: 1/100th of a second.",
   "Mosquitoes are the deadliest animals on Earth, responsible for more human deaths than any other creature.",
   "The moon is drifting away from Earth at about 1.5 inches per year.",
-  "There is a species of jellyfish considered biologically immortal — it can revert to its juvenile state.",
+  "There is a species of jellyfish considered biologically immortal. It can revert to its juvenile state.",
   "The average person spends about six months of their life waiting at red lights.",
-  "Figs are pollinated by wasps that die inside the fig — you eat them too.",
+  "Figs are pollinated by wasps that die inside the fig. You eat them too.",
   "It is impossible to hum while holding your nose closed.",
   "A single strand of spaghetti is called a spaghetto.",
   "The small pocket inside a jeans pocket was originally designed for pocket watches.",
@@ -57,12 +57,12 @@ const FUN_FACTS = [
   "There are more stars in the universe than grains of sand on all of Earth's beaches.",
   "The fingerprints of a koala are so similar to human fingerprints they have confused crime scene investigators.",
   "The world's oldest known recipe is for beer, from ancient Mesopotamia around 1800 BC.",
-  "The word 'salary' comes from the Latin 'salarium' — Roman soldiers were sometimes paid in salt.",
+  "The word 'salary' comes from the Latin 'salarium'. Roman soldiers were sometimes paid in salt.",
   "There are more fake flamingos in the world than real ones.",
   "A snail can sleep for three years at a time.",
-  "Rats laugh when tickled — but at a frequency humans can't hear without equipment.",
+  "Rats laugh when tickled. But at a frequency humans can't hear without equipment.",
   "The voices of Mickey Mouse and Minnie Mouse were married to each other in real life.",
-  "Sloths can hold their breath longer than dolphins — up to 40 minutes.",
+  "Sloths can hold their breath longer than dolphins. Up to 40 minutes.",
   "A group of cats is called a clowder.",
   "The hashtag symbol is officially called an octothorpe.",
   "Canada has more lakes than every other country in the world combined.",
@@ -78,67 +78,67 @@ const FUN_FACTS = [
   "Sea otters hold hands while sleeping so they don't drift apart.",
   "The world's oldest piece of chewing gum is about 9,000 years old.",
   "A dime has 118 ridges. A quarter has 119.",
-  "The Mona Lisa has no eyebrows — it was fashionable in Renaissance Florence to shave them.",
+  "The Mona Lisa has no eyebrows. It was fashionable in Renaissance Florence to shave them.",
   "Ancient Romans used urine as a mouthwash due to its ammonia content.",
   "The Hollywood sign originally read 'Hollywoodland.' The last four letters were removed in 1949.",
   "A group of jellyfish is called a smack.",
   "Venus is the only planet in our solar system that rotates clockwise.",
   "Elephants are the only animals that cannot jump.",
   "Bubble wrap was originally invented as wallpaper.",
-  "Starfish have no brain and no blood — they pump seawater through their bodies instead.",
+  "Starfish have no brain and no blood. They pump seawater through their bodies instead.",
   "The tongue print of every person is unique, just like fingerprints.",
   "Pigeons can tell the difference between a Monet and a Picasso.",
   "The king of hearts is the only king in a standard deck of cards without a mustache.",
   "Almonds are a member of the peach family.",
   "A group of pandas is called an embarrassment.",
   "An ostrich's eye is bigger than its brain.",
-  "The first oranges weren't orange — in tropical climates, ripe oranges stay green.",
+  "The first oranges weren't orange. In tropical climates, ripe oranges stay green.",
   "Tigers have striped skin, not just striped fur. No two tigers have the same stripe pattern.",
   "A cat has 32 muscles in each ear.",
-  "Hippos produce a natural sunscreen — a red oily substance that also acts as an antibiotic.",
+  "Hippos produce a natural sunscreen. A red oily substance that also acts as an antibiotic.",
   "The total number of possible ways to arrange a deck of 52 cards exceeds the number of atoms on Earth.",
   "Abraham Lincoln was a licensed bartender. He co-owned a tavern in Illinois.",
   "The first product to have a barcode scanned was a pack of Wrigley's chewing gum in 1974.",
-  "Humans are bioluminescent — we emit light, but it's 1,000 times too faint to see.",
+  "Humans are bioluminescent. We emit light, but it's 1,000 times too faint to see.",
   "In 10 minutes, a hurricane releases more energy than all the world's nuclear weapons combined.",
   "A crocodile cannot stick its tongue out.",
   "The kangaroo cannot walk backwards.",
-  "Water can boil and freeze at the same time — this is called the triple point.",
+  "Water can boil and freeze at the same time. This is called the triple point.",
   "The word 'robot' comes from the Czech 'robota,' meaning forced labor or drudgery.",
   "A group of ravens is called a conspiracy.",
-  "In space, astronauts cannot cry — tears form spheres and float away instead of running down the face.",
-  "Saturn is less dense than water — it would float if you had a big enough bathtub.",
+  "In space, astronauts cannot cry. Tears form spheres and float away instead of running down the face.",
+  "Saturn is less dense than water. It would float if you had a big enough bathtub.",
   "A group of rhinos is called a crash.",
   "The tongue is the fastest-healing part of the human body.",
   "Crows remember human faces and hold grudges against people who have wronged them.",
   "The smell of freshly cut grass is actually a distress signal the grass releases when injured.",
   "A shrimp's heart is in its head.",
   "There is a town in Norway called Å.",
-  "The word 'muscle' comes from the Latin for 'little mouse' — Romans thought flexing muscles looked like a mouse moving under skin.",
+  "The word 'muscle' comes from the Latin for 'little mouse'. Romans thought flexing muscles looked like a mouse moving under skin.",
   "Turtles can breathe through their rear ends. It's called cloacal respiration.",
   "A group of hedgehogs is called a prickle.",
   "The average person will grow 590 miles of hair in their lifetime.",
   "The brain uses about 20% of the body's total energy, despite being only 2% of body weight.",
   "Coca-Cola would be green if the caramel coloring weren't added.",
-  "Goldfish have a memory of at least three months — the 'three-second memory' is a myth.",
-  "The national sport of Japan is not sumo — it's baseball.",
+  "Goldfish have a memory of at least three months. The 'three-second memory' is a myth.",
+  "The national sport of Japan is not sumo. It's baseball.",
   "If you removed all the empty space in atoms making up every human on Earth, we'd all fit in a sugar cube.",
   "A group of ferrets is called a business.",
   "Sloths are three times stronger than humans, pound for pound.",
   "The sentence 'The quick brown fox jumps over the lazy dog' uses every letter of the English alphabet.",
-  "The oldest living tree in the world is a bristlecone pine named Methuselah — over 5,000 years old.",
+  "The oldest living tree in the world is a bristlecone pine named Methuselah. Over 5,000 years old.",
   "Lightning strikes the Earth about 100 times per second.",
   "The longest recorded flight of a chicken is 13 seconds.",
   "Honey bees can recognize human faces.",
-  "Hot water freezes faster than cold water under certain conditions — this is called the Mpemba effect.",
+  "Hot water freezes faster than cold water under certain conditions. This is called the Mpemba effect.",
   "The human eye can distinguish approximately 10 million different colors.",
-  "A day on Mars is 24 hours and 37 minutes — the closest to Earth's day of any planet.",
-  "The first email was sent in 1971 by Ray Tomlinson to himself — he can no longer recall what it said.",
+  "A day on Mars is 24 hours and 37 minutes. The closest to Earth's day of any planet.",
+  "The first email was sent in 1971 by Ray Tomlinson to himself. He can no longer recall what it said.",
   "Surgeons who play video games make 37% fewer errors than surgeons who don't.",
   "The diameter of the Milky Way is about 100,000 light-years. Light takes 100,000 years to cross it.",
   "A group of butterflies is called a kaleidoscope.",
   "The human body contains enough iron to make a 3-inch nail.",
-  "Antarctica is the driest, windiest, and coldest continent — and is technically a desert.",
+  "Antarctica is the driest, windiest, and coldest continent. And is technically a desert.",
   "The song 'Happy Birthday to You' was copyrighted for decades and only entered the public domain in 2016.",
   "Grapes explode when you put them in a microwave. Scientists actually studied this.",
   "A group of gorillas is called a troop.",
@@ -146,52 +146,52 @@ const FUN_FACTS = [
   "One in every 5,000 North Atlantic lobsters is born blue.",
   "A group of giraffes is called a tower.",
   "The world record for the longest time without sleep is 11 days.",
-  "The electric eel is not actually an eel — it's more closely related to carp and catfish.",
+  "The electric eel is not actually an eel. It's more closely related to carp and catfish.",
   "Humans are the only animals known to cook their food.",
   "The Empire State Building has its own zip code: 10118.",
   "Rubber bands last longer when refrigerated.",
   "A group of kangaroos is called a mob.",
   "The average person laughs about 13 times a day.",
-  "Catfish have more taste buds than any other animal — up to 175,000 across their entire body.",
+  "Catfish have more taste buds than any other animal. Up to 175,000 across their entire body.",
   "Polar bears have black skin beneath their white fur.",
-  "In ancient Egypt, both men and women wore eyeliner — primarily to repel flies.",
+  "In ancient Egypt, both men and women wore eyeliner. Primarily to repel flies.",
   "A group of alligators is called a congregation.",
   "The longest time between two twins being born is 87 days.",
-  "The tallest mountain on Earth measured from base to peak is Mauna Kea in Hawaii — not Everest.",
+  "The tallest mountain on Earth measured from base to peak is Mauna Kea in Hawaii. Not Everest.",
   "The world's most expensive spice by weight is saffron.",
   "A group of foxes is called a skulk.",
   "The original Monopoly was designed to show how rents enrich landlords and impoverish tenants.",
   "Toilet paper orientation was specified in the 1891 patent: the sheet should go over the top.",
   "There is enough carbon in the human body to fill about 9,000 pencils.",
   "The word 'nerd' was first used in a Dr. Seuss book in 1950.",
-  "Sloths only descend from trees about once a week — to urinate and defecate.",
+  "Sloths only descend from trees about once a week. To urinate and defecate.",
   "The color orange was named after the fruit. Before oranges arrived in Europe, the color was called 'yellow-red.'",
   "A group of sharks is called a shiver.",
-  "The sound of a whip cracking is a sonic boom — the tip breaks the sound barrier.",
-  "Your body replaces most of its cells over 7–10 years, but neurons and lens cells last a lifetime.",
+  "The sound of a whip cracking is a sonic boom. The tip breaks the sound barrier.",
+  "Your body replaces most of its cells over 7 to 10 years, but neurons and lens cells last a lifetime.",
   "There are more microorganisms in a tablespoon of soil than there are people on Earth.",
-  "The longest word in the English language is pneumonoultramicroscopicsilicovolcanoconiosis — a lung disease.",
+  "The longest word in the English language is pneumonoultramicroscopicsilicovolcanoconiosis. A lung disease.",
   "The dot at the bottom of a question mark descends from a tiny 'o,' short for 'quaestio' (Latin for question).",
-  "Humans share 99% of their DNA with chimpanzees — and about 85% with mice.",
+  "Humans share 99% of their DNA with chimpanzees. And about 85% with mice.",
   "The Great Barrier Reef is the largest living structure on Earth and is visible from space.",
   "The shortest flight in the world lasts about 90 seconds: between Westray and Papa Westray in Scotland.",
   "Lighters were invented before matches. Lighters appeared in 1823; safety matches not until 1844.",
-  "M&Ms stand for Mars and Murrie — the two men who invented them.",
+  "M&Ms stand for Mars and Murrie. The two men who invented them.",
   "Identical twins don't have identical fingerprints.",
-  "The human stomach completely renews its lining every 2–3 days to protect against its own acid.",
+  "The human stomach completely renews its lining every 2 to 3 days to protect against its own acid.",
   "Your nose can detect over 1 trillion different smells.",
   "The longest English word without a repeated letter is 'uncopyrightable.'",
-  "There is no sound in space — sound requires a medium like air or water to travel.",
+  "There is no sound in space. Sound requires a medium like air or water to travel.",
   "The 100 folds in a chef's hat traditionally represent 100 ways to cook an egg.",
   "Japan has more vending machines per capita than any other country.",
-  "Ants don't sleep in the way humans do — they take hundreds of short naps per day.",
+  "Ants don't sleep in the way humans do. They take hundreds of short naps per day.",
   "The world's bestselling book is the Bible. The second bestselling is 'Don Quixote.'",
   "A group of meerkats is called a mob.",
   "Every human being starts life as a single cell smaller than a grain of sand.",
   "The lifespan of a taste bud is about 10 days.",
   "Pigs cannot look up at the sky due to the anatomy of their neck.",
   "The first webcam was created to monitor a coffee pot at Cambridge University.",
-  "Whale songs are gradually getting lower in pitch each year — scientists aren't entirely sure why.",
+  "Whale songs are gradually getting lower in pitch each year. Scientists aren't entirely sure why.",
   "The word 'budget' comes from the French 'bougette,' meaning a small leather bag.",
   "A group of sloths is called a bed.",
   "More people are killed by cows each year than by sharks.",
@@ -199,49 +199,49 @@ const FUN_FACTS = [
   "The surface area of a human lung is roughly equal to a tennis court.",
   "The average person spends about a year of their life sitting on the toilet.",
   "Polar bears are predominantly left-pawed.",
-  "The Voyager 1 spacecraft is the farthest human-made object from Earth — now over 23 billion km away.",
+  "The Voyager 1 spacecraft is the farthest human-made object from Earth. Now over 23 billion km away.",
   "The Sahara Desert was green and full of lakes as recently as 11,000 years ago.",
-  "The human body glows in the dark — we emit biophotons far too faint for the eye to detect.",
+  "The human body glows in the dark. We emit biophotons far too faint for the eye to detect.",
   "Chocolate was once used as currency by the Aztecs.",
   "In 1969, Apollo 11 had less computing power than a modern pocket calculator.",
-  "A strawberry is not a berry, but a tomato is — botanically speaking.",
+  "A strawberry is not a berry, but a tomato is. Botanically speaking.",
   "The brain is more active at night during sleep than during the day.",
-  "Lobsters were once considered the food of the poor — American prisoners complained about being fed it too often.",
+  "Lobsters were once considered the food of the poor. American prisoners complained about being fed it too often.",
   "The average pencil can draw a line 35 miles long or write about 45,000 words.",
-  "The Canary Islands are named after dogs, not birds. The Latin name was 'Canariae Insulae' — Islands of Dogs.",
+  "The Canary Islands are named after dogs, not birds. The Latin name was 'Canariae Insulae'. Islands of Dogs.",
   "In ancient Rome, being left-handed was considered sinister. 'Sinister' means left in Latin.",
   "Paper money was invented in China around the 7th century AD.",
   "Every time you shuffle a deck of cards, the order is almost certainly unique in human history.",
   "People who are blind from birth report seeing color in their dreams based on emotional associations.",
   "The first item ever sold on eBay was a broken laser pointer. The buyer knew it was broken.",
-  "Turkeys can blush — their heads turn red when excited or angry.",
+  "Turkeys can blush. Their heads turn red when excited or angry.",
   "The plastic tips on shoelaces are called aglets.",
   "Sound travels about four times faster through water than through air.",
   "A group of porcupines is called a prickle.",
   "The human thigh bone is stronger than concrete.",
   "In 1999, PayPal was named one of the top ten worst business ideas of the year.",
   "The oldest known living organism is a sea grass colony in the Mediterranean, estimated at 100,000 years old.",
-  "Finland has more saunas per capita than any other country — about one for every two people.",
+  "Finland has more saunas per capita than any other country. About one for every two people.",
   "A group of turtles is called a bale.",
-  "The world's shortest river is the D River in Oregon — 120 feet long.",
+  "The world's shortest river is the D River in Oregon. 120 feet long.",
   "Seahorses are monogamous, mate for life, and hold tails while traveling together.",
   "Approximately 10% of all photos ever taken were taken in the past year.",
   "Olympus Mons on Mars is three times taller than Mount Everest.",
   "A group of penguins on land is called a waddle.",
   "The average person blinks over 10 million times a year.",
   "The Great Fire of London in 1666 destroyed 13,200 houses but killed fewer than 10 people.",
-  "Ketchup was once sold in the US as medicine — marketed as a cure for indigestion.",
+  "Ketchup was once sold in the US as medicine. Marketed as a cure for indigestion.",
   "A human sneeze travels at about 100 mph and can send 100,000 germs into the air.",
   "The first text message ever sent was 'Merry Christmas,' sent in December 1992.",
   "A group of otters is called a romp.",
-  "Astronauts grow about 2 inches taller in space — the spine decompresses without gravity.",
+  "Astronauts grow about 2 inches taller in space. The spine decompresses without gravity.",
   "Jellyfish have been around for over 500 million years, making them the oldest multi-organ animal.",
   "Cats can make over 100 different sounds. Dogs can make about 10.",
   "Every year, more people are killed by vending machines falling on them than by sharks.",
   "The platypus is one of the only mammals that produces venom. Males have venomous spurs on their hind legs.",
   "In the 1800s, people feared passenger trains would suffocate riders at 30 mph.",
   "A group of parrots is called a pandemonium.",
-  "The moon has moonquakes — triggered by Earth's gravitational pull.",
+  "The moon has moonquakes. Triggered by Earth's gravitational pull.",
   "Beethoven was completely deaf when he composed his 9th Symphony.",
   "French was the official language of England for about 300 years after the Norman Conquest in 1066.",
   "Trees communicate through a network of fungal connections underground, sometimes called the 'Wood Wide Web.'",
@@ -251,43 +251,43 @@ const FUN_FACTS = [
   "In the early 1900s, pink was considered masculine and blue was considered feminine.",
   "111,111,111 × 111,111,111 = 12,345,678,987,654,321.",
   "There are more Lego mini-figures in existence than there are people on Earth.",
-  "Giraffes only sleep about 30 minutes per day — in short bursts of a few minutes.",
-  "You cannot sneeze with your eyes open — the reflex forces them shut.",
+  "Giraffes only sleep about 30 minutes per day. In short bursts of a few minutes.",
+  "You cannot sneeze with your eyes open. The reflex forces them shut.",
   "In 1952, Albert Einstein was offered the presidency of Israel. He declined.",
   "Python the programming language was named after Monty Python, not the snake.",
   "The longest English word typed using only the left hand on a standard keyboard is 'stewardesses.'",
-  "Every continent on Earth ends with the same letter it starts with — except Antarctica.",
-  "The Twitter bird is named Larry — after basketball player Larry Bird.",
+  "Every continent on Earth ends with the same letter it starts with. Except Antarctica.",
+  "The Twitter bird is named Larry. After basketball player Larry Bird.",
   "More than 40% of adults sleep in the fetal position.",
   "Slugs have four noses.",
   "More Monopoly money is printed each year than real US currency.",
   "There are 293 ways to make change for a dollar in US coins.",
-  "Roosters have a mechanism that partially blocks their own crow — otherwise they'd deafen themselves.",
+  "Roosters have a mechanism that partially blocks their own crow. Otherwise they'd deafen themselves.",
   "7% of all humans who have ever lived are alive today.",
-  "Chameleons change color primarily to communicate emotions — not to camouflage.",
+  "Chameleons change color primarily to communicate emotions. Not to camouflage.",
   "James Harrison of Australia donated blood for 60 years. His rare antibodies have saved over 2.4 million babies.",
   "A raisin dropped in a glass of champagne will repeatedly rise and fall, carried by carbonation.",
-  "The Eiffel Tower was meant to be temporary — it was scheduled to be torn down in 1909.",
+  "The Eiffel Tower was meant to be temporary. It was scheduled to be torn down in 1909.",
   "Sand from the Sahara Desert regularly blows across the Atlantic and fertilizes the Amazon rainforest.",
   "In a room of 23 people, there is a 50% chance two share the same birthday.",
   "Tardigrades (water bears) can survive in a vacuum, extreme radiation, and temperatures near absolute zero.",
   "The Colosseum in Rome could be flooded to stage mock naval battles.",
   "A group of ladybugs is called a loveliness.",
-  "Time moves faster at the top of a mountain than at sea level — gravity slows time down.",
+  "Time moves faster at the top of a mountain than at sea level. Gravity slows time down.",
   "It would take about 1.3 million Earths to fill the volume of the Sun.",
-  "The world's quietest room is an anechoic chamber in Minnesota — most people can't tolerate it for more than 45 minutes.",
+  "The world's quietest room is an anechoic chamber in Minnesota. Most people can't tolerate it for more than 45 minutes.",
   "There is a volcano on Mars called Olympus Mons that is three times taller than Everest.",
   "The first selfie in history was taken in 1839 by Robert Cornelius, a Philadelphia photographer.",
   "Playing chess improves children's academic performance across subjects, according to multiple studies.",
   "There are more public libraries in the US than McDonald's.",
-  "Ketchup was invented in China — originally a fermented fish sauce called 'ke-tsiap.'",
+  "Ketchup was invented in China. Originally a fermented fish sauce called 'ke-tsiap.'",
   "A group of zebras is called a dazzle.",
   "A group of capybaras is called a herd. Capybaras are the world's largest rodents.",
   "The world record for the longest time holding breath underwater is over 24 minutes.",
   "A group of cockroaches is called an intrusion.",
   "The original name for the search engine Google was 'BackRub.'",
   "A group of crabs is called a cast.",
-  "There is a species of ant that explodes itself to defend its colony — Camponotus saundersi.",
+  "There is a species of ant that explodes itself to defend its colony. Camponotus saundersi.",
   "The average person will spend six months of their life dreaming.",
   "Chewing gum while cutting onions helps prevent tears by making you breathe through your mouth.",
   "A group of swans in flight is called a wedge.",
@@ -298,42 +298,42 @@ const FUN_FACTS = [
   "A group of hyenas is called a cackle.",
   "A group of armadillos is called a roll.",
   "A group of bears is called a sleuth.",
-  "Glass is technically an amorphous solid — not a liquid, despite the old myth.",
+  "Glass is technically an amorphous solid. Not a liquid, despite the old myth.",
   "A group of parakeets is called a company.",
   "A group of turkeys is called a rafter.",
   "A group of horses is called a herd or a string.",
   "A group of goldfish is called a troubling.",
   "The inventor of intermittent windshield wipers fought Ford in court for 30 years and won $30 million.",
-  "The moon causes tides not just in the ocean but in Earth's crust — the ground moves by several inches daily.",
+  "The moon causes tides not just in the ocean but in Earth's crust. The ground moves by several inches daily.",
   "Tardigrades have survived five mass extinction events.",
   "The average adult human body contains about 37 trillion cells.",
   "Elephants are the only animals known to recognize themselves in a mirror, alongside dolphins, great apes, and magpies.",
-  "A newborn baby has about 270 bones. Adults have 206 — many fuse together as we grow.",
+  "A newborn baby has about 270 bones. Adults have 206. Many fuse together as we grow.",
   "The longest recorded hiccup attack lasted 68 years.",
   "The 'airplane mode' setting got its name because early mobile signals actually interfered with aircraft instruments.",
   "A group of eagles is called a convocation.",
-  "Hot air rises and cold air sinks — but in a supercell thunderstorm, air moves faster horizontally than vertically.",
+  "Hot air rises and cold air sinks. But in a supercell thunderstorm, air moves faster horizontally than vertically.",
   "The Amazon River discharges more water into the ocean than the next seven largest rivers combined.",
   "A group of monkeys is called a troop.",
-  "The Mona Lisa was stolen from the Louvre in 1911 and missing for two years — making it far more famous upon return.",
+  "The Mona Lisa was stolen from the Louvre in 1911 and missing for two years. Making it far more famous upon return.",
   "A group of wolves is called a pack.",
   "The bones of a pigeon weigh less than its feathers.",
   "Only two countries in the world have green in their flags that does not appear in a horizontal stripe: Brazil and Jamaica.",
   "A group of coyotes is called a band.",
-  "The first alarm clock could only ring at 4 a.m. — invented in 1787 by Levi Hutchins, who needed to wake for work.",
+  "The first alarm clock could only ring at 4 a.m.. Invented in 1787 by Levi Hutchins, who needed to wake for work.",
   "A group of lemurs is called a conspiracy.",
-  "The blue whale is the loudest animal on Earth — its calls can reach 188 decibels.",
+  "The blue whale is the loudest animal on Earth. Its calls can reach 188 decibels.",
   "A group of seagulls is called a colony.",
-  "The word 'galaxy' comes from the Greek word for milk — the Milky Way looked like a stream of milk in the sky.",
+  "The word 'galaxy' comes from the Greek word for milk. The Milky Way looked like a stream of milk in the sky.",
   "A group of flamingos in flight is called a stand.",
   "The human nose warms and filters about 400 cubic feet of air per day.",
   "A group of dolphins is called a pod.",
   "Women blink about twice as often as men.",
   "A group of penguins in the water is called a raft.",
-  "Newborn babies are color-blind at birth — they see primarily in black, white, and shades of gray.",
+  "Newborn babies are color-blind at birth. They see primarily in black, white, and shades of gray.",
   "A group of eagles is called a convocation.",
   "The Great Pyramid of Giza was the world's tallest man-made structure for over 3,800 years.",
-  "The first photograph of a person was taken in 1838 — a man getting his shoes shined on a Paris boulevard.",
+  "The first photograph of a person was taken in 1838. A man getting his shoes shined on a Paris boulevard.",
   "A group of whales is called a pod.",
   "If the human brain were a computer, it could perform about 38,000 trillion operations per second.",
   "A group of bees is called a swarm.",
@@ -347,28 +347,28 @@ const FUN_FACTS = [
   "Humans are technically closer in DNA to mushrooms than mushrooms are to plants.",
   "A group of finches is called a charm.",
   "The average American walks about 100,000 steps per week.",
-  "There is a river in the Philippines that is navigable by ocean-going ships for 24 km — the Cagayan River.",
+  "There is a river in the Philippines that is navigable by ocean-going ships for 24 km. The Cagayan River.",
   "A group of lemurs is called a conspiracy.",
   "Polar ice caps reflect about 80% of the sunlight that hits them back into space.",
   "A group of mice is called a mischief.",
-  "The human skeleton is completely renewed every 10 years — you're always growing new bones.",
+  "The human skeleton is completely renewed every 10 years. You're always growing new bones.",
   "A group of bats is called a colony or a cloud.",
   "The Sun accounts for 99.86% of all mass in our solar system.",
   "A group of squirrels is called a scurry.",
   "The ocean covers 71% of Earth's surface, but 95% of it remains unexplored.",
   "A group of pigs is called a sounder.",
   "Light from the Sun takes about 8 minutes and 20 seconds to reach Earth.",
-  "The word 'trivia' comes from the Latin 'trivium' — where three roads meet, a public place for idle chatter.",
-  "Hippos produce more milk than any other land mammal — up to 100 liters per day.",
+  "The word 'trivia' comes from the Latin 'trivium'. Where three roads meet, a public place for idle chatter.",
+  "Hippos produce more milk than any other land mammal. Up to 100 liters per day.",
   "A group of ravens gathering to mob a predator is called an unkindness.",
-  "The Eiffel Tower has a private apartment at the top — Gustave Eiffel kept it for himself.",
+  "The Eiffel Tower has a private apartment at the top. Gustave Eiffel kept it for himself.",
   "Elephants are the only animals that have a natural burial ritual for their dead.",
   "The first domain name ever registered was Symbolics.com, on March 15, 1985.",
   "A group of owlets is called a parliament in training.",
-  "Honey badgers have been documented using tools — dragging logs to climb over obstacles.",
+  "Honey badgers have been documented using tools. Dragging logs to climb over obstacles.",
   "The average person makes about 35,000 decisions every single day.",
   "Velcro was invented after a Swiss engineer noticed burrs sticking to his dog's fur.",
-  "Crocodiles cannot chew — they swallow rocks to help grind food in their stomachs.",
+  "Crocodiles cannot chew. They swallow rocks to help grind food in their stomachs.",
   "The original Xbox was so heavy that FedEx required a special shipping waiver for it.",
 ];
 
@@ -403,9 +403,11 @@ function shuffle(arr) {
 
 function getCategoryClass(category) {
   const c = category.toLowerCase();
-  if (c.includes('history'))            return 'cat-history';
-  if (c.includes('sport'))             return 'cat-sports';
-  if (c.includes('music') || c.includes('movie')) return 'cat-music';
+  if (c.includes('history'))                        return 'cat-history';
+  if (c.includes('sport'))                          return 'cat-sports';
+  if (c.includes('music') || c.includes('movie'))   return 'cat-music';
+  if (c.includes('geography') || c.includes('geo')) return 'cat-geography';
+  if (c.includes('science') || c.includes('nature')) return 'cat-science';
   return 'cat-default';
 }
 
@@ -661,10 +663,27 @@ function logPlayToFirestore(finalScore, total) {
 
 // ── Results ────────────────────────────────────────────
 
+function getResultsTitle(pct, streak) {
+  let title;
+  if (pct === 1)       title = 'Perfect Score! 👑';
+  else if (pct >= 0.8) title = 'Royale performance!';
+  else if (pct >= 0.6) title = 'Solid showing!';
+  else if (pct >= 0.4) title = 'Room to grow. Keep playing!';
+  else                 title = 'Nice effort!';
+
+  if (streak >= 100) return `${title}  |  ${streak} days straight 🏆`;
+  if (streak >= 50)  return `${title}  |  50 days running 🔥`;
+  if (streak >= 30)  return `${title}  |  One month in 🔥`;
+  if (streak >= 14)  return `${title}  |  ${streak} days straight 🔥`;
+  if (streak >= 10)  return `${title}  |  ${streak}-day streak 🔥`;
+  if (streak >= 7)   return `${title}  |  One week strong 🔥`;
+  return title;
+}
+
 function showResults() {
   const streak = saveResult(score);
 
-  // Log every play for metrics — signed in or not
+  // Log every play for metrics, signed in or not
   logPlayToFirestore(score, questions.length);
 
   // Submit to leaderboard if user is logged in (auth.js handles the guard)
@@ -675,13 +694,8 @@ function showResults() {
   showScreen('screen-results');
 
   // Title
-  const pct = score / questions.length;
-  let title = 'Nice effort!';
-  if (pct === 1)        title = 'Perfect Score! 👑';
-  else if (pct >= 0.8)  title = 'Royale performance!';
-  else if (pct >= 0.6)  title = 'Solid showing!';
-  else if (pct >= 0.4)  title = 'Room to grow — keep playing!';
-  document.getElementById('results-title').textContent = title;
+  document.getElementById('results-title').textContent =
+    getResultsTitle(score / questions.length, streak);
 
   // Score display
   document.getElementById('score-display').innerHTML =
@@ -766,13 +780,9 @@ function showResultsFromStorage() {
   window.scrollTo({ top: 0, behavior: 'smooth' });
 
   // Title
-  const pct = storedScore / storedTotal;
-  let title = 'Nice effort!';
-  if (pct === 1)       title = 'Perfect Score! 👑';
-  else if (pct >= 0.8) title = 'Royale performance!';
-  else if (pct >= 0.6) title = 'Solid showing!';
-  else if (pct >= 0.4) title = 'Room to grow. Keep playing!';
-  document.getElementById('results-title').textContent = title;
+  const streak = getStreak();
+  document.getElementById('results-title').textContent =
+    getResultsTitle(storedScore / storedTotal, streak);
 
   document.getElementById('score-display').innerHTML =
     `${storedScore}<span> / ${storedTotal}</span>`;
@@ -788,7 +798,6 @@ function showResultsFromStorage() {
     breakdown.appendChild(row);
   });
 
-  const streak = getStreak();
   if (streak > 1) {
     const streakRow = document.createElement('div');
     streakRow.className = 'breakdown-row';
@@ -929,9 +938,11 @@ function roundRect(ctx, x, y, rw, rh, r) {
 
 function getCatStyle(name) {
   const n = name.toLowerCase();
-  if (n.includes('history')) return { bg: 'rgba(245,158,11,0.2)',  text: '#f59e0b' };
-  if (n.includes('sport'))   return { bg: 'rgba(59,130,246,0.2)',  text: '#60a5fa' };
-  return                            { bg: 'rgba(168,85,247,0.2)',  text: '#c084fc' };
+  if (n.includes('history'))                          return { bg: 'rgba(245,158,11,0.2)',  text: '#f59e0b' };
+  if (n.includes('sport'))                            return { bg: 'rgba(59,130,246,0.2)',   text: '#60a5fa' };
+  if (n.includes('geography') || n.includes('geo'))   return { bg: 'rgba(34,211,238,0.2)',   text: '#22d3ee' };
+  if (n.includes('science') || n.includes('nature'))  return { bg: 'rgba(74,222,128,0.2)',   text: '#4ade80' };
+  return                                                     { bg: 'rgba(168,85,247,0.2)',   text: '#c084fc' };
 }
 
 function drawPills(ctx, totalW, centerY, categories) {
@@ -1129,279 +1140,4 @@ function drawWideCard(ctx, w, h, data) {
   const lc   = divX / 2;              // left column center
   const rx   = divX + 44;             // right column start
   const rEnd = w - 38;                // right column end
-  const rw   = rEnd - rx;
-
-  // LEFT: Brand + Score
-  ctx.textAlign = 'center';
-
-  ctx.font = '900 28px Nunito, sans-serif';
-  ctx.fillStyle = '#f0c040';
-  ctx.fillText('♛', lc, 56);
-
-  ctx.font = '800 22px Nunito, sans-serif';
-  ctx.fillStyle = '#f0c040';
-  ctx.fillText('FACT ROYALE', lc, 84);
-
-  ctx.font = '400 17px Nunito, sans-serif';
-  ctx.fillStyle = 'rgba(240,192,64,0.52)';
-  ctx.fillText(data.date, lc, 106);
-
-  // Score ring
-  const scoreCY = 265;
-  drawScoreRing(ctx, lc, scoreCY, 88);
-
-  ctx.font = '900 100px Nunito, sans-serif';
-  ctx.fillStyle = '#f0c040';
-  ctx.textAlign = 'center';
-  ctx.fillText(String(data.score), lc, scoreCY + 38);
-
-  ctx.font = '400 18px Nunito, sans-serif';
-  ctx.fillStyle = 'rgba(232,232,240,0.48)';
-  ctx.fillText('out of ' + data.total, lc, scoreCY + 62);
-
-  drawPctBadge(ctx, lc, scoreCY + 96, data.score, data.total);
-
-  // URL bottom-left
-  ctx.font = '700 15px Nunito, sans-serif';
-  ctx.fillStyle = 'rgba(240,192,64,0.5)';
-  ctx.textAlign = 'center';
-  ctx.fillText('♛  fact-royale.com', lc, h - 22);
-
-  // Vertical divider
-  ctx.save();
-  ctx.strokeStyle = 'rgba(240,192,64,0.18)';
-  ctx.lineWidth = 1;
-  ctx.beginPath();
-  ctx.moveTo(divX, 30);
-  ctx.lineTo(divX, h - 30);
-  ctx.stroke();
-  ctx.restore();
-
-  // RIGHT: Stats + Category bars (vertically centered)
-  let ry = 52;
-
-  if (data.rank) {
-    ctx.font = '600 18px Nunito, sans-serif';
-    ctx.fillStyle = 'rgba(232,232,240,0.75)';
-    ctx.textAlign = 'left';
-    ctx.fillText(data.rank, rx, ry); ry += 30;
-  }
-
-  if (data.streak > 1) {
-    ctx.font = '400 18px Nunito, sans-serif';
-    ctx.fillStyle = '#fbbf24';
-    ctx.textAlign = 'left';
-    ctx.fillText('🔥 ' + data.streak + '-day streak', rx, ry); ry += 30;
-  }
-
-  // Divider
-  ry += 6;
-  ctx.save();
-  ctx.strokeStyle = 'rgba(240,192,64,0.16)';
-  ctx.lineWidth = 1;
-  ctx.beginPath();
-  ctx.moveTo(rx, ry);
-  ctx.lineTo(rEnd, ry);
-  ctx.stroke();
-  ctx.restore();
-  ry += 20;
-
-  // BREAKDOWN label
-  ctx.font = '600 14px Nunito, sans-serif';
-  ctx.fillStyle = 'rgba(240,192,64,0.4)';
-  ctx.textAlign = 'left';
-  ctx.fillText('BREAKDOWN', rx, ry); ry += 22;
-
-  // Category bars
-  const barH = 8, barR = 4;
-  data.categories.forEach(cat => {
-    const style = getCatStyle(cat.name);
-    const ratio = cat.total > 0 ? cat.correct / cat.total : 0;
-
-    ctx.font = '400 18px Nunito, sans-serif';
-    ctx.fillStyle = 'rgba(232,232,240,0.65)';
-    ctx.textAlign = 'left';
-    ctx.fillText(cat.name, rx, ry);
-
-    ctx.font = '700 18px Nunito, sans-serif';
-    ctx.fillStyle = style.text;
-    ctx.textAlign = 'right';
-    ctx.fillText(`${cat.correct}/${cat.total}`, rEnd, ry);
-    ry += 14;
-
-    // Bar track
-    ctx.beginPath();
-    roundRect(ctx, rx, ry, rw, barH, barR);
-    ctx.fillStyle = 'rgba(255,255,255,0.08)';
-    ctx.fill();
-
-    // Bar fill
-    if (ratio > 0) {
-      ctx.beginPath();
-      roundRect(ctx, rx, ry, rw * ratio, barH, barR);
-      ctx.fillStyle = style.text;
-      ctx.globalAlpha = 0.65;
-      ctx.fill();
-      ctx.globalAlpha = 1;
-    }
-    ry += barH + 16;
-  });
-}
-
-function drawSquareCard(ctx, w, h, data) {
-  drawBg(ctx, w, h, [[0,'#090915'],[0.5,'#110c32'],[1,'#0a1524']]);
-  drawDotGrid(ctx, w, h);
-  drawTopAccent(ctx, w);
-
-  ctx.textAlign = 'center';
-  let y = 62;
-
-  ctx.font = '900 48px Nunito, sans-serif';
-  ctx.fillStyle = '#f0c040';
-  ctx.fillText('♛', w / 2, y); y += 56;
-
-  ctx.font = '800 24px Nunito, sans-serif';
-  ctx.fillStyle = '#f0c040';
-  ctx.fillText('FACT ROYALE', w / 2, y); y += 30;
-
-  ctx.font = '400 18px Nunito, sans-serif';
-  ctx.fillStyle = 'rgba(240,192,64,0.52)';
-  ctx.fillText(data.date, w / 2, y);
-
-  // Score ring
-  const scoreCY = 295;
-  drawScoreRing(ctx, w / 2, scoreCY, 88);
-
-  ctx.font = '900 108px Nunito, sans-serif';
-  ctx.fillStyle = '#f0c040';
-  ctx.textAlign = 'center';
-  ctx.fillText(String(data.score), w / 2, scoreCY + 40);
-
-  ctx.font = '400 20px Nunito, sans-serif';
-  ctx.fillStyle = 'rgba(232,232,240,0.48)';
-  ctx.fillText('out of ' + data.total, w / 2, scoreCY + 66);
-
-  drawPctBadge(ctx, w / 2, scoreCY + 100, data.score, data.total);
-
-  let sy = scoreCY + 148;
-  if (data.rank) {
-    ctx.font = '600 20px Nunito, sans-serif';
-    ctx.fillStyle = 'rgba(232,232,240,0.72)';
-    ctx.textAlign = 'center';
-    ctx.fillText(data.rank, w / 2, sy); sy += 32;
-  }
-  if (data.streak > 1) {
-    ctx.font = '400 20px Nunito, sans-serif';
-    ctx.fillStyle = '#fbbf24';
-    ctx.fillText('🔥 ' + data.streak + '-day streak', w / 2, sy); sy += 32;
-  }
-
-  drawHLine(ctx, w, sy + 12); sy += 34;
-  drawPills(ctx, w, sy + 28, data.categories);
-
-  ctx.font = '700 16px Nunito, sans-serif';
-  ctx.fillStyle = 'rgba(240,192,64,0.52)';
-  ctx.textAlign = 'center';
-  ctx.fillText('♛  fact-royale.com', w / 2, h - 22);
-}
-
-// ── Share actions ──────────────────────────────────────
-
-async function shareCardImage() {
-  const canvas = document.getElementById('share-canvas');
-  if (!canvas) return;
-  canvas.toBlob(async (blob) => {
-    const file = new File([blob], 'fact-royale-score.png', { type: 'image/png' });
-    if (navigator.share && navigator.canShare && navigator.canShare({ files: [file] })) {
-      try {
-        await navigator.share({
-          files: [file],
-          title: 'Fact Royale',
-          text: `I scored ${score}/${questions.length} on today's Fact Royale. fact-royale.com`
-        });
-      } catch (e) {
-        if (e.name !== 'AbortError') downloadCardImage();
-      }
-    } else {
-      downloadCardImage();
-    }
-  }, 'image/png');
-}
-
-function downloadCardImage() {
-  const canvas = document.getElementById('share-canvas');
-  if (!canvas) return;
-  const a = document.createElement('a');
-  a.download = `fact-royale-${todayKey}.png`;
-  a.href     = canvas.toDataURL('image/png');
-  a.click();
-}
-
-function shareScore() {
-  openShareModal();
-}
-
-// ── Share modal wiring ─────────────────────────────────
-
-function initShareModal() {
-  const modal = document.getElementById('share-modal');
-  if (!modal) return;
-
-  // Smart button labels: mobile gets native share sheet, desktop gets download
-  const hasNativeShare = !!(navigator.share && navigator.canShare);
-  const shareBtn = document.getElementById('btn-share-image');
-  const dlBtn    = document.getElementById('btn-download-image');
-  if (shareBtn) shareBtn.textContent = hasNativeShare ? 'Share Image' : 'Download Image';
-  if (dlBtn) dlBtn.style.display = hasNativeShare ? '' : 'none';
-
-  document.getElementById('share-modal-close')
-    .addEventListener('click', closeShareModal);
-
-  modal.addEventListener('click', (e) => {
-    if (e.target === modal) closeShareModal();
-  });
-
-  modal.querySelectorAll('.share-fmt-btn').forEach(btn => {
-    btn.addEventListener('click', () => {
-      shareFormat = btn.dataset.format;
-      modal.querySelectorAll('.share-fmt-btn').forEach(b => b.classList.remove('active'));
-      btn.classList.add('active');
-      renderShareCard();
-    });
-  });
-
-  document.getElementById('btn-share-image')
-    .addEventListener('click', shareCardImage);
-
-  document.getElementById('btn-download-image')
-    .addEventListener('click', downloadCardImage);
-
-  const copyLinkBtn = document.getElementById('btn-copy-link');
-  copyLinkBtn.addEventListener('click', () => {
-    navigator.clipboard.writeText('https://fact-royale.com').then(() => {
-      copyLinkBtn.textContent = 'Copied! ✓';
-      setTimeout(() => { copyLinkBtn.textContent = 'Copy Link'; }, 2200);
-    });
-  });
-}
-
-// ── Boot ───────────────────────────────────────────────
-
-async function init() {
-  todayKey = getTodayKey();
-  initShareModal();
-
-  try {
-    const res  = await fetch(`questions/${todayKey}.json`);
-    if (!res.ok) throw new Error('No quiz file');
-    const data = await res.json();
-
-    questions = shuffle(data.questions);
-    setupLanding(data);
-    showScreen('screen-landing');
-  } catch (e) {
-    showScreen('screen-noquiz');
-  }
-}
-
-document.addEventListener('DOMContentLoaded', init);
+  con

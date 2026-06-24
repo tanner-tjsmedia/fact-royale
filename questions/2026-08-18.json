@@ -1,0 +1,161 @@
+{
+  "date": "2026-08-18",
+  "questions": [
+    {
+      "category": "History",
+      "question": "Which American civil rights leader was assassinated in Memphis, Tennessee on April 4, 1968?",
+      "options": [
+        "Malcolm X",
+        "John Lewis",
+        "Medgar Evers",
+        "Martin Luther King Jr."
+      ],
+      "answer": "Martin Luther King Jr.",
+      "explanation": "Martin Luther King Jr. was shot and killed on April 4, 1968, at the Lorraine Motel in Memphis, Tennessee, where he had come to support striking sanitation workers. James Earl Ray was convicted of the murder. King's assassination triggered riots in over 100 American cities. The following day, Robert F. Kennedy was shot and killed in Los Angeles. 1968 was one of the most traumatic years in American history.",
+      "memory_hook": "King assassinated April 4, 1968, Memphis. Lorraine Motel. He was there for a sanitation workers' strike — not a major speech, just labor solidarity. RFK was shot 2 months later. MLK was 39. The greatest advocate for nonviolence was killed by violence."
+    },
+    {
+      "category": "History",
+      "question": "The 'Iron Curtain,' a term used to describe the division between communist and non-communist Europe during the Cold War, was coined by which leader?",
+      "options": [
+        "Franklin D. Roosevelt",
+        "Harry Truman",
+        "Joseph Stalin",
+        "Winston Churchill"
+      ],
+      "answer": "Winston Churchill",
+      "explanation": "Winston Churchill coined the phrase 'Iron Curtain' in a speech at Westminster College in Fulton, Missouri on March 5, 1946: 'From Stettin in the Baltic to Trieste in the Adriatic, an iron curtain has descended across the Continent.' Churchill was no longer Prime Minister when he gave the speech (he had been voted out in 1945), but it became one of the defining phrases of the Cold War.",
+      "memory_hook": "Iron Curtain = Churchill, 1946. He wasn't even PM anymore — just an elder statesman giving a speech in Missouri. The phrase crystallized the Cold War division for the public. The Soviet response: Churchill was a warmonger. Which is what a country building an empire says to someone describing it."
+    },
+    {
+      "category": "History",
+      "question": "The Chernobyl nuclear disaster occurred in which year?",
+      "options": [
+        "1979",
+        "1982",
+        "1986",
+        "1991"
+      ],
+      "answer": "1986",
+      "explanation": "The Chernobyl nuclear disaster occurred on April 26, 1986, at the Chernobyl Nuclear Power Plant in Pripyat, Soviet Ukraine (now Ukraine). It is considered the worst nuclear accident in history. Reactor 4 exploded during a safety test, releasing radiation across Europe. The surrounding area remains largely uninhabited. The Soviet government's initial cover-up contributed to growing public distrust that helped accelerate the USSR's collapse.",
+      "memory_hook": "Chernobyl = April 26, 1986. The Soviet government tried to cover it up. Swedish radiation sensors detected the fallout and forced disclosure. The disaster contributed to the fall of the Soviet Union. The exclusion zone is now an accidental wildlife sanctuary — nature reclaiming a radioactive ghost town."
+    },
+    {
+      "category": "History",
+      "question": "The ancient Greek philosopher who taught Alexander the Great was:",
+      "options": [
+        "Plato",
+        "Socrates",
+        "Epicurus",
+        "Aristotle"
+      ],
+      "answer": "Aristotle",
+      "explanation": "Aristotle tutored Alexander the Great from age 13 to 16. Aristotle was himself a student of Plato, who was a student of Socrates — making Socrates the intellectual great-grandfather of Alexander. Aristotle's influence on Alexander included an interest in biology and exploration that shaped the young conqueror's approach to the lands he conquered. Alexander reportedly said he owed his father his life but his teacher, Aristotle, everything worth living for.",
+      "memory_hook": "Socrates taught Plato, Plato taught Aristotle, Aristotle taught Alexander the Great. The greatest chain of teacher-student relationships in history. Alexander said Aristotle gave him 'everything worth living for.' Three teachers, one student who conquered the known world."
+    },
+    {
+      "category": "Sports",
+      "question": "What is the term for a score of zero in a cricket innings?",
+      "options": [
+        "Bagel",
+        "Love",
+        "Golden duck",
+        "Duck"
+      ],
+      "answer": "Duck",
+      "explanation": "A 'duck' in cricket refers to a batsman scoring zero runs before being dismissed. The term comes from 'duck's egg' for the oval shape of the zero. Getting out for zero on the first ball is called a 'golden duck,' and zero off a run-out before facing a ball is a 'diamond duck.' Being dismissed for a duck is considered particularly embarrassing, especially for established batters.",
+      "memory_hook": "Duck = zero in cricket. From 'duck's egg' (oval like a zero). Golden duck = out for zero on the first ball. Getting a duck is cricket's version of a strikeout — embarrassing, especially for a star batter. Donald Bradman, arguably cricket's greatest player, was out for a duck on his final Test innings."
+    },
+    {
+      "category": "Sports",
+      "question": "In which combat sport would competitors attempt to throw or pin each other to the mat?",
+      "options": [
+        "Boxing",
+        "Judo",
+        "Karate",
+        "Fencing"
+      ],
+      "answer": "Judo",
+      "explanation": "Judo is a Japanese martial art and Olympic sport where competitors attempt to throw opponents to the ground or pin them. 'Judo' means 'gentle way' in Japanese — the philosophy is to use the opponent's force against them rather than meeting force with force. It was developed by Jigoro Kano in 1882 and became an Olympic sport in 1964 (men) and 1992 (women). Judokas are ranked by belt color, from white to black.",
+      "memory_hook": "Judo = throw or pin. 'Gentle way' — use your opponent's force against them. Invented by Jigoro Kano in 1882 in Japan. Olympic since 1964. The philosophy of minimum effort for maximum effect influenced jiu-jitsu and other grappling arts."
+    },
+    {
+      "category": "Sports",
+      "question": "In tennis, what is the term for a serve that the receiver cannot touch?",
+      "options": [
+        "Winner",
+        "Let",
+        "Fault",
+        "Ace"
+      ],
+      "answer": "Ace",
+      "explanation": "An ace is a serve that lands in the service box and is not touched by the receiver, winning the point outright. John Isner and Ivo Karlovic are among the ATP players with the most career aces, often exceeding 10,000. On grass courts (like Wimbledon), aces are more common because the surface enhances ball speed. A serve that hits the net and falls into the correct service box is a 'let' and replayed.",
+      "memory_hook": "Ace = serve the receiver can't touch. John Isner has served over 13,000 career aces. He also played the longest match in tennis history — 11 hours, 5 minutes at Wimbledon 2010, 70-68 in the fifth set. Serve so well that no one can touch it."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "'Like a Rolling Stone' by Bob Dylan was released in 1965. At 6 minutes long, it was controversial for its length. Who called it the greatest song ever written?",
+      "options": [
+        "The Grammy Awards",
+        "The Rock Hall of Fame",
+        "Rolling Stone magazine",
+        "The New York Times"
+      ],
+      "answer": "Rolling Stone magazine",
+      "explanation": "Rolling Stone magazine ranked 'Like a Rolling Stone' as the greatest song of all time in their 2004 list of the 500 Greatest Songs. The song was revolutionary — at 6 minutes, it was twice the length of typical pop songs. Radio stations refused to play it at first. Its opening snare drum hit is one of the most recognizable sounds in rock history.",
+      "memory_hook": "'Like a Rolling Stone' = Dylan's greatest. Rolling Stone magazine #1 song of all time. 6 minutes long — radio stations refused to play it. The opening snare hit is immediately recognizable. A song about someone losing everything who has to start from scratch. Dylan said it came from a long piece of writing, 'like a piece of vomit.'"
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Which film franchise features a female warrior named Imperator Furiosa and a desert wasteland called the Wasteland?",
+      "options": [
+        "Dune",
+        "The Book of Eli",
+        "Waterworld",
+        "Mad Max"
+      ],
+      "answer": "Mad Max",
+      "explanation": "Mad Max is an Australian post-apocalyptic film franchise created by George Miller, beginning with Mad Max (1979) starring Mel Gibson. The character Imperator Furiosa appeared in Mad Max: Fury Road (2015), played by Charlize Theron. Fury Road was critically acclaimed, winning 6 Academy Awards. A prequel, Furiosa (2024), explored her origin story with Anya Taylor-Joy in the role.",
+      "memory_hook": "Mad Max = Australian post-apocalyptic franchise. George Miller. Mel Gibson originally. Charlize Theron as Furiosa in Fury Road (2015) — nearly stole the movie from the title character. Fury Road won 6 Oscars while being essentially a 2-hour car chase. George Miller was 70 when he made it."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "The 2021 film 'The Power of the Dog' was directed by which New Zealand filmmaker?",
+      "options": [
+        "Niki Caro",
+        "Taika Waititi",
+        "Lee Tamahori",
+        "Jane Campion"
+      ],
+      "answer": "Jane Campion",
+      "explanation": "Jane Campion directed The Power of the Dog (2021), based on Thomas Savage's 1967 novel. The film starred Benedict Cumberbatch, Kirsten Dunst, Jesse Plemons, and Kodi Smit-McPhee. Campion won the Academy Award for Best Director — the third woman ever to win and the second to be nominated twice. She previously won for The Piano (1993) screenplay.",
+      "memory_hook": "Jane Campion = Power of the Dog. Third woman to win Best Director Oscar. Benedict Cumberbatch plays a menacing, repressed rancher. Set in Montana, filmed in New Zealand — the landscape is actually New Zealand standing in for the American West."
+    },
+    {
+      "category": "Geography",
+      "question": "Which sea, between southern Europe and the Middle East, was historically called the 'Cradle of Civilization'?",
+      "options": [
+        "Red Sea",
+        "Caribbean Sea",
+        "Caspian Sea",
+        "Mediterranean Sea"
+      ],
+      "answer": "Mediterranean Sea",
+      "explanation": "The Mediterranean Sea — bordered by Europe, North Africa, and the Middle East — was called 'Mare Nostrum' (Our Sea) by the Romans and has been the center of human civilization for thousands of years. Ancient Egypt, Greece, Rome, Phoenicia, Carthage, and the Ottoman Empire all rose around its shores. It remains one of the world's most historically significant bodies of water.",
+      "memory_hook": "Mediterranean = cradle of Western civilization. Egypt, Greece, Rome, Carthage — all Mediterranean cultures. The Romans called it Mare Nostrum, 'Our Sea.' For 1,000 years, Roman power meant Mediterranean dominance. Every major civilization of the ancient Western world emerged from its shores."
+    },
+    {
+      "category": "Science & Nature",
+      "question": "What is the term for the role or position a species plays in its ecosystem?",
+      "options": [
+        "Habitat",
+        "Biome",
+        "Niche",
+        "Ecosystem"
+      ],
+      "answer": "Niche",
+      "explanation": "An ecological niche describes the role and position of a species within its ecosystem — what it eats, what eats it, when and where it is active, and how it affects its environment. The concept explains how multiple species can coexist in the same habitat without directly competing. If two species occupy the same niche, one typically outcompetes the other — this is called competitive exclusion.",
+      "memory_hook": "Niche = a species' role in the ecosystem. Not where it lives (habitat) but what it does there. Two species can share a habitat but not the same niche — if they do, one wins and one loses. Evolution constantly creates new niches."
+    }
+  ]
+}

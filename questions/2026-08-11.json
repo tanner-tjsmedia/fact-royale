@@ -1,0 +1,161 @@
+{
+  "date": "2026-08-11",
+  "questions": [
+    {
+      "category": "History",
+      "question": "Which ancient city was destroyed and buried by the eruption of Mount Vesuvius in 79 AD?",
+      "options": [
+        "Rome",
+        "Herculaneum",
+        "Naples",
+        "Pompeii"
+      ],
+      "answer": "Pompeii",
+      "explanation": "Pompeii, a Roman city near modern Naples, was buried under meters of volcanic ash and pumice in the eruption of Mount Vesuvius on August 24, 79 AD. The city was rediscovered in 1748 and has been excavated to reveal remarkably preserved buildings, art, and even human forms preserved in ash. Herculaneum was also destroyed but was buried deeper and preserved differently.",
+      "memory_hook": "Pompeii = buried by Vesuvius, 79 AD. The eruption happened so fast that people were preserved mid-action. Archaeologists found people covering their faces, hugging each other, waiting it out. A city frozen in a single day, 2,000 years ago."
+    },
+    {
+      "category": "History",
+      "question": "The Battle of Stalingrad (1942-1943), one of the deadliest battles in history, resulted in victory for which country?",
+      "options": [
+        "Germany",
+        "Romania",
+        "Italy",
+        "Soviet Union"
+      ],
+      "answer": "Soviet Union",
+      "explanation": "The Battle of Stalingrad (August 23, 1942 – February 2, 1943) was the turning point of World War II on the Eastern Front. The Soviet Union encircled and destroyed Germany's 6th Army — over 800,000 Axis troops were killed or captured. Combined with civilian casualties, total deaths may have exceeded 1.5 million. It was the largest and bloodiest battle in military history and began the German retreat from the East.",
+      "memory_hook": "Stalingrad = turning point of WWII in Europe. 1.5 million dead. Germany's 6th Army destroyed. After Stalingrad, Germany never recovered the initiative in the East. The battle lasted over 5 months of brutal urban combat — fighting room by room, floor by floor."
+    },
+    {
+      "category": "History",
+      "question": "Which document, signed in 1215, established the principle that the king is subject to the rule of law?",
+      "options": [
+        "Bill of Rights",
+        "Domesday Book",
+        "Declaration of Arbroath",
+        "Magna Carta"
+      ],
+      "answer": "Magna Carta",
+      "explanation": "The Magna Carta ('Great Charter') was sealed by King John of England at Runnymede on June 15, 1215. Forced on him by rebellious barons, it established key legal principles including no imprisonment without trial, the right to due process, and limits on arbitrary royal power. Four of the original 63 clauses survive in English law today. It directly influenced the US Constitution and Bill of Rights.",
+      "memory_hook": "Magna Carta = king under the law. 1215. The barons forced it on King John at swordpoint, essentially. The principle that no one — not even the king — is above the law. Everything from the US Bill of Rights to the UN Declaration of Human Rights traces to this document."
+    },
+    {
+      "category": "History",
+      "question": "What was the name of the policy of racial segregation in the American South between the 1870s and 1960s?",
+      "options": [
+        "Black Codes",
+        "Jim Crow Laws",
+        "Separate But Equal",
+        "Reconstruction Laws"
+      ],
+      "answer": "Jim Crow Laws",
+      "explanation": "Jim Crow laws were state and local laws in the American South that enforced racial segregation from the 1870s to the mid-1960s. They covered schools, transportation, restaurants, bathrooms, and almost every aspect of public life. They were upheld by the Supreme Court in Plessy v. Ferguson (1896) and not overturned until the Civil Rights Act (1964) and Voting Rights Act (1965).",
+      "memory_hook": "Jim Crow Laws = legal segregation in the American South. Lasted nearly 100 years after the Civil War ended slavery. Separate but 'equal' — legally required separation in schools, buses, water fountains. The Civil Rights Movement dismantled them in the 1950s and 60s."
+    },
+    {
+      "category": "Sports",
+      "question": "In rugby, how many points is a try worth?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "answer": "5",
+      "explanation": "A try in rugby union scores 5 points and is scored by grounding the ball on or over the opponent's try line. After a try, the scoring team gets a conversion attempt — kicking the ball between the goalposts for 2 additional points. A penalty goal scores 3 points, and a drop goal during play scores 3 points. A try in rugby league (a separate code) is worth 4 points.",
+      "memory_hook": "Rugby try = 5 points. Plus 2 for the conversion attempt. So a converted try = 7 points total. Rugby's scoring system rewards getting the ball over the line above everything else — a penalty is only 3, but a try + conversion is 7."
+    },
+    {
+      "category": "Sports",
+      "question": "The 'Miracle on Ice' refers to the United States ice hockey team's unexpected victory over the Soviet Union at which Olympics?",
+      "options": [
+        "1972 Sapporo",
+        "1976 Innsbruck",
+        "1980 Lake Placid",
+        "1984 Sarajevo"
+      ],
+      "answer": "1980 Lake Placid",
+      "explanation": "At the 1980 Winter Olympics in Lake Placid, the US ice hockey team — mostly college students — defeated the heavily favored Soviet Union 4-3 in the semifinal, then beat Finland for the gold medal. The Soviet team had dominated international hockey for decades. Sportscaster Al Michaels' call 'Do you believe in miracles? YES!' became one of the most famous lines in sports broadcasting.",
+      "memory_hook": "Miracle on Ice = 1980, Lake Placid. College kids beat the Soviets. Al Michaels: 'Do you believe in miracles? YES!' The Soviet hockey team was arguably the best team in the world, professional in all but name. The US team was average college players. They won anyway."
+    },
+    {
+      "category": "Sports",
+      "question": "In which Olympic sport do competitors throw a heavy iron ball as far as possible?",
+      "options": [
+        "Discus",
+        "Hammer throw",
+        "Javelin",
+        "Shot put"
+      ],
+      "answer": "Shot put",
+      "explanation": "The shot put involves throwing a heavy spherical metal ball (7.26 kg for men, 4 kg for women) as far as possible from a 7-foot throwing circle. Competitors use either a glide or rotational technique. The sport has been part of the modern Olympics since 1896. It requires explosive strength rather than technique-dependent skill, making it one of the most straightforwardly physical Olympic events.",
+      "memory_hook": "Shot put = throw a heavy metal ball. 7.26 kg for men. Not rolling — 'putting' (pushing). The name comes from putting (pushing) rather than throwing. Pure explosion of power in one moment. No running start, no approach — just turning power into distance."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Which 1986 film starring Tom Cruise about US Navy fighter pilots included the song 'Danger Zone' by Kenny Loggins?",
+      "options": [
+        "Iron Eagle",
+        "Firefox",
+        "Top Gun",
+        "The Right Stuff"
+      ],
+      "answer": "Top Gun",
+      "explanation": "Top Gun (1986), directed by Tony Scott and starring Tom Cruise as Maverick, became a cultural phenomenon and helped boost US Navy recruitment by 500%. The soundtrack, including Kenny Loggins' 'Danger Zone' and Berlin's 'Take My Breath Away,' was one of the best-selling of the decade. The sequel, Top Gun: Maverick (2022), became Tom Cruise's highest-grossing film.",
+      "memory_hook": "Top Gun, 1986. Tom Cruise = Maverick. 'Danger Zone.' Navy recruitment jumped 500% after it released. Top Gun: Maverick (2022) was made 36 years later and somehow worked even better. Cruise refused to use CGI for the flight sequences."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Which artist released the album 'Purple Rain' in 1984 and also starred in the accompanying film?",
+      "options": [
+        "Michael Jackson",
+        "David Bowie",
+        "Prince",
+        "Stevie Wonder"
+      ],
+      "answer": "Prince",
+      "explanation": "Prince released Purple Rain in June 1984 as both a film and accompanying album. The film was shot in 28 days in Minneapolis. The album spent 24 weeks at number one in the US and sold over 25 million copies worldwide. It won the Academy Award for Best Original Song Score. The title track 'Purple Rain' is widely considered one of the greatest songs ever written.",
+      "memory_hook": "Prince = Purple Rain, 1984. Film shot in 28 days. Album at #1 for 24 weeks. 'Purple Rain' performed live is considered one of the great live musical moments — particularly in the rain at the 2007 Super Bowl."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Which director made Schindler's List (1993), Saving Private Ryan (1998), and Munich (2005)?",
+      "options": [
+        "Oliver Stone",
+        "Clint Eastwood",
+        "Steven Spielberg",
+        "Michael Mann"
+      ],
+      "answer": "Steven Spielberg",
+      "explanation": "Steven Spielberg directed all three historical dramas. Schindler's List (1993) won 7 Oscars including Best Picture and Director. Saving Private Ryan (1998) won Best Director and is famous for its harrowing D-Day opening sequence. Munich (2005) dramatized the Israeli response to the 1972 Olympic massacre. Spielberg donated his salary from Schindler's List entirely to Holocaust organizations.",
+      "memory_hook": "Spielberg's serious trilogy: Schindler's List, Saving Private Ryan, Munich. All about WWII or its aftermath. He donated his entire Schindler's List salary to the USC Shoah Foundation. He said he couldn't profit from the Holocaust."
+    },
+    {
+      "category": "Geography",
+      "question": "Which South American country is named after the equator that passes through it?",
+      "options": [
+        "Peru",
+        "Colombia",
+        "Bolivia",
+        "Ecuador"
+      ],
+      "answer": "Ecuador",
+      "explanation": "Ecuador is named for the equator (Ecuador in Spanish), which passes directly through the country. Quito, Ecuador's capital, sits at an altitude of 2,850 meters and is located less than 25 km from the equator — making it one of the highest capital cities in the world. A museum near Quito marks the 'middle of the world' with demonstrations showing the effects of the equator on water drainage.",
+      "memory_hook": "Ecuador = named for the equator. The only country literally named after an imaginary line. The equator runs right through it. Quito is both 25 km from the equator and 2,850 meters high — the highest equatorial capital in the world."
+    },
+    {
+      "category": "Science & Nature",
+      "question": "What is the term for an atom that has gained or lost electrons, giving it a net electric charge?",
+      "options": [
+        "Isotope",
+        "Neutron",
+        "Ion",
+        "Proton"
+      ],
+      "answer": "Ion",
+      "explanation": "An ion is an atom (or molecule) that has gained or lost one or more electrons, giving it a net positive (cation) or negative (anion) electric charge. Table salt (NaCl) forms when sodium loses an electron (becoming Na+) and chlorine gains one (becoming Cl-). Ions are fundamental to chemistry, biology, and physics — from battery function to how nerve cells fire.",
+      "memory_hook": "Ion = atom with a charge. Lose electrons = positive ion (cation). Gain electrons = negative ion (anion). Salt is sodium and chloride ions. Your neurons fire by rapidly exchanging sodium and potassium ions across cell membranes. Your thoughts are electricity made of ions."
+    }
+  ]
+}

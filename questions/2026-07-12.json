@@ -24,7 +24,7 @@
       ],
       "answer": "The U.S. Constitution",
       "explanation": "The U.S. Constitution, drafted in 1787 and ratified in 1788, established the framework for the federal government of the United States, including the separation of powers into three branches: executive, legislative, and judicial. It remains the oldest written national constitution still in use.",
-      "memory_hook": "The Constitution built the government \u2014 the Declaration just said they were leaving."
+      "memory_hook": "The Constitution built the government — the Declaration just said they were leaving."
     },
     {
       "category": "Sports",
@@ -43,14 +43,14 @@
       "category": "Sports",
       "question": "What is the official weight of a regulation NFL football?",
       "options": [
-        "12\u201314 ounces",
-        "14\u201315 ounces",
-        "15\u201316 ounces",
-        "16\u201317 ounces"
+        "12–14 ounces",
+        "14–15 ounces",
+        "15–16 ounces",
+        "16–17 ounces"
       ],
-      "answer": "14\u201315 ounces",
-      "explanation": "An NFL football must weigh between 14 and 15 ounces (397\u2013425 grams). The ball is inflated to 12.5 to 13.5 psi. The New England Patriots were involved in the 'Deflategate' controversy in 2015 when their balls were found underinflated.",
-      "memory_hook": "14-15 oz NFL ball \u2014 Deflategate made everyone suddenly know the spec."
+      "answer": "14–15 ounces",
+      "explanation": "An NFL football must weigh between 14 and 15 ounces (397–425 grams). The ball is inflated to 12.5 to 13.5 psi. The New England Patriots were involved in the 'Deflategate' controversy in 2015 when their balls were found underinflated.",
+      "memory_hook": "14-15 oz NFL ball — Deflategate made everyone suddenly know the spec."
     },
     {
       "category": "Sports",
@@ -63,7 +63,7 @@
       ],
       "answer": "United Kingdom",
       "explanation": "Lewis Hamilton is from Stevenage, Hertfordshire, England. He is the most decorated Formula 1 driver in history, with seven World Championship titles, matching the record held by Michael Schumacher. He was the first Black Formula 1 champion.",
-      "memory_hook": "Hamilton: British, 7 titles, first Black F1 champion \u2014 racing royalty."
+      "memory_hook": "Hamilton: British, 7 titles, first Black F1 champion — racing royalty."
     },
     {
       "category": "Music/Movies",
@@ -76,7 +76,7 @@
       ],
       "answer": "Queen",
       "explanation": "'Don't Stop Me Now' was released by Queen in 1978. Written by Freddie Mercury, it features Mercury playing piano and describes the euphoric rush of performing. Despite being a modest chart success initially, it has since been voted one of the greatest rock songs of all time in multiple polls.",
-      "memory_hook": "Don't stop Queen now \u2014 they're having a good time, having a ball."
+      "memory_hook": "Don't stop Queen now — they're having a good time, having a ball."
     },
     {
       "category": "Music/Movies",
@@ -89,7 +89,7 @@
       ],
       "answer": "Jordan Peele",
       "explanation": "Jordan Peele wrote and directed both Get Out (2017) and Us (2019). Get Out won him the Academy Award for Best Original Screenplay, making him the first Black writer to win in that category. Both films blend social commentary with horror in a distinctive style.",
-      "memory_hook": "Peele made the world peel back its skin \u2014 Get Out, Us, and our own discomfort."
+      "memory_hook": "Peele made the world peel back its skin — Get Out, Us, and our own discomfort."
     },
     {
       "category": "Music/Movies",
@@ -115,7 +115,7 @@
       ],
       "answer": "Little Boy",
       "explanation": "'Little Boy' was the first atomic bomb used in warfare, dropped on Hiroshima on August 6, 1945. Three days later, 'Fat Man' was dropped on Nagasaki. The bombings killed between 129,000 and 226,000 people and led to Japan's surrender and the end of World War II.",
-      "memory_hook": "Little Boy on Hiroshima, Fat Man on Nagasaki \u2014 the names belie the horror."
+      "memory_hook": "Little Boy on Hiroshima, Fat Man on Nagasaki — the names belie the horror."
     },
     {
       "category": "History",
@@ -127,8 +127,34 @@
         "Sparta"
       ],
       "answer": "Sparta",
-      "explanation": "Sparta was the dominant military city-state of ancient Greece. Spartan boys began military training (agoge) at age 7. Sparta defeated Athens in the Peloponnesian War (431\u2013404 BC). Spartan culture emphasized physical endurance, discipline, and brevity of speech \u2014 from which we get the word 'laconic.'",
+      "explanation": "Sparta was the dominant military city-state of ancient Greece. Spartan boys began military training (agoge) at age 7. Sparta defeated Athens in the Peloponnesian War (431–404 BC). Spartan culture emphasized physical endurance, discipline, and brevity of speech — from which we get the word 'laconic.'",
       "memory_hook": "Sparta: warriors from birth. 'This is Sparta!' wasn't just a movie line."
+    },
+    {
+      "category": "Geography",
+      "question": "Which South American country is the largest by land area?",
+      "options": [
+        "Argentina",
+        "Peru",
+        "Colombia",
+        "Brazil"
+      ],
+      "answer": "Brazil",
+      "explanation": "Brazil covers 8.51 million square kilometers, making it the largest country in South America and the fifth largest in the world. It borders every South American country except Ecuador and Chile. The Amazon rainforest, which covers about 60% of Brazil, contains the largest tropical rainforest on Earth.",
+      "memory_hook": "Brazil = biggest in South America. It borders almost every other country on the continent. And it contains most of the Amazon — the lungs of the planet."
+    },
+    {
+      "category": "Science & Nature",
+      "question": "The ozone layer that protects Earth from ultraviolet radiation is found in which layer of the atmosphere?",
+      "options": [
+        "Troposphere",
+        "Mesosphere",
+        "Thermosphere",
+        "Stratosphere"
+      ],
+      "answer": "Stratosphere",
+      "explanation": "The ozone layer sits in the stratosphere, approximately 15 to 35 km above Earth's surface. It absorbs most of the Sun's harmful ultraviolet radiation. Chlorofluorocarbons (CFCs) from aerosols and refrigerants caused significant ozone depletion in the 20th century, creating the 'ozone hole' over Antarctica.",
+      "memory_hook": "Ozone = stratosphere. It's above the weather (troposphere) but below space. Think: stra-to-sphere, the layer above the storms where the ozone shield lives."
     }
   ]
 }

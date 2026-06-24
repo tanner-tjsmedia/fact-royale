@@ -10,7 +10,7 @@
         "Missouri Instrument of Surrender"
       ],
       "answer": "Missouri Instrument of Surrender",
-      "explanation": "Japan formally surrendered on September 2, 1945, aboard the USS Missouri in Tokyo Bay, officially ending World War II. The formal treaty \u2014 the Treaty of San Francisco \u2014 was signed in 1951. V-J Day (Victory over Japan Day) is celebrated on August 15 in many countries.",
+      "explanation": "Japan formally surrendered on September 2, 1945, aboard the USS Missouri in Tokyo Bay, officially ending World War II. The formal treaty — the Treaty of San Francisco — was signed in 1951. V-J Day (Victory over Japan Day) is celebrated on August 15 in many countries.",
       "memory_hook": "USS Missouri = where Japan surrendered. The battleship became the signing table."
     },
     {
@@ -50,7 +50,7 @@
       ],
       "answer": "England",
       "explanation": "Table tennis was invented in England in the 1880s as an after-dinner drawing room game among the upper class. It was originally called 'ping pong,' based on the sound of the ball. China has dominated the sport internationally since the 1960s, winning more Olympic gold medals than any other nation.",
-      "memory_hook": "England invented ping pong \u2014 China perfected it."
+      "memory_hook": "England invented ping pong — China perfected it."
     },
     {
       "category": "Sports",
@@ -76,7 +76,7 @@
       ],
       "answer": "Nirvana",
       "explanation": "'Smells Like Teen Spirit' was released by Nirvana in September 1991 on their album 'Nevermind.' It is widely credited with bringing grunge and alternative rock to mainstream audiences. The song's name came from a deodorant called Teen Spirit that Kurt Cobain's then-girlfriend wore.",
-      "memory_hook": "Nirvana's 'Smells Like Teen Spirit' \u2014 named after a deodorant. Changed rock music anyway."
+      "memory_hook": "Nirvana's 'Smells Like Teen Spirit' — named after a deodorant. Changed rock music anyway."
     },
     {
       "category": "Music/Movies",
@@ -89,7 +89,7 @@
       ],
       "answer": "Chadwick Boseman",
       "explanation": "Chadwick Boseman played T'Challa/Black Panther in four MCU films, most notably the 2018 film Black Panther, which grossed $1.3 billion worldwide. Boseman died of colon cancer in August 2020, having privately battled the illness for four years while continuing to work. His death shocked the world.",
-      "memory_hook": "Boseman IS Wakanda. He played T'Challa while fighting cancer \u2014 unseen, undefeated."
+      "memory_hook": "Boseman IS Wakanda. He played T'Challa while fighting cancer — unseen, undefeated."
     },
     {
       "category": "Music/Movies",
@@ -102,7 +102,7 @@
       ],
       "answer": "It's not from a film",
       "explanation": "'Just one more thing...' is the signature phrase of Lieutenant Columbo from the TV series 'Columbo,' played by Peter Falk. Though Columbo has been adapted into TV movies, it originated as a TV series. The phrase is used by the seemingly scattered detective just before delivering his key insight.",
-      "memory_hook": "Columbo's 'Just one more thing' \u2014 the question that always caught the killer."
+      "memory_hook": "Columbo's 'Just one more thing' — the question that always caught the killer."
     },
     {
       "category": "History",
@@ -115,7 +115,7 @@
       ],
       "answer": "Istanbul",
       "explanation": "Constantinople, the capital of the Byzantine Empire, was renamed Istanbul after the Ottoman conquest in 1453. The name Istanbul derives from a Greek phrase meaning 'to the city' or 'in the city.' It remains Turkey's largest city and cultural center, though Ankara is the current capital.",
-      "memory_hook": "Constantinople became Istanbul \u2014 even The Four Tops sang about the change."
+      "memory_hook": "Constantinople became Istanbul — even The Four Tops sang about the change."
     },
     {
       "category": "History",
@@ -127,8 +127,34 @@
         "SAS"
       ],
       "answer": "MI6",
-      "explanation": "MI6 (Military Intelligence, Section 6), officially known as the Secret Intelligence Service (SIS), is the British foreign intelligence agency. James Bond works for MI6 under the director known as 'M.' The real MI6 headquarters is in Vauxhall, London \u2014 depicted in several Bond films.",
+      "explanation": "MI6 (Military Intelligence, Section 6), officially known as the Secret Intelligence Service (SIS), is the British foreign intelligence agency. James Bond works for MI6 under the director known as 'M.' The real MI6 headquarters is in Vauxhall, London — depicted in several Bond films.",
       "memory_hook": "MI6 = James Bond's employer. The real headquarters overlooks the Thames."
+    },
+    {
+      "category": "Geography",
+      "question": "Which country contains the most of the Amazon rainforest?",
+      "options": [
+        "Colombia",
+        "Peru",
+        "Venezuela",
+        "Brazil"
+      ],
+      "answer": "Brazil",
+      "explanation": "Approximately 60% of the Amazon rainforest lies within Brazil. The remaining 40% is spread across eight other countries: Peru, Colombia, Venezuela, Ecuador, Bolivia, Guyana, Suriname, and French Guiana. The Amazon produces about 20% of the world's oxygen and holds 10% of all species on Earth.",
+      "memory_hook": "Amazon = mostly Brazil. 60% in one country. The forest is so large it creates its own weather — the trees release enough water vapor to generate their own rain system."
+    },
+    {
+      "category": "Science & Nature",
+      "question": "What does the Richter scale measure?",
+      "options": [
+        "Hurricane wind speed",
+        "Volcanic activity",
+        "Tsunami height",
+        "Earthquake magnitude"
+      ],
+      "answer": "Earthquake magnitude",
+      "explanation": "The Richter scale, developed by Charles Richter in 1935, measures the magnitude (energy released) of earthquakes. It is logarithmic — each whole number increase represents about 31.6 times more energy. A magnitude 7.0 quake releases 31.6 times more energy than a 6.0, and about 1,000 times more than a 5.0.",
+      "memory_hook": "Richter scale = earthquake strength. Logarithmic — each step is 31 times more powerful. A magnitude 8 isn't twice as strong as a 4; it's millions of times stronger."
     }
   ]
 }

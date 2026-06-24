@@ -11,7 +11,7 @@
       ],
       "answer": "Roger Bannister",
       "explanation": "Roger Bannister became the first person to run a mile in under four minutes on May 6, 1954, at Iffley Road Track in Oxford, with a time of 3:59.4. His record was broken just 46 days later by Australian John Landy. Bannister was also a neurologist and later became Master of Pembroke College, Oxford.",
-      "memory_hook": "Bannister broke the 4-minute mile \u2014 then Landy broke his record 46 days later."
+      "memory_hook": "Bannister broke the 4-minute mile — then Landy broke his record 46 days later."
     },
     {
       "category": "History",
@@ -36,8 +36,8 @@
         "18"
       ],
       "answer": "14",
-      "explanation": "A golfer may carry a maximum of 14 clubs in their bag during a round, as per the Rules of Golf established by the USGA and R&A. Most professionals carry: driver, 3-wood, 5-wood, 4-iron through pitching wedge, sand wedge, lob wedge, and putter \u2014 typically 14.",
-      "memory_hook": "14 clubs maximum \u2014 one for each type of shot, roughly."
+      "explanation": "A golfer may carry a maximum of 14 clubs in their bag during a round, as per the Rules of Golf established by the USGA and R&A. Most professionals carry: driver, 3-wood, 5-wood, 4-iron through pitching wedge, sand wedge, lob wedge, and putter — typically 14.",
+      "memory_hook": "14 clubs maximum — one for each type of shot, roughly."
     },
     {
       "category": "Sports",
@@ -63,7 +63,7 @@
       ],
       "answer": "United States",
       "explanation": "The United States has won the most Olympic medals in history, with over 2,600 total (1,100+ gold). The Soviet Union dominated the Cold War era but ceased to exist in 1991. China has rapidly climbed the all-time rankings since hosting the 2008 Beijing Olympics.",
-      "memory_hook": "USA leads all-time Olympic medal count \u2014 more than 125 years at the top."
+      "memory_hook": "USA leads all-time Olympic medal count — more than 125 years at the top."
     },
     {
       "category": "Music/Movies",
@@ -76,7 +76,7 @@
       ],
       "answer": "Pink Floyd",
       "explanation": "'Comfortably Numb' appears on Pink Floyd's concept album 'The Wall' (1979). The song features two solos by guitarist David Gilmour, with the outro solo widely considered one of the greatest guitar solos of all time. Roger Waters wrote the lyrics; Gilmour wrote the music.",
-      "memory_hook": "'Comfortably Numb' \u2014 Pink Floyd's Wall, Gilmour's guitar solo, Waters' words."
+      "memory_hook": "'Comfortably Numb' — Pink Floyd's Wall, Gilmour's guitar solo, Waters' words."
     },
     {
       "category": "Music/Movies",
@@ -89,7 +89,7 @@
       ],
       "answer": "The Terminal",
       "explanation": "The Terminal (2004), directed by Steven Spielberg, stars Tom Hanks as Viktor Navorski, a man from a fictional Eastern European country who becomes stranded in JFK Airport when his country's government collapses and his visa becomes invalid. The film is loosely based on the story of Mehran Karimi Nasseri.",
-      "memory_hook": "Tom Hanks in an airport \u2014 not Cast Away (island), but The Terminal (JFK)."
+      "memory_hook": "Tom Hanks in an airport — not Cast Away (island), but The Terminal (JFK)."
     },
     {
       "category": "Music/Movies",
@@ -102,7 +102,7 @@
       ],
       "answer": "Rachel Marron",
       "explanation": "Whitney Houston played Rachel Marron, a pop star under threat from a stalker, in The Bodyguard (1992). Kevin Costner played her bodyguard Frank Farmer. The film's soundtrack became one of the best-selling soundtracks of all time, largely on the strength of Houston's 'I Will Always Love You.'",
-      "memory_hook": "Rachel Marron was Whitney's character \u2014 a pop star who needed protecting, like Whitney herself."
+      "memory_hook": "Rachel Marron was Whitney's character — a pop star who needed protecting, like Whitney herself."
     },
     {
       "category": "History",
@@ -115,7 +115,7 @@
       ],
       "answer": "300 Spartans",
       "explanation": "The Battle of Thermopylae (480 BC) saw approximately 300 Spartans (and about 700 Thespians) under King Leonidas hold off a Persian army estimated in the hundreds of thousands for three days. Their sacrifice allowed the Greek forces to regroup and eventually defeat the Persians at Salamis.",
-      "memory_hook": "300 Spartans vs. Persia \u2014 'Tonight we dine in hell!' Three days, one narrow pass."
+      "memory_hook": "300 Spartans vs. Persia — 'Tonight we dine in hell!' Three days, one narrow pass."
     },
     {
       "category": "History",
@@ -128,7 +128,33 @@
       ],
       "answer": "Roald Amundsen",
       "explanation": "Norwegian explorer Roald Amundsen reached the South Pole on December 14, 1911, beating British explorer Robert Falcon Scott by 34 days. Scott's team arrived at the Pole on January 17, 1912, and all five men died during the return journey. Amundsen's meticulous preparation was key to his success.",
-      "memory_hook": "Amundsen beat Scott to the Pole \u2014 preparation beat courage in the ice."
+      "memory_hook": "Amundsen beat Scott to the Pole — preparation beat courage in the ice."
+    },
+    {
+      "category": "Geography",
+      "question": "Indonesia has the most islands of any country. Approximately how many does it have?",
+      "options": [
+        "3,000",
+        "7,500",
+        "17,000",
+        "25,000"
+      ],
+      "answer": "17,000",
+      "explanation": "Indonesia consists of approximately 17,000 islands, of which about 6,000 are inhabited. It is the world's largest archipelago nation. Major islands include Java, Sumatra, Borneo (shared with Malaysia and Brunei), Sulawesi, and half of New Guinea. With 277 million people, it is the world's fourth most populous country.",
+      "memory_hook": "Indonesia = 17,000 islands. About 6,000 inhabited. It's the world's largest archipelago — imagine running a country spread across the ocean over an area wider than the continental US."
+    },
+    {
+      "category": "Science & Nature",
+      "question": "What is the name of the layer of rock that makes up Earth's outer surface?",
+      "options": [
+        "Mantle",
+        "Core",
+        "Crust",
+        "Lithosphere"
+      ],
+      "answer": "Crust",
+      "explanation": "Earth's crust is the thin, solid outer shell of the planet. Continental crust is about 35-70 km thick; oceanic crust is only about 5-10 km thick. Below the crust is the mantle, a thick layer of semi-solid rock. At the center is the core, divided into a liquid outer core and solid inner core.",
+      "memory_hook": "Earth's layers: crust, mantle, outer core, inner core. The crust is like the skin of an apple — relatively thin compared to the whole. You live on the thinnest possible layer above an ocean of hot rock."
     }
   ]
 }

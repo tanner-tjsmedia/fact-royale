@@ -1,0 +1,161 @@
+{
+  "date": "2026-07-28",
+  "questions": [
+    {
+      "category": "History",
+      "question": "The Magna Carta, a landmark document limiting royal power, was signed in which year?",
+      "options": [
+        "1066",
+        "1215",
+        "1348",
+        "1492"
+      ],
+      "answer": "1215",
+      "explanation": "King John of England signed the Magna Carta on June 15, 1215, under pressure from rebellious barons. It established for the first time that the king was subject to the rule of law. Many of its principles — including the right to a fair trial and protection from arbitrary imprisonment — became foundational to constitutional government worldwide.",
+      "memory_hook": "Magna Carta = 1215. The first document that said a king can't do whatever he wants. It planted the seed of constitutional democracy 800 years ago."
+    },
+    {
+      "category": "History",
+      "question": "The printing press, which revolutionized the spread of information, was invented by whom around 1440?",
+      "options": [
+        "Leonardo da Vinci",
+        "Galileo Galilei",
+        "Johannes Gutenberg",
+        "Benjamin Franklin"
+      ],
+      "answer": "Johannes Gutenberg",
+      "explanation": "Johannes Gutenberg invented the movable-type printing press around 1440 in Mainz, Germany. The first major book printed was the Gutenberg Bible around 1455. The press enabled mass production of books, spreading literacy, accelerating the Renaissance and Reformation, and fundamentally changing how knowledge was shared — arguably the most important invention before the internet.",
+      "memory_hook": "Gutenberg = printing press, ~1440. Before Gutenberg, books were hand-copied — expensive and rare. After, ideas spread like fire. Martin Luther's 95 Theses went viral in the 1500s because of the printing press."
+    },
+    {
+      "category": "History",
+      "question": "The Ottoman Empire's capital, Constantinople, was conquered by the Ottomans in which year — marking the end of the Byzantine Empire?",
+      "options": [
+        "1347",
+        "1453",
+        "1517",
+        "1571"
+      ],
+      "answer": "1453",
+      "explanation": "Ottoman Sultan Mehmed II conquered Constantinople on May 29, 1453, ending the Byzantine Empire (Eastern Roman Empire) after more than 1,000 years. The city was renamed Istanbul and became the Ottoman capital. Historians often mark this event as the end of the Middle Ages and the beginning of the Early Modern Period.",
+      "memory_hook": "1453 = Constantinople falls. The Byzantine Empire, which had kept Roman civilization alive for 1,000 years after Rome fell, ended in a single day. The date is still mourned in Greece."
+    },
+    {
+      "category": "History",
+      "question": "The Great Fire of London, which destroyed much of the medieval city, occurred in which year?",
+      "options": [
+        "1605",
+        "1640",
+        "1666",
+        "1688"
+      ],
+      "answer": "1666",
+      "explanation": "The Great Fire of London began on September 2, 1666, in a bakery on Pudding Lane and burned for four days, destroying over 13,000 houses and 87 churches including St. Paul's Cathedral. Remarkably, fewer than 10 people died (officially). The fire led to the rebuilding of London in brick and stone and the establishment of modern fire safety practices.",
+      "memory_hook": "Great Fire of London = 1666. Started in a bakery, burned for four days, destroyed the medieval city. Christopher Wren redesigned much of London after — including the new St. Paul's Cathedral."
+    },
+    {
+      "category": "Sports",
+      "question": "In which sport would you perform a 'slam dunk'?",
+      "options": [
+        "Volleyball",
+        "Baseball",
+        "Soccer",
+        "Basketball"
+      ],
+      "answer": "Basketball",
+      "explanation": "A slam dunk (or simply 'dunk') occurs when a player jumps above the rim and throws the ball directly downward through the basket. It was banned in NCAA college basketball from 1967 to 1976 — largely because of Lew Alcindor (later Kareem Abdul-Jabbar) who was so dominant with it. Michael Jordan and LeBron James are famous for spectacular dunks.",
+      "memory_hook": "Slam dunk = basketball. The NBA literally banned it for 9 years because one player (Kareem) was too good at it. The most crowd-pleasing move in sports was once illegal."
+    },
+    {
+      "category": "Sports",
+      "question": "The Tour de France cycling race is traditionally held in which month?",
+      "options": [
+        "May",
+        "June",
+        "July",
+        "August"
+      ],
+      "answer": "July",
+      "explanation": "The Tour de France is held annually in July, covering approximately 3,400 kilometers across France and sometimes into neighboring countries over 21 stages. The overall leader wears the yellow jersey (maillot jaune). It is the most prestigious race in professional cycling and one of the most watched annual sporting events in the world.",
+      "memory_hook": "Tour de France = July. 21 stages, ~3,400 km, yellow jersey. The most grueling regular sporting event in the world — riders climb the Alps and Pyrenees in consecutive days."
+    },
+    {
+      "category": "Sports",
+      "question": "Which country has won the most Olympic gold medals in the history of the Summer Olympics?",
+      "options": [
+        "China",
+        "Soviet Union",
+        "Great Britain",
+        "United States"
+      ],
+      "answer": "United States",
+      "explanation": "The United States has won more Olympic gold medals than any other country in Summer Olympics history, with over 1,000 gold medals. The Soviet Union (which competed from 1952-1988) and China are the only countries that have come close to challenging US dominance. The US consistently dominates in swimming, track and field, and gymnastics.",
+      "memory_hook": "USA = most Summer Olympic golds ever. Over 1,000 gold medals, more than any other nation in history. Swimming (Michael Phelps alone has 23 golds) and track are the biggest contributors."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Michael Jackson's 'Thriller' album (1982) is the best-selling album of all time. Who produced it?",
+      "options": [
+        "Berry Gordy",
+        "Clive Davis",
+        "Rick Rubin",
+        "Quincy Jones"
+      ],
+      "answer": "Quincy Jones",
+      "explanation": "Quincy Jones produced Thriller along with Michael Jackson. The album has sold over 66 million copies worldwide and features songs including 'Billie Jean,' 'Beat It,' and 'Wanna Be Startin' Somethin'.' The 14-minute title track music video, directed by John Landis, transformed music videos into an art form and is still the most watched music video from that era.",
+      "memory_hook": "Thriller = Quincy Jones produced it. Jackson and Jones together made the best-selling album in history. The 'Thriller' music video had a $500,000 budget — revolutionary for 1983."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Which actress starred as Ellen Ripley in the sci-fi horror film Alien (1979)?",
+      "options": [
+        "Jane Fonda",
+        "Meryl Streep",
+        "Sigourney Weaver",
+        "Faye Dunaway"
+      ],
+      "answer": "Sigourney Weaver",
+      "explanation": "Sigourney Weaver played Ellen Ripley, a warrant officer aboard the spacecraft Nostromo who battles a deadly extraterrestrial creature. The Ridley Scott-directed film was a landmark in both horror and sci-fi. Ripley became one of cinema's first major female action heroes. Weaver reprised the role in three sequels and received an Academy Award nomination for the second film, Aliens (1986).",
+      "memory_hook": "Sigourney Weaver = Ripley in Alien. One of the first great female action heroes in cinema. Before Ripley, the woman in a horror movie existed to scream. Ripley existed to fight."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Bob Dylan was awarded the Nobel Prize in Literature in 2016. He is primarily known as what type of artist?",
+      "options": [
+        "Classical composer",
+        "Poet and novelist",
+        "Singer-songwriter",
+        "Film director"
+      ],
+      "answer": "Singer-songwriter",
+      "explanation": "Bob Dylan won the Nobel Prize in Literature 'for having created new poetic expressions within the great American song tradition.' It was controversial — many questioned whether song lyrics counted as literature. Dylan initially didn't acknowledge the award and took weeks to respond. His songs including 'Blowin' in the Wind,' 'The Times They Are A-Changin',' and 'Like a Rolling Stone' are considered literary masterpieces.",
+      "memory_hook": "Dylan won the Nobel Prize for Literature — for songs. The Nobel Committee said his lyrics are poetry. He didn't respond for weeks. He's the only musician to win it."
+    },
+    {
+      "category": "Geography",
+      "question": "The Mariana Trench, the deepest point in the world's oceans, is located in which ocean?",
+      "options": [
+        "Atlantic Ocean",
+        "Indian Ocean",
+        "Arctic Ocean",
+        "Pacific Ocean"
+      ],
+      "answer": "Pacific Ocean",
+      "explanation": "The Mariana Trench is located in the western Pacific Ocean, east of the Mariana Islands. Its deepest point, Challenger Deep, is approximately 11,034 meters below sea level — deeper than Mount Everest is tall. James Cameron became one of the few people to reach the bottom solo, in 2012, in a submersible he helped design.",
+      "memory_hook": "Mariana Trench = deepest place on Earth, Pacific Ocean. Deeper than Everest is tall. James Cameron directed Titanic and Avatar — then dove to the bottom of the ocean in his spare time."
+    },
+    {
+      "category": "Science & Nature",
+      "question": "What is the name for the process by which a solid converts directly into a gas without becoming a liquid first?",
+      "options": [
+        "Condensation",
+        "Evaporation",
+        "Melting",
+        "Sublimation"
+      ],
+      "answer": "Sublimation",
+      "explanation": "Sublimation is the phase transition from solid directly to gas. Dry ice (solid CO2) sublimates at room temperature — that's the eerie fog you see at concerts. Mothballs sublime slowly at room temperature. Water ice can also sublime, which is how freeze-dried food works and why ice in a freezer slowly shrinks over time.",
+      "memory_hook": "Sublimation = solid to gas, skipping liquid. Dry ice doesn't melt into liquid CO2 — it goes straight from solid to gas. That's why it creates fog instead of a puddle."
+    }
+  ]
+}

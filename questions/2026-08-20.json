@@ -1,0 +1,161 @@
+{
+  "date": "2026-08-20",
+  "questions": [
+    {
+      "category": "History",
+      "question": "The space shuttle Challenger disaster, in which seven astronauts were killed during launch, occurred in which year?",
+      "options": [
+        "1983",
+        "1986",
+        "1989",
+        "1991"
+      ],
+      "answer": "1986",
+      "explanation": "The Space Shuttle Challenger broke apart 73 seconds after launch on January 28, 1986, killing all seven crew members, including schoolteacher Christa McAuliffe. The disaster was caused by the failure of an O-ring seal in cold weather. President Reagan gave one of his most memorable speeches that evening, closing with lines from the poem 'High Flight.' The disaster grounded the shuttle program for nearly three years.",
+      "memory_hook": "Challenger disaster = January 28, 1986. 73 seconds after launch. O-ring failure in cold weather. Engineers had warned against launching. The night before, an engineer reportedly said 'I wish I could freeze time.' Reagan quoted 'High Flight': 'slipped the surly bonds of earth and touched the face of God.'"
+    },
+    {
+      "category": "History",
+      "question": "Who led the Cuban forces during the Bay of Pigs invasion attempt in 1961?",
+      "options": [
+        "Che Guevara",
+        "Raul Castro",
+        "Camilo Cienfuegos",
+        "Fidel Castro"
+      ],
+      "answer": "Fidel Castro",
+      "explanation": "Fidel Castro commanded Cuban forces that repelled the CIA-backed Bay of Pigs invasion of April 17-19, 1961. The invasion was planned under Eisenhower and executed under Kennedy — a force of Cuban exiles trained by the CIA attempted to overthrow Castro. The operation failed disastrously when Kennedy withheld promised air support. The failure embarrassed the Kennedy administration and solidified Castro's grip on power.",
+      "memory_hook": "Bay of Pigs = Castro won, Kennedy embarrassed, April 1961. The CIA trained Cuban exiles. Kennedy inherited the plan and approved it, then pulled the air support at the last minute. The exiles were captured. It was one of the US's most humiliating foreign policy failures."
+    },
+    {
+      "category": "History",
+      "question": "Which ancient civilization built the Parthenon on the Acropolis in Athens?",
+      "options": [
+        "Romans",
+        "Macedonians",
+        "Persians",
+        "Greeks"
+      ],
+      "answer": "Greeks",
+      "explanation": "The Parthenon was built between 447 and 432 BC under Athenian statesman Pericles, during Athens' Golden Age. It was designed by architects Ictinus and Callicrates and was dedicated to the goddess Athena. The sculptor Phidias oversaw the decorative program, including a massive gold and ivory statue of Athena inside. The building is considered the zenith of classical Greek architecture.",
+      "memory_hook": "Parthenon = Greeks, 447-432 BC. Athens' Golden Age under Pericles. Dedicated to Athena. The building is slightly curved to look perfectly straight to the human eye — optical illusions built in stone. The Elgin Marbles, half of its sculptures, are in the British Museum and Greece wants them back."
+    },
+    {
+      "category": "History",
+      "question": "The Great Leap Forward, a disastrous policy that caused tens of millions of deaths, was implemented in which country?",
+      "options": [
+        "Soviet Union",
+        "Vietnam",
+        "North Korea",
+        "China"
+      ],
+      "answer": "China",
+      "explanation": "Mao Zedong's Great Leap Forward (1958-1962) was an economic and social campaign designed to rapidly transform China into a socialist society through industrialization and collectivization. The policies caused the largest famine in human history, killing an estimated 15-55 million people. Agricultural output collapsed while officials reported fictional surpluses. The famine became known as the 'Great Chinese Famine.'",
+      "memory_hook": "Great Leap Forward = Mao's catastrophic plan, 1958-62. The most deadly famine in history. Officials reported crop surpluses that didn't exist — fear of Mao meant no one told the truth. 15-55 million dead from starvation and related causes. The information was suppressed for decades."
+    },
+    {
+      "category": "Sports",
+      "question": "The concept of the Olympic flame and torch relay was introduced at which modern Olympics?",
+      "options": [
+        "1896 Athens",
+        "1920 Antwerp",
+        "1928 Amsterdam",
+        "1936 Berlin"
+      ],
+      "answer": "1936 Berlin",
+      "explanation": "The Olympic torch relay was introduced at the 1936 Berlin Olympics by the Nazi regime, designed to connect the modern Games to ancient Greece and showcase German organization and power. The relay covered 3,187 km from Olympia, Greece, to Berlin. Despite its tainted origins (used as a Nazi propaganda tool), the tradition continued after WWII and has become one of the Olympics' most recognizable symbols.",
+      "memory_hook": "Olympic torch relay = invented for 1936 Nazi Olympics. Leni Riefenstahl's documentary made it look magnificent. The IOC kept the tradition after WWII even knowing its origins. The relay is now one of sport's most iconic rituals — invented as propaganda, adopted as tradition."
+    },
+    {
+      "category": "Sports",
+      "question": "What is 'free diving' in swimming competitions?",
+      "options": [
+        "Diving with no equipment",
+        "Diving from any height",
+        "Swimming any stroke for distance",
+        "The freestyle swimming event"
+      ],
+      "answer": "The freestyle swimming event",
+      "explanation": "In competitive swimming, 'freestyle' means the swimmer may use any stroke they choose. In practice, all competitive swimmers choose the front crawl (often called the freestyle stroke) because it is fastest. The freestyle event distance ranges from 50 meters to 1500 meters in Olympic competition. 'Free diving' as a breath-hold sport is different — competitive swimmers call their event simply 'freestyle.'",
+      "memory_hook": "Freestyle swimming = any stroke, but everyone uses front crawl because it's fastest. The 1500m freestyle is the longest pool event — swimmers do 30 laps, sometimes called the 'mile' though it's actually 1,500m. The 50m freestyle is the sprint — 21 seconds of controlled explosion."
+    },
+    {
+      "category": "Sports",
+      "question": "The 'Thrilla in Manila' boxing match between Muhammad Ali and Joe Frazier took place in which year?",
+      "options": [
+        "1971",
+        "1973",
+        "1975",
+        "1978"
+      ],
+      "answer": "1975",
+      "explanation": "The 'Thrilla in Manila' took place on October 1, 1975, in Quezon City, Philippines. It was the third and final fight between Muhammad Ali and Joe Frazier. Ali won by TKO in the 15th round when Frazier's corner stopped the fight. Both men were near their physical limits. Ali reportedly said afterward it was 'the closest thing to dying that I know of.' It is widely considered one of the greatest sporting events in history.",
+      "memory_hook": "Thrilla in Manila = Ali vs Frazier III, 1975. In the Philippines, 4 AM local time to capture US TV. Ali won when Frazier's trainer stopped it. Ali said afterward it was 'the closest to dying I know of.' Both men were broken by the fight. Frazier never fully forgave Ali for the verbal abuse in the lead-up."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Which director created the 'Dark Knight' trilogy, revolutionizing comic book films?",
+      "options": [
+        "Tim Burton",
+        "Zack Snyder",
+        "Joel Schumacher",
+        "Christopher Nolan"
+      ],
+      "answer": "Christopher Nolan",
+      "explanation": "Christopher Nolan directed Batman Begins (2005), The Dark Knight (2008), and The Dark Knight Rises (2012), collectively known as the Dark Knight Trilogy. The trilogy treated superhero stories with psychological depth and realism, influencing nearly all subsequent comic book films. The Dark Knight grossed over $1 billion worldwide and features Heath Ledger's legendary performance as the Joker.",
+      "memory_hook": "Nolan = Dark Knight Trilogy. Before Nolan, comic book films weren't taken seriously. After The Dark Knight, every superhero film tried to be 'gritty and realistic.' The Dark Knight made $1 billion and got a Best Supporting Actor Oscar for Heath Ledger. It changed the genre permanently."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "'Respect,' a song made famous by Aretha Franklin in 1967, was originally written and recorded by which artist?",
+      "options": [
+        "James Brown",
+        "Wilson Pickett",
+        "Ray Charles",
+        "Otis Redding"
+      ],
+      "answer": "Otis Redding",
+      "explanation": "'Respect' was written and originally recorded by Otis Redding in 1965. Aretha Franklin's 1967 cover transformed it entirely — she changed the perspective (from a man to a woman demanding respect), added the iconic 'R-E-S-P-E-C-T' spelling, and made it an anthem of both the women's rights and civil rights movements. Franklin's version became one of the most important recordings in American music history.",
+      "memory_hook": "'Respect' was Otis Redding's song. Aretha Franklin flipped the perspective — a woman demanding respect from a man — and turned a soul song into a feminist and civil rights anthem. The 'R-E-S-P-E-C-T' spelling was her addition. She took his song and made it hers. He reportedly said she 'stole the song.'"
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Which 1982 film, starring Dustin Hoffman as a man who disguises himself as a woman for an acting job, became a massive comedy hit?",
+      "options": [
+        "Mrs. Doubtfire",
+        "Victor Victoria",
+        "Bosom Buddies",
+        "Tootsie"
+      ],
+      "answer": "Tootsie",
+      "explanation": "Tootsie (1982) starred Dustin Hoffman as Michael Dorsey, a difficult actor who disguises himself as a woman ('Dorothy Michaels') to get a role on a daytime soap opera. The film grossed $177 million and was nominated for 10 Academy Awards. Jessica Lange won Best Supporting Actress. Hoffman later said making Tootsie changed his life — he realized how differently women are treated and felt guilty that he'd never given the equivalent of Dorothy a chance in real life.",
+      "memory_hook": "Tootsie = Dustin Hoffman in drag. 10 Oscar nominations. Hoffman later said realizing he'd never look twice at his character 'Dorothy' in real life — despite her intelligence — made him realize how he'd treated women. The film became a lecture on gender dynamics accidentally."
+    },
+    {
+      "category": "Geography",
+      "question": "Which country contains the headwaters of both the Tigris and Euphrates rivers, which were central to ancient Mesopotamian civilization?",
+      "options": [
+        "Iraq",
+        "Syria",
+        "Iran",
+        "Turkey"
+      ],
+      "answer": "Turkey",
+      "explanation": "Both the Tigris and Euphrates rivers originate in eastern Turkey (Anatolia) before flowing southeast through Syria and Iraq. Ancient Mesopotamia ('Land between the Rivers') in modern Iraq was where civilizations of Sumer, Akkad, Babylon, and Assyria flourished. The Tigris flows through Baghdad; the Euphrates through much of modern Syria and Iraq before joining the Tigris at Shatt al-Arab and flowing into the Persian Gulf.",
+      "memory_hook": "Tigris and Euphrates start in Turkey. Flow through Syria and Iraq. Mesopotamia = 'between the rivers' = Iraq. Where writing, the wheel, and the city were invented. The rivers that cradled civilization begin in Turkey's mountains and empty into the Persian Gulf."
+    },
+    {
+      "category": "Science & Nature",
+      "question": "What is the name of the star closest to our solar system?",
+      "options": [
+        "Barnard's Star",
+        "Sirius",
+        "Proxima Centauri",
+        "Alpha Centauri A"
+      ],
+      "answer": "Proxima Centauri",
+      "explanation": "Proxima Centauri is the closest known star to our solar system, at about 4.24 light-years away. It is a red dwarf star and part of the Alpha Centauri triple star system. Proxima Centauri has a potentially habitable planet, Proxima b, in its orbit. Even at the speed of our fastest spacecraft, it would take over 75,000 years to reach Proxima Centauri.",
+      "memory_hook": "Proxima Centauri = closest star, 4.24 light-years away. Traveling at NASA's New Horizons spacecraft speed (58,000 km/h), it would take 78,000 years to get there. Our nearest neighbor is impossibly far by any human standard of distance."
+    }
+  ]
+}
