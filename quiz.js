@@ -482,13 +482,18 @@ function setupLanding(data) {
 
   // Already played today?
   if (alreadyPlayedToday()) {
+    // Change play buttons to "View Results" instead of hiding them
     ['btn-start-hero', 'btn-start-section'].forEach(id => {
       const el = document.getElementById(id);
-      if (el) el.style.display = 'none';
+      if (!el) return;
+      el.textContent = id === 'btn-start-hero' ? 'View My Results' : 'View Results';
+      el.addEventListener('click', showResultsFromStorage);
     });
-    document.getElementById('already-played-msg').style.display = 'block';
+    document.getElementById('already-played-msg').style.display = 'flex';
     document.getElementById('final-score-replay').textContent =
       `Score: ${localStorage.getItem('fr_lastScore')}`;
+    const viewBtn = document.getElementById('btn-view-results');
+    if (viewBtn) viewBtn.addEventListener('click', showResultsFromStorage);
   } else {
     ['btn-start-hero', 'btn-start-section'].forEach(id => {
       const el = document.getElementById(id);
@@ -736,6 +741,86 @@ function showResults() {
   document.getElementById('btn-share').onclick = shareScore;
 
   // Home button
+  document.getElementById('btn-home').onclick = () => {
+    showScreen('screen-landing');
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+    if (typeof loadLeaderboard === 'function') loadLeaderboard();
+  };
+}
+
+// ── Replay results from localStorage (already-played flow) ─
+function showResultsFromStorage() {
+  // Parse stored score string ("8/10" format)
+  const stored = localStorage.getItem('fr_lastScore') || '0/10';
+  const parts   = stored.split('/');
+  const storedScore = parseInt(parts[0]) || 0;
+  const storedTotal = parseInt(parts[1]) || 10;
+
+  // Restore in-memory state so sharing works correctly
+  score = storedScore;
+  try {
+    categoryScores = JSON.parse(localStorage.getItem('fr_categoryScores') || '{}');
+  } catch (e) {
+    categoryScores = {};
+  }
+
+  showScreen('screen-results');
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+
+  // Title
+  const pct = storedScore / storedTotal;
+  let title = 'Nice effort!';
+  if (pct === 1)       title = 'Perfect Score! 👑';
+  else if (pct >= 0.8) title = 'Royale performance!';
+  else if (pct >= 0.6) title = 'Solid showing!';
+  else if (pct >= 0.4) title = 'Room to grow. Keep playing!';
+  document.getElementById('results-title').textContent = title;
+
+  document.getElementById('score-display').innerHTML =
+    `${storedScore}<span> / ${storedTotal}</span>`;
+
+  // Category breakdown
+  const breakdown = document.getElementById('category-breakdown');
+  breakdown.innerHTML = '';
+  Object.entries(categoryScores).forEach(([cat, s]) => {
+    const row = document.createElement('div');
+    row.className = 'breakdown-row';
+    row.innerHTML = `<span class="breakdown-label">${cat}</span>
+                     <span class="breakdown-score">${s.correct} / ${s.total}</span>`;
+    breakdown.appendChild(row);
+  });
+
+  const streak = getStreak();
+  if (streak > 1) {
+    const streakRow = document.createElement('div');
+    streakRow.className = 'breakdown-row';
+    streakRow.innerHTML = `<span class="breakdown-label">🔥 Streak</span>
+                           <span class="breakdown-score">${streak} days</span>`;
+    breakdown.appendChild(streakRow);
+  }
+
+  // Hide signup nudge for returning players who are signed in
+  const nudgeEl = document.getElementById('signup-nudge');
+  if (nudgeEl) {
+    const isLoggedIn = !!(typeof firebase !== 'undefined' &&
+                          firebase.auth && firebase.auth().currentUser);
+    nudgeEl.style.display = isLoggedIn ? 'none' : 'block';
+    if (!isLoggedIn) {
+      const nudgeBtn = document.getElementById('btn-nudge-signup');
+      if (nudgeBtn) nudgeBtn.onclick = () => {
+        const modal = document.getElementById('auth-modal');
+        if (modal) {
+          modal.style.display = 'flex';
+          const signupTab = document.getElementById('tab-signup');
+          if (signupTab) signupTab.click();
+        }
+      };
+    }
+  }
+
+  document.getElementById('fun-fact-text').textContent = getDailyFunFact();
+  document.getElementById('btn-share').onclick = shareScore;
+
   document.getElementById('btn-home').onclick = () => {
     showScreen('screen-landing');
     window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -1168,4 +1253,157 @@ function drawWideCard(ctx, w, h, data) {
 function drawSquareCard(ctx, w, h, data) {
   drawBg(ctx, w, h, [[0,'#090915'],[0.5,'#110c32'],[1,'#0a1524']]);
   drawDotGrid(ctx, w, h);
-  drawTop
+  drawTopAccent(ctx, w);
+
+  ctx.textAlign = 'center';
+  let y = 62;
+
+  ctx.font = '900 48px Nunito, sans-serif';
+  ctx.fillStyle = '#f0c040';
+  ctx.fillText('♛', w / 2, y); y += 56;
+
+  ctx.font = '800 24px Nunito, sans-serif';
+  ctx.fillStyle = '#f0c040';
+  ctx.fillText('FACT ROYALE', w / 2, y); y += 30;
+
+  ctx.font = '400 18px Nunito, sans-serif';
+  ctx.fillStyle = 'rgba(240,192,64,0.52)';
+  ctx.fillText(data.date, w / 2, y);
+
+  // Score ring
+  const scoreCY = 295;
+  drawScoreRing(ctx, w / 2, scoreCY, 88);
+
+  ctx.font = '900 108px Nunito, sans-serif';
+  ctx.fillStyle = '#f0c040';
+  ctx.textAlign = 'center';
+  ctx.fillText(String(data.score), w / 2, scoreCY + 40);
+
+  ctx.font = '400 20px Nunito, sans-serif';
+  ctx.fillStyle = 'rgba(232,232,240,0.48)';
+  ctx.fillText('out of ' + data.total, w / 2, scoreCY + 66);
+
+  drawPctBadge(ctx, w / 2, scoreCY + 100, data.score, data.total);
+
+  let sy = scoreCY + 148;
+  if (data.rank) {
+    ctx.font = '600 20px Nunito, sans-serif';
+    ctx.fillStyle = 'rgba(232,232,240,0.72)';
+    ctx.textAlign = 'center';
+    ctx.fillText(data.rank, w / 2, sy); sy += 32;
+  }
+  if (data.streak > 1) {
+    ctx.font = '400 20px Nunito, sans-serif';
+    ctx.fillStyle = '#fbbf24';
+    ctx.fillText('🔥 ' + data.streak + '-day streak', w / 2, sy); sy += 32;
+  }
+
+  drawHLine(ctx, w, sy + 12); sy += 34;
+  drawPills(ctx, w, sy + 28, data.categories);
+
+  ctx.font = '700 16px Nunito, sans-serif';
+  ctx.fillStyle = 'rgba(240,192,64,0.52)';
+  ctx.textAlign = 'center';
+  ctx.fillText('♛  fact-royale.com', w / 2, h - 22);
+}
+
+// ── Share actions ──────────────────────────────────────
+
+async function shareCardImage() {
+  const canvas = document.getElementById('share-canvas');
+  if (!canvas) return;
+  canvas.toBlob(async (blob) => {
+    const file = new File([blob], 'fact-royale-score.png', { type: 'image/png' });
+    if (navigator.share && navigator.canShare && navigator.canShare({ files: [file] })) {
+      try {
+        await navigator.share({
+          files: [file],
+          title: 'Fact Royale',
+          text: `I scored ${score}/${questions.length} on today's Fact Royale. fact-royale.com`
+        });
+      } catch (e) {
+        if (e.name !== 'AbortError') downloadCardImage();
+      }
+    } else {
+      downloadCardImage();
+    }
+  }, 'image/png');
+}
+
+function downloadCardImage() {
+  const canvas = document.getElementById('share-canvas');
+  if (!canvas) return;
+  const a = document.createElement('a');
+  a.download = `fact-royale-${todayKey}.png`;
+  a.href     = canvas.toDataURL('image/png');
+  a.click();
+}
+
+function shareScore() {
+  openShareModal();
+}
+
+// ── Share modal wiring ─────────────────────────────────
+
+function initShareModal() {
+  const modal = document.getElementById('share-modal');
+  if (!modal) return;
+
+  // Smart button labels: mobile gets native share sheet, desktop gets download
+  const hasNativeShare = !!(navigator.share && navigator.canShare);
+  const shareBtn = document.getElementById('btn-share-image');
+  const dlBtn    = document.getElementById('btn-download-image');
+  if (shareBtn) shareBtn.textContent = hasNativeShare ? 'Share Image' : 'Download Image';
+  if (dlBtn) dlBtn.style.display = hasNativeShare ? '' : 'none';
+
+  document.getElementById('share-modal-close')
+    .addEventListener('click', closeShareModal);
+
+  modal.addEventListener('click', (e) => {
+    if (e.target === modal) closeShareModal();
+  });
+
+  modal.querySelectorAll('.share-fmt-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      shareFormat = btn.dataset.format;
+      modal.querySelectorAll('.share-fmt-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      renderShareCard();
+    });
+  });
+
+  document.getElementById('btn-share-image')
+    .addEventListener('click', shareCardImage);
+
+  document.getElementById('btn-download-image')
+    .addEventListener('click', downloadCardImage);
+
+  const copyLinkBtn = document.getElementById('btn-copy-link');
+  copyLinkBtn.addEventListener('click', () => {
+    navigator.clipboard.writeText('https://fact-royale.com').then(() => {
+      copyLinkBtn.textContent = 'Copied! ✓';
+      setTimeout(() => { copyLinkBtn.textContent = 'Copy Link'; }, 2200);
+    });
+  });
+}
+
+// ── Boot ───────────────────────────────────────────────
+
+async function init() {
+  todayKey = getTodayKey();
+  initShareModal();
+
+  try {
+    const res  = await fetch(`questions/${todayKey}.json`);
+    if (!res.ok) throw new Error('No quiz file');
+    const data = await res.json();
+
+    questions = shuffle(data.questions);
+    setupLanding(data);
+    showScreen('screen-landing');
+  } catch (e) {
+    showScreen('screen-noquiz');
+  }
+}
+
+document.addEventListener('DOMContentLoaded', init);
