@@ -489,11 +489,9 @@ function setupLanding(data) {
       el.textContent = id === 'btn-start-hero' ? 'View My Results' : 'View Results';
       el.addEventListener('click', showResultsFromStorage);
     });
-    document.getElementById('already-played-msg').style.display = 'flex';
+    document.getElementById('already-played-msg').style.display = 'block';
     document.getElementById('final-score-replay').textContent =
       `Score: ${localStorage.getItem('fr_lastScore')}`;
-    const viewBtn = document.getElementById('btn-view-results');
-    if (viewBtn) viewBtn.addEventListener('click', showResultsFromStorage);
   } else {
     ['btn-start-hero', 'btn-start-section'].forEach(id => {
       const el = document.getElementById(id);
