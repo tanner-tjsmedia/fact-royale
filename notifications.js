@@ -29,9 +29,18 @@ async function initNotifications(user) {
   // Browser blocked it — nothing we can do
   if (Notification.permission === 'denied') return;
 
-  // Don't re-prompt if user explicitly dismissed
+  // Track visits and re-surface prompt every 2 visits after dismissal
+  const visits = parseInt(localStorage.getItem('fr_notif_visits') || '0') + 1;
+  localStorage.setItem('fr_notif_visits', visits);
+
   const pref = localStorage.getItem('fr_notif_pref');
-  if (pref === 'dismissed') return;
+  if (pref === 'dismissed') {
+    const dismissedAt = parseInt(localStorage.getItem('fr_notif_dismiss_visit') || '0');
+    if (visits - dismissedAt < 2) return;   // still within the 2-visit window
+    // Reset — time to ask again
+    localStorage.removeItem('fr_notif_pref');
+    localStorage.removeItem('fr_notif_dismiss_visit');
+  }
 
   // Show our soft prompt (not the browser dialog — that comes when they click Enable)
   showNotifPrompt();
@@ -73,7 +82,9 @@ async function enableNotifications() {
 
 // ── Called when user clicks "Not now" ─────────────────
 function dismissNotifPrompt() {
+  const visits = parseInt(localStorage.getItem('fr_notif_visits') || '0');
   localStorage.setItem('fr_notif_pref', 'dismissed');
+  localStorage.setItem('fr_notif_dismiss_visit', visits);
   hideNotifPrompt();
 }
 
