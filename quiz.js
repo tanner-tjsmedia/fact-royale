@@ -583,6 +583,14 @@ function renderQuestion() {
 
   // Hide feedback
   document.getElementById('feedback-box').style.display = 'none';
+
+  // Slide-in entrance animation
+  const qCard = document.querySelector('.question-card');
+  if (qCard) {
+    qCard.classList.remove('entering', 'exiting');
+    void qCard.offsetWidth; // force reflow
+    qCard.classList.add('entering');
+  }
 }
 
 function handleAnswer(selected, q) {
@@ -634,11 +642,20 @@ function handleAnswer(selected, q) {
   btnNext.textContent = isLast ? 'See Results →' : 'Next Question →';
 
   btnNext.onclick = () => {
-    currentIndex++;
-    if (currentIndex >= questions.length) {
-      showResults();
+    const qCard = document.querySelector('.question-card');
+    const advance = () => {
+      currentIndex++;
+      if (currentIndex >= questions.length) {
+        showResults();
+      } else {
+        renderQuestion();
+      }
+    };
+    if (qCard) {
+      qCard.classList.add('exiting');
+      setTimeout(advance, 280);
     } else {
-      renderQuestion();
+      advance();
     }
   };
 }
@@ -697,9 +714,35 @@ function showResults() {
   document.getElementById('results-title').textContent =
     getResultsTitle(score / questions.length, streak);
 
-  // Score display
-  document.getElementById('score-display').innerHTML =
-    `${score}<span> / ${questions.length}</span>`;
+  // Score display with reveal animation
+  const scoreEl = document.getElementById('score-display');
+  scoreEl.innerHTML = `${score}<span> / ${questions.length}</span>`;
+  scoreEl.classList.remove('reveal');
+  void scoreEl.offsetWidth;
+  scoreEl.classList.add('reveal');
+
+  // Level-up banner (set by mastery.js → updateCategoryMastery)
+  const levelUpEl = document.getElementById('levelup-banner');
+  if (levelUpEl) {
+    try {
+      const levelUps = JSON.parse(localStorage.getItem('fr_levelUps') || '[]');
+      if (levelUps.length > 0) {
+        levelUpEl.innerHTML = levelUps.map(lu =>
+          `<div class="levelup-item">
+            <span class="levelup-icon">${lu.to.icon}</span>
+            <div>
+              <div class="levelup-text">Ranked up in ${lu.category}!</div>
+              <div class="levelup-sub">${lu.from.icon} ${lu.from.name} &rarr; ${lu.to.icon} ${lu.to.name}</div>
+            </div>
+          </div>`
+        ).join('');
+        levelUpEl.style.display = 'block';
+        localStorage.removeItem('fr_levelUps');
+      } else {
+        levelUpEl.style.display = 'none';
+      }
+    } catch (e) { levelUpEl.style.display = 'none'; }
+  }
 
   // Category breakdown
   const breakdown = document.getElementById('category-breakdown');
@@ -1396,7 +1439,7 @@ function initShareModal() {
   copyLinkBtn.addEventListener('click', () => {
     navigator.clipboard.writeText('https://fact-royale.com').then(() => {
       copyLinkBtn.textContent = 'Copied! ✓';
-      setTimeout(() => { copyLinkBtn.textContent = 'Copy Link'; }, 2200);
+      setTimeout(() => { copyLinkBtn.textContent = 'Copy Link'; }      setTimeout(() => { copyLinkBtn.textContent = 'Copy Link'; }, 2200);
     });
   });
 }

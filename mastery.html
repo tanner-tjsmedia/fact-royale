@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mastery — Fact Royale</title>
+
+  <!-- Firebase SDKs -->
+  <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-auth-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore-compat.js"></script>
+  <script src="firebase-config.js"></script>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet" />
+
+  <!-- Shared styles -->
+  <link rel="stylesheet" href="style.css" />
+
+  <style>
+    /* ── Mastery page overrides / layout ── */
+    body { background: var(--bg, #07070f); color: var(--text, #f2f2fa); font-family: var(--font-body, 'DM Sans', sans-serif); }
+
+    /* Nav */
+    .m-nav {
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 0 2rem; height: 62px;
+      border-bottom: 1px solid var(--border-accent);
+      background: rgba(7,7,15,0.92);
+      backdrop-filter: blur(18px);
+      -webkit-backdrop-filter: blur(18px);
+      position: sticky; top: 0; z-index: 100;
+    }
+    .m-nav-logo {
+      font-family: var(--font-display, 'Space Grotesk', sans-serif);
+      font-weight: 700; font-size: 1.15rem;
+      color: var(--gold, #d4af37); text-decoration: none;
+      letter-spacing: -0.02em;
+    }
+    .m-nav-links { display: flex; gap: 1.5rem; align-items: center; }
+    .m-nav-links a {
+      color: var(--text-muted); text-decoration: none;
+      font-size: 0.88rem; font-weight: 500; transition: color 0.2s;
+      letter-spacing: 0.01em;
+    }
+    .m-nav-links a:hover, .m-nav-links a.active { color: var(--gold, #d4af37); }
+    .m-nav-user { font-size: 0.85rem; color: var(--text-muted); display: flex; align-items: center; gap: 0.75rem; }
+    .m-nav-signout {
+      background: none; border: 1px solid var(--border-accent); color: var(--gold, #d4af37);
+      font-size: 0.8rem; padding: 0.35rem 0.85rem; border-radius: 8px; cursor: pointer;
+      font-family: inherit; transition: background 0.2s;
+    }
+    .m-nav-signout:hover { background: var(--gold-dim); }
+
+    /* Page wrapper */
+    .m-page { max-width: 1100px; margin: 0 auto; padding: 2rem 1.5rem 5rem; }
+
+    /* Loading */
+    #mastery-loading {
+      display: flex; align-items: center; justify-content: center;
+      height: 60vh; color: rgba(232,232,240,0.4); font-size: 1rem;
+    }
+
+    /* Sign-in gate */
+    #mastery-signin {
+      display: none; flex-direction: column; align-items: center; justify-content: center;
+      height: 60vh; gap: 1.5rem; text-align: center;
+    }
+    #mastery-signin h2 {
+      font-family: var(--font-display, 'Space Grotesk', sans-serif);
+      font-size: 1.8rem; color: var(--gold, #d4af37); letter-spacing: -0.02em;
+    }
+    #mastery-signin p  { color: var(--text-muted); max-width: 360px; line-height: 1.7; }
+    .m-signin-btn {
+      background: var(--gold, #d4af37); color: #07070f; font-weight: 700; font-size: 1rem;
+      border: none; padding: 0.9rem 2.75rem; border-radius: 50px; cursor: pointer;
+      font-family: var(--font-display, 'Space Grotesk', sans-serif);
+      letter-spacing: 0.01em;
+      transition: opacity 0.2s, box-shadow 0.2s;
+      box-shadow: 0 0 32px rgba(212,175,55,0.22);
+    }
+    .m-signin-btn:hover { opacity: 0.9; box-shadow: 0 0 48px rgba(212,175,55,0.35); }
+
+    /* Hero */
+    .m-hero {
+      text-align: center; padding: 3rem 1rem 2.5rem;
+      border-bottom: 1px solid var(--border-accent);
+      margin-bottom: 2.5rem;
+    }
+    .m-hero-eyebrow {
+      font-family: var(--font-display, 'Space Grotesk', sans-serif);
+      font-size: 0.72rem; font-weight: 600; letter-spacing: 0.16em;
+      color: rgba(212,175,55,0.55); text-transform: uppercase; margin-bottom: 0.5rem;
+    }
+    .m-hero-name {
+      font-size: 1.05rem; color: var(--text-muted); margin-bottom: 1.75rem;
+      font-weight: 500;
+    }
+    .m-hero-numbers {
+      display: flex; justify-content: center; gap: 3.5rem; flex-wrap: wrap; margin-bottom: 2rem;
+    }
+    .m-hero-num-block { text-align: center; }
+    .m-hero-big {
+      font-family: var(--font-display, 'Space Grotesk', sans-serif);
+      font-size: 3.2rem; font-weight: 700; color: var(--gold, #d4af37); line-height: 1;
+      letter-spacing: -0.03em;
+    }
+    .m-hero-big.rank-val { font-size: 2.1rem; }
+    .m-hero-label {
+      font-size: 0.72rem; color: var(--text-subtle); text-transform: uppercase;
+      letter-spacing: 0.1em; margin-top: 0.5rem; font-weight: 500;
+    }
+    .m-hero-sub-row {
+      display: flex; justify-content: center; gap: 2.5rem; flex-wrap: wrap;
+    }
+    .m-hero-sub-block {
+      background: var(--surface2); border: 1px solid var(--border);
+      border-radius: 14px; padding: 0.9rem 1.4rem; text-align: center; min-width: 170px;
+      box-shadow: 0 4px 24px rgba(0,0,0,0.35);
+    }
+    .m-hero-sub-label {
+      font-size: 0.7rem; color: var(--text-subtle); text-transform: uppercase;
+      letter-spacing: 0.1em; margin-bottom: 0.4rem; font-weight: 500;
+    }
+    .m-hero-sub-val { font-size: 1rem; font-weight: 600; font-family: var(--font-display, 'Space Grotesk', sans-serif); }
+    .hero-acc { font-size: 0.85rem; color: var(--text-muted); font-weight: 500; }
+
+    /* Category grid */
+    .m-section-title {
+      font-family: var(--font-display, 'Space Grotesk', sans-serif);
+      font-size: 0.75rem; font-weight: 600; color: rgba(212,175,55,0.6);
+      text-transform: uppercase; letter-spacing: 0.14em; margin-bottom: 1.25rem;
+    }
+    #mastery-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+      gap: 1.25rem;
+    }
+
+    /* Skeleton */
+    .mc-skeleton {
+      height: 320px;
+      background: linear-gradient(90deg, rgba(255,255,255,0.04) 25%, rgba(255,255,255,0.08) 50%, rgba(255,255,255,0.04) 75%);
+      background-size: 200% 100%;
+      animation: shimmer 1.4s infinite;
+      border-radius: 14px;
+    }
+    @keyframes shimmer { 0% { background-position: 200% 0; } 100% { background-position: -200% 0; } }
+
+    @media (max-width: 640px) {
+      .m-nav-links { display: none; }
+      .m-hero-numbers { gap: 1.5rem; }
+      .m-hero-big { font-size: 2.2rem; }
+      #mastery-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Nav -->
+  <nav class="m-nav">
+    <a href="index.html" class="m-nav-logo">♛ Fact Royale</a>
+    <div class="m-nav-links">
+      <a href="index.html">Play Today</a>
+      <a href="index.html#leaderboard">Leaderboard</a>
+      <a href="mastery.html" class="active">Mastery</a>
+    </div>
+    <div class="m-nav-user">
+      <span id="m-nav-username"></span>
+      <button class="m-nav-signout" id="m-btn-signout">Sign Out</button>
+    </div>
+  </nav>
+
+  <!-- Loading -->
+  <div id="mastery-loading">Loading your mastery data...</div>
+
+  <!-- Sign-in gate -->
+  <div id="mastery-signin">
+    <h2>Track Your Mastery</h2>
+    <p>Sign in to see your category rankings, perfect streaks, and progress toward Royale status in every subject.</p>
+    <button class="m-signin-btn" id="m-signin-btn">Sign In to Continue</button>
+  </div>
+
+  <!-- Main content (hidden until auth confirmed) -->
+  <div id="mastery-content" style="display:none">
+    <div class="m-page">
+
+      <!-- Hero -->
+      <div class="m-hero">
+        <div class="m-hero-eyebrow">Category Mastery</div>
+        <div class="m-hero-name" id="mastery-username"></div>
+
+        <div class="m-hero-numbers">
+          <div class="m-hero-num-block">
+            <div class="m-hero-big" id="mastery-score">—</div>
+            <div class="m-hero-label">Mastery Score</div>
+          </div>
+          <div class="m-hero-num-block">
+            <div class="m-hero-big rank-val" id="mastery-best-rank">—</div>
+            <div class="m-hero-label">Highest Rank</div>
+          </div>
+          <div class="m-hero-num-block">
+            <div class="m-hero-big" id="mastery-total-q">—</div>
+            <div class="m-hero-label">Questions Answered</div>
+          </div>
+          <div class="m-hero-num-block">
+            <div class="m-hero-big" id="mastery-overall-acc">—</div>
+            <div class="m-hero-label">Overall Accuracy</div>
+          </div>
+        </div>
+
+        <div class="m-hero-sub-row">
+          <div class="m-hero-sub-block">
+            <div class="m-hero-sub-label">Strongest Category</div>
+            <div class="m-hero-sub-val" id="mastery-strongest">Play more to unlock</div>
+          </div>
+          <div class="m-hero-sub-block">
+            <div class="m-hero-sub-label">Needs Work</div>
+            <div class="m-hero-sub-val" id="mastery-weakest">Play more to unlock</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Tier reference -->
+      <div style="margin-bottom:2rem">
+        <div class="m-section-title">Rank Tiers</div>
+        <div id="mastery-tier-ref" class="mc-tier-ref"></div>
+      </div>
+
+      <!-- Category cards -->
+      <div class="m-section-title">Your Categories</div>
+      <div id="mastery-grid"></div>
+
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="mastery.js"></script>
+  <script>
+    // Nav auth
+    auth.onAuthStateChanged(user => {
+      const nameEl = document.getElementById('m-nav-username');
+      if (nameEl) nameEl.textContent = user ? (user.displayName || user.email.split('@')[0]) : '';
+    });
+
+    // Sign-out
+    document.getElementById('m-btn-signout').addEventListener('click', () => {
+      auth.signOut().then(() => { window.location.href = 'index.html'; });
+    });
+
+    // Sign-in button (opens index.html auth modal — just redirect)
+    document.getElementById('m-signin-btn').addEventListener('click', () => {
+      window.location.href = 'index.html';
+    });
+
+    // Render tier reference row
+    document.addEventListener('DOMContentLoaded', () => {
+      const ref = document.getElementById('mastery-tier-ref');
+      if (ref) {
+        ref.innerHTML = MASTERY_TIERS.map(t => `
+          <div class="mc-tier-ref-item">
+            <span class="mc-tier-ref-icon" style="color:${t.color}">${t.icon}</span>
+            <span class="mc-tier-ref-name" style="color:${t.color}">${t.name}</span>
+            <span class="mc-tier-ref-req">${t.minTotal > 0 ? `${t.minTotal}q` : ''} ${t.minAcc > 0 ? `${Math.round(t.minAcc*100)}%+` : ''}</span>
+          </div>`).join('');
+      }
+    });
+  </script>
+</body>
+</html>

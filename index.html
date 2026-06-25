@@ -7,7 +7,7 @@
 
   <!-- SEO -->
   <meta name="description" content="Daily trivia. Every answer teaches you something. Play Fact Royale — one quiz a day across History, Sports, and Music & Movies." />
-  <meta name="theme-color" content="#0f0f1a" />
+  <meta name="theme-color" content="#07070f" />
 
   <!-- Open Graph (link previews on social/iMessage) -->
   <meta property="og:title" content="Fact Royale" />
@@ -30,7 +30,8 @@
   <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-messaging-compat.js"></script>
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
@@ -44,6 +45,7 @@
       <div class="nav-links">
         <a href="#daily" class="nav-link">Play Today</a>
         <a href="#leaderboard" class="nav-link">Leaderboard</a>
+        <a href="mastery.html" class="nav-link">Mastery</a>
         <a href="#notify" class="nav-link nav-link-cta">Stay Updated</a>
       </div>
       <div class="nav-auth">
@@ -220,6 +222,19 @@
       </div>
     </section>
 
+    <!-- MASTERY TEASER (shown to signed-in users) -->
+    <section class="home-section" id="mastery-teaser" style="display:none;">
+      <div class="mt-header">
+        <span class="mt-title">Your Mastery</span>
+        <div class="mt-score-row">
+          <span class="mt-score-num" id="mastery-teaser-score">0</span>
+          <span class="mt-score-lbl">mastery score</span>
+          <a href="mastery.html" class="mt-view-link" style="margin-left:1rem">Full Breakdown →</a>
+        </div>
+      </div>
+      <div id="mastery-teaser-pills"></div>
+    </section>
+
     <!-- COMING SOON -->
     <section class="home-section" id="coming-soon">
       <div class="section-header">
@@ -354,6 +369,9 @@
         <p class="results-rank-pct" id="results-rank-pct"></p>
       </div>
 
+      <!-- Level-up banner (shown when mastery tier increases) -->
+      <div id="levelup-banner" style="display:none;"></div>
+
       <div class="category-breakdown" id="category-breakdown"></div>
 
       <!-- Sign-up nudge (anonymous users only) -->
@@ -480,6 +498,7 @@
 
   <script src="firebase-config.js"></script>
   <script src="auth.js"></script>
+  <script src="mastery.js"></script>
   <script src="notifications.js"></script>
   <script src="quiz.js"></script>
 </body>

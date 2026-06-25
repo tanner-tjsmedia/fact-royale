@@ -279,6 +279,11 @@ async function submitScoreToFirebase(score, total, categoryScores, dateKey) {
       'categoryStats':           catStats
     });
 
+    // Update category mastery (mastery.js)
+    if (typeof updateCategoryMastery === 'function') {
+      updateCategoryMastery(categoryScores, dateKey);
+    }
+
     // Refresh leaderboard and stats after submission
     loadLeaderboard();
     loadPersonalStats(uid);
