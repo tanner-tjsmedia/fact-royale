@@ -2175,28 +2175,33 @@ body > * { position: relative; z-index: 1; }
 .notif-prompt {
   display: flex;
   align-items: center;
-  gap: 12px;
-  background: linear-gradient(135deg, rgba(240,192,64,0.1), rgba(240,192,64,0.04));
-  border-bottom: 1px solid rgba(240,192,64,0.2);
-  padding: 12px clamp(16px, 4vw, 40px);
+  justify-content: center;
+  gap: 0.75rem;
+  background: rgba(212,175,55,0.06);
+  border-bottom: 1px solid rgba(212,175,55,0.15);
+  padding: 0.6rem clamp(16px, 4vw, 40px);
   flex-wrap: wrap;
 }
 
 .notif-prompt-icon {
-  font-size: 1.2rem;
+  font-size: 1rem;
   flex-shrink: 0;
+  opacity: 0.8;
 }
 
 .notif-prompt-body {
-  flex: 1;
-  min-width: 180px;
-  font-size: clamp(0.8rem, 2.2vw, 0.88rem);
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  flex-wrap: wrap;
+  font-size: 0.84rem;
 }
 
 .notif-prompt-body strong {
-  display: block;
-  color: var(--gold);
-  margin-bottom: 2px;
+  font-family: var(--font-display, 'Space Grotesk', sans-serif);
+  font-weight: 700;
+  color: var(--gold, #d4af37);
+  white-space: nowrap;
 }
 
 .notif-prompt-body span {
@@ -2205,43 +2210,45 @@ body > * { position: relative; z-index: 1; }
 
 .notif-prompt-actions {
   display: flex;
-  gap: 8px;
+  gap: 0.5rem;
   flex-shrink: 0;
 }
 
 .notif-prompt-enable {
-  padding: 8px 16px;
-  background: rgba(240,192,64,0.15);
-  color: var(--gold);
-  border: 1px solid rgba(240,192,64,0.4);
-  border-radius: 8px;
-  font-size: 0.82rem;
-  font-weight: 800;
+  padding: 0.35rem 1rem;
+  background: var(--gold, #d4af37);
+  color: #07070f;
+  border: none;
+  border-radius: 50px;
+  font-size: 0.8rem;
+  font-weight: 700;
   cursor: pointer;
-  font-family: var(--font-body);
-  transition: background var(--transition);
+  font-family: var(--font-display, 'Space Grotesk', sans-serif);
+  transition: opacity 0.2s;
   white-space: nowrap;
+  letter-spacing: 0.01em;
 }
 
 .notif-prompt-enable:hover {
-  background: rgba(240,192,64,0.28);
+  opacity: 0.88;
 }
 
 .notif-prompt-dismiss {
-  padding: 8px 12px;
+  padding: 0.35rem 0.75rem;
   background: transparent;
   color: var(--text-muted);
-  border: 1px solid rgba(255,255,255,0.1);
-  border-radius: 8px;
-  font-size: 0.82rem;
+  border: 1px solid rgba(255,255,255,0.12);
+  border-radius: 50px;
+  font-size: 0.8rem;
   cursor: pointer;
-  font-family: var(--font-body);
-  transition: color var(--transition);
+  font-family: var(--font-body, 'DM Sans', sans-serif);
+  transition: color 0.2s, border-color 0.2s;
   white-space: nowrap;
 }
 
 .notif-prompt-dismiss:hover {
   color: var(--text);
+  border-color: rgba(255,255,255,0.25);
 }
 
 .notif-enabled-confirm {
