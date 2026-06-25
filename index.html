@@ -32,7 +32,57 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="style.css?v=5" />
+  <link rel="stylesheet" href="style.css?v=6" />
+  <style>
+    /* ── Mastery teaser layout (inline to survive CSS caching) ── */
+    #mastery-teaser {
+      background: linear-gradient(135deg, rgba(212,175,55,0.05) 0%, rgba(7,7,15,0) 60%);
+      border: 1px solid rgba(212,175,55,0.15);
+      border-radius: 20px;
+      padding: 1.5rem !important;
+      margin-top: 1.25rem;
+    }
+    .mt-header {
+      display: flex; align-items: center;
+      justify-content: space-between; flex-wrap: wrap;
+      gap: 0.75rem; margin-bottom: 1.25rem;
+    }
+    .mt-title {
+      font-family: var(--font-display, 'Space Grotesk', sans-serif);
+      font-size: 0.7rem; font-weight: 700;
+      color: rgba(212,175,55,0.65);
+      letter-spacing: 0.14em; text-transform: uppercase;
+    }
+    .mt-score-row { display: flex; align-items: baseline; gap: 0.5rem; flex-wrap: wrap; }
+    .mt-score-num {
+      font-family: var(--font-display, 'Space Grotesk', sans-serif);
+      font-size: 2.2rem; font-weight: 700;
+      color: var(--gold, #d4af37);
+      letter-spacing: -0.04em; line-height: 1;
+    }
+    .mt-score-lbl { font-size: 0.8rem; color: var(--text-muted, rgba(232,232,240,0.5)); }
+    .mt-view-link {
+      font-size: 0.82rem; font-weight: 600;
+      color: var(--gold, #d4af37); text-decoration: none; opacity: 0.65;
+      transition: opacity 0.2s;
+    }
+    .mt-view-link:hover { opacity: 1; }
+    #mastery-teaser-pills { display: flex; gap: 0.5rem; flex-wrap: wrap; }
+    .mt-pill {
+      display: inline-flex; align-items: center; gap: 0.4rem;
+      border-radius: 20px; padding: 0.4rem 0.9rem; font-size: 0.8rem;
+      background: rgba(255,255,255,0.06);
+      border: 1px solid rgba(255,255,255,0.12);
+      cursor: default; transition: background 0.2s;
+    }
+    .mt-pill:hover { background: rgba(255,255,255,0.1); }
+    .mt-pill-icon { font-size: 0.9rem; }
+    .mt-pill-cat {
+      font-family: var(--font-display, 'Space Grotesk', sans-serif);
+      font-weight: 600; font-size: 0.8rem;
+    }
+    .mt-pill-tier { font-size: 0.72rem; opacity: 0.7; }
+  </style>
 </head>
 <body>
 

@@ -17,7 +17,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet" />
 
   <!-- Shared styles -->
-  <link rel="stylesheet" href="style.css?v=5" />
+  <link rel="stylesheet" href="style.css?v=6" />
 
   <style>
     /* ── Mastery page overrides / layout ── */
@@ -155,6 +155,102 @@
       .m-hero-big { font-size: 2.2rem; }
       #mastery-grid { grid-template-columns: 1fr; }
     }
+
+    /* ── Critical layout: category cards (inline to survive CSS caching) ── */
+    .mc-card {
+      background: rgba(255,255,255,0.03);
+      border: 1px solid rgba(255,255,255,0.08);
+      border-radius: 18px; overflow: hidden;
+      transition: border-color 0.25s, transform 0.2s, box-shadow 0.25s;
+      box-shadow: 0 4px 24px rgba(0,0,0,0.35);
+    }
+    .mc-card:hover {
+      border-color: rgba(212,175,55,0.25); transform: translateY(-3px);
+      box-shadow: 0 12px 40px rgba(0,0,0,0.45);
+    }
+    .mc-header {
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 1rem 1.25rem;
+    }
+    .mc-cat-name {
+      font-family: var(--font-display, 'Space Grotesk', sans-serif);
+      font-size: 1rem; font-weight: 700; letter-spacing: -0.01em;
+    }
+    .mc-tier-badge {
+      font-family: var(--font-display, 'Space Grotesk', sans-serif);
+      font-size: 0.78rem; font-weight: 700;
+      padding: 0.3rem 0.75rem; border-radius: 20px; white-space: nowrap;
+    }
+    .mc-stats {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      border-top: 1px solid rgba(255,255,255,0.06);
+      border-bottom: 1px solid rgba(255,255,255,0.06);
+    }
+    .mc-stat {
+      text-align: center; padding: 1rem 0.25rem;
+      border-right: 1px solid rgba(255,255,255,0.06);
+    }
+    .mc-stat:last-child { border-right: none; }
+    .mc-val {
+      font-family: var(--font-display, 'Space Grotesk', sans-serif);
+      font-size: 1.4rem; font-weight: 700;
+      color: var(--text, #f2f2fa); line-height: 1.1; letter-spacing: -0.02em;
+    }
+    .mc-sub { font-size: 0.72rem; font-weight: 600; color: rgba(232,232,240,0.38); }
+    .mc-lbl {
+      font-size: 0.62rem; color: rgba(232,232,240,0.5);
+      text-transform: uppercase; letter-spacing: 0.07em;
+      margin-top: 0.3rem; font-weight: 500;
+    }
+    .mc-progress {
+      padding: 1rem 1.25rem;
+      border-bottom: 1px solid rgba(255,255,255,0.06);
+    }
+    .mc-prog-header {
+      font-family: var(--font-display, 'Space Grotesk', sans-serif);
+      font-size: 0.72rem; font-weight: 600; color: rgba(232,232,240,0.45);
+      margin-bottom: 0.75rem; text-transform: uppercase; letter-spacing: 0.08em;
+    }
+    .mc-prog-row {
+      display: flex; align-items: center;
+      gap: 0.6rem; margin-bottom: 0.5rem;
+    }
+    .mc-prog-tag {
+      font-size: 0.68rem; color: rgba(232,232,240,0.38);
+      width: 60px; flex-shrink: 0; text-transform: uppercase;
+    }
+    .mc-prog-num {
+      font-family: var(--font-display, 'Space Grotesk', sans-serif);
+      font-size: 0.7rem; font-weight: 600; color: rgba(232,232,240,0.5);
+      width: 68px; flex-shrink: 0; text-align: right;
+    }
+    .mc-track {
+      flex: 1; height: 5px; background: rgba(255,255,255,0.07);
+      border-radius: 3px; overflow: hidden;
+    }
+    .mc-fill { height: 100%; border-radius: 3px; transition: width 0.7s ease; }
+    .mc-need { font-size: 0.72rem; color: rgba(232,232,240,0.4); margin-top: 0.4rem; font-style: italic; }
+    .mc-need.mc-ready { color: #34d399; font-style: normal; font-weight: 600; }
+    .mc-spark-section { padding: 0.85rem 1.25rem; }
+    .mc-spark-label {
+      font-size: 0.62rem; color: rgba(232,232,240,0.35);
+      text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 0.5rem;
+    }
+    .mc-sparkline { display: flex; align-items: flex-end; gap: 3px; height: 36px; }
+    .spark-bar { flex: 1; border-radius: 2px; min-height: 4px; transition: opacity 0.2s; }
+    .spark-bar:hover { opacity: 1 !important; }
+    .spark-perfect { opacity: 1 !important; }
+    .mc-spark-empty { font-size: 0.75rem; color: rgba(232,232,240,0.3); font-style: italic; }
+    .mc-tier-ref { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+    .mc-tier-ref-item {
+      display: flex; align-items: center; gap: 0.4rem;
+      background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.09);
+      border-radius: 20px; padding: 0.35rem 0.8rem;
+    }
+    .mc-tier-ref-icon { font-size: 1rem; }
+    .mc-tier-ref-name { font-size: 0.78rem; font-weight: 700; }
+    .mc-tier-ref-req { font-size: 0.68rem; color: rgba(232,232,240,0.4); margin-left: 0.2rem; }
   </style>
 </head>
 <body>

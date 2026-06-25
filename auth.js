@@ -592,11 +592,15 @@ function renderPersonalStats(data) {
 
   catsEl.innerHTML = Object.entries(cats).map(([cat, s]) => {
     const pct        = s.played ? Math.round((s.correct / s.played) * 100) : 0;
-    const colorClass = cat.toLowerCase().includes('history') ? 'cat-history'
-                     : cat.toLowerCase().includes('sport')   ? 'cat-sports'
+    const colorClass = cat.toLowerCase().includes('history')   ? 'cat-history'
+                     : cat.toLowerCase().includes('sport')     ? 'cat-sports'
+                     : cat.toLowerCase().includes('geography') ? 'cat-geography'
+                     : cat.toLowerCase().includes('science')   ? 'cat-science'
                      : 'cat-music';
-    const barColor   = cat.toLowerCase().includes('history') ? 'var(--history)'
-                     : cat.toLowerCase().includes('sport')   ? 'var(--sports)'
+    const barColor   = cat.toLowerCase().includes('history')   ? 'var(--history)'
+                     : cat.toLowerCase().includes('sport')     ? 'var(--sports)'
+                     : cat.toLowerCase().includes('geography') ? 'var(--geography)'
+                     : cat.toLowerCase().includes('science')   ? 'var(--science)'
                      : 'var(--music)';
     return `
       <div class="stat-cat-row">
