@@ -6,13 +6,13 @@
 // ── Tier Definitions ─────────────────────────────────────
 
 const MASTERY_TIERS = [
-  { id: 'unranked', name: 'Unranked', minTotal:   0, minAcc: 0.00, color: '#6b7280', icon: '—'  },
-  { id: 'page',     name: 'Page',     minTotal:   5, minAcc: 0.00, color: '#9ca3af', icon: '📜' },
-  { id: 'knight',   name: 'Knight',   minTotal:  10, minAcc: 0.50, color: '#cd7f32', icon: '⚔️' },
-  { id: 'baron',    name: 'Baron',    minTotal:  25, minAcc: 0.65, color: '#c0c0c0', icon: '🛡️' },
-  { id: 'earl',     name: 'Earl',     minTotal:  50, minAcc: 0.75, color: '#f59e0b', icon: '👑' },
-  { id: 'duke',     name: 'Duke',     minTotal: 100, minAcc: 0.85, color: '#67e8f9', icon: '💎' },
-  { id: 'royale',   name: 'Royale',   minTotal: 200, minAcc: 0.92, color: '#f0c040', icon: '♛'  },
+  { id: 'unranked', name: 'Unranked', minTotal:   0, minAcc: 0.00, color: '#6b7280', icon: ICONS.tiers.unranked },
+  { id: 'page',     name: 'Page',     minTotal:   5, minAcc: 0.00, color: '#9ca3af', icon: ICONS.tiers.page     },
+  { id: 'knight',   name: 'Knight',   minTotal:  10, minAcc: 0.50, color: '#cd7f32', icon: ICONS.tiers.knight   },
+  { id: 'baron',    name: 'Baron',    minTotal:  25, minAcc: 0.65, color: '#c0c0c0', icon: ICONS.tiers.baron    },
+  { id: 'earl',     name: 'Earl',     minTotal:  50, minAcc: 0.75, color: '#f59e0b', icon: ICONS.tiers.earl     },
+  { id: 'duke',     name: 'Duke',     minTotal: 100, minAcc: 0.85, color: '#67e8f9', icon: ICONS.tiers.duke     },
+  { id: 'royale',   name: 'Royale',   minTotal: 200, minAcc: 0.92, color: '#f0c040', icon: ICONS.tiers.royale   },
 ];
 
 const CAT_META = {
@@ -330,7 +330,7 @@ function renderCategoryCards(categoryMastery, historyMap) {
           <div class="mc-lbl">Correct</div>
         </div>
         <div class="mc-stat">
-          <div class="mc-val">${stats.perfectStreak || 0}<span class="mc-sub"> 🔥</span></div>
+          <div class="mc-val">${stats.perfectStreak || 0}<span class="mc-sub"><span class="fr-icon fr-icon-xs" style="color:var(--gold,#d4af37);vertical-align:middle">${ICONS.flame}</span></span></div>
           <div class="mc-lbl">Perfect Streak</div>
         </div>
         <div class="mc-stat">

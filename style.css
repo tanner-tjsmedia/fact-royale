@@ -94,6 +94,37 @@ body > * { position: relative; z-index: 1; }
 }
 
 /* ===========================
+   ICON SYSTEM (.fr-icon)
+   =========================== */
+
+.fr-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  line-height: 1;
+}
+.fr-icon svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+/* Size variants */
+.fr-icon-xs  { width: 0.85em; height: 0.85em; }
+.fr-icon-sm  { width: 1.1em;  height: 1.1em;  }
+.fr-icon-md  { width: 1.4em;  height: 1.4em;  }
+.fr-icon-lg  { width: 1.8em;  height: 1.8em;  }
+.fr-icon-xl  { width: 2.4em;  height: 2.4em;  }
+
+/* Tier icon sizing in context */
+.mc-tier-badge .fr-icon,
+.mc-tier-badge svg { display: inline-block; width: 1em; height: 1em; vertical-align: middle; }
+.mt-pill-icon svg  { display: block; width: 1em; height: 1em; }
+.lb-rank .fr-icon,
+.lb-rank svg       { display: inline-block; vertical-align: middle; }
+
+/* ===========================
    SCREENS
    =========================== */
 
@@ -1814,7 +1845,7 @@ body > * { position: relative; z-index: 1; }
   color: var(--wrong);
 }
 
-.streak-banner-icon { font-size: 1.2rem; }
+.streak-banner-icon { display: flex; align-items: center; flex-shrink: 0; }
 
 .streak-banner-btn {
   background: var(--gold);
@@ -2184,9 +2215,10 @@ body > * { position: relative; z-index: 1; }
 }
 
 .notif-prompt-icon {
-  font-size: 1rem;
+  display: flex;
+  align-items: center;
   flex-shrink: 0;
-  opacity: 0.8;
+  opacity: 0.85;
 }
 
 .notif-prompt-body {

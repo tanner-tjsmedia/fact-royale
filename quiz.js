@@ -469,7 +469,7 @@ function setupLanding(data) {
 
   const streak = getStreak();
   const streakEl = document.getElementById('landing-streak');
-  streakEl.textContent = streak > 0 ? `🔥 ${streak} day streak` : 'Start your streak!';
+  streakEl.innerHTML = streak > 0 ? `<span class="fr-icon fr-icon-sm" style="color:var(--gold,#d4af37)">${ICONS.flame}</span> ${streak} day streak` : 'Start your streak!';
 
   // Category pills
   const cats = [...new Set(data.questions.map(q => q.category))];
@@ -558,7 +558,7 @@ function renderQuestion() {
 
   // Streak in header
   const streak = getStreak();
-  document.getElementById('quiz-streak').textContent = streak > 0 ? `🔥 ${streak}` : '';
+  document.getElementById('quiz-streak').innerHTML = streak > 0 ? `<span class="fr-icon fr-icon-sm" style="color:var(--gold,#d4af37)">${ICONS.flame}</span> ${streak}` : '';
 
   // Category tag
   const catEl = document.getElementById('q-category');
@@ -682,18 +682,21 @@ function logPlayToFirestore(finalScore, total) {
 
 function getResultsTitle(pct, streak) {
   let title;
-  if (pct === 1)       title = 'Perfect Score! 👑';
+  const crownSvg  = `<span class="fr-icon fr-icon-sm" style="color:var(--gold,#d4af37);vertical-align:middle">${ICONS.crown}</span>`;
+  const flameSvg  = `<span class="fr-icon fr-icon-sm" style="color:var(--gold,#d4af37);vertical-align:middle">${ICONS.flame}</span>`;
+  const trophysvg = `<span class="fr-icon fr-icon-sm" style="color:var(--gold,#d4af37);vertical-align:middle">${ICONS.trophy}</span>`;
+  if (pct === 1)       title = `Perfect Score! ${crownSvg}`;
   else if (pct >= 0.8) title = 'Royale performance!';
   else if (pct >= 0.6) title = 'Solid showing!';
   else if (pct >= 0.4) title = 'Room to grow. Keep playing!';
   else                 title = 'Nice effort!';
 
-  if (streak >= 100) return `${title}  |  ${streak} days straight 🏆`;
-  if (streak >= 50)  return `${title}  |  50 days running 🔥`;
-  if (streak >= 30)  return `${title}  |  One month in 🔥`;
-  if (streak >= 14)  return `${title}  |  ${streak} days straight 🔥`;
-  if (streak >= 10)  return `${title}  |  ${streak}-day streak 🔥`;
-  if (streak >= 7)   return `${title}  |  One week strong 🔥`;
+  if (streak >= 100) return `${title}  |  ${streak} days straight ${trophysvg}`;
+  if (streak >= 50)  return `${title}  |  50 days running ${flameSvg}`;
+  if (streak >= 30)  return `${title}  |  One month in ${flameSvg}`;
+  if (streak >= 14)  return `${title}  |  ${streak} days straight ${flameSvg}`;
+  if (streak >= 10)  return `${title}  |  ${streak}-day streak ${flameSvg}`;
+  if (streak >= 7)   return `${title}  |  One week strong ${flameSvg}`;
   return title;
 }
 
@@ -711,7 +714,7 @@ function showResults() {
   showScreen('screen-results');
 
   // Title
-  document.getElementById('results-title').textContent =
+  document.getElementById('results-title').innerHTML =
     getResultsTitle(score / questions.length, streak);
 
   // Score display with reveal animation
@@ -762,7 +765,7 @@ function showResults() {
     const streakRow = document.createElement('div');
     streakRow.className = 'breakdown-row';
     streakRow.innerHTML = `
-      <span class="breakdown-label">🔥 Streak</span>
+      <span class="breakdown-label"><span class="fr-icon fr-icon-xs" style="color:var(--gold,#d4af37);vertical-align:middle">${ICONS.flame}</span> Streak</span>
       <span class="breakdown-score">${streak} days</span>
     `;
     breakdown.appendChild(streakRow);
@@ -824,7 +827,7 @@ function showResultsFromStorage() {
 
   // Title
   const streak = getStreak();
-  document.getElementById('results-title').textContent =
+  document.getElementById('results-title').innerHTML =
     getResultsTitle(storedScore / storedTotal, streak);
 
   document.getElementById('score-display').innerHTML =
