@@ -160,14 +160,19 @@ async function loadMasteryPage() {
       '<div class="mc-card mc-skeleton"></div>').join('');
 
     try {
-      const userRef = db.collection('users').doc(user.uid);
-      const [userSnap, historySnap] = await Promise.all([
-        userRef.get(),
-        userRef.collection('masteryHistory')
+      const userRef  = db.collection('users').doc(user.uid);
+      const userSnap = await userRef.get();
+
+      // Fetch history separately — if Firestore rules block it, degrade gracefully
+      let historySnap = { docs: [] };
+      try {
+        historySnap = await userRef.collection('masteryHistory')
           .orderBy(firebase.firestore.FieldPath.documentId(), 'desc')
           .limit(14)
-          .get(),
-      ]);
+          .get();
+      } catch (histErr) {
+        console.warn('[Mastery] masteryHistory unavailable — update Firestore rules to enable sparklines:', histErr.code);
+      }
 
       const data = userSnap.data() || {};
       let categoryMastery = data.categoryMastery || {};
