@@ -169,9 +169,15 @@ async function loadMasteryPage() {
           .get(),
       ]);
 
-      const data            = userSnap.data() || {};
-      const categoryMastery = data.categoryMastery || {};
-      const masteryScore    = data.masteryScore != null
+      const data = userSnap.data() || {};
+      let categoryMastery = data.categoryMastery || {};
+
+      // Auto-seed from categoryStats if mastery is empty
+      if (isMasteryEmpty(categoryMastery) && data.categoryStats) {
+        categoryMastery = await seedMasteryFromStats(userRef, data.categoryStats);
+      }
+
+      const masteryScore = data.masteryScore != null && !isMasteryEmpty(categoryMastery)
         ? data.masteryScore
         : computeMasteryScore(categoryMastery);
 
@@ -354,6 +360,45 @@ function buildSparkline(history, color) {
   return `<div class="mc-sparkline">${bars}</div>`;
 }
 
+// ── Auto-seed mastery from categoryStats ─────────────────
+// Runs once for any user whose categoryMastery is empty but
+// who has existing categoryStats from prior quiz play.
+
+async function seedMasteryFromStats(userRef, categoryStats) {
+  if (!categoryStats || Object.keys(categoryStats).length === 0) return {};
+
+  const categoryMastery = {};
+  Object.entries(categoryStats).forEach(([cat, s]) => {
+    const correct = s.correct || 0;
+    const total   = s.played  || 0;
+    if (total === 0) return;
+    categoryMastery[cat] = {
+      correct,
+      total,
+      perfectStreak:     0,  // can't know historical streaks
+      bestPerfectStreak: 0,
+      lastPlayedDate:    '',
+      level:             computeTier(correct, total).id,
+    };
+  });
+
+  if (Object.keys(categoryMastery).length === 0) return {};
+
+  const masteryScore = computeMasteryScore(categoryMastery);
+  try {
+    await userRef.update({ categoryMastery, masteryScore });
+    console.log('[Mastery] Auto-seeded from categoryStats. Score:', masteryScore);
+  } catch (e) {
+    console.warn('[Mastery] Seed write failed:', e);
+  }
+  return categoryMastery;
+}
+
+function isMasteryEmpty(categoryMastery) {
+  if (!categoryMastery || Object.keys(categoryMastery).length === 0) return true;
+  return Object.values(categoryMastery).every(c => (c.total || 0) === 0);
+}
+
 // ── Homepage Mastery Teaser ───────────────────────────────
 
 async function loadMasteryTeaser() {
@@ -363,10 +408,17 @@ async function loadMasteryTeaser() {
   auth.onAuthStateChanged(async user => {
     if (!user) { teaserEl.style.display = 'none'; return; }
     try {
-      const snap  = await db.collection('users').doc(user.uid).get();
-      const data  = snap.data() || {};
-      const cm    = data.categoryMastery || {};
-      const score = data.masteryScore || 0;
+      const userRef = db.collection('users').doc(user.uid);
+      const snap    = await userRef.get();
+      const data    = snap.data() || {};
+      let cm        = data.categoryMastery || {};
+      let score     = data.masteryScore || 0;
+
+      // Auto-seed if mastery is empty but categoryStats exists
+      if (isMasteryEmpty(cm) && data.categoryStats) {
+        cm    = await seedMasteryFromStats(userRef, data.categoryStats);
+        score = computeMasteryScore(cm);
+      }
 
       const scoreEl = document.getElementById('mastery-teaser-score');
       const pillsEl = document.getElementById('mastery-teaser-pills');
