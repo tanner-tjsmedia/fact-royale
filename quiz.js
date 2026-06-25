@@ -1439,7 +1439,7 @@ function initShareModal() {
   copyLinkBtn.addEventListener('click', () => {
     navigator.clipboard.writeText('https://fact-royale.com').then(() => {
       copyLinkBtn.textContent = 'Copied! ✓';
-      setTimeout(() => { copyLinkBtn.textContent = 'Copy Link'; }      setTimeout(() => { copyLinkBtn.textContent = 'Copy Link'; }, 2200);
+      setTimeout(() => { copyLinkBtn.textContent = 'Copy Link'; }, 2200);
     });
   });
 }
