@@ -293,16 +293,16 @@ async function submitScoreToFirebase(score, total, categoryScores, dateKey) {
 // Real players always rank above seeds. Seeds disappear
 // automatically as real players join.
 const SEED_PLAYERS = [
-  { displayName: 'Alex M.',   baseScore: 9 },
-  { displayName: 'Jordan K.', baseScore: 9 },
-  { displayName: 'Sam R.',    baseScore: 8 },
-  { displayName: 'Taylor B.', baseScore: 8 },
-  { displayName: 'Morgan C.', baseScore: 7 },
-  { displayName: 'Riley P.',  baseScore: 7 },
-  { displayName: 'Casey D.',  baseScore: 7 },
-  { displayName: 'Drew L.',   baseScore: 6 },
-  { displayName: 'Quinn W.',  baseScore: 6 },
-  { displayName: 'Avery H.',  baseScore: 5 },
+  { displayName: 'Alex M.',   baseScore: 11 },
+  { displayName: 'Jordan K.', baseScore: 10 },
+  { displayName: 'Sam R.',    baseScore: 10 },
+  { displayName: 'Taylor B.', baseScore:  9 },
+  { displayName: 'Morgan C.', baseScore:  9 },
+  { displayName: 'Riley P.',  baseScore:  8 },
+  { displayName: 'Casey D.',  baseScore:  8 },
+  { displayName: 'Drew L.',   baseScore:  7 },
+  { displayName: 'Quinn W.',  baseScore:  7 },
+  { displayName: 'Avery H.',  baseScore:  6 },
 ];
 
 function getSeedPlayers(dateKey, count) {
@@ -312,8 +312,9 @@ function getSeedPlayers(dateKey, count) {
 
   return SEED_PLAYERS.slice(0, count).map((s, i) => {
     const variance = ((hash + i * 7) % 3) - 1; // -1, 0, or +1
-    const score    = Math.min(10, Math.max(4, s.baseScore + variance));
-    return { displayName: s.displayName, score, total: 10, uid: `seed_${i}`, isSeed: true };
+    // Cap at 11 (never 12/12 — always at least one wrong)
+    const score    = Math.min(11, Math.max(5, s.baseScore + variance));
+    return { displayName: s.displayName, score, total: 12, uid: `seed_${i}`, isSeed: true };
   });
 }
 
@@ -412,7 +413,7 @@ function renderLeaderboard(scores, realCount) {
       ghost.innerHTML = `
         <span class="lb-rank">🔒</span>
         <span class="lb-name">You <span class="lb-ghost-tag">unranked</span></span>
-        <span class="lb-score">${scoreNum}<span class="lb-total">/10</span></span>
+        <span class="lb-score">${scoreNum}<span class="lb-total">/${lastScore.split('/')[1] || 12}</span></span>
         <span class="lb-ghost-action">Claim your spot →</span>`;
       ghost.addEventListener('click', () => openAuthModal('signup'));
       listEl.appendChild(ghost);
@@ -573,7 +574,7 @@ function renderPersonalStats(data) {
   set('stat-games',      stats.gamesPlayed   || 0);
   set('stat-streak',     stats.currentStreak || 0);
   set('stat-longest',    stats.longestStreak || 0);
-  set('stat-best-score', stats.bestScore != null ? `${stats.bestScore}/10` : '—');
+  set('stat-best-score', stats.bestScore != null ? `${stats.bestScore}` : '—');
 
   const accuracy = stats.questionsAnswered
     ? `${Math.round((stats.questionsCorrect / stats.questionsAnswered) * 100)}%`

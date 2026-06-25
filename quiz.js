@@ -1023,37 +1023,42 @@ function drawPctBadge(ctx, cx, cy, score, total) {
 }
 
 // Vertical category list — used in Story card (returns ending y)
-function drawCategoryList(ctx, lx, startY, aw, categories) {
+function drawCategoryList(ctx, lx, startY, aw, categories, rowH = 44) {
   let y = startY;
+  const fontSize  = rowH >= 40 ? 26 : 22;
+  const textToBar = rowH >= 40 ? 18 : 12;
+  const barH      = rowH >= 40 ? 10 :  8;
+  const barToNext = rowH - textToBar - barH;
+
   categories.forEach(cat => {
     const style = getCatStyle(cat.name);
     const ratio = cat.total > 0 ? cat.correct / cat.total : 0;
 
-    ctx.font = '700 26px Nunito, sans-serif';
+    ctx.font = `700 ${fontSize}px Nunito, sans-serif`;
     ctx.fillStyle = style.text;
     ctx.textAlign = 'left';
     ctx.fillText(cat.name, lx, y);
 
     ctx.textAlign = 'right';
     ctx.fillText(`${cat.correct}/${cat.total}`, lx + aw, y);
-    y += 18;
+    y += textToBar;
 
     // Bar track
     ctx.beginPath();
-    roundRect(ctx, lx, y, aw, 10, 5);
+    roundRect(ctx, lx, y, aw, barH, Math.floor(barH / 2));
     ctx.fillStyle = 'rgba(255,255,255,0.08)';
     ctx.fill();
 
     // Bar fill
     if (ratio > 0) {
       ctx.beginPath();
-      roundRect(ctx, lx, y, aw * ratio, 10, 5);
+      roundRect(ctx, lx, y, aw * ratio, barH, Math.floor(barH / 2));
       ctx.fillStyle = style.text;
       ctx.globalAlpha = 0.65;
       ctx.fill();
       ctx.globalAlpha = 1;
     }
-    y += 26;
+    y += barH + barToNext;
   });
   return y;
 }
@@ -1111,8 +1116,9 @@ function drawStoryCard(ctx, w, h, data) {
     ctx.fillText('🔥 ' + data.streak + '-day streak', w / 2, sy); sy += 42;
   }
 
-  // Category section (vertical bars)
-  const catY = Math.max(sy + 50, 670);
+  // Category section (vertical bars) — compact rows for 5 categories
+  const catItemH = data.categories.length >= 5 ? 34 : 44;
+  const catY = Math.max(sy + 30, 640);
   drawHLine(ctx, w, catY - 18);
 
   ctx.font = '600 20px Nunito, sans-serif';
@@ -1120,7 +1126,7 @@ function drawStoryCard(ctx, w, h, data) {
   ctx.textAlign = 'center';
   ctx.fillText('BREAKDOWN', w / 2, catY + 14);
   const margin = 62;
-  const listEnd = drawCategoryList(ctx, margin, catY + 52, w - margin * 2, data.categories);
+  const listEnd = drawCategoryList(ctx, margin, catY + 40, w - margin * 2, data.categories, catItemH);
 
   drawHLine(ctx, w, listEnd + 20);
 
