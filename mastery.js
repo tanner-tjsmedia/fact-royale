@@ -222,7 +222,7 @@ function renderMasteryHero(score, categoryMastery, user) {
   });
   const bestTier = MASTERY_TIERS[bestIdx];
   if (el('mastery-best-rank')) {
-    el('mastery-best-rank').textContent = `${bestTier.icon} ${bestTier.name}`;
+    el('mastery-best-rank').innerHTML = `<span class="fr-icon fr-icon-md" style="color:${bestTier.color};vertical-align:middle">${bestTier.icon}</span> ${bestTier.name}`;
     el('mastery-best-rank').style.color = bestTier.color;
   }
 
