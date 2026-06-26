@@ -107,7 +107,8 @@
       font-size: 3.2rem; font-weight: 700; color: var(--gold, #d4af37); line-height: 1;
       letter-spacing: -0.03em;
     }
-    .m-hero-big.rank-val { font-size: 2.1rem; }
+    .m-hero-big.rank-val { font-size: 2.1rem; display: flex; align-items: center; gap: 0.5rem; }
+    .m-hero-big.rank-val svg { width: 1.8rem; height: 1.8rem; flex-shrink: 0; }
     .m-hero-label {
       font-size: 0.72rem; color: var(--text-subtle); text-transform: uppercase;
       letter-spacing: 0.1em; margin-top: 0.5rem; font-weight: 500;
@@ -180,7 +181,11 @@
       font-family: var(--font-display, 'Space Grotesk', sans-serif);
       font-size: 0.78rem; font-weight: 700;
       padding: 0.3rem 0.75rem; border-radius: 20px; white-space: nowrap;
+      display: inline-flex; align-items: center; gap: 0.35rem;
     }
+    .mc-tier-badge svg { width: 1.1rem; height: 1.1rem; flex-shrink: 0; }
+    .mc-prog-header strong svg { width: 1rem; height: 1rem; vertical-align: middle; }
+    .mc-tier-ref-icon svg { width: 1.1rem; height: 1.1rem; display: block; }
     .mc-stats {
       display: grid;
       grid-template-columns: repeat(4, 1fr);
