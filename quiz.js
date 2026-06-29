@@ -1056,16 +1056,16 @@ function drawPctBadge(ctx, cx, cy, score, total) {
   const bdr = isHigh ? 'rgba(74,222,128,0.30)'  : isMid ? 'rgba(240,192,64,0.30)'  : 'rgba(248,113,113,0.30)';
   const col = isHigh ? '#4ade80'                : isMid ? '#f0c040'                : '#f87171';
   const label = `${pct}% correct`;
-  ctx.font = '700 22px Nunito, sans-serif';
+  ctx.font = '700 18px Nunito, sans-serif';
   ctx.textAlign = 'center';
   const tw = ctx.measureText(label).width;
-  const bw = tw + 36, bh = 38;
+  const bw = tw + 28, bh = 30;
   ctx.beginPath();
-  roundRect(ctx, cx - bw / 2, cy - bh / 2, bw, bh, 19);
+  roundRect(ctx, cx - bw / 2, cy - bh / 2, bw, bh, 15);
   ctx.fillStyle = bg;    ctx.fill();
   ctx.strokeStyle = bdr; ctx.lineWidth = 1.5; ctx.stroke();
   ctx.fillStyle = col;
-  ctx.fillText(label, cx, cy + 8);
+  ctx.fillText(label, cx, cy + 6);
 }
 
 // Vertical category list — used in Story card (returns ending y)
@@ -1119,67 +1119,67 @@ function drawStoryCard(ctx, w, h, data) {
   ctx.textAlign = 'center';
 
   // Header
-  let y = 120;
-  ctx.font = '900 52px Nunito, sans-serif';
+  let y = 100;
+  ctx.font = '900 38px Nunito, sans-serif';
   ctx.fillStyle = '#f0c040';
-  ctx.fillText('♛', w / 2, y); y += 62;
+  ctx.fillText('♛', w / 2, y); y += 48;
 
-  ctx.font = '800 36px Nunito, sans-serif';
+  ctx.font = '800 24px Nunito, sans-serif';
   ctx.fillStyle = '#f0c040';
-  ctx.fillText('FACT ROYALE', w / 2, y); y += 40;
+  ctx.fillText('FACT ROYALE', w / 2, y); y += 30;
 
-  ctx.font = '400 26px Nunito, sans-serif';
+  ctx.font = '400 17px Nunito, sans-serif';
   ctx.fillStyle = 'rgba(240,192,64,0.52)';
   ctx.fillText(data.date, w / 2, y);
 
   // Score hero
-  const scoreCY = 380;
-  drawScoreRing(ctx, w / 2, scoreCY, 110);
+  const scoreCY = 338;
+  drawScoreRing(ctx, w / 2, scoreCY, 80);
 
-  ctx.font = '900 124px Nunito, sans-serif';
+  ctx.font = '900 80px Nunito, sans-serif';
   ctx.fillStyle = '#f0c040';
   ctx.textAlign = 'center';
-  ctx.fillText(String(data.score), w / 2, scoreCY + 46);
+  ctx.fillText(String(data.score), w / 2, scoreCY + 30);
 
-  ctx.font = '400 28px Nunito, sans-serif';
+  ctx.font = '400 19px Nunito, sans-serif';
   ctx.fillStyle = 'rgba(232,232,240,0.48)';
-  ctx.fillText('out of ' + data.total, w / 2, scoreCY + 82);
+  ctx.fillText('out of ' + data.total, w / 2, scoreCY + 55);
 
-  drawPctBadge(ctx, w / 2, scoreCY + 124, data.score, data.total);
+  drawPctBadge(ctx, w / 2, scoreCY + 90, data.score, data.total);
 
   // Stats
-  let sy = scoreCY + 180;
+  let sy = scoreCY + 128;
   if (data.rank) {
-    ctx.font = '600 26px Nunito, sans-serif';
+    ctx.font = '600 18px Nunito, sans-serif';
     ctx.fillStyle = 'rgba(232,232,240,0.72)';
     ctx.textAlign = 'center';
-    ctx.fillText(data.rank, w / 2, sy); sy += 42;
+    ctx.fillText(data.rank, w / 2, sy); sy += 28;
   }
   if (data.streak > 1) {
-    ctx.font = '400 26px Nunito, sans-serif';
+    ctx.font = '400 18px Nunito, sans-serif';
     ctx.fillStyle = '#fbbf24';
     ctx.textAlign = 'center';
-    ctx.fillText('🔥 ' + data.streak + '-day streak', w / 2, sy); sy += 42;
+    ctx.fillText('🔥 ' + data.streak + '-day streak', w / 2, sy); sy += 28;
   }
 
-  // Category section (vertical bars) — compact rows for 5 categories
-  const catItemH = data.categories.length >= 5 ? 34 : 44;
-  const catY = Math.max(sy + 30, 640);
-  drawHLine(ctx, w, catY - 18);
+  // Category section (vertical bars)
+  const catItemH = data.categories.length >= 5 ? 36 : 44;
+  const catY = Math.max(sy + 24, 545);
+  drawHLine(ctx, w, catY - 14);
 
-  ctx.font = '600 20px Nunito, sans-serif';
+  ctx.font = '600 14px Nunito, sans-serif';
   ctx.fillStyle = 'rgba(240,192,64,0.4)';
   ctx.textAlign = 'center';
-  ctx.fillText('BREAKDOWN', w / 2, catY + 14);
+  ctx.fillText('BREAKDOWN', w / 2, catY + 10);
   const margin = 62;
-  const listEnd = drawCategoryList(ctx, margin, catY + 40, w - margin * 2, data.categories, catItemH);
+  const listEnd = drawCategoryList(ctx, margin, catY + 30, w - margin * 2, data.categories, catItemH);
 
-  drawHLine(ctx, w, listEnd + 20);
+  drawHLine(ctx, w, listEnd + 16);
 
-  ctx.font = '700 22px Nunito, sans-serif';
+  ctx.font = '700 16px Nunito, sans-serif';
   ctx.fillStyle = 'rgba(240,192,64,0.55)';
   ctx.textAlign = 'center';
-  ctx.fillText('♛  fact-royale.com', w / 2, listEnd + 64);
+  ctx.fillText('♛  fact-royale.com', w / 2, listEnd + 48);
 }
 
 function drawWideCard(ctx, w, h, data) {
@@ -1196,32 +1196,32 @@ function drawWideCard(ctx, w, h, data) {
   // LEFT: Brand + Score
   ctx.textAlign = 'center';
 
-  ctx.font = '900 28px Nunito, sans-serif';
+  ctx.font = '900 22px Nunito, sans-serif';
   ctx.fillStyle = '#f0c040';
-  ctx.fillText('♛', lc, 56);
+  ctx.fillText('♛', lc, 46);
 
-  ctx.font = '800 22px Nunito, sans-serif';
+  ctx.font = '800 17px Nunito, sans-serif';
   ctx.fillStyle = '#f0c040';
-  ctx.fillText('FACT ROYALE', lc, 84);
+  ctx.fillText('FACT ROYALE', lc, 70);
 
-  ctx.font = '400 17px Nunito, sans-serif';
+  ctx.font = '400 13px Nunito, sans-serif';
   ctx.fillStyle = 'rgba(240,192,64,0.52)';
-  ctx.fillText(data.date, lc, 106);
+  ctx.fillText(data.date, lc, 88);
 
   // Score ring
-  const scoreCY = 265;
-  drawScoreRing(ctx, lc, scoreCY, 88);
+  const scoreCY = 248;
+  drawScoreRing(ctx, lc, scoreCY, 68);
 
-  ctx.font = '900 100px Nunito, sans-serif';
+  ctx.font = '900 72px Nunito, sans-serif';
   ctx.fillStyle = '#f0c040';
   ctx.textAlign = 'center';
-  ctx.fillText(String(data.score), lc, scoreCY + 38);
+  ctx.fillText(String(data.score), lc, scoreCY + 26);
 
-  ctx.font = '400 18px Nunito, sans-serif';
+  ctx.font = '400 15px Nunito, sans-serif';
   ctx.fillStyle = 'rgba(232,232,240,0.48)';
-  ctx.fillText('out of ' + data.total, lc, scoreCY + 62);
+  ctx.fillText('out of ' + data.total, lc, scoreCY + 47);
 
-  drawPctBadge(ctx, lc, scoreCY + 96, data.score, data.total);
+  drawPctBadge(ctx, lc, scoreCY + 74, data.score, data.total);
 
   // URL bottom-left
   ctx.font = '700 15px Nunito, sans-serif';
@@ -1239,25 +1239,25 @@ function drawWideCard(ctx, w, h, data) {
   ctx.stroke();
   ctx.restore();
 
-  // RIGHT: Stats + Category bars (vertically centered)
-  let ry = 52;
+  // RIGHT: Stats + Category bars
+  let ry = 42;
 
   if (data.rank) {
-    ctx.font = '600 18px Nunito, sans-serif';
+    ctx.font = '600 15px Nunito, sans-serif';
     ctx.fillStyle = 'rgba(232,232,240,0.75)';
     ctx.textAlign = 'left';
-    ctx.fillText(data.rank, rx, ry); ry += 30;
+    ctx.fillText(data.rank, rx, ry); ry += 24;
   }
 
   if (data.streak > 1) {
-    ctx.font = '400 18px Nunito, sans-serif';
+    ctx.font = '400 15px Nunito, sans-serif';
     ctx.fillStyle = '#fbbf24';
     ctx.textAlign = 'left';
-    ctx.fillText('🔥 ' + data.streak + '-day streak', rx, ry); ry += 30;
+    ctx.fillText('🔥 ' + data.streak + '-day streak', rx, ry); ry += 24;
   }
 
   // Divider
-  ry += 6;
+  ry += 5;
   ctx.save();
   ctx.strokeStyle = 'rgba(240,192,64,0.16)';
   ctx.lineWidth = 1;
@@ -1266,30 +1266,30 @@ function drawWideCard(ctx, w, h, data) {
   ctx.lineTo(rEnd, ry);
   ctx.stroke();
   ctx.restore();
-  ry += 20;
+  ry += 16;
 
   // BREAKDOWN label
-  ctx.font = '600 14px Nunito, sans-serif';
+  ctx.font = '600 12px Nunito, sans-serif';
   ctx.fillStyle = 'rgba(240,192,64,0.4)';
   ctx.textAlign = 'left';
-  ctx.fillText('BREAKDOWN', rx, ry); ry += 22;
+  ctx.fillText('BREAKDOWN', rx, ry); ry += 18;
 
   // Category bars
-  const barH = 8, barR = 4;
+  const barH = 7, barR = 3;
   data.categories.forEach(cat => {
     const style = getCatStyle(cat.name);
     const ratio = cat.total > 0 ? cat.correct / cat.total : 0;
 
-    ctx.font = '400 18px Nunito, sans-serif';
+    ctx.font = '400 15px Nunito, sans-serif';
     ctx.fillStyle = 'rgba(232,232,240,0.65)';
     ctx.textAlign = 'left';
     ctx.fillText(cat.name, rx, ry);
 
-    ctx.font = '700 18px Nunito, sans-serif';
+    ctx.font = '700 15px Nunito, sans-serif';
     ctx.fillStyle = style.text;
     ctx.textAlign = 'right';
     ctx.fillText(`${cat.correct}/${cat.total}`, rEnd, ry);
-    ry += 14;
+    ry += 12;
 
     // Bar track
     ctx.beginPath();
@@ -1306,7 +1306,7 @@ function drawWideCard(ctx, w, h, data) {
       ctx.fill();
       ctx.globalAlpha = 1;
     }
-    ry += barH + 16;
+    ry += barH + 14;
   });
 }
 
@@ -1316,55 +1316,58 @@ function drawSquareCard(ctx, w, h, data) {
   drawTopAccent(ctx, w);
 
   ctx.textAlign = 'center';
-  let y = 62;
+  let y = 50;
 
-  ctx.font = '900 48px Nunito, sans-serif';
+  ctx.font = '900 34px Nunito, sans-serif';
   ctx.fillStyle = '#f0c040';
-  ctx.fillText('♛', w / 2, y); y += 56;
+  ctx.fillText('♛', w / 2, y); y += 42;
 
-  ctx.font = '800 24px Nunito, sans-serif';
+  ctx.font = '800 20px Nunito, sans-serif';
   ctx.fillStyle = '#f0c040';
-  ctx.fillText('FACT ROYALE', w / 2, y); y += 30;
+  ctx.fillText('FACT ROYALE', w / 2, y); y += 26;
 
-  ctx.font = '400 18px Nunito, sans-serif';
+  ctx.font = '400 14px Nunito, sans-serif';
   ctx.fillStyle = 'rgba(240,192,64,0.52)';
   ctx.fillText(data.date, w / 2, y);
 
   // Score ring
-  const scoreCY = 295;
-  drawScoreRing(ctx, w / 2, scoreCY, 88);
+  const scoreCY = 252;
+  drawScoreRing(ctx, w / 2, scoreCY, 70);
 
-  ctx.font = '900 108px Nunito, sans-serif';
+  ctx.font = '900 74px Nunito, sans-serif';
   ctx.fillStyle = '#f0c040';
   ctx.textAlign = 'center';
-  ctx.fillText(String(data.score), w / 2, scoreCY + 40);
+  ctx.fillText(String(data.score), w / 2, scoreCY + 28);
 
-  ctx.font = '400 20px Nunito, sans-serif';
+  ctx.font = '400 16px Nunito, sans-serif';
   ctx.fillStyle = 'rgba(232,232,240,0.48)';
-  ctx.fillText('out of ' + data.total, w / 2, scoreCY + 66);
+  ctx.fillText('out of ' + data.total, w / 2, scoreCY + 50);
 
-  drawPctBadge(ctx, w / 2, scoreCY + 100, data.score, data.total);
+  drawPctBadge(ctx, w / 2, scoreCY + 80, data.score, data.total);
 
-  let sy = scoreCY + 148;
+  let sy = scoreCY + 114;
   if (data.rank) {
-    ctx.font = '600 20px Nunito, sans-serif';
+    ctx.font = '600 16px Nunito, sans-serif';
     ctx.fillStyle = 'rgba(232,232,240,0.72)';
     ctx.textAlign = 'center';
-    ctx.fillText(data.rank, w / 2, sy); sy += 32;
+    ctx.fillText(data.rank, w / 2, sy); sy += 24;
   }
   if (data.streak > 1) {
-    ctx.font = '400 20px Nunito, sans-serif';
+    ctx.font = '400 16px Nunito, sans-serif';
     ctx.fillStyle = '#fbbf24';
-    ctx.fillText('🔥 ' + data.streak + '-day streak', w / 2, sy); sy += 32;
+    ctx.fillText('🔥 ' + data.streak + '-day streak', w / 2, sy); sy += 24;
   }
 
-  drawHLine(ctx, w, sy + 12); sy += 34;
-  drawPills(ctx, w, sy + 28, data.categories);
+  // Footer pinned to bottom; pills fill remaining space above it
+  const footerY = h - 20;
+  const pillsY  = Math.min(sy + 28, footerY - 60);
+  drawHLine(ctx, w, sy + 8);
+  drawPills(ctx, w, pillsY, data.categories);
 
-  ctx.font = '700 16px Nunito, sans-serif';
+  ctx.font = '700 14px Nunito, sans-serif';
   ctx.fillStyle = 'rgba(240,192,64,0.52)';
   ctx.textAlign = 'center';
-  ctx.fillText('♛  fact-royale.com', w / 2, h - 22);
+  ctx.fillText('♛  fact-royale.com', w / 2, footerY);
 }
 
 // ── Share actions ──────────────────────────────────────
