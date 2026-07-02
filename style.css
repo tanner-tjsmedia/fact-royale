@@ -2173,7 +2173,7 @@ body > * { position: relative; z-index: 1; }
 }
 
 #share-canvas {
-  max-height: 420px;
+  max-height: 380px;
   max-width: 100%;
   width: auto;
   height: auto;
@@ -2183,13 +2183,17 @@ body > * { position: relative; z-index: 1; }
 
 .share-modal-actions {
   display: flex;
-  flex-direction: column;
-  gap: 9px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: center;
   margin-bottom: 12px;
 }
 
 .share-action-btn {
-  width: 100%;
+  flex: 1;
+  min-width: 110px;
+  max-width: 180px;
   text-align: center;
 }
 

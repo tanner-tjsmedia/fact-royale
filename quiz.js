@@ -991,6 +991,44 @@ function getCatStyle(name) {
   return                                                     { bg: 'rgba(168,85,247,0.2)',   text: '#c084fc' };
 }
 
+// Two-row pill layout for square card — abbreviated names, no overflow
+function drawTwoRowPills(ctx, w, startY, categories) {
+  const pillH = 26, padX = 10, gapX = 7, gapY = 7;
+  ctx.font = '600 12px Nunito, sans-serif';
+
+  const abbrev = n => {
+    if (n.includes('Science') || n.includes('Nature')) return 'Science';
+    if (n.includes('Music') || n.includes('Movies') || n.includes('Pop')) return 'Music';
+    if (n.includes('Geo')) return 'Geo';
+    if (n.length <= 9) return n;
+    return n.slice(0, 8) + '…';
+  };
+
+  const pills = categories.map(cat => {
+    const label = `${abbrev(cat.name)}  ${cat.correct}/${cat.total}`;
+    const pw = ctx.measureText(label).width + padX * 2;
+    return { ...cat, label, pw, style: getCatStyle(cat.name) };
+  });
+
+  const mid = Math.ceil(pills.length / 2);
+  const rows = [pills.slice(0, mid), pills.slice(mid)];
+
+  let y = startY;
+  ctx.textAlign = 'center';
+  rows.forEach(row => {
+    const rowW = row.reduce((s, p) => s + p.pw, 0) + gapX * (row.length - 1);
+    let x = (w - rowW) / 2;
+    row.forEach(pill => {
+      roundRect(ctx, x, y, pill.pw, pillH, 8);
+      ctx.fillStyle = pill.style.bg;   ctx.fill();
+      ctx.fillStyle = pill.style.text;
+      ctx.fillText(pill.label, x + pill.pw / 2, y + pillH * 0.67);
+      x += pill.pw + gapX;
+    });
+    y += pillH + gapY;
+  });
+}
+
 function drawPills(ctx, totalW, centerY, categories) {
   const pillH = 38, padX = 14, gap = 12;
   ctx.font = '700 15px Nunito, sans-serif';
@@ -1163,8 +1201,8 @@ function drawStoryCard(ctx, w, h, data) {
   }
 
   // Category section (vertical bars)
-  const catItemH = data.categories.length >= 5 ? 36 : 44;
-  const catY = Math.max(sy + 24, 545);
+  const catItemH = data.categories.length >= 5 ? 44 : 52;
+  const catY = Math.max(sy + 24, 565);
   drawHLine(ctx, w, catY - 14);
 
   ctx.font = '600 14px Nunito, sans-serif';
@@ -1358,11 +1396,11 @@ function drawSquareCard(ctx, w, h, data) {
     ctx.fillText('🔥 ' + data.streak + '-day streak', w / 2, sy); sy += 24;
   }
 
-  // Footer pinned to bottom; pills fill remaining space above it
+  // Footer pinned to bottom; two-row pills fill remaining space above it
   const footerY = h - 20;
-  const pillsY  = Math.min(sy + 28, footerY - 60);
+  const pillsY  = Math.min(sy + 22, footerY - 68);
   drawHLine(ctx, w, sy + 8);
-  drawPills(ctx, w, pillsY, data.categories);
+  drawTwoRowPills(ctx, w, pillsY, data.categories);
 
   ctx.font = '700 14px Nunito, sans-serif';
   ctx.fillStyle = 'rgba(240,192,64,0.52)';
