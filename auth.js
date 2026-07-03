@@ -29,8 +29,19 @@ auth.onAuthStateChanged(user => {
     // Hide returning visitor banner if they just signed in
     const rvBanner = document.getElementById('returning-visitor-banner');
     if (rvBanner) rvBanner.style.display = 'none';
-    // Show catch-up tiles on landing if user already played today
-    if (typeof populateCatchUpOnLanding === 'function') populateCatchUpOnLanding();
+    // Firestore-based landing sync + catch-up section
+    // getCompletedDates handles backfill for pre-feature players automatically
+    getCompletedDates(user.uid).then(completedDates => {
+      const todayStr = getTodayKeyForAuth();
+      // Fallback: if Firestore says they played today but localStorage is stale,
+      // re-sync the landing page buttons to "View Results" state
+      if (completedDates.includes(todayStr) && typeof syncLandingAlreadyPlayed === 'function') {
+        syncLandingAlreadyPlayed();
+      }
+      if (typeof populateCatchUpOnLanding === 'function') populateCatchUpOnLanding();
+    }).catch(() => {
+      if (typeof populateCatchUpOnLanding === 'function') populateCatchUpOnLanding();
+    });
   } else {
     if (statsSection) statsSection.style.display = 'none';
     if (lbCta)        lbCta.style.display        = 'block';
@@ -219,11 +230,39 @@ async function createUserProfile(user, displayName, firstName, lastName) {
 }
 
 // ── Get completed quiz dates for a user ────────────────
+// If completedDates is empty (pre-feature users), infers played dates
+// from currentStreak + lastPlayedDate and backfills Firestore automatically.
 async function getCompletedDates(uid) {
   try {
     const snap = await db.collection('users').doc(uid).get();
     if (!snap.exists) return [];
-    return snap.data().completedDates || [];
+
+    const data    = snap.data();
+    let completed = data.completedDates || [];
+
+    // Backfill for existing players who have a streak but no completedDates yet
+    if (completed.length === 0 && data.stats &&
+        data.stats.lastPlayedDate && data.stats.currentStreak > 0) {
+      const lastDate = data.stats.lastPlayedDate;
+      const streak   = Math.min(data.stats.currentStreak, 60); // cap at 60
+      const inferred = [];
+
+      for (let i = 0; i < streak; i++) {
+        const d = new Date(lastDate + 'T00:00:00');
+        d.setDate(d.getDate() - i);
+        const dk = `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;
+        inferred.push(dk);
+      }
+
+      completed = inferred;
+
+      // Write back to Firestore (fire-and-forget — next read will hit the cache)
+      db.collection('users').doc(uid).update({
+        completedDates: firebase.firestore.FieldValue.arrayUnion(...inferred)
+      }).catch(e => console.warn('completedDates backfill failed:', e));
+    }
+
+    return completed;
   } catch (err) {
     console.error('getCompletedDates error:', err);
     return [];

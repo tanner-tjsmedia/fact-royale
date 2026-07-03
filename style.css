@@ -2212,9 +2212,9 @@ body > * { position: relative; z-index: 1; }
   align-items: center;
   justify-content: center;
   gap: 0.75rem;
-  background: rgba(212,175,55,0.06);
-  border-bottom: 1px solid rgba(212,175,55,0.15);
-  padding: 0.6rem clamp(16px, 4vw, 40px);
+  background: rgba(212,175,55,0.1);
+  border-bottom: 1px solid rgba(212,175,55,0.25);
+  padding: 0.75rem clamp(16px, 4vw, 40px);
   flex-wrap: wrap;
 }
 
@@ -2916,7 +2916,14 @@ body > * { position: relative; z-index: 1; }
 
 .catchup-complete-icon { font-size: 1.3rem; }
 
-/* Catch-up CTA on landing page (below already-played-msg) */
+/* Catch-up CTA on landing page */
 .catchup-landing {
   margin-top: 14px;
+}
+
+.catchup-all-done {
+  font-size: 0.82rem;
+  color: var(--text-muted);
+  font-weight: 600;
+  margin: 0;
 }

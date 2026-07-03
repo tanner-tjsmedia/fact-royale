@@ -1001,11 +1001,13 @@ async function showCatchUpSection() {
   }
 }
 
-// ── Catch-Up CTA on Landing (already-played users) ────
-// Single button → oldest missed quiz. Called from auth.js and syncLandingAlreadyPlayed().
+// ── Catch-Up CTA on Landing ────────────────────────────
+// Shows for ALL logged-in users (not just already-played).
+// Missed quizzes → single button to oldest missed date.
+// All caught up → "Come back tomorrow" message.
+// Called from auth.js onAuthStateChanged + syncLandingAlreadyPlayed().
 async function populateCatchUpOnLanding() {
   if (isArchivePlay) return;
-  if (!alreadyPlayedToday()) return;
   const sectionEl = document.getElementById('catchup-landing');
   if (!sectionEl) return;
   if (typeof currentUser === 'undefined' || !currentUser) return;
@@ -1026,7 +1028,14 @@ async function populateCatchUpOnLanding() {
       }
     }
 
-    if (!oldestMissed) { sectionEl.style.display = 'none'; return; }
+    if (!oldestMissed) {
+      // All past quizzes complete — only show this message if they've played today too
+      if (alreadyPlayedToday() || completedDates.includes(todayKey)) {
+        sectionEl.innerHTML = `<p class="catchup-all-done">All caught up! New quiz drops tomorrow.</p>`;
+        sectionEl.style.display = 'block';
+      }
+      return;
+    }
 
     const plural = missedCount > 1 ? `${missedCount} quizzes` : '1 quiz';
     sectionEl.innerHTML = `<a href="/?date=${oldestMissed}" class="btn-catchup">Play Missed Quizzes (${plural}) &#8594;</a>`;
