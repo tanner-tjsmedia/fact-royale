@@ -533,7 +533,35 @@ function setupLanding(data) {
 
 // ── Quiz ───────────────────────────────────────────────
 
+// ── Sync landing to already-played state ───────────────
+// Called when returning home after completing today's daily quiz.
+// Clones buttons to clear all listeners, then sets them to "View Results".
+function syncLandingAlreadyPlayed() {
+  ['btn-start-hero', 'btn-start-section'].forEach(id => {
+    const el = document.getElementById(id);
+    if (!el) return;
+    const clone = el.cloneNode(true);
+    el.parentNode.replaceChild(clone, el);
+    clone.textContent = id === 'btn-start-hero' ? 'View My Results' : 'View Results';
+    clone.addEventListener('click', showResultsFromStorage);
+  });
+  const alreadyEl = document.getElementById('already-played-msg');
+  if (alreadyEl) {
+    alreadyEl.style.display = 'block';
+    const scoreEl = document.getElementById('final-score-replay');
+    if (scoreEl) scoreEl.textContent = `Score: ${localStorage.getItem('fr_lastScore')}`;
+  }
+  // Refresh catch-up tiles if user is logged in
+  populateCatchUpOnLanding();
+}
+
 function startQuiz() {
+  // Prevent replaying today's daily quiz if already completed
+  if (!isArchivePlay && alreadyPlayedToday()) {
+    showResultsFromStorage();
+    return;
+  }
+
   currentIndex = 0;
   score        = 0;
   answered     = false;
@@ -820,11 +848,12 @@ function showResults() {
   // Share
   document.getElementById('btn-share').onclick = shareScore;
 
-  // Home button — archive goes to homepage root, daily goes back to landing screen
+  // Home button — archive goes to homepage root, daily re-syncs landing + shows it
   document.getElementById('btn-home').onclick = () => {
     if (isArchivePlay) {
       window.location.href = '/';
     } else {
+      syncLandingAlreadyPlayed();
       showScreen('screen-landing');
       window.scrollTo({ top: 0, behavior: 'smooth' });
       if (typeof loadLeaderboard === 'function') loadLeaderboard();
@@ -924,115 +953,83 @@ function getArchiveResultsTitle(pct) {
 }
 
 // ── Catch-Up Section (results screen) ─────────────────
-// Shows tiles for other missed dates in the free window.
+// Shows a single CTA to the oldest missed quiz in the free window.
 // Called after showResults() when user is logged in.
 async function showCatchUpSection() {
   const sectionEl = document.getElementById('catchup-section');
-  const tilesEl   = document.getElementById('catchup-tiles');
-  if (!sectionEl || !tilesEl) return;
+  if (!sectionEl) return;
   if (typeof currentUser === 'undefined' || !currentUser) return;
   if (typeof getCompletedDates !== 'function') return;
 
   try {
     const completedDates = await getCompletedDates(currentUser.uid);
-    const tiles = [];
 
-    for (let i = 1; i <= ARCHIVE_FREE_DAYS; i++) {
+    // Scan from oldest to newest within the free window
+    let oldestMissed = null;
+    let missedCount  = 0;
+    for (let i = ARCHIVE_FREE_DAYS; i >= 1; i--) {
       const d = new Date();
       d.setDate(d.getDate() - i);
       const dateKey = `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;
-      if (dateKey === activeQuizDate) continue; // skip the one we just played
-      tiles.push({ dateKey, played: completedDates.includes(dateKey) });
+      if (dateKey === activeQuizDate) continue; // skip what we just played
+      if (!completedDates.includes(dateKey)) {
+        if (!oldestMissed) oldestMissed = dateKey;
+        missedCount++;
+      }
     }
 
-    const missed = tiles.filter(t => !t.played);
-
-    if (missed.length === 0) {
+    if (!oldestMissed) {
       sectionEl.innerHTML = `
         <div class="catchup-complete">
           <span class="catchup-complete-icon">🎉</span>
           <span>All caught up this week!</span>
-          <a href="/" class="catchup-home-link">Back to Today</a>
-        </div>
-      `;
+        </div>`;
       sectionEl.style.display = 'block';
       return;
     }
 
-    const headingEl = sectionEl.querySelector('.catchup-heading');
-    const subEl     = sectionEl.querySelector('.catchup-sub');
-    if (headingEl) headingEl.textContent = isArchivePlay ? 'More to catch up on' : 'Missed any quizzes?';
-    if (subEl)     subEl.textContent     = isArchivePlay ? 'Keep going to earn mastery credit.' : 'Play quizzes you missed this week.';
-
-    tilesEl.innerHTML = tiles.map(({ dateKey, played }) => {
-      const d       = new Date(dateKey + 'T00:00:00');
-      const dayName = d.toLocaleDateString('en-US', { weekday: 'short' });
-      const dayNum  = d.getDate();
-      if (played) {
-        return `<div class="catchup-tile catchup-tile-played" title="${formatDate(dateKey)}">
-          <span class="catchup-tile-day">${dayName}</span>
-          <span class="catchup-tile-num">${dayNum}</span>
-          <span class="catchup-tile-check">&#10003;</span>
-        </div>`;
-      }
-      return `<a href="/?date=${dateKey}" class="catchup-tile catchup-tile-available" title="${formatDate(dateKey)}">
-        <span class="catchup-tile-day">${dayName}</span>
-        <span class="catchup-tile-num">${dayNum}</span>
-        <span class="catchup-tile-label">Play</span>
-      </a>`;
-    }).join('');
-
+    const plural = missedCount > 1 ? `${missedCount} quizzes` : '1 quiz';
+    sectionEl.innerHTML = `
+      <div class="catchup-cta-wrap">
+        <p class="catchup-cta-label">You have ${plural} waiting from this week</p>
+        <a href="/?date=${oldestMissed}" class="btn-catchup">Play Missed Quizzes &#8594;</a>
+        <p class="catchup-cta-note">Counts toward mastery, not streak or leaderboard.</p>
+      </div>`;
     sectionEl.style.display = 'block';
   } catch (err) {
     console.error('Catch-up section error:', err);
   }
 }
 
-// ── Catch-Up Tiles on Landing (already-played users) ──
-// Called from auth.js onAuthStateChanged after user resolves.
+// ── Catch-Up CTA on Landing (already-played users) ────
+// Single button → oldest missed quiz. Called from auth.js and syncLandingAlreadyPlayed().
 async function populateCatchUpOnLanding() {
   if (isArchivePlay) return;
   if (!alreadyPlayedToday()) return;
   const sectionEl = document.getElementById('catchup-landing');
-  const tilesEl   = document.getElementById('catchup-tiles-landing');
-  if (!sectionEl || !tilesEl) return;
+  if (!sectionEl) return;
   if (typeof currentUser === 'undefined' || !currentUser) return;
   if (typeof getCompletedDates !== 'function') return;
 
   try {
     const completedDates = await getCompletedDates(currentUser.uid);
-    const tiles = [];
 
-    for (let i = 1; i <= ARCHIVE_FREE_DAYS; i++) {
+    let oldestMissed = null;
+    let missedCount  = 0;
+    for (let i = ARCHIVE_FREE_DAYS; i >= 1; i--) {
       const d = new Date();
       d.setDate(d.getDate() - i);
       const dateKey = `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;
-      tiles.push({ dateKey, played: completedDates.includes(dateKey) });
-    }
-
-    if (tiles.every(t => t.played)) {
-      sectionEl.style.display = 'none';
-      return;
-    }
-
-    tilesEl.innerHTML = tiles.map(({ dateKey, played }) => {
-      const d       = new Date(dateKey + 'T00:00:00');
-      const dayName = d.toLocaleDateString('en-US', { weekday: 'short' });
-      const dayNum  = d.getDate();
-      if (played) {
-        return `<div class="catchup-tile catchup-tile-played">
-          <span class="catchup-tile-day">${dayName}</span>
-          <span class="catchup-tile-num">${dayNum}</span>
-          <span class="catchup-tile-check">&#10003;</span>
-        </div>`;
+      if (!completedDates.includes(dateKey)) {
+        if (!oldestMissed) oldestMissed = dateKey;
+        missedCount++;
       }
-      return `<a href="/?date=${dateKey}" class="catchup-tile catchup-tile-available">
-        <span class="catchup-tile-day">${dayName}</span>
-        <span class="catchup-tile-num">${dayNum}</span>
-        <span class="catchup-tile-label">Play</span>
-      </a>`;
-    }).join('');
+    }
 
+    if (!oldestMissed) { sectionEl.style.display = 'none'; return; }
+
+    const plural = missedCount > 1 ? `${missedCount} quizzes` : '1 quiz';
+    sectionEl.innerHTML = `<a href="/?date=${oldestMissed}" class="btn-catchup">Play Missed Quizzes (${plural}) &#8594;</a>`;
     sectionEl.style.display = 'block';
   } catch (err) {
     console.error('Catch-up landing error:', err);

@@ -41,7 +41,7 @@
     },
     {
       "category": "Sports",
-      "question": "What is the national sport of Canada?",
+      "question": "What is the official summer national sport of Canada?",
       "options": [
         "Ice hockey",
         "Lacrosse",
@@ -49,8 +49,8 @@
         "Football"
       ],
       "answer": "Lacrosse",
-      "explanation": "Lacrosse is Canada's official national summer sport (ice hockey is the national winter sport). Lacrosse was originally played by Indigenous peoples of North America long before European contact. Canada passed the National Sports of Canada Act in 1994 designating both sports.",
-      "memory_hook": "Canada has TWO national sports — lacrosse in summer, hockey in winter."
+      "explanation": "Canada actually has two official national sports under the National Sports of Canada Act (1994): lacrosse (summer) and ice hockey (winter). Lacrosse was originally played by Indigenous peoples of North America centuries before European contact, making it the older of the two. Ice hockey is Canada's official winter national sport.",
+      "memory_hook": "Canada = two national sports. Lacrosse in summer, hockey in winter. Both official since 1994."
     },
     {
       "category": "Sports",

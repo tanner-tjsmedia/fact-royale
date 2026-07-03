@@ -294,6 +294,13 @@ async function submitScoreToFirebase(score, total, categoryScores, dateKey, isAr
     }
 
     // ── Daily path: full submission ──────────────────────
+    // Guard: if we've already recorded this date, skip stat increments
+    // (scores.set is idempotent, but increments would stack up)
+    if (data.stats && data.stats.lastPlayedDate === dateKey) {
+      console.warn('Daily score already recorded for', dateKey, '— skipping re-submit');
+      return;
+    }
+
     const scoreDocId = `${uid}_${dateKey}`;
     await db.collection('scores').doc(scoreDocId).set({
       uid,

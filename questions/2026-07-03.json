@@ -31,13 +31,13 @@
       "question": "In which sport would you find a 'hat trick'?",
       "options": [
         "Baseball",
-        "Basketball",
+        "Ice Hockey",
         "Soccer/Football",
-        "All of these"
+        "Both Ice Hockey and Soccer"
       ],
-      "answer": "All of these",
-      "explanation": "A hat trick occurs in soccer/football (three goals in a game), hockey (three goals in a game), and cricket (three wickets in three balls). The term originally comes from cricket but has been adopted across many sports. It also appears in basketball as a term for a player scoring three consecutive baskets.",
-      "memory_hook": "Three in a row earns you the hat — take a bow."
+      "answer": "Both Ice Hockey and Soccer",
+      "explanation": "A hat trick is scoring three goals in a single game, and the term is most commonly used in soccer/football and ice hockey. It originated in cricket, where a bowler taking three consecutive wickets earned a hat. Baseball has no equivalent term. In hockey and soccer, scoring three in one game is one of the most celebrated individual feats.",
+      "memory_hook": "Hat trick = three goals in one game. Hockey and soccer own the term — baseball has strikeouts, not hat tricks."
     },
     {
       "category": "Sports",

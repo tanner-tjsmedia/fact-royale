@@ -2858,86 +2858,48 @@ body > * { position: relative; z-index: 1; }
   text-align: center;
 }
 
-.catchup-heading {
-  font-size: 1rem;
+/* CTA button — used on both results screen and landing */
+.btn-catchup {
+  display: inline-block;
+  padding: 12px 24px;
+  background: rgba(212,175,55,0.12);
+  border: 1px solid rgba(212,175,55,0.4);
+  border-radius: 100px;
+  color: var(--gold);
+  font-family: var(--font-body);
+  font-size: 0.9rem;
   font-weight: 800;
-  color: var(--text);
-  margin-bottom: 4px;
+  text-decoration: none;
+  letter-spacing: 0.01em;
+  transition: background 0.18s, border-color 0.18s, transform 0.15s;
+  -webkit-tap-highlight-color: transparent;
 }
 
-.catchup-sub {
-  font-size: 0.82rem;
-  color: var(--text-muted);
-  margin-bottom: 14px;
+.btn-catchup:hover {
+  background: rgba(212,175,55,0.22);
+  border-color: rgba(212,175,55,0.7);
+  transform: translateY(-1px);
 }
 
-/* Tile grid (shared by results + landing) */
-.catchup-tiles {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 8px;
-}
-
-/* Base tile */
-.catchup-tile {
+/* CTA wrapper on results screen */
+.catchup-cta-wrap {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  width: 56px;
-  height: 64px;
-  border-radius: 12px;
-  gap: 2px;
-  text-decoration: none;
-  transition: transform 0.15s, border-color 0.15s;
+  gap: 10px;
 }
 
-.catchup-tile-day {
-  font-size: 0.65rem;
+.catchup-cta-label {
+  font-size: 0.88rem;
   font-weight: 700;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
+  color: var(--text);
+  margin: 0;
 }
 
-.catchup-tile-num {
-  font-size: 1.2rem;
-  font-weight: 900;
-  line-height: 1;
-}
-
-/* Played tile — greyed out, checkmark */
-.catchup-tile-played {
-  background: rgba(255,255,255,0.04);
-  border: 1px solid rgba(255,255,255,0.1);
-  color: var(--text-subtle);
-  cursor: default;
-}
-
-.catchup-tile-check {
-  font-size: 0.8rem;
-  color: var(--correct, #22c55e);
-  font-weight: 900;
-}
-
-/* Available tile — gold, clickable */
-.catchup-tile-available {
-  background: rgba(212,175,55,0.1);
-  border: 1px solid rgba(212,175,55,0.35);
-  color: var(--gold);
-}
-
-.catchup-tile-available:hover {
-  transform: translateY(-2px);
-  border-color: rgba(212,175,55,0.7);
-  background: rgba(212,175,55,0.18);
-}
-
-.catchup-tile-label {
-  font-size: 0.65rem;
-  font-weight: 800;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
+.catchup-cta-note {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  margin: 0;
 }
 
 /* All-caught-up state */
@@ -2950,43 +2912,11 @@ body > * { position: relative; z-index: 1; }
   color: var(--text-muted);
   font-size: 0.9rem;
   font-weight: 600;
-  flex-wrap: wrap;
 }
 
-.catchup-complete-icon {
-  font-size: 1.3rem;
-}
+.catchup-complete-icon { font-size: 1.3rem; }
 
-.catchup-home-link {
-  color: var(--gold);
-  text-decoration: none;
-  font-weight: 700;
-  font-size: 0.85rem;
-}
-
-.catchup-home-link:hover { opacity: 0.8; }
-
-/* Catch-up section on landing page (below already-played-msg) */
+/* Catch-up CTA on landing page (below already-played-msg) */
 .catchup-landing {
   margin-top: 14px;
-}
-
-.catchup-landing-label {
-  font-size: 0.8rem;
-  font-weight: 700;
-  color: var(--text-muted);
-  margin-bottom: 10px;
-  letter-spacing: 0.02em;
-}
-
-.catchup-tiles-landing {
-  justify-content: flex-start;
-}
-
-@media (max-width: 480px) {
-  .catchup-tile {
-    width: 50px;
-    height: 58px;
-  }
-  .catchup-tile-num { font-size: 1.05rem; }
 }
