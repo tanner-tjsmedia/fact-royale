@@ -6,6 +6,9 @@
 // ── Auth State ─────────────────────────────────────────
 let currentUser = null;
 
+// ── Archive Feature ────────────────────────────────────
+const ARCHIVE_FREE_DAYS = 7;
+
 // ── Auth State Listener ────────────────────────────────
 auth.onAuthStateChanged(user => {
   currentUser = user;
@@ -26,6 +29,8 @@ auth.onAuthStateChanged(user => {
     // Hide returning visitor banner if they just signed in
     const rvBanner = document.getElementById('returning-visitor-banner');
     if (rvBanner) rvBanner.style.display = 'none';
+    // Show catch-up tiles on landing if user already played today
+    if (typeof populateCatchUpOnLanding === 'function') populateCatchUpOnLanding();
   } else {
     if (statsSection) statsSection.style.display = 'none';
     if (lbCta)        lbCta.style.display        = 'block';
@@ -213,17 +218,83 @@ async function createUserProfile(user, displayName, firstName, lastName) {
   });
 }
 
+// ── Get completed quiz dates for a user ────────────────
+async function getCompletedDates(uid) {
+  try {
+    const snap = await db.collection('users').doc(uid).get();
+    if (!snap.exists) return [];
+    return snap.data().completedDates || [];
+  } catch (err) {
+    console.error('getCompletedDates error:', err);
+    return [];
+  }
+}
+
 // ── Submit Score to Firestore ──────────────────────────
 // Called from quiz.js at the end of showResults()
-async function submitScoreToFirebase(score, total, categoryScores, dateKey) {
+// isArchive = true: mastery credit only, skip streak + leaderboard
+async function submitScoreToFirebase(score, total, categoryScores, dateKey, isArchive = false) {
   if (!currentUser) return;
 
   const uid         = currentUser.uid;
   const displayName = currentUser.displayName || currentUser.email.split('@')[0];
-  const scoreDocId  = `${uid}_${dateKey}`;
 
   try {
-    // One score document per user per day
+    // Always: record this play in quizHistory subcollection
+    await db.collection('users').doc(uid)
+      .collection('quizHistory').doc(dateKey).set({
+        date:      dateKey,
+        score,
+        total,
+        pct:       Math.round((score / total) * 100),
+        isArchive: !!isArchive,
+        timestamp: firebase.firestore.FieldValue.serverTimestamp(),
+        categories: categoryScores
+      });
+
+    // Always: mark this date as completed (prevents replaying)
+    await db.collection('users').doc(uid).update({
+      completedDates: firebase.firestore.FieldValue.arrayUnion(dateKey)
+    });
+
+    // Fetch user doc (needed for both paths)
+    const userRef  = db.collection('users').doc(uid);
+    const userSnap = await userRef.get();
+    if (!userSnap.exists) return;
+
+    const data  = userSnap.data();
+    const stats = data.stats || {};
+
+    // Accumulate category stats (both daily and archive)
+    const catStats = data.categoryStats || {};
+    Object.entries(categoryScores).forEach(([cat, s]) => {
+      if (!catStats[cat]) catStats[cat] = { played: 0, correct: 0 };
+      catStats[cat].played  += s.total;
+      catStats[cat].correct += s.correct;
+    });
+
+    const totalAnswered = Object.values(categoryScores).reduce((n, s) => n + s.total,   0);
+    const totalCorrect  = Object.values(categoryScores).reduce((n, s) => n + s.correct, 0);
+
+    if (isArchive) {
+      // Archive path: mastery stats only, skip streak + leaderboard
+      await userRef.update({
+        'stats.gamesPlayed':       firebase.firestore.FieldValue.increment(1),
+        'stats.questionsAnswered': firebase.firestore.FieldValue.increment(totalAnswered),
+        'stats.questionsCorrect':  firebase.firestore.FieldValue.increment(totalCorrect),
+        'categoryStats':           catStats
+      });
+
+      if (typeof updateCategoryMastery === 'function') {
+        updateCategoryMastery(categoryScores, dateKey);
+      }
+
+      loadPersonalStats(uid);
+      return;
+    }
+
+    // ── Daily path: full submission ──────────────────────
+    const scoreDocId = `${uid}_${dateKey}`;
     await db.collection('scores').doc(scoreDocId).set({
       uid,
       displayName,
@@ -233,14 +304,6 @@ async function submitScoreToFirebase(score, total, categoryScores, dateKey) {
       timestamp: firebase.firestore.FieldValue.serverTimestamp(),
       categories: categoryScores
     });
-
-    // Update user's running stats
-    const userRef  = db.collection('users').doc(uid);
-    const userSnap = await userRef.get();
-    if (!userSnap.exists) return;
-
-    const data  = userSnap.data();
-    const stats = data.stats || {};
 
     // Streak logic (mirrors localStorage logic in quiz.js)
     const d = new Date();
@@ -255,17 +318,7 @@ async function submitScoreToFirebase(score, total, categoryScores, dateKey) {
     }
     const longestStreak = Math.max(stats.longestStreak || 0, currentStreak);
 
-    // Accumulate category stats
-    const catStats = data.categoryStats || {};
-    Object.entries(categoryScores).forEach(([cat, s]) => {
-      if (!catStats[cat]) catStats[cat] = { played: 0, correct: 0 };
-      catStats[cat].played  += s.total;
-      catStats[cat].correct += s.correct;
-    });
-
-    const totalAnswered = Object.values(categoryScores).reduce((n, s) => n + s.total,   0);
-    const totalCorrect  = Object.values(categoryScores).reduce((n, s) => n + s.correct, 0);
-    const isNewBest     = score > (stats.bestScore || 0);
+    const isNewBest = score > (stats.bestScore || 0);
 
     await userRef.update({
       'stats.gamesPlayed':       firebase.firestore.FieldValue.increment(1),
@@ -279,12 +332,10 @@ async function submitScoreToFirebase(score, total, categoryScores, dateKey) {
       'categoryStats':           catStats
     });
 
-    // Update category mastery (mastery.js)
     if (typeof updateCategoryMastery === 'function') {
       updateCategoryMastery(categoryScores, dateKey);
     }
 
-    // Refresh leaderboard and stats after submission
     loadLeaderboard();
     loadPersonalStats(uid);
     calculateAndShowRankPct(score, dateKey);

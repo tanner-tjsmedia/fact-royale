@@ -2801,3 +2801,192 @@ body > * { position: relative; z-index: 1; }
   font-size: 0.72rem;
   opacity: 0.7;
 }
+
+/* ===========================
+   ARCHIVE / CATCH-UP
+   =========================== */
+
+/* Archive notice on results screen */
+.archive-results-notice {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: rgba(212,175,55,0.08);
+  border: 1px solid rgba(212,175,55,0.2);
+  border-radius: 12px;
+  padding: 12px 16px;
+  margin: 12px 0;
+  font-size: 0.85rem;
+  color: var(--gold);
+  font-weight: 600;
+  text-align: left;
+  line-height: 1.4;
+}
+
+.archive-results-icon {
+  font-size: 1.1rem;
+  flex-shrink: 0;
+}
+
+.archive-already-msg {
+  text-align: center;
+  color: var(--text-muted);
+  padding: 1rem 0;
+  font-size: 0.9rem;
+}
+
+/* Archive landing badge (replaces "You played today." text) */
+.archive-landing-badge {
+  display: inline-block;
+  background: rgba(212,175,55,0.15);
+  border: 1px solid rgba(212,175,55,0.35);
+  border-radius: 6px;
+  padding: 2px 8px;
+  font-size: 0.75rem;
+  font-weight: 800;
+  color: var(--gold);
+  letter-spacing: 0.03em;
+  margin-right: 6px;
+  vertical-align: middle;
+}
+
+/* Catch-up section on results screen */
+.catchup-section {
+  border-top: 1px solid rgba(255,255,255,0.07);
+  padding: 20px 0 4px;
+  margin: 16px 0 0;
+  text-align: center;
+}
+
+.catchup-heading {
+  font-size: 1rem;
+  font-weight: 800;
+  color: var(--text);
+  margin-bottom: 4px;
+}
+
+.catchup-sub {
+  font-size: 0.82rem;
+  color: var(--text-muted);
+  margin-bottom: 14px;
+}
+
+/* Tile grid (shared by results + landing) */
+.catchup-tiles {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+}
+
+/* Base tile */
+.catchup-tile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  height: 64px;
+  border-radius: 12px;
+  gap: 2px;
+  text-decoration: none;
+  transition: transform 0.15s, border-color 0.15s;
+}
+
+.catchup-tile-day {
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.catchup-tile-num {
+  font-size: 1.2rem;
+  font-weight: 900;
+  line-height: 1;
+}
+
+/* Played tile — greyed out, checkmark */
+.catchup-tile-played {
+  background: rgba(255,255,255,0.04);
+  border: 1px solid rgba(255,255,255,0.1);
+  color: var(--text-subtle);
+  cursor: default;
+}
+
+.catchup-tile-check {
+  font-size: 0.8rem;
+  color: var(--correct, #22c55e);
+  font-weight: 900;
+}
+
+/* Available tile — gold, clickable */
+.catchup-tile-available {
+  background: rgba(212,175,55,0.1);
+  border: 1px solid rgba(212,175,55,0.35);
+  color: var(--gold);
+}
+
+.catchup-tile-available:hover {
+  transform: translateY(-2px);
+  border-color: rgba(212,175,55,0.7);
+  background: rgba(212,175,55,0.18);
+}
+
+.catchup-tile-label {
+  font-size: 0.65rem;
+  font-weight: 800;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+/* All-caught-up state */
+.catchup-complete {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 16px;
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  font-weight: 600;
+  flex-wrap: wrap;
+}
+
+.catchup-complete-icon {
+  font-size: 1.3rem;
+}
+
+.catchup-home-link {
+  color: var(--gold);
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 0.85rem;
+}
+
+.catchup-home-link:hover { opacity: 0.8; }
+
+/* Catch-up section on landing page (below already-played-msg) */
+.catchup-landing {
+  margin-top: 14px;
+}
+
+.catchup-landing-label {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--text-muted);
+  margin-bottom: 10px;
+  letter-spacing: 0.02em;
+}
+
+.catchup-tiles-landing {
+  justify-content: flex-start;
+}
+
+@media (max-width: 480px) {
+  .catchup-tile {
+    width: 50px;
+    height: 58px;
+  }
+  .catchup-tile-num { font-size: 1.05rem; }
+}

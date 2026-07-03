@@ -380,12 +380,14 @@ function getDailyFunFact() {
 }
 
 // ── State ──────────────────────────────────────────────
-let questions    = [];
-let currentIndex = 0;
-let score        = 0;
-let answered     = false;
+let questions      = [];
+let currentIndex   = 0;
+let score          = 0;
+let answered       = false;
 let categoryScores = {}; // { "History": {correct:0, total:0}, ... }
-let todayKey     = '';   // "2026-06-13"
+let todayKey       = '';   // "2026-06-13"
+let isArchivePlay  = false; // true when loading a past date via ?date= param
+let activeQuizDate = '';    // the date key for the current quiz (today or archive)
 
 // ── Helpers ────────────────────────────────────────────
 
@@ -494,6 +496,8 @@ function setupLanding(data) {
     document.getElementById('already-played-msg').style.display = 'block';
     document.getElementById('final-score-replay').textContent =
       `Score: ${localStorage.getItem('fr_lastScore')}`;
+    // Catch-up tiles (fires if auth already resolved; also called from auth.js)
+    populateCatchUpOnLanding();
   } else {
     ['btn-start-hero', 'btn-start-section'].forEach(id => {
       const el = document.getElementById(id);
@@ -701,21 +705,29 @@ function getResultsTitle(pct, streak) {
 }
 
 function showResults() {
-  const streak = saveResult(score);
+  // Daily play: update local streak + log metrics
+  // Archive play: skip both (don't affect streak, don't log to anon metrics)
+  let streak = getStreak();
+  if (!isArchivePlay) {
+    streak = saveResult(score);
+    logPlayToFirestore(score, questions.length);
+  }
 
-  // Log every play for metrics, signed in or not
-  logPlayToFirestore(score, questions.length);
-
-  // Submit to leaderboard if user is logged in (auth.js handles the guard)
+  // Submit to Firebase (auth.js handles the guard; isArchive skips streak+leaderboard)
   if (typeof submitScoreToFirebase === 'function') {
-    submitScoreToFirebase(score, questions.length, categoryScores, todayKey);
+    submitScoreToFirebase(score, questions.length, categoryScores, activeQuizDate, isArchivePlay);
   }
 
   showScreen('screen-results');
 
   // Title
-  document.getElementById('results-title').innerHTML =
-    getResultsTitle(score / questions.length, streak);
+  if (isArchivePlay) {
+    document.getElementById('results-title').textContent =
+      getArchiveResultsTitle(score / questions.length);
+  } else {
+    document.getElementById('results-title').innerHTML =
+      getResultsTitle(score / questions.length, streak);
+  }
 
   // Score display with reveal animation
   const scoreEl = document.getElementById('score-display');
@@ -760,8 +772,8 @@ function showResults() {
     breakdown.appendChild(row);
   });
 
-  // Streak
-  if (streak > 1) {
+  // Streak row — daily only
+  if (!isArchivePlay && streak > 1) {
     const streakRow = document.createElement('div');
     streakRow.className = 'breakdown-row';
     streakRow.innerHTML = `
@@ -771,20 +783,30 @@ function showResults() {
     breakdown.appendChild(streakRow);
   }
 
-  // Sign-up nudge — only for anonymous users
+  // Archive notice (hidden for daily plays)
+  const archiveNoticeEl = document.getElementById('archive-results-notice');
+  if (archiveNoticeEl) {
+    archiveNoticeEl.style.display = isArchivePlay ? 'block' : 'none';
+  }
+
+  // Catch-up tiles (async — fills in after render)
+  if (typeof currentUser !== 'undefined' && currentUser) {
+    showCatchUpSection();
+  }
+
+  // Sign-up nudge — only for anonymous users on daily plays
   const nudgeEl = document.getElementById('signup-nudge');
   if (nudgeEl) {
     const isLoggedIn = !!(typeof firebase !== 'undefined' &&
                           firebase.auth &&
                           firebase.auth().currentUser);
-    nudgeEl.style.display = isLoggedIn ? 'none' : 'block';
-    if (!isLoggedIn) {
+    nudgeEl.style.display = (isLoggedIn || isArchivePlay) ? 'none' : 'block';
+    if (!isLoggedIn && !isArchivePlay) {
       const nudgeBtn = document.getElementById('btn-nudge-signup');
       if (nudgeBtn) nudgeBtn.onclick = () => {
         const modal = document.getElementById('auth-modal');
         if (modal) {
           modal.style.display = 'flex';
-          // Pre-select the Create Account tab
           const signupTab = document.getElementById('tab-signup');
           if (signupTab) signupTab.click();
         }
@@ -792,18 +814,30 @@ function showResults() {
     }
   }
 
-  // Fun fact — same fact for everyone on the same day
+  // Fun fact
   document.getElementById('fun-fact-text').textContent = getDailyFunFact();
 
   // Share
   document.getElementById('btn-share').onclick = shareScore;
 
-  // Home button
+  // Home button — archive goes to homepage root, daily goes back to landing screen
   document.getElementById('btn-home').onclick = () => {
-    showScreen('screen-landing');
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-    if (typeof loadLeaderboard === 'function') loadLeaderboard();
+    if (isArchivePlay) {
+      window.location.href = '/';
+    } else {
+      showScreen('screen-landing');
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+      if (typeof loadLeaderboard === 'function') loadLeaderboard();
+    }
   };
+
+  // Comeback message
+  const comebackEl = document.querySelector('.comeback-msg');
+  if (comebackEl) {
+    comebackEl.textContent = isArchivePlay
+      ? 'Come back tomorrow for a fresh quiz!'
+      : 'New quiz drops tomorrow. See you then.';
+  }
 }
 
 // ── Replay results from localStorage (already-played flow) ─
@@ -881,6 +915,237 @@ function showResultsFromStorage() {
   };
 }
 
+// ── Archive Results Title ──────────────────────────────
+function getArchiveResultsTitle(pct) {
+  if (pct >= 0.917) return 'Perfect catch-up!';
+  if (pct >= 0.75)  return 'Nice catch-up play!';
+  if (pct >= 0.5)   return 'Solid catch-up!';
+  return 'Caught up!';
+}
+
+// ── Catch-Up Section (results screen) ─────────────────
+// Shows tiles for other missed dates in the free window.
+// Called after showResults() when user is logged in.
+async function showCatchUpSection() {
+  const sectionEl = document.getElementById('catchup-section');
+  const tilesEl   = document.getElementById('catchup-tiles');
+  if (!sectionEl || !tilesEl) return;
+  if (typeof currentUser === 'undefined' || !currentUser) return;
+  if (typeof getCompletedDates !== 'function') return;
+
+  try {
+    const completedDates = await getCompletedDates(currentUser.uid);
+    const tiles = [];
+
+    for (let i = 1; i <= ARCHIVE_FREE_DAYS; i++) {
+      const d = new Date();
+      d.setDate(d.getDate() - i);
+      const dateKey = `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;
+      if (dateKey === activeQuizDate) continue; // skip the one we just played
+      tiles.push({ dateKey, played: completedDates.includes(dateKey) });
+    }
+
+    const missed = tiles.filter(t => !t.played);
+
+    if (missed.length === 0) {
+      sectionEl.innerHTML = `
+        <div class="catchup-complete">
+          <span class="catchup-complete-icon">🎉</span>
+          <span>All caught up this week!</span>
+          <a href="/" class="catchup-home-link">Back to Today</a>
+        </div>
+      `;
+      sectionEl.style.display = 'block';
+      return;
+    }
+
+    const headingEl = sectionEl.querySelector('.catchup-heading');
+    const subEl     = sectionEl.querySelector('.catchup-sub');
+    if (headingEl) headingEl.textContent = isArchivePlay ? 'More to catch up on' : 'Missed any quizzes?';
+    if (subEl)     subEl.textContent     = isArchivePlay ? 'Keep going to earn mastery credit.' : 'Play quizzes you missed this week.';
+
+    tilesEl.innerHTML = tiles.map(({ dateKey, played }) => {
+      const d       = new Date(dateKey + 'T00:00:00');
+      const dayName = d.toLocaleDateString('en-US', { weekday: 'short' });
+      const dayNum  = d.getDate();
+      if (played) {
+        return `<div class="catchup-tile catchup-tile-played" title="${formatDate(dateKey)}">
+          <span class="catchup-tile-day">${dayName}</span>
+          <span class="catchup-tile-num">${dayNum}</span>
+          <span class="catchup-tile-check">&#10003;</span>
+        </div>`;
+      }
+      return `<a href="/?date=${dateKey}" class="catchup-tile catchup-tile-available" title="${formatDate(dateKey)}">
+        <span class="catchup-tile-day">${dayName}</span>
+        <span class="catchup-tile-num">${dayNum}</span>
+        <span class="catchup-tile-label">Play</span>
+      </a>`;
+    }).join('');
+
+    sectionEl.style.display = 'block';
+  } catch (err) {
+    console.error('Catch-up section error:', err);
+  }
+}
+
+// ── Catch-Up Tiles on Landing (already-played users) ──
+// Called from auth.js onAuthStateChanged after user resolves.
+async function populateCatchUpOnLanding() {
+  if (isArchivePlay) return;
+  if (!alreadyPlayedToday()) return;
+  const sectionEl = document.getElementById('catchup-landing');
+  const tilesEl   = document.getElementById('catchup-tiles-landing');
+  if (!sectionEl || !tilesEl) return;
+  if (typeof currentUser === 'undefined' || !currentUser) return;
+  if (typeof getCompletedDates !== 'function') return;
+
+  try {
+    const completedDates = await getCompletedDates(currentUser.uid);
+    const tiles = [];
+
+    for (let i = 1; i <= ARCHIVE_FREE_DAYS; i++) {
+      const d = new Date();
+      d.setDate(d.getDate() - i);
+      const dateKey = `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;
+      tiles.push({ dateKey, played: completedDates.includes(dateKey) });
+    }
+
+    if (tiles.every(t => t.played)) {
+      sectionEl.style.display = 'none';
+      return;
+    }
+
+    tilesEl.innerHTML = tiles.map(({ dateKey, played }) => {
+      const d       = new Date(dateKey + 'T00:00:00');
+      const dayName = d.toLocaleDateString('en-US', { weekday: 'short' });
+      const dayNum  = d.getDate();
+      if (played) {
+        return `<div class="catchup-tile catchup-tile-played">
+          <span class="catchup-tile-day">${dayName}</span>
+          <span class="catchup-tile-num">${dayNum}</span>
+          <span class="catchup-tile-check">&#10003;</span>
+        </div>`;
+      }
+      return `<a href="/?date=${dateKey}" class="catchup-tile catchup-tile-available">
+        <span class="catchup-tile-day">${dayName}</span>
+        <span class="catchup-tile-num">${dayNum}</span>
+        <span class="catchup-tile-label">Play</span>
+      </a>`;
+    }).join('');
+
+    sectionEl.style.display = 'block';
+  } catch (err) {
+    console.error('Catch-up landing error:', err);
+  }
+}
+
+// ── Archive: Locked Screen ─────────────────────────────
+function showArchiveLockedScreen(dateStr) {
+  const landingCard = document.querySelector('#screen-noquiz .landing-card');
+  if (landingCard) {
+    const dateDisplay = /^\d{4}-\d{2}-\d{2}$/.test(dateStr) ? formatDate(dateStr) : dateStr;
+    landingCard.innerHTML = `
+      <div class="crown">&#9819;</div>
+      <h1 class="logo">Fact Royale</h1>
+      <p class="tagline">The quiz from <strong>${dateDisplay}</strong> is outside your free window.</p>
+      <p style="margin-top:0.5rem;color:var(--text-muted);font-size:0.9em;">The last ${ARCHIVE_FREE_DAYS} days are free to replay. Older archives coming with premium.</p>
+      <a href="/" class="btn-hero" style="display:inline-block;margin-top:1.5rem;">Back to Today</a>
+    `;
+  }
+  showScreen('screen-noquiz');
+}
+
+// ── Archive: Already-Played Screen ────────────────────
+function showArchiveAlreadyPlayedScreen() {
+  showScreen('screen-results');
+  document.getElementById('results-title').textContent = "You've already played this one!";
+  document.getElementById('score-display').innerHTML   = '';
+
+  const breakdown = document.getElementById('category-breakdown');
+  if (breakdown) {
+    breakdown.innerHTML = `<p class="archive-already-msg">Check your mastery page to see how this date contributed to your progress.</p>`;
+  }
+
+  const archiveNoticeEl = document.getElementById('archive-results-notice');
+  if (archiveNoticeEl) archiveNoticeEl.style.display = 'block';
+
+  const shareBtn = document.getElementById('btn-share');
+  if (shareBtn) shareBtn.style.display = 'none';
+
+  document.getElementById('btn-home').onclick = () => { window.location.href = '/'; };
+
+  const comebackEl = document.querySelector('.comeback-msg');
+  if (comebackEl) comebackEl.textContent = 'Play other dates below!';
+
+  if (typeof currentUser !== 'undefined' && currentUser) showCatchUpSection();
+}
+
+// ── Archive: Landing Setup ─────────────────────────────
+function setupArchiveLanding(data) {
+  document.getElementById('landing-date').textContent = formatDate(activeQuizDate);
+
+  // Category pills
+  const cats    = [...new Set(data.questions.map(q => q.category))];
+  const pillsEl = document.getElementById('landing-categories');
+  if (pillsEl) pillsEl.innerHTML = cats.map(c =>
+    `<span class="pill ${getCategoryClass(c)}">${c}</span>`
+  ).join('');
+
+  const dateCardEl = document.getElementById('landing-date-card');
+  if (dateCardEl) dateCardEl.textContent = formatDate(activeQuizDate);
+
+  // Streak badge — show current streak (don't modify)
+  const streakEl = document.getElementById('landing-streak');
+  const streak   = getStreak();
+  if (streakEl) {
+    streakEl.innerHTML = streak > 0
+      ? `<span class="fr-icon fr-icon-sm" style="color:var(--gold,#d4af37)">${ICONS.flame}</span> ${streak} day streak`
+      : '';
+  }
+
+  // Override play buttons
+  ['btn-start-hero', 'btn-start-section'].forEach(id => {
+    const el = document.getElementById(id);
+    if (!el) return;
+    el.textContent = `Play ${formatDate(activeQuizDate)} Quiz`;
+    el.addEventListener('click', startArchiveQuiz);
+  });
+
+  // Use already-played-msg for the archive notice
+  const noticeEl = document.getElementById('already-played-msg');
+  if (noticeEl) {
+    noticeEl.style.display = 'block';
+    noticeEl.innerHTML = `<span class="archive-landing-badge">Catch-Up Quiz</span> Scores count toward mastery, not streak or leaderboard.`;
+  }
+}
+
+// ── Archive: Start Quiz (with auth + dupe guard) ───────
+async function startArchiveQuiz() {
+  // Require login
+  if (typeof currentUser === 'undefined' || !currentUser) {
+    const modal = document.getElementById('auth-modal');
+    if (modal) {
+      modal.style.display = 'flex';
+      const signupTab = document.getElementById('tab-signup');
+      if (signupTab) signupTab.click();
+    }
+    return;
+  }
+
+  // Block replaying already-completed dates
+  try {
+    const completedDates = await getCompletedDates(currentUser.uid);
+    if (completedDates.includes(activeQuizDate)) {
+      showArchiveAlreadyPlayedScreen();
+      return;
+    }
+  } catch (e) {
+    console.warn('completedDates check failed, proceeding:', e);
+  }
+
+  startQuiz();
+}
+
 // ── Score Card Sharing ─────────────────────────────────
 
 let shareFormat = 'story';
@@ -898,7 +1163,7 @@ function getShareData() {
     score,
     total: questions.length,
     streak: getStreak(),
-    date: formatDate(todayKey),
+    date: formatDate(activeQuizDate),
     rank,
     categories: Object.entries(categoryScores).map(([cat, s]) => ({
       name: cat, correct: s.correct, total: s.total
@@ -1435,7 +1700,7 @@ function downloadCardImage() {
   const canvas = document.getElementById('share-canvas');
   if (!canvas) return;
   const a = document.createElement('a');
-  a.download = `fact-royale-${todayKey}.png`;
+  a.download = `fact-royale-${activeQuizDate}.png`;
   a.href     = canvas.toDataURL('image/png');
   a.click();
 }
@@ -1494,13 +1759,39 @@ async function init() {
   todayKey = getTodayKey();
   initShareModal();
 
+  // Check for archive date param (?date=YYYY-MM-DD)
+  const urlParams = new URLSearchParams(window.location.search);
+  const dateParam = urlParams.get('date');
+
+  if (dateParam && /^\d{4}-\d{2}-\d{2}$/.test(dateParam) && dateParam !== todayKey) {
+    const quizDate  = new Date(dateParam + 'T00:00:00');
+    const todayDate = new Date(todayKey  + 'T00:00:00');
+    const daysDiff  = Math.floor((todayDate - quizDate) / (1000 * 60 * 60 * 24));
+
+    if (daysDiff > 0 && daysDiff <= ARCHIVE_FREE_DAYS) {
+      isArchivePlay  = true;
+      activeQuizDate = dateParam;
+    } else if (daysDiff > ARCHIVE_FREE_DAYS) {
+      showArchiveLockedScreen(dateParam);
+      return;
+    }
+    // daysDiff <= 0 = future date — fall through to today's quiz
+  }
+
+  if (!activeQuizDate) activeQuizDate = todayKey;
+
   try {
-    const res  = await fetch(`questions/${todayKey}.json`);
+    const res  = await fetch(`questions/${activeQuizDate}.json`);
     if (!res.ok) throw new Error('No quiz file');
     const data = await res.json();
 
     questions = shuffle(data.questions);
-    setupLanding(data);
+
+    if (isArchivePlay) {
+      setupArchiveLanding(data);
+    } else {
+      setupLanding(data);
+    }
     showScreen('screen-landing');
   } catch (e) {
     showScreen('screen-noquiz');

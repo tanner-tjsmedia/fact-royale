@@ -155,6 +155,11 @@
         <p class="already-played" id="already-played-msg" style="display:none;">
           You played today. <span id="final-score-replay"></span>
         </p>
+        <!-- Catch-up tiles for logged-in users who've played today but missed earlier days -->
+        <div class="catchup-landing" id="catchup-landing" style="display:none;">
+          <p class="catchup-landing-label">Play quizzes you missed this week</p>
+          <div class="catchup-tiles catchup-tiles-landing" id="catchup-tiles-landing"></div>
+        </div>
       </div>
       <div class="hero-stat-row">
         <div class="hero-stat"><span class="stat-num">12</span><span class="stat-label">Questions Daily</span></div>
@@ -426,6 +431,19 @@
           </div>
         </div>
         <button class="btn-nudge-signup" id="btn-nudge-signup">Create Free Account →</button>
+      </div>
+
+      <!-- Archive notice (shown for archive/catch-up plays only) -->
+      <div class="archive-results-notice" id="archive-results-notice" style="display:none;">
+        <span class="archive-results-icon">📚</span>
+        <span>This counted toward your mastery, not your streak or leaderboard.</span>
+      </div>
+
+      <!-- Catch-up tiles (shown after completing any quiz, for logged-in users with missed dates) -->
+      <div class="catchup-section" id="catchup-section" style="display:none;">
+        <h3 class="catchup-heading">Missed any quizzes?</h3>
+        <p class="catchup-sub">Play quizzes you missed this week for mastery credit.</p>
+        <div class="catchup-tiles" id="catchup-tiles"></div>
       </div>
 
       <!-- Fun fact -->
