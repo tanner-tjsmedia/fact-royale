@@ -2858,14 +2858,16 @@ body > * { position: relative; z-index: 1; }
   text-align: center;
 }
 
-/* CTA button — used on both results screen and landing */
-.btn-catchup {
+/* CTA button — used on both results screen and landing.
+   a.btn-catchup selector beats browser default link colors (no global a{} reset). */
+.btn-catchup,
+a.btn-catchup {
   display: inline-block;
   padding: 12px 24px;
   background: rgba(212,175,55,0.12);
   border: 1px solid rgba(212,175,55,0.4);
   border-radius: 100px;
-  color: var(--gold);
+  color: var(--gold, #d4af37);
   font-family: var(--font-body);
   font-size: 0.9rem;
   font-weight: 800;
@@ -2873,11 +2875,15 @@ body > * { position: relative; z-index: 1; }
   letter-spacing: 0.01em;
   transition: background 0.18s, border-color 0.18s, transform 0.15s;
   -webkit-tap-highlight-color: transparent;
+  cursor: pointer;
 }
 
-.btn-catchup:hover {
+.btn-catchup:hover,
+a.btn-catchup:hover {
   background: rgba(212,175,55,0.22);
   border-color: rgba(212,175,55,0.7);
+  color: var(--gold-bright, #f0c040);
+  text-decoration: none;
   transform: translateY(-1px);
 }
 

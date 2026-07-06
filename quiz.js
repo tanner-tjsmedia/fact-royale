@@ -1016,6 +1016,11 @@ async function populateCatchUpOnLanding() {
   try {
     const completedDates = await getCompletedDates(currentUser.uid);
 
+    // Only show catch-up on the landing if the user has already played today.
+    // Before today's quiz is done, keep the focus on today — no distractions.
+    const playedToday = alreadyPlayedToday() || completedDates.includes(todayKey);
+    if (!playedToday) return;
+
     let oldestMissed = null;
     let missedCount  = 0;
     for (let i = ARCHIVE_FREE_DAYS; i >= 1; i--) {
@@ -1029,11 +1034,8 @@ async function populateCatchUpOnLanding() {
     }
 
     if (!oldestMissed) {
-      // All past quizzes complete — only show this message if they've played today too
-      if (alreadyPlayedToday() || completedDates.includes(todayKey)) {
-        sectionEl.innerHTML = `<p class="catchup-all-done">All caught up! New quiz drops tomorrow.</p>`;
-        sectionEl.style.display = 'block';
-      }
+      sectionEl.innerHTML = `<p class="catchup-all-done">All caught up! New quiz drops tomorrow.</p>`;
+      sectionEl.style.display = 'block';
       return;
     }
 
