@@ -41,6 +41,12 @@ auth.onAuthStateChanged(user => {
         syncLandingAlreadyPlayed();
       }
       if (typeof populateCatchUpOnLanding === 'function') populateCatchUpOnLanding();
+
+      // Auto-start archive quiz when navigated here via catch-up quick-play link (?autostart=1)
+      if (window.fr_autoStart && typeof startArchiveQuiz === 'function') {
+        window.fr_autoStart = false;
+        startArchiveQuiz();
+      }
     }).catch(() => {
       if (typeof populateCatchUpOnLanding === 'function') populateCatchUpOnLanding();
     });
@@ -650,40 +656,47 @@ function renderPersonalStats(data) {
   const todayKey = typeof getTodayKey === 'function' ? getTodayKey() : getTodayKeyForAuth();
 
   // ── Cross-device sync: write Firestore streak into localStorage ──────
-  // This ensures playing on phone yesterday doesn't break desktop today.
-  if (stats.lastPlayedDate) {
-    localStorage.setItem('fr_lastPlayed', stats.lastPlayedDate);
+  // Only overwrite localStorage when Firestore has a NEWER date — never let
+  // a stale Firestore read (e.g. right after an async daily write) clobber
+  // a more recent localStorage value from the same session.
+  const fsLastPlayed = stats.lastPlayedDate || '';
+  const lsLastPlayed = localStorage.getItem('fr_lastPlayed') || '';
+  if (fsLastPlayed > lsLastPlayed) {
+    localStorage.setItem('fr_lastPlayed', fsLastPlayed);
     localStorage.setItem('fr_streak',     String(stats.currentStreak || 0));
   }
 
-  // ── Refresh hero badge with authoritative Firestore streak ────────────
+  // ── Effective last-played date: max of Firestore + localStorage ───────
+  // submitScoreToFirebase is fire-and-forget; when an archive play triggers
+  // loadPersonalStats the daily write may not have committed to Firestore yet.
+  // Taking the max date prevents a false "streak reset" banner.
+  const effectiveLastPlayed = lsLastPlayed > fsLastPlayed ? lsLastPlayed : fsLastPlayed;
+  const lsStreak = parseInt(localStorage.getItem('fr_streak') || '0');
+  const effectiveStreak = Math.max(stats.currentStreak || 0, lsStreak);
+
+  // ── Refresh hero badge with authoritative streak ──────────────────────
   // setupLanding() runs before auth resolves so it reads stale localStorage.
-  // Overwrite it here once we have the real number from Firestore.
+  // Overwrite it here once we have the real number.
   const heroBadge = document.getElementById('landing-streak');
   if (heroBadge) {
-    const s = stats.currentStreak || 0;
-    heroBadge.innerHTML = s > 0 ? `<span class="fr-icon fr-icon-sm" style="color:var(--gold,#d4af37)">${ICONS.flame}</span> ${s} day streak` : 'Start your streak!';
+    heroBadge.innerHTML = effectiveStreak > 0 ? `<span class="fr-icon fr-icon-sm" style="color:var(--gold,#d4af37)">${ICONS.flame}</span> ${effectiveStreak} day streak` : 'Start your streak!';
   }
 
   // ── Streak break detection ────────────────────────────────────────────
-  // If lastPlayedDate is set but is neither today nor yesterday, they missed a day.
+  // If effectiveLastPlayed is neither today nor yesterday, they missed a day.
   const yesterday = (() => {
     const d = new Date();
     d.setDate(d.getDate() - 1);
     return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;
   })();
-  const lastPlayedDate = stats.lastPlayedDate || '';
-  const hasPlayedBefore = !!lastPlayedDate;
+  const hasPlayedBefore = !!effectiveLastPlayed;
   const streakBroken = hasPlayedBefore &&
-                       lastPlayedDate !== todayKey &&
-                       lastPlayedDate !== yesterday &&
+                       effectiveLastPlayed !== todayKey &&
+                       effectiveLastPlayed !== yesterday &&
                        (stats.longestStreak || 0) > 1;
 
-  // Use localStorage as fallback: Firestore lastPlayedDate can lag if the
-  // stat write failed or the cached user doc hasn't caught up yet.
-  const alreadyPlayed = lastPlayedDate === todayKey ||
-                        localStorage.getItem('fr_lastPlayed') === todayKey;
-  updateStreakBanner(stats.currentStreak || 0, alreadyPlayed, streakBroken);
+  const alreadyPlayed = effectiveLastPlayed === todayKey;
+  updateStreakBanner(effectiveStreak, alreadyPlayed, streakBroken);
 
   const set = (id, val) => { const el = document.getElementById(id); if (el) el.textContent = val; };
 

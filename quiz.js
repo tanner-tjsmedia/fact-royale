@@ -992,7 +992,7 @@ async function showCatchUpSection() {
     sectionEl.innerHTML = `
       <div class="catchup-cta-wrap">
         <p class="catchup-cta-label">You have ${plural} waiting from this week</p>
-        <a href="/?date=${oldestMissed}" class="btn-catchup">Play Missed Quizzes &#8594;</a>
+        <a href="/?date=${oldestMissed}&autostart=1" class="btn-catchup">Play Missed Quizzes &#8594;</a>
         <p class="catchup-cta-note">Counts toward mastery, not streak or leaderboard.</p>
       </div>`;
     sectionEl.style.display = 'block';
@@ -1040,7 +1040,7 @@ async function populateCatchUpOnLanding() {
     }
 
     const plural = missedCount > 1 ? `${missedCount} quizzes` : '1 quiz';
-    sectionEl.innerHTML = `<a href="/?date=${oldestMissed}" class="btn-catchup">Play Missed Quizzes (${plural}) &#8594;</a>`;
+    sectionEl.innerHTML = `<a href="/?date=${oldestMissed}&autostart=1" class="btn-catchup">Play Missed Quizzes (${plural}) &#8594;</a>`;
     sectionEl.style.display = 'block';
   } catch (err) {
     console.error('Catch-up landing error:', err);
@@ -1635,59 +1635,120 @@ function drawSquareCard(ctx, w, h, data) {
   drawDotGrid(ctx, w, h);
   drawTopAccent(ctx, w);
 
+  // ── Left column: brand + score ─────────────────────────
+  const divX = Math.round(w * 0.44);
+  const lc   = divX / 2;
+  const rx   = divX + 36;
+  const rEnd = w - 32;
+  const rw   = rEnd - rx;
+
   ctx.textAlign = 'center';
-  let y = 50;
 
-  ctx.font = '900 34px Nunito, sans-serif';
+  ctx.font = '900 26px Nunito, sans-serif';
   ctx.fillStyle = '#f0c040';
-  ctx.fillText('♛', w / 2, y); y += 42;
+  ctx.fillText('♛', lc, 52);
 
-  ctx.font = '800 20px Nunito, sans-serif';
+  ctx.font = '800 17px Nunito, sans-serif';
   ctx.fillStyle = '#f0c040';
-  ctx.fillText('FACT ROYALE', w / 2, y); y += 26;
+  ctx.fillText('FACT ROYALE', lc, 76);
 
-  ctx.font = '400 14px Nunito, sans-serif';
+  ctx.font = '400 12px Nunito, sans-serif';
   ctx.fillStyle = 'rgba(240,192,64,0.52)';
-  ctx.fillText(data.date, w / 2, y);
+  ctx.fillText(data.date, lc, 94);
 
   // Score ring
-  const scoreCY = 252;
-  drawScoreRing(ctx, w / 2, scoreCY, 70);
+  const scoreCY = 258;
+  drawScoreRing(ctx, lc, scoreCY, 66);
 
-  ctx.font = '900 74px Nunito, sans-serif';
+  ctx.font = '900 70px Nunito, sans-serif';
   ctx.fillStyle = '#f0c040';
   ctx.textAlign = 'center';
-  ctx.fillText(String(data.score), w / 2, scoreCY + 28);
+  ctx.fillText(String(data.score), lc, scoreCY + 25);
 
-  ctx.font = '400 16px Nunito, sans-serif';
+  ctx.font = '400 14px Nunito, sans-serif';
   ctx.fillStyle = 'rgba(232,232,240,0.48)';
-  ctx.fillText('out of ' + data.total, w / 2, scoreCY + 50);
+  ctx.fillText('out of ' + data.total, lc, scoreCY + 46);
 
-  drawPctBadge(ctx, w / 2, scoreCY + 80, data.score, data.total);
+  drawPctBadge(ctx, lc, scoreCY + 72, data.score, data.total);
 
-  let sy = scoreCY + 114;
-  if (data.rank) {
-    ctx.font = '600 16px Nunito, sans-serif';
-    ctx.fillStyle = 'rgba(232,232,240,0.72)';
-    ctx.textAlign = 'center';
-    ctx.fillText(data.rank, w / 2, sy); sy += 24;
-  }
   if (data.streak > 1) {
-    ctx.font = '400 16px Nunito, sans-serif';
+    ctx.font = '400 13px Nunito, sans-serif';
     ctx.fillStyle = '#fbbf24';
-    ctx.fillText('🔥 ' + data.streak + '-day streak', w / 2, sy); sy += 24;
+    ctx.textAlign = 'center';
+    ctx.fillText('🔥 ' + data.streak + '-day streak', lc, scoreCY + 100);
   }
 
-  // Footer pinned to bottom; two-row pills fill remaining space above it
-  const footerY = h - 20;
-  const pillsY  = Math.min(sy + 22, footerY - 68);
-  drawHLine(ctx, w, sy + 8);
-  drawTwoRowPills(ctx, w, pillsY, data.categories);
-
-  ctx.font = '700 14px Nunito, sans-serif';
-  ctx.fillStyle = 'rgba(240,192,64,0.52)';
+  // URL bottom-left
+  ctx.font = '700 12px Nunito, sans-serif';
+  ctx.fillStyle = 'rgba(240,192,64,0.5)';
   ctx.textAlign = 'center';
-  ctx.fillText('♛  fact-royale.com', w / 2, footerY);
+  ctx.fillText('♛  fact-royale.com', lc, h - 18);
+
+  // ── Vertical divider ────────────────────────────────────
+  ctx.save();
+  ctx.strokeStyle = 'rgba(240,192,64,0.18)';
+  ctx.lineWidth = 1;
+  ctx.beginPath();
+  ctx.moveTo(divX, 28);
+  ctx.lineTo(divX, h - 28);
+  ctx.stroke();
+  ctx.restore();
+
+  // ── Right column: rank + breakdown bars ────────────────
+  let ry = 40;
+
+  if (data.rank) {
+    ctx.font = '600 13px Nunito, sans-serif';
+    ctx.fillStyle = 'rgba(232,232,240,0.75)';
+    ctx.textAlign = 'left';
+    ctx.fillText(data.rank, rx, ry); ry += 20;
+  }
+
+  ry += 4;
+  ctx.save();
+  ctx.strokeStyle = 'rgba(240,192,64,0.16)';
+  ctx.lineWidth = 1;
+  ctx.beginPath(); ctx.moveTo(rx, ry); ctx.lineTo(rEnd, ry); ctx.stroke();
+  ctx.restore();
+  ry += 14;
+
+  ctx.font = '600 11px Nunito, sans-serif';
+  ctx.fillStyle = 'rgba(240,192,64,0.4)';
+  ctx.textAlign = 'left';
+  ctx.fillText('BREAKDOWN', rx, ry); ry += 16;
+
+  // Category bars — same style as wide card
+  const barH = 6, barR = 3;
+  data.categories.forEach(cat => {
+    const style = getCatStyle(cat.name);
+    const ratio = cat.total > 0 ? cat.correct / cat.total : 0;
+
+    ctx.font = '400 13px Nunito, sans-serif';
+    ctx.fillStyle = 'rgba(232,232,240,0.65)';
+    ctx.textAlign = 'left';
+    ctx.fillText(cat.name, rx, ry);
+
+    ctx.font = '700 13px Nunito, sans-serif';
+    ctx.fillStyle = style.text;
+    ctx.textAlign = 'right';
+    ctx.fillText(`${cat.correct}/${cat.total}`, rEnd, ry);
+    ry += 11;
+
+    ctx.beginPath();
+    roundRect(ctx, rx, ry, rw, barH, barR);
+    ctx.fillStyle = 'rgba(255,255,255,0.08)';
+    ctx.fill();
+
+    if (ratio > 0) {
+      ctx.beginPath();
+      roundRect(ctx, rx, ry, rw * ratio, barH, barR);
+      ctx.fillStyle = style.text;
+      ctx.globalAlpha = 0.65;
+      ctx.fill();
+      ctx.globalAlpha = 1;
+    }
+    ry += barH + 13;
+  });
 }
 
 // ── Share actions ──────────────────────────────────────
@@ -1788,6 +1849,11 @@ async function init() {
     if (daysDiff > 0 && daysDiff <= ARCHIVE_FREE_DAYS) {
       isArchivePlay  = true;
       activeQuizDate = dateParam;
+      // ?autostart=1 — skip the archive landing and go straight to the quiz
+      // (auth.js onAuthStateChanged triggers startArchiveQuiz() once user resolves)
+      if (urlParams.get('autostart') === '1') {
+        window.fr_autoStart = true;
+      }
     } else if (daysDiff > ARCHIVE_FREE_DAYS) {
       showArchiveLockedScreen(dateParam);
       return;
