@@ -33,9 +33,11 @@ auth.onAuthStateChanged(user => {
     // getCompletedDates handles backfill for pre-feature players automatically
     getCompletedDates(user.uid).then(completedDates => {
       const todayStr = getTodayKeyForAuth();
+      // Don't override archive landing pages with daily "View My Results" state
+      const isOnArchivePage = new URLSearchParams(window.location.search).has('date');
       // Fallback: if Firestore says they played today but localStorage is stale,
       // re-sync the landing page buttons to "View Results" state
-      if (completedDates.includes(todayStr) && typeof syncLandingAlreadyPlayed === 'function') {
+      if (!isOnArchivePage && completedDates.includes(todayStr) && typeof syncLandingAlreadyPlayed === 'function') {
         syncLandingAlreadyPlayed();
       }
       if (typeof populateCatchUpOnLanding === 'function') populateCatchUpOnLanding();
@@ -240,9 +242,10 @@ async function getCompletedDates(uid) {
     const data    = snap.data();
     let completed = data.completedDates || [];
 
-    // Backfill for existing players who have a streak but no completedDates yet
-    if (completed.length === 0 && data.stats &&
-        data.stats.lastPlayedDate && data.stats.currentStreak > 0) {
+    // Backfill from streak data whenever streak-inferred dates are missing.
+    // This runs even if completedDates has some entries (e.g. only today was
+    // written via arrayUnion but historical streak dates were never recorded).
+    if (data.stats && data.stats.lastPlayedDate && data.stats.currentStreak > 0) {
       const lastDate = data.stats.lastPlayedDate;
       const streak   = Math.min(data.stats.currentStreak, 60); // cap at 60
       const inferred = [];
@@ -254,12 +257,16 @@ async function getCompletedDates(uid) {
         inferred.push(dk);
       }
 
-      completed = inferred;
-
-      // Write back to Firestore (fire-and-forget — next read will hit the cache)
-      db.collection('users').doc(uid).update({
-        completedDates: firebase.firestore.FieldValue.arrayUnion(...inferred)
-      }).catch(e => console.warn('completedDates backfill failed:', e));
+      // Only write back if any inferred dates are actually missing
+      const missing = inferred.filter(dk => !completed.includes(dk));
+      if (missing.length > 0) {
+        // Merge locally so the UI reflects the correct state immediately
+        completed = [...new Set([...completed, ...inferred])];
+        // Write back to Firestore (fire-and-forget)
+        db.collection('users').doc(uid).update({
+          completedDates: firebase.firestore.FieldValue.arrayUnion(...inferred)
+        }).catch(e => console.warn('completedDates backfill failed:', e));
+      }
     }
 
     return completed;
@@ -672,7 +679,10 @@ function renderPersonalStats(data) {
                        lastPlayedDate !== yesterday &&
                        (stats.longestStreak || 0) > 1;
 
-  const alreadyPlayed = lastPlayedDate === todayKey;
+  // Use localStorage as fallback: Firestore lastPlayedDate can lag if the
+  // stat write failed or the cached user doc hasn't caught up yet.
+  const alreadyPlayed = lastPlayedDate === todayKey ||
+                        localStorage.getItem('fr_lastPlayed') === todayKey;
   updateStreakBanner(stats.currentStreak || 0, alreadyPlayed, streakBroken);
 
   const set = (id, val) => { const el = document.getElementById(id); if (el) el.textContent = val; };

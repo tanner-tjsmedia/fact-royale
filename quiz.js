@@ -1208,6 +1208,15 @@ async function renderShareCard() {
   if (shareFormat === 'story')  drawStoryCard(ctx, w, h, data);
   if (shareFormat === 'wide')   drawWideCard(ctx, w, h, data);
   if (shareFormat === 'square') drawSquareCard(ctx, w, h, data);
+
+  // Scale canvas display to fit inside the modal without overflow.
+  // Canvas width/height attrs control drawing resolution; CSS controls display size.
+  const wrap   = canvas.parentElement;
+  const maxW   = (wrap ? wrap.offsetWidth : 500) - 4; // 4px breathing room
+  const maxH   = 400;
+  const scale  = Math.min(maxW / w, maxH / h, 1); // never upscale
+  canvas.style.width  = Math.round(w * scale) + 'px';
+  canvas.style.height = Math.round(h * scale) + 'px';
 }
 
 // ── Canvas helpers ─────────────────────────────────────
