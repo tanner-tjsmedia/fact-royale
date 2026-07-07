@@ -551,6 +551,13 @@ function syncLandingAlreadyPlayed() {
     const scoreEl = document.getElementById('final-score-replay');
     if (scoreEl) scoreEl.textContent = `Score: ${localStorage.getItem('fr_lastScore')}`;
   }
+  // Update streak banner immediately from localStorage — don't wait for async Firestore.
+  // submitScoreToFirebase is fire-and-forget; by the time the user hits Back to Home,
+  // the Firestore write may not have resolved. localStorage is always current after saveResult().
+  if (typeof updateStreakBanner === 'function') {
+    const streak = parseInt(localStorage.getItem('fr_streak') || '0');
+    updateStreakBanner(streak, true /* alreadyPlayed */, false /* streakBroken */);
+  }
   // Refresh catch-up tiles if user is logged in
   populateCatchUpOnLanding();
 }
