@@ -1445,11 +1445,11 @@ function drawStoryCard(ctx, w, h, data) {
 
   ctx.textAlign = 'center';
 
-  // Header
-  let y = 100;
+  // Header — tighter to top so ring has more room
+  let y = 78;
   ctx.font = '900 38px Nunito, sans-serif';
   ctx.fillStyle = '#f0c040';
-  ctx.fillText('♛', w / 2, y); y += 48;
+  ctx.fillText('♛', w / 2, y); y += 46;
 
   ctx.font = '800 24px Nunito, sans-serif';
   ctx.fillStyle = '#f0c040';
@@ -1459,47 +1459,51 @@ function drawStoryCard(ctx, w, h, data) {
   ctx.fillStyle = 'rgba(240,192,64,0.52)';
   ctx.fillText(data.date, w / 2, y);
 
-  // Score hero
-  const scoreCY = 338;
-  drawScoreRing(ctx, w / 2, scoreCY, 80);
+  // Score hero — larger ring (95 vs 80) for better visual weight on tall card
+  const scoreCY = 312;
+  drawScoreRing(ctx, w / 2, scoreCY, 95);
 
-  ctx.font = '900 80px Nunito, sans-serif';
+  ctx.font = '900 88px Nunito, sans-serif';
   ctx.fillStyle = '#f0c040';
   ctx.textAlign = 'center';
-  ctx.fillText(String(data.score), w / 2, scoreCY + 30);
+  ctx.fillText(String(data.score), w / 2, scoreCY + 32);
 
   ctx.font = '400 19px Nunito, sans-serif';
   ctx.fillStyle = 'rgba(232,232,240,0.48)';
-  ctx.fillText('out of ' + data.total, w / 2, scoreCY + 55);
+  ctx.fillText('out of ' + data.total, w / 2, scoreCY + 58);
 
-  drawPctBadge(ctx, w / 2, scoreCY + 90, data.score, data.total);
+  // Badge sits just below ring bottom — no overlap with streak text
+  drawPctBadge(ctx, w / 2, scoreCY + 106, data.score, data.total);
 
-  // Stats
-  let sy = scoreCY + 128;
+  // Stats — start far enough below badge to prevent crowding
+  let sy = scoreCY + 154;
   if (data.rank) {
     ctx.font = '600 18px Nunito, sans-serif';
     ctx.fillStyle = 'rgba(232,232,240,0.72)';
     ctx.textAlign = 'center';
-    ctx.fillText(data.rank, w / 2, sy); sy += 28;
+    ctx.fillText(data.rank, w / 2, sy); sy += 30;
   }
   if (data.streak > 1) {
     ctx.font = '400 18px Nunito, sans-serif';
     ctx.fillStyle = '#fbbf24';
     ctx.textAlign = 'center';
-    ctx.fillText('🔥 ' + data.streak + '-day streak', w / 2, sy); sy += 28;
+    ctx.fillText('🔥 ' + data.streak + '-day streak', w / 2, sy); sy += 30;
   }
 
-  // Category section (vertical bars)
-  const catItemH = data.categories.length >= 5 ? 44 : 52;
-  const catY = Math.max(sy + 24, 565);
+  // Category section — dynamic height fills remainder of card
+  const catY = Math.max(sy + 38, 548);
   drawHLine(ctx, w, catY - 14);
 
   ctx.font = '600 14px Nunito, sans-serif';
   ctx.fillStyle = 'rgba(240,192,64,0.4)';
   ctx.textAlign = 'center';
   ctx.fillText('BREAKDOWN', w / 2, catY + 10);
-  const margin = 62;
-  const listEnd = drawCategoryList(ctx, margin, catY + 30, w - margin * 2, data.categories, catItemH);
+
+  const margin    = 62;
+  const listStart = catY + 30;
+  const listBot   = h - 82;   // leave room for separator + URL
+  const catItemH  = Math.floor((listBot - listStart) / (data.categories.length || 5));
+  const listEnd   = drawCategoryList(ctx, margin, listStart, w - margin * 2, data.categories, catItemH);
 
   drawHLine(ctx, w, listEnd + 16);
 
@@ -1601,8 +1605,14 @@ function drawWideCard(ctx, w, h, data) {
   ctx.textAlign = 'left';
   ctx.fillText('BREAKDOWN', rx, ry); ry += 18;
 
-  // Category bars
-  const barH = 7, barR = 3;
+  // Category bars — spread evenly across remaining right-column height
+  const catCountW  = data.categories.length || 5;
+  const availHW    = (h - 30) - ry;
+  const rowHW      = Math.floor(availHW / catCountW);
+  const barHW      = Math.min(9, Math.floor(rowHW * 0.22));
+  const textToBarW = Math.floor(rowHW * 0.40);
+  const barToNextW = rowHW - textToBarW - barHW;
+
   data.categories.forEach(cat => {
     const style = getCatStyle(cat.name);
     const ratio = cat.total > 0 ? cat.correct / cat.total : 0;
@@ -1616,24 +1626,24 @@ function drawWideCard(ctx, w, h, data) {
     ctx.fillStyle = style.text;
     ctx.textAlign = 'right';
     ctx.fillText(`${cat.correct}/${cat.total}`, rEnd, ry);
-    ry += 12;
+    ry += textToBarW;
 
     // Bar track
     ctx.beginPath();
-    roundRect(ctx, rx, ry, rw, barH, barR);
+    roundRect(ctx, rx, ry, rw, barHW, Math.floor(barHW / 2));
     ctx.fillStyle = 'rgba(255,255,255,0.08)';
     ctx.fill();
 
     // Bar fill
     if (ratio > 0) {
       ctx.beginPath();
-      roundRect(ctx, rx, ry, rw * ratio, barH, barR);
+      roundRect(ctx, rx, ry, rw * ratio, barHW, Math.floor(barHW / 2));
       ctx.fillStyle = style.text;
       ctx.globalAlpha = 0.65;
       ctx.fill();
       ctx.globalAlpha = 1;
     }
-    ry += barH + 14;
+    ry += barHW + barToNextW;
   });
 }
 
