@@ -1678,18 +1678,11 @@ function drawSquareCard(ctx, w, h, data) {
 
   drawPctBadge(ctx, lc, scoreCY + 72, data.score, data.total);
 
-  if (data.streak > 1) {
-    ctx.font = '400 13px Nunito, sans-serif';
-    ctx.fillStyle = '#fbbf24';
-    ctx.textAlign = 'center';
-    ctx.fillText('🔥 ' + data.streak + '-day streak', lc, scoreCY + 100);
-  }
-
   // URL bottom-left
   ctx.font = '700 12px Nunito, sans-serif';
   ctx.fillStyle = 'rgba(240,192,64,0.5)';
   ctx.textAlign = 'center';
-  ctx.fillText('♛  fact-royale.com', lc, h - 18);
+  ctx.fillText('♛  fact-royale.com', lc, h - 22);
 
   // ── Vertical divider ────────────────────────────────────
   ctx.save();
@@ -1701,31 +1694,44 @@ function drawSquareCard(ctx, w, h, data) {
   ctx.stroke();
   ctx.restore();
 
-  // ── Right column: rank + breakdown bars ────────────────
-  let ry = 40;
+  // ── Right column: rank + streak + breakdown bars ──────
+  let ry = 44;
 
   if (data.rank) {
     ctx.font = '600 13px Nunito, sans-serif';
     ctx.fillStyle = 'rgba(232,232,240,0.75)';
     ctx.textAlign = 'left';
-    ctx.fillText(data.rank, rx, ry); ry += 20;
+    ctx.fillText(data.rank, rx, ry); ry += 22;
   }
 
-  ry += 4;
+  if (data.streak > 1) {
+    ctx.font = '400 13px Nunito, sans-serif';
+    ctx.fillStyle = '#fbbf24';
+    ctx.textAlign = 'left';
+    ctx.fillText('🔥 ' + data.streak + '-day streak', rx, ry); ry += 22;
+  }
+
+  ry += 6;
   ctx.save();
   ctx.strokeStyle = 'rgba(240,192,64,0.16)';
   ctx.lineWidth = 1;
   ctx.beginPath(); ctx.moveTo(rx, ry); ctx.lineTo(rEnd, ry); ctx.stroke();
   ctx.restore();
-  ry += 14;
+  ry += 18;
 
   ctx.font = '600 11px Nunito, sans-serif';
   ctx.fillStyle = 'rgba(240,192,64,0.4)';
   ctx.textAlign = 'left';
-  ctx.fillText('BREAKDOWN', rx, ry); ry += 16;
+  ctx.fillText('BREAKDOWN', rx, ry); ry += 20;
 
-  // Category bars — same style as wide card
-  const barH = 6, barR = 3;
+  // Spread bars evenly across the remaining right-column height
+  const catCount = data.categories.length || 5;
+  const availH   = (h - 36) - ry;
+  const rowH     = Math.floor(availH / catCount);
+  const sqBarH   = Math.min(10, Math.floor(rowH * 0.18));
+  const textToBar = Math.floor(rowH * 0.28);
+  const barToNext = rowH - textToBar - sqBarH;
+
   data.categories.forEach(cat => {
     const style = getCatStyle(cat.name);
     const ratio = cat.total > 0 ? cat.correct / cat.total : 0;
@@ -1739,22 +1745,22 @@ function drawSquareCard(ctx, w, h, data) {
     ctx.fillStyle = style.text;
     ctx.textAlign = 'right';
     ctx.fillText(`${cat.correct}/${cat.total}`, rEnd, ry);
-    ry += 11;
+    ry += textToBar;
 
     ctx.beginPath();
-    roundRect(ctx, rx, ry, rw, barH, barR);
+    roundRect(ctx, rx, ry, rw, sqBarH, Math.floor(sqBarH / 2));
     ctx.fillStyle = 'rgba(255,255,255,0.08)';
     ctx.fill();
 
     if (ratio > 0) {
       ctx.beginPath();
-      roundRect(ctx, rx, ry, rw * ratio, barH, barR);
+      roundRect(ctx, rx, ry, rw * ratio, sqBarH, Math.floor(sqBarH / 2));
       ctx.fillStyle = style.text;
       ctx.globalAlpha = 0.65;
       ctx.fill();
       ctx.globalAlpha = 1;
     }
-    ry += barH + 13;
+    ry += sqBarH + barToNext;
   });
 }
 

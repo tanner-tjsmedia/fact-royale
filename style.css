@@ -2154,10 +2154,6 @@ body > * { position: relative; z-index: 1; }
 }
 
 .share-fmt-btn.active .share-fmt-hint {
-  color: rgba(  margin-top: 2px;
-}
-
-.share-fmt-btn.active .share-fmt-hint {
   color: rgba(240, 192, 64, 0.6);
 }
 
