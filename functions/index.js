@@ -72,7 +72,7 @@ const VARIANTS = [
 // Time is tunable — adjust the schedule cron below.
 exports.sendDailyNotifications = onSchedule(
   {
-    schedule:  'every day 12:00',
+    schedule:  'every day 13:00',
     timeZone:  'America/New_York',
     region:    'us-central1',
     memory:    '256MiB',
