@@ -1472,11 +1472,8 @@ function drawStoryCard(ctx, w, h, data) {
   ctx.fillStyle = 'rgba(232,232,240,0.48)';
   ctx.fillText('out of ' + data.total, w / 2, scoreCY + 58);
 
-  // Badge sits just below ring bottom — no overlap with streak text
-  drawPctBadge(ctx, w / 2, scoreCY + 106, data.score, data.total);
-
-  // Stats — start far enough below badge to prevent crowding
-  let sy = scoreCY + 154;
+  // Stats — start below ring bottom
+  let sy = scoreCY + 112;
   if (data.rank) {
     ctx.font = '600 18px Nunito, sans-serif';
     ctx.fillStyle = 'rgba(232,232,240,0.72)';
@@ -1491,8 +1488,7 @@ function drawStoryCard(ctx, w, h, data) {
   }
 
   // Category section — dynamic height fills remainder of card
-  const catY = Math.max(sy + 38, 548);
-  drawHLine(ctx, w, catY - 14);
+  const catY = Math.max(sy + 52, 548);
 
   ctx.font = '600 14px Nunito, sans-serif';
   ctx.fillStyle = 'rgba(240,192,64,0.4)';
@@ -1551,8 +1547,6 @@ function drawWideCard(ctx, w, h, data) {
   ctx.font = '400 15px Nunito, sans-serif';
   ctx.fillStyle = 'rgba(232,232,240,0.48)';
   ctx.fillText('out of ' + data.total, lc, scoreCY + 47);
-
-  drawPctBadge(ctx, lc, scoreCY + 74, data.score, data.total);
 
   // URL bottom-left
   ctx.font = '700 15px Nunito, sans-serif';
@@ -1685,8 +1679,6 @@ function drawSquareCard(ctx, w, h, data) {
   ctx.font = '400 14px Nunito, sans-serif';
   ctx.fillStyle = 'rgba(232,232,240,0.48)';
   ctx.fillText('out of ' + data.total, lc, scoreCY + 46);
-
-  drawPctBadge(ctx, lc, scoreCY + 72, data.score, data.total);
 
   // URL bottom-left
   ctx.font = '700 12px Nunito, sans-serif';
