@@ -1398,7 +1398,7 @@ function drawPctBadge(ctx, cx, cy, score, total) {
 // Vertical category list — used in Story card (returns ending y)
 function drawCategoryList(ctx, lx, startY, aw, categories, rowH = 44) {
   let y = startY;
-  const fontSize  = rowH >= 40 ? 26 : 22;
+  const fontSize  = rowH >= 70 ? 26 : rowH >= 40 ? 20 : 16;
   const textToBar = rowH >= 40 ? 18 : 12;
   const barH      = rowH >= 40 ? 10 :  8;
   const barToNext = rowH - textToBar - barH;
@@ -1472,8 +1472,8 @@ function drawStoryCard(ctx, w, h, data) {
   ctx.fillStyle = 'rgba(232,232,240,0.48)';
   ctx.fillText('out of ' + data.total, w / 2, scoreCY + 58);
 
-  // Stats — start below ring bottom
-  let sy = scoreCY + 112;
+  // Stats — clear of ring bottom (ring bottom = scoreCY + 95)
+  let sy = scoreCY + 138;
   if (data.rank) {
     ctx.font = '600 18px Nunito, sans-serif';
     ctx.fillStyle = 'rgba(232,232,240,0.72)';
@@ -1493,10 +1493,10 @@ function drawStoryCard(ctx, w, h, data) {
   ctx.font = '600 14px Nunito, sans-serif';
   ctx.fillStyle = 'rgba(240,192,64,0.4)';
   ctx.textAlign = 'center';
-  ctx.fillText('BREAKDOWN', w / 2, catY + 10);
+  ctx.fillText('BREAKDOWN', w / 2, catY + 20);
 
   const margin    = 62;
-  const listStart = catY + 30;
+  const listStart = catY + 50;
   const listBot   = h - 82;   // leave room for separator + URL
   const catItemH  = Math.floor((listBot - listStart) / (data.categories.length || 5));
   const listEnd   = drawCategoryList(ctx, margin, listStart, w - margin * 2, data.categories, catItemH);
