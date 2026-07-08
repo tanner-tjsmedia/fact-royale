@@ -1,0 +1,41 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // ── Daily leaderboard scores (public read, auth write) ──
+    match /scores/{scoreId} {
+      allow read: if true;
+      allow create: if request.auth != null
+                    && request.auth.uid == request.resource.data.uid;
+      allow update, delete: if request.auth != null
+                            && request.auth.uid == resource.data.uid;
+    }
+
+    // ── User profiles ──────────────────────────────────────
+    match /users/{userId} {
+      allow read, write: if request.auth != null
+                         && request.auth.uid == userId;
+
+      // Mastery history snapshots
+      match /masteryHistory/{entryId} {
+        allow read, write: if request.auth != null
+                           && request.auth.uid == userId;
+      }
+
+      // Per-play quiz history (archive + daily)
+      // Each doc keyed by date string: YYYY-MM-DD
+      match /quizHistory/{date} {
+        allow read, write: if request.auth != null
+                           && request.auth.uid == userId;
+      }
+    }
+
+    // ── Admin collection (server-side only) ───────────────
+    match /admin/{document=**} {
+      allow read: if request.auth != null
+                  && request.auth.token.email == 'tanner@tjs16media.com';
+      allow write: if false;
+    }
+
+  }
+}
