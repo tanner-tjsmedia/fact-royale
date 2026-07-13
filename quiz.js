@@ -1868,6 +1868,10 @@ async function init() {
       // (auth.js onAuthStateChanged triggers startArchiveQuiz() once user resolves)
       if (urlParams.get('autostart') === '1') {
         window.fr_autoStart = true;
+        // Hide landing immediately so there's no flash before the quiz starts.
+        // showScreen() will reveal the quiz screen once auth resolves.
+        const sl = document.getElementById('screen-landing');
+        if (sl) sl.style.display = 'none';
       }
     } else if (daysDiff > ARCHIVE_FREE_DAYS) {
       showArchiveLockedScreen(dateParam);
