@@ -835,6 +835,9 @@ function showResults() {
   // Challenge comparison
   showChallengeComparison(score, questions.length);
 
+  // Email capture for anonymous users
+  setTimeout(showEmailCapture, 800);
+
   // Challenge button — only for logged-in users
   const btnChallenge = document.getElementById('btn-challenge');
   if (btnChallenge && typeof currentUser !== 'undefined' && currentUser && !isArchivePlay) {
@@ -1866,6 +1869,37 @@ function showChallengeBanner() {
   if (!bannerEl || !textEl) return;
   textEl.textContent = `${challengeData.from} scored ${challengeData.score}/${challengeData.total} today — can you beat them?`;
   bannerEl.style.display = 'flex';
+}
+
+
+// ── Email Capture ──────────────────────────────────────
+function showEmailCapture() {
+  // Only show for anonymous (not logged in) users who haven't submitted yet
+  if (typeof currentUser !== 'undefined' && currentUser) return;
+  if (localStorage.getItem('fr_email_captured')) return;
+  const el = document.getElementById('email-capture');
+  if (el) el.style.display = 'block';
+}
+
+function submitEmailCapture() {
+  const input = document.getElementById('email-capture-input');
+  const email = input ? input.value.trim() : '';
+  if (!email || !email.includes('@')) {
+    if (input) input.style.borderColor = 'rgba(255,80,80,0.6)';
+    return;
+  }
+  // Store in Firestore
+  if (typeof db !== 'undefined') {
+    db.collection('emailCaptures').add({
+      email:     email,
+      timestamp: firebase.firestore.FieldValue.serverTimestamp(),
+      source:    'results',
+      dateKey:   typeof todayKey !== 'undefined' ? todayKey : ''
+    }).catch(() => {});
+  }
+  localStorage.setItem('fr_email_captured', '1');
+  const wrap = document.getElementById('email-capture');
+  if (wrap) wrap.innerHTML = '<p class="email-capture-confirmed">\u2713 You\'re in. See you tomorrow.</p>';
 }
 
 // ── Challenge Comparison ───────────────────────────────
