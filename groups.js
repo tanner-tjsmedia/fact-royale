@@ -73,7 +73,12 @@ async function loadMyGroups() {
       .get();
 
     if (snap.empty) {
-      listEl.innerHTML = '<p class="no-groups-msg">You\'re not in any groups yet. Create one or join one below.</p>';
+      listEl.innerHTML =
+        '<div class="groups-empty-state">' +
+          '<div class="ges-icon">&#9819;</div>' +
+          '<div class="ges-title">No groups yet</div>' +
+          '<p class="ges-desc">Create a group below and share the code with friends. Everyone who joins shows up on your weekly leaderboard.</p>' +
+        '</div>';
       return;
     }
 
@@ -127,22 +132,31 @@ async function buildGroupCard(group) {
 
   const inviteUrl = window.location.origin + '/groups.html?join=' + group.code;
 
+  const memberCount = (group.memberUids || []).length;
+  const medals = ['🥇', '🥈', '🥉'];
+  const rankClasses = ['gc-lb-rank--1', 'gc-lb-rank--2', 'gc-lb-rank--3'];
+
   card.innerHTML =
     '<div class="gc-header">' +
-      '<div>' +
+      '<div class="gc-meta">' +
         '<h2 class="gc-name">' + group.name + '</h2>' +
+        '<span class="gc-member-count">' + memberCount + ' member' + (memberCount !== 1 ? 's' : '') + '</span>' +
+      '</div>' +
+      '<div style="display:flex;flex-direction:column;align-items:flex-end;gap:0.4rem">' +
+        '<button class="gc-invite-btn" onclick="copyInviteLink(\'' + inviteUrl + '\', this)">Copy Invite Link</button>' +
         '<span class="gc-code">Code: <strong>' + group.code + '</strong></span>' +
       '</div>' +
-      '<button class="gc-invite-btn" onclick="copyInviteLink(\'' + inviteUrl + '\', this)">Copy Invite Link</button>' +
     '</div>' +
     '<div class="gc-week-label">This week — ' + mondayKey + ' to ' + todayKey + '</div>' +
     '<div class="gc-leaderboard">' +
       '<div class="gc-lb-header">' +
-        '<span>Player</span><span>Correct</span><span>Played</span>' +
+        '<span>Player</span><span>Correct</span><span>Days Played</span>' +
       '</div>' +
       ranked.map(function(m, i) {
+        var rankDisplay = i < 3 ? medals[i] : (i + 1);
+        var rankClass   = i < 3 ? rankClasses[i] : '';
         return '<div class="gc-lb-row' + (m.isMe ? ' gc-lb-row--me' : '') + '">' +
-          '<span class="gc-lb-rank">' + (i + 1) + '</span>' +
+          '<span class="gc-lb-rank ' + rankClass + '">' + rankDisplay + '</span>' +
           '<span class="gc-lb-name">' + m.name + (m.isMe ? ' (you)' : '') + '</span>' +
           '<span class="gc-lb-correct">' + m.correct + '</span>' +
           '<span class="gc-lb-played">' + m.played + '</span>' +

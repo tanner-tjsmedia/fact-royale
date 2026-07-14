@@ -12,7 +12,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="style.css?v=10" />
+  <link rel="stylesheet" href="style.css?v=11" />
 </head>
 <body>
 <div id="page-groups" class="screen active">
@@ -38,9 +38,23 @@
   <!-- AUTH GATE -->
   <div id="groups-auth-gate" class="groups-auth-gate" style="display:none">
     <div class="crown">&#9819;</div>
-    <h2>Sign in to use Groups</h2>
-    <p>Create a group, share a code, and see how you stack up against friends each week.</p>
-    <a href="/?signin=1" class="btn-hero" style="display:inline-block;margin-top:1.25rem">Sign In to Continue</a>
+    <h2>Trivia is more fun with a leaderboard</h2>
+    <p>Create a private group, invite friends with a code, and see who's been on top each week. Scores reset every Monday — so there's always something to play for.</p>
+    <div class="gate-hiw">
+      <div class="gate-hiw-step">
+        <span class="gate-hiw-num">1</span>
+        <span class="gate-hiw-desc">Create a group &amp; get a code</span>
+      </div>
+      <div class="gate-hiw-step">
+        <span class="gate-hiw-num">2</span>
+        <span class="gate-hiw-desc">Friends join with the code</span>
+      </div>
+      <div class="gate-hiw-step">
+        <span class="gate-hiw-num">3</span>
+        <span class="gate-hiw-desc">Weekly leaderboard, resets Monday</span>
+      </div>
+    </div>
+    <a href="/?signin=1" class="btn-hero" style="display:inline-block;margin-top:1.25rem">Sign In to Get Started</a>
   </div>
 
   <!-- LOADING -->
@@ -54,7 +68,34 @@
     <!-- MY GROUPS LIST -->
     <div class="groups-header">
       <h1 class="groups-page-title">&#9819; Groups</h1>
-      <p class="groups-page-sub">Compete with friends. Weekly scores reset every Monday.</p>
+      <p class="groups-page-sub">Private leaderboards with friends. Play daily, see who's on top each week.</p>
+    </div>
+
+    <!-- HOW IT WORKS -->
+    <div class="groups-hiw">
+      <div class="groups-hiw-step">
+        <div class="hiw-num">1</div>
+        <div class="hiw-text">
+          <strong class="hiw-title">Create a Group</strong>
+          <span class="hiw-desc">Name it, get a unique shareable code</span>
+        </div>
+      </div>
+      <div class="groups-hiw-arrow">&#8594;</div>
+      <div class="groups-hiw-step">
+        <div class="hiw-num">2</div>
+        <div class="hiw-text">
+          <strong class="hiw-title">Invite Friends</strong>
+          <span class="hiw-desc">Share the code or copy the invite link</span>
+        </div>
+      </div>
+      <div class="groups-hiw-arrow">&#8594;</div>
+      <div class="groups-hiw-step">
+        <div class="hiw-num">3</div>
+        <div class="hiw-text">
+          <strong class="hiw-title">Compete Weekly</strong>
+          <span class="hiw-desc">Play daily, leaderboard resets every Monday</span>
+        </div>
+      </div>
     </div>
 
     <div id="my-groups-list" class="my-groups-list"></div>
@@ -64,16 +105,16 @@
 
       <div class="groups-action-card" id="create-group-card">
         <h3 class="gac-title">Create a Group</h3>
-        <p class="gac-desc">Start a new group and invite friends with a shareable code.</p>
-        <input type="text" id="new-group-name" class="gac-input" placeholder="Group name (e.g. The Squad)" maxlength="32" />
+        <p class="gac-desc">Pick a name — you'll get a 6-character code to share. Anyone with the code can join.</p>
+        <input type="text" id="new-group-name" class="gac-input" placeholder="e.g. The Squad, Office Nerds..." maxlength="32" />
         <button class="gac-btn gac-btn--primary" onclick="createGroup()">Create Group</button>
         <p class="gac-error" id="create-error" style="display:none"></p>
       </div>
 
       <div class="groups-action-card" id="join-group-card">
         <h3 class="gac-title">Join a Group</h3>
-        <p class="gac-desc">Have a code? Enter it below to join a friend's group.</p>
-        <input type="text" id="join-code-input" class="gac-input" placeholder="Enter group code" maxlength="8" style="text-transform:uppercase" />
+        <p class="gac-desc">Got an invite code from a friend? Enter it here to join their group and show up on the leaderboard.</p>
+        <input type="text" id="join-code-input" class="gac-input" placeholder="Enter 6-character code" maxlength="8" style="text-transform:uppercase" />
         <button class="gac-btn gac-btn--secondary" onclick="joinGroup()">Join Group</button>
         <p class="gac-error" id="join-error" style="display:none"></p>
       </div>
@@ -84,6 +125,6 @@
 </div>
 
 <script src="firebase-config.js?v=2"></script>
-<script src="groups.js?v=2"></script>
+<script src="groups.js?v=3"></script>
 </body>
 </html>
