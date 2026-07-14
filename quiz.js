@@ -389,6 +389,9 @@ let todayKey       = '';   // "2026-06-13"
 let isArchivePlay  = false; // true when loading a past date via ?date= param
 let activeQuizDate = '';    // the date key for the current quiz (today or archive)
 
+// ── Challenge State ────────────────────────────────────
+let challengeData = null; // { from, score, total, date } when playing a challenge
+
 // ── Helpers ────────────────────────────────────────────
 
 function getTodayKey() {
@@ -827,6 +830,15 @@ function showResults() {
   // Catch-up tiles (async — fills in after render)
   if (typeof currentUser !== 'undefined' && currentUser) {
     showCatchUpSection();
+  }
+
+  // Challenge comparison
+  showChallengeComparison(score, questions.length);
+
+  // Challenge button — only for logged-in users
+  const btnChallenge = document.getElementById('btn-challenge');
+  if (btnChallenge && typeof currentUser !== 'undefined' && currentUser && !isArchivePlay) {
+    btnChallenge.style.display = 'inline-flex';
   }
 
   // Sign-up nudge — only for anonymous users on daily plays
@@ -1846,6 +1858,93 @@ function initShareModal() {
   });
 }
 
+// ── Challenge Banner ───────────────────────────────────
+function showChallengeBanner() {
+  if (!challengeData) return;
+  const bannerEl = document.getElementById('challenge-banner');
+  const textEl   = document.getElementById('challenge-banner-text');
+  if (!bannerEl || !textEl) return;
+  textEl.textContent = `${challengeData.from} scored ${challengeData.score}/${challengeData.total} today — can you beat them?`;
+  bannerEl.style.display = 'flex';
+}
+
+// ── Challenge Comparison ───────────────────────────────
+function showChallengeComparison(yourScore, yourTotal) {
+  const resultEl = document.getElementById('challenge-result');
+  if (!resultEl) return;
+
+  // Always show if challenge params were in URL this session
+  if (!challengeData) return;
+
+  // Populate scores
+  document.getElementById('cvs-your-score').textContent  = `${yourScore}/${yourTotal}`;
+  document.getElementById('cvs-them-name').textContent   = challengeData.from;
+  document.getElementById('cvs-them-score').textContent  = `${challengeData.score}/${challengeData.total}`;
+
+  // Verdict
+  const verdictEl = document.getElementById('challenge-verdict');
+  const theirPct  = challengeData.total > 0 ? challengeData.score / challengeData.total : 0;
+  const yourPct   = yourTotal > 0 ? yourScore / yourTotal : 0;
+  if (yourPct > theirPct)       verdictEl.textContent = `You beat ${challengeData.from}!`;
+  else if (yourPct < theirPct)  verdictEl.textContent = `${challengeData.from} takes this one.`;
+  else                          verdictEl.textContent = `Dead even with ${challengeData.from}!`;
+
+  // Educational facts — show 2-3 memory hooks from today's questions
+  const factsWrap = document.getElementById('challenge-facts-wrap');
+  if (factsWrap && typeof questions !== 'undefined' && questions.length) {
+    const withHooks = questions.filter(q => q.memory_hook).slice(0, 3);
+    if (withHooks.length) {
+      factsWrap.innerHTML = `
+        <p class="challenge-facts-label">Things to remember from today:</p>
+        ${withHooks.map(q => `<div class="challenge-fact"><span class="challenge-fact-crown">♛</span><span>${q.memory_hook}</span></div>`).join('')}
+      `;
+    }
+  }
+
+  resultEl.style.display = 'block';
+}
+
+// ── Copy Challenge Link ────────────────────────────────
+function copyChallengeLinkToClipboard() {
+  if (typeof currentUser === 'undefined' || !currentUser) return;
+
+  const name  = currentUser.displayName || 'A friend';
+  // Find score from the results screen — read the displayed score text or use lastScore from localStorage
+  const scoreText = localStorage.getItem('fr_lastScore') || '?';
+  // fr_lastScore stores "X/Y" format — parse it
+  const parts = String(scoreText).split('/');
+  const sc = parts[0] || '?';
+  const total = parts[1] || '12';
+  const date  = activeQuizDate || todayKey;
+
+  const params = new URLSearchParams({
+    challenge: '1',
+    from:  name,
+    score: sc,
+    total: total,
+    date:  date
+  });
+  const url = `${window.location.origin}/?${params.toString()}`;
+
+  navigator.clipboard.writeText(url).then(() => {
+    const btn = document.getElementById('btn-challenge');
+    if (btn) {
+      const orig = btn.textContent;
+      btn.textContent = 'Link copied!';
+      btn.disabled = true;
+      setTimeout(() => { btn.textContent = orig; btn.disabled = false; }, 2000);
+    }
+  }).catch(() => {
+    // Fallback for browsers without clipboard API
+    const ta = document.createElement('textarea');
+    ta.value = url;
+    document.body.appendChild(ta);
+    ta.select();
+    document.execCommand('copy');
+    document.body.removeChild(ta);
+  });
+}
+
 // ── Boot ───────────────────────────────────────────────
 
 async function init() {
@@ -1881,6 +1980,22 @@ async function init() {
   }
 
   if (!activeQuizDate) activeQuizDate = todayKey;
+
+  // ── Challenge link detection ───────────────────────────
+  if (urlParams.get('challenge') === '1' && urlParams.get('from')) {
+    challengeData = {
+      from:  urlParams.get('from'),
+      score: parseInt(urlParams.get('score') || '0', 10),
+      total: parseInt(urlParams.get('total') || '12', 10),
+      date:  urlParams.get('date') || todayKey
+    };
+    // Hide landing and auto-start — same as autostart=1
+    window.fr_autoStart = true;
+    const sl = document.getElementById('screen-landing');
+    if (sl) sl.style.display = 'none';
+    // Show the challenge banner once quiz screen is visible (deferred)
+    setTimeout(showChallengeBanner, 100);
+  }
 
   try {
     const res  = await fetch(`questions/${activeQuizDate}.json`);
