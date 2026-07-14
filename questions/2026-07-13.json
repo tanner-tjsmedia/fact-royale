@@ -93,16 +93,16 @@
     },
     {
       "category": "Music/Movies",
-      "question": "Which film won the most Academy Awards in history?",
+      "question": "Ben-Hur (1959) was the first film to win 11 Academy Awards — a record later tied by which two films?",
       "options": [
-        "Gone with the Wind",
-        "Ben-Hur",
-        "Titanic",
-        "The Lord of the Rings: The Return of the King"
+        "Titanic and Gladiator",
+        "Titanic and The Lord of the Rings: The Return of the King",
+        "Schindler's List and Titanic",
+        "Avatar and The Dark Knight"
       ],
-      "answer": "Ben-Hur",
-      "explanation": "Ben-Hur (1959), Titanic (1997), and The Lord of the Rings: The Return of the King (2003) each won 11 Academy Awards — the most wins in Oscar history. Ben-Hur and Titanic both had 12 nominations; Return of the King won all 11 of its nominations, a perfect record.",
-      "memory_hook": "Three films with 11 Oscars each — Ben-Hur, Titanic, and Return of the King."
+      "answer": "Titanic and The Lord of the Rings: The Return of the King",
+      "explanation": "Ben-Hur (1959) was the first film to win 11 Academy Awards. The record was later tied by Titanic (1997) and The Lord of the Rings: The Return of the King (2003), which also won all 11 of its nominations. No film has ever won more than 11 Oscars.",
+      "memory_hook": "11 wins, three times — Ben-Hur, Titanic, Return of the King."
     },
     {
       "category": "History",

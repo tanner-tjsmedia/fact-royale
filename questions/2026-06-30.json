@@ -93,16 +93,16 @@
     },
     {
       "category": "Music/Movies",
-      "question": "What is the highest-grossing film of all time (not adjusted for inflation)?",
+      "question": "Which composer wrote the iconic score for the original Star Wars (1977)?",
       "options": [
-        "Titanic",
-        "Avengers: Endgame",
-        "Avatar",
-        "The Lion King"
+        "Hans Zimmer",
+        "John Williams",
+        "Ennio Morricone",
+        "Bernard Herrmann"
       ],
-      "answer": "Avatar",
-      "explanation": "James Cameron's Avatar (2009) is the highest-grossing film of all time with over $2.9 billion worldwide. It reclaimed the top spot from Avengers: Endgame after a re-release in China in 2021. Cameron also directed the previous record-holder, Titanic.",
-      "memory_hook": "Avatar painted the world blue — and painted box offices green."
+      "answer": "John Williams",
+      "explanation": "John Williams composed the score for Star Wars in 1977, earning him one of his five Academy Awards. The main theme is one of the most recognized pieces of music in film history. Williams also scored Indiana Jones, Jaws, Schindler's List, and Harry Potter.",
+      "memory_hook": "John Williams — the man behind every theme you can hum."
     },
     {
       "category": "History",

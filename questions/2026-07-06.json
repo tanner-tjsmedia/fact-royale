@@ -41,7 +41,7 @@
     },
     {
       "category": "Sports",
-      "question": "How many yards is an American football field from end zone to end zone?",
+      "question": "How many yards long is an American football field, including both end zones?",
       "options": [
         "100",
         "110",
@@ -49,7 +49,7 @@
         "130"
       ],
       "answer": "120",
-      "explanation": "An American football field is 100 yards from goal line to goal line, but including both end zones (each 10 yards deep), the total length is 120 yards. The field is 53⅓ yards wide. First downs require advancing 10 yards.",
+      "explanation": "An American football field is 120 yards in total length — 100 yards between the goal lines plus two 10-yard end zones. The field is 53⅓ yards wide. First downs require advancing 10 yards.",
       "memory_hook": "100 yards of play + 20 yards of end zones = 120 total."
     },
     {

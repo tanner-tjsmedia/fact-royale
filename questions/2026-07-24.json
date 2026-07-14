@@ -28,16 +28,16 @@
     },
     {
       "category": "Sports",
-      "question": "In the Olympics, how many rings interlock to form the Olympic symbol?",
+      "question": "In which city were the first modern Olympic Games held?",
       "options": [
-        "4",
-        "5",
-        "6",
-        "7"
+        "Paris",
+        "London",
+        "Athens",
+        "Stockholm"
       ],
-      "answer": "5",
-      "explanation": "The Olympic rings consist of five interlocking rings of blue, yellow, black, green, and red on a white background. Designed by Pierre de Coubertin in 1912, the colors were chosen because at least one of them appears on the flag of every nation in the world.",
-      "memory_hook": "Five rings, five continents — at least one Olympic color in every nation's flag."
+      "answer": "Athens",
+      "explanation": "The first modern Olympic Games were held in Athens, Greece in 1896. Organized by Pierre de Coubertin, 241 athletes from 14 nations competed in 43 events. The Games were a revival of the ancient Greek Olympics, last held in 393 AD.",
+      "memory_hook": "Athens 1896 — where it all started, again."
     },
     {
       "category": "Sports",

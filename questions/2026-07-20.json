@@ -41,16 +41,16 @@
     },
     {
       "category": "Sports",
-      "question": "What is the only country to have competed in every Summer Olympics?",
+      "question": "The Olympic torch relay tradition, where a flame is carried from Greece to the host city, was introduced at which Olympic Games?",
       "options": [
-        "France",
-        "United States",
-        "United Kingdom",
-        "Greece"
+        "Paris 1924",
+        "Berlin 1936",
+        "London 1948",
+        "Rome 1960"
       ],
-      "answer": "Greece",
-      "explanation": "Greece has competed in every Summer Olympic Games since the inaugural modern Olympics in Athens in 1896. The United States has also competed in all Summer Games. Greece, as the host of the first modern Olympics, has a historical connection to every iteration of the games.",
-      "memory_hook": "Greece invented the Olympics and never missed a game — not one in over 125 years."
+      "answer": "Berlin 1936",
+      "explanation": "The Olympic torch relay was introduced at the 1936 Berlin Games, organized under Nazi Germany. A flame was lit in Olympia, Greece and carried by relay runners to Berlin — a tradition that has continued at every Summer Olympics since.",
+      "memory_hook": "1936 Berlin — the torch relay began, and never stopped."
     },
     {
       "category": "Sports",
