@@ -2,9 +2,7 @@
    FACT ROYALE | Groups Logic
    =========================== */
 
-const auth = firebase.auth();
-const db   = firebase.firestore();
-
+// auth and db are already declared in firebase-config.js
 let currentUser = null;
 
 // ── Helpers ────────────────────────────────────────────
