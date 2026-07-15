@@ -828,7 +828,7 @@ function showResults() {
   }
 
   // Catch-up tiles (async — fills in after render)
-  if (typeof currentUser !== 'undefined' && currentUser) {
+  if (auth.currentUser) {
     showCatchUpSection();
   }
 
@@ -838,9 +838,9 @@ function showResults() {
   // Email capture for anonymous users
   setTimeout(showEmailCapture, 800);
 
-  // Challenge button — only for logged-in users
+  // Challenge button — only for logged-in users on today's quiz
   const btnChallenge = document.getElementById('btn-challenge');
-  if (btnChallenge && typeof currentUser !== 'undefined' && currentUser && !isArchivePlay) {
+  if (btnChallenge && auth.currentUser && !isArchivePlay) {
     btnChallenge.style.display = 'inline-flex';
   }
 
@@ -1940,9 +1940,10 @@ function showChallengeComparison(yourScore, yourTotal) {
 
 // ── Challenge Share (Web Share API + modal fallback) ───
 function openChallengeShare() {
-  if (typeof currentUser === 'undefined' || !currentUser) return;
+  const _user = auth.currentUser;
+  if (!_user) return;
 
-  const name      = currentUser.displayName || 'A friend';
+  const name      = _user.displayName || 'A friend';
   const scoreText = localStorage.getItem('fr_lastScore') || '?';
   const parts     = String(scoreText).split('/');
   const sc        = parts[0] || '?';
