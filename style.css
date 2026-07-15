@@ -3536,6 +3536,115 @@ a.btn-catchup:hover {
 }
 
 /* =====================================================
+   CHALLENGE SHARE MODAL
+   ===================================================== */
+
+.csm-card {
+  background: var(--surface);
+  border: 1px solid rgba(240,192,64,0.2);
+  border-radius: 20px;
+  padding: 32px 28px 28px;
+  width: 100%;
+  max-width: 400px;
+  position: relative;
+  animation: fadeIn 0.2s ease;
+  box-shadow: 0 24px 80px rgba(0,0,0,0.7), 0 0 0 1px rgba(255,255,255,0.04) inset;
+}
+
+.csm-header { text-align: center; margin-bottom: 24px; }
+
+.csm-crown {
+  font-size: 2rem;
+  color: var(--gold, #f0c040);
+  margin-bottom: 8px;
+}
+
+.csm-title {
+  font-family: var(--font-display, 'Space Grotesk', sans-serif);
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: var(--text, #fff);
+  margin-bottom: 6px;
+  letter-spacing: -0.02em;
+}
+
+.csm-score {
+  font-family: var(--font-display, 'Space Grotesk', sans-serif);
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--gold, #f0c040);
+  margin-bottom: 6px;
+}
+
+.csm-sub {
+  font-size: 0.85rem;
+  color: var(--text-muted, rgba(255,255,255,0.5));
+  line-height: 1.5;
+}
+
+.csm-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.csm-btn {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 13px 18px;
+  border-radius: 12px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  font-family: var(--font-body, 'DM Sans', sans-serif);
+  text-decoration: none;
+  cursor: pointer;
+  border: none;
+  width: 100%;
+  transition: opacity 0.15s, transform 0.15s;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.csm-btn:active { transform: scale(0.98); opacity: 0.85; }
+
+.csm-btn-icon {
+  font-size: 1.1rem;
+  flex-shrink: 0;
+  width: 24px;
+  text-align: center;
+}
+
+.csm-btn--sms {
+  background: rgba(52,199,89,0.15);
+  border: 1px solid rgba(52,199,89,0.3);
+  color: #34c759;
+}
+
+.csm-btn--wa {
+  background: rgba(37,211,102,0.12);
+  border: 1px solid rgba(37,211,102,0.28);
+  color: #25d366;
+}
+
+.csm-btn--tw {
+  background: rgba(255,255,255,0.06);
+  border: 1px solid rgba(255,255,255,0.15);
+  color: var(--text, #fff);
+}
+
+.csm-btn--copy {
+  background: rgba(240,192,64,0.1);
+  border: 1px solid rgba(240,192,64,0.3);
+  color: var(--gold, #f0c040);
+  text-align: left;
+}
+
+@media (max-width: 480px) {
+  .csm-card { padding: 28px 20px 24px; border-radius: 16px; }
+  .csm-title { font-size: 1.15rem; }
+}
+
+/* =====================================================
    MOBILE BOTTOM TAB BAR
    ===================================================== */
 

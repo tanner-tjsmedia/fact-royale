@@ -33,7 +33,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="style.css?v=13" />
+  <link rel="stylesheet" href="style.css?v=14" />
   <style>
     /* ── Mastery teaser layout (inline to survive CSS caching) ── */
     #mastery-teaser {
@@ -481,7 +481,7 @@
 
       <div class="results-actions">
         <button class="btn-primary" id="btn-share">Share Score →</button>
-        <button id="btn-challenge" class="btn-challenge" style="display:none" onclick="copyChallengeLinkToClipboard()">
+        <button id="btn-challenge" class="btn-challenge" style="display:none" onclick="openChallengeShare()">
           ⚔ Challenge a Friend
         </button>
         <p class="share-confirm" id="share-confirm" style="display:none;">Copied to clipboard!</p>
@@ -586,12 +586,44 @@
     </div>
   </div>
 
+  <!-- CHALLENGE SHARE MODAL (fallback for browsers without Web Share API) -->
+  <div id="challenge-share-modal" class="modal-overlay" style="display:none;" role="dialog" aria-modal="true" onclick="closeChallengeShareModal(event)">
+    <div class="csm-card">
+      <button class="modal-close" onclick="closeChallengeShareModal()" aria-label="Close">&#x2715;</button>
+      <div class="csm-header">
+        <div class="csm-crown">&#9819;</div>
+        <h3 class="csm-title">Challenge a Friend</h3>
+        <p class="csm-score" id="csm-score-text"></p>
+        <p class="csm-sub">Send them your challenge link and see if they can beat you.</p>
+      </div>
+      <div class="csm-buttons">
+        <a id="csm-sms" href="#" class="csm-btn csm-btn--sms">
+          <span class="csm-btn-icon">&#128172;</span>
+          <span>iMessage / SMS</span>
+        </a>
+        <a id="csm-whatsapp" href="#" class="csm-btn csm-btn--wa" target="_blank" rel="noopener noreferrer">
+          <span class="csm-btn-icon">&#128241;</span>
+          <span>WhatsApp</span>
+        </a>
+        <a id="csm-twitter" href="#" class="csm-btn csm-btn--tw" target="_blank" rel="noopener noreferrer">
+          <span class="csm-btn-icon">&#120143;</span>
+          <span>X / Twitter</span>
+        </a>
+        <button id="csm-copy" class="csm-btn csm-btn--copy" onclick="copyChallengeFallback()">
+          <span class="csm-btn-icon">&#128279;</span>
+          <span>Copy Link</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+
   <script src="firebase-config.js?v=2"></script>
   <script src="icons.js?v=2"></script>
   <script src="auth.js?v=2"></script>
   <script src="mastery.js?v=2"></script>
   <script src="notifications.js?v=2"></script>
-  <script src="quiz.js?v=9"></script>
+  <script src="quiz.js?v=10"></script>
   <script>
     // Inject static SVG icons into banner/notif icon spans
     document.addEventListener('DOMContentLoaded', () => {

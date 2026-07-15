@@ -1938,18 +1938,16 @@ function showChallengeComparison(yourScore, yourTotal) {
   resultEl.style.display = 'block';
 }
 
-// ── Copy Challenge Link ────────────────────────────────
-function copyChallengeLinkToClipboard() {
+// ── Challenge Share (Web Share API + modal fallback) ───
+function openChallengeShare() {
   if (typeof currentUser === 'undefined' || !currentUser) return;
 
-  const name  = currentUser.displayName || 'A friend';
-  // Find score from the results screen — read the displayed score text or use lastScore from localStorage
+  const name      = currentUser.displayName || 'A friend';
   const scoreText = localStorage.getItem('fr_lastScore') || '?';
-  // fr_lastScore stores "X/Y" format — parse it
-  const parts = String(scoreText).split('/');
-  const sc = parts[0] || '?';
-  const total = parts[1] || '12';
-  const date  = activeQuizDate || todayKey;
+  const parts     = String(scoreText).split('/');
+  const sc        = parts[0] || '?';
+  const total     = parts[1] || '12';
+  const date      = activeQuizDate || todayKey;
 
   const params = new URLSearchParams({
     challenge: '1',
@@ -1958,18 +1956,63 @@ function copyChallengeLinkToClipboard() {
     total: total,
     date:  date
   });
-  const url = `${window.location.origin}/?${params.toString()}`;
+  const url       = `${window.location.origin}/?${params.toString()}`;
+  const shareText = `I scored ${sc}/${total} on today's Fact Royale — think you can beat me?`;
 
+  // Try native OS share sheet first (iOS Safari, Android Chrome, desktop Chrome)
+  if (navigator.share) {
+    navigator.share({
+      title: 'Fact Royale — Daily Trivia',
+      text:  shareText,
+      url:   url
+    }).catch(() => {}); // user dismissed — no action needed
+    return;
+  }
+
+  // Fallback: custom modal with platform-specific share buttons
+  openChallengeModal(url, shareText, `${sc}/${total}`);
+}
+
+function openChallengeModal(url, shareText, scoreDisplay) {
+  const fullText   = `${shareText} ${url}`;
+  const encodedFull = encodeURIComponent(fullText);
+  const encodedText = encodeURIComponent(shareText);
+  const encodedUrl  = encodeURIComponent(url);
+
+  const scoreEl = document.getElementById('csm-score-text');
+  if (scoreEl) scoreEl.textContent = `You scored ${scoreDisplay} today`;
+
+  const smsBtn = document.getElementById('csm-sms');
+  if (smsBtn) smsBtn.href = `sms:?body=${encodedFull}`;
+
+  const waBtn = document.getElementById('csm-whatsapp');
+  if (waBtn) waBtn.href = `https://wa.me/?text=${encodedFull}`;
+
+  const twBtn = document.getElementById('csm-twitter');
+  if (twBtn) twBtn.href = `https://twitter.com/intent/tweet?text=${encodedText}&url=${encodedUrl}`;
+
+  window._challengeShareUrl = url;
+
+  const modal = document.getElementById('challenge-share-modal');
+  if (modal) modal.style.display = 'flex';
+}
+
+function closeChallengeShareModal(e) {
+  if (e && e.target !== document.getElementById('challenge-share-modal')) return;
+  const modal = document.getElementById('challenge-share-modal');
+  if (modal) modal.style.display = 'none';
+}
+
+function copyChallengeFallback() {
+  const url = window._challengeShareUrl || '';
   navigator.clipboard.writeText(url).then(() => {
-    const btn = document.getElementById('btn-challenge');
+    const btn = document.getElementById('csm-copy');
     if (btn) {
-      const orig = btn.textContent;
-      btn.textContent = 'Link copied!';
-      btn.disabled = true;
-      setTimeout(() => { btn.textContent = orig; btn.disabled = false; }, 2000);
+      const orig = btn.innerHTML;
+      btn.innerHTML = '<span class="csm-btn-icon">&#10003;</span><span>Copied!</span>';
+      setTimeout(() => { btn.innerHTML = orig; }, 2000);
     }
   }).catch(() => {
-    // Fallback for browsers without clipboard API
     const ta = document.createElement('textarea');
     ta.value = url;
     document.body.appendChild(ta);
