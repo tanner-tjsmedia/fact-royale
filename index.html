@@ -33,7 +33,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="style.css?v=12" />
+  <link rel="stylesheet" href="style.css?v=13" />
   <style>
     /* ── Mastery teaser layout (inline to survive CSS caching) ── */
     #mastery-teaser {
@@ -601,5 +601,25 @@
       if (notifIcon) notifIcon.innerHTML = ICONS.bell;
     });
   </script>
+
+<!-- Mobile bottom tab bar -->
+<nav class="mobile-tab-bar" aria-label="Main navigation">
+  <a href="/" class="tab-item tab-active">
+    <span class="tab-icon">&#9819;</span>
+    <span class="tab-label">Play</span>
+  </a>
+  <a href="/#leaderboard" class="tab-item">
+    <span class="tab-icon">&#127942;</span>
+    <span class="tab-label">Ranks</span>
+  </a>
+  <a href="/groups.html" class="tab-item">
+    <span class="tab-icon">&#128101;</span>
+    <span class="tab-label">Groups</span>
+  </a>
+  <a href="/mastery.html" class="tab-item">
+    <span class="tab-icon">&#9733;</span>
+    <span class="tab-label">Mastery</span>
+  </a>
+</nav>
 </body>
 </html>

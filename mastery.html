@@ -155,6 +155,7 @@
       .m-hero-numbers { gap: 1.5rem; }
       .m-hero-big { font-size: 2.2rem; }
       #mastery-grid { grid-template-columns: 1fr; }
+      .m-page { padding-bottom: calc(56px + env(safe-area-inset-bottom, 0px) + 2rem); }
     }
 
     /* ── Critical layout: category cards (inline to survive CSS caching) ── */
@@ -371,5 +372,25 @@
       }
     });
   </script>
+
+<!-- Mobile bottom tab bar -->
+<nav class="mobile-tab-bar" aria-label="Main navigation">
+  <a href="/" class="tab-item">
+    <span class="tab-icon">&#9819;</span>
+    <span class="tab-label">Play</span>
+  </a>
+  <a href="/#leaderboard" class="tab-item">
+    <span class="tab-icon">&#127942;</span>
+    <span class="tab-label">Ranks</span>
+  </a>
+  <a href="/groups.html" class="tab-item">
+    <span class="tab-icon">&#128101;</span>
+    <span class="tab-label">Groups</span>
+  </a>
+  <a href="/mastery.html" class="tab-item tab-active">
+    <span class="tab-icon">&#9733;</span>
+    <span class="tab-label">Mastery</span>
+  </a>
+</nav>
 </body>
 </html>

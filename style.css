@@ -3534,3 +3534,72 @@ a.btn-catchup:hover {
   /* ── Leaderboard section — more spacious ── */
   .lb-section-inner { padding: 0 32px; }
 }
+
+/* =====================================================
+   MOBILE BOTTOM TAB BAR
+   ===================================================== */
+
+/* Hidden on desktop */
+.mobile-tab-bar { display: none; }
+
+@media (max-width: 768px) {
+
+  /* Show the bar */
+  .mobile-tab-bar {
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 56px;
+    padding-bottom: env(safe-area-inset-bottom, 0px);
+    background: rgba(7, 7, 15, 0.97);
+    backdrop-filter: blur(24px);
+    -webkit-backdrop-filter: blur(24px);
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    z-index: 500;
+    align-items: stretch;
+  }
+
+  .tab-item {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.35);
+    font-size: 0.58rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    padding: 6px 4px 8px;
+    transition: color 0.15s;
+    -webkit-tap-highlight-color: transparent;
+    touch-action: manipulation;
+  }
+
+  .tab-item:active { color: rgba(255, 255, 255, 0.65); }
+  .tab-item.tab-active { color: var(--gold, #f0c040); }
+
+  .tab-icon  { font-size: 1.3rem; line-height: 1; display: block; }
+  .tab-label { display: block; line-height: 1; }
+
+  /* ── Page content padding to clear the bar ── */
+  #screen-landing {
+    padding-bottom: calc(56px + env(safe-area-inset-bottom, 0px));
+  }
+
+  /* Groups and mastery pages */
+  .groups-main { padding-bottom: calc(56px + env(safe-area-inset-bottom, 0px) + 2rem) !important; }
+
+  /* Quiz / results — enough room so last option clears the bar */
+  #screen-quiz.active,
+  #screen-results.active,
+  #screen-noquiz.active {
+    padding-bottom: calc(80px + env(safe-area-inset-bottom, 0px)) !important;
+    justify-content: flex-start;
+    padding-top: 24px;
+  }
+}
