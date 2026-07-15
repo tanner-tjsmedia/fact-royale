@@ -3443,3 +3443,94 @@ a.btn-catchup:hover {
 .gc-lb-rank--3 { color: #cd7f32; }
 .gc-meta { display: flex; align-items: center; gap: 0.75rem; flex-wrap: wrap; }
 .gc-member-count { font-size: 0.75rem; color: var(--text-muted, rgba(255,255,255,0.45)); }
+
+/* =====================================================
+   RESPONSIVE — DESKTOP (≥769px)
+   ===================================================== */
+
+@media (min-width: 769px) {
+
+  /* ── Quiz / Results — wider containers ── */
+  #screen-quiz .inner-wrap,
+  #screen-results .inner-wrap { max-width: 620px; }
+
+  .quiz-header,
+  .progress-wrap,
+  .progress-text,
+  .question-card,
+  .results-card,
+  .challenge-banner { max-width: 620px; }
+
+  #screen-quiz.active,
+  #screen-results.active,
+  #screen-noquiz.active { padding: 32px 28px; }
+
+  /* ── Bigger type in quiz flow ── */
+  .question-text { font-size: 1.35rem; line-height: 1.5; }
+  .option-btn    { font-size: 1rem; padding: 16px 22px; }
+
+  /* ── Results screen ── */
+  .score-display { font-size: 5rem; }
+
+  .results-actions {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 20px;
+  }
+  .results-actions .btn-primary { flex: 1; }
+  .btn-challenge { margin-top: 0; white-space: nowrap; }
+
+  /* ── Challenge comparison ── */
+  .cvs-score { font-size: 2.5rem; }
+  .challenge-result-section { padding: 1.75rem 2rem; }
+
+  /* ── Email capture — inline on desktop ── */
+  .email-capture-wrap { padding: 1.25rem 1.75rem; }
+  .email-capture-row  { flex-wrap: nowrap; gap: 10px; }
+  .email-capture-input { flex: 1; min-width: 0; }
+  .email-capture-btn  { flex-shrink: 0; white-space: nowrap; }
+
+  /* ── Groups page ── */
+  .groups-main { max-width: 900px; padding: 2.5rem 2rem 5rem; }
+  .groups-hiw  { padding: 1.5rem 2.5rem; }
+  .groups-auth-gate { padding: 3rem 2.5rem; max-width: 580px; }
+
+  /* ── Landing: home sections get more breathing room ── */
+  .home-section { padding: 72px 32px; }
+  .hero { padding: 88px 32px 72px; }
+}
+
+/* =====================================================
+   RESPONSIVE — LARGE DESKTOP (≥1100px)
+   ===================================================== */
+
+@media (min-width: 1100px) {
+
+  /* ── Hero — use more horizontal width ── */
+  .hero-content { max-width: 820px; }
+  .hero-title { font-size: clamp(3.8rem, 4.2vw, 5.2rem); }
+
+  /* ── Quiz / Results — a touch more room ── */
+  #screen-quiz .inner-wrap,
+  #screen-results .inner-wrap { max-width: 660px; }
+
+  .quiz-header,
+  .progress-wrap,
+  .progress-text,
+  .question-card,
+  .results-card,
+  .challenge-banner { max-width: 660px; }
+
+  .question-text { font-size: 1.45rem; }
+  .score-display { font-size: 5.5rem; }
+
+  /* ── Groups — full width on large screens ── */
+  .groups-main { max-width: 1020px; }
+
+  /* ── Daily grid — can take a 3-column form ── */
+  .daily-grid { grid-template-columns: 2fr 1fr; gap: 24px; }
+
+  /* ── Leaderboard section — more spacious ── */
+  .lb-section-inner { padding: 0 32px; }
+}
