@@ -2,17 +2,17 @@
   "date": "2026-08-17",
   "questions": [
     {
-      "category": "History",
-      "question": "What was the name of the ship on which Charles Darwin traveled to make his world-changing observations about natural selection?",
+      "category": "Science",
+      "question": "Charles Darwin's theory of evolution by natural selection was primarily inspired by observations he made during his voyage to which Pacific island chain, known for its unique and isolated wildlife?",
       "options": [
-        "HMS Victory",
-        "HMS Endeavour",
-        "HMS Beagle",
-        "HMS Discovery"
+        "Galápagos Islands",
+        "Falkland Islands",
+        "Canary Islands",
+        "Hawaiian Islands"
       ],
-      "answer": "HMS Beagle",
-      "explanation": "Charles Darwin sailed aboard HMS Beagle from December 1831 to October 1836, on a voyage that took him around the world. He was 22 when he boarded, officially as a gentleman companion for the captain. His observations in South America and the Galapagos Islands provided the foundation for his theory of evolution by natural selection, published 23 years later in On the Origin of Species.",
-      "memory_hook": "Darwin = HMS Beagle, 1831-1836. He was hired as a companion for the captain, not a scientist. He collected, observed, and took notes for 5 years. Then thought about what he'd seen for 23 more years before publishing. One voyage changed our understanding of life itself."
+      "answer": "Galápagos Islands",
+      "explanation": "Darwin visited the Galápagos Islands in 1835 aboard HMS Beagle. He observed that species of finches, tortoises, and other animals varied between islands in ways that seemed adapted to local conditions. These observations contributed crucially to his theory of evolution by natural selection, published in 'On the Origin of Species' in 1859.",
+      "memory_hook": "Darwin + Galápagos = evolution. Different finches on each island sparked his insight."
     },
     {
       "category": "History",
@@ -28,17 +28,17 @@
       "memory_hook": "Khrushchev = crushed Hungary 1956. Same year he denounced Stalin's crimes in the Secret Speech. He condemned Stalin's methods while using them. The contradiction defined his rule. Eisenhower didn't intervene in Hungary because the Suez Crisis was happening simultaneously."
     },
     {
-      "category": "History",
-      "question": "Which ancient Greek city-state was known for its warrior culture and military training from childhood?",
+      "category": "Geography",
+      "question": "Which sea, lying between Greece and Turkey, takes its name from a legendary Athenian king who drowned in it after mistaking his son Theseus's black sails for a sign of defeat?",
       "options": [
-        "Athens",
-        "Corinth",
-        "Thebes",
-        "Sparta"
+        "Aegean Sea",
+        "Adriatic Sea",
+        "Ionian Sea",
+        "Tyrrhenian Sea"
       ],
-      "answer": "Sparta",
-      "explanation": "Sparta was an ancient Greek city-state whose society was organized entirely around military excellence. Boys were taken from their families at age 7 and placed in the agoge — an intensive military training program. Spartan women had more rights than other Greek women (they could own property and exercise) because physically fit mothers were needed to raise warriors. Despite their fame, Sparta produced relatively little art, philosophy, or literature.",
-      "memory_hook": "Sparta = warrior culture from age 7. The agoge was brutal by design — weakness was beaten out, endurance was praised. Sparta was the only Greek city without walls — they said their men were their walls. Ironic that the most militaristic Greek state left the least cultural legacy."
+      "answer": "Aegean Sea",
+      "explanation": "According to Greek mythology, King Aegeus threw himself into the sea upon seeing black sails on his son Theseus's returning ship — believing Theseus had been killed by the Minotaur. The Aegean Sea contains over 2,000 islands including Crete, Rhodes, and Santorini, and separates Greece from Turkey.",
+      "memory_hook": "Aegean Sea = King Aegeus drowned there. Between Greece and Turkey."
     },
     {
       "category": "History",
@@ -94,16 +94,16 @@
     },
     {
       "category": "Music/Movies",
-      "question": "Which 2002 film by Steven Spielberg stars Tom Hanks as a man who is stranded in an airport after his country ceases to exist?",
+      "question": "Which 1997 James Cameron film, about the sinking of a British ocean liner in 1912, became the highest-grossing film in history at the time and won 11 Academy Awards?",
       "options": [
-        "Cast Away",
-        "You've Got Mail",
-        "Philadelphia",
-        "The Terminal"
+        "Titanic",
+        "Pearl Harbor",
+        "The Perfect Storm",
+        "Waterworld"
       ],
-      "answer": "The Terminal",
-      "explanation": "The Terminal (2004, not 2002) starred Tom Hanks as Viktor Navorski, a man from the fictional country of Krakozhia who becomes stranded in JFK Airport when his country undergoes a coup and his passport becomes invalid. The film was loosely inspired by the true story of Mehran Karimi Nasseri, an Iranian refugee who lived in Charles de Gaulle Airport in Paris for 18 years.",
-      "memory_hook": "The Terminal = Tom Hanks stuck in an airport. Inspired by a real man (Nasseri) who lived in a Paris airport for 18 years. Spielberg and Hanks made a crowd-pleasing film from an absurd but genuine human situation. The real Nasseri was eventually given documents but had grown so accustomed to airport life he kept living there."
+      "answer": "Titanic",
+      "explanation": "James Cameron's 'Titanic' (1997) starred Leonardo DiCaprio and Kate Winslet. It was the first film to gross $1 billion worldwide and held the box office record for 12 years, until Cameron's own 'Avatar' surpassed it. It tied 'Ben-Hur' and 'The Lord of the Rings: The Return of the King' for most Oscars won by a single film (11).",
+      "memory_hook": "Titanic 1997: Cameron, DiCaprio, Winslet. First $1B film. 11 Oscars."
     },
     {
       "category": "Music/Movies",

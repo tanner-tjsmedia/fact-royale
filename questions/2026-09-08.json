@@ -1,0 +1,161 @@
+{
+  "date": "2026-09-08",
+  "questions": [
+    {
+      "category": "History",
+      "question": "Which treaty, signed in 1783, officially ended the American Revolutionary War and recognized the United States as an independent nation?",
+      "options": [
+        "Treaty of Paris",
+        "Treaty of Ghent",
+        "Treaty of Versailles",
+        "Treaty of Amiens"
+      ],
+      "answer": "Treaty of Paris",
+      "explanation": "The Treaty of Paris (September 3, 1783) was signed between Britain and the United States. Britain recognized American independence and ceded territory east of the Mississippi River. A separate Treaty of Paris also ended the Seven Years' War (1763). It was also the name of the 1856 treaty ending the Crimean War.",
+      "memory_hook": "Treaty of Paris 1783: ended Revolutionary War. Britain recognized US independence + ceded Mississippi east territory."
+    },
+    {
+      "category": "Science",
+      "question": "What is the name of the boundary between the Earth's mantle and outer core, located approximately 2,900 km below the surface?",
+      "options": [
+        "Gutenberg discontinuity",
+        "Mohorovičić discontinuity",
+        "Conrad discontinuity",
+        "Lehmann discontinuity"
+      ],
+      "answer": "Gutenberg discontinuity",
+      "explanation": "The Gutenberg discontinuity (also called the core-mantle boundary) was discovered by Beno Gutenberg in 1913. At this boundary, seismic P-waves slow dramatically and S-waves cannot pass (because the outer core is liquid). The Mohorovičić discontinuity (Moho) is the shallower crust-mantle boundary at 5-70 km depth.",
+      "memory_hook": "Gutenberg discontinuity: mantle-core boundary at 2,900 km. S-waves stop here (liquid outer core). Moho is shallower."
+    },
+    {
+      "category": "Sports",
+      "question": "Which country has won the most FIFA Women's World Cup titles with four championships (1991, 1999, 2015, 2019)?",
+      "options": [
+        "United States",
+        "Germany",
+        "Japan",
+        "Norway"
+      ],
+      "answer": "United States",
+      "explanation": "The U.S. Women's National Team (USWNT) is the most successful women's soccer program in history. Mia Hamm was the star of the 1999 victory (played in the US and drew record crowds). Megan Rapinoe was the 2019 Golden Ball winner. The team has also dominated the Olympics.",
+      "memory_hook": "USWNT: 4 Women's World Cups (1991, 1999, 2015, 2019). Most successful women's soccer program."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Which 1993 Steven Spielberg film, depicting the Holocaust through the story of German industrialist Oskar Schindler, won seven Academy Awards including Best Picture?",
+      "options": [
+        "Schindler's List",
+        "The Pianist",
+        "Life is Beautiful",
+        "Sophie's Choice"
+      ],
+      "answer": "Schindler's List",
+      "explanation": "Schindler's List was filmed in black and white (except for the famous red coat of a girl). Schindler (played by Liam Neeson) saved approximately 1,200 Jewish workers by employing them in his factory. Spielberg donated his profits to Holocaust education. The actual list of Schindler's workers is preserved.",
+      "memory_hook": "Schindler's List 1993: 7 Oscars. Black and white with famous red coat. Spielberg donated profits to Holocaust ed."
+    },
+    {
+      "category": "Geography",
+      "question": "The Arabian Peninsula is the world's largest peninsula. Which country occupies most of it by area?",
+      "options": [
+        "Saudi Arabia",
+        "Yemen",
+        "Oman",
+        "UAE"
+      ],
+      "answer": "Saudi Arabia",
+      "explanation": "Saudi Arabia covers approximately 2.15 million km² — about 80% of the Arabian Peninsula. It contains Mecca and Medina (the two holiest cities in Islam), the world's largest continuous sand desert (Rub' al Khali), and produces about 10% of the world's oil.",
+      "memory_hook": "Saudi Arabia: 80% of Arabian Peninsula. Mecca + Medina. World's largest sand desert (Rub' al Khali)."
+    },
+    {
+      "category": "History",
+      "question": "The Meiji Restoration transformed Japan in the 19th century, but what significant event in 1853 forced Japan to open its ports after 200+ years of isolation?",
+      "options": [
+        "Arrival of U.S. Navy Commodore Perry's 'Black Ships'",
+        "The British occupation of Tokyo",
+        "The First Sino-Japanese War",
+        "A volcanic eruption destroying Nagasaki"
+      ],
+      "answer": "Arrival of U.S. Navy Commodore Perry's 'Black Ships'",
+      "explanation": "In July 1853, U.S. Navy Commodore Matthew Perry arrived in Tokyo Bay with four steam-powered warships (called 'black ships' by Japanese due to their black hulls and smoke). He demanded trade rights. Japan, unable to resist militarily, signed the Convention of Kanagawa (1854), ending its sakoku (isolation) period.",
+      "memory_hook": "Perry's Black Ships 1853: ended Japan's 200-year isolation. Steam warships in Tokyo Bay. Kanagawa treaty followed."
+    },
+    {
+      "category": "Pop Culture",
+      "question": "Which science fiction television franchise, beginning with the original series in 1966, has spawned more spin-off series than any other TV show?",
+      "options": [
+        "Star Trek",
+        "Doctor Who",
+        "Star Wars",
+        "Battlestar Galactica"
+      ],
+      "answer": "Star Trek",
+      "explanation": "Star Trek began with Gene Roddenberry's original series (1966-69) starring William Shatner and Leonard Nimoy. As of 2024, it has spawned over 10 series including The Next Generation, Deep Space Nine, Voyager, Enterprise, Discovery, Picard, Strange New Worlds, and animated series. The franchise has over $4 billion in merchandise sales.",
+      "memory_hook": "Star Trek: 1966 original, 10+ series since. Gene Roddenberry's vision. Live long and prosper."
+    },
+    {
+      "category": "Science",
+      "question": "Which organ in the human body produces insulin, a hormone that regulates blood glucose levels?",
+      "options": [
+        "Pancreas",
+        "Liver",
+        "Adrenal gland",
+        "Thyroid"
+      ],
+      "answer": "Pancreas",
+      "explanation": "The pancreas has two functions: exocrine (digestive enzymes into the small intestine) and endocrine (hormones into the blood). Beta cells in the islets of Langerhans produce insulin, which lowers blood glucose; alpha cells produce glucagon, which raises it. Type 1 diabetes results from destruction of beta cells; Type 2 from insulin resistance.",
+      "memory_hook": "Pancreas: beta cells make insulin (lowers blood sugar), alpha cells make glucagon (raises it). Diabetes = dysfunction here."
+    },
+    {
+      "category": "Geography",
+      "question": "Which autonomous region of China, home to the Potala Palace and the Dalai Lama's historical seat of government, sits on the world's highest plateau?",
+      "options": [
+        "Tibet",
+        "Xinjiang",
+        "Inner Mongolia",
+        "Yunnan"
+      ],
+      "answer": "Tibet",
+      "explanation": "Tibet (officially the Tibet Autonomous Region) has an average elevation of 4,500 meters — earning it the nickname 'Roof of the World.' The Potala Palace in Lhasa was the Dalai Lama's winter residence until China's 1959 invasion forced him into exile in India. Major rivers including the Yangtze, Mekong, and Brahmaputra originate on the Tibetan Plateau.",
+      "memory_hook": "Tibet: 'Roof of the World,' avg 4,500m. Potala Palace in Lhasa. Yangtze, Mekong, Brahmaputra start here."
+    },
+    {
+      "category": "History",
+      "question": "Which French emperor's military campaigns created a vast European empire but ended in defeat at Waterloo in 1815, following his failed invasion of Russia in 1812?",
+      "options": [
+        "Napoleon Bonaparte",
+        "Louis XIV",
+        "Charlemagne",
+        "Charles V"
+      ],
+      "answer": "Napoleon Bonaparte",
+      "explanation": "Napoleon's 1812 invasion of Russia with 600,000 soldiers ended catastrophically — only about 100,000 survived the campaign. The harsh Russian winter, scorched-earth tactics, and the Russian decision not to sue for peace destroyed the Grande Armée. This fatally weakened Napoleon and led to the coalition that ultimately defeated him.",
+      "memory_hook": "Napoleon invaded Russia 1812 with 600,000; only ~100,000 survived. Never recovered. Waterloo 1815."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Which Jamaican musician, known as the 'King of Reggae,' popularized reggae music worldwide with songs like 'No Woman, No Cry' and 'Redemption Song'?",
+      "options": [
+        "Bob Marley",
+        "Burning Spear",
+        "Jimmy Cliff",
+        "Toots Hibbert"
+      ],
+      "answer": "Bob Marley",
+      "explanation": "Bob Marley (1945-1981) recorded with The Wailers and became reggae's global ambassador. 'Legend' (1984 posthumous compilation) is the best-selling reggae album ever. He promoted Rastafari religion, which views Ethiopia's Emperor Haile Selassie as divine. He died of cancer at 36.",
+      "memory_hook": "Bob Marley: King of Reggae. 'Legend' = best-selling reggae album ever. Died of cancer at 36."
+    },
+    {
+      "category": "Sports",
+      "question": "In American football, how many points is a field goal worth?",
+      "options": [
+        "3",
+        "1",
+        "6",
+        "2"
+      ],
+      "answer": "3",
+      "explanation": "A field goal is scored when the kicker puts the ball through the uprights (kicking from the ground). It is worth 3 points. A touchdown is 6 points, followed by a choice of extra point kick (1 point) or two-point conversion (2 points). A safety (tackling the ball carrier in their own end zone) is worth 2 points.",
+      "memory_hook": "Field goal = 3 pts. Touchdown = 6 pts + 1 (kick) or 2 (conversion). Safety = 2 pts."
+    }
+  ]
+}

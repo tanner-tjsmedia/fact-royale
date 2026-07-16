@@ -15,17 +15,17 @@
       "memory_hook": "Titanic sank in 1912. Maiden voyage. 1,500 deaths. The ship was said to be unsinkable by the press — the White Star Line itself never made that claim. Four days into its first trip."
     },
     {
-      "category": "History",
-      "question": "Who was the first woman to win a Nobel Prize, having won two (in Physics and Chemistry)?",
+      "category": "Science",
+      "question": "Which physicist formulated the theory of special relativity in 1905 and derived the famous equation E=mc², showing mass and energy are interchangeable?",
       "options": [
-        "Rosalind Franklin",
-        "Lise Meitner",
-        "Marie Curie",
-        "Dorothy Hodgkin"
+        "Albert Einstein",
+        "Max Planck",
+        "Niels Bohr",
+        "Ernest Rutherford"
       ],
-      "answer": "Marie Curie",
-      "explanation": "Marie Curie won the Nobel Prize in Physics (1903, shared) for her work on radioactivity, and the Nobel Prize in Chemistry (1911) for the discovery of radium and polonium. She is the only person to win Nobel Prizes in two different scientific disciplines. Born in Poland as Maria Sklodowska, she moved to Paris to study, where women could attend university.",
-      "memory_hook": "Marie Curie = two Nobel Prizes, two different sciences. Physics and Chemistry. Still the only person to accomplish this. She had to move to France to attend university because Poland didn't allow women in higher education."
+      "answer": "Albert Einstein",
+      "explanation": "Albert Einstein published four groundbreaking papers in 1905 — his 'miracle year' — including the theory of special relativity and the mass-energy equivalence equation E=mc². He was awarded the Nobel Prize in Physics in 1921, not for relativity, but for his explanation of the photoelectric effect.",
+      "memory_hook": "Einstein 1905: E=mc², special relativity. Nobel 1921 for photoelectric effect."
     },
     {
       "category": "History",
@@ -81,16 +81,16 @@
     },
     {
       "category": "Sports",
-      "question": "What is the only Grand Slam tennis tournament played on clay courts?",
+      "question": "What color is the distinctive jersey awarded each day to the leader of the Tour de France cycling race?",
       "options": [
-        "Australian Open",
-        "US Open",
-        "Wimbledon",
-        "French Open"
+        "Yellow",
+        "Green",
+        "Red",
+        "White"
       ],
-      "answer": "French Open",
-      "explanation": "The French Open (Roland Garros) is the only Grand Slam tournament played on clay courts. Clay slows the ball down significantly compared to grass (Wimbledon) or hard courts (US Open, Australian Open), rewarding baseline players who can sustain long rallies. Rafael Nadal has won Roland Garros a record 14 times, making him the undisputed 'King of Clay.'",
-      "memory_hook": "French Open = only Grand Slam on clay. Slower game, longer rallies. Rafa Nadal won it 14 times — he is so dominant on clay that losing there felt like a minor earthquake."
+      "answer": "Yellow",
+      "explanation": "The yellow jersey (maillot jaune) has been awarded to the Tour de France leader since 1919. It was introduced by race organizer Henri Desgrange, reportedly because L'Auto, the newspaper sponsoring the race, was printed on yellow paper. A green jersey goes to the points leader; white to the best young rider.",
+      "memory_hook": "Tour de France leader = yellow jersey (maillot jaune). Since 1919."
     },
     {
       "category": "Music/Movies",

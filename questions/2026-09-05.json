@@ -1,0 +1,161 @@
+{
+  "date": "2026-09-05",
+  "questions": [
+    {
+      "category": "History",
+      "question": "Which ancient wonder, a giant lighthouse on an island near Alexandria, was one of the tallest structures in the ancient world and guided ships for centuries?",
+      "options": [
+        "Lighthouse of Alexandria",
+        "Tower of Babel",
+        "Colossus of Rhodes",
+        "Temple of Artemis"
+      ],
+      "answer": "Lighthouse of Alexandria",
+      "explanation": "The Lighthouse of Alexandria (Pharos of Alexandria) stood on Pharos Island in the harbor of Alexandria, Egypt. Built around 280 BC, it was 100-137 meters tall — making it one of the tallest structures of the ancient world. It was destroyed by earthquakes in the 14th century. Its remains were found underwater in 1994.",
+      "memory_hook": "Alexandria Lighthouse: 100-137m tall, built ~280 BC. Toppled by medieval earthquakes. Ruins found 1994."
+    },
+    {
+      "category": "Science",
+      "question": "What is the name of the fundamental force that holds quarks together inside protons and neutrons?",
+      "options": [
+        "Strong nuclear force",
+        "Weak nuclear force",
+        "Electromagnetism",
+        "Gravity"
+      ],
+      "answer": "Strong nuclear force",
+      "explanation": "The strong nuclear force is the strongest of the four fundamental forces — about 100 times stronger than electromagnetism. It acts only at very short ranges (within the nucleus). It holds quarks together via particles called gluons, and also keeps protons and neutrons bound in the nucleus despite protons repelling each other electromagnetically.",
+      "memory_hook": "Strong force: strongest of 4 forces. Holds quarks together via gluons. Only works inside nucleus."
+    },
+    {
+      "category": "Sports",
+      "question": "Which swimmer won the most medals (23 gold, 3 silver, 2 bronze) in Olympic history, making him the most decorated Olympian of all time?",
+      "options": [
+        "Michael Phelps",
+        "Mark Spitz",
+        "Ian Thorpe",
+        "Ryan Lochte"
+      ],
+      "answer": "Michael Phelps",
+      "explanation": "Michael Phelps won 28 Olympic medals total: 23 gold, 3 silver, 2 bronze, across four Olympic Games (2000-2016). At the 2008 Beijing Olympics he won 8 gold medals in a single Games, surpassing Mark Spitz's 1972 record of 7. Phelps also held the record for most individual golds of any Olympian.",
+      "memory_hook": "Phelps: 28 Olympic medals (23 gold). 8 golds at 2008 Beijing. Greatest Olympian ever."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Which British actor played the role of James Bond in the most films (7), making his debut in Dr. No (1962)?",
+      "options": [
+        "Roger Moore",
+        "Sean Connery",
+        "Daniel Craig",
+        "Pierce Brosnan"
+      ],
+      "answer": "Roger Moore",
+      "explanation": "Roger Moore played Bond seven times (1973-1985), more than any other actor. Sean Connery played Bond six times (plus one unofficial film). Daniel Craig played Bond five times. Moore's Bond was known for a more light-hearted, quip-heavy style compared to Connery's harder edge.",
+      "memory_hook": "Roger Moore: Bond 7 times, most of any actor. 1973-1985. Connery: 6 times. Craig: 5 times."
+    },
+    {
+      "category": "Geography",
+      "question": "The Mariana Trench, the deepest point on Earth's surface, reaches a depth of approximately 11 km. In which ocean is it located?",
+      "options": [
+        "Pacific Ocean",
+        "Atlantic Ocean",
+        "Indian Ocean",
+        "Arctic Ocean"
+      ],
+      "answer": "Pacific Ocean",
+      "explanation": "The Mariana Trench lies in the western Pacific Ocean, east of the Mariana Islands. Its deepest point, Challenger Deep, is approximately 10,935 meters below sea level. James Cameron reached the bottom in a solo submersible in 2012. The pressure there is over 1,000 times atmospheric pressure at sea level.",
+      "memory_hook": "Mariana Trench: Pacific, 10,935m deep. James Cameron dived solo to the bottom in 2012."
+    },
+    {
+      "category": "History",
+      "question": "The Indian Independence Act of 1947 partitioned British India into two nations. Which leader of the Indian National Congress became India's first prime minister?",
+      "options": [
+        "Jawaharlal Nehru",
+        "Mahatma Gandhi",
+        "Sardar Patel",
+        "Subhas Chandra Bose"
+      ],
+      "answer": "Jawaharlal Nehru",
+      "explanation": "India and Pakistan became independent on August 14-15, 1947. Jawaharlal Nehru delivered the 'Tryst with Destiny' speech at midnight. Gandhi was the moral leader of independence but didn't take political office. Partition caused one of the largest mass migrations in history (10-20 million displaced) and roughly 200,000-2 million deaths in communal violence.",
+      "memory_hook": "Nehru: India's first PM. 'Tryst with Destiny' midnight speech. Gandhi led independence but took no office."
+    },
+    {
+      "category": "Pop Culture",
+      "question": "Which online video platform, founded in February 2005 and acquired by Google for $1.65 billion in 2006, became the world's second-largest search engine?",
+      "options": [
+        "YouTube",
+        "Vimeo",
+        "Dailymotion",
+        "Metacafe"
+      ],
+      "answer": "YouTube",
+      "explanation": "YouTube was founded by Chad Hurley, Steve Chen, and Jawed Karim (former PayPal employees). The first video uploaded was 'Me at the zoo' by Jawed Karim. Google acquired it for $1.65 billion just 18 months after founding. Over 500 hours of video are uploaded to YouTube every minute as of 2024.",
+      "memory_hook": "YouTube: founded Feb 2005, sold to Google for $1.65B (2006). 500 hours of video uploaded every minute."
+    },
+    {
+      "category": "Science",
+      "question": "What is the approximate percentage of the human body made up of water?",
+      "options": [
+        "60%",
+        "40%",
+        "80%",
+        "90%"
+      ],
+      "answer": "60%",
+      "explanation": "The average adult human body is approximately 60% water by mass, though this varies with age, sex, and body composition. Muscle tissue is about 73% water while fat tissue is about 10% water. The brain and heart are about 73% water, and the lungs about 83%. Infants are approximately 75-78% water.",
+      "memory_hook": "Human body: ~60% water. Muscles 73%, fat only 10%. Infants are born 75-78% water."
+    },
+    {
+      "category": "Geography",
+      "question": "Which country has the most natural UNESCO World Heritage Sites, with 57 natural and mixed sites — more than any other nation?",
+      "options": [
+        "China",
+        "Australia",
+        "United States",
+        "Brazil"
+      ],
+      "answer": "China",
+      "explanation": "China has the most total UNESCO World Heritage Sites of any country (57 as of recent counts), combining natural and cultural sites. Italy has traditionally led in cultural sites. Australia, the US, and Brazil have significant natural sites but fewer in total. China's sites include the Three Parallel Rivers, Jiuzhaigou Valley, and Wulingyuan.",
+      "memory_hook": "China: most UNESCO World Heritage Sites total. Italy leads in cultural sites specifically."
+    },
+    {
+      "category": "History",
+      "question": "Which explorer, funded by Spain, circumnavigated the globe for the first time (1519-1522), though he died in the Philippines and didn't complete the journey himself?",
+      "options": [
+        "Ferdinand Magellan",
+        "Juan Sebastián Elcano",
+        "Christopher Columbus",
+        "Hernán Cortés"
+      ],
+      "answer": "Ferdinand Magellan",
+      "explanation": "Magellan led the expedition that first circumnavigated Earth but was killed in the Battle of Mactan (Philippines) in 1521. Juan Sebastián Elcano completed the voyage with the 18 survivors of the original 270-man crew. Magellan is credited with the circumnavigation because he had already sailed east past India, meaning his westward journey connected.",
+      "memory_hook": "Magellan: planned first circumnavigation but died in Philippines. Elcano completed it. 18 of 270 survived."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Which 2017 film, winner of the Academy Award for Best Picture (following the Moonlight envelope mix-up), starred Ryan Gosling and Emma Stone in a Los Angeles musical?",
+      "options": [
+        "La La Land",
+        "Whiplash",
+        "Birdman",
+        "The Artist"
+      ],
+      "answer": "La La Land",
+      "explanation": "La La Land actually LOST the Oscar for Best Picture in 2017 — one of cinema's most dramatic moments. Warren Beatty and Faye Dunaway announced the wrong winner; La La Land producers were partway through acceptance speeches before the mistake was caught and Moonlight announced as the actual winner.",
+      "memory_hook": "La La Land: LOST Best Picture — the wrong winner announced. Moonlight was the real winner. 2017."
+    },
+    {
+      "category": "Sports",
+      "question": "In cricket, what term is used when a batsman is dismissed for zero runs?",
+      "options": [
+        "Duck",
+        "Maiden",
+        "Dot ball",
+        "Golden egg"
+      ],
+      "answer": "Duck",
+      "explanation": "A duck (zero runs) in cricket is said to originate from the duck's egg shape resembling a zero. A 'golden duck' means dismissed on the first ball faced. A 'diamond duck' means dismissed without facing a ball (run out from a non-striker's end). England's Brian Lara scored 400 not out in Tests — the opposite extreme.",
+      "memory_hook": "Duck = 0 in cricket. Golden duck = out first ball. Brian Lara scored 400 (opposite extreme)."
+    }
+  ]
+}

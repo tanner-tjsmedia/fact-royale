@@ -119,16 +119,16 @@
     },
     {
       "category": "History",
-      "question": "Which ancient wonder was a giant statue at the entrance to the harbor of Rhodes?",
+      "question": "The Lighthouse of Alexandria, one of the Seven Wonders of the Ancient World, stood at the entrance to which city's harbor?",
       "options": [
-        "The Lighthouse of Alexandria",
-        "The Colossus of Rhodes",
-        "The Statue of Zeus",
-        "The Temple of Artemis"
+        "Alexandria",
+        "Carthage",
+        "Athens",
+        "Rhodes"
       ],
-      "answer": "The Colossus of Rhodes",
-      "explanation": "The Colossus of Rhodes was a statue of the sun god Helios, built around 280 BC in the Greek city of Rhodes. It stood approximately 70 cubits (33 meters) high and was considered one of the Seven Wonders of the Ancient World. It stood for only 54 years before being destroyed by an earthquake.",
-      "memory_hook": "Colossus of Rhodes: straddled the harbor (maybe), fell in an earthquake — a wonder for just 54 years."
+      "answer": "Alexandria",
+      "explanation": "The Lighthouse of Alexandria (Pharos of Alexandria) was built on the island of Pharos near Alexandria, Egypt around 280 BC. Standing between 100-130 meters tall, it guided sailors into the harbor for centuries and was one of the tallest man-made structures in the ancient world.",
+      "memory_hook": "Pharos of Alexandria = ancient lighthouse. 'Pharos' gave us the word 'pharaoh'... actually it gave many languages the word for lighthouse."
     },
     {
       "category": "Geography",

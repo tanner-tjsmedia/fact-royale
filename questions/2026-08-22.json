@@ -55,29 +55,29 @@
     },
     {
       "category": "Sports",
-      "question": "What is the maximum number of players on the field at one time for one team in American football?",
+      "question": "In 1980, the U.S. men's ice hockey team defeated the heavily favored Soviet Union at the Lake Placid Winter Olympics in a result dubbed 'the Miracle on Ice.' What was the final score?",
       "options": [
-        "9",
-        "10",
-        "11",
-        "12"
+        "4-3",
+        "3-2",
+        "5-3",
+        "4-2"
       ],
-      "answer": "11",
-      "explanation": "Each American football team fields 11 players at a time on the field during play. The offense has 11 players and the defense has 11 players, for 22 total on the field simultaneously. On special teams (kicks and punts), each team also fields 11 players. Having 12 men on the field is an illegal procedure penalty.",
-      "memory_hook": "American football = 11 vs 11. Same as soccer. Total 22 players on field at once. Unlike soccer, positions are highly specialized — players on offense rarely play defense. A football roster has 53 players but only 11 on the field at a time."
+      "answer": "4-3",
+      "explanation": "The U.S. defeated the Soviet Union 4-3 on February 22, 1980. The Soviets had won every Olympic gold medal since 1964 and were considered invincible. The U.S. team, made up of amateur and college players, went on to beat Finland to win the gold medal. Sports Illustrated called it the greatest sports moment of the 20th century.",
+      "memory_hook": "Miracle on Ice: USA 4, USSR 3. February 22, 1980. Amateur college kids vs. the best."
     },
     {
       "category": "Sports",
-      "question": "Which country has hosted the Olympic Games the most times?",
+      "question": "The Olympic flag features five interlocking rings of blue, yellow, black, green, and red on a white background. What do the five rings collectively represent?",
       "options": [
-        "Germany",
-        "France",
-        "Japan",
-        "United States"
+        "The five continents of the world",
+        "The five founding nations",
+        "The five Olympic values",
+        "The five original sports"
       ],
-      "answer": "United States",
-      "explanation": "The United States has hosted the Summer and Winter Olympics more times than any other country. Summer Olympics: St. Louis (1904), Los Angeles (1932, 1984, 2028), Atlanta (1996). Winter Olympics: Lake Placid (1932, 1980), Squaw Valley (1960), Salt Lake City (2002). Los Angeles hosted a third Summer Olympics in 2028, extending the US lead.",
-      "memory_hook": "USA = most Olympic host cities. LA has hosted the Summer Olympics three times (1932, 1984, 2028). No other city has matched that. The Coliseum that hosted the 1932 Olympics still stands and hosted events again in 1984 — a 52-year gap with the same venue."
+      "answer": "The five continents of the world",
+      "explanation": "Pierre de Coubertin designed the Olympic rings in 1912. The five rings represent the five continents: Africa, the Americas, Asia, Europe, and Oceania. The six colors (including white) were chosen because at least one appears in the flag of every nation in the world. The rings' interlocking design symbolizes friendship among nations.",
+      "memory_hook": "5 Olympic rings = 5 continents. 6 colors cover every nation's flag."
     },
     {
       "category": "Sports",

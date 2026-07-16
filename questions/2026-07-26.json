@@ -41,16 +41,16 @@
     },
     {
       "category": "Sports",
-      "question": "Which country has won the most Rugby World Cup titles?",
+      "question": "Which country won the 2019 Rugby World Cup, defeating England 32-12 in the final held in Yokohama, Japan?",
       "options": [
-        "England",
-        "Australia",
         "South Africa",
-        "New Zealand"
+        "New Zealand",
+        "England",
+        "Wales"
       ],
-      "answer": "New Zealand",
-      "explanation": "New Zealand's All Blacks have won the Rugby World Cup three times (1987, 2011, 2015), making them the most successful team in the tournament's history. South Africa has won three times (1995, 2007, 2019), and Australia has won twice (1991, 1999).",
-      "memory_hook": "All Blacks: three World Cups. The most dominant force in rugby history."
+      "answer": "South Africa",
+      "explanation": "South Africa's Springboks defeated England 32-12 in the 2019 Rugby World Cup final in Yokohama, Japan. It was their third World Cup title. Captain Siya Kolisi became the first Black South African to captain a World Cup-winning team.",
+      "memory_hook": "2019 Rugby WC: South Africa beat England. Siya Kolisi, first Black captain to lift the trophy."
     },
     {
       "category": "Sports",

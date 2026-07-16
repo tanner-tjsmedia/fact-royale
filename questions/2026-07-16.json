@@ -28,7 +28,7 @@
     },
     {
       "category": "Sports",
-      "question": "What is the length of a standard 100-meter sprint track?",
+      "question": "At the 2009 World Championships in Berlin, Usain Bolt set a world record of 9.58 seconds in which track and field event?",
       "options": [
         "90 meters",
         "100 meters",
@@ -36,8 +36,8 @@
         "120 meters"
       ],
       "answer": "100 meters",
-      "explanation": "A standard sprint track is 100 meters from start to finish. The current world record of 9.58 seconds was set by Usain Bolt of Jamaica at the 2009 World Championships in Berlin, averaging approximately 37.6 km/h (23.4 mph). Bolt also holds the 200m record at 19.19 seconds.",
-      "memory_hook": "100 meters: Bolt ran it in 9.58 seconds. Nearly 38 km/h on two legs."
+      "explanation": "Usain Bolt's 100m world record of 9.58 seconds, set in Berlin in 2009, still stands today. He averaged approximately 37.6 km/h (23.4 mph) over the distance. Bolt also holds the 200m world record at 19.19 seconds.",
+      "memory_hook": "9.58 seconds, Berlin 2009 = Bolt's 100m world record. Still unbeaten."
     },
     {
       "category": "Sports",
@@ -93,15 +93,15 @@
     },
     {
       "category": "Music/Movies",
-      "question": "Which 1984 film featured the phrase 'Just one more thing...'?",
+      "question": "Which TV detective's signature move was to pause while leaving a suspect's room, turn back, and say 'Just one more thing...' before delivering his key insight?",
       "options": [
-        "It's not from a film",
-        "Beverly Hills Cop",
-        "Dragnet",
-        "Columbo"
+        "Inspector Morse",
+        "Columbo",
+        "Barnaby Jones",
+        "Jim Rockford"
       ],
-      "answer": "It's not from a film",
-      "explanation": "'Just one more thing...' is the signature phrase of Lieutenant Columbo from the TV series 'Columbo,' played by Peter Falk. Though Columbo has been adapted into TV movies, it originated as a TV series. The phrase is used by the seemingly scattered detective just before delivering his key insight.",
+      "answer": "Columbo",
+      "explanation": "'Just one more thing...' is the signature phrase of Lieutenant Columbo from the TV series Columbo, played by Peter Falk. The seemingly disheveled detective would pretend to leave, then turn back with one devastating final question that usually cracked the case.",
       "memory_hook": "Columbo's 'Just one more thing' — the question that always caught the killer."
     },
     {

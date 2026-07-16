@@ -1,0 +1,161 @@
+{
+  "date": "2026-08-24",
+  "questions": [
+    {
+      "category": "History",
+      "question": "Which ancient civilization built Chichen Itza, the stepped pyramid complex in Mexico's Yucatan Peninsula?",
+      "options": [
+        "Maya",
+        "Aztec",
+        "Olmec",
+        "Toltec"
+      ],
+      "answer": "Maya",
+      "explanation": "Chichen Itza was a major Maya city that flourished between 600-1200 AD. El Castillo pyramid creates a serpent shadow illusion during equinoxes — a feat of astronomical precision. It is one of the New Seven Wonders of the World.",
+      "memory_hook": "Chichen Itza = Maya. Serpent shadow appears twice a year on equinoxes."
+    },
+    {
+      "category": "Science",
+      "question": "What is the chemical formula for water?",
+      "options": [
+        "H2O",
+        "H2O2",
+        "HO2",
+        "H3O"
+      ],
+      "answer": "H2O",
+      "explanation": "Water is two hydrogen atoms bonded to one oxygen atom. Uniquely, water is less dense as a solid (ice) than as a liquid — which is why ice floats. It covers about 71% of Earth's surface.",
+      "memory_hook": "H2O = water. Ice floats because solid water is less dense than liquid."
+    },
+    {
+      "category": "Sports",
+      "question": "Which country leads all nations in Winter Olympic gold medals, with over 130 golds — remarkable for a country of only 5 million people?",
+      "options": [
+        "Norway",
+        "United States",
+        "Germany",
+        "Canada"
+      ],
+      "answer": "Norway",
+      "explanation": "Norway dominates Winter Olympics due to its deeply ingrained skiing culture. The word 'ski' comes from Old Norse. Norwegian athletes have excelled in cross-country skiing, biathlon, and ski jumping across generations.",
+      "memory_hook": "Norway = most Winter Olympic golds. 'Ski' is a Norwegian word."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Which 1972 Francis Ford Coppola film, based on a Mario Puzo novel about a crime family, won Best Picture and is often called the greatest film ever made?",
+      "options": [
+        "The Godfather",
+        "Goodfellas",
+        "Scarface",
+        "The French Connection"
+      ],
+      "answer": "The Godfather",
+      "explanation": "The Godfather (1972) starred Marlon Brando as Vito Corleone and launched Al Pacino's career. It won Best Picture, Best Actor, and Best Adapted Screenplay. Brando famously put cotton in his cheeks and rehearsed with a cat to shape the character. The Godfather Part II is one of the rare sequels to win Best Picture.",
+      "memory_hook": "The Godfather 1972: Coppola, Brando, Pacino. 'An offer you can't refuse.'"
+    },
+    {
+      "category": "Geography",
+      "question": "Which river is traditionally considered the longest in the world, flowing approximately 6,650 km northward through Africa into the Mediterranean Sea?",
+      "options": [
+        "Nile",
+        "Amazon",
+        "Yangtze",
+        "Congo"
+      ],
+      "answer": "Nile",
+      "explanation": "The Nile flows through 11 countries including Ethiopia, Sudan, and Egypt. Ancient Egyptian civilization developed along its banks, sustained by its annual floods. Some measurements suggest the Amazon may actually be longer, but the Nile is traditionally cited as #1.",
+      "memory_hook": "Nile = longest river. Flows north through Africa. Egyptian civilization depended on it."
+    },
+    {
+      "category": "History",
+      "question": "The French Revolution began with the storming of which Parisian fortress-prison on July 14, 1789?",
+      "options": [
+        "The Bastille",
+        "The Tuileries",
+        "The Conciergerie",
+        "Vincennes"
+      ],
+      "answer": "The Bastille",
+      "explanation": "The Bastille symbolized royal tyranny. Revolutionaries stormed it on July 14, 1789, freeing seven prisoners and seizing gunpowder. It was subsequently demolished. July 14 is now Bastille Day, France's national holiday.",
+      "memory_hook": "Bastille Day = July 14, 1789. French Revolution's symbolic start."
+    },
+    {
+      "category": "Pop Culture",
+      "question": "Which video game franchise, starring a mustachioed Italian plumber, is Nintendo's best-selling series with over 800 million copies sold?",
+      "options": [
+        "Super Mario",
+        "The Legend of Zelda",
+        "Pokemon",
+        "Metroid"
+      ],
+      "answer": "Super Mario",
+      "explanation": "Super Mario began in 1981 as 'Jumpman' in Donkey Kong. The character was named after Nintendo of America's warehouse landlord, Mario Segale. Super Mario Bros. (1985) was bundled with the NES and helped revive the North American video game market after the 1983 crash.",
+      "memory_hook": "Mario: originally 'Jumpman' in Donkey Kong (1981). Named after a real Italian landlord."
+    },
+    {
+      "category": "Science",
+      "question": "What is the process by which plants use sunlight, carbon dioxide, and water to produce glucose and release oxygen as a byproduct?",
+      "options": [
+        "Photosynthesis",
+        "Cellular respiration",
+        "Osmosis",
+        "Transpiration"
+      ],
+      "answer": "Photosynthesis",
+      "explanation": "Photosynthesis occurs in chloroplasts using chlorophyll to capture light. The equation: CO2 + H2O + light → glucose + O2. Approximately 70% of Earth's oxygen is produced not by trees but by marine phytoplankton.",
+      "memory_hook": "Photosynthesis: sunlight + CO2 + water → glucose + oxygen. 70% of O2 from ocean plankton."
+    },
+    {
+      "category": "Geography",
+      "question": "Which country, spread across more than 17,000 islands, is the world's largest archipelago nation?",
+      "options": [
+        "Indonesia",
+        "Philippines",
+        "Japan",
+        "Maldives"
+      ],
+      "answer": "Indonesia",
+      "explanation": "Indonesia spans from Sumatra to Papua — roughly the distance from London to Tehran. It is home to the world's fourth-largest population (275M+), the largest Muslim-majority country, and extraordinary biodiversity including orangutans, Komodo dragons, and over 17,000 plant species.",
+      "memory_hook": "Indonesia: 17,000+ islands, 275M people. World's largest archipelago."
+    },
+    {
+      "category": "History",
+      "question": "Julius Caesar made an irreversible move by crossing the Rubicon River with his army in 49 BC. Why was this act of war against Roman law?",
+      "options": [
+        "Generals were forbidden from bringing armies into Italy",
+        "The river marked the border with Gaul",
+        "It flooded Rome's water supply",
+        "The Senate had declared it sacred ground"
+      ],
+      "answer": "Generals were forbidden from bringing armies into Italy",
+      "explanation": "Roman law prohibited generals from commanding armies within Italy to prevent coups. By crossing the Rubicon with the 13th Legion, Caesar committed treason and civil war became inevitable. He reportedly said 'the die is cast' (alea iacta est) as he crossed.",
+      "memory_hook": "'Crossing the Rubicon' = point of no return. Caesar said 'the die is cast.'"
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Which Irish rock band, formed in Dublin in 1976 and fronted by Bono, has sold over 170 million records and completed the highest-grossing concert tour in history?",
+      "options": [
+        "U2",
+        "The Cranberries",
+        "Thin Lizzy",
+        "The Script"
+      ],
+      "answer": "U2",
+      "explanation": "U2's 360° Tour (2009-2011) grossed over $736 million — still the highest-grossing tour ever. Their 1987 album 'The Joshua Tree' debuted at #1 in 22 countries. The band has won 22 Grammy Awards, more than any other rock group.",
+      "memory_hook": "U2: Irish, formed 1976. 360° Tour = most money ever from a concert tour."
+    },
+    {
+      "category": "Sports",
+      "question": "In American football, what is the championship game played each year between the NFC and AFC conference champions?",
+      "options": [
+        "Super Bowl",
+        "Pro Bowl",
+        "Rose Bowl",
+        "Orange Bowl"
+      ],
+      "answer": "Super Bowl",
+      "explanation": "The Super Bowl has been played since January 1967, when the Green Bay Packers defeated the Kansas City Chiefs. It is the most-watched television event in the United States annually. The halftime show has become as culturally significant as the game itself.",
+      "memory_hook": "Super Bowl: NFL championship since 1967. Most-watched US TV event annually."
+    }
+  ]
+}

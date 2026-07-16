@@ -1,0 +1,161 @@
+{
+  "date": "2026-09-15",
+  "questions": [
+    {
+      "category": "History",
+      "question": "The Crusades (1096-1291) were military campaigns launched by European Christians with the primary goal of recapturing which city?",
+      "options": [
+        "Jerusalem",
+        "Constantinople",
+        "Alexandria",
+        "Damascus"
+      ],
+      "answer": "Jerusalem",
+      "explanation": "The First Crusade (1096-1099) successfully captured Jerusalem, establishing the Crusader states. Saladin (Salah ad-Din) retook Jerusalem in 1187, triggering the Third Crusade. The Crusades left complex legacies: cultural exchange (mathematics, medicine, philosophy), Christian-Muslim distrust, and accelerated the fall of Constantinople in 1453.",
+      "memory_hook": "Crusades: to capture Jerusalem. Saladin retook it 1187. Led to Third Crusade. 1099-1291 Crusader states."
+    },
+    {
+      "category": "Science",
+      "question": "What property of a wave determines its color (for light) or pitch (for sound)?",
+      "options": [
+        "Frequency",
+        "Amplitude",
+        "Wavelength",
+        "Speed"
+      ],
+      "answer": "Frequency",
+      "explanation": "Frequency (measured in Hertz) determines what we perceive: for light, higher frequency = blue/violet end of spectrum; for sound, higher frequency = higher pitch. Amplitude determines brightness (light) or loudness (sound). Wavelength and frequency are inversely related (f = v/λ) — as frequency increases, wavelength decreases.",
+      "memory_hook": "Frequency = pitch (sound) or color (light). Amplitude = loudness or brightness. Frequency × wavelength = speed."
+    },
+    {
+      "category": "Sports",
+      "question": "Which boxer, nicknamed 'Iron Mike,' became the youngest heavyweight champion in history at age 20 in 1986?",
+      "options": [
+        "Mike Tyson",
+        "Evander Holyfield",
+        "George Foreman",
+        "Larry Holmes"
+      ],
+      "answer": "Mike Tyson",
+      "explanation": "Mike Tyson defeated Trevor Berbick on November 22, 1986, at age 20 years and 4 months, becoming the youngest heavyweight champion ever. His peak years (1985-1989) featured 37 straight wins, 33 by knockout. He bit off a piece of Evander Holyfield's ear during their 1997 rematch. He was undefeated in his first 37 professional fights.",
+      "memory_hook": "Mike Tyson: youngest heavyweight champ at 20 (1986). 37-0 start. Bit Holyfield's ear (1997)."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Which Swedish pop group, consisting of Agnetha, Björn, Benny, and Anni-Frid, was the best-selling music act of the 1970s with hits like 'Dancing Queen' and 'Waterloo'?",
+      "options": [
+        "ABBA",
+        "Roxette",
+        "The Hives",
+        "Europe"
+      ],
+      "answer": "ABBA",
+      "explanation": "ABBA (the acronym of their first names) won Eurovision 1974 with 'Waterloo' and went on to become one of the best-selling music acts in history with over 150 million records sold. The band's music inspired the Mamma Mia! musical (1999) and two films. They reunited in 2021 with their album 'Voyage,' their first new music in 40 years.",
+      "memory_hook": "ABBA: Swedish quartet, won Eurovision 1974. 150M+ records. Mamma Mia is based on their music. Reunited 2021."
+    },
+    {
+      "category": "Geography",
+      "question": "Which country, located on the Arabian Peninsula, has the highest per capita income in the world largely due to its oil and natural gas reserves?",
+      "options": [
+        "Qatar",
+        "Saudi Arabia",
+        "UAE",
+        "Kuwait"
+      ],
+      "answer": "Qatar",
+      "explanation": "Qatar has one of the world's highest per capita GDPs ($80,000-$100,000+) due to its enormous natural gas reserves — the world's third-largest. Doha, Qatar hosted the 2022 FIFA World Cup — the first in the Middle East and the first in winter (November-December) due to extreme summer heat.",
+      "memory_hook": "Qatar: highest per capita income. World's 3rd largest natural gas reserves. Hosted 2022 World Cup in winter."
+    },
+    {
+      "category": "History",
+      "question": "Which explorer, setting out in 1492, was the first European to establish contact with the Americas, landing in the Caribbean islands?",
+      "options": [
+        "Christopher Columbus",
+        "Leif Erikson",
+        "John Cabot",
+        "Amerigo Vespucci"
+      ],
+      "answer": "Christopher Columbus",
+      "explanation": "Columbus sailed under Spanish patronage and reached the Bahamas on October 12, 1492. He made four voyages to the Americas, never realizing he had found a previously unknown continent. Leif Erikson reached North America around 1000 AD but left no lasting impact. The Americas are named after Amerigo Vespucci, who recognized it as a distinct continent.",
+      "memory_hook": "Columbus 1492: landed in Bahamas, Oct 12. Four voyages, never knew it was a new continent. Americas named for Vespucci."
+    },
+    {
+      "category": "Pop Culture",
+      "question": "Which smartphone, first announced by Steve Jobs in January 2007 and launched in June 2007, revolutionized the mobile phone industry?",
+      "options": [
+        "iPhone",
+        "BlackBerry Bold",
+        "Samsung Galaxy",
+        "Motorola RAZR"
+      ],
+      "answer": "iPhone",
+      "explanation": "Steve Jobs announced the iPhone at Macworld Conference on January 9, 2007, saying Apple was 'reinventing the phone.' It combined a phone, iPod, and internet communicator. The original iPhone had no app store (launched 2008), no 3G, and no copy-paste. Its all-touchscreen interface made hardware keyboards obsolete within years.",
+      "memory_hook": "iPhone: Jobs announced Jan 9, 2007. 'Reinventing the phone.' No app store until 2008. Killed hardware keyboards."
+    },
+    {
+      "category": "Science",
+      "question": "What is the name of the unit used to measure the loudness of sound, abbreviated dB?",
+      "options": [
+        "Decibel",
+        "Hertz",
+        "Pascal",
+        "Newton"
+      ],
+      "answer": "Decibel",
+      "explanation": "The decibel (dB) scale is logarithmic: each 10 dB increase represents a 10-fold increase in intensity. Normal conversation is about 60 dB; a rock concert around 115 dB; a jet engine 140 dB. The threshold of pain is around 130 dB. The scale is named after Alexander Graham Bell, inventor of the telephone.",
+      "memory_hook": "Decibel (dB): logarithmic. 10 dB = 10x louder. Named after Alexander Graham Bell. Jet engine = 140 dB."
+    },
+    {
+      "category": "Geography",
+      "question": "Which South American country has the world's largest salt flat, Salar de Uyuni, covering approximately 10,000 km² at high altitude?",
+      "options": [
+        "Bolivia",
+        "Chile",
+        "Argentina",
+        "Peru"
+      ],
+      "answer": "Bolivia",
+      "explanation": "The Salar de Uyuni in Bolivia is the world's largest salt flat at 3,656 meters above sea level. It was formed by prehistoric lakes drying up. After rain, a thin layer of water creates a perfect reflection of the sky — making it the world's largest natural mirror. Bolivia uses the Salar to extract lithium, essential for electric batteries.",
+      "memory_hook": "Salar de Uyuni, Bolivia: world's largest salt flat. Thin water layer = giant natural mirror. Rich in lithium for batteries."
+    },
+    {
+      "category": "History",
+      "question": "Which 1969 music festival, held on a dairy farm in upstate New York, became a defining cultural moment with performances by Jimi Hendrix, Janis Joplin, and The Who?",
+      "options": [
+        "Woodstock",
+        "Altamont",
+        "Isle of Wight",
+        "Monterey Pop"
+      ],
+      "answer": "Woodstock",
+      "explanation": "The Woodstock Music & Art Fair took place August 15-18, 1969, drawing approximately 400,000 attendees — three times the expected number. Roads were blocked for miles. Jimi Hendrix closed the festival on Monday morning, playing to about 30,000 remaining attendees. The 1969 Altamont concert (with the Rolling Stones) resulted in 4 deaths and is often seen as the dark end of the 1960s.",
+      "memory_hook": "Woodstock: Aug 15-18, 1969. 400,000 people. Hendrix closed it. Altamont same year was the dark version."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Which 1994 Disney animated film features the song 'Circle of Life' and follows a lion cub named Simba who must reclaim his kingdom?",
+      "options": [
+        "The Lion King",
+        "Bambi",
+        "The Jungle Book",
+        "Brother Bear"
+      ],
+      "answer": "The Lion King",
+      "explanation": "The Lion King (1994) is loosely based on Shakespeare's Hamlet. It grossed $986 million in its original release and $1.65 billion in its 2019 photorealistic remake. The Broadway musical adaptation has become the highest-grossing Broadway production of all time with over $1.7 billion in ticket sales.",
+      "memory_hook": "The Lion King 1994: based on Hamlet. $986M original. Broadway adaptation = highest-grossing show ever."
+    },
+    {
+      "category": "Sports",
+      "question": "Which country has won the most ICC Cricket World Cup titles (50-over format)?",
+      "options": [
+        "Australia",
+        "West Indies",
+        "India",
+        "England"
+      ],
+      "answer": "Australia",
+      "explanation": "Australia has won the Cricket World Cup 6 times (1987, 1999, 2003, 2007, 2015, 2023). The West Indies won the first two World Cups (1975, 1979) but hasn't won since. India won in 1983 and 2011. The 2023 World Cup final saw Australia defeat India in Ahmedabad — a stunning upset given India's unbeaten run through the tournament.",
+      "memory_hook": "Australia: 6 Cricket World Cups, most of any nation. West Indies: first 2 (1975, 1979). India: 2."
+    }
+  ]
+}

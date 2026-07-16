@@ -3,16 +3,16 @@
   "questions": [
     {
       "category": "History",
-      "question": "Which empire was ruled by Genghis Khan and became the largest contiguous land empire in history?",
+      "question": "The Byzantine Empire, which preserved Roman culture and law for over a thousand years after Rome's fall, finally collapsed in 1453 when which power conquered Constantinople?",
       "options": [
         "Ottoman Empire",
         "Mongol Empire",
-        "Roman Empire",
-        "Han Dynasty"
+        "Persian Empire",
+        "Venetian Republic"
       ],
-      "answer": "Mongol Empire",
-      "explanation": "The Mongol Empire, founded by Genghis Khan in 1206, stretched from the Pacific Ocean to Eastern Europe at its height — roughly 24 million square kilometers. It was held together by the Mongol postal relay system (yam), religious tolerance, and meritocracy. After Genghis died in 1227, his empire was divided among his sons but continued to expand.",
-      "memory_hook": "Mongol Empire = biggest land empire ever. Genghis Khan started with a collection of nomadic tribes and conquered most of the known world in one generation."
+      "answer": "Ottoman Empire",
+      "explanation": "The Byzantine Empire ended on May 29, 1453, when Ottoman Sultan Mehmed II captured Constantinople. The city was renamed Istanbul and became the Ottoman capital. The fall is often cited as the end of the Middle Ages and triggered a migration of scholars to western Europe that fueled the Renaissance.",
+      "memory_hook": "Byzantine Empire ended 1453 — Ottomans took Constantinople (now Istanbul)."
     },
     {
       "category": "History",
@@ -42,16 +42,16 @@
     },
     {
       "category": "History",
-      "question": "The Berlin Wall, which divided East and West Germany, fell in which year?",
+      "question": "Operation Overlord — the largest seaborne invasion in history — took place on June 6, 1944. By what name is this pivotal World War II event commonly known?",
       "options": [
-        "1985",
-        "1987",
-        "1989",
-        "1991"
+        "D-Day",
+        "Operation Barbarossa",
+        "Operation Market Garden",
+        "Battle of the Bulge"
       ],
-      "answer": "1989",
-      "explanation": "The Berlin Wall fell on November 9, 1989, after the East German government announced that citizens could cross the border freely. Crowds of East and West Germans tore the wall down with pickaxes and hammers. The wall had stood since 1961, built by the communist East German government to prevent citizens from fleeing to the West.",
-      "memory_hook": "Berlin Wall fell in 1989. Built in 1961 to keep people in, torn down 28 years later by the people it imprisoned. One of the most watched events in television history."
+      "answer": "D-Day",
+      "explanation": "D-Day (June 6, 1944) saw Allied forces land on five beaches in Normandy, France — code-named Utah, Omaha, Gold, Juno, and Sword. Over 156,000 troops crossed the English Channel. The invasion opened a Western Front that accelerated Nazi Germany's defeat.",
+      "memory_hook": "D-Day = June 6, 1944, Normandy beaches. Five beaches, 156,000 troops."
     },
     {
       "category": "Sports",
@@ -107,16 +107,16 @@
     },
     {
       "category": "Music/Movies",
-      "question": "Which rock band released 'Bohemian Rhapsody' in 1975?",
+      "question": "David Bowie performed under a flamboyant alien rock star alter ego from 1972 to 1973, retiring the character dramatically mid-tour. What was this persona called?",
       "options": [
-        "Led Zeppelin",
-        "The Rolling Stones",
-        "Queen",
-        "Aerosmith"
+        "Ziggy Stardust",
+        "Aladdin Sane",
+        "Thin White Duke",
+        "Major Tom"
       ],
-      "answer": "Queen",
-      "explanation": "'Bohemian Rhapsody' was written by Freddie Mercury and released by Queen in 1975. At nearly 6 minutes long with no chorus, it defied all pop conventions and became one of the best-selling singles of all time. It has been called the greatest rock song ever written. It charted again decades later after being featured in the 1992 film Wayne's World.",
-      "memory_hook": "'Bohemian Rhapsody' = Queen, 1975. No chorus, opera section, hard rock, piano ballad — all in one song. Radio stations said it was too long to play. They were wrong."
+      "answer": "Ziggy Stardust",
+      "explanation": "Ziggy Stardust was David Bowie's androgynous alien rock star persona, introduced on the 1972 album 'The Rise and Fall of Ziggy Stardust and the Spiders from Mars.' Bowie famously 'killed' Ziggy Stardust mid-concert at the Hammersmith Odeon in 1973, shocking his band, who didn't know in advance.",
+      "memory_hook": "Ziggy Stardust = Bowie's alien persona, 1972-73. He killed it onstage without warning."
     },
     {
       "category": "Music/Movies",

@@ -16,16 +16,16 @@
     },
     {
       "category": "History",
-      "question": "The Chinese leader who led the Communist revolution in 1949, establishing the People's Republic of China, was:",
+      "question": "Which Vietnamese revolutionary leader, known affectionately as 'Uncle Ho,' led the independence movement against French colonial rule and guided North Vietnam during the Vietnam War?",
       "options": [
-        "Deng Xiaoping",
-        "Zhou Enlai",
-        "Sun Yat-sen",
-        "Mao Zedong"
+        "Ho Chi Minh",
+        "Vo Nguyen Giap",
+        "Ngo Dinh Diem",
+        "Pol Pot"
       ],
-      "answer": "Mao Zedong",
-      "explanation": "Mao Zedong proclaimed the founding of the People's Republic of China on October 1, 1949, after the Communist Party defeated the Nationalist government of Chiang Kai-shek in the Chinese Civil War. Mao ruled China until his death in 1976. His policies, including the Great Leap Forward and the Cultural Revolution, led to the deaths of tens of millions of people.",
-      "memory_hook": "Mao Zedong = founded Communist China, 1949. October 1, 1949 is China's National Day. His policies caused the greatest famine in human history — 15-55 million dead during the Great Leap Forward (1958-62). His face still appears on Chinese currency."
+      "answer": "Ho Chi Minh",
+      "explanation": "Ho Chi Minh (1890-1969) founded the Viet Minh independence movement and led North Vietnam from 1945 until his death. He defeated the French at Dien Bien Phu in 1954 and directed the North Vietnamese war effort against the U.S. South Vietnam's capital, Saigon, was renamed Ho Chi Minh City after North Vietnam's victory in 1975.",
+      "memory_hook": "Ho Chi Minh = 'Uncle Ho.' Vietnam's independence leader. Saigon renamed after him."
     },
     {
       "category": "History",
@@ -42,16 +42,16 @@
     },
     {
       "category": "History",
-      "question": "Which explorer circumnavigated the globe for the first time, completing the journey in 1522 (though he died before it finished)?",
+      "question": "Which Venetian merchant, who traveled to the court of Kublai Khan in China in the 13th century, wrote a famous account of his journey that inspired later European explorers?",
       "options": [
-        "Vasco da Gama",
-        "Christopher Columbus",
-        "Francis Drake",
-        "Ferdinand Magellan"
+        "Marco Polo",
+        "Ibn Battuta",
+        "Niccolò Polo",
+        "Giovanni da Pian del Carpine"
       ],
-      "answer": "Ferdinand Magellan",
-      "explanation": "Ferdinand Magellan led the first circumnavigation of the globe but was killed in the Philippines in April 1521. His crew, led by Juan Sebastian Elcano, completed the voyage and returned to Spain in September 1522. Of the 270 men who set out in 5 ships, only 18 returned in 1 ship. Magellan proved the Earth was round and far larger than anyone had imagined.",
-      "memory_hook": "Magellan = first circumnavigation but died partway. 5 ships left, 1 returned. 270 men left, 18 returned. He proved the Earth was round and enormous. The Strait of Magellan at the tip of South America is named for him."
+      "answer": "Marco Polo",
+      "explanation": "Marco Polo (1254-1324) traveled from Venice to China along the Silk Road, spending 17 years at the court of Mongol ruler Kublai Khan. His book 'The Travels of Marco Polo,' dictated while he was imprisoned in Genoa, introduced Europeans to the wealth and cultures of Asia and is said to have inspired Christopher Columbus.",
+      "memory_hook": "Marco Polo: Venice → China → Kublai Khan. His book inspired Columbus."
     },
     {
       "category": "Sports",
@@ -68,16 +68,16 @@
     },
     {
       "category": "Sports",
-      "question": "In which sport do teams use a puck instead of a ball?",
+      "question": "In ice hockey, what penalty is called when a defending player shoots the puck from behind the center red line all the way down past the opponent's goal line without another player touching it?",
       "options": [
-        "Field Hockey",
-        "Lacrosse",
-        "Water Polo",
-        "Ice Hockey"
+        "Icing",
+        "Offside",
+        "High-sticking",
+        "Delay of game"
       ],
-      "answer": "Ice Hockey",
-      "explanation": "Ice hockey uses a vulcanized rubber disc called a puck instead of a ball. The puck is 3 inches in diameter, 1 inch thick, and weighs between 5.5 and 6 ounces. NHL pucks are frozen before games to reduce bouncing on the ice surface. A slap shot can launch the puck at speeds over 100 mph.",
-      "memory_hook": "Ice hockey = puck. Hard rubber disc, frozen before games to reduce bounce. 100 mph slap shots. The NHL puck gets frozen because at room temperature it bounces unpredictably on the ice. Small detail, huge impact on the game."
+      "answer": "Icing",
+      "explanation": "Icing in ice hockey occurs when a player shoots the puck from their own half of the rink and it crosses the opponent's goal line without being touched. Play stops and the face-off returns to the offending team's defensive zone. Icing is not called if the team is shorthanded due to a penalty.",
+      "memory_hook": "Icing = shooting puck the length of the ice. Face-off comes back deep."
     },
     {
       "category": "Sports",

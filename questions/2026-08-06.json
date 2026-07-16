@@ -3,16 +3,16 @@
   "questions": [
     {
       "category": "History",
-      "question": "What was the name of the ship that carried the Pilgrims to America in 1620?",
+      "question": "The RMS Titanic sank on April 15, 1912, killing over 1,500 people. From which English port city did the ship depart on its maiden voyage?",
       "options": [
-        "Santa Maria",
-        "Endeavour",
-        "Mayflower",
-        "Pinta"
+        "Southampton",
+        "Liverpool",
+        "Portsmouth",
+        "Plymouth"
       ],
-      "answer": "Mayflower",
-      "explanation": "The Mayflower sailed from Plymouth, England, in September 1620 with 102 passengers — known as the Pilgrims — seeking religious freedom in America. After a 66-day voyage across the Atlantic, they landed near present-day Plymouth, Massachusetts. Before disembarking, they signed the Mayflower Compact, one of the earliest examples of self-governance in North America.",
-      "memory_hook": "Mayflower = Pilgrims, 1620. 66 days at sea, 102 passengers. The Mayflower Compact they signed on board was basically America's first constitution — written before they even got off the ship."
+      "answer": "Southampton",
+      "explanation": "The Titanic departed from Southampton, England on April 10, 1912, on its maiden voyage to New York City. It stopped at Cherbourg, France and Queenstown (now Cobh), Ireland before heading into the North Atlantic, where it struck an iceberg and sank in under three hours.",
+      "memory_hook": "Titanic departed Southampton, April 10, 1912. Sank April 15."
     },
     {
       "category": "History",
@@ -42,16 +42,16 @@
     },
     {
       "category": "History",
-      "question": "Which country conducted the Manhattan Project, creating the first nuclear weapons during World War II?",
+      "question": "The Manhattan Project's primary weapons design laboratory, code-named 'Site Y,' was secretly built in which U.S. state — where the first atomic bomb was designed and assembled?",
       "options": [
-        "Germany",
-        "Soviet Union",
-        "Britain",
-        "United States"
+        "New Mexico",
+        "Nevada",
+        "Tennessee",
+        "Arizona"
       ],
-      "answer": "United States",
-      "explanation": "The Manhattan Project was a secret US research program (1942-1946) that produced the first nuclear weapons. Led by J. Robert Oppenheimer and conducted at sites including Los Alamos, New Mexico, and Oak Ridge, Tennessee, it involved over 130,000 people. The first test (Trinity) occurred July 16, 1945. The bombs dropped on Hiroshima and Nagasaki weeks later ended World War II.",
-      "memory_hook": "Manhattan Project = US, WWII. Oppenheimer led it. When the first bomb was tested in New Mexico, he thought of the Bhagavad Gita: 'Now I am become Death, the destroyer of worlds.' Three weeks later they used it."
+      "answer": "New Mexico",
+      "explanation": "Los Alamos National Laboratory in New Mexico, code-named 'Site Y,' was chosen by J. Robert Oppenheimer for its remote location. The first atomic bomb was tested at Trinity Site, also in New Mexico, on July 16, 1945. The site was so secret that employees' mail was censored and children born there had only a P.O. box listed as their birthplace.",
+      "memory_hook": "Los Alamos = New Mexico. Site Y. Oppenheimer's lab. First bomb tested July 16, 1945."
     },
     {
       "category": "Sports",

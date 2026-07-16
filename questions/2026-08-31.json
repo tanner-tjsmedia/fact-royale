@@ -1,0 +1,161 @@
+{
+  "date": "2026-08-31",
+  "questions": [
+    {
+      "category": "History",
+      "question": "Which ancient Egyptian queen, known for her political alliances with Julius Caesar and Mark Antony, ruled Egypt from 51 BC until her death in 30 BC?",
+      "options": [
+        "Cleopatra VII",
+        "Nefertiti",
+        "Hatshepsut",
+        "Nefertari"
+      ],
+      "answer": "Cleopatra VII",
+      "explanation": "Cleopatra VII was the last active ruler of the Ptolemaic Kingdom. She was actually of Greek Macedonian heritage, not Egyptian. She was also the first Ptolemaic ruler to speak Egyptian. Her suicide by asp bite (though the method is disputed) followed Mark Antony's death and Egypt's conquest by Rome.",
+      "memory_hook": "Cleopatra: last Ptolemaic ruler, Greek not Egyptian. Suicide by asp bite, 30 BC."
+    },
+    {
+      "category": "Science",
+      "question": "What is the name of the layer of Earth's atmosphere that absorbs most of the Sun's harmful ultraviolet radiation?",
+      "options": [
+        "Ozone layer",
+        "Thermosphere",
+        "Troposphere",
+        "Magnetosphere"
+      ],
+      "answer": "Ozone layer",
+      "explanation": "The ozone layer sits in the stratosphere, 15-35 km above Earth. Ozone (O3) absorbs 97-99% of UV-B and UV-C radiation. CFCs (chlorofluorocarbons) from refrigerants and aerosols were destroying the ozone layer — the 1987 Montreal Protocol phased them out and the ozone layer is slowly recovering.",
+      "memory_hook": "Ozone layer: stratosphere, blocks UV. CFCs destroyed it. Montreal Protocol 1987 helped."
+    },
+    {
+      "category": "Sports",
+      "question": "In rugby union, how many points is a try worth?",
+      "options": [
+        "5",
+        "3",
+        "7",
+        "4"
+      ],
+      "answer": "5",
+      "explanation": "A try is worth 5 points in rugby union. After scoring a try, the team gets a conversion kick worth 2 points (if successful). A penalty kick is worth 3 points and a drop goal is worth 3 points. In rugby league, a try is worth 4 points.",
+      "memory_hook": "Rugby union: try = 5 pts, conversion = 2 pts, penalty = 3 pts, drop goal = 3 pts."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Which Austrian-born composer, described as a prodigy who began composing at age 5, wrote over 600 works including symphonies, operas, and chamber music before dying at age 35?",
+      "options": [
+        "Wolfgang Amadeus Mozart",
+        "Franz Schubert",
+        "Joseph Haydn",
+        "Ludwig van Beethoven"
+      ],
+      "answer": "Wolfgang Amadeus Mozart",
+      "explanation": "Mozart (1756-1791) composed his first minuet at age 5, his first symphony at 8, and his first opera at 12. He composed 41 symphonies, 27 piano concertos, and 22 operas including Don Giovanni and The Magic Flute. He died at 35 of an unknown illness — possibly rheumatic fever.",
+      "memory_hook": "Mozart: composed at 5, symphony at 8, opera at 12. 600+ works. Dead at 35."
+    },
+    {
+      "category": "Geography",
+      "question": "Which African country, with Cairo as its capital, is the most populous in Africa and in the Arab world?",
+      "options": [
+        "Egypt",
+        "Nigeria",
+        "Ethiopia",
+        "Tanzania"
+      ],
+      "answer": "Egypt",
+      "explanation": "Egypt has approximately 105 million people, making it Africa's most populous Arab country. However, Nigeria (220M+) is actually Africa's most populous country overall. Egypt's population is concentrated along the Nile River and its delta — the rest of the country is mostly desert.",
+      "memory_hook": "Egypt: most populous Arab country, 105M. Nigeria (220M) is Africa's most populous overall."
+    },
+    {
+      "category": "History",
+      "question": "The construction of the Suez Canal, completed in 1869, dramatically shortened the sea route between Europe and Asia by eliminating the need to sail around which landmass?",
+      "options": [
+        "Africa",
+        "Arabia",
+        "India",
+        "Australia"
+      ],
+      "answer": "Africa",
+      "explanation": "Before the Suez Canal, ships had to sail around the Cape of Good Hope at Africa's southern tip, adding approximately 7,000 km to the journey from London to Mumbai. The canal, 193 km long, connects the Mediterranean to the Red Sea. Egypt nationalized it in 1956, triggering the Suez Crisis.",
+      "memory_hook": "Suez Canal 1869: saved 7,000 km by not going around Africa. Nationalized by Nasser 1956."
+    },
+    {
+      "category": "Pop Culture",
+      "question": "Which streaming music platform, founded in Sweden in 2006 and launched in 2008, has the largest market share in music streaming worldwide?",
+      "options": [
+        "Spotify",
+        "Apple Music",
+        "Amazon Music",
+        "Tidal"
+      ],
+      "answer": "Spotify",
+      "explanation": "Spotify was founded by Daniel Ek and Martin Lorentzon in Stockholm. It has over 600 million users and 240 million paid subscribers as of 2024 — roughly double Apple Music's subscriber base. It revolutionized the music industry by making streaming the dominant mode of music consumption.",
+      "memory_hook": "Spotify: Swedish, founded 2006. 600M users, 240M paid. Created by Daniel Ek."
+    },
+    {
+      "category": "Science",
+      "question": "What is the name of the bond formed when atoms share electrons, which is common in molecules like H2O and CO2?",
+      "options": [
+        "Covalent bond",
+        "Ionic bond",
+        "Hydrogen bond",
+        "Metallic bond"
+      ],
+      "answer": "Covalent bond",
+      "explanation": "Covalent bonds involve sharing electron pairs between atoms. Water (H2O) has polar covalent bonds where oxygen pulls electrons more strongly. CO2 has nonpolar covalent bonds. Ionic bonds involve electron transfer (like NaCl). Hydrogen bonds are weak attractions between molecules — also crucial in water and DNA.",
+      "memory_hook": "Covalent bond = sharing electrons. H2O, CO2. Ionic bond = electron transfer (like salt)."
+    },
+    {
+      "category": "Geography",
+      "question": "Which country, home to the Serengeti and Mount Kilimanjaro, has the most UNESCO World Heritage Sites in sub-Saharan Africa?",
+      "options": [
+        "Tanzania",
+        "Kenya",
+        "South Africa",
+        "Ethiopia"
+      ],
+      "answer": "Tanzania",
+      "explanation": "Tanzania has seven UNESCO World Heritage Sites, more than any other sub-Saharan African nation. These include Kilimanjaro National Park, Serengeti National Park, the Ngorongoro Conservation Area, and Zanzibar's Stone Town. The Serengeti hosts the world's largest terrestrial mammal migration — over 1.5 million wildebeest annually.",
+      "memory_hook": "Tanzania: most UNESCO sites in sub-Saharan Africa. Serengeti = world's largest land migration."
+    },
+    {
+      "category": "History",
+      "question": "Which Chinese dynasty built the first version of the Great Wall, standardized writing and currency, and connected China under a single empire in 221 BC?",
+      "options": [
+        "Qin Dynasty",
+        "Han Dynasty",
+        "Ming Dynasty",
+        "Tang Dynasty"
+      ],
+      "answer": "Qin Dynasty",
+      "explanation": "The Qin Dynasty (221-206 BC), under Emperor Qin Shi Huang, unified China for the first time. It standardized writing, weights, measures, and coinage. Qin Shi Huang's terracotta army — 8,000 soldiers buried to protect him in the afterlife — was discovered in 1974. The word 'China' derives from 'Qin.'",
+      "memory_hook": "Qin Dynasty 221 BC: first unified China. Terracotta army. 'China' comes from 'Qin.'"
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Which 1997 James Cameron film, then the highest-grossing movie ever made, starred Leonardo DiCaprio and Kate Winslet and won 11 Academy Awards?",
+      "options": [
+        "Titanic",
+        "The Departed",
+        "Braveheart",
+        "Schindler's List"
+      ],
+      "answer": "Titanic",
+      "explanation": "Titanic (1997) cost $200 million to make — then the most expensive film ever. It grossed $2.2 billion, becoming the first film to reach $1 billion. It held the record for most Oscar wins (11, tying Ben-Hur) and highest-grossing film for 12 years until Avatar (also Cameron) surpassed it in 2010.",
+      "memory_hook": "Titanic 1997: Cameron, $200M budget, $2.2B gross. 11 Oscars. DiCaprio and Winslet."
+    },
+    {
+      "category": "Sports",
+      "question": "Which country won the most medals at the 2020 Tokyo Summer Olympics (held in 2021)?",
+      "options": [
+        "United States",
+        "China",
+        "Great Britain",
+        "Japan"
+      ],
+      "answer": "United States",
+      "explanation": "The United States topped the medal table at Tokyo 2020 with 113 total medals (39 gold, 41 silver, 33 bronze). China led in gold medals with 38 but came second in total medals. The Games were delayed a year due to the COVID-19 pandemic.",
+      "memory_hook": "Tokyo 2020 (held 2021): USA most total medals (113). China led in gold (38). Delayed by COVID."
+    }
+  ]
+}

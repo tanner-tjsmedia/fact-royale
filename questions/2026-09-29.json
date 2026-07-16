@@ -1,0 +1,161 @@
+{
+  "date": "2026-09-29",
+  "questions": [
+    {
+      "category": "History",
+      "question": "The Voting Rights Act of 1965 banned literacy tests after what event catalyzed its passage?",
+      "options": [
+        "'Bloody Sunday' — state troopers attacked marchers on the Edmund Pettus Bridge in Selma, Alabama",
+        "The assassination of Martin Luther King Jr.",
+        "The March on Washington (1963)",
+        "The Montgomery Bus Boycott (1955-56)"
+      ],
+      "answer": "'Bloody Sunday' — state troopers attacked marchers on the Edmund Pettus Bridge in Selma, Alabama",
+      "explanation": "On March 7, 1965, peaceful marchers were attacked by state troopers in what became known as 'Bloody Sunday.' The televised brutality accelerated the Voting Rights Act's passage, signed by LBJ on August 6, 1965.",
+      "memory_hook": "Voting Rights Act 1965: 'Bloody Sunday' in Selma (Edmund Pettus Bridge) forced LBJ's hand. Banned literacy tests."
+    },
+    {
+      "category": "Science",
+      "question": "What is superconductivity and where is it used today?",
+      "options": [
+        "Zero electrical resistance at very low temperatures; used in MRI machine magnets",
+        "Extremely fast electrical conduction at room temperature; used in computer chips",
+        "Zero electrical resistance at high temperatures; used in power grids",
+        "Infinite electrical conductivity at any temperature; used in smartphones"
+      ],
+      "answer": "Zero electrical resistance at very low temperatures; used in MRI machine magnets",
+      "explanation": "Superconductivity (discovered 1911 by Kamerlingh Onnes) allows current to flow without resistance when cooled below a critical temperature. MRI machines use superconducting magnets cooled with liquid helium.",
+      "memory_hook": "Superconductivity: zero resistance at very low temps. MRI machines use it. Discovered 1911. Room-temp version = holy grail."
+    },
+    {
+      "category": "Sports",
+      "question": "What does ERA stand for in baseball and what is Bob Gibson's famous 1968 record?",
+      "options": [
+        "Earned Run Average; Gibson's 1968 ERA was 1.12 — the modern record",
+        "Error Rate Allowed; Gibson had 0.89",
+        "Expected Runs Average; Gibson had 2.01",
+        "Earned Run Average; Gibson's record was 0.89"
+      ],
+      "answer": "Earned Run Average; Gibson's 1968 ERA was 1.12 — the modern record",
+      "explanation": "ERA = earned runs allowed per 9 innings pitched. Bob Gibson's 1.12 ERA in 1968 is the lowest in the modern era (post-1920). Sub-3.00 is considered excellent. ERA doesn't count runs scored due to fielding errors.",
+      "memory_hook": "ERA = earned runs per 9 innings. Gibson 1968: 1.12 ERA = modern record. Sub-3.00 = excellent."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Led Zeppelin IV (1971) has no title or artist name on the cover. What is 'Stairway to Heaven' famous for in radio history?",
+      "options": [
+        "Most-requested song in rock radio history; still on rotation 50+ years later",
+        "First rock song to be banned by the BBC",
+        "First rock song to exceed 8 minutes and get commercial airplay",
+        "Most-played song on vinyl in US radio history (specific turntable record)"
+      ],
+      "answer": "Most-requested song in rock radio history; still on rotation 50+ years later",
+      "explanation": "Led Zeppelin IV (1971) has only four symbols representing each member on its cover. 'Stairway to Heaven' is the most-requested song in rock radio history. The band refused to release UK singles, insisting on the album as the art form.",
+      "memory_hook": "Led Zeppelin IV: no title on cover. 'Stairway' = most-requested rock radio song ever. No UK singles released."
+    },
+    {
+      "category": "Geography",
+      "question": "Hawaii became the 50th US state on what date, and on which island is Pearl Harbor located?",
+      "options": [
+        "August 21, 1959; Pearl Harbor is on O'ahu",
+        "March 18, 1959; Pearl Harbor is on Maui",
+        "August 21, 1959; Pearl Harbor is on the Big Island",
+        "July 4, 1959; Pearl Harbor is on O'ahu"
+      ],
+      "answer": "August 21, 1959; Pearl Harbor is on O'ahu",
+      "explanation": "Hawaii became the 50th (and final) state on August 21, 1959. Pearl Harbor is a natural harbor on the island of O'ahu, attacked by Japan on December 7, 1941. Hawaii is the only US state entirely made of islands.",
+      "memory_hook": "Hawaii: 50th state Aug 21, 1959. Pearl Harbor on O'ahu. Only US state made entirely of islands."
+    },
+    {
+      "category": "History",
+      "question": "The Kellogg-Briand Pact (1928) banned war. Is it technically still in force today?",
+      "options": [
+        "Yes — and was used as legal basis in post-WWII war crimes trials",
+        "No — it was repealed after WWII",
+        "It was superseded by the UN Charter in 1945",
+        "It was never ratified by enough countries to be effective"
+      ],
+      "answer": "Yes — and was used as legal basis in post-WWII war crimes trials",
+      "explanation": "The Kellogg-Briand Pact (1928), signed by 62 nations, is technically still in force. Despite being ignored in practice, it was cited at Nuremberg as legal basis for prosecuting aggressive war crimes. Both Kellogg and Briand won Nobel Peace Prizes.",
+      "memory_hook": "Kellogg-Briand Pact 1928: banned war, still technically in force. Used at Nuremberg. Both authors won Nobel Prizes."
+    },
+    {
+      "category": "Pop Culture",
+      "question": "What does 'googol' mean and how did it inspire Google's name?",
+      "options": [
+        "Googol = 10^100 (1 followed by 100 zeros); Google was a deliberate misspelling suggesting vast scale",
+        "Googol is a made-up word with no mathematical meaning",
+        "Google was named after Larry Page's childhood nickname 'Google'",
+        "Googol = 10 to the power of 10, chosen for representing the 10 most important websites"
+      ],
+      "answer": "Googol = 10^100 (1 followed by 100 zeros); Google was a deliberate misspelling suggesting vast scale",
+      "explanation": "Larry Page and Sergey Brin named their search engine for a 'googol' — 10^100 — to suggest the vast amount of information they would organize. The misspelling 'Google' was retained. The company handles ~8.5 billion searches daily.",
+      "memory_hook": "Google: named after googol (10^100). Misspelled version stuck. 8.5 billion searches/day. 90% global search market."
+    },
+    {
+      "category": "Science",
+      "question": "The Second Law of Thermodynamics says entropy always increases in a closed system. What practical examples illustrate this?",
+      "options": [
+        "You can't unscramble an egg or unmix cream in coffee without adding energy",
+        "Heat naturally flows from cold to hot objects",
+        "All chemical reactions are reversible",
+        "Energy is created when matter breaks down"
+      ],
+      "answer": "You can't unscramble an egg or unmix cream in coffee without adding energy",
+      "explanation": "Entropy (disorder) always increases in closed systems. You can't undo mixing or scrambling without adding energy. Living organisms maintain low internal entropy by importing energy from outside (eating food) — making them thermodynamically 'open systems.'",
+      "memory_hook": "Entropy always increases: can't unscramble an egg. Living things fight entropy by eating (taking in energy from outside)."
+    },
+    {
+      "category": "Geography",
+      "question": "South Korea transformed from a war-devastated nation in 1950 to a G20 economy. What unique writing system did it develop in 1443?",
+      "options": [
+        "Hangul — an artificially designed alphabet created by King Sejong the Great",
+        "Hanja — characters borrowed from Chinese",
+        "Katakana — a Korean adoption of Japanese script",
+        "Seoul Script — designed by scholars in the 14th century"
+      ],
+      "answer": "Hangul — an artificially designed alphabet created by King Sejong the Great",
+      "explanation": "King Sejong the Great invented Hangul in 1443 — unusually for a writing system, it was deliberately designed as a scientific alphabet. South Korea also consistently leads in internet speeds and is a global force in gaming, K-pop, and semiconductors.",
+      "memory_hook": "Hangul: invented 1443 by King Sejong. Deliberately designed alphabet — rare in writing system history. South Korea = fastest internet."
+    },
+    {
+      "category": "History",
+      "question": "Srinivasa Ramanujan, the self-taught Indian mathematical genius, what is his famous 'taxicab number' and why?",
+      "options": [
+        "1729 — the smallest number expressible as a sum of two cubes in two different ways",
+        "42 — the answer to life, the universe, and everything in his formulas",
+        "1728 — the cube of 12, which appeared in his infinite series",
+        "3.14159 — his pi approximation was uniquely close"
+      ],
+      "answer": "1729 — the smallest number expressible as a sum of two cubes in two different ways",
+      "explanation": "When Hardy visited Ramanujan in hospital in a taxi numbered 1729, Hardy said it seemed like a dull number. Ramanujan instantly replied it was interesting: 1729 = 1³ + 12³ = 9³ + 10³. Hardy ranked Ramanujan with Euler and Gauss. Ramanujan died at 32.",
+      "memory_hook": "Ramanujan taxicab number: 1729 = 1³+12³ = 9³+10³. Hardy said 'dull'; Ramanujan instantly saw the pattern. Died at 32."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Pink Floyd's 'The Dark Side of the Moon' (1973) spent how many weeks on the Billboard album chart?",
+      "options": [
+        "741 weeks (over 14 years) — the longest ever",
+        "200 weeks",
+        "52 weeks",
+        "1,000 weeks"
+      ],
+      "answer": "741 weeks (over 14 years) — the longest ever",
+      "explanation": "The Dark Side of the Moon spent 741 weeks on the Billboard album chart — the longest ever. It has sold over 45 million copies. The prism cover design by Storm Thorgerson is one of the most recognized in rock history.",
+      "memory_hook": "Dark Side of the Moon: 741 weeks on Billboard chart — longest ever. 45M copies. Prism cover by Storm Thorgerson."
+    },
+    {
+      "category": "Sports",
+      "question": "What is the shot put, and who holds the men's world record?",
+      "options": [
+        "Throwing a heavy metal ball; Ryan Crouser (USA) with 23.37m in 2021",
+        "Throwing a discus; Bob Beamon with 70.62m in 1968",
+        "Throwing a hammer; Yuriy Syedikh with 86.74m in 1986",
+        "Pushing a bowling ball; no official world record exists"
+      ],
+      "answer": "Throwing a heavy metal ball; Ryan Crouser (USA) with 23.37m in 2021",
+      "explanation": "The shot put involves 'putting' (pushing from the shoulder) a heavy metal ball: 7.26 kg for men, 4 kg for women. Ryan Crouser set the world record at 23.37m in 2021. The throw is from a 2.135 m circle.",
+      "memory_hook": "Shot put: 7.26 kg men, 4 kg women. 'Put' not 'throw.' Ryan Crouser: 23.37m world record (2021)."
+    }
+  ]
+}

@@ -1,0 +1,161 @@
+{
+  "date": "2026-09-12",
+  "questions": [
+    {
+      "category": "History",
+      "question": "Which ancient city, once the capital of the Persian Empire and sacked by Alexander the Great in 330 BC, is now located in modern-day Iran?",
+      "options": [
+        "Persepolis",
+        "Babylon",
+        "Carthage",
+        "Nineveh"
+      ],
+      "answer": "Persepolis",
+      "explanation": "Persepolis (literally 'city of the Persians') was the ceremonial capital of the Achaemenid Persian Empire. Alexander burned it in 330 BC — possibly in revenge for Xerxes burning Athens in 480 BC, or in a drunken party. Its ruins, near modern Shiraz, Iran, are a UNESCO World Heritage Site with remarkable bas-relief carvings.",
+      "memory_hook": "Persepolis: Persian capital burned by Alexander 330 BC. In modern Iran. UNESCO site with bas-reliefs."
+    },
+    {
+      "category": "Science",
+      "question": "What is the name of the particle accelerator near Geneva, Switzerland, that discovered the Higgs boson in 2012?",
+      "options": [
+        "Large Hadron Collider (LHC)",
+        "CERN Synchrotron",
+        "Fermilab Tevatron",
+        "SLAC National Accelerator"
+      ],
+      "answer": "Large Hadron Collider (LHC)",
+      "explanation": "The Large Hadron Collider at CERN (Switzerland/France border) is the world's largest and most powerful particle accelerator. It collides protons at nearly the speed of light in a 27 km circular tunnel. The Higgs boson — the particle that gives other particles mass — was discovered on July 4, 2012, filling the last gap in the Standard Model.",
+      "memory_hook": "LHC at CERN: 27 km tunnel. Found Higgs boson July 4, 2012. Last piece of the Standard Model."
+    },
+    {
+      "category": "Sports",
+      "question": "Which country has won the most men's Olympic gold medals in table tennis (ping pong) in history?",
+      "options": [
+        "China",
+        "South Korea",
+        "Japan",
+        "Sweden"
+      ],
+      "answer": "China",
+      "explanation": "China has been dominant in Olympic table tennis since the sport was introduced in 1988. Chinese players have won approximately 60% of all Olympic gold medals in table tennis across all events. The country has a vast development system for the sport, with millions of registered players.",
+      "memory_hook": "China: dominant in Olympic table tennis. ~60% of all gold medals since 1988."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Which filmmaker's 1941 debut 'Citizen Kane,' loosely based on William Randolph Hearst, is consistently ranked the greatest film of all time in critics' polls?",
+      "options": [
+        "Orson Welles",
+        "John Ford",
+        "Howard Hawks",
+        "Frank Capra"
+      ],
+      "answer": "Orson Welles",
+      "explanation": "Orson Welles made Citizen Kane at age 25 with unprecedented creative control. The film pioneered techniques including deep focus photography (where both foreground and background are sharp), nonlinear narrative, and innovative use of sound. Despite being considered the greatest film ever, it was a box office flop in 1941.",
+      "memory_hook": "Citizen Kane 1941: Orson Welles, age 25. Deep focus, nonlinear story. Box office flop → rated greatest ever."
+    },
+    {
+      "category": "Geography",
+      "question": "Which Southeast Asian country has the world's longest underground river, Puerto Princesa, which flows through a cave system in Palawan?",
+      "options": [
+        "Philippines",
+        "Vietnam",
+        "Thailand",
+        "Malaysia"
+      ],
+      "answer": "Philippines",
+      "explanation": "The Puerto Princesa Underground River in Palawan, Philippines, is approximately 8.2 km long — the world's longest navigable underground river. It flows directly into the South China Sea and contains various cave chambers with rock formations. It was declared a UNESCO World Heritage Site and one of the New Seven Wonders of Nature.",
+      "memory_hook": "Philippines: world's longest underground river (Puerto Princesa, 8.2 km). Flows directly to the sea."
+    },
+    {
+      "category": "History",
+      "question": "The Battle of Midway (June 1942) is considered the turning point of the Pacific War in World War II. Who won?",
+      "options": [
+        "United States",
+        "Japan",
+        "Australia",
+        "Britain"
+      ],
+      "answer": "United States",
+      "explanation": "At Midway, the U.S. Navy sank four Japanese aircraft carriers in a single day — turning the tide of the Pacific War. American codebreakers had cracked Japanese codes, allowing the U.S. to know Japan's attack plan. Japan lost its most experienced naval aviators, making recovery nearly impossible.",
+      "memory_hook": "Battle of Midway, June 1942: US sank 4 Japanese carriers in one day. US codebreakers knew the plan."
+    },
+    {
+      "category": "Pop Culture",
+      "question": "Which American actor and comedian, known for movies like 'The 40-Year-Old Virgin' and the 'Anchorman' franchise, consistently produces top-grossing comedies?",
+      "options": [
+        "Steve Carell / Will Ferrell",
+        "Adam Sandler",
+        "Jim Carrey",
+        "Ben Stiller"
+      ],
+      "answer": "Steve Carell / Will Ferrell",
+      "explanation": "Steve Carell starred in 'The 40-Year-Old Virgin' (2005) and played Michael Scott in 'The Office' (US). Will Ferrell created the Anchorman franchise and is known for Elf (2003), which reportedly earns him $2 million a year in residuals. Together or separately, they helped define American comedy in the 2000s.",
+      "memory_hook": "Steve Carell: The Office + 40-Year-Old Virgin. Will Ferrell: Anchorman + Elf ($2M/year residuals)."
+    },
+    {
+      "category": "Science",
+      "question": "What is the name of the virus that causes AIDS (Acquired Immunodeficiency Syndrome)?",
+      "options": [
+        "HIV",
+        "HPV",
+        "HCV",
+        "EBV"
+      ],
+      "answer": "HIV",
+      "explanation": "HIV (Human Immunodeficiency Virus) attacks CD4 T-cells, gradually destroying the immune system. Without treatment, HIV leads to AIDS when CD4 count drops below 200 cells/mm³. Antiretroviral therapy (ART) can suppress the virus to undetectable levels, allowing near-normal life expectancy. The AIDS epidemic has killed approximately 40 million people since the 1980s.",
+      "memory_hook": "HIV causes AIDS. Attacks CD4 T-cells. ART suppresses it to undetectable. ~40 million deaths since 1980s."
+    },
+    {
+      "category": "Geography",
+      "question": "Which European country, with Amsterdam as its capital, has roughly 27% of its land below sea level and uses an extensive system of dikes and water management?",
+      "options": [
+        "Netherlands",
+        "Belgium",
+        "Denmark",
+        "Germany"
+      ],
+      "answer": "Netherlands",
+      "explanation": "The Netherlands ('low lands') has been fighting the sea for centuries. About 27% of the country is below sea level. The Delta Works — a series of dams and barriers — is considered one of the Seven Wonders of the Modern World. Amsterdam was built on wooden poles driven into boggy ground; the city's central station sits on 8,687 piles.",
+      "memory_hook": "Netherlands: 27% below sea level. Delta Works = one of 7 Modern Wonders. Amsterdam station on 8,687 wooden piles."
+    },
+    {
+      "category": "History",
+      "question": "Which island became famous for its isolation in the Pacific and its mysterious massive stone statues called moai, carved by the Rapa Nui people?",
+      "options": [
+        "Easter Island",
+        "Hawaii",
+        "Tahiti",
+        "Samoa"
+      ],
+      "answer": "Easter Island",
+      "explanation": "Easter Island (Rapa Nui, Isla de Pascua) is 3,500 km from Chile — the nearest inhabited island is 2,000 km away. Its people carved 900+ moai statues, some weighing over 80 tons, and somehow transported them across the island. The civilization collapsed (possibly through deforestation) before European contact in 1722.",
+      "memory_hook": "Easter Island: world's most remote inhabited island. 900+ moai statues up to 80 tons. Civilization collapsed before 1722."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Which song by Pharrell Williams, released in 2013 for the Despicable Me 2 soundtrack, became the best-selling digital single worldwide for that year?",
+      "options": [
+        "Happy",
+        "Blurred Lines",
+        "Royals",
+        "Stay With Me"
+      ],
+      "answer": "Happy",
+      "explanation": "'Happy' by Pharrell Williams peaked at #1 in over 25 countries and sold over 13 million copies. It remained on the UK Singles Chart for 76 weeks. The song was inspired by Pharrell's conversations about happiness and became the backdrop for thousands of 'pharrell_happy' copycat videos worldwide.",
+      "memory_hook": "'Happy' by Pharrell: 2013, Despicable Me 2. #1 in 25+ countries. 76 weeks on UK chart."
+    },
+    {
+      "category": "Sports",
+      "question": "In the game of golf, what is the name for a hole completed in one stroke fewer than par?",
+      "options": [
+        "Birdie",
+        "Eagle",
+        "Bogey",
+        "Par"
+      ],
+      "answer": "Birdie",
+      "explanation": "A birdie is one stroke under par — if par is 4, a birdie is 3. An eagle is two under par. An albatross (double eagle) is three under par. A bogey is one over par. The terms 'birdie' and 'eagle' come from 19th century American slang where 'bird' meant something excellent.",
+      "memory_hook": "Golf: birdie = 1 under par. Eagle = 2 under. Albatross = 3 under. Bogey = 1 over."
+    }
+  ]
+}

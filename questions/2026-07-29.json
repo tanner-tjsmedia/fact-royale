@@ -3,16 +3,16 @@
   "questions": [
     {
       "category": "History",
-      "question": "The American Declaration of Independence was signed in which year?",
+      "question": "The Boston Tea Party of 1773 saw American colonists dump 342 chests of which commodity into Boston Harbor to protest British taxation without representation?",
       "options": [
-        "1773",
-        "1775",
-        "1776",
-        "1783"
+        "Tea",
+        "Sugar",
+        "Tobacco",
+        "Cotton"
       ],
-      "answer": "1776",
-      "explanation": "The Declaration of Independence was adopted by the Continental Congress on July 4, 1776, in Philadelphia. Written primarily by Thomas Jefferson, it declared the 13 American colonies independent from British rule and outlined the philosophical foundations of American democracy, including the principles that 'all men are created equal' and have inalienable rights to life, liberty, and the pursuit of happiness.",
-      "memory_hook": "1776 = independence. July 4th. Jefferson wrote it in about 17 days. The document that started a nation also started a revolution in how governments justify their power."
+      "answer": "Tea",
+      "explanation": "On December 16, 1773, members of the Sons of Liberty, some disguised as Mohawk Indians, boarded three ships in Boston Harbor and dumped 342 chests of British East India Company tea overboard. The protest against the Tea Act helped ignite the American Revolution.",
+      "memory_hook": "Boston Tea Party 1773 = tea in the harbor. 342 chests. Pre-Revolution spark."
     },
     {
       "category": "History",
@@ -68,16 +68,16 @@
     },
     {
       "category": "Sports",
-      "question": "In golf, what term describes completing a hole in one stroke under par?",
+      "question": "In golf, what is the term for completing a hole in two strokes under par — rarer and better than a birdie?",
       "options": [
         "Eagle",
-        "Bogey",
-        "Birdie",
-        "Albatross"
+        "Albatross",
+        "Condor",
+        "Ace"
       ],
-      "answer": "Birdie",
-      "explanation": "A birdie is scoring one stroke under par on a hole. An eagle is two under par, an albatross (or double eagle) is three under par, and a hole-in-one on a par-3 is also an albatross. A bogey is one over par. The term 'birdie' originated in America in 1899 — 'bird' was slang for something excellent, and the term spread through golf.",
-      "memory_hook": "Birdie = one under par. Eagle = two under. Albatross = three under. Bogey = one over. Golf borrowed bird names for its scoring system — the rarer the shot, the rarer the bird."
+      "answer": "Eagle",
+      "explanation": "In golf, scoring terms follow a bird theme: bogey (+1), par (0), birdie (-1), eagle (-2), albatross/double eagle (-3), and condor (-4, extremely rare). Eagles most commonly occur on par-5 holes, where a player reaches the green in two shots and holes out.",
+      "memory_hook": "Eagle = 2 under par. Birdie = 1 under. Eagles are twice as good as birdies."
     },
     {
       "category": "Sports",
@@ -94,16 +94,16 @@
     },
     {
       "category": "Music/Movies",
-      "question": "Which film director is known for Jaws (1975), Raiders of the Lost Ark (1981), and Schindler's List (1993)?",
+      "question": "Which director, known as 'the Master of Suspense,' made 'Rear Window,' 'Psycho,' 'Vertigo,' and 'The Birds' — and made cameo appearances in nearly every one of his films?",
       "options": [
-        "Francis Ford Coppola",
-        "Martin Scorsese",
-        "Stanley Kubrick",
-        "Steven Spielberg"
+        "Alfred Hitchcock",
+        "Billy Wilder",
+        "Fritz Lang",
+        "Orson Welles"
       ],
-      "answer": "Steven Spielberg",
-      "explanation": "Steven Spielberg is one of the most commercially successful directors in Hollywood history, having directed blockbusters like Jaws, Close Encounters of the Third Kind, the Indiana Jones series, E.T., Schindler's List, Saving Private Ryan, and many others. He co-founded DreamWorks and has won the Academy Award for Best Director twice (Schindler's List, Saving Private Ryan).",
-      "memory_hook": "Spielberg = Jaws + Indiana Jones + Schindler's List. He invented the summer blockbuster with Jaws in 1975. He's made more culturally significant films than any other director in history."
+      "answer": "Alfred Hitchcock",
+      "explanation": "Alfred Hitchcock (1899-1980) directed over 50 films and is widely regarded as one of the most influential directors in cinema history. He pioneered many suspense techniques still used today. His cameo appearances in his own films became a beloved tradition — he appears briefly in 39 of his films.",
+      "memory_hook": "Hitchcock = Master of Suspense. Cameo in 39 films. Psycho, Vertigo, Rear Window."
     },
     {
       "category": "Music/Movies",

@@ -3,29 +3,29 @@
   "questions": [
     {
       "category": "History",
-      "question": "Which country was the first to give women the right to vote in 1893?",
+      "question": "Which abolitionist, called 'Moses' by those she helped escape slavery, conducted 13 Underground Railroad missions and never lost a single passenger?",
       "options": [
-        "Australia",
-        "Finland",
-        "United States",
-        "New Zealand"
+        "Harriet Tubman",
+        "Sojourner Truth",
+        "Harriet Beecher Stowe",
+        "Frederick Douglass"
       ],
-      "answer": "New Zealand",
-      "explanation": "New Zealand became the first self-governing country in the world to grant women the right to vote in 1893, following years of campaigning by suffragist Kate Sheppard. Women first voted in the general election on November 28, 1893. New Zealand also granted women the right to stand for Parliament in 1919. The US didn't grant women's suffrage until 1920.",
-      "memory_hook": "New Zealand = first women's vote, 1893. Kate Sheppard collected 32,000 signatures on a petition. The US followed 27 years later. New Zealand led the world in women's rights by almost three decades."
+      "answer": "Harriet Tubman",
+      "explanation": "Harriet Tubman (c. 1822-1913) escaped slavery in 1849 and returned 13 times to free approximately 70 enslaved people via the Underground Railroad. She was known as 'Moses' for leading her people to freedom. She later served as a spy and scout for the Union Army during the Civil War.",
+      "memory_hook": "Harriet Tubman = Moses. 13 missions, ~70 people freed. Never lost one."
     },
     {
       "category": "History",
-      "question": "The Cuban Revolution brought which leader to power in 1959?",
+      "question": "Which Argentine-born Marxist revolutionary, who fought alongside Fidel Castro in Cuba, later attempted to spread revolution across Africa and South America before being captured and executed in Bolivia in 1967?",
       "options": [
         "Che Guevara",
-        "Raul Castro",
-        "Fidel Castro",
-        "Camilo Cienfuegos"
+        "Camilo Cienfuegos",
+        "Raúl Castro",
+        "Salvador Allende"
       ],
-      "answer": "Fidel Castro",
-      "explanation": "Fidel Castro led the Cuban Revolution that overthrew dictator Fulgencio Batista on January 1, 1959. Castro established a socialist government and became Prime Minister (later President) of Cuba. His 49-year rule made him the longest-serving non-royal head of government in the 20th century. The US tried to overthrow him multiple times, most famously in the failed Bay of Pigs invasion in 1961.",
-      "memory_hook": "Cuban Revolution = Fidel Castro, 1959. 49 years in power — longest non-royal leader of the 20th century. The CIA tried to assassinate him over 600 times. He survived them all. He outlasted 10 US presidents."
+      "answer": "Che Guevara",
+      "explanation": "Ernesto 'Che' Guevara (1928-1967) was a physician-turned-revolutionary from Argentina who played a key role in the Cuban Revolution. After serving in Cuba's government, he left to foment revolution elsewhere. He was captured by Bolivian forces — aided by the CIA — and executed on October 9, 1967. His image became one of the most reproduced in history.",
+      "memory_hook": "Che Guevara: Argentine doctor, Cuba revolution, Bolivia execution 1967."
     },
     {
       "category": "History",
@@ -55,16 +55,16 @@
     },
     {
       "category": "Sports",
-      "question": "In swimming, what stroke requires the swimmer to pull both arms simultaneously over the water?",
+      "question": "In which sport would athletes compete using a 'shuttlecock' — a feathered or plastic projectile — hit back and forth over a net?",
       "options": [
-        "Backstroke",
-        "Freestyle",
-        "Breaststroke",
-        "Butterfly"
+        "Badminton",
+        "Squash",
+        "Pickleball",
+        "Table Tennis"
       ],
-      "answer": "Butterfly",
-      "explanation": "The butterfly stroke requires the swimmer to bring both arms forward simultaneously over the water and perform a dolphin kick with both legs together. It is the second fastest swim stroke (after freestyle) and the most physically demanding. The butterfly was originally developed as a variation of the breaststroke in the 1930s and became a separate Olympic event in 1956.",
-      "memory_hook": "Butterfly = both arms over the water at once. The hardest and most exhausting stroke. Developed as a faster breaststroke variation in the 1930s. Michael Phelps dominated the 100m and 200m butterfly for most of his career."
+      "answer": "Badminton",
+      "explanation": "Badminton uses a shuttlecock (also called a birdie) — a cone-shaped projectile with 16 feathers attached. The sport originated in British India and was formalized in Poona (Pune). Professional shuttlecocks can travel at over 300 km/h (186 mph), making badminton one of the fastest racket sports.",
+      "memory_hook": "Badminton = shuttlecock. Can travel 300 km/h. Fastest racket sport."
     },
     {
       "category": "Sports",
@@ -107,16 +107,16 @@
     },
     {
       "category": "Music/Movies",
-      "question": "The Silence of the Lambs (1991) is the third film ever to win all five major Academy Awards. Who played Dr. Hannibal Lecter?",
+      "question": "Which author, who has published over 60 novels and is often called 'the King of Horror,' wrote 'The Shining,' 'It,' 'Carrie,' and 'Misery'?",
       "options": [
-        "Gary Oldman",
-        "Robert De Niro",
-        "Jack Nicholson",
-        "Anthony Hopkins"
+        "Stephen King",
+        "Dean Koontz",
+        "Clive Barker",
+        "Anne Rice"
       ],
-      "answer": "Anthony Hopkins",
-      "explanation": "Anthony Hopkins won the Academy Award for Best Actor for his portrayal of cannibalistic psychiatrist Dr. Hannibal Lecter in The Silence of the Lambs (1991). Remarkably, Hopkins was on screen for only about 16 minutes total — the shortest performance to win Best Actor. The film won all five major Oscars: Picture, Director, Actor, Actress, and Screenplay.",
-      "memory_hook": "Anthony Hopkins = Hannibal Lecter. Won Best Actor for 16 minutes of screen time — shortest ever to win. The Silence of the Lambs won all five major Oscars — only the third film ever to do that (after It Happened One Night and One Flew Over the Cuckoo's Nest)."
+      "answer": "Stephen King",
+      "explanation": "Stephen King has sold over 350 million copies of his books worldwide. His works have been adapted into numerous films and TV series, including Stanley Kubrick's 'The Shining,' Tim Curry's 'It,' and Rob Reiner's 'Misery.' King is known for writing 2,000 words per day, even on holidays.",
+      "memory_hook": "Stephen King = King of Horror. The Shining, It, Carrie. 350M+ books sold."
     },
     {
       "category": "Music/Movies",

@@ -67,7 +67,7 @@
     },
     {
       "category": "Music/Movies",
-      "question": "Which Bond film features the song 'Skyfall' by Adele?",
+      "question": "Adele won the Academy Award for Best Original Song in 2013 for the theme to which James Bond film?",
       "options": [
         "Casino Royale",
         "Quantum of Solace",
@@ -75,8 +75,8 @@
         "Spectre"
       ],
       "answer": "Skyfall",
-      "explanation": "Adele's 'Skyfall' was the theme song for the 2012 James Bond film of the same name, directed by Sam Mendes. The song won the Academy Award for Best Original Song, making it the first Bond theme to win the Oscar. The film is the highest-grossing Bond film ever.",
-      "memory_hook": "Skyfall: Adele + Bond = Oscar. The sky literally fell on the competition."
+      "explanation": "Skyfall (2012), directed by Sam Mendes, was the 23rd James Bond film and celebrated the franchise's 50th anniversary. Adele's theme song won the Academy Award and Grammy Award for Best Song Written for Visual Media.",
+      "memory_hook": "Adele + Bond + Oscar = Skyfall (2012). The theme is named after the villain's estate."
     },
     {
       "category": "Music/Movies",
@@ -93,7 +93,7 @@
     },
     {
       "category": "Music/Movies",
-      "question": "Which famous music festival is held annually in Glastonbury, England?",
+      "question": "Founded by dairy farmer Michael Eavis in 1970 on his farm in Somerset, England, which festival is the world's largest greenfield music event with a capacity of over 200,000?",
       "options": [
         "Reading Festival",
         "Coachella",
@@ -101,8 +101,8 @@
         "Isle of Wight Festival"
       ],
       "answer": "Glastonbury Festival",
-      "explanation": "The Glastonbury Festival of Contemporary Performing Arts is held annually at Worthy Farm in Pilton, Somerset, England. First held in 1970, it is one of the world's largest and most famous music festivals, hosting up to 200,000 attendees. It has become famous for its eclectic lineup and muddy fields.",
-      "memory_hook": "Glastonbury = England's biggest music event. Mud, music, and mayhem since 1970."
+      "explanation": "Glastonbury Festival of Contemporary Performing Arts was founded by Michael Eavis on Worthy Farm in Pilton, Somerset. It first ran in 1970 with 1,500 attendees. Today it is one of the most famous music events in the world, featuring hundreds of acts across dozens of stages.",
+      "memory_hook": "Glastonbury = Worthy Farm, Somerset. Michael Eavis's dairy farm became a legend."
     },
     {
       "category": "History",

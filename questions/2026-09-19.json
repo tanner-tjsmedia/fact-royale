@@ -1,0 +1,161 @@
+{
+  "date": "2026-09-19",
+  "questions": [
+    {
+      "category": "History",
+      "question": "Which U.S. president gave the Gettysburg Address in November 1863, one of the most famous speeches in American history?",
+      "options": [
+        "Abraham Lincoln",
+        "Ulysses Grant",
+        "Jefferson Davis",
+        "Rutherford Hayes"
+      ],
+      "answer": "Abraham Lincoln",
+      "explanation": "Lincoln delivered the Gettysburg Address on November 19, 1863. At only 272 words, it redefined the Civil War as a struggle for human equality, ending: '…government of the people, by the people, for the people, shall not perish from the earth.'",
+      "memory_hook": "Gettysburg Address: Lincoln, Nov 19, 1863. 272 words. 'Government of the people, by the people...'"
+    },
+    {
+      "category": "Science",
+      "question": "What is the name for the entire range of electromagnetic radiation, from very long radio waves to very short gamma rays?",
+      "options": [
+        "Electromagnetic spectrum",
+        "Visible light spectrum",
+        "Radiation spectrum",
+        "Wave spectrum"
+      ],
+      "answer": "Electromagnetic spectrum",
+      "explanation": "The electromagnetic spectrum includes (from longest to shortest wavelength): radio waves, microwaves, infrared, visible light, ultraviolet, X-rays, and gamma rays. All electromagnetic waves travel at the speed of light (c) in a vacuum.",
+      "memory_hook": "Electromagnetic spectrum: radio → microwave → infrared → visible → UV → X-ray → gamma. All at speed of light."
+    },
+    {
+      "category": "Sports",
+      "question": "In the Tour de France, what does the white jersey (maillot blanc) represent?",
+      "options": [
+        "Best young rider (under 26)",
+        "King of the Mountains",
+        "Points classification leader",
+        "Overall race leader"
+      ],
+      "answer": "Best young rider (under 26)",
+      "explanation": "The Tour de France features four jerseys: yellow (overall leader), green (points/sprinting), polka dot (King of the Mountains/climbing), and white (best young rider under 26).",
+      "memory_hook": "Tour jerseys: yellow = overall; green = sprinter; polka dot = climber; white = best young rider (under 26)."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Which filmmaker, known for 'Pulp Fiction' and 'Django Unchained,' announced he would retire after his tenth film?",
+      "options": [
+        "Quentin Tarantino",
+        "Martin Scorsese",
+        "David Fincher",
+        "Paul Thomas Anderson"
+      ],
+      "answer": "Quentin Tarantino",
+      "explanation": "Tarantino has repeatedly stated he would retire after his tenth film. 'Once Upon a Time in Hollywood' was film #9. He argues directors' work deteriorates with age.",
+      "memory_hook": "Tarantino: self-announced retirement after 10 films. 'Once Upon a Time in Hollywood' was #9."
+    },
+    {
+      "category": "Geography",
+      "question": "Which sea, located between Italy and the Balkan Peninsula, is named after the city of Adria and is an arm of the Mediterranean?",
+      "options": [
+        "Adriatic Sea",
+        "Aegean Sea",
+        "Ionian Sea",
+        "Ligurian Sea"
+      ],
+      "answer": "Adriatic Sea",
+      "explanation": "The Adriatic Sea is bounded by Italy to the west and Slovenia, Croatia, Bosnia, Montenegro, and Albania to the east. Venice sits on the Adriatic coast. It is unusually shallow in the north but deep (1,200+ meters) in the south.",
+      "memory_hook": "Adriatic Sea: between Italy and the Balkans. Venice sits on it. Named after the ancient city of Adria."
+    },
+    {
+      "category": "History",
+      "question": "Which treaty, negotiated in 1648, ended the Thirty Years' War and established the principle of national sovereignty?",
+      "options": [
+        "Peace of Westphalia",
+        "Treaty of Utrecht",
+        "Congress of Vienna",
+        "Treaty of Vienna"
+      ],
+      "answer": "Peace of Westphalia",
+      "explanation": "The Peace of Westphalia (October 24, 1648) established the principle that each nation-state is sovereign — free from interference by other states. This shaped international relations for 350+ years.",
+      "memory_hook": "Peace of Westphalia 1648: birth of national sovereignty in international law. Still foundational today."
+    },
+    {
+      "category": "Pop Culture",
+      "question": "Which early social media site, launched in 2003, was briefly the most visited website in the world but was largely replaced by Facebook by 2009?",
+      "options": [
+        "MySpace",
+        "Friendster",
+        "Bebo",
+        "Hi5"
+      ],
+      "answer": "MySpace",
+      "explanation": "MySpace was founded in 2003 and purchased by News Corp for $580 million in 2005. It had 100+ million users by 2008. Its decline began when users migrated to Facebook. Justin Timberlake invested in it in 2011.",
+      "memory_hook": "MySpace: launched 2003, $580M sale. 100M users. Killed by Facebook. Justin Timberlake bought it."
+    },
+    {
+      "category": "Science",
+      "question": "What is the name for a cell without a nucleus or membrane-bound organelles, such as bacteria?",
+      "options": [
+        "Prokaryote",
+        "Eukaryote",
+        "Protist",
+        "Archaea"
+      ],
+      "answer": "Prokaryote",
+      "explanation": "Prokaryotes (bacteria and archaea) lack a nucleus. DNA floats freely in the cytoplasm. Archaea were only recognized as a separate domain from bacteria in the 1970s.",
+      "memory_hook": "Prokaryote = no nucleus. Bacteria and archaea. Archaea recognized as separate domain only in the 1970s."
+    },
+    {
+      "category": "Geography",
+      "question": "Which country spans from the Atlantic to the Pacific coast, is the world's fourth-largest by area, and has territories in the Pacific and Caribbean?",
+      "options": [
+        "United States",
+        "Brazil",
+        "Canada",
+        "Russia"
+      ],
+      "answer": "United States",
+      "explanation": "The continental United States spans from the Atlantic to Pacific coast, covering approximately 9.83 million km² — 4th largest by area. It also has territories including Hawaii, Guam, Puerto Rico, and the U.S. Virgin Islands.",
+      "memory_hook": "USA: 4th largest country. Atlantic to Pacific. Plus Hawaii, Guam, Puerto Rico as territories."
+    },
+    {
+      "category": "History",
+      "question": "Which 19th-century nurse, known as 'The Lady with the Lamp,' revolutionized nursing during the Crimean War?",
+      "options": [
+        "Florence Nightingale",
+        "Mary Seacole",
+        "Clara Barton",
+        "Dorothea Dix"
+      ],
+      "answer": "Florence Nightingale",
+      "explanation": "Florence Nightingale (1820-1910) dramatically reduced mortality in British military hospitals through sanitation. She pioneered statistical graphics in medicine and established the first nursing school at St. Thomas' Hospital in 1860.",
+      "memory_hook": "Florence Nightingale: Crimean War. Pioneered statistics in medicine. Founded nursing school 1860."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Which American singer-songwriter is the best-selling female music artist of all time with over 300 million records sold?",
+      "options": [
+        "Madonna",
+        "Taylor Swift",
+        "Whitney Houston",
+        "Mariah Carey"
+      ],
+      "answer": "Madonna",
+      "explanation": "Madonna (Madonna Louise Ciccone) has sold over 300 million records. She has continuously reinvented herself across genres and decades. Her Sticky & Sweet Tour (2008-09) is one of the highest-grossing concert tours ever.",
+      "memory_hook": "Madonna: 300M records = best-selling female artist ever. Constant reinvention across 40+ years."
+    },
+    {
+      "category": "Sports",
+      "question": "In basketball, what is the term for an attempt to score directly from a long-distance shot, as a last resort when time is running out?",
+      "options": [
+        "Hail Mary shot / half-court shot",
+        "Full-court shot",
+        "Alley-oop",
+        "Tip-in"
+      ],
+      "answer": "Hail Mary shot / half-court shot",
+      "explanation": "A 'Hail Mary' or 'half-court shot' is a desperate long-distance attempt as time expires. There is no single standard term across all contexts. A 'buzzer-beater' means any shot made as the clock runs out. An alley-oop is a lob caught near the basket for a dunk.",
+      "memory_hook": "Long desperation shot in basketball = Hail Mary or half-court shot. 'Buzzer-beater' if it goes in as time expires."
+    }
+  ]
+}

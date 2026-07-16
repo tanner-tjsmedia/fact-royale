@@ -1,0 +1,161 @@
+{
+  "date": "2026-08-27",
+  "questions": [
+    {
+      "category": "History",
+      "question": "Which ancient Greek city-state, famous for its military culture, sent 300 soldiers to delay a massive Persian army at the Battle of Thermopylae in 480 BC?",
+      "options": [
+        "Sparta",
+        "Athens",
+        "Corinth",
+        "Thebes"
+      ],
+      "answer": "Sparta",
+      "explanation": "King Leonidas led 300 Spartans (plus thousands of allied Greek soldiers) against Xerxes I's Persian army estimated at hundreds of thousands. The Spartans held the narrow mountain pass for three days before being outflanked by a traitor's information. The delay helped Athens evacuate and prepare its navy for victory at Salamis.",
+      "memory_hook": "Sparta: 300 at Thermopylae. Leonidas vs. Xerxes. Held 3 days, enabling Athens' escape."
+    },
+    {
+      "category": "Science",
+      "question": "What is the name of the closest star to our solar system, located approximately 4.24 light-years from Earth?",
+      "options": [
+        "Proxima Centauri",
+        "Alpha Centauri A",
+        "Sirius",
+        "Betelgeuse"
+      ],
+      "answer": "Proxima Centauri",
+      "explanation": "Proxima Centauri is a red dwarf star in the Alpha Centauri system. At 4.24 light-years away, light from it takes 4.24 years to reach Earth. At current spacecraft speeds, it would take about 70,000 years to reach. Proxima Centauri b is an exoplanet in its habitable zone.",
+      "memory_hook": "Proxima Centauri: closest star, 4.24 light-years. 70,000 years away by rocket."
+    },
+    {
+      "category": "Sports",
+      "question": "Which Formula 1 driver holds the record for the most World Drivers' Championship titles, with eight championships?",
+      "options": [
+        "Lewis Hamilton",
+        "Michael Schumacher",
+        "Ayrton Senna",
+        "Max Verstappen"
+      ],
+      "answer": "Lewis Hamilton",
+      "explanation": "Lewis Hamilton won his 8th world championship title, surpassing Michael Schumacher's previous record of 7. The British driver has also set records for most race wins and most pole positions. He drove for McLaren before joining Mercedes, where he won 6 of his titles.",
+      "memory_hook": "Lewis Hamilton: 8 F1 World Championships. Broke Schumacher's record of 7."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Which animated 2001 Pixar film features a one-eyed monster who befriends a human child and features the voice of Billy Crystal?",
+      "options": [
+        "Monsters, Inc.",
+        "Toy Story 2",
+        "A Bug's Life",
+        "Finding Nemo"
+      ],
+      "answer": "Monsters, Inc.",
+      "explanation": "Monsters, Inc. (2001) features James P. Sullivan (voiced by John Goodman) and Mike Wazowski (Billy Crystal) as monsters who discover that children's laughter is more powerful than screams. It was the highest-grossing film of 2001 in North America.",
+      "memory_hook": "Monsters, Inc. (2001): Sulley (Goodman) + Mike (Billy Crystal). Laughter beats screams."
+    },
+    {
+      "category": "Geography",
+      "question": "Which Asian country, with a population of 1.4 billion, overtook China in 2023 to become the world's most populous nation?",
+      "options": [
+        "India",
+        "Pakistan",
+        "Bangladesh",
+        "Indonesia"
+      ],
+      "answer": "India",
+      "explanation": "India surpassed China as the world's most populous country in 2023, reaching approximately 1.43 billion people. Unlike China, India has no official one-child policy, and its population is still growing. India is also the world's largest democracy and the 5th largest economy.",
+      "memory_hook": "India: surpassed China as most populous in 2023. 1.4 billion people. Largest democracy."
+    },
+    {
+      "category": "History",
+      "question": "The Chernobyl nuclear disaster of 1986 occurred in which country (as it existed at the time)?",
+      "options": [
+        "Soviet Union (Ukraine)",
+        "Russia",
+        "Poland",
+        "Belarus"
+      ],
+      "answer": "Soviet Union (Ukraine)",
+      "explanation": "The Chernobyl Nuclear Power Plant was in the Ukrainian Soviet Socialist Republic, part of the USSR. The explosion on April 26, 1986 was caused by a flawed reactor design and operator error during a safety test. About 350,000 people were evacuated from the surrounding area, which remains partially restricted today.",
+      "memory_hook": "Chernobyl: April 26, 1986, Ukrainian SSR. Safety test gone wrong. 350,000 evacuated."
+    },
+    {
+      "category": "Pop Culture",
+      "question": "Which streaming service, launched in 2007 originally as a DVD rental company, grew to become the world's largest subscription streaming platform?",
+      "options": [
+        "Netflix",
+        "Hulu",
+        "HBO Max",
+        "Amazon Prime Video"
+      ],
+      "answer": "Netflix",
+      "explanation": "Netflix was founded in 1997 by Reed Hastings and Marc Randolph as a DVD-by-mail service. It launched streaming in 2007 and began producing original content (House of Cards, 2013). As of 2024 it has over 270 million subscribers globally. Its original 'Squid Game' became the most-watched series in Netflix history.",
+      "memory_hook": "Netflix: DVD mail 1997 → streaming 2007 → 270M subscribers. House of Cards was first original."
+    },
+    {
+      "category": "Science",
+      "question": "What is the name of the theory that describes how Earth's outer shell is divided into moving tectonic plates, causing earthquakes and volcanoes?",
+      "options": [
+        "Plate tectonics",
+        "Continental drift",
+        "Seafloor spreading",
+        "Geological shift"
+      ],
+      "answer": "Plate tectonics",
+      "explanation": "Plate tectonics theory explains why earthquakes and volcanoes cluster along plate boundaries. Alfred Wegener proposed continental drift in 1912, but it wasn't until the 1960s that seafloor spreading evidence confirmed that plates move. The Himalayas were formed by the Indian Plate colliding with the Eurasian Plate.",
+      "memory_hook": "Plate tectonics: Earth's crust = moving plates. Himalayas = India crashed into Eurasia."
+    },
+    {
+      "category": "Geography",
+      "question": "Which strait, connecting the Atlantic and Pacific oceans, runs between the southern tip of South America and Antarctica?",
+      "options": [
+        "Drake Passage",
+        "Strait of Magellan",
+        "Bass Strait",
+        "Bering Strait"
+      ],
+      "answer": "Drake Passage",
+      "explanation": "The Drake Passage is the world's stormiest body of water, about 800 km wide, with waves frequently exceeding 12 meters. It was named after Sir Francis Drake, whose ship was blown there in 1578. Before the Panama Canal, all ships had to navigate around Cape Horn.",
+      "memory_hook": "Drake Passage: Atlantic to Pacific, below South America. World's stormiest waters."
+    },
+    {
+      "category": "History",
+      "question": "Which Polish astronomer proposed in 1543 that the Sun, not the Earth, was the center of the solar system?",
+      "options": [
+        "Nicolaus Copernicus",
+        "Galileo Galilei",
+        "Johannes Kepler",
+        "Tycho Brahe"
+      ],
+      "answer": "Nicolaus Copernicus",
+      "explanation": "Copernicus published 'De revolutionibus orbium coelestium' in 1543, the year of his death. His heliocentric model contradicted Church teaching. Galileo later confirmed it with telescopic observations and was placed under house arrest. The shift from geocentrism to heliocentrism is called the Copernican Revolution.",
+      "memory_hook": "Copernicus 1543: Sun at center. Published same year he died. Galileo confirmed it."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Which singer, born Robyn Rihanna Fenty in Barbados, became the wealthiest female musician in the world with an estimated net worth of over $1.4 billion?",
+      "options": [
+        "Rihanna",
+        "Beyoncé",
+        "Taylor Swift",
+        "Madonna"
+      ],
+      "answer": "Rihanna",
+      "explanation": "Rihanna's wealth primarily comes from her Fenty Beauty cosmetics line (launched 2017) and Savage X Fenty lingerie brand, not her music. Fenty Beauty broke records by launching in 40 shades of foundation, disrupting the beauty industry. She also performed at the 2023 Super Bowl halftime show while pregnant.",
+      "memory_hook": "Rihanna: wealthiest female musician ($1.4B) mostly from Fenty Beauty, not music."
+    },
+    {
+      "category": "Sports",
+      "question": "In cricket, what is the name of the trophy contested between England and Australia in a Test series?",
+      "options": [
+        "The Ashes",
+        "The Wisden Trophy",
+        "The Frank Worrell Trophy",
+        "The Border-Gavaskar Trophy"
+      ],
+      "answer": "The Ashes",
+      "explanation": "The Ashes began in 1882 after England's first-ever Test loss on home soil to Australia. A mock obituary in The Sporting Times mourned 'English cricket,' saying the body would be cremated and 'the ashes taken to Australia.' A small urn, supposedly containing ashes of a cricket bail, has been competed for ever since.",
+      "memory_hook": "The Ashes: England vs. Australia cricket. Started with a mock obituary in 1882."
+    }
+  ]
+}

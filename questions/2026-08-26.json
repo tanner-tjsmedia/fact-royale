@@ -1,0 +1,161 @@
+{
+  "date": "2026-08-26",
+  "questions": [
+    {
+      "category": "History",
+      "question": "Which South African anti-apartheid leader was released from prison in 1990 after 27 years and became the country's first democratically elected president in 1994?",
+      "options": [
+        "Nelson Mandela",
+        "Desmond Tutu",
+        "Oliver Tambo",
+        "Walter Sisulu"
+      ],
+      "answer": "Nelson Mandela",
+      "explanation": "Nelson Mandela was imprisoned on Robben Island in 1964 after being convicted of sabotage. His release by President F.W. de Klerk and the subsequent democratic election in 1994 were major global moments. Mandela served as president until 1999 and won the Nobel Peace Prize in 1993 alongside de Klerk.",
+      "memory_hook": "Mandela: 27 years in prison, 1964-1990. First democratically elected president of South Africa."
+    },
+    {
+      "category": "Science",
+      "question": "Which planet in our solar system has the most moons, with over 140 confirmed natural satellites?",
+      "options": [
+        "Saturn",
+        "Jupiter",
+        "Uranus",
+        "Neptune"
+      ],
+      "answer": "Saturn",
+      "explanation": "Saturn has over 140 confirmed moons as of recent counts, surpassing Jupiter's 95. Titan, Saturn's largest moon, is the only moon in our solar system with a dense atmosphere and liquid lakes — of methane and ethane. Enceladus sprays water vapor into space, suggesting a subsurface ocean.",
+      "memory_hook": "Saturn: most moons (140+). Titan has atmosphere. Enceladus has ocean under ice."
+    },
+    {
+      "category": "Sports",
+      "question": "Which boxer, known as 'The Greatest,' defeated Sonny Liston for his first heavyweight title in 1964 and later refused military induction on religious grounds?",
+      "options": [
+        "Muhammad Ali",
+        "Joe Frazier",
+        "George Foreman",
+        "Floyd Patterson"
+      ],
+      "answer": "Muhammad Ali",
+      "explanation": "Cassius Clay (later Muhammad Ali) shocked the world by defeating Sonny Liston at age 22 in 1964. He converted to Islam and refused Vietnam War service, saying 'I ain't got no quarrel with them Viet Cong.' He was stripped of his title for three years. His comeback fights — including the 'Rumble in the Jungle' (1974) — are legendary.",
+      "memory_hook": "Muhammad Ali: shocked world beating Liston at 22. Refused Vietnam draft. 'Float like a butterfly.'"
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Which 1977 science fiction film, directed by George Lucas, introduced Darth Vader, the Force, and launched one of the most successful franchises in history?",
+      "options": [
+        "Star Wars",
+        "Close Encounters of the Third Kind",
+        "2001: A Space Odyssey",
+        "Flash Gordon"
+      ],
+      "answer": "Star Wars",
+      "explanation": "Star Wars (Episode IV: A New Hope) was released May 25, 1977 and became the highest-grossing film at the time. It revolutionized special effects, merchandise, and franchise filmmaking. George Lucas sold the franchise to Disney for $4.05 billion in 2012. Darth Vader's voice is James Earl Jones.",
+      "memory_hook": "Star Wars 1977: Lucas, Darth Vader (James Earl Jones). Sold to Disney for $4B in 2012."
+    },
+    {
+      "category": "Geography",
+      "question": "The Amazon River, flowing through South America, carries roughly 20% of the world's freshwater. In which country does it discharge into the Atlantic Ocean?",
+      "options": [
+        "Brazil",
+        "Peru",
+        "Colombia",
+        "Venezuela"
+      ],
+      "answer": "Brazil",
+      "explanation": "The Amazon discharges near Marajó Island at the mouth of the Amazon in northeastern Brazil (state of Pará). The river's mouth is so wide (up to 325 km) that there is no bridge across it. It carries more water than the next seven largest rivers combined.",
+      "memory_hook": "Amazon discharges in Brazil. No bridge crosses its mouth — up to 325 km wide."
+    },
+    {
+      "category": "History",
+      "question": "The Space Race culminated on July 20, 1969, when which Apollo mission landed the first humans on the Moon?",
+      "options": [
+        "Apollo 11",
+        "Apollo 12",
+        "Apollo 8",
+        "Apollo 10"
+      ],
+      "answer": "Apollo 11",
+      "explanation": "Apollo 11 landed in the Sea of Tranquility. Neil Armstrong was first to step on the Moon, followed by Buzz Aldrin; Michael Collins orbited above. Armstrong's words: 'That's one small step for man, one giant leap for mankind.' The mission lasted 8 days, 3 hours.",
+      "memory_hook": "Apollo 11: July 20, 1969. Armstrong first, then Aldrin. Collins orbited above."
+    },
+    {
+      "category": "Pop Culture",
+      "question": "Which social media platform, founded by Mark Zuckerberg in 2004 at Harvard, became the first to reach 1 billion active users?",
+      "options": [
+        "Facebook",
+        "MySpace",
+        "Twitter",
+        "Friendster"
+      ],
+      "answer": "Facebook",
+      "explanation": "Facebook launched at Harvard in February 2004 as 'TheFacebook,' expanding to other universities before opening to the public in 2006. It reached 1 billion monthly active users in October 2012. Zuckerberg was 19 when he founded it. The company was rebranded Meta in 2021.",
+      "memory_hook": "Facebook: founded at Harvard 2004 by Zuckerberg (age 19). First to 1 billion users."
+    },
+    {
+      "category": "Science",
+      "question": "What is the name of the force that keeps planets in orbit around the Sun and causes objects to fall toward Earth?",
+      "options": [
+        "Gravity",
+        "Magnetism",
+        "Centripetal force",
+        "Electromagnetism"
+      ],
+      "answer": "Gravity",
+      "explanation": "Gravity is described by Newton's law of universal gravitation (F = Gm1m2/r²) and later by Einstein's general relativity as a curvature of spacetime. The gravitational force between Earth and Moon causes our tides. Without gravity, the Moon would fly off in a straight line.",
+      "memory_hook": "Gravity: Newton's apple, Einstein's spacetime. Keeps Moon in orbit, causes tides."
+    },
+    {
+      "category": "Geography",
+      "question": "Which mountain range, running 7,000 km along the western edge of South America, is the world's longest continental mountain range?",
+      "options": [
+        "Andes",
+        "Rockies",
+        "Alps",
+        "Himalayas"
+      ],
+      "answer": "Andes",
+      "explanation": "The Andes extend through seven countries: Venezuela, Colombia, Ecuador, Peru, Bolivia, Chile, and Argentina. Mount Aconcagua (6,961 m) in Argentina is the highest peak outside Asia. The Andes were formed by the subduction of the Nazca Plate under the South American Plate.",
+      "memory_hook": "Andes: 7,000 km, 7 countries. Aconcagua (Argentina) = highest peak outside Asia."
+    },
+    {
+      "category": "History",
+      "question": "Which empire, founded by Genghis Khan in 1206, became the largest contiguous land empire in history, stretching from China to Eastern Europe?",
+      "options": [
+        "Mongol Empire",
+        "Ottoman Empire",
+        "Roman Empire",
+        "British Empire"
+      ],
+      "answer": "Mongol Empire",
+      "explanation": "At its peak, the Mongol Empire covered 24 million km² — about 16% of Earth's land area. Genghis Khan's successors conquered China (Yuan Dynasty), Persia, and reached Poland and Hungary. The empire facilitated trade along the Silk Road and the spread of plague but also caused the deaths of an estimated 40 million people.",
+      "memory_hook": "Mongol Empire: largest contiguous land empire. 24M km². Genghis Khan, 1206."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Which legendary rock guitarist, known as the 'God of Hellfire,' was the lead guitarist of The Jimi Hendrix Experience and is widely considered the greatest electric guitarist of all time?",
+      "options": [
+        "Jimi Hendrix",
+        "Eric Clapton",
+        "Jimmy Page",
+        "Stevie Ray Vaughan"
+      ],
+      "answer": "Jimi Hendrix",
+      "explanation": "Jimi Hendrix (1942-1970) revolutionized electric guitar playing. Left-handed, he played a right-handed guitar upside down and restrung. His 1969 Woodstock performance of the U.S. national anthem on electric guitar is iconic. He died at 27, joining the so-called '27 Club.'",
+      "memory_hook": "Jimi Hendrix: greatest guitarist. Left-handed, played upside-down. Died at 27."
+    },
+    {
+      "category": "Sports",
+      "question": "In basketball, what is the term for a defensive play where a player intercepts a pass intended for an opponent?",
+      "options": [
+        "Steal",
+        "Block",
+        "Rebound",
+        "Turnover"
+      ],
+      "answer": "Steal",
+      "explanation": "A steal occurs when a defensive player legally takes the ball from an opponent or intercepts a pass. Michael Jordan holds the NBA record for most career steals per game (2.33). In one game, Kendall Gill set the single-game record with 11 steals. A blocked shot is different — it deflects a shot attempt.",
+      "memory_hook": "Steal = defensive interception or ball-grab. Jordan averaged 2.33 steals per game."
+    }
+  ]
+}

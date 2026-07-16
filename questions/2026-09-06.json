@@ -1,0 +1,161 @@
+{
+  "date": "2026-09-06",
+  "questions": [
+    {
+      "category": "History",
+      "question": "Which ancient Greek philosopher was put on trial for corrupting the youth and impiety, and was sentenced to death by drinking hemlock?",
+      "options": [
+        "Socrates",
+        "Plato",
+        "Aristotle",
+        "Diogenes"
+      ],
+      "answer": "Socrates",
+      "explanation": "Socrates (470-399 BC) was tried in 399 BC and executed by drinking hemlock. He left no written works — his ideas are known through Plato's dialogues. He developed the Socratic Method: questioning to expose contradictions and reach truth. His last words, according to Plato: 'Crito, I owe a cock to Asclepius.'",
+      "memory_hook": "Socrates: executed by hemlock (399 BC). Left no writings. Known through Plato's Dialogues."
+    },
+    {
+      "category": "Science",
+      "question": "What is the name of the process by which the nucleus of a heavy atom (like uranium) splits into two lighter nuclei, releasing a large amount of energy?",
+      "options": [
+        "Nuclear fission",
+        "Nuclear fusion",
+        "Radioactive decay",
+        "Nuclear transmutation"
+      ],
+      "answer": "Nuclear fission",
+      "explanation": "Nuclear fission was first demonstrated by Otto Hahn, Lise Meitner, and Fritz Strassmann in 1938. In a fission chain reaction, each split nucleus releases neutrons that trigger further splits. Atomic bombs use uncontrolled chain reactions; nuclear power plants use controlled ones. The world's first nuclear reactor (Chicago Pile-1) achieved criticality in 1942.",
+      "memory_hook": "Fission: heavy nucleus splits, releases energy. Bombs = uncontrolled. Power plants = controlled."
+    },
+    {
+      "category": "Sports",
+      "question": "Which country's national team is known as 'The Springboks' and won its fourth Rugby World Cup in France in 2023?",
+      "options": [
+        "South Africa",
+        "Australia",
+        "New Zealand",
+        "England"
+      ],
+      "answer": "South Africa",
+      "explanation": "South Africa's Springboks beat New Zealand 12-11 in the 2023 Rugby World Cup final in Paris — the tightest World Cup final in history. South Africa has now won the most Rugby World Cups (4), having also won in 1995, 2007, and 2019. They are ranked among the greatest rugby nations of all time.",
+      "memory_hook": "Springboks: South Africa. 4 World Cups (most of any team). 2023 final: beat NZ 12-11."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Which English singer-songwriter, known for acoustic guitar and introspective lyrics, released 'Shape of You,' the best-selling single in Spotify history?",
+      "options": [
+        "Ed Sheeran",
+        "James Blunt",
+        "Sam Smith",
+        "Harry Styles"
+      ],
+      "answer": "Ed Sheeran",
+      "explanation": "Ed Sheeran's 'Shape of You' (2017) is Spotify's most-streamed song ever with over 4 billion streams. He has been the world's best-selling music artist multiple times. His album '÷' (Divide) made him the first artist to have all songs from an album simultaneously in the UK Top 20.",
+      "memory_hook": "Ed Sheeran: 'Shape of You' = most-streamed song on Spotify ever. First to put entire album in UK Top 20."
+    },
+    {
+      "category": "Geography",
+      "question": "Which European country has the most coastline of any nation in the world, with over 125,000 km of coastline due to its many fjords and islands?",
+      "options": [
+        "Norway",
+        "Canada",
+        "Indonesia",
+        "Australia"
+      ],
+      "answer": "Norway",
+      "explanation": "Norway has 125,021 km of coastline, the most in the world due to its deeply indented fjords, peninsulas, and more than 50,000 islands. Canada comes second with approximately 202,000 km (some measurements dispute the ranking based on methodology). Norway's fjords, carved by glaciers, are up to 1,308 meters deep.",
+      "memory_hook": "Norway: most coastline, 125,000 km. Fjords are glacially carved — up to 1,308m deep."
+    },
+    {
+      "category": "History",
+      "question": "The Silk Road, the ancient trade network connecting China to the Mediterranean, got its name from which primary commodity traded along it?",
+      "options": [
+        "Silk",
+        "Spices",
+        "Jade",
+        "Tea"
+      ],
+      "answer": "Silk",
+      "explanation": "The Silk Road (actually a network of routes) operated from around 130 BC to 1450 AD. Silk was China's most prized export — the method of silk production was a closely guarded state secret, punishable by death if disclosed. Other goods traded included spices, glass, gold, and disease — including the Black Death.",
+      "memory_hook": "Silk Road: 130 BC to 1450 AD. Silk production was China's state secret. Also spread the Black Death."
+    },
+    {
+      "category": "Pop Culture",
+      "question": "Which animated Pixar film (2015), featuring emotions as personified characters inside a young girl's mind, won the Academy Award for Best Animated Feature?",
+      "options": [
+        "Inside Out",
+        "Finding Dory",
+        "Coco",
+        "Soul"
+      ],
+      "answer": "Inside Out",
+      "explanation": "Inside Out (2015) was directed by Pete Docter and features Joy, Sadness, Anger, Fear, and Disgust as characters inside 11-year-old Riley's mind. The film explores mental health themes including depression and the importance of all emotions. It was praised for helping children (and adults) understand emotional complexity.",
+      "memory_hook": "Inside Out 2015: Pixar. Joy, Sadness, Anger, Fear, Disgust inside Riley's mind. Oscar winner."
+    },
+    {
+      "category": "Science",
+      "question": "What is the name of the force that opposes the relative motion of two surfaces in contact?",
+      "options": [
+        "Friction",
+        "Drag",
+        "Tension",
+        "Normal force"
+      ],
+      "answer": "Friction",
+      "explanation": "Friction is caused by the microscopic roughness of surfaces and, at the molecular level, by electromagnetic interactions. Static friction (preventing motion) is stronger than kinetic friction (opposing motion already occurring). Without friction, we couldn't walk, grip tools, or stop cars. The coefficient of friction between rubber and dry asphalt is about 0.7.",
+      "memory_hook": "Friction: static (prevents motion) > kinetic (opposes motion). Without it: can't walk, grip, or brake."
+    },
+    {
+      "category": "Geography",
+      "question": "Which Central American country is the largest in terms of area, covering approximately 130,000 km²?",
+      "options": [
+        "Nicaragua",
+        "Honduras",
+        "Guatemala",
+        "Mexico"
+      ],
+      "answer": "Nicaragua",
+      "explanation": "Nicaragua is the largest country in Central America with 130,375 km². It is bounded by Honduras to the north and Costa Rica to the south. Lake Nicaragua is the largest lake in Central America and the only freshwater lake in the world to contain sharks (bull sharks adapted to freshwater).",
+      "memory_hook": "Nicaragua: largest in Central America. Lake Nicaragua has freshwater bull sharks."
+    },
+    {
+      "category": "History",
+      "question": "Which ancient Greek historian, often called the 'Father of History,' wrote detailed accounts of the Greco-Persian Wars?",
+      "options": [
+        "Herodotus",
+        "Thucydides",
+        "Xenophon",
+        "Polybius"
+      ],
+      "answer": "Herodotus",
+      "explanation": "Herodotus (c. 484-425 BC) wrote 'Histories,' the first major narrative history in Western literature. He investigated and documented the Greco-Persian Wars of 499-449 BC. Thucydides later criticized Herodotus's reliance on myth, offering a more rigorous approach in his account of the Peloponnesian War.",
+      "memory_hook": "Herodotus: 'Father of History.' First narrative history. Greco-Persian Wars. Thucydides criticized him for myths."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Which Canadian musician, born in London, Ontario, had a teenage breakthrough with the hit 'Baby' (2010) discovered via YouTube by talent manager Scooter Braun?",
+      "options": [
+        "Justin Bieber",
+        "The Weeknd",
+        "Shawn Mendes",
+        "Drake"
+      ],
+      "answer": "Justin Bieber",
+      "explanation": "Justin Bieber was discovered at age 13 when talent manager Scooter Braun found his YouTube videos of him covering other artists' songs. His debut single 'One Time' (2009) went gold. 'Baby' (2010) featuring Ludacris was the most-viewed YouTube video for a time. He has since won multiple Grammys.",
+      "memory_hook": "Justin Bieber: discovered on YouTube age 13, by Scooter Braun. 'Baby' was biggest YouTube video."
+    },
+    {
+      "category": "Sports",
+      "question": "What is the term for a set of three consecutive strikes in bowling?",
+      "options": [
+        "Turkey",
+        "Hat trick",
+        "Triple",
+        "Strike out"
+      ],
+      "answer": "Turkey",
+      "explanation": "Three consecutive strikes in bowling is called a 'turkey.' The term dates to 19th-century bowling alleys where tournament organizers would award a live turkey for this achievement. Modern bowling alleys sometimes still award prizes for turkeys. Four consecutive strikes is called a 'hambone' or 'four-bagger.'",
+      "memory_hook": "Turkey = 3 consecutive strikes in bowling. Named after actual turkeys given as prizes in the 1800s."
+    }
+  ]
+}

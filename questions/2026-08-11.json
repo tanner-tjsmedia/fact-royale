@@ -3,16 +3,16 @@
   "questions": [
     {
       "category": "History",
-      "question": "Which ancient city was destroyed and buried by the eruption of Mount Vesuvius in 79 AD?",
+      "question": "Which ancient Greek city, home to Socrates, Plato, and the world's first democracy, is often called the birthplace of Western civilization?",
       "options": [
-        "Rome",
-        "Herculaneum",
-        "Naples",
-        "Pompeii"
+        "Athens",
+        "Sparta",
+        "Corinth",
+        "Thebes"
       ],
-      "answer": "Pompeii",
-      "explanation": "Pompeii, a Roman city near modern Naples, was buried under meters of volcanic ash and pumice in the eruption of Mount Vesuvius on August 24, 79 AD. The city was rediscovered in 1748 and has been excavated to reveal remarkably preserved buildings, art, and even human forms preserved in ash. Herculaneum was also destroyed but was buried deeper and preserved differently.",
-      "memory_hook": "Pompeii = buried by Vesuvius, 79 AD. The eruption happened so fast that people were preserved mid-action. Archaeologists found people covering their faces, hugging each other, waiting it out. A city frozen in a single day, 2,000 years ago."
+      "answer": "Athens",
+      "explanation": "Athens, in the region of Attica, was the cultural and intellectual center of ancient Greece. It developed the world's first democratic system under Cleisthenes in 508 BC, produced philosophers like Socrates, Plato, and Aristotle, and built the Parthenon. The city gave its name to the first modern Olympics in 1896.",
+      "memory_hook": "Athens = first democracy, Socrates, Plato, Parthenon. Birthplace of Western thought."
     },
     {
       "category": "History",
@@ -107,42 +107,42 @@
     },
     {
       "category": "Music/Movies",
-      "question": "Which artist released the album 'Purple Rain' in 1984 and also starred in the accompanying film?",
+      "question": "Which artist, born Steveland Hardaway Morris and blind since shortly after birth, recorded timeless hits including 'Superstition,' 'Isn't She Lovely,' and 'Signed, Sealed, Delivered'?",
       "options": [
-        "Michael Jackson",
-        "David Bowie",
-        "Prince",
-        "Stevie Wonder"
+        "Stevie Wonder",
+        "Ray Charles",
+        "José Feliciano",
+        "Andrea Bocelli"
       ],
-      "answer": "Prince",
-      "explanation": "Prince released Purple Rain in June 1984 as both a film and accompanying album. The film was shot in 28 days in Minneapolis. The album spent 24 weeks at number one in the US and sold over 25 million copies worldwide. It won the Academy Award for Best Original Song Score. The title track 'Purple Rain' is widely considered one of the greatest songs ever written.",
-      "memory_hook": "Prince = Purple Rain, 1984. Film shot in 28 days. Album at #1 for 24 weeks. 'Purple Rain' performed live is considered one of the great live musical moments — particularly in the rain at the 2007 Super Bowl."
+      "answer": "Stevie Wonder",
+      "explanation": "Stevie Wonder (born 1950) signed with Motown Records at age 11. He lost his sight due to too much oxygen in his incubator as a premature baby. His 1970s run — 'Talking Book,' 'Innervisions,' 'Fulfillingness' First Finale,' and 'Songs in the Key of Life' — is considered one of the greatest creative streaks in pop history.",
+      "memory_hook": "Stevie Wonder: blind since infancy, Motown at 11, genius of the 70s."
     },
     {
       "category": "Music/Movies",
-      "question": "Which director made Schindler's List (1993), Saving Private Ryan (1998), and Munich (2005)?",
+      "question": "Which director, known for meticulous detail and dark psychological themes, made '2001: A Space Odyssey,' 'The Shining,' 'Full Metal Jacket,' and 'A Clockwork Orange'?",
       "options": [
-        "Oliver Stone",
-        "Clint Eastwood",
-        "Steven Spielberg",
-        "Michael Mann"
+        "Stanley Kubrick",
+        "Francis Ford Coppola",
+        "Ridley Scott",
+        "David Lynch"
       ],
-      "answer": "Steven Spielberg",
-      "explanation": "Steven Spielberg directed all three historical dramas. Schindler's List (1993) won 7 Oscars including Best Picture and Director. Saving Private Ryan (1998) won Best Director and is famous for its harrowing D-Day opening sequence. Munich (2005) dramatized the Israeli response to the 1972 Olympic massacre. Spielberg donated his salary from Schindler's List entirely to Holocaust organizations.",
-      "memory_hook": "Spielberg's serious trilogy: Schindler's List, Saving Private Ryan, Munich. All about WWII or its aftermath. He donated his entire Schindler's List salary to the USC Shoah Foundation. He said he couldn't profit from the Holocaust."
+      "answer": "Stanley Kubrick",
+      "explanation": "Stanley Kubrick (1928-1999) was known for his perfectionism — his production of 'The Shining' involved Shelley Duvall doing one scene 127 times. He worked across multiple genres: war, horror, science fiction, and period drama. Kubrick moved to England in 1961 and directed all his later films there.",
+      "memory_hook": "Kubrick: 2001, The Shining, Clockwork Orange. 127 takes for one scene."
     },
     {
       "category": "Geography",
-      "question": "Which South American country is named after the equator that passes through it?",
+      "question": "The Sahara is Earth's largest hot desert. What is the world's largest cold desert, covering an entire continent?",
       "options": [
-        "Peru",
-        "Colombia",
-        "Bolivia",
-        "Ecuador"
+        "Antarctic Desert",
+        "Arctic Desert",
+        "Gobi Desert",
+        "Patagonian Desert"
       ],
-      "answer": "Ecuador",
-      "explanation": "Ecuador is named for the equator (Ecuador in Spanish), which passes directly through the country. Quito, Ecuador's capital, sits at an altitude of 2,850 meters and is located less than 25 km from the equator — making it one of the highest capital cities in the world. A museum near Quito marks the 'middle of the world' with demonstrations showing the effects of the equator on water drainage.",
-      "memory_hook": "Ecuador = named for the equator. The only country literally named after an imaginary line. The equator runs right through it. Quito is both 25 km from the equator and 2,850 meters high — the highest equatorial capital in the world."
+      "answer": "Antarctic Desert",
+      "explanation": "Antarctica is the world's largest desert at about 14.2 million square kilometers, receiving very little precipitation. The Sahara (9.2 million km²) is the largest hot desert. Deserts are classified by precipitation, not temperature — the Gobi and Patagonian deserts are also cold deserts, but much smaller than Antarctica.",
+      "memory_hook": "Largest desert: Antarctica (cold). Largest hot desert: Sahara."
     },
     {
       "category": "Science & Nature",

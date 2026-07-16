@@ -29,16 +29,16 @@
     },
     {
       "category": "History",
-      "question": "Who was the first woman elected Prime Minister of the United Kingdom?",
+      "question": "Which German Chancellor, who served from 2005 to 2021 and became the first woman to hold the office, was often called 'the most powerful woman in the world'?",
       "options": [
-        "Barbara Castle",
-        "Shirley Williams",
         "Angela Merkel",
-        "Margaret Thatcher"
+        "Gertrude Schröder",
+        "Heidi Simonis",
+        "Annegret Kramp-Karrenbauer"
       ],
-      "answer": "Margaret Thatcher",
-      "explanation": "Margaret Thatcher became the UK's first female Prime Minister on May 4, 1979, serving until November 28, 1990 — the longest continuous term as PM in the 20th century. Known as the 'Iron Lady' (a Soviet nickname she embraced), she privatized state industries, broke union power, fought the Falklands War, and formed a strong partnership with US President Ronald Reagan. She remains the UK's only female Prime Minister.",
-      "memory_hook": "Thatcher = first (and still only) female UK PM. The Iron Lady — a Soviet insult she turned into a badge. 11 years in office, longest 20th century PM. She privatized everything she could and broke the miners' strike. Either a hero or villain depending on who you ask, but no one disputes her impact."
+      "answer": "Angela Merkel",
+      "explanation": "Angela Merkel served as Chancellor of Germany for 16 years (2005-2021), making her the longest-serving head of government in the EU during her tenure. A trained physicist from East Germany, she navigated the 2008 financial crisis, the European debt crisis, the refugee crisis, and the COVID-19 pandemic. She is widely regarded as one of the most consequential leaders of her era.",
+      "memory_hook": "Angela Merkel: German Chancellor 2005-2021. Physicist. First female Chancellor of Germany."
     },
     {
       "category": "History",

@@ -1,0 +1,161 @@
+{
+  "date": "2026-09-18",
+  "questions": [
+    {
+      "category": "History",
+      "question": "Which empire, founded by Cyrus the Great in 550 BC, was the largest empire in ancient history before Alexander the Great conquered it?",
+      "options": [
+        "Achaemenid Persian Empire",
+        "Roman Empire",
+        "Macedonian Empire",
+        "Assyrian Empire"
+      ],
+      "answer": "Achaemenid Persian Empire",
+      "explanation": "The Achaemenid Empire at its peak (under Darius I, c. 500 BC) covered approximately 5.5 million km² — from the Balkans and Egypt to Central Asia and the Indus Valley. Cyrus the Great was unusual for allowing conquered peoples to maintain their religions and customs. The empire's fall to Alexander (330 BC) ended 200+ years of Persian dominance.",
+      "memory_hook": "Achaemenid Persian Empire: Cyrus 550 BC. 5.5 million km² under Darius I. Cyrus let conquered people keep their religion."
+    },
+    {
+      "category": "Science",
+      "question": "Which element, a silvery metal that is liquid at room temperature, was historically used in thermometers and is now known to be highly toxic?",
+      "options": [
+        "Mercury",
+        "Silver",
+        "Gallium",
+        "Cesium"
+      ],
+      "answer": "Mercury",
+      "explanation": "Mercury (Hg, from Greek hydrargyrum = water silver) is the only metal that is liquid at room temperature (along with gallium, which melts at 29.8°C). It expands uniformly with temperature, making it useful in thermometers. Mercury poisoning causes neurological damage — it was famously behind 'Mad Hatter's disease' in hatters who used mercury nitrate to felt hats.",
+      "memory_hook": "Mercury: only metal liquid at room temperature. Toxic. 'Mad Hatter' disease came from mercury in hat manufacturing."
+    },
+    {
+      "category": "Sports",
+      "question": "Which country introduced the Hawk-Eye ball-tracking technology, now used in tennis, cricket, and football for close calls?",
+      "options": [
+        "United Kingdom",
+        "United States",
+        "Australia",
+        "Germany"
+      ],
+      "answer": "United Kingdom",
+      "explanation": "Hawk-Eye was developed by Paul Hawkins and Rod Wardlaw in the UK and first used in cricket in 2001. In tennis, it is used for the 'challenge' system introduced at Wimbledon 2007. The system tracks ball trajectory using multiple high-speed cameras and computer modeling. In football (soccer), it is used for goal-line technology.",
+      "memory_hook": "Hawk-Eye: developed in UK, cricket 2001, tennis challenges from 2007. Camera + computer trajectory modeling."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Which 2000 Ridley Scott film, set in ancient Rome and starring Russell Crowe as a gladiator-turned-slave, won the Academy Award for Best Picture?",
+      "options": [
+        "Gladiator",
+        "Troy",
+        "300",
+        "Kingdom of Heaven"
+      ],
+      "answer": "Gladiator",
+      "explanation": "Gladiator (2000) starred Russell Crowe as Maximus Decimus Meridius, a general enslaved after the emperor's murder and forced to fight as a gladiator. It won Best Picture and Best Actor (Crowe). The film reignited interest in epic historical films. A sequel, Gladiator II, was released in 2024.",
+      "memory_hook": "Gladiator 2000: Crowe, Ridley Scott. Best Picture + Best Actor. 'Maximus Decimus Meridius.' Sequel in 2024."
+    },
+    {
+      "category": "Geography",
+      "question": "Which European country is home to the most active volcano in Europe, Etna, located on its largest island?",
+      "options": [
+        "Italy",
+        "Greece",
+        "Spain",
+        "Iceland"
+      ],
+      "answer": "Italy",
+      "explanation": "Mount Etna is located in Sicily (Italy's largest island) and is one of the world's most active volcanoes, erupting almost continuously. It has been documented erupting since 425 BC. Stromboli (another Italian island) has been erupting continuously for over 2,000 years and is called the 'Lighthouse of the Mediterranean.'",
+      "memory_hook": "Italy's Etna (Sicily): Europe's most active volcano, erupting since 425 BC. Stromboli = 'Lighthouse of Mediterranean.'"
+    },
+    {
+      "category": "History",
+      "question": "Which Mongol leader, who died in 1227, united the Mongol tribes and launched the conquests that would create the world's largest contiguous land empire?",
+      "options": [
+        "Genghis Khan",
+        "Kublai Khan",
+        "Timur (Tamerlane)",
+        "Ögedei Khan"
+      ],
+      "answer": "Genghis Khan",
+      "explanation": "Born Temüjin, Genghis Khan unified warring Mongol tribes by 1206 and launched conquests across Central Asia and China. His tactics — mobility, terror, and strategic destruction of water supplies — were revolutionary. He reportedly killed 40 million people — potentially 10% of the world's population. Genetic studies suggest 1 in 200 living men worldwide descend from him.",
+      "memory_hook": "Genghis Khan (Temüjin): unified Mongols 1206. Killed ~10% of world population. 1 in 200 men today are his descendants."
+    },
+    {
+      "category": "Pop Culture",
+      "question": "Which 1980s fantasy film, featuring Hoggle, Sir Didymus, and Ludo, starred David Bowie as Jareth the Goblin King and Jennifer Connelly as Sarah?",
+      "options": [
+        "Labyrinth",
+        "The Dark Crystal",
+        "Willow",
+        "The NeverEnding Story"
+      ],
+      "answer": "Labyrinth",
+      "explanation": "Labyrinth (1986) was directed by Jim Henson (of Muppet fame) and produced by George Lucas. David Bowie performed all his own songs, including 'Magic Dance.' Despite being a box office disappointment on release, it became a beloved cult classic. Jennifer Connelly was 14 during filming.",
+      "memory_hook": "Labyrinth 1986: Jim Henson directed, Lucas produced. Bowie as Goblin King sang 'Magic Dance.' Cult classic now."
+    },
+    {
+      "category": "Science",
+      "question": "What is the maximum heart rate for humans generally estimated to be, calculated by the formula 220 minus age?",
+      "options": [
+        "It varies by age (220 minus age)",
+        "200 beats per minute for all adults",
+        "150 bpm for anyone over 40",
+        "The formula is 180 minus age"
+      ],
+      "answer": "It varies by age (220 minus age)",
+      "explanation": "The formula 220 - age gives an estimated maximum heart rate (e.g., a 30-year-old's max is ~190 bpm). During intense exercise, the heart can reach near maximum. Resting heart rate is typically 60-100 bpm; trained athletes may have resting rates of 40-50 bpm. The formula is a rough estimate — individual variation is large.",
+      "memory_hook": "Max heart rate ≈ 220 minus age. Resting: 60-100 bpm. Athletes: 40-50 bpm resting. Formula is approximate."
+    },
+    {
+      "category": "Geography",
+      "question": "Which narrow sea passage between Denmark and Sweden, connecting the Baltic Sea to the North Sea, is one of the world's most commercially important waterways?",
+      "options": [
+        "Øresund Strait",
+        "Skagerrak",
+        "Kattegat",
+        "Denmark Strait"
+      ],
+      "answer": "Øresund Strait",
+      "explanation": "The Øresund Strait (also spelled Öresund) is approximately 4 km wide at its narrowest point. The Øresund Bridge (opened 2000) connects Malmö, Sweden to Copenhagen, Denmark — the only fixed link between Scandinavia and continental Europe. About 100,000 ships pass through annually. The area's combined population is called the 'Øresund Region.'",
+      "memory_hook": "Øresund Strait: 4 km wide between Denmark and Sweden. Bridge connecting them opened 2000. 100K ships/year."
+    },
+    {
+      "category": "History",
+      "question": "Which U.S. president signed the Civil Rights Act of 1964, outlawing discrimination based on race, color, religion, sex, or national origin?",
+      "options": [
+        "Lyndon B. Johnson",
+        "John F. Kennedy",
+        "Jimmy Carter",
+        "Dwight Eisenhower"
+      ],
+      "answer": "Lyndon B. Johnson",
+      "explanation": "LBJ signed the Civil Rights Act on July 2, 1964, following President Kennedy's assassination. Kennedy had proposed the legislation; LBJ used his political skills to push it through. He also signed the Voting Rights Act of 1965. LBJ reportedly said after signing: 'We have lost the South for a generation' — predicting the political realignment that followed.",
+      "memory_hook": "LBJ signed Civil Rights Act July 2, 1964. Also Voting Rights Act 1965. Said 'we lost the South for a generation.'"
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Which 2004 musical film, starring Jamie Foxx as Ray Charles, won him an Academy Award for Best Actor and featured the biopic of a pioneering soul and R&B artist?",
+      "options": [
+        "Ray",
+        "Walk the Line",
+        "Get on Up",
+        "Selma"
+      ],
+      "answer": "Ray",
+      "explanation": "Ray (2004), directed by Taylor Hackford, depicts Ray Charles's life from his childhood to 1979. Jamie Foxx's portrayal was so convincing that Ray Charles himself reportedly cried watching it. Charles had approval over the film but died in June 2004, before its October release. Foxx actually played piano throughout — not a body double.",
+      "memory_hook": "Ray 2004: Foxx as Ray Charles. Charles approved it but died before release. Foxx actually played piano. Oscar winner."
+    },
+    {
+      "category": "Sports",
+      "question": "What is the term in tennis for a score of zero (no points won in a game)?",
+      "options": [
+        "Love",
+        "Nil",
+        "Zero",
+        "Deuce"
+      ],
+      "answer": "Love",
+      "explanation": "'Love' in tennis means zero. The most common explanation is from the French word 'l'oeuf' (the egg) because of zero's egg shape — the same origin as 'duck' in cricket. A game score of 40-40 is 'deuce.' The server's score is always called first: 'Love-fifteen' means the server has 0 and the receiver has 1 point.",
+      "memory_hook": "Love = zero in tennis. From French 'l'oeuf' (the egg). Same origin as cricket's 'duck.' Server's score called first."
+    }
+  ]
+}

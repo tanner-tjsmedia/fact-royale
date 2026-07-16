@@ -16,16 +16,16 @@
     },
     {
       "category": "History",
-      "question": "Which civilization built Machu Picchu, the mountain citadel in Peru?",
+      "question": "The ancient Aztec capital of Tenochtitlan was built on an island in the middle of Lake Texcoco. It was destroyed by Spanish conquistadors and is now the site of which modern city?",
       "options": [
-        "Aztec",
-        "Maya",
-        "Olmec",
-        "Inca"
+        "Mexico City",
+        "Guadalajara",
+        "Bogotá",
+        "Lima"
       ],
-      "answer": "Inca",
-      "explanation": "Machu Picchu was built by the Inca Empire around 1450 AD at approximately 2,430 meters above sea level in the Andes Mountains of Peru. It was likely a royal estate or religious site. The Spanish never discovered it during their conquest, so it wasn't known to the outside world until American historian Hiram Bingham brought it to international attention in 1911.",
-      "memory_hook": "Machu Picchu = Inca. Built around 1450, never found by the Spanish. Hiram Bingham 'rediscovered' it in 1911 — though local people had always known it was there."
+      "answer": "Mexico City",
+      "explanation": "Tenochtitlan, founded around 1325 CE, was the capital of the Aztec Empire and one of the largest cities in the world at the time of Spanish arrival. Hernán Cortés and his forces conquered and destroyed it in 1521. Mexico City was built on its ruins, and remnants of Aztec architecture can still be found beneath the modern city.",
+      "memory_hook": "Tenochtitlan = Aztec capital on a lake, now Mexico City."
     },
     {
       "category": "History",
@@ -55,16 +55,16 @@
     },
     {
       "category": "Sports",
-      "question": "In golf, what term describes finishing a hole exactly one stroke under par?",
+      "question": "In golf, what is the rarest standard scoring term — completing a hole in just one stroke, typically only possible on a short par-3 hole?",
       "options": [
+        "Ace",
         "Eagle",
-        "Birdie",
-        "Bogey",
-        "Albatross"
+        "Albatross",
+        "Condor"
       ],
-      "answer": "Birdie",
-      "explanation": "A birdie means completing a hole in one stroke under par. An eagle is two under par, an albatross (double eagle) is three under par, and a bogey is one over par. The term 'birdie' originated in 19th-century American slang, where 'bird' meant something excellent.",
-      "memory_hook": "Birdie = one under. Eagle = two under. Think birds fly low."
+      "answer": "Ace",
+      "explanation": "An ace (also called a hole in one) occurs when a player sinks the ball from the tee in a single stroke. It is most common on par-3 holes. The odds of an amateur golfer making an ace are approximately 1 in 12,500. Professionals manage one roughly every 3,000 attempts.",
+      "memory_hook": "Ace = hole in one. One stroke, one shot. Most celebrated moment in golf."
     },
     {
       "category": "Sports",
@@ -81,16 +81,16 @@
     },
     {
       "category": "Sports",
-      "question": "Which country has won the most Rugby World Cup titles?",
+      "question": "In rugby union, what term describes the temporary removal of a player from the field for 10 minutes after receiving a yellow card for foul play?",
       "options": [
-        "England",
-        "Australia",
-        "South Africa",
-        "New Zealand"
+        "Sin bin",
+        "Yellow zone",
+        "Penalty box",
+        "Temporary suspension"
       ],
-      "answer": "New Zealand",
-      "explanation": "New Zealand's All Blacks have won the Rugby World Cup four times (1987, 2011, 2015, 2023), more than any other country. South Africa has won four titles as well (1995, 1999, 2007, 2019), tying New Zealand. The All Blacks are considered the most successful international sports team in history by win percentage — they win about 77% of all test matches.",
-      "memory_hook": "All Blacks = most World Cup wins. New Zealand wins 77% of test matches — the best sustained record of any major team sport. The haka before matches is part of the legend."
+      "answer": "Sin bin",
+      "explanation": "The sin bin in rugby union requires a yellow-carded player to leave the field for exactly 10 minutes, leaving their team with 14 players. A red card results in permanent dismissal. The term 'sin bin' is also used in ice hockey, where penalties lead to players sitting in a physical box beside the ice.",
+      "memory_hook": "Sin bin = 10 minutes off for yellow card in rugby. Borrowed by ice hockey too."
     },
     {
       "category": "Music/Movies",

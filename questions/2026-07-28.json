@@ -3,16 +3,16 @@
   "questions": [
     {
       "category": "History",
-      "question": "The Magna Carta, a landmark document limiting royal power, was signed in which year?",
+      "question": "The Gunpowder Plot of 1605 was a failed conspiracy to blow up the English Parliament and assassinate which reigning monarch?",
       "options": [
-        "1066",
-        "1215",
-        "1348",
-        "1492"
+        "King James I",
+        "Queen Elizabeth I",
+        "King Charles I",
+        "King Henry VIII"
       ],
-      "answer": "1215",
-      "explanation": "King John of England signed the Magna Carta on June 15, 1215, under pressure from rebellious barons. It established for the first time that the king was subject to the rule of law. Many of its principles — including the right to a fair trial and protection from arbitrary imprisonment — became foundational to constitutional government worldwide.",
-      "memory_hook": "Magna Carta = 1215. The first document that said a king can't do whatever he wants. It planted the seed of constitutional democracy 800 years ago."
+      "answer": "King James I",
+      "explanation": "The Gunpowder Plot was hatched by a group of English Catholics, including Guy Fawkes, who planned to blow up the Houses of Parliament on November 5, 1605. The plot was foiled when an anonymous tip led to a search of the cellars, where Fawkes was discovered with barrels of gunpowder. Guy Fawkes Night is still celebrated in the UK on November 5.",
+      "memory_hook": "Guy Fawkes, 1605, wanted to kill King James I. Caught in the cellar."
     },
     {
       "category": "History",
@@ -42,29 +42,29 @@
     },
     {
       "category": "History",
-      "question": "The Great Fire of London, which destroyed much of the medieval city, occurred in which year?",
+      "question": "The Great Plague devastated London in 1665, killing roughly 100,000 people. It was a resurgence of which disease that had killed a third of Europe's population in the 14th century?",
       "options": [
-        "1605",
-        "1640",
-        "1666",
-        "1688"
+        "Bubonic plague",
+        "Smallpox",
+        "Typhus",
+        "Cholera"
       ],
-      "answer": "1666",
-      "explanation": "The Great Fire of London began on September 2, 1666, in a bakery on Pudding Lane and burned for four days, destroying over 13,000 houses and 87 churches including St. Paul's Cathedral. Remarkably, fewer than 10 people died (officially). The fire led to the rebuilding of London in brick and stone and the establishment of modern fire safety practices.",
-      "memory_hook": "Great Fire of London = 1666. Started in a bakery, burned for four days, destroyed the medieval city. Christopher Wren redesigned much of London after — including the new St. Paul's Cathedral."
+      "answer": "Bubonic plague",
+      "explanation": "The Great Plague of London (1665-66) was caused by the bacterium Yersinia pestis — the same pathogen responsible for the Black Death of 1347-51, which killed an estimated 30-60% of Europe's population. The Great Fire of London in 1666 may have inadvertently helped end the plague by destroying rat-infested buildings.",
+      "memory_hook": "Great Plague 1665, bubonic (Black Death). Great Fire 1666 may have ended it."
     },
     {
-      "category": "Sports",
-      "question": "In which sport would you perform a 'slam dunk'?",
+      "category": "Science",
+      "question": "Which chemical element, represented by the symbol Au on the periodic table, derives its symbol from the Latin word 'aurum' and has been prized for jewelry and currency since antiquity?",
       "options": [
-        "Volleyball",
-        "Baseball",
-        "Soccer",
-        "Basketball"
+        "Gold",
+        "Silver",
+        "Platinum",
+        "Copper"
       ],
-      "answer": "Basketball",
-      "explanation": "A slam dunk (or simply 'dunk') occurs when a player jumps above the rim and throws the ball directly downward through the basket. It was banned in NCAA college basketball from 1967 to 1976 — largely because of Lew Alcindor (later Kareem Abdul-Jabbar) who was so dominant with it. Michael Jordan and LeBron James are famous for spectacular dunks.",
-      "memory_hook": "Slam dunk = basketball. The NBA literally banned it for 9 years because one player (Kareem) was too good at it. The most crowd-pleasing move in sports was once illegal."
+      "answer": "Gold",
+      "explanation": "Gold's chemical symbol Au comes from the Latin 'aurum.' It is one of the least reactive chemical elements, meaning it doesn't tarnish or corrode — a key reason it has been prized throughout history. Gold is so malleable that one ounce can be hammered into a sheet 100 square feet in size.",
+      "memory_hook": "Au = Gold. Latin: aurum. Non-reactive, hence its lasting value."
     },
     {
       "category": "Sports",
@@ -81,16 +81,16 @@
     },
     {
       "category": "Sports",
-      "question": "Which country has won the most Olympic gold medals in the history of the Summer Olympics?",
+      "question": "The modern Olympic Games were revived in 1896 in Athens. Which French baron and educator is credited as the primary founder of the modern Olympics?",
       "options": [
-        "China",
-        "Soviet Union",
-        "Great Britain",
-        "United States"
+        "Pierre de Coubertin",
+        "Henri Didon",
+        "Victor Duruy",
+        "Demetrius Vikelas"
       ],
-      "answer": "United States",
-      "explanation": "The United States has won more Olympic gold medals than any other country in Summer Olympics history, with over 1,000 gold medals. The Soviet Union (which competed from 1952-1988) and China are the only countries that have come close to challenging US dominance. The US consistently dominates in swimming, track and field, and gymnastics.",
-      "memory_hook": "USA = most Summer Olympic golds ever. Over 1,000 gold medals, more than any other nation in history. Swimming (Michael Phelps alone has 23 golds) and track are the biggest contributors."
+      "answer": "Pierre de Coubertin",
+      "explanation": "Pierre de Coubertin (1863-1937) was a French educator and historian who proposed reviving the Olympic Games in 1892. He founded the International Olympic Committee in 1894 and served as its second president. He also designed the iconic five-ring Olympic symbol.",
+      "memory_hook": "Pierre de Coubertin = founder of modern Olympics. French, 1896 Athens."
     },
     {
       "category": "Music/Movies",

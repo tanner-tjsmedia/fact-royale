@@ -1,0 +1,161 @@
+{
+  "date": "2026-09-02",
+  "questions": [
+    {
+      "category": "History",
+      "question": "The Korean War (1950-1953) ended with an armistice, not a peace treaty, leaving the Korean Peninsula divided at roughly which line of latitude?",
+      "options": [
+        "38th parallel",
+        "34th parallel",
+        "40th parallel",
+        "36th parallel"
+      ],
+      "answer": "38th parallel",
+      "explanation": "The armistice signed July 27, 1953 restored the boundary near the 38th parallel, where it had begun in 1950. The Demilitarized Zone (DMZ) is one of the world's most heavily fortified borders. Technically, North and South Korea remain in a state of war — no formal peace treaty has ever been signed.",
+      "memory_hook": "Korean War: ended at 38th parallel, 1953. Technically still no peace treaty."
+    },
+    {
+      "category": "Science",
+      "question": "The human genome contains approximately how many base pairs of DNA?",
+      "options": [
+        "3 billion",
+        "3 million",
+        "300 million",
+        "30 billion"
+      ],
+      "answer": "3 billion",
+      "explanation": "The human genome contains approximately 3 billion base pairs (3 × 10⁹) of DNA distributed across 23 pairs of chromosomes. However, only about 1.5% of the genome encodes proteins — the rest was once called 'junk DNA' but is now understood to have regulatory functions. The Human Genome Project completed sequencing in 2003.",
+      "memory_hook": "Human genome: 3 billion base pairs. Only 1.5% makes proteins. Sequenced fully in 2003."
+    },
+    {
+      "category": "Sports",
+      "question": "Which tennis player has won the most Wimbledon singles titles (men's), with 8 victories?",
+      "options": [
+        "Roger Federer",
+        "Pete Sampras",
+        "Novak Djokovic",
+        "Björn Borg"
+      ],
+      "answer": "Roger Federer",
+      "explanation": "Roger Federer won 8 Wimbledon singles titles (2003-2012 and 2017). Pete Sampras won 7, Novak Djokovic won 7, and Björn Borg won 5 consecutive titles (1976-1980). Federer's graceful all-court game and sportsmanship made him arguably the most beloved player in the sport's history.",
+      "memory_hook": "Federer: 8 Wimbledon titles. Sampras and Djokovic: 7 each. Borg: 5 consecutive."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Which 2010 film directed by Christopher Nolan explores the concept of entering people's dreams to steal or plant information?",
+      "options": [
+        "Inception",
+        "Interstellar",
+        "Memento",
+        "The Prestige"
+      ],
+      "answer": "Inception",
+      "explanation": "Inception (2010) starred Leonardo DiCaprio as a dream-thief hired to plant an idea (inception) into a businessman's mind. The film's plot featured dreams within dreams within dreams. It won four Academy Awards. The ending — whether DiCaprio's character is dreaming or awake — has been debated since its release.",
+      "memory_hook": "Inception 2010: Nolan, DiCaprio. Dreams within dreams. Ending is deliberately ambiguous."
+    },
+    {
+      "category": "Geography",
+      "question": "Which sea, bordered by Turkey, Ukraine, Russia, Romania, Bulgaria, and Georgia, is the world's largest meromictic body of water (with distinct non-mixing layers)?",
+      "options": [
+        "Black Sea",
+        "Caspian Sea",
+        "Red Sea",
+        "Aral Sea"
+      ],
+      "answer": "Black Sea",
+      "explanation": "The Black Sea's deep water is permanently anoxic (no oxygen) below about 150-200 meters — sustained by lack of water circulation. Organic matter is preserved in its depths due to the absence of decomposing bacteria needing oxygen. Ancient shipwrecks in the Black Sea are uniquely well-preserved as a result.",
+      "memory_hook": "Black Sea: deep water has no oxygen. Ancient shipwrecks preserved perfectly at depth."
+    },
+    {
+      "category": "History",
+      "question": "Which Roman general crossed the Alps with war elephants to attack Rome from the north during the Second Punic War?",
+      "options": [
+        "Hannibal Barca",
+        "Scipio Africanus",
+        "Pyrrhus",
+        "Vercingetorix"
+      ],
+      "answer": "Hannibal Barca",
+      "explanation": "Hannibal Barca of Carthage crossed the Alps in 218 BC with 37 war elephants and about 38,000 troops, invading Italy from the north. He won devastating victories at Trebia and Cannae but never sacked Rome. Rome ultimately defeated Carthage by attacking Carthage itself, drawing Hannibal home.",
+      "memory_hook": "Hannibal: Alps, elephants, 218 BC. Won at Trebia and Cannae. Never sacked Rome."
+    },
+    {
+      "category": "Pop Culture",
+      "question": "Which book series by J.R.R. Tolkien, set in the fictional world of Middle-earth, follows hobbit Frodo Baggins's quest to destroy the One Ring?",
+      "options": [
+        "The Lord of the Rings",
+        "The Hobbit",
+        "The Silmarillion",
+        "Unfinished Tales"
+      ],
+      "answer": "The Lord of the Rings",
+      "explanation": "The Lord of the Rings (1954-55) follows Frodo, Sam, and the Fellowship of the Ring from the Shire to Mount Doom. It has sold over 150 million copies and was voted 'greatest book of the 20th century' in British polls. Peter Jackson's film trilogy (2001-2003) won 17 Academy Awards total, including all 11 nominations for Return of the King.",
+      "memory_hook": "Lord of the Rings: 150M copies. Jackson's trilogy won 17 Oscars; Return of the King swept all 11."
+    },
+    {
+      "category": "Science",
+      "question": "What is the name of the scientist who proposed the theory of natural selection as the mechanism for evolution in 'On the Origin of Species' (1859)?",
+      "options": [
+        "Charles Darwin",
+        "Alfred Russel Wallace",
+        "Thomas Huxley",
+        "Jean-Baptiste Lamarck"
+      ],
+      "answer": "Charles Darwin",
+      "explanation": "Charles Darwin proposed natural selection as the mechanism of evolution after a five-year voyage on HMS Beagle (1831-36). Alfred Russel Wallace independently arrived at the same theory, prompting Darwin to publish. Darwin spent 23 years gathering evidence before publishing — worried about the theory's implications for religion.",
+      "memory_hook": "Darwin: natural selection, Origin of Species 1859. Waited 23 years, pushed to publish by Wallace."
+    },
+    {
+      "category": "Geography",
+      "question": "Which river, flowing through the heart of Europe, passes through or borders 10 countries — more than any other river in the world?",
+      "options": [
+        "Danube",
+        "Rhine",
+        "Elbe",
+        "Vistula"
+      ],
+      "answer": "Danube",
+      "explanation": "The Danube (2,860 km) flows through or borders Germany, Austria, Slovakia, Hungary, Croatia, Serbia, Bulgaria, Moldova, Romania, and Ukraine. It empties into the Black Sea. It has been a major transportation corridor for millennia. Vienna, Bratislava, Budapest, and Belgrade all sit on the Danube.",
+      "memory_hook": "Danube: 10 countries, most of any river. Vienna, Bratislava, Budapest, Belgrade all on its banks."
+    },
+    {
+      "category": "History",
+      "question": "The first artificial satellite, Sputnik 1, was launched into orbit on October 4, 1957, by which country?",
+      "options": [
+        "Soviet Union",
+        "United States",
+        "Germany",
+        "China"
+      ],
+      "answer": "Soviet Union",
+      "explanation": "Sputnik 1 was launched by the Soviet Union on October 4, 1957, shocking the United States. About the size of a beach ball (58 cm diameter, 83 kg), it transmitted radio signals for 21 days. Its launch triggered the Space Race and led directly to the creation of NASA in 1958 and DARPA.",
+      "memory_hook": "Sputnik 1: USSR, Oct 4, 1957. Size of a beach ball. Triggered creation of NASA."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Which female pop star, known for elaborate costumes and the 'Little Monsters' fanbase, burst onto the scene with 'Just Dance' in 2008 and the album 'The Fame'?",
+      "options": [
+        "Lady Gaga",
+        "Katy Perry",
+        "Kesha",
+        "Nicki Minaj"
+      ],
+      "answer": "Lady Gaga",
+      "explanation": "Lady Gaga (Stefani Germanotta) co-wrote and performed 'Just Dance' in 2008, which spent 22 weeks on the Billboard Hot 100 before reaching #1. The Fame sold 15 million albums. She has won multiple Grammys and won the Academy Award for Best Original Song for 'Shallow' (A Star Is Born, 2018).",
+      "memory_hook": "Lady Gaga: 'Just Dance' 2008, The Fame. Won Oscar for 'Shallow.' Born Stefani Germanotta."
+    },
+    {
+      "category": "Sports",
+      "question": "In baseball, what is the term for when a pitcher retires all 27 batters faced without any of them reaching base?",
+      "options": [
+        "Perfect game",
+        "No-hitter",
+        "Shutout",
+        "Complete game"
+      ],
+      "answer": "Perfect game",
+      "explanation": "A perfect game is rarer than a no-hitter — the pitcher must face exactly 27 batters and retire them all (no hits, no walks, no errors). Only 23 perfect games have been thrown in MLB history. Don Larsen's perfect game in the 1956 World Series is the most famous. A no-hitter allows no hits but the pitcher may walk batters.",
+      "memory_hook": "Perfect game: 27 up, 27 down. Only 23 in MLB history. Rarer than a no-hitter."
+    }
+  ]
+}

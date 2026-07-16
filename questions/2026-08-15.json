@@ -55,16 +55,16 @@
     },
     {
       "category": "Sports",
-      "question": "Which country has won the most Olympic gold medals in wrestling overall?",
+      "question": "In which Japanese martial art do competitors earn points by throwing, pinning, or forcing their opponent to submit — with a perfect throw earning an 'ippon' and immediate victory?",
       "options": [
-        "Japan",
-        "Iran",
-        "Turkey",
-        "United States"
+        "Judo",
+        "Sumo",
+        "Karate",
+        "Aikido"
       ],
-      "answer": "United States",
-      "explanation": "The United States has won the most Olympic gold medals in wrestling across all weight classes and styles (freestyle and Greco-Roman) since wrestling became an Olympic sport in 1896. However, in specific styles, other nations dominate — the Soviet Union/Russia has been dominant in Greco-Roman, while Iran and Turkey consistently produce world-class freestyle wrestlers.",
-      "memory_hook": "USA leads overall in Olympic wrestling gold medals. But each style has different dominators — Russia in Greco-Roman, Iran and Turkey in freestyle at different weights. Wrestling is one of humanity's oldest competitive sports, depicted in Egyptian hieroglyphics and Greek pottery."
+      "answer": "Judo",
+      "explanation": "Judo, meaning 'gentle way,' was developed by Jigoro Kano in Japan in 1882. An ippon (full point) is awarded for a clean throw landing the opponent on their back, a 25-second pin, or a submission. Judo was the first Asian martial art to become an Olympic sport, debuting at the 1964 Tokyo Games.",
+      "memory_hook": "Judo: 'gentle way,' ippon = instant win. Olympic since 1964 Tokyo."
     },
     {
       "category": "Sports",
@@ -120,16 +120,16 @@
     },
     {
       "category": "Music/Movies",
-      "question": "Which actress played Clarice Starling opposite Anthony Hopkins in The Silence of the Lambs?",
+      "question": "Which actress played Ellen Ripley — one of cinema's most iconic action heroines — in the 'Alien' franchise, beginning with Ridley Scott's 1979 original film?",
       "options": [
-        "Jodie Foster",
         "Sigourney Weaver",
-        "Meryl Streep",
-        "Glenn Close"
+        "Linda Hamilton",
+        "Jamie Lee Curtis",
+        "Carrie Fisher"
       ],
-      "answer": "Jodie Foster",
-      "explanation": "Jodie Foster played FBI trainee Clarice Starling in The Silence of the Lambs (1991), winning the Academy Award for Best Actress. The film also features Anthony Hopkins as Dr. Hannibal Lecter and won all five major Oscars. Foster had a complicated relationship with the role — the film's depiction of transgender characters has been criticized, though Foster's performance itself was universally praised.",
-      "memory_hook": "Jodie Foster = Clarice Starling. Won Best Actress. The Silence of the Lambs swept all five major Oscars — only the third film ever. Foster and Hopkins had very few scenes together, but their exchanges are some of cinema's most intense. Lecter eats and compliments her in the same breath."
+      "answer": "Sigourney Weaver",
+      "explanation": "Sigourney Weaver's portrayal of Ellen Ripley in 'Alien' (1979) broke conventions for female roles in science fiction and horror. She received an Academy Award nomination for 'Aliens' (1986) — rare for a sci-fi/action performance. She reprised the role in three sequels and remains associated with the franchise.",
+      "memory_hook": "Sigourney Weaver = Ellen Ripley. Alien franchise since 1979."
     },
     {
       "category": "Geography",

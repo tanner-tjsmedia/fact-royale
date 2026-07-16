@@ -16,16 +16,16 @@
     },
     {
       "category": "History",
-      "question": "Which Roman emperor made Christianity the official religion of the Roman Empire?",
+      "question": "Which Roman emperor, who reigned from 27 BC to 14 AD, is considered the first true Roman Emperor and gave his name to the month of August?",
       "options": [
-        "Marcus Aurelius",
+        "Augustus",
+        "Julius Caesar",
         "Nero",
-        "Constantine I",
-        "Augustus"
+        "Caligula"
       ],
-      "answer": "Constantine I",
-      "explanation": "Constantine I issued the Edict of Milan in 313 AD, granting religious tolerance throughout the Roman Empire. He was the first Roman emperor to convert to Christianity (though baptism came only on his deathbed). His mother Helena traveled to the Holy Land and allegedly identified the true cross. Emperor Theodosius I later made Christianity the official state religion in 380 AD, but Constantine's earlier patronage was decisive.",
-      "memory_hook": "Constantine = first Christian emperor. Edict of Milan 313 AD. He saw a cross in the sky before battle and credited his victory to Christ. Changed the Roman Empire — and therefore Western civilization — permanently. He was baptized on his deathbed, waiting until the last moment."
+      "answer": "Augustus",
+      "explanation": "Augustus (born Gaius Octavius) became Rome's first emperor after defeating Mark Antony and Cleopatra in 31 BC. He transformed Rome from a republic into an empire and presided over the 'Pax Romana' — two centuries of relative peace. The month of August was renamed in his honor.",
+      "memory_hook": "Augustus = first Roman Emperor. August named after him. Pax Romana."
     },
     {
       "category": "History",
@@ -68,16 +68,16 @@
     },
     {
       "category": "Sports",
-      "question": "Which country has won the most FIFA Women's World Cup titles?",
+      "question": "Who became the first Black man to win the Wimbledon men's singles title, achieving the feat in 1975 and also co-founding the National Junior Tennis League to increase access to the sport?",
       "options": [
-        "Germany",
-        "Sweden",
-        "Brazil",
-        "United States"
+        "Arthur Ashe",
+        "Jimmy Connors",
+        "Björn Borg",
+        "Ilie Nastase"
       ],
-      "answer": "United States",
-      "explanation": "The United States women's national soccer team (USWNT) has won the FIFA Women's World Cup four times (1991, 1999, 2015, 2019) — more than any other country. The 1999 World Cup, held in the US and won in a dramatic penalty shootout against China at the Rose Bowl, is considered a watershed moment for women's sports in America. Brandi Chastain's jersey-removing celebration after the winning penalty became iconic.",
-      "memory_hook": "USWNT = 4 Women's World Cups, most ever. The 1999 final at the Rose Bowl had 90,000 fans — the largest crowd ever for a women's sporting event. Mia Hamm, Brandi Chastain, Julie Foudy — they changed how America viewed women in sports."
+      "answer": "Arthur Ashe",
+      "explanation": "Arthur Ashe won Wimbledon in 1975, defeating Jimmy Connors in a tactical masterclass. He was the first Black player to win the US Open (1968), Australian Open (1970), and Wimbledon (1975). He later contracted HIV from a blood transfusion and became an activist before his death in 1993.",
+      "memory_hook": "Arthur Ashe: first Black Wimbledon champion, 1975. Defeated Connors."
     },
     {
       "category": "Sports",

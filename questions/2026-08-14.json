@@ -3,20 +3,20 @@
   "questions": [
     {
       "category": "History",
-      "question": "Who wrote 'The Art of War,' an ancient Chinese military strategy text still studied today?",
+      "question": "Alexander the Great built one of history's largest empires by age 32. He was tutored by Aristotle and came from which ancient kingdom adjacent to northern Greece?",
       "options": [
-        "Confucius",
-        "Lao Tzu",
-        "Mencius",
-        "Sun Tzu"
+        "Macedonia",
+        "Thrace",
+        "Epirus",
+        "Persia"
       ],
-      "answer": "Sun Tzu",
-      "explanation": "Sun Tzu wrote The Art of War around the 5th century BC. The text covers military strategy, tactics, and philosophy in 13 chapters. It is one of the most translated and read military strategy books in history. Beyond military use, it has been applied to business, sports, and politics. Quotes like 'Know your enemy and know yourself' and 'Supreme excellence consists in breaking the enemy's resistance without fighting' remain widely cited.",
-      "memory_hook": "Sun Tzu = The Art of War. 2,500 years old, still relevant. Generals, CEOs, and coaches all claim to follow it. 'The supreme art of war is to subdue the enemy without fighting.' A military text that teaches how to avoid fighting."
+      "answer": "Macedonia",
+      "explanation": "Alexander the Great (356-323 BC) was born in Pella, the capital of the ancient kingdom of Macedon. His father, Philip II, had already made Macedon the dominant power in Greece. Alexander went on to conquer Persia, Egypt, and parts of India, spreading Greek culture across a vast empire before dying at age 32 in Babylon.",
+      "memory_hook": "Alexander the Great: Macedon, tutored by Aristotle, conquered to India by 32."
     },
     {
       "category": "History",
-      "question": "The Persian Wars, including the famous battles of Marathon and Thermopylae, were fought between Greece and which empire?",
+      "question": "The battles of Marathon, Thermopylae, and Salamis — fought between 490 and 480 BC — were all part of conflicts between Greek city-states and which ancient empire?",
       "options": [
         "Macedonian Empire",
         "Roman Empire",
@@ -24,8 +24,8 @@
         "Persian Empire"
       ],
       "answer": "Persian Empire",
-      "explanation": "The Persian Wars (490-479 BC) were a series of conflicts between the Greek city-states and the Persian Empire. The Battle of Marathon (490 BC) saw Athens defeat a larger Persian force. Thermopylae (480 BC) saw 300 Spartans (plus allies) delay a massive Persian army for three days. The subsequent battles of Salamis (sea) and Plataea ended the Persian invasion and secured Greek independence.",
-      "memory_hook": "Persian Wars = Greece vs Persia. Marathon (490 BC) gave us the marathon distance. Thermopylae's 300 Spartans held off tens of thousands for three days. The Athenian victory preserved the democracy and philosophy that became the foundation of Western civilization."
+      "explanation": "The Greco-Persian Wars pitted Greek city-states against the Achaemenid Persian Empire. The Battle of Marathon (490 BC), the famous 300 Spartans at Thermopylae (480 BC), and the naval victory at Salamis (480 BC) were key engagements. Greece ultimately repelled the invasions.",
+      "memory_hook": "Marathon + Thermopylae + Salamis = Greece vs. Persia. The 300 Spartans held Thermopylae."
     },
     {
       "category": "History",

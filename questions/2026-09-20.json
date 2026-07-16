@@ -1,0 +1,161 @@
+{
+  "date": "2026-09-20",
+  "questions": [
+    {
+      "category": "History",
+      "question": "The Industrial Revolution began in which country, around 1760-1840, driven by coal, steam power, and textile machinery?",
+      "options": [
+        "Britain",
+        "France",
+        "Germany",
+        "United States"
+      ],
+      "answer": "Britain",
+      "explanation": "The Industrial Revolution began in Britain, driven by coal and James Watt's steam engine (1769). By 1850, Britain produced half the world's iron and cotton cloth. Britain's advantages included coal reserves, merchant fleet, patent laws, and colonial trade capital.",
+      "memory_hook": "Industrial Revolution: Britain, ~1760-1840. Watt's steam engine 1769. By 1850: half world's iron."
+    },
+    {
+      "category": "Science",
+      "question": "What is the term for the minimum energy required to remove an electron from an atom, which increases moving right across a period?",
+      "options": [
+        "Ionization energy",
+        "Electron affinity",
+        "Electronegativity",
+        "Atomic radius"
+      ],
+      "answer": "Ionization energy",
+      "explanation": "Ionization energy increases left to right across periods (nuclear charge increases, holding electrons tighter) and decreases top to bottom in groups. Noble gases have the highest ionization energies.",
+      "memory_hook": "Ionization energy: increases right across a period. Noble gases highest. Decreases down a group."
+    },
+    {
+      "category": "Sports",
+      "question": "Which country won the 2019 Rugby World Cup in Japan, defeating England 32-12 in the final?",
+      "options": [
+        "South Africa",
+        "New Zealand",
+        "Wales",
+        "Australia"
+      ],
+      "answer": "South Africa",
+      "explanation": "South Africa won their third Rugby World Cup in 2019, defeating England 32-12. Captain Siya Kolisi became the first Black captain to lift the Webb Ellis Cup.",
+      "memory_hook": "2019 RWC: South Africa beat England 32-12. Siya Kolisi = first Black Springbok captain to win."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Which legendary Bob Dylan album (1965), featuring 'Like a Rolling Stone,' marked his electric transition from folk music?",
+      "options": [
+        "Highway 61 Revisited",
+        "Blonde on Blonde",
+        "Bringing It All Back Home",
+        "Blood on the Tracks"
+      ],
+      "answer": "Highway 61 Revisited",
+      "explanation": "Highway 61 Revisited (1965) marked Dylan's electric transition, angering folk purists. 'Like a Rolling Stone' at 6 minutes was revolutionary for pop radio. Rolling Stone magazine ranked it the #1 song of all time. Dylan won the Nobel Prize in Literature in 2016.",
+      "memory_hook": "Dylan's 'Highway 61 Revisited' 1965. 'Like a Rolling Stone' = Rolling Stone's #1 song ever. Dylan won Nobel 2016."
+    },
+    {
+      "category": "Geography",
+      "question": "Ethiopia is the world's most populous landlocked country and the source of the Blue Nile. Which lake is the Blue Nile's source?",
+      "options": [
+        "Lake Tana",
+        "Lake Victoria",
+        "Lake Turkana",
+        "Lake Malawi"
+      ],
+      "answer": "Lake Tana",
+      "explanation": "Ethiopia's Lake Tana is the source of the Blue Nile, which contributes 85% of the Nile's water and sediment. Ethiopia is the world's most populous landlocked country. It is NOT Africa's largest country — Algeria is.",
+      "memory_hook": "Lake Tana (Ethiopia): Blue Nile source. Blue Nile = 85% of Nile's water. Ethiopia = most populous landlocked country."
+    },
+    {
+      "category": "History",
+      "question": "The Battle of Thermopylae (480 BC) was fought during which broader conflict?",
+      "options": [
+        "Greco-Persian Wars",
+        "Peloponnesian War",
+        "Punic Wars",
+        "Macedonian Wars"
+      ],
+      "answer": "Greco-Persian Wars",
+      "explanation": "Thermopylae (480 BC) was part of the Greco-Persian Wars (499-449 BC). Persia burned Athens but lost at sea at Salamis and on land at Plataea.",
+      "memory_hook": "Thermopylae: Greco-Persian Wars. Persia burned Athens but lost at Salamis (sea) and Plataea (land)."
+    },
+    {
+      "category": "Pop Culture",
+      "question": "Which 2010 Christopher Nolan film, about a heist in layered dreams, starred DiCaprio, Gordon-Levitt, and Ellen Page?",
+      "options": [
+        "Inception",
+        "Interstellar",
+        "The Dark Knight Rises",
+        "Tenet"
+      ],
+      "answer": "Inception",
+      "explanation": "Inception (2010) features Cobb (DiCaprio) and team performing 'inception' — planting an idea through layered dreams. It won 4 Oscars. Hans Zimmer's score was based on slowed-down Edith Piaf.",
+      "memory_hook": "Inception 2010: DiCaprio, Gordon-Levitt. Zimmer score = slowed Edith Piaf. 4 Oscars. $836M."
+    },
+    {
+      "category": "Science",
+      "question": "Which technique, developed by Kary Mullis in 1983, amplifies small DNA samples millions of times, enabling forensics and COVID testing?",
+      "options": [
+        "PCR (Polymerase Chain Reaction)",
+        "Gel electrophoresis",
+        "DNA sequencing",
+        "CRISPR-Cas9"
+      ],
+      "answer": "PCR (Polymerase Chain Reaction)",
+      "explanation": "PCR revolutionized biology and forensics. Mullis won the 1993 Nobel Prize in Chemistry. It amplifies DNA exponentially through heat/cool cycles.",
+      "memory_hook": "PCR: Mullis 1983, Nobel 1993. Amplifies DNA millions of times. Foundation of COVID tests + forensics."
+    },
+    {
+      "category": "Geography",
+      "question": "Which mountain range forms the conventional geographic boundary between Europe and Asia, running north-south through Russia?",
+      "options": [
+        "Ural Mountains",
+        "Caucasus Mountains",
+        "Carpathian Mountains",
+        "Altai Mountains"
+      ],
+      "answer": "Ural Mountains",
+      "explanation": "The Ural Mountains (2,500 km long) are the conventional Europe-Asia boundary. One of Earth's oldest ranges — eroded to modest heights. Highest peak: 1,895 m.",
+      "memory_hook": "Ural Mountains: Europe-Asia border, 2,500 km. Ancient and worn down — highest point only 1,895m."
+    },
+    {
+      "category": "History",
+      "question": "Which Roman structure, completed in 80 AD, could hold 80,000 spectators and was built using an estimated 100,000 slaves?",
+      "options": [
+        "The Colosseum",
+        "Circus Maximus",
+        "Pantheon",
+        "Forum Romanum"
+      ],
+      "answer": "The Colosseum",
+      "explanation": "The Flavian Amphitheatre (Colosseum), completed 80 AD, was built by 100,000 Judaean slaves. It held 80,000 spectators for gladiator combat, animal hunts, and even mock naval battles. Used for about 400 years.",
+      "memory_hook": "Colosseum: 80 AD, 80K capacity, 100K slaves built it. Could flood for naval battles."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Which Radiohead album (1997), featuring 'Paranoid Android,' is widely considered one of the most important albums of the 1990s?",
+      "options": [
+        "OK Computer",
+        "The Bends",
+        "Kid A",
+        "Pablo Honey"
+      ],
+      "answer": "OK Computer",
+      "explanation": "OK Computer (1997) explored alienation and technology. Won Grammy for Best Alternative Album. Pitchfork named it best album of the 1990s.",
+      "memory_hook": "OK Computer 1997: Grammy-winning. Pitchfork's best of the '90s. Paranoid Android."
+    },
+    {
+      "category": "Sports",
+      "question": "Which four countries have participated in every Summer Olympic Games since the modern Olympics began in 1896?",
+      "options": [
+        "Greece, Great Britain, France, and Australia",
+        "USA, Greece, Britain, France",
+        "Germany, Italy, France, UK",
+        "Greece, USA, Germany, Australia"
+      ],
+      "answer": "Greece, Great Britain, France, and Australia",
+      "explanation": "Greece, Great Britain, France, and Australia are the only countries that have participated in all Summer Olympics since 1896. Greece hosted the first modern Games.",
+      "memory_hook": "Greece, Great Britain, France, Australia: only 4 countries at every Summer Olympics since 1896."
+    }
+  ]
+}

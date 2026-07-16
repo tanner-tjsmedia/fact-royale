@@ -2,16 +2,16 @@
   "questions": [
     {
       "category": "History",
-      "question": "Which U.S. president was known as 'Honest Abe'?",
+      "question": "Which U.S. president, who served from 1809 to 1817, famously declared war on Britain in the War of 1812 and is sometimes called 'the Father of the Constitution'?",
       "options": [
-        "George Washington",
-        "Ulysses S. Grant",
-        "Abraham Lincoln",
-        "Benjamin Harrison"
+        "James Madison",
+        "James Monroe",
+        "John Adams",
+        "Andrew Jackson"
       ],
-      "answer": "Abraham Lincoln",
-      "explanation": "Abraham Lincoln earned the nickname 'Honest Abe' early in life for his reputation for integrity. As a young man, he reportedly walked miles to return a few cents he had overcharged a customer. He is consistently ranked as one of the greatest U.S. presidents in historical surveys.",
-      "memory_hook": "Honest Abe walked miles to return pennies. That's the origin of the nickname."
+      "answer": "James Madison",
+      "explanation": "James Madison served as the 4th U.S. President (1809-1817) and is often called the 'Father of the Constitution' for his pivotal role in drafting it. He declared war on Britain in 1812 — the only time the U.S. has been invaded by a foreign power since independence.",
+      "memory_hook": "Madison = 4th president, War of 1812, Father of the Constitution."
     },
     {
       "category": "History",
@@ -93,16 +93,16 @@
     },
     {
       "category": "Music/Movies",
-      "question": "What band is 'Stairway to Heaven' by?",
+      "question": "Which British punk band, formed in London in 1975, released 'Never Mind the Bollocks, Here's the Sex Pistols' and defined the punk rock movement?",
       "options": [
-        "Deep Purple",
-        "Black Sabbath",
-        "Led Zeppelin",
-        "Cream"
+        "Sex Pistols",
+        "The Clash",
+        "The Ramones",
+        "The Damned"
       ],
-      "answer": "Led Zeppelin",
-      "explanation": "'Stairway to Heaven' was written by Jimmy Page and Robert Plant and appears on Led Zeppelin's untitled fourth album (1971). It is often cited as the greatest rock song ever written. The song famously starts quiet and builds to a thundering climax. It has never been released as a single.",
-      "memory_hook": "Stairway to Heaven: Led Zeppelin built a song that still hasn't reached the top."
+      "answer": "Sex Pistols",
+      "explanation": "The Sex Pistols formed in London in 1975 and released their only studio album 'Never Mind the Bollocks, Here's the Sex Pistols' in 1977. Though they existed for only about two years, they are widely credited with launching the British punk movement and influencing countless bands.",
+      "memory_hook": "Sex Pistols = British punk, 1977. One album, huge impact."
     },
     {
       "category": "History",

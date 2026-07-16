@@ -1,0 +1,161 @@
+{
+  "date": "2026-09-26",
+  "questions": [
+    {
+      "category": "History",
+      "question": "Which leader made Ghana the first sub-Saharan African colony to achieve independence from European rule in 1957?",
+      "options": [
+        "Kwame Nkrumah",
+        "Jomo Kenyatta",
+        "Julius Nyerere",
+        "Leopold Senghor"
+      ],
+      "answer": "Kwame Nkrumah",
+      "explanation": "Kwame Nkrumah led Ghana (formerly Gold Coast) to independence on March 6, 1957. He was a pan-African visionary. Overthrown in a 1966 military coup while visiting China.",
+      "memory_hook": "Kwame Nkrumah: Ghana independence 1957 — first sub-Saharan African colony to be free. Overthrown 1966 in China."
+    },
+    {
+      "category": "Science",
+      "question": "Earth's mantle makes up what percentage of Earth's volume, and what drives tectonic plate movement?",
+      "options": [
+        "84% of volume; convection currents in the mantle",
+        "50% of volume; the core's magnetic field",
+        "30% of volume; seafloor spreading alone",
+        "84% of volume; rotation of the Earth"
+      ],
+      "answer": "84% of volume; convection currents in the mantle",
+      "explanation": "Earth's mantle (84% of Earth's volume) is solid rock that flows slowly over millions of years via convection currents — hotter material rises, cooler material sinks. This drives plate tectonics.",
+      "memory_hook": "Mantle: 84% of Earth's volume. Convection currents drive plate tectonics. Solid but flows very slowly."
+    },
+    {
+      "category": "Sports",
+      "question": "Lionel Messi won his record 8th Ballon d'Or after which tournament victory?",
+      "options": [
+        "2022 FIFA World Cup with Argentina",
+        "2021 Copa América with Argentina",
+        "2023 Champions League with PSG",
+        "2022 Copa del Rey with Barcelona"
+      ],
+      "answer": "2022 FIFA World Cup with Argentina",
+      "explanation": "Messi won his 8th Ballon d'Or following Argentina's 2022 World Cup victory — widely considered the greatest World Cup final ever, with France beaten in a dramatic penalty shootout after a 3-3 draw.",
+      "memory_hook": "Messi: 8th Ballon d'Or after 2022 World Cup with Argentina. 3-3 vs France, won on penalties."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Greta Gerwig's 'Barbie' (2023) starring Margot Robbie grossed how much — making it the highest-grossing film directed by a woman?",
+      "options": [
+        "$1.44 billion",
+        "$800 million",
+        "$2 billion",
+        "$500 million"
+      ],
+      "answer": "$1.44 billion",
+      "explanation": "Barbie (2023) grossed $1.44 billion worldwide. Directed by Greta Gerwig. Also starred Ryan Gosling as Ken. The film sparked shortages of pink paint worldwide and widespread cultural conversation about feminism.",
+      "memory_hook": "Barbie 2023: $1.44B, highest-grossing film by a woman director. Greta Gerwig, Margot Robbie, Ryan Gosling."
+    },
+    {
+      "category": "Geography",
+      "question": "Monaco is the world's second-smallest country (after Vatican City). What is its area, and why do wealthy people live there?",
+      "options": [
+        "2.02 km²; no income tax",
+        "1.95 km²; no property tax",
+        "0.44 km²; no inheritance tax",
+        "5 km²; gambling revenue supports residents"
+      ],
+      "answer": "2.02 km²; no income tax",
+      "explanation": "Monaco (2.02 km²) has no income tax, making it attractive to wealthy residents. Most densely populated sovereign state at ~26,000 people/km². Monte Carlo Casino was founded 1863. Prince Albert II rules today.",
+      "memory_hook": "Monaco: 2.02 km², no income tax. World's most densely populated country. Monte Carlo Casino founded 1863."
+    },
+    {
+      "category": "History",
+      "question": "The Marshall Plan was announced in 1947 and provided how much U.S. aid to rebuild Western Europe?",
+      "options": [
+        "$13 billion (1948-1952)",
+        "$50 billion",
+        "$1 billion",
+        "$100 billion"
+      ],
+      "answer": "$13 billion (1948-1952)",
+      "explanation": "Secretary of State George Marshall announced the European Recovery Program at Harvard on June 5, 1947. $13 billion was authorized over four years. It prevented communist takeovers in war-devastated Western Europe. Marshall won the Nobel Peace Prize 1953.",
+      "memory_hook": "Marshall Plan: $13B (1948-52). Announced at Harvard June 5, 1947. Marshall won Nobel 1953."
+    },
+    {
+      "category": "Pop Culture",
+      "question": "Instagram was founded in 2010 and acquired by Facebook for how much, just 18 months after launching?",
+      "options": [
+        "$1 billion",
+        "$500 million",
+        "$5 billion",
+        "$19 billion"
+      ],
+      "answer": "$1 billion",
+      "explanation": "Instagram launched October 6, 2010, with its square photo format and filter system. Facebook acquired it for $1 billion in April 2012 — considered an incredible bargain in retrospect. Now has 2 billion+ monthly users.",
+      "memory_hook": "Instagram: Oct 2010 launch. Acquired by Facebook for $1B in 2012 — now worth astronomically more."
+    },
+    {
+      "category": "Science",
+      "question": "How does mass differ from weight, and how does your weight change on the Moon?",
+      "options": [
+        "Mass is constant; weight = mass × gravity. On Moon: same mass, 1/6 the weight",
+        "Mass changes with gravity; weight stays constant",
+        "Both change on the Moon",
+        "Mass doubles on the Moon; weight stays the same"
+      ],
+      "answer": "Mass is constant; weight = mass × gravity. On Moon: same mass, 1/6 the weight",
+      "explanation": "Mass (kg) is constant anywhere. Weight (Newtons) = mass × gravitational acceleration. The Moon's gravity is ~1/6 of Earth's, so your weight on the Moon is 1/6 what it is on Earth — but your mass is identical.",
+      "memory_hook": "Mass = constant. Weight = mass × gravity. Moon: same mass, 1/6 the weight. W=mg."
+    },
+    {
+      "category": "Geography",
+      "question": "Oslo, Norway's capital, has had which other names in its history?",
+      "options": [
+        "Christiania (1624-1877), then Kristiania (until 1925), then Oslo",
+        "Bergen (until 1814), then Christiania, then Oslo",
+        "Always been called Oslo since Viking times",
+        "Christiansand until 1925, then Oslo"
+      ],
+      "answer": "Christiania (1624-1877), then Kristiania (until 1925), then Oslo",
+      "explanation": "Oslo was rebuilt and renamed Christiania by King Christian IV after a fire in 1624. Spelling changed to Kristiania in 1877. The city reverted to Oslo in 1925. Vigeland Sculpture Park (free, 24 hours) is the world's largest single-artist sculpture park.",
+      "memory_hook": "Oslo: named Christiania 1624, Kristiania 1877, back to Oslo 1925. Vigeland Park = world's largest single-artist sculpture park."
+    },
+    {
+      "category": "History",
+      "question": "Tinker v. Des Moines (1969) established what landmark principle about students' rights?",
+      "options": [
+        "Students don't shed their constitutional rights at the schoolhouse gate",
+        "Students have no First Amendment rights during class",
+        "Schools can censor student newspapers",
+        "Teachers can restrict any speech they deem disruptive"
+      ],
+      "answer": "Students don't shed their constitutional rights at the schoolhouse gate",
+      "explanation": "Tinker v. Des Moines (1969) arose when Iowa students wore black armbands protesting Vietnam. The Supreme Court ruled 7-2 for the students. Justice Abe Fortas wrote: 'Students do not shed their constitutional rights at the schoolhouse gate.'",
+      "memory_hook": "Tinker v. Des Moines 1969: armband protest won. 'Don't shed rights at the schoolhouse gate.' First Amendment for students."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Elton John and Bernie Taupin: who writes the words and who writes the music?",
+      "options": [
+        "Taupin writes words; Elton John sets them to music (often in under an hour)",
+        "Elton John writes words and music; Taupin produces",
+        "Both collaborate equally on each song",
+        "Taupin writes music; Elton writes words"
+      ],
+      "answer": "Taupin writes words; Elton John sets them to music (often in under an hour)",
+      "explanation": "Taupin sends lyrics to Elton, who then composes music — often in under an hour. This unique long-distance collaboration has lasted 50+ years. Elton John sold 300M records and holds the record for fastest-selling single ('Candle in the Wind' 1997: 33M copies in 37 days).",
+      "memory_hook": "Elton + Taupin: Taupin writes words, Elton sets music. 300M records. 'Candle in the Wind' 1997 = fastest-selling single ever."
+    },
+    {
+      "category": "Sports",
+      "question": "Wimbledon is the only Grand Slam played on grass. When was it first held, and how much strawberries are consumed per tournament?",
+      "options": [
+        "First held 1877; about 23 tonnes of strawberries consumed per tournament",
+        "First held 1905; about 5 tonnes consumed",
+        "First held 1877; about 5 tonnes consumed",
+        "First held 1881; about 50 tonnes consumed"
+      ],
+      "answer": "First held 1877; about 23 tonnes of strawberries consumed per tournament",
+      "explanation": "Wimbledon is the oldest Grand Slam, first held in 1877. Strawberries and cream is the signature tradition — about 23 tonnes (with 7,000 liters of cream) consumed per tournament.",
+      "memory_hook": "Wimbledon: oldest Grand Slam (1877). Grass courts. All-white clothing. 23 tonnes of strawberries per tournament."
+    }
+  ]
+}

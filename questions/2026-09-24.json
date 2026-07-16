@@ -1,0 +1,161 @@
+{
+  "date": "2026-09-24",
+  "questions": [
+    {
+      "category": "History",
+      "question": "In the Korean War, who backed North Korea and who backed South Korea?",
+      "options": [
+        "USSR + China backed North Korea; USA + UN backed South Korea",
+        "USA backed North Korea; USSR backed South Korea",
+        "China alone backed North Korea; USA alone backed South Korea",
+        "No external powers were involved"
+      ],
+      "answer": "USSR + China backed North Korea; USA + UN backed South Korea",
+      "explanation": "The Korean War was a proxy Cold War conflict. The USSR provided equipment and advisors; China entered in October 1950 with 300,000+ troops. The US led 21 UN member nations for South Korea. Armistice signed July 27, 1953.",
+      "memory_hook": "Korean War: USSR + China → North Korea; USA + 21 UN nations → South Korea. China sent 300K troops."
+    },
+    {
+      "category": "Science",
+      "question": "What does Boyle's Law state?",
+      "options": [
+        "At constant temperature, pressure and volume are inversely related (P₁V₁ = P₂V₂)",
+        "At constant pressure, volume and temperature are proportional",
+        "At constant volume, pressure and temperature are proportional",
+        "All gases have the same number of molecules per liter"
+      ],
+      "answer": "At constant temperature, pressure and volume are inversely related (P₁V₁ = P₂V₂)",
+      "explanation": "Boyle's Law (Robert Boyle, 1662): P₁V₁ = P₂V₂ at constant temperature. Doubling volume halves pressure. This explains why a sealed syringe gets harder to compress — and why deep-sea fish explode when brought to the surface.",
+      "memory_hook": "Boyle's Law: pressure × volume = constant. P up = V down. Deep-sea fish brought up = they explode."
+    },
+    {
+      "category": "Sports",
+      "question": "In cricket, what does 'all out' mean?",
+      "options": [
+        "10 of 11 batsmen have been dismissed",
+        "All fielders have rotated positions",
+        "The team has declared their innings closed",
+        "A bowler has bowled all their permitted overs"
+      ],
+      "answer": "10 of 11 batsmen have been dismissed",
+      "explanation": "A cricket team is 'all out' when 10 batsmen are dismissed — one can remain 'not out' as you need a partner to bat. A team can also 'declare' their innings closed voluntarily.",
+      "memory_hook": "All out cricket: 10 of 11 dismissed. Last batsman must have a partner, so can't be dismissed alone."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Which Pixar film (2017) set during Mexico's Day of the Dead became the highest-grossing film in Mexico's history?",
+      "options": [
+        "Coco",
+        "The Book of Life",
+        "Soul",
+        "Encanto"
+      ],
+      "answer": "Coco",
+      "explanation": "Coco (2017) won the Oscars for Best Animated Feature and Best Original Song ('Remember Me'). It became the highest-grossing film ever in Mexico. Gael García Bernal voiced a key character.",
+      "memory_hook": "Coco 2017: Day of the Dead, 2 Oscars, highest-grossing film in Mexico ever."
+    },
+    {
+      "category": "Geography",
+      "question": "Which ocean current carries warm water northward along the U.S. East Coast and across the Atlantic, keeping Western Europe 5-10°C warmer?",
+      "options": [
+        "Gulf Stream",
+        "California Current",
+        "North Pacific Current",
+        "Humboldt Current"
+      ],
+      "answer": "Gulf Stream",
+      "explanation": "The Gulf Stream flows at about 2.5 m/s, carrying 30 times more water than all the world's rivers combined. Without it, Western Europe would be 5-10°C colder — think Canadian climate in London.",
+      "memory_hook": "Gulf Stream: 30x more water than all rivers. Keeps Western Europe warmer. London without it = like Newfoundland."
+    },
+    {
+      "category": "History",
+      "question": "Mao Zedong proclaimed the People's Republic of China on October 1, 1949, from where?",
+      "options": [
+        "Tiananmen Gate, Beijing",
+        "The Forbidden City",
+        "Shanghai Bund",
+        "The Great Hall of the People"
+      ],
+      "answer": "Tiananmen Gate, Beijing",
+      "explanation": "Mao proclaimed the PRC from Tiananmen Gate on October 1, 1949. Chiang Kai-shek's Nationalists retreated to Taiwan. Mao's Great Leap Forward and Cultural Revolution caused tens of millions of deaths.",
+      "memory_hook": "Mao: PRC proclaimed from Tiananmen Gate, Oct 1, 1949. Great Leap Forward + Cultural Revolution = mass death."
+    },
+    {
+      "category": "Pop Culture",
+      "question": "Oprah's famous 'You get a car!' giveaway — who actually paid for the 276 Pontiacs?",
+      "options": [
+        "Pontiac (the car company), not Oprah",
+        "Oprah paid herself",
+        "The show's production budget covered it",
+        "Audience members got loans in their name"
+      ],
+      "answer": "Pontiac (the car company), not Oprah",
+      "explanation": "The Pontiac G6 giveaway in 2004 was fully funded by Pontiac as a marketing stunt. Oprah's show ran 1986-2011. She was the first Black female billionaire in the US (net worth ~$2.5B).",
+      "memory_hook": "Oprah's cars: Pontiac paid, not Oprah. Show ran 1986-2011. First Black female US billionaire."
+    },
+    {
+      "category": "Science",
+      "question": "What surrounds the nucleus in eukaryotic cells, regulating entry and exit of molecules through pores?",
+      "options": [
+        "Nuclear envelope",
+        "Cell membrane",
+        "Endoplasmic reticulum",
+        "Golgi apparatus"
+      ],
+      "answer": "Nuclear envelope",
+      "explanation": "The nuclear envelope is a double membrane with nuclear pores that allow RNA to exit (to ribosomes) and proteins to enter. Prokaryotes have no nuclear envelope. The endoplasmic reticulum is a separate organelle for protein synthesis/modification.",
+      "memory_hook": "Nuclear envelope: double membrane, nuclear pores let RNA out and proteins in. Bacteria have none."
+    },
+    {
+      "category": "Geography",
+      "question": "What shape is Italy's landmass famously compared to, and what narrow water separates the 'toe' from Sicily?",
+      "options": [
+        "A boot; Strait of Messina (3 km wide)",
+        "A boot; Strait of Sicily (145 km wide)",
+        "A leg; Strait of Otranto (72 km wide)",
+        "A hammer; Strait of Taranto (30 km wide)"
+      ],
+      "answer": "A boot; Strait of Messina (3 km wide)",
+      "explanation": "Italy's boot shape is iconic. The 'toe' (Calabria) faces Sicily across the Strait of Messina — only 3 km at its narrowest. Italy is surrounded by the Adriatic, Ionian, Mediterranean, and Tyrrhenian seas.",
+      "memory_hook": "Italy = boot shape. Toe (Calabria) faces Sicily across Strait of Messina — only 3 km wide."
+    },
+    {
+      "category": "History",
+      "question": "Who was U.S. president when the Berlin Wall fell on November 9, 1989?",
+      "options": [
+        "George H.W. Bush",
+        "Ronald Reagan",
+        "Bill Clinton",
+        "George W. Bush"
+      ],
+      "answer": "George H.W. Bush",
+      "explanation": "The Berlin Wall fell November 9, 1989, during George H.W. Bush's presidency. Reagan gave his famous 'tear down this wall' speech in 1987. Bush deliberately avoided triumphalism so as not to destabilize Gorbachev.",
+      "memory_hook": "Berlin Wall fell Nov 9, 1989: H.W. Bush was president. Reagan gave the famous speech 2 years earlier."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Drake was on which TV show before becoming a music star?",
+      "options": [
+        "Degrassi: The Next Generation",
+        "Saved by the Bell",
+        "One Tree Hill",
+        "The Fresh Prince of Bel-Air"
+      ],
+      "answer": "Degrassi: The Next Generation",
+      "explanation": "Drake (Aubrey Graham) played Jimmy Brooks on Degrassi (2001-2007). He signed with Lil Wayne's Young Money in 2009. Holds records for most charted songs and most Billboard Hot 100 songs debuting at #1.",
+      "memory_hook": "Drake: played Jimmy on Degrassi (2001-07). Most charted songs on Billboard Hot 100. Kendrick Lamar feud 2024."
+    },
+    {
+      "category": "Sports",
+      "question": "What is Mike Powell's 1991 long jump world record, and does it still stand?",
+      "options": [
+        "8.95 m, set at 1991 World Championships in Tokyo; still the world record",
+        "8.90 m, set at 1988 Seoul Olympics; broken since",
+        "9.02 m, set at 2008 Beijing Olympics; still the world record",
+        "8.95 m, set at 1996 Atlanta Olympics; still the world record"
+      ],
+      "answer": "8.95 m, set at 1991 World Championships in Tokyo; still the world record",
+      "explanation": "Mike Powell's 8.95 m long jump at the 1991 World Championships in Tokyo remains the world record, breaking Bob Beamon's legendary 1968 record that stood for 23 years.",
+      "memory_hook": "Mike Powell: 8.95m long jump at 1991 Tokyo Worlds. Still the world record. Broke Beamon's 23-year-old mark."
+    }
+  ]
+}

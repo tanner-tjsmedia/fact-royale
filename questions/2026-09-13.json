@@ -1,0 +1,161 @@
+{
+  "date": "2026-09-13",
+  "questions": [
+    {
+      "category": "History",
+      "question": "Which 18th-century French political philosopher's ideas about separation of powers and checks and balances heavily influenced the U.S. Constitution?",
+      "options": [
+        "Montesquieu",
+        "Voltaire",
+        "Rousseau",
+        "Locke"
+      ],
+      "answer": "Montesquieu",
+      "explanation": "Charles-Louis de Secondat, Baron de Montesquieu, wrote 'The Spirit of the Laws' (1748), arguing for separation of executive, legislative, and judicial powers. The U.S. Founders, particularly James Madison, heavily cited Montesquieu in designing the Constitution's three-branch government system.",
+      "memory_hook": "Montesquieu: separation of powers. US Founders, especially Madison, used his ideas directly."
+    },
+    {
+      "category": "Science",
+      "question": "What is the name of the force that causes the Moon to orbit Earth rather than fly off in a straight line?",
+      "options": [
+        "Gravity",
+        "Centripetal force",
+        "Electromagnetism",
+        "Strong nuclear force"
+      ],
+      "answer": "Gravity",
+      "explanation": "The Moon is in a continuous 'falling' state — it falls toward Earth but moves fast enough sideways that it falls around Earth. Gravity provides the centripetal force that keeps it in orbit. Newton realized the same force that makes apples fall makes the Moon orbit. Without gravity, the Moon would travel in a straight line into space.",
+      "memory_hook": "Moon orbits due to gravity. It's always 'falling' toward Earth but moving sideways fast enough to orbit."
+    },
+    {
+      "category": "Sports",
+      "question": "Which NFL team has won the most Super Bowl championships?",
+      "options": [
+        "New England Patriots and Pittsburgh Steelers (tied at 6)",
+        "Dallas Cowboys",
+        "San Francisco 49ers",
+        "Green Bay Packers"
+      ],
+      "answer": "New England Patriots and Pittsburgh Steelers (tied at 6)",
+      "explanation": "Both the New England Patriots and Pittsburgh Steelers have won 6 Super Bowls. The Patriots won under Tom Brady (SB XXXVI, XXXVIII, XXXIX, XLIX, LI, LIII). The Steelers won in 1974, 1975, 1978, 1979, 2005, 2008 with quarterbacks Bradshaw and Roethlisberger. The San Francisco 49ers have 5 wins.",
+      "memory_hook": "Super Bowl most wins: Patriots and Steelers both at 6. Cowboys, 49ers each have 5."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Which 1978 disco-era film, starring John Travolta and Olivia Newton-John, featured the hit songs 'Summer Nights' and 'You're the One That I Want'?",
+      "options": [
+        "Grease",
+        "Saturday Night Fever",
+        "Flashdance",
+        "Footloose"
+      ],
+      "answer": "Grease",
+      "explanation": "Grease (1978) was based on the 1971 stage musical. Its soundtrack album sold over 8 million copies in the US — among the best-selling soundtracks ever. Both leads were at the peak of their fame: Travolta from Saturday Night Fever (1977) and Newton-John from her solo music career.",
+      "memory_hook": "Grease 1978: Travolta + Olivia Newton-John. Based on 1971 musical. 8M soundtracks sold."
+    },
+    {
+      "category": "Geography",
+      "question": "The Ring of Fire, where approximately 90% of the world's earthquakes occur, encircles which ocean?",
+      "options": [
+        "Pacific Ocean",
+        "Indian Ocean",
+        "Atlantic Ocean",
+        "Arctic Ocean"
+      ],
+      "answer": "Pacific Ocean",
+      "explanation": "The Pacific Ring of Fire is a 40,000 km horseshoe-shaped area where several tectonic plates meet — including the Pacific, Philippine, Juan de Fuca, Cocos, Nazca, and Antarctic plates. It contains 75% of the world's volcanoes (over 450) and is responsible for 90% of seismic activity.",
+      "memory_hook": "Pacific Ring of Fire: 90% of earthquakes, 75% of volcanoes. 40,000 km horseshoe of plate boundaries."
+    },
+    {
+      "category": "History",
+      "question": "Which English queen, daughter of Henry VIII and Anne Boleyn, ruled for 44 years (1558-1603) and is often called 'Gloriana' for presiding over England's cultural golden age?",
+      "options": [
+        "Elizabeth I",
+        "Mary I",
+        "Victoria",
+        "Mary Queen of Scots"
+      ],
+      "answer": "Elizabeth I",
+      "explanation": "Elizabeth I (r. 1558-1603) never married, earning the title 'Virgin Queen.' Her reign saw the flourishing of Shakespeare, the defeat of the Spanish Armada (1588), and England's first overseas colonies. She was born Protestant after her mother Anne Boleyn was executed, and reversed the Catholic policies of her half-sister Mary I.",
+      "memory_hook": "Elizabeth I: Virgin Queen, 44-year reign. Shakespeare, Spanish Armada defeated (1588). Born to Anne Boleyn."
+    },
+    {
+      "category": "Pop Culture",
+      "question": "Which streaming series on Netflix, depicting a Korean survival game with deadly childhood games, became the most-watched Netflix series in history upon its 2021 release?",
+      "options": [
+        "Squid Game",
+        "Stranger Things",
+        "Money Heist",
+        "Dark"
+      ],
+      "answer": "Squid Game",
+      "explanation": "Squid Game (Netflix, 2021) was a South Korean series created by Hwang Dong-hyuk that had been rejected for 10 years before Netflix picked it up. It reached 111 million households in its first 28 days — Netflix's biggest debut. It won the Emmy for Outstanding Drama Series, the first non-English-language show to do so.",
+      "memory_hook": "Squid Game 2021: Korean survival show, rejected 10 years before Netflix. 111M households in 28 days. First non-English Emmy drama."
+    },
+    {
+      "category": "Science",
+      "question": "What is the common name for the laryngeal prominence in the human throat, more prominent in males after puberty?",
+      "options": [
+        "Adam's apple",
+        "Thyroid notch",
+        "Epiglottis",
+        "Hyoid bone"
+      ],
+      "answer": "Adam's apple",
+      "explanation": "The laryngeal prominence (Adam's apple) is formed by the thyroid cartilage of the larynx. It becomes more prominent in males during puberty due to testosterone causing the larynx to grow. The voice deepens because longer vocal cords vibrate at lower frequencies. The name comes from the biblical story of Adam and the forbidden fruit.",
+      "memory_hook": "Adam's apple = laryngeal prominence. Grows during male puberty. Named from the Adam/apple/Eve Bible story."
+    },
+    {
+      "category": "Geography",
+      "question": "Which country contains the source of the Nile River, specifically Lake Victoria as the source of the White Nile?",
+      "options": [
+        "Uganda",
+        "Tanzania",
+        "Ethiopia",
+        "Kenya"
+      ],
+      "answer": "Uganda",
+      "explanation": "The White Nile exits Lake Victoria at Jinja, Uganda (at Owen Falls Dam/Nalubaale Dam). Lake Victoria itself straddles Uganda, Tanzania, and Kenya. The Blue Nile, which contributes 85% of the Nile's water and sediment, originates from Lake Tana in Ethiopia. The two Nile tributaries merge in Khartoum, Sudan.",
+      "memory_hook": "Nile sources: White Nile exits Lake Victoria at Jinja, Uganda. Blue Nile from Ethiopia. Merge in Khartoum."
+    },
+    {
+      "category": "History",
+      "question": "The Ming Dynasty (1368-1644) built most of the current Great Wall of China. What was the dynasty's primary purpose for the wall?",
+      "options": [
+        "Defense against Mongol invasions from the north",
+        "To mark the empire's southern border",
+        "Tax collection from trade caravans",
+        "A massive public works employment project"
+      ],
+      "answer": "Defense against Mongol invasions from the north",
+      "explanation": "The Ming Great Wall was built primarily to protect against Mongol raids. After the Mongols were expelled (ending the Yuan Dynasty in 1368), the Mings feared Mongol resurgence. The wall was reinforced with watchtowers and beacon fires for communication. Ironically, the Manchus — who ended the Ming Dynasty in 1644 — simply bribed a general to open a gate.",
+      "memory_hook": "Ming Wall: protect against Mongol raids. Manchus ended the Ming Dynasty not by breaching the wall but by being let in."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Which 2019 South Korean film became the first non-English language film to win the Academy Award for Best Picture?",
+      "options": [
+        "Parasite",
+        "Shoplifters",
+        "The Handmaiden",
+        "A Taxi Driver"
+      ],
+      "answer": "Parasite",
+      "explanation": "Parasite (기생충, 2019) directed by Bong Joon-ho won Best Picture, Best Director, Best Original Screenplay, and Best International Feature Film — four Oscars. Director Bong Joon-ho joked in his acceptance speech: 'Once you overcome the one-inch tall barrier of subtitles, you will be introduced to so many more amazing films.' It is the first foreign-language film to win Best Picture.",
+      "memory_hook": "Parasite 2019: Bong Joon-ho. First non-English Best Picture. 4 Oscars. 'One-inch subtitle barrier.'"
+    },
+    {
+      "category": "Sports",
+      "question": "Which distance race in athletics covers 26.2 miles (42.195 km) and is named after a Greek soldier who reportedly ran from a battlefield to Athens to announce a military victory?",
+      "options": [
+        "Marathon",
+        "Ultra-marathon",
+        "10K",
+        "Half-marathon"
+      ],
+      "answer": "Marathon",
+      "explanation": "The marathon is named after the Greek city of Marathon, where Greeks defeated the Persians in 490 BC. According to legend, a soldier named Pheidippides ran approximately 40 km to Athens to announce victory, then collapsed and died. The modern marathon distance (42.195 km) was standardized at the 1908 London Olympics to go from Windsor Castle to the Olympic Stadium.",
+      "memory_hook": "Marathon: named after Greek city, 490 BC. Standardized at 1908 London Olympics for the Windsor Castle route."
+    }
+  ]
+}

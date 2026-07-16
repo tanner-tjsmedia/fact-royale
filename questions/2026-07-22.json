@@ -41,29 +41,29 @@
     },
     {
       "category": "Sports",
-      "question": "The 'Tour de France' is a cycling race that takes place primarily in which country?",
+      "question": "Which swimmer won 8 gold medals at the 2008 Beijing Olympics — the most by any athlete at a single Games — breaking Mark Spitz's 1972 record of 7?",
       "options": [
-        "Belgium",
-        "Italy",
-        "Spain",
-        "France"
+        "Michael Phelps",
+        "Ryan Lochte",
+        "Ian Thorpe",
+        "Pieter van den Hoogenband"
       ],
-      "answer": "France",
-      "explanation": "The Tour de France is an annual men's road cycling race primarily held in France, though it often passes through neighboring countries. First held in 1903, it covers approximately 3,500 km over 21 stages across three weeks. The race is considered the most prestigious in professional cycling.",
-      "memory_hook": "Tour de France: France's greatest annual sporting spectacle since 1903."
+      "answer": "Michael Phelps",
+      "explanation": "Michael Phelps won 8 gold medals at the 2008 Beijing Olympics, surpassing Mark Spitz's 1972 record of 7. Phelps went on to become the most decorated Olympian of all time with 23 gold medals and 28 total medals across four Olympic Games.",
+      "memory_hook": "Phelps 2008 Beijing = 8 golds. Most decorated Olympian ever."
     },
     {
       "category": "Sports",
-      "question": "Which country has won the most medals in the history of the Olympics?",
+      "question": "At the 1936 Berlin Olympics, which American sprinter won four gold medals, embarrassing Adolf Hitler's claims of Aryan racial superiority?",
       "options": [
-        "Soviet Union",
-        "China",
-        "Russia",
-        "United States"
+        "Jesse Owens",
+        "Ralph Metcalfe",
+        "Eulace Peacock",
+        "Eddie Tolan"
       ],
-      "answer": "United States",
-      "explanation": "The United States has won the most Olympic medals in history, with over 2,600 total (1,100+ gold). The Soviet Union dominated the Cold War era but ceased to exist in 1991. China has rapidly climbed the all-time rankings since hosting the 2008 Beijing Olympics.",
-      "memory_hook": "USA leads all-time Olympic medal count — more than 125 years at the top."
+      "answer": "Jesse Owens",
+      "explanation": "Jesse Owens won gold in the 100m, 200m, long jump, and 4x100m relay at the 1936 Berlin Olympics — an extraordinary achievement that directly challenged Nazi ideology about racial superiority. Hitler reportedly refused to publicly congratulate Owens.",
+      "memory_hook": "Jesse Owens, 1936 Berlin, 4 golds. The most powerful rebuttal to Nazi ideology."
     },
     {
       "category": "Music/Movies",
@@ -80,16 +80,16 @@
     },
     {
       "category": "Music/Movies",
-      "question": "Which film stars Tom Hanks as a man who is stranded in an airport?",
+      "question": "Which 1999 science fiction film starring Keanu Reeves depicts a dystopian future where humans live in a simulated reality controlled by machines?",
       "options": [
-        "The Terminal",
-        "Cast Away",
-        "Captain Phillips",
-        "Sully"
+        "The Matrix",
+        "Total Recall",
+        "Dark City",
+        "eXistenZ"
       ],
-      "answer": "The Terminal",
-      "explanation": "The Terminal (2004), directed by Steven Spielberg, stars Tom Hanks as Viktor Navorski, a man from a fictional Eastern European country who becomes stranded in JFK Airport when his country's government collapses and his visa becomes invalid. The film is loosely based on the story of Mehran Karimi Nasseri.",
-      "memory_hook": "Tom Hanks in an airport — not Cast Away (island), but The Terminal (JFK)."
+      "answer": "The Matrix",
+      "explanation": "The Matrix (1999), directed by the Wachowskis, became a landmark in science fiction cinema. It popularized 'bullet time' photography, grossed over $460 million worldwide, and spawned a franchise while introducing philosophical concepts about simulated reality to mainstream audiences.",
+      "memory_hook": "The Matrix (1999) = red pill or blue pill. 'What is real?'"
     },
     {
       "category": "Music/Movies",

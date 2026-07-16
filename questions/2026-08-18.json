@@ -42,16 +42,16 @@
     },
     {
       "category": "History",
-      "question": "The ancient Greek philosopher who taught Alexander the Great was:",
+      "question": "Plato's most famous work, 'The Republic,' contains the 'allegory of the cave' illustrating the difference between appearance and reality. What form of government does Plato argue is ideal in this work?",
       "options": [
-        "Plato",
-        "Socrates",
-        "Epicurus",
-        "Aristotle"
+        "Rule by philosopher-kings",
+        "Democracy",
+        "Oligarchy",
+        "Constitutional monarchy"
       ],
-      "answer": "Aristotle",
-      "explanation": "Aristotle tutored Alexander the Great from age 13 to 16. Aristotle was himself a student of Plato, who was a student of Socrates — making Socrates the intellectual great-grandfather of Alexander. Aristotle's influence on Alexander included an interest in biology and exploration that shaped the young conqueror's approach to the lands he conquered. Alexander reportedly said he owed his father his life but his teacher, Aristotle, everything worth living for.",
-      "memory_hook": "Socrates taught Plato, Plato taught Aristotle, Aristotle taught Alexander the Great. The greatest chain of teacher-student relationships in history. Alexander said Aristotle gave him 'everything worth living for.' Three teachers, one student who conquered the known world."
+      "answer": "Rule by philosopher-kings",
+      "explanation": "In 'The Republic,' Plato argues that the ideal state would be governed by philosopher-kings — rulers who have achieved wisdom and understanding of the 'Forms,' especially the Form of the Good. He was famously critical of democracy, partly because Athens' democratic assembly voted to execute his mentor Socrates.",
+      "memory_hook": "Plato's Republic = philosopher-kings should rule. Ironic: democracy killed his mentor."
     },
     {
       "category": "Sports",
@@ -133,16 +133,16 @@
     },
     {
       "category": "Geography",
-      "question": "Which sea, between southern Europe and the Middle East, was historically called the 'Cradle of Civilization'?",
+      "question": "The Suez Canal, completed in 1869, dramatically shortened the sea route between Europe and Asia by connecting the Mediterranean Sea to which body of water?",
       "options": [
         "Red Sea",
-        "Caribbean Sea",
-        "Caspian Sea",
-        "Mediterranean Sea"
+        "Arabian Sea",
+        "Persian Gulf",
+        "Gulf of Aden"
       ],
-      "answer": "Mediterranean Sea",
-      "explanation": "The Mediterranean Sea — bordered by Europe, North Africa, and the Middle East — was called 'Mare Nostrum' (Our Sea) by the Romans and has been the center of human civilization for thousands of years. Ancient Egypt, Greece, Rome, Phoenicia, Carthage, and the Ottoman Empire all rose around its shores. It remains one of the world's most historically significant bodies of water.",
-      "memory_hook": "Mediterranean = cradle of Western civilization. Egypt, Greece, Rome, Carthage — all Mediterranean cultures. The Romans called it Mare Nostrum, 'Our Sea.' For 1,000 years, Roman power meant Mediterranean dominance. Every major civilization of the ancient Western world emerged from its shores."
+      "answer": "Red Sea",
+      "explanation": "The Suez Canal connects Port Said on the Mediterranean to Suez on the Red Sea, cutting through the Isthmus of Suez in Egypt. Before the canal, ships had to sail around the southern tip of Africa. The canal reduced the voyage from London to Mumbai by over 7,000 km. Egypt nationalized it in 1956, triggering the Suez Crisis.",
+      "memory_hook": "Suez Canal: Mediterranean → Red Sea. Skips around Africa. Egypt, 1869."
     },
     {
       "category": "Science & Nature",

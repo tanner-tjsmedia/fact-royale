@@ -1,0 +1,161 @@
+{
+  "date": "2026-09-07",
+  "questions": [
+    {
+      "category": "History",
+      "question": "Which ancient civilization, centered in present-day Iraq, is often called the 'cradle of civilization' and developed the world's first writing system, cuneiform?",
+      "options": [
+        "Mesopotamia (Sumerians)",
+        "Ancient Egypt",
+        "Indus Valley",
+        "Ancient China"
+      ],
+      "answer": "Mesopotamia (Sumerians)",
+      "explanation": "Sumerian civilization in Mesopotamia (modern Iraq) developed cuneiform writing around 3400 BC — initially as a bookkeeping tool for grain and goods. Mesopotamia also produced the first codified law (Code of Hammurabi), the first cities, and the first wheel. 'Mesopotamia' means 'land between two rivers' (Tigris and Euphrates).",
+      "memory_hook": "Mesopotamia (Sumerians): first writing (cuneiform, 3400 BC). First cities, laws, and wheel. Between Tigris and Euphrates."
+    },
+    {
+      "category": "Science",
+      "question": "What is the name of the protein in red blood cells that carries oxygen from the lungs to the body's tissues?",
+      "options": [
+        "Hemoglobin",
+        "Myoglobin",
+        "Albumin",
+        "Ferritin"
+      ],
+      "answer": "Hemoglobin",
+      "explanation": "Hemoglobin contains iron, which binds to oxygen in the lungs and releases it in tissues. Each hemoglobin molecule can carry four oxygen molecules. The iron in hemoglobin gives blood its red color. Carbon monoxide binds to hemoglobin 200 times more strongly than oxygen, making it deadly by blocking oxygen transport.",
+      "memory_hook": "Hemoglobin: iron-containing protein in red blood cells. Carries 4 oxygen molecules. CO binds 200x stronger (deadly)."
+    },
+    {
+      "category": "Sports",
+      "question": "Which tennis Grand Slam tournament, played on red clay in Paris, is the only major where Rafael Nadal won more than 10 titles?",
+      "options": [
+        "French Open (Roland Garros)",
+        "US Open",
+        "Australian Open",
+        "Wimbledon"
+      ],
+      "answer": "French Open (Roland Garros)",
+      "explanation": "Rafael Nadal won the French Open 14 times (2005-2023), making him the most dominant player ever at a single Grand Slam. He finished his career with 22 Grand Slam titles. On clay, his record at Roland Garros was 112 wins and 4 losses — a winning percentage over 96%.",
+      "memory_hook": "Nadal: 14 French Open titles. 112 wins, 4 losses at Roland Garros. 96% win rate on clay."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Which 1999 sci-fi film, directed by the Wachowskis, introduced the concept of humanity living in a simulated reality controlled by machines?",
+      "options": [
+        "The Matrix",
+        "Dark City",
+        "eXistenZ",
+        "The Thirteenth Floor"
+      ],
+      "answer": "The Matrix",
+      "explanation": "The Matrix (1999) starred Keanu Reeves as Neo and Laurence Fishburne as Morpheus. Its 'bullet time' visual effect was revolutionary. The film drew from various philosophical traditions including Plato's Cave and Baudrillard's 'Simulacra and Simulation.' It spawned two sequels and has profoundly influenced pop culture and philosophical discourse.",
+      "memory_hook": "The Matrix 1999: Wachowskis, Reeves. 'Bullet time.' Based on Plato's Cave and Baudrillard."
+    },
+    {
+      "category": "Geography",
+      "question": "Which city is the capital of Australia — not Sydney or Melbourne, but a purpose-built city selected as a compromise between the two rival cities?",
+      "options": [
+        "Canberra",
+        "Darwin",
+        "Perth",
+        "Adelaide"
+      ],
+      "answer": "Canberra",
+      "explanation": "Canberra became Australia's capital because Sydney and Melbourne couldn't agree on which should be the capital. The Constitution required the capital to be in New South Wales but at least 100 miles from Sydney. A location was chosen and architect Walter Burley Griffin designed the city. Parliament opened there in 1927.",
+      "memory_hook": "Canberra: capital only because Sydney and Melbourne couldn't agree. Had to be 100+ miles from Sydney."
+    },
+    {
+      "category": "History",
+      "question": "The Thirty Years' War (1618-1648), one of Europe's most devastating conflicts, was primarily fought in which region?",
+      "options": [
+        "Holy Roman Empire (Germany)",
+        "France",
+        "Spain",
+        "Poland"
+      ],
+      "answer": "Holy Roman Empire (Germany)",
+      "explanation": "The Thirty Years' War killed an estimated 8 million people — primarily in what is now Germany — through battle, famine, and disease. It began as a religious conflict between Catholics and Protestants and evolved into a political struggle. The Peace of Westphalia (1648) ended it and established the modern concept of national sovereignty.",
+      "memory_hook": "Thirty Years' War 1618-48: fought in Germany (Holy Roman Empire). Peace of Westphalia = birth of modern states."
+    },
+    {
+      "category": "Pop Culture",
+      "question": "Which TV drama series, set in a fictional New Mexico and following a chemistry teacher turned drug kingpin, is widely considered one of the greatest TV series ever made?",
+      "options": [
+        "Breaking Bad",
+        "The Wire",
+        "The Sopranos",
+        "Ozark"
+      ],
+      "answer": "Breaking Bad",
+      "explanation": "Breaking Bad (2008-2013) starred Bryan Cranston as Walter White and Aaron Paul as Jesse Pinkman. It won 16 Emmy Awards. The final season set numerous ratings records for AMC. Guinness World Records named it the most critically acclaimed show in television history. The spinoff Better Call Saul ran 2015-2022.",
+      "memory_hook": "Breaking Bad 2008-13: Cranston, Paul. 16 Emmys. Guinness: most critically acclaimed TV show ever."
+    },
+    {
+      "category": "Science",
+      "question": "What is the name of the process by which rocks are broken down by physical, chemical, or biological processes into smaller fragments?",
+      "options": [
+        "Weathering",
+        "Erosion",
+        "Sedimentation",
+        "Metamorphism"
+      ],
+      "answer": "Weathering",
+      "explanation": "Weathering breaks down rocks in place; erosion moves the material away. Physical weathering includes freeze-thaw cycles (water expands 9% when freezing, splitting rocks). Chemical weathering includes acid rain dissolving limestone. Biological weathering includes tree roots splitting rocks and lichens secreting acids.",
+      "memory_hook": "Weathering = breaking rocks in place. Erosion = moving them. Freeze-thaw is the most powerful physical type."
+    },
+    {
+      "category": "Geography",
+      "question": "Which desert, spanning parts of Chile and Peru, is the driest non-polar desert on Earth, with some areas receiving no measurable rain for decades?",
+      "options": [
+        "Atacama Desert",
+        "Sonoran Desert",
+        "Namib Desert",
+        "Patagonian Desert"
+      ],
+      "answer": "Atacama Desert",
+      "explanation": "The Atacama sits in the rain shadow of the Andes and Pacific coastal mountains. Some weather stations in the Atacama have never recorded rain in recorded history. Despite this, the Atacama blooms spectacularly after rare El Niño events. Its extreme dryness makes it useful for astronomy (clear skies) and studying Mars-like conditions.",
+      "memory_hook": "Atacama: driest desert. Some stations never recorded rain. Used to test Mars equipment."
+    },
+    {
+      "category": "History",
+      "question": "The Renaissance began in which Italian city, largely funded by the powerful Medici banking family?",
+      "options": [
+        "Florence",
+        "Rome",
+        "Venice",
+        "Milan"
+      ],
+      "answer": "Florence",
+      "explanation": "Florence (Firenze) was the birthplace of the Renaissance, roughly 14th-17th centuries. The Medici family — particularly Cosimo de' Medici and Lorenzo the Magnificent — patronized artists including Brunelleschi, Botticelli, Leonardo da Vinci, and Michelangelo. The city gave the world the first public library, the dome of Santa Maria del Fiore, and David.",
+      "memory_hook": "Renaissance: Florence. Medici family funded it. Botticelli, da Vinci, Michelangelo all worked there."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Which band, formed in Seattle in 1987 and fronted by Kurt Cobain, pioneered grunge rock with their 1991 album 'Nevermind'?",
+      "options": [
+        "Nirvana",
+        "Pearl Jam",
+        "Soundgarden",
+        "Alice in Chains"
+      ],
+      "answer": "Nirvana",
+      "explanation": "Nevermind was released September 24, 1991 and knocked Michael Jackson's 'Dangerous' off #1. 'Smells Like Teen Spirit' became the anthem of a generation. Kurt Cobain died in April 1994. Nirvana's commercial breakthrough ended the dominance of 1980s hair metal and brought alternative rock to the mainstream.",
+      "memory_hook": "Nirvana: grunge, Seattle, 1987. 'Nevermind' knocked MJ off #1. Cobain died April 1994."
+    },
+    {
+      "category": "Sports",
+      "question": "Which legendary Brazilian soccer player won three FIFA World Cups (1958, 1962, 1970) and scored over 1,000 career goals?",
+      "options": [
+        "Pelé",
+        "Garrincha",
+        "Zico",
+        "Ronaldo"
+      ],
+      "answer": "Pelé",
+      "explanation": "Pelé is the only footballer to win three World Cups. His total of 1,281 goals (including 77 for Brazil) are mostly from non-international club games but remain extraordinary. Brazil retired the number 10 shirt in his honor. He died December 29, 2022, aged 82.",
+      "memory_hook": "Pelé: 3 World Cups (1958, 1962, 1970). 1,281 career goals. Died 2022 at 82."
+    }
+  ]
+}

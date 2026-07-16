@@ -1,0 +1,161 @@
+{
+  "date": "2026-08-30",
+  "questions": [
+    {
+      "category": "History",
+      "question": "Which ancient wonder, a giant statue of the sun god Helios, once stood at the entrance to the harbor of Rhodes?",
+      "options": [
+        "Colossus of Rhodes",
+        "Statue of Zeus",
+        "Temple of Artemis",
+        "Mausoleum at Halicarnassus"
+      ],
+      "answer": "Colossus of Rhodes",
+      "explanation": "The Colossus of Rhodes stood approximately 70 cubits (33 meters) tall, erected around 280 BC to celebrate Rhodes' victory over Cyprus. It stood for only 56 years before being toppled by an earthquake in 226 BC. Despite popular depiction, it almost certainly did not straddle the harbor entrance.",
+      "memory_hook": "Colossus of Rhodes: 33m bronze statue of Helios. Stood 56 years before earthquake."
+    },
+    {
+      "category": "Science",
+      "question": "What is the term for a cell that contains a nucleus and membrane-bound organelles, making it fundamentally different from bacterial cells?",
+      "options": [
+        "Eukaryote",
+        "Prokaryote",
+        "Archaea",
+        "Organelle"
+      ],
+      "answer": "Eukaryote",
+      "explanation": "Eukaryotic cells have a true nucleus enclosed by a membrane, and membrane-bound organelles like mitochondria. All animals, plants, fungi, and protists are eukaryotes. Prokaryotes (bacteria and archaea) lack a nucleus. Mitochondria in eukaryotic cells were once free-living bacteria, engulfed billions of years ago in a symbiotic merger.",
+      "memory_hook": "Eukaryote = has a nucleus. Animals, plants, fungi. Prokaryotes (bacteria) don't have one."
+    },
+    {
+      "category": "Sports",
+      "question": "In golf, what is the name of the award given to the player with the lowest total score in a Major tournament who has not yet won a Major?",
+      "options": [
+        "There is no such award",
+        "The Silver Medal",
+        "The Claret Jug",
+        "The Walker Cup"
+      ],
+      "answer": "There is no such award",
+      "explanation": "Actually, the Silver Medal is awarded at The Open Championship (British Open) to the leading amateur. The Claret Jug is the Open Championship trophy. There's no specific award across all Majors for the best non-winner. Most awards in golf are simple trophies or checks.",
+      "memory_hook": "Silver Medal = leading amateur at The Open. Claret Jug = Open trophy."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Which iconic pop duo, consisting of Elton John and Tim Rice, wrote the music for 'The Lion King' (1994)?",
+      "options": [
+        "Elton John and Tim Rice",
+        "Alan Menken and Howard Ashman",
+        "Phil Collins and Genesis",
+        "Hans Zimmer and Lebo M"
+      ],
+      "answer": "Elton John and Tim Rice",
+      "explanation": "Elton John composed the songs and Hans Zimmer wrote the score for The Lion King (1994). Tim Rice wrote the lyrics for the songs. 'Can You Feel the Love Tonight' and 'Circle of Life' won Oscars. Phil Collins wrote and performed the songs for Tarzan (1999). Hans Zimmer's score — incorporating African elements — was equally celebrated.",
+      "memory_hook": "Lion King songs: Elton John (music) + Tim Rice (lyrics). 'Can You Feel the Love Tonight' won Oscar."
+    },
+    {
+      "category": "Geography",
+      "question": "The Strait of Gibraltar, the narrow water passage between Europe and Africa, connects the Atlantic Ocean to which body of water?",
+      "options": [
+        "Mediterranean Sea",
+        "Adriatic Sea",
+        "Aegean Sea",
+        "Red Sea"
+      ],
+      "answer": "Mediterranean Sea",
+      "explanation": "The Strait of Gibraltar is only 14 km wide at its narrowest point between Spain and Morocco. It has been strategically vital throughout history — the ancient Greeks called the rocks on either side the 'Pillars of Hercules.' The Rock of Gibraltar is a British overseas territory.",
+      "memory_hook": "Gibraltar Strait: Atlantic → Mediterranean. Only 14 km wide. Britain owns the Rock."
+    },
+    {
+      "category": "History",
+      "question": "The Scramble for Africa (1881-1914) saw European powers divide the continent among themselves. By 1914, which country controlled roughly 30% of Africa — the most of any European power?",
+      "options": [
+        "France",
+        "Britain",
+        "Germany",
+        "Belgium"
+      ],
+      "answer": "France",
+      "explanation": "By 1914, France controlled vast territories across West and North Africa, including present-day Algeria, Tunisia, Morocco, Mali, Niger, Chad, Senegal, Côte d'Ivoire, and more. Britain controlled the most valuable territories (Egypt, South Africa, Nigeria) but France had more land. Only Ethiopia and Liberia remained independent.",
+      "memory_hook": "Scramble for Africa: France held 30% by land. Britain held the most valuable territories."
+    },
+    {
+      "category": "Pop Culture",
+      "question": "Which technology company, founded by Steve Jobs, Steve Wozniak, and Ronald Wayne in 1976, became the first American company to reach a $1 trillion market cap?",
+      "options": [
+        "Apple",
+        "Microsoft",
+        "Amazon",
+        "Google"
+      ],
+      "answer": "Apple",
+      "explanation": "Apple was founded on April 1, 1976. It became the first U.S. company to reach a $1 trillion market cap in August 2018. Steve Wozniak built the original Apple I circuit board. Ronald Wayne sold his 10% stake for $800 in 1976 — a stake worth over $250 billion today.",
+      "memory_hook": "Apple founded 1976 (Jobs, Wozniak, Wayne). First $1T US company (2018). Wayne sold for $800."
+    },
+    {
+      "category": "Science",
+      "question": "What is the name of the process by which an organism's genetic information is copied from DNA into RNA?",
+      "options": [
+        "Transcription",
+        "Translation",
+        "Replication",
+        "Mutation"
+      ],
+      "answer": "Transcription",
+      "explanation": "Transcription is the first step of gene expression, where RNA polymerase copies a DNA sequence into messenger RNA (mRNA). Translation is the second step, where ribosomes read the mRNA to build proteins. DNA Replication is the copying of the entire genome during cell division.",
+      "memory_hook": "Transcription: DNA → mRNA. Translation: mRNA → protein. Two steps of gene expression."
+    },
+    {
+      "category": "Geography",
+      "question": "Which country contains the world's largest tropical rainforest, the Amazon, covering approximately 5.5 million km²?",
+      "options": [
+        "Brazil",
+        "Peru",
+        "Colombia",
+        "Venezuela"
+      ],
+      "answer": "Brazil",
+      "explanation": "Brazil contains about 60% of the Amazon rainforest. The Amazon basin covers 5.5 million km² across nine countries. It is home to 10% of Earth's species including 40,000 plant species, 1,300 bird species, and 3,000 fish species. Deforestation has destroyed roughly 17% of the Amazon since 1970.",
+      "memory_hook": "Brazil has 60% of the Amazon. 10% of Earth's species. 17% deforested since 1970."
+    },
+    {
+      "category": "History",
+      "question": "Which general, considered one of history's greatest military commanders, was exiled to the island of Saint Helena after his final defeat at Waterloo in 1815?",
+      "options": [
+        "Napoleon Bonaparte",
+        "Julius Caesar",
+        "Alexander the Great",
+        "Hannibal Barca"
+      ],
+      "answer": "Napoleon Bonaparte",
+      "explanation": "Napoleon was exiled twice: first to Elba (1814) after his first abdication, from which he escaped after 9 months. His '100 days' return ended at Waterloo (June 18, 1815). He was then exiled to Saint Helena in the South Atlantic, 2,000 km from land, where he died in 1821.",
+      "memory_hook": "Napoleon: exiled to Elba, escaped, beaten at Waterloo → exiled to St. Helena. 1821."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Which Irish rock band's 1987 album 'The Joshua Tree' debuted at #1 in 22 countries and featured 'With or Without You' and 'Where the Streets Have No Name'?",
+      "options": [
+        "U2",
+        "The Cranberries",
+        "Simple Minds",
+        "Depeche Mode"
+      ],
+      "answer": "U2",
+      "explanation": "'The Joshua Tree' was named after a tree that grows in the Mojave Desert, photographed by Anton Corbijn for the cover. The album gave U2 their first #1 single in the US with 'With or Without You.' Rolling Stone magazine ranked it the 27th greatest album of all time.",
+      "memory_hook": "U2's 'Joshua Tree' 1987: #1 in 22 countries. Named after California desert tree."
+    },
+    {
+      "category": "Sports",
+      "question": "What is the maximum break (highest possible score) in a single frame of snooker?",
+      "options": [
+        "147",
+        "155",
+        "143",
+        "150"
+      ],
+      "answer": "147",
+      "explanation": "A maximum break of 147 requires potting all 15 red balls with a black each time (15 x 7 = 105), then all 6 colored balls in sequence (2+3+4+5+6+7 = 27), plus a final 15 from the reds = 147. This is extremely rare. Ronnie O'Sullivan holds records for maximum breaks.",
+      "memory_hook": "Snooker maximum = 147. 15 reds + blacks (105) + 6 colours (42) = 147."
+    }
+  ]
+}

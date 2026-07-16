@@ -1,0 +1,161 @@
+{
+  "date": "2026-08-29",
+  "questions": [
+    {
+      "category": "History",
+      "question": "The Great Depression, the worst economic crisis of the 20th century, began with the crash of the U.S. stock market in which year?",
+      "options": [
+        "1929",
+        "1932",
+        "1927",
+        "1933"
+      ],
+      "answer": "1929",
+      "explanation": "Black Tuesday, October 29, 1929, saw the Dow Jones Industrial Average lose 12% in one day. The crash followed years of speculative excess. Unemployment in the U.S. reached 25% by 1933. FDR's New Deal programs and WWII military spending ultimately ended the Depression.",
+      "memory_hook": "Stock market crash: October 29, 1929 (Black Tuesday). 25% unemployment by 1933."
+    },
+    {
+      "category": "Science",
+      "question": "Which scientist formulated the three laws of motion and the law of universal gravitation, publishing 'Principia Mathematica' in 1687?",
+      "options": [
+        "Isaac Newton",
+        "Galileo Galilei",
+        "René Descartes",
+        "Robert Hooke"
+      ],
+      "answer": "Isaac Newton",
+      "explanation": "Isaac Newton's 'Principia Mathematica' laid the foundation for classical mechanics. His three laws describe inertia, force/acceleration relationships, and action-reaction. The story of an apple inspiring his gravity theory is likely apocryphal, though Newton himself told similar stories late in life. He also co-invented calculus (simultaneously with Leibniz).",
+      "memory_hook": "Newton: 3 laws of motion, gravity, Principia 1687. Also co-invented calculus."
+    },
+    {
+      "category": "Sports",
+      "question": "Which country has won the most Davis Cup titles in men's tennis?",
+      "options": [
+        "United States",
+        "Australia",
+        "Spain",
+        "France"
+      ],
+      "answer": "United States",
+      "explanation": "The United States has won the Davis Cup 32 times — more than any other nation. Australia is second with 28 titles. The Davis Cup, first played in 1900, is the world's largest annual international team competition in sport by number of participating nations.",
+      "memory_hook": "Davis Cup: USA most wins (32). Australia second (28). Started 1900."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Which Beatles song, released in 1965, marked a turning point toward more introspective, folk-influenced songwriting with lyrics like 'Yesterday, all my troubles seemed so far away'?",
+      "options": [
+        "Yesterday",
+        "Let It Be",
+        "Hey Jude",
+        "Blackbird"
+      ],
+      "answer": "Yesterday",
+      "explanation": "'Yesterday' by Paul McCartney is the most covered song in history with over 2,200 known cover versions. McCartney reportedly woke up with the melody in his head and initially called it 'Scrambled Eggs.' He spent weeks asking people if they'd heard it before, unsure it was original.",
+      "memory_hook": "Yesterday: most covered song ever (2,200+ versions). McCartney thought he'd subconsciously stolen it."
+    },
+    {
+      "category": "Geography",
+      "question": "The Trans-Siberian Railway is the world's longest railway line. Which two cities does it connect?",
+      "options": [
+        "Moscow and Vladivostok",
+        "Moscow and Beijing",
+        "St. Petersburg and Tokyo",
+        "Kiev and Vladivostok"
+      ],
+      "answer": "Moscow and Vladivostok",
+      "explanation": "The Trans-Siberian Railway stretches 9,289 km from Moscow to Vladivostok on the Pacific coast — a journey of about 7 days covering 8 time zones. Completed in 1916, it was crucial for Russian expansion into Siberia and the Far East. A branch line extends to Beijing.",
+      "memory_hook": "Trans-Siberian: Moscow → Vladivostok. 9,289 km. 7-day journey across 8 time zones."
+    },
+    {
+      "category": "History",
+      "question": "The Rwandan genocide of 1994, during which approximately 800,000 Tutsi and moderate Hutu were killed in 100 days, occurred in which East African country?",
+      "options": [
+        "Rwanda",
+        "Burundi",
+        "Uganda",
+        "Democratic Republic of Congo"
+      ],
+      "answer": "Rwanda",
+      "explanation": "The Rwandan genocide began April 7, 1994, following the assassination of President Juvénal Habyarimana. Radio broadcasts incited Hutu extremists to kill their Tutsi neighbors. In 100 days, an estimated 500,000-800,000 people were murdered. The failure of the UN and international community to intervene is considered one of the 20th century's greatest moral failures.",
+      "memory_hook": "Rwanda genocide: ~800,000 killed in 100 days, 1994. Radio was used to incite killing."
+    },
+    {
+      "category": "Pop Culture",
+      "question": "Which animated TV show, set in Springfield and featuring the Simpson family, has been running since 1989 and is the longest-running American animated series?",
+      "options": [
+        "The Simpsons",
+        "Family Guy",
+        "South Park",
+        "Futurama"
+      ],
+      "answer": "The Simpsons",
+      "explanation": "The Simpsons premiered December 17, 1989, and has aired over 750 episodes. Created by Matt Groening, it reportedly 'predicted' many future events including Donald Trump's presidency, the FIFA corruption scandal, and the Higgs boson particle. Homer Simpson's 'D'oh!' was added to the Oxford English Dictionary.",
+      "memory_hook": "The Simpsons: since 1989, 750+ episodes. Homer's 'D'oh!' is in the dictionary."
+    },
+    {
+      "category": "Science",
+      "question": "What is the medical term for the human body's largest organ, which protects against infection and regulates temperature?",
+      "options": [
+        "Skin",
+        "Liver",
+        "Brain",
+        "Intestines"
+      ],
+      "answer": "Skin",
+      "explanation": "The skin (integumentary system) covers approximately 1.5-2 m² and weighs about 3.5 kg — making it the body's largest organ. It has three layers: epidermis, dermis, and hypodermis. Skin regenerates completely approximately every 27 days and is home to over 1,000 species of bacteria.",
+      "memory_hook": "Skin = largest organ. 1.5-2m², renews every 27 days, hosts 1,000+ bacterial species."
+    },
+    {
+      "category": "Geography",
+      "question": "The Sahel is a semi-arid belt crossing Africa between the Sahara Desert to the north and the tropical savanna to the south. What does 'Sahel' mean in Arabic?",
+      "options": [
+        "Shore or coast",
+        "Desert edge",
+        "Dry land",
+        "Between worlds"
+      ],
+      "answer": "Shore or coast",
+      "explanation": "'Sahel' means 'shore' or 'coast' in Arabic, referring to the region as the southern shore of the Sahara Desert. It spans from Senegal to Sudan, covering parts of 10 countries. The Sahel faces severe desertification due to drought, overgrazing, and climate change — pushing the Sahara southward.",
+      "memory_hook": "Sahel = 'shore' in Arabic. Southern shore of the Sahara. Climate crisis hotspot."
+    },
+    {
+      "category": "History",
+      "question": "Which medieval plague, also known as the Black Death, killed an estimated 30-60% of Europe's population between 1347 and 1351?",
+      "options": [
+        "Bubonic plague",
+        "Smallpox",
+        "Typhus",
+        "Cholera"
+      ],
+      "answer": "Bubonic plague",
+      "explanation": "The Black Death was caused by Yersinia pestis bacteria, spread by fleas on rats carried by Genoese trading ships from Central Asia. It killed 25-50 million Europeans in four years. The pandemic's aftermath accelerated social changes including the decline of feudalism and the labor shortage that empowered surviving peasants.",
+      "memory_hook": "Black Death 1347-51: bubonic plague, 30-60% of Europe dead. Ships from Asia brought it."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Which composer, who became deaf later in life, wrote nine symphonies including the famous Ninth with its 'Ode to Joy' finale?",
+      "options": [
+        "Ludwig van Beethoven",
+        "Wolfgang Amadeus Mozart",
+        "Johann Sebastian Bach",
+        "Franz Schubert"
+      ],
+      "answer": "Ludwig van Beethoven",
+      "explanation": "Beethoven (1770-1827) began losing his hearing around 1796 and was almost completely deaf when he composed his Ninth Symphony, premiering in 1824. He is said to have conducted the premiere and turned around only at the end to see the audience's standing ovation — unable to hear it. The 'Ode to Joy' is the anthem of the European Union.",
+      "memory_hook": "Beethoven: deaf when he wrote the 9th Symphony. Turned to see the standing ovation he couldn't hear."
+    },
+    {
+      "category": "Sports",
+      "question": "Which country has hosted the most FIFA World Cups, having staged the tournament three times (1930, 1950, and 2014)?",
+      "options": [
+        "Brazil",
+        "Mexico",
+        "Germany",
+        "Italy"
+      ],
+      "answer": "Brazil",
+      "explanation": "Brazil hosted the 1950 World Cup (losing the final to Uruguay in front of 200,000 fans — the 'Maracanazo') and 2014 (suffering a historic 7-1 loss to Germany in the semi-finals). Mexico has hosted twice (1970, 1986). Brazil will co-host the 2026 World Cup with the USA and Canada.",
+      "memory_hook": "Brazil hosted 1930? No — hosted 1950 (lost final), 2014 (7-1 to Germany). 3 times total."
+    }
+  ]
+}

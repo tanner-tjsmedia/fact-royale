@@ -1,0 +1,161 @@
+{
+  "date": "2026-08-25",
+  "questions": [
+    {
+      "category": "History",
+      "question": "Winston Churchill's 1946 speech warning that 'an iron curtain has descended across the Continent' was delivered in which U.S. state?",
+      "options": [
+        "Missouri",
+        "Virginia",
+        "Ohio",
+        "Kansas"
+      ],
+      "answer": "Missouri",
+      "explanation": "Churchill delivered the 'Sinews of Peace' speech at Westminster College in Fulton, Missouri on March 5, 1946. President Truman sat on stage. The speech is credited with popularizing the 'Iron Curtain' metaphor and framing the Cold War for Western audiences.",
+      "memory_hook": "Churchill's Iron Curtain speech: Fulton, Missouri, 1946. Truman sat beside him."
+    },
+    {
+      "category": "Science",
+      "question": "Diamond is the hardest natural substance, rated 10 on the Mohs scale. What is diamond made of?",
+      "options": [
+        "Carbon",
+        "Silicon",
+        "Calcium",
+        "Compressed coal"
+      ],
+      "answer": "Carbon",
+      "explanation": "Diamond is pure carbon atoms arranged in a crystal lattice structure, formed under extreme heat (1200°C) and pressure 150 km below Earth's surface. Despite the myth, diamonds are NOT formed from coal — coal forms near the surface, while diamonds form far deeper.",
+      "memory_hook": "Diamond = pure carbon, extreme depth. NOT from coal — that's a myth."
+    },
+    {
+      "category": "Sports",
+      "question": "Brazil has won five FIFA World Cups — more than any other nation. Which legendary player won his first World Cup at age 17 in 1958?",
+      "options": [
+        "Pelé",
+        "Garrincha",
+        "Ronaldo",
+        "Zico"
+      ],
+      "answer": "Pelé",
+      "explanation": "Pelé (Edson Arantes do Nascimento) scored six goals at the 1958 World Cup in Sweden, aged just 17 years and 249 days, making him the youngest World Cup winner and scorer. He went on to win two more World Cups (1962, 1970), finishing with 1,281 career goals.",
+      "memory_hook": "Pelé: first World Cup at 17 in 1958 Sweden. Still the youngest WC winner."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Which British singer has released albums named '19,' '21,' '25,' and '30,' each named after her age at the time of writing?",
+      "options": [
+        "Adele",
+        "Amy Winehouse",
+        "Lily Allen",
+        "Duffy"
+      ],
+      "answer": "Adele",
+      "explanation": "Adele Laurie Blue Adkins has sold over 100 million records worldwide. '21' spent 24 weeks at #1 in both the UK and US. 'Hello,' the lead single from '25,' became the first song to sell a million digital downloads in a single week in the UK.",
+      "memory_hook": "Adele's albums: 19, 21, 25, 30 — each her age when she wrote them."
+    },
+    {
+      "category": "Geography",
+      "question": "Victoria Falls, one of the world's largest waterfalls, sits on the Zambezi River on the border between Zimbabwe and which other country?",
+      "options": [
+        "Zambia",
+        "Botswana",
+        "Mozambique",
+        "Malawi"
+      ],
+      "answer": "Zambia",
+      "explanation": "Victoria Falls (called Mosi-oa-Tunya — 'The Smoke That Thunders' locally) was named by David Livingstone in 1855. At 1,708 meters wide and up to 108 meters high, it is the world's largest waterfall by combined width and height. During peak flow, the mist can be seen 50 km away.",
+      "memory_hook": "Victoria Falls: Zimbabwe/Zambia border. 'Mosi-oa-Tunya' = The Smoke That Thunders."
+    },
+    {
+      "category": "History",
+      "question": "The Meiji Restoration (1868) transformed Japan from a feudal shogunate into a modern industrial nation. Which military class lost power as a result?",
+      "options": [
+        "Samurai",
+        "Ninja",
+        "Daimyo",
+        "Shogun"
+      ],
+      "answer": "Samurai",
+      "explanation": "The Meiji Restoration ended feudal Japan. The samurai class was formally abolished in the 1870s as Japan built a modern conscript army. The 1877 Satsuma Rebellion — led by Saigo Takamori — was the last major samurai uprising against Meiji modernization.",
+      "memory_hook": "Meiji 1868: samurai class abolished. Last uprising by Saigo Takamori, 1877."
+    },
+    {
+      "category": "Pop Culture",
+      "question": "Which fictional wizard school did Harry Potter attend in J.K. Rowling's series?",
+      "options": [
+        "Hogwarts",
+        "Durmstrang",
+        "Beauxbatons",
+        "Ilvermorny"
+      ],
+      "answer": "Hogwarts",
+      "explanation": "Hogwarts School of Witchcraft and Wizardry is located in Scotland (exact location unspecified). Harry Potter was sorted into Gryffindor house. The series has sold over 500 million copies in 85 languages, making it the best-selling book series in history.",
+      "memory_hook": "Harry Potter → Hogwarts → Gryffindor. 500M+ books in 85 languages."
+    },
+    {
+      "category": "Science",
+      "question": "The universe is estimated to be approximately how old, based on measurements of cosmic microwave background radiation?",
+      "options": [
+        "13.8 billion years",
+        "4.5 billion years",
+        "100 billion years",
+        "1 trillion years"
+      ],
+      "answer": "13.8 billion years",
+      "explanation": "The age of the universe (13.8 billion years) was determined primarily through observations of the cosmic microwave background (CMB) — the afterglow of the Big Bang — by satellites including WMAP and Planck. By comparison, Earth is 4.5 billion years old and the Sun is 4.6 billion years old.",
+      "memory_hook": "Universe: 13.8 billion years. Earth: 4.5B. Measured from the Big Bang's afterglow."
+    },
+    {
+      "category": "Geography",
+      "question": "Which tiny European nation, completely surrounded by Italy, is considered the world's oldest republic, said to have been founded in 301 AD?",
+      "options": [
+        "San Marino",
+        "Vatican City",
+        "Monaco",
+        "Andorra"
+      ],
+      "answer": "San Marino",
+      "explanation": "San Marino covers just 61 km² and has a population of around 33,000. It was reportedly founded by a Christian stonemason named Marinus fleeing Roman persecution. It has its own football team (notorious for record-breaking losses), Olympics committee, and Grand Prix.",
+      "memory_hook": "San Marino: world's oldest republic, 301 AD. 61 km² entirely inside Italy."
+    },
+    {
+      "category": "History",
+      "question": "The forced westward relocation of the Cherokee Nation in 1838-39, during which thousands died from disease and exposure, became known as what?",
+      "options": [
+        "Trail of Tears",
+        "Indian Removal",
+        "The Long Walk",
+        "Cherokee Exodus"
+      ],
+      "answer": "Trail of Tears",
+      "explanation": "The Trail of Tears followed President Andrew Jackson's Indian Removal Act (1830). Approximately 16,000 Cherokee were marched over 1,200 miles to Oklahoma in winter. An estimated 4,000-8,000 died. The phrase 'Trail of Tears' comes from a Cherokee description of the suffering.",
+      "memory_hook": "Trail of Tears: Cherokee forced to Oklahoma, 1838-39. Jackson's Indian Removal Act."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Quentin Tarantino's 1994 crime film with a nonlinear narrative revived John Travolta's career and won the Palme d'Or at Cannes. Name the film.",
+      "options": [
+        "Pulp Fiction",
+        "Reservoir Dogs",
+        "Jackie Brown",
+        "True Romance"
+      ],
+      "answer": "Pulp Fiction",
+      "explanation": "Pulp Fiction features Samuel L. Jackson, Uma Thurman, John Travolta, and Bruce Willis in interlocking stories. Jackson's character Jules and his biblical Ezekiel 25:17 quote became iconic. The film used nonlinear storytelling that influenced a generation of filmmakers.",
+      "memory_hook": "Pulp Fiction 1994: Tarantino. Travolta comeback. 'Ezekiel 25:17.' Palme d'Or."
+    },
+    {
+      "category": "Sports",
+      "question": "In tennis, what is the term for a serve that lands in the correct service box without the receiver touching it, winning the point outright?",
+      "options": [
+        "Ace",
+        "Fault",
+        "Let",
+        "Winner"
+      ],
+      "answer": "Ace",
+      "explanation": "An ace ends the point immediately without the receiver touching the ball. The serve must land in the diagonal service box. John Isner and Nicolas Mahut's 2010 Wimbledon match lasted 11 hours and 5 minutes and featured 112 aces by Isner alone — the most in any professional match.",
+      "memory_hook": "Ace = untouched serve, instant point. Isner hit 112 aces in one Wimbledon match."
+    }
+  ]
+}

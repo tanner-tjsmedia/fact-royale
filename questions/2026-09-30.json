@@ -1,0 +1,161 @@
+{
+  "date": "2026-09-30",
+  "questions": [
+    {
+      "category": "History",
+      "question": "Italy's flag is a horizontal tricolor of green, white, and red. When was it first used?",
+      "options": [
+        "1797, inspired by the French Revolution; oldest tricolor still in use",
+        "1861, when Italy unified",
+        "1848, during the revolutions of that year",
+        "1946, when Italy became a republic"
+      ],
+      "answer": "1797, inspired by the French Revolution; oldest tricolor still in use",
+      "explanation": "Italy's tricolor was first used by the Cispadane Republic in 1797, inspired by Napoleon and the French Revolution. It became the flag of unified Italy in 1861. Green-white-red is one of the most recognized flag designs globally.",
+      "memory_hook": "Italian tricolor: first used 1797 (Napoleonic era). Oldest tricolor flag still in use. Unified Italy adopted it 1861."
+    },
+    {
+      "category": "Science",
+      "question": "What is transpiration in plants and how much water can a large tree transpire per day?",
+      "options": [
+        "Evaporation of water from leaf stomata, drawing water up from roots; a large tree can transpire ~400 liters/day",
+        "Absorption of water through leaves; about 10 liters/day",
+        "Transport of water through the roots only; about 50 liters/day",
+        "Condensation on leaf surfaces; varies by humidity"
+      ],
+      "answer": "Evaporation of water from leaf stomata, drawing water up from roots; a large tree can transpire ~400 liters/day",
+      "explanation": "Transpiration drives water movement through xylem via suction created when water evaporates from leaf stomata. A large tree can lose ~400 liters/day. Globally, transpiration contributes ~10% of atmospheric moisture.",
+      "memory_hook": "Transpiration: water evaporates from leaves → draws water up from roots. A tree loses ~400 liters/day."
+    },
+    {
+      "category": "Sports",
+      "question": "At the 2024 Paris Olympics, which athlete's return to gymnastics highlighted the medal competition, and who topped the overall medal table?",
+      "options": [
+        "Simone Biles returned and won multiple medals; USA topped with 126 total medals",
+        "Nadia Comaneci returned; China topped",
+        "Simone Biles won all events; Great Britain topped",
+        "Aly Raisman returned; Australia topped"
+      ],
+      "answer": "Simone Biles returned and won multiple medals; USA topped with 126 total medals",
+      "explanation": "At Paris 2024, Simone Biles' return after her Tokyo mental health withdrawal was a highlight. The US topped the overall medal table with 126 total medals (40 gold). Paris hosted for the third time (previously 1900, 1924).",
+      "memory_hook": "Paris 2024: Simone Biles returned, won multiple medals. USA: 126 total medals. Paris's 3rd Olympics (also 1900, 1924)."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Apocalypse Now (1979) was legendarily troubled in production. How long did filming in the Philippines take?",
+      "options": [
+        "238 days — more than double the planned schedule",
+        "90 days as planned",
+        "6 months (180 days), only slightly over schedule",
+        "Over 2 years (730+ days)"
+      ],
+      "answer": "238 days — more than double the planned schedule",
+      "explanation": "Apocalypse Now (1979) was shot in the Philippines for 238 days, documented in 'Hearts of Darkness: A Filmmaker's Apocalypse.' Brando arrived overweight and unprepared. It won Oscars for Best Cinematography and Best Sound.",
+      "memory_hook": "Apocalypse Now: 238 days shooting. Brando unprepared. 'Hearts of Darkness' documents the chaos. 'The horror, the horror.'"
+    },
+    {
+      "category": "Geography",
+      "question": "South Korea has the world's fastest internet speeds. Where does Hangul (the Korean alphabet) rank among world writing systems in terms of how it was created?",
+      "options": [
+        "Extremely unusual — Hangul is one of the only writing systems deliberately designed as a scientific system by known authors",
+        "It evolved naturally over centuries like most writing systems",
+        "It was borrowed from Chinese characters and slightly modified",
+        "It was designed by linguists in the 20th century during Japan's occupation"
+      ],
+      "answer": "Extremely unusual — Hangul is one of the only writing systems deliberately designed as a scientific system by known authors",
+      "explanation": "Most writing systems evolved organically over centuries. Hangul was deliberately designed by King Sejong the Great and his scholars in 1443 — intentionally scientific and phonetic. South Korea has the world's fastest internet and leads in K-pop, gaming, and semiconductors.",
+      "memory_hook": "Hangul: artificially designed 1443, extremely rare in writing history. South Korea now leads in internet speed, K-pop, chips."
+    },
+    {
+      "category": "History",
+      "question": "Self-taught Indian mathematician Srinivasa Ramanujan (1887-1920) claimed some of his mathematical insights came from where?",
+      "options": [
+        "Dreams sent by his family's Hindu goddess Namagiri — he would wake with theorems and verify them",
+        "From reading Euler's complete works in secret",
+        "From patterns he observed in nature in rural India",
+        "From collaboration with British mathematicians via letter before coming to England"
+      ],
+      "answer": "Dreams sent by his family's Hindu goddess Namagiri — he would wake with theorems and verify them",
+      "explanation": "Ramanujan claimed his goddess Namagiri sent him mathematical insights in dreams. He kept notebooks full of theorems and contacted G.H. Hardy at Cambridge. Hardy ranked him with Euler and Gauss. He died at 32 from illness. Cambridge mourned him deeply.",
+      "memory_hook": "Ramanujan: claimed theorems came from goddess in dreams. Self-taught. Hardy ranked him with Euler. Died at 32."
+    },
+    {
+      "category": "Pop Culture",
+      "question": "Shrek (2001) was the first winner of the Best Animated Feature Oscar. Who voiced the three main characters?",
+      "options": [
+        "Mike Myers (Shrek), Eddie Murphy (Donkey), Cameron Diaz (Fiona)",
+        "Jim Carrey, Chris Rock, Drew Barrymore",
+        "Robin Williams, Eddie Murphy, Halle Berry",
+        "Austin Powers voice (Mike Myers), Will Smith, Jennifer Lopez"
+      ],
+      "answer": "Mike Myers (Shrek), Eddie Murphy (Donkey), Cameron Diaz (Fiona)",
+      "explanation": "Shrek (2001) was DreamWorks' answer to Disney-Pixar dominance. Mike Myers (Scottish accent!), Eddie Murphy, and Cameron Diaz voiced the main trio. The franchise grossed $3.5B total. Shrek 2 (2004) grossed $920M — then highest for an animated film.",
+      "memory_hook": "Shrek 2001: Myers (Scottish accent!), Murphy (Donkey), Diaz (Fiona). First animated Oscar. $3.5B franchise."
+    },
+    {
+      "category": "Science",
+      "question": "What is specific heat capacity, and why does water's high specific heat matter for Earth's climate?",
+      "options": [
+        "Energy to raise 1 kg by 1°C; water's high value (4,186 J/kg°C) makes oceans moderate climate extremes",
+        "Energy to raise 1 g by 1°F; water's average value stabilizes air temperatures only",
+        "Heat released per kilogram during melting; water stores heat during the day and releases it at night",
+        "Energy to vaporize 1 kg; water absorbs solar radiation into clouds"
+      ],
+      "answer": "Energy to raise 1 kg by 1°C; water's high value (4,186 J/kg°C) makes oceans moderate climate extremes",
+      "explanation": "Specific heat capacity is energy required to raise 1 kg of a substance by 1°C. Water's is very high (4,186 J/kg°C), so oceans absorb and release heat slowly — moderating coastal climates. Metals have low specific heat and heat/cool quickly.",
+      "memory_hook": "Specific heat capacity: energy to raise 1 kg by 1°C. Water (4,186 J/kg°C) = high = why oceans moderate climate."
+    },
+    {
+      "category": "Geography",
+      "question": "The Cape of Good Hope at Africa's southern tip: what is the actual geographic boundary between the Atlantic and Indian Oceans?",
+      "options": [
+        "Cape Agulhas (further east) is the true boundary; Cape of Good Hope is cultural/traditional",
+        "The Cape of Good Hope itself is the exact geographic boundary",
+        "The 20°E meridian of longitude",
+        "The boundary is 200 km south of Africa in the open ocean"
+      ],
+      "answer": "Cape Agulhas (further east) is the true boundary; Cape of Good Hope is cultural/traditional",
+      "explanation": "The true geographic boundary between the Atlantic and Indian Oceans is at Cape Agulhas — the southernmost tip of Africa, further east than the Cape of Good Hope. The Cape of Good Hope is the popular/cultural boundary. Bartholomeu Dias first rounded it in 1488.",
+      "memory_hook": "Real Atlantic-Indian boundary: Cape Agulhas (further east). Cape of Good Hope = popular/cultural boundary. Dias 1488."
+    },
+    {
+      "category": "History",
+      "question": "The terracotta army discovered in 1974 was built to protect which Chinese emperor in the afterlife?",
+      "options": [
+        "Qin Shi Huang (First Emperor of China, died 210 BC)",
+        "Kublai Khan",
+        "Emperor Yongle of the Ming Dynasty",
+        "Han Wudi"
+      ],
+      "answer": "Qin Shi Huang (First Emperor of China, died 210 BC)",
+      "explanation": "Qin Shi Huang (259-210 BC) had over 8,000 terracotta soldiers buried with him. Discovered by farmers in 1974 near Xi'an. He unified China, built the Great Wall, standardized writing, and died possibly from mercury immortality pills.",
+      "memory_hook": "Terracotta army: 8,000 soldiers for Qin Shi Huang (first emperor). Found by farmers 1974. He died from mercury immortality pills."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Ridley Scott's Napoleon (2023) starred Joaquin Phoenix. What response did Scott give to French historians who criticized the film's historical inaccuracies?",
+      "options": [
+        "'Were you there?' — Scott dismissed critics who weren't present in history",
+        "'It's a movie, not a documentary — use Wikipedia'",
+        "'The French always complain about Napoleon films'",
+        "He apologized and issued a director's cut with corrections"
+      ],
+      "answer": "'Were you there?' — Scott dismissed critics who weren't present in history",
+      "explanation": "French historians objected to multiple inaccuracies in Napoleon (2023), including Napoleon attending Marie Antoinette's execution (he wasn't there). Scott's response: 'Were you there?' The film focused on Napoleon's obsessive relationship with Joséphine.",
+      "memory_hook": "Ridley Scott's Napoleon (2023): historians complained about inaccuracies; Scott replied 'Were you there?'"
+    },
+    {
+      "category": "Sports",
+      "question": "The modern Olympic Games were revived in 1896 by Pierre de Coubertin. When did Summer and Winter Olympics start being held in alternate even-numbered years (instead of the same year)?",
+      "options": [
+        "1994 — they were staggered to avoid competition",
+        "1924 — when the Winter Olympics were first held",
+        "1968 — to allow more preparation time",
+        "1980 — after the boycott disruptions"
+      ],
+      "answer": "1994 — they were staggered to avoid competition",
+      "explanation": "Until 1992, both Summer and Winter Olympics were held in the same year (leap years). Starting with the 1994 Lillehammer Winter Olympics, they were staggered to alternate even-numbered years. The Olympic motto: 'Citius, Altius, Fortius — Communiter' (Faster, Higher, Stronger — Together).",
+      "memory_hook": "Olympics staggered since 1994 (Lillehammer). Before that: both in same year. Motto: 'Faster, Higher, Stronger — Together.'"
+    }
+  ]
+}

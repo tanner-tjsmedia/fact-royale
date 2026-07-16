@@ -1,0 +1,161 @@
+{
+  "date": "2026-08-28",
+  "questions": [
+    {
+      "category": "History",
+      "question": "The Great Wall of China, stretching thousands of kilometers, was primarily built to protect against invasions from which direction?",
+      "options": [
+        "North",
+        "East",
+        "West",
+        "South"
+      ],
+      "answer": "North",
+      "explanation": "The Great Wall was built and rebuilt over centuries to defend against nomadic peoples from the north, including the Xiongnu, Mongols, and Jurchen. The wall runs roughly east-west across northern China. Much of what tourists see today was built during the Ming Dynasty (1368-1644).",
+      "memory_hook": "Great Wall: built against northern nomads. Most visible sections are Ming Dynasty."
+    },
+    {
+      "category": "Science",
+      "question": "What is the name of the subatomic particle with a positive electric charge that is found in the nucleus of an atom?",
+      "options": [
+        "Proton",
+        "Neutron",
+        "Electron",
+        "Positron"
+      ],
+      "answer": "Proton",
+      "explanation": "An atom's nucleus contains protons (positive charge) and neutrons (no charge). Electrons (negative charge) orbit the nucleus. The number of protons in an atom — its atomic number — determines which element it is. Hydrogen has 1 proton, carbon has 6, gold has 79.",
+      "memory_hook": "Proton = positive, in nucleus. Number of protons = atomic number = which element."
+    },
+    {
+      "category": "Sports",
+      "question": "Which golfer, nicknamed 'The Golden Bear,' won 18 major championships — the most in professional golf history?",
+      "options": [
+        "Jack Nicklaus",
+        "Tiger Woods",
+        "Arnold Palmer",
+        "Gary Player"
+      ],
+      "answer": "Jack Nicklaus",
+      "explanation": "Jack Nicklaus won 18 major championships between 1962 and 1986, including 6 Masters titles. Tiger Woods won 15 majors before injuries derailed his career. Nicklaus designed over 300 golf courses worldwide after retiring from competition.",
+      "memory_hook": "Jack Nicklaus: 18 majors. 'The Golden Bear.' Tiger at 15 couldn't catch him."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Which 1990 Martin Scorsese film, based on a true story of a FBI informant in the New York mob, features Ray Liotta and Robert De Niro?",
+      "options": [
+        "Goodfellas",
+        "Casino",
+        "The Departed",
+        "The Irishman"
+      ],
+      "answer": "Goodfellas",
+      "explanation": "Goodfellas (1990) tells the story of Henry Hill, a mobster-turned-FBI-informant played by Ray Liotta. The film is famous for its tracking shot through the Copacabana and was based on Nicholas Pileggi's book 'Wiseguy.' It is often cited as one of the greatest films ever made.",
+      "memory_hook": "Goodfellas 1990: Scorsese, Liotta, De Niro. Henry Hill story. Copacabana one-take shot."
+    },
+    {
+      "category": "Geography",
+      "question": "Which ocean is the smallest and shallowest of the world's five oceans?",
+      "options": [
+        "Arctic Ocean",
+        "Indian Ocean",
+        "Atlantic Ocean",
+        "Southern Ocean"
+      ],
+      "answer": "Arctic Ocean",
+      "explanation": "The Arctic Ocean covers about 14.06 million km² — about 1.5 times the size of the United States. It is almost entirely surrounded by North America, Europe, and Asia. Much of its surface is covered by sea ice year-round, though climate change is dramatically reducing Arctic ice extent.",
+      "memory_hook": "Arctic Ocean: world's smallest. Almost completely surrounded by land. Shrinking with climate change."
+    },
+    {
+      "category": "History",
+      "question": "The assassination of Archduke Franz Ferdinand in Sarajevo in 1914 triggered which conflict?",
+      "options": [
+        "World War I",
+        "The Balkan Wars",
+        "The Russo-Japanese War",
+        "World War II"
+      ],
+      "answer": "World War I",
+      "explanation": "Archduke Franz Ferdinand, heir to the Austro-Hungarian throne, was shot by Gavrilo Princip on June 28, 1914. Austria-Hungary blamed Serbia, triggering a chain of alliances that drew Russia, Germany, France, and Britain into war. The war lasted four years and killed approximately 20 million people.",
+      "memory_hook": "Franz Ferdinand shot June 28, 1914 → WWI. Alliance chain reaction within weeks."
+    },
+    {
+      "category": "Pop Culture",
+      "question": "Which Canadian actor starred as Tony Stark/Iron Man across 10 Marvel Cinematic Universe films?",
+      "options": [
+        "Robert Downey Jr.",
+        "Chris Evans",
+        "Chris Pratt",
+        "Mark Ruffalo"
+      ],
+      "answer": "Robert Downey Jr.",
+      "explanation": "Robert Downey Jr. first played Tony Stark in Iron Man (2008), which launched the Marvel Cinematic Universe. He appeared in 10 MCU films before his character's death in Avengers: Endgame (2019). His casting was considered a risk given his past personal struggles, but became one of Hollywood's greatest casting decisions.",
+      "memory_hook": "RDJ = Tony Stark / Iron Man. 10 MCU films, 2008-2019. Launched the MCU."
+    },
+    {
+      "category": "Science",
+      "question": "What is the speed of light in a vacuum, approximately?",
+      "options": [
+        "300,000 km/s",
+        "30,000 km/s",
+        "3,000 km/s",
+        "3,000,000 km/s"
+      ],
+      "answer": "300,000 km/s",
+      "explanation": "The speed of light in a vacuum (c) is exactly 299,792,458 meters per second — approximately 300,000 km/s or 186,000 miles per second. Nothing with mass can travel at or beyond this speed. Light from the Sun takes about 8 minutes to reach Earth.",
+      "memory_hook": "Speed of light: ~300,000 km/s. Sun's light reaches Earth in ~8 minutes."
+    },
+    {
+      "category": "Geography",
+      "question": "Lake Baikal in Russia is the world's deepest lake at 1,642 meters. What percentage of Earth's unfrozen surface freshwater does it contain?",
+      "options": [
+        "20%",
+        "5%",
+        "50%",
+        "10%"
+      ],
+      "answer": "20%",
+      "explanation": "Lake Baikal holds approximately 20% of the world's unfrozen surface freshwater — more than all of North America's Great Lakes combined. It is also the world's oldest lake at 25-30 million years old and has over 1,700 endemic species, including the Baikal seal (nerpa) — the world's only exclusively freshwater seal.",
+      "memory_hook": "Baikal: deepest lake, 1,642m, holds 20% of world's unfrozen freshwater. Freshwater seals."
+    },
+    {
+      "category": "History",
+      "question": "The Hundred Years' War (1337-1453) was a prolonged conflict between England and France. Which French peasant girl led French forces to several key victories before being captured and burned at the stake?",
+      "options": [
+        "Joan of Arc",
+        "Eleanor of Aquitaine",
+        "Catherine of Aragon",
+        "Christine de Pizan"
+      ],
+      "answer": "Joan of Arc",
+      "explanation": "Joan of Arc (c. 1412-1431) claimed divine visions instructed her to support Charles VII of France. She led the French army to victory at Orléans in 1429, helping turn the tide of the war. Captured by the Burgundians, she was sold to the English and burned at the stake for heresy at age 19. She was canonized in 1920.",
+      "memory_hook": "Joan of Arc: peasant girl, divine visions, victory at Orléans. Burned at 19, now a saint."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Which rapper, born Shawn Corey Carter in Brooklyn, built a business empire including Tidal, Armand de Brignac champagne, and D'Ussé cognac alongside his music career?",
+      "options": [
+        "Jay-Z",
+        "Diddy",
+        "Dr. Dre",
+        "Nas"
+      ],
+      "answer": "Jay-Z",
+      "explanation": "Jay-Z (born 1969) became the first rapper to become a billionaire. His album '4:44' (2017) was recorded as a business-focused statement. He co-founded Roc-A-Fella Records, Roc Nation entertainment, and has invested in Uber and Armand de Brignac. He is married to Beyoncé.",
+      "memory_hook": "Jay-Z: first rap billionaire. Roc Nation, Tidal, Armand de Brignac. Married to Beyoncé."
+    },
+    {
+      "category": "Sports",
+      "question": "In the Olympic Games, what is the name of the relay race in which four swimmers each swim a different stroke?",
+      "options": [
+        "Medley relay",
+        "Mixed relay",
+        "Butterfly relay",
+        "Freestyle relay"
+      ],
+      "answer": "Medley relay",
+      "explanation": "The medley relay features four swimmers each swimming 100 meters: backstroke, breaststroke, butterfly, then freestyle (in that order). Team USA has won the medley relay at nearly every Olympics. The order differs from individual medley, which goes: butterfly, backstroke, breaststroke, freestyle.",
+      "memory_hook": "Medley relay: back, breast, fly, free. Individual medley: fly, back, breast, free."
+    }
+  ]
+}

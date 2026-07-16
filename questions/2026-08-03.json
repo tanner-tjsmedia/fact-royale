@@ -3,42 +3,42 @@
   "questions": [
     {
       "category": "History",
-      "question": "The Treaty of Versailles, signed in 1919, formally ended which war?",
+      "question": "The Battle of Stalingrad (1942-43), considered the turning point of World War II on the Eastern Front, was fought between Nazi Germany and which country?",
       "options": [
-        "World War II",
-        "The Crimean War",
-        "The Boer War",
-        "World War I"
+        "Soviet Union",
+        "Poland",
+        "Ukraine",
+        "Romania"
       ],
-      "answer": "World War I",
-      "explanation": "The Treaty of Versailles was signed on June 28, 1919, formally ending World War I. It placed full blame for the war on Germany (the 'war guilt clause'), imposed massive reparations, stripped Germany of territory and its military, and dissolved the Austro-Hungarian and Ottoman empires. Many historians argue that the treaty's humiliating terms fueled resentment in Germany, contributing to the rise of Adolf Hitler and World War II.",
-      "memory_hook": "Treaty of Versailles 1919 = WWI ends. Its harsh terms against Germany planted the seeds of WWII. John Maynard Keynes warned at the time it would cause another war. He was right."
+      "answer": "Soviet Union",
+      "explanation": "The Battle of Stalingrad (August 1942 – February 1943) was one of the deadliest battles in history, with an estimated 2 million casualties. Soviet forces encircled and destroyed the German 6th Army, forcing its surrender. It marked the point at which Germany was forced onto the defensive on the Eastern Front.",
+      "memory_hook": "Stalingrad 1942-43: Soviets surrounded German 6th Army. War's turning point."
     },
     {
       "category": "History",
-      "question": "In what year did Columbus first arrive in the Americas?",
+      "question": "Vasco da Gama became the first European to reach India by sea, opening a direct trade route and bypassing the Ottoman-controlled Silk Road. From which country did he sail in 1497?",
       "options": [
-        "1488",
-        "1492",
-        "1497",
-        "1502"
+        "Portugal",
+        "Spain",
+        "England",
+        "Netherlands"
       ],
-      "answer": "1492",
-      "explanation": "Christopher Columbus landed in the Bahamas on October 12, 1492, on his first voyage west from Spain. He was attempting to find a sea route to Asia. Columbus made four voyages to the Americas but never acknowledged he had found a previously unknown continent — he died believing he had reached the East Indies. Amerigo Vespucci later recognized it as a new continent, which is why it's called America.",
-      "memory_hook": "Columbus 1492. He sailed the ocean blue. Never admitted he found a new continent — died thinking he'd reached Asia. Vespucci figured it out, and the continents got named after him instead."
+      "answer": "Portugal",
+      "explanation": "Vasco da Gama sailed from Lisbon, Portugal in July 1497 and arrived in Calicut (Kozhikode), India in May 1498, completing the first direct maritime link between Europe and Asia. This route made Portugal immensely wealthy and shifted the center of world trade away from the Mediterranean.",
+      "memory_hook": "Vasco da Gama, 1497, Portugal → India by sea. First direct European sea route."
     },
     {
       "category": "History",
-      "question": "Which ancient Greek philosopher was forced to drink hemlock as a death sentence?",
+      "question": "Which ancient Greek mathematician formulated the theorem that the square of the hypotenuse of a right triangle equals the sum of the squares of the other two sides (a² + b² = c²)?",
       "options": [
-        "Plato",
-        "Aristotle",
         "Pythagoras",
-        "Socrates"
+        "Euclid",
+        "Archimedes",
+        "Thales"
       ],
-      "answer": "Socrates",
-      "explanation": "Socrates (470-399 BC) was tried and convicted by an Athenian court on charges of impiety and corrupting the youth. He was ordered to drink hemlock, a poisonous plant. Socrates refused to flee or recant, seeing his execution as an opportunity to demonstrate his principles. His trial and death are described in Plato's dialogues. His philosophical method — asking probing questions — is the foundation of the Socratic method still used in law schools today.",
-      "memory_hook": "Socrates = hemlock death, 399 BC. Condemned for questioning everything. He could have fled but chose death over recanting. His student Plato wrote about it — and Plato taught Aristotle, who taught Alexander the Great."
+      "answer": "Pythagoras",
+      "explanation": "Pythagoras of Samos (c. 570-495 BC) is credited with the Pythagorean theorem, though evidence suggests it may have been known to Babylonian mathematicians centuries earlier. He founded a philosophical and mathematical brotherhood in Croton, Italy. The Pythagoreans believed numbers were the foundation of all reality.",
+      "memory_hook": "Pythagoras: a² + b² = c². Right triangles. Still in every math class."
     },
     {
       "category": "History",

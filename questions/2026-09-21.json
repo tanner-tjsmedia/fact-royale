@@ -1,0 +1,161 @@
+{
+  "date": "2026-09-21",
+  "questions": [
+    {
+      "category": "History",
+      "question": "Which Native American woman, Shoshone-born, guided Lewis and Clark on their 1804-1806 expedition through the American West?",
+      "options": [
+        "Sacagawea",
+        "Pocahontas",
+        "Winona",
+        "Waheenee"
+      ],
+      "answer": "Sacagawea",
+      "explanation": "Sacagawea was a teenage Shoshone woman married to French-Canadian trapper Toussaint Charbonneau. She joined the Lewis and Clark Expedition, helping navigate territory and communicate. She carried her infant son Jean Baptiste the entire journey. Her presence signaled peaceful intent to western tribes.",
+      "memory_hook": "Sacagawea: Shoshone guide for Lewis and Clark. Carried infant son the whole journey. Presence showed peaceful intent."
+    },
+    {
+      "category": "Science",
+      "question": "What is the Heisenberg Uncertainty Principle?",
+      "options": [
+        "Knowing a particle's position precisely makes its momentum imprecise, and vice versa",
+        "Matter cannot be created or destroyed",
+        "Entropy always increases in a closed system",
+        "Objects in motion stay in motion"
+      ],
+      "answer": "Knowing a particle's position precisely makes its momentum imprecise, and vice versa",
+      "explanation": "Werner Heisenberg formulated this in 1927: the more precisely you know a particle's position, the less precisely you can know its momentum. This is a fundamental property of quantum systems — not just instrument limitations.",
+      "memory_hook": "Heisenberg 1927: position + momentum can't both be known precisely. Fundamental physics, not instrument limits."
+    },
+    {
+      "category": "Sports",
+      "question": "Chris Evert and Martina Navratilova each won how many Grand Slam singles titles, defining one of sports' great rivalries?",
+      "options": [
+        "18 each",
+        "12 each",
+        "18 Evert / 16 Navratilova",
+        "16 Evert / 18 Navratilova"
+      ],
+      "answer": "18 each",
+      "explanation": "Both Chris Evert and Martina Navratilova won 18 Grand Slam singles titles. Evert had a 90% clay court win rate. Their rivalry defined women's tennis in the 1970s-80s.",
+      "memory_hook": "Evert and Navratilova: both won 18 Grand Slam titles. 90% clay win rate for Evert."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Which 1988 Tim Burton film, starring Michael Keaton as a manic 'bio-exorcist,' starred alongside Winona Ryder and launched both their careers?",
+      "options": [
+        "Beetlejuice",
+        "Edward Scissorhands",
+        "Batman",
+        "Big Eyes"
+      ],
+      "answer": "Beetlejuice",
+      "explanation": "Beetlejuice (1988) starred Michael Keaton, Alec Baldwin, Geena Davis, and Winona Ryder. Won an Oscar for Best Makeup. A sequel, Beetlejuice Beetlejuice, was released in 2024.",
+      "memory_hook": "Beetlejuice 1988: Keaton, Burton, Ryder. Won Oscar for Makeup. 2024 sequel released."
+    },
+    {
+      "category": "Geography",
+      "question": "Which large freshwater lake, shared by Uganda, Kenya, and Tanzania, is the world's largest tropical lake and source of the White Nile?",
+      "options": [
+        "Lake Victoria",
+        "Lake Tanganyika",
+        "Lake Malawi",
+        "Lake Turkana"
+      ],
+      "answer": "Lake Victoria",
+      "explanation": "Lake Victoria covers 68,800 km² and is shallow (avg 40m). The White Nile exits at Jinja, Uganda. The Nile perch introduced in the 1950s devastated native fish species.",
+      "memory_hook": "Lake Victoria: 68,800 km², tropical lake source of White Nile. Nile perch introduction devastated native fish."
+    },
+    {
+      "category": "History",
+      "question": "Japan's 2011 Tohoku earthquake (magnitude 9.0) caused which secondary disaster that killed approximately 20,000 people?",
+      "options": [
+        "Tsunami and nuclear meltdown at Fukushima",
+        "Landslides only",
+        "Volcanic eruption",
+        "Firestorms in Tokyo"
+      ],
+      "answer": "Tsunami and nuclear meltdown at Fukushima",
+      "explanation": "The 2011 Tohoku earthquake triggered a massive tsunami and the Fukushima Daiichi nuclear disaster. About 20,000 died. The earthquake shifted Japan's coastline 2.4 meters eastward — one of the most powerful ever recorded.",
+      "memory_hook": "Tohoku 2011: M9.0, tsunami + Fukushima meltdown, 20K dead. Shifted Japan 2.4m eastward."
+    },
+    {
+      "category": "Pop Culture",
+      "question": "Which HBO television drama about Westeros became the most Emmy-awarded scripted series in history with 59 wins?",
+      "options": [
+        "Game of Thrones",
+        "The Crown",
+        "Succession",
+        "The Sopranos"
+      ],
+      "answer": "Game of Thrones",
+      "explanation": "Game of Thrones (HBO, 2011-2019) won 59 Emmy Awards — most of any scripted series. At peak viewership an estimated 44 million global viewers watched each episode.",
+      "memory_hook": "Game of Thrones: 59 Emmys, most of any scripted drama. 44M global viewers at peak."
+    },
+    {
+      "category": "Science",
+      "question": "What does the process of radioactive decay transform — and what famous dating technique is based on carbon's radioactive decay?",
+      "options": [
+        "Changes one element to another; radiocarbon dating",
+        "Changes one molecule to another; spectroscopy",
+        "Changes energy to mass; nuclear dating",
+        "Changes mass to energy; carbon analysis"
+      ],
+      "answer": "Changes one element to another; radiocarbon dating",
+      "explanation": "Radioactive decay transforms unstable nuclei into different elements. Carbon-14 decays to Nitrogen-14 — the basis of radiocarbon dating. Marie Curie coined the term 'radioactivity.'",
+      "memory_hook": "Radioactive decay: one element → another. Carbon-14 → Nitrogen-14 = radiocarbon dating. Curie coined 'radioactivity.'"
+    },
+    {
+      "category": "Geography",
+      "question": "Which tunnel beneath the English Channel connects London to Paris via Eurostar, and how long is it underwater?",
+      "options": [
+        "Channel Tunnel, 38 km underwater (50 km total)",
+        "Øresund Tunnel, 8 km underwater",
+        "Seikan Tunnel, 23 km underwater",
+        "Chunnel, 45 km underwater"
+      ],
+      "answer": "Channel Tunnel, 38 km underwater (50 km total)",
+      "explanation": "The Channel Tunnel ('Chunnel') is 50 km long total, with 38 km underwater — the world's longest undersea tunnel. It opened in 1994. Eurostar runs London (St Pancras) to Paris (Gare du Nord) in about 2 hours 15 minutes.",
+      "memory_hook": "Channel Tunnel: 50 km total, 38 km underwater (world's longest undersea). Opened 1994. London to Paris in 2h15."
+    },
+    {
+      "category": "History",
+      "question": "Which 19th-century German chancellor unified the German states into the German Empire in 1871 by winning three wars?",
+      "options": [
+        "Otto von Bismarck",
+        "Kaiser Wilhelm I",
+        "Frederick the Great",
+        "Helmut von Moltke"
+      ],
+      "answer": "Otto von Bismarck",
+      "explanation": "Bismarck unified Germany through wars against Denmark (1864), Austria (1866), and France (1870-71). The German Empire was declared in the Hall of Mirrors at Versailles in January 1871. Bismarck also created the world's first national health insurance (1883).",
+      "memory_hook": "Bismarck: 3 wars to unify Germany. Empire declared at Versailles. Also created first national health insurance (1883)."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Which 1982 Spielberg film about a friendly alien stranded on Earth was the highest-grossing film for 11 years?",
+      "options": [
+        "E.T. the Extra-Terrestrial",
+        "Close Encounters of the Third Kind",
+        "War of the Worlds",
+        "Alien"
+      ],
+      "answer": "E.T. the Extra-Terrestrial",
+      "explanation": "E.T. (1982) held the record for 11 years until Jurassic Park (also Spielberg) surpassed it in 1993. Starred young Drew Barrymore. John Williams composed the score.",
+      "memory_hook": "E.T. 1982: Spielberg, Drew Barrymore, John Williams. Highest-grossing for 11 years; beaten by Jurassic Park."
+    },
+    {
+      "category": "Sports",
+      "question": "What record does Novak Djokovic hold in ATP year-end rankings?",
+      "options": [
+        "Most year-end No. 1 rankings with 8",
+        "Most career weeks at No. 1",
+        "Both most year-end No. 1s (8) and most weeks at No. 1",
+        "Most consecutive year-end No. 1s"
+      ],
+      "answer": "Both most year-end No. 1s (8) and most weeks at No. 1",
+      "explanation": "Djokovic holds both records: most career weeks at No. 1 (400+) and most year-end No. 1 finishes (8). He also holds records for most Grand Slam titles (24). His dominance of men's tennis is historic.",
+      "memory_hook": "Djokovic: 8 year-end No. 1s + most weeks ever at No. 1 (400+). Also most Grand Slam titles (24)."
+    }
+  ]
+}

@@ -1,0 +1,161 @@
+{
+  "date": "2026-09-04",
+  "questions": [
+    {
+      "category": "History",
+      "question": "Which Portuguese navigator was the first European to sail directly from Europe to India, arriving in Calicut in 1498?",
+      "options": [
+        "Vasco da Gama",
+        "Bartolomeu Dias",
+        "Ferdinand Magellan",
+        "Pedro Álvares Cabral"
+      ],
+      "answer": "Vasco da Gama",
+      "explanation": "Vasco da Gama's 1497-99 voyage around Africa and to India opened the sea route that would make Portugal dominant in Asian trade for over a century. He reached Calicut (Kozhikode) in May 1498. His route via the Cape of Good Hope was pioneered by Bartolomeu Dias in 1488.",
+      "memory_hook": "Vasco da Gama: first European to sail to India, 1498. Arrived in Calicut, via Cape of Good Hope."
+    },
+    {
+      "category": "Science",
+      "question": "What is the approximate temperature at the surface of the Sun?",
+      "options": [
+        "5,500°C",
+        "1,000°C",
+        "10,000°C",
+        "100,000°C"
+      ],
+      "answer": "5,500°C",
+      "explanation": "The Sun's surface (photosphere) is approximately 5,500°C. The corona (outer atmosphere) paradoxically reaches 1-3 million degrees. The Sun's core is estimated at 15 million degrees Celsius — hot enough for nuclear fusion, fusing hydrogen into helium and releasing energy.",
+      "memory_hook": "Sun's surface: 5,500°C. Corona: 1-3M degrees (hotter!). Core: 15M degrees. Fusion happens there."
+    },
+    {
+      "category": "Sports",
+      "question": "Which country has won the Rugby World Cup the most times, with three championships?",
+      "options": [
+        "New Zealand",
+        "South Africa",
+        "Australia",
+        "England"
+      ],
+      "answer": "New Zealand",
+      "explanation": "New Zealand's All Blacks have won the Rugby World Cup in 1987, 2011, and 2015 — the most of any nation. South Africa has won it in 1995, 2007, 2019 (and 2023). The All Blacks are known for their pre-match Haka, a Māori war dance. New Zealand has the highest winning percentage of any rugby union team.",
+      "memory_hook": "All Blacks: 3 World Cups (1987, 2011, 2015). South Africa: 4 (1995, 2007, 2019, 2023). Both ahead of all others."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Which 2003 Sofia Coppola film, set in Tokyo and starring Bill Murray and Scarlett Johansson, won the Academy Award for Best Original Screenplay?",
+      "options": [
+        "Lost in Translation",
+        "The Virgin Suicides",
+        "Marie Antoinette",
+        "Somewhere"
+      ],
+      "answer": "Lost in Translation",
+      "explanation": "Lost in Translation (2003) tells the story of two Americans — a faded actor (Murray) and a photographer's wife (Johansson) — who form a connection in Tokyo. The film was shot in real Tokyo locations including the Park Hyatt hotel. Sofia Coppola became only the third woman nominated for Best Director at the Oscars.",
+      "memory_hook": "Lost in Translation 2003: Sofia Coppola, Murray, Johansson. Tokyo. Oscar for Best Screenplay."
+    },
+    {
+      "category": "Geography",
+      "question": "Which island nation, located in the Indian Ocean about 1,000 km east of Tanzania, is the world's fourth-largest island and has unique wildlife found nowhere else?",
+      "options": [
+        "Madagascar",
+        "Mauritius",
+        "Maldives",
+        "Comoros"
+      ],
+      "answer": "Madagascar",
+      "explanation": "Madagascar separated from mainland Africa about 88 million years ago, allowing unique evolution in isolation. Over 90% of its wildlife, including all 107 species of lemurs, is found nowhere else on Earth. It is sometimes called the 'Eighth Continent' for its unique biodiversity. Deforestation has destroyed 90% of Madagascar's original forest cover.",
+      "memory_hook": "Madagascar: separated 88M years ago. 90% endemic wildlife. Lemurs found only there. 90% of forests gone."
+    },
+    {
+      "category": "History",
+      "question": "Which U.S. president ordered the atomic bombings of Hiroshima (August 6) and Nagasaki (August 9) in 1945?",
+      "options": [
+        "Harry Truman",
+        "Franklin Roosevelt",
+        "Dwight Eisenhower",
+        "Herbert Hoover"
+      ],
+      "answer": "Harry Truman",
+      "explanation": "President Harry Truman authorized the bombings. Hiroshima was hit by 'Little Boy' (uranium bomb), killing approximately 70,000-80,000 instantly; Nagasaki by 'Fat Man' (plutonium), killing 40,000-80,000. Japan surrendered on August 15. Truman justified the bombings as necessary to avoid a land invasion that could have killed millions on both sides.",
+      "memory_hook": "Truman ordered Hiroshima (Aug 6) and Nagasaki (Aug 9) bombings. Japan surrendered Aug 15."
+    },
+    {
+      "category": "Pop Culture",
+      "question": "Which entrepreneur founded both Tesla (electric cars) and SpaceX (commercial spaceflight), and acquired Twitter in 2022?",
+      "options": [
+        "Elon Musk",
+        "Jeff Bezos",
+        "Richard Branson",
+        "Larry Page"
+      ],
+      "answer": "Elon Musk",
+      "explanation": "Elon Musk co-founded PayPal (sold 2002), founded SpaceX (2002), and joined Tesla as chairman in 2004 (became CEO 2008). SpaceX became the first private company to send astronauts to the ISS. He acquired Twitter for $44 billion in 2022, renaming it X. He is also the founder of Neuralink and The Boring Company.",
+      "memory_hook": "Musk: co-founded PayPal → SpaceX → Tesla CEO → bought Twitter ($44B) → renamed it X."
+    },
+    {
+      "category": "Science",
+      "question": "What is the term for the tendency of an object to remain at rest or in uniform motion unless acted upon by a net external force?",
+      "options": [
+        "Inertia",
+        "Momentum",
+        "Acceleration",
+        "Friction"
+      ],
+      "answer": "Inertia",
+      "explanation": "Inertia is described by Newton's First Law of Motion: an object at rest stays at rest, and an object in motion stays in motion, unless acted upon by a net force. Mass is a measure of inertia — more mass means more resistance to change in motion. This is why heavy objects are harder to start moving AND harder to stop.",
+      "memory_hook": "Inertia = Newton's First Law. Objects resist changes in motion. Greater mass = greater inertia."
+    },
+    {
+      "category": "Geography",
+      "question": "The Gobi Desert, spanning southern Mongolia and northern China, is the fifth-largest desert in the world. What type of desert is it?",
+      "options": [
+        "Cold desert",
+        "Sand desert",
+        "Coastal desert",
+        "Subtropical desert"
+      ],
+      "answer": "Cold desert",
+      "explanation": "The Gobi is a cold desert where temperatures can drop below -40°C in winter and exceed 50°C in summer. Only about 5% of the Gobi consists of sand dunes — most is bare rock or gravel. It is one of the few places where you can find dinosaur fossils (eggs, skeletons) in large quantities.",
+      "memory_hook": "Gobi: cold desert, mostly rock. -40°C winters. Abundant dinosaur fossils."
+    },
+    {
+      "category": "History",
+      "question": "The Vietnam War ended in 1975 when North Vietnamese forces captured Saigon. What was Saigon subsequently renamed?",
+      "options": [
+        "Ho Chi Minh City",
+        "Hanoi",
+        "Da Nang",
+        "Hue"
+      ],
+      "answer": "Ho Chi Minh City",
+      "explanation": "Saigon fell on April 30, 1975, marking the end of the Vietnam War. The city was renamed Ho Chi Minh City after the leader of the North Vietnamese revolution, though many locals still call it Saigon. The fall was marked by iconic images of helicopters evacuating people from the U.S. Embassy rooftop.",
+      "memory_hook": "Saigon fell April 30, 1975. Renamed Ho Chi Minh City. Helicopter rooftop evacuation images."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Which 1986 Top Gun actor plays Maverick in the 2022 sequel, 36 years after the original?",
+      "options": [
+        "Tom Cruise",
+        "Val Kilmer",
+        "Anthony Edwards",
+        "Tom Skerritt"
+      ],
+      "answer": "Tom Cruise",
+      "explanation": "Tom Cruise reprised his role as Pete 'Maverick' Mitchell in Top Gun: Maverick (2022), which grossed $1.49 billion worldwide — the highest-grossing film of Cruise's career. Val Kilmer made a brief emotional cameo as Iceman despite being seriously ill. The film was praised for using practical flight photography rather than CGI.",
+      "memory_hook": "Top Gun: Maverick (2022): Cruise returned after 36 years. $1.49B. Real jet footage, no CGI."
+    },
+    {
+      "category": "Sports",
+      "question": "In tennis, what is the name of the first Grand Slam tournament of the calendar year, played on hard courts in Melbourne, Australia?",
+      "options": [
+        "Australian Open",
+        "US Open",
+        "Roland Garros",
+        "Wimbledon"
+      ],
+      "answer": "Australian Open",
+      "explanation": "The Australian Open has been played at Melbourne Park since 1988. It begins in mid-January and uses a DecoTurf hard court surface. Novak Djokovic holds the record for most Australian Open titles with 10. Temperatures at Melbourne Park can exceed 40°C during summer, making it physically grueling.",
+      "memory_hook": "Australian Open: first Grand Slam, January, Melbourne. Djokovic holds record with 10 titles. Extreme heat."
+    }
+  ]
+}

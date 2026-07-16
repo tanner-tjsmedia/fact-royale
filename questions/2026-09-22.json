@@ -1,0 +1,161 @@
+{
+  "date": "2026-09-22",
+  "questions": [
+    {
+      "category": "History",
+      "question": "Columbus landed in the Bahamas on October 12, 1492. What did he name the island he landed on?",
+      "options": [
+        "San Salvador",
+        "Hispaniola",
+        "Cuba",
+        "San Juan"
+      ],
+      "answer": "San Salvador",
+      "explanation": "Columbus made landfall on an island the locals called Guanahani and renamed it San Salvador. He initially believed he'd reached Asia. The date (October 12) is now Columbus Day in the US and in many Latin American countries is Día de la Raza.",
+      "memory_hook": "Columbus: Bahamas Oct 12, 1492. Named it San Salvador. Thought he was in Asia."
+    },
+    {
+      "category": "Science",
+      "question": "What is the term for the wall separating the two sides of the human heart?",
+      "options": [
+        "Septum",
+        "Aorta",
+        "Mitral valve",
+        "Pericardium"
+      ],
+      "answer": "Septum",
+      "explanation": "The septum divides the heart: the interatrial septum separates the two atria; the interventricular septum separates the two ventricles. A hole in the septum is a 'septal defect' — commonly called 'hole in the heart.'",
+      "memory_hook": "Septum: divides heart chambers. Hole in it = birth defect called 'hole in the heart.'"
+    },
+    {
+      "category": "Sports",
+      "question": "In which sport do you perform a slapshot, get called for offside, and earn a power play after a penalty?",
+      "options": [
+        "Ice hockey",
+        "Field hockey",
+        "Lacrosse",
+        "Polo"
+      ],
+      "answer": "Ice hockey",
+      "explanation": "In ice hockey: slapshot = stick raised and whipped through puck (up to 100+ mph); offside = attacking player enters zone before puck; power play = opponent has a player in the penalty box.",
+      "memory_hook": "Ice hockey: slapshot (100+ mph), offside (player before puck), power play (opponent short-handed)."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Bob Marley died at 36 of cancer in 1981. Which posthumous album became the best-selling reggae album of all time?",
+      "options": [
+        "Legend",
+        "Exodus",
+        "Rastaman Vibration",
+        "Burnin"
+      ],
+      "answer": "Legend",
+      "explanation": "'Legend' (1984 posthumous compilation) remains on the Billboard chart and has sold over 30 million copies — the best-selling reggae album ever. Marley survived an assassination attempt in December 1976 and performed at a free concert two days later.",
+      "memory_hook": "Bob Marley: 'Legend' (1984) = 30M copies, best-selling reggae album ever. Survived assassination attempt 1976."
+    },
+    {
+      "category": "Geography",
+      "question": "Which country has the highest population density in the European Union, with approximately 508 people per km²?",
+      "options": [
+        "Netherlands",
+        "Belgium",
+        "Luxembourg",
+        "Denmark"
+      ],
+      "answer": "Netherlands",
+      "explanation": "Netherlands: ~508 people per km², highest in EU. Second largest food exporter globally despite size. 23 million bikes for 17 million people.",
+      "memory_hook": "Netherlands: highest EU density (508/km²). 2nd biggest food exporter. 23M bikes for 17M people."
+    },
+    {
+      "category": "History",
+      "question": "What caused the Space Shuttle Challenger disaster on January 28, 1986?",
+      "options": [
+        "O-ring seal failure in cold temperatures",
+        "Fuel tank leak",
+        "Engine malfunction",
+        "Navigation error"
+      ],
+      "answer": "O-ring seal failure in cold temperatures",
+      "explanation": "O-ring seals failed in 28°F (-2°C) temperatures, allowing hot gases to escape and ignite the external tank. All 7 crew died, including teacher Christa McAuliffe. Led to 32-month halt in shuttle launches.",
+      "memory_hook": "Challenger 1986: O-ring failed in cold (-2°C). 7 crew died including teacher McAuliffe. 32-month grounding."
+    },
+    {
+      "category": "Pop Culture",
+      "question": "Which Peanuts character, created by Charles Schulz in 1950, sleeps on top of a doghouse and imagines himself as a WWI flying ace?",
+      "options": [
+        "Snoopy",
+        "Lassie",
+        "Rin Tin Tin",
+        "Pluto"
+      ],
+      "answer": "Snoopy",
+      "explanation": "Snoopy appeared in Peanuts from October 4, 1950. His WWI flying ace fantasies fighting the 'Red Baron' are iconic. Snoopy is also NASA's unofficial safety mascot.",
+      "memory_hook": "Snoopy: since 1950, WWI ace fantasies vs. Red Baron. NASA's unofficial safety mascot."
+    },
+    {
+      "category": "Science",
+      "question": "The Kyoto Protocol (1997) required binding emissions cuts. What replaced it in 2015?",
+      "options": [
+        "The Paris Agreement",
+        "The Copenhagen Accord",
+        "The Montreal Protocol",
+        "The Green New Deal"
+      ],
+      "answer": "The Paris Agreement",
+      "explanation": "The Kyoto Protocol set binding targets for developed nations. The US signed under Clinton but the Senate refused to ratify; Bush withdrew in 2001. The Paris Agreement (2015) replaced it as a more inclusive but non-binding framework.",
+      "memory_hook": "Kyoto Protocol 1997: binding cuts. US never ratified. Paris Agreement 2015 replaced it (non-binding but broader)."
+    },
+    {
+      "category": "Geography",
+      "question": "What is the Aegean Sea named after, according to Greek mythology?",
+      "options": [
+        "King Aegeus, who drowned himself after mistakenly thinking his son Theseus died",
+        "The city of Aegae",
+        "The eagle (aetos) that soars over it",
+        "The Aegean winds"
+      ],
+      "answer": "King Aegeus, who drowned himself after mistakenly thinking his son Theseus died",
+      "explanation": "The Aegean Sea is named after King Aegeus of Athens, who saw a black sail on Theseus's returning ship (Theseus forgot to change it to white to signal victory over the Minotaur). Believing his son dead, Aegeus threw himself into the sea.",
+      "memory_hook": "Aegean: named after King Aegeus who drowned thinking Theseus died. Black sail confusion."
+    },
+    {
+      "category": "History",
+      "question": "The Magna Carta, signed by King John in 1215, established what key principle?",
+      "options": [
+        "Even kings must follow the law",
+        "Church and state must be separate",
+        "Trial by jury is mandatory",
+        "Parliament controls taxation"
+      ],
+      "answer": "Even kings must follow the law",
+      "explanation": "The Magna Carta (June 15, 1215 at Runnymede) established that even the king is bound by law. Clauses 39-40 protecting free men from imprisonment without lawful judgment became the basis for habeas corpus and human rights law.",
+      "memory_hook": "Magna Carta 1215: king must follow the law. Clauses 39-40 = basis of habeas corpus."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Which 2014 Marvel film, featuring Starlord, Gamora, Drax, Groot, and Rocket, had an iconic 1970s/80s pop soundtrack called Awesome Mix Vol. 1?",
+      "options": [
+        "Guardians of the Galaxy",
+        "Thor: Ragnarok",
+        "Avengers: Endgame",
+        "Ant-Man"
+      ],
+      "answer": "Guardians of the Galaxy",
+      "explanation": "Guardians of the Galaxy (2014) directed by James Gunn brought '70s songs back to the charts. The soundtrack spent 45 weeks on the Billboard chart — first MCU soundtrack to chart independently.",
+      "memory_hook": "Guardians of the Galaxy 2014: Awesome Mix Vol. 1. Brought 'Hooked on a Feeling' back to the charts. 45 weeks on Billboard."
+    },
+    {
+      "category": "Sports",
+      "question": "What does a goalie stick in ice hockey have that a regular player's stick doesn't?",
+      "options": [
+        "Wider blade and thicker paddle (shaft section above the blade)",
+        "Metal reinforcement",
+        "Longer overall length",
+        "Curved tip"
+      ],
+      "answer": "Wider blade and thicker paddle (shaft section above the blade)",
+      "explanation": "A goalie stick has a wider blade and a 'paddle' — the thick rectangular section of the shaft above the blade — that allows goalies to block more ice. Goalies also use blockers and catching gloves as equipment.",
+      "memory_hook": "Goalie stick: wider blade + thick paddle. Also use blocker + catching glove. More coverage than player sticks."
+    }
+  ]
+}

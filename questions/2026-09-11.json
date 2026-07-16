@@ -1,0 +1,161 @@
+{
+  "date": "2026-09-11",
+  "questions": [
+    {
+      "category": "History",
+      "question": "The Reformation began in 1517 when which German monk nailed his '95 Theses' to the church door in Wittenberg, challenging Catholic practices?",
+      "options": [
+        "Martin Luther",
+        "John Calvin",
+        "Henry VIII",
+        "Huldrych Zwingli"
+      ],
+      "answer": "Martin Luther",
+      "explanation": "Martin Luther's 95 Theses primarily challenged the sale of indulgences (paying to reduce punishment for sins). Luther was excommunicated in 1521. His translation of the Bible into German (1522) helped standardize the German language. The Reformation split Western Christianity into Catholic and Protestant branches.",
+      "memory_hook": "Martin Luther: 95 Theses, 1517. Challenged indulgences. Excommunicated 1521. Translated Bible into German."
+    },
+    {
+      "category": "Science",
+      "question": "What is the name of the phenomenon where light bends around a massive object due to the curvature of spacetime, as predicted by Einstein's General Relativity?",
+      "options": [
+        "Gravitational lensing",
+        "Redshift",
+        "Dark energy effect",
+        "Time dilation"
+      ],
+      "answer": "Gravitational lensing",
+      "explanation": "Gravitational lensing was first confirmed during the 1919 solar eclipse, when Sir Arthur Eddington observed starlight bending around the Sun — exactly as Einstein predicted. It allows astronomers to observe distant galaxies and dark matter by seeing how they bend light from objects behind them.",
+      "memory_hook": "Gravitational lensing: light bends around mass. Confirmed in 1919 eclipse. Eddington proved Einstein right."
+    },
+    {
+      "category": "Sports",
+      "question": "Which Canadian city hosts the annual Toronto Raptors games, making it the only NBA franchise outside the United States?",
+      "options": [
+        "Toronto",
+        "Vancouver",
+        "Montreal",
+        "Ottawa"
+      ],
+      "answer": "Toronto",
+      "explanation": "The Toronto Raptors joined the NBA in 1995. They won their only championship in 2019 — defeating the Golden State Warriors — becoming the first non-U.S. team to win the NBA title. Kawhi Leonard's buzzer-beater against the Philadelphia 76ers in the 2019 playoffs became one of the most iconic moments in NBA history.",
+      "memory_hook": "Toronto Raptors: only non-US NBA team. Won 2019 title. Kawhi Leonard's famous bouncing buzzer-beater."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Which 2009 James Cameron film, the highest-grossing film of all time, depicts humans exploiting the resources of an alien moon called Pandora?",
+      "options": [
+        "Avatar",
+        "Interstellar",
+        "Gravity",
+        "District 9"
+      ],
+      "answer": "Avatar",
+      "explanation": "Avatar (2009) grossed $2.923 billion, making it the highest-grossing film ever (surpassing Titanic). Cameron's use of motion capture and stereoscopic 3D filming was revolutionary. Avatar: The Way of Water (2022) grossed $2.3 billion. The film drew criticism for its story resemblance to 'Dances with Wolves' but praise for its visual spectacle.",
+      "memory_hook": "Avatar 2009: Cameron. $2.9B, highest-grossing film ever. Pandora, Na'vi, blue aliens, unobtanium."
+    },
+    {
+      "category": "Geography",
+      "question": "The Mekong River, one of Southeast Asia's most important waterways, flows through six countries. Which country does it NOT flow through?",
+      "options": [
+        "India",
+        "China",
+        "Myanmar",
+        "Laos"
+      ],
+      "answer": "India",
+      "explanation": "The Mekong flows through China, Myanmar, Laos, Thailand, Cambodia, and Vietnam before emptying into the South China Sea. It is the world's 12th longest river and supports the most biodiverse freshwater ecosystem after the Amazon. The Mekong Delta in Vietnam produces about half of Vietnam's rice.",
+      "memory_hook": "Mekong: China → Myanmar → Laos → Thailand → Cambodia → Vietnam. NOT India. 6 countries."
+    },
+    {
+      "category": "History",
+      "question": "Which Renaissance artist, sculptor, and architect painted the Sistine Chapel ceiling (1508-1512) in Rome?",
+      "options": [
+        "Michelangelo",
+        "Leonardo da Vinci",
+        "Raphael",
+        "Botticelli"
+      ],
+      "answer": "Michelangelo",
+      "explanation": "Michelangelo painted the Sistine Chapel ceiling lying on his back on scaffolding over four years. The centerpiece is 'The Creation of Adam' — God reaching toward Adam. He initially refused the commission, preferring sculpture. His other masterworks include the David statue (Florence) and St. Peter's Basilica's dome design (Rome).",
+      "memory_hook": "Michelangelo: Sistine Chapel 1508-12, on his back. David statue. Designed St. Peter's dome."
+    },
+    {
+      "category": "Pop Culture",
+      "question": "Which actress, known for roles in 'Legally Blonde' and 'Big Little Lies,' is the first actress to earn $1 million per episode of a TV series?",
+      "options": [
+        "Reese Witherspoon",
+        "Jennifer Aniston",
+        "Meryl Streep",
+        "Nicole Kidman"
+      ],
+      "answer": "Reese Witherspoon",
+      "explanation": "Reese Witherspoon became one of the highest-paid actresses in TV when she produced and starred in Big Little Lies (HBO, 2017). Both she and Nicole Kidman reportedly earned around $1 million per episode of The Morning Show (Apple TV+). Witherspoon founded Hello Sunshine production company in 2016.",
+      "memory_hook": "Reese Witherspoon: Legally Blonde, Big Little Lies producer/star. $1M/episode for The Morning Show."
+    },
+    {
+      "category": "Science",
+      "question": "What is the name of the chemical element with atomic number 1, the lightest element and most abundant in the universe?",
+      "options": [
+        "Hydrogen",
+        "Helium",
+        "Lithium",
+        "Carbon"
+      ],
+      "answer": "Hydrogen",
+      "explanation": "Hydrogen (H, atomic number 1) makes up about 75% of all normal matter in the universe by mass. Stars are primarily hydrogen fusion reactors. On Earth, it is found mostly in water (H2O) and organic compounds. Hydrogen fuel cells produce electricity with water as the only byproduct, making them potentially clean energy sources.",
+      "memory_hook": "Hydrogen: lightest element, 75% of universe's matter. Stars fuse it. H2O = hydrogen + oxygen."
+    },
+    {
+      "category": "Geography",
+      "question": "Which large island, located north of Scotland, is an autonomous territory of Denmark and the world's largest island?",
+      "options": [
+        "Greenland",
+        "Iceland",
+        "Newfoundland",
+        "Baffin Island"
+      ],
+      "answer": "Greenland",
+      "explanation": "Greenland covers 2.166 million km², making it the world's largest island (Australia, while bigger, is classified as a continent). Despite being 80% ice-covered, it is classified as not a continent. Greenland has about 56,000 inhabitants — one of the lowest population densities on Earth. Denmark colonized it in the 18th century.",
+      "memory_hook": "Greenland: world's largest island, 2.16 million km². 80% ice. Only 56,000 people. Autonomous Danish territory."
+    },
+    {
+      "category": "History",
+      "question": "The Stonewall Inn riots of June 1969 in New York City were a pivotal moment in which civil rights movement?",
+      "options": [
+        "LGBTQ+ rights",
+        "African American civil rights",
+        "Women's rights",
+        "Disability rights"
+      ],
+      "answer": "LGBTQ+ rights",
+      "explanation": "The Stonewall Inn was a Greenwich Village bar frequently raided by police. On June 28, 1969, patrons (largely gay men, lesbians, and transgender individuals) resisted arrest and rioted for several days. This is widely considered the catalyst for the modern LGBTQ+ rights movement. The first gay pride marches were held on the anniversary one year later.",
+      "memory_hook": "Stonewall 1969: LGBTQ+ patrons fought back against police raids. Sparked modern LGBTQ+ rights movement. First pride marches 1970."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Which 1985 coming-of-age anthology film, directed by Rob Reiner based on a Stephen King story, follows four friends walking to find a dead body?",
+      "options": [
+        "Stand by Me",
+        "The Goonies",
+        "Ferris Bueller's Day Off",
+        "Back to the Future"
+      ],
+      "answer": "Stand by Me",
+      "explanation": "Stand by Me (1985) starred River Phoenix, Wil Wheaton, Corey Feldman, and Jerry O'Connell. The title song was a cover of Ben E. King's 1961 hit. The film (based on King's novella 'The Body') is widely considered one of the most accurate depictions of childhood friendship in cinema.",
+      "memory_hook": "Stand by Me 1985: Rob Reiner, River Phoenix. Based on Stephen King's 'The Body.' Friendship classic."
+    },
+    {
+      "category": "Sports",
+      "question": "In track and field, the decathlon is a two-day event combining 10 disciplines. Which athlete won the 1976 Olympic decathlon with a world-record score and graced the Wheaties cereal box?",
+      "options": [
+        "Bruce Jenner",
+        "Dan O'Brien",
+        "Bob Mathias",
+        "Daley Thompson"
+      ],
+      "answer": "Bruce Jenner",
+      "explanation": "Bruce Jenner (now Caitlyn Jenner) won the 1976 Montreal Olympic decathlon with a world-record 8,634 points, earning the informal title 'World's Greatest Athlete.' The Wheaties sponsorship made Jenner a household name. The decathlon events include 100m, long jump, shot put, high jump, 400m (day 1) and 110m hurdles, discus, pole vault, javelin, 1500m (day 2).",
+      "memory_hook": "1976 decathlon Olympic gold: Bruce (now Caitlyn) Jenner. World record. Wheaties box face."
+    }
+  ]
+}

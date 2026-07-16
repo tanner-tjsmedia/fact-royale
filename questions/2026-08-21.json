@@ -29,7 +29,7 @@
     },
     {
       "category": "History",
-      "question": "The Rosetta Stone, which allowed scholars to decipher Egyptian hieroglyphics, was discovered by Napoleon's soldiers in which country?",
+      "question": "Napoleon's soldiers discovered the Rosetta Stone in 1799 near the town of Rashid. This ancient stele bears the same priestly decree written in three different scripts, allowing scholars to finally decipher ancient hieroglyphics. In which country was it found?",
       "options": [
         "Greece",
         "Sudan",
@@ -37,8 +37,8 @@
         "Egypt"
       ],
       "answer": "Egypt",
-      "explanation": "The Rosetta Stone was discovered in 1799 by French soldiers during Napoleon's Egyptian campaign, near the town of Rosetta (Rashid). It contains the same decree written in Egyptian hieroglyphics, Demotic script, and Ancient Greek. Since scholars could read Greek, they could decode the other two scripts. Thomas Young and Jean-François Champollion are credited with the decipherment in the early 1820s.",
-      "memory_hook": "Rosetta Stone found in Egypt by Napoleon's soldiers in 1799. Same text in three scripts — Greek was known, hieroglyphics were mystery. Champollion cracked the code in 1822. The stone is in the British Museum. Egypt wants it back. The British Museum says no."
+      "explanation": "The Rosetta Stone was discovered in 1799 by French soldiers during Napoleon's Egyptian campaign. It contains the same decree in Ancient Egyptian hieroglyphics, Demotic script, and Ancient Greek. By comparing the three versions, Jean-Francois Champollion decoded hieroglyphics in 1822.",
+      "memory_hook": "Rosetta Stone = found in Egypt (Rashid), 1799. Champollion cracked hieroglyphics using it."
     },
     {
       "category": "History",
@@ -68,16 +68,16 @@
     },
     {
       "category": "Sports",
-      "question": "Which country first hosted both the Summer and Winter Olympic Games?",
+      "question": "The 1964 Summer Olympics were held in Tokyo — the first time the Games were hosted in Asia. Which country hosted both the 1964 Summer and 1972 Winter Olympics?",
       "options": [
-        "France",
-        "USA",
-        "Great Britain",
-        "Germany"
+        "Japan",
+        "South Korea",
+        "China",
+        "Australia"
       ],
-      "answer": "USA",
-      "explanation": "The United States became the first country to host both the Summer Olympics (1904, St. Louis) and Winter Olympics (1932, Lake Placid). The US has since hosted both multiple times: Summer Olympics in Los Angeles (1932, 1984), and Winter Olympics in Lake Placid (1932, 1980), Squaw Valley (1960), and Salt Lake City (2002). Los Angeles hosted the 2028 Summer Olympics.",
-      "memory_hook": "USA = first to host both Summer and Winter Olympics. The 1932 Games saw America host both in the same year — Summer in LA, Winter in Lake Placid. The 'Miracle on Ice' also happened in Lake Placid (1980). America has more Olympic hosting experience than any other country."
+      "answer": "Japan",
+      "explanation": "Japan hosted the 1964 Summer Olympics in Tokyo and the 1972 Winter Olympics in Sapporo — the first Winter Games held in Asia. Tokyo hosted the Summer Games again in 2021 (postponed from 2020 due to COVID-19). Sapporo hosted the 1972 Winter Olympics, and Japan also hosted the 1998 Winter Olympics in Nagano.",
+      "memory_hook": "Japan: 1964 Summer (Tokyo) + 1972 Winter (Sapporo). First Asian Winter Games."
     },
     {
       "category": "Sports",

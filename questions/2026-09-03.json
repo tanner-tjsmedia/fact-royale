@@ -1,0 +1,161 @@
+{
+  "date": "2026-09-03",
+  "questions": [
+    {
+      "category": "History",
+      "question": "Which emperor, who ruled from 306-337 AD, made Christianity the favored religion of the Roman Empire and established Constantinople as its new capital?",
+      "options": [
+        "Constantine I",
+        "Theodosius I",
+        "Diocletian",
+        "Justinian"
+      ],
+      "answer": "Constantine I",
+      "explanation": "Constantine I (Constantine the Great) converted to Christianity (or at least became its patron) after seeing a vision before the Battle of Milvian Bridge (312 AD). The Edict of Milan (313 AD) legalized Christianity. He founded Constantinople on the site of Byzantium in 330 AD. Theodosius I later made Christianity the Roman state religion in 380 AD.",
+      "memory_hook": "Constantine: legalized Christianity (313 AD). Founded Constantinople (330 AD). Vision before Milvian Bridge."
+    },
+    {
+      "category": "Science",
+      "question": "Which gas, making up about 78% of Earth's atmosphere, is essential for the production of proteins in living organisms but must be 'fixed' first?",
+      "options": [
+        "Nitrogen",
+        "Oxygen",
+        "Argon",
+        "Carbon dioxide"
+      ],
+      "answer": "Nitrogen",
+      "explanation": "Nitrogen (N2) makes up 78% of air but is mostly inert. 'Nitrogen fixation' by bacteria converts atmospheric N2 into ammonium, which plants can use. The Haber-Bosch process (1909) artificially fixes nitrogen for fertilizer — it is estimated to sustain food production for half the world's current population.",
+      "memory_hook": "Nitrogen: 78% of air, but plants can't use it directly. Haber-Bosch process feeds half the world."
+    },
+    {
+      "category": "Sports",
+      "question": "Which country dominated women's gymnastics for decades and produced legends like Nadia Comaneci, who scored the first perfect 10 at the 1976 Olympics?",
+      "options": [
+        "Romania",
+        "Soviet Union",
+        "United States",
+        "China"
+      ],
+      "answer": "Romania",
+      "explanation": "Nadia Comaneci of Romania scored seven perfect 10s at the 1976 Montreal Olympics, aged 14 — the scoreboard wasn't designed to show 10.00 and displayed 1.00. She won three gold medals that year. Romania's dominance lasted through the 1970s-1990s, with the Soviet Union and later the US emerging as rivals.",
+      "memory_hook": "Nadia Comaneci: Romania, 1976. First perfect 10. Scoreboard showed 1.00 — wasn't built for 10."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Which 1975 Steven Spielberg film about a killer shark terrorizing a beach town became the first ever 'summer blockbuster'?",
+      "options": [
+        "Jaws",
+        "The Deep",
+        "Piranha",
+        "Blue Water White Death"
+      ],
+      "answer": "Jaws",
+      "explanation": "Jaws (1975) grossed $260 million — the first film to cross $100 million — and invented the concept of the 'summer blockbuster' release strategy. The mechanical shark ('Bruce') malfunctioned so often that Spielberg had to suggest the shark's presence rather than show it. The John Williams two-note theme is among the most recognizable in film history.",
+      "memory_hook": "Jaws 1975: first summer blockbuster. The shark barely worked, so Spielberg showed less — scarier."
+    },
+    {
+      "category": "Geography",
+      "question": "Which strait separates the Asian and North American continents and was crossed by prehistoric humans migrating to the Americas?",
+      "options": [
+        "Bering Strait",
+        "Strait of Malacca",
+        "Strait of Hormuz",
+        "Luzon Strait"
+      ],
+      "answer": "Bering Strait",
+      "explanation": "The Bering Strait is only 85 km wide between Russia and Alaska. During the last Ice Age (roughly 20,000 years ago), sea levels were 120 meters lower, exposing a land bridge called Beringia up to 1,000 km wide. Humans and animals walked across it from Asia into the Americas.",
+      "memory_hook": "Bering Strait: 85 km between Russia and Alaska. Ice Age land bridge → first Americans."
+    },
+    {
+      "category": "History",
+      "question": "Which 1919 treaty officially ended World War I and imposed severe reparations and restrictions on Germany, fueling resentment that contributed to World War II?",
+      "options": [
+        "Treaty of Versailles",
+        "Treaty of Brest-Litovsk",
+        "Treaty of Trianon",
+        "Treaty of Saint-Germain"
+      ],
+      "answer": "Treaty of Versailles",
+      "explanation": "The Treaty of Versailles (June 28, 1919) held Germany solely responsible for the war ('War Guilt Clause'), demanded $33 billion in reparations, stripped Germany of 13% of its territory, and limited its military. German humiliation and economic hardship created conditions that Hitler exploited. Germany made its final reparations payment in 2010.",
+      "memory_hook": "Treaty of Versailles 1919: blamed Germany, $33B reparations. Final payment: 2010. Fueled Hitler."
+    },
+    {
+      "category": "Pop Culture",
+      "question": "Which professional basketball player, who played for the Chicago Bulls and Washington Wizards, is considered the greatest basketball player of all time?",
+      "options": [
+        "Michael Jordan",
+        "LeBron James",
+        "Kobe Bryant",
+        "Magic Johnson"
+      ],
+      "answer": "Michael Jordan",
+      "explanation": "Michael Jordan won six NBA Championships with the Chicago Bulls (1991-93, 1996-98), six Finals MVP awards, five regular season MVPs, and 10 scoring titles. He never lost in the NBA Finals. His Air Jordan shoe line, begun in 1985, generates over $5 billion annually for Nike even decades after his retirement.",
+      "memory_hook": "Jordan: 6 rings, 6 Finals MVPs, 5 MVPs. Never lost in the Finals. Air Jordan = $5B/year."
+    },
+    {
+      "category": "Science",
+      "question": "What is the primary cause of the greenhouse effect, which naturally warms Earth's surface by trapping outgoing infrared radiation?",
+      "options": [
+        "Water vapor",
+        "Carbon dioxide",
+        "Methane",
+        "Ozone"
+      ],
+      "answer": "Water vapor",
+      "explanation": "Water vapor accounts for approximately 50% of the natural greenhouse effect, followed by clouds (25%), CO2 (20%), and other gases (5%). However, CO2 is the primary driver of enhanced (human-caused) greenhouse warming because it persists in the atmosphere for centuries while water vapor is a feedback, not a driver.",
+      "memory_hook": "Natural greenhouse: mostly water vapor (50%). Human-caused warming: CO2 drives it (persists for centuries)."
+    },
+    {
+      "category": "Geography",
+      "question": "The Caspian Sea, the world's largest inland body of water, is bordered by Russia, Azerbaijan, Iran, Turkmenistan, and which fifth country?",
+      "options": [
+        "Kazakhstan",
+        "Georgia",
+        "Armenia",
+        "Uzbekistan"
+      ],
+      "answer": "Kazakhstan",
+      "explanation": "The Caspian Sea covers approximately 371,000 km² and sits 28 meters below sea level. It is technically a lake, not a sea, as it has no natural connection to the world's oceans. It holds 40% of all lake water in the world and is rich in caviar-producing sturgeon and petroleum reserves.",
+      "memory_hook": "Caspian Sea: largest lake by area. Kazakhstan borders it. 28m below sea level. Sturgeon, oil, caviar."
+    },
+    {
+      "category": "History",
+      "question": "Which British officer and archaeologist, known as 'Lawrence of Arabia,' helped lead the Arab Revolt against Ottoman rule during World War I?",
+      "options": [
+        "T.E. Lawrence",
+        "Gertrude Bell",
+        "Herbert Kitchener",
+        "Edmund Allenby"
+      ],
+      "answer": "T.E. Lawrence",
+      "explanation": "T.E. Lawrence (Thomas Edward Lawrence) coordinated guerrilla warfare with Arab forces, particularly under Faisal bin Hussein, disrupting Ottoman supply lines. He documented his experiences in 'Seven Pillars of Wisdom' (1926). The 1962 David Lean film Lawrence of Arabia won 7 Oscars and is considered one of the greatest films ever made.",
+      "memory_hook": "Lawrence of Arabia: T.E. Lawrence, WWI Arab Revolt. 'Seven Pillars of Wisdom.' Film won 7 Oscars."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Which British-American rock group, active from 1968-1980, featured singer Robert Plant, guitarist Jimmy Page, bassist John Paul Jones, and drummer John Bonham?",
+      "options": [
+        "Led Zeppelin",
+        "Deep Purple",
+        "Black Sabbath",
+        "The Who"
+      ],
+      "answer": "Led Zeppelin",
+      "explanation": "Led Zeppelin sold over 300 million albums worldwide. 'Stairway to Heaven' is the most-requested song in US radio history. The band members refused to release singles in the UK, insisting the album was the art form. After John Bonham's death in 1980, they disbanded rather than replace him.",
+      "memory_hook": "Led Zeppelin: 300M albums, no UK singles. Disbanded when Bonham died (1980). 'Stairway to Heaven.'"
+    },
+    {
+      "category": "Sports",
+      "question": "What is the name of the annual horse race held at Churchill Downs in Louisville, Kentucky, known as 'the most exciting two minutes in sports'?",
+      "options": [
+        "Kentucky Derby",
+        "Preakness Stakes",
+        "Belmont Stakes",
+        "Breeders' Cup"
+      ],
+      "answer": "Kentucky Derby",
+      "explanation": "The Kentucky Derby has been held on the first Saturday in May since 1875, making it the longest-running major sporting event in the United States. The race is 1.25 miles. The Triple Crown (Derby, Preakness, Belmont) has only been won 13 times. Secretariat's 1973 Derby record (1:59.40) still stands.",
+      "memory_hook": "Kentucky Derby: held since 1875, first Saturday in May. Secretariat's 1973 record still stands."
+    }
+  ]
+}

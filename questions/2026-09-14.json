@@ -1,0 +1,161 @@
+{
+  "date": "2026-09-14",
+  "questions": [
+    {
+      "category": "History",
+      "question": "The Mughal Empire, which ruled most of the Indian subcontinent from 1526-1857, is famous for building which iconic white marble mausoleum?",
+      "options": [
+        "Taj Mahal",
+        "Red Fort",
+        "Qutub Minar",
+        "Humayun's Tomb"
+      ],
+      "answer": "Taj Mahal",
+      "explanation": "The Taj Mahal was built by Emperor Shah Jahan (r. 1628-1658) as a tomb for his wife Mumtaz Mahal, who died in childbirth in 1631. It took approximately 20,000 workers and 22 years to complete. The white marble appears to change color throughout the day. Shah Jahan was later imprisoned by his own son Aurangzeb and died looking at the Taj from his cell.",
+      "memory_hook": "Taj Mahal: Shah Jahan built for wife Mumtaz Mahal. 20,000 workers, 22 years. Shah Jahan died imprisoned looking at it."
+    },
+    {
+      "category": "Science",
+      "question": "What is the name of the process by which a liquid turns into a gas at its surface, below its boiling point?",
+      "options": [
+        "Evaporation",
+        "Condensation",
+        "Sublimation",
+        "Vaporization"
+      ],
+      "answer": "Evaporation",
+      "explanation": "Evaporation occurs when molecules at a liquid's surface gain enough energy to escape into the gas phase. It happens below the boiling point — puddles dry up at room temperature. Evaporative cooling (perspiration, wet cloth) works because the fastest (hottest) molecules leave, lowering the average temperature.",
+      "memory_hook": "Evaporation: liquid → gas at surface, below boiling point. Sweat works this way — hot molecules escape, you cool down."
+    },
+    {
+      "category": "Sports",
+      "question": "In rugby union, how many players are on each side of the field at once?",
+      "options": [
+        "15",
+        "13",
+        "11",
+        "7"
+      ],
+      "answer": "15",
+      "explanation": "Rugby union fields 15 players per side: 8 forwards (the scrum) and 7 backs (the kicking, running, and defending specialists). Rugby league uses 13 players. Sevens rugby (a popular Olympic format) uses 7 players per side. Each format has different rules about tackling and restarts.",
+      "memory_hook": "Rugby union: 15 per side. Rugby league: 13. Sevens: 7. The number changes across formats."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Which musician released the albums 'Born to Run' (1975) and 'Born in the USA' (1984) and is nicknamed 'The Boss'?",
+      "options": [
+        "Bruce Springsteen",
+        "Tom Petty",
+        "Bob Seger",
+        "John Mellencamp"
+      ],
+      "answer": "Bruce Springsteen",
+      "explanation": "Bruce Springsteen and the E Street Band are synonymous with working-class American rock. 'Born in the USA' sold 30 million copies worldwide and is the 10th best-selling album in U.S. history — though it's often misunderstood as patriotic when it's actually critical of the Vietnam War era. Springsteen famously rejected a $12 million Super Bowl halftime offer in the 1990s.",
+      "memory_hook": "Springsteen: 'The Boss.' 'Born in the USA' is anti-war, not patriotic. Rejected $12M Super Bowl offer."
+    },
+    {
+      "category": "Geography",
+      "question": "Which body of water, surrounded by Kazakhstan, Russia, Azerbaijan, Iran, and Turkmenistan, is classified as the world's largest enclosed inland water body?",
+      "options": [
+        "Caspian Sea",
+        "Aral Sea",
+        "Lake Balkhash",
+        "Lake Baikal"
+      ],
+      "answer": "Caspian Sea",
+      "explanation": "The Caspian Sea (371,000 km²) is roughly 4 times larger than Lake Superior, the largest of North America's Great Lakes. Despite being called a 'sea' because of its size and salt content, it is technically the world's largest lake. It sits 28 meters below sea level. The Aral Sea, also in Central Asia, has dramatically shrunk due to Soviet-era irrigation.",
+      "memory_hook": "Caspian Sea: world's largest lake (371,000 km²). 4x Lake Superior. 28m below sea level."
+    },
+    {
+      "category": "History",
+      "question": "Which African-American civil rights leader delivered the 'I Have a Dream' speech on the steps of the Lincoln Memorial during the March on Washington in August 1963?",
+      "options": [
+        "Martin Luther King Jr.",
+        "Malcolm X",
+        "John Lewis",
+        "Medgar Evers"
+      ],
+      "answer": "Martin Luther King Jr.",
+      "explanation": "Dr. Martin Luther King Jr. delivered his famous speech on August 28, 1963, to approximately 250,000 people. The 'I have a dream' section was largely improvised — gospel singer Mahalia Jackson shouted 'Tell them about the dream, Martin!' King put down his notes and spoke from the heart. He was assassinated April 4, 1968, in Memphis.",
+      "memory_hook": "MLK: 'I Have a Dream,' Lincoln Memorial, Aug 28, 1963. Improvised the 'dream' section. Assassinated April 4, 1968."
+    },
+    {
+      "category": "Pop Culture",
+      "question": "Which 1980s music channel, launched on August 1, 1981, revolutionized the music industry by broadcasting music videos 24 hours a day?",
+      "options": [
+        "MTV",
+        "VH1",
+        "BET",
+        "CMT"
+      ],
+      "answer": "MTV",
+      "explanation": "MTV (Music Television) launched with 'Video Killed the Radio Star' by The Buggles as its first video. It quickly made music video production essential for artists. Michael Jackson's 'Thriller' (1983) took music videos to a cinematic level. MTV moved away from videos to reality TV in the 2000s (leading to VH1 filling the gap).",
+      "memory_hook": "MTV launched Aug 1, 1981. First video: 'Video Killed the Radio Star.' Thriller made videos cinematic."
+    },
+    {
+      "category": "Science",
+      "question": "What is the name of the tectonic process by which oceanic crust is pulled down beneath continental or other oceanic crust?",
+      "options": [
+        "Subduction",
+        "Seafloor spreading",
+        "Rifting",
+        "Obduction"
+      ],
+      "answer": "Subduction",
+      "explanation": "Subduction occurs at convergent plate boundaries where denser oceanic crust sinks beneath lighter continental crust. The descending slab melts and rises as magma, creating volcanic arcs. The Andes mountains and Pacific Ring of Fire volcanoes are products of subduction. Subduction zones also produce the world's most powerful earthquakes.",
+      "memory_hook": "Subduction: oceanic crust sinks under continental. Creates volcanoes and powerful earthquakes. Andes built this way."
+    },
+    {
+      "category": "Geography",
+      "question": "The Suez Canal (Egypt) and Panama Canal each provide shortcuts. Which canal saves more distance in terms of a ship's typical journey?",
+      "options": [
+        "Suez (saves ~7,000 km on Europe-Asia routes)",
+        "Panama (saves ~15,000 km on Atlantic-Pacific routes)",
+        "Both save the same amount",
+        "Panama (saves ~7,000 km)"
+      ],
+      "answer": "Suez (saves ~7,000 km on Europe-Asia routes)",
+      "explanation": "The Suez Canal saves ships approximately 7,000 km versus going around the Cape of Good Hope. The Panama Canal saves approximately 15,000 km on a New York to San Francisco journey versus going around Cape Horn. So Panama actually saves more distance, but the Suez handles more annual shipping tonnage due to Europe-Asia trade volume.",
+      "memory_hook": "Suez: saves 7,000 km (vs. Africa). Panama: saves 15,000 km (vs. South America). Panama saves more per trip."
+    },
+    {
+      "category": "History",
+      "question": "The Watergate scandal (1972-1974) forced the resignation of which U.S. president?",
+      "options": [
+        "Richard Nixon",
+        "Gerald Ford",
+        "Lyndon Johnson",
+        "Jimmy Carter"
+      ],
+      "answer": "Richard Nixon",
+      "explanation": "The Watergate Hotel break-in (June 17, 1972) involved Nixon campaign operatives burgling Democratic Party headquarters. The subsequent cover-up — which Nixon orchestrated — was revealed through White House tape recordings. Nixon resigned August 9, 1974, becoming the only U.S. president to resign. Gerald Ford pardoned him a month later.",
+      "memory_hook": "Watergate: Nixon resigned Aug 9, 1974. Only president to resign. Ford pardoned him a month later."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Which Motown group, consisting of Diana Ross and four other women, had hits like 'Stop! In the Name of Love' and 'You Can't Hurry Love' in the 1960s?",
+      "options": [
+        "The Supremes",
+        "The Ronettes",
+        "The Shirelles",
+        "Martha and the Vandellas"
+      ],
+      "answer": "The Supremes",
+      "explanation": "The Supremes had 12 number-one singles on the US Pop Chart — the most by any Motown act. Diana Ross was the lead singer; the other original members were Mary Wilson and Florence Ballard. The group became a five-piece when Cindy Birdsong replaced Ballard. Their success helped make Motown the first Black-owned label to achieve mainstream success.",
+      "memory_hook": "The Supremes: Diana Ross, 12 #1 hits, most at Motown. Motown = first Black-owned label to hit mainstream."
+    },
+    {
+      "category": "Sports",
+      "question": "What is the name of the award given to the player judged Most Valuable Player in the NBA regular season?",
+      "options": [
+        "The Maurice Podoloff Trophy",
+        "The Larry O'Brien Trophy",
+        "The Bill Russell Trophy",
+        "The Art Ross Trophy"
+      ],
+      "answer": "The Maurice Podoloff Trophy",
+      "explanation": "The Maurice Podoloff Trophy (named after the NBA's first commissioner) is the regular season MVP award. The Larry O'Brien Trophy is the NBA Championship trophy. The Bill Russell NBA Finals MVP Award is given to the Finals MVP. Kareem Abdul-Jabbar holds the record for most regular season MVPs with 6.",
+      "memory_hook": "NBA MVP = Maurice Podoloff Trophy. Championship = Larry O'Brien Trophy. Kareem: 6 MVPs, most ever."
+    }
+  ]
+}

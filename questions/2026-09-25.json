@@ -1,0 +1,161 @@
+{
+  "date": "2026-09-25",
+  "questions": [
+    {
+      "category": "History",
+      "question": "Which 1789 event forced King Louis XVI to return to Paris when thousands of Parisian women marched to Versailles demanding bread?",
+      "options": [
+        "The Women's March on Versailles",
+        "The Storming of the Bastille",
+        "The Tennis Court Oath",
+        "The September Massacres"
+      ],
+      "answer": "The Women's March on Versailles",
+      "explanation": "On October 5, 1789, thousands of women marched 12 miles to Versailles demanding bread and that the king return to Paris. The royal family was brought back to Paris as effective prisoners.",
+      "memory_hook": "Women's March on Versailles, Oct 5, 1789. Marched 12 miles for bread. Louis XVI returned to Paris as a prisoner."
+    },
+    {
+      "category": "Science",
+      "question": "Which scientist developed germ theory, invented pasteurization, and created vaccines for anthrax and rabies?",
+      "options": [
+        "Louis Pasteur",
+        "Robert Koch",
+        "Joseph Lister",
+        "Alexander Fleming"
+      ],
+      "answer": "Louis Pasteur",
+      "explanation": "Louis Pasteur proved microorganisms cause fermentation and disease, developed pasteurization (killing pathogens by heating), and created vaccines for chicken cholera, anthrax, and rabies.",
+      "memory_hook": "Pasteur: germ theory, pasteurization, vaccines (anthrax + rabies). Koch identified germs; Lister did surgery; Fleming found penicillin."
+    },
+    {
+      "category": "Sports",
+      "question": "How many barriers are there in the Olympic 110m hurdles (men), and how high is each?",
+      "options": [
+        "10 hurdles, 1.067 m high",
+        "8 hurdles, 1.2 m high",
+        "12 hurdles, 0.9 m high",
+        "10 hurdles, 0.91 m high"
+      ],
+      "answer": "10 hurdles, 1.067 m high",
+      "explanation": "The 110m hurdles (men) features 10 hurdles at 1.067 m height. Women run 100m hurdles with 10 hurdles at 0.838 m. Sydney McLaughlin-Levrone has redefined the 400m hurdles event with world records.",
+      "memory_hook": "110m hurdles: 10 barriers at 1.067m (men). 100m hurdles (women): 0.838m. Both have 10 hurdles."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Gene Kelly reportedly had a 103-degree fever during filming of which iconic 1952 musical scene?",
+      "options": [
+        "The title number in 'Singin' in the Rain'",
+        "The dream ballet in 'An American in Paris'",
+        "The 'Good Morning' number in 'Singin' in the Rain'",
+        "'Make 'Em Laugh' in 'Singin' in the Rain'"
+      ],
+      "answer": "The title number in 'Singin' in the Rain'",
+      "explanation": "Gene Kelly filmed the 'Singin' in the Rain' title number while running a 103°F fever, using fire hoses to increase rain flow for the cameras. The film (1952) is often called the greatest musical ever made.",
+      "memory_hook": "Singin' in the Rain: Kelly had 103°F fever during the iconic rain scene. Fire hoses made the rain heavier."
+    },
+    {
+      "category": "Geography",
+      "question": "Which sea connects the Indian Ocean to the Persian Gulf and has Mumbai on its eastern shore?",
+      "options": [
+        "Arabian Sea",
+        "Bay of Bengal",
+        "Laccadive Sea",
+        "Red Sea"
+      ],
+      "answer": "Arabian Sea",
+      "explanation": "The Arabian Sea connects the Indian Ocean to the Persian Gulf via the Strait of Hormuz and Gulf of Oman. Mumbai's 2008 terrorist attacks came via inflatable boats through the Arabian Sea.",
+      "memory_hook": "Arabian Sea: Indian Ocean → Persian Gulf. Mumbai on its eastern shore. 2008 terror attack came from the sea."
+    },
+    {
+      "category": "History",
+      "question": "Which Soviet leader denounced Stalin's crimes in a 1956 'Secret Speech' and led through Sputnik and the Cuban Missile Crisis?",
+      "options": [
+        "Nikita Khrushchev",
+        "Leonid Brezhnev",
+        "Georgy Malenkov",
+        "Mikhail Gorbachev"
+      ],
+      "answer": "Nikita Khrushchev",
+      "explanation": "Khrushchev's 'On the Cult of Personality' speech (Feb 25, 1956) shocked the Communist world by exposing Stalin's purges. He also presided over Sputnik (1957) and the Cuban Missile Crisis (1962) before being ousted in 1964.",
+      "memory_hook": "Khrushchev: denounced Stalin 1956 'Secret Speech.' Sputnik + Cuban Missile Crisis. Ousted 1964."
+    },
+    {
+      "category": "Pop Culture",
+      "question": "The Matrix (1999) used an effect called 'bullet time.' How many cameras were used to create it?",
+      "options": [
+        "Approximately 120 cameras in a circle",
+        "A single high-speed camera",
+        "CGI only, no real cameras",
+        "12 cameras on a rotating rig"
+      ],
+      "answer": "Approximately 120 cameras in a circle",
+      "explanation": "'Bullet time' in The Matrix used about 120 still cameras arranged in an arc, all triggered in rapid sequence. The Wachowskis and director of photography Bill Pope developed the technique, which was widely copied in advertising and film after 1999.",
+      "memory_hook": "Matrix bullet time: ~120 cameras in a circle. Widely copied. Wachowskis + DP Bill Pope invented it."
+    },
+    {
+      "category": "Science",
+      "question": "What is the visible light spectrum wavelength range for humans?",
+      "options": [
+        "380-700 nanometers (violet to red)",
+        "100-380 nm (ultraviolet)",
+        "700-1000 nm (infrared)",
+        "10-100 nm (X-ray)"
+      ],
+      "answer": "380-700 nanometers (violet to red)",
+      "explanation": "Human vision spans ~380 nm (violet) to ~700 nm (red). Below 380 nm = UV (bees can see UV). Above 700 nm = IR (some snakes detect heat). ROYGBIV goes from red (long wavelength) to violet (short).",
+      "memory_hook": "Visible light: 380 nm (violet) to 700 nm (red). Bees see UV; snakes detect IR. ROYGBIV."
+    },
+    {
+      "category": "Geography",
+      "question": "Chile is 4,270 km long but only 177 km wide on average. What is the world's highest active volcano, located in Chile?",
+      "options": [
+        "Ojos del Salado, 6,893 m",
+        "Aconcagua, 6,961 m",
+        "Cotopaxi, 5,897 m",
+        "Llullaillaco, 6,739 m"
+      ],
+      "answer": "Ojos del Salado, 6,893 m",
+      "explanation": "Ojos del Salado on the Chile-Argentina border is the world's highest volcano at 6,893 m. Aconcagua (6,961m) is higher but considered extinct/dormant, not an active volcano. Chile's geography ranges from Atacama Desert (north) to Patagonia (south).",
+      "memory_hook": "Chile: 4,270 km long, 177 km wide. Ojos del Salado (6,893m) = world's highest active volcano."
+    },
+    {
+      "category": "History",
+      "question": "Rwanda (1994) and Bosnia/Srebrenica (1995) were both legally ruled as what specific crime under international law?",
+      "options": [
+        "Genocide",
+        "War crimes only",
+        "Ethnic cleansing (not genocide)",
+        "Crimes against humanity only"
+      ],
+      "answer": "Genocide",
+      "explanation": "In Rwanda, 500,000-800,000 Tutsi were killed in 100 days. In Srebrenica, 8,000+ Bosniak men and boys were killed. International courts ruled both as genocide under the 1948 UN Genocide Convention.",
+      "memory_hook": "Rwanda 1994 and Srebrenica 1995: both legally ruled genocide by international courts."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Saturday Night Fever (1977) made John Travolta a star. How many copies did the Bee Gees soundtrack sell?",
+      "options": [
+        "Over 40 million — one of the best-selling soundtracks ever",
+        "About 10 million",
+        "About 5 million",
+        "Over 100 million"
+      ],
+      "answer": "Over 40 million — one of the best-selling soundtracks ever",
+      "explanation": "Saturday Night Fever's Bee Gees soundtrack sold over 40 million copies — one of the best-selling soundtracks of all time. Travolta's white suit became iconic. The film, combined with Grease (1978), made Travolta the biggest star of the late 1970s.",
+      "memory_hook": "Saturday Night Fever 1977: 40M soundtracks sold. White suit icon. Led to Grease (1978)."
+    },
+    {
+      "category": "Sports",
+      "question": "Lewis Hamilton holds how many Formula 1 World Championship titles?",
+      "options": [
+        "8 — most of any driver in F1 history",
+        "7 — tied with Michael Schumacher",
+        "6",
+        "5"
+      ],
+      "answer": "8 — most of any driver in F1 history",
+      "explanation": "Lewis Hamilton won his 8th World Championship, surpassing Schumacher's previous record of 7. Hamilton's championships came primarily with Mercedes (2014-2015, 2017-2020). He also holds records for most race wins and most pole positions.",
+      "memory_hook": "Lewis Hamilton: 8 F1 World Championships, most of any driver. Broke Schumacher's record of 7."
+    }
+  ]
+}

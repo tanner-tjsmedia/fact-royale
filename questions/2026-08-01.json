@@ -29,16 +29,16 @@
     },
     {
       "category": "History",
-      "question": "Which American president issued the Emancipation Proclamation in 1863, declaring enslaved people in Confederate states free?",
+      "question": "Which U.S. president authorized the dropping of atomic bombs on Hiroshima and Nagasaki in August 1945, ending World War II in the Pacific?",
       "options": [
-        "Ulysses S. Grant",
-        "James Buchanan",
-        "Andrew Johnson",
-        "Abraham Lincoln"
+        "Harry Truman",
+        "Franklin D. Roosevelt",
+        "Dwight D. Eisenhower",
+        "Lyndon B. Johnson"
       ],
-      "answer": "Abraham Lincoln",
-      "explanation": "President Abraham Lincoln issued the Emancipation Proclamation on January 1, 1863, during the Civil War. It declared that all enslaved people in Confederate states in rebellion were to be freed. While it didn't immediately free anyone (since the Union had no control over Confederate territory), it transformed the Civil War's moral purpose and paved the way for the 13th Amendment, which formally abolished slavery in 1865.",
-      "memory_hook": "Lincoln = Emancipation Proclamation, 1863. It didn't immediately free enslaved people — the Union didn't control Confederate territory. But it changed the war's meaning and made abolition the Union's official goal."
+      "answer": "Harry Truman",
+      "explanation": "Harry Truman became president on April 12, 1945, following FDR's death — just weeks before Germany surrendered. He authorized the use of atomic bombs on Hiroshima (August 6) and Nagasaki (August 9), 1945. Japan surrendered on August 15, ending World War II. Truman also launched the Marshall Plan to rebuild postwar Europe.",
+      "memory_hook": "Truman = atomic bombs, 1945. Became president when FDR died."
     },
     {
       "category": "History",
@@ -94,16 +94,16 @@
     },
     {
       "category": "Music/Movies",
-      "question": "Which British rock band recorded 'Stairway to Heaven,' widely considered one of the greatest rock songs ever written?",
+      "question": "Which Seattle grunge band, fronted by Kurt Cobain, released 'Nevermind' in 1991 and brought alternative rock to mainstream audiences?",
       "options": [
-        "The Rolling Stones",
-        "The Kinks",
-        "The Who",
-        "Led Zeppelin"
+        "Nirvana",
+        "Pearl Jam",
+        "Soundgarden",
+        "Alice in Chains"
       ],
-      "answer": "Led Zeppelin",
-      "explanation": "'Stairway to Heaven' was written by Jimmy Page and Robert Plant and recorded on Led Zeppelin's fourth album (1971). At 8 minutes long, it was never released as a single in the UK but still became one of the most-requested radio songs of all time. Classic rock stations still play it more than 50 years after its release. It has been the subject of a plagiarism lawsuit over its iconic guitar introduction.",
-      "memory_hook": "'Stairway to Heaven' = Led Zeppelin, 1971. Never released as a UK single. Never stopped being played. Eight minutes, no chorus until the end. The most recognizable guitar intro in rock history."
+      "answer": "Nirvana",
+      "explanation": "Nirvana's 'Nevermind,' released September 13, 1991, knocked Michael Jackson's 'Dangerous' off the top of the Billboard 200. The album's lead single 'Smells Like Teen Spirit' became an anthem of Generation X. Cobain's suicide in 1994 at age 27 made him one of rock's most iconic tragic figures.",
+      "memory_hook": "Nirvana, Nevermind, 1991. Cobain knocked Michael Jackson off #1."
     },
     {
       "category": "Music/Movies",

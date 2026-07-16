@@ -3,16 +3,16 @@
   "questions": [
     {
       "category": "History",
-      "question": "Who was the first President of the United States?",
+      "question": "Which U.S. president, who served four terms from 1933 to 1945, launched the New Deal to combat the Great Depression and led the country through most of World War II?",
       "options": [
-        "John Adams",
-        "Thomas Jefferson",
-        "James Madison",
-        "George Washington"
+        "Franklin D. Roosevelt",
+        "Woodrow Wilson",
+        "Herbert Hoover",
+        "Theodore Roosevelt"
       ],
-      "answer": "George Washington",
-      "explanation": "George Washington was unanimously elected as the first President of the United States, serving two terms from 1789 to 1797. He had commanded the Continental Army during the Revolutionary War. Despite being offered a kingship, Washington insisted on democratic transfer of power and voluntarily stepped down after two terms — setting a precedent that held for 150 years until FDR.",
-      "memory_hook": "Washington = first president. Could have been king — refused. Stepped down after two terms voluntarily. That peaceful transfer of power was radical in the 18th century and set the standard for American democracy."
+      "answer": "Franklin D. Roosevelt",
+      "explanation": "Franklin D. Roosevelt (FDR) is the only U.S. president to have served more than two terms. His New Deal programs created jobs and provided relief during the Great Depression. He led the US through WWII but died in office on April 12, 1945, just weeks before Germany surrendered.",
+      "memory_hook": "FDR: 4 terms, New Deal, WWII. Died in office April 1945."
     },
     {
       "category": "History",
@@ -28,30 +28,30 @@
       "memory_hook": "Black Death = 1347-1351, 14th century. Up to 60% of Europe dead. So many died that the survivors demanded better wages — it accidentally launched the collapse of the feudal system and helped cause the Renaissance."
     },
     {
-      "category": "History",
-      "question": "The Eiffel Tower was built for which major event in Paris?",
+      "category": "Geography",
+      "question": "Antoni Gaudí's masterpiece, the Sagrada Família — a massive basilica still under construction over 140 years after it began — is located in which Spanish city?",
       "options": [
-        "Napoleon's coronation",
-        "The 1900 Summer Olympics",
-        "The 1889 World's Fair",
-        "Queen Victoria's jubilee"
+        "Barcelona",
+        "Madrid",
+        "Seville",
+        "Valencia"
       ],
-      "answer": "The 1889 World's Fair",
-      "explanation": "The Eiffel Tower was built as the entrance arch and centerpiece for the 1889 World's Fair (Exposition Universelle) in Paris, held to celebrate the centennial of the French Revolution. Designed by Gustave Eiffel's firm, it was the world's tallest structure at 330 meters when completed. It was meant to be temporary and demolished in 1909, but its antenna proved too valuable for radio transmission to tear down.",
-      "memory_hook": "Eiffel Tower = 1889 World's Fair. Meant to be torn down in 1909. Saved by its radio antenna. Gustave Eiffel had a private apartment at the top — he entertained Thomas Edison there."
+      "answer": "Barcelona",
+      "explanation": "The Sagrada Família in Barcelona has been under construction since 1882. Gaudí became its chief architect in 1883 and devoted the last 43 years of his life to the project. It is expected to be completed around 2026. Gaudí died in 1926 after being struck by a tram.",
+      "memory_hook": "Sagrada Família = Barcelona. Gaudí's unfinished masterpiece, ~140 years and counting."
     },
     {
       "category": "History",
-      "question": "The Renaissance, meaning 'rebirth,' began in which modern country in the 14th century?",
+      "question": "The printing press, invented around 1440, is credited to which German goldsmith — a development that revolutionized the spread of information and enabled the Protestant Reformation?",
       "options": [
-        "France",
-        "Germany",
-        "Spain",
-        "Italy"
+        "Johannes Gutenberg",
+        "Johann Fust",
+        "Aldus Manutius",
+        "William Caxton"
       ],
-      "answer": "Italy",
-      "explanation": "The Renaissance began in Italy in the 14th century, particularly in Florence, which was wealthy from banking and trade. Italian city-states became centers of art, literature, and philosophy, supported by wealthy patrons like the Medici family. The movement rediscovered classical Greek and Roman texts and produced figures like Leonardo da Vinci, Michelangelo, Raphael, and Galileo.",
-      "memory_hook": "Renaissance = Italy, 14th century. Florence was the center — wealth from banking funded the arts. The Medici family were the ultimate patrons: they essentially bankrolled the Renaissance."
+      "answer": "Johannes Gutenberg",
+      "explanation": "Johannes Gutenberg's movable-type printing press, developed around 1440 in Mainz, Germany, transformed European society. The Gutenberg Bible (1455) was among the first books printed with movable type. Cheaper books enabled mass literacy and the rapid spread of ideas, fueling the Renaissance and Reformation.",
+      "memory_hook": "Gutenberg ~1440: printing press. Bible first. Changed everything."
     },
     {
       "category": "Sports",

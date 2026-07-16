@@ -1,0 +1,161 @@
+{
+  "date": "2026-09-10",
+  "questions": [
+    {
+      "category": "History",
+      "question": "The Cold War arms race led both the USA and USSR to develop intercontinental ballistic missiles. What does ICBM stand for?",
+      "options": [
+        "Intercontinental Ballistic Missile",
+        "International Combat Ballistic Munition",
+        "Intermediate Combat Ballistic Missile",
+        "Intercontinental Battle Missile"
+      ],
+      "answer": "Intercontinental Ballistic Missile",
+      "explanation": "ICBMs can travel over 5,500 km, capable of hitting targets on other continents. They follow a ballistic trajectory — launched up into space and guided back down. The US and USSR signed SALT I (1972) and START (1991) treaties limiting ICBM numbers. Russia and the US together hold over 90% of the world's nuclear warheads.",
+      "memory_hook": "ICBM: Intercontinental Ballistic Missile. Range 5,500+ km. US + Russia hold 90% of world's nukes."
+    },
+    {
+      "category": "Science",
+      "question": "What is the approximate age of Earth, determined from radiometric dating of the oldest minerals found?",
+      "options": [
+        "4.5 billion years",
+        "13.8 billion years",
+        "1 billion years",
+        "6,000 years"
+      ],
+      "answer": "4.5 billion years",
+      "explanation": "Earth's age (4.543 billion years) is determined from radiometric dating of ancient zircon crystals (the oldest at 4.4 billion years) and from meteorites. The solar system formed approximately 4.6 billion years ago from a collapsing cloud of gas and dust. The oldest rocks on Earth (from northern Canada) are about 4.0 billion years old.",
+      "memory_hook": "Earth: 4.5 billion years old. Oldest minerals: 4.4B year-old zircons. Oldest rocks: 4.0B (Canada)."
+    },
+    {
+      "category": "Sports",
+      "question": "Which country won the most gold medals at the 2022 Winter Olympics in Beijing?",
+      "options": [
+        "Norway",
+        "Germany",
+        "Canada",
+        "United States"
+      ],
+      "answer": "Norway",
+      "explanation": "Norway dominated the 2022 Beijing Winter Olympics with 16 gold medals and 37 total medals — the most gold medals won by any country at a single Winter Olympics. Norway's strength comes in cross-country skiing and biathlon. The country's long skiing tradition (the word 'ski' is Norwegian) underpins Olympic success.",
+      "memory_hook": "Norway: record 16 golds at Beijing 2022 Winter Olympics. Cross-country skiing and biathlon dominance."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Which French New Wave director made 'Breathless' (1960), a film that broke Hollywood conventions by jump-cutting and breaking the fourth wall?",
+      "options": [
+        "Jean-Luc Godard",
+        "François Truffaut",
+        "Agnès Varda",
+        "Claude Chabrol"
+      ],
+      "answer": "Jean-Luc Godard",
+      "explanation": "À Bout de Souffle (Breathless, 1960) starred Jean-Paul Belmondo and Jean Seberg. Godard used jump cuts, handheld cameras, and direct-to-camera addresses in ways that violated Hollywood's 'invisible editing' conventions. The film triggered a revolution in cinema language that influenced directors from Tarantino to Scorsese.",
+      "memory_hook": "Breathless 1960: Godard. Jump cuts + handheld camera. Broke every Hollywood rule. Changed cinema forever."
+    },
+    {
+      "category": "Geography",
+      "question": "Which mountain in Africa is the highest peak on the continent, located in Tanzania and rising to 5,895 meters above sea level?",
+      "options": [
+        "Mount Kilimanjaro",
+        "Mount Kenya",
+        "Mount Stanley",
+        "Ras Dashen"
+      ],
+      "answer": "Mount Kilimanjaro",
+      "explanation": "Kilimanjaro is a stratovolcano with three volcanic cones: Kibo (the highest), Mawenzi, and Shira. Despite being near the equator, its summit (Uhuru Peak) has permanent snowfields, though these are rapidly retreating due to climate change. It is the world's highest freestanding mountain — rising from surrounding savanna.",
+      "memory_hook": "Kilimanjaro: highest in Africa, 5,895m. Equatorial but has snow. World's highest freestanding mountain."
+    },
+    {
+      "category": "History",
+      "question": "Which event on December 7, 1941, led to the United States formally entering World War II?",
+      "options": [
+        "Japanese attack on Pearl Harbor",
+        "Sinking of USS Maine",
+        "German invasion of Poland",
+        "Battle of Coral Sea"
+      ],
+      "answer": "Japanese attack on Pearl Harbor",
+      "explanation": "On December 7, 1941, Japan attacked the U.S. naval base at Pearl Harbor, Hawaii, sinking 8 battleships, destroying 188 aircraft, and killing 2,403 Americans. FDR called it 'a date which will live in infamy.' Congress declared war on Japan the next day; Germany and Italy declared war on the U.S. four days later.",
+      "memory_hook": "Pearl Harbor: Dec 7, 1941. 2,403 Americans killed. FDR: 'a date which will live in infamy.'"
+    },
+    {
+      "category": "Pop Culture",
+      "question": "Which video game character, a blue hedgehog created by Sega, was designed to compete with Nintendo's Mario and debuted in 1991?",
+      "options": [
+        "Sonic the Hedgehog",
+        "Crash Bandicoot",
+        "Spyro the Dragon",
+        "Kirby"
+      ],
+      "answer": "Sonic the Hedgehog",
+      "explanation": "Sonic was created to give Sega a mascot to compete with Mario. Designer Yuji Naka created a character emphasizing speed over platforming precision. Sonic's original name was 'Mr. Needlemouse.' The character's distinctive look — blue, red shoes, white gloves — became iconic. The franchise has sold over 1.5 billion games.",
+      "memory_hook": "Sonic: Sega's answer to Mario. Originally called 'Mr. Needlemouse.' 1.5 billion games sold."
+    },
+    {
+      "category": "Science",
+      "question": "What is the term for a molecule with the same chemical formula but different arrangements of atoms, resulting in different properties?",
+      "options": [
+        "Isomer",
+        "Polymer",
+        "Monomer",
+        "Allotrope"
+      ],
+      "answer": "Isomer",
+      "explanation": "Isomers have identical chemical formulas but different structural arrangements. Structural isomers differ in how atoms are connected; stereoisomers differ in three-dimensional arrangement. Thalidomide is a famous example: one isomer treated morning sickness while the mirror-image isomer (enantiomer) caused birth defects.",
+      "memory_hook": "Isomers: same formula, different arrangements. Thalidomide: one isomer good, mirror image caused birth defects."
+    },
+    {
+      "category": "Geography",
+      "question": "Which island, a British Overseas Territory in the South Atlantic, is one of the most remote inhabited places on Earth and was where Napoleon was exiled for the final years of his life?",
+      "options": [
+        "Saint Helena",
+        "Ascension Island",
+        "Falkland Islands",
+        "Tristan da Cunha"
+      ],
+      "answer": "Saint Helena",
+      "explanation": "Saint Helena is approximately 2,000 km from the nearest land (Angola). Napoleon was exiled there from 1815 until his death in 1821. For centuries it was a key port on the route from Asia to Europe before the Suez Canal opened an alternative. It has fewer than 5,000 inhabitants and only got an airport in 2016.",
+      "memory_hook": "Saint Helena: 2,000 km from nearest land. Napoleon died there. Airport only built in 2016."
+    },
+    {
+      "category": "History",
+      "question": "Which nation became the first to achieve women's suffrage (the right to vote) when it granted women that right in 1893?",
+      "options": [
+        "New Zealand",
+        "Australia",
+        "Finland",
+        "Norway"
+      ],
+      "answer": "New Zealand",
+      "explanation": "New Zealand became the first self-governing country to grant women the right to vote in 1893, following a campaign led by Kate Sheppard. A women's suffrage petition collected a third of New Zealand's female population's signatures. Australia followed in 1902 (though not for Aboriginal women until 1962). New Zealand's currency features Kate Sheppard.",
+      "memory_hook": "New Zealand: first women's suffrage, 1893. Kate Sheppard led the campaign. Her face is on NZ currency."
+    },
+    {
+      "category": "Music/Movies",
+      "question": "Which hip-hop duo from Atlanta, consisting of André 3000 and Big Boi, released the landmark 2003 double album 'Speakerboxxx/The Love Below'?",
+      "options": [
+        "OutKast",
+        "UGK",
+        "Goodie Mob",
+        "8Ball & MJG"
+      ],
+      "answer": "OutKast",
+      "explanation": "Speakerboxxx/The Love Below (2003) won the Grammy for Album of the Year — the first rap album to do so. It spawned 'Hey Ya!' which Spin magazine called one of the greatest songs ever made. The two sides showcased Big Boi's Southern rap and André 3000's eclectic experimental approach.",
+      "memory_hook": "OutKast: André 3000 + Big Boi. 'Speakerboxxx/The Love Below' (2003) = first rap Album of the Year Grammy."
+    },
+    {
+      "category": "Sports",
+      "question": "In American football's Super Bowl history, which team has appeared in the most Super Bowls (11 appearances)?",
+      "options": [
+        "New England Patriots",
+        "Pittsburgh Steelers",
+        "Dallas Cowboys",
+        "San Francisco 49ers"
+      ],
+      "answer": "New England Patriots",
+      "explanation": "The New England Patriots have appeared in 11 Super Bowls (winning 6). Under the Bill Belichick/Tom Brady era (2001-2019), they appeared in 9 Super Bowls in 18 seasons, a historically dominant run. Brady later won a 7th championship with the Tampa Bay Buccaneers in Super Bowl LV.",
+      "memory_hook": "Patriots: 11 Super Bowl appearances (6 wins). Belichick + Brady dynasty. Brady won 7th with Tampa."
+    }
+  ]
+}
