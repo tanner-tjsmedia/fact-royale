@@ -720,6 +720,79 @@ function logPlayToFirestore(finalScore, total) {
   } catch (e) { /* fire-and-forget */ }
 }
 
+// ── Score count-up animation ───────────────────────────
+function animateScore(el, target, total, delay = 220) {
+  const duration = Math.max(400, Math.min(900, target * 90));
+  setTimeout(() => {
+    const start = performance.now();
+    function tick(now) {
+      const elapsed  = now - start;
+      const progress = Math.min(elapsed / duration, 1);
+      // ease-out cubic
+      const eased    = 1 - Math.pow(1 - progress, 3);
+      const current  = Math.round(eased * target);
+      el.innerHTML   = `${current}<span> / ${total}</span>`;
+      if (progress < 1) requestAnimationFrame(tick);
+    }
+    requestAnimationFrame(tick);
+  }, delay);
+}
+
+// ── Confetti burst ─────────────────────────────────────
+function launchConfetti() {
+  const canvas = document.createElement('canvas');
+  canvas.style.cssText = 'position:fixed;top:0;left:0;width:100%;height:100%;pointer-events:none;z-index:9999;';
+  document.body.appendChild(canvas);
+  canvas.width  = window.innerWidth;
+  canvas.height = window.innerHeight;
+  const ctx = canvas.getContext('2d');
+
+  const COLORS = ['#f0c040','#fbbf24','#34d399','#60a5fa','#c084fc','#f87171','#fff'];
+  const pieces = Array.from({ length: 90 }, () => ({
+    x:     Math.random() * canvas.width,
+    y:     -12 - Math.random() * 80,
+    w:     Math.random() * 9 + 4,
+    h:     Math.random() * 5 + 2,
+    color: COLORS[Math.floor(Math.random() * COLORS.length)],
+    speed: Math.random() * 3.5 + 2,
+    drift: Math.random() * 2 - 1,
+    spin:  Math.random() * 0.25 - 0.125,
+    rot:   Math.random() * Math.PI * 2,
+    alpha: 1
+  }));
+
+  const deadline = Date.now() + 2800;
+
+  (function draw() {
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+    const remaining = deadline - Date.now();
+    let allGone = true;
+
+    pieces.forEach(p => {
+      p.y   += p.speed;
+      p.x   += p.drift;
+      p.rot += p.spin;
+      // Fade out in the last 600ms
+      if (remaining < 600) p.alpha = Math.max(0, remaining / 600);
+      if (p.y < canvas.height + 20) allGone = false;
+
+      ctx.save();
+      ctx.globalAlpha = p.alpha;
+      ctx.translate(p.x, p.y);
+      ctx.rotate(p.rot);
+      ctx.fillStyle = p.color;
+      ctx.fillRect(-p.w / 2, -p.h / 2, p.w, p.h);
+      ctx.restore();
+    });
+
+    if (!allGone && Date.now() < deadline + 300) {
+      requestAnimationFrame(draw);
+    } else {
+      if (canvas.parentNode) canvas.parentNode.removeChild(canvas);
+    }
+  })();
+}
+
 // ── Results ────────────────────────────────────────────
 
 function getResultsTitle(pct, streak) {
@@ -767,12 +840,23 @@ function showResults() {
       getResultsTitle(score / questions.length, streak);
   }
 
-  // Score display with reveal animation
+  // Score display — count-up animation
   const scoreEl = document.getElementById('score-display');
-  scoreEl.innerHTML = `${score}<span> / ${questions.length}</span>`;
+  scoreEl.innerHTML = `0<span> / ${questions.length}</span>`;
   scoreEl.classList.remove('reveal');
   void scoreEl.offsetWidth;
   scoreEl.classList.add('reveal');
+  animateScore(scoreEl, score, questions.length, 240);
+
+  // Confetti + milestone ring on perfect score or streak milestones (daily only)
+  if (!isArchivePlay) {
+    const isPerfect   = score === questions.length;
+    const isMilestone = streak === 7 || streak === 14 || streak === 30 || streak === 100;
+    if (isMilestone) scoreEl.classList.add('milestone');
+    if (isPerfect || isMilestone) {
+      setTimeout(launchConfetti, isPerfect ? 500 : 700);
+    }
+  }
 
   // Level-up banner (set by mastery.js → updateCategoryMastery)
   const levelUpEl = document.getElementById('levelup-banner');
@@ -797,23 +881,35 @@ function showResults() {
     } catch (e) { levelUpEl.style.display = 'none'; }
   }
 
-  // Category breakdown
+  // Category breakdown with animated bars
   const breakdown = document.getElementById('category-breakdown');
   breakdown.innerHTML = '';
-  Object.entries(categoryScores).forEach(([cat, s]) => {
+  Object.entries(categoryScores).forEach(([cat, s], idx) => {
+    const pct = s.total > 0 ? (s.correct / s.total) * 100 : 0;
+    const catClass = getCategoryClass(cat);
     const row = document.createElement('div');
     row.className = 'breakdown-row';
     row.innerHTML = `
-      <span class="breakdown-label">${cat}</span>
-      <span class="breakdown-score">${s.correct} / ${s.total}</span>
+      <div class="breakdown-header">
+        <span class="breakdown-label">${cat}</span>
+        <span class="breakdown-score">${s.correct} / ${s.total}</span>
+      </div>
+      <div class="breakdown-bar-track">
+        <div class="breakdown-bar-fill ${catClass}" data-pct="${pct}"></div>
+      </div>
     `;
     breakdown.appendChild(row);
+    // Stagger bar animations after the row reveal delay
+    setTimeout(() => {
+      const fill = row.querySelector('.breakdown-bar-fill');
+      if (fill) fill.style.width = pct + '%';
+    }, 450 + idx * 70);
   });
 
   // Streak row — daily only
   if (!isArchivePlay && streak > 1) {
     const streakRow = document.createElement('div');
-    streakRow.className = 'breakdown-row';
+    streakRow.className = 'breakdown-row breakdown-streak';
     streakRow.innerHTML = `
       <span class="breakdown-label"><span class="fr-icon fr-icon-xs" style="color:var(--gold,#d4af37);vertical-align:middle">${ICONS.flame}</span> Streak</span>
       <span class="breakdown-score">${streak} days</span>
@@ -918,22 +1014,37 @@ function showResultsFromStorage() {
   document.getElementById('score-display').innerHTML =
     `${storedScore}<span> / ${storedTotal}</span>`;
 
-  // Category breakdown
+  // Category breakdown with animated bars
   const breakdown = document.getElementById('category-breakdown');
   breakdown.innerHTML = '';
-  Object.entries(categoryScores).forEach(([cat, s]) => {
+  Object.entries(categoryScores).forEach(([cat, s], idx) => {
+    const pct = s.total > 0 ? (s.correct / s.total) * 100 : 0;
+    const catClass = getCategoryClass(cat);
     const row = document.createElement('div');
     row.className = 'breakdown-row';
-    row.innerHTML = `<span class="breakdown-label">${cat}</span>
-                     <span class="breakdown-score">${s.correct} / ${s.total}</span>`;
+    row.innerHTML = `
+      <div class="breakdown-header">
+        <span class="breakdown-label">${cat}</span>
+        <span class="breakdown-score">${s.correct} / ${s.total}</span>
+      </div>
+      <div class="breakdown-bar-track">
+        <div class="breakdown-bar-fill ${catClass}" data-pct="${pct}"></div>
+      </div>
+    `;
     breakdown.appendChild(row);
+    setTimeout(() => {
+      const fill = row.querySelector('.breakdown-bar-fill');
+      if (fill) fill.style.width = pct + '%';
+    }, 450 + idx * 70);
   });
 
   if (streak > 1) {
     const streakRow = document.createElement('div');
-    streakRow.className = 'breakdown-row';
-    streakRow.innerHTML = `<span class="breakdown-label">🔥 Streak</span>
-                           <span class="breakdown-score">${streak} days</span>`;
+    streakRow.className = 'breakdown-row breakdown-streak';
+    streakRow.innerHTML = `
+      <span class="breakdown-label"><span class="fr-icon fr-icon-xs" style="color:var(--gold,#d4af37);vertical-align:middle">${ICONS.flame}</span> Streak</span>
+      <span class="breakdown-score">${streak} days</span>
+    `;
     breakdown.appendChild(streakRow);
   }
 
@@ -1243,6 +1354,52 @@ async function renderShareCard() {
   canvas.style.height = Math.round(h * scale) + 'px';
 }
 
+// ── Crown logomark for share cards ────────────────────
+// Draws a pill-shaped brand badge with ♛ + "FACT ROYALE"
+function drawCrownLogomark(ctx, cx, y, size = 'lg') {
+  const configs = {
+    lg: { crownSz: 28, wordSz: 14, padX: 20, padY: 10, gap: 9 },
+    md: { crownSz: 20, wordSz: 11, padX: 16, padY: 8,  gap: 7 },
+    sm: { crownSz: 16, wordSz: 9,  padX: 12, padY: 6,  gap: 5 }
+  };
+  const cfg = configs[size] || configs.md;
+
+  ctx.font = `900 ${cfg.crownSz}px Nunito, sans-serif`;
+  const cw = ctx.measureText('♛').width;
+  ctx.font = `800 ${cfg.wordSz}px Nunito, sans-serif`;
+  const tw = ctx.measureText('FACT ROYALE').width;
+
+  const contentW = cw + cfg.gap + tw;
+  const pillW    = contentW + cfg.padX * 2;
+  const pillH    = cfg.crownSz + cfg.padY * 2;
+  const pillX    = cx - pillW / 2;
+  const pillY    = y;
+  const r        = pillH / 2;
+
+  // Pill background
+  ctx.beginPath();
+  roundRect(ctx, pillX, pillY, pillW, pillH, r);
+  ctx.fillStyle = 'rgba(240,192,64,0.12)';
+  ctx.fill();
+  ctx.strokeStyle = 'rgba(240,192,64,0.4)';
+  ctx.lineWidth = 1;
+  ctx.stroke();
+
+  const textY = pillY + pillH * 0.66;
+
+  // Crown glyph
+  ctx.font = `900 ${cfg.crownSz}px Nunito, sans-serif`;
+  ctx.fillStyle = '#f0c040';
+  ctx.textAlign = 'left';
+  ctx.fillText('♛', pillX + cfg.padX, textY);
+
+  // Wordmark
+  ctx.font = `800 ${cfg.wordSz}px Nunito, sans-serif`;
+  ctx.fillStyle = 'rgba(240,192,64,0.88)';
+  ctx.textAlign = 'left';
+  ctx.fillText('FACT ROYALE', pillX + cfg.padX + cw + cfg.gap, textY - 1);
+}
+
 // ── Canvas helpers ─────────────────────────────────────
 
 function drawBg(ctx, w, h, stops) {
@@ -1460,18 +1617,14 @@ function drawStoryCard(ctx, w, h, data) {
 
   ctx.textAlign = 'center';
 
-  // Header — tighter to top so ring has more room
-  let y = 78;
-  ctx.font = '900 38px Nunito, sans-serif';
-  ctx.fillStyle = '#f0c040';
-  ctx.fillText('♛', w / 2, y); y += 46;
-
-  ctx.font = '800 24px Nunito, sans-serif';
-  ctx.fillStyle = '#f0c040';
-  ctx.fillText('FACT ROYALE', w / 2, y); y += 30;
+  // Header — branded logomark pill
+  let y = 30;
+  drawCrownLogomark(ctx, w / 2, y, 'lg');
+  y += 60;
 
   ctx.font = '400 17px Nunito, sans-serif';
   ctx.fillStyle = 'rgba(240,192,64,0.52)';
+  ctx.textAlign = 'center';
   ctx.fillText(data.date, w / 2, y);
 
   // Score hero — larger ring (95 vs 80) for better visual weight on tall card
@@ -1521,7 +1674,7 @@ function drawStoryCard(ctx, w, h, data) {
   ctx.font = '700 16px Nunito, sans-serif';
   ctx.fillStyle = 'rgba(240,192,64,0.55)';
   ctx.textAlign = 'center';
-  ctx.fillText('♛  fact-royale.com', w / 2, listEnd + 48);
+  ctx.fillText('fact-royale.com', w / 2, listEnd + 48);
 }
 
 function drawWideCard(ctx, w, h, data) {
@@ -1538,17 +1691,12 @@ function drawWideCard(ctx, w, h, data) {
   // LEFT: Brand + Score
   ctx.textAlign = 'center';
 
-  ctx.font = '900 22px Nunito, sans-serif';
-  ctx.fillStyle = '#f0c040';
-  ctx.fillText('♛', lc, 46);
-
-  ctx.font = '800 17px Nunito, sans-serif';
-  ctx.fillStyle = '#f0c040';
-  ctx.fillText('FACT ROYALE', lc, 70);
+  drawCrownLogomark(ctx, lc, 14, 'sm');
 
   ctx.font = '400 13px Nunito, sans-serif';
   ctx.fillStyle = 'rgba(240,192,64,0.52)';
-  ctx.fillText(data.date, lc, 88);
+  ctx.textAlign = 'center';
+  ctx.fillText(data.date, lc, 70);
 
   // Score ring
   const scoreCY = 248;
@@ -1567,7 +1715,7 @@ function drawWideCard(ctx, w, h, data) {
   ctx.font = '700 15px Nunito, sans-serif';
   ctx.fillStyle = 'rgba(240,192,64,0.5)';
   ctx.textAlign = 'center';
-  ctx.fillText('♛  fact-royale.com', lc, h - 22);
+  ctx.fillText('fact-royale.com', lc, h - 22);
 
   // Vertical divider
   ctx.save();
@@ -1670,17 +1818,12 @@ function drawSquareCard(ctx, w, h, data) {
 
   ctx.textAlign = 'center';
 
-  ctx.font = '900 26px Nunito, sans-serif';
-  ctx.fillStyle = '#f0c040';
-  ctx.fillText('♛', lc, 52);
-
-  ctx.font = '800 17px Nunito, sans-serif';
-  ctx.fillStyle = '#f0c040';
-  ctx.fillText('FACT ROYALE', lc, 76);
+  drawCrownLogomark(ctx, lc, 14, 'sm');
 
   ctx.font = '400 12px Nunito, sans-serif';
   ctx.fillStyle = 'rgba(240,192,64,0.52)';
-  ctx.fillText(data.date, lc, 94);
+  ctx.textAlign = 'center';
+  ctx.fillText(data.date, lc, 72);
 
   // Score ring
   const scoreCY = 258;
@@ -1699,7 +1842,7 @@ function drawSquareCard(ctx, w, h, data) {
   ctx.font = '700 12px Nunito, sans-serif';
   ctx.fillStyle = 'rgba(240,192,64,0.5)';
   ctx.textAlign = 'center';
-  ctx.fillText('♛  fact-royale.com', lc, h - 22);
+  ctx.fillText('fact-royale.com', lc, h - 22);
 
   // ── Vertical divider ────────────────────────────────────
   ctx.save();

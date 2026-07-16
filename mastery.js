@@ -315,6 +315,7 @@ function renderCategoryCards(categoryMastery, historyMap) {
 
     const card = document.createElement('div');
     card.className = 'mc-card';
+    card.dataset.tier = tier.id;
     card.innerHTML = `
       <div class="mc-header" style="background:${meta.bg};border-left:4px solid ${meta.color}">
         <span class="mc-cat-name" style="color:${meta.color}">${cat}</span>

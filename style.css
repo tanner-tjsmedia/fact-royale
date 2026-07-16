@@ -973,14 +973,14 @@ body > * { position: relative; z-index: 1; }
   border-color: var(--correct);
   color: var(--correct);
   box-shadow: 0 0 20px rgba(52,211,153,0.15);
-  animation: correctPulse 0.5s ease;
+  animation: correctPulse 0.5s cubic-bezier(0.22,1,0.36,1), correctGlow 0.8s ease forwards;
 }
 
 .option-btn.wrong {
   background: var(--wrong-bg);
   border-color: var(--wrong);
   color: var(--wrong);
-  animation: wrongShake 0.4s ease;
+  animation: wrongShake 0.5s cubic-bezier(0.36,0.07,0.19,0.97) both;
 }
 
 .option-btn.correct::after { content: ' ✓'; font-weight: 700; }
@@ -1072,19 +1072,56 @@ body > * { position: relative; z-index: 1; }
 
 .breakdown-row {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  flex-direction: column;
+  gap: 7px;
   background: var(--surface2);
   border: 1px solid var(--border);
   border-radius: var(--radius-sm);
-  padding: 11px 18px;
+  padding: 12px 18px;
   transition: border-color 0.2s ease;
 }
 
 .breakdown-row:hover { border-color: rgba(212,175,55,0.15); }
 
+/* Top line: label + score */
+.breakdown-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .breakdown-label { font-size: 0.87rem; font-weight: 500; color: var(--text-muted); }
 .breakdown-score { font-family: var(--font-display); font-size: 0.9rem; font-weight: 600; color: var(--text); }
+
+/* Progress bar */
+.breakdown-bar-track {
+  height: 4px;
+  background: rgba(255,255,255,0.06);
+  border-radius: 100px;
+  overflow: hidden;
+}
+
+.breakdown-bar-fill {
+  height: 100%;
+  border-radius: 100px;
+  width: 0%;
+  transition: width 0.7s cubic-bezier(0.22,1,0.36,1);
+}
+
+.breakdown-bar-fill.cat-history   { background: var(--history); }
+.breakdown-bar-fill.cat-sports    { background: var(--sports); }
+.breakdown-bar-fill.cat-music     { background: var(--music); }
+.breakdown-bar-fill.cat-geography { background: var(--geography); }
+.breakdown-bar-fill.cat-science   { background: var(--science); }
+.breakdown-bar-fill.cat-default   { background: var(--default); }
+
+/* Streak row — keep as single-line (no bar) */
+.breakdown-row.breakdown-streak {
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0;
+}
 .results-actions { margin-bottom: 20px; }
 
 .share-confirm { margin-top: 10px; font-size: 0.85rem; color: var(--correct); font-weight: 700; }
@@ -2456,17 +2493,27 @@ body > * { position: relative; z-index: 1; }
 
 /* ── Answer feedback animations ── */
 @keyframes correctPulse {
-  0%   { box-shadow: 0 0 0 0 rgba(52,211,153,0.4); }
-  50%  { box-shadow: 0 0 0 8px rgba(52,211,153,0); }
-  100% { box-shadow: 0 0 0 0 rgba(52,211,153,0); }
+  0%   { box-shadow: 0 0 0 0 rgba(52,211,153,0.5); transform: scale(1); }
+  25%  { transform: scale(1.025); }
+  50%  { box-shadow: 0 0 0 12px rgba(52,211,153,0); transform: scale(1.01); }
+  100% { box-shadow: 0 0 0 0 rgba(52,211,153,0); transform: scale(1); }
+}
+
+@keyframes correctGlow {
+  0%   { box-shadow: 0 0 0 rgba(52,211,153,0), 0 0 20px rgba(0,0,0,0); }
+  40%  { box-shadow: 0 0 28px rgba(52,211,153,0.3), 0 0 0 4px rgba(52,211,153,0.15); }
+  100% { box-shadow: 0 0 20px rgba(52,211,153,0.15), 0 0 0 rgba(52,211,153,0); }
 }
 
 @keyframes wrongShake {
   0%, 100% { transform: translateX(0); }
-  20%       { transform: translateX(-6px); }
-  40%       { transform: translateX(5px); }
-  60%       { transform: translateX(-4px); }
-  80%       { transform: translateX(3px); }
+  12%       { transform: translateX(-9px); }
+  25%       { transform: translateX(8px); }
+  37%       { transform: translateX(-7px); }
+  50%       { transform: translateX(6px); }
+  62%       { transform: translateX(-4px); }
+  75%       { transform: translateX(3px); }
+  87%       { transform: translateX(-1px); }
 }
 
 /* ── Results screen orchestrated reveal ── */
@@ -2692,6 +2739,106 @@ body > * { position: relative; z-index: 1; }
   font-family: var(--font-display);
   font-weight: 700;
   letter-spacing: -0.01em;
+}
+
+/* ── Mastery tier-specific card glows ── */
+
+/* Royale — gold glow, elevated border */
+.mc-card[data-tier="royale"] {
+  border-color: rgba(240,192,64,0.45);
+  box-shadow: 0 4px 32px rgba(240,192,64,0.14), 0 0 0 1px rgba(240,192,64,0.08) inset;
+}
+.mc-card[data-tier="royale"]:hover {
+  border-color: rgba(240,192,64,0.7);
+  box-shadow: 0 12px 48px rgba(240,192,64,0.22), 0 0 0 1px rgba(240,192,64,0.12) inset;
+}
+
+/* Duke — purple glow */
+.mc-card[data-tier="duke"] {
+  border-color: rgba(168,85,247,0.35);
+  box-shadow: 0 4px 28px rgba(168,85,247,0.12);
+}
+.mc-card[data-tier="duke"]:hover {
+  border-color: rgba(168,85,247,0.55);
+  box-shadow: 0 12px 44px rgba(168,85,247,0.18);
+}
+
+/* Earl — blue glow */
+.mc-card[data-tier="earl"] {
+  border-color: rgba(59,130,246,0.3);
+  box-shadow: 0 4px 24px rgba(59,130,246,0.10);
+}
+.mc-card[data-tier="earl"]:hover {
+  border-color: rgba(59,130,246,0.5);
+  box-shadow: 0 12px 40px rgba(59,130,246,0.16);
+}
+
+/* Baron — cyan tint */
+.mc-card[data-tier="baron"] {
+  border-color: rgba(34,211,238,0.22);
+}
+.mc-card[data-tier="baron"]:hover {
+  border-color: rgba(34,211,238,0.42);
+  box-shadow: 0 10px 36px rgba(34,211,238,0.10);
+}
+
+/* Knight — green tint */
+.mc-card[data-tier="knight"] {
+  border-color: rgba(74,222,128,0.2);
+}
+.mc-card[data-tier="knight"]:hover {
+  border-color: rgba(74,222,128,0.4);
+  box-shadow: 0 10px 36px rgba(74,222,128,0.09);
+}
+
+/* Royale tier badge — extra shimmer */
+.mc-card[data-tier="royale"] .mc-tier-badge {
+  box-shadow: 0 0 12px rgba(240,192,64,0.25);
+  font-weight: 800;
+}
+
+/* ── Crown logo — glow treatment ── */
+.crown,
+.modal-crown,
+.csm-crown,
+.logo-small,
+.nav-logo,
+.footer-logo {
+  /* text-shadow glow for elements containing ♛ */
+}
+
+/* ♛ crown character across the app */
+.crown {
+  text-shadow: 0 0 18px rgba(212,175,55,0.55), 0 0 36px rgba(212,175,55,0.25);
+}
+
+.modal-crown {
+  text-shadow: 0 0 12px rgba(212,175,55,0.45);
+  display: block;
+  margin-bottom: 8px;
+}
+
+.csm-crown {
+  text-shadow: 0 0 12px rgba(212,175,55,0.45);
+}
+
+/* Nav logo + quiz header logo — subtle gold glow */
+.nav-logo,
+.logo-small {
+  text-shadow: 0 0 20px rgba(212,175,55,0.22);
+}
+
+/* Streak milestone fireworks — pulse ring on the score number */
+@keyframes milestoneRing {
+  0%   { box-shadow: 0 0 0 0 rgba(240,192,64,0.5); }
+  60%  { box-shadow: 0 0 0 20px rgba(240,192,64,0); }
+  100% { box-shadow: 0 0 0 0 rgba(240,192,64,0); }
+}
+
+.score-display.milestone {
+  animation: scoreCountUp 0.55s cubic-bezier(0.22,1,0.36,1) 0.2s both,
+             milestoneRing 0.8s ease 0.8s;
+  display: inline-block;
 }
 
 
@@ -3652,6 +3799,23 @@ a.btn-catchup:hover {
 .mobile-tab-bar { display: none; }
 
 @media (max-width: 768px) {
+
+  /* ── Results actions — stack vertically on mobile ── */
+  .results-actions {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+    align-items: stretch;
+  }
+  .results-actions .btn-primary { width: 100%; }
+  .btn-challenge {
+    width: 100%;
+    justify-content: center;
+    margin-top: 0;
+    padding: 0.75rem 1.1rem;
+    font-size: 0.95rem;
+  }
 
   /* Show the bar */
   .mobile-tab-bar {
