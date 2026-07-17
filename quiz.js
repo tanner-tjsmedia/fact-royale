@@ -935,9 +935,18 @@ function showResults() {
   setTimeout(showEmailCapture, 800);
 
   // Challenge button — only for logged-in users on today's quiz
-  const btnChallenge = document.getElementById('btn-challenge');
-  if (btnChallenge && auth.currentUser && !isArchivePlay) {
-    btnChallenge.style.display = 'inline-flex';
+  if (!isArchivePlay) {
+    const btnChallenge = document.getElementById('btn-challenge');
+    if (btnChallenge) {
+      if (auth.currentUser) {
+        btnChallenge.style.display = 'inline-flex';
+      } else {
+        const unsub = auth.onAuthStateChanged(user => {
+          if (user) btnChallenge.style.display = 'inline-flex';
+          unsub();
+        });
+      }
+    }
   }
 
   // Sign-up nudge — only for anonymous users on daily plays
@@ -1069,6 +1078,19 @@ function showResultsFromStorage() {
 
   document.getElementById('fun-fact-text').textContent = getDailyFunFact();
   document.getElementById('btn-share').onclick = shareScore;
+
+  // Challenge button — show for logged-in users (already-played flow, daily only)
+  const btnChallengeR = document.getElementById('btn-challenge');
+  if (btnChallengeR) {
+    if (auth.currentUser) {
+      btnChallengeR.style.display = 'inline-flex';
+    } else {
+      const unsub = auth.onAuthStateChanged(user => {
+        if (user) btnChallengeR.style.display = 'inline-flex';
+        unsub();
+      });
+    }
+  }
 
   document.getElementById('btn-home').onclick = () => {
     showScreen('screen-landing');
