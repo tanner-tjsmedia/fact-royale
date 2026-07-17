@@ -1354,24 +1354,117 @@ async function renderShareCard() {
   canvas.style.height = Math.round(h * scale) + 'px';
 }
 
+// ── Canvas crown mark helper ────────────────────────────
+// Draws the detailed filled crown centered at (cx, cy), sized w×h
+function _drawCanvasCrown(ctx, cx, cy, w, h) {
+  const sx = w / 100, sy = h / 74;
+  const ox = cx - w / 2, oy = cy - h / 2;
+
+  // Crown body
+  ctx.beginPath();
+  ctx.moveTo(ox + 4*sx,  oy + 54*sy);
+  ctx.lineTo(ox + 4*sx,  oy + 40*sy);
+  ctx.lineTo(ox + 18*sx, oy + 16*sy);
+  ctx.lineTo(ox + 36*sx, oy + 44*sy);
+  ctx.lineTo(ox + 50*sx, oy + 4*sy);
+  ctx.lineTo(ox + 64*sx, oy + 44*sy);
+  ctx.lineTo(ox + 82*sx, oy + 16*sy);
+  ctx.lineTo(ox + 96*sx, oy + 40*sy);
+  ctx.lineTo(ox + 96*sx, oy + 54*sy);
+  ctx.closePath();
+  ctx.fillStyle = '#D4AF37';
+  ctx.fill();
+
+  // Lower body shadow
+  ctx.beginPath();
+  ctx.moveTo(ox + 4*sx,  oy + 47*sy);
+  ctx.lineTo(ox + 96*sx, oy + 47*sy);
+  ctx.lineTo(ox + 96*sx, oy + 54*sy);
+  ctx.lineTo(ox + 4*sx,  oy + 54*sy);
+  ctx.closePath();
+  ctx.fillStyle = 'rgba(70,44,0,0.30)';
+  ctx.fill();
+
+  // Upper highlight
+  ctx.beginPath();
+  ctx.moveTo(ox + 50*sx, oy + 4*sy);
+  ctx.lineTo(ox + 36*sx, oy + 44*sy);
+  ctx.lineTo(ox + 4*sx,  oy + 40*sy);
+  ctx.lineTo(ox + 4*sx,  oy + 33*sy);
+  ctx.lineTo(ox + 18*sx, oy + 16*sy);
+  ctx.closePath();
+  ctx.fillStyle = 'rgba(255,245,160,0.18)';
+  ctx.fill();
+
+  // Base band
+  const bx = ox + 4*sx, by = oy + 54*sy, bw = 92*sx, bh = 17*sy;
+  ctx.beginPath();
+  roundRect(ctx, bx, by, bw, bh, Math.min(3*sx, bh / 2));
+  ctx.fillStyle = '#9A7010';
+  ctx.fill();
+
+  // Band top highlight
+  ctx.beginPath();
+  roundRect(ctx, bx, by, bw, 2.5*sy, Math.min(1.25*sy, 1.5));
+  ctx.fillStyle = 'rgba(255,220,60,0.55)';
+  ctx.fill();
+
+  // Peak orbs
+  const rs = Math.min(sx, sy);
+  [[18,16,5.5],[50,4,7],[82,16,5.5]].forEach(([x,y,r]) => {
+    // Outer halo
+    ctx.beginPath();
+    ctx.arc(ox + x*sx, oy + y*sy, (r + 2) * rs, 0, Math.PI * 2);
+    ctx.fillStyle = 'rgba(212,175,55,0.18)';
+    ctx.fill();
+    // Orb
+    ctx.beginPath();
+    ctx.arc(ox + x*sx, oy + y*sy, r * rs, 0, Math.PI * 2);
+    ctx.fillStyle = '#FFE47A';
+    ctx.fill();
+    // Shine
+    ctx.beginPath();
+    ctx.arc(ox + (x - 1.5)*sx, oy + (y - 2)*sy, 2 * rs, 0, Math.PI * 2);
+    ctx.fillStyle = 'rgba(255,255,255,0.50)';
+    ctx.fill();
+  });
+
+  // Corner knobs
+  [[4,54],[96,54]].forEach(([x,y]) => {
+    ctx.beginPath();
+    ctx.arc(ox + x*sx, oy + y*sy, 3.5 * rs, 0, Math.PI * 2);
+    ctx.fillStyle = '#C4900A';
+    ctx.fill();
+  });
+
+  // Center jewel
+  ctx.beginPath();
+  ctx.ellipse(ox + 50*sx, oy + 63*sy, 6*sx, 4.5*sy, 0, 0, Math.PI * 2);
+  ctx.fillStyle = '#7C3AED';
+  ctx.fill();
+  ctx.beginPath();
+  ctx.ellipse(ox + 49*sx, oy + 61.5*sy, 3.5*sx, 2.5*sy, 0, 0, Math.PI * 2);
+  ctx.fillStyle = 'rgba(200,160,255,0.60)';
+  ctx.fill();
+}
+
 // ── Crown logomark for share cards ────────────────────
-// Draws a pill-shaped brand badge with ♛ + "FACT ROYALE"
+// Draws a pill-shaped brand badge with crown mark + "FACT ROYALE"
 function drawCrownLogomark(ctx, cx, y, size = 'lg') {
   const configs = {
-    lg: { crownSz: 28, wordSz: 14, padX: 20, padY: 10, gap: 9 },
-    md: { crownSz: 20, wordSz: 11, padX: 16, padY: 8,  gap: 7 },
-    sm: { crownSz: 16, wordSz: 9,  padX: 12, padY: 6,  gap: 5 }
+    lg: { crownH: 28, wordSz: 14, padX: 20, padY: 10, gap: 10 },
+    md: { crownH: 20, wordSz: 11, padX: 16, padY: 8,  gap: 8  },
+    sm: { crownH: 16, wordSz: 9,  padX: 12, padY: 6,  gap: 6  }
   };
   const cfg = configs[size] || configs.md;
+  const crownW = Math.round(cfg.crownH * (100 / 74)); // maintain viewBox aspect ratio
 
-  ctx.font = `900 ${cfg.crownSz}px Nunito, sans-serif`;
-  const cw = ctx.measureText('♛').width;
   ctx.font = `800 ${cfg.wordSz}px Nunito, sans-serif`;
   const tw = ctx.measureText('FACT ROYALE').width;
 
-  const contentW = cw + cfg.gap + tw;
+  const contentW = crownW + cfg.gap + tw;
   const pillW    = contentW + cfg.padX * 2;
-  const pillH    = cfg.crownSz + cfg.padY * 2;
+  const pillH    = cfg.crownH + cfg.padY * 2;
   const pillX    = cx - pillW / 2;
   const pillY    = y;
   const r        = pillH / 2;
@@ -1385,19 +1478,17 @@ function drawCrownLogomark(ctx, cx, y, size = 'lg') {
   ctx.lineWidth = 1;
   ctx.stroke();
 
-  const textY = pillY + pillH * 0.66;
-
-  // Crown glyph
-  ctx.font = `900 ${cfg.crownSz}px Nunito, sans-serif`;
-  ctx.fillStyle = '#f0c040';
-  ctx.textAlign = 'left';
-  ctx.fillText('♛', pillX + cfg.padX, textY);
+  // Drawn crown mark (centered vertically in pill)
+  const crownCX = pillX + cfg.padX + crownW / 2;
+  const crownCY = pillY + pillH / 2;
+  _drawCanvasCrown(ctx, crownCX, crownCY, crownW, cfg.crownH);
 
   // Wordmark
+  const textY = pillY + pillH * 0.66;
   ctx.font = `800 ${cfg.wordSz}px Nunito, sans-serif`;
   ctx.fillStyle = 'rgba(240,192,64,0.88)';
   ctx.textAlign = 'left';
-  ctx.fillText('FACT ROYALE', pillX + cfg.padX + cw + cfg.gap, textY - 1);
+  ctx.fillText('FACT ROYALE', pillX + cfg.padX + crownW + cfg.gap, textY);
 }
 
 // ── Canvas helpers ─────────────────────────────────────
