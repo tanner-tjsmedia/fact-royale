@@ -452,6 +452,95 @@ async function loadMasteryTeaser() {
   });
 }
 
+// ── Challenge History (Royal Record page) ─────────────────
+
+async function loadChallengeHistory(uid) {
+  if (typeof db === 'undefined') return;
+  const listEl    = document.getElementById('challenge-history-list');
+  const emptyEl   = document.getElementById('challenge-empty');
+  const summaryEl = document.getElementById('challenge-summary');
+  if (!listEl) return;
+
+  try {
+    // Single equality filter — no composite index required; sort client-side
+    const snapshot = await db.collection('challenges')
+      .where('from', '==', uid)
+      .limit(30)
+      .get();
+
+    const challenges = [];
+    snapshot.forEach(doc => challenges.push({ id: doc.id, ...doc.data() }));
+
+    // Sort newest-first by createdAt timestamp
+    challenges.sort((a, b) => {
+      const ta = a.createdAt ? a.createdAt.toMillis() : 0;
+      const tb = b.createdAt ? b.createdAt.toMillis() : 0;
+      return tb - ta;
+    });
+
+    renderChallengeHistory(challenges, listEl, emptyEl, summaryEl);
+  } catch (e) {
+    if (listEl) listEl.innerHTML =
+      '<p style="text-align:center;color:var(--text-muted);padding:1.5rem 0;font-size:0.88rem">Challenge history unavailable right now.</p>';
+  }
+}
+
+function renderChallengeHistory(challenges, listEl, emptyEl, summaryEl) {
+  if (!challenges.length) {
+    if (emptyEl) emptyEl.style.display = 'block';
+    return;
+  }
+
+  // Win / loss / tie summary
+  const completed = challenges.filter(c => c.result);
+  if (summaryEl && completed.length > 0) {
+    const wins   = completed.filter(c => c.score > c.result.score).length;
+    const losses = completed.filter(c => c.score < c.result.score).length;
+    const ties   = completed.filter(c => c.score === c.result.score).length;
+    summaryEl.style.display = 'flex';
+    summaryEl.innerHTML = `
+      <div class="chs-stat"><span class="chs-num chs-won">${wins}</span><span class="chs-lbl">Won</span></div>
+      <div class="chs-divider"></div>
+      <div class="chs-stat"><span class="chs-num chs-lost">${losses}</span><span class="chs-lbl">Lost</span></div>
+      <div class="chs-divider"></div>
+      <div class="chs-stat"><span class="chs-num">${ties}</span><span class="chs-lbl">Tied</span></div>
+      <div class="chs-divider"></div>
+      <div class="chs-stat"><span class="chs-num">${challenges.length}</span><span class="chs-lbl">Sent</span></div>
+    `;
+  }
+
+  // Challenge rows
+  listEl.innerHTML = challenges.map(c => {
+    const dateStr = c.date
+      ? new Date(c.date + 'T12:00:00').toLocaleDateString('en-US', { month: 'short', day: 'numeric' })
+      : '';
+
+    let badge, resultLine;
+    if (!c.result) {
+      badge      = '<span class="ch-badge ch-badge--pending">Pending</span>';
+      resultLine = '<span class="ch-result-sub">Waiting for response...</span>';
+    } else {
+      const won  = c.score > c.result.score;
+      const tied = c.score === c.result.score;
+      badge      = won  ? '<span class="ch-badge ch-badge--won">You Won</span>'
+                 : tied ? '<span class="ch-badge ch-badge--tied">Tied</span>'
+                        : '<span class="ch-badge ch-badge--lost">They Won</span>';
+      resultLine = `<span class="ch-result-sub">${c.result.name}: ${c.result.score}/${c.result.total}</span>`;
+    }
+
+    return `
+      <div class="ch-row">
+        <div class="ch-row-meta">
+          <span class="ch-date">${dateStr}</span>
+          <span class="ch-your-score">You: ${c.score}/${c.total}</span>
+          ${resultLine}
+        </div>
+        <div class="ch-row-badge">${badge}</div>
+      </div>
+    `;
+  }).join('');
+}
+
 // ── Boot ──────────────────────────────────────────────────
 
 document.addEventListener('DOMContentLoaded', () => {

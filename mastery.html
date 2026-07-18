@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Mastery — Fact Royale</title>
+  <title>Royal Record — Fact Royale</title>
 
   <!-- Firebase SDKs -->
   <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-app-compat.js"></script>
@@ -17,7 +17,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet" />
 
   <!-- Shared styles -->
-  <link rel="stylesheet" href="style.css?v=16" />
+  <link rel="stylesheet" href="style.css?v=17" />
 
   <style>
     /* ── Mastery page overrides / layout ── */
@@ -268,7 +268,7 @@
     <div class="m-nav-links">
       <a href="index.html">Play Today</a>
       <a href="index.html#leaderboard">Leaderboard</a>
-      <a href="mastery.html" class="active">Mastery</a>
+      <a href="mastery.html" class="active">Royal Record</a>
     </div>
     <div class="m-nav-user">
       <span id="m-nav-username"></span>
@@ -281,8 +281,8 @@
 
   <!-- Sign-in gate -->
   <div id="mastery-signin">
-    <h2>Track Your Mastery</h2>
-    <p>Sign in to see your category rankings, perfect streaks, and progress toward Royale status in every subject.</p>
+    <h2>Your Royal Record</h2>
+    <p>Sign in to see your category rankings, challenge history, and progress toward Royale status in every subject.</p>
     <button class="m-signin-btn" id="m-signin-btn">Sign In to Continue</button>
   </div>
 
@@ -292,7 +292,7 @@
 
       <!-- Hero -->
       <div class="m-hero">
-        <div class="m-hero-eyebrow">Category Mastery</div>
+        <div class="m-hero-eyebrow">Royal Record</div>
         <div class="m-hero-name" id="mastery-username"></div>
 
         <div class="m-hero-numbers">
@@ -336,17 +336,29 @@
       <div class="m-section-title">Your Categories</div>
       <div id="mastery-grid"></div>
 
+      <!-- Challenge History -->
+      <div class="m-section-title" style="margin-top:2.5rem">Challenges</div>
+      <div id="challenge-history-wrap" class="challenge-history-wrap">
+        <div id="challenge-summary" class="challenge-summary-row" style="display:none"></div>
+        <div id="challenge-history-list" class="challenge-history-list"></div>
+        <div id="challenge-empty" class="challenge-empty" style="display:none">
+          <p>No challenges sent yet.</p>
+          <p class="challenge-empty-sub">After you play today's quiz, hit <strong>Challenge a Friend</strong> to invite someone to beat your score.</p>
+        </div>
+      </div>
+
     </div>
   </div>
 
   <!-- Scripts -->
   <script src="icons.js"></script>
-  <script src="mastery.js?v=3"></script>
+  <script src="mastery.js?v=4"></script>
   <script>
-    // Nav auth
+    // Nav auth + challenge history
     auth.onAuthStateChanged(user => {
       const nameEl = document.getElementById('m-nav-username');
       if (nameEl) nameEl.textContent = user ? (user.displayName || user.email.split('@')[0]) : '';
+      if (user && typeof loadChallengeHistory === 'function') loadChallengeHistory(user.uid);
     });
 
     // Sign-out

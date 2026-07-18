@@ -33,7 +33,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="style.css?v=16" />
+  <link rel="stylesheet" href="style.css?v=17" />
   <style>
     /* ── Mastery teaser layout (inline to survive CSS caching) ── */
     #mastery-teaser {
@@ -97,7 +97,7 @@
       <div class="nav-links">
         <a href="#daily" class="nav-link">Play Today</a>
         <a href="#leaderboard" class="nav-link">Leaderboard</a>
-        <a href="mastery.html" class="nav-link">Mastery</a>
+        <a href="mastery.html" class="nav-link">Royal Record</a>
         <a href="groups.html" class="nav-link">Groups</a>
         <a href="#notify" class="nav-link nav-link-cta">Stay Updated</a>
       </div>
@@ -488,6 +488,16 @@
         <button class="btn-results-home" id="btn-home">← Back to Home</button>
       </div>
 
+      <!-- Post-challenge sign-up nudge (shown to anonymous users after they send a challenge) -->
+      <div id="challenge-sent-nudge" class="challenge-sent-nudge" style="display:none;">
+        <p>Want to know if they beat you?</p>
+        <button class="csn-signup-btn"
+                onclick="document.getElementById('challenge-sent-nudge').style.display='none';document.getElementById('auth-modal').style.display='flex'">
+          Create a free account
+        </button>
+        <button class="csn-dismiss" onclick="this.parentElement.style.display='none'">Maybe later</button>
+      </div>
+
       <p class="comeback-msg">New quiz drops tomorrow. See you then.</p>
     </div>
   </div>
@@ -586,6 +596,23 @@
     </div>
   </div>
 
+  <!-- CHALLENGE NAME PROMPT MODAL (for anonymous challengers) -->
+  <div id="challenge-name-modal" class="modal-overlay" style="display:none;" role="dialog" aria-modal="true">
+    <div class="cnm-card">
+      <h3 class="cnm-title">Who's challenging?</h3>
+      <p class="cnm-sub">Add your name so your friend knows who to beat.</p>
+      <input type="text" id="challenge-name-input" class="cnm-input"
+             placeholder="Your first name" maxlength="30"
+             onkeydown="if(event.key==='Enter')submitChallengeName()" />
+      <button class="btn-primary cnm-send-btn" onclick="submitChallengeName()">Send Challenge →</button>
+      <div class="cnm-or">or</div>
+      <button class="cnm-signin-link"
+              onclick="closeChallengeNameModal();document.getElementById('auth-modal').style.display='flex'">
+        Sign in to track if they beat you
+      </button>
+    </div>
+  </div>
+
   <!-- CHALLENGE SHARE MODAL (fallback for browsers without Web Share API) -->
   <div id="challenge-share-modal" class="modal-overlay" style="display:none;" role="dialog" aria-modal="true" onclick="closeChallengeShareModal(event)">
     <div class="csm-card">
@@ -621,7 +648,7 @@
   <script src="firebase-config.js?v=2"></script>
   <script src="icons.js?v=2"></script>
   <script src="auth.js?v=2"></script>
-  <script src="mastery.js?v=3"></script>
+  <script src="mastery.js?v=4"></script>
   <script src="notifications.js?v=2"></script>
   <script src="quiz.js?v=14"></script>
   <script>

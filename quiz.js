@@ -931,22 +931,19 @@ function showResults() {
   // Challenge comparison
   showChallengeComparison(score, questions.length);
 
+  // Record Person B's result back to the challenge Firestore doc (fire-and-forget)
+  if (challengeData && challengeData.cid) {
+    const resultName = auth.currentUser ? (auth.currentUser.displayName || 'A challenger') : 'A challenger';
+    recordChallengeResult(challengeData.cid, score, questions.length, resultName);
+  }
+
   // Email capture for anonymous users
   setTimeout(showEmailCapture, 800);
 
-  // Challenge button — only for logged-in users on today's quiz
+  // Challenge button — show for all users on daily plays
   if (!isArchivePlay) {
     const btnChallenge = document.getElementById('btn-challenge');
-    if (btnChallenge) {
-      if (auth.currentUser) {
-        btnChallenge.style.display = 'inline-flex';
-      } else {
-        const unsub = auth.onAuthStateChanged(user => {
-          if (user) btnChallenge.style.display = 'inline-flex';
-          unsub();
-        });
-      }
-    }
+    if (btnChallenge) btnChallenge.style.display = 'inline-flex';
   }
 
   // Sign-up nudge — only for anonymous users on daily plays
@@ -1079,18 +1076,9 @@ function showResultsFromStorage() {
   document.getElementById('fun-fact-text').textContent = getDailyFunFact();
   document.getElementById('btn-share').onclick = shareScore;
 
-  // Challenge button — show for logged-in users (already-played flow, daily only)
+  // Challenge button — show for all users on daily plays
   const btnChallengeR = document.getElementById('btn-challenge');
-  if (btnChallengeR) {
-    if (auth.currentUser) {
-      btnChallengeR.style.display = 'inline-flex';
-    } else {
-      const unsub = auth.onAuthStateChanged(user => {
-        if (user) btnChallengeR.style.display = 'inline-flex';
-        unsub();
-      });
-    }
-  }
+  if (btnChallengeR) btnChallengeR.style.display = 'inline-flex';
 
   document.getElementById('btn-home').onclick = () => {
     showScreen('screen-landing');
@@ -2194,39 +2182,123 @@ function showChallengeComparison(yourScore, yourTotal) {
   resultEl.style.display = 'block';
 }
 
+// ── Challenge Helpers ───────────────────────────────────
+
+function generateChallengeId() {
+  return Math.random().toString(36).substr(2, 9) + Date.now().toString(36);
+}
+
+async function saveChallengeToFirestore(cid, uid, fromName, score, total, date) {
+  if (typeof db === 'undefined') return;
+  try {
+    await db.collection('challenges').doc(cid).set({
+      from:      uid,
+      fromName:  fromName,
+      score:     parseInt(score, 10),
+      total:     parseInt(total, 10),
+      date:      date,
+      createdAt: firebase.firestore.FieldValue.serverTimestamp(),
+      result:    null
+    });
+  } catch (e) { /* challenge still works via URL params if Firestore fails */ }
+}
+
+async function recordChallengeResult(cid, score, total, name) {
+  if (typeof db === 'undefined' || !cid) return;
+  try {
+    await db.collection('challenges').doc(cid).update({
+      result: {
+        name:        name || 'A challenger',
+        score:       score,
+        total:       total,
+        completedAt: firebase.firestore.FieldValue.serverTimestamp()
+      }
+    });
+  } catch (e) { /* silent — doc may not exist if sender was anonymous and didn't sign up */ }
+}
+
+// ── Challenge name prompt ──────────────────────────────
+
+function showChallengeNamePrompt() {
+  const modal = document.getElementById('challenge-name-modal');
+  if (!modal) return;
+  modal.style.display = 'flex';
+  const input = document.getElementById('challenge-name-input');
+  if (input) { input.value = ''; setTimeout(() => input.focus(), 60); }
+}
+
+function closeChallengeNameModal() {
+  const modal = document.getElementById('challenge-name-modal');
+  if (modal) modal.style.display = 'none';
+}
+
+function submitChallengeName() {
+  const input = document.getElementById('challenge-name-input');
+  const name  = (input && input.value.trim()) || 'A friend';
+  closeChallengeNameModal();
+  _buildAndSendChallenge(name, null); // null uid = anonymous send
+  setTimeout(() => {
+    const nudge = document.getElementById('challenge-sent-nudge');
+    if (nudge) nudge.style.display = 'block';
+  }, 500);
+}
+
+// ── Core send logic ────────────────────────────────────
+
 // ── Challenge Share (Web Share API + modal fallback) ───
 function openChallengeShare() {
-  const _user = auth.currentUser;
-  if (!_user) return;
+  if (auth.currentUser) {
+    // Signed in — use their display name and create a Firestore record
+    _buildAndSendChallenge(auth.currentUser.displayName || 'A friend', auth.currentUser.uid);
+  } else {
+    // Anonymous — prompt for a name first
+    showChallengeNamePrompt();
+  }
+}
 
-  const name      = _user.displayName || 'A friend';
+async function _buildAndSendChallenge(fromName, uid) {
   const scoreText = localStorage.getItem('fr_lastScore') || '?';
   const parts     = String(scoreText).split('/');
   const sc        = parts[0] || '?';
-  const total     = parts[1] || '12';
+  const total     = parts[1] || '10';
   const date      = activeQuizDate || todayKey;
+
+  // Always generate a cid so Person B's result can be recorded
+  const cid = generateChallengeId();
+
+  if (uid) {
+    // Signed-in: write challenge to Firestore now
+    await saveChallengeToFirestore(cid, uid, fromName, sc, total, date);
+  } else {
+    // Anonymous: stash params in localStorage — written to Firestore if they sign up
+    localStorage.setItem('fr_pendingChallengeId',   cid);
+    localStorage.setItem('fr_pendingChallengeMeta', JSON.stringify({
+      fromName,
+      score: parseInt(sc, 10),
+      total: parseInt(total, 10),
+      date
+    }));
+  }
 
   const params = new URLSearchParams({
     challenge: '1',
-    from:  name,
+    from:  fromName,
     score: sc,
     total: total,
-    date:  date
+    date:  date,
+    cid:   cid
   });
   const url       = `${window.location.origin}/?${params.toString()}`;
   const shareText = `I scored ${sc}/${total} on today's Fact Royale — think you can beat me?`;
 
-  // Try native OS share sheet first (iOS Safari, Android Chrome, desktop Chrome)
   if (navigator.share) {
     navigator.share({
       title: 'Fact Royale — Daily Trivia',
       text:  shareText,
       url:   url
-    }).catch(() => {}); // user dismissed — no action needed
+    }).catch(() => {});
     return;
   }
-
-  // Fallback: custom modal with platform-specific share buttons
   openChallengeModal(url, shareText, `${sc}/${total}`);
 }
 
@@ -2321,7 +2393,8 @@ async function init() {
       from:  urlParams.get('from'),
       score: parseInt(urlParams.get('score') || '0', 10),
       total: parseInt(urlParams.get('total') || '12', 10),
-      date:  urlParams.get('date') || todayKey
+      date:  urlParams.get('date') || todayKey,
+      cid:   urlParams.get('cid') || null
     };
     // Hide landing and auto-start — same as autostart=1
     window.fr_autoStart = true;

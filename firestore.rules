@@ -52,5 +52,16 @@ service cloud.firestore {
       allow read, update, delete: if false;
     }
 
+    // ── Challenge records ──────────────────────────────────
+    // Anyone with the cid can read.
+    // Only authenticated users can create (prevents spam).
+    // Anyone can write the result field exactly once (write-once guard).
+    match /challenges/{cid} {
+      allow read: if true;
+      allow create: if request.auth != null;
+      allow update: if resource.data.result == null
+                    && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['result']);
+    }
+
   }
 }

@@ -3695,6 +3695,225 @@ a.btn-catchup:hover {
    CHALLENGE SHARE MODAL
    ===================================================== */
 
+/* ── Challenge Name Prompt Modal ──────────────────────── */
+.cnm-card {
+  background: var(--surface);
+  border: 1px solid rgba(240,192,64,0.2);
+  border-radius: 20px;
+  padding: 2rem 1.75rem;
+  width: min(360px, 92vw);
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  text-align: center;
+  animation: fadeIn 0.2s ease;
+  box-shadow: 0 24px 80px rgba(0,0,0,0.7), 0 0 0 1px rgba(255,255,255,0.04) inset;
+}
+.cnm-title {
+  font-family: var(--font-display);
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: var(--text);
+  margin: 0;
+}
+.cnm-sub {
+  font-size: 0.88rem;
+  color: var(--text-muted);
+  margin: 0;
+}
+.cnm-input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0.75rem 1rem;
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(255,255,255,0.12);
+  border-radius: 10px;
+  color: var(--text);
+  font-size: 1rem;
+  font-family: var(--font-body);
+  text-align: center;
+  outline: none;
+  transition: border-color 0.2s;
+}
+.cnm-input:focus { border-color: var(--gold, #d4af37); }
+.cnm-send-btn { width: 100%; }
+.cnm-or {
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  position: relative;
+  line-height: 1;
+}
+.cnm-or::before, .cnm-or::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  width: 38%;
+  height: 1px;
+  background: rgba(255,255,255,0.08);
+}
+.cnm-or::before { left: 0; }
+.cnm-or::after  { right: 0; }
+.cnm-signin-link {
+  background: transparent;
+  border: none;
+  color: var(--gold, #d4af37);
+  font-size: 0.85rem;
+  cursor: pointer;
+  padding: 0.25rem;
+  font-family: var(--font-body);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  opacity: 0.85;
+  transition: opacity 0.15s;
+}
+.cnm-signin-link:hover { opacity: 1; }
+
+/* ── Challenge History (Royal Record page) ─────────── */
+.challenge-history-wrap {
+  margin-bottom: 2.5rem;
+}
+.challenge-summary-row {
+  display: flex;
+  align-items: center;
+  gap: 0;
+  background: rgba(212,175,55,0.06);
+  border: 1px solid rgba(212,175,55,0.15);
+  border-radius: 14px;
+  padding: 1rem 1.5rem;
+  margin-bottom: 1rem;
+}
+.chs-stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+  gap: 2px;
+}
+.chs-num {
+  font-family: var(--font-display);
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: var(--text);
+  line-height: 1;
+}
+.chs-won  { color: #34d399; }
+.chs-lost { color: #f87171; }
+.chs-lbl {
+  font-size: 0.72rem;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+.chs-divider {
+  width: 1px;
+  height: 36px;
+  background: rgba(255,255,255,0.08);
+  flex-shrink: 0;
+}
+.challenge-history-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.ch-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--card, #16162a);
+  border: 1px solid rgba(255,255,255,0.06);
+  border-radius: 12px;
+  padding: 0.85rem 1.1rem;
+  gap: 12px;
+}
+.ch-row-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  min-width: 0;
+}
+.ch-date {
+  font-size: 0.72rem;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+.ch-your-score {
+  font-size: 0.92rem;
+  font-weight: 600;
+  color: var(--text);
+}
+.ch-result-sub {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+.ch-row-badge { flex-shrink: 0; }
+.ch-badge {
+  display: inline-block;
+  padding: 0.3rem 0.75rem;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+}
+.ch-badge--pending { background: rgba(255,255,255,0.07); color: var(--text-muted); }
+.ch-badge--won     { background: rgba(52,211,153,0.15);  color: #34d399; }
+.ch-badge--lost    { background: rgba(248,113,113,0.15); color: #f87171; }
+.ch-badge--tied    { background: rgba(212,175,55,0.15);  color: var(--gold); }
+.challenge-empty {
+  text-align: center;
+  padding: 2rem 1rem;
+  color: var(--text-muted);
+  font-size: 0.92rem;
+}
+.challenge-empty-sub {
+  font-size: 0.82rem;
+  color: var(--text-muted);
+  margin-top: 6px;
+  opacity: 0.75;
+}
+
+/* ── Post-challenge anonymous sign-up nudge ─────────── */
+.challenge-sent-nudge {
+  margin-top: 14px;
+  padding: 14px 18px;
+  background: rgba(212,175,55,0.07);
+  border: 1px solid rgba(212,175,55,0.20);
+  border-radius: 12px;
+  text-align: center;
+  font-size: 0.88rem;
+  color: var(--text-muted);
+}
+.challenge-sent-nudge p {
+  margin: 0 0 10px;
+  color: var(--text);
+  font-weight: 600;
+}
+.csn-signup-btn {
+  background: var(--gold, #d4af37);
+  color: #0a0a18;
+  border: none;
+  border-radius: 8px;
+  padding: 0.55rem 1.25rem;
+  font-weight: 700;
+  font-size: 0.85rem;
+  cursor: pointer;
+  font-family: var(--font-body);
+  margin-right: 8px;
+  transition: opacity 0.15s;
+}
+.csn-signup-btn:hover { opacity: 0.85; }
+.csn-dismiss {
+  background: transparent;
+  border: none;
+  color: var(--text-muted);
+  font-size: 0.8rem;
+  cursor: pointer;
+  font-family: var(--font-body);
+  padding: 0.25rem;
+  transition: color 0.15s;
+}
+.csn-dismiss:hover { color: var(--text); }
+
 .csm-card {
   background: var(--surface);
   border: 1px solid rgba(240,192,64,0.2);

@@ -174,6 +174,7 @@ document.getElementById('form-signup').addEventListener('submit', async (e) => {
     await cred.user.updateProfile({ displayName: name });
     await createUserProfile(cred.user, name, firstName, lastName);
     logSignupToSheet(email, name, firstName, lastName, 'account');
+    await linkPendingChallenge(cred.user);
     closeAuthModal();
   } catch (err) {
     errorEl.textContent = friendlyAuthError(err.code);
@@ -197,6 +198,7 @@ document.getElementById('btn-google-signin').addEventListener('click', async () 
       await createUserProfile(cred.user, fullName, firstName, lastName);
       logSignupToSheet(cred.user.email, fullName, firstName, lastName, 'google');
     }
+    await linkPendingChallenge(cred.user);
     closeAuthModal();
   } catch (err) {
     if (err.code !== 'auth/popup-closed-by-user') {
@@ -204,6 +206,30 @@ document.getElementById('btn-google-signin').addEventListener('click', async () 
     }
   }
 });
+
+// ── Pending Challenge Linker ───────────────────────────
+// If an anonymous user sent a challenge before signing up, we stored the
+// challenge params in localStorage. On sign-up, write the Firestore record
+// now that we have a real UID, then clear the localStorage keys.
+async function linkPendingChallenge(user) {
+  const pendingCid  = localStorage.getItem('fr_pendingChallengeId');
+  const pendingMeta = localStorage.getItem('fr_pendingChallengeMeta');
+  if (!pendingCid || !pendingMeta) return;
+  try {
+    const meta = JSON.parse(pendingMeta);
+    await db.collection('challenges').doc(pendingCid).set({
+      from:      user.uid,
+      fromName:  user.displayName || meta.fromName,
+      score:     meta.score,
+      total:     meta.total,
+      date:      meta.date,
+      createdAt: firebase.firestore.FieldValue.serverTimestamp(),
+      result:    null
+    });
+    localStorage.removeItem('fr_pendingChallengeId');
+    localStorage.removeItem('fr_pendingChallengeMeta');
+  } catch (e) { /* silent — non-critical */ }
+}
 
 // ── Sign Out ───────────────────────────────────────────
 document.getElementById('btn-signout').addEventListener('click', async () => {
