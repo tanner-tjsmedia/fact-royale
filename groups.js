@@ -75,7 +75,7 @@ async function loadMyGroups() {
     if (snap.empty) {
       listEl.innerHTML =
         '<div class="groups-empty-state">' +
-          '<div class="ges-icon">&#9819;</div>' +
+          '<div class="ges-icon"><svg style="height:2.5rem;width:auto;filter:drop-shadow(0 0 8px rgba(212,175,55,0.5))" viewBox="0 0 100 74" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M4,54 L4,40 L18,16 L36,44 L50,4 L64,44 L82,16 L96,40 L96,54 Z" fill="#D4AF37"/><path d="M4,47 L96,47 L96,54 L4,54 Z" fill="rgba(70,44,0,0.28)"/><rect x="4" y="54" width="92" height="17" rx="3" fill="#9A7010"/><rect x="4" y="54" width="92" height="2.5" rx="1.25" fill="rgba(255,220,60,0.55)"/><circle cx="18" cy="16" r="5.5" fill="#FFE47A"/><circle cx="50" cy="4" r="7" fill="#FFE47A"/><circle cx="82" cy="16" r="5.5" fill="#FFE47A"/><circle cx="4" cy="54" r="3" fill="#C4900A"/><circle cx="96" cy="54" r="3" fill="#C4900A"/></svg></div>' +
           '<div class="ges-title">No groups yet</div>' +
           '<p class="ges-desc">Create a group below and share the code with friends. Everyone who joins shows up on your weekly leaderboard.</p>' +
         '</div>';
