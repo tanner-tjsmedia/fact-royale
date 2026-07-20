@@ -693,7 +693,9 @@ function renderPersonalStats(data) {
   // a more recent localStorage value from the same session.
   const fsLastPlayed = stats.lastPlayedDate || '';
   const lsLastPlayed = localStorage.getItem('fr_lastPlayed') || '';
-  if (fsLastPlayed > lsLastPlayed) {
+  const lsStreak = parseInt(localStorage.getItem('fr_streak') || '0');
+  if (fsLastPlayed > lsLastPlayed ||
+      (fsLastPlayed === lsLastPlayed && (stats.currentStreak || 0) > lsStreak)) {
     localStorage.setItem('fr_lastPlayed', fsLastPlayed);
     localStorage.setItem('fr_streak',     String(stats.currentStreak || 0));
   }
@@ -703,7 +705,6 @@ function renderPersonalStats(data) {
   // loadPersonalStats the daily write may not have committed to Firestore yet.
   // Taking the max date prevents a false "streak reset" banner.
   const effectiveLastPlayed = lsLastPlayed > fsLastPlayed ? lsLastPlayed : fsLastPlayed;
-  const lsStreak = parseInt(localStorage.getItem('fr_streak') || '0');
   const effectiveStreak = Math.max(stats.currentStreak || 0, lsStreak);
 
   // ── Refresh hero badge with authoritative streak ──────────────────────
