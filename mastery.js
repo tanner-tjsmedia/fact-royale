@@ -18,12 +18,12 @@ const MASTERY_TIERS = [
 const CAT_META = {
   'History':          { color: '#f59e0b', bg: 'rgba(245,158,11,0.12)'  },
   'Sports':           { color: '#60a5fa', bg: 'rgba(59,130,246,0.12)'  },
-  'Music/Movies':     { color: '#c084fc', bg: 'rgba(168,85,247,0.12)'  },
+  'Pop Culture':      { color: '#c084fc', bg: 'rgba(168,85,247,0.12)'  },
   'Geography':        { color: '#22d3ee', bg: 'rgba(34,211,238,0.12)'  },
   'Science & Nature': { color: '#4ade80', bg: 'rgba(74,222,128,0.12)'  },
 };
 
-const ALL_CATEGORIES = ['History', 'Sports', 'Music/Movies', 'Geography', 'Science & Nature'];
+const ALL_CATEGORIES = ['History', 'Sports', 'Pop Culture', 'Geography', 'Science & Nature'];
 
 // ── Tier Utilities ────────────────────────────────────────
 
@@ -439,7 +439,7 @@ async function loadMasteryTeaser() {
           return `
             <div class="mt-pill" title="${cat}: ${tier.name}" style="border-color:${tier.color}44">
               <span class="mt-pill-icon" style="color:${tier.color}">${tier.icon}</span>
-              <span class="mt-pill-cat"  style="color:${meta.color}">${cat.replace('Music/Movies', 'Music').replace('Science & Nature', 'Science')}</span>
+              <span class="mt-pill-cat"  style="color:${meta.color}">${cat.replace('Science & Nature', 'Science')}</span>
               <span class="mt-pill-tier" style="color:${tier.color}">${tier.name}</span>
             </div>`;
         }).join('');

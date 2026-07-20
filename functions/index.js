@@ -51,7 +51,7 @@ const VARIANTS = [
     title: '♛ Your quiz awaits',
     body: streak > 1
       ? `${name}, your ${streak}-day run lives one answer at a time. Go play.`
-      : `${name}, today's categories: History, Sports & Music/Movies. Ready?`
+      : `${name}, today's categories: History, Sports & Pop Culture. Ready?`
   }),
   (name, streak) => ({
     title: '♛ Fact Royale',

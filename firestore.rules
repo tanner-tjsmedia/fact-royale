@@ -47,6 +47,12 @@ service cloud.firestore {
       );
       allow delete: if request.auth != null && request.auth.uid == resource.data.createdBy;
     }
+    // ── Anonymous play tracking ────────────────────────────
+    match /plays/{playId} {
+      allow create: if true;
+      allow read, update, delete: if false;
+    }
+
     match /emailCaptures/{docId} {
       allow create: if true;
       allow read, update, delete: if false;

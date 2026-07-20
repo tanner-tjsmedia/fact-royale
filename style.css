@@ -3767,6 +3767,15 @@ a.btn-catchup:hover {
   transition: opacity 0.15s;
 }
 .cnm-signin-link:hover { opacity: 1; }
+.cnm-close {
+  position: absolute; top: 0.75rem; right: 0.75rem;
+  background: transparent; border: none;
+  color: var(--text-muted); font-size: 1.4rem; line-height: 1;
+  cursor: pointer; padding: 0.25rem 0.5rem; border-radius: 6px;
+  transition: color 0.15s, background 0.15s;
+}
+.cnm-close:hover { color: var(--text); background: rgba(255,255,255,0.06); }
+.cnm-card { position: relative; }
 
 /* ── Challenge History (Royal Record page) ─────────── */
 .challenge-history-wrap {

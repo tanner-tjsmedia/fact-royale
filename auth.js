@@ -55,6 +55,12 @@ auth.onAuthStateChanged(user => {
     if (lbCta)        lbCta.style.display        = 'block';
     renderPersonalStatsEmpty();
     checkReturningVisitorBanner();
+    // Anonymous user on a challenge link — start today's quiz so they don't hit a blank page
+    if (window.fr_autoStart && typeof isArchivePlay !== 'undefined' && !isArchivePlay
+        && typeof startQuiz === 'function') {
+      window.fr_autoStart = false;
+      startQuiz();
+    }
   }
 });
 
@@ -258,7 +264,7 @@ async function createUserProfile(user, displayName, firstName, lastName) {
     categoryStats: {
       'History':      { played: 0, correct: 0 },
       'Sports':       { played: 0, correct: 0 },
-      'Music/Movies': { played: 0, correct: 0 }
+      'Pop Culture':  { played: 0, correct: 0 }
     }
   });
 }
