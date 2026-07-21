@@ -33,7 +33,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="style.css?v=18" />
+  <link rel="stylesheet" href="style.css?v=19" />
   <style>
     /* ── Mastery teaser layout (inline to survive CSS caching) ── */
     #mastery-teaser {
@@ -159,6 +159,8 @@
         </p>
         <!-- Catch-up CTA for logged-in users who've played today but missed earlier days -->
         <div class="catchup-landing" id="catchup-landing" style="display:none;"></div>
+        <!-- Sent challenge results — visible to signed-in users -->
+        <div id="challenge-results-section" style="display:none"></div>
       </div>
       <div class="hero-stat-row">
         <div class="hero-stat"><span class="stat-num">12</span><span class="stat-label">Questions Daily</span></div>
@@ -649,10 +651,10 @@
 
   <script src="firebase-config.js?v=2"></script>
   <script src="icons.js?v=2"></script>
-  <script src="auth.js?v=4"></script>
+  <script src="auth.js?v=5"></script>
   <script src="mastery.js?v=5"></script>
   <script src="notifications.js?v=2"></script>
-  <script src="quiz.js?v=15"></script>
+  <script src="quiz.js?v=16"></script>
   <script>
     // Inject static SVG icons into banner/notif icon spans
     document.addEventListener('DOMContentLoaded', () => {

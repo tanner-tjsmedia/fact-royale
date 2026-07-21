@@ -2284,6 +2284,12 @@ async function _buildAndSendChallenge(fromName, uid) {
   if (uid) {
     // Signed-in: write challenge to Firestore now
     await saveChallengeToFirestore(cid, uid, fromName, sc, total, date);
+    // Track locally so the sender can check results on the landing page
+    try {
+      const sent = JSON.parse(localStorage.getItem('fr_sent_challenges') || '[]');
+      sent.unshift({ cid, date, score: parseInt(sc, 10), total: parseInt(total, 10), sentAt: Date.now() });
+      localStorage.setItem('fr_sent_challenges', JSON.stringify(sent.slice(0, 10)));
+    } catch (e) { /* non-critical */ }
   } else {
     // Anonymous: stash params in localStorage — written to Firestore if they sign up
     localStorage.setItem('fr_pendingChallengeId',   cid);

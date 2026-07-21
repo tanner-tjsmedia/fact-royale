@@ -41,6 +41,7 @@ auth.onAuthStateChanged(user => {
         syncLandingAlreadyPlayed();
       }
       if (typeof populateCatchUpOnLanding === 'function') populateCatchUpOnLanding();
+      loadSentChallengeResults();
 
       // Auto-start archive quiz when navigated here via catch-up quick-play link (?autostart=1)
       if (window.fr_autoStart && typeof startArchiveQuiz === 'function') {
@@ -779,6 +780,66 @@ function renderPersonalStatsEmpty() {
   });
   const catsEl = document.getElementById('stat-categories');
   if (catsEl) catsEl.innerHTML = '';
+}
+
+// ── Sent Challenge Results ─────────────────────────────
+// On landing page load, checks localStorage for challenges the current user sent,
+// fetches their status from Firestore, and shows a compact results section.
+async function loadSentChallengeResults() {
+  const sectionEl = document.getElementById('challenge-results-section');
+  if (!sectionEl || typeof db === 'undefined') return;
+
+  let sent;
+  try { sent = JSON.parse(localStorage.getItem('fr_sent_challenges') || '[]'); }
+  catch (e) { return; }
+  if (!sent.length) return;
+
+  // Only show challenges from the last 14 days
+  const cutoff = Date.now() - 14 * 24 * 60 * 60 * 1000;
+  const recent = sent.filter(c => c.sentAt > cutoff);
+  if (!recent.length) return;
+
+  // Fetch Firestore docs in parallel
+  const fetches = recent.map(c =>
+    db.collection('challenges').doc(c.cid).get()
+      .then(snap => snap.exists ? { ...c, fs: snap.data() } : null)
+      .catch(() => null)
+  );
+  const results = (await Promise.all(fetches)).filter(Boolean);
+  if (!results.length) return;
+
+  function shortDate(dateStr) {
+    if (!dateStr) return '';
+    const [, m, d] = dateStr.split('-');
+    const months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+    return `${months[parseInt(m, 10) - 1]} ${parseInt(d, 10)}`;
+  }
+
+  const rows = results.map(c => {
+    const r = c.fs.result;
+    let badgeClass, badgeLabel, detail;
+    if (!r) {
+      badgeClass = 'cr-badge--pending';
+      badgeLabel = 'Pending';
+      detail     = `Your score: ${c.score}/${c.total}`;
+    } else {
+      const yourPct  = c.total  > 0 ? c.score    / c.total  : 0;
+      const theirPct = r.total  > 0 ? r.score     / r.total  : 0;
+      if (yourPct > theirPct)      { badgeClass = 'cr-badge--won';  badgeLabel = 'You Won'; }
+      else if (yourPct < theirPct) { badgeClass = 'cr-badge--lost'; badgeLabel = 'You Lost'; }
+      else                         { badgeClass = 'cr-badge--tied'; badgeLabel = 'Tied'; }
+      detail = `${r.name || 'They'} scored ${r.score}/${r.total} vs your ${c.score}/${c.total}`;
+    }
+    return `
+      <div class="cr-row">
+        <span class="cr-badge ${badgeClass}">${badgeLabel}</span>
+        <span class="cr-info">${detail}</span>
+        <span class="cr-date">${shortDate(c.date)}</span>
+      </div>`;
+  }).join('');
+
+  sectionEl.innerHTML = `<div class="cr-wrap"><p class="cr-header">Your Challenges</p>${rows}</div>`;
+  sectionEl.style.display = 'block';
 }
 
 // ── Returning Visitor Banner ───────────────────────────
