@@ -4,7 +4,12 @@
     {
       "category": "History",
       "question": "The United States dropped an atomic bomb on Hiroshima on August 6 of which year?",
-      "options": ["1943", "1944", "1945", "1946"],
+      "options": [
+        "1943",
+        "1944",
+        "1945",
+        "1946"
+      ],
       "answer": "1945",
       "explanation": "The United States dropped 'Little Boy,' the first nuclear weapon used in warfare, on Hiroshima, Japan on August 6, 1945. Three days later, a second bomb called 'Fat Man' was dropped on Nagasaki. Japan surrendered on August 15, ending World War II. The bombings remain the only wartime use of nuclear weapons in history.",
       "memory_hook": "1945 = the year everything ended. WWII ended in 1945 in both Europe (May) and the Pacific (August). The atom bomb ended a world war and began the nuclear age — all in the same year."
@@ -12,7 +17,12 @@
     {
       "category": "History",
       "question": "Approximately how long is the Great Wall of China?",
-      "options": ["3,000 miles", "8,000 miles", "13,000 miles", "20,000 miles"],
+      "options": [
+        "3,000 miles",
+        "8,000 miles",
+        "13,000 miles",
+        "20,000 miles"
+      ],
       "answer": "13,000 miles",
       "explanation": "The Great Wall of China stretches approximately 13,170 miles (21,196 km) when all its sections, branches, and associated fortifications are measured. Built over many centuries starting around 7th century BC, most of the well-preserved sections were built during the Ming Dynasty (1368–1644). Contrary to popular myth, it is not visible from space with the naked eye.",
       "memory_hook": "13,000 miles = roughly half the circumference of the Earth. The Great Wall is long enough to wrap halfway around the planet. And yet, you still can't see it from space — it's wide, not tall enough."
@@ -20,23 +30,25 @@
     {
       "category": "History",
       "question": "In what year was the United States Declaration of Independence signed?",
-      "options": ["1774", "1775", "1776", "1778"],
+      "options": [
+        "1774",
+        "1775",
+        "1776",
+        "1778"
+      ],
       "answer": "1776",
       "explanation": "The Declaration of Independence was adopted by the Continental Congress on July 4, 1776. Written primarily by Thomas Jefferson, it declared the 13 American colonies independent from British rule. John Hancock's famously large signature is on the document, which is now housed in the National Archives in Washington, D.C.",
       "memory_hook": "1776: think 'seven-seventy-six' — seven plus seventy-six = eighty-three, which is nothing, but the number rhymes itself: seventeen-seventy-six. July 4th, 1776. America's birthday."
     },
     {
-      "category": "History",
-      "question": "Who was the ancient Egyptian queen who formed powerful alliances with both Julius Caesar and Mark Antony?",
-      "options": ["Nefertiti", "Hatshepsut", "Cleopatra", "Isis"],
-      "answer": "Cleopatra",
-      "explanation": "Cleopatra VII was the last active ruler of the Ptolemaic Kingdom of Egypt. She formed a romantic and political alliance with Julius Caesar, then later with his ally Mark Antony. After Mark Antony's defeat by Octavian (later Augustus Caesar), Cleopatra died by suicide in 30 BC — allegedly by snake bite — ending the era of pharaohs.",
-      "memory_hook": "Cleopatra had two powerful Romans wrapped around her finger: Caesar and Antony. When the second one fell, she fell too. She wasn't just a queen — she was playing the most dangerous chess game in the ancient world."
-    },
-    {
       "category": "Sports",
       "question": "How many Olympic gold medals did swimmer Michael Phelps win in his career?",
-      "options": ["18", "20", "23", "28"],
+      "options": [
+        "18",
+        "20",
+        "23",
+        "28"
+      ],
       "answer": "23",
       "explanation": "Michael Phelps won 23 Olympic gold medals across four Olympics (2000–2016), making him the most decorated Olympian of all time. He has 28 Olympic medals in total. At the 2008 Beijing Olympics alone, he won 8 gold medals, breaking Mark Spitz's record of 7 golds at a single Games.",
       "memory_hook": "Phelps = 23 gold. Think Michael Jordan's number — 23. Two Michaels, same number. Jordan had 23 on his jersey; Phelps has 23 golds around his neck."
@@ -44,23 +56,25 @@
     {
       "category": "Sports",
       "question": "Serena Williams won how many Grand Slam singles titles in her career?",
-      "options": ["19", "21", "23", "25"],
+      "options": [
+        "19",
+        "21",
+        "23",
+        "25"
+      ],
       "answer": "23",
       "explanation": "Serena Williams won 23 Grand Slam singles titles, the most by any player in the Open Era. Her first came at the 1999 US Open at age 17, and her last at the 2017 Australian Open (while eight weeks pregnant). She is widely regarded as the greatest tennis player of all time.",
       "memory_hook": "Serena = 23. Same as Phelps, same as Jordan. 23 is the number of the G.O.A.T.s. Three of the greatest athletes ever — all tied to the number 23."
     },
     {
-      "category": "Sports",
-      "question": "In a men's Grand Slam tennis match, how many sets must a player win to claim the match?",
-      "options": ["2", "3", "4", "5"],
-      "answer": "3",
-      "explanation": "Men's Grand Slam singles matches are best-of-five sets, meaning the first player to win 3 sets wins the match. Women's Grand Slam matches are best-of-three. This format makes men's Grand Slam matches potentially the longest in tennis — matches can last 5+ hours, with the longest ever (Isner vs. Mahut at Wimbledon 2010) lasting 11 hours and 5 minutes.",
-      "memory_hook": "Men's Slams = win 3. Best of 5, need 3. The Wimbledon marathon (Isner-Mahut) went 70-68 in the fifth set. Three sets to win, but sometimes the road to three is brutally long."
-    },
-    {
       "category": "Pop Culture",
       "question": "Wolfgang Amadeus Mozart died at what age?",
-      "options": ["27", "31", "35", "42"],
+      "options": [
+        "27",
+        "31",
+        "35",
+        "42"
+      ],
       "answer": "35",
       "explanation": "Mozart died on December 5, 1791, at just 35 years old. Despite his short life, he composed over 800 works including symphonies, concertos, operas, and chamber music. His cause of death remains debated — theories include rheumatic fever, kidney disease, and even poisoning (popularized by the film Amadeus, though historically unsupported).",
       "memory_hook": "Mozart: 35 years, 800 works. That's roughly 23 pieces per year, every year of his life. He didn't just compose — he composed like he knew he was running out of time."
@@ -68,7 +82,12 @@
     {
       "category": "Pop Culture",
       "question": "The Shawshank Redemption is consistently rated #1 on IMDb's Top 250. Which actor plays Andy Dufresne?",
-      "options": ["Morgan Freeman", "Tom Hanks", "Tim Robbins", "Kevin Costner"],
+      "options": [
+        "Morgan Freeman",
+        "Tom Hanks",
+        "Tim Robbins",
+        "Kevin Costner"
+      ],
       "answer": "Tim Robbins",
       "explanation": "Tim Robbins plays Andy Dufresne, a banker wrongfully convicted of murder, in The Shawshank Redemption (1994), directed by Frank Darabont. Morgan Freeman plays the narrator, Ellis 'Red' Redding. Despite bombing at the box office on release, it became a cultural touchstone through cable TV and home video.",
       "memory_hook": "Robbins = Andy, Freeman = Red. Robbins escapes through the wall; Freeman narrates from outside it. Two men trapped in different ways — one physically, one emotionally."
@@ -76,10 +95,67 @@
     {
       "category": "Pop Culture",
       "question": "Freddie Mercury was the lead vocalist of which legendary rock band?",
-      "options": ["The Rolling Stones", "Queen", "Aerosmith", "Journey"],
+      "options": [
+        "The Rolling Stones",
+        "Queen",
+        "Aerosmith",
+        "Journey"
+      ],
       "answer": "Queen",
       "explanation": "Freddie Mercury was the lead vocalist and co-founder of Queen, one of the best-selling music artists of all time with estimated sales of 300 million records worldwide. Queen's 'Bohemian Rhapsody' — a six-minute operatic rock epic — is considered one of the greatest songs ever recorded and was the best-selling single of the 20th century in the UK.",
       "memory_hook": "Mercury = Queen. The element mercury is liquid, unpredictable, dramatic — exactly like Freddie's stage presence. A rock god named after a planet, fronting a band named after royalty."
+    },
+    {
+      "category": "Geography",
+      "question": "The Atacama Desert, one of the driest places on Earth with some areas having never recorded rainfall, is located primarily in which South American country?",
+      "options": [
+        "Peru",
+        "Argentina",
+        "Bolivia",
+        "Chile"
+      ],
+      "answer": "Chile",
+      "explanation": "The Atacama Desert stretches primarily along the Pacific coast of Chile, with portions in Peru, Bolivia, and Argentina. It is the world's driest non-polar desert — some weather stations have never recorded a single drop of rain. Paradoxically, the cold Humboldt Current offshore makes the air dry while supporting an extraordinarily rich marine ecosystem. The Atacama's extremely dry, clear skies also make it the world's premier site for astronomical observatories.",
+      "memory_hook": "Atacama = Chile. Driest non-polar desert — no rain ever recorded in some spots. But offshore the cold Humboldt Current fuels one of the richest marine ecosystems on Earth. Bone dry above sea level; teeming below."
+    },
+    {
+      "category": "Science & Nature",
+      "question": "What is the biological process by which yeast converts glucose into alcohol and carbon dioxide in the absence of oxygen — also responsible for making bread rise?",
+      "options": [
+        "Aerobic respiration",
+        "Photosynthesis",
+        "Osmosis",
+        "Anaerobic fermentation"
+      ],
+      "answer": "Anaerobic fermentation",
+      "explanation": "Anaerobic fermentation is a metabolic process that converts glucose into energy without using oxygen. Yeast fermentation produces ethanol (alcohol) and carbon dioxide — the basis of beer, wine, and spirits. The CO2 is also what makes bread dough rise. Humans use a related anaerobic process in muscles during intense exercise, producing lactic acid when oxygen can't be delivered fast enough — causing the burning sensation felt in a sprint.",
+      "memory_hook": "Anaerobic fermentation = yeast + sugar, no oxygen → alcohol + CO2. Same process makes bread rise AND wine ferment. The CO2 puffs bread; the alcohol goes into the bottle. One biological reaction, two very different results."
+    },
+    {
+      "category": "Geography",
+      "question": "The Strait of Malacca, one of the world's busiest shipping lanes, lies between the Malay Peninsula and which large island?",
+      "options": [
+        "Java",
+        "Borneo",
+        "Sulawesi",
+        "Sumatra"
+      ],
+      "answer": "Sumatra",
+      "explanation": "The Strait of Malacca is a 900 km-long waterway between the Malay Peninsula (Malaysia/Singapore) and the Indonesian island of Sumatra. At its narrowest point it is only 2.7 km wide. It is the shortest sea route between the Pacific and Indian Oceans, carrying about 25% of world trade and 80% of oil shipped to China and Japan. It is one of the most strategically critical chokepoints in global shipping.",
+      "memory_hook": "Strait of Malacca = Malaysia/Singapore + Sumatra. 25% of world trade flows through it. 80% of China and Japan's oil imports. At its narrowest: 2.7 km wide. If it closed, global shipping would face massive detours."
+    },
+    {
+      "category": "Science & Nature",
+      "question": "All life on Earth is classified into three domains. Which domain includes all organisms whose cells have a nucleus?",
+      "options": [
+        "Bacteria",
+        "Archaea",
+        "Eukarya",
+        "Prokaryota"
+      ],
+      "answer": "Eukarya",
+      "explanation": "The three-domain system classifies all life into Bacteria, Archaea, and Eukarya. Eukarya includes all organisms whose cells have a true nucleus and membrane-bound organelles — this encompasses all animals, plants, fungi, and protists. Bacteria and Archaea are prokaryotes (no nucleus). Archaea were long classified with bacteria but are actually more closely related to eukaryotes.",
+      "memory_hook": "Three domains: Bacteria, Archaea, Eukarya. Eukarya = nucleus-containing cells. Every animal, plant, fungus, and protist is a eukaryote. Archaea look like bacteria but are genetically closer to us than to E. coli."
     }
   ]
 }

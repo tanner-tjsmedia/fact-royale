@@ -80,19 +80,6 @@
       "memory_hook": "Cricket over = 6 balls. One bowler, one end, 6 deliveries. Then switch ends, different bowler. In T20 cricket, each team gets just 20 overs (120 balls) total — which is why it only takes 3 hours."
     },
     {
-      "category": "Sports",
-      "question": "What color is the distinctive jersey awarded each day to the leader of the Tour de France cycling race?",
-      "options": [
-        "Yellow",
-        "Green",
-        "Red",
-        "White"
-      ],
-      "answer": "Yellow",
-      "explanation": "The yellow jersey (maillot jaune) has been awarded to the Tour de France leader since 1919. It was introduced by race organizer Henri Desgrange, reportedly because L'Auto, the newspaper sponsoring the race, was printed on yellow paper. A green jersey goes to the points leader; white to the best young rider.",
-      "memory_hook": "Tour de France leader = yellow jersey (maillot jaune). Since 1919."
-    },
-    {
       "category": "Pop Culture",
       "question": "'Lose Yourself' by Eminem was the first rap song to win the Academy Award for Best Original Song. From which film?",
       "options": [
@@ -156,6 +143,19 @@
       "answer": "Omnivore",
       "explanation": "Omnivores eat both plant and animal matter. Humans are omnivores. So are bears, pigs, raccoons, and crows. The flexibility to eat a wide range of foods is a major evolutionary advantage — omnivores can adapt to varied environments and food availability. In contrast, strict carnivores (like obligate cats) and herbivores can struggle when their preferred food sources are scarce.",
       "memory_hook": "Omnivore = eats everything. Herbivore = plants only. Carnivore = meat only. Humans are omnivores — we evolved to eat whatever was available. It's why we can live everywhere from the Arctic to the tropics."
+    },
+    {
+      "category": "Geography",
+      "question": "The Indus River, which gave India its name, flows primarily through which modern-day country before reaching the Arabian Sea?",
+      "options": [
+        "India",
+        "Afghanistan",
+        "Iran",
+        "Pakistan"
+      ],
+      "answer": "Pakistan",
+      "explanation": "The Indus River originates in Tibet and flows about 3,180 km through India (briefly) and then almost entirely through Pakistan before emptying into the Arabian Sea near Karachi. The ancient Indus Valley Civilization (3300-1300 BCE), one of the world's earliest urban civilizations, developed along its banks. Today the Indus is Pakistan's lifeblood — its water is distributed through an enormous irrigation network. The river's name gave rise to 'India,' 'Hinduism,' and 'Hindu.'",
+      "memory_hook": "Indus River: 3,180 km, mostly Pakistan → Arabian Sea. Gave 'India,' 'Hindu,' and 'Hinduism' their names. The Indus Valley Civilization (3300 BCE) built sophisticated cities along it. Today it's Pakistan's most critical water source — shared with India via the Indus Waters Treaty (1960)."
     }
   ]
 }

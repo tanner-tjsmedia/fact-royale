@@ -53,19 +53,6 @@
       "memory_hook": "Rally scoring: every rally = a point. First to 25, needs 2-point lead."
     },
     {
-      "category": "Sports",
-      "question": "Who was the first woman to win an Olympic gold medal in a combat sport?",
-      "options": [
-        "Clarissa Shields",
-        "Ronda Rousey",
-        "Sarah Ourahmoune",
-        "Ryoko Tamura"
-      ],
-      "answer": "Clarissa Shields",
-      "explanation": "Clarissa Shields (USA) won the gold medal in women's middleweight boxing at the 2012 London Olympics, becoming the first American woman to win an Olympic gold medal in boxing. She won again at Rio 2016. Women's boxing was added to the Olympics in 2012.",
-      "memory_hook": "Shields won gold in women's boxing at London 2012 — America's first female boxing champion."
-    },
-    {
       "category": "Pop Culture",
       "question": "Which musician released the album 'The Dark Side of the Moon' in 1973?",
       "options": [
@@ -118,19 +105,6 @@
       "memory_hook": "Nixon, Watergate, resignation: he was going to be impeached, so he quit."
     },
     {
-      "category": "History",
-      "question": "Which country's independence was declared on July 4, 1776?",
-      "options": [
-        "Canada",
-        "Australia",
-        "United States",
-        "New Zealand"
-      ],
-      "answer": "United States",
-      "explanation": "The United States declared independence from Great Britain on July 4, 1776. The Declaration of Independence was formally adopted by the Continental Congress, primarily written by Thomas Jefferson. The date is celebrated annually as Independence Day (also called the Fourth of July) in the US.",
-      "memory_hook": "July 4, 1776: the birthday of the United States. Fireworks, hot dogs, independence."
-    },
-    {
       "category": "Geography",
       "question": "Which is the world's largest freshwater lake by surface area?",
       "options": [
@@ -155,6 +129,32 @@
       "answer": "Yellow dwarf",
       "explanation": "The Sun is a G-type main-sequence star, commonly called a yellow dwarf. It is middle-aged at about 4.6 billion years old and is expected to remain stable for another 5 billion years before expanding into a red giant. Despite being called 'yellow dwarf,' the Sun actually appears white from space — it looks yellow from Earth because of atmospheric scattering.",
       "memory_hook": "The Sun = yellow dwarf. Middle-aged, middle-sized. About 5 billion years left before it expands and swallows the inner planets. From space it's actually white, not yellow."
+    },
+    {
+      "category": "Geography",
+      "question": "Papua New Guinea, one of the world's most culturally diverse nations with over 800 languages, occupies the eastern half of which large island?",
+      "options": [
+        "Borneo",
+        "Sumatra",
+        "New Guinea",
+        "Sulawesi"
+      ],
+      "answer": "New Guinea",
+      "explanation": "New Guinea is the world's second-largest island (after Greenland) and is divided between Papua New Guinea (east) and Indonesia's Papua provinces (west). Papua New Guinea has one of the most linguistically diverse populations on Earth — over 800 languages among 9 million people. The country contains extraordinary biodiversity including birds of paradise and tree kangaroos. Its highland regions weren't contacted by outside civilization until the 1930s.",
+      "memory_hook": "Papua New Guinea: eastern half of New Guinea (world's 2nd largest island). 9 million people, 800+ languages — one of the most linguistically diverse places on Earth. Birds of paradise, tree kangaroos. Highlands not contacted by outside world until the 1930s."
+    },
+    {
+      "category": "Science & Nature",
+      "question": "What is the molecule often called the 'energy currency' of cells — produced in the mitochondria and used to power virtually every cellular function?",
+      "options": [
+        "Glucose",
+        "DNA",
+        "ATP (adenosine triphosphate)",
+        "NADH"
+      ],
+      "answer": "ATP (adenosine triphosphate)",
+      "explanation": "ATP (adenosine triphosphate) is the primary energy carrier in all living cells. When cells need energy for any function — muscle contraction, nerve firing, protein synthesis, active transport — they break the phosphate bond in ATP, releasing energy and producing ADP (adenosine diphosphate). The mitochondria (and to a lesser extent other pathways) continuously regenerate ATP from ADP using glucose, fats, or other fuels. A human body turns over its own weight in ATP every day.",
+      "memory_hook": "ATP = cellular energy currency. Mitochondria make it from glucose/oxygen. Every muscle contraction, nerve signal, and protein built costs ATP. Your body turns over its own weight in ATP daily — you make and break trillions of these molecules every second. Without ATP, cells stop within seconds."
     }
   ]
 }

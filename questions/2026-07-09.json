@@ -53,19 +53,6 @@
       "memory_hook": "All Blacks: black jerseys, New Zealand silver fern, and the haka before kickoff."
     },
     {
-      "category": "Sports",
-      "question": "What is the circumference of a soccer ball in inches?",
-      "options": [
-        "20–22 inches",
-        "22–24 inches",
-        "27–28 inches",
-        "30–32 inches"
-      ],
-      "answer": "27–28 inches",
-      "explanation": "A FIFA-regulation soccer ball must have a circumference of between 68 and 70 cm (27–28 inches). The ball must weigh between 410 and 450 grams and be inflated to a specific pressure. These standards have been in place since 1937.",
-      "memory_hook": "Soccer ball: 27-28 inches around. Think of a medium-sized watermelon."
-    },
-    {
       "category": "Pop Culture",
       "question": "Which film features the song 'My Heart Will Go On'?",
       "options": [
@@ -118,19 +105,6 @@
       "memory_hook": "Cortés conquered the Aztecs — a few hundred soldiers changed the whole continent."
     },
     {
-      "category": "History",
-      "question": "The 'Louisiana Purchase' doubled the size of the United States by acquiring land from which country?",
-      "options": [
-        "Spain",
-        "Britain",
-        "Mexico",
-        "France"
-      ],
-      "answer": "France",
-      "explanation": "The Louisiana Purchase (1803) was a land deal in which the United States acquired about 828,000 square miles from France under Napoleon Bonaparte for $15 million — roughly 3 cents per acre. President Thomas Jefferson doubled the country's size with a single transaction.",
-      "memory_hook": "France sold it cheap — Napoleon needed money, Jefferson needed land."
-    },
-    {
       "category": "Geography",
       "question": "The Caspian Sea, the world's largest landlocked body of water, borders five countries. Which of these is NOT one of them?",
       "options": [
@@ -155,6 +129,32 @@
       "answer": "300,000 km per second",
       "explanation": "Light travels at approximately 299,792 km per second (or about 186,000 miles per second) in a vacuum. This is the cosmic speed limit — nothing with mass can reach this speed. At this velocity, light can circle the Earth about 7.5 times per second. Einstein's theory of relativity is built around the constancy of this speed.",
       "memory_hook": "Light = 300,000 km per second. It circles the Earth 7.5 times every second. Nothing travels faster. Even so, the nearest star is still over 4 years away at that speed."
+    },
+    {
+      "category": "Geography",
+      "question": "The ancient city of Petra — carved into rose-red sandstone cliffs and famously featured in Indiana Jones — is located in which country?",
+      "options": [
+        "Syria",
+        "Egypt",
+        "Jordan",
+        "Saudi Arabia"
+      ],
+      "answer": "Jordan",
+      "explanation": "Petra was the capital of the Nabataean Kingdom, a prosperous Arab trading civilization that controlled key caravan routes from roughly 4th century BCE to 1st century CE. The city was carved directly into rose-colored sandstone cliffs in southern Jordan. At its peak, 30,000 people lived there. Hidden from the Western world until 1812 when Swiss explorer Johann Ludwig Burckhardt rediscovered it, Petra is now Jordan's most visited tourist site and a UNESCO World Heritage Site.",
+      "memory_hook": "Petra = Jordan. Rose-red sandstone city carved by the Nabataeans (Arab trading civilization). 30,000 people at its peak. Hidden from Western knowledge until 1812. The Treasury (Al-Khazneh) was used as a set for Indiana Jones and the Last Crusade."
+    },
+    {
+      "category": "Science & Nature",
+      "question": "What is the scientific classification system used to organize all living things into hierarchical groups based on shared characteristics?",
+      "options": [
+        "Genetics",
+        "Phylogenetics",
+        "Taxonomy",
+        "Morphology"
+      ],
+      "answer": "Taxonomy",
+      "explanation": "Taxonomy is the scientific discipline of naming, defining, and classifying living organisms into hierarchical groups. The modern system, developed by Carl Linnaeus in the 18th century, organizes life into Kingdom → Phylum → Class → Order → Family → Genus → Species. Each species has a unique two-part Latin name (binomial nomenclature) — Homo sapiens, for example, means 'wise human.' Modern taxonomy increasingly incorporates genetic data (phylogenetics) alongside physical characteristics.",
+      "memory_hook": "Taxonomy = scientific classification of life. Kingdom → Phylum → Class → Order → Family → Genus → Species. Carl Linnaeus invented it in the 1700s. Homo sapiens = 'wise human.' Modern taxonomy now uses DNA, not just anatomy."
     }
   ]
 }

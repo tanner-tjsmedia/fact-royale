@@ -53,19 +53,6 @@
       "memory_hook": "Bully-off: two players tap sticks, then fight for the ball. Field hockey's face-off."
     },
     {
-      "category": "Sports",
-      "question": "How many holes are in a standard golf course?",
-      "options": [
-        "9",
-        "12",
-        "18",
-        "36"
-      ],
-      "answer": "18",
-      "explanation": "A standard golf course has 18 holes. The 18-hole standard was established by the St Andrews Links in Scotland in 1764, when the course was redesigned from 22 holes to 18. Today, the Old Course at St Andrews is considered one of the most historic golf venues in the world.",
-      "memory_hook": "18 holes — St Andrews set the standard in 1764."
-    },
-    {
       "category": "Pop Culture",
       "question": "Who played the lead role in 'The Revenant' (2015)?",
       "options": [
@@ -118,19 +105,6 @@
       "memory_hook": "US built the bomb first — Trinity test, July 1945. Hiroshima and Nagasaki followed."
     },
     {
-      "category": "History",
-      "question": "The 'Hundred Years War' was a conflict between England and which other country?",
-      "options": [
-        "Spain",
-        "Germany",
-        "France",
-        "Italy"
-      ],
-      "answer": "France",
-      "explanation": "The Hundred Years' War (1337–1453) was a series of armed conflicts between England and France over the right to the French throne. England won major battles at Crécy, Poitiers, and Agincourt but ultimately lost. Joan of Arc revitalized French forces and played a decisive role in France's eventual victory.",
-      "memory_hook": "Hundred Years, England vs. France — Joan of Arc turned the tide."
-    },
-    {
       "category": "Geography",
       "question": "Which continent has the most countries?",
       "options": [
@@ -155,6 +129,32 @@
       "answer": "46",
       "explanation": "Most human cells contain 46 chromosomes, arranged in 23 pairs. One chromosome from each pair comes from each parent. The 23rd pair determines biological sex — XX for female, XY for male. Sperm and egg cells (gametes) contain only 23 chromosomes each; they combine at fertilization to restore the full 46.",
       "memory_hook": "46 chromosomes in every cell. 23 pairs, one from each parent. The sperm has 23, the egg has 23, they meet and make 46. Half your DNA from mom, half from dad."
+    },
+    {
+      "category": "Geography",
+      "question": "Mount Kenya, Africa's second-highest peak after Kilimanjaro, is located in which country and reaches what approximate elevation?",
+      "options": [
+        "Ethiopia at 5,300 meters",
+        "Uganda at 4,800 meters",
+        "Kenya at 5,199 meters",
+        "Tanzania at 5,100 meters"
+      ],
+      "answer": "Kenya at 5,199 meters",
+      "explanation": "Mount Kenya (5,199 meters) is a dormant stratovolcano in central Kenya and Africa's second-highest peak. Remarkably, it sits almost exactly on the equator yet has glaciers at its summit — though they are retreating rapidly due to climate change. It gives Kenya its name. Mount Kenya National Park is a UNESCO World Heritage Site. The mountain's vegetation changes dramatically with altitude, from tropical forest to moorland to permanent snow and ice.",
+      "memory_hook": "Mount Kenya: 5,199m, second-highest in Africa, right on the equator. Glaciers at the summit despite tropical location — and they're rapidly disappearing. Gives Kenya its name. A UNESCO site with dramatic vegetation zones from rainforest to permanent ice."
+    },
+    {
+      "category": "Science & Nature",
+      "question": "In genetics, what term describes alternative versions of a gene that can produce different traits — such as blue or brown eye color?",
+      "options": [
+        "Chromosomes",
+        "Phenotypes",
+        "Alleles",
+        "Genomes"
+      ],
+      "answer": "Alleles",
+      "explanation": "Alleles are different versions of the same gene found at the same position (locus) on homologous chromosomes. Most sexually reproducing organisms inherit two alleles for each gene — one from each parent. When alleles are the same, an organism is homozygous for that trait; when different, it is heterozygous. Dominance determines which allele's trait is expressed when two different alleles are present. Gregor Mendel's experiments with pea plants first revealed the existence of alleles (though he didn't use the term).",
+      "memory_hook": "Alleles = different versions of the same gene. Blue vs. brown eyes: different alleles. Dominant allele 'wins' over recessive. Mendel discovered this with peas — counted thousands of plants to see the 3:1 ratio pattern. Same gene, different versions, different outcomes."
     }
   ]
 }

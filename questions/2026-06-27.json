@@ -27,17 +27,17 @@
       "memory_hook": "'89 — think of it as the end of an era: 1-9-8-9, the Iron Curtain's last breath."
     },
     {
-      "category": "History",
-      "question": "Who was the first woman to win a Nobel Prize?",
+      "category": "Geography",
+      "question": "Which tiny European republic, entirely surrounded by Italy and claiming to be founded in 301 AD, is considered the world's oldest surviving republic?",
       "options": [
-        "Rosalind Franklin",
-        "Marie Curie",
-        "Dorothy Hodgkin",
-        "Lise Meitner"
+        "Monaco",
+        "Andorra",
+        "San Marino",
+        "Liechtenstein"
       ],
-      "answer": "Marie Curie",
-      "explanation": "Marie Curie won the Nobel Prize in Physics in 1903, shared with her husband Pierre and Henri Becquerel. She later won a second Nobel Prize in Chemistry in 1911, making her the first person to win Nobel Prizes in two sciences.",
-      "memory_hook": "Curie — she cured ignorance twice over."
+      "answer": "San Marino",
+      "explanation": "San Marino claims to be the world's oldest republic, traditionally founded in 301 AD. Entirely surrounded by Italy, it sits atop Mount Titano and covers just 61 square kilometers. Unlike most tiny European states, it is a full republic — two Captains Regent serve simultaneously as co-heads of state for six-month terms, a system dating back to the 13th century. San Marino has avoided most European wars by maintaining strict neutrality.",
+      "memory_hook": "San Marino: oldest republic (301 AD), inside Italy on Mount Titano. Two Captains Regent rule together, each for six months. Tiny country, ancient democracy."
     },
     {
       "category": "Sports",
@@ -118,17 +118,17 @@
       "memory_hook": "Abbey Road = Beatles crossing. Think of the four of them in a row."
     },
     {
-      "category": "History",
-      "question": "The Great Fire of London occurred in which year?",
+      "category": "Science & Nature",
+      "question": "In chemistry, what is the name for a solution that resists significant changes to its pH when small amounts of acid or base are added?",
       "options": [
-        "1566",
-        "1666",
-        "1766",
-        "1866"
+        "Catalyst",
+        "Buffer",
+        "Solvent",
+        "Alloy"
       ],
-      "answer": "1666",
-      "explanation": "The Great Fire of London began on September 2, 1666, in a bakery on Pudding Lane. It burned for four days, destroying 13,200 houses and 87 churches, including St. Paul's Cathedral. Famously, fewer than 10 people officially died.",
-      "memory_hook": "666 in 1666 — the devil's number burned London down."
+      "answer": "Buffer",
+      "explanation": "A buffer solution maintains a relatively stable pH when small amounts of acid or base are added. Buffers work because they contain a weak acid and its conjugate base, which absorb added ions. Blood is one of nature's most critical buffers, maintaining a pH between 7.35 and 7.45 — a shift of just 0.5 units in either direction can be life-threatening. Carbonic acid and bicarbonate ions keep blood pH stable.",
+      "memory_hook": "Buffer = pH stabilizer. Your blood is a buffer (pH 7.35-7.45). Shift too far in either direction and cells die. Simple chemistry keeps you alive."
     },
     {
       "category": "Geography",

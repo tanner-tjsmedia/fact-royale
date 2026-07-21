@@ -53,19 +53,6 @@
       "memory_hook": "Canada = two national sports. Lacrosse in summer, hockey in winter. Both official since 1994."
     },
     {
-      "category": "Sports",
-      "question": "How many players are on a baseball team during play?",
-      "options": [
-        "8",
-        "9",
-        "10",
-        "11"
-      ],
-      "answer": "9",
-      "explanation": "A standard baseball team fields nine players at a time: pitcher, catcher, first baseman, second baseman, third baseman, shortstop, and three outfielders (left, center, right). The designated hitter rule in the American League allows a tenth player to bat for the pitcher.",
-      "memory_hook": "Nine players, nine innings — baseball is built on nines."
-    },
-    {
       "category": "Pop Culture",
       "question": "Who sang the national anthem at the 1991 Super Bowl in a performance widely considered the best ever?",
       "options": [
@@ -118,19 +105,6 @@
       "memory_hook": "Potato blight = Irish Famine. The crop failed and the country hollowed out."
     },
     {
-      "category": "History",
-      "question": "Which empire was ruled by Genghis Khan?",
-      "options": [
-        "Ottoman Empire",
-        "Mongol Empire",
-        "Han Dynasty",
-        "Persian Empire"
-      ],
-      "answer": "Mongol Empire",
-      "explanation": "Genghis Khan founded the Mongol Empire in 1206 after uniting the Mongolian tribes. At its peak, the Mongol Empire was the largest contiguous land empire in history, stretching from the Pacific Ocean to Eastern Europe. Genghis Khan died in 1227.",
-      "memory_hook": "Genghis = Mongol. The name sounds like thunder — and his empire rumbled across Asia."
-    },
-    {
       "category": "Geography",
       "question": "Greenland is a territory of which country?",
       "options": [
@@ -155,6 +129,32 @@
       "answer": "Hydrogen",
       "explanation": "Hydrogen makes up about 75% of all normal matter in the universe by mass. It is the simplest element — one proton, one electron — and was among the first elements formed after the Big Bang. Stars are essentially giant hydrogen-burning engines, fusing hydrogen into helium to produce energy.",
       "memory_hook": "Hydrogen = most abundant element in the universe. The simplest atom, the first to form, the fuel of every star. The universe is mostly hydrogen with some helium and a tiny bit of everything else."
+    },
+    {
+      "category": "Geography",
+      "question": "The Faroe Islands, an autonomous territory with their own language and government, are officially part of which country?",
+      "options": [
+        "Norway",
+        "Iceland",
+        "United Kingdom",
+        "Denmark"
+      ],
+      "answer": "Denmark",
+      "explanation": "The Faroe Islands are a self-governing archipelago of 18 islands in the North Atlantic, situated between Norway, Iceland, and the British Isles. They are officially an autonomous territory of Denmark, with their own parliament (the Løgting, one of the world's oldest), language (Faroese), and football team — but not full independence. Greenland is Denmark's other autonomous territory. The Faroes are famous for dramatic cliffs, seabirds, and puffins.",
+      "memory_hook": "Faroe Islands = autonomous Danish territory, North Atlantic. Own language, parliament (Løgting — 1,000+ years old), and even their own FIFA football team. Not independent but not quite just Denmark either. Famous for cliffs, puffins, and dramatic scenery."
+    },
+    {
+      "category": "Science & Nature",
+      "question": "What characteristic is unique to all female mammals that gives the class Mammalia its name?",
+      "options": [
+        "Giving live birth",
+        "Having fur or hair",
+        "Being warm-blooded",
+        "Producing milk to feed their young"
+      ],
+      "answer": "Producing milk to feed their young",
+      "explanation": "The word 'mammal' comes from the Latin 'mamma' meaning breast or nipple. The defining characteristic of mammals is that females produce milk through mammary glands to nourish their young. While most mammals give live birth, some (monotremes like platypuses and echidnas) lay eggs — but all female mammals produce milk. Mammals also typically have hair or fur and are endothermic (warm-blooded).",
+      "memory_hook": "Mammal = 'mamma' (Latin for breast). All female mammals produce milk. Even the egg-laying platypus does it — it sweats milk through skin patches (no nipples). Milk is the defining mammalian trait, not live birth."
     }
   ]
 }

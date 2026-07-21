@@ -41,30 +41,17 @@
       "memory_hook": "Truman = atomic bombs, 1945. Became president when FDR died."
     },
     {
-      "category": "History",
-      "question": "The construction of the Colosseum in Rome was completed in which century AD?",
-      "options": [
-        "1st century BC",
-        "1st century AD",
-        "2nd century AD",
-        "3rd century AD"
-      ],
-      "answer": "1st century AD",
-      "explanation": "The Colosseum was completed in 80 AD under Emperor Titus, having been started by his father Vespasian in 70 AD. It could hold 50,000-80,000 spectators. The arena hosted gladiatorial contests, animal hunts, executions, and mock sea battles (by flooding the arena). Despite earthquakes and stone robbers over the centuries, about two-thirds still stands.",
-      "memory_hook": "Colosseum finished 80 AD. Took 10 years. Could hold 80,000 people — bigger than most modern stadiums. Had elevators, retractable shade awnings, and numbered seats. Ancient Rome had better stadium tech than many modern cities."
-    },
-    {
       "category": "Sports",
-      "question": "Which country invented the sport of basketball?",
+      "question": "Dr. James Naismith invented basketball in 1891 at a YMCA in Springfield, Massachusetts. What was his nationality?",
       "options": [
-        "United States",
-        "Canada",
-        "Britain",
-        "Cuba"
+        "American",
+        "Canadian",
+        "British",
+        "Australian"
       ],
-      "answer": "United States",
-      "explanation": "Basketball was invented by Canadian-American physical education instructor Dr. James Naismith in December 1891 at the YMCA International Training School in Springfield, Massachusetts. He created the game as an indoor winter activity, using peach baskets as the original goals. The NBA was founded in 1946, and basketball is now played by an estimated 450 million people worldwide.",
-      "memory_hook": "Basketball invented by Naismith, 1891, Springfield MA. He was Canadian, which creates an amusing national debate. Original baskets were actual peach baskets — someone had to climb a ladder to retrieve the ball after each score."
+      "answer": "Canadian",
+      "explanation": "James Naismith was born in Almonte, Ontario, Canada in 1861. He created basketball as an indoor winter activity while working as a physical education instructor in Springfield, Massachusetts, using peach baskets as goals. He became a US citizen only in 1925 — more than 30 years after inventing the sport. The NBA was founded in 1946, and basketball is now played by an estimated 450 million people worldwide.",
+      "memory_hook": "Naismith was Canadian, not American. He invented basketball in the US but was born in Ontario. Canada quietly gave the world one of its biggest sports — people are always surprised."
     },
     {
       "category": "Sports",
@@ -78,19 +65,6 @@
       "answer": "25",
       "explanation": "The winner of a Formula 1 Grand Prix receives 25 points in the current scoring system (introduced in 2010). Second place gets 18, third gets 15, decreasing to 1 point for 10th place. An additional point is awarded for the fastest lap (if the driver finishes in the top 10). The driver with the most points at season's end wins the World Drivers' Championship.",
       "memory_hook": "F1 win = 25 points. Introduced in 2010. Before that, wins were worth 10. The current system rewards consistency — 25 for a win, 18 for second, down to 1 for 10th. Second place pays well in Formula 1."
-    },
-    {
-      "category": "Sports",
-      "question": "What is the only sport that has been played on the Moon?",
-      "options": [
-        "Tennis",
-        "Frisbee",
-        "Baseball",
-        "Golf"
-      ],
-      "answer": "Golf",
-      "explanation": "Alan Shepard, commander of Apollo 14, smuggled a 6-iron club head onto the lunar module and hit two golf balls on the Moon in February 1971. Due to his bulky spacesuit, he had to swing one-handed. He claimed the balls went 'miles and miles and miles,' though NASA estimated the second ball traveled about 40 yards. It remains the most unusual round of golf in history.",
-      "memory_hook": "Golf was played on the Moon. Alan Shepard smuggled a 6-iron head onto Apollo 14 and hit two balls. One-handed swing in a spacesuit. The ball does go farther in one-sixth gravity with no atmosphere."
     },
     {
       "category": "Pop Culture",
@@ -156,6 +130,32 @@
       "answer": "Skin",
       "explanation": "Skin is the largest organ of the human body, covering about 2 square meters and weighing approximately 3.6 kg in an average adult. It serves multiple functions: protection from pathogens, temperature regulation, sensation, and vitamin D synthesis. Skin is also the body's first line of immune defense. The average person sheds about 30,000-40,000 dead skin cells per hour.",
       "memory_hook": "Skin = largest organ. People forget it's an organ. 2 square meters, about 3.6 kg. You shed and replace your skin roughly every 2-3 weeks — about 8 pounds of skin cells per year."
+    },
+    {
+      "category": "Geography",
+      "question": "The Yellow Sea, a semi-enclosed sea with unusually shallow, nutrient-rich water, lies between China and which peninsula?",
+      "options": [
+        "Indochina",
+        "Kamchatka",
+        "Arabian",
+        "Korean"
+      ],
+      "answer": "Korean",
+      "explanation": "The Yellow Sea lies between China and the Korean Peninsula, connecting to the East China Sea to the south. It gets its name from the yellow-brown silt carried into it by the Yellow River (Huang He). Averaging only about 44 meters deep, it is one of the world's shallowest seas and has enormous tidal ranges in some areas (over 9 meters). It is one of the world's most productive fishing areas and has been an important trade route between China and Korea for thousands of years.",
+      "memory_hook": "Yellow Sea: between China and the Korean Peninsula. Named for yellow silt from the Yellow River. Extremely shallow (avg 44m) — huge tidal ranges. One of the world's most productive fisheries. China-Korea trade route for thousands of years."
+    },
+    {
+      "category": "Science & Nature",
+      "question": "Underground reservoirs of fresh water stored in porous rock formations, from which wells and springs draw water, are called what?",
+      "options": [
+        "Reservoirs",
+        "Estuaries",
+        "Aquifers",
+        "Watersheds"
+      ],
+      "answer": "Aquifers",
+      "explanation": "Aquifers are underground layers of porous rock, gravel, sand, or silt that hold groundwater. Confined aquifers are trapped between layers of impermeable rock; unconfined aquifers are recharged directly from surface water above. The Ogallala Aquifer under the American Great Plains is one of the world's largest, supplying 30% of US groundwater used for irrigation. Many aquifers worldwide are being depleted faster than they recharge due to over-pumping for agriculture and cities.",
+      "memory_hook": "Aquifers = underground freshwater reservoirs in porous rock. Wells drill down to them. The Ogallala Aquifer supplies 30% of US groundwater — pumped out over thousands of years, being drained in decades. Once gone, it takes centuries to refill. Many cities and farms depend on water that won't come back in our lifetimes."
     }
   ]
 }

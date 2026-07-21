@@ -41,19 +41,6 @@
       "memory_hook": "1453 = Constantinople falls. The Byzantine Empire, which had kept Roman civilization alive for 1,000 years after Rome fell, ended in a single day. The date is still mourned in Greece."
     },
     {
-      "category": "History",
-      "question": "The Great Plague devastated London in 1665, killing roughly 100,000 people. It was a resurgence of which disease that had killed a third of Europe's population in the 14th century?",
-      "options": [
-        "Bubonic plague",
-        "Smallpox",
-        "Typhus",
-        "Cholera"
-      ],
-      "answer": "Bubonic plague",
-      "explanation": "The Great Plague of London (1665-66) was caused by the bacterium Yersinia pestis — the same pathogen responsible for the Black Death of 1347-51, which killed an estimated 30-60% of Europe's population. The Great Fire of London in 1666 may have inadvertently helped end the plague by destroying rat-infested buildings.",
-      "memory_hook": "Great Plague 1665, bubonic (Black Death). Great Fire 1666 may have ended it."
-    },
-    {
       "category": "Science & Nature",
       "question": "Which chemical element, represented by the symbol Au on the periodic table, derives its symbol from the Latin word 'aurum' and has been prized for jewelry and currency since antiquity?",
       "options": [
@@ -156,6 +143,19 @@
       "answer": "Sublimation",
       "explanation": "Sublimation is the phase transition from solid directly to gas. Dry ice (solid CO2) sublimates at room temperature — that's the eerie fog you see at concerts. Mothballs sublime slowly at room temperature. Water ice can also sublime, which is how freeze-dried food works and why ice in a freezer slowly shrinks over time.",
       "memory_hook": "Sublimation = solid to gas, skipping liquid. Dry ice doesn't melt into liquid CO2 — it goes straight from solid to gas. That's why it creates fog instead of a puddle."
+    },
+    {
+      "category": "Geography",
+      "question": "The Sea of Azov, bordered by Russia and Ukraine, holds which geographic distinction?",
+      "options": [
+        "World's deepest sea",
+        "World's saltiest sea",
+        "World's shallowest sea",
+        "World's coldest sea"
+      ],
+      "answer": "World's shallowest sea",
+      "explanation": "The Sea of Azov is the world's shallowest sea, with an average depth of only 7 meters and a maximum depth of about 14 meters. It is connected to the Black Sea via the Strait of Kerch. The Don and Kuban rivers flow into it, making it much less salty than most seas. The Azov has been strategically important throughout history and has been at the center of the Russia-Ukraine conflict — Russia's seizure of Crimea in 2014 gave it control of the Kerch Strait.",
+      "memory_hook": "Sea of Azov: world's shallowest sea, average 7m deep (max 14m). Between Russia and Ukraine, connected to Black Sea via Kerch Strait. Russia's seizure of Crimea (2014) effectively blockaded Ukraine's Azov ports. So shallow you could wade across much of it in theory."
     }
   ]
 }

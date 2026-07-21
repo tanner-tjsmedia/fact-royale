@@ -53,19 +53,6 @@
       "memory_hook": "2019 Rugby WC: South Africa beat England. Siya Kolisi, first Black captain to lift the trophy."
     },
     {
-      "category": "Sports",
-      "question": "What is the name of the move in figure skating where the skater jumps and rotates in the air?",
-      "options": [
-        "Spin",
-        "Axel",
-        "Glide",
-        "Edge jump"
-      ],
-      "answer": "Axel",
-      "explanation": "The Axel Paulsen jump (named after its inventor) is one of the most difficult jumps in figure skating and the only jump that takes off from a forward edge. A triple Axel has 3.5 rotations in the air. American skater Tonya Harding was the first woman to successfully complete a triple Axel in competition (1991).",
-      "memory_hook": "Axel: the forward-facing jump — named after Norwegian skater Axel Paulsen."
-    },
-    {
       "category": "Pop Culture",
       "question": "Who performed at the 2023 Super Bowl halftime show?",
       "options": [
@@ -118,19 +105,6 @@
       "memory_hook": "LBJ signed the Civil Rights Act — Kennedy proposed it; Johnson delivered it."
     },
     {
-      "category": "History",
-      "question": "What is the world's oldest continuously operating university?",
-      "options": [
-        "Oxford University",
-        "Harvard University",
-        "University of Bologna",
-        "University of Paris"
-      ],
-      "answer": "University of Bologna",
-      "explanation": "The University of Bologna, founded in 1088 in Bologna, Italy, is the oldest continuously operating university in the world. It was the first institution to use the term universitas (association of students and masters). Oxford was founded in 1096, Harvard in 1636.",
-      "memory_hook": "Bologna 1088: the oldest university, older than Oxford by nearly a decade."
-    },
-    {
       "category": "Geography",
       "question": "The International Date Line runs mainly through which ocean?",
       "options": [
@@ -155,6 +129,32 @@
       "answer": "3 billion",
       "explanation": "The human genome contains approximately 3 billion base pairs of DNA, encoding about 20,000-25,000 genes. If you stretched out all the DNA from a single human cell, it would be about 2 meters long. If you stretched out all the DNA in your body, it would reach from Earth to the Sun and back about 300 times.",
       "memory_hook": "Human genome = 3 billion base pairs. 2 meters of DNA curled inside a cell too small to see. The instruction manual for a human being fits into a space smaller than the period at the end of this sentence."
+    },
+    {
+      "category": "Geography",
+      "question": "Tasmania, Australia's island state, is separated from the mainland by which body of water and is home to which unique carnivorous marsupial?",
+      "options": [
+        "Torres Strait, quoll",
+        "Bass Strait, Tasmanian devil",
+        "Coral Sea, wombat",
+        "Timor Sea, numbat"
+      ],
+      "answer": "Bass Strait, Tasmanian devil",
+      "explanation": "Tasmania is separated from mainland Australia by the Bass Strait (240 km wide). The Tasmanian devil — the world's largest carnivorous marsupial — lives only in Tasmania (and was reintroduced to mainland Australia in 2020). Devils are known for their powerful jaws, bone-crunching bite, and eerie screams. They faced near-extinction from a contagious facial cancer (DFTD) that has killed roughly 80% of the wild population since the 1990s.",
+      "memory_hook": "Tasmania: island state south of mainland Australia, across Bass Strait. Home of the Tasmanian devil — world's largest carnivorous marsupial. Known for jaw strength, shrieking, and scavenging bones. Facing extinction from a contagious facial cancer that's killed 80% of the population."
+    },
+    {
+      "category": "Science & Nature",
+      "question": "The human gut contains trillions of microorganisms — bacteria, fungi, and viruses — collectively called what?",
+      "options": [
+        "Immune system",
+        "Microbiome",
+        "Flora colony",
+        "Endosome"
+      ],
+      "answer": "Microbiome",
+      "explanation": "The human gut microbiome comprises approximately 38 trillion microorganisms — roughly the same number as human cells in the body. This community includes bacteria, archaea, fungi, and viruses. It plays crucial roles in digestion, immune regulation, vitamin synthesis (particularly B vitamins and vitamin K), and mental health (the gut-brain axis). Disruption of the microbiome (dysbiosis) is linked to obesity, inflammatory bowel disease, depression, and autoimmune conditions.",
+      "memory_hook": "Microbiome = the trillions of microorganisms in your gut. About 38 trillion — equal to the number of human cells. Helps digest food, makes vitamins, trains your immune system, affects your mood (gut-brain axis). Antibiotics can devastate it. Your microbiome is as unique as your fingerprint."
     }
   ]
 }

@@ -41,19 +41,6 @@
       "memory_hook": "Sputnik = first satellite, 1957. A beach ball beeping in space started the Space Race. Americans heard it on the radio and panicked. NASA was created in response."
     },
     {
-      "category": "History",
-      "question": "The Hundred Years' War was fought between which two countries?",
-      "options": [
-        "Spain and Portugal",
-        "England and Scotland",
-        "England and France",
-        "Holy Roman Empire and France"
-      ],
-      "answer": "England and France",
-      "explanation": "The Hundred Years' War (1337-1453) was a series of conflicts between England and France over claims to the French throne. It actually lasted 116 years. Joan of Arc became a pivotal figure when she led French forces to several victories in 1429 before being captured, tried for heresy, and burned at the stake in 1431. France ultimately won.",
-      "memory_hook": "Hundred Years' War = England vs France, 116 years. Joan of Arc turned the tide for France at age 17, was burned at 19, and made France win the war. The 'hundred' is approximate."
-    },
-    {
       "category": "Sports",
       "question": "Which country won the first FIFA World Cup in 1930?",
       "options": [
@@ -78,19 +65,6 @@
       "answer": "Eagle",
       "explanation": "In golf, scoring terms follow a bird theme: bogey (+1), par (0), birdie (-1), eagle (-2), albatross/double eagle (-3), and condor (-4, extremely rare). Eagles most commonly occur on par-5 holes, where a player reaches the green in two shots and holes out.",
       "memory_hook": "Eagle = 2 under par. Birdie = 1 under. Eagles are twice as good as birdies."
-    },
-    {
-      "category": "Sports",
-      "question": "Which boxer was known as 'The Greatest' and famously said 'Float like a butterfly, sting like a bee'?",
-      "options": [
-        "Joe Frazier",
-        "George Foreman",
-        "Sugar Ray Leonard",
-        "Muhammad Ali"
-      ],
-      "answer": "Muhammad Ali",
-      "explanation": "Muhammad Ali (born Cassius Clay) was an Olympic gold medalist (1960) and three-time world heavyweight champion who is widely considered the greatest boxer of all time. He was known for his speed, footwork, and trash-talking poetry. He refused induction into the US military during the Vietnam War, was stripped of his title, and fought his way back to become champion again.",
-      "memory_hook": "Ali = 'The Greatest.' Float like a butterfly, sting like a bee. Stripped of his title for refusing the Vietnam draft. Won it back twice. The most famous athlete of the 20th century."
     },
     {
       "category": "Pop Culture",
@@ -156,6 +130,32 @@
       "answer": "Mercury",
       "explanation": "Mercury is the closest planet to the Sun, orbiting at an average distance of about 58 million km. Despite being closest to the Sun, Mercury is not the hottest planet — that's Venus, which has a thick atmosphere that traps heat. Mercury has almost no atmosphere, so temperature swings wildly: 430°C during the day, -180°C at night.",
       "memory_hook": "Mercury = closest to the Sun. Not the hottest — Venus is. No atmosphere means no insulation, so Mercury swings from 430 to -180 degrees. The closest planet has the most extreme temperature swings."
+    },
+    {
+      "category": "Geography",
+      "question": "The Caucasus Mountains between the Black Sea and Caspian Sea form a geographic boundary separating which two continents?",
+      "options": [
+        "Asia and Africa",
+        "Europe and Africa",
+        "North and South Asia",
+        "Europe and Asia"
+      ],
+      "answer": "Europe and Asia",
+      "explanation": "The Caucasus Mountains form one of the conventional geographic boundaries between Europe and Asia, running approximately 1,100 km between the Black Sea (west) and Caspian Sea (east). The range includes Mount Elbrus (5,642 m), the highest peak in Europe under most definitions. Countries in the South Caucasus region — Georgia, Armenia, and Azerbaijan — are sometimes classified as European, sometimes as Asian, depending on the definition used.",
+      "memory_hook": "Caucasus Mountains = boundary between Europe and Asia. Run from Black Sea to Caspian Sea, ~1,100 km. Mount Elbrus (5,642m) is Europe's highest peak under most definitions. Georgia, Armenia, and Azerbaijan sit in this ambiguous zone — European by some definitions, Asian by others."
+    },
+    {
+      "category": "Science & Nature",
+      "question": "What environmental problem occurs when sulfur dioxide and nitrogen oxides released by burning fossil fuels react with atmospheric moisture to form acidic precipitation?",
+      "options": [
+        "Smog",
+        "The greenhouse effect",
+        "Ozone depletion",
+        "Acid rain"
+      ],
+      "answer": "Acid rain",
+      "explanation": "Acid rain forms when sulfur dioxide (SO₂) from coal burning and nitrogen oxides (NOₓ) from vehicle emissions react with water and oxygen in the atmosphere to form sulfuric and nitric acids. This acid precipitation damages forests, acidifies lakes (killing fish), corrodes buildings and monuments, and can damage crops. The problem was severe in Europe and North America in the 1970s-80s. Regulations reducing SO₂ emissions (particularly the 1990 Clean Air Act Amendments) have significantly reduced acid rain in the US.",
+      "memory_hook": "Acid rain: SO₂ + NOₓ + water vapor → sulfuric and nitric acids falling as rain. Kills forests, acidifies lakes, erodes monuments. Black Forest in Germany was devastated. 1990 Clean Air Act dramatically reduced it. A largely solved problem in the developed world — an example of environmental regulation working."
     }
   ]
 }

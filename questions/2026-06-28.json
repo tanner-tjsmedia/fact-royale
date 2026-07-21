@@ -53,19 +53,6 @@
       "memory_hook": "300 — like the movie, it's a perfect battle."
     },
     {
-      "category": "Sports",
-      "question": "In tennis, what term describes a score of 40-40?",
-      "options": [
-        "Fault",
-        "Love",
-        "Deuce",
-        "Break"
-      ],
-      "answer": "Deuce",
-      "explanation": "Deuce in tennis means both players have won three points each (40-40) in a game. After deuce, a player must win two consecutive points to win the game: the first is called 'advantage' and the second wins the game.",
-      "memory_hook": "Deuce rhymes with 'juice' — when it's tied, things heat up."
-    },
-    {
       "category": "Pop Culture",
       "question": "Who sang 'Respect', which became an anthem of the civil rights movement?",
       "options": [
@@ -118,19 +105,6 @@
       "memory_hook": "Lincoln freed the nation's conscience as much as its people."
     },
     {
-      "category": "History",
-      "question": "The Titanic sank in which ocean?",
-      "options": [
-        "Pacific Ocean",
-        "Indian Ocean",
-        "Arctic Ocean",
-        "Atlantic Ocean"
-      ],
-      "answer": "Atlantic Ocean",
-      "explanation": "The RMS Titanic sank in the North Atlantic Ocean on April 15, 1912, after striking an iceberg. It was on its maiden voyage from Southampton to New York City. More than 1,500 people died, making it one of the deadliest peacetime maritime disasters.",
-      "memory_hook": "Atlantic — think A for America, where it was headed but never arrived."
-    },
-    {
       "category": "Geography",
       "question": "Mount Everest sits on the border of which two countries?",
       "options": [
@@ -155,6 +129,32 @@
       "answer": "Nitrogen",
       "explanation": "Nitrogen makes up about 78% of Earth's atmosphere, with oxygen at roughly 21% and argon at about 0.93%. Despite breathing air constantly, we use only the oxygen fraction. Nitrogen is mostly inert at normal conditions, which is why it makes up the bulk without reacting with everything around us.",
       "memory_hook": "We breathe mostly nitrogen, not oxygen. Nitrogen 78%, oxygen 21%. The atmosphere is mostly a gas we can't actually use."
+    },
+    {
+      "category": "Geography",
+      "question": "Sri Lanka, the island nation at the southern tip of India, was known as what name under British colonial rule?",
+      "options": [
+        "Formosa",
+        "Malacca",
+        "Ceylon",
+        "Siam"
+      ],
+      "answer": "Ceylon",
+      "explanation": "Sri Lanka was called Ceylon under British colonial rule from 1815 until independence in 1948. The country changed its name to Sri Lanka ('Resplendent Island') in 1972 when it became a republic. Sri Lanka is the world's largest producer of cinnamon and one of the top tea producers globally — Ceylon tea remains a famous brand. The island separated from mainland India by the shallow Palk Strait, only about 31 km wide at its narrowest.",
+      "memory_hook": "Sri Lanka = formerly Ceylon. British colony until 1948. Renamed Sri Lanka in 1972. World's largest cinnamon producer. 'Ceylon tea' was named after it. Separated from India by Palk Strait — only 31 km at the narrowest."
+    },
+    {
+      "category": "Science & Nature",
+      "question": "What are the reproductive cells (sperm and egg) collectively called in biology?",
+      "options": [
+        "Zygotes",
+        "Embryos",
+        "Gametes",
+        "Somatic cells"
+      ],
+      "answer": "Gametes",
+      "explanation": "Gametes are specialized reproductive cells that contain half the normal number of chromosomes (haploid, n) rather than the full set (diploid, 2n). When a sperm gamete fertilizes an egg gamete, the resulting zygote has the full chromosome count. Gametes are produced by meiosis. In humans, each gamete contains 23 chromosomes; when they fuse, the zygote has 46. The term comes from the Greek 'gamete' meaning wife or 'gametes' meaning husband.",
+      "memory_hook": "Gametes = sperm + egg. Each has 23 chromosomes (haploid). Fuse to make a zygote with 46. Produced by meiosis (gametes) not mitosis (regular cell division). You began as two half-cells becoming one."
     }
   ]
 }

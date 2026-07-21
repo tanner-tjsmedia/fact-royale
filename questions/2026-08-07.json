@@ -41,19 +41,6 @@
       "memory_hook": "Martin Luther, 95 Theses, 1517. The printing press made his ideas viral. Within weeks, copies were spread across Europe. One monk with a hammer and a printing press fractured Christianity permanently."
     },
     {
-      "category": "History",
-      "question": "The first successful transatlantic solo airplane flight was completed in 1927 by which aviator?",
-      "options": [
-        "Amelia Earhart",
-        "Howard Hughes",
-        "Charles Lindbergh",
-        "Wiley Post"
-      ],
-      "answer": "Charles Lindbergh",
-      "explanation": "Charles Lindbergh completed the first nonstop transatlantic solo flight on May 20-21, 1927, flying his Spirit of St. Louis from New York to Paris in 33.5 hours. He navigated without a radio or GPS by dead reckoning over the ocean. He was greeted by 100,000 people at Le Bourget airport in Paris. The flight made him an international celebrity almost overnight.",
-      "memory_hook": "Lindbergh, 1927, New York to Paris alone. 33.5 hours with no radio, no GPS, no autopilot. He stayed awake the entire flight by sticking his head out the window in cold air. 100,000 people met him in Paris."
-    },
-    {
       "category": "Sports",
       "question": "In which sport would athletes compete using a 'shuttlecock' — a feathered or plastic projectile — hit back and forth over a net?",
       "options": [
@@ -78,19 +65,6 @@
       "answer": "USA and Europe",
       "explanation": "The Ryder Cup is a biennial team golf competition between the United States and Europe. It was first played in 1927 between the US and Great Britain. The European team was expanded to include all of Europe in 1979. The competition is unique in professional golf as players receive no prize money — they compete for national/continental pride. It is often described as the most passionate event in golf.",
       "memory_hook": "Ryder Cup = USA vs Europe, every two years. No prize money — just pride. Players who earn millions on tour suddenly play for free, in front of screaming crowds, visibly emotional. Golf becomes a team sport."
-    },
-    {
-      "category": "Sports",
-      "question": "Which country's team is called the 'Springboks' in international rugby?",
-      "options": [
-        "Australia",
-        "Argentina",
-        "New Zealand",
-        "South Africa"
-      ],
-      "answer": "South Africa",
-      "explanation": "South Africa's national rugby team is called the Springboks, named after the South African springbok antelope. The Springboks are one of the world's most successful rugby teams, winning the Rugby World Cup four times (1995, 2007, 2019, 2023). The 1995 World Cup victory, with Nelson Mandela presenting the trophy in a Springbok jersey, is one of sport's most powerful political moments.",
-      "memory_hook": "Springboks = South Africa. Nelson Mandela wore a Springbok jersey to present the 1995 World Cup trophy — previously a symbol of apartheid-era white South Africa. That moment of reconciliation became a symbol of the new South Africa. The film Invictus told the story."
     },
     {
       "category": "Pop Culture",
@@ -133,16 +107,16 @@
     },
     {
       "category": "Geography",
-      "question": "Which river is considered the longest in North America?",
+      "question": "Which river did Lewis and Clark follow on the first leg of their 1804-1806 expedition westward across North America?",
       "options": [
-        "Colorado River",
-        "Ohio River",
-        "Rio Grande",
-        "Missouri River"
+        "Mississippi River",
+        "Missouri River",
+        "Columbia River",
+        "Arkansas River"
       ],
       "answer": "Missouri River",
-      "explanation": "The Missouri River is generally considered North America's longest river at approximately 3,767 km, slightly longer than the Mississippi (3,730 km). Together they form the Mississippi-Missouri river system, one of the longest in the world. The Missouri drains 1.37 million square kilometers and was a major route for westward expansion in 19th-century America — Lewis and Clark followed much of its course in 1804-1806.",
-      "memory_hook": "Missouri River = longest in North America. Most people say the Mississippi, but the Missouri is slightly longer. Together they form one of the world's great river systems — the Mississippi-Missouri drains most of the interior US."
+      "explanation": "Lewis and Clark followed the Missouri River westward from St. Louis beginning in May 1804, traveling approximately 3,000 km upstream before crossing the Continental Divide. The Missouri drains 1.37 million square kilometers and was the main highway for westward expansion in 19th-century America. From the Missouri headwaters, the expedition crossed the Rockies and then followed the Columbia River to the Pacific Ocean, reaching it in November 1805.",
+      "memory_hook": "Lewis and Clark + Missouri River, 1804. Followed it 3,000 km upstream, crossed the Rockies, then the Columbia to the Pacific. The Missouri opened the American West."
     },
     {
       "category": "Science & Nature",
@@ -156,6 +130,32 @@
       "answer": "Nocturnal",
       "explanation": "Nocturnal animals are active primarily at night. Bats, owls, raccoons, foxes, and most big cats are nocturnal. Many nocturnal animals have adaptations for low-light vision, such as larger pupils, a reflective layer behind the retina (tapetum lucidum), or highly sensitive whiskers. Some animals are crepuscular — most active at dawn and dusk — including deer and rabbits.",
       "memory_hook": "Nocturnal = night active. The cat eyes glowing in the dark = tapetum lucidum, the reflective layer behind the retina that amplifies dim light. Owls see at light levels 100 times below what humans need. Evolution found a whole niche by just flipping the schedule."
+    },
+    {
+      "category": "Geography",
+      "question": "The Alps, Europe's highest mountain range, span eight countries. Which peak, at 4,808 meters, is the highest in the Alps and in all of Western Europe?",
+      "options": [
+        "The Matterhorn",
+        "Mont Blanc",
+        "Jungfrau",
+        "Dufourspitze"
+      ],
+      "answer": "Mont Blanc",
+      "explanation": "Mont Blanc ('White Mountain') straddles the border between France and Italy near Chamonix and Courmayeur. At 4,808 meters, it is the highest peak in both the Alps and Western Europe (Mount Elbrus in Russia is higher but is in the Caucasus). The Alps span France, Switzerland, Italy, Austria, Liechtenstein, Slovenia, Germany, and Monaco. The range was formed by the collision of the African and Eurasian tectonic plates and is home to major rivers including the Rhine, Rhône, Po, and Danube.",
+      "memory_hook": "Mont Blanc: 4,808m, highest in the Alps and Western Europe. France-Italy border. The Alps span 8 countries. Formed by Africa's tectonic plate colliding into Eurasia. Rhine, Rhône, Po, and Danube all start in the Alps. A collision slow enough to measure in centimeters per year but powerful enough to build mountains 5 km tall."
+    },
+    {
+      "category": "Science & Nature",
+      "question": "What is the Fibonacci sequence, and where does it famously appear in nature?",
+      "options": [
+        "A random number sequence found only in mathematics",
+        "A sequence where each number is the sum of the two before it, appearing in spiral patterns in nature",
+        "A series of prime numbers used in cryptography",
+        "A pattern of exponential growth in populations"
+      ],
+      "answer": "A sequence where each number is the sum of the two before it, appearing in spiral patterns in nature",
+      "explanation": "The Fibonacci sequence is 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55... where each number is the sum of the two preceding it. It appears extensively in nature: the spiral arrangement of sunflower seeds, the number of petals on many flowers (5, 8, 13), the spirals in pinecones and pineapples, nautilus shells, and hurricane patterns all follow Fibonacci numbers. The ratio between consecutive Fibonacci numbers approaches the Golden Ratio (φ ≈ 1.618), considered aesthetically pleasing.",
+      "memory_hook": "Fibonacci: 0, 1, 1, 2, 3, 5, 8, 13... each = sum of previous two. Sunflower seeds, flower petals, pinecone spirals, nautilus shells all follow this pattern. The ratio of consecutive terms → Golden Ratio (1.618). Nature keeps reinventing the same mathematical spiral because it's the most efficient packing."
     }
   ]
 }

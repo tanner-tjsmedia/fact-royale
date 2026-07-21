@@ -94,16 +94,16 @@
     },
     {
       "category": "Science & Nature",
-      "question": "What is the speed of light in a vacuum, approximately?",
+      "question": "What is the scientific term for the bending of light as it passes from one medium (such as air) into another (such as water or glass)?",
       "options": [
-        "300,000 km/s",
-        "30,000 km/s",
-        "3,000 km/s",
-        "3,000,000 km/s"
+        "Reflection",
+        "Diffraction",
+        "Refraction",
+        "Dispersion"
       ],
-      "answer": "300,000 km/s",
-      "explanation": "The speed of light in a vacuum (c) is exactly 299,792,458 meters per second — approximately 300,000 km/s or 186,000 miles per second. Nothing with mass can travel at or beyond this speed. Light from the Sun takes about 8 minutes to reach Earth.",
-      "memory_hook": "Speed of light: ~300,000 km/s. Sun's light reaches Earth in ~8 minutes."
+      "answer": "Refraction",
+      "explanation": "Refraction occurs because light changes speed when moving between materials with different optical densities (refractive indices). Light bends toward the perpendicular when entering a denser medium and away from it in a less dense medium. Refraction explains why a straw appears bent in water, how glasses and contact lenses correct vision, and how a prism splits white light into a rainbow spectrum. Without refraction, lenses — and therefore eyes — couldn't focus light.",
+      "memory_hook": "Refraction = light bending when crossing between materials. Straw looks bent in water. Your eye's lens uses refraction to focus. Prisms split white light via refraction. All optics depend on it."
     },
     {
       "category": "Geography",

@@ -41,19 +41,6 @@
       "memory_hook": "USA dropped the atomic bombs on Japan in 1945. Two cities, three days apart. The only nuclear weapons ever used in warfare. The decision is still debated 80 years later. Japan surrendered 6 days after Nagasaki."
     },
     {
-      "category": "History",
-      "question": "The ancient Library of Alexandria, considered the greatest library of the ancient world, was located in which country?",
-      "options": [
-        "Greece",
-        "Italy",
-        "Iraq",
-        "Egypt"
-      ],
-      "answer": "Egypt",
-      "explanation": "The Library of Alexandria was located in Alexandria, Egypt, founded around 285-246 BC under Ptolemy II. At its peak it held hundreds of thousands of papyrus scrolls — essentially the complete knowledge of the ancient world. Its destruction (likely through multiple events over centuries, not a single fire) represents one of history's greatest intellectual losses. Julius Caesar's visit in 48 BC accidentally burned some of the collection.",
-      "memory_hook": "Library of Alexandria = Egypt. The ancient internet. It didn't burn in one dramatic fire — it declined through multiple events over centuries. Scholars came from across the ancient world to study there. Its loss means we'll never know how much ancient knowledge was lost forever."
-    },
-    {
       "category": "Sports",
       "question": "In which sport does a player score by hitting the ball with a stick into a goal, played on horseback?",
       "options": [
@@ -78,19 +65,6 @@
       "answer": "8",
       "explanation": "Michael Phelps won 8 gold medals at the 2008 Beijing Olympics, surpassing Mark Spitz's record of 7 golds at a single Olympics (1972 Munich). Phelps competed in 8 events and won all 8. One of the most dramatic was the 100m butterfly, where he won by 0.01 seconds after a controversial wall touch by his competitor. His 8 golds in one Games remains an Olympic record.",
       "memory_hook": "Phelps = 8 golds in Beijing 2008. Beat Spitz's 36-year-old record. Won the 100m butterfly by 0.01 seconds in one of the most dramatic races in Olympic history. He competed twice a day for over a week and ate 12,000 calories daily — partly just to fuel the training."
-    },
-    {
-      "category": "Sports",
-      "question": "What is the term for a perfect score in gymnastics, which used to be represented as '10.0'?",
-      "options": [
-        "Grand Score",
-        "Perfect 10",
-        "Absolute Maximum",
-        "Century Score"
-      ],
-      "answer": "Perfect 10",
-      "explanation": "The 'Perfect 10' was the highest score in gymnastics under the old judging system, famously first achieved at the Olympics by Romanian gymnast Nadia Comaneci at the 1976 Montreal Olympics. The scoring system changed after the 2004 Athens Olympics to an open-ended system because the sport had become too complex for a 10-point scale to reflect. Comaneci's 10.0s were so unexpected that the scoreboard could only display '1.00' — it wasn't programmed for perfection.",
-      "memory_hook": "Perfect 10 = gymnastics perfection. Nadia Comaneci was the first at the 1976 Olympics. The scoreboard showed 1.00 because it couldn't display 10.00 — perfection was literally unplanned for. Gymnastics eventually abandoned the 10-point scale because the sport became too complex to score on it."
     },
     {
       "category": "Pop Culture",
@@ -156,6 +130,32 @@
       "answer": "Fission",
       "explanation": "Nuclear fission occurs when a heavy atomic nucleus (such as uranium-235 or plutonium-239) absorbs a neutron and splits into two smaller nuclei, releasing additional neutrons and enormous amounts of energy. These released neutrons can then trigger further fissions — creating a chain reaction. This is the principle behind both nuclear reactors (controlled fission) and atomic bombs (uncontrolled fission).",
       "memory_hook": "Fission = atom splitting. Fusion = atoms joining. Fission powers nuclear reactors and atomic bombs. Fusion powers the Sun (and hopefully future fusion reactors). Fusion releases more energy but is much harder to control. Fission we figured out in the 1940s. Fusion has been '30 years away' for 70 years."
+    },
+    {
+      "category": "Geography",
+      "question": "The Canary Islands, a Spanish autonomous community, are located off the coast of which African country — despite being geographically closer to Africa than to mainland Spain?",
+      "options": [
+        "Senegal",
+        "Algeria",
+        "Morocco",
+        "Libya"
+      ],
+      "answer": "Morocco",
+      "explanation": "The Canary Islands are located in the North Atlantic Ocean, about 100 km west of the southern Moroccan coast (near Western Sahara). Despite their African proximity, they have been Spanish territory since the 15th century. The seven main islands (Tenerife, Gran Canaria, Lanzarote, Fuerteventura, La Palma, La Gomera, El Hierro) have a subtropical climate and are one of Spain's top tourist destinations. Tenerife's Teide volcano (3,715 m) is Spain's highest peak.",
+      "memory_hook": "Canary Islands: Spanish territory 100 km off Morocco's coast. African climate, European passport. Seven islands, year-round tourism. Teide volcano (3,715m) is Spain's highest peak. Named not after canary birds but after 'Canariae Insulae' (island of dogs) — ancient Romans found large dogs there."
+    },
+    {
+      "category": "Science & Nature",
+      "question": "What is centripetal force, and what provides it when a car turns a corner?",
+      "options": [
+        "The outward force felt by passengers in a turn",
+        "An inward force toward the center of the circular path, provided by friction in a car turn",
+        "A force equal to gravity acting on moving objects",
+        "The force that causes objects to spin"
+      ],
+      "answer": "An inward force toward the center of the circular path, provided by friction in a car turn",
+      "explanation": "Centripetal force is the force directed toward the center of a circular path that keeps an object moving in a curve rather than in a straight line. For a car turning, friction between the tires and road provides centripetal force. For Earth orbiting the Sun, gravity provides it. For a ball on a string, the string tension provides it. The 'centrifugal force' (feeling pushed outward in a turn) is not a real force — it is the inertial tendency of your body to continue moving straight.",
+      "memory_hook": "Centripetal force = inward force keeping circular motion. For a car turning: friction from tires. For Earth orbiting: gravity. For a ball on a string: string tension. 'Centrifugal force' (feeling pushed outward) isn't real — it's your inertia trying to go straight while the car turns."
     }
   ]
 }

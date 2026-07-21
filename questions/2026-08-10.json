@@ -41,19 +41,6 @@
       "memory_hook": "Bastille Day = July 14, 1789. The revolution's symbolic start. Only 7 prisoners in the Bastille — but the symbol mattered more than the reality. France celebrates July 14 the same way the US celebrates July 4. Both are days a people overthrew what they believed was tyranny."
     },
     {
-      "category": "History",
-      "question": "Which Venetian merchant, who traveled to the court of Kublai Khan in China in the 13th century, wrote a famous account of his journey that inspired later European explorers?",
-      "options": [
-        "Marco Polo",
-        "Ibn Battuta",
-        "Niccolò Polo",
-        "Giovanni da Pian del Carpine"
-      ],
-      "answer": "Marco Polo",
-      "explanation": "Marco Polo (1254-1324) traveled from Venice to China along the Silk Road, spending 17 years at the court of Mongol ruler Kublai Khan. His book 'The Travels of Marco Polo,' dictated while he was imprisoned in Genoa, introduced Europeans to the wealth and cultures of Asia and is said to have inspired Christopher Columbus.",
-      "memory_hook": "Marco Polo: Venice → China → Kublai Khan. His book inspired Columbus."
-    },
-    {
       "category": "Sports",
       "question": "The Indianapolis 500 car race is approximately how many miles long?",
       "options": [
@@ -78,19 +65,6 @@
       "answer": "Icing",
       "explanation": "Icing in ice hockey occurs when a player shoots the puck from their own half of the rink and it crosses the opponent's goal line without being touched. Play stops and the face-off returns to the offending team's defensive zone. Icing is not called if the team is shorthanded due to a penalty.",
       "memory_hook": "Icing = shooting puck the length of the ice. Face-off comes back deep."
-    },
-    {
-      "category": "Sports",
-      "question": "What is the weight limit for a 'heavyweight' in professional boxing?",
-      "options": [
-        "Over 200 lbs",
-        "Over 175 lbs",
-        "Over 190 lbs",
-        "No upper limit"
-      ],
-      "answer": "No upper limit",
-      "explanation": "In professional boxing, the heavyweight division has no upper weight limit — any boxer over 200 pounds competes in heavyweight. The light heavyweight division cuts off at 175 lbs. Heavyweight is traditionally the most prestigious division in boxing, with champions including Muhammad Ali, Joe Louis, Rocky Marciano, Mike Tyson, and Lennox Lewis.",
-      "memory_hook": "Heavyweight boxing = no upper weight limit. Over 200 lbs, fight. There's no 'super heavyweight' in professional boxing. The division's prestige comes from its history — Ali, Tyson, Frazier, Foreman. The heavyweight champion was once called 'the baddest man on the planet.'"
     },
     {
       "category": "Pop Culture",
@@ -156,6 +130,32 @@
       "answer": "Paleontology",
       "explanation": "Paleontology is the study of prehistoric life through fossils — the preserved remains or traces of ancient organisms. It differs from archaeology (which focuses on human artifacts) and geology (the study of rocks and Earth's physical history). Paleontologists study everything from dinosaurs to ancient plants, insects, and microorganisms, using fossils to understand the history and evolution of life on Earth.",
       "memory_hook": "Paleontology = study of fossils. Archaeology is about ancient humans; paleontology is about all ancient life. The earliest fossil evidence of life on Earth is 3.5 billion years old — microbial mats in ancient rocks. Dinosaur fossils are comparatively recent, only 230 million years old."
+    },
+    {
+      "category": "Geography",
+      "question": "The Great Artesian Basin in Australia is one of the world's largest underground freshwater reservoirs. Which continent is it entirely located beneath?",
+      "options": [
+        "Antarctica",
+        "Asia",
+        "Africa",
+        "Australia"
+      ],
+      "answer": "Australia",
+      "explanation": "The Great Artesian Basin underlies about 22% of Australia, covering parts of Queensland, New South Wales, South Australia, and the Northern Territory. It holds an estimated 65,000 km³ of freshwater, much of it tens of thousands of years old. The basin was crucial to opening up Australia's arid interior for grazing — artesian bores (self-flowing wells) allowed pastoralists and animals to access water far from rivers. However, over-exploitation and degradation of the basin has led to conservation efforts.",
+      "memory_hook": "Great Artesian Basin: covers 22% of Australia, holds 65,000 km³ of ancient freshwater. Opened up the arid outback to grazing in the 1800s — artesian wells flowed without pumping. Much of the water is tens of thousands of years old. Now being depleted and managed carefully."
+    },
+    {
+      "category": "Science & Nature",
+      "question": "What are the noble gases — the chemically unreactive elements in Group 18 of the periodic table?",
+      "options": [
+        "Oxygen, nitrogen, argon",
+        "Helium, neon, argon, krypton, xenon, radon",
+        "Fluorine, chlorine, bromine, iodine",
+        "Lithium, sodium, potassium"
+      ],
+      "answer": "Helium, neon, argon, krypton, xenon, radon",
+      "explanation": "The noble gases (Group 18) are helium (He), neon (Ne), argon (Ar), krypton (Kr), xenon (Xe), and radon (Rn). They are chemically unreactive because their outer electron shells are completely full, giving them no tendency to form bonds. Their uses include: helium (balloons, MRI cooling), neon (signs), argon (welding shield gas), krypton and xenon (specialty lights), radon (radiation monitoring — it's a radioactive health hazard from soil). Oganesson (Og) is sometimes included as a theoretical noble gas.",
+      "memory_hook": "Noble gases: He, Ne, Ar, Kr, Xe, Rn. Full outer electron shells = never react. Helium in balloons and MRI machines. Neon in signs. Argon in welding. Radon is the scary one — seeps from soil into basements and is the #2 cause of lung cancer. Being unreactive is usually safe; radon is the exception."
     }
   ]
 }

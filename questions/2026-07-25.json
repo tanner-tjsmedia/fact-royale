@@ -53,19 +53,6 @@
       "memory_hook": "Basketball: Naismith used a peach basket in 1891. That's why it's called basketball."
     },
     {
-      "category": "Sports",
-      "question": "What is the term for a tennis player who wins all four Grand Slams in a calendar year?",
-      "options": [
-        "The Golden Slam",
-        "The Grand Slam",
-        "The Calendar Slam",
-        "The Career Slam"
-      ],
-      "answer": "The Calendar Slam",
-      "explanation": "Winning all four Grand Slams (Australian Open, French Open, Wimbledon, US Open) in a single calendar year is called the Calendar Grand Slam. Only five players have achieved this: Don Budge (1938), Maureen Connolly (1953), Rod Laver (1962, 1969), Margaret Court (1970), and Steffi Graf (1988, who also won gold at the Seoul Olympics for the 'Golden Slam').",
-      "memory_hook": "Calendar Slam = four Slams in one year. Steffi Graf added Olympic gold for the 'Golden Slam.'"
-    },
-    {
       "category": "Pop Culture",
       "question": "What is the name of the fictional kingdom in 'Frozen'?",
       "options": [
@@ -118,19 +105,6 @@
       "memory_hook": "Lexington 1775: the shot that started a revolution that started a democracy."
     },
     {
-      "category": "History",
-      "question": "Which nation was the first to achieve full gender equality in its parliament?",
-      "options": [
-        "Norway",
-        "Sweden",
-        "Iceland",
-        "Rwanda"
-      ],
-      "answer": "Rwanda",
-      "explanation": "Rwanda achieved the highest proportion of women in parliament of any country in the world, becoming the first nation where women hold a majority of parliamentary seats (exceeding 50%). This was a result of post-genocide reconstruction policies that specifically targeted gender inclusion in governance.",
-      "memory_hook": "Rwanda: out of tragedy, they built the most gender-equal parliament in the world."
-    },
-    {
       "category": "Geography",
       "question": "The Gobi Desert, one of the world's largest, spans which two countries?",
       "options": [
@@ -155,6 +129,32 @@
       "answer": "Steel",
       "explanation": "Sound travels through steel at about 5,120 meters per second, much faster than through water (about 1,480 m/s) or air (about 343 m/s). Sound cannot travel through a vacuum at all because it requires molecules to vibrate. Denser, more elastic materials transmit sound more efficiently — which is why you can hear a train coming by putting your ear to the rail.",
       "memory_hook": "Sound travels fastest through solid steel. Steel > water > air > vacuum (no sound). Put your ear on a train rail and you hear it long before you'd hear it through air."
+    },
+    {
+      "category": "Geography",
+      "question": "The Yucatán Peninsula in southeastern Mexico contains thousands of cenotes — what are these natural features?",
+      "options": [
+        "Ancient Mayan pyramids",
+        "Sinkholes filled with fresh water",
+        "Coastal lagoons",
+        "Volcanic craters"
+      ],
+      "answer": "Sinkholes filled with fresh water",
+      "explanation": "Cenotes are natural sinkholes or caves filled with fresh water, formed when limestone bedrock collapses and exposes the groundwater below. The Yucatán has an extraordinary network of cenotes because its porous limestone platform has no surface rivers — all water flows underground. The ancient Maya considered cenotes sacred portals to the underworld (Xibalba) and used them for sacrificial offerings. A cenote impact site marks the Chicxulub crater — the asteroid that killed the dinosaurs 66 million years ago.",
+      "memory_hook": "Cenotes = freshwater sinkholes in Mexico's Yucatán. Limestone collapses → underground water exposed. No surface rivers — all water goes underground. Maya called them sacred portals. The Chicxulub impact crater that killed the dinosaurs is right there — cenotes ring its edge."
+    },
+    {
+      "category": "Science & Nature",
+      "question": "Which pigment in plant leaves absorbs sunlight for photosynthesis and gives most plants their green color?",
+      "options": [
+        "Carotene",
+        "Xanthophyll",
+        "Anthocyanin",
+        "Chlorophyll"
+      ],
+      "answer": "Chlorophyll",
+      "explanation": "Chlorophyll is the primary photosynthetic pigment in plants and algae. It absorbs red and blue light most efficiently, reflecting green light — which is why leaves appear green. Chlorophyll a is the main type; chlorophyll b is an accessory pigment. In autumn, chlorophyll breaks down as days shorten, revealing underlying yellow and orange carotenoid pigments (carotene, xanthophyll). Anthocyanins (red/purple) are produced fresh as protection against UV damage.",
+      "memory_hook": "Chlorophyll = green plant pigment that powers photosynthesis. Absorbs red + blue light, reflects green. Autumn leaves: chlorophyll breaks down, revealing yellow carotenes underneath. Red/purple leaves have anthocyanins for UV protection. All the color in leaves was always there — you just couldn't see it."
     }
   ]
 }

@@ -146,16 +146,16 @@
     },
     {
       "category": "Sports",
-      "question": "In American football, how many points is a field goal worth?",
+      "question": "In the NBA, teams must attempt a field goal within how many seconds of gaining possession — a rule introduced in 1954 to prevent teams from stalling?",
       "options": [
-        "3",
-        "1",
-        "6",
-        "2"
+        "14 seconds",
+        "24 seconds",
+        "30 seconds",
+        "45 seconds"
       ],
-      "answer": "3",
-      "explanation": "A field goal is scored when the kicker puts the ball through the uprights (kicking from the ground). It is worth 3 points. A touchdown is 6 points, followed by a choice of extra point kick (1 point) or two-point conversion (2 points). A safety (tackling the ball carrier in their own end zone) is worth 2 points.",
-      "memory_hook": "Field goal = 3 pts. Touchdown = 6 pts + 1 (kick) or 2 (conversion). Safety = 2 pts."
+      "answer": "24 seconds",
+      "explanation": "The NBA shot clock gives teams 24 seconds to attempt a field goal after gaining possession. Introduced in 1954 by Syracuse Nationals owner Danny Biasone, he calculated the number by dividing 48 minutes (game length in seconds: 2,880) by 120 (average shots in a game), arriving at 24. Before the shot clock, teams would stall for entire games, leading to extremely low-scoring contests. The rule transformed basketball into the fast-paced sport it is today. The NCAA uses 30 seconds.",
+      "memory_hook": "NBA shot clock = 24 seconds. Introduced 1954. Before it, teams stalled all game. Biasone calculated 2,880 seconds ÷ 120 avg shots = 24. Simple math that transformed a sport."
     }
   ]
 }

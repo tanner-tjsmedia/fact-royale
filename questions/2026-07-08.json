@@ -53,19 +53,6 @@
       "memory_hook": "Deca = ten. Decathlon = 10 events, one champion."
     },
     {
-      "category": "Sports",
-      "question": "In which city is the famous Wembley Stadium located?",
-      "options": [
-        "Birmingham",
-        "Manchester",
-        "Glasgow",
-        "London"
-      ],
-      "answer": "London",
-      "explanation": "Wembley Stadium is located in Wembley, London, England. The current stadium opened in 2007 and has a capacity of 90,000, making it the largest stadium in the UK. It hosts FA Cup finals, England national team matches, and major concerts.",
-      "memory_hook": "Wembley = London. The arch over the stadium is its calling card."
-    },
-    {
       "category": "Pop Culture",
       "question": "Which film series features a character who says 'May the Force be with you'?",
       "options": [
@@ -118,19 +105,6 @@
       "memory_hook": "Trojan Horse, Trojan War, Trojan everything — Troy was at the center."
     },
     {
-      "category": "History",
-      "question": "Which scientist is known for discovering penicillin?",
-      "options": [
-        "Louis Pasteur",
-        "Robert Koch",
-        "Alexander Fleming",
-        "Joseph Lister"
-      ],
-      "answer": "Alexander Fleming",
-      "explanation": "Alexander Fleming discovered penicillin in 1928 when he noticed that a mold (Penicillium notatum) was killing bacteria in one of his petri dishes. This accidental discovery led to the development of antibiotics, which have saved an estimated 200 million lives.",
-      "memory_hook": "Fleming's mold killed bacteria — a dirty lab dish changed medicine forever."
-    },
-    {
       "category": "Geography",
       "question": "Angel Falls, the world's highest uninterrupted waterfall, is located in which country?",
       "options": [
@@ -155,6 +129,32 @@
       "answer": "O negative",
       "explanation": "O negative blood lacks the A, B, and Rh antigens, so it can be transfused into patients of any blood type without triggering an immune reaction. It is crucial in emergencies when there is no time to type a patient's blood. Only about 7% of people have O negative blood, making it particularly valuable.",
       "memory_hook": "O negative = universal donor. No antigens to trigger rejection. It's the emergency room blood type — given when there is no time to check compatibility."
+    },
+    {
+      "category": "Geography",
+      "question": "The Baltic Sea is one of the world's largest bodies of brackish water (a mix of salt and fresh water). Which of these countries does NOT border the Baltic Sea?",
+      "options": [
+        "Finland",
+        "Norway",
+        "Poland",
+        "Sweden"
+      ],
+      "answer": "Norway",
+      "explanation": "Norway is the only Scandinavian country that does not border the Baltic Sea — its coast faces the Norwegian Sea (part of the North Atlantic). The Baltic Sea is bordered by nine countries: Sweden, Finland, Russia, Estonia, Latvia, Lithuania, Poland, Germany, and Denmark. Its relatively low salinity (due to limited exchange with the Atlantic and freshwater inflow) makes it significantly less salty than most ocean water.",
+      "memory_hook": "Baltic Sea borders: Sweden, Finland, Russia, Estonia, Latvia, Lithuania, Poland, Germany, Denmark. Norway — despite being Scandinavian — is NOT on the Baltic. It faces the Norwegian Sea instead. 9 countries, 1 shallow, low-salinity sea."
+    },
+    {
+      "category": "Science & Nature",
+      "question": "What branch of medicine specializes in the diagnosis and treatment of diseases of the brain and nervous system?",
+      "options": [
+        "Cardiology",
+        "Nephrology",
+        "Neurology",
+        "Endocrinology"
+      ],
+      "answer": "Neurology",
+      "explanation": "Neurology is the medical specialty focused on the diagnosis and treatment of disorders of the nervous system — the brain, spinal cord, and peripheral nerves. Neurologists treat conditions such as stroke, epilepsy, Parkinson's disease, multiple sclerosis, and Alzheimer's disease. Neurosurgery is the surgical subspecialty. Neurologists use tools like MRI, CT scans, EEG (brain wave measurement), and lumbar punctures to evaluate patients.",
+      "memory_hook": "Neurology = medical specialty for brain and nervous system diseases. Neurologists treat stroke, epilepsy, Parkinson's, MS, Alzheimer's. The surgical counterpart is neurosurgery. 'Neuro' from Greek for nerve or sinew — the network that runs your entire body."
     }
   ]
 }

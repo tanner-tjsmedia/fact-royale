@@ -53,19 +53,6 @@
       "memory_hook": "Foil, epee, sabre — the three fencing weapons."
     },
     {
-      "category": "Sports",
-      "question": "What is the name of the award given to the best hitter in Major League Baseball?",
-      "options": [
-        "Cy Young Award",
-        "Golden Glove",
-        "Silver Slugger Award",
-        "Batting Title"
-      ],
-      "answer": "Silver Slugger Award",
-      "explanation": "The Silver Slugger Award is given annually to the best offensive player at each position in MLB, as voted by managers and coaches. The Cy Young Award goes to the best pitcher; the Golden Glove to the best fielder.",
-      "memory_hook": "Silver Slugger = best hitter. Gold Glove = best fielder. Cy Young = best pitcher."
-    },
-    {
       "category": "Pop Culture",
       "question": "Who composed the music for the Jurassic Park film series?",
       "options": [
@@ -118,19 +105,6 @@
       "memory_hook": "a squared + b squared = c squared — Pythagoras. Every right triangle, forever."
     },
     {
-      "category": "History",
-      "question": "Which U.S. constitutional amendment abolished slavery?",
-      "options": [
-        "The 13th Amendment",
-        "The 14th Amendment",
-        "The 15th Amendment",
-        "The 19th Amendment"
-      ],
-      "answer": "The 13th Amendment",
-      "explanation": "The 13th Amendment to the U.S. Constitution, ratified on December 6, 1865, formally abolished slavery in the United States.",
-      "memory_hook": "13th Amendment ended slavery. 14th gave citizenship. 15th gave Black men the vote."
-    },
-    {
       "category": "Geography",
       "question": "Cape Horn, the southernmost tip of South America, belongs to which country?",
       "options": [
@@ -155,6 +129,32 @@
       "answer": "32",
       "explanation": "Adult humans have 32 teeth: 8 incisors, 4 canines, 8 premolars, 8 molars, and 4 wisdom teeth (third molars). Many people have their wisdom teeth removed if they don't have room to grow in properly. Some people never develop all four wisdom teeth.",
       "memory_hook": "32 teeth total, including wisdom teeth. Most people have 28 after wisdom tooth removal. Wisdom teeth are vestigial — our ancient ancestors needed them to chew rougher food, but modern diets and smaller jaws have made them obsolete."
+    },
+    {
+      "category": "Geography",
+      "question": "Cape Verde, an archipelago nation of 10 islands off the west coast of Africa, gained independence from which colonial power in 1975?",
+      "options": [
+        "Spain",
+        "France",
+        "Britain",
+        "Portugal"
+      ],
+      "answer": "Portugal",
+      "explanation": "Cape Verde (Cabo Verde) achieved independence from Portugal on July 5, 1975, after 500 years of Portuguese rule. The islands were uninhabited when Portuguese explorers discovered them in 1456. Cape Verde became an important Atlantic trading hub and was a major stop in the transatlantic slave trade. Despite having no natural resources, Cape Verde has developed into one of Africa's most stable democracies and has the highest human development index in West Africa.",
+      "memory_hook": "Cape Verde: Portuguese colony for 500 years, independent 1975. Uninhabited when discovered in 1456. Became a slave trade hub in the Atlantic. Now one of Africa's most stable democracies despite no natural resources. 10 islands, 570 km off Senegal's coast."
+    },
+    {
+      "category": "Science & Nature",
+      "question": "What phenomenon occurs when a rotating galaxy cluster bends light from a more distant galaxy behind it, creating arcs or rings of light?",
+      "options": [
+        "Chromatic aberration",
+        "Diffraction",
+        "Gravitational lensing",
+        "Parallax"
+      ],
+      "answer": "Gravitational lensing",
+      "explanation": "Gravitational lensing occurs because massive objects (like galaxy clusters) warp the fabric of spacetime, bending the path of light passing near them — exactly as Einstein's General Theory of Relativity predicted. This can create multiple images, arcs, or even complete 'Einstein rings' of distant objects. Gravitational lensing has confirmed General Relativity, revealed dark matter distributions (by mapping invisible mass that still bends light), and allowed astronomers to study extremely distant galaxies.",
+      "memory_hook": "Gravitational lensing: massive objects bend light from behind them, creating arcs or rings. Predicted by Einstein's General Relativity. Confirmed in 1919 (solar eclipse experiment). Reveals dark matter — invisible mass that still bends light. 'Einstein rings' are complete circles of lensed light."
     }
   ]
 }

@@ -53,19 +53,6 @@
       "memory_hook": "National Football League — America's most-watched sport has a national league."
     },
     {
-      "category": "Sports",
-      "question": "Which country has won the most Olympic gold medals in gymnastics?",
-      "options": [
-        "China",
-        "Russia",
-        "Romania",
-        "United States"
-      ],
-      "answer": "Russia",
-      "explanation": "Russia (including the Soviet Union) has historically dominated Olympic gymnastics, winning more gold medals than any other nation. The Soviet Union was particularly dominant from the 1950s through the 1980s.",
-      "memory_hook": "Russia = gymnastics gold. Think of Soviet-era gymnasts who seemed to defy gravity."
-    },
-    {
       "category": "Pop Culture",
       "question": "Who played the Joker in the 2019 film 'Joker'?",
       "options": [
@@ -118,19 +105,6 @@
       "memory_hook": "'Et tu, Brute?' — even his best friend stabbed him."
     },
     {
-      "category": "History",
-      "question": "What was the name of the ship on which Charles Darwin made his famous voyage?",
-      "options": [
-        "HMS Victory",
-        "HMS Endeavour",
-        "HMS Beagle",
-        "HMS Discovery"
-      ],
-      "answer": "HMS Beagle",
-      "explanation": "Charles Darwin sailed on HMS Beagle from 1831 to 1836, visiting South America, the Galápagos Islands, Australia, and other locations. His observations during this voyage formed the basis for his theory of evolution by natural selection, published in 'On the Origin of Species' in 1859.",
-      "memory_hook": "The Beagle sniffed out evidence for evolution — like a good hound following a trail."
-    },
-    {
       "category": "Geography",
       "question": "Which ocean is the largest by surface area?",
       "options": [
@@ -155,6 +129,32 @@
       "answer": "Diamond",
       "explanation": "Diamond scores a 10 on the Mohs hardness scale, the highest possible. It is pure carbon arranged in a crystal lattice structure. Despite being the hardest material, it is not the toughest — it can be shattered by a well-placed blow because hardness and toughness are different properties.",
       "memory_hook": "Diamond = hardest natural substance. But hard does not mean unbreakable. Hit a diamond with a hammer in the right spot and it shatters. Hardness and toughness are different things."
+    },
+    {
+      "category": "Geography",
+      "question": "The Aral Sea, once the world's fourth-largest lake, has lost approximately 90% of its water since the 1960s due to Soviet irrigation projects. In which two countries do its remnants now lie?",
+      "options": [
+        "Russia and Kazakhstan",
+        "Uzbekistan and Tajikistan",
+        "Kazakhstan and Uzbekistan",
+        "Turkmenistan and Kazakhstan"
+      ],
+      "answer": "Kazakhstan and Uzbekistan",
+      "explanation": "The Aral Sea once covered 68,000 km² on the border of Kazakhstan and Uzbekistan. Soviet-era irrigation canals diverted the Amu Darya and Syr Darya rivers to grow cotton, shrinking the lake by 90%. The exposed seabed became the 'Aralkum Desert,' coated with salt and pesticide residue that winds spread across the region, causing health crises. Kazakhstan has partially restored the northern Aral Sea with a dam; Uzbekistan's southern portion has largely vanished.",
+      "memory_hook": "Aral Sea: once 4th largest lake, now 90% gone. Kazakhstan + Uzbekistan diverted rivers for cotton. Exposed seafloor became toxic desert. North Aral is recovering with a Kazakh dam. South is gone. One of the worst environmental disasters in history."
+    },
+    {
+      "category": "Science & Nature",
+      "question": "What is the process that powers the Sun — fusing hydrogen atoms at extreme temperatures to release enormous amounts of energy?",
+      "options": [
+        "Nuclear fission",
+        "Chemical combustion",
+        "Nuclear fusion",
+        "Radioactive decay"
+      ],
+      "answer": "Nuclear fusion",
+      "explanation": "The Sun generates energy through nuclear fusion — specifically the proton-proton chain, where hydrogen nuclei (protons) fuse to form helium at core temperatures of about 15 million degrees Celsius. Each fusion reaction converts a tiny amount of mass into energy (E=mc²). The Sun converts about 600 million tons of hydrogen into helium per second. Fusion is also the mechanism behind hydrogen bombs and the goal of experimental reactors like ITER.",
+      "memory_hook": "Nuclear fusion powers the Sun. Hydrogen → helium at 15 million°C, releasing enormous energy. 600 million tons of hydrogen fused per second. E=mc² converts tiny mass into vast energy. Fusion reactors on Earth (ITER) are trying to replicate this — the ultimate clean energy source."
     }
   ]
 }

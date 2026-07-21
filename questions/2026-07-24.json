@@ -53,19 +53,6 @@
       "memory_hook": "NBA: 4 quarters x 12 minutes = 48. College: 2 halves x 20 = 40."
     },
     {
-      "category": "Sports",
-      "question": "What is a 'perfect game' in baseball?",
-      "options": [
-        "A pitcher strikes out every batter",
-        "A pitcher allows no runs",
-        "A team scores in every inning",
-        "A pitcher allows no hits, walks, or runners in 27 consecutive outs"
-      ],
-      "answer": "A pitcher allows no hits, walks, or runners in 27 consecutive outs",
-      "explanation": "A perfect game in baseball occurs when a pitcher faces only 27 batters over 9 innings, retiring each without allowing any to reach base. It is the rarest regular achievement in baseball — only 24 have been recorded in MLB history. A no-hitter allows no hits but may have walks.",
-      "memory_hook": "Perfect game: 27 up, 27 down. No one reaches base. Baseball's rarest gem."
-    },
-    {
       "category": "Pop Culture",
       "question": "Who sang 'Shape of You' and 'Bad Habits'?",
       "options": [
@@ -118,19 +105,6 @@
       "memory_hook": "Napoleon's last exile: St. Helena. So remote no one could rescue him."
     },
     {
-      "category": "History",
-      "question": "The 'Industrial Revolution' began in which country?",
-      "options": [
-        "France",
-        "Germany",
-        "Belgium",
-        "Great Britain"
-      ],
-      "answer": "Great Britain",
-      "explanation": "The Industrial Revolution began in Great Britain in the mid-18th century, transforming manufacturing, transportation, and society. Key inventions included James Watt's improved steam engine (1769), the spinning jenny, and the power loom. Britain's coal and iron resources, as well as its colonial trade networks, fueled the revolution.",
-      "memory_hook": "Britain sparked the Industrial Revolution — coal, steam, and an empire of factories."
-    },
-    {
       "category": "Geography",
       "question": "Which European country has the most UNESCO World Heritage Sites?",
       "options": [
@@ -155,6 +129,32 @@
       "answer": "Carbon dioxide",
       "explanation": "Plants absorb carbon dioxide (CO2) from the air through tiny pores called stomata in their leaves. Combined with water from the roots and energy from sunlight, they convert CO2 into glucose and release oxygen as a byproduct. This is why forests are called carbon sinks — they continuously pull CO2 out of the atmosphere.",
       "memory_hook": "Plants breathe in CO2, breathe out oxygen. The exact opposite of animals. Trees are essentially CO2 processors — turning a greenhouse gas into wood and leaves while releasing the oxygen we breathe."
+    },
+    {
+      "category": "Geography",
+      "question": "Bhutan, the Himalayan kingdom nestled between India and China, measures national wellbeing using a unique metric it pioneered. What is it?",
+      "options": [
+        "Human Development Index",
+        "Quality of Life Index",
+        "Gross National Happiness",
+        "Sustainable Progress Rating"
+      ],
+      "answer": "Gross National Happiness",
+      "explanation": "Bhutan is the only country in the world that measures policy success through Gross National Happiness (GNH) rather than Gross Domestic Product (GDP). The concept was introduced by the fourth King of Bhutan in the 1970s and encompasses psychological wellbeing, cultural resilience, environmental conservation, and good governance. Bhutan is also notable for being carbon-negative (it absorbs more CO2 than it produces) and for being one of the last countries to get television (1999).",
+      "memory_hook": "Bhutan: Gross National Happiness instead of GDP. The only country measuring wellbeing as official policy. Carbon-negative — it absorbs more CO2 than it emits. TV only arrived in 1999. A tiny Himalayan kingdom between India and China that's doing things very differently."
+    },
+    {
+      "category": "Science & Nature",
+      "question": "Gregor Mendel's pea plant experiments revealed that some traits are 'dominant' and some 'recessive.' What does it mean for a trait to be recessive?",
+      "options": [
+        "It appears in every generation",
+        "It can only be inherited from the mother",
+        "It only appears when an organism inherits two copies of the recessive allele",
+        "It disappears from the population over time"
+      ],
+      "answer": "It only appears when an organism inherits two copies of the recessive allele",
+      "explanation": "A recessive trait is only expressed when an organism is homozygous for the recessive allele (inherits one copy from each parent). A single dominant allele 'overrides' the recessive one. Mendel's key insight (published 1866, ignored for 35 years) was that traits don't blend — they are inherited as discrete particles (genes) with dominant/recessive relationships. Common recessive traits in humans include blue eyes, blood type O, cystic fibrosis, and albinism.",
+      "memory_hook": "Recessive = only shows when you have TWO copies. One dominant allele silences it. Mendel figured this out with peas — published in 1866, ignored for 35 years, then rediscovered. Blue eyes, blood type O, cystic fibrosis are all recessive. You can carry a trait invisibly for generations."
     }
   ]
 }

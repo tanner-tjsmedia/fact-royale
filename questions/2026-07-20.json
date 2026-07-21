@@ -53,19 +53,6 @@
       "memory_hook": "1936 Berlin — the torch relay began, and never stopped."
     },
     {
-      "category": "Sports",
-      "question": "What sport uses the term 'en garde'?",
-      "options": [
-        "Archery",
-        "Fencing",
-        "Jousting",
-        "Polo"
-      ],
-      "answer": "Fencing",
-      "explanation": "'En garde' is a French phrase meaning 'on guard' and is the starting command in fencing bouts. It instructs fencers to assume their ready positions. The phrase has entered common usage to mean 'prepare to defend yourself' or as a warning that a challenge is coming.",
-      "memory_hook": "'En garde!' — French for 'get ready to be stabbed.'"
-    },
-    {
       "category": "Pop Culture",
       "question": "Who played the title character in 'Black Panther: Wakanda Forever'?",
       "options": [
@@ -118,19 +105,6 @@
       "memory_hook": "Six million Jewish lives lost. Eleven million total. Never forget."
     },
     {
-      "category": "History",
-      "question": "Who was the last tsar of Russia?",
-      "options": [
-        "Alexander III",
-        "Ivan the Terrible",
-        "Peter the Great",
-        "Nicholas II"
-      ],
-      "answer": "Nicholas II",
-      "explanation": "Nicholas II was the last Emperor of Russia, ruling from 1894 until the Russian Revolution of 1917 forced his abdication. He and his family were executed by Bolshevik forces on July 17, 1918. His reign was marked by political repression and Russia's devastating involvement in World War I.",
-      "memory_hook": "Nicholas II — the last tsar. Russia's final emperor, executed by his own revolution."
-    },
-    {
       "category": "Geography",
       "question": "Which river flows through the most countries in Europe?",
       "options": [
@@ -155,6 +129,32 @@
       "answer": "118",
       "explanation": "The periodic table currently contains 118 confirmed elements. Elements 1-94 (hydrogen through plutonium) occur naturally on Earth; elements 95-118 are synthetic and were created in laboratories. Element 118, Oganesson, was first synthesized in 2002 and is so unstable it only exists for milliseconds.",
       "memory_hook": "118 elements on the periodic table. 94 occur in nature, 24 are man-made. Every substance in the universe is made from combinations of just 118 basic building blocks."
+    },
+    {
+      "category": "Geography",
+      "question": "The Great Salt Lake in Utah is the largest saltwater lake in the Western Hemisphere. What unique feature makes it impossible for most fish to survive in it?",
+      "options": [
+        "It is too deep for sunlight",
+        "It is too cold year-round",
+        "Its salinity is 3-8 times saltier than the ocean",
+        "It contains toxic minerals"
+      ],
+      "answer": "Its salinity is 3-8 times saltier than the ocean",
+      "explanation": "The Great Salt Lake has a salinity of roughly 5-27% (the ocean is 3.5%), varying by location and water level. This extreme saltiness means almost no fish can survive — only brine shrimp and brine flies thrive there, which support millions of migratory birds. The lake has no outlet; water only leaves by evaporation, concentrating minerals. It has been shrinking significantly due to irrigation diversions and climate change, exposing toxic dust on the lakebed.",
+      "memory_hook": "Great Salt Lake: 3-8x saltier than the ocean. No fish — just brine shrimp and brine flies that feed millions of migratory birds. No outlet, so water evaporates and salts concentrate. It's been shrinking dramatically; the exposed lakebed creates toxic dust storms over Salt Lake City."
+    },
+    {
+      "category": "Science & Nature",
+      "question": "Which environmental problem, caused by chlorofluorocarbons (CFCs) used in aerosols and refrigerants, has led to the thinning of a protective atmospheric layer?",
+      "options": [
+        "Acid rain",
+        "Global warming",
+        "Ozone depletion",
+        "Smog formation"
+      ],
+      "answer": "Ozone depletion",
+      "explanation": "Ozone depletion refers to the thinning of the stratospheric ozone layer caused primarily by chlorofluorocarbons (CFCs) — chemicals formerly used in aerosol sprays, refrigerators, and air conditioners. When CFCs reach the stratosphere, UV radiation breaks them down, releasing chlorine atoms that destroy ozone molecules catalytically. The Antarctic ozone 'hole' was discovered in 1985. The 1987 Montreal Protocol successfully phased out most CFC production, and the ozone layer is gradually recovering.",
+      "memory_hook": "Ozone depletion: CFCs break apart in the stratosphere and destroy ozone (O₃). Antarctic 'hole' discovered 1985. Montreal Protocol (1987) phased out CFCs — one of the most successful environmental treaties ever. The ozone layer is actually recovering. This is the rare environmental success story."
     }
   ]
 }

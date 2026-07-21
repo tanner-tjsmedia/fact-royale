@@ -67,32 +67,6 @@
       "memory_hook": "Olympic torch relay = invented for 1936 Nazi Olympics. Leni Riefenstahl's documentary made it look magnificent. The IOC kept the tradition after WWII even knowing its origins. The relay is now one of sport's most iconic rituals — invented as propaganda, adopted as tradition."
     },
     {
-      "category": "Sports",
-      "question": "What is 'free diving' in swimming competitions?",
-      "options": [
-        "Diving with no equipment",
-        "Diving from any height",
-        "Swimming any stroke for distance",
-        "The freestyle swimming event"
-      ],
-      "answer": "The freestyle swimming event",
-      "explanation": "In competitive swimming, 'freestyle' means the swimmer may use any stroke they choose. In practice, all competitive swimmers choose the front crawl (often called the freestyle stroke) because it is fastest. The freestyle event distance ranges from 50 meters to 1500 meters in Olympic competition. 'Free diving' as a breath-hold sport is different — competitive swimmers call their event simply 'freestyle.'",
-      "memory_hook": "Freestyle swimming = any stroke, but everyone uses front crawl because it's fastest. The 1500m freestyle is the longest pool event — swimmers do 30 laps, sometimes called the 'mile' though it's actually 1,500m. The 50m freestyle is the sprint — 21 seconds of controlled explosion."
-    },
-    {
-      "category": "Sports",
-      "question": "The 'Thrilla in Manila' boxing match between Muhammad Ali and Joe Frazier took place in which year?",
-      "options": [
-        "1971",
-        "1973",
-        "1975",
-        "1978"
-      ],
-      "answer": "1975",
-      "explanation": "The 'Thrilla in Manila' took place on October 1, 1975, in Quezon City, Philippines. It was the third and final fight between Muhammad Ali and Joe Frazier. Ali won by TKO in the 15th round when Frazier's corner stopped the fight. Both men were near their physical limits. Ali reportedly said afterward it was 'the closest thing to dying that I know of.' It is widely considered one of the greatest sporting events in history.",
-      "memory_hook": "Thrilla in Manila = Ali vs Frazier III, 1975. In the Philippines, 4 AM local time to capture US TV. Ali won when Frazier's trainer stopped it. Ali said afterward it was 'the closest to dying I know of.' Both men were broken by the fight. Frazier never fully forgave Ali for the verbal abuse in the lead-up."
-    },
-    {
       "category": "Pop Culture",
       "question": "Which visionary director, known for surreal imagery and dark themes, created 'Blue Velvet' (1986), 'Twin Peaks' (TV), and 'Mulholland Drive' (2001)?",
       "options": [
@@ -156,6 +130,32 @@
       "answer": "Proxima Centauri",
       "explanation": "Proxima Centauri is the closest known star to our solar system, at about 4.24 light-years away. It is a red dwarf star and part of the Alpha Centauri triple star system. Proxima Centauri has a potentially habitable planet, Proxima b, in its orbit. Even at the speed of our fastest spacecraft, it would take over 75,000 years to reach Proxima Centauri.",
       "memory_hook": "Proxima Centauri = closest star, 4.24 light-years away. Traveling at NASA's New Horizons spacecraft speed (58,000 km/h), it would take 78,000 years to get there. Our nearest neighbor is impossibly far by any human standard of distance."
+    },
+    {
+      "category": "Geography",
+      "question": "The Murray River, Australia's longest at 2,508 km, forms the border between which two Australian states for most of its length?",
+      "options": [
+        "Queensland and South Australia",
+        "Tasmania and Victoria",
+        "Victoria and New South Wales",
+        "Western Australia and South Australia"
+      ],
+      "answer": "Victoria and New South Wales",
+      "explanation": "The Murray River forms the boundary between Victoria (south bank) and New South Wales (north bank) for most of its 2,508 km length before flowing through South Australia to reach the Southern Ocean. Together with the Darling River, the Murray-Darling Basin produces about 40% of Australia's food. The river system suffers from over-allocation of water rights for irrigation, causing environmental damage including algal blooms and reduced flows to the sea.",
+      "memory_hook": "Murray River: 2,508 km, forms Victoria/NSW border. Murray-Darling Basin = 40% of Australian food production. Over-irrigated and stressed — the Murray barely reaches the sea in drought years. A classic case of too many water rights allocated to too many farms along one river."
+    },
+    {
+      "category": "Science & Nature",
+      "question": "What are stem cells, and what makes them medically significant?",
+      "options": [
+        "Cells found only in bone marrow that produce red blood cells",
+        "Undifferentiated cells that can develop into many specialized cell types, with potential to repair damaged tissues",
+        "Cells that control plant growth",
+        "The cells responsible for immune responses"
+      ],
+      "answer": "Undifferentiated cells that can develop into many specialized cell types, with potential to repair damaged tissues",
+      "explanation": "Stem cells are undifferentiated cells capable of self-renewal and differentiation into specialized cell types. Embryonic stem cells can become any cell type; adult stem cells (found in bone marrow, fat, and other tissues) are more limited. They hold enormous medical promise for regenerating damaged tissues — potential treatments for Parkinson's, Alzheimer's, heart disease, spinal injuries, and diabetes. The field remains active with controversy around embryonic stem cell sources, while induced pluripotent stem cells (iPSCs) offer an alternative by reprogramming adult cells.",
+      "memory_hook": "Stem cells = undifferentiated, can become specialized cells. Embryonic (any cell type) vs. adult (more limited). iPSCs = reprogrammed adult cells — Nobel Prize 2012 (Yamanaka). Could treat Parkinson's, heart disease, spinal injury. You started as a stem cell — a single totipotent cell that differentiated into every tissue in your body."
     }
   ]
 }

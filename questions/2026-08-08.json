@@ -41,19 +41,6 @@
       "memory_hook": "Ethiopia = formerly Abyssinia. The only African country never truly colonized. Ancient, proud history — the Ark of the Covenant is said to be kept in a church in Axum. The only African nation to defeat a European colonial army at the Battle of Adwa in 1896."
     },
     {
-      "category": "History",
-      "question": "The Battle of Hastings in 1066 resulted in the Norman conquest of which country?",
-      "options": [
-        "France",
-        "Scotland",
-        "Denmark",
-        "England"
-      ],
-      "answer": "England",
-      "explanation": "The Battle of Hastings on October 14, 1066, saw William the Conqueror of Normandy defeat King Harold II of England. Harold was killed — reportedly shot in the eye by an arrow — and William became King William I of England. The conquest dramatically changed English culture, language (French became the language of the court), law, and society. About a third of English vocabulary comes from French as a result.",
-      "memory_hook": "Hastings 1066 = Normans conquer England. Harold killed (arrow in the eye, supposedly). William the Conqueror becomes king. French vocabulary floods English — that's why English has so many French-origin words for aristocracy, cuisine, law, and war."
-    },
-    {
       "category": "Sports",
       "question": "At the 2008 Beijing Olympics, which sprinter set a world record in the 100m, finishing in 9.69 seconds?",
       "options": [
@@ -78,19 +65,6 @@
       "answer": "Cricket",
       "explanation": "The Ashes is a Test cricket series played between England and Australia, with the trophy being a small urn containing the ashes of a burnt cricket bail. The series began in 1882 after Australia beat England in England for the first time. A mock obituary declared that English cricket had 'died' and its 'ashes' were taken to Australia. The two countries have competed for the symbolic urn ever since.",
       "memory_hook": "The Ashes = England vs Australia cricket. The urn contains actual ashes of a cricket bail. Started in 1882 as a joke in a newspaper — and became one of sport's oldest and most intense rivalries. The physical urn barely leaves the Lord's Cricket Ground museum."
-    },
-    {
-      "category": "Sports",
-      "question": "What does 'UCI' stand for in professional cycling?",
-      "options": [
-        "Universal Cycling Institution",
-        "United Cycling International",
-        "Union Cyclists International",
-        "Union Cycliste Internationale"
-      ],
-      "answer": "Union Cycliste Internationale",
-      "explanation": "The UCI (Union Cycliste Internationale) is the world governing body for cycling, founded in 1900 and based in Aigle, Switzerland. It oversees all competitive cycling including road, track, mountain bike, BMX, and cyclo-cross. The UCI governs the Tour de France (though the ASO organizes it), establishes technical regulations, and runs the UCI WorldTour ranking system.",
-      "memory_hook": "UCI = Union Cycliste Internationale. French-origin name because cycling's major events (Tour de France, Paris-Roubaix, Liege-Bastogne-Liege) all started in France or Belgium. Founded 1900 — almost as old as the modern Olympics."
     },
     {
       "category": "Pop Culture",
@@ -156,6 +130,32 @@
       "answer": "The Moon",
       "explanation": "Earth has one natural satellite, called the Moon. It is the fifth-largest moon in the solar system and the largest relative to the size of its host planet. The Moon stabilizes Earth's axial tilt (preventing extreme climate shifts), causes ocean tides, and has influenced calendars and navigation throughout human history. Twelve people have walked on the Moon — all American, all between 1969 and 1972.",
       "memory_hook": "Earth has one moon — just 'the Moon.' 12 people have walked on it, all between 1969-1972. The Moon is slowly drifting away from Earth at 3.8 cm per year. In the far future, it will stop making total solar eclipses because it'll be too far away."
+    },
+    {
+      "category": "Geography",
+      "question": "The Azores, a Portuguese autonomous archipelago of nine islands known for volcanic landscape and whale watching, lies in which ocean?",
+      "options": [
+        "Indian Ocean",
+        "Mediterranean Sea",
+        "Pacific Ocean",
+        "Atlantic Ocean"
+      ],
+      "answer": "Atlantic Ocean",
+      "explanation": "The Azores are located in the North Atlantic Ocean, about 1,500 km west of Lisbon, Portugal. The nine islands sit on the Mid-Atlantic Ridge, making them tectonically active with volcanoes, hot springs, and fumaroles. The islands are an autonomous region of Portugal with their own government. Because they lie on major transatlantic shipping routes, the Azores were historically an important stopping point for explorers and whalers. Today they are known for whale watching, hiking, and dramatically green landscapes.",
+      "memory_hook": "Azores: 9 Portuguese islands in the North Atlantic, 1,500 km west of Lisbon. Sit on the Mid-Atlantic Ridge — volcanic, with hot springs and geysers. Strategic transatlantic stopping point for centuries. Known today for whale watching and dramatic volcanic scenery."
+    },
+    {
+      "category": "Science & Nature",
+      "question": "How do bacteria reproduce — what is the simple division process that allows them to double in number roughly every 20 minutes under ideal conditions?",
+      "options": [
+        "Budding",
+        "Mitosis",
+        "Binary fission",
+        "Sporulation"
+      ],
+      "answer": "Binary fission",
+      "explanation": "Binary fission is the primary reproductive method of bacteria: a single bacterium replicates its DNA, grows in size, and splits into two genetically identical daughter cells. Under ideal conditions (warmth, nutrients, moisture), E. coli can divide every 20 minutes, meaning a single cell becomes 1 billion in just 10 hours. This rapid reproduction is both what makes bacterial infections dangerous and what allows beneficial bacteria (in fermentation, pharmaceuticals) to be so productive. Mutations during copying introduce genetic variation.",
+      "memory_hook": "Binary fission: bacteria split in two, doubling every ~20 minutes under ideal conditions. One E. coli becomes 1 billion in 10 hours. This rapid reproduction is why infections can overwhelm you quickly — and why antibiotics must start early. It's also why yogurt, cheese, and antibiotics are all possible."
     }
   ]
 }

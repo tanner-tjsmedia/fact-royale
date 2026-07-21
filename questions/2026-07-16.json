@@ -53,19 +53,6 @@
       "memory_hook": "England invented ping pong — China perfected it."
     },
     {
-      "category": "Sports",
-      "question": "In which sport do athletes compete in the 'halfpipe'?",
-      "options": [
-        "Skateboarding and snowboarding",
-        "Swimming",
-        "Track cycling",
-        "Rowing"
-      ],
-      "answer": "Skateboarding and snowboarding",
-      "explanation": "The halfpipe is a feature used in both skateboarding and snowboarding competitions. Athletes ride up and down the curved walls of a U-shaped structure performing aerial tricks. Halfpipe events are part of the Winter Olympics (snowboarding since 1998) and Summer Olympics (skateboarding since 2020).",
-      "memory_hook": "Halfpipe: literally half a pipe, U-shaped, and terrifyingly vertical."
-    },
-    {
       "category": "Pop Culture",
       "question": "What band recorded 'Smells Like Teen Spirit'?",
       "options": [
@@ -118,19 +105,6 @@
       "memory_hook": "Constantinople became Istanbul — even The Four Tops sang about the change."
     },
     {
-      "category": "History",
-      "question": "What was the name of the British spy organization featured in James Bond films?",
-      "options": [
-        "GCHQ",
-        "MI6",
-        "MI5",
-        "SAS"
-      ],
-      "answer": "MI6",
-      "explanation": "MI6 (Military Intelligence, Section 6), officially known as the Secret Intelligence Service (SIS), is the British foreign intelligence agency. James Bond works for MI6 under the director known as 'M.' The real MI6 headquarters is in Vauxhall, London — depicted in several Bond films.",
-      "memory_hook": "MI6 = James Bond's employer. The real headquarters overlooks the Thames."
-    },
-    {
       "category": "Geography",
       "question": "Which country contains the most of the Amazon rainforest?",
       "options": [
@@ -155,6 +129,32 @@
       "answer": "Earthquake magnitude",
       "explanation": "The Richter scale, developed by Charles Richter in 1935, measures the magnitude (energy released) of earthquakes. It is logarithmic — each whole number increase represents about 31.6 times more energy. A magnitude 7.0 quake releases 31.6 times more energy than a 6.0, and about 1,000 times more than a 5.0.",
       "memory_hook": "Richter scale = earthquake strength. Logarithmic — each step is 31 times more powerful. A magnitude 8 isn't twice as strong as a 4; it's millions of times stronger."
+    },
+    {
+      "category": "Geography",
+      "question": "Niagara... no. Java, the most populous island in the world with about 150 million people, belongs to which country?",
+      "options": [
+        "Philippines",
+        "Malaysia",
+        "India",
+        "Indonesia"
+      ],
+      "answer": "Indonesia",
+      "explanation": "Java is the most densely populated island on Earth, home to approximately 150 million people — about 60% of Indonesia's total population. It contains the capital Jakarta (though Indonesia is building a new capital, Nusantara, in Borneo), the historic city of Yogyakarta, and the iconic Borobudur Buddhist temple. Despite being only the 13th-largest island in the world, Java's volcanic soils are extraordinarily fertile, supporting intensive rice agriculture.",
+      "memory_hook": "Java = most populous island, ~150M people (60% of Indonesia's population). Home to Jakarta and Borobudur. Fertile volcanic soil supports intensive rice farming. Indonesia is moving its capital to Borneo — Jakarta is sinking into the sea from groundwater extraction."
+    },
+    {
+      "category": "Science & Nature",
+      "question": "How does bioluminescence work — what is the chemical process that allows living organisms like fireflies and deep-sea creatures to produce light?",
+      "options": [
+        "They reflect stored sunlight",
+        "A chemical reaction between luciferin and luciferase produces light without heat",
+        "They use electrical signals",
+        "Phosphorescence from minerals in their diet"
+      ],
+      "answer": "A chemical reaction between luciferin and luciferase produces light without heat",
+      "explanation": "Bioluminescence is produced when the molecule luciferin is oxidized in the presence of the enzyme luciferase, releasing energy as light (with very little heat). This 'cold light' is used for a variety of purposes: fireflies use it to attract mates; anglerfish lure prey; some squid use it for camouflage; dinoflagellates (plankton) produce blue flashes when disturbed. About 75% of deep-sea animals are bioluminescent.",
+      "memory_hook": "Bioluminescence: luciferin + luciferase + oxygen = light, no heat. Fireflies use it for mating. Anglerfish lure prey. 75% of deep-sea animals produce it. Dinoflagellates make oceans glow blue at night when disturbed. Cold light — efficient, purposeful, and beautiful."
     }
   ]
 }

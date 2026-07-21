@@ -41,19 +41,6 @@
       "memory_hook": "Cuban Missile Crisis = 1962, 13 days. Missiles 90 miles from Florida. The world was hours from nuclear war. Both Kennedy and Khrushchev had advisors urging military action. Both leaders chose negotiation instead."
     },
     {
-      "category": "History",
-      "question": "The 'Boston Tea Party' of 1773 was a protest by American colonists against British taxation. What did protesters dump into Boston Harbor?",
-      "options": [
-        "British tea from the East India Company",
-        "Colonial tobacco",
-        "French wine",
-        "British ale"
-      ],
-      "answer": "British tea from the East India Company",
-      "explanation": "On December 16, 1773, American colonists disguised as Mohawk Indians boarded three British ships and threw 342 chests of East India Company tea into Boston Harbor. The protest was against the Tea Act, which gave the British East India Company a monopoly on tea sales in the colonies. Britain's harsh response — the Intolerable Acts — helped unite the colonies and led directly to the American Revolution.",
-      "memory_hook": "Boston Tea Party = 342 chests of British East India Company tea dumped in the harbor. The colonists were disguised as Mohawk Indians. Britain's response was so harsh it united the colonies. Tax protest caused a revolution."
-    },
-    {
       "category": "Sports",
       "question": "In which sport do athletes compete in the 'decathlon'?",
       "options": [
@@ -78,19 +65,6 @@
       "answer": "Century",
       "explanation": "A century in cricket means scoring 100 or more runs in a single batting innings. Sachin Tendulkar holds the record for most international centuries with 100 (51 in Tests, 49 in ODIs). A 'duck' is scoring zero runs; a 'half-century' is 50-99 runs.",
       "memory_hook": "Century = 100 runs in cricket. Sachin Tendulkar has 100 international centuries."
-    },
-    {
-      "category": "Sports",
-      "question": "Which Portuguese footballer holds the all-time record for goals scored in men's international football, with over 130 goals for his national team?",
-      "options": [
-        "Cristiano Ronaldo",
-        "Lionel Messi",
-        "Ali Daei",
-        "Pelé"
-      ],
-      "answer": "Cristiano Ronaldo",
-      "explanation": "Cristiano Ronaldo surpassed Iran's Ali Daei's previous record of 109 international goals in 2021. He has scored over 130 goals for Portugal's national team across World Cups and European Championships. Ronaldo also holds records for most goals in UEFA Champions League history.",
-      "memory_hook": "Cristiano Ronaldo: most international goals ever. Portugal's #7."
     },
     {
       "category": "Pop Culture",
@@ -156,6 +130,32 @@
       "answer": "Mesozoic Era",
       "explanation": "Dinosaurs lived during the Mesozoic Era, which lasted from about 252 to 66 million years ago. The Mesozoic is divided into three periods: the Triassic (when dinosaurs first appeared), Jurassic, and Cretaceous (when they went extinct). The era ended when a massive asteroid impact combined with volcanic activity caused a mass extinction that wiped out about 76% of all species, including non-avian dinosaurs.",
       "memory_hook": "Dinosaurs = Mesozoic Era. Triassic, Jurassic, Cretaceous. Mesozoic means 'middle life.' Birds are actually living dinosaurs — the only lineage that survived the asteroid 66 million years ago."
+    },
+    {
+      "category": "Geography",
+      "question": "The Strait of Dover, the narrowest point of the English Channel, separates England from France. How wide is it at its narrowest?",
+      "options": [
+        "13 km",
+        "33 km",
+        "55 km",
+        "100 km"
+      ],
+      "answer": "33 km",
+      "explanation": "The Strait of Dover (French: Pas de Calais) is approximately 33 km (21 miles) wide at its narrowest point, between Dover (England) and Cap Gris-Nez (France). It is the world's busiest shipping lane, with over 600 ships passing through daily. The Channel Tunnel runs beneath it (38 km of the 50 km total is underwater). On a clear day, the French coast is visible from the White Cliffs of Dover — which is why England has always worried about invasion from the continent.",
+      "memory_hook": "Strait of Dover: 33 km wide, world's busiest shipping lane. 600+ ships daily. You can see France from Dover on a clear day. Channel Tunnel runs beneath it (38 km underwater). This narrow strip of water has shaped British history — it's the reason England avoided so many European invasions."
+    },
+    {
+      "category": "Science & Nature",
+      "question": "What process causes materials to expand when heated and contract when cooled — and why do bridges and railroads need expansion joints?",
+      "options": [
+        "Phase transition",
+        "Osmosis",
+        "Thermal expansion",
+        "Convection"
+      ],
+      "answer": "Thermal expansion",
+      "explanation": "Thermal expansion occurs because heat increases the kinetic energy of molecules, causing them to move faster and push farther apart, expanding the material. Different materials expand at different rates (their coefficient of thermal expansion). Bridges and railroad tracks use expansion joints — deliberate gaps that accommodate expansion on hot summer days and contraction in winter. Without them, roads would buckle in summer heat. The Eiffel Tower is 15 cm taller in summer than in winter due to thermal expansion of its iron structure.",
+      "memory_hook": "Thermal expansion: molecules move faster when hot, spread apart. Bridges and tracks need expansion joints or they buckle in summer. The Eiffel Tower is 15 cm taller in summer than winter. This is also why you should check tire pressure in cold weather — cold air contracts, reducing pressure."
     }
   ]
 }

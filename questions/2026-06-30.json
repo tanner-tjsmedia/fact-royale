@@ -53,19 +53,6 @@
       "memory_hook": "Love = zero = egg. In tennis, love means nothing — literally."
     },
     {
-      "category": "Sports",
-      "question": "What sport takes place in a velodrome?",
-      "options": [
-        "Rowing",
-        "Speed skating",
-        "Cycling",
-        "Roller derby"
-      ],
-      "answer": "Cycling",
-      "explanation": "A velodrome is a cycling arena featuring a steeply banked oval track. Track cycling events at the Olympics take place in velodromes. The banked turns allow cyclists to maintain high speeds without losing traction.",
-      "memory_hook": "Velo = bike in French. Velodrome = bike dome."
-    },
-    {
       "category": "Pop Culture",
       "question": "Which director is known for films like 'Pulp Fiction' and 'Kill Bill'?",
       "options": [
@@ -118,19 +105,6 @@
       "memory_hook": "Bell invented the bell-shaped earpiece — his name was the clue."
     },
     {
-      "category": "History",
-      "question": "Which country was the first to grant women the right to vote?",
-      "options": [
-        "United States",
-        "United Kingdom",
-        "Australia",
-        "New Zealand"
-      ],
-      "answer": "New Zealand",
-      "explanation": "New Zealand became the first self-governing country to grant women the right to vote in 1893. Kate Sheppard led the suffrage movement, and Governor Lord Glasgow signed the Electoral Act into law on September 19, 1893.",
-      "memory_hook": "New Zealand — new land, new rights first."
-    },
-    {
       "category": "Geography",
       "question": "Lake Baikal in Russia holds approximately what fraction of the world's unfrozen fresh surface water?",
       "options": [
@@ -155,6 +129,32 @@
       "answer": "Red blood cells",
       "explanation": "Red blood cells contain hemoglobin, a protein that binds to oxygen in the lungs and releases it in other tissues. A single drop of blood contains about 5 million red blood cells. They have no nucleus, which gives them more room to carry hemoglobin and allows them to squeeze through tiny capillaries.",
       "memory_hook": "Red blood cells carry oxygen. No nucleus — just a bag of hemoglobin built for one job. They live about 120 days, then get recycled by the spleen."
+    },
+    {
+      "category": "Geography",
+      "question": "Mount Fuji, Japan's highest peak at 3,776 meters, is what type of volcano — characterized by steep, symmetrical sides built from alternating layers of lava and ash?",
+      "options": [
+        "Shield volcano",
+        "Cinder cone",
+        "Stratovolcano",
+        "Caldera"
+      ],
+      "answer": "Stratovolcano",
+      "explanation": "Mount Fuji is a stratovolcano (also called a composite volcano) — a steep-sided cone built by alternating layers of hardened lava, ash, and volcanic rock. Stratovolcanoes are typically more explosive than shield volcanoes. Fuji last erupted in 1707 in the Hōei eruption and is classified as potentially active. It is a UNESCO World Heritage Site and a revered symbol of Japan, visible from Tokyo on clear days.",
+      "memory_hook": "Mount Fuji = stratovolcano, 3,776m. Steep symmetrical sides from alternating lava and ash layers. Last erupted in 1707. UNESCO site and Japan's most iconic landmark. On a clear day it's visible from Tokyo 100 km away."
+    },
+    {
+      "category": "Science & Nature",
+      "question": "What is the name of the temperature scale where 0 represents absolute zero — the coldest possible temperature?",
+      "options": [
+        "Celsius",
+        "Fahrenheit",
+        "Rankine",
+        "Kelvin"
+      ],
+      "answer": "Kelvin",
+      "explanation": "The Kelvin scale (K) is the SI unit of temperature, with 0 K representing absolute zero (−273.15°C / −459.67°F) — the theoretical temperature at which all molecular motion ceases. The scale was proposed by William Thomson (Lord Kelvin) in 1848. There are no negative Kelvin temperatures. Water freezes at 273.15 K and boils at 373.15 K. Kelvin is used in scientific work, particularly in physics and astronomy.",
+      "memory_hook": "Kelvin = scientific temperature scale. 0 K = absolute zero (-273.15°C). No negative values — you can't get colder than nothing. Water freezes at 273 K, boils at 373 K. Scientists use Kelvin; the rest of us argue between Celsius and Fahrenheit."
     }
   ]
 }

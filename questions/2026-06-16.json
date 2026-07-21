@@ -67,19 +67,6 @@
       "memory_hook": "11 on each side — same as soccer. Two very different sports, same number on the field. Eleven is apparently the magic number for team sports."
     },
     {
-      "category": "Sports",
-      "question": "Which tennis tournament is played on grass courts and considered the oldest Grand Slam?",
-      "options": [
-        "The US Open",
-        "The Australian Open",
-        "Wimbledon",
-        "The French Open"
-      ],
-      "answer": "Wimbledon",
-      "explanation": "Wimbledon, formally The Championships, has been held at the All England Club in London since 1877, making it the oldest Grand Slam tennis tournament in the world. It is the only Grand Slam still played on grass, and players are traditionally required to wear all white.",
-      "memory_hook": "Wimbledon = white and green. White clothes, green grass, oldest tournament. If you picture a proper English garden party with tennis rackets, you've got Wimbledon."
-    },
-    {
       "category": "Pop Culture",
       "question": "Who played Iron Man in the Marvel Cinematic Universe?",
       "options": [
@@ -119,17 +106,56 @@
       "memory_hook": "Chicago + Christmas + chaos. The city known for wind and hustle gave us a kid who took on two criminals alone. Very on-brand for Chicago."
     },
     {
-      "category": "History",
-      "question": "Which explorer is credited with leading the first expedition to circumnavigate the globe?",
+      "category": "Geography",
+      "question": "Victoria Falls — called 'the smoke that thunders' by locals — sits on the border of Zimbabwe and which neighboring country?",
       "options": [
-        "Christopher Columbus",
-        "Vasco da Gama",
-        "Ferdinand Magellan",
-        "Francis Drake"
+        "Zambia",
+        "Botswana",
+        "Mozambique",
+        "Angola"
       ],
-      "answer": "Ferdinand Magellan",
-      "explanation": "Ferdinand Magellan led the expedition that first circumnavigated the Earth, departing Spain in 1519. Magellan himself was killed in the Philippines in 1521, but his crew completed the voyage under Juan Sebastián Elcano, returning to Spain in 1522 with only 18 of the original 270 men.",
-      "memory_hook": "Magellan started it, but didn't finish it — he died halfway. The trip took 3 years and only 18 men made it back. Going around the world was nearly a death sentence."
+      "answer": "Zambia",
+      "explanation": "Victoria Falls straddles the border between Zimbabwe (south bank) and Zambia (north bank) on the Zambezi River. At 1.7 km wide and 108 meters tall, it generates a mist column visible from 50 km away — earning its local Tonga name Mosi-oa-Tunya ('the smoke that thunders'). David Livingstone named it after Queen Victoria in 1855, becoming the first European to see it.",
+      "memory_hook": "Victoria Falls = Zimbabwe/Zambia border. Zambezi River. 'The smoke that thunders' — mist visible from 50 km. Livingstone named it after his queen; locals had a much better name."
+    },
+    {
+      "category": "Science & Nature",
+      "question": "What term describes the rigid outer shell of Earth, broken into tectonic plates that slowly drift on the semi-molten rock beneath?",
+      "options": [
+        "Asthenosphere",
+        "Mesosphere",
+        "Crust",
+        "Lithosphere"
+      ],
+      "answer": "Lithosphere",
+      "explanation": "The lithosphere is Earth's rigid outer shell, comprising the crust and the uppermost solid mantle. It is divided into about 15 major tectonic plates. Below the lithosphere is the asthenosphere — a semi-molten layer on which the plates slowly move at a few centimeters per year. This movement drives earthquakes, volcanic eruptions, mountain building, and the slow drift of continents.",
+      "memory_hook": "Lithosphere = tectonic plate layer. 'Litho' means rock. Below it: asthenosphere (semi-molten, makes plates move). Plates drift at fingernail speed — but that's fast enough to build mountain ranges and open oceans."
+    },
+    {
+      "category": "Geography",
+      "question": "Which river, flowing entirely within Russia, is the longest in Europe and empties into the Caspian Sea?",
+      "options": [
+        "Rhine",
+        "Danube",
+        "Don",
+        "Volga"
+      ],
+      "answer": "Volga",
+      "explanation": "The Volga River stretches 3,531 km, making it Europe's longest river by length. It flows south through central Russia before emptying into the Caspian Sea. The Volga drains about 40% of European Russia and historically connected Moscow to the Caspian trade routes. Cities like Nizhny Novgorod, Kazan, and Volgograd (formerly Stalingrad) sit on its banks.",
+      "memory_hook": "Volga = Europe's longest river. Flows through Russia → Caspian Sea. 40% of European Russia drains through it. Nizhny Novgorod, Kazan, and Stalingrad (Volgograd) are on its banks. Russia's 'Mother River.'"
+    },
+    {
+      "category": "Science & Nature",
+      "question": "At which two points in Earth's orbit is it closest to and farthest from the Sun?",
+      "options": [
+        "Equinox and solstice",
+        "Perihelion and aphelion",
+        "Zenith and nadir",
+        "Perigee and apogee"
+      ],
+      "answer": "Perihelion and aphelion",
+      "explanation": "Perihelion is the point in Earth's orbit when it is closest to the Sun (about 147 million km), occurring around January 3. Aphelion is the farthest point (about 152 million km), occurring around July 4. Counterintuitively, Earth is closest to the Sun during Northern Hemisphere winter — the seasons are caused by Earth's axial tilt, not its distance from the Sun.",
+      "memory_hook": "Perihelion = closest to Sun (Jan 3). Aphelion = farthest (Jul 4). Earth is nearest the Sun in WINTER — seasons come from axial tilt, not distance. Most people get this backwards."
     }
   ]
 }

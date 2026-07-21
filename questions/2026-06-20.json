@@ -4,7 +4,12 @@
     {
       "category": "History",
       "question": "The Black Death pandemic in the 14th century killed approximately what fraction of Europe's population?",
-      "options": ["One tenth", "One quarter", "One third", "One half"],
+      "options": [
+        "One tenth",
+        "One quarter",
+        "One third",
+        "One half"
+      ],
       "answer": "One third",
       "explanation": "The Black Death, caused by the bacterium Yersinia pestis, swept through Europe from 1347 to 1351, killing an estimated 30–60% of Europe's population — roughly one third by most historical consensus. It spread via fleas on rats along trade routes and killed as many as 50 million people worldwide. Europe's population didn't recover to pre-plague levels for 200 years.",
       "memory_hook": "One third of Europe — gone in four years. Imagine every third person you know disappearing by 1351. The Black Death didn't just kill people; it restructured all of European society in its aftermath."
@@ -12,7 +17,12 @@
     {
       "category": "History",
       "question": "In what year was the Roman Colosseum completed?",
-      "options": ["52 AD", "80 AD", "120 AD", "200 AD"],
+      "options": [
+        "52 AD",
+        "80 AD",
+        "120 AD",
+        "200 AD"
+      ],
       "answer": "80 AD",
       "explanation": "The Colosseum in Rome was completed around 80 AD under Emperor Titus, though construction began under Emperor Vespasian around 70 AD. It could hold between 50,000 and 80,000 spectators and hosted gladiatorial contests, animal hunts, executions, and mock naval battles. It remains the world's largest ancient amphitheater.",
       "memory_hook": "80 AD, 80,000 seats. The Colosseum was completed in 80 and held 80,000 — the two 80s are the same. A stadium built for a crowd the size of a modern NFL sellout, nearly 2,000 years ago."
@@ -20,23 +30,25 @@
     {
       "category": "History",
       "question": "Alexander the Great was the king of which ancient kingdom?",
-      "options": ["Athens", "Sparta", "Macedonia", "Persia"],
+      "options": [
+        "Athens",
+        "Sparta",
+        "Macedonia",
+        "Persia"
+      ],
       "answer": "Macedonia",
       "explanation": "Alexander the Great was King of Macedon (Macedonia), a kingdom in northern Greece. Tutored by Aristotle, he became king at 20 and built one of history's largest empires — stretching from Greece through Persia, Egypt, and into northwest India — all by the age of 32, when he died in Babylon in 323 BC.",
       "memory_hook": "Macedonia = Alexander. He was tutored by Aristotle and went on to conquer the known world. A student of the greatest philosopher becoming the greatest conqueror — the ultimate overachiever."
     },
     {
-      "category": "History",
-      "question": "Who invented the World Wide Web in 1989?",
-      "options": ["Bill Gates", "Steve Jobs", "Tim Berners-Lee", "Vint Cerf"],
-      "answer": "Tim Berners-Lee",
-      "explanation": "Tim Berners-Lee, a British scientist at CERN in Switzerland, invented the World Wide Web in 1989 and implemented the first successful communication between an HTTP client and server in December 1990. Crucially, he chose not to patent his invention, giving the web to humanity as a free and open resource.",
-      "memory_hook": "Berners-Lee built the web and gave it away for free. He could have been the richest person in history. Instead, he's a knight (Sir Tim Berners-Lee) and a professor. The most generous decision in tech history."
-    },
-    {
       "category": "Sports",
       "question": "Usain Bolt's world record in the 100 meter sprint is approximately how fast?",
-      "options": ["9.27 seconds", "9.58 seconds", "9.69 seconds", "9.84 seconds"],
+      "options": [
+        "9.27 seconds",
+        "9.58 seconds",
+        "9.69 seconds",
+        "9.84 seconds"
+      ],
       "answer": "9.58 seconds",
       "explanation": "Usain Bolt set the 100m world record of 9.58 seconds at the 2009 World Championships in Berlin, Germany. At peak speed during the race, he was running approximately 27.8 mph (44.7 km/h). Bolt also holds the 200m world record of 19.19 seconds and won 8 Olympic gold medals across three Games.",
       "memory_hook": "9.58 — less than 10 seconds to run 100 meters. The world's fastest human took less time than it takes to read this sentence aloud. Bolt was running faster than most people cycle."
@@ -44,23 +56,25 @@
     {
       "category": "Sports",
       "question": "How many players from one team are on the ice at a time during a standard NHL hockey game?",
-      "options": ["5", "6", "7", "8"],
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
       "answer": "6",
       "explanation": "Each NHL team has 6 players on the ice at a time: one goaltender, two defensemen, and three forwards (two wingers and a center). When a player is penalized, their team plays 'shorthanded' with only 5 or 4 skaters, giving the opposing team a 'power play' advantage.",
       "memory_hook": "6 on ice = 1 goalie + 2 defense + 3 forwards. A triangle up front, a pair in back, and one last line of defense. Pull the goalie for an extra attacker and you're down to five — hockey's ultimate desperation move."
     },
     {
-      "category": "Sports",
-      "question": "How long is a standard professional soccer match?",
-      "options": ["80 minutes", "90 minutes", "100 minutes", "120 minutes"],
-      "answer": "90 minutes",
-      "explanation": "A standard professional soccer match consists of two 45-minute halves, totaling 90 minutes. The referee can add 'stoppage time' at the end of each half to compensate for time lost to injuries, substitutions, or other stoppages. If tied after 90 minutes in knockout competition, 30 minutes of extra time are played before a penalty shootout.",
-      "memory_hook": "90 minutes = two 45s. Soccer is 90 minutes of running with one 15-minute break. No timeouts. That's why the fitness level required is extraordinary — imagine running for 90 minutes with almost no break."
-    },
-    {
       "category": "Pop Culture",
       "question": "Which film holds the record as the highest-grossing movie of all time globally?",
-      "options": ["Avengers: Endgame", "Titanic", "Avatar", "Star Wars: The Force Awakens"],
+      "options": [
+        "Avengers: Endgame",
+        "Titanic",
+        "Avatar",
+        "Star Wars: The Force Awakens"
+      ],
       "answer": "Avatar",
       "explanation": "James Cameron's Avatar (2009) holds the record as the highest-grossing film of all time with over $2.9 billion in global box office receipts — a record it reclaimed after a 2022 re-release, surpassing Avengers: Endgame. Its sequel, Avatar: The Way of Water (2022), also crossed $2 billion.",
       "memory_hook": "Avatar = blue people, blue ribbon. James Cameron holds both #1 and #2 on the all-time list (Avatar and Titanic). He didn't just make movies — he built the two biggest cinematic box offices in history."
@@ -68,7 +82,12 @@
     {
       "category": "Pop Culture",
       "question": "Beethoven composed some of his most celebrated works, including his 9th Symphony, while suffering from what condition?",
-      "options": ["Blindness", "Deafness", "Paralysis", "Chronic pain"],
+      "options": [
+        "Blindness",
+        "Deafness",
+        "Paralysis",
+        "Chronic pain"
+      ],
       "answer": "Deafness",
       "explanation": "Ludwig van Beethoven began losing his hearing in his late 20s and was almost completely deaf by his mid-40s, yet continued composing. His 9th Symphony — which includes 'Ode to Joy' — was composed entirely while deaf. At its 1824 premiere, he reportedly had to be turned around to see the audience's standing ovation because he couldn't hear it.",
       "memory_hook": "Beethoven heard music the world couldn't — because he heard it in his head, not his ears. A deaf composer is like a blind painter. His 9th Symphony is arguably the greatest piece of music ever written, created in total silence."
@@ -76,10 +95,67 @@
     {
       "category": "Pop Culture",
       "question": "Which Shakespeare play is the animated film 'The Lion King' loosely based on?",
-      "options": ["Macbeth", "Othello", "King Lear", "Hamlet"],
+      "options": [
+        "Macbeth",
+        "Othello",
+        "King Lear",
+        "Hamlet"
+      ],
       "answer": "Hamlet",
       "explanation": "The Lion King (1994) is heavily inspired by Shakespeare's Hamlet: a prince whose father is murdered by his uncle, who then usurps the throne. Simba's story mirrors Hamlet's — exile, a ghostly father's appearance, a return to claim the kingdom. Despite the similarities, Disney has never officially acknowledged the connection.",
       "memory_hook": "Simba = Hamlet. Father murdered by uncle, prince goes into exile, ghost of the father returns, prince comes back to take the throne. Same plot, different species. Hakuna Matata = 'To be or not to be' in animal kingdom terms."
+    },
+    {
+      "category": "Geography",
+      "question": "Which is the largest island in the Caribbean Sea?",
+      "options": [
+        "Jamaica",
+        "Hispaniola",
+        "Puerto Rico",
+        "Cuba"
+      ],
+      "answer": "Cuba",
+      "explanation": "Cuba spans 109,884 km² — making it the largest island in the Caribbean, more than twice the size of Hispaniola (Haiti and the Dominican Republic). Christopher Columbus landed on Cuba in 1492, calling it 'the most beautiful land human eyes have ever seen.' It was a Spanish colony for nearly 400 years before becoming a US protectorate and eventually a communist state under Fidel Castro in 1959.",
+      "memory_hook": "Cuba = largest Caribbean island. 2x bigger than Hispaniola. Columbus called it the most beautiful land he'd ever seen. Spanish for 400 years, then independent, then communist. 90 miles from Florida — the Cold War's most tense geographic fact."
+    },
+    {
+      "category": "Science & Nature",
+      "question": "Which part of the human brain, located at the back of the skull, is primarily responsible for balance, coordination, and fine motor control?",
+      "options": [
+        "Cerebrum",
+        "Cerebellum",
+        "Hippocampus",
+        "Brain stem"
+      ],
+      "answer": "Cerebellum",
+      "explanation": "The cerebellum ('little brain' in Latin) occupies the rear of the skull and contains more neurons than the rest of the brain combined, despite accounting for only about 10% of total brain volume. It coordinates movement, maintains balance, and refines fine motor skills. Alcohol impairs the cerebellum first — which is why intoxicated people stumble and have poor coordination before their thinking is severely affected. The cerebrum handles reasoning; the brain stem controls breathing and heart rate.",
+      "memory_hook": "Cerebellum = coordination. 'Little brain' at the back — more neurons than the rest of the brain. Alcohol hits it first: that's why drunk people stumble before they slur badly. Your cerebellum makes everything smooth."
+    },
+    {
+      "category": "Geography",
+      "question": "The Pantanal, the world's largest tropical wetland covering approximately 150,000 km², is located primarily in which country?",
+      "options": [
+        "Argentina",
+        "Bolivia",
+        "Paraguay",
+        "Brazil"
+      ],
+      "answer": "Brazil",
+      "explanation": "The Pantanal covers about 150,000-195,000 km² primarily in Brazil's Mato Grosso do Sul state, with portions in Bolivia and Paraguay. Unlike the Amazon, the Pantanal floods seasonally (during wet season, 80% is submerged) then dries, creating a pulsing mosaic of habitats. It has one of the highest densities of wildlife in the Americas: jaguars, giant anteaters, hyacinth macaws, caimans, giant otters, and tapirs. The 2020 wildfires burned roughly 30% of the Pantanal.",
+      "memory_hook": "Pantanal: world's largest tropical wetland, mostly in Brazil. 150,000+ km², floods 80% seasonally. Highest jaguar density in the Americas. Giant anteaters, hyacinth macaws, 10 million caimans. 2020 fires burned 30% of it. Less famous than the Amazon but arguably wilder."
+    },
+    {
+      "category": "Science & Nature",
+      "question": "What distinguishes plant cells from animal cells — what structure does a plant cell have that an animal cell lacks?",
+      "options": [
+        "Mitochondria",
+        "Cell wall",
+        "Nucleus",
+        "Ribosomes"
+      ],
+      "answer": "Cell wall",
+      "explanation": "Plant cells have a rigid cell wall made of cellulose outside their cell membrane, providing structural support and protection. Animal cells lack a cell wall — they have only a flexible cell membrane. Plant cells also contain chloroplasts (for photosynthesis) and large central vacuoles (for water storage and turgor pressure). The cell wall is what makes plants rigid enough to stand without skeletons — trees are essentially stacked cells with cellulose walls holding them upright.",
+      "memory_hook": "Plant cells have cell walls (cellulose), animal cells don't. Cell walls make plants rigid — trees are basically stacked cells with wooden walls. Plants also have chloroplasts (photosynthesis) and central vacuoles (water storage). Animal cells are more flexible; plant cells are more structured. This is why wood is wood."
     }
   ]
 }

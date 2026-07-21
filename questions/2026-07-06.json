@@ -53,19 +53,6 @@
       "memory_hook": "100 yards of play + 20 yards of end zones = 120 total."
     },
     {
-      "category": "Sports",
-      "question": "Which country invented the sport of sumo wrestling?",
-      "options": [
-        "China",
-        "Mongolia",
-        "Korea",
-        "Japan"
-      ],
-      "answer": "Japan",
-      "explanation": "Sumo wrestling originated in Japan and is the country's national sport. It has a history of over 1,500 years and is deeply intertwined with Shinto ritual. Professional sumo is organized into six tournaments (basho) per year, each lasting 15 days.",
-      "memory_hook": "Sumo = Japan. Round wrestlers, ancient roots, honorable sport."
-    },
-    {
       "category": "Pop Culture",
       "question": "Who played Tony Stark/Iron Man in the Marvel Cinematic Universe?",
       "options": [
@@ -118,19 +105,6 @@
       "memory_hook": "Silk Road: East to West, China to Europe, silk to spice."
     },
     {
-      "category": "History",
-      "question": "What year did the Soviet Union launch Yuri Gagarin into space?",
-      "options": [
-        "1957",
-        "1959",
-        "1961",
-        "1963"
-      ],
-      "answer": "1961",
-      "explanation": "Yuri Gagarin became the first human in space on April 12, 1961, completing one orbit of Earth in 108 minutes aboard the Vostok 1 spacecraft. His mission was a major triumph for the Soviet Union in the Space Race. April 12 is now celebrated as Cosmonautics Day in Russia.",
-      "memory_hook": "1961 — Gagarin circled Earth. One orbit, one giant step."
-    },
-    {
       "category": "Geography",
       "question": "The Nile River flows northward through how many countries before reaching the Mediterranean Sea?",
       "options": [
@@ -155,6 +129,32 @@
       "answer": "4",
       "explanation": "The human heart has four chambers: the left and right atria (upper chambers) and the left and right ventricles (lower chambers). The right side pumps oxygen-depleted blood to the lungs, while the left side pumps oxygenated blood to the rest of the body. The left ventricle is the most muscular, as it must push blood throughout the entire body.",
       "memory_hook": "Heart = 4 chambers. Two atria on top, two ventricles on the bottom. The left side is stronger because it pumps blood to your whole body. The right side only has to reach the lungs."
+    },
+    {
+      "category": "Geography",
+      "question": "The Kalahari Desert, a semi-arid region home to the San people and meerkats, spans primarily which two countries?",
+      "options": [
+        "Angola and Zambia",
+        "Botswana and Namibia",
+        "South Africa and Zimbabwe",
+        "Kenya and Tanzania"
+      ],
+      "answer": "Botswana and Namibia",
+      "explanation": "The Kalahari Desert covers approximately 900,000 km² across Botswana, Namibia, and parts of South Africa. Unlike the Sahara or Namib, it is a semi-arid desert that receives enough rainfall to support grasses, shrubs, and diverse wildlife including lions, cheetahs, giraffes, meerkats, and springbok. The San (Bushmen) people have lived in the Kalahari for 20,000+ years and have one of the oldest continuous cultures on Earth. The Okavango Delta flows INTO the Kalahari rather than to the sea.",
+      "memory_hook": "Kalahari: semi-arid desert, mostly Botswana + Namibia. Unlike Sahara, it rains enough for lions, cheetahs, meerkats, and springbok. San people have lived there 20,000+ years. The Okavango River flows into it but never reaches the sea — just disappears into the sand."
+    },
+    {
+      "category": "Science & Nature",
+      "question": "What term describes the study of the interactions between living organisms and their environment, including how energy flows through ecosystems?",
+      "options": [
+        "Zoology",
+        "Botany",
+        "Ecology",
+        "Evolutionary biology"
+      ],
+      "answer": "Ecology",
+      "explanation": "Ecology is the scientific study of the relationships between living organisms and their physical environment, including how nutrients cycle and energy flows through ecosystems. Key concepts include food webs, trophic levels, population dynamics, and carrying capacity. The word comes from the Greek 'oikos' (house/home) and 'logos' (study). Ernst Haeckel coined the term in 1866. Conservation biology and climate science draw heavily on ecological principles.",
+      "memory_hook": "Ecology = study of organisms + environment interactions. Food webs, energy flow, carrying capacity. Coined by Ernst Haeckel in 1866 (Greek: oikos = home + logos = study). Everything in nature is connected through ecological relationships."
     }
   ]
 }

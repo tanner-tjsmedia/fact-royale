@@ -41,19 +41,6 @@
       "memory_hook": "Apartheid = Afrikaans for 'separateness.' South Africa, 1948-1991."
     },
     {
-      "category": "History",
-      "question": "What event in 1989 marked the end of the Cold War era?",
-      "options": [
-        "SALT II Treaty",
-        "The fall of the Berlin Wall",
-        "German Reunification",
-        "Soviet withdrawal from Afghanistan"
-      ],
-      "answer": "The fall of the Berlin Wall",
-      "explanation": "The fall of the Berlin Wall on November 9, 1989, is widely regarded as the pivotal moment ending the Cold War. East Germany announced that citizens could cross the border freely, and crowds on both sides began tearing the wall down. It led to German reunification in 1990 and the dissolution of the Soviet Union in 1991. The wall had divided Berlin since 1961.",
-      "memory_hook": "Berlin Wall fell November 9, 1989. People tore it down with hammers. Live on television worldwide. German reunification followed a year later. The Soviet Union dissolved two years after that. A wall built to keep people in collapsed because enough people said no."
-    },
-    {
       "category": "Sports",
       "question": "What is the term in baseball for a batter being hit by a pitched ball?",
       "options": [
@@ -78,19 +65,6 @@
       "answer": "26 miles 385 yards",
       "explanation": "A marathon is 26 miles and 385 yards (42.195 km). The distance was standardized at the 1908 London Olympics, set to run from Windsor Castle to the Olympic stadium and finish in front of the royal box. The race commemorates the legend of Pheidippides, a Greek messenger who allegedly ran from Marathon to Athens (about 25 miles) to announce a military victory in 490 BC, then collapsed and died.",
       "memory_hook": "Marathon = 26.2 miles. Standardized because of the British royal family's preference for the 1908 finish line. Named after a battle in ancient Greece. The original messenger legend may be apocryphal — but the race is very real."
-    },
-    {
-      "category": "Sports",
-      "question": "At the 2022 FIFA World Cup in Qatar, Morocco became the first African nation to reach the semi-finals. Which European giant did they upset in the quarter-finals?",
-      "options": [
-        "Portugal",
-        "Spain",
-        "Belgium",
-        "Germany"
-      ],
-      "answer": "Portugal",
-      "explanation": "Morocco defeated Portugal 1-0 in the 2022 World Cup quarter-finals with a header by Youssef En-Nesyri. They had previously beaten Spain on penalties. Morocco's run was remarkable: they won their group ahead of Croatia and Belgium, then eliminated Spain and Portugal before losing to France in the semi-finals.",
-      "memory_hook": "Morocco 2022: beat Spain and Portugal (Ronaldo's team) to reach semis. First African side."
     },
     {
       "category": "Pop Culture",
@@ -156,6 +130,32 @@
       "answer": "Ozone molecules O3",
       "explanation": "The ozone layer is made up of ozone molecules, each consisting of three oxygen atoms (O3). Normal atmospheric oxygen has two atoms (O2). Ozone is created when UV radiation splits O2 molecules, and the free oxygen atoms bond with other O2 molecules. The ozone layer absorbs most of the Sun's UV-B and UV-C radiation, protecting life on Earth from DNA damage and skin cancer.",
       "memory_hook": "Ozone = O3. Three oxygen atoms. Normal air is O2 (two oxygen atoms). The ozone layer is O3 molecules absorbing UV radiation that would otherwise fry life on Earth. CFCs break the O3 back into O2, depleting the protective layer."
+    },
+    {
+      "category": "Geography",
+      "question": "The Carpathian Mountains form a curved arc through eight Central and Eastern European countries. Which of these countries is NOT part of the Carpathians?",
+      "options": [
+        "Poland",
+        "Czech Republic",
+        "Romania",
+        "Spain"
+      ],
+      "answer": "Spain",
+      "explanation": "The Carpathian Mountains form a 1,500 km arc through Czech Republic, Slovakia, Poland, Ukraine, Romania, Hungary, Serbia, and Austria. Romania contains the largest portion (the Transylvanian Alps are part of the Carpathians). The range is home to Europe's largest population of brown bears, wolves, lynx, and European bison. Bram Stoker set Dracula's castle in the Carpathians, in Transylvania, Romania.",
+      "memory_hook": "Carpathians: curved 1,500 km mountain arc through 8 Central/Eastern European countries. NOT Spain. Romania has the most. Europe's largest populations of bears, wolves, and lynx live here. Transylvania (Dracula country) is in the Romanian Carpathians. The most biodiverse mountain range in Europe."
+    },
+    {
+      "category": "Science & Nature",
+      "question": "What is the term for atoms of the same element with different numbers of neutrons — some of which are stable and some radioactive?",
+      "options": [
+        "Allotropes",
+        "Ions",
+        "Isotopes",
+        "Polymorphs"
+      ],
+      "answer": "Isotopes",
+      "explanation": "Isotopes are atoms of the same element (same number of protons) with different numbers of neutrons. Carbon-12 (stable) and carbon-14 (radioactive, used in dating) are both carbon isotopes. Hydrogen has three isotopes: protium (no neutrons), deuterium (1 neutron), and tritium (2 neutrons, radioactive). Medical imaging uses radioactive isotopes: iodine-131 for thyroid treatment; technetium-99m for PET scans. The mass number of an isotope = protons + neutrons.",
+      "memory_hook": "Isotopes: same element, different neutron count. Carbon-12 (stable) vs. Carbon-14 (radioactive → used in dating). Hydrogen has 3 isotopes including deuterium (in 'heavy water'). Medicine uses radioactive isotopes: iodine-131 for thyroid, technetium-99m for scans. Same atom, different behavior."
     }
   ]
 }

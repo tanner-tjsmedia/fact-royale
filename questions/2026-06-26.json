@@ -41,19 +41,6 @@
       "memory_hook": "Prohibition: 1920–1933, thirteen years. The US banned alcohol and accidentally created the Mafia as we know it. Al Capone made more money from illegal booze than most legitimate companies. The cure created a worse disease."
     },
     {
-      "category": "History",
-      "question": "The Cold War — a political and military standoff between the US and Soviet Union — lasted roughly from 1947 to which year?",
-      "options": [
-        "1985",
-        "1989",
-        "1991",
-        "1995"
-      ],
-      "answer": "1991",
-      "explanation": "The Cold War is generally considered to have ended in 1991 with the dissolution of the Soviet Union on December 25, 1991. The conflict was characterized by nuclear arms races, proxy wars, and ideological competition between capitalism and communism. The Berlin Wall fell in 1989, which marked the beginning of the end, but the USSR formally collapsed two years later.",
-      "memory_hook": "Cold War ended 1991 = Soviet Union dissolved. The USSR collapsed on Christmas Day 1991. The world's largest country — spanning 11 time zones — ceased to exist on December 25. The most dramatic Christmas gift in geopolitical history."
-    },
-    {
       "category": "Sports",
       "question": "Which country has won the most Summer Olympic gold medals in the history of the Games?",
       "options": [
@@ -78,19 +65,6 @@
       "answer": "Kansas City Chiefs",
       "explanation": "Super Bowl I was played on January 15, 1967, at the Los Angeles Memorial Coliseum. The Green Bay Packers defeated the Kansas City Chiefs 35-10. The game was broadcast on both NBC and CBS simultaneously — the only Super Bowl to air on two networks. Quarterback Bart Starr was named MVP. Green Bay coach Vince Lombardi is the reason the Super Bowl trophy is called the Lombardi Trophy.",
       "memory_hook": "First Super Bowl: Packers beat Chiefs. The Chiefs lost Super Bowl I in 1967 and had to wait over 50 years before winning one in 2020. They've since become a dynasty — bookending their history with Super Bowl appearances."
-    },
-    {
-      "category": "Sports",
-      "question": "Roger Federer, Rafael Nadal, and Novak Djokovic have dominated men's tennis for decades. Which player holds the most Grand Slam singles titles?",
-      "options": [
-        "Roger Federer",
-        "Rafael Nadal",
-        "Novak Djokovic",
-        "They are tied"
-      ],
-      "answer": "Novak Djokovic",
-      "explanation": "Novak Djokovic holds the record for the most Grand Slam singles titles in men's tennis history with 24, surpassing Rafael Nadal (22) and Roger Federer (20). Djokovic won his 24th Slam at the 2023 US Open. The three players — often called the 'Big Three' — have collectively won the vast majority of Grand Slam titles since 2003.",
-      "memory_hook": "Djokovic 24, Nadal 22, Federer 20. The Big Three traded the record between themselves for 20 years. Federer held it first, Nadal tied and passed him, Djokovic passed them both. The greatest rivalry in sports history — and it went three rounds."
     },
     {
       "category": "Pop Culture",
@@ -156,6 +130,32 @@
       "answer": "206",
       "explanation": "Adults have 206 bones. Babies are born with around 270, but many fuse together during childhood and adolescence. The most common fusions happen in the skull and spine. The smallest bone in the body is the stirrup (stapes) inside the ear.",
       "memory_hook": "206 bones in an adult. Born with more, finish with fewer. The bones fuse as you grow — that's why babies are so flexible."
+    },
+    {
+      "category": "Geography",
+      "question": "Machu Picchu, a 15th-century Inca citadel at 2,430 meters above sea level, is located in which country?",
+      "options": [
+        "Bolivia",
+        "Ecuador",
+        "Peru",
+        "Colombia"
+      ],
+      "answer": "Peru",
+      "explanation": "Machu Picchu was built around 1450 CE during the reign of the Inca emperor Pachacuti and was abandoned about 100 years later, likely during the Spanish conquest. It was largely unknown to the outside world until American historian Hiram Bingham III brought it to international attention in 1911. Built without mortar, its stones fit so precisely that a credit card cannot be inserted between them. It sits in the Andes above the Urubamba River.",
+      "memory_hook": "Machu Picchu = Peru, 1450 CE. Built by Incas, abandoned ~100 years later. Hiram Bingham rediscovered it in 1911. No mortar — stones fit so precisely you can't slide a card between them. The most visited tourist site in South America."
+    },
+    {
+      "category": "Science & Nature",
+      "question": "What is the name of the mineral hardness scale that ranks substances from 1 (talc) to 10 (diamond)?",
+      "options": [
+        "Beaufort Scale",
+        "Richter Scale",
+        "Mohs Scale",
+        "Vickers Scale"
+      ],
+      "answer": "Mohs Scale",
+      "explanation": "The Mohs Hardness Scale was created by German mineralogist Friedrich Mohs in 1812. It ranks minerals from 1 (talc — can be scratched by a fingernail) to 10 (diamond — scratches everything). A mineral can scratch any mineral with a lower Mohs number. Common reference points: fingernail ~2.5, copper coin ~3, steel knife ~5.5, quartz ~7. The scale is not linear — the jump from 9 (corundum/sapphire) to 10 (diamond) is enormous in absolute hardness.",
+      "memory_hook": "Mohs Scale: 1 (talc) to 10 (diamond). A harder mineral scratches softer ones. Fingernail ~2.5, copper coin ~3, steel ~5.5, quartz ~7. The scale is NOT linear — diamond is about 4x harder than corundum (9) in absolute terms."
     }
   ]
 }

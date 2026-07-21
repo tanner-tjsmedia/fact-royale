@@ -53,19 +53,6 @@
       "memory_hook": "7 in the water: 1 goalkeeper + 6 field players. Think of a football team in a pool."
     },
     {
-      "category": "Sports",
-      "question": "Who holds the world record for the longest tennis match?",
-      "options": [
-        "Rafael Nadal vs. Roger Federer",
-        "John Isner vs. Nicolas Mahut",
-        "Andy Murray vs. Novak Djokovic",
-        "Pete Sampras vs. Andre Agassi"
-      ],
-      "answer": "John Isner vs. Nicolas Mahut",
-      "explanation": "The longest tennis match in history was played at Wimbledon 2010 between John Isner (USA) and Nicolas Mahut (France). It lasted 11 hours and 5 minutes across three days, with the final set score of 70–68. Isner won. The match was a total of 183 games.",
-      "memory_hook": "Isner vs. Mahut: 70-68 in the fifth set. Three days. Wimbledon 2010."
-    },
-    {
       "category": "Pop Culture",
       "question": "Which film features the famous shower scene score by Bernard Herrmann?",
       "options": [
@@ -118,19 +105,6 @@
       "memory_hook": "Constantine converted Rome — from persecuting Christians to becoming one."
     },
     {
-      "category": "History",
-      "question": "What was the first country to use the metric system?",
-      "options": [
-        "Germany",
-        "United Kingdom",
-        "United States",
-        "France"
-      ],
-      "answer": "France",
-      "explanation": "France was the first country to adopt the metric system, which was introduced during the French Revolution. The system was legally mandated in France in 1795. The metric system was designed to be a universal, rational system of measurement based on natural constants.",
-      "memory_hook": "France invented the metric system during their Revolution — rational country, rational units."
-    },
-    {
       "category": "Geography",
       "question": "Iceland sits on the boundary between which two tectonic plates?",
       "options": [
@@ -155,6 +129,32 @@
       "answer": "Condensation",
       "explanation": "Condensation is the process by which water vapor cools and turns into liquid water. This is how clouds form (vapor condenses around dust particles), how dew appears on grass overnight, and why a cold glass gets wet on the outside in humid air. It is the reverse of evaporation.",
       "memory_hook": "Condensation = vapor to liquid. Cold glass in summer = condensation. Clouds = condensation. Dew on morning grass = condensation. Water cycling from gas back to liquid."
+    },
+    {
+      "category": "Geography",
+      "question": "The Orinoco River, the third-longest river in South America, flows primarily through which country before emptying into the Atlantic Ocean?",
+      "options": [
+        "Colombia",
+        "Brazil",
+        "Bolivia",
+        "Venezuela"
+      ],
+      "answer": "Venezuela",
+      "explanation": "The Orinoco River flows about 2,140 km through Venezuela, with its upper portion forming part of the Colombia-Venezuela border. It drains into the Atlantic Ocean via a broad delta in northeastern Venezuela. The Orinoco basin contains Angel Falls (the world's highest waterfall) as a tributary system and is home to the Amazon river dolphin, giant otters, caimans, and electric eels. Venezuela's oil-rich Orinoco Belt contains some of the world's largest proven oil reserves.",
+      "memory_hook": "Orinoco = Venezuela's great river, 2,140 km, drains to Atlantic. Angel Falls is in its tributary system. Amazon river dolphins, giant otters, caimans in its basin. Venezuela's Orinoco Belt contains some of the world's largest oil reserves beneath the river's floodplains."
+    },
+    {
+      "category": "Science & Nature",
+      "question": "Astronomers observe that distant galaxies are moving away from us, with farther galaxies receding faster. What causes the light from these galaxies to shift toward the red end of the spectrum?",
+      "options": [
+        "Cosmic dust",
+        "Redshift from the Doppler effect and space expansion",
+        "Absorption by interstellar gas",
+        "Gravitational lensing"
+      ],
+      "answer": "Redshift from the Doppler effect and space expansion",
+      "explanation": "Redshift occurs when the wavelength of light is stretched — shifted toward the red (longer wavelength) end of the spectrum — due to the expansion of space itself (cosmological redshift) or because the source is moving away (Doppler redshift). Edwin Hubble's 1929 observation that nearly all galaxies show redshift was key evidence for the Big Bang and the expansion of the universe. The greater the redshift, the faster the recession and (by Hubble's Law) the greater the distance.",
+      "memory_hook": "Redshift: galaxies moving away stretch their light toward longer (red) wavelengths. Hubble observed this in 1929 — evidence the universe is expanding. The farther a galaxy, the faster it recedes (Hubble's Law). The Big Bang wasn't an explosion IN space — it was space itself expanding."
     }
   ]
 }

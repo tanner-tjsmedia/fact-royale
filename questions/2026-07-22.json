@@ -53,19 +53,6 @@
       "memory_hook": "Phelps 2008 Beijing = 8 golds. Most decorated Olympian ever."
     },
     {
-      "category": "Sports",
-      "question": "At the 1936 Berlin Olympics, which American sprinter won four gold medals, embarrassing Adolf Hitler's claims of Aryan racial superiority?",
-      "options": [
-        "Jesse Owens",
-        "Ralph Metcalfe",
-        "Eulace Peacock",
-        "Eddie Tolan"
-      ],
-      "answer": "Jesse Owens",
-      "explanation": "Jesse Owens won gold in the 100m, 200m, long jump, and 4x100m relay at the 1936 Berlin Olympics — an extraordinary achievement that directly challenged Nazi ideology about racial superiority. Hitler reportedly refused to publicly congratulate Owens.",
-      "memory_hook": "Jesse Owens, 1936 Berlin, 4 golds. The most powerful rebuttal to Nazi ideology."
-    },
-    {
       "category": "Pop Culture",
       "question": "Which band wrote and performed 'Comfortably Numb'?",
       "options": [
@@ -118,19 +105,6 @@
       "memory_hook": "300 Spartans vs. Persia — 'Tonight we dine in hell!' Three days, one narrow pass."
     },
     {
-      "category": "History",
-      "question": "Who was the first person to reach the South Pole?",
-      "options": [
-        "Robert Falcon Scott",
-        "Edmund Hillary",
-        "Roald Amundsen",
-        "Ernest Shackleton"
-      ],
-      "answer": "Roald Amundsen",
-      "explanation": "Norwegian explorer Roald Amundsen reached the South Pole on December 14, 1911, beating British explorer Robert Falcon Scott by 34 days. Scott's team arrived at the Pole on January 17, 1912, and all five men died during the return journey. Amundsen's meticulous preparation was key to his success.",
-      "memory_hook": "Amundsen beat Scott to the Pole — preparation beat courage in the ice."
-    },
-    {
       "category": "Geography",
       "question": "Indonesia has the most islands of any country. Approximately how many does it have?",
       "options": [
@@ -155,6 +129,32 @@
       "answer": "Crust",
       "explanation": "Earth's crust is the thin, solid outer shell of the planet. Continental crust is about 35-70 km thick; oceanic crust is only about 5-10 km thick. Below the crust is the mantle, a thick layer of semi-solid rock. At the center is the core, divided into a liquid outer core and solid inner core.",
       "memory_hook": "Earth's layers: crust, mantle, outer core, inner core. The crust is like the skin of an apple — relatively thin compared to the whole. You live on the thinnest possible layer above an ocean of hot rock."
+    },
+    {
+      "category": "Geography",
+      "question": "The Atlas Mountains, a range spanning approximately 2,500 km, run across which three North African countries?",
+      "options": [
+        "Libya, Tunisia, Algeria",
+        "Egypt, Libya, Tunisia",
+        "Morocco, Algeria, Tunisia",
+        "Morocco, Algeria, Mali"
+      ],
+      "answer": "Morocco, Algeria, Tunisia",
+      "explanation": "The Atlas Mountains run across Morocco, Algeria, and Tunisia from the Atlantic coast near Agadir to northeastern Tunisia. Toubkal in Morocco (4,167 m) is the highest peak. The Atlas range forms a geographic barrier between the Mediterranean and Atlantic coasts (relatively fertile) and the Sahara Desert to the south. The Berber (Amazigh) people have inhabited the Atlas for thousands of years. The mountains are named after the Titan Atlas from Greek mythology.",
+      "memory_hook": "Atlas Mountains: Morocco + Algeria + Tunisia, ~2,500 km. Toubkal (4,167m) = highest peak. Separates Mediterranean coast from Sahara. Home of Berber/Amazigh people for millennia. Named after the Greek Titan Atlas, who holds up the sky — fitting for a range that holds back the desert."
+    },
+    {
+      "category": "Science & Nature",
+      "question": "What is the term for different forms of the same chemical element that have the same number of protons but different numbers of neutrons in their nuclei?",
+      "options": [
+        "Allotropes",
+        "Ions",
+        "Isotopes",
+        "Isomers"
+      ],
+      "answer": "Isotopes",
+      "explanation": "Isotopes are atoms of the same element that have different numbers of neutrons, giving them different atomic masses. Carbon-12 (6 protons, 6 neutrons) and carbon-14 (6 protons, 8 neutrons) are isotopes of carbon. Most isotopes are stable, but some are radioactive — their nuclei decay over time. Carbon-14's radioactive decay is used in radiocarbon dating. Uranium-235 and uranium-238 are isotopes; U-235 is fissile (used in reactors and bombs) while U-238 is not.",
+      "memory_hook": "Isotopes = same element, different neutron counts, different mass. Carbon-12 vs Carbon-14 — same chemistry, but C-14 is radioactive. C-14 dating works because C-14's half-life (5,730 years) is predictable. U-235 is fissile (used in reactors); U-238 is not. Same element, completely different behavior."
     }
   ]
 }

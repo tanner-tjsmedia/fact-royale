@@ -53,19 +53,6 @@
       "memory_hook": "Cricket: pitch + wicket + tea breaks. Very British."
     },
     {
-      "category": "Sports",
-      "question": "In ski jumping, what is measured to determine the score?",
-      "options": [
-        "Speed only",
-        "Distance and style",
-        "Height only",
-        "Wind resistance"
-      ],
-      "answer": "Distance and style",
-      "explanation": "Ski jumping scoring is based on distance jumped (most points) and style points awarded by five judges, with the highest and lowest scores discarded and the remaining three averaged. Style factors include body position, balance, and landing technique.",
-      "memory_hook": "Ski jumping: go far, look good. Distance + style = total score."
-    },
-    {
       "category": "Pop Culture",
       "question": "Adele won the Academy Award for Best Original Song in 2013 for the theme to which James Bond film?",
       "options": [
@@ -118,19 +105,6 @@
       "memory_hook": "Cold War: US vs. USSR. No direct fighting — just everything except fighting."
     },
     {
-      "category": "History",
-      "question": "Which ancient Greek philosopher is known for the 'Socratic method'?",
-      "options": [
-        "Plato",
-        "Aristotle",
-        "Socrates",
-        "Epicurus"
-      ],
-      "answer": "Socrates",
-      "explanation": "Socrates (470–399 BC) developed the Socratic method — a form of inquiry through questioning to stimulate critical thinking. He wrote nothing himself; his ideas are known through his students, primarily Plato. He was tried and executed by Athens for corrupting the youth and impiety, choosing death over exile.",
-      "memory_hook": "Socrates asked questions until Athens killed him for asking too many."
-    },
-    {
       "category": "Geography",
       "question": "The Suez Canal, opened in 1869, connects which two bodies of water?",
       "options": [
@@ -155,6 +129,32 @@
       "answer": "Cheetah",
       "explanation": "The cheetah can accelerate from 0 to 100 km/h (62 mph) in about 3 seconds and reach top speeds of up to 120 km/h (75 mph). However, it can only sustain this speed for about 20 to 30 seconds before overheating. The cheetah's body is built entirely for speed: a flexible spine, non-retractable claws for grip, and a large nasal cavity for oxygen intake.",
       "memory_hook": "Cheetah = fastest land animal. 0 to 100 in 3 seconds. But it runs out of energy in 20 seconds and has to rest. Built for sprinting, not distance."
+    },
+    {
+      "category": "Geography",
+      "question": "The Maldives, an island nation in the Indian Ocean, is notable for which alarming geographic fact?",
+      "options": [
+        "It has no rivers",
+        "It is the world's smallest country by population",
+        "It is the world's lowest-lying country, with an average elevation of about 1.5 meters",
+        "It has no native mammals"
+      ],
+      "answer": "It is the world's lowest-lying country, with an average elevation of about 1.5 meters",
+      "explanation": "The Maldives consists of 26 atolls and about 1,200 islands in the Indian Ocean, southwest of India. Its average ground elevation of about 1.5 meters above sea level makes it the world's flattest and lowest-lying country — rising sea levels pose an existential threat. The government has purchased land in other countries as a potential relocation site for its 500,000 citizens. About 80% of the Maldives' islands are less than 1 meter above sea level.",
+      "memory_hook": "Maldives: average elevation 1.5 meters above sea level — world's lowest country. 80% of islands under 1 meter. Rising seas are an existential threat. Government bought land in Sri Lanka and Australia as a backup. A paradise counting down."
+    },
+    {
+      "category": "Science & Nature",
+      "question": "What process describes cell division in which one cell divides to produce two identical daughter cells for growth, repair, and asexual reproduction?",
+      "options": [
+        "Meiosis",
+        "Mitosis",
+        "Binary fission",
+        "Cytokinesis"
+      ],
+      "answer": "Mitosis",
+      "explanation": "Mitosis is the process of cell division where a parent cell duplicates its chromosomes and divides into two genetically identical daughter cells. It consists of four phases: prophase, metaphase, anaphase, and telophase (PMAT). Mitosis is used for growth and tissue repair in multicellular organisms. It is distinct from meiosis, which produces genetically varied gametes with half the chromosomes. Bacteria use binary fission rather than mitosis.",
+      "memory_hook": "Mitosis = cell division for growth and repair, produces 2 identical copies. PMAT: Prophase, Metaphase, Anaphase, Telophase. Not to be confused with meiosis (produces gametes, genetically varied, half chromosomes). You have ~37 trillion cells; most got there through mitosis."
     }
   ]
 }

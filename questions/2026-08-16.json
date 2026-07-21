@@ -41,19 +41,6 @@
       "memory_hook": "Kitty Hawk = North Carolina. 'First in Flight' is on NC's license plates. The Wright Brothers chose it for the reliable Atlantic winds and the soft sand for landing. The nearby Kill Devil Hills is actually where the flights happened — but Kitty Hawk was the nearest post office for the famous telegram home."
     },
     {
-      "category": "History",
-      "question": "Which US president served the shortest term, dying just 31 days after his inauguration in 1841?",
-      "options": [
-        "William Henry Harrison",
-        "Zachary Taylor",
-        "James K. Polk",
-        "James Buchanan"
-      ],
-      "answer": "William Henry Harrison",
-      "explanation": "William Henry Harrison died on April 4, 1841, just 31 days after taking office — the shortest presidency in US history. He delivered the longest inaugural address in history (nearly 2 hours) in cold, wet weather without a coat or hat. He developed pneumonia and died. John Tyler succeeded him. Harrison had been the oldest president elected at the time at 68.",
-      "memory_hook": "William Henry Harrison = 31-day presidency. Longest inaugural speech, shortest presidency. Gave a 2-hour speech in the freezing rain without a coat. Died of pneumonia a month later. His entire presidency happened within a single month."
-    },
-    {
       "category": "Sports",
       "question": "In which sport would you execute a 'spike' to score a point?",
       "options": [
@@ -78,19 +65,6 @@
       "answer": "Ice Hockey or Soccer",
       "explanation": "The offside rule exists in both soccer and ice hockey. In soccer, a player is offside if they're closer to the opponent's goal line than the ball and the second-last defender at the moment the ball is played to them. In ice hockey, a player can't enter the attacking zone before the puck. The rule is designed to prevent players from 'cherry picking' by stationing themselves near the goal.",
       "memory_hook": "Offside = soccer and ice hockey. Prevent cherry picking near the opponent's goal. In soccer it's incredibly complex and now checked by VAR technology. In hockey it's simpler — the puck must enter the zone before the player. Both sports reward buildup play over just camping near the goal."
-    },
-    {
-      "category": "Sports",
-      "question": "How many points is a three-pointer worth in NBA basketball?",
-      "options": [
-        "2",
-        "2.5",
-        "3",
-        "3.5"
-      ],
-      "answer": "3",
-      "explanation": "A successful shot from beyond the three-point line in basketball (23 feet 9 inches at NBA distance) scores 3 points. The three-point line was introduced to the NBA in the 1979-80 season. Initially controversial, three-pointers have become central to modern basketball strategy, with teams like the Golden State Warriors of the 2010s transforming the game by prioritizing three-point shooting over midrange shots.",
-      "memory_hook": "Three-pointer = 3 points, beyond 23 feet 9 inches in the NBA. Not introduced until 1979. Stephen Curry transformed basketball by showing you could build an offense entirely around three-pointers. The most valuable shot in basketball is now one that didn't exist 50 years ago."
     },
     {
       "category": "Pop Culture",
@@ -156,6 +130,32 @@
       "answer": "Supermoon",
       "explanation": "A supermoon occurs when a full moon coincides with the Moon's closest approach to Earth (perigee) in its elliptical orbit. The Moon can appear up to 14% larger and 30% brighter than when it is at its farthest point (apogee). The term 'supermoon' was coined by astrologer Richard Nolle in 1979 and popularized by media in the 2010s. Astronomers prefer the term 'perigee full moon.'",
       "memory_hook": "Supermoon = full moon at its closest point to Earth. Up to 14% bigger, 30% brighter. The Moon's orbit is elliptical, not circular — so its distance varies. Astronomers roll their eyes at the term because the size difference is subtle. Photographers and poets love it."
+    },
+    {
+      "category": "Geography",
+      "question": "The Murray River, Australia's longest at 2,508 km, forms the border between which two Australian states?",
+      "options": [
+        "Queensland and New South Wales",
+        "Victoria and New South Wales",
+        "South Australia and Victoria",
+        "Western Australia and South Australia"
+      ],
+      "answer": "Victoria and New South Wales",
+      "explanation": "The Murray River forms the boundary between Victoria (south bank) and New South Wales (north bank) for most of its length before flowing through South Australia to the sea. Together with the Darling River, the Murray-Darling Basin is Australia's most important agricultural region, producing roughly 40% of the country's food. The river suffers from over-allocation of water for irrigation, causing environmental damage. Murray cod — a large freshwater fish — are native to the river.",
+      "memory_hook": "Murray River: 2,508 km, forms Victoria/NSW border. Murray-Darling Basin produces 40% of Australia's food. Severely stressed from over-irrigation. Murray cod can live 50+ years. The Murray's mouth now barely reaches the sea in drought years — a classic river over-allocation story."
+    },
+    {
+      "category": "Science & Nature",
+      "question": "What environmental phenomenon occurs when excess nutrients (especially nitrogen and phosphorus from fertilizer runoff) cause rapid algae growth in water bodies, depleting oxygen and killing aquatic life?",
+      "options": [
+        "Acid rain",
+        "Eutrophication",
+        "Salinization",
+        "Thermal pollution"
+      ],
+      "answer": "Eutrophication",
+      "explanation": "Eutrophication occurs when excess nutrients — mainly nitrates and phosphates from agricultural fertilizers, sewage, and detergents — wash into rivers, lakes, or coastal areas. This triggers explosive algae and cyanobacteria (blue-green algae) blooms. When the blooms die, bacteria decompose them, consuming oxygen and creating 'dead zones' where fish cannot survive. Gulf of Mexico dead zones (caused by Mississippi River runoff from Midwestern farms) and Lake Erie algae blooms are major examples.",
+      "memory_hook": "Eutrophication: fertilizer runoff → algae bloom → algae dies → bacteria decompose it → oxygen depleted → fish die. Gulf of Mexico dead zone (from Mississippi River farm runoff) is the size of New Jersey. Lake Erie turned green in 2014. A predictable consequence of industrial agriculture without proper runoff management."
     }
   ]
 }

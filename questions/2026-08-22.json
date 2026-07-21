@@ -41,19 +41,6 @@
       "memory_hook": "Colosseum = 80 AD, 80,000 capacity. Had retractable shade, numbered seats, and elevators — ancient Rome had better stadium infrastructure than many modern venues. The gladiators were professional athletes, not slaves as usually depicted. Most were free men or freed men who chose the career."
     },
     {
-      "category": "History",
-      "question": "The Scramble for Africa, in which European powers colonized the continent, primarily occurred during which century?",
-      "options": [
-        "17th century",
-        "18th century",
-        "19th century",
-        "20th century"
-      ],
-      "answer": "19th century",
-      "explanation": "The Scramble for Africa (roughly 1880-1914) saw European powers rapidly colonize almost all of Africa. The Berlin Conference of 1884-85 allowed European nations to negotiate colonial claims. By 1914, only Ethiopia and Liberia remained independent. Colonial powers drew borders with no regard for existing ethnic, linguistic, or political boundaries — creating tensions that continue to affect African nations today.",
-      "memory_hook": "Scramble for Africa = 1880-1914. Berlin Conference 1884-85 where Europeans divided Africa on a map without any Africans present. By 1914 the only independent African nations were Ethiopia and Liberia. The borders drawn then are largely the borders today — and many of Africa's conflicts trace directly to them."
-    },
-    {
       "category": "Sports",
       "question": "In 1980, the U.S. men's ice hockey team defeated the heavily favored Soviet Union at the Lake Placid Winter Olympics in a result dubbed 'the Miracle on Ice.' What was the final score?",
       "options": [
@@ -78,19 +65,6 @@
       "answer": "The five continents of the world",
       "explanation": "Pierre de Coubertin designed the Olympic rings in 1912. The five rings represent the five continents: Africa, the Americas, Asia, Europe, and Oceania. The six colors (including white) were chosen because at least one appears in the flag of every nation in the world. The rings' interlocking design symbolizes friendship among nations.",
       "memory_hook": "5 Olympic rings = 5 continents. 6 colors cover every nation's flag."
-    },
-    {
-      "category": "Sports",
-      "question": "What sport uses a 'birdie,' a shuttlecock, and a racket?",
-      "options": [
-        "Squash",
-        "Badminton",
-        "Paddle tennis",
-        "Pickleball"
-      ],
-      "answer": "Badminton",
-      "explanation": "Badminton uses a shuttlecock (also called a birdie or shuttle), a feathered projectile hit over a net with lightweight rackets. It is one of the fastest racket sports — a shuttlecock can reach 493 km/h (306 mph) in elite men's doubles, making it the fastest object in any racket sport. Badminton became an Olympic sport in 1992 and is dominated by Asian nations, particularly China, Indonesia, and South Korea.",
-      "memory_hook": "Badminton shuttlecock = world's fastest projectile in racket sports. 493 km/h in elite doubles. Faster than any tennis serve, squash shot, or golf ball off the tee. Yet it's considered by many a backyard game. Elite badminton bears no resemblance to what you play in the backyard."
     },
     {
       "category": "Pop Culture",
@@ -156,6 +130,32 @@
       "answer": "Ribosomes",
       "explanation": "Ribosomes are tiny molecular machines found in all living cells that read the instructions in messenger RNA (mRNA) and assemble amino acids into proteins. They can be free-floating in the cytoplasm or attached to the endoplasmic reticulum. Ribosomes are composed of ribosomal RNA and proteins. The antibiotic family (including streptomycin) works by blocking bacterial ribosomes, killing bacteria while leaving human cells unharmed.",
       "memory_hook": "Ribosomes = protein factories. mRNA comes in, protein comes out. Antibiotics like streptomycin target bacterial ribosomes — bacteria have slightly different ribosomes than humans, so the drug kills them without harming us. Ribosomes are so fundamental that all life on Earth uses them."
+    },
+    {
+      "category": "Geography",
+      "question": "The Dolomites, a UNESCO World Heritage Site, are a section of the Alps in northeastern Italy known for distinctive pale limestone and dolomite rock towers. In which Italian region are they primarily located?",
+      "options": [
+        "Tuscany",
+        "Sicily",
+        "Trentino-Alto Adige and Veneto",
+        "Campania"
+      ],
+      "answer": "Trentino-Alto Adige and Veneto",
+      "explanation": "The Dolomites span the regions of Trentino-Alto Adige (also called South Tyrol, a German-speaking region of Italy) and Veneto in northeastern Italy. They consist of 18 peaks over 3,000 meters, with pale, dramatically shaped rock towers and spires of dolomite limestone. The area was heavily contested in WWI — many mountain peaks were turned into fortifications, and entire battles were fought at high altitude. The Dolomites were named after the French geologist Déodat de Dolomieu who first described the distinctive rock.",
+      "memory_hook": "Dolomites: pale limestone peaks in northeastern Italy (Trentino-Alto Adige + Veneto). UNESCO site. WWI fortress peaks — entire battles fought at 3,000m altitude. Named after geologist Dolomieu. One of the most photographed mountain landscapes in the world — the rock turns pink-gold at sunset (Enrosadira)."
+    },
+    {
+      "category": "Science & Nature",
+      "question": "What are phototropism and geotropism in plants — how do plants respond to light and gravity?",
+      "options": [
+        "Phototropism = chemical response to light; geotropism = growth toward water",
+        "Phototropism = growth toward light; geotropism = growth in response to gravity",
+        "Phototropism = food storage; geotropism = immune response",
+        "Phototropism = reproduction; geotropism = nutrient absorption"
+      ],
+      "answer": "Phototropism = growth toward light; geotropism = growth in response to gravity",
+      "explanation": "Phototropism is the growth of a plant toward (positive phototropism) or away from (negative phototropism) light. Shoots grow toward light; roots grow away from it. It is mediated by auxins — hormones that accumulate on the shaded side of a stem, causing cells there to elongate more. Geotropism (also called gravitropism) is growth in response to gravity: roots grow downward (positive), stems grow upward (negative). These responses help plants maximize sunlight while anchoring their roots in soil.",
+      "memory_hook": "Phototropism: plants grow toward light (stems) or away from it (roots). Geotropism: stems grow up, roots grow down — responding to gravity. Auxin hormones redistribute to shaded/lower sides, causing unequal elongation. Plant on a windowsill? It'll bend toward the light within days. Flip it upside down? Roots will curve back down."
     }
   ]
 }

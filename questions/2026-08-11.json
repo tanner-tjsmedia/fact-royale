@@ -41,19 +41,6 @@
       "memory_hook": "Magna Carta = king under the law. 1215. The barons forced it on King John at swordpoint, essentially. The principle that no one — not even the king — is above the law. Everything from the US Bill of Rights to the UN Declaration of Human Rights traces to this document."
     },
     {
-      "category": "History",
-      "question": "What was the name of the policy of racial segregation in the American South between the 1870s and 1960s?",
-      "options": [
-        "Black Codes",
-        "Jim Crow Laws",
-        "Separate But Equal",
-        "Reconstruction Laws"
-      ],
-      "answer": "Jim Crow Laws",
-      "explanation": "Jim Crow laws were state and local laws in the American South that enforced racial segregation from the 1870s to the mid-1960s. They covered schools, transportation, restaurants, bathrooms, and almost every aspect of public life. They were upheld by the Supreme Court in Plessy v. Ferguson (1896) and not overturned until the Civil Rights Act (1964) and Voting Rights Act (1965).",
-      "memory_hook": "Jim Crow Laws = legal segregation in the American South. Lasted nearly 100 years after the Civil War ended slavery. Separate but 'equal' — legally required separation in schools, buses, water fountains. The Civil Rights Movement dismantled them in the 1950s and 60s."
-    },
-    {
       "category": "Sports",
       "question": "In rugby, how many points is a try worth?",
       "options": [
@@ -78,19 +65,6 @@
       "answer": "1980 Lake Placid",
       "explanation": "At the 1980 Winter Olympics in Lake Placid, the US ice hockey team — mostly college students — defeated the heavily favored Soviet Union 4-3 in the semifinal, then beat Finland for the gold medal. The Soviet team had dominated international hockey for decades. Sportscaster Al Michaels' call 'Do you believe in miracles? YES!' became one of the most famous lines in sports broadcasting.",
       "memory_hook": "Miracle on Ice = 1980, Lake Placid. College kids beat the Soviets. Al Michaels: 'Do you believe in miracles? YES!' The Soviet hockey team was arguably the best team in the world, professional in all but name. The US team was average college players. They won anyway."
-    },
-    {
-      "category": "Sports",
-      "question": "In which Olympic sport do competitors throw a heavy iron ball as far as possible?",
-      "options": [
-        "Discus",
-        "Hammer throw",
-        "Javelin",
-        "Shot put"
-      ],
-      "answer": "Shot put",
-      "explanation": "The shot put involves throwing a heavy spherical metal ball (7.26 kg for men, 4 kg for women) as far as possible from a 7-foot throwing circle. Competitors use either a glide or rotational technique. The sport has been part of the modern Olympics since 1896. It requires explosive strength rather than technique-dependent skill, making it one of the most straightforwardly physical Olympic events.",
-      "memory_hook": "Shot put = throw a heavy metal ball. 7.26 kg for men. Not rolling — 'putting' (pushing). The name comes from putting (pushing) rather than throwing. Pure explosion of power in one moment. No running start, no approach — just turning power into distance."
     },
     {
       "category": "Pop Culture",
@@ -156,6 +130,32 @@
       "answer": "Ion",
       "explanation": "An ion is an atom (or molecule) that has gained or lost one or more electrons, giving it a net positive (cation) or negative (anion) electric charge. Table salt (NaCl) forms when sodium loses an electron (becoming Na+) and chlorine gains one (becoming Cl-). Ions are fundamental to chemistry, biology, and physics — from battery function to how nerve cells fire.",
       "memory_hook": "Ion = atom with a charge. Lose electrons = positive ion (cation). Gain electrons = negative ion (anion). Salt is sodium and chloride ions. Your neurons fire by rapidly exchanging sodium and potassium ions across cell membranes. Your thoughts are electricity made of ions."
+    },
+    {
+      "category": "Geography",
+      "question": "Socotra Island, described by scientists as the 'Galápagos of the Indian Ocean,' is a territory of which country and is famous for its alien-looking dragon blood trees?",
+      "options": [
+        "Oman",
+        "Ethiopia",
+        "Saudi Arabia",
+        "Yemen"
+      ],
+      "answer": "Yemen",
+      "explanation": "Socotra is an archipelago in the Indian Ocean belonging to Yemen, located off the Horn of Africa. About 37% of its plant species exist nowhere else on Earth, including the dragon blood tree (Dracaena cinnabari) — an umbrella-shaped tree that bleeds dark red resin when cut. Its extreme isolation (separated from the Arabian mainland for 18 million years) created an extraordinary level of endemic species. The island faces threats from climate change, invasive species, and the Yemeni Civil War.",
+      "memory_hook": "Socotra: Yemeni island, 'Galápagos of the Indian Ocean.' Isolated for 18 million years — 37% of plants found nowhere else. Dragon blood tree: umbrella-shaped, bleeds red resin. One of the most alien-looking landscapes on Earth. The Yemeni civil war has made conservation nearly impossible."
+    },
+    {
+      "category": "Science & Nature",
+      "question": "What is the term for different physical forms of the same chemical element — such as graphite and diamond, which are both pure carbon?",
+      "options": [
+        "Isotopes",
+        "Polymorphs",
+        "Allotropes",
+        "Isomers"
+      ],
+      "answer": "Allotropes",
+      "explanation": "Allotropes are different structural forms of the same element, with different bonding arrangements. Carbon's allotropes include: diamond (each carbon bonded to 4 others in a tetrahedral lattice — extremely hard), graphite (carbon in flat hexagonal layers — soft, conducts electricity), graphene (single layer of graphite — strongest material known), and buckminsterfullerene (carbon 'buckyball' — soccer-ball shaped). Oxygen's allotropes include O₂ (breathable air) and O₃ (ozone). Phosphorus has white, red, and black allotropes.",
+      "memory_hook": "Allotropes: same element, different structure, completely different properties. Diamond and graphite are both pure carbon — one is the hardest natural material, the other writes on paper. Graphene (single graphite layer) is stronger than steel. Oxygen gas (O₂) and ozone (O₃) are oxygen allotropes. Structure determines everything."
     }
   ]
 }

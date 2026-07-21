@@ -41,19 +41,6 @@
       "memory_hook": "Angela Merkel: German Chancellor 2005-2021. Physicist. First female Chancellor of Germany."
     },
     {
-      "category": "History",
-      "question": "The first successful transatlantic telegraph cable, connecting Europe and North America, was completed in which year?",
-      "options": [
-        "1858",
-        "1866",
-        "1876",
-        "1895"
-      ],
-      "answer": "1866",
-      "explanation": "The first permanent transatlantic telegraph cable was successfully laid in 1866 by the SS Great Eastern. Earlier attempts (1857, 1858, 1865) had failed. The cable reduced transatlantic communication from weeks (by ship) to minutes. Queen Victoria sent the first transatlantic telegram to US President James Buchanan in 1858, but that cable failed soon after. The 1866 cable changed global communication permanently.",
-      "memory_hook": "Transatlantic telegraph cable = 1866 (permanent success). Earlier attempts failed. Before the cable, news from Europe took weeks by ship. After: minutes by electricity. It was the 19th century internet — suddenly the world was connected in real time."
-    },
-    {
       "category": "Sports",
       "question": "In cricket, what is the term for when all ten wickets are taken for no runs?",
       "options": [
@@ -78,19 +65,6 @@
       "answer": "FIFA",
       "explanation": "FIFA (Fédération Internationale de Football Association) is the international governing body for soccer, founded in Paris in 1904. It oversees 211 member associations — more members than the United Nations. FIFA organizes the World Cup, Women's World Cup, and various other competitions. Its headquarters are in Zurich, Switzerland. FIFA has been frequently criticized for corruption, particularly surrounding World Cup host selection.",
       "memory_hook": "FIFA = world soccer's governing body. 211 members — more than the UN. Founded 1904 in Paris. Has been rocked by corruption scandals, particularly around World Cup hosting bids. Qatar 2022 became the most controversial hosting decision in World Cup history."
-    },
-    {
-      "category": "Sports",
-      "question": "How many events make up a track and field heptathlon for women?",
-      "options": [
-        "5",
-        "6",
-        "7",
-        "8"
-      ],
-      "answer": "7",
-      "explanation": "The heptathlon consists of 7 events over two days: 100m hurdles, high jump, shot put, and 200m on day one; long jump, javelin, and 800m on day two. Points are calculated based on performance in each event. The winner is considered the world's greatest female all-round athlete. Jessica Ennis-Hill, Dafne Schippers, and Nafi Thiam are among its most celebrated champions.",
-      "memory_hook": "Heptathlon = 7 events for women. Decathlon = 10 events for men. The heptathlon winner gets called the world's greatest female athlete — seven different disciplines tested in two days. Day 1 tests speed and power; Day 2 tests endurance and technique."
     },
     {
       "category": "Pop Culture",
@@ -156,6 +130,32 @@
       "answer": "Mohorovicic discontinuity",
       "explanation": "The Mohorovicic discontinuity (or 'Moho') is the boundary between Earth's crust and upper mantle, located approximately 35 km below the continents and 5-10 km below the ocean floor. It was discovered by Croatian seismologist Andrija Mohorovicic in 1909 by analyzing seismic wave speeds. Below the Moho, seismic waves travel faster because of the denser mantle rock.",
       "memory_hook": "Moho = crust-mantle boundary. Named after Croatian geologist Mohorovicic. Discovered by studying how earthquake waves change speed at this depth. The crust you live on is just the thin surface layer — below it is the mantle where rocks are hot enough to flow over millions of years."
+    },
+    {
+      "category": "Geography",
+      "question": "The Schwarzwald (Black Forest), a mountainous wooded region famous in German folklore and fairy tales, is located in which German state?",
+      "options": [
+        "Bavaria",
+        "Saxony",
+        "Thuringia",
+        "Baden-Württemberg"
+      ],
+      "answer": "Baden-Württemberg",
+      "explanation": "The Black Forest (Schwarzwald) is located in the state of Baden-Württemberg in southwestern Germany, west of the Rhine River. It is known for its dense pine forests (which appear black from a distance), cuckoo clock production, the Black Forest gateau (cake), and the Baden wine region. The Rhine and Neckar rivers originate in the Black Forest. Brothers Grimm fairy tales (Hansel and Gretel, Rumpelstiltskin) were set in forests like this. The spa town of Baden-Baden and the city of Freiburg are in the region.",
+      "memory_hook": "Black Forest (Schwarzwald): Baden-Württemberg, southwestern Germany. Dense pine that looks black from a distance. Source of the Rhine. Cuckoo clocks, Black Forest cake, and the setting for countless Grimm fairy tales. Brothers Grimm collected stories from peasants throughout these forests."
+    },
+    {
+      "category": "Science & Nature",
+      "question": "What is electrolysis, and what two gases does it produce when applied to water?",
+      "options": [
+        "The natural flow of electricity through metal conductors, producing heat",
+        "Using electrical current to drive a non-spontaneous chemical reaction, splitting water into hydrogen and oxygen",
+        "The process of charging batteries",
+        "The chemical process of oxidation in seawater"
+      ],
+      "answer": "Using electrical current to drive a non-spontaneous chemical reaction, splitting water into hydrogen and oxygen",
+      "explanation": "Electrolysis uses electrical current to drive chemical reactions that would not occur spontaneously. Electrolysis of water (H₂O) splits it into hydrogen gas (H₂, at the negative electrode/cathode) and oxygen gas (O₂, at the positive electrode/anode) in a 2:1 ratio. This is used to produce 'green hydrogen' when powered by renewable electricity — potentially a key clean fuel. Electrolysis also purifies metals (copper refining), produces chlorine, and is used in electroplating.",
+      "memory_hook": "Electrolysis: electricity drives non-spontaneous reactions. Split water → hydrogen (cathode) + oxygen (anode). 'Green hydrogen' from electrolysis using solar power = clean fuel. Also purifies metals, plates jewelry, produces chlorine. Water is hydrogen and oxygen — you can separate them with a 9-volt battery and two pencils."
     }
   ]
 }

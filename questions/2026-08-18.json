@@ -41,19 +41,6 @@
       "memory_hook": "Chernobyl = April 26, 1986. The Soviet government tried to cover it up. Swedish radiation sensors detected the fallout and forced disclosure. The disaster contributed to the fall of the Soviet Union. The exclusion zone is now an accidental wildlife sanctuary — nature reclaiming a radioactive ghost town."
     },
     {
-      "category": "History",
-      "question": "Plato's most famous work, 'The Republic,' contains the 'allegory of the cave' illustrating the difference between appearance and reality. What form of government does Plato argue is ideal in this work?",
-      "options": [
-        "Rule by philosopher-kings",
-        "Democracy",
-        "Oligarchy",
-        "Constitutional monarchy"
-      ],
-      "answer": "Rule by philosopher-kings",
-      "explanation": "In 'The Republic,' Plato argues that the ideal state would be governed by philosopher-kings — rulers who have achieved wisdom and understanding of the 'Forms,' especially the Form of the Good. He was famously critical of democracy, partly because Athens' democratic assembly voted to execute his mentor Socrates.",
-      "memory_hook": "Plato's Republic = philosopher-kings should rule. Ironic: democracy killed his mentor."
-    },
-    {
       "category": "Sports",
       "question": "What is the term for a score of zero in a cricket innings?",
       "options": [
@@ -78,19 +65,6 @@
       "answer": "Judo",
       "explanation": "Judo is a Japanese martial art and Olympic sport where competitors attempt to throw opponents to the ground or pin them. 'Judo' means 'gentle way' in Japanese — the philosophy is to use the opponent's force against them rather than meeting force with force. It was developed by Jigoro Kano in 1882 and became an Olympic sport in 1964 (men) and 1992 (women). Judokas are ranked by belt color, from white to black.",
       "memory_hook": "Judo = throw or pin. 'Gentle way' — use your opponent's force against them. Invented by Jigoro Kano in 1882 in Japan. Olympic since 1964. The philosophy of minimum effort for maximum effect influenced jiu-jitsu and other grappling arts."
-    },
-    {
-      "category": "Sports",
-      "question": "In tennis, what is the term for a serve that the receiver cannot touch?",
-      "options": [
-        "Winner",
-        "Let",
-        "Fault",
-        "Ace"
-      ],
-      "answer": "Ace",
-      "explanation": "An ace is a serve that lands in the service box and is not touched by the receiver, winning the point outright. John Isner and Ivo Karlovic are among the ATP players with the most career aces, often exceeding 10,000. On grass courts (like Wimbledon), aces are more common because the surface enhances ball speed. A serve that hits the net and falls into the correct service box is a 'let' and replayed.",
-      "memory_hook": "Ace = serve the receiver can't touch. John Isner has served over 13,000 career aces. He also played the longest match in tennis history — 11 hours, 5 minutes at Wimbledon 2010, 70-68 in the fifth set. Serve so well that no one can touch it."
     },
     {
       "category": "Pop Culture",
@@ -156,6 +130,32 @@
       "answer": "Niche",
       "explanation": "An ecological niche describes the role and position of a species within its ecosystem — what it eats, what eats it, when and where it is active, and how it affects its environment. The concept explains how multiple species can coexist in the same habitat without directly competing. If two species occupy the same niche, one typically outcompetes the other — this is called competitive exclusion.",
       "memory_hook": "Niche = a species' role in the ecosystem. Not where it lives (habitat) but what it does there. Two species can share a habitat but not the same niche — if they do, one wins and one loses. Evolution constantly creates new niches."
+    },
+    {
+      "category": "Geography",
+      "question": "Mount Whitney, the highest peak in the contiguous United States at 4,421 meters, is located in which western state?",
+      "options": [
+        "Colorado",
+        "Nevada",
+        "Oregon",
+        "California"
+      ],
+      "answer": "California",
+      "explanation": "Mount Whitney is located in the Sierra Nevada mountain range in eastern California, on the boundary between Tulare and Inyo Counties. It is just 135 km from Death Valley — which at -86 meters below sea level is the lowest point in North America. Mount Whitney sits in Sequoia National Park / John Muir Wilderness. The trail to its summit is one of the most popular day hikes in the US but requires altitude acclimation due to oxygen reduction at its peak.",
+      "memory_hook": "Mount Whitney: 4,421m, highest in the contiguous US, in California's Sierra Nevada. Just 135 km from Death Valley (lowest point in N. America). The extreme juxtaposition of highest and lowest in the same region. A popular summit hike, but at 4,421m the altitude requires preparation."
+    },
+    {
+      "category": "Science & Nature",
+      "question": "What is an ecological niche, and why can two species rarely occupy the exact same niche in an ecosystem?",
+      "options": [
+        "A physical location where a species lives",
+        "The role a species plays in its ecosystem including what it eats and what eats it, which cannot be shared identically",
+        "The evolutionary history of a species",
+        "The geographic range a species occupies"
+      ],
+      "answer": "The role a species plays in its ecosystem including what it eats and what eats it, which cannot be shared identically",
+      "explanation": "An ecological niche is the functional role a species plays in its ecosystem — its diet, habitat preferences, activity timing, predators, and behaviors. The competitive exclusion principle (Gause's Law) states that two species competing for identical resources in the same niche cannot coexist indefinitely — one will outcompete and replace the other. Species coexist by occupying slightly different niches (niche differentiation). Darwin's finches on the Galápagos evolved different beak shapes to exploit different food sources and avoid direct competition.",
+      "memory_hook": "Ecological niche = a species' role (what it eats, when active, what eats it). Two species can't occupy identical niches — one wins (competitive exclusion). Darwin's finches split into 15+ species to fill different niches. Niche differentiation is why biodiversity doesn't collapse into one dominant species."
     }
   ]
 }

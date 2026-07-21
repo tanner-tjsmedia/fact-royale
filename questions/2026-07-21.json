@@ -53,19 +53,6 @@
       "memory_hook": "National Basketball Association — the world's top basketball league, founded 1946."
     },
     {
-      "category": "Sports",
-      "question": "How many players are on a rugby union team?",
-      "options": [
-        "13",
-        "14",
-        "15",
-        "16"
-      ],
-      "answer": "15",
-      "explanation": "A rugby union team has 15 players on the field: eight forwards and seven backs. Rugby league, a different code of rugby, has 13 players per side. Rugby union was played at the 2016 Rio Olympics in the sevens format (7 players per side).",
-      "memory_hook": "Rugby union: 15. Rugby league: 13. Sevens: 7. Three codes, three numbers."
-    },
-    {
       "category": "Pop Culture",
       "question": "Who wrote 'Thriller' — the song, not the album?",
       "options": [
@@ -118,19 +105,6 @@
       "memory_hook": "'Houston, we have a problem' — Apollo 13's oxygen tank exploded. They made it home anyway."
     },
     {
-      "category": "History",
-      "question": "The Lighthouse of Alexandria, one of the Seven Wonders of the Ancient World, stood at the entrance to which city's harbor?",
-      "options": [
-        "Alexandria",
-        "Carthage",
-        "Athens",
-        "Rhodes"
-      ],
-      "answer": "Alexandria",
-      "explanation": "The Lighthouse of Alexandria (Pharos of Alexandria) was built on the island of Pharos near Alexandria, Egypt around 280 BC. Standing between 100-130 meters tall, it guided sailors into the harbor for centuries and was one of the tallest man-made structures in the ancient world.",
-      "memory_hook": "Pharos of Alexandria = ancient lighthouse. 'Pharos' gave us the word 'pharaoh'... actually it gave many languages the word for lighthouse."
-    },
-    {
       "category": "Geography",
       "question": "Which country is home to the Great Barrier Reef?",
       "options": [
@@ -155,6 +129,32 @@
       "answer": "Phytoplankton",
       "explanation": "Phytoplankton are microscopic algae and cyanobacteria that float in the ocean and perform photosynthesis. They produce roughly 50-80% of Earth's oxygen — far more than all the world's forests combined. They also absorb massive amounts of carbon dioxide, making them critical to the global carbon cycle.",
       "memory_hook": "Phytoplankton = half of Earth's oxygen. You breathe thanks to microscopic ocean creatures more than rainforests. The ocean, not the forest, is the planet's true lung."
+    },
+    {
+      "category": "Geography",
+      "question": "The Himalayas contain how many of the world's 14 peaks that exceed 8,000 meters in elevation?",
+      "options": [
+        "6",
+        "14",
+        "10",
+        "All 14"
+      ],
+      "answer": "All 14",
+      "explanation": "All 14 of the world's peaks that exceed 8,000 meters are located in the Himalaya-Karakoram mountain system (which is often broadly referred to as the Himalayas). The highest is Everest (8,849 m) in Nepal/Tibet, followed by K2 (8,611 m) in Pakistan/China. Mountaineers who climb all 14 are considered to have completed the 'Eight-thousanders.' The 8,000-meter threshold is equivalent to the 'death zone,' where there is not enough oxygen for the human body to sustain itself.",
+      "memory_hook": "All 14 peaks above 8,000m are in the Himalayas/Karakoram. Everest = 8,849m. K2 = 8,611m. The '8,000m club' of mountaineers who've climbed all 14 is tiny. Above 8,000m = 'death zone' — insufficient oxygen for human survival. Every extra meter up there is a battle against your own physiology."
+    },
+    {
+      "category": "Science & Nature",
+      "question": "What is the term for the slow bleaching and death of coral reefs caused when rising water temperatures stress corals and cause them to expel the algae that give them color and energy?",
+      "options": [
+        "Coral erosion",
+        "Ocean acidification",
+        "Coral bleaching",
+        "Reef collapse"
+      ],
+      "answer": "Coral bleaching",
+      "explanation": "Coral bleaching occurs when ocean temperatures rise even 1-2°C above normal summer maximums, causing corals to expel the symbiotic algae (zooxanthellae) that live in their tissues. These algae provide up to 90% of the coral's energy and give them their color. Without them, corals turn white ('bleach') and can die if stress continues. The Great Barrier Reef has experienced mass bleaching events in 2016, 2017, 2020, 2022, and 2024 — driven by climate change.",
+      "memory_hook": "Coral bleaching: heat stress causes corals to expel zooxanthellae (symbiotic algae) that provide 90% of their energy. Corals turn white and starve. The Great Barrier Reef has bleached 5+ times since 2016. 1-2°C above normal is enough to trigger it. Half of the world's coral has bleached since 1950."
     }
   ]
 }

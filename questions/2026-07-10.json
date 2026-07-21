@@ -53,19 +53,6 @@
       "memory_hook": "18.5 feet wide — just slightly wider than a yellow school bus."
     },
     {
-      "category": "Sports",
-      "question": "What is the name of the swimming stroke where both arms move symmetrically and the legs perform a dolphin kick?",
-      "options": [
-        "Backstroke",
-        "Breaststroke",
-        "Butterfly",
-        "Freestyle"
-      ],
-      "answer": "Butterfly",
-      "explanation": "The butterfly stroke involves both arms moving simultaneously in a circular motion while the legs perform a dolphin kick — both legs moving together up and down. It was developed in the 1930s as a variant of breaststroke and became an official Olympic event in 1956.",
-      "memory_hook": "Butterfly: both arms like wings, both legs like a dolphin tail."
-    },
-    {
       "category": "Pop Culture",
       "question": "Which actor starred as Neo in 'The Matrix' trilogy?",
       "options": [
@@ -118,19 +105,6 @@
       "memory_hook": "Germany was split — West and East — from 1949 to 1990."
     },
     {
-      "category": "History",
-      "question": "The 'Trail of Tears' refers to the forced relocation of which Native American nation?",
-      "options": [
-        "Sioux",
-        "Apache",
-        "Cherokee",
-        "Comanche"
-      ],
-      "answer": "Cherokee",
-      "explanation": "The Trail of Tears was the forced relocation of the Cherokee Nation and other Native American tribes from their homelands in the southeastern United States to 'Indian Territory' in present-day Oklahoma in the 1830s. Approximately 4,000 of the 15,000 Cherokee who were relocated died during the journey.",
-      "memory_hook": "Trail of Tears — Cherokee forced westward in winter. Tears froze on the trail."
-    },
-    {
       "category": "Geography",
       "question": "Australia is unique because it is both a country and what else?",
       "options": [
@@ -155,6 +129,32 @@
       "answer": "Double helix",
       "explanation": "James Watson and Francis Crick published their model of the DNA double helix in 1953, using X-ray diffraction data from Rosalind Franklin. The double helix resembles a twisted ladder: the two sugar-phosphate backbones form the rails, and the base pairs (A-T and G-C) form the rungs. This structure explained how DNA can be copied precisely.",
       "memory_hook": "DNA = double helix. Watson, Crick, and the crucial (often uncredited) work of Rosalind Franklin. The twisted ladder that contains the instructions for every living thing on Earth."
+    },
+    {
+      "category": "Geography",
+      "question": "What is the capital city of New Zealand — not Auckland, its largest city, but a purpose-built capital on the southern tip of the North Island?",
+      "options": [
+        "Christchurch",
+        "Hamilton",
+        "Dunedin",
+        "Wellington"
+      ],
+      "answer": "Wellington",
+      "explanation": "Wellington became New Zealand's capital in 1865 (replacing Auckland) to be more centrally located between the North and South Islands. It sits at the southern tip of the North Island and is one of the windiest cities in the world. Wellington is home to New Zealand's parliament, government buildings, and Te Papa Tongarewa — the national museum. The Peter Jackson film studios (Weta Workshop) that produced Lord of the Rings are also based there.",
+      "memory_hook": "Wellington = NZ capital (not Auckland). Moved from Auckland in 1865 to be more central. Southernmost capital in the world (along with Canberra and others). Home of Weta Workshop — where Lord of the Rings was made. Extremely windy city."
+    },
+    {
+      "category": "Science & Nature",
+      "question": "What is the chemical formula for glucose — the simple sugar that is the primary source of energy for most living cells?",
+      "options": [
+        "C₁₂H₂₂O₁₁",
+        "CH₄O",
+        "C₆H₁₂O₆",
+        "C₂H₅OH"
+      ],
+      "answer": "C₆H₁₂O₆",
+      "explanation": "Glucose (C₆H₁₂O₆) is a six-carbon monosaccharide and the primary energy source for cellular respiration. Plants produce it through photosynthesis; animals obtain it through digestion of carbohydrates. Cells break glucose down through glycolysis and the citric acid cycle to produce ATP (adenosine triphosphate), the universal energy currency. C₁₂H₂₂O₁₁ is sucrose (table sugar); C₂H₅OH is ethanol; CH₄O is methanol.",
+      "memory_hook": "Glucose = C₆H₁₂O₆. The universal cellular fuel. Plants make it via photosynthesis; you get it from carbs. Cells break it down to ATP (the actual energy currency). Sucrose is C₁₂H₂₂O₁₁ (two glucose units joined). Ethanol (C₂H₅OH) is what you drink; methanol (CH₄O) will kill you."
     }
   ]
 }

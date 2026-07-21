@@ -4,7 +4,12 @@
     {
       "category": "History",
       "question": "The Boston Tea Party of 1773 was a protest against taxation by which colonial power?",
-      "options": ["France", "Spain", "The Netherlands", "Britain"],
+      "options": [
+        "France",
+        "Spain",
+        "The Netherlands",
+        "Britain"
+      ],
       "answer": "Britain",
       "explanation": "On December 16, 1773, American colonists frustrated by British taxation without representation dumped 342 chests of British East India Company tea into Boston Harbor. The act of protest helped spark the American Revolution. The rallying cry was 'No taxation without representation' — colonists objected to paying taxes to a Parliament in which they had no elected voice.",
       "memory_hook": "Boston Tea Party = taxation without representation. They didn't just protest — they threw $1.7 million worth of tea into the harbor (in today's money). The most expensive cup of tea in American history."
@@ -12,7 +17,12 @@
     {
       "category": "History",
       "question": "The Eiffel Tower was built for which major international event?",
-      "options": ["The coronation of Napoleon III", "The 1900 Paris Olympics", "The 1889 World's Fair", "The Treaty of Paris signing"],
+      "options": [
+        "The coronation of Napoleon III",
+        "The 1900 Paris Olympics",
+        "The 1889 World's Fair",
+        "The Treaty of Paris signing"
+      ],
       "answer": "The 1889 World's Fair",
       "explanation": "The Eiffel Tower was designed by Gustave Eiffel and built for the 1889 Exposition Universelle (World's Fair) in Paris, celebrating the centennial of the French Revolution. It was initially criticized as an eyesore and was supposed to be dismantled after 20 years. It was saved when it proved useful as a radio transmission tower and is now the world's most-visited paid monument.",
       "memory_hook": "Eiffel Tower = almost torn down. The most recognizable structure in the world was supposed to be temporary. It survived because of radio waves, not beauty. Paris complained about it at first — now they put it on everything."
@@ -20,23 +30,25 @@
     {
       "category": "History",
       "question": "Leonardo da Vinci painted which portrait, now considered the most famous painting in the world?",
-      "options": ["The Last Supper", "The Birth of Venus", "Girl with a Pearl Earring", "Mona Lisa"],
+      "options": [
+        "The Last Supper",
+        "The Birth of Venus",
+        "Girl with a Pearl Earring",
+        "Mona Lisa"
+      ],
       "answer": "Mona Lisa",
       "explanation": "Leonardo da Vinci painted the Mona Lisa between approximately 1503 and 1519. It now hangs in the Louvre Museum in Paris, where it attracts about 6 million visitors per year. The subject's identity remains debated, though the leading theory is Lisa Gherardini, wife of a Florentine merchant. The painting's enigmatic smile has fascinated viewers for over 500 years.",
       "memory_hook": "Mona Lisa = Leonardo. The most famous painting by the most famous Renaissance man. It's smaller than people expect (30 x 21 inches) and behind bulletproof glass. People are always surprised by how tiny it actually is."
     },
     {
-      "category": "History",
-      "question": "The Rosetta Stone was crucial to historians because it allowed the decipherment of which ancient writing system?",
-      "options": ["Cuneiform", "Ancient Greek", "Egyptian hieroglyphics", "Sanskrit"],
-      "answer": "Egyptian hieroglyphics",
-      "explanation": "The Rosetta Stone, discovered in 1799 by French soldiers in Egypt, contains the same decree written in three scripts: Egyptian hieroglyphics, Demotic script, and Ancient Greek. Because scholars could read Greek, it served as the key to decoding hieroglyphics — a writing system that had been unreadable for 1,400 years. Jean-François Champollion cracked the code in 1822.",
-      "memory_hook": "Rosetta Stone = translation key. Three languages, same message. It's the original Rosetta Stone — the language learning software named itself after this rock because it's the ultimate translation tool."
-    },
-    {
       "category": "Sports",
       "question": "The Rugby World Cup has been dominated by which country, known as the All Blacks?",
-      "options": ["Australia", "South Africa", "England", "New Zealand"],
+      "options": [
+        "Australia",
+        "South Africa",
+        "England",
+        "New Zealand"
+      ],
       "answer": "New Zealand",
       "explanation": "New Zealand's national rugby team, the All Blacks, has won the Rugby World Cup three times (1987, 2011, 2015) and is the most successful international rugby team in history with a winning percentage above 77%. They are famous for performing the Haka — a traditional Māori war dance — before each match.",
       "memory_hook": "All Blacks = New Zealand. All black uniforms, all black everything — the most intimidating team kit in sports. Add the Haka before kickoff and opponents are already psychologically defeated before the match begins."
@@ -55,17 +67,14 @@
       "memory_hook": "Stanley Cup = personal time. Every other major trophy lives in a case. The Cup goes to each player's house, each player's hometown. It's been to every continent except Antarctica and has lived more lives than most trophies."
     },
     {
-      "category": "Sports",
-      "question": "The America's Cup is the oldest international trophy in which sport?",
-      "options": ["Polo", "Sailing", "Rowing", "Swimming"],
-      "answer": "Sailing",
-      "explanation": "The America's Cup is the oldest international sporting trophy in the world, first contested in 1851. It is awarded in yacht racing (sailing). The trophy was won by the schooner America in a race around the Isle of Wight, and the trophy was donated to be contested internationally. The United States held it for 132 consecutive years before Australia won it in 1983.",
-      "memory_hook": "America's Cup = oldest trophy in any sport. 1851 — older than most modern nations' sports programs. The US held it for 132 years straight, then lost it to Australia. The longest winning streak in sports history, ended by a yacht named Australia II."
-    },
-    {
       "category": "Pop Culture",
       "question": "David Bowie created which famous glam rock alter ego in the early 1970s?",
-      "options": ["Aladdin Sane", "Major Tom", "Ziggy Stardust", "Halloween Jack"],
+      "options": [
+        "Aladdin Sane",
+        "Major Tom",
+        "Ziggy Stardust",
+        "Halloween Jack"
+      ],
       "answer": "Ziggy Stardust",
       "explanation": "David Bowie created Ziggy Stardust — an androgynous, alien rock star persona — for his 1972 album 'The Rise and Fall of Ziggy Stardust and the Spiders from Mars.' Ziggy was characterized by wild red hair, bold makeup, and glam rock costumes. Bowie retired the character in 1973 at a live concert, famously announcing it would be 'the last show we'll ever do.'",
       "memory_hook": "Ziggy Stardust = Bowie's alien rock star. Bowie didn't just have a stage name — he had an entire fictional biography for his alter ego. Ziggy was from outer space. Bowie was from Brixton. Same person, completely different planets."
@@ -73,7 +82,12 @@
     {
       "category": "Pop Culture",
       "question": "Which director created Pulp Fiction, known for its non-linear storytelling and sharp dialogue?",
-      "options": ["Martin Scorsese", "Joel Coen", "Quentin Tarantino", "Paul Thomas Anderson"],
+      "options": [
+        "Martin Scorsese",
+        "Joel Coen",
+        "Quentin Tarantino",
+        "Paul Thomas Anderson"
+      ],
       "answer": "Quentin Tarantino",
       "explanation": "Quentin Tarantino wrote and directed Pulp Fiction (1994), which won the Palme d'Or at Cannes and was nominated for 7 Academy Awards. The film is celebrated for its non-linear structure, pop culture references, and rapid-fire dialogue. It revived John Travolta's career and is considered one of the most influential films of the 1990s.",
       "memory_hook": "Tarantino = Pulp Fiction. His fingerprints are all over it: long dialogue scenes, sudden violence, non-chronological order, and characters debating fast food in the middle of a crime story. No other director could have made it."
@@ -81,10 +95,67 @@
     {
       "category": "Pop Culture",
       "question": "Frank Sinatra was famously part of which iconic celebrity social group in 1950s-60s Las Vegas?",
-      "options": ["The Hollywood Five", "The Rat Pack", "The Vegas Kings", "The Chairman's Club"],
+      "options": [
+        "The Hollywood Five",
+        "The Rat Pack",
+        "The Vegas Kings",
+        "The Chairman's Club"
+      ],
       "answer": "The Rat Pack",
       "explanation": "The Rat Pack was a group of entertainers centered around Frank Sinatra, including Dean Martin, Sammy Davis Jr., Peter Lawford, and Joey Bishop. They performed together at the Sands Hotel in Las Vegas and were close friends with President John F. Kennedy. The group was known for their wit, style, and breaking racial barriers — Sammy Davis Jr. was one of the few Black performers welcomed at Las Vegas venues.",
       "memory_hook": "Rat Pack = Sinatra's crew. Five guys who owned Las Vegas in the early 1960s. Sinatra (The Chairman), Martin (Dean the King), Davis (the most talented one). They made cool look effortless because for them, it was."
+    },
+    {
+      "category": "Geography",
+      "question": "Which Pacific island nation, consisting of 33 coral atolls with a highest point of just 2 meters above sea level, is one of the countries most threatened by rising seas?",
+      "options": [
+        "Maldives",
+        "Tuvalu",
+        "Fiji",
+        "Kiribati"
+      ],
+      "answer": "Kiribati",
+      "explanation": "Kiribati (pronounced 'Kiribas') is a Pacific island nation of 33 coral atolls and islands, home to about 120,000 people. Its highest point is only 2 meters above sea level, making it one of the nations most existentially threatened by climate-change-driven sea level rise. The government has already purchased land in Fiji as a potential future home for its citizens. Kiribati also uniquely straddles both the International Date Line and both hemispheres.",
+      "memory_hook": "Kiribati: 33 atolls, highest point 2 meters above sea level. Already bought land in Fiji as a backup plan. Straddles the date line and both hemispheres. The first nation to potentially disappear under rising seas."
+    },
+    {
+      "category": "Science & Nature",
+      "question": "What type of rock forms when magma or lava cools and solidifies — accounting for about 90% of Earth's crust?",
+      "options": [
+        "Sedimentary",
+        "Metamorphic",
+        "Igneous",
+        "Alluvial"
+      ],
+      "answer": "Igneous",
+      "explanation": "Igneous rock forms when molten rock (magma underground, or lava at the surface) cools and solidifies. 'Igneous' comes from the Latin 'ignis' meaning fire. Intrusive igneous rock like granite cools slowly underground, forming large visible crystals. Extrusive igneous rock like basalt or obsidian cools quickly at the surface, forming small or no crystals. Along with metamorphic rock, igneous rock makes up about 90% of Earth's crust.",
+      "memory_hook": "Igneous = fire rock. Magma/lava cools → igneous. Granite (slow cooling, big crystals) vs. obsidian (fast cooling, glassy). 90% of Earth's crust is igneous or metamorphic. The planet was literally forged in fire."
+    },
+    {
+      "category": "Geography",
+      "question": "Lake Malawi (also called Lake Nyasa) — Africa's third-largest lake — is shared by Malawi, Tanzania, and which third country?",
+      "options": [
+        "Zambia",
+        "Zimbabwe",
+        "Kenya",
+        "Mozambique"
+      ],
+      "answer": "Mozambique",
+      "explanation": "Lake Malawi is shared by Malawi (west and south shores), Tanzania (northern tip), and Mozambique (a narrow eastern shore). It is about 575 km long and contains more species of fish than any other lake in the world — over 1,000 species of cichlids alone, representing remarkable evolutionary radiation in an isolated freshwater environment. The lake is also known as the 'Calendar Lake' because it is approximately 365 miles long and 52 miles wide.",
+      "memory_hook": "Lake Malawi shared by Malawi, Tanzania, Mozambique. Over 1,000 cichlid species — more fish species than any other lake. Called the 'Calendar Lake' (365 miles long, 52 wide). Evolution in isolation created extraordinary diversity."
+    },
+    {
+      "category": "Science & Nature",
+      "question": "What do geologists call the era spanning roughly 541 to 252 million years ago, when complex animal life first exploded in diversity?",
+      "options": [
+        "Mesozoic Era",
+        "Cenozoic Era",
+        "Precambrian",
+        "Paleozoic Era"
+      ],
+      "answer": "Paleozoic Era",
+      "explanation": "The Paleozoic Era ('ancient life') lasted from approximately 541 to 252 million years ago. It began with the Cambrian Explosion — a rapid diversification of complex animal body plans — and ended with the Permian-Triassic extinction event, the largest mass extinction in Earth's history (eliminating ~96% of marine species). Major developments included the colonization of land by plants and animals and the evolution of fish, amphibians, reptiles, and insects.",
+      "memory_hook": "Paleozoic = 'ancient life,' 541-252 Mya. Starts with Cambrian Explosion (animal body plans diversify rapidly). Ends with the Permian extinction (96% of marine species gone). Fish, insects, amphibians, and reptiles all evolved during this era."
     }
   ]
 }

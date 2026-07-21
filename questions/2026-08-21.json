@@ -41,19 +41,6 @@
       "memory_hook": "Rosetta Stone = found in Egypt (Rashid), 1799. Champollion cracked hieroglyphics using it."
     },
     {
-      "category": "History",
-      "question": "The Silk Road, an ancient trade network, primarily connected China with which other civilization?",
-      "options": [
-        "Egypt",
-        "Rome",
-        "Mesopotamia",
-        "Mediterranean Europe and Rome"
-      ],
-      "answer": "Mediterranean Europe and Rome",
-      "explanation": "The Silk Road was a network of trade routes connecting China with Central Asia, the Middle East, and ultimately Rome and Mediterranean Europe. It was used for about 1,500 years (roughly 1st century BC to 15th century AD). Silk, spices, paper, gunpowder, and the bubonic plague all traveled the Silk Road. The route gave rise to great trading cities like Samarkand and Kashgar.",
-      "memory_hook": "Silk Road = China to Rome. 1,500 years of trade. Silk, spices, and ideas went west. The plague went both directions. Marco Polo traveled it in the 13th century. The Mongol Empire's 'Pax Mongolica' actually made the Silk Road safer for a century."
-    },
-    {
       "category": "Sports",
       "question": "In which sport is the term 'hat trick' thought to have originated?",
       "options": [
@@ -78,19 +65,6 @@
       "answer": "Japan",
       "explanation": "Japan hosted the 1964 Summer Olympics in Tokyo and the 1972 Winter Olympics in Sapporo — the first Winter Games held in Asia. Tokyo hosted the Summer Games again in 2021 (postponed from 2020 due to COVID-19). Sapporo hosted the 1972 Winter Olympics, and Japan also hosted the 1998 Winter Olympics in Nagano.",
       "memory_hook": "Japan: 1964 Summer (Tokyo) + 1972 Winter (Sapporo). First Asian Winter Games."
-    },
-    {
-      "category": "Sports",
-      "question": "In boxing, the 'Rumble in the Jungle' refers to which legendary 1974 fight?",
-      "options": [
-        "Frazier vs Foreman",
-        "Foreman vs Norton",
-        "Ali vs Foreman",
-        "Ali vs Frazier"
-      ],
-      "answer": "Ali vs Foreman",
-      "explanation": "The 'Rumble in the Jungle' (October 30, 1974) was held in Kinshasa, Zaire (now DR Congo), promoted by Don King. Muhammad Ali, considered a 7-to-1 underdog against champion George Foreman, used his 'rope-a-dope' strategy — allowing Foreman to punch himself out while Ali leaned on the ropes — before knocking Foreman out in the 8th round. Ali regained the world heavyweight title he'd been stripped of years earlier.",
-      "memory_hook": "Rumble in the Jungle = Ali vs Foreman, Zaire 1974. Ali was a massive underdog. He invented 'rope-a-dope' — let Foreman punch himself exhausted, then knocked him out in the 8th. Foreman was 25 and unbeaten. Ali was 32 and hadn't been champion in 7 years. He won. The documentary 'When We Were Kings' tells the story."
     },
     {
       "category": "Pop Culture",
@@ -156,6 +130,32 @@
       "answer": "Decomposition",
       "explanation": "Decomposition is the process by which dead organic matter is broken down into simpler organic or inorganic matter by bacteria, fungi, and other organisms called decomposers. This recycling of nutrients is essential to all ecosystems — without decomposers, the world would be buried under dead organisms. Carbon, nitrogen, and other elements are returned to the soil and atmosphere through decomposition.",
       "memory_hook": "Decomposition = nature's recycling. Without decomposers, dead matter would pile up forever. Bacteria and fungi break everything back down into nutrients that plants can use. Everything that dies becomes food for the living. The cycle never stops."
+    },
+    {
+      "category": "Geography",
+      "question": "The Lena River, one of the world's ten longest rivers at about 4,400 km, flows through which country and empties into the Arctic Ocean?",
+      "options": [
+        "Canada",
+        "China",
+        "Norway",
+        "Russia"
+      ],
+      "answer": "Russia",
+      "explanation": "The Lena River originates near Lake Baikal in Siberia, Russia, and flows northward for 4,400 km before emptying into the Laptev Sea (part of the Arctic Ocean) through a vast delta that is one of the largest in the world. The Lena is one of Russia's major rivers and the easternmost of Siberia's great rivers (the others being the Ob and Yenisei). It freezes completely in winter. The Lena Pillars — towering rock columns along its banks — are a UNESCO World Heritage Site.",
+      "memory_hook": "Lena River: 4,400 km, Siberia (Russia) → Arctic Ocean. Originates near Lake Baikal. Freezes solid in winter. The Lena Pillars (towering rock columns on its banks) are a UNESCO site. One of three great Siberian rivers (Ob, Yenisei, Lena) that drain the world's largest contiguous landmass."
+    },
+    {
+      "category": "Science & Nature",
+      "question": "What is the placebo effect, and why do clinical trials use double-blind studies to account for it?",
+      "options": [
+        "A side effect of experimental drugs",
+        "Improvement in condition caused by believing you're being treated, even if the treatment is inactive",
+        "A form of confirmation bias in medical research",
+        "A type of drug interaction that amplifies effects"
+      ],
+      "answer": "Improvement in condition caused by believing you're being treated, even if the treatment is inactive",
+      "explanation": "The placebo effect occurs when a patient experiences real, measurable improvement in their condition simply because they believe they are receiving effective treatment — even when given an inert substance (a sugar pill or saline injection). It is mediated by the brain's release of endorphins and other neurochemicals. Double-blind trials (where neither patient nor researcher knows who gets real treatment) are required because even researchers unconsciously signal expectations to patients, and patients can detect enthusiasm.",
+      "memory_hook": "Placebo effect: belief in treatment causes real measurable improvement. Your brain releases actual endorphins. Doctors also have a 'nocebo' effect — telling patients about side effects makes them more likely to occur. Double-blind trials control for this. The mind-body connection is real, demonstrable, and powerful."
     }
   ]
 }

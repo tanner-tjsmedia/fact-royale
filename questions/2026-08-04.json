@@ -41,19 +41,6 @@
       "memory_hook": "Communist Manifesto = Marx AND Engels, 1848. Both names, not just Marx. Engels also financially supported Marx for much of his life. The last line: 'Workers of the world, unite!' — perhaps the most famous political closing line ever written."
     },
     {
-      "category": "History",
-      "question": "The English Civil War resulted in the execution of which monarch in 1649?",
-      "options": [
-        "Charles II",
-        "James I",
-        "Henry VIII",
-        "Charles I"
-      ],
-      "answer": "Charles I",
-      "explanation": "King Charles I of England was executed on January 30, 1649, following defeat in the English Civil War against Parliamentary forces led by Oliver Cromwell. It was the first time in English history that a reigning monarch had been publicly tried and executed. England briefly became a republic (the Commonwealth) before the monarchy was restored under Charles II in 1660.",
-      "memory_hook": "Charles I executed 1649. England tried and beheaded its own king. The country became a republic for 11 years. Then the monarchy returned — as if nothing had happened. The executed king's son became king."
-    },
-    {
       "category": "Sports",
       "question": "What is the maximum number of sets in a men's Grand Slam tennis match?",
       "options": [
@@ -78,19 +65,6 @@
       "answer": "300",
       "explanation": "A perfect game in bowling consists of 12 consecutive strikes (rolling the ball into the pocket and knocking all 10 pins down on the first ball each frame), resulting in a score of 300 — the maximum possible. Bowling a 300 is extremely rare — the odds for an average recreational bowler are roughly 1 in 11,500. Even professional bowlers consider it a remarkable achievement.",
       "memory_hook": "Perfect bowling game = 300. 12 consecutive strikes. You get 12 balls in a perfect game (not 10) because you get bonus rolls in the 10th frame. A '300 game' is bowling's equivalent of a hole-in-one — rare enough to be memorable."
-    },
-    {
-      "category": "Sports",
-      "question": "Which country hosted the 2018 FIFA World Cup — the first time the tournament was held in Eastern Europe — where France defeated Croatia 4-2 in the final?",
-      "options": [
-        "Russia",
-        "Germany",
-        "South Africa",
-        "Qatar"
-      ],
-      "answer": "Russia",
-      "explanation": "Russia hosted the 2018 FIFA World Cup across 11 cities. France won the final 4-2 against Croatia in Moscow's Luzhniki Stadium, with a controversial VAR-assisted penalty and an own goal in the match. Kylian Mbappé became only the second teenager (after Pelé) to score in a World Cup final.",
-      "memory_hook": "2018 WC: Russia hosted, France beat Croatia 4-2. Mbappé was 19."
     },
     {
       "category": "Pop Culture",
@@ -156,6 +130,32 @@
       "answer": "Evolution",
       "explanation": "Evolution is the process of change in all forms of life over generations. Driven primarily by natural selection — where individuals with traits better suited to their environment are more likely to survive and reproduce — it explains the diversity of life on Earth. Charles Darwin and Alfred Russel Wallace independently developed the theory of evolution by natural selection, published by Darwin in 1859.",
       "memory_hook": "Evolution = change over generations. Darwin's big idea. The finches in the Galapagos, the fossils in the rocks, the DNA in every living thing — all tell the same story. Life changes, slowly, generation by generation."
+    },
+    {
+      "category": "Geography",
+      "question": "Mount Olympus, the highest peak in Greece at 2,917 meters, is located in which part of the country?",
+      "options": [
+        "On the island of Crete",
+        "On the Peloponnese Peninsula",
+        "On a small island off Athens",
+        "In northern Greece near Thessaloniki"
+      ],
+      "answer": "In northern Greece near Thessaloniki",
+      "explanation": "Mount Olympus is located in northern Greece, on the border between Thessaly and Macedonia, about 80 km southwest of Thessaloniki. In Greek mythology, it was the home of the twelve Olympian gods (Zeus, Hera, Poseidon, Athena, etc.) who ruled from its peak. It has 52 peaks; Mytikas (2,917 m) is the highest. Mount Olympus was declared a national park in 1938 — Greece's first — and is a UNESCO Biosphere Reserve.",
+      "memory_hook": "Mount Olympus: 2,917m, northern Greece near Thessaloniki. Home of the 12 Olympian gods in Greek mythology. 52 peaks — Mytikas is the highest. Greece's first national park (1938). The gods lived 2,917 meters up on perpetually cloud-covered rock — not a bad metaphor for being unreachable."
+    },
+    {
+      "category": "Science & Nature",
+      "question": "When a ball rolls downhill, what conversion of energy is occurring?",
+      "options": [
+        "Chemical to kinetic",
+        "Nuclear to thermal",
+        "Potential to kinetic",
+        "Kinetic to potential"
+      ],
+      "answer": "Potential to kinetic",
+      "explanation": "Potential energy is stored energy based on position or configuration — an object at height has gravitational potential energy. Kinetic energy is the energy of motion. When an object falls or rolls downhill, potential energy converts to kinetic energy. The total mechanical energy (potential + kinetic) is conserved in the absence of friction. Energy conversions are happening constantly: chemical → kinetic (muscles), electrical → light (bulbs), kinetic → electrical (generators).",
+      "memory_hook": "Potential energy (stored in height/position) converts to kinetic energy (motion) as a ball rolls downhill. At the top: all potential. At the bottom: all kinetic. In between: a mix. Energy isn't destroyed — just transformed. The law of conservation of energy applies throughout the universe."
     }
   ]
 }

@@ -3,16 +3,16 @@
   "questions": [
     {
       "category": "History",
-      "question": "The 'Trail of Tears' refers to the forced relocation of which Native American nations by the US government in the 1830s?",
+      "question": "By 1914, the Scramble for Africa had resulted in nearly the entire continent being colonized. Which two African nations remained fully independent?",
       "options": [
-        "Apache and Navajo",
-        "Cherokee and others",
-        "Lakota and Sioux",
-        "Comanche and Kiowa"
+        "Egypt and Morocco",
+        "Ethiopia and Liberia",
+        "South Africa and Kenya",
+        "Tunisia and Algeria"
       ],
-      "answer": "Cherokee and others",
-      "explanation": "The Trail of Tears refers to the forced removal of the Five Civilized Tribes — Cherokee, Muscogee (Creek), Seminole, Chickasaw, and Choctaw — from their ancestral lands in the southeastern United States to Indian Territory (present-day Oklahoma) between 1830 and 1850. Approximately 60,000 Native Americans were relocated; thousands died from disease, exposure, and starvation along the way.",
-      "memory_hook": "Trail of Tears = forced relocation of Five Tribes in the 1830s. Thousands died walking to Oklahoma in winter. The Cherokee called it 'the trail where they cried.' President Andrew Jackson signed the Indian Removal Act. He's still on the $20 bill."
+      "answer": "Ethiopia and Liberia",
+      "explanation": "By 1914, only Ethiopia and Liberia remained independent African nations. Ethiopia defeated Italy at the Battle of Adwa in 1896 — one of the most significant victories of any African nation over a European colonial power — preserving its sovereignty. Liberia, founded in 1822 by freed American slaves and recognized as a republic in 1847, maintained independence partly through American diplomatic support. The rest of Africa was divided among Britain, France, Germany, Belgium, Portugal, Italy, and Spain.",
+      "memory_hook": "1914: only Ethiopia and Liberia free in Africa. Ethiopia beat Italy at Adwa (1896). Liberia founded by freed American slaves. Entire continent otherwise carved up by European powers."
     },
     {
       "category": "History",
@@ -39,19 +39,6 @@
       "answer": "The fall of Constantinople",
       "explanation": "1453 was remarkable for two world-changing events: the end of the Hundred Years War and the fall of Constantinople to the Ottoman Turks (May 29, 1453). The fall of Constantinople ended the Byzantine Empire (Eastern Roman Empire) and shifted the balance of power in Europe and the Middle East. Many historians consider it the symbolic end of the Middle Ages.",
       "memory_hook": "1453 = Hundred Years War ends AND Constantinople falls to the Ottomans. Two world-changing events in one year. The end of medieval Europe happens twice simultaneously. The Byzantine Empire had kept Roman civilization alive for 1,000 years — gone in 1453."
-    },
-    {
-      "category": "History",
-      "question": "The Indian independence movement was largely led by which figure, known for nonviolent resistance?",
-      "options": [
-        "Jawaharlal Nehru",
-        "Subhas Chandra Bose",
-        "Bhimrao Ambedkar",
-        "Mahatma Gandhi"
-      ],
-      "answer": "Mahatma Gandhi",
-      "explanation": "Mohandas Karamchand Gandhi, known as Mahatma ('Great Soul'), led India's independence movement against British rule through nonviolent civil disobedience. His tactics — hunger strikes, peaceful marches, and civil disobedience campaigns like the 1930 Salt March — galvanized millions and influenced the civil rights movements of the 20th century. India gained independence on August 15, 1947. Gandhi was assassinated in January 1948.",
-      "memory_hook": "Gandhi = nonviolent resistance, Indian independence. The Salt March (1930) was 240 miles of peaceful protest that shook the British Empire. Martin Luther King Jr. studied Gandhi's methods directly. Gandhi was assassinated 6 months after India won independence."
     },
     {
       "category": "Sports",
@@ -156,6 +143,19 @@
       "answer": "Activation energy",
       "explanation": "Activation energy is the minimum energy required to initiate a chemical reaction. Even reactions that release energy (exothermic) need an initial input of activation energy to get started — like how you need to light a match to start a fire. Catalysts (including enzymes in living organisms) work by lowering the activation energy needed, allowing reactions to proceed at lower temperatures or more quickly.",
       "memory_hook": "Activation energy = energy to start a reaction. Even reactions that release energy need a push to start. Enzymes in your body lower activation energy so reactions happen at body temperature rather than needing extreme heat. You are chemistry running at 37 degrees."
+    },
+    {
+      "category": "Science & Nature",
+      "question": "What do enzymes do in biological systems, and what happens to enzyme function when temperature gets too high?",
+      "options": [
+        "They store energy; high temperature makes them more efficient",
+        "They break down cell walls; high temperature makes them stronger",
+        "They are biological catalysts that speed up chemical reactions; excessive heat denatures them, destroying their function",
+        "They carry oxygen; high temperature increases oxygen-carrying capacity"
+      ],
+      "answer": "They are biological catalysts that speed up chemical reactions; excessive heat denatures them, destroying their function",
+      "explanation": "Enzymes are proteins that act as biological catalysts — they speed up specific chemical reactions in living organisms without being consumed. Each enzyme has an active site that fits a specific substrate (lock-and-key model). Enzymes operate optimally at specific temperature and pH ranges. When temperature rises too high (or pH changes too much), the protein unfolds (denatures) and loses its shape — permanently destroying function. This is why a fever above 41°C (106°F) is dangerous: it denatures enzymes essential for metabolism.",
+      "memory_hook": "Enzymes = biological catalysts. Lock-and-key: each enzyme fits one substrate. Body temperature 37°C is optimal for most human enzymes. Denature above ~41°C — structure unfolds, function lost. That's why high fever is dangerous: your own enzymes stop working. Cooking food denatures proteins too — that's why a raw egg becomes solid when fried."
     }
   ]
 }

@@ -53,19 +53,6 @@
       "memory_hook": "London: three-time Summer Olympics host. The city keeps coming back."
     },
     {
-      "category": "Sports",
-      "question": "In swimming, what stroke is swum in the first leg of an individual medley?",
-      "options": [
-        "Butterfly",
-        "Backstroke",
-        "Breaststroke",
-        "Freestyle"
-      ],
-      "answer": "Butterfly",
-      "explanation": "In the individual medley, swimmers complete each stroke in this order: butterfly, backstroke, breaststroke, freestyle. In relay medleys, the order is: backstroke, breaststroke, butterfly, freestyle. The butterfly stroke is generally considered the most physically demanding.",
-      "memory_hook": "Butterfly FIRST in IM — fly before you float on your back."
-    },
-    {
       "category": "Pop Culture",
       "question": "Which band sang 'Sweet Home Alabama'?",
       "options": [
@@ -118,19 +105,6 @@
       "memory_hook": "Boston Tea Party: 'No taxation without representation' — they threw the tea out."
     },
     {
-      "category": "History",
-      "question": "Which scientist developed the theory of general relativity?",
-      "options": [
-        "Isaac Newton",
-        "Niels Bohr",
-        "Max Planck",
-        "Albert Einstein"
-      ],
-      "answer": "Albert Einstein",
-      "explanation": "Albert Einstein published his general theory of relativity in 1915, describing gravity as a curvature of spacetime caused by mass and energy. The theory predicted phenomena including gravitational waves, black holes, and the bending of light around massive objects — all later confirmed.",
-      "memory_hook": "Einstein bent space with his mind — general relativity is his masterpiece."
-    },
-    {
       "category": "Geography",
       "question": "Which desert is the largest hot desert in the world?",
       "options": [
@@ -155,6 +129,32 @@
       "answer": "Igneous",
       "explanation": "Igneous rocks form when magma (underground) or lava (above ground) cools and crystallizes. 'Igneous' comes from the Latin for 'fire.' Granite is a common intrusive igneous rock (cooled underground); basalt is a common extrusive one (cooled above ground). About 95% of Earth's crust is igneous rock.",
       "memory_hook": "Igneous = fire rock. Lava cools, igneous forms. The other two types are sedimentary (layers of sediment) and metamorphic (rock transformed by heat and pressure)."
+    },
+    {
+      "category": "Geography",
+      "question": "Denali, the highest peak in North America at 6,190 meters, is located in which U.S. state?",
+      "options": [
+        "Colorado",
+        "Washington",
+        "Montana",
+        "Alaska"
+      ],
+      "answer": "Alaska",
+      "explanation": "Denali (formerly known as Mount McKinley) is located in Denali National Park in Alaska. At 6,190 meters (20,310 feet), it is the highest peak in North America. The name Denali comes from the Koyukon Athabascan people and means 'the tall one' or 'the great one.' The US officially renamed the peak from McKinley to Denali in 2015, restoring its indigenous name. Its extreme latitude makes it one of the coldest mountains on Earth, requiring extensive mountaineering preparation.",
+      "memory_hook": "Denali (McKinley) = highest peak in N. America, 6,190m, Alaska. Official name changed back to Denali in 2015 — its indigenous Koyukon name meaning 'the great one.' Extremely cold due to its northern latitude, not just altitude."
+    },
+    {
+      "category": "Science & Nature",
+      "question": "What is the biological transformation process where an insect completely changes its body form — such as a caterpillar becoming a butterfly?",
+      "options": [
+        "Molting",
+        "Pupation",
+        "Complete metamorphosis",
+        "Partial metamorphosis"
+      ],
+      "answer": "Complete metamorphosis",
+      "explanation": "Complete metamorphosis (holometabolism) involves four distinct life stages: egg → larva (caterpillar) → pupa (chrysalis) → adult. The larval stage does most of the eating and growing; the pupal stage involves complete reorganization of body tissues; the adult stage focuses on reproduction. Butterflies, beetles, flies, and bees all undergo complete metamorphosis. Partial metamorphosis (hemimetabolism, seen in grasshoppers and dragonflies) skips the pupal stage: egg → nymph → adult.",
+      "memory_hook": "Complete metamorphosis: egg → larva → pupa → adult. The pupa stage essentially dissolves the caterpillar into cellular soup and reassembles it into a butterfly. Butterflies, beetles, flies, and bees do this. Grasshoppers don't — they use partial metamorphosis."
     }
   ]
 }

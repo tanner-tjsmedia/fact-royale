@@ -41,19 +41,6 @@
       "memory_hook": "Watergate = hotel break-in, Nixon resignation. 'What did the president know and when did he know it?' The cover-up was worse than the crime. Nixon added '-gate' to the English language as a suffix for every political scandal since."
     },
     {
-      "category": "History",
-      "question": "The Manhattan Project's primary weapons design laboratory, code-named 'Site Y,' was secretly built in which U.S. state — where the first atomic bomb was designed and assembled?",
-      "options": [
-        "New Mexico",
-        "Nevada",
-        "Tennessee",
-        "Arizona"
-      ],
-      "answer": "New Mexico",
-      "explanation": "Los Alamos National Laboratory in New Mexico, code-named 'Site Y,' was chosen by J. Robert Oppenheimer for its remote location. The first atomic bomb was tested at Trinity Site, also in New Mexico, on July 16, 1945. The site was so secret that employees' mail was censored and children born there had only a P.O. box listed as their birthplace.",
-      "memory_hook": "Los Alamos = New Mexico. Site Y. Oppenheimer's lab. First bomb tested July 16, 1945."
-    },
-    {
       "category": "Sports",
       "question": "In which Olympic sport do athletes use a bow and arrows to hit a target?",
       "options": [
@@ -78,19 +65,6 @@
       "answer": "High jump",
       "explanation": "Dick Fosbury won gold at the 1968 Mexico City Olympics using a completely new high jump technique — jumping headfirst and backward over the bar rather than face-down. Before Fosbury, athletes jumped using the 'Western Roll' or 'Straddle.' His technique was so effective that virtually all high jumpers now use it. Fosbury cleared 2.24 meters with his revolutionary style.",
       "memory_hook": "Fosbury Flop = high jump, 1968 Olympics. Dick Fosbury invented it and won gold. Before 1968, jumpers went over face-down. He went backward and changed the sport forever. Every high jumper in the world now uses his technique."
-    },
-    {
-      "category": "Sports",
-      "question": "In which sport would you perform a 'hat trick'?",
-      "options": [
-        "Basketball",
-        "Baseball",
-        "Tennis",
-        "Soccer or Ice Hockey"
-      ],
-      "answer": "Soccer or Ice Hockey",
-      "explanation": "A hat trick refers to scoring three goals in a single game in soccer or ice hockey. The term originated in cricket, where a bowler taking three wickets with consecutive balls was awarded a hat by his club. In soccer, the ball is sometimes given to the player who scores a hat trick. In ice hockey, fans traditionally throw their hats onto the ice when a player scores three goals.",
-      "memory_hook": "Hat trick = three goals. From cricket (three wickets = new hat). In hockey, fans throw their hats onto the ice. In soccer, the hat-tricker keeps the match ball. The expression has spread to mean three of anything impressive."
     },
     {
       "category": "Pop Culture",
@@ -120,16 +94,16 @@
     },
     {
       "category": "Pop Culture",
-      "question": "The Eagles' 'Hotel California' (1977) is one of the best-selling singles of all time. Which band member wrote most of it?",
+      "question": "The Eagles' 'Hotel California' (1977) was written by three band members. Who is credited as the primary lyricist and lead vocalist who defined the song's concept?",
       "options": [
         "Joe Walsh",
-        "Timothy B. Schmit",
+        "Don Henley",
         "Glenn Frey",
         "Don Felder"
       ],
-      "answer": "Don Felder",
-      "explanation": "Don Felder wrote the iconic guitar riff for 'Hotel California' in 1976 while sitting in his Malibu home, staring at the ocean. Don Henley wrote most of the lyrics. The song's allegory about excess and disillusionment in the California music industry was never explicitly explained by the band. The guitar solo at the end — played by Felder and Joe Walsh together — is considered one of the greatest in rock history.",
-      "memory_hook": "'Hotel California' riff = Don Felder. Lyrics = Don Henley. The song is about excess in the California music industry. 'You can check out any time you like, but you can never leave.' They still haven't explained exactly what it means — and that's the point."
+      "answer": "Don Henley",
+      "explanation": "'Hotel California' was written collaboratively: Don Felder created the original guitar riff and chord progression, while Don Henley wrote the iconic lyrics and sang lead vocals. Glenn Frey co-wrote the words. Henley is credited as the song's primary writer — his lyrics about excess and disillusionment in the California music industry define what the song is. The dual guitar solo at the end was performed by Felder and Joe Walsh.",
+      "memory_hook": "Hotel California: Felder wrote the riff, Henley wrote the words. 'You can check out any time you like, but you can never leave' — that's Henley's pen. The lyrics define the song, so Henley is the primary writer."
     },
     {
       "category": "Geography",
@@ -156,6 +130,32 @@
       "answer": "Midnight zone",
       "explanation": "The midnight zone (or bathypelagic zone) extends from about 1,000 to 4,000 meters below the ocean surface, where absolutely no sunlight reaches. Creatures in this zone must either produce their own light (bioluminescence) or rely on organic matter drifting down from above. Pressure at these depths is extreme — hundreds of times greater than at the surface.",
       "memory_hook": "Midnight zone = no light, 1,000-4,000 meters down. Creatures make their own light. Pressure is crushing. Less explored than the Moon's surface. The deep ocean is the largest inhabitable environment on Earth and the least understood."
+    },
+    {
+      "category": "Geography",
+      "question": "The Aleutian Islands, a chain of about 300 volcanic islands extending 1,900 km into the Pacific, belong to which U.S. state?",
+      "options": [
+        "Hawaii",
+        "Washington",
+        "Oregon",
+        "Alaska"
+      ],
+      "answer": "Alaska",
+      "explanation": "The Aleutian Islands are an archipelago of volcanic islands stretching from the Alaska Peninsula westward toward Russia's Kamchatka Peninsula. They lie along the Pacific Ring of Fire and are tectonically active. The islands were the site of the only North American land battle of World War II — the Battle of Attu (1943) and Battle of Kiska — when Japan briefly occupied two islands. The islands are part of Alaska and create one of the world's most productive fishing areas.",
+      "memory_hook": "Aleutian Islands: 300 volcanic islands extending from Alaska toward Russia. Ring of Fire geology. The ONLY land battle on US/North American soil in WWII was here — Japan occupied Attu and Kiska in 1943. Incredibly productive fishing waters. The chain that nearly connects the Americas to Asia."
+    },
+    {
+      "category": "Science & Nature",
+      "question": "What is Archimedes' principle — the law that explains why ships made of steel can float even though steel is denser than water?",
+      "options": [
+        "Objects expand when submerged",
+        "A submerged object experiences an upward force equal to the weight of fluid displaced",
+        "Dense objects always sink",
+        "Pressure increases with depth"
+      ],
+      "answer": "A submerged object experiences an upward force equal to the weight of fluid displaced",
+      "explanation": "Archimedes' principle states that any object submerged in a fluid experiences an upward buoyant force equal to the weight of the fluid it displaces. A steel ship floats because its shape displaces enough water that the weight of that water exceeds the ship's weight. Archimedes reportedly discovered this while stepping into a bath and ran through the streets shouting 'Eureka!' (I have found it). The same principle explains why people float more easily in saltwater (denser water → greater buoyant force).",
+      "memory_hook": "Archimedes' principle: buoyant force = weight of displaced fluid. A ship's hollow shape displaces more water than the ship weighs → it floats. Eureka! — Archimedes allegedly ran naked through Syracuse after his bathtub discovery. Saltwater has more buoyancy than fresh because it's denser."
     }
   ]
 }

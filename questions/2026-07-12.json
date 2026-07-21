@@ -53,19 +53,6 @@
       "memory_hook": "14-15 oz NFL ball — Deflategate made everyone suddenly know the spec."
     },
     {
-      "category": "Sports",
-      "question": "What country is F1 driver Lewis Hamilton from?",
-      "options": [
-        "Australia",
-        "Germany",
-        "Brazil",
-        "United Kingdom"
-      ],
-      "answer": "United Kingdom",
-      "explanation": "Lewis Hamilton is from Stevenage, Hertfordshire, England. He is the most decorated Formula 1 driver in history, with seven World Championship titles, matching the record held by Michael Schumacher. He was the first Black Formula 1 champion.",
-      "memory_hook": "Hamilton: British, 7 titles, first Black F1 champion — racing royalty."
-    },
-    {
       "category": "Pop Culture",
       "question": "'Don't Stop Me Now' is a classic track by which band?",
       "options": [
@@ -118,19 +105,6 @@
       "memory_hook": "Little Boy on Hiroshima, Fat Man on Nagasaki — the names belie the horror."
     },
     {
-      "category": "History",
-      "question": "Which ancient Greek city-state was known for its warrior culture?",
-      "options": [
-        "Athens",
-        "Corinth",
-        "Thebes",
-        "Sparta"
-      ],
-      "answer": "Sparta",
-      "explanation": "Sparta was the dominant military city-state of ancient Greece. Spartan boys began military training (agoge) at age 7. Sparta defeated Athens in the Peloponnesian War (431–404 BC). Spartan culture emphasized physical endurance, discipline, and brevity of speech — from which we get the word 'laconic.'",
-      "memory_hook": "Sparta: warriors from birth. 'This is Sparta!' wasn't just a movie line."
-    },
-    {
       "category": "Geography",
       "question": "Which South American country is the largest by land area?",
       "options": [
@@ -155,6 +129,32 @@
       "answer": "Stratosphere",
       "explanation": "The ozone layer sits in the stratosphere, approximately 15 to 35 km above Earth's surface. It absorbs most of the Sun's harmful ultraviolet radiation. Chlorofluorocarbons (CFCs) from aerosols and refrigerants caused significant ozone depletion in the 20th century, creating the 'ozone hole' over Antarctica.",
       "memory_hook": "Ozone = stratosphere. It's above the weather (troposphere) but below space. Think: stra-to-sphere, the layer above the storms where the ozone shield lives."
+    },
+    {
+      "category": "Geography",
+      "question": "The Yellow River (Huang He) in China is known by what nickname because of its frequent devastating floods throughout history?",
+      "options": [
+        "China's Dragon",
+        "The Yellow Dragon",
+        "China's Sorrow",
+        "The River of Gold"
+      ],
+      "answer": "China's Sorrow",
+      "explanation": "The Yellow River gets its name from the yellow loess silt it carries from the Loess Plateau. Historically prone to catastrophic flooding, it has been called 'China's Sorrow' — its floods have killed millions throughout history, including the 1931 China floods (the deadliest natural disaster in recorded history, killing 1-4 million people). The river is also called 'the cradle of Chinese civilization' as the ancient Chinese people developed along its banks. It is China's second-longest river after the Yangtze.",
+      "memory_hook": "Yellow River (Huang He) = 'China's Sorrow.' Yellow from loess silt. Floods have killed millions. The 1931 flood killed up to 4 million — deadliest natural disaster in recorded history. Also 'cradle of Chinese civilization.' Beauty and catastrophe in the same river."
+    },
+    {
+      "category": "Science & Nature",
+      "question": "What is the term for medicines that kill or inhibit the growth of bacteria — famously discovered when Alexander Fleming noticed a mold killing bacteria in 1928?",
+      "options": [
+        "Antivirals",
+        "Analgesics",
+        "Antibiotics",
+        "Antifungals"
+      ],
+      "answer": "Antibiotics",
+      "explanation": "Antibiotics are drugs that kill bacteria or prevent their reproduction. The first antibiotic, penicillin, was discovered by Alexander Fleming in 1928 when he noticed the mold Penicillium notatum killing bacteria in a petri dish. Howard Florey and Ernst Chain later purified it for medical use. Antibiotics revolutionized medicine and have saved hundreds of millions of lives. However, overuse has led to antibiotic-resistant bacteria — one of the most serious public health challenges today.",
+      "memory_hook": "Antibiotics = bacteria killers. Fleming discovered penicillin in 1928 from a mold contaminating his petri dish. Florey and Chain made it usable. Saved hundreds of millions of lives. Overuse is now creating antibiotic-resistant 'superbugs' — one of medicine's biggest coming crises."
     }
   ]
 }

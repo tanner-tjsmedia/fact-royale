@@ -53,19 +53,6 @@
       "memory_hook": "Nadal = Spain = clay courts = the French Open 14 times."
     },
     {
-      "category": "Sports",
-      "question": "The 'Ironman Triathlon' consists of swimming, cycling, and running. What is the swimming distance?",
-      "options": [
-        "1.2 miles",
-        "2.4 miles",
-        "3.6 miles",
-        "4.8 miles"
-      ],
-      "answer": "2.4 miles",
-      "explanation": "The Ironman Triathlon consists of a 2.4-mile (3.86 km) swim, a 112-mile (180.25 km) bicycle ride, and a 26.22-mile (42.2 km) marathon run, raced in that order. Athletes must complete the course within 17 hours. The course was designed to settle an argument between athletes about which sport was hardest.",
-      "memory_hook": "Ironman: 2.4 swim + 112 bike + 26.2 run. A day-long test of everything."
-    },
-    {
       "category": "Pop Culture",
       "question": "What rapper's real name is Marshall Bruce Mathers III?",
       "options": [
@@ -118,19 +105,6 @@
       "memory_hook": "The Wall kept people IN, not out — East Germans weren't allowed to leave."
     },
     {
-      "category": "History",
-      "question": "Who was the first African American to serve as U.S. Secretary of State?",
-      "options": [
-        "Eric Holder",
-        "Colin Powell",
-        "Condoleezza Rice",
-        "Thurgood Marshall"
-      ],
-      "answer": "Colin Powell",
-      "explanation": "Colin Powell became the first African American Secretary of State when he was appointed by President George W. Bush in 2001. He served until 2005. Condoleezza Rice succeeded him as the second African American (and first African American woman) to hold the office.",
-      "memory_hook": "Powell = first Black Secretary of State. Condoleezza followed. Two firsts in a row."
-    },
-    {
       "category": "Geography",
       "question": "Which country has the most neighboring countries, sharing borders with 14 nations?",
       "options": [
@@ -155,6 +129,32 @@
       "answer": "100 degrees Celsius",
       "explanation": "Water boils at 100 degrees Celsius (212 degrees Fahrenheit) at sea level, where atmospheric pressure is 101.3 kPa. At higher altitudes, where atmospheric pressure is lower, water boils at a lower temperature — which is why cooking instructions differ for high-altitude locations. In a pressure cooker, water boils above 100 degrees.",
       "memory_hook": "Water boils at 100 C at sea level. Higher up the mountain, it boils at lower temperatures. Lower pressure = lower boiling point. That's why pasta takes longer to cook at altitude."
+    },
+    {
+      "category": "Geography",
+      "question": "Lake Nicaragua, the largest lake in Central America, is unique for containing what unusual type of animal?",
+      "options": [
+        "Freshwater jellyfish",
+        "Manatees",
+        "Freshwater sharks",
+        "Alligators"
+      ],
+      "answer": "Freshwater sharks",
+      "explanation": "Lake Nicaragua is famous for being one of the only freshwater lakes in the world with a population of bull sharks — a species that can tolerate both fresh and salt water. The sharks travel through the San Juan River from the Caribbean Sea. Lake Nicaragua is the largest lake in Central America at about 8,264 km² and is connected to both oceans by navigable rivers, making it historically significant for a potential second canal route.",
+      "memory_hook": "Lake Nicaragua: largest lake in Central America AND has freshwater bull sharks. Sharks swim in from the Caribbean via the San Juan River. Bull sharks can tolerate fresh water — the only shark species that can. A potential canal route across Nicaragua was considered as an alternative to Panama."
+    },
+    {
+      "category": "Science & Nature",
+      "question": "What is the change in the frequency of sound (or light) waves caused by the motion of the source or observer relative to each other?",
+      "options": [
+        "Resonance",
+        "Interference",
+        "Doppler effect",
+        "Refraction"
+      ],
+      "answer": "Doppler effect",
+      "explanation": "The Doppler effect describes how waves are compressed (higher frequency/pitch) as a source approaches and stretched (lower frequency/pitch) as it moves away. The classic example is a passing ambulance siren — it sounds higher pitched as it approaches and lower as it leaves. For light, the Doppler effect causes 'redshift' (galaxies moving away from us have light shifted toward red wavelengths) and 'blueshift.' It is used in weather radar, speed cameras, and medical ultrasound.",
+      "memory_hook": "Doppler effect: approaching = higher frequency; departing = lower. Ambulance siren changes pitch as it passes. For light: galaxies moving away show redshift (lower frequency). Used in weather radar, speed cameras, and medical ultrasound. Christian Doppler described it in 1842."
     }
   ]
 }

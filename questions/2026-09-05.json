@@ -3,16 +3,16 @@
   "questions": [
     {
       "category": "History",
-      "question": "Which ancient wonder, a giant lighthouse on an island near Alexandria, was one of the tallest structures in the ancient world and guided ships for centuries?",
+      "question": "The Lighthouse of Alexandria was built around 280 BC on which island in Alexandria's harbor — a name that became the word for 'lighthouse' in French, Spanish, and Italian?",
       "options": [
-        "Lighthouse of Alexandria",
-        "Tower of Babel",
-        "Colossus of Rhodes",
-        "Temple of Artemis"
+        "Pharos",
+        "Cyprus",
+        "Crete",
+        "Rhodes"
       ],
-      "answer": "Lighthouse of Alexandria",
-      "explanation": "The Lighthouse of Alexandria (Pharos of Alexandria) stood on Pharos Island in the harbor of Alexandria, Egypt. Built around 280 BC, it was 100-137 meters tall — making it one of the tallest structures of the ancient world. It was destroyed by earthquakes in the 14th century. Its remains were found underwater in 1994.",
-      "memory_hook": "Alexandria Lighthouse: 100-137m tall, built ~280 BC. Toppled by medieval earthquakes. Ruins found 1994."
+      "answer": "Pharos",
+      "explanation": "The Lighthouse of Alexandria stood on Pharos Island in the harbor of Alexandria, Egypt. Built around 280 BC under Ptolemy I, it was 100-137 meters tall — one of the tallest structures of the ancient world. The name 'Pharos' gave rise to the word for lighthouse in several European languages: phare (French), faro (Spanish and Italian), farol (Portuguese). The lighthouse was toppled by a series of earthquakes between the 10th and 14th centuries; its submerged ruins were discovered in 1994.",
+      "memory_hook": "Pharos Island = word for lighthouse in French (phare), Spanish/Italian (faro). One lighthouse so famous it named every lighthouse that followed in those languages. Built 280 BC, destroyed by medieval earthquakes."
     },
     {
       "category": "Science & Nature",

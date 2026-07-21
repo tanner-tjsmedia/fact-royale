@@ -41,19 +41,6 @@
       "memory_hook": "Srebrenica = 8,000 murdered, 1995 Bosnia. The worst European atrocity since WWII. A UN 'safe zone' with Dutch peacekeepers who stood down. It happened while the world watched. The Hague convicted Mladic of genocide in 2017 — 22 years later."
     },
     {
-      "category": "History",
-      "question": "The construction of the Hoover Dam, at the time the world's largest dam, was completed in which year?",
-      "options": [
-        "1928",
-        "1931",
-        "1935",
-        "1940"
-      ],
-      "answer": "1935",
-      "explanation": "The Hoover Dam was completed in 1935, two years ahead of schedule and under budget. Located on the Colorado River on the Nevada-Arizona border, it generates hydroelectric power for Nevada, Arizona, and California. Its construction during the Great Depression employed about 21,000 workers and 96 workers died during construction. Lake Mead, the reservoir it created, is the largest reservoir in the US by volume.",
-      "memory_hook": "Hoover Dam = 1935. Two years ahead of schedule during the Depression. Built on the Colorado River between Nevada and Arizona. 96 workers died building it. Lake Mead behind it has been severely affected by drought — water levels have dropped dramatically since 2000."
-    },
-    {
       "category": "Sports",
       "question": "In ice hockey, how many players per team are on the ice during regulation play (not including the goaltender)?",
       "options": [
@@ -78,19 +65,6 @@
       "answer": "Arthur Ashe",
       "explanation": "Arthur Ashe won Wimbledon in 1975, defeating Jimmy Connors in a tactical masterclass. He was the first Black player to win the US Open (1968), Australian Open (1970), and Wimbledon (1975). He later contracted HIV from a blood transfusion and became an activist before his death in 1993.",
       "memory_hook": "Arthur Ashe: first Black Wimbledon champion, 1975. Defeated Connors."
-    },
-    {
-      "category": "Sports",
-      "question": "In which sport would you find a 'peloton'?",
-      "options": [
-        "Rowing",
-        "Triathlon",
-        "Cycling",
-        "Speed Skating"
-      ],
-      "answer": "Cycling",
-      "explanation": "A peloton is the main group of riders in professional road cycling. Riders in the peloton save energy by drafting (riding in each other's slipstream), which can reduce wind resistance by up to 40%. The peloton is where most of the field spends most of a race. Individual riders or small breakaway groups (échappées) may escape ahead, but the peloton often catches them.",
-      "memory_hook": "Peloton = the main group in cycling. Drafting saves up to 40% energy. The peloton operates like a living organism — it breathes, accelerates, splits. Team tactics in cycling are like chess at 40 mph. The most powerful teams control the peloton's pace."
     },
     {
       "category": "Pop Culture",
@@ -156,6 +130,32 @@
       "answer": "Genetics",
       "explanation": "Genetics is the branch of biology that studies heredity — how traits are passed from parents to offspring — and genetic variation. Gregor Mendel, an Austrian monk, laid the foundation of genetics in the 1860s with his pea plant experiments. The discovery of DNA's structure (1953) transformed genetics from observation to molecular understanding. Today, genetic science underpins medicine, agriculture, forensics, and evolutionary biology.",
       "memory_hook": "Genetics = study of heredity. Mendel and his pea plants in the 1860s. Watson and Crick's DNA structure in 1953. CRISPR gene editing in 2012. Genetics went from 'I wonder why some peas are wrinkled' to editing the code of life in 150 years."
+    },
+    {
+      "category": "Geography",
+      "question": "The Everglades, a unique subtropical wetland covering about 6,000 km², is located at the southern tip of which U.S. state?",
+      "options": [
+        "Louisiana",
+        "Georgia",
+        "Texas",
+        "Florida"
+      ],
+      "answer": "Florida",
+      "explanation": "The Everglades is a subtropical wetland ecosystem covering southern Florida, often described as a 'river of grass' — a slow-moving sheet of water flowing from Lake Okeechobee south to Florida Bay. It is a UNESCO World Heritage Site and home to alligators, American crocodiles, Florida panthers, manatees, and vast numbers of wading birds. The Everglades has been severely reduced by drainage for agriculture and urban development, losing over 50% of its original area. Restoration efforts are ongoing.",
+      "memory_hook": "Everglades: subtropical wetland, southern Florida. 'River of grass' — a slow-moving sheet of water, not a swamp. UNESCO World Heritage Site. Home to alligators AND crocodiles (one of the few places in the US where both live). Has lost 50%+ of its original area to drainage. The largest subtropical wilderness in the US."
+    },
+    {
+      "category": "Science & Nature",
+      "question": "RNA serves as a messenger between DNA and protein production. What are the three main types of RNA and their roles?",
+      "options": [
+        "Ribosomal, transfer, and messenger RNA each play distinct roles in protein synthesis",
+        "Coding, non-coding, and viral RNA",
+        "Alpha, beta, and gamma RNA",
+        "Structural, catalytic, and regulatory RNA"
+      ],
+      "answer": "Ribosomal, transfer, and messenger RNA each play distinct roles in protein synthesis",
+      "explanation": "The three main types of RNA are: mRNA (messenger RNA) — copies genetic instructions from DNA and carries them to ribosomes; rRNA (ribosomal RNA) — forms the structural and catalytic core of ribosomes where protein synthesis occurs; and tRNA (transfer RNA) — brings the correct amino acid to the ribosome, matching each codon in mRNA. Together they translate genetic code into proteins. mRNA vaccines (like COVID vaccines) deliver mRNA instructions for cells to produce a specific protein.",
+      "memory_hook": "mRNA: carries DNA's instructions to ribosomes. rRNA: forms the ribosome itself. tRNA: delivers amino acids matching each codon. Together: DNA → mRNA → ribosome reads mRNA → tRNA brings amino acids → protein forms. mRNA vaccines hijack this process to train your immune system."
     }
   ]
 }

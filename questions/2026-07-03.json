@@ -53,19 +53,6 @@
       "memory_hook": "Stanley Cup = oldest pro sports trophy in North America. Lord Stanley donated it in 1892."
     },
     {
-      "category": "Sports",
-      "question": "How many laps make up a standard Formula 1 race?",
-      "options": [
-        "It varies by circuit",
-        "Always 50",
-        "Always 78",
-        "Always 100"
-      ],
-      "answer": "It varies by circuit",
-      "explanation": "The number of laps in a Formula 1 race varies depending on the circuit. Races are designed to cover approximately 305 km (190 miles), with the Monaco Grand Prix being an exception at 260 km. The number of laps is calculated to meet this distance requirement.",
-      "memory_hook": "F1 laps vary — the distance stays the same, about 305 km per race."
-    },
-    {
       "category": "Pop Culture",
       "question": "Which 1997 James Cameron film starred Leonardo DiCaprio and Kate Winslet?",
       "options": [
@@ -118,19 +105,6 @@
       "memory_hook": "Poland first — one invasion started the world's deadliest war."
     },
     {
-      "category": "History",
-      "question": "Who was the first President of the United States?",
-      "options": [
-        "John Adams",
-        "Benjamin Franklin",
-        "Thomas Jefferson",
-        "George Washington"
-      ],
-      "answer": "George Washington",
-      "explanation": "George Washington served as the first President of the United States from 1789 to 1797. He was unanimously elected by the Electoral College and is often called the 'Father of His Country.' He voluntarily stepped down after two terms, setting a precedent for peaceful transfer of power.",
-      "memory_hook": "Washington DC was named after him — the capital honors the first leader."
-    },
-    {
       "category": "Geography",
       "question": "The Panama Canal connects which two bodies of water?",
       "options": [
@@ -155,6 +129,32 @@
       "answer": "Pancreas",
       "explanation": "The pancreas produces insulin, a hormone that allows cells to absorb glucose from the bloodstream. Without insulin, blood sugar builds up dangerously. In Type 1 diabetes, the immune system destroys the insulin-producing cells. In Type 2, cells become resistant to insulin. The pancreas also produces digestive enzymes.",
       "memory_hook": "Pancreas = insulin factory. When the pancreas fails to produce insulin, you get diabetes. It's both an endocrine organ (hormones) and a digestive organ (enzymes) at the same time."
+    },
+    {
+      "category": "Geography",
+      "question": "Mount Aconcagua in Argentina, at 6,961 meters, is the highest peak in which geographic region?",
+      "options": [
+        "Asia",
+        "Africa",
+        "North America",
+        "The Americas (Western and Southern Hemispheres)"
+      ],
+      "answer": "The Americas (Western and Southern Hemispheres)",
+      "explanation": "Mount Aconcagua in the Argentine Andes is the highest peak in both the Western and Southern Hemispheres, as well as the highest peak outside Asia. It sits near the border with Chile and is a popular mountaineering destination since it can be climbed without technical climbing equipment (though altitude acclimatization is essential). The name Aconcagua is derived from the Quechua language, meaning 'sentinel of stone.'",
+      "memory_hook": "Aconcagua = 6,961m, highest peak in the Americas (and outside Asia). Argentine Andes, near Chilean border. 'Sentinel of stone' in Quechua. A major mountaineering peak — no technical equipment needed, but altitude is brutal."
+    },
+    {
+      "category": "Science & Nature",
+      "question": "What is the term for a close long-term relationship between two different species where both benefit?",
+      "options": [
+        "Parasitism",
+        "Commensalism",
+        "Mutualism",
+        "Predation"
+      ],
+      "answer": "Mutualism",
+      "explanation": "Mutualism is a type of symbiosis where both species benefit from their relationship. Classic examples include: clownfish and sea anemones (fish gets protection, anemone gets cleaning and nutrient-rich waste); bees and flowers (bees get nectar, flowers get pollinated); and the relationship between humans and gut bacteria (we provide a habitat, bacteria help digest food). Mutualism is distinguished from commensalism (one benefits, other unaffected) and parasitism (one benefits, other harmed).",
+      "memory_hook": "Mutualism = both species benefit. Clownfish + anemone. Bees + flowers. You + gut bacteria. Distinguished from commensalism (one benefits, other neutral) and parasitism (one benefits, other harmed). Most ecosystems run on mutualistic relationships."
     }
   ]
 }

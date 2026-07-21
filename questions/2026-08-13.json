@@ -41,19 +41,6 @@
       "memory_hook": "Constantinople = Byzantine capital for 1,000+ years. Founded 330 AD, fell 1453. Istanbul today. The city was so strategically located (controlling access between Europe and Asia, between the Black Sea and Mediterranean) that every great empire wanted it."
     },
     {
-      "category": "History",
-      "question": "Charles Darwin published 'On the Origin of Species,' which introduced the theory of evolution by natural selection, in which year?",
-      "options": [
-        "1837",
-        "1848",
-        "1859",
-        "1871"
-      ],
-      "answer": "1859",
-      "explanation": "Charles Darwin published On the Origin of Species on November 24, 1859, presenting his theory of evolution by natural selection. The first edition of 1,250 copies sold out on the first day. Darwin had delayed publication for 20 years, fearing the religious controversy. He was finally pushed to publish when Alfred Russel Wallace independently developed the same theory and wrote to Darwin about it.",
-      "memory_hook": "Darwin's Origin of Species = 1859. Delayed 20 years out of fear. Sold out day one. Wallace's letter forced Darwin's hand — publish or lose credit for your own idea. The most important idea in biology took 20 years to announce because its author was scared."
-    },
-    {
       "category": "Sports",
       "question": "In American football, what is a 'Hail Mary' play?",
       "options": [
@@ -78,19 +65,6 @@
       "answer": "21",
       "explanation": "Tiger Woods won the 1997 Masters at age 21, becoming the youngest champion in Masters history. He won by 12 strokes — the largest margin of victory in Masters history. The performance announced the arrival of one of golf's all-time great players. Woods won the Masters five times total (1997, 2001, 2002, 2005, 2019), the 2019 win being one of the great sporting comebacks after back surgeries.",
       "memory_hook": "Tiger Woods won the 1997 Masters at 21, by 12 strokes — the most dominant performance in golf's most prestigious event. Then he won it 4 more times. The 2019 win after back surgery and personal scandal was called the greatest comeback in golf history."
-    },
-    {
-      "category": "Sports",
-      "question": "What sport uses terms like 'love,' 'deuce,' and 'advantage'?",
-      "options": [
-        "Squash",
-        "Badminton",
-        "Ping pong",
-        "Tennis"
-      ],
-      "answer": "Tennis",
-      "explanation": "Tennis uses the terms love (0 points), 15 (1 point), 30 (2 points), 40 (3 points), deuce (tied at 3 points each), and advantage (one point ahead after deuce). To win a game from deuce, a player must win two consecutive points. The origin of 'love' for zero is debated — it may come from the French 'l'oeuf' (egg) for the oval shape of zero, or from the expression 'playing for love' (no stakes).",
-      "memory_hook": "Tennis scoring = love, 15, 30, 40, deuce. The strangest scoring system in sport. Love = zero (possibly from l'oeuf = egg in French). Deuce means tied at 40-40. From deuce you need 2 consecutive points to win. Tennis decided normal numbers were too boring."
     },
     {
       "category": "Pop Culture",
@@ -156,6 +130,32 @@
       "answer": "Autotroph",
       "explanation": "Autotrophs (or 'producers') make their own food. Photoautotrophs use sunlight (plants, algae, cyanobacteria). Chemoautotrophs use chemical energy (certain bacteria living near deep-sea hydrothermal vents with no sunlight). In contrast, heterotrophs (animals, fungi, most bacteria) must consume other organisms for energy. Almost all food chains on Earth begin with autotrophs capturing energy from outside sources.",
       "memory_hook": "Autotroph = self-feeder. Hetero = other feeder. Plants are autotrophs; animals are heterotrophs. Near deep-sea vents with no sunlight, bacteria are chemosynthetic autotrophs — life running entirely on chemical energy rather than the Sun."
+    },
+    {
+      "category": "Geography",
+      "question": "The Po River, Italy's longest river at about 682 km, flows through the fertile Po Valley before emptying into which sea?",
+      "options": [
+        "Tyrrhenian Sea",
+        "Ligurian Sea",
+        "Adriatic Sea",
+        "Mediterranean Sea"
+      ],
+      "answer": "Adriatic Sea",
+      "explanation": "The Po River originates in the Alps near the French border and flows eastward through the Po Valley (Pianura Padana) — Italy's most fertile agricultural region and industrial heartland — before forming a large delta in northeastern Italy and emptying into the Adriatic Sea. The Po Valley is one of the most densely populated and heavily industrialized regions in Europe, containing cities including Turin, Milan, Parma, and Bologna. The Po is also one of Europe's most heavily polluted rivers.",
+      "memory_hook": "Po River: Italy's longest (682 km), flows Alps → Adriatic. The Po Valley is Italy's agricultural and industrial core — Turin, Milan, Parma, Bologna all sit here. One of the most densely populated regions in Europe and one of its most polluted rivers. Italian civilization was built in this valley."
+    },
+    {
+      "category": "Science & Nature",
+      "question": "What is apoptosis — and why is it essential for normal development and disease prevention?",
+      "options": [
+        "The process of cellular energy production",
+        "Programmed cell death that eliminates damaged or unnecessary cells",
+        "The division of cancer cells",
+        "The replication of DNA during mitosis"
+      ],
+      "answer": "Programmed cell death that eliminates damaged or unnecessary cells",
+      "explanation": "Apoptosis is a highly regulated process of programmed cell death — cells essentially commit suicide in an orderly way, without triggering inflammation. It is essential for: embryonic development (fingers form when cells between them die), immune regulation (eliminating autoreactive T cells), and cancer prevention (eliminating mutated cells before they proliferate). When apoptosis fails — cells that should die instead survive and divide — cancer can result. Many cancer treatments work by triggering apoptosis in tumor cells.",
+      "memory_hook": "Apoptosis = programmed cell death. Cells commit suicide on cue — orderly, without inflammation. Your fingers formed when cells between them died in the womb. Immune cells that attack 'self' are eliminated this way. When apoptosis fails, cells that should die keep dividing — that's cancer. Many cancer drugs work by restarting this process."
     }
   ]
 }

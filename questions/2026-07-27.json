@@ -28,17 +28,17 @@
       "memory_hook": "1789 = French Revolution. Think: 1776 is American, 1789 is French. Three years after the American Revolution inspired a generation of French intellectuals."
     },
     {
-      "category": "History",
-      "question": "Which ancient wonder was located in Alexandria, Egypt?",
+      "category": "Geography",
+      "question": "Which South American country contains approximately 60% of the Amazon Rainforest and is home to a river that discharges more freshwater into the ocean than the next seven largest rivers combined?",
       "options": [
-        "Hanging Gardens",
-        "Colossus of Rhodes",
-        "Lighthouse of Alexandria",
-        "Temple of Artemis"
+        "Peru",
+        "Colombia",
+        "Brazil",
+        "Venezuela"
       ],
-      "answer": "Lighthouse of Alexandria",
-      "explanation": "The Lighthouse of Alexandria (Pharos of Alexandria) stood approximately 100-140 meters tall on the island of Pharos in Alexandria's harbor. Built around 280 BC, it guided ships into the harbor for over 1,500 years. It was one of the Seven Wonders of the Ancient World and collapsed in a series of earthquakes between 956 and 1323 AD.",
-      "memory_hook": "Alexandria's wonder = the Lighthouse. The world's first great lighthouse, so famous that 'pharos' became the word for lighthouse in French, Spanish, and Italian."
+      "answer": "Brazil",
+      "explanation": "About 60% of the Amazon Rainforest lies within Brazil, with the remainder spread across Peru, Colombia, Venezuela, Ecuador, Bolivia, and other nations. The Amazon River discharges approximately 20% of all freshwater that flows into Earth's oceans. The rainforest is home to an estimated 10% of all species on Earth and plays a critical role in regulating global climate. The Amazon Basin covers 7 million square kilometers.",
+      "memory_hook": "Amazon: 60% in Brazil. River carries 20% of all ocean-bound freshwater — more than the next 7 largest rivers combined. 10% of Earth's species live here. The planet's largest climate regulator."
     },
     {
       "category": "History",
@@ -80,19 +80,6 @@
       "memory_hook": "Love game = opponent scores zero. 'Love' = zero in tennis, from the French word for egg. A bagel (6-0 set) is a whole egg. A double bagel (6-0, 6-0) is total domination."
     },
     {
-      "category": "Sports",
-      "question": "The 'Shot Heard Round the World' in baseball refers to whose legendary 1951 home run?",
-      "options": [
-        "Babe Ruth",
-        "Hank Aaron",
-        "Bobby Thomson",
-        "Willie Mays"
-      ],
-      "answer": "Bobby Thomson",
-      "explanation": "Bobby Thomson hit 'The Shot Heard Round the World' on October 3, 1951, a walk-off three-run home run in the ninth inning that gave the New York Giants the National League pennant over the Brooklyn Dodgers. The radio call by Russ Hodges ('The Giants win the pennant!') became one of the most iconic moments in baseball history.",
-      "memory_hook": "Bobby Thomson, 1951. The Giants win the pennant! The most dramatic home run in baseball history. Thomson was relatively unknown — the moment made him immortal."
-    },
-    {
       "category": "Pop Culture",
       "question": "Titanic (1997), directed by James Cameron, was the first film to gross over $1 billion worldwide. Who played Jack Dawson?",
       "options": [
@@ -132,17 +119,17 @@
       "memory_hook": "Pulp Fiction = Tarantino, 1994. Royale with Cheese = McDonald's in France. The briefcase glows but we never see what's inside. Tarantino's rule: the audience's imagination is better than any prop."
     },
     {
-      "category": "Geography",
-      "question": "Which mountain range separates Europe from Asia?",
+      "category": "Science & Nature",
+      "question": "Which subatomic particle, discovered by James Chadwick in 1932, has no electric charge and is found in the nucleus of every atom except the most common form of hydrogen?",
       "options": [
-        "Caucasus Mountains",
-        "Alps",
-        "Carpathians",
-        "Ural Mountains"
+        "Electron",
+        "Proton",
+        "Neutron",
+        "Quark"
       ],
-      "answer": "Ural Mountains",
-      "explanation": "The Ural Mountains in Russia form the traditional boundary between Europe and Asia, running approximately 2,500 km from the Arctic Ocean to the northern edge of the Kazakh steppe. They are relatively ancient and worn down — the highest peak, Mount Narodnaya, is only 1,895 meters. The Caucasus Mountains also serve as part of the boundary in the south.",
-      "memory_hook": "Ural Mountains = Europe meets Asia. The dividing line is in Russia. One side of the mountains = Europe, other side = Asia. The same country spans two continents."
+      "answer": "Neutron",
+      "explanation": "The neutron has no electric charge and, together with protons, forms the nucleus of atoms. Chadwick's 1932 discovery completed the basic model of the atom. Hydrogen-1 (protium) is the only stable atom with no neutrons in its nucleus. The number of neutrons in a nucleus determines the isotope — carbon-12 has 6 neutrons, carbon-14 has 8 (same element, different mass). Neutron bombardment also triggers nuclear fission in uranium and plutonium.",
+      "memory_hook": "Neutron: no charge, discovered 1932 by Chadwick. Completed the atom model. Same protons + different neutrons = isotopes. Neutron bombardment = nuclear fission."
     },
     {
       "category": "Science & Nature",
@@ -156,6 +143,19 @@
       "answer": "Friction",
       "explanation": "Friction is the force that resists the relative motion of surfaces in contact. It is caused by microscopic irregularities in surfaces catching on each other. Friction can be useful (it's what lets tires grip the road and lets you walk without sliding) or unwanted (it wastes energy as heat in engines). Friction doesn't exist in space in a vacuum.",
       "memory_hook": "Friction = resistance between surfaces. Without it, you couldn't walk, tires couldn't grip, and you couldn't hold a pen. It's what makes the physical world usable — and also what makes engines inefficient."
+    },
+    {
+      "category": "Geography",
+      "question": "Fiji, an archipelago of about 330 islands in the South Pacific, is the largest economy in which sub-region?",
+      "options": [
+        "Polynesia",
+        "Micronesia",
+        "Melanesia",
+        "Australasia"
+      ],
+      "answer": "Melanesia",
+      "explanation": "Fiji is the largest economy in Melanesia, the sub-region of the Pacific that includes Papua New Guinea, Solomon Islands, Vanuatu, and New Caledonia. Fiji consists of 330 islands (about 110 inhabited) with roughly 900,000 people. Its population is ethnically diverse — about 57% iTaukei (indigenous Fijian, of Melanesian descent) and 37% Indo-Fijian (descendants of laborers brought by Britain from India in the 1800s). Fiji is known for rugby sevens, where it won an Olympic gold medal in 2016.",
+      "memory_hook": "Fiji: 330 Pacific islands, largest Melanesian economy. Two main groups: indigenous Fijians (Melanesian) and Indo-Fijians (descendants of British-imported Indian laborers). That colonial history created a complex ethnic mix that has caused political tensions. Also known for rugby sevens — Fiji punches well above its weight."
     }
   ]
 }

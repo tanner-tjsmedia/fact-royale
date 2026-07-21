@@ -80,19 +80,6 @@
       "memory_hook": "Baggy Greens = Australia. The cap is almost a sacred object in Australian cricket. Players refuse to replace them even when faded and worn. Former captain Steve Waugh wore the same cap for his entire 16-year career."
     },
     {
-      "category": "Sports",
-      "question": "How many players are on a standard volleyball team on the court at one time?",
-      "options": [
-        "5",
-        "6",
-        "7",
-        "8"
-      ],
-      "answer": "6",
-      "explanation": "Volleyball teams have 6 players on the court at a time: three in the front row and three in the back row. Players rotate positions clockwise each time their team wins the serve. A standard set is played to 25 points (with a 2-point margin required), and most matches are best of 5 sets. Beach volleyball uses only 2 players per side.",
-      "memory_hook": "Volleyball = 6 players per side. Three front, three back. Rotate clockwise when you win the serve. Beach volleyball is 2-on-2 — same sport, completely different strategy."
-    },
-    {
       "category": "Pop Culture",
       "question": "The film 'Forrest Gump' (1994) starred Tom Hanks and won 6 Academy Awards, including Best Picture. Who directed it?",
       "options": [
@@ -156,6 +143,19 @@
       "answer": "Constellation",
       "explanation": "A constellation is a group of stars that forms a recognizable pattern when viewed from Earth. The International Astronomical Union recognizes 88 official constellations covering the entire sky. Ancient cultures worldwide used constellations for navigation, agriculture, and mythology. Orion, the Big Dipper (Ursa Major), and Scorpius are among the most recognizable in the Northern Hemisphere.",
       "memory_hook": "Constellation = star pattern. 88 official ones. The stars in a constellation usually aren't close to each other — they just look grouped from Earth. Orion's stars are between 243 and 1,344 light-years away from us, scattered through space."
+    },
+    {
+      "category": "Science & Nature",
+      "question": "What are vestigial structures — and what do they reveal about evolution?",
+      "options": [
+        "Structures that serve no known function and are inherited from ancestors who used them",
+        "Structures found only in embryos",
+        "Genetic mutations that benefit organisms",
+        "New structures evolved in response to environmental change"
+      ],
+      "answer": "Structures that serve no known function and are inherited from ancestors who used them",
+      "explanation": "Vestigial structures are anatomical features that have lost most or all of their original function through evolution but are still present in organisms. Examples in humans include: the appendix (remnant of a digestive organ), coccyx/tailbone (remnant of a tail), ear muscles (can't move ears like other mammals), and wisdom teeth (remnants of a larger jaw for raw food). In whales, vestigial hind leg bones remain embedded in their body — evidence of their terrestrial ancestors. These structures provide direct evidence of evolutionary descent.",
+      "memory_hook": "Vestigial structures: evolutionary leftovers with reduced or no function. Human examples: appendix, tailbone (coccyx), ear muscles that can't move ears, wisdom teeth. Whale skeletons contain tiny vestigial leg bones — evidence they evolved from land mammals. Nature keeps old blueprints lying around even when they're no longer needed."
     }
   ]
 }

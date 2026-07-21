@@ -53,19 +53,6 @@
       "memory_hook": "18 inches — think of an 18-year-old going pro."
     },
     {
-      "category": "Sports",
-      "question": "In golf, what term describes completing a hole in one stroke under par?",
-      "options": [
-        "Eagle",
-        "Birdie",
-        "Bogey",
-        "Albatross"
-      ],
-      "answer": "Birdie",
-      "explanation": "A birdie is scored when a golfer completes a hole in one stroke fewer than par. The term originated in the United States in the early 20th century — 'bird' was slang for excellent, and 'birdie' stuck as the golf term.",
-      "memory_hook": "Birdie — one bird below par. Eagle is two below. Albatross is three."
-    },
-    {
       "category": "Pop Culture",
       "question": "Which artist sang 'Billie Jean' and 'Thriller'?",
       "options": [
@@ -118,19 +105,6 @@
       "memory_hook": "Versailles ended WWI — and planted seeds for WWII."
     },
     {
-      "category": "History",
-      "question": "The Renaissance period began in which country?",
-      "options": [
-        "France",
-        "England",
-        "Italy",
-        "Spain"
-      ],
-      "answer": "Italy",
-      "explanation": "The Renaissance began in Italy in the 14th century, particularly in Florence, Milan, and Venice. It marked a revival of interest in classical Greek and Roman culture and produced artists like Leonardo da Vinci, Michelangelo, and Raphael.",
-      "memory_hook": "Italy: the boot of Europe kicked off the Renaissance."
-    },
-    {
       "category": "Geography",
       "question": "Which strait separates Europe from Africa at its narrowest point?",
       "options": [
@@ -155,6 +129,32 @@
       "answer": "Saturn",
       "explanation": "Saturn leads with 146 confirmed moons as of 2023, edging past Jupiter's 95. Many of Saturn's moons are small and were only discovered recently using advanced telescopes. Its largest moon, Titan, is bigger than the planet Mercury and has a thick atmosphere and liquid methane lakes.",
       "memory_hook": "Saturn won the moon count recently. 146 moons and counting. Titan alone is bigger than Mercury — Saturn's biggest moon is a planet-sized world in its own right."
+    },
+    {
+      "category": "Geography",
+      "question": "The Strait of Hormuz — through which about 20% of the world's oil passes — connects the Persian Gulf to which body of water?",
+      "options": [
+        "Red Sea",
+        "Arabian Sea",
+        "Gulf of Aden",
+        "Gulf of Oman"
+      ],
+      "answer": "Gulf of Oman",
+      "explanation": "The Strait of Hormuz connects the Persian Gulf to the Gulf of Oman and is the world's most important oil chokepoint. At its narrowest, it is only 33 km wide. Iran borders the strait to the north and Oman to the south. Roughly 20 million barrels of oil pass through it daily. Any closure would cause an immediate global energy crisis and has been a recurring geopolitical pressure point.",
+      "memory_hook": "Strait of Hormuz = Persian Gulf → Gulf of Oman. 33 km wide at the narrowest. 20 million barrels of oil daily. Iran on one side, Oman on the other. The most strategically critical waterway in the world for energy."
+    },
+    {
+      "category": "Science & Nature",
+      "question": "What is the scientific study of earthquakes called?",
+      "options": [
+        "Geology",
+        "Seismology",
+        "Geophysics",
+        "Tectonology"
+      ],
+      "answer": "Seismology",
+      "explanation": "Seismology is the scientific study of earthquakes and the propagation of seismic waves through the Earth. Seismologists use seismographs to measure ground motion. The data provides insight not only about earthquakes but also about Earth's internal structure — the discovery that Earth has a liquid outer core came from studying how seismic waves (specifically S-waves, which cannot travel through liquid) were blocked.",
+      "memory_hook": "Seismology = study of earthquakes. Seismographs measure ground motion. S-waves can't travel through liquid — that's how scientists discovered Earth has a liquid outer core. Every earthquake tells us something about what's inside our planet."
     }
   ]
 }

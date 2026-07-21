@@ -53,19 +53,6 @@
       "memory_hook": "Triple 20 = 60. Top of the board, triple ring, maximum dart score."
     },
     {
-      "category": "Sports",
-      "question": "Which country has won the most Olympic gold medals in wrestling?",
-      "options": [
-        "Iran",
-        "Turkey",
-        "Japan",
-        "United States"
-      ],
-      "answer": "United States",
-      "explanation": "The United States has historically dominated Olympic wrestling, particularly in freestyle wrestling, winning more gold medals than any other nation overall. The Soviet Union and Russia are also traditionally strong in Greco-Roman wrestling.",
-      "memory_hook": "US leads in Olympic wrestling — though it's a fierce global competition."
-    },
-    {
       "category": "Pop Culture",
       "question": "What is the name of the island in 'Cast Away' where the FedEx plane crashes?",
       "options": [
@@ -118,19 +105,6 @@
       "memory_hook": "Iron Lady, first female PM — Thatcher in 1979."
     },
     {
-      "category": "History",
-      "question": "The Amazon River flows primarily through which country?",
-      "options": [
-        "Colombia",
-        "Venezuela",
-        "Peru",
-        "Brazil"
-      ],
-      "answer": "Brazil",
-      "explanation": "The Amazon River flows primarily through Brazil (about 60% of its length), with headwaters in Peru. It is the largest river in the world by water discharge, carrying about 20% of all freshwater flowing into the world's oceans. The Amazon basin contains the world's largest tropical rainforest.",
-      "memory_hook": "Amazon starts in the Andes (Peru) and ends in the Atlantic via Brazil."
-    },
-    {
       "category": "Geography",
       "question": "The Dead Sea, the lowest point on Earth's surface, borders which two countries?",
       "options": [
@@ -155,6 +129,32 @@
       "answer": "Gravity",
       "explanation": "Gravity is the attractive force between masses. The Sun's enormous mass creates a gravitational field that keeps planets in elliptical orbits. Without gravity, planets would travel in a straight line and fly off into space. Newton first described gravity mathematically; Einstein later explained it as the curvature of spacetime caused by mass.",
       "memory_hook": "Gravity holds the solar system together. Without it, the planets would fly off in straight lines. Newton saw an apple fall and figured out what holds the universe together."
+    },
+    {
+      "category": "Geography",
+      "question": "Mongolia is one of the world's most sparsely populated countries. What is it geographically landlocked by?",
+      "options": [
+        "Russia and Kazakhstan",
+        "China and Russia",
+        "Kazakhstan and China",
+        "China and North Korea"
+      ],
+      "answer": "China and Russia",
+      "explanation": "Mongolia is a landlocked country bordered only by Russia to the north and China to the south, east, and west. With an area of 1.56 million km² and a population of only about 3.3 million people, it has the world's lowest population density among sovereign nations (about 2 people per km²). More than half the population lives in Ulaanbaatar, the world's coldest capital city. The Gobi Desert covers the southern third of the country.",
+      "memory_hook": "Mongolia: landlocked between Russia and China only. 1.56M km² with only 3.3M people — lowest population density of any sovereign nation. Ulaanbaatar = world's coldest capital city. Gobi Desert covers the south. Home of the world's largest empire (Mongol)."
+    },
+    {
+      "category": "Science & Nature",
+      "question": "What is the process by which water moves across a semi-permeable membrane from an area of lower to higher solute concentration?",
+      "options": [
+        "Diffusion",
+        "Osmosis",
+        "Active transport",
+        "Facilitated diffusion"
+      ],
+      "answer": "Osmosis",
+      "explanation": "Osmosis is the movement of water molecules across a semi-permeable membrane from an area of lower solute concentration (higher water concentration) to an area of higher solute concentration (lower water concentration). This continues until concentrations equalize or opposing pressure builds. Osmosis is essential in biology — plant cell turgor, kidney function, and the absorption of water in the intestines all rely on it. Placing a cell in pure water causes it to swell (hypotonic); in very salty water it shrinks (hypertonic).",
+      "memory_hook": "Osmosis = water moves across a membrane toward higher solute concentration. Plants use it to maintain turgor (rigidity). Kidney uses it to concentrate urine. Put a cell in saltwater and it shrivels (water leaves). Put it in pure water and it swells. Osmosis drives most water movement in biology."
     }
   ]
 }

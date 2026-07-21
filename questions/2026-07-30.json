@@ -41,19 +41,6 @@
       "memory_hook": "Korea divided at the 38th parallel. No peace treaty, just a ceasefire. Technically still at war since 1953. The DMZ is one of the most fortified borders on Earth."
     },
     {
-      "category": "History",
-      "question": "Which empire controlled most of the known world during the Pax Romana — the period of relative peace from 27 BC to 180 AD?",
-      "options": [
-        "Greek Empire",
-        "Persian Empire",
-        "Byzantine Empire",
-        "Roman Empire"
-      ],
-      "answer": "Roman Empire",
-      "explanation": "The Pax Romana ('Roman Peace') lasted approximately 206 years, from the reign of Augustus (27 BC) to the death of Marcus Aurelius (180 AD). During this period, the Roman Empire was the dominant power in the Western world, covering about 5 million square kilometers and ruling an estimated 70 million people — about 21% of the world's population at the time.",
-      "memory_hook": "Pax Romana = Roman peace, 27 BC to 180 AD. 200 years of relative stability across the known world. Rome was so dominant that it didn't need to fight major wars — the peace was enforced by the threat of Roman legions."
-    },
-    {
       "category": "Sports",
       "question": "In golf, what is the rarest standard scoring term — completing a hole in just one stroke, typically only possible on a short par-3 hole?",
       "options": [
@@ -78,19 +65,6 @@
       "answer": "Golf",
       "explanation": "These scoring terms are all from golf. A birdie is one stroke under par, an eagle is two under par, and a bogey is one over par. An albatross (or double eagle) is three under par — extremely rare. Par is the expected number of strokes for a skilled golfer to complete a hole. The bird theme: the rarer the bird, the more impressive the score.",
       "memory_hook": "Birdie, eagle, bogey = golf. One under, two under, one over. Golf borrowed birds for its scoring language. Hole-in-one on a par-3 = albatross, the rarest and most majestic bird in the scoring system."
-    },
-    {
-      "category": "Sports",
-      "question": "In rugby union, what term describes the temporary removal of a player from the field for 10 minutes after receiving a yellow card for foul play?",
-      "options": [
-        "Sin bin",
-        "Yellow zone",
-        "Penalty box",
-        "Temporary suspension"
-      ],
-      "answer": "Sin bin",
-      "explanation": "The sin bin in rugby union requires a yellow-carded player to leave the field for exactly 10 minutes, leaving their team with 14 players. A red card results in permanent dismissal. The term 'sin bin' is also used in ice hockey, where penalties lead to players sitting in a physical box beside the ice.",
-      "memory_hook": "Sin bin = 10 minutes off for yellow card in rugby. Borrowed by ice hockey too."
     },
     {
       "category": "Pop Culture",
@@ -156,6 +130,32 @@
       "answer": "Transpiration",
       "explanation": "Transpiration is the process by which water moves through a plant from roots to leaves and evaporates into the air through tiny pores called stomata. A single large tree can transpire hundreds of liters of water per day. The Amazon rainforest transpires so much water that it generates its own rainfall — the forest creates the rain that sustains it.",
       "memory_hook": "Transpiration = plants sweating. Water moves up from roots, exits through leaf pores into the air. The Amazon forest transpires so much water it rains on itself — the trees make their own weather."
+    },
+    {
+      "category": "Geography",
+      "question": "Lake Huron, the second-largest of the five Great Lakes, is shared between the United States and which other country?",
+      "options": [
+        "Russia",
+        "Canada",
+        "Mexico",
+        "Greenland"
+      ],
+      "answer": "Canada",
+      "explanation": "Lake Huron borders Michigan (US) to the south and Ontario (Canada) to the north and east. It is the second-largest of the Great Lakes by surface area at about 59,570 km² and contains Manitoulin Island — the world's largest freshwater island. The five Great Lakes (Superior, Huron, Michigan, Erie, Ontario — SHME O) contain about 21% of the world's surface fresh water. Lake Michigan is the only Great Lake entirely within the US.",
+      "memory_hook": "Lake Huron: 2nd largest Great Lake, shared by Michigan and Ontario (Canada). Contains Manitoulin Island — world's largest freshwater island. The 5 Great Lakes (SHME O) hold 21% of Earth's surface freshwater. Only Lake Michigan is entirely within the US."
+    },
+    {
+      "category": "Science & Nature",
+      "question": "What describes the feeding relationships in an ecosystem where organisms are grouped by how many steps they are from the original energy source?",
+      "options": [
+        "Food web",
+        "Ecological pyramid",
+        "Trophic levels",
+        "Biotic chain"
+      ],
+      "answer": "Trophic levels",
+      "explanation": "Trophic levels describe the position of an organism in a food chain based on its energy source. Level 1 (producers): plants that convert sunlight. Level 2 (primary consumers): herbivores eating plants. Level 3 (secondary consumers): carnivores eating herbivores. Level 4 (tertiary consumers): top predators. Energy is lost at each level — typically only about 10% transfers up. This 10% rule explains why food chains rarely have more than 4-5 levels and why it takes far more plant calories to produce a kilogram of beef than a kilogram of grain.",
+      "memory_hook": "Trophic levels: Producer → Primary consumer → Secondary → Tertiary. Only ~10% of energy transfers up each level. That's why beef is so energy-intensive — it takes 10 kg of plant calories to make 1 kg of animal. The 10% rule explains why top predators are rare and food chains are short."
     }
   ]
 }

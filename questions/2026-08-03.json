@@ -41,19 +41,6 @@
       "memory_hook": "Pythagoras: a² + b² = c². Right triangles. Still in every math class."
     },
     {
-      "category": "History",
-      "question": "What was the name of the first successful powered airplane flight in 1903?",
-      "options": [
-        "The Eagle",
-        "The Condor",
-        "The Flyer",
-        "The Kitty"
-      ],
-      "answer": "The Flyer",
-      "explanation": "Orville and Wilbur Wright achieved the first successful powered airplane flight on December 17, 1903, at Kitty Hawk, North Carolina. Their aircraft, called the Flyer (later Flyer I), made four flights that day, the longest lasting 59 seconds and covering 260 meters. Within 10 years of the Wright Brothers' flight, airplanes were being used in warfare.",
-      "memory_hook": "Wright Brothers' plane = the Flyer. Kitty Hawk, December 17, 1903. 59 seconds, 260 meters. In 66 years, humans went from that first flight to landing on the Moon. Neil Armstrong carried a piece of the Flyer's wing to the Moon."
-    },
-    {
       "category": "Sports",
       "question": "The Kentucky Derby, the first leg of horse racing's Triple Crown, is run at which distance?",
       "options": [
@@ -78,19 +65,6 @@
       "answer": "USA",
       "explanation": "The United States won the most gold medals at the first modern Olympics, held in Athens, Greece in 1896. American athletes dominated track and field events. The games featured 241 athletes from 14 nations, all male. The host nation Greece won the most total medals, but the US topped the gold medal count. The games were revived by French Baron Pierre de Coubertin.",
       "memory_hook": "1896 Athens = first modern Olympics. USA won most gold. Only men competed. 241 athletes from 14 nations — tiny by today's standards (10,000+ athletes now). Pierre de Coubertin revived them as a path to world peace."
-    },
-    {
-      "category": "Sports",
-      "question": "In which sport do teams compete for the Stanley Cup?",
-      "options": [
-        "Basketball",
-        "Football",
-        "Baseball",
-        "Ice Hockey"
-      ],
-      "answer": "Ice Hockey",
-      "explanation": "The Stanley Cup is the championship trophy of the National Hockey League (NHL). It was donated by Governor General Lord Stanley of Preston in 1892, making it North America's oldest professional sports trophy. The Cup has a tradition of champions engraving their names on it — it now weighs about 35 pounds. Winning teams get to keep the Cup for a day, leading to legendary celebrations.",
-      "memory_hook": "Stanley Cup = NHL ice hockey. Oldest professional sports trophy in North America (1892). The Cup goes home with each player for a day — it has been dunked in pools, flown to Europe, and reportedly used as a cereal bowl."
     },
     {
       "category": "Pop Culture",
@@ -156,6 +130,32 @@
       "answer": "Electromagnetic force",
       "explanation": "Electrons are held in orbit around the atomic nucleus by the electromagnetic force. Electrons (negatively charged) are attracted to protons (positively charged) in the nucleus. The electromagnetic force is one of the four fundamental forces of nature, along with gravity, the strong nuclear force (which holds the nucleus together), and the weak nuclear force (responsible for radioactive decay).",
       "memory_hook": "Electrons orbit because of electromagnetism. Opposite charges attract — negative electrons are pulled toward positive protons. The four fundamental forces: gravity, electromagnetism, strong nuclear, weak nuclear. Everything in the universe runs on these four."
+    },
+    {
+      "category": "Geography",
+      "question": "The Namib Desert, running along the Atlantic coast of Namibia, is considered the world's oldest desert. Approximately how long has it been a desert?",
+      "options": [
+        "1 million years",
+        "55 million years",
+        "10,000 years",
+        "5 million years"
+      ],
+      "answer": "55 million years",
+      "explanation": "The Namib Desert is estimated to have been an arid or semi-arid region for at least 55 million years — making it the world's oldest desert. Despite its extreme aridity, the Namib has remarkable biodiversity including the fog-basking beetle (which collects water from coastal fog), the welwitschia plant (which can live over 1,000 years), oryx, and the world's largest sea-land nesting colony of Cape fur seals. The iconic red sand dunes near Sossusvlei are among the world's tallest.",
+      "memory_hook": "Namib Desert: ~55 million years old, world's oldest desert. Coastal location means morning fog — beetles collect drinking water from it. Welwitschia plant lives 1,000+ years, looks dead, isn't. Oryx survive extreme heat with specialized blood cooling. Ancient, harsh, and teeming with adapted life."
+    },
+    {
+      "category": "Science & Nature",
+      "question": "What is the reproductive process by which flowers receive pollen from the same or another plant, allowing fertilization to occur?",
+      "options": [
+        "Germination",
+        "Fertilization",
+        "Sporulation",
+        "Pollination"
+      ],
+      "answer": "Pollination",
+      "explanation": "Pollination is the transfer of pollen from a flower's anther to its stigma, enabling fertilization. It can be self-pollination (same plant) or cross-pollination (between plants). Agents include bees, butterflies, birds, bats, wind, and water. Bees are the world's most important pollinators — about one-third of the food humans eat depends on pollination. Colony Collapse Disorder (CCD), in which honeybee colonies suddenly die, has been a major concern because of its potential impact on food supplies.",
+      "memory_hook": "Pollination: pollen transfers from anther to stigma. Bees pollinate 1/3 of human food. Colony Collapse Disorder threatens food security. Wind pollinates grasses (including wheat, corn, rice). Without pollinators, most fruit, vegetables, and nuts disappear. Bees are more essential to civilization than most people realize."
     }
   ]
 }

@@ -41,19 +41,6 @@
       "memory_hook": "Knox-Johnston: alone, nonstop, 312 days. Magellan's crew was first around the world in 1522 — but they weren't alone or nonstop. Knox-Johnston was alone the entire time with no stops. That's a different kind of extraordinary."
     },
     {
-      "category": "History",
-      "question": "The Vikings were seafaring people who originated from which region?",
-      "options": [
-        "Iceland",
-        "Finland",
-        "Scandinavia",
-        "Scotland"
-      ],
-      "answer": "Scandinavia",
-      "explanation": "The Vikings came from Scandinavia — modern-day Norway, Sweden, and Denmark — and were active from the late 8th to early 11th century AD. They were not just raiders; they were traders, explorers, and settlers who reached North America (Vinland) around 1000 AD — nearly 500 years before Columbus. Leif Eriksson is credited as the first European to reach the Americas.",
-      "memory_hook": "Vikings = Scandinavia, not Iceland or Finland. They came from the big three: Norway, Sweden, Denmark. And they reached America 500 years before Columbus — they just didn't stick around or write it down in a way Europe noticed."
-    },
-    {
       "category": "Sports",
       "question": "Lance Armstrong was stripped of his record seven Tour de France titles due to doping. In what year was this decision made?",
       "options": [
@@ -78,19 +65,6 @@
       "answer": "England",
       "explanation": "Table tennis originated in England in the 1880s as an after-dinner parlor game among the upper class, using books as nets and rounded bottle caps as balls. It was popularized under the trademark name 'Ping-Pong' and spread to Asia in the early 20th century. China has dominated the sport at Olympic level since the 1980s, leading many to assume it originated there.",
       "memory_hook": "Ping pong = English parlor game. The sport China owns was invented in England. Victorian gentlemen playing after dinner — not a Chinese sports academy. The origin and the dominance are completely disconnected."
-    },
-    {
-      "category": "Sports",
-      "question": "Which sprinter is known as 'The Fastest Woman on Earth' and won three gold medals at the 1988 Seoul Olympics?",
-      "options": [
-        "Marion Jones",
-        "Evelyn Ashford",
-        "Florence Griffith Joyner",
-        "Gail Devers"
-      ],
-      "answer": "Florence Griffith Joyner",
-      "explanation": "Florence Griffith Joyner — known as 'FloJo' — won three gold medals at the 1988 Seoul Olympics and set world records in the 100m (10.49 seconds) and 200m (21.34 seconds) that still stand today. She was known for her distinctive long nails, flamboyant outfits, and exceptional speed. She passed away in 1998 at age 38.",
-      "memory_hook": "FloJo: world records that have stood since 1988. Over 35 years later, no woman has run 100m faster. Her records predate smartphones, the internet, and modern sports science. That's either extraordinary talent or an era of less testing."
     },
     {
       "category": "Pop Culture",
@@ -156,6 +130,32 @@
       "answer": "Mitochondria",
       "explanation": "Mitochondria produce ATP (adenosine triphosphate), the energy currency that cells use to function. They have their own DNA, suggesting they were once free-living bacteria absorbed into larger cells billions of years ago.",
       "memory_hook": "Mitochondria = powerhouse. Every biology class, every year. If you remember one cell fact, it's this one."
+    },
+    {
+      "category": "Geography",
+      "question": "Norway's Svalbard archipelago, located halfway between Norway and the North Pole, is home to which unique global facility?",
+      "options": [
+        "The International Space Agency",
+        "The Global Seed Vault",
+        "The Arctic Climate Research Station",
+        "The UNESCO Ice Core Library"
+      ],
+      "answer": "The Global Seed Vault",
+      "explanation": "The Svalbard Global Seed Vault, opened in 2008, is built into the permafrost of Spitsbergen island and stores over 1.3 million seed samples from around the world as a backup against catastrophic crop loss. Svalbard itself is notable for being home to more polar bears than people (about 3,000 bears vs 2,700 residents), and Norway's sovereignty over it is regulated by the 1920 Svalbard Treaty, which allows citizens of signatory nations to live and work there.",
+      "memory_hook": "Svalbard: Norwegian archipelago halfway to the North Pole. More polar bears than people. Home to the Global Seed Vault — 1.3 million seed samples backed up in permafrost. If civilization collapses and crops fail, humanity has a spare set of keys."
+    },
+    {
+      "category": "Science & Nature",
+      "question": "Which American physician developed the first effective polio vaccine, announced in 1955?",
+      "options": [
+        "Albert Sabin",
+        "Louis Pasteur",
+        "Alexander Fleming",
+        "Jonas Salk"
+      ],
+      "answer": "Jonas Salk",
+      "explanation": "Dr. Jonas Salk developed the first successful polio vaccine, announced on April 12, 1955 — exactly 10 years after President Roosevelt died of complications related to polio. The announcement was met with worldwide celebration. Salk famously refused to patent the vaccine, saying it belonged to the people ('Could you patent the sun?'). Albert Sabin later developed an oral polio vaccine used in global eradication efforts.",
+      "memory_hook": "Jonas Salk = polio vaccine, 1955. Refused to patent it ('Could you patent the sun?'). Millions of children got it for free. Albert Sabin followed with the oral version. Polio was once one of the most feared diseases; now it's nearly eradicated worldwide."
     }
   ]
 }

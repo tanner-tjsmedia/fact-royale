@@ -53,19 +53,6 @@
       "memory_hook": "LeBron broke Kareem's 39-year record. The King is the all-time scorer."
     },
     {
-      "category": "Sports",
-      "question": "In which sport do competitors throw a 'hammer'?",
-      "options": [
-        "Javelin",
-        "Track and field",
-        "Discus",
-        "Archery"
-      ],
-      "answer": "Track and field",
-      "explanation": "The hammer throw is a track and field event where athletes throw a metal ball attached to a wire handle. Men's hammer weighs 7.26 kg (16 lb); women's weighs 4 kg (8.8 lb). Competitors spin in a circle before releasing. The world record stands at 86.74 meters, set in 1986.",
-      "memory_hook": "Hammer throw: spin and release. Track and field's most dizzying event."
-    },
-    {
       "category": "Pop Culture",
       "question": "Which film first introduced the character of Darth Vader?",
       "options": [
@@ -118,19 +105,6 @@
       "memory_hook": "1986: 73 seconds. The Challenger fell, and the nation watched in horror."
     },
     {
-      "category": "History",
-      "question": "Who was the leader of Cuba during the Cuban Revolution?",
-      "options": [
-        "Che Guevara",
-        "Raúl Castro",
-        "Fulgencio Batista",
-        "Fidel Castro"
-      ],
-      "answer": "Fidel Castro",
-      "explanation": "Fidel Castro led the Cuban Revolution that overthrew dictator Fulgencio Batista on January 1, 1959. He then ruled Cuba for 49 years until handing power to his brother Raúl in 2008. Cuba became the first Communist state in the Western Hemisphere under his rule.",
-      "memory_hook": "Castro's beard and Cuba's revolution — he held power for five decades."
-    },
-    {
       "category": "Geography",
       "question": "Russia spans how many time zones?",
       "options": [
@@ -155,6 +129,32 @@
       "answer": "NaCl",
       "explanation": "Table salt is sodium chloride — one sodium atom bonded to one chlorine atom. Sodium (Na) is a soft, reactive metal, and chlorine (Cl) is a toxic gas, but together they form a stable, harmless crystal essential for human life. The body uses sodium to regulate fluid balance and nerve function.",
       "memory_hook": "Salt = NaCl. Sodium + Chlorine = the thing you put on food. A toxic metal and a poisonous gas combine to make something you eat every day."
+    },
+    {
+      "category": "Geography",
+      "question": "Which famous waterfall system on the US-Canada border — shared between Ontario and New York — is one of the world's highest-volume waterfalls?",
+      "options": [
+        "Iguazu Falls",
+        "Victoria Falls",
+        "Angel Falls",
+        "Niagara Falls"
+      ],
+      "answer": "Niagara Falls",
+      "explanation": "Niagara Falls consists of three waterfalls on the border between Ontario, Canada and New York State: Horseshoe Falls (the largest, on the Canadian side), American Falls, and Bridal Veil Falls. About 2,800 m³ of water flows over them every second. They were formed about 12,000 years ago as glaciers receded. Niagara generates substantial hydroelectric power for both the US and Canada. The falls have been a honeymoon destination since the 19th century.",
+      "memory_hook": "Niagara Falls: US-Canada border (Ontario + New York). Three falls: Horseshoe (Canadian side, largest), American, Bridal Veil. 2,800 m³/sec. Formed 12,000 years ago. A major hydroelectric source. Traditional honeymoon destination since the 1800s."
+    },
+    {
+      "category": "Science & Nature",
+      "question": "What is the hard external skeleton found in insects, crustaceans, and some other invertebrates called?",
+      "options": [
+        "Carapace",
+        "Exoskeleton",
+        "Shell",
+        "Chitinous layer"
+      ],
+      "answer": "Exoskeleton",
+      "explanation": "An exoskeleton is a rigid external skeleton that supports and protects the soft body of an organism. In insects and crustaceans, it is made primarily of chitin (a tough polysaccharide). Unlike the internal skeleton (endoskeleton) of vertebrates, an exoskeleton does not grow with the organism — it must be periodically shed (molted) and regrown. Insects must remain vulnerable during molting. The largest exoskeletal animals are coconut crabs, which can span 1 meter.",
+      "memory_hook": "Exoskeleton = external skeleton of insects, crabs, lobsters. Made of chitin. Doesn't grow — must be shed (molted) and regrown. The animal is vulnerable during molting. Coconut crabs = largest exoskeletal animals. Your endoskeleton grows with you; an insect's doesn't."
     }
   ]
 }

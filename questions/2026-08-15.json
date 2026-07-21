@@ -41,19 +41,6 @@
       "memory_hook": "Jamestown 1607 = first permanent English settlement in America. It almost failed — 'the starving time' winter of 1609-10 killed 80% of colonists. Tobacco saved it economically. Pocahontas was real — and her story is much more complicated and sadder than the Disney version."
     },
     {
-      "category": "History",
-      "question": "The first successful powered heavier-than-air flight took place at Kitty Hawk, North Carolina in December of which year?",
-      "options": [
-        "1895",
-        "1900",
-        "1903",
-        "1908"
-      ],
-      "answer": "1903",
-      "explanation": "Orville and Wilbur Wright made the first powered, controlled, sustained heavier-than-air flight on December 17, 1903. Orville piloted the first flight, which lasted 12 seconds and covered 120 feet. The fourth and final flight that day lasted 59 seconds and covered 260 meters. Their aircraft was called the Flyer. Sixty-six years later, humans landed on the Moon — the entire aviation age happened within a human lifetime.",
-      "memory_hook": "Wright Brothers, December 17, 1903. 12 seconds, 120 feet. By the end of the day: 59 seconds, 260 meters. In 66 years humans went from those 12 seconds to walking on the Moon. Neil Armstrong carried a piece of the Flyer's wing fabric to the Moon."
-    },
-    {
       "category": "Sports",
       "question": "In which Japanese martial art do competitors earn points by throwing, pinning, or forcing their opponent to submit — with a perfect throw earning an 'ippon' and immediate victory?",
       "options": [
@@ -78,19 +65,6 @@
       "answer": "A defensive pass of a spiked ball",
       "explanation": "A dig in volleyball is a defensive technique to pass a ball that has been attacked (usually spiked) by the opposing team, typically performed with forearm passing to keep the ball alive. The goal is to prevent the ball from hitting the floor when the opponent attacks. A successful dig allows the team to transition from defense to offense. It requires quick reflexes and good anticipation.",
       "memory_hook": "Dig = defensive forearm pass of a spike. You dig out a ball that's been spiked at you. Good liberos (the defensive specialists) are defined by their digging ability — diving across the floor to save balls that look like certain points for the other team."
-    },
-    {
-      "category": "Sports",
-      "question": "What is the name of the shot in tennis where the ball is hit flat or with topspin, driving it deep to the opponent's baseline?",
-      "options": [
-        "Lob",
-        "Drop shot",
-        "Serve",
-        "Groundstroke"
-      ],
-      "answer": "Groundstroke",
-      "explanation": "A groundstroke is a fundamental tennis shot hit after the ball has bounced, typically from the baseline. Forehands and backhands are both groundstrokes. Topspin groundstrokes dip down quickly after crossing the net, while flat groundstrokes travel faster but are riskier. Nadal is famous for his heavy topspin forehand; Federer for his elegant one-handed backhand groundstroke.",
-      "memory_hook": "Groundstroke = baseline shot after the bounce. The bread and butter of tennis. Forehand and backhand are both groundstrokes. Nadal's topspin forehand generates 3,200 rpm of spin — that's why his shots kick up so high and make opponents uncomfortable."
     },
     {
       "category": "Pop Culture",
@@ -156,6 +130,32 @@
       "answer": "Refraction",
       "explanation": "Refraction is the bending of light (or other waves) when they pass from one medium to another with different optical density. A straw in a glass of water appears bent because light travels slower in water than in air, causing it to change direction at the surface. Refraction explains how lenses work, how prisms split white light into colors, and why the sky appears to shift color at sunrise and sunset.",
       "memory_hook": "Refraction = light bends when changing mediums. A straw looks bent in water because of refraction. A prism splits white light into a rainbow by refracting different wavelengths at different angles. Your glasses or contact lenses work entirely because of controlled refraction."
+    },
+    {
+      "category": "Geography",
+      "question": "The Sea of Japan lies between Japan and the Korean Peninsula. By what name do South Korea and Japan disagree on what this body of water should be called?",
+      "options": [
+        "Korea calls it the East Sea; both names are used",
+        "Both agree it should be the Pacific Sea",
+        "Japan insists on calling it the Korea Sea",
+        "The UN has ruled it must be called the Pacific Ocean"
+      ],
+      "answer": "Korea calls it the East Sea; both names are used",
+      "explanation": "South Korea calls the body of water the 'East Sea' (동해, Donghae), while Japan calls it the 'Sea of Japan.' North Korea calls it the 'East Sea of Korea.' This naming dispute has geopolitical dimensions — South Korea argues the 'Sea of Japan' name was imposed during Japanese colonization (1910-1945). International organizations have begun using both names. Historically, European maps used various names; 'Sea of Japan' became dominant in the 19th century.",
+      "memory_hook": "Sea of Japan vs. East Sea: Japan and Korea have a naming dispute. Korea says 'Sea of Japan' was imposed during colonization (1910-1945). Now many international bodies use both names. Geography and history intertwined — even naming a sea is political."
+    },
+    {
+      "category": "Science & Nature",
+      "question": "What is a DNA mutation, and what are three things that can cause one?",
+      "options": [
+        "An intentional change cells make to adapt to stress",
+        "A change in the DNA sequence, caused by radiation, chemical exposure, or copying errors",
+        "A form of cell death",
+        "The conversion of RNA back into DNA"
+      ],
+      "answer": "A change in the DNA sequence, caused by radiation, chemical exposure, or copying errors",
+      "explanation": "A DNA mutation is any permanent change in the nucleotide sequence of DNA. Mutations can be caused by: radiation (UV light, X-rays, nuclear radiation), chemical mutagens (tobacco smoke, certain industrial chemicals), or spontaneous errors during DNA replication. Most mutations are either harmless or repaired by cellular machinery. Some cause cancer by disrupting genes that control cell growth. Occasional mutations in germline cells (sperm/eggs) are inherited by offspring and drive evolution — the raw material of natural selection.",
+      "memory_hook": "DNA mutation = change in the DNA sequence. Caused by UV radiation, chemical mutagens, or copying errors. Most are repaired or harmless. Cancer mutations = uncontrolled cell division. Germline mutations are inherited, drive evolution. Your DNA is copied billions of times; even with error-checking, some mutations get through."
     }
   ]
 }

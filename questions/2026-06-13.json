@@ -67,19 +67,6 @@
       "memory_hook": "Brazil wears yellow — picture five gold stars on their jersey. Five stars, five cups. Yellow = gold = trophies."
     },
     {
-      "category": "Sports",
-      "question": "In the NBA, how many personal fouls does a player need to accumulate to foul out of a game?",
-      "options": [
-        "5",
-        "6",
-        "7",
-        "4"
-      ],
-      "answer": "6",
-      "explanation": "NBA players are disqualified after their 6th personal foul. College basketball (NCAA) uses 5 fouls. The NBA increased from 5 to 6 fouls in 1947 to keep star players in games longer.",
-      "memory_hook": "NBA = 6 fouls. Think 'six feet under' — your sixth foul puts you in the bench graveyard. College = 5, pros = 6."
-    },
-    {
       "category": "Pop Culture",
       "question": "Which Pink Floyd album features a prism splitting white light into a spectrum on its cover?",
       "options": [
@@ -119,17 +106,56 @@
       "memory_hook": "Spielberg tamed every kind of beast: a shark (Jaws), an alien (E.T.), Nazis (Indiana Jones), and then dinosaurs. He runs the biggest zoo in Hollywood."
     },
     {
-      "category": "History",
-      "question": "The Magna Carta, one of the first documents limiting royal power, was signed in which year?",
+      "category": "Geography",
+      "question": "Which country has the longest coastline in the world, stretching approximately 202,080 km including its mainland and island shores?",
       "options": [
-        "1066",
-        "1215",
-        "1348",
-        "1453"
+        "Russia",
+        "Australia",
+        "Norway",
+        "Canada"
       ],
-      "answer": "1215",
-      "explanation": "King John of England sealed the Magna Carta at Runnymede on June 15, 1215, under pressure from rebellious barons. It established the principle that the king was subject to the rule of law — a foundational concept for modern constitutional democracy.",
-      "memory_hook": "1215: think 'twelve-fifteen' — like a meeting at 12:15 between the King and the barons to settle things. The king showed up and had to agree to the rules."
+      "answer": "Canada",
+      "explanation": "Canada has the world's longest coastline at approximately 202,080 km — more than any other nation. Its vast northern archipelago and Hudson Bay contribute enormously to this total. Norway has the second-longest coastline per land area, and Australia's is about 25,760 km. Measuring Canada's coastline entirely would take years on foot.",
+      "memory_hook": "Canada = longest coastline. More shoreline than any country on Earth — even counting all its Arctic islands. Longer than you'd expect from a country most famous for being cold and polite."
+    },
+    {
+      "category": "Science & Nature",
+      "question": "Earth's atmosphere is approximately 78% which gas — making it far more abundant than the oxygen we breathe?",
+      "options": [
+        "Oxygen",
+        "Carbon dioxide",
+        "Argon",
+        "Nitrogen"
+      ],
+      "answer": "Nitrogen",
+      "explanation": "Earth's atmosphere is approximately 78% nitrogen, 21% oxygen, 0.9% argon, and 0.04% carbon dioxide. Most living organisms cannot use atmospheric nitrogen directly — it must be 'fixed' into usable compounds by nitrogen-fixing bacteria in soil or by lightning. The nitrogen cycle is fundamental to all life on Earth.",
+      "memory_hook": "Atmosphere: 78% nitrogen, only 21% oxygen. Most people think oxygen dominates — it doesn't. Nitrogen is the silent majority of every breath you take. Plants can't use it directly; soil bacteria must convert it first."
+    },
+    {
+      "category": "Geography",
+      "question": "Which is the largest island in the Caribbean Sea?",
+      "options": [
+        "Jamaica",
+        "Hispaniola",
+        "Puerto Rico",
+        "Cuba"
+      ],
+      "answer": "Cuba",
+      "explanation": "Cuba spans 109,884 km² — making it the largest island in the Caribbean. Hispaniola (Haiti and the Dominican Republic) is the second-largest. Christopher Columbus landed on Cuba in 1492, and it was a Spanish colony for nearly 400 years before US occupation following the Spanish-American War. Cuba's capital, Havana, was one of the wealthiest cities in the Western Hemisphere in the 19th century.",
+      "memory_hook": "Cuba = largest Caribbean island. Bigger than Hispaniola (Haiti+DR). Columbus landed there in 1492. Havana was once one of the richest cities in the hemisphere."
+    },
+    {
+      "category": "Science & Nature",
+      "question": "What property of water allows insects like water striders to walk on its surface?",
+      "options": [
+        "Viscosity",
+        "Density",
+        "Surface tension",
+        "Cohesion"
+      ],
+      "answer": "Surface tension",
+      "explanation": "Surface tension is the elastic-like force at the surface of a liquid caused by cohesive forces between water molecules. Water molecules at the surface have unbalanced attractive forces, creating a 'skin' strong enough to support lightweight objects. Surface tension also causes water to form drops, rise in thin tubes (capillary action), and creates the curved meniscus seen in lab glassware.",
+      "memory_hook": "Surface tension = water's 'skin.' Cohesion pulls surface molecules inward, creating tension. Insects walk on it; raindrops are spherical because of it. Soap breaks surface tension — that's why soapy water doesn't bead up."
     }
   ]
 }

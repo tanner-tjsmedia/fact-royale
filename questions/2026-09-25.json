@@ -148,14 +148,14 @@
       "category": "Sports",
       "question": "Lewis Hamilton holds how many Formula 1 World Championship titles?",
       "options": [
-        "8 — most of any driver in F1 history",
         "7 — tied with Michael Schumacher",
+        "8",
         "6",
         "5"
       ],
-      "answer": "8 — most of any driver in F1 history",
-      "explanation": "Lewis Hamilton won his 8th World Championship, surpassing Schumacher's previous record of 7. Hamilton's championships came primarily with Mercedes (2014-2015, 2017-2020). He also holds records for most race wins and most pole positions.",
-      "memory_hook": "Lewis Hamilton: 8 F1 World Championships, most of any driver. Broke Schumacher's record of 7."
+      "answer": "7 — tied with Michael Schumacher",
+      "explanation": "Lewis Hamilton won 7 Formula 1 World Championships (2008, 2014, 2015, 2017, 2018, 2019, 2020), tying Michael Schumacher's record for the most in F1 history. His 2008 title came with McLaren; the rest with Mercedes. He also holds records for most race wins and most pole positions in F1 history.",
+      "memory_hook": "Lewis Hamilton: 7 F1 titles, tied with Schumacher for most ever. McLaren (2008) then Mercedes (2014-2020). The most decorated driver in the sport's history."
     }
   ]
 }
