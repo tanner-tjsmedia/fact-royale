@@ -149,10 +149,18 @@ async function loadMasteryPage() {
     if (!user) {
       if (signinEl)  signinEl.style.display  = 'flex';
       if (contentEl) contentEl.style.display = 'none';
+      const nameEl = document.getElementById('m-nav-username');
+      if (nameEl) nameEl.textContent = '';
       return;
     }
     if (signinEl)  signinEl.style.display  = 'none';
     if (contentEl) contentEl.style.display = 'block';
+
+    // Update nav username (consolidated from inline mastery.html script)
+    const nameEl = document.getElementById('m-nav-username');
+    if (nameEl) nameEl.textContent = user.displayName || (user.email ? user.email.split('@')[0] : '');
+    // Load challenge history
+    if (typeof loadChallengeHistory === 'function') loadChallengeHistory(user.uid);
 
     // Show skeleton while loading
     const grid = document.getElementById('mastery-grid');

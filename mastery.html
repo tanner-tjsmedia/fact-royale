@@ -352,15 +352,8 @@
 
   <!-- Scripts -->
   <script src="icons.js"></script>
-  <script src="mastery.js?v=4"></script>
+  <script src="mastery.js?v=5"></script>
   <script>
-    // Nav auth + challenge history
-    auth.onAuthStateChanged(user => {
-      const nameEl = document.getElementById('m-nav-username');
-      if (nameEl) nameEl.textContent = user ? (user.displayName || user.email.split('@')[0]) : '';
-      if (user && typeof loadChallengeHistory === 'function') loadChallengeHistory(user.uid);
-    });
-
     // Sign-out
     document.getElementById('m-btn-signout').addEventListener('click', () => {
       auth.signOut().then(() => { window.location.href = 'index.html'; });

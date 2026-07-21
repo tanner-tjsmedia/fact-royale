@@ -12,11 +12,19 @@ function getMondayOfCurrentWeek() {
   const diff = (day === 0) ? -6 : 1 - day; // adjust so Monday = start
   const monday = new Date(now);
   monday.setDate(now.getDate() + diff);
-  return monday.toISOString().split('T')[0]; // "2026-07-13"
+  // Use local date parts to avoid UTC midnight rollover for non-UTC timezones
+  const y = monday.getFullYear();
+  const m = String(monday.getMonth() + 1).padStart(2, '0');
+  const d = String(monday.getDate()).padStart(2, '0');
+  return `${y}-${m}-${d}`;
 }
 
 function getTodayKey() {
-  return new Date().toISOString().split('T')[0];
+  const now = new Date();
+  const y = now.getFullYear();
+  const m = String(now.getMonth() + 1).padStart(2, '0');
+  const d = String(now.getDate()).padStart(2, '0');
+  return `${y}-${m}-${d}`;
 }
 
 function generateGroupCode() {

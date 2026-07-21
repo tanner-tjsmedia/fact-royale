@@ -1085,6 +1085,11 @@ function showResultsFromStorage() {
     window.scrollTo({ top: 0, behavior: 'smooth' });
     if (typeof loadLeaderboard === 'function') loadLeaderboard();
   };
+
+  // Challenge comparison — show if this session was triggered by a challenge link
+  if (typeof challengeData !== 'undefined' && challengeData) {
+    showChallengeComparison(storedScore, storedTotal);
+  }
 }
 
 // ── Archive Results Title ──────────────────────────────
@@ -1288,6 +1293,16 @@ async function startArchiveQuiz() {
     const completedDates = await getCompletedDates(currentUser.uid);
     if (completedDates.includes(activeQuizDate)) {
       showArchiveAlreadyPlayedScreen();
+      // If this was a challenge link, still show the comparison using their stored score
+      if (typeof challengeData !== 'undefined' && challengeData && typeof db !== 'undefined') {
+        try {
+          const scoreSnap = await db.collection('scores').doc(`${currentUser.uid}_${activeQuizDate}`).get();
+          if (scoreSnap.exists) {
+            const sd = scoreSnap.data();
+            showChallengeComparison(sd.score || 0, sd.total || 12);
+          }
+        } catch (e) { /* silent — comparison is bonus UX, not critical */ }
+      }
       return;
     }
   } catch (e) {
