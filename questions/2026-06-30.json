@@ -145,16 +145,16 @@
     },
     {
       "category": "Science & Nature",
-      "question": "What is the name of the temperature scale where 0 represents absolute zero — the coldest possible temperature?",
+      "question": "In 1998, two independent teams of astronomers studying distant supernovae made a shocking discovery that overturned cosmology. What did they find?",
       "options": [
-        "Celsius",
-        "Fahrenheit",
-        "Rankine",
-        "Kelvin"
+        "They discovered that the universe's expansion had been decelerating since the Big Bang, confirming that gravity would eventually cause a 'Big Crunch' — the universe collapsing back on itself",
+        "They discovered the universe's expansion is accelerating — driven by a mysterious force called 'dark energy' — which implied the universe would expand forever and end in cold darkness",
+        "They discovered that the Milky Way is moving toward the Andromeda galaxy at twice the previously estimated speed, meaning collision would occur in 2 billion years, not 4.5 billion",
+        "They discovered that supernovae in distant galaxies were hotter than predicted, suggesting the universe had been hotter in its early phases than the Big Bang model expected"
       ],
-      "answer": "Kelvin",
-      "explanation": "The Kelvin scale (K) is the SI unit of temperature, with 0 K representing absolute zero (−273.15°C / −459.67°F) — the theoretical temperature at which all molecular motion ceases. The scale was proposed by William Thomson (Lord Kelvin) in 1848. There are no negative Kelvin temperatures. Water freezes at 273.15 K and boils at 373.15 K. Kelvin is used in scientific work, particularly in physics and astronomy.",
-      "memory_hook": "Kelvin = scientific temperature scale. 0 K = absolute zero (-273.15°C). No negative values — you can't get colder than nothing. Water freezes at 273 K, boils at 373 K. Scientists use Kelvin; the rest of us argue between Celsius and Fahrenheit."
+      "answer": "They discovered the universe's expansion is accelerating — driven by a mysterious force called 'dark energy' — which implied the universe would expand forever and end in cold darkness",
+      "explanation": "Saul Perlmutter, Brian Schmidt, and Adam Riess led the two teams using Type Ia supernovae as 'standard candles' to measure cosmic distances. They expected to find the expansion slowing down due to gravity — instead they found it speeding up. Dark energy, the name given to whatever is causing this acceleration, makes up approximately 68% of the universe. Nobody knows what it is. Perlmutter, Schmidt, and Riess shared the 2011 Nobel Prize in Physics for this discovery — one of the most counterintuitive in the history of science.",
+      "memory_hook": "Two rival astronomy teams both expected to confirm the universe's expansion was slowing — and both independently found it's accelerating. Dark energy (68% of the universe, identity unknown) got the blame; the team leaders shared the 2011 Nobel Prize."
     }
   ]
 }

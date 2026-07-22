@@ -94,16 +94,16 @@
     },
     {
       "category": "Science & Nature",
-      "question": "What is the name of the unit used to measure the loudness of sound, abbreviated dB?",
+      "question": "The 2011 Nobel Prize in Physics went to Perlmutter, Schmidt, and Riess for using Type Ia supernovae to discover dark energy. Why are Type Ia supernovae uniquely useful as cosmic distance markers?",
       "options": [
-        "Decibel",
-        "Hertz",
-        "Pascal",
-        "Newton"
+        "Type Ia supernovae all occur at exactly the same distance from Earth — they can only be triggered by a mechanism that requires a specific interstellar environment, so they're clustered at a known location",
+        "Type Ia supernovae occur when a white dwarf exceeds 1.4 solar masses — the same mass limit every time — so they all explode with nearly the same intrinsic brightness, allowing precise distance calculations from apparent brightness",
+        "Type Ia supernovae emit a distinctive gamma-ray burst that travels faster than visible light, arriving at Earth first and providing an exact timestamp allowing triangulation of the explosion's distance",
+        "Type Ia supernovae are always found in binary star pairs, and the time delay between the two explosions allows precise distance measurement via the speed of light"
       ],
-      "answer": "Decibel",
-      "explanation": "The decibel (dB) scale is logarithmic: each 10 dB increase represents a 10-fold increase in intensity. Normal conversation is about 60 dB; a rock concert around 115 dB; a jet engine 140 dB. The threshold of pain is around 130 dB. The scale is named after Alexander Graham Bell, inventor of the telephone.",
-      "memory_hook": "Decibel (dB): logarithmic. 10 dB = 10x louder. Named after Alexander Graham Bell. Jet engine = 140 dB."
+      "answer": "Type Ia supernovae occur when a white dwarf exceeds 1.4 solar masses — the same mass limit every time — so they all explode with nearly the same intrinsic brightness, allowing precise distance calculations from apparent brightness",
+      "explanation": "A white dwarf in a binary system accretes mass from its companion until it hits the Chandrasekhar limit (1.4 solar masses) and explodes via runaway carbon fusion. Because the trigger is always the same mass, the explosion is remarkably uniform in luminosity — a 'standard candle.' By comparing how bright the supernova appears vs. how bright it should be, astronomers calculate exact distances. Perlmutter and Schmidt's teams both found that distant supernovae were dimmer than expected — meaning they were farther away — meaning the universe's expansion is accelerating, driven by dark energy.",
+      "memory_hook": "Type Ia supernovae are always triggered at exactly 1.4 solar masses — same fuse, same explosion, same brightness. Two rival teams measured them expecting to find cosmic expansion slowing, and both found the universe was actually accelerating. That discovery earned the 2011 Nobel Prize and revealed dark energy."
     },
     {
       "category": "Geography",
@@ -146,16 +146,16 @@
     },
     {
       "category": "Sports",
-      "question": "Which country has won the most ICC Cricket World Cup titles (50-over format)?",
+      "question": "Serena Williams won 23 Grand Slam singles titles — the most in the Open Era. Which Grand Slam did she win most often, and how does she compare to all-time lists?",
       "options": [
-        "Australia",
-        "West Indies",
-        "India",
-        "England"
+        "The French Open (8 times); she is second all-time behind Margaret Court's 24 total Grand Slams",
+        "The Australian Open (7 times); she is second all-time behind Steffi Graf's 22 Open Era titles",
+        "The Australian Open (7 times); she is second all-time on Open Era titles and first on overall Grand Slam wins",
+        "Wimbledon (7 times); she surpassed Steffi Graf to become the Open Era's all-time leader"
       ],
-      "answer": "Australia",
-      "explanation": "Australia has won the Cricket World Cup 6 times (1987, 1999, 2003, 2007, 2015, 2023). The West Indies won the first two World Cups (1975, 1979) but hasn't won since. India won in 1983 and 2011. The 2023 World Cup final saw Australia defeat India in Ahmedabad — a stunning upset given India's unbeaten run through the tournament.",
-      "memory_hook": "Australia: 6 Cricket World Cups, most of any nation. West Indies: first 2 (1975, 1979). India: 2."
+      "answer": "The Australian Open (7 times); she is second all-time behind Steffi Graf's 22 Open Era titles",
+      "explanation": "Serena won 7 Australian Opens, 6 US Opens, 3 Wimbledons, and 3 French Opens for her 23 total. Margaret Court holds the all-time record with 24 Grand Slams (spanning amateur and Open eras), but Court won 13 titles during the amateur era. In the Open Era alone, Serena's 23 trail only the combined amateur+Open count. Steffi Graf's 22 Open Era titles were the record Serena broke in 2017 at the Australian Open.",
+      "memory_hook": "Serena's 23 Grand Slams lead all Open Era women — 7 Australian Opens, 6 US Opens, 3 Wimbledons, 3 French Opens — and she won her last one at the 2017 Australian Open while 8 weeks pregnant."
     }
   ]
 }

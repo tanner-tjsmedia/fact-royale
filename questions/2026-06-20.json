@@ -68,16 +68,16 @@
     },
     {
       "category": "Pop Culture",
-      "question": "Which film holds the record as the highest-grossing movie of all time globally?",
+      "question": "Claude Monet's Water Lilies series — painted in the last decades of his life — are among the world's most visited artworks. What circumstances make them remarkable?",
       "options": [
-        "Avengers: Endgame",
-        "Titanic",
-        "Avatar",
-        "Star Wars: The Force Awakens"
+        "Monet painted all 250 Water Lilies canvases from memory after going completely blind",
+        "Monet painted most of the series while nearly blind from cataracts, using his knowledge of color relationships and labeling his paint tubes to work through his failing vision",
+        "Monet created the series as a deliberate critique of photography, painting in conditions no camera could replicate",
+        "All Water Lilies were painted on a single continuous canvas that Monet later cut into sections displayed in different museums"
       ],
-      "answer": "Avatar",
-      "explanation": "James Cameron's Avatar (2009) holds the record as the highest-grossing film of all time with over $2.9 billion in global box office receipts — a record it reclaimed after a 2022 re-release, surpassing Avengers: Endgame. Its sequel, Avatar: The Way of Water (2022), also crossed $2 billion.",
-      "memory_hook": "Avatar = blue people, blue ribbon. James Cameron holds both #1 and #2 on the all-time list (Avatar and Titanic). He didn't just make movies — he built the two biggest cinematic box offices in history."
+      "answer": "Monet painted most of the series while nearly blind from cataracts, using his knowledge of color relationships and labeling his paint tubes to work through his failing vision",
+      "explanation": "Monet developed cataracts in both eyes around 1912 and for years refused surgery. His later canvases show increasingly loose, reddish brushwork — the red shift in his vision from the cataracts altered his color perception. He finally had surgery in 1923 and was reportedly horrified by how his recent paintings looked. The large-scale panels now in the Orangerie museum in Paris were his final gift to France, installed after his death in 1926.",
+      "memory_hook": "Monet painted most of his Water Lilies while nearly blind — cataracts shifted his color vision red, which explains the warmer tones in his later work; he had surgery at 83 and reportedly disliked what he saw."
     },
     {
       "category": "Pop Culture",
@@ -94,16 +94,16 @@
     },
     {
       "category": "Pop Culture",
-      "question": "Which Shakespeare play is the animated film 'The Lion King' loosely based on?",
+      "question": "Breaking Bad (2008–2013) is frequently cited as one of television's greatest achievements. What was creator Vince Gilligan's stated goal for the show's protagonist Walter White?",
       "options": [
-        "Macbeth",
-        "Othello",
-        "King Lear",
-        "Hamlet"
+        "To create the most realistic portrayal of the US drug trade ever shown on television",
+        "To turn 'Mr. Chips into Scarface' — transforming a sympathetic chemistry teacher into a calculating drug lord over five seasons",
+        "To show that the American healthcare system drives ordinary people to crime",
+        "To explore how intelligence and pride can coexist with moral blindness"
       ],
-      "answer": "Hamlet",
-      "explanation": "The Lion King (1994) is heavily inspired by Shakespeare's Hamlet: a prince whose father is murdered by his uncle, who then usurps the throne. Simba's story mirrors Hamlet's — exile, a ghostly father's appearance, a return to claim the kingdom. Despite the similarities, Disney has never officially acknowledged the connection.",
-      "memory_hook": "Simba = Hamlet. Father murdered by uncle, prince goes into exile, ghost of the father returns, prince comes back to take the throne. Same plot, different species. Hakuna Matata = 'To be or not to be' in animal kingdom terms."
+      "answer": "To turn 'Mr. Chips into Scarface' — transforming a sympathetic chemistry teacher into a calculating drug lord over five seasons",
+      "explanation": "Gilligan famously pitched Breaking Bad as a story about a protagonist who transforms into the villain — reversing the typical TV formula where heroes might bend rules but ultimately remain good. Walter White's transformation from mild chemistry teacher to 'Heisenberg' — a methodical, ruthless drug lord — was meticulously plotted across 62 episodes. The show is also notable for its exceptional cinematography and for launching Aaron Paul's career as Jesse Pinkman.",
+      "memory_hook": "Gilligan pitched Breaking Bad as 'turning Mr. Chips into Scarface' — Walter White's slide from cancer-patient teacher to ruthless Heisenberg is the most rigorously plotted character transformation in TV history."
     },
     {
       "category": "Geography",

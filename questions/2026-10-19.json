@@ -1,0 +1,161 @@
+{
+  "date": "2026-10-19",
+  "questions": [
+    {
+      "category": "History",
+      "question": "The JFK assassination on November 22, 1963 shocked the world. Who was officially found responsible by the Warren Commission?",
+      "options": [
+        "A Cuban government plot ordered by Fidel Castro",
+        "Lee Harvey Oswald, acting alone",
+        "A joint CIA/organized crime conspiracy",
+        "Lyndon B. Johnson's operatives"
+      ],
+      "answer": "Lee Harvey Oswald, acting alone",
+      "explanation": "The Warren Commission (1964) concluded Lee Harvey Oswald acted alone in assassinating President Kennedy from the Texas School Book Depository in Dallas. Oswald was himself shot and killed two days later by nightclub owner Jack Ruby, preventing any trial. Polls consistently show most Americans believe there was a conspiracy, and multiple subsequent investigations (House Select Committee, 1979) found evidence 'consistent with' a conspiracy without reaching conclusions. Kennedy assassination theories remain among the most debated in American history.",
+      "memory_hook": "The Warren Commission said Oswald acted alone. Most Americans don't believe it — and Oswald being killed before trial by a man with mob connections didn't help. The JFK assassination spawned modern conspiracy theory culture."
+    },
+    {
+      "category": "History",
+      "question": "The Silk Road was an ancient network of trade routes connecting China to the Mediterranean world. What goods primarily moved westward along it, and what moved east?",
+      "options": [
+        "Gold and silver moved west; spices and cotton moved east",
+        "Silk, spices, porcelain, and gunpowder moved west; glass, gold, wool, and silver moved east",
+        "Oil and grain moved west; silk and porcelain moved east",
+        "Weapons and horses moved west; silk and rice moved east"
+      ],
+      "answer": "Silk, spices, porcelain, and gunpowder moved west; glass, gold, wool, and silver moved east",
+      "explanation": "The Silk Road (active from ~200 BCE to 1450 CE) was a network of trade routes, not a single road, stretching ~6,400 km. China exported silk (the Roman Empire was obsessed with it), porcelain, paper, gunpowder, and spices. Europe and the Middle East sent glass, gold, silver, horses, and wine eastward. Crucially, the Silk Road also transmitted ideas, religions (Buddhism, Islam, Christianity spread via these routes), and disease (the Black Death followed trade routes from Central Asia).",
+      "memory_hook": "The Silk Road carried goods both directions but also transmitted religions, ideas, and disease — including the Black Death, which followed trade routes from Central Asia to Europe. It was history's first globalization network."
+    },
+    {
+      "category": "History",
+      "question": "The Abolitionist Movement in Britain successfully pushed for the Slave Trade Act of 1807 and complete abolition in 1833. Which politician and activist is most associated with leading the parliamentary campaign?",
+      "options": [
+        "John Wesley",
+        "Thomas Clarkson",
+        "William Wilberforce",
+        "Frederick Douglass"
+      ],
+      "answer": "William Wilberforce",
+      "explanation": "William Wilberforce, an MP and evangelical Christian, led the parliamentary campaign for abolition for over 20 years, introducing abolition bills repeatedly. The Slave Trade Act (1807) abolished the slave trade in the British Empire; the Slavery Abolition Act (1833) freed enslaved people in most British territories (Wilberforce died three days after hearing the bill would pass). Thomas Clarkson provided crucial evidence of slave ship conditions. Haiti's revolution (1804) had already demonstrated that slavery could be overthrown.",
+      "memory_hook": "Wilberforce spent 20+ years losing parliamentary votes on abolition before finally winning. He died three days after learning the Slavery Abolition Act would pass — arguably the greatest case of a single person's parliamentary persistence changing history."
+    },
+    {
+      "category": "Sports",
+      "question": "The Tour de France is cycling's most prestigious race. Over how many days does it typically take place, and approximately how many kilometers does it cover?",
+      "options": [
+        "10 days, 1,500 km",
+        "21 days, 3,300-3,500 km",
+        "30 days, 5,000 km",
+        "14 days, 2,000 km"
+      ],
+      "answer": "21 days, 3,300-3,500 km",
+      "explanation": "The Tour de France typically spans 23 days (21 stages plus 2 rest days) in July, covering approximately 3,300-3,500 km across France and sometimes neighboring countries. The race includes flat sprinting stages, mountain stages through the Alps and Pyrenees, and individual time trials. The yellow jersey (maillot jaune) goes to the overall time leader. Lance Armstrong's 7 titles (1999-2005) were all stripped for doping. Tadej Pogačar and Jonas Vingegaard have dominated the modern era.",
+      "memory_hook": "The Tour de France is 3,300+ km in 23 days, including alpine mountain stages that can take 5+ hours. Armstrong won it 7 times — then had all his titles stripped. The race continues to be plagued by doping controversies."
+    },
+    {
+      "category": "Sports",
+      "question": "Cricket's ultimate team competition is the ICC Cricket World Cup. Which country has won the most Cricket World Cups?",
+      "options": [
+        "England",
+        "India",
+        "West Indies",
+        "Australia"
+      ],
+      "answer": "Australia",
+      "explanation": "Australia has won 6 Cricket World Cups: 1987, 1999, 2003, 2007, 2015, and 2023. The West Indies won the first two (1975, 1979). India won in 1983 and 2011. England won their first in 2019 in a dramatic final decided by boundary count after a Super Over tie. Australia's dominance in the 50-over format, particularly the Steve Waugh and Ricky Ponting eras, makes them cricket's most successful World Cup nation.",
+      "memory_hook": "Australia has won 6 of the 13 Cricket World Cups held through 2023 — nearly half. Their 1999-2007 run of three consecutive titles is cricket's equivalent of a dynasty."
+    },
+    {
+      "category": "Pop Culture",
+      "question": "The animated television series 'The Simpsons' began in 1989. What makes it the longest-running American primetime animated and scripted TV series?",
+      "options": [
+        "It has aired 500+ episodes and has continued for 35+ seasons without cancellation",
+        "It was the first animated series to air in primetime since The Flintstones",
+        "It holds the record for most Emmy wins by an animated series",
+        "All of the above are true of The Simpsons"
+      ],
+      "answer": "It has aired 500+ episodes and has continued for 35+ seasons without cancellation",
+      "explanation": "The Simpsons premiered December 17, 1989 and has aired 35+ seasons and 700+ episodes through 2024 — the longest-running American primetime scripted TV series. Its first decade (seasons 1-10) is considered one of television's greatest creative runs. The show launched the careers of many comedy writers. It has been remarkably prescient — episodes predicted Donald Trump's presidency, FIFA corruption, 9/11 imagery, and many other events. Matt Groening created it for Fox.",
+      "memory_hook": "The Simpsons has aired 700+ episodes over 35+ years. Its first 10 seasons may be TV's greatest comedy run. The show has 'predicted' so many events — Trump presidency, FIFA corruption — that it seems impossible."
+    },
+    {
+      "category": "Pop Culture",
+      "question": "Pop artist Andy Warhol is famous for his works depicting consumer goods and celebrities. Which of his iconic works repeated silk-screened images of a famous actress?",
+      "options": [
+        "The Marilyn Diptych",
+        "Blue Nude III",
+        "Gold Marilyn Monroe",
+        "Flags and Numbers"
+      ],
+      "answer": "The Marilyn Diptych",
+      "explanation": "Andy Warhol created the Marilyn Diptych (1962) — 50 silk-screened images of Marilyn Monroe in two panels, created shortly after her death. Warhol used a publicity still from the film Niagara (1953). The work explores celebrity, mass reproduction, and mortality. Warhol's Factory studio in New York produced hundreds of similar celebrity works (Elvis, Mao, Jackie Kennedy) using silk-screen printing to deliberately blur the line between art and commercial reproduction. His soup cans and Brillo boxes questioned what constitutes 'art.'",
+      "memory_hook": "Warhol made 50 copies of Marilyn Monroe's face right after she died — questioning celebrity, mass reproduction, and death simultaneously. His genius was making you unsure whether he was glorifying or critiquing consumer culture."
+    },
+    {
+      "category": "Pop Culture",
+      "question": "'One Hundred Years of Solitude' (1967) by Gabriel García Márquez is considered the defining novel of magical realism. From which country was the author?",
+      "options": [
+        "Argentina",
+        "Peru",
+        "Mexico",
+        "Colombia"
+      ],
+      "answer": "Colombia",
+      "explanation": "Gabriel García Márquez was Colombian and set One Hundred Years of Solitude in the fictional town of Macondo, based on his birthplace Aracataca. The novel follows seven generations of the Buendía family, blending supernatural elements with historical events (including real Colombian history and the banana plantation era). García Márquez won the Nobel Prize in Literature in 1982. The novel sold over 50 million copies and has been translated into 46 languages.",
+      "memory_hook": "García Márquez's Macondo is fictional but based on his Colombian birthplace. He invented a way of writing where ghosts and flying carpets appear alongside real historical events, treating both as equally normal — magical realism at its purest."
+    },
+    {
+      "category": "Geography",
+      "question": "The Ganges River is sacred in Hinduism. Through which countries does it flow?",
+      "options": [
+        "India only",
+        "India and Nepal",
+        "India and Bangladesh",
+        "India, Bangladesh, and Myanmar"
+      ],
+      "answer": "India and Bangladesh",
+      "explanation": "The Ganges (Ganga) rises in the Gangotri glacier in the Himalayas (Uttarakhand, India), flows southeast through the Indo-Gangetic Plain past Varanasi, Allahabad, and Patna, then enters Bangladesh where it joins the Brahmaputra to form the Padma River, eventually draining into the Bay of Bengal. The Ganges-Brahmaputra delta is the world's largest river delta. The river is considered sacred in Hinduism — millions bathe in it and cremated ashes are scattered in it — yet it's one of the world's most polluted rivers.",
+      "memory_hook": "The Ganges is simultaneously one of Hinduism's most sacred rivers and one of the world's most polluted. It flows through India and Bangladesh, forming the world's largest river delta where it meets the Brahmaputra."
+    },
+    {
+      "category": "Geography",
+      "question": "The Sahel is a climate zone in Africa. Where is it, and what ecological challenge defines it?",
+      "options": [
+        "The lush rainforest belt between the Sahara and Congo; it faces logging",
+        "The semi-arid transition zone between the Sahara Desert to the north and the savanna to the south; it faces desertification and drought",
+        "The coastal zone of West Africa; it faces sea-level rise",
+        "The high-altitude plateau of East Africa; it faces glacial retreat"
+      ],
+      "answer": "The semi-arid transition zone between the Sahara Desert to the north and the savanna to the south; it faces desertification and drought",
+      "explanation": "The Sahel ('shore' in Arabic — the edge of the Sahara) stretches 5,400 km from Senegal to Sudan across Mali, Burkina Faso, Niger, Chad, and Sudan. It receives 200-600mm of rain annually but is highly variable. Desertification — the Sahara advancing southward — threatens agriculture and causes food insecurity. The Great Green Wall initiative aims to plant an 8,000-km belt of trees across the Sahel to halt desert advance. Climate change is intensifying droughts and conflict in the region.",
+      "memory_hook": "The Sahel is Africa's front line of desertification — the Sahara advancing south at 48 km per year. The Great Green Wall project plans to plant trees across 8,000 km of the Sahel to hold back the desert."
+    },
+    {
+      "category": "Science & Nature",
+      "question": "What causes the aurora borealis (northern lights), and why do they appear in specific locations?",
+      "options": [
+        "Sunlight reflecting off polar ice creates colored light effects at extreme angles",
+        "Charged particles from the sun (solar wind) interact with Earth's magnetic field, funneling into polar regions where they collide with atmospheric gases and emit light",
+        "Volcanic gases at high altitude react with UV radiation to produce colored light",
+        "Lightning discharges at high altitude create ionized air that glows near the poles"
+      ],
+      "answer": "Charged particles from the sun (solar wind) interact with Earth's magnetic field, funneling into polar regions where they collide with atmospheric gases and emit light",
+      "explanation": "The Sun continuously emits charged particles (solar wind — mainly protons and electrons). Earth's magnetic field deflects most of them, but at the poles, field lines converge and funnel particles into the upper atmosphere (100-300 km altitude). These particles collide with oxygen and nitrogen atoms, exciting them to higher energy states; as they return to ground state, they emit light. Green aurora comes from oxygen at ~100 km; red from oxygen above 300 km; blue/purple from nitrogen. Solar storms intensify auroras.",
+      "memory_hook": "Auroras are where Earth's magnetic shield leaks — solar wind particles funnel into the poles and light up the sky like a neon sign. Green = oxygen at 100km altitude; red = oxygen above 300km; each color is a specific atom excited by solar particles."
+    },
+    {
+      "category": "Science & Nature",
+      "question": "What is the role of the endocrine system, and how do hormones work differently from the nervous system?",
+      "options": [
+        "The endocrine system controls reflexes through rapid nerve signals; hormones are only active during puberty",
+        "The endocrine system releases hormones (chemical messengers) into the bloodstream to regulate slow, sustained processes; unlike nerves (milliseconds), hormones act over minutes to hours and can affect distant organs",
+        "The endocrine system manages digestion and absorption of nutrients in the small intestine",
+        "The endocrine system only operates during stress via adrenaline production"
+      ],
+      "answer": "The endocrine system releases hormones (chemical messengers) into the bloodstream to regulate slow, sustained processes; unlike nerves (milliseconds), hormones act over minutes to hours and can affect distant organs",
+      "explanation": "The endocrine system (pituitary, thyroid, adrenals, pancreas, gonads, etc.) regulates growth, metabolism, reproduction, stress response, and fluid balance via hormones. Key examples: insulin (pancreas) regulates blood sugar; cortisol (adrenal) manages stress; estrogen/testosterone govern reproduction; thyroid hormones control metabolism. Nervous system signals travel in milliseconds; hormones travel through blood and take minutes to hours. Many bodily functions require both systems working together.",
+      "memory_hook": "The nervous system is text message speed — milliseconds. The endocrine system is postal mail — minutes to hours but affecting the whole body. Insulin (blood sugar), cortisol (stress), thyroid (metabolism) — hormones govern your body's long-term settings."
+    }
+  ]
+}

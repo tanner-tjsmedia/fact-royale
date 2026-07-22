@@ -1,0 +1,161 @@
+{
+  "date": "2026-11-01",
+  "questions": [
+    {
+      "category": "History",
+      "question": "The Magna Carta (1215) limited the power of the English king. Which king was forced to sign it, and what key principle did it establish?",
+      "options": [
+        "King Henry II; the right to trial by jury",
+        "King John; the principle that even the king is subject to the law, establishing habeas corpus and due process",
+        "King Edward I; the right of Parliament to approve taxation",
+        "King Richard I; freedom of religion"
+      ],
+      "answer": "King John; the principle that even the king is subject to the law, establishing habeas corpus and due process",
+      "explanation": "King John (1199-1216) was forced by rebellious barons to sign Magna Carta ('Great Charter') at Runnymede on June 15, 1215. Key provisions: no free man could be imprisoned without lawful judgment (habeas corpus); the king couldn't levy taxes without baronial consent; merchants could trade freely. Pope Innocent III immediately annulled it, but it was reissued multiple times after John's death and became foundational to English and later American constitutional law. Most of the original 63 clauses have been repealed; 3 remain in force.",
+      "memory_hook": "Magna Carta established that nobody — not even the king — is above the law. King John agreed to it under duress, immediately asked the Pope to annul it, and died the following year. The document was more powerful after his death than during his life."
+    },
+    {
+      "category": "History",
+      "question": "The Crusades (1095-1291) were Christian military campaigns to capture the Holy Land. What was the long-term impact on Muslim-Christian and European-Middle Eastern relations?",
+      "options": [
+        "The Crusades created permanent peace between Christians and Muslims through eventual cultural exchange",
+        "The Crusades left deep mutual distrust; Christian military campaigns in Muslim territory contributed to Islamist memory of Western aggression that is still cited today; they also brought Greek texts back to Europe via the Islamic world, fueling the Renaissance",
+        "The Crusades successfully created permanent Christian kingdoms in the Holy Land that persist today",
+        "The Crusades had no lasting political impact beyond the period"
+      ],
+      "answer": "The Crusades left deep mutual distrust; Christian military campaigns in Muslim territory contributed to Islamist memory of Western aggression that is still cited today; they also brought Greek texts back to Europe via the Islamic world, fueling the Renaissance",
+      "explanation": "The Crusades (primarily 8 major campaigns, 1095-1291) temporarily established Christian states in the Holy Land but failed to hold them long-term. The sack of Constantinople by the Fourth Crusade (1204) — by Christian Crusaders against a Christian city — fatally damaged the Eastern Church's relationship with the Western Church. Osama bin Laden explicitly used Crusade rhetoric. However, the Crusades brought Aristotle, algebra, optics, and other Greek/Islamic knowledge to Europe, contributing to the Renaissance.",
+      "memory_hook": "Bin Laden used 'Crusaders' as a contemporary insult — because the Crusades are not ancient history in the Islamic world's memory. They also ended up transferring Greek philosophy and Islamic science to Europe, accidentally triggering the Renaissance."
+    },
+    {
+      "category": "History",
+      "question": "The Korean War (1950-1953) is sometimes called 'the forgotten war.' How did it end, and what is the current status of the Korean Peninsula?",
+      "options": [
+        "North Korea defeated South Korea; the peninsula was unified under Kim Il-sung",
+        "An armistice (not a peace treaty) ended the fighting in 1953 at roughly the same border where the war started (38th parallel); technically the Korean War has never formally ended — North and South Korea remain in a state of war",
+        "A peace treaty in 1953 created a permanent border and normalized relations between the two Koreas",
+        "The US and China brokered a treaty that reunified Korea as a neutral nation"
+      ],
+      "answer": "An armistice (not a peace treaty) ended the fighting in 1953 at roughly the same border where the war started (38th parallel); technically the Korean War has never formally ended — North and South Korea remain in a state of war",
+      "explanation": "The Korean War began when North Korea (backed by USSR/China) invaded South Korea (backed by UN/US) on June 25, 1950. After 3 years of fighting across the peninsula, an armistice was signed July 27, 1953, creating the Demilitarized Zone (DMZ) near the 38th parallel — almost exactly where the war started. 36,500 Americans, approximately 900,000 Chinese, 300,000 North Koreans, and 140,000 South Koreans died. No peace treaty was ever signed; technically the war continues.",
+      "memory_hook": "The Korean War killed ~1.5 million people and ended where it started — the same 38th parallel border. Then a ceasefire was signed, never a peace treaty. The 'Hermit Kingdom' of North Korea and one of the world's most prosperous democracies exist 4 km apart, separated by the world's most heavily mined border."
+    },
+    {
+      "category": "Sports",
+      "question": "Which swimmer holds the world record in the 100m backstroke, and what is remarkable about the speed of elite backstroke swimmers?",
+      "options": [
+        "The backstroke world record is significantly slower than freestyle because swimmers face upward",
+        "Thomas Ceccon (Italy) set the 100m backstroke world record at 51.60 seconds in 2022 — elite backstroke swimmers are only slightly slower than freestyle despite the less efficient body position",
+        "Michael Phelps set the backstroke record and it has stood since 2008",
+        "Backstroke is the fastest Olympic stroke, faster than freestyle"
+      ],
+      "answer": "Thomas Ceccon (Italy) set the 100m backstroke world record at 51.60 seconds in 2022 — elite backstroke swimmers are only slightly slower than freestyle despite the less efficient body position",
+      "explanation": "The 100m backstroke world record is ~51-52 seconds — compared to ~46-47 seconds for freestyle. Despite the body position (face-up, less hydrodynamic than freestyle's face-down position), elite backstroke swimmers remain impressively fast. The stroke uses the same arm rotation as freestyle but inverted, and the underwater dolphin kick at the start is crucial. At the 2022 World Championships, Thomas Ceccon of Italy set the world record at 51.60 seconds.",
+      "memory_hook": "Backstroke is only 4-5 seconds slower than freestyle over 100m despite swimming face-up — a less aerodynamic position. The similarity in speed shows how important the underwater dolphin kick phase is, which is the same in both strokes."
+    },
+    {
+      "category": "Sports",
+      "question": "The New York Yankees have the most World Series titles in MLB history. How many have they won?",
+      "options": [
+        "18",
+        "27",
+        "33",
+        "40"
+      ],
+      "answer": "27",
+      "explanation": "The New York Yankees have won 27 World Series championships (1923-2009). Their most dominant dynasties: 1927-28 (Babe Ruth era), 1936-39 (Joe DiMaggio era), 1949-53 and 1955-58 (multiple), 1961-62, and 1996-2000 (Derek Jeter era, winning 4 of 5). The next most successful franchises are the St. Louis Cardinals (11) and Oakland A's (9). The Yankees' dominance reflects their large-market revenue advantage, which allows signing of high-salary players.",
+      "memory_hook": "The Yankees' 27 titles are more than double the second-place Cardinals' 11 — a reflection of New York market revenue advantages and strategic management. Their dynasty periods perfectly map to baseball's greatest players: Ruth, DiMaggio, Mantle, Jeter."
+    },
+    {
+      "category": "Pop Culture",
+      "question": "Which Russian author wrote 'War and Peace' (1869), often cited as the greatest novel ever written?",
+      "options": [
+        "Fyodor Dostoevsky",
+        "Anton Chekhov",
+        "Ivan Turgenev",
+        "Leo Tolstoy"
+      ],
+      "answer": "Leo Tolstoy",
+      "explanation": "Leo Tolstoy's War and Peace (published in full 1869) follows five aristocratic families during Napoleon's 1812 invasion of Russia. It contains approximately 580 named characters and ~1,200 pages. Tolstoy (1828-1910) also wrote Anna Karenina (1877) and countless shorter works. He later developed a philosophy of Christian anarchism, rejected his own literary work, and lived the last decades of his life as a peasant farmer — scandalizing Russian aristocratic society. War and Peace and Anna Karenina are regularly cited as the two greatest novels ever written.",
+      "memory_hook": "Tolstoy wrote two of the three novels most commonly cited as the greatest ever written (War and Peace and Anna Karenina), then spent the rest of his life denouncing literature as frivolous and giving away his possessions to live as a peasant. His wife fought to keep the copyrights."
+    },
+    {
+      "category": "Pop Culture",
+      "question": "'Midnight in Paris' (2011), directed by Woody Allen, is set in which city, and who does the protagonist encounter in his magical midnight walks?",
+      "options": [
+        "London; characters from Victorian England",
+        "Rome; Renaissance painters and sculptors",
+        "Paris; literary and artistic figures of the 1920s — Hemingway, Fitzgerald, Picasso, Gertrude Stein",
+        "New York; characters from the Jazz Age of the 1930s"
+      ],
+      "answer": "Paris; literary and artistic figures of the 1920s — Hemingway, Fitzgerald, Picasso, Gertrude Stein",
+      "explanation": "In Midnight in Paris, American screenwriter Gil (Owen Wilson) is on vacation in Paris with his fiancée. At midnight, he is transported back to 1920s Paris, where he meets F. Scott Fitzgerald, Ernest Hemingway, Gertrude Stein, Picasso, Salvador Dalí, Luis Buñuel, and other luminaries of the 'Lost Generation.' The film explores nostalgia and the romanticization of the past ('golden age thinking'). It won the Academy Award for Best Original Screenplay and is Allen's highest-grossing film.",
+      "memory_hook": "Midnight in Paris is about golden age thinking — the belief that some other era was better than now. Gil discovers that the 1920s bohemians romanticized the Belle Époque, and the Belle Époque people idolized the Renaissance. Every generation thinks the past was better."
+    },
+    {
+      "category": "Pop Culture",
+      "question": "Which American novel, published in 1952, features the protagonist Holden Caulfield after he is expelled from school and wanders New York City?",
+      "options": [
+        "The Catcher in the Rye by J.D. Salinger",
+        "On the Road by Jack Kerouac",
+        "Invisible Man by Ralph Ellison",
+        "The Bell Jar by Sylvia Plath"
+      ],
+      "answer": "The Catcher in the Rye by J.D. Salinger",
+      "explanation": "The Catcher in the Rye (1951, often listed as 1952 in some editions) follows 16-year-old Holden Caulfield after his expulsion from Pencey Prep. Holden wanders New York for a weekend, alienated from what he sees as the 'phoniness' of adult society. Salinger received enormous attention after publication and became reclusive, eventually buying land in New Hampshire where he lived until his death in 2010. The novel has been challenged and banned more than almost any other book, partly for its language and partly for depicting adolescent rebellion sympathetically.",
+      "memory_hook": "Holden Caulfield became the voice of teenage alienation for a generation — his contempt for 'phonies' resonated exactly because adults tried to ban the book. Salinger responded to the book's fame by disappearing into rural New Hampshire and never publishing again."
+    },
+    {
+      "category": "Geography",
+      "question": "Lake Baikal in Siberia, Russia is the world's deepest lake. What percentage of the world's unfrozen fresh surface water does it contain?",
+      "options": [
+        "About 5%",
+        "About 10%",
+        "About 20%",
+        "About 35%"
+      ],
+      "answer": "About 20%",
+      "explanation": "Lake Baikal contains approximately 23,615 km³ of water — about 20% of the world's unfrozen fresh surface water. It is the world's deepest lake at 1,642 meters (deeper than the Grand Canyon is wide) and the world's largest freshwater lake by volume. It is also the world's oldest lake (~25-30 million years old). Baikal is home to over 3,500 species found nowhere else, including the Baikal seal (the world's only freshwater seal). It is a UNESCO World Heritage Site.",
+      "memory_hook": "Lake Baikal holds 20% of Earth's unfrozen freshwater in a single lake — a reserve so large that if all other freshwater sources disappeared, Baikal alone could supply the world for years. The Baikal seal lives only there, having evolved in freshwater isolation."
+    },
+    {
+      "category": "Geography",
+      "question": "The Andes Mountains run along the western coast of South America. What is the highest peak, and through which countries do the Andes run?",
+      "options": [
+        "Mount Chimborazo in Ecuador; the Andes run through 5 countries",
+        "Aconcagua in Argentina at 6,961m; the Andes run through Venezuela, Colombia, Ecuador, Peru, Bolivia, Chile, and Argentina",
+        "Mount Huascarán in Peru; the Andes run through 4 countries",
+        "Ojos del Salado on the Chile-Argentina border; the Andes run through 9 countries"
+      ],
+      "answer": "Aconcagua in Argentina at 6,961m; the Andes run through Venezuela, Colombia, Ecuador, Peru, Bolivia, Chile, and Argentina",
+      "explanation": "Aconcagua (6,961m) on the Argentina-Chile border is the highest peak in the Western Hemisphere and outside of Asia. The Andes stretch approximately 7,000 km along South America's western coast through 7 countries (Venezuela, Colombia, Ecuador, Peru, Bolivia, Chile, Argentina). They are the world's longest continental mountain range. The Andes created the climate contrast between South America's Pacific coast (Atacama Desert — world's driest) and Amazon basin (world's largest rainforest) — both caused by the mountains blocking moisture.",
+      "memory_hook": "The Andes create South America's climate extremes: the Atacama Desert on one side (world's driest) and the Amazon rainforest on the other — both caused by the same mountains blocking moisture. Aconcagua is the tallest peak in the entire Western Hemisphere."
+    },
+    {
+      "category": "Science & Nature",
+      "question": "What is the Doppler effect, and how is it applied in medicine, astronomy, and everyday technology?",
+      "options": [
+        "The Doppler effect describes how waves appear to change frequency when the source or observer is moving. In medicine: ultrasound measures blood flow; in astronomy: redshift reveals galaxies moving away; in everyday life: speed guns measure vehicle speed",
+        "The Doppler effect describes how light bends around massive objects in space",
+        "The Doppler effect explains why sound is louder in enclosed spaces",
+        "The Doppler effect describes the echo pattern of sound reflecting off surfaces"
+      ],
+      "answer": "The Doppler effect describes how waves appear to change frequency when the source or observer is moving. In medicine: ultrasound measures blood flow; in astronomy: redshift reveals galaxies moving away; in everyday life: speed guns measure vehicle speed",
+      "explanation": "The Doppler effect: when a source of waves moves toward you, waves compress (higher frequency/pitch); moving away, waves stretch (lower frequency/pitch) — hence an ambulance siren changing pitch as it passes. Applications: Doppler radar (weather, speed detection — police speed guns); Doppler ultrasound (measures blood flow velocity by detecting frequency shifts of reflected ultrasound); astronomy (redshift — light from galaxies moving away is stretched to longer/redder wavelengths, revealing the universe's expansion). Hubble's 1929 discovery used redshift to prove the universe is expanding.",
+      "memory_hook": "The Doppler effect explains why a passing ambulance changes pitch — and also proves the universe is expanding. Hubble used the redshift of distant galaxies to discover they're all moving away from us. Speed cameras, weather radar, and cardiac ultrasounds all use the same principle."
+    },
+    {
+      "category": "Science & Nature",
+      "question": "What is the difference between a comet, asteroid, and meteorite, and where do they originate?",
+      "options": [
+        "Comets and asteroids are the same; meteorites are comets that have burned up entirely in the atmosphere",
+        "Comets are icy bodies from the outer solar system that develop tails when near the Sun; asteroids are rocky/metallic bodies mainly in the asteroid belt between Mars and Jupiter; a meteoroid that enters Earth's atmosphere is a meteor (shooting star); if it survives to land, it's a meteorite",
+        "Comets come from inside the asteroid belt; asteroids come from beyond Neptune",
+        "All three are different names for the same objects based on their size"
+      ],
+      "answer": "Comets are icy bodies from the outer solar system that develop tails when near the Sun; asteroids are rocky/metallic bodies mainly in the asteroid belt between Mars and Jupiter; a meteoroid that enters Earth's atmosphere is a meteor (shooting star); if it survives to land, it's a meteorite",
+      "explanation": "Comets: icy bodies from the Kuiper Belt or Oort Cloud; when near the Sun, ice vaporizes creating tails (always pointing away from the Sun). Famous: Halley's Comet (every ~75 years; last seen 1986, returns 2061). Asteroids: rocky/metallic bodies, mostly between Mars and Jupiter; some cross Earth's orbit. Meteoroid: small space rock. Meteor: a meteoroid entering Earth's atmosphere (visible as a 'shooting star'). Meteorite: survives to Earth's surface. Chicxulub impactor (~10 km asteroid) caused the Cretaceous extinction 66 million years ago.",
+      "memory_hook": "Comet → shooting star terminology: comets are icy and make tails; meteors are 'shooting stars' burning up; meteorites are the ones that land. The Chicxulub asteroid that killed the dinosaurs was ~10 km wide. Halley's Comet returns in 2061 — some people reading this will see it."
+    }
+  ]
+}

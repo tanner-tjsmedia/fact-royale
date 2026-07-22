@@ -54,16 +54,16 @@
     },
     {
       "category": "Pop Culture",
-      "question": "Who played the lead role in 'The Revenant' (2015)?",
+      "question": "Edvard Munch's 'The Scream' (1893) is one of the most replicated images in art history. What experience inspired it, and what does the agonized figure represent?",
       "options": [
-        "Tom Hardy",
-        "Michael Fassbender",
-        "Christian Bale",
-        "Leonardo DiCaprio"
+        "Munch witnessed a violent confrontation in Oslo and captured the moment of collective human dread, making it a political commentary on urban violence",
+        "Munch described walking at sunset when the sky turned blood-red and he felt an 'infinite scream passing through nature' — the figure conveys his response to existential dread at the modern world",
+        "Munch painted it during a manic episode, and the work is largely a clinical document of anxiety disorder rather than an intentional artistic statement",
+        "The scream refers to a literal shout Munch heard from a nearby mental asylum — a sound so disturbing it haunted him for years"
       ],
-      "answer": "Leonardo DiCaprio",
-      "explanation": "Leonardo DiCaprio played Hugh Glass in The Revenant (2015), a fur trapper seeking revenge after being left for dead. The role won DiCaprio his first Academy Award for Best Actor after five previous nominations. The film was directed by Alejandro González Iñárritu and shot entirely with natural light.",
-      "memory_hook": "DiCaprio finally won the Oscar for The Revenant — after five nominations and years of memes."
+      "answer": "Munch described walking at sunset when the sky turned blood-red and he felt an 'infinite scream passing through nature' — the figure conveys his response to existential dread at the modern world",
+      "explanation": "Munch recorded in his diary a walk across a fjord in Oslo: 'I sensed an infinite scream passing through nature.' The blood-red sky may have been caused by the 1883 eruption of Krakatoa, which caused spectacular atmospheric effects in northern Europe for years. Munch created four versions — one was stolen from the National Museum in 2004 and recovered; a pastel version sold at Sotheby's in 2012 for $119.9 million, then a record. The Scream became the defining image of modern anxiety.",
+      "memory_hook": "Munch wrote about sensing 'an infinite scream passing through nature' at sunset — the blood-red sky may have been Krakatoa's volcanic ash. The 2012 auction for a pastel version set a then-world record at nearly $120 million."
     },
     {
       "category": "Pop Culture",
@@ -119,16 +119,16 @@
     },
     {
       "category": "Science & Nature",
-      "question": "How many chromosomes are in a typical human cell?",
+      "question": "Jupiter's Great Red Spot is a storm larger than Earth that has been observed continuously since at least 1831 — and possibly since the 1600s. What is happening to it?",
       "options": [
-        "23",
-        "44",
-        "46",
-        "48"
+        "The Great Red Spot has remained exactly the same size for 400 years — Jupiter's powerful magnetic field preserves it as a permanent feature of the planet's surface",
+        "The Great Red Spot is shrinking — it was once three times Earth's diameter but is now barely larger than Earth, and some models predict it could disappear within decades",
+        "The Great Red Spot has been growing steadily — astronomers predict it will expand to engulf Jupiter's northern hemisphere within 500 years",
+        "The Great Red Spot changes color from red to white every 11 years in synchrony with the solar cycle, and 'red spot' only accurately describes it during solar maxima"
       ],
-      "answer": "46",
-      "explanation": "Most human cells contain 46 chromosomes, arranged in 23 pairs. One chromosome from each pair comes from each parent. The 23rd pair determines biological sex — XX for female, XY for male. Sperm and egg cells (gametes) contain only 23 chromosomes each; they combine at fertilization to restore the full 46.",
-      "memory_hook": "46 chromosomes in every cell. 23 pairs, one from each parent. The sperm has 23, the egg has 23, they meet and make 46. Half your DNA from mom, half from dad."
+      "answer": "The Great Red Spot is shrinking — it was once three times Earth's diameter but is now barely larger than Earth, and some models predict it could disappear within decades",
+      "explanation": "When first measured in detail in the 19th century, the Great Red Spot was approximately 40,000 km across (more than three times Earth's diameter). By 2023 it measured about 16,000 km — still larger than Earth, but only barely. It's losing about 1,000 km per year. Nobody is certain why it's shrinking — some models suggest it could become a 'red oval' and eventually dissipate; others suggest Jupiter still has smaller storms that could feed it. The red color is thought to come from organic molecules or red phosphorus compounds churned up from deep in the atmosphere.",
+      "memory_hook": "Jupiter's Great Red Spot was once three times Earth's diameter; it's now barely bigger than Earth and shrinking by 1,000 km per year. Astronomers debate whether it will disappear within decades — a storm that may have raged for 400 years, ending in our lifetimes."
     },
     {
       "category": "Geography",

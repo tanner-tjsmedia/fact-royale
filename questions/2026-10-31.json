@@ -1,0 +1,161 @@
+{
+  "date": "2026-10-31",
+  "questions": [
+    {
+      "category": "History",
+      "question": "Halloween has ancient roots. What Celtic festival, celebrated on October 31-November 1, is considered its precursor?",
+      "options": [
+        "Beltane",
+        "Imbolc",
+        "Samhain",
+        "Lughnasadh"
+      ],
+      "answer": "Samhain",
+      "explanation": "Samhain (pronounced 'SAH-win') was the Celtic festival marking the end of harvest season and the beginning of winter — the Celtic new year. It was believed that on Samhain, the boundary between the living and dead dissolved, allowing spirits to wander the earth. The Romans combined it with their own festivals (Feralia, Pomona). In the 9th century, Pope Gregory IV moved All Saints' Day to November 1 — 'All Hallows' — making October 31 'All Hallows' Eve' (Halloween). Irish and Scottish immigrants brought Halloween traditions to the Americas.",
+      "memory_hook": "Halloween descended from the Celtic festival Samhain, when the living and dead could cross over. Christianity moved All Saints' Day to November 1 to absorb the pagan holiday. Irish immigrants brought it to America in the 1840s during the famine migration."
+    },
+    {
+      "category": "History",
+      "question": "The 1979 Three Mile Island accident in Pennsylvania was the US's worst nuclear power accident. What was its impact on US nuclear energy policy?",
+      "options": [
+        "It led to immediate expansion of nuclear power with improved safety standards",
+        "It effectively halted new nuclear plant construction in the US for decades — no new plant was ordered between 1979 and the 2000s",
+        "It caused a complete shutdown of all US nuclear plants for 10 years",
+        "Three Mile Island had no significant impact on US nuclear policy"
+      ],
+      "answer": "It effectively halted new nuclear plant construction in the US for decades — no new plant was ordered between 1979 and the 2000s",
+      "explanation": "Three Mile Island's partial core meltdown (March 1979) released radioactive gas and caused mass evacuation fears. Though the accident caused no immediate deaths and health effects remain disputed, it profoundly shifted public opinion against nuclear power. No new nuclear power plants were ordered in the US between 1979 and the 2000s. The Chernobyl disaster (1986) reinforced nuclear fears globally. The combination delayed nuclear power's expansion for a generation — with significant consequences for both energy policy and CO₂ emissions.",
+      "memory_hook": "Three Mile Island and Chernobyl (1979 and 1986) effectively killed nuclear expansion in the West for 40 years. The irony: nuclear's safety record (deaths per TWh of electricity produced) is better than coal, oil, and gas. Fear shaped policy more than statistics."
+    },
+    {
+      "category": "History",
+      "question": "Ancient Rome had several forms of government. For how long was Rome a Republic before becoming an Empire, and what triggered the transition?",
+      "options": [
+        "50 years; Julius Caesar's assassination",
+        "300 years; Caesar's crossing of the Rubicon and the resulting civil wars led to the Empire under Augustus",
+        "500 years; the Roman Republic became an Empire gradually without a clear break",
+        "200 years; the Republic ended when Pompey became Dictator"
+      ],
+      "answer": "300 years; Caesar's crossing of the Rubicon and the resulting civil wars led to the Empire under Augustus",
+      "explanation": "The Roman Republic lasted approximately 480 years (509-27 BCE). Julius Caesar crossed the Rubicon (49 BCE) — a declaration of war against the Senate. After Caesar's assassination (44 BCE), civil wars followed until Octavian (Augustus) defeated Mark Antony and Cleopatra (31 BCE) and became the first Roman Emperor in 27 BCE. Augustus preserved Republican institutions as a facade while holding actual power — the 'Principate.' Rome's transition from Republic to Empire is a studied example of democratic backsliding.",
+      "memory_hook": "Rome's republic lasted ~480 years before Caesar's ambition and assassination sparked the civil wars that ended it. Augustus technically preserved all Republican offices while holding all real power — an early model of authoritarian populism maintaining the forms of democracy."
+    },
+    {
+      "category": "Sports",
+      "question": "The modern marathon distance of 26.2 miles (42.195 km) is oddly specific. What is the true origin of that exact distance, and what is the myth about it?",
+      "options": [
+        "The marathon distance comes from the 1908 London Olympics, where the course was adjusted so the finish line would be in front of the royal box — the queen requested the finish be visible from her seat, adding 385 yards to the standard 25-mile distance",
+        "The marathon derives from Pheidippides running from Marathon to Athens (about 26 miles) to announce the Greek victory over Persia in 490 BC — the modern distance was standardized to honor this exact historical route",
+        "The marathon distance was set at 26.2 miles to match the circumference of the ancient Olympic stadium in Athens at the 1896 Games — architects measured the track and determined this created the most grueling but survivable distance",
+        "The marathon distance was set arbitrarily by the first Boston Marathon organizers (1897) who wanted a race slightly longer than 25 miles — the Olympic committee later adopted it because Boston had the most complete course data"
+      ],
+      "answer": "The marathon distance comes from the 1908 London Olympics, where the course was adjusted so the finish line would be in front of the royal box — the queen requested the finish be visible from her seat, adding 385 yards to the standard 25-mile distance",
+      "explanation": "The Pheidippides legend (running from Marathon to Athens to announce victory, then dying) is almost certainly mythologized — ancient sources don't agree and the story appears first in Plutarch, written 500+ years later. Early Olympic marathons varied in distance: Athens 1896 was about 40km, Paris 1900 was 40.26km. The 1908 London Olympics fixed the Windsor Castle start so the royal family could watch, then adjusted the White City Stadium finish to be in front of the royal box — producing exactly 26 miles 385 yards (42.195km). The IAAF standardized this in 1921. The Pheidippides story is taught as the origin, but the actual distance comes from British royal box placement.",
+      "memory_hook": "The marathon's odd 26.2 miles comes from the 1908 London Olympics — the start was placed at Windsor Castle (for royal viewing), then the finish line moved to be directly in front of the royal box, producing 26 miles and 385 yards. The Pheidippides story is legend written 500 years after the fact. The exact distance we run today was set by a seating arrangement."
+    },
+    {
+      "category": "Sports",
+      "question": "The modern pentathlon — an Olympic event since 1912 — combines which five sports?",
+      "options": [
+        "Swimming, running, shooting, cycling, and rowing",
+        "Fencing, swimming, equestrian show jumping, laser pistol shooting, and cross-country running",
+        "Boxing, wrestling, javelin, discus, and long jump",
+        "Archery, shooting, gymnastics, fencing, and swimming"
+      ],
+      "answer": "Fencing, swimming, equestrian show jumping, laser pistol shooting, and cross-country running",
+      "explanation": "The modern pentathlon was designed by Pierre de Coubertin (Olympics founder) to represent the ideal 19th-century soldier's skills. Events: fencing (épée), 200m freestyle swimming, equestrian show jumping (on an unfamiliar horse drawn by lot), laser pistol shooting, and 3,200m cross-country running. In recent Olympics, shooting and running are combined in a 'laser run' format. The horse being drawn by lot the same day is its most distinctive (and controversial) feature — equalizing riding ability with luck.",
+      "memory_hook": "The modern pentathlon's defining rule: competitors are assigned a random horse they've never ridden, just hours before the equestrian event. The sport's founder wanted to replicate a cavalry messenger who might need to fence, swim, ride an unknown horse, shoot, and run to deliver orders."
+    },
+    {
+      "category": "Pop Culture",
+      "question": "'The Old Man and the Sea' (1952) by Ernest Hemingway is the story of an aging Cuban fisherman's struggle with a giant marlin. What literary prize did it win?",
+      "options": [
+        "The Booker Prize",
+        "The Nobel Prize in Literature (cited specifically by the Nobel committee)",
+        "The Pulitzer Prize and was cited in the Nobel Prize award to Hemingway",
+        "The National Book Award"
+      ],
+      "answer": "The Pulitzer Prize and was cited in the Nobel Prize award to Hemingway",
+      "explanation": "The Old Man and the Sea won the Pulitzer Prize for Fiction in 1953. The following year (1954), Hemingway won the Nobel Prize in Literature — the Nobel Committee specifically cited The Old Man and the Sea. The novel, about Santiago's three-day battle with a massive marlin and his ultimate loss of the fish to sharks, is considered Hemingway's final major work. It was his first book in 10 years. Themes of endurance, defeat, and dignity ('A man can be destroyed but not defeated') define Hemingway's style.",
+      "memory_hook": "Hemingway wrote his greatest work at 52 after a decade of silence — then won the Pulitzer and Nobel back to back. The Old Man's 'a man can be destroyed but not defeated' became Hemingway's philosophical epitaph. He died by suicide 9 years later."
+    },
+    {
+      "category": "Pop Culture",
+      "question": "Which author wrote 'Brave New World' (1932), depicting a dystopian society controlled through pleasure and conditioning rather than pain and fear?",
+      "options": [
+        "Aldous Huxley",
+        "George Orwell",
+        "Ray Bradbury",
+        "Philip K. Dick"
+      ],
+      "answer": "Aldous Huxley",
+      "explanation": "Aldous Huxley's Brave New World is often paired with Orwell's 1984 as the two great dystopian novels. Where 1984 depicts control through fear, surveillance, and pain, Brave New World depicts control through pleasure — soma (a happiness drug), promiscuous sex, endless entertainment, and pre-birth conditioning. Huxley wrote it as a parody of utopian thinking. Media theorist Neil Postman argued Huxley's vision was more accurate than Orwell's: 'Orwell feared those who would ban books. Huxley feared there would be no reason to ban a book, for there would be no one who wanted to read one.'",
+      "memory_hook": "1984 and Brave New World are the two dystopian visions: Orwell's control through fear vs. Huxley's control through pleasure. Postman argued Huxley was more right — distraction and entertainment are more powerful control mechanisms than surveillance and pain. Both authors were describing 20th-century trends they saw emerging."
+    },
+    {
+      "category": "Pop Culture",
+      "question": "The animated film 'WALL-E' (2008) by Pixar depicts Earth abandoned due to excess consumption and waste. Which studio produced it?",
+      "options": [
+        "DreamWorks",
+        "Sony Pictures Animation",
+        "Walt Disney Animation",
+        "Pixar Animation Studios"
+      ],
+      "answer": "Pixar Animation Studios",
+      "explanation": "WALL-E was produced by Pixar and directed by Andrew Stanton. The film's first act — featuring nearly no dialogue — tells the story of a waste-collecting robot (Waste Allocation Load Lifter Earth-class) alone on an abandoned Earth 700 years in the future. It won the Academy Award for Best Animated Feature and was praised for its environmental message and visual storytelling. The film's target of consumerism and ecological neglect was unusually political for a children's film.",
+      "memory_hook": "WALL-E's first 40 minutes have almost no dialogue — pure visual storytelling about a robot alone on an abandoned Earth. It's simultaneously Pixar's most ambitious film and one of cinema's most effective environmental arguments, packaged as a children's movie."
+    },
+    {
+      "category": "Geography",
+      "question": "The Arctic and Antarctic are both polar regions, but they differ fundamentally in geography. What is the key difference?",
+      "options": [
+        "The Arctic is colder than Antarctic; both are covered by continental ice sheets",
+        "The Arctic is an ocean covered by sea ice (with no underlying continent); Antarctica is a continent covered by a massive ice sheet 2,000m thick on average",
+        "Both are ocean regions; the difference is the Arctic has permanent ice year-round while Antarctic ice melts in summer",
+        "Antarctica is in the North Pole and the Arctic is in the South Pole"
+      ],
+      "answer": "The Arctic is an ocean covered by sea ice (with no underlying continent); Antarctica is a continent covered by a massive ice sheet 2,000m thick on average",
+      "explanation": "The Arctic is the Arctic Ocean — sea ice floating on water, with no land beneath most of it. In summer, much of the Arctic sea ice melts. Antarctica is a continent (14 million km²) buried under ice averaging 2,000m thick, containing 70% of Earth's fresh water. Antarctica is colder than the Arctic (Antarctic average -30°C vs Arctic -15°C) because it's a landmass at elevation. Antarctic ice melting (from climate change) raises sea levels; Arctic sea ice melting does not (like ice cubes in a glass).",
+      "memory_hook": "Arctic ice melting doesn't raise sea levels (it's already floating). Antarctic ice melting raises sea levels because it's land ice — like ice cubes on a table melting into a bowl. If all Antarctic ice melted, sea levels would rise ~60 meters, drowning most coastal cities."
+    },
+    {
+      "category": "Geography",
+      "question": "The Amazon Basin's size means it has extraordinary effects on weather patterns. What is the 'flying rivers' phenomenon?",
+      "options": [
+        "Underground rivers in the Amazon transport water from the Andes to the Atlantic faster than the surface river",
+        "Water vapor transpired by Amazon trees is so massive that it creates aerial moisture flows carrying more water than the Amazon River itself, watering regions thousands of kilometers away",
+        "The Amazon's flooding season creates rivers that temporarily flow through the air in flooded tree canopies",
+        "Atmospheric rivers from the Amazon carry pollen to other continents, spreading Amazon plant species globally"
+      ],
+      "answer": "Water vapor transpired by Amazon trees is so massive that it creates aerial moisture flows carrying more water than the Amazon River itself, watering regions thousands of kilometers away",
+      "explanation": "Amazon trees collectively transpire an estimated 20 billion tonnes of water per day into the atmosphere — creating what scientists call 'flying rivers.' These aerial moisture streams are transported by winds southward and westward, delivering rainfall to southeastern Brazil, Paraguay, Bolivia, and Argentina. Without the Amazon's trees, these regions would be far drier. Deforestation in the Amazon doesn't just destroy local ecosystems — it dries out agriculture thousands of kilometers away. Brazil's São Paulo water crisis (2015) was partially attributed to Amazon deforestation.",
+      "memory_hook": "Amazon trees sweat 20 billion tonnes of water per day into the air — creating 'flying rivers' that irrigate southeastern Brazil. Amazon deforestation dries out São Paulo's water supply. The rainforest isn't just a biodiversity issue; it's a water supply issue for half of South America."
+    },
+    {
+      "category": "Science & Nature",
+      "question": "What is 'spaghettification,' and what does it reveal about the physics near black holes?",
+      "options": [
+        "Spaghettification is a theoretical process where black holes emit particle jets that stretch surrounding gas into pasta-like filaments — named because the filaments resemble spaghetti in telescope images",
+        "Spaghettification is what happens to any object falling toward a black hole — the tidal difference between gravitational pull on the near side vs. far side stretches the object into a long thin strand while compressing it laterally",
+        "Spaghettification is the process by which black holes consume entire galaxies — stretching the galaxy's spiral arms into straight lines before pulling the stars one by one across the event horizon",
+        "Spaghettification is the popular name for gravitational lensing near black holes — light is stretched into curved arcs around the event horizon, resembling elongated pasta shapes in long-exposure telescope images"
+      ],
+      "answer": "Spaghettification is what happens to any object falling toward a black hole — the tidal difference between gravitational pull on the near side vs. far side stretches the object into a long thin strand while compressing it laterally",
+      "explanation": "Tidal forces arise when gravity varies significantly across an object's size. The side of your body closer to the black hole is pulled much more strongly than the far side — this differential pull stretches you vertically while tidal compression squeezes you horizontally, creating a thin strand. For stellar-mass black holes, this happens outside the event horizon (you'd be spaghettified before crossing it). For supermassive black holes, tidal forces at the event horizon are gentler — you'd cross the horizon intact before being destroyed deeper inside. Astronomers have observed real stellar tidal disruption events (TDEs) where stars are spaghettified by supermassive black holes.",
+      "memory_hook": "Spaghettification is literal — the tidal difference between your head and feet near a black hole stretches you like taffy while gravity crushes you sideways. For stellar-mass black holes, this happens before you cross the event horizon; for supermassive ones, you'd cross intact first. Astronomers have watched real stars get spaghettified."
+    },
+    {
+      "category": "Science & Nature",
+      "question": "What is a pandemic, how does it differ from an epidemic, and what made COVID-19 so challenging to control?",
+      "options": [
+        "A pandemic is any disease outbreak; an epidemic requires 1,000+ deaths. COVID was challenging because it was 100% fatal",
+        "A pandemic is a disease outbreak occurring globally across multiple countries and continents; an epidemic is more locally contained. COVID-19 was challenging because it spread through asymptomatic carriers, could be transmitted before symptoms appeared, had a long incubation period, and had no initial treatments or vaccines",
+        "A pandemic is always caused by viruses; an epidemic can be caused by bacteria. COVID was challenging because it only affected elderly people with no immunity",
+        "A pandemic requires millions of deaths; COVID-19 was technically an epidemic because deaths were concentrated in specific countries"
+      ],
+      "answer": "A pandemic is a disease outbreak occurring globally across multiple countries and continents; an epidemic is more locally contained. COVID-19 was challenging because it spread through asymptomatic carriers, could be transmitted before symptoms appeared, had a long incubation period, and had no initial treatments or vaccines",
+      "explanation": "COVID-19 (caused by SARS-CoV-2) became a pandemic when it spread globally in early 2020. Key epidemiological challenges: 1) Spread by asymptomatic people (carriers with no symptoms could unknowingly infect others); 2) Incubation period of 2-14 days — infected people spread it before knowing they were sick; 3) Wide range of severity (from asymptomatic to fatal) complicating risk communication. mRNA vaccines (Pfizer/BioNTech, Moderna) were developed and authorized within a year — the fastest vaccine development in history.",
+      "memory_hook": "COVID's defining challenge was asymptomatic spread — people unknowingly infected others before feeling sick. Unlike diseases where illness appears quickly, COVID's silent spreaders made containment nearly impossible. mRNA vaccines went from concept to authorized shots in under a year — 10x faster than any previous vaccine."
+    }
+  ]
+}

@@ -28,16 +28,16 @@
     },
     {
       "category": "Sports",
-      "question": "What is the maximum number of clubs a golfer can carry in their bag?",
+      "question": "At the 1976 Montreal Olympics, 14-year-old Nadia Comaneci became the first gymnast in Olympic history to receive a perfect score. What made the moment historically awkward?",
       "options": [
-        "12",
-        "14",
-        "16",
-        "18"
+        "The judges gave her a 10.0, but the scoreboard could only display three digits and showed '1.00' — the technology literally couldn't represent perfection",
+        "The judges initially refused to award her a 10.0 and required a vote, delaying the official score for nearly 20 minutes while Comaneci waited on the mat",
+        "The crowd booed because Romanian gymnasts were expected to score lower under a new scoring system introduced that year, making a 10.0 mathematically impossible",
+        "Comaneci's coach threatened to withdraw the entire Romanian team unless the judges upgraded her score from 9.95 to 10.0, triggering an international diplomatic dispute"
       ],
-      "answer": "14",
-      "explanation": "A golfer may carry a maximum of 14 clubs in their bag during a round, as per the Rules of Golf established by the USGA and R&A. Most professionals carry: driver, 3-wood, 5-wood, 4-iron through pitching wedge, sand wedge, lob wedge, and putter — typically 14.",
-      "memory_hook": "14 clubs maximum — one for each type of shot, roughly."
+      "answer": "The judges gave her a 10.0, but the scoreboard could only display three digits and showed '1.00' — the technology literally couldn't represent perfection",
+      "explanation": "The Montreal scoreboard was designed to show scores up to 9.99 — nobody had ever anticipated a perfect 10. When Comaneci earned it on the uneven bars, the scoreboard displayed '1.00.' The announcer had to clarify to a confused audience. Comaneci went on to earn seven perfect 10s at those Games, winning three gold medals. She was coached by Béla Károlyi, who later coached the US Olympic gymnastics team. Her performance transformed gymnastics into a widely watched sport and made Romania internationally famous.",
+      "memory_hook": "The 1976 scoreboard showed '1.00' when Comaneci earned the first perfect 10 — it was designed before anyone expected perfection. She scored seven 10s at those Games, winning three golds at 14."
     },
     {
       "category": "Sports",
@@ -80,16 +80,16 @@
     },
     {
       "category": "Pop Culture",
-      "question": "What was the name of Whitney Houston's character in 'The Bodyguard'?",
+      "question": "David Bowie created the alter ego 'Ziggy Stardust' in 1972 — a bisexual alien rock star — then famously 'killed' the character on stage in 1973. Why is this moment significant in rock history?",
       "options": [
-        "Rachel Marron",
-        "Diana Jordan",
-        "Whitney King",
-        "Samantha Wells"
+        "Bowie used Ziggy Stardust to smuggle coded anti-apartheid messages into his music during a 1972 South African tour, and 'killing' the character allowed him to speak more openly about political activism",
+        "It was one of rock's first deliberate examples of performance art as celebrity persona — Bowie created, performed, and then consciously destroyed a character, treating pop music as theater and blurring the line between artist and identity",
+        "Ziggy Stardust was originally conceived as a film character, and 'killing' him on stage in 1973 was a contractual requirement before the movie adaptation could proceed",
+        "Bowie retired Ziggy after learning that fans in several countries had begun religious cults around the character, believing Ziggy was a real alien messenger"
       ],
-      "answer": "Rachel Marron",
-      "explanation": "Whitney Houston played Rachel Marron, a pop star under threat from a stalker, in The Bodyguard (1992). Kevin Costner played her bodyguard Frank Farmer. The film's soundtrack became one of the best-selling soundtracks of all time, largely on the strength of Houston's 'I Will Always Love You.'",
-      "memory_hook": "Rachel Marron was Whitney's character — a pop star who needed protecting, like Whitney herself."
+      "answer": "It was one of rock's first deliberate examples of performance art as celebrity persona — Bowie created, performed, and then consciously destroyed a character, treating pop music as theater and blurring the line between artist and identity",
+      "explanation": "At the Hammersmith Odeon on July 3, 1973, Bowie told the audience 'not only is it the last show of the tour, but it's the last show we'll ever do' — shocking the Spiders from Mars band members who had no warning. The announcement ended Ziggy and the Spiders simultaneously. Bowie's use of constructed personas (Thin White Duke, Aladdin Sane, Major Tom) throughout his career influenced everyone from Lady Gaga to Kanye West. The 1972 Ziggy Stardust album combined glam rock, androgyny, and science fiction mythology in a way that permanently altered rock's relationship to theatricality.",
+      "memory_hook": "Bowie killed Ziggy Stardust on stage July 3, 1973 without telling his band — they learned their employment was over in the same moment as the audience. The deliberate creation and destruction of a persona treated pop music as theater; it's still rock's most influential act of performance art."
     },
     {
       "category": "History",
@@ -119,16 +119,16 @@
     },
     {
       "category": "Science & Nature",
-      "question": "What is the name of the layer of rock that makes up Earth's outer surface?",
+      "question": "Karl Jansky's accidental discovery in 1932 gave birth to an entirely new branch of astronomy. What did he find, and what has radio astronomy revealed that optical telescopes cannot?",
       "options": [
-        "Mantle",
-        "Core",
-        "Crust",
-        "Lithosphere"
+        "Jansky discovered that stars emit radio waves in addition to light, proving that visible light represents only a tiny fraction of the electromagnetic spectrum that stars produce",
+        "Jansky discovered that radio interference in telephone circuits was coming from the center of the Milky Way — founding radio astronomy and enabling discoveries including pulsars, quasars, the CMB, and the first images of black holes",
+        "Jansky discovered that the universe is transparent to radio waves — that they can travel through dense gas clouds that block visible light — immediately revealing the galactic center that optical astronomers had never seen",
+        "Jansky discovered artificial radio signals from the direction of Andromeda galaxy in 1932, which turned out to be the first evidence of the galactic hiss that was later renamed the Cosmic Microwave Background"
       ],
-      "answer": "Crust",
-      "explanation": "Earth's crust is the thin, solid outer shell of the planet. Continental crust is about 35-70 km thick; oceanic crust is only about 5-10 km thick. Below the crust is the mantle, a thick layer of semi-solid rock. At the center is the core, divided into a liquid outer core and solid inner core.",
-      "memory_hook": "Earth's layers: crust, mantle, outer core, inner core. The crust is like the skin of an apple — relatively thin compared to the whole. You live on the thinnest possible layer above an ocean of hot rock."
+      "answer": "Jansky discovered that radio interference in telephone circuits was coming from the center of the Milky Way — founding radio astronomy and enabling discoveries including pulsars, quasars, the CMB, and the first images of black holes",
+      "explanation": "Jansky was a Bell Labs engineer trying to identify sources of telephone static. He identified three sources: nearby thunderstorms, distant thunderstorms, and a mystery hiss that moved across the sky on a 23.9-hour cycle — Earth's rotation relative to the stars. He correctly identified it as radio emission from the Milky Way's center. Radio astronomy subsequently revealed: the cosmic microwave background (accidental discovery, 1965), pulsars (1967), quasars, the structure of the Milky Way (impossible optically due to dust), and produced the Event Horizon Telescope's black hole images. Most of modern cosmology depends on radio observations.",
+      "memory_hook": "Jansky was trying to fix telephone interference in 1932 and traced a mystery hiss to the Milky Way's center. Radio astronomy now does what optical telescopes cannot — see through dust clouds, map our galaxy's spiral arms, image black holes, and detect the Big Bang's afterglow. Most of modern cosmology is radio astronomy."
     },
     {
       "category": "Geography",

@@ -146,16 +146,16 @@
     },
     {
       "category": "Sports",
-      "question": "In cricket, what term is used when a batsman is dismissed for zero runs?",
+      "question": "Jim Thorpe won gold medals in the pentathlon and decathlon at the 1912 Stockholm Olympics, was called 'the world's greatest athlete' by King Gustav V — then had his medals stripped. What happened, and what eventually happened to them?",
       "options": [
-        "Duck",
-        "Maiden",
-        "Dot ball",
-        "Golden egg"
+        "Thorpe's medals were stripped after it was revealed he had taken performance-enhancing substances — specifically cocaine, which was legal but banned under newly introduced IOC doping rules — and they were permanently revoked",
+        "Thorpe was stripped of his medals because he had earned money playing semi-pro baseball before the Olympics, violating amateur rules — despite the minor nature of the violation, the IOC didn't restore the medals until 1983, 30 years after his death",
+        "Thorpe's medals were stripped when the US Olympic Committee discovered he had competed under a false name, having been disqualified from a previous amateur athletic event — the IOC permanently banned him from future competition",
+        "Thorpe voluntarily returned his medals after learning a Native American runner he had beaten had died in poverty — he said the medals 'meant more to someone who needed them' and petitioned the IOC to award them to the runner's family"
       ],
-      "answer": "Duck",
-      "explanation": "A duck (zero runs) in cricket is said to originate from the duck's egg shape resembling a zero. A 'golden duck' means dismissed on the first ball faced. A 'diamond duck' means dismissed without facing a ball (run out from a non-striker's end). England's Brian Lara scored 400 not out in Tests — the opposite extreme.",
-      "memory_hook": "Duck = 0 in cricket. Golden duck = out first ball. Brian Lara scored 400 (opposite extreme)."
+      "answer": "Thorpe was stripped of his medals because he had earned money playing semi-pro baseball before the Olympics, violating amateur rules — despite the minor nature of the violation, the IOC didn't restore the medals until 1983, 30 years after his death",
+      "explanation": "Thorpe had played minor-league baseball for $2/game during summers in 1909-1910 to help support himself — common for poor athletes of the era, but technically a violation of Olympic amateurism rules. A newspaper exposed this in 1913; the IOC demanded the medals back. Thorpe complied. He went on to professional football and baseball careers. He died in poverty in 1953. In 1982, the IOC reversed the decision, citing the 1912 protest deadline (which had been missed) and recognizing the injustice. Replica medals were presented to his family in 1983. His original medals had been distributed to the runners-up — the Swedish copies given to his family are replicas.",
+      "memory_hook": "Thorpe earned $2/game playing semi-pro baseball to survive — and lost his Olympic medals for it. He died in poverty in 1953. The IOC reversed the decision in 1982, 30 years later, partly because the original protest was filed after the deadline. His family received replicas; the originals had already been given to runners-up. King Gustav V had called him 'the greatest athlete in the world.'"
     }
   ]
 }

@@ -28,16 +28,16 @@
     },
     {
       "category": "Sports",
-      "question": "Which country invented the sport of rugby?",
+      "question": "The 1930 FIFA World Cup was the first ever held. Which country won, and why was the tournament historically unique?",
       "options": [
-        "Scotland",
-        "Ireland",
-        "Australia",
-        "England"
+        "Brazil won; it was the only World Cup played without European nations due to WWII tensions",
+        "Uruguay won on home soil; European nations had to travel by ship, and many refused — making it the only World Cup with significant no-shows from major footballing nations",
+        "Argentina won; the final was replayed after a disputed refereeing decision",
+        "Italy won; the tournament was held across three continents simultaneously for the first time"
       ],
-      "answer": "England",
-      "explanation": "Rugby originated at Rugby School in Warwickshire, England, in the early 19th century. According to legend, student William Webb Ellis picked up the ball and ran with it during a football game in 1823, though historians debate this origin story.",
-      "memory_hook": "Rugby School = rugby. The school named the sport."
+      "answer": "Uruguay won on home soil; European nations had to travel by ship, and many refused — making it the only World Cup with significant no-shows from major footballing nations",
+      "explanation": "Uruguay hosted and won the inaugural World Cup, beating Argentina 4-2 in the final in Montevideo. The two-week Atlantic crossing deterred most European teams — only France, Belgium, Romania, and Yugoslavia made the trip. The US reached the semi-finals. Uruguay also won the 1928 Olympics football tournament, making them the dominant footballing nation of the era.",
+      "memory_hook": "The 1930 World Cup was Uruguay's home show — most European nations skipped the two-week Atlantic crossing, so Uruguay beat Argentina 4-2 in the final to claim the first-ever world title."
     },
     {
       "category": "Sports",
@@ -145,16 +145,16 @@
     },
     {
       "category": "Science & Nature",
-      "question": "What is the scientific study of earthquakes called?",
+      "question": "In 2006, the International Astronomical Union voted to reclassify Pluto from a planet to a 'dwarf planet.' What three criteria must a body meet to be classified as a planet?",
       "options": [
-        "Geology",
-        "Seismology",
-        "Geophysics",
-        "Tectonology"
+        "A planet must orbit the Sun, be large enough that its gravity has made it spherical, and have cleared the neighborhood around its orbit of other debris — Pluto fails the third criterion",
+        "A planet must orbit the Sun, have a diameter greater than 2,000 km, and possess at least one natural moon — Pluto is slightly too small at 2,377 km",
+        "A planet must orbit the Sun, have a solid or gaseous surface, and exert gravitational influence on at least one other planetary body — Pluto technically qualifies by this definition",
+        "A planet must orbit the Sun, not be a moon of another body, and have an internal heat source — Pluto has no measurable internal heat after its core cooled"
       ],
-      "answer": "Seismology",
-      "explanation": "Seismology is the scientific study of earthquakes and the propagation of seismic waves through the Earth. Seismologists use seismographs to measure ground motion. The data provides insight not only about earthquakes but also about Earth's internal structure — the discovery that Earth has a liquid outer core came from studying how seismic waves (specifically S-waves, which cannot travel through liquid) were blocked.",
-      "memory_hook": "Seismology = study of earthquakes. Seismographs measure ground motion. S-waves can't travel through liquid — that's how scientists discovered Earth has a liquid outer core. Every earthquake tells us something about what's inside our planet."
+      "answer": "A planet must orbit the Sun, be large enough that its gravity has made it spherical, and have cleared the neighborhood around its orbit of other debris — Pluto fails the third criterion",
+      "explanation": "Pluto sits in the Kuiper Belt — a region of icy bodies beyond Neptune — and shares its orbital neighborhood with thousands of similar objects. It hasn't gravitationally dominated its zone, as Earth and Jupiter have. The 2006 vote was controversial and close (424 votes to 237) because many astronomers weren't present; Pluto's discoverer Clyde Tombaugh's ashes actually flew past Pluto on New Horizons in 2015. New Horizons revealed a heart-shaped nitrogen-ice plain (Tombaugh Regio) and mountains of water ice on Pluto's surface.",
+      "memory_hook": "Pluto was downgraded because it hasn't cleared its orbital neighborhood — it shares the Kuiper Belt with thousands of similar icy bodies. The controversial 2006 vote was 424-237; Clyde Tombaugh's ashes flew past Pluto on New Horizons in 2015."
     }
   ]
 }

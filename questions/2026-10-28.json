@@ -1,0 +1,161 @@
+{
+  "date": "2026-10-28",
+  "questions": [
+    {
+      "category": "History",
+      "question": "The Hundred Years' War between England and France (1337-1453) produced one of history's most unlikely military figures. Who was Joan of Arc?",
+      "options": [
+        "A French queen who personally led armies in battle",
+        "A teenage peasant girl who claimed divine visions told her to lead France against England; she was captured and burned at the stake as a heretic at 19",
+        "A female English spy who infiltrated the French court",
+        "A French noblewoman who negotiated the peace treaty ending the war"
+      ],
+      "answer": "A teenage peasant girl who claimed divine visions told her to lead France against England; she was captured and burned at the stake as a heretic at 19",
+      "explanation": "Joan of Arc (Jeanne d'Arc) was born a peasant in Domrémy (~1412). At 17 she convinced the Dauphin (future Charles VII) that visions from saints had sent her to lead France. She was given command and helped lift the siege of Orléans (1429), changing the war's momentum. She was captured by Burgundian allies, sold to the English, tried for heresy (largely for wearing male clothing and claiming direct divine authority), and burned at the stake in 1431 at age 19. She was canonized a Catholic saint in 1920.",
+      "memory_hook": "Joan of Arc was 17 when she convinced a king to give her an army, 19 when she was burned at the stake. She was convicted largely for wearing men's clothing and claiming to speak directly with God — bypassing Church authority. Canonized 489 years later."
+    },
+    {
+      "category": "History",
+      "question": "The Colonization of the Americas by European powers decimated indigenous populations. What was the primary killer?",
+      "options": [
+        "Military conquest by European weapons",
+        "Forced labor in mines and plantations",
+        "Disease — particularly smallpox, measles, and influenza — to which indigenous people had no immunity",
+        "Deliberate starvation policies"
+      ],
+      "answer": "Disease — particularly smallpox, measles, and influenza — to which indigenous people had no immunity",
+      "explanation": "Historians estimate that 50-90% of the indigenous American population died within a century of European contact — mostly from diseases like smallpox, measles, influenza, and typhus. Indigenous populations had been geographically isolated from Eurasian diseases and had no immune resistance. Smallpox often spread ahead of European explorers, killing populations before they even saw Europeans. The demographic collapse was the largest in human history proportionally. Military conquest and enslavement also killed millions but disease was the primary driver.",
+      "memory_hook": "European diseases killed 50-90% of indigenous Americans before most had ever seen a European — smallpox traveled faster than explorers. The demographic collapse was history's proportionally largest. Jared Diamond's 'Guns, Germs, and Steel' explores why disease flowed West to East, not East to West."
+    },
+    {
+      "category": "History",
+      "question": "Ancient Athens is credited with inventing democracy. How different was Athenian democracy from modern democracy?",
+      "options": [
+        "Athenian democracy was essentially identical to modern representative democracy",
+        "Athenian democracy was direct (citizens voted on everything personally) but excluded women, enslaved people (30-40% of the population), foreigners, and non-land-owning men — only about 10-20% of the total population could participate",
+        "Athens had universal suffrage; the difference was voting was done in person rather than by representative",
+        "All free residents of Athens regardless of gender could participate in the assembly"
+      ],
+      "answer": "Athenian democracy was direct (citizens voted on everything personally) but excluded women, enslaved people (30-40% of the population), foreigners, and non-land-owning men — only about 10-20% of the total population could participate",
+      "explanation": "Athenian democracy (established ~508 BCE by Cleisthenes) was direct — eligible citizens voted personally in the assembly (ekklesia) rather than through representatives. However, 'citizen' excluded women, enslaved people (who may have been 30-40% of Athens' population), metics (foreign residents), and landless men. Perhaps 30,000-40,000 of Athens' 250,000+ inhabitants were full citizens. Athenian democracy also sentenced Socrates to death for 'corrupting the youth' — showing the majority could vote to suppress dissent.",
+      "memory_hook": "Athens invented democracy but gave it to roughly 10-20% of its people — no women, no enslaved people, no foreigners. The same democracy that produced Plato and the Parthenon also voted to execute Socrates. Democracy has always contained the seeds of its own misuse."
+    },
+    {
+      "category": "Sports",
+      "question": "The Indianapolis 500 is one of motorsport's most iconic races. How long is the race, and approximately how fast do drivers complete it?",
+      "options": [
+        "100 miles; average speed around 150 mph",
+        "500 miles (200 laps of 2.5 miles); average speed 180-230+ mph",
+        "250 miles; average speed around 120 mph",
+        "500 miles; average speed around 90 mph"
+      ],
+      "answer": "500 miles (200 laps of 2.5 miles); average speed 180-230+ mph",
+      "explanation": "The Indianapolis 500 is run on the Indianapolis Motor Speedway's 2.5-mile oval — 200 laps for 500 miles total. Modern IndyCar drivers average 180-230+ mph; the track speed record is 237.5 mph (qualifying, 1996). The race has been run since 1911 (with breaks for WWI and WWII) and is part of motorsport's 'Triple Crown' with the Monaco Grand Prix and 24 Hours of Le Mans. Approximately 250,000-300,000 spectators attend, making it one of the largest single-day sporting events.",
+      "memory_hook": "The Indy 500 averages 180-230 mph for 500 miles — roughly 2.5-3 hours of sustained oval racing. 250,000+ fans attend, making it one of the largest single-day sporting events on Earth. Drivers endure G-forces similar to fighter jet pilots."
+    },
+    {
+      "category": "Sports",
+      "question": "Which country won the first FIFA World Cup in 1930?",
+      "options": [
+        "Brazil",
+        "Argentina",
+        "Uruguay",
+        "Italy"
+      ],
+      "answer": "Uruguay",
+      "explanation": "Uruguay hosted and won the inaugural FIFA World Cup on July 30, 1930, defeating Argentina 4-2 in the final in Montevideo. Uruguay, a small nation of 3 million, was the dominant football nation of the era, having won Olympic football gold in 1924 and 1928. The tournament had 13 participating nations. Several European nations refused to attend due to the cost and time of travel (two weeks by ship). Uruguay won the World Cup again in 1950, defeating Brazil in the final — the 'Maracanazo.'",
+      "memory_hook": "Uruguay — a country of 3 million people — won the first two FIFA World Cups (1930, 1950). Their 1950 win against Brazil in Rio, in front of 200,000 fans who expected a Brazil victory, is called the 'Maracanazo' — one of sports history's greatest upsets."
+    },
+    {
+      "category": "Pop Culture",
+      "question": "'Pride and Prejudice' (1813) by Jane Austen follows Elizabeth Bennet's relationship with Mr. Darcy. What is the famous opening line?",
+      "options": [
+        "'It is a truth universally acknowledged, that a single man in possession of a good fortune, must be in want of a wife.'",
+        "'Call me Ishmael.'",
+        "'It was a bright cold day in April, and the clocks were striking thirteen.'",
+        "'Happy families are all alike; every unhappy family is unhappy in its own way.'"
+      ],
+      "answer": "'It is a truth universally acknowledged, that a single man in possession of a good fortune, must be in want of a wife.'",
+      "explanation": "Jane Austen's ironic opening line establishes the novel's central concern — the social pressure on women to marry well in early 19th-century England — while immediately undercutting it with subtle irony ('universally acknowledged' is the joke: it's not true, but society behaves as if it is). Pride and Prejudice is the most beloved Austen novel and one of the best-selling novels of all time. Austen published it under the author credit 'A Lady' — women's names on novels were socially disadvantageous.",
+      "memory_hook": "Austen's opening is one literature's greatest ironic jokes — 'universally acknowledged' is the punchline before the novel even starts. She published anonymously as 'A Lady' because women's names reduced a novel's credibility. She satirized a society that kept her invisible."
+    },
+    {
+      "category": "Pop Culture",
+      "question": "Which British author created the detective Sherlock Holmes, and in what year did the first Holmes story appear?",
+      "options": [
+        "Wilkie Collins, 1860",
+        "Arthur Conan Doyle, 1887",
+        "G.K. Chesterton, 1910",
+        "Agatha Christie, 1920"
+      ],
+      "answer": "Arthur Conan Doyle, 1887",
+      "explanation": "Arthur Conan Doyle published A Study in Scarlet in 1887 — the first Sherlock Holmes story, introducing Holmes and Dr. Watson. Doyle based Holmes's deductive method partly on his medical professor Dr. Joseph Bell, who could diagnose patients' occupations from physical observation. Doyle eventually tired of Holmes and killed him off in 1893 ('The Final Problem'), but public outcry and financial pressure led him to resurrect Holmes in 1901. Holmes is the most adapted fictional character in history.",
+      "memory_hook": "Conan Doyle killed Sherlock Holmes at Reichenbach Falls in 1893 to escape the character — and had to bring him back 8 years later due to public pressure. Holmes is history's most adapted fictional character, proving you can't kill a good detective."
+    },
+    {
+      "category": "Pop Culture",
+      "question": "The 2000s TV drama 'The Sopranos' (HBO) is frequently listed alongside The Wire as one of the greatest television series ever. Who created it?",
+      "options": [
+        "David Chase",
+        "David Simon",
+        "Aaron Sorkin",
+        "Vince Gilligan"
+      ],
+      "answer": "David Chase",
+      "explanation": "David Chase created The Sopranos (1999-2007), which follows New Jersey mob boss Tony Soprano as he navigates organized crime and therapy with psychiatrist Dr. Melfi. The show pioneered the modern era of 'prestige television' — antihero-driven dramas on premium cable. James Gandolfini's portrayal of Tony Soprano won 3 Emmy Awards. The finale — 11 seconds of black screen after Tony looks up in a diner — became one of TV's most analyzed and debated endings. The Sopranos ran for 86 episodes across 6 seasons.",
+      "memory_hook": "The Sopranos invented the antihero era of television — Tony Soprano is a murderer you somehow root for. David Chase's finale cut to black mid-scene, infuriating audiences who debated for years whether Tony died. Chase has confirmed the ambiguity was intentional."
+    },
+    {
+      "category": "Geography",
+      "question": "Indonesia is the world's largest archipelago nation. Approximately how many islands does it have, and what is the world's most populous island?",
+      "options": [
+        "3,000 islands; Java",
+        "17,000+ islands; Java",
+        "7,000 islands; Sumatra",
+        "25,000 islands; Borneo"
+      ],
+      "answer": "17,000+ islands; Java",
+      "explanation": "Indonesia consists of over 17,000 islands (about 6,000 inhabited), stretching 5,150 km from east to west — wider than the continental United States. Java is the world's most populous island with approximately 150 million people (~57% of Indonesia's population) on an island smaller than California. Indonesia has the world's 4th largest population (~280 million), is the world's largest Muslim-majority nation, and has the 3rd most diverse linguistic population (700+ languages spoken). The capital moved from Jakarta to Nusantara (Borneo) in the 2020s.",
+      "memory_hook": "Java has 150 million people on an island smaller than California — the world's most densely populated large island. Indonesia's 700+ languages make it the world's 3rd most linguistically diverse nation. The government moved the capital from sinking, flood-prone Jakarta to Borneo."
+    },
+    {
+      "category": "Geography",
+      "question": "The Dead Sea, bordered by Israel, the West Bank, and Jordan, is famous for people floating on its surface. Why is this possible?",
+      "options": [
+        "The Dead Sea has special magnetic properties that repel human bodies from the bottom",
+        "The extremely high salt concentration (~34% vs ~3.5% normal ocean) makes the water so dense that humans float effortlessly",
+        "The Dead Sea's cold temperatures prevent the human body from sinking",
+        "Underwater thermal vents create upward currents that keep bathers afloat"
+      ],
+      "answer": "The extremely high salt concentration (~34% vs ~3.5% normal ocean) makes the water so dense that humans float effortlessly",
+      "explanation": "The Dead Sea's water is approximately 10 times saltier than normal ocean water — around 34% salinity. This extreme salinity is caused by having no outlet (water flows in from the Jordan River and evaporates, leaving salt behind). The high density makes the human body unable to sink — you float without swimming. The Dead Sea also sits at 430 meters below sea level — the lowest point on Earth's surface. Its saltiness makes it inhospitable to all fish and most life, hence 'Dead' Sea.",
+      "memory_hook": "The Dead Sea is 10x saltier than the ocean — the water is so dense you literally can't sink. At 430m below sea level, it's the lowest point on Earth's surface. It's shrinking at ~1 meter per year due to water diversion from the Jordan River."
+    },
+    {
+      "category": "Science & Nature",
+      "question": "What is the human nervous system's basic unit, and how does a nerve signal travel?",
+      "options": [
+        "The neuron; signals travel as chemical reactions that move through the neuron's cytoplasm at 1 mm per second",
+        "The neuron; electrical signals (action potentials) travel along the axon at 1-120 m/s, jumping node to node along the myelin sheath; at synapses, neurotransmitters carry signals between neurons",
+        "The synapse; electrical current flows between synapses and bypasses neurons entirely",
+        "The dendrite; signals flow from dendrite to cell body to axon in all neurons at the same speed"
+      ],
+      "answer": "The neuron; electrical signals (action potentials) travel along the axon at 1-120 m/s, jumping node to node along the myelin sheath; at synapses, neurotransmitters carry signals between neurons",
+      "explanation": "Neurons have dendrites (receive signals), cell body (processes signals), and axon (transmits signals). When a neuron fires (action potential), sodium ions rush in and potassium ions rush out — creating an electrical wave that travels along the axon. Myelin sheath (fatty insulation) makes signals jump from node to node (saltatory conduction) — speeding transmission to up to 120 m/s. At synapses (gaps between neurons), electrical signals cause release of neurotransmitters (dopamine, serotonin, acetylcholine) that cross to the next neuron. Multiple sclerosis damages the myelin sheath, slowing or blocking nerve signals.",
+      "memory_hook": "Nerve signals travel at up to 120 m/s — the myelin sheath allows the signal to jump rather than crawl. At the synaptic gap, electricity converts to chemistry (neurotransmitters) and back. Multiple sclerosis attacks the myelin sheath, like stripping insulation from electrical wires."
+    },
+    {
+      "category": "Science & Nature",
+      "question": "What is the electromagnetic spectrum, and which parts of it are visible to the human eye?",
+      "options": [
+        "The electromagnetic spectrum includes all types of waves; humans see all wavelengths except radio waves and microwaves",
+        "The electromagnetic spectrum ranges from long-wavelength radio waves through microwaves, infrared, visible light, ultraviolet, X-rays, to short-wavelength gamma rays. Humans see only visible light (380-700 nanometers), a tiny fraction of the total spectrum",
+        "The electromagnetic spectrum describes only light waves; other radiation types (radio, X-ray) are entirely different phenomena",
+        "Humans can see infrared and ultraviolet in addition to visible light; the spectrum ranges from radio to cosmic rays"
+      ],
+      "answer": "The electromagnetic spectrum ranges from long-wavelength radio waves through microwaves, infrared, visible light, ultraviolet, X-rays, to short-wavelength gamma rays. Humans see only visible light (380-700 nanometers), a tiny fraction of the total spectrum",
+      "explanation": "All electromagnetic radiation travels at the speed of light (299,792,458 m/s). The full spectrum from longest to shortest wavelength: radio waves → microwaves → infrared → visible light (red to violet, 380-700 nm) → ultraviolet → X-rays → gamma rays. Visible light represents an extremely narrow band. Many animals see outside human range: bees see UV (to find flowers), pit vipers see infrared (to detect prey). Radio telescopes, infrared telescopes, and X-ray telescopes let us 'see' the rest of the universe.",
+      "memory_hook": "Visible light is a tiny sliver of the full electromagnetic spectrum — we're essentially blind to most reality. Radio telescopes, X-ray satellites, and infrared cameras reveal the parts of the universe we can't see. Bees navigate by UV light we can't see; our entire floral color palette evolved to attract them."
+    }
+  ]
+}

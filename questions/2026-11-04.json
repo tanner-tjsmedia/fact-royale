@@ -1,0 +1,161 @@
+{
+  "date": "2026-11-04",
+  "questions": [
+    {
+      "category": "History",
+      "question": "The English Civil War (1642-1651) resulted in the execution of a king. Who was executed, and what form of government briefly replaced the monarchy?",
+      "options": [
+        "King Charles II was executed; a parliamentary republic called the Commonwealth was established under Oliver Cromwell",
+        "King Charles I was executed in 1649; a parliamentary republic called the Commonwealth was established under Oliver Cromwell as Lord Protector",
+        "King James II was executed; a constitutional monarchy under Parliament replaced him",
+        "King Henry VIII was overthrown; a brief republic under Thomas Cromwell replaced him"
+      ],
+      "answer": "King Charles I was executed in 1649; a parliamentary republic called the Commonwealth was established under Oliver Cromwell as Lord Protector",
+      "explanation": "King Charles I was executed on January 30, 1649 — one of history's most shocking events, a king tried and beheaded by his own Parliament. Oliver Cromwell led the Parliamentarian forces and became Lord Protector of the Commonwealth (a republic in practice). After Cromwell's death (1658), his son Richard briefly succeeded him but lacked authority. The monarchy was restored under Charles II in 1660. The English Civil War established that Parliament had supremacy over the Crown — a principle confirmed in the Glorious Revolution (1688).",
+      "memory_hook": "Executing a king was so shocking in 1649 that European monarchs refused to believe it had happened. Cromwell's republic lasted 11 years, then collapsed immediately after his death — proving the republic only worked because one man held it together. The monarchy returned by popular demand."
+    },
+    {
+      "category": "History",
+      "question": "The Glorious Revolution of 1688 established constitutional monarchy in England. What happened?",
+      "options": [
+        "A bloody revolution overthrew the Catholic King James II and installed a republic",
+        "The Dutch Prince William of Orange was invited by Parliament to invade England; Catholic King James II fled; Parliament passed the Bill of Rights (1689) limiting royal power — the bloodless coup that created constitutional monarchy",
+        "Oliver Cromwell led a second revolution reinstating the republic",
+        "The English Parliament declared independence from the Crown, creating a new constitution"
+      ],
+      "answer": "The Dutch Prince William of Orange was invited by Parliament to invade England; Catholic King James II fled; Parliament passed the Bill of Rights (1689) limiting royal power — the bloodless coup that created constitutional monarchy",
+      "explanation": "James II (Catholic) tried to rule without Parliament, alarming Protestant England. Leading nobles invited his Dutch Protestant son-in-law William of Orange to invade. William landed with an army; James fled to France. Parliament passed the Bill of Rights (1689): the Crown couldn't suspend laws, levy taxes, or maintain an army in peacetime without Parliament's consent. This Glorious Revolution established constitutional monarchy, influenced the American Declaration of Independence and Constitution, and has been replicated in various forms worldwide.",
+      "memory_hook": "The Glorious Revolution was a parliamentary coup with military backing — they invited a foreign prince to replace their own king. The Bill of Rights that followed is the direct ancestor of the US Bill of Rights. England's 1689 settlement shaped democracy more than most revolutions."
+    },
+    {
+      "category": "History",
+      "question": "Napoleon Bonaparte rose to power after the French Revolution. What was his final defeat and exile?",
+      "options": [
+        "He was defeated at Austerlitz in 1805 and exiled to Elba, where he died",
+        "He was defeated at Waterloo (1815) after escaping from his first exile on Elba; he was then exiled to Saint Helena in the remote South Atlantic, where he died in 1821",
+        "He was captured at Moscow in 1812 and exiled to Corsica, dying there in 1820",
+        "He voluntarily surrendered to the British after Leipzig and was exiled to the island of Capri"
+      ],
+      "answer": "He was defeated at Waterloo (1815) after escaping from his first exile on Elba; he was then exiled to Saint Helena in the remote South Atlantic, where he died in 1821",
+      "explanation": "Napoleon's timeline: Emperor 1804; defeated in Russia (1812) and Leipzig (1813); abdicated and exiled to Elba (1814); escaped, returned to Paris for the 'Hundred Days'; defeated at Waterloo (June 18, 1815) by Wellington and Blücher; exiled to Saint Helena (remote South Atlantic island, 2,000 km from Africa). He died there in 1821, age 51 — possibly from stomach cancer, though arsenic poisoning theories persist. Napoleon transformed European law (Code Napoléon), military strategy, and political organization.",
+      "memory_hook": "Napoleon escaped his first exile (Elba) and returned to rule France for 100 days before being defeated at Waterloo. His second exile was to Saint Helena — an island so remote that even today it takes a week to reach by ship. He died there, probably of stomach cancer, at 51."
+    },
+    {
+      "category": "Sports",
+      "question": "The 1973 'Battle of the Sexes' tennis match — Billie Jean King vs. Bobby Riggs — drew 90 million TV viewers worldwide. What is the historical reality behind the narrative that surrounded it?",
+      "options": [
+        "Riggs was a legitimate top-10 player when the match was played — not a retired champion — and his defeat by King was statistically predictable given the age difference, but the media framed it as a referendum on gender equality",
+        "Riggs deliberately lost the match — later confirmed when he admitted to owing gambling debts to the mob — making the 'Battle of the Sexes' actually a fixed exhibition with enormous cultural consequences it didn't deserve",
+        "Riggs had beaten Margaret Court (the world's top-ranked women's player) earlier that year, making his defeat by King genuinely surprising — and King later admitted she had considered throwing the match at one point due to anxiety",
+        "King was ranked 12th in the world when she played Riggs — not the top women's player — but agreed to the match after Court's loss embarrassed women's tennis and King believed the cultural stakes required someone to step up"
+      ],
+      "answer": "Riggs had beaten Margaret Court (the world's top-ranked women's player) earlier that year, making his defeat by King genuinely surprising — and King later admitted she had considered throwing the match at one point due to anxiety",
+      "explanation": "Bobby Riggs beat Margaret Court 6-2, 6-1 on Mother's Day 1973 in what became known as the 'Mother's Day Massacre.' Court was ranked #1 in the world. This made Riggs more credible as a challenger and raised the stakes for King enormously. King won 6-4, 6-3, 6-3 in straight sets at the Houston Astrodome before 30,492 fans (then the largest crowd for a tennis match) plus tens of millions on TV. King has said she understood the cultural weight — women's professional tennis was fighting for equal prize money, and Court's loss had set back that cause. Riggs was 55; King was 29.",
+      "memory_hook": "Before King, Riggs beat the world's #1 women's player — Margaret Court — 6-2, 6-1. So King wasn't just facing a 55-year-old hustler; she was facing someone who'd just demolished the best women's player alive. King won 6-4, 6-3, 6-3 before 30,000 at the Astrodome and 90 million on TV. Women's equal prize money was the direct stakes."
+    },
+    {
+      "category": "Sports",
+      "question": "In American football, the term 'perfect season' refers to going undefeated including the Super Bowl. Which team completed the only undefeated season in NFL history?",
+      "options": [
+        "The 1985 Chicago Bears (15-1)",
+        "The 1972 Miami Dolphins (17-0, including Super Bowl)",
+        "The 2007 New England Patriots (18-0, lost the Super Bowl)",
+        "The 1962 Green Bay Packers (14-1)"
+      ],
+      "answer": "The 1972 Miami Dolphins (17-0, including Super Bowl)",
+      "explanation": "The 1972 Miami Dolphins under coach Don Shula went 17-0, including a Super Bowl VII victory over the Washington Redskins (14-7). They remain the only team in NFL history to complete a perfect season. The 2007 New England Patriots came closest with an 18-0 regular season and playoffs record, but lost Super Bowl XLII to the New York Giants in one of the biggest upsets in Super Bowl history. Surviving members of the 1972 Dolphins reportedly celebrate every year when the last unbeaten team loses its first game.",
+      "memory_hook": "The 1972 Dolphins are the only perfect NFL team — 17-0. Surviving players reportedly toast each year when the last unbeaten team loses, celebrating that their record is safe for another year. The 2007 Patriots went 18-0 then lost the Super Bowl to the Giants in one of sports history's greatest upsets."
+    },
+    {
+      "category": "Pop Culture",
+      "question": "Which Nobel Prize-winning novelist wrote 'The Sound and the Fury' (1929) and 'As I Lay Dying' (1930), both set in the fictional Yoknapatawpha County?",
+      "options": [
+        "Ernest Hemingway",
+        "John Steinbeck",
+        "William Faulkner",
+        "F. Scott Fitzgerald"
+      ],
+      "answer": "William Faulkner",
+      "explanation": "William Faulkner (1897-1962) set most of his fiction in Yoknapatawpha County, Mississippi — a fictional stand-in for Lafayette County. The Sound and the Fury tells the same story from four perspectives, including an intellectually disabled character (Benjy) — a technically demanding narrative that confounded early readers. As I Lay Dying is narrated by 15 different characters. Faulkner won the Nobel Prize in 1949. His Nobel speech — delivered quietly because he was nearly inaudible — became one of literature's most celebrated on the endurance of the human spirit.",
+      "memory_hook": "Faulkner's Nobel speech (1949) was so quiet almost nobody in the audience could hear it — but the text became one of literature's most celebrated statements on humanity's endurance. He created an entire fictional county for his novels, making it as detailed and internally consistent as a real place."
+    },
+    {
+      "category": "Pop Culture",
+      "question": "The 'Band Aid' charity single 'Do They Know It's Christmas?' (1984) was recorded to raise money for famine relief in which country?",
+      "options": [
+        "Sudan",
+        "Somalia",
+        "Nigeria",
+        "Ethiopia"
+      ],
+      "answer": "Ethiopia",
+      "explanation": "Bob Geldof and Midge Ure organized Band Aid in response to the Ethiopian famine of 1983-85, which killed approximately 400,000-1 million people. The song featured dozens of British and Irish pop stars including Bono, George Michael, Boy George, and Sting. It became the UK's biggest-selling single at the time. Live Aid concerts followed in July 1985 (London and Philadelphia), raising over £150 million. The song has been re-recorded multiple times. Its lyrics ('there won't be snow in Africa this Christmas') were criticized for geographic oversimplification.",
+      "memory_hook": "Band Aid and Live Aid (1985) pioneered celebrity humanitarian fundraising at scale — concerts on two continents, 1.9 billion viewers, £150 million raised. The song's success inspired a model of celebrity activism that remains standard today, for better or worse."
+    },
+    {
+      "category": "Pop Culture",
+      "question": "Which author created the detective Hercule Poirot and Miss Marple, the 'Queen of Crime'?",
+      "options": [
+        "P.D. James",
+        "Dorothy L. Sayers",
+        "Ruth Rendell",
+        "Agatha Christie"
+      ],
+      "answer": "Agatha Christie",
+      "explanation": "Agatha Christie (1890-1976) created Belgian detective Hercule Poirot (appearing in 33 novels and 54 short stories) and village spinster Miss Jane Marple. Christie is the best-selling fiction writer of all time with approximately 2 billion books sold (after the Bible and Shakespeare). Her play The Mousetrap has been running in London's West End since 1952 — the world's longest-running theatrical production. She disappeared mysteriously for 11 days in 1926, inspiring decades of speculation.",
+      "memory_hook": "Agatha Christie is the best-selling fiction writer in history — 2 billion books, second only to the Bible. The Mousetrap has run continuously since 1952 in London — over 70 years without closing. And her real-life 11-day disappearance in 1926 has never been fully explained."
+    },
+    {
+      "category": "Geography",
+      "question": "The Suez Canal connects the Mediterranean Sea to the Red Sea. In which country is it located, and when was it completed?",
+      "options": [
+        "Jordan; completed in 1890",
+        "Egypt; completed in 1869",
+        "Israel; completed in 1948",
+        "Libya; completed in 1900"
+      ],
+      "answer": "Egypt; completed in 1869",
+      "explanation": "The Suez Canal was completed in November 1869 after 10 years of construction in Egypt. It is approximately 193 km long and allows ships to travel between the Mediterranean and Red Sea without circumnavigating Africa, cutting the journey from Europe to Asia by up to 7,000 km. France's Ferdinand de Lesseps led the construction using approximately 1.5 million Egyptian laborers (with high casualties). Egypt nationalized the canal in 1956 (triggering the Suez Crisis). The canal was widened to allow two-way traffic in 2015.",
+      "memory_hook": "The Suez Canal (1869) saved ships 7,000 km by not going around Africa. When Egypt nationalized it in 1956, Britain and France tried to take it back militarily — and the US forced them to stop. The canal generates ~$10 billion annually for Egypt."
+    },
+    {
+      "category": "Geography",
+      "question": "The Murray-Darling river system is the most significant river system in which country?",
+      "options": [
+        "New Zealand",
+        "South Africa",
+        "Australia",
+        "Argentina"
+      ],
+      "answer": "Australia",
+      "explanation": "The Murray-Darling Basin covers ~1 million km² of southeastern Australia (covering parts of Queensland, New South Wales, Victoria, and South Australia). The Murray River (2,508 km) and Darling River (1,472 km) together form Australia's most important river system for agriculture — producing ~40% of Australia's total agricultural output. The basin is under severe stress: overallocation of water rights, drought, and climate change have reduced river flows dramatically. The Murray's mouth frequently closes due to insufficient flow reaching the Southern Ocean.",
+      "memory_hook": "The Murray-Darling system produces 40% of Australia's food but is running dry — overallocated water rights mean the river sometimes can't reach the ocean. It's one of the world's most studied examples of competing water rights claims versus ecological needs."
+    },
+    {
+      "category": "Science & Nature",
+      "question": "What is the difference between aerobic and anaerobic exercise, and what causes the 'burn' felt during intense exercise?",
+      "options": [
+        "Aerobic exercise uses fat; anaerobic uses carbohydrates. The burn is from fat cells releasing energy too quickly",
+        "Aerobic exercise uses oxygen to produce ATP efficiently (low-moderate intensity, sustainable). Anaerobic exercise doesn't use oxygen, relying on glycolysis which produces lactic acid (now understood as lactate). The 'burn' during intense effort is partly from hydrogen ions (acidosis) and partially lactic acid — it's the body's emergency energy pathway",
+        "The burn during exercise is from micro-tears in muscle fibers occurring in real time",
+        "Anaerobic exercise is only possible for trained athletes; beginners can only do aerobic exercise"
+      ],
+      "answer": "Aerobic exercise uses oxygen to produce ATP efficiently (low-moderate intensity, sustainable). Anaerobic exercise doesn't use oxygen, relying on glycolysis which produces lactic acid (now understood as lactate). The 'burn' during intense effort is partly from hydrogen ions (acidosis) and partially lactic acid — it's the body's emergency energy pathway",
+      "explanation": "Aerobic ('with oxygen'): steady-state cardio uses oxygen to burn glucose and fat, producing 36-38 ATP per glucose. Sustainable for long periods. Anaerobic ('without oxygen'): during sprints or heavy lifting, oxygen can't be delivered fast enough. Glycolysis runs without oxygen, producing only 2 ATP per glucose but much faster. The byproduct (lactic acid/lactate) and hydrogen ions cause the burning sensation and fatigue. Recovery involves clearing these byproducts — hence heavy breathing after sprinting.",
+      "memory_hook": "The 'burn' during intense exercise is your body running its emergency energy system — producing ATP without oxygen because you're working too fast for delivery. Lactic acid (lactate) gets a bad rap; it's actually a fuel the heart and slow muscles can burn. The real culprit for the burn is hydrogen ion buildup."
+    },
+    {
+      "category": "Science & Nature",
+      "question": "What is the process of fossilization, and why is the fossil record incomplete?",
+      "options": [
+        "All dead organisms become fossils; the record is incomplete because fossils erode back to nothing over millions of years",
+        "Fossilization requires specific conditions: rapid burial in sediment, mineral replacement of organic material over millions of years. Most organisms decompose without fossilizing — soft-bodied organisms almost never fossilize, biasing the record toward organisms with hard shells or bones",
+        "Fossils form only underwater; land organisms cannot fossilize",
+        "Fossils are formed by organisms being frozen in ice, which is why most fossils are from cold climates"
+      ],
+      "answer": "Fossilization requires specific conditions: rapid burial in sediment, mineral replacement of organic material over millions of years. Most organisms decompose without fossilizing — soft-bodied organisms almost never fossilize, biasing the record toward organisms with hard shells or bones",
+      "explanation": "Fossilization process: an organism dies and is rapidly buried in sediment before decomposing. Water percolates through bone/shell, replacing organic material with minerals (permineralization). Over millions of years, the sediment compresses into rock. Erosion eventually exposes the fossil. Only a tiny fraction of organisms ever fossilize: soft-bodied creatures almost never do; marine organisms fossilize more often (marine sediment is better preserved); land environments preserve poorly. The Cambrian explosion appears sudden partly because soft-bodied pre-Cambrian life left few fossils.",
+      "memory_hook": "The fossil record is biased toward hard-shelled, marine organisms — everything without bones or shells is nearly invisible in deep time. We only know about soft-bodied Cambrian life because of extraordinary preservation sites like the Burgess Shale. The fossil record is a tiny, biased sample of all past life."
+    }
+  ]
+}

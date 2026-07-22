@@ -81,16 +81,16 @@
     },
     {
       "category": "Pop Culture",
-      "question": "Titanic (1997), directed by James Cameron, was the first film to gross over $1 billion worldwide. Who played Jack Dawson?",
+      "question": "Ansel Adams's black-and-white photographs of the American West — particularly Yosemite — are among the most recognized landscape images in history. What was his lasting contribution beyond aesthetics?",
       "options": [
-        "Brad Pitt",
-        "Tom Hanks",
-        "Matt Damon",
-        "Leonardo DiCaprio"
+        "Adams invented the Zone System — a technical framework for controlling exposure and development — that became the definitive standard for fine art black-and-white photography for decades",
+        "Adams pioneered the use of color in landscape photography, later abandoning it to work in black-and-white as a political statement against commercial photography's commercialization of nature",
+        "Adams was the first photographer to successfully sue for copyright protection of landscape photographs, establishing legal precedent that photography was a fine art equal to painting",
+        "Adams documented Native American displacement from Yosemite Valley, making his work both an aesthetic and political archive of 20th-century conservation battles"
       ],
-      "answer": "Leonardo DiCaprio",
-      "explanation": "Leonardo DiCaprio played Jack Dawson alongside Kate Winslet's Rose DeWitt Bukater in Titanic (1997). The film cost $200 million to make and grossed $2.2 billion worldwide, winning 11 Academy Awards including Best Picture and Best Director. It held the record as the highest-grossing film ever until Cameron's own Avatar surpassed it in 2010.",
-      "memory_hook": "DiCaprio = Jack in Titanic. 11 Oscars, $2.2 billion. Cameron bet everything on a movie about a ship that sank. It became the highest-grossing film in history at the time."
+      "answer": "Adams invented the Zone System — a technical framework for controlling exposure and development — that became the definitive standard for fine art black-and-white photography for decades",
+      "explanation": "Adams co-developed the Zone System with Fred Archer in 1940 — a method for precisely controlling the relationship between exposure, development, and the final print's tonal range, from Zone 0 (pure black) to Zone X (pure white). Beyond technique, Adams's images of Yosemite, the Sierra Nevada, and national parks played a direct role in the conservation movement — he was a passionate Sierra Club advocate. His Moonrise, Hernandez, New Mexico (1941) became one of the most reproduced fine-art photographs, with prints selling for over $600,000.",
+      "memory_hook": "Adams invented the Zone System — a precise framework for exposure and development — that photographers still use today. His Yosemite images also helped build political support for the conservation movement; he was a core Sierra Club activist."
     },
     {
       "category": "Pop Culture",
@@ -133,16 +133,16 @@
     },
     {
       "category": "Science & Nature",
-      "question": "What is the name of the force that slows objects down when they rub against a surface?",
+      "question": "The James Webb Space Telescope's 2022 image of the 'Pillars of Creation' revealed details invisible to Hubble. What are the Pillars of Creation, and what does the Webb image show?",
       "options": [
-        "Gravity",
-        "Momentum",
-        "Inertia",
-        "Friction"
+        "The Pillars are ancient stone formations on Mars photographed from orbit — Webb's infrared imaging revealed that they contain water ice in their interior, the first confirmed water deposits on Mars in 3 billion years",
+        "The Pillars are towering columns of interstellar gas and dust in the Eagle Nebula where new stars are actively forming — Webb's infrared penetrated the dust to reveal hundreds of newly forming protostars invisible in Hubble's optical images",
+        "The Pillars are fossilized supernova remnants from three stars that exploded simultaneously — Webb revealed the complex organic chemistry within them, suggesting they may contain the building blocks of life",
+        "The Pillars are a gravitational anomaly in the Milky Way where dark matter concentrations are unusually high — Webb was able to map them for the first time using gravitational lensing of background galaxies"
       ],
-      "answer": "Friction",
-      "explanation": "Friction is the force that resists the relative motion of surfaces in contact. It is caused by microscopic irregularities in surfaces catching on each other. Friction can be useful (it's what lets tires grip the road and lets you walk without sliding) or unwanted (it wastes energy as heat in engines). Friction doesn't exist in space in a vacuum.",
-      "memory_hook": "Friction = resistance between surfaces. Without it, you couldn't walk, tires couldn't grip, and you couldn't hold a pen. It's what makes the physical world usable — and also what makes engines inefficient."
+      "answer": "The Pillars are towering columns of interstellar gas and dust in the Eagle Nebula where new stars are actively forming — Webb's infrared penetrated the dust to reveal hundreds of newly forming protostars invisible in Hubble's optical images",
+      "explanation": "The Pillars of Creation, located in the Eagle Nebula about 6,500 light-years away, were first photographed by Hubble in 1995 — that image became one of the most famous astronomical photographs ever taken. Hubble's optical light couldn't penetrate the dust columns. Webb's mid-infrared camera saw through the dust entirely, revealing hundreds of newly forming stars (protostars) embedded within the columns — stars invisible in the Hubble image. Webb also detected a supersonic jet from a young star punching through one of the columns. The columns themselves are measured in light-years — the tallest is 4 light-years high.",
+      "memory_hook": "Hubble's 1995 Pillars of Creation image was so iconic it appeared on postage stamps. Webb's 2022 version penetrated the dust in infrared, revealing hundreds of newly forming stars Hubble couldn't see — including a supersonic stellar jet punching through one column. The tallest pillar is 4 light-years high."
     },
     {
       "category": "Geography",

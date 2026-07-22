@@ -146,16 +146,16 @@
     },
     {
       "category": "Sports",
-      "question": "In the game of golf, what is the name for a hole completed in one stroke fewer than par?",
+      "question": "Diego Maradona scored two of the most famous goals in World Cup history within four minutes of each other against England in the 1986 quarterfinal. What made the two goals so diametrically opposed in nature?",
       "options": [
-        "Birdie",
-        "Eagle",
-        "Bogey",
-        "Par"
+        "The first goal was a long-range 35-yard volley struck with Maradona's weaker right foot; the second was a handball he punched into the net with his stronger left hand — both were awarded, making it the only match in World Cup history with two goals from different body parts by the same player",
+        "The first goal was one of the greatest individual goals ever scored — Maradona dribbling past five defenders and the goalkeeper; the second was scored by punching the ball with his hand, which he later said was 'the hand of God' — both were controversially awarded",
+        "The first goal was later voted the 'Goal of the Century' in a poll organized by FIFA; the second goal was initially ruled offside before being awarded — making it the first goal in World Cup history to be ruled offside and then immediately reinstated",
+        "The two goals were separated by exactly 180 seconds — Maradona scored at 51:00 and 54:00 — making it the fastest brace in World Cup quarterfinal history; the second goal, the handball, was awarded despite English captain Bryan Robson protesting directly to the referee"
       ],
-      "answer": "Birdie",
-      "explanation": "A birdie is one stroke under par — if par is 4, a birdie is 3. An eagle is two under par. An albatross (double eagle) is three under par. A bogey is one over par. The terms 'birdie' and 'eagle' come from 19th century American slang where 'bird' meant something excellent.",
-      "memory_hook": "Golf: birdie = 1 under par. Eagle = 2 under. Albatross = 3 under. Bogey = 1 over."
+      "answer": "The first goal was one of the greatest individual goals ever scored — Maradona dribbling past five defenders and the goalkeeper; the second was scored by punching the ball with his hand, which he later said was 'the hand of God' — both were controversially awarded",
+      "explanation": "In the 51st minute, Maradona punched the ball into the net with his left hand. The referee (who had a poor angle) awarded it. Maradona told reporters afterward it was scored 'a little with the head of Maradona and a little with the hand of God.' Four minutes later, he received a pass and dribbled past five English players (Beardsley, Reid, Butcher, Fenwick, Butcher again) and goalkeeper Shilton, covering 60 meters in 11 seconds. FIFA voted it the 'Goal of the Century' in 2002. Argentina beat England 2-1. The match carried Cold War-like tension — Argentina and England had fought the Falklands War in 1982.",
+      "memory_hook": "Four minutes apart: first Maradona punches it in with his left hand ('the hand of God'), then dribbles 60 meters past five defenders and the keeper in 11 seconds ('Goal of the Century'). Both count. The context: England and Argentina had fought the Falklands War just four years earlier. FIFA fans voted the second goal the greatest ever in 2002."
     }
   ]
 }

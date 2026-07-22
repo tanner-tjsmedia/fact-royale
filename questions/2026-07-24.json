@@ -67,16 +67,16 @@
     },
     {
       "category": "Pop Culture",
-      "question": "In 'The Lion King,' what is the name of the villain lion?",
+      "question": "Beethoven's 9th Symphony (1824), composed when he was almost completely deaf, is considered one of music's supreme achievements. What makes its premiere extraordinary?",
       "options": [
-        "Sarabi",
-        "Mufasa",
-        "Scar",
-        "Simba"
+        "Beethoven premiered the 9th in London rather than Vienna, as the Viennese court had banned orchestral music of such length as 'disruptive to public order'",
+        "Beethoven had to be turned to face the audience at the premiere because he was conducting from memory — facing the orchestra — and couldn't hear the applause that began before the symphony even finished",
+        "The 9th was so long (over 70 minutes) that no orchestra had the stamina to perform it — Beethoven had to train the Vienna Philharmonic for six months before the premiere, the longest rehearsal period in the orchestra's history",
+        "The premiere was cancelled three times because Beethoven changed the finale up to the night before the performance, requiring musicians to sight-read the choral finale in front of a packed audience"
       ],
-      "answer": "Scar",
-      "explanation": "Scar (Taka) is the main villain in The Lion King (1994), voiced by Jeremy Irons. He kills his brother Mufasa and usurps the Pride Lands. The story is loosely based on Shakespeare's Hamlet. Scar is one of Disney's most memorable villains, known for his cunning and the song 'Be Prepared.'",
-      "memory_hook": "Scar has a scar. He killed Mufasa. 'Be Prepared' was his evil manifesto."
+      "answer": "Beethoven had to be turned to face the audience at the premiere because he was conducting from memory — facing the orchestra — and couldn't hear the applause that began before the symphony even finished",
+      "explanation": "Beethoven had been profoundly deaf for years by 1824. At the premiere in Vienna, a younger conductor was actually directing the orchestra — Beethoven stood on stage as a ceremonial figure, conducting from memory without hearing the orchestra. When the symphony ended, the audience erupted in applause; Beethoven continued conducting, unaware. Contralto Caroline Unger gently turned him around to face the standing ovation. He reportedly wept when he understood. The 9th introduced the human voice into the symphonic form for the first time — its final movement sets Friedrich Schiller's 'Ode to Joy,' now the EU's anthem.",
+      "memory_hook": "Beethoven couldn't hear his own 9th Symphony at its premiere — a singer turned him around to see the standing ovation he couldn't hear. He composed it while nearly completely deaf. The finale ('Ode to Joy') was the first time a symphony used a full chorus — it's now the European Union's anthem."
     },
     {
       "category": "Pop Culture",
@@ -119,16 +119,16 @@
     },
     {
       "category": "Science & Nature",
-      "question": "Which gas do plants primarily absorb during photosynthesis to make food?",
+      "question": "In 2017, astronomers detected both gravitational waves and light from the same event for the first time — a neutron star merger. Why was this discovery transformative?",
       "options": [
-        "Oxygen",
-        "Nitrogen",
-        "Hydrogen",
-        "Carbon dioxide"
+        "It proved that neutron stars could collide without creating a black hole, disproving a key prediction of general relativity that such mergers always resulted in immediate singularity formation",
+        "It confirmed that neutron star mergers produce heavy elements like gold and platinum through the r-process — solving the decades-long mystery of where these elements are forged — and validated multi-messenger astronomy",
+        "It provided the first direct evidence that gravitational waves travel slower than light, resolving a theoretical dispute between quantum mechanics and general relativity that had persisted for 40 years",
+        "It revealed that neutron star mergers are far more common than predicted — occurring once per year in the Milky Way — suggesting heavy elements are much more abundant in the universe than previous models indicated"
       ],
-      "answer": "Carbon dioxide",
-      "explanation": "Plants absorb carbon dioxide (CO2) from the air through tiny pores called stomata in their leaves. Combined with water from the roots and energy from sunlight, they convert CO2 into glucose and release oxygen as a byproduct. This is why forests are called carbon sinks — they continuously pull CO2 out of the atmosphere.",
-      "memory_hook": "Plants breathe in CO2, breathe out oxygen. The exact opposite of animals. Trees are essentially CO2 processors — turning a greenhouse gas into wood and leaves while releasing the oxygen we breathe."
+      "answer": "It confirmed that neutron star mergers produce heavy elements like gold and platinum through the r-process — solving the decades-long mystery of where these elements are forged — and validated multi-messenger astronomy",
+      "explanation": "The event GW170817 was detected by LIGO/Virgo (gravitational waves) and simultaneously by telescopes worldwide in gamma rays, X-rays, optical, and radio — the first complete multi-messenger observation. The afterglow (kilonova) confirmed the r-process rapid neutron capture that forges elements heavier than iron. In the days after the merger, astronomers estimated it produced gold equal to several Earth masses. This answered where gold and platinum come from — not supernovae as previously assumed, but neutron star mergers. Gravitational waves also arrived 1.7 seconds before gamma rays, confirming they travel at essentially the speed of light.",
+      "memory_hook": "GW170817 (2017) was the first cosmic event seen in both gravitational waves and light simultaneously. Its kilonova produced several Earth-masses of gold — confirming neutron star mergers, not supernovae, forge the gold in your jewelry. Einstein was right: gravitational waves travel at the speed of light, arriving 1.7 seconds before gamma rays."
     },
     {
       "category": "Geography",

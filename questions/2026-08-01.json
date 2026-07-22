@@ -81,16 +81,16 @@
     },
     {
       "category": "Pop Culture",
-      "question": "Which actress has won the most Academy Awards for acting, with four wins?",
+      "question": "Jean-Michel Basquiat rose from painting graffiti on Manhattan streets as 'SAMO' to selling work for millions — all before his death at 27. What makes his art historically significant?",
       "options": [
-        "Meryl Streep",
-        "Cate Blanchett",
-        "Katharine Hepburn",
-        "Frances McDormand"
+        "He was the first Black artist to have solo exhibitions at both MoMA and the Guggenheim simultaneously, breaking institutional barriers that had excluded Black artists for decades",
+        "He merged graffiti and street art with Neo-Expressionist painting, incorporating text, symbols, and Black history into raw canvases that confronted racism and power — while achieving commercial art-world success as a young Black man in the 1980s",
+        "He invented a painting technique using actual street materials — pavement, tar, newspaper — that transformed found-object art and inspired the Young British Artists movement of the 1990s",
+        "He was discovered by Andy Warhol, who trained him for three years before Basquiat exceeded his mentor's commercial success and became the first artist to outsell Warhol at auction"
       ],
-      "answer": "Katharine Hepburn",
-      "explanation": "Katharine Hepburn won four Academy Awards for Best Actress — for Morning Glory (1933), Guess Who's Coming to Dinner (1967), The Lion in Winter (1968), and On Golden Pond (1981). She is the only actor to win four acting Oscars. Meryl Streep has three wins and 21 nominations, the most nominations ever.",
-      "memory_hook": "Katharine Hepburn = 4 acting Oscars. No one else has won four. Meryl Streep has 3 wins and 21 nominations — the most nominations ever — but Hepburn has the most wins."
+      "answer": "He merged graffiti and street art with Neo-Expressionist painting, incorporating text, symbols, and Black history into raw canvases that confronted racism and power — while achieving commercial art-world success as a young Black man in the 1980s",
+      "explanation": "Basquiat grew up in Brooklyn, taught himself art history from a library copy of Gray's Anatomy given to him by his mother, and began writing cryptic SAMO ('same old shit') graffiti in SoHo at 17. By 21 he was shown in the Venice Biennale. His paintings fuse crowns, anatomy, copyright symbols, historical Black figures, and fragmented text into an intensely personal visual language about race, identity, and genius. He and Andy Warhol collaborated and became close friends. He died of a heroin overdose in 1988. A 1982 painting sold for $110.5 million in 2017.",
+      "memory_hook": "Basquiat went from spray-painting SAMO on SoHo walls at 17 to the Venice Biennale at 21 — his paintings fused street art, Black history, anatomy diagrams, and text into raw confrontations with racism. He died at 27; a 1982 canvas sold for $110 million."
     },
     {
       "category": "Pop Culture",
@@ -120,16 +120,16 @@
     },
     {
       "category": "Science & Nature",
-      "question": "What is the largest organ in the human body?",
+      "question": "Most stars in the Milky Way are not solitary like our Sun — they exist in binary or multiple star systems. What have binary stars revealed about stellar physics?",
       "options": [
-        "Liver",
-        "Lungs",
-        "Brain",
-        "Skin"
+        "Binary stars proved that stellar fusion is not the primary energy source for stars — instead, gravitational interaction between binary partners provides 60% of a typical star's observed luminosity",
+        "Binary stars allow precise measurement of stellar masses (impossible for solitary stars) because orbital mechanics let astronomers directly calculate each star's mass from orbital period and separation",
+        "Binary stars proved that solar systems around other stars are impossible — any planets would be gravitationally ejected by the complex gravitational field of two orbiting stars",
+        "Binary stars are the source of all heavy elements in the universe — only stars with a gravitational partner can generate the internal pressure needed to fuse elements heavier than iron"
       ],
-      "answer": "Skin",
-      "explanation": "Skin is the largest organ of the human body, covering about 2 square meters and weighing approximately 3.6 kg in an average adult. It serves multiple functions: protection from pathogens, temperature regulation, sensation, and vitamin D synthesis. Skin is also the body's first line of immune defense. The average person sheds about 30,000-40,000 dead skin cells per hour.",
-      "memory_hook": "Skin = largest organ. People forget it's an organ. 2 square meters, about 3.6 kg. You shed and replace your skin roughly every 2-3 weeks — about 8 pounds of skin cells per year."
+      "answer": "Binary stars allow precise measurement of stellar masses (impossible for solitary stars) because orbital mechanics let astronomers directly calculate each star's mass from orbital period and separation",
+      "explanation": "For solitary stars, mass can only be estimated from luminosity via theoretical models. But for binary systems, Newton's form of Kepler's Third Law lets astronomers calculate masses directly from observational data — orbital period and separation distance. Binary stars also produce phenomena impossible in single stars: Type Ia supernovae (used to measure dark energy) occur when a white dwarf in a binary system accretes enough mass from its companion to exceed the Chandrasekhar limit; neutron star mergers (gravitational wave sources) happen in binary systems. About 50% of Sun-like stars are in binary systems.",
+      "memory_hook": "Binary stars are nature's scales — orbital mechanics let astronomers calculate precise stellar masses that would be impossible to measure for solitary stars. Type Ia supernovae (the key to discovering dark energy) require binary stars: a white dwarf stealing mass from a companion until it explodes."
     },
     {
       "category": "Geography",

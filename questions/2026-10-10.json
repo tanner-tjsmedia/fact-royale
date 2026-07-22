@@ -1,0 +1,161 @@
+{
+  "date": "2026-10-10",
+  "questions": [
+    {
+      "category": "History",
+      "question": "The Great Wall of China, in its most famous form along the northern border, was largely rebuilt and extended during which dynasty?",
+      "options": [
+        "Han Dynasty",
+        "Song Dynasty",
+        "Ming Dynasty",
+        "Qing Dynasty"
+      ],
+      "answer": "Ming Dynasty",
+      "explanation": "While earlier walls date to the 7th century BCE, the most iconic sections of the Great Wall — made of brick and stone — were built during the Ming Dynasty (1368-1644). The Ming wall stretches about 8,850 km along northern China. The wall was built to defend against Mongol incursions. Modern studies have revealed the complete wall system (including trenches and barriers) extends about 21,196 km. Despite popular belief, it is NOT visible from space.",
+      "memory_hook": "The photogenic brick Great Wall is mostly Ming Dynasty (1368-1644) built to stop Mongol raids. The 'visible from space' claim is false — it's too narrow, like trying to see a hair from a mile away."
+    },
+    {
+      "category": "History",
+      "question": "Galileo Galilei was tried by the Roman Inquisition in 1633 and forced to recant his claim that Earth orbits the Sun. Whose earlier heliocentric model had Galileo confirmed?",
+      "options": [
+        "Johannes Kepler",
+        "Tycho Brahe",
+        "Nicolaus Copernicus",
+        "Isaac Newton"
+      ],
+      "answer": "Nicolaus Copernicus",
+      "explanation": "Copernicus (1473-1543) proposed in 1543 that Earth orbits the Sun (heliocentrism), contradicting the Church's geocentric model. Galileo's telescope observations (moons of Jupiter, phases of Venus, sunspots) confirmed Copernicus. The Inquisition forced Galileo to recant under threat of torture. He reportedly muttered 'And yet it moves' afterward — the quote is probably apocryphal but captures his defiance. The Church officially acknowledged its error only in 1992.",
+      "memory_hook": "Copernicus proposed heliocentrism in 1543; Galileo proved it and was forced to recant. The Church apologized in 1992 — 360 years late."
+    },
+    {
+      "category": "History",
+      "question": "President Abraham Lincoln was assassinated on April 14, 1865. Where was he shot?",
+      "options": [
+        "The White House",
+        "The US Capitol",
+        "Ford's Theatre in Washington DC",
+        "A military ceremony in Richmond"
+      ],
+      "answer": "Ford's Theatre in Washington DC",
+      "explanation": "Lincoln was shot by Confederate sympathizer John Wilkes Booth at Ford's Theatre during a performance of 'Our American Cousin,' just five days after Confederate General Lee's surrender at Appomattox. Booth was an actor who knew the theater well and shot Lincoln from behind in his private box. Lincoln died the following morning. Booth was tracked down and killed 12 days later in a Virginia barn.",
+      "memory_hook": "Lincoln was shot by actor John Wilkes Booth at a theater just 5 days after the Civil War effectively ended. Booth knew Ford's Theatre well — it was his home turf."
+    },
+    {
+      "category": "Sports",
+      "question": "Joe DiMaggio set the MLB record for consecutive games with at least one hit in 1941. How many consecutive games did his hit streak span?",
+      "options": [
+        "44",
+        "56",
+        "61",
+        "73"
+      ],
+      "answer": "56",
+      "explanation": "Joe DiMaggio hit safely in 56 consecutive games for the New York Yankees from May 15 to July 17, 1941. The streak is considered one of the most unbreakable records in professional sports — statistical analysis suggests the probability of anyone ever matching it is very low. DiMaggio batted .408 during the streak with 15 home runs. He was also known for his later marriage to Marilyn Monroe.",
+      "memory_hook": "DiMaggio's 56-game hit streak in 1941 is widely considered baseball's most unbreakable record. Statisticians say the odds of anyone ever matching it are equivalent to hitting a coin-flip heads 56 times in a row."
+    },
+    {
+      "category": "Sports",
+      "question": "The FA Cup, the world's oldest association football (soccer) knock-out competition, was first held in which decade?",
+      "options": [
+        "1840s",
+        "1870s",
+        "1890s",
+        "1910s"
+      ],
+      "answer": "1870s",
+      "explanation": "The FA Cup was first held in 1871-72, with the Wanderers FC winning the inaugural final in 1872. It is open to all English football clubs from the top divisions to the lower amateur leagues, making it possible for small clubs to knock out Premier League giants. This 'giant-killing' tradition makes the FA Cup uniquely dramatic. The record for most FA Cup wins is held by Arsenal with 14 titles.",
+      "memory_hook": "The FA Cup has been running since 1872 — meaning it predates the existence of professionalized football leagues. 'Giant-killing' upsets where tiny clubs beat Premier League teams still happen regularly."
+    },
+    {
+      "category": "Pop Culture",
+      "question": "Robert Capa's photograph 'The Falling Soldier' (1936), taken during the Spanish Civil War, was for decades considered the greatest war photograph ever taken. What controversy surrounds it?",
+      "options": [
+        "Capa's photograph was authentic but used in propaganda he opposed — the Spanish Republican government published it without his consent in contexts that misrepresented the battle shown, and Capa spent years trying to correct the record",
+        "Substantial evidence suggests the photograph was staged — taken at a training exercise rather than during combat — but Capa never confirmed or denied this before his death, and the debate about its authenticity continues",
+        "Capa staged the photograph under orders from the Picture Post editorial staff, who told him the conflict lacked dramatic images — he documented this in his diary, which was published posthumously and confirmed the staging",
+        "The photograph is authentic but Capa misidentified the soldier shown — the man who died was actually a Franco-supporting nationalist soldier, not a Republican militiaman — changing the photograph's political meaning entirely"
+      ],
+      "answer": "Substantial evidence suggests the photograph was staged — taken at a training exercise rather than during combat — but Capa never confirmed or denied this before his death, and the debate about its authenticity continues",
+      "explanation": "The photograph shows a militiaman apparently at the moment of being shot. Questions arose because: the location Capa claimed the photo was taken saw no combat that day; he had two rolls of film shot at a training exercise nearby; Spanish researcher José Manuel Susperregui identified the probable location as Espejo, miles from the reported battle. The man in the photograph has been identified as Federico Borrell García, who did die in battle — but possibly not in the moment Capa claimed. Capa never returned to discuss it in depth and died stepping on a landmine in Indochina in 1954. His co-founder Gerda Taro died during the same Spanish Civil War.",
+      "memory_hook": "The soldier Capa photographed may have been Borrell García, who did die in the war — but likely not in that moment, on that day. No combat occurred at the reported location. Capa never addressed it directly and died stepping on a landmine in Vietnam in 1954. The photo made his career and possibly was staged. The debate has run for 90 years."
+    },
+    {
+      "category": "Pop Culture",
+      "question": "'Purple Rain' (1984) is both a film and soundtrack album by which artist, who also wrote and starred in it?",
+      "options": [
+        "David Bowie",
+        "Michael Jackson",
+        "Prince",
+        "Stevie Wonder"
+      ],
+      "answer": "Prince",
+      "explanation": "Prince (Prince Rogers Nelson) wrote, produced, and starred in Purple Rain (1984), a semi-autobiographical film set in Minneapolis. The soundtrack won two Academy Awards (first film wins for Best Original Song Score) and sold over 25 million copies. Prince was known for his extraordinary range spanning 4 octaves, multi-instrumental ability, and explicit lyrics that prompted the creation of Parental Advisory labels in 1985. He died of an accidental fentanyl overdose in 2016.",
+      "memory_hook": "Purple Rain won two Oscars and sold 25 million albums — Prince wrote, produced, starred in, and performed everything on it. His explicit lyrics helped create the Parental Advisory label in 1985."
+    },
+    {
+      "category": "Pop Culture",
+      "question": "Mary Shelley wrote 'Frankenstein' in 1818 at just 18 years old. What inspired her to write it?",
+      "options": [
+        "A traumatic childhood illness",
+        "A competition with Lord Byron and Percy Shelley to write the best ghost story",
+        "A scientific experiment she witnessed at university",
+        "Her work as a nurse treating burn victims"
+      ],
+      "answer": "A competition with Lord Byron and Percy Shelley to write the best ghost story",
+      "explanation": "Mary Shelley wrote Frankenstein during the 'Year Without a Summer' (1816) — caused by the eruption of Mount Tambora. She was in a house party with Lord Byron, Percy Shelley (her future husband), and John Polidori. Byron challenged everyone to write a ghost story. Mary's dream about a scientist giving life to an assembled creature became Frankenstein, published in 1818. The novel is often considered the first work of science fiction.",
+      "memory_hook": "Mary Shelley wrote Frankenstein at 18 during a spooky ghost-story contest in 1816 — a year of volcanic darkness when Tambora's eruption blocked the sun. It's considered the first science fiction novel."
+    },
+    {
+      "category": "Geography",
+      "question": "The Mississippi River is the largest river system in North America. Into which body of water does it empty, and approximately where?",
+      "options": [
+        "The Pacific Ocean, near Los Angeles",
+        "The Gulf of Mexico, south of New Orleans",
+        "The Atlantic Ocean, in Florida",
+        "The Gulf of Mexico, near Corpus Christi"
+      ],
+      "answer": "The Gulf of Mexico, south of New Orleans",
+      "explanation": "The Mississippi River drains about 40% of the contiguous United States into a massive delta south of New Orleans, Louisiana. The river is 3,730 km long from its source at Lake Itasca, Minnesota to its mouth. Including the Missouri River (its longest tributary), the system is the world's 4th longest river drainage basin. The Mississippi delta is shrinking due to upstream dams and sediment diversion, causing Louisiana to lose a football field of land per hour to the sea.",
+      "memory_hook": "The Mississippi drains 40% of the continental US into the Gulf south of New Orleans. Louisiana is losing a football field of its delta to the sea every hour — without river sediment, it's slowly disappearing."
+    },
+    {
+      "category": "Geography",
+      "question": "The Sinai Peninsula, a triangular landmass connecting Africa to Asia, belongs to which country and contains which famous mountain?",
+      "options": [
+        "Israel; Mount Nebo",
+        "Jordan; Mount Pisgah",
+        "Egypt; Mount Sinai",
+        "Saudi Arabia; Mount Hira"
+      ],
+      "answer": "Egypt; Mount Sinai",
+      "explanation": "The Sinai Peninsula is part of Egypt, connecting it to Israel and Jordan via land while it is surrounded by the Red Sea (Gulf of Suez to the west and Gulf of Aqaba to the east). Mount Sinai (or Jabal Musa, 2,285m) is traditionally identified as the location where Moses received the Ten Commandments. St. Catherine's Monastery at its base is the oldest Christian monastery still in operation, founded in 565 CE.",
+      "memory_hook": "Sinai belongs to Egypt — the land bridge between Africa and Asia. Mount Sinai is where Moses received the Ten Commandments, and St. Catherine's Monastery below it has operated since 565 CE."
+    },
+    {
+      "category": "Science & Nature",
+      "question": "Convergent evolution occurs when unrelated species independently evolve similar traits. Which is the classic example?",
+      "options": [
+        "Wolves and dogs sharing DNA from a common ancestor",
+        "Sharks (fish) and dolphins (mammals) both evolving streamlined bodies for swimming",
+        "Darwin's finches evolving different beak shapes",
+        "All primates having five-fingered hands"
+      ],
+      "answer": "Sharks (fish) and dolphins (mammals) both evolving streamlined bodies for swimming",
+      "explanation": "Sharks (fish, cold-blooded, gills) and dolphins (mammals, warm-blooded, lungs) have no recent common ancestor yet evolved nearly identical body shapes — torpedo bodies, dorsal fins, flippers. Both face the same physical challenge (moving efficiently through water) and evolved the same solution independently. Other examples: wings evolved independently in birds, bats, and insects; camera eyes evolved independently in vertebrates and octopuses.",
+      "memory_hook": "Sharks and dolphins look nearly identical despite being as distantly related as fish and humans — they independently evolved the same streamlined design. Same problem (water), same solution (torpedo body)."
+    },
+    {
+      "category": "Science & Nature",
+      "question": "The human circulatory system moves blood through the body continuously. What is the role of the four chambers of the heart?",
+      "options": [
+        "Two chambers pump blood to lungs, two pump to body — all four pump simultaneously",
+        "The right side receives oxygen-poor blood and sends it to lungs; the left side receives oxygen-rich blood and pumps it to the body",
+        "All four chambers pump blood in sequence to build pressure",
+        "The upper chambers filter blood; the lower chambers pump it"
+      ],
+      "answer": "The right side receives oxygen-poor blood and sends it to lungs; the left side receives oxygen-rich blood and pumps it to the body",
+      "explanation": "The heart has four chambers: right atrium and right ventricle (pulmonary circuit — receive deoxygenated blood from the body, pump to lungs for oxygen); left atrium and left ventricle (systemic circuit — receive oxygenated blood from lungs, pump to the entire body). The left ventricle is the most muscular because it must pump blood the furthest. At rest, the heart beats ~70 times/min and pumps ~5 liters of blood per minute.",
+      "memory_hook": "Right side → lungs (get oxygen); Left side → body (deliver oxygen). The left ventricle pumps hardest — it sends blood to every cell in your body. Your heart moves ~5 liters of blood every minute."
+    }
+  ]
+}

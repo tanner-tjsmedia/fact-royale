@@ -1,0 +1,161 @@
+{
+  "date": "2026-11-27",
+  "questions": [
+    {
+      "category": "History",
+      "question": "What was the Space Shuttle program and how did two disasters reshape NASA?",
+      "options": [
+        "The Space Shuttle flew only 5 missions between 1981 and 1986; both disasters occurred in 1986, ending the program",
+        "The Space Shuttle (1981-2011) was a reusable crewed spacecraft that flew 135 missions. Two disasters killed all crew: Challenger (January 28, 1986, launch — O-ring failure in cold weather, 7 crew killed) and Columbia (February 1, 2003, re-entry — foam strike damaged heat shield, 7 crew killed). Each reshaped NASA's safety culture and risk communication practices",
+        "The Space Shuttle disasters occurred during Apollo missions; the program continued until 2025 under NASA's Constellation program",
+        "Columbia was destroyed during launch and Challenger during re-entry; both disasters were caused by the same technical issue — foam insulation failure"
+      ],
+      "answer": "The Space Shuttle (1981-2011) was a reusable crewed spacecraft that flew 135 missions. Two disasters killed all crew: Challenger (January 28, 1986, launch — O-ring failure in cold weather, 7 crew killed) and Columbia (February 1, 2003, re-entry — foam strike damaged heat shield, 7 crew killed). Each reshaped NASA's safety culture and risk communication practices",
+      "explanation": "Challenger: engineers at Morton Thiokol warned that O-rings were untested below 53°F; the launch temperature was 29°F. Management overruled engineers' objections. The Rogers Commission investigation revealed systemic communication failure: NASA had normalized flying with known O-ring degradation (normalization of deviance). Columbia: foam from the External Tank struck the left wing's leading edge on launch; NASA's decision-making culture again dismissed the risk. Richard Feynman (Challenger investigation) famously demonstrated O-ring failure by dipping a piece in ice water during a Senate hearing.",
+      "memory_hook": "Richard Feynman demolished NASA's credibility in one moment during the Challenger investigation: he dipped a piece of O-ring material in a glass of ice water during a Senate hearing and showed it had no flexibility when cold. It took 30 seconds. NASA had known for years that O-rings degraded in cold temperatures and launched anyway. Feynman's final report addendum: 'For a successful technology, reality must take precedence over public relations, for Nature cannot be fooled.'"
+    },
+    {
+      "category": "History",
+      "question": "What was the significance of the Thirty Years' War (1618-1648)?",
+      "options": [
+        "The Thirty Years' War was fought between Britain and France over colonial territories in North America and the Caribbean",
+        "The Thirty Years' War was a devastating European conflict combining religious (Catholic vs. Protestant), dynastic, and political dimensions. Fought primarily in the Holy Roman Empire (Germany), it killed an estimated 8 million people — roughly a third of the German population. The Peace of Westphalia (1648) ended it and established the modern concept of national sovereignty",
+        "The Thirty Years' War was the final crusade, launched by the Pope to reclaim Jerusalem; it ended with a Turkish victory and permanent Muslim control of the Holy Land",
+        "The Thirty Years' War was a French-Spanish conflict over control of Italy; the Peace of Westphalia established French dominance over the Italian peninsula"
+      ],
+      "answer": "The Thirty Years' War was a devastating European conflict combining religious (Catholic vs. Protestant), dynastic, and political dimensions. Fought primarily in the Holy Roman Empire (Germany), it killed an estimated 8 million people — roughly a third of the German population. The Peace of Westphalia (1648) ended it and established the modern concept of national sovereignty",
+      "explanation": "The Thirty Years' War (1618-1648) began with the Defenestration of Prague (Protestant nobles threw Catholic emissaries from a window). Sweden, France, Denmark, Spain, and various German princes all intervened at different points. Mercenary armies looted, burned, and starved civilian populations. Magdeburg (1631): Catholic forces massacred ~25,000 civilians — one of the worst atrocities of the war. Peace of Westphalia: established that rulers controlled religion within their territory, recognized state sovereignty, created early framework for international law. Often considered the beginning of the modern state system.",
+      "memory_hook": "The Peace of Westphalia (1648) is considered the birth of the modern nation-state system — the idea that states have sovereignty within their borders and other states cannot interfere in their internal affairs. This concept (contested today) shaped 370 years of international relations. The treaty ended a war that killed a third of Germany's population through battle, famine, and plague. Modern international law and diplomacy trace directly back to the negotiations that ended the Thirty Years' War."
+    },
+    {
+      "category": "History",
+      "question": "What was the significance of the 'Shot Heard Round the World' at Lexington and Concord (1775)?",
+      "options": [
+        "The 'Shot Heard Round the World' was the assassination of Archduke Franz Ferdinand in 1914, which triggered WWI — the phrase was applied retrospectively after Ralph Waldo Emerson used it to describe the global consequences",
+        "The phrase 'shot heard round the world' comes from Ralph Waldo Emerson's 'Concord Hymn' (1836), describing the first shots of the American Revolution at Lexington and Concord (April 19, 1775) — when colonial militiamen clashed with British regulars sent to seize colonial arms stores, beginning the Revolutionary War",
+        "The phrase refers to Abraham Lincoln's assassination at Ford's Theatre (1865), which Ralph Waldo Emerson called the most consequential event since the founding of the nation",
+        "The 'Shot Heard Round the World' was fired at Bunker Hill (1775); Lexington and Concord were minor skirmishes that preceded the actual start of the Revolutionary War"
+      ],
+      "answer": "The phrase 'shot heard round the world' comes from Ralph Waldo Emerson's 'Concord Hymn' (1836), describing the first shots of the American Revolution at Lexington and Concord (April 19, 1775) — when colonial militiamen clashed with British regulars sent to seize colonial arms stores, beginning the Revolutionary War",
+      "explanation": "April 19, 1775: British General Thomas Gage sent 700 regulars to seize colonial military supplies at Concord, Massachusetts. At Lexington, 77 militiamen faced them on the village green. Shots were fired (who fired first is disputed). 8 colonists died. The British marched to Concord; at North Bridge, colonists fired back effectively for the first time. The British retreated to Boston under withering fire from militiamen hiding behind stone walls. The phrase 'shot heard round the world' suggested that a small colonial rebellion would reshape human history — it did.",
+      "memory_hook": "Nobody knows who fired first at Lexington — British or colonial. Both sides claimed the other started it. Eight colonists died in 10 minutes. The British marched on to Concord, found hidden arms had been moved, and began the retreat to Boston. Colonial militiamen flanked them the entire way back, firing from behind stone walls. The British lost 73 killed and 174 wounded on the return march. The American Revolution had started, though no one called it that yet."
+    },
+    {
+      "category": "Sports",
+      "question": "What is the significance of the Rugby World Cup and which country has won it most?",
+      "options": [
+        "The Rugby World Cup began in 1967; South Africa has won it 5 times — more than any other nation",
+        "The Rugby World Cup began in 1987; New Zealand (All Blacks) has won 4 of the 10 tournaments through 2023, more than any other nation. South Africa has won 4 (tied with New Zealand). The tournament is held every 4 years",
+        "The Rugby World Cup began in 1954; England has won 7 times — more than any other nation",
+        "The Rugby World Cup is a biennial tournament won most by France, which has hosted 3 times and won 4 times"
+      ],
+      "answer": "The Rugby World Cup began in 1987; New Zealand (All Blacks) has won 4 of the 10 tournaments through 2023, more than any other nation. South Africa has won 4 (tied with New Zealand). The tournament is held every 4 years",
+      "explanation": "Rugby World Cup history (through 2023): New Zealand 1987, 2011, 2015, 2023 (4 titles); South Africa 1995, 1999, 2007, 2019 (4 titles); Australia 1991, 1999 (2 titles); England 2003 (1 title); France 2023 (hosts, lost semi-final). The All Blacks' pre-match 'Haka' (Maori war dance) is one of sport's most dramatic traditions. The 1995 final: South Africa (host) vs. New Zealand; Nelson Mandela wore a Springbok jersey while presenting the trophy — a powerful symbol of reconciliation 1 year after apartheid ended.",
+      "memory_hook": "Nelson Mandela wore the green Springbok jersey at the 1995 Rugby World Cup final in Johannesburg. The Springboks had been a symbol of white South Africa and apartheid; Black South Africans traditionally cheered against them. Mandela wearing the jersey — one year after becoming president — was a conscious act of national reconciliation. François Pienaar, the white Afrikaner captain, received the trophy from Mandela and said: 'Thank you for what you have done for our country.' South Africa won. The moment is central to post-apartheid South African identity."
+    },
+    {
+      "category": "Sports",
+      "question": "Who is Serena Williams and what makes her tennis career historically significant?",
+      "options": [
+        "Serena Williams won 12 Grand Slam titles between 2003 and 2016, primarily at the US Open and Wimbledon",
+        "Serena Williams won 23 Grand Slam singles titles — the most in the Open Era (since 1968) for any player at the time of her retirement in 2022. She won all four Grand Slam titles and an Olympic gold medal, and transformed professional tennis through her athleticism and longevity. She reached a Grand Slam final while pregnant in 2017",
+        "Serena Williams won 15 Grand Slam titles but is primarily known for her dominance in doubles with sister Venus — the Williams sisters have won 22 doubles titles together",
+        "Serena Williams won 23 Grand Slams but had her career halted by injury from 2012-2014; she was given the Slams by default during those years"
+      ],
+      "answer": "Serena Williams won 23 Grand Slam singles titles — the most in the Open Era (since 1968) for any player at the time of her retirement in 2022. She won all four Grand Slam titles and an Olympic gold medal, and transformed professional tennis through her athleticism and longevity. She reached a Grand Slam final while pregnant in 2017",
+      "explanation": "Serena Williams (born 1981): 23 Grand Slams (7 Wimbledon, 6 US Open, 3 Australian Open, 3 French Open, 4 Australian Open). She won the 2017 Australian Open while 8 weeks pregnant. After giving birth, she nearly died from a pulmonary embolism — a complication she has spoken about publicly to highlight disparities in Black maternal healthcare. She returned to reach 4 more Grand Slam finals. Her serve (recorded at 207 km/h), physicality, and mental toughness revolutionized women's tennis. She and Venus both turned professional after training on the public courts of Compton, California.",
+      "memory_hook": "Serena Williams won the 2017 Australian Open while 8 weeks pregnant — then nearly died from a pulmonary embolism after giving birth. She had to insist on her own diagnosis to doctors who initially dismissed her symptoms. She's spoken publicly about how Black women's medical concerns are consistently underprioritized. She reached 4 more Grand Slam finals after childbirth. She trained on public courts in Compton. She is the greatest tennis player of the Open Era by Grand Slam count."
+    },
+    {
+      "category": "Pop Culture",
+      "question": "Which musician, often called 'the Queen of Soul,' recorded 'Respect' (1967) and won 18 Grammy Awards?",
+      "options": [
+        "Tina Turner",
+        "Nina Simone",
+        "Diana Ross",
+        "Aretha Franklin"
+      ],
+      "answer": "Aretha Franklin",
+      "explanation": "Aretha Franklin (1942-2018) recorded 'Respect' in 1967 — originally an Otis Redding song that she transformed into a feminist and civil rights anthem (spelling out R-E-S-P-E-C-T). It became the #1 song for 8 weeks. She won 18 Grammy Awards — a record for a female artist when she died. Other hits: 'Chain of Fools,' 'Natural Woman,' 'Think,' 'I Say a Little Prayer.' She performed at three presidential inaugurations. In 1987 she became the first woman inducted into the Rock and Roll Hall of Fame. Her voice is considered one of the greatest in American musical history.",
+      "memory_hook": "'Respect' was written by Otis Redding as a song about a man demanding respect from his woman. Aretha Franklin recorded it as a woman demanding respect from a man — and the world. She added the spelling and added 'sock it to me.' The song became the anthem of both the feminist movement and the civil rights movement simultaneously. Otis Redding said Aretha had 'taken his song.' He said it with admiration. She was the first woman in the Rock and Roll Hall of Fame."
+    },
+    {
+      "category": "Pop Culture",
+      "question": "Which 1983 Francis Ford Coppola film adaptation of S.E. Hinton's novel featured rising stars including C. Thomas Howell, Matt Dillon, and Patrick Swayze?",
+      "options": [
+        "Sixteen Candles",
+        "Fast Times at Ridgemont High",
+        "The Breakfast Club",
+        "The Outsiders"
+      ],
+      "answer": "The Outsiders",
+      "explanation": "The Outsiders (1983), directed by Francis Ford Coppola, was adapted from S.E. Hinton's 1967 novel (written when she was 15-16). The film featured an extraordinary ensemble of young actors: C. Thomas Howell, Matt Dillon, Ralph Macchio, Patrick Swayze, Rob Lowe, Emilio Estevez, and Tom Cruise. It explored class conflict between the 'Greasers' (working-class) and 'Socs' (upper-class). Coppola also filmed Rumble Fish (another Hinton novel) simultaneously. The film launched or advanced many careers. The novel is among the most commonly taught in American middle schools.",
+      "memory_hook": "S.E. Hinton wrote The Outsiders when she was 15 or 16 years old after being frustrated that no books existed about what it was actually like to be a teenager in her world. Her publisher's advice when it was published: use initials, not her first name 'Susan,' because a girl writing about male gang violence wouldn't be taken seriously. She was right. The book has been in continuous publication for 60 years and is one of the best-selling YA novels ever. Coppola cast virtually every rising young actor in Hollywood in the film."
+    },
+    {
+      "category": "Pop Culture",
+      "question": "Which Pulitzer Prize-winning play (1949) by Arthur Miller examines the dark side of the American Dream through Willy Loman?",
+      "options": [
+        "Long Day's Journey Into Night",
+        "A Raisin in the Sun",
+        "The Glass Menagerie",
+        "Death of a Salesman"
+      ],
+      "answer": "Death of a Salesman",
+      "explanation": "Death of a Salesman (1949) won the Pulitzer Prize, Tony Award for Best Play, and New York Drama Critics' Circle Award. Willy Loman (the surname deliberately evokes 'low man') is a traveling salesman who has spent his life chasing a version of the American Dream that was always out of reach, while ignoring genuine opportunities for connection and happiness. Miller's play is considered the definitive examination of American myths of success, self-delusion, and the pressure placed on men to be providers. Lee J. Cobb originated the role; later productions starred Dustin Hoffman and Philip Seymour Hoffman.",
+      "memory_hook": "Willy Loman's name is a pun: 'low man' on the social ladder, 'low man' in importance, 'low man' as in someone who has been brought low. Miller named him deliberately. The play is about a man who believed in promises that were never true — that if you're well-liked and work hard, you'll succeed. Willy was neither extraordinarily well-liked nor particularly skilled, and the American Dream doesn't have a refund policy. The play premiered in 1949 and remains the most-performed American drama."
+    },
+    {
+      "category": "Geography",
+      "question": "What is the significance of the Yellow River (Huang He) to Chinese civilization?",
+      "options": [
+        "The Yellow River is China's second-longest river and is primarily significant for flood control; it has never flooded significantly in recorded history",
+        "The Yellow River is often called 'the cradle of Chinese civilization' — the earliest Chinese dynasties emerged along its banks ~4,000 years ago. However, it is also called 'China's Sorrow' because its frequent catastrophic floods killed millions. It carries more sediment than any other river, and its bed has risen above surrounding farmland, making floods both inevitable and devastating",
+        "The Yellow River flows into the South China Sea and is primarily significant for hydroelectric power generation",
+        "The Yellow River is named for yellow fever outbreaks in medieval China; its historical significance is medical rather than agricultural"
+      ],
+      "answer": "The Yellow River is often called 'the cradle of Chinese civilization' — the earliest Chinese dynasties emerged along its banks ~4,000 years ago. However, it is also called 'China's Sorrow' because its frequent catastrophic floods killed millions. It carries more sediment than any other river, and its bed has risen above surrounding farmland, making floods both inevitable and devastating",
+      "explanation": "The Yellow River (Huang He, ~5,464 km) gets its name and color from the loess (fine yellow silt) it carries from the Loess Plateau. It carries 1.4 billion tons of sediment annually — more than any other river — building a raised riverbed above surrounding land. Major floods: 1931 (1-4 million dead — possibly the deadliest single natural disaster in history), 1938 (Kuomintang deliberately breached dikes to slow Japanese advance, killing ~400,000-900,000 Chinese and creating a humanitarian catastrophe). The river has changed course dozens of times throughout history.",
+      "memory_hook": "The 1938 Yellow River flood was deliberate: Chiang Kai-shek ordered the dikes broken to slow the Japanese advance. The resulting flood killed between 400,000 and 900,000 Chinese civilians and displaced 3-4 million. It's one of history's deadliest acts of deliberate environmental destruction — done by a country to its own people during an invasion. It slowed the Japanese by approximately 3-6 months. The Kuomintang government denied responsibility for decades afterward."
+    },
+    {
+      "category": "Geography",
+      "question": "What is the Dead Sea and why does it have the properties it does?",
+      "options": [
+        "The Dead Sea is a freshwater lake that has become salty due to mineral springs; it's navigable but unusually buoyant",
+        "The Dead Sea (on the Jordan-Israel border) is the world's lowest land surface (~430m below sea level) and saltiest major body of water (~34% salinity vs. 3.5% for oceans). Its high salt content makes everything float effortlessly. It is shrinking at approximately 1 meter per year due to water diversion from the Jordan River. No fish or most organisms can survive in its waters",
+        "The Dead Sea is a volcanic crater lake that became saline over thousands of years; it maintains stable water levels due to underground springs",
+        "The Dead Sea is saltier than the ocean because of ancient seawater trapped during geological upheaval; its salt comes from the ocean, not land sources"
+      ],
+      "answer": "The Dead Sea (on the Jordan-Israel border) is the world's lowest land surface (~430m below sea level) and saltiest major body of water (~34% salinity vs. 3.5% for oceans). Its high salt content makes everything float effortlessly. It is shrinking at approximately 1 meter per year due to water diversion from the Jordan River. No fish or most organisms can survive in its waters",
+      "explanation": "The Dead Sea sits in the Jordan Rift Valley (part of the East African Rift system). It has no outlet — water flows in (Jordan River) but evaporates, leaving salt behind. Over millennia, salinity has increased to ~34% (nearly 10× ocean salinity). In extreme salinity, archaea (salt-loving microorganisms) survive, but fish, plants, and most life cannot. The Dead Sea Scrolls were found in nearby caves (1947-1956) — 900 manuscripts, some 2,000 years old, preserved by the dry conditions. Jordan and Israel are planning a 'Red Sea-Dead Sea Canal' to replenish it.",
+      "memory_hook": "The Dead Sea is shrinking 1 meter per year — losing a third of its surface area since the 1960s — because 90% of the Jordan River's water is now diverted before it reaches the Dead Sea for Israeli, Jordanian, and Palestinian agriculture and drinking water. The ancient lake is drying up in real time. The Dead Sea Scrolls were found in 1947 in caves above it — biblical manuscripts 2,000 years old, preserved by exactly the dry conditions the Dead Sea creates."
+    },
+    {
+      "category": "Science & Nature",
+      "question": "What are exoplanets and how do scientists detect them?",
+      "options": [
+        "Exoplanets are planets within the solar system beyond Neptune; they're detected by visual observation through large telescopes",
+        "Exoplanets are planets orbiting stars other than the Sun. Detection methods: transit photometry (planet passing in front of a star dims its light measurably — used by Kepler Space Telescope, 2,662 confirmed planets); radial velocity (planet's gravity wobbles the star, detected via Doppler shift); direct imaging (rare — planet directly photographed). Over 5,500 exoplanets are confirmed; billions exist in our galaxy",
+        "Exoplanets were first discovered by NASA in 2009 using the Kepler Space Telescope; before 2009 their existence was theoretical",
+        "Exoplanets can only be detected around nearby stars (within 50 light years); the vast majority of stars are too distant for exoplanet detection"
+      ],
+      "answer": "Exoplanets are planets orbiting stars other than the Sun. Detection methods: transit photometry (planet passing in front of a star dims its light measurably — used by Kepler Space Telescope, 2,662 confirmed planets); radial velocity (planet's gravity wobbles the star, detected via Doppler shift); direct imaging (rare — planet directly photographed). Over 5,500 exoplanets are confirmed; billions exist in our galaxy",
+      "explanation": "The first confirmed exoplanet (orbiting a main-sequence star) was 51 Pegasi b, discovered by Michel Mayor and Didier Queloz in 1995 (Nobel Prize 2019). The Kepler Space Telescope (2009-2018) used transit photometry to confirm thousands of exoplanets. James Webb Space Telescope (launched 2021) can analyze exoplanet atmospheres for signs of biosignatures (water vapor, oxygen, methane). Current estimate: ~100 billion planets in the Milky Way; ~10% may be in habitable zones. The nearest potentially habitable exoplanet: Proxima Centauri b (4.2 light-years away).",
+      "memory_hook": "In 1995, two Swiss astronomers detected the first exoplanet around a Sun-like star by noticing the star wobbling slightly — the planet's gravity was pulling it. They won the Nobel Prize in 2019. The Kepler telescope confirmed thousands more. The James Webb Space Telescope can now detect chemical signatures in exoplanet atmospheres from 1,000 light-years away. We went from 'are there other planets?' to 'there are 100 billion in our galaxy' in under 30 years."
+    },
+    {
+      "category": "Science & Nature",
+      "question": "What is the significance of Mendel's pea plant experiments to modern genetics?",
+      "options": [
+        "Mendel's experiments proved that traits are passed through blood — children blend their parents' characteristics equally",
+        "Gregor Mendel's pea plant experiments (1856-1863) established the Laws of Inheritance: traits are inherited as discrete 'factors' (now called genes), some dominant over others (Law of Segregation), and different traits are inherited independently (Law of Independent Assortment). His work, rediscovered in 1900, is the foundation of modern genetics",
+        "Mendel proved that evolution was incorrect — his experiments showed traits don't change over generations, contradicting Darwin",
+        "Mendel's experiments were immediately accepted by the scientific community; they formed the basis of Darwin's evolution theory published in the same year"
+      ],
+      "answer": "Gregor Mendel's pea plant experiments (1856-1863) established the Laws of Inheritance: traits are inherited as discrete 'factors' (now called genes), some dominant over others (Law of Segregation), and different traits are inherited independently (Law of Independent Assortment). His work, rediscovered in 1900, is the foundation of modern genetics",
+      "explanation": "Mendel (1822-1884), an Augustinian friar, grew ~10,000 pea plants over 8 years in the monastery garden. He tracked 7 characteristics (seed color, seed shape, flower color, etc.) through multiple generations. Key findings: traits don't blend (a yellow × green cross produces all yellow, not yellowish-green; the green reappears in the next generation in predictable ratios). This disproved 'blending inheritance.' He presented his results in 1865; they were ignored. He died in 1884 without recognition. In 1900, three scientists independently rediscovered his work and found his papers.",
+      "memory_hook": "Mendel published his pea plant results in 1865 to a room of 40 scientists who didn't understand their significance and promptly forgot them. He died in 1884 without recognition. In 1900, three different scientists independently did similar experiments, discovered his 35-year-old paper, and realized he'd already solved the problem. Mendel went from 'friar with garden hobby' to 'father of genetics' 16 years after his death. His data is sometimes criticized as suspiciously neat — possibly because he discarded experimental rounds that didn't match predictions."
+    }
+  ]
+}

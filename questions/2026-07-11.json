@@ -119,16 +119,16 @@
     },
     {
       "category": "Science & Nature",
-      "question": "What is the chemical formula for table salt?",
+      "question": "NASA's Voyager 1 spacecraft, launched in 1977, made history in 2012. What did it achieve that no human-made object had ever done before?",
       "options": [
-        "NaOH",
-        "CaCl2",
-        "KCl",
-        "NaCl"
+        "Voyager 1 became the first spacecraft to successfully orbit the Sun outside the Kuiper Belt, establishing a new category of 'interplanetary observer' missions",
+        "Voyager 1 crossed the heliopause — the boundary where the Sun's solar wind gives way to interstellar space — becoming the first human-made object to leave the solar system and enter interstellar space",
+        "Voyager 1 made the first confirmed detection of a planet orbiting another star, discovering what is now classified as the first confirmed exoplanet from deep space observation",
+        "Voyager 1 transmitted the first-ever direct photograph of the Sun's corona taken from outside the solar system, proving the corona extends far further than scientists believed"
       ],
-      "answer": "NaCl",
-      "explanation": "Table salt is sodium chloride — one sodium atom bonded to one chlorine atom. Sodium (Na) is a soft, reactive metal, and chlorine (Cl) is a toxic gas, but together they form a stable, harmless crystal essential for human life. The body uses sodium to regulate fluid balance and nerve function.",
-      "memory_hook": "Salt = NaCl. Sodium + Chlorine = the thing you put on food. A toxic metal and a poisonous gas combine to make something you eat every day."
+      "answer": "Voyager 1 crossed the heliopause — the boundary where the Sun's solar wind gives way to interstellar space — becoming the first human-made object to leave the solar system and enter interstellar space",
+      "explanation": "The heliopause marks where the Sun's solar wind is no longer strong enough to push back the interstellar medium — the thin gas and particles between star systems. Voyager 1 crossed it in August 2012, confirmed by changes in particle density measurements. It currently travels about 3.6 AU per year and is now approximately 165 AU from the Sun (one AU = Earth-Sun distance). At the speed of light, a signal from Voyager 1 takes over 22 hours to reach Earth. Both Voyager spacecraft carry golden records with sounds and images of Earth — selected by a committee chaired by Carl Sagan.",
+      "memory_hook": "Voyager 1 left the solar system in 2012 — 35 years after launch. Its signal now takes 22 hours to reach Earth at the speed of light. It carries a gold record selected by Carl Sagan, including Chuck Berry's 'Johnny B. Goode' — Sagan's choice for humanity's opening message to the universe."
     },
     {
       "category": "Geography",
@@ -145,16 +145,16 @@
     },
     {
       "category": "Science & Nature",
-      "question": "What is the hard external skeleton found in insects, crustaceans, and some other invertebrates called?",
+      "question": "The Fermi Paradox asks: if intelligent life should be common in a universe with 400 billion stars in our galaxy alone, why haven't we detected any evidence of it? What makes it a paradox?",
       "options": [
-        "Carapace",
-        "Exoskeleton",
-        "Shell",
-        "Chitinous layer"
+        "The paradox is that life is extremely common in the universe but all civilizations inevitably destroy themselves before developing radio technology, leaving only a narrow window for detection",
+        "The paradox is between the high statistical probability that intelligent life exists elsewhere — given the number of stars, planets, and billions of years available — and the complete absence of any detected signals, artifacts, or visitors",
+        "The paradox is that the universe is too young for life to have evolved elsewhere, since Earth used almost the entire 13.8-billion-year window to produce intelligence, and most planets are too new",
+        "The paradox is that alien civilizations have been detected but governments have suppressed the evidence — the 'great silence' is political, not astronomical"
       ],
-      "answer": "Exoskeleton",
-      "explanation": "An exoskeleton is a rigid external skeleton that supports and protects the soft body of an organism. In insects and crustaceans, it is made primarily of chitin (a tough polysaccharide). Unlike the internal skeleton (endoskeleton) of vertebrates, an exoskeleton does not grow with the organism — it must be periodically shed (molted) and regrown. Insects must remain vulnerable during molting. The largest exoskeletal animals are coconut crabs, which can span 1 meter.",
-      "memory_hook": "Exoskeleton = external skeleton of insects, crabs, lobsters. Made of chitin. Doesn't grow — must be shed (molted) and regrown. The animal is vulnerable during molting. Coconut crabs = largest exoskeletal animals. Your endoskeleton grows with you; an insect's doesn't."
+      "answer": "The paradox is between the high statistical probability that intelligent life exists elsewhere — given the number of stars, planets, and billions of years available — and the complete absence of any detected signals, artifacts, or visitors",
+      "explanation": "Enrico Fermi posed his question at a 1950 lunch: 'Where is everybody?' With 400 billion stars in the Milky Way, billions of Earth-like planets, and billions of years for civilizations to develop and spread, even a single civilization traveling at 1% of light speed could colonize the galaxy in 10–50 million years — less than 1% of the universe's age. Proposed resolutions include: the Great Filter (civilizations typically destroy themselves), the Zoo hypothesis (they're watching us), or the possibility that we're genuinely among the first intelligent life. The Wow! signal (1977) remains the strongest unexplained candidate for an extraterrestrial radio signal.",
+      "memory_hook": "Fermi asked in 1950: 'Where is everybody?' The Milky Way is 10 billion years old and has 400 billion stars — a civilization traveling at 1% the speed of light could colonize the entire galaxy in 50 million years. The fact that we detect nothing is the paradox."
     }
   ]
 }

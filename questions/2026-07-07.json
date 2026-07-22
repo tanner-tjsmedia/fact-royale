@@ -67,16 +67,16 @@
     },
     {
       "category": "Pop Culture",
-      "question": "Which actress played Katniss Everdeen in 'The Hunger Games' films?",
+      "question": "Fleabag (BBC, 2016–2019), written by and starring Phoebe Waller-Bridge, is celebrated for its formal innovation as much as its emotional depth. What technique made it distinctive?",
       "options": [
-        "Emma Watson",
-        "Shailene Woodley",
-        "Jennifer Lawrence",
-        "Kristen Stewart"
+        "It was filmed in a single unbroken take per episode, removing all editing to simulate the feeling of watching live theater",
+        "Its protagonist constantly breaks the fourth wall, speaking directly to the audience — building an intimate relationship that becomes structurally crucial to the story",
+        "It was the first TV series to be shot entirely on smartphone cameras, giving it a raw, confessional visual style",
+        "It ran episodes of wildly varying lengths — from 4 minutes to 47 minutes — breaking conventional broadcast formatting"
       ],
-      "answer": "Jennifer Lawrence",
-      "explanation": "Jennifer Lawrence played Katniss Everdeen in all four Hunger Games films (2012–2015). She was 21 when the first film was released and had already won an Academy Award for Best Actress for Silver Linings Playbook. The franchise grossed nearly $3 billion worldwide.",
-      "memory_hook": "Lawrence as Katniss — she's on fire. Literally, her character is called 'the girl on fire.'"
+      "answer": "Its protagonist constantly breaks the fourth wall, speaking directly to the audience — building an intimate relationship that becomes structurally crucial to the story",
+      "explanation": "Fleabag's direct-address technique wasn't just a stylistic choice — by Series 2, the audience's relationship with Fleabag becomes plot-relevant when another character notices her 'talking to someone.' Waller-Bridge adapted it from her Edinburgh Fringe one-woman show. The series won six Emmy Awards in 2019 including Outstanding Comedy, Outstanding Writing, and Outstanding Lead Actress — nearly unprecedented for a foreign production. It's often credited with reviving interest in the female anti-hero.",
+      "memory_hook": "Fleabag's fourth-wall breaks aren't just stylish — by Series 2, another character notices her 'talking to someone,' making the audience itself part of the plot. Waller-Bridge wrote the role for herself from a one-woman Fringe show."
     },
     {
       "category": "Pop Culture",
@@ -119,16 +119,16 @@
     },
     {
       "category": "Science & Nature",
-      "question": "What type of rock is formed when lava cools and solidifies?",
+      "question": "Johannes Kepler's three laws of planetary motion (published 1609–1619) revolutionized astronomy. What did his first law establish about planetary orbits?",
       "options": [
-        "Sedimentary",
-        "Metamorphic",
-        "Limestone",
-        "Igneous"
+        "Planets orbit the Sun in perfect circles, with the Sun at the exact center of each circular orbit",
+        "Planets orbit the Sun in ellipses, with the Sun at one focus — not the center — meaning each planet's distance from the Sun varies throughout its orbit",
+        "Planets orbit the Sun in spiraling paths that slowly expand as the Sun's gravitational pull weakens over millions of years",
+        "All planets orbit the Sun at the same speed but at different distances, like tracks on a record album rotating at the same rpm"
       ],
-      "answer": "Igneous",
-      "explanation": "Igneous rocks form when magma (underground) or lava (above ground) cools and crystallizes. 'Igneous' comes from the Latin for 'fire.' Granite is a common intrusive igneous rock (cooled underground); basalt is a common extrusive one (cooled above ground). About 95% of Earth's crust is igneous rock.",
-      "memory_hook": "Igneous = fire rock. Lava cools, igneous forms. The other two types are sedimentary (layers of sediment) and metamorphic (rock transformed by heat and pressure)."
+      "answer": "Planets orbit the Sun in ellipses, with the Sun at one focus — not the center — meaning each planet's distance from the Sun varies throughout its orbit",
+      "explanation": "Kepler broke with 2,000 years of astronomical tradition that insisted on circular orbits (because circles were 'perfect'). Working from Tycho Brahe's meticulous observational data — which Brahe denied him, forcing Kepler to work from memory after Brahe's death — he deduced that Mars's orbit was an ellipse. His second law states a planet sweeps equal areas in equal times (faster near perihelion, slower near aphelion). His third law links orbital period to distance: the square of a planet's year equals the cube of its average distance from the Sun. Newton later showed gravity explains all three laws.",
+      "memory_hook": "Kepler abandoned perfect circles and deduced ellipses from Tycho Brahe's data — working partly from stolen notes after Brahe died suspicious Kepler would steal them. Newton later showed gravity explains all three Kepler laws, confirming the heliocentric model mathematically."
     },
     {
       "category": "Geography",

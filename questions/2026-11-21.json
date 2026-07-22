@@ -1,0 +1,161 @@
+{
+  "date": "2026-11-21",
+  "questions": [
+    {
+      "category": "History",
+      "question": "What was the Boxer Rebellion (1899-1901) in China?",
+      "options": [
+        "A Chinese military coup against the Qing Emperor that established a republic in 1901",
+        "An anti-foreign, anti-Christian uprising by the 'Society of Righteous and Harmonious Fists.' They besieged foreign legations in Beijing for 55 days. An Eight-Nation Alliance defeated them, and the Boxer Protocol imposed massive reparations on China",
+        "A rebellion by Western merchants against Qing tariffs, suppressed by Chinese-Japanese forces",
+        "A peasant tax revolt suppressed by joint Chinese-British military forces"
+      ],
+      "answer": "An anti-foreign, anti-Christian uprising by the 'Society of Righteous and Harmonious Fists.' They besieged foreign legations in Beijing for 55 days. An Eight-Nation Alliance defeated them, and the Boxer Protocol imposed massive reparations on China",
+      "explanation": "The Boxers believed martial arts made them bulletproof. After the Eight-Nation Alliance (US, UK, Russia, Japan, Germany, France, Austria-Hungary, Italy) lifted the siege, the Boxer Protocol (1901) required 450 million taels in reparations. The US used its portion to fund Chinese students studying in America — the Boxer Indemnity Scholarship. The humiliation accelerated the Qing dynasty's collapse in 1911.",
+      "memory_hook": "Boxer Rebellion fighters believed martial arts made them bulletproof. Eight nations invaded China simultaneously to lift the siege — the only time that many major powers cooperated militarily against a single target. The US redirected its reparations into scholarships for Chinese students to study in America. Some became key figures in 20th-century Chinese history."
+    },
+    {
+      "category": "History",
+      "question": "Who was Kemal Atatürk and what did he do to transform Turkey?",
+      "options": [
+        "The last Ottoman Sultan who accepted defeat in WWI and signed the Treaty of Sèvres",
+        "A Turkish military commander who led the Turkish War of Independence (1919-1923), abolished the Ottoman Sultanate and Caliphate, founded the Turkish Republic (1923), and aggressively secularized the country — adopting the Latin alphabet, Western legal codes, and separating religion from government",
+        "A German military advisor who modernized Turkey's army after WWI",
+        "A religious reformer who created a uniquely Turkish interpretation of Islamic law compatible with democratic governance"
+      ],
+      "answer": "A Turkish military commander who led the Turkish War of Independence (1919-1923), abolished the Ottoman Sultanate and Caliphate, founded the Turkish Republic (1923), and aggressively secularized the country — adopting the Latin alphabet, Western legal codes, and separating religion from government",
+      "explanation": "Atatürk resisted Allied partition plans after WWI, won independence, then transformed Turkey: abolished the Islamic Caliphate (1924), replaced Arabic script with Latin in 18 months (1928), granted women's suffrage (1934 — before France or Italy), introduced surnames (Turks hadn't used them; parliament gave him 'Atatürk' = Father of Turks and forbade anyone else from using it).",
+      "memory_hook": "Atatürk gave Turks surnames in 1934 — they hadn't used them before. He replaced Arabic script with Latin in 18 months, meaning an entire country had to relearn reading. He abolished the Islamic Caliphate, ending a 1,400-year institution. He is the most radical peacetime reformer of any 20th century nation, reshaping Turkey's entire civilizational direction in under 15 years."
+    },
+    {
+      "category": "History",
+      "question": "What were the actual limitations of the Emancipation Proclamation (1863)?",
+      "options": [
+        "It immediately freed all enslaved people throughout the United States",
+        "It declared enslaved people in Confederate states 'forever free' — but applied ONLY to Confederate states where Lincoln had no control, not border states in the Union. It transformed the war's moral purpose and allowed Black men to enlist, but the 13th Amendment (1865) actually abolished slavery",
+        "It freed enslaved people only in border states loyal to the Union",
+        "It was purely a diplomatic document addressed to Britain and France with no domestic force"
+      ],
+      "answer": "It declared enslaved people in Confederate states 'forever free' — but applied ONLY to Confederate states where Lincoln had no control, not border states in the Union. It transformed the war's moral purpose and allowed Black men to enlist, but the 13th Amendment (1865) actually abolished slavery",
+      "explanation": "Lincoln's Proclamation was a war measure, not a law. It exempted border states (Missouri, Kentucky, Maryland, Delaware) he needed militarily. It declared free ~3.5 million enslaved people in Confederate territory where he had no enforcement power. Its symbolic effect was huge: it prevented Britain from recognizing the Confederacy (Britain had abolished slavery in 1833) and allowed 180,000 Black men to serve in Union forces. The 13th Amendment abolished slavery everywhere.",
+      "memory_hook": "The Emancipation Proclamation freed enslaved people where Lincoln had no power and didn't free them where he did. It was deliberately designed this way — he needed border states' loyalty. But it made the war explicitly about slavery, which prevented Britain from supporting the Confederacy. Strategic ambiguity served Lincoln's military aims; the 13th Amendment did the moral work."
+    },
+    {
+      "category": "Sports",
+      "question": "What was the 1972 Munich Olympics massacre?",
+      "options": [
+        "Israeli athletes boycotted Munich over anti-Semitic incidents; the IOC investigated German practices",
+        "Eleven Israeli athletes and coaches were taken hostage and killed by the Palestinian group Black September — the botched West German rescue attempt killed all 11 hostages. It transformed Olympic security worldwide and led to Israel's Mossad launching Operation Wrath of God",
+        "A Soviet athlete bombing at the stadium killed 20 spectators, leading to international security protocols",
+        "Soviet doping was discovered, leading to international anti-doping protocols"
+      ],
+      "answer": "Eleven Israeli athletes and coaches were taken hostage and killed by the Palestinian group Black September — the botched West German rescue attempt killed all 11 hostages. It transformed Olympic security worldwide and led to Israel's Mossad launching Operation Wrath of God",
+      "explanation": "On September 5, 1972, Black September took 11 Israeli athletes hostage, demanding release of Palestinian prisoners. The West German rescue attempt at Fürstenfeldbruck airbase failed catastrophically; all 11 hostages died. The IOC controversially resumed the Games after one day. Mossad launched Operation Wrath of God: years of targeted assassinations of the operation's planners, depicted in Spielberg's 2005 film Munich.",
+      "memory_hook": "After the massacre, IOC president Avery Brundage said 'the Games must go on' — resuming after just one day of mourning. Mossad then hunted down every planner of the attack across Europe, over years. One innocent Moroccan waiter was killed in error. The intelligence operation revealed how difficult it is to get revenge without creating new injustices."
+    },
+    {
+      "category": "Sports",
+      "question": "How does rugby fundamentally differ from American football?",
+      "options": [
+        "Rugby and American football are essentially identical; only player count differs (15 vs 11)",
+        "Rugby: players pass only backward, no protective padding, continuous play with no downs, any opponent can tackle the ball carrier. American football derived from rugby in the 1880s through Walter Camp's innovations (forward pass, line of scrimmage, downs)",
+        "Rugby uses helmets and pads; American football uses none. Rugby allows forward passes",
+        "Rugby is a non-contact sport; American football derives from it by adding tackling"
+      ],
+      "answer": "Rugby: players pass only backward, no protective padding, continuous play with no downs, any opponent can tackle the ball carrier. American football derived from rugby in the 1880s through Walter Camp's innovations (forward pass, line of scrimmage, downs)",
+      "explanation": "Rugby union (15-a-side) scoring: try = 5 pts, conversion = 2, penalty = 3, drop goal = 3. No pads beyond mouthguards. Play restarts via scrums and lineouts. American football evolved from rugby: Walter Camp invented the snap from center, line of scrimmage, 4 downs, and eventually the forward pass. New Zealand's All Blacks have won the Rugby World Cup 4 times — the most of any nation.",
+      "memory_hook": "American football evolved from rugby in the 1880s when Walter Camp invented the line of scrimmage and the forward pass. Rugby players wear no helmets or pads — which changes tackling technique fundamentally. Without pads, you wrap and bring down; with helmets, players lead with their head. CTE research focuses more on American football partly because the helmet creates false security that enables dangerous head-first contact."
+    },
+    {
+      "category": "Pop Culture",
+      "question": "Which 1939 film, adjusted for inflation, is the highest-grossing film ever and won 10 Academy Awards?",
+      "options": [
+        "Casablanca",
+        "Citizen Kane",
+        "Rebecca",
+        "Gone with the Wind"
+      ],
+      "answer": "Gone with the Wind",
+      "explanation": "Gone with the Wind (1939) won Best Picture and 9 other Oscars. Its adjusted-for-inflation gross (~$3.7 billion in 2022 dollars) makes it the highest-grossing film in history. Hattie McDaniel won Best Supporting Actress — the first Black performer to win an Academy Award, then sat at a segregated table at the back of the ceremony. The film romanticizes the antebellum South and slavery, drawing ongoing criticism.",
+      "memory_hook": "Hattie McDaniel won the first Oscar given to a Black performer, then was seated at a segregated table at the back of the ceremony. The film she won for romanticizes the slave system that people like her character lived under. She reportedly said she'd rather play a maid on screen than be one in real life. The contradiction — historic achievement, demeaning role, segregated ceremony — captures the era perfectly."
+    },
+    {
+      "category": "Pop Culture",
+      "question": "Which American author wrote 'The Grapes of Wrath' (1939) about Oklahoma migrants fleeing the Dust Bowl?",
+      "options": [
+        "William Faulkner",
+        "Theodore Dreiser",
+        "Ernest Hemingway",
+        "John Steinbeck"
+      ],
+      "answer": "John Steinbeck",
+      "explanation": "Steinbeck's The Grapes of Wrath (1939) won the Pulitzer and contributed to his 1962 Nobel Prize. It was banned and burned in Kern County, California (where it's set), called communist propaganda by landowners Steinbeck had accurately depicted exploiting migrant workers. Congress used it as evidence in migrant labor hearings.",
+      "memory_hook": "The Grapes of Wrath was burned in the county where it was set — Kern County, California landowners called it communist propaganda. Steinbeck had embedded with Okie migrants in actual camps; his descriptions were accurate enough to enrage those profiting from their exploitation. The novel sold 430,000 copies its first year and was used by Congress as evidence of real conditions."
+    },
+    {
+      "category": "Pop Culture",
+      "question": "Which British rock band, formed in 1962, is known as 'the world's greatest rock and roll band' and famous for 'Exile on Main St.'?",
+      "options": [
+        "The Who",
+        "The Kinks",
+        "Led Zeppelin",
+        "The Rolling Stones"
+      ],
+      "answer": "The Rolling Stones",
+      "explanation": "The Rolling Stones got their name from a Muddy Waters song. Mick Jagger and Keith Richards met on a train when Richards noticed Jagger carrying Chess Records albums. The phrase 'world's greatest rock and roll band' came from their 1969 American tour promotional materials. Exile on Main St. (1972) was recorded in Richards' French basement while he was a tax exile.",
+      "memory_hook": "Keith Richards met Mick Jagger on a train because Richards noticed he was carrying American blues records. Their shared obsession with Black American music became the Rolling Stones' entire foundation. They're now in their 60th year of touring. Charlie Watts played drums for 58 of those years. 'Exile on Main St.' was recorded while Richards was literally hiding from British tax authorities in France."
+    },
+    {
+      "category": "Geography",
+      "question": "What are the two source rivers of the Nile, and where do they meet?",
+      "options": [
+        "The Blue Nile and Green Nile, both from Ethiopia",
+        "The White Nile (from Lake Victoria, Uganda/Tanzania/Kenya) and the Blue Nile (from Lake Tana, Ethiopia), meeting at Khartoum, Sudan. The Blue Nile provides ~80% of volume and most fertile silt; the White Nile provides consistent year-round flow",
+        "The Nile has one source — Lake Tanganyika — and splits into two branches in Sudan",
+        "The two sources are in Libya (White) and Egypt (Blue), converging near Alexandria"
+      ],
+      "answer": "The White Nile (from Lake Victoria, Uganda/Tanzania/Kenya) and the Blue Nile (from Lake Tana, Ethiopia), meeting at Khartoum, Sudan. The Blue Nile provides ~80% of volume and most fertile silt; the White Nile provides consistent year-round flow",
+      "explanation": "The Blue Nile's seasonal Ethiopian monsoon flooding deposited rich silt in Egypt's farmlands — the basis of Egyptian civilization. Egypt is now in dispute with Ethiopia over the Grand Ethiopian Renaissance Dam on the Blue Nile, which reduces downstream flow to Egypt's 100 million people who depend almost entirely on the Nile.",
+      "memory_hook": "Egypt's civilization was built on Blue Nile floods — Ethiopian monsoons filling the river, flooding Egypt, depositing silt that made Egyptian soil extraordinarily fertile for 5,000 years. Now Ethiopia has dammed the Blue Nile. Egypt calls it an existential threat. The same river that created Egypt's civilization is now the source of its most pressing geopolitical crisis."
+    },
+    {
+      "category": "Geography",
+      "question": "What is the Ring of Fire and what percentage of the world's earthquakes occur along it?",
+      "options": [
+        "A chain of volcanoes in southern Europe; 20% of earthquakes",
+        "A 40,000 km horseshoe around the Pacific Ocean where 90% of the world's earthquakes and 75% of active volcanoes occur, caused by Pacific tectonic plates being subducted under surrounding plates",
+        "A feature of the Indian Ocean unrelated to Pacific seismics",
+        "The Pacific's warm currents fueling tropical storms, unrelated to seismics"
+      ],
+      "answer": "A 40,000 km horseshoe around the Pacific Ocean where 90% of the world's earthquakes and 75% of active volcanoes occur, caused by Pacific tectonic plates being subducted under surrounding plates",
+      "explanation": "The Ring of Fire runs from New Zealand through Japan, Aleutians, US West Coast, down South America's Andes. Countries in the Ring include Japan, Indonesia, Philippines, USA (Alaska, California), Chile. Japan sits on four tectonic plates simultaneously — the most seismically complex country on Earth. The 2011 Tōhoku earthquake (9.0) moved Japan's main island 2.4 meters toward North America.",
+      "memory_hook": "Japan sits on four tectonic plates simultaneously — Pacific, North American, Eurasian, and Philippine. The 2011 earthquake moved Japan 2.4 meters toward North America and shifted Earth's axis slightly. The tsunami that followed killed ~20,000 people and triggered the Fukushima nuclear disaster. It's the most geologically precarious location any major industrial civilization occupies."
+    },
+    {
+      "category": "Science & Nature",
+      "question": "What is RNA interference (RNAi) and why did it earn the 2006 Nobel Prize?",
+      "options": [
+        "A viral process that suppresses the immune system, discovered to explain HIV persistence",
+        "A cellular mechanism where small RNA molecules silence specific genes by degrading their messenger RNA. Discovered by Andrew Fire and Craig Mello, it revealed a new layer of gene regulation. Applications include cancer therapy and the first approved RNAi drug (patisiran, 2018)",
+        "An error in protein synthesis that causes Huntington's disease",
+        "The process of inserting synthetic RNA to add new genes — essentially the same as mRNA vaccines"
+      ],
+      "answer": "A cellular mechanism where small RNA molecules silence specific genes by degrading their messenger RNA. Discovered by Andrew Fire and Craig Mello, it revealed a new layer of gene regulation. Applications include cancer therapy and the first approved RNAi drug (patisiran, 2018)",
+      "explanation": "Fire and Mello found (in roundworms, 1998) that double-stranded RNA triggers degradation of matching messenger RNA sequences — a gene 'off switch.' The cell uses this naturally to regulate genes and defend against RNA viruses. The first RNAi drug (patisiran) was approved in 2018. microRNAs (miRNAs) are a related system regulating ~60% of human genes.",
+      "memory_hook": "Before RNAi, scientists thought gene regulation happened mostly at the transcription level. Fire and Mello found a whole additional layer: the cell produces small RNA molecules that hunt and destroy specific messenger RNAs before they become proteins. It can silence any gene. The first drug using this mechanism was approved in 2018, 20 years after the discovery. The cell's own gene-silencing machinery is now a pharmaceutical tool."
+    },
+    {
+      "category": "Science & Nature",
+      "question": "What evidence convinced scientists in the 1960s that continental drift (plate tectonics) was correct?",
+      "options": [
+        "GPS measurements showing continental movement in real time, only possible with 1972 satellite technology",
+        "Seafloor spreading: symmetric magnetic stripes on either side of mid-ocean ridges recorded Earth's magnetic reversals, proving the seafloor spreads apart. Harry Hess proposed this in the 1960s, finally confirming Wegener's 1912 theory after 50 years of rejection",
+        "Carbon dating showing matching fossils on opposite continents were deposited simultaneously",
+        "Apollo mission moon rocks showing Earth's plates had moved based on lunar gravitational analysis"
+      ],
+      "answer": "Seafloor spreading: symmetric magnetic stripes on either side of mid-ocean ridges recorded Earth's magnetic reversals, proving the seafloor spreads apart. Harry Hess proposed this in the 1960s, finally confirming Wegener's 1912 theory after 50 years of rejection",
+      "explanation": "Scientists rejected Wegener (1912) because no mechanism existed. 1950s-60s Cold War submarine mapping revealed mid-ocean ridges. Paleomagnetism: magma cooling at ridges records Earth's magnetic polarity; because Earth's field periodically reverses, the seafloor shows alternating magnetic stripes — identical on both sides of ridges, proving symmetric spreading. This mechanism (mantle convection driving plates) completed Wegener's theory. The scientific community converted from rejection to acceptance in under a decade.",
+      "memory_hook": "Cold War submarine mapping was done to find places to hide submarines. Scientists noticed the ocean floor was magnetized in alternating stripes matching Earth's magnetic reversals — proof that the seafloor was spreading symmetrically from the ridges. The mechanism Wegener was missing for 50 years was discovered accidentally by military research. His 1912 theory was confirmed in the 1960s by Cold War technology designed for something else entirely."
+    }
+  ]
+}

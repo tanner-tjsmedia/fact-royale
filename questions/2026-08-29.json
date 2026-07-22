@@ -94,16 +94,16 @@
     },
     {
       "category": "Science & Nature",
-      "question": "What is the medical term for the human body's largest organ, which protects against infection and regulates temperature?",
+      "question": "Frank Drake proposed his famous equation in 1961 at the first SETI conference. What does the Drake Equation attempt to calculate, and what makes it so controversial?",
       "options": [
-        "Skin",
-        "Liver",
-        "Brain",
-        "Intestines"
+        "The Drake Equation calculates the minimum technological level required for a civilization to establish radio communication — it's controversial because it implies only industrial civilizations can communicate",
+        "The Drake Equation estimates the number of communicating civilizations currently in the Milky Way by multiplying factors like star formation rate, fraction with planets, and fraction that develop intelligent life — but most factors are unknown, giving answers ranging from zero to millions",
+        "The Drake Equation calculates the time it would take for a radio signal from Earth to reach the nearest technological civilization — it's controversial because it implies contact is impossible within any human lifespan",
+        "The Drake Equation is a probability formula for the survival of any given civilization beyond its first 1,000 years — it's controversial because it predicts most civilizations destroy themselves before achieving interstellar communication"
       ],
-      "answer": "Skin",
-      "explanation": "The skin (integumentary system) covers approximately 1.5-2 m² and weighs about 3.5 kg — making it the body's largest organ. It has three layers: epidermis, dermis, and hypodermis. Skin regenerates completely approximately every 27 days and is home to over 1,000 species of bacteria.",
-      "memory_hook": "Skin = largest organ. 1.5-2m², renews every 27 days, hosts 1,000+ bacterial species."
+      "answer": "The Drake Equation estimates the number of communicating civilizations currently in the Milky Way by multiplying factors like star formation rate, fraction with planets, and fraction that develop intelligent life — but most factors are unknown, giving answers ranging from zero to millions",
+      "explanation": "N = R* × fp × ne × fl × fi × fc × L — the equation multiplies: rate of star formation, fraction of stars with planets, number of habitable planets per system, fraction where life emerges, fraction that develop intelligence, fraction that develop detectable technology, and average lifespan of such civilizations. The first few factors are now reasonably well-constrained by exoplanet surveys; the biological and cultural factors (fl, fi, fc, L) remain entirely unknown. The last term 'L' — how long civilizations last — may be the key: if most destroy themselves quickly, N approaches zero. Drake himself estimated about 10 civilizations in the Milky Way right now.",
+      "memory_hook": "The Drake Equation is essentially multiplication organized ignorance — most of its 7 factors are unknown. The most chilling term is 'L': how long does an intelligent civilization survive? If most destroy themselves quickly, the equation predicts we're alone. Drake himself estimated maybe 10 civilizations in the Milky Way."
     },
     {
       "category": "Geography",

@@ -41,16 +41,16 @@
     },
     {
       "category": "Sports",
-      "question": "Which country has won the most Cricket World Cup titles?",
+      "question": "Barry Bonds set the MLB single-season home run record in 2001. How many did he hit, and what controversy surrounds the record?",
       "options": [
-        "England",
-        "India",
-        "Australia",
-        "West Indies"
+        "61 home runs; controversy over whether it should surpass Roger Maris's mark",
+        "73 home runs; Bonds was later linked to performance-enhancing drugs during the BALCO investigation, leading many to view the record as tainted",
+        "70 home runs; Bonds allegedly corked his bat in several games that season",
+        "68 home runs; a scheduling dispute meant some games were played in neutral sites, inflating his opportunities"
       ],
-      "answer": "Australia",
-      "explanation": "Australia has won the ICC Cricket World Cup five times (1987, 1999, 2003, 2007, 2015), more than any other country. Their 1999–2007 run included three consecutive titles, one of the most dominant periods in World Cup history.",
-      "memory_hook": "Australia = 5 cups in cricket. Kangaroos jump to the top."
+      "answer": "73 home runs; Bonds was later linked to performance-enhancing drugs during the BALCO investigation, leading many to view the record as tainted",
+      "explanation": "Bonds hit 73 home runs in 2001, breaking Mark McGwire's 1998 record of 70 (which had broken Maris's 1961 record of 61). The BALCO investigation revealed widespread steroid use in baseball during this era. Bonds was convicted of obstruction of justice in 2011 (later overturned). The Baseball Hall of Fame has kept him out despite his statistics — 762 career home runs — reflecting baseball's ongoing reckoning with the 'Steroid Era.'",
+      "memory_hook": "Bonds hit 73 home runs in 2001 — the all-time single-season record — but the BALCO scandal linked him to steroids and has kept him out of the Hall of Fame despite 762 career home runs."
     },
     {
       "category": "Pop Culture",
@@ -119,16 +119,16 @@
     },
     {
       "category": "Science & Nature",
-      "question": "What process do plants use to convert sunlight into food?",
+      "question": "Carl Sagan famously said 'We are made of star stuff.' What is the scientific basis for this statement?",
       "options": [
-        "Respiration",
-        "Fermentation",
-        "Osmosis",
-        "Photosynthesis"
+        "All atoms on Earth arrived via meteorites that fell from dying stars, meaning every element in the human body was physically inside a star before it was ejected into space",
+        "Nearly every element heavier than hydrogen and helium — the carbon in DNA, the iron in blood, the calcium in bones — was forged inside stars through nuclear fusion and scattered by supernova explosions",
+        "Earth formed from the remnants of a star that existed before the Sun, meaning Earth itself is literally a dead star, and all life on it is made of stellar material",
+        "The statement is poetic, not scientific — while stars produce elements, those elements are not the same atoms in our bodies, which were assembled from Earth's primordial ocean chemistry"
       ],
-      "answer": "Photosynthesis",
-      "explanation": "Photosynthesis is the process by which plants, algae, and some bacteria convert sunlight, carbon dioxide, and water into glucose and oxygen. It occurs primarily in chloroplasts, which contain chlorophyll — the green pigment that captures light energy. Almost all life on Earth ultimately depends on photosynthesis for energy.",
-      "memory_hook": "Photosynthesis = sunlight + CO2 + water → sugar + oxygen. Plants eat sunlight. Every plant, every tree — running entirely on light, air, and water."
+      "answer": "Nearly every element heavier than hydrogen and helium — the carbon in DNA, the iron in blood, the calcium in bones — was forged inside stars through nuclear fusion and scattered by supernova explosions",
+      "explanation": "The Big Bang produced only hydrogen, helium, and trace lithium. Every heavier element was manufactured inside stars through nuclear fusion — helium fuses into carbon, carbon into oxygen, oxygen into silicon, and so on up to iron. Elements heavier than iron (gold, uranium) are forged in neutron star mergers and supernovae. When massive stars explode, they scatter these elements into space; our solar system formed from this enriched gas cloud 4.6 billion years ago. The iron in hemoglobin and the calcium in bones were literally inside earlier stars.",
+      "memory_hook": "The Big Bang only made hydrogen and helium. Everything heavier — the carbon in your DNA, the iron in your blood, the gold in jewelry — was fused inside stars and scattered by supernovae. Carl Sagan's 'We are made of star stuff' is not poetry; it's nuclear physics."
     },
     {
       "category": "Geography",

@@ -1,0 +1,161 @@
+{
+  "date": "2026-12-01",
+  "questions": [
+    {
+      "category": "History",
+      "question": "What was the Peloponnesian War and why is Thucydides's account of it historically significant?",
+      "options": [
+        "The Peloponnesian War was Rome's conquest of Greece in 338 BC; Thucydides was a Roman general who recorded the campaign",
+        "The Peloponnesian War (431-404 BC) pitted Athens against Sparta and their respective allies. Athens lost, ending the classical Greek golden age. Thucydides's History of the Peloponnesian War is considered the first work of genuine historiography — analyzing events through evidence and human causation rather than divine intervention. His 'Melian Dialogue' is an early study of power politics",
+        "The Peloponnesian War was an Athenian civil war between democrats and oligarchs; Thucydides was the leader of the democratic faction who escaped to write his account",
+        "The Peloponnesian War was fought between Greece and Persia; Athens defeated Persia but Thucydides documented the costly victory"
+      ],
+      "answer": "The Peloponnesian War (431-404 BC) pitted Athens against Sparta and their respective allies. Athens lost, ending the classical Greek golden age. Thucydides's History of the Peloponnesian War is considered the first work of genuine historiography — analyzing events through evidence and human causation rather than divine intervention. His 'Melian Dialogue' is an early study of power politics",
+      "explanation": "The Peloponnesian War lasted 27 years. Key events: the Plague of Athens (430 BC, killed ~25% of Athens's population including Pericles), the Sicilian Expedition (415 BC — Athens's catastrophic attempt to conquer Sicily, losing 40,000 men and 200 ships), and Sparta's final victory with Persian financial support. Thucydides (c.460-400 BC) was an Athenian general exiled for a military failure; he used his exile to gather evidence and interview participants. The 'Melian Dialogue' — Athenians telling neutral Melians they must submit or die ('the strong do what they can, and the weak suffer what they must') — is still taught in international relations courses.",
+      "memory_hook": "Thucydides wrote the world's first evidence-based historical analysis while exiled for a military failure he himself had suffered. He wrote: 'The strong do what they can and the weak suffer what they must' — in the mouth of Athenian ambassadors threatening to destroy a neutral island. Athens destroyed Melos anyway. This passage is assigned in international relations courses to explain realpolitik. Thucydides is 2,400 years old and still describes how powerful nations behave toward weaker ones."
+    },
+    {
+      "category": "History",
+      "question": "What was the significance of the Nuremberg Trials (1945-1946)?",
+      "options": [
+        "The Nuremberg Trials were war crimes proceedings against Soviet leadership for the Katyn Forest Massacre; they established international criminal law for communist atrocities",
+        "The Nuremberg Trials were the first international military tribunal holding individuals criminally responsible for war crimes, crimes against peace, and crimes against humanity. Twenty-four senior Nazi leaders were tried; 12 received death sentences. The trials established that 'following orders' is not a legal defense and created the framework for international criminal law and the later International Criminal Court",
+        "The Nuremberg Trials were held secretly by the Allied powers; no convictions were obtained because Nazi defendants destroyed all incriminating documents",
+        "The Nuremberg Trials were a show trial with predetermined verdicts; defendants had no access to lawyers and could not present evidence in their defense"
+      ],
+      "answer": "The Nuremberg Trials were the first international military tribunal holding individuals criminally responsible for war crimes, crimes against peace, and crimes against humanity. Twenty-four senior Nazi leaders were tried; 12 received death sentences. The trials established that 'following orders' is not a legal defense and created the framework for international criminal law and the later International Criminal Court",
+      "explanation": "International Military Tribunal at Nuremberg (November 1945 – October 1946): US, UK, France, and USSR jointly prosecuted 24 Nazi leaders. Defendants: Hermann Göring (convicted, died by cyanide capsule night before execution), Rudolf Hess (life imprisonment), Albert Speer (20 years), and others. The 'superior orders' defense was explicitly rejected: individuals are personally responsible even if acting under government orders. This established individual criminal responsibility in international law. The UN's subsequent Nuremberg Principles (1950) codified genocide, crimes against humanity, and war crimes as international crimes. The International Criminal Court (1998) traces to Nuremberg.",
+      "memory_hook": "Hermann Göring was convicted and sentenced to hang, then killed himself with a cyanide capsule the night before his execution — smuggled in somehow despite 24-hour guard. He denied all knowledge of the Holocaust despite mountains of evidence. The Nuremberg defense ('I was following orders') was specifically rejected: if following orders required crimes against humanity, you were obligated to disobey. This principle was later invoked at the Eichmann trial (1961, Jerusalem) and at every subsequent war crimes tribunal."
+    },
+    {
+      "category": "History",
+      "question": "What were the Crusades and what were their long-term consequences?",
+      "options": [
+        "The Crusades were a series of Arab military expeditions to conquer Europe from 710 AD to 1492",
+        "The Crusades (1095-1291) were a series of Christian military expeditions ordered by Popes to recapture Jerusalem and the Holy Land from Muslim control. Nine major Crusades occurred. The First Crusade succeeded; subsequent Crusades generally failed. The Crusades accelerated trade and cultural exchange between Europe and the Middle East, introduced Arab science and philosophy to Europe, and created lasting hostility in Muslim collective memory",
+        "The Crusades were entirely successful — all nine recaptured and permanently held Jerusalem until 1800",
+        "The Crusades were internal European religious conflicts; Muslims were not involved until the Fourth Crusade accidentally attacked Constantinople"
+      ],
+      "answer": "The Crusades (1095-1291) were a series of Christian military expeditions ordered by Popes to recapture Jerusalem and the Holy Land from Muslim control. Nine major Crusades occurred. The First Crusade succeeded; subsequent Crusades generally failed. The Crusades accelerated trade and cultural exchange between Europe and the Middle East, introduced Arab science and philosophy to Europe, and created lasting hostility in Muslim collective memory",
+      "explanation": "First Crusade (1095-1099): Pope Urban II's call; Crusaders captured Jerusalem (1099), massacring Jews and Muslims. The Crusader states (Kingdom of Jerusalem, etc.) lasted until Saladin recaptured Jerusalem (1187) and the last Crusader city (Acre) fell in 1291. The Fourth Crusade (1202-1204) never reached Jerusalem — it sacked Constantinople instead, permanently damaging Byzantine-Catholic relations. Cultural consequences: European exposure to Arab mathematics (algebra, Arabic numerals), medicine (Avicenna), and philosophy (Aristotle preserved in Arabic); the Reconquista in Spain; medieval anti-Semitism intensified by Crusade pogroms; in Muslim memory, 'Crusade' remains a potent historical metaphor.",
+      "memory_hook": "The Fourth Crusade never made it to Jerusalem — it sacked Constantinople instead, the capital of Christian Byzantium. Crusaders looted Christian churches and killed Christians in the most holy city of Eastern Christianity. The event destroyed Catholic-Orthodox relations for centuries (they reunified only recently). When Pope John Paul II apologized for the Crusades in 2001, he was partly apologizing for Crusaders attacking fellow Christians more than Muslims."
+    },
+    {
+      "category": "Sports",
+      "question": "Tyson Fury's boxing career featured one of the most dramatic comebacks in sports history. What makes his story remarkable?",
+      "options": [
+        "He came out of a 10-year prison sentence to win the WBC heavyweight title within 18 months",
+        "He was stripped of all his titles due to mental health struggles and addiction, ballooned to over 27 stone, yet returned to beat Wladimir Klitschko's conqueror Deontay Wilder in a trilogy",
+        "He retired at 28 after his first professional loss, then returned at 35 to win three world titles simultaneously",
+        "He became the first heavyweight champion to win titles in three separate decades"
+      ],
+      "answer": "He was stripped of all his titles due to mental health struggles and addiction, ballooned to over 27 stone, yet returned to beat Wladimir Klitschko's conqueror Deontay Wilder in a trilogy",
+      "explanation": "After shocking Wladimir Klitschko to win the world heavyweight title in 2015, Fury fell into severe depression, cocaine addiction, and obesity — ballooning to over 27 stone (380 lbs). He was stripped of his titles and many wrote off his career. His return in 2018, culminating in the iconic knockdown and recovery against Deontay Wilder, is considered one of sport's great comeback stories. He beat Wilder three times and later unified most heavyweight titles.",
+      "memory_hook": "Fury rose from 380 lbs, depression, and cocaine addiction to knock Deontay Wilder down twice and reclaim the heavyweight title — the 'Gypsy King's' comeback is one of sport's most raw redemption arcs."
+    },
+    {
+      "category": "Sports",
+      "question": "What is the significance of the Boston Marathon as a sporting event?",
+      "options": [
+        "The Boston Marathon is the world's oldest annual marathon, held since 1897, run on Patriots' Day in April. It is known for its qualifying standards (fastest amateurs must meet specific time standards to enter), the Heartbreak Hill challenge, and the 2013 bombing that killed 3 and injured 264 near the finish line",
+        "The Boston Marathon began in 1920 as a Memorial Day race; it is the world's largest marathon by participant count",
+        "The Boston Marathon is the only major marathon where prize money is not awarded; its prestige comes from its amateur status",
+        "The Boston Marathon has been held since 1876 — the year the first professional marathon took place in Greece following the ancient Olympic tradition"
+      ],
+      "answer": "The Boston Marathon is the world's oldest annual marathon, held since 1897, run on Patriots' Day in April. It is known for its qualifying standards (fastest amateurs must meet specific time standards to enter), the Heartbreak Hill challenge, and the 2013 bombing that killed 3 and injured 264 near the finish line",
+      "explanation": "The Boston Marathon (first run April 19, 1897) was inspired by the 1896 Athens Olympics marathon. Patriots' Day (Massachusetts state holiday, third Monday in April) commemorates the battles of Lexington and Concord. The qualifying time system makes it the most prestigious amateur marathon. Heartbreak Hill (Newton, mile 20) is the last significant hill near the end when runners' glycogen reserves are depleted. Kathrine Switzer was the first woman to officially run Boston in 1967 (race director tried to physically remove her mid-race). The 2013 Tsarnaev bombing killed 3 people and injured 264 near the finish line.",
+      "memory_hook": "Kathrine Switzer entered the 1967 Boston Marathon using her initials (K.V. Switzer) because women weren't allowed. Race director Jock Semple tried to physically push her off the course mid-race. Her boyfriend threw a block on Semple; she finished. Photos of the confrontation ran nationwide. Women were officially allowed to run Boston in 1972. The 2013 bombing killed 3 people; the city responded by making the following year's marathon the largest in history — 36,000 runners, millions of spectators. Boston used the marathon to refuse to be defined by the bombing."
+    },
+    {
+      "category": "Pop Culture",
+      "question": "Which 1972 film by Francis Ford Coppola is often called the greatest American film ever made?",
+      "options": [
+        "Apocalypse Now",
+        "The Conversation",
+        "American Graffiti",
+        "The Godfather"
+      ],
+      "answer": "The Godfather",
+      "explanation": "The Godfather (1972) — based on Mario Puzo's novel — follows the Corleone Mafia family after patriarch Vito Corleone (Marlon Brando) is wounded. Michael Corleone (Al Pacino) transforms from reluctant innocent to ruthless don. The film won Best Picture, Best Actor (Brando — who famously refused the award), and Best Adapted Screenplay. It became the highest-grossing film ever at the time. Iconic lines: 'I'm gonna make him an offer he can't refuse,' 'Leave the gun, take the cannoli,' 'Just when I thought I was out, they pull me back in.' Brando studied real Mafia dons to play Vito.",
+      "memory_hook": "Marlon Brando refused the Oscar for Best Actor for The Godfather — sending Apache actress Sacheen Littlefeather to decline on his behalf to protest Hollywood's portrayal of Native Americans. The Academy audience booed; Brando had predicted they would. He had stuffed his cheeks with cotton wool to simulate the Vito's jowls, trained extensively for the low voice, and based the character on real Mafia figures. The combination produced what Roger Ebert called 'one of the great dramatic performances in film history' — Brando then refused the award."
+    },
+    {
+      "category": "Pop Culture",
+      "question": "Which 1984 song by Michael Jackson featured a groundbreaking music video and is the longest music video of its era?",
+      "options": [
+        "Billie Jean",
+        "Beat It",
+        "Bad",
+        "Thriller"
+      ],
+      "answer": "Thriller",
+      "explanation": "Michael Jackson's 'Thriller' (released November 14, 1983) has a 13-minute and 43-second music video directed by John Landis (An American Werewolf in London). It premiered on MTV in December 1983, and 'making of' specials drew huge audiences. The video showed Jackson transforming into a werewolf, then into a zombie, leading a dance number with 40+ zombies in choreography by Michael Peters. It was the first music video inducted into the Library of Congress's National Film Registry. Thriller (the album) has sold 66-70 million copies — the best-selling album ever.",
+      "memory_hook": "John Landis was hired to direct the Thriller video after An American Werewolf in London. The video cost $500,000 — an astronomical budget for a music video in 1983. MTV had to run it as a 'world premiere' special because it was too long for regular rotation. A 'making of' documentary aired the same week. The entire package — album, video, documentary — created the modern era of the music video as a short film. Every subsequent music video with a cinematic ambition is directly in Thriller's debt."
+    },
+    {
+      "category": "Pop Culture",
+      "question": "Which 1998 film by Steven Spielberg depicting the D-Day landings won 5 Academy Awards?",
+      "options": [
+        "Full Metal Jacket",
+        "Born on the Fourth of July",
+        "Apocalypse Now",
+        "Saving Private Ryan"
+      ],
+      "answer": "Saving Private Ryan",
+      "explanation": "Saving Private Ryan (1998) opens with a 27-minute sequence depicting the Omaha Beach landing on D-Day (June 6, 1944) — widely considered the most realistic combat sequence ever filmed. Spielberg used handheld cameras, desaturated color, and explicit violence to replicate the chaos and horror. The film follows Tom Hanks (Captain John Miller) leading a squad to find and return Private Ryan (Matt Damon), whose brothers have all been killed. It won 5 Oscars including Best Director (Spielberg) but lost Best Picture to Shakespeare in Love. Many WWII veterans reported it was the most accurate depiction of combat they had seen.",
+      "memory_hook": "The Saving Private Ryan opening sequence caused veterans to leave theaters in distress — not because it was inaccurate but because it was too accurate. Spielberg deliberately created physical distress in viewers to communicate what soldiers experienced. The handheld camera conveys the inability to know where fire is coming from. Many veterans who'd never spoken about D-Day described watching the film as reliving trauma. The Academy gave Spielberg Best Director but chose Shakespeare in Love for Best Picture — still considered one of the most controversial Oscar decisions."
+    },
+    {
+      "category": "Geography",
+      "question": "What is the significance of the Adriatic Sea and the Balkans' geography?",
+      "options": [
+        "The Adriatic Sea is a freshwater lake in central Europe; the Balkans are mountain ranges in Russia",
+        "The Adriatic Sea separates Italy from the Balkan Peninsula (Slovenia, Croatia, Bosnia-Herzegovina, Montenegro, Albania). The Balkans' rugged mountainous terrain historically impeded political unification, fostering ethnic and religious fragmentation. The region was a late-19th century crisis zone (where the Ottoman, Austro-Hungarian, and Russian empires competed) and triggered WWI. Yugoslavia's breakup (1991-2001) in the same terrain produced the deadliest European conflict since WWII",
+        "The Adriatic Sea is an arm of the Pacific Ocean; the Balkan Peninsula forms the eastern boundary of Western Europe",
+        "The Balkans have always been a unified political entity; the term 'Balkanization' is a modern coinage without historical basis"
+      ],
+      "answer": "The Adriatic Sea separates Italy from the Balkan Peninsula (Slovenia, Croatia, Bosnia-Herzegovina, Montenegro, Albania). The Balkans' rugged mountainous terrain historically impeded political unification, fostering ethnic and religious fragmentation. The region was a late-19th century crisis zone (where the Ottoman, Austro-Hungarian, and Russian empires competed) and triggered WWI. Yugoslavia's breakup (1991-2001) in the same terrain produced the deadliest European conflict since WWII",
+      "explanation": "The Balkans: a mountainous peninsula in southeastern Europe bordered by the Adriatic, Ionian, Aegean, Black, and Marmara Seas. The mountains create natural barriers that historically allowed distinct communities to survive in relative isolation — producing extraordinary linguistic, religious, and ethnic diversity. 'Balkanization' entered political vocabulary to describe any region fragmenting into small, hostile units. The Srebrenica massacre (1995, Bosnia) — 8,000 Bosniak Muslim men and boys killed by Bosnian Serb forces — was Europe's worst atrocity since WWII. The International Criminal Court's convictions for the Srebrenica genocide were landmark rulings.",
+      "memory_hook": "The word 'Balkanize' entered English to describe political fragmentation — it comes from the Balkans' history of diversity that empires couldn't fully unify. The same terrain that produced this diversity in ancient times produced Yugoslavia's violent disintegration in the 1990s. Srebrenica (1995) was 8,000 men and boys killed in 5 days while UN peacekeepers watched from a nearby compound. The ICJ ruled it genocide in 2007. Europe's worst atrocity since WWII happened 50 years after Nuremberg established genocide as an international crime."
+    },
+    {
+      "category": "Geography",
+      "question": "What is the significance of the Panama Canal to global shipping?",
+      "options": [
+        "The Panama Canal connects the Atlantic to the Indian Ocean through Central America, saving ships from going around Africa",
+        "The Panama Canal (51 miles, connecting the Atlantic/Caribbean to the Pacific through Panama) allows ships to travel between oceans without going around South America — saving approximately 8,000 miles. Completed in 1914 by the US, it was transferred to Panamanian control in 1999. It uses a series of locks to raise and lower ships over the continental divide",
+        "The Panama Canal is a natural waterway through the isthmus of Panama that was deepened by French engineers in the 1880s and has required no maintenance since",
+        "The Panama Canal was built by Panama in the 1940s and sold to the United States in 1955 for strategic defense"
+      ],
+      "answer": "The Panama Canal (51 miles, connecting the Atlantic/Caribbean to the Pacific through Panama) allows ships to travel between oceans without going around South America — saving approximately 8,000 miles. Completed in 1914 by the US, it was transferred to Panamanian control in 1999. It uses a series of locks to raise and lower ships over the continental divide",
+      "explanation": "The French first attempted the Canal (1880-1889) under Ferdinand de Lesseps (who built Suez) — they failed catastrophically: 22,000+ workers died from yellow fever and malaria, and de Lesseps went bankrupt. The US acquired the rights, used medicine (Walter Reed and William Gorgas controlled yellow fever through mosquito eradication), and completed it in 1914. The Canal uses 3 lock systems; ships are raised 26m to Gatun Lake, then lowered back to sea level. Tolls generate ~$4 billion/year for Panama. The US transferred control in 1999 under Carter-Torrijos Treaties (1977).",
+      "memory_hook": "France's first attempt to build the Panama Canal killed 22,000 workers from disease and went bankrupt. The US succeeded by killing mosquitoes — Walter Reed and William Gorgas used systematic mosquito control to eliminate yellow fever. The canal was ultimately possible not because of better engineering but because of better medicine. 'Panamax' ships (the largest that fit through the original locks) became an entire category of ship design. The expanded canal (2016) now handles 'Neo-Panamax' vessels 3.5 times larger."
+    },
+    {
+      "category": "Science & Nature",
+      "question": "What is the difference between a genetically modified organism (GMO) and traditional plant breeding?",
+      "options": [
+        "GMOs and traditional breeding are identical processes; GMO is simply the modern term for selective breeding",
+        "Traditional plant breeding crosses related organisms through sexual reproduction and selects for favorable traits over many generations. GMOs use biotechnology to insert, delete, or modify specific genes — including from other species — in a single step. GMOs can introduce traits impossible through traditional breeding (e.g., Bt corn with a bacterial gene for insect resistance). Scientific consensus: approved GMOs are safe to eat; environmental impacts require case-by-case assessment",
+        "GMOs are identical to traditional breeding except they are done in laboratories rather than fields; no genetic difference exists between GMO and non-GMO crops",
+        "Traditional breeding only works within species; GMOs are defined as crosses between unrelated animal species and plants"
+      ],
+      "answer": "Traditional plant breeding crosses related organisms through sexual reproduction and selects for favorable traits over many generations. GMOs use biotechnology to insert, delete, or modify specific genes — including from other species — in a single step. GMOs can introduce traits impossible through traditional breeding (e.g., Bt corn with a bacterial gene for insect resistance). Scientific consensus: approved GMOs are safe to eat; environmental impacts require case-by-case assessment",
+      "explanation": "Traditional breeding has modified crops for 10,000+ years — modern corn (maize) is unrecognizable from its ancestor teosinte. Golden Rice (GMO rice with beta-carotene genes from daffodil and bacteria) is designed to address Vitamin A deficiency in developing countries (300,000-500,000 children go blind annually from deficiency). CRISPR now allows gene editing without foreign DNA insertion. Scientific bodies (WHO, National Academies, American Medical Association) have found no health risks from approved GMOs. Environmental concerns (herbicide resistance evolution, monoculture dependence) are legitimate agronomic questions separate from food safety.",
+      "memory_hook": "Golden Rice is a GMO designed to save children's eyesight in countries where rice is the primary food and Vitamin A deficiency causes blindness in hundreds of thousands of children annually. It inserts beta-carotene production (which makes carrots orange) into white rice. Anti-GMO activists destroyed field trials in the Philippines. The debate about GMOs conflates three separate questions: food safety (scientific consensus: safe), environmental impact (case-by-case), and corporate control of agriculture (political/economic). Conflating them has delayed potentially life-saving crops."
+    },
+    {
+      "category": "Science & Nature",
+      "question": "What is the difference between renewable and non-renewable energy, and what percentage of global energy currently comes from renewables?",
+      "options": [
+        "Renewable energy currently supplies 80% of global electricity; fossil fuels are used primarily for transportation",
+        "Non-renewable energy (coal, oil, natural gas, nuclear) comes from finite sources. Renewable energy (solar, wind, hydro, geothermal, biomass) replenishes naturally. As of the mid-2020s, renewables supply approximately 30% of global electricity generation (up from ~20% in 2015), but only about 14-20% of total final energy consumption (which includes heating and transportation, still dominated by fossil fuels). Solar capacity is growing faster than any energy technology in history",
+        "Renewables supply 5% of global electricity; nuclear power provides the majority of low-carbon energy worldwide",
+        "The distinction between renewable and non-renewable is outdated; all modern energy sources are considered renewable under revised UN definitions"
+      ],
+      "answer": "Non-renewable energy (coal, oil, natural gas, nuclear) comes from finite sources. Renewable energy (solar, wind, hydro, geothermal, biomass) replenishes naturally. As of the mid-2020s, renewables supply approximately 30% of global electricity generation (up from ~20% in 2015), but only about 14-20% of total final energy consumption (which includes heating and transportation, still dominated by fossil fuels). Solar capacity is growing faster than any energy technology in history",
+      "explanation": "Global energy (2024 estimates): electricity generation: solar ~5%, wind ~8%, hydro ~14%, other renewables ~3% = ~30% renewable; nuclear ~10%; fossil fuels ~60%. Total final energy (including heating and transport): renewables ~15-20%. Solar PV costs have fallen ~90% since 2010, making solar the cheapest electricity source in most markets. Key challenge: decarbonizing heating and transportation (which require electrification or hydrogen). China installs more solar each year than the US has in total history. India is the fastest-growing solar market. The energy transition is accelerating but not yet fast enough to meet Paris Agreement targets.",
+      "memory_hook": "Solar panel costs fell 90% between 2010 and 2024 — faster than almost any technology in history. Solar is now the cheapest form of new electricity generation in most markets. But electricity is only ~20% of global energy use; the remaining 80% (heating buildings, industrial processes, aviation, shipping) is harder to electrify. Decarbonizing electricity is progress; decarbonizing the rest of the economy is the harder problem. Renewables are winning the electricity war but the war is bigger than electricity."
+    }
+  ]
+}

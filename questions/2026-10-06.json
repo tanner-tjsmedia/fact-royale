@@ -1,0 +1,161 @@
+{
+  "date": "2026-10-06",
+  "questions": [
+    {
+      "category": "History",
+      "question": "The Lewis and Clark Expedition (1804–1806) was commissioned by President Jefferson to explore what newly acquired territory?",
+      "options": [
+        "The Florida territory",
+        "The Louisiana Purchase west to the Pacific",
+        "The Oregon Trail",
+        "Alaska"
+      ],
+      "answer": "The Louisiana Purchase west to the Pacific",
+      "explanation": "Jefferson commissioned Meriwether Lewis and William Clark to explore the Louisiana Purchase and find a route to the Pacific Ocean. Their Corps of Discovery traveled 8,000 miles round trip, mapped the Missouri and Columbia Rivers, described hundreds of new plant and animal species, and made the first sustained contact with many Native American tribes. Sacagawea, a Shoshone woman, served as interpreter and guide.",
+      "memory_hook": "Lewis and Clark traveled 8,000 miles to map the Louisiana Purchase, guided by Shoshone woman Sacagawea. Their journals described hundreds of species and rivers unknown to science."
+    },
+    {
+      "category": "History",
+      "question": "On June 6, 1944, Allied forces launched the largest amphibious invasion in history on the coast of Normandy, France. What was the operation's code name?",
+      "options": [
+        "Operation Market Garden",
+        "Operation Barbarossa",
+        "Operation Overlord",
+        "Operation Sea Lion"
+      ],
+      "answer": "Operation Overlord",
+      "explanation": "D-Day (Operation Overlord) involved approximately 156,000 Allied troops landing on five beaches — codenamed Utah, Omaha, Gold, Juno, and Sword — in German-occupied Normandy. Over 5,000 ships and 13,000 aircraft supported the operation. About 10,000 Allied soldiers were killed, wounded, or went missing on the first day. The invasion opened the Western Front and led to the liberation of Paris two months later.",
+      "memory_hook": "D-Day (June 6, 1944) put 156,000 troops on 5 beaches — the largest amphibious operation in history. It opened the Western Front that ultimately ended the war in Europe."
+    },
+    {
+      "category": "History",
+      "question": "The Marshall Plan (1948–1952) provided over $13 billion in American economic aid to rebuild Western European economies after WWII. What was the strategic motivation beyond humanitarian aid?",
+      "options": [
+        "Repaying war debts to European allies",
+        "Preventing economically devastated countries from turning to communism",
+        "Creating markets for American exports and trade",
+        "Building NATO military alliances"
+      ],
+      "answer": "Preventing economically devastated countries from turning to communism",
+      "explanation": "Secretary of State George Marshall announced the European Recovery Program in 1947. The strategic logic: economically desperate populations were more likely to vote communist. By rebuilding European economies, the US aimed to stabilize Western Europe as a democratic counterweight to the Soviet bloc. The Soviet Union refused the plan for itself and pressured Eastern European countries to also decline.",
+      "memory_hook": "The Marshall Plan rebuilt Western Europe to prevent communism spreading into economic desperation. The Soviets refused and blocked Eastern Europe from accepting — deepening the Cold War divide."
+    },
+    {
+      "category": "Sports",
+      "question": "What record did Wayne Gretzky set in the 1981–82 NHL season that has never been approached?",
+      "options": [
+        "Most assists in a single season",
+        "Most penalty minutes in a season",
+        "Most goals in a single season (92)",
+        "Most playoff points in a single year"
+      ],
+      "answer": "Most goals in a single season (92)",
+      "explanation": "Wayne Gretzky scored 92 goals in the 1981–82 season — a record that seems almost impossible given the modern game. He also set the single-season assists record (163) and points record (215) in the same year. For context, 50 goals in a season is considered elite today; Gretzky scored 50 in just 39 games that season. His career total of 894 goals also stands as the all-time record.",
+      "memory_hook": "Gretzky scored 92 goals in 1981-82 — a record so impossible that 50 goals today is considered elite. He scored his first 50 in just 39 games that year."
+    },
+    {
+      "category": "Sports",
+      "question": "The Boston Marathon is the world's oldest annual marathon, first run in 1897. It is famously run on which day each year?",
+      "options": [
+        "The first Saturday of October",
+        "New Year's Day",
+        "Patriots' Day — the third Monday of April",
+        "Memorial Day"
+      ],
+      "answer": "Patriots' Day — the third Monday of April",
+      "explanation": "The Boston Marathon is held on Patriots' Day, a Massachusetts state holiday commemorating the Battles of Lexington and Concord (1775). The course runs 26.2 miles from Hopkinton to Copley Square in Boston. It features the infamous 'Heartbreak Hill' at mile 20. The 2013 Boston Marathon bombing, which killed 3 and injured hundreds, led to major changes in security at mass sporting events.",
+      "memory_hook": "Boston Marathon runs every Patriots' Day since 1897 — America's oldest marathon. 'Heartbreak Hill' at mile 20 has broken many runners who were on pace for a great time."
+    },
+    {
+      "category": "Pop Culture",
+      "question": "The 1939 epic film 'Gone with the Wind' is set during which American historical period?",
+      "options": [
+        "The American Revolution",
+        "The Civil War and Reconstruction era",
+        "The Great Depression",
+        "World War I"
+      ],
+      "answer": "The Civil War and Reconstruction era",
+      "explanation": "Gone with the Wind, based on Margaret Mitchell's 1936 novel, follows Scarlett O'Hara through the Civil War and Reconstruction in Georgia. It won 8 Academy Awards including Best Picture and remains one of the highest-grossing films of all time when adjusted for inflation. The film has been criticized for its romanticized portrayal of the Confederacy and slavery. Hattie McDaniel became the first Black actor to win an Academy Award for her role.",
+      "memory_hook": "Gone with the Wind (1939) won 8 Oscars and remains one of the highest-grossing films ever (inflation-adjusted). Hattie McDaniel became the first Black Oscar winner — but had to sit in a segregated section at the ceremony."
+    },
+    {
+      "category": "Pop Culture",
+      "question": "The Simpsons first aired in 1989 and is the longest-running American animated series. On which network does it air?",
+      "options": [
+        "ABC",
+        "CBS",
+        "NBC",
+        "Fox"
+      ],
+      "answer": "Fox",
+      "explanation": "The Simpsons premiered on Fox on December 17, 1989, as a spinoff of shorts on The Tracey Ullman Show. Created by Matt Groening, it has run for over 35 seasons, produced over 750 episodes, and won 35 Primetime Emmy Awards. The show has predicted many real-world events decades in advance, including Donald Trump's presidency (1995 episode), smartwatches, and autocorrect.",
+      "memory_hook": "The Simpsons has aired on Fox since 1989 — 35+ seasons and 750+ episodes, the longest-running US animated series. It predicted Trump's presidency, smartwatches, and dozens of other real events."
+    },
+    {
+      "category": "Pop Culture",
+      "question": "Pablo Picasso and Georges Braque co-founded which major art movement in the early 20th century, characterized by depicting subjects from multiple angles simultaneously?",
+      "options": [
+        "Surrealism",
+        "Impressionism",
+        "Cubism",
+        "Expressionism"
+      ],
+      "answer": "Cubism",
+      "explanation": "Cubism (c.1907–1920) shattered objects and figures into geometric forms seen from multiple viewpoints simultaneously. Picasso's 'Les Demoiselles d'Avignon' (1907) is considered the catalyst. The movement was influenced by African masks and Cézanne's geometric approach. Cubism influenced virtually every subsequent modern art movement. Picasso's 'Guernica' (1937), depicting the bombing of a Basque village, is considered the greatest anti-war painting ever made.",
+      "memory_hook": "Cubism shattered the idea of a single viewpoint — showing all angles at once. Picasso's Guernica (1937) later applied this to anti-war imagery and became one of the most powerful paintings in history."
+    },
+    {
+      "category": "Geography",
+      "question": "The Appalachian Mountains, the oldest major mountain range in North America, run from which two points?",
+      "options": [
+        "Labrador to Alabama",
+        "Quebec to Georgia/Alabama",
+        "Maine to Florida",
+        "Ohio to Virginia"
+      ],
+      "answer": "Quebec to Georgia/Alabama",
+      "explanation": "The Appalachian Mountains extend approximately 2,400 km from Newfoundland and Quebec in Canada to central Alabama, passing through 13 US states. Despite being one of the oldest mountain ranges on Earth (formed 480 million years ago), they have been worn down to an average height of only 1,000 meters. Mount Mitchell (2,037m) in North Carolina is the highest peak east of the Mississippi River.",
+      "memory_hook": "The Appalachians are 480 million years old — originally as tall as the Alps, now worn to gentle ridges. Mount Mitchell (NC) at 2,037m is the highest peak east of the Mississippi."
+    },
+    {
+      "category": "Geography",
+      "question": "The Gulf of Mexico is bordered by the United States, Mexico, and which island nation?",
+      "options": [
+        "Jamaica",
+        "Haiti",
+        "Cuba",
+        "Bermuda"
+      ],
+      "answer": "Cuba",
+      "explanation": "The Gulf of Mexico is bordered by the US (north), Mexico (west and south), and Cuba (south). It covers about 1.6 million km² and is connected to the Atlantic Ocean through the Straits of Florida. The Gulf Stream current originates in the Gulf of Mexico, warming the eastern US and northern Europe. The 2010 Deepwater Horizon oil spill in the Gulf was the largest marine oil spill in history.",
+      "memory_hook": "Cuba closes off the bottom of the Gulf of Mexico. The Gulf Stream begins here, warming the US East Coast and Western Europe — the Gulf shapes weather on two continents."
+    },
+    {
+      "category": "Science & Nature",
+      "question": "Tectonic plates interact at boundaries in three ways. Which type of boundary is responsible for forming major mountain ranges like the Himalayas?",
+      "options": [
+        "Divergent boundary (plates moving apart)",
+        "Transform boundary (plates sliding past each other)",
+        "Convergent boundary (plates colliding)",
+        "Subduction zone (one plate diving under another)"
+      ],
+      "answer": "Convergent boundary (plates colliding)",
+      "explanation": "The Himalayas formed and continue to grow because the Indian Plate is colliding with the Eurasian Plate — a continent-continent convergent boundary. When two continental plates collide, neither subducts easily, so the crust crumples upward. India has been driving north into Asia for 50 million years, raising the Himalayas at about 5mm/year. The Alps, Rockies, and Andes all formed at convergent zones.",
+      "memory_hook": "The Himalayas are still growing because India is still crashing into Asia at 5mm/year. Convergent boundaries create mountains; divergent boundaries create rift valleys and ocean ridges."
+    },
+    {
+      "category": "Science & Nature",
+      "question": "How do vaccines train the immune system to fight specific diseases?",
+      "options": [
+        "They kill all bacteria in the bloodstream",
+        "They introduce a weakened/inactivated pathogen or its proteins, triggering antibody production without causing disease",
+        "They block viral replication with synthetic enzymes",
+        "They strengthen white blood cells through chemical stimulation"
+      ],
+      "answer": "They introduce a weakened/inactivated pathogen or its proteins, triggering antibody production without causing disease",
+      "explanation": "Vaccines expose the immune system to a harmless version of a pathogen (killed virus, live-attenuated, subunit proteins, or mRNA instructions) so the immune system produces specific antibodies and memory cells. If the actual pathogen later appears, the immune system recognizes and destroys it quickly. Edward Jenner created the first vaccine in 1796 using cowpox to protect against smallpox.",
+      "memory_hook": "Vaccines show your immune system the 'mugshot' of a pathogen so it's ready for the real thing. Jenner's 1796 cowpox vaccine led to smallpox eradication — the only human disease ever eliminated."
+    }
+  ]
+}

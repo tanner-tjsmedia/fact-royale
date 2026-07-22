@@ -1,0 +1,161 @@
+{
+  "date": "2026-10-14",
+  "questions": [
+    {
+      "category": "History",
+      "question": "The Berlin Wall was built in 1961 to separate East and West Berlin. Why did East Germany build it?",
+      "options": [
+        "To protect East Germany from Western military invasion",
+        "To stop the massive flow of East Germans emigrating to the West through Berlin",
+        "To separate a disputed territory following WWII",
+        "To establish a clear Cold War boundary agreed upon by all four powers"
+      ],
+      "answer": "To stop the massive flow of East Germans emigrating to the West through Berlin",
+      "explanation": "Between 1949 and 1961, approximately 3 million East Germans emigrated to West Germany via Berlin — a 'brain drain' that was economically catastrophic. East Germany built the wall (the 'Anti-Fascist Protection Rampart') overnight on August 13, 1961. By the end, the Berlin Wall was 155 km long, with guard towers, death strips, and trip-wire systems. Approximately 140-200 people died trying to cross it. It fell on November 9, 1989.",
+      "memory_hook": "East Germany built the Berlin Wall in 1961 to stop its own people leaving — 3 million had fled in 12 years. 140-200 people died trying to cross it before it fell in 1989 without a shot fired."
+    },
+    {
+      "category": "History",
+      "question": "The Space Race between the US and USSR saw many firsts. Which Soviet cosmonaut became the first human in space in April 1961?",
+      "options": [
+        "Buzz Aldrin",
+        "Alan Shepard",
+        "Yuri Gagarin",
+        "Valentina Tereshkova"
+      ],
+      "answer": "Yuri Gagarin",
+      "explanation": "Yuri Gagarin orbited Earth once on April 12, 1961, in Vostok 1 — a 108-minute flight that made him the first human in space. His mission preceded John Glenn's first American orbital flight by nearly a year (February 1962). The USSR also sent the first animal (Laika the dog, 1957), first woman (Valentina Tereshkova, 1963), and conducted the first spacewalk (Alexei Leonov, 1965). Gagarin died in a training jet crash in 1968, age 34.",
+      "memory_hook": "Gagarin orbited Earth once in 108 minutes in 1961 — the Soviets were beating America at every space milestone. He died in a mundane training crash in 1968, having survived the most dangerous flight in history."
+    },
+    {
+      "category": "History",
+      "question": "The Women's March on Washington in January 2017 was the largest single-day protest in US history. But what was the largest protest movement in world history, estimated at 36 million participants across multiple countries?",
+      "options": [
+        "1968 anti-Vietnam War protests",
+        "The Hong Kong protests of 2019",
+        "The worldwide anti-Iraq War protests of February 15, 2003",
+        "The Arab Spring protests of 2011"
+      ],
+      "answer": "The worldwide anti-Iraq War protests of February 15, 2003",
+      "explanation": "On February 15, 2003, an estimated 30-36 million people in over 600 cities on all seven continents protested against the impending US-led invasion of Iraq. It was the largest simultaneous protest in human history. The Guinness Book of World Records confirmed it as such. Despite the protest, the US invaded Iraq on March 20, 2003. The protests were remarkable for their global coordination and scale.",
+      "memory_hook": "February 15, 2003 — 36 million people in 600 cities on all 7 continents protested the Iraq War on the same day. The largest protest in human history. The invasion happened anyway, 33 days later."
+    },
+    {
+      "category": "Sports",
+      "question": "Michael Jordan led the Chicago Bulls to 6 NBA Championships in the 1990s. In his championship seasons, Jordan's win record in Finals games was extraordinary. How many Finals games did he win vs. lose?",
+      "options": [
+        "Won 24, lost 0 (perfect record)",
+        "Won 24, lost 6",
+        "Won 21, lost 15",
+        "Won 18, lost 12"
+      ],
+      "answer": "Won 24, lost 6",
+      "explanation": "Michael Jordan's six NBA Finals appearances each resulted in a championship. He went 24-6 in Finals games, winning all six series (4-2, 4-1, 4-2, 4-2, 4-2, 4-2). His Finals MVP awards in all 6 series is a record. Jordan was notably known for his clutch performances — he never lost a series when leading 3-1, which happened in all six Finals. His first three-peat (1991-93) and second (1996-98) sandwiched his baseball career.",
+      "memory_hook": "Jordan went 24-6 in NBA Finals games across 6 championships — winning all 6 series. He was Finals MVP every time. The question of 'what if he hadn't played baseball for 18 months' keeps fans arguing."
+    },
+    {
+      "category": "Sports",
+      "question": "The Ironman Triathlon consists of three events back to back without rest. What are the three disciplines and distances?",
+      "options": [
+        "1.5km swim, 40km bike, 10km run",
+        "2.4-mile swim, 112-mile bike, 26.2-mile run (marathon)",
+        "1km swim, 50km bike, 21km run",
+        "3km swim, 180km bike, 42km run"
+      ],
+      "answer": "2.4-mile swim, 112-mile bike, 26.2-mile run (marathon)",
+      "explanation": "The Ironman Triathlon (originated in Hawaii in 1978) consists of a 2.4-mile (3.86 km) open-water swim, a 112-mile (180.2 km) bike ride, and a 26.2-mile (42.2 km) marathon run — completed consecutively in a single day. Top athletes finish in about 8 hours; the cutoff is 17 hours. The race was inspired by a debate about which athletes — swimmers, cyclists, or runners — were the fittest.",
+      "memory_hook": "The Hawaii Ironman: 2.4-mile swim + 112-mile bike + full marathon, all in one day. It was created to settle a 1977 argument about which athletes were fittest — the answer turned out to be all of them combined."
+    },
+    {
+      "category": "Pop Culture",
+      "question": "The film 'Schindler's List' (1993) directed by Steven Spielberg depicts Oscar Schindler saving Jewish workers during the Holocaust. On which true story is it based?",
+      "options": [
+        "A fictional composite based on multiple Holocaust rescuers",
+        "The true story of Oskar Schindler, a German industrialist who saved over 1,200 Jews by employing them in his factories",
+        "A story invented by author Thomas Keneally for dramatic purposes",
+        "A Polish underground resistance operation"
+      ],
+      "answer": "The true story of Oskar Schindler, a German industrialist who saved over 1,200 Jews by employing them in his factories",
+      "explanation": "Oskar Schindler was a German Catholic businessman and Nazi Party member who came to Kraków to profit from WWII but gradually shifted to saving his Jewish workers. He bribed SS officials and used personal funds to keep his workers alive, ultimately spending his entire fortune on bribes. The 'Schindler's List' of workers to be transferred to his Czech factory rather than Auschwitz saved approximately 1,200 lives. He died penniless in 1974.",
+      "memory_hook": "Schindler was a war profiteer who became a lifesaver — spending every penny he'd made bribing SS officers to save his workers. He died penniless in 1974. 'Whoever saves one life saves the world entire.'"
+    },
+    {
+      "category": "Pop Culture",
+      "question": "Salvador Dalí was a leading figure in which art movement known for depicting dreamlike and irrational imagery?",
+      "options": [
+        "Cubism",
+        "Impressionism",
+        "Surrealism",
+        "Abstract Expressionism"
+      ],
+      "answer": "Surrealism",
+      "explanation": "Surrealism, founded by André Breton in 1924, aimed to unlock the unconscious mind by depicting dream imagery, irrational combinations, and the bizarre. Dalí's most famous works include 'The Persistence of Memory' (1931) with its melting clocks and 'The Elephants' with their impossibly long legs. Dalí collaborated with filmmaker Luis Buñuel on dreamlike short films and designed the logo for Chupa Chups lollipops. He was famously eccentric, describing himself as the 'only difference between me and a madman' as 'I am not mad.'",
+      "memory_hook": "Dalí's melting clocks in 'The Persistence of Memory' are the image of Surrealism — depicting how dreams distort reality. He also designed the Chupa Chups logo and collaborated with Hitchcock on dream sequences."
+    },
+    {
+      "category": "Pop Culture",
+      "question": "Which 1994 Disney film tells the story of Simba the lion and is based on Shakespeare's Hamlet?",
+      "options": [
+        "The Jungle Book",
+        "Bambi",
+        "The Lion King",
+        "Aladdin"
+      ],
+      "answer": "The Lion King",
+      "explanation": "The Lion King (1994) closely mirrors Hamlet: a prince's father is murdered by his uncle, who seizes the throne; the prince goes into exile and is visited by his father's ghost, then returns to challenge his uncle. The film grossed $987 million globally and won 2 Academy Awards for Best Original Score and Best Original Song ('Can You Feel the Love Tonight'). Elton John wrote the songs; Hans Zimmer composed the score. Disney officially acknowledges the Hamlet connection.",
+      "memory_hook": "The Lion King retells Hamlet with lions — murdered king, exiled prince, ghost visitation, climactic confrontation. Unlike Hamlet, Simba wins. Elton John's songs and Hans Zimmer's score made it Disney's highest-grossing film of the era."
+    },
+    {
+      "category": "Geography",
+      "question": "The Mozambique Channel separates Madagascar from Mozambique. The Comoros Islands sit within this channel and form an independent nation. How many islands make up the Comoros?",
+      "options": [
+        "2 main islands",
+        "4 main islands — 3 forming the nation, 1 (Mayotte) remaining French territory",
+        "7 islands",
+        "12 islands"
+      ],
+      "answer": "4 main islands — 3 forming the nation, 1 (Mayotte) remaining French territory",
+      "explanation": "The Comoros Archipelago consists of four main islands: Grande Comore (Ngazidja), Mohéli (Mwali), Anjouan (Nzwani), and Mayotte (Maore). Three islands form the independent Union of the Comoros; Mayotte voted in referendums to remain a French territory and officially became a French département in 2011. The Comoros is one of the world's poorest nations and has experienced over 20 coups or coup attempts since independence in 1975.",
+      "memory_hook": "The Comoros has 4 main islands — 3 chose independence from France, 1 (Mayotte) voted to stay French. The independent Comoros has had 20+ coups since 1975, making it one of the world's most politically unstable nations."
+    },
+    {
+      "category": "Geography",
+      "question": "The Appalachian Trail, one of the longest hiking trails in the world, runs from Georgia to Maine. Approximately how long is it?",
+      "options": [
+        "1,100 miles",
+        "2,200 miles",
+        "3,500 miles",
+        "4,800 miles"
+      ],
+      "answer": "2,200 miles",
+      "explanation": "The Appalachian Trail runs approximately 2,189 miles (3,523 km) from Springer Mountain, Georgia to Mount Katahdin, Maine. Completed in 1937, it passes through 14 states. About 3 million people hike part of it annually, but only about 3,000 'thru-hikers' attempt the full trail each year, typically taking 5-7 months. The trail was the inspiration for the Pacific Crest Trail (California to Washington) and the Continental Divide Trail.",
+      "memory_hook": "The Appalachian Trail is 2,189 miles through 14 states — a 5-7 month journey end to end. Only about 3,000 people attempt the full thru-hike each year, and many don't finish."
+    },
+    {
+      "category": "Science & Nature",
+      "question": "Alan Guth's theory of cosmic inflation (1980) proposes that the universe expanded exponentially fast — by a factor of 10^26 — in the first tiny fraction of a second after the Big Bang. What problem does it solve?",
+      "options": [
+        "Inflation explains why the universe is 13.8 billion years old — without the initial expansion, the universe would have collapsed back into a singularity within the first microsecond after the Big Bang",
+        "Inflation explains why the cosmic microwave background is remarkably uniform in temperature from all directions, and why the universe's geometry is flat — both impossible without a period of rapid uniform expansion",
+        "Inflation explains why galaxies exist at all — without the expansion, the quantum fluctuations that seeded galaxies would have been too small to overcome gravity and grow into structure",
+        "Inflation is actually disproven — the discovery of dark energy showed that expansion doesn't require an inflationary period, and Guth's original papers have been retracted by the scientific community"
+      ],
+      "answer": "Inflation explains why the cosmic microwave background is remarkably uniform in temperature from all directions, and why the universe's geometry is flat — both impossible without a period of rapid uniform expansion",
+      "explanation": "The CMB temperature is the same (2.725 K) in every direction to one part in 100,000 — even in regions of the sky so far apart they could never have been in contact with each other given the speed of light. This 'horizon problem' is solved if the entire observable universe expanded from an extremely small region that had time to reach thermal equilibrium before inflating. Inflation also explains why the universe's geometry is 'flat' (Euclidean). Quantum fluctuations stretched by inflation became the density variations that seeded galaxies. Some versions of inflation predict a multiverse — infinitely many bubble universes.",
+      "memory_hook": "The CMB is the same temperature everywhere in the sky — even in directions that, at the speed of light, could never have communicated. Inflation solves this by saying the entire observable universe expanded from a microscopic region that had equilibrated before inflating. The quantum fluctuations that became galaxies were stretched from subatomic scales."
+    },
+    {
+      "category": "Science & Nature",
+      "question": "In 1995, Michel Mayor and Didier Queloz discovered 51 Pegasi b — the first confirmed planet orbiting a Sun-like star outside our solar system. Why did their discovery immediately challenge existing planetary formation theories?",
+      "options": [
+        "51 Pegasi b orbited in a retrograde direction, contradicting all theoretical models that required gas giants to orbit in the same direction as their star's rotation due to angular momentum conservation",
+        "51 Pegasi b was a Jupiter-sized gas giant orbiting its star every 4.2 days — closer than Mercury orbits our Sun — which was theoretically impossible because gas giants were thought to form only in the cold outer solar system",
+        "51 Pegasi b had a mass 300 times Jupiter's — far heavier than any planet should be able to sustain without igniting nuclear fusion — forcing theorists to redefine the boundary between planet and brown dwarf",
+        "51 Pegasi b had no detectable atmosphere despite its proximity to its star, contradicting models that predicted close-orbiting planets would accumulate thick hydrogen atmospheres through stellar wind capture"
+      ],
+      "answer": "51 Pegasi b was a Jupiter-sized gas giant orbiting its star every 4.2 days — closer than Mercury orbits our Sun — which was theoretically impossible because gas giants were thought to form only in the cold outer solar system",
+      "explanation": "Gas giants like Jupiter were thought to form only beyond the 'frost line' — far enough from a star that ices can condense and build the large rocky cores that accumulate gas. 51 Pegasi b orbiting in 4.2 days (vs Earth's 365 days) was stunning. The resolution: 'hot Jupiters' form far out and migrate inward through disk interactions. Mayor and Queloz used the radial velocity (Doppler wobble) method, detecting the star's tiny gravitational 'wobble' caused by the planet. They won the 2019 Nobel Prize. We now know of over 5,600 confirmed exoplanets, with billions estimated to exist in the Milky Way alone.",
+      "memory_hook": "51 Pegasi b orbits its star every 4.2 days — closer than Mercury is to our Sun. Gas giants aren't supposed to be there; the discovery forced astronomers to invent 'planetary migration' theory. Mayor and Queloz won the 2019 Nobel Prize; we've since confirmed over 5,600 exoplanets."
+    }
+  ]
+}

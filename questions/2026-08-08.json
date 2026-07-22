@@ -120,16 +120,16 @@
     },
     {
       "category": "Science & Nature",
-      "question": "What is the name of the Earth's natural satellite?",
+      "question": "In 1924, Edwin Hubble used Cepheid variable stars to prove that the 'Andromeda Nebula' was actually a separate galaxy far outside the Milky Way. Why were Cepheids the key?",
       "options": [
-        "Europa",
-        "Ganymede",
-        "Titan",
-        "The Moon"
+        "Cepheid variables are stars that change temperature in a predictable cycle, and their temperature-color relationship allowed Hubble to calculate their distance using spectroscopy alone",
+        "Cepheid variables pulsate with a period directly linked to their intrinsic luminosity — so comparing their apparent brightness to their known true brightness yields their precise distance",
+        "Cepheid variables are always found in clusters of exactly 10,000 stars, and counting the cluster members allows astronomers to calculate the cluster's distance from their angular spread on the sky",
+        "Cepheid variables emit distinctive X-rays that travel at a different speed from visible light, creating a time-delay signal that allows distance calculation by measuring the light-speed lag"
       ],
-      "answer": "The Moon",
-      "explanation": "Earth has one natural satellite, called the Moon. It is the fifth-largest moon in the solar system and the largest relative to the size of its host planet. The Moon stabilizes Earth's axial tilt (preventing extreme climate shifts), causes ocean tides, and has influenced calendars and navigation throughout human history. Twelve people have walked on the Moon — all American, all between 1969 and 1972.",
-      "memory_hook": "Earth has one moon — just 'the Moon.' 12 people have walked on it, all between 1969-1972. The Moon is slowly drifting away from Earth at 3.8 cm per year. In the far future, it will stop making total solar eclipses because it'll be too far away."
+      "answer": "Cepheid variables pulsate with a period directly linked to their intrinsic luminosity — so comparing their apparent brightness to their known true brightness yields their precise distance",
+      "explanation": "Henrietta Swan Leavitt discovered the period-luminosity relationship of Cepheids in 1908 by studying variable stars in the Small Magellanic Cloud — if you know a Cepheid's pulsation period, you know how intrinsically bright it is. Hubble found Cepheids in Andromeda and calculated they were about 900,000 light-years away (modern measurements: 2.5 million), far beyond the Milky Way's boundary. This settled the 'Great Debate' of 1920 and transformed our understanding of the universe's scale. Leavitt's contribution is often uncredited — she was a Harvard 'computer' (a human calculator) barred from operating telescopes.",
+      "memory_hook": "Henrietta Leavitt — a Harvard 'computer' barred from using telescopes — discovered the key to measuring cosmic distances: Cepheid variable stars' pulsation period reveals their true brightness. Hubble used her discovery in 1924 to prove Andromeda was a separate galaxy, expanding the known universe by a factor of millions."
     },
     {
       "category": "Geography",

@@ -1,0 +1,161 @@
+{
+  "date": "2026-11-22",
+  "questions": [
+    {
+      "category": "History",
+      "question": "What was the Protestant Reformation's origin?",
+      "options": [
+        "Henry VIII's break from Rome in 1534 spread to Germany and France",
+        "Martin Luther's 95 Theses (1517) critiquing Catholic indulgences split Western Christianity into Catholic and Protestant branches, triggered religious wars, and transformed European politics. Gutenberg's press spread the ideas with unprecedented speed",
+        "John Calvin in Geneva created the movement; Luther's role was minor and regional",
+        "It was primarily secular princes seizing Church lands, with religion as secondary cover"
+      ],
+      "answer": "Martin Luther's 95 Theses (1517) critiquing Catholic indulgences split Western Christianity into Catholic and Protestant branches, triggered religious wars, and transformed European politics. Gutenberg's press spread the ideas with unprecedented speed",
+      "explanation": "Luther, an Augustinian monk, believed salvation came through faith alone (sola fide), not works or Church intermediaries. He translated the Bible into German, making scripture accessible to non-Latin readers. Within 2 weeks of posting the 95 Theses, copies had spread through all of Germany — made possible by Gutenberg's press (invented ~1450). The Thirty Years' War (1618-1648) was largely Catholic-Protestant conflict.",
+      "memory_hook": "Luther's 95 Theses spread through Germany in 2 weeks because of the printing press. Before Gutenberg, the same document would have taken a year to copy and distribute. Luther's Reformation is impossible without Gutenberg's invention. The Church couldn't suppress heretical arguments that could be printed 300 copies per night. Technology disrupted the medieval information monopoly and split Christianity."
+    },
+    {
+      "category": "History",
+      "question": "What was the Armenian Genocide (1915-1923) and why does it remain controversial?",
+      "options": [
+        "A series of pogroms in the Russian Empire killing 50,000 Armenians before Tsarist intervention",
+        "The Ottoman government systematically killed an estimated 600,000-1.5 million Armenians through massacre, death marches, and mass starvation — one of the 20th century's first genocides. Turkey officially disputes the term 'genocide' to this day",
+        "A battle between Armenian nationalists and Ottoman troops that escalated to civilian casualties on both sides",
+        "An expulsion of Armenians to Russia in a population exchange causing ~10,000 deaths"
+      ],
+      "answer": "The Ottoman government systematically killed an estimated 600,000-1.5 million Armenians through massacre, death marches, and mass starvation — one of the 20th century's first genocides. Turkey officially disputes the term 'genocide' to this day",
+      "explanation": "During WWI, the Ottoman Committee of Union and Progress ordered deportation of Armenians from Anatolia, accusing them of Russian collaboration. Deportations became death marches into the Syrian desert. 600,000-1.5 million died from a pre-war population of ~2 million. Hitler reportedly said before the Holocaust: 'Who now remembers the Armenians?' — citing impunity as permission.",
+      "memory_hook": "Hitler reportedly asked before the Holocaust: 'Who now remembers the Armenians?' He was citing impunity — the Ottoman leaders who ordered the genocide faced no real consequences. Turkey's denial of the genocide is a live diplomatic dispute over 100 years later. Genocides that go unaddressed become permission slips for the next one. The phrase has become one of history's most chilling documented lessons."
+    },
+    {
+      "category": "History",
+      "question": "What was the Harlem Renaissance and why was it significant?",
+      "options": [
+        "A period of Black economic prosperity in Harlem driven by wealthy Southern Black families migrating north",
+        "A flowering of Black intellectual, artistic, and cultural life in Harlem following the Great Migration — producing Langston Hughes, Zora Neale Hurston, Duke Ellington, Louis Armstrong, and others, establishing African American culture as central to American identity",
+        "A white artistic movement inspired by African design, centered in Manhattan's Harlem Art District",
+        "A political movement led by Marcus Garvey; art and culture were secondary to its separatist goals"
+      ],
+      "answer": "A flowering of Black intellectual, artistic, and cultural life in Harlem following the Great Migration — producing Langston Hughes, Zora Neale Hurston, Duke Ellington, Louis Armstrong, and others, establishing African American culture as central to American identity",
+      "explanation": "The Great Migration (1910-1970) brought ~6 million Black Americans from the rural South to Northern cities. Harlem became a cultural hub. Key figures: Langston Hughes ('Dream Deferred'), Zora Neale Hurston (Their Eyes Were Watching God), Duke Ellington, Louis Armstrong. The Cotton Club was a famous jazz venue that ironically excluded Black patrons. Alain Locke's The New Negro (1925) is considered the Renaissance's defining document.",
+      "memory_hook": "The Harlem Renaissance happened because 6 million Black Americans fled Jim Crow laws, and many ended up in Harlem. The concentration of talent and the creative energy of a community building itself produced one of American history's great artistic explosions — jazz, blues, poetry, painting, political theory, all at once. Duke Ellington played the Cotton Club nightly while Black people weren't allowed in as customers."
+    },
+    {
+      "category": "Sports",
+      "question": "How many horses have won horse racing's Triple Crown and which won most recently?",
+      "options": [
+        "Only 13 horses; most recently Justify in 2018",
+        "Only 7 horses; most recently American Pharoah in 2015",
+        "21 horses; most recently Triple Crown King in 2023",
+        "Only 3 horses; the last was Affirmed in 1978"
+      ],
+      "answer": "Only 13 horses; most recently Justify in 2018",
+      "explanation": "Triple Crown: Kentucky Derby (1.25 miles), Preakness Stakes (1.19 miles), Belmont Stakes (1.5 miles) — all won in the same year. Only 13 horses have done it. After Affirmed (1978), there was a 37-year gap until American Pharoah (2015). Justify completed it in 2018. Secretariat's 1973 Belmont record (2:24 for 1.5 miles) has never been broken.",
+      "memory_hook": "The Triple Crown gap from 1978 to 2015 — 37 years — became one of sports' great mysteries. Horses would win two legs, then fail at the Belmont. American Pharoah ended the drought; Justify did it again three years later. Secretariat's 1973 Belmont time has stood for 50 years. He won by 31 lengths; it's not close."
+    },
+    {
+      "category": "Sports",
+      "question": "What is 'March Madness' in American college basketball?",
+      "options": [
+        "The NBA's playoff season starting in March",
+        "The NCAA Men's Division I Basketball Tournament — a 68-team single-elimination bracket played over 3 weeks in March-April. Famous for upsets, 'Cinderella' teams, and bracket predictions that are virtually impossible to get perfect (odds: 1 in 9.2 quintillion)",
+        "MLB spring training, where players compete for roster spots",
+        "The NFL's free agency period triggering rapid roster changes"
+      ],
+      "answer": "The NCAA Men's Division I Basketball Tournament — a 68-team single-elimination bracket played over 3 weeks in March-April. Famous for upsets, 'Cinderella' teams, and bracket predictions that are virtually impossible to get perfect (odds: 1 in 9.2 quintillion)",
+      "explanation": "March Madness began in 1939; the field expanded to 64 teams in 1985. No one has ever correctly predicted a perfect 64-team bracket. Most memorable upset: UMBC (16-seed) over Virginia (1-seed) in 2018 — the first-ever 16 over 1. CBS and Turner pay $8.8 billion over 8 years for broadcast rights.",
+      "memory_hook": "The odds of a perfect March Madness bracket are 1 in 9.2 quintillion — worse than winning a lottery 300 times consecutively. No one has ever done it. In 2018, a 16-seed team won on day one, making millions of brackets immediately wrong. The tournament exists to remind predictors that basketball cannot be predicted."
+    },
+    {
+      "category": "Pop Culture",
+      "question": "Which filmmaker directed 'Vertigo' (1958), 'Rear Window' (1954), and 'North by Northwest' (1959) — classics of suspense cinema?",
+      "options": [
+        "Billy Wilder",
+        "Orson Welles",
+        "Stanley Kubrick",
+        "Alfred Hitchcock"
+      ],
+      "answer": "Alfred Hitchcock",
+      "explanation": "Alfred Hitchcock (1899-1980) directed 53 feature films, shaping the thriller genre. Signature techniques: subjective camera (placing viewers in the protagonist's perspective), MacGuffin (a plot device whose actual content is irrelevant), dramatic irony (audience knows what characters don't). Key films: Psycho (1960), The Birds (1963), Vertigo (1958 — considered his masterpiece by many critics, ranked #1 on Sight & Sound's 2012 Greatest Films list), Rear Window, North by Northwest, Rope (1948 — filmed as if in a single continuous shot). He never won an Oscar for directing despite 5 nominations.",
+      "memory_hook": "Hitchcock directed 53 films and never won an Oscar for directing despite 5 nominations. The Directors Guild gave him a lifetime achievement award; the Academy gave him the Thalberg Award. Vertigo topped Sight & Sound's 2012 greatest films list — surpassing Citizen Kane after 50 years. Hitchcock invented or codified most thriller conventions still in use today, making virtually every subsequent director his student."
+    },
+    {
+      "category": "Pop Culture",
+      "question": "Which 1920s American novelist wrote 'The Sun Also Rises' (1926) and 'A Farewell to Arms' (1929), pioneering the 'iceberg theory' of spare prose?",
+      "options": [
+        "F. Scott Fitzgerald",
+        "William Faulkner",
+        "John Dos Passos",
+        "Ernest Hemingway"
+      ],
+      "answer": "Ernest Hemingway",
+      "explanation": "Ernest Hemingway (1899-1961) developed his 'iceberg theory' (also called the theory of omission): the dignity of movement of an iceberg is due to only 1/8 of it being above water — a story is strengthened by leaving things unsaid, trusting the reader to feel the emotional undercurrent. The Sun Also Rises follows American expatriates in Paris and Spain during the 1920s; A Farewell to Arms draws from his WWI ambulance experience. He won the Nobel Prize in Literature (1954). He had a famously turbulent life: 4 marriages, survived two plane crashes, battled alcoholism and depression, died by suicide in 1961.",
+      "memory_hook": "Hemingway's iceberg theory: the emotional power of a story comes from what you don't say. If the writer knows the truth, the omission strengthens the work; if the writer doesn't know it, there's only a hole. His prose style — short sentences, concrete nouns, sparse adjectives — became the template for American journalism and fiction writing. His Nobel Prize citation praised his 'forceful and style-making mastery of the art of modern narration.'"
+    },
+    {
+      "category": "Pop Culture",
+      "question": "Which dystopian novel by Margaret Atwood (1985) is set in the Republic of Gilead, where women are reduced to reproductive roles?",
+      "options": [
+        "Oryx and Crake",
+        "The Year of the Flood",
+        "MaddAddam",
+        "The Handmaid's Tale"
+      ],
+      "answer": "The Handmaid's Tale",
+      "explanation": "Margaret Atwood's The Handmaid's Tale (1985) depicts a near-future theocratic American state (Gilead) that has overthrown the US government, stripped women of property rights, and assigned fertile women as 'Handmaids' to produce children for high-ranking men. Atwood researched the book while living briefly in West Berlin, inspired by existing historical practices and precedents (she claims no event in the novel is invented — all have historical parallels). Hulu's 2017 TV adaptation (Elisabeth Moss) renewed interest; red cloaks and white bonnets became protest symbols. Atwood published a sequel, The Testaments, in 2019 (won the Booker Prize).",
+      "memory_hook": "Atwood said she invented nothing in The Handmaid's Tale — every practice has a historical parallel somewhere. The book was published in 1985; Hulu adapted it in 2017 during debates over women's reproductive rights, making the red cloak and white bonnet an international protest symbol. The novel is fiction that reads as history because it is — assembled from things that have actually been done to women in different times and places."
+    },
+    {
+      "category": "Geography",
+      "question": "What is the significance of the Strait of Malacca to global trade?",
+      "options": [
+        "It connects the Atlantic to the Pacific; 10% of global trade passes through it",
+        "The Strait of Malacca (between Malaysia/Singapore and Indonesia) is the world's busiest maritime chokepoint — about 40% of global trade and one-third of all oil shipments pass through this ~2.8 km-wide bottleneck connecting the Indian Ocean to the South China Sea and Pacific",
+        "It connects Europe to the Middle East; 25% of global oil passes through it",
+        "It's primarily significant for LNG transport between Australia and Japan; general cargo typically uses the Sunda Strait"
+      ],
+      "answer": "The Strait of Malacca (between Malaysia/Singapore and Indonesia) is the world's busiest maritime chokepoint — about 40% of global trade and one-third of all oil shipments pass through this ~2.8 km-wide bottleneck connecting the Indian Ocean to the South China Sea and Pacific",
+      "explanation": "The Strait of Malacca is 890 km long and only 2.8 km wide at its narrowest (Phillips Channel). Singapore sits at its eastern end and is the world's second-busiest port by container traffic, built on controlling this chokepoint. Approximately 80,000-90,000 ships pass through annually. If blocked, China (which imports 80% of its oil through Malacca) would face an energy crisis within weeks. China is building alternative pipelines and ports to reduce 'Malacca Dilemma' vulnerability.",
+      "memory_hook": "Singapore became one of the world's richest cities per capita by controlling the Strait of Malacca's eastern end. China imports 80% of its oil through this 2.8 km bottleneck — military strategists call this the 'Malacca Dilemma': in any conflict where the US controls the strait, China's energy supply could be cut. China is spending hundreds of billions building alternative pipelines and ports to escape this chokepoint."
+    },
+    {
+      "category": "Geography",
+      "question": "What is the significance of the Himalayan glaciers beyond just being Earth's highest peaks?",
+      "options": [
+        "The Himalayas have no glaciers; all ice at altitude is seasonal snow that melts each spring",
+        "The Himalayan glaciers (sometimes called the 'Third Pole' or 'Asia's Water Tower') feed Asia's 10 largest river systems — including the Ganges, Brahmaputra, Indus, Mekong, Yellow, and Yangtze — providing water to approximately 1.9 billion people. Climate change is accelerating glacier melt, threatening long-term water security",
+        "The Himalayas' glaciers only feed two rivers (Ganges and Indus); the other Asian rivers originate from rainfall and have no glacial component",
+        "Himalayan glaciers have been growing due to increased snowfall from climate change — providing a buffer against water shortages across South Asia"
+      ],
+      "answer": "The Himalayan glaciers (sometimes called the 'Third Pole' or 'Asia's Water Tower') feed Asia's 10 largest river systems — including the Ganges, Brahmaputra, Indus, Mekong, Yellow, and Yangtze — providing water to approximately 1.9 billion people. Climate change is accelerating glacier melt, threatening long-term water security",
+      "explanation": "The Himalayas and Tibetan Plateau hold ~47,000 glaciers — the largest ice mass outside the polar regions. Glaciers act as a buffer: in dry seasons, glacial melt maintains river flow when rainfall is absent. As glaciers shrink, rivers may initially increase in flow (more melt), then crash when the ice is gone. The IPCC estimates Himalayan glaciers could lose 70-99% of their mass by 2100 under high-emission scenarios, affecting billions of people's drinking water and agriculture.",
+      "memory_hook": "The Himalayas feed 10 river systems serving 1.9 billion people. In dry seasons, when there's no rain, glacial melt keeps the rivers running. Glaciers are a buffer — they store winter snow and release it through summer. As they shrink, the immediate effect is more water (more melt), which masks the problem. Then the ice runs out and the rivers drop permanently. The world's most populated region is building its water future on borrowed ice."
+    },
+    {
+      "category": "Science & Nature",
+      "question": "What is the human sleep cycle and why is sleep scientifically important?",
+      "options": [
+        "Sleep is simply a rest state; the brain is minimally active and no critical biological processes occur during sleep",
+        "Sleep cycles through 4-5 stages approximately every 90 minutes, including REM (Rapid Eye Movement) and non-REM stages. During sleep: the brain consolidates memories (transferring from hippocampus to long-term storage), the glymphatic system flushes brain waste (including amyloid beta — linked to Alzheimer's), and growth hormone is released. Sleep deprivation impairs cognition, immune function, and cardiovascular health",
+        "Sleep primarily serves temperature regulation; the brain's cooling during sleep is the only documented biological function",
+        "Sleep is important only for children and adolescents; adults can function indefinitely with 4-5 hours per night with no measurable health effects"
+      ],
+      "answer": "Sleep cycles through 4-5 stages approximately every 90 minutes, including REM (Rapid Eye Movement) and non-REM stages. During sleep: the brain consolidates memories (transferring from hippocampus to long-term storage), the glymphatic system flushes brain waste (including amyloid beta — linked to Alzheimer's), and growth hormone is released. Sleep deprivation impairs cognition, immune function, and cardiovascular health",
+      "explanation": "Sleep stages: N1 (light sleep), N2 (sleep spindles, memory consolidation), N3 (deep/slow-wave sleep — physical repair, immune function, growth hormone release), REM (vivid dreaming, emotional memory processing, creativity). Glymphatic system (discovered 2013): during sleep, cerebrospinal fluid pulses through the brain, flushing metabolic waste — including amyloid beta plaques linked to Alzheimer's. Consistent short sleep (under 6 hours): 48% higher mortality risk, tripled dementia risk in some studies. Matthew Walker's Why We Sleep popularized this research in 2017.",
+      "memory_hook": "The glymphatic system was discovered in 2013: during sleep, cerebrospinal fluid pulses through your brain, flushing out waste products — including the amyloid beta plaques that accumulate in Alzheimer's disease. Your brain literally cleans itself while you sleep. Chronic sleep deprivation is now linked to dementia risk. Sleep isn't laziness; it's when your brain does its most essential maintenance."
+    },
+    {
+      "category": "Science & Nature",
+      "question": "What is the difference between weather and climate, and why does the distinction matter for climate change discussions?",
+      "options": [
+        "Weather and climate are synonymous — 'weather' is used informally while 'climate' is the scientific term for the same phenomenon",
+        "Weather is short-term atmospheric conditions (temperature, precipitation, wind today or this week). Climate is the long-term average of weather patterns over decades and regions. The distinction matters because a cold day doesn't disprove warming trends any more than one warm day proves them — climate change is measured by statistical trends over decades across the whole globe",
+        "Weather is a regional phenomenon; climate is global. A local blizzard disproves global warming because climate should affect all regions equally",
+        "Climate change can be assessed by looking at any single year's data; the 30-year averages scientists use are a statistical convention with no scientific basis"
+      ],
+      "answer": "Weather is short-term atmospheric conditions (temperature, precipitation, wind today or this week). Climate is the long-term average of weather patterns over decades and regions. The distinction matters because a cold day doesn't disprove warming trends any more than one warm day proves them — climate change is measured by statistical trends over decades across the whole globe",
+      "explanation": "A helpful analogy: weather is your mood (varies day to day); climate is your personality (consistent pattern over time). 'It's cold today, so global warming is a hoax' confuses weather and climate. Climate scientists measure: global average surface temperature over decades (NASA/NOAA instrumental record since 1880), sea level rise (satellite altimetry), Arctic sea ice extent (satellite), ocean heat content, glacier mass balance. The 10 hottest years on record (global average) have all occurred since 1998. Natural climate variability (El Niño/La Niña) affects weather patterns but doesn't explain the directional long-term trend.",
+      "memory_hook": "Weather is your mood; climate is your personality. A cold Tuesday doesn't mean you're a cold person. Climate science measures decadal trends across the entire globe — not individual weather events. The 10 hottest years on global record have all occurred since 1998. Natural cycles like El Niño cause year-to-year variation, but they don't explain why the trend is consistently upward. Individual weather events are noise; climate is signal."
+    }
+  ]
+}

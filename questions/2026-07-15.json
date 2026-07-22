@@ -67,16 +67,16 @@
     },
     {
       "category": "Pop Culture",
-      "question": "Who played Wolverine in the X-Men film series?",
+      "question": "The Office (US, NBC, 2005–2013), adapted from Ricky Gervais's UK series, became one of the most-watched TV shows in streaming history. What structural decision made it culturally distinct?",
       "options": [
-        "Chris Pratt",
-        "Ryan Reynolds",
-        "Hugh Jackman",
-        "Tom Hardy"
+        "It was the first US network comedy to abandon a studio audience, using deadpan silence and character glances to deliver humor",
+        "It used a mockumentary format — a fictional documentary crew following Dunder Mifflin paper employees — creating humor through awkward pauses, talking-head confessionals, and the gap between characters' self-perception and reality",
+        "It was filmed simultaneously as two separate shows from two different characters' perspectives, airing alternate versions on different nights",
+        "It was written and performed entirely by the cast with no writers' room, using improvised dialogue within scripted situations"
       ],
-      "answer": "Hugh Jackman",
-      "explanation": "Hugh Jackman played Wolverine in nine films from X-Men (2000) to Logan (2017) and later returned for Deadpool & Wolverine (2024). Jackman held the record as the actor to have played the same superhero role the most times in a single film series, recognized by the Guinness World Records.",
-      "memory_hook": "Jackman IS Wolverine — 9 films, 17 years, one set of claws."
+      "answer": "It used a mockumentary format — a fictional documentary crew following Dunder Mifflin paper employees — creating humor through awkward pauses, talking-head confessionals, and the gap between characters' self-perception and reality",
+      "explanation": "The mockumentary format — adapted from Gervais's original — let The Office explore cringe comedy through naturalistic camera work, documentary-style talking heads, and characters who never quite explain why a camera crew is following them. Steve Carell's Michael Scott became one of TV's great comic creations: a boss desperate for approval who consistently embarrasses himself. The finale drew 22.4 million viewers in 2013. It was the most streamed show on Netflix in 2020, even after leaving for Peacock.",
+      "memory_hook": "The Office adapted the UK mockumentary format — its genius was the gap between Michael Scott's self-image and reality, delivered through talking heads, awkward glances, and the unasked question of why a documentary crew was filming a paper company."
     },
     {
       "category": "Pop Culture",
@@ -119,16 +119,16 @@
     },
     {
       "category": "Science & Nature",
-      "question": "What is the world's fastest land animal?",
+      "question": "The 'Hubble Tension' is one of cosmology's most pressing current problems. What is it?",
       "options": [
-        "Lion",
-        "Pronghorn antelope",
-        "Greyhound",
-        "Cheetah"
+        "The Hubble Tension is a disagreement between the Hubble Space Telescope's image resolution and the mathematical predictions of general relativity, suggesting Einstein's equations need revision at galactic scales",
+        "Two independent methods of measuring the universe's expansion rate give significantly different answers — measurements from the early universe (CMB) and from nearby galaxies (Cepheids, supernovae) disagree by about 9%, which is too large to be measurement error",
+        "The Hubble Tension refers to the structural stress on the Hubble Space Telescope's mirrors from the temperature swings of orbiting between sunlight and Earth's shadow — causing it to flex and occasionally produce distorted images",
+        "The Hubble Tension describes the contradiction between Hubble's original 1929 measurement (the universe is 2 billion years old) and modern measurements (13.8 billion years) — Hubble's error took 30 years to correct"
       ],
-      "answer": "Cheetah",
-      "explanation": "The cheetah can accelerate from 0 to 100 km/h (62 mph) in about 3 seconds and reach top speeds of up to 120 km/h (75 mph). However, it can only sustain this speed for about 20 to 30 seconds before overheating. The cheetah's body is built entirely for speed: a flexible spine, non-retractable claws for grip, and a large nasal cavity for oxygen intake.",
-      "memory_hook": "Cheetah = fastest land animal. 0 to 100 in 3 seconds. But it runs out of energy in 20 seconds and has to rest. Built for sprinting, not distance."
+      "answer": "Two independent methods of measuring the universe's expansion rate give significantly different answers — measurements from the early universe (CMB) and from nearby galaxies (Cepheids, supernovae) disagree by about 9%, which is too large to be measurement error",
+      "explanation": "The Hubble constant (H₀) measures how fast the universe is expanding. CMB measurements from the early universe give about 67.4 km/s/Mpc; direct measurements from Cepheid stars and Type Ia supernovae in nearby galaxies give about 73 km/s/Mpc. A 9% disagreement with modern instruments and statistics is highly significant — it could indicate new physics beyond the Standard Model of cosmology, such as dark energy that changes over time, new types of particles in the early universe, or even modifications to general relativity. The James Webb Space Telescope was partly deployed to resolve this tension; so far it has made the discrepancy sharper.",
+      "memory_hook": "The Hubble Tension: two different methods of measuring the universe's expansion rate give numbers 9% apart. Early universe measurements say 67.4 km/s/Mpc; nearby galaxy measurements say 73. Both teams have triple-checked their math — if the difference is real, it means there's physics we don't know yet."
     },
     {
       "category": "Geography",

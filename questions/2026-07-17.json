@@ -119,16 +119,16 @@
     },
     {
       "category": "Science & Nature",
-      "question": "The boiling point of water at sea level is:",
+      "question": "The multiverse hypothesis — that our universe is one of many — appears in several modern physics theories. What is its basis in current physics?",
       "options": [
-        "90 degrees Celsius",
-        "100 degrees Celsius",
-        "110 degrees Celsius",
-        "212 degrees Fahrenheit only"
+        "The multiverse is purely speculative fiction with no grounding in established physics — no mainstream theory predicts or requires the existence of other universes",
+        "Cosmic inflation, quantum mechanics, and string theory each independently generate predictions for multiple universes — making the multiverse a consequence of established frameworks, not an add-on speculation",
+        "The multiverse was confirmed by the James Webb Space Telescope in 2022, which detected faint background radiation patterns consistent with another universe colliding with ours in the distant past",
+        "The multiverse requires the existence of extra dimensions predicted by string theory, which has been experimentally confirmed by the Large Hadron Collider at CERN"
       ],
-      "answer": "100 degrees Celsius",
-      "explanation": "Water boils at 100 degrees Celsius (212 degrees Fahrenheit) at sea level, where atmospheric pressure is 101.3 kPa. At higher altitudes, where atmospheric pressure is lower, water boils at a lower temperature — which is why cooking instructions differ for high-altitude locations. In a pressure cooker, water boils above 100 degrees.",
-      "memory_hook": "Water boils at 100 C at sea level. Higher up the mountain, it boils at lower temperatures. Lower pressure = lower boiling point. That's why pasta takes longer to cook at altitude."
+      "answer": "Cosmic inflation, quantum mechanics, and string theory each independently generate predictions for multiple universes — making the multiverse a consequence of established frameworks, not an add-on speculation",
+      "explanation": "At least three separate physics frameworks lead to multiverse predictions: (1) Eternal inflation — if inflation happened once, it likely happened elsewhere too, creating bubble universes with different physical constants; (2) Quantum mechanics many-worlds interpretation — every quantum measurement branches into all possible outcomes existing in parallel universes; (3) String theory's 'landscape' — the equations allow approximately 10^500 different solutions, each representing a different universe with different physics. The challenge is that no current experiment can test for other universes, leading some physicists to question whether it's science or philosophy. Physicist Max Tegmark categorizes four distinct multiverse 'levels.'",
+      "memory_hook": "The multiverse isn't just science fiction — eternal inflation, quantum mechanics, and string theory all independently produce it as a mathematical consequence. String theory's equations allow 10^500 different universes; quantum mechanics branches into all possible outcomes. The problem: no experiment can test it yet, putting it on the edge of what counts as science."
     },
     {
       "category": "Geography",

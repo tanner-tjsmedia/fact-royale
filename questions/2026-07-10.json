@@ -145,16 +145,16 @@
     },
     {
       "category": "Science & Nature",
-      "question": "What is the chemical formula for glucose — the simple sugar that is the primary source of energy for most living cells?",
+      "question": "Jupiter's moon Europa is considered one of the most promising places in the solar system to search for extraterrestrial life. Why?",
       "options": [
-        "C₁₂H₂₂O₁₁",
-        "CH₄O",
-        "C₆H₁₂O₆",
-        "C₂H₅OH"
+        "Europa has an oxygen-rich atmosphere thicker than Earth's, and its volcanic activity creates conditions similar to early Earth when life first emerged",
+        "Europa has a global liquid water ocean beneath its icy crust — kept liquid by tidal heating from Jupiter's gravity — and possibly hydrothermal vents on the ocean floor where life might exist",
+        "Europa's surface temperature (−160°C) is too cold for life, but radar imaging shows ancient microfossils embedded in its ice crust from a warmer era 2 billion years ago",
+        "Europa orbits inside Jupiter's magnetosphere, which screens it from radiation, making it the only moon in the solar system with a protected environment potentially hospitable to surface life"
       ],
-      "answer": "C₆H₁₂O₆",
-      "explanation": "Glucose (C₆H₁₂O₆) is a six-carbon monosaccharide and the primary energy source for cellular respiration. Plants produce it through photosynthesis; animals obtain it through digestion of carbohydrates. Cells break glucose down through glycolysis and the citric acid cycle to produce ATP (adenosine triphosphate), the universal energy currency. C₁₂H₂₂O₁₁ is sucrose (table sugar); C₂H₅OH is ethanol; CH₄O is methanol.",
-      "memory_hook": "Glucose = C₆H₁₂O₆. The universal cellular fuel. Plants make it via photosynthesis; you get it from carbs. Cells break it down to ATP (the actual energy currency). Sucrose is C₁₂H₂₂O₁₁ (two glucose units joined). Ethanol (C₂H₅OH) is what you drink; methanol (CH₄O) will kill you."
+      "answer": "Europa has a global liquid water ocean beneath its icy crust — kept liquid by tidal heating from Jupiter's gravity — and possibly hydrothermal vents on the ocean floor where life might exist",
+      "explanation": "Europa's surface is −160°C, but tidal flexing from Jupiter's immense gravity generates internal heat, maintaining a liquid ocean estimated at 100 km deep beneath an ice shell 10–30 km thick. This ocean may contain more liquid water than all of Earth's oceans combined. On Earth, life thrives at hydrothermal vents in the total absence of sunlight — chemosynthetic bacteria form the base of entire ecosystems. If similar vents exist on Europa's ocean floor, life might exist there independently of sunlight. NASA's Europa Clipper mission, launched in 2024, will make 49 flybys.",
+      "memory_hook": "Europa's liquid ocean — kept warm by Jupiter's tidal squeezing — may contain more water than all Earth's oceans. Life around Earth's hydrothermal vents needs no sunlight, suggesting similar ecosystems could exist under Europa's ice. Europa Clipper launched in 2024 to investigate."
     }
   ]
 }

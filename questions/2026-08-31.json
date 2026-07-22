@@ -29,16 +29,16 @@
     },
     {
       "category": "Sports",
-      "question": "In rugby union, how many points is a try worth?",
+      "question": "Tom Brady is widely considered the greatest quarterback in NFL history. How many Super Bowl championships did he win, and with how many different teams?",
       "options": [
-        "5",
-        "3",
-        "7",
-        "4"
+        "6 Super Bowls, all with the New England Patriots",
+        "7 Super Bowls — 6 with the New England Patriots, 1 with the Tampa Bay Buccaneers",
+        "5 Super Bowls — 4 with New England, 1 with Tampa Bay",
+        "7 Super Bowls — 5 with New England, 2 with Tampa Bay"
       ],
-      "answer": "5",
-      "explanation": "A try is worth 5 points in rugby union. After scoring a try, the team gets a conversion kick worth 2 points (if successful). A penalty kick is worth 3 points and a drop goal is worth 3 points. In rugby league, a try is worth 4 points.",
-      "memory_hook": "Rugby union: try = 5 pts, conversion = 2 pts, penalty = 3 pts, drop goal = 3 pts."
+      "answer": "7 Super Bowls — 6 with the New England Patriots, 1 with the Tampa Bay Buccaneers",
+      "explanation": "Brady won Super Bowls XXXVI, XXXVIII, XXXIX, XLIX, LI, and LIII with New England, then won Super Bowl LV with Tampa Bay at age 43 — making him the oldest Super Bowl-winning quarterback ever. His 7 titles are more than any NFL franchise except the Patriots (6) and Pittsburgh Steelers (6). He also holds records for most Super Bowl touchdown passes, yards, and completions.",
+      "memory_hook": "Brady's 7 Super Bowls (6 with New England, 1 with Tampa Bay at age 43) are more championships than any other player in NFL history — more than most franchises have ever won."
     },
     {
       "category": "Pop Culture",

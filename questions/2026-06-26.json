@@ -120,16 +120,16 @@
     },
     {
       "category": "Science & Nature",
-      "question": "How many bones does a healthy adult human body have?",
+      "question": "NASA's Perseverance rover landed on Mars in February 2021. What unique experiment did it carry that marked a first in the history of space exploration?",
       "options": [
-        "270",
-        "212",
-        "206",
-        "195"
+        "It carried the first telescope deployed on another planet's surface, mapping Mars's two moons — Phobos and Deimos — from the Martian ground in unprecedented detail",
+        "It carried Ingenuity — a small helicopter that made the first powered, controlled flight on another planet, demonstrating flight is possible in Mars's thin atmosphere (1% of Earth's density)",
+        "It contained a nuclear fusion reactor small enough to fit in a car, powering the rover for an indefinite mission without the solar power limitations of previous rovers",
+        "It was the first spacecraft to carry preserved human DNA to another planet, as part of a test of whether biological material can survive interplanetary travel"
       ],
-      "answer": "206",
-      "explanation": "Adults have 206 bones. Babies are born with around 270, but many fuse together during childhood and adolescence. The most common fusions happen in the skull and spine. The smallest bone in the body is the stirrup (stapes) inside the ear.",
-      "memory_hook": "206 bones in an adult. Born with more, finish with fewer. The bones fuse as you grow — that's why babies are so flexible."
+      "answer": "It carried Ingenuity — a small helicopter that made the first powered, controlled flight on another planet, demonstrating flight is possible in Mars's thin atmosphere (1% of Earth's density)",
+      "explanation": "Ingenuity's first flight on April 19, 2021 lasted 39 seconds and reached an altitude of 3 meters — a Wright Brothers-scale moment. Mars's atmosphere is only 1% as dense as Earth's, requiring Ingenuity's rotors to spin at 2,400 rpm (five times faster than a typical helicopter) to generate lift. The rover itself drills and caches rock cores for eventual return to Earth — the first step in a sample-return mission. Previous Mars rovers include Sojourner (1997), Spirit and Opportunity (2004), and Curiosity (2012), which is still operating.",
+      "memory_hook": "Perseverance's helicopter Ingenuity made the first powered flight on another world — 39 seconds, 3 meters high — in atmosphere 1% as dense as Earth's. It's the Mars equivalent of Kitty Hawk; NASA named the landing site after the Wright Brothers."
     },
     {
       "category": "Geography",

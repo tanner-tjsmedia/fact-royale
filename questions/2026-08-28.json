@@ -94,16 +94,16 @@
     },
     {
       "category": "Science & Nature",
-      "question": "What is the scientific term for the bending of light as it passes from one medium (such as air) into another (such as water or glass)?",
+      "question": "The International Space Station (ISS), continuously crewed since November 2000, is the largest structure humans have ever placed in space. What scientific and logistical facts about it are most remarkable?",
       "options": [
-        "Reflection",
-        "Diffraction",
-        "Refraction",
-        "Dispersion"
+        "The ISS was assembled using a single Space Shuttle mission in 1998, with 150 astronauts working simultaneously over 8 days to bolt together 20 pre-fabricated modules",
+        "The ISS orbits at 408 km altitude and 28,000 km/h — completing 16 orbits of Earth per day — requires 1,500 kg of food per astronaut per year, and has hosted 271 people from 21 nations over 25 years of operation",
+        "The ISS maintains a gravitational environment identical to Earth's surface through centrifugal force from its rotation at 2.4 revolutions per minute, making microgravity research impossible without special modules",
+        "The ISS was built as a single piece in the Mojave Desert, then transported to orbit aboard a specially modified Saturn V rocket — the last Saturn V ever flown"
       ],
-      "answer": "Refraction",
-      "explanation": "Refraction occurs because light changes speed when moving between materials with different optical densities (refractive indices). Light bends toward the perpendicular when entering a denser medium and away from it in a less dense medium. Refraction explains why a straw appears bent in water, how glasses and contact lenses correct vision, and how a prism splits white light into a rainbow spectrum. Without refraction, lenses — and therefore eyes — couldn't focus light.",
-      "memory_hook": "Refraction = light bending when crossing between materials. Straw looks bent in water. Your eye's lens uses refraction to focus. Prisms split white light via refraction. All optics depend on it."
+      "answer": "The ISS orbits at 408 km altitude and 28,000 km/h — completing 16 orbits of Earth per day — requires 1,500 kg of food per astronaut per year, and has hosted 271 people from 21 nations over 25 years of operation",
+      "explanation": "The ISS is as large as a football field (109 meters end to end) and weighs 420,000 kg. At 28,000 km/h, it experiences 16 sunrises and sunsets per day. It was assembled module by module over 13 years of missions (1998–2011) involving 42 Space Shuttle flights and Russian Soyuz missions. Astronauts on six-month missions experience significant muscle and bone loss from microgravity, requiring daily exercise. The ISS hosts research in medicine, physics, materials science, and Earth observation. Its orbit is visible to the naked eye — NASA's 'Spot the Station' app predicts passes.",
+      "memory_hook": "The ISS completes 16 orbits per day at 28,000 km/h — fast enough to see 16 sunrises and sunsets every 24 hours. It's been continuously crewed since November 2000 and is visible to the naked eye. NASA's 'Spot the Station' app tells you exactly when it'll cross your sky."
     },
     {
       "category": "Geography",

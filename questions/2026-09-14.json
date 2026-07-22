@@ -29,16 +29,16 @@
     },
     {
       "category": "Sports",
-      "question": "In rugby union, how many players are on each side of the field at once?",
+      "question": "The 1986 World Series Game 6 featured one of baseball's most infamous defensive blunders. What happened that cost the Boston Red Sox a championship?",
       "options": [
-        "15",
-        "13",
-        "11",
-        "7"
+        "A Red Sox pitcher threw a wild pitch with the bases loaded in the bottom of the 9th, allowing the winning run",
+        "A ground ball went through first baseman Bill Buckner's legs, allowing the New York Mets to score the tying and winning runs",
+        "A Red Sox outfielder dropped a routine fly ball that would have ended the series",
+        "The Red Sox catcher dropped a third strike with two outs in the bottom of the 10th inning"
       ],
-      "answer": "15",
-      "explanation": "Rugby union fields 15 players per side: 8 forwards (the scrum) and 7 backs (the kicking, running, and defending specialists). Rugby league uses 13 players. Sevens rugby (a popular Olympic format) uses 7 players per side. Each format has different rules about tackling and restarts.",
-      "memory_hook": "Rugby union: 15 per side. Rugby league: 13. Sevens: 7. The number changes across formats."
+      "answer": "A ground ball went through first baseman Bill Buckner's legs, allowing the New York Mets to score the tying and winning runs",
+      "explanation": "With the Red Sox one out from their first World Series title since 1918, Mookie Wilson's slow grounder rolled through Bill Buckner's legs at first base, allowing the winning run to score. The Mets won Game 7 two days later. The play symbolized the 'Curse of the Bambino' and haunted Buckner for decades. Boston finally broke the curse in 2004, winning their first Series in 86 years.",
+      "memory_hook": "Buckner's grounder through the legs in 1986 Game 6 became baseball's most famous error — the Red Sox had been one out from ending their 68-year championship drought and lost the World Series two days later."
     },
     {
       "category": "Pop Culture",

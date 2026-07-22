@@ -28,16 +28,16 @@
     },
     {
       "category": "Sports",
-      "question": "How many dimples does a regulation golf ball have?",
+      "question": "Walter Payton, nicknamed 'Sweetness,' held the NFL all-time rushing record for 18 years. Who eventually broke his record and when?",
       "options": [
-        "200",
-        "336",
-        "500",
-        "436"
+        "Barry Sanders broke it in 1997 with the Detroit Lions",
+        "Emmitt Smith broke it in 2002 with the Dallas Cowboys",
+        "Eric Dickerson broke it in 1995 with the Los Angeles Rams",
+        "Marshall Faulk broke it in 2003 with the St. Louis Rams"
       ],
-      "answer": "336",
-      "explanation": "A regulation golf ball typically has between 300 and 500 dimples, with 336 being the most common number. The dimples create turbulence in the air around the ball, reducing drag and allowing it to fly farther than a smooth ball would.",
-      "memory_hook": "336 dimples — think of a ball so dimpled it looks like it's smiling twice over."
+      "answer": "Emmitt Smith broke it in 2002 with the Dallas Cowboys",
+      "explanation": "Walter Payton rushed for 16,726 yards across his career with the Chicago Bears (1975–1987), setting the all-time record. Emmitt Smith surpassed him on October 27, 2002, finishing his career with 18,355 yards. Smith won three Super Bowls with Dallas and is still the all-time leader. Payton was also renowned for almost never going out of bounds — he preferred to run through defenders.",
+      "memory_hook": "Payton's 'Sweetness' — 16,726 career yards — held the NFL rushing record for 18 years until Emmitt Smith broke it in 2002 en route to 18,355, still the all-time mark."
     },
     {
       "category": "Sports",
@@ -54,16 +54,16 @@
     },
     {
       "category": "Pop Culture",
-      "question": "Who played the Joker in the 2019 film 'Joker'?",
+      "question": "Salvador Dalí's 'The Persistence of Memory' (1931) — with its melting watches in a dreamlike landscape — is one of Surrealism's most iconic images. What philosophical idea does it express?",
       "options": [
-        "Heath Ledger",
-        "Jared Leto",
-        "Joaquin Phoenix",
-        "Jack Nicholson"
+        "That precision timepieces are inherently unreliable, inspired by Dalí's distrust of technology after the Spanish Civil War",
+        "That time in dreams and the unconscious mind is fluid and distorted — not the fixed, mechanical force we experience in waking life",
+        "That all human achievements eventually crumble, with watches symbolizing the futility of human ambition against nature",
+        "That the 20th century's obsession with time and productivity was destroying Europe's artistic and spiritual traditions"
       ],
-      "answer": "Joaquin Phoenix",
-      "explanation": "Joaquin Phoenix played Arthur Fleck/Joker in the 2019 film directed by Todd Phillips. Phoenix lost 52 pounds for the role and won the Academy Award for Best Actor. The film grossed over $1 billion worldwide.",
-      "memory_hook": "Phoenix rose from ashes to play the Joker — and won the Oscar for it."
+      "answer": "That time in dreams and the unconscious mind is fluid and distorted — not the fixed, mechanical force we experience in waking life",
+      "explanation": "Dalí said he was inspired by watching Camembert cheese melting in the sun on the afternoon he painted it. The melting watches suggest that in the dream world — which Surrealism sought to access — time doesn't function as the rigid, mechanical structure it is in waking life. The landscape is the coast of Catalonia near Dalí's home in Cadaqués, Spain. Dalí later called himself 'not a Surrealist but the greatest realist,' claiming he painted hallucinations precisely.",
+      "memory_hook": "Dalí said melting Camembert cheese inspired the melting watches — the painting asks what time means in the dream world, where it flows like soft cheese rather than ticking like clockwork."
     },
     {
       "category": "Pop Culture",
@@ -119,16 +119,16 @@
     },
     {
       "category": "Science & Nature",
-      "question": "What is the hardest naturally occurring substance on Earth?",
+      "question": "Neutron stars are the densest objects in the universe besides black holes — a teaspoon of neutron star material would weigh about a billion tons on Earth. How do they form?",
       "options": [
-        "Quartz",
-        "Corundum",
-        "Graphite",
-        "Diamond"
+        "Neutron stars form when a star runs out of hydrogen and begins burning helium, the increased radiation pressure blowing off the outer layers and compressing the core into a dense neutron ball",
+        "Neutron stars form in supernova explosions when a massive star's core collapses — protons and electrons are crushed together to form neutrons, creating an object 20 km across with more mass than the Sun",
+        "Neutron stars form when two white dwarfs merge, their combined carbon and oxygen atoms undergoing a phase transition that converts all atomic nuclei into pure neutron matter",
+        "Neutron stars are ancient relics from the Big Bang — the only objects dense enough to survive from the universe's first seconds, slowly cooling over 13 billion years"
       ],
-      "answer": "Diamond",
-      "explanation": "Diamond scores a 10 on the Mohs hardness scale, the highest possible. It is pure carbon arranged in a crystal lattice structure. Despite being the hardest material, it is not the toughest — it can be shattered by a well-placed blow because hardness and toughness are different properties.",
-      "memory_hook": "Diamond = hardest natural substance. But hard does not mean unbreakable. Hit a diamond with a hammer in the right spot and it shatters. Hardness and toughness are different things."
+      "answer": "Neutron stars form in supernova explosions when a massive star's core collapses — protons and electrons are crushed together to form neutrons, creating an object 20 km across with more mass than the Sun",
+      "explanation": "When a massive star (8–20 solar masses) exhausts its nuclear fuel, its iron core collapses in milliseconds under gravity. The collapse is so violent it compresses protons and electrons into neutrons via inverse beta decay, creating a neutron star roughly 20 km in diameter but 1–2 solar masses. Rapidly spinning neutron stars emit beams of radio waves that sweep like a lighthouse — when detected from Earth, these are called pulsars. The first pulsar was discovered by Jocelyn Bell in 1967; the signal was so regular she briefly called it LGM-1 (Little Green Men).",
+      "memory_hook": "When Jocelyn Bell discovered the first pulsar in 1967, the signal was so precisely regular she briefly labeled it LGM-1 (Little Green Men). It was a neutron star — 20 km across, more massive than the Sun — spinning 30 times per second and beaming radio waves like a cosmic lighthouse."
     },
     {
       "category": "Geography",

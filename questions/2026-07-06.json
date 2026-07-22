@@ -54,16 +54,16 @@
     },
     {
       "category": "Pop Culture",
-      "question": "Who played Tony Stark/Iron Man in the Marvel Cinematic Universe?",
+      "question": "Auguste Rodin's sculpture 'The Thinker' (1880) is among the world's most recognized works of art. What was its original purpose and meaning?",
       "options": [
-        "Chris Evans",
-        "Chris Hemsworth",
-        "Robert Downey Jr.",
-        "Mark Ruffalo"
+        "It was commissioned as a monument to René Descartes and the Age of Reason, representing philosophy's triumph over religious superstition",
+        "It was created as a central figure for 'The Gates of Hell' — Rodin's monumental bronze doors based on Dante's Inferno — and was meant to depict Dante himself contemplating Hell",
+        "It was intended as a self-portrait of Rodin at work, showing the physical and mental labor that sculpture required",
+        "It was designed as a memorial to workers killed in industrial accidents, representing collective human suffering in the Industrial Age"
       ],
-      "answer": "Robert Downey Jr.",
-      "explanation": "Robert Downey Jr. played Tony Stark/Iron Man across 10 Marvel films from 2008's Iron Man through Avengers: Endgame (2019). His portrayal is credited with launching the MCU, which became the highest-grossing film franchise in history.",
-      "memory_hook": "RDJ IS Iron Man — he didn't play the role, he became it."
+      "answer": "It was created as a central figure for 'The Gates of Hell' — Rodin's monumental bronze doors based on Dante's Inferno — and was meant to depict Dante himself contemplating Hell",
+      "explanation": "Rodin spent decades working on The Gates of Hell, a set of massive bronze doors commissioned for a planned Paris museum of decorative arts. The Thinker was originally titled 'The Poet' — meant to be Dante looking down at the tormented souls below him, contemplating creation and damnation. The Gates were never installed in Rodin's lifetime, but The Thinker was enlarged and exhibited independently from 1904. Numerous bronze casts exist in museums worldwide.",
+      "memory_hook": "The Thinker was originally 'The Poet' — Dante looking down at the souls in Hell for Rodin's Gates of Hell doors. It was pulled from context and became one of art's most recognized images, standing alone."
     },
     {
       "category": "Pop Culture",
@@ -119,16 +119,16 @@
     },
     {
       "category": "Science & Nature",
-      "question": "How many chambers does the human heart have?",
+      "question": "The Moon always shows the same face to Earth — we never see its 'far side' from the surface. Why, and what does this reveal about orbital mechanics?",
       "options": [
-        "2",
-        "3",
-        "4",
-        "6"
+        "The Moon has a perfectly symmetric distribution of mass that prevents it from wobbling as it orbits — by coincidence, the same hemisphere always faces toward Earth's gravitational pull",
+        "The Moon is tidally locked — Earth's gravity has gradually slowed the Moon's rotation until its spin period exactly matches its orbital period (27.3 days each), permanently fixing one face toward Earth",
+        "The Moon rotates much faster than it orbits, completing about 13 rotations per orbit — but its orbit wobbles in a complex pattern that by chance keeps one hemisphere facing Earth at all times",
+        "The Moon does not actually rotate — it is gravitationally fixed in space while Earth orbits around both the Moon and the Sun, creating the appearance of one face always pointing toward Earth"
       ],
-      "answer": "4",
-      "explanation": "The human heart has four chambers: the left and right atria (upper chambers) and the left and right ventricles (lower chambers). The right side pumps oxygen-depleted blood to the lungs, while the left side pumps oxygenated blood to the rest of the body. The left ventricle is the most muscular, as it must push blood throughout the entire body.",
-      "memory_hook": "Heart = 4 chambers. Two atria on top, two ventricles on the bottom. The left side is stronger because it pumps blood to your whole body. The right side only has to reach the lungs."
+      "answer": "The Moon is tidally locked — Earth's gravity has gradually slowed the Moon's rotation until its spin period exactly matches its orbital period (27.3 days each), permanently fixing one face toward Earth",
+      "explanation": "Tidal locking occurs because Earth's gravity exerts slightly stronger force on the Moon's near side than its far side, creating a tidal bulge. Over billions of years, this bulge acts as a brake on the Moon's rotation — dissipating rotational energy as heat — until rotation and orbit synchronize. This process takes millions to billions of years and happens to moons throughout the solar system. The 'far side' (often wrongly called the 'dark side') receives as much sunlight as the near side. The Soviet Luna 3 took the first photographs of the far side in 1959; it looks dramatically different — far fewer dark 'mare' (ancient lava plains) and more craters.",
+      "memory_hook": "Tidal locking isn't coincidence — Earth's gravity gradually braked the Moon's spin over billions of years until it matched the Moon's 27.3-day orbit. The Soviet Luna 3 photographed the far side in 1959; it looks completely different — virtually no dark mare, just craters. It's the far side, not the dark side — it gets the same amount of sunlight."
     },
     {
       "category": "Geography",

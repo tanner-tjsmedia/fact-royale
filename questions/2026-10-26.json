@@ -1,0 +1,161 @@
+{
+  "date": "2026-10-26",
+  "questions": [
+    {
+      "category": "History",
+      "question": "The Rwandan Genocide (1994) killed approximately 800,000 people in 100 days. What was the ethnic conflict at its core, and what role did international forces play?",
+      "options": [
+        "A conflict between Hutu and Tutsi ethnicities; international forces intervened quickly and limited casualties",
+        "A conflict between Hutu and Tutsi, where Hutu extremists systematically massacred Tutsi. The United Nations peacekeeping force was ordered not to intervene; the US and other nations avoided the word 'genocide' to escape treaty obligations",
+        "A conflict between Christian and Muslim populations; France led an intervention force that stopped the killing",
+        "A military coup by the Rwandan army; the UN successfully evacuated most civilians"
+      ],
+      "answer": "A conflict between Hutu and Tutsi, where Hutu extremists systematically massacred Tutsi. The United Nations peacekeeping force was ordered not to intervene; the US and other nations avoided the word 'genocide' to escape treaty obligations",
+      "explanation": "The Rwandan Genocide (April-July 1994) killed approximately 800,000 Tutsi and moderate Hutu. UN peacekeeping commander General Roméo Dallaire warned of the impending genocide before it began and asked for authorization to intervene — he was ordered to stand down. The US Clinton administration deliberately avoided the word 'genocide' (which would trigger Genocide Convention obligations). Belgium withdrew its forces. Dallaire stayed; the RPF stopped the killing. Clinton later called his failure to intervene his worst decision as president.",
+      "memory_hook": "The UN commander warned of the Rwanda genocide BEFORE it happened and was told to stand down. 800,000 people were killed in 100 days while international powers avoided the word 'genocide' to dodge treaty obligations. Clinton called it his worst failure."
+    },
+    {
+      "category": "History",
+      "question": "The Silk Road trade network declined significantly in the 15th century. What development contributed most to its decline?",
+      "options": [
+        "The Black Death (1347-51) killed so many traders that the routes became non-viable",
+        "European maritime routes around Africa to Asia, pioneered by Vasco da Gama (1498), provided cheaper sea transport that gradually replaced overland Silk Road trade",
+        "The Mongol Empire's collapse made the routes too dangerous for merchants",
+        "Chinese isolationism under the Ming Dynasty closed the eastern terminals of the Silk Road"
+      ],
+      "answer": "European maritime routes around Africa to Asia, pioneered by Vasco da Gama (1498), provided cheaper sea transport that gradually replaced overland Silk Road trade",
+      "explanation": "Vasco da Gama's first voyage from Portugal around Africa to India (1497-1499) opened a sea route to Asian spices that bypassed Ottoman-controlled land routes. Sea transport was far cheaper for bulk goods — ships could carry far more than camel caravans. The fall of Constantinople (1453) to the Ottomans also complicated European access to Eastern trade. Together, these factors shifted trade to maritime routes and reduced the Silk Road's importance. This shift made Portugal and Spain the dominant world powers of the early 1500s.",
+      "memory_hook": "Vasco da Gama's sea route around Africa killed the Silk Road — ships carry 100x more cargo than camels and don't need to cross hostile territory. Portugal's maritime monopoly made it the world's richest country in the early 1500s while Central Asian trade cities declined."
+    },
+    {
+      "category": "History",
+      "question": "The Versailles Treaty (1919) is often blamed for creating conditions that led to WWII. What was the 'War Guilt Clause'?",
+      "options": [
+        "A clause requiring Germany to admit responsibility for starting WWI and pay reparations — terms so humiliating they fueled resentment that Hitler exploited",
+        "A clause requiring all nations involved in WWI to share equal blame and pay reparations to neutral countries",
+        "A clause preventing Germany from joining the League of Nations for 25 years",
+        "A clause requiring Germany to reduce its army by 25% and pay limited reparations"
+      ],
+      "answer": "A clause requiring Germany to admit responsibility for starting WWI and pay reparations — terms so humiliating they fueled resentment that Hitler exploited",
+      "explanation": "Article 231 (the 'War Guilt Clause') forced Germany to accept full responsibility for WWI and pay reparations totaling 132 billion gold marks (approximately $442 billion today). Germany lost 13% of its territory and 10% of its population. John Maynard Keynes warned at the time that the punitive terms would cause economic catastrophe and political extremism — he resigned from the British delegation in protest. Hitler rose to power partly by exploiting resentment over Versailles. The Marshall Plan after WWII was deliberately designed not to repeat Versailles's mistake.",
+      "memory_hook": "Keynes walked out of the Versailles negotiations in 1919 warning the punitive terms would destroy Germany economically and create dangerous extremism. He was precisely right. The Marshall Plan 30 years later was explicitly designed to avoid repeating Versailles."
+    },
+    {
+      "category": "Sports",
+      "question": "LeBron James passed Kareem Abdul-Jabbar's career scoring record in February 2023. What other major career records does LeBron hold or challenge?",
+      "options": [
+        "Most games played, most assists by a forward, and most triple-doubles in playoff history",
+        "He broke Kareem's scoring record but holds no other significant career records",
+        "He leads career playoff scoring and is top-5 in career assists among all players — remarkable for a power forward/center-position-adjacent player",
+        "He holds the record for most seasons leading the league in scoring"
+      ],
+      "answer": "He leads career playoff scoring and is top-5 in career assists among all players — remarkable for a power forward/center-position-adjacent player",
+      "explanation": "LeBron James (career stats through 2024): NBA all-time scoring leader (~40,000+ points), all-time playoff scoring leader (~8,000+ playoff points), and top-5 in career assists for all players — unusual for someone primarily playing as a forward. He won 4 NBA championships with 3 different teams (Cleveland, Miami, LA Lakers). He was drafted #1 overall in 2003 straight from high school and has been elite for over 20 years — exceptional longevity.",
+      "memory_hook": "LeBron is top-5 in career assists despite being primarily a forward, not a point guard. That's the statistical proof of his game's uniqueness: he breaks scoring records while also being one of the greatest playmakers ever. Twenty years of elite play is the real remarkable achievement."
+    },
+    {
+      "category": "Sports",
+      "question": "The 1980 'Miracle on Ice' at the Lake Placid Winter Olympics saw the US hockey team defeat which powerhouse nation?",
+      "options": [
+        "Canada",
+        "Czechoslovakia",
+        "Finland",
+        "Soviet Union"
+      ],
+      "answer": "Soviet Union",
+      "explanation": "The 1980 US Olympic hockey team — composed of amateur and college players — defeated the heavily favored Soviet Union team (who had won nearly every world championship since 1954) 4-3 in the semi-finals. The Soviets were considered nearly professional; the US roster averaged age 22. Al Michaels's call — 'Do you believe in miracles? YES!' — became iconic. The US then defeated Finland to win gold. The game is considered the greatest sports upset and Cold War symbolic victory in US history.",
+      "memory_hook": "'Do you believe in miracles? YES!' — Al Michaels's call is the most famous in US sports history. College kids defeated the most dominant hockey program on earth at the height of Cold War tension. The game meant more than hockey."
+    },
+    {
+      "category": "Pop Culture",
+      "question": "'Inception' (2010), directed by Christopher Nolan, features a plot about entering people's dreams. What is the central unresolved question at the film's end?",
+      "options": [
+        "Whether Cobb murdered his wife Mal or she chose to jump",
+        "Whether the 'dream extraction' technology actually exists or is the delusion of a mentally ill protagonist",
+        "Whether Cobb's spinning top falls or continues spinning — indicating whether the ending is reality or a dream",
+        "Whether Cobb's children are actually in Paris or are dream constructs"
+      ],
+      "answer": "Whether Cobb's spinning top falls or continues spinning — indicating whether the ending is reality or a dream",
+      "explanation": "Inception (2010) follows Cobb (Leonardo DiCaprio), a thief who extracts information from dreams. Throughout the film, Cobb uses a spinning top as his 'totem' — in dreams it spins indefinitely; in reality it eventually falls. The final shot shows the top spinning as Cobb sees his children's faces — then cuts to black before it falls or wobbles. Nolan deliberately left the answer ambiguous. Actor Michael Caine (who plays Cobb's father-in-law) claimed he was told the ending is real, but Nolan hasn't confirmed it.",
+      "memory_hook": "Inception ends mid-spin — Nolan deliberately cut before the top could fall or keep spinning. The ambiguity is the point: Cobb stopped caring whether it was real, which might be the most important thing. Michael Caine says it's real; Nolan stays quiet."
+    },
+    {
+      "category": "Pop Culture",
+      "question": "Which 1994 Disney animated film features the Polynesian demigod Maui and young chief Moana — wait, that's 2016. Which 1994 film features Simba AND the villain Scar is Simba's uncle?",
+      "options": [
+        "The Lion King (1994)",
+        "Tarzan (1994)",
+        "Pocahontas (1995)",
+        "Mulan (1998)"
+      ],
+      "answer": "The Lion King (1994)",
+      "explanation": "The Lion King (1994) stars Simba, Scar, Mufasa, Timon, Pumbaa, and Nala. Simba's uncle Scar kills Mufasa (Simba's father), frames Simba, and takes over Pride Rock. The story mirrors Hamlet. The film has the highest-grossing soundtrack of any animated film, featuring Elton John songs ('Circle of Life,' 'Can You Feel the Love Tonight') and Hans Zimmer's score. The Broadway musical adaptation (1997) became one of the longest-running Broadway shows.",
+      "memory_hook": "The Lion King is Hamlet with lions — murdered king, treacherous uncle, exiled prince who returns. The Broadway adaptation, running since 1997, has grossed over $10 billion worldwide — more than any entertainment property in history."
+    },
+    {
+      "category": "Pop Culture",
+      "question": "Roald Dahl is known for his dark, whimsical children's books. Which of his novels features a boy who discovers a giant peach that flies around the world?",
+      "options": [
+        "Fantastic Mr. Fox",
+        "The BFG",
+        "James and the Giant Peach",
+        "Charlie and the Chocolate Factory"
+      ],
+      "answer": "James and the Giant Peach",
+      "explanation": "James and the Giant Peach (1961) follows James Henry Trotter, who escapes his cruel aunts by crawling inside a magical giant peach that takes flight, inhabited by friendly giant insects. Roald Dahl (1916-1990) wrote both children's books (Charlie and the Chocolate Factory, Matilda, The Witches, The BFG, Fantastic Mr Fox) and dark adult short stories. His children's books often feature children triumphing over cruel adults, and the darkness and violence were intentional — he believed children enjoy their villains properly villainous.",
+      "memory_hook": "Roald Dahl deliberately made his villains terrifying and his worlds dark — he believed sanitized stories insulted children's ability to handle real fear and triumph. James and the Giant Peach has a peach that flies, insects as friends, and aunts who get crushed by the peach. Perfect."
+    },
+    {
+      "category": "Geography",
+      "question": "The Tigris and Euphrates rivers made ancient Mesopotamia 'the cradle of civilization.' In modern geography, most of this region corresponds to which country?",
+      "options": [
+        "Iran",
+        "Syria",
+        "Iraq",
+        "Turkey"
+      ],
+      "answer": "Iraq",
+      "explanation": "Modern Iraq contains most of ancient Mesopotamia — the land between (meso) the Tigris and Euphrates rivers (potamia). The ancient cities of Ur, Uruk, Babylon, and Nineveh (where writing, the wheel, the first law codes, and early agriculture emerged) are all in modern Iraq. The Tigris and Euphrates both originate in Turkey and flow through Syria and Iraq to the Persian Gulf. The 2003 US invasion of Iraq occurred in the same region where civilization itself began approximately 5,000 years ago.",
+      "memory_hook": "Iraq = ancient Mesopotamia — where writing, the wheel, cities, and law codes were invented. The Fertile Crescent that produced civilization is now a region defined by its oil and conflicts. The same rivers that watered the first cities still flow through Baghdad."
+    },
+    {
+      "category": "Geography",
+      "question": "Which South American country has both Atlantic and Pacific coastlines — a geographic rarity?",
+      "options": [
+        "Brazil",
+        "Peru",
+        "Ecuador",
+        "Colombia"
+      ],
+      "answer": "Colombia",
+      "explanation": "Colombia is one of only two countries in South America with coastlines on both the Pacific Ocean and the Caribbean Sea/Atlantic Ocean (the other is Venezuela, which only has Caribbean). Colombia's Pacific coast is rugged and biodiverse; its Caribbean coast includes tourist cities like Cartagena. Colombia is also one of the world's most biodiverse countries (second only to Brazil), containing Amazon rainforest, Andes mountains, Pacific coast, and Caribbean coast in one country.",
+      "memory_hook": "Colombia borders both the Pacific and the Caribbean — rare in South America. It also contains Amazon jungle, Andes mountains, and two coastlines in one country, making it one of the world's most geographically diverse nations. Also second only to Brazil in biodiversity."
+    },
+    {
+      "category": "Science & Nature",
+      "question": "What is a black hole, and what happens at the event horizon?",
+      "options": [
+        "A black hole is a region where gravity is so strong that no matter or light can escape; the event horizon is the boundary of no return — cross it and escape velocity exceeds the speed of light",
+        "A black hole is a collapsed star with no remaining matter — just empty curved space with strong magnetism",
+        "A black hole is a hypothetical object that only exists mathematically; no observational evidence confirms they exist",
+        "A black hole is a star that has cooled completely; the event horizon is the dark outer surface of the dead star"
+      ],
+      "answer": "A black hole is a region where gravity is so strong that no matter or light can escape; the event horizon is the boundary of no return — cross it and escape velocity exceeds the speed of light",
+      "explanation": "Black holes form when massive stars collapse — the gravitational force becomes so extreme that even light can't escape. The event horizon is the point of no return: inside, escape velocity > speed of light, so nothing can exit. Einstein's general relativity predicted black holes in 1916. The first image of a black hole was captured in 2019 (M87*, 6.5 billion solar masses). Stephen Hawking proposed that black holes slowly 'evaporate' by emitting 'Hawking radiation' — a prediction not yet confirmed by observation.",
+      "memory_hook": "The event horizon is where escape velocity equals the speed of light — cross inside and nothing, not even light, can get back out. We photographed a black hole for the first time in 2019. Hawking predicted they slowly evaporate; we haven't confirmed it yet."
+    },
+    {
+      "category": "Science & Nature",
+      "question": "What is the difference between renewable and non-renewable energy sources, and what is the current global energy mix?",
+      "options": [
+        "Renewable energy comes from the sun; non-renewable comes from the Earth. The global mix is 90% renewable",
+        "Renewable sources (solar, wind, hydro, geothermal, biomass) replenish naturally; non-renewable sources (coal, oil, natural gas, nuclear) are finite. As of the mid-2020s, fossil fuels still supply roughly 80% of global primary energy, though renewables are growing rapidly",
+        "Renewable energy is always cheaper than non-renewable; the slow transition is due to political resistance only",
+        "Nuclear energy is the most common renewable source globally, supplying 40% of electricity worldwide"
+      ],
+      "answer": "Renewable sources (solar, wind, hydro, geothermal, biomass) replenish naturally; non-renewable sources (coal, oil, natural gas, nuclear) are finite. As of the mid-2020s, fossil fuels still supply roughly 80% of global primary energy, though renewables are growing rapidly",
+      "explanation": "Global primary energy (mid-2020s): fossil fuels ~80% (oil ~32%, coal ~27%, natural gas ~23%), nuclear ~5%, hydropower ~7%, wind/solar/other renewables ~7-8%. Solar and wind are the fastest-growing energy sources, with costs dropping ~90% since 2010. The IEA projects renewables to exceed fossil fuels in electricity generation by the early 2030s. The challenge is the difference between electricity (easier to decarbonize) and total energy (including shipping, aviation, and industrial heat — harder to electrify).",
+      "memory_hook": "Fossil fuels still supply ~80% of global energy despite decades of climate concern and rapidly falling renewable costs. Solar costs dropped 90% in 10 years. The transition is accelerating but the scale is enormous — the global energy system took 150 years to build."
+    }
+  ]
+}

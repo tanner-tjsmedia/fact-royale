@@ -146,16 +146,16 @@
     },
     {
       "category": "Science & Nature",
-      "question": "Which biome has the greatest biodiversity on Earth, containing roughly half of all species despite covering only about 6% of land?",
+      "question": "The James Webb Space Telescope (JWST), launched in December 2021, is the most powerful space observatory ever built. What key capability makes it transformative over the Hubble Telescope?",
       "options": [
-        "Coral reefs",
-        "Temperate forests",
-        "Tundra",
-        "Tropical rainforests"
+        "JWST orbits in the opposite direction from Earth, allowing it to observe objects on the far side of the sun that Hubble could never reach",
+        "JWST observes primarily in infrared light, allowing it to see through dust clouds and observe the universe's earliest galaxies — which are too redshifted for Hubble's optical range to detect",
+        "JWST has 10 times the optical resolution of Hubble, allowing it to distinguish individual stars within galaxies that Hubble could only see as blurry patches",
+        "JWST is the first telescope to directly image black holes, using a gravity lens array that bends light from behind the event horizon"
       ],
-      "answer": "Tropical rainforests",
-      "explanation": "Tropical rainforests cover only about 6% of Earth's land surface but are home to approximately 50% of all plant and animal species. Their warm, wet climate with consistent rainfall supports extraordinary biodiversity. The Amazon alone contains about 10% of all species on Earth. Despite their importance, tropical rainforests are being lost at a rate of roughly 5 million hectares per year primarily due to deforestation.",
-      "memory_hook": "Tropical rainforests: 6% of land, 50% of species. Amazon alone = 10% of all Earth's species. Warm + constant rain = perfect conditions for life to explode. Being lost faster than any other biome. Each hectare lost takes millions of years of evolution with it."
+      "answer": "JWST observes primarily in infrared light, allowing it to see through dust clouds and observe the universe's earliest galaxies — which are too redshifted for Hubble's optical range to detect",
+      "explanation": "As the universe expands, light from the most distant (earliest) galaxies is stretched into infrared wavelengths — a phenomenon called cosmological redshift. JWST's infrared instruments let it observe galaxies formed just 300–400 million years after the Big Bang. It also operates at 1.5 million km from Earth (at Lagrange Point 2) — four times the Moon's distance — in permanent shadow of a sunshield the size of a tennis court to stay cold enough for its detectors. Its first images, released in July 2022, revealed galaxy clusters 13 billion light-years away in unprecedented detail.",
+      "memory_hook": "JWST sees in infrared because the earliest galaxies are so far away that their light has redshifted out of Hubble's visible range. It sits 1.5 million km from Earth behind a tennis-court sunshield — four times the Moon's distance."
     }
   ]
 }

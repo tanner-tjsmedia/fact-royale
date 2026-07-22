@@ -119,16 +119,16 @@
     },
     {
       "category": "Science & Nature",
-      "question": "What does the Richter scale measure?",
+      "question": "The Hertzsprung-Russell (H-R) diagram is one of astronomy's most powerful tools. What does it plot, and what pattern does it reveal?",
       "options": [
-        "Hurricane wind speed",
-        "Volcanic activity",
-        "Tsunami height",
-        "Earthquake magnitude"
+        "The H-R diagram plots a star's mass against its chemical composition — revealing that all stars on the 'main sequence' convert hydrogen to helium at exactly the same rate regardless of size",
+        "The H-R diagram plots stellar luminosity against surface temperature — revealing that 90% of stars fall on a diagonal 'main sequence,' with a star's position determined by its mass and predicting its future evolution",
+        "The H-R diagram plots a star's distance from Earth against its redshift — creating a diagnostic tool to detect whether a star is approaching or receding, and estimate how many light-years away it is",
+        "The H-R diagram plots stellar rotation speed against magnetic field strength — revealing that all rapidly rotating stars generate strong magnetic fields that cause the flaring activity observed in young star systems"
       ],
-      "answer": "Earthquake magnitude",
-      "explanation": "The Richter scale, developed by Charles Richter in 1935, measures the magnitude (energy released) of earthquakes. It is logarithmic — each whole number increase represents about 31.6 times more energy. A magnitude 7.0 quake releases 31.6 times more energy than a 6.0, and about 1,000 times more than a 5.0.",
-      "memory_hook": "Richter scale = earthquake strength. Logarithmic — each step is 31 times more powerful. A magnitude 8 isn't twice as strong as a 4; it's millions of times stronger."
+      "answer": "The H-R diagram plots stellar luminosity against surface temperature — revealing that 90% of stars fall on a diagonal 'main sequence,' with a star's position determined by its mass and predicting its future evolution",
+      "explanation": "Ejnar Hertzsprung and Henry Norris Russell independently created this diagram around 1910. The main sequence runs from cool, dim red dwarfs (lower right) to hot, brilliant blue giants (upper left). A star's mass determines where it sits on the main sequence and how long it stays there — massive stars burn brighter and die faster. When stars exhaust their hydrogen, they leave the main sequence: Sun-like stars expand into red giants (upper right region); the most massive become supergiants and explode. The H-R diagram essentially explains stellar evolution by mapping billions of individual snapshots (individual stars) into a coherent life story.",
+      "memory_hook": "The H-R diagram was a eureka moment — plot 10,000 random stars by brightness and temperature, and 90% fall on one diagonal band. That 'main sequence' isn't a coincidence: it shows stars are mostly hydrogen-fusing engines, with mass determining brightness, temperature, and lifespan. Deviations from the main sequence tell you a star is dying."
     },
     {
       "category": "Geography",

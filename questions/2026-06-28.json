@@ -145,16 +145,16 @@
     },
     {
       "category": "Science & Nature",
-      "question": "What are the reproductive cells (sperm and egg) collectively called in biology?",
+      "question": "Saturn's rings are among the solar system's most spectacular features — but they are also surprisingly young and disappearing. What do scientists now understand about them?",
       "options": [
-        "Zygotes",
-        "Embryos",
-        "Gametes",
-        "Somatic cells"
+        "Saturn's rings formed with the planet 4.6 billion years ago and are gradually expanding outward — they will eventually escape Saturn's gravity and become a separate moon in about 500 million years",
+        "Saturn's rings are relatively young (100–400 million years old) and are actively raining material onto Saturn — losing mass at a rate that could cause them to disappear within 100 million years",
+        "Saturn's rings are the densest structure in the solar system — their total mass equals that of Saturn's moon Mimas, and they are composed primarily of iron and nickel particles from an ancient asteroid impact",
+        "Saturn's rings are a permanent feature — their material is continuously replenished by volcanic activity on the inner moons Enceladus and Tethys, keeping total ring mass approximately constant"
       ],
-      "answer": "Gametes",
-      "explanation": "Gametes are specialized reproductive cells that contain half the normal number of chromosomes (haploid, n) rather than the full set (diploid, 2n). When a sperm gamete fertilizes an egg gamete, the resulting zygote has the full chromosome count. Gametes are produced by meiosis. In humans, each gamete contains 23 chromosomes; when they fuse, the zygote has 46. The term comes from the Greek 'gamete' meaning wife or 'gametes' meaning husband.",
-      "memory_hook": "Gametes = sperm + egg. Each has 23 chromosomes (haploid). Fuse to make a zygote with 46. Produced by meiosis (gametes) not mitosis (regular cell division). You began as two half-cells becoming one."
+      "answer": "Saturn's rings are relatively young (100–400 million years old) and are actively raining material onto Saturn — losing mass at a rate that could cause them to disappear within 100 million years",
+      "explanation": "Saturn formed 4.6 billion years ago, but its rings are only 100–400 million years old — meaning they appeared when dinosaurs were already walking on Earth. They likely formed when a moon or large comet was torn apart by Saturn's gravity. The rings are 90–95% water ice and about 20 meters thick on average, yet span 275,000 km in diameter. The Cassini spacecraft's final measurements found 'ring rain' — ring material falling into Saturn's atmosphere at up to 10,000 kg per second. At this rate, the rings could be gone within 100 million years — we may be seeing them at a cosmically rare moment.",
+      "memory_hook": "Saturn's rings are only 100–400 million years old — they appeared when dinosaurs roamed Earth. Cassini measured 'ring rain' losing 10,000 kg of ice per second into Saturn's atmosphere; in 100 million years, they could be completely gone. We may be seeing them at a cosmically unique moment."
     }
   ]
 }

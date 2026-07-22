@@ -16,16 +16,16 @@
     },
     {
       "category": "Science & Nature",
-      "question": "What is the chemical formula for water?",
+      "question": "The Chandrasekhar limit — calculated by astrophysicist Subrahmanyan Chandrasekhar at age 19 on a ship from India to England — determines the fate of dying stars. What is it?",
       "options": [
-        "H2O",
-        "H2O2",
-        "HO2",
-        "H3O"
+        "The maximum temperature a star can reach before its nuclear reactions become uncontrolled — stars exceeding this limit explode as supernovae rather than cooling into white dwarfs",
+        "The maximum mass a white dwarf can have (about 1.4 solar masses) before electron degeneracy pressure fails and the star collapses further — into a neutron star or black hole via supernova",
+        "The minimum mass a star needs to begin nuclear fusion in its core — objects below this limit become brown dwarfs that glow from gravitational contraction but never ignite hydrogen burning",
+        "The boundary between the inner and outer solar system, beyond which the Sun's gravity is too weak to retain planets — named after Chandrasekhar who first calculated the solar system's gravitational reach"
       ],
-      "answer": "H2O",
-      "explanation": "Water is two hydrogen atoms bonded to one oxygen atom. Uniquely, water is less dense as a solid (ice) than as a liquid — which is why ice floats. It covers about 71% of Earth's surface.",
-      "memory_hook": "H2O = water. Ice floats because solid water is less dense than liquid."
+      "answer": "The maximum mass a white dwarf can have (about 1.4 solar masses) before electron degeneracy pressure fails and the star collapses further — into a neutron star or black hole via supernova",
+      "explanation": "When Sun-like stars die, they shed their outer layers and leave a dense core — a white dwarf — where electron degeneracy pressure (quantum mechanical) supports it against gravity. Chandrasekhar showed in 1930 that this pressure has a maximum capacity of about 1.4 solar masses. Above this, the white dwarf collapses. When a white dwarf in a binary system accretes mass past the limit, it produces a Type Ia supernova — these explosions are remarkably uniform in luminosity, making them 'standard candles' used to measure cosmic distances and discover dark energy. Chandrasekhar won the Nobel Prize in 1983; his superior Arthur Eddington had ridiculed his limit for years.",
+      "memory_hook": "Chandrasekhar calculated his mass limit at 19 on a ship to England. His boss Arthur Eddington publicly ridiculed him for years. When white dwarfs exceed 1.4 solar masses, they explode as Type Ia supernovae — the 'standard candles' that discovered dark energy 68 years later. Nobel Prize came in 1983."
     },
     {
       "category": "Sports",
@@ -94,16 +94,16 @@
     },
     {
       "category": "Science & Nature",
-      "question": "What is the process by which plants use sunlight, carbon dioxide, and water to produce glucose and release oxygen as a byproduct?",
+      "question": "Stephen Hawking's 1974 theoretical discovery that black holes can slowly evaporate — called Hawking radiation — was considered one of the most important physics insights of the 20th century. What causes it?",
       "options": [
-        "Photosynthesis",
-        "Cellular respiration",
-        "Osmosis",
-        "Transpiration"
+        "Hawking radiation occurs when the black hole's magnetic field accelerates electrons around the event horizon, causing them to emit X-rays that gradually carry away the hole's mass-energy",
+        "Virtual particle pairs constantly pop into existence near the event horizon; when one falls in while the other escapes, the black hole effectively emits a particle — gradually losing mass over astronomical timescales",
+        "Hawking radiation occurs because the intense gravity near a black hole separates photons from the vacuum, causing them to radiate outward as the hole's tidal forces strip their energy",
+        "Hawking radiation is caused by cosmic microwave background photons being blue-shifted by the black hole's gravity to energies high enough to escape back out through the event horizon"
       ],
-      "answer": "Photosynthesis",
-      "explanation": "Photosynthesis occurs in chloroplasts using chlorophyll to capture light. The equation: CO2 + H2O + light → glucose + O2. Approximately 70% of Earth's oxygen is produced not by trees but by marine phytoplankton.",
-      "memory_hook": "Photosynthesis: sunlight + CO2 + water → glucose + oxygen. 70% of O2 from ocean plankton."
+      "answer": "Virtual particle pairs constantly pop into existence near the event horizon; when one falls in while the other escapes, the black hole effectively emits a particle — gradually losing mass over astronomical timescales",
+      "explanation": "Quantum mechanics allows particle-antiparticle pairs to briefly materialize from the vacuum before annihilating. Near a black hole's event horizon, one particle may fall in while the other escapes — the black hole must supply the energy for the escaped particle, causing it to slowly lose mass. For stellar-mass black holes, the radiation rate is negligible (far colder than the CMB). Hawking radiation has never been directly observed. Hawking was 32 when he published this result, which unified quantum mechanics and general relativity. He reportedly exclaimed 'eureka' when he derived it — it was completely unexpected and initially dismayed him.",
+      "memory_hook": "Hawking discovered black holes evaporate in 1974 — it dismayed him initially, as it was unexpected. Virtual particle pairs near the event horizon allow one to escape while the other falls in; the black hole pays the energy bill. For a stellar black hole, it would take 10^67 years to evaporate. Nobel Prize? Hawking died in 2018 before it could be confirmed experimentally."
     },
     {
       "category": "Geography",

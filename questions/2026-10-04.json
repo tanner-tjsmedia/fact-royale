@@ -1,0 +1,161 @@
+{
+  "date": "2026-10-04",
+  "questions": [
+    {
+      "category": "History",
+      "question": "Neil Armstrong became the first human to walk on the Moon on July 20, 1969. What was the name of the mission?",
+      "options": [
+        "Apollo 8",
+        "Apollo 11",
+        "Gemini 7",
+        "Saturn V"
+      ],
+      "answer": "Apollo 11",
+      "explanation": "Apollo 11 launched July 16, 1969, and landed on the Moon on July 20. Neil Armstrong stepped out first, followed by Buzz Aldrin. Michael Collins orbited in the Command Module. Armstrong's words — 'That's one small step for man, one giant leap for mankind' — were heard by 600 million people worldwide (about 20% of Earth's population). The Soviets never landed cosmonauts on the Moon.",
+      "memory_hook": "Apollo 11 landed July 20, 1969 — 600 million people watched Armstrong step out. The Soviets had beaten the US to every milestone before this one but never made it to the lunar surface."
+    },
+    {
+      "category": "History",
+      "question": "President Nixon resigned from office in August 1974 due to the Watergate scandal. What originally sparked the scandal?",
+      "options": [
+        "A failed assassination attempt",
+        "A break-in at the Democratic National Committee headquarters",
+        "Illegal wiretapping of foreign leaders",
+        "Secret bombing campaigns"
+      ],
+      "answer": "A break-in at the Democratic National Committee headquarters",
+      "explanation": "On June 17, 1972, operatives connected to Nixon's re-election campaign broke into the DNC headquarters at the Watergate complex in Washington DC to plant listening devices and steal documents. The subsequent cover-up — proven by White House tape recordings — implicated Nixon directly. He resigned August 9, 1974, the only US president to resign. Gerald Ford pardoned him a month later.",
+      "memory_hook": "Watergate started with a bungled 1972 break-in to bug the Democratic HQ. Nixon survived the break-in — it was the cover-up and tape recordings that forced him to resign."
+    },
+    {
+      "category": "History",
+      "question": "The United States dropped atomic bombs on which two Japanese cities in August 1945?",
+      "options": [
+        "Tokyo and Osaka",
+        "Hiroshima and Nagasaki",
+        "Kyoto and Kobe",
+        "Nagasaki and Yokohama"
+      ],
+      "answer": "Hiroshima and Nagasaki",
+      "explanation": "The US dropped 'Little Boy' on Hiroshima on August 6, 1945, and 'Fat Man' on Nagasaki on August 9. Estimates of deaths range from 129,000 to 226,000, mostly civilians. Japan surrendered on August 15. The bombings remain the only use of nuclear weapons in warfare and sparked a global debate about atomic weapons that continues today.",
+      "memory_hook": "Two bombs, two cities, six days, and Japan surrendered after four years of Pacific war. The bombings killed up to 226,000 people and began the nuclear age."
+    },
+    {
+      "category": "Sports",
+      "question": "At the 2008 Beijing Olympics, Michael Phelps won 8 gold medals in swimming — the most ever won by one person at a single Games. How many total Olympic gold medals did he win in his career?",
+      "options": [
+        "14",
+        "18",
+        "23",
+        "28"
+      ],
+      "answer": "23",
+      "explanation": "Michael Phelps won 23 Olympic gold medals across four Games (2000-2016), making him the most decorated Olympian in history. His 28 total medals (23 gold, 3 silver, 2 bronze) also set the overall record. At his peak, he trained 6 hours a day, 7 days a week, 365 days a year — including Christmas — and consumed up to 12,000 calories daily.",
+      "memory_hook": "Phelps holds 23 Olympic golds across 4 Games — nearly double the second-most decorated Olympian. He trained 365 days a year, including Christmas, and ate 12,000 calories a day."
+    },
+    {
+      "category": "Sports",
+      "question": "In cycling, the Tour de France is the world's most prestigious race. Which rider holds the record for most Tour de France victories?",
+      "options": [
+        "Lance Armstrong (stripped)",
+        "Chris Froome",
+        "Eddy Merckx",
+        "Chris Hinault"
+      ],
+      "answer": "Eddy Merckx",
+      "explanation": "Eddy Merckx of Belgium won the Tour de France five times (1969-1972, 1974) and is widely considered the greatest cyclist ever. He also holds records for most stage wins (34) and most days in the yellow jersey (96). While Lance Armstrong officially won 7 consecutive Tours (1999-2005), all titles were stripped due to doping. Jacques Anquetil, Bernard Hinault, Miguel Induráin, and Chris Froome have also won 5.",
+      "memory_hook": "Eddy Merckx won 5 Tours de France plus records for stages won and days in yellow — often called the greatest cyclist ever. Lance Armstrong's 7 titles were all stripped for doping."
+    },
+    {
+      "category": "Pop Culture",
+      "question": "The Beatles released their final studio album in 1969. What was it called?",
+      "options": [
+        "Sgt. Pepper's Lonely Hearts Club Band",
+        "Revolver",
+        "Let It Be",
+        "Abbey Road"
+      ],
+      "answer": "Abbey Road",
+      "explanation": "Abbey Road (September 1969) was the last album the Beatles recorded together, though Let It Be (1970) was released after it. Side Two of Abbey Road is a famous medley sequence. The album's cover photo of the four Beatles crossing Abbey Road became one of the most imitated images in pop culture. The band formally dissolved in April 1970 after years of internal tension.",
+      "memory_hook": "Abbey Road (1969) was the Beatles' last recorded album — the cover photo is the most imitated in music history. The 'Paul is dead' hoax claimed the barefoot Paul crossing the street was a clue."
+    },
+    {
+      "category": "Pop Culture",
+      "question": "George Orwell's dystopian novel '1984,' published in 1949, popularized which concept of a government that watches its citizens constantly?",
+      "options": [
+        "Deep State",
+        "The Matrix",
+        "Big Brother",
+        "The Panopticon"
+      ],
+      "answer": "Big Brother",
+      "explanation": "Orwell's 1984 introduced 'Big Brother' as the face of a totalitarian surveillance state that monitors citizens through 'telescreens,' rewrites history, and controls language through 'Newspeak.' The novel also introduced concepts like 'doublethink' (holding contradictory beliefs), 'thoughtcrime,' and 'Room 101.' Published in 1949, it was inspired by Stalin's Soviet Union and remains one of the most relevant political novels ever written.",
+      "memory_hook": "1984's 'Big Brother is watching you' coined a concept of totalitarian surveillance that has only grown more relevant. Orwell wrote it in 1948 — he swapped the last two digits for the title."
+    },
+    {
+      "category": "Pop Culture",
+      "question": "Steven Spielberg's 1975 film 'Jaws' is often credited with creating what concept in the film industry?",
+      "options": [
+        "The blockbuster summer release",
+        "The R-rated horror film",
+        "The franchise sequel",
+        "The special effects spectacle"
+      ],
+      "answer": "The blockbuster summer release",
+      "explanation": "Before Jaws, studios didn't typically release their biggest films in summer, which was considered a slow season. Jaws became a massive hit opening in June 1975 with wide simultaneous release (unusual then) and TV advertising, changing the entire industry. Star Wars (1977) followed the same strategy. Both films established the summer blockbuster era that still dominates Hollywood today.",
+      "memory_hook": "Before Jaws (1975), summers were slow for movies. Its nationwide release and TV ad campaign invented the summer blockbuster — Star Wars copied the strategy and the era began."
+    },
+    {
+      "category": "Geography",
+      "question": "The Tigris and Euphrates rivers, which flow through modern-day Iraq, gave rise to which ancient civilization often called the 'Cradle of Civilization'?",
+      "options": [
+        "Egyptian",
+        "Indus Valley",
+        "Mesopotamian",
+        "Persian"
+      ],
+      "answer": "Mesopotamian",
+      "explanation": "Mesopotamia ('land between the rivers' in Greek) was the region between the Tigris and Euphrates rivers in modern Iraq. It saw the rise of the world's first cities (Uruk, ~3500 BCE), writing (cuneiform, ~3200 BCE), codified law (Hammurabi's Code, ~1754 BCE), and complex administration. Civilizations including Sumer, Akkad, Babylon, and Assyria all rose and fell here.",
+      "memory_hook": "Mesopotamia means 'land between two rivers' — the Tigris and Euphrates. This region gave us humanity's first cities, first writing system, and first law code. Civilization's birthplace."
+    },
+    {
+      "category": "Geography",
+      "question": "Iceland sits on the Mid-Atlantic Ridge — the boundary between two tectonic plates. Which two plates meet beneath Iceland?",
+      "options": [
+        "African and Eurasian plates",
+        "North American and Eurasian plates",
+        "Pacific and Antarctic plates",
+        "Caribbean and South American plates"
+      ],
+      "answer": "North American and Eurasian plates",
+      "explanation": "Iceland straddles the Mid-Atlantic Ridge, where the North American and Eurasian tectonic plates are pulling apart. This makes Iceland tectonically active with volcanoes, geysers, and hot springs. The country gets nearly 100% of its electricity and heat from geothermal and hydropower. It is literally growing wider by about 2.5 cm per year as the plates separate.",
+      "memory_hook": "Iceland sits on a spreading ridge between North America and Europe — growing 2.5 cm wider each year. Its free geothermal energy makes it one of the greenest countries on Earth."
+    },
+    {
+      "category": "Science & Nature",
+      "question": "The electromagnetic spectrum encompasses all forms of electromagnetic radiation. In order from longest to shortest wavelength, which sequence is correct?",
+      "options": [
+        "Radio, infrared, visible, ultraviolet, X-ray, gamma",
+        "Gamma, X-ray, ultraviolet, visible, infrared, radio",
+        "Visible, infrared, X-ray, radio, ultraviolet, gamma",
+        "Ultraviolet, X-ray, gamma, visible, radio, infrared"
+      ],
+      "answer": "Radio, infrared, visible, ultraviolet, X-ray, gamma",
+      "explanation": "The electromagnetic spectrum from longest to shortest wavelength (lowest to highest energy): radio waves, microwaves, infrared, visible light, ultraviolet, X-rays, gamma rays. All travel at the speed of light (c = 3×10⁸ m/s). Higher frequency = higher energy. Gamma rays are the most energetic; radio waves the least. Visible light occupies just a tiny fraction of the full spectrum.",
+      "memory_hook": "RMIVU-XG: Radio, Microwave, Infrared, Visible, Ultraviolet, X-ray, Gamma — longest wavelength to shortest. Visible light is a tiny slice of a vast spectrum we can't see."
+    },
+    {
+      "category": "Science & Nature",
+      "question": "The human ABO blood type system determines compatibility for blood transfusions. What makes Type O negative blood called the 'universal donor'?",
+      "options": [
+        "O negative blood contains the most oxygen",
+        "O negative blood has no A, B, or Rh antigens and won't trigger immune reactions in any recipient",
+        "O negative donors give larger quantities of blood",
+        "O negative blood is the most common type"
+      ],
+      "answer": "O negative blood has no A, B, or Rh antigens and won't trigger immune reactions in any recipient",
+      "explanation": "Type O negative blood lacks A antigens, B antigens, and Rh factor — the three most important blood type markers. Without these markers, the immune system of any recipient won't recognize it as foreign and attack it. This makes O negative life-saving in emergencies when blood type is unknown. Only about 7% of people have O negative blood, making donors extremely valuable.",
+      "memory_hook": "O negative is the universal donor because it lacks all the markers that trigger immune rejection. Only 7% of people have it, making O negative donors among the most needed."
+    }
+  ]
+}

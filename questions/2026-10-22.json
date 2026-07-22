@@ -1,0 +1,161 @@
+{
+  "date": "2026-10-22",
+  "questions": [
+    {
+      "category": "History",
+      "question": "The American Civil War (1861-1865) ended with the defeat of the Confederacy. What was the single deadliest battle of the war?",
+      "options": [
+        "Gettysburg, Pennsylvania (July 1-3, 1863)",
+        "Antietam, Maryland (September 17, 1862)",
+        "Bull Run, Virginia",
+        "Vicksburg, Mississippi"
+      ],
+      "answer": "Gettysburg, Pennsylvania (July 1-3, 1863)",
+      "explanation": "The Battle of Gettysburg (July 1-3, 1863) was the deadliest battle of the Civil War, with approximately 51,000 casualties (killed, wounded, captured, or missing) across both sides over three days. Lee's second Northern invasion was repulsed; Pickett's Charge on the final day — 12,000 Confederate soldiers marching across open ground — was catastrophic. Lincoln's Gettysburg Address (November 1863) dedicated the battlefield cemetery. The battle is often considered the turning point of the war.",
+      "memory_hook": "Gettysburg: 51,000 casualties in 3 days. Pickett's Charge sent 12,000 men across open ground toward Union guns — half didn't return. Lincoln's 272-word Gettysburg Address at the battlefield dedication redefined what the war was about."
+    },
+    {
+      "category": "History",
+      "question": "The French Resistance during WWII is famous, but what did the Vichy regime represent?",
+      "options": [
+        "The French government-in-exile that coordinated resistance from Britain",
+        "The collaborationist French government that cooperated with Nazi Germany, headquartered in the spa town of Vichy from 1940-1944",
+        "A resistance movement in southern France named after a river",
+        "The French armed forces that continued fighting in North Africa"
+      ],
+      "answer": "The collaborationist French government that cooperated with Nazi Germany, headquartered in the spa town of Vichy from 1940-1944",
+      "explanation": "After France fell to Germany in June 1940, the armistice created two zones: German-occupied northern France and a nominally independent southern zone governed from Vichy by Marshal Philippe Pétain. The Vichy regime actively collaborated with Nazi Germany, deporting Jewish French citizens to concentration camps. Post-war France struggled with acknowledging Vichy collaboration — France didn't officially acknowledge state responsibility for Holocaust deportations until 1995 (President Chirac). The Resistance is celebrated; Vichy remains a source of national shame.",
+      "memory_hook": "France celebrates the Resistance — but Vichy is the full story. The French government actively helped deport its own Jewish citizens to Nazi death camps. France didn't officially acknowledge this until 1995, 50 years after the war."
+    },
+    {
+      "category": "History",
+      "question": "The Age of Enlightenment (17th-18th centuries) produced foundational ideas for modern democracy. Which Enlightenment thinkers most directly influenced the US Declaration of Independence?",
+      "options": [
+        "Thomas Hobbes and René Descartes",
+        "John Locke and Jean-Jacques Rousseau (via his influence on Thomas Jefferson)",
+        "Voltaire and Immanuel Kant",
+        "Francis Bacon and Niccolò Machiavelli"
+      ],
+      "answer": "John Locke and Jean-Jacques Rousseau (via his influence on Thomas Jefferson)",
+      "explanation": "John Locke's Second Treatise of Government (1689) argued for natural rights (life, liberty, property), government by consent, and the right to revolt against tyranny. Jefferson directly incorporated Locke's ideas in the Declaration: 'life, liberty, and the pursuit of happiness' adapts Locke's 'life, liberty, and property.' Rousseau's 'social contract' concept (that governments derive authority from the governed) also shaped revolutionary thinking. The Enlightenment created the intellectual framework for both the American and French Revolutions.",
+      "memory_hook": "Jefferson lifted Locke almost verbatim — 'life, liberty, and the pursuit of happiness' is Locke's 'life, liberty, and property' with 'happiness' swapped in. The Enlightenment built the philosophical toolkit; the American Revolution used it first."
+    },
+    {
+      "category": "Sports",
+      "question": "The NHL's Stanley Cup is the oldest professional sports trophy in North America, first awarded in 1893. What is unique about how the winning team celebrates it?",
+      "options": [
+        "The winning team's name is engraved on the Trophy itself and each player is allowed to take the Cup home for one day during the summer",
+        "The Cup is destroyed and recreated from scratch each year with only the winning team's logo",
+        "The winning team must display the Cup in their home city's government building for one year",
+        "The Cup is awarded to the winning team's home city, not the team itself"
+      ],
+      "answer": "The winning team's name is engraved on the Trophy itself and each player is allowed to take the Cup home for one day during the summer",
+      "explanation": "The Stanley Cup has a keeper (the Keeper of the Cup) who travels with it wherever players take it. Players have taken it to their hometowns, countries, parties, and unusual locations worldwide. The names of every player on championship teams since 1926 are engraved on the bands of the Cup (older names were removed when the Cup filled up). Unlike other trophies, each player gets a personal day with the Cup, creating beloved traditions. The trophy has been to hundreds of countries and locations.",
+      "memory_hook": "The Stanley Cup is the only major trophy in sports where each championship player gets a personal day with it. Players have taken it to their hometowns, lakes, McDonald's, hospitals, and foreign countries. The Cup has more stamps in its 'passport' than most people."
+    },
+    {
+      "category": "Sports",
+      "question": "Which sport is known as 'the beautiful game,' a term often attributed to Pelé?",
+      "options": [
+        "Rugby",
+        "Basketball",
+        "Baseball",
+        "Soccer (association football)"
+      ],
+      "answer": "Soccer (association football)",
+      "explanation": "Football (soccer) is called 'the beautiful game' (o jogo bonito in Portuguese), a phrase associated with Brazilian legend Pelé. Pelé (Edson Arantes do Nascimento) won three FIFA World Cups with Brazil (1958, 1962, 1970) and scored over 1,000 career goals. He is universally considered one of the greatest players ever. Football is the world's most popular sport with approximately 3.5 billion fans. The FIFA World Cup is the most-watched sporting event globally, surpassing the Olympics.",
+      "memory_hook": "Pelé's 'beautiful game' phrase captured something real — football at its best is pure improvised creativity at speed. The FIFA World Cup final outdraws the Olympics' opening ceremony: 1 billion viewers for one match."
+    },
+    {
+      "category": "Pop Culture",
+      "question": "The television series 'Friends' (NBC, 1994-2004) was set in New York City. The six central characters lived in suspiciously large apartments given their professions. What were Monica's and Chandler's jobs?",
+      "options": [
+        "Monica was a chef; Chandler worked in data analysis/statistical analysis (his job was famously unclear to other characters)",
+        "Monica was a nurse; Chandler was a graphic designer",
+        "Monica was a teacher; Chandler was an accountant",
+        "Monica was a fashion designer; Chandler was a writer"
+      ],
+      "answer": "Monica was a chef; Chandler worked in data analysis/statistical analysis (his job was famously unclear to other characters)",
+      "explanation": "Monica Geller was a chef — working in various restaurants throughout the series. Chandler Bing worked in statistical analysis and data reconfiguration — a job so deliberately vague that other characters (and audience members) often couldn't remember or understand what he did. The show ran 10 seasons, had 52.5 million viewers for its finale, and earned each cast member $1 million per episode in the final seasons. The show has been criticized in retrospect for homophobia and lack of diversity despite being set in NYC.",
+      "memory_hook": "Chandler's job being incomprehensible was a recurring joke — 'statistical analysis and data reconfiguration.' Monica's chef career was at least coherent. The finale drew 52.5 million viewers in 2004; the streaming era has given it a second global audience."
+    },
+    {
+      "category": "Pop Culture",
+      "question": "'Jurassic Park' (1993), directed by Steven Spielberg, was based on a novel by which author?",
+      "options": [
+        "Stephen King",
+        "Tom Clancy",
+        "Michael Crichton",
+        "Dean Koontz"
+      ],
+      "answer": "Michael Crichton",
+      "explanation": "Michael Crichton's novel Jurassic Park (1990) used then-cutting-edge genetics concepts to explore the idea of resurrecting dinosaurs from DNA preserved in amber. Crichton was also the creator of the TV series ER and wrote The Andromeda Strain. The film grossed $1 billion and pioneered CGI for realistic creatures. Crichton's novels often explored 'techno-thriller' territory — advancing technology that goes wrong. The science of DNA preservation in amber has since been largely debunked (DNA degrades too quickly).",
+      "memory_hook": "Michael Crichton wrote Jurassic Park around real 1990 genetics research on ancient DNA. The amber-preserved DNA concept was plausible enough that scientists actually tried it. DNA degrades too fast for it to work — but the novels sparked a real scientific conversation."
+    },
+    {
+      "category": "Pop Culture",
+      "question": "Which 1977 film pioneered modern blockbuster marketing, merchandising, and release strategies that Hollywood still uses today?",
+      "options": [
+        "Jaws (1975)",
+        "Close Encounters of the Third Kind",
+        "Star Wars: A New Hope",
+        "Superman (1978)"
+      ],
+      "answer": "Star Wars: A New Hope",
+      "explanation": "George Lucas's Star Wars (1977) transformed Hollywood marketing: wide release in many theaters simultaneously (vs. limited rollout), aggressive toy/merchandise licensing ($4 billion in merchandise before the first sequel), and franchise-building. Lucas retained merchandising rights because Fox didn't think they were valuable — making him a billionaire. Jaws (1975) pioneered the summer blockbuster theatrical model; Star Wars added the franchise/merchandise ecosystem that now dominates Hollywood economics.",
+      "memory_hook": "Lucas kept his Star Wars merchandise rights because Fox didn't think toys would sell. He made $4 billion before The Empire Strikes Back opened. Hollywood learned its lesson — studios now fight over merchandise rights as the real prize."
+    },
+    {
+      "category": "Geography",
+      "question": "The Amazon Rainforest covers approximately what percentage of South America, and how many countries does it span?",
+      "options": [
+        "25% of South America; 3 countries",
+        "40% of South America; 9 countries",
+        "60% of South America; 5 countries",
+        "15% of South America; 4 countries"
+      ],
+      "answer": "40% of South America; 9 countries",
+      "explanation": "The Amazon Rainforest covers approximately 5.5 million km² — about 40% of South America — and spans 9 countries: Brazil (60%), Peru (13%), Colombia (10%), Venezuela, Ecuador, Bolivia, Guyana, Suriname, and French Guiana. It contains 10% of all species on Earth, 20% of the world's freshwater, and produces 6-9% of Earth's oxygen. The Amazon basin receives approximately 2,300mm of rain annually — about half of which it generates itself through tree transpiration.",
+      "memory_hook": "The Amazon spans 9 countries and generates about half its own rainfall through tree transpiration. Deforestation creates a feedback loop: fewer trees → less rainfall → more tree death → even less rainfall. The rainforest can partially degrade into savanna."
+    },
+    {
+      "category": "Geography",
+      "question": "Cape Horn is the southernmost point of South America. Why was it historically feared by sailors?",
+      "options": [
+        "Strong magnetic anomalies near the Cape caused compasses to fail",
+        "Extreme storms, high waves (up to 30m), ice, and currents at the convergence of the Pacific and Atlantic make it one of the most dangerous stretches of ocean on Earth",
+        "Volcanic activity near the Cape created unpredictable fog and hot water jets",
+        "Pirates historically based at Cape Horn made it dangerous for merchant ships"
+      ],
+      "answer": "Extreme storms, high waves (up to 30m), ice, and currents at the convergence of the Pacific and Atlantic make it one of the most dangerous stretches of ocean on Earth",
+      "explanation": "Cape Horn (55°59'S) is where the Pacific and Atlantic Oceans meet. The 'Roaring Forties,' 'Furious Fifties,' and 'Screaming Sixties' (latitude zones) produce near-constant gales because no land interrupts the wind circling the entire Southern Hemisphere. Waves can reach 30 meters. Icebergs drift north from Antarctica. The Drake Passage (between Cape Horn and Antarctica) is considered the world's most treacherous waterway. The Panama Canal (1914) eliminated most Cape Horn traffic — saving countless ships and lives.",
+      "memory_hook": "Cape Horn was feared for centuries — sailors in the 'Roaring Forties' faced 30-meter waves and constant gales from wind circling unobstructed around the whole Southern Hemisphere. The Panama Canal made it obsolete, but it remains a maritime challenge."
+    },
+    {
+      "category": "Science & Nature",
+      "question": "What is plate tectonics, and what evidence convinced scientists that the continents move?",
+      "options": [
+        "Plate tectonics describes the movement of weather systems; evidence came from satellite observation of storms",
+        "Plate tectonics holds that Earth's outer shell is divided into plates that move on the molten mantle; evidence includes continental shapes that fit together, identical fossils on separate continents, and seafloor spreading at mid-ocean ridges",
+        "Plate tectonics is a theory about lunar tides moving ocean water; evidence came from tide gauges",
+        "Plate tectonics describes volcanic eruptions as pressure release valves; evidence is the global pattern of volcanoes"
+      ],
+      "answer": "Plate tectonics holds that Earth's outer shell is divided into plates that move on the molten mantle; evidence includes continental shapes that fit together, identical fossils on separate continents, and seafloor spreading at mid-ocean ridges",
+      "explanation": "Alfred Wegener proposed continental drift in 1912, noting that Africa and South America appear to fit together, and identical fossil species appear on continents now separated by oceans (Mesosaurus, Glossopteris). He was ridiculed because he couldn't explain the mechanism. The mechanism was discovered in the 1950s-60s: seafloor spreading at mid-ocean ridges — new crust forms as plates pull apart. Magnetic striping on the seafloor confirmed it. Plate tectonics is now the unifying theory of geology.",
+      "memory_hook": "Wegener proposed continental drift in 1912 and was ridiculed because he couldn't explain how. The mechanism (seafloor spreading) was only discovered 40 years later — magnetic stripes on the ocean floor that record the spreading like a tape recording of Earth's history."
+    },
+    {
+      "category": "Science & Nature",
+      "question": "What is the difference between a virus and a bacterium, and why do antibiotics only work on one of them?",
+      "options": [
+        "Viruses are larger than bacteria and contain more complex genetic material; antibiotics work on viruses only",
+        "Bacteria are living single-celled organisms with their own metabolism and cell walls; viruses are non-living particles of genetic material in a protein coat. Antibiotics disrupt bacterial cell walls and metabolism — mechanisms viruses lack",
+        "Bacteria and viruses are essentially the same; antibiotics work on both but are named differently for each",
+        "Viruses are living organisms; bacteria are crystalline particles of RNA; antibiotics destroy both equally"
+      ],
+      "answer": "Bacteria are living single-celled organisms with their own metabolism and cell walls; viruses are non-living particles of genetic material in a protein coat. Antibiotics disrupt bacterial cell walls and metabolism — mechanisms viruses lack",
+      "explanation": "Bacteria (0.5-5 micrometers) are single-celled living organisms with DNA, ribosomes, metabolism, and cell walls. They reproduce independently. Antibiotics target bacterial-specific structures: cell walls (penicillin), ribosomes (tetracycline), DNA replication. Viruses (20-300 nanometers — 100× smaller) are not alive — they are genetic material (DNA or RNA) inside a protein coat. They replicate only by hijacking a host cell's machinery. Antibiotics have no targets in viruses. Antiviral drugs exist but are harder to design without harming host cells.",
+      "memory_hook": "Viruses aren't alive — they're just genetic instructions in a protein shell that hijack your cells. Antibiotics work by targeting bacterial cell walls and metabolism; viruses have neither. Taking antibiotics for a viral cold doesn't help and contributes to resistance."
+    }
+  ]
+}

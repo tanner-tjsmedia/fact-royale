@@ -146,16 +146,16 @@
     },
     {
       "category": "Sports",
-      "question": "In cricket, what is an 'over' and how many deliveries does it contain?",
+      "question": "Lionel Messi is considered by many to be the greatest footballer (soccer player) of all time. What achievement in 2022 cemented his legacy for many fans?",
       "options": [
-        "6 legal deliveries from one end; bowlers alternate ends after each over",
-        "5 deliveries; batsmen switch ends after each over",
-        "8 deliveries; the same bowler can bowl multiple overs in a row",
-        "6 deliveries; the same bowler can bowl two consecutive overs"
+        "He broke Pelé's all-time international goal-scoring record",
+        "He led Argentina to their first World Cup title in 36 years, winning the Golden Ball as tournament's best player",
+        "He won his 8th Ballon d'Or, the most in football history",
+        "He scored in every match of the tournament, setting a new World Cup record for goals in a single edition"
       ],
-      "answer": "6 legal deliveries from one end; bowlers alternate ends after each over",
-      "explanation": "An over = 6 legal deliveries from one end. A different bowler must bowl from the opposite end after each over. T20 = 20 overs per side; One Day International (ODI) = 50 overs per side.",
-      "memory_hook": "Over: 6 legal deliveries, then change ends and bowler. T20 = 20 overs/side. ODI = 50 overs/side."
+      "answer": "He led Argentina to their first World Cup title in 36 years, winning the Golden Ball as tournament's best player",
+      "explanation": "At the 2022 Qatar World Cup, Messi led Argentina to victory — beating France in a dramatic final decided by penalties after a 3-3 draw. Messi scored 7 goals and 3 assists across the tournament and won the Golden Ball as best player. For many, it completed his GOAT argument — he had won everything except the World Cup, the one trophy that had eluded him through four previous attempts.",
+      "memory_hook": "The 2022 World Cup final (Argentina 3-3 France, penalties) is arguably the greatest final ever played — Messi's 7-goal tournament and winner's medal after four previous failures made the GOAT debate feel settled."
     }
   ]
 }

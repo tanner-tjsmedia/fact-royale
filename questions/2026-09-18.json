@@ -94,16 +94,16 @@
     },
     {
       "category": "Science & Nature",
-      "question": "What is the maximum heart rate for humans generally estimated to be, calculated by the formula 220 minus age?",
+      "question": "The Andromeda Galaxy is currently on a collision course with the Milky Way. When will this happen, and what will the collision actually look like from Earth?",
       "options": [
-        "It varies by age (220 minus age)",
-        "200 beats per minute for all adults",
-        "150 bpm for anyone over 40",
-        "The formula is 180 minus age"
+        "Andromeda will collide with the Milky Way in approximately 250 million years; the collision will be catastrophic for Earth as the two galactic cores will merge and their central black holes will release gamma-ray bursts",
+        "Andromeda will collide with the Milky Way in approximately 4.5 billion years; individual stars are so far apart that stellar collisions will be rare — the experience from Earth (if Earth survives) will be a spectacular slow-motion rearrangement over billions of years",
+        "Andromeda is actually moving away from the Milky Way due to the universe's expansion; a 'collision' was predicted from 1940s calculations using flawed distance measurements, but modern data confirms the galaxies will never meet",
+        "Andromeda will pass through the Milky Way in approximately 1 billion years without merging — the two galaxies will oscillate through each other twice before gravitational interaction causes them to separate into different galaxy clusters"
       ],
-      "answer": "It varies by age (220 minus age)",
-      "explanation": "The formula 220 - age gives an estimated maximum heart rate (e.g., a 30-year-old's max is ~190 bpm). During intense exercise, the heart can reach near maximum. Resting heart rate is typically 60-100 bpm; trained athletes may have resting rates of 40-50 bpm. The formula is a rough estimate — individual variation is large.",
-      "memory_hook": "Max heart rate ≈ 220 minus age. Resting: 60-100 bpm. Athletes: 40-50 bpm resting. Formula is approximate."
+      "answer": "Andromeda will collide with the Milky Way in approximately 4.5 billion years; individual stars are so far apart that stellar collisions will be rare — the experience from Earth (if Earth survives) will be a spectacular slow-motion rearrangement over billions of years",
+      "explanation": "Andromeda is approaching at about 110 km/s. Despite the name 'collision,' the actual probability of any two stars directly hitting each other is negligible — a galaxy is mostly empty space. The two galaxies will pass through each other, then gravitational attraction will pull them back together for repeated passes over 2 billion years, eventually merging into an elliptical galaxy sometimes nicknamed 'Milkomeda.' The Sun will likely be flung into a completely different region of the merged galaxy. In 4.5 billion years, the Sun will also be entering its red giant phase — so Earth may not exist by then regardless.",
+      "memory_hook": "Andromeda arrives in 4.5 billion years, but 'collision' is misleading — galaxies are mostly empty space, so star-on-star crashes will be rare. The Sun will be flung into a new orbit in the merged 'Milkomeda' galaxy. In 4.5 billion years, the Sun also goes red giant — Earth faces two simultaneous existential deadlines."
     },
     {
       "category": "Geography",

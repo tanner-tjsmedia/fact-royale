@@ -146,16 +146,16 @@
     },
     {
       "category": "Science & Nature",
-      "question": "How do vaccines protect against disease — what does the immune system do when it encounters a vaccine?",
+      "question": "Nicolaus Copernicus's 1543 work 'On the Revolutions of the Celestial Spheres' proposed that Earth orbits the Sun, not vice versa. Why was this revolutionary — and dangerous?",
       "options": [
-        "Vaccines directly kill pathogens",
-        "Vaccines replace damaged cells",
-        "Vaccines train the immune system to recognize and fight a specific pathogen",
-        "Vaccines neutralize toxins immediately"
+        "Copernicus was the first person to propose that the Earth is round rather than flat, overturning 1,500 years of Church teaching about a flat Earth",
+        "It overturned 1,400 years of Ptolemaic geocentrism endorsed by the Church, placing humans at the universe's periphery rather than its center — a philosophical and religious revolution as much as a scientific one",
+        "Copernicus's model for the first time correctly predicted lunar eclipses, which the geocentric model had been unable to explain, providing immediate practical proof",
+        "The heliocentric model was revolutionary because it proved that other planets must also support life, since they all orbited the same sun that gave Earth its light and warmth"
       ],
-      "answer": "Vaccines train the immune system to recognize and fight a specific pathogen",
-      "explanation": "Vaccines expose the immune system to a weakened, killed, or partial form of a pathogen (or its genetic instructions in mRNA vaccines), triggering the body to produce antibodies without causing disease. Memory B cells retain the blueprint to rapidly produce those antibodies if the real pathogen appears. This 'training' can last years or a lifetime. The concept was pioneered by Edward Jenner in 1796, who used cowpox to protect against smallpox.",
-      "memory_hook": "Vaccines train your immune system — exposing it to a safe version of a pathogen so memory cells know how to respond fast. Edward Jenner started it in 1796 with cowpox vs smallpox. mRNA vaccines (COVID) give instructions instead of proteins, but the principle is the same."
+      "answer": "It overturned 1,400 years of Ptolemaic geocentrism endorsed by the Church, placing humans at the universe's periphery rather than its center — a philosophical and religious revolution as much as a scientific one",
+      "explanation": "Ptolemy's geocentric model (Earth at center, with planets on complex epicycles) had been the accepted view since the 2nd century AD and was embedded in Church doctrine. Copernicus published his heliocentric model only as he was dying — allegedly receiving his printed book on the day of his death — partially to avoid Church condemnation. His work triggered the Copernican Revolution, inspiring Galileo (who was tried by the Inquisition for defending it) and Kepler (who refined the orbital mechanics). Copernicus's book was placed on the Church's Index of Forbidden Books in 1616.",
+      "memory_hook": "Copernicus published his heliocentric theory as he was dying — allegedly receiving his book on his deathbed — knowing the Church would condemn it. Galileo was later tried by the Inquisition for defending it; the book stayed on the Catholic 'banned list' until 1835."
     }
   ]
 }

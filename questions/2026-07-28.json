@@ -42,16 +42,16 @@
     },
     {
       "category": "Science & Nature",
-      "question": "Which chemical element, represented by the symbol Au on the periodic table, derives its symbol from the Latin word 'aurum' and has been prized for jewelry and currency since antiquity?",
+      "question": "Nuclear fusion — the process powering the Sun — has been called the 'holy grail' of clean energy. What is the key challenge that has prevented fusion power plants from operating?",
       "options": [
-        "Gold",
-        "Silver",
-        "Platinum",
-        "Copper"
+        "The radioactive waste produced by fusion reactions is 100 times more dangerous than fission waste, and no material has been found that can safely contain it for the required 10,000-year storage period",
+        "Fusion requires plasma heated to 100+ million degrees Celsius — hotter than the Sun's core — and no material can physically contain it; magnetic fields must do so, but sustaining the confinement long enough to produce more energy than input has proven enormously difficult",
+        "Fusion reactions require tritium, an isotope of hydrogen that exists in only microgram quantities on Earth — without a way to produce tritium at scale, fusion plants have no viable fuel source",
+        "Fusion reactions produce enormous bursts of neutron radiation that destroy reactor components within hours, and no replacement material has been developed that can survive the neutron bombardment long enough for commercial operation"
       ],
-      "answer": "Gold",
-      "explanation": "Gold's chemical symbol Au comes from the Latin 'aurum.' It is one of the least reactive chemical elements, meaning it doesn't tarnish or corrode — a key reason it has been prized throughout history. Gold is so malleable that one ounce can be hammered into a sheet 100 square feet in size.",
-      "memory_hook": "Au = Gold. Latin: aurum. Non-reactive, hence its lasting value."
+      "answer": "Fusion requires plasma heated to 100+ million degrees Celsius — hotter than the Sun's core — and no material can physically contain it; magnetic fields must do so, but sustaining the confinement long enough to produce more energy than input has proven enormously difficult",
+      "explanation": "The Sun fuses hydrogen at 15 million°C using its enormous gravity to confine plasma. On Earth, without that gravity, fusion requires even higher temperatures (100–200 million°C) and magnetic confinement (tokamak reactors). The goal is 'ignition' — more energy out than in. In December 2022, the US National Ignition Facility (NIF) achieved fusion ignition for the first time using laser-driven inertial confinement — 3.15 megajoules out from 2.05 MJ in. ITER, the multinational tokamak being built in France, aims to produce 500 MW from 50 MW input by the 2030s. Unlike fission, fusion produces no long-lived radioactive waste and cannot melt down.",
+      "memory_hook": "Fusion plasma must be 100 million°C — hotter than the Sun's core — because Earth has no gravitational confinement. Magnetic fields (tokamaks) must substitute. In 2022, NIF achieved fusion ignition for the first time: 3.15 MJ out from 2.05 MJ in. ITER aims for 500 MW from 50 MW input."
     },
     {
       "category": "Sports",
@@ -94,16 +94,16 @@
     },
     {
       "category": "Pop Culture",
-      "question": "Which actress starred as Ellen Ripley in the sci-fi horror film Alien (1979)?",
+      "question": "The Crown (Netflix, 2016–2023) dramatizes the reign of Queen Elizabeth II across six decades. What challenging artistic decision shaped the series?",
       "options": [
-        "Jane Fonda",
-        "Meryl Streep",
-        "Sigourney Weaver",
-        "Faye Dunaway"
+        "The series was filmed entirely at actual Royal residences, with the Royal Family granting unprecedented access in exchange for script approval rights over each season",
+        "The creators recasted all major roles entirely every two seasons to capture the physical aging of the characters — requiring audiences to re-bond with new actors playing the same people at different life stages",
+        "It was broadcast simultaneously in 73 countries in 50 languages, making it the most globally coordinated drama launch in television history",
+        "The series was based on documents declassified under the 30-year rule — using actual state papers, personal letters, and intelligence briefings as direct scene sources"
       ],
-      "answer": "Sigourney Weaver",
-      "explanation": "Sigourney Weaver played Ellen Ripley, a warrant officer aboard the spacecraft Nostromo who battles a deadly extraterrestrial creature. The Ridley Scott-directed film was a landmark in both horror and sci-fi. Ripley became one of cinema's first major female action heroes. Weaver reprised the role in three sequels and received an Academy Award nomination for the second film, Aliens (1986).",
-      "memory_hook": "Sigourney Weaver = Ripley in Alien. One of the first great female action heroes in cinema. Before Ripley, the woman in a horror movie existed to scream. Ripley existed to fight."
+      "answer": "The creators recasted all major roles entirely every two seasons to capture the physical aging of the characters — requiring audiences to re-bond with new actors playing the same people at different life stages",
+      "explanation": "Across six seasons, Queen Elizabeth II was played by Claire Foy (young), Olivia Colman (middle age), and Imelda Staunton (elder). Prince Philip changed from Matt Smith to Tobias Menzies to Jonathan Pryce. This recurring recasting was both a practical and artistic statement — time passing visibly on screen, with new actors bringing fresh interpretations. Creator Peter Morgan (The Queen, Frost/Nixon) wrote fictional scenes based on documented events; episodes covering Diana's death and Charles's affairs generated significant controversy.",
+      "memory_hook": "The Crown recasted every major role every two seasons — Queen Elizabeth alone was played by three different actresses across six seasons. Creator Peter Morgan used the physical transformation of actors to dramatize decades of royal history."
     },
     {
       "category": "Pop Culture",

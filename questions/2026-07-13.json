@@ -145,16 +145,16 @@
     },
     {
       "category": "Science & Nature",
-      "question": "What is the process by which water moves across a semi-permeable membrane from an area of lower to higher solute concentration?",
+      "question": "Quasars, first identified in the 1960s, are the most luminous persistent objects in the observable universe — some outshine entire galaxies by a factor of 1,000. What are they?",
       "options": [
-        "Diffusion",
-        "Osmosis",
-        "Active transport",
-        "Facilitated diffusion"
+        "Quasars are extremely massive stars in the early universe that burned so brightly they fused elements all the way up to uranium, creating intense radiation before collapsing into black holes",
+        "Quasars are the intensely luminous cores of distant galaxies powered by supermassive black holes actively consuming surrounding gas and dust — the infalling material releases enormous energy as it heats and spirals inward",
+        "Quasars are chains of interconnected galaxies whose combined gravitational energy generates a coherent beam of radiation visible across the observable universe",
+        "Quasars are remnant shockwaves from galaxy collisions — when two galaxies merge, the combined gravitational energy is released as electromagnetic radiation that can last for millions of years"
       ],
-      "answer": "Osmosis",
-      "explanation": "Osmosis is the movement of water molecules across a semi-permeable membrane from an area of lower solute concentration (higher water concentration) to an area of higher solute concentration (lower water concentration). This continues until concentrations equalize or opposing pressure builds. Osmosis is essential in biology — plant cell turgor, kidney function, and the absorption of water in the intestines all rely on it. Placing a cell in pure water causes it to swell (hypotonic); in very salty water it shrinks (hypertonic).",
-      "memory_hook": "Osmosis = water moves across a membrane toward higher solute concentration. Plants use it to maintain turgor (rigidity). Kidney uses it to concentrate urine. Put a cell in saltwater and it shrivels (water leaves). Put it in pure water and it swells. Osmosis drives most water movement in biology."
+      "answer": "Quasars are the intensely luminous cores of distant galaxies powered by supermassive black holes actively consuming surrounding gas and dust — the infalling material releases enormous energy as it heats and spirals inward",
+      "explanation": "The name 'quasar' is short for 'quasi-stellar radio source' — they appeared as point-like stars but with inexplicably large redshifts, meaning they were enormously distant. The energy mechanism was cracked when astronomers realized the only known process that could generate such luminosity from such a small region was a supermassive black hole actively accreting matter. Gas spiraling into the black hole heats to millions of degrees and radiates across the electromagnetic spectrum. Most galaxies, including the Milky Way, likely hosted quasars in their youth — our central black hole (Sagittarius A*) is dormant.",
+      "memory_hook": "Quasars stumped astronomers in the 1960s — they looked like stars but had redshifts implying they were billions of light-years away. The source of their impossibly bright energy: supermassive black holes eating gas. Our own galaxy's black hole (Sagittarius A*) was a quasar billions of years ago."
     }
   ]
 }

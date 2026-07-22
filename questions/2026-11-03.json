@@ -1,0 +1,161 @@
+{
+  "date": "2026-11-03",
+  "questions": [
+    {
+      "category": "History",
+      "question": "Alexander the Great conquered most of the known world before dying at 32. How large was his empire at its greatest extent?",
+      "options": [
+        "About 2 million km², spanning Greece, Persia, and Egypt",
+        "About 5.2 million km², stretching from Greece to the borders of India",
+        "About 8 million km², including China and sub-Saharan Africa",
+        "About 3 million km², covering Greece, Egypt, and Mesopotamia"
+      ],
+      "answer": "About 5.2 million km², stretching from Greece to the borders of India",
+      "explanation": "Alexander III of Macedon (356-323 BCE) conquered the Persian Empire, Egypt, Central Asia, and northwest India, creating an empire of ~5.2 million km² — the largest in the ancient world to that point. He never lost a battle. His campaigns spread Greek language and culture (Hellenism) across the Middle East and Asia. After his death at 32 in Babylon (cause debated: poison, typhoid, excessive drinking), his generals divided the empire among themselves — none could hold it together. Alexandria, Egypt (founded by him) became the ancient world's greatest city.",
+      "memory_hook": "Alexander never lost a battle in 13 years of continuous campaigning across 5.2 million km². He died at 32 in Babylon — cause unknown, theories ranging from typhoid to poison — before he could consolidate it. His generals spent the next 40 years fighting each other for the pieces."
+    },
+    {
+      "category": "History",
+      "question": "The Protestant Reformation began in 1517 when Martin Luther posted his 95 Theses. What was he protesting?",
+      "options": [
+        "The Catholic Church's support for the Crusades",
+        "The Catholic Church's sale of indulgences (payments for the forgiveness of sins), which Luther argued contradicted the Bible's teaching that salvation comes through faith, not purchased acts",
+        "The Pope's political interference in German affairs",
+        "The Church's refusal to translate the Bible into German"
+      ],
+      "answer": "The Catholic Church's sale of indulgences (payments for the forgiveness of sins), which Luther argued contradicted the Bible's teaching that salvation comes through faith, not purchased acts",
+      "explanation": "Martin Luther, a German monk, posted his 95 Theses (in Latin, for academic debate) criticizing the Church's sale of indulgences — essentially certificates reducing time in purgatory, sold to fund St. Peter's Basilica construction. Luther argued salvation came through faith alone (sola fide). The printing press spread his ideas across Europe within weeks. The Reformation split Western Christianity into Catholic and Protestant branches. The resulting Wars of Religion (including the Thirty Years' War) killed millions.",
+      "memory_hook": "Luther's 95 Theses were an academic debate document — he didn't expect revolution. The printing press turned a scholarly dispute into mass movement within weeks. The Reformation happened because for the first time, you could distribute an idea faster than authority could suppress it."
+    },
+    {
+      "category": "History",
+      "question": "The Punic Wars (264-146 BCE) were fought between Rome and Carthage. What happened to Carthage at the end of the Third Punic War?",
+      "options": [
+        "Carthage was absorbed into the Roman Empire as a self-governing province",
+        "Rome completely destroyed Carthage — the city was burned, the population enslaved, and the land salted (according to legend) so nothing would grow there again",
+        "Carthage became a Roman ally and maintained its independence",
+        "Rome and Carthage agreed to a permanent division of the Mediterranean"
+      ],
+      "answer": "Rome completely destroyed Carthage — the city was burned, the population enslaved, and the land salted (according to legend) so nothing would grow there again",
+      "explanation": "The Third Punic War (149-146 BCE) ended with Rome's total destruction of Carthage. The Roman Senate had debated whether to destroy Carthage or let it live; Senator Cato the Elder ended every speech with 'Carthago delenda est' ('Carthage must be destroyed'). After a three-year siege, Carthage was burned for 17 days, its 50,000 survivors enslaved, and the site cursed. The legend of salting the earth may not be historically accurate, but the erasure was complete. The site wasn't resettled until Julius Caesar founded a new colony there.",
+      "memory_hook": "Roman Senator Cato ended every speech with 'Carthage must be destroyed' — regardless of the topic. After the Third Punic War, the Romans obliged: 17 days of burning, 50,000 enslaved, the city erased. The 'salt the earth' detail is probably legend, but the complete destruction is historical fact."
+    },
+    {
+      "category": "Sports",
+      "question": "Ayrton Senna won 3 Formula 1 World Championships. For which team was he racing when he died in a crash at Imola in 1994?",
+      "options": [
+        "McLaren",
+        "Ferrari",
+        "Williams",
+        "Benetton"
+      ],
+      "answer": "Williams",
+      "explanation": "Ayrton Senna (Brazilian) was driving for Williams when he was killed at the 1994 San Marino Grand Prix at Imola on May 1, 1994. His death, along with Roland Ratzenberger's the day before, prompted a major overhaul of F1 safety standards. Senna won 3 World Championships (1988, 1990, 1991), all with McLaren, and had 65 pole positions and 41 race wins. He is considered by many (including three-time champion Alain Prost, his great rival) to be the greatest racing driver ever.",
+      "memory_hook": "Senna's death at Imola transformed F1 safety permanently — cars, barriers, helmets, and circuits were redesigned after two drivers died in two days. He'd won 3 championships with McLaren and had moved to Williams hoping for a fourth. He never got the chance."
+    },
+    {
+      "category": "Sports",
+      "question": "Which boxer is known as 'The Greatest' and won the heavyweight title three times across three different decades?",
+      "options": [
+        "Joe Frazier",
+        "George Foreman",
+        "Sugar Ray Leonard",
+        "Muhammad Ali"
+      ],
+      "answer": "Muhammad Ali",
+      "explanation": "Muhammad Ali (born Cassius Clay) won the heavyweight title in 1964 (beating Sonny Liston), was stripped of it in 1967 (refusing Vietnam draft), won it again in 1974 (the 'Rumble in the Jungle' vs. George Foreman), and won it a third time in 1978 (vs. Leon Spinks). Ali is considered one of history's greatest boxers — his combination of speed, power, and tactical brilliance was unique at heavyweight. His refusal of the draft ('I ain't got no quarrel with them Viet Cong') cost him 3.5 prime years but became a symbol of anti-war resistance.",
+      "memory_hook": "Ali lost his title without losing a fight — stripped for refusing the Vietnam draft. 'No Viet Cong ever called me n----r' became one of the most powerful anti-war statements of the era. He won it back twice more. Three heavyweight titles across three decades."
+    },
+    {
+      "category": "Pop Culture",
+      "question": "Which British author wrote 'Great Expectations' (1861), featuring the orphan Pip who receives mysterious financial support?",
+      "options": [
+        "Thomas Hardy",
+        "William Thackeray",
+        "Charles Dickens",
+        "Anthony Trollope"
+      ],
+      "answer": "Charles Dickens",
+      "explanation": "Charles Dickens serialized Great Expectations in his literary magazine All the Year Round (1860-61). The novel follows Pip, an orphan who receives anonymous financial support making him a 'gentleman,' and his eventual discovery that his benefactor is Magwitch — an escaped convict Pip once helped as a child, not the wealthy Miss Havisham he assumed. Dickens originally wrote a darker ending (Pip and Estella part forever) but revised it to a more ambiguous reunion under pressure from a friend. Great Expectations is considered one of Dickens's finest works.",
+      "memory_hook": "Dickens originally wrote Pip and Estella never reuniting — a bleaker, truer ending for the novel's themes. His friend Bulwer-Lytton convinced him to revise it to an ambiguous reunion. Most scholars think the original ending was better. Reader pressure changed literary history."
+    },
+    {
+      "category": "Pop Culture",
+      "question": "The television series 'Succession' (HBO, 2018-2023) follows the Roy family's power struggle over a media conglomerate. What real-world media dynasty is it loosely based on?",
+      "options": [
+        "The Murdoch family (News Corp/Fox)",
+        "The Turner family (CNN/TNT)",
+        "The Hearst family (Hearst Corporation)",
+        "The Bloomberg family (Bloomberg Media)"
+      ],
+      "answer": "The Murdoch family (News Corp/Fox)",
+      "explanation": "Succession creator Jesse Armstrong has cited the Murdoch family (Rupert Murdoch and his children James, Lachlan, and Elisabeth) as the primary inspiration for the Roy family. The show won 13 Emmy Awards including Best Drama three times. The ending — which the cast didn't know until filming — had Logan Roy's son Kendall passed over for control of Waystar Royco in favor of his brother Roman, who immediately gave it away. Critics praised it as one of the greatest TV finales ever made.",
+      "memory_hook": "Succession's Roy family is the Murdochs in thin fictional disguise — Rupert's children fighting over control of a right-wing media empire. The show's genius was making you root for deeply terrible people. The finale kept the secret so well that cast members cried when they read the last script."
+    },
+    {
+      "category": "Pop Culture",
+      "question": "Which 1960s British rock band was named after an old muddy creek in Chicago and became one of the most influential bands in history?",
+      "options": [
+        "The Beatles",
+        "The Who",
+        "The Rolling Stones",
+        "Led Zeppelin"
+      ],
+      "answer": "The Rolling Stones",
+      "explanation": "The Rolling Stones (formed 1962, London) took their name from Muddy Waters's blues song 'Rollin' Stone.' Founding members included Mick Jagger, Keith Richards, and Brian Jones. Where the Beatles represented a more polished sound, the Stones represented rock's raw, blues-influenced edge. They have toured almost continuously for 60+ years. Songs include '(I Can't Get No) Satisfaction,' 'Paint It Black,' 'Gimme Shelter,' and 'Sympathy for the Devil.' Drummer Charlie Watts died in 2021; the band continues.",
+      "memory_hook": "The Rolling Stones named themselves after a Muddy Waters blues song — signaling from the start that they were rooted in American blues, not British pop. 60+ years of touring. Keith Richards is widely regarded as a medical mystery."
+    },
+    {
+      "category": "Geography",
+      "question": "The Danube River flows through more countries than any other river in the world. How many countries does it pass through?",
+      "options": [
+        "6 countries",
+        "10 countries",
+        "14 countries",
+        "18 countries"
+      ],
+      "answer": "10 countries",
+      "explanation": "The Danube flows through or borders 10 countries: Germany, Austria, Slovakia, Hungary, Croatia, Serbia, Bulgaria, Romania, Moldova, and Ukraine — making it the river that flows through more countries than any other. It is Europe's second-longest river at 2,860 km and empties into the Black Sea via a delta shared by Romania and Ukraine. The Danube has been a crucial trade route for millennia and historically served as a Roman Empire border (the Limes). Vienna, Bratislava, and Budapest are all Danube capitals.",
+      "memory_hook": "The Danube passes through 10 countries — more than any other river on Earth. It connects Western Europe to the Black Sea and was the Roman Empire's northern frontier. Vienna, Bratislava, and Budapest all grew up on its banks."
+    },
+    {
+      "category": "Geography",
+      "question": "The Mariana Trench in the Pacific Ocean is the deepest place on Earth. Approximately how deep is it at its deepest point?",
+      "options": [
+        "About 6 km",
+        "About 8 km",
+        "About 11 km",
+        "About 14 km"
+      ],
+      "answer": "About 11 km",
+      "explanation": "The Mariana Trench's deepest point, Challenger Deep, reaches approximately 10,935 meters (10.9 km or ~36,000 feet) below sea level. It is located in the western Pacific Ocean, east of the Mariana Islands. At the bottom, pressure is approximately 1,000 times greater than at sea level. Only 3 crewed descents have reached Challenger Deep: Jacques Piccard and Don Walsh (1960), filmmaker James Cameron (2012), and Victor Vescovo (2019). Microscopic organisms, small fish, and crustaceans have been found there.",
+      "memory_hook": "Challenger Deep is 10.9 km down — if you put Mount Everest at the bottom, its peak would still be a mile underwater. The pressure at the bottom is 1,086 times greater than at sea level. James Cameron filmed Avatar, then dove to the deepest point on Earth solo."
+    },
+    {
+      "category": "Science & Nature",
+      "question": "What is the difference between potential energy and kinetic energy in chemical reactions — specifically, what is activation energy?",
+      "options": [
+        "Activation energy is the energy released when a chemical bond forms",
+        "Activation energy is the minimum energy required to start a chemical reaction — the energy barrier that reactant molecules must overcome before bonds can break and reform. Catalysts lower this barrier without being consumed",
+        "Activation energy is the total energy stored in all chemical bonds in a molecule",
+        "Activation energy describes the heat released during an exothermic reaction"
+      ],
+      "answer": "Activation energy is the minimum energy required to start a chemical reaction — the energy barrier that reactant molecules must overcome before bonds can break and reform. Catalysts lower this barrier without being consumed",
+      "explanation": "Chemical reactions require breaking existing bonds before new ones form. The activation energy is this energy 'hill' — even exothermic reactions (which release energy overall) need initial energy to start. Enzymes (biological catalysts) lower activation energy dramatically, allowing reactions to occur at body temperature that would otherwise require extreme heat. This is why enzymes are so crucial to life: your cells run thousands of reactions per second at 37°C that would be impossible without them.",
+      "memory_hook": "Even reactions that release energy need a spark to start — that's activation energy. Enzymes are nature's spark plugs: they lower the energy barrier so reactions that would normally require heat can happen at body temperature. Without enzymes, your metabolism would require temperatures incompatible with life."
+    },
+    {
+      "category": "Science & Nature",
+      "question": "What is a supernova, and what role do supernovae play in the existence of the elements in your body?",
+      "options": [
+        "A supernova is the formation of a new star; it creates hydrogen and helium but no heavier elements",
+        "A supernova is the explosive death of a massive star, releasing more energy in seconds than the Sun will in its lifetime. During the explosion, nuclear reactions create elements heavier than iron, which are scattered into space — eventually becoming part of new stars, planets, and life",
+        "A supernova is a collision between two black holes that releases energy but no matter",
+        "A supernova is a neutron star becoming a pulsar; it creates no new elements"
+      ],
+      "answer": "A supernova is the explosive death of a massive star, releasing more energy in seconds than the Sun will in its lifetime. During the explosion, nuclear reactions create elements heavier than iron, which are scattered into space — eventually becoming part of new stars, planets, and life",
+      "explanation": "Stars up to the size of our Sun die quietly (planetary nebula + white dwarf). Massive stars (>8 solar masses) die as supernovae — core collapse triggers a shock wave that blows off outer layers at 10,000-30,000 km/s, briefly outshining entire galaxies. Nuclear reactions during the explosion and neutron star mergers create elements heavier than iron (gold, uranium, calcium). Carl Sagan: 'We are made of star stuff.' The calcium in your bones, iron in your blood, and oxygen you breathe were all forged in dying stars.",
+      "memory_hook": "Every atom in your body heavier than hydrogen and helium was made in a star that exploded before the Sun formed. The calcium in your bones, the iron in your blood — stellar debris. Carl Sagan's 'we are stardust' is not poetry; it's astrophysics."
+    }
+  ]
+}

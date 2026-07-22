@@ -1,0 +1,161 @@
+{
+  "date": "2026-10-01",
+  "questions": [
+    {
+      "category": "History",
+      "question": "The Battle of Tours in 732 CE, which halted the northward advance of Islamic forces into Western Europe, was won by which Frankish commander?",
+      "options": [
+        "Charlemagne",
+        "Clovis I",
+        "Charles Martel",
+        "Pepin the Short"
+      ],
+      "answer": "Charles Martel",
+      "explanation": "Charles Martel ('the Hammer') defeated an Umayyad Caliphate army near Tours, France in 732 CE. This victory is often cited as saving Western Christianity and halting Muslim expansion into Europe. Charles Martel was the grandfather of Charlemagne and the de facto ruler of the Franks.",
+      "memory_hook": "Charles 'the Hammer' Martel stopped Islamic expansion at Tours in 732. His grandson Charlemagne later unified much of Western Europe."
+    },
+    {
+      "category": "History",
+      "question": "The Treaty of Versailles in 1919, which officially ended World War I, famously imposed what condition on Germany?",
+      "options": [
+        "Division into East and West Germany",
+        "Sole responsibility for the war and massive reparations",
+        "Permanent occupation by Allied forces",
+        "Prohibition of any future military"
+      ],
+      "answer": "Sole responsibility for the war and massive reparations",
+      "explanation": "The 'War Guilt Clause' (Article 231) of the Treaty of Versailles forced Germany to accept full blame for WWI and pay reparations totaling 132 billion gold marks. Economists later argued the crushing terms contributed directly to Germany's economic collapse and the rise of Hitler. John Maynard Keynes famously opposed the treaty.",
+      "memory_hook": "Article 231 forced Germany to accept war guilt and pay crushing reparations. Economists including Keynes warned it would destabilize Europe — and they were right."
+    },
+    {
+      "category": "History",
+      "question": "Which ancient civilization built its capital Tenochtitlan on an island in Lake Texcoco, where Mexico City now stands?",
+      "options": [
+        "Maya",
+        "Olmec",
+        "Aztec",
+        "Inca"
+      ],
+      "answer": "Aztec",
+      "explanation": "The Aztec Empire built Tenochtitlan around 1325 CE on an island in Lake Texcoco (modern Mexico City). At its height, it was one of the largest cities in the world with 200,000-300,000 inhabitants. Spanish conquistador Hernán Cortés arrived in 1519 and, with indigenous allies, conquered the empire by 1521.",
+      "memory_hook": "The Aztecs built Tenochtitlan on a lake island — now Mexico City. Cortés arrived in 1519 and had conquered the entire empire by 1521."
+    },
+    {
+      "category": "Sports",
+      "question": "Brazil has won the FIFA World Cup more times than any other nation. How many times?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "answer": "5",
+      "explanation": "Brazil has won the FIFA World Cup five times: 1958, 1962, 1970, 1994, and 2002 — the only nation to have won it on three different continents. Their 1970 team, featuring Pelé, is often called the greatest international football team ever assembled. Germany and Italy each have four titles.",
+      "memory_hook": "Brazil has won 5 World Cups — the most of any nation. Their 1970 squad with Pelé is widely considered the greatest football team ever."
+    },
+    {
+      "category": "Sports",
+      "question": "Wayne Gretzky, known as 'The Great One,' holds the NHL record for career points. How many did he score?",
+      "options": [
+        "1,487",
+        "2,857",
+        "1,963",
+        "3,239"
+      ],
+      "answer": "2,857",
+      "explanation": "Wayne Gretzky scored 2,857 points (894 goals + 1,963 assists) in his NHL career. Remarkably, his assists total alone (1,963) exceeds the total points of every other player in NHL history. He was so dominant that he scored 92 goals in a single season (1981-82) — a record that still stands.",
+      "memory_hook": "Gretzky's 2,857 career points is so far ahead that his assists alone beat everyone else's total points. The Great One wasn't just better — he was statistically impossible."
+    },
+    {
+      "category": "Pop Culture",
+      "question": "In which year was the Mona Lisa stolen from the Louvre Museum in Paris?",
+      "options": [
+        "1895",
+        "1911",
+        "1924",
+        "1937"
+      ],
+      "answer": "1911",
+      "explanation": "The Mona Lisa was stolen by Vincenzo Peruggia, an Italian handyman who had worked at the Louvre, on August 21, 1911. He hid it under his coat overnight, then walked out. It was missing for two years and recovered in Florence in 1913 when Peruggia tried to sell it to an art dealer. The theft made the Mona Lisa famous worldwide.",
+      "memory_hook": "The Mona Lisa was stolen in 1911 by a man who simply hid it under his coat overnight and walked out. The two-year mystery made it the world's most famous painting."
+    },
+    {
+      "category": "Pop Culture",
+      "question": "Which 1941 film directed by Orson Welles is consistently ranked among the greatest movies ever made and pioneered many filmmaking techniques?",
+      "options": [
+        "The Maltese Falcon",
+        "Casablanca",
+        "Citizen Kane",
+        "Rebecca"
+      ],
+      "answer": "Citizen Kane",
+      "explanation": "Citizen Kane, directed by and starring Orson Welles at just 25 years old, revolutionized filmmaking with innovations including deep focus photography, non-linear narrative, low-angle shots, and overlapping dialogue. The film was largely ignored at the box office on release and lost the Oscar for Best Picture to How Green Was My Valley — a fact often cited as one of Hollywood's biggest mistakes.",
+      "memory_hook": "Citizen Kane introduced deep focus, non-linear storytelling, and revolutionary camera work — directed by a 25-year-old. It lost the Oscar to a film almost nobody remembers today."
+    },
+    {
+      "category": "Pop Culture",
+      "question": "When George Lucas released Star Wars in 1977, 20th Century Fox was so skeptical of its success that they gave him something unusual instead of a higher director's fee. What was it?",
+      "options": [
+        "50% of the studio",
+        "Sequel and merchandise rights",
+        "Lifetime contract",
+        "Final cut privilege"
+      ],
+      "answer": "Sequel and merchandise rights",
+      "explanation": "George Lucas accepted a reduced directing fee in exchange for sequel rights and — crucially — merchandise licensing rights. Fox executives thought toys would never sell. Lucas went on to earn billions from Star Wars merchandise. This single negotiation is considered one of the most valuable business decisions in entertainment history.",
+      "memory_hook": "Fox gave Lucas merchandise rights thinking they were worthless. The resulting merchandise empire earned billions — one of the greatest business miscalculations in Hollywood history."
+    },
+    {
+      "category": "Geography",
+      "question": "Which river, flowing through the Democratic Republic of Congo, is the deepest river in the world — reaching depths exceeding 220 meters?",
+      "options": [
+        "Nile",
+        "Amazon",
+        "Congo",
+        "Zambezi"
+      ],
+      "answer": "Congo",
+      "explanation": "The Congo River reaches depths of over 220 meters (720 feet) in some sections, making it the world's deepest river. It also has the second-largest discharge rate in the world (after the Amazon). The river drops over one of the great series of rapids near its mouth, making it unnavigable for the last stretch — which historically isolated the Congo Basin from coastal trade.",
+      "memory_hook": "The Congo is the world's deepest river at 220+ meters — deep enough to hide creatures undiscovered. Its unnavigable rapids at the mouth historically cut the Congo Basin off from the coast."
+    },
+    {
+      "category": "Geography",
+      "question": "Madagascar, the world's fourth-largest island, separated from Africa approximately how long ago and is famous for what biological feature?",
+      "options": [
+        "5,000 years ago; unique human cultures",
+        "500,000 years ago; ancient cave paintings",
+        "160 million years ago; extremely high levels of endemic species",
+        "10 million years ago; the oldest coral reefs"
+      ],
+      "answer": "160 million years ago; extremely high levels of endemic species",
+      "explanation": "Madagascar separated from Africa (via the Indian subcontinent, from which it separated ~88 million years ago) roughly 160 million years ago. This ancient isolation created extraordinary biodiversity: about 90% of its wildlife is found nowhere else on Earth, including lemurs, fossa, and ~12,000 unique plant species. It is often called the 'eighth continent' of biodiversity.",
+      "memory_hook": "Madagascar's 160-million-year isolation means ~90% of its wildlife exists nowhere else — 250 lemur species alone. It's the world's largest natural laboratory of isolated evolution."
+    },
+    {
+      "category": "Science & Nature",
+      "question": "Newton's First Law of Motion — the law of inertia — states what principle?",
+      "options": [
+        "Force equals mass times acceleration",
+        "An object at rest or in uniform motion will remain so unless acted on by an external force",
+        "Every action has an equal and opposite reaction",
+        "Energy cannot be created or destroyed"
+      ],
+      "answer": "An object at rest or in uniform motion will remain so unless acted on by an external force",
+      "explanation": "Newton's First Law states that objects don't change their motion on their own — only external forces cause acceleration. This is why passengers lurch forward when a car brakes (their bodies want to keep moving) and why objects in space keep moving indefinitely. It overturned Aristotle's idea that objects naturally slow to rest. Published in Principia Mathematica (1687).",
+      "memory_hook": "Inertia: things keep doing what they're doing until something stops them. That's why you jerk forward when a car brakes — your body was moving, the car stopped."
+    },
+    {
+      "category": "Science & Nature",
+      "question": "The structure of DNA as a double helix was described in 1953. Which two scientists received the Nobel Prize for this discovery?",
+      "options": [
+        "Einstein and Bohr",
+        "Curie and Pasteur",
+        "Watson and Crick",
+        "Fleming and Florey"
+      ],
+      "answer": "Watson and Crick",
+      "explanation": "James Watson and Francis Crick published their model of the DNA double helix in Nature in April 1953, based partly on X-ray crystallography data provided (without her knowledge or permission) by Rosalind Franklin. Watson, Crick, and Maurice Wilkins received the 1962 Nobel Prize in Physiology or Medicine; Franklin had died of cancer in 1958 and was ineligible. Franklin's essential contribution is now widely recognized.",
+      "memory_hook": "Watson and Crick built on Rosalind Franklin's X-ray data to crack DNA's double-helix structure in 1953. Franklin died before the Nobel was awarded and remains one of science's most significant uncredited contributors."
+    }
+  ]
+}

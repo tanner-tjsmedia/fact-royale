@@ -55,29 +55,29 @@
     },
     {
       "category": "Sports",
-      "question": "In golf, what is the term for completing a hole in two strokes under par — rarer and better than a birdie?",
+      "question": "Usain Bolt set the 100m world record of 9.58 seconds at the 2009 Berlin World Championships. What biomechanical factors explain his dominance — and what is his unusual running pattern?",
       "options": [
-        "Eagle",
-        "Albatross",
-        "Condor",
-        "Ace"
+        "Bolt's dominance comes from his reaction time — he leaves the blocks 0.3 seconds faster than any other sprinter, giving him an insurmountable lead before the race's first stride",
+        "Bolt's combination of unusually long stride length (2.44m) and still-elite stride frequency means he takes fewer strides than shorter sprinters while covering the same distance — his 6'5\" frame produces natural mechanical advantages",
+        "Bolt is unique in that he decelerates less than any other sprinter in history — while all sprinters slow down in the final 20 meters, Bolt maintains peak speed longer than anyone before him",
+        "Bolt's unusual training method — sprinting only uphill for the first 50 meters of training runs — built the posterior chain strength that makes his late-race acceleration uniquely explosive"
       ],
-      "answer": "Eagle",
-      "explanation": "In golf, scoring terms follow a bird theme: bogey (+1), par (0), birdie (-1), eagle (-2), albatross/double eagle (-3), and condor (-4, extremely rare). Eagles most commonly occur on par-5 holes, where a player reaches the green in two shots and holes out.",
-      "memory_hook": "Eagle = 2 under par. Birdie = 1 under. Eagles are twice as good as birdies."
+      "answer": "Bolt's combination of unusually long stride length (2.44m) and still-elite stride frequency means he takes fewer strides than shorter sprinters while covering the same distance — his 6'5\" frame produces natural mechanical advantages",
+      "explanation": "At 6'5\" (1.95m), Bolt was unusually tall for a sprinter — conventional wisdom held that shorter athletes had better stride frequency. Bolt's stride length of 2.44 meters at peak meant he needed only 41 strides to cover 100 meters, while competitors took 44–45. Analysis of his 9.58 run showed he reached a peak speed of 44.72 km/h (27.8 mph) — the fastest human speed ever recorded. He was not actually the fastest off the blocks; his reaction time was 0.146 seconds. His dominance came from extraordinary stride length combined with adequate frequency — a combination thought impossible at his height.",
+      "memory_hook": "Bolt ran 100m in 41 strides — shorter sprinters take 44-45. At 6'5\", conventional wisdom said he was too tall for elite sprinting; he disproved it with a 44.72 km/h peak speed in Berlin 2009, the fastest human speed ever measured. His reaction time was actually mediocre — the stride length won it."
     },
     {
       "category": "Pop Culture",
-      "question": "Which director, known as 'the Master of Suspense,' made 'Rear Window,' 'Psycho,' 'Vertigo,' and 'The Birds' — and made cameo appearances in nearly every one of his films?",
+      "question": "Alfred Hitchcock's 'Vertigo' (1958) was considered a box office disappointment in his lifetime — yet it topped the Sight & Sound poll as the greatest film ever made in 2012. What specific filmmaking technique did Hitchcock invent for it, and what psychological effect was it designed to create?",
       "options": [
-        "Alfred Hitchcock",
-        "Billy Wilder",
-        "Fritz Lang",
-        "Orson Welles"
+        "Hitchcock invented the 'Kuleshov cut' for Vertigo — interleaving closeups of faces with unrelated objects to imply emotional reactions — and used it more extensively than any previous film to simulate Scottie's psychological disorientation",
+        "Hitchcock invented the 'dolly zoom' (also called the 'Vertigo effect') — simultaneously dollying the camera toward a subject while zooming out — making the background appear to rush away while the subject stays the same size, visually simulating acrophobic dread",
+        "Hitchcock used a 45-degree shutter angle for the entire film — cutting the exposure time to produce motion blur that makes every scene feel slightly unreal — a technique later adopted by Saving Private Ryan for its battle sequences",
+        "Hitchcock designed the film's color palette by computer — working with mathematicians at Bell Labs to calculate the most psychologically unsettling color combinations — making Vertigo the first commercially released film with a computer-assisted color design"
       ],
-      "answer": "Alfred Hitchcock",
-      "explanation": "Alfred Hitchcock (1899-1980) directed over 50 films and is widely regarded as one of the most influential directors in cinema history. He pioneered many suspense techniques still used today. His cameo appearances in his own films became a beloved tradition — he appears briefly in 39 of his films.",
-      "memory_hook": "Hitchcock = Master of Suspense. Cameo in 39 films. Psycho, Vertigo, Rear Window."
+      "answer": "Hitchcock invented the 'dolly zoom' (also called the 'Vertigo effect') — simultaneously dollying the camera toward a subject while zooming out — making the background appear to rush away while the subject stays the same size, visually simulating acrophobic dread",
+      "explanation": "The dolly zoom was developed by Hitchcock's cinematographer Irmin Roberts for a specific staircase scene in Vertigo. Moving the camera toward James Stewart while zooming out (or vice versa) keeps Stewart the same apparent size but makes the background scale change — producing the visual impression of the ground falling away. This technique, called a 'zolly' or 'Hitchcock zoom,' has since appeared in Jaws, Goodfellas, Lord of the Rings, and hundreds of other films. Vertigo was pulled from distribution by Hitchcock himself before his death and reappeared in the 1980s. Its elevation to #1 film on Sight & Sound (displacing Citizen Kane after 50 years) remains controversial.",
+      "memory_hook": "The Vertigo effect works by moving the camera toward the subject while zooming out — so the background rushes away but the person stays the same size. Hitchcock's cinematographer invented it for a staircase scene. It's since appeared in Jaws, Goodfellas, and hundreds of other films. Vertigo ranked #1 on the Sight & Sound poll in 2012, displacing Citizen Kane after 50 years."
     },
     {
       "category": "Pop Culture",
@@ -94,16 +94,16 @@
     },
     {
       "category": "Pop Culture",
-      "question": "Which director created the 'Lord of the Rings' film trilogy (2001-2003)?",
+      "question": "George Orwell's '1984' (1949) introduced terms like 'Big Brother,' 'doublethink,' and 'Newspeak' into the English language. What personal experience shaped Orwell's vision of totalitarianism?",
       "options": [
-        "James Cameron",
-        "Ridley Scott",
-        "George Lucas",
-        "Peter Jackson"
+        "Orwell worked as a BBC propaganda broadcaster during WWII and saw firsthand how language could be weaponized to distort reality — he based the Ministry of Truth directly on his BBC experience",
+        "Orwell fought in the Spanish Civil War for the Republican side, witnessed the Soviet-backed Stalinist faction suppress and murder anarchist allies — and survived by luck — giving him direct experience of how communism devoured its own",
+        "Orwell spent four years in Soviet prisons after being arrested during a 1936 journalism assignment in Moscow, and 1984 was a direct autobiographical account of the interrogation techniques he witnessed",
+        "Orwell developed his vision of totalitarianism by studying the Nazi concentration camp system, which he wrote about in a classified British government report before adapting the material for 1984"
       ],
-      "answer": "Peter Jackson",
-      "explanation": "New Zealand director Peter Jackson directed all three Lord of the Rings films, adapted from J.R.R. Tolkien's novels. The trilogy won 17 Academy Awards — The Return of the King won all 11 categories it was nominated in, including Best Picture, matching the record set by Ben-Hur and Titanic. The films were shot simultaneously over 274 days in New Zealand.",
-      "memory_hook": "Peter Jackson = Lord of the Rings. A New Zealand director shot all three films at once in New Zealand, won 17 Oscars total. Return of the King won 11 out of 11 — a perfect sweep."
+      "answer": "Orwell fought in the Spanish Civil War for the Republican side, witnessed the Soviet-backed Stalinist faction suppress and murder anarchist allies — and survived by luck — giving him direct experience of how communism devoured its own",
+      "explanation": "Orwell volunteered to fight fascism in Spain in 1936, joining the POUM (a Marxist militia). The Soviet-controlled Communist faction purged non-Stalinist leftists — Orwell narrowly escaped arrest and likely execution. He was shot through the throat by a fascist sniper but survived; Soviet agents were reportedly following him. This betrayal of socialist ideals by Stalinism — documented in 'Homage to Catalonia' (1938) — formed the core of both Animal Farm and 1984. He also worked at the BBC's Indian Service during WWII (the Ministry of Truth connection), writing propaganda he personally felt was misleading.",
+      "memory_hook": "Orwell went to Spain to fight fascism and nearly got killed by Soviet-backed communists instead — who were purging non-Stalinist leftists from the Republican side. He escaped by luck. That betrayal of socialist ideals by Stalinism became Animal Farm and 1984. He also wrote BBC propaganda during WWII — basis for the Ministry of Truth."
     },
     {
       "category": "Geography",

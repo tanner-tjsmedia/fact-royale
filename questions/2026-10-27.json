@@ -1,0 +1,161 @@
+{
+  "date": "2026-10-27",
+  "questions": [
+    {
+      "category": "History",
+      "question": "The American Revolution was sparked by the idea of 'no taxation without representation.' Which specific tax acts fueled colonial anger before the war?",
+      "options": [
+        "The Stamp Act (1765) and Townshend Acts (1767) taxed colonial goods without colonial legislative input",
+        "The Navigation Acts taxed all imports from non-British nations",
+        "The Molasses Act taxed rum consumption in the colonies",
+        "Only the Tea Act mattered; other taxes were accepted"
+      ],
+      "answer": "The Stamp Act (1765) and Townshend Acts (1767) taxed colonial goods without colonial legislative input",
+      "explanation": "The Stamp Act (1765) taxed all paper documents — legal papers, newspapers, playing cards. The Townshend Acts (1767) taxed glass, lead, paper, paint, and tea. Colonists argued Parliament couldn't tax them without colonial representation in Parliament. The Boston Massacre (1770), Boston Tea Party (1773), and Intolerable Acts (1774) escalated tensions. The war began April 19, 1775 at Lexington and Concord ('shot heard round the world'). France's military support proved decisive for American victory.",
+      "memory_hook": "The Stamp Act taxed every piece of paper — newspapers, legal docs, playing cards. Colonists who traded in paper and information were immediately affected. The principle 'no taxation without representation' was the spark; French military support was the accelerant."
+    },
+    {
+      "category": "History",
+      "question": "Ancient Egypt built the Great Pyramids during the Old Kingdom period. How long did pyramid construction span, and approximately how many pyramids remain in Egypt?",
+      "options": [
+        "100 years; about 10 pyramids remain",
+        "2,000 years (from ~2700-700 BCE); approximately 130 pyramids remain",
+        "500 years; about 50 pyramids remain",
+        "3,500 years; about 20 remain"
+      ],
+      "answer": "2,000 years (from ~2700-700 BCE); approximately 130 pyramids remain",
+      "explanation": "Egyptian pyramid-building spanned roughly 2,000 years, from the Step Pyramid of Djoser (~2650 BCE) to the pyramids built during the Late Period (~700 BCE). Approximately 130 Egyptian pyramids are known. The Great Pyramid of Giza (built for Pharaoh Khufu, ~2560 BCE) remained the world's tallest man-made structure for 3,800 years. It contains approximately 2.3 million stone blocks averaging 2.5 tonnes each. Recent research suggests workers were paid skilled laborers, not slaves.",
+      "memory_hook": "Egypt built pyramids for 2,000 years and ~130 still stand. The Great Pyramid was the tallest structure on Earth for 3,800 years — longer than any other record in architecture. Recent research confirms the builders were paid workers, not slaves."
+    },
+    {
+      "category": "History",
+      "question": "The Vietnam War's pivotal turning point at home came after the Tet Offensive in 1968. What was the Tet Offensive, and why did it change American public opinion despite being a US military success?",
+      "options": [
+        "A North Vietnamese naval attack that sank US ships; Americans demanded retaliation",
+        "A coordinated North Vietnamese and Viet Cong surprise attack on 100+ South Vietnamese cities during the Tet holiday; though US forces repelled it militarily, the scale of the attacks proved the war wasn't being won — contradicting government claims",
+        "A US bombing campaign that accidentally killed civilians; protest followed the news coverage",
+        "A battle where US forces deliberately retreated; Johnson used it to justify escalation"
+      ],
+      "answer": "A coordinated North Vietnamese and Viet Cong surprise attack on 100+ South Vietnamese cities during the Tet holiday; though US forces repelled it militarily, the scale of the attacks proved the war wasn't being won — contradicting government claims",
+      "explanation": "The Tet Offensive (January 30, 1968) launched surprise attacks on over 100 South Vietnamese cities, including the US Embassy in Saigon. US and South Vietnamese forces ultimately repelled every attack — Tet was a military defeat for North Vietnam. But the scale shocked Americans who'd been told the war was nearly won. TV footage of the fighting changed public perception. Walter Cronkite called the war a 'stalemate' on air; Johnson reportedly said if he'd lost Cronkite, he'd lost Middle America. Johnson announced he would not seek re-election.",
+      "memory_hook": "Tet was a military US victory and a strategic North Vietnamese masterpiece — the attacks proved the war was nowhere near won, opposite of what the Johnson administration claimed. Walter Cronkite calling it a stalemate on live TV arguably ended Johnson's presidency."
+    },
+    {
+      "category": "Sports",
+      "question": "Which golfer holds the record for most PGA Tour wins?",
+      "options": [
+        "Jack Nicklaus",
+        "Arnold Palmer",
+        "Tiger Woods",
+        "Sam Snead"
+      ],
+      "answer": "Sam Snead",
+      "explanation": "Sam Snead holds the PGA Tour record with 82 official wins (1936-1965). Tiger Woods tied this record in 2019 (also 82) and many expect him to have passed it before retirement, though injuries limited his subsequent seasons. Snead was known for his fluid, natural swing that many consider the most beautiful in golf history. He won 7 major championships (3 Masters, 1 US Open, 1 Open Championship, 3 PGA Championships). Unlike Snead, Tiger's 82 wins included a much more competitive modern field.",
+      "memory_hook": "Sam Snead's 82 PGA Tour wins was the 'unbreakable' record until Tiger tied it in 2019. Snead played into his 60s and won tournaments with a swing so fluid that his contemporaries said he looked like he was barely trying."
+    },
+    {
+      "category": "Sports",
+      "question": "The Rugby World Cup has been held every four years since 1987. Which country has won it the most times?",
+      "options": [
+        "England",
+        "South Africa",
+        "New Zealand",
+        "Australia"
+      ],
+      "answer": "New Zealand",
+      "explanation": "New Zealand's All Blacks have won the Rugby World Cup 3 times: 1987 (the inaugural tournament), 2011, and 2015. They are the only team to win back-to-back titles (2011, 2015). South Africa has 3 wins (1995, 2007, 2019) — also 3 but the All Blacks' 1987 win gives them historical precedence. Australia has won twice (1991, 1999), and England once (2003). The All Blacks' consistent performance (combined tournament win rate of ~85%) makes them the dominant force in international rugby.",
+      "memory_hook": "New Zealand and South Africa are tied with 3 World Cup wins each, but the All Blacks won the inaugural tournament in 1987 — giving them historical precedence. Their tournament win rate of ~85% is unmatched in any major team sport."
+    },
+    {
+      "category": "Pop Culture",
+      "question": "Which novel begins with the line 'It was the best of times, it was the worst of times' and is set during the French Revolution?",
+      "options": [
+        "War and Peace by Leo Tolstoy",
+        "Les Misérables by Victor Hugo",
+        "A Tale of Two Cities by Charles Dickens",
+        "The Scarlet Pimpernel by Baroness Orczy"
+      ],
+      "answer": "A Tale of Two Cities by Charles Dickens",
+      "explanation": "Charles Dickens's A Tale of Two Cities (1859) is set in London and Paris during the French Revolution. The famous opening contrasts the extremes of the revolutionary period. The novel's hero Sydney Carton makes the ultimate sacrifice in the final pages — 'It is a far, far better thing that I do, than I have ever done.' Dickens serialized the novel in his own literary magazine. It is one of the best-selling novels of all time, with estimated sales of 200 million copies.",
+      "memory_hook": "'It was the best of times, it was the worst of times' — Dickens captured the French Revolution in an opening line that's been parodied so often people forget the original. A Tale of Two Cities has sold 200 million copies — making it one of history's best-selling novels."
+    },
+    {
+      "category": "Pop Culture",
+      "question": "'Apocalypse Now' (1979), directed by Francis Ford Coppola, is based on which Joseph Conrad novel?",
+      "options": [
+        "The Secret Agent",
+        "Lord Jim",
+        "Heart of Darkness",
+        "Nostromo"
+      ],
+      "answer": "Heart of Darkness",
+      "explanation": "Apocalypse Now transports Conrad's Heart of Darkness (1899) from colonial Africa to the Vietnam War era. Captain Willard (Martin Sheen) travels up a river into Cambodia to find and kill Colonel Kurtz (Marlon Brando), who has 'gone native.' The film was notoriously troubled in production (captured in the documentary Hearts of Darkness). Both the novel and film explore imperialism, the human capacity for evil, and how civilization is a thin veneer over darkness — hence Kurtz's final words: 'The horror... the horror.'",
+      "memory_hook": "Apocalypse Now moved Conrad's story of colonial darkness from Africa to Vietnam, updating imperialism's critique for a new era. The filming was so disastrous — Brando arriving 100 lbs overweight with no preparation, the typhoon, Martin Sheen's heart attack — that the production became as dark as the story."
+    },
+    {
+      "category": "Pop Culture",
+      "question": "'Parasite' (2019), directed by Bong Joon-ho, became the first non-English language film to win the Academy Award for Best Picture. From which country is it?",
+      "options": [
+        "Japan",
+        "China",
+        "Taiwan",
+        "South Korea"
+      ],
+      "answer": "South Korea",
+      "explanation": "Parasite (기생충) is a South Korean dark comedy thriller about the class divide between a poor family (the Kims) and a wealthy family (the Parks), who exploit each other in different ways. It won 4 Academy Awards: Best Picture, Best Director, Best International Feature Film, and Best Original Screenplay — making it the first non-English language film to win Best Picture. Bong Joon-ho dedicated his Director award 'to Martin Scorsese, who taught me that personal films and commercial films are not opposites.'",
+      "memory_hook": "Parasite won Best Picture in 2020 — the first non-English film in 92 years of Oscars. The film's genius is that by the end, you can't decide whose side you're on: both families are 'parasites' on each other in different ways. Class guilt with no clean heroes."
+    },
+    {
+      "category": "Geography",
+      "question": "Lake Titicaca sits on the border between Peru and Bolivia. What makes it geographically unique?",
+      "options": [
+        "It is the deepest lake in South America at over 1,000 meters",
+        "It is the world's highest navigable lake, sitting at 3,812 meters above sea level",
+        "It is the world's largest lake by surface area",
+        "It is the only lake in South America with no fish species"
+      ],
+      "answer": "It is the world's highest navigable lake, sitting at 3,812 meters above sea level",
+      "explanation": "Lake Titicaca sits at 3,812 meters (12,507 feet) on the Altiplano plateau, making it the world's highest navigable lake (large boats can operate on it). It covers 8,372 km² and is shared between Peru and Bolivia. The lake moderates the harsh Altiplano climate by absorbing solar heat and releasing it at night. The Uros people have lived on floating reed islands on the lake for centuries. The lake is sacred to the Inca — they believed the first Inca emerged from it.",
+      "memory_hook": "Lake Titicaca at 3,812 meters elevation has commercial shipping boats sailing on it — the world's highest navigable lake. The Inca believed their civilization was born from it. The Uros people still live on floating reed islands on the lake today."
+    },
+    {
+      "category": "Geography",
+      "question": "The Nile River is often called the world's longest river. Through which countries does it flow from its source to the Mediterranean Sea?",
+      "options": [
+        "Uganda, Sudan, Egypt",
+        "Rwanda, Uganda, Ethiopia, Sudan, Egypt",
+        "Tanzania, Uganda, Sudan, Egypt",
+        "Ethiopia, Sudan, Egypt only"
+      ],
+      "answer": "Rwanda, Uganda, Ethiopia, Sudan, Egypt",
+      "explanation": "The Nile has two main tributaries: the White Nile (originating from Lake Victoria, which borders Uganda, Tanzania, and Kenya) and the Blue Nile (originating from Lake Tana in Ethiopia). They meet at Khartoum, Sudan. The combined Nile then flows north through Sudan and Egypt to the Mediterranean. The source debate is ongoing — if tracing the most distant source, the Nile's source extends to Rwanda (Kagera River tributary of Lake Victoria). Ethiopia's Grand Ethiopian Renaissance Dam on the Blue Nile has created significant water-rights tensions with Egypt.",
+      "memory_hook": "80% of the Nile's water comes from the Blue Nile in Ethiopia — which is why Ethiopia building a massive dam on it is an existential issue for Egypt. Egypt's entire civilization was built on Nile floodwaters. The dam is a live geopolitical conflict today."
+    },
+    {
+      "category": "Science & Nature",
+      "question": "What is the water cycle (hydrological cycle), and how does it move water through Earth's systems?",
+      "options": [
+        "The water cycle describes how water moves from rivers to oceans only; land-based water is separate",
+        "Evaporation from oceans and land → condensation into clouds → precipitation (rain/snow) → collection in rivers/lakes/groundwater → evaporation again. The cycle continuously moves water through atmosphere, land, and ocean systems",
+        "The water cycle describes the chemical breakdown of water (H₂O) into hydrogen and oxygen, then reformation",
+        "The water cycle only operates in tropical regions where evaporation rates are high enough to form clouds"
+      ],
+      "answer": "Evaporation from oceans and land → condensation into clouds → precipitation (rain/snow) → collection in rivers/lakes/groundwater → evaporation again. The cycle continuously moves water through atmosphere, land, and ocean systems",
+      "explanation": "The hydrological cycle: solar energy evaporates water from oceans, lakes, and vegetation (transpiration) into water vapor. Water vapor rises, cools, condenses into clouds. Precipitation falls as rain or snow. Water runs off into rivers, infiltrates into groundwater, or is taken up by plants. Eventually it evaporates or flows to the ocean. The cycle is driven by solar energy and gravity. Approximately 97% of Earth's water is salty ocean; 2% is ice; only ~1% is freshwater accessible in rivers, lakes, and groundwater.",
+      "memory_hook": "The water cycle is solar-powered: the Sun evaporates ocean water; gravity pulls it back as rain. Only 1% of Earth's water is freshwater accessible in rivers and lakes — everything we drink, grow crops with, and use in industry comes from that 1%."
+    },
+    {
+      "category": "Science & Nature",
+      "question": "What is the difference between DNA and RNA, and what is the 'central dogma' of molecular biology?",
+      "options": [
+        "DNA and RNA are both double-stranded; the central dogma states that RNA converts to DNA which converts to protein",
+        "DNA is double-stranded, stores genetic information long-term; RNA is single-stranded, carries genetic instructions from DNA to ribosomes. The central dogma: DNA → RNA (transcription) → Protein (translation)",
+        "DNA is found only in the nucleus; RNA is found only in the cytoplasm; the central dogma states that they never interact",
+        "DNA and RNA are the same molecule; the central dogma describes how proteins replicate themselves"
+      ],
+      "answer": "DNA is double-stranded, stores genetic information long-term; RNA is single-stranded, carries genetic instructions from DNA to ribosomes. The central dogma: DNA → RNA (transcription) → Protein (translation)",
+      "explanation": "DNA (deoxyribonucleic acid): double helix, contains the genome, found in nucleus. RNA (ribonucleic acid): single strand, multiple types (mRNA carries instructions; tRNA and rRNA help build proteins). The central dogma (Francis Crick, 1958): DNA is transcribed into mRNA in the nucleus; mRNA travels to ribosomes where it's translated into proteins. Proteins do virtually everything in the body. COVID-19 mRNA vaccines work by delivering mRNA instructions for the spike protein — demonstrating the central dogma in medicine.",
+      "memory_hook": "The central dogma: DNA → mRNA → protein. DNA is the blueprint; mRNA is a photocopy you can take to the factory; proteins are what the factory makes. COVID mRNA vaccines work by injecting the photocopy without the blueprint — the body builds the same immune response without any actual virus."
+    }
+  ]
+}

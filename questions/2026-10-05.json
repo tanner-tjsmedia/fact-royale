@@ -1,0 +1,161 @@
+{
+  "date": "2026-10-05",
+  "questions": [
+    {
+      "category": "History",
+      "question": "Constantinople, the capital of the Byzantine Empire, fell to Ottoman forces in 1453. Who led the Ottoman conquest?",
+      "options": [
+        "Suleiman the Magnificent",
+        "Selim I",
+        "Mehmed II",
+        "Osman I"
+      ],
+      "answer": "Mehmed II",
+      "explanation": "Sultan Mehmed II, just 21 years old, conquered Constantinople on May 29, 1453, after a 53-day siege. He used massive bronze cannons to breach the city's walls, which had protected it for 1,000 years. The fall ended the Byzantine Empire (the eastern continuation of Rome) and gave the Ottomans control of the key trade route between Europe and Asia. Mehmed became known as 'the Conqueror.'",
+      "memory_hook": "Mehmed II was 21 when he breached Constantinople's thousand-year-old walls with cannons in 1453. This ended the Byzantine Empire — the last remnant of Rome — after over 1,000 years."
+    },
+    {
+      "category": "History",
+      "question": "The Cuban Missile Crisis of October 1962 brought the US and Soviet Union closest to nuclear war. What triggered the crisis?",
+      "options": [
+        "Cuba invading a US naval base",
+        "The US discovering Soviet nuclear missiles being installed in Cuba",
+        "A Soviet submarine firing warning shots",
+        "A US spy plane shot down over the USSR"
+      ],
+      "answer": "The US discovering Soviet nuclear missiles being installed in Cuba",
+      "explanation": "On October 16, 1962, US intelligence showed U-2 spy plane photos of Soviet intermediate-range ballistic missiles being installed in Cuba — 90 miles from Florida. President Kennedy established a naval blockade and demanded their removal. After 13 tense days, Soviet leader Khrushchev agreed to remove the missiles in exchange for a US pledge not to invade Cuba and the secret removal of US missiles from Turkey.",
+      "memory_hook": "For 13 days in 1962, nuclear war was minutes away. Resolved when the Soviets removed Cuban missiles; the US secretly removed missiles from Turkey in return."
+    },
+    {
+      "category": "History",
+      "question": "The Soviet Union launched Sputnik 1 on October 4, 1957 — the first artificial satellite to orbit Earth. What was its primary significance?",
+      "options": [
+        "It carried the first human into space",
+        "It demonstrated that rockets could reach orbit, proving ICBMs could deliver nuclear warheads to any target",
+        "It mapped the surface of the Moon",
+        "It transmitted the first TV pictures from space"
+      ],
+      "answer": "It demonstrated that rockets could reach orbit, proving ICBMs could deliver nuclear warheads to any target",
+      "explanation": "Sputnik 1 was a beach-ball-sized aluminum sphere that transmitted a radio signal. While scientifically modest, its military implication was enormous: if the USSR could put a satellite in orbit, their rockets could deliver nuclear warheads anywhere on Earth. This triggered the Space Race, the creation of NASA (1958), and a massive US investment in science education. The word 'sputnik' means 'fellow traveler' in Russian.",
+      "memory_hook": "Sputnik was militarily terrifying: if Soviet rockets could reach orbit, they could reach any city on Earth with a nuclear warhead. It triggered NASA, the Space Race, and a revolution in US science education."
+    },
+    {
+      "category": "Sports",
+      "question": "Muhammad Ali is considered one of the greatest athletes of all time. What was his birth name, and why did he change it in 1964?",
+      "options": [
+        "Cassius Clay; he converted to Islam and joined the Nation of Islam",
+        "Michael Ali; he wanted a name easier to pronounce",
+        "Roy Johnson; he was adopted",
+        "Wendell Jones; he changed it legally after winning his first title"
+      ],
+      "answer": "Cassius Clay; he converted to Islam and joined the Nation of Islam",
+      "explanation": "Cassius Marcellus Clay Jr. won the heavyweight title in 1964 and immediately announced his membership in the Nation of Islam, taking the name Muhammad Ali. He later allied with Malcolm X and publicly refused military service in Vietnam ('I ain't got no quarrel with them Viet Cong'), was convicted and stripped of his title in 1967, and regained it in 1974's 'Rumble in the Jungle' against George Foreman in Zaire.",
+      "memory_hook": "Ali refused Vietnam service in 1967, saying 'No Viet Cong ever called me n****r.' He was stripped of his title at his peak — and won it back 7 years later by knocking out Foreman in the jungle."
+    },
+    {
+      "category": "Sports",
+      "question": "Jesse Owens won 4 gold medals at the 1936 Berlin Olympics. Why did his victories carry special political significance?",
+      "options": [
+        "He was the first Black American to win an Olympic medal",
+        "His wins embarrassed Adolf Hitler's claims of Aryan racial superiority at the Nazi-hosted Games",
+        "He set world records in every event he entered",
+        "He competed despite a serious injury"
+      ],
+      "answer": "His wins embarrassed Adolf Hitler's claims of Aryan racial superiority at the Nazi-hosted Games",
+      "explanation": "The 1936 Berlin Olympics were intended by Hitler to showcase Aryan superiority. Jesse Owens — a Black American from Alabama — won golds in the 100m, 200m, long jump, and 4×100m relay, setting three world records and tying a fourth. Owens' German rival and long jump champion Luz Long embraced him publicly. Paradoxically, Owens said he received more respect from Germans than from President Roosevelt, who never congratulated him.",
+      "memory_hook": "Owens won 4 golds at Hitler's Olympics to disprove Nazi racial theory. FDR never congratulated him; he said he was better treated in Nazi Germany than in Jim Crow America."
+    },
+    {
+      "category": "Pop Culture",
+      "question": "Michael Jackson's 'Thriller' (1982) is the best-selling album of all time. Approximately how many copies has it sold worldwide?",
+      "options": [
+        "33 million",
+        "47 million",
+        "66 million",
+        "100 million+"
+      ],
+      "answer": "66 million",
+      "explanation": "Thriller has sold an estimated 66-70 million copies worldwide since 1982, making it the best-selling album ever. It produced 7 Top 10 hit singles — a record — and won 8 Grammy Awards in 1984 (also a record at the time). The 14-minute 'Thriller' music video, directed by John Landis and featuring Vincent Price, essentially created the modern music video as an art form.",
+      "memory_hook": "Thriller has sold 66+ million copies and still holds the all-time record 40+ years later. Its 14-minute music video effectively created the music video as an art form."
+    },
+    {
+      "category": "Pop Culture",
+      "question": "Harper Lee's 'To Kill a Mockingbird' was published in 1960 and won the Pulitzer Prize. What is the novel primarily about?",
+      "options": [
+        "The Civil War in the American South",
+        "A young girl's experience of racial injustice and her father's defense of a Black man wrongly accused of rape",
+        "The civil rights movement of the 1960s",
+        "Life in Depression-era Chicago"
+      ],
+      "answer": "A young girl's experience of racial injustice and her father's defense of a Black man wrongly accused of rape",
+      "explanation": "Set in fictional Maycomb, Alabama during the 1930s, the novel is narrated by Scout Finch, whose father Atticus — a lawyer — defends Tom Robinson, a Black man falsely accused of raping a white woman. Despite overwhelming evidence of innocence, Robinson is convicted by an all-white jury. The novel explores racism, injustice, and moral courage. Harper Lee published only one other novel (Go Set a Watchman, 2015) in her lifetime.",
+      "memory_hook": "Atticus Finch defends a man everyone knows is innocent — and loses anyway. The novel shows how structural racism can override evidence and conscience."
+    },
+    {
+      "category": "Pop Culture",
+      "question": "Audrey Hepburn is the only performer to have won an Oscar, Emmy, Tony, and Grammy — known as an 'EGOT.' For which 1953 film did she win her first Academy Award?",
+      "options": [
+        "Breakfast at Tiffany's",
+        "My Fair Lady",
+        "Roman Holiday",
+        "Sabrina"
+      ],
+      "answer": "Roman Holiday",
+      "explanation": "Audrey Hepburn won the Academy Award for Best Actress for Roman Holiday (1953), playing a princess who escapes her royal duties for a day in Rome. She later starred in Breakfast at Tiffany's (1961), My Fair Lady (1964), and Wait Until Dark (1967). Hepburn became a UNICEF Goodwill Ambassador and devoted her later years to humanitarian work.",
+      "memory_hook": "Hepburn won the Oscar for Roman Holiday at just 24 — one of very few who won the 'Triple Crown' of acting (Oscar, Tony, Emmy). She later added a Grammy, making her a rare EGOT."
+    },
+    {
+      "category": "Geography",
+      "question": "The Amazon River empties into the Atlantic Ocean via the world's largest river mouth — so wide that the city of Marajó sits on an island within it. In which South American country is this delta located?",
+      "options": [
+        "Colombia",
+        "Peru",
+        "Venezuela",
+        "Brazil"
+      ],
+      "answer": "Brazil",
+      "explanation": "The Amazon River discharges into the Atlantic through a massive delta in northeastern Brazil, releasing roughly 209,000 cubic meters of water per second — about 20% of all freshwater that enters the world's oceans. The river mouth is so wide (about 330 km) that Marajó Island (the size of Switzerland) sits within it. Fresh Amazon water can be detected over 200 km offshore in the Atlantic.",
+      "memory_hook": "The Amazon dumps 20% of all Earth's river water into the Atlantic — its fresh water is detectable 200 km offshore. The river mouth is so wide that Switzerland-sized Marajó Island sits inside it."
+    },
+    {
+      "category": "Geography",
+      "question": "The Andes Mountains, running along the western edge of South America, are the world's longest mountain range. Which peak is the highest in the Andes and the highest outside of Asia?",
+      "options": [
+        "Mount Aconcagua",
+        "Nevado Huascarán",
+        "Mount Chimborazo",
+        "Cerro Torre"
+      ],
+      "answer": "Mount Aconcagua",
+      "explanation": "Mount Aconcagua in Argentina stands at 6,961 meters (22,838 feet), making it the highest peak in the Western and Southern Hemispheres and the highest outside of Asia. The Andes run approximately 7,000 km along South America's Pacific coast through Venezuela, Colombia, Ecuador, Peru, Bolivia, Argentina, and Chile. They are home to the Atacama Desert, Lake Titicaca, and the Amazon's headwaters.",
+      "memory_hook": "Aconcagua (6,961m) is the world's highest peak outside Asia. The Andes run 7,000 km — the world's longest mountain range — and contain both the world's driest desert and the Amazon's source."
+    },
+    {
+      "category": "Science & Nature",
+      "question": "Einstein's Special Theory of Relativity (1905) produced the famous equation E=mc². What does this equation tell us?",
+      "options": [
+        "Energy cannot be destroyed in any process",
+        "Mass and energy are equivalent and interchangeable — a small amount of mass can release enormous energy",
+        "The speed of light changes depending on the observer's motion",
+        "Objects in motion gain mass proportional to their velocity"
+      ],
+      "answer": "Mass and energy are equivalent and interchangeable — a small amount of mass can release enormous energy",
+      "explanation": "E=mc² means energy (E) equals mass (m) times the speed of light squared (c² = 9×10¹⁶ m²/s²). Since c² is an enormous number, even tiny masses contain enormous energy. One gram of matter contains 90 trillion joules — equivalent to the Hiroshima bomb. Nuclear reactions (fission in reactors/bombs, fusion in the sun) convert tiny fractions of mass into enormous energy.",
+      "memory_hook": "E=mc² means 1 gram of matter = 90 trillion joules of energy — the Hiroshima bomb's equivalent. Nuclear reactions work by converting tiny fractions of mass into vast energy, just as Einstein predicted."
+    },
+    {
+      "category": "Science & Nature",
+      "question": "Meiosis differs from mitosis in one critical way: it produces cells with half the normal number of chromosomes. Why is this essential for sexual reproduction?",
+      "options": [
+        "So daughter cells are smaller and fit in reproductive organs",
+        "To allow genetic mutations to accumulate more rapidly",
+        "So that when sperm and egg combine during fertilization, the resulting cell has the correct full chromosome count",
+        "Because reproductive organs can only support half the normal cell energy use"
+      ],
+      "answer": "So that when sperm and egg combine during fertilization, the resulting cell has the correct full chromosome count",
+      "explanation": "Humans have 46 chromosomes in most cells. Meiosis produces sperm and egg cells (gametes) with only 23 chromosomes each. When sperm and egg fuse during fertilization, the resulting zygote has 46 chromosomes — half from each parent. Without meiosis halving the chromosome count, each generation would double the chromosome number (46→92→184...). Meiosis also creates genetic variation through chromosome crossover.",
+      "memory_hook": "Meiosis halves chromosomes so sex cells have 23; fertilization restores 46. Without this, each generation would have double the chromosomes. Crossover during meiosis also shuffles genes, creating genetic variation."
+    }
+  ]
+}

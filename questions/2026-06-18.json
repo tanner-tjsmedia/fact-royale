@@ -55,16 +55,16 @@
     },
     {
       "category": "Sports",
-      "question": "What is the standard par score for an 18-hole round of golf?",
+      "question": "Joe DiMaggio set one of baseball's most unbreakable records in 1941. What did he accomplish, and how long has the record stood?",
       "options": [
-        "68",
-        "70",
-        "72",
-        "74"
+        "Hit 60 home runs in a single season, standing for 34 years",
+        "Got a hit in 56 consecutive games — a record that has stood for over 80 years",
+        "Batted .406 for the season, the last player to hit .400 or above",
+        "Drove in 184 runs in a single season, never approached since"
       ],
-      "answer": "72",
-      "explanation": "A standard 18-hole golf course has a par of 72, made up of four par-3s, ten par-4s, and four par-5s. Par represents the expected number of strokes a skilled golfer should take to complete each hole. Scoring under par is birdie (-1), eagle (-2); over par is bogey (+1), double bogey (+2).",
-      "memory_hook": "72 = 4 rounds of 18. Par 72 on 18 holes: four par-3s (12) + ten par-4s (40) + four par-5s (20) = 72. The math actually checks out perfectly."
+      "answer": "Got a hit in 56 consecutive games — a record that has stood for over 80 years",
+      "explanation": "DiMaggio's 56-game hitting streak from May 15 to July 16, 1941, is widely considered baseball's most untouchable record. The closest anyone has come since is Pete Rose's 44-game streak in 1978. Statistically, the probability of any player replicating it under modern pitching conditions is astronomically small. DiMaggio was also hitting .408 during the streak.",
+      "memory_hook": "DiMaggio's 56-game hit streak (1941) is baseball's most untouchable record — Pete Rose got to 44 in 1978 and that's as close as anyone has come in over 80 years."
     },
     {
       "category": "Pop Culture",

@@ -1,0 +1,161 @@
+{
+  "date": "2026-10-03",
+  "questions": [
+    {
+      "category": "History",
+      "question": "The Storming of the Bastille on July 14, 1789 is considered the symbolic start of which revolution?",
+      "options": [
+        "American Revolution",
+        "Haitian Revolution",
+        "French Revolution",
+        "Russian Revolution"
+      ],
+      "answer": "French Revolution",
+      "explanation": "The Bastille was a royal fortress-prison in Paris that symbolized royal tyranny. On July 14, 1789, Parisian citizens stormed it, killed the governor, and released its (7) prisoners. The event sparked the French Revolution, which toppled the monarchy, led to the Reign of Terror (1793-94), and eventually brought Napoleon to power. July 14 (Bastille Day) is now France's national holiday.",
+      "memory_hook": "The Bastille held only 7 prisoners when it was stormed in 1789, but it symbolized everything wrong with the monarchy. Bastille Day is still France's national holiday."
+    },
+    {
+      "category": "History",
+      "question": "The assassination of Archduke Franz Ferdinand of Austria in Sarajevo in 1914 triggered a chain of events leading to which conflict?",
+      "options": [
+        "The Russian Revolution",
+        "World War I",
+        "The Balkan Wars",
+        "World War II"
+      ],
+      "answer": "World War I",
+      "explanation": "Archduke Franz Ferdinand, heir to the Austro-Hungarian throne, was shot by Gavrilo Princip, a Bosnian Serb nationalist, in Sarajevo on June 28, 1914. Austria-Hungary issued an ultimatum to Serbia, which led to declarations of war via a complex web of alliances — Triple Entente (Britain, France, Russia) vs. Triple Alliance (Germany, Austria-Hungary, Italy) — escalating a regional conflict into a world war.",
+      "memory_hook": "One assassination in Sarajevo in June 1914 triggered alliance chains that pulled in all major European powers within weeks. Four years and 17 million deaths later, the map of Europe had been completely redrawn."
+    },
+    {
+      "category": "History",
+      "question": "The Inca Empire, the largest in pre-Columbian America, was conquered by Spanish forces led by which conquistador?",
+      "options": [
+        "Hernán Cortés",
+        "Francisco Pizarro",
+        "Vasco de Gama",
+        "Amerigo Vespucci"
+      ],
+      "answer": "Francisco Pizarro",
+      "explanation": "Francisco Pizarro conquered the Inca Empire with just 168 soldiers, 27 horses, and one cannon. He captured Emperor Atahualpa at Cajamarca in 1532 by ambushing his much larger army, offered to release him for a ransom of a room filled with gold (the largest ransom in history), collected it, and then executed Atahualpa anyway. Disease had already weakened the Incas dramatically before Pizarro arrived.",
+      "memory_hook": "Pizarro conquered the Inca Empire with 168 men by capturing Emperor Atahualpa, collecting the largest ransom in history (a room full of gold), then executing him anyway. Disease had done most of the work first."
+    },
+    {
+      "category": "Sports",
+      "question": "Babe Ruth hit 714 career home runs — a record that stood for 39 years. Who broke it in 1974?",
+      "options": [
+        "Willie Mays",
+        "Mickey Mantle",
+        "Hank Aaron",
+        "Reggie Jackson"
+      ],
+      "answer": "Hank Aaron",
+      "explanation": "Hank Aaron broke Babe Ruth's record on April 8, 1974, hitting home run #715 off Al Downing of the Los Angeles Dodgers. Aaron received tens of thousands of threatening letters as he approached the record due to racism. He went on to finish his career with 755 home runs. Barry Bonds later hit 762 (though under steroid controversy), and Aaron's mark is still considered the 'real' record by many.",
+      "memory_hook": "Hank Aaron broke Ruth's 39-year HR record in 1974 while receiving death threats. He finished with 755 — a record many still consider the legitimate career mark."
+    },
+    {
+      "category": "Sports",
+      "question": "Serena Williams won 23 Grand Slam singles titles during her career. Which Grand Slam did she win the most?",
+      "options": [
+        "Wimbledon",
+        "US Open",
+        "Australian Open",
+        "French Open"
+      ],
+      "answer": "Australian Open",
+      "explanation": "Serena Williams won the Australian Open a record 7 times (2003, 2005, 2007, 2009, 2010, 2015, 2017). She also won Wimbledon 7 times, the US Open 6 times, and the French Open 3 times, totaling 23 Grand Slams — the most by any player (male or female) in the Open Era. Her 2017 Australian Open win came while she was 8 weeks pregnant.",
+      "memory_hook": "Serena won 23 Grand Slams in the Open Era — including her 2017 Australian Open while 8 weeks pregnant. Her 7 Australian Open titles are the most of any Slam she won."
+    },
+    {
+      "category": "Pop Culture",
+      "question": "'Harry Potter and the Philosopher's Stone' was first published in 1997 by a previously unknown British author. What is her name?",
+      "options": [
+        "Enid Blyton",
+        "J.K. Rowling",
+        "Roald Dahl",
+        "Terry Pratchett"
+      ],
+      "answer": "J.K. Rowling",
+      "explanation": "J.K. Rowling's Harry Potter manuscript was rejected by 12 publishers before Bloomsbury accepted it in 1997. The series went on to sell over 600 million copies worldwide, becoming the best-selling book series in history. Rowling wrote much of the first book in cafes in Edinburgh as a single mother on welfare. The series has been translated into 84 languages.",
+      "memory_hook": "Rowling's Harry Potter was rejected 12 times before selling 600 million+ copies — the best-selling book series in history. She wrote it in Edinburgh cafes as a single mother on welfare."
+    },
+    {
+      "category": "Pop Culture",
+      "question": "Jimi Hendrix is widely considered the greatest electric guitarist in history. What year did he die, and at what age?",
+      "options": [
+        "1969, age 26",
+        "1970, age 27",
+        "1971, age 28",
+        "1973, age 30"
+      ],
+      "answer": "1970, age 27",
+      "explanation": "Jimi Hendrix died on September 18, 1970, at age 27 in London. He was a member of the '27 Club' — a group of influential musicians who died at that age including Janis Joplin, Jim Morrison, Kurt Cobain, and Amy Winehouse. Hendrix revolutionized the electric guitar with techniques like using feedback, the whammy bar, and playing with his teeth.",
+      "memory_hook": "Hendrix died at 27 in 1970, joining the '27 Club' with Morrison, Joplin, Cobain, and Winehouse. He played his guitar left-handed on a right-handed Stratocaster strung upside down."
+    },
+    {
+      "category": "Pop Culture",
+      "question": "Vincent van Gogh's 'The Starry Night,' painted in 1889, depicts a view from where?",
+      "options": [
+        "His home in Paris",
+        "The asylum room where he was staying in Saint-Rémy",
+        "A boat on the Mediterranean Sea",
+        "The fields near Arles"
+      ],
+      "answer": "The asylum room where he was staying in Saint-Rémy",
+      "explanation": "Van Gogh painted The Starry Night in June 1889 from the window of his room at the Saint-Paul-de-Mausole asylum in Saint-Rémy-de-Provence, where he had voluntarily committed himself after cutting off part of his ear. He painted over 150 works during his year at the asylum. He sold only one painting during his lifetime; The Starry Night now hangs in MoMA in New York.",
+      "memory_hook": "Van Gogh painted The Starry Night from his asylum window in 1889 — one of 150 works he made there in a year. He sold only one painting in his lifetime; this one is now priceless."
+    },
+    {
+      "category": "Geography",
+      "question": "Lake Victoria, Africa's largest lake and the world's second-largest freshwater lake, is shared between which three countries?",
+      "options": [
+        "Congo, Rwanda, Tanzania",
+        "Kenya, Uganda, Tanzania",
+        "Ethiopia, Sudan, Kenya",
+        "Uganda, Rwanda, Burundi"
+      ],
+      "answer": "Kenya, Uganda, Tanzania",
+      "explanation": "Lake Victoria covers about 68,800 km² and is shared between Kenya (6%), Uganda (45%), and Tanzania (49%). It is the source of the White Nile — the longer branch of the Nile River. The lake is extremely shallow for its size (average depth only 40m), which makes it sensitive to climate change. It supports the world's largest freshwater fishery but has been severely impacted by invasive Nile perch.",
+      "memory_hook": "Lake Victoria (68,800 km²) is the source of the White Nile — one of history's most sought-after geographic mysteries. Invasive Nile perch introduced in the 1950s wiped out hundreds of native fish species."
+    },
+    {
+      "category": "Geography",
+      "question": "The Sahara Desert is the world's largest hot desert. Approximately how much of Africa does it cover?",
+      "options": [
+        "10%",
+        "25%",
+        "33%",
+        "50%"
+      ],
+      "answer": "25%",
+      "explanation": "The Sahara covers approximately 9.2 million km² — about 25-30% of Africa and roughly the size of the United States. It spans 11 countries from Morocco and Mauritania in the west to Egypt and Sudan in the east. Contrary to popular image, only about 25% of the Sahara is sand dunes (erg); the rest is rocky plateau (hamada), gravel plains (reg), and mountains.",
+      "memory_hook": "The Sahara covers 25% of Africa and is about the size of the entire US. Only 25% of it is sand dunes — most is bare rock, gravel plains, and mountains."
+    },
+    {
+      "category": "Science & Nature",
+      "question": "Newton's Third Law states that for every action, there is an equal and opposite reaction. Which example best illustrates this law?",
+      "options": [
+        "A ball rolling downhill getting faster",
+        "A rocket launching because exhaust gases push down and the rocket is pushed up",
+        "A magnet attracting iron",
+        "A pendulum swinging back and forth"
+      ],
+      "answer": "A rocket launching because exhaust gases push down and the rocket is pushed up",
+      "explanation": "Newton's Third Law: every force has an equal and opposite reaction force. Rocket engines expel exhaust gases downward (action); the rocket is pushed upward (reaction). Similarly, a gun recoils when fired, swimmers push water backward to move forward, and birds push air down to fly up. The law means forces always come in pairs — no isolated forces exist.",
+      "memory_hook": "Rockets work by Newton's Third Law: push gas down, get pushed up. You push water back when you swim; the water pushes you forward. Forces always come in pairs."
+    },
+    {
+      "category": "Science & Nature",
+      "question": "What is the equation for photosynthesis — the process by which plants convert light, carbon dioxide, and water into sugar and oxygen?",
+      "options": [
+        "CO₂ + H₂O + light → C₆H₁₂O₆ + O₂",
+        "O₂ + glucose → CO₂ + H₂O + energy",
+        "H₂ + O → H₂O",
+        "N₂ + O₂ → NO₂"
+      ],
+      "answer": "CO₂ + H₂O + light → C₆H₁₂O₆ + O₂",
+      "explanation": "Photosynthesis converts 6CO₂ + 6H₂O + light energy into C₆H₁₂O₆ (glucose) + 6O₂. It occurs in chloroplasts using chlorophyll to capture light energy. Photosynthesis is the foundation of virtually all food chains on Earth and is responsible for producing the oxygen in Earth's atmosphere. About half of global photosynthesis is done by ocean phytoplankton.",
+      "memory_hook": "Photosynthesis: CO₂ + H₂O + sunlight → glucose + oxygen. All the oxygen you breathe was made this way — half by ocean phytoplankton, not trees."
+    }
+  ]
+}

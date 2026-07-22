@@ -1,0 +1,161 @@
+{
+  "date": "2026-12-18",
+  "questions": [
+    {
+      "category": "History",
+      "question": "In 1590, a supply ship returning to the Roanoke Colony on Roanoke Island found it completely deserted, with no survivors and no sign of struggle. What is this event called?",
+      "options": [
+        "The Lost Colony",
+        "The Vanished Settlement",
+        "The Mystery of Roanoke",
+        "The First American Disappearance"
+      ],
+      "answer": "The Lost Colony",
+      "explanation": "England's first attempt at a permanent American colony, led by John White, was established on Roanoke Island in 1587. White returned to England for supplies, but war with Spain delayed his return until 1590. He found the settlement abandoned — the only clue was the word 'CROATOAN' carved on a post. The colonists' fate remains one of American history's enduring mysteries.",
+      "memory_hook": "The Lost Colony: John White returned to Roanoke in 1590 to find 117 settlers vanished — only the word 'CROATOAN' carved on a post, and the mystery persists today."
+    },
+    {
+      "category": "History",
+      "question": "The Monroe Doctrine, articulated by President James Monroe in 1823, established what principle of American foreign policy?",
+      "options": [
+        "The US would pursue free trade with all nations equally",
+        "The Western Hemisphere was closed to further European colonization and interference",
+        "The US would maintain military neutrality in all European conflicts",
+        "American settlers had the right to expand westward across the continent"
+      ],
+      "answer": "The Western Hemisphere was closed to further European colonization and interference",
+      "explanation": "Drafted primarily by Secretary of State John Quincy Adams, the Monroe Doctrine warned European powers against establishing new colonies or intervening in the affairs of newly independent Latin American nations. In return, the US promised not to interfere in existing European colonies or European affairs. It became a foundational pillar of US foreign policy, invoked repeatedly for over a century.",
+      "memory_hook": "Monroe's 1823 doctrine — drafted by John Quincy Adams — told Europe: the Western Hemisphere is closed for new colonization, and we won't meddle in your affairs either."
+    },
+    {
+      "category": "History",
+      "question": "Franklin Roosevelt's New Deal, launched in 1933, was a response to the Great Depression. Which of these was a key program created under the New Deal?",
+      "options": [
+        "The Marshall Plan",
+        "The Social Security Act",
+        "The GI Bill",
+        "The Truman Doctrine"
+      ],
+      "answer": "The Social Security Act",
+      "explanation": "The Social Security Act of 1935, a cornerstone New Deal program, created unemployment insurance, old-age pensions, and aid for dependent children. Other major New Deal initiatives included the FDIC (bank deposit insurance), the SEC (securities regulation), the CCC (Civilian Conservation Corps), and the Tennessee Valley Authority. The New Deal didn't end the Depression — WWII mobilization did — but it reshaped the role of the federal government.",
+      "memory_hook": "The New Deal's Social Security Act (1935) created unemployment insurance and old-age pensions — Roosevelt reshaped government's role even if WWII ultimately ended the Depression."
+    },
+    {
+      "category": "Sports",
+      "question": "In 1927, Babe Ruth set a single-season home run record that stood for 34 years. How many home runs did he hit that season?",
+      "options": [
+        "54",
+        "60",
+        "61",
+        "65"
+      ],
+      "answer": "60",
+      "explanation": "Ruth hit 60 home runs in 1927 playing for the New York Yankees, a record that stood until Roger Maris hit 61 in 1961. Ruth's record was set in a 154-game season; Maris needed the full 162-game schedule. Ruth finished his career with 714 home runs — a record that stood until Hank Aaron surpassed it in 1974.",
+      "memory_hook": "Ruth's 60 home runs in 1927 stood for 34 years — Maris broke it with 61 in a longer 162-game season, sparking a debate that lasted decades."
+    },
+    {
+      "category": "Sports",
+      "question": "In 1975, Arthur Ashe became the first Black man to win the Wimbledon singles title. Whom did he defeat in the final in a stunning upset?",
+      "options": [
+        "Björn Borg",
+        "Jimmy Connors",
+        "John McEnroe",
+        "Ilie Nastase"
+      ],
+      "answer": "Jimmy Connors",
+      "explanation": "Ashe entered the 1975 final as a heavy underdog against the dominant Jimmy Connors. He employed a brilliant tactical plan — using sliced, low balls to neutralize Connors's power — and won 6–1, 6–1, 5–7, 6–4. Ashe was the first Black man to win Wimbledon and later became a pioneering voice against apartheid and for AIDS awareness after his own HIV diagnosis.",
+      "memory_hook": "Ashe upset Connors at 1975 Wimbledon with a masterclass in tactical tennis — low slices to neuter Connors's power — the first Black man to win the title."
+    },
+    {
+      "category": "Pop Culture",
+      "question": "David Lean's 1962 epic Lawrence of Arabia, considered one of cinema's greatest films, is based on the true story of which World War I figure?",
+      "options": [
+        "T.E. Lawrence, a British officer who led an Arab revolt against the Ottoman Empire",
+        "Lawrence of Mesopotamia, a British spy who infiltrated Turkish high command",
+        "General Allenby, who commanded British forces in the Middle East",
+        "Winston Churchill, who planned British strategy in the Arabian campaign"
+      ],
+      "answer": "T.E. Lawrence, a British officer who led an Arab revolt against the Ottoman Empire",
+      "explanation": "T.E. Lawrence was a British Army officer who, during World War I, helped organize and lead Arab tribal forces in a guerrilla revolt against Ottoman rule. The film, shot in Jordan and Spain, stars Peter O'Toole as Lawrence and features one of cinema's most celebrated openings — a desert sunrise without music. It won seven Academy Awards including Best Picture.",
+      "memory_hook": "Lawrence of Arabia is the true story of T.E. Lawrence, a British officer who led Arab guerrillas against the Ottomans in WWI — Peter O'Toole's desert sunrise opening is one of cinema's most iconic images."
+    },
+    {
+      "category": "Pop Culture",
+      "question": "Alfred Hitchcock's 1954 thriller Rear Window stars James Stewart as a photographer confined to a wheelchair who believes he has witnessed a murder. What is the film's central moral tension?",
+      "options": [
+        "Whether to trust one's own memories versus physical evidence",
+        "The ethics of voyeurism and surveillance versus the responsibility to act on what you observe",
+        "Whether a confined person can accurately interpret events without full context",
+        "The reliability of eyewitness testimony in a court of law"
+      ],
+      "answer": "The ethics of voyeurism and surveillance versus the responsibility to act on what you observe",
+      "explanation": "Hitchcock uses L.B. Jefferies's courtyard window as a metaphor for cinema itself — the audience watches, like Jefferies, unable to look away. The film raises questions about whether watching others without their knowledge is morally different from acting on what you see. Critics have read it as a meditation on voyeurism, marriage, and the nature of spectatorship.",
+      "memory_hook": "Rear Window is Hitchcock's meditation on voyeurism — Jefferies watching his neighbors through a window mirrors the audience watching the film, implicating us all in the act of looking."
+    },
+    {
+      "category": "Pop Culture",
+      "question": "Billy Wilder's 1959 comedy Some Like It Hot is frequently named the funniest film ever made. What is its central premise?",
+      "options": [
+        "Two unemployed actors try to impersonate British aristocrats to woo wealthy socialites",
+        "Two male musicians witness a mob massacre and flee by disguising themselves as women in an all-female band",
+        "A cross-dressing detective goes undercover to catch a serial jewel thief",
+        "Two men compete to win the hand of the same heiress while both pretending to be women"
+      ],
+      "answer": "Two male musicians witness a mob massacre and flee by disguising themselves as women in an all-female band",
+      "explanation": "After accidentally witnessing the St. Valentine's Day Massacre, musicians Jerry and Joe (Jack Lemmon and Tony Curtis) disguise themselves as 'Daphne' and 'Josephine' to hide in an all-female jazz band headed to Miami. The film features Marilyn Monroe as Sugar Kane and ends with the immortal final line: 'Well, nobody's perfect.' Wilder reportedly spent weeks crafting that one line.",
+      "memory_hook": "Some Like It Hot: Lemmon and Curtis witness a mob massacre and flee in drag, ending with cinema's greatest closing line — 'Well, nobody's perfect.'"
+    },
+    {
+      "category": "Geography",
+      "question": "The Red Sea separates the Arabian Peninsula from northeastern Africa. What makes it geologically significant?",
+      "options": [
+        "It sits atop the world's largest submarine volcanic chain",
+        "It is an actively spreading ocean — the Arabian and African tectonic plates are pulling apart, slowly widening it",
+        "It is the world's saltiest enclosed sea due to an underwater salt dome",
+        "It formed when the Mediterranean Sea flooded through the Sinai Peninsula 5 million years ago"
+      ],
+      "answer": "It is an actively spreading ocean — the Arabian and African tectonic plates are pulling apart, slowly widening it",
+      "explanation": "The Red Sea is a young ocean in the making, formed by the separation of the Arabian and African tectonic plates. It widens about 2 cm per year — over millions of years it will grow into a full ocean. The Suez Canal at its northern end connects it to the Mediterranean; the Bab-el-Mandeb strait at its southern end connects it to the Indian Ocean.",
+      "memory_hook": "The Red Sea is an infant ocean — the Arabian and African plates are pulling apart at 2 cm per year, and in millions of years it will rival the Atlantic in size."
+    },
+    {
+      "category": "Geography",
+      "question": "The Lena River is one of Russia's great Siberian rivers. What is notable about where it flows and how it ends?",
+      "options": [
+        "It flows west across Russia, emptying into the Baltic Sea near St. Petersburg",
+        "It flows north across Siberia, emptying into the Arctic Ocean via a vast delta",
+        "It flows east to empty into the Sea of Japan, forming Russia's border with China",
+        "It flows south into Central Asia, disappearing into the Aral Sea basin"
+      ],
+      "answer": "It flows north across Siberia, emptying into the Arctic Ocean via a vast delta",
+      "explanation": "The Lena is Russia's longest river flowing solely within Russian territory (approximately 4,400 km), originating near Lake Baikal and flowing north through some of the coldest and most remote regions on Earth before emptying into the Laptev Sea (part of the Arctic Ocean) via a large delta. It is frozen for roughly 7–8 months each year.",
+      "memory_hook": "The Lena flows 4,400 km north through Siberia's deep freeze to reach the Arctic Ocean — frozen solid for 7–8 months a year, it drains some of Earth's most remote wilderness."
+    },
+    {
+      "category": "Science & Nature",
+      "question": "Many deep-sea organisms and some terrestrial animals produce their own light through bioluminescence. What chemical reaction produces this light?",
+      "options": [
+        "Combustion of stored methane gas in specialized organs",
+        "Oxidation of a molecule called luciferin, catalyzed by the enzyme luciferase",
+        "Electrical discharge from specialized cells similar to those in electric eels",
+        "Reflection of absorbed sunlight stored during daytime feeding"
+      ],
+      "answer": "Oxidation of a molecule called luciferin, catalyzed by the enzyme luciferase",
+      "explanation": "Bioluminescence occurs when luciferin reacts with oxygen in a reaction catalyzed by the enzyme luciferase, releasing energy as light with very little heat (cold light). It has evolved independently over 40 times in different animal lineages. In the deep ocean, over 75% of animals are bioluminescent, using light for predation, camouflage (counter-illumination), and communication.",
+      "memory_hook": "Bioluminescence is a cold chemical reaction — luciferin plus oxygen, catalyzed by luciferase — that evolved independently 40+ times; over 75% of deep-sea animals glow."
+    },
+    {
+      "category": "Science & Nature",
+      "question": "In 1996, Scottish scientists created Dolly the sheep — the first mammal cloned from an adult cell. What technique made this possible?",
+      "options": [
+        "Splitting an embryo at an early stage of development",
+        "Somatic cell nuclear transfer (SCNT) — inserting an adult cell's nucleus into an enucleated egg",
+        "Inserting synthetic DNA into a fertilized egg using viral vectors",
+        "Fusing two identical sperm cells to create a diploid embryo"
+      ],
+      "answer": "Somatic cell nuclear transfer (SCNT) — inserting an adult cell's nucleus into an enucleated egg",
+      "explanation": "Dolly was created at the Roslin Institute by Ian Wilmut's team using somatic cell nuclear transfer: the nucleus from a mammary gland cell of an adult Finn Dorset sheep was inserted into an enucleated Scottish Blackface sheep egg cell, which was then implanted in a surrogate ewe. Dolly's existence proved that adult differentiated cells retain the full genetic blueprint to produce an entire organism.",
+      "memory_hook": "Dolly the sheep (1996) was cloned by taking an adult mammary cell's nucleus and inserting it into an empty egg — proof that fully differentiated adult cells still contain a complete blueprint for life."
+    }
+  ]
+}

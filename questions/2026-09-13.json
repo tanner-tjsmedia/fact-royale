@@ -94,16 +94,16 @@
     },
     {
       "category": "Science & Nature",
-      "question": "What is the common name for the laryngeal prominence in the human throat, more prominent in males after puberty?",
+      "question": "At the center of nearly every large galaxy, including the Milky Way, lies a supermassive black hole. What does the Event Horizon Telescope's 2019 image of M87* demonstrate?",
       "options": [
-        "Adam's apple",
-        "Thyroid notch",
-        "Epiglottis",
-        "Hyoid bone"
+        "The image proved black holes have a solid surface — the bright ring around the shadow shows where material piles up on the event horizon boundary rather than falling through it",
+        "The image captured the 'shadow' of the black hole — a dark region where gravity is so strong no light escapes — surrounded by a glowing ring of superheated plasma, directly confirming general relativity's predictions",
+        "The image showed for the first time that black holes rotate — the shadow was asymmetric in a way that exactly matched the Kerr metric, proving Einstein's equations apply even at event horizons",
+        "The image detected gravitational waves from the M87 black hole, simultaneously confirming both general relativity and quantum mechanics in a single observation"
       ],
-      "answer": "Adam's apple",
-      "explanation": "The laryngeal prominence (Adam's apple) is formed by the thyroid cartilage of the larynx. It becomes more prominent in males during puberty due to testosterone causing the larynx to grow. The voice deepens because longer vocal cords vibrate at lower frequencies. The name comes from the biblical story of Adam and the forbidden fruit.",
-      "memory_hook": "Adam's apple = laryngeal prominence. Grows during male puberty. Named from the Adam/apple/Eve Bible story."
+      "answer": "The image captured the 'shadow' of the black hole — a dark region where gravity is so strong no light escapes — surrounded by a glowing ring of superheated plasma, directly confirming general relativity's predictions",
+      "explanation": "M87* (the supermassive black hole at the center of galaxy M87) has 6.5 billion solar masses — 1,600 times more massive than the Milky Way's own Sagittarius A*. The Event Horizon Telescope (EHT) is a planet-sized array of synchronized radio telescopes that achieved the resolution needed to image a black hole for the first time. The orange glowing ring is plasma heated to billions of degrees as it spirals in; the central dark region is the 'shadow' where photons cannot escape. In 2022, the EHT also imaged Sagittarius A*, the Milky Way's own central black hole.",
+      "memory_hook": "M87*'s 2019 image required synchronizing radio telescopes across Earth to make a planet-sized array — the data from the South Pole telescope had to be physically flown out because the internet was too slow. The black hole has 6.5 billion solar masses; our own Milky Way's black hole (imaged in 2022) is only 4 million."
     },
     {
       "category": "Geography",

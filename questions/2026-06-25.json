@@ -120,16 +120,16 @@
     },
     {
       "category": "Science & Nature",
-      "question": "What is the powerhouse of the cell?",
+      "question": "The Apollo 11 mission in July 1969 landed the first humans on the Moon. What did Neil Armstrong and Buzz Aldrin do during their 2.5 hours on the lunar surface?",
       "options": [
-        "Nucleus",
-        "Ribosome",
-        "Mitochondria",
-        "Golgi apparatus"
+        "They planted the US flag, collected 21 kg of lunar rock samples, deployed scientific instruments, and took photos — all in 2.5 hours, while Michael Collins orbited above in the Command Module",
+        "They built a small shelter and spent 24 hours on the surface, conducting geological surveys and establishing radio communication equipment for future missions",
+        "They drove a lunar rover for approximately 25 km, collected samples from multiple sites, and deployed a seismometer to detect moonquakes",
+        "They completed 12 science experiments including drilling into the lunar surface, deploying a solar wind collector, and photographing lunar craters from the surface"
       ],
-      "answer": "Mitochondria",
-      "explanation": "Mitochondria produce ATP (adenosine triphosphate), the energy currency that cells use to function. They have their own DNA, suggesting they were once free-living bacteria absorbed into larger cells billions of years ago.",
-      "memory_hook": "Mitochondria = powerhouse. Every biology class, every year. If you remember one cell fact, it's this one."
+      "answer": "They planted the US flag, collected 21 kg of lunar rock samples, deployed scientific instruments, and took photos — all in 2.5 hours, while Michael Collins orbited above in the Command Module",
+      "explanation": "Armstrong and Aldrin had exactly 2 hours, 31 minutes, 40 seconds on the lunar surface. They planted the American flag (which fell over when they left), deployed a seismometer, a laser retroreflector (still used today to measure the Moon's distance precisely), and a solar wind experiment. They collected 21.55 kg of rock samples. Collins, often called 'the forgotten astronaut,' orbited above in Columbia, unable to communicate with Earth for 47 minutes per orbit when behind the Moon. The entire mission launched on a Saturn V rocket — still the most powerful rocket ever flown.",
+      "memory_hook": "Armstrong and Aldrin had exactly 2 hours 31 minutes on the Moon — they planted a flag that fell when they left, collected 21 kg of rocks, and deployed a laser reflector still used today. Collins orbited above, out of radio contact for 47 minutes every orbit."
     },
     {
       "category": "Geography",

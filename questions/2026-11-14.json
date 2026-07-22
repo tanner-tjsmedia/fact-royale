@@ -1,0 +1,161 @@
+{
+  "date": "2026-11-14",
+  "questions": [
+    {
+      "category": "History",
+      "question": "The Great Fire of London (1666) destroyed much of the medieval city. What unexpected consequence did it have?",
+      "options": [
+        "It ended the Great Plague of London that had killed 100,000 people the previous year — the fire killed the rats and fleas",
+        "It killed over 30,000 people and led Parliament to create the London Fire Brigade in 1668",
+        "It destroyed the Palace of Westminster and forced Parliament to meet in temporary locations for 50 years",
+        "It burned the original Magna Carta, necessitating its recreation from memory"
+      ],
+      "answer": "It ended the Great Plague of London that had killed 100,000 people the previous year — the fire killed the rats and fleas",
+      "explanation": "The Great Fire of London (September 2-5, 1666) destroyed approximately 13,200 houses and 87 churches including St. Paul's Cathedral. Remarkably, official death records show only 6 deaths — though actual deaths may have been higher and uncounted among the poor. The fire did kill rats and disrupt the flea populations that carried bubonic plague — 1665 had seen the Great Plague kill ~100,000 Londoners. Whether the fire definitively ended the plague is debated, but London did not suffer another major plague outbreak after 1666. Christopher Wren redesigned much of the city.",
+      "memory_hook": "The Great Fire of London killed remarkably few people — but may have ended the Great Plague by killing the rats and fleas that carried it. London lost 13,200 houses in 4 days; it gained Christopher Wren's redesigned city, including St. Paul's Cathedral. Sometimes destruction creates space for something better."
+    },
+    {
+      "category": "History",
+      "question": "The Nuremberg Laws (1935) in Nazi Germany were racial laws that legally defined Jewish identity. What did they specifically do?",
+      "options": [
+        "The Nuremberg Laws mandated the deportation of Jewish citizens to Poland and established labor camps",
+        "The Nuremberg Laws stripped German Jews of citizenship and rights, prohibited marriage or sexual relations between Jews and non-Jews, and legally defined 'Jewishness' by ancestry — affecting people who identified as German and hadn't practiced Judaism in generations",
+        "The Nuremberg Laws required all Jewish businesses to be transferred to Aryan ownership by 1937",
+        "The Nuremberg Laws were property laws that confiscated Jewish-owned businesses but left civil rights intact until 1938"
+      ],
+      "answer": "The Nuremberg Laws stripped German Jews of citizenship and rights, prohibited marriage or sexual relations between Jews and non-Jews, and legally defined 'Jewishness' by ancestry — affecting people who identified as German and hadn't practiced Judaism in generations",
+      "explanation": "The Nuremberg Laws (September 1935) comprised two laws: the Reich Citizenship Law (only those of 'German or related blood' could be citizens — Jews became 'subjects') and the Law for the Protection of German Blood and German Honor (prohibiting marriage or sex between Jews and non-Jews). A key feature: 'Jewishness' was defined by ancestry, not religion — people who had converted to Christianity generations back could still be classified as Jewish. This turned a personal identity into a state-assigned legal category with life-or-death consequences.",
+      "memory_hook": "The Nuremberg Laws are important to understand: they didn't round anyone up initially — they stripped legal status. A Jewish-identified German became a non-citizen by law. This legal infrastructure — defining the out-group, removing their rights — is the template that genocide scholars study as the precondition for mass violence."
+    },
+    {
+      "category": "History",
+      "question": "Who was Toussaint Louverture and what did he accomplish?",
+      "options": [
+        "A Haitian general who led the slave revolt against French colonial rule in 1791, creating the first Black republic in the Western Hemisphere after defeating Napoleon's army",
+        "The French governor of Haiti who ended the slave trade in the Caribbean in 1805",
+        "A Cuban revolutionary who fought Spanish colonial forces in the 1860s, becoming a symbol of Caribbean independence",
+        "A Jamaican-born British soldier who negotiated the peaceful end of the Caribbean slave trade in 1807"
+      ],
+      "answer": "A Haitian general who led the slave revolt against French colonial rule in 1791, creating the first Black republic in the Western Hemisphere after defeating Napoleon's army",
+      "explanation": "Toussaint Louverture (1743-1803) was born enslaved in Saint-Domingue (Haiti). He rose to lead the Haitian Revolution (1791-1804) — the only successful slave rebellion in history to create a permanent independent nation. He defeated French, British, and Spanish forces. Napoleon sent an expedition to reassert control in 1801; Louverture was captured through treachery in 1802 and died in a French prison. His generals continued the revolt; Haiti declared independence January 1, 1804. Haiti was the first Black republic, second oldest republic in the Western Hemisphere after the US, and the first nation founded through slave revolt.",
+      "memory_hook": "The Haitian Revolution was the only successful slave revolt in history to found an independent nation — and it defeated Napoleon's army in the process. Napoleon was so humiliated and drained that he sold the Louisiana Territory to the US in 1803. Haiti's revolution directly caused the Louisiana Purchase that doubled the size of the United States."
+    },
+    {
+      "category": "Sports",
+      "question": "What is the Tour de France's 'peloton' and why do cyclists ride in groups rather than spread out individually?",
+      "options": [
+        "The peloton is the race's leading group of cyclists, selected by lottery each morning to set the pace for other riders",
+        "The peloton is the main group of riders in the Tour de France. Cyclists ride in tight groups because drafting (riding in another cyclist's slipstream) reduces air resistance by up to 30-40%, saving enormous energy over 21 stages",
+        "The peloton refers to the race's police motorcycle escort, which creates a wind shadow for the lead cyclist",
+        "The peloton is a French term for individual effort — each rider races alone, and the word describes the self-discipline required"
+      ],
+      "answer": "The peloton is the main group of riders in the Tour de France. Cyclists ride in tight groups because drafting (riding in another cyclist's slipstream) reduces air resistance by up to 30-40%, saving enormous energy over 21 stages",
+      "explanation": "Aerodynamic drag is the dominant force opposing cyclists at race speeds. Riders in the peloton interior can save 30-40% of their energy compared to riding alone. Team strategy centers on protecting a lead rider by having teammates draft-block or pull (ride at the front, doing the exhausting work of cutting air). Mountain stages break the peloton apart because gravity advantage shifts to lighter riders. Time trials (solo stages) eliminate drafting. The Tour de France covers ~3,300 km over 21 stages; without drafting, finishing would be physically impossible for most riders.",
+      "memory_hook": "Drafting in cycling isn't cheating — it's physics. Riders in the peloton interior use 30-40% less energy than the rider at the front. This is why team tactics matter so much: some riders exhaust themselves protecting their team's star, who arrives at the decisive mountain stage with fresher legs than rivals who had no teammates to help them."
+    },
+    {
+      "category": "Sports",
+      "question": "Which country invented the sport of ice hockey and approximately when?",
+      "options": [
+        "Sweden, in the 1840s, as a winter adaptation of field hockey",
+        "Canada, in the 1870s-1880s in Montreal and Kingston, Ontario — with the first organized indoor game played in Montreal in 1875",
+        "The United States, in Boston in the 1860s, among Irish immigrants who played hurling on frozen ponds",
+        "Finland, around 1900, as an adaptation of a traditional winter stick-and-ball game"
+      ],
+      "answer": "Canada, in the 1870s-1880s in Montreal and Kingston, Ontario — with the first organized indoor game played in Montreal in 1875",
+      "explanation": "The first recorded indoor ice hockey game was played in Montreal on March 3, 1875 at the Victoria Skating Rink, organized by James Creighton. Rules were drawn from field hockey and other stick-and-ball games. The first hockey association (Amateur Hockey Association of Canada) formed in 1886. The Stanley Cup was first awarded in 1893. Canada's claim is widely accepted though Kingston and Montreal both claim to be 'the birthplace.' Today hockey's biggest star nations include Canada, Russia (historically the Soviet Union), Sweden, Finland, Czech Republic, and the United States.",
+      "memory_hook": "The first recorded indoor ice hockey game was in Montreal, 1875 — 18 years before the Stanley Cup was created. The game was essentially field hockey rules adapted for frozen surfaces. Canada exported the sport worldwide; the Soviet Union developed their own competing style decades later, creating what became the most technically sophisticated split in hockey tradition."
+    },
+    {
+      "category": "Pop Culture",
+      "question": "Which 1994 film by Quentin Tarantino features intertwining stories told out of chronological order, including the famous 'gimp scene' and a dance contest at a 1950s-themed restaurant?",
+      "options": [
+        "Reservoir Dogs",
+        "Jackie Brown",
+        "Kill Bill",
+        "Pulp Fiction"
+      ],
+      "answer": "Pulp Fiction",
+      "explanation": "Pulp Fiction (1994) launched Tarantino's career into the mainstream. The non-linear narrative follows Jules and Vincent (Samuel L. Jackson, John Travolta), Butch (Bruce Willis), and Mia Wallace (Uma Thurman). Key scenes: the twist contest at Jack Rabbit Slim's (Thurman and Travolta); the adrenaline shot sequence; Jules's 'Ezekiel 25:17' speech. The film won the Palme d'Or at Cannes and revived John Travolta's career. The screenplay's structure — showing consequences before causes — influenced a generation of filmmakers. Budget ~$8 million; global gross ~$200+ million.",
+      "memory_hook": "Pulp Fiction cost $8 million and made $200 million — and revived John Travolta's career after he'd been largely written off. Tarantino structured the film so you see a character's death early, then see them alive later. The out-of-order chronology isn't gimmickry; it deliberately forces you to watch the ending knowing how things turn out."
+    },
+    {
+      "category": "Pop Culture",
+      "question": "Which novelist wrote 'One Flew Over the Cuckoo's Nest' (1962), a story narrated by a Native American patient in a psychiatric hospital?",
+      "options": [
+        "Joseph Heller",
+        "Ken Kesey",
+        "Sylvia Plath",
+        "Jack Kerouac"
+      ],
+      "answer": "Ken Kesey",
+      "explanation": "Ken Kesey's One Flew Over the Cuckoo's Nest (1962) is narrated by 'Chief' Bromden, a half-Native American, half-white patient who pretends to be deaf and dumb. The novel centers on R.P. McMurphy (Jack Nicholson in Milos Forman's 1975 Oscar-winning film adaptation) who fakes insanity to avoid prison work. Nurse Ratched represents oppressive institutional control. Kesey wrote the novel partly while working as a night attendant at a psychiatric ward and participated in government-sponsored LSD experiments at Stanford. He later became a counterculture figure leading the Merry Pranksters.",
+      "memory_hook": "Ken Kesey wrote Cuckoo's Nest while working night shifts in a psychiatric ward and taking experimental LSD in government studies. He saw both the patients and the medication system from both sides. The narrator who pretends to be deaf and dumb is Kesey's way of showing how institutions create the very conditions they claim to treat."
+    },
+    {
+      "category": "Pop Culture",
+      "question": "What is the 'Bechdel Test' for films and where does the term come from?",
+      "options": [
+        "A test for whether a film's dialogue is authentic, developed by screenwriter Sidney Bechdel in 1980",
+        "A measure of a film's artistic quality, based on whether it received critical consensus from female reviewers",
+        "A test for female representation in film: (1) the film has at least two named female characters, (2) they talk to each other, (3) about something other than a man. From Alison Bechdel's 1985 comic strip 'Dykes to Watch Out For'",
+        "A rating system for violence in film, named after film critic Patricia Bechdel"
+      ],
+      "answer": "A test for female representation in film: (1) the film has at least two named female characters, (2) they talk to each other, (3) about something other than a man. From Alison Bechdel's 1985 comic strip 'Dykes to Watch Out For'",
+      "explanation": "The Bechdel test appeared in Alison Bechdel's comic strip Dykes to Watch Out For in 1985 (credited to her friend Liz Wallace). A character says she only sees a film if it meets three criteria: 2+ named women, talking to each other, about something other than a man. The test was meant as a joke about how low the bar is — yet approximately half of all major Hollywood films fail it. The test has limitations (a film can pass the test while still being sexist; a film can fail while having strong female characters), but it sparked a broader conversation about representation.",
+      "memory_hook": "The Bechdel Test set the absolute minimum bar for female representation — and half of Hollywood films fail it. Three criteria: two named women, talking to each other, about something other than a man. Alison Bechdel meant it as a dark joke about how rare this was. It became a measuring standard for film criticism instead."
+    },
+    {
+      "category": "Geography",
+      "question": "The Amazon River carries more water than any other river. What percentage of all river water flowing into the world's oceans does it carry?",
+      "options": [
+        "About 5%",
+        "About 10%",
+        "About 20%",
+        "About 35%"
+      ],
+      "answer": "About 20%",
+      "explanation": "The Amazon River discharges approximately 209,000 m³/s of water — about 20% of all freshwater flowing into the world's oceans from rivers. This is more than the next seven largest rivers combined. At its mouth, the Amazon is so voluminous that it pushes freshwater ~200 km into the Atlantic, creating a lens of freshwater detectable far from shore. The Amazon Basin contains approximately 20% of all unfrozen freshwater on Earth's surface. The river floods seasonally, sometimes rising 15+ meters — the floodplain (várzea) ecosystem is adapted to months of submersion.",
+      "memory_hook": "The Amazon discharges 20% of all river water flowing into the oceans — more than the next seven largest rivers combined. It's so massive that it pushes freshwater 200 km into the Atlantic Ocean. Standing on the ocean 100 km from the Brazilian coast, you could be floating in freshwater from the Amazon's discharge."
+    },
+    {
+      "category": "Geography",
+      "question": "What is the Serengeti and why is it significant to wildlife conservation?",
+      "options": [
+        "The Serengeti is a temperate forest in Kenya known for its mountain gorillas and cloud forest ecosystem",
+        "The Serengeti is a vast ecosystem in Tanzania and Kenya famous for the Great Migration — approximately 1.5 million wildebeest, 500,000 zebras, and hundreds of thousands of gazelles moving annually following rains and grasslands",
+        "The Serengeti is a coastal wetland in Tanzania at the mouth of the Nile River, significant for its flamingo populations",
+        "The Serengeti is a desert plateau shared between Somalia and Ethiopia with ancient cave paintings and rock art"
+      ],
+      "answer": "The Serengeti is a vast ecosystem in Tanzania and Kenya famous for the Great Migration — approximately 1.5 million wildebeest, 500,000 zebras, and hundreds of thousands of gazelles moving annually following rains and grasslands",
+      "explanation": "The Serengeti ecosystem spans ~30,000 km² across Tanzania (Serengeti National Park) and Kenya (Masai Mara National Reserve). The Great Migration is a circular annual movement: wildebeest follow rainfall and fresh grass in a clockwise loop, crossing the Mara River (the most dramatic crossing, where crocodiles wait). Serengeti National Park was established in 1951; in 1959, a proposed road through the park sparked the first major international conservation debate, ultimately stopped after scientific advocacy. Today the Serengeti is one of the few remaining ecosystems where large-scale predator-prey dynamics remain intact.",
+      "memory_hook": "The Serengeti's Great Migration is 1.5 million wildebeest moving in a circle they've been making for millions of years. The ecosystem is large enough that predator-prey dynamics still function naturally — lions, cheetahs, and hyenas haven't been hunted out. It's what most of Africa looked like before humans became the dominant species."
+    },
+    {
+      "category": "Science & Nature",
+      "question": "Astronomers classify stars into spectral types — O, B, A, F, G, K, M — from hottest to coolest. What does our Sun's classification as a 'G-type star' tell us about it?",
+      "options": [
+        "A G-type star is the most common type in the Milky Way, comprising about 70% of all stars — making solar systems like ours the most statistically common environment in the galaxy",
+        "Our Sun is a G-type yellow dwarf with surface temperature around 5,500°C, a mid-range stellar type — hotter, shorter-lived O and B stars are rare; cooler, longer-lived M dwarfs (red dwarfs) are the most common star type at ~73% of all stars",
+        "G-type classification means our Sun is in its final life stage — the 'G' stands for 'giant phase' and indicates the Sun has begun expanding toward its eventual red giant state within the next 100 million years",
+        "G-type stars are unique in that they are the only stellar class capable of supporting planetary systems with atmospheres, because their ultraviolet output is low enough to preserve ozone layers on orbiting worlds"
+      ],
+      "answer": "Our Sun is a G-type yellow dwarf with surface temperature around 5,500°C, a mid-range stellar type — hotter, shorter-lived O and B stars are rare; cooler, longer-lived M dwarfs (red dwarfs) are the most common star type at ~73% of all stars",
+      "explanation": "The spectral classification system (OBAFGKM) was developed at Harvard Observatory by Annie Jump Cannon, who classified 350,000 stars — largely uncredited work done as a 'computer.' The mnemonic is 'Oh Be A Fine Girl, Kiss Me.' O stars burn at 30,000+ K and live only millions of years; our G-type Sun burns at ~5,778 K and lives about 10 billion years (currently ~halfway through); M dwarfs burn at under 3,500 K and can live trillions of years — far longer than the universe has existed. Because M dwarfs are so common, the search for habitable exoplanets now focuses heavily on them.",
+      "memory_hook": "OBAFGKM (Oh Be A Fine Girl, Kiss Me) is the star temperature sequence, developed by Annie Jump Cannon who classified 350,000 stars largely without academic credit. Our Sun is a G — middle of the road. M dwarfs (73% of all stars) can live trillions of years; O stars burn out in millions."
+    },
+    {
+      "category": "Science & Nature",
+      "question": "What is permafrost and why is its thawing considered a major concern for climate change?",
+      "options": [
+        "Permafrost is a type of volcanic rock that traps heat underground; it's valuable for geothermal energy extraction",
+        "Permafrost is permanently frozen ground (soil, sediment, rock) that has remained below 0°C for at least two consecutive years. It covers ~25% of the Northern Hemisphere's land and stores massive amounts of organic carbon. Thawing permafrost releases CO₂ and methane (a more potent greenhouse gas), potentially triggering a self-reinforcing cycle of warming",
+        "Permafrost is the layer of Arctic sea ice that persists year-round; its decline reduces Earth's reflectivity (albedo) but has no direct effect on carbon emissions",
+        "Permafrost is frozen freshwater reserves under the tundra that, when melted, could raise sea levels by 4-6 meters globally"
+      ],
+      "answer": "Permafrost is permanently frozen ground (soil, sediment, rock) that has remained below 0°C for at least two consecutive years. It covers ~25% of the Northern Hemisphere's land and stores massive amounts of organic carbon. Thawing permafrost releases CO₂ and methane (a more potent greenhouse gas), potentially triggering a self-reinforcing cycle of warming",
+      "explanation": "Permafrost stores approximately 1.5 trillion tons of organic carbon — roughly double what is currently in the atmosphere. Thawing permafrost allows decomposition of previously frozen organic matter by microbes, releasing CO₂ and methane (methane has ~80× the warming effect of CO₂ over 20 years). This could trigger a 'permafrost carbon feedback': warming → permafrost thaw → more greenhouse gases → more warming → more thaw. Current estimates suggest 130-160 billion tons of carbon could be released by 2100 under high-emission scenarios. The Arctic is warming ~4× faster than the global average.",
+      "memory_hook": "Permafrost contains 1.5 trillion tons of frozen organic carbon — twice what's currently in the atmosphere. It's been frozen since the ice ages. As it thaws, microbes digest the organic matter and release CO₂ and methane. This is the climate 'tipping point' scientists worry about most: once it starts, warming drives more thawing, which drives more warming, automatically, without any human input at all."
+    }
+  ]
+}

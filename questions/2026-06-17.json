@@ -120,16 +120,16 @@
     },
     {
       "category": "Science & Nature",
-      "question": "What is the chemical symbol for iron on the periodic table — derived from its Latin name?",
+      "question": "Solar flares and coronal mass ejections (CMEs) are the Sun's most powerful explosive events. What causes them, and what effects can they have on Earth?",
       "options": [
-        "Ir",
-        "Io",
-        "Fe",
-        "In"
+        "Solar flares are caused by solar winds colliding with Earth's magnetosphere, creating plasma instabilities that reflect back to the Sun and trigger explosions; major events can heat Earth's atmosphere by 5°C",
+        "CMEs are caused by the Sun's magnetic field lines tangling and suddenly snapping into a simpler configuration, releasing enormous energy — on Earth, they can disrupt satellites, power grids, GPS, and radio communications, and cause auroras at unusual latitudes",
+        "Solar flares are triggered by sunspots cooling the Sun's surface below the fusion threshold, creating plasma instabilities that explode outward — events large enough to be visible as bright flashes with the naked eye",
+        "CMEs occur when solar wind pressure builds up behind the Earth's magnetosphere and suddenly releases — the 1989 Quebec blackout lasted 9 hours when one CME overloaded transformer capacity across Canada"
       ],
-      "answer": "Fe",
-      "explanation": "Iron's chemical symbol Fe comes from 'Ferrum,' the Latin word for iron. The periodic table uses Latin and Greek roots for many elements whose symbols don't match their English names — silver is Ag (Argentum), gold is Au (Aurum), lead is Pb (Plumbum). Iron is the most abundant element on Earth by mass, forming much of the planet's core and giving red blood cells the ability to carry oxygen.",
-      "memory_hook": "Fe = iron = Ferrum (Latin). Fe gives us 'ferrous' (iron-containing). Gold=Au, Silver=Ag, Iron=Fe — all Latin. The periodic table is a time capsule of ancient Roman and Greek science."
+      "answer": "CMEs are caused by the Sun's magnetic field lines tangling and suddenly snapping into a simpler configuration, releasing enormous energy — on Earth, they can disrupt satellites, power grids, GPS, and radio communications, and cause auroras at unusual latitudes",
+      "explanation": "The Sun's differential rotation (equator rotates faster than poles) twists and tangles magnetic field lines until they snap in a process called magnetic reconnection, releasing energy equivalent to billions of nuclear bombs. The 1859 Carrington Event was the largest recorded CME — telegraph systems across North America and Europe sparked and caught fire; auroras were visible as far south as Cuba. A similar event today could cause trillions in infrastructure damage. The 1989 Quebec blackout (March) was caused by a CME that induced currents in power lines, tripping circuit breakers across the entire province in 92 seconds.",
+      "memory_hook": "The 1859 Carrington Event was so powerful that telegraph wires caught fire and operators received electric shocks. The auroras were visible in Cuba. A similar CME today would cause trillions in damage — satellites fried, power grids collapsed, GPS offline. The Quebec blackout of 1989 (92 seconds, entire province) was a mild preview."
     },
     {
       "category": "Geography",

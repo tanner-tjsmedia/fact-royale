@@ -42,16 +42,16 @@
     },
     {
       "category": "Sports",
-      "question": "In rugby, how many points is a try worth?",
+      "question": "The 1974 'Rumble in the Jungle' in Kinshasa, Zaire, is considered the greatest boxing match in history. What strategy did Muhammad Ali use to defeat George Foreman?",
       "options": [
-        "3",
-        "4",
-        "5",
-        "6"
+        "He attacked relentlessly from the opening bell, landing over 200 punches before Foreman tired",
+        "He used the 'rope-a-dope' — leaning on the ropes and absorbing Foreman's punches until Foreman exhausted himself, then knocking him out in round 8",
+        "He targeted Foreman's legs with low kicks until Foreman's footwork collapsed, then finished him",
+        "He clinched constantly to neutralize Foreman's power, winning on points after 15 rounds"
       ],
-      "answer": "5",
-      "explanation": "A try in rugby union scores 5 points and is scored by grounding the ball on or over the opponent's try line. After a try, the scoring team gets a conversion attempt — kicking the ball between the goalposts for 2 additional points. A penalty goal scores 3 points, and a drop goal during play scores 3 points. A try in rugby league (a separate code) is worth 4 points.",
-      "memory_hook": "Rugby try = 5 points. Plus 2 for the conversion attempt. So a converted try = 7 points total. Rugby's scoring system rewards getting the ball over the line above everything else — a penalty is only 3, but a try + conversion is 7."
+      "answer": "He used the 'rope-a-dope' — leaning on the ropes and absorbing Foreman's punches until Foreman exhausted himself, then knocking him out in round 8",
+      "explanation": "Ali invented the 'rope-a-dope' strategy specifically for Foreman, who was the most feared puncher of the era and a heavy favorite. Ali leaned against the ropes, letting his arms take the impact, while Foreman exhausted his power punches. By round 8, Foreman was spent, and Ali knocked him down for the count to reclaim the heavyweight title at age 32. The fight was promoted by Don King and immortalized in the documentary 'When We Were Kings.'",
+      "memory_hook": "Ali let Foreman punch himself out against the ropes for 7 rounds — 'rope-a-dope' — then knocked out the most feared puncher in boxing in round 8 to reclaim the heavyweight title at 32."
     },
     {
       "category": "Sports",
@@ -94,16 +94,16 @@
     },
     {
       "category": "Pop Culture",
-      "question": "Which director, known for meticulous detail and dark psychological themes, made '2001: A Space Odyssey,' 'The Shining,' 'Full Metal Jacket,' and 'A Clockwork Orange'?",
+      "question": "Michelangelo's Sistine Chapel ceiling (1508–1512) is often described as the greatest feat of Renaissance painting. What physical and technical reality made it so demanding — and what common myth about its creation is false?",
       "options": [
-        "Stanley Kubrick",
-        "Francis Ford Coppola",
-        "Ridley Scott",
-        "David Lynch"
+        "Michelangelo painted the ceiling in a single continuous session lasting 18 months without a break, working in complete isolation — the myth is that he worked on his back, when he actually stood upright on custom scaffolding and tilted his head back",
+        "Michelangelo painted the ceiling lying on his back — he designed a special curved bed for the purpose — and the myth is that he worked alone, when he actually employed over 30 plasterers and color-mixers",
+        "Michelangelo painted the ceiling standing on custom scaffolding, tilting his head back for hours at a time — causing chronic neck and eye problems — and the myth is that he painted lying on his back (the Hollywood version)",
+        "Michelangelo painted the ceiling using a projector-like device of his own invention to scale up his designs — and the myth is that the painting was done freehand, when it was actually traced from preparatory cartoons"
       ],
-      "answer": "Stanley Kubrick",
-      "explanation": "Stanley Kubrick (1928-1999) was known for his perfectionism — his production of 'The Shining' involved Shelley Duvall doing one scene 127 times. He worked across multiple genres: war, horror, science fiction, and period drama. Kubrick moved to England in 1961 and directed all his later films there.",
-      "memory_hook": "Kubrick: 2001, The Shining, Clockwork Orange. 127 takes for one scene."
+      "answer": "Michelangelo painted the ceiling standing on custom scaffolding, tilting his head back for hours at a time — causing chronic neck and eye problems — and the myth is that he painted lying on his back (the Hollywood version)",
+      "explanation": "The 'lying on his back' story comes largely from film and popular retelling. Michelangelo designed his own wooden scaffolding system — a flat platform suspended near the ceiling rather than the arch-based system the Pope's architect suggested. He stood on it and bent backward, working in wet plaster (true fresco) section by section. He wrote a sonnet complaining about his aching neck, curved spine, and deteriorating eyesight. He painted nearly all 5,000 square feet with minimal assistants — mainly for grinding pigments and plastering. The ceiling includes 300+ figures and nine central scenes from Genesis including the iconic Creation of Adam.",
+      "memory_hook": "Michelangelo wrote a complaining sonnet about his bent spine and ruined eyesight from tilting his head back for four years. He designed custom scaffolding himself. The 'on his back' image is Hollywood — he stood and craned his neck. He painted 5,000 square feet in wet plaster with almost no assistants, including 300+ figures in four years."
     },
     {
       "category": "Geography",

@@ -80,16 +80,16 @@
     },
     {
       "category": "Pop Culture",
-      "question": "Which actress played Clarice Starling in The Silence of the Lambs?",
+      "question": "Georgia O'Keeffe, often called the 'Mother of American Modernism,' spent the second half of her career painting the New Mexico desert. What made her aesthetic approach groundbreaking?",
       "options": [
-        "Meryl Streep",
-        "Glenn Close",
-        "Jodie Foster",
-        "Susan Sarandon"
+        "She was the first American artist to work exclusively in watercolor, arguing that oil paint's European associations made it unsuitable for American subjects",
+        "She painted ordinary subjects — flowers, bones, desert landscapes — at extreme magnification and with near-abstract simplicity, forcing viewers to see familiar things as if for the first time",
+        "She developed a technique of painting simultaneously from life and from X-ray images of subjects, combining surface appearance with internal structure",
+        "She abandoned representation entirely in 1940, decades before most American painters, making her a pioneer of pure abstraction"
       ],
-      "answer": "Jodie Foster",
-      "explanation": "Jodie Foster played FBI trainee Clarice Starling in The Silence of the Lambs (1991), winning the Academy Award for Best Actress. The film won Best Picture, Best Director, Best Actor, and Best Actress — all five major Oscar categories.",
-      "memory_hook": "Foster played Starling opposite Hopkins' Lecter — both won Oscars."
+      "answer": "She painted ordinary subjects — flowers, bones, desert landscapes — at extreme magnification and with near-abstract simplicity, forcing viewers to see familiar things as if for the first time",
+      "explanation": "O'Keeffe's close-up paintings of flowers — sometimes filling the entire canvas — were controversial partly because critics read sexual imagery into them, which she rejected. Her New Mexico skulls and desert views after 1929 showed a landscape that felt prehistoric and timeless. She lived in Ghost Ranch, New Mexico from 1949 until her death in 1986 at age 98. The Georgia O'Keeffe Museum in Santa Fe draws 200,000 visitors annually and holds the world's largest collection of her work.",
+      "memory_hook": "O'Keeffe moved to New Mexico's Ghost Ranch in 1949 and painted its bleached skulls and high desert for decades — her extreme close-ups of flowers forced viewers to see ordinary things as strange and monumental."
     },
     {
       "category": "History",
@@ -119,16 +119,16 @@
     },
     {
       "category": "Science & Nature",
-      "question": "How many teeth do most healthy adult humans have, including wisdom teeth?",
+      "question": "Saturn's moon Titan is unique in the solar system for a reason that makes it particularly intriguing to astrobiologists. What makes Titan so unusual?",
       "options": [
-        "28",
-        "30",
-        "32",
-        "36"
+        "Titan is the only moon in the solar system with active volcanoes — its volcanic eruptions shoot liquid water 50 km into space before it refreezes and falls back as 'water snow'",
+        "Titan is the only moon with a substantial atmosphere, and the only body besides Earth with stable liquid on its surface — though the lakes are filled with liquid methane and ethane, not water",
+        "Titan is the largest moon in the solar system and the only one with sufficient gravity to retain a ring system similar to Saturn's, making it technically a 'sub-ringed world'",
+        "Titan is the only moon known to have an internal nuclear reactor — remnant radioactive material from the solar system's formation still generates enough heat to maintain a global liquid iron core"
       ],
-      "answer": "32",
-      "explanation": "Adult humans have 32 teeth: 8 incisors, 4 canines, 8 premolars, 8 molars, and 4 wisdom teeth (third molars). Many people have their wisdom teeth removed if they don't have room to grow in properly. Some people never develop all four wisdom teeth.",
-      "memory_hook": "32 teeth total, including wisdom teeth. Most people have 28 after wisdom tooth removal. Wisdom teeth are vestigial — our ancient ancestors needed them to chew rougher food, but modern diets and smaller jaws have made them obsolete."
+      "answer": "Titan is the only moon with a substantial atmosphere, and the only body besides Earth with stable liquid on its surface — though the lakes are filled with liquid methane and ethane, not water",
+      "explanation": "Titan's atmosphere is 1.5 times denser than Earth's and primarily nitrogen — like Earth — but its surface temperature is −179°C. At this temperature, methane behaves as water does on Earth: evaporating, forming clouds, raining, and pooling in lakes and rivers. The Cassini spacecraft orbited Saturn for 13 years (2004–2017) and its Huygens probe parachuted through Titan's atmosphere in 2005. NASA's Dragonfly mission — a rotorcraft lander — is planned to arrive at Titan around 2034 to explore its chemistry, which may resemble early Earth's organic chemistry.",
+      "memory_hook": "Titan has lakes, rain, rivers, and a thick nitrogen atmosphere — but the liquid is methane, not water, at −179°C. The Huygens probe parachuted through its clouds in 2005; NASA's Dragonfly rotorcraft will land there around 2034 to study chemistry resembling early Earth."
     },
     {
       "category": "Geography",

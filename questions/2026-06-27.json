@@ -93,16 +93,16 @@
     },
     {
       "category": "Pop Culture",
-      "question": "Who directed the film 'Schindler's List'?",
+      "question": "Andy Warhol's 'Factory' studio in New York was the center of a remarkable creative scene in the 1960s. What was Warhol's central argument about art and consumer culture?",
       "options": [
-        "Martin Scorsese",
-        "Francis Ford Coppola",
-        "Steven Spielberg",
-        "Oliver Stone"
+        "That fine art should be made inaccessible to ordinary people to preserve its spiritual value",
+        "That the boundary between high art and commercial imagery was artificial — mass-produced consumer goods (Campbell's soup, Brillo boxes, celebrity photos) were as worthy of artistic attention as any subject",
+        "That photography had rendered painting obsolete, and artists should focus entirely on film and television",
+        "That art's only legitimate subject was political protest, and anything else was complicity with capitalism"
       ],
-      "answer": "Steven Spielberg",
-      "explanation": "Steven Spielberg directed Schindler's List in 1993. The film won seven Academy Awards including Best Picture and Best Director, and is widely regarded as one of the greatest films ever made.",
-      "memory_hook": "Spielberg spelled out the horror — he also gave us Jaws, E.T., and Indiana Jones."
+      "answer": "That the boundary between high art and commercial imagery was artificial — mass-produced consumer goods (Campbell's soup, Brillo boxes, celebrity photos) were as worthy of artistic attention as any subject",
+      "explanation": "Warhol's Pop Art deliberately blurred the line between fine art and commercial mass production — his silkscreened Marilyn Monroe portraits, Campbell's Soup Cans, and Coca-Cola bottles asked whether a painting of a consumer product was fundamentally different from the product itself. His Factory attracted artists, musicians, and socialites, and he produced films, music management (The Velvet Underground), and magazines alongside his visual art. 'In the future, everyone will be world-famous for 15 minutes.'",
+      "memory_hook": "Warhol's Campbell's Soup Cans and Marilyn silkscreens asked one question: is a painting of a commercial product art or just the product? His answer — it's both — dismantled the wall between high art and pop culture."
     },
     {
       "category": "Pop Culture",
@@ -145,16 +145,16 @@
     },
     {
       "category": "Science & Nature",
-      "question": "What is the chemical symbol for gold?",
+      "question": "The Hubble Space Telescope, launched in 1990, was initially a near-catastrophic failure before becoming one of science's greatest instruments. What went wrong — and how was it fixed?",
       "options": [
-        "Gd",
-        "Go",
-        "Ag",
-        "Au"
+        "Hubble's solar panels failed to deploy correctly, leaving it without power for 18 months until a repair mission restored them and pointed the telescope toward the Sun",
+        "Hubble's primary mirror was polished to the wrong shape — off by just 2.2 micrometers — creating blurry images; astronauts installed corrective optics in a 1993 spacewalk that saved the mission",
+        "Hubble's initial orbit was too low, causing it to plunge through Earth's upper atmosphere and degrade; thrusters were fired to boost its orbit to a stable altitude in 1991",
+        "Hubble's camera was installed backwards by ground engineers, capturing only star images from behind the telescope; a crew rotated it to face forward during a 1992 servicing mission"
       ],
-      "answer": "Au",
-      "explanation": "Au comes from 'Aurum,' the Latin word for gold. The periodic table uses Latin (and sometimes Greek) roots for many elements — that's why the symbols don't always match the English name. Silver is Ag (Argentum), iron is Fe (Ferrum), and lead is Pb (Plumbum).",
-      "memory_hook": "Gold = Au = Aurum. The Romans named it. The symbol stuck for 2,000 years."
+      "answer": "Hubble's primary mirror was polished to the wrong shape — off by just 2.2 micrometers — creating blurry images; astronauts installed corrective optics in a 1993 spacewalk that saved the mission",
+      "explanation": "Hubble's 2.4-meter mirror was precisely but incorrectly ground — a spherical aberration of 2.2 micrometers (less than 1/50 the width of a human hair) caused all its images to be blurry. After months of public embarrassment, astronauts on the Space Shuttle Endeavour installed corrective optics (COSTAR) in December 1993 — essentially contact lenses for the telescope. The repair mission was a complete success. Hubble subsequently provided evidence for the accelerating expansion of the universe, confirmed the age of the cosmos at 13.8 billion years, and photographed the Hubble Deep Field — showing thousands of galaxies in a patch of sky the size of a grain of sand held at arm's length.",
+      "memory_hook": "Hubble's mirror was ground to the wrong shape by 2.2 micrometers — less than a strand of hair. Astronauts flew up in 1993 and installed corrective lens optics. The repaired Hubble then revealed the universe is accelerating its expansion and shot the Deep Field showing thousands of galaxies in a grain-of-sand-sized patch of sky."
     }
   ]
 }

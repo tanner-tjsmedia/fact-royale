@@ -1,0 +1,161 @@
+{
+  "date": "2026-12-17",
+  "questions": [
+    {
+      "category": "History",
+      "question": "The Treaty of Paris, signed in 1783, formally ended which conflict and recognized American independence?",
+      "options": [
+        "The French and Indian War",
+        "The American Revolutionary War",
+        "The War of 1812",
+        "King Philip's War"
+      ],
+      "answer": "The American Revolutionary War",
+      "explanation": "Signed in Paris on September 3, 1783, the treaty ended the Revolutionary War between Britain and the newly independent United States. Britain recognized American sovereignty over territory extending to the Mississippi River. Key American negotiators were Benjamin Franklin, John Adams, and John Jay, who negotiated separately from France despite the Franco-American alliance.",
+      "memory_hook": "The 1783 Treaty of Paris ended the Revolution and gave the US all land to the Mississippi — Franklin, Adams, and Jay negotiated it separately from their French allies."
+    },
+    {
+      "category": "History",
+      "question": "The 'Bleeding Kansas' crisis of the 1850s was a violent preview of the Civil War. What caused the bloodshed in Kansas Territory?",
+      "options": [
+        "Conflict over railroad land grants between northern and southern companies",
+        "Pro-slavery and anti-slavery settlers clashed violently to control the territorial government",
+        "Native American tribes resisted forced removal from Kansas lands",
+        "A border dispute between Kansas and Missouri settlers over farmland"
+      ],
+      "answer": "Pro-slavery and anti-slavery settlers clashed violently to control the territorial government",
+      "explanation": "The Kansas-Nebraska Act of 1854 allowed settlers in new territories to vote on whether to allow slavery ('popular sovereignty'). This triggered a flood of both pro-slavery and anti-slavery settlers into Kansas, culminating in violent clashes, rival governments, and massacres — including John Brown's Pottawatomie massacre. The crisis hardened sectional divisions ahead of the Civil War.",
+      "memory_hook": "Bleeding Kansas (1854–61) erupted when pro- and anti-slavery settlers raced to control the territorial vote — a dress rehearsal for the Civil War that included John Brown's massacres."
+    },
+    {
+      "category": "History",
+      "question": "The Western Roman Empire is traditionally said to have fallen in 476 AD. What event marks this date?",
+      "options": [
+        "The sack of Rome by Vandals",
+        "Germanic chieftain Odoacer deposed the last Roman emperor, Romulus Augustulus",
+        "Constantine moved the capital to Constantinople",
+        "The Gothic army destroyed the Roman legions at Adrianople"
+      ],
+      "answer": "Germanic chieftain Odoacer deposed the last Roman emperor, Romulus Augustulus",
+      "explanation": "In 476 AD, Germanic chieftain Odoacer deposed the 16-year-old emperor Romulus Augustulus and sent the imperial insignia to Constantinople, signaling the end of the Western Roman Empire. Historians debate this date — Rome had been declining for centuries and the Eastern (Byzantine) Empire survived until 1453 — but 476 is the conventional marker.",
+      "memory_hook": "Rome 'fell' in 476 when teenage emperor Romulus Augustulus was deposed by the Germanic chieftain Odoacer — though the Eastern Empire in Constantinople lasted another 1,000 years."
+    },
+    {
+      "category": "Sports",
+      "question": "American sprinter Florence Griffith-Joyner, known as 'Flo-Jo,' set world records at the 1988 Seoul Olympics that have never been broken. What events were they in?",
+      "options": [
+        "100m and 200m",
+        "100m and 400m",
+        "200m and 400m relay",
+        "100m and long jump"
+      ],
+      "answer": "100m and 200m",
+      "explanation": "Flo-Jo set world records of 10.49 seconds in the 100m and 21.34 seconds in the 200m in 1988 — records that remain unbroken over 35 years later. She won three gold medals and one silver at Seoul, and was known for her distinctive long fingernails and colorful racing attire. She died of an epileptic seizure in 1998 at age 38.",
+      "memory_hook": "Flo-Jo's 1988 100m (10.49s) and 200m (21.34s) world records have stood for over 35 years — the fastest women's sprints in history remain hers."
+    },
+    {
+      "category": "Sports",
+      "question": "Basketball was invented in 1891 by a Canadian physical education instructor. Who invented it, and where?",
+      "options": [
+        "James Naismith, at a YMCA in Springfield, Massachusetts",
+        "William Morgan, at a YMCA in Holyoke, Massachusetts",
+        "Phog Allen, at the University of Kansas",
+        "Amos Alonzo Stagg, at the University of Chicago"
+      ],
+      "answer": "James Naismith, at a YMCA in Springfield, Massachusetts",
+      "explanation": "Dr. James Naismith invented basketball in December 1891 at the International YMCA Training School in Springfield, Massachusetts. Tasked with creating an indoor winter activity for restless students, he nailed peach baskets to an elevated track and wrote 13 basic rules. The first game used a soccer ball; dedicated basketballs weren't introduced until 1894.",
+      "memory_hook": "Naismith nailed peach baskets to a balcony in Springfield, MA in 1891 — basketball's 13 original rules were written in one afternoon to keep students busy indoors in winter."
+    },
+    {
+      "category": "Pop Culture",
+      "question": "The 1952 musical film Singin' in the Rain is widely considered one of the greatest movies ever made. What real Hollywood transition does its plot satirize?",
+      "options": [
+        "The shift from black-and-white to color films in the late 1930s",
+        "The transition from silent films to 'talkies' in the late 1920s",
+        "The rise of television threatening the movie industry in the 1950s",
+        "The collapse of the Hollywood studio system in the 1960s"
+      ],
+      "answer": "The transition from silent films to 'talkies' in the late 1920s",
+      "explanation": "Singin' in the Rain, directed by Gene Kelly and Stanley Donen and starring Kelly, Debbie Reynolds, and Donald O'Connor, satirizes the chaotic real-life upheaval when sound film arrived in 1927. The plot follows a silent-film star whose squeaky voice is dubbed by a young actress — mirroring actual studio panics when many silent stars found their voices unsuitable for sound.",
+      "memory_hook": "Singin' in the Rain (1952) lampoons the real panic when talkies arrived in 1927 — many silent-film stars had voices that killed their careers overnight."
+    },
+    {
+      "category": "Pop Culture",
+      "question": "Sidney Lumet's 1957 film 12 Angry Men takes place almost entirely in one room. What is the central dramatic question?",
+      "options": [
+        "Whether a police detective framed an innocent man",
+        "Whether a lone holdout juror can convince eleven others that a teenage murder defendant deserves reasonable doubt",
+        "Whether a jury can reach a verdict before a hurricane strikes the courthouse",
+        "Whether twelve strangers can agree on who among them committed a crime"
+      ],
+      "answer": "Whether a lone holdout juror can convince eleven others that a teenage murder defendant deserves reasonable doubt",
+      "explanation": "12 Angry Men begins with 11 of 12 jurors ready to convict a teenage boy of murder. Juror #8 (Henry Fonda) votes 'not guilty' — not because he's certain of innocence but because he wants to discuss the evidence. Over 96 minutes confined to a single jury room, he gradually exposes weaknesses in the prosecution's case. The film is a masterclass in the American justice system's presumption of innocence.",
+      "memory_hook": "12 Angry Men: Fonda's lone 'not guilty' vote isn't certainty of innocence — it's a demand that the jury actually examine the evidence before sending a teenager to die."
+    },
+    {
+      "category": "Pop Culture",
+      "question": "The 1976 film Network features a television anchor who has a breakdown on air. Which line from the film became one of cinema's most quoted speeches?",
+      "options": [
+        "'You can't handle the truth!'",
+        "'I'm mad as hell, and I'm not going to take this anymore!'",
+        "'Greed, for lack of a better word, is good.'",
+        "'You talking to me?'"
+      ],
+      "answer": "'I'm mad as hell, and I'm not going to take this anymore!'",
+      "explanation": "Peter Finch plays news anchor Howard Beale in Paddy Chayefsky's prescient satire of television's power. After being told he'll be fired, Beale urges viewers to open their windows and shout the line — and millions do. The film predicted reality TV, news-as-entertainment, and corporate media consolidation with unsettling accuracy. Finch won a posthumous Academy Award for the role.",
+      "memory_hook": "Network (1976) predicted reality TV and infotainment decades early — Howard Beale's 'mad as hell' rant became a prophesy about television swallowing public discourse."
+    },
+    {
+      "category": "Geography",
+      "question": "The Caribbean Sea is bordered by Central America, South America, and island chains. Which geographic feature separates it from the Atlantic Ocean to the east?",
+      "options": [
+        "The Florida Strait",
+        "The Lesser Antilles island arc",
+        "The Greater Antilles ridge",
+        "The Mid-Atlantic Ridge"
+      ],
+      "answer": "The Lesser Antilles island arc",
+      "explanation": "The Lesser Antilles — a curved chain of small islands stretching from the Virgin Islands south to Trinidad — form the eastern boundary separating the Caribbean Sea from the open Atlantic. The Caribbean is also notable for its warm, clear waters (fed by Atlantic currents), numerous coral reefs, and as the site of Columbus's 1492 landfall.",
+      "memory_hook": "The Lesser Antilles arc (from Virgin Islands to Trinidad) is the eastern wall of the Caribbean — Columbus crossed the Atlantic and hit this chain in 1492."
+    },
+    {
+      "category": "Geography",
+      "question": "The Indus River, one of Asia's longest rivers, flows primarily through which modern country before emptying into the Arabian Sea?",
+      "options": [
+        "India",
+        "Pakistan",
+        "Afghanistan",
+        "Bangladesh"
+      ],
+      "answer": "Pakistan",
+      "explanation": "Despite giving India its name, the Indus flows mostly through Pakistan (about 2,900 km of its total ~3,180 km length). It originates in Tibet, flows through the Himalayas, and drains into the Arabian Sea near Karachi. The ancient Indus Valley Civilization (c. 3300–1300 BCE), one of the world's earliest urban societies, flourished along its banks at sites like Mohenjo-daro and Harappa.",
+      "memory_hook": "The Indus gave India its name but flows mostly through Pakistan — the ancient Indus Valley Civilization (Mohenjo-daro) thrived on its banks over 4,000 years ago."
+    },
+    {
+      "category": "Science & Nature",
+      "question": "Many animals navigate thousands of miles during migration with extraordinary precision. What sense do monarch butterflies and some birds use to detect direction?",
+      "options": [
+        "Infrared heat detection",
+        "Magnetoreception — sensing Earth's magnetic field",
+        "Detecting ultraviolet patterns in sunlight invisible to humans",
+        "Echolocation using high-frequency sound pulses"
+      ],
+      "answer": "Magnetoreception — sensing Earth's magnetic field",
+      "explanation": "Many migratory animals — including birds, monarch butterflies, sea turtles, and salmon — can sense Earth's magnetic field through a phenomenon called magnetoreception. In birds, cryptochrome proteins in the eyes may allow them to literally 'see' magnetic field lines. Monarch butterflies use a combination of the sun's position and an internal clock to navigate thousands of miles between Canada and Mexico.",
+      "memory_hook": "Monarchs and migratory birds navigate via magnetoreception — they can sense Earth's magnetic field lines, possibly 'seeing' them through special proteins in their eyes."
+    },
+    {
+      "category": "Science & Nature",
+      "question": "Symbiosis describes close biological relationships between species. Which type involves both species benefiting from the relationship?",
+      "options": [
+        "Parasitism",
+        "Commensalism",
+        "Mutualism",
+        "Predation"
+      ],
+      "answer": "Mutualism",
+      "explanation": "In mutualism, both organisms benefit — classic examples include bees pollinating flowers (bee gets nectar, flower gets pollination), clownfish living among sea anemone tentacles (fish gets protection, anemone gets cleaning and nutrients), and mycorrhizal fungi partnering with plant roots (fungi get sugars, plant gets enhanced nutrient uptake). Commensalism benefits one party without affecting the other; parasitism benefits one at the other's expense.",
+      "memory_hook": "Mutualism = both win (bees and flowers, clownfish and anemones); commensalism = one wins, one neutral; parasitism = one wins, one loses."
+    }
+  ]
+}
