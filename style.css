@@ -3882,7 +3882,35 @@ a.btn-catchup:hover {
   font-size: 0.8rem;
   color: var(--text-muted);
 }
+.ch-row-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 6px;
+  flex-shrink: 0;
+}
 .ch-row-badge { flex-shrink: 0; }
+.ch-to-name {
+  font-size: 0.72rem;
+  color: var(--gold, #f0c040);
+  opacity: 0.75;
+  margin-left: 0.5em;
+}
+.ch-delete-btn {
+  background: none;
+  border: none;
+  color: var(--text-muted, rgba(255,255,255,0.3));
+  font-size: 0.8rem;
+  cursor: pointer;
+  padding: 2px 4px;
+  line-height: 1;
+  border-radius: 4px;
+  transition: color 0.15s, background 0.15s;
+}
+.ch-delete-btn:hover {
+  color: #f87171;
+  background: rgba(248,113,113,0.1);
+}
 .ch-badge {
   display: inline-block;
   padding: 0.3rem 0.75rem;
@@ -4031,6 +4059,40 @@ a.btn-catchup:hover {
   font-size: 0.85rem;
   color: var(--text-muted, rgba(255,255,255,0.5));
   line-height: 1.5;
+}
+
+.csm-toname-wrap {
+  margin-bottom: 18px;
+}
+.csm-toname-label {
+  display: block;
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--text-muted, rgba(255,255,255,0.55));
+  margin-bottom: 6px;
+  letter-spacing: 0.02em;
+}
+.csm-toname-opt {
+  font-weight: 400;
+  opacity: 0.7;
+}
+.csm-toname-input {
+  width: 100%;
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(255,255,255,0.12);
+  border-radius: 8px;
+  color: var(--text, #fff);
+  font-size: 0.9rem;
+  padding: 0.55rem 0.85rem;
+  outline: none;
+  transition: border-color 0.2s;
+  box-sizing: border-box;
+}
+.csm-toname-input:focus {
+  border-color: rgba(212,175,55,0.5);
+}
+.csm-toname-input::placeholder {
+  color: rgba(255,255,255,0.25);
 }
 
 .csm-buttons {

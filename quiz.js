@@ -2271,6 +2271,8 @@ function openChallengeShare() {
   }
 }
 
+let _activeChallengeId = null; // tracks the most recently created cid for toName updates
+
 async function _buildAndSendChallenge(fromName, uid) {
   const scoreText = localStorage.getItem('fr_lastScore') || '?';
   const parts     = String(scoreText).split('/');
@@ -2280,6 +2282,8 @@ async function _buildAndSendChallenge(fromName, uid) {
 
   // Always generate a cid so Person B's result can be recorded
   const cid = generateChallengeId();
+
+  _activeChallengeId = cid; // expose for saveChallengeTo()
 
   if (uid) {
     // Signed-in: write challenge to Firestore now
@@ -2323,7 +2327,22 @@ async function _buildAndSendChallenge(fromName, uid) {
   openChallengeModal(url, shareText, `${sc}/${total}`);
 }
 
+// Save the optional "who are you challenging" label to Firestore
+function saveChallengeTo() {
+  if (typeof db === 'undefined' || !_activeChallengeId) return;
+  if (!auth.currentUser) return;
+  const input = document.getElementById('csm-toname');
+  const toName = input ? input.value.trim() : '';
+  if (!toName) return;
+  db.collection('challenges').doc(_activeChallengeId)
+    .update({ toName })
+    .catch(() => {}); // fire-and-forget
+}
+
 function openChallengeModal(url, shareText, scoreDisplay) {
+  // Clear the toName field on each fresh open
+  const toNameInput = document.getElementById('csm-toname');
+  if (toNameInput) toNameInput.value = '';
   const fullText   = `${shareText} ${url}`;
   const encodedFull = encodeURIComponent(fullText);
   const encodedText = encodeURIComponent(shareText);

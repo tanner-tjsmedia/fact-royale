@@ -534,10 +534,12 @@ function renderChallengeHistory(challenges, listEl, emptyEl, summaryEl) {
       ? new Date(c.date + 'T12:00:00').toLocaleDateString('en-US', { month: 'short', day: 'numeric' })
       : '';
 
-    let badge, resultLine;
+    const toLabel = c.toName ? `<span class="ch-to-name">to ${c.toName}</span>` : '';
+    let badge, resultLine, deleteBtn;
     if (!c.result) {
-      badge      = '<span class="ch-badge ch-badge--pending">Pending</span>';
+      badge     = '<span class="ch-badge ch-badge--pending">Pending</span>';
       resultLine = '<span class="ch-result-sub">Waiting for response...</span>';
+      deleteBtn  = `<button class="ch-delete-btn" onclick="deleteChallenge('${c.id}', this)" title="Remove challenge">&#x2715;</button>`;
     } else {
       const won  = c.score > c.result.score;
       const tied = c.score === c.result.score;
@@ -545,19 +547,44 @@ function renderChallengeHistory(challenges, listEl, emptyEl, summaryEl) {
                  : tied ? '<span class="ch-badge ch-badge--tied">Tied</span>'
                         : '<span class="ch-badge ch-badge--lost">They Won</span>';
       resultLine = `<span class="ch-result-sub">${c.result.name}: ${c.result.score}/${c.result.total}</span>`;
+      deleteBtn  = '';
     }
 
     return `
-      <div class="ch-row">
+      <div class="ch-row" id="ch-row-${c.id}">
         <div class="ch-row-meta">
-          <span class="ch-date">${dateStr}</span>
+          <span class="ch-date">${dateStr}${toLabel}</span>
           <span class="ch-your-score">You: ${c.score}/${c.total}</span>
           ${resultLine}
         </div>
-        <div class="ch-row-badge">${badge}</div>
+        <div class="ch-row-right">
+          <div class="ch-row-badge">${badge}</div>
+          ${deleteBtn}
+        </div>
       </div>
     `;
   }).join('');
+}
+
+// ── Delete a pending challenge ────────────────────────────
+async function deleteChallenge(cid, btnEl) {
+  if (!confirm('Remove this challenge? The link will stop working.')) return;
+  if (typeof db === 'undefined') return;
+  btnEl.disabled = true;
+  btnEl.textContent = '...';
+  try {
+    await db.collection('challenges').doc(cid).delete();
+    const row = document.getElementById(`ch-row-${cid}`);
+    if (row) {
+      row.style.transition = 'opacity 0.25s';
+      row.style.opacity = '0';
+      setTimeout(() => row.remove(), 260);
+    }
+  } catch (e) {
+    btnEl.disabled = false;
+    btnEl.textContent = '✕';
+    alert('Could not remove challenge. Try again.');
+  }
 }
 
 // ── Boot ──────────────────────────────────────────────────
