@@ -501,20 +501,31 @@ function renderChallengeHistory(challenges, listEl, emptyEl, summaryEl) {
 
   // Win / loss / tie summary
   const completed = challenges.filter(c => c.result);
-  if (summaryEl && completed.length > 0) {
+  if (completed.length > 0) {
     const wins   = completed.filter(c => c.score > c.result.score).length;
     const losses = completed.filter(c => c.score < c.result.score).length;
     const ties   = completed.filter(c => c.score === c.result.score).length;
-    summaryEl.style.display = 'flex';
-    summaryEl.innerHTML = `
-      <div class="chs-stat"><span class="chs-num chs-won">${wins}</span><span class="chs-lbl">Won</span></div>
-      <div class="chs-divider"></div>
-      <div class="chs-stat"><span class="chs-num chs-lost">${losses}</span><span class="chs-lbl">Lost</span></div>
-      <div class="chs-divider"></div>
-      <div class="chs-stat"><span class="chs-num">${ties}</span><span class="chs-lbl">Tied</span></div>
-      <div class="chs-divider"></div>
-      <div class="chs-stat"><span class="chs-num">${challenges.length}</span><span class="chs-lbl">Sent</span></div>
-    `;
+
+    // Populate hero W/L stat
+    const wlEl = document.getElementById('mastery-challenge-wl');
+    if (wlEl) {
+      wlEl.textContent = `${wins}W ${losses}L`;
+      if (wins > losses) wlEl.style.color = '#34d399';
+      else if (losses > wins) wlEl.style.color = '#f87171';
+    }
+
+    if (summaryEl) {
+      summaryEl.style.display = 'flex';
+      summaryEl.innerHTML = `
+        <div class="chs-stat"><span class="chs-num chs-won">${wins}</span><span class="chs-lbl">Won</span></div>
+        <div class="chs-divider"></div>
+        <div class="chs-stat"><span class="chs-num chs-lost">${losses}</span><span class="chs-lbl">Lost</span></div>
+        <div class="chs-divider"></div>
+        <div class="chs-stat"><span class="chs-num">${ties}</span><span class="chs-lbl">Tied</span></div>
+        <div class="chs-divider"></div>
+        <div class="chs-stat"><span class="chs-num">${challenges.length}</span><span class="chs-lbl">Sent</span></div>
+      `;
+    }
   }
 
   // Challenge rows

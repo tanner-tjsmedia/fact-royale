@@ -3777,9 +3777,36 @@ a.btn-catchup:hover {
 .cnm-close:hover { color: var(--text); background: rgba(255,255,255,0.06); }
 .cnm-card { position: relative; }
 
+/* ── Challenge History Section (Royal Record page) ──── */
+.challenge-history-section {
+  margin-bottom: 2.5rem;
+  background: linear-gradient(135deg, rgba(212,175,55,0.08) 0%, rgba(212,175,55,0.03) 100%);
+  border: 1px solid rgba(212,175,55,0.2);
+  border-radius: 16px;
+  padding: 1.5rem;
+}
+.chs-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1.1rem;
+}
+.chs-play-link {
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--gold, #f0c040);
+  text-decoration: none;
+  opacity: 0.8;
+  transition: opacity 0.2s;
+}
+.chs-play-link:hover { opacity: 1; }
+.challenge-wl-val {
+  font-size: 1.2rem !important;
+}
+
 /* ── Challenge History (Royal Record page) ─────────── */
 .challenge-history-wrap {
-  margin-bottom: 2.5rem;
+  margin-bottom: 0;
 }
 .challenge-summary-row {
   display: flex;

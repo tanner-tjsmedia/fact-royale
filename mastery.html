@@ -17,7 +17,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet" />
 
   <!-- Shared styles -->
-  <link rel="stylesheet" href="style.css?v=19" />
+  <link rel="stylesheet" href="style.css?v=20" />
 
   <style>
     /* ── Mastery page overrides / layout ── */
@@ -312,6 +312,10 @@
             <div class="m-hero-big" id="mastery-overall-acc">—</div>
             <div class="m-hero-label">Overall Accuracy</div>
           </div>
+          <div class="m-hero-num-block">
+            <div class="m-hero-big challenge-wl-val" id="mastery-challenge-wl">—</div>
+            <div class="m-hero-label">Challenge W/L</div>
+          </div>
         </div>
 
         <div class="m-hero-sub-row">
@@ -326,6 +330,22 @@
         </div>
       </div>
 
+      <!-- Challenge History — elevated above categories -->
+      <div class="challenge-history-section">
+        <div class="chs-header">
+          <div class="m-section-title" style="margin:0">⚔ Challenges</div>
+          <a href="/" class="chs-play-link">Play today to challenge →</a>
+        </div>
+        <div id="challenge-history-wrap" class="challenge-history-wrap">
+          <div id="challenge-summary" class="challenge-summary-row" style="display:none"></div>
+          <div id="challenge-history-list" class="challenge-history-list"></div>
+          <div id="challenge-empty" class="challenge-empty" style="display:none">
+            <p>No challenges yet.</p>
+            <p class="challenge-empty-sub">After you play today's quiz, hit <strong>Send Challenge</strong> to invite someone to beat your score.</p>
+          </div>
+        </div>
+      </div>
+
       <!-- Tier reference -->
       <div style="margin-bottom:2rem">
         <div class="m-section-title">Rank Tiers</div>
@@ -336,23 +356,12 @@
       <div class="m-section-title">Your Categories</div>
       <div id="mastery-grid"></div>
 
-      <!-- Challenge History -->
-      <div class="m-section-title" style="margin-top:2.5rem">Challenges</div>
-      <div id="challenge-history-wrap" class="challenge-history-wrap">
-        <div id="challenge-summary" class="challenge-summary-row" style="display:none"></div>
-        <div id="challenge-history-list" class="challenge-history-list"></div>
-        <div id="challenge-empty" class="challenge-empty" style="display:none">
-          <p>No challenges sent yet.</p>
-          <p class="challenge-empty-sub">After you play today's quiz, hit <strong>Challenge a Friend</strong> to invite someone to beat your score.</p>
-        </div>
-      </div>
-
     </div>
   </div>
 
   <!-- Scripts -->
   <script src="icons.js"></script>
-  <script src="mastery.js?v=6"></script>
+  <script src="mastery.js?v=7"></script>
   <script>
     // Sign-out
     document.getElementById('m-btn-signout').addEventListener('click', () => {
