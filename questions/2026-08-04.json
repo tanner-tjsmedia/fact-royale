@@ -5,10 +5,10 @@
       "category": "History",
       "question": "Which ancient wonder was a giant statue straddling the harbor of the Greek island of Rhodes?",
       "options": [
-        "Lighthouse of Alexandria",
         "Statue of Zeus",
+        "Colossus of Rhodes",
         "Temple of Artemis",
-        "Colossus of Rhodes"
+        "Lighthouse of Alexandria"
       ],
       "answer": "Colossus of Rhodes",
       "explanation": "The Colossus of Rhodes was a massive statue of the Greek sun god Helios, standing approximately 33 meters (108 feet) tall at the harbor entrance of Rhodes. Built around 280 BC to celebrate Rhodes' victory over Cyprus, it stood for only about 54 years before being toppled by an earthquake in 226 BC. Despite myths, it likely did not straddle the harbor entrance — ships would have sailed beneath it.",
@@ -18,10 +18,10 @@
       "category": "History",
       "question": "The Reign of Terror during the French Revolution was associated with which political leader?",
       "options": [
-        "Napoleon Bonaparte",
-        "Jean-Paul Marat",
         "Louis XVI",
-        "Maximilien Robespierre"
+        "Jean-Paul Marat",
+        "Maximilien Robespierre",
+        "Napoleon Bonaparte"
       ],
       "answer": "Maximilien Robespierre",
       "explanation": "Maximilien Robespierre led the Committee of Public Safety during the Reign of Terror (1793-1794), a period of mass executions of perceived enemies of the French Revolution. An estimated 17,000 were officially executed (including by guillotine) and 23,000 died in prison or without trial. The Terror ended when Robespierre himself was arrested and guillotined in the Thermidorian Reaction.",
@@ -31,10 +31,10 @@
       "category": "History",
       "question": "Who wrote the Communist Manifesto, published in 1848?",
       "options": [
-        "Vladimir Lenin",
         "Friedrich Engels and Karl Marx",
-        "Leon Trotsky",
-        "Joseph Stalin"
+        "Vladimir Lenin",
+        "Joseph Stalin",
+        "Leon Trotsky"
       ],
       "answer": "Friedrich Engels and Karl Marx",
       "explanation": "The Communist Manifesto was written by Karl Marx and Friedrich Engels and published in February 1848, coinciding with the wave of revolutions sweeping Europe. It outlined the theory of historical materialism, class struggle, and called for the workers of the world to unite. It remains one of the most influential political documents ever written.",
@@ -44,10 +44,10 @@
       "category": "Sports",
       "question": "What is the maximum number of sets in a men's Grand Slam tennis match?",
       "options": [
-        "3",
+        "7",
         "4",
         "5",
-        "7"
+        "3"
       ],
       "answer": "5",
       "explanation": "Men's Grand Slam tennis matches (Australian Open, French Open, Wimbledon, US Open) are played best of 5 sets. Women's Grand Slam matches are best of 3 sets. A set is typically won by the first player to reach 6 games with at least a 2-game lead. Tiebreaks are played when sets reach 6-6, with some variations depending on the tournament.",
@@ -57,10 +57,10 @@
       "category": "Sports",
       "question": "What term describes a perfect game in bowling — 12 consecutive strikes?",
       "options": [
-        "Turkey",
+        "300",
         "Grand slam",
         "Strike out",
-        "300"
+        "Turkey"
       ],
       "answer": "300",
       "explanation": "A perfect game in bowling consists of 12 consecutive strikes (rolling the ball into the pocket and knocking all 10 pins down on the first ball each frame), resulting in a score of 300 — the maximum possible. Bowling a 300 is extremely rare — the odds for an average recreational bowler are roughly 1 in 11,500. Even professional bowlers consider it a remarkable achievement.",
@@ -70,10 +70,10 @@
       "category": "Pop Culture",
       "question": "Which British band is known for 'Hey Jude,' 'Let It Be,' and 'Come Together'?",
       "options": [
-        "The Rolling Stones",
         "The Kinks",
         "The Who",
-        "The Beatles"
+        "The Beatles",
+        "The Rolling Stones"
       ],
       "answer": "The Beatles",
       "explanation": "The Beatles — John Lennon, Paul McCartney, George Harrison, and Ringo Starr — are widely considered the most influential band in music history. They dominated the 1960s, introduced the album as an art form, pioneered music video, and transformed pop songwriting. They broke up in 1970. Their music has sold an estimated 600 million records — more than any other act.",
@@ -83,9 +83,9 @@
       "category": "Pop Culture",
       "question": "Which 1980s coming-of-age film featured the song 'Don't You (Forget About Me)' by Simple Minds?",
       "options": [
-        "Ferris Bueller's Day Off",
         "Sixteen Candles",
         "Pretty in Pink",
+        "Ferris Bueller's Day Off",
         "The Breakfast Club"
       ],
       "answer": "The Breakfast Club",
@@ -96,9 +96,9 @@
       "category": "Pop Culture",
       "question": "Banksy is the world's most famous anonymous street artist, whose identity has never been officially confirmed. What aspect of Banksy's practice makes their work historically significant beyond its visual impact?",
       "options": [
-        "Banksy single-handedly elevated street art's auction prices — the artist's works have sold for up to $25 million, transforming what was legally vandalism into one of the most commercially valuable contemporary art forms",
         "Banksy created the first street art to be acquired by a major museum while the artist remained anonymous — the Tate Modern acquired a Banksy work in 2003 after the artist installed it without permission and museum staff decided to keep it",
         "Banksy's 2018 auction stunt — where 'Girl With Balloon' shredded itself moments after selling for $1.4 million — was later revealed to have increased the work's value to $25.4 million, making it one of the most expensive British artworks ever sold",
+        "Banksy single-handedly elevated street art's auction prices — the artist's works have sold for up to $25 million, transforming what was legally vandalism into one of the most commercially valuable contemporary art forms",
         "Banksy pioneered 'reversible vandalism' — developing water-soluble paint that would dissolve in rain, which legally protected them from prosecution since the art caused no permanent damage to surfaces"
       ],
       "answer": "Banksy's 2018 auction stunt — where 'Girl With Balloon' shredded itself moments after selling for $1.4 million — was later revealed to have increased the work's value to $25.4 million, making it one of the most expensive British artworks ever sold",
@@ -109,8 +109,8 @@
       "category": "Geography",
       "question": "Which South American country is home to the Galapagos Islands, famous for inspiring Darwin's theory of evolution?",
       "options": [
-        "Peru",
         "Chile",
+        "Peru",
         "Colombia",
         "Ecuador"
       ],
@@ -122,9 +122,9 @@
       "category": "Science & Nature",
       "question": "What is the term for the process by which one species gradually changes into another over many generations?",
       "options": [
-        "Mutation",
         "Natural selection",
         "Genetic drift",
+        "Mutation",
         "Evolution"
       ],
       "answer": "Evolution",
@@ -136,9 +136,9 @@
       "question": "Mount Olympus, the highest peak in Greece at 2,917 meters, is located in which part of the country?",
       "options": [
         "On the island of Crete",
-        "On the Peloponnese Peninsula",
+        "In northern Greece near Thessaloniki",
         "On a small island off Athens",
-        "In northern Greece near Thessaloniki"
+        "On the Peloponnese Peninsula"
       ],
       "answer": "In northern Greece near Thessaloniki",
       "explanation": "Mount Olympus is located in northern Greece, on the border between Thessaly and Macedonia, about 80 km southwest of Thessaloniki. In Greek mythology, it was the home of the twelve Olympian gods (Zeus, Hera, Poseidon, Athena, etc.) who ruled from its peak. It has 52 peaks; Mytikas (2,917 m) is the highest. Mount Olympus was declared a national park in 1938 — Greece's first — and is a UNESCO Biosphere Reserve.",
@@ -148,10 +148,10 @@
       "category": "Science & Nature",
       "question": "When a ball rolls downhill, what conversion of energy is occurring?",
       "options": [
-        "Chemical to kinetic",
         "Nuclear to thermal",
         "Potential to kinetic",
-        "Kinetic to potential"
+        "Kinetic to potential",
+        "Chemical to kinetic"
       ],
       "answer": "Potential to kinetic",
       "explanation": "Potential energy is stored energy based on position or configuration — an object at height has gravitational potential energy. Kinetic energy is the energy of motion. When an object falls or rolls downhill, potential energy converts to kinetic energy. The total mechanical energy (potential + kinetic) is conserved in the absence of friction. Energy conversions are happening constantly: chemical → kinetic (muscles), electrical → light (bulbs), kinetic → electrical (generators).",

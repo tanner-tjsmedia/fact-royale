@@ -5,10 +5,10 @@
       "category": "History",
       "question": "D-Day (June 6, 1944) involved approximately how many troops and what were the five beach code names?",
       "options": [
-        "156,000 troops; Omaha, Utah, Gold, Juno, Sword",
+        "156,000 troops; North, South, East, West, Center",
         "80,000 troops; Alpha, Beta, Gamma, Delta, Epsilon",
         "250,000 troops; Red, Blue, Green, White, Black",
-        "156,000 troops; North, South, East, West, Center"
+        "156,000 troops; Omaha, Utah, Gold, Juno, Sword"
       ],
       "answer": "156,000 troops; Omaha, Utah, Gold, Juno, Sword",
       "explanation": "D-Day (Operation Overlord) on June 6, 1944 involved approximately 156,000 Allied troops in the largest seaborne invasion in history. The five beaches were: Utah and Omaha (US), Gold and Sword (British), Juno (Canadian). General Eisenhower commanded.",
@@ -18,9 +18,9 @@
       "category": "Science & Nature",
       "question": "What is a circadian rhythm and what body structure acts as the master clock?",
       "options": [
+        "Monthly cycle; the pituitary gland",
         "~24-hour internal biological clock; the suprachiasmatic nucleus (SCN) in the hypothalamus",
         "Weekly biological cycle; the pineal gland",
-        "Monthly cycle; the pituitary gland",
         "Annual cycle; the cerebellum"
       ],
       "answer": "~24-hour internal biological clock; the suprachiasmatic nucleus (SCN) in the hypothalamus",
@@ -31,10 +31,10 @@
       "category": "Sports",
       "question": "Which cyclist won the Tour de France 5 times, also won 5 Giro d'Italia titles, and is nicknamed 'The Cannibal'?",
       "options": [
-        "Eddy Merckx (Belgian)",
         "Jacques Anquetil (French)",
-        "Bernard Hinault (French)",
-        "Miguel Indurain (Spanish)"
+        "Miguel Indurain (Spanish)",
+        "Eddy Merckx (Belgian)",
+        "Bernard Hinault (French)"
       ],
       "answer": "Eddy Merckx (Belgian)",
       "explanation": "Eddy Merckx won the Tour de France 5 times (1969-72, 1974) and the Giro d'Italia 5 times — arguably the greatest cyclist of all time. He won 525 career races, earning the nickname 'The Cannibal.'",
@@ -44,10 +44,10 @@
       "category": "Pop Culture",
       "question": "West Side Story (1957/1961) was inspired by Shakespeare's Romeo and Juliet. Who wrote its music?",
       "options": [
-        "Leonard Bernstein (music) and Stephen Sondheim (lyrics)",
         "George Gershwin",
-        "Cole Porter",
-        "Andrew Lloyd Webber"
+        "Andrew Lloyd Webber",
+        "Leonard Bernstein (music) and Stephen Sondheim (lyrics)",
+        "Cole Porter"
       ],
       "answer": "Leonard Bernstein (music) and Stephen Sondheim (lyrics)",
       "explanation": "West Side Story had music by Leonard Bernstein and lyrics by Stephen Sondheim. The 1961 film won 10 Oscars. The 2021 Spielberg remake won Best Supporting Actress (Ariana DeBose).",
@@ -57,10 +57,10 @@
       "category": "Geography",
       "question": "Bikini Atoll in the Marshall Islands: why is it famous, and how did 'bikini' swimwear get its name?",
       "options": [
-        "US nuclear tests (1946); designer Réard named the explosive new swimsuit after the 'explosive' tests",
         "It had beautiful beaches and the name was adopted for its beauty",
         "A French film was made there in the 1940s",
-        "The bikini crab lives there"
+        "The bikini crab lives there",
+        "US nuclear tests (1946); designer Réard named the explosive new swimsuit after the 'explosive' tests"
       ],
       "answer": "US nuclear tests (1946); designer Réard named the explosive new swimsuit after the 'explosive' tests",
       "explanation": "The US conducted nuclear tests at Bikini Atoll starting July 1946. French designer Louis Réard unveiled his tiny two-piece swimsuit shortly after and named it 'bikini' to suggest its 'explosive' impact. The islanders were relocated and never fully returned.",
@@ -70,10 +70,10 @@
       "category": "History",
       "question": "John Locke's idea that citizens have the right to revolt if government fails them directly influenced which document?",
       "options": [
-        "U.S. Declaration of Independence",
         "U.S. Constitution",
-        "Magna Carta",
-        "French Declaration of the Rights of Man"
+        "U.S. Declaration of Independence",
+        "French Declaration of the Rights of Man",
+        "Magna Carta"
       ],
       "answer": "U.S. Declaration of Independence",
       "explanation": "Jefferson borrowed Locke's ideas from 'Second Treatise of Government' (1689) directly. Locke's 'life, liberty, property' became 'life, liberty, pursuit of happiness' in Jefferson's hand.",
@@ -83,10 +83,10 @@
       "category": "Pop Culture",
       "question": "What was 'The Rachel' and why is it famous in pop culture history?",
       "options": [
-        "Jennifer Aniston's Friends hairstyle — reportedly the most-copied hairstyle in American history",
-        "A cocktail invented on the set of 'Friends'",
         "The nickname for Rachel Green's apartment on Friends",
-        "A fashion trend from the show's famous 'Rachel's closet' scenes"
+        "A fashion trend from the show's famous 'Rachel's closet' scenes",
+        "A cocktail invented on the set of 'Friends'",
+        "Jennifer Aniston's Friends hairstyle — reportedly the most-copied hairstyle in American history"
       ],
       "answer": "Jennifer Aniston's Friends hairstyle — reportedly the most-copied hairstyle in American history",
       "explanation": "'The Rachel' — Jennifer Aniston's layered blowout haircut in early Friends episodes — became the most-copied hairstyle in American history, according to her own hairdresser. Friends ran 1994-2004 and remains one of the most-watched streaming shows.",
@@ -96,10 +96,10 @@
       "category": "Science & Nature",
       "question": "Alan Turing's work cracking Nazi Enigma codes during WWII is estimated to have saved how many lives?",
       "options": [
-        "An estimated 14 million lives",
-        "About 1 million lives",
         "About 100,000 lives",
-        "The number is unknown and disputed"
+        "The number is unknown and disputed",
+        "About 1 million lives",
+        "An estimated 14 million lives"
       ],
       "answer": "An estimated 14 million lives",
       "explanation": "Alan Turing's Bombe machine helped crack Enigma codes, shortening the war by an estimated 2 years and saving approximately 14 million lives. He was prosecuted for homosexuality in 1952 and died in 1954. He appeared on the British £50 note from 2021.",
@@ -122,10 +122,10 @@
       "category": "History",
       "question": "Dorothea Lange's 'Migrant Mother' (1936): who was the woman in the photo?",
       "options": [
+        "A professional model hired by the Farm Security Administration",
         "Florence Owens Thompson, a Cherokee woman who was not paid for the photograph",
-        "Dorothea Lange herself",
         "An anonymous farm worker whose identity was never discovered",
-        "A professional model hired by the Farm Security Administration"
+        "Dorothea Lange herself"
       ],
       "answer": "Florence Owens Thompson, a Cherokee woman who was not paid for the photograph",
       "explanation": "'Migrant Mother' shows Florence Owens Thompson, a 32-year-old Cherokee woman. Lange took 7 photographs; the famous one was the last. Thompson was never paid and was upset by the image's fame.",
@@ -135,10 +135,10 @@
       "category": "Pop Culture",
       "question": "La La Land won 6 Oscars at the 2017 ceremony but is most famous for what chaos?",
       "options": [
-        "Warren Beatty read the wrong winner's name for Best Picture — Moonlight actually won",
-        "The director gave a tearful speech that lasted 45 minutes",
         "All 6 awards were given to the wrong film",
-        "Emma Stone refused to accept her Oscar live"
+        "Emma Stone refused to accept her Oscar live",
+        "The director gave a tearful speech that lasted 45 minutes",
+        "Warren Beatty read the wrong winner's name for Best Picture — Moonlight actually won"
       ],
       "answer": "Warren Beatty read the wrong winner's name for Best Picture — Moonlight actually won",
       "explanation": "In one of cinema's most dramatic moments, Warren Beatty and Faye Dunaway announced La La Land as Best Picture winner. La La Land producers were mid-speech when the mistake was caught and Moonlight announced as the real winner. La La Land did win 6 other Oscars.",

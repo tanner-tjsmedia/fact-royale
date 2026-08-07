@@ -6,8 +6,8 @@
       "question": "The Triangle Shirtwaist Factory fire in 1911 killed 146 garment workers, mostly young immigrant women. Why was it so deadly?",
       "options": [
         "The building collapsed in the fire",
-        "Managers had locked the exit doors to prevent theft and unauthorized breaks",
         "The fire department had no ladders tall enough to reach upper floors (both true)",
+        "Managers had locked the exit doors to prevent theft and unauthorized breaks",
         "The fire spread through a gas pipeline"
       ],
       "answer": "Managers had locked the exit doors to prevent theft and unauthorized breaks",
@@ -18,10 +18,10 @@
       "category": "History",
       "question": "Genghis Khan founded the Mongol Empire, which became the largest contiguous land empire in history. Approximately how much of the world's land area did it cover at its peak?",
       "options": [
+        "33%",
         "10%",
-        "16%",
         "25%",
-        "33%"
+        "16%"
       ],
       "answer": "16%",
       "explanation": "The Mongol Empire at its peak (c.1270) covered about 24 million km² — approximately 16% of Earth's total land area, stretching from the Pacific Ocean to Eastern Europe. Genghis Khan (born Temüjin, c.1162) united the Mongol tribes in 1206 and conquered China, Persia, and parts of Europe through a combination of military tactics, speed, and psychological terror. His empire facilitated the Pax Mongolica — a period of trade and communication across Eurasia.",
@@ -32,9 +32,9 @@
       "question": "The US Constitution was ratified in 1788, replacing which earlier governing document that had proven too weak?",
       "options": [
         "The Mayflower Compact",
-        "The Declaration of Independence",
         "The Articles of Confederation",
-        "The Northwest Ordinance"
+        "The Northwest Ordinance",
+        "The Declaration of Independence"
       ],
       "answer": "The Articles of Confederation",
       "explanation": "The Articles of Confederation (1781) created a very weak central government with no power to tax, no executive, no federal courts, and no ability to regulate commerce. Shays' Rebellion (1786-87) — a farmers' uprising that the federal government couldn't suppress — convinced leaders a stronger document was needed. The Constitutional Convention (1787) produced the current Constitution, ratified in 1788.",
@@ -44,10 +44,10 @@
       "category": "Sports",
       "question": "In tennis, the 'Golden Slam' is winning all four Grand Slams plus the Olympic gold in the same year. Who achieved this first?",
       "options": [
-        "Serena Williams",
-        "Steffi Graf",
         "Martina Navratilova",
-        "Chris Evert"
+        "Chris Evert",
+        "Steffi Graf",
+        "Serena Williams"
       ],
       "answer": "Steffi Graf",
       "explanation": "Steffi Graf of Germany achieved the Golden Slam in 1988 — the only player in tennis history to win all four Grand Slams (Australian Open, French Open, Wimbledon, US Open) and the Olympic gold medal in the same calendar year. She also won 22 Grand Slam singles titles in total, including a 6-year dominance of women's tennis. Her 1988 Wimbledon win didn't drop a single set.",
@@ -57,10 +57,10 @@
       "category": "Sports",
       "question": "The Stanley Cup, the oldest professional sports trophy in North America, has been awarded to the NHL champion since which year?",
       "options": [
+        "1942",
         "1893",
         "1917",
-        "1925",
-        "1942"
+        "1925"
       ],
       "answer": "1893",
       "explanation": "Lord Stanley, Governor General of Canada, donated the Stanley Cup in 1892, and it was first awarded in 1893. The original cup is now preserved in the Hockey Hall of Fame; the trophy currently awarded is a replica rebuilt annually. The Montreal Canadiens have won it the most (24 times). The Cup is famous for players taking personal possession of it for a day during the summer — it has been to the Moon (in replica), North Pole, and many unusual locations.",
@@ -70,10 +70,10 @@
       "category": "Pop Culture",
       "question": "Alfred Hitchcock's 1960 horror film 'Psycho' is famous for its shocking shower scene. What made it revolutionary for its time?",
       "options": [
-        "It featured the first CGI in film history",
-        "It killed off the main character very early, and depicted nudity and graphic violence unprecedented for mainstream cinema",
+        "It was the first color horror film",
         "It was the first film with a synchronized soundtrack",
-        "It was the first color horror film"
+        "It featured the first CGI in film history",
+        "It killed off the main character very early, and depicted nudity and graphic violence unprecedented for mainstream cinema"
       ],
       "answer": "It killed off the main character very early, and depicted nudity and graphic violence unprecedented for mainstream cinema",
       "explanation": "Marion Crane (Janet Leigh), clearly set up as the protagonist, is killed in the shower at the Bates Motel only 30 minutes into Psycho. This subversion of audience expectations was unprecedented. Hitchcock showed toilet flushing (a first for mainstream American film) and implied nudity. He required theaters to not admit latecomers — also unprecedented. The film launched the slasher genre and transformed what was acceptable in mainstream cinema.",
@@ -83,10 +83,10 @@
       "category": "Pop Culture",
       "question": "'Bohemian Rhapsody' by Queen (1975) is one of the best-selling singles ever. Which band member wrote it?",
       "options": [
-        "Brian May",
-        "Roger Taylor",
         "John Deacon",
-        "Freddie Mercury"
+        "Freddie Mercury",
+        "Brian May",
+        "Roger Taylor"
       ],
       "answer": "Freddie Mercury",
       "explanation": "Freddie Mercury wrote 'Bohemian Rhapsody' — a 5-minute, 55-second operatic rock ballad that defied all commercial conventions. Radio DJs initially refused to play it because it was too long. It reached #1 in the UK for 9 weeks and has been covered, parodied, and featured in countless films. Following Mercury's death from AIDS in 1991, re-released for the AIDS charity, it became the UK's best-selling single of the 20th century.",
@@ -96,10 +96,10 @@
       "category": "Pop Culture",
       "question": "Herman Melville's 'Moby-Dick' (1851) features Ahab's obsessive pursuit of a white sperm whale. What is the name of the ship's narrator who tells the story?",
       "options": [
-        "Starbuck",
-        "Queequeg",
         "Pip",
-        "Ishmael"
+        "Queequeg",
+        "Ishmael",
+        "Starbuck"
       ],
       "answer": "Ishmael",
       "explanation": "The novel famously opens with 'Call me Ishmael' — one of the most recognizable opening lines in literature. Ishmael is the sole survivor of the Pequod's final encounter with the white whale. Melville's novel was a commercial failure on publication and nearly forgotten until the 20th century, when it was rediscovered as a masterpiece of American literature. Captain Ahab's obsession with Moby Dick has become a universal metaphor for destructive fixation.",
@@ -109,10 +109,10 @@
       "category": "Geography",
       "question": "The Niger River, West Africa's principal river, flows in an unusual boomerang shape. In which country does it originate — surprisingly close to the Atlantic Ocean — before flowing inland?",
       "options": [
-        "Mali",
+        "Nigeria",
         "Chad",
         "Guinea",
-        "Nigeria"
+        "Mali"
       ],
       "answer": "Guinea",
       "explanation": "The Niger River originates in the Fouta Djallon highlands of Guinea, just 240 km from the Atlantic coast. Rather than flowing directly to the sea, it curves northeast into the Sahara toward Mali, then bends southeast through Niger and Nigeria before finally emptying into the Gulf of Guinea via a massive delta. The 4,180 km journey is one of the world's great hydrological puzzles — a river that starts near the ocean, runs away from it, then returns.",
@@ -122,10 +122,10 @@
       "category": "Geography",
       "question": "Patagonia, the vast windswept plateau at the southern tip of South America, is divided between which two countries?",
       "options": [
+        "Brazil and Uruguay",
         "Bolivia and Chile",
         "Argentina and Chile",
-        "Peru and Argentina",
-        "Brazil and Uruguay"
+        "Peru and Argentina"
       ],
       "answer": "Argentina and Chile",
       "explanation": "Patagonia encompasses the southern portions of both Argentina (east of the Andes) and Chile (west of the Andes), covering approximately 1 million km². It is famous for its extreme winds, glaciers, steppe grasslands, and wildlife including guanacos, penguins, condors, and southern right whales. Torres del Paine National Park in Chilean Patagonia is one of the world's most spectacular landscapes. Patagonia takes its name from 'Patagón' — Magellan's word for the indigenous people he met there.",
@@ -135,9 +135,9 @@
       "category": "Science & Nature",
       "question": "Ocean currents play a critical role in regulating Earth's climate. What drives the 'thermohaline circulation' — the global conveyor belt of ocean currents?",
       "options": [
+        "Tidal forces from the Moon",
         "Wind patterns alone",
         "Temperature and salinity differences that cause denser, saltier, colder water to sink, driving a global circulation pattern",
-        "Tidal forces from the Moon",
         "Differences in ocean floor topography"
       ],
       "answer": "Temperature and salinity differences that cause denser, saltier, colder water to sink, driving a global circulation pattern",
@@ -149,8 +149,8 @@
       "question": "Radioactive decay occurs when unstable atomic nuclei lose energy. What are the three main types of radioactive decay?",
       "options": [
         "Proton, neutron, and electron decay",
-        "Alpha (helium nucleus), beta (electron), and gamma (electromagnetic radiation) decay",
         "Fusion, fission, and spontaneous combustion",
+        "Alpha (helium nucleus), beta (electron), and gamma (electromagnetic radiation) decay",
         "Positive, negative, and neutral decay"
       ],
       "answer": "Alpha (helium nucleus), beta (electron), and gamma (electromagnetic radiation) decay",

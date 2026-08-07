@@ -5,10 +5,10 @@
       "category": "History",
       "question": "The Aztec Empire was conquered by Spanish forces led by which conquistador in the early 16th century?",
       "options": [
-        "Francisco Pizarro",
-        "Juan Ponce de Leon",
         "Vasco Nunez de Balboa",
-        "Hernan Cortes"
+        "Juan Ponce de Leon",
+        "Hernan Cortes",
+        "Francisco Pizarro"
       ],
       "answer": "Hernan Cortes",
       "explanation": "Hernan Cortes conquered the Aztec Empire between 1519 and 1521 with a force of about 600 Spanish soldiers, allied with tens of thousands of indigenous enemies of the Aztecs. He captured the Aztec emperor Moctezuma II, destroyed Tenochtitlan, and established New Spain. The conquest combined military force, disease (smallpox), strategic alliances, and the psychological shock of the Spanish arrival.",
@@ -18,10 +18,10 @@
       "category": "History",
       "question": "The Emancipation Proclamation took effect on which date?",
       "options": [
-        "July 4, 1862",
-        "September 22, 1862",
         "January 1, 1863",
-        "April 9, 1865"
+        "April 9, 1865",
+        "July 4, 1862",
+        "September 22, 1862"
       ],
       "answer": "January 1, 1863",
       "explanation": "President Lincoln's Emancipation Proclamation took effect on January 1, 1863, declaring that enslaved people in Confederate states in rebellion were free. It was issued after the Union victory at Antietam in September 1862 gave Lincoln the political standing to make such a declaration. The 13th Amendment, which permanently abolished slavery throughout the US, was ratified in December 1865.",
@@ -31,8 +31,8 @@
       "category": "History",
       "question": "Which city served as the capital of the Byzantine Empire until its fall in 1453?",
       "options": [
-        "Athens",
         "Alexandria",
+        "Athens",
         "Antioch",
         "Constantinople"
       ],
@@ -44,9 +44,9 @@
       "category": "Sports",
       "question": "In American football, what is a 'Hail Mary' play?",
       "options": [
-        "A kickoff return",
-        "A defensive blitz",
         "A field goal attempt",
+        "A defensive blitz",
+        "A kickoff return",
         "A long, desperate forward pass"
       ],
       "answer": "A long, desperate forward pass",
@@ -57,9 +57,9 @@
       "category": "Sports",
       "question": "At what age did Tiger Woods become the youngest Masters golf champion in 1997?",
       "options": [
-        "19",
-        "20",
         "21",
+        "20",
+        "19",
         "22"
       ],
       "answer": "21",
@@ -70,8 +70,8 @@
       "category": "Pop Culture",
       "question": "Which 2017 Jordan Peele film about a Black man visiting his white girlfriend's family is considered a landmark of modern horror?",
       "options": [
-        "Us",
         "Nope",
+        "Us",
         "Candyman",
         "Get Out"
       ],
@@ -81,14 +81,14 @@
     },
     {
       "category": "Pop Culture",
-      "question": "Deadwood (HBO, 2004–2006) — set in an 1870s South Dakota mining camp — is acclaimed as one of TV's most linguistically inventive dramas. What made its creative approach distinctive?",
+      "question": "Deadwood (HBO, 2004-2006), set in an 1870s mining camp, is praised for its language. What was David Milch's approach?",
       "options": [
-        "Creator David Milch used actual court transcripts, newspaper accounts, and sheriff's logs from the real Deadwood to write every episode, making it the most historically documented drama in TV history",
-        "Milch had the cast speak in anachronistic Shakespearean iambic pentameter — arguing that elevated language was more historically honest than Hollywood cowboy clichés, creating a strange poetry in a frontier setting",
-        "Milch created a deliberate anachronism: the characters used modern profanity because period-accurate obscenity would be incomprehensible to modern audiences, while Shakespearean dramatic structure gave the show its literary depth",
-        "Deadwood was filmed entirely without a script — Milch delivered each day's dialogue to cast members orally the morning of filming, arguing that true improvisation was the only way to capture frontier unpredictability"
+        "Dialogue written in Shakespearean iambic pentameter",
+        "Modern profanity for period effect, Shakespearean structure",
+        "Every episode drawn from real Deadwood court records",
+        "No script; dialogue delivered orally each morning"
       ],
-      "answer": "Milch created a deliberate anachronism: the characters used modern profanity because period-accurate obscenity would be incomprehensible to modern audiences, while Shakespearean dramatic structure gave the show its literary depth",
+      "answer": "Modern profanity for period effect, Shakespearean structure",
       "explanation": "David Milch (NYPD Blue) made a conscious decision to use modern profanity rather than 19th-century insults because the emotional impact would be lost. The show's elaborate, often digressive monologues — particularly from Ian McShane's Al Swearengen — recall Shakespearean soliloquy. Milch structured the camp itself as an emerging society inventing its own law and morality without outside governance — a frontier political experiment. HBO cancelled it after Season 3, leaving storylines unresolved; a 2019 film reunion concluded the story. McShane's Swearengen is considered one of TV's great anti-heroes.",
       "memory_hook": "Deadwood uses modern profanity by design — period-accurate 19th-century obscenity would be meaningless to viewers, Milch argued. The camp's Shakespearean monologues and improvised frontier law-making are the real subject; Ian McShane's Swearengen is one of TV's great villains."
     },
@@ -96,10 +96,10 @@
       "category": "Pop Culture",
       "question": "The 1990s saw the rise of grunge music. Which band released the album 'Ten' in 1991?",
       "options": [
-        "Soundgarden",
         "Alice in Chains",
+        "Pearl Jam",
         "Stone Temple Pilots",
-        "Pearl Jam"
+        "Soundgarden"
       ],
       "answer": "Pearl Jam",
       "explanation": "Pearl Jam's debut album Ten was released on August 27, 1991, and became one of the best-selling albums of the 1990s, selling over 13 million copies in the US alone. Featuring 'Alive,' 'Black,' and 'Jeremy,' it was a cornerstone of the grunge movement alongside Nirvana's Nevermind (released a month later). Eddie Vedder's deep baritone vocals became one of rock's most recognizable voices.",
@@ -109,9 +109,9 @@
       "category": "Geography",
       "question": "Which river, the longest in Asia, flows from the Tibetan Plateau to the East China Sea?",
       "options": [
+        "Brahmaputra",
         "Mekong",
         "Yellow River",
-        "Brahmaputra",
         "Yangtze River"
       ],
       "answer": "Yangtze River",
@@ -122,10 +122,10 @@
       "category": "Science & Nature",
       "question": "What is the term for an organism that makes its own food using energy from sunlight or chemicals?",
       "options": [
-        "Heterotroph",
-        "Omnivore",
+        "Autotroph",
         "Decomposer",
-        "Autotroph"
+        "Omnivore",
+        "Heterotroph"
       ],
       "answer": "Autotroph",
       "explanation": "Autotrophs (or 'producers') make their own food. Photoautotrophs use sunlight (plants, algae, cyanobacteria). Chemoautotrophs use chemical energy (certain bacteria living near deep-sea hydrothermal vents with no sunlight). In contrast, heterotrophs (animals, fungi, most bacteria) must consume other organisms for energy. Almost all food chains on Earth begin with autotrophs capturing energy from outside sources.",
@@ -135,10 +135,10 @@
       "category": "Geography",
       "question": "The Po River, Italy's longest river at about 682 km, flows through the fertile Po Valley before emptying into which sea?",
       "options": [
-        "Tyrrhenian Sea",
-        "Ligurian Sea",
         "Adriatic Sea",
-        "Mediterranean Sea"
+        "Ligurian Sea",
+        "Mediterranean Sea",
+        "Tyrrhenian Sea"
       ],
       "answer": "Adriatic Sea",
       "explanation": "The Po River originates in the Alps near the French border and flows eastward through the Po Valley (Pianura Padana) — Italy's most fertile agricultural region and industrial heartland — before forming a large delta in northeastern Italy and emptying into the Adriatic Sea. The Po Valley is one of the most densely populated and heavily industrialized regions in Europe, containing cities including Turin, Milan, Parma, and Bologna. The Po is also one of Europe's most heavily polluted rivers.",
@@ -148,10 +148,10 @@
       "category": "Science & Nature",
       "question": "What is apoptosis — and why is it essential for normal development and disease prevention?",
       "options": [
+        "The replication of DNA during mitosis",
         "The process of cellular energy production",
         "Programmed cell death that eliminates damaged or unnecessary cells",
-        "The division of cancer cells",
-        "The replication of DNA during mitosis"
+        "The division of cancer cells"
       ],
       "answer": "Programmed cell death that eliminates damaged or unnecessary cells",
       "explanation": "Apoptosis is a highly regulated process of programmed cell death — cells essentially commit suicide in an orderly way, without triggering inflammation. It is essential for: embryonic development (fingers form when cells between them die), immune regulation (eliminating autoreactive T cells), and cancer prevention (eliminating mutated cells before they proliferate). When apoptosis fails — cells that should die instead survive and divide — cancer can result. Many cancer treatments work by triggering apoptosis in tumor cells.",

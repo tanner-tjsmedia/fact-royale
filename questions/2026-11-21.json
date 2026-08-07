@@ -5,10 +5,10 @@
       "category": "History",
       "question": "What was the Boxer Rebellion (1899-1901) in China?",
       "options": [
-        "A Chinese military coup against the Qing Emperor that established a republic in 1901",
         "An anti-foreign, anti-Christian uprising by the 'Society of Righteous and Harmonious Fists.' They besieged foreign legations in Beijing for 55 days. An Eight-Nation Alliance defeated them, and the Boxer Protocol imposed massive reparations on China",
         "A rebellion by Western merchants against Qing tariffs, suppressed by Chinese-Japanese forces",
-        "A peasant tax revolt suppressed by joint Chinese-British military forces"
+        "A peasant tax revolt suppressed by joint Chinese-British military forces",
+        "A Chinese military coup against the Qing Emperor that established a republic in 1901"
       ],
       "answer": "An anti-foreign, anti-Christian uprising by the 'Society of Righteous and Harmonious Fists.' They besieged foreign legations in Beijing for 55 days. An Eight-Nation Alliance defeated them, and the Boxer Protocol imposed massive reparations on China",
       "explanation": "The Boxers believed martial arts made them bulletproof. After the Eight-Nation Alliance (US, UK, Russia, Japan, Germany, France, Austria-Hungary, Italy) lifted the siege, the Boxer Protocol (1901) required 450 million taels in reparations. The US used its portion to fund Chinese students studying in America — the Boxer Indemnity Scholarship. The humiliation accelerated the Qing dynasty's collapse in 1911.",
@@ -19,9 +19,9 @@
       "question": "Who was Kemal Atatürk and what did he do to transform Turkey?",
       "options": [
         "The last Ottoman Sultan who accepted defeat in WWI and signed the Treaty of Sèvres",
+        "A religious reformer who created a uniquely Turkish interpretation of Islamic law compatible with democratic governance",
         "A Turkish military commander who led the Turkish War of Independence (1919-1923), abolished the Ottoman Sultanate and Caliphate, founded the Turkish Republic (1923), and aggressively secularized the country — adopting the Latin alphabet, Western legal codes, and separating religion from government",
-        "A German military advisor who modernized Turkey's army after WWI",
-        "A religious reformer who created a uniquely Turkish interpretation of Islamic law compatible with democratic governance"
+        "A German military advisor who modernized Turkey's army after WWI"
       ],
       "answer": "A Turkish military commander who led the Turkish War of Independence (1919-1923), abolished the Ottoman Sultanate and Caliphate, founded the Turkish Republic (1923), and aggressively secularized the country — adopting the Latin alphabet, Western legal codes, and separating religion from government",
       "explanation": "Atatürk resisted Allied partition plans after WWI, won independence, then transformed Turkey: abolished the Islamic Caliphate (1924), replaced Arabic script with Latin in 18 months (1928), granted women's suffrage (1934 — before France or Italy), introduced surnames (Turks hadn't used them; parliament gave him 'Atatürk' = Father of Turks and forbade anyone else from using it).",
@@ -31,10 +31,10 @@
       "category": "History",
       "question": "What were the actual limitations of the Emancipation Proclamation (1863)?",
       "options": [
-        "It immediately freed all enslaved people throughout the United States",
         "It declared enslaved people in Confederate states 'forever free' — but applied ONLY to Confederate states where Lincoln had no control, not border states in the Union. It transformed the war's moral purpose and allowed Black men to enlist, but the 13th Amendment (1865) actually abolished slavery",
         "It freed enslaved people only in border states loyal to the Union",
-        "It was purely a diplomatic document addressed to Britain and France with no domestic force"
+        "It was purely a diplomatic document addressed to Britain and France with no domestic force",
+        "It immediately freed all enslaved people throughout the United States"
       ],
       "answer": "It declared enslaved people in Confederate states 'forever free' — but applied ONLY to Confederate states where Lincoln had no control, not border states in the Union. It transformed the war's moral purpose and allowed Black men to enlist, but the 13th Amendment (1865) actually abolished slavery",
       "explanation": "Lincoln's Proclamation was a war measure, not a law. It exempted border states (Missouri, Kentucky, Maryland, Delaware) he needed militarily. It declared free ~3.5 million enslaved people in Confederate territory where he had no enforcement power. Its symbolic effect was huge: it prevented Britain from recognizing the Confederacy (Britain had abolished slavery in 1833) and allowed 180,000 Black men to serve in Union forces. The 13th Amendment abolished slavery everywhere.",
@@ -45,8 +45,8 @@
       "question": "What was the 1972 Munich Olympics massacre?",
       "options": [
         "Israeli athletes boycotted Munich over anti-Semitic incidents; the IOC investigated German practices",
-        "Eleven Israeli athletes and coaches were taken hostage and killed by the Palestinian group Black September — the botched West German rescue attempt killed all 11 hostages. It transformed Olympic security worldwide and led to Israel's Mossad launching Operation Wrath of God",
         "A Soviet athlete bombing at the stadium killed 20 spectators, leading to international security protocols",
+        "Eleven Israeli athletes and coaches were taken hostage and killed by the Palestinian group Black September — the botched West German rescue attempt killed all 11 hostages. It transformed Olympic security worldwide and led to Israel's Mossad launching Operation Wrath of God",
         "Soviet doping was discovered, leading to international anti-doping protocols"
       ],
       "answer": "Eleven Israeli athletes and coaches were taken hostage and killed by the Palestinian group Black September — the botched West German rescue attempt killed all 11 hostages. It transformed Olympic security worldwide and led to Israel's Mossad launching Operation Wrath of God",
@@ -57,10 +57,10 @@
       "category": "Sports",
       "question": "How does rugby fundamentally differ from American football?",
       "options": [
+        "Rugby is a non-contact sport; American football derives from it by adding tackling",
         "Rugby and American football are essentially identical; only player count differs (15 vs 11)",
-        "Rugby: players pass only backward, no protective padding, continuous play with no downs, any opponent can tackle the ball carrier. American football derived from rugby in the 1880s through Walter Camp's innovations (forward pass, line of scrimmage, downs)",
         "Rugby uses helmets and pads; American football uses none. Rugby allows forward passes",
-        "Rugby is a non-contact sport; American football derives from it by adding tackling"
+        "Rugby: players pass only backward, no protective padding, continuous play with no downs, any opponent can tackle the ball carrier. American football derived from rugby in the 1880s through Walter Camp's innovations (forward pass, line of scrimmage, downs)"
       ],
       "answer": "Rugby: players pass only backward, no protective padding, continuous play with no downs, any opponent can tackle the ball carrier. American football derived from rugby in the 1880s through Walter Camp's innovations (forward pass, line of scrimmage, downs)",
       "explanation": "Rugby union (15-a-side) scoring: try = 5 pts, conversion = 2, penalty = 3, drop goal = 3. No pads beyond mouthguards. Play restarts via scrums and lineouts. American football evolved from rugby: Walter Camp invented the snap from center, line of scrimmage, 4 downs, and eventually the forward pass. New Zealand's All Blacks have won the Rugby World Cup 4 times — the most of any nation.",
@@ -70,10 +70,10 @@
       "category": "Pop Culture",
       "question": "Which 1939 film, adjusted for inflation, is the highest-grossing film ever and won 10 Academy Awards?",
       "options": [
-        "Casablanca",
+        "Gone with the Wind",
         "Citizen Kane",
         "Rebecca",
-        "Gone with the Wind"
+        "Casablanca"
       ],
       "answer": "Gone with the Wind",
       "explanation": "Gone with the Wind (1939) won Best Picture and 9 other Oscars. Its adjusted-for-inflation gross (~$3.7 billion in 2022 dollars) makes it the highest-grossing film in history. Hattie McDaniel won Best Supporting Actress — the first Black performer to win an Academy Award, then sat at a segregated table at the back of the ceremony. The film romanticizes the antebellum South and slavery, drawing ongoing criticism.",
@@ -83,9 +83,9 @@
       "category": "Pop Culture",
       "question": "Which American author wrote 'The Grapes of Wrath' (1939) about Oklahoma migrants fleeing the Dust Bowl?",
       "options": [
-        "William Faulkner",
         "Theodore Dreiser",
         "Ernest Hemingway",
+        "William Faulkner",
         "John Steinbeck"
       ],
       "answer": "John Steinbeck",
@@ -96,10 +96,10 @@
       "category": "Pop Culture",
       "question": "Which British rock band, formed in 1962, is known as 'the world's greatest rock and roll band' and famous for 'Exile on Main St.'?",
       "options": [
-        "The Who",
         "The Kinks",
-        "Led Zeppelin",
-        "The Rolling Stones"
+        "The Who",
+        "The Rolling Stones",
+        "Led Zeppelin"
       ],
       "answer": "The Rolling Stones",
       "explanation": "The Rolling Stones got their name from a Muddy Waters song. Mick Jagger and Keith Richards met on a train when Richards noticed Jagger carrying Chess Records albums. The phrase 'world's greatest rock and roll band' came from their 1969 American tour promotional materials. Exile on Main St. (1972) was recorded in Richards' French basement while he was a tax exile.",
@@ -109,10 +109,10 @@
       "category": "Geography",
       "question": "What are the two source rivers of the Nile, and where do they meet?",
       "options": [
-        "The Blue Nile and Green Nile, both from Ethiopia",
         "The White Nile (from Lake Victoria, Uganda/Tanzania/Kenya) and the Blue Nile (from Lake Tana, Ethiopia), meeting at Khartoum, Sudan. The Blue Nile provides ~80% of volume and most fertile silt; the White Nile provides consistent year-round flow",
+        "The two sources are in Libya (White) and Egypt (Blue), converging near Alexandria",
         "The Nile has one source — Lake Tanganyika — and splits into two branches in Sudan",
-        "The two sources are in Libya (White) and Egypt (Blue), converging near Alexandria"
+        "The Blue Nile and Green Nile, both from Ethiopia"
       ],
       "answer": "The White Nile (from Lake Victoria, Uganda/Tanzania/Kenya) and the Blue Nile (from Lake Tana, Ethiopia), meeting at Khartoum, Sudan. The Blue Nile provides ~80% of volume and most fertile silt; the White Nile provides consistent year-round flow",
       "explanation": "The Blue Nile's seasonal Ethiopian monsoon flooding deposited rich silt in Egypt's farmlands — the basis of Egyptian civilization. Egypt is now in dispute with Ethiopia over the Grand Ethiopian Renaissance Dam on the Blue Nile, which reduces downstream flow to Egypt's 100 million people who depend almost entirely on the Nile.",
@@ -135,10 +135,10 @@
       "category": "Science & Nature",
       "question": "What is RNA interference (RNAi) and why did it earn the 2006 Nobel Prize?",
       "options": [
-        "A viral process that suppresses the immune system, discovered to explain HIV persistence",
         "A cellular mechanism where small RNA molecules silence specific genes by degrading their messenger RNA. Discovered by Andrew Fire and Craig Mello, it revealed a new layer of gene regulation. Applications include cancer therapy and the first approved RNAi drug (patisiran, 2018)",
-        "An error in protein synthesis that causes Huntington's disease",
-        "The process of inserting synthetic RNA to add new genes — essentially the same as mRNA vaccines"
+        "A viral process that suppresses the immune system, discovered to explain HIV persistence",
+        "The process of inserting synthetic RNA to add new genes — essentially the same as mRNA vaccines",
+        "An error in protein synthesis that causes Huntington's disease"
       ],
       "answer": "A cellular mechanism where small RNA molecules silence specific genes by degrading their messenger RNA. Discovered by Andrew Fire and Craig Mello, it revealed a new layer of gene regulation. Applications include cancer therapy and the first approved RNAi drug (patisiran, 2018)",
       "explanation": "Fire and Mello found (in roundworms, 1998) that double-stranded RNA triggers degradation of matching messenger RNA sequences — a gene 'off switch.' The cell uses this naturally to regulate genes and defend against RNA viruses. The first RNAi drug (patisiran) was approved in 2018. microRNAs (miRNAs) are a related system regulating ~60% of human genes.",
@@ -148,10 +148,10 @@
       "category": "Science & Nature",
       "question": "What evidence convinced scientists in the 1960s that continental drift (plate tectonics) was correct?",
       "options": [
-        "GPS measurements showing continental movement in real time, only possible with 1972 satellite technology",
-        "Seafloor spreading: symmetric magnetic stripes on either side of mid-ocean ridges recorded Earth's magnetic reversals, proving the seafloor spreads apart. Harry Hess proposed this in the 1960s, finally confirming Wegener's 1912 theory after 50 years of rejection",
         "Carbon dating showing matching fossils on opposite continents were deposited simultaneously",
-        "Apollo mission moon rocks showing Earth's plates had moved based on lunar gravitational analysis"
+        "GPS measurements showing continental movement in real time, only possible with 1972 satellite technology",
+        "Apollo mission moon rocks showing Earth's plates had moved based on lunar gravitational analysis",
+        "Seafloor spreading: symmetric magnetic stripes on either side of mid-ocean ridges recorded Earth's magnetic reversals, proving the seafloor spreads apart. Harry Hess proposed this in the 1960s, finally confirming Wegener's 1912 theory after 50 years of rejection"
       ],
       "answer": "Seafloor spreading: symmetric magnetic stripes on either side of mid-ocean ridges recorded Earth's magnetic reversals, proving the seafloor spreads apart. Harry Hess proposed this in the 1960s, finally confirming Wegener's 1912 theory after 50 years of rejection",
       "explanation": "Scientists rejected Wegener (1912) because no mechanism existed. 1950s-60s Cold War submarine mapping revealed mid-ocean ridges. Paleomagnetism: magma cooling at ridges records Earth's magnetic polarity; because Earth's field periodically reverses, the seafloor shows alternating magnetic stripes — identical on both sides of ridges, proving symmetric spreading. This mechanism (mantle convection driving plates) completed Wegener's theory. The scientific community converted from rejection to acceptance in under a decade.",

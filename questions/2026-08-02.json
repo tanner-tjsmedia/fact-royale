@@ -5,10 +5,10 @@
       "category": "History",
       "question": "Which U.S. president, who served four terms from 1933 to 1945, launched the New Deal to combat the Great Depression and led the country through most of World War II?",
       "options": [
+        "Theodore Roosevelt",
         "Franklin D. Roosevelt",
         "Woodrow Wilson",
-        "Herbert Hoover",
-        "Theodore Roosevelt"
+        "Herbert Hoover"
       ],
       "answer": "Franklin D. Roosevelt",
       "explanation": "Franklin D. Roosevelt (FDR) is the only U.S. president to have served more than two terms. His New Deal programs created jobs and provided relief during the Great Depression. He led the US through WWII but died in office on April 12, 1945, just weeks before Germany surrendered.",
@@ -18,10 +18,10 @@
       "category": "History",
       "question": "The Black Death, a devastating pandemic that killed roughly one-third of Europe's population, swept across the continent during which century?",
       "options": [
+        "15th century",
         "12th century",
-        "13th century",
         "14th century",
-        "15th century"
+        "13th century"
       ],
       "answer": "14th century",
       "explanation": "The Black Death (1347-1351) was a bubonic plague pandemic caused by the bacterium Yersinia pestis, spread by fleas on rats. It killed an estimated 30-60% of Europe's population — possibly 75-200 million people worldwide. The loss of labor led to social upheaval that some historians argue helped end feudalism and accelerate the Renaissance and Reformation.",
@@ -32,9 +32,9 @@
       "question": "Antoni Gaudí's masterpiece, the Sagrada Família — a massive basilica still under construction over 140 years after it began — is located in which Spanish city?",
       "options": [
         "Barcelona",
+        "Valencia",
         "Madrid",
-        "Seville",
-        "Valencia"
+        "Seville"
       ],
       "answer": "Barcelona",
       "explanation": "The Sagrada Família in Barcelona has been under construction since 1882. Gaudí became its chief architect in 1883 and devoted the last 43 years of his life to the project. It is expected to be completed around 2026. Gaudí died in 1926 after being struck by a tram.",
@@ -57,9 +57,9 @@
       "category": "Sports",
       "question": "In baseball, how many strikes result in a strikeout?",
       "options": [
+        "4",
         "2",
         "3",
-        "4",
         "5"
       ],
       "answer": "3",
@@ -83,10 +83,10 @@
       "category": "Pop Culture",
       "question": "Chernobyl (HBO, 2019), a five-episode miniseries by Craig Mazin, received near-universal critical acclaim and broke records on IMDb. What storytelling approach made it distinctive?",
       "options": [
-        "It dramatized the disaster entirely from the perspective of first responders who died in the weeks following the explosion, using their testimony recovered from Soviet archives never previously released",
-        "It reconstructed the disaster through meticulous historical research — dramatizing not just the explosion but the systemic institutional lying and Soviet political culture that caused it and amplified its consequences",
         "It was shot on location in the actual Chernobyl Exclusion Zone, with the production receiving special Ukrainian government permits to film inside Reactor No. 4's sarcophagus",
-        "It was the first TV production to use radiation dosimetry meters on the cast and crew throughout filming as an artistic statement, displaying live readings as on-screen graphics"
+        "It dramatized the disaster entirely from the perspective of first responders who died in the weeks following the explosion, using their testimony recovered from Soviet archives never previously released",
+        "It was the first TV production to use radiation dosimetry meters on the cast and crew throughout filming as an artistic statement, displaying live readings as on-screen graphics",
+        "It reconstructed the disaster through meticulous historical research — dramatizing not just the explosion but the systemic institutional lying and Soviet political culture that caused it and amplified its consequences"
       ],
       "answer": "It reconstructed the disaster through meticulous historical research — dramatizing not just the explosion but the systemic institutional lying and Soviet political culture that caused it and amplified its consequences",
       "explanation": "Chernobyl's central drama isn't just the April 1986 explosion — it's the Soviet system's pathological inability to tell the truth about it. Valery Legasov (Jared Harris) and Ulana Khomyuk (a composite character representing multiple scientists) work to uncover what happened while party officials suppress information that costs lives. Mazin spent two years researching Soviet bureaucracy, the physics of the RBMK reactor, and first-responder accounts. The show briefly held the top spot on IMDb's all-time ratings list with 9.4/10.",
@@ -96,10 +96,10 @@
       "category": "Pop Culture",
       "question": "Nirvana's 'Nevermind' (1991) featured which iconic swimming baby on its cover?",
       "options": [
-        "Dave Grohl's son",
-        "Kurt Cobain as a baby",
+        "Krist Novoselic's son",
         "Spencer Elden",
-        "Krist Novoselic's son"
+        "Dave Grohl's son",
+        "Kurt Cobain as a baby"
       ],
       "answer": "Spencer Elden",
       "explanation": "Spencer Elden was the 4-month-old baby photographed for Nevermind's cover, swimming toward a dollar bill on a fishhook. The album sold 30 million copies and is one of the best-selling albums ever. Nevermind's release is often cited as the moment grunge went mainstream and alternative rock overtook pop on radio and MTV. Elden later sued Nirvana over the image.",
@@ -109,10 +109,10 @@
       "category": "Pop Culture",
       "question": "Jean-Baptiste Lully, court composer to Louis XIV and one of the founders of French opera, died in one of history's most unusual composer deaths. What happened?",
       "options": [
-        "Lully died after being struck by a chandelier that fell during a thunderstorm while he was conducting a performance for Louis XIV at Versailles",
         "While conducting a Te Deum with a long staff used to beat time on the floor, Lully struck his own foot — the resulting gangrene spread and killed him after he refused amputation so he could dance again",
-        "Lully collapsed at the harpsichord during a performance after suffering a stroke triggered by the extreme physical exertion required by his conducting style — he died within minutes on stage",
-        "Lully was poisoned by rivals at the French court who were jealous of his exclusive royal patronage — the poisoning was confirmed by forensic analysis of his remains in the 21st century"
+        "Lully was poisoned by rivals at the French court who were jealous of his exclusive royal patronage — the poisoning was confirmed by forensic analysis of his remains in the 21st century",
+        "Lully died after being struck by a chandelier that fell during a thunderstorm while he was conducting a performance for Louis XIV at Versailles",
+        "Lully collapsed at the harpsichord during a performance after suffering a stroke triggered by the extreme physical exertion required by his conducting style — he died within minutes on stage"
       ],
       "answer": "While conducting a Te Deum with a long staff used to beat time on the floor, Lully struck his own foot — the resulting gangrene spread and killed him after he refused amputation so he could dance again",
       "explanation": "In January 1687, Lully was conducting a Te Deum to celebrate Louis XIV's recovery from illness. He was using a long pointed staff (a bâton) to beat time by striking the floor — the method before conductor's batons. He accidentally drove it into his toe. The wound became gangrenous. Doctors recommended amputation; Lully refused because he still wanted to dance (he was also a celebrated dancer and choreographer). Gangrene spread and he died in March 1687. He is often cited as one of the earliest known victims of a conducting accident — and the reason we now use small batons.",
@@ -123,9 +123,9 @@
       "question": "What is the name of the narrow body of water that separates the Asian and North American continents?",
       "options": [
         "Davis Strait",
-        "Drake Passage",
         "Bering Strait",
-        "Strait of Magellan"
+        "Strait of Magellan",
+        "Drake Passage"
       ],
       "answer": "Bering Strait",
       "explanation": "The Bering Strait separates Russia (Asia) from Alaska (North America) at its narrowest point — only about 85 km wide. During the last Ice Age, lower sea levels exposed a land bridge here called Beringia, which humans used to migrate from Asia into the Americas approximately 15,000-25,000 years ago. The strait was named after Danish explorer Vitus Bering, who sailed through it in 1728.",
@@ -135,9 +135,9 @@
       "category": "Science & Nature",
       "question": "What is the name for a group of stars that forms a recognizable pattern, like Orion or the Big Dipper?",
       "options": [
-        "Galaxy",
         "Nebula",
         "Constellation",
+        "Galaxy",
         "Solar system"
       ],
       "answer": "Constellation",
@@ -148,10 +148,10 @@
       "category": "Science & Nature",
       "question": "What are vestigial structures — and what do they reveal about evolution?",
       "options": [
-        "Structures that serve no known function and are inherited from ancestors who used them",
-        "Structures found only in embryos",
         "Genetic mutations that benefit organisms",
-        "New structures evolved in response to environmental change"
+        "New structures evolved in response to environmental change",
+        "Structures that serve no known function and are inherited from ancestors who used them",
+        "Structures found only in embryos"
       ],
       "answer": "Structures that serve no known function and are inherited from ancestors who used them",
       "explanation": "Vestigial structures are anatomical features that have lost most or all of their original function through evolution but are still present in organisms. Examples in humans include: the appendix (remnant of a digestive organ), coccyx/tailbone (remnant of a tail), ear muscles (can't move ears like other mammals), and wisdom teeth (remnants of a larger jaw for raw food). In whales, vestigial hind leg bones remain embedded in their body — evidence of their terrestrial ancestors. These structures provide direct evidence of evolutionary descent.",

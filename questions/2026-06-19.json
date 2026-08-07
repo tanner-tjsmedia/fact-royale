@@ -18,10 +18,10 @@
       "category": "History",
       "question": "Approximately how long is the Great Wall of China?",
       "options": [
-        "3,000 miles",
+        "20,000 miles",
         "8,000 miles",
         "13,000 miles",
-        "20,000 miles"
+        "3,000 miles"
       ],
       "answer": "13,000 miles",
       "explanation": "The Great Wall of China stretches approximately 13,170 miles (21,196 km) when all its sections, branches, and associated fortifications are measured. Built over many centuries starting around 7th century BC, most of the well-preserved sections were built during the Ming Dynasty (1368–1644). Contrary to popular myth, it is not visible from space with the naked eye.",
@@ -31,9 +31,9 @@
       "category": "History",
       "question": "In what year was the United States Declaration of Independence signed?",
       "options": [
-        "1774",
         "1775",
         "1776",
+        "1774",
         "1778"
       ],
       "answer": "1776",
@@ -45,9 +45,9 @@
       "question": "How many Olympic gold medals did swimmer Michael Phelps win in his career?",
       "options": [
         "18",
-        "20",
         "23",
-        "28"
+        "28",
+        "20"
       ],
       "answer": "23",
       "explanation": "Michael Phelps won 23 Olympic gold medals across four Olympics (2000–2016), making him the most decorated Olympian of all time. He has 28 Olympic medals in total. At the 2008 Beijing Olympics alone, he won 8 gold medals, breaking Mark Spitz's record of 7 golds at a single Games.",
@@ -57,10 +57,10 @@
       "category": "Sports",
       "question": "Serena Williams won how many Grand Slam singles titles in her career?",
       "options": [
-        "19",
         "21",
         "23",
-        "25"
+        "25",
+        "19"
       ],
       "answer": "23",
       "explanation": "Serena Williams won 23 Grand Slam singles titles, the most by any player in the Open Era. Her first came at the 1999 US Open at age 17, and her last at the 2017 Australian Open (while eight weeks pregnant). She is widely regarded as the greatest tennis player of all time.",
@@ -70,10 +70,10 @@
       "category": "Pop Culture",
       "question": "Wolfgang Amadeus Mozart died at what age?",
       "options": [
+        "42",
         "27",
         "31",
-        "35",
-        "42"
+        "35"
       ],
       "answer": "35",
       "explanation": "Mozart died on December 5, 1791, at just 35 years old. Despite his short life, he composed over 800 works including symphonies, concertos, operas, and chamber music. His cause of death remains debated — theories include rheumatic fever, kidney disease, and even poisoning (popularized by the film Amadeus, though historically unsupported).",
@@ -84,9 +84,9 @@
       "question": "The Shawshank Redemption is consistently rated #1 on IMDb's Top 250. Which actor plays Andy Dufresne?",
       "options": [
         "Morgan Freeman",
-        "Tom Hanks",
+        "Kevin Costner",
         "Tim Robbins",
-        "Kevin Costner"
+        "Tom Hanks"
       ],
       "answer": "Tim Robbins",
       "explanation": "Tim Robbins plays Andy Dufresne, a banker wrongfully convicted of murder, in The Shawshank Redemption (1994), directed by Frank Darabont. Morgan Freeman plays the narrator, Ellis 'Red' Redding. Despite bombing at the box office on release, it became a cultural touchstone through cable TV and home video.",
@@ -96,9 +96,9 @@
       "category": "Pop Culture",
       "question": "Freddie Mercury was the lead vocalist of which legendary rock band?",
       "options": [
-        "The Rolling Stones",
-        "Queen",
         "Aerosmith",
+        "Queen",
+        "The Rolling Stones",
         "Journey"
       ],
       "answer": "Queen",
@@ -109,10 +109,10 @@
       "category": "Geography",
       "question": "The Atacama Desert, one of the driest places on Earth with some areas having never recorded rainfall, is located primarily in which South American country?",
       "options": [
+        "Chile",
         "Peru",
         "Argentina",
-        "Bolivia",
-        "Chile"
+        "Bolivia"
       ],
       "answer": "Chile",
       "explanation": "The Atacama Desert stretches primarily along the Pacific coast of Chile, with portions in Peru, Bolivia, and Argentina. It is the world's driest non-polar desert — some weather stations have never recorded a single drop of rain. Paradoxically, the cold Humboldt Current offshore makes the air dry while supporting an extraordinarily rich marine ecosystem. The Atacama's extremely dry, clear skies also make it the world's premier site for astronomical observatories.",
@@ -122,10 +122,10 @@
       "category": "Science & Nature",
       "question": "What is the biological process by which yeast converts glucose into alcohol and carbon dioxide in the absence of oxygen — also responsible for making bread rise?",
       "options": [
-        "Aerobic respiration",
         "Photosynthesis",
-        "Osmosis",
-        "Anaerobic fermentation"
+        "Aerobic respiration",
+        "Anaerobic fermentation",
+        "Osmosis"
       ],
       "answer": "Anaerobic fermentation",
       "explanation": "Anaerobic fermentation is a metabolic process that converts glucose into energy without using oxygen. Yeast fermentation produces ethanol (alcohol) and carbon dioxide — the basis of beer, wine, and spirits. The CO2 is also what makes bread dough rise. Humans use a related anaerobic process in muscles during intense exercise, producing lactic acid when oxygen can't be delivered fast enough — causing the burning sensation felt in a sprint.",
@@ -135,10 +135,10 @@
       "category": "Geography",
       "question": "The Strait of Malacca, one of the world's busiest shipping lanes, lies between the Malay Peninsula and which large island?",
       "options": [
-        "Java",
         "Borneo",
+        "Sumatra",
         "Sulawesi",
-        "Sumatra"
+        "Java"
       ],
       "answer": "Sumatra",
       "explanation": "The Strait of Malacca is a 900 km-long waterway between the Malay Peninsula (Malaysia/Singapore) and the Indonesian island of Sumatra. At its narrowest point it is only 2.7 km wide. It is the shortest sea route between the Pacific and Indian Oceans, carrying about 25% of world trade and 80% of oil shipped to China and Japan. It is one of the most strategically critical chokepoints in global shipping.",
@@ -148,10 +148,10 @@
       "category": "Science & Nature",
       "question": "All life on Earth is classified into three domains. Which domain includes all organisms whose cells have a nucleus?",
       "options": [
+        "Prokaryota",
         "Bacteria",
-        "Archaea",
         "Eukarya",
-        "Prokaryota"
+        "Archaea"
       ],
       "answer": "Eukarya",
       "explanation": "The three-domain system classifies all life into Bacteria, Archaea, and Eukarya. Eukarya includes all organisms whose cells have a true nucleus and membrane-bound organelles — this encompasses all animals, plants, fungi, and protists. Bacteria and Archaea are prokaryotes (no nucleus). Archaea were long classified with bacteria but are actually more closely related to eukaryotes.",

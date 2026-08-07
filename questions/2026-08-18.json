@@ -6,9 +6,9 @@
       "question": "Which American civil rights leader was assassinated in Memphis, Tennessee on April 4, 1968?",
       "options": [
         "Malcolm X",
-        "John Lewis",
+        "Martin Luther King Jr.",
         "Medgar Evers",
-        "Martin Luther King Jr."
+        "John Lewis"
       ],
       "answer": "Martin Luther King Jr.",
       "explanation": "Martin Luther King Jr. was shot and killed on April 4, 1968, at the Lorraine Motel in Memphis, Tennessee, where he had come to support striking sanitation workers. James Earl Ray was convicted of the murder. King's assassination triggered riots in over 100 American cities. The following day, Robert F. Kennedy was shot and killed in Los Angeles. 1968 was one of the most traumatic years in American history.",
@@ -18,9 +18,9 @@
       "category": "History",
       "question": "The 'Iron Curtain,' a term used to describe the division between communist and non-communist Europe during the Cold War, was coined by which leader?",
       "options": [
-        "Franklin D. Roosevelt",
-        "Harry Truman",
         "Joseph Stalin",
+        "Harry Truman",
+        "Franklin D. Roosevelt",
         "Winston Churchill"
       ],
       "answer": "Winston Churchill",
@@ -31,10 +31,10 @@
       "category": "History",
       "question": "The Chernobyl nuclear disaster occurred in which year?",
       "options": [
-        "1979",
-        "1982",
+        "1991",
         "1986",
-        "1991"
+        "1979",
+        "1982"
       ],
       "answer": "1986",
       "explanation": "The Chernobyl nuclear disaster occurred on April 26, 1986, at the Chernobyl Nuclear Power Plant in Pripyat, Soviet Ukraine (now Ukraine). It is considered the worst nuclear accident in history. Reactor 4 exploded during a safety test, releasing radiation across Europe. The surrounding area remains largely uninhabited. The Soviet government's initial cover-up contributed to growing public distrust that helped accelerate the USSR's collapse.",
@@ -44,10 +44,10 @@
       "category": "Sports",
       "question": "What is the term for a score of zero in a cricket innings?",
       "options": [
-        "Bagel",
+        "Duck",
         "Love",
         "Golden duck",
-        "Duck"
+        "Bagel"
       ],
       "answer": "Duck",
       "explanation": "A 'duck' in cricket refers to a batsman scoring zero runs before being dismissed. The term comes from 'duck's egg' for the oval shape of the zero. Getting out for zero on the first ball is called a 'golden duck,' and zero off a run-out before facing a ball is a 'diamond duck.' Being dismissed for a duck is considered particularly embarrassing, especially for established batters.",
@@ -57,10 +57,10 @@
       "category": "Sports",
       "question": "In which combat sport would competitors attempt to throw or pin each other to the mat?",
       "options": [
-        "Boxing",
+        "Fencing",
         "Judo",
-        "Karate",
-        "Fencing"
+        "Boxing",
+        "Karate"
       ],
       "answer": "Judo",
       "explanation": "Judo is a Japanese martial art and Olympic sport where competitors attempt to throw opponents to the ground or pin them. 'Judo' means 'gentle way' in Japanese — the philosophy is to use the opponent's force against them rather than meeting force with force. It was developed by Jigoro Kano in 1882 and became an Olympic sport in 1964 (men) and 1992 (women). Judokas are ranked by belt color, from white to black.",
@@ -81,14 +81,14 @@
     },
     {
       "category": "Pop Culture",
-      "question": "Roy Lichtenstein's Pop Art paintings of the early 1960s — featuring comic-book panels enlarged to gallery scale — were both celebrated and attacked on opposite grounds. What was the controversy, and why does it persist?",
+      "question": "Roy Lichtenstein enlarged comic-book panels to gallery scale in the 1960s. What controversy still follows the work?",
       "options": [
-        "Lichtenstein was celebrated for elevating commercial art to fine art status, but attacked by feminists because all his enlarged comic panels depicted women in distress — critics argued he was reinforcing rather than critiquing those stereotypes",
-        "Lichtenstein was celebrated by the art establishment for his technical mastery, but attacked by critics who noted his work was entirely self-created — he didn't actually copy comics, he invented fictional panels that mimicked the style",
-        "Lichtenstein was celebrated for bringing comic book aesthetics into galleries, but attacked because he copied actual panels from real comic artists nearly verbatim without credit, compensation, or permission — while making millions",
-        "Lichtenstein was both celebrated and attacked by the same critics — some of whom argued his work was brilliant irony, while others in the same reviews called it lazy appropriation — the ambiguity was intentional"
+        "Critics called the enlarged panels demeaning to women",
+        "He invented the panels rather than copying any real comic",
+        "He copied real artists' panels without credit or payment",
+        "The same reviews called it both brilliant and lazy"
       ],
-      "answer": "Lichtenstein was celebrated for bringing comic book aesthetics into galleries, but attacked because he copied actual panels from real comic artists nearly verbatim without credit, compensation, or permission — while making millions",
+      "answer": "He copied real artists' panels without credit or payment",
       "explanation": "Art historian David Barsalou spent decades documenting Lichtenstein's source material, showing that paintings like 'Whaam!' (1963) and 'Drowning Girl' (1963) were extremely close copies of specific panels by artists including Russ Heath, Tony Abruzzo, and others. The original artists — working anonymously for publishers on work-for-hire contracts — received nothing while Lichtenstein's versions sold for tens of millions. 'Whaam!' sold for $43 million in 2011. Lichtenstein argued he transformed the work through scale, color, and context. The debate touches on appropriation, copyright (the panels were published in the 1950s-60s), and the art world's hierarchy that valued Lichtenstein while ignoring his sources.",
       "memory_hook": "Lichtenstein's 'Whaam!' sold for $43 million. The artists he copied — Russ Heath, Tony Abruzzo, others — received nothing; they'd signed work-for-hire contracts. David Barsalou spent decades documenting how closely the paintings matched the originals. Lichtenstein said 'transformation' made it art. The original comic artists mostly went uncredited for decades."
     },
@@ -96,10 +96,10 @@
       "category": "Pop Culture",
       "question": "The 2021 film 'The Power of the Dog' was directed by which New Zealand filmmaker?",
       "options": [
-        "Niki Caro",
-        "Taika Waititi",
+        "Jane Campion",
         "Lee Tamahori",
-        "Jane Campion"
+        "Niki Caro",
+        "Taika Waititi"
       ],
       "answer": "Jane Campion",
       "explanation": "Jane Campion directed The Power of the Dog (2021), based on Thomas Savage's 1967 novel. The film starred Benedict Cumberbatch, Kirsten Dunst, Jesse Plemons, and Kodi Smit-McPhee. Campion won the Academy Award for Best Director — the third woman ever to win and the second to be nominated twice. She previously won for The Piano (1993) screenplay.",
@@ -109,10 +109,10 @@
       "category": "Geography",
       "question": "The Suez Canal, completed in 1869, dramatically shortened the sea route between Europe and Asia by connecting the Mediterranean Sea to which body of water?",
       "options": [
-        "Red Sea",
-        "Arabian Sea",
         "Persian Gulf",
-        "Gulf of Aden"
+        "Gulf of Aden",
+        "Arabian Sea",
+        "Red Sea"
       ],
       "answer": "Red Sea",
       "explanation": "The Suez Canal connects Port Said on the Mediterranean to Suez on the Red Sea, cutting through the Isthmus of Suez in Egypt. Before the canal, ships had to sail around the southern tip of Africa. The canal reduced the voyage from London to Mumbai by over 7,000 km. Egypt nationalized it in 1956, triggering the Suez Crisis.",
@@ -122,9 +122,9 @@
       "category": "Science & Nature",
       "question": "What is the term for the role or position a species plays in its ecosystem?",
       "options": [
-        "Habitat",
         "Biome",
         "Niche",
+        "Habitat",
         "Ecosystem"
       ],
       "answer": "Niche",
@@ -136,9 +136,9 @@
       "question": "Mount Whitney, the highest peak in the contiguous United States at 4,421 meters, is located in which western state?",
       "options": [
         "Colorado",
+        "California",
         "Nevada",
-        "Oregon",
-        "California"
+        "Oregon"
       ],
       "answer": "California",
       "explanation": "Mount Whitney is located in the Sierra Nevada mountain range in eastern California, on the boundary between Tulare and Inyo Counties. It is just 135 km from Death Valley — which at -86 meters below sea level is the lowest point in North America. Mount Whitney sits in Sequoia National Park / John Muir Wilderness. The trail to its summit is one of the most popular day hikes in the US but requires altitude acclimation due to oxygen reduction at its peak.",
@@ -148,10 +148,10 @@
       "category": "Science & Nature",
       "question": "What is an ecological niche, and why can two species rarely occupy the exact same niche in an ecosystem?",
       "options": [
-        "A physical location where a species lives",
-        "The role a species plays in its ecosystem including what it eats and what eats it, which cannot be shared identically",
         "The evolutionary history of a species",
-        "The geographic range a species occupies"
+        "The role a species plays in its ecosystem including what it eats and what eats it, which cannot be shared identically",
+        "The geographic range a species occupies",
+        "A physical location where a species lives"
       ],
       "answer": "The role a species plays in its ecosystem including what it eats and what eats it, which cannot be shared identically",
       "explanation": "An ecological niche is the functional role a species plays in its ecosystem — its diet, habitat preferences, activity timing, predators, and behaviors. The competitive exclusion principle (Gause's Law) states that two species competing for identical resources in the same niche cannot coexist indefinitely — one will outcompete and replace the other. Species coexist by occupying slightly different niches (niche differentiation). Darwin's finches on the Galápagos evolved different beak shapes to exploit different food sources and avoid direct competition.",

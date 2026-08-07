@@ -5,9 +5,9 @@
       "category": "History",
       "question": "In the Korean War, who backed North Korea and who backed South Korea?",
       "options": [
-        "USSR + China backed North Korea; USA + UN backed South Korea",
-        "USA backed North Korea; USSR backed South Korea",
         "China alone backed North Korea; USA alone backed South Korea",
+        "USA backed North Korea; USSR backed South Korea",
+        "USSR + China backed North Korea; USA + UN backed South Korea",
         "No external powers were involved"
       ],
       "answer": "USSR + China backed North Korea; USA + UN backed South Korea",
@@ -19,9 +19,9 @@
       "question": "What does Boyle's Law state?",
       "options": [
         "At constant temperature, pressure and volume are inversely related (P₁V₁ = P₂V₂)",
+        "All gases have the same number of molecules per liter",
         "At constant pressure, volume and temperature are proportional",
-        "At constant volume, pressure and temperature are proportional",
-        "All gases have the same number of molecules per liter"
+        "At constant volume, pressure and temperature are proportional"
       ],
       "answer": "At constant temperature, pressure and volume are inversely related (P₁V₁ = P₂V₂)",
       "explanation": "Boyle's Law (Robert Boyle, 1662): P₁V₁ = P₂V₂ at constant temperature. Doubling volume halves pressure. This explains why a sealed syringe gets harder to compress — and why deep-sea fish explode when brought to the surface.",
@@ -29,14 +29,14 @@
     },
     {
       "category": "Sports",
-      "question": "Pelé scored his 1,000th professional goal on November 19, 1969 in Rio de Janeiro's Maracanã stadium — a milestone that sparked immediate controversy alongside celebration. What was the controversy?",
+      "question": "Pelé's 1,000th goal in 1969 was celebrated instantly, and questioned just as fast. Why?",
       "options": [
-        "Pelé's 1,000th goal was from a penalty kick — which many argued shouldn't count toward his career total since the kick is uncontested; Pelé himself said in interviews it was 'not a real goal' but refused to disavow the milestone",
-        "Brazilian journalists immediately questioned whether Pelé's actual tally was accurate, as many early career goals were played in unverified local tournaments — official FIFA counts have always differed significantly from Pelé's claimed total",
-        "The 'milestone' goal was scored against a deliberately weakened Vasco da Gama defense — opposing players reportedly allowed it to happen as a gesture of respect — making the authenticity of the moment suspect",
-        "Pelé's 1,000th goal celebration was disrupted when stadium fans rioted over overcrowding at the Maracanã, leading to 14 deaths — the Brazilian government later banned Pelé from celebrating public milestones to prevent crowd incidents"
+        "Vasco da Gama's defense let it in out of respect",
+        "Many of the 1,000 came in unverified friendlies",
+        "It was a penalty, which he called 'not a real goal'",
+        "A crowd crush at the Maracanã killed 14 that night"
       ],
-      "answer": "Brazilian journalists immediately questioned whether Pelé's actual tally was accurate, as many early career goals were played in unverified local tournaments — official FIFA counts have always differed significantly from Pelé's claimed total",
+      "answer": "Many of the 1,000 came in unverified friendlies",
       "explanation": "The 1,000th goal was indeed a penalty (against Vasco da Gama, a penalty Pelé said he dedicated to the children of Brazil). But the deeper controversy is the count: Pelé's 'official' total of 1,283 goals is disputed because it includes goals from youth matches, exhibition games, and tournaments with incomplete records. FIFA credits him with 757 competitive goals — a number that still places him among history's top scorers but is far from 1,283. The RSSSF (statistical body) attempts more precise tracking and gives varying numbers. Pelé always maintained his count. It's one of football's longest-running statistical debates.",
       "memory_hook": "The 1,000th goal was a penalty — which Pelé dedicated to Brazilian children, but which critics called 'not a real goal.' The deeper debate: FIFA credits Pelé with 757 goals, not 1,283, because his totals include youth matches and exhibitions with incomplete records. The exact number has been disputed since the day he hit it."
     },
@@ -59,8 +59,8 @@
       "options": [
         "Gulf Stream",
         "California Current",
-        "North Pacific Current",
-        "Humboldt Current"
+        "Humboldt Current",
+        "North Pacific Current"
       ],
       "answer": "Gulf Stream",
       "explanation": "The Gulf Stream flows at about 2.5 m/s, carrying 30 times more water than all the world's rivers combined. Without it, Western Europe would be 5-10°C colder — think Canadian climate in London.",
@@ -70,10 +70,10 @@
       "category": "History",
       "question": "Mao Zedong proclaimed the People's Republic of China on October 1, 1949, from where?",
       "options": [
-        "Tiananmen Gate, Beijing",
-        "The Forbidden City",
+        "The Great Hall of the People",
         "Shanghai Bund",
-        "The Great Hall of the People"
+        "The Forbidden City",
+        "Tiananmen Gate, Beijing"
       ],
       "answer": "Tiananmen Gate, Beijing",
       "explanation": "Mao proclaimed the PRC from Tiananmen Gate on October 1, 1949. Chiang Kai-shek's Nationalists retreated to Taiwan. Mao's Great Leap Forward and Cultural Revolution caused tens of millions of deaths.",
@@ -83,9 +83,9 @@
       "category": "Pop Culture",
       "question": "Oprah's famous 'You get a car!' giveaway — who actually paid for the 276 Pontiacs?",
       "options": [
-        "Pontiac (the car company), not Oprah",
-        "Oprah paid herself",
         "The show's production budget covered it",
+        "Oprah paid herself",
+        "Pontiac (the car company), not Oprah",
         "Audience members got loans in their name"
       ],
       "answer": "Pontiac (the car company), not Oprah",
@@ -96,9 +96,9 @@
       "category": "Science & Nature",
       "question": "What surrounds the nucleus in eukaryotic cells, regulating entry and exit of molecules through pores?",
       "options": [
-        "Nuclear envelope",
         "Cell membrane",
         "Endoplasmic reticulum",
+        "Nuclear envelope",
         "Golgi apparatus"
       ],
       "answer": "Nuclear envelope",
@@ -109,10 +109,10 @@
       "category": "Geography",
       "question": "What shape is Italy's landmass famously compared to, and what narrow water separates the 'toe' from Sicily?",
       "options": [
-        "A boot; Strait of Messina (3 km wide)",
-        "A boot; Strait of Sicily (145 km wide)",
+        "A hammer; Strait of Taranto (30 km wide)",
         "A leg; Strait of Otranto (72 km wide)",
-        "A hammer; Strait of Taranto (30 km wide)"
+        "A boot; Strait of Messina (3 km wide)",
+        "A boot; Strait of Sicily (145 km wide)"
       ],
       "answer": "A boot; Strait of Messina (3 km wide)",
       "explanation": "Italy's boot shape is iconic. The 'toe' (Calabria) faces Sicily across the Strait of Messina — only 3 km at its narrowest. Italy is surrounded by the Adriatic, Ionian, Mediterranean, and Tyrrhenian seas.",
@@ -123,9 +123,9 @@
       "question": "Who was U.S. president when the Berlin Wall fell on November 9, 1989?",
       "options": [
         "George H.W. Bush",
+        "George W. Bush",
         "Ronald Reagan",
-        "Bill Clinton",
-        "George W. Bush"
+        "Bill Clinton"
       ],
       "answer": "George H.W. Bush",
       "explanation": "The Berlin Wall fell November 9, 1989, during George H.W. Bush's presidency. Reagan gave his famous 'tear down this wall' speech in 1987. Bush deliberately avoided triumphalism so as not to destabilize Gorbachev.",
@@ -136,8 +136,8 @@
       "question": "Drake was on which TV show before becoming a music star?",
       "options": [
         "Degrassi: The Next Generation",
-        "Saved by the Bell",
         "One Tree Hill",
+        "Saved by the Bell",
         "The Fresh Prince of Bel-Air"
       ],
       "answer": "Degrassi: The Next Generation",
@@ -148,10 +148,10 @@
       "category": "Sports",
       "question": "What is Mike Powell's 1991 long jump world record, and does it still stand?",
       "options": [
-        "8.95 m, set at 1991 World Championships in Tokyo; still the world record",
         "8.90 m, set at 1988 Seoul Olympics; broken since",
+        "8.95 m, set at 1996 Atlanta Olympics; still the world record",
         "9.02 m, set at 2008 Beijing Olympics; still the world record",
-        "8.95 m, set at 1996 Atlanta Olympics; still the world record"
+        "8.95 m, set at 1991 World Championships in Tokyo; still the world record"
       ],
       "answer": "8.95 m, set at 1991 World Championships in Tokyo; still the world record",
       "explanation": "Mike Powell's 8.95 m long jump at the 1991 World Championships in Tokyo remains the world record, breaking Bob Beamon's legendary 1968 record that stood for 23 years.",

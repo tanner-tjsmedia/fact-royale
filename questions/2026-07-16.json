@@ -4,9 +4,9 @@
       "category": "History",
       "question": "Which treaty ended World War II in the Pacific?",
       "options": [
-        "Treaty of Versailles",
         "Treaty of San Francisco",
         "Potsdam Agreement",
+        "Treaty of Versailles",
         "Missouri Instrument of Surrender"
       ],
       "answer": "Missouri Instrument of Surrender",
@@ -17,10 +17,10 @@
       "category": "History",
       "question": "The 'Harlem Renaissance' was a cultural movement centered in which U.S. city?",
       "options": [
-        "Chicago",
         "Philadelphia",
+        "New York City",
         "Atlanta",
-        "New York City"
+        "Chicago"
       ],
       "answer": "New York City",
       "explanation": "The Harlem Renaissance was a cultural, social, and artistic explosion centered in Harlem, New York, during the 1920s and 1930s. It produced groundbreaking work in literature (Langston Hughes, Zora Neale Hurston), music (jazz, blues), visual arts, and theater, establishing African American culture as a major force in American life.",
@@ -30,10 +30,10 @@
       "category": "Sports",
       "question": "At the 2009 World Championships in Berlin, Usain Bolt set a world record of 9.58 seconds in which track and field event?",
       "options": [
-        "90 meters",
+        "120 meters",
         "100 meters",
         "110 meters",
-        "120 meters"
+        "90 meters"
       ],
       "answer": "100 meters",
       "explanation": "Usain Bolt's 100m world record of 9.58 seconds, set in Berlin in 2009, still stands today. He averaged approximately 37.6 km/h (23.4 mph) over the distance. Bolt also holds the 200m world record at 19.19 seconds.",
@@ -43,10 +43,10 @@
       "category": "Sports",
       "question": "Which country invented table tennis?",
       "options": [
-        "China",
         "Japan",
+        "Germany",
         "England",
-        "Germany"
+        "China"
       ],
       "answer": "England",
       "explanation": "Table tennis was invented in England in the 1880s as an after-dinner drawing room game among the upper class. It was originally called 'ping pong,' based on the sound of the ball. China has dominated the sport internationally since the 1960s, winning more Olympic gold medals than any other nation.",
@@ -56,8 +56,8 @@
       "category": "Pop Culture",
       "question": "What band recorded 'Smells Like Teen Spirit'?",
       "options": [
-        "Pearl Jam",
         "Soundgarden",
+        "Pearl Jam",
         "Alice in Chains",
         "Nirvana"
       ],
@@ -71,8 +71,8 @@
       "options": [
         "Idris Elba",
         "Michael B. Jordan",
-        "Chadwick Boseman",
-        "Mahershala Ali"
+        "Mahershala Ali",
+        "Chadwick Boseman"
       ],
       "answer": "Chadwick Boseman",
       "explanation": "Chadwick Boseman played T'Challa/Black Panther in four MCU films, most notably the 2018 film Black Panther, which grossed $1.3 billion worldwide. Boseman died of colon cancer in August 2020, having privately battled the illness for four years while continuing to work. His death shocked the world.",
@@ -82,10 +82,10 @@
       "category": "Pop Culture",
       "question": "Which TV detective's signature move was to pause while leaving a suspect's room, turn back, and say 'Just one more thing...' before delivering his key insight?",
       "options": [
-        "Inspector Morse",
+        "Jim Rockford",
         "Columbo",
         "Barnaby Jones",
-        "Jim Rockford"
+        "Inspector Morse"
       ],
       "answer": "Columbo",
       "explanation": "'Just one more thing...' is the signature phrase of Lieutenant Columbo from the TV series Columbo, played by Peter Falk. The seemingly disheveled detective would pretend to leave, then turn back with one devastating final question that usually cracked the case.",
@@ -95,10 +95,10 @@
       "category": "History",
       "question": "The ancient city of Constantinople is now known by what name?",
       "options": [
-        "Athens",
         "Ankara",
         "Cairo",
-        "Istanbul"
+        "Istanbul",
+        "Athens"
       ],
       "answer": "Istanbul",
       "explanation": "Constantinople, the capital of the Byzantine Empire, was renamed Istanbul after the Ottoman conquest in 1453. The name Istanbul derives from a Greek phrase meaning 'to the city' or 'in the city.' It remains Turkey's largest city and cultural center, though Ankara is the current capital.",
@@ -108,10 +108,10 @@
       "category": "Geography",
       "question": "Which country contains the most of the Amazon rainforest?",
       "options": [
-        "Colombia",
+        "Brazil",
         "Peru",
-        "Venezuela",
-        "Brazil"
+        "Colombia",
+        "Venezuela"
       ],
       "answer": "Brazil",
       "explanation": "Approximately 60% of the Amazon rainforest lies within Brazil. The remaining 40% is spread across eight other countries: Peru, Colombia, Venezuela, Ecuador, Bolivia, Guyana, Suriname, and French Guiana. The Amazon produces about 20% of the world's oxygen and holds 10% of all species on Earth.",
@@ -121,10 +121,10 @@
       "category": "Science & Nature",
       "question": "The Hertzsprung-Russell (H-R) diagram is one of astronomy's most powerful tools. What does it plot, and what pattern does it reveal?",
       "options": [
+        "The H-R diagram plots stellar rotation speed against magnetic field strength — revealing that all rapidly rotating stars generate strong magnetic fields that cause the flaring activity observed in young star systems",
         "The H-R diagram plots a star's mass against its chemical composition — revealing that all stars on the 'main sequence' convert hydrogen to helium at exactly the same rate regardless of size",
         "The H-R diagram plots stellar luminosity against surface temperature — revealing that 90% of stars fall on a diagonal 'main sequence,' with a star's position determined by its mass and predicting its future evolution",
-        "The H-R diagram plots a star's distance from Earth against its redshift — creating a diagnostic tool to detect whether a star is approaching or receding, and estimate how many light-years away it is",
-        "The H-R diagram plots stellar rotation speed against magnetic field strength — revealing that all rapidly rotating stars generate strong magnetic fields that cause the flaring activity observed in young star systems"
+        "The H-R diagram plots a star's distance from Earth against its redshift — creating a diagnostic tool to detect whether a star is approaching or receding, and estimate how many light-years away it is"
       ],
       "answer": "The H-R diagram plots stellar luminosity against surface temperature — revealing that 90% of stars fall on a diagonal 'main sequence,' with a star's position determined by its mass and predicting its future evolution",
       "explanation": "Ejnar Hertzsprung and Henry Norris Russell independently created this diagram around 1910. The main sequence runs from cool, dim red dwarfs (lower right) to hot, brilliant blue giants (upper left). A star's mass determines where it sits on the main sequence and how long it stays there — massive stars burn brighter and die faster. When stars exhaust their hydrogen, they leave the main sequence: Sun-like stars expand into red giants (upper right region); the most massive become supergiants and explode. The H-R diagram essentially explains stellar evolution by mapping billions of individual snapshots (individual stars) into a coherent life story.",
@@ -134,10 +134,10 @@
       "category": "Geography",
       "question": "Niagara... no. Java, the most populous island in the world with about 150 million people, belongs to which country?",
       "options": [
-        "Philippines",
         "Malaysia",
-        "India",
-        "Indonesia"
+        "Philippines",
+        "Indonesia",
+        "India"
       ],
       "answer": "Indonesia",
       "explanation": "Java is the most densely populated island on Earth, home to approximately 150 million people — about 60% of Indonesia's total population. It contains the capital Jakarta (though Indonesia is building a new capital, Nusantara, in Borneo), the historic city of Yogyakarta, and the iconic Borobudur Buddhist temple. Despite being only the 13th-largest island in the world, Java's volcanic soils are extraordinarily fertile, supporting intensive rice agriculture.",
@@ -147,10 +147,10 @@
       "category": "Science & Nature",
       "question": "How does bioluminescence work — what is the chemical process that allows living organisms like fireflies and deep-sea creatures to produce light?",
       "options": [
-        "They reflect stored sunlight",
         "A chemical reaction between luciferin and luciferase produces light without heat",
+        "Phosphorescence from minerals in their diet",
         "They use electrical signals",
-        "Phosphorescence from minerals in their diet"
+        "They reflect stored sunlight"
       ],
       "answer": "A chemical reaction between luciferin and luciferase produces light without heat",
       "explanation": "Bioluminescence is produced when the molecule luciferin is oxidized in the presence of the enzyme luciferase, releasing energy as light (with very little heat). This 'cold light' is used for a variety of purposes: fireflies use it to attract mates; anglerfish lure prey; some squid use it for camouflage; dinoflagellates (plankton) produce blue flashes when disturbed. About 75% of deep-sea animals are bioluminescent.",

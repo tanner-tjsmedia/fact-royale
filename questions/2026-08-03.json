@@ -5,9 +5,9 @@
       "category": "History",
       "question": "The Battle of Stalingrad (1942-43), considered the turning point of World War II on the Eastern Front, was fought between Nazi Germany and which country?",
       "options": [
-        "Soviet Union",
-        "Poland",
         "Ukraine",
+        "Poland",
+        "Soviet Union",
         "Romania"
       ],
       "answer": "Soviet Union",
@@ -19,9 +19,9 @@
       "question": "Vasco da Gama became the first European to reach India by sea, opening a direct trade route and bypassing the Ottoman-controlled Silk Road. From which country did he sail in 1497?",
       "options": [
         "Portugal",
-        "Spain",
+        "Netherlands",
         "England",
-        "Netherlands"
+        "Spain"
       ],
       "answer": "Portugal",
       "explanation": "Vasco da Gama sailed from Lisbon, Portugal in July 1497 and arrived in Calicut (Kozhikode), India in May 1498, completing the first direct maritime link between Europe and Asia. This route made Portugal immensely wealthy and shifted the center of world trade away from the Mediterranean.",
@@ -31,10 +31,10 @@
       "category": "History",
       "question": "Which ancient Greek mathematician formulated the theorem that the square of the hypotenuse of a right triangle equals the sum of the squares of the other two sides (a² + b² = c²)?",
       "options": [
-        "Pythagoras",
-        "Euclid",
         "Archimedes",
-        "Thales"
+        "Thales",
+        "Pythagoras",
+        "Euclid"
       ],
       "answer": "Pythagoras",
       "explanation": "Pythagoras of Samos (c. 570-495 BC) is credited with the Pythagorean theorem, though evidence suggests it may have been known to Babylonian mathematicians centuries earlier. He founded a philosophical and mathematical brotherhood in Croton, Italy. The Pythagoreans believed numbers were the foundation of all reality.",
@@ -45,8 +45,8 @@
       "question": "The Kentucky Derby, the first leg of horse racing's Triple Crown, is run at which distance?",
       "options": [
         "One mile",
-        "1.25 miles",
         "1.5 miles",
+        "1.25 miles",
         "Two miles"
       ],
       "answer": "1.25 miles",
@@ -54,26 +54,26 @@
       "memory_hook": "Kentucky Derby = 1.25 miles, first Saturday in May, Churchill Downs. Three-year-old horses only — they never race the Derby again. Only 13 horses have won all three Triple Crown races."
     },
     {
-      "category": "Sports",
-      "question": "Which country won the first modern Olympic Games in 1896?",
+      "category": "Pop Culture",
+      "question": "The Bauhaus school operated in Germany from 1919 until the Nazis shut it down in 1933. What was its founding principle?",
       "options": [
-        "France",
-        "Britain",
-        "USA",
-        "Greece"
+        "Preserve traditional handcraft against industrial machinery",
+        "Revive Gothic ornament as a German national style",
+        "Train architects exclusively, rejecting all other disciplines",
+        "Unite art and industry so good design could be mass produced"
       ],
-      "answer": "USA",
-      "explanation": "The United States won the most gold medals at the first modern Olympics, held in Athens, Greece in 1896. American athletes dominated track and field events. The games featured 241 athletes from 14 nations, all male. The host nation Greece won the most total medals, but the US topped the gold medal count. The games were revived by French Baron Pierre de Coubertin.",
-      "memory_hook": "1896 Athens = first modern Olympics. USA won most gold. Only men competed. 241 athletes from 14 nations — tiny by today's standards (10,000+ athletes now). Pierre de Coubertin revived them as a path to world peace."
+      "answer": "Unite art and industry so good design could be mass produced",
+      "explanation": "Walter Gropius founded the Bauhaus in Weimar on the idea that there should be no hierarchy between fine art and craft, and that artists should design for machine production so well-made objects could reach ordinary people. Its faculty included Kandinsky, Klee, and Moholy-Nagy. The Nazis closed it in 1933 as degenerate and un-German. The staff scattered, many to the United States, which spread Bauhaus thinking worldwide and shaped modern architecture, furniture, and graphic design for the rest of the century.",
+      "memory_hook": "Gropius founded the Bauhaus to erase the line between artist and craftsman, and to design for machines so ordinary people could afford good objects. Kandinsky and Klee taught there. The Nazis shut it in 1933 as un-German, the staff fled, and closing it exported its ideas across the world."
     },
     {
       "category": "Pop Culture",
       "question": "Which 1972 Francis Ford Coppola film won the Academy Award for Best Picture and is widely considered one of the greatest films ever made?",
       "options": [
-        "Chinatown",
         "The Godfather",
-        "Apocalypse Now",
-        "Taxi Driver"
+        "Chinatown",
+        "Taxi Driver",
+        "Apocalypse Now"
       ],
       "answer": "The Godfather",
       "explanation": "The Godfather (1972) won Best Picture, Best Actor (Marlon Brando), and Best Adapted Screenplay at the 1973 Academy Awards. Based on Mario Puzo's novel, it launched one of cinema's most acclaimed trilogies and redefined American crime films.",
@@ -83,9 +83,9 @@
       "category": "Pop Culture",
       "question": "Which artist is known as the 'Queen of Pop'?",
       "options": [
+        "Whitney Houston",
         "Beyonce",
         "Mariah Carey",
-        "Whitney Houston",
         "Madonna"
       ],
       "answer": "Madonna",
@@ -96,10 +96,10 @@
       "category": "Sports",
       "question": "Muhammad Ali's 'Rumble in the Jungle' (1974) against George Foreman in Kinshasa, Zaire is considered one of boxing's greatest upsets. What tactic did Ali use to defeat the heavily favored Foreman?",
       "options": [
-        "Ali used an aggressive early attack strategy, landing 47 consecutive jabs in the opening two rounds before Foreman could find his range — Foreman never recovered from the early damage",
-        "Ali employed the 'rope-a-dope' — leaning against the ropes and covering up, letting Foreman punch himself to exhaustion, then attacking in round 8 when Foreman was too tired to defend",
         "Ali won on a split decision after 15 rounds, surviving multiple knockdowns in the early rounds through sheer will — Foreman landed more punches but Ali's judges' scores gave him the edge",
-        "Ali and Foreman fought to a draw through 10 rounds until Ali landed a single right-hand counter in round 11 that ended the fight, the only meaningful punch Ali threw in the fight"
+        "Ali and Foreman fought to a draw through 10 rounds until Ali landed a single right-hand counter in round 11 that ended the fight, the only meaningful punch Ali threw in the fight",
+        "Ali used an aggressive early attack strategy, landing 47 consecutive jabs in the opening two rounds before Foreman could find his range — Foreman never recovered from the early damage",
+        "Ali employed the 'rope-a-dope' — leaning against the ropes and covering up, letting Foreman punch himself to exhaustion, then attacking in round 8 when Foreman was too tired to defend"
       ],
       "answer": "Ali employed the 'rope-a-dope' — leaning against the ropes and covering up, letting Foreman punch himself to exhaustion, then attacking in round 8 when Foreman was too tired to defend",
       "explanation": "George Foreman at the time was considered almost unbeatable — he had destroyed Joe Frazier and Ken Norton, both of whom had beaten Ali. He was a 3-1 favorite. Ali's corner had no idea he planned the rope-a-dope until round 2. Ali covered his head and body and leaned on the ropes, absorbing shots to the arms while Foreman punched himself out. By rounds 7-8, Foreman's punches had lost power from exhaustion. Ali attacked in round 8, landing a combination that sent Foreman down — Foreman couldn't beat the count. Norman Mailer documented it in 'The Fight' (1975). Ali called it the greatest night of his career.",
@@ -109,10 +109,10 @@
       "category": "Geography",
       "question": "The Tropic of Cancer and the Tropic of Capricorn mark the northern and southern limits of what?",
       "options": [
-        "The polar regions",
         "The temperate zones",
+        "The equatorial belt",
         "The tropics",
-        "The equatorial belt"
+        "The polar regions"
       ],
       "answer": "The tropics",
       "explanation": "The Tropic of Cancer (approximately 23.5 degrees north) and the Tropic of Capricorn (approximately 23.5 degrees south) mark the limits of the tropical zone — the region where the Sun is directly overhead at least once per year. The area between the tropics receives more direct solar energy and is generally hotter and wetter than higher latitudes.",
@@ -122,10 +122,10 @@
       "category": "Science & Nature",
       "question": "What is the name of the force that keeps electrons orbiting the nucleus of an atom?",
       "options": [
-        "Gravity",
-        "Strong nuclear force",
         "Weak nuclear force",
-        "Electromagnetic force"
+        "Gravity",
+        "Electromagnetic force",
+        "Strong nuclear force"
       ],
       "answer": "Electromagnetic force",
       "explanation": "Electrons are held in orbit around the atomic nucleus by the electromagnetic force. Electrons (negatively charged) are attracted to protons (positively charged) in the nucleus. The electromagnetic force is one of the four fundamental forces of nature, along with gravity, the strong nuclear force (which holds the nucleus together), and the weak nuclear force (responsible for radioactive decay).",
@@ -136,9 +136,9 @@
       "question": "The Namib Desert, running along the Atlantic coast of Namibia, is considered the world's oldest desert. Approximately how long has it been a desert?",
       "options": [
         "1 million years",
-        "55 million years",
+        "5 million years",
         "10,000 years",
-        "5 million years"
+        "55 million years"
       ],
       "answer": "55 million years",
       "explanation": "The Namib Desert is estimated to have been an arid or semi-arid region for at least 55 million years — making it the world's oldest desert. Despite its extreme aridity, the Namib has remarkable biodiversity including the fog-basking beetle (which collects water from coastal fog), the welwitschia plant (which can live over 1,000 years), oryx, and the world's largest sea-land nesting colony of Cape fur seals. The iconic red sand dunes near Sossusvlei are among the world's tallest.",
@@ -148,10 +148,10 @@
       "category": "Science & Nature",
       "question": "What is the reproductive process by which flowers receive pollen from the same or another plant, allowing fertilization to occur?",
       "options": [
+        "Pollination",
         "Germination",
         "Fertilization",
-        "Sporulation",
-        "Pollination"
+        "Sporulation"
       ],
       "answer": "Pollination",
       "explanation": "Pollination is the transfer of pollen from a flower's anther to its stigma, enabling fertilization. It can be self-pollination (same plant) or cross-pollination (between plants). Agents include bees, butterflies, birds, bats, wind, and water. Bees are the world's most important pollinators — about one-third of the food humans eat depends on pollination. Colony Collapse Disorder (CCD), in which honeybee colonies suddenly die, has been a major concern because of its potential impact on food supplies.",

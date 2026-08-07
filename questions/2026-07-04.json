@@ -4,10 +4,10 @@
       "category": "History",
       "question": "On July 4, 1776, which document was formally adopted by the Continental Congress?",
       "options": [
-        "The U.S. Constitution",
+        "The Declaration of Independence",
         "The Bill of Rights",
         "The Federalist Papers",
-        "The Declaration of Independence"
+        "The U.S. Constitution"
       ],
       "answer": "The Declaration of Independence",
       "explanation": "The Declaration of Independence was adopted by the Continental Congress on July 4, 1776, declaring the thirteen American colonies independent from Great Britain. It was primarily drafted by Thomas Jefferson and announced the foundational principle that 'all men are created equal.'",
@@ -17,10 +17,10 @@
       "category": "History",
       "question": "Which American president delivered the Gettysburg Address?",
       "options": [
-        "George Washington",
-        "Ulysses S. Grant",
         "Abraham Lincoln",
-        "Andrew Jackson"
+        "Andrew Jackson",
+        "Ulysses S. Grant",
+        "George Washington"
       ],
       "answer": "Abraham Lincoln",
       "explanation": "President Abraham Lincoln delivered the Gettysburg Address on November 19, 1863, at the dedication of the Soldiers' National Cemetery in Gettysburg, Pennsylvania. The speech, just 272 words, became one of the most famous in American history, redefining the Civil War as a fight for human equality.",
@@ -30,10 +30,10 @@
       "category": "Sports",
       "question": "The 'Triple Crown' in horse racing includes the Kentucky Derby, the Preakness Stakes, and which third race?",
       "options": [
-        "The Belmont Stakes",
-        "The Breeders' Cup",
         "The Arlington Million",
-        "The Travers Stakes"
+        "The Breeders' Cup",
+        "The Travers Stakes",
+        "The Belmont Stakes"
       ],
       "answer": "The Belmont Stakes",
       "explanation": "The Triple Crown consists of the Kentucky Derby (Churchill Downs), the Preakness Stakes (Pimlico), and the Belmont Stakes (Belmont Park). A horse that wins all three in the same year wins the Triple Crown — one of the rarest achievements in sport.",
@@ -45,8 +45,8 @@
       "options": [
         "Ice hockey",
         "Lacrosse",
-        "Baseball",
-        "Football"
+        "Football",
+        "Baseball"
       ],
       "answer": "Lacrosse",
       "explanation": "Canada actually has two official national sports under the National Sports of Canada Act (1994): lacrosse (summer) and ice hockey (winter). Lacrosse was originally played by Indigenous peoples of North America centuries before European contact, making it the older of the two. Ice hockey is Canada's official winter national sport.",
@@ -56,10 +56,10 @@
       "category": "Pop Culture",
       "question": "Who sang the national anthem at the 1991 Super Bowl in a performance widely considered the best ever?",
       "options": [
-        "Mariah Carey",
-        "Celine Dion",
+        "Beyoncé",
         "Whitney Houston",
-        "Beyoncé"
+        "Mariah Carey",
+        "Celine Dion"
       ],
       "answer": "Whitney Houston",
       "explanation": "Whitney Houston's performance of 'The Star-Spangled Banner' at Super Bowl XXV in 1991 is widely considered the greatest rendition of the national anthem ever. Her recording was released as a single and charted on the Billboard Hot 100 twice — in 1991 and 2001.",
@@ -69,10 +69,10 @@
       "category": "Pop Culture",
       "question": "Which film is set on the fictional island of 'Isla Nublar'?",
       "options": [
-        "King Kong",
+        "Congo",
         "The Island of Dr. Moreau",
-        "Jurassic Park",
-        "Congo"
+        "King Kong",
+        "Jurassic Park"
       ],
       "answer": "Jurassic Park",
       "explanation": "Jurassic Park (1993), directed by Steven Spielberg and based on Michael Crichton's novel, is set on Isla Nublar, a fictional island off Costa Rica where genetically recreated dinosaurs are housed in a theme park. The film revolutionized the use of CGI in cinema.",
@@ -82,8 +82,8 @@
       "category": "Pop Culture",
       "question": "Which album by Adele contains the songs 'Hello' and 'When We Were Young'?",
       "options": [
-        "19",
         "21",
+        "19",
         "25",
         "30"
       ],
@@ -95,10 +95,10 @@
       "category": "History",
       "question": "What was the primary cause of the Irish Famine (1845–1852)?",
       "options": [
+        "Government food confiscation",
         "Drought",
-        "A potato blight",
         "A plague of locusts",
-        "Government food confiscation"
+        "A potato blight"
       ],
       "answer": "A potato blight",
       "explanation": "The Irish Famine was caused primarily by Phytophthora infestans, a water mold that caused potato blight, destroying the potato crop which was the main food source for much of Ireland's population. Over 1 million people died and over 1 million emigrated, reducing Ireland's population by 25%.",
@@ -109,9 +109,9 @@
       "question": "Greenland is a territory of which country?",
       "options": [
         "Iceland",
-        "Norway",
         "Canada",
-        "Denmark"
+        "Denmark",
+        "Norway"
       ],
       "answer": "Denmark",
       "explanation": "Greenland is an autonomous territory within the Kingdom of Denmark, though it has its own government and handles most of its own affairs. Despite its name, Greenland is 80% covered by ice — it was named 'Greenland' by Erik the Red in 982 AD, reportedly to attract settlers. Iceland, ironically, is greener.",
@@ -121,10 +121,10 @@
       "category": "Science & Nature",
       "question": "What is the most abundant element in the universe?",
       "options": [
-        "Oxygen",
-        "Carbon",
+        "Hydrogen",
         "Helium",
-        "Hydrogen"
+        "Oxygen",
+        "Carbon"
       ],
       "answer": "Hydrogen",
       "explanation": "Hydrogen makes up about 75% of all normal matter in the universe by mass. It is the simplest element — one proton, one electron — and was among the first elements formed after the Big Bang. Stars are essentially giant hydrogen-burning engines, fusing hydrogen into helium to produce energy.",
@@ -136,8 +136,8 @@
       "options": [
         "Norway",
         "Iceland",
-        "United Kingdom",
-        "Denmark"
+        "Denmark",
+        "United Kingdom"
       ],
       "answer": "Denmark",
       "explanation": "The Faroe Islands are a self-governing archipelago of 18 islands in the North Atlantic, situated between Norway, Iceland, and the British Isles. They are officially an autonomous territory of Denmark, with their own parliament (the Løgting, one of the world's oldest), language (Faroese), and football team — but not full independence. Greenland is Denmark's other autonomous territory. The Faroes are famous for dramatic cliffs, seabirds, and puffins.",
@@ -147,10 +147,10 @@
       "category": "Science & Nature",
       "question": "What characteristic is unique to all female mammals that gives the class Mammalia its name?",
       "options": [
-        "Giving live birth",
-        "Having fur or hair",
         "Being warm-blooded",
-        "Producing milk to feed their young"
+        "Producing milk to feed their young",
+        "Having fur or hair",
+        "Giving live birth"
       ],
       "answer": "Producing milk to feed their young",
       "explanation": "The word 'mammal' comes from the Latin 'mamma' meaning breast or nipple. The defining characteristic of mammals is that females produce milk through mammary glands to nourish their young. While most mammals give live birth, some (monotremes like platypuses and echidnas) lay eggs — but all female mammals produce milk. Mammals also typically have hair or fur and are endothermic (warm-blooded).",

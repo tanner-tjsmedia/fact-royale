@@ -18,10 +18,10 @@
       "category": "Science & Nature",
       "question": "Which gas, making up about 78% of Earth's atmosphere, is essential for the production of proteins in living organisms but must be 'fixed' first?",
       "options": [
+        "Carbon dioxide",
         "Nitrogen",
         "Oxygen",
-        "Argon",
-        "Carbon dioxide"
+        "Argon"
       ],
       "answer": "Nitrogen",
       "explanation": "Nitrogen (N2) makes up 78% of air but is mostly inert. 'Nitrogen fixation' by bacteria converts atmospheric N2 into ammonium, which plants can use. The Haber-Bosch process (1909) artificially fixes nitrogen for fertilizer — it is estimated to sustain food production for half the world's current population.",
@@ -32,9 +32,9 @@
       "question": "Which country dominated women's gymnastics for decades and produced legends like Nadia Comaneci, who scored the first perfect 10 at the 1976 Olympics?",
       "options": [
         "Romania",
+        "China",
         "Soviet Union",
-        "United States",
-        "China"
+        "United States"
       ],
       "answer": "Romania",
       "explanation": "Nadia Comaneci of Romania scored seven perfect 10s at the 1976 Montreal Olympics, aged 14 — the scoreboard wasn't designed to show 10.00 and displayed 1.00. She won three gold medals that year. Romania's dominance lasted through the 1970s-1990s, with the Soviet Union and later the US emerging as rivals.",
@@ -44,9 +44,9 @@
       "category": "Pop Culture",
       "question": "Which 1975 Steven Spielberg film about a killer shark terrorizing a beach town became the first ever 'summer blockbuster'?",
       "options": [
+        "Piranha",
         "Jaws",
         "The Deep",
-        "Piranha",
         "Blue Water White Death"
       ],
       "answer": "Jaws",
@@ -57,10 +57,10 @@
       "category": "Geography",
       "question": "Which strait separates the Asian and North American continents and was crossed by prehistoric humans migrating to the Americas?",
       "options": [
-        "Bering Strait",
         "Strait of Malacca",
-        "Strait of Hormuz",
-        "Luzon Strait"
+        "Luzon Strait",
+        "Bering Strait",
+        "Strait of Hormuz"
       ],
       "answer": "Bering Strait",
       "explanation": "The Bering Strait is only 85 km wide between Russia and Alaska. During the last Ice Age (roughly 20,000 years ago), sea levels were 120 meters lower, exposing a land bridge called Beringia up to 1,000 km wide. Humans and animals walked across it from Asia into the Americas.",
@@ -70,10 +70,10 @@
       "category": "History",
       "question": "Which 1919 treaty officially ended World War I and imposed severe reparations and restrictions on Germany, fueling resentment that contributed to World War II?",
       "options": [
-        "Treaty of Versailles",
+        "Treaty of Saint-Germain",
         "Treaty of Brest-Litovsk",
-        "Treaty of Trianon",
-        "Treaty of Saint-Germain"
+        "Treaty of Versailles",
+        "Treaty of Trianon"
       ],
       "answer": "Treaty of Versailles",
       "explanation": "The Treaty of Versailles (June 28, 1919) held Germany solely responsible for the war ('War Guilt Clause'), demanded $33 billion in reparations, stripped Germany of 13% of its territory, and limited its military. German humiliation and economic hardship created conditions that Hitler exploited. Germany made its final reparations payment in 2010.",
@@ -81,14 +81,14 @@
     },
     {
       "category": "Pop Culture",
-      "question": "Cy Twombly's large-scale paintings — covered in scrawled loops, scribbles, and smeared marks — were dismissed by critics for decades as child-like. What redeemed his reputation and what do art historians now recognize in his work?",
+      "question": "Cy Twombly's scrawled, scribbled canvases were dismissed for decades as child-like. What do art historians now see in them?",
       "options": [
-        "Twombly's reputation was saved when Robert Rauschenberg publicly defended his work in 1960, convincing MoMA to purchase five Twombly paintings — an institutional endorsement that shifted critical opinion almost overnight",
-        "Twombly's scrawled marks reference ancient Mediterranean culture — classical mythology, Greek poetry, Roman history — embedded in apparently chaotic surfaces, creating a layered conversation between antiquity and gestural abstraction",
-        "Twombly's rehabilitation came when a 1985 retrospective revealed that his 'childlike' marks were actually produced by writing with his non-dominant hand — demonstrating technical control and intentionality critics had missed",
-        "Twombly never achieved critical redemption during his lifetime — his auction prices soared only after his death in 2011, when collectors recognized they had missed a market opportunity"
+        "His scrawls encode Greek and Roman myth and poetry",
+        "Nothing; prices only rose after his death in 2011",
+        "Rauschenberg's 1960 defense that won over MoMA",
+        "A 1985 show proved he painted with his weaker hand"
       ],
-      "answer": "Twombly's scrawled marks reference ancient Mediterranean culture — classical mythology, Greek poetry, Roman history — embedded in apparently chaotic surfaces, creating a layered conversation between antiquity and gestural abstraction",
+      "answer": "His scrawls encode Greek and Roman myth and poetry",
       "explanation": "Twombly lived primarily in Italy from 1957 onward, immersed in Roman and Greek antiquity. His works like 'Leda and the Swan,' 'Fifty Days at Iliam,' and the 'Blackboard' paintings embed text fragments from Keats, Sappho, Virgil, and Homer within gestural surfaces that read as raw but are carefully constructed. Roland Barthes wrote a famous 1979 essay on Twombly. His work influenced artists across generations. A 2011 painting from his 'Camino Real' series sold for $69.6 million at Christie's. He was criticized early — one critic in 1964 wrote he painted 'like a child' — but the layered cultural references became central to postmodern art discourse.",
       "memory_hook": "Twombly lived in Italy for decades, embedding fragments of Keats, Sappho, Virgil, and Homer into surfaces that looked like scribbles. Roland Barthes wrote a famous essay on him. Critics said 'child-like' for years; then a 2011 painting sold for $69.6M. The scrawls aren't random — they're coded with Mediterranean antiquity."
     },
@@ -96,10 +96,10 @@
       "category": "Science & Nature",
       "question": "What is the primary cause of the greenhouse effect, which naturally warms Earth's surface by trapping outgoing infrared radiation?",
       "options": [
-        "Water vapor",
         "Carbon dioxide",
+        "Ozone",
         "Methane",
-        "Ozone"
+        "Water vapor"
       ],
       "answer": "Water vapor",
       "explanation": "Water vapor accounts for approximately 50% of the natural greenhouse effect, followed by clouds (25%), CO2 (20%), and other gases (5%). However, CO2 is the primary driver of enhanced (human-caused) greenhouse warming because it persists in the atmosphere for centuries while water vapor is a feedback, not a driver.",
@@ -109,9 +109,9 @@
       "category": "Geography",
       "question": "The Caspian Sea, the world's largest inland body of water, is bordered by Russia, Azerbaijan, Iran, Turkmenistan, and which fifth country?",
       "options": [
-        "Kazakhstan",
         "Georgia",
         "Armenia",
+        "Kazakhstan",
         "Uzbekistan"
       ],
       "answer": "Kazakhstan",
@@ -122,9 +122,9 @@
       "category": "History",
       "question": "Which British officer and archaeologist, known as 'Lawrence of Arabia,' helped lead the Arab Revolt against Ottoman rule during World War I?",
       "options": [
-        "T.E. Lawrence",
         "Gertrude Bell",
         "Herbert Kitchener",
+        "T.E. Lawrence",
         "Edmund Allenby"
       ],
       "answer": "T.E. Lawrence",
@@ -135,10 +135,10 @@
       "category": "Pop Culture",
       "question": "Which British-American rock group, active from 1968-1980, featured singer Robert Plant, guitarist Jimmy Page, bassist John Paul Jones, and drummer John Bonham?",
       "options": [
-        "Led Zeppelin",
+        "The Who",
         "Deep Purple",
         "Black Sabbath",
-        "The Who"
+        "Led Zeppelin"
       ],
       "answer": "Led Zeppelin",
       "explanation": "Led Zeppelin sold over 300 million albums worldwide. 'Stairway to Heaven' is the most-requested song in US radio history. The band members refused to release singles in the UK, insisting the album was the art form. After John Bonham's death in 1980, they disbanded rather than replace him.",
@@ -149,8 +149,8 @@
       "question": "What is the name of the annual horse race held at Churchill Downs in Louisville, Kentucky, known as 'the most exciting two minutes in sports'?",
       "options": [
         "Kentucky Derby",
-        "Preakness Stakes",
         "Belmont Stakes",
+        "Preakness Stakes",
         "Breeders' Cup"
       ],
       "answer": "Kentucky Derby",

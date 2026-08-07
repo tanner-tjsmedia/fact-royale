@@ -5,10 +5,10 @@
       "category": "History",
       "question": "Winston Churchill's 1946 speech warning that 'an iron curtain has descended across the Continent' was delivered in which U.S. state?",
       "options": [
-        "Missouri",
-        "Virginia",
         "Ohio",
-        "Kansas"
+        "Kansas",
+        "Missouri",
+        "Virginia"
       ],
       "answer": "Missouri",
       "explanation": "Churchill delivered the 'Sinews of Peace' speech at Westminster College in Fulton, Missouri on March 5, 1946. President Truman sat on stage. The speech is credited with popularizing the 'Iron Curtain' metaphor and framing the Cold War for Western audiences.",
@@ -19,9 +19,9 @@
       "question": "Diamond is the hardest natural substance, rated 10 on the Mohs scale. What is diamond made of?",
       "options": [
         "Carbon",
+        "Compressed coal",
         "Silicon",
-        "Calcium",
-        "Compressed coal"
+        "Calcium"
       ],
       "answer": "Carbon",
       "explanation": "Diamond is pure carbon atoms arranged in a crystal lattice structure, formed under extreme heat (1200°C) and pressure 150 km below Earth's surface. Despite the myth, diamonds are NOT formed from coal — coal forms near the surface, while diamonds form far deeper.",
@@ -31,10 +31,10 @@
       "category": "Sports",
       "question": "Brazil has won five FIFA World Cups — more than any other nation. Which legendary player won his first World Cup at age 17 in 1958?",
       "options": [
-        "Pelé",
-        "Garrincha",
         "Ronaldo",
-        "Zico"
+        "Zico",
+        "Garrincha",
+        "Pelé"
       ],
       "answer": "Pelé",
       "explanation": "Pelé (Edson Arantes do Nascimento) scored six goals at the 1958 World Cup in Sweden, aged just 17 years and 249 days, making him the youngest World Cup winner and scorer. He went on to win two more World Cups (1962, 1970), finishing with 1,281 career goals.",
@@ -44,10 +44,10 @@
       "category": "Pop Culture",
       "question": "Which British singer has released albums named '19,' '21,' '25,' and '30,' each named after her age at the time of writing?",
       "options": [
-        "Adele",
         "Amy Winehouse",
         "Lily Allen",
-        "Duffy"
+        "Duffy",
+        "Adele"
       ],
       "answer": "Adele",
       "explanation": "Adele Laurie Blue Adkins has sold over 100 million records worldwide. '21' spent 24 weeks at #1 in both the UK and US. 'Hello,' the lead single from '25,' became the first song to sell a million digital downloads in a single week in the UK.",
@@ -57,10 +57,10 @@
       "category": "Geography",
       "question": "Victoria Falls, one of the world's largest waterfalls, sits on the Zambezi River on the border between Zimbabwe and which other country?",
       "options": [
+        "Malawi",
         "Zambia",
         "Botswana",
-        "Mozambique",
-        "Malawi"
+        "Mozambique"
       ],
       "answer": "Zambia",
       "explanation": "Victoria Falls (called Mosi-oa-Tunya — 'The Smoke That Thunders' locally) was named by David Livingstone in 1855. At 1,708 meters wide and up to 108 meters high, it is the world's largest waterfall by combined width and height. During peak flow, the mist can be seen 50 km away.",
@@ -71,9 +71,9 @@
       "question": "The Meiji Restoration (1868) transformed Japan from a feudal shogunate into a modern industrial nation. Which military class lost power as a result?",
       "options": [
         "Samurai",
-        "Ninja",
         "Daimyo",
-        "Shogun"
+        "Shogun",
+        "Ninja"
       ],
       "answer": "Samurai",
       "explanation": "The Meiji Restoration ended feudal Japan. The samurai class was formally abolished in the 1870s as Japan built a modern conscript army. The 1877 Satsuma Rebellion — led by Saigo Takamori — was the last major samurai uprising against Meiji modernization.",
@@ -83,9 +83,9 @@
       "category": "Pop Culture",
       "question": "Which fictional wizard school did Harry Potter attend in J.K. Rowling's series?",
       "options": [
+        "Beauxbatons",
         "Hogwarts",
         "Durmstrang",
-        "Beauxbatons",
         "Ilvermorny"
       ],
       "answer": "Hogwarts",
@@ -110,9 +110,9 @@
       "question": "Which tiny European nation, completely surrounded by Italy, is considered the world's oldest republic, said to have been founded in 301 AD?",
       "options": [
         "San Marino",
-        "Vatican City",
         "Monaco",
-        "Andorra"
+        "Andorra",
+        "Vatican City"
       ],
       "answer": "San Marino",
       "explanation": "San Marino covers just 61 km² and has a population of around 33,000. It was reportedly founded by a Christian stonemason named Marinus fleeing Roman persecution. It has its own football team (notorious for record-breaking losses), Olympics committee, and Grand Prix.",
@@ -123,9 +123,9 @@
       "question": "The forced westward relocation of the Cherokee Nation in 1838-39, during which thousands died from disease and exposure, became known as what?",
       "options": [
         "Trail of Tears",
-        "Indian Removal",
         "The Long Walk",
-        "Cherokee Exodus"
+        "Cherokee Exodus",
+        "Indian Removal"
       ],
       "answer": "Trail of Tears",
       "explanation": "The Trail of Tears followed President Andrew Jackson's Indian Removal Act (1830). Approximately 16,000 Cherokee were marched over 1,200 miles to Oklahoma in winter. An estimated 4,000-8,000 died. The phrase 'Trail of Tears' comes from a Cherokee description of the suffering.",
@@ -135,10 +135,10 @@
       "category": "Pop Culture",
       "question": "Quentin Tarantino's 1994 crime film with a nonlinear narrative revived John Travolta's career and won the Palme d'Or at Cannes. Name the film.",
       "options": [
-        "Pulp Fiction",
+        "True Romance",
         "Reservoir Dogs",
         "Jackie Brown",
-        "True Romance"
+        "Pulp Fiction"
       ],
       "answer": "Pulp Fiction",
       "explanation": "Pulp Fiction features Samuel L. Jackson, Uma Thurman, John Travolta, and Bruce Willis in interlocking stories. Jackson's character Jules and his biblical Ezekiel 25:17 quote became iconic. The film used nonlinear storytelling that influenced a generation of filmmakers.",
@@ -148,8 +148,8 @@
       "category": "Sports",
       "question": "In tennis, what is the term for a serve that lands in the correct service box without the receiver touching it, winning the point outright?",
       "options": [
-        "Ace",
         "Fault",
+        "Ace",
         "Let",
         "Winner"
       ],

@@ -4,10 +4,10 @@
       "category": "History",
       "question": "The moon landing occurred on July 20, 1969. Which astronaut remained in orbit while the others walked on the moon?",
       "options": [
-        "Alan Shepard",
         "Buzz Aldrin",
-        "Michael Collins",
-        "John Glenn"
+        "Alan Shepard",
+        "John Glenn",
+        "Michael Collins"
       ],
       "answer": "Michael Collins",
       "explanation": "Michael Collins piloted the Columbia command module and orbited the Moon while Neil Armstrong and Buzz Aldrin landed in the Eagle lunar module. Collins is sometimes called 'the forgotten astronaut,' but he described his solo orbits of the moon — sometimes on the far side with no contact with Earth — as peaceful.",
@@ -18,8 +18,8 @@
       "question": "The 'Panama Canal' connects which two oceans?",
       "options": [
         "Atlantic and Indian",
-        "Pacific and Arctic",
         "Atlantic and Pacific",
+        "Pacific and Arctic",
         "Pacific and Southern"
       ],
       "answer": "Atlantic and Pacific",
@@ -30,10 +30,10 @@
       "category": "Sports",
       "question": "In American football, how many points is a field goal worth?",
       "options": [
-        "1",
-        "2",
+        "6",
         "3",
-        "6"
+        "2",
+        "1"
       ],
       "answer": "3",
       "explanation": "A field goal in American football is worth 3 points. It is scored by kicking the ball through the upright goalposts. The longest successful field goal in NFL history was 66 yards, kicked by Justin Tucker of the Baltimore Ravens in 2021.",
@@ -43,10 +43,10 @@
       "category": "Sports",
       "question": "The Olympic torch relay tradition, where a flame is carried from Greece to the host city, was introduced at which Olympic Games?",
       "options": [
-        "Paris 1924",
-        "Berlin 1936",
         "London 1948",
-        "Rome 1960"
+        "Paris 1924",
+        "Rome 1960",
+        "Berlin 1936"
       ],
       "answer": "Berlin 1936",
       "explanation": "The Olympic torch relay was introduced at the 1936 Berlin Games, organized under Nazi Germany. A flame was lit in Olympia, Greece and carried by relay runners to Berlin — a tradition that has continued at every Summer Olympics since.",
@@ -56,10 +56,10 @@
       "category": "Pop Culture",
       "question": "Black Mirror (Channel 4/Netflix, 2011–present), created by Charlie Brooker, is a landmark anthology series. What unifies its episodes and what cultural anxiety does it explore?",
       "options": [
-        "Each episode is set in a post-apocalyptic future 200 years from now, exploring how humanity might survive civilizational collapse through different social experiments",
         "Each standalone episode imagines the dark, unintended consequences of near-future technology — social media, surveillance, virtual reality — to explore how technology amplifies human flaws",
-        "Each episode takes place in an alternate history where one technology (nuclear power, computing, air travel) was never invented, examining how its absence changed society",
-        "The series is a direct critique of television itself — each episode satirizes a different TV genre to expose how screen culture shapes thought"
+        "The series is a direct critique of television itself — each episode satirizes a different TV genre to expose how screen culture shapes thought",
+        "Each episode is set in a post-apocalyptic future 200 years from now, exploring how humanity might survive civilizational collapse through different social experiments",
+        "Each episode takes place in an alternate history where one technology (nuclear power, computing, air travel) was never invented, examining how its absence changed society"
       ],
       "answer": "Each standalone episode imagines the dark, unintended consequences of near-future technology — social media, surveillance, virtual reality — to explore how technology amplifies human flaws",
       "explanation": "The title 'Black Mirror' refers to a switched-off phone, tablet, or TV screen — technology's dark reflective surface. Episodes like 'The Entire History of You' (total memory recall), 'Nosedive' (social media reputation scores controlling access to society), and 'Be Right Back' (an AI trained on a dead person's messages) function as modern parables. The series moved from UK Channel 4 to Netflix in 2016. Brooker has said the show isn't really about technology — it's about human nature.",
@@ -70,9 +70,9 @@
       "question": "Johannes Vermeer's 'Girl with a Pearl Earring' (c. 1665) is often called the 'Mona Lisa of the North.' What is distinctive about Vermeer's technical mastery and his mystery?",
       "options": [
         "Vermeer painted more than 300 known works but signed only 12, leading historians to believe most of his output was sold under other artists' names",
+        "Vermeer's secret technique involved painting with powdered lapis lazuli dissolved in egg white, producing the distinctive blue that appears in nearly all his works",
         "Vermeer created astonishingly detailed interior scenes with exquisite light by likely using a camera obscura as a drawing aid — and we know almost nothing about his life despite his greatness",
-        "Vermeer was totally unknown in his lifetime and died in poverty, with all 34 known works discovered in a Amsterdam attic in 1868",
-        "Vermeer's secret technique involved painting with powdered lapis lazuli dissolved in egg white, producing the distinctive blue that appears in nearly all his works"
+        "Vermeer was totally unknown in his lifetime and died in poverty, with all 34 known works discovered in a Amsterdam attic in 1868"
       ],
       "answer": "Vermeer created astonishingly detailed interior scenes with exquisite light by likely using a camera obscura as a drawing aid — and we know almost nothing about his life despite his greatness",
       "explanation": "Vermeer left only about 34–36 known paintings, almost no documentation, and no letters or diaries. Art historians believe he used a camera obscura (a light-projection device) to achieve his extraordinary spatial accuracy and soft focus. He died in 1675 at 43, leaving his wife and 11 children in debt — the family was forced to pay creditors with his paintings. Girl with a Pearl Earring is technically a 'tronie' (a character study, not a portrait). Tracy Chevalier's 1999 novel imagined the sitter's identity.",
@@ -82,10 +82,10 @@
       "category": "Pop Culture",
       "question": "What was the first James Bond film?",
       "options": [
-        "Goldfinger",
         "From Russia with Love",
+        "Dr. No",
         "Thunderball",
-        "Dr. No"
+        "Goldfinger"
       ],
       "answer": "Dr. No",
       "explanation": "Dr. No (1962) was the first James Bond film, starring Sean Connery as 007. It was based on Ian Fleming's 1958 novel and set in Jamaica. The film introduced the Bond formula: exotic locations, beautiful women, a memorable villain, and sophisticated gadgets. Dr. No grossed 60 times its budget.",
@@ -95,10 +95,10 @@
       "category": "History",
       "question": "The Holocaust was the systematic genocide of which group, among others?",
       "options": [
+        "Only political prisoners",
         "Only Romani people",
-        "Only LGBTQ+ individuals",
         "Jewish people and other targeted groups",
-        "Only political prisoners"
+        "Only LGBTQ+ individuals"
       ],
       "answer": "Jewish people and other targeted groups",
       "explanation": "The Holocaust was the systematic, state-sponsored persecution and murder of six million Jewish people by the Nazi regime and its collaborators. Other targeted groups included Roma, people with disabilities, LGBTQ+ individuals, political opponents, and Jehovah's Witnesses. In total, an estimated 11 million people were killed.",
@@ -108,10 +108,10 @@
       "category": "Geography",
       "question": "Which river flows through the most countries in Europe?",
       "options": [
+        "Volga",
         "Rhine",
         "Seine",
-        "Danube",
-        "Volga"
+        "Danube"
       ],
       "answer": "Danube",
       "explanation": "The Danube flows through or forms the border of 10 countries: Germany, Austria, Slovakia, Hungary, Croatia, Serbia, Bulgaria, Romania, Moldova, and Ukraine before emptying into the Black Sea. At 2,860 km, it is Europe's second longest river after the Volga. Vienna, Bratislava, Budapest, and Belgrade all sit on the Danube.",
@@ -122,8 +122,8 @@
       "question": "How many elements are currently on the periodic table?",
       "options": [
         "92",
-        "104",
         "118",
+        "104",
         "126"
       ],
       "answer": "118",
@@ -134,9 +134,9 @@
       "category": "Geography",
       "question": "The Great Salt Lake in Utah is the largest saltwater lake in the Western Hemisphere. What unique feature makes it impossible for most fish to survive in it?",
       "options": [
-        "It is too deep for sunlight",
-        "It is too cold year-round",
         "Its salinity is 3-8 times saltier than the ocean",
+        "It is too cold year-round",
+        "It is too deep for sunlight",
         "It contains toxic minerals"
       ],
       "answer": "Its salinity is 3-8 times saltier than the ocean",
@@ -147,10 +147,10 @@
       "category": "Science & Nature",
       "question": "Which environmental problem, caused by chlorofluorocarbons (CFCs) used in aerosols and refrigerants, has led to the thinning of a protective atmospheric layer?",
       "options": [
-        "Acid rain",
-        "Global warming",
         "Ozone depletion",
-        "Smog formation"
+        "Smog formation",
+        "Acid rain",
+        "Global warming"
       ],
       "answer": "Ozone depletion",
       "explanation": "Ozone depletion refers to the thinning of the stratospheric ozone layer caused primarily by chlorofluorocarbons (CFCs) — chemicals formerly used in aerosol sprays, refrigerators, and air conditioners. When CFCs reach the stratosphere, UV radiation breaks them down, releasing chlorine atoms that destroy ozone molecules catalytically. The Antarctic ozone 'hole' was discovered in 1985. The 1987 Montreal Protocol successfully phased out most CFC production, and the ozone layer is gradually recovering.",

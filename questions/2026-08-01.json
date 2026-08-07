@@ -5,10 +5,10 @@
       "category": "History",
       "question": "The first moon landing was achieved by which country in 1969?",
       "options": [
-        "Soviet Union",
-        "France",
         "China",
-        "United States"
+        "United States",
+        "France",
+        "Soviet Union"
       ],
       "answer": "United States",
       "explanation": "NASA's Apollo 11 mission landed astronauts Neil Armstrong and Buzz Aldrin on the Moon on July 20, 1969. Armstrong was the first to step on the surface, saying 'That's one small step for man, one giant leap for mankind.' Michael Collins orbited the Moon in the command module. The mission fulfilled President Kennedy's 1961 pledge to land a man on the Moon before the end of the decade.",
@@ -18,10 +18,10 @@
       "category": "History",
       "question": "The Great Depression, one of the worst economic crises in history, began with a stock market crash in which year?",
       "options": [
-        "1927",
-        "1929",
         "1931",
-        "1933"
+        "1933",
+        "1929",
+        "1927"
       ],
       "answer": "1929",
       "explanation": "The Great Depression began with the stock market crash of October 1929 (Black Tuesday), when stock prices collapsed catastrophically. By 1932, US unemployment reached 25%. The Depression spread globally, lasted through most of the 1930s, and helped fuel the political instability that led to World War II. It ended largely due to the massive government spending associated with WWII.",
@@ -32,9 +32,9 @@
       "question": "Which U.S. president authorized the dropping of atomic bombs on Hiroshima and Nagasaki in August 1945, ending World War II in the Pacific?",
       "options": [
         "Harry Truman",
-        "Franklin D. Roosevelt",
+        "Lyndon B. Johnson",
         "Dwight D. Eisenhower",
-        "Lyndon B. Johnson"
+        "Franklin D. Roosevelt"
       ],
       "answer": "Harry Truman",
       "explanation": "Harry Truman became president on April 12, 1945, following FDR's death — just weeks before Germany surrendered. He authorized the use of atomic bombs on Hiroshima (August 6) and Nagasaki (August 9), 1945. Japan surrendered on August 15, ending World War II. Truman also launched the Marshall Plan to rebuild postwar Europe.",
@@ -44,10 +44,10 @@
       "category": "Sports",
       "question": "Dr. James Naismith invented basketball in 1891 at a YMCA in Springfield, Massachusetts. What was his nationality?",
       "options": [
-        "American",
         "Canadian",
-        "British",
-        "Australian"
+        "American",
+        "Australian",
+        "British"
       ],
       "answer": "Canadian",
       "explanation": "James Naismith was born in Almonte, Ontario, Canada in 1861. He created basketball as an indoor winter activity while working as a physical education instructor in Springfield, Massachusetts, using peach baskets as goals. He became a US citizen only in 1925 — more than 30 years after inventing the sport. The NBA was founded in 1946, and basketball is now played by an estimated 450 million people worldwide.",
@@ -57,10 +57,10 @@
       "category": "Sports",
       "question": "In Formula 1 racing, how many points does the winner of a race receive?",
       "options": [
-        "10",
         "20",
         "25",
-        "30"
+        "30",
+        "10"
       ],
       "answer": "25",
       "explanation": "The winner of a Formula 1 Grand Prix receives 25 points in the current scoring system (introduced in 2010). Second place gets 18, third gets 15, decreasing to 1 point for 10th place. An additional point is awarded for the fastest lap (if the driver finishes in the top 10). The driver with the most points at season's end wins the World Drivers' Championship.",
@@ -70,10 +70,10 @@
       "category": "Pop Culture",
       "question": "Which Seattle grunge band, fronted by Kurt Cobain, released 'Nevermind' in 1991 and brought alternative rock to mainstream audiences?",
       "options": [
-        "Nirvana",
         "Pearl Jam",
         "Soundgarden",
-        "Alice in Chains"
+        "Alice in Chains",
+        "Nirvana"
       ],
       "answer": "Nirvana",
       "explanation": "Nirvana's 'Nevermind,' released September 13, 1991, knocked Michael Jackson's 'Dangerous' off the top of the Billboard 200. The album's lead single 'Smells Like Teen Spirit' became an anthem of Generation X. Cobain's suicide in 1994 at age 27 made him one of rock's most iconic tragic figures.",
@@ -84,9 +84,9 @@
       "question": "Jean-Michel Basquiat rose from painting graffiti on Manhattan streets as 'SAMO' to selling work for millions — all before his death at 27. What makes his art historically significant?",
       "options": [
         "He was the first Black artist to have solo exhibitions at both MoMA and the Guggenheim simultaneously, breaking institutional barriers that had excluded Black artists for decades",
-        "He merged graffiti and street art with Neo-Expressionist painting, incorporating text, symbols, and Black history into raw canvases that confronted racism and power — while achieving commercial art-world success as a young Black man in the 1980s",
         "He invented a painting technique using actual street materials — pavement, tar, newspaper — that transformed found-object art and inspired the Young British Artists movement of the 1990s",
-        "He was discovered by Andy Warhol, who trained him for three years before Basquiat exceeded his mentor's commercial success and became the first artist to outsell Warhol at auction"
+        "He was discovered by Andy Warhol, who trained him for three years before Basquiat exceeded his mentor's commercial success and became the first artist to outsell Warhol at auction",
+        "He merged graffiti and street art with Neo-Expressionist painting, incorporating text, symbols, and Black history into raw canvases that confronted racism and power — while achieving commercial art-world success as a young Black man in the 1980s"
       ],
       "answer": "He merged graffiti and street art with Neo-Expressionist painting, incorporating text, symbols, and Black history into raw canvases that confronted racism and power — while achieving commercial art-world success as a young Black man in the 1980s",
       "explanation": "Basquiat grew up in Brooklyn, taught himself art history from a library copy of Gray's Anatomy given to him by his mother, and began writing cryptic SAMO ('same old shit') graffiti in SoHo at 17. By 21 he was shown in the Venice Biennale. His paintings fuse crowns, anatomy, copyright symbols, historical Black figures, and fragmented text into an intensely personal visual language about race, identity, and genius. He and Andy Warhol collaborated and became close friends. He died of a heroin overdose in 1988. A 1982 painting sold for $110.5 million in 2017.",
@@ -96,9 +96,9 @@
       "category": "Pop Culture",
       "question": "What Pixar film features a rat who dreams of becoming a gourmet chef in Paris?",
       "options": [
-        "Monsters Inc",
-        "The Incredibles",
         "A Bug's Life",
+        "The Incredibles",
+        "Monsters Inc",
         "Ratatouille"
       ],
       "answer": "Ratatouille",
@@ -109,9 +109,9 @@
       "category": "Geography",
       "question": "Which two continents are connected by the Isthmus of Panama?",
       "options": [
-        "Africa and Europe",
         "Australia and Asia",
         "North America and South America",
+        "Africa and Europe",
         "North America and Asia"
       ],
       "answer": "North America and South America",
@@ -123,9 +123,9 @@
       "question": "Most stars in the Milky Way are not solitary like our Sun — they exist in binary or multiple star systems. What have binary stars revealed about stellar physics?",
       "options": [
         "Binary stars proved that stellar fusion is not the primary energy source for stars — instead, gravitational interaction between binary partners provides 60% of a typical star's observed luminosity",
-        "Binary stars allow precise measurement of stellar masses (impossible for solitary stars) because orbital mechanics let astronomers directly calculate each star's mass from orbital period and separation",
+        "Binary stars are the source of all heavy elements in the universe — only stars with a gravitational partner can generate the internal pressure needed to fuse elements heavier than iron",
         "Binary stars proved that solar systems around other stars are impossible — any planets would be gravitationally ejected by the complex gravitational field of two orbiting stars",
-        "Binary stars are the source of all heavy elements in the universe — only stars with a gravitational partner can generate the internal pressure needed to fuse elements heavier than iron"
+        "Binary stars allow precise measurement of stellar masses (impossible for solitary stars) because orbital mechanics let astronomers directly calculate each star's mass from orbital period and separation"
       ],
       "answer": "Binary stars allow precise measurement of stellar masses (impossible for solitary stars) because orbital mechanics let astronomers directly calculate each star's mass from orbital period and separation",
       "explanation": "For solitary stars, mass can only be estimated from luminosity via theoretical models. But for binary systems, Newton's form of Kepler's Third Law lets astronomers calculate masses directly from observational data — orbital period and separation distance. Binary stars also produce phenomena impossible in single stars: Type Ia supernovae (used to measure dark energy) occur when a white dwarf in a binary system accretes enough mass from its companion to exceed the Chandrasekhar limit; neutron star mergers (gravitational wave sources) happen in binary systems. About 50% of Sun-like stars are in binary systems.",
@@ -135,10 +135,10 @@
       "category": "Geography",
       "question": "The Yellow Sea, a semi-enclosed sea with unusually shallow, nutrient-rich water, lies between China and which peninsula?",
       "options": [
-        "Indochina",
-        "Kamchatka",
         "Arabian",
-        "Korean"
+        "Kamchatka",
+        "Korean",
+        "Indochina"
       ],
       "answer": "Korean",
       "explanation": "The Yellow Sea lies between China and the Korean Peninsula, connecting to the East China Sea to the south. It gets its name from the yellow-brown silt carried into it by the Yellow River (Huang He). Averaging only about 44 meters deep, it is one of the world's shallowest seas and has enormous tidal ranges in some areas (over 9 meters). It is one of the world's most productive fishing areas and has been an important trade route between China and Korea for thousands of years.",
@@ -148,10 +148,10 @@
       "category": "Science & Nature",
       "question": "Underground reservoirs of fresh water stored in porous rock formations, from which wells and springs draw water, are called what?",
       "options": [
-        "Reservoirs",
-        "Estuaries",
         "Aquifers",
-        "Watersheds"
+        "Watersheds",
+        "Estuaries",
+        "Reservoirs"
       ],
       "answer": "Aquifers",
       "explanation": "Aquifers are underground layers of porous rock, gravel, sand, or silt that hold groundwater. Confined aquifers are trapped between layers of impermeable rock; unconfined aquifers are recharged directly from surface water above. The Ogallala Aquifer under the American Great Plains is one of the world's largest, supplying 30% of US groundwater used for irrigation. Many aquifers worldwide are being depleted faster than they recharge due to over-pumping for agriculture and cities.",

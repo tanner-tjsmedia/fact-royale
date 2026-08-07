@@ -5,9 +5,9 @@
       "category": "History",
       "question": "What was the name of the economic policy of 'opening up' implemented in the Soviet Union by Mikhail Gorbachev?",
       "options": [
-        "Glasnost",
-        "Perestroika",
         "Detente",
+        "Perestroika",
+        "Glasnost",
         "Ostpolitik"
       ],
       "answer": "Perestroika",
@@ -18,10 +18,10 @@
       "category": "History",
       "question": "The 'Shot Heard Round the World' that began the American Revolutionary War was fired at which Massachusetts town?",
       "options": [
-        "Bunker Hill",
         "Concord and Lexington",
-        "Saratoga",
-        "Valley Forge"
+        "Valley Forge",
+        "Bunker Hill",
+        "Saratoga"
       ],
       "answer": "Concord and Lexington",
       "explanation": "The first shots of the American Revolutionary War were fired at Lexington and Concord, Massachusetts, on April 19, 1775 — referred to as 'The Shot Heard Round the World' from Ralph Waldo Emerson's 1837 poem. British troops were marching to seize colonial arms stores at Concord when they were met by colonial minutemen at Lexington. The subsequent battle at Concord's North Bridge began the revolution.",
@@ -31,10 +31,10 @@
       "category": "History",
       "question": "Which ancient Roman structure, completed in 80 AD, could hold between 50,000 and 80,000 spectators?",
       "options": [
-        "Pantheon",
-        "Circus Maximus",
         "Roman Forum",
-        "Colosseum"
+        "Pantheon",
+        "Colosseum",
+        "Circus Maximus"
       ],
       "answer": "Colosseum",
       "explanation": "The Colosseum (or Flavian Amphitheatre) in Rome was completed in 80 AD and could hold 50,000 to 80,000 spectators. It featured retractable awnings (velarium) for shade, numbered entrances for crowd control, and underground chambers (hypogeum) for gladiators and animals. Gladiatorial combat was abolished in 404 AD; wild animal hunts continued into the 6th century. The Colosseum is the most visited monument in the world.",
@@ -45,8 +45,8 @@
       "question": "In 1980, the U.S. men's ice hockey team defeated the heavily favored Soviet Union at the Lake Placid Winter Olympics in a result dubbed 'the Miracle on Ice.' What was the final score?",
       "options": [
         "4-3",
-        "3-2",
         "5-3",
+        "3-2",
         "4-2"
       ],
       "answer": "4-3",
@@ -57,10 +57,10 @@
       "category": "Sports",
       "question": "The Olympic flag features five interlocking rings of blue, yellow, black, green, and red on a white background. What do the five rings collectively represent?",
       "options": [
-        "The five continents of the world",
-        "The five founding nations",
+        "The five original sports",
         "The five Olympic values",
-        "The five original sports"
+        "The five continents of the world",
+        "The five founding nations"
       ],
       "answer": "The five continents of the world",
       "explanation": "Pierre de Coubertin designed the Olympic rings in 1912. The five rings represent the five continents: Africa, the Americas, Asia, Europe, and Oceania. The six colors (including white) were chosen because at least one appears in the flag of every nation in the world. The rings' interlocking design symbolizes friendship among nations.",
@@ -70,10 +70,10 @@
       "category": "Pop Culture",
       "question": "Tupac Shakur was shot and killed in 1996 at what age?",
       "options": [
-        "24",
-        "25",
         "26",
-        "27"
+        "27",
+        "24",
+        "25"
       ],
       "answer": "25",
       "explanation": "Tupac Shakur was shot on September 7, 1996, in Las Vegas following the Mike Tyson vs. Suge Knight boxing match, and died six days later on September 13, 1996, at age 25. His murder has never been officially solved. He released five albums during his lifetime and has had more posthumous releases than any artist in history, continuing to chart for years after his death.",
@@ -84,9 +84,9 @@
       "question": "The original Star Wars film (1977) features a memorable bar scene with alien musicians. What is this band called?",
       "options": [
         "Cantina Band",
-        "Mos Eisley Orchestra",
+        "Figrin D'an",
         "Jabba's Band",
-        "Figrin D'an"
+        "Mos Eisley Orchestra"
       ],
       "answer": "Cantina Band",
       "explanation": "The Mos Eisley Cantina scene in Star Wars (1977) features a jazz-like alien band playing 'Mad About Me' (commonly called 'Cantina Band' or 'Mad About Me'). The music was composed by John Williams. The musician characters are actually Figrin D'an and the Modal Nodes, but the music is universally known as the 'Cantina Band.' It is one of the most recognizable pieces of film music ever composed.",
@@ -96,10 +96,10 @@
       "category": "Pop Culture",
       "question": "Which British band's final public performance was a rooftop concert in London in January 1969?",
       "options": [
-        "The Rolling Stones",
         "The Who",
+        "The Beatles",
         "Pink Floyd",
-        "The Beatles"
+        "The Rolling Stones"
       ],
       "answer": "The Beatles",
       "explanation": "The Beatles performed their last public concert on the rooftop of their Apple Corps headquarters at 3 Savile Row, London, on January 30, 1969. The impromptu concert was filmed for the documentary Let It Be (1970). Police eventually stopped the performance due to noise complaints. The concert ended with John Lennon saying 'I'd like to say thank you on behalf of the group and ourselves, and I hope we passed the audition.'",
@@ -109,9 +109,9 @@
       "category": "Geography",
       "question": "Which body of water separates the islands of Great Britain and Ireland?",
       "options": [
+        "Celtic Sea",
         "English Channel",
         "North Sea",
-        "Celtic Sea",
         "Irish Sea"
       ],
       "answer": "Irish Sea",
@@ -122,9 +122,9 @@
       "category": "Science & Nature",
       "question": "What is the name of the microscopic structures within cells that carry out protein synthesis?",
       "options": [
+        "Centrosomes",
         "Lysosomes",
         "Mitochondria",
-        "Centrosomes",
         "Ribosomes"
       ],
       "answer": "Ribosomes",
@@ -136,9 +136,9 @@
       "question": "The Dolomites, a UNESCO World Heritage Site, are a section of the Alps in northeastern Italy known for distinctive pale limestone and dolomite rock towers. In which Italian region are they primarily located?",
       "options": [
         "Tuscany",
-        "Sicily",
+        "Campania",
         "Trentino-Alto Adige and Veneto",
-        "Campania"
+        "Sicily"
       ],
       "answer": "Trentino-Alto Adige and Veneto",
       "explanation": "The Dolomites span the regions of Trentino-Alto Adige (also called South Tyrol, a German-speaking region of Italy) and Veneto in northeastern Italy. They consist of 18 peaks over 3,000 meters, with pale, dramatically shaped rock towers and spires of dolomite limestone. The area was heavily contested in WWI — many mountain peaks were turned into fortifications, and entire battles were fought at high altitude. The Dolomites were named after the French geologist Déodat de Dolomieu who first described the distinctive rock.",
@@ -148,10 +148,10 @@
       "category": "Science & Nature",
       "question": "What are phototropism and geotropism in plants — how do plants respond to light and gravity?",
       "options": [
-        "Phototropism = chemical response to light; geotropism = growth toward water",
+        "Phototropism = reproduction; geotropism = nutrient absorption",
         "Phototropism = growth toward light; geotropism = growth in response to gravity",
-        "Phototropism = food storage; geotropism = immune response",
-        "Phototropism = reproduction; geotropism = nutrient absorption"
+        "Phototropism = chemical response to light; geotropism = growth toward water",
+        "Phototropism = food storage; geotropism = immune response"
       ],
       "answer": "Phototropism = growth toward light; geotropism = growth in response to gravity",
       "explanation": "Phototropism is the growth of a plant toward (positive phototropism) or away from (negative phototropism) light. Shoots grow toward light; roots grow away from it. It is mediated by auxins — hormones that accumulate on the shaded side of a stem, causing cells there to elongate more. Geotropism (also called gravitropism) is growth in response to gravity: roots grow downward (positive), stems grow upward (negative). These responses help plants maximize sunlight while anchoring their roots in soil.",

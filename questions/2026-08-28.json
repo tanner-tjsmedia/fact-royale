@@ -5,10 +5,10 @@
       "category": "History",
       "question": "The Great Wall of China, stretching thousands of kilometers, was primarily built to protect against invasions from which direction?",
       "options": [
-        "North",
+        "South",
         "East",
         "West",
-        "South"
+        "North"
       ],
       "answer": "North",
       "explanation": "The Great Wall was built and rebuilt over centuries to defend against nomadic peoples from the north, including the Xiongnu, Mongols, and Jurchen. The wall runs roughly east-west across northern China. Much of what tourists see today was built during the Ming Dynasty (1368-1644).",
@@ -18,10 +18,10 @@
       "category": "Science & Nature",
       "question": "What is the name of the subatomic particle with a positive electric charge that is found in the nucleus of an atom?",
       "options": [
-        "Proton",
-        "Neutron",
         "Electron",
-        "Positron"
+        "Neutron",
+        "Positron",
+        "Proton"
       ],
       "answer": "Proton",
       "explanation": "An atom's nucleus contains protons (positive charge) and neutrons (no charge). Electrons (negative charge) orbit the nucleus. The number of protons in an atom — its atomic number — determines which element it is. Hydrogen has 1 proton, carbon has 6, gold has 79.",
@@ -31,10 +31,10 @@
       "category": "Sports",
       "question": "Which golfer, nicknamed 'The Golden Bear,' won 18 major championships — the most in professional golf history?",
       "options": [
-        "Jack Nicklaus",
         "Tiger Woods",
+        "Gary Player",
         "Arnold Palmer",
-        "Gary Player"
+        "Jack Nicklaus"
       ],
       "answer": "Jack Nicklaus",
       "explanation": "Jack Nicklaus won 18 major championships between 1962 and 1986, including 6 Masters titles. Tiger Woods won 15 majors before injuries derailed his career. Nicklaus designed over 300 golf courses worldwide after retiring from competition.",
@@ -44,10 +44,10 @@
       "category": "Pop Culture",
       "question": "Which 1990 Martin Scorsese film, based on a true story of a FBI informant in the New York mob, features Ray Liotta and Robert De Niro?",
       "options": [
-        "Goodfellas",
         "Casino",
+        "The Irishman",
         "The Departed",
-        "The Irishman"
+        "Goodfellas"
       ],
       "answer": "Goodfellas",
       "explanation": "Goodfellas (1990) tells the story of Henry Hill, a mobster-turned-FBI-informant played by Ray Liotta. The film is famous for its tracking shot through the Copacabana and was based on Nicholas Pileggi's book 'Wiseguy.' It is often cited as one of the greatest films ever made.",
@@ -57,10 +57,10 @@
       "category": "Geography",
       "question": "Which ocean is the smallest and shallowest of the world's five oceans?",
       "options": [
-        "Arctic Ocean",
-        "Indian Ocean",
         "Atlantic Ocean",
-        "Southern Ocean"
+        "Southern Ocean",
+        "Arctic Ocean",
+        "Indian Ocean"
       ],
       "answer": "Arctic Ocean",
       "explanation": "The Arctic Ocean covers about 14.06 million km² — about 1.5 times the size of the United States. It is almost entirely surrounded by North America, Europe, and Asia. Much of its surface is covered by sea ice year-round, though climate change is dramatically reducing Arctic ice extent.",
@@ -83,9 +83,9 @@
       "category": "Pop Culture",
       "question": "Which Canadian actor starred as Tony Stark/Iron Man across 10 Marvel Cinematic Universe films?",
       "options": [
-        "Robert Downey Jr.",
         "Chris Evans",
         "Chris Pratt",
+        "Robert Downey Jr.",
         "Mark Ruffalo"
       ],
       "answer": "Robert Downey Jr.",
@@ -94,14 +94,14 @@
     },
     {
       "category": "Science & Nature",
-      "question": "The International Space Station (ISS), continuously crewed since November 2000, is the largest structure humans have ever placed in space. What scientific and logistical facts about it are most remarkable?",
+      "question": "The ISS has been continuously crewed since November 2000. Which description of it is accurate?",
       "options": [
-        "The ISS was assembled using a single Space Shuttle mission in 1998, with 150 astronauts working simultaneously over 8 days to bolt together 20 pre-fabricated modules",
-        "The ISS orbits at 408 km altitude and 28,000 km/h — completing 16 orbits of Earth per day — requires 1,500 kg of food per astronaut per year, and has hosted 271 people from 21 nations over 25 years of operation",
-        "The ISS maintains a gravitational environment identical to Earth's surface through centrifugal force from its rotation at 2.4 revolutions per minute, making microgravity research impossible without special modules",
-        "The ISS was built as a single piece in the Mojave Desert, then transported to orbit aboard a specially modified Saturn V rocket — the last Saturn V ever flown"
+        "408 km up, 16 orbits a day, 271 people from 21 nations",
+        "Assembled in one 1998 Shuttle mission by 150 astronauts",
+        "It spins at 2.4 rpm to produce Earth-normal gravity",
+        "Built whole in the Mojave, launched on a Saturn V"
       ],
-      "answer": "The ISS orbits at 408 km altitude and 28,000 km/h — completing 16 orbits of Earth per day — requires 1,500 kg of food per astronaut per year, and has hosted 271 people from 21 nations over 25 years of operation",
+      "answer": "408 km up, 16 orbits a day, 271 people from 21 nations",
       "explanation": "The ISS is as large as a football field (109 meters end to end) and weighs 420,000 kg. At 28,000 km/h, it experiences 16 sunrises and sunsets per day. It was assembled module by module over 13 years of missions (1998–2011) involving 42 Space Shuttle flights and Russian Soyuz missions. Astronauts on six-month missions experience significant muscle and bone loss from microgravity, requiring daily exercise. The ISS hosts research in medicine, physics, materials science, and Earth observation. Its orbit is visible to the naked eye — NASA's 'Spot the Station' app predicts passes.",
       "memory_hook": "The ISS completes 16 orbits per day at 28,000 km/h — fast enough to see 16 sunrises and sunsets every 24 hours. It's been continuously crewed since November 2000 and is visible to the naked eye. NASA's 'Spot the Station' app tells you exactly when it'll cross your sky."
     },
@@ -110,9 +110,9 @@
       "question": "Lake Baikal in Russia is the world's deepest lake at 1,642 meters. What percentage of Earth's unfrozen surface freshwater does it contain?",
       "options": [
         "20%",
-        "5%",
         "50%",
-        "10%"
+        "10%",
+        "5%"
       ],
       "answer": "20%",
       "explanation": "Lake Baikal holds approximately 20% of the world's unfrozen surface freshwater — more than all of North America's Great Lakes combined. It is also the world's oldest lake at 25-30 million years old and has over 1,700 endemic species, including the Baikal seal (nerpa) — the world's only exclusively freshwater seal.",
@@ -122,8 +122,8 @@
       "category": "History",
       "question": "The Hundred Years' War (1337-1453) was a prolonged conflict between England and France. Which French peasant girl led French forces to several key victories before being captured and burned at the stake?",
       "options": [
-        "Joan of Arc",
         "Eleanor of Aquitaine",
+        "Joan of Arc",
         "Catherine of Aragon",
         "Christine de Pizan"
       ],
@@ -135,10 +135,10 @@
       "category": "Pop Culture",
       "question": "Which rapper, born Shawn Corey Carter in Brooklyn, built a business empire including Tidal, Armand de Brignac champagne, and D'Ussé cognac alongside his music career?",
       "options": [
+        "Nas",
         "Jay-Z",
-        "Diddy",
         "Dr. Dre",
-        "Nas"
+        "Diddy"
       ],
       "answer": "Jay-Z",
       "explanation": "Jay-Z (born 1969) became the first rapper to become a billionaire. His album '4:44' (2017) was recorded as a business-focused statement. He co-founded Roc-A-Fella Records, Roc Nation entertainment, and has invested in Uber and Armand de Brignac. He is married to Beyoncé.",
@@ -148,10 +148,10 @@
       "category": "Sports",
       "question": "In the Olympic Games, what is the name of the relay race in which four swimmers each swim a different stroke?",
       "options": [
+        "Freestyle relay",
         "Medley relay",
-        "Mixed relay",
         "Butterfly relay",
-        "Freestyle relay"
+        "Mixed relay"
       ],
       "answer": "Medley relay",
       "explanation": "The medley relay features four swimmers each swimming 100 meters: backstroke, breaststroke, butterfly, then freestyle (in that order). Team USA has won the medley relay at nearly every Olympics. The order differs from individual medley, which goes: butterfly, backstroke, breaststroke, freestyle.",

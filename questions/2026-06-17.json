@@ -5,9 +5,9 @@
       "category": "History",
       "question": "On which date was Julius Caesar assassinated in 44 BC?",
       "options": [
+        "January 1",
         "The Ides of March (March 15)",
         "The Ides of April (April 15)",
-        "January 1",
         "December 25"
       ],
       "answer": "The Ides of March (March 15)",
@@ -19,9 +19,9 @@
       "question": "Who was the first human to walk on the moon?",
       "options": [
         "Buzz Aldrin",
+        "John Glenn",
         "Yuri Gagarin",
-        "Neil Armstrong",
-        "John Glenn"
+        "Neil Armstrong"
       ],
       "answer": "Neil Armstrong",
       "explanation": "Neil Armstrong became the first human to walk on the moon on July 20, 1969, during NASA's Apollo 11 mission. His famous words upon stepping onto the lunar surface were: 'That's one small step for man, one giant leap for mankind.' Buzz Aldrin followed him minutes later.",
@@ -31,10 +31,10 @@
       "category": "History",
       "question": "The storming of which Paris fortress marked the symbolic start of the French Revolution in 1789?",
       "options": [
+        "Notre-Dame",
         "The Louvre",
         "The Bastille",
-        "Versailles",
-        "Notre-Dame"
+        "Versailles"
       ],
       "answer": "The Bastille",
       "explanation": "On July 14, 1789, Parisian revolutionaries stormed the Bastille — a royal prison and symbol of royal tyranny — marking the flashpoint of the French Revolution. The date is now celebrated as Bastille Day, France's national holiday. Only seven prisoners were inside at the time.",
@@ -45,9 +45,9 @@
       "question": "How many NBA championships did Michael Jordan win with the Chicago Bulls?",
       "options": [
         "4",
-        "5",
+        "8",
         "6",
-        "8"
+        "5"
       ],
       "answer": "6",
       "explanation": "Michael Jordan won 6 NBA championships with the Chicago Bulls — in two 'three-peats': 1991, 1992, 1993, then 1996, 1997, 1998. He was Finals MVP all six times. Jordan briefly retired between the two runs, attempting a career in minor league baseball.",
@@ -57,10 +57,10 @@
       "category": "Sports",
       "question": "How many innings are in a standard Major League Baseball game?",
       "options": [
-        "7",
-        "8",
         "9",
-        "10"
+        "7",
+        "10",
+        "8"
       ],
       "answer": "9",
       "explanation": "A standard MLB game consists of 9 innings. Each team gets three outs per inning, both as the batting and fielding team. If the game is tied after 9 innings, extra innings are played until a winner is determined. The 9-inning standard has been in place since the 1850s.",
@@ -70,10 +70,10 @@
       "category": "Pop Culture",
       "question": "In which Star Wars film does Darth Vader reveal he is Luke Skywalker's father?",
       "options": [
-        "A New Hope",
         "Return of the Jedi",
-        "The Empire Strikes Back",
-        "Revenge of the Sith"
+        "Revenge of the Sith",
+        "A New Hope",
+        "The Empire Strikes Back"
       ],
       "answer": "The Empire Strikes Back",
       "explanation": "The famous reveal — 'No, I am your father' — occurs in The Empire Strikes Back (1980), during the duel between Darth Vader and Luke on Cloud City. It is widely considered one of the greatest plot twists in cinema history. The line is often misquoted as 'Luke, I am your father.'",
@@ -84,9 +84,9 @@
       "question": "Which city were The Beatles from?",
       "options": [
         "London",
-        "Manchester",
         "Liverpool",
-        "Birmingham"
+        "Birmingham",
+        "Manchester"
       ],
       "answer": "Liverpool",
       "explanation": "The Beatles — John Lennon, Paul McCartney, George Harrison, and Ringo Starr — all hailed from Liverpool, England. They formed in the late 1950s and achieved global fame in 1963-64. Liverpool's Cavern Club, where they performed early in their career, remains a major tourist attraction.",
@@ -96,10 +96,10 @@
       "category": "Pop Culture",
       "question": "Which director helmed the 1997 blockbuster Titanic?",
       "options": [
-        "Steven Spielberg",
         "Ridley Scott",
+        "Ron Howard",
         "James Cameron",
-        "Ron Howard"
+        "Steven Spielberg"
       ],
       "answer": "James Cameron",
       "explanation": "James Cameron wrote and directed Titanic (1997), which won 11 Academy Awards — tying the record set by Ben-Hur. It was the first film to gross $1 billion at the box office and remained the highest-grossing film of all time until Cameron's own Avatar surpassed it in 2010.",
@@ -111,8 +111,8 @@
       "options": [
         "Indonesia",
         "Japan",
-        "New Zealand",
-        "Philippines"
+        "Philippines",
+        "New Zealand"
       ],
       "answer": "Philippines",
       "explanation": "The Philippines is an archipelago of 7,641 islands in Southeast Asia, with Manila as its capital city. Named after King Philip II of Spain, it was colonized by Spain for 333 years and then by the United States before gaining independence in 1946. It has a coastline of 36,289 km and a population of over 110 million people, many of whom speak English as a second language alongside Filipino.",
@@ -123,9 +123,9 @@
       "question": "Solar flares and coronal mass ejections (CMEs) are the Sun's most powerful explosive events. What causes them, and what effects can they have on Earth?",
       "options": [
         "Solar flares are caused by solar winds colliding with Earth's magnetosphere, creating plasma instabilities that reflect back to the Sun and trigger explosions; major events can heat Earth's atmosphere by 5°C",
-        "CMEs are caused by the Sun's magnetic field lines tangling and suddenly snapping into a simpler configuration, releasing enormous energy — on Earth, they can disrupt satellites, power grids, GPS, and radio communications, and cause auroras at unusual latitudes",
         "Solar flares are triggered by sunspots cooling the Sun's surface below the fusion threshold, creating plasma instabilities that explode outward — events large enough to be visible as bright flashes with the naked eye",
-        "CMEs occur when solar wind pressure builds up behind the Earth's magnetosphere and suddenly releases — the 1989 Quebec blackout lasted 9 hours when one CME overloaded transformer capacity across Canada"
+        "CMEs occur when solar wind pressure builds up behind the Earth's magnetosphere and suddenly releases — the 1989 Quebec blackout lasted 9 hours when one CME overloaded transformer capacity across Canada",
+        "CMEs are caused by the Sun's magnetic field lines tangling and suddenly snapping into a simpler configuration, releasing enormous energy — on Earth, they can disrupt satellites, power grids, GPS, and radio communications, and cause auroras at unusual latitudes"
       ],
       "answer": "CMEs are caused by the Sun's magnetic field lines tangling and suddenly snapping into a simpler configuration, releasing enormous energy — on Earth, they can disrupt satellites, power grids, GPS, and radio communications, and cause auroras at unusual latitudes",
       "explanation": "The Sun's differential rotation (equator rotates faster than poles) twists and tangles magnetic field lines until they snap in a process called magnetic reconnection, releasing energy equivalent to billions of nuclear bombs. The 1859 Carrington Event was the largest recorded CME — telegraph systems across North America and Europe sparked and caught fire; auroras were visible as far south as Cuba. A similar event today could cause trillions in infrastructure damage. The 1989 Quebec blackout (March) was caused by a CME that induced currents in power lines, tripping circuit breakers across the entire province in 92 seconds.",
@@ -135,10 +135,10 @@
       "category": "Geography",
       "question": "Borneo, the world's third-largest island, is shared by three countries. Which country controls the largest portion?",
       "options": [
-        "Malaysia",
-        "Brunei",
+        "Indonesia",
         "Philippines",
-        "Indonesia"
+        "Malaysia",
+        "Brunei"
       ],
       "answer": "Indonesia",
       "explanation": "Indonesia controls approximately 73% of Borneo as the region of Kalimantan. Malaysia controls about 26% (the states of Sabah and Sarawak on the north), and the tiny nation of Brunei occupies less than 1%. Borneo is home to some of the world's oldest rainforests and is one of the few remaining habitats for wild orangutans and pygmy elephants.",
@@ -148,10 +148,10 @@
       "category": "Science & Nature",
       "question": "What determines the color of a star, with blue-white stars being the hottest and red stars the coolest?",
       "options": [
-        "Size",
         "Age",
-        "Distance from Earth",
-        "Surface temperature"
+        "Size",
+        "Surface temperature",
+        "Distance from Earth"
       ],
       "answer": "Surface temperature",
       "explanation": "A star's color directly reflects its surface temperature. Blue-white stars (like Sirius) burn at over 10,000 Kelvin; white and yellow-white stars (like our Sun) around 6,000 K; orange stars around 4,500 K; and red stars (like Betelgeuse) around 3,000 K. This is why the Sun appears yellow-white — it is a G-type star with a surface temperature of about 5,778 K.",

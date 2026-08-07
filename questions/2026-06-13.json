@@ -5,10 +5,10 @@
       "category": "History",
       "question": "Which ancient structure served as a lighthouse and was located on an island near Alexandria, Egypt?",
       "options": [
-        "The Colossus of Rhodes",
-        "The Pharos of Alexandria",
         "The Temple of Artemis",
-        "The Hanging Gardens"
+        "The Hanging Gardens",
+        "The Colossus of Rhodes",
+        "The Pharos of Alexandria"
       ],
       "answer": "The Pharos of Alexandria",
       "explanation": "Built around 280 BC under Ptolemy II, the Pharos of Alexandria stood roughly 330–430 feet tall — one of the tallest man-made structures for centuries. A fire at its top guided sailors into the harbor. It collapsed from earthquakes by the 14th century.",
@@ -18,10 +18,10 @@
       "category": "History",
       "question": "The Berlin Wall fell in November of which year?",
       "options": [
-        "1987",
+        "1985",
         "1991",
         "1989",
-        "1985"
+        "1987"
       ],
       "answer": "1989",
       "explanation": "The Berlin Wall fell on November 9, 1989, after East Germany announced citizens could cross freely. Built in 1961, the wall had divided East and West Berlin for 28 years and became the defining symbol of the Cold War.",
@@ -31,10 +31,10 @@
       "category": "History",
       "question": "Who was the first woman to win a Nobel Prize?",
       "options": [
-        "Rosalind Franklin",
-        "Ada Lovelace",
         "Marie Curie",
-        "Florence Nightingale"
+        "Florence Nightingale",
+        "Ada Lovelace",
+        "Rosalind Franklin"
       ],
       "answer": "Marie Curie",
       "explanation": "Marie Curie won the Nobel Prize in Physics in 1903 (shared with Pierre Curie and Henri Becquerel) for her work on radioactivity. She went on to win a second Nobel — this time in Chemistry — in 1911, making her the first person ever to win Nobels in two different sciences.",
@@ -45,9 +45,9 @@
       "question": "How many interlocking rings appear on the Olympic flag?",
       "options": [
         "4",
-        "6",
         "7",
-        "5"
+        "5",
+        "6"
       ],
       "answer": "5",
       "explanation": "The five interlocked rings of the Olympic flag represent the five inhabited continents of the world: Africa, the Americas, Asia, Europe, and Oceania. Designed by Pierre de Coubertin in 1912, every national flag in the world contains at least one of the five ring colors.",
@@ -57,10 +57,10 @@
       "category": "Sports",
       "question": "Which country has won the most FIFA World Cup titles?",
       "options": [
-        "Germany",
         "Italy",
-        "Argentina",
-        "Brazil"
+        "Brazil",
+        "Germany",
+        "Argentina"
       ],
       "answer": "Brazil",
       "explanation": "Brazil has won the FIFA World Cup five times (1958, 1962, 1970, 1994, 2002), more than any other nation. They are also the only team to have played in every single World Cup tournament.",
@@ -70,10 +70,10 @@
       "category": "Pop Culture",
       "question": "Which Pink Floyd album features a prism splitting white light into a spectrum on its cover?",
       "options": [
-        "Wish You Were Here",
         "Animals",
-        "The Wall",
-        "The Dark Side of the Moon"
+        "Wish You Were Here",
+        "The Dark Side of the Moon",
+        "The Wall"
       ],
       "answer": "The Dark Side of the Moon",
       "explanation": "Released in 1973, The Dark Side of the Moon features iconic cover art designed by Hipgnosis. The album spent 741 weeks on the Billboard 200 — one of the longest-charting albums in history — and explores themes of conflict, greed, time, and mental illness.",
@@ -83,10 +83,10 @@
       "category": "Pop Culture",
       "question": "In the original 1900 novel 'The Wonderful Wizard of Oz,' what were Dorothy's magical slippers made of?",
       "options": [
-        "Gold",
         "Ruby",
+        "Diamond",
         "Silver",
-        "Diamond"
+        "Gold"
       ],
       "answer": "Silver",
       "explanation": "In L. Frank Baum's original novel, Dorothy wears silver slippers. They were changed to ruby red for the 1939 MGM film to showcase the vibrant colors of the new Technicolor process. It's one of Hollywood's most famous creative deviations from source material.",
@@ -96,10 +96,10 @@
       "category": "Pop Culture",
       "question": "Which director helmed the 1993 blockbuster Jurassic Park?",
       "options": [
-        "James Cameron",
         "George Lucas",
-        "Steven Spielberg",
-        "Ron Howard"
+        "Ron Howard",
+        "James Cameron",
+        "Steven Spielberg"
       ],
       "answer": "Steven Spielberg",
       "explanation": "Steven Spielberg directed Jurassic Park, based on Michael Crichton's 1990 novel. The film revolutionized CGI visual effects and grossed over $1 billion worldwide, becoming the highest-grossing film of its time. It remains a landmark in cinematic history.",
@@ -109,10 +109,10 @@
       "category": "Geography",
       "question": "Which country has the longest coastline in the world, stretching approximately 202,080 km including its mainland and island shores?",
       "options": [
-        "Russia",
         "Australia",
-        "Norway",
-        "Canada"
+        "Russia",
+        "Canada",
+        "Norway"
       ],
       "answer": "Canada",
       "explanation": "Canada has the world's longest coastline at approximately 202,080 km — more than any other nation. Its vast northern archipelago and Hudson Bay contribute enormously to this total. Norway has the second-longest coastline per land area, and Australia's is about 25,760 km. Measuring Canada's coastline entirely would take years on foot.",
@@ -122,9 +122,9 @@
       "category": "Science & Nature",
       "question": "Earth's atmosphere is approximately 78% which gas — making it far more abundant than the oxygen we breathe?",
       "options": [
-        "Oxygen",
-        "Carbon dioxide",
         "Argon",
+        "Carbon dioxide",
+        "Oxygen",
         "Nitrogen"
       ],
       "answer": "Nitrogen",
@@ -135,10 +135,10 @@
       "category": "Geography",
       "question": "Which is the largest island in the Caribbean Sea?",
       "options": [
-        "Jamaica",
-        "Hispaniola",
         "Puerto Rico",
-        "Cuba"
+        "Cuba",
+        "Jamaica",
+        "Hispaniola"
       ],
       "answer": "Cuba",
       "explanation": "Cuba spans 109,884 km² — making it the largest island in the Caribbean. Hispaniola (Haiti and the Dominican Republic) is the second-largest. Christopher Columbus landed on Cuba in 1492, and it was a Spanish colony for nearly 400 years before US occupation following the Spanish-American War. Cuba's capital, Havana, was one of the wealthiest cities in the Western Hemisphere in the 19th century.",
@@ -149,9 +149,9 @@
       "question": "What property of water allows insects like water striders to walk on its surface?",
       "options": [
         "Viscosity",
-        "Density",
         "Surface tension",
-        "Cohesion"
+        "Cohesion",
+        "Density"
       ],
       "answer": "Surface tension",
       "explanation": "Surface tension is the elastic-like force at the surface of a liquid caused by cohesive forces between water molecules. Water molecules at the surface have unbalanced attractive forces, creating a 'skin' strong enough to support lightweight objects. Surface tension also causes water to form drops, rise in thin tubes (capillary action), and creates the curved meniscus seen in lab glassware.",

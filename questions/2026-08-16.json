@@ -6,8 +6,8 @@
       "question": "Elvis Presley died on August 16, 1977, at age 42. At which of his homes was he found?",
       "options": [
         "Beverly Hills mansion",
-        "Las Vegas penthouse",
         "Graceland",
+        "Las Vegas penthouse",
         "Tupelo birthplace"
       ],
       "answer": "Graceland",
@@ -18,10 +18,10 @@
       "category": "History",
       "question": "The Crusades, a series of religious wars, were launched to recapture which city from Muslim control?",
       "options": [
-        "Mecca",
-        "Baghdad",
+        "Jerusalem",
         "Cairo",
-        "Jerusalem"
+        "Mecca",
+        "Baghdad"
       ],
       "answer": "Jerusalem",
       "explanation": "The Crusades (1095-1291) were a series of religious wars called by the Catholic Church to recapture Jerusalem and the Holy Land from Muslim rule. Pope Urban II called the First Crusade in 1095. Christian crusaders captured Jerusalem in 1099. The city changed hands multiple times over the following centuries. The Crusades had lasting effects on relations between Christianity and Islam.",
@@ -31,10 +31,10 @@
       "category": "History",
       "question": "The Wright Brothers made their historic first flight at Kitty Hawk. In which US state is Kitty Hawk located?",
       "options": [
-        "Virginia",
         "South Carolina",
+        "North Carolina",
         "Georgia",
-        "North Carolina"
+        "Virginia"
       ],
       "answer": "North Carolina",
       "explanation": "Kitty Hawk and Kill Devil Hills are located in the Outer Banks of North Carolina. The Wright Brothers chose the location because of its strong, consistent winds, soft sandy landing surfaces, and remoteness (few witnesses if things went wrong). North Carolina's state motto is 'First in Flight' and the first flight appears on the state's license plates.",
@@ -44,9 +44,9 @@
       "category": "Sports",
       "question": "In which sport would you execute a 'spike' to score a point?",
       "options": [
-        "Tennis",
-        "Badminton",
         "Squash",
+        "Badminton",
+        "Tennis",
         "Volleyball"
       ],
       "answer": "Volleyball",
@@ -58,9 +58,9 @@
       "question": "Which sport uses the term 'offside' as a way to prevent attacking players from gaining an unfair advantage?",
       "options": [
         "Basketball",
-        "Baseball",
+        "American Football",
         "Ice Hockey or Soccer",
-        "American Football"
+        "Baseball"
       ],
       "answer": "Ice Hockey or Soccer",
       "explanation": "The offside rule exists in both soccer and ice hockey. In soccer, a player is offside if they're closer to the opponent's goal line than the ball and the second-last defender at the moment the ball is played to them. In ice hockey, a player can't enter the attacking zone before the puck. The rule is designed to prevent players from 'cherry picking' by stationing themselves near the goal.",
@@ -71,9 +71,9 @@
       "question": "The film 'Schindler's List' was based on a book called 'Schindler's Ark.' Who wrote the novel?",
       "options": [
         "Elie Wiesel",
-        "Primo Levi",
+        "Thomas Keneally",
         "Victor Frankl",
-        "Thomas Keneally"
+        "Primo Levi"
       ],
       "answer": "Thomas Keneally",
       "explanation": "Thomas Keneally, an Australian author, wrote Schindler's Ark in 1982, which won the Booker Prize. The book was renamed Schindler's List for the US market and later for Spielberg's 1993 film adaptation. Keneally researched the book after meeting Leopold Pfefferberg, one of the actual Schindlerjuden (Schindler's Jews), in a Los Angeles luggage shop.",
@@ -84,9 +84,9 @@
       "question": "Born Christopher Wallace in Brooklyn, this rapper released 'Ready to Die' in 1994 and 'Life After Death' in 1997, days before he was shot and killed in Los Angeles. By what name is he best known?",
       "options": [
         "DMX",
-        "Nas",
         "Tupac Shakur",
-        "The Notorious B.I.G."
+        "The Notorious B.I.G.",
+        "Nas"
       ],
       "answer": "The Notorious B.I.G.",
       "explanation": "The Notorious B.I.G. (also known as Biggie Smalls) is widely regarded as one of the greatest rappers of all time. His debut album 'Ready to Die' is considered a classic of East Coast hip-hop. He was murdered in a drive-by shooting in Los Angeles on March 9, 1997, at age 24.",
@@ -98,8 +98,8 @@
       "options": [
         "Mamoru Hosoda",
         "Satoshi Kon",
-        "Makoto Shinkai",
-        "Hayao Miyazaki"
+        "Hayao Miyazaki",
+        "Makoto Shinkai"
       ],
       "answer": "Hayao Miyazaki",
       "explanation": "Hayao Miyazaki directed Spirited Away for Studio Ghibli in 2001. It became the highest-grossing film in Japanese history and won the Golden Bear at the Berlin International Film Festival as well as the Academy Award for Best Animated Feature (2003) — the first non-English animated film to win the Oscar. Miyazaki created it for his daughter and her friends, imagining what 10-year-old girls might enjoy.",
@@ -109,10 +109,10 @@
       "category": "Geography",
       "question": "Which country contains the source of the Nile River, near Lake Victoria?",
       "options": [
-        "Sudan",
+        "Uganda",
         "Ethiopia",
         "Egypt",
-        "Uganda"
+        "Sudan"
       ],
       "answer": "Uganda",
       "explanation": "The White Nile — the longer branch of the Nile — originates near Lake Victoria, with Jinja, Uganda, considered the principal source. The Blue Nile (which carries more water and sediment) begins in Ethiopia at Lake Tana. The two branches meet in Khartoum, Sudan. The search for the Nile's source was one of the great geographical quests of the 19th century, involving explorers like Speke, Burton, and Livingstone.",
@@ -122,10 +122,10 @@
       "category": "Science & Nature",
       "question": "What is the name of the phenomenon where a full moon appears larger and brighter when it is closest to Earth in its orbit?",
       "options": [
-        "Lunar eclipse",
+        "Supermoon",
         "Harvest moon",
-        "Blood moon",
-        "Supermoon"
+        "Lunar eclipse",
+        "Blood moon"
       ],
       "answer": "Supermoon",
       "explanation": "A supermoon occurs when a full moon coincides with the Moon's closest approach to Earth (perigee) in its elliptical orbit. The Moon can appear up to 14% larger and 30% brighter than when it is at its farthest point (apogee). The term 'supermoon' was coined by astrologer Richard Nolle in 1979 and popularized by media in the 2010s. Astronomers prefer the term 'perigee full moon.'",
@@ -137,8 +137,8 @@
       "options": [
         "Queensland and New South Wales",
         "Victoria and New South Wales",
-        "South Australia and Victoria",
-        "Western Australia and South Australia"
+        "Western Australia and South Australia",
+        "South Australia and Victoria"
       ],
       "answer": "Victoria and New South Wales",
       "explanation": "The Murray River forms the boundary between Victoria (south bank) and New South Wales (north bank) for most of its length before flowing through South Australia to the sea. Together with the Darling River, the Murray-Darling Basin is Australia's most important agricultural region, producing roughly 40% of the country's food. The river suffers from over-allocation of water for irrigation, causing environmental damage. Murray cod — a large freshwater fish — are native to the river.",
@@ -148,9 +148,9 @@
       "category": "Science & Nature",
       "question": "What environmental phenomenon occurs when excess nutrients (especially nitrogen and phosphorus from fertilizer runoff) cause rapid algae growth in water bodies, depleting oxygen and killing aquatic life?",
       "options": [
-        "Acid rain",
         "Eutrophication",
         "Salinization",
+        "Acid rain",
         "Thermal pollution"
       ],
       "answer": "Eutrophication",

@@ -5,9 +5,9 @@
       "category": "History",
       "question": "Which U.S. president gave the Gettysburg Address in November 1863, one of the most famous speeches in American history?",
       "options": [
-        "Abraham Lincoln",
-        "Ulysses Grant",
         "Jefferson Davis",
+        "Ulysses Grant",
+        "Abraham Lincoln",
         "Rutherford Hayes"
       ],
       "answer": "Abraham Lincoln",
@@ -18,9 +18,9 @@
       "category": "Science & Nature",
       "question": "What is the name for the entire range of electromagnetic radiation, from very long radio waves to very short gamma rays?",
       "options": [
-        "Electromagnetic spectrum",
-        "Visible light spectrum",
         "Radiation spectrum",
+        "Visible light spectrum",
+        "Electromagnetic spectrum",
         "Wave spectrum"
       ],
       "answer": "Electromagnetic spectrum",
@@ -31,10 +31,10 @@
       "category": "Sports",
       "question": "In the Tour de France, what does the white jersey (maillot blanc) represent?",
       "options": [
-        "Best young rider (under 26)",
         "King of the Mountains",
         "Points classification leader",
-        "Overall race leader"
+        "Overall race leader",
+        "Best young rider (under 26)"
       ],
       "answer": "Best young rider (under 26)",
       "explanation": "The Tour de France features four jerseys: yellow (overall leader), green (points/sprinting), polka dot (King of the Mountains/climbing), and white (best young rider under 26).",
@@ -44,10 +44,10 @@
       "category": "Pop Culture",
       "question": "Which filmmaker, known for 'Pulp Fiction' and 'Django Unchained,' announced he would retire after his tenth film?",
       "options": [
-        "Quentin Tarantino",
+        "Paul Thomas Anderson",
         "Martin Scorsese",
-        "David Fincher",
-        "Paul Thomas Anderson"
+        "Quentin Tarantino",
+        "David Fincher"
       ],
       "answer": "Quentin Tarantino",
       "explanation": "Tarantino has repeatedly stated he would retire after his tenth film. 'Once Upon a Time in Hollywood' was film #9. He argues directors' work deteriorates with age.",
@@ -57,10 +57,10 @@
       "category": "Geography",
       "question": "Which sea, located between Italy and the Balkan Peninsula, is named after the city of Adria and is an arm of the Mediterranean?",
       "options": [
-        "Adriatic Sea",
-        "Aegean Sea",
+        "Ligurian Sea",
         "Ionian Sea",
-        "Ligurian Sea"
+        "Aegean Sea",
+        "Adriatic Sea"
       ],
       "answer": "Adriatic Sea",
       "explanation": "The Adriatic Sea is bounded by Italy to the west and Slovenia, Croatia, Bosnia, Montenegro, and Albania to the east. Venice sits on the Adriatic coast. It is unusually shallow in the north but deep (1,200+ meters) in the south.",
@@ -70,10 +70,10 @@
       "category": "History",
       "question": "Which treaty, negotiated in 1648, ended the Thirty Years' War and established the principle of national sovereignty?",
       "options": [
-        "Peace of Westphalia",
         "Treaty of Utrecht",
-        "Congress of Vienna",
-        "Treaty of Vienna"
+        "Treaty of Vienna",
+        "Peace of Westphalia",
+        "Congress of Vienna"
       ],
       "answer": "Peace of Westphalia",
       "explanation": "The Peace of Westphalia (October 24, 1648) established the principle that each nation-state is sovereign — free from interference by other states. This shaped international relations for 350+ years.",
@@ -83,10 +83,10 @@
       "category": "Pop Culture",
       "question": "Which early social media site, launched in 2003, was briefly the most visited website in the world but was largely replaced by Facebook by 2009?",
       "options": [
-        "MySpace",
-        "Friendster",
         "Bebo",
-        "Hi5"
+        "Hi5",
+        "MySpace",
+        "Friendster"
       ],
       "answer": "MySpace",
       "explanation": "MySpace was founded in 2003 and purchased by News Corp for $580 million in 2005. It had 100+ million users by 2008. Its decline began when users migrated to Facebook. Justin Timberlake invested in it in 2011.",
@@ -96,8 +96,8 @@
       "category": "Science & Nature",
       "question": "What is the name for a cell without a nucleus or membrane-bound organelles, such as bacteria?",
       "options": [
-        "Prokaryote",
         "Eukaryote",
+        "Prokaryote",
         "Protist",
         "Archaea"
       ],
@@ -109,10 +109,10 @@
       "category": "Geography",
       "question": "Which country spans from the Atlantic to the Pacific coast, is the world's fourth-largest by area, and has territories in the Pacific and Caribbean?",
       "options": [
-        "United States",
+        "Russia",
         "Brazil",
-        "Canada",
-        "Russia"
+        "United States",
+        "Canada"
       ],
       "answer": "United States",
       "explanation": "The continental United States spans from the Atlantic to Pacific coast, covering approximately 9.83 million km² — 4th largest by area. It also has territories including Hawaii, Guam, Puerto Rico, and the U.S. Virgin Islands.",
@@ -122,10 +122,10 @@
       "category": "History",
       "question": "Which 19th-century nurse, known as 'The Lady with the Lamp,' revolutionized nursing during the Crimean War?",
       "options": [
-        "Florence Nightingale",
+        "Dorothea Dix",
         "Mary Seacole",
-        "Clara Barton",
-        "Dorothea Dix"
+        "Florence Nightingale",
+        "Clara Barton"
       ],
       "answer": "Florence Nightingale",
       "explanation": "Florence Nightingale (1820-1910) dramatically reduced mortality in British military hospitals through sanitation. She pioneered statistical graphics in medicine and established the first nursing school at St. Thomas' Hospital in 1860.",
@@ -135,10 +135,10 @@
       "category": "Pop Culture",
       "question": "Which American singer-songwriter is the best-selling female music artist of all time with over 300 million records sold?",
       "options": [
-        "Madonna",
+        "Mariah Carey",
         "Taylor Swift",
-        "Whitney Houston",
-        "Mariah Carey"
+        "Madonna",
+        "Whitney Houston"
       ],
       "answer": "Madonna",
       "explanation": "Madonna (Madonna Louise Ciccone) has sold over 300 million records. She has continuously reinvented herself across genres and decades. Her Sticky & Sweet Tour (2008-09) is one of the highest-grossing concert tours ever.",
@@ -148,10 +148,10 @@
       "category": "Sports",
       "question": "In basketball, what is the term for an attempt to score directly from a long-distance shot, as a last resort when time is running out?",
       "options": [
-        "Hail Mary shot / half-court shot",
+        "Tip-in",
         "Full-court shot",
-        "Alley-oop",
-        "Tip-in"
+        "Hail Mary shot / half-court shot",
+        "Alley-oop"
       ],
       "answer": "Hail Mary shot / half-court shot",
       "explanation": "A 'Hail Mary' or 'half-court shot' is a desperate long-distance attempt as time expires. There is no single standard term across all contexts. A 'buzzer-beater' means any shot made as the clock runs out. An alley-oop is a lob caught near the basket for a dunk.",

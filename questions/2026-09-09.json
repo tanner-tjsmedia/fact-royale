@@ -5,10 +5,10 @@
       "category": "History",
       "question": "Which ancient wonder, consisting of a walled terraced garden built in Babylon (modern Iraq), was supposedly built by King Nebuchadnezzar II for his wife?",
       "options": [
-        "Hanging Gardens of Babylon",
-        "Garden of Eden",
         "Gardens of Versailles",
-        "Persepolis Gardens"
+        "Persepolis Gardens",
+        "Hanging Gardens of Babylon",
+        "Garden of Eden"
       ],
       "answer": "Hanging Gardens of Babylon",
       "explanation": "The Hanging Gardens of Babylon are the only one of the Seven Ancient Wonders for which no definitive archaeological evidence has been found, and some historians believe they may have actually been in Nineveh (modern Iraq) rather than Babylon. Nebuchadnezzar II reportedly built them for his wife Amytis, who missed the green hills of her homeland.",
@@ -18,10 +18,10 @@
       "category": "Science & Nature",
       "question": "What is the name of the device that uses mirrors or lenses to focus visible light from distant objects, named after the Greek word for 'far' and 'see'?",
       "options": [
-        "Telescope",
         "Microscope",
+        "Interferometer",
         "Spectrometer",
-        "Interferometer"
+        "Telescope"
       ],
       "answer": "Telescope",
       "explanation": "The first refracting telescope (using lenses) is credited to Hans Lippershey in 1608. Galileo improved it and used it to discover Jupiter's moons in 1610. Isaac Newton invented the reflecting telescope (using mirrors) in 1668. The Hubble Space Telescope (launched 1990) revealed the universe in unprecedented detail.",
@@ -31,9 +31,9 @@
       "category": "Sports",
       "question": "Which U.S. city's NBA team, known as the 'Showtime' Lakers, won five championships in the 1980s with Magic Johnson and Kareem Abdul-Jabbar?",
       "options": [
+        "Chicago",
         "Los Angeles",
         "Minneapolis",
-        "Chicago",
         "Boston"
       ],
       "answer": "Los Angeles",
@@ -45,9 +45,9 @@
       "question": "Which 2014 Alejandro González Iñárritu film, shot to appear as one continuous take, starred Michael Keaton as a faded superhero actor and won Best Picture?",
       "options": [
         "Birdman",
-        "Boyhood",
         "Whiplash",
-        "The Grand Budapest Hotel"
+        "The Grand Budapest Hotel",
+        "Boyhood"
       ],
       "answer": "Birdman",
       "explanation": "Birdman or (The Unexpected Virtue of Ignorance) used elaborate hidden cuts to appear as one 2-hour continuous shot. It won Best Picture, Director, Original Screenplay, and Cinematography. Michael Keaton played Riggan Thomson — a meta-commentary on Keaton's own career as Batman in the 1980s-90s.",
@@ -58,9 +58,9 @@
       "question": "Which European micro-state, located in the Pyrenees mountains between France and Spain, has the highest capital city in Europe at 1,023 meters elevation?",
       "options": [
         "Andorra",
-        "San Marino",
         "Monaco",
-        "Liechtenstein"
+        "Liechtenstein",
+        "San Marino"
       ],
       "answer": "Andorra",
       "explanation": "Andorra la Vella, the capital of Andorra, sits at 1,023 meters — making it Europe's highest capital and one of the world's highest. Andorra has no airport or railway and is accessed by road through France or Spain. It is famous as a tax haven and shopping destination. Its official language is Catalan.",
@@ -70,8 +70,8 @@
       "category": "History",
       "question": "The Cuban Missile Crisis of 1962, the closest the Cold War came to nuclear war, was triggered by Soviet missiles being placed in Cuba. Which U.S. president negotiated their removal?",
       "options": [
-        "John F. Kennedy",
         "Lyndon B. Johnson",
+        "John F. Kennedy",
         "Richard Nixon",
         "Dwight Eisenhower"
       ],
@@ -96,9 +96,9 @@
       "category": "Science & Nature",
       "question": "What is the term for the angle at which a wave hits a surface, which equals the angle at which it bounces back?",
       "options": [
-        "Angle of incidence = angle of reflection",
         "Snell's angle",
         "Critical angle",
+        "Angle of incidence = angle of reflection",
         "Brewster's angle"
       ],
       "answer": "Angle of incidence = angle of reflection",
@@ -110,9 +110,9 @@
       "question": "Which two countries share the world's longest undefended border, stretching approximately 8,891 km?",
       "options": [
         "Canada and United States",
+        "Kazakhstan and Russia",
         "Russia and China",
-        "Brazil and Bolivia",
-        "Kazakhstan and Russia"
+        "Brazil and Bolivia"
       ],
       "answer": "Canada and United States",
       "explanation": "The Canada-U.S. border (including the Alaska-Canada border) stretches 8,891 km. The portion between the contiguous US and Canada (excluding Alaska) is 6,416 km, running along the 49th parallel for much of its length. It is the world's longest border between two nations that is not militarized.",
@@ -122,10 +122,10 @@
       "category": "History",
       "question": "Which Indian leader, known as the 'Mahatma' (Great Soul), led the non-violent resistance movement that ultimately secured Indian independence from British rule?",
       "options": [
-        "Mahatma Gandhi",
+        "B.R. Ambedkar",
         "Jawaharlal Nehru",
-        "Subhas Chandra Bose",
-        "B.R. Ambedkar"
+        "Mahatma Gandhi",
+        "Subhas Chandra Bose"
       ],
       "answer": "Mahatma Gandhi",
       "explanation": "Mohandas Karamchand Gandhi pioneered satyagraha (truth-force, non-violent resistance). Key campaigns included the 1930 Salt March (241 miles to the sea to protest salt tax) and Quit India Movement (1942). He was assassinated on January 30, 1948, by Nathuram Godse, a Hindu nationalist. His birthday (October 2) is the International Day of Non-Violence.",
@@ -137,8 +137,8 @@
       "options": [
         "Wham!",
         "Hall & Oates",
-        "Pet Shop Boys",
-        "Tears for Fears"
+        "Tears for Fears",
+        "Pet Shop Boys"
       ],
       "answer": "Wham!",
       "explanation": "Wham! was active 1981-1986. George Michael wrote most of their hits. 'Last Christmas' (1984) is one of the best-selling singles of all time that never reached #1 in the UK (kept off by Band Aid's 'Do They Know It's Christmas?'). After the split, George Michael had a massive solo career before his death in 2016.",
@@ -148,10 +148,10 @@
       "category": "Sports",
       "question": "In volleyball, what is the maximum number of times a team can touch the ball before it must go over the net?",
       "options": [
-        "3",
-        "2",
         "4",
-        "5"
+        "3",
+        "5",
+        "2"
       ],
       "answer": "3",
       "explanation": "In volleyball, each team may touch the ball a maximum of three times before sending it over the net. Typically the sequence is: dig (pass from serve), set, and spike (attack). A player cannot hit the ball twice consecutively, and a block touch does not count as one of the three contacts.",

@@ -6,9 +6,9 @@
       "question": "The 1947 Partition of India created Pakistan. How many people were displaced and approximately how many died?",
       "options": [
         "10-20 million displaced; 200,000-2 million killed",
+        "500,000 displaced; 10,000 killed",
         "1 million displaced; 50,000 killed",
-        "50 million displaced; 5 million killed",
-        "500,000 displaced; 10,000 killed"
+        "50 million displaced; 5 million killed"
       ],
       "answer": "10-20 million displaced; 200,000-2 million killed",
       "explanation": "The Partition of British India into India and Pakistan (August 1947) caused the largest forced migration in history — 10-20 million people. Communal violence between Hindus, Sikhs, and Muslims killed estimates of 200,000 to 2 million. Muhammad Ali Jinnah became Pakistan's first Governor-General.",
@@ -19,9 +19,9 @@
       "question": "Paleontology studies fossils. What is the process by which fossils are formed?",
       "options": [
         "Rapid burial prevents decay, then minerals replace organic material over time",
-        "Freezing preserves organisms unchanged",
+        "Heat and pressure compress organisms into stone",
         "Volcanic ash bakes organisms into permanent casts",
-        "Heat and pressure compress organisms into stone"
+        "Freezing preserves organisms unchanged"
       ],
       "answer": "Rapid burial prevents decay, then minerals replace organic material over time",
       "explanation": "Fossils form when organisms die and are quickly buried (preventing decomposition), then minerals gradually replace the original organic material. Mary Anning found crucial 19th-century sea creature fossils. The first T. rex was found in 1902.",
@@ -31,10 +31,10 @@
       "category": "Sports",
       "question": "Argentina's football team is nicknamed 'La Albiceleste.' What does that mean?",
       "options": [
-        "The white and sky blue (describing the team's colors)",
         "The white eagles",
         "The silver and blue",
-        "The sky warriors"
+        "The sky warriors",
+        "The white and sky blue (describing the team's colors)"
       ],
       "answer": "The white and sky blue (describing the team's colors)",
       "explanation": "'La Albiceleste' = 'the white and sky blue' — describing Argentina's jersey colors. They won the 2021 Copa América and 2022 World Cup. The 2022 World Cup Final against France (3-3, Argentina 4-2 on penalties) is considered the greatest sporting event ever by many.",
@@ -44,10 +44,10 @@
       "category": "Pop Culture",
       "question": "Batman (1989): what was the controversy around Michael Keaton's casting?",
       "options": [
-        "Fans protested that 'Mr. Mom' (a comedy star) couldn't play Batman — but the film grossed $411 million",
-        "Jack Nicholson refused to act with Keaton",
+        "Keaton wore a blue costume instead of black in early test footage",
         "Tim Burton wanted another director for the film",
-        "Keaton wore a blue costume instead of black in early test footage"
+        "Jack Nicholson refused to act with Keaton",
+        "Fans protested that 'Mr. Mom' (a comedy star) couldn't play Batman — but the film grossed $411 million"
       ],
       "answer": "Fans protested that 'Mr. Mom' (a comedy star) couldn't play Batman — but the film grossed $411 million",
       "explanation": "When Michael Keaton was cast as Batman, fans protested heavily — he was known for comedies (Mr. Mom, Beetlejuice). Jack Nicholson received top billing over Keaton. The film proved doubters wrong, grossing $411 million. Prince's soundtrack was also commercially successful.",
@@ -58,9 +58,9 @@
       "question": "Nigeria is Africa's most populous nation with 220+ million people. What is its economic capital vs. its political capital?",
       "options": [
         "Lagos (economic), Abuja (political/official capital)",
-        "Abuja (economic), Lagos (political)",
         "Both functions are in Lagos",
-        "Kano (economic), Abuja (political)"
+        "Kano (economic), Abuja (political)",
+        "Abuja (economic), Lagos (political)"
       ],
       "answer": "Lagos (economic), Abuja (political/official capital)",
       "explanation": "Abuja became Nigeria's official capital in 1991. Lagos remains the commercial center — one of Africa's biggest megacities (15M+). Nigeria has 250+ ethnic groups and is Africa's largest economy by nominal GDP.",
@@ -70,10 +70,10 @@
       "category": "History",
       "question": "Brown v. Board of Education (1954) overturned which earlier Supreme Court case?",
       "options": [
-        "Plessy v. Ferguson (1896) which established 'separate but equal'",
-        "Dred Scott v. Sandford (1857)",
         "Marbury v. Madison (1803)",
-        "McCulloch v. Maryland (1819)"
+        "McCulloch v. Maryland (1819)",
+        "Plessy v. Ferguson (1896) which established 'separate but equal'",
+        "Dred Scott v. Sandford (1857)"
       ],
       "answer": "Plessy v. Ferguson (1896) which established 'separate but equal'",
       "explanation": "Plessy v. Ferguson (1896) established the 'separate but equal' doctrine allowing racial segregation. Brown v. Board (1954) ruled this unconstitutional for public schools. Chief Justice Warren wrote the unanimous opinion: 'Separate educational facilities are inherently unequal.'",
@@ -83,10 +83,10 @@
       "category": "Pop Culture",
       "question": "Elon Musk founded SpaceX in 2002 with what explicit goal?",
       "options": [
-        "To make humanity multi-planetary, primarily by colonizing Mars",
-        "To create reusable rockets to reduce satellite launch costs only",
+        "To create the first commercial space tourism business",
         "To compete with NASA",
-        "To create the first commercial space tourism business"
+        "To create reusable rockets to reduce satellite launch costs only",
+        "To make humanity multi-planetary, primarily by colonizing Mars"
       ],
       "answer": "To make humanity multi-planetary, primarily by colonizing Mars",
       "explanation": "Musk founded SpaceX in 2002 explicitly to make humanity multi-planetary. Starship is designed to carry 100+ people to Mars. He has said he wants to die on Mars — 'just not on impact.'",
@@ -96,10 +96,10 @@
       "category": "Science & Nature",
       "question": "Who proposed the Big Bang Theory in 1927, and what was ironic about their background?",
       "options": [
-        "Georges Lemaître — a Catholic priest; the theory explains the origin without requiring God",
         "Albert Einstein; he was an atheist",
-        "Edwin Hubble; he was a Protestant minister",
-        "Fred Hoyle; he was a devout Catholic"
+        "Georges Lemaître — a Catholic priest; the theory explains the origin without requiring God",
+        "Fred Hoyle; he was a devout Catholic",
+        "Edwin Hubble; he was a Protestant minister"
       ],
       "answer": "Georges Lemaître — a Catholic priest; the theory explains the origin without requiring God",
       "explanation": "Georges Lemaître was both a Belgian Catholic priest and a physicist. He proposed the 'primeval atom' theory in 1927. Fred Hoyle (a skeptic) coined 'Big Bang' derisively on BBC radio in 1949. The CMB discovery (1964) confirmed it.",
@@ -109,10 +109,10 @@
       "category": "Geography",
       "question": "The Strait of Gibraltar connects the Atlantic to the Mediterranean and is how wide at its narrowest point?",
       "options": [
-        "14 km wide at its narrowest",
         "5 km",
-        "50 km",
-        "1 km"
+        "14 km wide at its narrowest",
+        "1 km",
+        "50 km"
       ],
       "answer": "14 km wide at its narrowest",
       "explanation": "The Strait of Gibraltar is 14 km at its narrowest (between Morocco and Spain) and about 36 km at its widest. ~100,000 ships per year. Britain controls the Rock of Gibraltar on the north side. Ancient Greeks called these the 'Pillars of Hercules.'",
@@ -123,9 +123,9 @@
       "question": "What iconic image emerged from the Tiananmen Square massacre of June 4, 1989?",
       "options": [
         "'Tank Man' blocking a column of tanks alone",
-        "Students raising a flag over the Square",
         "A burning barricade",
-        "A child carrying an injured protester"
+        "A child carrying an injured protester",
+        "Students raising a flag over the Square"
       ],
       "answer": "'Tank Man' blocking a column of tanks alone",
       "explanation": "The Tiananmen Square massacre (June 3-4, 1989) saw Chinese troops open fire on pro-democracy protesters. The image of an unknown man blocking a column of tanks became one of the most famous photographs of the 20th century. The death toll remains unknown — estimates range from hundreds to thousands.",
@@ -135,10 +135,10 @@
       "category": "Pop Culture",
       "question": "Steven Spielberg is the highest-grossing director of all time. What two Academy Awards for Best Director has he won?",
       "options": [
-        "Schindler's List (1993) and Saving Private Ryan (1998)",
-        "Jaws (1975) and E.T. (1982)",
         "Raiders of the Lost Ark (1981) and Schindler's List (1993)",
-        "Schindler's List (1993) and Lincoln (2012)"
+        "Schindler's List (1993) and Lincoln (2012)",
+        "Schindler's List (1993) and Saving Private Ryan (1998)",
+        "Jaws (1975) and E.T. (1982)"
       ],
       "answer": "Schindler's List (1993) and Saving Private Ryan (1998)",
       "explanation": "Spielberg's two Best Director Oscars came for Schindler's List (1993) and Saving Private Ryan (1998). His films have grossed ~$10 billion. He invented the blockbuster model with Jaws (1975).",
@@ -149,8 +149,8 @@
       "question": "What is the difference between a 'breakaway' and a 'penalty shot' in ice hockey?",
       "options": [
         "Breakaway = open chance with no defenders; penalty shot = awarded when a breakaway is illegally stopped",
-        "Both are the same thing",
         "Penalty shot requires the goalie to stay at the goal line",
+        "Both are the same thing",
         "Breakaway only counts if the puck crosses the blue line first"
       ],
       "answer": "Breakaway = open chance with no defenders; penalty shot = awarded when a breakaway is illegally stopped",

@@ -4,10 +4,10 @@
       "category": "History",
       "question": "Which country invented gunpowder?",
       "options": [
+        "China",
         "India",
         "Korea",
-        "Japan",
-        "China"
+        "Japan"
       ],
       "answer": "China",
       "explanation": "Gunpowder was invented in China by Taoist alchemists during the Tang Dynasty (9th century AD) while searching for an elixir of immortality. The formula spread along the Silk Road to the Middle East and eventually Europe, where it transformed warfare. The Chinese also invented fireworks.",
@@ -17,10 +17,10 @@
       "category": "History",
       "question": "Who was the South African president who served time in prison before becoming a symbol of freedom?",
       "options": [
-        "Desmond Tutu",
+        "Nelson Mandela",
         "Oliver Tambo",
         "Thabo Mbeki",
-        "Nelson Mandela"
+        "Desmond Tutu"
       ],
       "answer": "Nelson Mandela",
       "explanation": "Nelson Mandela was imprisoned for 27 years (1964–1990) on Robben Island and other prisons for his anti-apartheid activism. After his release, he negotiated the end of apartheid and became South Africa's first democratically elected president in 1994. He was awarded the Nobel Peace Prize in 1993.",
@@ -31,9 +31,9 @@
       "question": "In which city were the first modern Olympic Games held?",
       "options": [
         "Paris",
-        "London",
+        "Stockholm",
         "Athens",
-        "Stockholm"
+        "London"
       ],
       "answer": "Athens",
       "explanation": "The first modern Olympic Games were held in Athens, Greece in 1896. Organized by Pierre de Coubertin, 241 athletes from 14 nations competed in 43 events. The Games were a revival of the ancient Greek Olympics, last held in 393 AD.",
@@ -43,10 +43,10 @@
       "category": "Sports",
       "question": "How long is a standard NBA game in minutes (regulation)?",
       "options": [
-        "40 minutes",
-        "48 minutes",
         "60 minutes",
-        "36 minutes"
+        "36 minutes",
+        "48 minutes",
+        "40 minutes"
       ],
       "answer": "48 minutes",
       "explanation": "A standard NBA game consists of four quarters of 12 minutes each, for a total of 48 minutes of regulation play. NCAA college basketball uses two 20-minute halves (40 minutes total), and FIBA uses four 10-minute quarters (40 minutes total). Overtime periods in the NBA are 5 minutes each.",
@@ -56,10 +56,10 @@
       "category": "Pop Culture",
       "question": "Who sang 'Shape of You' and 'Bad Habits'?",
       "options": [
-        "Sam Smith",
-        "Harry Styles",
         "Ed Sheeran",
-        "Shawn Mendes"
+        "Harry Styles",
+        "Shawn Mendes",
+        "Sam Smith"
       ],
       "answer": "Ed Sheeran",
       "explanation": "Ed Sheeran released 'Shape of You' in 2017 — it became one of the best-selling singles of all time with over 3.5 billion Spotify streams. 'Bad Habits' was released in 2021. Sheeran began his career busking on the streets of London and has become one of the world's best-selling music artists.",
@@ -69,10 +69,10 @@
       "category": "Pop Culture",
       "question": "Beethoven's 9th Symphony (1824), composed when he was almost completely deaf, is considered one of music's supreme achievements. What makes its premiere extraordinary?",
       "options": [
-        "Beethoven premiered the 9th in London rather than Vienna, as the Viennese court had banned orchestral music of such length as 'disruptive to public order'",
-        "Beethoven had to be turned to face the audience at the premiere because he was conducting from memory — facing the orchestra — and couldn't hear the applause that began before the symphony even finished",
         "The 9th was so long (over 70 minutes) that no orchestra had the stamina to perform it — Beethoven had to train the Vienna Philharmonic for six months before the premiere, the longest rehearsal period in the orchestra's history",
-        "The premiere was cancelled three times because Beethoven changed the finale up to the night before the performance, requiring musicians to sight-read the choral finale in front of a packed audience"
+        "The premiere was cancelled three times because Beethoven changed the finale up to the night before the performance, requiring musicians to sight-read the choral finale in front of a packed audience",
+        "Beethoven had to be turned to face the audience at the premiere because he was conducting from memory — facing the orchestra — and couldn't hear the applause that began before the symphony even finished",
+        "Beethoven premiered the 9th in London rather than Vienna, as the Viennese court had banned orchestral music of such length as 'disruptive to public order'"
       ],
       "answer": "Beethoven had to be turned to face the audience at the premiere because he was conducting from memory — facing the orchestra — and couldn't hear the applause that began before the symphony even finished",
       "explanation": "Beethoven had been profoundly deaf for years by 1824. At the premiere in Vienna, a younger conductor was actually directing the orchestra — Beethoven stood on stage as a ceremonial figure, conducting from memory without hearing the orchestra. When the symphony ended, the audience erupted in applause; Beethoven continued conducting, unaware. Contralto Caroline Unger gently turned him around to face the standing ovation. He reportedly wept when he understood. The 9th introduced the human voice into the symphonic form for the first time — its final movement sets Friedrich Schiller's 'Ode to Joy,' now the EU's anthem.",
@@ -95,10 +95,10 @@
       "category": "History",
       "question": "Which French emperor was exiled to the island of St. Helena?",
       "options": [
-        "Louis XVI",
-        "Napoléon Bonaparte",
         "Louis XVIII",
-        "Charles X"
+        "Charles X",
+        "Louis XVI",
+        "Napoléon Bonaparte"
       ],
       "answer": "Napoléon Bonaparte",
       "explanation": "Napoleon Bonaparte was exiled to the remote island of St. Helena in the South Atlantic Ocean after his final defeat at Waterloo in 1815. He lived there under British supervision until his death in 1821. It is one of the most remote inhabited islands in the world, specifically chosen to prevent his escape.",
@@ -108,10 +108,10 @@
       "category": "Geography",
       "question": "Which European country has the most UNESCO World Heritage Sites?",
       "options": [
+        "Italy",
         "Greece",
         "France",
-        "Spain",
-        "Italy"
+        "Spain"
       ],
       "answer": "Italy",
       "explanation": "Italy leads the world with 58 UNESCO World Heritage Sites, including the Colosseum, Pompeii, Venice, the Amalfi Coast, and the historic centers of Rome, Florence, and Siena. China is close behind with 57. Italy's extraordinary concentration of ancient history, Renaissance art, and natural beauty contributes to its record.",
@@ -121,8 +121,8 @@
       "category": "Science & Nature",
       "question": "In 2017, astronomers detected both gravitational waves and light from the same event for the first time — a neutron star merger. Why was this discovery transformative?",
       "options": [
-        "It proved that neutron stars could collide without creating a black hole, disproving a key prediction of general relativity that such mergers always resulted in immediate singularity formation",
         "It confirmed that neutron star mergers produce heavy elements like gold and platinum through the r-process — solving the decades-long mystery of where these elements are forged — and validated multi-messenger astronomy",
+        "It proved that neutron stars could collide without creating a black hole, disproving a key prediction of general relativity that such mergers always resulted in immediate singularity formation",
         "It provided the first direct evidence that gravitational waves travel slower than light, resolving a theoretical dispute between quantum mechanics and general relativity that had persisted for 40 years",
         "It revealed that neutron star mergers are far more common than predicted — occurring once per year in the Milky Way — suggesting heavy elements are much more abundant in the universe than previous models indicated"
       ],
@@ -134,10 +134,10 @@
       "category": "Geography",
       "question": "Bhutan, the Himalayan kingdom nestled between India and China, measures national wellbeing using a unique metric it pioneered. What is it?",
       "options": [
-        "Human Development Index",
         "Quality of Life Index",
+        "Sustainable Progress Rating",
         "Gross National Happiness",
-        "Sustainable Progress Rating"
+        "Human Development Index"
       ],
       "answer": "Gross National Happiness",
       "explanation": "Bhutan is the only country in the world that measures policy success through Gross National Happiness (GNH) rather than Gross Domestic Product (GDP). The concept was introduced by the fourth King of Bhutan in the 1970s and encompasses psychological wellbeing, cultural resilience, environmental conservation, and good governance. Bhutan is also notable for being carbon-negative (it absorbs more CO2 than it produces) and for being one of the last countries to get television (1999).",
@@ -147,10 +147,10 @@
       "category": "Science & Nature",
       "question": "Gregor Mendel's pea plant experiments revealed that some traits are 'dominant' and some 'recessive.' What does it mean for a trait to be recessive?",
       "options": [
-        "It appears in every generation",
         "It can only be inherited from the mother",
-        "It only appears when an organism inherits two copies of the recessive allele",
-        "It disappears from the population over time"
+        "It appears in every generation",
+        "It disappears from the population over time",
+        "It only appears when an organism inherits two copies of the recessive allele"
       ],
       "answer": "It only appears when an organism inherits two copies of the recessive allele",
       "explanation": "A recessive trait is only expressed when an organism is homozygous for the recessive allele (inherits one copy from each parent). A single dominant allele 'overrides' the recessive one. Mendel's key insight (published 1866, ignored for 35 years) was that traits don't blend — they are inherited as discrete particles (genes) with dominant/recessive relationships. Common recessive traits in humans include blue eyes, blood type O, cystic fibrosis, and albinism.",

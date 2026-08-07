@@ -6,9 +6,9 @@
       "question": "Which ancient Greek city-state, famous for its military culture, sent 300 soldiers to delay a massive Persian army at the Battle of Thermopylae in 480 BC?",
       "options": [
         "Sparta",
+        "Thebes",
         "Athens",
-        "Corinth",
-        "Thebes"
+        "Corinth"
       ],
       "answer": "Sparta",
       "explanation": "King Leonidas led 300 Spartans (plus thousands of allied Greek soldiers) against Xerxes I's Persian army estimated at hundreds of thousands. The Spartans held the narrow mountain pass for three days before being outflanked by a traitor's information. The delay helped Athens evacuate and prepare its navy for victory at Salamis.",
@@ -18,9 +18,9 @@
       "category": "Science & Nature",
       "question": "What is the name of the closest star to our solar system, located approximately 4.24 light-years from Earth?",
       "options": [
-        "Proxima Centauri",
-        "Alpha Centauri A",
         "Sirius",
+        "Alpha Centauri A",
+        "Proxima Centauri",
         "Betelgeuse"
       ],
       "answer": "Proxima Centauri",
@@ -31,10 +31,10 @@
       "category": "Sports",
       "question": "Which Formula 1 driver holds the record for the most World Drivers' Championship titles, with eight championships?",
       "options": [
-        "Lewis Hamilton",
         "Michael Schumacher",
         "Ayrton Senna",
-        "Max Verstappen"
+        "Max Verstappen",
+        "Lewis Hamilton"
       ],
       "answer": "Lewis Hamilton",
       "explanation": "Lewis Hamilton won his 8th world championship title, surpassing Michael Schumacher's previous record of 7. The British driver has also set records for most race wins and most pole positions. He drove for McLaren before joining Mercedes, where he won 6 of his titles.",
@@ -44,10 +44,10 @@
       "category": "Pop Culture",
       "question": "Which animated 2001 Pixar film features a one-eyed monster who befriends a human child and features the voice of Billy Crystal?",
       "options": [
-        "Monsters, Inc.",
-        "Toy Story 2",
         "A Bug's Life",
-        "Finding Nemo"
+        "Finding Nemo",
+        "Monsters, Inc.",
+        "Toy Story 2"
       ],
       "answer": "Monsters, Inc.",
       "explanation": "Monsters, Inc. (2001) features James P. Sullivan (voiced by John Goodman) and Mike Wazowski (Billy Crystal) as monsters who discover that children's laughter is more powerful than screams. It was the highest-grossing film of 2001 in North America.",
@@ -57,10 +57,10 @@
       "category": "Geography",
       "question": "Which Asian country, with a population of 1.4 billion, overtook China in 2023 to become the world's most populous nation?",
       "options": [
-        "India",
         "Pakistan",
+        "Indonesia",
         "Bangladesh",
-        "Indonesia"
+        "India"
       ],
       "answer": "India",
       "explanation": "India surpassed China as the world's most populous country in 2023, reaching approximately 1.43 billion people. Unlike China, India has no official one-child policy, and its population is still growing. India is also the world's largest democracy and the 5th largest economy.",
@@ -70,10 +70,10 @@
       "category": "History",
       "question": "The Chernobyl nuclear disaster of 1986 occurred in which country (as it existed at the time)?",
       "options": [
-        "Soviet Union (Ukraine)",
+        "Belarus",
         "Russia",
-        "Poland",
-        "Belarus"
+        "Soviet Union (Ukraine)",
+        "Poland"
       ],
       "answer": "Soviet Union (Ukraine)",
       "explanation": "The Chernobyl Nuclear Power Plant was in the Ukrainian Soviet Socialist Republic, part of the USSR. The explosion on April 26, 1986 was caused by a flawed reactor design and operator error during a safety test. About 350,000 people were evacuated from the surrounding area, which remains partially restricted today.",
@@ -83,10 +83,10 @@
       "category": "Pop Culture",
       "question": "Which streaming service, launched in 2007 originally as a DVD rental company, grew to become the world's largest subscription streaming platform?",
       "options": [
-        "Netflix",
         "Hulu",
-        "HBO Max",
-        "Amazon Prime Video"
+        "Amazon Prime Video",
+        "Netflix",
+        "HBO Max"
       ],
       "answer": "Netflix",
       "explanation": "Netflix was founded in 1997 by Reed Hastings and Marc Randolph as a DVD-by-mail service. It launched streaming in 2007 and began producing original content (House of Cards, 2013). As of 2024 it has over 270 million subscribers globally. Its original 'Squid Game' became the most-watched series in Netflix history.",
@@ -96,9 +96,9 @@
       "category": "Science & Nature",
       "question": "What is the name of the theory that describes how Earth's outer shell is divided into moving tectonic plates, causing earthquakes and volcanoes?",
       "options": [
+        "Seafloor spreading",
         "Plate tectonics",
         "Continental drift",
-        "Seafloor spreading",
         "Geological shift"
       ],
       "answer": "Plate tectonics",
@@ -110,9 +110,9 @@
       "question": "Which strait, connecting the Atlantic and Pacific oceans, runs between the southern tip of South America and Antarctica?",
       "options": [
         "Drake Passage",
-        "Strait of Magellan",
         "Bass Strait",
-        "Bering Strait"
+        "Bering Strait",
+        "Strait of Magellan"
       ],
       "answer": "Drake Passage",
       "explanation": "The Drake Passage is the world's stormiest body of water, about 800 km wide, with waves frequently exceeding 12 meters. It was named after Sir Francis Drake, whose ship was blown there in 1578. Before the Panama Canal, all ships had to navigate around Cape Horn.",
@@ -135,10 +135,10 @@
       "category": "Pop Culture",
       "question": "Which singer, born Robyn Rihanna Fenty in Barbados, became the wealthiest female musician in the world with an estimated net worth of over $1.4 billion?",
       "options": [
-        "Rihanna",
-        "Beyoncé",
         "Taylor Swift",
-        "Madonna"
+        "Beyoncé",
+        "Madonna",
+        "Rihanna"
       ],
       "answer": "Rihanna",
       "explanation": "Rihanna's wealth primarily comes from her Fenty Beauty cosmetics line (launched 2017) and Savage X Fenty lingerie brand, not her music. Fenty Beauty broke records by launching in 40 shades of foundation, disrupting the beauty industry. She also performed at the 2023 Super Bowl halftime show while pregnant.",
@@ -146,14 +146,14 @@
     },
     {
       "category": "Sports",
-      "question": "The 2012 Ryder Cup at Medinah Country Club — known as the 'Miracle at Medinah' — produced one of the most dramatic comebacks in golf history. What happened?",
+      "question": "The 2012 Ryder Cup at Medinah became known as the 'Miracle at Medinah.' What happened?",
       "options": [
-        "Europe entered the final day trailing 10-6, needing 8.5 points from 12 singles matches — an unprecedented deficit to overcome — and won 8.5-3.5, with Martin Kaymer holing the winning putt on the final green",
-        "The USA led 10-4 going into Sunday singles but Europe staged an incredible rally, winning 8.5 points from the remaining 12 matches — the final point was decided on the 18th green of the final match",
-        "Europe trailed 10-6 and completed a record comeback — including Francesco Molinari winning the final point on the 18th hole — to win the overall match 14.5 to 13.5 with the final putt conceded by Tiger Woods",
-        "The USA needed only a half-point from the final match to retain the Ryder Cup but Europe's Ian Poulter birdied five consecutive holes on the back nine to steal a win that proved pivotal in the final standings"
+        "Tiger Woods conceded the final putt at 14.5-13.5",
+        "Ian Poulter birdied five straight to steal the win",
+        "The USA led 10-4 before Europe rallied to win",
+        "Europe trailed 10-6, then won the singles 8.5 to 3.5"
       ],
-      "answer": "Europe entered the final day trailing 10-6, needing 8.5 points from 12 singles matches — an unprecedented deficit to overcome — and won 8.5-3.5, with Martin Kaymer holing the winning putt on the final green",
+      "answer": "Europe trailed 10-6, then won the singles 8.5 to 3.5",
       "explanation": "Going into Sunday, the USA needed just 4 points from 12 singles matches to retain the cup; Europe needed 8.5. No team had ever overcome a deficit that large on the final day. Europe won the first five matches Sunday morning. Jose Maria Olazabal (European captain, invoking the memory of Seve Ballesteros who had died in 2011) watched as his team stormed back. Martin Kaymer — playing Steve Stricker — holed a 6-foot putt on the 18th to tie the match and give Europe the 14.5 points they needed for outright victory. Francesco Molinari halved the final match to make it 14.5-13.5. Tiger Woods lost to Francesco Molinari.",
       "memory_hook": "Europe needed 8.5 points from 12 singles matches — something no team had ever done. Captain Olazabal dedicated the comeback to Seve Ballesteros, who had died in 2011. Europe won the first five singles and kept going. Kaymer holed the winning putt on 18. Tiger Woods lost his match to Molinari. Final: 14.5-13.5."
     }

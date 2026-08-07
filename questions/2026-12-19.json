@@ -5,10 +5,10 @@
       "category": "History",
       "question": "The Spanish Civil War (1936–1939) was a brutal conflict that served as a prelude to World War II. Which two sides fought, and which foreign powers supported each?",
       "options": [
-        "Royalists vs. Republicans — Britain backed the Royalists, France backed the Republicans",
-        "Nationalists vs. Republicans — Nazi Germany and Fascist Italy backed the Nationalists; the Soviet Union backed the Republicans",
+        "Republicans vs. Monarchists — the Vatican backed the Monarchists, the US backed the Republicans",
         "Fascists vs. Communists — the US backed the Fascists, Britain backed the Communists",
-        "Republicans vs. Monarchists — the Vatican backed the Monarchists, the US backed the Republicans"
+        "Nationalists vs. Republicans — Nazi Germany and Fascist Italy backed the Nationalists; the Soviet Union backed the Republicans",
+        "Royalists vs. Republicans — Britain backed the Royalists, France backed the Republicans"
       ],
       "answer": "Nationalists vs. Republicans — Nazi Germany and Fascist Italy backed the Nationalists; the Soviet Union backed the Republicans",
       "explanation": "General Francisco Franco's Nationalists, backed by Hitler and Mussolini with troops, weapons, and aircraft, fought the elected Republican government, backed by Soviet arms and the International Brigades (volunteers from around the world, including Ernest Hemingway and George Orwell). Franco won in 1939 and ruled Spain as dictator until 1975. The war served as a testing ground for German and Italian military tactics later used in WWII.",
@@ -31,10 +31,10 @@
       "category": "History",
       "question": "In a 1946 speech in Fulton, Missouri, Winston Churchill coined a famous Cold War phrase to describe the division of Europe. What was it?",
       "options": [
-        "The Iron Fist",
-        "The Iron Curtain",
         "The Steel Wall",
-        "The Great Divide"
+        "The Great Divide",
+        "The Iron Fist",
+        "The Iron Curtain"
       ],
       "answer": "The Iron Curtain",
       "explanation": "Churchill's 'Sinews of Peace' speech on March 5, 1946, declared: 'From Stettin in the Baltic to Trieste in the Adriatic, an iron curtain has descended across the Continent.' Though Churchill was no longer Prime Minister, the speech crystallized Western anxieties about Soviet expansion and is widely seen as a defining moment marking the start of the Cold War.",
@@ -46,8 +46,8 @@
       "options": [
         "Ran 100 meters in under 10 seconds for the first time",
         "Ran a mile in under 4 minutes for the first time",
-        "High jumped over 7 feet for the first time",
-        "Completed a marathon in under 2 hours for the first time"
+        "Completed a marathon in under 2 hours for the first time",
+        "High jumped over 7 feet for the first time"
       ],
       "answer": "Ran a mile in under 4 minutes for the first time",
       "explanation": "Oxford medical student Roger Bannister ran the mile in 3 minutes 59.4 seconds at Oxford's Iffley Road track on May 6, 1954, becoming the first human to break the 4-minute barrier. The record stood for just 46 days before Australian John Landy broke it. Today the mile record stands at 3:43.13 (Hicham El Guerrouj, 1999). Bannister later had a distinguished career as a neurologist.",
@@ -57,10 +57,10 @@
       "category": "Sports",
       "question": "German driver Michael Schumacher dominated Formula 1 in the early 2000s. How many World Drivers' Championships did he win in his career?",
       "options": [
+        "8",
         "5",
         "6",
-        "7",
-        "8"
+        "7"
       ],
       "answer": "7",
       "explanation": "Schumacher won 7 World Drivers' Championships — 2 with Benetton (1994, 1995) and 5 consecutive with Ferrari (2000–2004). His record of 7 titles stood until Lewis Hamilton matched it in 2020. Schumacher also set records for most race wins and pole positions, many of which have since been broken by Hamilton. A skiing accident in 2013 left him with serious brain injuries.",
@@ -70,9 +70,9 @@
       "category": "Pop Culture",
       "question": "Michel Gondry's 2004 film Eternal Sunshine of the Spotless Mind follows a couple who each have their memories of the other erased. Who wrote the screenplay?",
       "options": [
-        "Michel Gondry",
         "Charlie Kaufman",
         "Spike Jonze",
+        "Michel Gondry",
         "David O. Russell"
       ],
       "answer": "Charlie Kaufman",
@@ -84,9 +84,9 @@
       "question": "Martin Scorsese's 2006 crime thriller The Departed won Best Picture at the Academy Awards. It was a remake of which 2002 Hong Kong film?",
       "options": [
         "Infernal Affairs",
-        "Hard Boiled",
         "Election",
-        "PTU"
+        "PTU",
+        "Hard Boiled"
       ],
       "answer": "Infernal Affairs",
       "explanation": "The Departed remakes the Hong Kong film Infernal Affairs (2002) by Andrew Lau and Alan Mak, which starred Tony Leung and Andy Lau as a cop infiltrating the mob and a mob mole infiltrating the police simultaneously. Scorsese's version transplanted the story to Boston, with Leonardo DiCaprio, Matt Damon, and Jack Nicholson. It was Scorsese's long-overdue first Oscar for Best Director.",
@@ -96,9 +96,9 @@
       "category": "Pop Culture",
       "question": "Paul Thomas Anderson's 2007 film There Will Be Blood is centered on a ruthless oil prospector in early 20th-century California. On what novel is it loosely based?",
       "options": [
-        "Upton Sinclair's Oil!",
-        "John Steinbeck's East of Eden",
         "Frank Norris's McTeague",
+        "John Steinbeck's East of Eden",
+        "Upton Sinclair's Oil!",
         "Jack London's Burning Daylight"
       ],
       "answer": "Upton Sinclair's Oil!",
@@ -109,9 +109,9 @@
       "category": "Geography",
       "question": "The Ural Mountains run roughly north-south through Russia and are considered a natural boundary. What do they traditionally divide?",
       "options": [
-        "Northern Russia from Southern Russia along the 60th parallel",
         "European Russia from Asian Russia (Siberia)",
         "Russia from Kazakhstan and China",
+        "Northern Russia from Southern Russia along the 60th parallel",
         "The taiga forest zone from the steppe grasslands"
       ],
       "answer": "European Russia from Asian Russia (Siberia)",
@@ -123,9 +123,9 @@
       "question": "Australia's Great Artesian Basin is one of the world's largest underground freshwater sources. What makes it unusual among aquifers?",
       "options": [
         "It is entirely saline and cannot be used for drinking water",
+        "It is slowly expanding, threatening to flood coastal areas of Australia",
         "It is a confined artesian aquifer — water rises to the surface under natural pressure without pumping",
-        "It sits beneath a desert and was formed by ancient glaciers",
-        "It is slowly expanding, threatening to flood coastal areas of Australia"
+        "It sits beneath a desert and was formed by ancient glaciers"
       ],
       "answer": "It is a confined artesian aquifer — water rises to the surface under natural pressure without pumping",
       "explanation": "The Great Artesian Basin underlies about 22% of Australia, spanning parts of Queensland, New South Wales, South Australia, and the Northern Territory. Because the aquifer is confined between impermeable rock layers, water that was recharged in Queensland highlands is under enough pressure to flow to the surface through bores without pumping — critical for cattle stations in the arid interior. The water in deep sections is up to 2 million years old.",
@@ -135,10 +135,10 @@
       "category": "Science & Nature",
       "question": "Michael Faraday's 1831 discovery of electromagnetic induction became the basis for electric generators. What is the principle of electromagnetic induction?",
       "options": [
-        "A steady magnetic field creates a constant electric current in nearby conductors",
-        "A changing magnetic field induces an electric current in a nearby conductor",
         "An electric current flowing through a wire creates a magnetic field around it",
-        "Two magnets spinning near each other generate heat, which is converted to electricity"
+        "A changing magnetic field induces an electric current in a nearby conductor",
+        "Two magnets spinning near each other generate heat, which is converted to electricity",
+        "A steady magnetic field creates a constant electric current in nearby conductors"
       ],
       "answer": "A changing magnetic field induces an electric current in a nearby conductor",
       "explanation": "Faraday discovered that moving a magnet through a coil of wire induced an electric current — the change in magnetic flux causes electrons to flow. This principle underpins virtually all electrical generation: coal, nuclear, and hydroelectric plants all ultimately spin magnets inside coils to produce electricity. James Clerk Maxwell later gave this a mathematical foundation in his equations of electromagnetism.",
@@ -149,9 +149,9 @@
       "question": "Bats and dolphins both use echolocation to navigate and hunt. How does echolocation work?",
       "options": [
         "They detect infrared heat signatures emitted by prey",
-        "They emit high-frequency sound pulses and interpret the returning echoes to build a map of their surroundings",
         "They sense disturbances in Earth's magnetic field caused by moving objects",
-        "They detect electrical fields generated by the muscles of moving animals"
+        "They detect electrical fields generated by the muscles of moving animals",
+        "They emit high-frequency sound pulses and interpret the returning echoes to build a map of their surroundings"
       ],
       "answer": "They emit high-frequency sound pulses and interpret the returning echoes to build a map of their surroundings",
       "explanation": "Echolocating animals emit ultrasonic calls (bats) or clicks (dolphins) and analyze the returning echoes to determine distance, size, shape, and texture of objects. Bats can locate insects as thin as a human hair in complete darkness; dolphins use a fatty organ called the melon in their forehead to focus sound beams. The term 'echolocation' was coined by naturalist Donald Griffin in 1944.",

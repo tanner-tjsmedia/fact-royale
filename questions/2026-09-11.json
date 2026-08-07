@@ -6,9 +6,9 @@
       "question": "The Reformation began in 1517 when which German monk nailed his '95 Theses' to the church door in Wittenberg, challenging Catholic practices?",
       "options": [
         "Martin Luther",
-        "John Calvin",
         "Henry VIII",
-        "Huldrych Zwingli"
+        "Huldrych Zwingli",
+        "John Calvin"
       ],
       "answer": "Martin Luther",
       "explanation": "Martin Luther's 95 Theses primarily challenged the sale of indulgences (paying to reduce punishment for sins). Luther was excommunicated in 1521. His translation of the Bible into German (1522) helped standardize the German language. The Reformation split Western Christianity into Catholic and Protestant branches.",
@@ -19,9 +19,9 @@
       "question": "What is the name of the phenomenon where light bends around a massive object due to the curvature of spacetime, as predicted by Einstein's General Relativity?",
       "options": [
         "Gravitational lensing",
-        "Redshift",
         "Dark energy effect",
-        "Time dilation"
+        "Time dilation",
+        "Redshift"
       ],
       "answer": "Gravitational lensing",
       "explanation": "Gravitational lensing was first confirmed during the 1919 solar eclipse, when Sir Arthur Eddington observed starlight bending around the Sun — exactly as Einstein predicted. It allows astronomers to observe distant galaxies and dark matter by seeing how they bend light from objects behind them.",
@@ -31,10 +31,10 @@
       "category": "Sports",
       "question": "Which Canadian city hosts the annual Toronto Raptors games, making it the only NBA franchise outside the United States?",
       "options": [
-        "Toronto",
-        "Vancouver",
         "Montreal",
-        "Ottawa"
+        "Toronto",
+        "Ottawa",
+        "Vancouver"
       ],
       "answer": "Toronto",
       "explanation": "The Toronto Raptors joined the NBA in 1995. They won their only championship in 2019 — defeating the Golden State Warriors — becoming the first non-U.S. team to win the NBA title. Kawhi Leonard's buzzer-beater against the Philadelphia 76ers in the 2019 playoffs became one of the most iconic moments in NBA history.",
@@ -44,10 +44,10 @@
       "category": "Pop Culture",
       "question": "Which 2009 James Cameron film, the highest-grossing film of all time, depicts humans exploiting the resources of an alien moon called Pandora?",
       "options": [
-        "Avatar",
         "Interstellar",
+        "District 9",
         "Gravity",
-        "District 9"
+        "Avatar"
       ],
       "answer": "Avatar",
       "explanation": "Avatar (2009) grossed $2.923 billion, making it the highest-grossing film ever (surpassing Titanic). Cameron's use of motion capture and stereoscopic 3D filming was revolutionary. Avatar: The Way of Water (2022) grossed $2.3 billion. The film drew criticism for its story resemblance to 'Dances with Wolves' but praise for its visual spectacle.",
@@ -57,10 +57,10 @@
       "category": "Geography",
       "question": "The Mekong River, one of Southeast Asia's most important waterways, flows through six countries. Which country does it NOT flow through?",
       "options": [
-        "India",
-        "China",
+        "Laos",
         "Myanmar",
-        "Laos"
+        "China",
+        "India"
       ],
       "answer": "India",
       "explanation": "The Mekong flows through China, Myanmar, Laos, Thailand, Cambodia, and Vietnam before emptying into the South China Sea. It is the world's 12th longest river and supports the most biodiverse freshwater ecosystem after the Amazon. The Mekong Delta in Vietnam produces about half of Vietnam's rice.",
@@ -70,10 +70,10 @@
       "category": "History",
       "question": "Which Renaissance artist, sculptor, and architect painted the Sistine Chapel ceiling (1508-1512) in Rome?",
       "options": [
-        "Michelangelo",
-        "Leonardo da Vinci",
         "Raphael",
-        "Botticelli"
+        "Botticelli",
+        "Leonardo da Vinci",
+        "Michelangelo"
       ],
       "answer": "Michelangelo",
       "explanation": "Michelangelo painted the Sistine Chapel ceiling lying on his back on scaffolding over four years. The centerpiece is 'The Creation of Adam' — God reaching toward Adam. He initially refused the commission, preferring sculpture. His other masterworks include the David statue (Florence) and St. Peter's Basilica's dome design (Rome).",
@@ -81,14 +81,14 @@
     },
     {
       "category": "Pop Culture",
-      "question": "Steve McQueen's 1968 film 'Bullitt' features one of cinema's most celebrated car chase sequences, through the streets of San Francisco. What makes McQueen's relationship to the film and to motorsport unusual for a Hollywood star?",
+      "question": "Steve McQueen's relationship to motorsport was unusual for a Hollywood star. What set him apart?",
       "options": [
-        "McQueen insisted on doing all his own stunt driving in Bullitt — including the famous chase — and had previously raced competitively in European touring car circuits under a pseudonym so his studio wouldn't know he was risking his life",
-        "McQueen was a genuine racing driver who competed at Le Mans in 1970 finishing second overall — he later made 'Le Mans' (1971) as an obsessive documentation of the race, nearly bankrupting his production company",
-        "McQueen learned to drive specifically for Bullitt, having never owned a car before — the experience made him a racing enthusiast and he drove competitively on amateur circuits for the rest of his career until his diagnosis with cancer",
-        "McQueen is unique among Hollywood stars in having held both a US motorcycle racing license and a Formula 1 testing contract — he drove for Lotus during the 1967 off-season before his insurer forced him to stop"
+        "He learned to drive for Bullitt, never having owned a car",
+        "He raced Le Mans for real, finishing second in 1970",
+        "He held both a bike license and an F1 test contract",
+        "He raced European touring cars under a pseudonym"
       ],
-      "answer": "McQueen was a genuine racing driver who competed at Le Mans in 1970 finishing second overall — he later made 'Le Mans' (1971) as an obsessive documentation of the race, nearly bankrupting his production company",
+      "answer": "He raced Le Mans for real, finishing second in 1970",
       "explanation": "McQueen raced seriously — motorcycles and cars. He entered the 1970 24 Hours of Le Mans driving a Porsche 917, finishing second overall despite a foot injury from a previous crash. The experience became an obsession: he spent years developing 'Le Mans' (1971), which used real race footage and real drivers, prioritized authenticity over plot, and came in massively over budget. Solar Productions, his company, nearly went bankrupt. He did perform much of his own stunt driving in Bullitt. He held a SCCA competition license and regularly raced for real. He died in 1980 from mesothelioma linked to asbestos insulation in racing suits.",
       "memory_hook": "McQueen raced at Le Mans for real — finished second overall in a Porsche 917 in 1970 with a broken foot. Then made a film about Le Mans that nearly bankrupted him because he cared more about authenticity than story. He held a genuine SCCA racing license. He died in 1980 from asbestos in his racing suits."
     },
@@ -97,9 +97,9 @@
       "question": "What is the name of the chemical element with atomic number 1, the lightest element and most abundant in the universe?",
       "options": [
         "Hydrogen",
+        "Carbon",
         "Helium",
-        "Lithium",
-        "Carbon"
+        "Lithium"
       ],
       "answer": "Hydrogen",
       "explanation": "Hydrogen (H, atomic number 1) makes up about 75% of all normal matter in the universe by mass. Stars are primarily hydrogen fusion reactors. On Earth, it is found mostly in water (H2O) and organic compounds. Hydrogen fuel cells produce electricity with water as the only byproduct, making them potentially clean energy sources.",
@@ -109,9 +109,9 @@
       "category": "Geography",
       "question": "Which large island, located north of Scotland, is an autonomous territory of Denmark and the world's largest island?",
       "options": [
+        "Newfoundland",
         "Greenland",
         "Iceland",
-        "Newfoundland",
         "Baffin Island"
       ],
       "answer": "Greenland",
@@ -122,10 +122,10 @@
       "category": "History",
       "question": "The Stonewall Inn riots of June 1969 in New York City were a pivotal moment in which civil rights movement?",
       "options": [
-        "LGBTQ+ rights",
         "African American civil rights",
-        "Women's rights",
-        "Disability rights"
+        "LGBTQ+ rights",
+        "Disability rights",
+        "Women's rights"
       ],
       "answer": "LGBTQ+ rights",
       "explanation": "The Stonewall Inn was a Greenwich Village bar frequently raided by police. On June 28, 1969, patrons (largely gay men, lesbians, and transgender individuals) resisted arrest and rioted for several days. This is widely considered the catalyst for the modern LGBTQ+ rights movement. The first gay pride marches were held on the anniversary one year later.",
@@ -136,9 +136,9 @@
       "question": "Which 1985 coming-of-age anthology film, directed by Rob Reiner based on a Stephen King story, follows four friends walking to find a dead body?",
       "options": [
         "Stand by Me",
-        "The Goonies",
+        "Back to the Future",
         "Ferris Bueller's Day Off",
-        "Back to the Future"
+        "The Goonies"
       ],
       "answer": "Stand by Me",
       "explanation": "Stand by Me (1985) starred River Phoenix, Wil Wheaton, Corey Feldman, and Jerry O'Connell. The title song was a cover of Ben E. King's 1961 hit. The film (based on King's novella 'The Body') is widely considered one of the most accurate depictions of childhood friendship in cinema.",
@@ -149,8 +149,8 @@
       "question": "In track and field, the decathlon is a two-day event combining 10 disciplines. Which athlete won the 1976 Olympic decathlon with a world-record score and graced the Wheaties cereal box?",
       "options": [
         "Bruce Jenner",
-        "Dan O'Brien",
         "Bob Mathias",
+        "Dan O'Brien",
         "Daley Thompson"
       ],
       "answer": "Bruce Jenner",

@@ -6,8 +6,8 @@
       "question": "The 'Trail of Tears' (1838-1839) was the forced relocation of several Native American nations. Which Supreme Court decision did it directly defy?",
       "options": [
         "Marbury v. Madison (1803), which had established judicial review and protected native land rights",
-        "Worcester v. Georgia (1832), in which Chief Justice John Marshall ruled that Georgia had no authority over Cherokee lands — President Jackson reportedly refused to enforce the ruling",
         "Dred Scott v. Sandford (1857), which ruled that Native Americans had no legal standing in federal court",
+        "Worcester v. Georgia (1832), in which Chief Justice John Marshall ruled that Georgia had no authority over Cherokee lands — President Jackson reportedly refused to enforce the ruling",
         "Cherokee Nation v. Georgia (1831), which ruled that Native Americans were sovereign nations with full treaty rights"
       ],
       "answer": "Worcester v. Georgia (1832), in which Chief Justice John Marshall ruled that Georgia had no authority over Cherokee lands — President Jackson reportedly refused to enforce the ruling",
@@ -31,10 +31,10 @@
       "category": "History",
       "question": "What was the significance of the Zimmermann Telegram (1917) in bringing the United States into World War I?",
       "options": [
-        "It revealed that Germany had sunk the Lusitania with American passengers, causing public outrage that led to a declaration of war",
-        "It was an encoded German diplomatic message intercepted by British intelligence proposing that Mexico ally with Germany against the United States in exchange for Texas, New Mexico, and Arizona — its disclosure outraged Americans and accelerated US entry into WWI",
         "It was a secret treaty between Germany and Austria-Hungary promising mutual defense against the United States, leaked to the American press",
-        "It revealed a German plan to assassinate President Wilson, triggering immediate war authorization from Congress"
+        "It revealed a German plan to assassinate President Wilson, triggering immediate war authorization from Congress",
+        "It revealed that Germany had sunk the Lusitania with American passengers, causing public outrage that led to a declaration of war",
+        "It was an encoded German diplomatic message intercepted by British intelligence proposing that Mexico ally with Germany against the United States in exchange for Texas, New Mexico, and Arizona — its disclosure outraged Americans and accelerated US entry into WWI"
       ],
       "answer": "It was an encoded German diplomatic message intercepted by British intelligence proposing that Mexico ally with Germany against the United States in exchange for Texas, New Mexico, and Arizona — its disclosure outraged Americans and accelerated US entry into WWI",
       "explanation": "The Zimmermann Telegram was sent by German Foreign Secretary Arthur Zimmermann to the German ambassador in Mexico in January 1917, proposing that if the US entered the war, Mexico should ally with Germany in exchange for recovering Texas, New Mexico, and Arizona (lost in the Mexican-American War). British intelligence intercepted and decoded it. The US entered WWI in April 1917. Multiple factors contributed — German unrestricted submarine warfare was the primary cause — but the Zimmermann Telegram inflamed public opinion by threatening the continental US directly.",
@@ -44,9 +44,9 @@
       "category": "Sports",
       "question": "What is the significance of the 'Black Sox Scandal' (1919) in baseball history?",
       "options": [
+        "Eight Black Sox players were discovered to have used illegal performance-enhancing drugs in the 1919 World Series, leading to baseball's first doping ban",
         "Eight Chicago White Sox players were accused of deliberately losing the 1919 World Series against the Cincinnati Reds in exchange for money from gamblers — they were acquitted at trial but Commissioner Kenesaw Mountain Landis banned all eight from baseball for life",
         "The Black Sox Scandal was a 1919 labor dispute where White Sox players refused to play until their wages matched those of the Chicago Cubs",
-        "Eight Black Sox players were discovered to have used illegal performance-enhancing drugs in the 1919 World Series, leading to baseball's first doping ban",
         "The Black Sox Scandal involved the team's owner bribing umpires during the 1919 World Series — the players were innocent"
       ],
       "answer": "Eight Chicago White Sox players were accused of deliberately losing the 1919 World Series against the Cincinnati Reds in exchange for money from gamblers — they were acquitted at trial but Commissioner Kenesaw Mountain Landis banned all eight from baseball for life",
@@ -55,25 +55,25 @@
     },
     {
       "category": "Sports",
-      "question": "In Olympics track and field, what is the 'world record' for the marathon and approximately what pace does it require?",
+      "question": "In 2019 Eliud Kipchoge ran a marathon distance in 1:59:40 in Vienna, but it was never ratified as a world record. Why not?",
       "options": [
-        "2:01:09, set by Eliud Kipchoge at the 2022 Berlin Marathon — approximately 2:52 per kilometer",
-        "2:15:33, set by Haile Gebrselassie — approximately 3:12 per kilometer",
-        "Under 2 hours exactly — run by Eliud Kipchoge in a 2019 special time trial called 'Breaking2'",
-        "2:01:09, set by Eliud Kipchoge at the 2022 Berlin Marathon — approximately 2:52 per kilometer"
+        "The course was measured 400 metres short of the distance",
+        "He declined to submit to post-race drug testing",
+        "Rotating pacers and delivered drinks broke record rules",
+        "It was run on a track, not an approved road course"
       ],
-      "answer": "2:01:09, set by Eliud Kipchoge at the 2022 Berlin Marathon — approximately 2:52 per kilometer",
-      "explanation": "Eliud Kipchoge (Kenya) set the official marathon world record at 2:01:09 at the 2022 Berlin Marathon. This requires running 42.195 km at approximately 2:52/km (4:37/mile) — sustaining elite sprinting-level pace for over 2 hours. In 2019, Kipchoge ran 1:59:40 in the 'Ineos 1:59 Challenge' in Vienna — breaking the 2-hour barrier — but it doesn't count as a world record because it used rotating pacers and was not an official race. The official world record is the Berlin time. Women's world record: Ruth Chepngetich ran 2:09:56 at the Chicago Marathon in 2024.",
-      "memory_hook": "Kipchoge's marathon world record pace (2:52/km) means running a kilometer in under 3 minutes — for 2 hours continuously. He broke the 2-hour barrier in a special time trial in 2019, but it doesn't count officially because the pacers rotated. He then ran the official record in Berlin. He is the only human to run sub-2-hour 42 km, official or unofficial."
+      "answer": "Rotating pacers and delivered drinks broke record rules",
+      "explanation": "The INEOS 1:59 Challenge was designed purely to break two hours, not to set a record. Kipchoge ran behind a rotating formation of 41 elite pacemakers who swapped in and out, followed a car projecting a laser guide line onto the road, and took drinks handed to him from a bike rather than from standard stations. Each of those breaks World Athletics record conditions. The run still stands as the first time a human covered 42.195 km under two hours, and Kipchoge's ratified record of 2:01:09 was set separately at Berlin in 2022.",
+      "memory_hook": "Kipchoge went under two hours in Vienna in 2019, but with 41 rotating pacemakers, a laser guide line projected from a car, and drinks handed off a bike. All of that breaks record rules. It was an engineering exercise to prove it was possible, and everyone involved knew it would not count."
     },
     {
       "category": "Pop Culture",
       "question": "Which 1977 Steven Spielberg film about close encounters with extraterrestrials is famous for its five-tone musical communication sequence?",
       "options": [
-        "E.T. the Extra-Terrestrial",
-        "2001: A Space Odyssey",
+        "Close Encounters of the Third Kind",
         "Contact",
-        "Close Encounters of the Third Kind"
+        "2001: A Space Odyssey",
+        "E.T. the Extra-Terrestrial"
       ],
       "answer": "Close Encounters of the Third Kind",
       "explanation": "Close Encounters of the Third Kind (1977), directed by Steven Spielberg with John Williams's score, centers on Roy Neary (Richard Dreyfuss) becoming obsessed with a mountain shape after a UFO encounter. The famous musical communication — five notes (D, E, C, C, G) — serves as a bridge between humans and aliens. The film was shot partly at Devils Tower, Wyoming, and the finale was filmed at a converted aircraft hangar in Mobile, Alabama. Budget ~$20 million; global gross ~$300 million. The film is considered a landmark of science fiction cinema alongside Star Wars (released the same year).",
@@ -83,10 +83,10 @@
       "category": "Pop Culture",
       "question": "Which author wrote 'Brave New World' (1932), depicting a society where people are engineered and kept happy through drugs and conditioning?",
       "options": [
-        "George Orwell",
-        "Ray Bradbury",
         "Aldous Huxley",
-        "H.G. Wells"
+        "Ray Bradbury",
+        "H.G. Wells",
+        "George Orwell"
       ],
       "answer": "Aldous Huxley",
       "explanation": "Aldous Huxley's Brave New World (1932) depicts a future World State where human beings are engineered in hatcheries and conditioned from birth through sleep-learning and rewards. Citizens are kept content through a pleasure drug called Soma ('a gram is better than a damn'). The novel inverts the typical dystopia: instead of control through fear and pain (Orwell's 1984), control comes through pleasure and comfort — people embrace their own oppression. Huxley wrote it after visiting the US and being impressed and horrified by consumerism and Ford's assembly-line manufacturing applied to human production.",
@@ -96,10 +96,10 @@
       "category": "Pop Culture",
       "question": "Which American singer released 'Like a Rolling Stone' (1965) and received the Nobel Prize in Literature in 2016?",
       "options": [
-        "Paul Simon",
-        "Leonard Cohen",
         "Bob Dylan",
-        "Bruce Springsteen"
+        "Leonard Cohen",
+        "Bruce Springsteen",
+        "Paul Simon"
       ],
       "answer": "Bob Dylan",
       "explanation": "Bob Dylan received the 2016 Nobel Prize in Literature — the first musician awarded the prize — 'for having created new poetic expressions within the great American song tradition.' He didn't attend the ceremony. 'Like a Rolling Stone' (1965) was a 6-minute song — radical for pop radio at the time — that Rolling Stone magazine named the greatest rock song ever. Dylan's move from folk to electric rock at the 1965 Newport Folk Festival caused a famous audience backlash (some booed, allegedly including folk purist Pete Seeger who reportedly tried to cut the power). His influence on popular music and poetry is unparalleled.",
@@ -109,10 +109,10 @@
       "category": "Geography",
       "question": "The Mekong River flows through 6 countries before reaching the South China Sea. Which country lies at the river's mouth?",
       "options": [
-        "Cambodia",
-        "Thailand",
+        "Vietnam",
         "Myanmar",
-        "Vietnam"
+        "Cambodia",
+        "Thailand"
       ],
       "answer": "Vietnam",
       "explanation": "The Mekong River flows ~4,909 km from the Tibetan Plateau through China (Yunnan), Myanmar, Laos, Thailand, Cambodia, and Vietnam before emptying into the South China Sea. Vietnam's Mekong Delta (the 'Nine Dragons') is one of the world's most productive agricultural regions — Vietnam is the world's third largest rice exporter, largely due to Mekong Delta rice production. The delta covers ~40,000 km² and is home to ~18 million people. The delta is threatened by upstream hydroelectric dams (primarily in China and Laos) that reduce sediment flow, and by sea level rise increasing saltwater intrusion.",
@@ -122,9 +122,9 @@
       "category": "Geography",
       "question": "What is the Sahel region and what environmental crisis is occurring there?",
       "options": [
-        "The Sahel is the Sahara Desert's inner core — a region of ancient sand dunes used for filming desert movies",
-        "The Sahel is a semi-arid belt stretching across Africa south of the Sahara, between the desert and the tropical savanna. It is experiencing severe desertification: the Sahara is expanding southward, reducing farmland and driving conflict over land resources. The African Union's 'Great Green Wall' project aims to restore 100 million hectares through tree planting",
         "The Sahel is a high-altitude plateau in East Africa known for coffee production and mountain gorillas",
+        "The Sahel is a semi-arid belt stretching across Africa south of the Sahara, between the desert and the tropical savanna. It is experiencing severe desertification: the Sahara is expanding southward, reducing farmland and driving conflict over land resources. The African Union's 'Great Green Wall' project aims to restore 100 million hectares through tree planting",
+        "The Sahel is the Sahara Desert's inner core — a region of ancient sand dunes used for filming desert movies",
         "The Sahel is a coastal region of West Africa subject to periodic flooding from the Niger Delta; desertification is not occurring there"
       ],
       "answer": "The Sahel is a semi-arid belt stretching across Africa south of the Sahara, between the desert and the tropical savanna. It is experiencing severe desertification: the Sahara is expanding southward, reducing farmland and driving conflict over land resources. The African Union's 'Great Green Wall' project aims to restore 100 million hectares through tree planting",
@@ -135,9 +135,9 @@
       "category": "Science & Nature",
       "question": "What are stem cells and why are they scientifically significant?",
       "options": [
+        "Stem cells are cancer cells that spread throughout the body; studying them helps oncologists understand metastasis",
         "Stem cells are the brain cells responsible for memory formation; research on them is important for Alzheimer's treatment",
         "Stem cells are undifferentiated cells capable of self-renewal and differentiation into specialized cell types. Embryonic stem cells can become any cell type (pluripotent); adult stem cells are more limited. They hold promise for regenerative medicine and are central to understanding development and disease",
-        "Stem cells are cancer cells that spread throughout the body; studying them helps oncologists understand metastasis",
         "Stem cells are a type of white blood cell that produces antibodies; stem cell research is primarily focused on immune system disorders"
       ],
       "answer": "Stem cells are undifferentiated cells capable of self-renewal and differentiation into specialized cell types. Embryonic stem cells can become any cell type (pluripotent); adult stem cells are more limited. They hold promise for regenerative medicine and are central to understanding development and disease",

@@ -5,10 +5,10 @@
       "category": "History",
       "question": "Johannes Gutenberg's invention of the printing press with movable type around 1440 transformed European society. Which was the first major book printed on his press?",
       "options": [
+        "Don Quixote",
         "The works of Homer",
-        "The Gutenberg Bible",
         "The Koran",
-        "Don Quixote"
+        "The Gutenberg Bible"
       ],
       "answer": "The Gutenberg Bible",
       "explanation": "Gutenberg printed approximately 180 copies of the Latin Bible (the Vulgate) between 1452 and 1456 — now known as the Gutenberg Bible. The printing press reduced the cost and time of producing books dramatically, enabling the rapid spread of ideas. It made the Protestant Reformation possible (Martin Luther's 95 Theses spread through Europe within weeks), advanced science, and literacy rates across Europe.",
@@ -19,8 +19,8 @@
       "question": "Charlemagne (Charles the Great) was crowned Emperor of the Romans by Pope Leo III on Christmas Day in which year?",
       "options": [
         "768",
-        "800",
         "843",
+        "800",
         "1066"
       ],
       "answer": "800",
@@ -31,10 +31,10 @@
       "category": "History",
       "question": "The Boston Tea Party (December 16, 1773) saw American colonists dump 342 chests of tea into Boston Harbor. What were they protesting?",
       "options": [
-        "Taxation without representation — taxes imposed by Britain without colonial representation in Parliament",
-        "A ban on importing American-made goods to Britain",
         "Forced quartering of British soldiers in colonial homes",
-        "Britain's refusal to allow expansion west of the Appalachians"
+        "Britain's refusal to allow expansion west of the Appalachians",
+        "A ban on importing American-made goods to Britain",
+        "Taxation without representation — taxes imposed by Britain without colonial representation in Parliament"
       ],
       "answer": "Taxation without representation — taxes imposed by Britain without colonial representation in Parliament",
       "explanation": "The Tea Act (1773) allowed the British East India Company to sell tea directly to colonists, actually lowering prices — but still collecting a tax. Colonists objected not to the price but to Parliament's right to tax them without their consent. The Sons of Liberty, disguised as Mohawk Indians, dumped 342 chests (46 tons) of tea worth £10,000. Britain responded with the Coercive (Intolerable) Acts, accelerating the path to revolution.",
@@ -44,9 +44,9 @@
       "category": "Sports",
       "question": "Pelé scored over 1,000 career goals and won the World Cup three times. In which year did he first win the World Cup, at just 17 years old?",
       "options": [
+        "1962",
         "1954",
         "1958",
-        "1962",
         "1966"
       ],
       "answer": "1958",
@@ -70,10 +70,10 @@
       "category": "Pop Culture",
       "question": "The 1942 film 'Casablanca,' set during WWII, starred Humphrey Bogart and Ingrid Bergman and won which major award?",
       "options": [
-        "Best Actor",
         "Best Director",
-        "Best Actress",
-        "Best Picture"
+        "Best Actor",
+        "Best Picture",
+        "Best Actress"
       ],
       "answer": "Best Picture",
       "explanation": "Casablanca won three Academy Awards including Best Picture at the 1944 ceremony. It was filmed with a script written day by day, as the actors didn't know how it would end. The film is famous for quotable lines including 'Here's looking at you, kid' and 'We'll always have Paris.' The American Film Institute rated it the third-greatest American film ever made.",
@@ -84,8 +84,8 @@
       "question": "Bob Marley popularized reggae music globally. From which Caribbean island was he from?",
       "options": [
         "Trinidad and Tobago",
-        "Barbados",
         "Haiti",
+        "Barbados",
         "Jamaica"
       ],
       "answer": "Jamaica",
@@ -97,9 +97,9 @@
       "question": "J.R.R. Tolkien published 'The Lord of the Rings' in three volumes in 1954-55. In which fictional world is it set?",
       "options": [
         "Narnia",
+        "Prydain",
         "Westeros",
-        "Middle-earth",
-        "Prydain"
+        "Middle-earth"
       ],
       "answer": "Middle-earth",
       "explanation": "Tolkien set The Lord of the Rings in Middle-earth — a world he created over decades, complete with languages (Elvish, Dwarvish), histories, and maps. The trilogy follows hobbit Frodo Baggins and a Fellowship questing to destroy the One Ring and defeat the Dark Lord Sauron. Peter Jackson's film trilogy (2001-2003) won 17 Academy Awards, including Best Picture for Return of the King — the first fantasy film to win it.",
@@ -109,10 +109,10 @@
       "category": "Geography",
       "question": "The Persian Gulf is bordered by Iran to the north and contains the world's largest proved oil reserves. Approximately what percentage of the world's proven oil reserves are in the Persian Gulf region?",
       "options": [
-        "25%",
+        "70%",
         "40%",
-        "55%",
-        "70%"
+        "25%",
+        "55%"
       ],
       "answer": "55%",
       "explanation": "The Persian Gulf region contains approximately 48-55% of the world's proven oil reserves, primarily in Saudi Arabia (world's largest at 17%), Iran, Iraq, Kuwait, UAE, and Qatar. The Strait of Hormuz at the Gulf's mouth is the world's most important oil chokepoint — about 20% of global oil supply passes through it daily. Control of Persian Gulf oil has been a driving factor in Middle East geopolitics since the 1940s.",
@@ -122,10 +122,10 @@
       "category": "Geography",
       "question": "The Colorado River carves the Grand Canyon over millions of years. Into which body of water does the Colorado River eventually flow?",
       "options": [
-        "The Pacific Ocean",
-        "The Gulf of California",
+        "The Rio Grande",
         "The Gulf of Mexico",
-        "The Rio Grande"
+        "The Gulf of California",
+        "The Pacific Ocean"
       ],
       "answer": "The Gulf of California",
       "explanation": "The Colorado River flows 2,330 km from the Rocky Mountains of Colorado through Utah, Arizona, Nevada, and California before crossing into Mexico and reaching the Gulf of California. However, due to massive water withdrawals for agriculture, cities, and power, the Colorado River rarely reaches the sea anymore — the last substantial flow to the Gulf was in 1998. The river now essentially runs dry 100 miles from the coast.",
@@ -135,10 +135,10 @@
       "category": "Science & Nature",
       "question": "What is natural selection, as described by Charles Darwin in 'On the Origin of Species' (1859)?",
       "options": [
-        "The deliberate breeding of plants and animals by farmers",
-        "The process by which organisms with heritable traits better suited to their environment tend to survive and reproduce more, over time changing species",
         "A god's selection of which species should survive",
-        "Random genetic mutations that improve an organism's appearance"
+        "Random genetic mutations that improve an organism's appearance",
+        "The deliberate breeding of plants and animals by farmers",
+        "The process by which organisms with heritable traits better suited to their environment tend to survive and reproduce more, over time changing species"
       ],
       "answer": "The process by which organisms with heritable traits better suited to their environment tend to survive and reproduce more, over time changing species",
       "explanation": "Darwin's key insight: traits vary in populations, some traits help survival/reproduction, offspring inherit traits, so helpful traits accumulate over generations. Given enough time and environmental pressure, populations change — new species emerge. Darwin developed the theory on the Galápagos Islands, noticing that finches had different beaks suited to different foods. Wallace independently reached the same conclusion, prompting Darwin to finally publish.",
@@ -148,10 +148,10 @@
       "category": "Science & Nature",
       "question": "The carbon cycle describes how carbon moves through Earth's systems. Which human activity has most disrupted the carbon cycle in the past 200 years?",
       "options": [
+        "Nuclear energy production",
         "Deforestation only",
         "Burning fossil fuels, which releases carbon stored underground for millions of years back into the atmosphere",
-        "Agricultural irrigation",
-        "Nuclear energy production"
+        "Agricultural irrigation"
       ],
       "answer": "Burning fossil fuels, which releases carbon stored underground for millions of years back into the atmosphere",
       "explanation": "Fossil fuels (coal, oil, natural gas) are the compressed remains of ancient organisms that stored carbon underground for millions of years. Burning them rapidly returns this carbon to the atmosphere as CO₂. Before industrialization, atmospheric CO₂ was ~280 ppm; it now exceeds 420 ppm. This 50% increase traps more heat in the atmosphere (greenhouse effect), warming the planet and disrupting climate systems.",

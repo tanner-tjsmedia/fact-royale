@@ -4,10 +4,10 @@
       "category": "History",
       "question": "Which country was the first to use paper money?",
       "options": [
-        "Egypt",
         "India",
-        "China",
-        "Greece"
+        "Egypt",
+        "Greece",
+        "China"
       ],
       "answer": "China",
       "explanation": "China invented paper money during the Tang Dynasty (618–907 AD) and it became widespread during the Song Dynasty. The Mongol rulers further developed the system. Marco Polo was astonished by paper money during his travels to China.",
@@ -18,9 +18,9 @@
       "question": "The Cuban Missile Crisis occurred during the presidency of which U.S. leader?",
       "options": [
         "Eisenhower",
-        "Johnson",
+        "Kennedy",
         "Nixon",
-        "Kennedy"
+        "Johnson"
       ],
       "answer": "Kennedy",
       "explanation": "The Cuban Missile Crisis occurred in October 1962 during President John F. Kennedy's administration. The 13-day standoff between the U.S. and Soviet Union, after Soviet missiles were discovered in Cuba, is considered the closest the Cold War came to nuclear conflict.",
@@ -31,8 +31,8 @@
       "question": "What sport uses a 'puck'?",
       "options": [
         "Lacrosse",
-        "Field hockey",
         "Ice hockey",
+        "Field hockey",
         "Polo"
       ],
       "answer": "Ice hockey",
@@ -43,10 +43,10 @@
       "category": "Sports",
       "question": "How many points is a touchdown worth in American football?",
       "options": [
-        "5",
+        "8",
         "6",
-        "7",
-        "8"
+        "5",
+        "7"
       ],
       "answer": "6",
       "explanation": "A touchdown is worth 6 points in American football. After scoring a touchdown, teams can attempt a point-after-touchdown kick (1 point) or a two-point conversion by running or passing into the end zone again.",
@@ -56,10 +56,10 @@
       "category": "Pop Culture",
       "question": "Which 1994 Disney film features the song 'Circle of Life'?",
       "options": [
-        "Aladdin",
-        "Beauty and the Beast",
+        "Mulan",
         "The Lion King",
-        "Mulan"
+        "Aladdin",
+        "Beauty and the Beast"
       ],
       "answer": "The Lion King",
       "explanation": "'Circle of Life' opens The Lion King (1994) and was written by Elton John and Tim Rice. The film features music that went on to inspire a massively successful Broadway musical. It remains one of the highest-grossing animated films of all time.",
@@ -69,10 +69,10 @@
       "category": "Pop Culture",
       "question": "Mad Men (AMC, 2007–2015) is praised for its precise historical reconstruction of 1960s America and its morally complex protagonist. What does Don Draper's character arc examine?",
       "options": [
-        "How the advertising industry exploited Cold War anxieties to create artificial consumer desire throughout the 1960s",
-        "How a man can build an entirely false identity and achieve the American Dream through reinvention — while the pursuit of that dream remains ultimately hollow",
+        "How Madison Avenue advertising firms colluded with government agencies to shape public opinion during the Vietnam era",
         "How the civil rights movement and women's liberation transformed the US advertising industry from within during the 1960s",
-        "How Madison Avenue advertising firms colluded with government agencies to shape public opinion during the Vietnam era"
+        "How a man can build an entirely false identity and achieve the American Dream through reinvention — while the pursuit of that dream remains ultimately hollow",
+        "How the advertising industry exploited Cold War anxieties to create artificial consumer desire throughout the 1960s"
       ],
       "answer": "How a man can build an entirely false identity and achieve the American Dream through reinvention — while the pursuit of that dream remains ultimately hollow",
       "explanation": "Don Draper (Jon Hamm) is revealed to be Dick Whitman — a poor, illegitimate child who stole a dead soldier's identity during the Korean War. His success in advertising, his marriages, his home in the suburbs — all are built on a fabricated self. Creator Matthew Weiner (a Sopranos writer) used Draper's hidden identity as a metaphor for the American Dream's promise and lie. The show won 16 Emmy Awards, including four consecutive Best Drama Series wins (2008–2011).",
@@ -83,9 +83,9 @@
       "question": "Which artist is known as the 'King of Pop'?",
       "options": [
         "Elvis Presley",
-        "Prince",
+        "James Brown",
         "Michael Jackson",
-        "James Brown"
+        "Prince"
       ],
       "answer": "Michael Jackson",
       "explanation": "Michael Jackson earned the title 'King of Pop' due to his extraordinary impact on popular music and culture. His 1982 album 'Thriller' remains the best-selling album of all time, and his signature moonwalk dance move became iconic worldwide.",
@@ -96,9 +96,9 @@
       "question": "The fall of Constantinople in 1453 ended which empire?",
       "options": [
         "Roman Empire",
+        "Mongol Empire",
         "Ottoman Empire",
-        "Byzantine Empire",
-        "Mongol Empire"
+        "Byzantine Empire"
       ],
       "answer": "Byzantine Empire",
       "explanation": "The fall of Constantinople on May 29, 1453, to Ottoman Sultan Mehmed II ended the Byzantine Empire — the eastern continuation of the Roman Empire that had survived for nearly 1,000 years after Rome's fall. It marked the end of the Middle Ages.",
@@ -108,10 +108,10 @@
       "category": "Geography",
       "question": "Which is the world's longest mountain range?",
       "options": [
-        "Himalayas",
-        "Rockies",
+        "Andes",
         "Alps",
-        "Andes"
+        "Rockies",
+        "Himalayas"
       ],
       "answer": "Andes",
       "explanation": "The Andes stretches approximately 7,000 kilometers along the western coast of South America, running through Venezuela, Colombia, Ecuador, Peru, Bolivia, Chile, and Argentina. It is the longest above-water mountain range, though the Mid-Atlantic Ridge is longer if you count underwater ranges.",
@@ -121,8 +121,8 @@
       "category": "Science & Nature",
       "question": "How long does light from the Sun take to reach Earth?",
       "options": [
-        "About 8 seconds",
         "About 8 minutes",
+        "About 8 seconds",
         "About 8 hours",
         "About 8 days"
       ],
@@ -134,9 +134,9 @@
       "category": "Geography",
       "question": "Tierra del Fuego, the island at the southernmost tip of South America, is divided between Argentina and which other country?",
       "options": [
-        "Peru",
-        "Uruguay",
         "Bolivia",
+        "Uruguay",
+        "Peru",
         "Chile"
       ],
       "answer": "Chile",
@@ -147,10 +147,10 @@
       "category": "Science & Nature",
       "question": "What is the time it takes for half of a radioactive substance to decay called?",
       "options": [
-        "Decay constant",
-        "Atomic half",
         "Half-life",
-        "Fission interval"
+        "Atomic half",
+        "Fission interval",
+        "Decay constant"
       ],
       "answer": "Half-life",
       "explanation": "Half-life is the time required for half of the atoms in a radioactive sample to decay into another element. Each radioactive isotope has a unique half-life: carbon-14 has a half-life of about 5,730 years (used in carbon dating for objects up to ~50,000 years old); uranium-238 has a half-life of 4.5 billion years; some synthetic elements have half-lives of milliseconds. After one half-life, 50% remains; after two, 25%; after ten half-lives, less than 0.1% remains.",

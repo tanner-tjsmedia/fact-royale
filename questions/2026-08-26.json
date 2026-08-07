@@ -5,10 +5,10 @@
       "category": "History",
       "question": "Which South African anti-apartheid leader was released from prison in 1990 after 27 years and became the country's first democratically elected president in 1994?",
       "options": [
-        "Nelson Mandela",
-        "Desmond Tutu",
         "Oliver Tambo",
-        "Walter Sisulu"
+        "Walter Sisulu",
+        "Nelson Mandela",
+        "Desmond Tutu"
       ],
       "answer": "Nelson Mandela",
       "explanation": "Nelson Mandela was imprisoned on Robben Island in 1964 after being convicted of sabotage. His release by President F.W. de Klerk and the subsequent democratic election in 1994 were major global moments. Mandela served as president until 1999 and won the Nobel Peace Prize in 1993 alongside de Klerk.",
@@ -31,10 +31,10 @@
       "category": "Sports",
       "question": "Which boxer, known as 'The Greatest,' defeated Sonny Liston for his first heavyweight title in 1964 and later refused military induction on religious grounds?",
       "options": [
+        "Floyd Patterson",
         "Muhammad Ali",
         "Joe Frazier",
-        "George Foreman",
-        "Floyd Patterson"
+        "George Foreman"
       ],
       "answer": "Muhammad Ali",
       "explanation": "Cassius Clay (later Muhammad Ali) shocked the world by defeating Sonny Liston at age 22 in 1964. He converted to Islam and refused Vietnam War service, saying 'I ain't got no quarrel with them Viet Cong.' He was stripped of his title for three years. His comeback fights — including the 'Rumble in the Jungle' (1974) — are legendary.",
@@ -46,8 +46,8 @@
       "options": [
         "Star Wars",
         "Close Encounters of the Third Kind",
-        "2001: A Space Odyssey",
-        "Flash Gordon"
+        "Flash Gordon",
+        "2001: A Space Odyssey"
       ],
       "answer": "Star Wars",
       "explanation": "Star Wars (Episode IV: A New Hope) was released May 25, 1977 and became the highest-grossing film at the time. It revolutionized special effects, merchandise, and franchise filmmaking. George Lucas sold the franchise to Disney for $4.05 billion in 2012. Darth Vader's voice is James Earl Jones.",
@@ -57,10 +57,10 @@
       "category": "Geography",
       "question": "The Amazon River, flowing through South America, carries roughly 20% of the world's freshwater. In which country does it discharge into the Atlantic Ocean?",
       "options": [
-        "Brazil",
         "Peru",
+        "Venezuela",
         "Colombia",
-        "Venezuela"
+        "Brazil"
       ],
       "answer": "Brazil",
       "explanation": "The Amazon discharges near Marajó Island at the mouth of the Amazon in northeastern Brazil (state of Pará). The river's mouth is so wide (up to 325 km) that there is no bridge across it. It carries more water than the next seven largest rivers combined.",
@@ -70,10 +70,10 @@
       "category": "History",
       "question": "The Space Race culminated on July 20, 1969, when which Apollo mission landed the first humans on the Moon?",
       "options": [
-        "Apollo 11",
-        "Apollo 12",
+        "Apollo 10",
         "Apollo 8",
-        "Apollo 10"
+        "Apollo 12",
+        "Apollo 11"
       ],
       "answer": "Apollo 11",
       "explanation": "Apollo 11 landed in the Sea of Tranquility. Neil Armstrong was first to step on the Moon, followed by Buzz Aldrin; Michael Collins orbited above. Armstrong's words: 'That's one small step for man, one giant leap for mankind.' The mission lasted 8 days, 3 hours.",
@@ -83,10 +83,10 @@
       "category": "Pop Culture",
       "question": "Which social media platform, founded by Mark Zuckerberg in 2004 at Harvard, became the first to reach 1 billion active users?",
       "options": [
-        "Facebook",
-        "MySpace",
         "Twitter",
-        "Friendster"
+        "Friendster",
+        "MySpace",
+        "Facebook"
       ],
       "answer": "Facebook",
       "explanation": "Facebook launched at Harvard in February 2004 as 'TheFacebook,' expanding to other universities before opening to the public in 2006. It reached 1 billion monthly active users in October 2012. Zuckerberg was 19 when he founded it. The company was rebranded Meta in 2021.",
@@ -109,10 +109,10 @@
       "category": "Geography",
       "question": "Which mountain range, running 7,000 km along the western edge of South America, is the world's longest continental mountain range?",
       "options": [
+        "Himalayas",
         "Andes",
         "Rockies",
-        "Alps",
-        "Himalayas"
+        "Alps"
       ],
       "answer": "Andes",
       "explanation": "The Andes extend through seven countries: Venezuela, Colombia, Ecuador, Peru, Bolivia, Chile, and Argentina. Mount Aconcagua (6,961 m) in Argentina is the highest peak outside Asia. The Andes were formed by the subduction of the Nazca Plate under the South American Plate.",
@@ -122,9 +122,9 @@
       "category": "History",
       "question": "Which empire, founded by Genghis Khan in 1206, became the largest contiguous land empire in history, stretching from China to Eastern Europe?",
       "options": [
-        "Mongol Empire",
-        "Ottoman Empire",
         "Roman Empire",
+        "Ottoman Empire",
+        "Mongol Empire",
         "British Empire"
       ],
       "answer": "Mongol Empire",
@@ -148,10 +148,10 @@
       "category": "Sports",
       "question": "In basketball, what is the term for a defensive play where a player intercepts a pass intended for an opponent?",
       "options": [
+        "Turnover",
         "Steal",
-        "Block",
         "Rebound",
-        "Turnover"
+        "Block"
       ],
       "answer": "Steal",
       "explanation": "A steal occurs when a defensive player legally takes the ball from an opponent or intercepts a pass. Michael Jordan holds the NBA record for most career steals per game (2.33). In one game, Kendall Gill set the single-game record with 11 steals. A blocked shot is different — it deflects a shot attempt.",

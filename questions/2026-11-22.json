@@ -5,10 +5,10 @@
       "category": "History",
       "question": "What was the Protestant Reformation's origin?",
       "options": [
-        "Henry VIII's break from Rome in 1534 spread to Germany and France",
         "Martin Luther's 95 Theses (1517) critiquing Catholic indulgences split Western Christianity into Catholic and Protestant branches, triggered religious wars, and transformed European politics. Gutenberg's press spread the ideas with unprecedented speed",
-        "John Calvin in Geneva created the movement; Luther's role was minor and regional",
-        "It was primarily secular princes seizing Church lands, with religion as secondary cover"
+        "It was primarily secular princes seizing Church lands, with religion as secondary cover",
+        "Henry VIII's break from Rome in 1534 spread to Germany and France",
+        "John Calvin in Geneva created the movement; Luther's role was minor and regional"
       ],
       "answer": "Martin Luther's 95 Theses (1517) critiquing Catholic indulgences split Western Christianity into Catholic and Protestant branches, triggered religious wars, and transformed European politics. Gutenberg's press spread the ideas with unprecedented speed",
       "explanation": "Luther, an Augustinian monk, believed salvation came through faith alone (sola fide), not works or Church intermediaries. He translated the Bible into German, making scripture accessible to non-Latin readers. Within 2 weeks of posting the 95 Theses, copies had spread through all of Germany — made possible by Gutenberg's press (invented ~1450). The Thirty Years' War (1618-1648) was largely Catholic-Protestant conflict.",
@@ -18,9 +18,9 @@
       "category": "History",
       "question": "What was the Armenian Genocide (1915-1923) and why does it remain controversial?",
       "options": [
-        "A series of pogroms in the Russian Empire killing 50,000 Armenians before Tsarist intervention",
-        "The Ottoman government systematically killed an estimated 600,000-1.5 million Armenians through massacre, death marches, and mass starvation — one of the 20th century's first genocides. Turkey officially disputes the term 'genocide' to this day",
         "A battle between Armenian nationalists and Ottoman troops that escalated to civilian casualties on both sides",
+        "The Ottoman government systematically killed an estimated 600,000-1.5 million Armenians through massacre, death marches, and mass starvation — one of the 20th century's first genocides. Turkey officially disputes the term 'genocide' to this day",
+        "A series of pogroms in the Russian Empire killing 50,000 Armenians before Tsarist intervention",
         "An expulsion of Armenians to Russia in a population exchange causing ~10,000 deaths"
       ],
       "answer": "The Ottoman government systematically killed an estimated 600,000-1.5 million Armenians through massacre, death marches, and mass starvation — one of the 20th century's first genocides. Turkey officially disputes the term 'genocide' to this day",
@@ -31,10 +31,10 @@
       "category": "History",
       "question": "What was the Harlem Renaissance and why was it significant?",
       "options": [
-        "A period of Black economic prosperity in Harlem driven by wealthy Southern Black families migrating north",
         "A flowering of Black intellectual, artistic, and cultural life in Harlem following the Great Migration — producing Langston Hughes, Zora Neale Hurston, Duke Ellington, Louis Armstrong, and others, establishing African American culture as central to American identity",
         "A white artistic movement inspired by African design, centered in Manhattan's Harlem Art District",
-        "A political movement led by Marcus Garvey; art and culture were secondary to its separatist goals"
+        "A political movement led by Marcus Garvey; art and culture were secondary to its separatist goals",
+        "A period of Black economic prosperity in Harlem driven by wealthy Southern Black families migrating north"
       ],
       "answer": "A flowering of Black intellectual, artistic, and cultural life in Harlem following the Great Migration — producing Langston Hughes, Zora Neale Hurston, Duke Ellington, Louis Armstrong, and others, establishing African American culture as central to American identity",
       "explanation": "The Great Migration (1910-1970) brought ~6 million Black Americans from the rural South to Northern cities. Harlem became a cultural hub. Key figures: Langston Hughes ('Dream Deferred'), Zora Neale Hurston (Their Eyes Were Watching God), Duke Ellington, Louis Armstrong. The Cotton Club was a famous jazz venue that ironically excluded Black patrons. Alain Locke's The New Negro (1925) is considered the Renaissance's defining document.",
@@ -44,10 +44,10 @@
       "category": "Sports",
       "question": "How many horses have won horse racing's Triple Crown and which won most recently?",
       "options": [
-        "Only 13 horses; most recently Justify in 2018",
-        "Only 7 horses; most recently American Pharoah in 2015",
+        "Only 3 horses; the last was Affirmed in 1978",
         "21 horses; most recently Triple Crown King in 2023",
-        "Only 3 horses; the last was Affirmed in 1978"
+        "Only 7 horses; most recently American Pharoah in 2015",
+        "Only 13 horses; most recently Justify in 2018"
       ],
       "answer": "Only 13 horses; most recently Justify in 2018",
       "explanation": "Triple Crown: Kentucky Derby (1.25 miles), Preakness Stakes (1.19 miles), Belmont Stakes (1.5 miles) — all won in the same year. Only 13 horses have done it. After Affirmed (1978), there was a 37-year gap until American Pharoah (2015). Justify completed it in 2018. Secretariat's 1973 Belmont record (2:24 for 1.5 miles) has never been broken.",
@@ -57,10 +57,10 @@
       "category": "Sports",
       "question": "What is 'March Madness' in American college basketball?",
       "options": [
+        "The NFL's free agency period triggering rapid roster changes",
         "The NBA's playoff season starting in March",
-        "The NCAA Men's Division I Basketball Tournament — a 68-team single-elimination bracket played over 3 weeks in March-April. Famous for upsets, 'Cinderella' teams, and bracket predictions that are virtually impossible to get perfect (odds: 1 in 9.2 quintillion)",
         "MLB spring training, where players compete for roster spots",
-        "The NFL's free agency period triggering rapid roster changes"
+        "The NCAA Men's Division I Basketball Tournament — a 68-team single-elimination bracket played over 3 weeks in March-April. Famous for upsets, 'Cinderella' teams, and bracket predictions that are virtually impossible to get perfect (odds: 1 in 9.2 quintillion)"
       ],
       "answer": "The NCAA Men's Division I Basketball Tournament — a 68-team single-elimination bracket played over 3 weeks in March-April. Famous for upsets, 'Cinderella' teams, and bracket predictions that are virtually impossible to get perfect (odds: 1 in 9.2 quintillion)",
       "explanation": "March Madness began in 1939; the field expanded to 64 teams in 1985. No one has ever correctly predicted a perfect 64-team bracket. Most memorable upset: UMBC (16-seed) over Virginia (1-seed) in 2018 — the first-ever 16 over 1. CBS and Turner pay $8.8 billion over 8 years for broadcast rights.",
@@ -70,9 +70,9 @@
       "category": "Pop Culture",
       "question": "Which filmmaker directed 'Vertigo' (1958), 'Rear Window' (1954), and 'North by Northwest' (1959) — classics of suspense cinema?",
       "options": [
+        "Stanley Kubrick",
         "Billy Wilder",
         "Orson Welles",
-        "Stanley Kubrick",
         "Alfred Hitchcock"
       ],
       "answer": "Alfred Hitchcock",
@@ -96,10 +96,10 @@
       "category": "Pop Culture",
       "question": "Which dystopian novel by Margaret Atwood (1985) is set in the Republic of Gilead, where women are reduced to reproductive roles?",
       "options": [
-        "Oryx and Crake",
         "The Year of the Flood",
-        "MaddAddam",
-        "The Handmaid's Tale"
+        "Oryx and Crake",
+        "The Handmaid's Tale",
+        "MaddAddam"
       ],
       "answer": "The Handmaid's Tale",
       "explanation": "Margaret Atwood's The Handmaid's Tale (1985) depicts a near-future theocratic American state (Gilead) that has overthrown the US government, stripped women of property rights, and assigned fertile women as 'Handmaids' to produce children for high-ranking men. Atwood researched the book while living briefly in West Berlin, inspired by existing historical practices and precedents (she claims no event in the novel is invented — all have historical parallels). Hulu's 2017 TV adaptation (Elisabeth Moss) renewed interest; red cloaks and white bonnets became protest symbols. Atwood published a sequel, The Testaments, in 2019 (won the Booker Prize).",
@@ -109,9 +109,9 @@
       "category": "Geography",
       "question": "What is the significance of the Strait of Malacca to global trade?",
       "options": [
-        "It connects the Atlantic to the Pacific; 10% of global trade passes through it",
-        "The Strait of Malacca (between Malaysia/Singapore and Indonesia) is the world's busiest maritime chokepoint — about 40% of global trade and one-third of all oil shipments pass through this ~2.8 km-wide bottleneck connecting the Indian Ocean to the South China Sea and Pacific",
         "It connects Europe to the Middle East; 25% of global oil passes through it",
+        "The Strait of Malacca (between Malaysia/Singapore and Indonesia) is the world's busiest maritime chokepoint — about 40% of global trade and one-third of all oil shipments pass through this ~2.8 km-wide bottleneck connecting the Indian Ocean to the South China Sea and Pacific",
+        "It connects the Atlantic to the Pacific; 10% of global trade passes through it",
         "It's primarily significant for LNG transport between Australia and Japan; general cargo typically uses the Sunda Strait"
       ],
       "answer": "The Strait of Malacca (between Malaysia/Singapore and Indonesia) is the world's busiest maritime chokepoint — about 40% of global trade and one-third of all oil shipments pass through this ~2.8 km-wide bottleneck connecting the Indian Ocean to the South China Sea and Pacific",
@@ -136,9 +136,9 @@
       "question": "What is the human sleep cycle and why is sleep scientifically important?",
       "options": [
         "Sleep is simply a rest state; the brain is minimally active and no critical biological processes occur during sleep",
+        "Sleep is important only for children and adolescents; adults can function indefinitely with 4-5 hours per night with no measurable health effects",
         "Sleep cycles through 4-5 stages approximately every 90 minutes, including REM (Rapid Eye Movement) and non-REM stages. During sleep: the brain consolidates memories (transferring from hippocampus to long-term storage), the glymphatic system flushes brain waste (including amyloid beta — linked to Alzheimer's), and growth hormone is released. Sleep deprivation impairs cognition, immune function, and cardiovascular health",
-        "Sleep primarily serves temperature regulation; the brain's cooling during sleep is the only documented biological function",
-        "Sleep is important only for children and adolescents; adults can function indefinitely with 4-5 hours per night with no measurable health effects"
+        "Sleep primarily serves temperature regulation; the brain's cooling during sleep is the only documented biological function"
       ],
       "answer": "Sleep cycles through 4-5 stages approximately every 90 minutes, including REM (Rapid Eye Movement) and non-REM stages. During sleep: the brain consolidates memories (transferring from hippocampus to long-term storage), the glymphatic system flushes brain waste (including amyloid beta — linked to Alzheimer's), and growth hormone is released. Sleep deprivation impairs cognition, immune function, and cardiovascular health",
       "explanation": "Sleep stages: N1 (light sleep), N2 (sleep spindles, memory consolidation), N3 (deep/slow-wave sleep — physical repair, immune function, growth hormone release), REM (vivid dreaming, emotional memory processing, creativity). Glymphatic system (discovered 2013): during sleep, cerebrospinal fluid pulses through the brain, flushing metabolic waste — including amyloid beta plaques linked to Alzheimer's. Consistent short sleep (under 6 hours): 48% higher mortality risk, tripled dementia risk in some studies. Matthew Walker's Why We Sleep popularized this research in 2017.",
@@ -149,9 +149,9 @@
       "question": "What is the difference between weather and climate, and why does the distinction matter for climate change discussions?",
       "options": [
         "Weather and climate are synonymous — 'weather' is used informally while 'climate' is the scientific term for the same phenomenon",
-        "Weather is short-term atmospheric conditions (temperature, precipitation, wind today or this week). Climate is the long-term average of weather patterns over decades and regions. The distinction matters because a cold day doesn't disprove warming trends any more than one warm day proves them — climate change is measured by statistical trends over decades across the whole globe",
+        "Climate change can be assessed by looking at any single year's data; the 30-year averages scientists use are a statistical convention with no scientific basis",
         "Weather is a regional phenomenon; climate is global. A local blizzard disproves global warming because climate should affect all regions equally",
-        "Climate change can be assessed by looking at any single year's data; the 30-year averages scientists use are a statistical convention with no scientific basis"
+        "Weather is short-term atmospheric conditions (temperature, precipitation, wind today or this week). Climate is the long-term average of weather patterns over decades and regions. The distinction matters because a cold day doesn't disprove warming trends any more than one warm day proves them — climate change is measured by statistical trends over decades across the whole globe"
       ],
       "answer": "Weather is short-term atmospheric conditions (temperature, precipitation, wind today or this week). Climate is the long-term average of weather patterns over decades and regions. The distinction matters because a cold day doesn't disprove warming trends any more than one warm day proves them — climate change is measured by statistical trends over decades across the whole globe",
       "explanation": "A helpful analogy: weather is your mood (varies day to day); climate is your personality (consistent pattern over time). 'It's cold today, so global warming is a hoax' confuses weather and climate. Climate scientists measure: global average surface temperature over decades (NASA/NOAA instrumental record since 1880), sea level rise (satellite altimetry), Arctic sea ice extent (satellite), ocean heat content, glacier mass balance. The 10 hottest years on record (global average) have all occurred since 1998. Natural climate variability (El Niño/La Niña) affects weather patterns but doesn't explain the directional long-term trend.",

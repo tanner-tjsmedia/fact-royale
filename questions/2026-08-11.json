@@ -5,10 +5,10 @@
       "category": "History",
       "question": "Which ancient Greek city, home to Socrates, Plato, and the world's first democracy, is often called the birthplace of Western civilization?",
       "options": [
-        "Athens",
+        "Thebes",
         "Sparta",
-        "Corinth",
-        "Thebes"
+        "Athens",
+        "Corinth"
       ],
       "answer": "Athens",
       "explanation": "Athens, in the region of Attica, was the cultural and intellectual center of ancient Greece. It developed the world's first democratic system under Cleisthenes in 508 BC, produced philosophers like Socrates, Plato, and Aristotle, and built the Parthenon. The city gave its name to the first modern Olympics in 1896.",
@@ -18,10 +18,10 @@
       "category": "History",
       "question": "The Battle of Stalingrad (1942-1943), one of the deadliest battles in history, resulted in victory for which country?",
       "options": [
-        "Germany",
-        "Romania",
+        "Soviet Union",
         "Italy",
-        "Soviet Union"
+        "Romania",
+        "Germany"
       ],
       "answer": "Soviet Union",
       "explanation": "The Battle of Stalingrad (August 23, 1942 – February 2, 1943) was the turning point of World War II on the Eastern Front. The Soviet Union encircled and destroyed Germany's 6th Army — over 800,000 Axis troops were killed or captured. Combined with civilian casualties, total deaths may have exceeded 1.5 million. It was the largest and bloodiest battle in military history and began the German retreat from the East.",
@@ -44,10 +44,10 @@
       "category": "Sports",
       "question": "The 1974 'Rumble in the Jungle' in Kinshasa, Zaire, is considered the greatest boxing match in history. What strategy did Muhammad Ali use to defeat George Foreman?",
       "options": [
-        "He attacked relentlessly from the opening bell, landing over 200 punches before Foreman tired",
-        "He used the 'rope-a-dope' — leaning on the ropes and absorbing Foreman's punches until Foreman exhausted himself, then knocking him out in round 8",
         "He targeted Foreman's legs with low kicks until Foreman's footwork collapsed, then finished him",
-        "He clinched constantly to neutralize Foreman's power, winning on points after 15 rounds"
+        "He attacked relentlessly from the opening bell, landing over 200 punches before Foreman tired",
+        "He clinched constantly to neutralize Foreman's power, winning on points after 15 rounds",
+        "He used the 'rope-a-dope' — leaning on the ropes and absorbing Foreman's punches until Foreman exhausted himself, then knocking him out in round 8"
       ],
       "answer": "He used the 'rope-a-dope' — leaning on the ropes and absorbing Foreman's punches until Foreman exhausted himself, then knocking him out in round 8",
       "explanation": "Ali invented the 'rope-a-dope' strategy specifically for Foreman, who was the most feared puncher of the era and a heavy favorite. Ali leaned against the ropes, letting his arms take the impact, while Foreman exhausted his power punches. By round 8, Foreman was spent, and Ali knocked him down for the count to reclaim the heavyweight title at age 32. The fight was promoted by Don King and immortalized in the documentary 'When We Were Kings.'",
@@ -57,10 +57,10 @@
       "category": "Sports",
       "question": "The 'Miracle on Ice' refers to the United States ice hockey team's unexpected victory over the Soviet Union at which Olympics?",
       "options": [
+        "1984 Sarajevo",
         "1972 Sapporo",
         "1976 Innsbruck",
-        "1980 Lake Placid",
-        "1984 Sarajevo"
+        "1980 Lake Placid"
       ],
       "answer": "1980 Lake Placid",
       "explanation": "At the 1980 Winter Olympics in Lake Placid, the US ice hockey team — mostly college students — defeated the heavily favored Soviet Union 4-3 in the semifinal, then beat Finland for the gold medal. The Soviet team had dominated international hockey for decades. Sportscaster Al Michaels' call 'Do you believe in miracles? YES!' became one of the most famous lines in sports broadcasting.",
@@ -84,8 +84,8 @@
       "question": "Which artist, born Steveland Hardaway Morris and blind since shortly after birth, recorded timeless hits including 'Superstition,' 'Isn't She Lovely,' and 'Signed, Sealed, Delivered'?",
       "options": [
         "Stevie Wonder",
-        "Ray Charles",
         "José Feliciano",
+        "Ray Charles",
         "Andrea Bocelli"
       ],
       "answer": "Stevie Wonder",
@@ -94,14 +94,14 @@
     },
     {
       "category": "Pop Culture",
-      "question": "Michelangelo's Sistine Chapel ceiling (1508–1512) is often described as the greatest feat of Renaissance painting. What physical and technical reality made it so demanding — and what common myth about its creation is false?",
+      "question": "Michelangelo spent four years on the Sistine Chapel ceiling (1508-1512). What's the popular myth about how he painted it?",
       "options": [
-        "Michelangelo painted the ceiling in a single continuous session lasting 18 months without a break, working in complete isolation — the myth is that he worked on his back, when he actually stood upright on custom scaffolding and tilted his head back",
-        "Michelangelo painted the ceiling lying on his back — he designed a special curved bed for the purpose — and the myth is that he worked alone, when he actually employed over 30 plasterers and color-mixers",
-        "Michelangelo painted the ceiling standing on custom scaffolding, tilting his head back for hours at a time — causing chronic neck and eye problems — and the myth is that he painted lying on his back (the Hollywood version)",
-        "Michelangelo painted the ceiling using a projector-like device of his own invention to scale up his designs — and the myth is that the painting was done freehand, when it was actually traced from preparatory cartoons"
+        "He lay on his back on a specially built curved bed",
+        "He stood on scaffolding craning his neck, not lying down",
+        "He used a projector he invented to scale up the designs",
+        "He worked 18 months without a break, in total isolation"
       ],
-      "answer": "Michelangelo painted the ceiling standing on custom scaffolding, tilting his head back for hours at a time — causing chronic neck and eye problems — and the myth is that he painted lying on his back (the Hollywood version)",
+      "answer": "He stood on scaffolding craning his neck, not lying down",
       "explanation": "The 'lying on his back' story comes largely from film and popular retelling. Michelangelo designed his own wooden scaffolding system — a flat platform suspended near the ceiling rather than the arch-based system the Pope's architect suggested. He stood on it and bent backward, working in wet plaster (true fresco) section by section. He wrote a sonnet complaining about his aching neck, curved spine, and deteriorating eyesight. He painted nearly all 5,000 square feet with minimal assistants — mainly for grinding pigments and plastering. The ceiling includes 300+ figures and nine central scenes from Genesis including the iconic Creation of Adam.",
       "memory_hook": "Michelangelo wrote a complaining sonnet about his bent spine and ruined eyesight from tilting his head back for four years. He designed custom scaffolding himself. The 'on his back' image is Hollywood — he stood and craned his neck. He painted 5,000 square feet in wet plaster with almost no assistants, including 300+ figures in four years."
     },
@@ -109,10 +109,10 @@
       "category": "Geography",
       "question": "The Sahara is Earth's largest hot desert. What is the world's largest cold desert, covering an entire continent?",
       "options": [
-        "Antarctic Desert",
-        "Arctic Desert",
         "Gobi Desert",
-        "Patagonian Desert"
+        "Antarctic Desert",
+        "Patagonian Desert",
+        "Arctic Desert"
       ],
       "answer": "Antarctic Desert",
       "explanation": "Antarctica is the world's largest desert at about 14.2 million square kilometers, receiving very little precipitation. The Sahara (9.2 million km²) is the largest hot desert. Deserts are classified by precipitation, not temperature — the Gobi and Patagonian deserts are also cold deserts, but much smaller than Antarctica.",
@@ -122,10 +122,10 @@
       "category": "Science & Nature",
       "question": "What is the term for an atom that has gained or lost electrons, giving it a net electric charge?",
       "options": [
-        "Isotope",
         "Neutron",
-        "Ion",
-        "Proton"
+        "Proton",
+        "Isotope",
+        "Ion"
       ],
       "answer": "Ion",
       "explanation": "An ion is an atom (or molecule) that has gained or lost one or more electrons, giving it a net positive (cation) or negative (anion) electric charge. Table salt (NaCl) forms when sodium loses an electron (becoming Na+) and chlorine gains one (becoming Cl-). Ions are fundamental to chemistry, biology, and physics — from battery function to how nerve cells fire.",
@@ -135,10 +135,10 @@
       "category": "Geography",
       "question": "Socotra Island, described by scientists as the 'Galápagos of the Indian Ocean,' is a territory of which country and is famous for its alien-looking dragon blood trees?",
       "options": [
-        "Oman",
-        "Ethiopia",
+        "Yemen",
         "Saudi Arabia",
-        "Yemen"
+        "Oman",
+        "Ethiopia"
       ],
       "answer": "Yemen",
       "explanation": "Socotra is an archipelago in the Indian Ocean belonging to Yemen, located off the Horn of Africa. About 37% of its plant species exist nowhere else on Earth, including the dragon blood tree (Dracaena cinnabari) — an umbrella-shaped tree that bleeds dark red resin when cut. Its extreme isolation (separated from the Arabian mainland for 18 million years) created an extraordinary level of endemic species. The island faces threats from climate change, invasive species, and the Yemeni Civil War.",
@@ -148,10 +148,10 @@
       "category": "Science & Nature",
       "question": "What is the term for different physical forms of the same chemical element — such as graphite and diamond, which are both pure carbon?",
       "options": [
+        "Isomers",
         "Isotopes",
-        "Polymorphs",
         "Allotropes",
-        "Isomers"
+        "Polymorphs"
       ],
       "answer": "Allotropes",
       "explanation": "Allotropes are different structural forms of the same element, with different bonding arrangements. Carbon's allotropes include: diamond (each carbon bonded to 4 others in a tetrahedral lattice — extremely hard), graphite (carbon in flat hexagonal layers — soft, conducts electricity), graphene (single layer of graphite — strongest material known), and buckminsterfullerene (carbon 'buckyball' — soccer-ball shaped). Oxygen's allotropes include O₂ (breathable air) and O₃ (ozone). Phosphorus has white, red, and black allotropes.",

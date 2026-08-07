@@ -5,10 +5,10 @@
       "category": "History",
       "question": "The Panama Canal was officially completed and opened in which year?",
       "options": [
-        "1903",
+        "1920",
         "1909",
-        "1914",
-        "1920"
+        "1903",
+        "1914"
       ],
       "answer": "1914",
       "explanation": "The Panama Canal was completed and opened on August 15, 1914, after a 10-year construction effort. The US took over construction from a failed French attempt. Over 75,000 workers participated, and disease (particularly yellow fever and malaria) killed an estimated 25,000 workers during construction. The canal cut the sea voyage between the Atlantic and Pacific by approximately 15,000 km.",
@@ -18,10 +18,10 @@
       "category": "History",
       "question": "Which Vietnamese revolutionary leader, known affectionately as 'Uncle Ho,' led the independence movement against French colonial rule and guided North Vietnam during the Vietnam War?",
       "options": [
-        "Ho Chi Minh",
-        "Vo Nguyen Giap",
+        "Pol Pot",
         "Ngo Dinh Diem",
-        "Pol Pot"
+        "Vo Nguyen Giap",
+        "Ho Chi Minh"
       ],
       "answer": "Ho Chi Minh",
       "explanation": "Ho Chi Minh (1890-1969) founded the Viet Minh independence movement and led North Vietnam from 1945 until his death. He defeated the French at Dien Bien Phu in 1954 and directed the North Vietnamese war effort against the U.S. South Vietnam's capital, Saigon, was renamed Ho Chi Minh City after North Vietnam's victory in 1975.",
@@ -31,10 +31,10 @@
       "category": "History",
       "question": "The storming of the Bastille, the iconic event marking the start of the French Revolution, occurred on what date in 1789?",
       "options": [
+        "August 4",
         "June 20",
-        "July 4",
         "July 14",
-        "August 4"
+        "July 4"
       ],
       "answer": "July 14",
       "explanation": "The storming of the Bastille prison on July 14, 1789, in Paris is celebrated as the beginning of the French Revolution. The Bastille held only seven prisoners at the time, but it symbolized royal tyranny. The 98 attackers who were killed are still honored annually on Bastille Day — France's national holiday — celebrated on July 14 each year.",
@@ -44,10 +44,10 @@
       "category": "Sports",
       "question": "The Indianapolis 500 car race is approximately how many miles long?",
       "options": [
-        "300 miles",
-        "400 miles",
         "500 miles",
-        "600 miles"
+        "300 miles",
+        "600 miles",
+        "400 miles"
       ],
       "answer": "500 miles",
       "explanation": "The Indianapolis 500 (commonly called the Indy 500) consists of 200 laps of the 2.5-mile oval track at Indianapolis Motor Speedway, totaling 500 miles. It has been held annually since 1911 (with gaps for WWII) and is part of IndyCar's Triple Crown. Winning cars average speeds over 185 mph. The Indy 500 is one of the world's oldest and most prestigious motor races.",
@@ -57,10 +57,10 @@
       "category": "Sports",
       "question": "In ice hockey, what penalty is called when a defending player shoots the puck from behind the center red line all the way down past the opponent's goal line without another player touching it?",
       "options": [
-        "Icing",
         "Offside",
-        "High-sticking",
-        "Delay of game"
+        "Delay of game",
+        "Icing",
+        "High-sticking"
       ],
       "answer": "Icing",
       "explanation": "Icing in ice hockey occurs when a player shoots the puck from their own half of the rink and it crosses the opponent's goal line without being touched. Play stops and the face-off returns to the offending team's defensive zone. Icing is not called if the team is shorthanded due to a penalty.",
@@ -68,14 +68,14 @@
     },
     {
       "category": "Pop Culture",
-      "question": "Henri Matisse co-founded Fauvism — derided by critics as 'Wild Beasts' when it appeared in 1905 — and later revolutionized art again with paper cut-outs in his 80s. What was his central artistic obsession?",
+      "question": "Henri Matisse co-founded Fauvism in 1905 and reinvented himself again with cut-outs in his 80s. What was his central obsession?",
       "options": [
-        "Matisse was obsessed with the geometry of the body — he spent decades developing a mathematical system to represent human anatomy in pure geometric forms, culminating in his 1952 'Blue Nudes' series",
-        "Matisse believed color — not form — was the fundamental language of painting, and he used non-naturalistic, emotionally charged color relationships to create images of joy, harmony, and sensual pleasure",
-        "Matisse was driven by the need to reconcile Western oil painting with Japanese woodblock print traditions — his lifelong project was fusing European and Japanese visual grammar into a unified style",
-        "Matisse's central obsession was depicting grief — all his famously colorful and joyful images were meant to contrast with private sorrow, making his work a systematic meditation on loss"
+        "A mathematical system for rendering human anatomy",
+        "Color, not form, as painting's fundamental language",
+        "Fusing European oil painting with Japanese prints",
+        "Depicting private grief beneath a joyful surface"
       ],
-      "answer": "Matisse believed color — not form — was the fundamental language of painting, and he used non-naturalistic, emotionally charged color relationships to create images of joy, harmony, and sensual pleasure",
+      "answer": "Color, not form, as painting's fundamental language",
       "explanation": "Where Picasso would become obsessed with form and structure, Matisse pursued pure color as expression. His 1905 Fauve paintings used unblended, shocking color combinations — green and red faces, orange shadows — that were deliberately non-realistic. He said: 'I don't paint things; I paint the difference between things.' In his final years, bedridden after cancer surgery, he created the Gouaches Découpées — cut paper collages — works like The Snail and Blue Nude that many consider equal to his paintings. The Jazz series of cut-outs was published as a book in 1947.",
       "memory_hook": "Matisse said 'I don't paint things; I paint the difference between things' — his entire career was about color as emotion, not description. When cancer forced him to bed, he switched to scissors and paper, creating cut-outs many consider his masterworks."
     },
@@ -96,10 +96,10 @@
       "category": "Pop Culture",
       "question": "David Bowie's alter ego 'Ziggy Stardust' appeared on which 1972 album?",
       "options": [
-        "Diamond Dogs",
-        "Aladdin Sane",
         "Heroes",
-        "The Rise and Fall of Ziggy Stardust and the Spiders from Mars"
+        "Diamond Dogs",
+        "The Rise and Fall of Ziggy Stardust and the Spiders from Mars",
+        "Aladdin Sane"
       ],
       "answer": "The Rise and Fall of Ziggy Stardust and the Spiders from Mars",
       "explanation": "The Rise and Fall of Ziggy Stardust and the Spiders from Mars (1972) introduced David Bowie's androgynous alien rock star alter ego. The concept album blended glam rock with science fiction themes about a doomed musician who becomes a messiah. Bowie performed as Ziggy for 18 months before dramatically retiring the character onstage. It is one of the most influential albums in rock history.",
@@ -109,10 +109,10 @@
       "category": "Geography",
       "question": "The Great Rift Valley, a geological formation that stretches from the Middle East to Mozambique, passes through how many African countries?",
       "options": [
+        "21",
         "5",
         "9",
-        "14",
-        "21"
+        "14"
       ],
       "answer": "14",
       "explanation": "The Great Rift Valley is a series of connected valleys formed by tectonic activity, running about 6,000 km from the Afar Triangle in Ethiopia south through Kenya, Tanzania, and Mozambique. It passes through approximately 14 countries including Ethiopia, Kenya, Tanzania, Uganda, Rwanda, Malawi, and Mozambique. The Great Rift Valley contains many of Africa's great lakes, including Tanganyika, Malawi, and Albert.",
@@ -124,8 +124,8 @@
       "options": [
         "Archaeology",
         "Geology",
-        "Stratigraphy",
-        "Paleontology"
+        "Paleontology",
+        "Stratigraphy"
       ],
       "answer": "Paleontology",
       "explanation": "Paleontology is the study of prehistoric life through fossils — the preserved remains or traces of ancient organisms. It differs from archaeology (which focuses on human artifacts) and geology (the study of rocks and Earth's physical history). Paleontologists study everything from dinosaurs to ancient plants, insects, and microorganisms, using fossils to understand the history and evolution of life on Earth.",
@@ -135,10 +135,10 @@
       "category": "Geography",
       "question": "The Great Artesian Basin in Australia is one of the world's largest underground freshwater reservoirs. Which continent is it entirely located beneath?",
       "options": [
-        "Antarctica",
-        "Asia",
         "Africa",
-        "Australia"
+        "Australia",
+        "Asia",
+        "Antarctica"
       ],
       "answer": "Australia",
       "explanation": "The Great Artesian Basin underlies about 22% of Australia, covering parts of Queensland, New South Wales, South Australia, and the Northern Territory. It holds an estimated 65,000 km³ of freshwater, much of it tens of thousands of years old. The basin was crucial to opening up Australia's arid interior for grazing — artesian bores (self-flowing wells) allowed pastoralists and animals to access water far from rivers. However, over-exploitation and degradation of the basin has led to conservation efforts.",
@@ -148,9 +148,9 @@
       "category": "Science & Nature",
       "question": "What are the noble gases — the chemically unreactive elements in Group 18 of the periodic table?",
       "options": [
+        "Fluorine, chlorine, bromine, iodine",
         "Oxygen, nitrogen, argon",
         "Helium, neon, argon, krypton, xenon, radon",
-        "Fluorine, chlorine, bromine, iodine",
         "Lithium, sodium, potassium"
       ],
       "answer": "Helium, neon, argon, krypton, xenon, radon",

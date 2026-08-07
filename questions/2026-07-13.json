@@ -4,9 +4,9 @@
       "category": "History",
       "question": "What was the name of Napoleon Bonaparte's final battle?",
       "options": [
-        "Battle of Austerlitz",
         "Battle of Trafalgar",
         "Battle of Waterloo",
+        "Battle of Austerlitz",
         "Battle of Leipzig"
       ],
       "answer": "Battle of Waterloo",
@@ -17,10 +17,10 @@
       "category": "History",
       "question": "Which organization was established after World War II to promote international peace and security?",
       "options": [
-        "The League of Nations",
+        "The European Union",
         "NATO",
-        "The United Nations",
-        "The European Union"
+        "The League of Nations",
+        "The United Nations"
       ],
       "answer": "The United Nations",
       "explanation": "The United Nations was established on October 24, 1945, replacing the failed League of Nations. It was founded by 51 countries and now has 193 member states. Its main purpose is to maintain international peace, develop friendly relations among nations, and promote social progress.",
@@ -30,10 +30,10 @@
       "category": "Sports",
       "question": "What is the official length of a standard Olympic swimming pool in meters?",
       "options": [
-        "25 meters",
         "50 meters",
-        "75 meters",
-        "100 meters"
+        "100 meters",
+        "25 meters",
+        "75 meters"
       ],
       "answer": "50 meters",
       "explanation": "An Olympic swimming pool is 50 meters long and 25 meters wide, with eight lanes each 2.5 meters wide. Short-course competitions use 25-meter pools. World records set in 50-meter pools are the official 'long-course' records and are considered the definitive world standards.",
@@ -43,8 +43,8 @@
       "category": "Sports",
       "question": "In darts, what is the highest score achievable with a single dart?",
       "options": [
-        "25",
         "50",
+        "25",
         "60",
         "100"
       ],
@@ -56,10 +56,10 @@
       "category": "Pop Culture",
       "question": "What is the name of the island in 'Cast Away' where the FedEx plane crashes?",
       "options": [
-        "The film doesn't name it",
         "Tikopia",
-        "Mango Island",
-        "Fiji"
+        "Fiji",
+        "The film doesn't name it",
+        "Mango Island"
       ],
       "answer": "The film doesn't name it",
       "explanation": "In Cast Away (2000) starring Tom Hanks, the island where he is stranded is never given a name in the film. The movie was filmed primarily on the Monuriki island in Fiji. Wilson the volleyball became his most famous companion. The film explored isolation and the will to survive.",
@@ -69,10 +69,10 @@
       "category": "Pop Culture",
       "question": "Which rapper's real name is Shawn Corey Carter?",
       "options": [
-        "Kanye West",
+        "Lil Wayne",
         "Eminem",
-        "Jay-Z",
-        "Lil Wayne"
+        "Kanye West",
+        "Jay-Z"
       ],
       "answer": "Jay-Z",
       "explanation": "Jay-Z's real name is Shawn Corey Carter. He was born in Brooklyn, New York, and is one of the best-selling music artists of all time with over 100 million records sold. He co-founded Roc-A-Fella Records and Roc Nation, and is married to Beyoncé. He's also the first rapper inducted into the Rock and Roll Hall of Fame.",
@@ -82,9 +82,9 @@
       "category": "Pop Culture",
       "question": "Ben-Hur (1959) was the first film to win 11 Academy Awards — a record later tied by which two films?",
       "options": [
-        "Titanic and Gladiator",
         "Titanic and The Lord of the Rings: The Return of the King",
         "Schindler's List and Titanic",
+        "Titanic and Gladiator",
         "Avatar and The Dark Knight"
       ],
       "answer": "Titanic and The Lord of the Rings: The Return of the King",
@@ -96,8 +96,8 @@
       "question": "Who was the first female Prime Minister of the United Kingdom?",
       "options": [
         "Theresa May",
-        "Margaret Thatcher",
         "Barbara Castle",
+        "Margaret Thatcher",
         "Harriet Harman"
       ],
       "answer": "Margaret Thatcher",
@@ -109,9 +109,9 @@
       "question": "The Dead Sea, the lowest point on Earth's surface, borders which two countries?",
       "options": [
         "Egypt and Israel",
-        "Israel and Jordan",
         "Saudi Arabia and Jordan",
-        "Syria and Lebanon"
+        "Syria and Lebanon",
+        "Israel and Jordan"
       ],
       "answer": "Israel and Jordan",
       "explanation": "The Dead Sea sits on the border between Israel to the west and Jordan to the east, at approximately 430 meters below sea level — the lowest point on Earth's surface. Its extreme salinity (about 34%) makes it nearly impossible for organisms to survive in it, which is how it got its name.",
@@ -121,10 +121,10 @@
       "category": "Science & Nature",
       "question": "What force keeps planets in orbit around the Sun?",
       "options": [
-        "Electromagnetism",
         "Nuclear force",
-        "Dark energy",
-        "Gravity"
+        "Electromagnetism",
+        "Gravity",
+        "Dark energy"
       ],
       "answer": "Gravity",
       "explanation": "Gravity is the attractive force between masses. The Sun's enormous mass creates a gravitational field that keeps planets in elliptical orbits. Without gravity, planets would travel in a straight line and fly off into space. Newton first described gravity mathematically; Einstein later explained it as the curvature of spacetime caused by mass.",
@@ -134,10 +134,10 @@
       "category": "Geography",
       "question": "Mongolia is one of the world's most sparsely populated countries. What is it geographically landlocked by?",
       "options": [
-        "Russia and Kazakhstan",
         "China and Russia",
-        "Kazakhstan and China",
-        "China and North Korea"
+        "Russia and Kazakhstan",
+        "China and North Korea",
+        "Kazakhstan and China"
       ],
       "answer": "China and Russia",
       "explanation": "Mongolia is a landlocked country bordered only by Russia to the north and China to the south, east, and west. With an area of 1.56 million km² and a population of only about 3.3 million people, it has the world's lowest population density among sovereign nations (about 2 people per km²). More than half the population lives in Ulaanbaatar, the world's coldest capital city. The Gobi Desert covers the southern third of the country.",
@@ -147,9 +147,9 @@
       "category": "Science & Nature",
       "question": "Quasars, first identified in the 1960s, are the most luminous persistent objects in the observable universe — some outshine entire galaxies by a factor of 1,000. What are they?",
       "options": [
-        "Quasars are extremely massive stars in the early universe that burned so brightly they fused elements all the way up to uranium, creating intense radiation before collapsing into black holes",
-        "Quasars are the intensely luminous cores of distant galaxies powered by supermassive black holes actively consuming surrounding gas and dust — the infalling material releases enormous energy as it heats and spirals inward",
         "Quasars are chains of interconnected galaxies whose combined gravitational energy generates a coherent beam of radiation visible across the observable universe",
+        "Quasars are the intensely luminous cores of distant galaxies powered by supermassive black holes actively consuming surrounding gas and dust — the infalling material releases enormous energy as it heats and spirals inward",
+        "Quasars are extremely massive stars in the early universe that burned so brightly they fused elements all the way up to uranium, creating intense radiation before collapsing into black holes",
         "Quasars are remnant shockwaves from galaxy collisions — when two galaxies merge, the combined gravitational energy is released as electromagnetic radiation that can last for millions of years"
       ],
       "answer": "Quasars are the intensely luminous cores of distant galaxies powered by supermassive black holes actively consuming surrounding gas and dust — the infalling material releases enormous energy as it heats and spirals inward",

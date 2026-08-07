@@ -5,10 +5,10 @@
       "category": "History",
       "question": "The Great Depression, the worst economic crisis of the 20th century, began with the crash of the U.S. stock market in which year?",
       "options": [
+        "1933",
         "1929",
-        "1932",
         "1927",
-        "1933"
+        "1932"
       ],
       "answer": "1929",
       "explanation": "Black Tuesday, October 29, 1929, saw the Dow Jones Industrial Average lose 12% in one day. The crash followed years of speculative excess. Unemployment in the U.S. reached 25% by 1933. FDR's New Deal programs and WWII military spending ultimately ended the Depression.",
@@ -18,10 +18,10 @@
       "category": "Science & Nature",
       "question": "Which scientist formulated the three laws of motion and the law of universal gravitation, publishing 'Principia Mathematica' in 1687?",
       "options": [
-        "Isaac Newton",
-        "Galileo Galilei",
         "René Descartes",
-        "Robert Hooke"
+        "Robert Hooke",
+        "Galileo Galilei",
+        "Isaac Newton"
       ],
       "answer": "Isaac Newton",
       "explanation": "Isaac Newton's 'Principia Mathematica' laid the foundation for classical mechanics. His three laws describe inertia, force/acceleration relationships, and action-reaction. The story of an apple inspiring his gravity theory is likely apocryphal, though Newton himself told similar stories late in life. He also co-invented calculus (simultaneously with Leibniz).",
@@ -33,8 +33,8 @@
       "options": [
         "United States",
         "Australia",
-        "Spain",
-        "France"
+        "France",
+        "Spain"
       ],
       "answer": "United States",
       "explanation": "The United States has won the Davis Cup 32 times — more than any other nation. Australia is second with 28 titles. The Davis Cup, first played in 1900, is the world's largest annual international team competition in sport by number of participating nations.",
@@ -44,10 +44,10 @@
       "category": "Pop Culture",
       "question": "Which Beatles song, released in 1965, marked a turning point toward more introspective, folk-influenced songwriting with lyrics like 'Yesterday, all my troubles seemed so far away'?",
       "options": [
+        "Blackbird",
         "Yesterday",
-        "Let It Be",
         "Hey Jude",
-        "Blackbird"
+        "Let It Be"
       ],
       "answer": "Yesterday",
       "explanation": "'Yesterday' by Paul McCartney is the most covered song in history with over 2,200 known cover versions. McCartney reportedly woke up with the melody in his head and initially called it 'Scrambled Eggs.' He spent weeks asking people if they'd heard it before, unsure it was original.",
@@ -57,10 +57,10 @@
       "category": "Geography",
       "question": "The Trans-Siberian Railway is the world's longest railway line. Which two cities does it connect?",
       "options": [
+        "Kiev and Vladivostok",
         "Moscow and Vladivostok",
-        "Moscow and Beijing",
         "St. Petersburg and Tokyo",
-        "Kiev and Vladivostok"
+        "Moscow and Beijing"
       ],
       "answer": "Moscow and Vladivostok",
       "explanation": "The Trans-Siberian Railway stretches 9,289 km from Moscow to Vladivostok on the Pacific coast — a journey of about 7 days covering 8 time zones. Completed in 1916, it was crucial for Russian expansion into Siberia and the Far East. A branch line extends to Beijing.",
@@ -70,10 +70,10 @@
       "category": "History",
       "question": "The Rwandan genocide of 1994, during which approximately 800,000 Tutsi and moderate Hutu were killed in 100 days, occurred in which East African country?",
       "options": [
-        "Rwanda",
-        "Burundi",
         "Uganda",
-        "Democratic Republic of Congo"
+        "Rwanda",
+        "Democratic Republic of Congo",
+        "Burundi"
       ],
       "answer": "Rwanda",
       "explanation": "The Rwandan genocide began April 7, 1994, following the assassination of President Juvénal Habyarimana. Radio broadcasts incited Hutu extremists to kill their Tutsi neighbors. In 100 days, an estimated 500,000-800,000 people were murdered. The failure of the UN and international community to intervene is considered one of the 20th century's greatest moral failures.",
@@ -83,9 +83,9 @@
       "category": "Pop Culture",
       "question": "Which animated TV show, set in Springfield and featuring the Simpson family, has been running since 1989 and is the longest-running American animated series?",
       "options": [
-        "The Simpsons",
-        "Family Guy",
         "South Park",
+        "Family Guy",
+        "The Simpsons",
         "Futurama"
       ],
       "answer": "The Simpsons",
@@ -94,14 +94,14 @@
     },
     {
       "category": "Science & Nature",
-      "question": "Frank Drake proposed his famous equation in 1961 at the first SETI conference. What does the Drake Equation attempt to calculate, and what makes it so controversial?",
+      "question": "Frank Drake proposed his equation at the first SETI conference in 1961. What does it try to calculate?",
       "options": [
-        "The Drake Equation calculates the minimum technological level required for a civilization to establish radio communication — it's controversial because it implies only industrial civilizations can communicate",
-        "The Drake Equation estimates the number of communicating civilizations currently in the Milky Way by multiplying factors like star formation rate, fraction with planets, and fraction that develop intelligent life — but most factors are unknown, giving answers ranging from zero to millions",
-        "The Drake Equation calculates the time it would take for a radio signal from Earth to reach the nearest technological civilization — it's controversial because it implies contact is impossible within any human lifespan",
-        "The Drake Equation is a probability formula for the survival of any given civilization beyond its first 1,000 years — it's controversial because it predicts most civilizations destroy themselves before achieving interstellar communication"
+        "How many communicating civilizations exist in our galaxy",
+        "The minimum technology level needed for radio contact",
+        "How long a signal takes to reach the nearest civilization",
+        "The odds a civilization survives its first 1,000 years"
       ],
-      "answer": "The Drake Equation estimates the number of communicating civilizations currently in the Milky Way by multiplying factors like star formation rate, fraction with planets, and fraction that develop intelligent life — but most factors are unknown, giving answers ranging from zero to millions",
+      "answer": "How many communicating civilizations exist in our galaxy",
       "explanation": "N = R* × fp × ne × fl × fi × fc × L — the equation multiplies: rate of star formation, fraction of stars with planets, number of habitable planets per system, fraction where life emerges, fraction that develop intelligence, fraction that develop detectable technology, and average lifespan of such civilizations. The first few factors are now reasonably well-constrained by exoplanet surveys; the biological and cultural factors (fl, fi, fc, L) remain entirely unknown. The last term 'L' — how long civilizations last — may be the key: if most destroy themselves quickly, N approaches zero. Drake himself estimated about 10 civilizations in the Milky Way right now.",
       "memory_hook": "The Drake Equation is essentially multiplication organized ignorance — most of its 7 factors are unknown. The most chilling term is 'L': how long does an intelligent civilization survive? If most destroy themselves quickly, the equation predicts we're alone. Drake himself estimated maybe 10 civilizations in the Milky Way."
     },
@@ -109,10 +109,10 @@
       "category": "Geography",
       "question": "The Sahel is a semi-arid belt crossing Africa between the Sahara Desert to the north and the tropical savanna to the south. What does 'Sahel' mean in Arabic?",
       "options": [
-        "Shore or coast",
-        "Desert edge",
         "Dry land",
-        "Between worlds"
+        "Desert edge",
+        "Between worlds",
+        "Shore or coast"
       ],
       "answer": "Shore or coast",
       "explanation": "'Sahel' means 'shore' or 'coast' in Arabic, referring to the region as the southern shore of the Sahara Desert. It spans from Senegal to Sudan, covering parts of 10 countries. The Sahel faces severe desertification due to drought, overgrazing, and climate change — pushing the Sahara southward.",
@@ -124,8 +124,8 @@
       "options": [
         "Bubonic plague",
         "Smallpox",
-        "Typhus",
-        "Cholera"
+        "Cholera",
+        "Typhus"
       ],
       "answer": "Bubonic plague",
       "explanation": "The Black Death was caused by Yersinia pestis bacteria, spread by fleas on rats carried by Genoese trading ships from Central Asia. It killed 25-50 million Europeans in four years. The pandemic's aftermath accelerated social changes including the decline of feudalism and the labor shortage that empowered surviving peasants.",
@@ -136,8 +136,8 @@
       "question": "Which composer, who became deaf later in life, wrote nine symphonies including the famous Ninth with its 'Ode to Joy' finale?",
       "options": [
         "Ludwig van Beethoven",
-        "Wolfgang Amadeus Mozart",
         "Johann Sebastian Bach",
+        "Wolfgang Amadeus Mozart",
         "Franz Schubert"
       ],
       "answer": "Ludwig van Beethoven",
@@ -148,10 +148,10 @@
       "category": "Sports",
       "question": "Which country has hosted the most FIFA World Cups, having staged the tournament three times (1930, 1950, and 2014)?",
       "options": [
+        "Italy",
         "Brazil",
         "Mexico",
-        "Germany",
-        "Italy"
+        "Germany"
       ],
       "answer": "Brazil",
       "explanation": "Brazil hosted the 1950 World Cup (losing the final to Uruguay in front of 200,000 fans — the 'Maracanazo') and 2014 (suffering a historic 7-1 loss to Germany in the semi-finals). Mexico has hosted twice (1970, 1986). Brazil will co-host the 2026 World Cup with the USA and Canada.",

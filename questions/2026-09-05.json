@@ -5,9 +5,9 @@
       "category": "History",
       "question": "The Lighthouse of Alexandria was built around 280 BC on which island in Alexandria's harbor — a name that became the word for 'lighthouse' in French, Spanish, and Italian?",
       "options": [
-        "Pharos",
         "Cyprus",
         "Crete",
+        "Pharos",
         "Rhodes"
       ],
       "answer": "Pharos",
@@ -18,10 +18,10 @@
       "category": "Science & Nature",
       "question": "What is the name of the fundamental force that holds quarks together inside protons and neutrons?",
       "options": [
-        "Strong nuclear force",
-        "Weak nuclear force",
+        "Gravity",
         "Electromagnetism",
-        "Gravity"
+        "Strong nuclear force",
+        "Weak nuclear force"
       ],
       "answer": "Strong nuclear force",
       "explanation": "The strong nuclear force is the strongest of the four fundamental forces — about 100 times stronger than electromagnetism. It acts only at very short ranges (within the nucleus). It holds quarks together via particles called gluons, and also keeps protons and neutrons bound in the nucleus despite protons repelling each other electromagnetically.",
@@ -31,10 +31,10 @@
       "category": "Sports",
       "question": "Which swimmer won the most medals (23 gold, 3 silver, 2 bronze) in Olympic history, making him the most decorated Olympian of all time?",
       "options": [
-        "Michael Phelps",
         "Mark Spitz",
-        "Ian Thorpe",
-        "Ryan Lochte"
+        "Michael Phelps",
+        "Ryan Lochte",
+        "Ian Thorpe"
       ],
       "answer": "Michael Phelps",
       "explanation": "Michael Phelps won 28 Olympic medals total: 23 gold, 3 silver, 2 bronze, across four Olympic Games (2000-2016). At the 2008 Beijing Olympics he won 8 gold medals in a single Games, surpassing Mark Spitz's 1972 record of 7. Phelps also held the record for most individual golds of any Olympian.",
@@ -44,10 +44,10 @@
       "category": "Pop Culture",
       "question": "Which British actor played the role of James Bond in the most films (7), making his debut in Dr. No (1962)?",
       "options": [
-        "Roger Moore",
-        "Sean Connery",
+        "Pierce Brosnan",
         "Daniel Craig",
-        "Pierce Brosnan"
+        "Sean Connery",
+        "Roger Moore"
       ],
       "answer": "Roger Moore",
       "explanation": "Roger Moore played Bond seven times (1973-1985), more than any other actor. Sean Connery played Bond six times (plus one unofficial film). Daniel Craig played Bond five times. Moore's Bond was known for a more light-hearted, quip-heavy style compared to Connery's harder edge.",
@@ -57,10 +57,10 @@
       "category": "Geography",
       "question": "The Mariana Trench, the deepest point on Earth's surface, reaches a depth of approximately 11 km. In which ocean is it located?",
       "options": [
-        "Pacific Ocean",
-        "Atlantic Ocean",
         "Indian Ocean",
-        "Arctic Ocean"
+        "Arctic Ocean",
+        "Pacific Ocean",
+        "Atlantic Ocean"
       ],
       "answer": "Pacific Ocean",
       "explanation": "The Mariana Trench lies in the western Pacific Ocean, east of the Mariana Islands. Its deepest point, Challenger Deep, is approximately 10,935 meters below sea level. James Cameron reached the bottom in a solo submersible in 2012. The pressure there is over 1,000 times atmospheric pressure at sea level.",
@@ -71,9 +71,9 @@
       "question": "The Indian Independence Act of 1947 partitioned British India into two nations. Which leader of the Indian National Congress became India's first prime minister?",
       "options": [
         "Jawaharlal Nehru",
-        "Mahatma Gandhi",
         "Sardar Patel",
-        "Subhas Chandra Bose"
+        "Subhas Chandra Bose",
+        "Mahatma Gandhi"
       ],
       "answer": "Jawaharlal Nehru",
       "explanation": "India and Pakistan became independent on August 14-15, 1947. Jawaharlal Nehru delivered the 'Tryst with Destiny' speech at midnight. Gandhi was the moral leader of independence but didn't take political office. Partition caused one of the largest mass migrations in history (10-20 million displaced) and roughly 200,000-2 million deaths in communal violence.",
@@ -83,10 +83,10 @@
       "category": "Pop Culture",
       "question": "Which online video platform, founded in February 2005 and acquired by Google for $1.65 billion in 2006, became the world's second-largest search engine?",
       "options": [
-        "YouTube",
         "Vimeo",
+        "Metacafe",
         "Dailymotion",
-        "Metacafe"
+        "YouTube"
       ],
       "answer": "YouTube",
       "explanation": "YouTube was founded by Chad Hurley, Steve Chen, and Jawed Karim (former PayPal employees). The first video uploaded was 'Me at the zoo' by Jawed Karim. Google acquired it for $1.65 billion just 18 months after founding. Over 500 hours of video are uploaded to YouTube every minute as of 2024.",
@@ -96,10 +96,10 @@
       "category": "Science & Nature",
       "question": "What is the approximate percentage of the human body made up of water?",
       "options": [
-        "60%",
-        "40%",
+        "90%",
         "80%",
-        "90%"
+        "60%",
+        "40%"
       ],
       "answer": "60%",
       "explanation": "The average adult human body is approximately 60% water by mass, though this varies with age, sex, and body composition. Muscle tissue is about 73% water while fat tissue is about 10% water. The brain and heart are about 73% water, and the lungs about 83%. Infants are approximately 75-78% water.",
@@ -109,10 +109,10 @@
       "category": "Geography",
       "question": "Which country has the most natural UNESCO World Heritage Sites, with 57 natural and mixed sites — more than any other nation?",
       "options": [
+        "Brazil",
         "China",
-        "Australia",
         "United States",
-        "Brazil"
+        "Australia"
       ],
       "answer": "China",
       "explanation": "China has the most total UNESCO World Heritage Sites of any country (57 as of recent counts), combining natural and cultural sites. Italy has traditionally led in cultural sites. Australia, the US, and Brazil have significant natural sites but fewer in total. China's sites include the Three Parallel Rivers, Jiuzhaigou Valley, and Wulingyuan.",
@@ -123,8 +123,8 @@
       "question": "Which explorer, funded by Spain, circumnavigated the globe for the first time (1519-1522), though he died in the Philippines and didn't complete the journey himself?",
       "options": [
         "Ferdinand Magellan",
-        "Juan Sebastián Elcano",
         "Christopher Columbus",
+        "Juan Sebastián Elcano",
         "Hernán Cortés"
       ],
       "answer": "Ferdinand Magellan",
@@ -135,10 +135,10 @@
       "category": "Pop Culture",
       "question": "Which 2017 film, winner of the Academy Award for Best Picture (following the Moonlight envelope mix-up), starred Ryan Gosling and Emma Stone in a Los Angeles musical?",
       "options": [
+        "The Artist",
         "La La Land",
         "Whiplash",
-        "Birdman",
-        "The Artist"
+        "Birdman"
       ],
       "answer": "La La Land",
       "explanation": "La La Land actually LOST the Oscar for Best Picture in 2017 — one of cinema's most dramatic moments. Warren Beatty and Faye Dunaway announced the wrong winner; La La Land producers were partway through acceptance speeches before the mistake was caught and Moonlight announced as the actual winner.",
@@ -146,14 +146,14 @@
     },
     {
       "category": "Sports",
-      "question": "Jim Thorpe won gold medals in the pentathlon and decathlon at the 1912 Stockholm Olympics, was called 'the world's greatest athlete' by King Gustav V — then had his medals stripped. What happened, and what eventually happened to them?",
+      "question": "Jim Thorpe won pentathlon and decathlon gold at the 1912 Olympics, then lost both medals. Why?",
       "options": [
-        "Thorpe's medals were stripped after it was revealed he had taken performance-enhancing substances — specifically cocaine, which was legal but banned under newly introduced IOC doping rules — and they were permanently revoked",
-        "Thorpe was stripped of his medals because he had earned money playing semi-pro baseball before the Olympics, violating amateur rules — despite the minor nature of the violation, the IOC didn't restore the medals until 1983, 30 years after his death",
-        "Thorpe's medals were stripped when the US Olympic Committee discovered he had competed under a false name, having been disqualified from a previous amateur athletic event — the IOC permanently banned him from future competition",
-        "Thorpe voluntarily returned his medals after learning a Native American runner he had beaten had died in poverty — he said the medals 'meant more to someone who needed them' and petitioned the IOC to award them to the runner's family"
+        "He tested positive for cocaine under new IOC rules",
+        "He'd earned $2 a game at semi-pro baseball",
+        "He had competed under a false name after a prior ban",
+        "He returned them voluntarily to a rival's family"
       ],
-      "answer": "Thorpe was stripped of his medals because he had earned money playing semi-pro baseball before the Olympics, violating amateur rules — despite the minor nature of the violation, the IOC didn't restore the medals until 1983, 30 years after his death",
+      "answer": "He'd earned $2 a game at semi-pro baseball",
       "explanation": "Thorpe had played minor-league baseball for $2/game during summers in 1909-1910 to help support himself — common for poor athletes of the era, but technically a violation of Olympic amateurism rules. A newspaper exposed this in 1913; the IOC demanded the medals back. Thorpe complied. He went on to professional football and baseball careers. He died in poverty in 1953. In 1982, the IOC reversed the decision, citing the 1912 protest deadline (which had been missed) and recognizing the injustice. Replica medals were presented to his family in 1983. His original medals had been distributed to the runners-up — the Swedish copies given to his family are replicas.",
       "memory_hook": "Thorpe earned $2/game playing semi-pro baseball to survive — and lost his Olympic medals for it. He died in poverty in 1953. The IOC reversed the decision in 1982, 30 years later, partly because the original protest was filed after the deadline. His family received replicas; the originals had already been given to runners-up. King Gustav V had called him 'the greatest athlete in the world.'"
     }

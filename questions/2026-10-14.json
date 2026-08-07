@@ -6,9 +6,9 @@
       "question": "The Berlin Wall was built in 1961 to separate East and West Berlin. Why did East Germany build it?",
       "options": [
         "To protect East Germany from Western military invasion",
-        "To stop the massive flow of East Germans emigrating to the West through Berlin",
+        "To establish a clear Cold War boundary agreed upon by all four powers",
         "To separate a disputed territory following WWII",
-        "To establish a clear Cold War boundary agreed upon by all four powers"
+        "To stop the massive flow of East Germans emigrating to the West through Berlin"
       ],
       "answer": "To stop the massive flow of East Germans emigrating to the West through Berlin",
       "explanation": "Between 1949 and 1961, approximately 3 million East Germans emigrated to West Germany via Berlin — a 'brain drain' that was economically catastrophic. East Germany built the wall (the 'Anti-Fascist Protection Rampart') overnight on August 13, 1961. By the end, the Berlin Wall was 155 km long, with guard towers, death strips, and trip-wire systems. Approximately 140-200 people died trying to cross it. It fell on November 9, 1989.",
@@ -18,10 +18,10 @@
       "category": "History",
       "question": "The Space Race between the US and USSR saw many firsts. Which Soviet cosmonaut became the first human in space in April 1961?",
       "options": [
-        "Buzz Aldrin",
-        "Alan Shepard",
         "Yuri Gagarin",
-        "Valentina Tereshkova"
+        "Buzz Aldrin",
+        "Valentina Tereshkova",
+        "Alan Shepard"
       ],
       "answer": "Yuri Gagarin",
       "explanation": "Yuri Gagarin orbited Earth once on April 12, 1961, in Vostok 1 — a 108-minute flight that made him the first human in space. His mission preceded John Glenn's first American orbital flight by nearly a year (February 1962). The USSR also sent the first animal (Laika the dog, 1957), first woman (Valentina Tereshkova, 1963), and conducted the first spacewalk (Alexei Leonov, 1965). Gagarin died in a training jet crash in 1968, age 34.",
@@ -31,9 +31,9 @@
       "category": "History",
       "question": "The Women's March on Washington in January 2017 was the largest single-day protest in US history. But what was the largest protest movement in world history, estimated at 36 million participants across multiple countries?",
       "options": [
+        "The worldwide anti-Iraq War protests of February 15, 2003",
         "1968 anti-Vietnam War protests",
         "The Hong Kong protests of 2019",
-        "The worldwide anti-Iraq War protests of February 15, 2003",
         "The Arab Spring protests of 2011"
       ],
       "answer": "The worldwide anti-Iraq War protests of February 15, 2003",
@@ -44,10 +44,10 @@
       "category": "Sports",
       "question": "Michael Jordan led the Chicago Bulls to 6 NBA Championships in the 1990s. In his championship seasons, Jordan's win record in Finals games was extraordinary. How many Finals games did he win vs. lose?",
       "options": [
-        "Won 24, lost 0 (perfect record)",
         "Won 24, lost 6",
-        "Won 21, lost 15",
-        "Won 18, lost 12"
+        "Won 18, lost 12",
+        "Won 24, lost 0 (perfect record)",
+        "Won 21, lost 15"
       ],
       "answer": "Won 24, lost 6",
       "explanation": "Michael Jordan's six NBA Finals appearances each resulted in a championship. He went 24-6 in Finals games, winning all six series (4-2, 4-1, 4-2, 4-2, 4-2, 4-2). His Finals MVP awards in all 6 series is a record. Jordan was notably known for his clutch performances — he never lost a series when leading 3-1, which happened in all six Finals. His first three-peat (1991-93) and second (1996-98) sandwiched his baseball career.",
@@ -57,10 +57,10 @@
       "category": "Sports",
       "question": "The Ironman Triathlon consists of three events back to back without rest. What are the three disciplines and distances?",
       "options": [
-        "1.5km swim, 40km bike, 10km run",
-        "2.4-mile swim, 112-mile bike, 26.2-mile run (marathon)",
         "1km swim, 50km bike, 21km run",
-        "3km swim, 180km bike, 42km run"
+        "2.4-mile swim, 112-mile bike, 26.2-mile run (marathon)",
+        "3km swim, 180km bike, 42km run",
+        "1.5km swim, 40km bike, 10km run"
       ],
       "answer": "2.4-mile swim, 112-mile bike, 26.2-mile run (marathon)",
       "explanation": "The Ironman Triathlon (originated in Hawaii in 1978) consists of a 2.4-mile (3.86 km) open-water swim, a 112-mile (180.2 km) bike ride, and a 26.2-mile (42.2 km) marathon run — completed consecutively in a single day. Top athletes finish in about 8 hours; the cutoff is 17 hours. The race was inspired by a debate about which athletes — swimmers, cyclists, or runners — were the fittest.",
@@ -70,8 +70,8 @@
       "category": "Pop Culture",
       "question": "The film 'Schindler's List' (1993) directed by Steven Spielberg depicts Oscar Schindler saving Jewish workers during the Holocaust. On which true story is it based?",
       "options": [
-        "A fictional composite based on multiple Holocaust rescuers",
         "The true story of Oskar Schindler, a German industrialist who saved over 1,200 Jews by employing them in his factories",
+        "A fictional composite based on multiple Holocaust rescuers",
         "A story invented by author Thomas Keneally for dramatic purposes",
         "A Polish underground resistance operation"
       ],
@@ -83,10 +83,10 @@
       "category": "Pop Culture",
       "question": "Salvador Dalí was a leading figure in which art movement known for depicting dreamlike and irrational imagery?",
       "options": [
-        "Cubism",
         "Impressionism",
         "Surrealism",
-        "Abstract Expressionism"
+        "Abstract Expressionism",
+        "Cubism"
       ],
       "answer": "Surrealism",
       "explanation": "Surrealism, founded by André Breton in 1924, aimed to unlock the unconscious mind by depicting dream imagery, irrational combinations, and the bizarre. Dalí's most famous works include 'The Persistence of Memory' (1931) with its melting clocks and 'The Elephants' with their impossibly long legs. Dalí collaborated with filmmaker Luis Buñuel on dreamlike short films and designed the logo for Chupa Chups lollipops. He was famously eccentric, describing himself as the 'only difference between me and a madman' as 'I am not mad.'",
@@ -96,10 +96,10 @@
       "category": "Pop Culture",
       "question": "Which 1994 Disney film tells the story of Simba the lion and is based on Shakespeare's Hamlet?",
       "options": [
-        "The Jungle Book",
         "Bambi",
+        "Aladdin",
         "The Lion King",
-        "Aladdin"
+        "The Jungle Book"
       ],
       "answer": "The Lion King",
       "explanation": "The Lion King (1994) closely mirrors Hamlet: a prince's father is murdered by his uncle, who seizes the throne; the prince goes into exile and is visited by his father's ghost, then returns to challenge his uncle. The film grossed $987 million globally and won 2 Academy Awards for Best Original Score and Best Original Song ('Can You Feel the Love Tonight'). Elton John wrote the songs; Hans Zimmer composed the score. Disney officially acknowledges the Hamlet connection.",
@@ -109,9 +109,9 @@
       "category": "Geography",
       "question": "The Mozambique Channel separates Madagascar from Mozambique. The Comoros Islands sit within this channel and form an independent nation. How many islands make up the Comoros?",
       "options": [
-        "2 main islands",
-        "4 main islands — 3 forming the nation, 1 (Mayotte) remaining French territory",
         "7 islands",
+        "4 main islands — 3 forming the nation, 1 (Mayotte) remaining French territory",
+        "2 main islands",
         "12 islands"
       ],
       "answer": "4 main islands — 3 forming the nation, 1 (Mayotte) remaining French territory",
@@ -122,10 +122,10 @@
       "category": "Geography",
       "question": "The Appalachian Trail, one of the longest hiking trails in the world, runs from Georgia to Maine. Approximately how long is it?",
       "options": [
-        "1,100 miles",
         "2,200 miles",
-        "3,500 miles",
-        "4,800 miles"
+        "1,100 miles",
+        "4,800 miles",
+        "3,500 miles"
       ],
       "answer": "2,200 miles",
       "explanation": "The Appalachian Trail runs approximately 2,189 miles (3,523 km) from Springer Mountain, Georgia to Mount Katahdin, Maine. Completed in 1937, it passes through 14 states. About 3 million people hike part of it annually, but only about 3,000 'thru-hikers' attempt the full trail each year, typically taking 5-7 months. The trail was the inspiration for the Pacific Crest Trail (California to Washington) and the Continental Divide Trail.",
@@ -133,27 +133,27 @@
     },
     {
       "category": "Science & Nature",
-      "question": "Alan Guth's theory of cosmic inflation (1980) proposes that the universe expanded exponentially fast — by a factor of 10^26 — in the first tiny fraction of a second after the Big Bang. What problem does it solve?",
+      "question": "Alan Guth's cosmic inflation (1980) proposes the universe ballooned in the first instant after the Big Bang. What problem does it solve?",
       "options": [
-        "Inflation explains why the universe is 13.8 billion years old — without the initial expansion, the universe would have collapsed back into a singularity within the first microsecond after the Big Bang",
-        "Inflation explains why the cosmic microwave background is remarkably uniform in temperature from all directions, and why the universe's geometry is flat — both impossible without a period of rapid uniform expansion",
-        "Inflation explains why galaxies exist at all — without the expansion, the quantum fluctuations that seeded galaxies would have been too small to overcome gravity and grow into structure",
-        "Inflation is actually disproven — the discovery of dark energy showed that expansion doesn't require an inflationary period, and Guth's original papers have been retracted by the scientific community"
+        "Why the microwave background is uniform and space is flat",
+        "Nothing; dark energy disproved it and Guth retracted",
+        "Why galaxies formed at all from quantum fluctuations",
+        "Why the universe didn't recollapse in its first microsecond"
       ],
-      "answer": "Inflation explains why the cosmic microwave background is remarkably uniform in temperature from all directions, and why the universe's geometry is flat — both impossible without a period of rapid uniform expansion",
+      "answer": "Why the microwave background is uniform and space is flat",
       "explanation": "The CMB temperature is the same (2.725 K) in every direction to one part in 100,000 — even in regions of the sky so far apart they could never have been in contact with each other given the speed of light. This 'horizon problem' is solved if the entire observable universe expanded from an extremely small region that had time to reach thermal equilibrium before inflating. Inflation also explains why the universe's geometry is 'flat' (Euclidean). Quantum fluctuations stretched by inflation became the density variations that seeded galaxies. Some versions of inflation predict a multiverse — infinitely many bubble universes.",
       "memory_hook": "The CMB is the same temperature everywhere in the sky — even in directions that, at the speed of light, could never have communicated. Inflation solves this by saying the entire observable universe expanded from a microscopic region that had equilibrated before inflating. The quantum fluctuations that became galaxies were stretched from subatomic scales."
     },
     {
       "category": "Science & Nature",
-      "question": "In 1995, Michel Mayor and Didier Queloz discovered 51 Pegasi b — the first confirmed planet orbiting a Sun-like star outside our solar system. Why did their discovery immediately challenge existing planetary formation theories?",
+      "question": "51 Pegasi b (1995) was the first planet found orbiting a Sun-like star. Why did it break planetary formation theory?",
       "options": [
-        "51 Pegasi b orbited in a retrograde direction, contradicting all theoretical models that required gas giants to orbit in the same direction as their star's rotation due to angular momentum conservation",
-        "51 Pegasi b was a Jupiter-sized gas giant orbiting its star every 4.2 days — closer than Mercury orbits our Sun — which was theoretically impossible because gas giants were thought to form only in the cold outer solar system",
-        "51 Pegasi b had a mass 300 times Jupiter's — far heavier than any planet should be able to sustain without igniting nuclear fusion — forcing theorists to redefine the boundary between planet and brown dwarf",
-        "51 Pegasi b had no detectable atmosphere despite its proximity to its star, contradicting models that predicted close-orbiting planets would accumulate thick hydrogen atmospheres through stellar wind capture"
+        "At 300 Jupiter masses it sat near the fusion threshold",
+        "It had no atmosphere despite hugging its star",
+        "A gas giant orbiting in 4.2 days, closer than Mercury",
+        "It orbited backwards, against its star's rotation"
       ],
-      "answer": "51 Pegasi b was a Jupiter-sized gas giant orbiting its star every 4.2 days — closer than Mercury orbits our Sun — which was theoretically impossible because gas giants were thought to form only in the cold outer solar system",
+      "answer": "A gas giant orbiting in 4.2 days, closer than Mercury",
       "explanation": "Gas giants like Jupiter were thought to form only beyond the 'frost line' — far enough from a star that ices can condense and build the large rocky cores that accumulate gas. 51 Pegasi b orbiting in 4.2 days (vs Earth's 365 days) was stunning. The resolution: 'hot Jupiters' form far out and migrate inward through disk interactions. Mayor and Queloz used the radial velocity (Doppler wobble) method, detecting the star's tiny gravitational 'wobble' caused by the planet. They won the 2019 Nobel Prize. We now know of over 5,600 confirmed exoplanets, with billions estimated to exist in the Milky Way alone.",
       "memory_hook": "51 Pegasi b orbits its star every 4.2 days — closer than Mercury is to our Sun. Gas giants aren't supposed to be there; the discovery forced astronomers to invent 'planetary migration' theory. Mayor and Queloz won the 2019 Nobel Prize; we've since confirmed over 5,600 exoplanets."
     }

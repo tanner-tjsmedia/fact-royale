@@ -6,8 +6,8 @@
       "question": "Julius Caesar was assassinated on the Ides of March — which date is that?",
       "options": [
         "March 1",
-        "March 10",
         "March 15",
+        "March 10",
         "March 20"
       ],
       "answer": "March 15",
@@ -18,10 +18,10 @@
       "category": "History",
       "question": "The ancient Aztec capital of Tenochtitlan was built on an island in the middle of Lake Texcoco. It was destroyed by Spanish conquistadors and is now the site of which modern city?",
       "options": [
-        "Mexico City",
-        "Guadalajara",
         "Bogotá",
-        "Lima"
+        "Mexico City",
+        "Lima",
+        "Guadalajara"
       ],
       "answer": "Mexico City",
       "explanation": "Tenochtitlan, founded around 1325 CE, was the capital of the Aztec Empire and one of the largest cities in the world at the time of Spanish arrival. Hernán Cortés and his forces conquered and destroyed it in 1521. Mexico City was built on its ruins, and remnants of Aztec architecture can still be found beneath the modern city.",
@@ -32,9 +32,9 @@
       "question": "The Korean War armistice was signed in 1953, effectively creating which boundary between North and South Korea?",
       "options": [
         "The 37th parallel",
-        "The 38th parallel",
+        "The 40th parallel",
         "The 39th parallel",
-        "The 40th parallel"
+        "The 38th parallel"
       ],
       "answer": "The 38th parallel",
       "explanation": "The Korean War armistice, signed on July 27, 1953, established the Korean Demilitarized Zone (DMZ) near the 38th parallel as the boundary between North and South Korea. The 38th parallel had been used as a temporary division after WWII when the Soviet Union occupied the north and the United States occupied the south. The war ended in an armistice — not a peace treaty — so technically the war has never officially ended.",
@@ -44,10 +44,10 @@
       "category": "Sports",
       "question": "Wayne Gretzky holds 61 NHL records — including some so dominant that his career statistics defy rational comparison. Which fact best illustrates his statistical singularity?",
       "options": [
-        "Gretzky is the only player in NHL history to score 50 goals in 50 games, a feat he accomplished three times — no other player has ever done it even once",
         "Gretzky's career assists total (1,963) is more than the career points total of any other player in NHL history — he would be the all-time points leader on assists alone, without counting his 894 goals",
-        "Gretzky is the only player in NHL history to average more than 2 points per game over a full career (minimum 500 games) — the next closest player averages 1.92, a margin that has grown every year since his retirement",
-        "Gretzky set the single-season goal record (92 goals in 1981-82) and then broke his own record four more times — his final record of 196 goals in a season is considered mathematically unreachable by modern analytics"
+        "Gretzky is the only player in NHL history to score 50 goals in 50 games, a feat he accomplished three times — no other player has ever done it even once",
+        "Gretzky set the single-season goal record (92 goals in 1981-82) and then broke his own record four more times — his final record of 196 goals in a season is considered mathematically unreachable by modern analytics",
+        "Gretzky is the only player in NHL history to average more than 2 points per game over a full career (minimum 500 games) — the next closest player averages 1.92, a margin that has grown every year since his retirement"
       ],
       "answer": "Gretzky's career assists total (1,963) is more than the career points total of any other player in NHL history — he would be the all-time points leader on assists alone, without counting his 894 goals",
       "explanation": "Gretzky's career stats are so extreme that the 'assists alone beats everyone's total points' fact is real: his 1,963 assists exceeds the next highest career points total (Jaromir Jagr's 1,921). His total career points (2,857) are 894 more than the second-place Gretzky-era competitor. He scored 92 goals in 1981-82 and won nine Hart Trophies (MVP). He revolutionized offensive hockey from behind the opponent's net — 'Gretzky's office' — creating plays nobody had conceived before. He was so dominant he was called 'The Great One' from his early teens.",
@@ -58,8 +58,8 @@
       "question": "The 1994 FIFA World Cup, hosted by the United States, was notable for introducing soccer to a mass American audience. What unexpected record did it set, and what controversy ended it?",
       "options": [
         "The 1994 World Cup was the first to feature penalty shootouts in the final — Brazil beat Italy on penalties — and the final in the Rose Bowl set an attendance record of 94,194 that remains the highest for any World Cup final",
-        "The 1994 World Cup was held in indoor stadiums for the first time due to summer heat, making it the first World Cup where players competed under artificial lighting — FIFA later banned indoor venues for all future tournaments",
         "The 1994 World Cup introduced the back-pass rule prohibiting goalkeepers from handling deliberate back-passes, and the resulting increase in open play caused a record number of goals that has never been surpassed",
+        "The 1994 World Cup was held in indoor stadiums for the first time due to summer heat, making it the first World Cup where players competed under artificial lighting — FIFA later banned indoor venues for all future tournaments",
         "Diego Maradona was banned from the 1994 World Cup for testing positive for ephedrine — he had scored in Argentina's opening games but was disqualified, and Argentina was eliminated in the round of 16"
       ],
       "answer": "The 1994 World Cup was the first to feature penalty shootouts in the final — Brazil beat Italy on penalties — and the final in the Rose Bowl set an attendance record of 94,194 that remains the highest for any World Cup final",
@@ -70,8 +70,8 @@
       "category": "Pop Culture",
       "question": "Which band released the 1979 album 'The Wall,' featuring the hit 'Another Brick in the Wall'?",
       "options": [
-        "The Who",
         "Led Zeppelin",
+        "The Who",
         "Pink Floyd",
         "The Doors"
       ],
@@ -84,8 +84,8 @@
       "question": "Thelonious Monk is considered one of jazz's most distinctive composers — his music is immediately recognizable and his playing technique was unconventional even by jazz standards. What made him so unusual?",
       "options": [
         "Monk was self-taught and had never studied music formally — he couldn't read sheet music and composed entirely by ear, making him the only major jazz composer to produce work without musical literacy",
-        "Monk's angular melodies, use of dissonance, sudden silences, and distinctive flat-fingered piano technique were so idiosyncratic that critics dismissed him for years before recognizing him as one of jazz's essential voices",
         "Monk was the first jazz musician to record with a symphony orchestra, blending bebop harmonics with classical orchestration in a way that created a new genre called 'third stream jazz'",
+        "Monk's angular melodies, use of dissonance, sudden silences, and distinctive flat-fingered piano technique were so idiosyncratic that critics dismissed him for years before recognizing him as one of jazz's essential voices",
         "Monk's compositions were designed to be deliberately unplayable by anyone except himself — the unusual fingering required by his pieces meant other pianists couldn't record them without years of specialized study"
       ],
       "answer": "Monk's angular melodies, use of dissonance, sudden silences, and distinctive flat-fingered piano technique were so idiosyncratic that critics dismissed him for years before recognizing him as one of jazz's essential voices",
@@ -96,10 +96,10 @@
       "category": "Pop Culture",
       "question": "Which artist holds the record for the most Grammy Awards won in history?",
       "options": [
-        "Adele",
+        "Beyonce",
         "Kanye West",
-        "Taylor Swift",
-        "Beyonce"
+        "Adele",
+        "Taylor Swift"
       ],
       "answer": "Beyonce",
       "explanation": "Beyoncé holds the record for the most Grammy wins in history. She set the single-night record at the 2024 Grammy Awards and continued adding to her total at the 2025 ceremony with wins for her Cowboy Carter album. She is the most decorated artist in Grammy history.",
@@ -109,10 +109,10 @@
       "category": "Geography",
       "question": "Which sea lies between Europe and Africa and is almost entirely enclosed by land?",
       "options": [
-        "Red Sea",
+        "Mediterranean Sea",
         "North Sea",
         "Black Sea",
-        "Mediterranean Sea"
+        "Red Sea"
       ],
       "answer": "Mediterranean Sea",
       "explanation": "The Mediterranean Sea is bordered by Southern Europe to the north, North Africa to the south, and the Middle East to the east. Its only natural connection to the Atlantic Ocean is through the Strait of Gibraltar. It has been a crucial crossroads of civilization for thousands of years — the Romans called it 'Mare Nostrum' (Our Sea).",
@@ -122,10 +122,10 @@
       "category": "Science & Nature",
       "question": "What is the name of the process by which plants lose water through their leaves?",
       "options": [
+        "Transpiration",
         "Evaporation",
-        "Osmosis",
         "Respiration",
-        "Transpiration"
+        "Osmosis"
       ],
       "answer": "Transpiration",
       "explanation": "Transpiration is the process by which water moves through a plant from roots to leaves and evaporates into the air through tiny pores called stomata. A single large tree can transpire hundreds of liters of water per day. The Amazon rainforest transpires so much water that it generates its own rainfall — the forest creates the rain that sustains it.",
@@ -148,10 +148,10 @@
       "category": "Science & Nature",
       "question": "What describes the feeding relationships in an ecosystem where organisms are grouped by how many steps they are from the original energy source?",
       "options": [
+        "Biotic chain",
         "Food web",
-        "Ecological pyramid",
         "Trophic levels",
-        "Biotic chain"
+        "Ecological pyramid"
       ],
       "answer": "Trophic levels",
       "explanation": "Trophic levels describe the position of an organism in a food chain based on its energy source. Level 1 (producers): plants that convert sunlight. Level 2 (primary consumers): herbivores eating plants. Level 3 (secondary consumers): carnivores eating herbivores. Level 4 (tertiary consumers): top predators. Energy is lost at each level — typically only about 10% transfers up. This 10% rule explains why food chains rarely have more than 4-5 levels and why it takes far more plant calories to produce a kilogram of beef than a kilogram of grain.",

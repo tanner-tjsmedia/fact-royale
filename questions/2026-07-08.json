@@ -4,10 +4,10 @@
       "category": "History",
       "question": "What was the name of the ship on which the Pilgrims sailed to America in 1620?",
       "options": [
+        "Mayflower",
         "Santa María",
         "Nina",
-        "The Endeavour",
-        "Mayflower"
+        "The Endeavour"
       ],
       "answer": "Mayflower",
       "explanation": "The Mayflower carried 102 passengers and about 30 crew members from Plymouth, England to Plymouth, Massachusetts in 1620. The voyage took 66 days. The Pilgrims signed the Mayflower Compact aboard the ship, which was one of the first governing documents in the New World.",
@@ -17,9 +17,9 @@
       "category": "History",
       "question": "Which country was the first to give women the right to vote in a national election in Europe?",
       "options": [
-        "Sweden",
-        "Germany",
         "Finland",
+        "Germany",
+        "Sweden",
         "Norway"
       ],
       "answer": "Finland",
@@ -30,10 +30,10 @@
       "category": "Sports",
       "question": "What is the name of the award given to the best player in the NHL each season?",
       "options": [
+        "The Conn Smythe",
         "The Vezina Trophy",
         "The Norris Trophy",
-        "The Hart Trophy",
-        "The Conn Smythe"
+        "The Hart Trophy"
       ],
       "answer": "The Hart Trophy",
       "explanation": "The Hart Memorial Trophy is awarded annually to the player judged most valuable to his team in the NHL. It has been awarded since 1924. Wayne Gretzky won it a record nine times. The Vezina Trophy goes to the best goaltender, and the Norris to the best defenseman.",
@@ -43,10 +43,10 @@
       "category": "Sports",
       "question": "How many events are in a decathlon?",
       "options": [
-        "8",
+        "15",
         "10",
-        "12",
-        "15"
+        "8",
+        "12"
       ],
       "answer": "10",
       "explanation": "A decathlon consists of ten events spread over two days: 100m, long jump, shot put, high jump, and 400m on day one; 110m hurdles, discus, pole vault, javelin, and 1500m on day two. The winner is often called 'the world's greatest athlete.'",
@@ -57,9 +57,9 @@
       "question": "Which film series features a character who says 'May the Force be with you'?",
       "options": [
         "Star Trek",
-        "The Matrix",
         "Dune",
-        "Star Wars"
+        "Star Wars",
+        "The Matrix"
       ],
       "answer": "Star Wars",
       "explanation": "'May the Force be with you' is the iconic phrase from the Star Wars franchise, first used in the original 1977 film. The Force is a metaphysical power that connects all living things in the Star Wars universe. May 4 is celebrated as 'Star Wars Day' based on a pun on the phrase.",
@@ -69,10 +69,10 @@
       "category": "Pop Culture",
       "question": "Which artist released the albums 'Lemonade' and 'Renaissance'?",
       "options": [
-        "Rihanna",
-        "Nicki Minaj",
         "Cardi B",
-        "Beyoncé"
+        "Nicki Minaj",
+        "Beyoncé",
+        "Rihanna"
       ],
       "answer": "Beyoncé",
       "explanation": "Beyoncé released 'Lemonade' as a visual album in 2016 and 'Renaissance' in 2022. 'Lemonade' received widespread critical acclaim and was named album of the year by numerous publications. 'Renaissance' debuted at number one and won the Grammy for Best Dance/Electronic Album.",
@@ -83,9 +83,9 @@
       "question": "Which director made 'E.T. the Extra-Terrestrial' and 'Jaws'?",
       "options": [
         "James Cameron",
+        "Ron Howard",
         "George Lucas",
-        "Steven Spielberg",
-        "Ron Howard"
+        "Steven Spielberg"
       ],
       "answer": "Steven Spielberg",
       "explanation": "Steven Spielberg directed both Jaws (1975) and E.T. the Extra-Terrestrial (1982). Jaws is credited with creating the 'summer blockbuster' concept. E.T. was the highest-grossing film of all time for 11 years until Jurassic Park (also Spielberg) surpassed it.",
@@ -95,10 +95,10 @@
       "category": "History",
       "question": "The 'Trojan War' was fought over which city?",
       "options": [
-        "Athens",
-        "Sparta",
+        "Corinth",
         "Troy",
-        "Corinth"
+        "Athens",
+        "Sparta"
       ],
       "answer": "Troy",
       "explanation": "The Trojan War, as described in Homer's Iliad, was fought between the Greeks and the city of Troy (in present-day Turkey). It began when Paris of Troy took Helen from Sparta. The Greeks used the Trojan Horse to infiltrate the city after a 10-year siege.",
@@ -108,10 +108,10 @@
       "category": "Geography",
       "question": "Angel Falls, the world's highest uninterrupted waterfall, is located in which country?",
       "options": [
+        "Venezuela",
         "Brazil",
-        "Colombia",
         "Ecuador",
-        "Venezuela"
+        "Colombia"
       ],
       "answer": "Venezuela",
       "explanation": "Angel Falls in Venezuela drops 979 meters (3,212 feet), making it the world's highest uninterrupted waterfall. It cascades off Auyán-tepui, a flat-topped mountain in the Canaima National Park. It was named after American aviator Jimmie Angel, who flew over it in 1933 and brought it to the world's attention.",
@@ -121,10 +121,10 @@
       "category": "Science & Nature",
       "question": "The Cosmic Microwave Background (CMB) radiation, discovered accidentally in 1965, is considered the strongest evidence for the Big Bang. What is it?",
       "options": [
-        "The CMB is radio noise generated by the collective electromagnetic activity of all galaxies in the observable universe, which adds up to a uniform hiss detectable from any point in space",
-        "The CMB is the afterglow of the Big Bang itself — thermal radiation from 380,000 years after the Big Bang, when the universe cooled enough for atoms to form and light to travel freely for the first time",
+        "The CMB is heat from the interior of the Milky Way's central black hole that radiates outward in all directions, forming a uniform temperature background across the sky",
         "The CMB is gamma radiation from the first stars, which burned so intensely that their light has been redshifted into microwave frequencies after 13 billion years of cosmic expansion",
-        "The CMB is heat from the interior of the Milky Way's central black hole that radiates outward in all directions, forming a uniform temperature background across the sky"
+        "The CMB is the afterglow of the Big Bang itself — thermal radiation from 380,000 years after the Big Bang, when the universe cooled enough for atoms to form and light to travel freely for the first time",
+        "The CMB is radio noise generated by the collective electromagnetic activity of all galaxies in the observable universe, which adds up to a uniform hiss detectable from any point in space"
       ],
       "answer": "The CMB is the afterglow of the Big Bang itself — thermal radiation from 380,000 years after the Big Bang, when the universe cooled enough for atoms to form and light to travel freely for the first time",
       "explanation": "For the first 380,000 years after the Big Bang, the universe was so hot and dense that photons couldn't travel freely — they bounced around in an opaque plasma. When the universe cooled to ~3,000 K, electrons combined with protons to form hydrogen atoms (the 'recombination' epoch), releasing photons that have traveled unimpeded ever since. That light has been stretched by cosmic expansion from visible/infrared to microwave frequencies. Arno Penzias and Robert Wilson at Bell Labs discovered it accidentally as 'antenna noise' in 1965 — and won the 1978 Nobel Prize. The CMB temperature is 2.725 K everywhere.",
@@ -134,10 +134,10 @@
       "category": "Geography",
       "question": "The Baltic Sea is one of the world's largest bodies of brackish water (a mix of salt and fresh water). Which of these countries does NOT border the Baltic Sea?",
       "options": [
-        "Finland",
-        "Norway",
         "Poland",
-        "Sweden"
+        "Norway",
+        "Sweden",
+        "Finland"
       ],
       "answer": "Norway",
       "explanation": "Norway is the only Scandinavian country that does not border the Baltic Sea — its coast faces the Norwegian Sea (part of the North Atlantic). The Baltic Sea is bordered by nine countries: Sweden, Finland, Russia, Estonia, Latvia, Lithuania, Poland, Germany, and Denmark. Its relatively low salinity (due to limited exchange with the Atlantic and freshwater inflow) makes it significantly less salty than most ocean water.",
@@ -148,8 +148,8 @@
       "question": "What branch of medicine specializes in the diagnosis and treatment of diseases of the brain and nervous system?",
       "options": [
         "Cardiology",
-        "Nephrology",
         "Neurology",
+        "Nephrology",
         "Endocrinology"
       ],
       "answer": "Neurology",

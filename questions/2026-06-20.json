@@ -5,9 +5,9 @@
       "category": "History",
       "question": "The Black Death pandemic in the 14th century killed approximately what fraction of Europe's population?",
       "options": [
-        "One tenth",
         "One quarter",
         "One third",
+        "One tenth",
         "One half"
       ],
       "answer": "One third",
@@ -18,10 +18,10 @@
       "category": "History",
       "question": "In what year was the Roman Colosseum completed?",
       "options": [
-        "52 AD",
-        "80 AD",
+        "200 AD",
         "120 AD",
-        "200 AD"
+        "52 AD",
+        "80 AD"
       ],
       "answer": "80 AD",
       "explanation": "The Colosseum in Rome was completed around 80 AD under Emperor Titus, though construction began under Emperor Vespasian around 70 AD. It could hold between 50,000 and 80,000 spectators and hosted gladiatorial contests, animal hunts, executions, and mock naval battles. It remains the world's largest ancient amphitheater.",
@@ -31,9 +31,9 @@
       "category": "History",
       "question": "Alexander the Great was the king of which ancient kingdom?",
       "options": [
+        "Macedonia",
         "Athens",
         "Sparta",
-        "Macedonia",
         "Persia"
       ],
       "answer": "Macedonia",
@@ -46,8 +46,8 @@
       "options": [
         "9.27 seconds",
         "9.58 seconds",
-        "9.69 seconds",
-        "9.84 seconds"
+        "9.84 seconds",
+        "9.69 seconds"
       ],
       "answer": "9.58 seconds",
       "explanation": "Usain Bolt set the 100m world record of 9.58 seconds at the 2009 World Championships in Berlin, Germany. At peak speed during the race, he was running approximately 27.8 mph (44.7 km/h). Bolt also holds the 200m world record of 19.19 seconds and won 8 Olympic gold medals across three Games.",
@@ -57,10 +57,10 @@
       "category": "Sports",
       "question": "How many players from one team are on the ice at a time during a standard NHL hockey game?",
       "options": [
-        "5",
         "6",
         "7",
-        "8"
+        "8",
+        "5"
       ],
       "answer": "6",
       "explanation": "Each NHL team has 6 players on the ice at a time: one goaltender, two defensemen, and three forwards (two wingers and a center). When a player is penalized, their team plays 'shorthanded' with only 5 or 4 skaters, giving the opposing team a 'power play' advantage.",
@@ -70,10 +70,10 @@
       "category": "Pop Culture",
       "question": "Claude Monet's Water Lilies series — painted in the last decades of his life — are among the world's most visited artworks. What circumstances make them remarkable?",
       "options": [
-        "Monet painted all 250 Water Lilies canvases from memory after going completely blind",
         "Monet painted most of the series while nearly blind from cataracts, using his knowledge of color relationships and labeling his paint tubes to work through his failing vision",
+        "All Water Lilies were painted on a single continuous canvas that Monet later cut into sections displayed in different museums",
         "Monet created the series as a deliberate critique of photography, painting in conditions no camera could replicate",
-        "All Water Lilies were painted on a single continuous canvas that Monet later cut into sections displayed in different museums"
+        "Monet painted all 250 Water Lilies canvases from memory after going completely blind"
       ],
       "answer": "Monet painted most of the series while nearly blind from cataracts, using his knowledge of color relationships and labeling his paint tubes to work through his failing vision",
       "explanation": "Monet developed cataracts in both eyes around 1912 and for years refused surgery. His later canvases show increasingly loose, reddish brushwork — the red shift in his vision from the cataracts altered his color perception. He finally had surgery in 1923 and was reportedly horrified by how his recent paintings looked. The large-scale panels now in the Orangerie museum in Paris were his final gift to France, installed after his death in 1926.",
@@ -83,10 +83,10 @@
       "category": "Pop Culture",
       "question": "Beethoven composed some of his most celebrated works, including his 9th Symphony, while suffering from what condition?",
       "options": [
-        "Blindness",
-        "Deafness",
         "Paralysis",
-        "Chronic pain"
+        "Chronic pain",
+        "Blindness",
+        "Deafness"
       ],
       "answer": "Deafness",
       "explanation": "Ludwig van Beethoven began losing his hearing in his late 20s and was almost completely deaf by his mid-40s, yet continued composing. His 9th Symphony — which includes 'Ode to Joy' — was composed entirely while deaf. At its 1824 premiere, he reportedly had to be turned around to see the audience's standing ovation because he couldn't hear it.",
@@ -96,9 +96,9 @@
       "category": "Pop Culture",
       "question": "Breaking Bad (2008–2013) is frequently cited as one of television's greatest achievements. What was creator Vince Gilligan's stated goal for the show's protagonist Walter White?",
       "options": [
-        "To create the most realistic portrayal of the US drug trade ever shown on television",
-        "To turn 'Mr. Chips into Scarface' — transforming a sympathetic chemistry teacher into a calculating drug lord over five seasons",
         "To show that the American healthcare system drives ordinary people to crime",
+        "To turn 'Mr. Chips into Scarface' — transforming a sympathetic chemistry teacher into a calculating drug lord over five seasons",
+        "To create the most realistic portrayal of the US drug trade ever shown on television",
         "To explore how intelligence and pride can coexist with moral blindness"
       ],
       "answer": "To turn 'Mr. Chips into Scarface' — transforming a sympathetic chemistry teacher into a calculating drug lord over five seasons",
@@ -122,10 +122,10 @@
       "category": "Science & Nature",
       "question": "Which part of the human brain, located at the back of the skull, is primarily responsible for balance, coordination, and fine motor control?",
       "options": [
-        "Cerebrum",
-        "Cerebellum",
         "Hippocampus",
-        "Brain stem"
+        "Cerebellum",
+        "Brain stem",
+        "Cerebrum"
       ],
       "answer": "Cerebellum",
       "explanation": "The cerebellum ('little brain' in Latin) occupies the rear of the skull and contains more neurons than the rest of the brain combined, despite accounting for only about 10% of total brain volume. It coordinates movement, maintains balance, and refines fine motor skills. Alcohol impairs the cerebellum first — which is why intoxicated people stumble and have poor coordination before their thinking is severely affected. The cerebrum handles reasoning; the brain stem controls breathing and heart rate.",
@@ -135,10 +135,10 @@
       "category": "Geography",
       "question": "The Pantanal, the world's largest tropical wetland covering approximately 150,000 km², is located primarily in which country?",
       "options": [
+        "Brazil",
         "Argentina",
         "Bolivia",
-        "Paraguay",
-        "Brazil"
+        "Paraguay"
       ],
       "answer": "Brazil",
       "explanation": "The Pantanal covers about 150,000-195,000 km² primarily in Brazil's Mato Grosso do Sul state, with portions in Bolivia and Paraguay. Unlike the Amazon, the Pantanal floods seasonally (during wet season, 80% is submerged) then dries, creating a pulsing mosaic of habitats. It has one of the highest densities of wildlife in the Americas: jaguars, giant anteaters, hyacinth macaws, caimans, giant otters, and tapirs. The 2020 wildfires burned roughly 30% of the Pantanal.",
@@ -148,10 +148,10 @@
       "category": "Science & Nature",
       "question": "What distinguishes plant cells from animal cells — what structure does a plant cell have that an animal cell lacks?",
       "options": [
-        "Mitochondria",
+        "Ribosomes",
         "Cell wall",
-        "Nucleus",
-        "Ribosomes"
+        "Mitochondria",
+        "Nucleus"
       ],
       "answer": "Cell wall",
       "explanation": "Plant cells have a rigid cell wall made of cellulose outside their cell membrane, providing structural support and protection. Animal cells lack a cell wall — they have only a flexible cell membrane. Plant cells also contain chloroplasts (for photosynthesis) and large central vacuoles (for water storage and turgor pressure). The cell wall is what makes plants rigid enough to stand without skeletons — trees are essentially stacked cells with cellulose walls holding them upright.",

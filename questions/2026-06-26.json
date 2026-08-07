@@ -19,9 +19,9 @@
       "question": "The Trojan Horse was a military stratagem used by the Greeks against which city?",
       "options": [
         "Sparta",
+        "Corinth",
         "Troy",
-        "Carthage",
-        "Corinth"
+        "Carthage"
       ],
       "answer": "Troy",
       "explanation": "According to Greek mythology (and possibly based on historical events around 1200 BC), the Greeks ended their 10-year siege of Troy by hiding soldiers inside a giant wooden horse, which the Trojans brought inside their city walls as a trophy. That night, the Greek soldiers emerged and opened the city gates. The story is told in Homer's Iliad and Odyssey.",
@@ -31,10 +31,10 @@
       "category": "History",
       "question": "The Prohibition era in the United States, banning alcohol, lasted from 1920 to which year?",
       "options": [
-        "1929",
-        "1933",
+        "1941",
         "1937",
-        "1941"
+        "1929",
+        "1933"
       ],
       "answer": "1933",
       "explanation": "Prohibition — the nationwide ban on alcohol production and sale — was enacted by the 18th Amendment in 1920 and repealed by the 21st Amendment in 1933. Rather than eliminating drinking, it created a booming underground economy of speakeasies, bootleggers, and organized crime. Al Capone's criminal empire was largely built on illegal alcohol sales during this period.",
@@ -44,9 +44,9 @@
       "category": "Sports",
       "question": "Which country has won the most Summer Olympic gold medals in the history of the Games?",
       "options": [
-        "Russia",
-        "China",
         "Great Britain",
+        "China",
+        "Russia",
         "United States"
       ],
       "answer": "United States",
@@ -58,9 +58,9 @@
       "question": "The first Super Bowl was played in 1967 between the Green Bay Packers and which team?",
       "options": [
         "Dallas Cowboys",
-        "Kansas City Chiefs",
+        "Miami Dolphins",
         "Oakland Raiders",
-        "Miami Dolphins"
+        "Kansas City Chiefs"
       ],
       "answer": "Kansas City Chiefs",
       "explanation": "Super Bowl I was played on January 15, 1967, at the Los Angeles Memorial Coliseum. The Green Bay Packers defeated the Kansas City Chiefs 35-10. The game was broadcast on both NBC and CBS simultaneously — the only Super Bowl to air on two networks. Quarterback Bart Starr was named MVP. Green Bay coach Vince Lombardi is the reason the Super Bowl trophy is called the Lombardi Trophy.",
@@ -70,10 +70,10 @@
       "category": "Pop Culture",
       "question": "Citizen Kane (1941), often called the greatest film ever made, was directed by and starred which filmmaker?",
       "options": [
-        "Frank Capra",
-        "John Ford",
+        "Howard Hawks",
         "Orson Welles",
-        "Howard Hawks"
+        "Frank Capra",
+        "John Ford"
       ],
       "answer": "Orson Welles",
       "explanation": "Orson Welles directed, co-wrote, and starred as Charles Foster Kane in Citizen Kane (1941), which he made at age 25 for RKO Pictures. The film pioneered numerous cinematic techniques including deep focus photography and non-linear storytelling. Despite being largely overlooked at the time of release, it has topped most 'Greatest Films Ever Made' lists for decades.",
@@ -83,9 +83,9 @@
       "category": "Pop Culture",
       "question": "Which legendary singer's real name was Stefani Joanne Angelina Germanotta?",
       "options": [
-        "Katy Perry",
-        "Rihanna",
         "Lady Gaga",
+        "Rihanna",
+        "Katy Perry",
         "Beyoncé"
       ],
       "answer": "Lady Gaga",
@@ -96,10 +96,10 @@
       "category": "Pop Culture",
       "question": "Which film franchise holds the record as the highest-grossing of all time?",
       "options": [
+        "Marvel Cinematic Universe",
         "Harry Potter",
         "Star Wars",
-        "James Bond",
-        "Marvel Cinematic Universe"
+        "James Bond"
       ],
       "answer": "Marvel Cinematic Universe",
       "explanation": "The Marvel Cinematic Universe (MCU) is the highest-grossing film franchise in history, with over $29 billion in worldwide box office revenue across more than 30 films as of 2023. The franchise began with Iron Man (2008) and has expanded to include The Avengers, Black Panther, Spider-Man, and many others. Avengers: Endgame (2019) is the second highest-grossing film of all time at $2.8 billion.",
@@ -109,10 +109,10 @@
       "category": "Geography",
       "question": "The Amazon River empties into which ocean?",
       "options": [
-        "Pacific Ocean",
         "Caribbean Sea",
-        "Indian Ocean",
-        "Atlantic Ocean"
+        "Atlantic Ocean",
+        "Pacific Ocean",
+        "Indian Ocean"
       ],
       "answer": "Atlantic Ocean",
       "explanation": "The Amazon flows east across South America and empties into the Atlantic Ocean off the coast of Brazil. It discharges more freshwater into the ocean than the next seven largest rivers combined — about 20% of all river water that enters the world's oceans.",
@@ -122,10 +122,10 @@
       "category": "Science & Nature",
       "question": "NASA's Perseverance rover landed on Mars in February 2021. What unique experiment did it carry that marked a first in the history of space exploration?",
       "options": [
-        "It carried the first telescope deployed on another planet's surface, mapping Mars's two moons — Phobos and Deimos — from the Martian ground in unprecedented detail",
-        "It carried Ingenuity — a small helicopter that made the first powered, controlled flight on another planet, demonstrating flight is possible in Mars's thin atmosphere (1% of Earth's density)",
+        "It was the first spacecraft to carry preserved human DNA to another planet, as part of a test of whether biological material can survive interplanetary travel",
         "It contained a nuclear fusion reactor small enough to fit in a car, powering the rover for an indefinite mission without the solar power limitations of previous rovers",
-        "It was the first spacecraft to carry preserved human DNA to another planet, as part of a test of whether biological material can survive interplanetary travel"
+        "It carried Ingenuity — a small helicopter that made the first powered, controlled flight on another planet, demonstrating flight is possible in Mars's thin atmosphere (1% of Earth's density)",
+        "It carried the first telescope deployed on another planet's surface, mapping Mars's two moons — Phobos and Deimos — from the Martian ground in unprecedented detail"
       ],
       "answer": "It carried Ingenuity — a small helicopter that made the first powered, controlled flight on another planet, demonstrating flight is possible in Mars's thin atmosphere (1% of Earth's density)",
       "explanation": "Ingenuity's first flight on April 19, 2021 lasted 39 seconds and reached an altitude of 3 meters — a Wright Brothers-scale moment. Mars's atmosphere is only 1% as dense as Earth's, requiring Ingenuity's rotors to spin at 2,400 rpm (five times faster than a typical helicopter) to generate lift. The rover itself drills and caches rock cores for eventual return to Earth — the first step in a sample-return mission. Previous Mars rovers include Sojourner (1997), Spirit and Opportunity (2004), and Curiosity (2012), which is still operating.",
@@ -135,10 +135,10 @@
       "category": "Geography",
       "question": "Machu Picchu, a 15th-century Inca citadel at 2,430 meters above sea level, is located in which country?",
       "options": [
-        "Bolivia",
-        "Ecuador",
         "Peru",
-        "Colombia"
+        "Colombia",
+        "Bolivia",
+        "Ecuador"
       ],
       "answer": "Peru",
       "explanation": "Machu Picchu was built around 1450 CE during the reign of the Inca emperor Pachacuti and was abandoned about 100 years later, likely during the Spanish conquest. It was largely unknown to the outside world until American historian Hiram Bingham III brought it to international attention in 1911. Built without mortar, its stones fit so precisely that a credit card cannot be inserted between them. It sits in the Andes above the Urubamba River.",
@@ -148,10 +148,10 @@
       "category": "Science & Nature",
       "question": "What is the name of the mineral hardness scale that ranks substances from 1 (talc) to 10 (diamond)?",
       "options": [
-        "Beaufort Scale",
         "Richter Scale",
         "Mohs Scale",
-        "Vickers Scale"
+        "Vickers Scale",
+        "Beaufort Scale"
       ],
       "answer": "Mohs Scale",
       "explanation": "The Mohs Hardness Scale was created by German mineralogist Friedrich Mohs in 1812. It ranks minerals from 1 (talc — can be scratched by a fingernail) to 10 (diamond — scratches everything). A mineral can scratch any mineral with a lower Mohs number. Common reference points: fingernail ~2.5, copper coin ~3, steel knife ~5.5, quartz ~7. The scale is not linear — the jump from 9 (corundum/sapphire) to 10 (diamond) is enormous in absolute hardness.",

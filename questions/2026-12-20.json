@@ -5,10 +5,10 @@
       "category": "History",
       "question": "In 1498, Portuguese explorer Vasco da Gama became the first European to reach India by sea. Why was this voyage so significant?",
       "options": [
+        "It led to the discovery of Brazil when his fleet was blown off course",
         "It proved the Earth was round by completing a circumnavigation",
-        "It opened a direct sea route to Asia, breaking the Ottoman monopoly on overland spice trade",
         "It established the first European colony in Asia at Goa",
-        "It led to the discovery of Brazil when his fleet was blown off course"
+        "It opened a direct sea route to Asia, breaking the Ottoman monopoly on overland spice trade"
       ],
       "answer": "It opened a direct sea route to Asia, breaking the Ottoman monopoly on overland spice trade",
       "explanation": "Da Gama sailed around the Cape of Good Hope (first rounded by Bartolomeu Dias in 1488) and arrived at Calicut (Kozhikode) on India's Malabar Coast in May 1498. The route broke the Ottoman stranglehold on overland spice trade routes, dramatically shifting the balance of European commercial power toward Atlantic nations — particularly Portugal, then Spain, then the Netherlands and England.",
@@ -18,10 +18,10 @@
       "category": "History",
       "question": "The Great Schism of 1054 permanently divided Christianity. What were the two branches that emerged, and what was the primary dispute?",
       "options": [
-        "Catholicism and Lutheranism — dispute over indulgences and papal authority",
         "Roman Catholicism and Eastern Orthodoxy — dispute over papal authority and the nature of the Holy Spirit",
-        "Roman Catholicism and Anglicanism — dispute over the Pope's political power in England",
-        "Eastern Orthodoxy and Coptic Christianity — dispute over the nature of Christ"
+        "Catholicism and Lutheranism — dispute over indulgences and papal authority",
+        "Eastern Orthodoxy and Coptic Christianity — dispute over the nature of Christ",
+        "Roman Catholicism and Anglicanism — dispute over the Pope's political power in England"
       ],
       "answer": "Roman Catholicism and Eastern Orthodoxy — dispute over papal authority and the nature of the Holy Spirit",
       "explanation": "The Great Schism of 1054 split Christianity into the Roman Catholic Church (led by the Pope in Rome) and the Eastern Orthodox Church (centered in Constantinople). Key disputes included the Pope's claim to universal authority over all Christians, and the 'Filioque' controversy — whether the Holy Spirit proceeds from the Father alone (Orthodox position) or from both Father and Son (Catholic position). The leaders mutually excommunicated each other.",
@@ -32,8 +32,8 @@
       "question": "The California Gold Rush of 1848–1855 transformed the American West. What triggered the rush, and roughly how many people arrived in California?",
       "options": [
         "Silver discovered near Sacramento; approximately 50,000 migrants arrived",
-        "Gold discovered at Sutter's Mill; approximately 300,000 people arrived within a few years",
         "Gold discovered in the Sierra Nevada; approximately 100,000 people arrived in a single year",
+        "Gold discovered at Sutter's Mill; approximately 300,000 people arrived within a few years",
         "Diamond deposits found near San Francisco Bay; approximately 200,000 people arrived"
       ],
       "answer": "Gold discovered at Sutter's Mill; approximately 300,000 people arrived within a few years",
@@ -44,9 +44,9 @@
       "category": "Sports",
       "question": "Indian cricket legend Sachin Tendulkar is considered by many to be the greatest batsman in cricket history. What makes his Test career record unique?",
       "options": [
-        "He is the only player to score 100 international centuries (hundreds)",
         "He scored more runs in a single Test match than any other player in history",
         "He played in six Cricket World Cup finals, winning three",
+        "He is the only player to score 100 international centuries (hundreds)",
         "He is the only player to average over 100 runs per innings in Test cricket"
       ],
       "answer": "He is the only player to score 100 international centuries (hundreds)",
@@ -57,10 +57,10 @@
       "category": "Sports",
       "question": "The butterfly stroke in competitive swimming is known for its dramatic, energy-intensive technique. How and when did it originate?",
       "options": [
-        "Invented in Australia in the 1950s as a way to increase speed in freestyle events",
-        "It emerged in the early 1930s when swimmers discovered the out-of-water arm recovery in breaststroke was faster, leading to a rule split",
+        "Developed in Japan in the 1940s and introduced at the 1948 London Olympics",
         "Created by Olympic coaches in the 1960s to give swimmers an advantage over the backstroke",
-        "Developed in Japan in the 1940s and introduced at the 1948 London Olympics"
+        "It emerged in the early 1930s when swimmers discovered the out-of-water arm recovery in breaststroke was faster, leading to a rule split",
+        "Invented in Australia in the 1950s as a way to increase speed in freestyle events"
       ],
       "answer": "It emerged in the early 1930s when swimmers discovered the out-of-water arm recovery in breaststroke was faster, leading to a rule split",
       "explanation": "In the early 1930s, swimmers discovered that recovering their arms over the water (rather than through it, as in breaststroke) was dramatically faster. They began using this technique in breaststroke races, winning repeatedly. FINA eventually split breaststroke into two separate events in 1952, officially creating the butterfly stroke, which debuted as a distinct event at the 1956 Melbourne Olympics.",
@@ -70,10 +70,10 @@
       "category": "Pop Culture",
       "question": "Akira Kurosawa's 1950 film Rashomon is famous for its innovative narrative structure. What technique did it pioneer?",
       "options": [
-        "A film entirely told in reverse chronological order",
         "The same event depicted from multiple conflicting first-person perspectives",
-        "Splitting a single narrative into parallel storylines across different time periods",
-        "A film with no dialogue, told entirely through visual storytelling"
+        "A film with no dialogue, told entirely through visual storytelling",
+        "A film entirely told in reverse chronological order",
+        "Splitting a single narrative into parallel storylines across different time periods"
       ],
       "answer": "The same event depicted from multiple conflicting first-person perspectives",
       "explanation": "Rashomon presents four contradictory accounts of a samurai's death and his wife's assault in feudal Japan — told by the bandit, the wife, the dead samurai (through a medium), and a woodcutter who witnessed events. Each account makes the narrator look better and others worse. The film established the 'Rashomon effect' as a term for contradictory accounts of the same event. It won the Golden Lion at Venice and the Honorary Oscar, introducing world cinema to Japanese filmmaking.",
@@ -83,10 +83,10 @@
       "category": "Pop Culture",
       "question": "Studio Ghibli's 1988 animated film My Neighbor Totoro has become one of the world's most beloved animated films. What is the film's central spirit character?",
       "options": [
+        "A spirit of the rain who only appears during storms",
         "A giant forest spirit that only children can see",
         "A shape-shifting river god who transforms into an animal",
-        "A soot sprite that hides in dark corners of old houses",
-        "A spirit of the rain who only appears during storms"
+        "A soot sprite that hides in dark corners of old houses"
       ],
       "answer": "A giant forest spirit that only children can see",
       "explanation": "Totoro is a massive, friendly forest spirit who lives inside a large camphor tree and is visible only to young children — represented in the film by sisters Satsuki and Mei. Director Hayao Miyazaki drew on Japanese folklore and his own childhood memories of rural Japan. Totoro became Studio Ghibli's mascot and one of animation's most iconic characters.",
@@ -97,9 +97,9 @@
       "question": "Barry Jenkins's 2016 film Moonlight made history at the Academy Awards. What was notable about its Best Picture win?",
       "options": [
         "It was the first animated film to win Best Picture",
-        "Its win was announced after La La Land was incorrectly declared the winner first — the most dramatic mistake in Oscar history",
         "It was the first foreign-language film to win Best Picture",
-        "Its lead actor became the youngest Best Actor winner in Oscar history"
+        "Its lead actor became the youngest Best Actor winner in Oscar history",
+        "Its win was announced after La La Land was incorrectly declared the winner first — the most dramatic mistake in Oscar history"
       ],
       "answer": "Its win was announced after La La Land was incorrectly declared the winner first — the most dramatic mistake in Oscar history",
       "explanation": "Presenters Warren Beatty and Faye Dunaway were handed the wrong envelope and announced La La Land as Best Picture winner. After La La Land's producers began their acceptance speeches, the error was discovered and Moonlight was announced as the true winner. Moonlight, based on Tarell Alvin McCraney's play, follows a young Black man in Miami across three chapters of his life and became the first film with an all-Black cast to win Best Picture.",
@@ -109,10 +109,10 @@
       "category": "Geography",
       "question": "The Bay of Fundy, located between the Canadian provinces of New Brunswick and Nova Scotia, holds a world record related to the ocean. What is it?",
       "options": [
-        "Deepest coastal bay in the world at over 3,000 meters",
         "World's highest tidal range — tides can rise and fall over 16 meters (53 feet)",
-        "Highest concentration of bioluminescent plankton of any bay worldwide",
-        "Largest tidal bore river system, with waves traveling 200 km upstream"
+        "Largest tidal bore river system, with waves traveling 200 km upstream",
+        "Deepest coastal bay in the world at over 3,000 meters",
+        "Highest concentration of bioluminescent plankton of any bay worldwide"
       ],
       "answer": "World's highest tidal range — tides can rise and fall over 16 meters (53 feet)",
       "explanation": "The Bay of Fundy has the world's highest tidal range — up to 16.3 meters (53 feet) difference between high and low tide. This is caused by the bay's funnel shape and length (~270 km), which create a resonance effect perfectly matching the 12.4-hour tidal cycle. 100 billion tonnes of seawater flow in and out with each tide — more than the combined flow of all the world's rivers.",
@@ -123,9 +123,9 @@
       "question": "The Strait of Bab-el-Mandeb connects the Red Sea to the Gulf of Aden. Why is this narrow passage strategically critical?",
       "options": [
         "It is the only ice-free route connecting Europe to Asia in winter",
+        "It sits atop the world's largest undersea oil deposit, making it vital for energy security",
         "It controls the southern entrance to the Red Sea and thus the Suez Canal route between Europe and Asia",
-        "It is the world's busiest shipping lane by number of vessels",
-        "It sits atop the world's largest undersea oil deposit, making it vital for energy security"
+        "It is the world's busiest shipping lane by number of vessels"
       ],
       "answer": "It controls the southern entrance to the Red Sea and thus the Suez Canal route between Europe and Asia",
       "explanation": "The Strait of Bab-el-Mandeb (Arabic: 'Gate of Tears') separates Djibouti and Eritrea from Yemen at the southern end of the Red Sea. Any disruption here blocks the Suez Canal route — one of the world's busiest shipping lanes — forcing vessels to reroute around Africa's Cape of Good Hope, adding thousands of miles and weeks of travel time. Yemen's civil war and Houthi attacks on shipping have repeatedly threatened this chokepoint.",
@@ -135,9 +135,9 @@
       "category": "Science & Nature",
       "question": "Alexander Fleming's 1928 discovery of penicillin is one of medicine's most celebrated accidents. What did he observe that led to the discovery?",
       "options": [
-        "A blue-green mold contaminating a petri dish had killed the surrounding bacteria",
         "A patient treated with bread mold showed unexpected recovery from a bacterial infection",
         "A chemical reaction between two common laboratory compounds produced an antibacterial agent",
+        "A blue-green mold contaminating a petri dish had killed the surrounding bacteria",
         "A colleague accidentally spilled a fungal culture onto a bacterial sample, eliminating the bacteria"
       ],
       "answer": "A blue-green mold contaminating a petri dish had killed the surrounding bacteria",
@@ -148,9 +148,9 @@
       "category": "Science & Nature",
       "question": "Albert Einstein won his Nobel Prize not for the theory of relativity but for explaining the photoelectric effect. What did this explanation reveal?",
       "options": [
+        "The energy of a photon increases proportionally with its wavelength",
         "Light travels at the same speed in all reference frames regardless of the observer's motion",
         "Light consists of discrete energy packets (photons), and electrons are only ejected when a photon carries enough energy — proving light's quantum nature",
-        "The energy of a photon increases proportionally with its wavelength",
         "Electrons orbit atomic nuclei at fixed energy levels and cannot exist between them"
       ],
       "answer": "Light consists of discrete energy packets (photons), and electrons are only ejected when a photon carries enough energy — proving light's quantum nature",

@@ -5,9 +5,9 @@
       "category": "History",
       "question": "Which 18th-century French political philosopher's ideas about separation of powers and checks and balances heavily influenced the U.S. Constitution?",
       "options": [
+        "Rousseau",
         "Montesquieu",
         "Voltaire",
-        "Rousseau",
         "Locke"
       ],
       "answer": "Montesquieu",
@@ -18,10 +18,10 @@
       "category": "Science & Nature",
       "question": "What is the name of the force that causes the Moon to orbit Earth rather than fly off in a straight line?",
       "options": [
-        "Gravity",
-        "Centripetal force",
         "Electromagnetism",
-        "Strong nuclear force"
+        "Strong nuclear force",
+        "Centripetal force",
+        "Gravity"
       ],
       "answer": "Gravity",
       "explanation": "The Moon is in a continuous 'falling' state — it falls toward Earth but moves fast enough sideways that it falls around Earth. Gravity provides the centripetal force that keeps it in orbit. Newton realized the same force that makes apples fall makes the Moon orbit. Without gravity, the Moon would travel in a straight line into space.",
@@ -31,10 +31,10 @@
       "category": "Sports",
       "question": "Which NFL team has won the most Super Bowl championships?",
       "options": [
-        "New England Patriots and Pittsburgh Steelers (tied at 6)",
         "Dallas Cowboys",
+        "Green Bay Packers",
         "San Francisco 49ers",
-        "Green Bay Packers"
+        "New England Patriots and Pittsburgh Steelers (tied at 6)"
       ],
       "answer": "New England Patriots and Pittsburgh Steelers (tied at 6)",
       "explanation": "Both the New England Patriots and Pittsburgh Steelers have won 6 Super Bowls. The Patriots won under Tom Brady (SB XXXVI, XXXVIII, XXXIX, XLIX, LI, LIII). The Steelers won in 1974, 1975, 1978, 1979, 2005, 2008 with quarterbacks Bradshaw and Roethlisberger. The San Francisco 49ers have 5 wins.",
@@ -44,10 +44,10 @@
       "category": "Pop Culture",
       "question": "Which 1978 disco-era film, starring John Travolta and Olivia Newton-John, featured the hit songs 'Summer Nights' and 'You're the One That I Want'?",
       "options": [
-        "Grease",
-        "Saturday Night Fever",
         "Flashdance",
-        "Footloose"
+        "Footloose",
+        "Saturday Night Fever",
+        "Grease"
       ],
       "answer": "Grease",
       "explanation": "Grease (1978) was based on the 1971 stage musical. Its soundtrack album sold over 8 million copies in the US — among the best-selling soundtracks ever. Both leads were at the peak of their fame: Travolta from Saturday Night Fever (1977) and Newton-John from her solo music career.",
@@ -57,10 +57,10 @@
       "category": "Geography",
       "question": "The Ring of Fire, where approximately 90% of the world's earthquakes occur, encircles which ocean?",
       "options": [
-        "Pacific Ocean",
-        "Indian Ocean",
+        "Arctic Ocean",
         "Atlantic Ocean",
-        "Arctic Ocean"
+        "Pacific Ocean",
+        "Indian Ocean"
       ],
       "answer": "Pacific Ocean",
       "explanation": "The Pacific Ring of Fire is a 40,000 km horseshoe-shaped area where several tectonic plates meet — including the Pacific, Philippine, Juan de Fuca, Cocos, Nazca, and Antarctic plates. It contains 75% of the world's volcanoes (over 450) and is responsible for 90% of seismic activity.",
@@ -70,9 +70,9 @@
       "category": "History",
       "question": "Which English queen, daughter of Henry VIII and Anne Boleyn, ruled for 44 years (1558-1603) and is often called 'Gloriana' for presiding over England's cultural golden age?",
       "options": [
-        "Elizabeth I",
-        "Mary I",
         "Victoria",
+        "Mary I",
+        "Elizabeth I",
         "Mary Queen of Scots"
       ],
       "answer": "Elizabeth I",
@@ -83,10 +83,10 @@
       "category": "Pop Culture",
       "question": "Which streaming series on Netflix, depicting a Korean survival game with deadly childhood games, became the most-watched Netflix series in history upon its 2021 release?",
       "options": [
-        "Squid Game",
-        "Stranger Things",
         "Money Heist",
-        "Dark"
+        "Squid Game",
+        "Dark",
+        "Stranger Things"
       ],
       "answer": "Squid Game",
       "explanation": "Squid Game (Netflix, 2021) was a South Korean series created by Hwang Dong-hyuk that had been rejected for 10 years before Netflix picked it up. It reached 111 million households in its first 28 days — Netflix's biggest debut. It won the Emmy for Outstanding Drama Series, the first non-English-language show to do so.",
@@ -94,14 +94,14 @@
     },
     {
       "category": "Science & Nature",
-      "question": "At the center of nearly every large galaxy, including the Milky Way, lies a supermassive black hole. What does the Event Horizon Telescope's 2019 image of M87* demonstrate?",
+      "question": "What did the Event Horizon Telescope's 2019 image of M87* actually capture?",
       "options": [
-        "The image proved black holes have a solid surface — the bright ring around the shadow shows where material piles up on the event horizon boundary rather than falling through it",
-        "The image captured the 'shadow' of the black hole — a dark region where gravity is so strong no light escapes — surrounded by a glowing ring of superheated plasma, directly confirming general relativity's predictions",
-        "The image showed for the first time that black holes rotate — the shadow was asymmetric in a way that exactly matched the Kerr metric, proving Einstein's equations apply even at event horizons",
-        "The image detected gravitational waves from the M87 black hole, simultaneously confirming both general relativity and quantum mechanics in a single observation"
+        "A solid surface where matter piles up on the horizon",
+        "An asymmetric shadow proving black holes rotate",
+        "The black hole's shadow, ringed by superheated plasma",
+        "Gravitational waves emitted by the M87 black hole"
       ],
-      "answer": "The image captured the 'shadow' of the black hole — a dark region where gravity is so strong no light escapes — surrounded by a glowing ring of superheated plasma, directly confirming general relativity's predictions",
+      "answer": "The black hole's shadow, ringed by superheated plasma",
       "explanation": "M87* (the supermassive black hole at the center of galaxy M87) has 6.5 billion solar masses — 1,600 times more massive than the Milky Way's own Sagittarius A*. The Event Horizon Telescope (EHT) is a planet-sized array of synchronized radio telescopes that achieved the resolution needed to image a black hole for the first time. The orange glowing ring is plasma heated to billions of degrees as it spirals in; the central dark region is the 'shadow' where photons cannot escape. In 2022, the EHT also imaged Sagittarius A*, the Milky Way's own central black hole.",
       "memory_hook": "M87*'s 2019 image required synchronizing radio telescopes across Earth to make a planet-sized array — the data from the South Pole telescope had to be physically flown out because the internet was too slow. The black hole has 6.5 billion solar masses; our own Milky Way's black hole (imaged in 2022) is only 4 million."
     },
@@ -110,9 +110,9 @@
       "question": "Which country contains the source of the Nile River, specifically Lake Victoria as the source of the White Nile?",
       "options": [
         "Uganda",
+        "Kenya",
         "Tanzania",
-        "Ethiopia",
-        "Kenya"
+        "Ethiopia"
       ],
       "answer": "Uganda",
       "explanation": "The White Nile exits Lake Victoria at Jinja, Uganda (at Owen Falls Dam/Nalubaale Dam). Lake Victoria itself straddles Uganda, Tanzania, and Kenya. The Blue Nile, which contributes 85% of the Nile's water and sediment, originates from Lake Tana in Ethiopia. The two Nile tributaries merge in Khartoum, Sudan.",
@@ -124,8 +124,8 @@
       "options": [
         "Defense against Mongol invasions from the north",
         "To mark the empire's southern border",
-        "Tax collection from trade caravans",
-        "A massive public works employment project"
+        "A massive public works employment project",
+        "Tax collection from trade caravans"
       ],
       "answer": "Defense against Mongol invasions from the north",
       "explanation": "The Ming Great Wall was built primarily to protect against Mongol raids. After the Mongols were expelled (ending the Yuan Dynasty in 1368), the Mings feared Mongol resurgence. The wall was reinforced with watchtowers and beacon fires for communication. Ironically, the Manchus — who ended the Ming Dynasty in 1644 — simply bribed a general to open a gate.",
@@ -135,10 +135,10 @@
       "category": "Pop Culture",
       "question": "Which 2019 South Korean film became the first non-English language film to win the Academy Award for Best Picture?",
       "options": [
+        "A Taxi Driver",
         "Parasite",
-        "Shoplifters",
         "The Handmaiden",
-        "A Taxi Driver"
+        "Shoplifters"
       ],
       "answer": "Parasite",
       "explanation": "Parasite (기생충, 2019) directed by Bong Joon-ho won Best Picture, Best Director, Best Original Screenplay, and Best International Feature Film — four Oscars. Director Bong Joon-ho joked in his acceptance speech: 'Once you overcome the one-inch tall barrier of subtitles, you will be introduced to so many more amazing films.' It is the first foreign-language film to win Best Picture.",
@@ -148,10 +148,10 @@
       "category": "Sports",
       "question": "Which distance race in athletics covers 26.2 miles (42.195 km) and is named after a Greek soldier who reportedly ran from a battlefield to Athens to announce a military victory?",
       "options": [
+        "Half-marathon",
         "Marathon",
         "Ultra-marathon",
-        "10K",
-        "Half-marathon"
+        "10K"
       ],
       "answer": "Marathon",
       "explanation": "The marathon is named after the Greek city of Marathon, where Greeks defeated the Persians in 490 BC. According to legend, a soldier named Pheidippides ran approximately 40 km to Athens to announce victory, then collapsed and died. The modern marathon distance (42.195 km) was standardized at the 1908 London Olympics to go from Windsor Castle to the Olympic Stadium.",

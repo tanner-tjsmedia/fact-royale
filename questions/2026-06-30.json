@@ -4,10 +4,10 @@
       "category": "History",
       "question": "What year did the United States declare independence?",
       "options": [
-        "1774",
+        "1777",
         "1775",
         "1776",
-        "1777"
+        "1774"
       ],
       "answer": "1776",
       "explanation": "The United States declared independence from Britain on July 4, 1776, when the Continental Congress formally adopted the Declaration of Independence, written primarily by Thomas Jefferson.",
@@ -17,10 +17,10 @@
       "category": "History",
       "question": "Which pharaoh is associated with the construction of the Great Pyramid of Giza?",
       "options": [
-        "Tutankhamun",
-        "Ramesses II",
         "Cleopatra",
-        "Khufu"
+        "Ramesses II",
+        "Khufu",
+        "Tutankhamun"
       ],
       "answer": "Khufu",
       "explanation": "The Great Pyramid of Giza was built as a tomb for Pharaoh Khufu (also known as Cheops) around 2560 BC. It stood as the tallest man-made structure in the world for over 3,800 years.",
@@ -30,10 +30,10 @@
       "category": "Sports",
       "question": "How long is a standard marathon race?",
       "options": [
-        "26 miles",
-        "26.2 miles",
         "26.5 miles",
-        "27 miles"
+        "26 miles",
+        "27 miles",
+        "26.2 miles"
       ],
       "answer": "26.2 miles",
       "explanation": "A standard marathon is 26.2 miles (42.195 km). The distance was standardized at the 1908 London Olympics to accommodate the British royal family — the race started at Windsor Castle and ended in front of the royal box at the Olympic stadium.",
@@ -43,10 +43,10 @@
       "category": "Sports",
       "question": "In which sport is the term 'love' used to mean zero?",
       "options": [
-        "Squash",
         "Tennis",
-        "Badminton",
-        "Table Tennis"
+        "Table Tennis",
+        "Squash",
+        "Badminton"
       ],
       "answer": "Tennis",
       "explanation": "In tennis, 'love' means zero points. The term is believed to derive from the French word 'l'oeuf' (the egg), referring to the egg-shaped zero. It has been used in tennis scoring since at least the 18th century.",
@@ -56,10 +56,10 @@
       "category": "Pop Culture",
       "question": "Which director is known for films like 'Pulp Fiction' and 'Kill Bill'?",
       "options": [
-        "David Fincher",
-        "Christopher Nolan",
+        "Ridley Scott",
         "Quentin Tarantino",
-        "Ridley Scott"
+        "David Fincher",
+        "Christopher Nolan"
       ],
       "answer": "Quentin Tarantino",
       "explanation": "Quentin Tarantino is known for his nonlinear narratives, sharp dialogue, and stylized violence. His films include Pulp Fiction, Kill Bill, Inglourious Basterds, and Django Unchained. Pulp Fiction won the Palme d'Or at Cannes in 1994.",
@@ -69,9 +69,9 @@
       "category": "Pop Culture",
       "question": "Which band performed 'Bohemian Rhapsody'?",
       "options": [
-        "Led Zeppelin",
-        "The Rolling Stones",
         "Queen",
+        "The Rolling Stones",
+        "Led Zeppelin",
         "Aerosmith"
       ],
       "answer": "Queen",
@@ -82,10 +82,10 @@
       "category": "Pop Culture",
       "question": "Which composer wrote the iconic score for the original Star Wars (1977)?",
       "options": [
-        "Hans Zimmer",
         "John Williams",
         "Ennio Morricone",
-        "Bernard Herrmann"
+        "Bernard Herrmann",
+        "Hans Zimmer"
       ],
       "answer": "John Williams",
       "explanation": "John Williams composed the score for Star Wars in 1977, earning him one of his five Academy Awards. The main theme is one of the most recognized pieces of music in film history. Williams also scored Indiana Jones, Jaws, Schindler's List, and Harry Potter.",
@@ -95,9 +95,9 @@
       "category": "History",
       "question": "Who invented the telephone?",
       "options": [
+        "Alexander Graham Bell",
         "Thomas Edison",
         "Nikola Tesla",
-        "Alexander Graham Bell",
         "Guglielmo Marconi"
       ],
       "answer": "Alexander Graham Bell",
@@ -108,8 +108,8 @@
       "category": "Geography",
       "question": "Lake Baikal in Russia holds approximately what fraction of the world's unfrozen fresh surface water?",
       "options": [
-        "5%",
         "10%",
+        "5%",
         "20%",
         "35%"
       ],
@@ -134,9 +134,9 @@
       "category": "Geography",
       "question": "Mount Fuji, Japan's highest peak at 3,776 meters, is what type of volcano — characterized by steep, symmetrical sides built from alternating layers of lava and ash?",
       "options": [
-        "Shield volcano",
         "Cinder cone",
         "Stratovolcano",
+        "Shield volcano",
         "Caldera"
       ],
       "answer": "Stratovolcano",
@@ -147,10 +147,10 @@
       "category": "Science & Nature",
       "question": "In 1998, two independent teams of astronomers studying distant supernovae made a shocking discovery that overturned cosmology. What did they find?",
       "options": [
-        "They discovered that the universe's expansion had been decelerating since the Big Bang, confirming that gravity would eventually cause a 'Big Crunch' — the universe collapsing back on itself",
         "They discovered the universe's expansion is accelerating — driven by a mysterious force called 'dark energy' — which implied the universe would expand forever and end in cold darkness",
         "They discovered that the Milky Way is moving toward the Andromeda galaxy at twice the previously estimated speed, meaning collision would occur in 2 billion years, not 4.5 billion",
-        "They discovered that supernovae in distant galaxies were hotter than predicted, suggesting the universe had been hotter in its early phases than the Big Bang model expected"
+        "They discovered that supernovae in distant galaxies were hotter than predicted, suggesting the universe had been hotter in its early phases than the Big Bang model expected",
+        "They discovered that the universe's expansion had been decelerating since the Big Bang, confirming that gravity would eventually cause a 'Big Crunch' — the universe collapsing back on itself"
       ],
       "answer": "They discovered the universe's expansion is accelerating — driven by a mysterious force called 'dark energy' — which implied the universe would expand forever and end in cold darkness",
       "explanation": "Saul Perlmutter, Brian Schmidt, and Adam Riess led the two teams using Type Ia supernovae as 'standard candles' to measure cosmic distances. They expected to find the expansion slowing down due to gravity — instead they found it speeding up. Dark energy, the name given to whatever is causing this acceleration, makes up approximately 68% of the universe. Nobody knows what it is. Perlmutter, Schmidt, and Riess shared the 2011 Nobel Prize in Physics for this discovery — one of the most counterintuitive in the history of science.",

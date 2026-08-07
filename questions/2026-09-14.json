@@ -6,9 +6,9 @@
       "question": "The Mughal Empire, which ruled most of the Indian subcontinent from 1526-1857, is famous for building which iconic white marble mausoleum?",
       "options": [
         "Taj Mahal",
+        "Humayun's Tomb",
         "Red Fort",
-        "Qutub Minar",
-        "Humayun's Tomb"
+        "Qutub Minar"
       ],
       "answer": "Taj Mahal",
       "explanation": "The Taj Mahal was built by Emperor Shah Jahan (r. 1628-1658) as a tomb for his wife Mumtaz Mahal, who died in childbirth in 1631. It took approximately 20,000 workers and 22 years to complete. The white marble appears to change color throughout the day. Shah Jahan was later imprisoned by his own son Aurangzeb and died looking at the Taj from his cell.",
@@ -18,10 +18,10 @@
       "category": "Science & Nature",
       "question": "What is the name of the process by which a liquid turns into a gas at its surface, below its boiling point?",
       "options": [
+        "Vaporization",
         "Evaporation",
-        "Condensation",
         "Sublimation",
-        "Vaporization"
+        "Condensation"
       ],
       "answer": "Evaporation",
       "explanation": "Evaporation occurs when molecules at a liquid's surface gain enough energy to escape into the gas phase. It happens below the boiling point — puddles dry up at room temperature. Evaporative cooling (perspiration, wet cloth) works because the fastest (hottest) molecules leave, lowering the average temperature.",
@@ -32,8 +32,8 @@
       "question": "The 1986 World Series Game 6 featured one of baseball's most infamous defensive blunders. What happened that cost the Boston Red Sox a championship?",
       "options": [
         "A Red Sox pitcher threw a wild pitch with the bases loaded in the bottom of the 9th, allowing the winning run",
-        "A ground ball went through first baseman Bill Buckner's legs, allowing the New York Mets to score the tying and winning runs",
         "A Red Sox outfielder dropped a routine fly ball that would have ended the series",
+        "A ground ball went through first baseman Bill Buckner's legs, allowing the New York Mets to score the tying and winning runs",
         "The Red Sox catcher dropped a third strike with two outs in the bottom of the 10th inning"
       ],
       "answer": "A ground ball went through first baseman Bill Buckner's legs, allowing the New York Mets to score the tying and winning runs",
@@ -44,10 +44,10 @@
       "category": "Pop Culture",
       "question": "Which musician released the albums 'Born to Run' (1975) and 'Born in the USA' (1984) and is nicknamed 'The Boss'?",
       "options": [
-        "Bruce Springsteen",
+        "John Mellencamp",
         "Tom Petty",
-        "Bob Seger",
-        "John Mellencamp"
+        "Bruce Springsteen",
+        "Bob Seger"
       ],
       "answer": "Bruce Springsteen",
       "explanation": "Bruce Springsteen and the E Street Band are synonymous with working-class American rock. 'Born in the USA' sold 30 million copies worldwide and is the 10th best-selling album in U.S. history — though it's often misunderstood as patriotic when it's actually critical of the Vietnam War era. Springsteen famously rejected a $12 million Super Bowl halftime offer in the 1990s.",
@@ -57,8 +57,8 @@
       "category": "Geography",
       "question": "Which body of water, surrounded by Kazakhstan, Russia, Azerbaijan, Iran, and Turkmenistan, is classified as the world's largest enclosed inland water body?",
       "options": [
-        "Caspian Sea",
         "Aral Sea",
+        "Caspian Sea",
         "Lake Balkhash",
         "Lake Baikal"
       ],
@@ -70,10 +70,10 @@
       "category": "History",
       "question": "Which African-American civil rights leader delivered the 'I Have a Dream' speech on the steps of the Lincoln Memorial during the March on Washington in August 1963?",
       "options": [
+        "Medgar Evers",
         "Martin Luther King Jr.",
         "Malcolm X",
-        "John Lewis",
-        "Medgar Evers"
+        "John Lewis"
       ],
       "answer": "Martin Luther King Jr.",
       "explanation": "Dr. Martin Luther King Jr. delivered his famous speech on August 28, 1963, to approximately 250,000 people. The 'I have a dream' section was largely improvised — gospel singer Mahalia Jackson shouted 'Tell them about the dream, Martin!' King put down his notes and spoke from the heart. He was assassinated April 4, 1968, in Memphis.",
@@ -83,10 +83,10 @@
       "category": "Pop Culture",
       "question": "Which 1980s music channel, launched on August 1, 1981, revolutionized the music industry by broadcasting music videos 24 hours a day?",
       "options": [
-        "MTV",
-        "VH1",
+        "CMT",
         "BET",
-        "CMT"
+        "VH1",
+        "MTV"
       ],
       "answer": "MTV",
       "explanation": "MTV (Music Television) launched with 'Video Killed the Radio Star' by The Buggles as its first video. It quickly made music video production essential for artists. Michael Jackson's 'Thriller' (1983) took music videos to a cinematic level. MTV moved away from videos to reality TV in the 2000s (leading to VH1 filling the gap).",
@@ -97,9 +97,9 @@
       "question": "What is the name of the tectonic process by which oceanic crust is pulled down beneath continental or other oceanic crust?",
       "options": [
         "Subduction",
+        "Obduction",
         "Seafloor spreading",
-        "Rifting",
-        "Obduction"
+        "Rifting"
       ],
       "answer": "Subduction",
       "explanation": "Subduction occurs at convergent plate boundaries where denser oceanic crust sinks beneath lighter continental crust. The descending slab melts and rises as magma, creating volcanic arcs. The Andes mountains and Pacific Ring of Fire volcanoes are products of subduction. Subduction zones also produce the world's most powerful earthquakes.",
@@ -109,10 +109,10 @@
       "category": "Geography",
       "question": "The Suez Canal (Egypt) and Panama Canal each provide shortcuts. Which canal saves more distance in terms of a ship's typical journey?",
       "options": [
+        "Panama (saves ~7,000 km)",
         "Suez (saves ~7,000 km on Europe-Asia routes)",
         "Panama (saves ~15,000 km on Atlantic-Pacific routes)",
-        "Both save the same amount",
-        "Panama (saves ~7,000 km)"
+        "Both save the same amount"
       ],
       "answer": "Suez (saves ~7,000 km on Europe-Asia routes)",
       "explanation": "The Suez Canal saves ships approximately 7,000 km versus going around the Cape of Good Hope. The Panama Canal saves approximately 15,000 km on a New York to San Francisco journey versus going around Cape Horn. So Panama actually saves more distance, but the Suez handles more annual shipping tonnage due to Europe-Asia trade volume.",
@@ -122,10 +122,10 @@
       "category": "History",
       "question": "The Watergate scandal (1972-1974) forced the resignation of which U.S. president?",
       "options": [
-        "Richard Nixon",
+        "Jimmy Carter",
         "Gerald Ford",
         "Lyndon Johnson",
-        "Jimmy Carter"
+        "Richard Nixon"
       ],
       "answer": "Richard Nixon",
       "explanation": "The Watergate Hotel break-in (June 17, 1972) involved Nixon campaign operatives burgling Democratic Party headquarters. The subsequent cover-up — which Nixon orchestrated — was revealed through White House tape recordings. Nixon resigned August 9, 1974, becoming the only U.S. president to resign. Gerald Ford pardoned him a month later.",
@@ -148,10 +148,10 @@
       "category": "Sports",
       "question": "What is the name of the award given to the player judged Most Valuable Player in the NBA regular season?",
       "options": [
+        "The Art Ross Trophy",
         "The Maurice Podoloff Trophy",
         "The Larry O'Brien Trophy",
-        "The Bill Russell Trophy",
-        "The Art Ross Trophy"
+        "The Bill Russell Trophy"
       ],
       "answer": "The Maurice Podoloff Trophy",
       "explanation": "The Maurice Podoloff Trophy (named after the NBA's first commissioner) is the regular season MVP award. The Larry O'Brien Trophy is the NBA Championship trophy. The Bill Russell NBA Finals MVP Award is given to the Finals MVP. Kareem Abdul-Jabbar holds the record for most regular season MVPs with 6.",

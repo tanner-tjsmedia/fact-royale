@@ -6,9 +6,9 @@
       "question": "The Industrial Revolution began in which country, around 1760-1840, driven by coal, steam power, and textile machinery?",
       "options": [
         "Britain",
+        "United States",
         "France",
-        "Germany",
-        "United States"
+        "Germany"
       ],
       "answer": "Britain",
       "explanation": "The Industrial Revolution began in Britain, driven by coal and James Watt's steam engine (1769). By 1850, Britain produced half the world's iron and cotton cloth. Britain's advantages included coal reserves, merchant fleet, patent laws, and colonial trade capital.",
@@ -18,10 +18,10 @@
       "category": "Science & Nature",
       "question": "What is the term for the minimum energy required to remove an electron from an atom, which increases moving right across a period?",
       "options": [
-        "Ionization energy",
-        "Electron affinity",
         "Electronegativity",
-        "Atomic radius"
+        "Electron affinity",
+        "Atomic radius",
+        "Ionization energy"
       ],
       "answer": "Ionization energy",
       "explanation": "Ionization energy increases left to right across periods (nuclear charge increases, holding electrons tighter) and decreases top to bottom in groups. Noble gases have the highest ionization energies.",
@@ -31,10 +31,10 @@
       "category": "Sports",
       "question": "Which country won the 2019 Rugby World Cup in Japan, defeating England 32-12 in the final?",
       "options": [
-        "South Africa",
+        "Australia",
         "New Zealand",
         "Wales",
-        "Australia"
+        "South Africa"
       ],
       "answer": "South Africa",
       "explanation": "South Africa won their third Rugby World Cup in 2019, defeating England 32-12. Captain Siya Kolisi became the first Black captain to lift the Webb Ellis Cup.",
@@ -44,10 +44,10 @@
       "category": "Pop Culture",
       "question": "Which legendary Bob Dylan album (1965), featuring 'Like a Rolling Stone,' marked his electric transition from folk music?",
       "options": [
-        "Highway 61 Revisited",
-        "Blonde on Blonde",
         "Bringing It All Back Home",
-        "Blood on the Tracks"
+        "Highway 61 Revisited",
+        "Blood on the Tracks",
+        "Blonde on Blonde"
       ],
       "answer": "Highway 61 Revisited",
       "explanation": "Highway 61 Revisited (1965) marked Dylan's electric transition, angering folk purists. 'Like a Rolling Stone' at 6 minutes was revolutionary for pop radio. Rolling Stone magazine ranked it the #1 song of all time. Dylan won the Nobel Prize in Literature in 2016.",
@@ -57,10 +57,10 @@
       "category": "Geography",
       "question": "Ethiopia is the world's most populous landlocked country and the source of the Blue Nile. Which lake is the Blue Nile's source?",
       "options": [
-        "Lake Tana",
-        "Lake Victoria",
         "Lake Turkana",
-        "Lake Malawi"
+        "Lake Malawi",
+        "Lake Tana",
+        "Lake Victoria"
       ],
       "answer": "Lake Tana",
       "explanation": "Ethiopia's Lake Tana is the source of the Blue Nile, which contributes 85% of the Nile's water and sediment. Ethiopia is the world's most populous landlocked country. It is NOT Africa's largest country — Algeria is.",
@@ -70,10 +70,10 @@
       "category": "History",
       "question": "The Battle of Thermopylae (480 BC) was fought during which broader conflict?",
       "options": [
+        "Macedonian Wars",
         "Greco-Persian Wars",
-        "Peloponnesian War",
         "Punic Wars",
-        "Macedonian Wars"
+        "Peloponnesian War"
       ],
       "answer": "Greco-Persian Wars",
       "explanation": "Thermopylae (480 BC) was part of the Greco-Persian Wars (499-449 BC). Persia burned Athens but lost at sea at Salamis and on land at Plataea.",
@@ -98,8 +98,8 @@
       "options": [
         "PCR (Polymerase Chain Reaction)",
         "Gel electrophoresis",
-        "DNA sequencing",
-        "CRISPR-Cas9"
+        "CRISPR-Cas9",
+        "DNA sequencing"
       ],
       "answer": "PCR (Polymerase Chain Reaction)",
       "explanation": "PCR revolutionized biology and forensics. Mullis won the 1993 Nobel Prize in Chemistry. It amplifies DNA exponentially through heat/cool cycles.",
@@ -109,10 +109,10 @@
       "category": "Geography",
       "question": "Which mountain range forms the conventional geographic boundary between Europe and Asia, running north-south through Russia?",
       "options": [
-        "Ural Mountains",
+        "Altai Mountains",
         "Caucasus Mountains",
         "Carpathian Mountains",
-        "Altai Mountains"
+        "Ural Mountains"
       ],
       "answer": "Ural Mountains",
       "explanation": "The Ural Mountains (2,500 km long) are the conventional Europe-Asia boundary. One of Earth's oldest ranges — eroded to modest heights. Highest peak: 1,895 m.",
@@ -122,10 +122,10 @@
       "category": "History",
       "question": "Which Roman structure, completed in 80 AD, could hold 80,000 spectators and was built using an estimated 100,000 slaves?",
       "options": [
-        "The Colosseum",
-        "Circus Maximus",
         "Pantheon",
-        "Forum Romanum"
+        "The Colosseum",
+        "Forum Romanum",
+        "Circus Maximus"
       ],
       "answer": "The Colosseum",
       "explanation": "The Flavian Amphitheatre (Colosseum), completed 80 AD, was built by 100,000 Judaean slaves. It held 80,000 spectators for gladiator combat, animal hunts, and even mock naval battles. Used for about 400 years.",
@@ -135,10 +135,10 @@
       "category": "Pop Culture",
       "question": "Which Radiohead album (1997), featuring 'Paranoid Android,' is widely considered one of the most important albums of the 1990s?",
       "options": [
-        "OK Computer",
-        "The Bends",
         "Kid A",
-        "Pablo Honey"
+        "Pablo Honey",
+        "The Bends",
+        "OK Computer"
       ],
       "answer": "OK Computer",
       "explanation": "OK Computer (1997) explored alienation and technology. Won Grammy for Best Alternative Album. Pitchfork named it best album of the 1990s.",
@@ -148,10 +148,10 @@
       "category": "Sports",
       "question": "Which four countries have participated in every Summer Olympic Games since the modern Olympics began in 1896?",
       "options": [
-        "Greece, Great Britain, France, and Australia",
         "USA, Greece, Britain, France",
+        "Greece, USA, Germany, Australia",
         "Germany, Italy, France, UK",
-        "Greece, USA, Germany, Australia"
+        "Greece, Great Britain, France, and Australia"
       ],
       "answer": "Greece, Great Britain, France, and Australia",
       "explanation": "Greece, Great Britain, France, and Australia are the only countries that have participated in all Summer Olympics since 1896. Greece hosted the first modern Games.",

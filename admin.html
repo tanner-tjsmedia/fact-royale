@@ -5,6 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Admin — Fact Royale</title>
 
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <link rel="alternate icon" href="/icons/icon-192.png" type="image/png" />
+  <link rel="apple-touch-icon" href="/icons/icon-192.png" />
   <!-- Firebase SDKs -->
   <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-app-compat.js"></script>
   <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-auth-compat.js"></script>
@@ -487,6 +490,49 @@
       </div>
     </section>
 
+    <!-- Data Integrity -->
+    <section>
+      <h2>Data Integrity</h2>
+      <div class="chart-card">
+        <div class="stat-grid" style="margin-bottom:1rem">
+          <div>
+            <div class="stat-value" id="di-clean">—</div>
+            <div class="stat-label">Accounts clean</div>
+          </div>
+          <div>
+            <div class="stat-value" id="di-drift">—</div>
+            <div class="stat-label">Category drift</div>
+          </div>
+          <div>
+            <div class="stat-value" id="di-legacy">—</div>
+            <div class="stat-label">Legacy categories</div>
+          </div>
+          <div>
+            <div class="stat-value" id="di-unmigrated">—</div>
+            <div class="stat-label">Awaiting migration</div>
+          </div>
+        </div>
+        <table class="streak-table">
+          <thead>
+            <tr>
+              <th>Player</th>
+              <th>Issue</th>
+              <th>Category sum</th>
+              <th>Questions answered</th>
+              <th>Delta</th>
+            </tr>
+          </thead>
+          <tbody id="di-tbody">
+            <tr class="loading-row"><td colspan="5"><span class="spinner"></span>Loading...</td></tr>
+          </tbody>
+        </table>
+        <p style="margin-top:0.9rem;font-size:0.8rem;color:rgba(232,232,240,0.45);line-height:1.6">
+          Accounts self-heal on next sign-in via the schema v2 migration. Rows persisting here
+          across several days mean the migration is failing and needs investigation.
+        </p>
+      </div>
+    </section>
+
   </main>
 </div>
 
@@ -587,6 +633,7 @@ async function loadData() {
     renderConversionChart(playsData, usersData);
     renderCategoryAccuracy(usersData);
     renderTopStreaks(usersData);
+    renderDataIntegrity(usersData);
   } catch (err) {
     console.error('Admin data error:', err);
     if (err.code === 'permission-denied') {
@@ -630,6 +677,68 @@ async function fetchUsers() {
   const users = [];
   snap.forEach(doc => users.push({ uid: doc.id, ...doc.data() }));
   return users;
+}
+
+// ── Data integrity audit ───────────────────────────────
+// Surfaces the two failure modes that silently corrupted stats before the
+// transactional write path: categoryStats drifting away from
+// stats.questionsAnswered, and legacy category keys never migrated.
+const DI_LEGACY_KEYS = ['Music/Movies', 'Music', 'Movies', 'Science', 'Nature'];
+const DI_SCHEMA_VERSION = 2;
+const DI_TOLERANCE = 2; // rounding slack
+
+function renderDataIntegrity(users) {
+  const rows = [];
+  let clean = 0, drift = 0, legacy = 0, unmigrated = 0;
+
+  users.forEach(u => {
+    const stats = u.stats || {};
+    const answered = stats.questionsAnswered || 0;
+    const cs = u.categoryStats || {};
+    const sum = Object.values(cs).reduce((n, v) => n + (v.played || 0), 0);
+    const hasLegacy = Object.keys(cs).some(k => DI_LEGACY_KEYS.includes(k));
+    const needsMigration = (stats.schemaVersion || 0) < DI_SCHEMA_VERSION;
+    const delta = sum - answered;
+
+    // Ignore accounts that have never played
+    if (answered === 0 && sum === 0) { clean++; return; }
+
+    const issues = [];
+    if (Math.abs(delta) > DI_TOLERANCE) { issues.push('drift'); drift++; }
+    if (hasLegacy)                      { issues.push('legacy category'); legacy++; }
+    if (needsMigration)                 unmigrated++;
+
+    if (!issues.length) { clean++; return; }
+
+    rows.push({
+      name: u.displayName || u.email || u.uid.slice(0, 8),
+      issue: issues.join(', '),
+      sum, answered, delta
+    });
+  });
+
+  setText('di-clean', clean);
+  setText('di-drift', drift);
+  setText('di-legacy', legacy);
+  setText('di-unmigrated', unmigrated);
+
+  const tb = document.getElementById('di-tbody');
+  if (!tb) return;
+  if (!rows.length) {
+    tb.innerHTML = '<tr><td colspan="5" style="color:#4ade80;padding:1rem">' +
+                   'No integrity issues found across ' + users.length + ' accounts.</td></tr>';
+    return;
+  }
+  rows.sort((a, b) => Math.abs(b.delta) - Math.abs(a.delta));
+  tb.innerHTML = rows.slice(0, 25).map(r =>
+    '<tr>' +
+      '<td>' + r.name + '</td>' +
+      '<td style="color:#f0c040">' + r.issue + '</td>' +
+      '<td>' + r.sum + '</td>' +
+      '<td>' + r.answered + '</td>' +
+      '<td style="color:' + (r.delta > 0 ? '#f87171' : '#60a5fa') + '">' +
+        (r.delta > 0 ? '+' : '') + r.delta + '</td>' +
+    '</tr>').join('');
 }
 
 // ── Today's snapshot ───────────────────────────────────

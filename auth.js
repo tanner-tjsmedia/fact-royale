@@ -23,7 +23,8 @@ auth.onAuthStateChanged(user => {
     if (statsSection) statsSection.style.display = 'block';
     if (lbCta)        lbCta.style.display        = 'none';
     if (statsName)    statsName.textContent       = user.displayName || user.email.split('@')[0];
-    loadPersonalStats(user.uid);
+    // One-time schema migration + stats reconcile, then render stats
+    migrateAndReconcileStats(user.uid).finally(() => loadPersonalStats(user.uid));
     // Offer push notifications (soft prompt — only shows if not yet decided)
     if (typeof initNotifications === 'function') initNotifications(user);
     // Hide returning visitor banner if they just signed in
@@ -315,125 +316,292 @@ async function getCompletedDates(uid) {
   }
 }
 
+// ── Category name normalization ────────────────────────
+// 'Music/Movies' was the pre-2026 name for what is now 'Pop Culture'.
+// Any legacy name must map to a current one or stats fragment across
+// two keys and category totals stop matching questionsAnswered.
+const FR_CATEGORY_ALIASES = {
+  'Music/Movies': 'Pop Culture',
+  'Music':        'Pop Culture',
+  'Movies':       'Pop Culture',
+  'Science':      'Science & Nature',
+  'Nature':       'Science & Nature'
+};
+function normalizeCategory(name) {
+  return FR_CATEGORY_ALIASES[name] || name;
+}
+const FR_CATEGORIES = ['History', 'Sports', 'Pop Culture', 'Geography', 'Science & Nature'];
+
 // ── Submit Score to Firestore ──────────────────────────
 // Called from quiz.js at the end of showResults()
 // isArchive = true: mastery credit only, skip streak + leaderboard
+//
+// Runs as a single Firestore transaction. Either every write lands or none
+// does. The idempotency guard reads quizHistory/{dateKey} INSIDE the
+// transaction, so a replay (double-click, refresh, second tab, archive
+// re-play) can never double-count. The previous version guarded only the
+// daily path, only on lastPlayedDate, and only after two writes had already
+// gone through, which let archive replays inflate totals silently.
 async function submitScoreToFirebase(score, total, categoryScores, dateKey, isArchive = false) {
   if (!currentUser) return;
 
   const uid         = currentUser.uid;
   const displayName = currentUser.displayName || currentUser.email.split('@')[0];
+  const userRef     = db.collection('users').doc(uid);
+  const histRef     = userRef.collection('quizHistory').doc(dateKey);
+  const scoreRef    = db.collection('scores').doc(`${uid}_${dateKey}`);
+  const masteryRef  = userRef.collection('masteryHistory').doc(dateKey);
+
+  // Normalize category keys up front so nothing legacy enters the store
+  const cats = {};
+  Object.entries(categoryScores || {}).forEach(([raw, s]) => {
+    const k = normalizeCategory(raw);
+    if (!cats[k]) cats[k] = { correct: 0, total: 0 };
+    cats[k].correct += (s.correct || 0);
+    cats[k].total   += (s.total   || 0);
+  });
+
+  const totalAnswered = Object.values(cats).reduce((n, s) => n + s.total,   0);
+  const totalCorrect  = Object.values(cats).reduce((n, s) => n + s.correct, 0);
+
+  let levelUps = [];
 
   try {
-    // Always: record this play in quizHistory subcollection
-    await db.collection('users').doc(uid)
-      .collection('quizHistory').doc(dateKey).set({
-        date:      dateKey,
-        score,
-        total,
-        pct:       Math.round((score / total) * 100),
-        isArchive: !!isArchive,
-        timestamp: firebase.firestore.FieldValue.serverTimestamp(),
-        categories: categoryScores
+    const outcome = await db.runTransaction(async (tx) => {
+      // ---- all reads first (Firestore transaction requirement) ----
+      const histSnap = await tx.get(histRef);
+      const userSnap = await tx.get(userRef);
+
+      if (histSnap.exists) return 'duplicate';
+      if (!userSnap.exists) return 'no-user';
+
+      const data  = userSnap.data();
+      const stats = data.stats || {};
+
+      // ---- category stats: read-modify-write, safe inside a transaction ----
+      const catStats = {};
+      Object.entries(data.categoryStats || {}).forEach(([raw, v]) => {
+        const k = normalizeCategory(raw);
+        if (!catStats[k]) catStats[k] = { played: 0, correct: 0 };
+        catStats[k].played  += (v.played  || 0);
+        catStats[k].correct += (v.correct || 0);
+      });
+      Object.entries(cats).forEach(([k, s]) => {
+        if (!catStats[k]) catStats[k] = { played: 0, correct: 0 };
+        catStats[k].played  += s.total;
+        catStats[k].correct += s.correct;
       });
 
-    // Always: mark this date as completed (prevents replaying)
-    await db.collection('users').doc(uid).update({
-      completedDates: firebase.firestore.FieldValue.arrayUnion(dateKey)
+      // ---- category mastery (folded in so it shares the same transaction) ----
+      const mastery = {};
+      Object.entries(data.categoryMastery || {}).forEach(([raw, v]) => {
+        const k = normalizeCategory(raw);
+        if (!mastery[k]) mastery[k] = { correct: 0, total: 0, perfectStreak: 0, bestPerfectStreak: 0 };
+        mastery[k].correct           += (v.correct || 0);
+        mastery[k].total             += (v.total   || 0);
+        mastery[k].perfectStreak      = Math.max(mastery[k].perfectStreak,     v.perfectStreak     || 0);
+        mastery[k].bestPerfectStreak  = Math.max(mastery[k].bestPerfectStreak, v.bestPerfectStreak || 0);
+        mastery[k].level              = v.level;
+        mastery[k].lastPlayedDate     = v.lastPlayedDate;
+      });
+      Object.entries(cats).forEach(([k, s]) => {
+        const prev    = mastery[k] || { correct: 0, total: 0, perfectStreak: 0, bestPerfectStreak: 0 };
+        const hasTier = (typeof computeTier === 'function');
+        const oldTier = hasTier ? computeTier(prev.correct, prev.total) : null;
+        const nc = prev.correct + s.correct;
+        const nt = prev.total   + s.total;
+        const newTier = hasTier ? computeTier(nc, nt) : null;
+        const perfect = s.total > 0 && s.correct === s.total;
+        const ns = perfect ? (prev.perfectStreak || 0) + 1 : 0;
+        if (hasTier && typeof tierIndex === 'function' && tierIndex(newTier) > tierIndex(oldTier)) {
+          levelUps.push({ category: k, from: oldTier, to: newTier });
+        }
+        mastery[k] = {
+          correct: nc, total: nt,
+          perfectStreak: ns,
+          bestPerfectStreak: Math.max(prev.bestPerfectStreak || 0, ns),
+          lastPlayedDate: dateKey,
+          level: newTier ? newTier.id : (prev.level || 'novice')
+        };
+      });
+
+      const updates = {
+        completedDates: firebase.firestore.FieldValue.arrayUnion(dateKey),
+        categoryStats:  catStats,
+        categoryMastery: mastery,
+        masteryScore: (typeof computeMasteryScore === 'function')
+          ? computeMasteryScore(mastery) : (data.masteryScore || 0),
+        'stats.gamesPlayed':       firebase.firestore.FieldValue.increment(1),
+        'stats.questionsAnswered': firebase.firestore.FieldValue.increment(totalAnswered),
+        'stats.questionsCorrect':  firebase.firestore.FieldValue.increment(totalCorrect)
+      };
+
+      if (!isArchive) {
+        const d = new Date();
+        d.setDate(d.getDate() - 1);
+        const yesterday = `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;
+
+        let currentStreak = stats.currentStreak || 0;
+        if (stats.lastPlayedDate === yesterday)      currentStreak += 1;
+        else if (stats.lastPlayedDate !== dateKey)   currentStreak  = 1;
+
+        const isNewBest = score > (stats.bestScore || 0);
+        updates['stats.currentStreak']  = currentStreak;
+        updates['stats.longestStreak']  = Math.max(stats.longestStreak || 0, currentStreak);
+        updates['stats.lastPlayedDate'] = dateKey;
+        updates['stats.bestScore']      = isNewBest ? score   : (stats.bestScore || 0);
+        updates['stats.bestScoreDate']  = isNewBest ? dateKey : (stats.bestScoreDate || '');
+
+        tx.set(scoreRef, {
+          uid, displayName, score, total,
+          date: dateKey,
+          timestamp: firebase.firestore.FieldValue.serverTimestamp(),
+          categories: cats
+        });
+      }
+
+      // ---- writes ----
+      tx.set(histRef, {
+        date: dateKey, score, total,
+        pct: total ? Math.round((score / total) * 100) : 0,
+        isArchive: !!isArchive,
+        timestamp: firebase.firestore.FieldValue.serverTimestamp(),
+        categories: cats
+      });
+      tx.set(masteryRef, cats);
+      tx.update(userRef, updates);
+
+      return 'ok';
     });
 
-    // Fetch user doc (needed for both paths)
+    if (outcome === 'duplicate') {
+      console.warn('[FR]', dateKey, 'already recorded — skipping (no double count)');
+      loadPersonalStats(uid);
+      return;
+    }
+    if (outcome !== 'ok') return;
+
+    if (levelUps.length > 0) {
+      try { localStorage.setItem('fr_levelUps', JSON.stringify(levelUps)); } catch (e) {}
+    }
+
+    loadPersonalStats(uid);
+    if (!isArchive) {
+      loadLeaderboard();
+      calculateAndShowRankPct(score, dateKey);
+    }
+
+  } catch (err) {
+    console.error('Score submission error:', err);
+  }
+}
+
+// ── Schema migration + stats self-heal ─────────────────
+// Runs once per user, gated on stats.schemaVersion. Fixes damage done by
+// the pre-transaction write path:
+//   1. Legacy category keys ('Music/Movies') orphaned from 'Pop Culture'
+//   2. categoryStats totals drifted away from stats.questionsAnswered
+//      (archive replays double-counted before the idempotency guard existed)
+// Rebuilds the category shape from quizHistory, which is real per-play data,
+// then scales it to match the authoritative top-level totals.
+const FR_SCHEMA_VERSION = 2;
+
+async function migrateAndReconcileStats(uid) {
+  try {
     const userRef  = db.collection('users').doc(uid);
     const userSnap = await userRef.get();
     if (!userSnap.exists) return;
 
-    const data  = userSnap.data();
-    const stats = data.stats || {};
+    const data = userSnap.data();
+    if ((data.stats && data.stats.schemaVersion) >= FR_SCHEMA_VERSION) return;
 
-    // Accumulate category stats (both daily and archive)
-    const catStats = data.categoryStats || {};
-    Object.entries(categoryScores).forEach(([cat, s]) => {
-      if (!catStats[cat]) catStats[cat] = { played: 0, correct: 0 };
-      catStats[cat].played  += s.total;
-      catStats[cat].correct += s.correct;
-    });
+    const stats   = data.stats || {};
+    const targetQ = stats.questionsAnswered || 0;
+    const targetC = stats.questionsCorrect  || 0;
 
-    const totalAnswered = Object.values(categoryScores).reduce((n, s) => n + s.total,   0);
-    const totalCorrect  = Object.values(categoryScores).reduce((n, s) => n + s.correct, 0);
+    // Nothing to reconcile for a brand new account — just stamp the version
+    if (targetQ === 0) {
+      await userRef.update({ 'stats.schemaVersion': FR_SCHEMA_VERSION });
+      return;
+    }
 
-    if (isArchive) {
-      // Archive path: mastery stats only, skip streak + leaderboard
-      await userRef.update({
-        'stats.gamesPlayed':       firebase.firestore.FieldValue.increment(1),
-        'stats.questionsAnswered': firebase.firestore.FieldValue.increment(totalAnswered),
-        'stats.questionsCorrect':  firebase.firestore.FieldValue.increment(totalCorrect),
-        'categoryStats':           catStats
+    // Derive the true category shape from actual play records
+    const qh = await userRef.collection('quizHistory').get();
+    const shape = {};
+    qh.forEach(doc => {
+      Object.entries(doc.data().categories || {}).forEach(([raw, v]) => {
+        const k = normalizeCategory(raw);
+        if (!shape[k]) shape[k] = { played: 0, correct: 0 };
+        shape[k].played  += (v.total   || 0);
+        shape[k].correct += (v.correct || 0);
       });
-
-      if (typeof updateCategoryMastery === 'function') {
-        updateCategoryMastery(categoryScores, dateKey);
-      }
-
-      loadPersonalStats(uid);
-      return;
-    }
-
-    // ── Daily path: full submission ──────────────────────
-    // Guard: if we've already recorded this date, skip stat increments
-    // (scores.set is idempotent, but increments would stack up)
-    if (data.stats && data.stats.lastPlayedDate === dateKey) {
-      console.warn('Daily score already recorded for', dateKey, '— skipping re-submit');
-      return;
-    }
-
-    const scoreDocId = `${uid}_${dateKey}`;
-    await db.collection('scores').doc(scoreDocId).set({
-      uid,
-      displayName,
-      score,
-      total,
-      date:      dateKey,
-      timestamp: firebase.firestore.FieldValue.serverTimestamp(),
-      categories: categoryScores
     });
 
-    // Streak logic (mirrors localStorage logic in quiz.js)
-    const d = new Date();
-    d.setDate(d.getDate() - 1);
-    const yesterday = `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;
+    const sumP = Object.values(shape).reduce((a, b) => a + b.played,  0);
+    const sumC = Object.values(shape).reduce((a, b) => a + b.correct, 0);
 
-    let currentStreak = stats.currentStreak || 0;
-    if (stats.lastPlayedDate === yesterday) {
-      currentStreak += 1;
-    } else if (stats.lastPlayedDate !== dateKey) {
-      currentStreak = 1;
+    // No usable history: fall back to normalizing the existing keys only
+    if (!sumP) {
+      const merged = {};
+      Object.entries(data.categoryStats || {}).forEach(([raw, v]) => {
+        const k = normalizeCategory(raw);
+        if (!merged[k]) merged[k] = { played: 0, correct: 0 };
+        merged[k].played  += (v.played  || 0);
+        merged[k].correct += (v.correct || 0);
+      });
+      await userRef.update({ categoryStats: merged, 'stats.schemaVersion': FR_SCHEMA_VERSION });
+      return;
     }
-    const longestStreak = Math.max(stats.longestStreak || 0, currentStreak);
 
-    const isNewBest = score > (stats.bestScore || 0);
+    // Scale the real shape up to the authoritative totals
+    const fP = targetQ / sumP, fC = targetC / sumC;
+    const out = {};
+    Object.entries(shape).forEach(([k, v]) => {
+      out[k] = { played: Math.round(v.played * fP), correct: Math.round(v.correct * fC) };
+    });
+    // Absorb rounding drift so the columns sum exactly
+    const settle = (key, target) => {
+      let diff = target - Object.values(out).reduce((a, b) => a + b[key], 0);
+      const keys = Object.keys(out).sort((a, b) => out[b][key] - out[a][key]);
+      let i = 0, guard = 0;
+      while (diff !== 0 && guard++ < 1000) {
+        const k = keys[i % keys.length];
+        if (diff > 0)                { out[k][key]++; diff--; }
+        else if (out[k][key] > 0)    { out[k][key]--; diff++; }
+        i++;
+      }
+    };
+    settle('played', targetQ);
+    settle('correct', targetC);
+    Object.keys(out).forEach(k => { if (out[k].correct > out[k].played) out[k].correct = out[k].played; });
+
+    // Rebuild mastery off the reconciled numbers, preserving streaks
+    const mastery = {};
+    Object.entries(out).forEach(([k, v]) => {
+      const prev = (data.categoryMastery || {})[k] || {};
+      mastery[k] = {
+        correct: v.correct,
+        total:   v.played,
+        perfectStreak:     prev.perfectStreak     || 0,
+        bestPerfectStreak: prev.bestPerfectStreak || 0,
+        lastPlayedDate:    prev.lastPlayedDate || stats.lastPlayedDate || '',
+        level: (typeof computeTier === 'function')
+          ? computeTier(v.correct, v.played).id : (prev.level || 'novice')
+      };
+    });
 
     await userRef.update({
-      'stats.gamesPlayed':       firebase.firestore.FieldValue.increment(1),
-      'stats.questionsAnswered': firebase.firestore.FieldValue.increment(totalAnswered),
-      'stats.questionsCorrect':  firebase.firestore.FieldValue.increment(totalCorrect),
-      'stats.currentStreak':     currentStreak,
-      'stats.longestStreak':     longestStreak,
-      'stats.lastPlayedDate':    dateKey,
-      'stats.bestScore':         isNewBest ? score : (stats.bestScore || 0),
-      'stats.bestScoreDate':     isNewBest ? dateKey : (stats.bestScoreDate || ''),
-      'categoryStats':           catStats
+      categoryStats:   out,
+      categoryMastery: mastery,
+      masteryScore: (typeof computeMasteryScore === 'function')
+        ? computeMasteryScore(mastery) : (data.masteryScore || 0),
+      'stats.schemaVersion': FR_SCHEMA_VERSION
     });
 
-    if (typeof updateCategoryMastery === 'function') {
-      updateCategoryMastery(categoryScores, dateKey);
-    }
-
-    loadLeaderboard();
-    loadPersonalStats(uid);
-    calculateAndShowRankPct(score, dateKey);
-
-  } catch (err) {
-    console.error('Score submission error:', err);
+    console.log('[FR] stats reconciled to schema v' + FR_SCHEMA_VERSION);
+  } catch (e) {
+    // Never block sign-in on a migration failure
+    console.warn('[FR] stats reconcile skipped:', e.message);
   }
 }
 

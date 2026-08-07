@@ -7,8 +7,8 @@
       "options": [
         "Maya",
         "Aztec",
-        "Olmec",
-        "Toltec"
+        "Toltec",
+        "Olmec"
       ],
       "answer": "Maya",
       "explanation": "Chichen Itza was a major Maya city that flourished between 600-1200 AD. El Castillo pyramid creates a serpent shadow illusion during equinoxes — a feat of astronomical precision. It is one of the New Seven Wonders of the World.",
@@ -16,14 +16,14 @@
     },
     {
       "category": "Science & Nature",
-      "question": "The Chandrasekhar limit — calculated by astrophysicist Subrahmanyan Chandrasekhar at age 19 on a ship from India to England — determines the fate of dying stars. What is it?",
+      "question": "Subrahmanyan Chandrasekhar calculated his famous limit at 19, on a ship from India to England. What does it define?",
       "options": [
-        "The maximum temperature a star can reach before its nuclear reactions become uncontrolled — stars exceeding this limit explode as supernovae rather than cooling into white dwarfs",
-        "The maximum mass a white dwarf can have (about 1.4 solar masses) before electron degeneracy pressure fails and the star collapses further — into a neutron star or black hole via supernova",
-        "The minimum mass a star needs to begin nuclear fusion in its core — objects below this limit become brown dwarfs that glow from gravitational contraction but never ignite hydrogen burning",
-        "The boundary between the inner and outer solar system, beyond which the Sun's gravity is too weak to retain planets — named after Chandrasekhar who first calculated the solar system's gravitational reach"
+        "Max white dwarf mass, about 1.4 suns, before collapse",
+        "The hottest a star can get before it explodes",
+        "The minimum mass a body needs to start fusion",
+        "The outer edge of the Sun's gravitational reach"
       ],
-      "answer": "The maximum mass a white dwarf can have (about 1.4 solar masses) before electron degeneracy pressure fails and the star collapses further — into a neutron star or black hole via supernova",
+      "answer": "Max white dwarf mass, about 1.4 suns, before collapse",
       "explanation": "When Sun-like stars die, they shed their outer layers and leave a dense core — a white dwarf — where electron degeneracy pressure (quantum mechanical) supports it against gravity. Chandrasekhar showed in 1930 that this pressure has a maximum capacity of about 1.4 solar masses. Above this, the white dwarf collapses. When a white dwarf in a binary system accretes mass past the limit, it produces a Type Ia supernova — these explosions are remarkably uniform in luminosity, making them 'standard candles' used to measure cosmic distances and discover dark energy. Chandrasekhar won the Nobel Prize in 1983; his superior Arthur Eddington had ridiculed his limit for years.",
       "memory_hook": "Chandrasekhar calculated his mass limit at 19 on a ship to England. His boss Arthur Eddington publicly ridiculed him for years. When white dwarfs exceed 1.4 solar masses, they explode as Type Ia supernovae — the 'standard candles' that discovered dark energy 68 years later. Nobel Prize came in 1983."
     },
@@ -31,10 +31,10 @@
       "category": "Sports",
       "question": "Which country leads all nations in Winter Olympic gold medals, with over 130 golds — remarkable for a country of only 5 million people?",
       "options": [
-        "Norway",
         "United States",
-        "Germany",
-        "Canada"
+        "Canada",
+        "Norway",
+        "Germany"
       ],
       "answer": "Norway",
       "explanation": "Norway dominates Winter Olympics due to its deeply ingrained skiing culture. The word 'ski' comes from Old Norse. Norwegian athletes have excelled in cross-country skiing, biathlon, and ski jumping across generations.",
@@ -44,10 +44,10 @@
       "category": "Pop Culture",
       "question": "Which 1972 Francis Ford Coppola film, based on a Mario Puzo novel about a crime family, won Best Picture and is often called the greatest film ever made?",
       "options": [
-        "The Godfather",
-        "Goodfellas",
         "Scarface",
-        "The French Connection"
+        "The French Connection",
+        "The Godfather",
+        "Goodfellas"
       ],
       "answer": "The Godfather",
       "explanation": "The Godfather (1972) starred Marlon Brando as Vito Corleone and launched Al Pacino's career. It won Best Picture, Best Actor, and Best Adapted Screenplay. Brando famously put cotton in his cheeks and rehearsed with a cat to shape the character. The Godfather Part II is one of the rare sequels to win Best Picture.",
@@ -57,10 +57,10 @@
       "category": "Geography",
       "question": "Which river is traditionally considered the longest in the world, flowing approximately 6,650 km northward through Africa into the Mediterranean Sea?",
       "options": [
-        "Nile",
         "Amazon",
-        "Yangtze",
-        "Congo"
+        "Nile",
+        "Congo",
+        "Yangtze"
       ],
       "answer": "Nile",
       "explanation": "The Nile flows through 11 countries including Ethiopia, Sudan, and Egypt. Ancient Egyptian civilization developed along its banks, sustained by its annual floods. Some measurements suggest the Amazon may actually be longer, but the Nile is traditionally cited as #1.",
@@ -70,10 +70,10 @@
       "category": "History",
       "question": "The French Revolution began with the storming of which Parisian fortress-prison on July 14, 1789?",
       "options": [
-        "The Bastille",
         "The Tuileries",
-        "The Conciergerie",
-        "Vincennes"
+        "Vincennes",
+        "The Bastille",
+        "The Conciergerie"
       ],
       "answer": "The Bastille",
       "explanation": "The Bastille symbolized royal tyranny. Revolutionaries stormed it on July 14, 1789, freeing seven prisoners and seizing gunpowder. It was subsequently demolished. July 14 is now Bastille Day, France's national holiday.",
@@ -83,10 +83,10 @@
       "category": "Pop Culture",
       "question": "Which video game franchise, starring a mustachioed Italian plumber, is Nintendo's best-selling series with over 800 million copies sold?",
       "options": [
-        "Super Mario",
+        "Metroid",
         "The Legend of Zelda",
         "Pokemon",
-        "Metroid"
+        "Super Mario"
       ],
       "answer": "Super Mario",
       "explanation": "Super Mario began in 1981 as 'Jumpman' in Donkey Kong. The character was named after Nintendo of America's warehouse landlord, Mario Segale. Super Mario Bros. (1985) was bundled with the NES and helped revive the North American video game market after the 1983 crash.",
@@ -94,14 +94,14 @@
     },
     {
       "category": "Science & Nature",
-      "question": "Stephen Hawking's 1974 theoretical discovery that black holes can slowly evaporate — called Hawking radiation — was considered one of the most important physics insights of the 20th century. What causes it?",
+      "question": "Stephen Hawking showed in 1974 that black holes slowly evaporate. What causes Hawking radiation?",
       "options": [
-        "Hawking radiation occurs when the black hole's magnetic field accelerates electrons around the event horizon, causing them to emit X-rays that gradually carry away the hole's mass-energy",
-        "Virtual particle pairs constantly pop into existence near the event horizon; when one falls in while the other escapes, the black hole effectively emits a particle — gradually losing mass over astronomical timescales",
-        "Hawking radiation occurs because the intense gravity near a black hole separates photons from the vacuum, causing them to radiate outward as the hole's tidal forces strip their energy",
-        "Hawking radiation is caused by cosmic microwave background photons being blue-shifted by the black hole's gravity to energies high enough to escape back out through the event horizon"
+        "Gravity stripping photons out of the vacuum",
+        "Virtual particle pairs splitting at the event horizon",
+        "Magnetic fields accelerating electrons into X-rays",
+        "Background photons blue-shifting enough to escape"
       ],
-      "answer": "Virtual particle pairs constantly pop into existence near the event horizon; when one falls in while the other escapes, the black hole effectively emits a particle — gradually losing mass over astronomical timescales",
+      "answer": "Virtual particle pairs splitting at the event horizon",
       "explanation": "Quantum mechanics allows particle-antiparticle pairs to briefly materialize from the vacuum before annihilating. Near a black hole's event horizon, one particle may fall in while the other escapes — the black hole must supply the energy for the escaped particle, causing it to slowly lose mass. For stellar-mass black holes, the radiation rate is negligible (far colder than the CMB). Hawking radiation has never been directly observed. Hawking was 32 when he published this result, which unified quantum mechanics and general relativity. He reportedly exclaimed 'eureka' when he derived it — it was completely unexpected and initially dismayed him.",
       "memory_hook": "Hawking discovered black holes evaporate in 1974 — it dismayed him initially, as it was unexpected. Virtual particle pairs near the event horizon allow one to escape while the other falls in; the black hole pays the energy bill. For a stellar black hole, it would take 10^67 years to evaporate. Nobel Prize? Hawking died in 2018 before it could be confirmed experimentally."
     },
@@ -109,9 +109,9 @@
       "category": "Geography",
       "question": "Which country, spread across more than 17,000 islands, is the world's largest archipelago nation?",
       "options": [
-        "Indonesia",
         "Philippines",
         "Japan",
+        "Indonesia",
         "Maldives"
       ],
       "answer": "Indonesia",
@@ -122,10 +122,10 @@
       "category": "History",
       "question": "Julius Caesar made an irreversible move by crossing the Rubicon River with his army in 49 BC. Why was this act of war against Roman law?",
       "options": [
-        "Generals were forbidden from bringing armies into Italy",
-        "The river marked the border with Gaul",
         "It flooded Rome's water supply",
-        "The Senate had declared it sacred ground"
+        "The Senate had declared it sacred ground",
+        "The river marked the border with Gaul",
+        "Generals were forbidden from bringing armies into Italy"
       ],
       "answer": "Generals were forbidden from bringing armies into Italy",
       "explanation": "Roman law prohibited generals from commanding armies within Italy to prevent coups. By crossing the Rubicon with the 13th Legion, Caesar committed treason and civil war became inevitable. He reportedly said 'the die is cast' (alea iacta est) as he crossed.",
@@ -136,9 +136,9 @@
       "question": "Which Irish rock band, formed in Dublin in 1976 and fronted by Bono, has sold over 170 million records and completed the highest-grossing concert tour in history?",
       "options": [
         "U2",
-        "The Cranberries",
         "Thin Lizzy",
-        "The Script"
+        "The Script",
+        "The Cranberries"
       ],
       "answer": "U2",
       "explanation": "U2's 360° Tour (2009-2011) grossed over $736 million — still the highest-grossing tour ever. Their 1987 album 'The Joshua Tree' debuted at #1 in 22 countries. The band has won 22 Grammy Awards, more than any other rock group.",
@@ -148,10 +148,10 @@
       "category": "Sports",
       "question": "In American football, what is the championship game played each year between the NFC and AFC conference champions?",
       "options": [
-        "Super Bowl",
-        "Pro Bowl",
+        "Orange Bowl",
         "Rose Bowl",
-        "Orange Bowl"
+        "Pro Bowl",
+        "Super Bowl"
       ],
       "answer": "Super Bowl",
       "explanation": "The Super Bowl has been played since January 1967, when the Green Bay Packers defeated the Kansas City Chiefs. It is the most-watched television event in the United States annually. The halftime show has become as culturally significant as the game itself.",

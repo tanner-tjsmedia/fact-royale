@@ -5,10 +5,10 @@
       "category": "History",
       "question": "Which US president delivered the famous 'I Have a Dream' speech — no wait, which president was in office when Martin Luther King Jr. delivered it?",
       "options": [
-        "Dwight D. Eisenhower",
-        "John F. Kennedy",
+        "Richard Nixon",
         "Lyndon B. Johnson",
-        "Richard Nixon"
+        "Dwight D. Eisenhower",
+        "John F. Kennedy"
       ],
       "answer": "John F. Kennedy",
       "explanation": "Martin Luther King Jr. delivered his 'I Have a Dream' speech on August 28, 1963, during John F. Kennedy's presidency. Kennedy was assassinated three months later in November 1963. It was Kennedy's Justice Department that was negotiating with civil rights leaders at the time. Kennedy's successor, Lyndon B. Johnson, signed the Civil Rights Act of 1964 and Voting Rights Act of 1965.",
@@ -19,9 +19,9 @@
       "question": "The Meiji Restoration of 1868 transformed which country from a feudal state into a modern industrial power?",
       "options": [
         "Korea",
-        "Vietnam",
+        "Japan",
         "China",
-        "Japan"
+        "Vietnam"
       ],
       "answer": "Japan",
       "explanation": "The Meiji Restoration (1868) ended Japan's feudal government (the Tokugawa shogunate) and restored imperial rule under Emperor Meiji. Japan rapidly modernized — adopting Western technology, military systems, education, and industry. Within 40 years, Japan had become a major world power, defeating Russia in the Russo-Japanese War (1905). The Meiji Restoration is one of history's most remarkable national transformations.",
@@ -33,8 +33,8 @@
       "options": [
         "Angela Merkel",
         "Gertrude Schröder",
-        "Heidi Simonis",
-        "Annegret Kramp-Karrenbauer"
+        "Annegret Kramp-Karrenbauer",
+        "Heidi Simonis"
       ],
       "answer": "Angela Merkel",
       "explanation": "Angela Merkel served as Chancellor of Germany for 16 years (2005-2021), making her the longest-serving head of government in the EU during her tenure. A trained physicist from East Germany, she navigated the 2008 financial crisis, the European debt crisis, the refugee crisis, and the COVID-19 pandemic. She is widely regarded as one of the most consequential leaders of her era.",
@@ -42,14 +42,14 @@
     },
     {
       "category": "Sports",
-      "question": "Jesse Owens won four gold medals at the 1936 Berlin Olympics under Adolf Hitler. What is the historical truth behind the famous story that Hitler 'snubbed' Owens?",
+      "question": "Jesse Owens won four golds at the 1936 Berlin Olympics. What's the truth behind the story that Hitler 'snubbed' him?",
       "options": [
-        "Hitler personally congratulated Owens in private after the 100m final, and Owens later said he had received a better reception in Berlin than he did from President Roosevelt when he returned to the United States",
-        "Hitler openly praised Owens during the Games and invited him to the Olympic Village for a state dinner — footage of their handshake was later suppressed by both German and American governments during the Cold War",
-        "Hitler did publicly snub Owens by leaving the stadium immediately after Owens' 100m victory to avoid shaking his hand — German newspapers documented his departure and the IOC reprimanded Hitler for the breach of protocol",
-        "The snub story is true — Hitler refused to appear at any event where Owens competed after the first day, which is why German officials had to present the medals in his place for all four of Owens's gold medals"
+        "Hitler waved to him; it was FDR who ignored him",
+        "Hitler walked out of the stadium and the IOC objected",
+        "Hitler hosted him at a state dinner in the Olympic Village",
+        "Hitler skipped every event Owens competed in"
       ],
-      "answer": "Hitler personally congratulated Owens in private after the 100m final, and Owens later said he had received a better reception in Berlin than he did from President Roosevelt when he returned to the United States",
+      "answer": "Hitler waved to him; it was FDR who ignored him",
       "explanation": "The 'Hitler snub' is largely a myth perpetuated by sportswriters. Owens himself said Hitler waved at him and Owens waved back. After the 100m, Hitler sent a signed photograph. Owens told reporters: 'When I passed the Chancellor, he arose, waved his hand at me, and I waved back at him. I think the writers showed bad taste in criticizing the man of the hour in Germany.' Owens was not invited to the White House by FDR (who did celebrate white athletes), and he had to enter his own New York ticker-tape parade reception through a back door. He remarked that Hitler acknowledged him but his own president did not.",
       "memory_hook": "Owens himself said Hitler waved and he waved back — and that Hitler had treated him better than FDR did. Roosevelt celebrated the white athletes but didn't invite Owens to the White House. Owens entered his own NYC ticker-tape parade reception through a back door. The 'snub' story was invented by American sportswriters."
     },
@@ -59,8 +59,8 @@
       "options": [
         "UEFA",
         "IOC",
-        "CONCACAF",
-        "FIFA"
+        "FIFA",
+        "CONCACAF"
       ],
       "answer": "FIFA",
       "explanation": "FIFA (Fédération Internationale de Football Association) is the international governing body for soccer, founded in Paris in 1904. It oversees 211 member associations — more members than the United Nations. FIFA organizes the World Cup, Women's World Cup, and various other competitions. Its headquarters are in Zurich, Switzerland. FIFA has been frequently criticized for corruption, particularly surrounding World Cup host selection.",
@@ -70,10 +70,10 @@
       "category": "Pop Culture",
       "question": "Which American director made 'Apocalypse Now' (1979), a Vietnam War film based on Joseph Conrad's 'Heart of Darkness'?",
       "options": [
-        "Oliver Stone",
-        "Stanley Kubrick",
         "Michael Cimino",
-        "Francis Ford Coppola"
+        "Oliver Stone",
+        "Francis Ford Coppola",
+        "Stanley Kubrick"
       ],
       "answer": "Francis Ford Coppola",
       "explanation": "Francis Ford Coppola directed Apocalypse Now (1979), starring Marlon Brando, Martin Sheen, and Robert Duvall. The production was notoriously troubled — typhoon, Brando arriving unprepared and overweight, Martin Sheen's heart attack, and Coppola's mental breakdown during filming. The documentary Hearts of Darkness (1991) about the making of the film is almost as famous as the film itself.",
@@ -83,10 +83,10 @@
       "category": "Pop Culture",
       "question": "The song 'Imagine' (1971) was written by which musician as a vision of world peace?",
       "options": [
-        "George Harrison",
-        "Ringo Starr",
         "Paul McCartney",
-        "John Lennon"
+        "John Lennon",
+        "Ringo Starr",
+        "George Harrison"
       ],
       "answer": "John Lennon",
       "explanation": "John Lennon wrote and recorded 'Imagine' in 1971 at his Tittenhurst Park estate in England. The song asks listeners to imagine a world without countries, religion, or possessions. It is one of the best-selling singles of all time and was voted the greatest song of the 20th century in multiple polls. Lennon was shot and killed in New York City on December 8, 1980.",
@@ -94,14 +94,14 @@
     },
     {
       "category": "Pop Culture",
-      "question": "The Rothko Chapel in Houston, Texas (1971) is a unique intersection of art and spirituality. What did Mark Rothko intend for the 14 large-scale dark paintings he made specifically for the space?",
+      "question": "Mark Rothko made 14 near-black paintings for the Rothko Chapel in Houston. What did he intend them to do?",
       "options": [
-        "Rothko designed the paintings to cycle through colors representing different emotional states depending on the light conditions at different times of day — each painting looks dramatically different at dawn, noon, and dusk",
-        "Rothko intended the monumental dark paintings to overwhelm viewers with pure emotional presence — describing the space as a 'place of absolute silence' where his paintings could induce a transcendent, almost religious experience",
-        "Rothko based each of the 14 paintings on a specific religious text from a different world faith, creating a visual interfaith dialogue that the viewer could only decode by reading the companion guidebook he wrote",
-        "Rothko initially designed the chapel paintings to be bright and colorful like his earlier work, but darkened them progressively as his mental health deteriorated — the dark panels are technically unfinished works he never intended to display"
+        "Key each panel to a different faith's sacred text",
+        "Shift in color with the changing light through the day",
+        "Overwhelm the viewer with presence in absolute silence",
+        "Serve as unfinished works darkened by his declining health"
       ],
-      "answer": "Rothko intended the monumental dark paintings to overwhelm viewers with pure emotional presence — describing the space as a 'place of absolute silence' where his paintings could induce a transcendent, almost religious experience",
+      "answer": "Overwhelm the viewer with presence in absolute silence",
       "explanation": "Rothko accepted the commission from John and Dominique de Menil in 1964 and spent years working on the 14 panels, which are nearly black but contain deep purples and maroons visible as eyes adjust. He designed the lighting, insisted on specific panel arrangements, and saw the chapel as the culmination of his career — wanting viewers to feel 'enveloped' rather than simply looking at paintings. He died by suicide in 1970, a year before the chapel opened. It has become an interfaith pilgrimage site hosting world leaders including Jimmy Carter and the Dalai Lama. Rothko said his paintings were 'about tragedy, ecstasy, doom, and so on.'",
       "memory_hook": "Rothko spent years on the 14 near-black panels, dying by suicide in 1970, one year before the chapel opened. The panels appear black at first glance but reveal deep purples and maroons as eyes adjust. He designed the space to envelope rather than be viewed from a distance. It became an interfaith site hosting Carter, the Dalai Lama, and others."
     },
@@ -109,10 +109,10 @@
       "category": "Geography",
       "question": "The Serengeti, one of Africa's most iconic national parks, is located in which country?",
       "options": [
-        "Kenya",
-        "Uganda",
+        "Tanzania",
         "Botswana",
-        "Tanzania"
+        "Kenya",
+        "Uganda"
       ],
       "answer": "Tanzania",
       "explanation": "The Serengeti National Park is located in northern Tanzania, covering about 14,750 square kilometers. It is famous for the annual Great Migration, where over 1.5 million wildebeest, along with hundreds of thousands of zebras and gazelles, migrate in a circular route across the Serengeti and into the Maasai Mara in Kenya. The park was designated a UNESCO World Heritage Site in 1981.",
@@ -123,9 +123,9 @@
       "question": "What is the name of the boundary between Earth's crust and mantle?",
       "options": [
         "Conrad discontinuity",
-        "Gutenberg discontinuity",
         "Lehmann discontinuity",
-        "Mohorovicic discontinuity"
+        "Mohorovicic discontinuity",
+        "Gutenberg discontinuity"
       ],
       "answer": "Mohorovicic discontinuity",
       "explanation": "The Mohorovicic discontinuity (or 'Moho') is the boundary between Earth's crust and upper mantle, located approximately 35 km below the continents and 5-10 km below the ocean floor. It was discovered by Croatian seismologist Andrija Mohorovicic in 1909 by analyzing seismic wave speeds. Below the Moho, seismic waves travel faster because of the denser mantle rock.",
@@ -135,10 +135,10 @@
       "category": "Geography",
       "question": "The Schwarzwald (Black Forest), a mountainous wooded region famous in German folklore and fairy tales, is located in which German state?",
       "options": [
-        "Bavaria",
         "Saxony",
+        "Baden-Württemberg",
         "Thuringia",
-        "Baden-Württemberg"
+        "Bavaria"
       ],
       "answer": "Baden-Württemberg",
       "explanation": "The Black Forest (Schwarzwald) is located in the state of Baden-Württemberg in southwestern Germany, west of the Rhine River. It is known for its dense pine forests (which appear black from a distance), cuckoo clock production, the Black Forest gateau (cake), and the Baden wine region. The Rhine and Neckar rivers originate in the Black Forest. Brothers Grimm fairy tales (Hansel and Gretel, Rumpelstiltskin) were set in forests like this. The spa town of Baden-Baden and the city of Freiburg are in the region.",
@@ -148,10 +148,10 @@
       "category": "Science & Nature",
       "question": "What is electrolysis, and what two gases does it produce when applied to water?",
       "options": [
-        "The natural flow of electricity through metal conductors, producing heat",
-        "Using electrical current to drive a non-spontaneous chemical reaction, splitting water into hydrogen and oxygen",
         "The process of charging batteries",
-        "The chemical process of oxidation in seawater"
+        "Using electrical current to drive a non-spontaneous chemical reaction, splitting water into hydrogen and oxygen",
+        "The chemical process of oxidation in seawater",
+        "The natural flow of electricity through metal conductors, producing heat"
       ],
       "answer": "Using electrical current to drive a non-spontaneous chemical reaction, splitting water into hydrogen and oxygen",
       "explanation": "Electrolysis uses electrical current to drive chemical reactions that would not occur spontaneously. Electrolysis of water (H₂O) splits it into hydrogen gas (H₂, at the negative electrode/cathode) and oxygen gas (O₂, at the positive electrode/anode) in a 2:1 ratio. This is used to produce 'green hydrogen' when powered by renewable electricity — potentially a key clean fuel. Electrolysis also purifies metals (copper refining), produces chlorine, and is used in electroplating.",

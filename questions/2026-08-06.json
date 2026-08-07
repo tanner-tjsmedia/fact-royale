@@ -18,10 +18,10 @@
       "category": "History",
       "question": "The Suez Crisis of 1956 was triggered when Egypt nationalized the Suez Canal. Who was Egypt's president at the time?",
       "options": [
-        "Hosni Mubarak",
-        "Anwar Sadat",
         "King Farouk",
-        "Gamal Abdel Nasser"
+        "Gamal Abdel Nasser",
+        "Hosni Mubarak",
+        "Anwar Sadat"
       ],
       "answer": "Gamal Abdel Nasser",
       "explanation": "Egyptian President Gamal Abdel Nasser nationalized the Suez Canal in July 1956, leading to a military response from Britain, France, and Israel. The US pressured all sides to stand down, humiliating Britain and France and marking the end of their status as global superpowers. The crisis is considered the moment when American and Soviet dominance replaced European colonial power.",
@@ -31,10 +31,10 @@
       "category": "History",
       "question": "The Watergate scandal, which led to President Nixon's resignation in 1974, began with a break-in at which Washington DC complex?",
       "options": [
-        "Pentagon",
         "State Department",
-        "Capitol Building",
-        "Watergate Hotel"
+        "Pentagon",
+        "Watergate Hotel",
+        "Capitol Building"
       ],
       "answer": "Watergate Hotel",
       "explanation": "The Watergate scandal began with a break-in at the Democratic National Committee headquarters in the Watergate Hotel complex in Washington DC on June 17, 1972. Nixon administration officials tried to cover up White House involvement. The cover-up ultimately destroyed Nixon's presidency. He resigned on August 9, 1974 — the only US president ever to do so. The '-gate' suffix became shorthand for political scandals worldwide.",
@@ -44,10 +44,10 @@
       "category": "Sports",
       "question": "In which Olympic sport do athletes use a bow and arrows to hit a target?",
       "options": [
-        "Biathlon",
-        "Pentathlon",
         "Fencing",
-        "Archery"
+        "Archery",
+        "Biathlon",
+        "Pentathlon"
       ],
       "answer": "Archery",
       "explanation": "Archery has been part of the Olympic Games since 1900 (with gaps). Olympic archers shoot recurve bows at targets 70 meters away in the outdoor competition. The target is 122 cm in diameter and the gold bullseye is 12.2 cm — about the size of an apple. South Korea has dominated Olympic archery for decades, particularly in the women's category.",
@@ -57,10 +57,10 @@
       "category": "Sports",
       "question": "The 'Fosbury Flop' is a technique used in which track and field event?",
       "options": [
-        "Long jump",
         "Triple jump",
         "Pole vault",
-        "High jump"
+        "High jump",
+        "Long jump"
       ],
       "answer": "High jump",
       "explanation": "Dick Fosbury won gold at the 1968 Mexico City Olympics using a completely new high jump technique — jumping headfirst and backward over the bar rather than face-down. Before Fosbury, athletes jumped using the 'Western Roll' or 'Straddle.' His technique was so effective that virtually all high jumpers now use it. Fosbury cleared 2.24 meters with his revolutionary style.",
@@ -71,9 +71,9 @@
       "question": "Which musician famously performed at Woodstock in 1969 and is known for his electric guitar rendition of the National Anthem?",
       "options": [
         "Eric Clapton",
-        "Carlos Santana",
         "Jimi Hendrix",
-        "B.B. King"
+        "B.B. King",
+        "Carlos Santana"
       ],
       "answer": "Jimi Hendrix",
       "explanation": "Jimi Hendrix closed the Woodstock festival in August 1969 with a legendary performance including a deconstructed, feedback-laden version of 'The Star-Spangled Banner.' He played his Fender Stratocaster upside down (he was left-handed) and restrung. Rolling Stone ranks him as the greatest guitarist of all time. He died in September 1970 at age 27 — one of the most devastating losses in music history.",
@@ -83,10 +83,10 @@
       "category": "Pop Culture",
       "question": "Which 2009 animated Pixar film opens with a sequence widely considered one of the most emotional in film history?",
       "options": [
-        "Wall-E",
         "Brave",
+        "Up",
         "Inside Out",
-        "Up"
+        "Wall-E"
       ],
       "answer": "Up",
       "explanation": "The opening montage of Up (2009), directed by Pete Docter, condenses an entire marriage — from young couple to widower — in about four minutes with minimal dialogue. It is frequently cited as one of the most emotionally resonant sequences in cinema. The film won the Academy Award for Best Animated Feature and Best Original Score and was the second animated film nominated for Best Picture.",
@@ -97,9 +97,9 @@
       "question": "The Eagles' 'Hotel California' (1977) was written by three band members. Who is credited as the primary lyricist and lead vocalist who defined the song's concept?",
       "options": [
         "Joe Walsh",
-        "Don Henley",
         "Glenn Frey",
-        "Don Felder"
+        "Don Felder",
+        "Don Henley"
       ],
       "answer": "Don Henley",
       "explanation": "'Hotel California' was written collaboratively: Don Felder created the original guitar riff and chord progression, while Don Henley wrote the iconic lyrics and sang lead vocals. Glenn Frey co-wrote the words. Henley is credited as the song's primary writer — his lyrics about excess and disillusionment in the California music industry define what the song is. The dual guitar solo at the end was performed by Felder and Joe Walsh.",
@@ -123,9 +123,9 @@
       "question": "What is the name of the boundary below which no light penetrates the ocean?",
       "options": [
         "Photic zone",
-        "Abyssal zone",
         "Benthic zone",
-        "Midnight zone"
+        "Midnight zone",
+        "Abyssal zone"
       ],
       "answer": "Midnight zone",
       "explanation": "The midnight zone (or bathypelagic zone) extends from about 1,000 to 4,000 meters below the ocean surface, where absolutely no sunlight reaches. Creatures in this zone must either produce their own light (bioluminescence) or rely on organic matter drifting down from above. Pressure at these depths is extreme — hundreds of times greater than at the surface.",
@@ -136,8 +136,8 @@
       "question": "The Aleutian Islands, a chain of about 300 volcanic islands extending 1,900 km into the Pacific, belong to which U.S. state?",
       "options": [
         "Hawaii",
-        "Washington",
         "Oregon",
+        "Washington",
         "Alaska"
       ],
       "answer": "Alaska",
@@ -148,10 +148,10 @@
       "category": "Science & Nature",
       "question": "What is Archimedes' principle — the law that explains why ships made of steel can float even though steel is denser than water?",
       "options": [
-        "Objects expand when submerged",
         "A submerged object experiences an upward force equal to the weight of fluid displaced",
-        "Dense objects always sink",
-        "Pressure increases with depth"
+        "Objects expand when submerged",
+        "Pressure increases with depth",
+        "Dense objects always sink"
       ],
       "answer": "A submerged object experiences an upward force equal to the weight of fluid displaced",
       "explanation": "Archimedes' principle states that any object submerged in a fluid experiences an upward buoyant force equal to the weight of the fluid it displaces. A steel ship floats because its shape displaces enough water that the weight of that water exceeds the ship's weight. Archimedes reportedly discovered this while stepping into a bath and ran through the streets shouting 'Eureka!' (I have found it). The same principle explains why people float more easily in saltwater (denser water → greater buoyant force).",

@@ -6,9 +6,9 @@
       "question": "Which U.S. President signed the Emancipation Proclamation in 1863?",
       "options": [
         "Ulysses S. Grant",
-        "Abraham Lincoln",
         "Andrew Johnson",
-        "James Buchanan"
+        "James Buchanan",
+        "Abraham Lincoln"
       ],
       "answer": "Abraham Lincoln",
       "explanation": "Abraham Lincoln issued the Emancipation Proclamation on January 1, 1863, declaring enslaved people in Confederate states to be free. It didn't end slavery outright — that came with the 13th Amendment in 1865 — but it fundamentally changed the character of the Civil War.",
@@ -18,10 +18,10 @@
       "category": "History",
       "question": "What ancient city was buried under volcanic ash when Mount Vesuvius erupted in 79 AD?",
       "options": [
-        "Athens",
-        "Carthage",
         "Pompeii",
-        "Syracuse"
+        "Carthage",
+        "Syracuse",
+        "Athens"
       ],
       "answer": "Pompeii",
       "explanation": "Mount Vesuvius erupted on August 24, 79 AD, burying the Roman city of Pompeii under 13-20 feet of volcanic ash and pumice. The city was preserved so completely that archaeologists have uncovered entire streets, buildings, artwork, and even the shapes of people frozen at the moment of death.",
@@ -31,10 +31,10 @@
       "category": "History",
       "question": "The Silk Road was a network of trade routes connecting China to which region?",
       "options": [
-        "Sub-Saharan Africa",
-        "The Mediterranean and Europe",
         "The Americas",
-        "Australia"
+        "Sub-Saharan Africa",
+        "Australia",
+        "The Mediterranean and Europe"
       ],
       "answer": "The Mediterranean and Europe",
       "explanation": "The Silk Road stretched roughly 4,000 miles, linking China through Central Asia to the Mediterranean world. It wasn't just one road but a network of routes, and it traded far more than silk — spices, glassware, paper, gunpowder, religion, and disease all traveled these routes.",
@@ -44,9 +44,9 @@
       "category": "Sports",
       "question": "In what sport would you perform a 'slam dunk'?",
       "options": [
+        "Basketball",
         "Volleyball",
         "Tennis",
-        "Basketball",
         "Water polo"
       ],
       "answer": "Basketball",
@@ -57,9 +57,9 @@
       "category": "Sports",
       "question": "How many players are on the field for one team in American football?",
       "options": [
-        "10",
         "12",
         "9",
+        "10",
         "11"
       ],
       "answer": "11",
@@ -70,9 +70,9 @@
       "category": "Pop Culture",
       "question": "Mark Rothko was a leading Abstract Expressionist whose large-scale color field paintings became iconic. What makes his approach to painting philosophically distinctive?",
       "options": [
+        "He used mathematical formulas to determine color proportions, creating work that was simultaneously emotional and scientifically precise",
         "He painted only from live models, believing photography had eliminated all other legitimate painting subjects",
         "He insisted his paintings were not abstract — they were expressions of basic human emotions (tragedy, ecstasy, doom), and he wanted viewers to weep in front of them",
-        "He used mathematical formulas to determine color proportions, creating work that was simultaneously emotional and scientifically precise",
         "He painted exclusively on black backgrounds, arguing that all color only has meaning in relation to absolute darkness"
       ],
       "answer": "He insisted his paintings were not abstract — they were expressions of basic human emotions (tragedy, ecstasy, doom), and he wanted viewers to weep in front of them",
@@ -83,10 +83,10 @@
       "category": "Pop Culture",
       "question": "Which artist released the best-selling album 'Thriller' in 1982?",
       "options": [
+        "Stevie Wonder",
         "Prince",
         "Michael Jackson",
-        "David Bowie",
-        "Stevie Wonder"
+        "David Bowie"
       ],
       "answer": "Michael Jackson",
       "explanation": "Thriller was released on November 30, 1982, and remains the best-selling album of all time with an estimated 66-70 million copies sold worldwide. It produced seven Billboard Hot 100 top-10 singles — a record — and the 14-minute 'Thriller' music video is considered a landmark in the art form.",
@@ -97,9 +97,9 @@
       "question": "The Sopranos (1999–2007) is widely regarded as the television series that launched the 'Golden Age of TV.' What made it a watershed moment for the medium?",
       "options": [
         "It was the first television series to have a budget exceeding $5 million per episode, establishing that TV could compete with film financially",
+        "It pioneered the streaming model by releasing all episodes simultaneously online, years before Netflix adopted the practice",
         "It applied novelistic depth, moral ambiguity, and cinematic production values to a long-form TV story — proving TV could be as serious an art form as film",
-        "It was the first series to be filmed entirely on location rather than on studio sets, changing production standards for all future TV dramas",
-        "It pioneered the streaming model by releasing all episodes simultaneously online, years before Netflix adopted the practice"
+        "It was the first series to be filmed entirely on location rather than on studio sets, changing production standards for all future TV dramas"
       ],
       "answer": "It applied novelistic depth, moral ambiguity, and cinematic production values to a long-form TV story — proving TV could be as serious an art form as film",
       "explanation": "The Sopranos, created by David Chase for HBO, followed mob boss Tony Soprano simultaneously as a violent criminal and a man in therapy grappling with panic attacks and mother issues. Its refusal to moralize, its Freudian depth, and its cinematic quality redefined what television could do. Shows like The Wire, Mad Men, Breaking Bad, and Game of Thrones are direct inheritors of what The Sopranos established. The controversial cut-to-black finale remains one of TV's most discussed endings.",
@@ -109,10 +109,10 @@
       "category": "Geography",
       "question": "Victoria Falls — called 'the smoke that thunders' by locals — sits on the border of Zimbabwe and which neighboring country?",
       "options": [
+        "Angola",
         "Zambia",
-        "Botswana",
         "Mozambique",
-        "Angola"
+        "Botswana"
       ],
       "answer": "Zambia",
       "explanation": "Victoria Falls straddles the border between Zimbabwe (south bank) and Zambia (north bank) on the Zambezi River. At 1.7 km wide and 108 meters tall, it generates a mist column visible from 50 km away — earning its local Tonga name Mosi-oa-Tunya ('the smoke that thunders'). David Livingstone named it after Queen Victoria in 1855, becoming the first European to see it.",
@@ -122,9 +122,9 @@
       "category": "Science & Nature",
       "question": "What term describes the rigid outer shell of Earth, broken into tectonic plates that slowly drift on the semi-molten rock beneath?",
       "options": [
-        "Asthenosphere",
-        "Mesosphere",
         "Crust",
+        "Mesosphere",
+        "Asthenosphere",
         "Lithosphere"
       ],
       "answer": "Lithosphere",
@@ -135,10 +135,10 @@
       "category": "Geography",
       "question": "Which river, flowing entirely within Russia, is the longest in Europe and empties into the Caspian Sea?",
       "options": [
-        "Rhine",
         "Danube",
         "Don",
-        "Volga"
+        "Volga",
+        "Rhine"
       ],
       "answer": "Volga",
       "explanation": "The Volga River stretches 3,531 km, making it Europe's longest river by length. It flows south through central Russia before emptying into the Caspian Sea. The Volga drains about 40% of European Russia and historically connected Moscow to the Caspian trade routes. Cities like Nizhny Novgorod, Kazan, and Volgograd (formerly Stalingrad) sit on its banks.",
@@ -149,9 +149,9 @@
       "question": "At which two points in Earth's orbit is it closest to and farthest from the Sun?",
       "options": [
         "Equinox and solstice",
+        "Perigee and apogee",
         "Perihelion and aphelion",
-        "Zenith and nadir",
-        "Perigee and apogee"
+        "Zenith and nadir"
       ],
       "answer": "Perihelion and aphelion",
       "explanation": "Perihelion is the point in Earth's orbit when it is closest to the Sun (about 147 million km), occurring around January 3. Aphelion is the farthest point (about 152 million km), occurring around July 4. Counterintuitively, Earth is closest to the Sun during Northern Hemisphere winter — the seasons are caused by Earth's axial tilt, not its distance from the Sun.",

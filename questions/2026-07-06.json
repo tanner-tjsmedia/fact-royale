@@ -4,10 +4,10 @@
       "category": "History",
       "question": "Which U.S. state was purchased from Russia in 1867?",
       "options": [
+        "Montana",
         "Hawaii",
         "Oregon",
-        "Alaska",
-        "Montana"
+        "Alaska"
       ],
       "answer": "Alaska",
       "explanation": "The United States purchased Alaska from Russia in 1867 for $7.2 million (about 2 cents per acre). Secretary of State William Seward negotiated the deal, and it was initially called 'Seward's Folly' by critics. The discovery of gold in 1896 vindicated the purchase.",
@@ -18,9 +18,9 @@
       "question": "The Reformation, which challenged the Catholic Church, was started by which figure?",
       "options": [
         "John Calvin",
-        "King Henry VIII",
+        "John Knox",
         "Martin Luther",
-        "John Knox"
+        "King Henry VIII"
       ],
       "answer": "Martin Luther",
       "explanation": "Martin Luther sparked the Protestant Reformation in 1517 when he nailed his 95 Theses to the door of the Castle Church in Wittenberg, challenging Catholic Church practices including the sale of indulgences. His actions led to the creation of Protestant Christianity.",
@@ -30,10 +30,10 @@
       "category": "Sports",
       "question": "What surface is Wimbledon tennis played on?",
       "options": [
-        "Hard court",
-        "Clay",
         "Grass",
-        "Carpet"
+        "Clay",
+        "Carpet",
+        "Hard court"
       ],
       "answer": "Grass",
       "explanation": "Wimbledon, the oldest tennis tournament in the world (held since 1877), is played on grass courts. It is one of the four Grand Slam tournaments and is held annually at the All England Club in London. Grass is the fastest surface in tennis.",
@@ -43,10 +43,10 @@
       "category": "Sports",
       "question": "How many yards long is an American football field, including both end zones?",
       "options": [
-        "100",
         "110",
+        "130",
         "120",
-        "130"
+        "100"
       ],
       "answer": "120",
       "explanation": "An American football field is 120 yards in total length — 100 yards between the goal lines plus two 10-yard end zones. The field is 53⅓ yards wide. First downs require advancing 10 yards.",
@@ -56,10 +56,10 @@
       "category": "Pop Culture",
       "question": "Auguste Rodin's sculpture 'The Thinker' (1880) is among the world's most recognized works of art. What was its original purpose and meaning?",
       "options": [
-        "It was commissioned as a monument to René Descartes and the Age of Reason, representing philosophy's triumph over religious superstition",
-        "It was created as a central figure for 'The Gates of Hell' — Rodin's monumental bronze doors based on Dante's Inferno — and was meant to depict Dante himself contemplating Hell",
         "It was intended as a self-portrait of Rodin at work, showing the physical and mental labor that sculpture required",
-        "It was designed as a memorial to workers killed in industrial accidents, representing collective human suffering in the Industrial Age"
+        "It was designed as a memorial to workers killed in industrial accidents, representing collective human suffering in the Industrial Age",
+        "It was created as a central figure for 'The Gates of Hell' — Rodin's monumental bronze doors based on Dante's Inferno — and was meant to depict Dante himself contemplating Hell",
+        "It was commissioned as a monument to René Descartes and the Age of Reason, representing philosophy's triumph over religious superstition"
       ],
       "answer": "It was created as a central figure for 'The Gates of Hell' — Rodin's monumental bronze doors based on Dante's Inferno — and was meant to depict Dante himself contemplating Hell",
       "explanation": "Rodin spent decades working on The Gates of Hell, a set of massive bronze doors commissioned for a planned Paris museum of decorative arts. The Thinker was originally titled 'The Poet' — meant to be Dante looking down at the tormented souls below him, contemplating creation and damnation. The Gates were never installed in Rodin's lifetime, but The Thinker was enlarged and exhibited independently from 1904. Numerous bronze casts exist in museums worldwide.",
@@ -69,10 +69,10 @@
       "category": "Pop Culture",
       "question": "Which musician is known as 'The Boss'?",
       "options": [
-        "Billy Joel",
-        "Bob Dylan",
+        "Tom Petty",
         "Bruce Springsteen",
-        "Tom Petty"
+        "Billy Joel",
+        "Bob Dylan"
       ],
       "answer": "Bruce Springsteen",
       "explanation": "Bruce Springsteen earned the nickname 'The Boss' early in his career from his habit of collecting the band's pay and distributing it. He is known for anthemic rock songs like 'Born to Run,' 'Born in the U.S.A.,' and 'The River,' and his famously energetic live performances.",
@@ -84,8 +84,8 @@
       "options": [
         "Gary Oldman",
         "Anthony Hopkins",
-        "Daniel Day-Lewis",
-        "Jeremy Irons"
+        "Jeremy Irons",
+        "Daniel Day-Lewis"
       ],
       "answer": "Anthony Hopkins",
       "explanation": "Anthony Hopkins won the Academy Award for Best Actor for his portrayal of Dr. Hannibal Lecter in The Silence of the Lambs (1991), despite appearing on screen for only about 16 minutes. The film swept all five major Oscar categories — a feat achieved by only two other films.",
@@ -95,9 +95,9 @@
       "category": "History",
       "question": "The 'Silk Road' was a trade network that connected China to which continent?",
       "options": [
-        "Africa",
-        "Europe",
         "South America",
+        "Europe",
+        "Africa",
         "Australia"
       ],
       "answer": "Europe",
@@ -108,10 +108,10 @@
       "category": "Geography",
       "question": "The Nile River flows northward through how many countries before reaching the Mediterranean Sea?",
       "options": [
+        "11",
         "3",
         "5",
-        "9",
-        "11"
+        "9"
       ],
       "answer": "11",
       "explanation": "The Nile passes through 11 countries: Tanzania, Uganda, Rwanda, Burundi, Democratic Republic of Congo, Kenya, Ethiopia, Eritrea, South Sudan, Sudan, and Egypt before emptying into the Mediterranean Sea. At approximately 6,650 km, it is considered the world's longest river, though the Amazon is a close rival.",
@@ -121,10 +121,10 @@
       "category": "Science & Nature",
       "question": "The Moon always shows the same face to Earth — we never see its 'far side' from the surface. Why, and what does this reveal about orbital mechanics?",
       "options": [
-        "The Moon has a perfectly symmetric distribution of mass that prevents it from wobbling as it orbits — by coincidence, the same hemisphere always faces toward Earth's gravitational pull",
+        "The Moon does not actually rotate — it is gravitationally fixed in space while Earth orbits around both the Moon and the Sun, creating the appearance of one face always pointing toward Earth",
         "The Moon is tidally locked — Earth's gravity has gradually slowed the Moon's rotation until its spin period exactly matches its orbital period (27.3 days each), permanently fixing one face toward Earth",
-        "The Moon rotates much faster than it orbits, completing about 13 rotations per orbit — but its orbit wobbles in a complex pattern that by chance keeps one hemisphere facing Earth at all times",
-        "The Moon does not actually rotate — it is gravitationally fixed in space while Earth orbits around both the Moon and the Sun, creating the appearance of one face always pointing toward Earth"
+        "The Moon has a perfectly symmetric distribution of mass that prevents it from wobbling as it orbits — by coincidence, the same hemisphere always faces toward Earth's gravitational pull",
+        "The Moon rotates much faster than it orbits, completing about 13 rotations per orbit — but its orbit wobbles in a complex pattern that by chance keeps one hemisphere facing Earth at all times"
       ],
       "answer": "The Moon is tidally locked — Earth's gravity has gradually slowed the Moon's rotation until its spin period exactly matches its orbital period (27.3 days each), permanently fixing one face toward Earth",
       "explanation": "Tidal locking occurs because Earth's gravity exerts slightly stronger force on the Moon's near side than its far side, creating a tidal bulge. Over billions of years, this bulge acts as a brake on the Moon's rotation — dissipating rotational energy as heat — until rotation and orbit synchronize. This process takes millions to billions of years and happens to moons throughout the solar system. The 'far side' (often wrongly called the 'dark side') receives as much sunlight as the near side. The Soviet Luna 3 took the first photographs of the far side in 1959; it looks dramatically different — far fewer dark 'mare' (ancient lava plains) and more craters.",
@@ -136,8 +136,8 @@
       "options": [
         "Angola and Zambia",
         "Botswana and Namibia",
-        "South Africa and Zimbabwe",
-        "Kenya and Tanzania"
+        "Kenya and Tanzania",
+        "South Africa and Zimbabwe"
       ],
       "answer": "Botswana and Namibia",
       "explanation": "The Kalahari Desert covers approximately 900,000 km² across Botswana, Namibia, and parts of South Africa. Unlike the Sahara or Namib, it is a semi-arid desert that receives enough rainfall to support grasses, shrubs, and diverse wildlife including lions, cheetahs, giraffes, meerkats, and springbok. The San (Bushmen) people have lived in the Kalahari for 20,000+ years and have one of the oldest continuous cultures on Earth. The Okavango Delta flows INTO the Kalahari rather than to the sea.",

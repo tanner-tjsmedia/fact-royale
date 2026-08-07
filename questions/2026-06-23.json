@@ -5,9 +5,9 @@
       "category": "History",
       "question": "The Boston Tea Party of 1773 was a protest against taxation by which colonial power?",
       "options": [
-        "France",
-        "Spain",
         "The Netherlands",
+        "Spain",
+        "France",
         "Britain"
       ],
       "answer": "Britain",
@@ -18,10 +18,10 @@
       "category": "History",
       "question": "The Eiffel Tower was built for which major international event?",
       "options": [
-        "The coronation of Napoleon III",
-        "The 1900 Paris Olympics",
         "The 1889 World's Fair",
-        "The Treaty of Paris signing"
+        "The Treaty of Paris signing",
+        "The 1900 Paris Olympics",
+        "The coronation of Napoleon III"
       ],
       "answer": "The 1889 World's Fair",
       "explanation": "The Eiffel Tower was designed by Gustave Eiffel and built for the 1889 Exposition Universelle (World's Fair) in Paris, celebrating the centennial of the French Revolution. It was initially criticized as an eyesore and was supposed to be dismantled after 20 years. It was saved when it proved useful as a radio transmission tower and is now the world's most-visited paid monument.",
@@ -31,9 +31,9 @@
       "category": "History",
       "question": "Leonardo da Vinci painted which portrait, now considered the most famous painting in the world?",
       "options": [
-        "The Last Supper",
-        "The Birth of Venus",
         "Girl with a Pearl Earring",
+        "The Birth of Venus",
+        "The Last Supper",
         "Mona Lisa"
       ],
       "answer": "Mona Lisa",
@@ -46,8 +46,8 @@
       "options": [
         "Australia",
         "South Africa",
-        "England",
-        "New Zealand"
+        "New Zealand",
+        "England"
       ],
       "answer": "New Zealand",
       "explanation": "New Zealand's national rugby team, the All Blacks, has won the Rugby World Cup three times (1987, 2011, 2015) and is the most successful international rugby team in history with a winning percentage above 77%. They are famous for performing the Haka — a traditional Māori war dance — before each match.",
@@ -57,9 +57,9 @@
       "category": "Sports",
       "question": "The Stanley Cup, awarded to the NHL champion, is unique among major sports trophies because of which tradition?",
       "options": [
+        "The winning city keeps it permanently",
         "It is melted down and recast each year",
         "Each winning player gets to spend a day alone with it",
-        "The winning city keeps it permanently",
         "Players must skate with it on the ice immediately after winning"
       ],
       "answer": "Each winning player gets to spend a day alone with it",
@@ -70,9 +70,9 @@
       "category": "Pop Culture",
       "question": "David Bowie created which famous glam rock alter ego in the early 1970s?",
       "options": [
-        "Aladdin Sane",
         "Major Tom",
         "Ziggy Stardust",
+        "Aladdin Sane",
         "Halloween Jack"
       ],
       "answer": "Ziggy Stardust",
@@ -83,9 +83,9 @@
       "category": "Pop Culture",
       "question": "Which director created Pulp Fiction, known for its non-linear storytelling and sharp dialogue?",
       "options": [
+        "Quentin Tarantino",
         "Martin Scorsese",
         "Joel Coen",
-        "Quentin Tarantino",
         "Paul Thomas Anderson"
       ],
       "answer": "Quentin Tarantino",
@@ -96,9 +96,9 @@
       "category": "Pop Culture",
       "question": "Frank Sinatra was famously part of which iconic celebrity social group in 1950s-60s Las Vegas?",
       "options": [
-        "The Hollywood Five",
-        "The Rat Pack",
         "The Vegas Kings",
+        "The Rat Pack",
+        "The Hollywood Five",
         "The Chairman's Club"
       ],
       "answer": "The Rat Pack",
@@ -109,10 +109,10 @@
       "category": "Geography",
       "question": "Which Pacific island nation, consisting of 33 coral atolls with a highest point of just 2 meters above sea level, is one of the countries most threatened by rising seas?",
       "options": [
-        "Maldives",
         "Tuvalu",
+        "Kiribati",
         "Fiji",
-        "Kiribati"
+        "Maldives"
       ],
       "answer": "Kiribati",
       "explanation": "Kiribati (pronounced 'Kiribas') is a Pacific island nation of 33 coral atolls and islands, home to about 120,000 people. Its highest point is only 2 meters above sea level, making it one of the nations most existentially threatened by climate-change-driven sea level rise. The government has already purchased land in Fiji as a potential future home for its citizens. Kiribati also uniquely straddles both the International Date Line and both hemispheres.",
@@ -122,10 +122,10 @@
       "category": "Science & Nature",
       "question": "What type of rock forms when magma or lava cools and solidifies — accounting for about 90% of Earth's crust?",
       "options": [
-        "Sedimentary",
-        "Metamorphic",
         "Igneous",
-        "Alluvial"
+        "Metamorphic",
+        "Alluvial",
+        "Sedimentary"
       ],
       "answer": "Igneous",
       "explanation": "Igneous rock forms when molten rock (magma underground, or lava at the surface) cools and solidifies. 'Igneous' comes from the Latin 'ignis' meaning fire. Intrusive igneous rock like granite cools slowly underground, forming large visible crystals. Extrusive igneous rock like basalt or obsidian cools quickly at the surface, forming small or no crystals. Along with metamorphic rock, igneous rock makes up about 90% of Earth's crust.",
@@ -136,8 +136,8 @@
       "question": "Lake Malawi (also called Lake Nyasa) — Africa's third-largest lake — is shared by Malawi, Tanzania, and which third country?",
       "options": [
         "Zambia",
-        "Zimbabwe",
         "Kenya",
+        "Zimbabwe",
         "Mozambique"
       ],
       "answer": "Mozambique",
@@ -148,10 +148,10 @@
       "category": "Science & Nature",
       "question": "What do geologists call the era spanning roughly 541 to 252 million years ago, when complex animal life first exploded in diversity?",
       "options": [
-        "Mesozoic Era",
-        "Cenozoic Era",
+        "Paleozoic Era",
         "Precambrian",
-        "Paleozoic Era"
+        "Mesozoic Era",
+        "Cenozoic Era"
       ],
       "answer": "Paleozoic Era",
       "explanation": "The Paleozoic Era ('ancient life') lasted from approximately 541 to 252 million years ago. It began with the Cambrian Explosion — a rapid diversification of complex animal body plans — and ended with the Permian-Triassic extinction event, the largest mass extinction in Earth's history (eliminating ~96% of marine species). Major developments included the colonization of land by plants and animals and the evolution of fish, amphibians, reptiles, and insects.",

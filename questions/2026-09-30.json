@@ -5,10 +5,10 @@
       "category": "History",
       "question": "Italy's flag is a horizontal tricolor of green, white, and red. When was it first used?",
       "options": [
-        "1797, inspired by the French Revolution; oldest tricolor still in use",
+        "1946, when Italy became a republic",
         "1861, when Italy unified",
         "1848, during the revolutions of that year",
-        "1946, when Italy became a republic"
+        "1797, inspired by the French Revolution; oldest tricolor still in use"
       ],
       "answer": "1797, inspired by the French Revolution; oldest tricolor still in use",
       "explanation": "Italy's tricolor was first used by the Cispadane Republic in 1797, inspired by Napoleon and the French Revolution. It became the flag of unified Italy in 1861. Green-white-red is one of the most recognized flag designs globally.",
@@ -19,9 +19,9 @@
       "question": "What is transpiration in plants and how much water can a large tree transpire per day?",
       "options": [
         "Evaporation of water from leaf stomata, drawing water up from roots; a large tree can transpire ~400 liters/day",
-        "Absorption of water through leaves; about 10 liters/day",
+        "Condensation on leaf surfaces; varies by humidity",
         "Transport of water through the roots only; about 50 liters/day",
-        "Condensation on leaf surfaces; varies by humidity"
+        "Absorption of water through leaves; about 10 liters/day"
       ],
       "answer": "Evaporation of water from leaf stomata, drawing water up from roots; a large tree can transpire ~400 liters/day",
       "explanation": "Transpiration drives water movement through xylem via suction created when water evaporates from leaf stomata. A large tree can lose ~400 liters/day. Globally, transpiration contributes ~10% of atmospheric moisture.",
@@ -31,10 +31,10 @@
       "category": "Sports",
       "question": "At the 2024 Paris Olympics, which athlete's return to gymnastics highlighted the medal competition, and who topped the overall medal table?",
       "options": [
-        "Simone Biles returned and won multiple medals; USA topped with 126 total medals",
-        "Nadia Comaneci returned; China topped",
+        "Aly Raisman returned; Australia topped",
         "Simone Biles won all events; Great Britain topped",
-        "Aly Raisman returned; Australia topped"
+        "Nadia Comaneci returned; China topped",
+        "Simone Biles returned and won multiple medals; USA topped with 126 total medals"
       ],
       "answer": "Simone Biles returned and won multiple medals; USA topped with 126 total medals",
       "explanation": "At Paris 2024, Simone Biles' return after her Tokyo mental health withdrawal was a highlight. The US topped the overall medal table with 126 total medals (40 gold). Paris hosted for the third time (previously 1900, 1924).",
@@ -44,10 +44,10 @@
       "category": "Pop Culture",
       "question": "Apocalypse Now (1979) was legendarily troubled in production. How long did filming in the Philippines take?",
       "options": [
-        "238 days — more than double the planned schedule",
-        "90 days as planned",
+        "Over 2 years (730+ days)",
         "6 months (180 days), only slightly over schedule",
-        "Over 2 years (730+ days)"
+        "238 days — more than double the planned schedule",
+        "90 days as planned"
       ],
       "answer": "238 days — more than double the planned schedule",
       "explanation": "Apocalypse Now (1979) was shot in the Philippines for 238 days, documented in 'Hearts of Darkness: A Filmmaker's Apocalypse.' Brando arrived overweight and unprepared. It won Oscars for Best Cinematography and Best Sound.",
@@ -58,9 +58,9 @@
       "question": "South Korea has the world's fastest internet speeds. Where does Hangul (the Korean alphabet) rank among world writing systems in terms of how it was created?",
       "options": [
         "Extremely unusual — Hangul is one of the only writing systems deliberately designed as a scientific system by known authors",
-        "It evolved naturally over centuries like most writing systems",
         "It was borrowed from Chinese characters and slightly modified",
-        "It was designed by linguists in the 20th century during Japan's occupation"
+        "It was designed by linguists in the 20th century during Japan's occupation",
+        "It evolved naturally over centuries like most writing systems"
       ],
       "answer": "Extremely unusual — Hangul is one of the only writing systems deliberately designed as a scientific system by known authors",
       "explanation": "Most writing systems evolved organically over centuries. Hangul was deliberately designed by King Sejong the Great and his scholars in 1443 — intentionally scientific and phonetic. South Korea has the world's fastest internet and leads in K-pop, gaming, and semiconductors.",
@@ -70,10 +70,10 @@
       "category": "History",
       "question": "Self-taught Indian mathematician Srinivasa Ramanujan (1887-1920) claimed some of his mathematical insights came from where?",
       "options": [
-        "Dreams sent by his family's Hindu goddess Namagiri — he would wake with theorems and verify them",
-        "From reading Euler's complete works in secret",
         "From patterns he observed in nature in rural India",
-        "From collaboration with British mathematicians via letter before coming to England"
+        "From collaboration with British mathematicians via letter before coming to England",
+        "From reading Euler's complete works in secret",
+        "Dreams sent by his family's Hindu goddess Namagiri — he would wake with theorems and verify them"
       ],
       "answer": "Dreams sent by his family's Hindu goddess Namagiri — he would wake with theorems and verify them",
       "explanation": "Ramanujan claimed his goddess Namagiri sent him mathematical insights in dreams. He kept notebooks full of theorems and contacted G.H. Hardy at Cambridge. Hardy ranked him with Euler and Gauss. He died at 32 from illness. Cambridge mourned him deeply.",
@@ -81,14 +81,14 @@
     },
     {
       "category": "Pop Culture",
-      "question": "Fargo (FX, 2014–present), Noah Hawley's anthology series inspired by the Coen Brothers' 1996 film, has been praised for expanding the film's world without simply adapting it. What creative choice enabled this?",
+      "question": "Noah Hawley's Fargo (FX) expanded the Coen Brothers' film rather than remaking it. What structural choice made that work?",
       "options": [
-        "Hawley required each new season to literally continue from where the previous season ended — the same characters in the same town aging in real time across 10-year gaps between seasons",
-        "Each season uses entirely new characters and settings while maintaining the Coen Brothers' dark-comic tone, snowy Midwest atmosphere, and theme of ordinary people confronting extraordinary violence and moral chaos",
-        "Hawley cast the Coen Brothers' original actors (Frances McDormand, Steve Buscemi, William H. Macy) in new roles each season, using their presence to create thematic continuity across independent stories",
-        "The show operates as a prequel universe — each season reveals backstory for characters in the original 1996 film, with Season 5 set to conclude with the events of the movie"
+        "Each season continues directly from the last",
+        "Each season is a prequel to the 1996 film",
+        "New characters each season, same tone and setting",
+        "The film's original cast returns in new roles"
       ],
-      "answer": "Each season uses entirely new characters and settings while maintaining the Coen Brothers' dark-comic tone, snowy Midwest atmosphere, and theme of ordinary people confronting extraordinary violence and moral chaos",
+      "answer": "New characters each season, same tone and setting",
       "explanation": "Hawley's brilliant solution was to honor the Coen Brothers' sensibility — deadpan dark comedy, Minnesota Nice politeness colliding with brutal violence, morally ordinary people making catastrophic decisions — without being enslaved to the original story. Season 1 (Billy Bob Thornton, Martin Freeman) set in 2006; Season 2 (Patrick Wilson, Kirsten Dunst) in 1979; Season 4 in 1950s Kansas City. Season 2 is often cited by critics as the series' peak. The anthology format allowed each season to be judged on its own merits.",
       "memory_hook": "Fargo (TV) solved the 'how do you expand a perfect film' problem by ignoring the film's plot entirely — keeping the Coen Brothers' tone and Minnesota sensibility while inventing completely new stories. Season 2 is often cited as the greatest TV season of the 2010s."
     },
@@ -96,10 +96,10 @@
       "category": "Science & Nature",
       "question": "What is specific heat capacity, and why does water's high specific heat matter for Earth's climate?",
       "options": [
-        "Energy to raise 1 kg by 1°C; water's high value (4,186 J/kg°C) makes oceans moderate climate extremes",
+        "Energy to vaporize 1 kg; water absorbs solar radiation into clouds",
         "Energy to raise 1 g by 1°F; water's average value stabilizes air temperatures only",
         "Heat released per kilogram during melting; water stores heat during the day and releases it at night",
-        "Energy to vaporize 1 kg; water absorbs solar radiation into clouds"
+        "Energy to raise 1 kg by 1°C; water's high value (4,186 J/kg°C) makes oceans moderate climate extremes"
       ],
       "answer": "Energy to raise 1 kg by 1°C; water's high value (4,186 J/kg°C) makes oceans moderate climate extremes",
       "explanation": "Specific heat capacity is energy required to raise 1 kg of a substance by 1°C. Water's is very high (4,186 J/kg°C), so oceans absorb and release heat slowly — moderating coastal climates. Metals have low specific heat and heat/cool quickly.",
@@ -123,9 +123,9 @@
       "question": "The terracotta army discovered in 1974 was built to protect which Chinese emperor in the afterlife?",
       "options": [
         "Qin Shi Huang (First Emperor of China, died 210 BC)",
-        "Kublai Khan",
         "Emperor Yongle of the Ming Dynasty",
-        "Han Wudi"
+        "Han Wudi",
+        "Kublai Khan"
       ],
       "answer": "Qin Shi Huang (First Emperor of China, died 210 BC)",
       "explanation": "Qin Shi Huang (259-210 BC) had over 8,000 terracotta soldiers buried with him. Discovered by farmers in 1974 near Xi'an. He unified China, built the Great Wall, standardized writing, and died possibly from mercury immortality pills.",
@@ -135,8 +135,8 @@
       "category": "Pop Culture",
       "question": "Ridley Scott's Napoleon (2023) starred Joaquin Phoenix. What response did Scott give to French historians who criticized the film's historical inaccuracies?",
       "options": [
-        "'Were you there?' — Scott dismissed critics who weren't present in history",
         "'It's a movie, not a documentary — use Wikipedia'",
+        "'Were you there?' — Scott dismissed critics who weren't present in history",
         "'The French always complain about Napoleon films'",
         "He apologized and issued a director's cut with corrections"
       ],
@@ -148,9 +148,9 @@
       "category": "Sports",
       "question": "The modern Olympic Games were revived in 1896 by Pierre de Coubertin. When did Summer and Winter Olympics start being held in alternate even-numbered years (instead of the same year)?",
       "options": [
+        "1968 — to allow more preparation time",
         "1994 — they were staggered to avoid competition",
         "1924 — when the Winter Olympics were first held",
-        "1968 — to allow more preparation time",
         "1980 — after the boycott disruptions"
       ],
       "answer": "1994 — they were staggered to avoid competition",

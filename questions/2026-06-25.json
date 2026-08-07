@@ -5,10 +5,10 @@
       "category": "History",
       "question": "The ancient Olympic Games were held in which Greek city?",
       "options": [
-        "Athens",
-        "Sparta",
         "Corinth",
-        "Olympia"
+        "Olympia",
+        "Athens",
+        "Sparta"
       ],
       "answer": "Olympia",
       "explanation": "The ancient Olympic Games were held at Olympia, a sanctuary in the western Peloponnese region of Greece, beginning in 776 BC. They were held every four years in honor of Zeus and continued for over 1,000 years until banned by Roman Emperor Theodosius I in 393 AD. The modern Olympics were revived in Athens in 1896.",
@@ -18,8 +18,8 @@
       "category": "History",
       "question": "Women's suffrage — the right to vote — was first granted nationally in which country?",
       "options": [
-        "USA",
         "UK",
+        "USA",
         "Australia",
         "New Zealand"
       ],
@@ -31,10 +31,10 @@
       "category": "History",
       "question": "Who was the first person to sail solo around the world nonstop?",
       "options": [
+        "Joshua Slocum",
         "Francis Drake",
-        "Ferdinand Magellan",
         "Robin Knox-Johnston",
-        "Joshua Slocum"
+        "Ferdinand Magellan"
       ],
       "answer": "Robin Knox-Johnston",
       "explanation": "Robin Knox-Johnston completed the first solo nonstop circumnavigation of the globe on April 22, 1969, after 312 days at sea in his 32-foot ketch Suhaili. He won the Sunday Times Golden Globe Race — the only entrant to finish. Knox-Johnston donated his prize money to the family of fellow competitor Donald Crowhurst, who had falsified his logs and died at sea.",
@@ -44,10 +44,10 @@
       "category": "Sports",
       "question": "Lance Armstrong was stripped of his record seven Tour de France titles due to doping. In what year was this decision made?",
       "options": [
-        "2008",
+        "2015",
         "2010",
-        "2012",
-        "2015"
+        "2008",
+        "2012"
       ],
       "answer": "2012",
       "explanation": "Lance Armstrong was officially stripped of his seven Tour de France titles (1999–2005) by the United States Anti-Doping Agency in August 2012, following an extensive investigation. He was banned from competitive cycling for life. Armstrong later admitted to systematic doping in an interview with Oprah Winfrey in January 2013 — one of sport's most significant fall-from-grace stories.",
@@ -57,10 +57,10 @@
       "category": "Sports",
       "question": "In which country did table tennis (ping pong) originate?",
       "options": [
-        "China",
         "Japan",
         "England",
-        "France"
+        "France",
+        "China"
       ],
       "answer": "England",
       "explanation": "Table tennis originated in England in the 1880s as an after-dinner parlor game among the upper class, using books as nets and rounded bottle caps as balls. It was popularized under the trademark name 'Ping-Pong' and spread to Asia in the early 20th century. China has dominated the sport at Olympic level since the 1980s, leading many to assume it originated there.",
@@ -70,10 +70,10 @@
       "category": "Pop Culture",
       "question": "Alfred Hitchcock's Psycho (1960) is famous for a shocking scene in which location?",
       "options": [
-        "A basement",
-        "A shower",
         "A hotel lobby",
-        "A cornfield"
+        "A cornfield",
+        "A basement",
+        "A shower"
       ],
       "answer": "A shower",
       "explanation": "The shower scene in Psycho — where Janet Leigh's character Marion Crane is murdered — is one of the most analyzed scenes in film history. It runs 3 minutes, uses 70 camera angles, and 45 edits. Though no nudity is shown and the knife never visibly touches the body, it is deeply disturbing. Hitchcock reportedly received letters from parents saying their daughter refused to shower after seeing it.",
@@ -83,9 +83,9 @@
       "category": "Pop Culture",
       "question": "The Rolling Stones' song 'Paint It Black' is recognizable for featuring which unusual instrument?",
       "options": [
-        "Sitar",
         "Bagpipes",
         "Steel drum",
+        "Sitar",
         "Theremin"
       ],
       "answer": "Sitar",
@@ -96,9 +96,9 @@
       "category": "Pop Culture",
       "question": "Adele's 2008 debut album, which includes the singles 'Chasing Pavements' and 'Hometown Glory,' is named after what?",
       "options": [
-        "Her hometown in Wales",
         "Her age when she wrote most of the songs",
         "A street in South London",
+        "Her hometown in Wales",
         "Her grandmother's nickname for her"
       ],
       "answer": "Her age when she wrote most of the songs",
@@ -109,10 +109,10 @@
       "category": "Geography",
       "question": "Which country has more lakes than the rest of the world combined?",
       "options": [
+        "Brazil",
         "Russia",
         "Canada",
-        "Finland",
-        "Brazil"
+        "Finland"
       ],
       "answer": "Canada",
       "explanation": "Canada holds roughly 60% of the world's lakes — over 3 million of them. The country's lake-dense landscape is largely a result of glacial activity during the last Ice Age, which carved out countless basins now filled with fresh water.",
@@ -122,10 +122,10 @@
       "category": "Science & Nature",
       "question": "The Apollo 11 mission in July 1969 landed the first humans on the Moon. What did Neil Armstrong and Buzz Aldrin do during their 2.5 hours on the lunar surface?",
       "options": [
-        "They planted the US flag, collected 21 kg of lunar rock samples, deployed scientific instruments, and took photos — all in 2.5 hours, while Michael Collins orbited above in the Command Module",
+        "They completed 12 science experiments including drilling into the lunar surface, deploying a solar wind collector, and photographing lunar craters from the surface",
         "They built a small shelter and spent 24 hours on the surface, conducting geological surveys and establishing radio communication equipment for future missions",
         "They drove a lunar rover for approximately 25 km, collected samples from multiple sites, and deployed a seismometer to detect moonquakes",
-        "They completed 12 science experiments including drilling into the lunar surface, deploying a solar wind collector, and photographing lunar craters from the surface"
+        "They planted the US flag, collected 21 kg of lunar rock samples, deployed scientific instruments, and took photos — all in 2.5 hours, while Michael Collins orbited above in the Command Module"
       ],
       "answer": "They planted the US flag, collected 21 kg of lunar rock samples, deployed scientific instruments, and took photos — all in 2.5 hours, while Michael Collins orbited above in the Command Module",
       "explanation": "Armstrong and Aldrin had exactly 2 hours, 31 minutes, 40 seconds on the lunar surface. They planted the American flag (which fell over when they left), deployed a seismometer, a laser retroreflector (still used today to measure the Moon's distance precisely), and a solar wind experiment. They collected 21.55 kg of rock samples. Collins, often called 'the forgotten astronaut,' orbited above in Columbia, unable to communicate with Earth for 47 minutes per orbit when behind the Moon. The entire mission launched on a Saturn V rocket — still the most powerful rocket ever flown.",
@@ -135,10 +135,10 @@
       "category": "Geography",
       "question": "Norway's Svalbard archipelago, located halfway between Norway and the North Pole, is home to which unique global facility?",
       "options": [
-        "The International Space Agency",
         "The Global Seed Vault",
         "The Arctic Climate Research Station",
-        "The UNESCO Ice Core Library"
+        "The UNESCO Ice Core Library",
+        "The International Space Agency"
       ],
       "answer": "The Global Seed Vault",
       "explanation": "The Svalbard Global Seed Vault, opened in 2008, is built into the permafrost of Spitsbergen island and stores over 1.3 million seed samples from around the world as a backup against catastrophic crop loss. Svalbard itself is notable for being home to more polar bears than people (about 3,000 bears vs 2,700 residents), and Norway's sovereignty over it is regulated by the 1920 Svalbard Treaty, which allows citizens of signatory nations to live and work there.",
@@ -148,10 +148,10 @@
       "category": "Science & Nature",
       "question": "Which American physician developed the first effective polio vaccine, announced in 1955?",
       "options": [
-        "Albert Sabin",
-        "Louis Pasteur",
         "Alexander Fleming",
-        "Jonas Salk"
+        "Jonas Salk",
+        "Louis Pasteur",
+        "Albert Sabin"
       ],
       "answer": "Jonas Salk",
       "explanation": "Dr. Jonas Salk developed the first successful polio vaccine, announced on April 12, 1955 — exactly 10 years after President Roosevelt died of complications related to polio. The announcement was met with worldwide celebration. Salk famously refused to patent the vaccine, saying it belonged to the people ('Could you patent the sun?'). Albert Sabin later developed an oral polio vaccine used in global eradication efforts.",

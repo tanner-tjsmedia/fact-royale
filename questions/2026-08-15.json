@@ -18,10 +18,10 @@
       "category": "History",
       "question": "The Battle of Waterloo in 1815 ended whose rule over much of Europe?",
       "options": [
-        "Louis XIV",
-        "Frederick the Great",
         "Napoleon Bonaparte",
-        "Maximilien Robespierre"
+        "Maximilien Robespierre",
+        "Frederick the Great",
+        "Louis XIV"
       ],
       "answer": "Napoleon Bonaparte",
       "explanation": "The Battle of Waterloo (June 18, 1815) in present-day Belgium was Napoleon's final defeat. He was defeated by the Duke of Wellington's allied forces and Prussian troops. Napoleon abdicated four days later and was exiled to Saint Helena island in the South Atlantic, where he died in 1821. The battle permanently ended French domination of Europe and established the peace settlement of the Congress of Vienna.",
@@ -31,10 +31,10 @@
       "category": "History",
       "question": "What was the name of the first successful permanent English settlement in North America, founded in 1607?",
       "options": [
-        "Roanoke",
-        "Plymouth Colony",
         "Boston",
-        "Jamestown"
+        "Jamestown",
+        "Plymouth Colony",
+        "Roanoke"
       ],
       "answer": "Jamestown",
       "explanation": "Jamestown, Virginia, was founded on May 14, 1607, by the Virginia Company of England. It was the first permanent English settlement in the Americas. The colony struggled initially with disease, starvation, and conflict with the Powhatan Confederacy. Tobacco cultivation eventually made it economically viable. The famous Pocahontas was the daughter of Powhatan chief Wahunsenacah.",
@@ -44,10 +44,10 @@
       "category": "Sports",
       "question": "In which Japanese martial art do competitors earn points by throwing, pinning, or forcing their opponent to submit — with a perfect throw earning an 'ippon' and immediate victory?",
       "options": [
-        "Judo",
+        "Aikido",
         "Sumo",
-        "Karate",
-        "Aikido"
+        "Judo",
+        "Karate"
       ],
       "answer": "Judo",
       "explanation": "Judo, meaning 'gentle way,' was developed by Jigoro Kano in Japan in 1882. An ippon (full point) is awarded for a clean throw landing the opponent on their back, a 25-second pin, or a submission. Judo was the first Asian martial art to become an Olympic sport, debuting at the 1964 Tokyo Games.",
@@ -57,10 +57,10 @@
       "category": "Sports",
       "question": "In volleyball, what is a 'dig'?",
       "options": [
-        "A served ball",
         "A winning spike",
-        "An overhead set",
-        "A defensive pass of a spiked ball"
+        "A defensive pass of a spiked ball",
+        "A served ball",
+        "An overhead set"
       ],
       "answer": "A defensive pass of a spiked ball",
       "explanation": "A dig in volleyball is a defensive technique to pass a ball that has been attacked (usually spiked) by the opposing team, typically performed with forearm passing to keep the ball alive. The goal is to prevent the ball from hitting the floor when the opponent attacks. A successful dig allows the team to transition from defense to offense. It requires quick reflexes and good anticipation.",
@@ -71,8 +71,8 @@
       "question": "Which 1995 Pixar film was the first feature-length computer-animated movie?",
       "options": [
         "A Bug's Life",
-        "Finding Nemo",
         "Monsters Inc",
+        "Finding Nemo",
         "Toy Story"
       ],
       "answer": "Toy Story",
@@ -83,9 +83,9 @@
       "category": "Pop Culture",
       "question": "The Eagles' 'Hotel California' album was released in which year?",
       "options": [
-        "1974",
-        "1975",
         "1977",
+        "1975",
+        "1974",
         "1979"
       ],
       "answer": "1977",
@@ -94,14 +94,14 @@
     },
     {
       "category": "Pop Culture",
-      "question": "Grant Wood's 'American Gothic' (1930) — the stern farmer and woman standing before a white house — is one of America's most parodied images. What was Wood's original intention?",
+      "question": "Grant Wood's 'American Gothic' (1930) is one of America's most parodied images. What did Wood actually intend?",
       "options": [
-        "Wood intended it as a proud celebration of Midwestern rural values and the Protestant work ethic that built America — a patriotic portrait of agrarian virtue",
-        "Wood intended it as a gentle satire of what he called 'the narrow-faced, pinch-lipped, rigidly moral' type he associated with small-town Midwestern puritanism — though most Iowans took it as a compliment",
-        "Wood created it as a direct critique of the economic inequality exposed by the Great Depression, with the pitchfork representing agricultural labor exploited by absentee landlords",
-        "Wood's intention was entirely aesthetic — he discovered the house (now called 'the American Gothic House') and simply needed two human figures to show scale"
+        "A critique of Depression-era landlord exploitation",
+        "A patriotic tribute to Midwestern agrarian virtue",
+        "Purely aesthetic; he needed figures to show scale",
+        "A gentle satire of small-town Midwestern puritanism"
       ],
-      "answer": "Wood intended it as a gentle satire of what he called 'the narrow-faced, pinch-lipped, rigidly moral' type he associated with small-town Midwestern puritanism — though most Iowans took it as a compliment",
+      "answer": "A gentle satire of small-town Midwestern puritanism",
       "explanation": "Wood was inspired by a Carpenter Gothic house in Eldon, Iowa and painted his sister Nan and his dentist Dr. Byron McKeeby as the models — not a married couple but a father and daughter, as Wood later clarified. Iowans initially complained the painting made them look 'pinched, grim, and repressed,' but it was quickly adopted as a symbol of American frontier resilience. The models — Nan and McKeeby — became briefly famous. The painting was purchased by the Art Institute of Chicago from Wood for $300 in 1930.",
       "memory_hook": "American Gothic's models were Wood's sister and his dentist — not a couple but a father-daughter pair. Wood intended mild satire of Midwestern puritanism; Iowans saw patriotic pride. The Art Institute of Chicago bought it for $300."
     },
@@ -111,8 +111,8 @@
       "options": [
         "Asia",
         "Africa",
-        "South America",
-        "North America"
+        "North America",
+        "South America"
       ],
       "answer": "Africa",
       "explanation": "Africa is the only continent with land in all four hemispheres: Northern (most of Africa), Southern (southern tip), Eastern (most of Africa), and Western (western coast from Morocco to Senegal). It is the only continent centered near the prime meridian and the equator simultaneously. The equator runs through the middle of Africa, dividing it roughly in half.",
@@ -122,10 +122,10 @@
       "category": "Science & Nature",
       "question": "What is the name of the phenomenon where light bends as it passes from one medium to another?",
       "options": [
-        "Reflection",
         "Diffraction",
+        "Refraction",
         "Diffusion",
-        "Refraction"
+        "Reflection"
       ],
       "answer": "Refraction",
       "explanation": "Refraction is the bending of light (or other waves) when they pass from one medium to another with different optical density. A straw in a glass of water appears bent because light travels slower in water than in air, causing it to change direction at the surface. Refraction explains how lenses work, how prisms split white light into colors, and why the sky appears to shift color at sunrise and sunset.",
@@ -135,10 +135,10 @@
       "category": "Geography",
       "question": "The Sea of Japan lies between Japan and the Korean Peninsula. By what name do South Korea and Japan disagree on what this body of water should be called?",
       "options": [
-        "Korea calls it the East Sea; both names are used",
-        "Both agree it should be the Pacific Sea",
+        "The UN has ruled it must be called the Pacific Ocean",
         "Japan insists on calling it the Korea Sea",
-        "The UN has ruled it must be called the Pacific Ocean"
+        "Korea calls it the East Sea; both names are used",
+        "Both agree it should be the Pacific Sea"
       ],
       "answer": "Korea calls it the East Sea; both names are used",
       "explanation": "South Korea calls the body of water the 'East Sea' (동해, Donghae), while Japan calls it the 'Sea of Japan.' North Korea calls it the 'East Sea of Korea.' This naming dispute has geopolitical dimensions — South Korea argues the 'Sea of Japan' name was imposed during Japanese colonization (1910-1945). International organizations have begun using both names. Historically, European maps used various names; 'Sea of Japan' became dominant in the 19th century.",
@@ -148,10 +148,10 @@
       "category": "Science & Nature",
       "question": "What is a DNA mutation, and what are three things that can cause one?",
       "options": [
-        "An intentional change cells make to adapt to stress",
         "A change in the DNA sequence, caused by radiation, chemical exposure, or copying errors",
-        "A form of cell death",
-        "The conversion of RNA back into DNA"
+        "An intentional change cells make to adapt to stress",
+        "The conversion of RNA back into DNA",
+        "A form of cell death"
       ],
       "answer": "A change in the DNA sequence, caused by radiation, chemical exposure, or copying errors",
       "explanation": "A DNA mutation is any permanent change in the nucleotide sequence of DNA. Mutations can be caused by: radiation (UV light, X-rays, nuclear radiation), chemical mutagens (tobacco smoke, certain industrial chemicals), or spontaneous errors during DNA replication. Most mutations are either harmless or repaired by cellular machinery. Some cause cancer by disrupting genes that control cell growth. Occasional mutations in germline cells (sperm/eggs) are inherited by offspring and drive evolution — the raw material of natural selection.",

@@ -17,10 +17,10 @@
       "category": "History",
       "question": "'D-Day' (June 6, 1944) was the invasion of which coastline?",
       "options": [
-        "The coast of Belgium",
-        "The coast of Normandy, France",
+        "The coast of the Netherlands",
         "The coast of Sicily, Italy",
-        "The coast of the Netherlands"
+        "The coast of Belgium",
+        "The coast of Normandy, France"
       ],
       "answer": "The coast of Normandy, France",
       "explanation": "D-Day (June 6, 1944) was the Normandy landings in Operation Overlord, the largest seaborne invasion in history. Allied forces stormed five beaches (Utah, Omaha, Gold, Juno, Sword) in Nazi-occupied France. It was the beginning of the liberation of Western Europe. Over 156,000 troops landed that day.",
@@ -30,10 +30,10 @@
       "category": "Sports",
       "question": "Which tennis tournament is played on clay courts and often called 'Roland Garros'?",
       "options": [
-        "Wimbledon",
         "US Open",
-        "Australian Open",
-        "French Open"
+        "French Open",
+        "Wimbledon",
+        "Australian Open"
       ],
       "answer": "French Open",
       "explanation": "The French Open, officially called Roland-Garros, is held at the Stade Roland Garros in Paris and played on clay courts. It is the second Grand Slam of the year (May-June). Rafael Nadal won the title a record 14 times, earning the nickname 'King of Clay.'",
@@ -43,10 +43,10 @@
       "category": "Sports",
       "question": "What does 'NBA' stand for?",
       "options": [
-        "National Basketball Association",
         "North Basketball Alliance",
-        "National Basketball Authority",
-        "National Ball Association"
+        "National Basketball Association",
+        "National Ball Association",
+        "National Basketball Authority"
       ],
       "answer": "National Basketball Association",
       "explanation": "The NBA (National Basketball Association) was formed in 1946. It is the premier professional basketball league in the world, consisting of 30 teams. The league's most prestigious individual award is the MVP (Most Valuable Player), and the championship is decided in the NBA Finals.",
@@ -69,10 +69,10 @@
       "category": "Pop Culture",
       "question": "What film does the song 'You've Got a Friend in Me' come from?",
       "options": [
-        "A Bug's Life",
-        "Monsters, Inc.",
         "Toy Story",
-        "Finding Nemo"
+        "Finding Nemo",
+        "A Bug's Life",
+        "Monsters, Inc."
       ],
       "answer": "Toy Story",
       "explanation": "'You've Got a Friend in Me' was written and performed by Randy Newman for the original Toy Story (1995). It has become the signature song of the Toy Story franchise and appears in all four films. Newman received an Academy Award nomination for the song and won an Oscar for 'We Belong Together' from Toy Story 3.",
@@ -95,8 +95,8 @@
       "category": "History",
       "question": "The 'Apollo 13' mission is famous for which near-disaster?",
       "options": [
-        "Loss of communication with Earth",
         "Oxygen tank explosion that forced the crew to abort the Moon landing",
+        "Loss of communication with Earth",
         "Computer failure during reentry",
         "Collision with space debris"
       ],
@@ -108,10 +108,10 @@
       "category": "Geography",
       "question": "Which country is home to the Great Barrier Reef?",
       "options": [
-        "Indonesia",
+        "Australia",
         "Philippines",
         "Fiji",
-        "Australia"
+        "Indonesia"
       ],
       "answer": "Australia",
       "explanation": "The Great Barrier Reef stretches over 2,300 km along the northeast coast of Australia, in the Coral Sea. It is the world's largest coral reef system, composed of over 2,900 individual reefs and 900 islands. It is the largest living structure on Earth and is visible from space.",
@@ -121,10 +121,10 @@
       "category": "Science & Nature",
       "question": "What tiny organisms are responsible for producing about half of the world's oxygen?",
       "options": [
-        "Ferns",
-        "Bacteria in soil",
+        "Phytoplankton",
         "Amazon rainforest trees",
-        "Phytoplankton"
+        "Ferns",
+        "Bacteria in soil"
       ],
       "answer": "Phytoplankton",
       "explanation": "Phytoplankton are microscopic algae and cyanobacteria that float in the ocean and perform photosynthesis. They produce roughly 50-80% of Earth's oxygen — far more than all the world's forests combined. They also absorb massive amounts of carbon dioxide, making them critical to the global carbon cycle.",
@@ -134,10 +134,10 @@
       "category": "Geography",
       "question": "The Himalayas contain how many of the world's 14 peaks that exceed 8,000 meters in elevation?",
       "options": [
-        "6",
-        "14",
+        "All 14",
         "10",
-        "All 14"
+        "6",
+        "14"
       ],
       "answer": "All 14",
       "explanation": "All 14 of the world's peaks that exceed 8,000 meters are located in the Himalaya-Karakoram mountain system (which is often broadly referred to as the Himalayas). The highest is Everest (8,849 m) in Nepal/Tibet, followed by K2 (8,611 m) in Pakistan/China. Mountaineers who climb all 14 are considered to have completed the 'Eight-thousanders.' The 8,000-meter threshold is equivalent to the 'death zone,' where there is not enough oxygen for the human body to sustain itself.",
@@ -147,10 +147,10 @@
       "category": "Science & Nature",
       "question": "What is the term for the slow bleaching and death of coral reefs caused when rising water temperatures stress corals and cause them to expel the algae that give them color and energy?",
       "options": [
-        "Coral erosion",
+        "Reef collapse",
         "Ocean acidification",
-        "Coral bleaching",
-        "Reef collapse"
+        "Coral erosion",
+        "Coral bleaching"
       ],
       "answer": "Coral bleaching",
       "explanation": "Coral bleaching occurs when ocean temperatures rise even 1-2°C above normal summer maximums, causing corals to expel the symbiotic algae (zooxanthellae) that live in their tissues. These algae provide up to 90% of the coral's energy and give them their color. Without them, corals turn white ('bleach') and can die if stress continues. The Great Barrier Reef has experienced mass bleaching events in 2016, 2017, 2020, 2022, and 2024 — driven by climate change.",

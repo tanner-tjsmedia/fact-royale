@@ -5,9 +5,9 @@
       "question": "Bastille Day, celebrated on July 14, is the national day of which country?",
       "options": [
         "Belgium",
-        "Switzerland",
+        "Luxembourg",
         "France",
-        "Luxembourg"
+        "Switzerland"
       ],
       "answer": "France",
       "explanation": "Bastille Day (July 14) marks the storming of the Bastille prison in Paris on July 14, 1789, a key event in the French Revolution. It is France's national day and is celebrated with military parades, fireworks, and public events. The Bastille itself was demolished after its storming.",
@@ -17,10 +17,10 @@
       "category": "History",
       "question": "Which European country colonized Brazil?",
       "options": [
+        "Portugal",
         "Spain",
         "France",
-        "Netherlands",
-        "Portugal"
+        "Netherlands"
       ],
       "answer": "Portugal",
       "explanation": "Portugal colonized Brazil beginning in 1500 when Pedro Álvares Cabral landed on the Brazilian coast. Brazil remained a Portuguese colony until 1822, when it declared independence. As a result, Portuguese is the official language of Brazil — the only country in South America where Spanish is not the dominant language.",
@@ -43,9 +43,9 @@
       "category": "Sports",
       "question": "In which sport would you find a 'bully-off'?",
       "options": [
+        "Field hockey",
         "Rugby",
         "Lacrosse",
-        "Field hockey",
         "Cricket"
       ],
       "answer": "Field hockey",
@@ -57,9 +57,9 @@
       "question": "Edvard Munch's 'The Scream' (1893) is one of the most replicated images in art history. What experience inspired it, and what does the agonized figure represent?",
       "options": [
         "Munch witnessed a violent confrontation in Oslo and captured the moment of collective human dread, making it a political commentary on urban violence",
+        "The scream refers to a literal shout Munch heard from a nearby mental asylum — a sound so disturbing it haunted him for years",
         "Munch described walking at sunset when the sky turned blood-red and he felt an 'infinite scream passing through nature' — the figure conveys his response to existential dread at the modern world",
-        "Munch painted it during a manic episode, and the work is largely a clinical document of anxiety disorder rather than an intentional artistic statement",
-        "The scream refers to a literal shout Munch heard from a nearby mental asylum — a sound so disturbing it haunted him for years"
+        "Munch painted it during a manic episode, and the work is largely a clinical document of anxiety disorder rather than an intentional artistic statement"
       ],
       "answer": "Munch described walking at sunset when the sky turned blood-red and he felt an 'infinite scream passing through nature' — the figure conveys his response to existential dread at the modern world",
       "explanation": "Munch recorded in his diary a walk across a fjord in Oslo: 'I sensed an infinite scream passing through nature.' The blood-red sky may have been caused by the 1883 eruption of Krakatoa, which caused spectacular atmospheric effects in northern Europe for years. Munch created four versions — one was stolen from the National Museum in 2004 and recovered; a pastel version sold at Sotheby's in 2012 for $119.9 million, then a record. The Scream became the defining image of modern anxiety.",
@@ -69,10 +69,10 @@
       "category": "Pop Culture",
       "question": "Which famous concert took place in August 1969 in New York?",
       "options": [
-        "Lollapalooza",
-        "Isle of Wight Festival",
+        "Glastonbury",
         "Woodstock",
-        "Glastonbury"
+        "Lollapalooza",
+        "Isle of Wight Festival"
       ],
       "answer": "Woodstock",
       "explanation": "Woodstock Music & Art Fair took place August 15–18, 1969, on a dairy farm in Bethel, New York. Approximately 400,000 people attended. Performers included Jimi Hendrix, Janis Joplin, The Who, and Jefferson Airplane. It became the defining cultural event of the hippie era.",
@@ -82,10 +82,10 @@
       "category": "Pop Culture",
       "question": "Which Pixar film features the song 'Remember Me'?",
       "options": [
-        "Soul",
         "Up",
-        "Ratatouille",
-        "Coco"
+        "Soul",
+        "Coco",
+        "Ratatouille"
       ],
       "answer": "Coco",
       "explanation": "'Remember Me' is the signature song from Pixar's Coco (2017), a film about a young boy in Mexico who journeys to the Land of the Dead to find his great-great-grandfather. The film is set during the Día de los Muertos celebration and won the Academy Award for Best Animated Feature.",
@@ -108,10 +108,10 @@
       "category": "Geography",
       "question": "Which continent has the most countries?",
       "options": [
-        "Asia",
-        "Europe",
+        "Africa",
         "South America",
-        "Africa"
+        "Europe",
+        "Asia"
       ],
       "answer": "Africa",
       "explanation": "Africa has 54 recognized sovereign countries — more than any other continent. Despite being the second-largest continent by area, it was carved into many nations largely as a result of European colonial borders drawn in the 19th century. Nigeria alone has a population of over 220 million people.",
@@ -121,10 +121,10 @@
       "category": "Science & Nature",
       "question": "Jupiter's Great Red Spot is a storm larger than Earth that has been observed continuously since at least 1831 — and possibly since the 1600s. What is happening to it?",
       "options": [
-        "The Great Red Spot has remained exactly the same size for 400 years — Jupiter's powerful magnetic field preserves it as a permanent feature of the planet's surface",
         "The Great Red Spot is shrinking — it was once three times Earth's diameter but is now barely larger than Earth, and some models predict it could disappear within decades",
         "The Great Red Spot has been growing steadily — astronomers predict it will expand to engulf Jupiter's northern hemisphere within 500 years",
-        "The Great Red Spot changes color from red to white every 11 years in synchrony with the solar cycle, and 'red spot' only accurately describes it during solar maxima"
+        "The Great Red Spot changes color from red to white every 11 years in synchrony with the solar cycle, and 'red spot' only accurately describes it during solar maxima",
+        "The Great Red Spot has remained exactly the same size for 400 years — Jupiter's powerful magnetic field preserves it as a permanent feature of the planet's surface"
       ],
       "answer": "The Great Red Spot is shrinking — it was once three times Earth's diameter but is now barely larger than Earth, and some models predict it could disappear within decades",
       "explanation": "When first measured in detail in the 19th century, the Great Red Spot was approximately 40,000 km across (more than three times Earth's diameter). By 2023 it measured about 16,000 km — still larger than Earth, but only barely. It's losing about 1,000 km per year. Nobody is certain why it's shrinking — some models suggest it could become a 'red oval' and eventually dissipate; others suggest Jupiter still has smaller storms that could feed it. The red color is thought to come from organic molecules or red phosphorus compounds churned up from deep in the atmosphere.",
@@ -134,10 +134,10 @@
       "category": "Geography",
       "question": "Mount Kenya, Africa's second-highest peak after Kilimanjaro, is located in which country and reaches what approximate elevation?",
       "options": [
-        "Ethiopia at 5,300 meters",
+        "Tanzania at 5,100 meters",
         "Uganda at 4,800 meters",
-        "Kenya at 5,199 meters",
-        "Tanzania at 5,100 meters"
+        "Ethiopia at 5,300 meters",
+        "Kenya at 5,199 meters"
       ],
       "answer": "Kenya at 5,199 meters",
       "explanation": "Mount Kenya (5,199 meters) is a dormant stratovolcano in central Kenya and Africa's second-highest peak. Remarkably, it sits almost exactly on the equator yet has glaciers at its summit — though they are retreating rapidly due to climate change. It gives Kenya its name. Mount Kenya National Park is a UNESCO World Heritage Site. The mountain's vegetation changes dramatically with altitude, from tropical forest to moorland to permanent snow and ice.",
@@ -147,10 +147,10 @@
       "category": "Science & Nature",
       "question": "In genetics, what term describes alternative versions of a gene that can produce different traits — such as blue or brown eye color?",
       "options": [
-        "Chromosomes",
-        "Phenotypes",
         "Alleles",
-        "Genomes"
+        "Phenotypes",
+        "Genomes",
+        "Chromosomes"
       ],
       "answer": "Alleles",
       "explanation": "Alleles are different versions of the same gene found at the same position (locus) on homologous chromosomes. Most sexually reproducing organisms inherit two alleles for each gene — one from each parent. When alleles are the same, an organism is homozygous for that trait; when different, it is heterozygous. Dominance determines which allele's trait is expressed when two different alleles are present. Gregor Mendel's experiments with pea plants first revealed the existence of alleles (though he didn't use the term).",

@@ -5,10 +5,10 @@
       "category": "History",
       "question": "The Gunpowder Plot of 1605 was a failed conspiracy to blow up the English Parliament and assassinate which reigning monarch?",
       "options": [
+        "King Henry VIII",
         "King James I",
-        "Queen Elizabeth I",
         "King Charles I",
-        "King Henry VIII"
+        "Queen Elizabeth I"
       ],
       "answer": "King James I",
       "explanation": "The Gunpowder Plot was hatched by a group of English Catholics, including Guy Fawkes, who planned to blow up the Houses of Parliament on November 5, 1605. The plot was foiled when an anonymous tip led to a search of the cellars, where Fawkes was discovered with barrels of gunpowder. Guy Fawkes Night is still celebrated in the UK on November 5.",
@@ -19,9 +19,9 @@
       "question": "The printing press, which revolutionized the spread of information, was invented by whom around 1440?",
       "options": [
         "Leonardo da Vinci",
-        "Galileo Galilei",
+        "Benjamin Franklin",
         "Johannes Gutenberg",
-        "Benjamin Franklin"
+        "Galileo Galilei"
       ],
       "answer": "Johannes Gutenberg",
       "explanation": "Johannes Gutenberg invented the movable-type printing press around 1440 in Mainz, Germany. The first major book printed was the Gutenberg Bible around 1455. The press enabled mass production of books, spreading literacy, accelerating the Renaissance and Reformation, and fundamentally changing how knowledge was shared — arguably the most important invention before the internet.",
@@ -31,10 +31,10 @@
       "category": "History",
       "question": "The Ottoman Empire's capital, Constantinople, was conquered by the Ottomans in which year — marking the end of the Byzantine Empire?",
       "options": [
-        "1347",
+        "1571",
         "1453",
         "1517",
-        "1571"
+        "1347"
       ],
       "answer": "1453",
       "explanation": "Ottoman Sultan Mehmed II conquered Constantinople on May 29, 1453, ending the Byzantine Empire (Eastern Roman Empire) after more than 1,000 years. The city was renamed Istanbul and became the Ottoman capital. Historians often mark this event as the end of the Middle Ages and the beginning of the Early Modern Period.",
@@ -44,9 +44,9 @@
       "category": "Science & Nature",
       "question": "Nuclear fusion — the process powering the Sun — has been called the 'holy grail' of clean energy. What is the key challenge that has prevented fusion power plants from operating?",
       "options": [
+        "Fusion reactions require tritium, an isotope of hydrogen that exists in only microgram quantities on Earth — without a way to produce tritium at scale, fusion plants have no viable fuel source",
         "The radioactive waste produced by fusion reactions is 100 times more dangerous than fission waste, and no material has been found that can safely contain it for the required 10,000-year storage period",
         "Fusion requires plasma heated to 100+ million degrees Celsius — hotter than the Sun's core — and no material can physically contain it; magnetic fields must do so, but sustaining the confinement long enough to produce more energy than input has proven enormously difficult",
-        "Fusion reactions require tritium, an isotope of hydrogen that exists in only microgram quantities on Earth — without a way to produce tritium at scale, fusion plants have no viable fuel source",
         "Fusion reactions produce enormous bursts of neutron radiation that destroy reactor components within hours, and no replacement material has been developed that can survive the neutron bombardment long enough for commercial operation"
       ],
       "answer": "Fusion requires plasma heated to 100+ million degrees Celsius — hotter than the Sun's core — and no material can physically contain it; magnetic fields must do so, but sustaining the confinement long enough to produce more energy than input has proven enormously difficult",
@@ -58,8 +58,8 @@
       "question": "The Tour de France cycling race is traditionally held in which month?",
       "options": [
         "May",
-        "June",
         "July",
+        "June",
         "August"
       ],
       "answer": "July",
@@ -70,10 +70,10 @@
       "category": "Sports",
       "question": "The modern Olympic Games were revived in 1896 in Athens. Which French baron and educator is credited as the primary founder of the modern Olympics?",
       "options": [
-        "Pierre de Coubertin",
         "Henri Didon",
         "Victor Duruy",
-        "Demetrius Vikelas"
+        "Demetrius Vikelas",
+        "Pierre de Coubertin"
       ],
       "answer": "Pierre de Coubertin",
       "explanation": "Pierre de Coubertin (1863-1937) was a French educator and historian who proposed reviving the Olympic Games in 1892. He founded the International Olympic Committee in 1894 and served as its second president. He also designed the iconic five-ring Olympic symbol.",
@@ -83,9 +83,9 @@
       "category": "Pop Culture",
       "question": "Which artist won the very first Grammy Award for Best Rap Performance in 1989?",
       "options": [
+        "DJ Jazzy Jeff & The Fresh Prince",
         "Run-DMC",
         "LL Cool J",
-        "DJ Jazzy Jeff & The Fresh Prince",
         "N.W.A"
       ],
       "answer": "DJ Jazzy Jeff & The Fresh Prince",
@@ -96,10 +96,10 @@
       "category": "Pop Culture",
       "question": "The Crown (Netflix, 2016–2023) dramatizes the reign of Queen Elizabeth II across six decades. What challenging artistic decision shaped the series?",
       "options": [
-        "The series was filmed entirely at actual Royal residences, with the Royal Family granting unprecedented access in exchange for script approval rights over each season",
-        "The creators recasted all major roles entirely every two seasons to capture the physical aging of the characters — requiring audiences to re-bond with new actors playing the same people at different life stages",
         "It was broadcast simultaneously in 73 countries in 50 languages, making it the most globally coordinated drama launch in television history",
-        "The series was based on documents declassified under the 30-year rule — using actual state papers, personal letters, and intelligence briefings as direct scene sources"
+        "The series was based on documents declassified under the 30-year rule — using actual state papers, personal letters, and intelligence briefings as direct scene sources",
+        "The series was filmed entirely at actual Royal residences, with the Royal Family granting unprecedented access in exchange for script approval rights over each season",
+        "The creators recasted all major roles entirely every two seasons to capture the physical aging of the characters — requiring audiences to re-bond with new actors playing the same people at different life stages"
       ],
       "answer": "The creators recasted all major roles entirely every two seasons to capture the physical aging of the characters — requiring audiences to re-bond with new actors playing the same people at different life stages",
       "explanation": "Across six seasons, Queen Elizabeth II was played by Claire Foy (young), Olivia Colman (middle age), and Imelda Staunton (elder). Prince Philip changed from Matt Smith to Tobias Menzies to Jonathan Pryce. This recurring recasting was both a practical and artistic statement — time passing visibly on screen, with new actors bringing fresh interpretations. Creator Peter Morgan (The Queen, Frost/Nixon) wrote fictional scenes based on documented events; episodes covering Diana's death and Charles's affairs generated significant controversy.",
@@ -109,10 +109,10 @@
       "category": "Pop Culture",
       "question": "Bob Dylan was awarded the Nobel Prize in Literature in 2016. He is primarily known as what type of artist?",
       "options": [
-        "Classical composer",
-        "Poet and novelist",
         "Singer-songwriter",
-        "Film director"
+        "Film director",
+        "Classical composer",
+        "Poet and novelist"
       ],
       "answer": "Singer-songwriter",
       "explanation": "Bob Dylan won the Nobel Prize in Literature 'for having created new poetic expressions within the great American song tradition.' It was controversial — many questioned whether song lyrics counted as literature. Dylan initially didn't acknowledge the award and took weeks to respond. His songs including 'Blowin' in the Wind,' 'The Times They Are A-Changin',' and 'Like a Rolling Stone' are considered literary masterpieces.",
@@ -135,10 +135,10 @@
       "category": "Science & Nature",
       "question": "What is the name for the process by which a solid converts directly into a gas without becoming a liquid first?",
       "options": [
+        "Sublimation",
         "Condensation",
         "Evaporation",
-        "Melting",
-        "Sublimation"
+        "Melting"
       ],
       "answer": "Sublimation",
       "explanation": "Sublimation is the phase transition from solid directly to gas. Dry ice (solid CO2) sublimates at room temperature — that's the eerie fog you see at concerts. Mothballs sublime slowly at room temperature. Water ice can also sublime, which is how freeze-dried food works and why ice in a freezer slowly shrinks over time.",
@@ -148,10 +148,10 @@
       "category": "Geography",
       "question": "The Sea of Azov, bordered by Russia and Ukraine, holds which geographic distinction?",
       "options": [
-        "World's deepest sea",
-        "World's saltiest sea",
         "World's shallowest sea",
-        "World's coldest sea"
+        "World's deepest sea",
+        "World's coldest sea",
+        "World's saltiest sea"
       ],
       "answer": "World's shallowest sea",
       "explanation": "The Sea of Azov is the world's shallowest sea, with an average depth of only 7 meters and a maximum depth of about 14 meters. It is connected to the Black Sea via the Strait of Kerch. The Don and Kuban rivers flow into it, making it much less salty than most seas. The Azov has been strategically important throughout history and has been at the center of the Russia-Ukraine conflict — Russia's seizure of Crimea in 2014 gave it control of the Kerch Strait.",

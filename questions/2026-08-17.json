@@ -5,10 +5,10 @@
       "category": "Science & Nature",
       "question": "Charles Darwin's theory of evolution by natural selection was primarily inspired by observations he made during his voyage to which Pacific island chain, known for its unique and isolated wildlife?",
       "options": [
-        "Galápagos Islands",
         "Falkland Islands",
+        "Hawaiian Islands",
         "Canary Islands",
-        "Hawaiian Islands"
+        "Galápagos Islands"
       ],
       "answer": "Galápagos Islands",
       "explanation": "Darwin visited the Galápagos Islands in 1835 aboard HMS Beagle. He observed that species of finches, tortoises, and other animals varied between islands in ways that seemed adapted to local conditions. These observations contributed crucially to his theory of evolution by natural selection, published in 'On the Origin of Species' in 1859.",
@@ -18,10 +18,10 @@
       "category": "History",
       "question": "The Soviet Union's attempt to suppress Hungarian revolt in 1956 was led by which Soviet leader?",
       "options": [
+        "Khrushchev",
         "Stalin",
-        "Brezhnev",
         "Gorbachev",
-        "Khrushchev"
+        "Brezhnev"
       ],
       "answer": "Khrushchev",
       "explanation": "Nikita Khrushchev, who succeeded Stalin in 1953, ordered Soviet tanks into Budapest in November 1956 to crush the Hungarian Revolution. Hungarians had risen up against Soviet-imposed communist rule. About 2,500 Hungarians were killed and 200,000 fled as refugees. The same year, Khrushchev gave his famous 'Secret Speech' denouncing Stalin's crimes. The simultaneous Suez Crisis distracted Western attention from Hungary.",
@@ -31,10 +31,10 @@
       "category": "Geography",
       "question": "Which sea, lying between Greece and Turkey, takes its name from a legendary Athenian king who drowned in it after mistaking his son Theseus's black sails for a sign of defeat?",
       "options": [
-        "Aegean Sea",
-        "Adriatic Sea",
         "Ionian Sea",
-        "Tyrrhenian Sea"
+        "Tyrrhenian Sea",
+        "Aegean Sea",
+        "Adriatic Sea"
       ],
       "answer": "Aegean Sea",
       "explanation": "According to Greek mythology, King Aegeus threw himself into the sea upon seeing black sails on his son Theseus's returning ship — believing Theseus had been killed by the Minotaur. The Aegean Sea contains over 2,000 islands including Crete, Rhodes, and Santorini, and separates Greece from Turkey.",
@@ -44,10 +44,10 @@
       "category": "History",
       "question": "The first trans-continental railroad in the United States was completed in which year?",
       "options": [
+        "1875",
         "1857",
         "1862",
-        "1869",
-        "1875"
+        "1869"
       ],
       "answer": "1869",
       "explanation": "The First Transcontinental Railroad was completed on May 10, 1869, when the Union Pacific and Central Pacific railroads met at Promontory Summit, Utah. The golden spike ceremony connected the eastern and western United States by rail for the first time. The railroad made cross-country travel practical (weeks instead of months) and was instrumental in settling the American West. It was largely built by Chinese and Irish immigrant laborers.",
@@ -58,8 +58,8 @@
       "question": "In swimming, what is the shortest Olympic race distance?",
       "options": [
         "25 meters",
-        "50 meters",
         "100 meters",
+        "50 meters",
         "200 meters"
       ],
       "answer": "50 meters",
@@ -70,36 +70,36 @@
       "category": "Sports",
       "question": "Which country dominated Olympic weightlifting for most of the 20th century?",
       "options": [
-        "Bulgaria",
-        "Cuba",
         "United States",
-        "Soviet Union"
+        "Bulgaria",
+        "Soviet Union",
+        "Cuba"
       ],
       "answer": "Soviet Union",
       "explanation": "The Soviet Union dominated Olympic weightlifting throughout the Cold War era, winning the most medals across the sport's history. Soviet weightlifters benefited from state-sponsored training, scientific coaching methods, and (as emerged later) systematic doping programs. After the USSR dissolved, Russia, Ukraine, and other former Soviet republics continued the tradition. Bulgaria also produced world-class weightlifters, particularly in lighter weight classes.",
       "memory_hook": "Soviet Union = Olympic weightlifting dominant. State-funded, scientifically trained, systematically enhanced. After the USSR fell, the tradition fragmented across former republics — but Russia, Ukraine, Kazakhstan, and others stayed competitive. The Soviet system essentially invented modern sports science."
     },
     {
-      "category": "Sports",
-      "question": "In which sport do teams of four athletes compete to slide down an icy track in a large sled, steering with their feet?",
+      "category": "History",
+      "question": "Hagia Sophia in Istanbul has served three roles across 1,500 years. What is its sequence?",
       "options": [
-        "Skeleton",
-        "Luge",
-        "Snowboard Cross",
-        "Bobsled"
+        "Greek theatre, then imperial mint, then cathedral",
+        "Byzantine cathedral, then Ottoman mosque, then museum",
+        "Roman temple, then Christian church, then palace",
+        "Ottoman mosque, then Byzantine cathedral, then library"
       ],
-      "answer": "Bobsled",
-      "explanation": "Bobsled (or bobsleigh) involves teams of two or four athletes sliding down a narrow, twisted, banked ice track in a gravity-powered sled. Pilots steer the sled using handles connected to the front runners. Four-man bob teams can exceed 150 km/h. Luge is similar but uses a different body position (lying face-up on a small sled); skeleton uses the face-down position.",
-      "memory_hook": "Bobsled = team in a large sled. Two or four athletes. Over 150 km/h. Luge is face-up, skeleton is face-down, bobsled is sitting up. The 1988 Jamaican bobsled team became famous (and a movie) for competing in a winter sport they had no infrastructure for. They finished, which was enough."
+      "answer": "Byzantine cathedral, then Ottoman mosque, then museum",
+      "explanation": "Justinian I completed it in 537 AD as the cathedral of Constantinople, and it held the record as the world's largest interior space for nearly a thousand years. After the Ottoman conquest in 1453, Mehmed II converted it to a mosque and minarets were added. Ataturk's secular republic made it a museum in 1935. It was reconverted to a mosque in 2020. Its enormous dome, which appears to float on a ring of windows, was an engineering leap that later Ottoman architects such as Sinan studied and built upon.",
+      "memory_hook": "Hagia Sophia went cathedral in 537, mosque in 1453, museum in 1935, and mosque again in 2020. It held the record for largest interior space on Earth for a thousand years. The dome looks like it floats because it sits on a ring of windows, which is the whole engineering trick."
     },
     {
       "category": "Pop Culture",
       "question": "Which 1997 James Cameron film, about the sinking of a British ocean liner in 1912, became the highest-grossing film in history at the time and won 11 Academy Awards?",
       "options": [
-        "Titanic",
         "Pearl Harbor",
         "The Perfect Storm",
-        "Waterworld"
+        "Waterworld",
+        "Titanic"
       ],
       "answer": "Titanic",
       "explanation": "James Cameron's 'Titanic' (1997) starred Leonardo DiCaprio and Kate Winslet. It was the first film to gross $1 billion worldwide and held the box office record for 12 years, until Cameron's own 'Avatar' surpassed it. It tied 'Ben-Hur' and 'The Lord of the Rings: The Return of the King' for most Oscars won by a single film (11).",
@@ -109,9 +109,9 @@
       "category": "Pop Culture",
       "question": "Which rapper and producer created the 'Chronic' sound that defined West Coast gangsta rap in 1992?",
       "options": [
-        "Ice Cube",
         "Snoop Dogg",
         "DJ Quik",
+        "Ice Cube",
         "Dr. Dre"
       ],
       "answer": "Dr. Dre",
@@ -120,14 +120,14 @@
     },
     {
       "category": "Pop Culture",
-      "question": "Downton Abbey (ITV/PBS, 2010–2015) became one of the most-watched British period dramas ever. What social history does it dramatize through its upstairs-downstairs structure?",
+      "question": "Downton Abbey (2010-2015) spans 1912 to 1926. What social transformation does its upstairs-downstairs structure dramatize?",
       "options": [
-        "The show dramatizes Britain's transformation from agricultural aristocracy to industrial democracy between 1912 and 1926 — showing the servant class and the Crawley family simultaneously navigating a world that made both of their ways of life obsolete",
-        "The show is primarily a study of women's liberation — its narrative arc traces the specific legal milestones of women's rights in Britain from the suffrage movement through the interwar period",
-        "Creator Julian Fellowes designed Downton as a deliberate counter-argument to the revisionist view of the British Empire, showing that aristocratic paternalism produced genuine community and human flourishing",
-        "The show reconstructed the precise weekly timetable of a functioning Edwardian great house — every costume, meal, household routine, and servant hierarchy was verified against estate records from 1912"
+        "Britain's shift from landed aristocracy to modern democracy",
+        "A focused history of British women's legal rights",
+        "A defense of aristocratic paternalism as a social good",
+        "A precise reconstruction of an Edwardian house timetable"
       ],
-      "answer": "The show dramatizes Britain's transformation from agricultural aristocracy to industrial democracy between 1912 and 1926 — showing the servant class and the Crawley family simultaneously navigating a world that made both of their ways of life obsolete",
+      "answer": "Britain's shift from landed aristocracy to modern democracy",
       "explanation": "Downton Abbey's timeline — from the Titanic sinking in 1912 to the general strike era in 1926 — covers WWI, the influenza pandemic, the rise of labour politics, the servant class's gradual disappearance, and the collapse of the great house system that had structured British rural society for centuries. Creator Julian Fellowes (screenwriter of Gosford Park) gave equal weight to both the aristocratic Crawley family and their servants. It holds the Guinness record for highest critical ratings for a drama TV series at launch (debut season) and was seen by 120 million viewers across 220 territories.",
       "memory_hook": "Downton Abbey's 1912–1926 timeline spans the Titanic, WWI, and the beginning of the servant class's disappearance — it dramatizes two groups (aristocrats and servants) both becoming obsolete at the same time. Its debut season held the Guinness record for highest critical ratings."
     },
@@ -148,10 +148,10 @@
       "category": "Science & Nature",
       "question": "What is the name for the region of space where a black hole's gravity is so strong that not even light can escape?",
       "options": [
-        "Photon sphere",
-        "Singularity",
         "Accretion disk",
-        "Event horizon"
+        "Event horizon",
+        "Photon sphere",
+        "Singularity"
       ],
       "answer": "Event horizon",
       "explanation": "The event horizon is the boundary around a black hole beyond which nothing — not even light — can escape the black hole's gravitational pull. It is sometimes called the 'point of no return.' Inside the event horizon lies the singularity, where gravity becomes theoretically infinite and current physics breaks down. The first image of a black hole's shadow (and event horizon) was captured in 2019 by the Event Horizon Telescope.",

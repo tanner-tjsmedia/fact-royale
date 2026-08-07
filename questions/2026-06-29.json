@@ -4,10 +4,10 @@
       "category": "History",
       "question": "Which empire built the Colosseum in Rome?",
       "options": [
-        "Greek Empire",
-        "Byzantine Empire",
+        "Ottoman Empire",
         "Roman Empire",
-        "Ottoman Empire"
+        "Byzantine Empire",
+        "Greek Empire"
       ],
       "answer": "Roman Empire",
       "explanation": "The Colosseum was built between 70–80 AD under Emperors Vespasian and Titus of the Roman Empire. It could hold an estimated 50,000–80,000 spectators and hosted gladiatorial contests, animal hunts, and public spectacles.",
@@ -17,10 +17,10 @@
       "category": "History",
       "question": "What was the name of the first artificial satellite launched into orbit?",
       "options": [
-        "Explorer 1",
         "Sputnik 1",
+        "Luna 1",
         "Vostok 1",
-        "Luna 1"
+        "Explorer 1"
       ],
       "answer": "Sputnik 1",
       "explanation": "Sputnik 1 was launched by the Soviet Union on October 4, 1957, becoming the first artificial satellite to orbit Earth. Its launch shocked the United States and triggered the Space Race. It orbited for three weeks before its batteries failed.",
@@ -30,9 +30,9 @@
       "category": "Sports",
       "question": "The 1930 FIFA World Cup was the first ever held. Which country won, and why was the tournament historically unique?",
       "options": [
+        "Argentina won; the final was replayed after a disputed refereeing decision",
         "Brazil won; it was the only World Cup played without European nations due to WWII tensions",
         "Uruguay won on home soil; European nations had to travel by ship, and many refused — making it the only World Cup with significant no-shows from major footballing nations",
-        "Argentina won; the final was replayed after a disputed refereeing decision",
         "Italy won; the tournament was held across three continents simultaneously for the first time"
       ],
       "answer": "Uruguay won on home soil; European nations had to travel by ship, and many refused — making it the only World Cup with significant no-shows from major footballing nations",
@@ -44,9 +44,9 @@
       "question": "What is the diameter of a standard basketball hoop in inches?",
       "options": [
         "14 inches",
+        "20 inches",
         "16 inches",
-        "18 inches",
-        "20 inches"
+        "18 inches"
       ],
       "answer": "18 inches",
       "explanation": "A standard NBA basketball hoop has an inner diameter of 18 inches (45.7 cm). A standard basketball has a diameter of about 9.4 inches, meaning two balls could theoretically fit through the hoop at once.",
@@ -56,9 +56,9 @@
       "category": "Pop Culture",
       "question": "Which artist sang 'Billie Jean' and 'Thriller'?",
       "options": [
-        "Prince",
-        "Michael Jackson",
         "Stevie Wonder",
+        "Michael Jackson",
+        "Prince",
         "James Brown"
       ],
       "answer": "Michael Jackson",
@@ -70,9 +70,9 @@
       "question": "Which film won the first Academy Award for Best Picture?",
       "options": [
         "Wings",
-        "The Jazz Singer",
+        "All Quiet on the Western Front",
         "Sunrise",
-        "All Quiet on the Western Front"
+        "The Jazz Singer"
       ],
       "answer": "Wings",
       "explanation": "Wings (1927) won the first Academy Award for Best Picture at the inaugural ceremony in 1929. The award ceremony covered films released between 1927 and 1928. Wings was a World War I aerial combat film.",
@@ -83,9 +83,9 @@
       "question": "Who wrote the music for the film 'Star Wars'?",
       "options": [
         "Ennio Morricone",
+        "Howard Shore",
         "Hans Zimmer",
-        "John Williams",
-        "Howard Shore"
+        "John Williams"
       ],
       "answer": "John Williams",
       "explanation": "John Williams composed the iconic Star Wars score, which premiered with the original film in 1977. The main theme is one of the most recognizable pieces of music in history. Williams has composed scores for Jaws, Indiana Jones, Schindler's List, and many others.",
@@ -96,9 +96,9 @@
       "question": "Which war was ended by the Treaty of Versailles?",
       "options": [
         "World War II",
-        "The Korean War",
         "The Crimean War",
-        "World War I"
+        "World War I",
+        "The Korean War"
       ],
       "answer": "World War I",
       "explanation": "The Treaty of Versailles, signed on June 28, 1919, officially ended World War I between Germany and the Allied Powers. Its harsh terms — including reparations and territorial losses — contributed to conditions that led to World War II.",
@@ -108,10 +108,10 @@
       "category": "Geography",
       "question": "Which strait separates Europe from Africa at its narrowest point?",
       "options": [
-        "Strait of Hormuz",
         "Bosphorus",
-        "Strait of Malacca",
-        "Strait of Gibraltar"
+        "Strait of Hormuz",
+        "Strait of Gibraltar",
+        "Strait of Malacca"
       ],
       "answer": "Strait of Gibraltar",
       "explanation": "The Strait of Gibraltar is only about 14 kilometers wide at its narrowest point, connecting the Atlantic Ocean to the Mediterranean Sea between Spain and Morocco. It has been a strategically critical waterway for thousands of years and was considered the edge of the known world in ancient times.",
@@ -121,10 +121,10 @@
       "category": "Science & Nature",
       "question": "Which planet in our solar system currently has the most confirmed moons?",
       "options": [
+        "Saturn",
         "Jupiter",
         "Uranus",
-        "Neptune",
-        "Saturn"
+        "Neptune"
       ],
       "answer": "Saturn",
       "explanation": "Saturn leads with 146 confirmed moons as of 2023, edging past Jupiter's 95. Many of Saturn's moons are small and were only discovered recently using advanced telescopes. Its largest moon, Titan, is bigger than the planet Mercury and has a thick atmosphere and liquid methane lakes.",
@@ -134,10 +134,10 @@
       "category": "Geography",
       "question": "The Strait of Hormuz — through which about 20% of the world's oil passes — connects the Persian Gulf to which body of water?",
       "options": [
-        "Red Sea",
-        "Arabian Sea",
         "Gulf of Aden",
-        "Gulf of Oman"
+        "Gulf of Oman",
+        "Red Sea",
+        "Arabian Sea"
       ],
       "answer": "Gulf of Oman",
       "explanation": "The Strait of Hormuz connects the Persian Gulf to the Gulf of Oman and is the world's most important oil chokepoint. At its narrowest, it is only 33 km wide. Iran borders the strait to the north and Oman to the south. Roughly 20 million barrels of oil pass through it daily. Any closure would cause an immediate global energy crisis and has been a recurring geopolitical pressure point.",
@@ -147,10 +147,10 @@
       "category": "Science & Nature",
       "question": "In 2006, the International Astronomical Union voted to reclassify Pluto from a planet to a 'dwarf planet.' What three criteria must a body meet to be classified as a planet?",
       "options": [
-        "A planet must orbit the Sun, be large enough that its gravity has made it spherical, and have cleared the neighborhood around its orbit of other debris — Pluto fails the third criterion",
-        "A planet must orbit the Sun, have a diameter greater than 2,000 km, and possess at least one natural moon — Pluto is slightly too small at 2,377 km",
         "A planet must orbit the Sun, have a solid or gaseous surface, and exert gravitational influence on at least one other planetary body — Pluto technically qualifies by this definition",
-        "A planet must orbit the Sun, not be a moon of another body, and have an internal heat source — Pluto has no measurable internal heat after its core cooled"
+        "A planet must orbit the Sun, have a diameter greater than 2,000 km, and possess at least one natural moon — Pluto is slightly too small at 2,377 km",
+        "A planet must orbit the Sun, not be a moon of another body, and have an internal heat source — Pluto has no measurable internal heat after its core cooled",
+        "A planet must orbit the Sun, be large enough that its gravity has made it spherical, and have cleared the neighborhood around its orbit of other debris — Pluto fails the third criterion"
       ],
       "answer": "A planet must orbit the Sun, be large enough that its gravity has made it spherical, and have cleared the neighborhood around its orbit of other debris — Pluto fails the third criterion",
       "explanation": "Pluto sits in the Kuiper Belt — a region of icy bodies beyond Neptune — and shares its orbital neighborhood with thousands of similar objects. It hasn't gravitationally dominated its zone, as Earth and Jupiter have. The 2006 vote was controversial and close (424 votes to 237) because many astronomers weren't present; Pluto's discoverer Clyde Tombaugh's ashes actually flew past Pluto on New Horizons in 2015. New Horizons revealed a heart-shaped nitrogen-ice plain (Tombaugh Regio) and mountains of water ice on Pluto's surface.",

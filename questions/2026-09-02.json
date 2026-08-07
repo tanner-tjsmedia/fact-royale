@@ -6,8 +6,8 @@
       "question": "The Korean War (1950-1953) ended with an armistice, not a peace treaty, leaving the Korean Peninsula divided at roughly which line of latitude?",
       "options": [
         "38th parallel",
-        "34th parallel",
         "40th parallel",
+        "34th parallel",
         "36th parallel"
       ],
       "answer": "38th parallel",
@@ -18,10 +18,10 @@
       "category": "Science & Nature",
       "question": "The human genome contains approximately how many base pairs of DNA?",
       "options": [
-        "3 billion",
-        "3 million",
         "300 million",
-        "30 billion"
+        "30 billion",
+        "3 million",
+        "3 billion"
       ],
       "answer": "3 billion",
       "explanation": "The human genome contains approximately 3 billion base pairs (3 × 10⁹) of DNA distributed across 23 pairs of chromosomes. However, only about 1.5% of the genome encodes proteins — the rest was once called 'junk DNA' but is now understood to have regulatory functions. The Human Genome Project completed sequencing in 2003.",
@@ -31,8 +31,8 @@
       "category": "Sports",
       "question": "Which tennis player has won the most Wimbledon singles titles (men's), with 8 victories?",
       "options": [
-        "Roger Federer",
         "Pete Sampras",
+        "Roger Federer",
         "Novak Djokovic",
         "Björn Borg"
       ],
@@ -45,9 +45,9 @@
       "question": "Which 2010 film directed by Christopher Nolan explores the concept of entering people's dreams to steal or plant information?",
       "options": [
         "Inception",
+        "The Prestige",
         "Interstellar",
-        "Memento",
-        "The Prestige"
+        "Memento"
       ],
       "answer": "Inception",
       "explanation": "Inception (2010) starred Leonardo DiCaprio as a dream-thief hired to plant an idea (inception) into a businessman's mind. The film's plot featured dreams within dreams within dreams. It won four Academy Awards. The ending — whether DiCaprio's character is dreaming or awake — has been debated since its release.",
@@ -70,10 +70,10 @@
       "category": "History",
       "question": "Which Roman general crossed the Alps with war elephants to attack Rome from the north during the Second Punic War?",
       "options": [
-        "Hannibal Barca",
         "Scipio Africanus",
-        "Pyrrhus",
-        "Vercingetorix"
+        "Vercingetorix",
+        "Hannibal Barca",
+        "Pyrrhus"
       ],
       "answer": "Hannibal Barca",
       "explanation": "Hannibal Barca of Carthage crossed the Alps in 218 BC with 37 war elephants and about 38,000 troops, invading Italy from the north. He won devastating victories at Trebia and Cannae but never sacked Rome. Rome ultimately defeated Carthage by attacking Carthage itself, drawing Hannibal home.",
@@ -84,9 +84,9 @@
       "question": "Which book series by J.R.R. Tolkien, set in the fictional world of Middle-earth, follows hobbit Frodo Baggins's quest to destroy the One Ring?",
       "options": [
         "The Lord of the Rings",
+        "Unfinished Tales",
         "The Hobbit",
-        "The Silmarillion",
-        "Unfinished Tales"
+        "The Silmarillion"
       ],
       "answer": "The Lord of the Rings",
       "explanation": "The Lord of the Rings (1954-55) follows Frodo, Sam, and the Fellowship of the Ring from the Shire to Mount Doom. It has sold over 150 million copies and was voted 'greatest book of the 20th century' in British polls. Peter Jackson's film trilogy (2001-2003) won 17 Academy Awards total, including all 11 nominations for Return of the King.",
@@ -111,8 +111,8 @@
       "options": [
         "Danube",
         "Rhine",
-        "Elbe",
-        "Vistula"
+        "Vistula",
+        "Elbe"
       ],
       "answer": "Danube",
       "explanation": "The Danube (2,860 km) flows through or borders Germany, Austria, Slovakia, Hungary, Croatia, Serbia, Bulgaria, Moldova, Romania, and Ukraine. It empties into the Black Sea. It has been a major transportation corridor for millennia. Vienna, Bratislava, Budapest, and Belgrade all sit on the Danube.",
@@ -124,8 +124,8 @@
       "options": [
         "Soviet Union",
         "United States",
-        "Germany",
-        "China"
+        "China",
+        "Germany"
       ],
       "answer": "Soviet Union",
       "explanation": "Sputnik 1 was launched by the Soviet Union on October 4, 1957, shocking the United States. About the size of a beach ball (58 cm diameter, 83 kg), it transmitted radio signals for 21 days. Its launch triggered the Space Race and led directly to the creation of NASA in 1958 and DARPA.",
@@ -135,10 +135,10 @@
       "category": "Pop Culture",
       "question": "Which female pop star, known for elaborate costumes and the 'Little Monsters' fanbase, burst onto the scene with 'Just Dance' in 2008 and the album 'The Fame'?",
       "options": [
-        "Lady Gaga",
+        "Nicki Minaj",
         "Katy Perry",
         "Kesha",
-        "Nicki Minaj"
+        "Lady Gaga"
       ],
       "answer": "Lady Gaga",
       "explanation": "Lady Gaga (Stefani Germanotta) co-wrote and performed 'Just Dance' in 2008, which spent 22 weeks on the Billboard Hot 100 before reaching #1. The Fame sold 15 million albums. She has won multiple Grammys and won the Academy Award for Best Original Song for 'Shallow' (A Star Is Born, 2018).",
@@ -148,10 +148,10 @@
       "category": "Sports",
       "question": "In baseball, what is the term for when a pitcher retires all 27 batters faced without any of them reaching base?",
       "options": [
-        "Perfect game",
-        "No-hitter",
         "Shutout",
-        "Complete game"
+        "Complete game",
+        "No-hitter",
+        "Perfect game"
       ],
       "answer": "Perfect game",
       "explanation": "A perfect game is rarer than a no-hitter — the pitcher must face exactly 27 batters and retire them all (no hits, no walks, no errors). Only 23 perfect games have been thrown in MLB history. Don Larsen's perfect game in the 1956 World Series is the most famous. A no-hitter allows no hits but the pitcher may walk batters.",

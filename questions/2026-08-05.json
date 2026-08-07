@@ -5,10 +5,10 @@
       "category": "History",
       "question": "The Viking Age is generally considered to have begun with an attack on which English monastery in 793 AD?",
       "options": [
-        "Canterbury",
-        "Westminster",
         "Winchester",
-        "Lindisfarne"
+        "Canterbury",
+        "Lindisfarne",
+        "Westminster"
       ],
       "answer": "Lindisfarne",
       "explanation": "The Viking Age is traditionally dated from the raid on the monastery of Lindisfarne (Holy Island) off the northeast coast of England on June 8, 793 AD. Vikings from Scandinavia attacked the monastery, killed monks, stole treasure, and left. The raid shocked Christian Europe and marked the beginning of over 200 years of Viking expansion across Europe, the North Atlantic, and eventually to North America.",
@@ -18,10 +18,10 @@
       "category": "History",
       "question": "The Aztec Empire had its capital at Tenochtitlan, located on the site of which modern city?",
       "options": [
-        "Guadalajara",
-        "Cancun",
         "Puebla",
-        "Mexico City"
+        "Mexico City",
+        "Cancun",
+        "Guadalajara"
       ],
       "answer": "Mexico City",
       "explanation": "Tenochtitlan was built on an island in Lake Texcoco, which now lies beneath modern Mexico City. Founded in 1325, it became one of the largest cities in the world, with an estimated population of 200,000-300,000 at its peak. Spanish conquistador Hernán Cortés conquered and destroyed Tenochtitlan in 1521, building Mexico City on its ruins. The Aztec capital had advanced water systems, markets, and causeways.",
@@ -31,10 +31,10 @@
       "category": "History",
       "question": "The Cold War standoff between the US and Soviet Union over nuclear missiles in Cuba occurred in which year?",
       "options": [
-        "1955",
-        "1961",
+        "1968",
         "1962",
-        "1968"
+        "1961",
+        "1955"
       ],
       "answer": "1962",
       "explanation": "The Cuban Missile Crisis (October 1962) was the closest the world came to nuclear war during the Cold War. The Soviet Union began installing nuclear missiles in Cuba, 90 miles from Florida. After 13 days of tense negotiations, the Soviets agreed to remove the missiles in exchange for a US pledge not to invade Cuba and a secret agreement to remove US missiles from Turkey.",
@@ -44,8 +44,8 @@
       "category": "Sports",
       "question": "In which sport do athletes compete in the 'decathlon'?",
       "options": [
-        "Swimming",
         "Gymnastics",
+        "Swimming",
         "Cycling",
         "Track and field"
       ],
@@ -55,27 +55,27 @@
     },
     {
       "category": "Sports",
-      "question": "The 1999 FIFA Women's World Cup final between the USA and China became one of the most-watched soccer matches in American TV history. What iconic moment ended it, and why did it become culturally significant?",
+      "question": "The 1999 Women's World Cup final (USA vs China) drew a record US TV audience. How did it end?",
       "options": [
-        "Mia Hamm scored in the 89th minute to give the USA a 1-0 victory — her goal celebration, raising a fist while running toward the American supporters section, became the image of the tournament",
-        "The final went to penalty shootouts, and Brandi Chastain scored the winning penalty then pulled off her jersey in celebration — the image of her on her knees in sports bra became one of sports' most iconic photographs",
-        "The final ended 2-2 after extra time; China's goalkeeper stopped four consecutive American penalties before collapsing from exhaustion, and the USA won when China's fifth shooter was ruled offsides during their run-up",
-        "The final was won by a golden goal in the 108th minute by a substitute who had been brought on only because of a red card to a starter — the substitute had never previously scored in international play"
+        "A substitute won it with a golden goal in extra time",
+        "Mia Hamm scored an 89th-minute winner",
+        "Brandi Chastain won it on penalties, then removed her jersey",
+        "China's keeper saved four penalties, then collapsed"
       ],
-      "answer": "The final went to penalty shootouts, and Brandi Chastain scored the winning penalty then pulled off her jersey in celebration — the image of her on her knees in sports bra became one of sports' most iconic photographs",
+      "answer": "Brandi Chastain won it on penalties, then removed her jersey",
       "explanation": "The match at the Rose Bowl drew 90,185 spectators — still the women's soccer attendance record. The game ended 0-0 after 120 minutes. Chinese goalkeeper Gao Hong and US goalkeeper Briana Scurry both made crucial saves. Scurry saved Liu Ying's kick in the third round — rules state goalkeepers must stay on their line but Scurry stepped forward early, which was technically illegal but not called. Chastain converted the final penalty and immediately pulled off her jersey, dropping to her knees. Time magazine, Newsweek, and Sports Illustrated all put the image on their covers. The tournament generated more US TV viewership than many men's sporting events and transformed women's soccer in America.",
       "memory_hook": "90,185 fans at the Rose Bowl — still the women's soccer attendance record. The goalkeeper Scurry stepped off her line early to save a key penalty (technically illegal, uncalled). Chastain's winning penalty and jersey-removal went on the covers of Time, Newsweek, and Sports Illustrated simultaneously. The tournament essentially launched women's pro soccer in America."
     },
     {
       "category": "Pop Culture",
-      "question": "Gustav Klimt's 'The Kiss' (1907–08) is perhaps the most beloved painting of the Symbolist era. What makes it technically and culturally distinctive?",
+      "question": "Gustav Klimt's 'The Kiss' (1907-08) is the signature work of his Golden Phase. What defines it?",
       "options": [
-        "It was the first painting to use photographic gold leaf as a primary medium, combining photography and painting in a technique that influenced all subsequent Art Nouveau work",
-        "It was painted during Klimt's 'Golden Phase,' using actual gold leaf applied to canvas — combining Byzantine mosaic influence with a deeply sensual, intimate human subject that was controversial in Vienna",
-        "It was painted as an allegory of the Austro-Hungarian Empire's collapse — the couple clinging together represent the doomed Habsburg monarchy and the precariousness of European civilization",
-        "It is the only known painting Klimt completed without preparatory sketches — painted in a single 72-hour session as a statement about spontaneous creative expression"
+        "Painted in one 72-hour session with no sketches",
+        "The first use of photographic gold leaf as a medium",
+        "Real gold leaf, Byzantine influence, a sensual subject",
+        "An allegory of the Habsburg empire's collapse"
       ],
-      "answer": "It was painted during Klimt's 'Golden Phase,' using actual gold leaf applied to canvas — combining Byzantine mosaic influence with a deeply sensual, intimate human subject that was controversial in Vienna",
+      "answer": "Real gold leaf, Byzantine influence, a sensual subject",
       "explanation": "Klimt's Golden Phase (roughly 1899–1910) was inspired by Byzantine mosaics he saw in Ravenna, Italy. The Kiss features the couple dissolving into a swirling field of gold and geometric patterns — their clothes merge into abstract decoration, making it impossible to tell where one figure ends and the other begins. Klimt's frank sensuality made him a controversial figure in Vienna's art establishment. The Kiss never left Vienna — it's at the Belvedere Museum, which declined to sell it; the Austrian government later declared it a national treasure.",
       "memory_hook": "Klimt used real gold leaf — inspired by Byzantine mosaics in Ravenna — to dissolve two lovers into a swirling golden field where you can't tell where one body ends and the other begins. The Kiss never left Vienna; Austria declared it a national treasure."
     },
@@ -94,14 +94,14 @@
     },
     {
       "category": "Pop Culture",
-      "question": "Antoni Gaudí's Sagrada Família in Barcelona, begun in 1882, remains unfinished more than 140 years later and is still under active construction. What makes it architecturally revolutionary?",
+      "question": "Gaudí's Sagrada Família, begun in 1882, is still unfinished. What makes it architecturally radical?",
       "options": [
-        "Gaudí designed it without any structural steel or concrete — all load-bearing elements use stone masonry in configurations mathematically impossible to build with modern methods, requiring handcraft techniques",
-        "Gaudí rejected all straight lines and conventional arches, developing organic forms modeled on trees and bones that distribute structural load naturally — making it simultaneously one of the most complex and structurally efficient buildings ever designed",
-        "It holds the Guinness record for longest continuously active construction project — Gaudí's original stone quarrying and transportation system from 1882 is still operational today",
-        "Gaudí encoded the entire New Testament into the building's sculpture program using a symbolic language he invented — only fully decoded by art historians in 2019"
+        "Organic forms from trees and bones; no straight lines",
+        "The whole New Testament encoded in its sculpture",
+        "Pure stone masonry, with no steel or concrete anywhere",
+        "It holds the record for longest active construction"
       ],
-      "answer": "Gaudí rejected all straight lines and conventional arches, developing organic forms modeled on trees and bones that distribute structural load naturally — making it simultaneously one of the most complex and structurally efficient buildings ever designed",
+      "answer": "Organic forms from trees and bones; no straight lines",
       "explanation": "Gaudí studied the structural logic of nature — the branching of trees, the geometry of shells — and used hyperboloid columns, paraboloid vaults, and hyperbolic paraboloids to create forms that are structurally self-supporting without buttresses. He reportedly said: 'Originality means returning to the origin.' Gaudí died in 1926 after being struck by a tram; much of his documentation was destroyed in the Spanish Civil War, forcing architects to reconstruct his intentions from models and photographs. Completion is projected for 2026.",
       "memory_hook": "Gaudí modeled the Sagrada Família on trees and bones — his organic columns branch like forests to distribute load without buttresses. He was killed by a tram in 1926; completion is projected for 2026, 144 years after construction began."
     },
@@ -109,10 +109,10 @@
       "category": "Geography",
       "question": "Which African country has the largest population?",
       "options": [
-        "Ethiopia",
-        "Egypt",
         "DR Congo",
-        "Nigeria"
+        "Egypt",
+        "Nigeria",
+        "Ethiopia"
       ],
       "answer": "Nigeria",
       "explanation": "Nigeria is Africa's most populous country, with approximately 220 million people, and is projected to become the world's third most populous country by 2050, ahead of the United States. Located in West Africa, it has over 500 ethnic groups and languages. Lagos, its commercial capital, is one of Africa's largest cities with an estimated 15-20 million people in its metro area.",
@@ -135,10 +135,10 @@
       "category": "Geography",
       "question": "The Strait of Dover, the narrowest point of the English Channel, separates England from France. How wide is it at its narrowest?",
       "options": [
-        "13 km",
+        "100 km",
         "33 km",
         "55 km",
-        "100 km"
+        "13 km"
       ],
       "answer": "33 km",
       "explanation": "The Strait of Dover (French: Pas de Calais) is approximately 33 km (21 miles) wide at its narrowest point, between Dover (England) and Cap Gris-Nez (France). It is the world's busiest shipping lane, with over 600 ships passing through daily. The Channel Tunnel runs beneath it (38 km of the 50 km total is underwater). On a clear day, the French coast is visible from the White Cliffs of Dover — which is why England has always worried about invasion from the continent.",
@@ -148,10 +148,10 @@
       "category": "Science & Nature",
       "question": "What process causes materials to expand when heated and contract when cooled — and why do bridges and railroads need expansion joints?",
       "options": [
-        "Phase transition",
         "Osmosis",
+        "Convection",
         "Thermal expansion",
-        "Convection"
+        "Phase transition"
       ],
       "answer": "Thermal expansion",
       "explanation": "Thermal expansion occurs because heat increases the kinetic energy of molecules, causing them to move faster and push farther apart, expanding the material. Different materials expand at different rates (their coefficient of thermal expansion). Bridges and railroad tracks use expansion joints — deliberate gaps that accommodate expansion on hot summer days and contraction in winter. Without them, roads would buckle in summer heat. The Eiffel Tower is 15 cm taller in summer than in winter due to thermal expansion of its iron structure.",

@@ -5,10 +5,10 @@
       "category": "History",
       "question": "Which 1789 event forced King Louis XVI to return to Paris when thousands of Parisian women marched to Versailles demanding bread?",
       "options": [
-        "The Women's March on Versailles",
-        "The Storming of the Bastille",
         "The Tennis Court Oath",
-        "The September Massacres"
+        "The September Massacres",
+        "The Storming of the Bastille",
+        "The Women's March on Versailles"
       ],
       "answer": "The Women's March on Versailles",
       "explanation": "On October 5, 1789, thousands of women marched 12 miles to Versailles demanding bread and that the king return to Paris. The royal family was brought back to Paris as effective prisoners.",
@@ -18,10 +18,10 @@
       "category": "Science & Nature",
       "question": "Which scientist developed germ theory, invented pasteurization, and created vaccines for anthrax and rabies?",
       "options": [
-        "Louis Pasteur",
         "Robert Koch",
-        "Joseph Lister",
-        "Alexander Fleming"
+        "Alexander Fleming",
+        "Louis Pasteur",
+        "Joseph Lister"
       ],
       "answer": "Louis Pasteur",
       "explanation": "Louis Pasteur proved microorganisms cause fermentation and disease, developed pasteurization (killing pathogens by heating), and created vaccines for chicken cholera, anthrax, and rabies.",
@@ -31,10 +31,10 @@
       "category": "Sports",
       "question": "How many barriers are there in the Olympic 110m hurdles (men), and how high is each?",
       "options": [
-        "10 hurdles, 1.067 m high",
-        "8 hurdles, 1.2 m high",
         "12 hurdles, 0.9 m high",
-        "10 hurdles, 0.91 m high"
+        "8 hurdles, 1.2 m high",
+        "10 hurdles, 0.91 m high",
+        "10 hurdles, 1.067 m high"
       ],
       "answer": "10 hurdles, 1.067 m high",
       "explanation": "The 110m hurdles (men) features 10 hurdles at 1.067 m height. Women run 100m hurdles with 10 hurdles at 0.838 m. Sydney McLaughlin-Levrone has redefined the 400m hurdles event with world records.",
@@ -44,9 +44,9 @@
       "category": "Pop Culture",
       "question": "Gene Kelly reportedly had a 103-degree fever during filming of which iconic 1952 musical scene?",
       "options": [
-        "The title number in 'Singin' in the Rain'",
-        "The dream ballet in 'An American in Paris'",
         "The 'Good Morning' number in 'Singin' in the Rain'",
+        "The dream ballet in 'An American in Paris'",
+        "The title number in 'Singin' in the Rain'",
         "'Make 'Em Laugh' in 'Singin' in the Rain'"
       ],
       "answer": "The title number in 'Singin' in the Rain'",
@@ -57,10 +57,10 @@
       "category": "Geography",
       "question": "Which sea connects the Indian Ocean to the Persian Gulf and has Mumbai on its eastern shore?",
       "options": [
-        "Arabian Sea",
         "Bay of Bengal",
         "Laccadive Sea",
-        "Red Sea"
+        "Red Sea",
+        "Arabian Sea"
       ],
       "answer": "Arabian Sea",
       "explanation": "The Arabian Sea connects the Indian Ocean to the Persian Gulf via the Strait of Hormuz and Gulf of Oman. Mumbai's 2008 terrorist attacks came via inflatable boats through the Arabian Sea.",
@@ -71,9 +71,9 @@
       "question": "Which Soviet leader denounced Stalin's crimes in a 1956 'Secret Speech' and led through Sputnik and the Cuban Missile Crisis?",
       "options": [
         "Nikita Khrushchev",
-        "Leonid Brezhnev",
         "Georgy Malenkov",
-        "Mikhail Gorbachev"
+        "Mikhail Gorbachev",
+        "Leonid Brezhnev"
       ],
       "answer": "Nikita Khrushchev",
       "explanation": "Khrushchev's 'On the Cult of Personality' speech (Feb 25, 1956) shocked the Communist world by exposing Stalin's purges. He also presided over Sputnik (1957) and the Cuban Missile Crisis (1962) before being ousted in 1964.",
@@ -96,10 +96,10 @@
       "category": "Science & Nature",
       "question": "What is the visible light spectrum wavelength range for humans?",
       "options": [
+        "10-100 nm (X-ray)",
         "380-700 nanometers (violet to red)",
-        "100-380 nm (ultraviolet)",
         "700-1000 nm (infrared)",
-        "10-100 nm (X-ray)"
+        "100-380 nm (ultraviolet)"
       ],
       "answer": "380-700 nanometers (violet to red)",
       "explanation": "Human vision spans ~380 nm (violet) to ~700 nm (red). Below 380 nm = UV (bees can see UV). Above 700 nm = IR (some snakes detect heat). ROYGBIV goes from red (long wavelength) to violet (short).",
@@ -109,8 +109,8 @@
       "category": "Geography",
       "question": "Chile is 4,270 km long but only 177 km wide on average. What is the world's highest active volcano, located in Chile?",
       "options": [
-        "Ojos del Salado, 6,893 m",
         "Aconcagua, 6,961 m",
+        "Ojos del Salado, 6,893 m",
         "Cotopaxi, 5,897 m",
         "Llullaillaco, 6,739 m"
       ],
@@ -135,10 +135,10 @@
       "category": "Pop Culture",
       "question": "Saturday Night Fever (1977) made John Travolta a star. How many copies did the Bee Gees soundtrack sell?",
       "options": [
-        "Over 40 million — one of the best-selling soundtracks ever",
         "About 10 million",
+        "Over 100 million",
         "About 5 million",
-        "Over 100 million"
+        "Over 40 million — one of the best-selling soundtracks ever"
       ],
       "answer": "Over 40 million — one of the best-selling soundtracks ever",
       "explanation": "Saturday Night Fever's Bee Gees soundtrack sold over 40 million copies — one of the best-selling soundtracks of all time. Travolta's white suit became iconic. The film, combined with Grease (1978), made Travolta the biggest star of the late 1970s.",
@@ -148,10 +148,10 @@
       "category": "Sports",
       "question": "Lewis Hamilton holds how many Formula 1 World Championship titles?",
       "options": [
-        "7 — tied with Michael Schumacher",
-        "8",
         "6",
-        "5"
+        "5",
+        "8",
+        "7 — tied with Michael Schumacher"
       ],
       "answer": "7 — tied with Michael Schumacher",
       "explanation": "Lewis Hamilton won 7 Formula 1 World Championships (2008, 2014, 2015, 2017, 2018, 2019, 2020), tying Michael Schumacher's record for the most in F1 history. His 2008 title came with McLaren; the rest with Mercedes. He also holds records for most race wins and most pole positions in F1 history.",

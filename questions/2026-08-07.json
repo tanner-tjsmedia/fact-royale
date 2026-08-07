@@ -5,10 +5,10 @@
       "category": "History",
       "question": "Which abolitionist, called 'Moses' by those she helped escape slavery, conducted 13 Underground Railroad missions and never lost a single passenger?",
       "options": [
-        "Harriet Tubman",
         "Sojourner Truth",
-        "Harriet Beecher Stowe",
-        "Frederick Douglass"
+        "Harriet Tubman",
+        "Frederick Douglass",
+        "Harriet Beecher Stowe"
       ],
       "answer": "Harriet Tubman",
       "explanation": "Harriet Tubman (c. 1822-1913) escaped slavery in 1849 and returned 13 times to free approximately 70 enslaved people via the Underground Railroad. She was known as 'Moses' for leading her people to freedom. She later served as a spy and scout for the Union Army during the Civil War.",
@@ -19,9 +19,9 @@
       "question": "Which Argentine-born Marxist revolutionary, who fought alongside Fidel Castro in Cuba, later attempted to spread revolution across Africa and South America before being captured and executed in Bolivia in 1967?",
       "options": [
         "Che Guevara",
-        "Camilo Cienfuegos",
         "Raúl Castro",
-        "Salvador Allende"
+        "Salvador Allende",
+        "Camilo Cienfuegos"
       ],
       "answer": "Che Guevara",
       "explanation": "Ernesto 'Che' Guevara (1928-1967) was a physician-turned-revolutionary from Argentina who played a key role in the Cuban Revolution. After serving in Cuba's government, he left to foment revolution elsewhere. He was captured by Bolivian forces — aided by the CIA — and executed on October 9, 1967. His image became one of the most reproduced in history.",
@@ -31,10 +31,10 @@
       "category": "History",
       "question": "The Reformation, which split Western Christianity, was ignited when which monk posted his 95 Theses in 1517?",
       "options": [
+        "Martin Luther",
         "John Calvin",
         "Jan Hus",
-        "John Knox",
-        "Martin Luther"
+        "John Knox"
       ],
       "answer": "Martin Luther",
       "explanation": "Martin Luther, a German monk and theology professor, nailed his 95 Theses to the door of the Castle Church in Wittenberg on October 31, 1517, protesting practices of the Roman Catholic Church, particularly the selling of indulgences. Thanks to Gutenberg's printing press, his ideas spread rapidly across Europe, sparking the Protestant Reformation and permanently splitting Western Christianity.",
@@ -46,8 +46,8 @@
       "options": [
         "Badminton",
         "Squash",
-        "Pickleball",
-        "Table Tennis"
+        "Table Tennis",
+        "Pickleball"
       ],
       "answer": "Badminton",
       "explanation": "Badminton uses a shuttlecock (also called a birdie) — a cone-shaped projectile with 16 feathers attached. The sport originated in British India and was formalized in Poona (Pune). Professional shuttlecocks can travel at over 300 km/h (186 mph), making badminton one of the fastest racket sports.",
@@ -57,10 +57,10 @@
       "category": "Sports",
       "question": "The Ryder Cup is a golf competition between players from which two teams?",
       "options": [
-        "USA and Japan",
-        "USA and Rest of World",
+        "USA and Europe",
         "Europe and Rest of World",
-        "USA and Europe"
+        "USA and Rest of World",
+        "USA and Japan"
       ],
       "answer": "USA and Europe",
       "explanation": "The Ryder Cup is a biennial team golf competition between the United States and Europe. It was first played in 1927 between the US and Great Britain. The European team was expanded to include all of Europe in 1979. The competition is unique in professional golf as players receive no prize money — they compete for national/continental pride. It is often described as the most passionate event in golf.",
@@ -71,8 +71,8 @@
       "question": "Which rapper's debut album 'Illmatic' (1994) is widely considered one of the greatest hip-hop albums ever recorded?",
       "options": [
         "Jay-Z",
-        "Notorious B.I.G.",
         "Kendrick Lamar",
+        "Notorious B.I.G.",
         "Nas"
       ],
       "answer": "Nas",
@@ -84,9 +84,9 @@
       "question": "Which author, who has published over 60 novels and is often called 'the King of Horror,' wrote 'The Shining,' 'It,' 'Carrie,' and 'Misery'?",
       "options": [
         "Stephen King",
-        "Dean Koontz",
+        "Anne Rice",
         "Clive Barker",
-        "Anne Rice"
+        "Dean Koontz"
       ],
       "answer": "Stephen King",
       "explanation": "Stephen King has sold over 350 million copies of his books worldwide. His works have been adapted into numerous films and TV series, including Stanley Kubrick's 'The Shining,' Tim Curry's 'It,' and Rob Reiner's 'Misery.' King is known for writing 2,000 words per day, even on holidays.",
@@ -96,10 +96,10 @@
       "category": "Pop Culture",
       "question": "Which singer is known as the 'Material Girl' and released the album Like a Virgin in 1984?",
       "options": [
-        "Janet Jackson",
         "Whitney Houston",
-        "Cyndi Lauper",
-        "Madonna"
+        "Janet Jackson",
+        "Madonna",
+        "Cyndi Lauper"
       ],
       "answer": "Madonna",
       "explanation": "Madonna released Like a Virgin in November 1984, her second studio album. The title track reached number one in multiple countries. Her provocative performances and videos challenged social norms around female sexuality in pop music. 'Material Girl,' also from the album, gave her one of her enduring nicknames. Madonna has since become the best-selling female recording artist of all time.",
@@ -109,10 +109,10 @@
       "category": "Geography",
       "question": "Which river did Lewis and Clark follow on the first leg of their 1804-1806 expedition westward across North America?",
       "options": [
-        "Mississippi River",
-        "Missouri River",
         "Columbia River",
-        "Arkansas River"
+        "Arkansas River",
+        "Missouri River",
+        "Mississippi River"
       ],
       "answer": "Missouri River",
       "explanation": "Lewis and Clark followed the Missouri River westward from St. Louis beginning in May 1804, traveling approximately 3,000 km upstream before crossing the Continental Divide. The Missouri drains 1.37 million square kilometers and was the main highway for westward expansion in 19th-century America. From the Missouri headwaters, the expedition crossed the Rockies and then followed the Columbia River to the Pacific Ocean, reaching it in November 1805.",
@@ -122,10 +122,10 @@
       "category": "Science & Nature",
       "question": "What is the term for animals that are active at night and sleep during the day?",
       "options": [
-        "Diurnal",
-        "Crepuscular",
         "Torpid",
-        "Nocturnal"
+        "Nocturnal",
+        "Diurnal",
+        "Crepuscular"
       ],
       "answer": "Nocturnal",
       "explanation": "Nocturnal animals are active primarily at night. Bats, owls, raccoons, foxes, and most big cats are nocturnal. Many nocturnal animals have adaptations for low-light vision, such as larger pupils, a reflective layer behind the retina (tapetum lucidum), or highly sensitive whiskers. Some animals are crepuscular — most active at dawn and dusk — including deer and rabbits.",
@@ -135,9 +135,9 @@
       "category": "Geography",
       "question": "The Alps, Europe's highest mountain range, span eight countries. Which peak, at 4,808 meters, is the highest in the Alps and in all of Western Europe?",
       "options": [
-        "The Matterhorn",
         "Mont Blanc",
         "Jungfrau",
+        "The Matterhorn",
         "Dufourspitze"
       ],
       "answer": "Mont Blanc",
@@ -149,8 +149,8 @@
       "question": "What is the Fibonacci sequence, and where does it famously appear in nature?",
       "options": [
         "A random number sequence found only in mathematics",
-        "A sequence where each number is the sum of the two before it, appearing in spiral patterns in nature",
         "A series of prime numbers used in cryptography",
+        "A sequence where each number is the sum of the two before it, appearing in spiral patterns in nature",
         "A pattern of exponential growth in populations"
       ],
       "answer": "A sequence where each number is the sum of the two before it, appearing in spiral patterns in nature",

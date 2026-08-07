@@ -4,10 +4,10 @@
       "category": "History",
       "question": "Which city was divided by a wall between 1961 and 1989?",
       "options": [
-        "Vienna",
         "Warsaw",
-        "Prague",
-        "Berlin"
+        "Berlin",
+        "Vienna",
+        "Prague"
       ],
       "answer": "Berlin",
       "explanation": "Berlin was divided by the Berlin Wall from August 13, 1961 to November 9, 1989. The Wall separated communist East Berlin (capital of East Germany) from democratic West Berlin. During the Wall's existence, at least 140 people were killed attempting to cross it.",
@@ -18,8 +18,8 @@
       "question": "Who was the first emperor of the Roman Empire?",
       "options": [
         "Julius Caesar",
-        "Caligula",
         "Augustus",
+        "Caligula",
         "Tiberius"
       ],
       "answer": "Augustus",
@@ -30,8 +30,8 @@
       "category": "Sports",
       "question": "In basketball, what line must be crossed within 8 seconds of gaining possession in the backcourt (NBA)?",
       "options": [
-        "The half-court line",
         "The free-throw line",
+        "The half-court line",
         "The three-point line",
         "The paint boundary"
       ],
@@ -44,9 +44,9 @@
       "question": "What is the scoring system used in volleyball?",
       "options": [
         "Traditional side-out only",
-        "Rally scoring to 25",
         "Timer-based scoring",
-        "Alternating first-to-serve scoring"
+        "Alternating first-to-serve scoring",
+        "Rally scoring to 25"
       ],
       "answer": "Rally scoring to 25",
       "explanation": "Volleyball uses rally scoring, meaning a point is scored on every rally regardless of who served. Sets are played to 25 points (with a 2-point advantage required), except the deciding fifth set, which is played to 15. Rally scoring replaced side-out scoring in international volleyball in 1999.",
@@ -69,10 +69,10 @@
       "category": "Pop Culture",
       "question": "Band of Brothers (HBO, 2001), produced by Steven Spielberg and Tom Hanks, follows Easy Company of the 101st Airborne from D-Day to Germany's surrender. Why is it considered a landmark miniseries?",
       "options": [
-        "It was the most expensive television production ever made at the time ($125 million for 10 episodes) and pioneered the use of realistic WWII military technical advisors from actual veterans",
+        "It used experimental camera techniques developed for the Normandy beach scene in Saving Private Ryan, but applied them throughout all 10 episodes to create a consistent documentary-war aesthetic",
         "It combined the budget and production values of major studio films with the narrative depth of a long-form documentary, using the real Easy Company veterans' firsthand testimony as its foundation",
-        "It was the first TV drama to re-enact historical events using only real veterans as actors — no professional performers — giving it an unscripted authenticity no previous war film had achieved",
-        "It used experimental camera techniques developed for the Normandy beach scene in Saving Private Ryan, but applied them throughout all 10 episodes to create a consistent documentary-war aesthetic"
+        "It was the most expensive television production ever made at the time ($125 million for 10 episodes) and pioneered the use of realistic WWII military technical advisors from actual veterans",
+        "It was the first TV drama to re-enact historical events using only real veterans as actors — no professional performers — giving it an unscripted authenticity no previous war film had achieved"
       ],
       "answer": "It combined the budget and production values of major studio films with the narrative depth of a long-form documentary, using the real Easy Company veterans' firsthand testimony as its foundation",
       "explanation": "Band of Brothers was based on historian Stephen Ambrose's 1992 book, which drew on interviews with Easy Company survivors. The 10-episode, $125 million production (a record for TV at the time) opened each episode with actual veterans — not identified until the finale — sharing memories. It traced the company from jump training in Georgia through Bastogne's freezing siege, to Hitler's Eagle's Nest. It set the template for prestige limited series that followed, including The Pacific and Generation Kill.",
@@ -82,9 +82,9 @@
       "category": "Pop Culture",
       "question": "Which singer's documentary is titled 'Miss Americana'?",
       "options": [
-        "Katy Perry",
         "Billie Eilish",
         "Taylor Swift",
+        "Katy Perry",
         "Olivia Rodrigo"
       ],
       "answer": "Taylor Swift",
@@ -95,10 +95,10 @@
       "category": "History",
       "question": "The 'Watergate scandal' led to the resignation of which U.S. president?",
       "options": [
-        "Gerald Ford",
-        "Lyndon B. Johnson",
         "Jimmy Carter",
-        "Richard Nixon"
+        "Richard Nixon",
+        "Gerald Ford",
+        "Lyndon B. Johnson"
       ],
       "answer": "Richard Nixon",
       "explanation": "The Watergate scandal began with the 1972 break-in at the Democratic National Committee headquarters at the Watergate complex in Washington, D.C. Nixon participated in covering up the crime. Facing near-certain impeachment, he resigned on August 9, 1974 — the only U.S. president to have resigned from office.",
@@ -108,10 +108,10 @@
       "category": "Geography",
       "question": "Which is the world's largest freshwater lake by surface area?",
       "options": [
-        "Lake Victoria",
+        "Lake Superior",
         "Lake Huron",
-        "Lake Baikal",
-        "Lake Superior"
+        "Lake Victoria",
+        "Lake Baikal"
       ],
       "answer": "Lake Superior",
       "explanation": "Lake Superior, on the border of the United States and Canada, is the world's largest freshwater lake by surface area at approximately 82,000 square kilometers. The Great Lakes as a system contain about 21% of the world's surface fresh water. Lake Baikal holds more water by volume, but Lake Superior wins on surface area.",
@@ -122,9 +122,9 @@
       "question": "The Sun is classified as what type of star?",
       "options": [
         "Red giant",
-        "Blue supergiant",
         "White dwarf",
-        "Yellow dwarf"
+        "Yellow dwarf",
+        "Blue supergiant"
       ],
       "answer": "Yellow dwarf",
       "explanation": "The Sun is a G-type main-sequence star, commonly called a yellow dwarf. It is middle-aged at about 4.6 billion years old and is expected to remain stable for another 5 billion years before expanding into a red giant. Despite being called 'yellow dwarf,' the Sun actually appears white from space — it looks yellow from Earth because of atmospheric scattering.",
@@ -136,8 +136,8 @@
       "options": [
         "Borneo",
         "Sumatra",
-        "New Guinea",
-        "Sulawesi"
+        "Sulawesi",
+        "New Guinea"
       ],
       "answer": "New Guinea",
       "explanation": "New Guinea is the world's second-largest island (after Greenland) and is divided between Papua New Guinea (east) and Indonesia's Papua provinces (west). Papua New Guinea has one of the most linguistically diverse populations on Earth — over 800 languages among 9 million people. The country contains extraordinary biodiversity including birds of paradise and tree kangaroos. Its highland regions weren't contacted by outside civilization until the 1930s.",
@@ -147,10 +147,10 @@
       "category": "Science & Nature",
       "question": "What is the molecule often called the 'energy currency' of cells — produced in the mitochondria and used to power virtually every cellular function?",
       "options": [
-        "Glucose",
-        "DNA",
+        "NADH",
         "ATP (adenosine triphosphate)",
-        "NADH"
+        "DNA",
+        "Glucose"
       ],
       "answer": "ATP (adenosine triphosphate)",
       "explanation": "ATP (adenosine triphosphate) is the primary energy carrier in all living cells. When cells need energy for any function — muscle contraction, nerve firing, protein synthesis, active transport — they break the phosphate bond in ATP, releasing energy and producing ADP (adenosine diphosphate). The mitochondria (and to a lesser extent other pathways) continuously regenerate ATP from ADP using glucose, fats, or other fuels. A human body turns over its own weight in ATP every day.",

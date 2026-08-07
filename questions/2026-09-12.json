@@ -5,10 +5,10 @@
       "category": "History",
       "question": "Which ancient city, once the capital of the Persian Empire and sacked by Alexander the Great in 330 BC, is now located in modern-day Iran?",
       "options": [
-        "Persepolis",
-        "Babylon",
         "Carthage",
-        "Nineveh"
+        "Nineveh",
+        "Persepolis",
+        "Babylon"
       ],
       "answer": "Persepolis",
       "explanation": "Persepolis (literally 'city of the Persians') was the ceremonial capital of the Achaemenid Persian Empire. Alexander burned it in 330 BC — possibly in revenge for Xerxes burning Athens in 480 BC, or in a drunken party. Its ruins, near modern Shiraz, Iran, are a UNESCO World Heritage Site with remarkable bas-relief carvings.",
@@ -18,9 +18,9 @@
       "category": "Science & Nature",
       "question": "What is the name of the particle accelerator near Geneva, Switzerland, that discovered the Higgs boson in 2012?",
       "options": [
-        "Large Hadron Collider (LHC)",
-        "CERN Synchrotron",
         "Fermilab Tevatron",
+        "CERN Synchrotron",
+        "Large Hadron Collider (LHC)",
         "SLAC National Accelerator"
       ],
       "answer": "Large Hadron Collider (LHC)",
@@ -31,9 +31,9 @@
       "category": "Sports",
       "question": "Which country has won the most men's Olympic gold medals in table tennis (ping pong) in history?",
       "options": [
+        "Japan",
         "China",
         "South Korea",
-        "Japan",
         "Sweden"
       ],
       "answer": "China",
@@ -44,10 +44,10 @@
       "category": "Pop Culture",
       "question": "Which filmmaker's 1941 debut 'Citizen Kane,' loosely based on William Randolph Hearst, is consistently ranked the greatest film of all time in critics' polls?",
       "options": [
-        "Orson Welles",
         "John Ford",
         "Howard Hawks",
-        "Frank Capra"
+        "Frank Capra",
+        "Orson Welles"
       ],
       "answer": "Orson Welles",
       "explanation": "Orson Welles made Citizen Kane at age 25 with unprecedented creative control. The film pioneered techniques including deep focus photography (where both foreground and background are sharp), nonlinear narrative, and innovative use of sound. Despite being considered the greatest film ever, it was a box office flop in 1941.",
@@ -58,9 +58,9 @@
       "question": "Which Southeast Asian country has the world's longest underground river, Puerto Princesa, which flows through a cave system in Palawan?",
       "options": [
         "Philippines",
+        "Malaysia",
         "Vietnam",
-        "Thailand",
-        "Malaysia"
+        "Thailand"
       ],
       "answer": "Philippines",
       "explanation": "The Puerto Princesa Underground River in Palawan, Philippines, is approximately 8.2 km long — the world's longest navigable underground river. It flows directly into the South China Sea and contains various cave chambers with rock formations. It was declared a UNESCO World Heritage Site and one of the New Seven Wonders of Nature.",
@@ -70,9 +70,9 @@
       "category": "History",
       "question": "The Battle of Midway (June 1942) is considered the turning point of the Pacific War in World War II. Who won?",
       "options": [
+        "Australia",
         "United States",
         "Japan",
-        "Australia",
         "Britain"
       ],
       "answer": "United States",
@@ -83,9 +83,9 @@
       "category": "Pop Culture",
       "question": "Which American actor and comedian, known for movies like 'The 40-Year-Old Virgin' and the 'Anchorman' franchise, consistently produces top-grossing comedies?",
       "options": [
+        "Jim Carrey",
         "Steve Carell / Will Ferrell",
         "Adam Sandler",
-        "Jim Carrey",
         "Ben Stiller"
       ],
       "answer": "Steve Carell / Will Ferrell",
@@ -96,10 +96,10 @@
       "category": "Science & Nature",
       "question": "What is the name of the virus that causes AIDS (Acquired Immunodeficiency Syndrome)?",
       "options": [
+        "EBV",
         "HIV",
         "HPV",
-        "HCV",
-        "EBV"
+        "HCV"
       ],
       "answer": "HIV",
       "explanation": "HIV (Human Immunodeficiency Virus) attacks CD4 T-cells, gradually destroying the immune system. Without treatment, HIV leads to AIDS when CD4 count drops below 200 cells/mm³. Antiretroviral therapy (ART) can suppress the virus to undetectable levels, allowing near-normal life expectancy. The AIDS epidemic has killed approximately 40 million people since the 1980s.",
@@ -109,10 +109,10 @@
       "category": "Geography",
       "question": "Which European country, with Amsterdam as its capital, has roughly 27% of its land below sea level and uses an extensive system of dikes and water management?",
       "options": [
-        "Netherlands",
         "Belgium",
+        "Germany",
         "Denmark",
-        "Germany"
+        "Netherlands"
       ],
       "answer": "Netherlands",
       "explanation": "The Netherlands ('low lands') has been fighting the sea for centuries. About 27% of the country is below sea level. The Delta Works — a series of dams and barriers — is considered one of the Seven Wonders of the Modern World. Amsterdam was built on wooden poles driven into boggy ground; the city's central station sits on 8,687 piles.",
@@ -122,10 +122,10 @@
       "category": "History",
       "question": "Which island became famous for its isolation in the Pacific and its mysterious massive stone statues called moai, carved by the Rapa Nui people?",
       "options": [
+        "Samoa",
         "Easter Island",
         "Hawaii",
-        "Tahiti",
-        "Samoa"
+        "Tahiti"
       ],
       "answer": "Easter Island",
       "explanation": "Easter Island (Rapa Nui, Isla de Pascua) is 3,500 km from Chile — the nearest inhabited island is 2,000 km away. Its people carved 900+ moai statues, some weighing over 80 tons, and somehow transported them across the island. The civilization collapsed (possibly through deforestation) before European contact in 1722.",
@@ -135,10 +135,10 @@
       "category": "Pop Culture",
       "question": "Which song by Pharrell Williams, released in 2013 for the Despicable Me 2 soundtrack, became the best-selling digital single worldwide for that year?",
       "options": [
-        "Happy",
-        "Blurred Lines",
         "Royals",
-        "Stay With Me"
+        "Stay With Me",
+        "Happy",
+        "Blurred Lines"
       ],
       "answer": "Happy",
       "explanation": "'Happy' by Pharrell Williams peaked at #1 in over 25 countries and sold over 13 million copies. It remained on the UK Singles Chart for 76 weeks. The song was inspired by Pharrell's conversations about happiness and became the backdrop for thousands of 'pharrell_happy' copycat videos worldwide.",
@@ -146,14 +146,14 @@
     },
     {
       "category": "Sports",
-      "question": "Diego Maradona scored two of the most famous goals in World Cup history within four minutes of each other against England in the 1986 quarterfinal. What made the two goals so diametrically opposed in nature?",
+      "question": "Maradona scored twice against England in four minutes at the 1986 World Cup. Why are the two goals so famously opposite?",
       "options": [
-        "The first goal was a long-range 35-yard volley struck with Maradona's weaker right foot; the second was a handball he punched into the net with his stronger left hand — both were awarded, making it the only match in World Cup history with two goals from different body parts by the same player",
-        "The first goal was one of the greatest individual goals ever scored — Maradona dribbling past five defenders and the goalkeeper; the second was scored by punching the ball with his hand, which he later said was 'the hand of God' — both were controversially awarded",
-        "The first goal was later voted the 'Goal of the Century' in a poll organized by FIFA; the second goal was initially ruled offside before being awarded — making it the first goal in World Cup history to be ruled offside and then immediately reinstated",
-        "The two goals were separated by exactly 180 seconds — Maradona scored at 51:00 and 54:00 — making it the fastest brace in World Cup quarterfinal history; the second goal, the handball, was awarded despite English captain Bryan Robson protesting directly to the referee"
+        "One a 35-yard volley, one a handball",
+        "One voted Goal of the Century, one ruled offside then given",
+        "They came 180 seconds apart, the fastest brace ever",
+        "One dribbled past five men, one punched in by hand"
       ],
-      "answer": "The first goal was one of the greatest individual goals ever scored — Maradona dribbling past five defenders and the goalkeeper; the second was scored by punching the ball with his hand, which he later said was 'the hand of God' — both were controversially awarded",
+      "answer": "One dribbled past five men, one punched in by hand",
       "explanation": "In the 51st minute, Maradona punched the ball into the net with his left hand. The referee (who had a poor angle) awarded it. Maradona told reporters afterward it was scored 'a little with the head of Maradona and a little with the hand of God.' Four minutes later, he received a pass and dribbled past five English players (Beardsley, Reid, Butcher, Fenwick, Butcher again) and goalkeeper Shilton, covering 60 meters in 11 seconds. FIFA voted it the 'Goal of the Century' in 2002. Argentina beat England 2-1. The match carried Cold War-like tension — Argentina and England had fought the Falklands War in 1982.",
       "memory_hook": "Four minutes apart: first Maradona punches it in with his left hand ('the hand of God'), then dribbles 60 meters past five defenders and the keeper in 11 seconds ('Goal of the Century'). Both count. The context: England and Argentina had fought the Falklands War just four years earlier. FIFA fans voted the second goal the greatest ever in 2002."
     }

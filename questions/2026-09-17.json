@@ -7,8 +7,8 @@
       "options": [
         "Toussaint Louverture",
         "François-Dominique Dessalines",
-        "Henri Christophe",
-        "Simon Bolivar"
+        "Simon Bolivar",
+        "Henri Christophe"
       ],
       "answer": "Toussaint Louverture",
       "explanation": "Toussaint Louverture led the Haitian Revolution until he was captured by Napoleon in 1802. Jean-Jacques Dessalines completed the revolution and declared independence on January 1, 1804. Haiti (then Saint-Domingue) was France's wealthiest colony, producing 40% of Europe's sugar. The revolution sent shockwaves through slave-holding nations worldwide.",
@@ -18,9 +18,9 @@
       "category": "Science & Nature",
       "question": "What phenomenon explains why a compass needle points north, due to Earth's internal structure?",
       "options": [
+        "Solar wind deflection",
         "Earth's magnetic field",
         "Gravitational pull of the North Pole",
-        "Solar wind deflection",
         "Coriolis effect"
       ],
       "answer": "Earth's magnetic field",
@@ -32,8 +32,8 @@
       "question": "Which country won the first-ever Soccer/Football World Cup in 1930, held in Uruguay?",
       "options": [
         "Uruguay",
-        "Argentina",
         "Brazil",
+        "Argentina",
         "Chile"
       ],
       "answer": "Uruguay",
@@ -44,10 +44,10 @@
       "category": "Pop Culture",
       "question": "Which 1970 Francis Ford Coppola film follows the misadventures of a group of young people in 1962 California and launched the careers of Richard Dreyfuss and Harrison Ford?",
       "options": [
-        "American Graffiti",
-        "The Godfather",
         "Easy Rider",
-        "Five Easy Pieces"
+        "American Graffiti",
+        "Five Easy Pieces",
+        "The Godfather"
       ],
       "answer": "American Graffiti",
       "explanation": "American Graffiti (1973 — not 1970) was George Lucas's film, not Coppola's. Coppola produced it. It launched careers of Richard Dreyfuss, Harrison Ford, Ron Howard, and Cindy Williams. The film was set in 1962 to its $775,000 budget film that earned $200 million. It inspired TV's Happy Days.",
@@ -57,9 +57,9 @@
       "category": "Geography",
       "question": "Which river, flowing through Egypt and Sudan, is divided into two branches before it reaches the Mediterranean Sea, creating a fertile delta?",
       "options": [
-        "Nile",
         "Niger",
         "Volta",
+        "Nile",
         "Congo"
       ],
       "answer": "Nile",
@@ -70,10 +70,10 @@
       "category": "History",
       "question": "The 1848 Communist Manifesto was written by Karl Marx and which co-author?",
       "options": [
-        "Friedrich Engels",
-        "Vladimir Lenin",
+        "Georg Hegel",
         "Leon Trotsky",
-        "Georg Hegel"
+        "Vladimir Lenin",
+        "Friedrich Engels"
       ],
       "answer": "Friedrich Engels",
       "explanation": "The Communist Manifesto was commissioned by the Communist League and written in Brussels by Marx and Engels in 1847-48. It was published in London on February 21, 1848, days before revolutions swept Europe. Its opening line: 'A spectre is haunting Europe — the spectre of communism.' Engels financially supported Marx throughout his life.",
@@ -83,10 +83,10 @@
       "category": "Pop Culture",
       "question": "Which Disney princess, from a 1989 animated film, dreams of living on land and trades her voice to a sea witch to become human?",
       "options": [
-        "Ariel",
+        "Pocahontas",
         "Belle",
         "Mulan",
-        "Pocahontas"
+        "Ariel"
       ],
       "answer": "Ariel",
       "explanation": "The Little Mermaid (1989) is credited with reviving Disney animation after years of declining quality and is often called the beginning of the 'Disney Renaissance.' Ariel trades her voice to Ursula for legs. The film's score by Alan Menken and Howard Ashman won two Oscars. Jodi Benson voiced Ariel; Halle Bailey played her in the 2023 live-action remake.",
@@ -97,9 +97,9 @@
       "question": "What is the name of the evolutionary adaptation where unrelated species develop similar traits due to living in similar environments?",
       "options": [
         "Convergent evolution",
+        "Parallel evolution",
         "Divergent evolution",
-        "Coevolution",
-        "Parallel evolution"
+        "Coevolution"
       ],
       "answer": "Convergent evolution",
       "explanation": "Convergent evolution explains why dolphins (mammals) and sharks (fish) look similar — both evolved streamlined bodies for fast underwater movement independently. Wings evolved independently in birds, bats, and insects. Eyes evolved independently at least 40 times across animal lineages. It's evidence that natural selection finds similar solutions to similar problems.",
@@ -109,10 +109,10 @@
       "category": "Geography",
       "question": "Which canal, completed in 1914, connects the Atlantic and Pacific oceans through a 77 km stretch of Central America?",
       "options": [
+        "Tehuantepec Canal",
         "Panama Canal",
-        "Nicaragua Canal",
         "Darién Canal",
-        "Tehuantepec Canal"
+        "Nicaragua Canal"
       ],
       "answer": "Panama Canal",
       "explanation": "The Panama Canal took 10 years to build (1904-1914) and cost approximately $375 million (plus 5,600 lives in the US construction phase, after tens of thousands died in a failed French attempt). The canal uses a system of locks to raise and lower ships. The expanded canal (2016) can now accommodate 'Neopanamax' ships too large for the original locks.",
@@ -122,10 +122,10 @@
       "category": "History",
       "question": "Which country's civil war (1936-1939) served as a rehearsal for World War II, with Germany and Italy supporting Francisco Franco's Nationalists?",
       "options": [
-        "Spain",
-        "Greece",
+        "Poland",
         "Yugoslavia",
-        "Poland"
+        "Greece",
+        "Spain"
       ],
       "answer": "Spain",
       "explanation": "The Spanish Civil War pitted the Republican government (supported by Soviet Union and International Brigades of foreign volunteers) against Franco's Nationalist movement (backed by Hitler and Mussolini). It was the first major test of Nazi air power, particularly the bombing of the Basque town of Guernica (immortalized in Picasso's painting). Franco won and ruled Spain until 1975.",
@@ -135,9 +135,9 @@
       "category": "Pop Culture",
       "question": "Which British singer-songwriter penned 'Tiny Dancer,' 'Rocket Man,' and 'Crocodile Rock' while his lyricist partner Bernie Taupin wrote the words?",
       "options": [
-        "Elton John",
-        "Rod Stewart",
         "David Bowie",
+        "Rod Stewart",
+        "Elton John",
         "Cat Stevens"
       ],
       "answer": "Elton John",
@@ -149,9 +149,9 @@
       "question": "In swimming, what is the correct stroke order in an individual medley race?",
       "options": [
         "Butterfly, backstroke, breaststroke, freestyle",
-        "Backstroke, butterfly, breaststroke, freestyle",
         "Freestyle, backstroke, butterfly, breaststroke",
-        "Breaststroke, backstroke, butterfly, freestyle"
+        "Breaststroke, backstroke, butterfly, freestyle",
+        "Backstroke, butterfly, breaststroke, freestyle"
       ],
       "answer": "Butterfly, backstroke, breaststroke, freestyle",
       "explanation": "The individual medley (IM) order is always: butterfly, backstroke, breaststroke, freestyle — or 'fly-back-breast-free.' This differs from the medley relay order (backstroke, breaststroke, butterfly, freestyle). Michael Phelps is the most decorated Olympic swimmer in the IM events.",

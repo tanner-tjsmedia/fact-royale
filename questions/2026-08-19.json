@@ -5,10 +5,10 @@
       "category": "History",
       "question": "Who invented the telephone, receiving the first patent in 1876?",
       "options": [
-        "Thomas Edison",
+        "Alexander Graham Bell",
         "Nikola Tesla",
-        "Guglielmo Marconi",
-        "Alexander Graham Bell"
+        "Thomas Edison",
+        "Guglielmo Marconi"
       ],
       "answer": "Alexander Graham Bell",
       "explanation": "Alexander Graham Bell received US Patent 174,465 for the telephone on March 7, 1876 — widely regarded as the most valuable patent ever issued. The first successful voice transmission was made three days later. Bell's achievement is disputed — Elisha Gray filed a patent caveat the same day, and Italian inventor Antonio Meucci had developed a voice communication device earlier but couldn't afford the patent fees.",
@@ -18,10 +18,10 @@
       "category": "History",
       "question": "Which Roman emperor, who reigned from 27 BC to 14 AD, is considered the first true Roman Emperor and gave his name to the month of August?",
       "options": [
-        "Augustus",
         "Julius Caesar",
-        "Nero",
-        "Caligula"
+        "Augustus",
+        "Caligula",
+        "Nero"
       ],
       "answer": "Augustus",
       "explanation": "Augustus (born Gaius Octavius) became Rome's first emperor after defeating Mark Antony and Cleopatra in 31 BC. He transformed Rome from a republic into an empire and presided over the 'Pax Romana' — two centuries of relative peace. The month of August was renamed in his honor.",
@@ -31,10 +31,10 @@
       "category": "History",
       "question": "The Srebrenica massacre in 1995, in which over 8,000 Bosnian Muslims were killed, occurred during which conflict?",
       "options": [
-        "Croatian War of Independence",
+        "Bosnian War",
         "Chechen Wars",
         "Kosovo War",
-        "Bosnian War"
+        "Croatian War of Independence"
       ],
       "answer": "Bosnian War",
       "explanation": "The Srebrenica massacre occurred during the Bosnian War (1992-1995) when Bosnian Serb forces under General Ratko Mladic killed over 8,000 Bosniak Muslim men and boys in and around Srebrenica, a UN-designated safe area. It was the worst atrocity in Europe since World War II. The International Criminal Tribunal for the Former Yugoslavia ruled it genocide. Mladic was sentenced to life imprisonment in 2017.",
@@ -44,10 +44,10 @@
       "category": "Sports",
       "question": "In ice hockey, how many players per team are on the ice during regulation play (not including the goaltender)?",
       "options": [
-        "4",
-        "5",
         "6",
-        "7"
+        "7",
+        "4",
+        "5"
       ],
       "answer": "5",
       "explanation": "Each ice hockey team has 5 skaters (forwards and defensemen) plus a goaltender on the ice for a total of 6 players per team during regulation. When a team takes a penalty, one of their skaters must leave the ice, giving the opposing team a 'power play' with a 6-on-5 advantage. Teams may also pull their goaltender for an extra skater in desperate situations.",
@@ -57,10 +57,10 @@
       "category": "Sports",
       "question": "Who became the first Black man to win the Wimbledon men's singles title, achieving the feat in 1975 and also co-founding the National Junior Tennis League to increase access to the sport?",
       "options": [
-        "Arthur Ashe",
-        "Jimmy Connors",
         "Björn Borg",
-        "Ilie Nastase"
+        "Jimmy Connors",
+        "Ilie Nastase",
+        "Arthur Ashe"
       ],
       "answer": "Arthur Ashe",
       "explanation": "Arthur Ashe won Wimbledon in 1975, defeating Jimmy Connors in a tactical masterclass. He was the first Black player to win the US Open (1968), Australian Open (1970), and Wimbledon (1975). He later contracted HIV from a blood transfusion and became an activist before his death in 1993.",
@@ -70,10 +70,10 @@
       "category": "Pop Culture",
       "question": "Which legendary rock guitarist is known as 'Slowhand' and recorded 'Layla' and 'Tears in Heaven'?",
       "options": [
-        "Jimi Hendrix",
         "Pete Townshend",
+        "Eric Clapton",
         "Jeff Beck",
-        "Eric Clapton"
+        "Jimi Hendrix"
       ],
       "answer": "Eric Clapton",
       "explanation": "Eric Clapton earned the nickname 'Slowhand' from his habit of restringing guitars mid-concert while the audience clapped. He is one of rock's greatest guitarists, with a career spanning six decades. 'Layla' (1970, with Derek and the Dominos) is widely considered one of the greatest rock songs. 'Tears in Heaven' (1992) was written after the death of his four-year-old son Conor. Clapton is the only musician inducted into the Rock and Roll Hall of Fame three times.",
@@ -85,8 +85,8 @@
       "options": [
         "Full Metal Jacket",
         "Apocalypse Now",
-        "Born on the Fourth of July",
-        "Platoon"
+        "Platoon",
+        "Born on the Fourth of July"
       ],
       "answer": "Platoon",
       "explanation": "Platoon (1986), written and directed by Oliver Stone based on his own Vietnam War experiences, won four Academy Awards including Best Picture and Best Director. It starred Tom Berenger as the hardened Sergeant Barnes and Willem Dafoe as the moral Sergeant Elias, representing the war's duality. It was the first major Hollywood film to portray the Vietnam War from an enlisted soldier's perspective.",
@@ -98,8 +98,8 @@
       "options": [
         "Quincy Jones",
         "John Landis",
-        "Michael Jackson",
-        "Steven Spielberg"
+        "Steven Spielberg",
+        "Michael Jackson"
       ],
       "answer": "John Landis",
       "explanation": "The 'Thriller' music video (1983) was directed by John Landis, who also directed An American Werewolf in London and Animal House. The 14-minute short film cost $500,000 (revolutionary for the time), featured Michael Jackson transforming into a zombie, and was the first music video to be added to the National Film Registry by the Library of Congress. It transformed music videos from promotional tools into cinematic art forms.",
@@ -109,10 +109,10 @@
       "category": "Geography",
       "question": "Which African country is home to Victoria Falls, one of the world's largest and most spectacular waterfalls?",
       "options": [
-        "Tanzania",
-        "Mozambique",
+        "Botswana",
         "Zimbabwe and Zambia",
-        "Botswana"
+        "Tanzania",
+        "Mozambique"
       ],
       "answer": "Zimbabwe and Zambia",
       "explanation": "Victoria Falls sits on the Zambezi River on the border between Zimbabwe and Zambia. The falls are approximately 1,708 meters wide and 108 meters high — making them the world's largest sheet of falling water by area. The local name is 'Mosi-oa-Tunya' meaning 'The Smoke That Thunders.' David Livingstone was the first European to see them in 1855 and named them after Queen Victoria.",
@@ -122,10 +122,10 @@
       "category": "Science & Nature",
       "question": "What is the study of heredity and genetic variation in living organisms?",
       "options": [
-        "Ecology",
         "Molecular biology",
-        "Genetics",
-        "Biochemistry"
+        "Biochemistry",
+        "Ecology",
+        "Genetics"
       ],
       "answer": "Genetics",
       "explanation": "Genetics is the branch of biology that studies heredity — how traits are passed from parents to offspring — and genetic variation. Gregor Mendel, an Austrian monk, laid the foundation of genetics in the 1860s with his pea plant experiments. The discovery of DNA's structure (1953) transformed genetics from observation to molecular understanding. Today, genetic science underpins medicine, agriculture, forensics, and evolutionary biology.",
@@ -135,10 +135,10 @@
       "category": "Geography",
       "question": "The Everglades, a unique subtropical wetland covering about 6,000 km², is located at the southern tip of which U.S. state?",
       "options": [
-        "Louisiana",
-        "Georgia",
         "Texas",
-        "Florida"
+        "Georgia",
+        "Florida",
+        "Louisiana"
       ],
       "answer": "Florida",
       "explanation": "The Everglades is a subtropical wetland ecosystem covering southern Florida, often described as a 'river of grass' — a slow-moving sheet of water flowing from Lake Okeechobee south to Florida Bay. It is a UNESCO World Heritage Site and home to alligators, American crocodiles, Florida panthers, manatees, and vast numbers of wading birds. The Everglades has been severely reduced by drainage for agriculture and urban development, losing over 50% of its original area. Restoration efforts are ongoing.",
@@ -149,8 +149,8 @@
       "question": "RNA serves as a messenger between DNA and protein production. What are the three main types of RNA and their roles?",
       "options": [
         "Ribosomal, transfer, and messenger RNA each play distinct roles in protein synthesis",
-        "Coding, non-coding, and viral RNA",
         "Alpha, beta, and gamma RNA",
+        "Coding, non-coding, and viral RNA",
         "Structural, catalytic, and regulatory RNA"
       ],
       "answer": "Ribosomal, transfer, and messenger RNA each play distinct roles in protein synthesis",

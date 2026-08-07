@@ -5,10 +5,10 @@
       "category": "History",
       "question": "Which Native American woman, Shoshone-born, guided Lewis and Clark on their 1804-1806 expedition through the American West?",
       "options": [
-        "Sacagawea",
+        "Waheenee",
         "Pocahontas",
         "Winona",
-        "Waheenee"
+        "Sacagawea"
       ],
       "answer": "Sacagawea",
       "explanation": "Sacagawea was a teenage Shoshone woman married to French-Canadian trapper Toussaint Charbonneau. She joined the Lewis and Clark Expedition, helping navigate territory and communicate. She carried her infant son Jean Baptiste the entire journey. Her presence signaled peaceful intent to western tribes.",
@@ -18,10 +18,10 @@
       "category": "Science & Nature",
       "question": "What is the Heisenberg Uncertainty Principle?",
       "options": [
-        "Knowing a particle's position precisely makes its momentum imprecise, and vice versa",
+        "Objects in motion stay in motion",
         "Matter cannot be created or destroyed",
         "Entropy always increases in a closed system",
-        "Objects in motion stay in motion"
+        "Knowing a particle's position precisely makes its momentum imprecise, and vice versa"
       ],
       "answer": "Knowing a particle's position precisely makes its momentum imprecise, and vice versa",
       "explanation": "Werner Heisenberg formulated this in 1927: the more precisely you know a particle's position, the less precisely you can know its momentum. This is a fundamental property of quantum systems — not just instrument limitations.",
@@ -31,10 +31,10 @@
       "category": "Sports",
       "question": "Chris Evert and Martina Navratilova each won how many Grand Slam singles titles, defining one of sports' great rivalries?",
       "options": [
-        "18 each",
-        "12 each",
         "18 Evert / 16 Navratilova",
-        "16 Evert / 18 Navratilova"
+        "16 Evert / 18 Navratilova",
+        "18 each",
+        "12 each"
       ],
       "answer": "18 each",
       "explanation": "Both Chris Evert and Martina Navratilova won 18 Grand Slam singles titles. Evert had a 90% clay court win rate. Their rivalry defined women's tennis in the 1970s-80s.",
@@ -44,10 +44,10 @@
       "category": "Pop Culture",
       "question": "Which 1988 Tim Burton film, starring Michael Keaton as a manic 'bio-exorcist,' starred alongside Winona Ryder and launched both their careers?",
       "options": [
-        "Beetlejuice",
-        "Edward Scissorhands",
         "Batman",
-        "Big Eyes"
+        "Edward Scissorhands",
+        "Big Eyes",
+        "Beetlejuice"
       ],
       "answer": "Beetlejuice",
       "explanation": "Beetlejuice (1988) starred Michael Keaton, Alec Baldwin, Geena Davis, and Winona Ryder. Won an Oscar for Best Makeup. A sequel, Beetlejuice Beetlejuice, was released in 2024.",
@@ -71,9 +71,9 @@
       "question": "Japan's 2011 Tohoku earthquake (magnitude 9.0) caused which secondary disaster that killed approximately 20,000 people?",
       "options": [
         "Tsunami and nuclear meltdown at Fukushima",
+        "Firestorms in Tokyo",
         "Landslides only",
-        "Volcanic eruption",
-        "Firestorms in Tokyo"
+        "Volcanic eruption"
       ],
       "answer": "Tsunami and nuclear meltdown at Fukushima",
       "explanation": "The 2011 Tohoku earthquake triggered a massive tsunami and the Fukushima Daiichi nuclear disaster. About 20,000 died. The earthquake shifted Japan's coastline 2.4 meters eastward — one of the most powerful ever recorded.",
@@ -83,10 +83,10 @@
       "category": "Pop Culture",
       "question": "Which HBO television drama about Westeros became the most Emmy-awarded scripted series in history with 59 wins?",
       "options": [
-        "Game of Thrones",
-        "The Crown",
         "Succession",
-        "The Sopranos"
+        "The Sopranos",
+        "The Crown",
+        "Game of Thrones"
       ],
       "answer": "Game of Thrones",
       "explanation": "Game of Thrones (HBO, 2011-2019) won 59 Emmy Awards — most of any scripted series. At peak viewership an estimated 44 million global viewers watched each episode.",
@@ -96,10 +96,10 @@
       "category": "Science & Nature",
       "question": "What does the process of radioactive decay transform — and what famous dating technique is based on carbon's radioactive decay?",
       "options": [
-        "Changes one element to another; radiocarbon dating",
         "Changes one molecule to another; spectroscopy",
+        "Changes mass to energy; carbon analysis",
         "Changes energy to mass; nuclear dating",
-        "Changes mass to energy; carbon analysis"
+        "Changes one element to another; radiocarbon dating"
       ],
       "answer": "Changes one element to another; radiocarbon dating",
       "explanation": "Radioactive decay transforms unstable nuclei into different elements. Carbon-14 decays to Nitrogen-14 — the basis of radiocarbon dating. Marie Curie coined the term 'radioactivity.'",
@@ -109,9 +109,9 @@
       "category": "Geography",
       "question": "Which tunnel beneath the English Channel connects London to Paris via Eurostar, and how long is it underwater?",
       "options": [
-        "Channel Tunnel, 38 km underwater (50 km total)",
         "Øresund Tunnel, 8 km underwater",
         "Seikan Tunnel, 23 km underwater",
+        "Channel Tunnel, 38 km underwater (50 km total)",
         "Chunnel, 45 km underwater"
       ],
       "answer": "Channel Tunnel, 38 km underwater (50 km total)",
@@ -122,10 +122,10 @@
       "category": "History",
       "question": "Which 19th-century German chancellor unified the German states into the German Empire in 1871 by winning three wars?",
       "options": [
-        "Otto von Bismarck",
-        "Kaiser Wilhelm I",
         "Frederick the Great",
-        "Helmut von Moltke"
+        "Helmut von Moltke",
+        "Kaiser Wilhelm I",
+        "Otto von Bismarck"
       ],
       "answer": "Otto von Bismarck",
       "explanation": "Bismarck unified Germany through wars against Denmark (1864), Austria (1866), and France (1870-71). The German Empire was declared in the Hall of Mirrors at Versailles in January 1871. Bismarck also created the world's first national health insurance (1883).",
@@ -136,9 +136,9 @@
       "question": "Which 1982 Spielberg film about a friendly alien stranded on Earth was the highest-grossing film for 11 years?",
       "options": [
         "E.T. the Extra-Terrestrial",
+        "Alien",
         "Close Encounters of the Third Kind",
-        "War of the Worlds",
-        "Alien"
+        "War of the Worlds"
       ],
       "answer": "E.T. the Extra-Terrestrial",
       "explanation": "E.T. (1982) held the record for 11 years until Jurassic Park (also Spielberg) surpassed it in 1993. Starred young Drew Barrymore. John Williams composed the score.",
@@ -148,10 +148,10 @@
       "category": "Sports",
       "question": "What record does Novak Djokovic hold in ATP year-end rankings?",
       "options": [
-        "Most year-end No. 1 rankings with 8",
         "Most career weeks at No. 1",
-        "Both most year-end No. 1s (8) and most weeks at No. 1",
-        "Most consecutive year-end No. 1s"
+        "Most consecutive year-end No. 1s",
+        "Most year-end No. 1 rankings with 8",
+        "Both most year-end No. 1s (8) and most weeks at No. 1"
       ],
       "answer": "Both most year-end No. 1s (8) and most weeks at No. 1",
       "explanation": "Djokovic holds both records: most career weeks at No. 1 (400+) and most year-end No. 1 finishes (8). He also holds records for most Grand Slam titles (24). His dominance of men's tennis is historic.",

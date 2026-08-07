@@ -5,9 +5,9 @@
       "question": "The construction of which U.S. landmark began on August 28, 1963, the same day MLK gave his 'I Have a Dream' speech?",
       "options": [
         "The Hoover Dam",
-        "The Pentagon",
         "The space between the Lincoln Memorial and Washington Monument",
-        "The Vietnam Veterans Memorial"
+        "The Vietnam Veterans Memorial",
+        "The Pentagon"
       ],
       "answer": "The space between the Lincoln Memorial and Washington Monument",
       "explanation": "On August 28, 1963, Martin Luther King Jr. delivered his 'I Have a Dream' speech at the Lincoln Memorial during the March on Washington. The speech is considered one of the greatest in American history and was a pivotal moment in the civil rights movement, drawing over 250,000 people.",
@@ -17,9 +17,9 @@
       "category": "History",
       "question": "Which country was formerly known as 'Persia'?",
       "options": [
+        "Turkey",
         "Iraq",
         "Afghanistan",
-        "Turkey",
         "Iran"
       ],
       "answer": "Iran",
@@ -30,10 +30,10 @@
       "category": "Sports",
       "question": "What is the term for a score of three under par on a single hole in golf?",
       "options": [
-        "Birdie",
         "Eagle",
+        "Condor",
         "Albatross",
-        "Condor"
+        "Birdie"
       ],
       "answer": "Albatross",
       "explanation": "In golf, an albatross (also called a double eagle) is three strokes under par on a single hole. It is extremely rare — a condor (four under par, usually a hole-in-one on a par 5) is even rarer. The terms follow a bird theme: birdie (1 under), eagle (2 under), albatross (3 under).",
@@ -43,10 +43,10 @@
       "category": "Sports",
       "question": "How many players are on a water polo team in the pool?",
       "options": [
-        "5",
+        "8",
         "6",
         "7",
-        "8"
+        "5"
       ],
       "answer": "7",
       "explanation": "A water polo team has seven players in the pool during play: one goalkeeper and six field players. Teams have a maximum of 13 players on their roster. Games consist of four periods of eight minutes each, and the pool is at least 1.8 meters deep throughout.",
@@ -56,10 +56,10 @@
       "category": "Pop Culture",
       "question": "Which film features the famous shower scene score by Bernard Herrmann?",
       "options": [
-        "Vertigo",
-        "Rear Window",
+        "The Birds",
         "Psycho",
-        "The Birds"
+        "Rear Window",
+        "Vertigo"
       ],
       "answer": "Psycho",
       "explanation": "The shower scene in Alfred Hitchcock's Psycho (1960) features Bernard Herrmann's iconic shrieking strings score — played entirely by string instruments. The scene became one of the most studied in film history. Hitchcock reportedly considered having the scene with no music, but Herrmann convinced him otherwise.",
@@ -71,8 +71,8 @@
       "options": [
         "Mariah Carey",
         "Celine Dion",
-        "Whitney Houston",
-        "Toni Braxton"
+        "Toni Braxton",
+        "Whitney Houston"
       ],
       "answer": "Whitney Houston",
       "explanation": "Whitney Houston's version of 'I Will Always Love You' was the theme for The Bodyguard (1992). Originally written and recorded by Dolly Parton in 1973, Houston's version became the best-selling single by a female artist in history at the time. Houston held the note at the end for 14 seconds in the recording.",
@@ -82,10 +82,10 @@
       "category": "Pop Culture",
       "question": "Which country does the band ABBA come from?",
       "options": [
-        "Denmark",
-        "Finland",
         "Norway",
-        "Sweden"
+        "Denmark",
+        "Sweden",
+        "Finland"
       ],
       "answer": "Sweden",
       "explanation": "ABBA is from Stockholm, Sweden. The name is an acronym of the four members' first names: Agnetha Fältskog, Björn Ulvaeus, Benny Andersson, and Anni-Frid Lyngstad. They won the Eurovision Song Contest in 1974 with 'Waterloo' and became one of the best-selling music artists of all time.",
@@ -95,9 +95,9 @@
       "category": "History",
       "question": "Which Roman emperor converted to Christianity?",
       "options": [
+        "Caligula",
         "Augustus",
         "Nero",
-        "Caligula",
         "Constantine I"
       ],
       "answer": "Constantine I",
@@ -108,10 +108,10 @@
       "category": "Geography",
       "question": "Iceland sits on the boundary between which two tectonic plates?",
       "options": [
+        "South American and African",
         "Pacific and North American",
-        "African and Eurasian",
         "North American and Eurasian",
-        "South American and African"
+        "African and Eurasian"
       ],
       "answer": "North American and Eurasian",
       "explanation": "Iceland straddles the Mid-Atlantic Ridge, where the North American and Eurasian tectonic plates are slowly pulling apart. This makes Iceland one of the most volcanically and geologically active places on Earth, with geysers, hot springs, and frequent eruptions. You can literally stand with one foot on each tectonic plate in some locations.",
@@ -122,8 +122,8 @@
       "question": "Evidence strongly suggests that Mars once had liquid water on its surface — rivers, lakes, and possibly an ocean. What happened to it, and where is Mars's water now?",
       "options": [
         "Mars's water evaporated when a large asteroid impact 3.5 billion years ago vaporized the entire water supply; it dispersed into space since Mars lacks the gravity to retain water vapor",
-        "Mars lost its global magnetic field about 4 billion years ago, exposing its atmosphere to the solar wind which stripped away atmospheric molecules — eventually making the planet too cold and low-pressure for liquid water. Most water is now frozen in the polar ice caps and locked in permafrost",
         "Mars's water drained into its porous basaltic crust and remains as liquid groundwater beneath the surface — the Mars Phoenix lander confirmed this in 2008 by drilling 3 km below the surface and extracting liquid water samples",
+        "Mars lost its global magnetic field about 4 billion years ago, exposing its atmosphere to the solar wind which stripped away atmospheric molecules — eventually making the planet too cold and low-pressure for liquid water. Most water is now frozen in the polar ice caps and locked in permafrost",
         "Mars's water was captured by the Sun's gravity during a period of solar expansion 2 billion years ago — the water was pulled free of Mars's weak gravity and incorporated into the Sun's outer layers"
       ],
       "answer": "Mars lost its global magnetic field about 4 billion years ago, exposing its atmosphere to the solar wind which stripped away atmospheric molecules — eventually making the planet too cold and low-pressure for liquid water. Most water is now frozen in the polar ice caps and locked in permafrost",
@@ -134,10 +134,10 @@
       "category": "Geography",
       "question": "The Orinoco River, the third-longest river in South America, flows primarily through which country before emptying into the Atlantic Ocean?",
       "options": [
-        "Colombia",
+        "Venezuela",
         "Brazil",
-        "Bolivia",
-        "Venezuela"
+        "Colombia",
+        "Bolivia"
       ],
       "answer": "Venezuela",
       "explanation": "The Orinoco River flows about 2,140 km through Venezuela, with its upper portion forming part of the Colombia-Venezuela border. It drains into the Atlantic Ocean via a broad delta in northeastern Venezuela. The Orinoco basin contains Angel Falls (the world's highest waterfall) as a tributary system and is home to the Amazon river dolphin, giant otters, caimans, and electric eels. Venezuela's oil-rich Orinoco Belt contains some of the world's largest proven oil reserves.",
@@ -147,9 +147,9 @@
       "category": "Science & Nature",
       "question": "Astronomers observe that distant galaxies are moving away from us, with farther galaxies receding faster. What causes the light from these galaxies to shift toward the red end of the spectrum?",
       "options": [
+        "Absorption by interstellar gas",
         "Cosmic dust",
         "Redshift from the Doppler effect and space expansion",
-        "Absorption by interstellar gas",
         "Gravitational lensing"
       ],
       "answer": "Redshift from the Doppler effect and space expansion",

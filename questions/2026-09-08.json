@@ -5,8 +5,8 @@
       "category": "History",
       "question": "Which treaty, signed in 1783, officially ended the American Revolutionary War and recognized the United States as an independent nation?",
       "options": [
-        "Treaty of Paris",
         "Treaty of Ghent",
+        "Treaty of Paris",
         "Treaty of Versailles",
         "Treaty of Amiens"
       ],
@@ -19,9 +19,9 @@
       "question": "What is the name of the boundary between the Earth's mantle and outer core, located approximately 2,900 km below the surface?",
       "options": [
         "Gutenberg discontinuity",
-        "Mohorovičić discontinuity",
+        "Lehmann discontinuity",
         "Conrad discontinuity",
-        "Lehmann discontinuity"
+        "Mohorovičić discontinuity"
       ],
       "answer": "Gutenberg discontinuity",
       "explanation": "The Gutenberg discontinuity (also called the core-mantle boundary) was discovered by Beno Gutenberg in 1913. At this boundary, seismic P-waves slow dramatically and S-waves cannot pass (because the outer core is liquid). The Mohorovičić discontinuity (Moho) is the shallower crust-mantle boundary at 5-70 km depth.",
@@ -31,10 +31,10 @@
       "category": "Sports",
       "question": "Which country has won the most FIFA Women's World Cup titles with four championships (1991, 1999, 2015, 2019)?",
       "options": [
-        "United States",
         "Germany",
-        "Japan",
-        "Norway"
+        "United States",
+        "Norway",
+        "Japan"
       ],
       "answer": "United States",
       "explanation": "The U.S. Women's National Team (USWNT) is the most successful women's soccer program in history. Mia Hamm was the star of the 1999 victory (played in the US and drew record crowds). Megan Rapinoe was the 2019 Golden Ball winner. The team has also dominated the Olympics.",
@@ -44,9 +44,9 @@
       "category": "Pop Culture",
       "question": "Which 1993 Steven Spielberg film, depicting the Holocaust through the story of German industrialist Oskar Schindler, won seven Academy Awards including Best Picture?",
       "options": [
-        "Schindler's List",
         "The Pianist",
         "Life is Beautiful",
+        "Schindler's List",
         "Sophie's Choice"
       ],
       "answer": "Schindler's List",
@@ -57,9 +57,9 @@
       "category": "Geography",
       "question": "The Arabian Peninsula is the world's largest peninsula. Which country occupies most of it by area?",
       "options": [
+        "Oman",
         "Saudi Arabia",
         "Yemen",
-        "Oman",
         "UAE"
       ],
       "answer": "Saudi Arabia",
@@ -70,8 +70,8 @@
       "category": "History",
       "question": "The Meiji Restoration transformed Japan in the 19th century, but what significant event in 1853 forced Japan to open its ports after 200+ years of isolation?",
       "options": [
-        "Arrival of U.S. Navy Commodore Perry's 'Black Ships'",
         "The British occupation of Tokyo",
+        "Arrival of U.S. Navy Commodore Perry's 'Black Ships'",
         "The First Sino-Japanese War",
         "A volcanic eruption destroying Nagasaki"
       ],
@@ -83,10 +83,10 @@
       "category": "Pop Culture",
       "question": "Which science fiction television franchise, beginning with the original series in 1966, has spawned more spin-off series than any other TV show?",
       "options": [
-        "Star Trek",
         "Doctor Who",
+        "Battlestar Galactica",
         "Star Wars",
-        "Battlestar Galactica"
+        "Star Trek"
       ],
       "answer": "Star Trek",
       "explanation": "Star Trek began with Gene Roddenberry's original series (1966-69) starring William Shatner and Leonard Nimoy. As of 2024, it has spawned over 10 series including The Next Generation, Deep Space Nine, Voyager, Enterprise, Discovery, Picard, Strange New Worlds, and animated series. The franchise has over $4 billion in merchandise sales.",
@@ -98,8 +98,8 @@
       "options": [
         "Pancreas",
         "Liver",
-        "Adrenal gland",
-        "Thyroid"
+        "Thyroid",
+        "Adrenal gland"
       ],
       "answer": "Pancreas",
       "explanation": "The pancreas has two functions: exocrine (digestive enzymes into the small intestine) and endocrine (hormones into the blood). Beta cells in the islets of Langerhans produce insulin, which lowers blood glucose; alpha cells produce glucagon, which raises it. Type 1 diabetes results from destruction of beta cells; Type 2 from insulin resistance.",
@@ -109,10 +109,10 @@
       "category": "Geography",
       "question": "Which autonomous region of China, home to the Potala Palace and the Dalai Lama's historical seat of government, sits on the world's highest plateau?",
       "options": [
-        "Tibet",
         "Xinjiang",
-        "Inner Mongolia",
-        "Yunnan"
+        "Tibet",
+        "Yunnan",
+        "Inner Mongolia"
       ],
       "answer": "Tibet",
       "explanation": "Tibet (officially the Tibet Autonomous Region) has an average elevation of 4,500 meters — earning it the nickname 'Roof of the World.' The Potala Palace in Lhasa was the Dalai Lama's winter residence until China's 1959 invasion forced him into exile in India. Major rivers including the Yangtze, Mekong, and Brahmaputra originate on the Tibetan Plateau.",
@@ -122,10 +122,10 @@
       "category": "History",
       "question": "Which French emperor's military campaigns created a vast European empire but ended in defeat at Waterloo in 1815, following his failed invasion of Russia in 1812?",
       "options": [
-        "Napoleon Bonaparte",
-        "Louis XIV",
         "Charlemagne",
-        "Charles V"
+        "Charles V",
+        "Napoleon Bonaparte",
+        "Louis XIV"
       ],
       "answer": "Napoleon Bonaparte",
       "explanation": "Napoleon's 1812 invasion of Russia with 600,000 soldiers ended catastrophically — only about 100,000 survived the campaign. The harsh Russian winter, scorched-earth tactics, and the Russian decision not to sue for peace destroyed the Grande Armée. This fatally weakened Napoleon and led to the coalition that ultimately defeated him.",
@@ -135,10 +135,10 @@
       "category": "Pop Culture",
       "question": "Which Jamaican musician, known as the 'King of Reggae,' popularized reggae music worldwide with songs like 'No Woman, No Cry' and 'Redemption Song'?",
       "options": [
+        "Toots Hibbert",
         "Bob Marley",
-        "Burning Spear",
         "Jimmy Cliff",
-        "Toots Hibbert"
+        "Burning Spear"
       ],
       "answer": "Bob Marley",
       "explanation": "Bob Marley (1945-1981) recorded with The Wailers and became reggae's global ambassador. 'Legend' (1984 posthumous compilation) is the best-selling reggae album ever. He promoted Rastafari religion, which views Ethiopia's Emperor Haile Selassie as divine. He died of cancer at 36.",
@@ -148,10 +148,10 @@
       "category": "Sports",
       "question": "In the NBA, teams must attempt a field goal within how many seconds of gaining possession — a rule introduced in 1954 to prevent teams from stalling?",
       "options": [
-        "14 seconds",
-        "24 seconds",
         "30 seconds",
-        "45 seconds"
+        "24 seconds",
+        "45 seconds",
+        "14 seconds"
       ],
       "answer": "24 seconds",
       "explanation": "The NBA shot clock gives teams 24 seconds to attempt a field goal after gaining possession. Introduced in 1954 by Syracuse Nationals owner Danny Biasone, he calculated the number by dividing 48 minutes (game length in seconds: 2,880) by 120 (average shots in a game), arriving at 24. Before the shot clock, teams would stall for entire games, leading to extremely low-scoring contests. The rule transformed basketball into the fast-paced sport it is today. The NCAA uses 30 seconds.",

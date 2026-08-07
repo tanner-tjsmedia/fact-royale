@@ -5,9 +5,9 @@
       "category": "History",
       "question": "By 1914, the Scramble for Africa had resulted in nearly the entire continent being colonized. Which two African nations remained fully independent?",
       "options": [
-        "Egypt and Morocco",
         "Ethiopia and Liberia",
         "South Africa and Kenya",
+        "Egypt and Morocco",
         "Tunisia and Algeria"
       ],
       "answer": "Ethiopia and Liberia",
@@ -18,10 +18,10 @@
       "category": "History",
       "question": "Which country launched the first human into space in 1961?",
       "options": [
-        "China",
+        "Soviet Union",
         "USA",
-        "Britain",
-        "Soviet Union"
+        "China",
+        "Britain"
       ],
       "answer": "Soviet Union",
       "explanation": "Soviet cosmonaut Yuri Gagarin became the first human to travel to space on April 12, 1961, completing one orbit of Earth in 108 minutes aboard Vostok 1. His flight proved that humans could survive in space. The US sent its first astronaut (Alan Shepard) into space 23 days later, though only on a brief suborbital flight. Gagarin died in a training accident in 1968.",
@@ -33,8 +33,8 @@
       "options": [
         "The Black Death",
         "Gutenberg's printing press",
-        "The fall of Constantinople",
-        "Columbus reaching America"
+        "Columbus reaching America",
+        "The fall of Constantinople"
       ],
       "answer": "The fall of Constantinople",
       "explanation": "1453 was remarkable for two world-changing events: the end of the Hundred Years War and the fall of Constantinople to the Ottoman Turks (May 29, 1453). The fall of Constantinople ended the Byzantine Empire (Eastern Roman Empire) and shifted the balance of power in Europe and the Middle East. Many historians consider it the symbolic end of the Middle Ages.",
@@ -59,8 +59,8 @@
       "options": [
         "Tanzania",
         "Kenya",
-        "Uganda",
-        "Ethiopia"
+        "Ethiopia",
+        "Uganda"
       ],
       "answer": "Tanzania",
       "explanation": "Mount Kilimanjaro is located in northeastern Tanzania, near the Kenyan border. The Serengeti National Park, famous for the annual Great Migration of wildebeest and zebras, is also in Tanzania. The country also contains Zanzibar and part of Lake Victoria, Africa's largest lake.",
@@ -72,8 +72,8 @@
       "options": [
         "20",
         "25",
-        "30",
-        "35"
+        "35",
+        "30"
       ],
       "answer": "30",
       "explanation": "The maximum score in a single bowling frame is 30 points, achieved by rolling three consecutive strikes beginning in that frame (or having three strikes in the 10th frame). In the 10th (final) frame, a bowler who gets a strike is allowed two additional rolls. Three strikes in the 10th frame equals 30 points for that frame. This is how a perfect 300 game is built — 10 frames of 30.",
@@ -96,9 +96,9 @@
       "category": "Pop Culture",
       "question": "Which 2014 Marvel film surprised critics and audiences to become a massive hit, featuring a talking raccoon and a living tree?",
       "options": [
-        "Ant-Man",
-        "Thor: The Dark World",
         "Doctor Strange",
+        "Thor: The Dark World",
+        "Ant-Man",
         "Guardians of the Galaxy"
       ],
       "answer": "Guardians of the Galaxy",
@@ -109,10 +109,10 @@
       "category": "Pop Culture",
       "question": "'Bohemian Rhapsody,' the biographical film about Freddie Mercury and Queen, won how many Academy Awards in 2019?",
       "options": [
-        "1",
-        "2",
         "4",
-        "6"
+        "6",
+        "2",
+        "1"
       ],
       "answer": "4",
       "explanation": "Bohemian Rhapsody won four Academy Awards at the 91st Academy Awards in 2019: Best Film Editing, Best Sound Editing, Best Sound Mixing, and Best Actor (Rami Malek as Freddie Mercury). Despite mixed critical reception, the film was a massive box office success, earning over $900 million worldwide. Rami Malek's transformation into Freddie Mercury was widely praised.",
@@ -122,10 +122,10 @@
       "category": "Geography",
       "question": "The Sahara Desert covers approximately what percentage of Africa?",
       "options": [
-        "15%",
-        "25%",
         "30%",
-        "40%"
+        "25%",
+        "40%",
+        "15%"
       ],
       "answer": "25%",
       "explanation": "The Sahara Desert covers approximately 9.2 million square kilometers, making up about 25-30% of Africa's total land area of about 30.4 million square kilometers. Despite its enormous size, the Sahara is sparsely populated — fewer than 2.5 million people live there, mostly in oasis settlements. About 25% of the Sahara is sand (ergs); the rest is rocky desert (hamada) and gravel plains.",
@@ -135,10 +135,10 @@
       "category": "Science & Nature",
       "question": "What is the term for the minimum amount of energy needed to start a chemical reaction?",
       "options": [
-        "Kinetic energy",
         "Free energy",
         "Entropy",
-        "Activation energy"
+        "Activation energy",
+        "Kinetic energy"
       ],
       "answer": "Activation energy",
       "explanation": "Activation energy is the minimum energy required to initiate a chemical reaction. Even reactions that release energy (exothermic) need an initial input of activation energy to get started — like how you need to light a match to start a fire. Catalysts (including enzymes in living organisms) work by lowering the activation energy needed, allowing reactions to proceed at lower temperatures or more quickly.",
@@ -148,10 +148,10 @@
       "category": "Science & Nature",
       "question": "What do enzymes do in biological systems, and what happens to enzyme function when temperature gets too high?",
       "options": [
-        "They store energy; high temperature makes them more efficient",
         "They break down cell walls; high temperature makes them stronger",
-        "They are biological catalysts that speed up chemical reactions; excessive heat denatures them, destroying their function",
-        "They carry oxygen; high temperature increases oxygen-carrying capacity"
+        "They carry oxygen; high temperature increases oxygen-carrying capacity",
+        "They store energy; high temperature makes them more efficient",
+        "They are biological catalysts that speed up chemical reactions; excessive heat denatures them, destroying their function"
       ],
       "answer": "They are biological catalysts that speed up chemical reactions; excessive heat denatures them, destroying their function",
       "explanation": "Enzymes are proteins that act as biological catalysts — they speed up specific chemical reactions in living organisms without being consumed. Each enzyme has an active site that fits a specific substrate (lock-and-key model). Enzymes operate optimally at specific temperature and pH ranges. When temperature rises too high (or pH changes too much), the protein unfolds (denatures) and loses its shape — permanently destroying function. This is why a fever above 41°C (106°F) is dangerous: it denatures enzymes essential for metabolism.",

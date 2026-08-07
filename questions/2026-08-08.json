@@ -5,10 +5,10 @@
       "category": "History",
       "question": "Which war was ended by the Treaty of Appomattox Court House in 1865, where Confederate General Robert E. Lee surrendered?",
       "options": [
+        "Spanish-American War",
         "War of 1812",
         "Mexican-American War",
-        "American Civil War",
-        "Spanish-American War"
+        "American Civil War"
       ],
       "answer": "American Civil War",
       "explanation": "General Robert E. Lee surrendered to Union General Ulysses S. Grant at Appomattox Court House, Virginia, on April 9, 1865, effectively ending the American Civil War (1861-1865). The war was fought between the Northern states (Union) and Southern states (Confederacy) primarily over slavery and states' rights. About 620,000 soldiers died — more than in any other American conflict. Lincoln was assassinated just five days after Lee's surrender.",
@@ -18,10 +18,10 @@
       "category": "History",
       "question": "The Warsaw Pact, a military alliance of communist nations, was formed in 1955 as a response to which Western alliance?",
       "options": [
-        "NATO",
-        "SEATO",
         "CENTO",
-        "G7"
+        "G7",
+        "SEATO",
+        "NATO"
       ],
       "answer": "NATO",
       "explanation": "The Warsaw Pact (formally the Treaty of Friendship, Cooperation and Mutual Assistance) was formed in May 1955 by the Soviet Union and seven Eastern European communist states, largely in response to West Germany joining NATO. It bound its members to mutual defense and Soviet military leadership. The Pact effectively kept Eastern Europe under Soviet military dominance until it dissolved in 1991 after the fall of communism.",
@@ -31,10 +31,10 @@
       "category": "History",
       "question": "Which African country was formerly known as Abyssinia?",
       "options": [
-        "Sudan",
-        "Somalia",
         "Kenya",
-        "Ethiopia"
+        "Sudan",
+        "Ethiopia",
+        "Somalia"
       ],
       "answer": "Ethiopia",
       "explanation": "Ethiopia was known as Abyssinia for centuries before gradually transitioning to its current name. It is one of the oldest nations in the world, with a history dating back over 3,000 years. Ethiopia is the only African country that was never colonized (it briefly endured Italian occupation 1936-1941 but was never fully subjugated). Its ancient Christian church, the Ethiopian Orthodox Tewahedo Church, traces its origins to the 4th century AD.",
@@ -45,8 +45,8 @@
       "question": "At the 2008 Beijing Olympics, which sprinter set a world record in the 100m, finishing in 9.69 seconds?",
       "options": [
         "Carl Lewis",
-        "Maurice Greene",
         "Donovan Bailey",
+        "Maurice Greene",
         "Usain Bolt"
       ],
       "answer": "Usain Bolt",
@@ -57,10 +57,10 @@
       "category": "Sports",
       "question": "In which sport do athletes compete for the Ashes trophy?",
       "options": [
-        "Rugby",
         "Cricket",
         "Golf",
-        "Tennis"
+        "Tennis",
+        "Rugby"
       ],
       "answer": "Cricket",
       "explanation": "The Ashes is a Test cricket series played between England and Australia, with the trophy being a small urn containing the ashes of a burnt cricket bail. The series began in 1882 after Australia beat England in England for the first time. A mock obituary declared that English cricket had 'died' and its 'ashes' were taken to Australia. The two countries have competed for the symbolic urn ever since.",
@@ -71,9 +71,9 @@
       "question": "Which DreamWorks animated film, released in 2001, follows a green ogre who goes on a quest to rescue Princess Fiona from a dragon-guarded castle, accompanied by a fast-talking Donkey?",
       "options": [
         "Shrek",
+        "Kung Fu Panda",
         "Antz",
-        "Monsters, Inc.",
-        "Kung Fu Panda"
+        "Monsters, Inc."
       ],
       "answer": "Shrek",
       "explanation": "Shrek (2001), directed by Andrew Adamson and Vicky Jenson, was DreamWorks Animation's breakthrough hit. It won the first-ever Academy Award for Best Animated Feature. Mike Myers voiced Shrek, Eddie Murphy voiced Donkey, and Cameron Diaz voiced Princess Fiona. Its irreverent humor and fairy-tale parody spawned three sequels.",
@@ -83,10 +83,10 @@
       "category": "Pop Culture",
       "question": "Which 1999 film directed by the Wachowski siblings featured Keanu Reeves discovering that reality is a simulation?",
       "options": [
-        "Dark City",
+        "The Matrix",
         "Existenz",
-        "Strange Days",
-        "The Matrix"
+        "Dark City",
+        "Strange Days"
       ],
       "answer": "The Matrix",
       "explanation": "The Matrix (1999) starred Keanu Reeves as Neo, a hacker who discovers that human reality is a computer simulation created by machines. The film pioneered 'bullet time' special effects and became a cultural phenomenon. It won four Academy Awards and grossed $463 million. Its philosophical questions about reality and free will have made it a staple of philosophy courses.",
@@ -96,10 +96,10 @@
       "category": "Pop Culture",
       "question": "Which musician has the most number-one hits on the Billboard Hot 100, with 42 as of 2024?",
       "options": [
-        "Madonna",
         "Michael Jackson",
-        "Mariah Carey",
-        "Taylor Swift"
+        "Madonna",
+        "Taylor Swift",
+        "Mariah Carey"
       ],
       "answer": "Mariah Carey",
       "explanation": "Mariah Carey holds the record for the most number-one singles on the Billboard Hot 100, with 19 number-one songs as her sole or co-credited artist (42 total if counting her songwriting contributions). Her vocal range of five octaves is legendary. 'All I Want for Christmas Is You' (1994) has become a perennial holiday chart-topper, re-entering the top 10 annually for 30 years.",
@@ -109,10 +109,10 @@
       "category": "Geography",
       "question": "Which country is home to Angkor Wat, the world's largest religious monument?",
       "options": [
-        "Thailand",
+        "Cambodia",
         "Vietnam",
-        "Laos",
-        "Cambodia"
+        "Thailand",
+        "Laos"
       ],
       "answer": "Cambodia",
       "explanation": "Angkor Wat is a temple complex in Siem Reap, Cambodia, built in the 12th century by the Khmer Empire under King Suryavarman II. At roughly 163 hectares, it is the world's largest religious monument. Originally built as a Hindu temple dedicated to Vishnu, it was later converted to Buddhism. The image of Angkor Wat appears on the Cambodian national flag.",
@@ -120,14 +120,14 @@
     },
     {
       "category": "Science & Nature",
-      "question": "In 1924, Edwin Hubble used Cepheid variable stars to prove that the 'Andromeda Nebula' was actually a separate galaxy far outside the Milky Way. Why were Cepheids the key?",
+      "question": "In 1924 Edwin Hubble used Cepheid variable stars to prove Andromeda lies outside the Milky Way. Why did Cepheids work?",
       "options": [
-        "Cepheid variables are stars that change temperature in a predictable cycle, and their temperature-color relationship allowed Hubble to calculate their distance using spectroscopy alone",
-        "Cepheid variables pulsate with a period directly linked to their intrinsic luminosity — so comparing their apparent brightness to their known true brightness yields their precise distance",
-        "Cepheid variables are always found in clusters of exactly 10,000 stars, and counting the cluster members allows astronomers to calculate the cluster's distance from their angular spread on the sky",
-        "Cepheid variables emit distinctive X-rays that travel at a different speed from visible light, creating a time-delay signal that allows distance calculation by measuring the light-speed lag"
+        "They always cluster in groups of exactly 10,000 stars",
+        "Their X-rays lag visible light, revealing the distance",
+        "Their pulse period reveals true brightness, so distance",
+        "Their color-temperature cycle gives distance by spectroscopy"
       ],
-      "answer": "Cepheid variables pulsate with a period directly linked to their intrinsic luminosity — so comparing their apparent brightness to their known true brightness yields their precise distance",
+      "answer": "Their pulse period reveals true brightness, so distance",
       "explanation": "Henrietta Swan Leavitt discovered the period-luminosity relationship of Cepheids in 1908 by studying variable stars in the Small Magellanic Cloud — if you know a Cepheid's pulsation period, you know how intrinsically bright it is. Hubble found Cepheids in Andromeda and calculated they were about 900,000 light-years away (modern measurements: 2.5 million), far beyond the Milky Way's boundary. This settled the 'Great Debate' of 1920 and transformed our understanding of the universe's scale. Leavitt's contribution is often uncredited — she was a Harvard 'computer' (a human calculator) barred from operating telescopes.",
       "memory_hook": "Henrietta Leavitt — a Harvard 'computer' barred from using telescopes — discovered the key to measuring cosmic distances: Cepheid variable stars' pulsation period reveals their true brightness. Hubble used her discovery in 1924 to prove Andromeda was a separate galaxy, expanding the known universe by a factor of millions."
     },
@@ -135,9 +135,9 @@
       "category": "Geography",
       "question": "The Azores, a Portuguese autonomous archipelago of nine islands known for volcanic landscape and whale watching, lies in which ocean?",
       "options": [
-        "Indian Ocean",
         "Mediterranean Sea",
         "Pacific Ocean",
+        "Indian Ocean",
         "Atlantic Ocean"
       ],
       "answer": "Atlantic Ocean",
@@ -148,10 +148,10 @@
       "category": "Science & Nature",
       "question": "How do bacteria reproduce — what is the simple division process that allows them to double in number roughly every 20 minutes under ideal conditions?",
       "options": [
-        "Budding",
+        "Sporulation",
         "Mitosis",
         "Binary fission",
-        "Sporulation"
+        "Budding"
       ],
       "answer": "Binary fission",
       "explanation": "Binary fission is the primary reproductive method of bacteria: a single bacterium replicates its DNA, grows in size, and splits into two genetically identical daughter cells. Under ideal conditions (warmth, nutrients, moisture), E. coli can divide every 20 minutes, meaning a single cell becomes 1 billion in just 10 hours. This rapid reproduction is both what makes bacterial infections dangerous and what allows beneficial bacteria (in fermentation, pharmaceuticals) to be so productive. Mutations during copying introduce genetic variation.",

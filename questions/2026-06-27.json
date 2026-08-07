@@ -4,9 +4,9 @@
       "category": "History",
       "question": "Which ancient wonder was located in Alexandria, Egypt?",
       "options": [
-        "The Library of Alexandria",
-        "The Lighthouse of Alexandria",
         "The Colossus of Rhodes",
+        "The Lighthouse of Alexandria",
+        "The Library of Alexandria",
         "The Temple of Artemis"
       ],
       "answer": "The Lighthouse of Alexandria",
@@ -17,10 +17,10 @@
       "category": "History",
       "question": "What year did the Berlin Wall fall?",
       "options": [
-        "1987",
         "1989",
-        "1991",
-        "1993"
+        "1987",
+        "1993",
+        "1991"
       ],
       "answer": "1989",
       "explanation": "The Berlin Wall fell on November 9, 1989, after East Germany announced that its citizens could cross the border freely. It had divided East and West Berlin since 1961.",
@@ -31,34 +31,34 @@
       "question": "Which tiny European republic, entirely surrounded by Italy and claiming to be founded in 301 AD, is considered the world's oldest surviving republic?",
       "options": [
         "Monaco",
-        "Andorra",
         "San Marino",
-        "Liechtenstein"
+        "Liechtenstein",
+        "Andorra"
       ],
       "answer": "San Marino",
       "explanation": "San Marino claims to be the world's oldest republic, traditionally founded in 301 AD. Entirely surrounded by Italy, it sits atop Mount Titano and covers just 61 square kilometers. Unlike most tiny European states, it is a full republic — two Captains Regent serve simultaneously as co-heads of state for six-month terms, a system dating back to the 13th century. San Marino has avoided most European wars by maintaining strict neutrality.",
       "memory_hook": "San Marino: oldest republic (301 AD), inside Italy on Mount Titano. Two Captains Regent rule together, each for six months. Tiny country, ancient democracy."
     },
     {
-      "category": "Sports",
-      "question": "How many rings are on the Olympic flag?",
+      "category": "History",
+      "question": "The Rosetta Stone, found in 1799, unlocked Egyptian hieroglyphs. What made it the key?",
       "options": [
-        "4",
-        "5",
-        "6",
-        "7"
+        "It carried the same decree in Greek and two Egyptian scripts",
+        "It listed every pharaoh's name in chronological order",
+        "It contained a written alphabet chart made for scribes",
+        "It was the only hieroglyphic text ever found fully intact"
       ],
-      "answer": "5",
-      "explanation": "The five interlocking rings on the Olympic flag represent the five continents of the world united by the Olympic movement. The colors — blue, yellow, black, green, and red — include at least one color from every national flag.",
-      "memory_hook": "Five fingers, five continents, five rings."
+      "answer": "It carried the same decree in Greek and two Egyptian scripts",
+      "explanation": "The stone records a 196 BC decree of Ptolemy V in three scripts: hieroglyphic, Demotic, and ancient Greek. Because scholars could already read Greek, the Greek section functioned as a crib for the other two. Jean-Francois Champollion completed the decipherment in 1822, realizing hieroglyphs were not purely symbolic but encoded sounds as well. French soldiers found the stone near Rashid (Rosetta); the British took it after defeating Napoleon in Egypt, and it has been in the British Museum since 1802.",
+      "memory_hook": "The Rosetta Stone says the same thing three times: hieroglyphs, Demotic, and Greek. Scholars could read the Greek, so it worked as an answer key. Champollion cracked it in 1822 by realizing hieroglyphs encode sounds, not just ideas. Found by the French, taken by the British, in London ever since."
     },
     {
       "category": "Sports",
       "question": "In which sport would you perform a 'slam dunk'?",
       "options": [
-        "Volleyball",
-        "Water polo",
         "Basketball",
+        "Water polo",
+        "Volleyball",
         "Handball"
       ],
       "answer": "Basketball",
@@ -69,10 +69,10 @@
       "category": "Sports",
       "question": "What country has won the most FIFA World Cup titles?",
       "options": [
-        "Germany",
-        "Argentina",
         "Italy",
-        "Brazil"
+        "Brazil",
+        "Germany",
+        "Argentina"
       ],
       "answer": "Brazil",
       "explanation": "Brazil has won the FIFA World Cup five times (1958, 1962, 1970, 1994, 2002), more than any other nation. They are the only country to have played in every World Cup tournament.",
@@ -82,10 +82,10 @@
       "category": "Pop Culture",
       "question": "Which film features the song 'Somewhere Over the Rainbow'?",
       "options": [
-        "Snow White",
         "Cinderella",
         "The Wizard of Oz",
-        "Fantasia"
+        "Fantasia",
+        "Snow White"
       ],
       "answer": "The Wizard of Oz",
       "explanation": "'Somewhere Over the Rainbow' was performed by Judy Garland as Dorothy in the 1939 film The Wizard of Oz. It was voted the greatest song of the 20th century by the Recording Industry Association of America.",
@@ -97,8 +97,8 @@
       "options": [
         "That fine art should be made inaccessible to ordinary people to preserve its spiritual value",
         "That the boundary between high art and commercial imagery was artificial — mass-produced consumer goods (Campbell's soup, Brillo boxes, celebrity photos) were as worthy of artistic attention as any subject",
-        "That photography had rendered painting obsolete, and artists should focus entirely on film and television",
-        "That art's only legitimate subject was political protest, and anything else was complicity with capitalism"
+        "That art's only legitimate subject was political protest, and anything else was complicity with capitalism",
+        "That photography had rendered painting obsolete, and artists should focus entirely on film and television"
       ],
       "answer": "That the boundary between high art and commercial imagery was artificial — mass-produced consumer goods (Campbell's soup, Brillo boxes, celebrity photos) were as worthy of artistic attention as any subject",
       "explanation": "Warhol's Pop Art deliberately blurred the line between fine art and commercial mass production — his silkscreened Marilyn Monroe portraits, Campbell's Soup Cans, and Coca-Cola bottles asked whether a painting of a consumer product was fundamentally different from the product itself. His Factory attracted artists, musicians, and socialites, and he produced films, music management (The Velvet Underground), and magazines alongside his visual art. 'In the future, everyone will be world-famous for 15 minutes.'",
@@ -108,10 +108,10 @@
       "category": "Pop Culture",
       "question": "Which band released the album 'Abbey Road'?",
       "options": [
-        "The Rolling Stones",
-        "The Who",
         "Led Zeppelin",
-        "The Beatles"
+        "The Beatles",
+        "The Rolling Stones",
+        "The Who"
       ],
       "answer": "The Beatles",
       "explanation": "Abbey Road was released by The Beatles in September 1969. The iconic cover photo of the four band members crossing Abbey Road became one of the most imitated images in music history.",
@@ -121,10 +121,10 @@
       "category": "Science & Nature",
       "question": "In chemistry, what is the name for a solution that resists significant changes to its pH when small amounts of acid or base are added?",
       "options": [
-        "Catalyst",
-        "Buffer",
         "Solvent",
-        "Alloy"
+        "Alloy",
+        "Buffer",
+        "Catalyst"
       ],
       "answer": "Buffer",
       "explanation": "A buffer solution maintains a relatively stable pH when small amounts of acid or base are added. Buffers work because they contain a weak acid and its conjugate base, which absorb added ions. Blood is one of nature's most critical buffers, maintaining a pH between 7.35 and 7.45 — a shift of just 0.5 units in either direction can be life-threatening. Carbonic acid and bicarbonate ions keep blood pH stable.",
@@ -134,10 +134,10 @@
       "category": "Geography",
       "question": "Which is the world's smallest country by area?",
       "options": [
-        "Monaco",
-        "San Marino",
+        "Vatican City",
         "Liechtenstein",
-        "Vatican City"
+        "Monaco",
+        "San Marino"
       ],
       "answer": "Vatican City",
       "explanation": "Vatican City covers just 0.44 square kilometers, located entirely within Rome, Italy. It is the headquarters of the Roman Catholic Church and home to the Pope. Despite its tiny size, it has its own government, currency, passport, radio station, and newspaper.",
@@ -147,9 +147,9 @@
       "category": "Science & Nature",
       "question": "The Hubble Space Telescope, launched in 1990, was initially a near-catastrophic failure before becoming one of science's greatest instruments. What went wrong — and how was it fixed?",
       "options": [
-        "Hubble's solar panels failed to deploy correctly, leaving it without power for 18 months until a repair mission restored them and pointed the telescope toward the Sun",
-        "Hubble's primary mirror was polished to the wrong shape — off by just 2.2 micrometers — creating blurry images; astronauts installed corrective optics in a 1993 spacewalk that saved the mission",
         "Hubble's initial orbit was too low, causing it to plunge through Earth's upper atmosphere and degrade; thrusters were fired to boost its orbit to a stable altitude in 1991",
+        "Hubble's primary mirror was polished to the wrong shape — off by just 2.2 micrometers — creating blurry images; astronauts installed corrective optics in a 1993 spacewalk that saved the mission",
+        "Hubble's solar panels failed to deploy correctly, leaving it without power for 18 months until a repair mission restored them and pointed the telescope toward the Sun",
         "Hubble's camera was installed backwards by ground engineers, capturing only star images from behind the telescope; a crew rotated it to face forward during a 1992 servicing mission"
       ],
       "answer": "Hubble's primary mirror was polished to the wrong shape — off by just 2.2 micrometers — creating blurry images; astronauts installed corrective optics in a 1993 spacewalk that saved the mission",

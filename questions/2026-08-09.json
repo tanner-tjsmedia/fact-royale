@@ -5,10 +5,10 @@
       "category": "History",
       "question": "Which empire built the Taj Mahal in India?",
       "options": [
-        "British Empire",
         "Ottoman Empire",
         "Mughal Empire",
-        "Persian Empire"
+        "Persian Empire",
+        "British Empire"
       ],
       "answer": "Mughal Empire",
       "explanation": "The Taj Mahal was commissioned by Mughal Emperor Shah Jahan in 1632 as a mausoleum for his beloved wife Mumtaz Mahal, who died during childbirth. It took approximately 22 years and 20,000 workers to complete. The white marble structure in Agra, India, is considered the greatest example of Mughal architecture and one of the New Seven Wonders of the World.",
@@ -18,10 +18,10 @@
       "category": "History",
       "question": "The first telephone call in history was made by Alexander Graham Bell in 1876. What were his first words?",
       "options": [
-        "Hello, can you hear me?",
         "Watson, I need you.",
+        "Speak and I shall hear.",
         "Mr. Watson, come here. I want to see you.",
-        "Speak and I shall hear."
+        "Hello, can you hear me?"
       ],
       "answer": "Mr. Watson, come here. I want to see you.",
       "explanation": "Alexander Graham Bell made the first successful telephone call on March 10, 1876, saying 'Mr. Watson, come here. I want to see you.' to his assistant Thomas Watson, who was in the next room. Bell had received his patent for the telephone just three days earlier. The telephone transformed human communication more than any invention since writing.",
@@ -31,10 +31,10 @@
       "category": "History",
       "question": "What Afrikaans-derived word names the system of institutionalized racial segregation enforced by the South African government from 1948 until its repeal in the early 1990s?",
       "options": [
+        "Verwoerdism",
         "Bantustanism",
         "Apartheid",
-        "Segregationism",
-        "Verwoerdism"
+        "Segregationism"
       ],
       "answer": "Apartheid",
       "explanation": "Apartheid — Afrikaans for 'separateness' — was a system of racial segregation in South Africa enforced through legislation from 1948 to 1991. It classified citizens by race and restricted where they could live, work, and travel. Nelson Mandela spent 27 years in prison for opposing it.",
@@ -44,10 +44,10 @@
       "category": "Sports",
       "question": "What is the term in baseball for a batter being hit by a pitched ball?",
       "options": [
+        "Intentional walk",
         "Dead ball",
-        "Hit by pitch",
         "Strike",
-        "Intentional walk"
+        "Hit by pitch"
       ],
       "answer": "Hit by pitch",
       "explanation": "'Hit by pitch' (HBP) occurs when a pitched ball strikes the batter without the batter swinging, awarding the batter first base. The batter must make an attempt to avoid being hit — if they deliberately lean into the pitch, it can be ruled a non-event. It is abbreviated HBP or HP in scoring. Being hit by a fastball traveling 95+ mph is painful regardless of padded batting gloves.",
@@ -57,8 +57,8 @@
       "category": "Sports",
       "question": "How long is a marathon running race?",
       "options": [
-        "26 miles 385 yards",
         "25 miles",
+        "26 miles 385 yards",
         "26 kilometers",
         "42 kilometers"
       ],
@@ -70,10 +70,10 @@
       "category": "Pop Culture",
       "question": "Which legendary filmmaker directed 2001: A Space Odyssey (1968) and The Shining (1980)?",
       "options": [
+        "Stanley Kubrick",
         "Ridley Scott",
         "Roman Polanski",
-        "Brian De Palma",
-        "Stanley Kubrick"
+        "Brian De Palma"
       ],
       "answer": "Stanley Kubrick",
       "explanation": "Stanley Kubrick is one of cinema's most celebrated auteurs, directing films across multiple genres including Dr. Strangelove, 2001: A Space Odyssey, A Clockwork Orange, Barry Lyndon, The Shining, Full Metal Jacket, and Eyes Wide Shut. He was known for extreme perfectionism — some takes ran into the hundreds. He died in 1999, just days after showing his final cut of Eyes Wide Shut to Warner Bros.",
@@ -83,9 +83,9 @@
       "category": "Pop Culture",
       "question": "'Smells Like Teen Spirit' by Nirvana became the anthem of which musical movement?",
       "options": [
+        "Grunge",
         "Punk revival",
         "Hair metal",
-        "Grunge",
         "Britpop"
       ],
       "answer": "Grunge",
@@ -94,14 +94,14 @@
     },
     {
       "category": "Pop Culture",
-      "question": "True Detective Season 1 (HBO, 2014), starring Matthew McConaughey and Woody Harrelson, is considered a landmark of prestige TV. What distinguished it narratively and thematically?",
+      "question": "True Detective Season 1 (HBO, 2014) is considered a landmark of prestige TV. What defined it narratively?",
       "options": [
-        "It was the first TV drama to be written entirely by one author in a single creative session — Nic Pizzolatto wrote all 8 episodes in 6 weeks, giving it an unusually unified philosophical voice",
-        "Its nonlinear structure alternated between a 1995 murder investigation and a 2012 interrogation of the same detectives — gradually revealing that the investigators themselves are as unreliable as their suspects, against a backdrop of Louisiana gothic horror",
-        "It featured the first major TV performance delivered entirely through improvisation — McConaughey's Rust Cohle had no scripted lines, working only from character notes and improvising in response to Harrelson",
-        "It pioneered the anthology format for premium TV — the first series to use entirely new characters, setting, and story each season while keeping the same title"
+        "McConaughey improvised every line with no script",
+        "It invented the premium-TV anthology format",
+        "Two timelines, 1995 and 2012, with unreliable detectives",
+        "All eight episodes written in a single six-week burst"
       ],
-      "answer": "Its nonlinear structure alternated between a 1995 murder investigation and a 2012 interrogation of the same detectives — gradually revealing that the investigators themselves are as unreliable as their suspects, against a backdrop of Louisiana gothic horror",
+      "answer": "Two timelines, 1995 and 2012, with unreliable detectives",
       "explanation": "True Detective Season 1 used a double-timeline structure that made the viewer simultaneously live through the investigation in 1995 and interrogate the investigators' memories in 2012 — raising the question of what really happened and what was invented in retrospect. McConaughey's Rust Cohle delivered bleak philosophical monologues that became cultural touchstones ('Time is a flat circle'). Director Cary Fukunaga shot the entire season, giving it visual coherence rare in TV. The 6-minute tracking shot through a housing project in Episode 4 remains one of TV's most technically acclaimed sequences.",
       "memory_hook": "True Detective's genius was its double timeline — watching 2012 detectives interrogate their 1995 selves made both the suspects and the investigators unreliable. Episode 4's unbroken 6-minute tracking shot through a drug den is still one of TV's most cited set pieces."
     },
@@ -109,8 +109,8 @@
       "category": "Geography",
       "question": "Lake Titicaca, the highest navigable lake in the world, sits on the border of which two countries?",
       "options": [
-        "Ecuador and Colombia",
         "Argentina and Chile",
+        "Ecuador and Colombia",
         "Chile and Bolivia",
         "Peru and Bolivia"
       ],
@@ -122,10 +122,10 @@
       "category": "Science & Nature",
       "question": "What is the name for the protective ozone layer primarily made of?",
       "options": [
-        "Oxygen molecules O2",
+        "Nitrogen",
         "Ozone molecules O3",
-        "Carbon dioxide",
-        "Nitrogen"
+        "Oxygen molecules O2",
+        "Carbon dioxide"
       ],
       "answer": "Ozone molecules O3",
       "explanation": "The ozone layer is made up of ozone molecules, each consisting of three oxygen atoms (O3). Normal atmospheric oxygen has two atoms (O2). Ozone is created when UV radiation splits O2 molecules, and the free oxygen atoms bond with other O2 molecules. The ozone layer absorbs most of the Sun's UV-B and UV-C radiation, protecting life on Earth from DNA damage and skin cancer.",
@@ -135,10 +135,10 @@
       "category": "Geography",
       "question": "The Carpathian Mountains form a curved arc through eight Central and Eastern European countries. Which of these countries is NOT part of the Carpathians?",
       "options": [
-        "Poland",
+        "Spain",
         "Czech Republic",
         "Romania",
-        "Spain"
+        "Poland"
       ],
       "answer": "Spain",
       "explanation": "The Carpathian Mountains form a 1,500 km arc through Czech Republic, Slovakia, Poland, Ukraine, Romania, Hungary, Serbia, and Austria. Romania contains the largest portion (the Transylvanian Alps are part of the Carpathians). The range is home to Europe's largest population of brown bears, wolves, lynx, and European bison. Bram Stoker set Dracula's castle in the Carpathians, in Transylvania, Romania.",
@@ -148,10 +148,10 @@
       "category": "Science & Nature",
       "question": "What is the term for atoms of the same element with different numbers of neutrons — some of which are stable and some radioactive?",
       "options": [
-        "Allotropes",
-        "Ions",
         "Isotopes",
-        "Polymorphs"
+        "Polymorphs",
+        "Ions",
+        "Allotropes"
       ],
       "answer": "Isotopes",
       "explanation": "Isotopes are atoms of the same element (same number of protons) with different numbers of neutrons. Carbon-12 (stable) and carbon-14 (radioactive, used in dating) are both carbon isotopes. Hydrogen has three isotopes: protium (no neutrons), deuterium (1 neutron), and tritium (2 neutrons, radioactive). Medical imaging uses radioactive isotopes: iodine-131 for thyroid treatment; technetium-99m for PET scans. The mass number of an isotope = protons + neutrons.",
