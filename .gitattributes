@@ -1,0 +1,15 @@
+# Keep line endings stable across Git Bash on Windows and the Linux tooling.
+# Without this, Git rewrites checked-out files to CRLF while the scripts that
+# generate them write LF, so every file shows as modified on every session
+# and real diffs get buried in noise.
+
+* text=auto eol=lf
+
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.woff binary
+*.woff2 binary
+*.pdf binary
