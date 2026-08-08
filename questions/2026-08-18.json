@@ -104,12 +104,8 @@
       "answer": "The first woman nominated for the award twice",
       "explanation": "Campion had been nominated for The Piano in 1994, and the second nomination in 2022 made her the first woman nominated twice for directing. Only three women have won the award. The Piano had also won her the Palme d'Or in 1993, making her the first woman to take it; Julia Ducournau won for Titane in 2021 and Justine Triet for Anatomy of a Fall in 2023, the only others to date. The Power of the Dog was shot in New Zealand standing in for 1925 Montana.",
       "memory_hook": "Campion was nominated for The Piano in 1994, and this made her the first woman nominated twice for directing. Only three women have ever won it. The Piano also made her the first woman to take the Palme d'Or, in 1993, with only Julia Ducournau and Justine Triet following since. This was shot in New Zealand playing 1925 Montana.",
-      "sources": [
-        {
-          "claim": "Three women have won the Palme d'Or: Campion 1993, Ducournau 2021, Triet 2023",
-          "source": "https://deadline.com/2023/05/cannes-film-festival-winners-2023-full-list-1235381713/",
-          "checked": "2026-08-08"
-        }
+      "sourceRefs": [
+        "palme-dor-women"
       ]
     },
     {

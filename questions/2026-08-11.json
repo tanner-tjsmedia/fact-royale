@@ -11,8 +11,13 @@
         "By inheritance within a handful of old families"
       ],
       "answer": "By lottery, on the principle that anyone could serve",
-      "explanation": "Most Athenian offices were filled by sortition, random selection from eligible citizens, because election was considered aristocratic: it favours the wealthy and well-known. Only roles needing specific expertise, notably the ten generals, were elected. Officials served short terms and faced audit afterward. The system rested on the belief that ordinary citizens were competent to govern, which is close to the opposite of what modern democracies assume.",
-      "memory_hook": "Athens filled most offices by lottery, not election, because they thought voting favoured the rich and famous. Only jobs needing real expertise, like the generals, were elected. Short terms, audits afterward. They assumed ordinary people could govern, which is nearly the reverse of how we do it."
+      "explanation": "Most Athenian offices were filled by sortition, random selection from eligible citizens, because election was considered aristocratic: it favours the wealthy and the well known. The archons went to the lot from 487-486 BC, as did the Council of Five Hundred and the juries. Only roles needing specific expertise, notably the ten generals, stayed elected. Every official faced a vetting before taking office, the dokimasia, and an audit of his conduct afterwards, the euthyna. The system assumed ordinary citizens were competent to govern.",
+      "memory_hook": "Athens filled most offices by lottery, not election, because they thought voting favoured the rich and famous. Only jobs needing real expertise, like the generals, were elected. Short terms, audits afterward. They assumed ordinary people could govern, which is nearly the reverse of how we do it.",
+      "sourceRefs": [
+        "britannica-sortition",
+        "britannica-archon"
+      ],
+      "riskTier": "source"
     },
     {
       "category": "History",
@@ -24,8 +29,13 @@
         "A direct assault on the German headquarters in the city"
       ],
       "answer": "A Soviet counterattack encircled them from both flanks",
-      "explanation": "Operation Uranus in November 1942 struck the weaker Romanian and Hungarian armies guarding the German flanks rather than the Sixth Army itself, closing a ring around roughly 300,000 men in four days. Hitler forbade a breakout and promised resupply by air, which the Luftwaffe could not deliver. Around 91,000 surrendered in February 1943, and fewer than 6,000 ever came home.",
-      "memory_hook": "The Soviets did not attack the Germans head-on. Operation Uranus hit the weaker Romanian and Hungarian flanks and closed a ring around 300,000 men in four days. Hitler banned a breakout and promised air resupply that never came. 91,000 surrendered; under 6,000 made it home."
+      "explanation": "Operation Uranus in November 1942 struck the weaker Romanian and Hungarian armies guarding the German flanks rather than the Sixth Army itself, and closed a ring around roughly a quarter of a million Axis troops within days. Hitler forbade a breakout and promised resupply by air, which the Luftwaffe could not deliver at anything like the required scale. The remnant surrendered on 31 January and 2 February 1943. Around 91,000 went into Soviet captivity and fewer than 6,000 ever came home.",
+      "memory_hook": "The Soviets did not attack the Germans head-on. Operation Uranus hit the weaker Romanian and Hungarian flanks and closed a ring around 300,000 men in four days. Hitler banned a breakout and promised air resupply that never came. 91,000 surrendered; under 6,000 made it home.",
+      "sourceRefs": [
+        "britannica-operation-uranus",
+        "britannica-stalingrad"
+      ],
+      "riskTier": "source"
     },
     {
       "category": "History",
@@ -37,21 +47,31 @@
         "A survey of who owned what, so it could all be taxed"
       ],
       "answer": "A survey of who owned what, so it could all be taxed",
-      "explanation": "Commissioners visited every shire recording landholders, tenants, livestock, ploughs and mills, then sent a second team to verify the first. The detail was unprecedented in medieval Europe and it let the Crown tax accurately and settle ownership disputes left over from the conquest. Contemporaries named it Domesday because, like the Last Judgement, its verdict could not be appealed. It remained legally citable in English courts into the twentieth century.",
-      "memory_hook": "Commissioners recorded every landholder, tenant, plough and mill in England, then sent a second team to check the first. It let the Crown tax properly and settle conquest-era ownership fights. People called it Domesday because there was no appealing it, like the Last Judgement. Courts still cited it into the 1900s."
+      "explanation": "William wanted to know who held what land, who lived on it, what it was worth and therefore what he could tax. Seven or eight panels of commissioners worked separate groups of counties, holding sworn inquests in local courts and putting fixed questions to local men. Each property was assessed three times over: before the Conquest, when it was granted, and now. Contemporaries called it Domesday because, like the Last Judgement, its verdict could not be appealed. It is the oldest government record in the National Archives.",
+      "memory_hook": "Commissioners recorded every landholder, tenant, plough and mill in England, then sent a second team to check the first. It let the Crown tax properly and settle conquest-era ownership fights. People called it Domesday because there was no appealing it, like the Last Judgement. Courts still cited it into the 1900s.",
+      "sourceRefs": [
+        "nationalarchives-domesday",
+        "britannica-domesday"
+      ],
+      "riskTier": "source"
     },
     {
       "category": "Sports",
-      "question": "Jesse Owens and German long jumper Luz Long competed against each other at the 1936 Berlin Olympics. What happened between them?",
+      "question": "Jesse Owens and Luz Long's friendship at the 1936 Berlin Olympics is a famous story. Which part of it is disputed?",
       "options": [
-        "Long was later stripped of his silver for a foul",
-        "Long refused to compete and was arrested that night",
-        "Long advised Owens on his run-up, then lost to him",
-        "Long protested the result and demanded a rematch"
+        "That Long took the silver medal behind Owens",
+        "That the two men wrote to each other until Long died",
+        "That Long talked Owens through his qualifying fouls",
+        "That Long embraced Owens publicly after the final"
       ],
-      "answer": "Long advised Owens on his run-up, then lost to him",
-      "explanation": "Owens had fouled twice in qualifying and was close to elimination. Long, his main rival, suggested he move his takeoff mark back to leave margin for error. Owens qualified, went on to win gold, and Long took silver and congratulated him publicly in front of Hitler. They corresponded until Long was killed in Sicily in 1943. Owens later wrote that the friendship meant more to him than the medals.",
-      "memory_hook": "Owens had two fouls in qualifying and was nearly out. Luz Long, the man he was about to beat, told him to move his takeoff mark back. Owens qualified and won gold; Long took silver and congratulated him publicly in front of Hitler. They wrote to each other until Long died in Sicily in 1943."
+      "answer": "That Long talked Owens through his qualifying fouls",
+      "explanation": "Owens told the coaching story in a 1964 Bud Greenspan documentary: two fouls into qualifying, Long supposedly suggested he move his takeoff mark back a foot. Grantland Rice had binoculars on Owens through the whole round and never saw the two speak, and historian Tom Ecker says Owens told him in 1965 that they had not met until the competition ended. Owens's family still stands by his version. The silver medal, the embrace and the letters are all documented.",
+      "memory_hook": "The hug is on film. The advice is only ever in Owens's retelling, and he told it differently at different times.",
+      "sourceRefs": [
+        "npr-owens-long-myth",
+        "ecker-olympic-facts-fables"
+      ],
+      "riskTier": "source"
     },
     {
       "category": "Sports",
@@ -63,21 +83,31 @@
         "Twenty minutes of rest inside a medical tent"
       ],
       "answer": "Strychnine and brandy, given to him by his handlers",
-      "explanation": "Thomas Hicks was dosed twice with strychnine sulphate mixed with brandy, then a stimulant in small quantities, and finished hallucinating and barely able to walk. He had to be carried off and nearly died. The first man across the line, Fred Lorz, had ridden eleven miles in a car and was disqualified. Only fourteen of thirty-two starters finished, in dust, heat, and with a single water station on the course.",
-      "memory_hook": "Thomas Hicks was given strychnine and brandy twice by his own handlers, finished hallucinating, and nearly died. The first man to cross had ridden eleven miles in a car and was disqualified. Fourteen of thirty-two finished, in heat and dust, with one water stop on the whole course."
+      "explanation": "Thomas Hicks spent the last ten miles being fed egg whites, brandy and strychnine sulphate, then a legal stimulant, by his own handlers. He finished hallucinating and was effectively carried over the line. The first man across, Fred Lorz, had ridden much of the course in a car and was disqualified. Of 32 starters from seven nations, only 14 finished, in dust and heat with a single water station on the route.",
+      "memory_hook": "Thomas Hicks was given strychnine and brandy twice by his own handlers, finished hallucinating, and nearly died. The first man to cross had ridden eleven miles in a car and was disqualified. Fourteen of thirty-two finished, in heat and dust, with one water stop on the whole course.",
+      "sourceRefs": [
+        "olympics-1904-marathon",
+        "smithsonian-1904-marathon"
+      ],
+      "riskTier": "source"
     },
     {
       "category": "Pop Culture",
-      "question": "Top Gun (1986) produced a real-world effect the US Navy had not planned for. What was it?",
+      "question": "A much-repeated statistic says Top Gun (1986) caused a 500% jump in US Navy recruiting. What is wrong with it?",
       "options": [
-        "Civilian flight schools reported a sudden pilot shortage",
-        "Navy aviation applications jumped sharply after release",
-        "Recruiters were barred from screening it at events",
-        "Congress cut the Navy's aviation budget in response"
+        "It counted Air Force applicants alongside Navy ones",
+        "No data backs it; enlistment rose about eight percent",
+        "The rise happened a full two years before the release",
+        "Recruiting actually fell across every branch that year"
       ],
-      "answer": "Navy aviation applications jumped sharply after release",
-      "explanation": "Navy aviation recruitment rose steeply after release, and the service had set up recruiting tables in cinema lobbies in advance. The Pentagon had given extensive cooperation, supplying aircraft and carrier access at favourable rates, in exchange for script approval. It became a template: military cooperation on films is now routinely conditional on script input. The real Topgun school had also been founded for an unglamorous reason, to fix poor US air-combat kill ratios over Vietnam.",
-      "memory_hook": "Navy applications spiked, and recruiters had already set up tables in cinema lobbies. The Pentagon supplied jets and carrier access cheaply in return for script approval, which became the template for military film cooperation. The actual Topgun school existed because US kill ratios over Vietnam were bad."
+      "answer": "No data backs it; enlistment rose about eight percent",
+      "explanation": "Navy enlistments went from 87,593 in 1984-85 to 94,878 in 1985-86, a rise of 8.3 percent. The 500 percent figure traces to a 2004 book and has been repeated for twenty years without anyone producing the underlying numbers. There is also a confound nobody mentions: the Navy's recruiting advertising budget went from $13.1 million in 1984 to $31 million in 1986. Navy Recruiting Command told reporters in 1989 it had seen no specific event change recruiting results.",
+      "memory_hook": "The Pentagon did supply the jets and the carrier in exchange for script approval, and recruiters did work cinema lobbies. The 500% is a zombie statistic.",
+      "sourceRefs": [
+        "aap-topgun-500",
+        "usni-topgun-recruiting"
+      ],
+      "riskTier": "source"
     },
     {
       "category": "Pop Culture",
@@ -89,8 +119,13 @@
         "The right to produce records for other Motown artists"
       ],
       "answer": "Full creative control and ownership of his publishing",
-      "explanation": "Motown ran a tightly controlled system where staff writers and producers made the creative decisions. Wonder let his contract lapse on his twenty-first birthday, funded independent recordings himself, and returned holding the masters, forcing Berry Gordy to concede artistic control and publishing rights. What followed was Music of My Mind, Talking Book, Innervisions and Songs in the Key of Life, one of the strongest runs in recorded music.",
-      "memory_hook": "Motown normally decided everything. Wonder let his contract lapse at twenty-one, paid for his own recordings, then came back holding the tapes and made Gordy give him creative control and his publishing. Music of My Mind, Talking Book, Innervisions and Songs in the Key of Life followed."
+      "explanation": "Motown ran a tightly controlled system in which staff writers and producers made the creative decisions. Wonder let his contract lapse when he turned twenty-one in 1971, funded independent recordings himself, and came back with finished tapes and a lawyer. The 21-page deal he won broke Motown precedent: full creative control, a twenty percent royalty and his own publishing. What followed was Music of My Mind, Talking Book, Innervisions and Songs in the Key of Life.",
+      "memory_hook": "Motown normally decided everything. Wonder let his contract lapse at twenty-one, paid for his own recordings, then came back holding the tapes and made Gordy give him creative control and his publishing. Music of My Mind, Talking Book, Innervisions and Songs in the Key of Life followed.",
+      "sourceRefs": [
+        "npr-stevie-wonder-run",
+        "motown-museum-wonder"
+      ],
+      "riskTier": "source"
     },
     {
       "category": "Pop Culture",
@@ -102,8 +137,13 @@
         "He lay on his back on a specially built curved bed"
       ],
       "answer": "He stood on scaffolding craning his neck, not lying down",
-      "explanation": "The 'lying on his back' story comes largely from film and popular retelling. Michelangelo designed his own wooden scaffolding system — a flat platform suspended near the ceiling rather than the arch-based system the Pope's architect suggested. He stood on it and bent backward, working in wet plaster (true fresco) section by section. He wrote a sonnet complaining about his aching neck, curved spine, and deteriorating eyesight. He painted nearly all 5,000 square feet with minimal assistants — mainly for grinding pigments and plastering. The ceiling includes 300+ figures and nine central scenes from Genesis including the iconic Creation of Adam.",
-      "memory_hook": "Michelangelo wrote a complaining sonnet about his bent spine and ruined eyesight from tilting his head back for four years. He designed custom scaffolding himself. The 'on his back' image is Hollywood — he stood and craned his neck. He painted 5,000 square feet in wet plaster with almost no assistants, including 300+ figures in four years."
+      "explanation": "The lying-on-his-back image comes from film and popular retelling. Michelangelo rejected the papal architect's scheme and designed his own scaffolding, a bridge anchored into the walls rather than standing on the floor, holding the platform about seven feet below the vault. He worked standing, head tilted back and arms overhead, into wet plaster section by section, and complained about it in a sonnet describing his swollen neck and ruined eyes. He was not alone either: he used as many as thirteen assistants across the nine Genesis scenes.",
+      "memory_hook": "Michelangelo wrote a complaining sonnet about his bent spine and ruined eyesight from tilting his head back for four years. He designed custom scaffolding himself. The 'on his back' image is Hollywood — he stood and craned his neck. He painted 5,000 square feet in wet plaster with almost no assistants, including 300+ figures in four years.",
+      "sourceRefs": [
+        "deseret-sistine-standing",
+        "ebsco-sistine-chapel"
+      ],
+      "riskTier": "source"
     },
     {
       "category": "Geography",
@@ -115,8 +155,13 @@
         "It gets less precipitation than the Sahara does"
       ],
       "answer": "It gets less precipitation than the Sahara does",
-      "explanation": "A desert is defined by precipitation, not heat: under roughly 250mm a year. The Antarctic interior receives about 50mm, less than the Sahara, and the McMurdo Dry Valleys may have had no rain for two million years. The ice sheet is thick because almost nothing melts, so tiny annual snowfalls accumulate over hundreds of thousands of years. Antarctica is the largest desert on Earth by area.",
-      "memory_hook": "Deserts are about rainfall, not heat. The Antarctic interior gets around 50mm a year, less than the Sahara, and the Dry Valleys may not have seen rain in two million years. The ice is thick because nothing melts, so tiny snowfalls pile up over millennia. It is the biggest desert on Earth."
+      "explanation": "A desert is defined by precipitation, not heat: under roughly 250mm a year. The Antarctic interior receives about 50mm, which the British Antarctic Survey notes is comparable to the Sahara, while the coastal belt gets closer to 500mm and does not qualify. The McMurdo Dry Valleys may have had no rain for two million years. The ice sheet is thick because almost nothing melts, so tiny annual snowfalls accumulate over hundreds of thousands of years.",
+      "memory_hook": "Deserts are about rainfall, not heat. The Antarctic interior gets around 50mm a year, less than the Sahara, and the Dry Valleys may not have seen rain in two million years. The ice is thick because nothing melts, so tiny snowfalls pile up over millennia. It is the biggest desert on Earth.",
+      "sourceRefs": [
+        "britannica-antarctica-desert",
+        "bas-antarctic-factsheet"
+      ],
+      "riskTier": "source"
     },
     {
       "category": "Science & Nature",
@@ -129,7 +174,9 @@
       ],
       "answer": "An atom that has gained or lost electrons, so it has charge",
       "explanation": "Sodium gives up an electron and becomes positive; chlorine takes one and becomes negative; the opposite charges hold the crystal together. Water molecules are polar, with slightly charged ends, so they surround and pull the ions apart, which is what dissolving is. Ions in solution conduct electricity, which is why salt water conducts and pure water barely does, and why nerves and muscles depend on ion movement.",
-      "memory_hook": "Sodium loses an electron and goes positive, chlorine gains one and goes negative, and the attraction holds salt together. Water is polar, so it surrounds the ions and pulls them apart. Free ions carry current, which is why salt water conducts and why your nerves need them."
+      "memory_hook": "Sodium loses an electron and goes positive, chlorine gains one and goes negative, and the attraction holds salt together. Water is polar, so it surrounds the ions and pulls them apart. Free ions carry current, which is why salt water conducts and why your nerves need them.",
+      "riskTier": "canonical",
+      "canonicalNote": "textbook chemistry, universally attested and cannot change"
     },
     {
       "category": "Geography",
@@ -141,14 +188,10 @@
         "Its soil chemistry kills off most introduced species"
       ],
       "answer": "It split from the mainland roughly 20 million years ago",
-      "explanation": "Socotra separated from the Arabian mainland roughly 20 million years ago and its flora evolved in isolation, producing the dragon blood tree with its inverted-umbrella crown and the bulbous desert rose. About 37% of its 830 vascular plant species are endemic, a higher rate than the Galapagos at around 30%. The island is arid and was never intensively farmed, so much survived. Goats, road building and conflict in Yemen now threaten it.",
+      "explanation": "Socotra separated from the Arabian mainland roughly 20 million years ago and its flora evolved in isolation, producing the dragon blood tree with its inverted-umbrella crown and the bulbous desert rose. Of its 825 vascular plant species, 307 are found nowhere else, along with 90% of its reptiles and 95% of its land snails. The island is arid and was never intensively farmed, so much survived. Goats, road building and the conflict in Yemen now threaten it.",
       "memory_hook": "Socotra broke off the Arabian mainland about 20 million years ago and its plants evolved alone, which is where the dragon blood tree and the bottle-trunk desert rose came from. Around 37% of its 830 plant species exist nowhere else, beating the Galapagos at roughly 30%. Goats and Yemen's war are the current threat.",
-      "sources": [
-        {
-          "claim": "37% of Socotra's 830 vascular plant species endemic; Galapagos ~30%",
-          "source": "https://www.bradtguides.com/socotra-endemic-plants/",
-          "checked": "2026-08-08"
-        }
+      "sourceRefs": [
+        "unep-socotra-datasheet"
       ]
     },
     {
@@ -162,7 +205,9 @@
       ],
       "answer": "The atoms are bonded in completely different arrangements",
       "explanation": "In diamond every carbon atom bonds to four others in a rigid three-dimensional lattice, so there is no easy plane along which it can fail. Graphite bonds each atom to three others in flat sheets, with only weak forces between sheets, so the layers slide, which is why pencils work and why graphite lubricates. Same element, different geometry, opposite properties. Graphite is actually the more stable form at room temperature, so diamonds are very slowly turning into it.",
-      "memory_hook": "Diamond bonds each carbon to four neighbours in a rigid 3D lattice with no weak plane. Graphite bonds three, making flat sheets held together loosely, so the layers slide, which is how pencils write. Same atom, different geometry. Graphite is the stabler form, so diamonds are slowly becoming it."
+      "memory_hook": "Diamond bonds each carbon to four neighbours in a rigid 3D lattice with no weak plane. Graphite bonds three, making flat sheets held together loosely, so the layers slide, which is how pencils write. Same atom, different geometry. Graphite is the stabler form, so diamonds are slowly becoming it.",
+      "riskTier": "canonical",
+      "canonicalNote": "textbook chemistry, universally attested and cannot change"
     }
   ]
 }

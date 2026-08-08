@@ -8,11 +8,15 @@
         "A written constitution for every city he founded",
         "Aristotle in person, who travelled with the army",
         "A portable library of over three hundred scrolls",
-        "A copy of the Iliad, annotated by Aristotle himself"
+        "The Iliad, in a copy said to be Aristotle's own"
       ],
-      "answer": "A copy of the Iliad, annotated by Aristotle himself",
-      "explanation": "Alexander reportedly slept with the Iliad and a dagger under his pillow, and modelled himself explicitly on Achilles, whose tomb he visited at Troy. Aristotle tutored him from thirteen to sixteen at Mieza. The relationship soured later, and when Alexander executed Aristotle's great-nephew Callisthenes for refusing to prostrate himself, rumours circulated that Aristotle had a hand in Alexander's death. He founded around twenty cities named Alexandria; the Egyptian one endures.",
-      "memory_hook": "He slept with the Iliad and a dagger under his pillow and modelled himself on Achilles, even visiting his tomb at Troy. Aristotle taught him from thirteen to sixteen. It ended badly: Alexander executed Aristotle's great-nephew, and people later whispered Aristotle helped poison him."
+      "answer": "The Iliad, in a copy said to be Aristotle's own",
+      "explanation": "The story comes from Plutarch, citing Alexander's companion Onesicritus: he slept with a dagger and Aristotle's corrected text of the Iliad, the casket copy, under his pillow, and called it a portable treasury of military virtue. It is one ancient report rather than a documented fact. What is not in doubt is that he modelled himself on Achilles and visited his supposed tomb at Troy. Aristotle tutored him from thirteen at Mieza; the relationship soured after Alexander executed Aristotle's great-nephew Callisthenes.",
+      "memory_hook": "He slept with the Iliad and a dagger under his pillow and modelled himself on Achilles, even visiting his tomb at Troy. Aristotle taught him from thirteen to sixteen. It ended badly: Alexander executed Aristotle's great-nephew, and people later whispered Aristotle helped poison him.",
+      "sourceRefs": [
+        "plutarch-alexander-iliad"
+      ],
+      "riskTier": "source"
     },
     {
       "category": "History",
@@ -24,8 +28,12 @@
         "Greek cavalry was superior to anything Persia fielded"
       ],
       "answer": "Heavy infantry and narrow ground negated Persian numbers",
-      "explanation": "Greek hoplites fought shoulder to shoulder in heavy bronze armour with long spears, devastating at close quarters but slow. Persian strength lay in archery, cavalry and numbers, all of which need open ground. The Greeks repeatedly chose terrain that cancelled those advantages: a narrow pass at Thermopylae, a cramped strait at Salamis where the Persian fleet could not deploy. Herodotus claimed millions of Persians, which modern historians read as wild exaggeration.",
-      "memory_hook": "Hoplites in bronze armour with long spears were murderous up close but slow, while Persia relied on archers, cavalry and numbers that need open ground. So the Greeks fought in a narrow pass at Thermopylae and a cramped strait at Salamis. Herodotus said millions of Persians; nobody believes him now."
+      "explanation": "Greek hoplites fought shoulder to shoulder in heavy bronze armour with long spears, devastating at close quarters but slow. Persian strength lay in archery, cavalry and numbers, all of which need open ground. The Greeks repeatedly chose terrain that cancelled those advantages: a narrow pass at Thermopylae where the phalanx could hold a front a few hundred metres wide, a cramped strait at Salamis where the fleet could not deploy. Herodotus put the Persian army in the millions; modern estimates run between 120,000 and 300,000.",
+      "memory_hook": "Hoplites in bronze armour with long spears were murderous up close but slow, while Persia relied on archers, cavalry and numbers that need open ground. So the Greeks fought in a narrow pass at Thermopylae and a cramped strait at Salamis. Herodotus said millions of Persians; nobody believes him now.",
+      "sourceRefs": [
+        "britannica-greco-persian"
+      ],
+      "riskTier": "source"
     },
     {
       "category": "History",
@@ -37,8 +45,13 @@
         "They were largely undamaged, so the effect could be measured"
       ],
       "answer": "They were largely undamaged, so the effect could be measured",
-      "explanation": "The target committee deliberately spared several cities from conventional firebombing so the atomic effect could be assessed against undamaged urban areas. Kyoto was on the list and was removed, reportedly because Secretary of War Stimson had visited and objected to destroying it. Nagasaki was a secondary target chosen on the day because cloud obscured Kokura. Estimates put the immediate and near-term deaths between 130,000 and 225,000, overwhelmingly civilian.",
-      "memory_hook": "Several cities were deliberately left out of the firebombing so the atomic effect could be measured on undamaged ground. Kyoto was on the list until Stimson, who had visited it, took it off. Nagasaki was only hit because clouds covered Kokura that morning. Between 130,000 and 225,000 died, nearly all civilians."
+      "explanation": "A May 1945 directive placed Hiroshima, Kyoto and Niigata on a list of reserved areas to be spared the ongoing firebombing campaign, so the atomic effect could be assessed against undamaged cities. Kokura was added in June. Kyoto came off the list at Secretary of War Stimson's insistence on cultural and religious grounds, and Nagasaki replaced it in late July. On 9 August cloud hid Kokura through three passes, and the bombardier took a break in the cloud over Nagasaki instead. Casualties were overwhelmingly civilian.",
+      "memory_hook": "Several cities were deliberately left out of the firebombing so the atomic effect could be measured on undamaged ground. Kyoto was on the list until Stimson, who had visited it, took it off. Nagasaki was only hit because clouds covered Kokura that morning. Between 130,000 and 225,000 died, nearly all civilians.",
+      "sourceRefs": [
+        "ahf-target-committee",
+        "natgeo-nagasaki-target"
+      ],
+      "riskTier": "source"
     },
     {
       "category": "Sports",
@@ -51,7 +64,9 @@
       ],
       "answer": "Change to a fresh horse, since ponies tire in minutes",
       "explanation": "A chukka runs seven minutes and the pace is brutal, so players change mounts between them and a serious competitor needs several ponies for one match. The field is 300 by 160 yards, roughly nine football pitches. Spectators traditionally walk the pitch at half time to stamp divots back down. Despite the name, polo ponies are full-sized horses, usually Thoroughbred crosses.",
-      "memory_hook": "A chukka is seven minutes and it wrecks a horse, so riders swap mounts between them and need several ponies per match. The field is 300 by 160 yards, about nine football pitches. At half time the crowd walks the pitch stamping divots back in. Polo ponies are actually full-sized horses."
+      "memory_hook": "A chukka is seven minutes and it wrecks a horse, so riders swap mounts between them and need several ponies per match. The field is 300 by 160 yards, about nine football pitches. At half time the crowd walks the pitch stamping divots back in. Polo ponies are actually full-sized horses.",
+      "riskTier": "canonical",
+      "canonicalNote": "polo rulebook: chukka length, field dimensions and pony changes are published rules"
     },
     {
       "category": "Sports",
@@ -63,8 +78,13 @@
         "Half a second, in the 200m individual medley"
       ],
       "answer": "One hundredth of a second, in the 100m butterfly",
-      "explanation": "Milorad Cavic led into the wall and appeared to have won; Phelps took an extra half-stroke while Cavic glided, and touched in 50.58 to Cavic's 50.59. Serbia protested and the footage was reviewed, and the result stood. Without it there is no eight, and Mark Spitz's record of seven survives. Phelps finished his career with 23 Olympic golds, more than double anyone else in any sport.",
-      "memory_hook": "Cavic was ahead at the wall and glided; Phelps jammed in an extra half-stroke and won by one hundredth, 50.58 to 50.59. Serbia protested, the footage was reviewed, the result held. Lose that and there is no eight and Spitz keeps his record. Phelps ended with 23 golds."
+      "explanation": "Milorad Cavic led into the wall and appeared to have won; Phelps took an extra chopped half-stroke while Cavic glided, and touched in 50.58 to Cavic's 50.59. The Serbian federation protested, Omega reviewed the touchpad data down to ten-thousandths, and the result stood. Without it there is no eight, and Mark Spitz's seven survives. Phelps finished with 23 Olympic golds, more than double anyone else in any sport.",
+      "memory_hook": "Cavic was ahead at the wall and glided; Phelps jammed in an extra half-stroke and won by one hundredth, 50.58 to 50.59. Serbia protested, the footage was reviewed, the result held. Lose that and there is no eight and Spitz keeps his record. Phelps ended with 23 golds.",
+      "sourceRefs": [
+        "espn-omega-phelps-cavic",
+        "swimworld-phelps-cavic"
+      ],
+      "riskTier": "source"
     },
     {
       "category": "Pop Culture",
@@ -76,8 +96,13 @@
         "His production contract legally barred him performing"
       ],
       "answer": "He did not fit the street image hip-hop then demanded",
-      "explanation": "West produced hits for Jay-Z and others while being told repeatedly that a middle-class college kid from Chicago in a pink polo could not be sold as a rapper. Roc-A-Fella signed him mainly to keep his beats. The College Dropout in 2004 addressed exactly that friction, and a car crash that left his jaw wired shut produced Through the Wire, recorded with the wires still in. The album reframed what a commercially viable rapper could look like.",
-      "memory_hook": "Labels kept telling him a middle-class college kid from Chicago in a pink polo could not be sold as a rapper. Roc-A-Fella signed him mostly to keep the beats. Then a car crash wired his jaw shut and he recorded Through the Wire with the wires still in."
+      "explanation": "West produced hits for Jay-Z and Talib Kweli while being told repeatedly that a middle-class college kid from Chicago could not be sold as a rapper, and Roc-A-Fella valued him as a producer rather than an artist. A car crash in October 2002 left his jaw wired shut, and he recorded Through the Wire with the wires still in. Its success in 2003 is what persuaded the label to let him make a rap album at all. The College Dropout followed in February 2004 and reframed what a commercially viable rapper could look like.",
+      "memory_hook": "Labels kept telling him a middle-class college kid from Chicago in a pink polo could not be sold as a rapper. Roc-A-Fella signed him mostly to keep the beats. Then a car crash wired his jaw shut and he recorded Through the Wire with the wires still in.",
+      "sourceRefs": [
+        "complex-through-the-wire",
+        "rollingstone-kanye-dropout"
+      ],
+      "riskTier": "source"
     },
     {
       "category": "Pop Culture",
@@ -89,8 +114,13 @@
         "A duplicate envelope was handed over by mistake"
       ],
       "answer": "A duplicate envelope was handed over by mistake",
-      "explanation": "PwC prepares two identical sets of envelopes, one on each side of the stage. An accountant handed Warren Beatty the duplicate Best Actress envelope, so he saw Emma Stone's name and La La Land underneath. The La La Land producers were mid-speech before Moonlight was corrected as the actual winner. Both PwC accountants were permanently removed from the ceremony, and phones were banned backstage afterward.",
-      "memory_hook": "PwC keeps duplicate envelopes on both sides of the stage, and Beatty was handed the spare Best Actress one, which read Emma Stone, La La Land. The La La Land team were already giving speeches when Moonlight was corrected in. Both accountants were banned from the ceremony for good."
+      "explanation": "PwC prepares two identical sets of envelopes, one for each side of the stage. Accountant Brian Cullinan, who had been tweeting from backstage minutes earlier, handed Warren Beatty the duplicate Best Actress envelope, so Beatty opened it to find Emma Stone's name with La La Land underneath. The La La Land producers were mid-speech before Moonlight was corrected as the winner. Cullinan and his colleague Martha Ruiz were permanently removed from Academy work.",
+      "memory_hook": "PwC keeps duplicate envelopes on both sides of the stage, and Beatty was handed the spare Best Actress one, which read Emma Stone, La La Land. The La La Land team were already giving speeches when Moonlight was corrected in. Both accountants were banned from the ceremony for good.",
+      "sourceRefs": [
+        "variety-oscars-envelope",
+        "cbs-pwc-accountants-removed"
+      ],
+      "riskTier": "source"
     },
     {
       "category": "Pop Culture",
@@ -102,8 +132,12 @@
         "It was recorded live in a single continuous session"
       ],
       "answer": "The tracks tell one night in Compton out of order",
-      "explanation": "The album follows a teenage Kendrick through a single day and night, and the story is deliberately non-chronological, with voicemails from his parents and skits marking the timeline. He later won a Pulitzer Prize for Music in 2018 for DAMN., the first artist outside classical or jazz to receive it. The Compton he describes is specific and documentary rather than generic, which is much of why the record landed.",
-      "memory_hook": "It follows one day and night of teenage Kendrick in Compton, told out of order, with his parents' voicemails marking the timeline. Documentary specific rather than generic, which is why it hit. He later won a Pulitzer for DAMN., the first artist outside classical or jazz to get one."
+      "explanation": "The album cover carries the subtitle 'A Short Film by Kendrick Lamar'. It follows a teenage Kendrick through a single day and night in Compton, told out of order, with voicemails from his parents and skits marking the timeline rather than the tracklist. The Compton he describes is specific and documentary rather than generic, which is much of why it landed. He later won the 2018 Pulitzer Prize for Music for DAMN., the first work outside classical and jazz to take it.",
+      "memory_hook": "It follows one day and night of teenage Kendrick in Compton, told out of order, with his parents' voicemails marking the timeline. Documentary specific rather than generic, which is why it hit. He later won a Pulitzer for DAMN., the first artist outside classical or jazz to get one.",
+      "sourceRefs": [
+        "pulitzer-kendrick-lamar"
+      ],
+      "riskTier": "source"
     },
     {
       "category": "Geography",
@@ -116,7 +150,9 @@
       ],
       "answer": "Asia and Europe",
       "explanation": "The Ural Mountains and Ural River form the traditional boundary between Europe and Asia. Russia straddles both continents — west of the Urals is European Russia (including Moscow), east of the Urals is Asian Russia (Siberia). This boundary means that Russia is technically partly in both continents, and cities like Yekaterinburg straddle the continental divide.",
-      "memory_hook": "Urals = Europe meets Asia. The boundary runs through the middle of Russia. Moscow is in Europe. Siberia is in Asia. You can drive from Europe to Asia in Russia without crossing any border or body of water."
+      "memory_hook": "Urals = Europe meets Asia. The boundary runs through the middle of Russia. Moscow is in Europe. Siberia is in Asia. You can drive from Europe to Asia in Russia without crossing any border or body of water.",
+      "riskTier": "canonical",
+      "canonicalNote": "the Urals as the Europe-Asia boundary is a standard atlas convention"
     },
     {
       "category": "Science & Nature",
@@ -129,7 +165,9 @@
       ],
       "answer": "Control rods that absorb the neutrons driving the chain",
       "explanation": "Fission releases neutrons that trigger further fission, so the reaction sustains itself. Control rods made of boron or cadmium soak up free neutrons, and sliding them in or out sets the rate. Push them fully in and the chain stops. Chernobyl's rods were tipped with graphite, which briefly accelerated the reaction as they were inserted, which is part of why the emergency shutdown made things worse rather than better.",
-      "memory_hook": "Fission throws off neutrons that cause more fission, so it feeds itself. Control rods of boron or cadmium absorb the spare neutrons, and how far they are inserted sets the pace. Chernobyl's rods were graphite-tipped, so the emergency shutdown briefly sped the reaction up instead of stopping it."
+      "memory_hook": "Fission throws off neutrons that cause more fission, so it feeds itself. Control rods of boron or cadmium absorb the spare neutrons, and how far they are inserted sets the pace. Chernobyl's rods were graphite-tipped, so the emergency shutdown briefly sped the reaction up instead of stopping it.",
+      "riskTier": "canonical",
+      "canonicalNote": "reactor physics is textbook; the Chernobyl graphite-tipped rod detail is in every official account"
     },
     {
       "category": "Geography",
@@ -141,8 +179,13 @@
         "Large dogs the Romans reported finding on the islands"
       ],
       "answer": "Large dogs the Romans reported finding on the islands",
-      "explanation": "Pliny the Elder recorded that the islands held unusually large dogs, and the name descends from the Latin canaria, from canis. The bird was named after the islands, not the other way round. Tenerife holds Spain's highest point, Teide, at 3,715m, and the archipelago is volcanic, with an eruption on La Palma as recently as 2021. The islands sit closer to Africa than to Europe but are politically and administratively Spanish.",
-      "memory_hook": "Pliny the Elder wrote that the islands had unusually large dogs, and the name comes from Latin canaria, from canis. The bird was named after the islands, not the reverse. Tenerife has Spain's highest point at 3,715m, and La Palma erupted as recently as 2021."
+      "explanation": "Pliny the Elder, recording an expedition King Juba II sent around 40 BC, wrote that the islands held vast numbers of very large dogs, and the name descends from the Latin canaria, from canis. The bird was named after the islands, not the other way round. It may not be literal: some scholars think the 'dogs' were monk seals, or that the name comes from the Canarii, a Berber people of the Atlas mountains. Tenerife holds Spain's highest point, Teide at 3,715m, and La Palma erupted as recently as 2021.",
+      "memory_hook": "Pliny the Elder wrote that the islands had unusually large dogs, and the name comes from Latin canaria, from canis. The bird was named after the islands, not the reverse. Tenerife has Spain's highest point at 3,715m, and La Palma erupted as recently as 2021.",
+      "sourceRefs": [
+        "britannica-canary-islands",
+        "grancanaria-canary-name"
+      ],
+      "riskTier": "source"
     },
     {
       "category": "Science & Nature",
@@ -155,7 +198,9 @@
       ],
       "answer": "Friction between the tyres and the road surface",
       "explanation": "Without a sideways force a car would continue in a straight line, and the only thing available to supply it is grip between rubber and road. That is why ice or standing water causes a skid: the friction is gone, so the car keeps going straight. Required force rises with the square of speed, so doubling your speed needs four times the grip, which is why cornering too fast fails suddenly rather than gradually. Banked racetracks tilt so gravity contributes some of the force.",
-      "memory_hook": "Only friction between tyre and road pulls a car around a corner. Lose it to ice or water and the car simply goes straight, which is what a skid is. The force needed rises with the square of speed, so double the speed needs four times the grip. That is why cornering too fast fails all at once."
+      "memory_hook": "Only friction between tyre and road pulls a car around a corner. Lose it to ice or water and the car simply goes straight, which is what a skid is. The force needed rises with the square of speed, so double the speed needs four times the grip. That is why cornering too fast fails all at once.",
+      "riskTier": "canonical",
+      "canonicalNote": "textbook mechanics, universally attested"
     }
   ]
 }

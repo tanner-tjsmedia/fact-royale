@@ -21,6 +21,14 @@ from datetime import date, timedelta
 from itertools import combinations
 
 QDIR = os.path.join(os.path.dirname(__file__), '..', 'questions')
+REG_PATH = os.path.join(os.path.dirname(__file__), '..', 'sources.json')
+
+def load_registry():
+    try:
+        return json.load(open(REG_PATH, encoding='utf-8')).get('sources', {})
+    except Exception:
+        return {}
+REGISTRY = load_registry()
 
 # ── the standard ──────────────────────────────────────────
 OPT_MAX     = 120   # hard ceiling on an option
@@ -80,7 +88,9 @@ PRIMARY = (
     'science.org', 'nature.com', 'pnas.org', 'thelancet.com', 'nejm.org',
     'cell.com', 'bmj.com', 'jstor.org', 'arxiv.org', 'doi.org',
     'nasa.gov', 'noaa.gov', 'usgs.gov', 'esa.int', 'iau.org', 'ipcc.ch',
-    'nsidc.org', 'cern.ch', 'nist.gov',
+    'nsidc.org', 'cern.ch', 'nist.gov', 'unep-wcmc.org', 'iucn.org',
+    # national ministries that do not use a .gov domain
+    'mmediu.ro', 'gov.pl', 'gouv.fr', 'bund.de', 'gc.ca', 'govt.nz', 'gov.au',
     # governments and intergovernmental bodies on their own data
     '.gov', '.gov.uk', 'who.int', 'un.org', 'unesco.org', 'worldbank.org',
     'imf.org', 'oecd.org', 'census.gov', 'ons.gov.uk', 'eurostat',
@@ -93,7 +103,8 @@ PRIMARY = (
     'wimbledon.com', 'uci.org', 'fina.org', 'billboard.com',
     # official bodies for their own field
     'oscars.org', 'bafta.org', 'nobelprize.org', 'pulitzer.org',
-    'grammy.com', 'festival-cannes.com', 'bfi.org.uk',
+    'grammy.com', 'festival-cannes.com', 'bfi.org.uk', 'emmys.com',
+    'library.olympics.com',
     # universities publishing their own research
     '.edu', '.ac.uk',
 )
@@ -207,7 +218,18 @@ def main():
             # Every question makes a factual claim. Every one needs a source.
             # A trivia product that is not reliably true has no reason to exist.
             tier = q.get('riskTier')
-            src = q.get('sources') or []
+            if q.get('sources'):
+                hard.append(f'{loc}: inline sources, move into sources.json and cite by ref')
+            src = []
+            for rid in (q.get('sourceRefs') or []):
+                e = REGISTRY.get(rid)
+                if not e:
+                    hard.append(f'{loc}: sourceRef "{rid}" not in sources.json')
+                else:
+                    src.append({'claim': '; '.join(e.get('establishes') or []),
+                                'source': e.get('url', ''),
+                                'checked': e.get('checked', ''),
+                                '_tier': e.get('tier')})
             if tier == 'canonical':
                 if not q.get('canonicalNote'):
                     hard.append(f'{loc}: marked canonical with no justification note')
@@ -223,7 +245,7 @@ def main():
                         hard.append(f'{loc}: source entry has no URL'); continue
                     if not e.get('claim'):
                         hard.append(f'{loc}: source entry has no claim text')
-                    g = source_grade(u)
+                    g = e.get('_tier') or source_grade(u)
                     if g == 'unreliable':
                         hard.append(f'{loc}: unreliable source {domain(u)}')
                         continue
@@ -240,7 +262,7 @@ def main():
             # because they need re-checking as time passes
             for fld in ('question', 'answer', 'explanation', 'memory_hook'):
                 for sent in re.split(r'(?<=[.!?])\s+', q.get(fld, '')):
-                    if VOLATILE.search(sent):
+                    if tier != 'canonical' and VOLATILE.search(sent):
                         volatile_hits.append((loc, fld, sent.strip()[:110], bool(src)))
 
             s = salient(p)

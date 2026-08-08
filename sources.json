@@ -1,0 +1,1313 @@
+{
+  "_readme": [
+    "Verified source registry for Fact Royale.",
+    "",
+    "A claim verified once is never verified again. Questions cite an entry by id",
+    "in sourceRefs rather than carrying a raw URL, so one NASA or Britannica page",
+    "can back many unrelated questions, and a source found wrong is fixed once.",
+    "",
+    "FIELDS",
+    "  tier        primary | reference | secondary",
+    "  url         canonical link",
+    "  archive     web.archive.org snapshot. Sources disappear; a citation that",
+    "              404s in two years is not a citation.",
+    "  publisher   who is standing behind it",
+    "  establishes list of specific claims this source proves. One page often",
+    "              proves several unrelated things; record each separately.",
+    "  checked     ISO date last confirmed",
+    "  recheck     ISO date after which to reconfirm. Omit for facts that cannot",
+    "              change. Saturn's moon count needs one; Hastings does not.",
+    "  note        caveat, or what should replace this entry",
+    "",
+    "TIERS",
+    "  primary    the person, institution or document itself. One is enough.",
+    "  reference  edited reference works. One is enough.",
+    "  secondary  reporting about a primary source. Needs two, different outlets.",
+    "  replace     an OPEN action: this entry is not good enough yet and why.",
+    "              'note' is a permanent caveat; 'replace' is a to-do.",
+    "",
+    "Self-reported first-person accounts where the speaker benefits from the story",
+    "are downgraded to secondary and need corroboration. Mark the question",
+    "selfReported: true."
+  ],
+  "sources": {
+    "madagascar-endemism": {
+      "tier": "primary",
+      "url": "https://www.science.org/doi/10.1126/science.abf0869",
+      "publisher": "Science",
+      "establishes": [
+        "~90% of Madagascar wildlife endemic; 92% mammals, 95% reptiles, 99%+ amphibians, 89% plants"
+      ],
+      "checked": "2026-08-08",
+      "archive": null
+    },
+    "arctic-sea-ice": {
+      "tier": "primary",
+      "url": "https://www.climate.gov/news-features/understanding-climate/climate-change-arctic-sea-ice-summer-minimum",
+      "publisher": "NOAA Climate.gov",
+      "establishes": [
+        "September Arctic sea ice declining ~12-13% per decade since 1979; 2010s ~36% below 1980s"
+      ],
+      "checked": "2026-08-08",
+      "recheck": "2027-08-01",
+      "archive": null
+    },
+    "saturn-moons-2025": {
+      "tier": "secondary",
+      "url": "https://www.sci.news/astronomy/saturn-moons-13748.html",
+      "publisher": "Sci.News",
+      "establishes": [
+        "IAU recognised 128 new Saturn moons March 2025, taking the NASA catalogue from 146 to 274"
+      ],
+      "checked": "2026-08-08",
+      "recheck": "2027-01-01",
+      "note": "Corroborated by BBC Sky at Night. Count keeps rising; prefer questions that do not depend on the exact figure.",
+      "archive": null,
+      "replace": "Count keeps rising. Prefer questions that do not depend on the exact figure."
+    },
+    "mlb-perfect-games": {
+      "tier": "primary",
+      "url": "https://www.mlb.com/news/all-time-perfect-games",
+      "publisher": "Major League Baseball",
+      "establishes": [
+        "24 perfect games in MLB history; most recent Domingo German, June 2023"
+      ],
+      "checked": "2026-08-08",
+      "recheck": "2027-06-01",
+      "archive": null
+    },
+    "phelps-vs-nations": {
+      "tier": "secondary",
+      "url": "https://time.com/4446971/rio-2016-olympics-michael-phelps-gold-medals/",
+      "publisher": "TIME",
+      "establishes": [
+        "66 countries have won fewer than Phelps's 23 golds across their entire Olympic history"
+      ],
+      "checked": "2026-08-08",
+      "note": "Corroborated by NPR. Both trace to the same Rio-era analysis; a third independent check would be better.",
+      "archive": null,
+      "replace": "TIME and NPR both trace to the same Rio-era analysis. Find a third, independent check."
+    },
+    "palme-dor-women": {
+      "tier": "secondary",
+      "url": "https://deadline.com/2023/05/cannes-film-festival-winners-2023-full-list-1235381713/",
+      "publisher": "Deadline",
+      "establishes": [
+        "Three women have won the Palme d'Or: Campion 1993, Ducournau 2021, Triet 2023"
+      ],
+      "checked": "2026-08-08",
+      "recheck": "2027-06-01",
+      "note": "Should be replaced with festival-cannes.com, which is the primary record.",
+      "archive": null,
+      "replace": "Replace with festival-cannes.com, the primary record."
+    },
+    "population-registration-act": {
+      "tier": "reference",
+      "url": "https://www.britannica.com/topic/Population-Registration-Act",
+      "publisher": "Encyclopaedia Britannica",
+      "establishes": [
+        "1950 Act classified all South Africans by race, governing where they could live and work; repealed 1991"
+      ],
+      "checked": "2026-08-08",
+      "archive": null
+    },
+    "sahistory-population-act": {
+      "tier": "reference",
+      "url": "https://sahistory.org.za/dated-event/population-registration-bill-read-first-time",
+      "publisher": "South African History Online",
+      "establishes": [
+        "The Act was a cornerstone of apartheid, recognising three race classifications"
+      ],
+      "checked": "2026-08-08",
+      "archive": null
+    },
+    "bfi-shining-steadicam": {
+      "tier": "primary",
+      "url": "https://www.bfi.org.uk/features/exploring-shining-stanley-kubrick-archive",
+      "publisher": "British Film Institute",
+      "establishes": [
+        "Steadicam used for the Overlook corridor shots following Danny; the glides created a new cinematic effect"
+      ],
+      "checked": "2026-08-08",
+      "archive": null
+    },
+    "academy-tech-history": {
+      "tier": "primary",
+      "url": "https://www.oscars.org/science-technology/technology-history",
+      "publisher": "Academy of Motion Picture Arts and Sciences",
+      "establishes": [
+        "Garrett Brown invented the Steadicam; first feature use was Bound for Glory (1976)"
+      ],
+      "checked": "2026-08-08",
+      "archive": null
+    },
+    "npr-owens-long-myth": {
+      "tier": "secondary",
+      "url": "https://www.npr.org/2009/08/14/111878822/was-jesse-owens-1936-long-jump-story-a-myth",
+      "publisher": "NPR",
+      "establishes": [
+        "The Long-advises-Owens story comes from Bud Greenspan's 1964 film Jesse Owens Returns to Berlin",
+        "Grantland Rice watched the qualifying round through binoculars and never saw Owens speak to Long",
+        "Historian Tom Ecker says Owens told him in 1965 he had not met Long until after the competition",
+        "All parties, including Ecker, agree the two embraced in front of Hitler after the final",
+        "Long was killed fighting in 1943; his last letter asked Owens to find his son"
+      ],
+      "checked": "2026-08-08",
+      "archive": null,
+      "note": "Contested by construction. Ecker's account rests on a 1965 conversation and Owens's family reject it. The question is written to present the dispute, not to settle it."
+    },
+    "aap-topgun-500": {
+      "tier": "secondary",
+      "url": "https://www.aap.com.au/factcheck/maverick-top-gun-stat-turns-out-to-be-a-real-goose/",
+      "publisher": "AAP FactCheck",
+      "establishes": [
+        "US Navy enlistments 87,593 in 1984-85 and 94,878 in 1985-86, an 8.3% rise",
+        "The 500% Top Gun recruiting claim traces to a 2004 book and has no supporting data"
+      ],
+      "checked": "2026-08-08",
+      "archive": null
+    },
+    "usni-topgun-recruiting": {
+      "tier": "primary",
+      "url": "https://news.usni.org/2022/05/27/will-top-gun-maverick-boost-navy-recruiting-history-says-probably-not",
+      "publisher": "US Naval Institute",
+      "establishes": [
+        "Navy recruiting advertising budget $13.1m in 1984, $19.9m in 1985, $31m in 1986",
+        "Navy Recruiting Command said in 1989 no specific event had changed recruiting results",
+        "The Navy arranged recruiter tables in cinema lobbies for both films",
+        "A 1993 survey found 24% of recruits strongly influenced by TV and films"
+      ],
+      "checked": "2026-08-08",
+      "archive": null
+    },
+    "britannica-taj-mahal": {
+      "tier": "reference",
+      "url": "https://www.britannica.com/topic/Taj-Mahal",
+      "publisher": "Encyclopaedia Britannica",
+      "establishes": [
+        "Taj Mahal begun c.1632 by Shah Jahan for Mumtaz Mahal",
+        "Mausoleum complete c.1638-39, adjunct buildings 1643, decoration to at least 1647",
+        "42-acre complex, roughly 22 years total",
+        "UNESCO World Heritage Site 1983"
+      ],
+      "checked": "2026-08-08",
+      "archive": null
+    },
+    "loc-bell-notebook": {
+      "tier": "primary",
+      "url": "https://www.loc.gov/item/magbell.25300201/",
+      "publisher": "Library of Congress",
+      "establishes": [
+        "Bell's notebook entry of 10 March 1876 records 'Mr. Watson - Come here - I want to see you'",
+        "Bell noted Watson came and confirmed he had heard and understood"
+      ],
+      "checked": "2026-08-08",
+      "archive": null
+    },
+    "mlb-hbp-glossary": {
+      "tier": "primary",
+      "url": "https://www.mlb.com/glossary/standard-stats/hit-by-pitch",
+      "publisher": "Major League Baseball",
+      "establishes": [
+        "A batter is awarded first base only if the pitch is outside the zone, he did not swing, and he made a legitimate attempt to avoid it"
+      ],
+      "checked": "2026-08-08",
+      "archive": null
+    },
+    "littleleague-hbp": {
+      "tier": "primary",
+      "url": "https://www.littleleague.org/university/articles/explanation-of-hit-by-a-pitch-rule/",
+      "publisher": "Little League International",
+      "establishes": [
+        "No attempt to avoid means no base; the pitch is a strike if in the zone, a ball if not",
+        "A swing supersedes the hit by pitch: dead ball, strike called",
+        "A pitch that bounces first still awards the base"
+      ],
+      "checked": "2026-08-08",
+      "archive": null
+    },
+    "billboard-nevermind-1992": {
+      "tier": "primary",
+      "url": "https://www.billboard.com/pro/nirvana-nevermind-rewinding-the-charts-1991/",
+      "publisher": "Billboard",
+      "establishes": [
+        "Nevermind reached number one on the Billboard 200 dated 11 January 1992",
+        "It displaced Michael Jackson's Dangerous, which had spent four weeks at number one and fell to fifth"
+      ],
+      "checked": "2026-08-08",
+      "archive": null
+    },
+    "recordcollector-nevermind": {
+      "tier": "secondary",
+      "url": "https://recordcollectormag.com/articles/nevermind-forever",
+      "publisher": "Record Collector",
+      "establishes": [
+        "DGC shipped 46,251 copies of Nevermind to US shops on 24 September 1991",
+        "Internal sales target was around 250,000 over twelve months, benchmarked against Sonic Youth's Goo"
+      ],
+      "checked": "2026-08-08",
+      "archive": null,
+      "note": "Single secondary source for the pressing figure. Acceptable because the claim is hedged in the question and the label's own target is corroborated across multiple retrospectives.",
+      "replace": "Single secondary for the 46,251 pressing figure. Find a label or RIAA record."
+    },
+    "emmy-fukunaga-2014": {
+      "tier": "primary",
+      "url": "https://www.emmys.com/awards/nominations/award-search",
+      "publisher": "Television Academy",
+      "establishes": [
+        "Cary Joji Fukunaga won Outstanding Directing for a Drama Series at the 66th Primetime Emmy Awards for True Detective episode 'Who Goes There'"
+      ],
+      "checked": "2026-08-08",
+      "archive": null,
+      "note": "Corroborated by Hollywood Reporter and Variety, 25 August 2014."
+    },
+    "smithsonian-uros": {
+      "tier": "secondary",
+      "url": "https://www.smithsonianmag.com/travel/people-peru-live-manmade-islands-constructed-plants-180956218/",
+      "publisher": "Smithsonian Magazine",
+      "establishes": [
+        "Uros islands are built from totora reed root bundles with dried reed stacked in alternating layers",
+        "Islands are anchored to the lakebed with stakes",
+        "Lower layers rot and must be continually replaced; a maintained island lasts around thirty years"
+      ],
+      "checked": "2026-08-08",
+      "archive": null,
+      "note": "Replaces the Wikipedia entry. The population figure was removed from the question rather than sourced, because no reliable current count exists."
+    },
+    "romania-bear-census-2025": {
+      "tier": "primary",
+      "url": "https://mmediu.ro/en/comunicare/comunicate-de-presa/ref-rezultate-preliminare-privind-populatia-de-urs-brun-din-romania/",
+      "publisher": "Romanian Ministry of Environment, Waters and Forests",
+      "establishes": [
+        "National genetic census of brown bears, ~24,000 samples across 25 counties, 2021-2025",
+        "Final results (December 2025) estimate 10,657 to 12,787 bears on a conservative scenario",
+        "April 2025 preliminary figure was 10,419 to 12,770",
+        "First scientifically grounded estimate; earlier figures up to 8,000 were observational"
+      ],
+      "checked": "2026-08-08",
+      "recheck": "2028-04-01",
+      "archive": null,
+      "note": "Ministry release is the primary record. Reported independently by AFP/France24 and G4Media. Use the December final figure, not the April preliminary.",
+      "replace": "Link to the December 2025 final report rather than the April preliminary release."
+    },
+    "cib-totora-islands": {
+      "tier": "primary",
+      "url": "https://www.irbnet.de/daten/iconda/CIB21650.pdf",
+      "publisher": "CIB (International Council for Research and Innovation in Building and Construction)",
+      "establishes": [
+        "Uros island bases are bundled totora roots with dried reed stacked in alternating layers",
+        "Islands are anchored with driven stakes; lower layers rot and are replaced from above"
+      ],
+      "checked": "2026-08-08",
+      "archive": null,
+      "note": "Conference paper. Corroborates the Smithsonian account of construction method."
+    },
+    "ecker-olympic-facts-fables": {
+      "tier": "primary",
+      "url": "https://library.olympics.com/Default/doc/SYRACUSE/177748/olympic-facts-and-fables-the-best-stories-from-the-first-century-of-the-modern-olympics-tom-ecker",
+      "publisher": "Olympic World Library (IOC)",
+      "establishes": [
+        "Tom Ecker's Olympic Facts and Fables is held in the IOC's own library, establishing it as a recognised Olympic-history reference",
+        "It is the published origin of the challenge to the Owens-Long advice story"
+      ],
+      "checked": "2026-08-08",
+      "archive": null,
+      "note": "This entry establishes the standing of the challenge, not its truth. The substance of Ecker's account comes from npr-owens-long-myth. The question is written to report the dispute, not resolve it."
+    },
+    "unep-socotra-datasheet": {
+      "tier": "primary",
+      "url": "http://world-heritage-datasheets.unep-wcmc.org/datasheet/output/site/socotra-archipelago/",
+      "publisher": "UNEP-WCMC / UNESCO World Heritage",
+      "establishes": [
+        "Socotra has 825 vascular plant species in 430 genera; 307 species (37%) and 15 genera are endemic",
+        "34 reptile species with 90% endemism; 96 land snail species with 95% endemism",
+        "Socotra sits at the intersection of African, Oriental and Palaearctic biogeographic regions"
+      ],
+      "checked": "2026-08-08",
+      "archive": null
+    },
+    "lindahall-panama-french": {
+      "tier": "reference",
+      "url": "https://www.lindahall.org/experience/digital-exhibitions/the-land-divided-the-world-united/06-the-french-plan/the-french-attempt/",
+      "publisher": "Linda Hall Library of Science, Engineering and Technology",
+      "establishes": [
+        "De Lesseps began the French Panama effort in 1881 insisting on a sea-level canal with no locks",
+        "The Compagnie Universelle went bankrupt in 1889",
+        "Tropical disease, chiefly malaria and yellow fever, destroyed the workforce"
+      ],
+      "checked": "2026-08-08",
+      "archive": null
+    },
+    "history-panama-deaths": {
+      "tier": "secondary",
+      "url": "https://www.history.com/articles/panama-canal-construction-dangers",
+      "publisher": "HISTORY",
+      "establishes": [
+        "An estimated 22,000 people died of disease during the French construction period",
+        "About three quarters of the French engineers who arrived with de Lesseps died within three months"
+      ],
+      "checked": "2026-08-08",
+      "archive": null
+    },
+    "britannica-ho-chi-minh": {
+      "tier": "reference",
+      "url": "https://www.britannica.com/biography/Ho-Chi-Minh",
+      "publisher": "Encyclopaedia Britannica",
+      "establishes": [
+        "Left Vietnam 1911 working as a kitchen hand at sea; worked in the US and Britain before Paris",
+        "Petitioned the 1919 Versailles conference as Nguyen Ai Quoc for equal rights in French Indochina, and was ignored",
+        "Founding member of the French Communist Party, December 1920",
+        "Trained in Moscow; returned to Vietnam in 1941"
+      ],
+      "checked": "2026-08-08",
+      "archive": null,
+      "note": "The Escoffier pastry-chef anecdote was REMOVED from the question: no contemporary evidence supports it. Do not reintroduce."
+    },
+    "britannica-bastille": {
+      "tier": "reference",
+      "url": "https://www.britannica.com/event/storming-of-the-Bastille",
+      "publisher": "Encyclopaedia Britannica",
+      "establishes": [
+        "Seven prisoners were in the Bastille on 14 July 1789",
+        "The crowd came for gunpowder, having taken muskets from the Invalides",
+        "Governor de Launay was killed and his head paraded"
+      ],
+      "checked": "2026-08-08",
+      "archive": null
+    },
+    "whe-bastille": {
+      "tier": "secondary",
+      "url": "https://www.worldhistory.org/Storming_of_the_Bastille/",
+      "publisher": "World History Encyclopedia",
+      "establishes": [
+        "The seven were four forgers, two men held as insane, and the Comte de Solages, imprisoned at his family's request",
+        "29,000-32,000 muskets were taken from the Invalides without powder; 250 barrels of powder had been moved to the Bastille"
+      ],
+      "checked": "2026-08-08",
+      "archive": null
+    },
+    "ims-milk-tradition": {
+      "tier": "primary",
+      "url": "https://www.indianapolismotorspeedway.com/history/where-tradition-never-stops/milk",
+      "publisher": "Indianapolis Motor Speedway",
+      "establishes": [
+        "Louis Meyer drank buttermilk after winning in 1936; a photograph led a dairy executive to formalise the tradition",
+        "Since 2006 drivers state a milk preference before the race: whole, 2 percent or skim"
+      ],
+      "checked": "2026-08-08",
+      "archive": null
+    },
+    "ims-kiss-bricks": {
+      "tier": "primary",
+      "url": "https://www.indianapolismotorspeedway.com/news-multimedia/news/2020/05/19/indy-500-kiss-the-bricks-tradition",
+      "publisher": "Indianapolis Motor Speedway",
+      "establishes": [
+        "Kissing the bricks began at the 1996 Brickyard 400 with Dale Jarrett and crew chief Todd Parrott, not at the Indianapolis 500"
+      ],
+      "checked": "2026-08-08",
+      "archive": null,
+      "note": "Corrects an earlier version of the question that implied the tradition started at the Indy 500."
+    },
+    "deseret-fittipaldi-1993": {
+      "tier": "secondary",
+      "url": "https://www.deseret.com/1993/6/1/19049439/fittipaldi-s-post-indy-beverage-of-choice-costs-him-a-cool-5-000/",
+      "publisher": "Deseret News",
+      "establishes": [
+        "Fittipaldi drank orange juice after winning the 1993 Indianapolis 500 and forfeited a $5,000 American Dairy Association of Indiana prize",
+        "He was booed for it"
+      ],
+      "checked": "2026-08-08",
+      "archive": null,
+      "note": "Corroborated by UPI, 1 June 1993, and Tampa Bay Times, 2 June 1993."
+    },
+    "matisse-teriade-quote": {
+      "tier": "primary",
+      "url": "https://en.wikiquote.org/wiki/Henri_Matisse",
+      "publisher": "Teriade, 'Constance du Fauvisme', Minotaure, 15 October 1936; trans. Jack Flam, Matisse on Art (1995)",
+      "establishes": [
+        "Matisse: 'I don't paint things. I only paint the difference between things.' Said to Teriade, published Minotaure, 15 October 1936"
+      ],
+      "checked": "2026-08-08",
+      "archive": null,
+      "note": "The URL is a Wikiquote index page, which is NOT the source. The source is the Minotaure article and Flam's translation, both named above. Replace the URL with a Flam citation or the Minotaure scan when available.",
+      "replace": "URL is a Wikiquote index, not the source. Replace with Flam, Matisse on Art (1995), or a Minotaure scan."
+    },
+    "bernstein-wss-official": {
+      "tier": "primary",
+      "url": "https://leonardbernstein.com/works/view/9/west-side-story",
+      "publisher": "The Leonard Bernstein Office",
+      "establishes": [
+        "Robbins proposed the show to Bernstein and Laurents in 1949 as East Side Story: a Jewish girl and an Italian Catholic boy on the Lower East Side at Easter and Passover",
+        "The rival gangs in that version were the Jets and the Emeralds",
+        "Bernstein wrote the score; Sondheim, aged 25, the lyrics"
+      ],
+      "checked": "2026-08-08",
+      "archive": null,
+      "note": "The claim that West Side Story lost the 1958 Best Musical Tony to The Music Man was REMOVED pending a Tony Awards primary citation."
+    },
+    "gji-dabbahu-2005": {
+      "tier": "primary",
+      "url": "https://academic.oup.com/gji/article/171/3/1226/719424",
+      "publisher": "Geophysical Journal International (Oxford University Press)",
+      "establishes": [
+        "A 60-km dyke intruded the Dabbahu segment of the Nubia-Arabia boundary in Afar, Ethiopia, in September 2005",
+        "It emplaced roughly 2.5 cubic km of magma and is the largest single magmatic rifting episode recorded",
+        "Dyke up to 8 m wide between 2 and 9 km depth; horizontal opening 5-8 m"
+      ],
+      "checked": "2026-08-08",
+      "archive": null,
+      "note": "Replaces an unsourced '56-kilometre crack over ten days' figure in the earlier version of the question."
+    },
+    "britannica-mary-anning": {
+      "tier": "reference",
+      "url": "https://www.britannica.com/biography/Mary-Anning",
+      "publisher": "Encyclopaedia Britannica",
+      "establishes": [
+        "Anning found the first complete ichthyosaur and plesiosaur specimens at Lyme Regis and sold fossils to support her family",
+        "As a woman she could not join the Geological Society of London, which admitted women only in 1904, 57 years after her 1847 death",
+        "Gentlemen geologists published her finds without crediting her",
+        "The Natural History Museum calls her the greatest fossil hunter ever known"
+      ],
+      "checked": "2026-08-08",
+      "archive": null
+    },
+    "dcceew-gab-2024": {
+      "tier": "primary",
+      "url": "https://www.dcceew.gov.au/sites/default/files/documents/gab-basin-wide-condition-report_1.pdf",
+      "publisher": "Australian Government, Dept of Climate Change, Energy, the Environment and Water",
+      "establishes": [
+        "Great Artesian Basin covers about 1.7 million square kilometres, roughly a fifth of the continent",
+        "Recharge occurs in upland areas along the Great Dividing Range and the basin's western and northern margins",
+        "Basin pressure has declined measurably; uncapped bores were the main historic loss"
+      ],
+      "checked": "2026-08-08",
+      "recheck": "2029-01-01",
+      "archive": null,
+      "note": "The 'water over a million years old' claim was REMOVED from the question; the report does not support that precision."
+    },
+    "nhl-historical-rule-changes": {
+      "tier": "primary",
+      "url": "https://records.nhl.com/history/historical-rule-changes",
+      "publisher": "NHL Records",
+      "establishes": [
+        "1937: icing rule adopted. A team not shorthanded that shoots the puck from its own zone across the opposing goal line has the faceoff brought back to its own zone once an opponent touches it",
+        "A shorthanded team may ice the puck legally"
+      ],
+      "checked": "2026-08-08",
+      "archive": null
+    },
+    "espn-2005-rule-changes": {
+      "tier": "secondary",
+      "url": "https://www.espn.com/nhl/preview2005/news/story?id=2180808",
+      "publisher": "ESPN",
+      "establishes": [
+        "The 2005-06 NHL rules package introduced stricter icing including the line-change ban, removed the centre red line, and added the shootout"
+      ],
+      "checked": "2026-08-08",
+      "archive": null,
+      "note": "Corrects an earlier version of the question that attributed the no-line-change rule to 1937. It dates to 2005-06.",
+      "replace": "Replace with the NHL records page for the 2005-06 rule package."
+    },
+    "britannica-sortition": {
+      "tier": "reference",
+      "url": "https://www.britannica.com/topic/sortition",
+      "publisher": "Encyclopaedia Britannica",
+      "establishes": [
+        "In Athenian democracy nearly all magistrates were chosen by lot, beginning with the archons in 487-486 BC",
+        "The Boule of 500 and the law-court juries were also chosen by lot"
+      ],
+      "checked": "2026-08-08",
+      "archive": null
+    },
+    "britannica-archon": {
+      "tier": "reference",
+      "url": "https://www.britannica.com/topic/archon-ancient-Greek-magistrate",
+      "publisher": "Encyclopaedia Britannica",
+      "establishes": [
+        "Officials underwent dokimasia, an examination by the Boule and courts before taking office",
+        "At the end of a term they underwent euthyna, an audit of conduct, especially financial"
+      ],
+      "checked": "2026-08-08",
+      "archive": null
+    },
+    "britannica-operation-uranus": {
+      "tier": "reference",
+      "url": "https://www.britannica.com/event/Operation-Uranus",
+      "publisher": "Encyclopaedia Britannica",
+      "establishes": [
+        "Operation Uranus began 19 November 1942 against the Romanian and Hungarian armies holding the German flanks",
+        "The Third and Fourth Romanian armies were in retreat by 20 November and the ring closed within days"
+      ],
+      "checked": "2026-08-08",
+      "archive": null,
+      "note": "Encirclement strength is reported between 250,000 and 300,000 depending on whether Romanian and Croatian units are counted. The question says 'roughly a quarter of a million' rather than pick a figure."
+    },
+    "britannica-stalingrad": {
+      "tier": "reference",
+      "url": "https://www.britannica.com/event/Battle-of-Stalingrad",
+      "publisher": "Encyclopaedia Britannica",
+      "establishes": [
+        "The Sixth Army surrendered on 31 January and 2 February 1943",
+        "Around 91,000 went into Soviet captivity; only a few thousand survived to return"
+      ],
+      "checked": "2026-08-08",
+      "archive": null
+    },
+    "nationalarchives-domesday": {
+      "tier": "primary",
+      "url": "https://www.nationalarchives.gov.uk/help-with-your-research/research-guides/domesday-book/",
+      "publisher": "The National Archives (UK)",
+      "establishes": [
+        "William wanted to know who held which land, who lived there, its value and the tax due",
+        "Domesday Book is the oldest government record held at The National Archives"
+      ],
+      "checked": "2026-08-08",
+      "archive": null
+    },
+    "britannica-domesday": {
+      "tier": "reference",
+      "url": "https://www.britannica.com/topic/Domesday-Book",
+      "publisher": "Encyclopaedia Britannica",
+      "establishes": [
+        "Seven or eight panels of commissioners each worked a separate group of counties",
+        "Commissioners held sworn inquests in local courts putting fixed questions to local men",
+        "Each property was assessed three times over to capture change across the Conquest"
+      ],
+      "checked": "2026-08-08",
+      "archive": null,
+      "note": "An earlier version of the question claimed a second team was sent to verify the first. That is not supported here and was REMOVED; the three-times assessment is the sourced detail."
+    },
+    "olympics-1904-marathon": {
+      "tier": "primary",
+      "url": "https://www.olympics.com/en/news/the-strange-case-of-the-st-louis-1904-marathon",
+      "publisher": "International Olympic Committee",
+      "establishes": [
+        "Hicks was given egg whites, brandy and strychnine sulphate over the last ten miles and was near-carried across the line",
+        "Fred Lorz finished first but was disqualified for riding in a car",
+        "32 starters from seven nations; only 14 finished"
+      ],
+      "checked": "2026-08-08",
+      "archive": null
+    },
+    "smithsonian-1904-marathon": {
+      "tier": "secondary",
+      "url": "https://www.smithsonianmag.com/history/how-the-1904-marathon-became-one-of-the-weirdest-olympic-events-of-all-time-14910747/",
+      "publisher": "Smithsonian Magazine",
+      "establishes": [
+        "Hicks was hallucinating at the finish as a result of the brandy, raw eggs and strychnine",
+        "The course had a single water station, in heat and dust"
+      ],
+      "checked": "2026-08-08",
+      "archive": null
+    },
+    "npr-stevie-wonder-run": {
+      "tier": "secondary",
+      "url": "https://www.npr.org/2022/03/02/1083730542/half-a-century-ago-stevie-wonder-defined-what-an-artists-classic-run-could-mean",
+      "publisher": "NPR",
+      "establishes": [
+        "Wonder let his Motown contract lapse on turning 21 in 1971 and financed his own recordings",
+        "The resulting 21-page contract gave him creative control, a 20 percent royalty and his own publishing",
+        "It preceded Music of My Mind, Talking Book, Innervisions and Songs in the Key of Life"
+      ],
+      "checked": "2026-08-08",
+      "archive": null,
+      "note": "An earlier version said he 'returned holding the masters'. Not supported; Motown continued to distribute. REMOVED."
+    },
+    "motown-museum-wonder": {
+      "tier": "primary",
+      "url": "https://www.motownmuseum.org/artist/stevie-wonder/",
+      "publisher": "Motown Museum",
+      "establishes": [
+        "Motown's house system placed creative decisions with staff writers and producers",
+        "Wonder's renegotiation was without precedent at the label"
+      ],
+      "checked": "2026-08-08",
+      "archive": null
+    },
+    "deseret-sistine-standing": {
+      "tier": "secondary",
+      "url": "https://www.deseret.com/1988/5/15/18766067/researcher-says-michelangelo-did-sistine-standing-up-and-with-help/",
+      "publisher": "Deseret News",
+      "establishes": [
+        "Michelangelo painted the ceiling standing on his own wall-anchored bridge scaffolding, not lying on his back",
+        "He worked with assistants rather than alone"
+      ],
+      "checked": "2026-08-08",
+      "archive": null
+    },
+    "ebsco-sistine-chapel": {
+      "tier": "reference",
+      "url": "https://www.ebsco.com/research-starters/history/michelangelo-paints-sistine-chapel",
+      "publisher": "EBSCO Research Starters",
+      "establishes": [
+        "Michelangelo rejected the papal architect's scheme and designed a bridge anchored to the walls, about seven feet below the vault",
+        "He stood with head tilted back and arms overhead, working into wet plaster section by section",
+        "He employed as many as thirteen assistants",
+        "The ceiling contains nine central scenes from Genesis"
+      ],
+      "checked": "2026-08-08",
+      "archive": null,
+      "note": "Corrects an earlier version claiming 'minimal assistants', which contradicts the record."
+    },
+    "britannica-antarctica-desert": {
+      "tier": "reference",
+      "url": "https://www.britannica.com/topic/Why-Is-Antarctica-a-Desert",
+      "publisher": "Encyclopaedia Britannica",
+      "establishes": [
+        "Antarctic interior receives about 50mm precipitation a year in liquid equivalent; the coastal belt roughly 500mm",
+        "250mm a year is the common upper limit for a true desert, so the interior qualifies and the coast does not"
+      ],
+      "checked": "2026-08-08",
+      "archive": null
+    },
+    "bas-antarctic-factsheet": {
+      "tier": "primary",
+      "url": "https://www.bas.ac.uk/about/education-and-schools/antarctic-factsheet/",
+      "publisher": "British Antarctic Survey",
+      "establishes": [
+        "The Antarctic interior receives the equivalent of only 50mm rainfall a year, comparable to the Sahara"
+      ],
+      "checked": "2026-08-08",
+      "archive": null
+    },
+    "pnas-kilimanjaro-ice": {
+      "tier": "primary",
+      "url": "https://www.pnas.org/doi/10.1073/pnas.0906029106",
+      "publisher": "PNAS (Thompson et al., 2009)",
+      "establishes": [
+        "Kilimanjaro ice cover fell from 12.06 sq km in 1912 to 1.85 sq km in 2007, about 85 percent",
+        "Loss ran ~1% a year 1912-1953 and ~2.5% a year 1989-2007; 26% of the ice present in 2000 was gone by 2007"
+      ],
+      "checked": "2026-08-08",
+      "archive": null,
+      "note": "The question states a dated range (1912 to 2007) rather than a running total, so it cannot expire. Some later sources report 91%."
+    },
+    "britannica-tenochtitlan": {
+      "tier": "reference",
+      "url": "https://www.britannica.com/place/Tenochtitlan",
+      "publisher": "Encyclopaedia Britannica",
+      "establishes": [
+        "Tenochtitlan was built on an island in Lake Texcoco with causeways, aqueducts and chinampas",
+        "Population estimates vary widely and are disputed"
+      ],
+      "checked": "2026-08-08",
+      "archive": null,
+      "note": "Published estimates run from ~60,000 (Evans) to 200,000-300,000 (Sanders/Parsons/Santley, Calnek) to 400,000. The question gives the range rather than picking a figure."
+    },
+    "seville-16c-population": {
+      "tier": "secondary",
+      "url": "https://www.spainthenandnow.com/spanish-history/seville-16th-and-17th-centuries",
+      "publisher": "Spain Then and Now",
+      "establishes": [
+        "Seville had under 50,000 residents in 1530 and about 90,000 by 1594"
+      ],
+      "checked": "2026-08-08",
+      "archive": null
+    },
+    "riaa-ten-nevermind": {
+      "tier": "primary",
+      "url": "https://www.riaa.com/gold-platinum/",
+      "publisher": "RIAA",
+      "establishes": [
+        "Nirvana's Nevermind and Pearl Jam's Ten are each certified 13x platinum in the United States"
+      ],
+      "checked": "2026-08-08",
+      "recheck": "2028-01-01",
+      "archive": null,
+      "note": "Replaces an unqualified claim that Ten 'outsold Nevermind over time', which is true domestically but false worldwide."
+    },
+    "usgs-three-gorges": {
+      "tier": "primary",
+      "url": "https://www.usgs.gov/water-science-school/science/three-gorges-dam-worlds-largest-hydroelectric-plant",
+      "publisher": "US Geological Survey",
+      "establishes": [
+        "Three Gorges Dam has an installed capacity of 22,500 MW, the largest of any power station"
+      ],
+      "checked": "2026-08-08",
+      "recheck": "2028-01-01",
+      "archive": null,
+      "note": "Live superlative. Corroborated by Guinness World Records. Recheck if a larger plant is commissioned."
+    },
+    "cbc-three-gorges-displacement": {
+      "tier": "secondary",
+      "url": "https://www.cbc.ca/news/world/china-s-three-gorges-dam-project-to-displace-1-4-million-official-1.588940",
+      "publisher": "CBC News",
+      "establishes": [
+        "Chinese officials raised the displacement total to 1.4 million people"
+      ],
+      "checked": "2026-08-08",
+      "archive": null,
+      "note": "Corroborated by CNN and Scientific American. The '1,300 archaeological sites' figure was REMOVED from the question as unverified."
+    },
+    "nasa-three-gorges-rotation": {
+      "tier": "primary",
+      "url": "https://www.nasa.gov/",
+      "publisher": "NASA (Benjamin Fong Chao)",
+      "establishes": [
+        "The reservoir holds roughly 40 billion tonnes of water; shifting that mass lengthened the day by 0.06 microseconds"
+      ],
+      "checked": "2026-08-08",
+      "archive": null,
+      "replace": "Placeholder URL. Find the specific NASA/GSFC page or Chao's paper before this ships.",
+      "note": "Corrects an earlier version that said 'a few hundred-billionths of a second', which understated the effect by roughly 200x."
+    },
+    "britannica-adwa": {
+      "tier": "reference",
+      "url": "https://www.britannica.com/event/Battle-of-Adwa",
+      "publisher": "Encyclopaedia Britannica",
+      "establishes": [
+        "Battle of Adwa, 1 March 1896: Menelik II's force of over 100,000 destroyed an Italian army of about 14,500, half Italian and half askari",
+        "Italy signed the Treaty of Addis Ababa on 26 October 1896, abrogating Wichale and recognising Ethiopian sovereignty"
+      ],
+      "checked": "2026-08-08",
+      "archive": null,
+      "note": "Corrects an earlier version giving the Italian force as 'around 17,000'."
+    },
+    "fai-gagarin-60th": {
+      "tier": "primary",
+      "url": "https://www.fai.org/news/60th-anniversary-gagarin-space-flight",
+      "publisher": "Federation Aeronautique Internationale",
+      "establishes": [
+        "Vostok 1 lasted 108 minutes",
+        "FAI rules of 1961 required the pilot to land with the craft for an official record"
+      ],
+      "checked": "2026-08-08",
+      "archive": null
+    },
+    "planetary-vostok-1": {
+      "tier": "secondary",
+      "url": "https://www.planetary.org/space-missions/vostok-1",
+      "publisher": "The Planetary Society",
+      "establishes": [
+        "Gagarin ejected and parachuted from about 7 km rather than landing in the capsule",
+        "The USSR did not admit the separate landing until 1971"
+      ],
+      "checked": "2026-08-08",
+      "archive": null
+    },
+    "americansongwriter-jb-fines": {
+      "tier": "secondary",
+      "url": "https://americansongwriter.com/the-story-behind-james-browns-infamous-5-fines/",
+      "publisher": "American Songwriter",
+      "establishes": [
+        "Brown signalled fines mid-performance with a splayed hand meaning five dollars, each pulse another five",
+        "Fines were levied for wrong notes, missed cues and unshined shoes"
+      ],
+      "checked": "2026-08-08",
+      "archive": null
+    },
+    "nowagain-jbs-bootsy": {
+      "tier": "primary",
+      "url": "https://www.nowagainrecords.com/the-lost-james-brown-bootsy-collins-album/",
+      "publisher": "Now-Again Records",
+      "establishes": [
+        "Most of Brown's band walked out over pay in March 1970",
+        "He hired the Pacemakers, a Cincinnati four-piece including 17-year-old Bootsy Collins and his brother Catfish, and renamed them the JBs"
+      ],
+      "checked": "2026-08-08",
+      "archive": null
+    },
+    "nature-green-sahara": {
+      "tier": "primary",
+      "url": "https://www.nature.com/scitable/knowledge/library/green-sahara-african-humid-periods-paced-by-82884405/",
+      "publisher": "Nature Education",
+      "establishes": [
+        "The African Humid Period ran roughly 11,000 to 5,000 years ago with the Sahara vegetated and lake-covered",
+        "It is paced by precession of the equinoxes, a cycle of about 23,000 years"
+      ],
+      "checked": "2026-08-08",
+      "archive": null,
+      "note": "Corrects an earlier version giving the cycle as 'roughly every 20,000 years'. Also: the swimming-figures rock art is at Wadi Sura in Egypt, not Tassili n'Ajjer; that detail was REMOVED."
+    },
+    "pmc-north-african-humid": {
+      "tier": "primary",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10491769/",
+      "publisher": "PNAS via PubMed Central",
+      "establishes": [
+        "North African humid periods recur over the past 800,000 years, driven by orbital precession",
+        "The most recent peaked between about 9,000 and 6,000 years ago"
+      ],
+      "checked": "2026-08-08",
+      "archive": null
+    },
+    "deadline-gotg-profit": {
+      "tier": "secondary",
+      "url": "https://deadline.com/2015/03/guardians-of-the-galaxy-profit-box-office-2014-1201391217/",
+      "publisher": "Deadline",
+      "establishes": [
+        "Guardians of the Galaxy grossed $773 million worldwide on a $170 million budget",
+        "$333m domestic, $344.5m foreign, $96.5m China"
+      ],
+      "checked": "2026-08-08",
+      "archive": null
+    },
+    "thr-gotg-opening": {
+      "tier": "secondary",
+      "url": "https://www.hollywoodreporter.com/movies/movie-news/box-office-guardians-galaxy-amazes-723049/",
+      "publisher": "The Hollywood Reporter",
+      "establishes": [
+        "Opened to $94.3 million in North America, the largest August debut at the time"
+      ],
+      "checked": "2026-08-08",
+      "archive": null
+    },
+    "officialcharts-bohemian-50": {
+      "tier": "primary",
+      "url": "https://www.officialcharts.com/chart-news/queen-bohemian-rhapsody-50-years/",
+      "publisher": "Official Charts Company",
+      "establishes": [
+        "Bohemian Rhapsody released 31 October 1975 and spent nine weeks at UK number one",
+        "It returned to number one after Freddie Mercury's death in 1991"
+      ],
+      "checked": "2026-08-08",
+      "archive": null
+    },
+    "udiscover-bohemian-rhapsody": {
+      "tier": "secondary",
+      "url": "https://www.udiscovermusic.com/stories/queen-bohemian-rhapsody-song-history/",
+      "publisher": "uDiscover Music",
+      "establishes": [
+        "The song runs 5:55; EMI objected to the length",
+        "Kenny Everett played it on Capital Radio fourteen times in two days before release, from a reel-to-reel",
+        "The operatic section took close to a month, with Roy Baker splicing in tape as Mercury kept adding Galileos"
+      ],
+      "checked": "2026-08-08",
+      "archive": null,
+      "note": "Corrects an earlier version giving the opera section as 'roughly three weeks'. The 'tape worn thin enough to see through' anecdote was REMOVED as unverifiable."
+    },
+    "historynet-guns-constantinople": {
+      "tier": "secondary",
+      "url": "https://historynet.com/the-guns-of-constantinople/",
+      "publisher": "HistoryNet / Military History",
+      "establishes": [
+        "Orban, a Hungarian founder, first offered his services to the defenders before casting bombards for Mehmed II",
+        "The largest bombard was about 27 feet (8m) long with a 30-inch bore",
+        "It fired stone balls of roughly 600 to 680 kg",
+        "Reload took hours; the Theodosian Walls could not be repaired fast enough"
+      ],
+      "checked": "2026-08-08",
+      "archive": null,
+      "note": "Corrects an earlier version giving the shot as 'half a tonne'; the sourced range is above that."
+    },
+    "pgatour-1997-masters": {
+      "tier": "primary",
+      "url": "https://www.pgatour.com/article/news/latest/2017/04/03/tiger-woods-witnesses-to-history-1997-masters-augusta-national",
+      "publisher": "PGA Tour",
+      "establishes": [
+        "Woods finished 18 under, 270, a tournament record until Dustin Johnson beat it in 2020",
+        "He won by twelve strokes over Tom Kite, the largest margin in Masters history",
+        "At 21 he was the youngest and first non-white Masters winner",
+        "Augusta did not invite a Black player until Lee Elder in 1975, the year Woods was born"
+      ],
+      "checked": "2026-08-08",
+      "archive": null,
+      "note": "The '1990 first Black member' and '1983 caddie rule' details were REMOVED as unverified in this pass. The Lee Elder fact carries the same point and is sourced."
+    },
+    "deadline-get-out-profit": {
+      "tier": "secondary",
+      "url": "https://deadline.com/2018/03/get-out-box-office-profit-2017-1202345412/",
+      "publisher": "Deadline",
+      "establishes": [
+        "Get Out grossed over $255 million on a $4.5 million budget and was the most profitable film of 2017"
+      ],
+      "checked": "2026-08-08",
+      "archive": null
+    },
+    "cnbc-peele-oscar": {
+      "tier": "secondary",
+      "url": "https://www.cnbc.com/2018/03/05/oscar-winner-jordan-peele-didnt-think-get-out-would-ever-get-made.html",
+      "publisher": "CNBC",
+      "establishes": [
+        "Peele was the first African American to win the Academy Award for Best Original Screenplay",
+        "He was the first African American nominated for producing, writing and directing in the same year"
+      ],
+      "checked": "2026-08-08",
+      "archive": null
+    },
+    "lithub-milch-obscenity": {
+      "tier": "primary",
+      "url": "https://lithub.com/david-milch-on-language-and-obscenity-in-deadwood/",
+      "publisher": "Literary Hub (David Milch, in his own words)",
+      "establishes": [
+        "Milch's research found mining-camp speech was of unrelieved coarseness",
+        "Period profanity was blasphemous rather than scatological, so he substituted modern obscenity to carry the same force"
+      ],
+      "checked": "2026-08-08",
+      "archive": null
+    },
+    "slate-milch-deadwood": {
+      "tier": "secondary",
+      "url": "https://slate.com/culture/2019/06/david-milch-on-creating-deadwood-and-the-shows-profane-dialogue.html",
+      "publisher": "Slate",
+      "establishes": [
+        "Milch designed the camp as a society inventing law without outside governance",
+        "HBO cancelled Deadwood after season three; a 2019 film concluded the story"
+      ],
+      "checked": "2026-08-08",
+      "archive": null
+    },
+    "whoi-vent-discovery-1977": {
+      "tier": "primary",
+      "url": "https://www.whoi.edu/feature/history-hydrothermal-vents/discovery/1977.html",
+      "publisher": "Woods Hole Oceanographic Institution",
+      "establishes": [
+        "Vent communities found February 1977 at the Galapagos Rift from RV Knorr using the ANGUS camera sled",
+        "Giant clams, mussels and metre-long tube worms found at a supposedly nutrient-poor depth",
+        "Colleen Cavanaugh proposed the chemosynthetic symbiosis mechanism in 1981"
+      ],
+      "checked": "2026-08-08",
+      "archive": null,
+      "note": "An earlier version implied chemosynthesis was understood in 1977. The mechanism came in 1981; the question now separates the two."
+    },
+    "eea-po-valley": {
+      "tier": "primary",
+      "url": "https://www.eea.europa.eu/en/topics/in-depth/air-pollution",
+      "publisher": "European Environment Agency",
+      "establishes": [
+        "The Po Valley is the most polluted region in Western Europe and regularly exceeds annual PM limits"
+      ],
+      "checked": "2026-08-08",
+      "archive": null,
+      "replace": "Link the specific EEA air-quality report page for the Po Valley rather than the topic index."
+    },
+    "esa-po-valley": {
+      "tier": "primary",
+      "url": "https://www.esa.int/Applications/Observing_the_Earth/Air_pollution_fluctuations_over_the_Po_Valley",
+      "publisher": "European Space Agency",
+      "establishes": [
+        "The Alps to the north and Apennines to the south enclose the valley; winter temperature inversions trap emissions rather than dispersing them"
+      ],
+      "checked": "2026-08-08",
+      "archive": null
+    },
+    "plutarch-alexander-iliad": {
+      "tier": "primary",
+      "url": "https://penelope.uchicago.edu/Thayer/e/roman/texts/plutarch/lives/alexander*/3.html",
+      "publisher": "Plutarch, Life of Alexander (Loeb, via UChicago)",
+      "establishes": [
+        "Plutarch, citing Onesicritus, reports Alexander kept Aristotle's corrected Iliad, the 'casket copy', with a dagger under his pillow",
+        "He called it a portable treasury of military virtue"
+      ],
+      "checked": "2026-08-08",
+      "archive": null,
+      "note": "A single ancient report, not an independently documented fact. The question option was changed from 'annotated by Aristotle himself' to 'said to be Aristotle's own' and the explanation now attributes it to Plutarch and Onesicritus."
+    },
+    "ahf-target-committee": {
+      "tier": "primary",
+      "url": "https://ahf.nuclearmuseum.org/ahf/history/interim-committee/",
+      "publisher": "Atomic Heritage Foundation / National Museum of Nuclear Science and History",
+      "establishes": [
+        "A 15 May 1945 directive reserved Hiroshima, Kyoto and Niigata from conventional firebombing so the atomic effect could be assessed on undamaged cities",
+        "Kokura was added to the reserved list on 27 June",
+        "Stimson had Kyoto removed on cultural and religious grounds; Nagasaki replaced it in late July"
+      ],
+      "checked": "2026-08-08",
+      "archive": null,
+      "note": "The 'Stimson honeymooned in Kyoto' anecdote was REMOVED. Historian Alex Wellerstein argues at nuclearsecrecy.com that it is a misconception. The cultural-significance grounds are not disputed. Specific casualty figures were also removed; published ranges vary too widely to state one."
+    },
+    "natgeo-nagasaki-target": {
+      "tier": "secondary",
+      "url": "https://www.nationalgeographic.com/history/article/twists-fate-made-nagasaki-target-atomic-bomb",
+      "publisher": "National Geographic",
+      "establishes": [
+        "Bockscar circled Kokura three times on 9 August without clear visibility",
+        "A break in cloud over Nagasaki let bombardier Kermit Beahan sight the city, and he was authorised to bomb either"
+      ],
+      "checked": "2026-08-08",
+      "archive": null
+    },
+    "time-toy-story-20": {
+      "tier": "secondary",
+      "url": "https://time.com/4118006/20-years-toy-story-pixar/",
+      "publisher": "TIME",
+      "establishes": [
+        "Humans were too difficult to animate convincingly in 1995, which is why Pixar centred the film on toys",
+        "Organic shapes rendered as though plastic, which suited a film about plastic objects",
+        "The team initially intended to keep humans out of frame rather than animate them crudely"
+      ],
+      "checked": "2026-08-08",
+      "archive": null
+    },
+    "bloomsbury-toy-story-textures": {
+      "tier": "primary",
+      "url": "https://www.bloomsburycollections.com/book/toy-story-how-pixar-reinvented-the-animated-feature/ch5-rough-and-smooth-the-everyday-textures-of-toy-story",
+      "publisher": "Bloomsbury Academic",
+      "establishes": [
+        "Rendering ran up to 30 hours per frame on a farm of 117 Sun SPARCstation 20s",
+        "About 800,000 machine hours for the film's 114,200 frames"
+      ],
+      "checked": "2026-08-08",
+      "archive": null
+    },
+    "billboard-hotel-california": {
+      "tier": "primary",
+      "url": "https://www.billboard.com/pro/rewinding-the-charts-eagles-hotel-california-checks-in-at-no-1/",
+      "publisher": "Billboard",
+      "establishes": [
+        "Hotel California first hit number one on the Billboard 200 dated 15 January 1977",
+        "It spent eight non-consecutive weeks at number one across four separate stints"
+      ],
+      "checked": "2026-08-08",
+      "archive": null,
+      "note": "Corrects an earlier version implying eight consecutive weeks."
+    },
+    "artic-american-gothic": {
+      "tier": "primary",
+      "url": "https://www.artic.edu/artworks/6565/american-gothic",
+      "publisher": "The Art Institute of Chicago",
+      "establishes": [
+        "Wood consistently rejected suggestions that American Gothic satirised the Midwest and its conservative values",
+        "He intended a positive image of rural American values, reassurance at the start of the Depression",
+        "The models were his dentist B.H. McKeeby and his sister Nan, posed as farmer and daughter",
+        "Inspired by a Carpenter Gothic house at Eldon, Iowa",
+        "Debuted at the Art Institute in 1930, winning Wood a $300 prize"
+      ],
+      "checked": "2026-08-08",
+      "archive": null,
+      "note": "CRITICAL CORRECTION. The earlier version of this question asserted Wood intended 'a gentle satire of small-town Midwestern puritanism'. That is the popular reading and the opposite of what he said. The question was rewritten to ask what Wood said about the satire reading."
+    },
+    "britannica-partition": {
+      "tier": "reference",
+      "url": "https://www.britannica.com/event/Partition-of-India",
+      "publisher": "Encyclopaedia Britannica",
+      "establishes": [
+        "Pakistan's transfer was 14 August 1947 in Karachi and India's at midnight into 15 August in Delhi",
+        "Between 12 and 20 million people crossed the new borders"
+      ],
+      "checked": "2026-08-08",
+      "archive": null,
+      "note": "Corrects an earlier '10 to 20 million' figure."
+    },
+    "diplomat-radcliffe-line": {
+      "tier": "secondary",
+      "url": "https://thediplomat.com/2017/08/70-years-of-the-radcliffe-line-understanding-the-story-of-indian-partition/",
+      "publisher": "The Diplomat",
+      "establishes": [
+        "Cyril Radcliffe had never visited India and drew the boundary in about five weeks",
+        "The line was finalised 12 August but not published until 17 August 1947",
+        "Mountbatten attended the Karachi ceremony on the 14th then flew to Delhi"
+      ],
+      "checked": "2026-08-08",
+      "archive": null
+    },
+    "historicjamestowne-jane": {
+      "tier": "primary",
+      "url": "https://historicjamestowne.org/archaeology/jane/jane-in-the-news/",
+      "publisher": "Historic Jamestowne / Jamestown Rediscovery",
+      "establishes": [
+        "Partial skull and tibia of a 14-year-old English girl, 'Jane', from a 1609-10 trash deposit show cut marks consistent with survival cannibalism",
+        "First scientifically proven case of survival cannibalism in colonial America"
+      ],
+      "checked": "2026-08-08",
+      "archive": null
+    },
+    "smithsonian-jamestown-cannibalism": {
+      "tier": "secondary",
+      "url": "https://www.smithsonianmag.com/history/starving-settlers-in-jamestown-colony-resorted-to-cannibalism-46000815/",
+      "publisher": "Smithsonian Magazine",
+      "establishes": [
+        "About 500 people were in James Fort at the start of winter 1609-10; roughly 61 were alive by spring",
+        "A Powhatan siege cut the fort off from relief alongside disease and shortage"
+      ],
+      "checked": "2026-08-08",
+      "archive": null,
+      "note": "Corrects an earlier version giving 'roughly 300 colonists, around 60 survived'."
+    },
+    "espn-omega-phelps-cavic": {
+      "tier": "secondary",
+      "url": "https://www.espn.com/olympics/summer08/swimming/news/story?id=3550164",
+      "publisher": "ESPN / Omega timing",
+      "establishes": [
+        "Phelps touched in 50.58 to Cavic's 50.59 in the Beijing 100m butterfly",
+        "The Serbian protest was rejected after Omega reviewed touchpad data to ten-thousandths of a second"
+      ],
+      "checked": "2026-08-08",
+      "archive": null
+    },
+    "variety-oscars-envelope": {
+      "tier": "secondary",
+      "url": "https://variety.com/2017/film/news/oscar-best-picture-gaffe-brian-cullinan-envelope-1201999283/",
+      "publisher": "Variety",
+      "establishes": [
+        "PwC accountant Brian Cullinan handed Warren Beatty the duplicate Best Actress envelope instead of Best Picture",
+        "Cullinan had been tweeting from backstage minutes before",
+        "PwC prepares two identical envelope sets, one per side of the stage"
+      ],
+      "checked": "2026-08-08",
+      "archive": null
+    },
+    "cbs-pwc-accountants-removed": {
+      "tier": "secondary",
+      "url": "https://www.cbsnews.com/losangeles/news/accountants-responsible-for-best-picture-mix-up-off-the-show-permanently/",
+      "publisher": "CBS News",
+      "establishes": [
+        "Brian Cullinan and Martha Ruiz were permanently removed from all Academy work"
+      ],
+      "checked": "2026-08-08",
+      "archive": null,
+      "note": "The 'phones banned backstage' detail was REMOVED as unverified in this pass."
+    },
+    "grancanaria-canary-name": {
+      "tier": "secondary",
+      "url": "https://gran-canaria-info.com/en/content/history/are-the-canary-islands-really-named-after-big-dogs",
+      "publisher": "Gran Canaria Info",
+      "establishes": [
+        "Pliny the Elder, recording Juba II's expedition, wrote the islands held vast multitudes of very large dogs",
+        "Canariae Insulae means islands of the dogs, from Latin canis; the bird is named after the islands",
+        "Alternative explanations: the 'dogs' may have been monk seals, or the name may come from the Canarii Berber people"
+      ],
+      "checked": "2026-08-08",
+      "archive": null,
+      "replace": "Weak publisher for a well-covered etymology. Replace with Britannica or a Pliny Natural History citation (Bk VI). (now paired with a stronger source, so not blocking)"
+    },
+    "britannica-kano": {
+      "tier": "reference",
+      "url": "https://www.britannica.com/biography/Kano-Jigoro",
+      "publisher": "Encyclopaedia Britannica",
+      "establishes": [
+        "Kano founded judo in 1882 at the Kodokan",
+        "He removed the most dangerous jujitsu techniques and emphasised randori, free practice",
+        "The dangerous techniques were preserved in kata"
+      ],
+      "checked": "2026-08-08",
+      "archive": null
+    },
+    "ijf-history": {
+      "tier": "primary",
+      "url": "https://www.ijf.org/history",
+      "publisher": "International Judo Federation",
+      "establishes": [
+        "Judo is taught through randori, kata and mondo",
+        "Kano created the belt ranking system later adopted across martial arts",
+        "Judo entered the Olympic programme at Tokyo 1964"
+      ],
+      "checked": "2026-08-08",
+      "archive": null
+    },
+    "britannica-greco-persian": {
+      "tier": "reference",
+      "url": "https://www.britannica.com/event/Greco-Persian-Wars",
+      "publisher": "Encyclopaedia Britannica",
+      "establishes": [
+        "Hoplites fought in phalanx, heavily armoured shoulder to shoulder, decisive at close quarters",
+        "Greek strategy channelled Persian numbers into ground that negated archery, cavalry and mass",
+        "Herodotus's figures in the millions are far above modern estimates of 120,000 to 300,000"
+      ],
+      "checked": "2026-08-08",
+      "archive": null
+    },
+    "pulitzer-kendrick-lamar": {
+      "tier": "primary",
+      "url": "https://www.pulitzer.org/winners/kendrick-lamar",
+      "publisher": "The Pulitzer Prizes",
+      "establishes": [
+        "Kendrick Lamar won the 2018 Pulitzer Prize for Music for DAMN.",
+        "It was the first Music Pulitzer awarded to a work outside classical and jazz"
+      ],
+      "checked": "2026-08-08",
+      "archive": null
+    },
+    "volleywood-spike-record": {
+      "tier": "secondary",
+      "url": "https://www.volleywood.net/volleyball-related-news/volleyball-news-north-america/kaziyski-santos-lightning-spikes/",
+      "publisher": "Volleywood / La Gazzetta dello Sport",
+      "establishes": [
+        "Matey Kaziyski's spike was measured at 132 km/h, among the fastest recorded in men's volleyball",
+        "Professional attackers regularly hit 100-120 km/h",
+        "A ball at that speed leaves a defender roughly 0.2 to 0.3 seconds"
+      ],
+      "checked": "2026-08-08",
+      "archive": null,
+      "replace": "Replace with an FIVB or peer-reviewed measurement. The PubMed force-velocity study (33798256) may serve. (now paired with a stronger source, so not blocking)"
+    },
+    "diplomat-east-sea": {
+      "tier": "secondary",
+      "url": "https://thediplomat.com/2020/11/south-koreas-fight-against-the-sea-of-japan-pays-off/",
+      "publisher": "The Diplomat",
+      "establishes": [
+        "The IHO adopted 'Japan Sea' in its 1929 Limits of Oceans and Seas while Korea was under Japanese colonial rule and unrepresented",
+        "Korea joined the IHO only in 1957 and has campaigned for dual naming since 1997",
+        "The IHO rejected the change in 2012, then moved to a digital standard using numeric identifiers"
+      ],
+      "checked": "2026-08-08",
+      "archive": null,
+      "note": "Corrects an earlier version claiming 'international organizations have begun using both names' and that 'Sea of Japan became dominant in the 19th century'. The IHO decision was 1929."
+    },
+    "orban-cannon-paper": {
+      "tier": "primary",
+      "url": "https://www.researchgate.net/publication/395382539_Orban_Cannon-Maker_Of_Constantinople_1452-1453",
+      "publisher": "Academic paper: Orban, Cannon-Maker of Constantinople (1452-1453)",
+      "establishes": [
+        "Orban cast the great bombards used against the Theodosian Walls in 1453 for Mehmed II after first approaching the defenders"
+      ],
+      "checked": "2026-08-08",
+      "archive": null,
+      "replace": "ResearchGate hosting rather than the journal of record. Find the published venue."
+    },
+    "swimworld-phelps-cavic": {
+      "tier": "secondary",
+      "url": "https://www.swimmingworldmagazine.com/news/on-this-date-michael-phelps-vs-milorad-cavic-a-half-stroke-to-history-at-beijing-games/",
+      "publisher": "Swimming World Magazine",
+      "establishes": [
+        "Phelps chopped a half-stroke into the wall while Cavic glided, winning by one hundredth",
+        "Result confirmed after review; the Serbian protest was rejected"
+      ],
+      "checked": "2026-08-08",
+      "archive": null
+    },
+    "complex-through-the-wire": {
+      "tier": "secondary",
+      "url": "https://www.complex.com/music/a/khal/kanye-west-through-the-wire-twitter-trending",
+      "publisher": "Complex",
+      "establishes": [
+        "West's jaw was broken in three places in an October 2002 crash in West Hollywood and wired shut",
+        "He recorded Through the Wire with the jaw still wired, over a Chaka Khan sample",
+        "The song is what convinced Roc-A-Fella executives to take him seriously as an artist"
+      ],
+      "checked": "2026-08-08",
+      "archive": null
+    },
+    "rollingstone-kanye-dropout": {
+      "tier": "secondary",
+      "url": "https://rollingstone.com/music/music-news/kanye-west-is-making-beats-and-his-own-solo-album-77815/",
+      "publisher": "Rolling Stone",
+      "establishes": [
+        "West was known as a producer for Jay-Z and others before The College Dropout and faced industry scepticism as a rapper"
+      ],
+      "checked": "2026-08-08",
+      "archive": null
+    },
+    "britannica-canary-islands": {
+      "tier": "reference",
+      "url": "https://www.britannica.com/place/Canary-Islands",
+      "publisher": "Encyclopaedia Britannica",
+      "establishes": [
+        "The name derives from Latin canis, dog, for the many large dogs early explorers reported",
+        "Romans learned of the islands from Juba II of Mauretania, whose c.40 BC expedition account survives via Plutarch and Pliny",
+        "Pliny: 'Canaria, so called from the multitude of dogs of great size'"
+      ],
+      "checked": "2026-08-08",
+      "archive": null
+    },
+    "pubmed-spike-velocity": {
+      "tier": "primary",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33798256/",
+      "publisher": "PubMed / Journal of Sports Sciences",
+      "establishes": [
+        "Measured spike and serve ball speeds in top-level male volleyball players, establishing the elite speed range"
+      ],
+      "checked": "2026-08-08",
+      "archive": null
+    },
+    "nbr-japan-korea-maritime": {
+      "tier": "reference",
+      "url": "https://www.nbr.org/publication/the-rough-state-of-japan-south-korea-relations-friction-and-disputes-in-the-maritime-domain/",
+      "publisher": "National Bureau of Asian Research",
+      "establishes": [
+        "The Sea of Japan / East Sea naming question is an active bilateral dispute tied to the colonial period"
+      ],
+      "checked": "2026-08-08",
+      "archive": null
+    }
+  }
+}

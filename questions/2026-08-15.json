@@ -11,8 +11,13 @@
         "Pakistan chose a date with religious significance"
       ],
       "answer": "Mountbatten attended each ceremony, a day apart",
-      "explanation": "Louis Mountbatten, the last Viceroy, physically attended both transfers, so Pakistan's was held in Karachi on 14 August and India's in Delhi on 15 August. The boundary line itself had been drawn by Cyril Radcliffe, a lawyer who had never been to India, working in five weeks. It was not published until 17 August, so for two days millions did not know which country they were in. Partition displaced 10 to 20 million people.",
-      "memory_hook": "Mountbatten went to both ceremonies, so Pakistan's was 14 August in Karachi and India's 15 August in Delhi. The border was drawn in five weeks by a lawyer who had never visited India, and it was not published until the 17th, so for two days people did not know which country they lived in."
+      "explanation": "Louis Mountbatten, the last Viceroy, attended both transfers in person, Pakistan's in Karachi on 14 August and India's in Delhi at midnight on the 15th. The boundary itself had been drawn by Cyril Radcliffe, a lawyer who had never been to India, working in about five weeks. It was finalised on 12 August but not published until the 17th, so for days millions did not know which country they were in. Somewhere between 12 and 20 million people crossed the new borders.",
+      "memory_hook": "Mountbatten went to both ceremonies, so Pakistan's was 14 August in Karachi and India's 15 August in Delhi. The border was drawn in five weeks by a lawyer who had never visited India, and it was not published until the 17th, so for two days people did not know which country they lived in.",
+      "sourceRefs": [
+        "britannica-partition",
+        "diplomat-radcliffe-line"
+      ],
+      "riskTier": "source"
     },
     {
       "category": "History",
@@ -25,7 +30,9 @@
       ],
       "answer": "Napoleon Bonaparte",
       "explanation": "The Battle of Waterloo (June 18, 1815) in present-day Belgium was Napoleon's final defeat. He was defeated by the Duke of Wellington's allied forces and Prussian troops. Napoleon abdicated four days later and was exiled to Saint Helena island in the South Atlantic, where he died in 1821. The battle permanently ended French domination of Europe and established the peace settlement of the Congress of Vienna.",
-      "memory_hook": "Waterloo 1815 = Napoleon's final defeat. He was exiled to Saint Helena in the South Atlantic — as far from Europe as possible. He died there 6 years later. The battle lasted one day and ended 20 years of Napoleonic wars. ABBA later immortalized the defeat in a song."
+      "memory_hook": "Waterloo 1815 = Napoleon's final defeat. He was exiled to Saint Helena in the South Atlantic — as far from Europe as possible. He died there 6 years later. The battle lasted one day and ended 20 years of Napoleonic wars. ABBA later immortalized the defeat in a song.",
+      "riskTier": "canonical",
+      "canonicalNote": "Waterloo and Napoleon are fixed and universally attested"
     },
     {
       "category": "History",
@@ -37,8 +44,13 @@
         "An epidemic brought over on the original three ships"
       ],
       "answer": "A winter of starvation that killed most of the colonists",
-      "explanation": "The winter of 1609 to 1610 is called the Starving Time. Of roughly 300 colonists, around 60 survived, and archaeological work has since confirmed cannibalism, including cut marks on the skull of a fourteen-year-old girl. The site was chosen for defensibility rather than fertility, on brackish marshland, and many early settlers were gentlemen unwilling to farm. Survivors had boarded ships to abandon it when a resupply fleet arrived.",
-      "memory_hook": "The Starving Time of 1609-10 left about 60 alive out of 300, and archaeologists have found cut marks on a fourteen-year-old girl's skull confirming cannibalism. The site was picked for defence, not farming, on brackish marsh. Survivors were literally sailing away when resupply arrived."
+      "explanation": "The winter of 1609 to 1610 is called the Starving Time. Of roughly 500 people in James Fort at the start of it, about 61 were alive by spring, and archaeological work has confirmed survival cannibalism from cut marks on the skull of a fourteen-year-old girl the researchers call Jane. It was not only bad farming: a Powhatan siege cut the fort off from outside relief, and the site had been picked for defensibility on brackish marshland. Survivors had boarded ships to abandon it when a resupply fleet arrived.",
+      "memory_hook": "The Starving Time of 1609-10 left about 60 alive out of 300, and archaeologists have found cut marks on a fourteen-year-old girl's skull confirming cannibalism. The site was picked for defence, not farming, on brackish marsh. Survivors were literally sailing away when resupply arrived.",
+      "sourceRefs": [
+        "historicjamestowne-jane",
+        "smithsonian-jamestown-cannibalism"
+      ],
+      "riskTier": "source"
     },
     {
       "category": "Sports",
@@ -50,8 +62,13 @@
         "The ranking system, so nobody could claim seniority"
       ],
       "answer": "Strikes and joint locks too dangerous to practise fully",
-      "explanation": "Kano stripped out techniques that could not be trained at full intensity without injury, which let students practise live against a resisting opponent rather than rehearsing set forms. That was the innovation, and it is why judo could be tested competitively and eventually entered the Olympics in 1964. Kano also invented the coloured belt system and the modern black belt, both of which spread to virtually every other martial art.",
-      "memory_hook": "Kano removed what could not be practised at full speed safely, so students could spar live against real resistance instead of rehearsing forms. That is why judo could be competed at all. He also invented coloured belts and the black belt, which nearly every other martial art then copied."
+      "explanation": "Kano stripped out the techniques that could not be trained at full intensity without injury, which let students practise randori, live sparring against a resisting opponent, rather than rehearsing set forms. The dangerous material was preserved in kata rather than discarded. That was the innovation, and it is why judo could be tested competitively and entered the Olympics at Tokyo in 1964. Kano also devised the coloured belt and dan grading system, which spread to virtually every other martial art.",
+      "memory_hook": "Kano removed what could not be practised at full speed safely, so students could spar live against real resistance instead of rehearsing forms. That is why judo could be competed at all. He also invented coloured belts and the black belt, which nearly every other martial art then copied.",
+      "sourceRefs": [
+        "britannica-kano",
+        "ijf-history"
+      ],
+      "riskTier": "source"
     },
     {
       "category": "Sports",
@@ -63,8 +80,13 @@
         "The ball can arrive at over 100 km/h from close range"
       ],
       "answer": "The ball can arrive at over 100 km/h from close range",
-      "explanation": "Elite men's spikes have been measured above 130 km/h, hit downward from above net height a few metres away, so the defender has a fraction of a second and is usually reacting before the ball is struck. Digging is about reading the hitter's shoulders and approach rather than watching the ball. The libero specialises in it, but any player may dig, and there is no requirement to use a fist or call for it.",
-      "memory_hook": "Elite spikes come down at over 130 km/h from a few metres away, so you are reacting before contact and reading the hitter's shoulders rather than the ball. The libero specialises in digging but anyone can do it, with no fist rule and no calling for it."
+      "explanation": "Elite men's spikes have been measured above 130 km/h, hit downward from above net height a few metres away, so the defender has roughly two to three tenths of a second and is usually reacting before the ball is struck. Digging is about reading the hitter's shoulders and approach rather than watching the ball. The libero specialises in it, but any player may dig, and there is no requirement to use a fist or to call for it.",
+      "memory_hook": "Elite spikes come down at over 130 km/h from a few metres away, so you are reacting before contact and reading the hitter's shoulders rather than the ball. The libero specialises in digging but anyone can do it, with no fist rule and no calling for it.",
+      "sourceRefs": [
+        "volleywood-spike-record",
+        "pubmed-spike-velocity"
+      ],
+      "riskTier": "source"
     },
     {
       "category": "Pop Culture",
@@ -76,8 +98,13 @@
         "Only three colours could be displayed at that time"
       ],
       "answer": "Toys were chosen because plastic was easy to render",
-      "explanation": "Human skin, hair, cloth and organic surfaces were beyond what 1995 hardware could render convincingly, but hard shiny plastic was achievable. Pixar built the story around toys for that reason. The humans in the film still look noticeably worse than the toys. Rendering took up to 30 hours per frame across a farm of 117 Sun workstations. Disney had expected it to fail and gave Pixar limited creative interference as a result.",
-      "memory_hook": "1995 hardware could not do skin, hair or cloth, but shiny plastic was easy, so Pixar built the story around toys. The humans in it still look bad. Some frames took 30 hours to render across 117 workstations. Disney expected a flop, which is why Pixar got left alone."
+      "explanation": "In 1995 organic surfaces were beyond the hardware: skin, hair and cloth rendered so poorly that anything soft came out looking like plastic. Pixar leaned into that and built the story around objects the technology could actually do, and the team initially planned to keep humans out of frame entirely rather than animate them badly. Rendering ran up to 30 hours a frame across a farm of 117 Sun SPARCstation 20s, roughly 800,000 machine hours for 114,200 frames.",
+      "memory_hook": "1995 hardware could not do skin, hair or cloth, but shiny plastic was easy, so Pixar built the story around toys. The humans in it still look bad. Some frames took 30 hours to render across 117 workstations. Disney expected a flop, which is why Pixar got left alone.",
+      "sourceRefs": [
+        "time-toy-story-20",
+        "bloomsbury-toy-story-textures"
+      ],
+      "riskTier": "source"
     },
     {
       "category": "Pop Culture",
@@ -89,21 +116,29 @@
         "A real hotel in Baja California he had stayed in"
       ],
       "answer": "American excess and the underside of the music industry",
-      "explanation": "Henley has repeatedly described it as a song about excess and disillusion in 1970s America, using a hotel as the metaphor, and has expressed irritation at the more elaborate theories. The Church of Satan reading, and the claim that a specific Mexican hotel inspired it, both persist regardless. The album spent eight weeks at number one and the guitar duel between Don Felder and Joe Walsh is among the most analysed in rock.",
-      "memory_hook": "Henley says it is about American excess and the ugly side of the music business, with the hotel as metaphor, and he finds the other theories tiresome. The satanic church and the real-Mexican-hotel stories refuse to die anyway. Eight weeks at number one, and that Felder and Walsh guitar duel."
+      "explanation": "Henley has repeatedly described it as a song about excess and disillusion in 1970s America, using a hotel as the metaphor, and has expressed irritation at the more elaborate theories. The Church of Satan reading, and the claim that a specific Mexican hotel inspired it, both persist regardless. The album took eight non-consecutive weeks at number one on the Billboard 200 across four separate stints in 1977, and the guitar duel between Don Felder and Joe Walsh is among the most analysed in rock.",
+      "memory_hook": "Henley says it is about American excess and the ugly side of the music business, with the hotel as metaphor, and he finds the other theories tiresome. The satanic church and the real-Mexican-hotel stories refuse to die anyway. Eight weeks at number one, and that Felder and Walsh guitar duel.",
+      "sourceRefs": [
+        "billboard-hotel-california"
+      ],
+      "riskTier": "source"
     },
     {
       "category": "Pop Culture",
-      "question": "Grant Wood's 'American Gothic' (1930) is one of America's most parodied images. What did Wood actually intend?",
+      "question": "Grant Wood's American Gothic (1930) is usually taken as satire of the rural Midwest. What did Wood say about that?",
       "options": [
-        "A gentle satire of small-town Midwestern puritanism",
-        "Purely aesthetic; he needed figures to show scale",
-        "A patriotic tribute to Midwestern agrarian virtue",
-        "A critique of Depression-era landlord exploitation"
+        "He said he had meant it as a joke on his own family",
+        "He accepted it but blamed the Art Institute's framing",
+        "He rejected it, meaning the rural values kindly",
+        "He never discussed the painting's meaning publicly"
       ],
-      "answer": "A gentle satire of small-town Midwestern puritanism",
-      "explanation": "Wood was inspired by a Carpenter Gothic house in Eldon, Iowa and painted his sister Nan and his dentist Dr. Byron McKeeby as the models — not a married couple but a father and daughter, as Wood later clarified. Iowans initially complained the painting made them look 'pinched, grim, and repressed,' but it was quickly adopted as a symbol of American frontier resilience. The models — Nan and McKeeby — became briefly famous. The painting was purchased by the Art Institute of Chicago from Wood for $300 in 1930.",
-      "memory_hook": "American Gothic's models were Wood's sister and his dentist — not a couple but a father-daughter pair. Wood intended mild satire of Midwestern puritanism; Iowans saw patriotic pride. The Art Institute of Chicago bought it for $300."
+      "answer": "He rejected it, meaning the rural values kindly",
+      "explanation": "Wood denied the satirical reading for the rest of his life and said he had intended reassurance about rural American values at the start of the Depression. The models were his dentist B.H. McKeeby and his sister Nan, posed as a farmer and his daughter rather than as a couple, in front of a Carpenter Gothic farmhouse he had seen at Eldon, Iowa. It won a $300 prize at the Art Institute of Chicago in 1930 and made him famous immediately, and the ambiguity is exactly why viewers kept supplying their own story.",
+      "memory_hook": "The most parodied painting in America is one whose maker spent his life saying everyone had it backwards.",
+      "sourceRefs": [
+        "artic-american-gothic"
+      ],
+      "riskTier": "source"
     },
     {
       "category": "Geography",
@@ -116,7 +151,9 @@
       ],
       "answer": "The equator, crossing seven African countries",
       "explanation": "The equator crosses Gabon, Congo, DR Congo, Uganda, Kenya, Somalia and Sao Tome and Principe, and the Prime Meridian passes through Ghana, Togo, Burkina Faso, Mali and Algeria. Their intersection at zero latitude and zero longitude sits in the Gulf of Guinea, off Ghana. That combination puts African land north, south, east and west of both lines, which no other continent manages.",
-      "memory_hook": "The equator crosses seven African countries and the Prime Meridian crosses five, and they meet in the Gulf of Guinea just off Ghana. That is why Africa has land in all four hemispheres, which no other continent manages."
+      "memory_hook": "The equator crosses seven African countries and the Prime Meridian crosses five, and they meet in the Gulf of Guinea just off Ghana. That is why Africa has land in all four hemispheres, which no other continent manages.",
+      "riskTier": "canonical",
+      "canonicalNote": "atlas-level geography; the equator and prime meridian crossings are fixed"
     },
     {
       "category": "Science & Nature",
@@ -129,7 +166,9 @@
       ],
       "answer": "Light changes speed entering water, so its path bends",
       "explanation": "Light travels slower in water than in air, and at an angled boundary the change in speed bends the path, which is refraction. Your brain assumes light travelled in a straight line, so it places the submerged part of the straw where it would have been if unbent. The same effect makes pools look shallower than they are, produces rainbows by splitting colours that bend by different amounts, and is what every lens exploits.",
-      "memory_hook": "Light slows down entering water, and at an angle that bends its path. Your brain assumes light came straight, so it draws the straw in the wrong place. Same reason pools look shallower than they are, and why rainbows work, since each colour bends by a slightly different amount."
+      "memory_hook": "Light slows down entering water, and at an angle that bends its path. Your brain assumes light came straight, so it draws the straw in the wrong place. Same reason pools look shallower than they are, and why rainbows work, since each colour bends by a slightly different amount.",
+      "riskTier": "canonical",
+      "canonicalNote": "textbook optics, universally attested"
     },
     {
       "category": "Geography",
@@ -141,8 +180,13 @@
         "The UN has ruled it must be called the Pacific Ocean"
       ],
       "answer": "Korea calls it the East Sea; both names are used",
-      "explanation": "South Korea calls the body of water the 'East Sea' (동해, Donghae), while Japan calls it the 'Sea of Japan.' North Korea calls it the 'East Sea of Korea.' This naming dispute has geopolitical dimensions — South Korea argues the 'Sea of Japan' name was imposed during Japanese colonization (1910-1945). International organizations have begun using both names. Historically, European maps used various names; 'Sea of Japan' became dominant in the 19th century.",
-      "memory_hook": "Sea of Japan vs. East Sea: Japan and Korea have a naming dispute. Korea says 'Sea of Japan' was imposed during colonization (1910-1945). Now many international bodies use both names. Geography and history intertwined — even naming a sea is political."
+      "explanation": "South Korea calls it the East Sea, Donghae; North Korea the East Sea of Korea; Japan the Sea of Japan. The dispute turns on how the name became standard: the International Hydrographic Organization adopted Sea of Japan in its 1929 reference work while Korea was under Japanese colonial rule and had no seat at the table, and Korea did not join the IHO until 1957. Seoul has campaigned for dual naming since 1997. The IHO rejected the change in 2012 and has since moved to a digital standard using numeric identifiers instead.",
+      "memory_hook": "Sea of Japan vs. East Sea: Japan and Korea have a naming dispute. Korea says 'Sea of Japan' was imposed during colonization (1910-1945). Now many international bodies use both names. Geography and history intertwined — even naming a sea is political.",
+      "sourceRefs": [
+        "diplomat-east-sea",
+        "nbr-japan-korea-maritime"
+      ],
+      "riskTier": "source"
     },
     {
       "category": "Science & Nature",
@@ -155,7 +199,9 @@
       ],
       "answer": "Much of the genome does not code for any protein",
       "explanation": "Only around 1 to 2% of human DNA codes for proteins, so a random change most often lands somewhere with no direct effect. The genetic code is also redundant, with several triplets specifying the same amino acid, so even a coding change frequently produces an identical protein. Cells additionally run repair machinery that catches most errors before they stick. Mutations that do matter are the raw material evolution works with.",
-      "memory_hook": "Only 1 to 2% of your DNA codes for proteins, so a random change usually lands somewhere inert. The code is also redundant, with several triplets meaning the same amino acid, so many coding changes still make the same protein. Repair machinery catches most of the rest."
+      "memory_hook": "Only 1 to 2% of your DNA codes for proteins, so a random change usually lands somewhere inert. The code is also redundant, with several triplets meaning the same amino acid, so many coding changes still make the same protein. Repair machinery catches most of the rest.",
+      "riskTier": "canonical",
+      "canonicalNote": "textbook genetics; the ~1-2% coding figure is universally attested"
     }
   ]
 }

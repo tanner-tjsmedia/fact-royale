@@ -11,8 +11,13 @@
         "A ruined settlement recently abandoned by its people"
       ],
       "answer": "A city larger than any in Spain, built on a lake",
-      "explanation": "Tenochtitlan held perhaps 200,000 people, several times the population of contemporary Seville or London, built on an island in Lake Texcoco with causeways, aqueducts and floating gardens. The Spanish accounts describe soldiers doubting what they were seeing. Within two years it was destroyed, mostly by smallpox, which killed a large share of the population before the final siege, and by tens of thousands of Indigenous allies who resented Aztec tribute demands. Mexico City sits on top of it.",
-      "memory_hook": "Tenochtitlan had maybe 200,000 people, bigger than Seville or London, on an island with causeways, aqueducts and floating gardens. Spanish soldiers wrote that they doubted their own eyes. Smallpox and tens of thousands of resentful Indigenous allies destroyed it inside two years. Mexico City is built on the rubble."
+      "explanation": "Estimates of Tenochtitlan's population vary widely, from well under 100,000 up to 300,000, but even the low end put it ahead of Seville, which had fewer than 50,000 people. It was built on an island in Lake Texcoco with causeways, aqueducts and floating gardens, and Spanish accounts describe soldiers doubting what they were seeing. Within two years it was destroyed, largely by smallpox and by tens of thousands of Indigenous allies who resented Aztec tribute. Mexico City sits on top of it.",
+      "memory_hook": "Tenochtitlan had maybe 200,000 people, bigger than Seville or London, on an island with causeways, aqueducts and floating gardens. Spanish soldiers wrote that they doubted their own eyes. Smallpox and tens of thousands of resentful Indigenous allies destroyed it inside two years. Mexico City is built on the rubble.",
+      "sourceRefs": [
+        "britannica-tenochtitlan",
+        "seville-16c-population"
+      ],
+      "riskTier": "source"
     },
     {
       "category": "History",
@@ -25,7 +30,9 @@
       ],
       "answer": "January 1, 1863",
       "explanation": "President Lincoln's Emancipation Proclamation took effect on January 1, 1863, declaring that enslaved people in Confederate states in rebellion were free. It was issued after the Union victory at Antietam in September 1862 gave Lincoln the political standing to make such a declaration. The 13th Amendment, which permanently abolished slavery throughout the US, was ratified in December 1865.",
-      "memory_hook": "Emancipation Proclamation = January 1, 1863. New Year's Day. Lincoln waited for a Union victory before issuing it — he didn't want it to look like desperation. It didn't immediately free anyone but changed the moral character of the Civil War forever."
+      "memory_hook": "Emancipation Proclamation = January 1, 1863. New Year's Day. Lincoln waited for a Union victory before issuing it — he didn't want it to look like desperation. It didn't immediately free anyone but changed the moral character of the Civil War forever.",
+      "riskTier": "canonical",
+      "canonicalNote": "the date of the Emancipation Proclamation is fixed and universally attested"
     },
     {
       "category": "History",
@@ -37,8 +44,13 @@
         "Betrayal by Venetian mercenaries inside the city"
       ],
       "answer": "Enormous cannon cast specifically for the siege",
-      "explanation": "The Theodosian Walls had held off attackers since the fifth century. Mehmed II commissioned a Hungarian engineer named Orban to cast bombards, one reportedly over eight metres long, firing stone balls of half a tonne. They were slow, needing hours between shots, but the walls could not be repaired fast enough. Constantine XI died in the fighting. The fall is often used to mark the end of the Middle Ages, and gunpowder ending the age of the high stone wall.",
-      "memory_hook": "The Theodosian Walls had held for a thousand years. Mehmed II hired a Hungarian engineer, Orban, to cast bombards over eight metres long firing half-tonne stone balls. They took hours to reload but the walls could not be patched fast enough. It is often used to mark the end of the Middle Ages."
+      "explanation": "The Theodosian Walls had held off attackers since the fifth century. Mehmed II hired a Hungarian founder named Orban, who had first offered his services to the defenders, to cast bombards. The largest ran about eight metres long and threw stone balls of well over half a tonne. They were slow, needing hours between shots, but the walls could not be repaired fast enough. Constantine XI died in the fighting. The fall is often used to mark the end of the Middle Ages, and of the age of the high stone wall.",
+      "memory_hook": "The Theodosian Walls had held for a thousand years. Mehmed II hired a Hungarian engineer, Orban, to cast bombards over eight metres long firing half-tonne stone balls. They took hours to reload but the walls could not be patched fast enough. It is often used to mark the end of the Middle Ages.",
+      "sourceRefs": [
+        "historynet-guns-constantinople",
+        "orban-cannon-paper"
+      ],
+      "riskTier": "source"
     },
     {
       "category": "Sports",
@@ -51,7 +63,9 @@
       ],
       "answer": "A long, desperate forward pass into the end zone",
       "explanation": "A Hail Mary is a long forward pass thrown in desperation near the end of a game with little time remaining, typically when the trailing team needs a touchdown. The term is associated with a prayer — you throw the ball and 'pray' it's caught. The name was popularized by Roger Staubach of the Dallas Cowboys after a 1975 playoff win. Such passes rarely work, but when they do, they produce some of football's most memorable moments.",
-      "memory_hook": "Hail Mary = desperate long pass. Named after a prayer. Roger Staubach coined the term in 1975 after throwing one. It almost never works, which is why it's desperate. But when it does — Doug Flutie, 1984, one of football's most iconic plays."
+      "memory_hook": "Hail Mary = desperate long pass. Named after a prayer. Roger Staubach coined the term in 1975 after throwing one. It almost never works, which is why it's desperate. But when it does — Doug Flutie, 1984, one of football's most iconic plays.",
+      "riskTier": "canonical",
+      "canonicalNote": "definition of a common football term, universally attested"
     },
     {
       "category": "Sports",
@@ -63,8 +77,12 @@
         "Changed the green jacket ceremony to exclude the press"
       ],
       "answer": "Lengthened the course, a change nicknamed Tiger-proofing",
-      "explanation": "Woods finished at 18 under, the lowest score in tournament history, winning by the largest margin ever. Augusta responded over following years by adding length and rough, changes the press dubbed Tiger-proofing, and other courses followed. He was also the first Black or Asian winner at a club that had not admitted a Black member until 1990 and had required players to use its own caddies, all Black, until 1983.",
-      "memory_hook": "Woods finished 18 under and won by twelve, both records. Augusta responded by adding length and rough, which the press called Tiger-proofing, and other courses copied it. He was also the first Black winner at a club that admitted no Black members until 1990."
+      "explanation": "Woods finished at 18 under, a 72-hole score of 270 that stood as the tournament record until 2020, and won by twelve strokes over Tom Kite, still the largest margin in Masters history. At twenty-one he was the youngest winner and the first non-white one, at a club that had not invited a Black player until Lee Elder in 1975, the year Woods was born. Augusta responded over following years by adding length and rough, changes the press dubbed Tiger-proofing, and other courses followed.",
+      "memory_hook": "Woods finished 18 under and won by twelve, both records. Augusta responded by adding length and rough, which the press called Tiger-proofing, and other courses copied it. He was also the first Black winner at a club that admitted no Black members until 1990.",
+      "sourceRefs": [
+        "pgatour-1997-masters"
+      ],
+      "riskTier": "source"
     },
     {
       "category": "Pop Culture",
@@ -76,8 +94,13 @@
         "Peele became the first Black winner of Best Original Screenplay"
       ],
       "answer": "Peele became the first Black winner of Best Original Screenplay",
-      "explanation": "Get Out grossed over $250 million against a $4.5 million budget and earned four nominations including Picture and Director. Peele won Original Screenplay, the first Black writer to do so. Horror is chronically overlooked by the Academy, though The Exorcist and The Silence of the Lambs had been nominated for Best Picture before, and Silence won. Peele had been known almost entirely for sketch comedy beforehand.",
-      "memory_hook": "Made for $4.5 million, grossed over $250 million, four Oscar nominations. Peele won Original Screenplay, the first Black writer to take it. Horror rarely gets Academy attention, though Silence of the Lambs had won Best Picture in 1992. Peele was a sketch comedian before this."
+      "explanation": "Get Out grossed over $255 million against a $4.5 million budget, the most profitable film of 2017, and took four nominations including Picture and Director. Peele won Original Screenplay, the first African American to do so, and was the first African American nominated for producing, writing and directing in the same year. Horror is chronically overlooked by the Academy, though The Exorcist and The Silence of the Lambs had been nominated for Best Picture before, and Silence won. Peele had been known almost entirely for sketch comedy.",
+      "memory_hook": "Made for $4.5 million, grossed over $250 million, four Oscar nominations. Peele won Original Screenplay, the first Black writer to take it. Horror rarely gets Academy attention, though Silence of the Lambs had won Best Picture in 1992. Peele was a sketch comedian before this.",
+      "sourceRefs": [
+        "deadline-get-out-profit",
+        "cnbc-peele-oscar"
+      ],
+      "riskTier": "source"
     },
     {
       "category": "Pop Culture",
@@ -89,8 +112,13 @@
         "Dialogue written throughout in Shakespearean iambic pentameter"
       ],
       "answer": "Modern profanity for period effect, Shakespearean structure",
-      "explanation": "David Milch (NYPD Blue) made a conscious decision to use modern profanity rather than 19th-century insults because the emotional impact would be lost. The show's elaborate, often digressive monologues — particularly from Ian McShane's Al Swearengen — recall Shakespearean soliloquy. Milch structured the camp itself as an emerging society inventing its own law and morality without outside governance — a frontier political experiment. HBO cancelled it after Season 3, leaving storylines unresolved; a 2019 film reunion concluded the story. McShane's Swearengen is considered one of TV's great anti-heroes.",
-      "memory_hook": "Deadwood uses modern profanity by design — period-accurate 19th-century obscenity would be meaningless to viewers, Milch argued. The camp's Shakespearean monologues and improvised frontier law-making are the real subject; Ian McShane's Swearengen is one of TV's great villains."
+      "explanation": "Milch researched the period and found the mining camps really were relentlessly obscene, but that Victorian swearing was blasphemous rather than scatological, so a modern ear would hear it as quaint. He used contemporary profanity to land the force the original had. The digressive monologues, Ian McShane's Al Swearengen especially, run closer to soliloquy than to dialogue. Milch built the camp as a society inventing its own law without outside governance. HBO cancelled it after season three; a 2019 film closed the story.",
+      "memory_hook": "Deadwood uses modern profanity by design — period-accurate 19th-century obscenity would be meaningless to viewers, Milch argued. The camp's Shakespearean monologues and improvised frontier law-making are the real subject; Ian McShane's Swearengen is one of TV's great villains.",
+      "sourceRefs": [
+        "lithub-milch-obscenity",
+        "slate-milch-deadwood"
+      ],
+      "riskTier": "source"
     },
     {
       "category": "Pop Culture",
@@ -102,8 +130,12 @@
         "Cobain called Pearl Jam corporate sell-outs in the press"
       ],
       "answer": "Cobain called Pearl Jam corporate sell-outs in the press",
-      "explanation": "Cobain publicly attacked Pearl Jam as careerists riding a movement they had not built, singling out Eddie Vedder. Vedder mostly declined to respond, and the two reconciled somewhat, slow-dancing together at the 1992 MTV awards. Ten actually outsold Nevermind over time. Pearl Jam then spent years fighting Ticketmaster over service fees, testifying before Congress in 1994, which cost them the ability to tour normally.",
-      "memory_hook": "Cobain called Pearl Jam corporate careerists in the press and named Eddie Vedder. Vedder largely stayed quiet, and they ended up slow-dancing together at the 1992 MTV awards. Ten outsold Nevermind eventually. Pearl Jam then took on Ticketmaster in Congress and lost the ability to tour normally."
+      "explanation": "Cobain publicly attacked Pearl Jam as careerists riding a movement they had not built, singling out Eddie Vedder. Vedder mostly declined to respond, and the two reconciled somewhat, slow-dancing together at the 1992 MTV awards. Both albums ended up certified 13 times platinum in the United States, and Ten outsold Nevermind domestically for years. Pearl Jam then spent years fighting Ticketmaster over service fees, testifying before Congress in 1994, which cost them the ability to tour normally.",
+      "memory_hook": "Cobain called Pearl Jam corporate careerists in the press and named Eddie Vedder. Vedder largely stayed quiet, and they ended up slow-dancing together at the 1992 MTV awards. Ten outsold Nevermind eventually. Pearl Jam then took on Ticketmaster in Congress and lost the ability to tour normally.",
+      "sourceRefs": [
+        "riaa-ten-nevermind"
+      ],
+      "riskTier": "source"
     },
     {
       "category": "Geography",
@@ -115,8 +147,14 @@
         "The Three Gorges Dam, the largest power station on Earth"
       ],
       "answer": "The Three Gorges Dam, the largest power station on Earth",
-      "explanation": "Three Gorges generates around 22,500 megawatts, more than any other power station of any kind. Building it displaced roughly 1.4 million people and submerged over 1,300 archaeological sites. The reservoir holds enough water that it measurably slowed Earth's rotation, lengthening the day by a few hundred-billionths of a second by shifting mass away from the axis. Sediment trapping and downstream ecological effects remain contested.",
-      "memory_hook": "Three Gorges makes about 22,500 megawatts, the biggest power station of any kind anywhere. It displaced 1.4 million people and drowned 1,300 archaeological sites. The reservoir holds so much water it measurably slowed Earth's rotation by shifting mass away from the axis."
+      "explanation": "Three Gorges has an installed capacity of 22,500 megawatts, the largest of any power station of any kind. Building it displaced roughly 1.4 million people. The reservoir holds about 40 billion tonnes of water, and NASA calculated that shifting that mass away from the axis lengthened the day by 0.06 microseconds. Sediment trapping and downstream ecological effects remain contested.",
+      "memory_hook": "Three Gorges makes about 22,500 megawatts, the biggest power station of any kind anywhere. It displaced 1.4 million people and drowned 1,300 archaeological sites. The reservoir holds so much water it measurably slowed Earth's rotation by shifting mass away from the axis.",
+      "sourceRefs": [
+        "usgs-three-gorges",
+        "cbc-three-gorges-displacement",
+        "nasa-three-gorges-rotation"
+      ],
+      "riskTier": "source"
     },
     {
       "category": "Science & Nature",
@@ -128,8 +166,12 @@
         "Cave fungi, which draw energy directly from rock"
       ],
       "answer": "Deep-sea vent bacteria, which live on chemical energy",
-      "explanation": "At hydrothermal vents thousands of metres down, bacteria oxidise hydrogen sulphide from the vent fluid to build sugars, a process called chemosynthesis. Entire ecosystems of tube worms, crabs and clams depend on them with no sunlight involved at any step. The discovery in 1977 at the Galapagos Rift overturned the assumption that all food chains begin with photosynthesis, and it reshaped where scientists look for life on moons like Europa and Enceladus.",
-      "memory_hook": "At hydrothermal vents, bacteria build sugars from hydrogen sulphide instead of sunlight, and whole ecosystems of tube worms and crabs run on them. Found in 1977 at the Galapagos Rift, it broke the rule that food chains start with photosynthesis, and it changed where we look for life on Europa."
+      "explanation": "At hydrothermal vents thousands of metres down, bacteria oxidise hydrogen sulphide from the vent fluid to build sugars, a process called chemosynthesis. Entire ecosystems of tube worms, crabs and clams depend on them with no sunlight involved at any step. The vent communities were found in 1977 at the Galapagos Rift by a Woods Hole team, and Colleen Cavanaugh worked out the chemosynthetic mechanism in 1981. It overturned the assumption that all food chains begin with photosynthesis, and reshaped where scientists look for life on Europa and Enceladus.",
+      "memory_hook": "At hydrothermal vents, bacteria build sugars from hydrogen sulphide instead of sunlight, and whole ecosystems of tube worms and crabs run on them. Found in 1977 at the Galapagos Rift, it broke the rule that food chains start with photosynthesis, and it changed where we look for life on Europa.",
+      "sourceRefs": [
+        "whoi-vent-discovery-1977"
+      ],
+      "riskTier": "source"
     },
     {
       "category": "Geography",
@@ -142,7 +184,12 @@
       ],
       "answer": "Mountains on three sides trap Europe's worst air pollution",
       "explanation": "The Alps to the north and west and the Apennines to the south enclose the basin, and winter temperature inversions cap it, so emissions from dense industry, farming and traffic accumulate rather than dispersing. Particulate levels in Milan and Turin regularly rank among the worst in Europe. The same enclosure gives the valley its fertility and its fog. The Po itself has also been running dangerously low in recent drought years, threatening irrigation.",
-      "memory_hook": "The Alps and Apennines box the valley in on three sides, and winter inversions seal the lid, so industrial and farm emissions just sit there. Milan and Turin have some of Europe's worst particulate readings. The same enclosure is what makes the soil rich and the valley foggy."
+      "memory_hook": "The Alps and Apennines box the valley in on three sides, and winter inversions seal the lid, so industrial and farm emissions just sit there. Milan and Turin have some of Europe's worst particulate readings. The same enclosure is what makes the soil rich and the valley foggy.",
+      "sourceRefs": [
+        "eea-po-valley",
+        "esa-po-valley"
+      ],
+      "riskTier": "source"
     },
     {
       "category": "Science & Nature",
@@ -155,7 +202,9 @@
       ],
       "answer": "Programmed cell death, removing damaged or unneeded cells",
       "explanation": "Apoptosis is a highly regulated process of programmed cell death — cells essentially commit suicide in an orderly way, without triggering inflammation. It is essential for: embryonic development (fingers form when cells between them die), immune regulation (eliminating autoreactive T cells), and cancer prevention (eliminating mutated cells before they proliferate). When apoptosis fails — cells that should die instead survive and divide — cancer can result. Many cancer treatments work by triggering apoptosis in tumor cells.",
-      "memory_hook": "Apoptosis = programmed cell death. Cells commit suicide on cue — orderly, without inflammation. Your fingers formed when cells between them died in the womb. Immune cells that attack 'self' are eliminated this way. When apoptosis fails, cells that should die keep dividing — that's cancer. Many cancer drugs work by restarting this process."
+      "memory_hook": "Apoptosis = programmed cell death. Cells commit suicide on cue — orderly, without inflammation. Your fingers formed when cells between them died in the womb. Immune cells that attack 'self' are eliminated this way. When apoptosis fails, cells that should die keep dividing — that's cancer. Many cancer drugs work by restarting this process.",
+      "riskTier": "canonical",
+      "canonicalNote": "textbook cell biology, universally attested"
     }
   ]
 }
