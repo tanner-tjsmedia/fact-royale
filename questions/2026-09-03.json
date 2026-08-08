@@ -3,90 +3,90 @@
   "questions": [
     {
       "category": "History",
-      "question": "Which emperor, who ruled from 306-337 AD, made Christianity the favored religion of the Roman Empire and established Constantinople as its new capital?",
+      "question": "Constantine made Christianity the favoured religion of Rome. When was he actually baptised?",
       "options": [
-        "Constantine I",
-        "Theodosius I",
-        "Diocletian",
-        "Justinian"
+        "As an infant, since his mother Helena was already a Christian",
+        "On his deathbed, decades after backing the faith politically",
+        "Immediately after his victory at the Milvian Bridge in 312 AD",
+        "At the Council of Nicaea, in front of assembled bishops there"
       ],
-      "answer": "Constantine I",
-      "explanation": "Constantine I (Constantine the Great) converted to Christianity (or at least became its patron) after seeing a vision before the Battle of Milvian Bridge (312 AD). The Edict of Milan (313 AD) legalized Christianity. He founded Constantinople on the site of Byzantium in 330 AD. Theodosius I later made Christianity the Roman state religion in 380 AD.",
-      "memory_hook": "Constantine: legalized Christianity (313 AD). Founded Constantinople (330 AD). Vision before Milvian Bridge."
+      "answer": "On his deathbed, decades after backing the faith politically",
+      "explanation": "Constantine delayed baptism until 337, dying shortly afterward, a common practice among those who believed it washed away sin and wanted the timing to count. He legalised Christianity in 313 and convened Nicaea in 325 to settle doctrinal disputes, presiding over debates he was not yet formally part of. His mother Helena did convert and is credited with locating sites in Jerusalem. Christianity became the official state religion later, under Theodosius.",
+      "memory_hook": "He waited until 337 and died soon after, which was common for people who thought baptism wiped the slate and wanted to time it well. He legalised Christianity in 313 and chaired the Council of Nicaea in 325 without being a member of the faith. Theodosius made it official later."
     },
     {
       "category": "Science & Nature",
-      "question": "Which gas, making up about 78% of Earth's atmosphere, is essential for the production of proteins in living organisms but must be 'fixed' first?",
+      "question": "Nitrogen is 78% of the atmosphere but plants cannot use it directly. Why not?",
       "options": [
-        "Carbon dioxide",
-        "Nitrogen",
-        "Oxygen",
-        "Argon"
+        "It exists only as a gas and plants can absorb only liquids",
+        "The two atoms are triple-bonded and extremely hard to split",
+        "Nitrogen molecules are far too large to enter plant root cells",
+        "Plant enzymes evolved before nitrogen entered the atmosphere"
       ],
-      "answer": "Nitrogen",
-      "explanation": "Nitrogen (N2) makes up 78% of air but is mostly inert. 'Nitrogen fixation' by bacteria converts atmospheric N2 into ammonium, which plants can use. The Haber-Bosch process (1909) artificially fixes nitrogen for fertilizer — it is estimated to sustain food production for half the world's current population.",
-      "memory_hook": "Nitrogen: 78% of air, but plants can't use it directly. Haber-Bosch process feeds half the world."
+      "answer": "The two atoms are triple-bonded and extremely hard to split",
+      "explanation": "N2 is held by one of the strongest bonds in chemistry, so plants are surrounded by nitrogen they cannot touch. Certain bacteria, many living in legume root nodules, can break it using the nitrogenase enzyme. The Haber-Bosch process does it industrially at high temperature and pressure, and roughly half the nitrogen in the average person's body has passed through it. It also consumes around 1 to 2% of world energy output.",
+      "memory_hook": "N2 has one of the strongest bonds in chemistry, so plants sit surrounded by nitrogen they cannot use. Bacteria in legume roots can crack it. Haber-Bosch does it industrially, and about half the nitrogen atoms in your body came through that process. It uses 1 to 2% of world energy."
     },
     {
       "category": "Sports",
-      "question": "Which country dominated women's gymnastics for decades and produced legends like Nadia Comaneci, who scored the first perfect 10 at the 1976 Olympics?",
+      "question": "Romanian gymnasts dominated for decades. What did Nadia Comaneci do in 1976 that broke the system?",
       "options": [
-        "Romania",
-        "China",
-        "Soviet Union",
-        "United States"
+        "Scored a perfect 10, which the scoreboard could not display",
+        "Refused to return home and defected during the closing week",
+        "Competed at thirteen, below the minimum age then permitted",
+        "Won every single individual medal available at those Games"
       ],
-      "answer": "Romania",
-      "explanation": "Nadia Comaneci of Romania scored seven perfect 10s at the 1976 Montreal Olympics, aged 14 — the scoreboard wasn't designed to show 10.00 and displayed 1.00. She won three gold medals that year. Romania's dominance lasted through the 1970s-1990s, with the Soviet Union and later the US emerging as rivals.",
-      "memory_hook": "Nadia Comaneci: Romania, 1976. First perfect 10. Scoreboard showed 1.00 — wasn't built for 10."
+      "answer": "Scored a perfect 10, which the scoreboard could not display",
+      "explanation": "The board showed 1.00 because it had been built assuming three digits would always suffice and a 10 was considered impossible. She was fourteen and scored seven perfect tens at those Games. She defected later, in 1989, days before the Ceausescu regime fell. The minimum age was raised to sixteen in 1997, partly in response to concerns about very young gymnasts competing at elite level.",
+      "memory_hook": "The scoreboard read 1.00 because it was built on the assumption a 10 could never happen. She was fourteen and scored seven of them at those Games. She defected in 1989, days before Ceausescu fell. The minimum age went up to sixteen in 1997."
     },
     {
       "category": "Pop Culture",
-      "question": "Which 1975 Steven Spielberg film about a killer shark terrorizing a beach town became the first ever 'summer blockbuster'?",
+      "question": "Jaws (1975) was nearly ruined by its mechanical shark. What did Spielberg do instead?",
       "options": [
-        "Piranha",
-        "Jaws",
-        "The Deep",
-        "Blue Water White Death"
+        "Filmed with a real great white shark using cage divers",
+        "Delayed the release by a full year to fix the animatronics",
+        "Rebuilt the shark three times before shooting could start",
+        "Kept the shark off screen and used music to signal it"
       ],
-      "answer": "Jaws",
-      "explanation": "Jaws (1975) grossed $260 million — the first film to cross $100 million — and invented the concept of the 'summer blockbuster' release strategy. The mechanical shark ('Bruce') malfunctioned so often that Spielberg had to suggest the shark's presence rather than show it. The John Williams two-note theme is among the most recognizable in film history.",
-      "memory_hook": "Jaws 1975: first summer blockbuster. The shark barely worked, so Spielberg showed less — scarier."
+      "answer": "Kept the shark off screen and used music to signal it",
+      "explanation": "The shark, nicknamed Bruce, malfunctioned constantly in salt water, so Spielberg suggested its presence through John Williams's two-note motif, floating barrels and point-of-view shots. The restraint is widely credited with making it frightening. The film ran massively over schedule and budget, opened wide across hundreds of cinemas with a heavy television campaign, and effectively invented the summer blockbuster release pattern.",
+      "memory_hook": "The mechanical shark broke constantly in salt water, so Spielberg used Williams's two notes, floating barrels and point-of-view shots instead, and the restraint is what makes it scary. Hugely over budget and schedule. Its wide release with heavy TV advertising created the summer blockbuster."
     },
     {
       "category": "Geography",
-      "question": "Which strait separates the Asian and North American continents and was crossed by prehistoric humans migrating to the Americas?",
+      "question": "The Bering Strait separates Asia from North America. How far apart are the two continents there?",
       "options": [
-        "Strait of Malacca",
-        "Luzon Strait",
-        "Bering Strait",
-        "Strait of Hormuz"
+        "Around 400km, too far to see across in clear conditions",
+        "About 82km, with two islands a day apart in the middle",
+        "Just under 10km, narrow enough to swim in good weather",
+        "Roughly 1,200km, the widest strait anywhere on Earth"
       ],
-      "answer": "Bering Strait",
-      "explanation": "The Bering Strait is only 85 km wide between Russia and Alaska. During the last Ice Age (roughly 20,000 years ago), sea levels were 120 meters lower, exposing a land bridge called Beringia up to 1,000 km wide. Humans and animals walked across it from Asia into the Americas.",
-      "memory_hook": "Bering Strait: 85 km between Russia and Alaska. Ice Age land bridge → first Americans."
+      "answer": "About 82km, with two islands a day apart in the middle",
+      "explanation": "The Diomede Islands sit in the strait, 3.8km apart, with the International Date Line between them, so Big Diomede in Russia is almost a full day ahead of Little Diomede in Alaska. Lower sea levels during the last ice age exposed Beringia, a land bridge hundreds of kilometres wide, which is the main route by which people first reached the Americas.",
+      "memory_hook": "82km across, with the Diomede Islands 3.8km apart in the middle and the Date Line between them, so one is nearly a day ahead of the other. During the ice age this was Beringia, a land bridge hundreds of kilometres wide, and it is how people first reached the Americas."
     },
     {
       "category": "History",
-      "question": "Which 1919 treaty officially ended World War I and imposed severe reparations and restrictions on Germany, fueling resentment that contributed to World War II?",
+      "question": "The Treaty of Versailles ended the First World War. Which clause caused the most lasting damage?",
       "options": [
-        "Treaty of Saint-Germain",
-        "Treaty of Brest-Litovsk",
-        "Treaty of Versailles",
-        "Treaty of Trianon"
+        "The transfer of all German colonies to Britain and France",
+        "Article 231, assigning Germany sole guilt for the war",
+        "The requirement that Germany join the League of Nations",
+        "The clause permanently banning any German air force"
       ],
-      "answer": "Treaty of Versailles",
-      "explanation": "The Treaty of Versailles (June 28, 1919) held Germany solely responsible for the war ('War Guilt Clause'), demanded $33 billion in reparations, stripped Germany of 13% of its territory, and limited its military. German humiliation and economic hardship created conditions that Hitler exploited. Germany made its final reparations payment in 2010.",
-      "memory_hook": "Treaty of Versailles 1919: blamed Germany, $33B reparations. Final payment: 2010. Fueled Hitler."
+      "answer": "Article 231, assigning Germany sole guilt for the war",
+      "explanation": "The war guilt clause was the legal basis for reparations, but its symbolic weight was greater than its financial effect. Germans across the political spectrum regarded it as a national humiliation, and it fed the stab-in-the-back myth that the army had been betrayed rather than defeated. Keynes argued at the time that the settlement was economically ruinous and would produce another war. Germany was excluded from the League, not required to join.",
+      "memory_hook": "The war guilt clause justified reparations, but the humiliation mattered more than the money. Germans across politics saw it as a national insult, and it fed the myth that the army had been betrayed rather than beaten. Keynes said at the time it would cause another war."
     },
     {
       "category": "Pop Culture",
       "question": "Cy Twombly's scrawled, scribbled canvases were dismissed for decades as child-like. What do art historians now see in them?",
       "options": [
-        "His scrawls encode Greek and Roman myth and poetry",
-        "Nothing; prices only rose after his death in 2011",
         "Rauschenberg's 1960 defense that won over MoMA",
-        "A 1985 show proved he painted with his weaker hand"
+        "His scrawls encode Greek and Roman myth and poetry",
+        "A 1985 show proved he painted with his weaker hand",
+        "Nothing; prices only rose after his death in 2011"
       ],
       "answer": "His scrawls encode Greek and Roman myth and poetry",
       "explanation": "Twombly lived primarily in Italy from 1957 onward, immersed in Roman and Greek antiquity. His works like 'Leda and the Swan,' 'Fifty Days at Iliam,' and the 'Blackboard' paintings embed text fragments from Keats, Sappho, Virgil, and Homer within gestural surfaces that read as raw but are carefully constructed. Roland Barthes wrote a famous 1979 essay on Twombly. His work influenced artists across generations. A 2011 painting from his 'Camino Real' series sold for $69.6 million at Christie's. He was criticized early — one critic in 1964 wrote he painted 'like a child' — but the layered cultural references became central to postmodern art discourse.",
@@ -94,68 +94,68 @@
     },
     {
       "category": "Science & Nature",
-      "question": "What is the primary cause of the greenhouse effect, which naturally warms Earth's surface by trapping outgoing infrared radiation?",
+      "question": "Water vapour is the biggest greenhouse gas by effect. Why is CO2 the one everyone worries about?",
       "options": [
-        "Carbon dioxide",
-        "Ozone",
-        "Methane",
-        "Water vapor"
+        "Water vapour has no greenhouse effect at all above the clouds",
+        "Water vapour is entirely produced by human industrial activity",
+        "Vapour responds to warming, while CO2 drives it in the first place",
+        "CO2 is far more abundant in the atmosphere than water vapour"
       ],
-      "answer": "Water vapor",
-      "explanation": "Water vapor accounts for approximately 50% of the natural greenhouse effect, followed by clouds (25%), CO2 (20%), and other gases (5%). However, CO2 is the primary driver of enhanced (human-caused) greenhouse warming because it persists in the atmosphere for centuries while water vapor is a feedback, not a driver.",
-      "memory_hook": "Natural greenhouse: mostly water vapor (50%). Human-caused warming: CO2 drives it (persists for centuries)."
+      "answer": "Vapour responds to warming, while CO2 drives it in the first place",
+      "explanation": "Atmospheric water vapour is set by temperature, since warm air holds more, so it acts as an amplifier rather than a driver. Add CO2, temperature rises, more vapour enters the air, and that adds further warming: a feedback, not an initial cause. CO2 also persists for centuries while vapour cycles out in days. Methane is far more potent per molecule but much shorter-lived.",
+      "memory_hook": "Water vapour is set by temperature, since warm air holds more, so it amplifies rather than causes. Add CO2, it warms, more vapour goes up, more warming. That is a feedback. CO2 also lingers for centuries where vapour rains out in days."
     },
     {
       "category": "Geography",
-      "question": "The Caspian Sea, the world's largest inland body of water, is bordered by Russia, Azerbaijan, Iran, Turkmenistan, and which fifth country?",
+      "question": "The Caspian Sea is bordered by five countries. Why does its legal status matter so much?",
       "options": [
-        "Georgia",
-        "Armenia",
-        "Kazakhstan",
-        "Uzbekistan"
+        "Its water level drops enough each year to move the borders",
+        "Three of the five countries dispute the shoreline entirely",
+        "Whether it is a lake or a sea decides how oil rights split",
+        "It is the only body of water no country is allowed to fish"
       ],
-      "answer": "Kazakhstan",
-      "explanation": "The Caspian Sea covers approximately 371,000 km² and sits 28 meters below sea level. It is technically a lake, not a sea, as it has no natural connection to the world's oceans. It holds 40% of all lake water in the world and is rich in caviar-producing sturgeon and petroleum reserves.",
-      "memory_hook": "Caspian Sea: largest lake by area. Kazakhstan borders it. 28m below sea level. Sturgeon, oil, caviar."
+      "answer": "Whether it is a lake or a sea decides how oil rights split",
+      "explanation": "Sea law and lake law divide resources differently, and the seabed holds enormous oil and gas reserves, so the classification is worth a great deal. Russia, Iran, Kazakhstan, Turkmenistan and Azerbaijan argued about it for decades after the Soviet collapse. A 2018 convention gave it a special status that is neither, splitting the seabed by agreement while treating the surface as shared. It is the largest inland body of water on Earth.",
+      "memory_hook": "Sea law and lake law split resources differently, and the seabed is full of oil and gas, so the label is worth billions. Russia, Iran and three ex-Soviet states argued for decades. A 2018 convention invented a third category: seabed divided, surface shared."
     },
     {
       "category": "History",
-      "question": "Which British officer and archaeologist, known as 'Lawrence of Arabia,' helped lead the Arab Revolt against Ottoman rule during World War I?",
+      "question": "T.E. Lawrence helped lead the Arab Revolt against the Ottomans. How did he feel about it afterward?",
       "options": [
-        "Gertrude Bell",
-        "Herbert Kitchener",
-        "T.E. Lawrence",
-        "Edmund Allenby"
+        "Vindicated, having secured every promise he made to the Arabs",
+        "Guilty, since Britain had already promised the land elsewhere",
+        "Indifferent, having viewed it purely as a military assignment",
+        "Angry at the Arabs for abandoning the campaign before its end"
       ],
-      "answer": "T.E. Lawrence",
-      "explanation": "T.E. Lawrence (Thomas Edward Lawrence) coordinated guerrilla warfare with Arab forces, particularly under Faisal bin Hussein, disrupting Ottoman supply lines. He documented his experiences in 'Seven Pillars of Wisdom' (1926). The 1962 David Lean film Lawrence of Arabia won 7 Oscars and is considered one of the greatest films ever made.",
-      "memory_hook": "Lawrence of Arabia: T.E. Lawrence, WWI Arab Revolt. 'Seven Pillars of Wisdom.' Film won 7 Oscars."
+      "answer": "Guilty, since Britain had already promised the land elsewhere",
+      "explanation": "Lawrence encouraged Arab independence while Britain and France had secretly agreed the Sykes-Picot partition, dividing the same territory between themselves. He learned of it during the campaign and described himself as continually and bitterly ashamed. He refused a knighthood, later enlisted in the RAF under a false name to escape his own fame, and died in a motorcycle crash in 1935 at forty-six.",
+      "memory_hook": "He was promising Arab independence while Britain and France had secretly agreed to carve the same land up between themselves. He found out mid-campaign and called himself bitterly ashamed. He refused a knighthood, enlisted under a false name to escape his fame, and died on a motorcycle in 1935."
     },
     {
       "category": "Pop Culture",
-      "question": "Which British-American rock group, active from 1968-1980, featured singer Robert Plant, guitarist Jimmy Page, bassist John Paul Jones, and drummer John Bonham?",
+      "question": "Led Zeppelin never released a single in the UK. Why not?",
       "options": [
-        "The Who",
-        "Deep Purple",
-        "Black Sabbath",
-        "Led Zeppelin"
+        "They insisted albums be heard whole, not cut into tracks",
+        "A contract dispute blocked UK single releases entirely",
+        "Their label refused to press singles for any of its artists",
+        "British radio had banned the band from all airplay"
       ],
-      "answer": "Led Zeppelin",
-      "explanation": "Led Zeppelin sold over 300 million albums worldwide. 'Stairway to Heaven' is the most-requested song in US radio history. The band members refused to release singles in the UK, insisting the album was the art form. After John Bonham's death in 1980, they disbanded rather than replace him.",
-      "memory_hook": "Led Zeppelin: 300M albums, no UK singles. Disbanded when Bonham died (1980). 'Stairway to Heaven.'"
+      "answer": "They insisted albums be heard whole, not cut into tracks",
+      "explanation": "Manager Peter Grant enforced an album-only policy in Britain, and Stairway to Heaven was never released as a UK single despite becoming one of the most played songs in radio history. Grant also took an unusually large share of touring revenue for the band, around 90%, reversing the standard split and changing how live music was negotiated. Their fourth album was released with no title and no band name on the cover.",
+      "memory_hook": "Peter Grant enforced albums-only in Britain, so Stairway to Heaven was never a UK single despite being one of the most played songs ever. Grant also flipped the touring split to about 90% for the band, which changed the whole live business. Their fourth album had no title and no name on it."
     },
     {
       "category": "Sports",
-      "question": "What is the name of the annual horse race held at Churchill Downs in Louisville, Kentucky, known as 'the most exciting two minutes in sports'?",
+      "question": "The Kentucky Derby is the first leg of the Triple Crown. Why is winning all three so rare?",
       "options": [
-        "Kentucky Derby",
-        "Belmont Stakes",
-        "Preakness Stakes",
-        "Breeders' Cup"
+        "Only horses bred in Kentucky are eligible for all three races",
+        "Three races at three distances in five weeks, at three years old",
+        "Different owners control each race and rarely permit entry",
+        "The three tracks are so far apart that travel exhausts the horses"
       ],
-      "answer": "Kentucky Derby",
-      "explanation": "The Kentucky Derby has been held on the first Saturday in May since 1875, making it the longest-running major sporting event in the United States. The race is 1.25 miles. The Triple Crown (Derby, Preakness, Belmont) has only been won 13 times. Secretariat's 1973 Derby record (1:59.40) still stands.",
-      "memory_hook": "Kentucky Derby: held since 1875, first Saturday in May. Secretariat's 1973 record still stands."
+      "answer": "Three races at three distances in five weeks, at three years old",
+      "explanation": "The Derby, Preakness and Belmont run within about five weeks at increasing distances, and only three-year-olds are eligible, so a horse gets exactly one attempt in its life. The Belmont's mile and a half is longer than most will ever race again. Thirteen horses have done it since 1919. Secretariat's 1973 Belmont, won by 31 lengths in a time still unbeaten, is regarded as the finest performance in the sport.",
+      "memory_hook": "Three races, three distances, five weeks, and only three-year-olds can enter, so every horse gets exactly one shot ever. The Belmont's mile and a half is further than most run again. Thirteen have done it since 1919. Secretariat won the 1973 Belmont by 31 lengths in a time nobody has beaten."
     }
   ]
 }

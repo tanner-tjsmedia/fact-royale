@@ -5,10 +5,10 @@
       "category": "History",
       "question": "The Black Death pandemic in the 14th century killed approximately what fraction of Europe's population?",
       "options": [
-        "One quarter",
+        "One half",
         "One third",
         "One tenth",
-        "One half"
+        "One quarter"
       ],
       "answer": "One third",
       "explanation": "The Black Death, caused by the bacterium Yersinia pestis, swept through Europe from 1347 to 1351, killing an estimated 30–60% of Europe's population — roughly one third by most historical consensus. It spread via fleas on rats along trade routes and killed as many as 50 million people worldwide. Europe's population didn't recover to pre-plague levels for 200 years.",
@@ -18,8 +18,8 @@
       "category": "History",
       "question": "In what year was the Roman Colosseum completed?",
       "options": [
-        "200 AD",
         "120 AD",
+        "200 AD",
         "52 AD",
         "80 AD"
       ],
@@ -32,8 +32,8 @@
       "question": "Alexander the Great was the king of which ancient kingdom?",
       "options": [
         "Macedonia",
-        "Athens",
         "Sparta",
+        "Athens",
         "Persia"
       ],
       "answer": "Macedonia",
@@ -44,10 +44,10 @@
       "category": "Sports",
       "question": "Usain Bolt's world record in the 100 meter sprint is approximately how fast?",
       "options": [
-        "9.27 seconds",
         "9.58 seconds",
         "9.84 seconds",
-        "9.69 seconds"
+        "9.69 seconds",
+        "9.27 seconds"
       ],
       "answer": "9.58 seconds",
       "explanation": "Usain Bolt set the 100m world record of 9.58 seconds at the 2009 World Championships in Berlin, Germany. At peak speed during the race, he was running approximately 27.8 mph (44.7 km/h). Bolt also holds the 200m world record of 19.19 seconds and won 8 Olympic gold medals across three Games.",
@@ -57,10 +57,10 @@
       "category": "Sports",
       "question": "How many players from one team are on the ice at a time during a standard NHL hockey game?",
       "options": [
-        "6",
-        "7",
+        "5",
         "8",
-        "5"
+        "6",
+        "7"
       ],
       "answer": "6",
       "explanation": "Each NHL team has 6 players on the ice at a time: one goaltender, two defensemen, and three forwards (two wingers and a center). When a player is penalized, their team plays 'shorthanded' with only 5 or 4 skaters, giving the opposing team a 'power play' advantage.",
@@ -71,9 +71,9 @@
       "question": "Claude Monet's Water Lilies series — painted in the last decades of his life — are among the world's most visited artworks. What circumstances make them remarkable?",
       "options": [
         "Monet painted most of the series while nearly blind from cataracts, using his knowledge of color relationships and labeling his paint tubes to work through his failing vision",
-        "All Water Lilies were painted on a single continuous canvas that Monet later cut into sections displayed in different museums",
+        "Monet painted all 250 Water Lilies canvases from memory after going completely blind",
         "Monet created the series as a deliberate critique of photography, painting in conditions no camera could replicate",
-        "Monet painted all 250 Water Lilies canvases from memory after going completely blind"
+        "All Water Lilies were painted on a single continuous canvas that Monet later cut into sections displayed in different museums"
       ],
       "answer": "Monet painted most of the series while nearly blind from cataracts, using his knowledge of color relationships and labeling his paint tubes to work through his failing vision",
       "explanation": "Monet developed cataracts in both eyes around 1912 and for years refused surgery. His later canvases show increasingly loose, reddish brushwork — the red shift in his vision from the cataracts altered his color perception. He finally had surgery in 1923 and was reportedly horrified by how his recent paintings looked. The large-scale panels now in the Orangerie museum in Paris were his final gift to France, installed after his death in 1926.",
@@ -83,9 +83,9 @@
       "category": "Pop Culture",
       "question": "Beethoven composed some of his most celebrated works, including his 9th Symphony, while suffering from what condition?",
       "options": [
-        "Paralysis",
         "Chronic pain",
         "Blindness",
+        "Paralysis",
         "Deafness"
       ],
       "answer": "Deafness",
@@ -96,10 +96,10 @@
       "category": "Pop Culture",
       "question": "Breaking Bad (2008–2013) is frequently cited as one of television's greatest achievements. What was creator Vince Gilligan's stated goal for the show's protagonist Walter White?",
       "options": [
-        "To show that the American healthcare system drives ordinary people to crime",
-        "To turn 'Mr. Chips into Scarface' — transforming a sympathetic chemistry teacher into a calculating drug lord over five seasons",
         "To create the most realistic portrayal of the US drug trade ever shown on television",
-        "To explore how intelligence and pride can coexist with moral blindness"
+        "To explore how intelligence and pride can coexist with moral blindness",
+        "To turn 'Mr. Chips into Scarface' — transforming a sympathetic chemistry teacher into a calculating drug lord over five seasons",
+        "To show that the American healthcare system drives ordinary people to crime"
       ],
       "answer": "To turn 'Mr. Chips into Scarface' — transforming a sympathetic chemistry teacher into a calculating drug lord over five seasons",
       "explanation": "Gilligan famously pitched Breaking Bad as a story about a protagonist who transforms into the villain — reversing the typical TV formula where heroes might bend rules but ultimately remain good. Walter White's transformation from mild chemistry teacher to 'Heisenberg' — a methodical, ruthless drug lord — was meticulously plotted across 62 episodes. The show is also notable for its exceptional cinematography and for launching Aaron Paul's career as Jesse Pinkman.",
@@ -109,10 +109,10 @@
       "category": "Geography",
       "question": "Which is the largest island in the Caribbean Sea?",
       "options": [
-        "Jamaica",
-        "Hispaniola",
         "Puerto Rico",
-        "Cuba"
+        "Hispaniola",
+        "Cuba",
+        "Jamaica"
       ],
       "answer": "Cuba",
       "explanation": "Cuba spans 109,884 km² — making it the largest island in the Caribbean, more than twice the size of Hispaniola (Haiti and the Dominican Republic). Christopher Columbus landed on Cuba in 1492, calling it 'the most beautiful land human eyes have ever seen.' It was a Spanish colony for nearly 400 years before becoming a US protectorate and eventually a communist state under Fidel Castro in 1959.",
@@ -122,10 +122,10 @@
       "category": "Science & Nature",
       "question": "Which part of the human brain, located at the back of the skull, is primarily responsible for balance, coordination, and fine motor control?",
       "options": [
+        "Cerebrum",
         "Hippocampus",
         "Cerebellum",
-        "Brain stem",
-        "Cerebrum"
+        "Brain stem"
       ],
       "answer": "Cerebellum",
       "explanation": "The cerebellum ('little brain' in Latin) occupies the rear of the skull and contains more neurons than the rest of the brain combined, despite accounting for only about 10% of total brain volume. It coordinates movement, maintains balance, and refines fine motor skills. Alcohol impairs the cerebellum first — which is why intoxicated people stumble and have poor coordination before their thinking is severely affected. The cerebrum handles reasoning; the brain stem controls breathing and heart rate.",
@@ -135,9 +135,9 @@
       "category": "Geography",
       "question": "The Pantanal, the world's largest tropical wetland covering approximately 150,000 km², is located primarily in which country?",
       "options": [
+        "Bolivia",
         "Brazil",
         "Argentina",
-        "Bolivia",
         "Paraguay"
       ],
       "answer": "Brazil",
@@ -148,10 +148,10 @@
       "category": "Science & Nature",
       "question": "What distinguishes plant cells from animal cells — what structure does a plant cell have that an animal cell lacks?",
       "options": [
-        "Ribosomes",
-        "Cell wall",
+        "Nucleus",
         "Mitochondria",
-        "Nucleus"
+        "Ribosomes",
+        "Cell wall"
       ],
       "answer": "Cell wall",
       "explanation": "Plant cells have a rigid cell wall made of cellulose outside their cell membrane, providing structural support and protection. Animal cells lack a cell wall — they have only a flexible cell membrane. Plant cells also contain chloroplasts (for photosynthesis) and large central vacuoles (for water storage and turgor pressure). The cell wall is what makes plants rigid enough to stand without skeletons — trees are essentially stacked cells with cellulose walls holding them upright.",

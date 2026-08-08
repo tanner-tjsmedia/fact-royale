@@ -5,10 +5,10 @@
       "category": "History",
       "question": "Which ancient wonder was a giant statue straddling the harbor of the Greek island of Rhodes?",
       "options": [
-        "Statue of Zeus",
-        "Colossus of Rhodes",
+        "Lighthouse of Alexandria",
         "Temple of Artemis",
-        "Lighthouse of Alexandria"
+        "Colossus of Rhodes",
+        "Statue of Zeus"
       ],
       "answer": "Colossus of Rhodes",
       "explanation": "The Colossus of Rhodes was a massive statue of the Greek sun god Helios, standing approximately 33 meters (108 feet) tall at the harbor entrance of Rhodes. Built around 280 BC to celebrate Rhodes' victory over Cyprus, it stood for only about 54 years before being toppled by an earthquake in 226 BC. Despite myths, it likely did not straddle the harbor entrance — ships would have sailed beneath it.",
@@ -18,10 +18,10 @@
       "category": "History",
       "question": "The Reign of Terror during the French Revolution was associated with which political leader?",
       "options": [
+        "Napoleon Bonaparte",
         "Louis XVI",
         "Jean-Paul Marat",
-        "Maximilien Robespierre",
-        "Napoleon Bonaparte"
+        "Maximilien Robespierre"
       ],
       "answer": "Maximilien Robespierre",
       "explanation": "Maximilien Robespierre led the Committee of Public Safety during the Reign of Terror (1793-1794), a period of mass executions of perceived enemies of the French Revolution. An estimated 17,000 were officially executed (including by guillotine) and 23,000 died in prison or without trial. The Terror ended when Robespierre himself was arrested and guillotined in the Thermidorian Reaction.",
@@ -44,10 +44,10 @@
       "category": "Sports",
       "question": "What is the maximum number of sets in a men's Grand Slam tennis match?",
       "options": [
-        "7",
         "4",
-        "5",
-        "3"
+        "3",
+        "7",
+        "5"
       ],
       "answer": "5",
       "explanation": "Men's Grand Slam tennis matches (Australian Open, French Open, Wimbledon, US Open) are played best of 5 sets. Women's Grand Slam matches are best of 3 sets. A set is typically won by the first player to reach 6 games with at least a 2-game lead. Tiebreaks are played when sets reach 6-6, with some variations depending on the tournament.",
@@ -57,10 +57,10 @@
       "category": "Sports",
       "question": "What term describes a perfect game in bowling — 12 consecutive strikes?",
       "options": [
-        "300",
         "Grand slam",
-        "Strike out",
-        "Turkey"
+        "Turkey",
+        "300",
+        "Strike out"
       ],
       "answer": "300",
       "explanation": "A perfect game in bowling consists of 12 consecutive strikes (rolling the ball into the pocket and knocking all 10 pins down on the first ball each frame), resulting in a score of 300 — the maximum possible. Bowling a 300 is extremely rare — the odds for an average recreational bowler are roughly 1 in 11,500. Even professional bowlers consider it a remarkable achievement.",
@@ -72,8 +72,8 @@
       "options": [
         "The Kinks",
         "The Who",
-        "The Beatles",
-        "The Rolling Stones"
+        "The Rolling Stones",
+        "The Beatles"
       ],
       "answer": "The Beatles",
       "explanation": "The Beatles — John Lennon, Paul McCartney, George Harrison, and Ringo Starr — are widely considered the most influential band in music history. They dominated the 1960s, introduced the album as an art form, pioneered music video, and transformed pop songwriting. They broke up in 1970. Their music has sold an estimated 600 million records — more than any other act.",
@@ -83,10 +83,10 @@
       "category": "Pop Culture",
       "question": "Which 1980s coming-of-age film featured the song 'Don't You (Forget About Me)' by Simple Minds?",
       "options": [
-        "Sixteen Candles",
-        "Pretty in Pink",
         "Ferris Bueller's Day Off",
-        "The Breakfast Club"
+        "Pretty in Pink",
+        "The Breakfast Club",
+        "Sixteen Candles"
       ],
       "answer": "The Breakfast Club",
       "explanation": "The Breakfast Club (1985), directed by John Hughes, starred five high school students in Saturday detention representing different social cliques. The ending, where they raise a fist in solidarity to 'Don't You (Forget About Me),' is one of cinema's most iconic closing shots. The film perfectly captured 1980s teenage anxiety and is still studied in film schools as a model of character-driven storytelling.",
@@ -96,10 +96,10 @@
       "category": "Pop Culture",
       "question": "Banksy is the world's most famous anonymous street artist, whose identity has never been officially confirmed. What aspect of Banksy's practice makes their work historically significant beyond its visual impact?",
       "options": [
-        "Banksy created the first street art to be acquired by a major museum while the artist remained anonymous — the Tate Modern acquired a Banksy work in 2003 after the artist installed it without permission and museum staff decided to keep it",
         "Banksy's 2018 auction stunt — where 'Girl With Balloon' shredded itself moments after selling for $1.4 million — was later revealed to have increased the work's value to $25.4 million, making it one of the most expensive British artworks ever sold",
-        "Banksy single-handedly elevated street art's auction prices — the artist's works have sold for up to $25 million, transforming what was legally vandalism into one of the most commercially valuable contemporary art forms",
-        "Banksy pioneered 'reversible vandalism' — developing water-soluble paint that would dissolve in rain, which legally protected them from prosecution since the art caused no permanent damage to surfaces"
+        "Banksy pioneered 'reversible vandalism' — developing water-soluble paint that would dissolve in rain, which legally protected them from prosecution since the art caused no permanent damage to surfaces",
+        "Banksy created the first street art to be acquired by a major museum while the artist remained anonymous — the Tate Modern acquired a Banksy work in 2003 after the artist installed it without permission and museum staff decided to keep it",
+        "Banksy single-handedly elevated street art's auction prices — the artist's works have sold for up to $25 million, transforming what was legally vandalism into one of the most commercially valuable contemporary art forms"
       ],
       "answer": "Banksy's 2018 auction stunt — where 'Girl With Balloon' shredded itself moments after selling for $1.4 million — was later revealed to have increased the work's value to $25.4 million, making it one of the most expensive British artworks ever sold",
       "explanation": "At a Sotheby's London auction in October 2018, 'Girl With Balloon' sold for £1.04 million. Seconds after the hammer fell, a hidden shredder built into the frame activated and partially destroyed the artwork — live on camera in the auction room. Banksy revealed they had built the mechanism years before in anticipation. The partially shredded work was renamed 'Love Is in the Bin' and in 2021 sold for £18.6 million (~$25.4M), making it far more valuable than the intact version. Banksy commented: 'The urge to destroy is also a creative urge.' The buyer in 2018 kept the work (and profited enormously).",
@@ -109,10 +109,10 @@
       "category": "Geography",
       "question": "Which South American country is home to the Galapagos Islands, famous for inspiring Darwin's theory of evolution?",
       "options": [
-        "Chile",
-        "Peru",
+        "Ecuador",
         "Colombia",
-        "Ecuador"
+        "Peru",
+        "Chile"
       ],
       "answer": "Ecuador",
       "explanation": "The Galapagos Islands are located about 1,000 km off the coast of Ecuador in the Pacific Ocean and are an Ecuadorian territory. Charles Darwin visited in 1835 on the HMS Beagle and observed distinct species of finches on different islands — each adapted to local food sources. This observation was key to developing his theory of natural selection, published in On the Origin of Species in 1859.",
@@ -122,10 +122,10 @@
       "category": "Science & Nature",
       "question": "What is the term for the process by which one species gradually changes into another over many generations?",
       "options": [
-        "Natural selection",
         "Genetic drift",
         "Mutation",
-        "Evolution"
+        "Evolution",
+        "Natural selection"
       ],
       "answer": "Evolution",
       "explanation": "Evolution is the process of change in all forms of life over generations. Driven primarily by natural selection — where individuals with traits better suited to their environment are more likely to survive and reproduce — it explains the diversity of life on Earth. Charles Darwin and Alfred Russel Wallace independently developed the theory of evolution by natural selection, published by Darwin in 1859.",
@@ -135,9 +135,9 @@
       "category": "Geography",
       "question": "Mount Olympus, the highest peak in Greece at 2,917 meters, is located in which part of the country?",
       "options": [
-        "On the island of Crete",
         "In northern Greece near Thessaloniki",
         "On a small island off Athens",
+        "On the island of Crete",
         "On the Peloponnese Peninsula"
       ],
       "answer": "In northern Greece near Thessaloniki",
@@ -148,10 +148,10 @@
       "category": "Science & Nature",
       "question": "When a ball rolls downhill, what conversion of energy is occurring?",
       "options": [
-        "Nuclear to thermal",
-        "Potential to kinetic",
+        "Chemical to kinetic",
         "Kinetic to potential",
-        "Chemical to kinetic"
+        "Nuclear to thermal",
+        "Potential to kinetic"
       ],
       "answer": "Potential to kinetic",
       "explanation": "Potential energy is stored energy based on position or configuration — an object at height has gravitational potential energy. Kinetic energy is the energy of motion. When an object falls or rolls downhill, potential energy converts to kinetic energy. The total mechanical energy (potential + kinetic) is conserved in the absence of friction. Energy conversions are happening constantly: chemical → kinetic (muscles), electrical → light (bulbs), kinetic → electrical (generators).",

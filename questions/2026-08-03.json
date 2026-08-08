@@ -5,10 +5,10 @@
       "category": "History",
       "question": "The Battle of Stalingrad (1942-43), considered the turning point of World War II on the Eastern Front, was fought between Nazi Germany and which country?",
       "options": [
-        "Ukraine",
-        "Poland",
         "Soviet Union",
-        "Romania"
+        "Romania",
+        "Ukraine",
+        "Poland"
       ],
       "answer": "Soviet Union",
       "explanation": "The Battle of Stalingrad (August 1942 – February 1943) was one of the deadliest battles in history, with an estimated 2 million casualties. Soviet forces encircled and destroyed the German 6th Army, forcing its surrender. It marked the point at which Germany was forced onto the defensive on the Eastern Front.",
@@ -18,10 +18,10 @@
       "category": "History",
       "question": "Vasco da Gama became the first European to reach India by sea, opening a direct trade route and bypassing the Ottoman-controlled Silk Road. From which country did he sail in 1497?",
       "options": [
-        "Portugal",
         "Netherlands",
-        "England",
-        "Spain"
+        "Spain",
+        "Portugal",
+        "England"
       ],
       "answer": "Portugal",
       "explanation": "Vasco da Gama sailed from Lisbon, Portugal in July 1497 and arrived in Calicut (Kozhikode), India in May 1498, completing the first direct maritime link between Europe and Asia. This route made Portugal immensely wealthy and shifted the center of world trade away from the Mediterranean.",
@@ -31,9 +31,9 @@
       "category": "History",
       "question": "Which ancient Greek mathematician formulated the theorem that the square of the hypotenuse of a right triangle equals the sum of the squares of the other two sides (a² + b² = c²)?",
       "options": [
-        "Archimedes",
         "Thales",
         "Pythagoras",
+        "Archimedes",
         "Euclid"
       ],
       "answer": "Pythagoras",
@@ -44,10 +44,10 @@
       "category": "Sports",
       "question": "The Kentucky Derby, the first leg of horse racing's Triple Crown, is run at which distance?",
       "options": [
+        "Two miles",
         "One mile",
-        "1.5 miles",
         "1.25 miles",
-        "Two miles"
+        "1.5 miles"
       ],
       "answer": "1.25 miles",
       "explanation": "The Kentucky Derby is run at one and a quarter miles (10 furlongs) at Churchill Downs in Louisville, Kentucky. It has been held annually on the first Saturday in May since 1875. Along with the Preakness Stakes and Belmont Stakes, it forms the Triple Crown. Winning all three in the same year is one of the rarest feats in sport — only 13 horses have done it.",
@@ -70,8 +70,8 @@
       "category": "Pop Culture",
       "question": "Which 1972 Francis Ford Coppola film won the Academy Award for Best Picture and is widely considered one of the greatest films ever made?",
       "options": [
-        "The Godfather",
         "Chinatown",
+        "The Godfather",
         "Taxi Driver",
         "Apocalypse Now"
       ],
@@ -83,8 +83,8 @@
       "category": "Pop Culture",
       "question": "Which artist is known as the 'Queen of Pop'?",
       "options": [
-        "Whitney Houston",
         "Beyonce",
+        "Whitney Houston",
         "Mariah Carey",
         "Madonna"
       ],
@@ -96,10 +96,10 @@
       "category": "Sports",
       "question": "Muhammad Ali's 'Rumble in the Jungle' (1974) against George Foreman in Kinshasa, Zaire is considered one of boxing's greatest upsets. What tactic did Ali use to defeat the heavily favored Foreman?",
       "options": [
-        "Ali won on a split decision after 15 rounds, surviving multiple knockdowns in the early rounds through sheer will — Foreman landed more punches but Ali's judges' scores gave him the edge",
+        "Ali employed the 'rope-a-dope' — leaning against the ropes and covering up, letting Foreman punch himself to exhaustion, then attacking in round 8 when Foreman was too tired to defend",
         "Ali and Foreman fought to a draw through 10 rounds until Ali landed a single right-hand counter in round 11 that ended the fight, the only meaningful punch Ali threw in the fight",
-        "Ali used an aggressive early attack strategy, landing 47 consecutive jabs in the opening two rounds before Foreman could find his range — Foreman never recovered from the early damage",
-        "Ali employed the 'rope-a-dope' — leaning against the ropes and covering up, letting Foreman punch himself to exhaustion, then attacking in round 8 when Foreman was too tired to defend"
+        "Ali won on a split decision after 15 rounds, surviving multiple knockdowns in the early rounds through sheer will — Foreman landed more punches but Ali's judges' scores gave him the edge",
+        "Ali used an aggressive early attack strategy, landing 47 consecutive jabs in the opening two rounds before Foreman could find his range — Foreman never recovered from the early damage"
       ],
       "answer": "Ali employed the 'rope-a-dope' — leaning against the ropes and covering up, letting Foreman punch himself to exhaustion, then attacking in round 8 when Foreman was too tired to defend",
       "explanation": "George Foreman at the time was considered almost unbeatable — he had destroyed Joe Frazier and Ken Norton, both of whom had beaten Ali. He was a 3-1 favorite. Ali's corner had no idea he planned the rope-a-dope until round 2. Ali covered his head and body and leaned on the ropes, absorbing shots to the arms while Foreman punched himself out. By rounds 7-8, Foreman's punches had lost power from exhaustion. Ali attacked in round 8, landing a combination that sent Foreman down — Foreman couldn't beat the count. Norman Mailer documented it in 'The Fight' (1975). Ali called it the greatest night of his career.",
@@ -110,8 +110,8 @@
       "question": "The Tropic of Cancer and the Tropic of Capricorn mark the northern and southern limits of what?",
       "options": [
         "The temperate zones",
-        "The equatorial belt",
         "The tropics",
+        "The equatorial belt",
         "The polar regions"
       ],
       "answer": "The tropics",
@@ -123,8 +123,8 @@
       "question": "What is the name of the force that keeps electrons orbiting the nucleus of an atom?",
       "options": [
         "Weak nuclear force",
-        "Gravity",
         "Electromagnetic force",
+        "Gravity",
         "Strong nuclear force"
       ],
       "answer": "Electromagnetic force",
@@ -135,10 +135,10 @@
       "category": "Geography",
       "question": "The Namib Desert, running along the Atlantic coast of Namibia, is considered the world's oldest desert. Approximately how long has it been a desert?",
       "options": [
-        "1 million years",
         "5 million years",
         "10,000 years",
-        "55 million years"
+        "55 million years",
+        "1 million years"
       ],
       "answer": "55 million years",
       "explanation": "The Namib Desert is estimated to have been an arid or semi-arid region for at least 55 million years — making it the world's oldest desert. Despite its extreme aridity, the Namib has remarkable biodiversity including the fog-basking beetle (which collects water from coastal fog), the welwitschia plant (which can live over 1,000 years), oryx, and the world's largest sea-land nesting colony of Cape fur seals. The iconic red sand dunes near Sossusvlei are among the world's tallest.",
@@ -148,10 +148,10 @@
       "category": "Science & Nature",
       "question": "What is the reproductive process by which flowers receive pollen from the same or another plant, allowing fertilization to occur?",
       "options": [
-        "Pollination",
         "Germination",
-        "Fertilization",
-        "Sporulation"
+        "Pollination",
+        "Sporulation",
+        "Fertilization"
       ],
       "answer": "Pollination",
       "explanation": "Pollination is the transfer of pollen from a flower's anther to its stigma, enabling fertilization. It can be self-pollination (same plant) or cross-pollination (between plants). Agents include bees, butterflies, birds, bats, wind, and water. Bees are the world's most important pollinators — about one-third of the food humans eat depends on pollination. Colony Collapse Disorder (CCD), in which honeybee colonies suddenly die, has been a major concern because of its potential impact on food supplies.",

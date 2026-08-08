@@ -5,10 +5,10 @@
       "category": "History",
       "question": "Which ancient wonder, consisting of a walled terraced garden built in Babylon (modern Iraq), was supposedly built by King Nebuchadnezzar II for his wife?",
       "options": [
+        "Garden of Eden",
         "Gardens of Versailles",
-        "Persepolis Gardens",
         "Hanging Gardens of Babylon",
-        "Garden of Eden"
+        "Persepolis Gardens"
       ],
       "answer": "Hanging Gardens of Babylon",
       "explanation": "The Hanging Gardens of Babylon are the only one of the Seven Ancient Wonders for which no definitive archaeological evidence has been found, and some historians believe they may have actually been in Nineveh (modern Iraq) rather than Babylon. Nebuchadnezzar II reportedly built them for his wife Amytis, who missed the green hills of her homeland.",
@@ -19,8 +19,8 @@
       "question": "What is the name of the device that uses mirrors or lenses to focus visible light from distant objects, named after the Greek word for 'far' and 'see'?",
       "options": [
         "Microscope",
-        "Interferometer",
         "Spectrometer",
+        "Interferometer",
         "Telescope"
       ],
       "answer": "Telescope",
@@ -31,8 +31,8 @@
       "category": "Sports",
       "question": "Which U.S. city's NBA team, known as the 'Showtime' Lakers, won five championships in the 1980s with Magic Johnson and Kareem Abdul-Jabbar?",
       "options": [
-        "Chicago",
         "Los Angeles",
+        "Chicago",
         "Minneapolis",
         "Boston"
       ],
@@ -44,10 +44,10 @@
       "category": "Pop Culture",
       "question": "Which 2014 Alejandro González Iñárritu film, shot to appear as one continuous take, starred Michael Keaton as a faded superhero actor and won Best Picture?",
       "options": [
-        "Birdman",
+        "Boyhood",
         "Whiplash",
         "The Grand Budapest Hotel",
-        "Boyhood"
+        "Birdman"
       ],
       "answer": "Birdman",
       "explanation": "Birdman or (The Unexpected Virtue of Ignorance) used elaborate hidden cuts to appear as one 2-hour continuous shot. It won Best Picture, Director, Original Screenplay, and Cinematography. Michael Keaton played Riggan Thomson — a meta-commentary on Keaton's own career as Batman in the 1980s-90s.",
@@ -57,10 +57,10 @@
       "category": "Geography",
       "question": "Which European micro-state, located in the Pyrenees mountains between France and Spain, has the highest capital city in Europe at 1,023 meters elevation?",
       "options": [
-        "Andorra",
         "Monaco",
         "Liechtenstein",
-        "San Marino"
+        "San Marino",
+        "Andorra"
       ],
       "answer": "Andorra",
       "explanation": "Andorra la Vella, the capital of Andorra, sits at 1,023 meters — making it Europe's highest capital and one of the world's highest. Andorra has no airport or railway and is accessed by road through France or Spain. It is famous as a tax haven and shopping destination. Its official language is Catalan.",
@@ -71,9 +71,9 @@
       "question": "The Cuban Missile Crisis of 1962, the closest the Cold War came to nuclear war, was triggered by Soviet missiles being placed in Cuba. Which U.S. president negotiated their removal?",
       "options": [
         "Lyndon B. Johnson",
-        "John F. Kennedy",
+        "Dwight Eisenhower",
         "Richard Nixon",
-        "Dwight Eisenhower"
+        "John F. Kennedy"
       ],
       "answer": "John F. Kennedy",
       "explanation": "JFK chose a naval 'quarantine' (blockade) of Cuba rather than airstrikes. Secret negotiations (helped by back-channel communications) led Soviet Premier Khrushchev to remove missiles in exchange for a U.S. pledge not to invade Cuba and secret removal of U.S. missiles from Turkey. The crisis lasted 13 days in October 1962.",
@@ -83,10 +83,10 @@
       "category": "Pop Culture",
       "question": "Which multi-billionaire co-founded Amazon in 1994, started it as an online bookstore in his garage, and briefly became the world's richest person?",
       "options": [
-        "Jeff Bezos",
-        "Bill Gates",
+        "Warren Buffett",
         "Elon Musk",
-        "Warren Buffett"
+        "Jeff Bezos",
+        "Bill Gates"
       ],
       "answer": "Jeff Bezos",
       "explanation": "Jeff Bezos founded Amazon in a garage in Bellevue, Washington in 1994. He named it Amazon because it was 'exotic and different' and wanted a site sorted to the top of alphabetical lists (starting with 'A'). He stepped down as CEO in 2021. Amazon now encompasses cloud computing (AWS), streaming, logistics, and retail.",
@@ -96,10 +96,10 @@
       "category": "Science & Nature",
       "question": "What is the term for the angle at which a wave hits a surface, which equals the angle at which it bounces back?",
       "options": [
-        "Snell's angle",
         "Critical angle",
-        "Angle of incidence = angle of reflection",
-        "Brewster's angle"
+        "Snell's angle",
+        "Brewster's angle",
+        "Angle of incidence = angle of reflection"
       ],
       "answer": "Angle of incidence = angle of reflection",
       "explanation": "The law of reflection states that the angle of incidence equals the angle of reflection. This applies to light, sound, and water waves. Snell's Law governs refraction (the bending of waves when they cross between media with different densities — like light entering water). The critical angle is the minimum angle at which total internal reflection occurs.",
@@ -109,10 +109,10 @@
       "category": "Geography",
       "question": "Which two countries share the world's longest undefended border, stretching approximately 8,891 km?",
       "options": [
-        "Canada and United States",
-        "Kazakhstan and Russia",
         "Russia and China",
-        "Brazil and Bolivia"
+        "Brazil and Bolivia",
+        "Kazakhstan and Russia",
+        "Canada and United States"
       ],
       "answer": "Canada and United States",
       "explanation": "The Canada-U.S. border (including the Alaska-Canada border) stretches 8,891 km. The portion between the contiguous US and Canada (excluding Alaska) is 6,416 km, running along the 49th parallel for much of its length. It is the world's longest border between two nations that is not militarized.",
@@ -123,8 +123,8 @@
       "question": "Which Indian leader, known as the 'Mahatma' (Great Soul), led the non-violent resistance movement that ultimately secured Indian independence from British rule?",
       "options": [
         "B.R. Ambedkar",
-        "Jawaharlal Nehru",
         "Mahatma Gandhi",
+        "Jawaharlal Nehru",
         "Subhas Chandra Bose"
       ],
       "answer": "Mahatma Gandhi",
@@ -135,10 +135,10 @@
       "category": "Pop Culture",
       "question": "Which 1980s pop duo, consisting of George Michael and Andrew Ridgeley, had hits like 'Wake Me Up Before You Go-Go' and 'Careless Whisper'?",
       "options": [
-        "Wham!",
-        "Hall & Oates",
+        "Pet Shop Boys",
         "Tears for Fears",
-        "Pet Shop Boys"
+        "Wham!",
+        "Hall & Oates"
       ],
       "answer": "Wham!",
       "explanation": "Wham! was active 1981-1986. George Michael wrote most of their hits. 'Last Christmas' (1984) is one of the best-selling singles of all time that never reached #1 in the UK (kept off by Band Aid's 'Do They Know It's Christmas?'). After the split, George Michael had a massive solo career before his death in 2016.",
@@ -148,10 +148,10 @@
       "category": "Sports",
       "question": "In volleyball, what is the maximum number of times a team can touch the ball before it must go over the net?",
       "options": [
-        "4",
-        "3",
+        "2",
         "5",
-        "2"
+        "4",
+        "3"
       ],
       "answer": "3",
       "explanation": "In volleyball, each team may touch the ball a maximum of three times before sending it over the net. Typically the sequence is: dig (pass from serve), set, and spike (attack). A player cannot hit the ball twice consecutively, and a block touch does not count as one of the three contacts.",

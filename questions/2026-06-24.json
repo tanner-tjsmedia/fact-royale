@@ -18,10 +18,10 @@
       "category": "History",
       "question": "What was Leonardo da Vinci's nationality?",
       "options": [
-        "French",
         "Italian",
-        "Spanish",
-        "Greek"
+        "Greek",
+        "French",
+        "Spanish"
       ],
       "answer": "Italian",
       "explanation": "Leonardo da Vinci (1452–1519) was born in Vinci, in the Tuscan region of Italy (then the Republic of Florence). The ultimate 'Renaissance man,' he excelled as a painter, sculptor, architect, scientist, mathematician, engineer, inventor, anatomist, geologist, botanist, and writer. His notebooks contain designs for flying machines, tanks, and solar power — centuries before they were invented.",
@@ -44,10 +44,10 @@
       "category": "Sports",
       "question": "The Masters golf tournament is played annually at which legendary golf course?",
       "options": [
-        "Pebble Beach",
-        "Oakmont Country Club",
         "Augusta National",
-        "St Andrews"
+        "St Andrews",
+        "Pebble Beach",
+        "Oakmont Country Club"
       ],
       "answer": "Augusta National",
       "explanation": "The Masters Tournament is held every April at Augusta National Golf Club in Augusta, Georgia. It is the only major golf championship played at the same course every year. The winner receives the iconic green jacket, presented by the previous year's champion. The course is famous for its pristine conditions, azalea flowers, Amen Corner, and its historically exclusive membership policy.",
@@ -57,10 +57,10 @@
       "category": "Sports",
       "question": "The Daytona 500 is the most prestigious race in which racing series?",
       "options": [
+        "IMSA",
         "IndyCar",
         "NASCAR",
-        "Formula 1",
-        "IMSA"
+        "Formula 1"
       ],
       "answer": "NASCAR",
       "explanation": "The Daytona 500 is the most prestigious and richest race in NASCAR, held annually at Daytona International Speedway in Daytona Beach, Florida. First run in 1959, it is held on the first Sunday in February and serves as the opening race of the NASCAR Cup Series season. It is often called 'The Great American Race.'",
@@ -70,10 +70,10 @@
       "category": "Pop Culture",
       "question": "Schindler's List (1993), directed by Steven Spielberg, is based on the true story of a businessman who saved Jews during which event?",
       "options": [
-        "The Russian Revolution",
-        "The Rwandan Genocide",
+        "The Armenian Genocide",
         "The Holocaust",
-        "The Armenian Genocide"
+        "The Russian Revolution",
+        "The Rwandan Genocide"
       ],
       "answer": "The Holocaust",
       "explanation": "Schindler's List tells the true story of Oskar Schindler, a German businessman who saved over 1,200 Jewish people from the Holocaust by employing them in his factories. Spielberg won the Academy Award for Best Director and the film won Best Picture. Spielberg donated his entire salary from the film to Holocaust-related charities and donated the original manuscript to the US Holocaust Memorial Museum.",
@@ -96,10 +96,10 @@
       "category": "Pop Culture",
       "question": "E.T. the Extra-Terrestrial (1982) was directed by Steven Spielberg and was the highest-grossing film of its time. What does E.T. famously say?",
       "options": [
-        "'Come home'",
-        "'I'll be back'",
         "'Go home'",
-        "'Phone home'"
+        "'Phone home'",
+        "'Come home'",
+        "'I'll be back'"
       ],
       "answer": "'Phone home'",
       "explanation": "E.T.'s iconic line — 'E.T. phone home' — is one of the most recognized quotes in cinema history. E.T. the Extra-Terrestrial grossed $792 million worldwide in its original release (1982), making it the highest-grossing film of all time until Return of the Jedi surpassed it in 1983. The film was nominated for 9 Academy Awards and won 4.",
@@ -109,9 +109,9 @@
       "category": "Geography",
       "question": "Which river, the world's longest at approximately 6,650 km, flows northward through Sudan and Egypt before emptying into the Mediterranean Sea?",
       "options": [
-        "Nile River",
         "Niger River",
         "Zambezi River",
+        "Nile River",
         "Congo River"
       ],
       "answer": "Nile River",
@@ -123,9 +123,9 @@
       "question": "Which greenhouse gas, produced primarily by burning fossil fuels and deforestation, is the main driver of human-caused climate change?",
       "options": [
         "Methane (CH4)",
+        "Nitrous oxide (N2O)",
         "Carbon dioxide (CO2)",
-        "Ozone (O3)",
-        "Nitrous oxide (N2O)"
+        "Ozone (O3)"
       ],
       "answer": "Carbon dioxide (CO2)",
       "explanation": "Carbon dioxide is the primary greenhouse gas responsible for human-caused climate change, released by burning coal, oil, and natural gas, as well as deforestation and cement production. While methane is a more potent greenhouse gas per molecule, CO2 is released in far greater quantities and persists longer in the atmosphere. CO2 concentrations have risen from about 280 parts per million before industrialization to over 420 ppm today — the highest in at least 800,000 years.",
@@ -135,10 +135,10 @@
       "category": "Geography",
       "question": "Death Valley in California holds which North American record?",
       "options": [
-        "Highest peak",
         "Lowest elevation",
         "Driest desert",
-        "Strongest winds"
+        "Strongest winds",
+        "Highest peak"
       ],
       "answer": "Lowest elevation",
       "explanation": "Death Valley's Badwater Basin sits at 86 meters (282 feet) below sea level — the lowest elevation in North America. It also holds the record for the highest reliably recorded air temperature on Earth: 56.7°C (134°F) on July 10, 1913. Despite its extreme heat and aridity, Death Valley hosts over 1,000 plant species and is a designated national park.",
@@ -148,10 +148,10 @@
       "category": "Science & Nature",
       "question": "Nicolaus Copernicus's 1543 work 'On the Revolutions of the Celestial Spheres' proposed that Earth orbits the Sun, not vice versa. Why was this revolutionary — and dangerous?",
       "options": [
-        "Copernicus was the first person to propose that the Earth is round rather than flat, overturning 1,500 years of Church teaching about a flat Earth",
         "It overturned 1,400 years of Ptolemaic geocentrism endorsed by the Church, placing humans at the universe's periphery rather than its center — a philosophical and religious revolution as much as a scientific one",
-        "Copernicus's model for the first time correctly predicted lunar eclipses, which the geocentric model had been unable to explain, providing immediate practical proof",
-        "The heliocentric model was revolutionary because it proved that other planets must also support life, since they all orbited the same sun that gave Earth its light and warmth"
+        "The heliocentric model was revolutionary because it proved that other planets must also support life, since they all orbited the same sun that gave Earth its light and warmth",
+        "Copernicus was the first person to propose that the Earth is round rather than flat, overturning 1,500 years of Church teaching about a flat Earth",
+        "Copernicus's model for the first time correctly predicted lunar eclipses, which the geocentric model had been unable to explain, providing immediate practical proof"
       ],
       "answer": "It overturned 1,400 years of Ptolemaic geocentrism endorsed by the Church, placing humans at the universe's periphery rather than its center — a philosophical and religious revolution as much as a scientific one",
       "explanation": "Ptolemy's geocentric model (Earth at center, with planets on complex epicycles) had been the accepted view since the 2nd century AD and was embedded in Church doctrine. Copernicus published his heliocentric model only as he was dying — allegedly receiving his printed book on the day of his death — partially to avoid Church condemnation. His work triggered the Copernican Revolution, inspiring Galileo (who was tried by the Inquisition for defending it) and Kepler (who refined the orbital mechanics). Copernicus's book was placed on the Church's Index of Forbidden Books in 1616.",

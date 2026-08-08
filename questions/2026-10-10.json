@@ -6,9 +6,9 @@
       "question": "The Great Wall of China, in its most famous form along the northern border, was largely rebuilt and extended during which dynasty?",
       "options": [
         "Qing Dynasty",
-        "Ming Dynasty",
         "Song Dynasty",
-        "Han Dynasty"
+        "Han Dynasty",
+        "Ming Dynasty"
       ],
       "answer": "Ming Dynasty",
       "explanation": "While earlier walls date to the 7th century BCE, the most iconic sections of the Great Wall — made of brick and stone — were built during the Ming Dynasty (1368-1644). The Ming wall stretches about 8,850 km along northern China. The wall was built to defend against Mongol incursions. Modern studies have revealed the complete wall system (including trenches and barriers) extends about 21,196 km. Despite popular belief, it is NOT visible from space.",
@@ -19,9 +19,9 @@
       "question": "Galileo Galilei was tried by the Roman Inquisition in 1633 and forced to recant his claim that Earth orbits the Sun. Whose earlier heliocentric model had Galileo confirmed?",
       "options": [
         "Johannes Kepler",
+        "Isaac Newton",
         "Tycho Brahe",
-        "Nicolaus Copernicus",
-        "Isaac Newton"
+        "Nicolaus Copernicus"
       ],
       "answer": "Nicolaus Copernicus",
       "explanation": "Copernicus (1473-1543) proposed in 1543 that Earth orbits the Sun (heliocentrism), contradicting the Church's geocentric model. Galileo's telescope observations (moons of Jupiter, phases of Venus, sunspots) confirmed Copernicus. The Inquisition forced Galileo to recant under threat of torture. He reportedly muttered 'And yet it moves' afterward — the quote is probably apocryphal but captures his defiance. The Church officially acknowledged its error only in 1992.",
@@ -31,10 +31,10 @@
       "category": "History",
       "question": "President Abraham Lincoln was assassinated on April 14, 1865. Where was he shot?",
       "options": [
-        "A military ceremony in Richmond",
         "The US Capitol",
-        "The White House",
-        "Ford's Theatre in Washington DC"
+        "A military ceremony in Richmond",
+        "Ford's Theatre in Washington DC",
+        "The White House"
       ],
       "answer": "Ford's Theatre in Washington DC",
       "explanation": "Lincoln was shot by Confederate sympathizer John Wilkes Booth at Ford's Theatre during a performance of 'Our American Cousin,' just five days after Confederate General Lee's surrender at Appomattox. Booth was an actor who knew the theater well and shot Lincoln from behind in his private box. Lincoln died the following morning. Booth was tracked down and killed 12 days later in a Virginia barn.",
@@ -44,10 +44,10 @@
       "category": "Sports",
       "question": "Joe DiMaggio set the MLB record for consecutive games with at least one hit in 1941. How many consecutive games did his hit streak span?",
       "options": [
-        "61",
-        "73",
+        "44",
         "56",
-        "44"
+        "73",
+        "61"
       ],
       "answer": "56",
       "explanation": "Joe DiMaggio hit safely in 56 consecutive games for the New York Yankees from May 15 to July 17, 1941. The streak is considered one of the most unbreakable records in professional sports — statistical analysis suggests the probability of anyone ever matching it is very low. DiMaggio batted .408 during the streak with 15 home runs. He was also known for his later marriage to Marilyn Monroe.",
@@ -57,10 +57,10 @@
       "category": "Sports",
       "question": "The FA Cup, the world's oldest association football (soccer) knock-out competition, was first held in which decade?",
       "options": [
-        "1890s",
-        "1910s",
         "1840s",
-        "1870s"
+        "1910s",
+        "1870s",
+        "1890s"
       ],
       "answer": "1870s",
       "explanation": "The FA Cup was first held in 1871-72, with the Wanderers FC winning the inaugural final in 1872. It is open to all English football clubs from the top divisions to the lower amateur leagues, making it possible for small clubs to knock out Premier League giants. This 'giant-killing' tradition makes the FA Cup uniquely dramatic. The record for most FA Cup wins is held by Arsenal with 14 titles.",
@@ -70,10 +70,10 @@
       "category": "Pop Culture",
       "question": "Robert Capa's 'The Falling Soldier' (1936) was long called the greatest war photograph ever. What controversy surrounds it?",
       "options": [
-        "It was real but published as propaganda he opposed",
-        "Picture Post ordered the staging, per his diary",
         "The dead man was a Nationalist, not a Republican",
-        "It may have been staged at a training exercise"
+        "It may have been staged at a training exercise",
+        "Picture Post ordered the staging, per his diary",
+        "It was real but published as propaganda he opposed"
       ],
       "answer": "It may have been staged at a training exercise",
       "explanation": "The photograph shows a militiaman apparently at the moment of being shot. Questions arose because: the location Capa claimed the photo was taken saw no combat that day; he had two rolls of film shot at a training exercise nearby; Spanish researcher José Manuel Susperregui identified the probable location as Espejo, miles from the reported battle. The man in the photograph has been identified as Federico Borrell García, who did die in battle — but possibly not in the moment Capa claimed. Capa never returned to discuss it in depth and died stepping on a landmine in Indochina in 1954. His co-founder Gerda Taro died during the same Spanish Civil War.",
@@ -83,9 +83,9 @@
       "category": "Pop Culture",
       "question": "'Purple Rain' (1984) is both a film and soundtrack album by which artist, who also wrote and starred in it?",
       "options": [
+        "Michael Jackson",
         "Stevie Wonder",
         "David Bowie",
-        "Michael Jackson",
         "Prince"
       ],
       "answer": "Prince",
@@ -97,9 +97,9 @@
       "question": "Mary Shelley wrote 'Frankenstein' in 1818 at just 18 years old. What inspired her to write it?",
       "options": [
         "A traumatic childhood illness",
-        "A competition with Lord Byron and Percy Shelley to write the best ghost story",
+        "Her work as a nurse treating burn victims",
         "A scientific experiment she witnessed at university",
-        "Her work as a nurse treating burn victims"
+        "A competition with Lord Byron and Percy Shelley to write the best ghost story"
       ],
       "answer": "A competition with Lord Byron and Percy Shelley to write the best ghost story",
       "explanation": "Mary Shelley wrote Frankenstein during the 'Year Without a Summer' (1816) — caused by the eruption of Mount Tambora. She was in a house party with Lord Byron, Percy Shelley (her future husband), and John Polidori. Byron challenged everyone to write a ghost story. Mary's dream about a scientist giving life to an assembled creature became Frankenstein, published in 1818. The novel is often considered the first work of science fiction.",
@@ -109,10 +109,10 @@
       "category": "Geography",
       "question": "The Mississippi River is the largest river system in North America. Into which body of water does it empty, and approximately where?",
       "options": [
-        "The Pacific Ocean, near Los Angeles",
         "The Atlantic Ocean, in Florida",
-        "The Gulf of Mexico, near Corpus Christi",
-        "The Gulf of Mexico, south of New Orleans"
+        "The Pacific Ocean, near Los Angeles",
+        "The Gulf of Mexico, south of New Orleans",
+        "The Gulf of Mexico, near Corpus Christi"
       ],
       "answer": "The Gulf of Mexico, south of New Orleans",
       "explanation": "The Mississippi River drains about 40% of the contiguous United States into a massive delta south of New Orleans, Louisiana. The river is 3,730 km long from its source at Lake Itasca, Minnesota to its mouth. Including the Missouri River (its longest tributary), the system is the world's 4th longest river drainage basin. The Mississippi delta is shrinking due to upstream dams and sediment diversion, causing Louisiana to lose a football field of land per hour to the sea.",
@@ -122,10 +122,10 @@
       "category": "Geography",
       "question": "The Sinai Peninsula, a triangular landmass connecting Africa to Asia, belongs to which country and contains which famous mountain?",
       "options": [
-        "Saudi Arabia; Mount Hira",
         "Jordan; Mount Pisgah",
-        "Egypt; Mount Sinai",
-        "Israel; Mount Nebo"
+        "Israel; Mount Nebo",
+        "Saudi Arabia; Mount Hira",
+        "Egypt; Mount Sinai"
       ],
       "answer": "Egypt; Mount Sinai",
       "explanation": "The Sinai Peninsula is part of Egypt, connecting it to Israel and Jordan via land while it is surrounded by the Red Sea (Gulf of Suez to the west and Gulf of Aqaba to the east). Mount Sinai (or Jabal Musa, 2,285m) is traditionally identified as the location where Moses received the Ten Commandments. St. Catherine's Monastery at its base is the oldest Christian monastery still in operation, founded in 565 CE.",
@@ -135,10 +135,10 @@
       "category": "Science & Nature",
       "question": "Convergent evolution occurs when unrelated species independently evolve similar traits. Which is the classic example?",
       "options": [
-        "Darwin's finches evolving different beak shapes",
-        "Wolves and dogs sharing DNA from a common ancestor",
         "All primates having five-fingered hands",
-        "Sharks (fish) and dolphins (mammals) both evolving streamlined bodies for swimming"
+        "Wolves and dogs sharing DNA from a common ancestor",
+        "Sharks (fish) and dolphins (mammals) both evolving streamlined bodies for swimming",
+        "Darwin's finches evolving different beak shapes"
       ],
       "answer": "Sharks (fish) and dolphins (mammals) both evolving streamlined bodies for swimming",
       "explanation": "Sharks (fish, cold-blooded, gills) and dolphins (mammals, warm-blooded, lungs) have no recent common ancestor yet evolved nearly identical body shapes — torpedo bodies, dorsal fins, flippers. Both face the same physical challenge (moving efficiently through water) and evolved the same solution independently. Other examples: wings evolved independently in birds, bats, and insects; camera eyes evolved independently in vertebrates and octopuses.",
@@ -150,8 +150,8 @@
       "options": [
         "Two chambers pump blood to lungs, two pump to body — all four pump simultaneously",
         "The right side receives oxygen-poor blood and sends it to lungs; the left side receives oxygen-rich blood and pumps it to the body",
-        "The upper chambers filter blood; the lower chambers pump it",
-        "All four chambers pump blood in sequence to build pressure"
+        "All four chambers pump blood in sequence to build pressure",
+        "The upper chambers filter blood; the lower chambers pump it"
       ],
       "answer": "The right side receives oxygen-poor blood and sends it to lungs; the left side receives oxygen-rich blood and pumps it to the body",
       "explanation": "The heart has four chambers: right atrium and right ventricle (pulmonary circuit — receive deoxygenated blood from the body, pump to lungs for oxygen); left atrium and left ventricle (systemic circuit — receive oxygenated blood from lungs, pump to the entire body). The left ventricle is the most muscular because it must pump blood the furthest. At rest, the heart beats ~70 times/min and pumps ~5 liters of blood per minute.",

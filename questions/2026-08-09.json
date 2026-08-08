@@ -5,10 +5,10 @@
       "category": "History",
       "question": "Which empire built the Taj Mahal in India?",
       "options": [
-        "Ottoman Empire",
+        "British Empire",
         "Mughal Empire",
         "Persian Empire",
-        "British Empire"
+        "Ottoman Empire"
       ],
       "answer": "Mughal Empire",
       "explanation": "The Taj Mahal was commissioned by Mughal Emperor Shah Jahan in 1632 as a mausoleum for his beloved wife Mumtaz Mahal, who died during childbirth. It took approximately 22 years and 20,000 workers to complete. The white marble structure in Agra, India, is considered the greatest example of Mughal architecture and one of the New Seven Wonders of the World.",
@@ -18,10 +18,10 @@
       "category": "History",
       "question": "The first telephone call in history was made by Alexander Graham Bell in 1876. What were his first words?",
       "options": [
-        "Watson, I need you.",
-        "Speak and I shall hear.",
-        "Mr. Watson, come here. I want to see you.",
-        "Hello, can you hear me?"
+        "Hello, can you hear me clearly at that end?",
+        "Watson, I need you here in the room at once.",
+        "Speak now and I shall be able to hear you.",
+        "Mr. Watson, come here. I want to see you."
       ],
       "answer": "Mr. Watson, come here. I want to see you.",
       "explanation": "Alexander Graham Bell made the first successful telephone call on March 10, 1876, saying 'Mr. Watson, come here. I want to see you.' to his assistant Thomas Watson, who was in the next room. Bell had received his patent for the telephone just three days earlier. The telephone transformed human communication more than any invention since writing.",
@@ -29,38 +29,50 @@
     },
     {
       "category": "History",
-      "question": "What Afrikaans-derived word names the system of institutionalized racial segregation enforced by the South African government from 1948 until its repeal in the early 1990s?",
+      "question": "South Africa's apartheid system ran from 1948 to the early 1990s. What did the Population Registration Act of 1950 do?",
       "options": [
-        "Verwoerdism",
-        "Bantustanism",
-        "Apartheid",
-        "Segregationism"
+        "Created separate parliaments for each of the four provinces",
+        "Classified every citizen by race, fixing where they could live",
+        "Required white citizens to register firearms with police",
+        "Banned every political party opposing the National Party"
       ],
-      "answer": "Apartheid",
-      "explanation": "Apartheid — Afrikaans for 'separateness' — was a system of racial segregation in South Africa enforced through legislation from 1948 to 1991. It classified citizens by race and restricted where they could live, work, and travel. Nelson Mandela spent 27 years in prison for opposing it.",
-      "memory_hook": "Apartheid = Afrikaans for 'separateness.' South Africa, 1948-1991."
+      "answer": "Classified every citizen by race, fixing where they could live",
+      "explanation": "The Act sorted every South African into a racial category, and that classification then governed where a person could live, work, travel, and who they could marry. Boards assessed borderline cases using tests as arbitrary as whether a pencil would stay put in someone's hair. Families were split when siblings received different classifications. It was the administrative spine of apartheid, since every other segregation law depended on the register it created.",
+      "memory_hook": "Apartheid needed a list before it could segregate anyone, so the 1950 Act classified every citizen by race. Boards decided borderline cases with tests like whether a pencil stayed in your hair. Siblings were sometimes classified differently and split up. Every other apartheid law hung off this register.",
+      "sources": [
+        {
+          "claim": "Population Registration Act 1950 classified all South Africans by race (white, native/Bantu, Coloured; Asian added 1959), determining where they could live and work",
+          "source": "https://www.britannica.com/topic/Population-Registration-Act",
+          "checked": "2026-08-08"
+        },
+        {
+          "claim": "The Act was a cornerstone of apartheid policy, recognising three race classifications; repealed 1991",
+          "source": "https://sahistory.org.za/dated-event/population-registration-bill-read-first-time",
+          "checked": "2026-08-08"
+        }
+      ]
     },
     {
       "category": "Sports",
-      "question": "What is the term in baseball for a batter being hit by a pitched ball?",
+      "question": "A baseball batter struck by a pitch is normally awarded first base, but not always. What forfeits it?",
       "options": [
-        "Intentional walk",
-        "Dead ball",
-        "Strike",
-        "Hit by pitch"
+        "Being hit when the count already stands at three balls",
+        "Making no attempt to avoid it, or swinging at the pitch",
+        "Being hit anywhere below the knee or on the helmet",
+        "Being hit by a pitch that bounced before reaching him"
       ],
-      "answer": "Hit by pitch",
-      "explanation": "'Hit by pitch' (HBP) occurs when a pitched ball strikes the batter without the batter swinging, awarding the batter first base. The batter must make an attempt to avoid being hit — if they deliberately lean into the pitch, it can be ruled a non-event. It is abbreviated HBP or HP in scoring. Being hit by a fastball traveling 95+ mph is painful regardless of padded batting gloves.",
-      "memory_hook": "Hit by pitch = free base in baseball. The batter must try to avoid it — leaning into a 95 mph pitch on purpose is rare, painful, and technically against the rules. Some batters are notorious for getting hit often; others are almost never hit."
+      "answer": "Making no attempt to avoid it, or swinging at the pitch",
+      "explanation": "The rulebook requires a genuine attempt to get out of the way. A batter who leans in, or who swings and is then hit, is denied the base, and if he swung it counts as a strike. Umpires apply this unevenly, and some hitters build careers on crowding the plate. A pitch that bounces first still awards the base, which surprises most spectators. Craig Biggio and Hughie Jennings were both hit over 280 times.",
+      "memory_hook": "You have to actually try to dodge it. Lean in or swing and you get nothing, and a swing makes it a strike as well. A bounced pitch still counts, which surprises people. Umpires call the avoidance rule loosely, which is why some hitters make a career of crowding the plate and wearing it."
     },
     {
       "category": "Sports",
       "question": "How long is a marathon running race?",
       "options": [
-        "25 miles",
+        "42 kilometers",
         "26 miles 385 yards",
         "26 kilometers",
-        "42 kilometers"
+        "25 miles"
       ],
       "answer": "26 miles 385 yards",
       "explanation": "A marathon is 26 miles and 385 yards (42.195 km). The distance was standardized at the 1908 London Olympics, set to run from Windsor Castle to the Olympic stadium and finish in front of the royal box. The race commemorates the legend of Pheidippides, a Greek messenger who allegedly ran from Marathon to Athens (about 25 miles) to announce a military victory in 490 BC, then collapsed and died.",
@@ -68,38 +80,50 @@
     },
     {
       "category": "Pop Culture",
-      "question": "Which legendary filmmaker directed 2001: A Space Odyssey (1968) and The Shining (1980)?",
+      "question": "Kubrick filmed the Overlook Hotel corridors in The Shining (1980) with a camera rig that was then brand new. What did it let him do?",
       "options": [
-        "Stanley Kubrick",
-        "Ridley Scott",
-        "Roman Polanski",
-        "Brian De Palma"
+        "Shoot in near-total darkness using only candlelight for light",
+        "Glide smoothly behind a moving subject without laying track",
+        "Capture an entire scene in one continuous take with no cuts",
+        "Film the same shot from two separate angles simultaneously"
       ],
-      "answer": "Stanley Kubrick",
-      "explanation": "Stanley Kubrick is one of cinema's most celebrated auteurs, directing films across multiple genres including Dr. Strangelove, 2001: A Space Odyssey, A Clockwork Orange, Barry Lyndon, The Shining, Full Metal Jacket, and Eyes Wide Shut. He was known for extreme perfectionism — some takes ran into the hundreds. He died in 1999, just days after showing his final cut of Eyes Wide Shut to Warner Bros.",
-      "memory_hook": "Kubrick = 2001 + The Shining + Full Metal Jacket. A perfectionist who once did 127 takes of an actress walking through a door. He made films in totally different genres — all look unmistakably like Kubrick. Died 4 days after screening his final film."
+      "answer": "Glide smoothly behind a moving subject without laying track",
+      "explanation": "The Steadicam, invented by Garrett Brown a few years earlier, isolates the camera from the operator's movement using a counterweighted harness. Kubrick used it to follow Danny's Big Wheel through the hotel at floor level, so the camera moves like something stalking him. Before it, a shot like that meant laying rails, which no corridor could accommodate. Brown operated the rig himself for much of the film. Its first feature use was Bound for Glory in 1976.",
+      "memory_hook": "The Steadicam uses a counterweighted harness to cancel the operator's bounce, so the camera floats. Kubrick put it at floor level behind Danny's Big Wheel, which is why it feels like something is following him. Before that you needed rails, impossible in a corridor. Garrett Brown, who invented it, operated it himself.",
+      "sources": [
+        {
+          "claim": "Steadicam used for the corridor shots following Danny through the Overlook; glides introduced a new cinematic effect",
+          "source": "https://www.bfi.org.uk/features/exploring-shining-stanley-kubrick-archive",
+          "checked": "2026-08-08"
+        },
+        {
+          "claim": "Garrett Brown invented the Steadicam; first feature use was Bound for Glory (1976)",
+          "source": "https://www.oscars.org/science-technology/technology-history",
+          "checked": "2026-08-08"
+        }
+      ]
     },
     {
       "category": "Pop Culture",
-      "question": "'Smells Like Teen Spirit' by Nirvana became the anthem of which musical movement?",
+      "question": "Nirvana's Nevermind pushed grunge into the mainstream in 1991. What did it knock off the top of the Billboard album chart?",
       "options": [
-        "Grunge",
-        "Punk revival",
-        "Hair metal",
-        "Britpop"
+        "U2's Achtung Baby, after a long run at number one",
+        "Guns N' Roses' Use Your Illusion II",
+        "Metallica's Black Album, the year's biggest seller",
+        "Michael Jackson's Dangerous, in January 1992"
       ],
-      "answer": "Grunge",
-      "explanation": "'Smells Like Teen Spirit,' released in September 1991, became the defining song of grunge — a subgenre of alternative rock from Seattle characterized by distorted guitars, angst-filled lyrics, and rejection of mainstream pop aesthetics. The song's music video received heavy rotation on MTV and helped Nirvana's album Nevermind displace Michael Jackson's Dangerous from the top of the charts.",
-      "memory_hook": "'Smells Like Teen Spirit' = grunge anthem. Seattle sound. Knocked Michael Jackson off #1. Kurt Cobain reportedly hated how famous it became — he felt it misrepresented what the band was about. The irony of an anti-commercial song becoming the most commercial song of its era."
+      "answer": "Michael Jackson's Dangerous, in January 1992",
+      "explanation": "Geffen pressed only 46,000 copies of Nevermind expecting modest college-radio sales. It displaced Dangerous from number one in January 1992, a result the industry read as a generational handover. Within months, labels dropped hair-metal acts and signed anything from the Pacific Northwest. Cobain was openly uncomfortable with the scale of it, and the discomfort runs through everything the band recorded afterward.",
+      "memory_hook": "Geffen pressed 46,000 copies expecting a college-radio record. Nevermind knocked Michael Jackson's Dangerous off number one in January 1992, and the industry treated it as a changing of the guard. Labels dumped hair metal and signed anyone from Seattle. Cobain hated what it turned into."
     },
     {
       "category": "Pop Culture",
       "question": "True Detective Season 1 (HBO, 2014) is considered a landmark of prestige TV. What defined it narratively?",
       "options": [
+        "All eight episodes written in a single six-week burst",
         "McConaughey improvised every line with no script",
-        "It invented the premium-TV anthology format",
         "Two timelines, 1995 and 2012, with unreliable detectives",
-        "All eight episodes written in a single six-week burst"
+        "It invented the premium-TV anthology format"
       ],
       "answer": "Two timelines, 1995 and 2012, with unreliable detectives",
       "explanation": "True Detective Season 1 used a double-timeline structure that made the viewer simultaneously live through the investigation in 1995 and interrogate the investigators' memories in 2012 — raising the question of what really happened and what was invented in retrospect. McConaughey's Rust Cohle delivered bleak philosophical monologues that became cultural touchstones ('Time is a flat circle'). Director Cary Fukunaga shot the entire season, giving it visual coherence rare in TV. The 6-minute tracking shot through a housing project in Episode 4 remains one of TV's most technically acclaimed sequences.",
@@ -107,25 +131,32 @@
     },
     {
       "category": "Geography",
-      "question": "Lake Titicaca, the highest navigable lake in the world, sits on the border of which two countries?",
+      "question": "Lake Titicaca sits at 3,812 metres on the Peru-Bolivia border. What is unusual about its Uros communities?",
       "options": [
-        "Argentina and Chile",
-        "Ecuador and Colombia",
-        "Chile and Bolivia",
-        "Peru and Bolivia"
+        "They farm the only crop that grows above 3,500 metres",
+        "They cross the whole lake twice a year by canoe",
+        "They speak a language unrelated to any other on Earth",
+        "They live on floating islands woven from totora reeds"
       ],
-      "answer": "Peru and Bolivia",
-      "explanation": "Lake Titicaca sits at 3,812 meters above sea level on the Andes plateau, straddling the border of Peru and Bolivia. It is the largest lake in South America by volume and the highest navigable lake in the world. The Uros people have lived on floating reed islands on the lake for centuries. Its name is believed to mean 'rock of the puma' in Quechua.",
-      "memory_hook": "Lake Titicaca = Peru and Bolivia, 3,812 meters up. The highest navigable lake on Earth. Floating reed islands with people living on them. The lake is so large it moderates the climate of the surrounding plateau."
+      "answer": "They live on floating islands woven from totora reeds",
+      "explanation": "The Uros build and inhabit artificial islands made from layered totora reed, anchored to the lakebed. The reeds rot from below, so fresh layers go on top continuously and an island lasts perhaps thirty years. The practice began as a defence, since an island can be moved away from an approaching threat. Estimates put roughly 1,200 to 1,500 Uros as associated with the islands today, though many families now keep homes in Puno and split their time, so fewer live there year-round.",
+      "memory_hook": "The Uros live on islands they weave from totora reed and anchor to the lakebed. The reeds rot underneath so new layers go on top constantly, and an island lasts about thirty years. It started as defence, since you can move an island away from trouble. Around 1,200 to 1,500 are tied to the islands, though many now split time with Puno.",
+      "sources": [
+        {
+          "claim": "1,200-1,500 Uros associated with the floating islands; many split time with Puno",
+          "source": "https://en.wikipedia.org/wiki/Uru_people",
+          "checked": "2026-08-08"
+        }
+      ]
     },
     {
       "category": "Science & Nature",
       "question": "What is the name for the protective ozone layer primarily made of?",
       "options": [
         "Nitrogen",
-        "Ozone molecules O3",
         "Oxygen molecules O2",
-        "Carbon dioxide"
+        "Carbon dioxide",
+        "Ozone molecules O3"
       ],
       "answer": "Ozone molecules O3",
       "explanation": "The ozone layer is made up of ozone molecules, each consisting of three oxygen atoms (O3). Normal atmospheric oxygen has two atoms (O2). Ozone is created when UV radiation splits O2 molecules, and the free oxygen atoms bond with other O2 molecules. The ozone layer absorbs most of the Sun's UV-B and UV-C radiation, protecting life on Earth from DNA damage and skin cancer.",
@@ -133,29 +164,29 @@
     },
     {
       "category": "Geography",
-      "question": "The Carpathian Mountains form a curved arc through eight Central and Eastern European countries. Which of these countries is NOT part of the Carpathians?",
+      "question": "The Carpathian arc holds Europe's largest surviving populations of three large predators. Which three?",
       "options": [
-        "Spain",
-        "Czech Republic",
-        "Romania",
-        "Poland"
+        "Brown bear, wolverine and snow leopard",
+        "Brown bear, grey wolf and Eurasian lynx",
+        "Grey wolf, Iberian lynx and brown bear",
+        "Polar bear, grey wolf and Eurasian lynx"
       ],
-      "answer": "Spain",
-      "explanation": "The Carpathian Mountains form a 1,500 km arc through Czech Republic, Slovakia, Poland, Ukraine, Romania, Hungary, Serbia, and Austria. Romania contains the largest portion (the Transylvanian Alps are part of the Carpathians). The range is home to Europe's largest population of brown bears, wolves, lynx, and European bison. Bram Stoker set Dracula's castle in the Carpathians, in Transylvania, Romania.",
-      "memory_hook": "Carpathians: curved 1,500 km mountain arc through 8 Central/Eastern European countries. NOT Spain. Romania has the most. Europe's largest populations of bears, wolves, and lynx live here. Transylvania (Dracula country) is in the Romanian Carpathians. The most biodiverse mountain range in Europe."
+      "answer": "Brown bear, grey wolf and Eurasian lynx",
+      "explanation": "Romania alone holds roughly 6,000 brown bears, the largest population in Europe outside Russia, along with substantial wolf and lynx numbers. The Carpathians escaped the intensive clearance that emptied Western Europe, partly because Communist-era restrictions limited development and access. The range also holds some of Europe's last old-growth forest. Those forests are now under heavy logging pressure, and the predator populations with them.",
+      "memory_hook": "Romania alone has about 6,000 brown bears, more than anywhere in Europe outside Russia, plus wolves and lynx. The Carpathians survived because Communist-era restrictions kept development out. They also hold Europe's last old-growth forest. Logging is now the threat to all of it."
     },
     {
       "category": "Science & Nature",
-      "question": "What is the term for atoms of the same element with different numbers of neutrons — some of which are stable and some radioactive?",
+      "question": "Radiocarbon dating works because carbon-14 is an unstable isotope of carbon. What makes something an isotope?",
       "options": [
-        "Isotopes",
-        "Polymorphs",
-        "Ions",
-        "Allotropes"
+        "Extra or missing neutrons, changing mass but not charge",
+        "Electrons arranged in an unusual orbital pattern",
+        "Extra protons, which makes it a different element",
+        "Extra or missing electrons, giving the atom a charge"
       ],
-      "answer": "Isotopes",
-      "explanation": "Isotopes are atoms of the same element (same number of protons) with different numbers of neutrons. Carbon-12 (stable) and carbon-14 (radioactive, used in dating) are both carbon isotopes. Hydrogen has three isotopes: protium (no neutrons), deuterium (1 neutron), and tritium (2 neutrons, radioactive). Medical imaging uses radioactive isotopes: iodine-131 for thyroid treatment; technetium-99m for PET scans. The mass number of an isotope = protons + neutrons.",
-      "memory_hook": "Isotopes: same element, different neutron count. Carbon-12 (stable) vs. Carbon-14 (radioactive → used in dating). Hydrogen has 3 isotopes including deuterium (in 'heavy water'). Medicine uses radioactive isotopes: iodine-131 for thyroid, technetium-99m for scans. Same atom, different behavior."
+      "answer": "Extra or missing neutrons, changing mass but not charge",
+      "explanation": "Protons determine which element an atom is, so changing that count makes it something else entirely. Neutrons can vary freely, producing isotopes that behave identically in chemical reactions but differ in mass and stability. Carbon-12 is stable and carbon-14 is not, decaying at a known rate, which is what makes dating possible. Hydrogen's isotopes are unusual enough to have their own names: deuterium and tritium.",
+      "memory_hook": "Protons decide which element you have, so changing them changes the element. Neutrons can vary, and that is what an isotope is: same chemistry, different mass and stability. Carbon-12 is stable, carbon-14 decays predictably, which is the whole basis of radiocarbon dating."
     }
   ]
 }

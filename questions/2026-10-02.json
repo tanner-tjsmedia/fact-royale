@@ -5,9 +5,9 @@
       "category": "History",
       "question": "The Magna Carta, signed in 1215, established what groundbreaking principle that was later foundational to democratic systems?",
       "options": [
+        "The rule of law — that even kings are subject to law",
         "Freedom of religion",
         "The divine right of kings",
-        "The rule of law — that even kings are subject to law",
         "Universal voting rights for all men"
       ],
       "answer": "The rule of law — that even kings are subject to law",
@@ -19,9 +19,9 @@
       "question": "The Louisiana Purchase in 1803 roughly doubled the size of the United States. From which country did President Jefferson purchase it?",
       "options": [
         "Mexico",
-        "Spain",
         "France",
-        "Britain"
+        "Britain",
+        "Spain"
       ],
       "answer": "France",
       "explanation": "Napoleon Bonaparte sold the Louisiana Territory — approximately 828,000 square miles covering 15 present-day US states — to the United States for $15 million (about 3 cents per acre). Napoleon needed money for his European wars and had given up on a French empire in the Americas after the Haitian Revolution. The purchase extended US territory from the Mississippi River to the Rocky Mountains.",
@@ -31,10 +31,10 @@
       "category": "History",
       "question": "On December 1, 1955, Rosa Parks refused to give up her seat on a Montgomery, Alabama bus. What law was she violating by sitting where she sat?",
       "options": [
-        "Segregation laws requiring Black passengers to sit at the back",
-        "Anti-loitering laws",
         "A city ordinance against public protests",
-        "Curfew laws for African Americans"
+        "Curfew laws for African Americans",
+        "Segregation laws requiring Black passengers to sit at the back",
+        "Anti-loitering laws"
       ],
       "answer": "Segregation laws requiring Black passengers to sit at the back",
       "explanation": "Rosa Parks was seated in the 'colored section' of a Montgomery city bus, but when the 'white section' filled, the driver ordered Black passengers to move further back. Parks refused to give up her seat and was arrested. Her arrest sparked the Montgomery Bus Boycott (381 days), organized by a young Martin Luther King Jr., which ended with the Supreme Court ruling bus segregation unconstitutional.",
@@ -44,10 +44,10 @@
       "category": "Sports",
       "question": "Floyd Mayweather Jr. retired in 2017 with a professional boxing record of 50-0. What made this achievement historically significant?",
       "options": [
-        "He knocked out all 50 opponents without a single fight going to decision",
-        "He became the first boxer to win and defend a world title in five different decades",
         "He held world titles in a record 8 different weight classes simultaneously",
-        "He retired undefeated with 50 wins, surpassing Rocky Marciano's previous record of 49-0 and spanning five weight classes"
+        "He retired undefeated with 50 wins, surpassing Rocky Marciano's previous record of 49-0 and spanning five weight classes",
+        "He knocked out all 50 opponents without a single fight going to decision",
+        "He became the first boxer to win and defend a world title in five different decades"
       ],
       "answer": "He retired undefeated with 50 wins, surpassing Rocky Marciano's previous record of 49-0 and spanning five weight classes",
       "explanation": "Mayweather won world titles at super featherweight, lightweight, super lightweight, welterweight, and super welterweight. His 50th win came in the heavily promoted fight against UFC star Conor McGregor in 2017. Mayweather's defensive style — shoulder roll, counter-punching — was technically masterful, though critics argued he avoided the most dangerous opponents at their peaks. His 50-0 record surpassed Marciano's previously legendary 49-0.",
@@ -57,10 +57,10 @@
       "category": "Sports",
       "question": "What significant record did New Zealand's Allyson Felix break at the 2020 Tokyo Olympics, making her the most decorated US track and field Olympian?",
       "options": [
-        "First woman to win 5 consecutive Olympic golds",
-        "Most total Olympic medals in track and field with 11",
         "Fastest 400m in Olympic history",
-        "Most golds in sprinting"
+        "First woman to win 5 consecutive Olympic golds",
+        "Most golds in sprinting",
+        "Most total Olympic medals in track and field with 11"
       ],
       "answer": "Most total Olympic medals in track and field with 11",
       "explanation": "Allyson Felix won her 11th Olympic medal at the Tokyo 2020 Games (held in 2021), surpassing Carl Lewis's record of 10. She has 7 gold, 3 silver, and 1 bronze across five Olympics (2004-2021). Felix is also notable for her advocacy against Nike's maternal policies after her pregnancy in 2018.",
@@ -83,10 +83,10 @@
       "category": "Pop Culture",
       "question": "Which musician, born in Mississippi in 1935, is often credited as the 'King of Rock and Roll' and had his first major hit with 'That's All Right' in 1954?",
       "options": [
-        "Buddy Holly",
-        "Elvis Presley",
         "Jerry Lee Lewis",
-        "Chuck Berry"
+        "Chuck Berry",
+        "Buddy Holly",
+        "Elvis Presley"
       ],
       "answer": "Elvis Presley",
       "explanation": "Elvis Presley recorded 'That's All Right' at Sun Studio in Memphis in July 1954. He blended Black R&B and gospel music with country in a way that was culturally revolutionary — and controversial. By 1956 he was a global superstar with a string of hits including 'Heartbreak Hotel,' 'Hound Dog,' and 'Jailhouse Rock.' He served in the US Army 1958-60.",
@@ -96,10 +96,10 @@
       "category": "Pop Culture",
       "question": "F. Scott Fitzgerald published 'The Great Gatsby' in 1925. The novel is set in which decade and is considered a defining portrait of what era?",
       "options": [
-        "1900s; Gilded Age",
         "1920s; Jazz Age",
-        "1940s; World War II",
-        "1930s; Great Depression"
+        "1930s; Great Depression",
+        "1900s; Gilded Age",
+        "1940s; World War II"
       ],
       "answer": "1920s; Jazz Age",
       "explanation": "The Great Gatsby (1925) is set in the summer of 1922 and is widely considered the defining novel of the 1920s Jazz Age — a period of rapid economic growth, social upheaval, and cultural change following WWI. The novel sold poorly on publication and Fitzgerald died believing it a failure. It was only recognized as a masterpiece after his death in 1940.",
@@ -110,9 +110,9 @@
       "question": "The Strait of Gibraltar, which separates Europe from Africa, connects which two bodies of water?",
       "options": [
         "Red Sea and Mediterranean",
-        "North Sea and Baltic Sea",
+        "Black Sea and Aegean Sea",
         "Atlantic Ocean and Mediterranean Sea",
-        "Black Sea and Aegean Sea"
+        "North Sea and Baltic Sea"
       ],
       "answer": "Atlantic Ocean and Mediterranean Sea",
       "explanation": "The Strait of Gibraltar is only about 14 km (9 miles) wide at its narrowest point and separates Spain (and Gibraltar) from Morocco. It is the only natural connection between the Atlantic Ocean and the Mediterranean Sea, making it one of the world's most strategically important waterways. The name comes from the Arabic 'Jabal al-Tariq' (mountain of Tariq) after the Moorish commander who crossed in 711.",
@@ -122,10 +122,10 @@
       "category": "Geography",
       "question": "The Scandinavian Peninsula is home to which three countries?",
       "options": [
-        "Denmark, Finland, Iceland",
-        "Sweden, Finland, and Estonia",
+        "Norway, Sweden, and Denmark",
         "Norway, Sweden, and Finland",
-        "Norway, Sweden, and Denmark"
+        "Sweden, Finland, and Estonia",
+        "Denmark, Finland, Iceland"
       ],
       "answer": "Norway, Sweden, and Finland",
       "explanation": "The Scandinavian Peninsula is occupied by Norway on its western and northern coast, Sweden on its eastern side, and Finland to the northeast. The peninsula extends from the Barents Sea in the north to Denmark in the south (though Denmark is often culturally grouped with Scandinavia, it sits on the Jutland Peninsula). The peninsula is bordered by the North Sea, Norwegian Sea, Barents Sea, and Baltic Sea.",
@@ -135,8 +135,8 @@
       "category": "Science & Nature",
       "question": "Newton's Second Law states that Force = Mass × Acceleration. What does this mean practically?",
       "options": [
-        "Objects in motion stay in motion",
         "Mass and energy are equivalent",
+        "Objects in motion stay in motion",
         "Heavier objects need more force to accelerate at the same rate",
         "Every force has an equal and opposite reaction"
       ],
@@ -148,9 +148,9 @@
       "category": "Science & Nature",
       "question": "The pH scale measures acidity and alkalinity. Which pH value is neutral, and what do values below 7 indicate?",
       "options": [
+        "14 is neutral; below 14 is acidic",
         "7 is neutral; below 7 is acidic",
         "7 is neutral; below 7 is alkaline",
-        "14 is neutral; below 14 is acidic",
         "0 is neutral; above 0 is alkaline"
       ],
       "answer": "7 is neutral; below 7 is acidic",

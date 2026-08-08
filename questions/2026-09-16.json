@@ -7,8 +7,8 @@
       "options": [
         "Battle of Lepanto",
         "Battle of Trafalgar",
-        "Battle of Actium",
-        "Battle of the Nile"
+        "Battle of the Nile",
+        "Battle of Actium"
       ],
       "answer": "Battle of Lepanto",
       "explanation": "The Battle of Lepanto (October 7, 1571) was the largest naval battle in Western history to that point. The Holy League (Spain, Venice, Papal States, Genoa) defeated the Ottoman fleet, destroying over 200 ships. It ended Ottoman naval dominance in the Mediterranean. Miguel de Cervantes (later author of Don Quixote) was wounded in the battle.",
@@ -20,8 +20,8 @@
       "options": [
         "Chromosphere",
         "Solar core",
-        "Radiative zone",
-        "Photosphere"
+        "Photosphere",
+        "Radiative zone"
       ],
       "answer": "Solar core",
       "explanation": "The Sun's core extends to about 25% of the Sun's radius and reaches 15 million degrees Celsius. Here, 620 million tons of hydrogen are fused into helium every second, releasing energy according to E=mc². It takes energy about 100,000 years to travel from the core to the photosphere (surface).",
@@ -32,8 +32,8 @@
       "question": "In baseball, which statistic measures the effectiveness of starting pitchers, calculated as total earned runs allowed per nine innings pitched?",
       "options": [
         "OPS",
-        "ERA (Earned Run Average)",
         "WAR",
+        "ERA (Earned Run Average)",
         "WHIP"
       ],
       "answer": "ERA (Earned Run Average)",
@@ -44,10 +44,10 @@
       "category": "Pop Culture",
       "question": "Which punk rock band, formed in London in 1975 and fronted by Johnny Rotten (John Lydon), had a massive cultural impact with their 1977 album 'Never Mind the Bollocks'?",
       "options": [
-        "The Buzzcocks",
-        "Sex Pistols",
         "The Clash",
-        "The Damned"
+        "The Damned",
+        "Sex Pistols",
+        "The Buzzcocks"
       ],
       "answer": "Sex Pistols",
       "explanation": "The Sex Pistols existed for about three years but fundamentally changed music. Their confrontational approach, DIY aesthetic, and anti-establishment attitude launched the punk movement. Never Mind the Bollocks was banned by UK stores but still reached #1. Sid Vicious became an icon; John Lydon later spoke out against the nostalgia industry.",
@@ -57,10 +57,10 @@
       "category": "Geography",
       "question": "Which landlocked country in Central Asia, a former Soviet republic, is home to the Aral Sea disaster — once the world's fourth-largest lake, now largely desert?",
       "options": [
-        "Turkmenistan",
         "Tajikistan",
-        "Kazakhstan and Uzbekistan (both border it)",
-        "Kyrgyzstan"
+        "Turkmenistan",
+        "Kyrgyzstan",
+        "Kazakhstan and Uzbekistan (both border it)"
       ],
       "answer": "Kazakhstan and Uzbekistan (both border it)",
       "explanation": "The Aral Sea straddles Kazakhstan and Uzbekistan. Soviet irrigation projects in the 1960s diverted the Amu Darya and Syr Darya rivers, depriving the lake of water. By 2007, it had shrunk to 10% of its original size — one of the worst environmental disasters in history. Former fishing villages now sit 150 km from water.",
@@ -70,10 +70,10 @@
       "category": "History",
       "question": "Which ancient Egyptian monument is the only surviving ancient wonder of the world?",
       "options": [
-        "The Sphinx",
-        "Abu Simbel temples",
         "The Great Pyramid of Giza",
-        "The Valley of the Kings"
+        "Abu Simbel temples",
+        "The Valley of the Kings",
+        "The Sphinx"
       ],
       "answer": "The Great Pyramid of Giza",
       "explanation": "The Great Pyramid of Giza, built for Pharaoh Khufu around 2560 BC, stood as the world's tallest structure for 3,800 years (until Lincoln Cathedral in 1311 AD). It contains approximately 2.3 million stone blocks weighing 2.5-15 tons each. How ancient Egyptians built it with such precision remains debated, though it clearly required massive organized labor.",
@@ -97,9 +97,9 @@
       "question": "What is the term for the amount of heat required to raise the temperature of 1 gram of water by 1 degree Celsius?",
       "options": [
         "BTU",
-        "Joule",
+        "Calorie (small calorie)",
         "Watt",
-        "Calorie (small calorie)"
+        "Joule"
       ],
       "answer": "Calorie (small calorie)",
       "explanation": "The small calorie (cal) is the energy to raise 1g of water by 1°C. The kilocalorie (kcal) or Calorie (capital C) is 1,000 small calories and is what food labels list. A joule is the SI unit of energy (1 cal = 4.184 joules). A BTU (British Thermal Unit) raises 1 pound of water by 1°F.",
@@ -109,9 +109,9 @@
       "category": "Geography",
       "question": "Which U.S. state, the largest by area, is separated from the contiguous 48 states and is home to the highest peak in North America, Denali?",
       "options": [
-        "Montana",
-        "California",
         "Alaska",
+        "California",
+        "Montana",
         "Hawaii"
       ],
       "answer": "Alaska",
@@ -122,10 +122,10 @@
       "category": "History",
       "question": "Which organization, founded in 1945 after World War II, replaced the League of Nations and now has 193 member states?",
       "options": [
-        "League of Nations",
-        "European Union",
+        "United Nations",
         "NATO",
-        "United Nations"
+        "League of Nations",
+        "European Union"
       ],
       "answer": "United Nations",
       "explanation": "The United Nations was established October 24, 1945 (UN Day), with 51 founding member states. Its headquarters are in New York City (on land donated by John D. Rockefeller Jr.). The UN has six principal organs including the Security Council (with 5 permanent veto-holding members: US, UK, France, Russia, China).",
@@ -135,9 +135,9 @@
       "category": "Pop Culture",
       "question": "Which singer, born in Memphis and known as the 'King of Rock and Roll,' had his first hit 'Heartbreak Hotel' in 1956 and influenced generations of musicians?",
       "options": [
+        "Little Richard",
         "Jerry Lee Lewis",
         "Elvis Presley",
-        "Little Richard",
         "Chuck Berry"
       ],
       "answer": "Elvis Presley",
@@ -148,10 +148,10 @@
       "category": "Sports",
       "question": "What is the name of the prestigious international golf tournament held each year in Augusta, Georgia, known for its green jacket awarded to the winner?",
       "options": [
-        "The Players Championship",
         "The US Open",
-        "The Open Championship",
-        "The Masters"
+        "The Masters",
+        "The Players Championship",
+        "The Open Championship"
       ],
       "answer": "The Masters",
       "explanation": "The Masters Tournament (officially the Augusta National Golf Club Invitational) is held every April at Augusta National. The green jacket has been awarded since 1949. Tiger Woods won it 5 times (1997, 2001, 2002, 2005, 2019). Jack Nicklaus holds the record with 6 wins. The course's back nine on Sunday is called 'Amen Corner' for its dramatic holes.",

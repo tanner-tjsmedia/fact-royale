@@ -5,10 +5,10 @@
       "category": "History",
       "question": "The Titanic sank in which year?",
       "options": [
-        "1909",
+        "1915",
         "1912",
-        "1906",
-        "1915"
+        "1909",
+        "1906"
       ],
       "answer": "1912",
       "explanation": "The RMS Titanic sank on April 15, 1912, after striking an iceberg in the North Atlantic Ocean on its maiden voyage from Southampton to New York. About 1,500 of the 2,224 passengers and crew died. The disaster led to major changes in maritime regulations, including requiring ships to carry enough lifeboats for everyone aboard.",
@@ -18,10 +18,10 @@
       "category": "Science & Nature",
       "question": "Which physicist formulated the theory of special relativity in 1905 and derived the famous equation E=mc², showing mass and energy are interchangeable?",
       "options": [
-        "Niels Bohr",
-        "Max Planck",
         "Ernest Rutherford",
-        "Albert Einstein"
+        "Niels Bohr",
+        "Albert Einstein",
+        "Max Planck"
       ],
       "answer": "Albert Einstein",
       "explanation": "Albert Einstein published four groundbreaking papers in 1905 — his 'miracle year' — including the theory of special relativity and the mass-energy equivalence equation E=mc². He was awarded the Nobel Prize in Physics in 1921, not for relativity, but for his explanation of the photoelectric effect.",
@@ -44,10 +44,10 @@
       "category": "History",
       "question": "The construction of the Great Wall of China was started during which dynasty to protect against northern invaders?",
       "options": [
-        "Tang Dynasty",
-        "Han Dynasty",
+        "Ming Dynasty",
         "Qin Dynasty",
-        "Ming Dynasty"
+        "Tang Dynasty",
+        "Han Dynasty"
       ],
       "answer": "Qin Dynasty",
       "explanation": "The first sections of the Great Wall were built during the Qin Dynasty (221-206 BC) under Emperor Qin Shi Huang, who unified China and ordered the connection of existing walls to form a northern frontier defense. Most of the wall visible today was built during the Ming Dynasty (1368-1644). The wall stretches over 20,000 km and took hundreds of years and millions of workers to build.",
@@ -57,10 +57,10 @@
       "category": "Sports",
       "question": "Which swimmer holds the record for the most Olympic medals of all time?",
       "options": [
-        "Ryan Lochte",
-        "Mark Spitz",
         "Ian Thorpe",
-        "Michael Phelps"
+        "Mark Spitz",
+        "Michael Phelps",
+        "Ryan Lochte"
       ],
       "answer": "Michael Phelps",
       "explanation": "Michael Phelps won 28 Olympic medals (23 gold, 3 silver, 2 bronze) across four Olympic Games from 2000 to 2016, making him the most decorated Olympian in history. He won 8 gold medals at the 2008 Beijing Olympics alone, beating the single-Games record. He competed in multiple individual and relay events simultaneously.",
@@ -70,8 +70,8 @@
       "category": "Sports",
       "question": "Simone Biles's withdrawal from multiple events at the 2020 Tokyo Olympics (held 2021) to protect her mental health sparked global conversation. What competitive context makes her overall career so historically significant?",
       "options": [
-        "Biles has named five unique gymnastics skills after herself — more than any other active gymnast — and has performed elements at difficulty ratings so high they were initially refused ratification by international gymnastics officials",
         "Biles is the most decorated US gymnast ever, with 37 Olympic and World Championship medals, and has performed skills at difficulty levels intentionally rated lower by governing bodies to discourage others from attempting them",
+        "Biles has named five unique gymnastics skills after herself — more than any other active gymnast — and has performed elements at difficulty ratings so high they were initially refused ratification by international gymnastics officials",
         "Biles is unique in that she has never lost a competition she completed — her withdrawal in Tokyo was the first time she didn't finish an event, and prior to that she held a perfect competitive record of 200-0",
         "Biles is the first gymnast to win 10 consecutive World Championship titles in the same event — her all-around dominance has lasted so long that competitors half her age have never competed against anyone else at the top"
       ],
@@ -83,10 +83,10 @@
       "category": "Pop Culture",
       "question": "Aretha Franklin's recording of 'Respect' (1967) transformed an Otis Redding song into an anthem for civil rights and women's liberation. What did she change, and why did it resonate so much more than the original?",
       "options": [
-        "Franklin recorded 'Respect' as a deliberate political statement during the Detroit riots of 1967 — she released it the same week the riots began, timing it so the 'respect' demand would be understood as racial rather than romantic",
         "Franklin added the iconic spelling 'R-E-S-P-E-C-T' and the 'TCB' bridge (the 'sock it to me' section) — transforming what Redding intended as a straightforward love song into a defiant assertion of female authority",
         "Franklin slowed the tempo from Redding's fast shuffle to a gospel-influenced ballad, added the famous 'R-E-S-P-E-C-T' spelling, and changed the narrator from a man demanding his woman's respect to a woman demanding her partner treat her as an equal",
-        "Franklin's arrangement introduced the gospel call-and-response structure — the Sisters Love backing vocals answer every line — shifting the song from a solo narrative into a collective statement that felt like a community speaking with one voice"
+        "Franklin's arrangement introduced the gospel call-and-response structure — the Sisters Love backing vocals answer every line — shifting the song from a solo narrative into a collective statement that felt like a community speaking with one voice",
+        "Franklin recorded 'Respect' as a deliberate political statement during the Detroit riots of 1967 — she released it the same week the riots began, timing it so the 'respect' demand would be understood as racial rather than romantic"
       ],
       "answer": "Franklin added the iconic spelling 'R-E-S-P-E-C-T' and the 'TCB' bridge (the 'sock it to me' section) — transforming what Redding intended as a straightforward love song into a defiant assertion of female authority",
       "explanation": "Otis Redding wrote and recorded 'Respect' in 1965 as a man's plea to his woman: give me respect when I come home. Franklin flipped the power dynamic — she's commanding, not pleading. She added the spelling (a party-trick hook that became iconic), the 'TCB' bridge, and the 'sock it to me' call-and-response. Redding reportedly heard her version and said she'd 'stolen his song' — in admiration. The recording hit #1 on both pop and R&B charts and won Franklin two Grammys. It was released in April 1967; the Detroit riots began in July 1967. TIME called it one of the 100 greatest songs ever made.",
@@ -97,8 +97,8 @@
       "question": "Which 1977 George Lucas film launched one of the most successful film franchises in history?",
       "options": [
         "Star Wars",
-        "THX 1138",
         "American Graffiti",
+        "THX 1138",
         "Raiders of the Lost Ark"
       ],
       "answer": "Star Wars",
@@ -110,9 +110,9 @@
       "question": "Which musician is known as the 'King of Rock and Roll'?",
       "options": [
         "Jerry Lee Lewis",
+        "Chuck Berry",
         "Little Richard",
-        "Elvis Presley",
-        "Chuck Berry"
+        "Elvis Presley"
       ],
       "answer": "Elvis Presley",
       "explanation": "Elvis Presley earned the title 'King of Rock and Roll' through his pioneering fusion of country, blues, and gospel music in the 1950s. He recorded hits including 'Hound Dog,' 'Jailhouse Rock,' and 'Love Me Tender,' and starred in 33 films. His hip-swiveling performance style was considered scandalous on television in the 1950s. He died in 1977 at age 42.",
@@ -123,9 +123,9 @@
       "question": "The Rhine River flows through Germany and empties into which sea?",
       "options": [
         "Mediterranean Sea",
-        "Baltic Sea",
         "Black Sea",
-        "North Sea"
+        "North Sea",
+        "Baltic Sea"
       ],
       "answer": "North Sea",
       "explanation": "The Rhine originates in the Swiss Alps and flows approximately 1,230 km through Switzerland, Austria, Liechtenstein, Germany, France, and the Netherlands before emptying into the North Sea. It passes through several major European cities including Basel, Cologne, and Rotterdam. The Rhine has been a central artery of European trade and culture for millennia.",
@@ -136,8 +136,8 @@
       "question": "The Oort Cloud is a theoretical region surrounding the solar system that astronomers believe is the source of long-period comets. Why is it 'theoretical'?",
       "options": [
         "The Oort Cloud was directly photographed by the Hubble Space Telescope in 1997, but its distance makes it impossible to study individual objects, so its composition remains theoretical",
-        "The Oort Cloud concept is now considered disproven by modern astronomical surveys, which found that comets originate exclusively from the Kuiper Belt closer to the Sun",
         "No spacecraft has ever reached it, it's too distant for direct observation with current telescopes, and it's inferred from comet trajectories — but its existence and properties are deduced, not directly measured",
+        "The Oort Cloud concept is now considered disproven by modern astronomical surveys, which found that comets originate exclusively from the Kuiper Belt closer to the Sun",
         "The Oort Cloud is theoretical because comets could equally originate from the Kuiper Belt, and astronomers are split 50-50 on which reservoir produces more comets"
       ],
       "answer": "No spacecraft has ever reached it, it's too distant for direct observation with current telescopes, and it's inferred from comet trajectories — but its existence and properties are deduced, not directly measured",
@@ -148,9 +148,9 @@
       "category": "Geography",
       "question": "The Indus River, which gave India its name, flows primarily through which modern-day country before reaching the Arabian Sea?",
       "options": [
+        "India",
         "Pakistan",
         "Iran",
-        "India",
         "Afghanistan"
       ],
       "answer": "Pakistan",

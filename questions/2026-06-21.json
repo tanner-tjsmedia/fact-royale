@@ -5,8 +5,8 @@
       "category": "History",
       "question": "Genghis Khan founded which empire — the largest contiguous land empire in history?",
       "options": [
-        "The Ottoman Empire",
         "The Roman Empire",
+        "The Ottoman Empire",
         "The British Empire",
         "The Mongol Empire"
       ],
@@ -18,10 +18,10 @@
       "category": "History",
       "question": "The Wright Brothers made the first successful powered airplane flight in 1903 at which location?",
       "options": [
-        "Kitty Hawk, North Carolina",
-        "Dayton, Ohio",
         "Philadelphia, Pennsylvania",
-        "Chicago, Illinois"
+        "Kitty Hawk, North Carolina",
+        "Chicago, Illinois",
+        "Dayton, Ohio"
       ],
       "answer": "Kitty Hawk, North Carolina",
       "explanation": "Orville Wright made the first successful powered, sustained, and controlled airplane flight on December 17, 1903, at Kitty Hawk, North Carolina. The flight lasted 12 seconds and covered 120 feet. They chose Kitty Hawk for its steady winds and soft sandy landing areas. Four flights were made that day, the longest lasting 59 seconds.",
@@ -31,10 +31,10 @@
       "category": "History",
       "question": "Johannes Gutenberg's invention of the movable-type printing press around 1440 occurred in which modern-day country?",
       "options": [
-        "England",
-        "France",
         "Germany",
-        "Italy"
+        "France",
+        "Italy",
+        "England"
       ],
       "answer": "Germany",
       "explanation": "Johannes Gutenberg developed his movable-type printing press in Mainz, Germany, around 1440–1450. The Gutenberg Bible, printed around 1455, was the first major book printed in the West using this technology. The printing press is widely considered one of the most transformative inventions in human history, democratizing knowledge and enabling the Reformation and Scientific Revolution.",
@@ -44,10 +44,10 @@
       "category": "Sports",
       "question": "How many FIFA World Cup titles did Pelé win during his international career with Brazil?",
       "options": [
-        "5",
-        "2",
+        "4",
         "3",
-        "4"
+        "2",
+        "5"
       ],
       "answer": "3",
       "explanation": "Pelé won three FIFA World Cup championships (1958, 1962, and 1970) with Brazil — the most of any player in history. He won his first at just 17 years old in 1958, making him the youngest World Cup winner ever. He scored 1,279 goals in 1,363 games over his career and is widely considered the greatest footballer of all time.",
@@ -57,10 +57,10 @@
       "category": "Sports",
       "question": "The Kentucky Derby horse race is nicknamed 'The Run for the' what?",
       "options": [
-        "Roses",
-        "Crown",
         "Gold",
-        "Glory"
+        "Glory",
+        "Roses",
+        "Crown"
       ],
       "answer": "Roses",
       "explanation": "The Kentucky Derby is nicknamed 'The Run for the Roses' because the winner is draped in a blanket of red roses — a tradition dating back to 1896. Held annually on the first Saturday in May at Churchill Downs in Louisville, Kentucky, the Derby is the first leg of horse racing's Triple Crown, followed by the Preakness Stakes and the Belmont Stakes.",
@@ -70,10 +70,10 @@
       "category": "Pop Culture",
       "question": "Whitney Houston's iconic 'I Will Always Love You' was originally written and recorded by which other artist?",
       "options": [
-        "Dolly Parton",
         "Celine Dion",
         "Mariah Carey",
-        "Diana Ross"
+        "Diana Ross",
+        "Dolly Parton"
       ],
       "answer": "Dolly Parton",
       "explanation": "Dolly Parton wrote and first recorded 'I Will Always Love You' in 1973 as a gentle country song. Whitney Houston's 1992 version for The Bodyguard soundtrack transformed it into a pop powerhouse. Parton reportedly cried when she heard Houston's rendition. The song earned Parton an estimated $10 million in royalties from Houston's version alone.",
@@ -83,10 +83,10 @@
       "category": "Pop Culture",
       "question": "Frida Kahlo's paintings are among the most recognized in the world, yet she had only two solo exhibitions during her lifetime. What makes her work distinctive in art history?",
       "options": [
+        "She pioneered a style using exclusively natural pigments made from Mexican plants and minerals, making her canvases uniquely resistant to aging",
         "She was the first woman to depict female anatomy honestly in fine art, leading the Vatican to ban her work in Catholic countries",
         "Her intensely personal self-portraits — depicting physical suffering, her Mexican identity, and her turbulent life — combined European Surrealism with traditional Mexican iconography in a deeply autobiographical style",
-        "She was the first Latin American artist to have work purchased by the Louvre, and her self-portraits were the first to use traditional Mexican folk motifs in modern fine art contexts",
-        "She pioneered a style using exclusively natural pigments made from Mexican plants and minerals, making her canvases uniquely resistant to aging"
+        "She was the first Latin American artist to have work purchased by the Louvre, and her self-portraits were the first to use traditional Mexican folk motifs in modern fine art contexts"
       ],
       "answer": "Her intensely personal self-portraits — depicting physical suffering, her Mexican identity, and her turbulent life — combined European Surrealism with traditional Mexican iconography in a deeply autobiographical style",
       "explanation": "Kahlo survived a near-fatal bus accident at 18 that left her in pain for life — much of her work depicts her physical and emotional suffering directly. She painted 55 self-portraits, explaining: 'I paint myself because I am so often alone and because I am the subject I know best.' André Breton called her a Surrealist; she rejected the label. She and husband Diego Rivera were the center of Mexico City's intellectual and artistic life in the 1930s–40s.",
@@ -96,10 +96,10 @@
       "category": "Pop Culture",
       "question": "Bob Dylan became the first musician to win the Nobel Prize in which category in 2016?",
       "options": [
-        "Nobel Prize in Literature",
         "Nobel Prize in Physics",
-        "Nobel Peace Prize",
-        "Nobel Prize in Economics"
+        "Nobel Prize in Literature",
+        "Nobel Prize in Economics",
+        "Nobel Peace Prize"
       ],
       "answer": "Nobel Prize in Literature",
       "explanation": "Bob Dylan was awarded the Nobel Prize in Literature in 2016 — the first musician to receive the honor — 'for having created new poetic expressions within the great American song tradition.' Dylan initially didn't acknowledge the award and did not attend the ceremony, collecting his gold medal and diploma months later in a private meeting.",
@@ -109,10 +109,10 @@
       "category": "Geography",
       "question": "Which ocean is slowly growing wider each year as tectonic plates separate at the Mid-Atlantic Ridge?",
       "options": [
-        "Pacific Ocean",
-        "Atlantic Ocean",
+        "Arctic Ocean",
         "Indian Ocean",
-        "Arctic Ocean"
+        "Atlantic Ocean",
+        "Pacific Ocean"
       ],
       "answer": "Atlantic Ocean",
       "explanation": "The Mid-Atlantic Ridge is a divergent tectonic plate boundary running the entire length of the Atlantic Ocean floor. As the North American and South American plates separate from the Eurasian and African plates, the Atlantic grows about 2.5 cm wider per year — roughly the rate fingernails grow. Iceland sits directly on the Mid-Atlantic Ridge and has a visible rift valley that is literally splitting the island apart.",
@@ -122,10 +122,10 @@
       "category": "Science & Nature",
       "question": "What is the most abundant element in Earth's crust by mass — found primarily bonded within silicate minerals, not as a free gas?",
       "options": [
-        "Iron",
-        "Silicon",
         "Oxygen",
-        "Aluminum"
+        "Aluminum",
+        "Silicon",
+        "Iron"
       ],
       "answer": "Oxygen",
       "explanation": "Oxygen makes up approximately 46% of Earth's crust by mass, making it the most abundant element — but nearly all of it is chemically bonded in silicate minerals (compounds of silicon and oxygen), not in the form of O₂ gas. Silicon is second at about 28%, followed by aluminum at 8% and iron at 5%. This is why rocks are essentially oxygen compounds. The granite on your countertop is mostly oxygen by mass.",
@@ -135,9 +135,9 @@
       "category": "Geography",
       "question": "Which mountain, located on the Russia-Georgia border in the Caucasus range, is considered the highest peak in Europe at 5,642 meters?",
       "options": [
+        "Mont Blanc",
         "Mount Elbrus",
         "Matterhorn",
-        "Mont Blanc",
         "Mount Olympus"
       ],
       "answer": "Mount Elbrus",

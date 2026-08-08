@@ -4,10 +4,10 @@
       "category": "History",
       "question": "What was the name of Napoleon Bonaparte's final battle?",
       "options": [
-        "Battle of Trafalgar",
         "Battle of Waterloo",
         "Battle of Austerlitz",
-        "Battle of Leipzig"
+        "Battle of Leipzig",
+        "Battle of Trafalgar"
       ],
       "answer": "Battle of Waterloo",
       "explanation": "The Battle of Waterloo was fought on June 18, 1815, near Brussels, Belgium. Napoleon's French forces were defeated by the Duke of Wellington's allied army and Prussian forces under Blücher. Napoleon was exiled to Saint Helena, where he died in 1821. The phrase 'met his Waterloo' derives from this battle.",
@@ -17,10 +17,10 @@
       "category": "History",
       "question": "Which organization was established after World War II to promote international peace and security?",
       "options": [
-        "The European Union",
         "NATO",
-        "The League of Nations",
-        "The United Nations"
+        "The European Union",
+        "The United Nations",
+        "The League of Nations"
       ],
       "answer": "The United Nations",
       "explanation": "The United Nations was established on October 24, 1945, replacing the failed League of Nations. It was founded by 51 countries and now has 193 member states. Its main purpose is to maintain international peace, develop friendly relations among nations, and promote social progress.",
@@ -30,10 +30,10 @@
       "category": "Sports",
       "question": "What is the official length of a standard Olympic swimming pool in meters?",
       "options": [
-        "50 meters",
-        "100 meters",
+        "75 meters",
         "25 meters",
-        "75 meters"
+        "50 meters",
+        "100 meters"
       ],
       "answer": "50 meters",
       "explanation": "An Olympic swimming pool is 50 meters long and 25 meters wide, with eight lanes each 2.5 meters wide. Short-course competitions use 25-meter pools. World records set in 50-meter pools are the official 'long-course' records and are considered the definitive world standards.",
@@ -43,10 +43,10 @@
       "category": "Sports",
       "question": "In darts, what is the highest score achievable with a single dart?",
       "options": [
+        "100",
         "50",
         "25",
-        "60",
-        "100"
+        "60"
       ],
       "answer": "60",
       "explanation": "The highest score with a single dart is 60, achieved by hitting the triple 20 (the small segment in the triple-scoring ring on the 20 section). The bullseye is worth 50 points. A 'perfect leg' in professional darts requires nine darts — three treble 20s (180), two more 180s (360), then finishing on 141.",
@@ -56,10 +56,10 @@
       "category": "Pop Culture",
       "question": "What is the name of the island in 'Cast Away' where the FedEx plane crashes?",
       "options": [
-        "Tikopia",
-        "Fiji",
         "The film doesn't name it",
-        "Mango Island"
+        "Mango Island",
+        "Tikopia",
+        "Fiji"
       ],
       "answer": "The film doesn't name it",
       "explanation": "In Cast Away (2000) starring Tom Hanks, the island where he is stranded is never given a name in the film. The movie was filmed primarily on the Monuriki island in Fiji. Wilson the volleyball became his most famous companion. The film explored isolation and the will to survive.",
@@ -82,9 +82,9 @@
       "category": "Pop Culture",
       "question": "Ben-Hur (1959) was the first film to win 11 Academy Awards — a record later tied by which two films?",
       "options": [
-        "Titanic and The Lord of the Rings: The Return of the King",
-        "Schindler's List and Titanic",
         "Titanic and Gladiator",
+        "Schindler's List and Titanic",
+        "Titanic and The Lord of the Rings: The Return of the King",
         "Avatar and The Dark Knight"
       ],
       "answer": "Titanic and The Lord of the Rings: The Return of the King",
@@ -109,9 +109,9 @@
       "question": "The Dead Sea, the lowest point on Earth's surface, borders which two countries?",
       "options": [
         "Egypt and Israel",
+        "Israel and Jordan",
         "Saudi Arabia and Jordan",
-        "Syria and Lebanon",
-        "Israel and Jordan"
+        "Syria and Lebanon"
       ],
       "answer": "Israel and Jordan",
       "explanation": "The Dead Sea sits on the border between Israel to the west and Jordan to the east, at approximately 430 meters below sea level — the lowest point on Earth's surface. Its extreme salinity (about 34%) makes it nearly impossible for organisms to survive in it, which is how it got its name.",
@@ -122,8 +122,8 @@
       "question": "What force keeps planets in orbit around the Sun?",
       "options": [
         "Nuclear force",
-        "Electromagnetism",
         "Gravity",
+        "Electromagnetism",
         "Dark energy"
       ],
       "answer": "Gravity",
@@ -136,8 +136,8 @@
       "options": [
         "China and Russia",
         "Russia and Kazakhstan",
-        "China and North Korea",
-        "Kazakhstan and China"
+        "Kazakhstan and China",
+        "China and North Korea"
       ],
       "answer": "China and Russia",
       "explanation": "Mongolia is a landlocked country bordered only by Russia to the north and China to the south, east, and west. With an area of 1.56 million km² and a population of only about 3.3 million people, it has the world's lowest population density among sovereign nations (about 2 people per km²). More than half the population lives in Ulaanbaatar, the world's coldest capital city. The Gobi Desert covers the southern third of the country.",
@@ -147,10 +147,10 @@
       "category": "Science & Nature",
       "question": "Quasars, first identified in the 1960s, are the most luminous persistent objects in the observable universe — some outshine entire galaxies by a factor of 1,000. What are they?",
       "options": [
+        "Quasars are remnant shockwaves from galaxy collisions — when two galaxies merge, the combined gravitational energy is released as electromagnetic radiation that can last for millions of years",
         "Quasars are chains of interconnected galaxies whose combined gravitational energy generates a coherent beam of radiation visible across the observable universe",
-        "Quasars are the intensely luminous cores of distant galaxies powered by supermassive black holes actively consuming surrounding gas and dust — the infalling material releases enormous energy as it heats and spirals inward",
         "Quasars are extremely massive stars in the early universe that burned so brightly they fused elements all the way up to uranium, creating intense radiation before collapsing into black holes",
-        "Quasars are remnant shockwaves from galaxy collisions — when two galaxies merge, the combined gravitational energy is released as electromagnetic radiation that can last for millions of years"
+        "Quasars are the intensely luminous cores of distant galaxies powered by supermassive black holes actively consuming surrounding gas and dust — the infalling material releases enormous energy as it heats and spirals inward"
       ],
       "answer": "Quasars are the intensely luminous cores of distant galaxies powered by supermassive black holes actively consuming surrounding gas and dust — the infalling material releases enormous energy as it heats and spirals inward",
       "explanation": "The name 'quasar' is short for 'quasi-stellar radio source' — they appeared as point-like stars but with inexplicably large redshifts, meaning they were enormously distant. The energy mechanism was cracked when astronomers realized the only known process that could generate such luminosity from such a small region was a supermassive black hole actively accreting matter. Gas spiraling into the black hole heats to millions of degrees and radiates across the electromagnetic spectrum. Most galaxies, including the Milky Way, likely hosted quasars in their youth — our central black hole (Sagittarius A*) is dormant.",

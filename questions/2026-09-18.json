@@ -5,9 +5,9 @@
       "category": "History",
       "question": "Which empire, founded by Cyrus the Great in 550 BC, was the largest empire in ancient history before Alexander the Great conquered it?",
       "options": [
-        "Assyrian Empire",
-        "Macedonian Empire",
         "Achaemenid Persian Empire",
+        "Macedonian Empire",
+        "Assyrian Empire",
         "Roman Empire"
       ],
       "answer": "Achaemenid Persian Empire",
@@ -20,8 +20,8 @@
       "options": [
         "Silver",
         "Cesium",
-        "Gallium",
-        "Mercury"
+        "Mercury",
+        "Gallium"
       ],
       "answer": "Mercury",
       "explanation": "Mercury (Hg, from Greek hydrargyrum = water silver) is the only metal that is liquid at room temperature (along with gallium, which melts at 29.8°C). It expands uniformly with temperature, making it useful in thermometers. Mercury poisoning causes neurological damage — it was famously behind 'Mad Hatter's disease' in hatters who used mercury nitrate to felt hats.",
@@ -31,9 +31,9 @@
       "category": "Sports",
       "question": "Which country introduced the Hawk-Eye ball-tracking technology, now used in tennis, cricket, and football for close calls?",
       "options": [
-        "Germany",
         "United States",
         "Australia",
+        "Germany",
         "United Kingdom"
       ],
       "answer": "United Kingdom",
@@ -44,10 +44,10 @@
       "category": "Pop Culture",
       "question": "Which 2000 Ridley Scott film, set in ancient Rome and starring Russell Crowe as a gladiator-turned-slave, won the Academy Award for Best Picture?",
       "options": [
-        "Gladiator",
-        "300",
         "Kingdom of Heaven",
-        "Troy"
+        "Gladiator",
+        "Troy",
+        "300"
       ],
       "answer": "Gladiator",
       "explanation": "Gladiator (2000) starred Russell Crowe as Maximus Decimus Meridius, a general enslaved after the emperor's murder and forced to fight as a gladiator. It won Best Picture and Best Actor (Crowe). The film reignited interest in epic historical films. A sequel, Gladiator II, was released in 2024.",
@@ -57,10 +57,10 @@
       "category": "Geography",
       "question": "Which European country is home to the most active volcano in Europe, Etna, located on its largest island?",
       "options": [
-        "Greece",
-        "Iceland",
+        "Spain",
         "Italy",
-        "Spain"
+        "Greece",
+        "Iceland"
       ],
       "answer": "Italy",
       "explanation": "Mount Etna is located in Sicily (Italy's largest island) and is one of the world's most active volcanoes, erupting almost continuously. It has been documented erupting since 425 BC. Stromboli (another Italian island) has been erupting continuously for over 2,000 years and is called the 'Lighthouse of the Mediterranean.'",
@@ -70,10 +70,10 @@
       "category": "History",
       "question": "Which Mongol leader, who died in 1227, united the Mongol tribes and launched the conquests that would create the world's largest contiguous land empire?",
       "options": [
+        "Timur (Tamerlane)",
         "Genghis Khan",
-        "Ögedei Khan",
         "Kublai Khan",
-        "Timur (Tamerlane)"
+        "Ögedei Khan"
       ],
       "answer": "Genghis Khan",
       "explanation": "Born Temüjin, Genghis Khan unified warring Mongol tribes by 1206 and launched conquests across Central Asia and China. His tactics — mobility, terror, and strategic destruction of water supplies — were revolutionary. He reportedly killed 40 million people — potentially 10% of the world's population. Genetic studies suggest 1 in 200 living men worldwide descend from him.",
@@ -85,8 +85,8 @@
       "options": [
         "Willow",
         "The NeverEnding Story",
-        "Labyrinth",
-        "The Dark Crystal"
+        "The Dark Crystal",
+        "Labyrinth"
       ],
       "answer": "Labyrinth",
       "explanation": "Labyrinth (1986) was directed by Jim Henson (of Muppet fame) and produced by George Lucas. David Bowie performed all his own songs, including 'Magic Dance.' Despite being a box office disappointment on release, it became a beloved cult classic. Jennifer Connelly was 14 during filming.",
@@ -96,10 +96,10 @@
       "category": "Science & Nature",
       "question": "Andromeda is on a collision course with the Milky Way. When, and what will it look like?",
       "options": [
-        "Never; it is actually moving away from us",
         "In 250 million years, with catastrophic gamma bursts",
+        "In 1 billion years, passing through without merging",
         "In 4.5 billion years; stars are too sparse to collide",
-        "In 1 billion years, passing through without merging"
+        "Never; it is actually moving away from us"
       ],
       "answer": "In 4.5 billion years; stars are too sparse to collide",
       "explanation": "Andromeda is approaching at about 110 km/s. Despite the name 'collision,' the actual probability of any two stars directly hitting each other is negligible — a galaxy is mostly empty space. The two galaxies will pass through each other, then gravitational attraction will pull them back together for repeated passes over 2 billion years, eventually merging into an elliptical galaxy sometimes nicknamed 'Milkomeda.' The Sun will likely be flung into a completely different region of the merged galaxy. In 4.5 billion years, the Sun will also be entering its red giant phase — so Earth may not exist by then regardless.",
@@ -110,9 +110,9 @@
       "question": "Which narrow sea passage between Denmark and Sweden, connecting the Baltic Sea to the North Sea, is one of the world's most commercially important waterways?",
       "options": [
         "Kattegat",
+        "Øresund Strait",
         "Skagerrak",
-        "Denmark Strait",
-        "Øresund Strait"
+        "Denmark Strait"
       ],
       "answer": "Øresund Strait",
       "explanation": "The Øresund Strait (also spelled Öresund) is approximately 4 km wide at its narrowest point. The Øresund Bridge (opened 2000) connects Malmö, Sweden to Copenhagen, Denmark — the only fixed link between Scandinavia and continental Europe. About 100,000 ships pass through annually. The area's combined population is called the 'Øresund Region.'",
@@ -124,8 +124,8 @@
       "options": [
         "Jimmy Carter",
         "John F. Kennedy",
-        "Dwight Eisenhower",
-        "Lyndon B. Johnson"
+        "Lyndon B. Johnson",
+        "Dwight Eisenhower"
       ],
       "answer": "Lyndon B. Johnson",
       "explanation": "LBJ signed the Civil Rights Act on July 2, 1964, following President Kennedy's assassination. Kennedy had proposed the legislation; LBJ used his political skills to push it through. He also signed the Voting Rights Act of 1965. LBJ reportedly said after signing: 'We have lost the South for a generation' — predicting the political realignment that followed.",
@@ -135,9 +135,9 @@
       "category": "Pop Culture",
       "question": "Which 2004 musical film, starring Jamie Foxx as Ray Charles, won him an Academy Award for Best Actor and featured the biopic of a pioneering soul and R&B artist?",
       "options": [
-        "Walk the Line",
         "Ray",
         "Selma",
+        "Walk the Line",
         "Get on Up"
       ],
       "answer": "Ray",
@@ -148,10 +148,10 @@
       "category": "Sports",
       "question": "What is the term in tennis for a score of zero (no points won in a game)?",
       "options": [
-        "Love",
         "Nil",
-        "Deuce",
-        "Zero"
+        "Love",
+        "Zero",
+        "Deuce"
       ],
       "answer": "Love",
       "explanation": "'Love' in tennis means zero. The most common explanation is from the French word 'l'oeuf' (the egg) because of zero's egg shape — the same origin as 'duck' in cricket. A game score of 40-40 is 'deuce.' The server's score is always called first: 'Love-fifteen' means the server has 0 and the receiver has 1 point.",

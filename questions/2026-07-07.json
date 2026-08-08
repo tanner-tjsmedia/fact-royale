@@ -4,10 +4,10 @@
       "category": "History",
       "question": "Which war was fought between the North and South in the United States?",
       "options": [
-        "The Civil War",
         "The Revolutionary War",
+        "The Mexican-American War",
         "The War of 1812",
-        "The Mexican-American War"
+        "The Civil War"
       ],
       "answer": "The Civil War",
       "explanation": "The American Civil War (1861–1865) was fought between the Union (Northern states) and the Confederacy (Southern states). The primary cause was slavery. The Union won, and the 13th Amendment abolished slavery. It remains the deadliest war in American history with an estimated 620,000 deaths.",
@@ -17,8 +17,8 @@
       "category": "History",
       "question": "What was the name of the first moon landing mission?",
       "options": [
-        "Apollo 11",
         "Apollo 8",
+        "Apollo 11",
         "Apollo 13",
         "Apollo 10"
       ],
@@ -30,9 +30,9 @@
       "category": "Sports",
       "question": "What color is the first place jersey in the Tour de France?",
       "options": [
-        "Green",
-        "Red",
         "Yellow",
+        "Red",
+        "Green",
         "White"
       ],
       "answer": "Yellow",
@@ -43,10 +43,10 @@
       "category": "Sports",
       "question": "Which city has hosted the most Summer Olympic Games?",
       "options": [
-        "Athens",
-        "London",
         "Los Angeles",
-        "Paris"
+        "Athens",
+        "Paris",
+        "London"
       ],
       "answer": "London",
       "explanation": "London has hosted the Summer Olympic Games three times: 1908, 1948, and 2012. It is the only city to have hosted three Summer Olympics. Paris has hosted twice (1900, 1924) and is set to host again in 2024. Los Angeles hosted in 1932 and 1984.",
@@ -56,9 +56,9 @@
       "category": "Pop Culture",
       "question": "Which band sang 'Sweet Home Alabama'?",
       "options": [
-        "ZZ Top",
-        "Lynyrd Skynyrd",
         "The Allman Brothers Band",
+        "Lynyrd Skynyrd",
+        "ZZ Top",
         "Creedence Clearwater Revival"
       ],
       "answer": "Lynyrd Skynyrd",
@@ -69,10 +69,10 @@
       "category": "Pop Culture",
       "question": "Fleabag (BBC, 2016–2019), written by and starring Phoebe Waller-Bridge, is celebrated for its formal innovation as much as its emotional depth. What technique made it distinctive?",
       "options": [
-        "It ran episodes of wildly varying lengths — from 4 minutes to 47 minutes — breaking conventional broadcast formatting",
-        "It was the first TV series to be shot entirely on smartphone cameras, giving it a raw, confessional visual style",
         "It was filmed in a single unbroken take per episode, removing all editing to simulate the feeling of watching live theater",
-        "Its protagonist constantly breaks the fourth wall, speaking directly to the audience — building an intimate relationship that becomes structurally crucial to the story"
+        "It ran episodes of wildly varying lengths — from 4 minutes to 47 minutes — breaking conventional broadcast formatting",
+        "Its protagonist constantly breaks the fourth wall, speaking directly to the audience — building an intimate relationship that becomes structurally crucial to the story",
+        "It was the first TV series to be shot entirely on smartphone cameras, giving it a raw, confessional visual style"
       ],
       "answer": "Its protagonist constantly breaks the fourth wall, speaking directly to the audience — building an intimate relationship that becomes structurally crucial to the story",
       "explanation": "Fleabag's direct-address technique wasn't just a stylistic choice — by Series 2, the audience's relationship with Fleabag becomes plot-relevant when another character notices her 'talking to someone.' Waller-Bridge adapted it from her Edinburgh Fringe one-woman show. The series won six Emmy Awards in 2019 including Outstanding Comedy, Outstanding Writing, and Outstanding Lead Actress — nearly unprecedented for a foreign production. It's often credited with reviving interest in the female anti-hero.",
@@ -82,10 +82,10 @@
       "category": "Pop Culture",
       "question": "Who wrote and performed 'Imagine'?",
       "options": [
-        "David Bowie",
-        "John Lennon",
         "Bob Dylan",
-        "Paul McCartney"
+        "John Lennon",
+        "Paul McCartney",
+        "David Bowie"
       ],
       "answer": "John Lennon",
       "explanation": "'Imagine' was written and recorded by John Lennon and released in 1971. It is widely regarded as one of the greatest songs ever written, promoting peace, harmony, and a world without divisions. Lennon called it 'virtually the Communist Manifesto' but wrapped in sugar.",
@@ -96,8 +96,8 @@
       "question": "The 'Boston Tea Party' was a protest against taxation by which country?",
       "options": [
         "The Netherlands",
-        "Spain",
         "France",
+        "Spain",
         "Great Britain"
       ],
       "answer": "Great Britain",
@@ -109,9 +109,9 @@
       "question": "Which desert is the largest hot desert in the world?",
       "options": [
         "Arabian Desert",
+        "Gobi Desert",
         "Sahara Desert",
-        "Kalahari Desert",
-        "Gobi Desert"
+        "Kalahari Desert"
       ],
       "answer": "Sahara Desert",
       "explanation": "The Sahara is the world's largest hot desert, covering about 9.2 million square kilometers across northern Africa — roughly the size of the contiguous United States. It spans 11 countries. Despite its reputation, only about 25% of the Sahara is sand dunes; most of it is rocky plateau.",
@@ -121,10 +121,10 @@
       "category": "Science & Nature",
       "question": "Johannes Kepler's three laws of planetary motion (published 1609–1619) revolutionized astronomy. What did his first law establish about planetary orbits?",
       "options": [
-        "Planets orbit the Sun in spiraling paths that slowly expand as the Sun's gravitational pull weakens over millions of years",
-        "Planets orbit the Sun in ellipses, with the Sun at one focus — not the center — meaning each planet's distance from the Sun varies throughout its orbit",
+        "Planets orbit the Sun in perfect circles, with the Sun at the exact center of each circular orbit",
         "All planets orbit the Sun at the same speed but at different distances, like tracks on a record album rotating at the same rpm",
-        "Planets orbit the Sun in perfect circles, with the Sun at the exact center of each circular orbit"
+        "Planets orbit the Sun in ellipses, with the Sun at one focus — not the center — meaning each planet's distance from the Sun varies throughout its orbit",
+        "Planets orbit the Sun in spiraling paths that slowly expand as the Sun's gravitational pull weakens over millions of years"
       ],
       "answer": "Planets orbit the Sun in ellipses, with the Sun at one focus — not the center — meaning each planet's distance from the Sun varies throughout its orbit",
       "explanation": "Kepler broke with 2,000 years of astronomical tradition that insisted on circular orbits (because circles were 'perfect'). Working from Tycho Brahe's meticulous observational data — which Brahe denied him, forcing Kepler to work from memory after Brahe's death — he deduced that Mars's orbit was an ellipse. His second law states a planet sweeps equal areas in equal times (faster near perihelion, slower near aphelion). His third law links orbital period to distance: the square of a planet's year equals the cube of its average distance from the Sun. Newton later showed gravity explains all three laws.",
@@ -134,10 +134,10 @@
       "category": "Geography",
       "question": "Denali, the highest peak in North America at 6,190 meters, is located in which U.S. state?",
       "options": [
-        "Colorado",
-        "Washington",
         "Montana",
-        "Alaska"
+        "Washington",
+        "Alaska",
+        "Colorado"
       ],
       "answer": "Alaska",
       "explanation": "Denali (formerly known as Mount McKinley) is located in Denali National Park in Alaska. At 6,190 meters (20,310 feet), it is the highest peak in North America. The name Denali comes from the Koyukon Athabascan people and means 'the tall one' or 'the great one.' The US officially renamed the peak from McKinley to Denali in 2015, restoring its indigenous name. Its extreme latitude makes it one of the coldest mountains on Earth, requiring extensive mountaineering preparation.",
@@ -148,9 +148,9 @@
       "question": "What is the biological transformation process where an insect completely changes its body form — such as a caterpillar becoming a butterfly?",
       "options": [
         "Molting",
-        "Pupation",
+        "Complete metamorphosis",
         "Partial metamorphosis",
-        "Complete metamorphosis"
+        "Pupation"
       ],
       "answer": "Complete metamorphosis",
       "explanation": "Complete metamorphosis (holometabolism) involves four distinct life stages: egg → larva (caterpillar) → pupa (chrysalis) → adult. The larval stage does most of the eating and growing; the pupal stage involves complete reorganization of body tissues; the adult stage focuses on reproduction. Butterflies, beetles, flies, and bees all undergo complete metamorphosis. Partial metamorphosis (hemimetabolism, seen in grasshoppers and dragonflies) skips the pupal stage: egg → nymph → adult.",

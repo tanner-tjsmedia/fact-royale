@@ -5,10 +5,10 @@
       "category": "History",
       "question": "Christopher Columbus arrived in the Americas on October 12, 1492. Where exactly did he land, and what did he call the indigenous people he found there?",
       "options": [
-        "Hispaniola; he called them 'islanders'",
-        "Florida; he called them 'Natives'",
+        "The Bahamas; he called them 'Indians' thinking he was in the East Indies",
         "Cuba; he called them 'Cubans'",
-        "The Bahamas; he called them 'Indians' thinking he was in the East Indies"
+        "Florida; he called them 'Natives'",
+        "Hispaniola; he called them 'islanders'"
       ],
       "answer": "The Bahamas; he called them 'Indians' thinking he was in the East Indies",
       "explanation": "Columbus landed in the Bahamas (likely San Salvador Island) and called the indigenous Taíno people 'Indians' (Indios) because he believed he had reached the East Indies near India or Japan. He never realized he had reached continents unknown to Europeans. Columbus died in 1506 still believing he had reached Asia. The Taíno population of the Caribbean, estimated at several million in 1492, was virtually wiped out within 50 years by disease, enslavement, and violence.",
@@ -18,10 +18,10 @@
       "category": "History",
       "question": "The Wright Brothers, Orville and Wilbur, achieved the first successful powered airplane flight on December 17, 1903. In which US state did this occur?",
       "options": [
-        "North Carolina",
         "Virginia",
-        "Ohio",
-        "Georgia"
+        "Georgia",
+        "North Carolina",
+        "Ohio"
       ],
       "answer": "North Carolina",
       "explanation": "The Wright Brothers' first flight took place at Kitty Hawk, North Carolina — chosen for its steady winds and soft sand for crash landings. The first flight lasted 12 seconds and covered 37 meters. By the fourth flight that day, Orville flew 260 meters in 59 seconds. The brothers were bicycle mechanics from Dayton, Ohio who solved the problem of controlled flight that had stumped professional engineers. They made their breakthrough on a $1,000 budget.",
@@ -31,10 +31,10 @@
       "category": "History",
       "question": "The Iranian Revolution of 1979 replaced the Shah's government with an Islamic Republic. Who became the Supreme Leader?",
       "options": [
-        "Mahmoud Ahmadinejad",
-        "Ali Khamenei",
         "Ayatollah Khomeini",
-        "Mosaddegh"
+        "Ali Khamenei",
+        "Mosaddegh",
+        "Mahmoud Ahmadinejad"
       ],
       "answer": "Ayatollah Khomeini",
       "explanation": "Ayatollah Ruhollah Khomeini led the Islamic Revolution that overthrew Shah Mohammad Reza Pahlavi, returning from exile in Paris in February 1979. The revolution installed an Islamic Republic with Khomeini as Supreme Leader until his death in 1989. The Iran hostage crisis (444 days, beginning November 1979) — when revolutionary students seized the US Embassy — damaged US-Iran relations for decades. Ali Khamenei succeeded Khomeini as Supreme Leader in 1989.",
@@ -44,9 +44,9 @@
       "category": "Sports",
       "question": "Nolan Ryan holds the MLB record for career strikeouts. How many did he record over his 27-year career?",
       "options": [
-        "5,714",
         "4,256",
         "6,891",
+        "5,714",
         "3,510"
       ],
       "answer": "5,714",
@@ -57,10 +57,10 @@
       "category": "Sports",
       "question": "In motor racing, MotoGP is motorcycle racing's premier class. Who holds the record for the most MotoGP World Championship titles?",
       "options": [
+        "Giacomo Agostini",
         "Marc Marquez",
-        "Jorge Lorenzo",
         "Valentino Rossi",
-        "Giacomo Agostini"
+        "Jorge Lorenzo"
       ],
       "answer": "Giacomo Agostini",
       "explanation": "Giacomo Agostini of Italy holds the record with 15 World Championship titles across 500cc and 350cc classes (1966-1975). Valentino Rossi has 9 titles (7 in MotoGP, 2 in predecessor classes), often cited as the class' greatest rider of the modern era. Marc Marquez has 8. Agostini's dominance in the pre-modern era makes direct comparisons difficult, but his 15 titles remain unmatched in motorcycle racing's premier classes.",
@@ -70,9 +70,9 @@
       "category": "Pop Culture",
       "question": "Steven Spielberg's 'Indiana Jones and the Raiders of the Lost Ark' (1981) features Dr. Jones searching for which biblical artifact?",
       "options": [
-        "The Spear of Destiny",
         "The Ten Commandments tablets",
         "The Ark of the Covenant",
+        "The Spear of Destiny",
         "The Holy Grail"
       ],
       "answer": "The Ark of the Covenant",
@@ -83,10 +83,10 @@
       "category": "Pop Culture",
       "question": "Frida Kahlo is celebrated for her deeply personal, symbolism-rich paintings. From which country was she?",
       "options": [
-        "Argentina",
-        "Colombia",
         "Mexico",
-        "Spain"
+        "Colombia",
+        "Spain",
+        "Argentina"
       ],
       "answer": "Mexico",
       "explanation": "Frida Kahlo (1907-1954) was a Mexican painter known for self-portraits that explore pain, identity, and the female experience. She suffered from polio as a child and a catastrophic bus accident at 18 that left her with lifelong injuries and chronic pain. She had a tumultuous relationship with muralist Diego Rivera. Many of her paintings explore the physical and emotional pain she experienced. She died at 47 and only achieved worldwide fame decades after her death.",
@@ -96,10 +96,10 @@
       "category": "Pop Culture",
       "question": "Tom Hanks won the Academy Award for Best Actor in consecutive years — the only actor to achieve this feat. For which two films?",
       "options": [
-        "Cast Away and The Green Mile",
-        "Philadelphia and Forrest Gump",
         "Big and Saving Private Ryan",
-        "A League of Their Own and You've Got Mail"
+        "A League of Their Own and You've Got Mail",
+        "Cast Away and The Green Mile",
+        "Philadelphia and Forrest Gump"
       ],
       "answer": "Philadelphia and Forrest Gump",
       "explanation": "Tom Hanks won Best Actor for Philadelphia (1993), in which he played a lawyer with AIDS, and Forrest Gump (1994), in which he played the title character navigating American history. He is the only person to win Best Actor in consecutive years (Spencer Tracy also won consecutive years, 1937-38). Hanks has received 5 Academy Award nominations for acting overall and is also known for his voice work as Woody in the Toy Story films.",
@@ -109,10 +109,10 @@
       "category": "Geography",
       "question": "The Indochina Peninsula in Southeast Asia includes which major countries?",
       "options": [
-        "Philippines, Indonesia, and Malaysia",
-        "Malaysia, Singapore, and Brunei",
         "Japan, South Korea, and Taiwan",
-        "Vietnam, Cambodia, Laos, Thailand, and Myanmar"
+        "Philippines, Indonesia, and Malaysia",
+        "Vietnam, Cambodia, Laos, Thailand, and Myanmar",
+        "Malaysia, Singapore, and Brunei"
       ],
       "answer": "Vietnam, Cambodia, Laos, Thailand, and Myanmar",
       "explanation": "The Indochina Peninsula extends southward from mainland Asia and includes Myanmar (Burma), Thailand, Cambodia, Laos, and Vietnam. Malaysia's northern part (West Malaysia) is also on the peninsula. The name 'Indochina' reflects its position between India and China as a cultural crossroads — Buddhism entered Southeast Asia through this region. The French colonized Vietnam, Cambodia, and Laos (French Indochina), shaping the history that led to the Vietnam War.",
@@ -122,10 +122,10 @@
       "category": "Geography",
       "question": "The Rocky Mountains run through western North America. Which range best describes their full extent?",
       "options": [
-        "Northwest Territories to Arizona",
-        "British Columbia to New Mexico",
+        "Yukon to New Mexico",
         "Alaska to Colorado",
-        "Yukon to New Mexico"
+        "British Columbia to New Mexico",
+        "Northwest Territories to Arizona"
       ],
       "answer": "British Columbia to New Mexico",
       "explanation": "The Rockies stretch roughly 3,000 miles (4,800 km) from northern British Columbia down through Alberta, Idaho, Montana, Wyoming, Colorado, and Utah, ending in northern New Mexico. They are distinct from the Alaska Range and the Brooks Range further north, and from the Sierra Nevada and Cascades to the west. The Continental Divide runs along their spine, separating Atlantic-bound from Pacific-bound drainage.",
@@ -135,10 +135,10 @@
       "category": "Science & Nature",
       "question": "Ocean currents like the Gulf Stream and Pacific Kuroshio are called 'western boundary currents.' What makes them faster, narrower, and warmer than their eastern counterparts?",
       "options": [
-        "They carry lighter freshwater that flows faster",
         "Underwater volcanoes heat and accelerate them",
+        "The Coriolis effect and the Earth's rotation cause ocean gyres to intensify on their western boundaries",
         "Friction with continental coastlines accelerates them",
-        "The Coriolis effect and the Earth's rotation cause ocean gyres to intensify on their western boundaries"
+        "They carry lighter freshwater that flows faster"
       ],
       "answer": "The Coriolis effect and the Earth's rotation cause ocean gyres to intensify on their western boundaries",
       "explanation": "Western intensification is caused by the Coriolis effect creating large circular ocean gyres. Due to Earth's rotation, these gyres pile up water on their western sides, creating faster, narrower, warmer currents on the west (Gulf Stream in Atlantic, Kuroshio in Pacific) and slower, broader, cooler currents on the east. The Gulf Stream reaches 8 km/h and is 100 km wide — the fastest ocean current. It carries the heat equivalent of 200 Amazon Rivers.",
@@ -148,10 +148,10 @@
       "category": "Science & Nature",
       "question": "The greenhouse effect warms Earth. Which greenhouse gases, beyond CO₂, are particularly potent and often overlooked?",
       "options": [
-        "Ozone and argon",
-        "Oxygen and nitrogen, the most abundant atmospheric gases",
+        "Carbon monoxide and sulfur dioxide",
         "Methane (CH₄), nitrous oxide (N₂O), and water vapor, which trap far more heat per molecule than CO₂",
-        "Carbon monoxide and sulfur dioxide"
+        "Oxygen and nitrogen, the most abundant atmospheric gases",
+        "Ozone and argon"
       ],
       "answer": "Methane (CH₄), nitrous oxide (N₂O), and water vapor, which trap far more heat per molecule than CO₂",
       "explanation": "Methane (CH₄) is 80× more potent than CO₂ over 20 years (from livestock, landfills, natural gas leaks, and thawing permafrost). Nitrous oxide (N₂O) is 273× more potent per molecule (from fertilizers and agriculture). Water vapor is the most abundant greenhouse gas but is a feedback amplifier — warming from CO₂ evaporates more water, which traps more heat. These gases together create a self-reinforcing warming loop.",

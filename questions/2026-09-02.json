@@ -3,159 +3,166 @@
   "questions": [
     {
       "category": "History",
-      "question": "The Korean War (1950-1953) ended with an armistice, not a peace treaty, leaving the Korean Peninsula divided at roughly which line of latitude?",
+      "question": "The Korean War ended in armistice at roughly the border where it began. What is the DMZ now?",
       "options": [
-        "38th parallel",
-        "40th parallel",
-        "34th parallel",
-        "36th parallel"
+        "A fully open crossing used by many thousands of commuters every day",
+        "A neutral trade corridor operated under direct United Nations control",
+        "One of the most militarised borders and an accidental nature reserve",
+        "A demilitarised buffer patrolled jointly by both Korean armies today"
       ],
-      "answer": "38th parallel",
-      "explanation": "The armistice signed July 27, 1953 restored the boundary near the 38th parallel, where it had begun in 1950. The Demilitarized Zone (DMZ) is one of the world's most heavily fortified borders. Technically, North and South Korea remain in a state of war — no formal peace treaty has ever been signed.",
-      "memory_hook": "Korean War: ended at 38th parallel, 1953. Technically still no peace treaty."
+      "answer": "One of the most militarised borders and an accidental nature reserve",
+      "explanation": "The strip is 4km wide and 250km long, mined and fenced, with enormous troop concentrations on both sides. Because almost nobody has entered it since 1953, it has become an unintentional wildlife refuge holding endangered species including red-crowned cranes and possibly Amur leopards. The two Koreas remain technically at war, since an armistice is a ceasefire rather than a peace treaty.",
+      "memory_hook": "4km wide, 250km long, mined and fenced with huge troop concentrations either side. Because nobody has walked in since 1953 it has accidentally become a wildlife refuge with red-crowned cranes and maybe Amur leopards. The two Koreas are still technically at war."
     },
     {
       "category": "Science & Nature",
-      "question": "The human genome contains approximately how many base pairs of DNA?",
+      "question": "The human genome runs to about 3 billion base pairs. How much of it codes for proteins?",
       "options": [
-        "300 million",
-        "30 billion",
-        "3 million",
-        "3 billion"
+        "Roughly 1 to 2 percent, with the rest doing other things",
+        "Approximately 25 percent, matching most other mammals",
+        "Close to 90 percent, since almost all DNA makes protein",
+        "Around 50 percent, with the remainder being pure filler"
       ],
-      "answer": "3 billion",
-      "explanation": "The human genome contains approximately 3 billion base pairs (3 × 10⁹) of DNA distributed across 23 pairs of chromosomes. However, only about 1.5% of the genome encodes proteins — the rest was once called 'junk DNA' but is now understood to have regulatory functions. The Human Genome Project completed sequencing in 2003.",
-      "memory_hook": "Human genome: 3 billion base pairs. Only 1.5% makes proteins. Sequenced fully in 2003."
+      "answer": "Roughly 1 to 2 percent, with the rest doing other things",
+      "explanation": "Only about 1 to 2% codes directly for proteins. The rest was once dismissed as junk DNA, and much of it is now known to regulate when and where genes switch on, which turns out to matter enormously. Around 8% of the human genome is leftover viral sequence inserted by ancient retroviruses. Sequencing the first genome took thirteen years and $2.7 billion; it now costs a few hundred dollars and takes a day.",
+      "memory_hook": "Only 1 to 2% codes for protein. The rest was called junk, and much of it turns out to control when genes switch on. About 8% is leftover virus DNA from ancient infections. The first genome took thirteen years and $2.7 billion; now it is a few hundred dollars overnight."
     },
     {
       "category": "Sports",
-      "question": "Which tennis player has won the most Wimbledon singles titles (men's), with 8 victories?",
+      "question": "Federer holds the men's record for Wimbledon singles titles. What is unusual about grass-court tennis?",
       "options": [
-        "Pete Sampras",
-        "Roger Federer",
-        "Novak Djokovic",
-        "Björn Borg"
+        "The season lasts only a few weeks of the entire year",
+        "Matches are played without any electronic line calling",
+        "Players must change racquet strings between every set",
+        "Only the top thirty-two ranked players may enter at all"
       ],
-      "answer": "Roger Federer",
-      "explanation": "Roger Federer won 8 Wimbledon singles titles (2003-2012 and 2017). Pete Sampras won 7, Novak Djokovic won 7, and Björn Borg won 5 consecutive titles (1976-1980). Federer's graceful all-court game and sportsmanship made him arguably the most beloved player in the sport's history.",
-      "memory_hook": "Federer: 8 Wimbledon titles. Sampras and Djokovic: 7 each. Borg: 5 consecutive."
+      "answer": "The season lasts only a few weeks of the entire year",
+      "explanation": "Grass is the shortest season in tennis, roughly a month between the French Open and Wimbledon, so players get very few competitive matches to adapt to a surface that behaves unlike anything else. The ball skids low and fast and the bounce is unpredictable, which historically rewarded serve-and-volley. Wimbledon changed its grass seed mix in 2001 to a harder-wearing ryegrass, which slowed play and helped baseliners.",
+      "memory_hook": "Grass is about a month of the whole year, between the French Open and Wimbledon, so players barely get to adapt to a surface that behaves like nothing else. It skids low and fast. Wimbledon changed its grass mix in 2001 to a tougher ryegrass, which slowed it down and helped baseliners."
     },
     {
       "category": "Pop Culture",
-      "question": "Which 2010 film directed by Christopher Nolan explores the concept of entering people's dreams to steal or plant information?",
+      "question": "Inception (2010) hinges on a spinning top. What did Christopher Nolan say about the ending?",
       "options": [
-        "Inception",
-        "The Prestige",
-        "Interstellar",
-        "Memento"
+        "The top was added in editing and means nothing at all",
+        "He confirmed in a 2012 interview that the whole film is a dream",
+        "The point is that Cobb stops watching it, not what it does",
+        "Test audiences chose between two endings that were both shot"
       ],
-      "answer": "Inception",
-      "explanation": "Inception (2010) starred Leonardo DiCaprio as a dream-thief hired to plant an idea (inception) into a businessman's mind. The film's plot featured dreams within dreams within dreams. It won four Academy Awards. The ending — whether DiCaprio's character is dreaming or awake — has been debated since its release.",
-      "memory_hook": "Inception 2010: Nolan, DiCaprio. Dreams within dreams. Ending is deliberately ambiguous."
+      "answer": "The point is that Cobb stops watching it, not what it does",
+      "explanation": "Nolan has repeatedly declined to say whether the top falls, and has pointed out that Cobb walks away from it to see his children, which is the actual resolution regardless. Michael Caine said Nolan told him any scene Caine appeared in was reality. The film was shot largely with practical effects, including a rotating corridor built on gimbals, rather than computer graphics.",
+      "memory_hook": "Nolan will not say whether it falls, and points out Cobb walks away to see his children, which resolves it either way. Michael Caine said Nolan told him any scene with Caine in it was real. The rotating corridor was a physical set on gimbals, not CGI."
     },
     {
       "category": "Geography",
-      "question": "Which sea, bordered by Turkey, Ukraine, Russia, Romania, Bulgaria, and Georgia, is the world's largest meromictic body of water (with distinct non-mixing layers)?",
+      "question": "The Black Sea is bordered by six countries. What makes its deep water unusual?",
       "options": [
-        "Black Sea",
-        "Caspian Sea",
-        "Red Sea",
-        "Aral Sea"
+        "Its depth changes by several metres between the seasons",
+        "Below 150 metres it is anoxic, so nothing larger can live",
+        "It freezes solid across its entire surface every winter",
+        "It contains more fresh water than salt water by volume"
       ],
-      "answer": "Black Sea",
-      "explanation": "The Black Sea's deep water is permanently anoxic (no oxygen) below about 150-200 meters — sustained by lack of water circulation. Organic matter is preserved in its depths due to the absence of decomposing bacteria needing oxygen. Ancient shipwrecks in the Black Sea are uniquely well-preserved as a result.",
-      "memory_hook": "Black Sea: deep water has no oxygen. Ancient shipwrecks preserved perfectly at depth."
+      "answer": "Below 150 metres it is anoxic, so nothing larger can live",
+      "explanation": "The Black Sea has two layers that barely mix: fresher water from rivers on top, dense salt water below. Without circulation the deep layer has no oxygen, and roughly 90% of its volume is lifeless apart from bacteria. That also means shipwrecks are preserved extraordinarily well, including a 2,400-year-old Greek merchant vessel found intact in 2018, the oldest ever recovered.",
+      "memory_hook": "Two layers that barely mix: river water on top, dense salt water below. The deep layer gets no oxygen, so about 90% of the sea is dead apart from bacteria. It also preserves shipwrecks perfectly, including an intact 2,400-year-old Greek ship found in 2018."
     },
     {
       "category": "History",
-      "question": "Which Roman general crossed the Alps with war elephants to attack Rome from the north during the Second Punic War?",
+      "question": "Hannibal crossed the Alps with elephants to attack Rome. How did that campaign end?",
       "options": [
-        "Scipio Africanus",
-        "Vercingetorix",
-        "Hannibal Barca",
-        "Pyrrhus"
+        "He won repeatedly in Italy but never took the city itself",
+        "He was defeated in the Alps before reaching Italy at all",
+        "He turned back after losing every elephant in the crossing",
+        "He captured Rome and held it for almost three full years"
       ],
-      "answer": "Hannibal Barca",
-      "explanation": "Hannibal Barca of Carthage crossed the Alps in 218 BC with 37 war elephants and about 38,000 troops, invading Italy from the north. He won devastating victories at Trebia and Cannae but never sacked Rome. Rome ultimately defeated Carthage by attacking Carthage itself, drawing Hannibal home.",
-      "memory_hook": "Hannibal: Alps, elephants, 218 BC. Won at Trebia and Cannae. Never sacked Rome."
+      "answer": "He won repeatedly in Italy but never took the city itself",
+      "explanation": "Hannibal spent fifteen years in Italy winning crushing victories, including Cannae, where he destroyed a much larger Roman army in a double envelopment still studied in military academies. He lacked siege equipment and reinforcements to take Rome. Rome eventually attacked Carthage directly, forcing his recall, and Scipio beat him at Zama in 202 BC. Most of the elephants died soon after the crossing.",
+      "memory_hook": "Fifteen years in Italy winning battles, including Cannae, where he destroyed a much bigger Roman army in an encirclement still taught in war colleges. He never had the siege gear to take Rome. Rome attacked Carthage instead, forced him home, and beat him at Zama."
     },
     {
       "category": "Pop Culture",
-      "question": "Which book series by J.R.R. Tolkien, set in the fictional world of Middle-earth, follows hobbit Frodo Baggins's quest to destroy the One Ring?",
+      "question": "Tolkien invented languages before he wrote The Lord of the Rings. Which came first?",
       "options": [
-        "The Lord of the Rings",
-        "Unfinished Tales",
-        "The Hobbit",
-        "The Silmarillion"
+        "The languages, with the stories built to give them speakers",
+        "The maps, drawn years before any character was invented",
+        "A children's story that he later expanded into a trilogy",
+        "The plot outline, with names added at the very end"
       ],
-      "answer": "The Lord of the Rings",
-      "explanation": "The Lord of the Rings (1954-55) follows Frodo, Sam, and the Fellowship of the Ring from the Shire to Mount Doom. It has sold over 150 million copies and was voted 'greatest book of the 20th century' in British polls. Peter Jackson's film trilogy (2001-2003) won 17 Academy Awards total, including all 11 nominations for Return of the King.",
-      "memory_hook": "Lord of the Rings: 150M copies. Jackson's trilogy won 17 Oscars; Return of the King swept all 11."
+      "answer": "The languages, with the stories built to give them speakers",
+      "explanation": "Tolkien was a professional philologist and had been constructing Elvish languages since his teens. He said the stories existed to provide a world where those languages could be spoken, which is close to the reverse of how fiction usually works. Quenya draws on Finnish and Sindarin on Welsh. The Hobbit came first as a children's book, and the publisher's request for a sequel produced the larger work.",
+      "memory_hook": "He was a professional philologist inventing Elvish since his teens, and said the stories existed to give the languages somewhere to be spoken, which is backwards from how fiction usually works. Quenya is Finnish-flavoured, Sindarin Welsh. The Hobbit came first and the sequel request did the rest."
     },
     {
       "category": "Science & Nature",
-      "question": "What is the name of the scientist who proposed the theory of natural selection as the mechanism for evolution in 'On the Origin of Species' (1859)?",
+      "question": "Darwin sat on natural selection for over twenty years. What finally made him publish?",
       "options": [
-        "Charles Darwin",
-        "Alfred Russel Wallace",
-        "Thomas Huxley",
-        "Jean-Baptiste Lamarck"
+        "His university threatened to withdraw his research funding",
+        "The Royal Society commissioned the work from him directly",
+        "A rival published first and Darwin rushed out a rebuttal",
+        "Another naturalist sent him the same theory independently"
       ],
-      "answer": "Charles Darwin",
-      "explanation": "Charles Darwin proposed natural selection as the mechanism of evolution after a five-year voyage on HMS Beagle (1831-36). Alfred Russel Wallace independently arrived at the same theory, prompting Darwin to publish. Darwin spent 23 years gathering evidence before publishing — worried about the theory's implications for religion.",
-      "memory_hook": "Darwin: natural selection, Origin of Species 1859. Waited 23 years, pushed to publish by Wallace."
+      "answer": "Another naturalist sent him the same theory independently",
+      "explanation": "Alfred Russel Wallace, working in the Malay Archipelago, sent Darwin an essay in 1858 laying out essentially the same mechanism. Darwin's colleagues arranged for both to be presented jointly to the Linnean Society, and Darwin published On the Origin of Species the following year. He had delayed largely because he understood how the argument would be received, and his wife Emma was devout and troubled by it.",
+      "memory_hook": "Wallace, working in the Malay Archipelago, mailed Darwin an essay in 1858 containing essentially the same idea. Friends arranged a joint presentation and Darwin published the next year. He had sat on it for twenty years partly because he knew the reaction, and partly because his wife was devout."
     },
     {
       "category": "Geography",
-      "question": "Which river, flowing through the heart of Europe, passes through or borders 10 countries — more than any other river in the world?",
+      "question": "The Danube flows through more countries than any other river. How many?",
       "options": [
-        "Danube",
-        "Rhine",
-        "Vistula",
-        "Elbe"
+        "Six, all of which are members of the European Union",
+        "Ten, more than any other river anywhere in the world",
+        "Four, from its source in Germany to the Black Sea",
+        "Fifteen, counting every tributary state along its length"
       ],
-      "answer": "Danube",
-      "explanation": "The Danube (2,860 km) flows through or borders Germany, Austria, Slovakia, Hungary, Croatia, Serbia, Bulgaria, Moldova, Romania, and Ukraine. It empties into the Black Sea. It has been a major transportation corridor for millennia. Vienna, Bratislava, Budapest, and Belgrade all sit on the Danube.",
-      "memory_hook": "Danube: 10 countries, most of any river. Vienna, Bratislava, Budapest, Belgrade all on its banks."
+      "answer": "Ten, more than any other river anywhere in the world",
+      "explanation": "The Danube passes through Germany, Austria, Slovakia, Hungary, Croatia, Serbia, Romania, Bulgaria, Moldova and Ukraine, and touches four capital cities, more than any river. It flows west to east, unusual for European rivers. It has been a political boundary since Roman times, when it marked the northern frontier of the empire, and it remains a major freight route into central Europe.",
+      "memory_hook": "Ten countries and four capitals, more than any river on Earth. It runs west to east, which is unusual in Europe. It was the Roman Empire's northern frontier, and it is still a major freight artery into central Europe."
     },
     {
       "category": "History",
-      "question": "The first artificial satellite, Sputnik 1, was launched into orbit on October 4, 1957, by which country?",
+      "question": "Sputnik 1 launched in October 1957 and did almost nothing. Why did it matter so much?",
       "options": [
-        "Soviet Union",
-        "United States",
-        "China",
-        "Germany"
+        "It photographed American military installations from above",
+        "It carried the first live animal ever sent into Earth orbit",
+        "A rocket that could reach orbit could also deliver a warhead",
+        "It broadcast Soviet propaganda directly into US radio sets"
       ],
-      "answer": "Soviet Union",
-      "explanation": "Sputnik 1 was launched by the Soviet Union on October 4, 1957, shocking the United States. About the size of a beach ball (58 cm diameter, 83 kg), it transmitted radio signals for 21 days. Its launch triggered the Space Race and led directly to the creation of NASA in 1958 and DARPA.",
-      "memory_hook": "Sputnik 1: USSR, Oct 4, 1957. Size of a beach ball. Triggered creation of NASA."
+      "answer": "A rocket that could reach orbit could also deliver a warhead",
+      "explanation": "Sputnik was a metal sphere that transmitted beeps for three weeks, but the R-7 rocket that lifted it was an intercontinental ballistic missile, and Americans understood the implication immediately. The response created NASA in 1958, poured money into science education, and produced the agency that became DARPA, whose network project eventually became the internet. Laika flew a month later on Sputnik 2 and did not survive.",
+      "memory_hook": "It was a metal ball that beeped for three weeks, but the rocket underneath was an ICBM and Americans grasped that instantly. The panic created NASA, rebuilt US science education, and funded the agency whose network became the internet. Laika went up a month later and did not come back."
     },
     {
       "category": "Pop Culture",
-      "question": "Which female pop star, known for elaborate costumes and the 'Little Monsters' fanbase, burst onto the scene with 'Just Dance' in 2008 and the album 'The Fame'?",
+      "question": "Lady Gaga wore a dress made of raw meat in 2010. What did she say it meant?",
       "options": [
-        "Nicki Minaj",
-        "Katy Perry",
-        "Kesha",
-        "Lady Gaga"
+        "A statement about the fashion industry's treatment of models",
+        "A comment on how the music press consumed young performers",
+        "A tribute to a designer who had died earlier that same year",
+        "A protest against the military policy on gay service members"
       ],
-      "answer": "Lady Gaga",
-      "explanation": "Lady Gaga (Stefani Germanotta) co-wrote and performed 'Just Dance' in 2008, which spent 22 weeks on the Billboard Hot 100 before reaching #1. The Fame sold 15 million albums. She has won multiple Grammys and won the Academy Award for Best Original Song for 'Shallow' (A Star Is Born, 2018).",
-      "memory_hook": "Lady Gaga: 'Just Dance' 2008, The Fame. Won Oscar for 'Shallow.' Born Stefani Germanotta."
+      "answer": "A protest against the military policy on gay service members",
+      "explanation": "Gaga said that if people did not stand up for their rights they would have as many rights as the meat on her bones, tying it to the Don't Ask Don't Tell policy she was actively campaigning against. She attended the awards with discharged servicemembers. The dress was real flank steak and is now preserved as jerky in the Rock and Roll Hall of Fame. She trained in classical piano and studied at NYU's Tisch school.",
+      "memory_hook": "She said that if you do not fight for your rights you will have as many rights as the meat on your bones, aimed at Don't Ask Don't Tell, and she brought discharged servicemembers as her guests. The dress was real flank steak and is now jerky in the Rock and Roll Hall of Fame."
     },
     {
       "category": "Sports",
-      "question": "In baseball, what is the term for when a pitcher retires all 27 batters faced without any of them reaching base?",
+      "question": "A perfect game means 27 batters up and 27 down. How rare is it?",
       "options": [
-        "Shutout",
-        "Complete game",
-        "No-hitter",
-        "Perfect game"
+        "Twenty-four in over 150 years of Major League Baseball",
+        "Roughly one every season somewhere across the two leagues",
+        "About two hundred since the modern era properly began",
+        "Around fifty, most thrown before the Second World War"
       ],
-      "answer": "Perfect game",
-      "explanation": "A perfect game is rarer than a no-hitter — the pitcher must face exactly 27 batters and retire them all (no hits, no walks, no errors). Only 23 perfect games have been thrown in MLB history. Don Larsen's perfect game in the 1956 World Series is the most famous. A no-hitter allows no hits but the pitcher may walk batters.",
-      "memory_hook": "Perfect game: 27 up, 27 down. Only 23 in MLB history. Rarer than a no-hitter."
+      "answer": "Twenty-four in over 150 years of Major League Baseball",
+      "explanation": "Twenty-four have been thrown across more than 200,000 games, the most recent by Domingo German for the Yankees in June 2023. Don Larsen threw the only one in a World Series, in 1956, and was otherwise an unremarkable pitcher with a losing career record. Armando Galarraga lost one in 2010 on a blown call at first base with two out in the ninth; the umpire apologised publicly afterward and Major League Baseball declined to reverse it.",
+      "memory_hook": "Twenty-four in more than 200,000 games, the last by Domingo German in 2023. Don Larsen threw the only World Series perfect game in 1956 and was otherwise a mediocre pitcher with a losing record. Galarraga lost one in 2010 to a blown call with two out in the ninth, and the umpire apologised.",
+      "sources": [
+        {
+          "claim": "24 perfect games in MLB history; most recent Domingo German, June 2023",
+          "source": "https://www.mlb.com/news/all-time-perfect-games",
+          "checked": "2026-08-08"
+        }
+      ]
     }
   ]
 }

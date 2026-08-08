@@ -5,10 +5,10 @@
       "category": "History",
       "question": "Which treaty, signed in 1783, officially ended the American Revolutionary War and recognized the United States as an independent nation?",
       "options": [
-        "Treaty of Ghent",
-        "Treaty of Paris",
         "Treaty of Versailles",
-        "Treaty of Amiens"
+        "Treaty of Amiens",
+        "Treaty of Ghent",
+        "Treaty of Paris"
       ],
       "answer": "Treaty of Paris",
       "explanation": "The Treaty of Paris (September 3, 1783) was signed between Britain and the United States. Britain recognized American independence and ceded territory east of the Mississippi River. A separate Treaty of Paris also ended the Seven Years' War (1763). It was also the name of the 1856 treaty ending the Crimean War.",
@@ -31,10 +31,10 @@
       "category": "Sports",
       "question": "Which country has won the most FIFA Women's World Cup titles with four championships (1991, 1999, 2015, 2019)?",
       "options": [
-        "Germany",
-        "United States",
         "Norway",
-        "Japan"
+        "Japan",
+        "United States",
+        "Germany"
       ],
       "answer": "United States",
       "explanation": "The U.S. Women's National Team (USWNT) is the most successful women's soccer program in history. Mia Hamm was the star of the 1999 victory (played in the US and drew record crowds). Megan Rapinoe was the 2019 Golden Ball winner. The team has also dominated the Olympics.",
@@ -44,10 +44,10 @@
       "category": "Pop Culture",
       "question": "Which 1993 Steven Spielberg film, depicting the Holocaust through the story of German industrialist Oskar Schindler, won seven Academy Awards including Best Picture?",
       "options": [
-        "The Pianist",
         "Life is Beautiful",
-        "Schindler's List",
-        "Sophie's Choice"
+        "The Pianist",
+        "Sophie's Choice",
+        "Schindler's List"
       ],
       "answer": "Schindler's List",
       "explanation": "Schindler's List was filmed in black and white (except for the famous red coat of a girl). Schindler (played by Liam Neeson) saved approximately 1,200 Jewish workers by employing them in his factory. Spielberg donated his profits to Holocaust education. The actual list of Schindler's workers is preserved.",
@@ -57,9 +57,9 @@
       "category": "Geography",
       "question": "The Arabian Peninsula is the world's largest peninsula. Which country occupies most of it by area?",
       "options": [
-        "Oman",
         "Saudi Arabia",
         "Yemen",
+        "Oman",
         "UAE"
       ],
       "answer": "Saudi Arabia",
@@ -70,10 +70,10 @@
       "category": "History",
       "question": "The Meiji Restoration transformed Japan in the 19th century, but what significant event in 1853 forced Japan to open its ports after 200+ years of isolation?",
       "options": [
+        "A volcanic eruption destroying Nagasaki",
         "The British occupation of Tokyo",
         "Arrival of U.S. Navy Commodore Perry's 'Black Ships'",
-        "The First Sino-Japanese War",
-        "A volcanic eruption destroying Nagasaki"
+        "The First Sino-Japanese War"
       ],
       "answer": "Arrival of U.S. Navy Commodore Perry's 'Black Ships'",
       "explanation": "In July 1853, U.S. Navy Commodore Matthew Perry arrived in Tokyo Bay with four steam-powered warships (called 'black ships' by Japanese due to their black hulls and smoke). He demanded trade rights. Japan, unable to resist militarily, signed the Convention of Kanagawa (1854), ending its sakoku (isolation) period.",
@@ -83,10 +83,10 @@
       "category": "Pop Culture",
       "question": "Which science fiction television franchise, beginning with the original series in 1966, has spawned more spin-off series than any other TV show?",
       "options": [
+        "Star Trek",
         "Doctor Who",
         "Battlestar Galactica",
-        "Star Wars",
-        "Star Trek"
+        "Star Wars"
       ],
       "answer": "Star Trek",
       "explanation": "Star Trek began with Gene Roddenberry's original series (1966-69) starring William Shatner and Leonard Nimoy. As of 2024, it has spawned over 10 series including The Next Generation, Deep Space Nine, Voyager, Enterprise, Discovery, Picard, Strange New Worlds, and animated series. The franchise has over $4 billion in merchandise sales.",
@@ -96,10 +96,10 @@
       "category": "Science & Nature",
       "question": "Which organ in the human body produces insulin, a hormone that regulates blood glucose levels?",
       "options": [
+        "Adrenal gland",
         "Pancreas",
         "Liver",
-        "Thyroid",
-        "Adrenal gland"
+        "Thyroid"
       ],
       "answer": "Pancreas",
       "explanation": "The pancreas has two functions: exocrine (digestive enzymes into the small intestine) and endocrine (hormones into the blood). Beta cells in the islets of Langerhans produce insulin, which lowers blood glucose; alpha cells produce glucagon, which raises it. Type 1 diabetes results from destruction of beta cells; Type 2 from insulin resistance.",
@@ -109,10 +109,10 @@
       "category": "Geography",
       "question": "Which autonomous region of China, home to the Potala Palace and the Dalai Lama's historical seat of government, sits on the world's highest plateau?",
       "options": [
-        "Xinjiang",
-        "Tibet",
+        "Inner Mongolia",
         "Yunnan",
-        "Inner Mongolia"
+        "Xinjiang",
+        "Tibet"
       ],
       "answer": "Tibet",
       "explanation": "Tibet (officially the Tibet Autonomous Region) has an average elevation of 4,500 meters — earning it the nickname 'Roof of the World.' The Potala Palace in Lhasa was the Dalai Lama's winter residence until China's 1959 invasion forced him into exile in India. Major rivers including the Yangtze, Mekong, and Brahmaputra originate on the Tibetan Plateau.",
@@ -122,9 +122,9 @@
       "category": "History",
       "question": "Which French emperor's military campaigns created a vast European empire but ended in defeat at Waterloo in 1815, following his failed invasion of Russia in 1812?",
       "options": [
-        "Charlemagne",
-        "Charles V",
         "Napoleon Bonaparte",
+        "Charles V",
+        "Charlemagne",
         "Louis XIV"
       ],
       "answer": "Napoleon Bonaparte",
@@ -135,9 +135,9 @@
       "category": "Pop Culture",
       "question": "Which Jamaican musician, known as the 'King of Reggae,' popularized reggae music worldwide with songs like 'No Woman, No Cry' and 'Redemption Song'?",
       "options": [
-        "Toots Hibbert",
-        "Bob Marley",
         "Jimmy Cliff",
+        "Bob Marley",
+        "Toots Hibbert",
         "Burning Spear"
       ],
       "answer": "Bob Marley",
@@ -149,9 +149,9 @@
       "question": "In the NBA, teams must attempt a field goal within how many seconds of gaining possession — a rule introduced in 1954 to prevent teams from stalling?",
       "options": [
         "30 seconds",
+        "14 seconds",
         "24 seconds",
-        "45 seconds",
-        "14 seconds"
+        "45 seconds"
       ],
       "answer": "24 seconds",
       "explanation": "The NBA shot clock gives teams 24 seconds to attempt a field goal after gaining possession. Introduced in 1954 by Syracuse Nationals owner Danny Biasone, he calculated the number by dividing 48 minutes (game length in seconds: 2,880) by 120 (average shots in a game), arriving at 24. Before the shot clock, teams would stall for entire games, leading to extremely low-scoring contests. The rule transformed basketball into the fast-paced sport it is today. The NCAA uses 30 seconds.",

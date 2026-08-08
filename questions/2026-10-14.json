@@ -5,8 +5,8 @@
       "category": "History",
       "question": "The Berlin Wall was built in 1961 to separate East and West Berlin. Why did East Germany build it?",
       "options": [
-        "To protect East Germany from Western military invasion",
         "To establish a clear Cold War boundary agreed upon by all four powers",
+        "To protect East Germany from Western military invasion",
         "To separate a disputed territory following WWII",
         "To stop the massive flow of East Germans emigrating to the West through Berlin"
       ],
@@ -18,10 +18,10 @@
       "category": "History",
       "question": "The Space Race between the US and USSR saw many firsts. Which Soviet cosmonaut became the first human in space in April 1961?",
       "options": [
-        "Yuri Gagarin",
         "Buzz Aldrin",
+        "Alan Shepard",
         "Valentina Tereshkova",
-        "Alan Shepard"
+        "Yuri Gagarin"
       ],
       "answer": "Yuri Gagarin",
       "explanation": "Yuri Gagarin orbited Earth once on April 12, 1961, in Vostok 1 — a 108-minute flight that made him the first human in space. His mission preceded John Glenn's first American orbital flight by nearly a year (February 1962). The USSR also sent the first animal (Laika the dog, 1957), first woman (Valentina Tereshkova, 1963), and conducted the first spacewalk (Alexei Leonov, 1965). Gagarin died in a training jet crash in 1968, age 34.",
@@ -45,8 +45,8 @@
       "question": "Michael Jordan led the Chicago Bulls to 6 NBA Championships in the 1990s. In his championship seasons, Jordan's win record in Finals games was extraordinary. How many Finals games did he win vs. lose?",
       "options": [
         "Won 24, lost 6",
-        "Won 18, lost 12",
         "Won 24, lost 0 (perfect record)",
+        "Won 18, lost 12",
         "Won 21, lost 15"
       ],
       "answer": "Won 24, lost 6",
@@ -57,10 +57,10 @@
       "category": "Sports",
       "question": "The Ironman Triathlon consists of three events back to back without rest. What are the three disciplines and distances?",
       "options": [
-        "1km swim, 50km bike, 21km run",
         "2.4-mile swim, 112-mile bike, 26.2-mile run (marathon)",
         "3km swim, 180km bike, 42km run",
-        "1.5km swim, 40km bike, 10km run"
+        "1.5km swim, 40km bike, 10km run",
+        "1km swim, 50km bike, 21km run"
       ],
       "answer": "2.4-mile swim, 112-mile bike, 26.2-mile run (marathon)",
       "explanation": "The Ironman Triathlon (originated in Hawaii in 1978) consists of a 2.4-mile (3.86 km) open-water swim, a 112-mile (180.2 km) bike ride, and a 26.2-mile (42.2 km) marathon run — completed consecutively in a single day. Top athletes finish in about 8 hours; the cutoff is 17 hours. The race was inspired by a debate about which athletes — swimmers, cyclists, or runners — were the fittest.",
@@ -70,9 +70,9 @@
       "category": "Pop Culture",
       "question": "The film 'Schindler's List' (1993) directed by Steven Spielberg depicts Oscar Schindler saving Jewish workers during the Holocaust. On which true story is it based?",
       "options": [
-        "The true story of Oskar Schindler, a German industrialist who saved over 1,200 Jews by employing them in his factories",
         "A fictional composite based on multiple Holocaust rescuers",
         "A story invented by author Thomas Keneally for dramatic purposes",
+        "The true story of Oskar Schindler, a German industrialist who saved over 1,200 Jews by employing them in his factories",
         "A Polish underground resistance operation"
       ],
       "answer": "The true story of Oskar Schindler, a German industrialist who saved over 1,200 Jews by employing them in his factories",
@@ -84,9 +84,9 @@
       "question": "Salvador Dalí was a leading figure in which art movement known for depicting dreamlike and irrational imagery?",
       "options": [
         "Impressionism",
-        "Surrealism",
+        "Cubism",
         "Abstract Expressionism",
-        "Cubism"
+        "Surrealism"
       ],
       "answer": "Surrealism",
       "explanation": "Surrealism, founded by André Breton in 1924, aimed to unlock the unconscious mind by depicting dream imagery, irrational combinations, and the bizarre. Dalí's most famous works include 'The Persistence of Memory' (1931) with its melting clocks and 'The Elephants' with their impossibly long legs. Dalí collaborated with filmmaker Luis Buñuel on dreamlike short films and designed the logo for Chupa Chups lollipops. He was famously eccentric, describing himself as the 'only difference between me and a madman' as 'I am not mad.'",
@@ -97,8 +97,8 @@
       "question": "Which 1994 Disney film tells the story of Simba the lion and is based on Shakespeare's Hamlet?",
       "options": [
         "Bambi",
-        "Aladdin",
         "The Lion King",
+        "Aladdin",
         "The Jungle Book"
       ],
       "answer": "The Lion King",
@@ -109,10 +109,10 @@
       "category": "Geography",
       "question": "The Mozambique Channel separates Madagascar from Mozambique. The Comoros Islands sit within this channel and form an independent nation. How many islands make up the Comoros?",
       "options": [
-        "7 islands",
         "4 main islands — 3 forming the nation, 1 (Mayotte) remaining French territory",
-        "2 main islands",
-        "12 islands"
+        "7 islands",
+        "12 islands",
+        "2 main islands"
       ],
       "answer": "4 main islands — 3 forming the nation, 1 (Mayotte) remaining French territory",
       "explanation": "The Comoros Archipelago consists of four main islands: Grande Comore (Ngazidja), Mohéli (Mwali), Anjouan (Nzwani), and Mayotte (Maore). Three islands form the independent Union of the Comoros; Mayotte voted in referendums to remain a French territory and officially became a French département in 2011. The Comoros is one of the world's poorest nations and has experienced over 20 coups or coup attempts since independence in 1975.",
@@ -122,10 +122,10 @@
       "category": "Geography",
       "question": "The Appalachian Trail, one of the longest hiking trails in the world, runs from Georgia to Maine. Approximately how long is it?",
       "options": [
+        "3,500 miles",
         "2,200 miles",
         "1,100 miles",
-        "4,800 miles",
-        "3,500 miles"
+        "4,800 miles"
       ],
       "answer": "2,200 miles",
       "explanation": "The Appalachian Trail runs approximately 2,189 miles (3,523 km) from Springer Mountain, Georgia to Mount Katahdin, Maine. Completed in 1937, it passes through 14 states. About 3 million people hike part of it annually, but only about 3,000 'thru-hikers' attempt the full trail each year, typically taking 5-7 months. The trail was the inspiration for the Pacific Crest Trail (California to Washington) and the Continental Divide Trail.",
@@ -136,9 +136,9 @@
       "question": "Alan Guth's cosmic inflation (1980) proposes the universe ballooned in the first instant after the Big Bang. What problem does it solve?",
       "options": [
         "Why the microwave background is uniform and space is flat",
-        "Nothing; dark energy disproved it and Guth retracted",
+        "Why the universe didn't recollapse in its first microsecond",
         "Why galaxies formed at all from quantum fluctuations",
-        "Why the universe didn't recollapse in its first microsecond"
+        "Nothing; dark energy disproved it and Guth retracted"
       ],
       "answer": "Why the microwave background is uniform and space is flat",
       "explanation": "The CMB temperature is the same (2.725 K) in every direction to one part in 100,000 — even in regions of the sky so far apart they could never have been in contact with each other given the speed of light. This 'horizon problem' is solved if the entire observable universe expanded from an extremely small region that had time to reach thermal equilibrium before inflating. Inflation also explains why the universe's geometry is 'flat' (Euclidean). Quantum fluctuations stretched by inflation became the density variations that seeded galaxies. Some versions of inflation predict a multiverse — infinitely many bubble universes.",
@@ -149,8 +149,8 @@
       "question": "51 Pegasi b (1995) was the first planet found orbiting a Sun-like star. Why did it break planetary formation theory?",
       "options": [
         "At 300 Jupiter masses it sat near the fusion threshold",
-        "It had no atmosphere despite hugging its star",
         "A gas giant orbiting in 4.2 days, closer than Mercury",
+        "It had no atmosphere despite hugging its star",
         "It orbited backwards, against its star's rotation"
       ],
       "answer": "A gas giant orbiting in 4.2 days, closer than Mercury",

@@ -30,10 +30,10 @@
       "category": "Sports",
       "question": "In American football, how many points is a field goal worth?",
       "options": [
-        "6",
         "3",
-        "2",
-        "1"
+        "1",
+        "6",
+        "2"
       ],
       "answer": "3",
       "explanation": "A field goal in American football is worth 3 points. It is scored by kicking the ball through the upright goalposts. The longest successful field goal in NFL history was 66 yards, kicked by Justin Tucker of the Baltimore Ravens in 2021.",
@@ -43,9 +43,9 @@
       "category": "Sports",
       "question": "The Olympic torch relay tradition, where a flame is carried from Greece to the host city, was introduced at which Olympic Games?",
       "options": [
-        "London 1948",
-        "Paris 1924",
         "Rome 1960",
+        "Paris 1924",
+        "London 1948",
         "Berlin 1936"
       ],
       "answer": "Berlin 1936",
@@ -56,8 +56,8 @@
       "category": "Pop Culture",
       "question": "Black Mirror (Channel 4/Netflix, 2011–present), created by Charlie Brooker, is a landmark anthology series. What unifies its episodes and what cultural anxiety does it explore?",
       "options": [
-        "Each standalone episode imagines the dark, unintended consequences of near-future technology — social media, surveillance, virtual reality — to explore how technology amplifies human flaws",
         "The series is a direct critique of television itself — each episode satirizes a different TV genre to expose how screen culture shapes thought",
+        "Each standalone episode imagines the dark, unintended consequences of near-future technology — social media, surveillance, virtual reality — to explore how technology amplifies human flaws",
         "Each episode is set in a post-apocalyptic future 200 years from now, exploring how humanity might survive civilizational collapse through different social experiments",
         "Each episode takes place in an alternate history where one technology (nuclear power, computing, air travel) was never invented, examining how its absence changed society"
       ],
@@ -69,8 +69,8 @@
       "category": "Pop Culture",
       "question": "Johannes Vermeer's 'Girl with a Pearl Earring' (c. 1665) is often called the 'Mona Lisa of the North.' What is distinctive about Vermeer's technical mastery and his mystery?",
       "options": [
-        "Vermeer painted more than 300 known works but signed only 12, leading historians to believe most of his output was sold under other artists' names",
         "Vermeer's secret technique involved painting with powdered lapis lazuli dissolved in egg white, producing the distinctive blue that appears in nearly all his works",
+        "Vermeer painted more than 300 known works but signed only 12, leading historians to believe most of his output was sold under other artists' names",
         "Vermeer created astonishingly detailed interior scenes with exquisite light by likely using a camera obscura as a drawing aid — and we know almost nothing about his life despite his greatness",
         "Vermeer was totally unknown in his lifetime and died in poverty, with all 34 known works discovered in a Amsterdam attic in 1868"
       ],
@@ -95,10 +95,10 @@
       "category": "History",
       "question": "The Holocaust was the systematic genocide of which group, among others?",
       "options": [
-        "Only political prisoners",
         "Only Romani people",
-        "Jewish people and other targeted groups",
-        "Only LGBTQ+ individuals"
+        "Only LGBTQ+ individuals",
+        "Only political prisoners",
+        "Jewish people and other targeted groups"
       ],
       "answer": "Jewish people and other targeted groups",
       "explanation": "The Holocaust was the systematic, state-sponsored persecution and murder of six million Jewish people by the Nazi regime and its collaborators. Other targeted groups included Roma, people with disabilities, LGBTQ+ individuals, political opponents, and Jehovah's Witnesses. In total, an estimated 11 million people were killed.",
@@ -109,8 +109,8 @@
       "question": "Which river flows through the most countries in Europe?",
       "options": [
         "Volga",
-        "Rhine",
         "Seine",
+        "Rhine",
         "Danube"
       ],
       "answer": "Danube",
@@ -121,10 +121,10 @@
       "category": "Science & Nature",
       "question": "How many elements are currently on the periodic table?",
       "options": [
-        "92",
+        "126",
         "118",
-        "104",
-        "126"
+        "92",
+        "104"
       ],
       "answer": "118",
       "explanation": "The periodic table currently contains 118 confirmed elements. Elements 1-94 (hydrogen through plutonium) occur naturally on Earth; elements 95-118 are synthetic and were created in laboratories. Element 118, Oganesson, was first synthesized in 2002 and is so unstable it only exists for milliseconds.",
@@ -134,10 +134,10 @@
       "category": "Geography",
       "question": "The Great Salt Lake in Utah is the largest saltwater lake in the Western Hemisphere. What unique feature makes it impossible for most fish to survive in it?",
       "options": [
-        "Its salinity is 3-8 times saltier than the ocean",
         "It is too cold year-round",
+        "It contains toxic minerals",
         "It is too deep for sunlight",
-        "It contains toxic minerals"
+        "Its salinity is 3-8 times saltier than the ocean"
       ],
       "answer": "Its salinity is 3-8 times saltier than the ocean",
       "explanation": "The Great Salt Lake has a salinity of roughly 5-27% (the ocean is 3.5%), varying by location and water level. This extreme saltiness means almost no fish can survive — only brine shrimp and brine flies thrive there, which support millions of migratory birds. The lake has no outlet; water only leaves by evaporation, concentrating minerals. It has been shrinking significantly due to irrigation diversions and climate change, exposing toxic dust on the lakebed.",
@@ -147,10 +147,10 @@
       "category": "Science & Nature",
       "question": "Which environmental problem, caused by chlorofluorocarbons (CFCs) used in aerosols and refrigerants, has led to the thinning of a protective atmospheric layer?",
       "options": [
-        "Ozone depletion",
-        "Smog formation",
+        "Global warming",
         "Acid rain",
-        "Global warming"
+        "Ozone depletion",
+        "Smog formation"
       ],
       "answer": "Ozone depletion",
       "explanation": "Ozone depletion refers to the thinning of the stratospheric ozone layer caused primarily by chlorofluorocarbons (CFCs) — chemicals formerly used in aerosol sprays, refrigerators, and air conditioners. When CFCs reach the stratosphere, UV radiation breaks them down, releasing chlorine atoms that destroy ozone molecules catalytically. The Antarctic ozone 'hole' was discovered in 1985. The 1987 Montreal Protocol successfully phased out most CFC production, and the ozone layer is gradually recovering.",

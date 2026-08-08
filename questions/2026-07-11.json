@@ -4,10 +4,10 @@
       "category": "History",
       "question": "The 'Great Wall of China' was primarily built to protect against invasions from which direction?",
       "options": [
-        "East",
-        "South",
         "North",
-        "West"
+        "South",
+        "West",
+        "East"
       ],
       "answer": "North",
       "explanation": "The Great Wall of China was built along the northern border of China to protect against invasions from nomadic peoples of the Eurasian Steppe, primarily the Mongols and Xiongnu. It stretches over 13,000 miles and was built over many centuries beginning in the 7th century BC.",
@@ -17,9 +17,9 @@
       "category": "History",
       "question": "Who was the last emperor of China?",
       "options": [
+        "Puyi",
         "Guangxu",
         "Tongzhi",
-        "Puyi",
         "Qianlong"
       ],
       "answer": "Puyi",
@@ -32,8 +32,8 @@
       "options": [
         "2",
         "6",
-        "4",
-        "8"
+        "8",
+        "4"
       ],
       "answer": "4",
       "explanation": "A polo team consists of four mounted players. Each player is assigned a position number (1 through 4), with Number 1 being the most offensive player and Number 4 (or 'back') being the most defensive. Games consist of 'chukkers' (periods), typically four to eight per match.",
@@ -43,10 +43,10 @@
       "category": "Sports",
       "question": "Which player has scored the most points in NBA history?",
       "options": [
-        "LeBron James",
-        "Michael Jordan",
         "Karl Malone",
-        "Kareem Abdul-Jabbar"
+        "Kareem Abdul-Jabbar",
+        "LeBron James",
+        "Michael Jordan"
       ],
       "answer": "LeBron James",
       "explanation": "LeBron James surpassed Kareem Abdul-Jabbar's previous all-time scoring record of 38,387 points on February 7, 2023. LeBron continued playing and is still adding to his total. Kareem held the record for 39 years after surpassing Oscar Robertson's mark.",
@@ -56,10 +56,10 @@
       "category": "Pop Culture",
       "question": "Which film first introduced the character of Darth Vader?",
       "options": [
+        "Revenge of the Sith",
         "Return of the Jedi",
         "A New Hope",
-        "The Empire Strikes Back",
-        "Revenge of the Sith"
+        "The Empire Strikes Back"
       ],
       "answer": "A New Hope",
       "explanation": "Darth Vader first appeared in Star Wars: Episode IV — A New Hope (1977). The character was voiced by James Earl Jones and physically portrayed by David Prowse. Vader's reveal as Luke Skywalker's father didn't come until The Empire Strikes Back (1980).",
@@ -70,9 +70,9 @@
       "question": "Who sang 'Rolling in the Deep' and '21'?",
       "options": [
         "Lorde",
-        "Adele",
         "Amy Winehouse",
-        "Taylor Swift"
+        "Taylor Swift",
+        "Adele"
       ],
       "answer": "Adele",
       "explanation": "'Rolling in the Deep' is from Adele's second studio album '21' (2011). The album spent 24 non-consecutive weeks at number one in the US and 23 weeks in the UK, one of the longest-running number-one albums in chart history. Adele won six Grammy Awards at the 2012 ceremony for the album.",
@@ -82,10 +82,10 @@
       "category": "Pop Culture",
       "question": "Which animated studio produced 'Toy Story' and 'Finding Nemo'?",
       "options": [
-        "Pixar",
         "Disney",
+        "Warner Bros.",
         "DreamWorks",
-        "Warner Bros."
+        "Pixar"
       ],
       "answer": "Pixar",
       "explanation": "Toy Story (1995) and Finding Nemo (2003) were both produced by Pixar Animation Studios. Toy Story was the first fully computer-animated feature film. Pixar was acquired by Disney in 2006. Both films spawned sequels and are considered classics of animation.",
@@ -95,9 +95,9 @@
       "category": "History",
       "question": "What year did the Space Shuttle Challenger disaster occur?",
       "options": [
-        "1990",
-        "1986",
         "1996",
+        "1986",
+        "1990",
         "1982"
       ],
       "answer": "1986",
@@ -109,8 +109,8 @@
       "question": "Russia spans how many time zones?",
       "options": [
         "11",
-        "9",
         "7",
+        "9",
         "13"
       ],
       "answer": "11",
@@ -121,10 +121,10 @@
       "category": "Science & Nature",
       "question": "NASA's Voyager 1 spacecraft, launched in 1977, made history in 2012. What did it achieve that no human-made object had ever done before?",
       "options": [
-        "Voyager 1 made the first confirmed detection of a planet orbiting another star, discovering what is now classified as the first confirmed exoplanet from deep space observation",
+        "Voyager 1 became the first spacecraft to successfully orbit the Sun outside the Kuiper Belt, establishing a new category of 'interplanetary observer' missions",
         "Voyager 1 crossed the heliopause — the boundary where the Sun's solar wind gives way to interstellar space — becoming the first human-made object to leave the solar system and enter interstellar space",
         "Voyager 1 transmitted the first-ever direct photograph of the Sun's corona taken from outside the solar system, proving the corona extends far further than scientists believed",
-        "Voyager 1 became the first spacecraft to successfully orbit the Sun outside the Kuiper Belt, establishing a new category of 'interplanetary observer' missions"
+        "Voyager 1 made the first confirmed detection of a planet orbiting another star, discovering what is now classified as the first confirmed exoplanet from deep space observation"
       ],
       "answer": "Voyager 1 crossed the heliopause — the boundary where the Sun's solar wind gives way to interstellar space — becoming the first human-made object to leave the solar system and enter interstellar space",
       "explanation": "The heliopause marks where the Sun's solar wind is no longer strong enough to push back the interstellar medium — the thin gas and particles between star systems. Voyager 1 crossed it in August 2012, confirmed by changes in particle density measurements. It currently travels about 3.6 AU per year and is now approximately 165 AU from the Sun (one AU = Earth-Sun distance). At the speed of light, a signal from Voyager 1 takes over 22 hours to reach Earth. Both Voyager spacecraft carry golden records with sounds and images of Earth — selected by a committee chaired by Carl Sagan.",
@@ -136,8 +136,8 @@
       "options": [
         "Victoria Falls",
         "Iguazu Falls",
-        "Angel Falls",
-        "Niagara Falls"
+        "Niagara Falls",
+        "Angel Falls"
       ],
       "answer": "Niagara Falls",
       "explanation": "Niagara Falls consists of three waterfalls on the border between Ontario, Canada and New York State: Horseshoe Falls (the largest, on the Canadian side), American Falls, and Bridal Veil Falls. About 2,800 m³ of water flows over them every second. They were formed about 12,000 years ago as glaciers receded. Niagara generates substantial hydroelectric power for both the US and Canada. The falls have been a honeymoon destination since the 19th century.",
@@ -147,10 +147,10 @@
       "category": "Science & Nature",
       "question": "The Fermi Paradox asks: if intelligent life should be common in a universe with 400 billion stars in our galaxy alone, why haven't we detected any evidence of it? What makes it a paradox?",
       "options": [
-        "The paradox is that the universe is too young for life to have evolved elsewhere, since Earth used almost the entire 13.8-billion-year window to produce intelligence, and most planets are too new",
+        "The paradox is between the high statistical probability that intelligent life exists elsewhere — given the number of stars, planets, and billions of years available — and the complete absence of any detected signals, artifacts, or visitors",
         "The paradox is that life is extremely common in the universe but all civilizations inevitably destroy themselves before developing radio technology, leaving only a narrow window for detection",
-        "The paradox is that alien civilizations have been detected but governments have suppressed the evidence — the 'great silence' is political, not astronomical",
-        "The paradox is between the high statistical probability that intelligent life exists elsewhere — given the number of stars, planets, and billions of years available — and the complete absence of any detected signals, artifacts, or visitors"
+        "The paradox is that the universe is too young for life to have evolved elsewhere, since Earth used almost the entire 13.8-billion-year window to produce intelligence, and most planets are too new",
+        "The paradox is that alien civilizations have been detected but governments have suppressed the evidence — the 'great silence' is political, not astronomical"
       ],
       "answer": "The paradox is between the high statistical probability that intelligent life exists elsewhere — given the number of stars, planets, and billions of years available — and the complete absence of any detected signals, artifacts, or visitors",
       "explanation": "Enrico Fermi posed his question at a 1950 lunch: 'Where is everybody?' With 400 billion stars in the Milky Way, billions of Earth-like planets, and billions of years for civilizations to develop and spread, even a single civilization traveling at 1% of light speed could colonize the galaxy in 10–50 million years — less than 1% of the universe's age. Proposed resolutions include: the Great Filter (civilizations typically destroy themselves), the Zoo hypothesis (they're watching us), or the possibility that we're genuinely among the first intelligent life. The Wow! signal (1977) remains the strongest unexplained candidate for an extraterrestrial radio signal.",

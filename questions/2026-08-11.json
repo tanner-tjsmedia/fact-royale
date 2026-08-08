@@ -3,103 +3,103 @@
   "questions": [
     {
       "category": "History",
-      "question": "Which ancient Greek city, home to Socrates, Plato, and the world's first democracy, is often called the birthplace of Western civilization?",
+      "question": "Athenian democracy let citizens vote directly on laws. How were most public officials chosen?",
       "options": [
-        "Thebes",
-        "Sparta",
-        "Athens",
-        "Corinth"
+        "By appointment from the ten elected generals",
+        "By election, with candidates campaigning for votes",
+        "By lottery, on the principle that anyone could serve",
+        "By inheritance within a handful of old families"
       ],
-      "answer": "Athens",
-      "explanation": "Athens, in the region of Attica, was the cultural and intellectual center of ancient Greece. It developed the world's first democratic system under Cleisthenes in 508 BC, produced philosophers like Socrates, Plato, and Aristotle, and built the Parthenon. The city gave its name to the first modern Olympics in 1896.",
-      "memory_hook": "Athens = first democracy, Socrates, Plato, Parthenon. Birthplace of Western thought."
+      "answer": "By lottery, on the principle that anyone could serve",
+      "explanation": "Most Athenian offices were filled by sortition, random selection from eligible citizens, because election was considered aristocratic: it favours the wealthy and well-known. Only roles needing specific expertise, notably the ten generals, were elected. Officials served short terms and faced audit afterward. The system rested on the belief that ordinary citizens were competent to govern, which is close to the opposite of what modern democracies assume.",
+      "memory_hook": "Athens filled most offices by lottery, not election, because they thought voting favoured the rich and famous. Only jobs needing real expertise, like the generals, were elected. Short terms, audits afterward. They assumed ordinary people could govern, which is nearly the reverse of how we do it."
     },
     {
       "category": "History",
-      "question": "The Battle of Stalingrad (1942-1943), one of the deadliest battles in history, resulted in victory for which country?",
+      "question": "Stalingrad (1942-43) is widely called the turning point of the war in Europe. How did the German position collapse?",
       "options": [
-        "Soviet Union",
-        "Italy",
-        "Romania",
-        "Germany"
+        "Allied bombing wiped out the German supply depots",
+        "Mass defections among Romanian and Italian troops",
+        "A Soviet counterattack encircled them from both flanks",
+        "A direct assault on the German headquarters in the city"
       ],
-      "answer": "Soviet Union",
-      "explanation": "The Battle of Stalingrad (August 23, 1942 – February 2, 1943) was the turning point of World War II on the Eastern Front. The Soviet Union encircled and destroyed Germany's 6th Army — over 800,000 Axis troops were killed or captured. Combined with civilian casualties, total deaths may have exceeded 1.5 million. It was the largest and bloodiest battle in military history and began the German retreat from the East.",
-      "memory_hook": "Stalingrad = turning point of WWII in Europe. 1.5 million dead. Germany's 6th Army destroyed. After Stalingrad, Germany never recovered the initiative in the East. The battle lasted over 5 months of brutal urban combat — fighting room by room, floor by floor."
+      "answer": "A Soviet counterattack encircled them from both flanks",
+      "explanation": "Operation Uranus in November 1942 struck the weaker Romanian and Hungarian armies guarding the German flanks rather than the Sixth Army itself, closing a ring around roughly 300,000 men in four days. Hitler forbade a breakout and promised resupply by air, which the Luftwaffe could not deliver. Around 91,000 surrendered in February 1943, and fewer than 6,000 ever came home.",
+      "memory_hook": "The Soviets did not attack the Germans head-on. Operation Uranus hit the weaker Romanian and Hungarian flanks and closed a ring around 300,000 men in four days. Hitler banned a breakout and promised air resupply that never came. 91,000 surrendered; under 6,000 made it home."
     },
     {
       "category": "History",
-      "question": "Which document, signed in 1215, established the principle that the king is subject to the rule of law?",
+      "question": "William the Conqueror ordered the Domesday Book in 1086, twenty years after the conquest. What was it for?",
       "options": [
-        "Bill of Rights",
-        "Domesday Book",
-        "Declaration of Arbroath",
-        "Magna Carta"
+        "A census of Norman nobles and their new titles",
+        "A register of church lands exempt from royal tax",
+        "A legal code replacing Anglo-Saxon common law",
+        "A survey of who owned what, so it could all be taxed"
       ],
-      "answer": "Magna Carta",
-      "explanation": "The Magna Carta ('Great Charter') was sealed by King John of England at Runnymede on June 15, 1215. Forced on him by rebellious barons, it established key legal principles including no imprisonment without trial, the right to due process, and limits on arbitrary royal power. Four of the original 63 clauses survive in English law today. It directly influenced the US Constitution and Bill of Rights.",
-      "memory_hook": "Magna Carta = king under the law. 1215. The barons forced it on King John at swordpoint, essentially. The principle that no one — not even the king — is above the law. Everything from the US Bill of Rights to the UN Declaration of Human Rights traces to this document."
+      "answer": "A survey of who owned what, so it could all be taxed",
+      "explanation": "Commissioners visited every shire recording landholders, tenants, livestock, ploughs and mills, then sent a second team to verify the first. The detail was unprecedented in medieval Europe and it let the Crown tax accurately and settle ownership disputes left over from the conquest. Contemporaries named it Domesday because, like the Last Judgement, its verdict could not be appealed. It remained legally citable in English courts into the twentieth century.",
+      "memory_hook": "Commissioners recorded every landholder, tenant, plough and mill in England, then sent a second team to check the first. It let the Crown tax properly and settle conquest-era ownership fights. People called it Domesday because there was no appealing it, like the Last Judgement. Courts still cited it into the 1900s."
     },
     {
       "category": "Sports",
-      "question": "The 1974 'Rumble in the Jungle' in Kinshasa, Zaire, is considered the greatest boxing match in history. What strategy did Muhammad Ali use to defeat George Foreman?",
+      "question": "Jesse Owens and German long jumper Luz Long competed against each other at the 1936 Berlin Olympics. What happened between them?",
       "options": [
-        "He targeted Foreman's legs with low kicks until Foreman's footwork collapsed, then finished him",
-        "He attacked relentlessly from the opening bell, landing over 200 punches before Foreman tired",
-        "He clinched constantly to neutralize Foreman's power, winning on points after 15 rounds",
-        "He used the 'rope-a-dope' — leaning on the ropes and absorbing Foreman's punches until Foreman exhausted himself, then knocking him out in round 8"
+        "Long was later stripped of his silver for a foul",
+        "Long refused to compete and was arrested that night",
+        "Long advised Owens on his run-up, then lost to him",
+        "Long protested the result and demanded a rematch"
       ],
-      "answer": "He used the 'rope-a-dope' — leaning on the ropes and absorbing Foreman's punches until Foreman exhausted himself, then knocking him out in round 8",
-      "explanation": "Ali invented the 'rope-a-dope' strategy specifically for Foreman, who was the most feared puncher of the era and a heavy favorite. Ali leaned against the ropes, letting his arms take the impact, while Foreman exhausted his power punches. By round 8, Foreman was spent, and Ali knocked him down for the count to reclaim the heavyweight title at age 32. The fight was promoted by Don King and immortalized in the documentary 'When We Were Kings.'",
-      "memory_hook": "Ali let Foreman punch himself out against the ropes for 7 rounds — 'rope-a-dope' — then knocked out the most feared puncher in boxing in round 8 to reclaim the heavyweight title at 32."
+      "answer": "Long advised Owens on his run-up, then lost to him",
+      "explanation": "Owens had fouled twice in qualifying and was close to elimination. Long, his main rival, suggested he move his takeoff mark back to leave margin for error. Owens qualified, went on to win gold, and Long took silver and congratulated him publicly in front of Hitler. They corresponded until Long was killed in Sicily in 1943. Owens later wrote that the friendship meant more to him than the medals.",
+      "memory_hook": "Owens had two fouls in qualifying and was nearly out. Luz Long, the man he was about to beat, told him to move his takeoff mark back. Owens qualified and won gold; Long took silver and congratulated him publicly in front of Hitler. They wrote to each other until Long died in Sicily in 1943."
     },
     {
       "category": "Sports",
-      "question": "The 'Miracle on Ice' refers to the United States ice hockey team's unexpected victory over the Soviet Union at which Olympics?",
+      "question": "The 1904 St Louis Olympic marathon is considered the strangest ever run. What did the eventual winner receive mid-race?",
       "options": [
-        "1984 Sarajevo",
-        "1972 Sapporo",
-        "1976 Innsbruck",
-        "1980 Lake Placid"
+        "A bicycle escort over the final three miles",
+        "A change of shoes and a fresh pair of dry socks",
+        "Strychnine and brandy, given to him by his handlers",
+        "Twenty minutes of rest inside a medical tent"
       ],
-      "answer": "1980 Lake Placid",
-      "explanation": "At the 1980 Winter Olympics in Lake Placid, the US ice hockey team — mostly college students — defeated the heavily favored Soviet Union 4-3 in the semifinal, then beat Finland for the gold medal. The Soviet team had dominated international hockey for decades. Sportscaster Al Michaels' call 'Do you believe in miracles? YES!' became one of the most famous lines in sports broadcasting.",
-      "memory_hook": "Miracle on Ice = 1980, Lake Placid. College kids beat the Soviets. Al Michaels: 'Do you believe in miracles? YES!' The Soviet hockey team was arguably the best team in the world, professional in all but name. The US team was average college players. They won anyway."
+      "answer": "Strychnine and brandy, given to him by his handlers",
+      "explanation": "Thomas Hicks was dosed twice with strychnine sulphate mixed with brandy, then a stimulant in small quantities, and finished hallucinating and barely able to walk. He had to be carried off and nearly died. The first man across the line, Fred Lorz, had ridden eleven miles in a car and was disqualified. Only fourteen of thirty-two starters finished, in dust, heat, and with a single water station on the course.",
+      "memory_hook": "Thomas Hicks was given strychnine and brandy twice by his own handlers, finished hallucinating, and nearly died. The first man to cross had ridden eleven miles in a car and was disqualified. Fourteen of thirty-two finished, in heat and dust, with one water stop on the whole course."
     },
     {
       "category": "Pop Culture",
-      "question": "Which 1986 film starring Tom Cruise about US Navy fighter pilots included the song 'Danger Zone' by Kenny Loggins?",
+      "question": "Top Gun (1986) produced a real-world effect the US Navy had not planned for. What was it?",
       "options": [
-        "Iron Eagle",
-        "Firefox",
-        "Top Gun",
-        "The Right Stuff"
+        "Civilian flight schools reported a sudden pilot shortage",
+        "Navy aviation applications jumped sharply after release",
+        "Recruiters were barred from screening it at events",
+        "Congress cut the Navy's aviation budget in response"
       ],
-      "answer": "Top Gun",
-      "explanation": "Top Gun (1986), directed by Tony Scott and starring Tom Cruise as Maverick, became a cultural phenomenon and helped boost US Navy recruitment by 500%. The soundtrack, including Kenny Loggins' 'Danger Zone' and Berlin's 'Take My Breath Away,' was one of the best-selling of the decade. The sequel, Top Gun: Maverick (2022), became Tom Cruise's highest-grossing film.",
-      "memory_hook": "Top Gun, 1986. Tom Cruise = Maverick. 'Danger Zone.' Navy recruitment jumped 500% after it released. Top Gun: Maverick (2022) was made 36 years later and somehow worked even better. Cruise refused to use CGI for the flight sequences."
+      "answer": "Navy aviation applications jumped sharply after release",
+      "explanation": "Navy aviation recruitment rose steeply after release, and the service had set up recruiting tables in cinema lobbies in advance. The Pentagon had given extensive cooperation, supplying aircraft and carrier access at favourable rates, in exchange for script approval. It became a template: military cooperation on films is now routinely conditional on script input. The real Topgun school had also been founded for an unglamorous reason, to fix poor US air-combat kill ratios over Vietnam.",
+      "memory_hook": "Navy applications spiked, and recruiters had already set up tables in cinema lobbies. The Pentagon supplied jets and carrier access cheaply in return for script approval, which became the template for military film cooperation. The actual Topgun school existed because US kill ratios over Vietnam were bad."
     },
     {
       "category": "Pop Culture",
-      "question": "Which artist, born Steveland Hardaway Morris and blind since shortly after birth, recorded timeless hits including 'Superstition,' 'Isn't She Lovely,' and 'Signed, Sealed, Delivered'?",
+      "question": "Stevie Wonder renegotiated his Motown contract at twenty-one, which almost nobody managed. What did he win?",
       "options": [
-        "Stevie Wonder",
-        "José Feliciano",
-        "Ray Charles",
-        "Andrea Bocelli"
+        "A guaranteed number of singles released every year",
+        "A share of Motown's profits across its whole roster",
+        "Full creative control and ownership of his publishing",
+        "The right to produce records for other Motown artists"
       ],
-      "answer": "Stevie Wonder",
-      "explanation": "Stevie Wonder (born 1950) signed with Motown Records at age 11. He lost his sight due to too much oxygen in his incubator as a premature baby. His 1970s run — 'Talking Book,' 'Innervisions,' 'Fulfillingness' First Finale,' and 'Songs in the Key of Life' — is considered one of the greatest creative streaks in pop history.",
-      "memory_hook": "Stevie Wonder: blind since infancy, Motown at 11, genius of the 70s."
+      "answer": "Full creative control and ownership of his publishing",
+      "explanation": "Motown ran a tightly controlled system where staff writers and producers made the creative decisions. Wonder let his contract lapse on his twenty-first birthday, funded independent recordings himself, and returned holding the masters, forcing Berry Gordy to concede artistic control and publishing rights. What followed was Music of My Mind, Talking Book, Innervisions and Songs in the Key of Life, one of the strongest runs in recorded music.",
+      "memory_hook": "Motown normally decided everything. Wonder let his contract lapse at twenty-one, paid for his own recordings, then came back holding the tapes and made Gordy give him creative control and his publishing. Music of My Mind, Talking Book, Innervisions and Songs in the Key of Life followed."
     },
     {
       "category": "Pop Culture",
       "question": "Michelangelo spent four years on the Sistine Chapel ceiling (1508-1512). What's the popular myth about how he painted it?",
       "options": [
-        "He lay on his back on a specially built curved bed",
-        "He stood on scaffolding craning his neck, not lying down",
         "He used a projector he invented to scale up the designs",
-        "He worked 18 months without a break, in total isolation"
+        "He worked 18 months without a break, in total isolation",
+        "He stood on scaffolding craning his neck, not lying down",
+        "He lay on his back on a specially built curved bed"
       ],
       "answer": "He stood on scaffolding craning his neck, not lying down",
       "explanation": "The 'lying on his back' story comes largely from film and popular retelling. Michelangelo designed his own wooden scaffolding system — a flat platform suspended near the ceiling rather than the arch-based system the Pope's architect suggested. He stood on it and bent backward, working in wet plaster (true fresco) section by section. He wrote a sonnet complaining about his aching neck, curved spine, and deteriorating eyesight. He painted nearly all 5,000 square feet with minimal assistants — mainly for grinding pigments and plastering. The ceiling includes 300+ figures and nine central scenes from Genesis including the iconic Creation of Adam.",
@@ -107,55 +107,62 @@
     },
     {
       "category": "Geography",
-      "question": "The Sahara is Earth's largest hot desert. What is the world's largest cold desert, covering an entire continent?",
+      "question": "Antarctica counts as a desert even though it holds most of the planet's fresh water. What qualifies it?",
       "options": [
-        "Gobi Desert",
-        "Antarctic Desert",
-        "Patagonian Desert",
-        "Arctic Desert"
+        "Its surface has no soil that could support plants",
+        "Deserts are defined by temperature, not rainfall",
+        "Its water is locked as ice and so does not count",
+        "It gets less precipitation than the Sahara does"
       ],
-      "answer": "Antarctic Desert",
-      "explanation": "Antarctica is the world's largest desert at about 14.2 million square kilometers, receiving very little precipitation. The Sahara (9.2 million km²) is the largest hot desert. Deserts are classified by precipitation, not temperature — the Gobi and Patagonian deserts are also cold deserts, but much smaller than Antarctica.",
-      "memory_hook": "Largest desert: Antarctica (cold). Largest hot desert: Sahara."
+      "answer": "It gets less precipitation than the Sahara does",
+      "explanation": "A desert is defined by precipitation, not heat: under roughly 250mm a year. The Antarctic interior receives about 50mm, less than the Sahara, and the McMurdo Dry Valleys may have had no rain for two million years. The ice sheet is thick because almost nothing melts, so tiny annual snowfalls accumulate over hundreds of thousands of years. Antarctica is the largest desert on Earth by area.",
+      "memory_hook": "Deserts are about rainfall, not heat. The Antarctic interior gets around 50mm a year, less than the Sahara, and the Dry Valleys may not have seen rain in two million years. The ice is thick because nothing melts, so tiny snowfalls pile up over millennia. It is the biggest desert on Earth."
     },
     {
       "category": "Science & Nature",
-      "question": "What is the term for an atom that has gained or lost electrons, giving it a net electric charge?",
+      "question": "Table salt dissolves in water because it is held together by ionic bonds. What is an ion?",
       "options": [
-        "Neutron",
-        "Proton",
-        "Isotope",
-        "Ion"
+        "An atom whose nucleus has started to decay",
+        "An atom that has gained or lost electrons, so it has charge",
+        "Two atoms sharing a pair of electrons between them",
+        "An atom that has gained or lost neutrons, changing its mass"
       ],
-      "answer": "Ion",
-      "explanation": "An ion is an atom (or molecule) that has gained or lost one or more electrons, giving it a net positive (cation) or negative (anion) electric charge. Table salt (NaCl) forms when sodium loses an electron (becoming Na+) and chlorine gains one (becoming Cl-). Ions are fundamental to chemistry, biology, and physics — from battery function to how nerve cells fire.",
-      "memory_hook": "Ion = atom with a charge. Lose electrons = positive ion (cation). Gain electrons = negative ion (anion). Salt is sodium and chloride ions. Your neurons fire by rapidly exchanging sodium and potassium ions across cell membranes. Your thoughts are electricity made of ions."
+      "answer": "An atom that has gained or lost electrons, so it has charge",
+      "explanation": "Sodium gives up an electron and becomes positive; chlorine takes one and becomes negative; the opposite charges hold the crystal together. Water molecules are polar, with slightly charged ends, so they surround and pull the ions apart, which is what dissolving is. Ions in solution conduct electricity, which is why salt water conducts and pure water barely does, and why nerves and muscles depend on ion movement.",
+      "memory_hook": "Sodium loses an electron and goes positive, chlorine gains one and goes negative, and the attraction holds salt together. Water is polar, so it surrounds the ions and pulls them apart. Free ions carry current, which is why salt water conducts and why your nerves need them."
     },
     {
       "category": "Geography",
-      "question": "Socotra Island, described by scientists as the 'Galápagos of the Indian Ocean,' is a territory of which country and is famous for its alien-looking dragon blood trees?",
+      "question": "About a third of Socotra's plant species exist nowhere else on Earth. What explains that?",
       "options": [
-        "Yemen",
-        "Saudi Arabia",
-        "Oman",
-        "Ethiopia"
+        "Medieval traders deliberately planted the species there",
+        "It split from the mainland roughly 20 million years ago",
+        "Monsoon winds cut it off for half of every year",
+        "Its soil chemistry kills off most introduced species"
       ],
-      "answer": "Yemen",
-      "explanation": "Socotra is an archipelago in the Indian Ocean belonging to Yemen, located off the Horn of Africa. About 37% of its plant species exist nowhere else on Earth, including the dragon blood tree (Dracaena cinnabari) — an umbrella-shaped tree that bleeds dark red resin when cut. Its extreme isolation (separated from the Arabian mainland for 18 million years) created an extraordinary level of endemic species. The island faces threats from climate change, invasive species, and the Yemeni Civil War.",
-      "memory_hook": "Socotra: Yemeni island, 'Galápagos of the Indian Ocean.' Isolated for 18 million years — 37% of plants found nowhere else. Dragon blood tree: umbrella-shaped, bleeds red resin. One of the most alien-looking landscapes on Earth. The Yemeni civil war has made conservation nearly impossible."
+      "answer": "It split from the mainland roughly 20 million years ago",
+      "explanation": "Socotra separated from the Arabian mainland roughly 20 million years ago and its flora evolved in isolation, producing the dragon blood tree with its inverted-umbrella crown and the bulbous desert rose. About 37% of its 830 vascular plant species are endemic, a higher rate than the Galapagos at around 30%. The island is arid and was never intensively farmed, so much survived. Goats, road building and conflict in Yemen now threaten it.",
+      "memory_hook": "Socotra broke off the Arabian mainland about 20 million years ago and its plants evolved alone, which is where the dragon blood tree and the bottle-trunk desert rose came from. Around 37% of its 830 plant species exist nowhere else, beating the Galapagos at roughly 30%. Goats and Yemen's war are the current threat.",
+      "sources": [
+        {
+          "claim": "37% of Socotra's 830 vascular plant species endemic; Galapagos ~30%",
+          "source": "https://www.bradtguides.com/socotra-endemic-plants/",
+          "checked": "2026-08-08"
+        }
+      ]
     },
     {
       "category": "Science & Nature",
-      "question": "What is the term for different physical forms of the same chemical element — such as graphite and diamond, which are both pure carbon?",
+      "question": "Diamond and graphite are both pure carbon, yet one is the hardest natural substance and the other flakes apart in your fingers. Why?",
       "options": [
-        "Isomers",
-        "Isotopes",
-        "Allotropes",
-        "Polymorphs"
+        "The atoms are bonded in completely different arrangements",
+        "Diamond contains trace nitrogen that hardens the structure",
+        "Graphite is carbon mixed with a small amount of clay",
+        "Diamond forms under pressure and graphite under heat"
       ],
-      "answer": "Allotropes",
-      "explanation": "Allotropes are different structural forms of the same element, with different bonding arrangements. Carbon's allotropes include: diamond (each carbon bonded to 4 others in a tetrahedral lattice — extremely hard), graphite (carbon in flat hexagonal layers — soft, conducts electricity), graphene (single layer of graphite — strongest material known), and buckminsterfullerene (carbon 'buckyball' — soccer-ball shaped). Oxygen's allotropes include O₂ (breathable air) and O₃ (ozone). Phosphorus has white, red, and black allotropes.",
-      "memory_hook": "Allotropes: same element, different structure, completely different properties. Diamond and graphite are both pure carbon — one is the hardest natural material, the other writes on paper. Graphene (single graphite layer) is stronger than steel. Oxygen gas (O₂) and ozone (O₃) are oxygen allotropes. Structure determines everything."
+      "answer": "The atoms are bonded in completely different arrangements",
+      "explanation": "In diamond every carbon atom bonds to four others in a rigid three-dimensional lattice, so there is no easy plane along which it can fail. Graphite bonds each atom to three others in flat sheets, with only weak forces between sheets, so the layers slide, which is why pencils work and why graphite lubricates. Same element, different geometry, opposite properties. Graphite is actually the more stable form at room temperature, so diamonds are very slowly turning into it.",
+      "memory_hook": "Diamond bonds each carbon to four neighbours in a rigid 3D lattice with no weak plane. Graphite bonds three, making flat sheets held together loosely, so the layers slide, which is how pencils write. Same atom, different geometry. Graphite is the stabler form, so diamonds are slowly becoming it."
     }
   ]
 }

@@ -3,25 +3,25 @@
   "questions": [
     {
       "category": "History",
-      "question": "The Battle of Thermopylae in 480 BC saw how many Spartans (plus allies) attempt to hold off the Persian invasion?",
+      "question": "Around 300 Spartans held Thermopylae in 480 BC, but they were not alone. Who else fought and died there?",
       "options": [
-        "300",
-        "10,000",
-        "1,000",
-        "5,000"
+        "Roughly 1,000 Thespians and Thebans who stayed to the end",
+        "Athenian marines landed from the fleet the night before",
+        "Macedonian cavalry sent by Alexander's grandfather",
+        "A Persian contingent that defected on the second day"
       ],
-      "answer": "300",
-      "explanation": "The Battle of Thermopylae (480 BC) saw 300 Spartan warriors under King Leonidas, along with about 700 Thespians and other allies (approximately 7,000 total), delay the massive Persian army of Xerxes I for three days at the narrow coastal pass of Thermopylae. The Spartans fought to the death after being betrayed by a local man who showed the Persians a path around them. Their sacrifice allowed Greece to regroup.",
-      "memory_hook": "300 Spartans at Thermopylae. Plus Greek allies — more than 300 total — but the Spartans are the legend. Three days of fighting until betrayed. Leonidas knew they were going to die and went anyway. 'Then we shall fight in the shade' when told Persian arrows would block the sun."
+      "answer": "Roughly 1,000 Thespians and Thebans who stayed to the end",
+      "explanation": "The Greek force numbered around 7,000 initially. When a local named Ephialtes showed the Persians a mountain path around the pass, Leonidas dismissed most of the army and stayed with his 300 Spartans plus about 700 Thespians and 400 Thebans. The Thespians were volunteers who chose to remain and were wiped out entirely, yet they are absent from almost every retelling. Spartan law also required Leonidas to bring only men with living sons.",
+      "memory_hook": "About 7,000 Greeks held the pass. When a local showed the Persians a way around, Leonidas sent most home and kept his 300 plus roughly 700 Thespian volunteers and 400 Thebans. The Thespians were annihilated and get left out of every version. Leonidas could only bring men who already had sons."
     },
     {
       "category": "History",
       "question": "Who assassinated Archduke Franz Ferdinand of Austria in 1914, triggering World War I?",
       "options": [
-        "A German spy",
-        "A French soldier",
         "A Russian anarchist",
-        "A Serbian nationalist"
+        "A German spy",
+        "A Serbian nationalist",
+        "A French soldier"
       ],
       "answer": "A Serbian nationalist",
       "explanation": "Archduke Franz Ferdinand, heir to the Austro-Hungarian throne, was assassinated by Gavrilo Princip, a Bosnian Serb nationalist, in Sarajevo on June 28, 1914. Princip was a member of the Black Hand, a secret military society. The assassination triggered a chain of events — Austria-Hungary declared war on Serbia, pulling in Germany, Russia, France, and Britain through their alliances — beginning World War I.",
@@ -29,133 +29,133 @@
     },
     {
       "category": "History",
-      "question": "Napoleon's soldiers discovered the Rosetta Stone in 1799 near the town of Rashid. This ancient stele bears the same priestly decree written in three different scripts, allowing scholars to finally decipher ancient hieroglyphics. In which country was it found?",
+      "question": "Napoleon's soldiers found the Rosetta Stone in 1799. Who ended up with it, and how?",
       "options": [
-        "Italy",
-        "Sudan",
-        "Egypt",
-        "Greece"
+        "Britain took it after defeating the French in Egypt",
+        "Egypt retained it and it sits in Cairo to this day",
+        "It was lost at sea and only a plaster copy survives",
+        "France kept it, and it remains in the Louvre today"
       ],
-      "answer": "Egypt",
-      "explanation": "The Rosetta Stone was discovered in 1799 by French soldiers during Napoleon's Egyptian campaign. It contains the same decree in Ancient Egyptian hieroglyphics, Demotic script, and Ancient Greek. By comparing the three versions, Jean-Francois Champollion decoded hieroglyphics in 1822.",
-      "memory_hook": "Rosetta Stone = found in Egypt (Rashid), 1799. Champollion cracked hieroglyphics using it."
+      "answer": "Britain took it after defeating the French in Egypt",
+      "explanation": "The 1801 Treaty of Alexandria transferred French-collected antiquities to Britain, and the stone has been in the British Museum since 1802, where it is the single most visited object. Champollion, working from copies in France, deciphered the hieroglyphs in 1822 by recognising that the script recorded sounds as well as ideas. Egypt has formally requested the stone's return. The text itself is a fairly mundane tax decree from 196 BC.",
+      "memory_hook": "Britain took it under the 1801 Treaty of Alexandria after beating the French in Egypt, and it has been in the British Museum since 1802 as its most visited object. Champollion cracked it in 1822 from copies, in France. Egypt wants it back. The text is a routine tax decree."
     },
     {
       "category": "Sports",
-      "question": "In which sport is the term 'hat trick' thought to have originated?",
+      "question": "A hat trick means three of something in one game. Where did cricket's original version get its name?",
       "options": [
-        "Baseball",
-        "Cricket",
-        "Soccer",
-        "Ice Hockey"
+        "Three hats were awarded at the end of each season",
+        "Players wore hats stacked three high to celebrate",
+        "A bowler took three wickets and was bought a hat",
+        "The ball was caught in a fielder's upturned hat"
       ],
-      "answer": "Cricket",
-      "explanation": "The hat trick originated in cricket, where a bowler who took three wickets with three consecutive balls was traditionally awarded a hat by his club — hence 'hat trick.' The term was later adopted by other sports. In soccer and ice hockey, a hat trick means scoring three goals in one game. In cricket, it remains one of the rarest achievements because of the precision required.",
-      "memory_hook": "Hat trick = cricket first. Three wickets, three balls, win a hat. Then soccer and hockey borrowed the term. Now 'hat trick' appears in football, tennis, baseball — any sport where three consecutive or same-game successes are remarkable. One cricket tradition spread across all sports."
+      "answer": "A bowler took three wickets and was bought a hat",
+      "explanation": "H. H. Stephenson took three wickets with consecutive balls in 1858, a collection was taken among spectators, and he was presented with a hat bought with the proceeds. The term spread to hockey, then soccer, where it now means three goals in a match without the consecutive requirement. Ice hockey fans throw hats onto the ice, a custom that began in Toronto where a hatter offered a free hat for three goals.",
+      "memory_hook": "H. H. Stephenson took three wickets in three balls in 1858, spectators passed a hat round, and bought him one with the money. Soccer dropped the consecutive requirement. Hockey fans throw hats on the ice, which started with a Toronto hatter offering a free one for three goals."
     },
     {
       "category": "Sports",
-      "question": "The 1964 Summer Olympics were held in Tokyo — the first time the Games were hosted in Asia. Which country hosted both the 1964 Summer and 1972 Winter Olympics?",
+      "question": "Tokyo 1964 was the first Olympics held in Asia. What technology did those Games introduce?",
       "options": [
-        "Australia",
-        "South Korea",
-        "Japan",
-        "China"
+        "Live satellite broadcast to other continents",
+        "Photo-finish cameras at the sprint finish line",
+        "Electronic timing accurate to a thousandth of a second",
+        "The first use of synthetic running tracks"
       ],
-      "answer": "Japan",
-      "explanation": "Japan hosted the 1964 Summer Olympics in Tokyo and the 1972 Winter Olympics in Sapporo — the first Winter Games held in Asia. Tokyo hosted the Summer Games again in 2021 (postponed from 2020 due to COVID-19). Sapporo hosted the 1972 Winter Olympics, and Japan also hosted the 1998 Winter Olympics in Nagano.",
-      "memory_hook": "Japan: 1964 Summer (Tokyo) + 1972 Winter (Sapporo). First Asian Winter Games."
+      "answer": "Live satellite broadcast to other continents",
+      "explanation": "Tokyo 1964 was the first Games transmitted live overseas by satellite, using Syncom 3, so Americans watched events as they happened rather than waiting for film to be flown across. Japan also opened the Shinkansen bullet train nine days before the opening ceremony. The Games functioned as a deliberate statement of postwar recovery, and the final torchbearer was born in Hiroshima on the day the bomb fell.",
+      "memory_hook": "First Games broadcast live overseas by satellite, so America watched in real time instead of waiting for film to fly over. Japan opened the Shinkansen nine days before the ceremony. The last torchbearer had been born in Hiroshima on the day the bomb dropped."
     },
     {
       "category": "Pop Culture",
-      "question": "Which 1969 film, directed by Dennis Hopper and starring Peter Fonda, became an emblem of counterculture America?",
+      "question": "Easy Rider (1969) cost around $400,000 and changed Hollywood. What did it prove to the studios?",
       "options": [
-        "The Wild Bunch",
-        "Bonnie and Clyde",
-        "Midnight Cowboy",
-        "Easy Rider"
+        "Cheap films aimed at young audiences could earn fortunes",
+        "Location shooting cost far less than working on a lot",
+        "Motorcycles were cheaper and safer to film than car chases",
+        "Colour film stock was no longer necessary for a hit"
       ],
-      "answer": "Easy Rider",
-      "explanation": "Easy Rider (1969) starred Peter Fonda and Dennis Hopper as two bikers traveling across America. Made for $400,000, it grossed $60 million and became one of the most important independent films ever made. It launched Jack Nicholson's career (he played a lawyer who joins the bikers). The film symbolized the counterculture movement and showed Hollywood that low-budget, director-driven films could be commercially successful.",
-      "memory_hook": "Easy Rider = 1969, counterculture film. $400,000 budget, $60 million gross. Launched Jack Nicholson. Two bikers on the road to nowhere specific — it's less about the destination than what they find (and don't find) along the way. The ending shocked audiences. Still does."
+      "answer": "Cheap films aimed at young audiences could earn fortunes",
+      "explanation": "It grossed over $60 million against a tiny budget, and studios that had been losing money on expensive musicals concluded that young directors working cheap were a better bet. That opened the door to Scorsese, Coppola, Altman and the rest of the New Hollywood era. It also used existing rock recordings rather than a composed score, which was unusual then and standard now. Jack Nicholson became a star from a supporting part.",
+      "memory_hook": "It made over $60 million on a $400,000 budget while studios were losing fortunes on musicals, so they started handing money to young directors working cheap. That is the door Scorsese and Coppola walked through. It also used existing rock records instead of a score, which was new."
     },
     {
       "category": "Pop Culture",
-      "question": "Which song, performed by Whitney Houston in 1992, became the best-selling single of all time at that point?",
+      "question": "Whitney Houston's I Will Always Love You spent fourteen weeks at number one in 1992. Who wrote it?",
       "options": [
-        "I Have Nothing",
-        "Greatest Love of All",
-        "I Will Always Love You",
-        "One Moment in Time"
+        "Prince, under one of his several pseudonyms",
+        "Whitney Houston, her only songwriting credit",
+        "Dolly Parton, who wrote it as a farewell in 1973",
+        "Kevin Costner, who produced the film it came from"
       ],
-      "answer": "I Will Always Love You",
-      "explanation": "Whitney Houston's version of 'I Will Always Love You' was the lead single from the film The Bodyguard (1992). The song was originally written and recorded by Dolly Parton in 1973. Houston's version spent 14 weeks at number one in the US and sold over 20 million copies worldwide — the best-selling single of all time when released. It is still one of the all-time best-selling singles.",
-      "memory_hook": "'I Will Always Love You' = Whitney Houston, but written by Dolly Parton. Parton reportedly made $6 million in royalties from Houston's version. Dolly was offered half of the publishing rights by Elvis Presley's manager in exchange for letting Elvis record it — she said no. Houston's version came along 20 years later. Dolly made the right call."
+      "answer": "Dolly Parton, who wrote it as a farewell in 1973",
+      "explanation": "Parton wrote it about leaving Porter Wagoner's show, a professional parting rather than a romance. Elvis wanted to record it but Colonel Tom Parker demanded half the publishing, and Parton refused, which she has called one of the hardest and best decisions she ever made. Houston's version made Parton an enormous amount of money in royalties. The a cappella opening was Kevin Costner's suggestion.",
+      "memory_hook": "Dolly Parton wrote it in 1973 about leaving Porter Wagoner's show, not a romance. Elvis wanted it but Colonel Parker demanded half the publishing and she said no, which she calls the best decision she ever made. Houston's version then paid her enormously. Costner suggested the a cappella opening."
     },
     {
       "category": "Pop Culture",
-      "question": "Which 2013 film starring Leonardo DiCaprio, based on a true story, featured his collaboration with director Martin Scorsese?",
+      "question": "The Wolf of Wall Street (2013) drew criticism alongside its five Oscar nominations. What was the complaint?",
       "options": [
-        "The Revenant",
-        "The Wolf of Wall Street",
-        "Inception",
-        "Django Unchained"
+        "Belfort was paid more than his victims ever recovered",
+        "It was filmed inside the actual firm's former offices",
+        "It invented crimes the real Belfort never committed",
+        "It made the fraud look enjoyable rather than condemning it"
       ],
-      "answer": "The Wolf of Wall Street",
-      "explanation": "The Wolf of Wall Street (2013), directed by Martin Scorsese, starred Leonardo DiCaprio as Jordan Belfort, a real stockbroker convicted of securities fraud. The film is 3 hours long and contains more profanity than almost any other film. DiCaprio received an Academy Award nomination. The real Jordan Belfort received a percentage of the film's profits as part of his plea deal.",
-      "memory_hook": "Wolf of Wall Street = Scorsese + DiCaprio, 2013. Jordan Belfort was real — and made money off the film depicting his crimes. 3 hours, 569 uses of the F-word, Jonah Hill in a career performance. The excesses shown weren't exaggerated — Belfort confirmed they were accurate."
+      "answer": "It made the fraud look enjoyable rather than condemning it",
+      "explanation": "Scorsese refused to insert a moralising frame, arguing that showing the seduction honestly was the sharper indictment, and some critics and victims disagreed. The daughter of one of Belfort's associates wrote an open letter accusing the film of glamorising theft. Belfort was ordered to repay $110 million and had reportedly paid a small fraction. He now works as a motivational speaker, which is arguably the film's point.",
+      "memory_hook": "Scorsese refused to add a moral frame, arguing that showing how fun the fraud was made the sharper point. A victim's daughter wrote an open letter saying it glamorised theft. Belfort owed $110 million in restitution and had paid a fraction. He is now a motivational speaker."
     },
     {
       "category": "Geography",
-      "question": "The Atacama Desert, one of the driest places on Earth, is located primarily in which country?",
+      "question": "Parts of the Atacama Desert have never recorded rainfall. What do scientists use it for?",
       "options": [
-        "Argentina",
-        "Peru",
-        "Bolivia",
-        "Chile"
+        "Testing Mars rovers, since the soil is comparably lifeless",
+        "Measuring how quickly polished metals rust in clean air",
+        "Storing nuclear waste inside permanently dry bedrock",
+        "Growing engineered crops that need no irrigation at all"
       ],
-      "answer": "Chile",
-      "explanation": "The Atacama Desert stretches about 1,600 km along the Pacific coast of South America, primarily in northern Chile with parts in Peru, Bolivia, and Argentina. Some weather stations in the Atacama have never recorded any rain. It is the driest non-polar desert on Earth. Despite its aridity, the Atacama is home to mining operations (copper and lithium) and unique extremophile organisms.",
-      "memory_hook": "Atacama = driest non-polar desert, mostly Chile. Some parts have never recorded rainfall. Yet people mine lithium there — Chile has the world's largest lithium reserves in Atacama salt flats. The driest place on Earth happens to contain one of the most valuable resources for electric vehicles."
+      "answer": "Testing Mars rovers, since the soil is comparably lifeless",
+      "explanation": "Some Atacama soils are so dry that standard tests detect no microbial life, which makes it the closest analogue to Martian conditions on Earth, and NASA tests instruments there. The extreme dryness comes from a rain shadow on both sides plus a cold offshore current that suppresses evaporation. The same conditions preserve things indefinitely: the Chinchorro mummies there predate Egyptian ones by around two thousand years.",
+      "memory_hook": "Some Atacama soil registers no detectable microbial life, so NASA tests Mars rovers there. It is dry because it sits in a rain shadow from both directions with a cold current offshore killing evaporation. The same dryness preserved the Chinchorro mummies, which are 2,000 years older than Egypt's."
     },
     {
       "category": "Science & Nature",
-      "question": "What is the name of the process by which bacteria and fungi break down dead organic matter into simpler substances?",
+      "question": "Decomposers break down dead material. What would happen to a forest without them?",
       "options": [
-        "Decomposition",
-        "Transpiration",
-        "Fermentation",
-        "Photosynthesis"
+        "Dead material slowly evaporates away into the atmosphere",
+        "Fires would consume the accumulated excess within years",
+        "Nutrients stay locked in dead matter and new growth stops",
+        "The forest would grow faster with far less competition"
       ],
-      "answer": "Decomposition",
-      "explanation": "Decomposition is the process by which dead organic matter is broken down into simpler organic or inorganic matter by bacteria, fungi, and other organisms called decomposers. This recycling of nutrients is essential to all ecosystems — without decomposers, the world would be buried under dead organisms. Carbon, nitrogen, and other elements are returned to the soil and atmosphere through decomposition.",
-      "memory_hook": "Decomposition = nature's recycling. Without decomposers, dead matter would pile up forever. Bacteria and fungi break everything back down into nutrients that plants can use. Everything that dies becomes food for the living. The cycle never stops."
+      "answer": "Nutrients stay locked in dead matter and new growth stops",
+      "explanation": "Bacteria and fungi return nitrogen, phosphorus and carbon from dead tissue to the soil where roots can take them up again. Without that the nutrients simply sit there. This actually happened: during the Carboniferous, trees evolved lignin before anything could digest it, so dead trunks piled up unrotted for millions of years and became the coal seams we now burn. Fungi eventually evolved the enzymes and the accumulation stopped.",
+      "memory_hook": "Fungi and bacteria hand nitrogen, phosphorus and carbon back to the soil. Without them it stays locked in corpses. This genuinely happened in the Carboniferous: trees invented lignin before anything could digest it, so trunks piled up unrotted for millions of years and became coal."
     },
     {
       "category": "Geography",
-      "question": "The Lena River, one of the world's ten longest rivers at about 4,400 km, flows through which country and empties into the Arctic Ocean?",
+      "question": "The Lena is one of the world's ten longest rivers, running north through Siberia. What does flowing north cause?",
       "options": [
-        "Norway",
-        "Canada",
-        "China",
-        "Russia"
+        "Spring ice jams downstream, flooding upstream towns",
+        "Its water reaches the Arctic warmer than it started",
+        "The river runs backwards for two months each year",
+        "It never freezes, despite Siberian temperatures"
       ],
-      "answer": "Russia",
-      "explanation": "The Lena River originates near Lake Baikal in Siberia, Russia, and flows northward for 4,400 km before emptying into the Laptev Sea (part of the Arctic Ocean) through a vast delta that is one of the largest in the world. The Lena is one of Russia's major rivers and the easternmost of Siberia's great rivers (the others being the Ob and Yenisei). It freezes completely in winter. The Lena Pillars — towering rock columns along its banks — are a UNESCO World Heritage Site.",
-      "memory_hook": "Lena River: 4,400 km, Siberia (Russia) → Arctic Ocean. Originates near Lake Baikal. Freezes solid in winter. The Lena Pillars (towering rock columns on its banks) are a UNESCO site. One of three great Siberian rivers (Ob, Yenisei, Lena) that drain the world's largest contiguous landmass."
+      "answer": "Spring ice jams downstream, flooding upstream towns",
+      "explanation": "The southern headwaters thaw first while the northern mouth is still frozen solid, so meltwater arrives at a wall of ice and backs up. Ice-jam flooding is a routine spring hazard on Arctic-flowing rivers including the Lena, Ob and Yenisei, and Russia sometimes bombs the jams from the air to break them. The Lena delta is also one of the largest protected wildernesses on the planet.",
+      "memory_hook": "The southern end thaws first while the northern mouth is still solid ice, so meltwater hits a frozen wall and backs up over the towns. Every Arctic-flowing river does it, and Russia sometimes bombs the ice jams from aircraft to clear them."
     },
     {
       "category": "Science & Nature",
-      "question": "What is the placebo effect, and why do clinical trials use double-blind studies to account for it?",
+      "question": "Clinical trials are usually double-blind. What does the second blind protect against?",
       "options": [
-        "Improvement in condition caused by believing you're being treated, even if the treatment is inactive",
-        "A type of drug interaction that amplifies effects",
-        "A form of confirmation bias in medical research",
-        "A side effect of experimental drugs"
+        "Patients guessing which treatment they received",
+        "Statistical errors when the sample size is small",
+        "Researchers unconsciously influencing what they observe",
+        "Pharmaceutical companies selecting favourable data"
       ],
-      "answer": "Improvement in condition caused by believing you're being treated, even if the treatment is inactive",
-      "explanation": "The placebo effect occurs when a patient experiences real, measurable improvement in their condition simply because they believe they are receiving effective treatment — even when given an inert substance (a sugar pill or saline injection). It is mediated by the brain's release of endorphins and other neurochemicals. Double-blind trials (where neither patient nor researcher knows who gets real treatment) are required because even researchers unconsciously signal expectations to patients, and patients can detect enthusiasm.",
-      "memory_hook": "Placebo effect: belief in treatment causes real measurable improvement. Your brain releases actual endorphins. Doctors also have a 'nocebo' effect — telling patients about side effects makes them more likely to occur. Double-blind trials control for this. The mind-body connection is real, demonstrable, and powerful."
+      "answer": "Researchers unconsciously influencing what they observe",
+      "explanation": "Single-blind hides the assignment from the patient. Double-blind hides it from the researchers too, because someone who knows which patient got the drug will unconsciously assess them differently, prompt differently, and interpret ambiguous symptoms differently. This is observer bias and it operates without any intent to deceive. Placebo effects are real and measurable, including in surgery, where sham operations have sometimes matched actual procedures.",
+      "memory_hook": "Single-blind hides it from the patient. Double-blind hides it from the researcher too, because knowing who got the drug changes how you assess them without any intent to cheat. That is observer bias. Placebo effects are real enough that sham surgery has sometimes matched real operations."
     }
   ]
 }

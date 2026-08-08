@@ -3,77 +3,77 @@
   "questions": [
     {
       "category": "History",
-      "question": "The Panama Canal was officially completed and opened in which year?",
+      "question": "The Panama Canal opened in 1914, but a French attempt had already failed there. What defeated the French effort?",
       "options": [
-        "1920",
-        "1909",
-        "1903",
-        "1914"
+        "Malaria and yellow fever killed more than 20,000 workers",
+        "Funding collapsed after the Franco-Prussian War",
+        "An earthquake destroyed the finished locks in 1889",
+        "Colombia revoked the construction rights partway through"
       ],
-      "answer": "1914",
-      "explanation": "The Panama Canal was completed and opened on August 15, 1914, after a 10-year construction effort. The US took over construction from a failed French attempt. Over 75,000 workers participated, and disease (particularly yellow fever and malaria) killed an estimated 25,000 workers during construction. The canal cut the sea voyage between the Atlantic and Pacific by approximately 15,000 km.",
-      "memory_hook": "Panama Canal opened 1914. France tried first and failed. The US succeeded partly by figuring out that mosquitoes spread malaria and yellow fever — eliminating them saved thousands of lives. The canal changed global shipping forever."
+      "answer": "Malaria and yellow fever killed more than 20,000 workers",
+      "explanation": "Ferdinand de Lesseps, fresh from Suez, began digging in 1881 and insisted on a sea-level canal with no locks, which the terrain could not support. Mosquito-borne disease killed workers faster than they could be replaced, and nobody yet understood the transmission route. The company collapsed in 1889 amid a corruption scandal that reached the French parliament. The Americans succeeded partly because Walter Reed's work had by then established that mosquitoes carried yellow fever, making control possible.",
+      "memory_hook": "De Lesseps came from Suez insisting on a sea-level canal, which Panama's terrain would not allow. Malaria and yellow fever killed over 20,000 before anyone knew mosquitoes carried them. The company collapsed in 1889 in a corruption scandal. The Americans won partly because by then the mosquito link was understood."
     },
     {
       "category": "History",
-      "question": "Which Vietnamese revolutionary leader, known affectionately as 'Uncle Ho,' led the independence movement against French colonial rule and guided North Vietnam during the Vietnam War?",
+      "question": "Ho Chi Minh spent roughly thirty years abroad before returning to lead Vietnam's independence movement. Where did those years take him?",
       "options": [
-        "Pol Pot",
-        "Ngo Dinh Diem",
-        "Vo Nguyen Giap",
-        "Ho Chi Minh"
+        "Paris, London, Moscow and New York, working odd jobs",
+        "Japanese exile, under the protection of the emperor",
+        "Southern China only, organizing from across the border",
+        "A French prison, where he wrote his political manifesto"
       ],
-      "answer": "Ho Chi Minh",
-      "explanation": "Ho Chi Minh (1890-1969) founded the Viet Minh independence movement and led North Vietnam from 1945 until his death. He defeated the French at Dien Bien Phu in 1954 and directed the North Vietnamese war effort against the U.S. South Vietnam's capital, Saigon, was renamed Ho Chi Minh City after North Vietnam's victory in 1975.",
-      "memory_hook": "Ho Chi Minh = 'Uncle Ho.' Vietnam's independence leader. Saigon renamed after him."
+      "answer": "Paris, London, Moscow and New York, working odd jobs",
+      "explanation": "He left Vietnam in 1911 as a ship's cook and spent decades moving between continents, working as a pastry chef under Escoffier in London and as a photo retoucher in Paris. At the 1919 Versailles conference he petitioned for Vietnamese civil rights and was ignored. He helped found the French Communist Party in 1920, trained in Moscow, and finally returned to Vietnam in 1941 after three decades away.",
+      "memory_hook": "He left in 1911 as a ship's cook, worked as a pastry chef in London under Escoffier and retouched photos in Paris. At Versailles in 1919 he petitioned for Vietnamese rights and was ignored. He helped found the French Communist Party, trained in Moscow, and got home in 1941 after thirty years."
     },
     {
       "category": "History",
-      "question": "The storming of the Bastille, the iconic event marking the start of the French Revolution, occurred on what date in 1789?",
+      "question": "The storming of the Bastille on 14 July 1789 became France's national day. How many prisoners were actually inside?",
       "options": [
-        "August 4",
-        "June 20",
-        "July 14",
-        "July 4"
+        "Seven, none of them political prisoners",
+        "Around 300, mostly debtors and petty criminals",
+        "None, since it had been emptied the week before",
+        "Over a thousand, including a number of nobles"
       ],
-      "answer": "July 14",
-      "explanation": "The storming of the Bastille prison on July 14, 1789, in Paris is celebrated as the beginning of the French Revolution. The Bastille held only seven prisoners at the time, but it symbolized royal tyranny. The 98 attackers who were killed are still honored annually on Bastille Day — France's national holiday — celebrated on July 14 each year.",
-      "memory_hook": "Bastille Day = July 14, 1789. The revolution's symbolic start. Only 7 prisoners in the Bastille — but the symbol mattered more than the reality. France celebrates July 14 the same way the US celebrates July 4. Both are days a people overthrew what they believed was tyranny."
+      "answer": "Seven, none of them political prisoners",
+      "explanation": "The seven were four forgers, two men held as insane, and one aristocrat imprisoned at his own family's request. The crowd was not there to free them; they came for the gunpowder stored inside, having already taken muskets from the Invalides. The Bastille mattered as a symbol of arbitrary royal power rather than as a working prison, and demolition began almost immediately. Its governor was killed and his head paraded on a pike.",
+      "memory_hook": "Seven prisoners: four forgers, two men held as insane, and one aristocrat locked up at his own family's request. The crowd wanted the gunpowder inside, not the prisoners. The Bastille was a symbol of arbitrary royal power, which is why it mattered. Demolition started almost at once."
     },
     {
       "category": "Sports",
-      "question": "The Indianapolis 500 car race is approximately how many miles long?",
+      "question": "The Indianapolis 500 covers 200 laps of a two-and-a-half-mile oval. What tradition marks the finish?",
       "options": [
-        "500 miles",
-        "300 miles",
-        "600 miles",
-        "400 miles"
+        "The winner laps the track once more in reverse",
+        "The winning team repaints the car in gold leaf",
+        "The winning car is retired and never raced again",
+        "The winner drinks a bottle of milk in victory lane"
       ],
-      "answer": "500 miles",
-      "explanation": "The Indianapolis 500 (commonly called the Indy 500) consists of 200 laps of the 2.5-mile oval track at Indianapolis Motor Speedway, totaling 500 miles. It has been held annually since 1911 (with gaps for WWII) and is part of IndyCar's Triple Crown. Winning cars average speeds over 185 mph. The Indy 500 is one of the world's oldest and most prestigious motor races.",
-      "memory_hook": "Indy 500 = 500 miles, 200 laps of 2.5 miles. Started in 1911. Drivers average over 185 mph. The winner drinks milk in Victory Lane — a tradition since 1936 when Louis Meyer drank buttermilk after his win. The dairy industry later made it official."
+      "answer": "The winner drinks a bottle of milk in victory lane",
+      "explanation": "Louis Meyer drank buttermilk after winning in 1936 because his mother recommended it, a photographer captured it, and a dairy trade group turned it into a standing arrangement. Winners now state a milk preference before the race: whole, two percent, or skim. Emerson Fittipaldi drank orange juice in 1993 because he owned orange groves, and the crowd booed him for it. The winner also kisses the yard of bricks at the start-finish line, a tradition that only began in 1996.",
+      "memory_hook": "Louis Meyer drank buttermilk after winning in 1936 on his mother's advice, a photographer caught it, and a dairy group made it permanent. Winners now pick whole, two percent or skim beforehand. Fittipaldi drank orange juice in 1993 because he owned groves, and got booed for it."
     },
     {
       "category": "Sports",
-      "question": "In ice hockey, what penalty is called when a defending player shoots the puck from behind the center red line all the way down past the opponent's goal line without another player touching it?",
+      "question": "Icing is called in ice hockey when a team shoots the puck the length of the rink untouched. What does the offending team face?",
       "options": [
-        "Offside",
-        "Delay of game",
-        "Icing",
-        "High-sticking"
+        "A two-minute minor penalty for delay of game",
+        "A faceoff in their own zone with no line change",
+        "A penalty shot awarded to the other side",
+        "Loss of possession at the opposing blue line"
       ],
-      "answer": "Icing",
-      "explanation": "Icing in ice hockey occurs when a player shoots the puck from their own half of the rink and it crosses the opponent's goal line without being touched. Play stops and the face-off returns to the offending team's defensive zone. Icing is not called if the team is shorthanded due to a penalty.",
-      "memory_hook": "Icing = shooting puck the length of the ice. Face-off comes back deep."
+      "answer": "A faceoff in their own zone with no line change",
+      "explanation": "The no-change rule is what gives icing its teeth. Teams ice the puck to relieve pressure, so the punishment is being pinned in your own end with the tired players who just did it, against fresh opponents. The rule was introduced in 1937 after teams took to icing repeatedly to protect a lead, in one case reportedly over 50 times in a single game. A shorthanded team is permitted to ice the puck legally.",
+      "memory_hook": "The punishment is the no-change rule: you are stuck in your own zone with the exhausted line that just iced it, facing fresh legs. Icing exists to relieve pressure, so the penalty removes exactly that. Brought in during 1937 after teams iced the puck dozens of times to sit on a lead."
     },
     {
       "category": "Pop Culture",
       "question": "Henri Matisse co-founded Fauvism in 1905 and reinvented himself again with cut-outs in his 80s. What was his central obsession?",
       "options": [
-        "A mathematical system for rendering human anatomy",
-        "Color, not form, as painting's fundamental language",
         "Fusing European oil painting with Japanese prints",
-        "Depicting private grief beneath a joyful surface"
+        "Depicting private grief beneath a joyful surface",
+        "A mathematical system for rendering human anatomy",
+        "Color, not form, as painting's fundamental language"
       ],
       "answer": "Color, not form, as painting's fundamental language",
       "explanation": "Where Picasso would become obsessed with form and structure, Matisse pursued pure color as expression. His 1905 Fauve paintings used unblended, shocking color combinations — green and red faces, orange shadows — that were deliberately non-realistic. He said: 'I don't paint things; I paint the difference between things.' In his final years, bedridden after cancer surgery, he created the Gouaches Découpées — cut paper collages — works like The Snail and Blue Nude that many consider equal to his paintings. The Jazz series of cut-outs was published as a book in 1947.",
@@ -81,25 +81,25 @@
     },
     {
       "category": "Pop Culture",
-      "question": "Which musical won both the Tony Award for Best Musical and the Academy Award for Best Picture in 1962?",
+      "question": "West Side Story moves Romeo and Juliet to 1950s New York. Which two groups stand in for the Montagues and Capulets?",
       "options": [
-        "Oklahoma!",
-        "Camelot",
-        "My Fair Lady",
-        "West Side Story"
+        "Two dockworkers' unions fighting over contracts",
+        "Rival jazz clubs competing over the same block",
+        "The Jets and the Sharks, split along ethnic lines",
+        "Competing families running rival delicatessens"
       ],
-      "answer": "West Side Story",
-      "explanation": "West Side Story (originally 1957 on Broadway) won 10 Academy Awards for its 1961 film adaptation, including Best Picture. It was adapted from the Broadway production which won the Tony. The story is a modern Romeo and Juliet set among rival gangs (the Jets and Sharks) in New York City. A new film version directed by Steven Spielberg won multiple Oscars in 2022.",
-      "memory_hook": "West Side Story = Romeo and Juliet with rival gangs in 1950s NYC. 10 Oscars for the 1961 film. Spielberg remade it in 2021. The original stage show ran for 732 performances on Broadway. The story is 400 years old in a new setting, and it still works."
+      "answer": "The Jets and the Sharks, split along ethnic lines",
+      "explanation": "The Jets are white working-class New Yorkers, the Sharks are Puerto Rican immigrants, and the feud plays out on the Upper West Side blocks then being cleared for Lincoln Center. Jerome Robbins originally conceived it as a Catholic-Jewish conflict at Easter and Passover before shifting to reflect postwar migration. Leonard Bernstein wrote the score and Stephen Sondheim, then twenty-five, wrote the lyrics. It lost the 1958 Tony for Best Musical to The Music Man.",
+      "memory_hook": "Jets are white working-class New Yorkers, Sharks are Puerto Rican, and they fight over blocks being demolished for Lincoln Center. Robbins first drafted it as Catholic against Jewish at Easter and Passover. Bernstein wrote the music, Sondheim the lyrics at twenty-five. It lost the Tony to The Music Man."
     },
     {
       "category": "Pop Culture",
       "question": "David Bowie's alter ego 'Ziggy Stardust' appeared on which 1972 album?",
       "options": [
-        "Heroes",
-        "Diamond Dogs",
         "The Rise and Fall of Ziggy Stardust and the Spiders from Mars",
-        "Aladdin Sane"
+        "Aladdin Sane, written largely on his first American tour",
+        "Diamond Dogs, his dystopian Orwell-inspired concept record",
+        "Hunky Dory, the album that gave him Changes and Life on Mars"
       ],
       "answer": "The Rise and Fall of Ziggy Stardust and the Spiders from Mars",
       "explanation": "The Rise and Fall of Ziggy Stardust and the Spiders from Mars (1972) introduced David Bowie's androgynous alien rock star alter ego. The concept album blended glam rock with science fiction themes about a doomed musician who becomes a messiah. Bowie performed as Ziggy for 18 months before dramatically retiring the character onstage. It is one of the most influential albums in rock history.",
@@ -107,53 +107,53 @@
     },
     {
       "category": "Geography",
-      "question": "The Great Rift Valley, a geological formation that stretches from the Middle East to Mozambique, passes through how many African countries?",
+      "question": "The East African Rift is slowly pulling the continent apart. What will eventually happen along it?",
       "options": [
-        "21",
-        "5",
-        "9",
-        "14"
+        "A new ocean will form, cutting off the Horn of Africa",
+        "The Sahara will spread south to meet the Kalahari",
+        "The Ethiopian Highlands will sink below sea level",
+        "Lake Victoria will drain into the Indian Ocean"
       ],
-      "answer": "14",
-      "explanation": "The Great Rift Valley is a series of connected valleys formed by tectonic activity, running about 6,000 km from the Afar Triangle in Ethiopia south through Kenya, Tanzania, and Mozambique. It passes through approximately 14 countries including Ethiopia, Kenya, Tanzania, Uganda, Rwanda, Malawi, and Mozambique. The Great Rift Valley contains many of Africa's great lakes, including Tanganyika, Malawi, and Albert.",
-      "memory_hook": "Great Rift Valley = Africa splitting apart. 14 countries, 6,000 km long. East Africa is literally separating from the rest of the continent along this fault line. In millions of years, the Horn of Africa will become a new island. You can watch a continent being born in real time."
+      "answer": "A new ocean will form, cutting off the Horn of Africa",
+      "explanation": "The Somali and Nubian plates are separating at roughly 6 to 7 millimetres a year. On a timescale of five to ten million years the rift will flood and the Horn of Africa will become an island, in the same way Arabia separated to form the Red Sea. The process is visible now: a 56-kilometre crack opened in Ethiopia's Afar region over ten days in 2005. The rift's lakes, including Tanganyika and Malawi, sit in the widening trough.",
+      "memory_hook": "The Somali and Nubian plates are pulling apart about 6mm a year, and in five to ten million years the sea will flood in and make the Horn of Africa an island, exactly how the Red Sea formed. You can watch it happen: a 56km crack opened in Ethiopia's Afar region in ten days in 2005."
     },
     {
       "category": "Science & Nature",
-      "question": "What is the scientific name for the study of fossils?",
+      "question": "Mary Anning found some of the first complete ichthyosaur and plesiosaur fossils in the cliffs at Lyme Regis. Why did she get so little credit?",
       "options": [
-        "Archaeology",
-        "Geology",
-        "Paleontology",
-        "Stratigraphy"
+        "She never published, keeping her methods secret",
+        "She sold finds anonymously to avoid religious backlash",
+        "Her specimens were later shown to be composites",
+        "As a woman she was barred from the Geological Society"
       ],
-      "answer": "Paleontology",
-      "explanation": "Paleontology is the study of prehistoric life through fossils — the preserved remains or traces of ancient organisms. It differs from archaeology (which focuses on human artifacts) and geology (the study of rocks and Earth's physical history). Paleontologists study everything from dinosaurs to ancient plants, insects, and microorganisms, using fossils to understand the history and evolution of life on Earth.",
-      "memory_hook": "Paleontology = study of fossils. Archaeology is about ancient humans; paleontology is about all ancient life. The earliest fossil evidence of life on Earth is 3.5 billion years old — microbial mats in ancient rocks. Dinosaur fossils are comparatively recent, only 230 million years old."
+      "answer": "As a woman she was barred from the Geological Society",
+      "explanation": "Anning was a working-class woman selling fossils to support her family, and the gentlemen geologists who bought them published the findings under their own names without crediting her. She could not join the Geological Society of London, attend its meetings, or publish in its journals. Her work was central to establishing that species had gone extinct, which unsettled prevailing religious accounts of creation. The Society finally admitted women in 1904, fifty-seven years after her death.",
+      "memory_hook": "Anning was a working-class woman selling fossils to feed her family, and the gentlemen who bought them published under their own names. She could not join the Geological Society, attend meetings, or publish. Her finds helped prove extinction was real. The Society admitted women in 1904, 57 years after she died."
     },
     {
       "category": "Geography",
-      "question": "The Great Artesian Basin in Australia is one of the world's largest underground freshwater reservoirs. Which continent is it entirely located beneath?",
+      "question": "The Great Artesian Basin underlies about a fifth of Australia. Why does its water reach the surface without any pumping?",
       "options": [
-        "Africa",
-        "Australia",
-        "Asia",
-        "Antarctica"
+        "Pacific tides push it inland and up twice a day",
+        "Pressure from water entering at higher ground far away",
+        "Geothermal heat drives it upward through fissures",
+        "Underground rivers run downhill into coastal springs"
       ],
-      "answer": "Australia",
-      "explanation": "The Great Artesian Basin underlies about 22% of Australia, covering parts of Queensland, New South Wales, South Australia, and the Northern Territory. It holds an estimated 65,000 km³ of freshwater, much of it tens of thousands of years old. The basin was crucial to opening up Australia's arid interior for grazing — artesian bores (self-flowing wells) allowed pastoralists and animals to access water far from rivers. However, over-exploitation and degradation of the basin has led to conservation efforts.",
-      "memory_hook": "Great Artesian Basin: covers 22% of Australia, holds 65,000 km³ of ancient freshwater. Opened up the arid outback to grazing in the 1800s — artesian wells flowed without pumping. Much of the water is tens of thousands of years old. Now being depleted and managed carefully."
+      "answer": "Pressure from water entering at higher ground far away",
+      "explanation": "Rain falls on the Great Dividing Range in the east and soaks into porous rock sandwiched between impermeable layers. Because the intake sits higher than the outlets, the trapped water is under pressure and rises on its own wherever the confining layer is breached. That is what artesian means. The water can be over a million years old and emerges hot. Uncapped bores wasted enormous volumes through the twentieth century, and pressure across the basin has dropped measurably.",
+      "memory_hook": "Rain falls on high ground in the east, soaks into porous rock trapped between impermeable layers, and because the intake is higher than the outlet the water is under pressure and rises by itself. That is what artesian means. It can be a million years old and comes up hot. Uncapped bores drained the pressure for decades."
     },
     {
       "category": "Science & Nature",
       "question": "What are the noble gases — the chemically unreactive elements in Group 18 of the periodic table?",
       "options": [
-        "Fluorine, chlorine, bromine, iodine",
-        "Oxygen, nitrogen, argon",
-        "Helium, neon, argon, krypton, xenon, radon",
-        "Lithium, sodium, potassium"
+        "Lithium, sodium and potassium, the alkali metals",
+        "Helium, neon, argon, krypton, xenon and radon",
+        "Oxygen, nitrogen and argon, the main air gases",
+        "Fluorine, chlorine, bromine and iodine, the halogens"
       ],
-      "answer": "Helium, neon, argon, krypton, xenon, radon",
+      "answer": "Helium, neon, argon, krypton, xenon and radon",
       "explanation": "The noble gases (Group 18) are helium (He), neon (Ne), argon (Ar), krypton (Kr), xenon (Xe), and radon (Rn). They are chemically unreactive because their outer electron shells are completely full, giving them no tendency to form bonds. Their uses include: helium (balloons, MRI cooling), neon (signs), argon (welding shield gas), krypton and xenon (specialty lights), radon (radiation monitoring — it's a radioactive health hazard from soil). Oganesson (Og) is sometimes included as a theoretical noble gas.",
       "memory_hook": "Noble gases: He, Ne, Ar, Kr, Xe, Rn. Full outer electron shells = never react. Helium in balloons and MRI machines. Neon in signs. Argon in welding. Radon is the scary one — seeps from soil into basements and is the #2 cause of lung cancer. Being unreactive is usually safe; radon is the exception."
     }

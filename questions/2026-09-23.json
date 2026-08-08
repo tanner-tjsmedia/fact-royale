@@ -5,10 +5,10 @@
       "category": "History",
       "question": "Who became Rome's first emperor in 27 BC after defeating Mark Antony and Cleopatra at Actium in 31 BC?",
       "options": [
-        "Julius Caesar",
-        "Nero",
         "Caligula",
-        "Augustus (Octavian)"
+        "Nero",
+        "Augustus (Octavian)",
+        "Julius Caesar"
       ],
       "answer": "Augustus (Octavian)",
       "explanation": "Gaius Octavius (Augustus), Julius Caesar's adopted son, defeated Mark Antony and Cleopatra at Actium. The Senate granted him the title 'Augustus' in 27 BC. He ruled 41 years. The month of August is named after him.",
@@ -18,10 +18,10 @@
       "category": "Science & Nature",
       "question": "What do the kidneys do, and how much blood do they filter per day?",
       "options": [
-        "Produce hormones only; about 50 liters/day",
-        "Filter lymph fluid; about 10 liters/day",
         "Filter waste from blood and produce urine; about 200 liters/day",
-        "Filter blood and produce bile; about 200 liters/day"
+        "Filter lymph fluid; about 10 liters/day",
+        "Filter blood and produce bile; about 200 liters/day",
+        "Produce hormones only; about 50 liters/day"
       ],
       "answer": "Filter waste from blood and produce urine; about 200 liters/day",
       "explanation": "The kidneys filter ~200 liters of blood daily, producing 1-2 liters of urine. They regulate blood pressure, pH, and electrolytes. Each kidney has ~1 million nephrons. Dialysis replaces kidney function when they fail.",
@@ -31,10 +31,10 @@
       "category": "Sports",
       "question": "In what order are the four Grand Slam tennis tournaments played each year?",
       "options": [
-        "Australian Open (Jan), French Open (May-Jun), Wimbledon (Jun-Jul), US Open (Aug-Sep)",
-        "French Open, Wimbledon, US Open, Australian Open",
         "Australian Open, Wimbledon, French Open, US Open",
-        "Wimbledon, US Open, Australian Open, French Open"
+        "French Open, Wimbledon, US Open, Australian Open",
+        "Wimbledon, US Open, Australian Open, French Open",
+        "Australian Open (Jan), French Open (May-Jun), Wimbledon (Jun-Jul), US Open (Aug-Sep)"
       ],
       "answer": "Australian Open (Jan), French Open (May-Jun), Wimbledon (Jun-Jul), US Open (Aug-Sep)",
       "explanation": "The Grand Slams in calendar order: Australian Open (January, hard), French Open (May-June, clay), Wimbledon (June-July, grass), US Open (August-September, hard). Winning all four in one year is the 'Grand Slam' — done by Steffi Graf (1988) and Rod Laver (1962, 1969).",
@@ -44,10 +44,10 @@
       "category": "Pop Culture",
       "question": "Which Studio Ghibli director made 'Spirited Away' (2001) — Japan's highest-grossing film and an Academy Award winner?",
       "options": [
-        "Satoshi Kon",
         "Hayao Miyazaki",
+        "Isao Takahata",
         "Mamoru Hosoda",
-        "Isao Takahata"
+        "Satoshi Kon"
       ],
       "answer": "Hayao Miyazaki",
       "explanation": "Miyazaki co-founded Studio Ghibli in 1985. Spirited Away (2001) won the Best Animated Feature Oscar and is Japan's highest-grossing film. He was awarded an Honorary Oscar in 2014. Has announced retirement multiple times.",
@@ -57,10 +57,10 @@
       "category": "Geography",
       "question": "Where does the Nile Delta — where the Nile meets the Mediterranean — sit?",
       "options": [
-        "The Sinai Peninsula",
+        "Sudan",
         "Libya",
         "Northern Egypt",
-        "Sudan"
+        "The Sinai Peninsula"
       ],
       "answer": "Northern Egypt",
       "explanation": "The Nile Delta fans across northern Egypt — approximately 240 km of Mediterranean coastline and 22,000 km² of fertile land. The Aswan High Dam now blocks the sediment that built and sustained the delta.",
@@ -70,10 +70,10 @@
       "category": "History",
       "question": "John Calvin established a theocracy in which Swiss city from 1541, influencing the Scottish Kirk, Dutch Reformed Church, and American Puritanism?",
       "options": [
-        "Bern",
         "Geneva",
         "Basel",
-        "Zurich"
+        "Zurich",
+        "Bern"
       ],
       "answer": "Geneva",
       "explanation": "Calvin established a theocratic city-state in Geneva from 1541 until his death in 1564. His theology stressed predestination and Bible authority. It influenced Calvinist churches including the Scottish Kirk, Dutch Reformed Church, and American Puritan churches.",
@@ -109,10 +109,10 @@
       "category": "Geography",
       "question": "The Pacific Ocean is the Earth's largest ocean. How does it compare in size to all of Earth's land masses combined?",
       "options": [
-        "Larger than all land combined",
-        "Twice the size of all land combined",
         "About half the size of all land combined",
-        "Roughly equal to all land combined"
+        "Larger than all land combined",
+        "Roughly equal to all land combined",
+        "Twice the size of all land combined"
       ],
       "answer": "Larger than all land combined",
       "explanation": "The Pacific Ocean (165 million km²) is larger than all of Earth's land masses combined (~150 million km²). It contains the Mariana Trench (deepest point), the Ring of Fire, and the Great Pacific Garbage Patch.",
@@ -122,9 +122,9 @@
       "category": "History",
       "question": "Which physicist, who explained nuclear fission but was overlooked for the Nobel Prize, had element 109 (meitnerium) named after her?",
       "options": [
-        "Emmy Noether",
-        "Lise Meitner",
         "Marie Curie",
+        "Lise Meitner",
+        "Emmy Noether",
         "Rosalind Franklin"
       ],
       "answer": "Lise Meitner",
@@ -135,10 +135,10 @@
       "category": "Pop Culture",
       "question": "When did the Rolling Stones actually form, and what was their signature lips-and-tongue logo first used?",
       "options": [
-        "Formed 1960; logo from 1966",
+        "Formed 1965; logo designed 1974",
         "Formed 1964; logo designed 1969",
         "Formed 1962; logo designed 1971 by John Pasche",
-        "Formed 1965; logo designed 1974"
+        "Formed 1960; logo from 1966"
       ],
       "answer": "Formed 1962; logo designed 1971 by John Pasche",
       "explanation": "The Rolling Stones formed in 1962 when Jagger and Richards renewed their childhood friendship on a train. The famous lips and tongue logo was designed by John Pasche in 1971. Their 'A Bigger Bang' Tour (2005-07) grossed $558M — highest-grossing rock tour.",
@@ -148,10 +148,10 @@
       "category": "Sports",
       "question": "The Boston Celtics and Los Angeles Lakers both have 17 NBA championships each — what happened in 2024?",
       "options": [
-        "Celtics won their 18th, taking sole possession of the record",
-        "Golden State passed them both",
         "Lakers won their 18th",
-        "They tied again in the Finals"
+        "They tied again in the Finals",
+        "Golden State passed them both",
+        "Celtics won their 18th, taking sole possession of the record"
       ],
       "answer": "Celtics won their 18th, taking sole possession of the record",
       "explanation": "The Boston Celtics won their 18th NBA championship in 2024, breaking the tie with the Lakers and becoming the franchise with the most NBA titles outright. The Celtics had previously dominated the 1950s-60s with Bill Russell.",

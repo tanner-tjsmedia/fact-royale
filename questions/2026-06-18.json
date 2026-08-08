@@ -5,9 +5,9 @@
       "category": "History",
       "question": "On what date did the RMS Titanic sink in 1912?",
       "options": [
-        "April 10",
         "April 15",
         "May 2",
+        "April 10",
         "March 31"
       ],
       "answer": "April 15",
@@ -18,10 +18,10 @@
       "category": "History",
       "question": "The assassination of which Archduke triggered the start of World War I?",
       "options": [
-        "Archduke Otto",
-        "Archduke Karl",
         "Archduke Franz Ferdinand",
-        "Archduke Maximilian"
+        "Archduke Maximilian",
+        "Archduke Karl",
+        "Archduke Otto"
       ],
       "answer": "Archduke Franz Ferdinand",
       "explanation": "Archduke Franz Ferdinand of Austria-Hungary was assassinated in Sarajevo on June 28, 1914, by Gavrilo Princip, a Bosnian Serb nationalist. The assassination set off a chain of alliances and ultimatums that escalated into a world war within six weeks, ultimately claiming over 20 million lives.",
@@ -31,10 +31,10 @@
       "category": "History",
       "question": "At which battle was Napoleon Bonaparte finally defeated in 1815?",
       "options": [
-        "Battle of Waterloo",
+        "Battle of Trafalgar",
         "Battle of Austerlitz",
-        "Battle of Leipzig",
-        "Battle of Trafalgar"
+        "Battle of Waterloo",
+        "Battle of Leipzig"
       ],
       "answer": "Battle of Waterloo",
       "explanation": "Napoleon was decisively defeated at the Battle of Waterloo on June 18, 1815, by the Duke of Wellington's allied forces and Prussian troops. He was exiled to the remote island of Saint Helena in the South Atlantic, where he died in 1821. Waterloo gave us the phrase 'meeting your Waterloo.'",
@@ -44,8 +44,8 @@
       "category": "Sports",
       "question": "Muhammad Ali was born with which name?",
       "options": [
-        "Floyd Patterson",
         "Sonny Liston",
+        "Floyd Patterson",
         "Cassius Clay",
         "Malcolm Little"
       ],
@@ -57,10 +57,10 @@
       "category": "Sports",
       "question": "Joe DiMaggio set one of baseball's most unbreakable records in 1941. What did he accomplish, and how long has the record stood?",
       "options": [
-        "Hit 60 home runs in a single season, standing for 34 years",
         "Batted .406 for the season, the last player to hit .400 or above",
         "Drove in 184 runs in a single season, never approached since",
-        "Got a hit in 56 consecutive games — a record that has stood for over 80 years"
+        "Got a hit in 56 consecutive games — a record that has stood for over 80 years",
+        "Hit 60 home runs in a single season, standing for 34 years"
       ],
       "answer": "Got a hit in 56 consecutive games — a record that has stood for over 80 years",
       "explanation": "DiMaggio's 56-game hitting streak from May 15 to July 16, 1941, is widely considered baseball's most untouchable record. The closest anyone has come since is Pete Rose's 44-game streak in 1978. Statistically, the probability of any player replicating it under modern pitching conditions is astronomically small. DiMaggio was also hitting .408 during the streak.",
@@ -70,9 +70,9 @@
       "category": "Pop Culture",
       "question": "Which actor played the title role in The Godfather (1972)?",
       "options": [
-        "Al Pacino",
-        "Marlon Brando",
         "Jack Nicholson",
+        "Marlon Brando",
+        "Al Pacino",
         "Robert De Niro"
       ],
       "answer": "Marlon Brando",
@@ -83,10 +83,10 @@
       "category": "Pop Culture",
       "question": "Elvis Presley is commonly known by what royal nickname?",
       "options": [
-        "The King of Rock and Roll",
-        "The Duke of Rock",
         "The Prince of Soul",
-        "The Emperor of Pop"
+        "The Emperor of Pop",
+        "The King of Rock and Roll",
+        "The Duke of Rock"
       ],
       "answer": "The King of Rock and Roll",
       "explanation": "Elvis Presley earned the title 'The King of Rock and Roll' through his pioneering fusion of country, blues, and gospel that helped define the genre in the mid-1950s. He sold over one billion records worldwide — more than any other solo artist in history — and his Graceland estate in Memphis remains one of the most-visited private homes in America.",
@@ -96,9 +96,9 @@
       "category": "Pop Culture",
       "question": "Which band recorded 'Stairway to Heaven,' often cited as one of the greatest rock songs ever written?",
       "options": [
-        "Led Zeppelin",
-        "Black Sabbath",
         "The Who",
+        "Black Sabbath",
+        "Led Zeppelin",
         "Deep Purple"
       ],
       "answer": "Led Zeppelin",
@@ -109,10 +109,10 @@
       "category": "Geography",
       "question": "The Bosphorus Strait, which divides Istanbul between two continents, connects the Black Sea to which body of water?",
       "options": [
-        "Caspian Sea",
         "Red Sea",
-        "Sea of Marmara",
-        "Mediterranean Sea"
+        "Mediterranean Sea",
+        "Caspian Sea",
+        "Sea of Marmara"
       ],
       "answer": "Sea of Marmara",
       "explanation": "The Bosphorus (or Istanbul Strait) is a 31 km waterway separating European and Asian Istanbul. It connects the Black Sea in the north to the Sea of Marmara, which then links to the Aegean and Mediterranean via the Dardanelles Strait. Istanbul is the only major city in the world that straddles two continents, with the Bosphorus as the dividing line between Europe and Asia.",
@@ -122,10 +122,10 @@
       "category": "Science & Nature",
       "question": "What is the name of the Sun's outermost atmospheric layer, visible as a glowing halo during total solar eclipses — and paradoxically hotter than the Sun's surface?",
       "options": [
-        "Corona",
         "Chromosphere",
-        "Magnetosphere",
-        "Photosphere"
+        "Photosphere",
+        "Corona",
+        "Magnetosphere"
       ],
       "answer": "Corona",
       "explanation": "The corona is the Sun's outermost atmospheric layer, extending millions of kilometers into space. Paradoxically, it reaches temperatures of 1-3 million Kelvin, far hotter than the Sun's surface at about 5,778 Kelvin. Why the corona is so much hotter than the surface below it is one of astrophysics' longstanding mysteries. It is only visible to the naked eye during total solar eclipses, appearing as a white glowing halo.",
@@ -135,10 +135,10 @@
       "category": "Geography",
       "question": "Easter Island, famous for its nearly 1,000 giant stone Moai statues, is a territory of which country?",
       "options": [
-        "Peru",
-        "France",
         "Chile",
-        "New Zealand"
+        "France",
+        "New Zealand",
+        "Peru"
       ],
       "answer": "Chile",
       "explanation": "Easter Island (Rapa Nui in the indigenous language) lies about 3,700 km off Chile's coast in the southeastern Pacific Ocean and is a Chilean territory. The Moai were carved by the Rapa Nui people between roughly 1400 and 1650 CE. Nearly 1,000 statues were created, some weighing over 80 tons. The island's population and ecosystem collapsed, likely due to deforestation and resource depletion.",
@@ -148,9 +148,9 @@
       "category": "Science & Nature",
       "question": "What is the name of the fatty sheath surrounding nerve fibers that speeds up electrical signal transmission?",
       "options": [
+        "Dendrite coating",
         "Axon terminal",
         "Synapse",
-        "Dendrite coating",
         "Myelin sheath"
       ],
       "answer": "Myelin sheath",

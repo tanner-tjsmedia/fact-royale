@@ -1,132 +1,207 @@
 # Fact Royale — Content Standards
 
-Effective immediately. All new and revised questions must meet these.
-Run `python3 tools/validate-questions.py` before any push.
+**One gate.** Nothing is handed over until this passes:
+
+```bash
+python3 tools/preflight.py --week 2026-09-06
+```
+
+Exit 0 means shippable. Anything else means keep working. Do not ask whether a
+batch is clean — run the gate.
 
 ---
 
-## 1. Accuracy comes first
+## Why this document is a procedure
 
-Any factual error gets fixed the moment it's found, ahead of all other work.
+Every rule below was added after a specific failure that reached the user.
+The failures were not caused by not knowing the rules. They were caused by
+checking the rules *after* writing instead of applying them *while* writing.
 
-Avoid claims that go stale. "The current world record is X" will be wrong within a
-year or two. Prefer facts anchored to a fixed event: what happened, who did it,
-why it mattered. If a record must be referenced, tie it to the specific race and
-year rather than presenting it as the standing record.
+Checking afterwards guarantees a review cycle. The order of operations below
+exists to make the review a formality.
 
 ---
 
-## 2. Answer options: 60 characters
+## The writing procedure
+
+Follow in this order. Steps 1 and 2 are the ones that get skipped, and skipping
+them is what causes rework.
+
+### 1. Check the topic is unused — with the tool, not grep
+
+```bash
+python3 tools/find-duplicates.py 0.42 2026-09
+```
+
+`grep -il "Fosbury"` matches distractor text and explanations and will report a
+topic as unused when it has already been asked three times. That exact mistake
+put the Fosbury Flop into the corpus twice and Miracle on Ice six times.
+
+### 2. Decide whether the claim can expire
+
+If the answer involves a **record, a count, a current holder, or a superlative**,
+either verify it against a source now or reframe the question so it cannot go
+stale. This category has produced **every factual error found so far**:
+
+| Written | Reality | Failure mode |
+|---|---|---|
+| Saturn has "over 140 confirmed moons" | 274 since March 2025 | Correct once, then moved 130 |
+| "Only woman to win the Palme d'Or" | Three have — 1993, 2021, 2023 | Superlative quietly expired |
+| "More golds than around 160 nations" | 66 | Number reached for, not known |
+| "Fallen roughly 40% since 1979" | ~12% per decade | Overstated to sound sharper |
+
+Reframing beats verifying. "Saturn has N moons" expires; "why is Saturn's moon
+count awkward to state" does not, and is a better question.
+
+### 3. Write the four options at equal length *before* settling which is correct
+
+The correct answer accumulates qualifiers — dates, hedges, "roughly",
+"primarily" — because being precisely right takes more words than being vaguely
+wrong. Write the answer first and it ends up longest every time.
+
+Measured at **53% corpus-wide** against 25% for random. In one batch written
+while actively trying to avoid this, it hit **61%**. Order of operations is the
+only reliable fix.
+
+### 4. Write the prompt to carry the setup
+
+Context goes in the question, where it is read once, not repeated across four
+options where it is read four times.
+
+**Ratio = mean option length ÷ prompt length.**
+
+| Ratio | Meaning |
+|---|---|
+| under 0.20 | One-word recall. The question teaches nothing. |
+| **0.30 – 0.90** | **Target.** |
+| over 1.30 | Answers dwarf the question. This is the readability complaint. |
+
+### 5. Run the gate
+
+---
+
+## Hard limits
 
 | Rule | Limit |
 |---|---|
-| Target length | **≤ 60 characters** |
-| Hard ceiling | **80 characters** |
-| Max spread within a question | **35 characters** (longest minus shortest) |
+| Option length | 120 characters |
+| Spread within a question | 45 characters |
+| Answer longer than next-longest | 5 characters |
+| Ratio | 0.20 – 1.30 |
+| Reading load per day | 5,500 characters (~4,300 target) |
+| Answer position | 25% each, ±9 |
+| Category balance | History 3, Pop Culture 3, Sports 2, Geography 2, Science 2 |
 
-The spread rule matters more than the absolute length. If the correct answer is
-150 characters and the three distractors are 50, a player can pick the right one
-without reading a word. This was measured at **78% in December 2026 content** —
-against 25% for random guessing. That isn't a quiz, it's a formatting tell.
-
-**Depth belongs in `explanation` and `memory_hook`, never in the options.**
-Options only need to be distinguishable enough to make the choice meaningful.
-The learning happens after the answer is locked in.
-
-### Why this drifts
-
-Correct answers get written first and accumulate every qualifier needed to be
-defensibly right: dates, hedges, "roughly," "primarily." Distractors get written
-second as obviously-wrong things, and wrong needs no qualifying. Being precisely
-right takes more words than being vaguely wrong. Left unchecked, that asymmetry
-compounds on every single question.
-
-**Counter-practice:** write the four options at roughly equal length *first*,
-then verify the correct one is actually correct. Not the other way around.
+**Accuracy overrides every one of these.** If a question needs 110 characters
+to be correct and unambiguous, it gets 110. The limits exist to stop padding,
+not to force questions into being vague or wrong.
 
 ---
 
-## 3. Distractors must be plausible
+## Accuracy rules
 
-A distractor should be something a reasonably informed person might believe.
+**A trivia platform that is not reliably true has no reason to exist.** This
+section outranks everything else in this document.
 
-- Not absurd ("The Moon is made of cheese")
-- Not a near-duplicate of the correct answer with one word changed
-- Not eliminable purely by grammar, tone, or specificity
+### Sourcing bar
+
+Every question carries a `sources` array. The gate blocks without it.
+
+**One authoritative source, OR two independent weaker ones.** One source proves
+nothing — you can find a source for almost any claim, including false ones. Two
+links to the same wire story are one source.
+
+| Tier | Examples | Sufficient alone? |
+|---|---|---|
+| **Authoritative** | Peer-reviewed journals, `.gov` and `.edu`, NASA, NOAA, WHO, UNESCO, IAU, national archives, Britannica, and governing bodies **on their own records** (MLB for MLB, IOC for Olympic) | **Yes** |
+| **Secondary** | Reputable news and trade press, museum and university outreach pages, established reference sites | Only in pairs, different outlets |
+| **Unreliable** | Content farms, SEO listicles, tourism marketing, Quora, Reddit, personal blogs | **Never**, even in pairs |
+
+Wikipedia is for *finding* primary sources, not for being one.
+
+Judged against this bar, the first eight claims verified in this project scored
+three passes and five fails. Volume of sources was never the issue; quality was.
+
+### Writing rules
+
+1. **Settled facts stated as settled.**
+2. **Unsettled things stated as unsettled.** The Hubble tension, coronal
+   heating, whether Harold took an arrow in the eye — flag the dispute rather
+   than picking a side.
+3. **Never reach for a number to make a sentence land.** If the figure isn't
+   known, look it up or drop it. This produced the Phelps error: "around 160
+   nations" was invented; the real answer was 66.
+4. **Ranges beat false precision.** "1,200 to 1,500 Uros" is honest; "1,200"
+   was not.
+5. **Cite the year for anything time-bound.** "Kipchoge ran 2:01:09 at Berlin in
+   2022" survives; "the world record is 2:01:09" does not.
+
+### Source record format
+
+```json
+"sources": [
+  {"claim":  "what specifically this source establishes",
+   "source": "https://...",
+   "checked": "2026-08-08"}
+]
+```
+
+Record the claim, not just the link, so a future check knows what was verified
+rather than re-deriving it.
 
 ---
 
-## 4. Answer position
+## Distractors
 
-Correct answers must be distributed evenly across positions 0–3.
-Historical content had 38% sitting in position 1. The shuffle pass in
-`tools/` corrects this; re-run it after any batch of edits.
-
----
-
-## 5. Category balance (per file, exactly 12 questions)
-
-| Category | Count |
-|---|---|
-| History | 3 |
-| Pop Culture | 3 |
-| Sports | 2 |
-| Geography | 2 |
-| Science & Nature | 2 |
-
-If a replacement changes a question's category, another question must move to
-compensate. The validator enforces this — earlier passes only checked Geography
-and Science, which let three imbalances through undetected.
+- Plausible enough that an informed person might pick one
+- Not a near-duplicate of the answer with one word changed
+- Not eliminable by grammar, tone or specificity alone
+- At least one should be longer than the correct answer
 
 ---
 
-## 6. Subject matter
+## Subject matter
 
-**Sports** — favour boxing, soccer, American football, baseball, basketball,
-athletics, Olympic history. Keep cricket, golf, and rugby sparse.
+**Sports** — boxing, soccer, American football, baseball, basketball,
+athletics, Olympic history. Cricket, golf and rugby sparse.
 
-**Pop Culture** — visual art, photography, architecture, music, and prestige
-television are all preferred over film trivia. Never "which actor played X" or
-"who directed Y"; ask about the work, the technique, or the controversy.
+**Pop Culture** — visual art, photography, architecture, music, prestige TV
+over film trivia. Never "which actor played X" or "who directed Y". Ask about
+the work, the technique, or the controversy.
 
-**Science & Nature** — astronomy sits at roughly 25% of the category.
+**Science & Nature** — astronomy around 25% of the category.
 
-**History** — broad global coverage. European, including German and Dutch, is
-welcome and currently well represented.
+**History** — broad global coverage; European including German and Dutch is
+well represented.
 
 **Geography** — physical geography and the human systems built on it, not
 capital-city recall.
 
----
-
-## 7. Question prompts
-
-The prompt carries the context so the options don't have to. A prompt may run
-two sentences when the topic genuinely needs setup. Prefer one.
-
-Bad:  *Which director made 'The 400 Blows' and 'Jules and Jim'?*
-Good: *What did the French New Wave change about how films were shot?*
-
-The first tests whether you happen to know a name. The second tests whether you
-understand something, and teaches the reader either way.
+**Memory hooks** — three sentences is fine. This is where the teaching happens
+and the one field where length is a feature.
 
 ---
 
-## 8. Memory hooks
-
-Three sentences is fine and often better — the extra context is the point.
-This is the one field where length is a feature.
-
----
-
-## Validation
+## Tooling
 
 ```bash
-python3 tools/validate-questions.py           # whole corpus
-python3 tools/validate-questions.py 2026-11   # one month
+python3 tools/preflight.py --week 2026-09-06   # the gate. run this.
+python3 tools/preflight.py 2026-09             # a month
+python3 tools/preflight.py --all               # everything incl. past
+
+python3 tools/find-duplicates.py 0.42 2026-09  # before writing replacements
+python3 tools/audit-claims.py --risk high      # claims worth sourcing
+python3 tools/build-review.py --base <commit>  # before/after HTML diff
 ```
 
-Checks structure, category balance, answer-in-options, option length, length
-spread, and reports the "longest option is the answer" exploit rate.
+`review.html` on the live site runs the same checks with adjustable thresholds,
+admin-gated, readable from a phone.
 
-Exit code is non-zero if anything fails. **Nothing ships red.**
+---
+
+## Reference
+
+`questions/2026-11-24.json` was the day rebuilt to demonstrate the target, then
+deleted with the November trim. The live reference is any day between
+**2026-08-09 and 2026-09-05** — four weeks that pass the gate with zero blocking
+issues.

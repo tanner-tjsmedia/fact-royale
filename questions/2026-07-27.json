@@ -6,9 +6,9 @@
       "question": "The Byzantine Empire, which preserved Roman culture and law for over a thousand years after Rome's fall, finally collapsed in 1453 when which power conquered Constantinople?",
       "options": [
         "Persian Empire",
-        "Mongol Empire",
         "Venetian Republic",
-        "Ottoman Empire"
+        "Ottoman Empire",
+        "Mongol Empire"
       ],
       "answer": "Ottoman Empire",
       "explanation": "The Byzantine Empire ended on May 29, 1453, when Ottoman Sultan Mehmed II captured Constantinople. The city was renamed Istanbul and became the Ottoman capital. The fall is often cited as the end of the Middle Ages and triggered a migration of scholars to western Europe that fueled the Renaissance.",
@@ -18,10 +18,10 @@
       "category": "History",
       "question": "The French Revolution began in which year?",
       "options": [
-        "1793",
         "1789",
-        "1804",
-        "1776"
+        "1776",
+        "1793",
+        "1804"
       ],
       "answer": "1789",
       "explanation": "The French Revolution began in 1789 with the storming of the Bastille on July 14 — now celebrated as Bastille Day. It ended the absolute monarchy in France and established the principles of liberty, equality, and fraternity. The Revolution eventually gave rise to Napoleon Bonaparte, who declared himself Emperor in 1804.",
@@ -32,9 +32,9 @@
       "question": "Which South American country contains approximately 60% of the Amazon Rainforest and is home to a river that discharges more freshwater into the ocean than the next seven largest rivers combined?",
       "options": [
         "Venezuela",
+        "Peru",
         "Brazil",
-        "Colombia",
-        "Peru"
+        "Colombia"
       ],
       "answer": "Brazil",
       "explanation": "About 60% of the Amazon Rainforest lies within Brazil, with the remainder spread across Peru, Colombia, Venezuela, Ecuador, Bolivia, and other nations. The Amazon River discharges approximately 20% of all freshwater that flows into Earth's oceans. The rainforest is home to an estimated 10% of all species on Earth and plays a critical role in regulating global climate. The Amazon Basin covers 7 million square kilometers.",
@@ -44,10 +44,10 @@
       "category": "History",
       "question": "Operation Overlord — the largest seaborne invasion in history — took place on June 6, 1944. By what name is this pivotal World War II event commonly known?",
       "options": [
-        "Battle of the Bulge",
-        "Operation Market Garden",
+        "Operation Barbarossa",
         "D-Day",
-        "Operation Barbarossa"
+        "Operation Market Garden",
+        "Battle of the Bulge"
       ],
       "answer": "D-Day",
       "explanation": "D-Day (June 6, 1944) saw Allied forces land on five beaches in Normandy, France — code-named Utah, Omaha, Gold, Juno, and Sword. Over 156,000 troops crossed the English Channel. The invasion opened a Western Front that accelerated Nazi Germany's defeat.",
@@ -57,10 +57,10 @@
       "category": "Sports",
       "question": "The FIFA World Cup is held every how many years?",
       "options": [
+        "3 years",
         "5 years",
-        "2 years",
         "4 years",
-        "3 years"
+        "2 years"
       ],
       "answer": "4 years",
       "explanation": "The FIFA World Cup takes place every four years, with the host country chosen years in advance by FIFA. The first World Cup was held in 1930 in Uruguay. The tournament features 32 national teams (expanded to 48 starting in 2026) competing over about a month. Brazil has won the most titles with five championships.",
@@ -71,8 +71,8 @@
       "question": "In tennis, what is the term for winning a game without the opponent scoring a single point?",
       "options": [
         "Ace",
-        "Bagel",
         "Love game",
+        "Bagel",
         "Shutout"
       ],
       "answer": "Love game",
@@ -83,10 +83,10 @@
       "category": "Pop Culture",
       "question": "Ansel Adams's black-and-white photographs of the American West — particularly Yosemite — are among the most recognized landscape images in history. What was his lasting contribution beyond aesthetics?",
       "options": [
-        "Adams documented Native American displacement from Yosemite Valley, making his work both an aesthetic and political archive of 20th-century conservation battles",
+        "Adams pioneered the use of color in landscape photography, later abandoning it to work in black-and-white as a political statement against commercial photography's commercialization of nature",
         "Adams was the first photographer to successfully sue for copyright protection of landscape photographs, establishing legal precedent that photography was a fine art equal to painting",
         "Adams invented the Zone System — a technical framework for controlling exposure and development — that became the definitive standard for fine art black-and-white photography for decades",
-        "Adams pioneered the use of color in landscape photography, later abandoning it to work in black-and-white as a political statement against commercial photography's commercialization of nature"
+        "Adams documented Native American displacement from Yosemite Valley, making his work both an aesthetic and political archive of 20th-century conservation battles"
       ],
       "answer": "Adams invented the Zone System — a technical framework for controlling exposure and development — that became the definitive standard for fine art black-and-white photography for decades",
       "explanation": "Adams co-developed the Zone System with Fred Archer in 1940 — a method for precisely controlling the relationship between exposure, development, and the final print's tonal range, from Zone 0 (pure black) to Zone X (pure white). Beyond technique, Adams's images of Yosemite, the Sierra Nevada, and national parks played a direct role in the conservation movement — he was a passionate Sierra Club advocate. His Moonrise, Hernandez, New Mexico (1941) became one of the most reproduced fine-art photographs, with prints selling for over $600,000.",
@@ -96,10 +96,10 @@
       "category": "Pop Culture",
       "question": "David Bowie performed under a flamboyant alien rock star alter ego from 1972 to 1973, retiring the character dramatically mid-tour. What was this persona called?",
       "options": [
+        "Ziggy Stardust",
         "Aladdin Sane",
-        "Major Tom",
         "Thin White Duke",
-        "Ziggy Stardust"
+        "Major Tom"
       ],
       "answer": "Ziggy Stardust",
       "explanation": "Ziggy Stardust was David Bowie's androgynous alien rock star persona, introduced on the 1972 album 'The Rise and Fall of Ziggy Stardust and the Spiders from Mars.' Bowie famously 'killed' Ziggy Stardust mid-concert at the Hammersmith Odeon in 1973, shocking his band, who didn't know in advance.",
@@ -109,10 +109,10 @@
       "category": "Pop Culture",
       "question": "Which 1994 Quentin Tarantino film features a hitman duo, a Royale with Cheese, and a briefcase with a mysterious glow?",
       "options": [
-        "Pulp Fiction",
-        "Kill Bill",
         "Reservoir Dogs",
-        "Jackie Brown"
+        "Kill Bill",
+        "Jackie Brown",
+        "Pulp Fiction"
       ],
       "answer": "Pulp Fiction",
       "explanation": "Pulp Fiction (1994) is Quentin Tarantino's landmark film starring John Travolta, Samuel L. Jackson, Uma Thurman, and Bruce Willis. The non-linear narrative follows interconnected stories of crime and redemption. It revitalized Travolta's career, was nominated for 7 Academy Awards (winning Best Original Screenplay), and is frequently listed among the greatest films ever made.",
@@ -123,8 +123,8 @@
       "question": "Which subatomic particle, discovered by James Chadwick in 1932, has no electric charge and is found in the nucleus of every atom except the most common form of hydrogen?",
       "options": [
         "Quark",
-        "Neutron",
         "Electron",
+        "Neutron",
         "Proton"
       ],
       "answer": "Neutron",
@@ -135,10 +135,10 @@
       "category": "Science & Nature",
       "question": "The James Webb Space Telescope's 2022 image of the 'Pillars of Creation' revealed details invisible to Hubble. What are the Pillars of Creation, and what does the Webb image show?",
       "options": [
-        "The Pillars are towering columns of interstellar gas and dust in the Eagle Nebula where new stars are actively forming — Webb's infrared penetrated the dust to reveal hundreds of newly forming protostars invisible in Hubble's optical images",
-        "The Pillars are ancient stone formations on Mars photographed from orbit — Webb's infrared imaging revealed that they contain water ice in their interior, the first confirmed water deposits on Mars in 3 billion years",
+        "The Pillars are a gravitational anomaly in the Milky Way where dark matter concentrations are unusually high — Webb was able to map them for the first time using gravitational lensing of background galaxies",
         "The Pillars are fossilized supernova remnants from three stars that exploded simultaneously — Webb revealed the complex organic chemistry within them, suggesting they may contain the building blocks of life",
-        "The Pillars are a gravitational anomaly in the Milky Way where dark matter concentrations are unusually high — Webb was able to map them for the first time using gravitational lensing of background galaxies"
+        "The Pillars are ancient stone formations on Mars photographed from orbit — Webb's infrared imaging revealed that they contain water ice in their interior, the first confirmed water deposits on Mars in 3 billion years",
+        "The Pillars are towering columns of interstellar gas and dust in the Eagle Nebula where new stars are actively forming — Webb's infrared penetrated the dust to reveal hundreds of newly forming protostars invisible in Hubble's optical images"
       ],
       "answer": "The Pillars are towering columns of interstellar gas and dust in the Eagle Nebula where new stars are actively forming — Webb's infrared penetrated the dust to reveal hundreds of newly forming protostars invisible in Hubble's optical images",
       "explanation": "The Pillars of Creation, located in the Eagle Nebula about 6,500 light-years away, were first photographed by Hubble in 1995 — that image became one of the most famous astronomical photographs ever taken. Hubble's optical light couldn't penetrate the dust columns. Webb's mid-infrared camera saw through the dust entirely, revealing hundreds of newly forming stars (protostars) embedded within the columns — stars invisible in the Hubble image. Webb also detected a supersonic jet from a young star punching through one of the columns. The columns themselves are measured in light-years — the tallest is 4 light-years high.",
@@ -148,10 +148,10 @@
       "category": "Geography",
       "question": "Fiji, an archipelago of about 330 islands in the South Pacific, is the largest economy in which sub-region?",
       "options": [
-        "Micronesia",
         "Polynesia",
+        "Melanesia",
         "Australasia",
-        "Melanesia"
+        "Micronesia"
       ],
       "answer": "Melanesia",
       "explanation": "Fiji is the largest economy in Melanesia, the sub-region of the Pacific that includes Papua New Guinea, Solomon Islands, Vanuatu, and New Caledonia. Fiji consists of 330 islands (about 110 inhabited) with roughly 900,000 people. Its population is ethnically diverse — about 57% iTaukei (indigenous Fijian, of Melanesian descent) and 37% Indo-Fijian (descendants of laborers brought by Britain from India in the 1800s). Fiji is known for rugby sevens, where it won an Olympic gold medal in 2016.",

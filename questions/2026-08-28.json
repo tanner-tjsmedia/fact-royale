@@ -3,103 +3,110 @@
   "questions": [
     {
       "category": "History",
-      "question": "The Great Wall of China, stretching thousands of kilometers, was primarily built to protect against invasions from which direction?",
+      "question": "The Great Wall of China is often said to be visible from space. Is it?",
       "options": [
-        "South",
-        "East",
-        "West",
-        "North"
+        "Yes, but only at sunrise when the shadows lengthen it",
+        "No, and astronauts have repeatedly confirmed you cannot",
+        "Yes, it is the only human structure visible from orbit",
+        "No, but the Grand Canal beside it is clearly visible"
       ],
-      "answer": "North",
-      "explanation": "The Great Wall was built and rebuilt over centuries to defend against nomadic peoples from the north, including the Xiongnu, Mongols, and Jurchen. The wall runs roughly east-west across northern China. Much of what tourists see today was built during the Ming Dynasty (1368-1644).",
-      "memory_hook": "Great Wall: built against northern nomads. Most visible sections are Ming Dynasty."
+      "answer": "No, and astronauts have repeatedly confirmed you cannot",
+      "explanation": "The wall is long but only a few metres wide and built from local material that blends into the surrounding land, so it is effectively invisible from orbit. Chinese astronaut Yang Liwei said plainly that he could not see it. The claim predates spaceflight entirely, appearing in print in the 1930s. Cities, airports and reservoirs are far easier to spot. The wall is also not one continuous structure but many walls built across centuries.",
+      "memory_hook": "It is long but only a few metres wide, built from local materials that blend into the ground, so no. Chinese astronaut Yang Liwei confirmed he could not see it. The myth predates spaceflight, appearing in print in the 1930s. Cities and airports are easy to see; the wall is not."
     },
     {
       "category": "Science & Nature",
-      "question": "What is the name of the subatomic particle with a positive electric charge that is found in the nucleus of an atom?",
+      "question": "A proton carries positive charge. What did the discovery of quarks reveal about it?",
       "options": [
-        "Electron",
-        "Neutron",
-        "Positron",
-        "Proton"
+        "It can decay into a neutron under normal conditions",
+        "It is identical to a neutron with an electron attached",
+        "Its charge varies depending on the surrounding atom",
+        "It is not fundamental but made of three smaller particles"
       ],
-      "answer": "Proton",
-      "explanation": "An atom's nucleus contains protons (positive charge) and neutrons (no charge). Electrons (negative charge) orbit the nucleus. The number of protons in an atom — its atomic number — determines which element it is. Hydrogen has 1 proton, carbon has 6, gold has 79.",
-      "memory_hook": "Proton = positive, in nucleus. Number of protons = atomic number = which element."
+      "answer": "It is not fundamental but made of three smaller particles",
+      "explanation": "A proton contains two up quarks and one down quark bound by gluons. Oddly, those quarks account for only about 1% of the proton's mass; the rest comes from the energy of the binding itself, which is mass-energy equivalence doing real work in your own atoms. Quarks cannot be isolated: pull them apart and the energy creates new quarks instead. Free protons appear to be stable, with a measured lifetime exceeding the age of the universe.",
+      "memory_hook": "Two up quarks and one down, held by gluons. The quarks are only about 1% of the mass; the rest is the binding energy itself, which is E=mc² operating inside you right now. You cannot pull a quark out, because the energy of trying just makes new ones."
     },
     {
       "category": "Sports",
-      "question": "Which golfer, nicknamed 'The Golden Bear,' won 18 major championships — the most in professional golf history?",
+      "question": "Jack Nicklaus won 18 majors. What is less well known about his record?",
       "options": [
-        "Tiger Woods",
-        "Gary Player",
-        "Arnold Palmer",
-        "Jack Nicklaus"
+        "He played only sixty tournaments in his entire career",
+        "He never won a major outside the United States",
+        "He won them all before the age of thirty",
+        "He finished runner-up in majors 19 times, more than he won"
       ],
-      "answer": "Jack Nicklaus",
-      "explanation": "Jack Nicklaus won 18 major championships between 1962 and 1986, including 6 Masters titles. Tiger Woods won 15 majors before injuries derailed his career. Nicklaus designed over 300 golf courses worldwide after retiring from competition.",
-      "memory_hook": "Jack Nicklaus: 18 majors. 'The Golden Bear.' Tiger at 15 couldn't catch him."
+      "answer": "He finished runner-up in majors 19 times, more than he won",
+      "explanation": "Nicklaus has 18 wins and 19 second-place finishes, so he was in contention on the final day of a major an extraordinary number of times across a career spanning 1962 to 1986. He won the Masters in 1986 at forty-six, still the oldest champion. Tiger Woods stalled on 15 after injuries. Nicklaus also designed over 300 golf courses, which occupied more of his working life than playing did.",
+      "memory_hook": "18 wins and 19 runner-up finishes, so he was in contention on Sunday more than anyone. He won the Masters at forty-six in 1986, still the oldest. Woods stalled on 15 with injuries. Nicklaus has also designed over 300 courses, which took up more of his career than playing."
     },
     {
       "category": "Pop Culture",
-      "question": "Which 1990 Martin Scorsese film, based on a true story of a FBI informant in the New York mob, features Ray Liotta and Robert De Niro?",
+      "question": "Goodfellas (1990) follows a real FBI informant. What happened to Henry Hill afterward?",
       "options": [
-        "Casino",
-        "The Irishman",
-        "The Departed",
-        "Goodfellas"
+        "He was never identified and still lives anonymously today",
+        "He died in prison shortly before the film was released",
+        "He successfully sued Scorsese over how he was portrayed",
+        "He was thrown out of witness protection for more crimes"
       ],
-      "answer": "Goodfellas",
-      "explanation": "Goodfellas (1990) tells the story of Henry Hill, a mobster-turned-FBI-informant played by Ray Liotta. The film is famous for its tracking shot through the Copacabana and was based on Nicholas Pileggi's book 'Wiseguy.' It is often cited as one of the greatest films ever made.",
-      "memory_hook": "Goodfellas 1990: Scorsese, Liotta, De Niro. Henry Hill story. Copacabana one-take shot."
+      "answer": "He was thrown out of witness protection for more crimes",
+      "explanation": "Hill kept getting arrested on drug charges and was expelled from the programme in the early 1990s, after which he lived openly, gave interviews and appeared on radio. He died in 2012. New York's Son of Sam law was meant to stop criminals profiting from their stories, and the Supreme Court struck it down in 1991 in a case arising directly from the book Goodfellas was based on.",
+      "memory_hook": "He kept getting arrested on drug charges and got thrown out of witness protection, then lived openly giving interviews until he died in 2012. New York's law against criminals profiting from their stories was struck down by the Supreme Court in a case about this exact book."
     },
     {
       "category": "Geography",
-      "question": "Which ocean is the smallest and shallowest of the world's five oceans?",
+      "question": "The Arctic Ocean is the smallest and shallowest. What is happening to its ice?",
       "options": [
-        "Atlantic Ocean",
-        "Southern Ocean",
-        "Arctic Ocean",
-        "Indian Ocean"
+        "September extent is down around 12% per decade since 1979",
+        "It has thickened as heavier snow falls each winter now",
+        "It now melts away completely every single September",
+        "It has held steady while Antarctic sea ice has shrunk"
       ],
-      "answer": "Arctic Ocean",
-      "explanation": "The Arctic Ocean covers about 14.06 million km² — about 1.5 times the size of the United States. It is almost entirely surrounded by North America, Europe, and Asia. Much of its surface is covered by sea ice year-round, though climate change is dramatically reducing Arctic ice extent.",
-      "memory_hook": "Arctic Ocean: world's smallest. Almost completely surrounded by land. Shrinking with climate change."
+      "answer": "September extent is down around 12% per decade since 1979",
+      "explanation": "Satellite records since 1979 show the September minimum falling roughly 12 to 13% per decade, and the 2010s average was about 36% below the 1980s. The remaining ice is also younger and thinner, with most multi-year ice gone. This drives a feedback: white ice reflects sunlight while dark water absorbs it, so melting accelerates further melting. The Arctic is warming several times faster than the global average.",
+      "memory_hook": "September ice is falling about 12% per decade since 1979, and the 2010s ran roughly 36% below the 1980s. What remains is thinner and younger. White ice reflects sunlight, dark water absorbs it, so melting feeds melting. The Arctic warms several times faster than the rest of the planet.",
+      "sources": [
+        {
+          "claim": "September Arctic sea ice declining ~12-13% per decade since 1979; 2010s ~36% below 1980s",
+          "source": "https://www.climate.gov/news-features/understanding-climate/climate-change-arctic-sea-ice-summer-minimum",
+          "checked": "2026-08-08"
+        }
+      ]
     },
     {
       "category": "History",
-      "question": "The assassination of Archduke Franz Ferdinand in Sarajevo in 1914 triggered which conflict?",
+      "question": "Franz Ferdinand's assassination triggered the First World War. What nearly prevented it?",
       "options": [
-        "World War I",
-        "The Balkan Wars",
-        "The Russo-Japanese War",
-        "World War II"
+        "Guards arrested the assassin an hour before the parade",
+        "He cancelled the visit and was persuaded to reinstate it",
+        "The motorcade route was changed and kept secret",
+        "The first attempt failed and his driver took a wrong turn"
       ],
-      "answer": "World War I",
-      "explanation": "Archduke Franz Ferdinand, heir to the Austro-Hungarian throne, was shot by Gavrilo Princip on June 28, 1914. Austria-Hungary blamed Serbia, triggering a chain of alliances that drew Russia, Germany, France, and Britain into war. The war lasted four years and killed approximately 20 million people.",
-      "memory_hook": "Franz Ferdinand shot June 28, 1914 → WWI. Alliance chain reaction within weeks."
+      "answer": "The first attempt failed and his driver took a wrong turn",
+      "explanation": "A bomb thrown that morning bounced off the car and wounded others. Franz Ferdinand insisted on visiting the injured in hospital, the route changed, and the driver was not told, took a wrong turn, and stopped to reverse directly in front of Gavrilo Princip, who had given up and gone for a sandwich. The chain of accidents is why the event is a standard example of contingency in history.",
+      "memory_hook": "A bomb that morning bounced off the car. He insisted on visiting the wounded, the route changed, nobody told the driver, and he took a wrong turn and stopped to reverse right in front of Princip, who had given up and gone to get a sandwich."
     },
     {
       "category": "Pop Culture",
-      "question": "Which Canadian actor starred as Tony Stark/Iron Man across 10 Marvel Cinematic Universe films?",
+      "question": "Robert Downey Jr played Iron Man for over a decade. Why did Marvel almost not cast him?",
       "options": [
-        "Chris Evans",
-        "Chris Pratt",
-        "Robert Downey Jr.",
-        "Mark Ruffalo"
+        "He was uninsurable after years of drug arrests and jail",
+        "He was contractually tied to a rival studio",
+        "He had never appeared in an action film before",
+        "He demanded a share of merchandising Marvel refused"
       ],
-      "answer": "Robert Downey Jr.",
-      "explanation": "Robert Downey Jr. first played Tony Stark in Iron Man (2008), which launched the Marvel Cinematic Universe. He appeared in 10 MCU films before his character's death in Avengers: Endgame (2019). His casting was considered a risk given his past personal struggles, but became one of Hollywood's greatest casting decisions.",
-      "memory_hook": "RDJ = Tony Stark / Iron Man. 10 MCU films, 2008-2019. Launched the MCU."
+      "answer": "He was uninsurable after years of drug arrests and jail",
+      "explanation": "Downey had multiple arrests and a prison term in the late 1990s and was effectively unemployable in studio films. Jon Favreau pushed hard for him and Marvel eventually agreed to a screen test. He was paid around $500,000 for the first film and reportedly over $50 million for later appearances once profit participation kicked in. The casting is widely credited with making the entire Marvel Cinematic Universe viable.",
+      "memory_hook": "Multiple arrests and a prison term had left him uninsurable and unemployable in studio films. Favreau fought for him and Marvel finally allowed a screen test. He got about $500,000 for the first film and reportedly over $50 million for later ones once the profit share kicked in."
     },
     {
       "category": "Science & Nature",
       "question": "The ISS has been continuously crewed since November 2000. Which description of it is accurate?",
       "options": [
+        "Built whole in the Mojave, launched on a Saturn V",
         "408 km up, 16 orbits a day, 271 people from 21 nations",
         "Assembled in one 1998 Shuttle mission by 150 astronauts",
-        "It spins at 2.4 rpm to produce Earth-normal gravity",
-        "Built whole in the Mojave, launched on a Saturn V"
+        "It spins at 2.4 rpm to produce Earth-normal gravity"
       ],
       "answer": "408 km up, 16 orbits a day, 271 people from 21 nations",
       "explanation": "The ISS is as large as a football field (109 meters end to end) and weighs 420,000 kg. At 28,000 km/h, it experiences 16 sunrises and sunsets per day. It was assembled module by module over 13 years of missions (1998–2011) involving 42 Space Shuttle flights and Russian Soyuz missions. Astronauts on six-month missions experience significant muscle and bone loss from microgravity, requiring daily exercise. The ISS hosts research in medicine, physics, materials science, and Earth observation. Its orbit is visible to the naked eye — NASA's 'Spot the Station' app predicts passes.",
@@ -107,55 +114,55 @@
     },
     {
       "category": "Geography",
-      "question": "Lake Baikal in Russia is the world's deepest lake at 1,642 meters. What percentage of Earth's unfrozen surface freshwater does it contain?",
+      "question": "Lake Baikal holds about 20% of the world's unfrozen fresh water. What makes it so deep?",
       "options": [
-        "20%",
-        "50%",
-        "10%",
-        "5%"
+        "It sits in a continental rift that is still pulling apart",
+        "A meteor impact excavated the basin 25 million years ago",
+        "It is a collapsed volcanic caldera filled by rivers",
+        "Glaciers scoured it out during the last ice age"
       ],
-      "answer": "20%",
-      "explanation": "Lake Baikal holds approximately 20% of the world's unfrozen surface freshwater — more than all of North America's Great Lakes combined. It is also the world's oldest lake at 25-30 million years old and has over 1,700 endemic species, including the Baikal seal (nerpa) — the world's only exclusively freshwater seal.",
-      "memory_hook": "Baikal: deepest lake, 1,642m, holds 20% of world's unfrozen freshwater. Freshwater seals."
+      "answer": "It sits in a continental rift that is still pulling apart",
+      "explanation": "Baikal lies in an active rift where the crust is separating by about two centimetres a year, deepening the basin faster than sediment fills it. At 1,642m it is the deepest lake on Earth and the oldest at roughly 25 million years, and that age has produced extraordinary endemic life, including the nerpa, the only exclusively freshwater seal, whose ancestors reached a lake 2,000km from any ocean.",
+      "memory_hook": "It sits in an active continental rift pulling apart about two centimetres a year, so the basin deepens faster than sediment fills it. Deepest at 1,642m and oldest at 25 million years, which is why it has the nerpa, the world's only freshwater seal, 2,000km from any sea."
     },
     {
       "category": "History",
-      "question": "The Hundred Years' War (1337-1453) was a prolonged conflict between England and France. Which French peasant girl led French forces to several key victories before being captured and burned at the stake?",
+      "question": "Joan of Arc turned the Hundred Years' War at seventeen. What happened to her afterward?",
       "options": [
-        "Eleanor of Aquitaine",
-        "Joan of Arc",
-        "Catherine of Aragon",
-        "Christine de Pizan"
+        "She led French forces until the war ended in 1453",
+        "She survived the war and died of illness in her forties",
+        "Burned as a heretic, then declared innocent 25 years later",
+        "She was ransomed back to France and retired to a convent"
       ],
-      "answer": "Joan of Arc",
-      "explanation": "Joan of Arc (c. 1412-1431) claimed divine visions instructed her to support Charles VII of France. She led the French army to victory at Orléans in 1429, helping turn the tide of the war. Captured by the Burgundians, she was sold to the English and burned at the stake for heresy at age 19. She was canonized in 1920.",
-      "memory_hook": "Joan of Arc: peasant girl, divine visions, victory at Orléans. Burned at 19, now a saint."
+      "answer": "Burned as a heretic, then declared innocent 25 years later",
+      "explanation": "Captured by Burgundians and sold to the English, she was tried by a church court in 1431 and burned at Rouen at nineteen. The charges leaned heavily on her wearing men's clothing. A retrial in 1456, ordered after France had won, annulled the verdict entirely. She was canonised in 1920, nearly five centuries later. She was an illiterate farmer's daughter who convinced a king to give her an army.",
+      "memory_hook": "Captured by Burgundians, sold to the English, tried by a church court and burned at Rouen at nineteen, largely over wearing men's clothes. A retrial in 1456 annulled the whole verdict. Canonised in 1920. She was an illiterate farmer's daughter who talked a king into giving her an army."
     },
     {
       "category": "Pop Culture",
-      "question": "Which rapper, born Shawn Corey Carter in Brooklyn, built a business empire including Tidal, Armand de Brignac champagne, and D'Ussé cognac alongside his music career?",
+      "question": "Jay-Z became hip-hop's first billionaire. Where does most of that wealth come from?",
       "options": [
-        "Nas",
-        "Jay-Z",
-        "Dr. Dre",
-        "Diddy"
+        "Touring revenue accumulated over three decades",
+        "Stakes in champagne, cognac and a streaming service",
+        "Real estate purchased in Brooklyn during the 1990s",
+        "Publishing royalties from his own back catalogue"
       ],
-      "answer": "Jay-Z",
-      "explanation": "Jay-Z (born 1969) became the first rapper to become a billionaire. His album '4:44' (2017) was recorded as a business-focused statement. He co-founded Roc-A-Fella Records, Roc Nation entertainment, and has invested in Uber and Armand de Brignac. He is married to Beyoncé.",
-      "memory_hook": "Jay-Z: first rap billionaire. Roc Nation, Tidal, Armand de Brignac. Married to Beyoncé."
+      "answer": "Stakes in champagne, cognac and a streaming service",
+      "explanation": "The bulk came from equity rather than records: Armand de Brignac champagne, a D'Ussé cognac stake, Tidal, Roc Nation and art. He also famously sold his Rocawear clothing line for $204 million. He started selling records out of a car after labels turned him down, then founded Roc-A-Fella to release his own. He has 24 Grammys and is married to Beyoncé, itself a considerable concentration of wealth.",
+      "memory_hook": "Mostly equity, not music: Armand de Brignac champagne, D'Ussé cognac, Tidal, Roc Nation and art, plus $204 million for Rocawear. He started selling CDs out of a car after labels passed, then built Roc-A-Fella to put out his own records."
     },
     {
       "category": "Sports",
-      "question": "In the Olympic Games, what is the name of the relay race in which four swimmers each swim a different stroke?",
+      "question": "The Olympic medley relay has four swimmers using four different strokes. What is the order?",
       "options": [
-        "Freestyle relay",
-        "Medley relay",
-        "Butterfly relay",
-        "Mixed relay"
+        "Freestyle, butterfly, breaststroke, backstroke",
+        "Butterfly, backstroke, freestyle, breaststroke",
+        "Breaststroke, freestyle, backstroke, butterfly",
+        "Backstroke, breaststroke, butterfly, freestyle"
       ],
-      "answer": "Medley relay",
-      "explanation": "The medley relay features four swimmers each swimming 100 meters: backstroke, breaststroke, butterfly, then freestyle (in that order). Team USA has won the medley relay at nearly every Olympics. The order differs from individual medley, which goes: butterfly, backstroke, breaststroke, freestyle.",
-      "memory_hook": "Medley relay: back, breast, fly, free. Individual medley: fly, back, breast, free."
+      "answer": "Backstroke, breaststroke, butterfly, freestyle",
+      "explanation": "Backstroke goes first because it starts in the water, so it cannot follow a swimmer touching the wall. The rest run slowest to fastest, finishing with freestyle for a sprint ending. The individual medley uses a different order entirely, butterfly first and backstroke second, because there is no in-water start to accommodate. The US has historically dominated the event, though relay upsets are among the most watched moments in the sport.",
+      "memory_hook": "Backstroke leads because it starts in the water and cannot follow someone touching the wall. Then slowest to fastest, ending on freestyle for the sprint finish. The individual medley uses a different order entirely, since one swimmer has no handover problem to solve."
     }
   ]
 }

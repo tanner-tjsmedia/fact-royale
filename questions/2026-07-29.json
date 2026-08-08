@@ -5,9 +5,9 @@
       "category": "History",
       "question": "The Boston Tea Party of 1773 saw American colonists dump 342 chests of which commodity into Boston Harbor to protest British taxation without representation?",
       "options": [
-        "Tobacco",
-        "Sugar",
         "Cotton",
+        "Sugar",
+        "Tobacco",
         "Tea"
       ],
       "answer": "Tea",
@@ -18,10 +18,10 @@
       "category": "History",
       "question": "Which ancient Egyptian queen was famously linked with both Julius Caesar and Mark Antony?",
       "options": [
-        "Nefertiti",
         "Ankhesenamun",
         "Hatshepsut",
-        "Cleopatra VII"
+        "Cleopatra VII",
+        "Nefertiti"
       ],
       "answer": "Cleopatra VII",
       "explanation": "Cleopatra VII (69-30 BC) was the last active ruler of the Ptolemaic Kingdom of Egypt. She formed powerful political and romantic alliances with Julius Caesar and, after his assassination, with Mark Antony. She was known for her intelligence and command of multiple languages — she was reportedly the first Ptolemaic ruler to speak Egyptian. She died by suicide after Octavian defeated Antony.",
@@ -32,8 +32,8 @@
       "question": "What was the name of the first artificial satellite launched into space, sent by the Soviet Union in 1957?",
       "options": [
         "Explorer 1",
-        "Vostok",
         "Luna",
+        "Vostok",
         "Sputnik"
       ],
       "answer": "Sputnik",
@@ -45,9 +45,9 @@
       "question": "Which country won the first FIFA World Cup in 1930?",
       "options": [
         "Brazil",
-        "Uruguay",
         "Italy",
-        "Argentina"
+        "Argentina",
+        "Uruguay"
       ],
       "answer": "Uruguay",
       "explanation": "Uruguay hosted and won the first FIFA World Cup in 1930, defeating Argentina 4-2 in the final in Montevideo. Uruguay had also won Olympic gold medals in football in 1924 and 1928, making them the dominant team of the era. Only 13 teams participated in the first tournament — European teams were reluctant to make the long sea voyage to South America.",
@@ -57,10 +57,10 @@
       "category": "Sports",
       "question": "Usain Bolt set the 100m world record of 9.58 seconds at the 2009 Berlin World Championships. What biomechanical factors explain his dominance — and what is his unusual running pattern?",
       "options": [
-        "Bolt's unusual training method — sprinting only uphill for the first 50 meters of training runs — built the posterior chain strength that makes his late-race acceleration uniquely explosive",
-        "Bolt's dominance comes from his reaction time — he leaves the blocks 0.3 seconds faster than any other sprinter, giving him an insurmountable lead before the race's first stride",
+        "Bolt's combination of unusually long stride length (2.44m) and still-elite stride frequency means he takes fewer strides than shorter sprinters while covering the same distance — his 6'5\" frame produces natural mechanical advantages",
         "Bolt is unique in that he decelerates less than any other sprinter in history — while all sprinters slow down in the final 20 meters, Bolt maintains peak speed longer than anyone before him",
-        "Bolt's combination of unusually long stride length (2.44m) and still-elite stride frequency means he takes fewer strides than shorter sprinters while covering the same distance — his 6'5\" frame produces natural mechanical advantages"
+        "Bolt's dominance comes from his reaction time — he leaves the blocks 0.3 seconds faster than any other sprinter, giving him an insurmountable lead before the race's first stride",
+        "Bolt's unusual training method — sprinting only uphill for the first 50 meters of training runs — built the posterior chain strength that makes his late-race acceleration uniquely explosive"
       ],
       "answer": "Bolt's combination of unusually long stride length (2.44m) and still-elite stride frequency means he takes fewer strides than shorter sprinters while covering the same distance — his 6'5\" frame produces natural mechanical advantages",
       "explanation": "At 6'5\" (1.95m), Bolt was unusually tall for a sprinter — conventional wisdom held that shorter athletes had better stride frequency. Bolt's stride length of 2.44 meters at peak meant he needed only 41 strides to cover 100 meters, while competitors took 44–45. Analysis of his 9.58 run showed he reached a peak speed of 44.72 km/h (27.8 mph) — the fastest human speed ever recorded. He was not actually the fastest off the blocks; his reaction time was 0.146 seconds. His dominance came from extraordinary stride length combined with adequate frequency — a combination thought impossible at his height.",
@@ -70,10 +70,10 @@
       "category": "Pop Culture",
       "question": "Alfred Hitchcock's 'Vertigo' (1958) was considered a box office disappointment in his lifetime — yet it topped the Sight & Sound poll as the greatest film ever made in 2012. What specific filmmaking technique did Hitchcock invent for it, and what psychological effect was it designed to create?",
       "options": [
-        "Hitchcock designed the film's color palette by computer — working with mathematicians at Bell Labs to calculate the most psychologically unsettling color combinations — making Vertigo the first commercially released film with a computer-assisted color design",
         "Hitchcock invented the 'dolly zoom' (also called the 'Vertigo effect') — simultaneously dollying the camera toward a subject while zooming out — making the background appear to rush away while the subject stays the same size, visually simulating acrophobic dread",
         "Hitchcock invented the 'Kuleshov cut' for Vertigo — interleaving closeups of faces with unrelated objects to imply emotional reactions — and used it more extensively than any previous film to simulate Scottie's psychological disorientation",
-        "Hitchcock used a 45-degree shutter angle for the entire film — cutting the exposure time to produce motion blur that makes every scene feel slightly unreal — a technique later adopted by Saving Private Ryan for its battle sequences"
+        "Hitchcock used a 45-degree shutter angle for the entire film — cutting the exposure time to produce motion blur that makes every scene feel slightly unreal — a technique later adopted by Saving Private Ryan for its battle sequences",
+        "Hitchcock designed the film's color palette by computer — working with mathematicians at Bell Labs to calculate the most psychologically unsettling color combinations — making Vertigo the first commercially released film with a computer-assisted color design"
       ],
       "answer": "Hitchcock invented the 'dolly zoom' (also called the 'Vertigo effect') — simultaneously dollying the camera toward a subject while zooming out — making the background appear to rush away while the subject stays the same size, visually simulating acrophobic dread",
       "explanation": "The dolly zoom was developed by Hitchcock's cinematographer Irmin Roberts for a specific staircase scene in Vertigo. Moving the camera toward James Stewart while zooming out (or vice versa) keeps Stewart the same apparent size but makes the background scale change — producing the visual impression of the ground falling away. This technique, called a 'zolly' or 'Hitchcock zoom,' has since appeared in Jaws, Goodfellas, Lord of the Rings, and hundreds of other films. Vertigo was pulled from distribution by Hitchcock himself before his death and reappeared in the 1980s. Its elevation to #1 film on Sight & Sound (displacing Citizen Kane after 50 years) remains controversial.",
@@ -83,10 +83,10 @@
       "category": "Pop Culture",
       "question": "Adele's album '21' (2011) became one of the best-selling albums in history. Which single from it won Record of the Year at the Grammys?",
       "options": [
-        "Rolling in the Deep",
-        "Hello",
+        "Someone Like You",
         "Skyfall",
-        "Someone Like You"
+        "Hello",
+        "Rolling in the Deep"
       ],
       "answer": "Rolling in the Deep",
       "explanation": "'Rolling in the Deep' won Record of the Year and Song of the Year at the 2012 Grammy Awards. Adele won six Grammy Awards that night — the most wins in a single night by a female artist at the time. '21' sold over 31 million copies worldwide and is one of the best-selling albums of the 21st century.",
@@ -96,10 +96,10 @@
       "category": "Pop Culture",
       "question": "George Orwell's '1984' (1949) introduced terms like 'Big Brother,' 'doublethink,' and 'Newspeak' into the English language. What personal experience shaped Orwell's vision of totalitarianism?",
       "options": [
-        "Orwell worked as a BBC propaganda broadcaster during WWII and saw firsthand how language could be weaponized to distort reality — he based the Ministry of Truth directly on his BBC experience",
-        "Orwell spent four years in Soviet prisons after being arrested during a 1936 journalism assignment in Moscow, and 1984 was a direct autobiographical account of the interrogation techniques he witnessed",
+        "Orwell developed his vision of totalitarianism by studying the Nazi concentration camp system, which he wrote about in a classified British government report before adapting the material for 1984",
         "Orwell fought in the Spanish Civil War for the Republican side, witnessed the Soviet-backed Stalinist faction suppress and murder anarchist allies — and survived by luck — giving him direct experience of how communism devoured its own",
-        "Orwell developed his vision of totalitarianism by studying the Nazi concentration camp system, which he wrote about in a classified British government report before adapting the material for 1984"
+        "Orwell worked as a BBC propaganda broadcaster during WWII and saw firsthand how language could be weaponized to distort reality — he based the Ministry of Truth directly on his BBC experience",
+        "Orwell spent four years in Soviet prisons after being arrested during a 1936 journalism assignment in Moscow, and 1984 was a direct autobiographical account of the interrogation techniques he witnessed"
       ],
       "answer": "Orwell fought in the Spanish Civil War for the Republican side, witnessed the Soviet-backed Stalinist faction suppress and murder anarchist allies — and survived by luck — giving him direct experience of how communism devoured its own",
       "explanation": "Orwell volunteered to fight fascism in Spain in 1936, joining the POUM (a Marxist militia). The Soviet-controlled Communist faction purged non-Stalinist leftists — Orwell narrowly escaped arrest and likely execution. He was shot through the throat by a fascist sniper but survived; Soviet agents were reportedly following him. This betrayal of socialist ideals by Stalinism — documented in 'Homage to Catalonia' (1938) — formed the core of both Animal Farm and 1984. He also worked at the BBC's Indian Service during WWII (the Ministry of Truth connection), writing propaganda he personally felt was misleading.",
@@ -109,10 +109,10 @@
       "category": "Geography",
       "question": "Which African country contains the most of the Sahara Desert by land area?",
       "options": [
-        "Algeria",
         "Libya",
+        "Sudan",
         "Egypt",
-        "Sudan"
+        "Algeria"
       ],
       "answer": "Algeria",
       "explanation": "Algeria is the largest country in Africa and contains the largest portion of the Sahara Desert. About 90% of Algeria is covered by the Sahara. Algeria covers 2.38 million square kilometers, making it the largest country in Africa and the 10th largest in the world.",
@@ -123,9 +123,9 @@
       "question": "Which planet in our solar system is closest to the Sun?",
       "options": [
         "Mercury",
+        "Mars",
         "Venus",
-        "Earth",
-        "Mars"
+        "Earth"
       ],
       "answer": "Mercury",
       "explanation": "Mercury is the closest planet to the Sun, orbiting at an average distance of about 58 million km. Despite being closest to the Sun, Mercury is not the hottest planet — that's Venus, which has a thick atmosphere that traps heat. Mercury has almost no atmosphere, so temperature swings wildly: 430°C during the day, -180°C at night.",
@@ -135,10 +135,10 @@
       "category": "Geography",
       "question": "The Caucasus Mountains between the Black Sea and Caspian Sea form a geographic boundary separating which two continents?",
       "options": [
-        "Europe and Africa",
         "Asia and Africa",
-        "North and South Asia",
-        "Europe and Asia"
+        "Europe and Asia",
+        "Europe and Africa",
+        "North and South Asia"
       ],
       "answer": "Europe and Asia",
       "explanation": "The Caucasus Mountains form one of the conventional geographic boundaries between Europe and Asia, running approximately 1,100 km between the Black Sea (west) and Caspian Sea (east). The range includes Mount Elbrus (5,642 m), the highest peak in Europe under most definitions. Countries in the South Caucasus region — Georgia, Armenia, and Azerbaijan — are sometimes classified as European, sometimes as Asian, depending on the definition used.",
@@ -149,9 +149,9 @@
       "question": "What environmental problem occurs when sulfur dioxide and nitrogen oxides released by burning fossil fuels react with atmospheric moisture to form acidic precipitation?",
       "options": [
         "Acid rain",
-        "The greenhouse effect",
+        "Ozone depletion",
         "Smog",
-        "Ozone depletion"
+        "The greenhouse effect"
       ],
       "answer": "Acid rain",
       "explanation": "Acid rain forms when sulfur dioxide (SO₂) from coal burning and nitrogen oxides (NOₓ) from vehicle emissions react with water and oxygen in the atmosphere to form sulfuric and nitric acids. This acid precipitation damages forests, acidifies lakes (killing fish), corrodes buildings and monuments, and can damage crops. The problem was severe in Europe and North America in the 1970s-80s. Regulations reducing SO₂ emissions (particularly the 1990 Clean Air Act Amendments) have significantly reduced acid rain in the US.",

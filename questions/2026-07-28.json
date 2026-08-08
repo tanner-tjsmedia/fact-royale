@@ -5,10 +5,10 @@
       "category": "History",
       "question": "The Gunpowder Plot of 1605 was a failed conspiracy to blow up the English Parliament and assassinate which reigning monarch?",
       "options": [
-        "King Henry VIII",
-        "King James I",
+        "Queen Elizabeth I",
         "King Charles I",
-        "Queen Elizabeth I"
+        "King James I",
+        "King Henry VIII"
       ],
       "answer": "King James I",
       "explanation": "The Gunpowder Plot was hatched by a group of English Catholics, including Guy Fawkes, who planned to blow up the Houses of Parliament on November 5, 1605. The plot was foiled when an anonymous tip led to a search of the cellars, where Fawkes was discovered with barrels of gunpowder. Guy Fawkes Night is still celebrated in the UK on November 5.",
@@ -18,10 +18,10 @@
       "category": "History",
       "question": "The printing press, which revolutionized the spread of information, was invented by whom around 1440?",
       "options": [
-        "Leonardo da Vinci",
-        "Benjamin Franklin",
         "Johannes Gutenberg",
-        "Galileo Galilei"
+        "Benjamin Franklin",
+        "Galileo Galilei",
+        "Leonardo da Vinci"
       ],
       "answer": "Johannes Gutenberg",
       "explanation": "Johannes Gutenberg invented the movable-type printing press around 1440 in Mainz, Germany. The first major book printed was the Gutenberg Bible around 1455. The press enabled mass production of books, spreading literacy, accelerating the Renaissance and Reformation, and fundamentally changing how knowledge was shared — arguably the most important invention before the internet.",
@@ -45,9 +45,9 @@
       "question": "Nuclear fusion — the process powering the Sun — has been called the 'holy grail' of clean energy. What is the key challenge that has prevented fusion power plants from operating?",
       "options": [
         "Fusion reactions require tritium, an isotope of hydrogen that exists in only microgram quantities on Earth — without a way to produce tritium at scale, fusion plants have no viable fuel source",
+        "Fusion reactions produce enormous bursts of neutron radiation that destroy reactor components within hours, and no replacement material has been developed that can survive the neutron bombardment long enough for commercial operation",
         "The radioactive waste produced by fusion reactions is 100 times more dangerous than fission waste, and no material has been found that can safely contain it for the required 10,000-year storage period",
-        "Fusion requires plasma heated to 100+ million degrees Celsius — hotter than the Sun's core — and no material can physically contain it; magnetic fields must do so, but sustaining the confinement long enough to produce more energy than input has proven enormously difficult",
-        "Fusion reactions produce enormous bursts of neutron radiation that destroy reactor components within hours, and no replacement material has been developed that can survive the neutron bombardment long enough for commercial operation"
+        "Fusion requires plasma heated to 100+ million degrees Celsius — hotter than the Sun's core — and no material can physically contain it; magnetic fields must do so, but sustaining the confinement long enough to produce more energy than input has proven enormously difficult"
       ],
       "answer": "Fusion requires plasma heated to 100+ million degrees Celsius — hotter than the Sun's core — and no material can physically contain it; magnetic fields must do so, but sustaining the confinement long enough to produce more energy than input has proven enormously difficult",
       "explanation": "The Sun fuses hydrogen at 15 million°C using its enormous gravity to confine plasma. On Earth, without that gravity, fusion requires even higher temperatures (100–200 million°C) and magnetic confinement (tokamak reactors). The goal is 'ignition' — more energy out than in. In December 2022, the US National Ignition Facility (NIF) achieved fusion ignition for the first time using laser-driven inertial confinement — 3.15 megajoules out from 2.05 MJ in. ITER, the multinational tokamak being built in France, aims to produce 500 MW from 50 MW input by the 2030s. Unlike fission, fusion produces no long-lived radioactive waste and cannot melt down.",
@@ -57,10 +57,10 @@
       "category": "Sports",
       "question": "The Tour de France cycling race is traditionally held in which month?",
       "options": [
-        "May",
-        "July",
+        "August",
         "June",
-        "August"
+        "May",
+        "July"
       ],
       "answer": "July",
       "explanation": "The Tour de France is held annually in July, covering approximately 3,400 kilometers across France and sometimes into neighboring countries over 21 stages. The overall leader wears the yellow jersey (maillot jaune). It is the most prestigious race in professional cycling and one of the most watched annual sporting events in the world.",
@@ -71,9 +71,9 @@
       "question": "The modern Olympic Games were revived in 1896 in Athens. Which French baron and educator is credited as the primary founder of the modern Olympics?",
       "options": [
         "Henri Didon",
+        "Pierre de Coubertin",
         "Victor Duruy",
-        "Demetrius Vikelas",
-        "Pierre de Coubertin"
+        "Demetrius Vikelas"
       ],
       "answer": "Pierre de Coubertin",
       "explanation": "Pierre de Coubertin (1863-1937) was a French educator and historian who proposed reviving the Olympic Games in 1892. He founded the International Olympic Committee in 1894 and served as its second president. He also designed the iconic five-ring Olympic symbol.",
@@ -83,10 +83,10 @@
       "category": "Pop Culture",
       "question": "Which artist won the very first Grammy Award for Best Rap Performance in 1989?",
       "options": [
-        "DJ Jazzy Jeff & The Fresh Prince",
         "Run-DMC",
-        "LL Cool J",
-        "N.W.A"
+        "N.W.A",
+        "DJ Jazzy Jeff & The Fresh Prince",
+        "LL Cool J"
       ],
       "answer": "DJ Jazzy Jeff & The Fresh Prince",
       "explanation": "DJ Jazzy Jeff & The Fresh Prince (featuring a young Will Smith) won the inaugural Grammy for Best Rap Performance in 1989 for 'Parents Just Don't Understand.' In protest of rap not being televised at the ceremony, they boycotted the show — a move that made headlines.",
@@ -97,8 +97,8 @@
       "question": "The Crown (Netflix, 2016–2023) dramatizes the reign of Queen Elizabeth II across six decades. What challenging artistic decision shaped the series?",
       "options": [
         "It was broadcast simultaneously in 73 countries in 50 languages, making it the most globally coordinated drama launch in television history",
-        "The series was based on documents declassified under the 30-year rule — using actual state papers, personal letters, and intelligence briefings as direct scene sources",
         "The series was filmed entirely at actual Royal residences, with the Royal Family granting unprecedented access in exchange for script approval rights over each season",
+        "The series was based on documents declassified under the 30-year rule — using actual state papers, personal letters, and intelligence briefings as direct scene sources",
         "The creators recasted all major roles entirely every two seasons to capture the physical aging of the characters — requiring audiences to re-bond with new actors playing the same people at different life stages"
       ],
       "answer": "The creators recasted all major roles entirely every two seasons to capture the physical aging of the characters — requiring audiences to re-bond with new actors playing the same people at different life stages",
@@ -110,9 +110,9 @@
       "question": "Bob Dylan was awarded the Nobel Prize in Literature in 2016. He is primarily known as what type of artist?",
       "options": [
         "Singer-songwriter",
+        "Poet and novelist",
         "Film director",
-        "Classical composer",
-        "Poet and novelist"
+        "Classical composer"
       ],
       "answer": "Singer-songwriter",
       "explanation": "Bob Dylan won the Nobel Prize in Literature 'for having created new poetic expressions within the great American song tradition.' It was controversial — many questioned whether song lyrics counted as literature. Dylan initially didn't acknowledge the award and took weeks to respond. His songs including 'Blowin' in the Wind,' 'The Times They Are A-Changin',' and 'Like a Rolling Stone' are considered literary masterpieces.",
@@ -135,10 +135,10 @@
       "category": "Science & Nature",
       "question": "What is the name for the process by which a solid converts directly into a gas without becoming a liquid first?",
       "options": [
-        "Sublimation",
         "Condensation",
         "Evaporation",
-        "Melting"
+        "Melting",
+        "Sublimation"
       ],
       "answer": "Sublimation",
       "explanation": "Sublimation is the phase transition from solid directly to gas. Dry ice (solid CO2) sublimates at room temperature — that's the eerie fog you see at concerts. Mothballs sublime slowly at room temperature. Water ice can also sublime, which is how freeze-dried food works and why ice in a freezer slowly shrinks over time.",
@@ -148,10 +148,10 @@
       "category": "Geography",
       "question": "The Sea of Azov, bordered by Russia and Ukraine, holds which geographic distinction?",
       "options": [
-        "World's shallowest sea",
         "World's deepest sea",
         "World's coldest sea",
-        "World's saltiest sea"
+        "World's saltiest sea",
+        "World's shallowest sea"
       ],
       "answer": "World's shallowest sea",
       "explanation": "The Sea of Azov is the world's shallowest sea, with an average depth of only 7 meters and a maximum depth of about 14 meters. It is connected to the Black Sea via the Strait of Kerch. The Don and Kuban rivers flow into it, making it much less salty than most seas. The Azov has been strategically important throughout history and has been at the center of the Russia-Ukraine conflict — Russia's seizure of Crimea in 2014 gave it control of the Kerch Strait.",

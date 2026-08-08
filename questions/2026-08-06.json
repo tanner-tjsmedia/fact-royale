@@ -5,8 +5,8 @@
       "category": "History",
       "question": "The RMS Titanic sank on April 15, 1912, killing over 1,500 people. From which English port city did the ship depart on its maiden voyage?",
       "options": [
-        "Southampton",
         "Liverpool",
+        "Southampton",
         "Portsmouth",
         "Plymouth"
       ],
@@ -18,10 +18,10 @@
       "category": "History",
       "question": "The Suez Crisis of 1956 was triggered when Egypt nationalized the Suez Canal. Who was Egypt's president at the time?",
       "options": [
-        "King Farouk",
         "Gamal Abdel Nasser",
-        "Hosni Mubarak",
-        "Anwar Sadat"
+        "King Farouk",
+        "Anwar Sadat",
+        "Hosni Mubarak"
       ],
       "answer": "Gamal Abdel Nasser",
       "explanation": "Egyptian President Gamal Abdel Nasser nationalized the Suez Canal in July 1956, leading to a military response from Britain, France, and Israel. The US pressured all sides to stand down, humiliating Britain and France and marking the end of their status as global superpowers. The crisis is considered the moment when American and Soviet dominance replaced European colonial power.",
@@ -31,10 +31,10 @@
       "category": "History",
       "question": "The Watergate scandal, which led to President Nixon's resignation in 1974, began with a break-in at which Washington DC complex?",
       "options": [
-        "State Department",
         "Pentagon",
+        "Capitol Building",
         "Watergate Hotel",
-        "Capitol Building"
+        "State Department"
       ],
       "answer": "Watergate Hotel",
       "explanation": "The Watergate scandal began with a break-in at the Democratic National Committee headquarters in the Watergate Hotel complex in Washington DC on June 17, 1972. Nixon administration officials tried to cover up White House involvement. The cover-up ultimately destroyed Nixon's presidency. He resigned on August 9, 1974 — the only US president ever to do so. The '-gate' suffix became shorthand for political scandals worldwide.",
@@ -44,9 +44,9 @@
       "category": "Sports",
       "question": "In which Olympic sport do athletes use a bow and arrows to hit a target?",
       "options": [
+        "Biathlon",
         "Fencing",
         "Archery",
-        "Biathlon",
         "Pentathlon"
       ],
       "answer": "Archery",
@@ -57,10 +57,10 @@
       "category": "Sports",
       "question": "The 'Fosbury Flop' is a technique used in which track and field event?",
       "options": [
-        "Triple jump",
         "Pole vault",
         "High jump",
-        "Long jump"
+        "Long jump",
+        "Triple jump"
       ],
       "answer": "High jump",
       "explanation": "Dick Fosbury won gold at the 1968 Mexico City Olympics using a completely new high jump technique — jumping headfirst and backward over the bar rather than face-down. Before Fosbury, athletes jumped using the 'Western Roll' or 'Straddle.' His technique was so effective that virtually all high jumpers now use it. Fosbury cleared 2.24 meters with his revolutionary style.",
@@ -71,9 +71,9 @@
       "question": "Which musician famously performed at Woodstock in 1969 and is known for his electric guitar rendition of the National Anthem?",
       "options": [
         "Eric Clapton",
-        "Jimi Hendrix",
+        "Carlos Santana",
         "B.B. King",
-        "Carlos Santana"
+        "Jimi Hendrix"
       ],
       "answer": "Jimi Hendrix",
       "explanation": "Jimi Hendrix closed the Woodstock festival in August 1969 with a legendary performance including a deconstructed, feedback-laden version of 'The Star-Spangled Banner.' He played his Fender Stratocaster upside down (he was left-handed) and restrung. Rolling Stone ranks him as the greatest guitarist of all time. He died in September 1970 at age 27 — one of the most devastating losses in music history.",
@@ -83,10 +83,10 @@
       "category": "Pop Culture",
       "question": "Which 2009 animated Pixar film opens with a sequence widely considered one of the most emotional in film history?",
       "options": [
-        "Brave",
-        "Up",
+        "Wall-E",
         "Inside Out",
-        "Wall-E"
+        "Brave",
+        "Up"
       ],
       "answer": "Up",
       "explanation": "The opening montage of Up (2009), directed by Pete Docter, condenses an entire marriage — from young couple to widower — in about four minutes with minimal dialogue. It is frequently cited as one of the most emotionally resonant sequences in cinema. The film won the Academy Award for Best Animated Feature and Best Original Score and was the second animated film nominated for Best Picture.",
@@ -97,9 +97,9 @@
       "question": "The Eagles' 'Hotel California' (1977) was written by three band members. Who is credited as the primary lyricist and lead vocalist who defined the song's concept?",
       "options": [
         "Joe Walsh",
+        "Don Henley",
         "Glenn Frey",
-        "Don Felder",
-        "Don Henley"
+        "Don Felder"
       ],
       "answer": "Don Henley",
       "explanation": "'Hotel California' was written collaboratively: Don Felder created the original guitar riff and chord progression, while Don Henley wrote the iconic lyrics and sang lead vocals. Glenn Frey co-wrote the words. Henley is credited as the song's primary writer — his lyrics about excess and disillusionment in the California music industry define what the song is. The dual guitar solo at the end was performed by Felder and Joe Walsh.",
@@ -109,10 +109,10 @@
       "category": "Geography",
       "question": "Which Asian country has the most people in the world?",
       "options": [
-        "China",
         "Bangladesh",
+        "Indonesia",
         "India",
-        "Indonesia"
+        "China"
       ],
       "answer": "India",
       "explanation": "India surpassed China as the world's most populous country in 2023, with approximately 1.43 billion people. India's population is younger than China's, which began declining due to decades of the one-child policy. At current growth rates, India's population could reach 1.7 billion by mid-century, making it by far the most populous nation on Earth.",
@@ -123,8 +123,8 @@
       "question": "What is the name of the boundary below which no light penetrates the ocean?",
       "options": [
         "Photic zone",
-        "Benthic zone",
         "Midnight zone",
+        "Benthic zone",
         "Abyssal zone"
       ],
       "answer": "Midnight zone",
@@ -136,9 +136,9 @@
       "question": "The Aleutian Islands, a chain of about 300 volcanic islands extending 1,900 km into the Pacific, belong to which U.S. state?",
       "options": [
         "Hawaii",
-        "Oregon",
+        "Alaska",
         "Washington",
-        "Alaska"
+        "Oregon"
       ],
       "answer": "Alaska",
       "explanation": "The Aleutian Islands are an archipelago of volcanic islands stretching from the Alaska Peninsula westward toward Russia's Kamchatka Peninsula. They lie along the Pacific Ring of Fire and are tectonically active. The islands were the site of the only North American land battle of World War II — the Battle of Attu (1943) and Battle of Kiska — when Japan briefly occupied two islands. The islands are part of Alaska and create one of the world's most productive fishing areas.",
@@ -149,9 +149,9 @@
       "question": "What is Archimedes' principle — the law that explains why ships made of steel can float even though steel is denser than water?",
       "options": [
         "A submerged object experiences an upward force equal to the weight of fluid displaced",
-        "Objects expand when submerged",
         "Pressure increases with depth",
-        "Dense objects always sink"
+        "Dense objects always sink",
+        "Objects expand when submerged"
       ],
       "answer": "A submerged object experiences an upward force equal to the weight of fluid displaced",
       "explanation": "Archimedes' principle states that any object submerged in a fluid experiences an upward buoyant force equal to the weight of the fluid it displaces. A steel ship floats because its shape displaces enough water that the weight of that water exceeds the ship's weight. Archimedes reportedly discovered this while stepping into a bath and ran through the streets shouting 'Eureka!' (I have found it). The same principle explains why people float more easily in saltwater (denser water → greater buoyant force).",

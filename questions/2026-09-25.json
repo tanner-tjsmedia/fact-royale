@@ -5,10 +5,10 @@
       "category": "History",
       "question": "Which 1789 event forced King Louis XVI to return to Paris when thousands of Parisian women marched to Versailles demanding bread?",
       "options": [
-        "The Tennis Court Oath",
         "The September Massacres",
         "The Storming of the Bastille",
-        "The Women's March on Versailles"
+        "The Women's March on Versailles",
+        "The Tennis Court Oath"
       ],
       "answer": "The Women's March on Versailles",
       "explanation": "On October 5, 1789, thousands of women marched 12 miles to Versailles demanding bread and that the king return to Paris. The royal family was brought back to Paris as effective prisoners.",
@@ -19,9 +19,9 @@
       "question": "Which scientist developed germ theory, invented pasteurization, and created vaccines for anthrax and rabies?",
       "options": [
         "Robert Koch",
+        "Joseph Lister",
         "Alexander Fleming",
-        "Louis Pasteur",
-        "Joseph Lister"
+        "Louis Pasteur"
       ],
       "answer": "Louis Pasteur",
       "explanation": "Louis Pasteur proved microorganisms cause fermentation and disease, developed pasteurization (killing pathogens by heating), and created vaccines for chicken cholera, anthrax, and rabies.",
@@ -32,9 +32,9 @@
       "question": "How many barriers are there in the Olympic 110m hurdles (men), and how high is each?",
       "options": [
         "12 hurdles, 0.9 m high",
-        "8 hurdles, 1.2 m high",
         "10 hurdles, 0.91 m high",
-        "10 hurdles, 1.067 m high"
+        "10 hurdles, 1.067 m high",
+        "8 hurdles, 1.2 m high"
       ],
       "answer": "10 hurdles, 1.067 m high",
       "explanation": "The 110m hurdles (men) features 10 hurdles at 1.067 m height. Women run 100m hurdles with 10 hurdles at 0.838 m. Sydney McLaughlin-Levrone has redefined the 400m hurdles event with world records.",
@@ -44,9 +44,9 @@
       "category": "Pop Culture",
       "question": "Gene Kelly reportedly had a 103-degree fever during filming of which iconic 1952 musical scene?",
       "options": [
-        "The 'Good Morning' number in 'Singin' in the Rain'",
         "The dream ballet in 'An American in Paris'",
         "The title number in 'Singin' in the Rain'",
+        "The 'Good Morning' number in 'Singin' in the Rain'",
         "'Make 'Em Laugh' in 'Singin' in the Rain'"
       ],
       "answer": "The title number in 'Singin' in the Rain'",
@@ -57,10 +57,10 @@
       "category": "Geography",
       "question": "Which sea connects the Indian Ocean to the Persian Gulf and has Mumbai on its eastern shore?",
       "options": [
-        "Bay of Bengal",
         "Laccadive Sea",
-        "Red Sea",
-        "Arabian Sea"
+        "Arabian Sea",
+        "Bay of Bengal",
+        "Red Sea"
       ],
       "answer": "Arabian Sea",
       "explanation": "The Arabian Sea connects the Indian Ocean to the Persian Gulf via the Strait of Hormuz and Gulf of Oman. Mumbai's 2008 terrorist attacks came via inflatable boats through the Arabian Sea.",
@@ -70,9 +70,9 @@
       "category": "History",
       "question": "Which Soviet leader denounced Stalin's crimes in a 1956 'Secret Speech' and led through Sputnik and the Cuban Missile Crisis?",
       "options": [
-        "Nikita Khrushchev",
-        "Georgy Malenkov",
         "Mikhail Gorbachev",
+        "Georgy Malenkov",
+        "Nikita Khrushchev",
         "Leonid Brezhnev"
       ],
       "answer": "Nikita Khrushchev",
@@ -83,10 +83,10 @@
       "category": "Pop Culture",
       "question": "The Matrix (1999) used an effect called 'bullet time.' How many cameras were used to create it?",
       "options": [
-        "Approximately 120 cameras in a circle",
-        "A single high-speed camera",
         "CGI only, no real cameras",
-        "12 cameras on a rotating rig"
+        "12 cameras on a rotating rig",
+        "A single high-speed camera",
+        "Approximately 120 cameras in a circle"
       ],
       "answer": "Approximately 120 cameras in a circle",
       "explanation": "'Bullet time' in The Matrix used about 120 still cameras arranged in an arc, all triggered in rapid sequence. The Wachowskis and director of photography Bill Pope developed the technique, which was widely copied in advertising and film after 1999.",
@@ -96,10 +96,10 @@
       "category": "Science & Nature",
       "question": "What is the visible light spectrum wavelength range for humans?",
       "options": [
-        "10-100 nm (X-ray)",
-        "380-700 nanometers (violet to red)",
+        "100-380 nm (ultraviolet)",
         "700-1000 nm (infrared)",
-        "100-380 nm (ultraviolet)"
+        "380-700 nanometers (violet to red)",
+        "10-100 nm (X-ray)"
       ],
       "answer": "380-700 nanometers (violet to red)",
       "explanation": "Human vision spans ~380 nm (violet) to ~700 nm (red). Below 380 nm = UV (bees can see UV). Above 700 nm = IR (some snakes detect heat). ROYGBIV goes from red (long wavelength) to violet (short).",
@@ -110,9 +110,9 @@
       "question": "Chile is 4,270 km long but only 177 km wide on average. What is the world's highest active volcano, located in Chile?",
       "options": [
         "Aconcagua, 6,961 m",
-        "Ojos del Salado, 6,893 m",
+        "Llullaillaco, 6,739 m",
         "Cotopaxi, 5,897 m",
-        "Llullaillaco, 6,739 m"
+        "Ojos del Salado, 6,893 m"
       ],
       "answer": "Ojos del Salado, 6,893 m",
       "explanation": "Ojos del Salado on the Chile-Argentina border is the world's highest volcano at 6,893 m. Aconcagua (6,961m) is higher but considered extinct/dormant, not an active volcano. Chile's geography ranges from Atacama Desert (north) to Patagonia (south).",
@@ -122,9 +122,9 @@
       "category": "History",
       "question": "Rwanda (1994) and Bosnia/Srebrenica (1995) were both legally ruled as what specific crime under international law?",
       "options": [
+        "Ethnic cleansing (not genocide)",
         "Genocide",
         "War crimes only",
-        "Ethnic cleansing (not genocide)",
         "Crimes against humanity only"
       ],
       "answer": "Genocide",
@@ -136,9 +136,9 @@
       "question": "Saturday Night Fever (1977) made John Travolta a star. How many copies did the Bee Gees soundtrack sell?",
       "options": [
         "About 10 million",
+        "Over 40 million — one of the best-selling soundtracks ever",
         "Over 100 million",
-        "About 5 million",
-        "Over 40 million — one of the best-selling soundtracks ever"
+        "About 5 million"
       ],
       "answer": "Over 40 million — one of the best-selling soundtracks ever",
       "explanation": "Saturday Night Fever's Bee Gees soundtrack sold over 40 million copies — one of the best-selling soundtracks of all time. Travolta's white suit became iconic. The film, combined with Grease (1978), made Travolta the biggest star of the late 1970s.",
@@ -148,9 +148,9 @@
       "category": "Sports",
       "question": "Lewis Hamilton holds how many Formula 1 World Championship titles?",
       "options": [
+        "8",
         "6",
         "5",
-        "8",
         "7 — tied with Michael Schumacher"
       ],
       "answer": "7 — tied with Michael Schumacher",

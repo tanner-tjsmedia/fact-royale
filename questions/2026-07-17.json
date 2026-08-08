@@ -4,10 +4,10 @@
       "category": "History",
       "question": "Which U.S. president, who served from 1809 to 1817, famously declared war on Britain in the War of 1812 and is sometimes called 'the Father of the Constitution'?",
       "options": [
-        "John Adams",
         "James Madison",
-        "James Monroe",
-        "Andrew Jackson"
+        "Andrew Jackson",
+        "John Adams",
+        "James Monroe"
       ],
       "answer": "James Madison",
       "explanation": "James Madison served as the 4th U.S. President (1809-1817) and is often called the 'Father of the Constitution' for his pivotal role in drafting it. He declared war on Britain in 1812 — the only time the U.S. has been invaded by a foreign power since independence.",
@@ -17,10 +17,10 @@
       "category": "History",
       "question": "The 'Cultural Revolution' in China was led by whom?",
       "options": [
+        "Mao Zedong",
         "Zhou Enlai",
-        "Jiang Zemin",
         "Deng Xiaoping",
-        "Mao Zedong"
+        "Jiang Zemin"
       ],
       "answer": "Mao Zedong",
       "explanation": "The Cultural Revolution (1966–1976) was launched by Mao Zedong to preserve communist ideology and eliminate perceived capitalist and traditional elements. It resulted in massive social upheaval, persecution of intellectuals, destruction of cultural artifacts, and an estimated 500,000 to 2 million deaths.",
@@ -30,9 +30,9 @@
       "category": "Sports",
       "question": "In American football, what is a 'Hail Mary' pass?",
       "options": [
-        "A running play from near the end zone",
         "A trick play involving a lateral",
         "A punt that lands in the end zone",
+        "A running play from near the end zone",
         "A long forward pass made in desperation at the end of a game"
       ],
       "answer": "A long forward pass made in desperation at the end of a game",
@@ -43,9 +43,9 @@
       "category": "Sports",
       "question": "What country does tennis player Rafael Nadal represent?",
       "options": [
-        "Italy",
         "Argentina",
         "Spain",
+        "Italy",
         "Portugal"
       ],
       "answer": "Spain",
@@ -56,10 +56,10 @@
       "category": "Pop Culture",
       "question": "What rapper's real name is Marshall Bruce Mathers III?",
       "options": [
-        "Lil Wayne",
-        "Eminem",
+        "Kanye West",
         "Jay-Z",
-        "Kanye West"
+        "Lil Wayne",
+        "Eminem"
       ],
       "answer": "Eminem",
       "explanation": "Eminem's full real name is Marshall Bruce Mathers III. He grew up in Detroit, Michigan, and became one of the best-selling music artists of all time. His album 'The Marshall Mathers LP' (2000) is the fastest-selling rap album in history. He's won 15 Grammy Awards.",
@@ -69,10 +69,10 @@
       "category": "Pop Culture",
       "question": "Which film features the villain Hannibal Lecter in three movies?",
       "options": [
-        "Seven",
         "Prisoners",
-        "Silence of the Lambs, Hannibal, and Red Dragon",
-        "Manhunter"
+        "Seven",
+        "Manhunter",
+        "Silence of the Lambs, Hannibal, and Red Dragon"
       ],
       "answer": "Silence of the Lambs, Hannibal, and Red Dragon",
       "explanation": "Hannibal Lecter appeared in The Silence of the Lambs (1991), Hannibal (2001), and Red Dragon (2002), all played by Anthony Hopkins. Brian Cox first played the character in Manhunter (1986), based on the same novel as Red Dragon. Hopkins' performance is widely considered one of cinema's greatest villain portrayals.",
@@ -82,10 +82,10 @@
       "category": "Pop Culture",
       "question": "Which British punk band, formed in London in 1975, released 'Never Mind the Bollocks, Here's the Sex Pistols' and defined the punk rock movement?",
       "options": [
+        "The Ramones",
         "The Damned",
-        "Sex Pistols",
         "The Clash",
-        "The Ramones"
+        "Sex Pistols"
       ],
       "answer": "Sex Pistols",
       "explanation": "The Sex Pistols formed in London in 1975 and released their only studio album 'Never Mind the Bollocks, Here's the Sex Pistols' in 1977. Though they existed for only about two years, they are widely credited with launching the British punk movement and influencing countless bands.",
@@ -95,10 +95,10 @@
       "category": "History",
       "question": "What was the primary purpose of the Berlin Wall?",
       "options": [
-        "To mark the border of two countries",
+        "To protect against nuclear attack",
         "To keep East Germans from fleeing to the West",
         "To prevent Western invasion",
-        "To protect against nuclear attack"
+        "To mark the border of two countries"
       ],
       "answer": "To keep East Germans from fleeing to the West",
       "explanation": "The Berlin Wall was built by East Germany beginning on August 13, 1961, to stop the mass emigration of East Germans to West Germany through West Berlin. In the decade before the Wall, about 3.5 million East Germans had fled to the West. The Wall fell on November 9, 1989.",
@@ -108,10 +108,10 @@
       "category": "Geography",
       "question": "Which country has the most neighboring countries, sharing borders with 14 nations?",
       "options": [
-        "India",
         "China",
+        "Russia",
         "Brazil",
-        "Russia"
+        "India"
       ],
       "answer": "China",
       "explanation": "China shares land borders with 14 countries: Russia, Mongolia, Kazakhstan, Kyrgyzstan, Tajikistan, Afghanistan, Pakistan, India, Nepal, Bhutan, Myanmar, Laos, Vietnam, and North Korea. Russia also borders 14 countries (sharing that record), but China's neighbors span a remarkable geographic range from Central Asia to Southeast Asia.",
@@ -134,10 +134,10 @@
       "category": "Geography",
       "question": "Lake Nicaragua, the largest lake in Central America, is unique for containing what unusual type of animal?",
       "options": [
-        "Manatees",
+        "Freshwater jellyfish",
         "Freshwater sharks",
         "Alligators",
-        "Freshwater jellyfish"
+        "Manatees"
       ],
       "answer": "Freshwater sharks",
       "explanation": "Lake Nicaragua is famous for being one of the only freshwater lakes in the world with a population of bull sharks — a species that can tolerate both fresh and salt water. The sharks travel through the San Juan River from the Caribbean Sea. Lake Nicaragua is the largest lake in Central America at about 8,264 km² and is connected to both oceans by navigable rivers, making it historically significant for a potential second canal route.",
@@ -147,10 +147,10 @@
       "category": "Science & Nature",
       "question": "What is the change in the frequency of sound (or light) waves caused by the motion of the source or observer relative to each other?",
       "options": [
-        "Refraction",
-        "Interference",
         "Doppler effect",
-        "Resonance"
+        "Resonance",
+        "Interference",
+        "Refraction"
       ],
       "answer": "Doppler effect",
       "explanation": "The Doppler effect describes how waves are compressed (higher frequency/pitch) as a source approaches and stretched (lower frequency/pitch) as it moves away. The classic example is a passing ambulance siren — it sounds higher pitched as it approaches and lower as it leaves. For light, the Doppler effect causes 'redshift' (galaxies moving away from us have light shifted toward red wavelengths) and 'blueshift.' It is used in weather radar, speed cameras, and medical ultrasound.",

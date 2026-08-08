@@ -3,159 +3,166 @@
   "questions": [
     {
       "category": "History",
-      "question": "Which Portuguese navigator was the first European to sail directly from Europe to India, arriving in Calicut in 1498?",
+      "question": "Vasco da Gama reached India by sea in 1498. What did that route destroy?",
       "options": [
-        "Ferdinand Magellan",
-        "Bartolomeu Dias",
-        "Pedro Álvares Cabral",
-        "Vasco da Gama"
+        "The last remaining Arab shipbuilding industry along the coast",
+        "Portugal's own established trade agreements with West Africa",
+        "The overland spice monopoly held by Venice and the Ottomans",
+        "The entire Chinese trading presence across the Indian Ocean"
       ],
-      "answer": "Vasco da Gama",
-      "explanation": "Vasco da Gama's 1497-99 voyage around Africa and to India opened the sea route that would make Portugal dominant in Asian trade for over a century. He reached Calicut (Kozhikode) in May 1498. His route via the Cape of Good Hope was pioneered by Bartolomeu Dias in 1488.",
-      "memory_hook": "Vasco da Gama: first European to sail to India, 1498. Arrived in Calicut, via Cape of Good Hope."
+      "answer": "The overland spice monopoly held by Venice and the Ottomans",
+      "explanation": "Spices had come overland through Ottoman-controlled territory to Venetian merchants, who set prices. A sea route around Africa cut both out, and Venice went into long decline as a result. Portugal built a chain of fortified trading posts rather than territorial colonies. Da Gama's first voyage lost roughly half its crew to scurvy, and the return cargo still sold for many times the cost of the entire expedition.",
+      "memory_hook": "Spices came overland through Ottoman land to Venetian traders who set the price. Sailing round Africa cut both out, and Venice declined from there. Da Gama lost about half his crew to scurvy, and the cargo he brought back still paid for the whole voyage many times over."
     },
     {
       "category": "Science & Nature",
-      "question": "What is the approximate temperature at the surface of the Sun?",
+      "question": "The Sun's surface is around 5,500°C. What is strange about its outer atmosphere?",
       "options": [
-        "10,000°C",
-        "5,500°C",
-        "100,000°C",
-        "1,000°C"
+        "It is cool enough that water ice forms at its outer edge",
+        "It contains no hydrogen despite the core being full of it",
+        "The corona is far hotter than the surface beneath it",
+        "It rotates in the opposite direction to the Sun itself"
       ],
-      "answer": "5,500°C",
-      "explanation": "The Sun's surface (photosphere) is approximately 5,500°C. The corona (outer atmosphere) paradoxically reaches 1-3 million degrees. The Sun's core is estimated at 15 million degrees Celsius — hot enough for nuclear fusion, fusing hydrogen into helium and releasing energy.",
-      "memory_hook": "Sun's surface: 5,500°C. Corona: 1-3M degrees (hotter!). Core: 15M degrees. Fusion happens there."
+      "answer": "The corona is far hotter than the surface beneath it",
+      "explanation": "The corona reaches over a million degrees while the surface sits near 5,500, which is like standing further from a fire and feeling hotter. This is the coronal heating problem and it is not fully solved, though magnetic reconnection and wave heating are the leading explanations. NASA's Parker Solar Probe was built to fly through the corona and measure it directly, and has now passed within about 6 million kilometres of the surface.",
+      "memory_hook": "The corona is over a million degrees while the surface is 5,500, which is like moving away from a fire and getting hotter. Nobody has fully solved why. Magnetic reconnection is the leading idea, and the Parker Solar Probe was built to fly through it and find out."
     },
     {
       "category": "Sports",
-      "question": "Which country has won the Rugby World Cup the most times, with three championships?",
+      "question": "New Zealand has won the Rugby World Cup three times. What do the All Blacks do before every match?",
       "options": [
-        "New Zealand",
-        "England",
-        "Australia",
-        "South Africa"
+        "Circle the pitch once in complete silence together",
+        "Sing the national anthem entirely in Maori language",
+        "Perform the haka, a Maori ceremonial challenge",
+        "Touch a ceremonial stone carried by the team captain"
       ],
-      "answer": "New Zealand",
-      "explanation": "New Zealand's All Blacks have won the Rugby World Cup in 1987, 2011, and 2015 — the most of any nation. South Africa has won it in 1995, 2007, 2019 (and 2023). The All Blacks are known for their pre-match Haka, a Māori war dance. New Zealand has the highest winning percentage of any rugby union team.",
-      "memory_hook": "All Blacks: 3 World Cups (1987, 2011, 2015). South Africa: 4 (1995, 2007, 2019, 2023). Both ahead of all others."
+      "answer": "Perform the haka, a Maori ceremonial challenge",
+      "explanation": "The haka is a Maori posture dance and the team has performed one since 1888. Ka Mate is the traditional version; Kapa o Pango, introduced in 2005, was written specifically for the team. Opposing sides must face it and have handled that differently, from advancing on it to ignoring it entirely, and World Rugby has occasionally fined teams for how they responded. The team's Maori name is Te Mana.",
+      "memory_hook": "A Maori posture dance the team has done since 1888. Ka Mate is the traditional one; Kapa o Pango was written for the team in 2005. Opponents have to stand and face it, and have variously advanced on it, ignored it, or been fined for how they reacted."
     },
     {
       "category": "Pop Culture",
-      "question": "Which 2003 Sofia Coppola film, set in Tokyo and starring Bill Murray and Scarlett Johansson, won the Academy Award for Best Original Screenplay?",
+      "question": "Lost in Translation (2003) is built around two people in a Tokyo hotel. What was famously left unresolved?",
       "options": [
-        "The Virgin Suicides",
-        "Lost in Translation",
-        "Somewhere",
-        "Marie Antoinette"
+        "What Bob whispers to Charlotte in the closing scene",
+        "Which of the two is narrating the film throughout",
+        "Whether the entire encounter happened only in a dream",
+        "Whether either character ever actually leaves Japan"
       ],
-      "answer": "Lost in Translation",
-      "explanation": "Lost in Translation (2003) tells the story of two Americans — a faded actor (Murray) and a photographer's wife (Johansson) — who form a connection in Tokyo. The film was shot in real Tokyo locations including the Park Hyatt hotel. Sofia Coppola became only the third woman nominated for Best Director at the Oscars.",
-      "memory_hook": "Lost in Translation 2003: Sofia Coppola, Murray, Johansson. Tokyo. Oscar for Best Screenplay."
+      "answer": "What Bob whispers to Charlotte in the closing scene",
+      "explanation": "Bill Murray improvised the line and it was deliberately mixed below audibility. Coppola has said even she does not know exactly what he said, and that it was meant to belong to the two characters. She wrote the part for Murray and pursued him for months with no agent involved, since he had no manager and only a phone line. She won the Oscar for Original Screenplay.",
+      "memory_hook": "Murray improvised it and it was mixed under the audio on purpose. Coppola says even she does not know exactly what he said and that it belongs to the characters. She wrote the part for him and chased him for months, since he had no agent, only an answering machine."
     },
     {
       "category": "Geography",
-      "question": "Which island nation, located in the Indian Ocean about 1,000 km east of Tanzania, is the world's fourth-largest island and has unique wildlife found nowhere else?",
+      "question": "Madagascar split from Africa around 160 million years ago. What did that isolation produce?",
       "options": [
-        "Comoros",
-        "Madagascar",
-        "Mauritius",
-        "Maldives"
+        "The only island ecosystem with no flowering plants",
+        "A landscape with no native mammals of any kind at all",
+        "Around 90% of its wildlife exists nowhere else on Earth",
+        "Species almost identical to those on mainland Africa"
       ],
-      "answer": "Madagascar",
-      "explanation": "Madagascar separated from mainland Africa about 88 million years ago, allowing unique evolution in isolation. Over 90% of its wildlife, including all 107 species of lemurs, is found nowhere else on Earth. It is sometimes called the 'Eighth Continent' for its unique biodiversity. Deforestation has destroyed 90% of Madagascar's original forest cover.",
-      "memory_hook": "Madagascar: separated 88M years ago. 90% endemic wildlife. Lemurs found only there. 90% of forests gone."
+      "answer": "Around 90% of its wildlife exists nowhere else on Earth",
+      "explanation": "Roughly 90% of Madagascar's wildlife is endemic, and the figure runs higher in some groups: about 92% of mammals, 95% of reptiles and over 99% of amphibians occur nowhere else, along with 89% of plants. All 100-plus lemur species are found only there, evolved from ancestors that probably rafted across on vegetation. There are no native monkeys, big cats or antelope, so lemurs occupy niches those animals fill elsewhere. Around 90% of the island's original forest cover has been cleared.",
+      "memory_hook": "About 90% of its wildlife exists nowhere else, and higher in some groups: 92% of mammals, 95% of reptiles, over 99% of amphibians. Every lemur species is Malagasy, descended from ancestors that likely rafted over on vegetation. No native monkeys or big cats, so lemurs took those roles instead.",
+      "sources": [
+        {
+          "claim": "~90% of Madagascar wildlife endemic; 92% mammals, 95% reptiles, 99%+ amphibians, 89% plants",
+          "source": "https://www.science.org/doi/10.1126/science.abf0869",
+          "checked": "2026-08-08"
+        }
+      ]
     },
     {
       "category": "History",
-      "question": "Which U.S. president ordered the atomic bombings of Hiroshima (August 6) and Nagasaki (August 9) in 1945?",
+      "question": "Truman ordered the atomic bombings in 1945. When did he learn the bomb existed?",
       "options": [
-        "Herbert Hoover",
-        "Harry Truman",
-        "Dwight Eisenhower",
-        "Franklin Roosevelt"
+        "During his time in the Senate, chairing a wartime committee",
+        "After Roosevelt died, having been vice president for weeks",
+        "At the Potsdam Conference, from Churchill rather than his own staff",
+        "Two years earlier, as one of the programme's original overseers"
       ],
-      "answer": "Harry Truman",
-      "explanation": "President Harry Truman authorized the bombings. Hiroshima was hit by 'Little Boy' (uranium bomb), killing approximately 70,000-80,000 instantly; Nagasaki by 'Fat Man' (plutonium), killing 40,000-80,000. Japan surrendered on August 15. Truman justified the bombings as necessary to avoid a land invasion that could have killed millions on both sides.",
-      "memory_hook": "Truman ordered Hiroshima (Aug 6) and Nagasaki (Aug 9) bombings. Japan surrendered Aug 15."
+      "answer": "After Roosevelt died, having been vice president for weeks",
+      "explanation": "Truman had been vice president for 82 days and was not told about the Manhattan Project until after Roosevelt's death in April 1945. He learned of it from Secretary of War Stimson within days of taking office. He had chaired a Senate committee investigating wartime spending and had noticed unexplained expenditure, but had been warned off. He gave the order roughly four months after first hearing the project existed.",
+      "memory_hook": "He had been vice president for 82 days and nobody had told him the Manhattan Project existed. Stimson briefed him days after Roosevelt died. He had actually noticed the unexplained spending as a senator and been warned off. Four months later he gave the order."
     },
     {
       "category": "Pop Culture",
-      "question": "Which entrepreneur founded both Tesla (electric cars) and SpaceX (commercial spaceflight), and acquired Twitter in 2022?",
+      "question": "Musk founded SpaceX in 2002 with no aerospace background. What was the original plan?",
       "options": [
-        "Jeff Bezos",
-        "Richard Branson",
-        "Elon Musk",
-        "Larry Page"
+        "Buy Russian missiles cheaply, then build rockets after refusal",
+        "Partner with Boeing to build a commercial launch division",
+        "Buy a defunct European launch company and restart it",
+        "License NASA technology and manufacture it more cheaply"
       ],
-      "answer": "Elon Musk",
-      "explanation": "Elon Musk co-founded PayPal (sold 2002), founded SpaceX (2002), and joined Tesla as chairman in 2004 (became CEO 2008). SpaceX became the first private company to send astronauts to the ISS. He acquired Twitter for $44 billion in 2022, renaming it X. He is also the founder of Neuralink and The Boring Company.",
-      "memory_hook": "Musk: co-founded PayPal → SpaceX → Tesla CEO → bought Twitter ($44B) → renamed it X."
+      "answer": "Buy Russian missiles cheaply, then build rockets after refusal",
+      "explanation": "Musk went to Moscow intending to buy refurbished ICBMs to launch a greenhouse to Mars as a publicity stunt for space exploration. He was rebuffed and reportedly spat at, and concluded on the flight home that building rockets from scratch would be cheaper. SpaceX nearly failed after three consecutive launch failures, with the fourth succeeding on the last money the company had. It later made orbital boosters reusable, which nobody had done.",
+      "memory_hook": "He went to Moscow to buy refurbished ICBMs to send a greenhouse to Mars as a publicity stunt, got refused and reportedly spat at, and worked out on the flight home he could build rockets cheaper. Three launches failed, the fourth worked on the last of the money."
     },
     {
       "category": "Science & Nature",
-      "question": "What is the term for the tendency of an object to remain at rest or in uniform motion unless acted upon by a net external force?",
+      "question": "Inertia is an object's resistance to changing motion. What does it depend on?",
       "options": [
-        "Acceleration",
-        "Inertia",
-        "Friction",
-        "Momentum"
+        "Both the mass and the surface area facing forward",
+        "Weight, which changes with gravitational field strength",
+        "Mass alone, regardless of size, shape or material",
+        "The material's density and its internal temperature"
       ],
-      "answer": "Inertia",
-      "explanation": "Inertia is described by Newton's First Law of Motion: an object at rest stays at rest, and an object in motion stays in motion, unless acted upon by a net force. Mass is a measure of inertia — more mass means more resistance to change in motion. This is why heavy objects are harder to start moving AND harder to stop.",
-      "memory_hook": "Inertia = Newton's First Law. Objects resist changes in motion. Greater mass = greater inertia."
+      "answer": "Mass alone, regardless of size, shape or material",
+      "explanation": "Inertia is determined purely by mass. Weight is mass times gravity and changes on the Moon, but inertia does not, so a heavy object is exactly as hard to shove sideways in orbit as on Earth even though it floats. Newton's first law states that motion continues unchanged without an external force, which contradicts everyday intuition only because friction and air resistance are always present.",
+      "memory_hook": "Only mass. Weight changes on the Moon but inertia does not, so shoving a heavy crate sideways in orbit is exactly as hard as on Earth even though it floats. Newton's first law feels wrong only because friction is always quietly acting."
     },
     {
       "category": "Geography",
-      "question": "The Gobi Desert, spanning southern Mongolia and northern China, is the fifth-largest desert in the world. What type of desert is it?",
+      "question": "The Gobi is a cold desert, not a hot one. What is it best known for producing?",
       "options": [
-        "Cold desert",
-        "Coastal desert",
-        "Sand desert",
-        "Subtropical desert"
+        "The world's largest deposits of high-grade copper ore",
+        "The last wild population of Bactrian camels in captivity",
+        "Dinosaur fossils, including the first eggs ever identified",
+        "A rare salt harvested only in the coldest winter months"
       ],
-      "answer": "Cold desert",
-      "explanation": "The Gobi is a cold desert where temperatures can drop below -40°C in winter and exceed 50°C in summer. Only about 5% of the Gobi consists of sand dunes — most is bare rock or gravel. It is one of the few places where you can find dinosaur fossils (eggs, skeletons) in large quantities.",
-      "memory_hook": "Gobi: cold desert, mostly rock. -40°C winters. Abundant dinosaur fossils."
+      "answer": "Dinosaur fossils, including the first eggs ever identified",
+      "explanation": "Roy Chapman Andrews's 1920s expeditions found the first recognised dinosaur eggs at the Flaming Cliffs, along with Velociraptor and Protoceratops. The dry climate and exposed sandstone make it one of the richest fossil regions anywhere, including the famous fighting dinosaurs specimen preserving the two locked together. The Gobi is also expanding, driven by overgrazing and drought, which is why China planted a shelterbelt of trees along its edge.",
+      "memory_hook": "Roy Chapman Andrews found the first recognised dinosaur eggs there in the 1920s, plus Velociraptor and Protoceratops. Dry air and exposed sandstone make it one of the best fossil sites anywhere, including the two dinosaurs preserved mid-fight. It is also spreading, which is why China planted a tree belt."
     },
     {
       "category": "History",
-      "question": "The Vietnam War ended in 1975 when North Vietnamese forces captured Saigon. What was Saigon subsequently renamed?",
+      "question": "Saigon fell in 1975 and was renamed. What was the final American evacuation like?",
       "options": [
-        "Hue",
-        "Ho Chi Minh City",
-        "Da Nang",
-        "Hanoi"
+        "A negotiated withdrawal completed over several calm weeks",
+        "Helicopters lifted from a rooftop while crowds pressed below",
+        "A naval evacuation from the coast under sustained fire",
+        "An airlift from the main airport with no civilians present"
       ],
-      "answer": "Ho Chi Minh City",
-      "explanation": "Saigon fell on April 30, 1975, marking the end of the Vietnam War. The city was renamed Ho Chi Minh City after the leader of the North Vietnamese revolution, though many locals still call it Saigon. The fall was marked by iconic images of helicopters evacuating people from the U.S. Embassy rooftop.",
-      "memory_hook": "Saigon fell April 30, 1975. Renamed Ho Chi Minh City. Helicopter rooftop evacuation images."
+      "answer": "Helicopters lifted from a rooftop while crowds pressed below",
+      "explanation": "Operation Frequent Wind evacuated around 7,000 people in about 24 hours, and the photograph of a queue up a ladder to a rooftop helicopter became the war's closing image, though it was an apartment building rather than the embassy as often assumed. Helicopters were pushed off carrier decks into the sea to make room for more arriving. Many South Vietnamese who had worked with the Americans were left behind.",
+      "memory_hook": "About 7,000 people in 24 hours. The famous photo of the ladder to the rooftop helicopter was an apartment block, not the embassy as everyone assumes. They shoved helicopters off carrier decks into the sea to make landing room. Many who had worked with the Americans were left behind."
     },
     {
       "category": "Pop Culture",
-      "question": "Which 1986 Top Gun actor plays Maverick in the 2022 sequel, 36 years after the original?",
+      "question": "Tom Cruise returned as Maverick 36 years later. What did he insist on for the sequel?",
       "options": [
-        "Tom Cruise",
-        "Tom Skerritt",
-        "Val Kilmer",
-        "Anthony Edwards"
+        "Removing all computer effects from the finished cut",
+        "Real jets with actors filmed in the air, not on a soundstage",
+        "Shooting the entire film in a single continuous location",
+        "Performing every aerial stunt himself in the pilot's seat"
       ],
-      "answer": "Tom Cruise",
-      "explanation": "Tom Cruise reprised his role as Pete 'Maverick' Mitchell in Top Gun: Maverick (2022), which grossed $1.49 billion worldwide — the highest-grossing film of Cruise's career. Val Kilmer made a brief emotional cameo as Iceman despite being seriously ill. The film was praised for using practical flight photography rather than CGI.",
-      "memory_hook": "Top Gun: Maverick (2022): Cruise returned after 36 years. $1.49B. Real jet footage, no CGI."
+      "answer": "Real jets with actors filmed in the air, not on a soundstage",
+      "explanation": "Cruise refused green screen and had the cast trained through a months-long flight programme so they could withstand the G-forces while cameras recorded them inside real F/A-18s. He could not fly the fighter jets himself, since the Navy does not permit civilians to pilot them, though he flew other aircraft in the film. The film grossed over $1.4 billion and is credited with drawing audiences back to cinemas after the pandemic.",
+      "memory_hook": "No green screen. The cast went through months of flight training so they could take the G-forces while cameras rolled inside real F/A-18s. Cruise could not pilot the fighters himself, since the Navy will not allow civilians, though he flew other aircraft. It made over $1.4 billion."
     },
     {
       "category": "Sports",
-      "question": "In tennis, what is the name of the first Grand Slam tournament of the calendar year, played on hard courts in Melbourne, Australia?",
+      "question": "The Australian Open opens the tennis season in January. What forced a major change there?",
       "options": [
-        "Wimbledon",
-        "Roland Garros",
-        "Australian Open",
-        "US Open"
+        "Player strikes over prize money in the late 1990s",
+        "A rule change requiring all matches to be played indoors",
+        "Extreme heat, which now triggers a formal suspension policy",
+        "Bushfire smoke, which led to matches moving to another city"
       ],
-      "answer": "Australian Open",
-      "explanation": "The Australian Open has been played at Melbourne Park since 1988. It begins in mid-January and uses a DecoTurf hard court surface. Novak Djokovic holds the record for most Australian Open titles with 10. Temperatures at Melbourne Park can exceed 40°C during summer, making it physically grueling.",
-      "memory_hook": "Australian Open: first Grand Slam, January, Melbourne. Djokovic holds record with 10 titles. Extreme heat."
+      "answer": "Extreme heat, which now triggers a formal suspension policy",
+      "explanation": "January in Melbourne regularly exceeds 40C and court surface temperatures have been recorded above 60C. Players have vomited, hallucinated and collapsed, and a ball boy fainted during one match. The tournament introduced a heat stress scale and roofs on its main courts. Smoke from the 2019-20 bushfires also disrupted qualifying, with one player retiring mid-match after a coughing fit, though matches were not relocated.",
+      "memory_hook": "Melbourne in January regularly passes 40C, with court surfaces recorded above 60. Players have vomited, hallucinated and collapsed. There is now a formal heat scale and roofs on the main courts. Bushfire smoke also disrupted qualifying in 2020."
     }
   ]
 }

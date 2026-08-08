@@ -4,8 +4,8 @@
       "category": "History",
       "question": "Which ancient wonder was located in Alexandria, Egypt?",
       "options": [
-        "The Colossus of Rhodes",
         "The Lighthouse of Alexandria",
+        "The Colossus of Rhodes",
         "The Library of Alexandria",
         "The Temple of Artemis"
       ],
@@ -17,8 +17,8 @@
       "category": "History",
       "question": "What year did the Berlin Wall fall?",
       "options": [
-        "1989",
         "1987",
+        "1989",
         "1993",
         "1991"
       ],
@@ -30,10 +30,10 @@
       "category": "Geography",
       "question": "Which tiny European republic, entirely surrounded by Italy and claiming to be founded in 301 AD, is considered the world's oldest surviving republic?",
       "options": [
-        "Monaco",
-        "San Marino",
         "Liechtenstein",
-        "Andorra"
+        "Monaco",
+        "Andorra",
+        "San Marino"
       ],
       "answer": "San Marino",
       "explanation": "San Marino claims to be the world's oldest republic, traditionally founded in 301 AD. Entirely surrounded by Italy, it sits atop Mount Titano and covers just 61 square kilometers. Unlike most tiny European states, it is a full republic — two Captains Regent serve simultaneously as co-heads of state for six-month terms, a system dating back to the 13th century. San Marino has avoided most European wars by maintaining strict neutrality.",
@@ -43,8 +43,8 @@
       "category": "History",
       "question": "The Rosetta Stone, found in 1799, unlocked Egyptian hieroglyphs. What made it the key?",
       "options": [
-        "It carried the same decree in Greek and two Egyptian scripts",
         "It listed every pharaoh's name in chronological order",
+        "It carried the same decree in Greek and two Egyptian scripts",
         "It contained a written alphabet chart made for scribes",
         "It was the only hieroglyphic text ever found fully intact"
       ],
@@ -56,10 +56,10 @@
       "category": "Sports",
       "question": "In which sport would you perform a 'slam dunk'?",
       "options": [
-        "Basketball",
-        "Water polo",
         "Volleyball",
-        "Handball"
+        "Water polo",
+        "Handball",
+        "Basketball"
       ],
       "answer": "Basketball",
       "explanation": "A slam dunk occurs when a player jumps and forcefully pushes the ball through the basket from above the rim. It was officially allowed in college basketball in 1976 after being banned for nearly a decade.",
@@ -69,10 +69,10 @@
       "category": "Sports",
       "question": "What country has won the most FIFA World Cup titles?",
       "options": [
-        "Italy",
         "Brazil",
         "Germany",
-        "Argentina"
+        "Argentina",
+        "Italy"
       ],
       "answer": "Brazil",
       "explanation": "Brazil has won the FIFA World Cup five times (1958, 1962, 1970, 1994, 2002), more than any other nation. They are the only country to have played in every World Cup tournament.",
@@ -95,9 +95,9 @@
       "category": "Pop Culture",
       "question": "Andy Warhol's 'Factory' studio in New York was the center of a remarkable creative scene in the 1960s. What was Warhol's central argument about art and consumer culture?",
       "options": [
-        "That fine art should be made inaccessible to ordinary people to preserve its spiritual value",
         "That the boundary between high art and commercial imagery was artificial — mass-produced consumer goods (Campbell's soup, Brillo boxes, celebrity photos) were as worthy of artistic attention as any subject",
         "That art's only legitimate subject was political protest, and anything else was complicity with capitalism",
+        "That fine art should be made inaccessible to ordinary people to preserve its spiritual value",
         "That photography had rendered painting obsolete, and artists should focus entirely on film and television"
       ],
       "answer": "That the boundary between high art and commercial imagery was artificial — mass-produced consumer goods (Campbell's soup, Brillo boxes, celebrity photos) were as worthy of artistic attention as any subject",
@@ -108,10 +108,10 @@
       "category": "Pop Culture",
       "question": "Which band released the album 'Abbey Road'?",
       "options": [
-        "Led Zeppelin",
-        "The Beatles",
+        "The Who",
         "The Rolling Stones",
-        "The Who"
+        "The Beatles",
+        "Led Zeppelin"
       ],
       "answer": "The Beatles",
       "explanation": "Abbey Road was released by The Beatles in September 1969. The iconic cover photo of the four band members crossing Abbey Road became one of the most imitated images in music history.",
@@ -121,10 +121,10 @@
       "category": "Science & Nature",
       "question": "In chemistry, what is the name for a solution that resists significant changes to its pH when small amounts of acid or base are added?",
       "options": [
-        "Solvent",
         "Alloy",
+        "Catalyst",
         "Buffer",
-        "Catalyst"
+        "Solvent"
       ],
       "answer": "Buffer",
       "explanation": "A buffer solution maintains a relatively stable pH when small amounts of acid or base are added. Buffers work because they contain a weak acid and its conjugate base, which absorb added ions. Blood is one of nature's most critical buffers, maintaining a pH between 7.35 and 7.45 — a shift of just 0.5 units in either direction can be life-threatening. Carbonic acid and bicarbonate ions keep blood pH stable.",
@@ -134,10 +134,10 @@
       "category": "Geography",
       "question": "Which is the world's smallest country by area?",
       "options": [
+        "San Marino",
         "Vatican City",
         "Liechtenstein",
-        "Monaco",
-        "San Marino"
+        "Monaco"
       ],
       "answer": "Vatican City",
       "explanation": "Vatican City covers just 0.44 square kilometers, located entirely within Rome, Italy. It is the headquarters of the Roman Catholic Church and home to the Pope. Despite its tiny size, it has its own government, currency, passport, radio station, and newspaper.",
@@ -147,10 +147,10 @@
       "category": "Science & Nature",
       "question": "The Hubble Space Telescope, launched in 1990, was initially a near-catastrophic failure before becoming one of science's greatest instruments. What went wrong — and how was it fixed?",
       "options": [
-        "Hubble's initial orbit was too low, causing it to plunge through Earth's upper atmosphere and degrade; thrusters were fired to boost its orbit to a stable altitude in 1991",
         "Hubble's primary mirror was polished to the wrong shape — off by just 2.2 micrometers — creating blurry images; astronauts installed corrective optics in a 1993 spacewalk that saved the mission",
+        "Hubble's camera was installed backwards by ground engineers, capturing only star images from behind the telescope; a crew rotated it to face forward during a 1992 servicing mission",
         "Hubble's solar panels failed to deploy correctly, leaving it without power for 18 months until a repair mission restored them and pointed the telescope toward the Sun",
-        "Hubble's camera was installed backwards by ground engineers, capturing only star images from behind the telescope; a crew rotated it to face forward during a 1992 servicing mission"
+        "Hubble's initial orbit was too low, causing it to plunge through Earth's upper atmosphere and degrade; thrusters were fired to boost its orbit to a stable altitude in 1991"
       ],
       "answer": "Hubble's primary mirror was polished to the wrong shape — off by just 2.2 micrometers — creating blurry images; astronauts installed corrective optics in a 1993 spacewalk that saved the mission",
       "explanation": "Hubble's 2.4-meter mirror was precisely but incorrectly ground — a spherical aberration of 2.2 micrometers (less than 1/50 the width of a human hair) caused all its images to be blurry. After months of public embarrassment, astronauts on the Space Shuttle Endeavour installed corrective optics (COSTAR) in December 1993 — essentially contact lenses for the telescope. The repair mission was a complete success. Hubble subsequently provided evidence for the accelerating expansion of the universe, confirmed the age of the cosmos at 13.8 billion years, and photographed the Hubble Deep Field — showing thousands of galaxies in a patch of sky the size of a grain of sand held at arm's length.",

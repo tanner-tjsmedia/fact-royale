@@ -5,10 +5,10 @@
       "category": "History",
       "question": "Which ancient city, once the capital of the Persian Empire and sacked by Alexander the Great in 330 BC, is now located in modern-day Iran?",
       "options": [
-        "Carthage",
         "Nineveh",
         "Persepolis",
-        "Babylon"
+        "Babylon",
+        "Carthage"
       ],
       "answer": "Persepolis",
       "explanation": "Persepolis (literally 'city of the Persians') was the ceremonial capital of the Achaemenid Persian Empire. Alexander burned it in 330 BC — possibly in revenge for Xerxes burning Athens in 480 BC, or in a drunken party. Its ruins, near modern Shiraz, Iran, are a UNESCO World Heritage Site with remarkable bas-relief carvings.",
@@ -18,10 +18,10 @@
       "category": "Science & Nature",
       "question": "What is the name of the particle accelerator near Geneva, Switzerland, that discovered the Higgs boson in 2012?",
       "options": [
-        "Fermilab Tevatron",
-        "CERN Synchrotron",
+        "SLAC National Accelerator",
         "Large Hadron Collider (LHC)",
-        "SLAC National Accelerator"
+        "Fermilab Tevatron",
+        "CERN Synchrotron"
       ],
       "answer": "Large Hadron Collider (LHC)",
       "explanation": "The Large Hadron Collider at CERN (Switzerland/France border) is the world's largest and most powerful particle accelerator. It collides protons at nearly the speed of light in a 27 km circular tunnel. The Higgs boson — the particle that gives other particles mass — was discovered on July 4, 2012, filling the last gap in the Standard Model.",
@@ -31,10 +31,10 @@
       "category": "Sports",
       "question": "Which country has won the most men's Olympic gold medals in table tennis (ping pong) in history?",
       "options": [
+        "Sweden",
         "Japan",
         "China",
-        "South Korea",
-        "Sweden"
+        "South Korea"
       ],
       "answer": "China",
       "explanation": "China has been dominant in Olympic table tennis since the sport was introduced in 1988. Chinese players have won approximately 60% of all Olympic gold medals in table tennis across all events. The country has a vast development system for the sport, with millions of registered players.",
@@ -44,8 +44,8 @@
       "category": "Pop Culture",
       "question": "Which filmmaker's 1941 debut 'Citizen Kane,' loosely based on William Randolph Hearst, is consistently ranked the greatest film of all time in critics' polls?",
       "options": [
-        "John Ford",
         "Howard Hawks",
+        "John Ford",
         "Frank Capra",
         "Orson Welles"
       ],
@@ -57,9 +57,9 @@
       "category": "Geography",
       "question": "Which Southeast Asian country has the world's longest underground river, Puerto Princesa, which flows through a cave system in Palawan?",
       "options": [
+        "Vietnam",
         "Philippines",
         "Malaysia",
-        "Vietnam",
         "Thailand"
       ],
       "answer": "Philippines",
@@ -70,10 +70,10 @@
       "category": "History",
       "question": "The Battle of Midway (June 1942) is considered the turning point of the Pacific War in World War II. Who won?",
       "options": [
+        "Britain",
         "Australia",
         "United States",
-        "Japan",
-        "Britain"
+        "Japan"
       ],
       "answer": "United States",
       "explanation": "At Midway, the U.S. Navy sank four Japanese aircraft carriers in a single day — turning the tide of the Pacific War. American codebreakers had cracked Japanese codes, allowing the U.S. to know Japan's attack plan. Japan lost its most experienced naval aviators, making recovery nearly impossible.",
@@ -83,10 +83,10 @@
       "category": "Pop Culture",
       "question": "Which American actor and comedian, known for movies like 'The 40-Year-Old Virgin' and the 'Anchorman' franchise, consistently produces top-grossing comedies?",
       "options": [
-        "Jim Carrey",
         "Steve Carell / Will Ferrell",
-        "Adam Sandler",
-        "Ben Stiller"
+        "Jim Carrey",
+        "Ben Stiller",
+        "Adam Sandler"
       ],
       "answer": "Steve Carell / Will Ferrell",
       "explanation": "Steve Carell starred in 'The 40-Year-Old Virgin' (2005) and played Michael Scott in 'The Office' (US). Will Ferrell created the Anchorman franchise and is known for Elf (2003), which reportedly earns him $2 million a year in residuals. Together or separately, they helped define American comedy in the 2000s.",
@@ -97,9 +97,9 @@
       "question": "What is the name of the virus that causes AIDS (Acquired Immunodeficiency Syndrome)?",
       "options": [
         "EBV",
-        "HIV",
         "HPV",
-        "HCV"
+        "HCV",
+        "HIV"
       ],
       "answer": "HIV",
       "explanation": "HIV (Human Immunodeficiency Virus) attacks CD4 T-cells, gradually destroying the immune system. Without treatment, HIV leads to AIDS when CD4 count drops below 200 cells/mm³. Antiretroviral therapy (ART) can suppress the virus to undetectable levels, allowing near-normal life expectancy. The AIDS epidemic has killed approximately 40 million people since the 1980s.",
@@ -109,9 +109,9 @@
       "category": "Geography",
       "question": "Which European country, with Amsterdam as its capital, has roughly 27% of its land below sea level and uses an extensive system of dikes and water management?",
       "options": [
-        "Belgium",
-        "Germany",
         "Denmark",
+        "Germany",
+        "Belgium",
         "Netherlands"
       ],
       "answer": "Netherlands",
@@ -122,10 +122,10 @@
       "category": "History",
       "question": "Which island became famous for its isolation in the Pacific and its mysterious massive stone statues called moai, carved by the Rapa Nui people?",
       "options": [
-        "Samoa",
-        "Easter Island",
+        "Tahiti",
         "Hawaii",
-        "Tahiti"
+        "Samoa",
+        "Easter Island"
       ],
       "answer": "Easter Island",
       "explanation": "Easter Island (Rapa Nui, Isla de Pascua) is 3,500 km from Chile — the nearest inhabited island is 2,000 km away. Its people carved 900+ moai statues, some weighing over 80 tons, and somehow transported them across the island. The civilization collapsed (possibly through deforestation) before European contact in 1722.",
@@ -135,10 +135,10 @@
       "category": "Pop Culture",
       "question": "Which song by Pharrell Williams, released in 2013 for the Despicable Me 2 soundtrack, became the best-selling digital single worldwide for that year?",
       "options": [
-        "Royals",
-        "Stay With Me",
         "Happy",
-        "Blurred Lines"
+        "Blurred Lines",
+        "Stay With Me",
+        "Royals"
       ],
       "answer": "Happy",
       "explanation": "'Happy' by Pharrell Williams peaked at #1 in over 25 countries and sold over 13 million copies. It remained on the UK Singles Chart for 76 weeks. The song was inspired by Pharrell's conversations about happiness and became the backdrop for thousands of 'pharrell_happy' copycat videos worldwide.",

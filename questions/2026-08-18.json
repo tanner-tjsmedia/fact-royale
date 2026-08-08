@@ -3,89 +3,89 @@
   "questions": [
     {
       "category": "History",
-      "question": "Which American civil rights leader was assassinated in Memphis, Tennessee on April 4, 1968?",
+      "question": "Martin Luther King Jr was in Memphis in April 1968 for a reason often left out of the story. What brought him there?",
       "options": [
-        "Malcolm X",
-        "Martin Luther King Jr.",
-        "Medgar Evers",
-        "John Lewis"
+        "A strike by Black sanitation workers over pay and safety",
+        "A march marking the anniversary of the Selma crossing",
+        "A rally for the presidential campaign of Robert Kennedy",
+        "The trial of four men accused of a church bombing"
       ],
-      "answer": "Martin Luther King Jr.",
-      "explanation": "Martin Luther King Jr. was shot and killed on April 4, 1968, at the Lorraine Motel in Memphis, Tennessee, where he had come to support striking sanitation workers. James Earl Ray was convicted of the murder. King's assassination triggered riots in over 100 American cities. The following day, Robert F. Kennedy was shot and killed in Los Angeles. 1968 was one of the most traumatic years in American history.",
-      "memory_hook": "King assassinated April 4, 1968, Memphis. Lorraine Motel. He was there for a sanitation workers' strike — not a major speech, just labor solidarity. RFK was shot 2 months later. MLK was 39. The greatest advocate for nonviolence was killed by violence."
+      "answer": "A strike by Black sanitation workers over pay and safety",
+      "explanation": "Two workers had been crushed to death by a malfunctioning truck, and 1,300 men walked out carrying signs reading I AM A MAN. By 1968 King had shifted toward economic justice and was organising the Poor People's Campaign, positions considerably less popular than his earlier work. His approval rating was around 25% at his death. He gave the Mountaintop speech the night before he was shot.",
+      "memory_hook": "Two sanitation workers had been crushed by a faulty truck and 1,300 walked out with signs reading I AM A MAN. King had moved to economic justice by then, which was far less popular. His approval was around 25% when he died. He gave the Mountaintop speech the night before."
     },
     {
       "category": "History",
-      "question": "The 'Iron Curtain,' a term used to describe the division between communist and non-communist Europe during the Cold War, was coined by which leader?",
+      "question": "Churchill's Iron Curtain speech in 1946 named the Cold War divide. Where did he give it?",
       "options": [
-        "Joseph Stalin",
-        "Harry Truman",
-        "Franklin D. Roosevelt",
-        "Winston Churchill"
+        "The United Nations General Assembly",
+        "The Yalta Conference in Crimea",
+        "A small college in Fulton, Missouri",
+        "The House of Commons in London"
       ],
-      "answer": "Winston Churchill",
-      "explanation": "Winston Churchill coined the phrase 'Iron Curtain' in a speech at Westminster College in Fulton, Missouri on March 5, 1946: 'From Stettin in the Baltic to Trieste in the Adriatic, an iron curtain has descended across the Continent.' Churchill was no longer Prime Minister when he gave the speech (he had been voted out in 1945), but it became one of the defining phrases of the Cold War.",
-      "memory_hook": "Iron Curtain = Churchill, 1946. He wasn't even PM anymore — just an elder statesman giving a speech in Missouri. The phrase crystallized the Cold War division for the public. The Soviet response: Churchill was a warmonger. Which is what a country building an empire says to someone describing it."
+      "answer": "A small college in Fulton, Missouri",
+      "explanation": "Churchill was out of office, having lost the 1945 election, and spoke at Westminster College in Fulton at Truman's invitation, with Truman on stage. The reaction was mixed and many Americans thought it needlessly provocative, since the USSR had been an ally months earlier. Stalin compared it to Nazi racial theory. The phrase was not new, having appeared in print before, but Churchill fixed it permanently in the language.",
+      "memory_hook": "He was out of office, having lost the 1945 election, speaking at a small Missouri college with Truman sitting behind him. Many Americans thought it provocative, since the Soviets had just been allies. Stalin compared it to Nazi race theory."
     },
     {
       "category": "History",
-      "question": "The Chernobyl nuclear disaster occurred in which year?",
+      "question": "The Chernobyl reactor exploded in 1986 during a safety test. What was the test trying to establish?",
       "options": [
-        "1991",
-        "1986",
-        "1979",
-        "1982"
+        "Whether the reactor could restart after a full shutdown",
+        "How much radiation the containment building could hold",
+        "Whether spinning turbines could power cooling in a blackout",
+        "How long the reactor could run without any coolant at all"
       ],
-      "answer": "1986",
-      "explanation": "The Chernobyl nuclear disaster occurred on April 26, 1986, at the Chernobyl Nuclear Power Plant in Pripyat, Soviet Ukraine (now Ukraine). It is considered the worst nuclear accident in history. Reactor 4 exploded during a safety test, releasing radiation across Europe. The surrounding area remains largely uninhabited. The Soviet government's initial cover-up contributed to growing public distrust that helped accelerate the USSR's collapse.",
-      "memory_hook": "Chernobyl = April 26, 1986. The Soviet government tried to cover it up. Swedish radiation sensors detected the fallout and forced disclosure. The disaster contributed to the fall of the Soviet Union. The exclusion zone is now an accidental wildlife sanctuary — nature reclaiming a radioactive ghost town."
+      "answer": "Whether spinning turbines could power cooling in a blackout",
+      "explanation": "If external power failed there was a gap of about a minute before backup diesels came up, and the test checked whether a turbine's rotational momentum could bridge it. To run the test operators disabled safety systems and drove the reactor into an unstable low-power state. The RBMK design had a fatal quirk: at low power, inserting the graphite-tipped control rods briefly increased reactivity, so the emergency shutdown triggered the explosion.",
+      "memory_hook": "They were testing whether a spinning turbine could power the coolant pumps for the minute before backup diesels started. To do it they switched off safety systems and pushed the reactor into an unstable state. Then the emergency shutdown itself caused the explosion, because the graphite rod tips briefly boosted the reaction."
     },
     {
       "category": "Sports",
-      "question": "What is the term for a score of zero in a cricket innings?",
+      "question": "Cricket calls a batter dismissed without scoring a duck. Where does the term come from?",
       "options": [
-        "Duck",
-        "Love",
-        "Golden duck",
-        "Bagel"
+        "Ducking away from the ball that got you out",
+        "A Victorian batter nicknamed Duck who never scored",
+        "The zero on the scoreboard resembles a duck's egg",
+        "Duck feathers were handed to the dismissed player"
       ],
-      "answer": "Duck",
-      "explanation": "A 'duck' in cricket refers to a batsman scoring zero runs before being dismissed. The term comes from 'duck's egg' for the oval shape of the zero. Getting out for zero on the first ball is called a 'golden duck,' and zero off a run-out before facing a ball is a 'diamond duck.' Being dismissed for a duck is considered particularly embarrassing, especially for established batters.",
-      "memory_hook": "Duck = zero in cricket. From 'duck's egg' (oval like a zero). Golden duck = out for zero on the first ball. Getting a duck is cricket's version of a strikeout — embarrassing, especially for a star batter. Donald Bradman, arguably cricket's greatest player, was out for a duck on his final Test innings."
+      "answer": "The zero on the scoreboard resembles a duck's egg",
+      "explanation": "Duck is short for duck's egg, from the shape of the nought. Tennis borrows the same idea from French: love comes from l'oeuf, the egg. A golden duck is out on the first ball faced, a diamond duck without facing one at all, run out from the non-striker's end. Sachin Tendulkar and Don Bradman both have a duck against them, and Bradman's most famous is his last innings, needing four runs for a career average of 100 and making none.",
+      "memory_hook": "Duck is short for duck's egg, from the shape of a nought. Tennis does the same with love, from l'oeuf. A golden duck is first ball, a diamond duck is out without facing one. Bradman's last innings he needed four runs for a career average of 100 and got nought."
     },
     {
       "category": "Sports",
-      "question": "In which combat sport would competitors attempt to throw or pin each other to the mat?",
+      "question": "Judo and wrestling both involve throwing an opponent. What decides a judo match instantly?",
       "options": [
-        "Fencing",
-        "Judo",
-        "Boxing",
-        "Karate"
+        "Three consecutive takedowns within a single two-minute span",
+        "Forcing the opponent outside the mat boundary twice over",
+        "Holding a pin for a continuous sixty seconds without a break",
+        "An ippon, a throw landing the opponent flat on their back"
       ],
-      "answer": "Judo",
-      "explanation": "Judo is a Japanese martial art and Olympic sport where competitors attempt to throw opponents to the ground or pin them. 'Judo' means 'gentle way' in Japanese — the philosophy is to use the opponent's force against them rather than meeting force with force. It was developed by Jigoro Kano in 1882 and became an Olympic sport in 1964 (men) and 1992 (women). Judokas are ranked by belt color, from white to black.",
-      "memory_hook": "Judo = throw or pin. 'Gentle way' — use your opponent's force against them. Invented by Jigoro Kano in 1882 in Japan. Olympic since 1964. The philosophy of minimum effort for maximum effect influenced jiu-jitsu and other grappling arts."
+      "answer": "An ippon, a throw landing the opponent flat on their back",
+      "explanation": "An ippon ends the contest immediately and is awarded for a throw landing the opponent largely on their back with control and force, or for a 20-second pin, or a submission by strangle or armlock. Everything else scores waza-ari, worth half, and two of those also end it. The instant-win structure is deliberate: Jigoro Kano designed judo so a single decisive technique settles matters, reflecting its origins as combat rather than points-scoring.",
+      "memory_hook": "Ippon ends it on the spot: a throw landing them largely on the back with control and force, or a 20-second pin, or a submission. Anything less is waza-ari, worth half, and two of those also finish it. Kano built it so one decisive technique settles the fight."
     },
     {
       "category": "Pop Culture",
-      "question": "'Like a Rolling Stone' by Bob Dylan was released in 1965. At 6 minutes long, it was controversial for its length. Who called it the greatest song ever written?",
+      "question": "Bob Dylan's Like a Rolling Stone ran over six minutes in 1965, when singles were half that. How did it get on the radio?",
       "options": [
-        "The Grammy Awards",
-        "The Rock Hall of Fame",
-        "Rolling Stone magazine",
-        "The New York Times"
+        "Columbia edited it down to three minutes for airplay",
+        "Dylan re-recorded a shorter version specifically for radio",
+        "A DJ played an acetate and stations were flooded with calls",
+        "It was released only on the album, never as a single"
       ],
-      "answer": "Rolling Stone magazine",
-      "explanation": "Rolling Stone magazine ranked 'Like a Rolling Stone' as the greatest song of all time in their 2004 list of the 500 Greatest Songs. The song was revolutionary — at 6 minutes, it was twice the length of typical pop songs. Radio stations refused to play it at first. Its opening snare drum hit is one of the most recognizable sounds in rock history.",
-      "memory_hook": "'Like a Rolling Stone' = Dylan's greatest. Rolling Stone magazine #1 song of all time. 6 minutes long — radio stations refused to play it. The opening snare hit is immediately recognizable. A song about someone losing everything who has to start from scratch. Dylan said it came from a long piece of writing, 'like a piece of vomit.'"
+      "answer": "A DJ played an acetate and stations were flooded with calls",
+      "explanation": "Columbia thought it unplayable and initially refused to release it as a single. A copy reached a New York club, a DJ played it, and stations were pressured into it by listener demand. Columbia split it across both sides of the 45, but DJs simply played the whole thing. It reached number two. Dylan had also just gone electric at Newport that summer, to considerable booing.",
+      "memory_hook": "Columbia thought it unplayable at six minutes and would not release it. Someone played an acetate in a New York club, DJs got calls, and the label caved. They split it over both sides of the 45 and DJs ignored that and played it whole. Number two."
     },
     {
       "category": "Pop Culture",
       "question": "Roy Lichtenstein enlarged comic-book panels to gallery scale in the 1960s. What controversy still follows the work?",
       "options": [
-        "Critics called the enlarged panels demeaning to women",
         "He invented the panels rather than copying any real comic",
         "He copied real artists' panels without credit or payment",
+        "Critics called the enlarged panels demeaning to women",
         "The same reviews called it both brilliant and lazy"
       ],
       "answer": "He copied real artists' panels without credit or payment",
@@ -94,68 +94,75 @@
     },
     {
       "category": "Pop Culture",
-      "question": "The 2021 film 'The Power of the Dog' was directed by which New Zealand filmmaker?",
+      "question": "The Power of the Dog (2021) earned Jane Campion a Best Director Oscar. What did that make her?",
       "options": [
-        "Jane Campion",
-        "Lee Tamahori",
-        "Niki Caro",
-        "Taika Waititi"
+        "The first New Zealander to win any Academy Award",
+        "The first woman nominated for the award twice",
+        "The youngest winner in the category's history",
+        "The first director to win for a debut feature"
       ],
-      "answer": "Jane Campion",
-      "explanation": "Jane Campion directed The Power of the Dog (2021), based on Thomas Savage's 1967 novel. The film starred Benedict Cumberbatch, Kirsten Dunst, Jesse Plemons, and Kodi Smit-McPhee. Campion won the Academy Award for Best Director — the third woman ever to win and the second to be nominated twice. She previously won for The Piano (1993) screenplay.",
-      "memory_hook": "Jane Campion = Power of the Dog. Third woman to win Best Director Oscar. Benedict Cumberbatch plays a menacing, repressed rancher. Set in Montana, filmed in New Zealand — the landscape is actually New Zealand standing in for the American West."
+      "answer": "The first woman nominated for the award twice",
+      "explanation": "Campion had been nominated for The Piano in 1994, and the second nomination in 2022 made her the first woman nominated twice for directing. Only three women have won the award. The Piano had also won her the Palme d'Or in 1993, making her the first woman to take it; Julia Ducournau won for Titane in 2021 and Justine Triet for Anatomy of a Fall in 2023, the only others to date. The Power of the Dog was shot in New Zealand standing in for 1925 Montana.",
+      "memory_hook": "Campion was nominated for The Piano in 1994, and this made her the first woman nominated twice for directing. Only three women have ever won it. The Piano also made her the first woman to take the Palme d'Or, in 1993, with only Julia Ducournau and Justine Triet following since. This was shot in New Zealand playing 1925 Montana.",
+      "sources": [
+        {
+          "claim": "Three women have won the Palme d'Or: Campion 1993, Ducournau 2021, Triet 2023",
+          "source": "https://deadline.com/2023/05/cannes-film-festival-winners-2023-full-list-1235381713/",
+          "checked": "2026-08-08"
+        }
+      ]
     },
     {
       "category": "Geography",
-      "question": "The Suez Canal, completed in 1869, dramatically shortened the sea route between Europe and Asia by connecting the Mediterranean Sea to which body of water?",
+      "question": "The Suez Canal has no locks, unlike Panama. Why not?",
       "options": [
-        "Persian Gulf",
-        "Gulf of Aden",
-        "Arabian Sea",
-        "Red Sea"
+        "Egyptian engineers rejected locks on cost grounds",
+        "Tidal flow through the canal keeps levels equal",
+        "The seas at both ends sit at nearly the same level",
+        "The canal is short enough that locks are unnecessary"
       ],
-      "answer": "Red Sea",
-      "explanation": "The Suez Canal connects Port Said on the Mediterranean to Suez on the Red Sea, cutting through the Isthmus of Suez in Egypt. Before the canal, ships had to sail around the southern tip of Africa. The canal reduced the voyage from London to Mumbai by over 7,000 km. Egypt nationalized it in 1956, triggering the Suez Crisis.",
-      "memory_hook": "Suez Canal: Mediterranean → Red Sea. Skips around Africa. Egypt, 1869."
+      "answer": "The seas at both ends sit at nearly the same level",
+      "explanation": "The Mediterranean and Red Sea differ little in elevation and the terrain between is low desert, so a sea-level cut was possible. Panama needed locks because the isthmus is mountainous and Gatun Lake sits 26 metres up. That difference is why de Lesseps, who built Suez, insisted a sea-level canal would work in Panama, and why his attempt failed. Suez carries roughly 12% of global trade and blocking it for six days in 2021 cost billions.",
+      "memory_hook": "The Mediterranean and Red Sea are at nearly the same level with low desert between, so you can just cut straight through. Panama is mountainous and needed locks. De Lesseps built Suez and assumed Panama would work the same way, which is exactly why his Panama attempt collapsed."
     },
     {
       "category": "Science & Nature",
-      "question": "What is the term for the role or position a species plays in its ecosystem?",
+      "question": "Two species cannot occupy the same niche in the same place indefinitely. What happens instead?",
       "options": [
-        "Biome",
-        "Niche",
-        "Habitat",
-        "Ecosystem"
+        "They interbreed until they become a single species",
+        "Both populations shrink to exactly half their original size",
+        "The larger species always eliminates the smaller one",
+        "One is driven out, or they diverge to use different resources"
       ],
-      "answer": "Niche",
-      "explanation": "An ecological niche describes the role and position of a species within its ecosystem — what it eats, what eats it, when and where it is active, and how it affects its environment. The concept explains how multiple species can coexist in the same habitat without directly competing. If two species occupy the same niche, one typically outcompetes the other — this is called competitive exclusion.",
-      "memory_hook": "Niche = a species' role in the ecosystem. Not where it lives (habitat) but what it does there. Two species can share a habitat but not the same niche — if they do, one wins and one loses. Evolution constantly creates new niches."
+      "answer": "One is driven out, or they diverge to use different resources",
+      "explanation": "This is competitive exclusion. Gause demonstrated it with paramecia in the 1930s: two species that overlapped completely could not coexist in one culture. In the wild, species usually partition instead, feeding at different heights or hunting at different hours. Darwin's finches diverged in beak shape to exploit different seeds, which is why they became the standard example of adaptive radiation.",
+      "memory_hook": "Competitive exclusion: identical niches cannot coexist, so one goes or they specialise. Gause proved it with paramecia in the 1930s. In the wild species usually partition instead, feeding at different heights or different times of day. Darwin's finches split by beak shape and seed size."
     },
     {
       "category": "Geography",
-      "question": "Mount Whitney, the highest peak in the contiguous United States at 4,421 meters, is located in which western state?",
+      "question": "Mount Whitney and Death Valley are about 135km apart in California. What is remarkable about that pairing?",
       "options": [
-        "Colorado",
-        "California",
-        "Nevada",
-        "Oregon"
+        "Both were formed by the same volcanic eruption",
+        "They share an underground aquifer despite the distance",
+        "Highest and lowest points in the contiguous US, side by side",
+        "Both hold the US record for highest recorded temperature"
       ],
-      "answer": "California",
-      "explanation": "Mount Whitney is located in the Sierra Nevada mountain range in eastern California, on the boundary between Tulare and Inyo Counties. It is just 135 km from Death Valley — which at -86 meters below sea level is the lowest point in North America. Mount Whitney sits in Sequoia National Park / John Muir Wilderness. The trail to its summit is one of the most popular day hikes in the US but requires altitude acclimation due to oxygen reduction at its peak.",
-      "memory_hook": "Mount Whitney: 4,421m, highest in the contiguous US, in California's Sierra Nevada. Just 135 km from Death Valley (lowest point in N. America). The extreme juxtaposition of highest and lowest in the same region. A popular summit hike, but at 4,421m the altitude requires preparation."
+      "answer": "Highest and lowest points in the contiguous US, side by side",
+      "explanation": "Whitney reaches 4,421m and Badwater Basin in Death Valley sits 86m below sea level, and they are close enough to see between on a clear day. Both result from Basin and Range extension, where the crust is being pulled apart, dropping blocks down and pushing others up. Death Valley also holds the highest reliably recorded air temperature on Earth, 56.7C at Furnace Creek in 1913.",
+      "memory_hook": "Whitney is 4,421m up, Badwater Basin is 86m below sea level, and they are 135km apart. Both come from the same process, crustal stretching that drops some blocks and lifts others. Death Valley also holds the highest air temperature ever reliably recorded, 56.7C in 1913."
     },
     {
       "category": "Science & Nature",
-      "question": "What is an ecological niche, and why can two species rarely occupy the exact same niche in an ecosystem?",
+      "question": "Ecologists distinguish a species' fundamental niche from its realised niche. What is the difference?",
       "options": [
-        "The evolutionary history of a species",
-        "The role a species plays in its ecosystem including what it eats and what eats it, which cannot be shared identically",
-        "The geographic range a species occupies",
-        "A physical location where a species lives"
+        "Where it could live, versus where competitors allow",
+        "Where it feeds, versus where it breeds and raises young",
+        "Its summer breeding range, versus its winter range",
+        "Its historic range, versus the range it holds today"
       ],
-      "answer": "The role a species plays in its ecosystem including what it eats and what eats it, which cannot be shared identically",
-      "explanation": "An ecological niche is the functional role a species plays in its ecosystem — its diet, habitat preferences, activity timing, predators, and behaviors. The competitive exclusion principle (Gause's Law) states that two species competing for identical resources in the same niche cannot coexist indefinitely — one will outcompete and replace the other. Species coexist by occupying slightly different niches (niche differentiation). Darwin's finches on the Galápagos evolved different beak shapes to exploit different food sources and avoid direct competition.",
-      "memory_hook": "Ecological niche = a species' role (what it eats, when active, what eats it). Two species can't occupy identical niches — one wins (competitive exclusion). Darwin's finches split into 15+ species to fill different niches. Niche differentiation is why biodiversity doesn't collapse into one dominant species."
+      "answer": "Where it could live, versus where competitors allow",
+      "explanation": "The fundamental niche is the full range of conditions a species could tolerate with no competition. The realised niche is the narrower slice it actually occupies once rivals, predators and disease are present. Connell's barnacle experiments on Scottish shores showed one species could live across the whole tidal range but was confined to the upper zone by a competitor. Remove the competitor and it expands.",
+      "memory_hook": "Fundamental niche is everywhere a species could survive; realised niche is the smaller part competitors leave it. Connell's barnacle work in Scotland showed one species could handle the whole tidal range but got squeezed into the top by a rival. Remove the rival and it spreads back out."
     }
   ]
 }

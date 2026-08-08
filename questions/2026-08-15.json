@@ -3,25 +3,25 @@
   "questions": [
     {
       "category": "History",
-      "question": "India gained independence from British rule on which date in 1947?",
+      "question": "India and Pakistan became independent within a day of each other in August 1947. Why do they mark different dates?",
       "options": [
-        "January 26",
-        "July 4",
-        "August 15",
-        "October 2"
+        "Pakistan declared early, before the handover was legal",
+        "The two countries use different calendar systems",
+        "Mountbatten attended each ceremony, a day apart",
+        "Pakistan chose a date with religious significance"
       ],
-      "answer": "August 15",
-      "explanation": "India gained independence from British rule on August 15, 1947, following decades of nonviolent resistance led by Mahatma Gandhi and the Indian National Congress. Jawaharlal Nehru became India's first Prime Minister. The same day, Pakistan was created as a separate Muslim-majority state — leading to one of history's largest mass migrations and significant sectarian violence. August 15 is celebrated as India's Independence Day.",
-      "memory_hook": "India independent August 15, 1947. Nehru gave the 'Tryst with Destiny' speech at midnight. Same day Pakistan was born — the subcontinent split in two, causing 10-20 million people to flee in both directions and between 200,000 and 2 million killed in the chaos."
+      "answer": "Mountbatten attended each ceremony, a day apart",
+      "explanation": "Louis Mountbatten, the last Viceroy, physically attended both transfers, so Pakistan's was held in Karachi on 14 August and India's in Delhi on 15 August. The boundary line itself had been drawn by Cyril Radcliffe, a lawyer who had never been to India, working in five weeks. It was not published until 17 August, so for two days millions did not know which country they were in. Partition displaced 10 to 20 million people.",
+      "memory_hook": "Mountbatten went to both ceremonies, so Pakistan's was 14 August in Karachi and India's 15 August in Delhi. The border was drawn in five weeks by a lawyer who had never visited India, and it was not published until the 17th, so for two days people did not know which country they lived in."
     },
     {
       "category": "History",
       "question": "The Battle of Waterloo in 1815 ended whose rule over much of Europe?",
       "options": [
-        "Napoleon Bonaparte",
         "Maximilien Robespierre",
-        "Frederick the Great",
-        "Louis XIV"
+        "Louis XIV",
+        "Napoleon Bonaparte",
+        "Frederick the Great"
       ],
       "answer": "Napoleon Bonaparte",
       "explanation": "The Battle of Waterloo (June 18, 1815) in present-day Belgium was Napoleon's final defeat. He was defeated by the Duke of Wellington's allied forces and Prussian troops. Napoleon abdicated four days later and was exiled to Saint Helena island in the South Atlantic, where he died in 1821. The battle permanently ended French domination of Europe and established the peace settlement of the Congress of Vienna.",
@@ -29,77 +29,77 @@
     },
     {
       "category": "History",
-      "question": "What was the name of the first successful permanent English settlement in North America, founded in 1607?",
+      "question": "Jamestown was founded in 1607 as England's first lasting settlement in North America. What nearly ended it?",
       "options": [
-        "Boston",
-        "Jamestown",
-        "Plymouth Colony",
-        "Roanoke"
+        "A fire set deliberately by a rival Dutch expedition",
+        "A hurricane that destroyed the settlement completely",
+        "A winter of starvation that killed most of the colonists",
+        "An epidemic brought over on the original three ships"
       ],
-      "answer": "Jamestown",
-      "explanation": "Jamestown, Virginia, was founded on May 14, 1607, by the Virginia Company of England. It was the first permanent English settlement in the Americas. The colony struggled initially with disease, starvation, and conflict with the Powhatan Confederacy. Tobacco cultivation eventually made it economically viable. The famous Pocahontas was the daughter of Powhatan chief Wahunsenacah.",
-      "memory_hook": "Jamestown 1607 = first permanent English settlement in America. It almost failed — 'the starving time' winter of 1609-10 killed 80% of colonists. Tobacco saved it economically. Pocahontas was real — and her story is much more complicated and sadder than the Disney version."
+      "answer": "A winter of starvation that killed most of the colonists",
+      "explanation": "The winter of 1609 to 1610 is called the Starving Time. Of roughly 300 colonists, around 60 survived, and archaeological work has since confirmed cannibalism, including cut marks on the skull of a fourteen-year-old girl. The site was chosen for defensibility rather than fertility, on brackish marshland, and many early settlers were gentlemen unwilling to farm. Survivors had boarded ships to abandon it when a resupply fleet arrived.",
+      "memory_hook": "The Starving Time of 1609-10 left about 60 alive out of 300, and archaeologists have found cut marks on a fourteen-year-old girl's skull confirming cannibalism. The site was picked for defence, not farming, on brackish marsh. Survivors were literally sailing away when resupply arrived."
     },
     {
       "category": "Sports",
-      "question": "In which Japanese martial art do competitors earn points by throwing, pinning, or forcing their opponent to submit — with a perfect throw earning an 'ippon' and immediate victory?",
+      "question": "Judo was created in 1882 by Jigoro Kano, drawing from older jujutsu schools. What did Kano deliberately remove?",
       "options": [
-        "Aikido",
-        "Sumo",
-        "Judo",
-        "Karate"
+        "Strikes and joint locks too dangerous to practise fully",
+        "Competition entirely, leaving only solo forms",
+        "All groundwork, keeping only standing throws",
+        "The ranking system, so nobody could claim seniority"
       ],
-      "answer": "Judo",
-      "explanation": "Judo, meaning 'gentle way,' was developed by Jigoro Kano in Japan in 1882. An ippon (full point) is awarded for a clean throw landing the opponent on their back, a 25-second pin, or a submission. Judo was the first Asian martial art to become an Olympic sport, debuting at the 1964 Tokyo Games.",
-      "memory_hook": "Judo: 'gentle way,' ippon = instant win. Olympic since 1964 Tokyo."
+      "answer": "Strikes and joint locks too dangerous to practise fully",
+      "explanation": "Kano stripped out techniques that could not be trained at full intensity without injury, which let students practise live against a resisting opponent rather than rehearsing set forms. That was the innovation, and it is why judo could be tested competitively and eventually entered the Olympics in 1964. Kano also invented the coloured belt system and the modern black belt, both of which spread to virtually every other martial art.",
+      "memory_hook": "Kano removed what could not be practised at full speed safely, so students could spar live against real resistance instead of rehearsing forms. That is why judo could be competed at all. He also invented coloured belts and the black belt, which nearly every other martial art then copied."
     },
     {
       "category": "Sports",
-      "question": "In volleyball, what is a 'dig'?",
+      "question": "A volleyball dig keeps a spiked ball alive. What makes it so difficult?",
       "options": [
-        "A winning spike",
-        "A defensive pass of a spiked ball",
-        "A served ball",
-        "An overhead set"
+        "It must be played with a closed fist to be legal",
+        "Only the libero is permitted to attempt one at all",
+        "The digger has to call it aloud before the ball lands",
+        "The ball can arrive at over 100 km/h from close range"
       ],
-      "answer": "A defensive pass of a spiked ball",
-      "explanation": "A dig in volleyball is a defensive technique to pass a ball that has been attacked (usually spiked) by the opposing team, typically performed with forearm passing to keep the ball alive. The goal is to prevent the ball from hitting the floor when the opponent attacks. A successful dig allows the team to transition from defense to offense. It requires quick reflexes and good anticipation.",
-      "memory_hook": "Dig = defensive forearm pass of a spike. You dig out a ball that's been spiked at you. Good liberos (the defensive specialists) are defined by their digging ability — diving across the floor to save balls that look like certain points for the other team."
+      "answer": "The ball can arrive at over 100 km/h from close range",
+      "explanation": "Elite men's spikes have been measured above 130 km/h, hit downward from above net height a few metres away, so the defender has a fraction of a second and is usually reacting before the ball is struck. Digging is about reading the hitter's shoulders and approach rather than watching the ball. The libero specialises in it, but any player may dig, and there is no requirement to use a fist or call for it.",
+      "memory_hook": "Elite spikes come down at over 130 km/h from a few metres away, so you are reacting before contact and reading the hitter's shoulders rather than the ball. The libero specialises in digging but anyone can do it, with no fist rule and no calling for it."
     },
     {
       "category": "Pop Culture",
-      "question": "Which 1995 Pixar film was the first feature-length computer-animated movie?",
+      "question": "Toy Story (1995) was the first fully computer-animated feature. What limitation shaped how it looks?",
       "options": [
-        "A Bug's Life",
-        "Monsters Inc",
-        "Finding Nemo",
-        "Toy Story"
+        "Toys were chosen because plastic was easy to render",
+        "The film could not exceed forty minutes of footage",
+        "Every frame had to be drawn by hand and then scanned",
+        "Only three colours could be displayed at that time"
       ],
-      "answer": "Toy Story",
-      "explanation": "Toy Story (1995), directed by John Lasseter at Pixar Animation Studios, was the world's first feature-length computer-animated film. Made with groundbreaking CGI technology, it grossed $373 million on a $30 million budget. It launched a franchise of four films and changed animation forever. Tom Hanks voiced Woody; Tim Allen voiced Buzz Lightyear. Disney acquired Pixar in 2006 for $7.4 billion.",
-      "memory_hook": "Toy Story = first feature CGI film ever. 1995. $30 million budget, $373 million gross. Changed animation permanently — traditional hand-drawn Disney films declined; CGI took over. Tom Hanks as Woody, Tim Allen as Buzz. The friendship between those two characters became Pixar's template for every film after."
+      "answer": "Toys were chosen because plastic was easy to render",
+      "explanation": "Human skin, hair, cloth and organic surfaces were beyond what 1995 hardware could render convincingly, but hard shiny plastic was achievable. Pixar built the story around toys for that reason. The humans in the film still look noticeably worse than the toys. Rendering took up to 30 hours per frame across a farm of 117 Sun workstations. Disney had expected it to fail and gave Pixar limited creative interference as a result.",
+      "memory_hook": "1995 hardware could not do skin, hair or cloth, but shiny plastic was easy, so Pixar built the story around toys. The humans in it still look bad. Some frames took 30 hours to render across 117 workstations. Disney expected a flop, which is why Pixar got left alone."
     },
     {
       "category": "Pop Culture",
-      "question": "The Eagles' 'Hotel California' album was released in which year?",
+      "question": "The Eagles' Hotel California has been argued over for decades. What did Don Henley say the title track is actually about?",
       "options": [
-        "1977",
-        "1975",
-        "1974",
-        "1979"
+        "A coded account of a satanic church in Los Angeles",
+        "American excess and the underside of the music industry",
+        "A psychiatric hospital where a band member was treated",
+        "A real hotel in Baja California he had stayed in"
       ],
-      "answer": "1977",
-      "explanation": "Hotel California was released by the Eagles on February 22, 1977. The album went to number one in the US, Australia, and Canada, and has sold over 32 million copies worldwide. Beyond the title track, it features 'Life in the Fast Lane' and 'New Kid in Town.' The album's themes of hedonism and disillusionment in the California music industry captured a cultural moment.",
-      "memory_hook": "Hotel California = Eagles, 1977. 32 million copies sold. 'You can check out any time you like, but you can never leave.' Don Felder wrote the iconic guitar riff sitting in his Malibu house. Don Henley wrote the lyrics about excess in the California music scene. They barely got along while making it."
+      "answer": "American excess and the underside of the music industry",
+      "explanation": "Henley has repeatedly described it as a song about excess and disillusion in 1970s America, using a hotel as the metaphor, and has expressed irritation at the more elaborate theories. The Church of Satan reading, and the claim that a specific Mexican hotel inspired it, both persist regardless. The album spent eight weeks at number one and the guitar duel between Don Felder and Joe Walsh is among the most analysed in rock.",
+      "memory_hook": "Henley says it is about American excess and the ugly side of the music business, with the hotel as metaphor, and he finds the other theories tiresome. The satanic church and the real-Mexican-hotel stories refuse to die anyway. Eight weeks at number one, and that Felder and Walsh guitar duel."
     },
     {
       "category": "Pop Culture",
       "question": "Grant Wood's 'American Gothic' (1930) is one of America's most parodied images. What did Wood actually intend?",
       "options": [
-        "A critique of Depression-era landlord exploitation",
-        "A patriotic tribute to Midwestern agrarian virtue",
+        "A gentle satire of small-town Midwestern puritanism",
         "Purely aesthetic; he needed figures to show scale",
-        "A gentle satire of small-town Midwestern puritanism"
+        "A patriotic tribute to Midwestern agrarian virtue",
+        "A critique of Depression-era landlord exploitation"
       ],
       "answer": "A gentle satire of small-town Midwestern puritanism",
       "explanation": "Wood was inspired by a Carpenter Gothic house in Eldon, Iowa and painted his sister Nan and his dentist Dr. Byron McKeeby as the models — not a married couple but a father and daughter, as Wood later clarified. Iowans initially complained the painting made them look 'pinched, grim, and repressed,' but it was quickly adopted as a symbol of American frontier resilience. The models — Nan and McKeeby — became briefly famous. The painting was purchased by the Art Institute of Chicago from Wood for $300 in 1930.",
@@ -107,38 +107,38 @@
     },
     {
       "category": "Geography",
-      "question": "Which is the only continent with land in all four hemispheres?",
+      "question": "Africa is the only continent with land in all four hemispheres. What line runs almost exactly through its middle?",
       "options": [
-        "Asia",
-        "Africa",
-        "North America",
-        "South America"
+        "The Tropic of Cancer, which bisects the continent",
+        "The equator, crossing seven African countries",
+        "The Prime Meridian, running down its eastern edge",
+        "The Arctic Circle, clipping the northern coast"
       ],
-      "answer": "Africa",
-      "explanation": "Africa is the only continent with land in all four hemispheres: Northern (most of Africa), Southern (southern tip), Eastern (most of Africa), and Western (western coast from Morocco to Senegal). It is the only continent centered near the prime meridian and the equator simultaneously. The equator runs through the middle of Africa, dividing it roughly in half.",
-      "memory_hook": "Africa = all four hemispheres. It's essentially centered on the intersection of the equator and prime meridian. No other continent is so geographically centered on Earth. That centrality made Africa the cradle of human civilization and the crossroads of ancient trade."
+      "answer": "The equator, crossing seven African countries",
+      "explanation": "The equator crosses Gabon, Congo, DR Congo, Uganda, Kenya, Somalia and Sao Tome and Principe, and the Prime Meridian passes through Ghana, Togo, Burkina Faso, Mali and Algeria. Their intersection at zero latitude and zero longitude sits in the Gulf of Guinea, off Ghana. That combination puts African land north, south, east and west of both lines, which no other continent manages.",
+      "memory_hook": "The equator crosses seven African countries and the Prime Meridian crosses five, and they meet in the Gulf of Guinea just off Ghana. That is why Africa has land in all four hemispheres, which no other continent manages."
     },
     {
       "category": "Science & Nature",
-      "question": "What is the name of the phenomenon where light bends as it passes from one medium to another?",
+      "question": "A straw in a glass of water looks bent at the surface. What causes that?",
       "options": [
-        "Diffraction",
-        "Refraction",
-        "Diffusion",
-        "Reflection"
+        "Water magnifies whatever sits behind it",
+        "Water absorbs some colours, distorting the outline",
+        "Light changes speed entering water, so its path bends",
+        "The eye cannot focus on two distances at once"
       ],
-      "answer": "Refraction",
-      "explanation": "Refraction is the bending of light (or other waves) when they pass from one medium to another with different optical density. A straw in a glass of water appears bent because light travels slower in water than in air, causing it to change direction at the surface. Refraction explains how lenses work, how prisms split white light into colors, and why the sky appears to shift color at sunrise and sunset.",
-      "memory_hook": "Refraction = light bends when changing mediums. A straw looks bent in water because of refraction. A prism splits white light into a rainbow by refracting different wavelengths at different angles. Your glasses or contact lenses work entirely because of controlled refraction."
+      "answer": "Light changes speed entering water, so its path bends",
+      "explanation": "Light travels slower in water than in air, and at an angled boundary the change in speed bends the path, which is refraction. Your brain assumes light travelled in a straight line, so it places the submerged part of the straw where it would have been if unbent. The same effect makes pools look shallower than they are, produces rainbows by splitting colours that bend by different amounts, and is what every lens exploits.",
+      "memory_hook": "Light slows down entering water, and at an angle that bends its path. Your brain assumes light came straight, so it draws the straw in the wrong place. Same reason pools look shallower than they are, and why rainbows work, since each colour bends by a slightly different amount."
     },
     {
       "category": "Geography",
       "question": "The Sea of Japan lies between Japan and the Korean Peninsula. By what name do South Korea and Japan disagree on what this body of water should be called?",
       "options": [
-        "The UN has ruled it must be called the Pacific Ocean",
+        "Both agree it should be the Pacific Sea",
         "Japan insists on calling it the Korea Sea",
         "Korea calls it the East Sea; both names are used",
-        "Both agree it should be the Pacific Sea"
+        "The UN has ruled it must be called the Pacific Ocean"
       ],
       "answer": "Korea calls it the East Sea; both names are used",
       "explanation": "South Korea calls the body of water the 'East Sea' (동해, Donghae), while Japan calls it the 'Sea of Japan.' North Korea calls it the 'East Sea of Korea.' This naming dispute has geopolitical dimensions — South Korea argues the 'Sea of Japan' name was imposed during Japanese colonization (1910-1945). International organizations have begun using both names. Historically, European maps used various names; 'Sea of Japan' became dominant in the 19th century.",
@@ -146,16 +146,16 @@
     },
     {
       "category": "Science & Nature",
-      "question": "What is a DNA mutation, and what are three things that can cause one?",
+      "question": "A mutation is a change in a DNA sequence. What makes most of them harmless?",
       "options": [
-        "A change in the DNA sequence, caused by radiation, chemical exposure, or copying errors",
-        "An intentional change cells make to adapt to stress",
-        "The conversion of RNA back into DNA",
-        "A form of cell death"
+        "Cells destroy any DNA strand that has been altered",
+        "Mutations only occur in cells about to die anyway",
+        "The second copy of each chromosome overrides it",
+        "Much of the genome does not code for any protein"
       ],
-      "answer": "A change in the DNA sequence, caused by radiation, chemical exposure, or copying errors",
-      "explanation": "A DNA mutation is any permanent change in the nucleotide sequence of DNA. Mutations can be caused by: radiation (UV light, X-rays, nuclear radiation), chemical mutagens (tobacco smoke, certain industrial chemicals), or spontaneous errors during DNA replication. Most mutations are either harmless or repaired by cellular machinery. Some cause cancer by disrupting genes that control cell growth. Occasional mutations in germline cells (sperm/eggs) are inherited by offspring and drive evolution — the raw material of natural selection.",
-      "memory_hook": "DNA mutation = change in the DNA sequence. Caused by UV radiation, chemical mutagens, or copying errors. Most are repaired or harmless. Cancer mutations = uncontrolled cell division. Germline mutations are inherited, drive evolution. Your DNA is copied billions of times; even with error-checking, some mutations get through."
+      "answer": "Much of the genome does not code for any protein",
+      "explanation": "Only around 1 to 2% of human DNA codes for proteins, so a random change most often lands somewhere with no direct effect. The genetic code is also redundant, with several triplets specifying the same amino acid, so even a coding change frequently produces an identical protein. Cells additionally run repair machinery that catches most errors before they stick. Mutations that do matter are the raw material evolution works with.",
+      "memory_hook": "Only 1 to 2% of your DNA codes for proteins, so a random change usually lands somewhere inert. The code is also redundant, with several triplets meaning the same amino acid, so many coding changes still make the same protein. Repair machinery catches most of the rest."
     }
   ]
 }

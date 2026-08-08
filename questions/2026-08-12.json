@@ -3,36 +3,36 @@
   "questions": [
     {
       "category": "History",
-      "question": "By 1914, the Scramble for Africa had resulted in nearly the entire continent being colonized. Which two African nations remained fully independent?",
+      "question": "By 1914 the Scramble for Africa had left almost the entire continent under European control. Two states stayed independent. How did Ethiopia manage it?",
       "options": [
-        "Ethiopia and Liberia",
-        "South Africa and Kenya",
-        "Egypt and Morocco",
-        "Tunisia and Algeria"
+        "Its highlands were considered too poor to be worth taking",
+        "The Ottoman Empire guaranteed its borders by treaty",
+        "It destroyed an invading Italian army at Adwa in 1896",
+        "It signed a protection treaty with Britain and France"
       ],
-      "answer": "Ethiopia and Liberia",
-      "explanation": "By 1914, only Ethiopia and Liberia remained independent African nations. Ethiopia defeated Italy at the Battle of Adwa in 1896 — one of the most significant victories of any African nation over a European colonial power — preserving its sovereignty. Liberia, founded in 1822 by freed American slaves and recognized as a republic in 1847, maintained independence partly through American diplomatic support. The rest of Africa was divided among Britain, France, Germany, Belgium, Portugal, Italy, and Spain.",
-      "memory_hook": "1914: only Ethiopia and Liberia free in Africa. Ethiopia beat Italy at Adwa (1896). Liberia founded by freed American slaves. Entire continent otherwise carved up by European powers."
+      "answer": "It destroyed an invading Italian army at Adwa in 1896",
+      "explanation": "Menelik II had spent years importing modern rifles and artillery from several European suppliers who were each happy to undercut the others. At Adwa his forces destroyed an Italian army of around 17,000, one of very few decisive African victories over a European power. Italy recognised Ethiopian independence. Liberia, the other survivor, stayed nominally free through American patronage. Adwa became a reference point for anti-colonial movements worldwide.",
+      "memory_hook": "Menelik II bought modern rifles and artillery from rival European suppliers happy to undercut each other, then destroyed an Italian army of 17,000 at Adwa in 1896. Italy had to recognise Ethiopian independence. Liberia survived through American patronage instead. Adwa became a symbol for anti-colonial movements everywhere."
     },
     {
       "category": "History",
-      "question": "Which country launched the first human into space in 1961?",
+      "question": "Yuri Gagarin orbited Earth in April 1961, beating the United States into space. What did he not do on that flight?",
       "options": [
-        "Soviet Union",
-        "USA",
-        "China",
-        "Britain"
+        "Communicate with ground control at any point",
+        "Complete a full orbit, since he only reached suborbit",
+        "Travel alone, since a second cosmonaut flew with him",
+        "Land inside his capsule, since he ejected and parachuted"
       ],
-      "answer": "Soviet Union",
-      "explanation": "Soviet cosmonaut Yuri Gagarin became the first human to travel to space on April 12, 1961, completing one orbit of Earth in 108 minutes aboard Vostok 1. His flight proved that humans could survive in space. The US sent its first astronaut (Alan Shepard) into space 23 days later, though only on a brief suborbital flight. Gagarin died in a training accident in 1968.",
-      "memory_hook": "Gagarin = first human in space, April 12, 1961. 108 minutes, one orbit. He said 'Poyekhali!' (Let's go!) when the rocket launched. He became a global celebrity overnight and never piloted a spacecraft again — he was too valuable as a symbol to risk."
+      "answer": "Land inside his capsule, since he ejected and parachuted",
+      "explanation": "The Vostok capsule had no way to land softly with a person inside, so Gagarin ejected at about 7km and came down under his own parachute. The Soviets concealed this for years because the rules for an official aviation record required the pilot to land with the craft. He did complete a full orbit in 108 minutes. He never flew in space again, since the USSR judged him too valuable to risk, and died in a jet training crash in 1968.",
+      "memory_hook": "Vostok could not land softly with someone inside, so Gagarin ejected at 7km and parachuted down separately. The USSR hid it because record rules said you had to land with your craft. One full orbit, 108 minutes. He never flew again, deemed too valuable, and died in a jet crash in 1968."
     },
     {
       "category": "History",
       "question": "The Hundred Years War finally ended in 1453, the same year as another major historical event. What was it?",
       "options": [
-        "The Black Death",
         "Gutenberg's printing press",
+        "The Black Death",
         "Columbus reaching America",
         "The fall of Constantinople"
       ],
@@ -42,120 +42,120 @@
     },
     {
       "category": "Sports",
-      "question": "In figure skating, what is the name of the jump that takes off from the back outside edge and lands on the back outside edge of the same foot?",
+      "question": "Figure skating jumps are scored partly by difficulty. What separates the toe jumps from the edge jumps?",
       "options": [
-        "Flip",
-        "Lutz",
-        "Loop",
-        "Axel"
+        "Toe jumps launch by stabbing the free skate's pick in",
+        "Toe jumps must land on the same foot they left from",
+        "Toe jumps are performed only in pairs competition",
+        "Toe jumps rotate clockwise and edge jumps counter"
       ],
-      "answer": "Loop",
-      "explanation": "The loop is a figure skating jump that takes off from the back outside edge of one foot and lands on the same edge of the same foot. It is one of the six standard jumps in figure skating. The Axel is the only jump that takes off from a forward edge, making it the most difficult standard jump. The Lutz takes off from the back outside edge of the opposite foot.",
-      "memory_hook": "Loop jump = takes off and lands on the same foot's back outside edge. The Axel is the hardest because it's the only one with a forward takeoff — you jump forward, rotate, land backward. A triple Axel = 3.5 rotations in the air."
+      "answer": "Toe jumps launch by stabbing the free skate's pick in",
+      "explanation": "The toe loop, flip and lutz are vaulted off the toe pick of the free foot, while the salchow, loop and axel launch off the skating edge alone. Edge jumps are generally considered harder for the same rotation count because there is no assist. The axel is the only jump entered facing forward, so a triple axel is really three and a half rotations. Toe picks are also why hockey skates cannot be used for figure skating.",
+      "memory_hook": "Toe jumps, the loop, flip and lutz, vault off the toe pick. Edge jumps, salchow, loop and axel, launch off the blade edge with no assist, so they are harder for the same rotations. The axel takes off facing forward, which is why a triple axel is actually three and a half turns."
     },
     {
       "category": "Geography",
-      "question": "Which East African country contains Mount Kilimanjaro — the highest peak in Africa at 5,895 meters — and is also home to the Serengeti National Park?",
+      "question": "Kilimanjaro rises 5,895m from the plains of northern Tanzania. What is unusual about climbing it?",
       "options": [
-        "Tanzania",
-        "Kenya",
-        "Ethiopia",
-        "Uganda"
+        "The summit can only be reached during two months a year",
+        "You pass through five climate zones from farmland to ice",
+        "It requires technical ice climbing on the final ascent",
+        "Climbers must be roped together for the entire route"
       ],
-      "answer": "Tanzania",
-      "explanation": "Mount Kilimanjaro is located in northeastern Tanzania, near the Kenyan border. The Serengeti National Park, famous for the annual Great Migration of wildebeest and zebras, is also in Tanzania. The country also contains Zanzibar and part of Lake Victoria, Africa's largest lake.",
-      "memory_hook": "Tanzania = Kilimanjaro + Serengeti. East Africa's crown jewels."
+      "answer": "You pass through five climate zones from farmland to ice",
+      "explanation": "The trek moves from cultivated farmland through rainforest, heath and moorland, alpine desert, and finally arctic conditions at the summit, the equivalent of walking from the equator to the poles in under a week. No technical climbing is needed on the standard routes, which is why so many attempt it, and why altitude sickness is the real danger. Its glaciers have lost more than 80% of their extent since 1912.",
+      "memory_hook": "You walk from farmland through rainforest, moorland, alpine desert and into arctic conditions at the top, like crossing from the equator to the poles in a week. No ropes or ice tools on the normal routes, which is exactly why altitude sickness catches people out. The glaciers are more than 80% gone since 1912."
     },
     {
       "category": "Sports",
-      "question": "What is the highest possible score per frame in bowling?",
+      "question": "A bowling frame can score more than the ten pins standing. How is that possible?",
       "options": [
-        "20",
-        "25",
-        "35",
-        "30"
+        "A strike adds the next two balls to that frame's score",
+        "The tenth frame counts triple for every player",
+        "Knocking down all ten on the second ball doubles it",
+        "Bonus pins are awarded for consecutive gutter balls"
       ],
-      "answer": "30",
-      "explanation": "The maximum score in a single bowling frame is 30 points, achieved by rolling three consecutive strikes beginning in that frame (or having three strikes in the 10th frame). In the 10th (final) frame, a bowler who gets a strike is allowed two additional rolls. Three strikes in the 10th frame equals 30 points for that frame. This is how a perfect 300 game is built — 10 frames of 30.",
-      "memory_hook": "Max frame score = 30 (three strikes). 10 frames of 30 = perfect 300. In the 10th frame you get up to 3 balls if you keep striking. The 300 game is 12 consecutive strikes because of those bonus rolls in the final frame."
+      "answer": "A strike adds the next two balls to that frame's score",
+      "explanation": "A strike scores ten plus whatever the next two balls knock down, so a frame can reach thirty if the two that follow are also strikes. A spare scores ten plus the next single ball. This is why a perfect game is 300 rather than 120: twelve strikes, each carrying two more forward. It also means your score is not final until later frames are bowled, which is unusual among scoring systems.",
+      "memory_hook": "A strike is ten plus your next two balls, so a frame can reach thirty. A spare is ten plus the next one ball. That carry-forward is why a perfect game is 300 and not 120, and why your score for a frame is not settled until you have bowled the next ones."
     },
     {
       "category": "Pop Culture",
-      "question": "The 'Godfather of Soul,' known for songs like 'I Got You (I Feel Good),' was which legendary artist?",
+      "question": "James Brown was billed as the hardest working man in show business. What did his band say made the job so demanding?",
       "options": [
-        "Otis Redding",
-        "Wilson Pickett",
-        "Al Green",
-        "James Brown"
+        "He changed the setlist only minutes before curtain",
+        "He refused to rehearse, so every show was improvised",
+        "He fined them on stage for missed notes and scuffed shoes",
+        "He insisted the band travel separately and unpaid"
       ],
-      "answer": "James Brown",
-      "explanation": "James Brown earned the title 'Godfather of Soul' for his revolutionary contributions to funk, soul, and R&B music. His tight, rhythmically complex style influenced hip-hop, funk, and dance music. 'Please Please Please,' 'It's a Man's Man's Man's World,' 'Get Up (I Feel Like Being a) Sex Machine,' and 'I Got You' are among his classics. James Brown performed energetically into his 70s and is one of the most sampled artists in history.",
-      "memory_hook": "James Brown = Godfather of Soul. 'I Feel Good,' 'Sex Machine.' The most sampled artist in history — hip-hop was built partly on his beats. His famous cape routine: he collapses from exhaustion, an aide throws a cape over him, he throws it off and keeps performing."
+      "answer": "He fined them on stage for missed notes and scuffed shoes",
+      "explanation": "Brown ran the band on a fine system, signalling penalties with hand gestures mid-performance for a wrong note, a missed cue, or unpolished shoes. It produced extraordinary tightness and constant turnover, including a famous walkout in 1970 that led him to hire the young musicians who became the JBs, with Bootsy Collins on bass. That rhythmic precision, emphasis hammered onto the first beat, is the foundation of funk and later of hip-hop sampling.",
+      "memory_hook": "Brown fined his band mid-song with hand signals for wrong notes, missed cues, even scuffed shoes. It made them terrifyingly tight and caused constant walkouts, including one in 1970 that got him Bootsy Collins. That precision, everything slammed onto the one, is where funk comes from."
     },
     {
       "category": "Pop Culture",
-      "question": "Which 2014 Marvel film surprised critics and audiences to become a massive hit, featuring a talking raccoon and a living tree?",
+      "question": "Guardians of the Galaxy (2014) was Marvel's riskiest film to that point. Why did the studio consider it a gamble?",
       "options": [
-        "Doctor Strange",
-        "Thor: The Dark World",
-        "Ant-Man",
-        "Guardians of the Galaxy"
+        "Almost nobody had heard of the comic it came from",
+        "It had no connection to any other film in the series",
+        "It was the first Marvel film shot entirely outside the US",
+        "Marvel had lost money on its two previous releases"
       ],
-      "answer": "Guardians of the Galaxy",
-      "explanation": "Guardians of the Galaxy (2014), directed by James Gunn, featured Rocket Raccoon (voiced by Bradley Cooper), Groot (Vin Diesel saying only 'I am Groot'), Chris Pratt's Peter Quill/Star-Lord, and others. Few expected a film about obscure comic characters to work. It earned $773 million worldwide and is often cited as the MCU's most unexpectedly successful film.",
-      "memory_hook": "Guardians = nobody expected it to work. A talking raccoon, a tree that says three words, and a cast of D-list comic characters. It made $773 million and launched the cosmic MCU. 'I am Groot' became a cultural catchphrase. Vin Diesel recorded the line in 15 languages."
+      "answer": "Almost nobody had heard of the comic it came from",
+      "explanation": "Marvel had built its run on characters with wide recognition. The Guardians were an obscure title with low sales, fronted by a talking raccoon and a tree with a one-line vocabulary, directed by James Gunn who was known mainly for low-budget horror comedy. It grossed over $770 million. The success shifted studio thinking toward the idea that execution and tone mattered more than a familiar name.",
+      "memory_hook": "Marvel had always used recognisable characters. This was an obscure comic with poor sales, a talking raccoon, a tree with one line, and a director known for low-budget horror comedy. It made over $770 million and convinced studios that tone and execution beat name recognition."
     },
     {
       "category": "Pop Culture",
-      "question": "'Bohemian Rhapsody,' the biographical film about Freddie Mercury and Queen, won how many Academy Awards in 2019?",
+      "question": "Bohemian Rhapsody, the song, broke the rules of what radio would play in 1975. What made it so unlikely?",
       "options": [
-        "4",
-        "6",
-        "2",
-        "1"
+        "It was released with no vocals on the first pressing",
+        "Nearly six minutes long, with an operatic section in the middle",
+        "The band refused to let any station play it before Christmas",
+        "It was recorded in a single unedited take with no overdubs"
       ],
-      "answer": "4",
-      "explanation": "Bohemian Rhapsody won four Academy Awards at the 91st Academy Awards in 2019: Best Film Editing, Best Sound Editing, Best Sound Mixing, and Best Actor (Rami Malek as Freddie Mercury). Despite mixed critical reception, the film was a massive box office success, earning over $900 million worldwide. Rami Malek's transformation into Freddie Mercury was widely praised.",
-      "memory_hook": "Bohemian Rhapsody won 4 Oscars, including Rami Malek for Best Actor. Critics were mixed; audiences loved it. $900 million worldwide. Malek wore custom prosthetics to replicate Freddie's distinctive teeth. He trained for months to replicate Mercury's movements."
+      "answer": "Nearly six minutes long, with an operatic section in the middle",
+      "explanation": "Radio convention capped singles around three minutes and EMI wanted it cut. Queen refused, and Kenny Everett played it repeatedly on Capital Radio until demand forced the issue. The operatic passage took roughly three weeks, with the band overdubbing vocals so many times the tape reportedly wore thin enough to see through. It topped the UK chart for nine weeks and again after Freddie Mercury's death in 1991.",
+      "memory_hook": "Radio wanted three minutes; this was six with an opera section in the middle. EMI asked for cuts, Queen refused, and Kenny Everett just played it over and over until demand won. The operatic part took three weeks of overdubs, wearing the tape nearly transparent. Number one for nine weeks, then again in 1991."
     },
     {
       "category": "Geography",
-      "question": "The Sahara Desert covers approximately what percentage of Africa?",
+      "question": "The Sahara has not always been desert. What was it like around 6,000 years ago?",
       "options": [
-        "30%",
-        "25%",
-        "40%",
-        "15%"
+        "Shallow sea, part of a Mediterranean that reached further south",
+        "Grassland and lakes, with hippos, crocodiles and cattle herders",
+        "Dense tropical rainforest connected to the Congo basin",
+        "Ice-covered, as glaciers reached down into North Africa"
       ],
-      "answer": "25%",
-      "explanation": "The Sahara Desert covers approximately 9.2 million square kilometers, making up about 25-30% of Africa's total land area of about 30.4 million square kilometers. Despite its enormous size, the Sahara is sparsely populated — fewer than 2.5 million people live there, mostly in oasis settlements. About 25% of the Sahara is sand (ergs); the rest is rocky desert (hamada) and gravel plains.",
-      "memory_hook": "Sahara = about 25% of Africa. As big as the United States. Mostly rock and gravel, not sand — only 25% is the classic sand dunes people picture. The Sahara was green and wet 10,000 years ago. Ancient rock art shows hippos and giraffes where there's now just sand."
+      "answer": "Grassland and lakes, with hippos, crocodiles and cattle herders",
+      "explanation": "During the African Humid Period the Sahara was savannah dotted with lakes, and rock art at Tassili n'Ajjer in Algeria shows cattle, giraffes and people swimming. Lake Chad was many times its present size. A slow shift in Earth's axial tilt weakened the monsoon and the region dried out over centuries, driving populations toward the Nile, which some archaeologists link to the consolidation of Egyptian civilisation. The cycle recurs roughly every 20,000 years.",
+      "memory_hook": "Six thousand years ago the Sahara was grassland with lakes, hippos and cattle herders, and there is rock art in Algeria showing people swimming. A shift in Earth's tilt weakened the monsoon and it dried out, pushing people toward the Nile. The cycle repeats roughly every 20,000 years."
     },
     {
       "category": "Science & Nature",
-      "question": "What is the term for the minimum amount of energy needed to start a chemical reaction?",
+      "question": "A catalyst speeds up a chemical reaction without being consumed. How does it manage that?",
       "options": [
-        "Free energy",
-        "Entropy",
-        "Activation energy",
-        "Kinetic energy"
+        "It raises the temperature of the surrounding mixture",
+        "It lowers the energy barrier the reaction must clear",
+        "It increases how much product the reaction can yield",
+        "It adds extra energy directly into the reacting molecules"
       ],
-      "answer": "Activation energy",
-      "explanation": "Activation energy is the minimum energy required to initiate a chemical reaction. Even reactions that release energy (exothermic) need an initial input of activation energy to get started — like how you need to light a match to start a fire. Catalysts (including enzymes in living organisms) work by lowering the activation energy needed, allowing reactions to proceed at lower temperatures or more quickly.",
-      "memory_hook": "Activation energy = energy to start a reaction. Even reactions that release energy need a push to start. Enzymes in your body lower activation energy so reactions happen at body temperature rather than needing extreme heat. You are chemistry running at 37 degrees."
+      "answer": "It lowers the energy barrier the reaction must clear",
+      "explanation": "Reactions need an activation energy to get started. A catalyst offers an alternative pathway with a lower barrier, so far more molecular collisions have enough energy to react. It does not change how much product you end up with, only how fast you get there, and it emerges unchanged. Enzymes are biological catalysts and can accelerate reactions by factors of millions. Catalytic converters use platinum and palladium the same way.",
+      "memory_hook": "Reactions need a minimum energy to start. A catalyst opens a lower-energy route, so many more collisions clear the bar. It changes the speed, not the amount of product, and comes out unchanged. Enzymes do this biologically and can speed things up millions of times over."
     },
     {
       "category": "Science & Nature",
-      "question": "What do enzymes do in biological systems, and what happens to enzyme function when temperature gets too high?",
+      "question": "Enzymes speed up reactions in the body, but stop working if things get too hot. Why does heat break them?",
       "options": [
-        "They break down cell walls; high temperature makes them stronger",
-        "They carry oxygen; high temperature increases oxygen-carrying capacity",
-        "They store energy; high temperature makes them more efficient",
-        "They are biological catalysts that speed up chemical reactions; excessive heat denatures them, destroying their function"
+        "It strips their electrons, leaving them charged",
+        "It unfolds the shape their active site depends on",
+        "It makes them react so fast they are used up",
+        "It burns them into ash the body cannot rebuild"
       ],
-      "answer": "They are biological catalysts that speed up chemical reactions; excessive heat denatures them, destroying their function",
-      "explanation": "Enzymes are proteins that act as biological catalysts — they speed up specific chemical reactions in living organisms without being consumed. Each enzyme has an active site that fits a specific substrate (lock-and-key model). Enzymes operate optimally at specific temperature and pH ranges. When temperature rises too high (or pH changes too much), the protein unfolds (denatures) and loses its shape — permanently destroying function. This is why a fever above 41°C (106°F) is dangerous: it denatures enzymes essential for metabolism.",
-      "memory_hook": "Enzymes = biological catalysts. Lock-and-key: each enzyme fits one substrate. Body temperature 37°C is optimal for most human enzymes. Denature above ~41°C — structure unfolds, function lost. That's why high fever is dangerous: your own enzymes stop working. Cooking food denatures proteins too — that's why a raw egg becomes solid when fried."
+      "answer": "It unfolds the shape their active site depends on",
+      "explanation": "An enzyme works because its active site physically fits the molecule it acts on. Heat shakes apart the weak bonds holding that folded shape, and once the shape is lost the fit is gone. This is denaturing, and it is usually irreversible, which is why frying an egg cannot be undone. Human enzymes are tuned to around 37C, which is part of why a high fever is dangerous rather than merely uncomfortable.",
+      "memory_hook": "An enzyme works by shape: its active site fits the target molecule. Heat shakes apart the weak bonds holding that fold, and the fit is gone. That is denaturing, and it usually cannot be reversed, which is why you cannot unfry an egg. Ours are tuned to 37C, which is why high fever is genuinely dangerous."
     }
   ]
 }

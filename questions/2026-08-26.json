@@ -3,159 +3,166 @@
   "questions": [
     {
       "category": "History",
-      "question": "Which South African anti-apartheid leader was released from prison in 1990 after 27 years and became the country's first democratically elected president in 1994?",
+      "question": "Mandela was released in 1990 after 27 years. What did he do that surprised his opponents most?",
       "options": [
-        "Oliver Tambo",
-        "Walter Sisulu",
-        "Nelson Mandela",
-        "Desmond Tutu"
+        "Kept the Springbok emblem white South Africans loved",
+        "Refused the presidency and took a ceremonial role",
+        "Prosecuted the former government's security chiefs",
+        "Dissolved the ANC to form an entirely new party"
       ],
-      "answer": "Nelson Mandela",
-      "explanation": "Nelson Mandela was imprisoned on Robben Island in 1964 after being convicted of sabotage. His release by President F.W. de Klerk and the subsequent democratic election in 1994 were major global moments. Mandela served as president until 1999 and won the Nobel Peace Prize in 1993 alongside de Klerk.",
-      "memory_hook": "Mandela: 27 years in prison, 1964-1990. First democratically elected president of South Africa."
+      "answer": "Kept the Springbok emblem white South Africans loved",
+      "explanation": "The ANC wanted the Springbok scrapped as an apartheid symbol. Mandela argued keeping it, and wore the captain's jersey at the 1995 Rugby World Cup final in Johannesburg, a gesture aimed squarely at white South Africans who feared what majority rule meant for them. He also set up the Truth and Reconciliation Commission, offering amnesty in exchange for full confession rather than pursuing prosecutions.",
+      "memory_hook": "The ANC wanted the Springbok gone as an apartheid symbol and Mandela insisted on keeping it, then wore the captain's jersey at the 1995 final. It was aimed at white South Africans afraid of majority rule. He also chose truth commissions with amnesty over prosecutions."
     },
     {
       "category": "Science & Nature",
-      "question": "Which planet in our solar system has the most moons, with over 140 confirmed natural satellites?",
+      "question": "Saturn overtook Jupiter as the planet with the most known moons. Why is the exact count awkward to state?",
       "options": [
-        "Saturn",
-        "Jupiter",
-        "Uranus",
-        "Neptune"
+        "It keeps rising as small objects are found and confirmed",
+        "All of them were found by a single telescope in one year",
+        "Most are captured asteroids sharing one orbital path",
+        "Half of them orbit inside the ring system itself"
       ],
-      "answer": "Saturn",
-      "explanation": "Saturn has over 140 confirmed moons as of recent counts, surpassing Jupiter's 95. Titan, Saturn's largest moon, is the only moon in our solar system with a dense atmosphere and liquid lakes — of methane and ethane. Enceladus sprays water vapor into space, suggesting a subsurface ocean.",
-      "memory_hook": "Saturn: most moons (140+). Titan has atmosphere. Enceladus has ocean under ice."
+      "answer": "It keeps rising as small objects are found and confirmed",
+      "explanation": "The total is a moving target. Saturn passed Jupiter in March 2025 when the International Astronomical Union recognised 128 new moons in a single announcement, taking NASA's catalogue from 146 to 274, and further confirmations have followed. There is also no agreed minimum size for a moon, so the line between a small moon and a large ring particle is partly a definitional choice. Titan alone accounts for over 96% of the mass orbiting Saturn and has a thicker atmosphere than Earth's.",
+      "memory_hook": "The count keeps moving. Saturn passed Jupiter in March 2025 when the IAU recognised 128 new moons at once, jumping the catalogue from 146 to 274, and more have been added since. There is no agreed minimum size for a moon either, so the moon-versus-ring-particle line is partly arbitrary.",
+      "sources": [
+        {
+          "claim": "IAU recognised 128 new Saturn moons March 2025, taking NASA catalogue 146 to 274",
+          "source": "https://www.sci.news/astronomy/saturn-moons-13748.html",
+          "checked": "2026-08-08"
+        }
+      ]
     },
     {
       "category": "Sports",
-      "question": "Which boxer, known as 'The Greatest,' defeated Sonny Liston for his first heavyweight title in 1964 and later refused military induction on religious grounds?",
+      "question": "Ali beat Sonny Liston in 1964 as a heavy underdog. What did he do three years later that cost him more?",
       "options": [
-        "Floyd Patterson",
-        "Muhammad Ali",
-        "Joe Frazier",
-        "George Foreman"
+        "Retired undefeated and then returned out of shape",
+        "Signed with a promoter who stole his purse money",
+        "Fought an exhibition that voided his boxing licence",
+        "Refused the Vietnam draft and was stripped of the title"
       ],
-      "answer": "Muhammad Ali",
-      "explanation": "Cassius Clay (later Muhammad Ali) shocked the world by defeating Sonny Liston at age 22 in 1964. He converted to Islam and refused Vietnam War service, saying 'I ain't got no quarrel with them Viet Cong.' He was stripped of his title for three years. His comeback fights — including the 'Rumble in the Jungle' (1974) — are legendary.",
-      "memory_hook": "Muhammad Ali: shocked world beating Liston at 22. Refused Vietnam draft. 'Float like a butterfly.'"
+      "answer": "Refused the Vietnam draft and was stripped of the title",
+      "explanation": "Ali refused induction on religious grounds in 1967, was convicted, stripped of the title and banned from boxing for three and a half years across what would have been his physical peak. The Supreme Court overturned the conviction unanimously in 1971. He was widely reviled at the time and became a global figure later, which is the part usually skipped. He then beat Foreman in 1974 to reclaim the title at thirty-two.",
+      "memory_hook": "He refused induction in 1967 on religious grounds, was convicted, stripped of the title and banned for three and a half years, right through his physical peak. The Supreme Court threw the conviction out unanimously in 1971. He was hated then and revered later, which people forget."
     },
     {
       "category": "Pop Culture",
-      "question": "Which 1977 science fiction film, directed by George Lucas, introduced Darth Vader, the Force, and launched one of the most successful franchises in history?",
+      "question": "Star Wars (1977) was expected to fail. What did Lucas take instead of a bigger fee?",
       "options": [
-        "Star Wars",
-        "Close Encounters of the Third Kind",
-        "Flash Gordon",
-        "2001: A Space Odyssey"
+        "Sequel and merchandising rights the studio thought worthless",
+        "Ownership of the studio backlot where the film was shot",
+        "A percentage of Twentieth Century Fox's entire annual profit",
+        "Final cut approval on each of his next five films"
       ],
-      "answer": "Star Wars",
-      "explanation": "Star Wars (Episode IV: A New Hope) was released May 25, 1977 and became the highest-grossing film at the time. It revolutionized special effects, merchandise, and franchise filmmaking. George Lucas sold the franchise to Disney for $4.05 billion in 2012. Darth Vader's voice is James Earl Jones.",
-      "memory_hook": "Star Wars 1977: Lucas, Darth Vader (James Earl Jones). Sold to Disney for $4B in 2012."
+      "answer": "Sequel and merchandising rights the studio thought worthless",
+      "explanation": "Fox handed over merchandising and sequel rights believing film toys did not sell. Lucas took a lower directing fee for them and the decision eventually made him a billionaire, funding Lucasfilm and Industrial Light and Magic independently. He sold to Disney in 2012 for around $4 billion. The first film also nearly collapsed in the edit until his then-wife Marcia Lucas and others restructured it.",
+      "memory_hook": "Fox thought film merchandise was worthless and gave him the toy and sequel rights for a lower directing fee. It eventually made him a billionaire and funded Lucasfilm and ILM independently. He sold to Disney in 2012 for about $4 billion. The film was nearly ruined in the edit first."
     },
     {
       "category": "Geography",
-      "question": "The Amazon River, flowing through South America, carries roughly 20% of the world's freshwater. In which country does it discharge into the Atlantic Ocean?",
+      "question": "The Amazon carries about 20% of all river water reaching the ocean. What does it do to the Atlantic?",
       "options": [
-        "Peru",
-        "Venezuela",
-        "Colombia",
-        "Brazil"
+        "Creates a permanent whirlpool at its mouth",
+        "Freshens the sea for over 100 miles offshore",
+        "Reverses the Gulf Stream for part of the year",
+        "Raises Atlantic sea level measurably each wet season"
       ],
-      "answer": "Brazil",
-      "explanation": "The Amazon discharges near Marajó Island at the mouth of the Amazon in northeastern Brazil (state of Pará). The river's mouth is so wide (up to 325 km) that there is no bridge across it. It carries more water than the next seven largest rivers combined.",
-      "memory_hook": "Amazon discharges in Brazil. No bridge crosses its mouth — up to 325 km wide."
+      "answer": "Freshens the sea for over 100 miles offshore",
+      "explanation": "Discharge is so large that sailors historically drew drinkable water well out of sight of land. The plume is visible from orbit and reduces surface salinity across a vast area. The river has no bridges along its main stem, since there is nothing to connect. It also flowed westward into the Pacific until the Andes rose and reversed it. A tidal bore called the pororoca runs upstream for hundreds of kilometres.",
+      "memory_hook": "The outflow freshens the Atlantic so far out that sailors used to draw drinking water out of sight of land, and the plume is visible from orbit. No bridges cross the main stem. It flowed west into the Pacific until the Andes rose and turned it around."
     },
     {
       "category": "History",
-      "question": "The Space Race culminated on July 20, 1969, when which Apollo mission landed the first humans on the Moon?",
+      "question": "Apollo 11 landed on 20 July 1969. What nearly aborted the landing in the final minutes?",
       "options": [
-        "Apollo 10",
-        "Apollo 8",
-        "Apollo 12",
-        "Apollo 11"
+        "Computer alarms and a boulder field with fuel running out",
+        "Loss of radio contact with Houston for eleven minutes",
+        "An engine failure that left them descending on one thruster",
+        "A cabin pressure leak detected during final approach"
       ],
-      "answer": "Apollo 11",
-      "explanation": "Apollo 11 landed in the Sea of Tranquility. Neil Armstrong was first to step on the Moon, followed by Buzz Aldrin; Michael Collins orbited above. Armstrong's words: 'That's one small step for man, one giant leap for mankind.' The mission lasted 8 days, 3 hours.",
-      "memory_hook": "Apollo 11: July 20, 1969. Armstrong first, then Aldrin. Collins orbited above."
+      "answer": "Computer alarms and a boulder field with fuel running out",
+      "explanation": "The guidance computer threw 1201 and 1202 overload alarms during descent, and a 24-year-old engineer in Houston, Jack Garman, recognised them as non-fatal from memory. Armstrong then found the target site strewn with boulders and flew on manually, touching down with roughly 25 seconds of fuel remaining by the most-cited estimate. The computer had less processing power than a modern washing machine.",
+      "memory_hook": "The guidance computer threw overload alarms and a 24-year-old in Houston recognised them from memory as survivable. Then Armstrong found the landing site full of boulders and flew on by hand, touching down with about 25 seconds of fuel left. That computer had less power than a washing machine."
     },
     {
       "category": "Pop Culture",
-      "question": "Which social media platform, founded by Mark Zuckerberg in 2004 at Harvard, became the first to reach 1 billion active users?",
+      "question": "Facebook launched at Harvard in 2004. What was Zuckerberg's earlier site that got him in trouble?",
       "options": [
-        "Twitter",
-        "Friendster",
-        "MySpace",
-        "Facebook"
+        "A course catalogue that scraped professors' salaries",
+        "A file-sharing service that leaked exam papers",
+        "Facemash, which rated students' photos against each other",
+        "An anonymous message board for dorm complaints"
       ],
-      "answer": "Facebook",
-      "explanation": "Facebook launched at Harvard in February 2004 as 'TheFacebook,' expanding to other universities before opening to the public in 2006. It reached 1 billion monthly active users in October 2012. Zuckerberg was 19 when he founded it. The company was rebranded Meta in 2021.",
-      "memory_hook": "Facebook: founded at Harvard 2004 by Zuckerberg (age 19). First to 1 billion users."
+      "answer": "Facemash, which rated students' photos against each other",
+      "explanation": "Facemash pulled photos from Harvard house directories without permission and invited users to rate which of two people was more attractive. It drew 22,000 views in a few hours before administrators shut it down, and Zuckerberg faced disciplinary charges that were eventually dropped. TheFacebook launched a few months later. The Winklevoss twins sued, claiming he had taken their idea, settling for around $65 million.",
+      "memory_hook": "Facemash scraped photos from Harvard house directories and asked people to rate who was hotter. 22,000 views in hours before it was shut down and he faced disciplinary charges. TheFacebook came months later. The Winklevoss twins sued over the idea and settled for about $65 million."
     },
     {
       "category": "Science & Nature",
-      "question": "What is the name of the force that keeps planets in orbit around the Sun and causes objects to fall toward Earth?",
+      "question": "Gravity holds planets in orbit. What did Einstein change about how we understand it?",
       "options": [
-        "Gravity",
-        "Magnetism",
-        "Centripetal force",
-        "Electromagnetism"
+        "It only operates on objects larger than a certain mass",
+        "It weakens measurably as the universe expands",
+        "It is spacetime curving, not a force pulling across a gap",
+        "It travels instantaneously, unlike light"
       ],
-      "answer": "Gravity",
-      "explanation": "Gravity is described by Newton's law of universal gravitation (F = Gm1m2/r²) and later by Einstein's general relativity as a curvature of spacetime. The gravitational force between Earth and Moon causes our tides. Without gravity, the Moon would fly off in a straight line.",
-      "memory_hook": "Gravity: Newton's apple, Einstein's spacetime. Keeps Moon in orbit, causes tides."
+      "answer": "It is spacetime curving, not a force pulling across a gap",
+      "explanation": "Newton described gravity accurately but could not explain how it acted across empty space, which bothered him. Einstein reframed it: mass curves spacetime and objects follow the straightest available path through that curvature, so an orbit is a straight line through bent geometry. It predicted starlight bending around the Sun, confirmed in the 1919 eclipse, and time running slower in stronger gravity, which GPS satellites must correct for continuously.",
+      "memory_hook": "Newton described it accurately but could not say how it reached across empty space, which troubled him. Einstein said mass bends spacetime and things follow the straightest path through the bend, so an orbit is a straight line through curved geometry. Confirmed by starlight bending in the 1919 eclipse."
     },
     {
       "category": "Geography",
-      "question": "Which mountain range, running 7,000 km along the western edge of South America, is the world's longest continental mountain range?",
+      "question": "The Andes run 7,000km down South America. What does living at that altitude do to people over generations?",
       "options": [
-        "Himalayas",
-        "Andes",
-        "Rockies",
-        "Alps"
+        "Bone density drops sharply above 3,000 metres",
+        "Body temperature settles about two degrees lower",
+        "Lung capacity shrinks by roughly a third within a lifetime",
+        "Andean populations evolved higher haemoglobin in their blood"
       ],
-      "answer": "Andes",
-      "explanation": "The Andes extend through seven countries: Venezuela, Colombia, Ecuador, Peru, Bolivia, Chile, and Argentina. Mount Aconcagua (6,961 m) in Argentina is the highest peak outside Asia. The Andes were formed by the subduction of the Nazca Plate under the South American Plate.",
-      "memory_hook": "Andes: 7,000 km, 7 countries. Aconcagua (Argentina) = highest peak outside Asia."
+      "answer": "Andean populations evolved higher haemoglobin in their blood",
+      "explanation": "Andean highlanders carry more haemoglobin per unit of blood, packing more oxygen into each volume. Tibetans solved the same problem differently, breathing faster with normal haemoglobin, partly through a gene variant inherited from Denisovans. These are two independent evolutionary answers to identical pressure, which makes them a favourite case study. La Rinconada in Peru, at 5,100m, is the highest permanent settlement on Earth.",
+      "memory_hook": "Andean people evolved more haemoglobin per unit of blood. Tibetans solved the same problem by breathing faster instead, using a gene variant inherited from Denisovans. Two separate answers to the same pressure. La Rinconada in Peru at 5,100m is the highest town anyone permanently lives in."
     },
     {
       "category": "History",
-      "question": "Which empire, founded by Genghis Khan in 1206, became the largest contiguous land empire in history, stretching from China to Eastern Europe?",
+      "question": "The Mongol Empire became the largest contiguous land empire ever. What held it together?",
       "options": [
-        "Roman Empire",
-        "Ottoman Empire",
-        "Mongol Empire",
-        "British Empire"
+        "A relay postal network with stations every 40km",
+        "A single written legal code enforced by Genghis himself",
+        "A shared language imposed on all subject peoples",
+        "Permanent garrisons in every conquered city"
       ],
-      "answer": "Mongol Empire",
-      "explanation": "At its peak, the Mongol Empire covered 24 million km² — about 16% of Earth's land area. Genghis Khan's successors conquered China (Yuan Dynasty), Persia, and reached Poland and Hungary. The empire facilitated trade along the Silk Road and the spread of plague but also caused the deaths of an estimated 40 million people.",
-      "memory_hook": "Mongol Empire: largest contiguous land empire. 24M km². Genghis Khan, 1206."
+      "answer": "A relay postal network with stations every 40km",
+      "explanation": "The Yam was a relay system of way stations with fresh horses, letting riders cover 300km a day and carrying orders across thousands of kilometres in weeks. It made governing at that scale possible at all. The Mongols also practised religious tolerance and recruited administrators from conquered populations, and the Pax Mongolica made Silk Road travel safe enough that Marco Polo could cross it, which also let the Black Death travel west.",
+      "memory_hook": "The Yam: relay stations every 40km with fresh horses, so riders covered 300km a day and orders crossed the empire in weeks. That is what made ruling it possible. They were religiously tolerant and hired administrators from conquered peoples. The safe roads also carried the Black Death west."
     },
     {
       "category": "Pop Culture",
-      "question": "Which legendary rock guitarist, known as the 'God of Hellfire,' was the lead guitarist of The Jimi Hendrix Experience and is widely considered the greatest electric guitarist of all time?",
+      "question": "Jimi Hendrix played Woodstock in 1969. What was unusual about his set?",
       "options": [
-        "Jimi Hendrix",
-        "Eric Clapton",
-        "Jimmy Page",
-        "Stevie Ray Vaughan"
+        "He closed to a nearly empty field on Monday morning",
+        "He was billed under a pseudonym to avoid crowds",
+        "He played entirely acoustic after his amps failed",
+        "He refused to perform until the rain stopped completely"
       ],
-      "answer": "Jimi Hendrix",
-      "explanation": "Jimi Hendrix (1942-1970) revolutionized electric guitar playing. Left-handed, he played a right-handed guitar upside down and restrung. His 1969 Woodstock performance of the U.S. national anthem on electric guitar is iconic. He died at 27, joining the so-called '27 Club.'",
-      "memory_hook": "Jimi Hendrix: greatest guitarist. Left-handed, played upside-down. Died at 27."
+      "answer": "He closed to a nearly empty field on Monday morning",
+      "explanation": "Delays pushed the headline slot to around 9am on Monday, by which point most of the 400,000 had left for work. Perhaps 30,000 remained. His distorted Star-Spangled Banner, played into that thinning crowd, became the defining image of the festival anyway. He died thirteen months later at twenty-seven. He had spent years as a backing guitarist for the Isley Brothers and Little Richard before going to London.",
+      "memory_hook": "Delays pushed his headline slot to about 9am Monday, when most of the 400,000 had already left for work. Maybe 30,000 were still there. That is when he played the Star-Spangled Banner. He was dead thirteen months later at twenty-seven."
     },
     {
       "category": "Sports",
-      "question": "In basketball, what is the term for a defensive play where a player intercepts a pass intended for an opponent?",
+      "question": "A steal in basketball takes possession without fouling. Who holds the career record?",
       "options": [
-        "Turnover",
-        "Steal",
-        "Rebound",
-        "Block"
+        "Scottie Pippen, from his years alongside Jordan",
+        "Gary Payton, nicknamed The Glove for his defence",
+        "John Stockton, who also holds the assists record",
+        "Michael Jordan, across his fifteen seasons"
       ],
-      "answer": "Steal",
-      "explanation": "A steal occurs when a defensive player legally takes the ball from an opponent or intercepts a pass. Michael Jordan holds the NBA record for most career steals per game (2.33). In one game, Kendall Gill set the single-game record with 11 steals. A blocked shot is different — it deflects a shot attempt.",
-      "memory_hook": "Steal = defensive interception or ball-grab. Jordan averaged 2.33 steals per game."
+      "answer": "John Stockton, who also holds the assists record",
+      "explanation": "Stockton holds both the career steals record at 3,265 and the assists record at 15,806, and the assists mark exceeds second place by roughly 4,000, a margin nobody is likely to close. He played nineteen seasons with Utah and missed only 22 games total. Steals were not tracked as an official statistic until 1973, so anyone playing before that has no recorded totals at all.",
+      "memory_hook": "Stockton has both records: 3,265 steals and 15,806 assists, the assists mark about 4,000 clear of second place. Nineteen seasons in Utah, 22 games missed total. Steals were only tracked from 1973, so nobody before that has any official numbers."
     }
   ]
 }

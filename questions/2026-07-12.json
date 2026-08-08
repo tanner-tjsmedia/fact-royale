@@ -4,10 +4,10 @@
       "category": "History",
       "question": "In which year did the French Revolution begin?",
       "options": [
-        "1799",
-        "1775",
         "1804",
-        "1789"
+        "1799",
+        "1789",
+        "1775"
       ],
       "answer": "1789",
       "explanation": "The French Revolution began in 1789 with the storming of the Bastille on July 14. It was driven by widespread discontent with social inequality, financial crisis, and political oppression under the monarchy. It led to the end of the French monarchy and the rise of Napoleon.",
@@ -17,10 +17,10 @@
       "category": "History",
       "question": "Which document established the framework for U.S. federal government?",
       "options": [
-        "The Articles of Confederation",
-        "The U.S. Constitution",
         "The Declaration of Independence",
-        "The Bill of Rights"
+        "The Bill of Rights",
+        "The Articles of Confederation",
+        "The U.S. Constitution"
       ],
       "answer": "The U.S. Constitution",
       "explanation": "The U.S. Constitution, drafted in 1787 and ratified in 1788, established the framework for the federal government of the United States, including the separation of powers into three branches: executive, legislative, and judicial. It remains the oldest written national constitution still in use.",
@@ -30,9 +30,9 @@
       "category": "Sports",
       "question": "Who holds the record for the most home runs in MLB history?",
       "options": [
+        "Barry Bonds",
         "Babe Ruth",
         "Alex Rodriguez",
-        "Barry Bonds",
         "Hank Aaron"
       ],
       "answer": "Barry Bonds",
@@ -44,8 +44,8 @@
       "question": "What is the official weight of a regulation NFL football?",
       "options": [
         "12–14 ounces",
-        "16–17 ounces",
         "15–16 ounces",
+        "16–17 ounces",
         "14–15 ounces"
       ],
       "answer": "14–15 ounces",
@@ -56,9 +56,9 @@
       "category": "Pop Culture",
       "question": "'Don't Stop Me Now' is a classic track by which band?",
       "options": [
-        "The Rolling Stones",
-        "Fleetwood Mac",
         "ABBA",
+        "Fleetwood Mac",
+        "The Rolling Stones",
         "Queen"
       ],
       "answer": "Queen",
@@ -69,10 +69,10 @@
       "category": "Pop Culture",
       "question": "Which director made 'Get Out' and 'Us'?",
       "options": [
-        "Jordan Peele",
-        "Barry Jenkins",
         "Ava DuVernay",
-        "Ryan Coogler"
+        "Ryan Coogler",
+        "Jordan Peele",
+        "Barry Jenkins"
       ],
       "answer": "Jordan Peele",
       "explanation": "Jordan Peele wrote and directed both Get Out (2017) and Us (2019). Get Out won him the Academy Award for Best Original Screenplay, making him the first Black writer to win in that category. Both films blend social commentary with horror in a distinctive style.",
@@ -82,10 +82,10 @@
       "category": "Pop Culture",
       "question": "Which singer is known by the stage name 'Lady Gaga'?",
       "options": [
-        "Robyn Fenty",
-        "Ella Marija Lani Yelich-O'Connor",
+        "Stefani Germanotta",
         "Alecia Moore",
-        "Stefani Germanotta"
+        "Robyn Fenty",
+        "Ella Marija Lani Yelich-O'Connor"
       ],
       "answer": "Stefani Germanotta",
       "explanation": "Lady Gaga's real name is Stefani Joanne Angelina Germanotta. She chose her stage name from the Queen song 'Radio Ga Ga.' She rose to fame with 'Just Dance' and 'Poker Face' in 2008 and has since won Oscars, Grammys, and Golden Globes. Robyn Fenty is Rihanna; Alecia Moore is Pink; Ella Yelich-O'Connor is Lorde.",
@@ -95,8 +95,8 @@
       "category": "History",
       "question": "What was the name of the first nuclear bomb dropped on Japan in World War II?",
       "options": [
-        "Little Boy",
         "Fat Man",
+        "Little Boy",
         "Gadget",
         "Trinity"
       ],
@@ -108,9 +108,9 @@
       "category": "Geography",
       "question": "Which South American country is the largest by land area?",
       "options": [
+        "Peru",
         "Brazil",
         "Argentina",
-        "Peru",
         "Colombia"
       ],
       "answer": "Brazil",
@@ -122,9 +122,9 @@
       "question": "The ozone layer that protects Earth from ultraviolet radiation is found in which layer of the atmosphere?",
       "options": [
         "Stratosphere",
-        "Thermosphere",
         "Mesosphere",
-        "Troposphere"
+        "Troposphere",
+        "Thermosphere"
       ],
       "answer": "Stratosphere",
       "explanation": "The ozone layer sits in the stratosphere, approximately 15 to 35 km above Earth's surface. It absorbs most of the Sun's harmful ultraviolet radiation. Chlorofluorocarbons (CFCs) from aerosols and refrigerants caused significant ozone depletion in the 20th century, creating the 'ozone hole' over Antarctica.",
@@ -134,9 +134,9 @@
       "category": "Geography",
       "question": "The Yellow River (Huang He) in China is known by what nickname because of its frequent devastating floods throughout history?",
       "options": [
-        "China's Dragon",
-        "The River of Gold",
         "The Yellow Dragon",
+        "The River of Gold",
+        "China's Dragon",
         "China's Sorrow"
       ],
       "answer": "China's Sorrow",
@@ -147,10 +147,10 @@
       "category": "Science & Nature",
       "question": "What is the term for medicines that kill or inhibit the growth of bacteria — famously discovered when Alexander Fleming noticed a mold killing bacteria in 1928?",
       "options": [
-        "Antibiotics",
+        "Antivirals",
         "Analgesics",
-        "Antifungals",
-        "Antivirals"
+        "Antibiotics",
+        "Antifungals"
       ],
       "answer": "Antibiotics",
       "explanation": "Antibiotics are drugs that kill bacteria or prevent their reproduction. The first antibiotic, penicillin, was discovered by Alexander Fleming in 1928 when he noticed the mold Penicillium notatum killing bacteria in a petri dish. Howard Florey and Ernst Chain later purified it for medical use. Antibiotics revolutionized medicine and have saved hundreds of millions of lives. However, overuse has led to antibiotic-resistant bacteria — one of the most serious public health challenges today.",

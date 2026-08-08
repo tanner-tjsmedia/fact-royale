@@ -1,0 +1,754 @@
+<!DOCTYPE html><html><head><meta charset="utf-8">
+<title>Fact Royale — Question Review</title>
+<style>
+ :root { --bg:#0e0e16; --card:#16161f; --line:#26263a; --gold:#d4af37;
+          --txt:#e9e9f2; --mut:#8f8fa8; --grn:#4ade80; --red:#f87171; }
+ * { box-sizing:border-box }
+ body { margin:0; background:var(--bg); color:var(--txt);
+   font:14px/1.55 ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,sans-serif }
+ header { position:sticky; top:0; z-index:9; background:rgba(14,14,22,.97);
+   border-bottom:1px solid var(--line); padding:.85rem 1.25rem;
+   display:flex; gap:1.25rem; align-items:center; flex-wrap:wrap;
+   backdrop-filter:blur(10px) }
+ h1 { font-size:1rem; margin:0; color:var(--gold); letter-spacing:.01em }
+ .sum { color:var(--mut); font-size:.85rem }
+ .sum b { color:var(--txt) }
+ .filters { margin-left:auto; display:flex; gap:.4rem }
+ .fbtn { background:#1d1d2a; border:1px solid var(--line); color:var(--mut);
+   padding:.32rem .8rem; border-radius:99px; cursor:pointer; font:inherit; font-size:.8rem }
+ .fbtn.on { background:var(--gold); color:#12121c; border-color:var(--gold); font-weight:700 }
+ main { max-width:1240px; margin:0 auto; padding:1.25rem }
+ h2.day { font-size:.78rem; letter-spacing:.14em; text-transform:uppercase;
+   color:var(--gold); opacity:.75; margin:2rem 0 .75rem; font-weight:700 }
+ .q { background:var(--card); border:1px solid var(--line);
+   border-radius:12px; padding:.9rem 1rem; margin-bottom:.85rem }
+ .qhead { display:flex; gap:.5rem; align-items:center; flex-wrap:wrap; margin-bottom:.7rem }
+ .qid { font-family:ui-monospace,SFMono-Regular,Menlo,monospace; font-size:.76rem; color:var(--mut) }
+ .cat { font-size:.7rem; padding:.14rem .55rem; border-radius:99px;
+   background:rgba(212,175,55,.12); color:var(--gold) }
+ .flag { font-size:.68rem; padding:.14rem .5rem; border-radius:99px; font-weight:700 }
+ .flag.warn { background:rgba(240,192,64,.15); color:#f0c040 }
+ .flag.err  { background:rgba(248,113,113,.18); color:var(--red) }
+ .cols { display:grid; grid-template-columns:1fr 1fr; gap:.85rem }
+ @media (max-width:900px) { .cols { grid-template-columns:1fr } }
+ .col { border:1px solid var(--line); border-radius:9px; padding:.7rem .8rem; min-width:0 }
+ .col.old { opacity:.62 }
+ .col.new { border-color:rgba(74,222,128,.3) }
+ .collabel { font-size:.64rem; letter-spacing:.13em; text-transform:uppercase;
+   color:var(--mut); margin-bottom:.5rem; font-weight:700 }
+ .col.new .collabel { color:var(--grn) }
+ .qtext { font-weight:600; margin-bottom:.55rem; font-size:.9rem }
+ .opt { display:flex; gap:.5rem; align-items:baseline; padding:.2rem 0;
+   border-top:1px solid rgba(255,255,255,.045); font-size:.845rem }
+ .opt.ans { color:var(--grn); font-weight:600 }
+ .mark { width:1em; flex:none }
+ .otext { flex:1; min-width:0; overflow-wrap:anywhere }
+ .olen { flex:none; color:var(--mut); font-size:.7rem;
+   font-family:ui-monospace,Menlo,monospace }
+ .meta { margin-top:.5rem; font-size:.7rem; color:var(--mut);
+   font-family:ui-monospace,Menlo,monospace }
+ .none { color:var(--mut); font-style:italic }
+ .extra { margin-top:.6rem; font-size:.82rem; color:var(--mut) }
+ .extra summary { cursor:pointer; color:var(--gold); opacity:.7; font-size:.76rem }
+ .extra p { margin:.5rem 0 0 }
+ .hidden { display:none !important }
+</style></head><body>
+<header>
+  <h1>Question Review</h1>
+  <span class="sum"><b>33</b> changed across <b>5</b> days
+    &middot; <b style="color:var(--red)">0</b> errors
+    &middot; <b style="color:#f0c040">15</b> warnings</span>
+  <div class="filters">
+    <button class="fbtn on" data-f="all">All</button>
+    <button class="fbtn" data-f="err">Errors</button>
+    <button class="fbtn" data-f="warn">Flagged</button>
+  </div>
+</header>
+<main><h2 class="day">2026-11-09</h2>
+<div class="q" data-flags="warn">
+  <div class="qhead">
+    <span class="qid">2026-11-09 &middot; #0</span>
+    <span class="cat">History</span>
+    <span class="flag warn">answer is longest</span>
+  </div>
+  <div class="cols">
+    <div class="col old"><div class="collabel">before</div><div class="qtext">The Weimar Republic (1919-1933) was Germany&#x27;s democratic government between the two World Wars. What factors led to its collapse?</div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">France and Britain imposed direct rule on Germany in 1933 after Germany defaulted on reparations</span><span class="olen">96</span></div><div class="opt ans"><span class="mark">&#10003;</span><span class="otext">Economic catastrophe (hyperinflation 1923, Great Depression 1929), political extremism from left and right, war reparations burden, and the rise of Hitler&#x27;s Nazi Party — culminating in Hitler&#x27;s appointment as Chancellor in January 1933</span><span class="olen">235</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">A military coup by conservative generals who restored the Kaiser</span><span class="olen">64</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">A communist revolution modeled on the Soviet Union&#x27;s example</span><span class="olen">60</span></div><div class="meta">max 235 / spread 175</div></div>
+    <div class="col new"><div class="collabel">after</div>
+      <div class="qtext">What brought down Germany&#x27;s Weimar Republic (1919-1933)?</div>
+      <div class="opt ans"><span class="mark">&#10003;</span><span class="otext">Hyperinflation, depression, and extremism from both sides</span><span class="olen">57</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">A military coup by generals who restored the Kaiser</span><span class="olen">51</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">A communist revolution modelled on the Soviet Union</span><span class="olen">51</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">France and Britain imposing direct rule in 1933</span><span class="olen">47</span></div>
+      <div class="meta">max 57 / spread 10</div>
+    </div>
+  </div>
+  <details class="extra">
+    <summary>explanation &amp; memory hook</summary>
+    <p><b>Explanation.</b> The Weimar Republic faced structural weaknesses: proportional representation created unstable coalition governments; the constitution allowed emergency presidential decrees; war reparations (~$442 billion in today&#x27;s money) crushed the economy. 1923 hyperinflation wiped out savings (a wheelbarrow of cash couldn&#x27;t buy bread). The Great Depression (1929) created 6 million unemployed. Hitler exploited resentment, promising national restoration. President Hindenburg appointed Hitler Chancellor on January 30, 1933, believing he could be controlled. Within two months, Hitler had consolidated dictatorial power.</p>
+    <p><b>Hook.</b> Hindenburg appointed Hitler Chancellor thinking he could be controlled by establishment conservatives — one of history&#x27;s most catastrophic political miscalculations. The Weimar Republic&#x27;s death shows how democracies can fail: not through invasion but through economic despair, political polarization, and the cynicism of elites who enable extremists.</p>
+  </details>
+</div>
+<div class="q" data-flags="clean">
+  <div class="qhead">
+    <span class="qid">2026-11-09 &middot; #1</span>
+    <span class="cat">History</span>
+    
+  </div>
+  <div class="cols">
+    <div class="col old"><div class="collabel">before</div><div class="qtext">The Mughal Emperor Akbar (1556-1605) is considered one of history&#x27;s greatest rulers. What made his reign distinctive?</div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">He converted the entire Mughal Empire to Islam through military campaigns</span><span class="olen">73</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">He created a new religion combining Islam and Christianity to please both his Muslim and Christian subjects</span><span class="olen">107</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">He expelled all non-Muslims from his empire and created one of history&#x27;s first religiously homogeneous states</span><span class="olen">109</span></div><div class="opt ans"><span class="mark">&#10003;</span><span class="otext">He pursued a policy of religious tolerance (Din-i-Ilahi), created a multicultural administration including Hindus and Rajputs in high positions, and abolished the jizya (non-Muslim tax)</span><span class="olen">185</span></div><div class="meta">max 185 / spread 112</div></div>
+    <div class="col new"><div class="collabel">after</div>
+      <div class="qtext">What made the reign of Mughal Emperor Akbar (1556-1605) distinctive?</div>
+      <div class="opt ans"><span class="mark">&#10003;</span><span class="otext">Religious tolerance and Hindus in senior posts</span><span class="olen">46</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">Converting the whole empire to Islam by force</span><span class="olen">45</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">Expelling all non-Muslims to create a uniform state</span><span class="olen">51</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">Inventing a faith blending Islam and Christianity</span><span class="olen">49</span></div>
+      <div class="meta">max 51 / spread 6</div>
+    </div>
+  </div>
+  <details class="extra">
+    <summary>explanation &amp; memory hook</summary>
+    <p><b>Explanation.</b> Akbar the Great (1542-1605) ruled an empire of approximately 100 million people with remarkable tolerance. He abolished the jizya (discriminatory tax on non-Muslims), incorporated Hindu Rajput princes into his administration and army (often through strategic marriages), held religious discussions with Hindus, Jains, Zoroastrians, and Jesuit priests, and developed his own syncretic philosophy (Din-i-Ilahi — Divine Faith). His policies created relative stability across a religiously diverse empire. Aurangzeb later reversed many of Akbar&#x27;s tolerant policies, contributing to Mughal decline.</p>
+    <p><b>Hook.</b> Akbar ruled 100 million people of different faiths with a policy of genuine religious tolerance in the 1500s — centuries before Western Enlightenment thinkers proposed it theoretically. His grandson Aurangzeb reversed this, reintroduced the jizya, and began the Mughal Empire&#x27;s long decline.</p>
+  </details>
+</div>
+<div class="q" data-flags="warn">
+  <div class="qhead">
+    <span class="qid">2026-11-09 &middot; #4</span>
+    <span class="cat">Sports</span>
+    <span class="flag warn">answer is longest</span>
+  </div>
+  <div class="cols">
+    <div class="col old"><div class="collabel">before</div><div class="qtext">The &#x27;Shot Heard Round the World&#x27; in baseball refers to which iconic 1951 home run?</div><div class="opt ans"><span class="mark">&#10003;</span><span class="otext">Bobby Thomson&#x27;s walk-off home run off Ralph Branca to win the 1951 NL pennant for the New York Giants over the Brooklyn Dodgers</span><span class="olen">127</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">Babe Ruth&#x27;s called shot homer in the 1932 World Series</span><span class="olen">54</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">Willie Mays&#x27;s home run to win the 1954 World Series</span><span class="olen">51</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">Mickey Mantle&#x27;s 565-foot home run at Griffith Stadium in 1953</span><span class="olen">61</span></div><div class="meta">max 127 / spread 76</div></div>
+    <div class="col new"><div class="collabel">after</div>
+      <div class="qtext">Baseball&#x27;s &#x27;Shot Heard Round the World&#x27; refers to which 1951 home run?</div>
+      <div class="opt ans"><span class="mark">&#10003;</span><span class="otext">Bobby Thomson&#x27;s pennant-winning walk-off off Ralph Branca</span><span class="olen">57</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">Babe Ruth&#x27;s called shot in the 1932 World Series</span><span class="olen">48</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">Willie Mays&#x27;s homer to win the 1954 World Series</span><span class="olen">48</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">Mickey Mantle&#x27;s 565-foot shot at Griffith Stadium</span><span class="olen">49</span></div>
+      <div class="meta">max 57 / spread 9</div>
+    </div>
+  </div>
+  <details class="extra">
+    <summary>explanation &amp; memory hook</summary>
+    <p><b>Explanation.</b> Bobby Thomson&#x27;s three-run home run in the bottom of the 9th inning of a one-game playoff on October 3, 1951, gave the New York Giants a 5-4 victory over the Brooklyn Dodgers and the National League pennant. Radio announcer Russ Hodges&#x27;s call — &#x27;THE GIANTS WIN THE PENNANT! THE GIANTS WIN THE PENNANT!&#x27; repeated breathlessly — became one of sports broadcasting&#x27;s most famous moments. Years later, it was revealed the Giants had been stealing the catcher&#x27;s signs via a telescope and buzzer system, casting a shadow over the homer.</p>
+    <p><b>Hook.</b> Bobby Thomson&#x27;s homer is called the &#x27;Shot Heard Round the World&#x27; — and decades later it emerged that the Giants were stealing signs via a telescope and buzzer. The most famous homer in baseball history may have been helped by cheating, a revelation that came with a very mixed reaction.</p>
+  </details>
+</div>
+<div class="q" data-flags="clean">
+  <div class="qhead">
+    <span class="qid">2026-11-09 &middot; #6</span>
+    <span class="cat">Pop Culture</span>
+    
+  </div>
+  <div class="cols">
+    <div class="col old"><div class="collabel">before</div><div class="qtext">Jean-Michel Basquiat went from homeless graffiti artist in Manhattan to selling paintings for tens of millions — all before dying at 27. What was the substance of his work beyond the surface-level fame narrative?</div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">Basquiat deliberately imitated the visual language of advertising and corporate branding to critique consumerism — his crowns and copyright symbols were ironic inversions of trademark law applied to Black cultural identity</span><span class="olen">222</span></div><div class="opt ans"><span class="mark">&#10003;</span><span class="otext">Basquiat&#x27;s primary concern was documenting the experience of being Black in America — his paintings layer text, anatomy diagrams, crowns, and crossed-out words to build visual arguments about racism, identity, police violence, and who gets erased from history</span><span class="olen">259</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">Basquiat&#x27;s work was primarily autobiographical — each painting documented a specific event from his life, and art historians have decoded most major works as visual diaries that can be mapped to datable incidents in his personal history</span><span class="olen">236</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">Basquiat&#x27;s paintings were primarily critiques of the art market itself — he documented auction prices, dealer names, and collector wealth in his works, creating a self-referential commentary on the system that was simultaneously making him rich</span><span class="olen">244</span></div><div class="meta">max 259 / spread 37</div></div>
+    <div class="col new"><div class="collabel">after</div>
+      <div class="qtext">Jean-Michel Basquiat went from homeless graffiti writer to millions, dying at 27. What was his work actually about?</div>
+      <div class="opt ans"><span class="mark">&#10003;</span><span class="otext">Black experience in America, racism, and erasure</span><span class="olen">48</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">Ironic use of corporate branding to mock consumerism</span><span class="olen">52</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">A visual diary of datable events from his own life</span><span class="olen">50</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">A running critique of the art market enriching him</span><span class="olen">50</span></div>
+      <div class="meta">max 52 / spread 4</div>
+    </div>
+  </div>
+  <details class="extra">
+    <summary>explanation &amp; memory hook</summary>
+    <p><b>Explanation.</b> Basquiat&#x27;s recurring imagery — skulls, anatomical charts, Black athletes and musicians, crowns, police badges, crossed-out words — form a sustained critique of anti-Black violence, cultural erasure, and the dehumanization of Black bodies. Works like &#x27;Irony of a Negro Policeman&#x27; (1981) and &#x27;Defacement&#x27; (painted after graffiti artist Michael Stewart died in police custody) engage directly with state violence. He annotated Black historical figures — Charlie Parker, Muhammad Ali, Jack Johnson — who were erased from mainstream narratives. His 1982 untitled skull painting sold for $110.5 million in 2017, a record for an American artist at the time.</p>
+    <p><b>Hook.</b> Basquiat annotated the Black figures erased from mainstream history — Charlie Parker, Muhammad Ali, Jack Johnson — while painting skulls and crossed-out words documenting police violence. &#x27;Defacement&#x27; was painted after graffiti artist Michael Stewart died in police custody. His 1982 skull sold for $110.5 million in 2017. He died at 27. The work is a visual argument, not decoration.</p>
+  </details>
+</div>
+<div class="q" data-flags="clean">
+  <div class="qhead">
+    <span class="qid">2026-11-09 &middot; #8</span>
+    <span class="cat">Geography</span>
+    
+  </div>
+  <div class="cols">
+    <div class="col old"><div class="collabel">before</div><div class="qtext">The Yucatan Peninsula in Mexico is famous for what geological feature that contributed to the extinction of the dinosaurs?</div><div class="opt ans"><span class="mark">&#10003;</span><span class="otext">The Chicxulub crater — the impact site of the asteroid that contributed to the mass extinction 66 million years ago, now buried under the peninsula</span><span class="olen">147</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">The world&#x27;s largest active volcano, which erupts every 1,000 years</span><span class="olen">66</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">The world&#x27;s largest diamond deposit, discovered in the 1950s</span><span class="olen">60</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">A massive underground river system that supplies water to all of Mexico</span><span class="olen">71</span></div><div class="meta">max 147 / spread 87</div></div>
+    <div class="col new"><div class="collabel">after</div>
+      <div class="qtext">What geological feature under Mexico&#x27;s Yucatan Peninsula is tied to the dinosaur extinction?</div>
+      <div class="opt ans"><span class="mark">&#10003;</span><span class="otext">The Chicxulub crater from the asteroid impact</span><span class="olen">45</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">The world&#x27;s largest active volcano, erupting each millennium</span><span class="olen">60</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">The world&#x27;s largest diamond deposit, found in the 1950s</span><span class="olen">55</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">An underground river system supplying all of Mexico</span><span class="olen">51</span></div>
+      <div class="meta">max 60 / spread 15</div>
+    </div>
+  </div>
+  <details class="extra">
+    <summary>explanation &amp; memory hook</summary>
+    <p><b>Explanation.</b> The Chicxulub impact crater (approximately 150 km in diameter) is buried beneath the Yucatan Peninsula and the Gulf of Mexico. The impactor was approximately 10 km wide and struck approximately 66 million years ago. The impact triggered wildfires, a &#x27;nuclear winter&#x27; from ejecta blocking sunlight, acid rain, and mega-tsunamis. About 75% of all species went extinct, including most non-avian dinosaurs. Birds (avian dinosaurs) survived. The crater was discovered in the 1970s by geophysicist Glen Penfield while looking for oil.</p>
+    <p><b>Hook.</b> The Yucatan holds the scar from the asteroid that ended the dinosaurs — a 150 km crater buried underground. It was discovered while looking for oil in the 1970s, then ignored until iridium anomalies (rare in Earth&#x27;s crust, common in asteroids) were found worldwide at the exact geological layer of the extinction.</p>
+  </details>
+</div>
+<div class="q" data-flags="clean">
+  <div class="qhead">
+    <span class="qid">2026-11-09 &middot; #9</span>
+    <span class="cat">Geography</span>
+    
+  </div>
+  <div class="cols">
+    <div class="col old"><div class="collabel">before</div><div class="qtext">The Eurasian Steppe — the world&#x27;s largest grassland — stretches from where to where?</div><div class="opt ans"><span class="mark">&#10003;</span><span class="otext">From Hungary across Central Asia to Manchuria (China) — roughly 8,000 km from west to east</span><span class="olen">90</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">From Turkey to the Korean Peninsula</span><span class="olen">35</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">From France to the Ural Mountains</span><span class="olen">33</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">From the Sahara&#x27;s northern edge to the Arctic Circle</span><span class="olen">52</span></div><div class="meta">max 90 / spread 57</div></div>
+    <div class="col new"><div class="collabel">after</div>
+      <div class="qtext">The Eurasian Steppe is the world&#x27;s largest grassland. How far does it stretch?</div>
+      <div class="opt ans"><span class="mark">&#10003;</span><span class="otext">Hungary to Manchuria, roughly 8,000 km</span><span class="olen">38</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">Turkey to the Korean Peninsula</span><span class="olen">30</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">France to the Ural Mountains</span><span class="olen">28</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">The northern Sahara to the Arctic Circle</span><span class="olen">40</span></div>
+      <div class="meta">max 40 / spread 12</div>
+    </div>
+  </div>
+  <details class="extra">
+    <summary>explanation &amp; memory hook</summary>
+    <p><b>Explanation.</b> The Eurasian Steppe (or Pontic-Caspian Steppe in the west, Kazakh Steppe in the center, Mongolian Steppe in the east) extends approximately 8,000 km from Hungary through Ukraine, Russia, Kazakhstan, Mongolia, to Manchuria. This vast grassland was the corridor for pastoral nomadic peoples including the Scythians, Huns, Xiongnu, Turks, and Mongols — who repeatedly raided and sometimes conquered adjacent civilizations. The Silk Road used steppe sections as highways. The horse was likely domesticated on the Kazakh steppe around 3500 BCE, enabling the nomadic way of life that shaped Eurasian history.</p>
+    <p><b>Hook.</b> The Eurasian Steppe is history&#x27;s highway — the same grassland corridor that allowed the Huns, Mongols, and Turks to move from Central Asia to Europe. The horse was domesticated on this steppe ~5,500 years ago, which may be the single most consequential animal domestication in history.</p>
+  </details>
+</div>
+<div class="q" data-flags="clean">
+  <div class="qhead">
+    <span class="qid">2026-11-09 &middot; #10</span>
+    <span class="cat">Science &amp; Nature</span>
+    
+  </div>
+  <div class="cols">
+    <div class="col old"><div class="collabel">before</div><div class="qtext">What is meant by &#x27;half-life&#x27; in radioactive decay, and how is it used in radiocarbon dating?</div><div class="opt ans"><span class="mark">&#10003;</span><span class="otext">Half-life is the time for half of a radioactive isotope&#x27;s atoms to decay into another element. In radiocarbon dating, carbon-14 (half-life 5,730 years) is absorbed by living organisms; after death, it decays at a known rate — measuring remaining C-14 determines how long ago the organism died</span><span class="olen">292</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">Half-life is the time for radiation to travel half the distance from a nuclear reaction</span><span class="olen">87</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">Half-life describes how long a drug remains active in the bloodstream</span><span class="olen">69</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">Half-life is the time for exactly half a radioactive substance to become non-radioactive through chemical reactions</span><span class="olen">115</span></div><div class="meta">max 292 / spread 223</div></div>
+    <div class="col new"><div class="collabel">after</div>
+      <div class="qtext">What does &#x27;half-life&#x27; mean in radioactive decay?</div>
+      <div class="opt ans"><span class="mark">&#10003;</span><span class="otext">The time for half a sample&#x27;s atoms to decay</span><span class="olen">43</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">The time radiation takes to travel half its range</span><span class="olen">49</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">How long a drug stays active in the bloodstream</span><span class="olen">47</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">The time until a substance stops being radioactive</span><span class="olen">50</span></div>
+      <div class="meta">max 50 / spread 7</div>
+    </div>
+  </div>
+  <details class="extra">
+    <summary>explanation &amp; memory hook</summary>
+    <p><b>Explanation.</b> Radioactive decay is probabilistic — you can&#x27;t predict when any single atom decays, but you can predict population statistics precisely. Carbon-14 is produced in the atmosphere by cosmic ray interactions, absorbed by plants during photosynthesis, passed to animals through food. When an organism dies, it stops absorbing C-14; existing C-14 decays at the known half-life rate. After 5,730 years, half remains; after 11,460 years, 25%; etc. Useful for dating up to ~50,000 years. For older samples, uranium-lead dating (billions of years) is used — enabling dating of Earth&#x27;s formation.</p>
+    <p><b>Hook.</b> Radiocarbon dating works because living things constantly exchange carbon with the atmosphere — the moment they die, the clock starts. Half-life is the decay rate, which is constant regardless of temperature, pressure, or chemistry. This nuclear-physics clock enabled archaeologists to date ancient remains objectively for the first time.</p>
+  </details>
+</div>
+<div class="q" data-flags="warn">
+  <div class="qhead">
+    <span class="qid">2026-11-09 &middot; #11</span>
+    <span class="cat">Science &amp; Nature</span>
+    <span class="flag warn">answer is longest</span>
+  </div>
+  <div class="cols">
+    <div class="col old"><div class="collabel">before</div><div class="qtext">What is meant by the term &#x27;invasive species,&#x27; and what makes them so ecologically damaging?</div><div class="opt ans"><span class="mark">&#10003;</span><span class="otext">Invasive species are organisms introduced to ecosystems where they didn&#x27;t evolve, often thriving without the natural predators, diseases, or competitors that regulated them in their native habitat — sometimes causing catastrophic ecosystem disruption</span><span class="olen">250</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">Invasive species are animals that invade other animals&#x27; territories; they&#x27;re damaging because they consume all available food</span><span class="olen">125</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">Invasive species are only dangerous if they are larger than native species</span><span class="olen">74</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">Invasive species are weeds; the term applies only to plant species</span><span class="olen">66</span></div><div class="meta">max 250 / spread 184</div></div>
+    <div class="col new"><div class="collabel">after</div>
+      <div class="qtext">What makes an invasive species so ecologically damaging?</div>
+      <div class="opt ans"><span class="mark">&#10003;</span><span class="otext">It arrives without the predators that once held it back</span><span class="olen">55</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">It is always physically larger than native species</span><span class="olen">50</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">It invades other animals&#x27; territory and eats their food</span><span class="olen">55</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">The term applies only to aggressive weed plants</span><span class="olen">47</span></div>
+      <div class="meta">max 55 / spread 8</div>
+    </div>
+  </div>
+  <details class="extra">
+    <summary>explanation &amp; memory hook</summary>
+    <p><b>Explanation.</b> Examples: Brown tree snake (introduced to Guam after WWII) eliminated 9 of 11 native forest bird species. Cane toad (introduced to Australia for pest control in 1935) is toxic to native predators who try to eat it; has spread across northern Australia unchecked. Kudzu vine (introduced to US from Japan) covers ~2.5 million acres of southern US. Zebra mussels (from Caspian Sea to Great Lakes via ballast water) filter phytoplankton that base the food chain. Invasive species are the second-largest driver of biodiversity loss after habitat destruction.</p>
+    <p><b>Hook.</b> Cane toads were introduced to Australia in 1935 to eat beetles in sugarcane fields — they ignored the beetles and spread across the continent, poisoning any predator that tried to eat them. Invasive species are evolution&#x27;s unintended consequences: take an organism out of its ecosystem and put it somewhere with no natural controls.</p>
+  </details>
+</div><h2 class="day">2026-11-10</h2>
+<div class="q" data-flags="warn">
+  <div class="qhead">
+    <span class="qid">2026-11-10 &middot; #1</span>
+    <span class="cat">History</span>
+    <span class="flag warn">answer is longest</span>
+  </div>
+  <div class="cols">
+    <div class="col old"><div class="collabel">before</div><div class="qtext">The Fall of Constantinople in 1453 ended the Byzantine Empire. What happened to the Greek scholars who fled?</div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">They were absorbed into the Ottoman Empire&#x27;s court as translators</span><span class="olen">65</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">They were enslaved by the Ottomans and forced to convert to Islam</span><span class="olen">65</span></div><div class="opt ans"><span class="mark">&#10003;</span><span class="otext">Many fled to Italy, bringing Greek manuscripts and Byzantine learning with them — a contribution to the Italian Renaissance that had been underway but was significantly amplified by this influx of Greek knowledge</span><span class="olen">212</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">They fled to Russia, where they helped create the Russian Orthodox Church</span><span class="olen">73</span></div><div class="meta">max 212 / spread 147</div></div>
+    <div class="col new"><div class="collabel">after</div>
+      <div class="qtext">After Constantinople fell in 1453, what happened to the Greek scholars who fled?</div>
+      <div class="opt ans"><span class="mark">&#10003;</span><span class="otext">Many reached Italy with manuscripts, feeding the Renaissance</span><span class="olen">60</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">They joined the Ottoman court as official translators</span><span class="olen">53</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">They were enslaved and forced to convert to Islam</span><span class="olen">49</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">They went to Russia and shaped its Orthodox Church</span><span class="olen">50</span></div>
+      <div class="meta">max 60 / spread 11</div>
+    </div>
+  </div>
+  <details class="extra">
+    <summary>explanation &amp; memory hook</summary>
+    <p><b>Explanation.</b> The fall of Constantinople triggered a wave of Greek-speaking Byzantine scholars into Italy — Florence, Venice, Rome. They brought manuscript copies of ancient Greek texts (Plato, Aristotle, Greek mathematics, and literary works) that were unknown or poorly understood in Western Europe. Their arrival amplified the Italian Renaissance by adding direct access to Greek originals rather than Arabic translations of translations. The Council of Florence (1439-1445) had already brought Byzantine scholars west; the 1453 exodus accelerated the process dramatically.</p>
+    <p><b>Hook.</b> Byzantine scholars fleeing the Ottoman conquest carried Greek manuscripts to Italy and could actually read them — which was revolutionary in a Europe where Greek was almost a dead language. Their arrival turbocharged the Renaissance: suddenly scholars could read Plato in the original, not a Latin translation of an Arabic translation of a Greek original.</p>
+  </details>
+</div>
+<div class="q" data-flags="clean">
+  <div class="qhead">
+    <span class="qid">2026-11-10 &middot; #2</span>
+    <span class="cat">History</span>
+    
+  </div>
+  <div class="cols">
+    <div class="col old"><div class="collabel">before</div><div class="qtext">The US Constitutional Convention of 1787 featured a major compromise on representation. What was the Connecticut Compromise?</div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">A compromise delaying the ban on slave trade until 1808</span><span class="olen">55</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">A compromise allowing states to choose whether to elect senators by popular vote or state legislature</span><span class="olen">101</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">A compromise allowing slave states to count three-fifths of enslaved people for representation</span><span class="olen">94</span></div><div class="opt ans"><span class="mark">&#10003;</span><span class="otext">A two-house legislature: the Senate (equal representation per state — pleasing small states) and the House of Representatives (population-based — pleasing large states)</span><span class="olen">168</span></div><div class="meta">max 168 / spread 113</div></div>
+    <div class="col new"><div class="collabel">after</div>
+      <div class="qtext">What did the Connecticut Compromise settle at the 1787 Constitutional Convention?</div>
+      <div class="opt ans"><span class="mark">&#10003;</span><span class="otext">A Senate with equal seats, a House by population</span><span class="olen">48</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">Counting three-fifths of enslaved people for seats</span><span class="olen">50</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">Delaying any ban on the slave trade until 1808</span><span class="olen">46</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">Letting states pick how senators were chosen</span><span class="olen">44</span></div>
+      <div class="meta">max 50 / spread 6</div>
+    </div>
+  </div>
+  <details class="extra">
+    <summary>explanation &amp; memory hook</summary>
+    <p><b>Explanation.</b> The Constitutional Convention&#x27;s critical division: large states (Virginia Plan) wanted proportional representation; small states (New Jersey Plan) wanted equal representation. Roger Sherman of Connecticut proposed the Great Compromise (Connecticut Compromise): a bicameral legislature with the House based on population and the Senate giving equal votes to each state (2 per state). This compromise, along with the Three-Fifths Compromise (enslaved people counted as 3/5 of a person for representation), made the Constitution possible. The Senate&#x27;s equal representation still affects US politics today — Wyoming (600,000 people) and California (40 million) have equal Senate votes.</p>
+    <p><b>Hook.</b> The Connecticut Compromise gave small states equal Senate power regardless of population — a deal that&#x27;s still reshaping US politics 240 years later. Wyoming&#x27;s 600,000 people have the same Senate representation as California&#x27;s 40 million. This wasn&#x27;t accidental; it was the price of uniting the states.</p>
+  </details>
+</div>
+<div class="q" data-flags="warn">
+  <div class="qhead">
+    <span class="qid">2026-11-10 &middot; #4</span>
+    <span class="cat">Sports</span>
+    <span class="flag warn">answer is longest</span>
+  </div>
+  <div class="cols">
+    <div class="col old"><div class="collabel">before</div><div class="qtext">What is the PGA Tour &#x27;Grand Slam,&#x27; and why has no one ever achieved it?</div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">Winning all four majors and the Players Championship in one year</span><span class="olen">64</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">Winning all four major golf tournaments (Masters, US Open, The Open Championship, PGA Championship) in the same calendar year; impossible because the schedule doesn&#x27;t allow travel between all venues</span><span class="olen">198</span></div><div class="opt ans"><span class="mark">&#10003;</span><span class="otext">Winning all four major golf tournaments in the same calendar year; no one has achieved this (though Tiger Woods held all four majors simultaneously from 2000-2001 — the &#x27;Tiger Slam&#x27; but spanning two calendar years)</span><span class="olen">214</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">Winning all four majors plus the Olympic gold in one year; Steffi Graf is the only sports equivalent</span><span class="olen">100</span></div><div class="meta">max 214 / spread 150</div></div>
+    <div class="col new"><div class="collabel">after</div>
+      <div class="qtext">What is golf&#x27;s &#x27;Grand Slam&#x27;, and why has nobody done it?</div>
+      <div class="opt ans"><span class="mark">&#10003;</span><span class="otext">All four majors in one calendar year; Tiger spanned two</span><span class="olen">55</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">All four majors plus the Players in a single year</span><span class="olen">49</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">All four majors plus Olympic gold in a single year</span><span class="olen">50</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">All four majors, impossible because venues conflict</span><span class="olen">51</span></div>
+      <div class="meta">max 55 / spread 6</div>
+    </div>
+  </div>
+  <details class="extra">
+    <summary>explanation &amp; memory hook</summary>
+    <p><b>Explanation.</b> The golf Grand Slam (winning the Masters, US Open, The Open Championship, and PGA Championship in the same calendar year) has never been achieved. The closest: Tiger Woods won the 2000 US Open, Open Championship, and PGA Championship, then the 2001 Masters — holding all four simultaneously (called the &#x27;Tiger Slam&#x27;) but across two calendar years. In 1930, Bobby Jones won the &#x27;Grand Slam&#x27; of the era (US Amateur, US Open, British Amateur, British Open) — before the modern major structure existed. Completing the modern calendar-year Grand Slam is considered golf&#x27;s holy grail.</p>
+    <p><b>Hook.</b> The golf Grand Slam has never been done in a calendar year — Tiger held all four simultaneously but across two years. In 1930, Bobby Jones won the era&#x27;s version when he was an amateur. The calendar-year Grand Slam is golf&#x27;s Mount Everest: imaginable, technically achievable, but never done.</p>
+  </details>
+</div>
+<div class="q" data-flags="warn">
+  <div class="qhead">
+    <span class="qid">2026-11-10 &middot; #10</span>
+    <span class="cat">Science &amp; Nature</span>
+    <span class="flag warn">answer is longest</span>
+  </div>
+  <div class="cols">
+    <div class="col old"><div class="collabel">before</div><div class="qtext">How does the human lymphatic system work, and what is its relationship to immunity?</div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">The lymphatic system regulates hormone production through a network of specialized glands</span><span class="olen">89</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">The lymphatic system produces red blood cells and platelets in specialized marrow-like nodes</span><span class="olen">92</span></div><div class="opt ans"><span class="mark">&#10003;</span><span class="otext">The lymphatic system drains excess tissue fluid (lymph), transports dietary fats from the intestines, and is the central infrastructure of the immune system — containing lymph nodes where immune cells (T and B lymphocytes) filter pathogens and mount immune responses</span><span class="olen">266</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">The lymphatic system is a backup circulatory system that carries oxygenated blood when the heart is under stress</span><span class="olen">112</span></div><div class="meta">max 266 / spread 177</div></div>
+    <div class="col new"><div class="collabel">after</div>
+      <div class="qtext">What does the lymphatic system do?</div>
+      <div class="opt ans"><span class="mark">&#10003;</span><span class="otext">Drains tissue fluid and houses the immune response</span><span class="olen">50</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">Produces red blood cells and platelets in nodes</span><span class="olen">47</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">Regulates hormones through specialized glands</span><span class="olen">45</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">Carries oxygenated blood when the heart strains</span><span class="olen">47</span></div>
+      <div class="meta">max 50 / spread 5</div>
+    </div>
+  </div>
+  <details class="extra">
+    <summary>explanation &amp; memory hook</summary>
+    <p><b>Explanation.</b> The lymphatic system: a network of lymphatic vessels, lymph nodes, and lymphoid organs (spleen, thymus, tonsils, bone marrow). Lymph vessels drain tissue fluid that leaks from blood capillaries back into circulation. Lymph nodes are immune checkpoints — lymph is filtered here by macrophages and lymphocytes. When fighting infection, lymph nodes swell (swollen glands) as immune cells multiply rapidly. The spleen filters blood; the thymus matures T-cells. Cancer can spread via the lymphatic system (&#x27;lymph node involvement&#x27; indicates metastasis).</p>
+    <p><b>Hook.</b> Swollen lymph nodes during illness are immune cells rapidly multiplying — your lymph nodes are literally swelling to accommodate the immune response. Cancer spreads through lymph nodes because the same vessels that carry pathogens for immune inspection also provide a highway for cancer cells to travel.</p>
+  </details>
+</div>
+<div class="q" data-flags="clean">
+  <div class="qhead">
+    <span class="qid">2026-11-10 &middot; #11</span>
+    <span class="cat">Science &amp; Nature</span>
+    
+  </div>
+  <div class="cols">
+    <div class="col old"><div class="collabel">before</div><div class="qtext">What is the standard model of particle physics, and what particle was confirmed in 2012 that completed it?</div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">The standard model describes planet formation; the 2012 particle was a new type of dark matter</span><span class="olen">94</span></div><div class="opt ans"><span class="mark">&#10003;</span><span class="otext">The standard model describes fundamental particles and forces; the Higgs boson was confirmed at CERN&#x27;s Large Hadron Collider in 2012 — the particle that gives other particles their mass through the Higgs field</span><span class="olen">209</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">The standard model is a classification of all living organisms; the missing species confirmed in 2012 was the snow leopard&#x27;s genetic ancestor</span><span class="olen">141</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">The standard model classifies chemical elements; the element confirmed in 2012 was element 117 (tennessine)</span><span class="olen">107</span></div><div class="meta">max 209 / spread 115</div></div>
+    <div class="col new"><div class="collabel">after</div>
+      <div class="qtext">Which particle, confirmed at CERN in 2012, completed the Standard Model?</div>
+      <div class="opt ans"><span class="mark">&#10003;</span><span class="otext">The Higgs boson, which gives particles mass</span><span class="olen">43</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">A new form of dark matter detected at the LHC</span><span class="olen">45</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">Element 117, tennessine, confirmed by synthesis</span><span class="olen">47</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">A genetic ancestor identified in 2012 sequencing</span><span class="olen">48</span></div>
+      <div class="meta">max 48 / spread 5</div>
+    </div>
+  </div>
+  <details class="extra">
+    <summary>explanation &amp; memory hook</summary>
+    <p><b>Explanation.</b> The Standard Model (developed 1960s-70s) describes all known fundamental particles: quarks (6 types, make up protons and neutrons), leptons (electrons, neutrinos), bosons (force carriers: photons for electromagnetism, gluons for strong force, W/Z bosons for weak force). The Higgs boson (predicted 1964 by Peter Higgs and others) was the last missing piece — confirmed at CERN&#x27;s LHC on July 4, 2012. The Higgs field permeates all space; particles that interact with it more strongly gain more mass. Peter Higgs and François Englert won the 2013 Nobel Prize.</p>
+    <p><b>Hook.</b> The Higgs boson took 48 years to find from prediction to confirmation, requiring the world&#x27;s largest machine (CERN&#x27;s 27 km LHC) to produce enough energy. Peter Higgs was 83 when CERN confirmed his particle. He reportedly didn&#x27;t believe he&#x27;d live to see it.</p>
+  </details>
+</div><h2 class="day">2026-11-11</h2>
+<div class="q" data-flags="warn">
+  <div class="qhead">
+    <span class="qid">2026-11-11 &middot; #0</span>
+    <span class="cat">History</span>
+    <span class="flag warn">answer is longest</span>
+  </div>
+  <div class="cols">
+    <div class="col old"><div class="collabel">before</div><div class="qtext">Armistice Day (now Veterans Day/Remembrance Day) marks the end of World War I. At exactly what time did the armistice take effect?</div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">3:00 PM on November 11, 1918</span><span class="olen">28</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">Midnight on November 10, 1918</span><span class="olen">29</span></div><div class="opt ans"><span class="mark">&#10003;</span><span class="otext">11:00 AM on November 11, 1918 (the 11th hour of the 11th day of the 11th month)</span><span class="olen">79</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">6:00 AM on November 11, 1918</span><span class="olen">28</span></div><div class="meta">max 79 / spread 51</div></div>
+    <div class="col new"><div class="collabel">after</div>
+      <div class="qtext">At exactly what moment did the First World War armistice take effect?</div>
+      <div class="opt ans"><span class="mark">&#10003;</span><span class="otext">11:00 AM on 11 November 1918</span><span class="olen">28</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">3:00 PM on 11 November 1918</span><span class="olen">27</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">Midnight on 10 November 1918</span><span class="olen">28</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">6:00 AM on 11 November 1918</span><span class="olen">27</span></div>
+      <div class="meta">max 28 / spread 1</div>
+    </div>
+  </div>
+  <details class="extra">
+    <summary>explanation &amp; memory hook</summary>
+    <p><b>Explanation.</b> The Armistice of Compiègne was signed at 5:45 AM on November 11, 1918, and took effect at 11:00 AM. In the hours between signing and taking effect, fighting continued — approximately 11,000 casualties occurred on the last morning of WWI (comparable to D-Day). Some commanders ordered attacks knowing the armistice was signed. The symbolism of 11/11/11 was intentional — it was chosen by French military commander Ferdinand Foch and the Allied delegation. Over 20 million soldiers and civilians died in WWI total.</p>
+    <p><b>Hook.</b> 11,000 casualties occurred on the final morning of WWI after the armistice was signed but before it took effect at 11 AM. Some commanders ordered assaults knowing the war would end in hours. The 11/11/11 time was chosen for its symbolic resonance — those final hours of death were entirely avoidable.</p>
+  </details>
+</div>
+<div class="q" data-flags="warn">
+  <div class="qhead">
+    <span class="qid">2026-11-11 &middot; #2</span>
+    <span class="cat">History</span>
+    <span class="flag warn">answer is longest</span>
+  </div>
+  <div class="cols">
+    <div class="col old"><div class="collabel">before</div><div class="qtext">The Ming Dynasty&#x27;s voyages under Zheng He (1405-1433) were remarkable. How do they compare to Columbus&#x27;s voyage of 1492?</div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">Columbus&#x27;s fleet was actually larger, using 15 ships to Zheng He&#x27;s 5 large junks</span><span class="olen">80</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">They were roughly equal in scale; Zheng He used 17 ships compared to Columbus&#x27;s 3</span><span class="olen">81</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">Zheng He&#x27;s voyages were exploratory like Columbus; he reached Africa before returning home</span><span class="olen">90</span></div><div class="opt ans"><span class="mark">&#10003;</span><span class="otext">Zheng He commanded massive &#x27;treasure fleets&#x27; of 200-300 ships and 27,000 men — Columbus commanded 3 ships and 90 men. China&#x27;s ships (some reportedly 120m long) dwarfed anything European sailors had at the time</span><span class="olen">209</span></div><div class="meta">max 209 / spread 129</div></div>
+    <div class="col new"><div class="collabel">after</div>
+      <div class="qtext">How did Zheng He&#x27;s Ming treasure fleets compare to Columbus in 1492?</div>
+      <div class="opt ans"><span class="mark">&#10003;</span><span class="otext">200-300 ships and 27,000 men, against Columbus&#x27;s 3</span><span class="olen">50</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">Roughly equal, at 17 ships against Columbus&#x27;s 3</span><span class="olen">47</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">Columbus was larger, with 15 ships to Zheng He&#x27;s 5</span><span class="olen">50</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">Similar in scale, both reaching Africa and back</span><span class="olen">47</span></div>
+      <div class="meta">max 50 / spread 3</div>
+    </div>
+  </div>
+  <details class="extra">
+    <summary>explanation &amp; memory hook</summary>
+    <p><b>Explanation.</b> Zheng He&#x27;s treasure voyages (1405-1433) under the Yongle Emperor covered Southeast Asia, India, the Persian Gulf, and East Africa — reaching further than Columbus and with incomparably larger fleets. The largest Chinese &#x27;treasure ships&#x27; (baochuan) reportedly stretched 120-130 meters — compared to Columbus&#x27;s Santa María at ~20 meters. China then abandoned this maritime ambition in the 1430s due to political and fiscal conservatism. Had China continued, world history might have been dramatically different.</p>
+    <p><b>Hook.</b> China had ships 6 times bigger than Columbus&#x27;s — 200 ships, 27,000 men — decades before Columbus&#x27;s 3 ships and 90 men. Then China chose isolationism and abandoned the seas. That political decision handed maritime dominance to Portugal and Spain and shaped the next 600 years of world history.</p>
+  </details>
+</div>
+<div class="q" data-flags="clean">
+  <div class="qhead">
+    <span class="qid">2026-11-11 &middot; #3</span>
+    <span class="cat">Sports</span>
+    
+  </div>
+  <div class="cols">
+    <div class="col old"><div class="collabel">before</div><div class="qtext">In tennis, what is a &#x27;bagel&#x27; and what famous match is named &#x27;The Battle of the Sexes&#x27;?</div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">A &#x27;bagel&#x27; is losing a set without winning a point; the Battle of the Sexes was a series between men&#x27;s and women&#x27;s Wimbledon champions</span><span class="olen">133</span></div><div class="opt ans"><span class="mark">&#10003;</span><span class="otext">A &#x27;bagel&#x27; is winning a set 6-0; the Battle of the Sexes was the 1973 exhibition match between Billie Jean King and Bobby Riggs</span><span class="olen">126</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">A &#x27;bagel&#x27; is a tiebreak set; the Battle of the Sexes was a doubles match between male and female champions</span><span class="olen">106</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">A &#x27;bagel&#x27; is serving 12 aces in a set; the Battle of the Sexes described the 1980 Borg-McEnroe Wimbledon final</span><span class="olen">110</span></div><div class="meta">max 133 / spread 27</div></div>
+    <div class="col new"><div class="collabel">after</div>
+      <div class="qtext">In tennis, what is a &#x27;bagel&#x27;?</div>
+      <div class="opt ans"><span class="mark">&#10003;</span><span class="otext">Winning a set 6-0</span><span class="olen">17</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">Losing a set without taking a point</span><span class="olen">35</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">A set decided by tiebreak</span><span class="olen">25</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">Serving twelve aces in one set</span><span class="olen">30</span></div>
+      <div class="meta">max 35 / spread 18</div>
+    </div>
+  </div>
+  <details class="extra">
+    <summary>explanation &amp; memory hook</summary>
+    <p><b>Explanation.</b> A &#x27;bagel&#x27; is a 6-0 set (the 0 looks like a bagel). The Battle of the Sexes (September 20, 1973): Bobby Riggs, a former Wimbledon champion and self-described &#x27;male chauvinist pig,&#x27; challenged Billie Jean King to prove men were superior. King defeated Riggs 6-4, 6-3, 6-3 in front of 30,000 at the Houston Astrodome and 50 million TV viewers. The match became a landmark cultural moment in women&#x27;s sports. Earlier that year, Riggs had beaten Margaret Court, which prompted King to accept the challenge.</p>
+    <p><b>Hook.</b> Bobby Riggs defeated Margaret Court easily, claimed tennis proved female inferiority, then lost to Billie Jean King 6-4, 6-3, 6-3 in front of 50 million viewers. King trained as if her life depended on it; Riggs treated it as entertainment. The match&#x27;s outcome shaped how the media covered women&#x27;s sports for years.</p>
+  </details>
+</div>
+<div class="q" data-flags="clean">
+  <div class="qhead">
+    <span class="qid">2026-11-11 &middot; #5</span>
+    <span class="cat">Pop Culture</span>
+    
+  </div>
+  <div class="cols">
+    <div class="col old"><div class="collabel">before</div><div class="qtext">&#x27;Dune&#x27; (1965) by Frank Herbert created one of science fiction&#x27;s most detailed worlds. What resource does the desert planet Arrakis produce that makes it the most important planet in the universe?</div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">Water (in a universe where freshwater is extinct everywhere else)</span><span class="olen">65</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">Dilithium crystals</span><span class="olen">18</span></div><div class="opt ans"><span class="mark">&#10003;</span><span class="otext">The Spice Melange (spice)</span><span class="olen">25</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">Vibranium</span><span class="olen">9</span></div><div class="meta">max 65 / spread 56</div></div>
+    <div class="col new"><div class="collabel">after</div>
+      <div class="qtext">In Frank Herbert&#x27;s &#x27;Dune&#x27; (1965), what resource makes the desert planet Arrakis indispensable?</div>
+      <div class="opt ans"><span class="mark">&#10003;</span><span class="otext">The spice melange</span><span class="olen">17</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">Water, extinct everywhere else</span><span class="olen">30</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">Dilithium crystals</span><span class="olen">18</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">Vibranium ore</span><span class="olen">13</span></div>
+      <div class="meta">max 30 / spread 17</div>
+    </div>
+  </div>
+  <details class="extra">
+    <summary>explanation &amp; memory hook</summary>
+    <p><b>Explanation.</b> The Spice Melange is a drug produced by sandworms on Arrakis that extends life, enhances mental abilities, and is essential for interstellar navigation (navigators consume it to fold space). Whoever controls Arrakis controls the universe&#x27;s most valuable substance. Herbert conceived spice as an analogy for oil — a resource that creates geopolitical dependency. Dune was the first sci-fi novel to win the Hugo and Nebula Awards simultaneously and has sold ~20 million copies. Denis Villeneuve&#x27;s film adaptations (2021, 2024) were critically acclaimed.</p>
+    <p><b>Hook.</b> Dune&#x27;s spice is Herbert&#x27;s oil allegory — a planet-specific resource that the entire civilization depends on, creating irresistible geopolitical pressure on whoever controls it. He wrote it in 1965 after the first OPEC crises; the parallel was intentional. The novel predicted resource politics before they became the defining issue of the late 20th century.</p>
+  </details>
+</div>
+<div class="q" data-flags="clean">
+  <div class="qhead">
+    <span class="qid">2026-11-11 &middot; #10</span>
+    <span class="cat">Science &amp; Nature</span>
+    
+  </div>
+  <div class="cols">
+    <div class="col old"><div class="collabel">before</div><div class="qtext">What is nuclear fusion, and why is it considered the &#x27;holy grail&#x27; of energy production?</div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">Nuclear fusion is a theoretical process that has never been demonstrated; its pursuit is speculative</span><span class="olen">100</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">Nuclear fusion is the same as fission but done at lower temperatures; it&#x27;s sought because it uses cheaper fuel</span><span class="olen">110</span></div><div class="opt ans"><span class="mark">&#10003;</span><span class="otext">Nuclear fusion combines light atomic nuclei (like hydrogen isotopes) to form heavier nuclei, releasing enormous energy. It&#x27;s sought because the fuel (hydrogen from seawater) is virtually inexhaustible, the reaction produces no CO₂, and waste products (helium, short-lived tritium) are far less dangerous than fission&#x27;s radioactive waste</span><span class="olen">336</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">Nuclear fusion produces energy by splitting radioactive atoms; it&#x27;s sought because it produces no heat and is perfectly safe</span><span class="olen">124</span></div><div class="meta">max 336 / spread 236</div></div>
+    <div class="col new"><div class="collabel">after</div>
+      <div class="qtext">Why is nuclear fusion called the holy grail of energy?</div>
+      <div class="opt ans"><span class="mark">&#10003;</span><span class="otext">Limitless seawater fuel, no CO2, minimal waste</span><span class="olen">46</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">It is the same as fission but runs cooler and cheaper</span><span class="olen">53</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">It splits radioactive atoms while producing no heat</span><span class="olen">51</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">It is purely theoretical and has never been shown</span><span class="olen">49</span></div>
+      <div class="meta">max 53 / spread 7</div>
+    </div>
+  </div>
+  <details class="extra">
+    <summary>explanation &amp; memory hook</summary>
+    <p><b>Explanation.</b> Fusion powers the Sun (hydrogen → helium). On Earth, the challenge is containing plasma at 100+ million degrees — hot enough for fusion. Two approaches: magnetic confinement (ITER project, tokamak design, under construction in France) and inertial confinement (laser-driven, demonstrated at NIF in December 2022 when they achieved fusion ignition — more energy out than laser energy in). Commercial fusion power remains years to decades away, but progress in the 2020s has been faster than any previous decade.</p>
+    <p><b>Hook.</b> In December 2022, NIF achieved fusion ignition — more energy out than laser energy in for the first time. This was a historic milestone, though &#x27;net energy&#x27; fusion accounting for all input energy is still years away. The joke has been &#x27;fusion is 20 years away and always will be&#x27; — but the 2020s have been the most promising decade yet.</p>
+  </details>
+</div>
+<div class="q" data-flags="warn">
+  <div class="qhead">
+    <span class="qid">2026-11-11 &middot; #11</span>
+    <span class="cat">Science &amp; Nature</span>
+    <span class="flag warn">answer is longest</span>
+  </div>
+  <div class="cols">
+    <div class="col old"><div class="collabel">before</div><div class="qtext">Fast Radio Bursts (FRBs) — millisecond-duration pulses of radio energy from billions of light-years away — are one of astronomy&#x27;s most energetic and mysterious phenomena. What is currently known about them?</div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">FRBs have been confirmed as signals from artificial transmitters in nearby galaxies — the energy level and precise millisecond timing rule out all known natural astrophysical processes</span><span class="olen">184</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">FRBs originate exclusively from the Milky Way&#x27;s galactic center and have been traced to a specific region within 100 light-years of Sagittarius A*, our central black hole</span><span class="olen">170</span></div><div class="opt ans"><span class="mark">&#10003;</span><span class="otext">FRBs release in milliseconds the energy our Sun produces in thousands of years; some repeat, some don&#x27;t; the leading explanation is magnetars — neutron stars with extraordinarily powerful magnetic fields</span><span class="olen">203</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">FRBs are caused by collisions between neutron stars — each burst corresponds to a merger event, making them reliable indicators of gravitational wave emission that should be detectable by LIGO</span><span class="olen">192</span></div><div class="meta">max 203 / spread 33</div></div>
+    <div class="col new"><div class="collabel">after</div>
+      <div class="qtext">Fast Radio Bursts are millisecond pulses from billions of light-years away. What&#x27;s the leading explanation?</div>
+      <div class="opt ans"><span class="mark">&#10003;</span><span class="otext">Magnetars, neutron stars with immense magnetic fields</span><span class="olen">53</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">Artificial transmitters in nearby galaxies</span><span class="olen">42</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">Neutron star mergers, one burst per collision</span><span class="olen">45</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">Activity at the Milky Way&#x27;s own central black hole</span><span class="olen">50</span></div>
+      <div class="meta">max 53 / spread 11</div>
+    </div>
+  </div>
+  <details class="extra">
+    <summary>explanation &amp; memory hook</summary>
+    <p><b>Explanation.</b> The first FRB was discovered in 2007 in archived data from the Parkes Telescope in Australia. Since then hundreds have been detected, some repeating (like FRB 121102), some apparently one-off events. In 2020, an FRB was detected from within the Milky Way — traced to a known magnetar (SGR 1935+2154) — providing the strongest evidence yet that magnetars are responsible. Magnetars have magnetic fields a trillion times stronger than Earth&#x27;s, and eruptions in their magnetic crusts could produce the observed radio blasts. Most FRBs come from billions of light-years away, making the energy output almost incomprehensibly large.</p>
+    <p><b>Hook.</b> An FRB lasts milliseconds but releases more energy than the Sun produces in thousands of years — from billions of light-years away. In 2020, one was detected inside our galaxy and traced to a magnetar (a neutron star with a magnetic field a trillion times Earth&#x27;s) — the most likely culprit for all FRBs.</p>
+  </details>
+</div><h2 class="day">2026-11-12</h2>
+<div class="q" data-flags="clean">
+  <div class="qhead">
+    <span class="qid">2026-11-12 &middot; #0</span>
+    <span class="cat">History</span>
+    
+  </div>
+  <div class="cols">
+    <div class="col old"><div class="collabel">before</div><div class="qtext">The Dreyfus Affair (1894-1906) in France had lasting political consequences. What happened?</div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">The affair was a political scandal about military procurement fraud with no religious dimension</span><span class="olen">95</span></div><div class="opt ans"><span class="mark">&#10003;</span><span class="otext">Captain Alfred Dreyfus, a Jewish French army officer, was falsely convicted of treason (selling secrets to Germany), imprisoned on Devil&#x27;s Island, then eventually exonerated after a decade-long campaign — exposing deep antisemitism in France and inspiring Theodor Herzl to found the Zionist movement</span><span class="olen">299</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">Dreyfus was a German spy who defected to France and was caught; his trial established international spy protection laws</span><span class="olen">119</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">Captain Alfred Dreyfus was correctly convicted of treason against Germany and executed</span><span class="olen">86</span></div><div class="meta">max 299 / spread 213</div></div>
+    <div class="col new"><div class="collabel">after</div>
+      <div class="qtext">What was the Dreyfus Affair (1894-1906) in France?</div>
+      <div class="opt ans"><span class="mark">&#10003;</span><span class="otext">A Jewish officer framed for treason, later cleared</span><span class="olen">50</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">A procurement fraud scandal with no religious angle</span><span class="olen">51</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">A German spy who defected to France and was caught</span><span class="olen">50</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">An officer correctly convicted of treason and shot</span><span class="olen">50</span></div>
+      <div class="meta">max 51 / spread 1</div>
+    </div>
+  </div>
+  <details class="extra">
+    <summary>explanation &amp; memory hook</summary>
+    <p><b>Explanation.</b> Alfred Dreyfus was wrongly convicted in 1894 based on forged evidence. Author Émile Zola&#x27;s open letter &#x27;J&#x27;Accuse!&#x27; (1898) accused the military of coverup — Zola was himself convicted of libel but the affair became a national crisis. Dreyfus was pardoned in 1899 and fully exonerated in 1906. Journalist Theodor Herzl, covering the trial, was so horrified by French antisemitism that he founded the Zionist movement (Der Judenstaat, 1896), arguing Jews needed their own state. The affair led indirectly to the founding of Israel in 1948.</p>
+    <p><b>Hook.</b> The Dreyfus Affair&#x27;s most consequential witness was a journalist: Theodor Herzl saw French crowds chanting &#x27;death to Jews&#x27; over a false conviction and concluded Jews would never be safe in Europe without their own country. He founded Zionism in 1896; Israel was founded 52 years later. One trial changed history.</p>
+  </details>
+</div>
+<div class="q" data-flags="warn">
+  <div class="qhead">
+    <span class="qid">2026-11-12 &middot; #1</span>
+    <span class="cat">History</span>
+    <span class="flag warn">answer is longest</span>
+  </div>
+  <div class="cols">
+    <div class="col old"><div class="collabel">before</div><div class="qtext">The Balfour Declaration (1917) was a letter from British Foreign Secretary Arthur Balfour to Zionist leader Walter Rothschild. What did it promise?</div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">British recognition of the Hashemite Kingdom as ruler of the Arabian Peninsula</span><span class="olen">78</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">A treaty giving Britain control over all Ottoman territories after WWI</span><span class="olen">70</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">British support for Arab independence from the Ottoman Empire in exchange for Arab military support in WWI</span><span class="olen">106</span></div><div class="opt ans"><span class="mark">&#10003;</span><span class="otext">Britain&#x27;s view that it would &#x27;look favourably&#x27; upon the establishment of a national home for the Jewish people in Palestine, without prejudicing the civil and religious rights of non-Jewish communities</span><span class="olen">201</span></div><div class="meta">max 201 / spread 131</div></div>
+    <div class="col new"><div class="collabel">after</div>
+      <div class="qtext">What did the 1917 Balfour Declaration promise?</div>
+      <div class="opt ans"><span class="mark">&#10003;</span><span class="otext">British favour toward a Jewish national home in Palestine</span><span class="olen">57</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">Arab independence in exchange for wartime support</span><span class="olen">49</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">British control of all Ottoman land after the war</span><span class="olen">49</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">Recognition of the Hashemites as rulers of Arabia</span><span class="olen">49</span></div>
+      <div class="meta">max 57 / spread 8</div>
+    </div>
+  </div>
+  <details class="extra">
+    <summary>explanation &amp; memory hook</summary>
+    <p><b>Explanation.</b> The Balfour Declaration (November 2, 1917) was 67 words that shaped the 20th century: &#x27;His Majesty&#x27;s Government view with favour the establishment in Palestine of a national home for the Jewish people...it being clearly understood that nothing shall be done which may prejudice the civil and religious rights of existing non-Jewish communities.&#x27; It was deliberately ambiguous — &#x27;national home&#x27; ≠ &#x27;state&#x27;; &#x27;existing communities&#x27; unnamed. Simultaneously, Britain had pledged Arab independence (Hussein-McMahon correspondence). Both promises couldn&#x27;t be kept, setting up decades of conflict.</p>
+    <p><b>Hook.</b> The Balfour Declaration is 67 words that helped create the Israeli-Palestinian conflict. Britain simultaneously promised Jews a homeland and Arabs independence — both in Palestine. The deliberate ambiguity (&#x27;national home&#x27; not &#x27;state&#x27;; &#x27;existing communities&#x27; unnamed) was a political calculation that deferred the contradiction rather than resolving it.</p>
+  </details>
+</div>
+<div class="q" data-flags="warn">
+  <div class="qhead">
+    <span class="qid">2026-11-12 &middot; #2</span>
+    <span class="cat">History</span>
+    <span class="flag warn">answer is longest</span>
+  </div>
+  <div class="cols">
+    <div class="col old"><div class="collabel">before</div><div class="qtext">The Non-Aligned Movement was founded in 1961. What was its purpose during the Cold War?</div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">To create a third military alliance that would balance NATO and the Warsaw Pact</span><span class="olen">79</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">To advocate for nuclear disarmament between the US and USSR</span><span class="olen">59</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">To create a free trade zone among African, Asian, and Latin American nations</span><span class="olen">76</span></div><div class="opt ans"><span class="mark">&#10003;</span><span class="otext">To allow developing nations to avoid choosing sides between the US and Soviet blocs — maintaining diplomatic and economic independence from both superpowers</span><span class="olen">156</span></div><div class="meta">max 156 / spread 97</div></div>
+    <div class="col new"><div class="collabel">after</div>
+      <div class="qtext">What was the purpose of the Non-Aligned Movement, founded in 1961?</div>
+      <div class="opt ans"><span class="mark">&#10003;</span><span class="otext">To let developing nations avoid picking a superpower</span><span class="olen">52</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">To build a third bloc balancing NATO and the Pact</span><span class="olen">49</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">To campaign for US and Soviet nuclear disarmament</span><span class="olen">49</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">To create a free trade zone across the Global South</span><span class="olen">51</span></div>
+      <div class="meta">max 52 / spread 3</div>
+    </div>
+  </div>
+  <details class="extra">
+    <summary>explanation &amp; memory hook</summary>
+    <p><b>Explanation.</b> The Non-Aligned Movement was founded at the Belgrade Conference (1961) by Jawaharlal Nehru (India), Josip Broz Tito (Yugoslavia), Gamal Abdel Nasser (Egypt), Sukarno (Indonesia), and Kwame Nkrumah (Ghana). It represented newly decolonized nations&#x27; attempt to pursue independent foreign policy rather than being subordinated to Cold War superpower competition. At its peak, the movement included 120 nations. Critics noted that many &#x27;non-aligned&#x27; nations still accepted significant support from one superpower. The movement became less coherent after the Cold War ended.</p>
+    <p><b>Hook.</b> The Non-Aligned Movement was founded by the leaders of the decolonized world to avoid being pawns in someone else&#x27;s Cold War — India, Egypt, Yugoslavia, Indonesia. Tito&#x27;s Yugoslavia was particularly strategic: a communist country that refused to join the Warsaw Pact, playing both superpowers for economic aid.</p>
+  </details>
+</div>
+<div class="q" data-flags="clean">
+  <div class="qhead">
+    <span class="qid">2026-11-12 &middot; #9</span>
+    <span class="cat">Geography</span>
+    
+  </div>
+  <div class="cols">
+    <div class="col old"><div class="collabel">before</div><div class="qtext">Lake Superior is the largest of the Great Lakes by surface area. What is unusual about its water temperature?</div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">Lake Superior is unusually warm, kept heated by underwater volcanic vents</span><span class="olen">73</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">Lake Superior has the same temperature as Lake Michigan year-round due to shared currents</span><span class="olen">89</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">Lake Superior freezes solid every winter, making it unique among the Great Lakes</span><span class="olen">80</span></div><div class="opt ans"><span class="mark">&#10003;</span><span class="otext">Lake Superior is the coldest of the Great Lakes, rarely warming above 4°C even in summer at its deepest points — so cold that organic material doesn&#x27;t decompose, and shipwrecks can remain remarkably preserved</span><span class="olen">208</span></div><div class="meta">max 208 / spread 135</div></div>
+    <div class="col new"><div class="collabel">after</div>
+      <div class="qtext">What is unusual about Lake Superior&#x27;s water?</div>
+      <div class="opt ans"><span class="mark">&#10003;</span><span class="otext">So cold that shipwrecks stay remarkably preserved</span><span class="olen">49</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">Warmed year-round by underwater volcanic vents</span><span class="olen">46</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">The only Great Lake that freezes solid each winter</span><span class="olen">50</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">Identical in temperature to Lake Michigan always</span><span class="olen">48</span></div>
+      <div class="meta">max 50 / spread 4</div>
+    </div>
+  </div>
+  <details class="extra">
+    <summary>explanation &amp; memory hook</summary>
+    <p><b>Explanation.</b> Lake Superior averages ~10°C in summer surface temperature and ~4°C year-round in its depths (max depth 406m). The cold water inhibits microbial decomposition — wood, leather, and human remains from shipwrecks can be preserved for over a century. The 1975 sinking of the Edmund Fitzgerald (memorialized by Gordon Lightfoot&#x27;s song) is one of Lake Superior&#x27;s most famous modern disasters. The lake holds about 10% of the world&#x27;s surface freshwater. &#x27;The Lake&#x27; is a notorious navigational hazard due to sudden violent storms.</p>
+    <p><b>Hook.</b> Lake Superior&#x27;s cold water preserves shipwrecks so well that a 19th-century wooden ship can look newly built on the lake floor. The Edmund Fitzgerald sank in 1975 in a sudden storm — Lake Superior is notorious for weather that changes from calm to lethal within hours.</p>
+  </details>
+</div>
+<div class="q" data-flags="warn">
+  <div class="qhead">
+    <span class="qid">2026-11-12 &middot; #10</span>
+    <span class="cat">Science &amp; Nature</span>
+    <span class="flag warn">answer is longest</span>
+  </div>
+  <div class="cols">
+    <div class="col old"><div class="collabel">before</div><div class="qtext">What is the process of natural selection in more detail — specifically, what conditions are required for it to operate?</div><div class="opt ans"><span class="mark">&#10003;</span><span class="otext">Natural selection requires: (1) variation in traits within a population; (2) traits must be heritable; (3) differential reproductive success — some variants survive and reproduce better than others. Given these conditions, favored traits become more common over generations</span><span class="olen">273</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">Natural selection is directed by environmental needs — organisms develop the traits they need and pass them on</span><span class="olen">110</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">Natural selection only operates under extreme environmental conditions; stable environments produce no evolution</span><span class="olen">112</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">Natural selection requires conscious choices by organisms; they select traits they want to pass on</span><span class="olen">98</span></div><div class="meta">max 273 / spread 175</div></div>
+    <div class="col new"><div class="collabel">after</div>
+      <div class="qtext">What three conditions does natural selection require to operate?</div>
+      <div class="opt ans"><span class="mark">&#10003;</span><span class="otext">Variation, heritability, and differing reproductive success</span><span class="olen">59</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">Organisms consciously choosing traits to pass on</span><span class="olen">48</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">Extreme conditions; stable environments halt evolution</span><span class="olen">54</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">Organisms developing the traits their habitat demands</span><span class="olen">53</span></div>
+      <div class="meta">max 59 / spread 11</div>
+    </div>
+  </div>
+  <details class="extra">
+    <summary>explanation &amp; memory hook</summary>
+    <p><b>Explanation.</b> Darwin&#x27;s key insight: evolution doesn&#x27;t need a designer — given variation + heritability + differential reproduction, improvement is mathematically inevitable. Example: in a population of bacteria, random mutations create some with antibiotic resistance. When antibiotics are applied, resistant bacteria survive and reproduce; non-resistant die. After many generations, the population is mostly resistant. No bacteria &#x27;tried&#x27; to develop resistance — selection did the filtering automatically. This is why antibiotic resistance evolves so rapidly (short generations, huge populations, high mutation rates).</p>
+    <p><b>Hook.</b> Natural selection is automatic — no direction, no purpose, just differential survival and reproduction. The math means that given enough generations, favorable traits accumulate. Antibiotic resistance is natural selection visible in human timescales: bacteria don&#x27;t &#x27;decide&#x27; to become resistant; the resistant ones just survive the antibiotic and their descendants inherit the trait.</p>
+  </details>
+</div>
+<div class="q" data-flags="clean">
+  <div class="qhead">
+    <span class="qid">2026-11-12 &middot; #11</span>
+    <span class="cat">Science &amp; Nature</span>
+    
+  </div>
+  <div class="cols">
+    <div class="col old"><div class="collabel">before</div><div class="qtext">What is the difference between a genotype and phenotype, and how can two organisms with different genotypes have the same phenotype?</div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">Genotype and phenotype are synonymous terms for the same concept</span><span class="olen">64</span></div><div class="opt ans"><span class="mark">&#10003;</span><span class="otext">Genotype is an organism&#x27;s genetic makeup (DNA); phenotype is the physical expression of that DNA. Two organisms can share a phenotype through dominance: BB (homozygous dominant) and Bb (heterozygous) both express the dominant trait even though their genotypes differ</span><span class="olen">266</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">Genotype is visible traits; phenotype is the DNA sequence. They&#x27;re always different because DNA is internal</span><span class="olen">107</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">Phenotype is determined entirely by environment; genotype has no effect on physical appearance</span><span class="olen">94</span></div><div class="meta">max 266 / spread 202</div></div>
+    <div class="col new"><div class="collabel">after</div>
+      <div class="qtext">How can two organisms with different genotypes share a phenotype?</div>
+      <div class="opt ans"><span class="mark">&#10003;</span><span class="otext">Dominance: BB and Bb both show the dominant trait</span><span class="olen">49</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">They cannot; genotype always shows in appearance</span><span class="olen">48</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">Genotype and phenotype are two words for one thing</span><span class="olen">50</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">Phenotype is purely environmental, ignoring genes</span><span class="olen">49</span></div>
+      <div class="meta">max 50 / spread 2</div>
+    </div>
+  </div>
+  <details class="extra">
+    <summary>explanation &amp; memory hook</summary>
+    <p><b>Explanation.</b> Genotype → phenotype relationship: gene expression is mediated by dominance, environment, and epistasis. Brown eyes (B) dominant over blue (b): BB and Bb both appear brown; only bb appears blue. Two brown-eyed parents (Bb × Bb) can produce a blue-eyed child (bb = 25% probability) — same brown phenotype in parents, different genotypes, different offspring possibilities. Phenotype can also be modified by environment: genetically identical twins may look different if raised in different environments. Most complex traits (height, intelligence) involve hundreds of genes plus environment.</p>
+    <p><b>Hook.</b> Two brown-eyed parents (both Bb) can have a blue-eyed child — because their genotypes are different from their phenotypes. They both look brown but carry a blue-eye gene. 25% of their children inherit two copies of the recessive gene and are blue-eyed. This seems like magic until you understand dominant/recessive genetics.</p>
+  </details>
+</div><h2 class="day">2026-11-13</h2>
+<div class="q" data-flags="clean">
+  <div class="qhead">
+    <span class="qid">2026-11-13 &middot; #0</span>
+    <span class="cat">History</span>
+    
+  </div>
+  <div class="cols">
+    <div class="col old"><div class="collabel">before</div><div class="qtext">What was the Stonewall Uprising (1969), and why is it considered a turning point in LGBTQ+ history?</div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">A protest outside the Democratic National Convention demanding inclusion of gay rights in the party platform</span><span class="olen">108</span></div><div class="opt ans"><span class="mark">&#10003;</span><span class="otext">A series of riots in response to police raids at the Stonewall Inn in New York City — a bar serving LGBTQ+ patrons — that sparked the modern gay rights movement</span><span class="olen">160</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">A Supreme Court case that legalized same-sex relationships in New York State</span><span class="olen">76</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">A civil rights march in Washington D.C. demanding equal pay for gay workers</span><span class="olen">75</span></div><div class="meta">max 160 / spread 85</div></div>
+    <div class="col new"><div class="collabel">after</div>
+      <div class="qtext">What was the Stonewall Uprising of 1969?</div>
+      <div class="opt ans"><span class="mark">&#10003;</span><span class="otext">Riots after police raided a New York gay bar</span><span class="olen">44</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">A protest outside the Democratic National Convention</span><span class="olen">52</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">A Supreme Court case decided in New York State</span><span class="olen">46</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">A march in Washington demanding equal pay</span><span class="olen">41</span></div>
+      <div class="meta">max 52 / spread 11</div>
+    </div>
+  </div>
+  <details class="extra">
+    <summary>explanation &amp; memory hook</summary>
+    <p><b>Explanation.</b> On June 28, 1969, New York police raided the Stonewall Inn (a Mafia-owned bar in Greenwich Village). Raids on gay bars were routine — but this night, patrons fought back for the first time, rioting for several nights. Within months, the Gay Liberation Front and Gay Activists Alliance formed. Within a year, the first Pride marches commemorated the riots&#x27; anniversary. Marsha P. Johnson and Sylvia Rivera (transgender activists and frequent Stonewall patrons) were key figures. The event catalyzed organized LGBTQ+ rights advocacy in the US and internationally.</p>
+    <p><b>Hook.</b> Before Stonewall, simply being gay in a bar was grounds for arrest in New York. The night police raided Stonewall for the last time, the patrons fought back — and the modern LGBTQ+ rights movement began. Pride marches commemorate that night; the word &#x27;pride&#x27; was chosen as a deliberate contrast to the shame policing had tried to enforce.</p>
+  </details>
+</div>
+<div class="q" data-flags="clean">
+  <div class="qhead">
+    <span class="qid">2026-11-13 &middot; #1</span>
+    <span class="cat">History</span>
+    
+  </div>
+  <div class="cols">
+    <div class="col old"><div class="collabel">before</div><div class="qtext">The Suffragette movement in Britain was distinct from the American women&#x27;s suffrage movement. What tactics did British suffragettes famously employ?</div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">Parliamentary lobbying by allied male politicians who passed the vote for women in 1903</span><span class="olen">87</span></div><div class="opt ans"><span class="mark">&#10003;</span><span class="otext">Militant civil disobedience: chaining themselves to railings, arson of mailboxes, smashing windows, and hunger strikes in prison — leading to forced feeding by authorities</span><span class="olen">171</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">Exclusively peaceful marches and petition drives to Parliament</span><span class="olen">62</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">Legal challenges through the courts, successfully winning the vote for women in 1906</span><span class="olen">84</span></div><div class="meta">max 171 / spread 109</div></div>
+    <div class="col new"><div class="collabel">after</div>
+      <div class="qtext">What tactics distinguished British suffragettes from their American counterparts?</div>
+      <div class="opt ans"><span class="mark">&#10003;</span><span class="otext">Arson, window-smashing, and hunger strikes</span><span class="olen">42</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">Only peaceful marches and petitions to Parliament</span><span class="olen">49</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">Court challenges that won the vote in 1906</span><span class="olen">42</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">Lobbying by allied MPs who passed it in 1903</span><span class="olen">44</span></div>
+      <div class="meta">max 49 / spread 7</div>
+    </div>
+  </div>
+  <details class="extra">
+    <summary>explanation &amp; memory hook</summary>
+    <p><b>Explanation.</b> The Women&#x27;s Social and Political Union (WSPU), founded by Emmeline Pankhurst in 1903, adopted militant tactics after peaceful campaigning failed. Their motto: &#x27;Deeds, Not Words.&#x27; Tactics included smashing shop windows, setting fire to letterboxes, and arson attacks on unoccupied buildings. When imprisoned, suffragettes went on hunger strikes and were force-fed — generating international outrage. Emily Wilding Davison died after stepping in front of the King&#x27;s horse at the 1913 Derby. Women over 30 got the vote in 1918 (as a WWI reward for women&#x27;s contributions); all women over 21 gained it in 1928.</p>
+    <p><b>Hook.</b> Emmeline Pankhurst&#x27;s suffragettes escalated from petitions to property destruction to self-starvation in prison. Force-feeding hunger strikers created horrifying images that turned public opinion. Emily Davison stepped in front of the King&#x27;s horse at full gallop. The message: we will keep escalating until you cannot look away.</p>
+  </details>
+</div>
+<div class="q" data-flags="clean">
+  <div class="qhead">
+    <span class="qid">2026-11-13 &middot; #2</span>
+    <span class="cat">History</span>
+    
+  </div>
+  <div class="cols">
+    <div class="col old"><div class="collabel">before</div><div class="qtext">The Marshall Islands were the site of extensive US nuclear testing between 1946 and 1958. What test occurred at Bikini Atoll in 1954?</div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">A test designed to demonstrate the safety of nuclear weapons through controlled explosion</span><span class="olen">89</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">The first nuclear test conducted in peacetime, proving that nuclear weapons could be safely confined to remote locations</span><span class="olen">120</span></div><div class="opt ans"><span class="mark">&#10003;</span><span class="otext">Operation Castle Bravo — the largest US nuclear test (15 megatons, 1,000× Hiroshima), which contaminated nearby islands and the Japanese fishing boat Lucky Dragon, accelerating the international anti-nuclear movement</span><span class="olen">216</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">The first successful hydrogen bomb test, code-named &#x27;Trinity&#x27;</span><span class="olen">61</span></div><div class="meta">max 216 / spread 155</div></div>
+    <div class="col new"><div class="collabel">after</div>
+      <div class="qtext">What was Castle Bravo, tested at Bikini Atoll in 1954?</div>
+      <div class="opt ans"><span class="mark">&#10003;</span><span class="otext">The largest US nuclear test, at 15 megatons</span><span class="olen">43</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">The first nuclear test, code-named Trinity</span><span class="olen">42</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">A demonstration of how safely bombs could be contained</span><span class="olen">54</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">The first test proving remote sites posed no risk</span><span class="olen">49</span></div>
+      <div class="meta">max 54 / spread 12</div>
+    </div>
+  </div>
+  <details class="extra">
+    <summary>explanation &amp; memory hook</summary>
+    <p><b>Explanation.</b> Castle Bravo (March 1, 1954) was 15 megatons — 2.5× its predicted yield due to an unexpected lithium-6 reaction. It contaminated Bikini Atoll, nearby Marshall Islands (including Rongelap, whose residents suffered radiation sickness), and the Japanese fishing vessel Lucky Dragon No. 5 (crew died of radiation exposure). The Lucky Dragon incident created massive anti-nuclear sentiment in Japan and internationally. The fallout accelerated the Partial Nuclear Test Ban Treaty (1963), which banned atmospheric nuclear tests. Bikini Atoll residents have never been able to permanently return — contamination persists.</p>
+    <p><b>Hook.</b> Castle Bravo was 2.5 times bigger than predicted because scientists miscalculated the lithium reaction. The fallout poisoned a Japanese fishing boat, killed crew members, and reached Tokyo&#x27;s fish markets. Japan — which had survived Hiroshima and Nagasaki — was again contaminated by US nuclear tests. The Lucky Dragon incident galvanized the global anti-nuclear movement.</p>
+  </details>
+</div>
+<div class="q" data-flags="clean">
+  <div class="qhead">
+    <span class="qid">2026-11-13 &middot; #3</span>
+    <span class="cat">Sports</span>
+    
+  </div>
+  <div class="cols">
+    <div class="col old"><div class="collabel">before</div><div class="qtext">Simone Biles is considered the greatest gymnast in history. What makes her floor routine&#x27;s &#x27;Biles&#x27; move distinct?</div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">The Biles is a standard back layout with extra height — remarkable only for the consistency with which she performs it</span><span class="olen">118</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">The Biles is named for her coach, not herself</span><span class="olen">45</span></div><div class="opt ans"><span class="mark">&#10003;</span><span class="otext">The Biles is a double layout with a half twist — she performs skills that have been named after her that other gymnasts cannot safely execute. She has multiple gymnastics skills named after her, including two on floor and one on vault and balance beam</span><span class="olen">251</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">The Biles refers to her signature dismount off the balance beam, a triple full</span><span class="olen">78</span></div><div class="meta">max 251 / spread 206</div></div>
+    <div class="col new"><div class="collabel">after</div>
+      <div class="qtext">What is &#x27;the Biles&#x27; on floor exercise?</div>
+      <div class="opt ans"><span class="mark">&#10003;</span><span class="otext">A double layout with a half twist</span><span class="olen">33</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">A back layout notable only for its height</span><span class="olen">41</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">A triple full dismount off the balance beam</span><span class="olen">43</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">A move named after her coach, not herself</span><span class="olen">41</span></div>
+      <div class="meta">max 43 / spread 10</div>
+    </div>
+  </div>
+  <details class="extra">
+    <summary>explanation &amp; memory hook</summary>
+    <p><b>Explanation.</b> Simone Biles has had 4 gymnastics skills named after her (as of 2024): two on floor exercise, one on vault, one on balance beam. For a skill to be named after an athlete in competition, they must successfully perform it at a World Championship or Olympics. The Biles (floor) is a double layout with a half-turn in the second salto. Many of her skills were initially not rated highly enough by the Code of Points — critics argued the scoring system discouraged dangerous/innovative skills rather than rewarding them. Biles publicly challenged these ratings. She withdrew from the 2021 Tokyo team final for mental health reasons, then returned to win bronze on beam.</p>
+    <p><b>Hook.</b> Simone Biles performs moves so difficult that the gymnastics scoring committee initially refused to rate them at their actual difficulty — apparently to discourage others from attempting them. She has four skills named after her, each requiring skills other gymnasts cannot safely execute. She&#x27;s essentially competing against herself.</p>
+  </details>
+</div>
+<div class="q" data-flags="warn">
+  <div class="qhead">
+    <span class="qid">2026-11-13 &middot; #4</span>
+    <span class="cat">Sports</span>
+    <span class="flag warn">answer is longest</span>
+  </div>
+  <div class="cols">
+    <div class="col old"><div class="collabel">before</div><div class="qtext">The 1980 US Olympic hockey team&#x27;s &#x27;Miracle on Ice&#x27; — defeating the Soviet Union 4-3 — is considered the greatest upset in American sports history. What made the Soviet team so dominant before the match?</div><div class="opt ans"><span class="mark">&#10003;</span><span class="otext">The Soviet team had beaten the NHL All-Stars in a 1979 exhibition series 5-1, then demolished the US college squad 10-3 just days before the Olympic tournament — making the final game&#x27;s outcome completely implausible on paper</span><span class="olen">225</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">The Soviet team had won every Olympic gold medal since 1956 with a single exception — they had lost to Czechoslovakia in 1976 — and featured players who had been training together as a unit for over a decade under the same coaching system</span><span class="olen">238</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">The Soviet team&#x27;s dominance rested on a single innovation: the passing-first offensive system developed by coach Anatoli Tarasov, which produced coordinated attacks no other national team had developed a defensive system to counter</span><span class="olen">231</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">The Soviet players were officially classified as &#x27;amateurs&#x27; under Olympic rules but were in fact professional soldiers paid by the state — a loophole that allowed them to practice full-time while American players had to maintain civilian jobs</span><span class="olen">242</span></div><div class="meta">max 242 / spread 17</div></div>
+    <div class="col new"><div class="collabel">after</div>
+      <div class="qtext">Why was the Soviet hockey team so dominant before the 1980 Miracle on Ice?</div>
+      <div class="opt ans"><span class="mark">&#10003;</span><span class="otext">They had beaten the same US squad 10-3 days earlier</span><span class="olen">51</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">They had won every Olympic gold since 1956 bar one</span><span class="olen">50</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">Their passing system had no known defensive counter</span><span class="olen">51</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">They were state-paid soldiers posing as amateurs</span><span class="olen">48</span></div>
+      <div class="meta">max 51 / spread 3</div>
+    </div>
+  </div>
+  <details class="extra">
+    <summary>explanation &amp; memory hook</summary>
+    <p><b>Explanation.</b> The 1979 Challenge Cup saw the Soviets beat the NHL All-Stars 6-0 in the deciding game. In a pre-Olympic exhibition just before Lake Placid, they beat the US team 10-3. The Soviet roster included Vladislav Tretiak — widely considered the greatest goaltender in history — and had won four consecutive Olympic golds (1964, 1968, 1972, 1976). The US team was composed entirely of college players, average age 21.5. Herb Brooks&#x27;s innovative neutral-zone trap system and conditioning program made the difference. The US team then had to beat Finland to win gold — the Soviet game was the semifinal, not the final.</p>
+    <p><b>Hook.</b> Days before the Olympic tournament, the Soviets beat the US college squad 10-3. They&#x27;d beaten the NHL All-Stars 6-0 the previous year. Their roster included Tretiak, the greatest goalie ever. The US team averaged 21.5 years old. And the Soviet game wasn&#x27;t even the gold medal final — the US still had to beat Finland. They won. Brooks barely spoke to his players afterward.</p>
+  </details>
+</div>
+<div class="q" data-flags="clean">
+  <div class="qhead">
+    <span class="qid">2026-11-13 &middot; #7</span>
+    <span class="cat">Pop Culture</span>
+    
+  </div>
+  <div class="cols">
+    <div class="col old"><div class="collabel">before</div><div class="qtext">Diego Velázquez&#x27;s &#x27;Las Meninas&#x27; (1656) has been called the most analyzed painting in Western art history. What makes it so philosophically complex?</div><div class="opt ans"><span class="mark">&#10003;</span><span class="otext">&#x27;Las Meninas&#x27; is unique because Velázquez painted himself into the scene appearing to paint the viewer — while the primary subjects (the king and queen) are visible only as reflections in a background mirror, making the viewer the painting&#x27;s true subject</span><span class="olen">254</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">&#x27;Las Meninas&#x27; was the first painting in history to use a vanishing-point perspective system, making it technically groundbreaking — Velázquez invented a mathematical perspective grid that later artists copied but rarely credit</span><span class="olen">226</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">&#x27;Las Meninas&#x27; appears to show a domestic scene but is actually a coded political allegory about the succession crisis following Philip IV&#x27;s death — art historians have decoded the positions and eye-lines of each figure as representing different noble factions</span><span class="olen">259</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">&#x27;Las Meninas&#x27; contains a hidden self-portrait of Velázquez painting the Infanta — which was considered scandalous because court painters were expected to remain invisible in works depicting royalty — Philip IV reportedly nearly ordered its destruction</span><span class="olen">251</span></div><div class="meta">max 259 / spread 33</div></div>
+    <div class="col new"><div class="collabel">after</div>
+      <div class="qtext">Why is Velazquez&#x27;s &#x27;Las Meninas&#x27; (1656) the most analyzed painting in Western art?</div>
+      <div class="opt ans"><span class="mark">&#10003;</span><span class="otext">The king and queen appear only in a mirror behind</span><span class="olen">49</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">It was the first painting to use vanishing-point perspective</span><span class="olen">60</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">It hides a coded allegory about the royal succession</span><span class="olen">52</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">Its self-portrait scandalized the court and nearly burned</span><span class="olen">57</span></div>
+      <div class="meta">max 60 / spread 11</div>
+    </div>
+  </div>
+  <details class="extra">
+    <summary>explanation &amp; memory hook</summary>
+    <p><b>Explanation.</b> In &#x27;Las Meninas,&#x27; Velázquez stands at his canvas on the left, looking outward. The young Infanta Margarita and her ladies-in-waiting occupy the foreground. In a mirror on the back wall, the king and queen (Philip IV and Mariana) are reflected — suggesting Velázquez is actually painting them (and therefore us, the viewers, are where they stand). Michel Foucault devoted the opening chapter of &#x27;The Order of Things&#x27; (1966) to analyzing how the painting destabilizes the relationship between viewer, painter, and subject. Picasso painted 58 interpretations of it. It anticipates questions about representation and perspective that dominated 20th-century philosophy of art.</p>
+    <p><b>Hook.</b> In Las Meninas, the king and queen appear only as a reflection in a mirror — meaning the viewer stands where they stood, making you the subject of the painting you&#x27;re looking at. Michel Foucault opened his most famous book analyzing it. Picasso painted 58 versions of it. Velázquez stands at the canvas, looking at you, painting you. It&#x27;s a 400-year-old philosophical trap.</p>
+  </details>
+</div>
+<div class="q" data-flags="warn">
+  <div class="qhead">
+    <span class="qid">2026-11-13 &middot; #10</span>
+    <span class="cat">Science &amp; Nature</span>
+    <span class="flag warn">answer is longest</span>
+  </div>
+  <div class="cols">
+    <div class="col old"><div class="collabel">before</div><div class="qtext">What are tectonic plates and what is Pangaea?</div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">Tectonic plates are the layers of rock beneath each continent; Pangaea was a theory disproved in the 1970s</span><span class="olen">106</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">Tectonic plates only exist under oceans; continents are stationary. Pangaea refers to the first ocean, not a continent</span><span class="olen">118</span></div><div class="opt ans"><span class="mark">&#10003;</span><span class="otext">Tectonic plates are the massive rigid segments of Earth&#x27;s lithosphere (crust + upper mantle) that float on the semi-fluid asthenosphere and move slowly. Pangaea was the supercontinent that existed ~335-175 million years ago when all current continents were joined</span><span class="olen">263</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">Tectonic plates are volcanic formations in the Pacific Ocean; Pangaea is the name for the first continent to form after Earth cooled</span><span class="olen">132</span></div><div class="meta">max 263 / spread 157</div></div>
+    <div class="col new"><div class="collabel">after</div>
+      <div class="qtext">What was Pangaea?</div>
+      <div class="opt ans"><span class="mark">&#10003;</span><span class="otext">The supercontinent that existed 335-175 million years ago</span><span class="olen">57</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">A theory about continental drift disproved in the 1970s</span><span class="olen">55</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">The name for Earth&#x27;s first ocean, not a landmass</span><span class="olen">48</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">The first continent to form as the planet cooled</span><span class="olen">48</span></div>
+      <div class="meta">max 57 / spread 9</div>
+    </div>
+  </div>
+  <details class="extra">
+    <summary>explanation &amp; memory hook</summary>
+    <p><b>Explanation.</b> Earth has ~15 major tectonic plates moving 2-10 cm/year. At boundaries: convergent (plates collide, forming mountains or trenches), divergent (plates separate, forming rifts or mid-ocean ridges), transform (plates slide past, creating earthquakes — the San Andreas Fault). Alfred Wegener proposed continental drift in 1912 based on fossil matches, coastline shapes, and rock formations across continents — initially mocked, then confirmed in the 1960s via seafloor spreading evidence. Pangaea began breaking apart ~175 Ma: Laurasia (north) and Gondwana (south) first, then into today&#x27;s continents.</p>
+    <p><b>Hook.</b> Alfred Wegener proposed that continents drift in 1912 — based partly on noticing that South America and Africa fit together like puzzle pieces. Scientists mocked him for 50 years. Then seafloor spreading was discovered in the 1960s and confirmed every key prediction of his theory. Wegener died on a Greenland expedition in 1930, never vindicated.</p>
+  </details>
+</div>
+<div class="q" data-flags="warn">
+  <div class="qhead">
+    <span class="qid">2026-11-13 &middot; #11</span>
+    <span class="cat">Science &amp; Nature</span>
+    <span class="flag warn">answer is longest</span>
+  </div>
+  <div class="cols">
+    <div class="col old"><div class="collabel">before</div><div class="qtext">What is coral bleaching and why does it threaten reef ecosystems?</div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">Coral bleaching refers to the natural end-of-life process of aging coral colonies, which turn white before dying at around 100 years old</span><span class="olen">136</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">Coral bleaching is a natural seasonal process where corals shed their outer layer; it poses no long-term threat</span><span class="olen">111</span></div><div class="opt ans"><span class="mark">&#10003;</span><span class="otext">Coral bleaching occurs when corals expel the symbiotic algae (zooxanthellae) that give them color and nutrition — triggered by thermal stress (water 1-2°C above normal for weeks). Without algae, corals turn white (bleach) and can starve; prolonged bleaching causes death. Reefs support 25% of all ocean species</span><span class="olen">310</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">Coral bleaching is caused by chemical pollution from sunscreen, which dissolves the coral&#x27;s pigmentation; it is reversible with water treatment</span><span class="olen">143</span></div><div class="meta">max 310 / spread 199</div></div>
+    <div class="col new"><div class="collabel">after</div>
+      <div class="qtext">What causes coral bleaching?</div>
+      <div class="opt ans"><span class="mark">&#10003;</span><span class="otext">Heat stress makes coral expel its symbiotic algae</span><span class="olen">49</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">Sunscreen chemicals dissolving the coral pigment</span><span class="olen">48</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">Natural ageing; colonies whiten near end of life</span><span class="olen">48</span></div><div class="opt"><span class="mark">&nbsp;</span><span class="otext">A normal seasonal shedding of the outer layer</span><span class="olen">45</span></div>
+      <div class="meta">max 49 / spread 4</div>
+    </div>
+  </div>
+  <details class="extra">
+    <summary>explanation &amp; memory hook</summary>
+    <p><b>Explanation.</b> Corals have a mutualistic relationship with zooxanthellae: the algae perform photosynthesis, providing up to 90% of the coral&#x27;s energy; the coral provides shelter. When water temperatures exceed the coral&#x27;s threshold, the relationship breaks down and algae are expelled. Reefs can recover from bleaching if temperatures normalize, but repeated events (now annual in some areas due to climate change) prevent recovery. The Great Barrier Reef experienced mass bleaching events in 2016, 2017, 2020, 2022 — consecutive bleaching with insufficient recovery time.</p>
+    <p><b>Hook.</b> Coral reefs cover less than 1% of the ocean floor but support 25% of all marine species. The coral-algae relationship is a mutualism: the algae make food; the coral provides home. One degree of extra heat breaks the partnership. The Great Barrier Reef has bleached every 2 years since 2016 — not enough time to recover between events.</p>
+  </details>
+</div></main>
+<script>
+document.querySelectorAll('.fbtn').forEach(b => b.onclick = () => {
+  document.querySelectorAll('.fbtn').forEach(x => x.classList.remove('on'));
+  b.classList.add('on');
+  const f = b.dataset.f;
+  document.querySelectorAll('.q').forEach(q => {
+    const v = q.dataset.flags;
+    const show = f === 'all' || (f === 'err' && v === 'err') ||
+                 (f === 'warn' && v !== 'clean');
+    q.classList.toggle('hidden', !show);
+  });
+  document.querySelectorAll('h2.day').forEach(h => {
+    let n = h.nextElementSibling, any = false;
+    while (n && n.tagName !== 'H2') {
+      if (n.classList.contains('q') && !n.classList.contains('hidden')) any = true;
+      n = n.nextElementSibling;
+    }
+    h.classList.toggle('hidden', !any);
+  });
+});
+</script>
+<footer style="max-width:1240px;margin:0 auto;padding:2rem 1.25rem;
+  color:#8f8fa8;font-size:.78rem">
+  Generated 2026-08-07 12:10 &middot;
+  compared against git HEAD
+</footer>
+</body></html>

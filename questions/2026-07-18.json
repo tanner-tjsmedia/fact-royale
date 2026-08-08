@@ -4,10 +4,10 @@
       "category": "History",
       "question": "The construction of which U.S. landmark began on August 28, 1963, the same day MLK gave his 'I Have a Dream' speech?",
       "options": [
-        "The Hoover Dam",
+        "The Pentagon",
         "The space between the Lincoln Memorial and Washington Monument",
-        "The Vietnam Veterans Memorial",
-        "The Pentagon"
+        "The Hoover Dam",
+        "The Vietnam Veterans Memorial"
       ],
       "answer": "The space between the Lincoln Memorial and Washington Monument",
       "explanation": "On August 28, 1963, Martin Luther King Jr. delivered his 'I Have a Dream' speech at the Lincoln Memorial during the March on Washington. The speech is considered one of the greatest in American history and was a pivotal moment in the civil rights movement, drawing over 250,000 people.",
@@ -30,10 +30,10 @@
       "category": "Sports",
       "question": "What is the term for a score of three under par on a single hole in golf?",
       "options": [
+        "Birdie",
         "Eagle",
-        "Condor",
         "Albatross",
-        "Birdie"
+        "Condor"
       ],
       "answer": "Albatross",
       "explanation": "In golf, an albatross (also called a double eagle) is three strokes under par on a single hole. It is extremely rare — a condor (four under par, usually a hole-in-one on a par 5) is even rarer. The terms follow a bird theme: birdie (1 under), eagle (2 under), albatross (3 under).",
@@ -56,10 +56,10 @@
       "category": "Pop Culture",
       "question": "Which film features the famous shower scene score by Bernard Herrmann?",
       "options": [
-        "The Birds",
-        "Psycho",
+        "Vertigo",
         "Rear Window",
-        "Vertigo"
+        "The Birds",
+        "Psycho"
       ],
       "answer": "Psycho",
       "explanation": "The shower scene in Alfred Hitchcock's Psycho (1960) features Bernard Herrmann's iconic shrieking strings score — played entirely by string instruments. The scene became one of the most studied in film history. Hitchcock reportedly considered having the scene with no music, but Herrmann convinced him otherwise.",
@@ -69,8 +69,8 @@
       "category": "Pop Culture",
       "question": "Who sang 'I Will Always Love You' in the film 'The Bodyguard'?",
       "options": [
-        "Mariah Carey",
         "Celine Dion",
+        "Mariah Carey",
         "Toni Braxton",
         "Whitney Houston"
       ],
@@ -95,8 +95,8 @@
       "category": "History",
       "question": "Which Roman emperor converted to Christianity?",
       "options": [
-        "Caligula",
         "Augustus",
+        "Caligula",
         "Nero",
         "Constantine I"
       ],
@@ -108,10 +108,10 @@
       "category": "Geography",
       "question": "Iceland sits on the boundary between which two tectonic plates?",
       "options": [
-        "South American and African",
+        "African and Eurasian",
         "Pacific and North American",
-        "North American and Eurasian",
-        "African and Eurasian"
+        "South American and African",
+        "North American and Eurasian"
       ],
       "answer": "North American and Eurasian",
       "explanation": "Iceland straddles the Mid-Atlantic Ridge, where the North American and Eurasian tectonic plates are slowly pulling apart. This makes Iceland one of the most volcanically and geologically active places on Earth, with geysers, hot springs, and frequent eruptions. You can literally stand with one foot on each tectonic plate in some locations.",
@@ -121,10 +121,10 @@
       "category": "Science & Nature",
       "question": "Evidence strongly suggests that Mars once had liquid water on its surface — rivers, lakes, and possibly an ocean. What happened to it, and where is Mars's water now?",
       "options": [
-        "Mars's water evaporated when a large asteroid impact 3.5 billion years ago vaporized the entire water supply; it dispersed into space since Mars lacks the gravity to retain water vapor",
-        "Mars's water drained into its porous basaltic crust and remains as liquid groundwater beneath the surface — the Mars Phoenix lander confirmed this in 2008 by drilling 3 km below the surface and extracting liquid water samples",
         "Mars lost its global magnetic field about 4 billion years ago, exposing its atmosphere to the solar wind which stripped away atmospheric molecules — eventually making the planet too cold and low-pressure for liquid water. Most water is now frozen in the polar ice caps and locked in permafrost",
-        "Mars's water was captured by the Sun's gravity during a period of solar expansion 2 billion years ago — the water was pulled free of Mars's weak gravity and incorporated into the Sun's outer layers"
+        "Mars's water was captured by the Sun's gravity during a period of solar expansion 2 billion years ago — the water was pulled free of Mars's weak gravity and incorporated into the Sun's outer layers",
+        "Mars's water evaporated when a large asteroid impact 3.5 billion years ago vaporized the entire water supply; it dispersed into space since Mars lacks the gravity to retain water vapor",
+        "Mars's water drained into its porous basaltic crust and remains as liquid groundwater beneath the surface — the Mars Phoenix lander confirmed this in 2008 by drilling 3 km below the surface and extracting liquid water samples"
       ],
       "answer": "Mars lost its global magnetic field about 4 billion years ago, exposing its atmosphere to the solar wind which stripped away atmospheric molecules — eventually making the planet too cold and low-pressure for liquid water. Most water is now frozen in the polar ice caps and locked in permafrost",
       "explanation": "Early Mars had a magnetic field generated by its molten iron core. When the core cooled and solidified (unlike Earth's still-active dynamo), the magnetic field collapsed. Without magnetic protection, the solar wind — charged particles streaming from the Sun — stripped away Mars's atmosphere over billions of years. As atmospheric pressure dropped, liquid water became impossible (below ~610 Pa, water can only exist as ice or vapor). Mars still has significant water ice: the polar caps contain enough to cover Mars in 35 meters of water if melted. NASA's MAVEN mission has directly measured the current atmospheric loss rate.",
@@ -134,10 +134,10 @@
       "category": "Geography",
       "question": "The Orinoco River, the third-longest river in South America, flows primarily through which country before emptying into the Atlantic Ocean?",
       "options": [
-        "Venezuela",
         "Brazil",
-        "Colombia",
-        "Bolivia"
+        "Bolivia",
+        "Venezuela",
+        "Colombia"
       ],
       "answer": "Venezuela",
       "explanation": "The Orinoco River flows about 2,140 km through Venezuela, with its upper portion forming part of the Colombia-Venezuela border. It drains into the Atlantic Ocean via a broad delta in northeastern Venezuela. The Orinoco basin contains Angel Falls (the world's highest waterfall) as a tributary system and is home to the Amazon river dolphin, giant otters, caimans, and electric eels. Venezuela's oil-rich Orinoco Belt contains some of the world's largest proven oil reserves.",
@@ -147,10 +147,10 @@
       "category": "Science & Nature",
       "question": "Astronomers observe that distant galaxies are moving away from us, with farther galaxies receding faster. What causes the light from these galaxies to shift toward the red end of the spectrum?",
       "options": [
-        "Absorption by interstellar gas",
+        "Gravitational lensing",
         "Cosmic dust",
-        "Redshift from the Doppler effect and space expansion",
-        "Gravitational lensing"
+        "Absorption by interstellar gas",
+        "Redshift from the Doppler effect and space expansion"
       ],
       "answer": "Redshift from the Doppler effect and space expansion",
       "explanation": "Redshift occurs when the wavelength of light is stretched — shifted toward the red (longer wavelength) end of the spectrum — due to the expansion of space itself (cosmological redshift) or because the source is moving away (Doppler redshift). Edwin Hubble's 1929 observation that nearly all galaxies show redshift was key evidence for the Big Bang and the expansion of the universe. The greater the redshift, the faster the recession and (by Hubble's Law) the greater the distance.",

@@ -5,9 +5,9 @@
       "category": "History",
       "question": "Which ancient Greek philosopher was put on trial for corrupting the youth and impiety, and was sentenced to death by drinking hemlock?",
       "options": [
-        "Aristotle",
         "Plato",
         "Diogenes",
+        "Aristotle",
         "Socrates"
       ],
       "answer": "Socrates",
@@ -18,10 +18,10 @@
       "category": "Science & Nature",
       "question": "What is the name of the process by which the nucleus of a heavy atom (like uranium) splits into two lighter nuclei, releasing a large amount of energy?",
       "options": [
-        "Nuclear fission",
-        "Radioactive decay",
+        "Nuclear fusion",
         "Nuclear transmutation",
-        "Nuclear fusion"
+        "Nuclear fission",
+        "Radioactive decay"
       ],
       "answer": "Nuclear fission",
       "explanation": "Nuclear fission was first demonstrated by Otto Hahn, Lise Meitner, and Fritz Strassmann in 1938. In a fission chain reaction, each split nucleus releases neutrons that trigger further splits. Atomic bombs use uncontrolled chain reactions; nuclear power plants use controlled ones. The world's first nuclear reactor (Chicago Pile-1) achieved criticality in 1942.",
@@ -44,9 +44,9 @@
       "category": "Pop Culture",
       "question": "Which English singer-songwriter, known for acoustic guitar and introspective lyrics, released 'Shape of You,' the best-selling single in Spotify history?",
       "options": [
+        "James Blunt",
         "Ed Sheeran",
         "Harry Styles",
-        "James Blunt",
         "Sam Smith"
       ],
       "answer": "Ed Sheeran",
@@ -57,10 +57,10 @@
       "category": "Geography",
       "question": "Which European country has the most coastline of any nation in the world, with over 125,000 km of coastline due to its many fjords and islands?",
       "options": [
-        "Indonesia",
-        "Australia",
+        "Norway",
         "Canada",
-        "Norway"
+        "Australia",
+        "Indonesia"
       ],
       "answer": "Norway",
       "explanation": "Norway has 125,021 km of coastline, the most in the world due to its deeply indented fjords, peninsulas, and more than 50,000 islands. Canada comes second with approximately 202,000 km (some measurements dispute the ranking based on methodology). Norway's fjords, carved by glaciers, are up to 1,308 meters deep.",
@@ -70,10 +70,10 @@
       "category": "History",
       "question": "The Silk Road, the ancient trade network connecting China to the Mediterranean, got its name from which primary commodity traded along it?",
       "options": [
-        "Spices",
-        "Tea",
         "Silk",
-        "Jade"
+        "Jade",
+        "Spices",
+        "Tea"
       ],
       "answer": "Silk",
       "explanation": "The Silk Road (actually a network of routes) operated from around 130 BC to 1450 AD. Silk was China's most prized export — the method of silk production was a closely guarded state secret, punishable by death if disclosed. Other goods traded included spices, glass, gold, and disease — including the Black Death.",
@@ -83,9 +83,9 @@
       "category": "Pop Culture",
       "question": "Which animated Pixar film (2015), featuring emotions as personified characters inside a young girl's mind, won the Academy Award for Best Animated Feature?",
       "options": [
-        "Coco",
         "Finding Dory",
         "Inside Out",
+        "Coco",
         "Soul"
       ],
       "answer": "Inside Out",
@@ -96,10 +96,10 @@
       "category": "Science & Nature",
       "question": "What is the name of the force that opposes the relative motion of two surfaces in contact?",
       "options": [
-        "Drag",
         "Friction",
-        "Tension",
-        "Normal force"
+        "Normal force",
+        "Drag",
+        "Tension"
       ],
       "answer": "Friction",
       "explanation": "Friction is caused by the microscopic roughness of surfaces and, at the molecular level, by electromagnetic interactions. Static friction (preventing motion) is stronger than kinetic friction (opposing motion already occurring). Without friction, we couldn't walk, grip tools, or stop cars. The coefficient of friction between rubber and dry asphalt is about 0.7.",
@@ -109,10 +109,10 @@
       "category": "Geography",
       "question": "Which Central American country is the largest in terms of area, covering approximately 130,000 km²?",
       "options": [
-        "Nicaragua",
+        "Mexico",
         "Honduras",
-        "Guatemala",
-        "Mexico"
+        "Nicaragua",
+        "Guatemala"
       ],
       "answer": "Nicaragua",
       "explanation": "Nicaragua is the largest country in Central America with 130,375 km². It is bounded by Honduras to the north and Costa Rica to the south. Lake Nicaragua is the largest lake in Central America and the only freshwater lake in the world to contain sharks (bull sharks adapted to freshwater).",
@@ -122,10 +122,10 @@
       "category": "History",
       "question": "Which ancient Greek historian, often called the 'Father of History,' wrote detailed accounts of the Greco-Persian Wars?",
       "options": [
-        "Thucydides",
         "Herodotus",
+        "Xenophon",
         "Polybius",
-        "Xenophon"
+        "Thucydides"
       ],
       "answer": "Herodotus",
       "explanation": "Herodotus (c. 484-425 BC) wrote 'Histories,' the first major narrative history in Western literature. He investigated and documented the Greco-Persian Wars of 499-449 BC. Thucydides later criticized Herodotus's reliance on myth, offering a more rigorous approach in his account of the Peloponnesian War.",
@@ -136,9 +136,9 @@
       "question": "Which Canadian musician, born in London, Ontario, had a teenage breakthrough with the hit 'Baby' (2010) discovered via YouTube by talent manager Scooter Braun?",
       "options": [
         "Justin Bieber",
-        "Shawn Mendes",
         "The Weeknd",
-        "Drake"
+        "Drake",
+        "Shawn Mendes"
       ],
       "answer": "Justin Bieber",
       "explanation": "Justin Bieber was discovered at age 13 when talent manager Scooter Braun found his YouTube videos of him covering other artists' songs. His debut single 'One Time' (2009) went gold. 'Baby' (2010) featuring Ludacris was the most-viewed YouTube video for a time. He has since won multiple Grammys.",
@@ -148,10 +148,10 @@
       "category": "Sports",
       "question": "What is the term for a set of three consecutive strikes in bowling?",
       "options": [
-        "Turkey",
-        "Strike out",
         "Triple",
-        "Hat trick"
+        "Hat trick",
+        "Turkey",
+        "Strike out"
       ],
       "answer": "Turkey",
       "explanation": "Three consecutive strikes in bowling is called a 'turkey.' The term dates to 19th-century bowling alleys where tournament organizers would award a live turkey for this achievement. Modern bowling alleys sometimes still award prizes for turkeys. Four consecutive strikes is called a 'hambone' or 'four-bagger.'",

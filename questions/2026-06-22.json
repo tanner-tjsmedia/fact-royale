@@ -5,10 +5,10 @@
       "category": "History",
       "question": "The Cuban Missile Crisis of 1962 was a standoff between the United States and which country?",
       "options": [
-        "North Korea",
-        "China",
         "Cuba",
-        "The Soviet Union"
+        "The Soviet Union",
+        "China",
+        "North Korea"
       ],
       "answer": "The Soviet Union",
       "explanation": "The Cuban Missile Crisis (October 16–28, 1962) was a 13-day confrontation between the US and the Soviet Union after American reconnaissance revealed Soviet ballistic missiles being installed in Cuba. President Kennedy and Premier Khrushchev negotiated a resolution — the Soviets removed the missiles in exchange for a US pledge not to invade Cuba and secret removal of US missiles from Turkey.",
@@ -18,10 +18,10 @@
       "category": "History",
       "question": "The 19th Amendment, ratified in 1920, granted which group the right to vote in the United States?",
       "options": [
+        "Citizens aged 18-20",
         "Women",
-        "African Americans",
         "Native Americans",
-        "Citizens aged 18-20"
+        "African Americans"
       ],
       "answer": "Women",
       "explanation": "The 19th Amendment to the US Constitution was ratified on August 18, 1920, prohibiting the denial of voting rights based on sex. It was the culmination of a decades-long women's suffrage movement. Key figures like Susan B. Anthony and Elizabeth Cady Stanton fought for this right, though Anthony died 14 years before it was ratified.",
@@ -31,9 +31,9 @@
       "category": "History",
       "question": "D-Day, the largest seaborne invasion in history, took place on what date in 1944?",
       "options": [
-        "May 6",
-        "June 6",
         "August 15",
+        "June 6",
+        "May 6",
         "July 4"
       ],
       "answer": "June 6",
@@ -44,10 +44,10 @@
       "category": "Sports",
       "question": "Gymnast Simone Biles is the most decorated American gymnast in history. At which Games did she famously withdraw from several events citing mental health?",
       "options": [
-        "Tokyo 2020",
         "Paris 2024",
-        "London 2012",
-        "Rio 2016"
+        "Rio 2016",
+        "Tokyo 2020",
+        "London 2012"
       ],
       "answer": "Tokyo 2020",
       "explanation": "Simone Biles withdrew from the team final and several individual events at the Tokyo 2020 Olympics (held in 2021 due to COVID-19), citing mental health concerns and the 'twisties' — a dangerous disorientation gymnasts can experience in the air. She returned to win bronze on beam. Her decision sparked a global conversation about athlete mental health.",
@@ -58,9 +58,9 @@
       "question": "The Boston Marathon is the world's oldest annual marathon. In what year was it first run?",
       "options": [
         "1920",
-        "1908",
+        "1897",
         "1887",
-        "1897"
+        "1908"
       ],
       "answer": "1897",
       "explanation": "The Boston Marathon was first run on April 19, 1897, inspired by the success of the 1896 Athens Olympics marathon. It is held annually on Patriots' Day (the third Monday in April) and covers 26.2 miles from Hopkinton to Copley Square in Boston. It is one of the six World Marathon Majors and has one of the most demanding qualifying standards of any major marathon.",
@@ -70,10 +70,10 @@
       "category": "Pop Culture",
       "question": "Jimi Hendrix was left-handed but famously played which type of guitar?",
       "options": [
-        "A right-handed guitar flipped upside down",
+        "An electric piano",
         "A bass guitar",
         "A specially made left-handed guitar",
-        "An electric piano"
+        "A right-handed guitar flipped upside down"
       ],
       "answer": "A right-handed guitar flipped upside down",
       "explanation": "Jimi Hendrix was left-handed but played a right-handed guitar turned upside down and restrung — a setup that contributed to his unique playing style and the distinctive way he held the instrument. He is widely regarded as the greatest electric guitarist of all time. His 1969 performance of 'The Star-Spangled Banner' at Woodstock remains one of rock's iconic moments.",
@@ -83,10 +83,10 @@
       "category": "Pop Culture",
       "question": "Complete the famous Forrest Gump quote: 'Life is like a box of chocolates, you never know...'",
       "options": [
-        "...which one is yours",
-        "...what flavor you'll get",
         "...how sweet it'll be",
-        "...what you're gonna get"
+        "...what you're gonna get",
+        "...what flavor you'll get",
+        "...which one is yours"
       ],
       "answer": "...what you're gonna get",
       "explanation": "The full quote from Forrest Gump (1994) is: 'Mama always said life was like a box of chocolates. You never know what you're gonna get.' Tom Hanks won his second consecutive Academy Award for Best Actor for the role. The film won 6 Oscars total including Best Picture. The line is consistently ranked among the most iconic movie quotes of all time.",
@@ -96,9 +96,9 @@
       "category": "Pop Culture",
       "question": "In The Matrix (1999), what color pill does Neo take to learn the truth about the Matrix?",
       "options": [
-        "Green",
-        "Blue",
         "Red",
+        "Blue",
+        "Green",
         "White"
       ],
       "answer": "Red",
@@ -110,9 +110,9 @@
       "question": "The Dead Sea, the lowest point on Earth's land surface at 430 meters below sea level, sits on the border between Israel and which other country?",
       "options": [
         "Lebanon",
-        "Egypt",
         "Jordan",
-        "Syria"
+        "Syria",
+        "Egypt"
       ],
       "answer": "Jordan",
       "explanation": "The Dead Sea lies between Israel to the west and Jordan to the east. Its extreme salinity — about 9.6 times saltier than the ocean — makes it impossible for most life to survive, but allows swimmers to float effortlessly. Due to water diversion from the Jordan River, the Dead Sea is shrinking at roughly 1 meter per year. Despite the name, extremophile bacteria do survive in its waters.",
@@ -122,10 +122,10 @@
       "category": "Science & Nature",
       "question": "What term describes animals like mammals and birds that generate their own body heat internally, maintaining a constant temperature regardless of the environment?",
       "options": [
-        "Ectothermic",
         "Poikilothermic",
-        "Exothermic",
-        "Endothermic"
+        "Ectothermic",
+        "Endothermic",
+        "Exothermic"
       ],
       "answer": "Endothermic",
       "explanation": "Endothermic animals (commonly called 'warm-blooded') generate body heat through internal metabolic processes, maintaining constant body temperatures. Mammals and birds are endothermic. Ectothermic animals ('cold-blooded') — reptiles, fish, and most insects — depend on external heat sources. Endothermy requires far more food energy but allows activity in cold environments. A snake becomes sluggish in cold weather; a dog does not.",
@@ -135,10 +135,10 @@
       "category": "Geography",
       "question": "Lake Tanganyika — the world's second-deepest lake at 1,470 meters — is shared by four African countries. Which country contains the longest stretch of its shoreline?",
       "options": [
-        "Tanzania",
-        "Democratic Republic of Congo",
         "Zambia",
-        "Burundi"
+        "Tanzania",
+        "Burundi",
+        "Democratic Republic of Congo"
       ],
       "answer": "Democratic Republic of Congo",
       "explanation": "Lake Tanganyika is shared by the Democratic Republic of Congo (DRC), Tanzania, Zambia, and Burundi. The DRC holds the largest share of the lake's western shore (about 45% of the total shoreline). Tanganyika is also the world's longest freshwater lake at 673 km and holds about 18% of the world's available surface freshwater. It is home to over 350 species of cichlid fish found nowhere else.",
@@ -148,10 +148,10 @@
       "category": "Science & Nature",
       "question": "The James Webb Space Telescope (JWST), launched in December 2021, is the most powerful space observatory ever built. What key capability makes it transformative over the Hubble Telescope?",
       "options": [
-        "JWST has 10 times the optical resolution of Hubble, allowing it to distinguish individual stars within galaxies that Hubble could only see as blurry patches",
-        "JWST orbits in the opposite direction from Earth, allowing it to observe objects on the far side of the sun that Hubble could never reach",
         "JWST observes primarily in infrared light, allowing it to see through dust clouds and observe the universe's earliest galaxies — which are too redshifted for Hubble's optical range to detect",
-        "JWST is the first telescope to directly image black holes, using a gravity lens array that bends light from behind the event horizon"
+        "JWST is the first telescope to directly image black holes, using a gravity lens array that bends light from behind the event horizon",
+        "JWST has 10 times the optical resolution of Hubble, allowing it to distinguish individual stars within galaxies that Hubble could only see as blurry patches",
+        "JWST orbits in the opposite direction from Earth, allowing it to observe objects on the far side of the sun that Hubble could never reach"
       ],
       "answer": "JWST observes primarily in infrared light, allowing it to see through dust clouds and observe the universe's earliest galaxies — which are too redshifted for Hubble's optical range to detect",
       "explanation": "As the universe expands, light from the most distant (earliest) galaxies is stretched into infrared wavelengths — a phenomenon called cosmological redshift. JWST's infrared instruments let it observe galaxies formed just 300–400 million years after the Big Bang. It also operates at 1.5 million km from Earth (at Lagrange Point 2) — four times the Moon's distance — in permanent shadow of a sunshield the size of a tennis court to stay cold enough for its detectors. Its first images, released in July 2022, revealed galaxy clusters 13 billion light-years away in unprecedented detail.",

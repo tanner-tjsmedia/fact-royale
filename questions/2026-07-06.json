@@ -4,10 +4,10 @@
       "category": "History",
       "question": "Which U.S. state was purchased from Russia in 1867?",
       "options": [
-        "Montana",
         "Hawaii",
+        "Alaska",
         "Oregon",
-        "Alaska"
+        "Montana"
       ],
       "answer": "Alaska",
       "explanation": "The United States purchased Alaska from Russia in 1867 for $7.2 million (about 2 cents per acre). Secretary of State William Seward negotiated the deal, and it was initially called 'Seward's Folly' by critics. The discovery of gold in 1896 vindicated the purchase.",
@@ -17,10 +17,10 @@
       "category": "History",
       "question": "The Reformation, which challenged the Catholic Church, was started by which figure?",
       "options": [
+        "King Henry VIII",
         "John Calvin",
         "John Knox",
-        "Martin Luther",
-        "King Henry VIII"
+        "Martin Luther"
       ],
       "answer": "Martin Luther",
       "explanation": "Martin Luther sparked the Protestant Reformation in 1517 when he nailed his 95 Theses to the door of the Castle Church in Wittenberg, challenging Catholic Church practices including the sale of indulgences. His actions led to the creation of Protestant Christianity.",
@@ -30,10 +30,10 @@
       "category": "Sports",
       "question": "What surface is Wimbledon tennis played on?",
       "options": [
-        "Grass",
-        "Clay",
+        "Hard court",
         "Carpet",
-        "Hard court"
+        "Grass",
+        "Clay"
       ],
       "answer": "Grass",
       "explanation": "Wimbledon, the oldest tennis tournament in the world (held since 1877), is played on grass courts. It is one of the four Grand Slam tournaments and is held annually at the All England Club in London. Grass is the fastest surface in tennis.",
@@ -43,10 +43,10 @@
       "category": "Sports",
       "question": "How many yards long is an American football field, including both end zones?",
       "options": [
-        "110",
-        "130",
         "120",
-        "100"
+        "110",
+        "100",
+        "130"
       ],
       "answer": "120",
       "explanation": "An American football field is 120 yards in total length — 100 yards between the goal lines plus two 10-yard end zones. The field is 53⅓ yards wide. First downs require advancing 10 yards.",
@@ -56,10 +56,10 @@
       "category": "Pop Culture",
       "question": "Auguste Rodin's sculpture 'The Thinker' (1880) is among the world's most recognized works of art. What was its original purpose and meaning?",
       "options": [
+        "It was commissioned as a monument to René Descartes and the Age of Reason, representing philosophy's triumph over religious superstition",
         "It was intended as a self-portrait of Rodin at work, showing the physical and mental labor that sculpture required",
         "It was designed as a memorial to workers killed in industrial accidents, representing collective human suffering in the Industrial Age",
-        "It was created as a central figure for 'The Gates of Hell' — Rodin's monumental bronze doors based on Dante's Inferno — and was meant to depict Dante himself contemplating Hell",
-        "It was commissioned as a monument to René Descartes and the Age of Reason, representing philosophy's triumph over religious superstition"
+        "It was created as a central figure for 'The Gates of Hell' — Rodin's monumental bronze doors based on Dante's Inferno — and was meant to depict Dante himself contemplating Hell"
       ],
       "answer": "It was created as a central figure for 'The Gates of Hell' — Rodin's monumental bronze doors based on Dante's Inferno — and was meant to depict Dante himself contemplating Hell",
       "explanation": "Rodin spent decades working on The Gates of Hell, a set of massive bronze doors commissioned for a planned Paris museum of decorative arts. The Thinker was originally titled 'The Poet' — meant to be Dante looking down at the tormented souls below him, contemplating creation and damnation. The Gates were never installed in Rodin's lifetime, but The Thinker was enlarged and exhibited independently from 1904. Numerous bronze casts exist in museums worldwide.",
@@ -70,8 +70,8 @@
       "question": "Which musician is known as 'The Boss'?",
       "options": [
         "Tom Petty",
-        "Bruce Springsteen",
         "Billy Joel",
+        "Bruce Springsteen",
         "Bob Dylan"
       ],
       "answer": "Bruce Springsteen",
@@ -82,10 +82,10 @@
       "category": "Pop Culture",
       "question": "In 'The Silence of the Lambs,' who plays Hannibal Lecter?",
       "options": [
-        "Gary Oldman",
-        "Anthony Hopkins",
+        "Daniel Day-Lewis",
         "Jeremy Irons",
-        "Daniel Day-Lewis"
+        "Gary Oldman",
+        "Anthony Hopkins"
       ],
       "answer": "Anthony Hopkins",
       "explanation": "Anthony Hopkins won the Academy Award for Best Actor for his portrayal of Dr. Hannibal Lecter in The Silence of the Lambs (1991), despite appearing on screen for only about 16 minutes. The film swept all five major Oscar categories — a feat achieved by only two other films.",
@@ -95,10 +95,10 @@
       "category": "History",
       "question": "The 'Silk Road' was a trade network that connected China to which continent?",
       "options": [
-        "South America",
-        "Europe",
         "Africa",
-        "Australia"
+        "Australia",
+        "Europe",
+        "South America"
       ],
       "answer": "Europe",
       "explanation": "The Silk Road was an ancient network of trade routes connecting China to Central Asia, the Middle East, and eventually Europe. It was named for the lucrative silk trade, though many goods and ideas (including paper, gunpowder, and the bubonic plague) also traveled along it.",
@@ -109,9 +109,9 @@
       "question": "The Nile River flows northward through how many countries before reaching the Mediterranean Sea?",
       "options": [
         "11",
-        "3",
+        "9",
         "5",
-        "9"
+        "3"
       ],
       "answer": "11",
       "explanation": "The Nile passes through 11 countries: Tanzania, Uganda, Rwanda, Burundi, Democratic Republic of Congo, Kenya, Ethiopia, Eritrea, South Sudan, Sudan, and Egypt before emptying into the Mediterranean Sea. At approximately 6,650 km, it is considered the world's longest river, though the Amazon is a close rival.",
@@ -121,8 +121,8 @@
       "category": "Science & Nature",
       "question": "The Moon always shows the same face to Earth — we never see its 'far side' from the surface. Why, and what does this reveal about orbital mechanics?",
       "options": [
-        "The Moon does not actually rotate — it is gravitationally fixed in space while Earth orbits around both the Moon and the Sun, creating the appearance of one face always pointing toward Earth",
         "The Moon is tidally locked — Earth's gravity has gradually slowed the Moon's rotation until its spin period exactly matches its orbital period (27.3 days each), permanently fixing one face toward Earth",
+        "The Moon does not actually rotate — it is gravitationally fixed in space while Earth orbits around both the Moon and the Sun, creating the appearance of one face always pointing toward Earth",
         "The Moon has a perfectly symmetric distribution of mass that prevents it from wobbling as it orbits — by coincidence, the same hemisphere always faces toward Earth's gravitational pull",
         "The Moon rotates much faster than it orbits, completing about 13 rotations per orbit — but its orbit wobbles in a complex pattern that by chance keeps one hemisphere facing Earth at all times"
       ],
@@ -134,10 +134,10 @@
       "category": "Geography",
       "question": "The Kalahari Desert, a semi-arid region home to the San people and meerkats, spans primarily which two countries?",
       "options": [
+        "South Africa and Zimbabwe",
         "Angola and Zambia",
-        "Botswana and Namibia",
         "Kenya and Tanzania",
-        "South Africa and Zimbabwe"
+        "Botswana and Namibia"
       ],
       "answer": "Botswana and Namibia",
       "explanation": "The Kalahari Desert covers approximately 900,000 km² across Botswana, Namibia, and parts of South Africa. Unlike the Sahara or Namib, it is a semi-arid desert that receives enough rainfall to support grasses, shrubs, and diverse wildlife including lions, cheetahs, giraffes, meerkats, and springbok. The San (Bushmen) people have lived in the Kalahari for 20,000+ years and have one of the oldest continuous cultures on Earth. The Okavango Delta flows INTO the Kalahari rather than to the sea.",
@@ -149,8 +149,8 @@
       "options": [
         "Zoology",
         "Botany",
-        "Ecology",
-        "Evolutionary biology"
+        "Evolutionary biology",
+        "Ecology"
       ],
       "answer": "Ecology",
       "explanation": "Ecology is the scientific study of the relationships between living organisms and their physical environment, including how nutrients cycle and energy flows through ecosystems. Key concepts include food webs, trophic levels, population dynamics, and carrying capacity. The word comes from the Greek 'oikos' (house/home) and 'logos' (study). Ernst Haeckel coined the term in 1866. Conservation biology and climate science draw heavily on ecological principles.",

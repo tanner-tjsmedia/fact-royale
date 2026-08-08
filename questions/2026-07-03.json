@@ -4,10 +4,10 @@
       "category": "History",
       "question": "Which disease caused the Black Death pandemic of the 14th century?",
       "options": [
-        "Typhoid fever",
-        "Cholera",
         "Smallpox",
-        "Bubonic plague"
+        "Cholera",
+        "Bubonic plague",
+        "Typhoid fever"
       ],
       "answer": "Bubonic plague",
       "explanation": "The Black Death (1347–1351) was caused by Yersinia pestis, the bacterium responsible for bubonic plague. It killed an estimated 30–60% of Europe's population. The disease was spread primarily by fleas on rats, which traveled along trade routes.",
@@ -17,10 +17,10 @@
       "category": "History",
       "question": "The first successful powered airplane flight was made by whom?",
       "options": [
-        "Glenn Curtiss",
         "The Wright Brothers",
-        "Charles Lindbergh",
-        "Howard Hughes"
+        "Howard Hughes",
+        "Glenn Curtiss",
+        "Charles Lindbergh"
       ],
       "answer": "The Wright Brothers",
       "explanation": "Orville and Wilbur Wright made the first successful powered airplane flight on December 17, 1903, at Kitty Hawk, North Carolina. The first flight lasted 12 seconds and covered 120 feet. They made four flights that day, the longest lasting 59 seconds.",
@@ -30,10 +30,10 @@
       "category": "Sports",
       "question": "In which sport would you find a 'hat trick'?",
       "options": [
-        "Ice Hockey",
-        "Baseball",
         "Soccer/Football",
-        "Both Ice Hockey and Soccer"
+        "Both Ice Hockey and Soccer",
+        "Ice Hockey",
+        "Baseball"
       ],
       "answer": "Both Ice Hockey and Soccer",
       "explanation": "A hat trick is scoring three goals in a single game, and the term is most commonly used in soccer/football and ice hockey. It originated in cricket, where a bowler taking three consecutive wickets earned a hat. Baseball has no equivalent term. In hockey and soccer, scoring three in one game is one of the most celebrated individual feats.",
@@ -44,9 +44,9 @@
       "question": "Donated by a Canadian Governor General in 1892, which trophy is the oldest championship trophy awarded in North American professional sports?",
       "options": [
         "The Conn Smythe",
+        "The Hart Trophy",
         "The Stanley Cup",
-        "The Grey Cup",
-        "The Hart Trophy"
+        "The Grey Cup"
       ],
       "answer": "The Stanley Cup",
       "explanation": "The Stanley Cup was donated by Lord Stanley of Preston, the Governor General of Canada, in 1892. It has been awarded to the NHL playoff champion since 1926 and is the oldest professional sports championship trophy in North America.",
@@ -56,9 +56,9 @@
       "category": "Pop Culture",
       "question": "Which 1997 James Cameron film starred Leonardo DiCaprio and Kate Winslet?",
       "options": [
+        "The Revenant",
         "Titanic",
         "The Aviator",
-        "The Revenant",
         "Revolutionary Road"
       ],
       "answer": "Titanic",
@@ -69,10 +69,10 @@
       "category": "Pop Culture",
       "question": "What instrument is Yo-Yo Ma famous for playing?",
       "options": [
-        "Viola",
-        "Cello",
+        "Piano",
         "Violin",
-        "Piano"
+        "Cello",
+        "Viola"
       ],
       "answer": "Cello",
       "explanation": "Yo-Yo Ma is a world-renowned cellist born in Paris to Chinese parents. He began playing cello at age four and has recorded over 100 albums. He has won 19 Grammy Awards and is known for both classical and cross-genre work including collaboration with bluegrass and tango musicians.",
@@ -109,8 +109,8 @@
       "question": "The Panama Canal connects which two bodies of water?",
       "options": [
         "Pacific and Arctic Oceans",
-        "Pacific Ocean and Atlantic Ocean",
         "Caribbean Sea and Gulf of Mexico",
+        "Pacific Ocean and Atlantic Ocean",
         "Atlantic and Indian Oceans"
       ],
       "answer": "Pacific Ocean and Atlantic Ocean",
@@ -121,9 +121,9 @@
       "category": "Science & Nature",
       "question": "Which organ in the human body produces insulin?",
       "options": [
-        "Kidneys",
         "Pancreas",
         "Liver",
+        "Kidneys",
         "Gallbladder"
       ],
       "answer": "Pancreas",
@@ -134,10 +134,10 @@
       "category": "Geography",
       "question": "Mount Aconcagua in Argentina, at 6,961 meters, is the highest peak in which geographic region?",
       "options": [
-        "North America",
         "The Americas (Western and Southern Hemispheres)",
         "Asia",
-        "Africa"
+        "Africa",
+        "North America"
       ],
       "answer": "The Americas (Western and Southern Hemispheres)",
       "explanation": "Mount Aconcagua in the Argentine Andes is the highest peak in both the Western and Southern Hemispheres, as well as the highest peak outside Asia. It sits near the border with Chile and is a popular mountaineering destination since it can be climbed without technical climbing equipment (though altitude acclimatization is essential). The name Aconcagua is derived from the Quechua language, meaning 'sentinel of stone.'",
@@ -147,10 +147,10 @@
       "category": "Science & Nature",
       "question": "What is the term for a close long-term relationship between two different species where both benefit?",
       "options": [
-        "Parasitism",
         "Predation",
-        "Mutualism",
-        "Commensalism"
+        "Commensalism",
+        "Parasitism",
+        "Mutualism"
       ],
       "answer": "Mutualism",
       "explanation": "Mutualism is a type of symbiosis where both species benefit from their relationship. Classic examples include: clownfish and sea anemones (fish gets protection, anemone gets cleaning and nutrient-rich waste); bees and flowers (bees get nectar, flowers get pollinated); and the relationship between humans and gut bacteria (we provide a habitat, bacteria help digest food). Mutualism is distinguished from commensalism (one benefits, other unaffected) and parasitism (one benefits, other harmed).",

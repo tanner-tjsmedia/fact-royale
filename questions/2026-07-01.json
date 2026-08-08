@@ -4,9 +4,9 @@
       "category": "History",
       "question": "What event triggered the start of World War I?",
       "options": [
+        "The sinking of the Lusitania",
         "The invasion of Poland",
         "The bombing of Pearl Harbor",
-        "The sinking of the Lusitania",
         "The assassination of Archduke Franz Ferdinand"
       ],
       "answer": "The assassination of Archduke Franz Ferdinand",
@@ -17,9 +17,9 @@
       "category": "History",
       "question": "The Magna Carta was signed in which year?",
       "options": [
-        "1348",
         "1066",
         "1215",
+        "1348",
         "1492"
       ],
       "answer": "1215",
@@ -30,10 +30,10 @@
       "category": "Sports",
       "question": "Walter Payton, nicknamed 'Sweetness,' held the NFL all-time rushing record for 18 years. Who eventually broke his record and when?",
       "options": [
-        "Marshall Faulk broke it in 2003 with the St. Louis Rams",
+        "Emmitt Smith broke it in 2002 with the Dallas Cowboys",
         "Eric Dickerson broke it in 1995 with the Los Angeles Rams",
-        "Barry Sanders broke it in 1997 with the Detroit Lions",
-        "Emmitt Smith broke it in 2002 with the Dallas Cowboys"
+        "Marshall Faulk broke it in 2003 with the St. Louis Rams",
+        "Barry Sanders broke it in 1997 with the Detroit Lions"
       ],
       "answer": "Emmitt Smith broke it in 2002 with the Dallas Cowboys",
       "explanation": "Walter Payton rushed for 16,726 yards across his career with the Chicago Bears (1975–1987), setting the all-time record. Emmitt Smith surpassed him on October 27, 2002, finishing his career with 18,355 yards. Smith won three Super Bowls with Dallas and is still the all-time leader. Payton was also renowned for almost never going out of bounds — he preferred to run through defenders.",
@@ -43,10 +43,10 @@
       "category": "Sports",
       "question": "What does 'NFL' stand for?",
       "options": [
-        "National Field League",
-        "National Football League",
         "North Football League",
-        "National Federation of Leagues"
+        "National Federation of Leagues",
+        "National Field League",
+        "National Football League"
       ],
       "answer": "National Football League",
       "explanation": "The NFL (National Football League) was founded in 1920 as the American Professional Football Association, renamed the NFL in 1922. It is the highest level of professional American football with 32 teams.",
@@ -56,10 +56,10 @@
       "category": "Pop Culture",
       "question": "Salvador Dalí's 'The Persistence of Memory' (1931) — with its melting watches in a dreamlike landscape — is one of Surrealism's most iconic images. What philosophical idea does it express?",
       "options": [
-        "That precision timepieces are inherently unreliable, inspired by Dalí's distrust of technology after the Spanish Civil War",
-        "That the 20th century's obsession with time and productivity was destroying Europe's artistic and spiritual traditions",
         "That all human achievements eventually crumble, with watches symbolizing the futility of human ambition against nature",
-        "That time in dreams and the unconscious mind is fluid and distorted — not the fixed, mechanical force we experience in waking life"
+        "That time in dreams and the unconscious mind is fluid and distorted — not the fixed, mechanical force we experience in waking life",
+        "That the 20th century's obsession with time and productivity was destroying Europe's artistic and spiritual traditions",
+        "That precision timepieces are inherently unreliable, inspired by Dalí's distrust of technology after the Spanish Civil War"
       ],
       "answer": "That time in dreams and the unconscious mind is fluid and distorted — not the fixed, mechanical force we experience in waking life",
       "explanation": "Dalí said he was inspired by watching Camembert cheese melting in the sun on the afternoon he painted it. The melting watches suggest that in the dream world — which Surrealism sought to access — time doesn't function as the rigid, mechanical structure it is in waking life. The landscape is the coast of Catalonia near Dalí's home in Cadaqués, Spain. Dalí later called himself 'not a Surrealist but the greatest realist,' claiming he painted hallucinations precisely.",
@@ -70,9 +70,9 @@
       "question": "'Hotel California' is a song by which band?",
       "options": [
         "Eagles",
-        "Lynyrd Skynyrd",
+        "Creedence Clearwater Revival",
         "Fleetwood Mac",
-        "Creedence Clearwater Revival"
+        "Lynyrd Skynyrd"
       ],
       "answer": "Eagles",
       "explanation": "'Hotel California' was released by the Eagles in 1977 on their album of the same name. Written by Don Felder, Don Henley, and Glenn Frey, it won the Grammy for Record of the Year and is widely considered one of the greatest rock songs ever written.",
@@ -82,10 +82,10 @@
       "category": "Pop Culture",
       "question": "Who wrote the novel that 'The Godfather' film is based on?",
       "options": [
-        "Stephen King",
-        "John Grisham",
         "Tom Clancy",
-        "Mario Puzo"
+        "Mario Puzo",
+        "John Grisham",
+        "Stephen King"
       ],
       "answer": "Mario Puzo",
       "explanation": "Mario Puzo wrote the novel The Godfather in 1969 and co-wrote the screenplay for the 1972 film with director Francis Ford Coppola. The film won the Academy Award for Best Picture and is widely considered one of the greatest films ever made.",
@@ -95,8 +95,8 @@
       "category": "History",
       "question": "Which Roman leader was famously betrayed and assassinated on the Ides of March?",
       "options": [
-        "Augustus",
         "Mark Antony",
+        "Augustus",
         "Nero",
         "Julius Caesar"
       ],
@@ -108,10 +108,10 @@
       "category": "Geography",
       "question": "Which ocean is the largest by surface area?",
       "options": [
-        "Pacific Ocean",
+        "Atlantic Ocean",
         "Arctic Ocean",
         "Indian Ocean",
-        "Atlantic Ocean"
+        "Pacific Ocean"
       ],
       "answer": "Pacific Ocean",
       "explanation": "The Pacific Ocean covers about 165 million square kilometers — roughly half the world's ocean surface and more than all of Earth's landmasses combined. It is also the deepest ocean, containing the Mariana Trench, the deepest known point on Earth at about 11,000 meters below sea level.",
@@ -121,10 +121,10 @@
       "category": "Science & Nature",
       "question": "Neutron stars are the densest objects in the universe besides black holes — a teaspoon of neutron star material would weigh about a billion tons on Earth. How do they form?",
       "options": [
-        "Neutron stars form when a star runs out of hydrogen and begins burning helium, the increased radiation pressure blowing off the outer layers and compressing the core into a dense neutron ball",
-        "Neutron stars form when two white dwarfs merge, their combined carbon and oxygen atoms undergoing a phase transition that converts all atomic nuclei into pure neutron matter",
+        "Neutron stars are ancient relics from the Big Bang — the only objects dense enough to survive from the universe's first seconds, slowly cooling over 13 billion years",
         "Neutron stars form in supernova explosions when a massive star's core collapses — protons and electrons are crushed together to form neutrons, creating an object 20 km across with more mass than the Sun",
-        "Neutron stars are ancient relics from the Big Bang — the only objects dense enough to survive from the universe's first seconds, slowly cooling over 13 billion years"
+        "Neutron stars form when a star runs out of hydrogen and begins burning helium, the increased radiation pressure blowing off the outer layers and compressing the core into a dense neutron ball",
+        "Neutron stars form when two white dwarfs merge, their combined carbon and oxygen atoms undergoing a phase transition that converts all atomic nuclei into pure neutron matter"
       ],
       "answer": "Neutron stars form in supernova explosions when a massive star's core collapses — protons and electrons are crushed together to form neutrons, creating an object 20 km across with more mass than the Sun",
       "explanation": "When a massive star (8–20 solar masses) exhausts its nuclear fuel, its iron core collapses in milliseconds under gravity. The collapse is so violent it compresses protons and electrons into neutrons via inverse beta decay, creating a neutron star roughly 20 km in diameter but 1–2 solar masses. Rapidly spinning neutron stars emit beams of radio waves that sweep like a lighthouse — when detected from Earth, these are called pulsars. The first pulsar was discovered by Jocelyn Bell in 1967; the signal was so regular she briefly called it LGM-1 (Little Green Men).",
@@ -134,10 +134,10 @@
       "category": "Geography",
       "question": "The Aral Sea, once the world's fourth-largest lake, has lost approximately 90% of its water since the 1960s due to Soviet irrigation projects. In which two countries do its remnants now lie?",
       "options": [
-        "Kazakhstan and Uzbekistan",
+        "Turkmenistan and Kazakhstan",
         "Uzbekistan and Tajikistan",
         "Russia and Kazakhstan",
-        "Turkmenistan and Kazakhstan"
+        "Kazakhstan and Uzbekistan"
       ],
       "answer": "Kazakhstan and Uzbekistan",
       "explanation": "The Aral Sea once covered 68,000 km² on the border of Kazakhstan and Uzbekistan. Soviet-era irrigation canals diverted the Amu Darya and Syr Darya rivers to grow cotton, shrinking the lake by 90%. The exposed seabed became the 'Aralkum Desert,' coated with salt and pesticide residue that winds spread across the region, causing health crises. Kazakhstan has partially restored the northern Aral Sea with a dam; Uzbekistan's southern portion has largely vanished.",
@@ -147,10 +147,10 @@
       "category": "Science & Nature",
       "question": "What is the process that powers the Sun — fusing hydrogen atoms at extreme temperatures to release enormous amounts of energy?",
       "options": [
-        "Nuclear fusion",
-        "Radioactive decay",
+        "Nuclear fission",
         "Chemical combustion",
-        "Nuclear fission"
+        "Radioactive decay",
+        "Nuclear fusion"
       ],
       "answer": "Nuclear fusion",
       "explanation": "The Sun generates energy through nuclear fusion — specifically the proton-proton chain, where hydrogen nuclei (protons) fuse to form helium at core temperatures of about 15 million degrees Celsius. Each fusion reaction converts a tiny amount of mass into energy (E=mc²). The Sun converts about 600 million tons of hydrogen into helium per second. Fusion is also the mechanism behind hydrogen bombs and the goal of experimental reactors like ITER.",

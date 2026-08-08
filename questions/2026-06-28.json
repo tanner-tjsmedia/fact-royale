@@ -5,9 +5,9 @@
       "question": "Which explorer is credited with the first circumnavigation of the globe?",
       "options": [
         "Christopher Columbus",
-        "Vasco da Gama",
+        "Ferdinand Magellan",
         "Francis Drake",
-        "Ferdinand Magellan"
+        "Vasco da Gama"
       ],
       "answer": "Ferdinand Magellan",
       "explanation": "Ferdinand Magellan led the expedition that first circumnavigated the Earth (1519–1522), though he died in the Philippines before completing it. Juan Sebastián Elcano completed the voyage. Magellan gets the credit as the expedition's leader.",
@@ -18,8 +18,8 @@
       "question": "What ancient civilization built Machu Picchu?",
       "options": [
         "Olmec",
-        "Aztec",
         "Maya",
+        "Aztec",
         "Inca"
       ],
       "answer": "Inca",
@@ -30,10 +30,10 @@
       "category": "Sports",
       "question": "How many players are on a standard volleyball team on the court?",
       "options": [
-        "5",
         "8",
-        "7",
-        "6"
+        "5",
+        "6",
+        "7"
       ],
       "answer": "6",
       "explanation": "A standard volleyball team has six players on the court at a time: three in the front row and three in the back row. Teams rotate positions after winning the serve.",
@@ -43,9 +43,9 @@
       "category": "Sports",
       "question": "What is the maximum score in a single game of ten-pin bowling?",
       "options": [
-        "330",
         "270",
         "250",
+        "330",
         "300"
       ],
       "answer": "300",
@@ -56,9 +56,9 @@
       "category": "Pop Culture",
       "question": "Who sang 'Respect', which became an anthem of the civil rights movement?",
       "options": [
+        "Diana Ross",
         "Whitney Houston",
         "Tina Turner",
-        "Diana Ross",
         "Aretha Franklin"
       ],
       "answer": "Aretha Franklin",
@@ -69,10 +69,10 @@
       "category": "Pop Culture",
       "question": "Which film franchise features a character named 'Jack Sparrow'?",
       "options": [
-        "Master and Commander",
+        "Treasure Island",
         "Pirates of the Caribbean",
         "The Mummy",
-        "Treasure Island"
+        "Master and Commander"
       ],
       "answer": "Pirates of the Caribbean",
       "explanation": "Captain Jack Sparrow, played by Johnny Depp, is the main character of the Pirates of the Caribbean franchise, which began with 'The Curse of the Black Pearl' in 2003. The character was inspired in part by Rolling Stones guitarist Keith Richards.",
@@ -84,8 +84,8 @@
       "options": [
         "1940s",
         "1930s",
-        "1960s",
-        "1950s"
+        "1950s",
+        "1960s"
       ],
       "answer": "1950s",
       "explanation": "Rock and roll emerged in the early 1950s in the United States, blending African American musical styles including blues, boogie woogie, jazz, and gospel. Artists like Chuck Berry, Little Richard, and Elvis Presley brought it to mainstream audiences.",
@@ -96,8 +96,8 @@
       "question": "Which U.S. President signed the Emancipation Proclamation?",
       "options": [
         "Abraham Lincoln",
-        "Ulysses S. Grant",
         "James Buchanan",
+        "Ulysses S. Grant",
         "Andrew Johnson"
       ],
       "answer": "Abraham Lincoln",
@@ -108,10 +108,10 @@
       "category": "Geography",
       "question": "Mount Everest sits on the border of which two countries?",
       "options": [
+        "Nepal and China",
         "China and India",
-        "India and Nepal",
         "Bhutan and Tibet",
-        "Nepal and China"
+        "India and Nepal"
       ],
       "answer": "Nepal and China",
       "explanation": "Mount Everest straddles the border between Nepal to the south and China (specifically the Tibet Autonomous Region) to the north. At 8,849 meters (29,032 feet), it is the highest point on Earth above sea level. The summit itself is on the border — you can stand in both countries at the top.",
@@ -121,9 +121,9 @@
       "category": "Science & Nature",
       "question": "Which gas makes up approximately 78% of Earth's atmosphere?",
       "options": [
-        "Nitrogen",
-        "Oxygen",
         "Carbon dioxide",
+        "Oxygen",
+        "Nitrogen",
         "Argon"
       ],
       "answer": "Nitrogen",
@@ -134,10 +134,10 @@
       "category": "Geography",
       "question": "Sri Lanka, the island nation at the southern tip of India, was known as what name under British colonial rule?",
       "options": [
-        "Formosa",
         "Siam",
-        "Malacca",
-        "Ceylon"
+        "Formosa",
+        "Ceylon",
+        "Malacca"
       ],
       "answer": "Ceylon",
       "explanation": "Sri Lanka was called Ceylon under British colonial rule from 1815 until independence in 1948. The country changed its name to Sri Lanka ('Resplendent Island') in 1972 when it became a republic. Sri Lanka is the world's largest producer of cinnamon and one of the top tea producers globally — Ceylon tea remains a famous brand. The island separated from mainland India by the shallow Palk Strait, only about 31 km wide at its narrowest.",
@@ -148,8 +148,8 @@
       "question": "Saturn's rings are among the solar system's most spectacular features — but they are also surprisingly young and disappearing. What do scientists now understand about them?",
       "options": [
         "Saturn's rings formed with the planet 4.6 billion years ago and are gradually expanding outward — they will eventually escape Saturn's gravity and become a separate moon in about 500 million years",
-        "Saturn's rings are the densest structure in the solar system — their total mass equals that of Saturn's moon Mimas, and they are composed primarily of iron and nickel particles from an ancient asteroid impact",
         "Saturn's rings are relatively young (100–400 million years old) and are actively raining material onto Saturn — losing mass at a rate that could cause them to disappear within 100 million years",
+        "Saturn's rings are the densest structure in the solar system — their total mass equals that of Saturn's moon Mimas, and they are composed primarily of iron and nickel particles from an ancient asteroid impact",
         "Saturn's rings are a permanent feature — their material is continuously replenished by volcanic activity on the inner moons Enceladus and Tethys, keeping total ring mass approximately constant"
       ],
       "answer": "Saturn's rings are relatively young (100–400 million years old) and are actively raining material onto Saturn — losing mass at a rate that could cause them to disappear within 100 million years",

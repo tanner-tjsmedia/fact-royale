@@ -3,50 +3,50 @@
   "questions": [
     {
       "category": "History",
-      "question": "Which US president delivered the famous 'I Have a Dream' speech — no wait, which president was in office when Martin Luther King Jr. delivered it?",
+      "question": "Kennedy was president during the 1963 March on Washington. What was his position on it beforehand?",
       "options": [
-        "Richard Nixon",
-        "Lyndon B. Johnson",
-        "Dwight D. Eisenhower",
-        "John F. Kennedy"
+        "He was abroad and learned of it afterward",
+        "He helped plan the route and speaking order",
+        "He tried to get organisers to call it off",
+        "He addressed the crowd immediately before King"
       ],
-      "answer": "John F. Kennedy",
-      "explanation": "Martin Luther King Jr. delivered his 'I Have a Dream' speech on August 28, 1963, during John F. Kennedy's presidency. Kennedy was assassinated three months later in November 1963. It was Kennedy's Justice Department that was negotiating with civil rights leaders at the time. Kennedy's successor, Lyndon B. Johnson, signed the Civil Rights Act of 1964 and Voting Rights Act of 1965.",
-      "memory_hook": "MLK's 'I Have a Dream' speech happened in August 1963 under JFK. Kennedy was shot 3 months later. LBJ signed the actual Civil Rights Act. History is often delivered by one person and implemented by another."
+      "answer": "He tried to get organisers to call it off",
+      "explanation": "Kennedy feared a large demonstration would harden congressional opposition to the civil rights bill and pressed organisers to cancel. They refused, and he then worked to shape it, with the administration arranging a cut-off switch for the sound system in case speeches turned militant. John Lewis was pressured into softening his text. Around 250,000 attended peacefully. Kennedy met the leaders afterward and was assassinated eleven weeks later.",
+      "memory_hook": "Kennedy tried to get it cancelled, fearing it would harden opposition to his civil rights bill. When organisers refused he worked to manage it, including a kill switch on the sound system in case speeches got militant. John Lewis was pushed to tone his down. He was dead eleven weeks later."
     },
     {
       "category": "History",
-      "question": "The Meiji Restoration of 1868 transformed which country from a feudal state into a modern industrial power?",
+      "question": "The Meiji Restoration ended samurai rule in Japan. What happened to the samurai themselves?",
       "options": [
-        "Korea",
-        "Japan",
-        "China",
-        "Vietnam"
+        "They kept full privileges but lost all political power",
+        "Their stipends were abolished and swords banned in public",
+        "They were exiled to Hokkaido as a separate province",
+        "They became the officer corps of the new imperial army"
       ],
-      "answer": "Japan",
-      "explanation": "The Meiji Restoration (1868) ended Japan's feudal government (the Tokugawa shogunate) and restored imperial rule under Emperor Meiji. Japan rapidly modernized — adopting Western technology, military systems, education, and industry. Within 40 years, Japan had become a major world power, defeating Russia in the Russo-Japanese War (1905). The Meiji Restoration is one of history's most remarkable national transformations.",
-      "memory_hook": "Meiji Restoration 1868 = Japan modernizes at warp speed. Went from samurai and rice farmers to a naval power that defeated Russia in 40 years. Japan studied what made Western countries powerful and systematically adopted all of it. Speed of transformation unprecedented in modern history."
+      "answer": "Their stipends were abolished and swords banned in public",
+      "explanation": "The government converted hereditary stipends into bonds, then banned the wearing of swords in 1876, dismantling both the income and the identity of a class of roughly two million. Some moved into business, bureaucracy and the new conscript army, but many were ruined. Saigo Takamori led the 1877 Satsuma Rebellion in protest and was crushed by peasant conscripts armed with rifles, which settled the question definitively.",
+      "memory_hook": "Stipends were converted to bonds and then swords were banned in public in 1876, wiping out both the income and identity of about two million people. Saigo Takamori rebelled in 1877 and was destroyed by peasant conscripts with rifles, which rather made the point."
     },
     {
       "category": "History",
-      "question": "Which German Chancellor, who served from 2005 to 2021 and became the first woman to hold the office, was often called 'the most powerful woman in the world'?",
+      "question": "Angela Merkel was a scientist before entering politics. What was her field?",
       "options": [
-        "Angela Merkel",
-        "Gertrude Schröder",
-        "Annegret Kramp-Karrenbauer",
-        "Heidi Simonis"
+        "Quantum chemistry, with a doctorate from East Berlin",
+        "Medicine, practising as a paediatrician until 1989",
+        "Civil engineering, specialising in bridge design",
+        "Economics, advising the East German finance ministry"
       ],
-      "answer": "Angela Merkel",
-      "explanation": "Angela Merkel served as Chancellor of Germany for 16 years (2005-2021), making her the longest-serving head of government in the EU during her tenure. A trained physicist from East Germany, she navigated the 2008 financial crisis, the European debt crisis, the refugee crisis, and the COVID-19 pandemic. She is widely regarded as one of the most consequential leaders of her era.",
-      "memory_hook": "Angela Merkel: German Chancellor 2005-2021. Physicist. First female Chancellor of Germany."
+      "answer": "Quantum chemistry, with a doctorate from East Berlin",
+      "explanation": "Merkel earned a doctorate in quantum chemistry and worked as a research scientist at the Academy of Sciences in East Berlin until 1989. She entered politics only after the Wall fell, at thirty-five, and became Chancellor sixteen years later. Observers frequently attributed her deliberate, evidence-first decision-making style to that training. She grew up in the GDR as a pastor's daughter and speaks fluent Russian.",
+      "memory_hook": "She had a doctorate in quantum chemistry and worked as a research scientist in East Berlin until 1989. She only entered politics after the Wall fell, at thirty-five, and was Chancellor sixteen years later. Pastor's daughter, raised in the GDR, fluent Russian."
     },
     {
       "category": "Sports",
       "question": "Jesse Owens won four golds at the 1936 Berlin Olympics. What's the truth behind the story that Hitler 'snubbed' him?",
       "options": [
+        "Hitler hosted him at a state dinner in the Olympic Village",
         "Hitler waved to him; it was FDR who ignored him",
         "Hitler walked out of the stadium and the IOC objected",
-        "Hitler hosted him at a state dinner in the Olympic Village",
         "Hitler skipped every event Owens competed in"
       ],
       "answer": "Hitler waved to him; it was FDR who ignored him",
@@ -55,50 +55,50 @@
     },
     {
       "category": "Sports",
-      "question": "What is the name of the governing body of international soccer (football)?",
+      "question": "FIFA governs world soccer and has faced repeated corruption allegations. What happened in 2015?",
       "options": [
-        "UEFA",
-        "IOC",
-        "FIFA",
-        "CONCACAF"
+        "The UN placed formal sanctions on the organisation",
+        "US authorities indicted officials, arrested in a Zurich hotel",
+        "European federations withdrew from FIFA entirely",
+        "FIFA voluntarily dissolved and reformed under a new name"
       ],
-      "answer": "FIFA",
-      "explanation": "FIFA (Fédération Internationale de Football Association) is the international governing body for soccer, founded in Paris in 1904. It oversees 211 member associations — more members than the United Nations. FIFA organizes the World Cup, Women's World Cup, and various other competitions. Its headquarters are in Zurich, Switzerland. FIFA has been frequently criticized for corruption, particularly surrounding World Cup host selection.",
-      "memory_hook": "FIFA = world soccer's governing body. 211 members — more than the UN. Founded 1904 in Paris. Has been rocked by corruption scandals, particularly around World Cup hosting bids. Qatar 2022 became the most controversial hosting decision in World Cup history."
+      "answer": "US authorities indicted officials, arrested in a Zurich hotel",
+      "explanation": "Swiss police acting on US indictments arrested FIFA officials at the Baur au Lac hotel in Zurich in May 2015, walking some out behind bedsheets to shield them from cameras. The charges covered racketeering and wire fraud around media rights worth over $150 million. Sepp Blatter was re-elected days later and resigned within a week. The US had jurisdiction because payments moved through American banks.",
+      "memory_hook": "Swiss police acting for US prosecutors arrested FIFA officials at a Zurich hotel in 2015, some led out behind bedsheets to hide from cameras. Racketeering and wire fraud over media rights worth $150 million plus. Blatter was re-elected days later and quit within a week."
     },
     {
       "category": "Pop Culture",
-      "question": "Which American director made 'Apocalypse Now' (1979), a Vietnam War film based on Joseph Conrad's 'Heart of Darkness'?",
+      "question": "Apocalypse Now (1979) nearly destroyed its director. What went wrong during production?",
       "options": [
-        "Michael Cimino",
-        "Oliver Stone",
-        "Francis Ford Coppola",
-        "Stanley Kubrick"
+        "The Philippine government seized the film mid-shoot",
+        "The negative was lost in transit and reshot entirely",
+        "Financing collapsed and the crew went unpaid for a year",
+        "A typhoon, a heart attack, and a lead actor's collapse"
       ],
-      "answer": "Francis Ford Coppola",
-      "explanation": "Francis Ford Coppola directed Apocalypse Now (1979), starring Marlon Brando, Martin Sheen, and Robert Duvall. The production was notoriously troubled — typhoon, Brando arriving unprepared and overweight, Martin Sheen's heart attack, and Coppola's mental breakdown during filming. The documentary Hearts of Darkness (1991) about the making of the film is almost as famous as the film itself.",
-      "memory_hook": "Apocalypse Now = Coppola in Vietnam, 1979. The making of it was as nightmarish as the subject. Marlon Brando showed up unprepared and 100 pounds overweight. Martin Sheen had a heart attack. A typhoon destroyed the sets. Coppola called the film 'a metaphor for Vietnam itself' — ambitious, disastrous, and somehow transcendent."
+      "answer": "A typhoon, a heart attack, and a lead actor's collapse",
+      "explanation": "A typhoon destroyed the sets, Martin Sheen had a heart attack at thirty-six, Marlon Brando arrived overweight and unprepared having not read the book, and the Philippine helicopters on loan kept leaving to fight an actual insurgency. Coppola mortgaged his own property to finish and later said the film was not about Vietnam, it was Vietnam. The shoot ran 238 days against a planned six weeks.",
+      "memory_hook": "A typhoon flattened the sets, Sheen had a heart attack at thirty-six, Brando turned up overweight without having read the book, and the borrowed Philippine helicopters kept flying off to fight a real insurgency. Coppola mortgaged his own property. 238 days against a planned six weeks."
     },
     {
       "category": "Pop Culture",
-      "question": "The song 'Imagine' (1971) was written by which musician as a vision of world peace?",
+      "question": "John Lennon later described Imagine as an anti-religious, anti-nationalist song. Why did it become so widely acceptable?",
       "options": [
-        "Paul McCartney",
-        "John Lennon",
-        "Ringo Starr",
-        "George Harrison"
+        "He said the message was sugar-coated enough to slip past",
+        "Yoko Ono rewrote the lyrics for the single version",
+        "It was only released after his death, stripped of context",
+        "Radio stations edited out the more provocative verses"
       ],
-      "answer": "John Lennon",
-      "explanation": "John Lennon wrote and recorded 'Imagine' in 1971 at his Tittenhurst Park estate in England. The song asks listeners to imagine a world without countries, religion, or possessions. It is one of the best-selling singles of all time and was voted the greatest song of the 20th century in multiple polls. Lennon was shot and killed in New York City on December 8, 1980.",
-      "memory_hook": "'Imagine' = John Lennon, 1971. Written in his English mansion, which he acknowledged was ironic for a song about no possessions. Shot and killed in 1980 outside his New York apartment by a fan. The most beloved peace anthem written by a man who died violently."
+      "answer": "He said the message was sugar-coated enough to slip past",
+      "explanation": "Lennon acknowledged the song was essentially a political statement made palatable by a gentle melody, and said as much in interviews. It has since been played at Olympic ceremonies, memorials and New Year broadcasts, often by institutions the lyrics argue against. Yoko Ono received a co-writing credit in 2017 after Lennon had long said the concept came from her book Grapefruit.",
+      "memory_hook": "Lennon admitted it was a political statement sugar-coated by a pretty tune so people would swallow it. It now gets played at Olympic ceremonies and memorials by exactly the institutions it argues against. Yoko Ono got a co-writing credit in 2017, since the idea came from her book."
     },
     {
       "category": "Pop Culture",
       "question": "Mark Rothko made 14 near-black paintings for the Rothko Chapel in Houston. What did he intend them to do?",
       "options": [
-        "Key each panel to a different faith's sacred text",
         "Shift in color with the changing light through the day",
         "Overwhelm the viewer with presence in absolute silence",
+        "Key each panel to a different faith's sacred text",
         "Serve as unfinished works darkened by his declining health"
       ],
       "answer": "Overwhelm the viewer with presence in absolute silence",
@@ -107,25 +107,25 @@
     },
     {
       "category": "Geography",
-      "question": "The Serengeti, one of Africa's most iconic national parks, is located in which country?",
+      "question": "The Serengeti hosts the largest land mammal migration on Earth. What actually drives it?",
       "options": [
-        "Tanzania",
-        "Botswana",
-        "Kenya",
-        "Uganda"
+        "A fixed migratory instinct inherited over generations",
+        "Rainfall patterns dictating where grass is growing",
+        "Predator pressure pushing herds steadily northward",
+        "Seasonal drying of the only permanent water source"
       ],
-      "answer": "Tanzania",
-      "explanation": "The Serengeti National Park is located in northern Tanzania, covering about 14,750 square kilometers. It is famous for the annual Great Migration, where over 1.5 million wildebeest, along with hundreds of thousands of zebras and gazelles, migrate in a circular route across the Serengeti and into the Maasai Mara in Kenya. The park was designated a UNESCO World Heritage Site in 1981.",
-      "memory_hook": "Serengeti = Tanzania. The Great Migration: 1.5 million wildebeest plus zebras and gazelles moving in a huge circle through Tanzania and into Kenya every year. The Maasai Mara in Kenya is where tourists watch predators intercept the migration at river crossings. Wildlife television was essentially invented at these river crossings."
+      "answer": "Rainfall patterns dictating where grass is growing",
+      "explanation": "Roughly 1.5 million wildebeest plus zebra and gazelle follow rain and the grass it produces in a rough clockwise loop through Tanzania and Kenya. The route shifts year to year with the weather rather than following a fixed path. Around 400,000 calves are born within a few weeks on the short-grass plains, swamping predators so most survive. Crossing the Mara River is the famous and lethal part, with crocodiles and drownings.",
+      "memory_hook": "About 1.5 million wildebeest plus zebra and gazelle chase rainfall and the grass it brings in a rough clockwise loop, and the route changes yearly with the weather. Some 400,000 calves drop within a few weeks so predators cannot eat them all. The Mara crossing is the part with the crocodiles."
     },
     {
       "category": "Science & Nature",
       "question": "What is the name of the boundary between Earth's crust and mantle?",
       "options": [
-        "Conrad discontinuity",
-        "Lehmann discontinuity",
         "Mohorovicic discontinuity",
-        "Gutenberg discontinuity"
+        "Gutenberg discontinuity",
+        "Lehmann discontinuity",
+        "Conrad discontinuity"
       ],
       "answer": "Mohorovicic discontinuity",
       "explanation": "The Mohorovicic discontinuity (or 'Moho') is the boundary between Earth's crust and upper mantle, located approximately 35 km below the continents and 5-10 km below the ocean floor. It was discovered by Croatian seismologist Andrija Mohorovicic in 1909 by analyzing seismic wave speeds. Below the Moho, seismic waves travel faster because of the denser mantle rock.",
@@ -133,29 +133,29 @@
     },
     {
       "category": "Geography",
-      "question": "The Schwarzwald (Black Forest), a mountainous wooded region famous in German folklore and fairy tales, is located in which German state?",
+      "question": "The Black Forest gave its name to a famous cake and something else entirely. What?",
       "options": [
-        "Saxony",
-        "Baden-Württemberg",
-        "Thuringia",
-        "Bavaria"
+        "The oldest continuously operating brewery in Europe",
+        "The first European ski resort, opened in 1840",
+        "Cuckoo clocks, made there since the eighteenth century",
+        "Germany's first national park, designated in 1902"
       ],
-      "answer": "Baden-Württemberg",
-      "explanation": "The Black Forest (Schwarzwald) is located in the state of Baden-Württemberg in southwestern Germany, west of the Rhine River. It is known for its dense pine forests (which appear black from a distance), cuckoo clock production, the Black Forest gateau (cake), and the Baden wine region. The Rhine and Neckar rivers originate in the Black Forest. Brothers Grimm fairy tales (Hansel and Gretel, Rumpelstiltskin) were set in forests like this. The spa town of Baden-Baden and the city of Freiburg are in the region.",
-      "memory_hook": "Black Forest (Schwarzwald): Baden-Württemberg, southwestern Germany. Dense pine that looks black from a distance. Source of the Rhine. Cuckoo clocks, Black Forest cake, and the setting for countless Grimm fairy tales. Brothers Grimm collected stories from peasants throughout these forests."
+      "answer": "Cuckoo clocks, made there since the eighteenth century",
+      "explanation": "Farming families in the Black Forest built clocks through long winters when field work stopped, and it grew into a major industry, with the cuckoo mechanism becoming the regional signature. The forest is named for its dense dark conifers that block light at ground level. It is also the source of the Danube, and the Brothers Grimm drew on the region's folklore.",
+      "memory_hook": "Farming families built clocks through the winters when there was no field work, and it became an industry, with the cuckoo as the local signature. The name comes from conifers so dense the forest floor stays dark. The Danube rises there, and the Grimms mined the local folklore."
     },
     {
       "category": "Science & Nature",
-      "question": "What is electrolysis, and what two gases does it produce when applied to water?",
+      "question": "Passing electricity through water splits it into hydrogen and oxygen. Why is this suddenly commercially interesting?",
       "options": [
-        "The process of charging batteries",
-        "Using electrical current to drive a non-spontaneous chemical reaction, splitting water into hydrogen and oxygen",
-        "The chemical process of oxidation in seawater",
-        "The natural flow of electricity through metal conductors, producing heat"
+        "Hydrogen made from renewables burns without carbon output",
+        "It is the cheapest way to produce drinking water",
+        "The oxygen produced is more valuable than the hydrogen",
+        "It removes dissolved carbon dioxide from seawater"
       ],
-      "answer": "Using electrical current to drive a non-spontaneous chemical reaction, splitting water into hydrogen and oxygen",
-      "explanation": "Electrolysis uses electrical current to drive chemical reactions that would not occur spontaneously. Electrolysis of water (H₂O) splits it into hydrogen gas (H₂, at the negative electrode/cathode) and oxygen gas (O₂, at the positive electrode/anode) in a 2:1 ratio. This is used to produce 'green hydrogen' when powered by renewable electricity — potentially a key clean fuel. Electrolysis also purifies metals (copper refining), produces chlorine, and is used in electroplating.",
-      "memory_hook": "Electrolysis: electricity drives non-spontaneous reactions. Split water → hydrogen (cathode) + oxygen (anode). 'Green hydrogen' from electrolysis using solar power = clean fuel. Also purifies metals, plates jewelry, produces chlorine. Water is hydrogen and oxygen — you can separate them with a 9-volt battery and two pencils."
+      "answer": "Hydrogen made from renewables burns without carbon output",
+      "explanation": "Electrolysis powered by solar or wind produces green hydrogen, which releases only water when burned or used in a fuel cell. It offers a route to decarbonising steel, shipping and fertiliser, which resist direct electrification. Most hydrogen today still comes from natural gas and emits heavily. The obstacles are efficiency losses, since you lose energy converting twice, and the difficulty of storing a molecule small enough to leak through most materials.",
+      "memory_hook": "Electrolysis run on solar or wind gives green hydrogen, which emits only water, and that matters for steel, shipping and fertiliser, which are hard to electrify directly. Most hydrogen today is still made from natural gas. The catch is you lose energy converting twice, and it leaks through almost everything."
     }
   ]
 }

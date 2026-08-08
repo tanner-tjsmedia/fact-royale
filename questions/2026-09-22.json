@@ -5,10 +5,10 @@
       "category": "History",
       "question": "Columbus landed in the Bahamas on October 12, 1492. What did he name the island he landed on?",
       "options": [
-        "San Salvador",
+        "Hispaniola",
         "Cuba",
         "San Juan",
-        "Hispaniola"
+        "San Salvador"
       ],
       "answer": "San Salvador",
       "explanation": "Columbus made landfall on an island the locals called Guanahani and renamed it San Salvador. He initially believed he'd reached Asia. The date (October 12) is now Columbus Day in the US and in many Latin American countries is Día de la Raza.",
@@ -19,9 +19,9 @@
       "question": "What is the term for the wall separating the two sides of the human heart?",
       "options": [
         "Pericardium",
-        "Septum",
+        "Aorta",
         "Mitral valve",
-        "Aorta"
+        "Septum"
       ],
       "answer": "Septum",
       "explanation": "The septum divides the heart: the interatrial septum separates the two atria; the interventricular septum separates the two ventricles. A hole in the septum is a 'septal defect' — commonly called 'hole in the heart.'",
@@ -31,10 +31,10 @@
       "category": "Sports",
       "question": "In which sport do you perform a slapshot, get called for offside, and earn a power play after a penalty?",
       "options": [
-        "Lacrosse",
+        "Field hockey",
         "Polo",
         "Ice hockey",
-        "Field hockey"
+        "Lacrosse"
       ],
       "answer": "Ice hockey",
       "explanation": "In ice hockey: slapshot = stick raised and whipped through puck (up to 100+ mph); offside = attacking player enters zone before puck; power play = opponent has a player in the penalty box.",
@@ -44,10 +44,10 @@
       "category": "Pop Culture",
       "question": "Bob Marley died at 36 of cancer in 1981. Which posthumous album became the best-selling reggae album of all time?",
       "options": [
-        "Burnin",
-        "Exodus",
+        "Legend",
         "Rastaman Vibration",
-        "Legend"
+        "Burnin",
+        "Exodus"
       ],
       "answer": "Legend",
       "explanation": "'Legend' (1984 posthumous compilation) remains on the Billboard chart and has sold over 30 million copies — the best-selling reggae album ever. Marley survived an assassination attempt in December 1976 and performed at a free concert two days later.",
@@ -57,8 +57,8 @@
       "category": "Geography",
       "question": "Which country has the highest population density in the European Union, with approximately 508 people per km²?",
       "options": [
-        "Luxembourg",
         "Denmark",
+        "Luxembourg",
         "Netherlands",
         "Belgium"
       ],
@@ -70,10 +70,10 @@
       "category": "History",
       "question": "What caused the Space Shuttle Challenger disaster on January 28, 1986?",
       "options": [
-        "Fuel tank leak",
         "O-ring seal failure in cold temperatures",
-        "Engine malfunction",
-        "Navigation error"
+        "Navigation error",
+        "Fuel tank leak",
+        "Engine malfunction"
       ],
       "answer": "O-ring seal failure in cold temperatures",
       "explanation": "O-ring seals failed in 28°F (-2°C) temperatures, allowing hot gases to escape and ignite the external tank. All 7 crew died, including teacher Christa McAuliffe. Led to 32-month halt in shuttle launches.",
@@ -83,10 +83,10 @@
       "category": "Pop Culture",
       "question": "Which Peanuts character, created by Charles Schulz in 1950, sleeps on top of a doghouse and imagines himself as a WWI flying ace?",
       "options": [
+        "Pluto",
         "Lassie",
-        "Rin Tin Tin",
         "Snoopy",
-        "Pluto"
+        "Rin Tin Tin"
       ],
       "answer": "Snoopy",
       "explanation": "Snoopy appeared in Peanuts from October 4, 1950. His WWI flying ace fantasies fighting the 'Red Baron' are iconic. Snoopy is also NASA's unofficial safety mascot.",
@@ -96,9 +96,9 @@
       "category": "Science & Nature",
       "question": "The Kyoto Protocol (1997) required binding emissions cuts. What replaced it in 2015?",
       "options": [
-        "The Paris Agreement",
-        "The Montreal Protocol",
         "The Green New Deal",
+        "The Montreal Protocol",
+        "The Paris Agreement",
         "The Copenhagen Accord"
       ],
       "answer": "The Paris Agreement",
@@ -109,10 +109,10 @@
       "category": "Geography",
       "question": "What is the Aegean Sea named after, according to Greek mythology?",
       "options": [
-        "King Aegeus, who drowned himself after mistakenly thinking his son Theseus died",
-        "The Aegean winds",
         "The city of Aegae",
-        "The eagle (aetos) that soars over it"
+        "The eagle (aetos) that soars over it",
+        "The Aegean winds",
+        "King Aegeus, who drowned himself after mistakenly thinking his son Theseus died"
       ],
       "answer": "King Aegeus, who drowned himself after mistakenly thinking his son Theseus died",
       "explanation": "The Aegean Sea is named after King Aegeus of Athens, who saw a black sail on Theseus's returning ship (Theseus forgot to change it to white to signal victory over the Minotaur). Believing his son dead, Aegeus threw himself into the sea.",
@@ -122,10 +122,10 @@
       "category": "History",
       "question": "The Magna Carta, signed by King John in 1215, established what key principle?",
       "options": [
+        "Trial by jury is mandatory",
         "Church and state must be separate",
         "Parliament controls taxation",
-        "Even kings must follow the law",
-        "Trial by jury is mandatory"
+        "Even kings must follow the law"
       ],
       "answer": "Even kings must follow the law",
       "explanation": "The Magna Carta (June 15, 1215 at Runnymede) established that even the king is bound by law. Clauses 39-40 protecting free men from imprisonment without lawful judgment became the basis for habeas corpus and human rights law.",
@@ -135,10 +135,10 @@
       "category": "Pop Culture",
       "question": "Which 2014 Marvel film, featuring Starlord, Gamora, Drax, Groot, and Rocket, had an iconic 1970s/80s pop soundtrack called Awesome Mix Vol. 1?",
       "options": [
-        "Guardians of the Galaxy",
         "Thor: Ragnarok",
-        "Avengers: Endgame",
-        "Ant-Man"
+        "Ant-Man",
+        "Guardians of the Galaxy",
+        "Avengers: Endgame"
       ],
       "answer": "Guardians of the Galaxy",
       "explanation": "Guardians of the Galaxy (2014) directed by James Gunn brought '70s songs back to the charts. The soundtrack spent 45 weeks on the Billboard chart — first MCU soundtrack to chart independently.",
@@ -148,10 +148,10 @@
       "category": "Sports",
       "question": "What does a goalie stick in ice hockey have that a regular player's stick doesn't?",
       "options": [
-        "Curved tip",
+        "Wider blade and thicker paddle (shaft section above the blade)",
         "Metal reinforcement",
         "Longer overall length",
-        "Wider blade and thicker paddle (shaft section above the blade)"
+        "Curved tip"
       ],
       "answer": "Wider blade and thicker paddle (shaft section above the blade)",
       "explanation": "A goalie stick has a wider blade and a 'paddle' — the thick rectangular section of the shaft above the blade — that allows goalies to block more ice. Goalies also use blockers and catching gloves as equipment.",

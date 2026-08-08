@@ -6,9 +6,9 @@
       "question": "Which U.S. president, who served four terms from 1933 to 1945, launched the New Deal to combat the Great Depression and led the country through most of World War II?",
       "options": [
         "Theodore Roosevelt",
-        "Franklin D. Roosevelt",
+        "Herbert Hoover",
         "Woodrow Wilson",
-        "Herbert Hoover"
+        "Franklin D. Roosevelt"
       ],
       "answer": "Franklin D. Roosevelt",
       "explanation": "Franklin D. Roosevelt (FDR) is the only U.S. president to have served more than two terms. His New Deal programs created jobs and provided relief during the Great Depression. He led the US through WWII but died in office on April 12, 1945, just weeks before Germany surrendered.",
@@ -18,10 +18,10 @@
       "category": "History",
       "question": "The Black Death, a devastating pandemic that killed roughly one-third of Europe's population, swept across the continent during which century?",
       "options": [
-        "15th century",
         "12th century",
-        "14th century",
-        "13th century"
+        "15th century",
+        "13th century",
+        "14th century"
       ],
       "answer": "14th century",
       "explanation": "The Black Death (1347-1351) was a bubonic plague pandemic caused by the bacterium Yersinia pestis, spread by fleas on rats. It killed an estimated 30-60% of Europe's population — possibly 75-200 million people worldwide. The loss of labor led to social upheaval that some historians argue helped end feudalism and accelerate the Renaissance and Reformation.",
@@ -31,9 +31,9 @@
       "category": "Geography",
       "question": "Antoni Gaudí's masterpiece, the Sagrada Família — a massive basilica still under construction over 140 years after it began — is located in which Spanish city?",
       "options": [
-        "Barcelona",
         "Valencia",
         "Madrid",
+        "Barcelona",
         "Seville"
       ],
       "answer": "Barcelona",
@@ -57,10 +57,10 @@
       "category": "Sports",
       "question": "In baseball, how many strikes result in a strikeout?",
       "options": [
-        "4",
-        "2",
+        "5",
         "3",
-        "5"
+        "2",
+        "4"
       ],
       "answer": "3",
       "explanation": "Three strikes result in a strikeout in baseball. A 'K' is the scoring shorthand for a strikeout — from the last letter of 'struck,' since 'S' was already used for sacrifice. A batter can foul off the third strike indefinitely (as long as the catcher doesn't catch it), but cannot foul into a third strikeout if they swing and foul the ball directly into the catcher's mitt.",
@@ -72,8 +72,8 @@
       "options": [
         "Both fighters were knocked down multiple times before a judge's decision separated them after 15 rounds",
         "The fight lasted 14 exhausting rounds in 100-degree heat before Frazier's corner stopped it; both men later said it nearly killed them",
-        "Ali was knocked out in round 12, costing him the title in the only loss of his prime years",
-        "The fight was stopped after 8 rounds when both fighters collapsed from heat exhaustion simultaneously"
+        "The fight was stopped after 8 rounds when both fighters collapsed from heat exhaustion simultaneously",
+        "Ali was knocked out in round 12, costing him the title in the only loss of his prime years"
       ],
       "answer": "The fight lasted 14 exhausting rounds in 100-degree heat before Frazier's corner stopped it; both men later said it nearly killed them",
       "explanation": "Fought in Manila, Philippines on October 1, 1975, in brutal heat and humidity, the Thrilla in Manila lasted 14 rounds before Joe Frazier's trainer Eddie Futch stopped the fight to protect Frazier — who was virtually blind from swelling. Ali later said it was 'the closest thing to dying that I know.' Both men's health declined sharply in subsequent years. Ali won all three fights in the trilogy but Frazier won their first — the 'Fight of the Century' in 1971.",
@@ -83,10 +83,10 @@
       "category": "Pop Culture",
       "question": "Chernobyl (HBO, 2019), a five-episode miniseries by Craig Mazin, received near-universal critical acclaim and broke records on IMDb. What storytelling approach made it distinctive?",
       "options": [
-        "It was shot on location in the actual Chernobyl Exclusion Zone, with the production receiving special Ukrainian government permits to film inside Reactor No. 4's sarcophagus",
+        "It reconstructed the disaster through meticulous historical research — dramatizing not just the explosion but the systemic institutional lying and Soviet political culture that caused it and amplified its consequences",
         "It dramatized the disaster entirely from the perspective of first responders who died in the weeks following the explosion, using their testimony recovered from Soviet archives never previously released",
-        "It was the first TV production to use radiation dosimetry meters on the cast and crew throughout filming as an artistic statement, displaying live readings as on-screen graphics",
-        "It reconstructed the disaster through meticulous historical research — dramatizing not just the explosion but the systemic institutional lying and Soviet political culture that caused it and amplified its consequences"
+        "It was shot on location in the actual Chernobyl Exclusion Zone, with the production receiving special Ukrainian government permits to film inside Reactor No. 4's sarcophagus",
+        "It was the first TV production to use radiation dosimetry meters on the cast and crew throughout filming as an artistic statement, displaying live readings as on-screen graphics"
       ],
       "answer": "It reconstructed the disaster through meticulous historical research — dramatizing not just the explosion but the systemic institutional lying and Soviet political culture that caused it and amplified its consequences",
       "explanation": "Chernobyl's central drama isn't just the April 1986 explosion — it's the Soviet system's pathological inability to tell the truth about it. Valery Legasov (Jared Harris) and Ulana Khomyuk (a composite character representing multiple scientists) work to uncover what happened while party officials suppress information that costs lives. Mazin spent two years researching Soviet bureaucracy, the physics of the RBMK reactor, and first-responder accounts. The show briefly held the top spot on IMDb's all-time ratings list with 9.4/10.",
@@ -96,10 +96,10 @@
       "category": "Pop Culture",
       "question": "Nirvana's 'Nevermind' (1991) featured which iconic swimming baby on its cover?",
       "options": [
-        "Krist Novoselic's son",
-        "Spencer Elden",
         "Dave Grohl's son",
-        "Kurt Cobain as a baby"
+        "Kurt Cobain as a baby",
+        "Spencer Elden",
+        "Krist Novoselic's son"
       ],
       "answer": "Spencer Elden",
       "explanation": "Spencer Elden was the 4-month-old baby photographed for Nevermind's cover, swimming toward a dollar bill on a fishhook. The album sold 30 million copies and is one of the best-selling albums ever. Nevermind's release is often cited as the moment grunge went mainstream and alternative rock overtook pop on radio and MTV. Elden later sued Nirvana over the image.",
@@ -109,10 +109,10 @@
       "category": "Pop Culture",
       "question": "Jean-Baptiste Lully, court composer to Louis XIV and one of the founders of French opera, died in one of history's most unusual composer deaths. What happened?",
       "options": [
-        "While conducting a Te Deum with a long staff used to beat time on the floor, Lully struck his own foot — the resulting gangrene spread and killed him after he refused amputation so he could dance again",
-        "Lully was poisoned by rivals at the French court who were jealous of his exclusive royal patronage — the poisoning was confirmed by forensic analysis of his remains in the 21st century",
+        "Lully collapsed at the harpsichord during a performance after suffering a stroke triggered by the extreme physical exertion required by his conducting style — he died within minutes on stage",
         "Lully died after being struck by a chandelier that fell during a thunderstorm while he was conducting a performance for Louis XIV at Versailles",
-        "Lully collapsed at the harpsichord during a performance after suffering a stroke triggered by the extreme physical exertion required by his conducting style — he died within minutes on stage"
+        "While conducting a Te Deum with a long staff used to beat time on the floor, Lully struck his own foot — the resulting gangrene spread and killed him after he refused amputation so he could dance again",
+        "Lully was poisoned by rivals at the French court who were jealous of his exclusive royal patronage — the poisoning was confirmed by forensic analysis of his remains in the 21st century"
       ],
       "answer": "While conducting a Te Deum with a long staff used to beat time on the floor, Lully struck his own foot — the resulting gangrene spread and killed him after he refused amputation so he could dance again",
       "explanation": "In January 1687, Lully was conducting a Te Deum to celebrate Louis XIV's recovery from illness. He was using a long pointed staff (a bâton) to beat time by striking the floor — the method before conductor's batons. He accidentally drove it into his toe. The wound became gangrenous. Doctors recommended amputation; Lully refused because he still wanted to dance (he was also a celebrated dancer and choreographer). Gangrene spread and he died in March 1687. He is often cited as one of the earliest known victims of a conducting accident — and the reason we now use small batons.",
@@ -122,10 +122,10 @@
       "category": "Geography",
       "question": "What is the name of the narrow body of water that separates the Asian and North American continents?",
       "options": [
+        "Drake Passage",
         "Davis Strait",
-        "Bering Strait",
         "Strait of Magellan",
-        "Drake Passage"
+        "Bering Strait"
       ],
       "answer": "Bering Strait",
       "explanation": "The Bering Strait separates Russia (Asia) from Alaska (North America) at its narrowest point — only about 85 km wide. During the last Ice Age, lower sea levels exposed a land bridge here called Beringia, which humans used to migrate from Asia into the Americas approximately 15,000-25,000 years ago. The strait was named after Danish explorer Vitus Bering, who sailed through it in 1728.",
@@ -135,10 +135,10 @@
       "category": "Science & Nature",
       "question": "What is the name for a group of stars that forms a recognizable pattern, like Orion or the Big Dipper?",
       "options": [
-        "Nebula",
-        "Constellation",
         "Galaxy",
-        "Solar system"
+        "Solar system",
+        "Constellation",
+        "Nebula"
       ],
       "answer": "Constellation",
       "explanation": "A constellation is a group of stars that forms a recognizable pattern when viewed from Earth. The International Astronomical Union recognizes 88 official constellations covering the entire sky. Ancient cultures worldwide used constellations for navigation, agriculture, and mythology. Orion, the Big Dipper (Ursa Major), and Scorpius are among the most recognizable in the Northern Hemisphere.",
@@ -149,8 +149,8 @@
       "question": "What are vestigial structures — and what do they reveal about evolution?",
       "options": [
         "Genetic mutations that benefit organisms",
-        "New structures evolved in response to environmental change",
         "Structures that serve no known function and are inherited from ancestors who used them",
+        "New structures evolved in response to environmental change",
         "Structures found only in embryos"
       ],
       "answer": "Structures that serve no known function and are inherited from ancestors who used them",

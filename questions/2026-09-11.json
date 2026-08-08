@@ -5,10 +5,10 @@
       "category": "History",
       "question": "The Reformation began in 1517 when which German monk nailed his '95 Theses' to the church door in Wittenberg, challenging Catholic practices?",
       "options": [
-        "Martin Luther",
         "Henry VIII",
         "Huldrych Zwingli",
-        "John Calvin"
+        "John Calvin",
+        "Martin Luther"
       ],
       "answer": "Martin Luther",
       "explanation": "Martin Luther's 95 Theses primarily challenged the sale of indulgences (paying to reduce punishment for sins). Luther was excommunicated in 1521. His translation of the Bible into German (1522) helped standardize the German language. The Reformation split Western Christianity into Catholic and Protestant branches.",
@@ -18,10 +18,10 @@
       "category": "Science & Nature",
       "question": "What is the name of the phenomenon where light bends around a massive object due to the curvature of spacetime, as predicted by Einstein's General Relativity?",
       "options": [
-        "Gravitational lensing",
-        "Dark energy effect",
         "Time dilation",
-        "Redshift"
+        "Redshift",
+        "Gravitational lensing",
+        "Dark energy effect"
       ],
       "answer": "Gravitational lensing",
       "explanation": "Gravitational lensing was first confirmed during the 1919 solar eclipse, when Sir Arthur Eddington observed starlight bending around the Sun — exactly as Einstein predicted. It allows astronomers to observe distant galaxies and dark matter by seeing how they bend light from objects behind them.",
@@ -31,10 +31,10 @@
       "category": "Sports",
       "question": "Which Canadian city hosts the annual Toronto Raptors games, making it the only NBA franchise outside the United States?",
       "options": [
+        "Vancouver",
         "Montreal",
-        "Toronto",
         "Ottawa",
-        "Vancouver"
+        "Toronto"
       ],
       "answer": "Toronto",
       "explanation": "The Toronto Raptors joined the NBA in 1995. They won their only championship in 2019 — defeating the Golden State Warriors — becoming the first non-U.S. team to win the NBA title. Kawhi Leonard's buzzer-beater against the Philadelphia 76ers in the 2019 playoffs became one of the most iconic moments in NBA history.",
@@ -44,10 +44,10 @@
       "category": "Pop Culture",
       "question": "Which 2009 James Cameron film, the highest-grossing film of all time, depicts humans exploiting the resources of an alien moon called Pandora?",
       "options": [
-        "Interstellar",
+        "Avatar",
         "District 9",
         "Gravity",
-        "Avatar"
+        "Interstellar"
       ],
       "answer": "Avatar",
       "explanation": "Avatar (2009) grossed $2.923 billion, making it the highest-grossing film ever (surpassing Titanic). Cameron's use of motion capture and stereoscopic 3D filming was revolutionary. Avatar: The Way of Water (2022) grossed $2.3 billion. The film drew criticism for its story resemblance to 'Dances with Wolves' but praise for its visual spectacle.",
@@ -57,10 +57,10 @@
       "category": "Geography",
       "question": "The Mekong River, one of Southeast Asia's most important waterways, flows through six countries. Which country does it NOT flow through?",
       "options": [
-        "Laos",
         "Myanmar",
+        "India",
         "China",
-        "India"
+        "Laos"
       ],
       "answer": "India",
       "explanation": "The Mekong flows through China, Myanmar, Laos, Thailand, Cambodia, and Vietnam before emptying into the South China Sea. It is the world's 12th longest river and supports the most biodiverse freshwater ecosystem after the Amazon. The Mekong Delta in Vietnam produces about half of Vietnam's rice.",
@@ -71,9 +71,9 @@
       "question": "Which Renaissance artist, sculptor, and architect painted the Sistine Chapel ceiling (1508-1512) in Rome?",
       "options": [
         "Raphael",
+        "Michelangelo",
         "Botticelli",
-        "Leonardo da Vinci",
-        "Michelangelo"
+        "Leonardo da Vinci"
       ],
       "answer": "Michelangelo",
       "explanation": "Michelangelo painted the Sistine Chapel ceiling lying on his back on scaffolding over four years. The centerpiece is 'The Creation of Adam' — God reaching toward Adam. He initially refused the commission, preferring sculpture. His other masterworks include the David statue (Florence) and St. Peter's Basilica's dome design (Rome).",
@@ -84,9 +84,9 @@
       "question": "Steve McQueen's relationship to motorsport was unusual for a Hollywood star. What set him apart?",
       "options": [
         "He learned to drive for Bullitt, never having owned a car",
-        "He raced Le Mans for real, finishing second in 1970",
+        "He raced European touring cars under a pseudonym",
         "He held both a bike license and an F1 test contract",
-        "He raced European touring cars under a pseudonym"
+        "He raced Le Mans for real, finishing second in 1970"
       ],
       "answer": "He raced Le Mans for real, finishing second in 1970",
       "explanation": "McQueen raced seriously — motorcycles and cars. He entered the 1970 24 Hours of Le Mans driving a Porsche 917, finishing second overall despite a foot injury from a previous crash. The experience became an obsession: he spent years developing 'Le Mans' (1971), which used real race footage and real drivers, prioritized authenticity over plot, and came in massively over budget. Solar Productions, his company, nearly went bankrupt. He did perform much of his own stunt driving in Bullitt. He held a SCCA competition license and regularly raced for real. He died in 1980 from mesothelioma linked to asbestos insulation in racing suits.",
@@ -97,8 +97,8 @@
       "question": "What is the name of the chemical element with atomic number 1, the lightest element and most abundant in the universe?",
       "options": [
         "Hydrogen",
-        "Carbon",
         "Helium",
+        "Carbon",
         "Lithium"
       ],
       "answer": "Hydrogen",
@@ -109,10 +109,10 @@
       "category": "Geography",
       "question": "Which large island, located north of Scotland, is an autonomous territory of Denmark and the world's largest island?",
       "options": [
-        "Newfoundland",
-        "Greenland",
+        "Baffin Island",
         "Iceland",
-        "Baffin Island"
+        "Greenland",
+        "Newfoundland"
       ],
       "answer": "Greenland",
       "explanation": "Greenland covers 2.166 million km², making it the world's largest island (Australia, while bigger, is classified as a continent). Despite being 80% ice-covered, it is classified as not a continent. Greenland has about 56,000 inhabitants — one of the lowest population densities on Earth. Denmark colonized it in the 18th century.",
@@ -122,8 +122,8 @@
       "category": "History",
       "question": "The Stonewall Inn riots of June 1969 in New York City were a pivotal moment in which civil rights movement?",
       "options": [
-        "African American civil rights",
         "LGBTQ+ rights",
+        "African American civil rights",
         "Disability rights",
         "Women's rights"
       ],
@@ -137,8 +137,8 @@
       "options": [
         "Stand by Me",
         "Back to the Future",
-        "Ferris Bueller's Day Off",
-        "The Goonies"
+        "The Goonies",
+        "Ferris Bueller's Day Off"
       ],
       "answer": "Stand by Me",
       "explanation": "Stand by Me (1985) starred River Phoenix, Wil Wheaton, Corey Feldman, and Jerry O'Connell. The title song was a cover of Ben E. King's 1961 hit. The film (based on King's novella 'The Body') is widely considered one of the most accurate depictions of childhood friendship in cinema.",
@@ -148,10 +148,10 @@
       "category": "Sports",
       "question": "In track and field, the decathlon is a two-day event combining 10 disciplines. Which athlete won the 1976 Olympic decathlon with a world-record score and graced the Wheaties cereal box?",
       "options": [
-        "Bruce Jenner",
         "Bob Mathias",
-        "Dan O'Brien",
-        "Daley Thompson"
+        "Bruce Jenner",
+        "Daley Thompson",
+        "Dan O'Brien"
       ],
       "answer": "Bruce Jenner",
       "explanation": "Bruce Jenner (now Caitlyn Jenner) won the 1976 Montreal Olympic decathlon with a world-record 8,634 points, earning the informal title 'World's Greatest Athlete.' The Wheaties sponsorship made Jenner a household name. The decathlon events include 100m, long jump, shot put, high jump, 400m (day 1) and 110m hurdles, discus, pole vault, javelin, 1500m (day 2).",

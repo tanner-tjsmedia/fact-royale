@@ -5,10 +5,10 @@
       "category": "History",
       "question": "Italy's flag is a horizontal tricolor of green, white, and red. When was it first used?",
       "options": [
-        "1946, when Italy became a republic",
-        "1861, when Italy unified",
         "1848, during the revolutions of that year",
-        "1797, inspired by the French Revolution; oldest tricolor still in use"
+        "1797, inspired by the French Revolution; oldest tricolor still in use",
+        "1861, when Italy unified",
+        "1946, when Italy became a republic"
       ],
       "answer": "1797, inspired by the French Revolution; oldest tricolor still in use",
       "explanation": "Italy's tricolor was first used by the Cispadane Republic in 1797, inspired by Napoleon and the French Revolution. It became the flag of unified Italy in 1861. Green-white-red is one of the most recognized flag designs globally.",
@@ -18,10 +18,10 @@
       "category": "Science & Nature",
       "question": "What is transpiration in plants and how much water can a large tree transpire per day?",
       "options": [
-        "Evaporation of water from leaf stomata, drawing water up from roots; a large tree can transpire ~400 liters/day",
-        "Condensation on leaf surfaces; varies by humidity",
         "Transport of water through the roots only; about 50 liters/day",
-        "Absorption of water through leaves; about 10 liters/day"
+        "Condensation on leaf surfaces; varies by humidity",
+        "Absorption of water through leaves; about 10 liters/day",
+        "Evaporation of water from leaf stomata, drawing water up from roots; a large tree can transpire ~400 liters/day"
       ],
       "answer": "Evaporation of water from leaf stomata, drawing water up from roots; a large tree can transpire ~400 liters/day",
       "explanation": "Transpiration drives water movement through xylem via suction created when water evaporates from leaf stomata. A large tree can lose ~400 liters/day. Globally, transpiration contributes ~10% of atmospheric moisture.",
@@ -45,9 +45,9 @@
       "question": "Apocalypse Now (1979) was legendarily troubled in production. How long did filming in the Philippines take?",
       "options": [
         "Over 2 years (730+ days)",
-        "6 months (180 days), only slightly over schedule",
         "238 days — more than double the planned schedule",
-        "90 days as planned"
+        "90 days as planned",
+        "6 months (180 days), only slightly over schedule"
       ],
       "answer": "238 days — more than double the planned schedule",
       "explanation": "Apocalypse Now (1979) was shot in the Philippines for 238 days, documented in 'Hearts of Darkness: A Filmmaker's Apocalypse.' Brando arrived overweight and unprepared. It won Oscars for Best Cinematography and Best Sound.",
@@ -57,10 +57,10 @@
       "category": "Geography",
       "question": "South Korea has the world's fastest internet speeds. Where does Hangul (the Korean alphabet) rank among world writing systems in terms of how it was created?",
       "options": [
+        "It evolved naturally over centuries like most writing systems",
         "Extremely unusual — Hangul is one of the only writing systems deliberately designed as a scientific system by known authors",
         "It was borrowed from Chinese characters and slightly modified",
-        "It was designed by linguists in the 20th century during Japan's occupation",
-        "It evolved naturally over centuries like most writing systems"
+        "It was designed by linguists in the 20th century during Japan's occupation"
       ],
       "answer": "Extremely unusual — Hangul is one of the only writing systems deliberately designed as a scientific system by known authors",
       "explanation": "Most writing systems evolved organically over centuries. Hangul was deliberately designed by King Sejong the Great and his scholars in 1443 — intentionally scientific and phonetic. South Korea has the world's fastest internet and leads in K-pop, gaming, and semiconductors.",
@@ -71,8 +71,8 @@
       "question": "Self-taught Indian mathematician Srinivasa Ramanujan (1887-1920) claimed some of his mathematical insights came from where?",
       "options": [
         "From patterns he observed in nature in rural India",
-        "From collaboration with British mathematicians via letter before coming to England",
         "From reading Euler's complete works in secret",
+        "From collaboration with British mathematicians via letter before coming to England",
         "Dreams sent by his family's Hindu goddess Namagiri — he would wake with theorems and verify them"
       ],
       "answer": "Dreams sent by his family's Hindu goddess Namagiri — he would wake with theorems and verify them",
@@ -83,10 +83,10 @@
       "category": "Pop Culture",
       "question": "Noah Hawley's Fargo (FX) expanded the Coen Brothers' film rather than remaking it. What structural choice made that work?",
       "options": [
-        "Each season continues directly from the last",
-        "Each season is a prequel to the 1996 film",
         "New characters each season, same tone and setting",
-        "The film's original cast returns in new roles"
+        "The film's original cast returns in new roles",
+        "Each season is a prequel to the 1996 film",
+        "Each season continues directly from the last"
       ],
       "answer": "New characters each season, same tone and setting",
       "explanation": "Hawley's brilliant solution was to honor the Coen Brothers' sensibility — deadpan dark comedy, Minnesota Nice politeness colliding with brutal violence, morally ordinary people making catastrophic decisions — without being enslaved to the original story. Season 1 (Billy Bob Thornton, Martin Freeman) set in 2006; Season 2 (Patrick Wilson, Kirsten Dunst) in 1979; Season 4 in 1950s Kansas City. Season 2 is often cited by critics as the series' peak. The anthology format allowed each season to be judged on its own merits.",
@@ -96,10 +96,10 @@
       "category": "Science & Nature",
       "question": "What is specific heat capacity, and why does water's high specific heat matter for Earth's climate?",
       "options": [
-        "Energy to vaporize 1 kg; water absorbs solar radiation into clouds",
         "Energy to raise 1 g by 1°F; water's average value stabilizes air temperatures only",
         "Heat released per kilogram during melting; water stores heat during the day and releases it at night",
-        "Energy to raise 1 kg by 1°C; water's high value (4,186 J/kg°C) makes oceans moderate climate extremes"
+        "Energy to raise 1 kg by 1°C; water's high value (4,186 J/kg°C) makes oceans moderate climate extremes",
+        "Energy to vaporize 1 kg; water absorbs solar radiation into clouds"
       ],
       "answer": "Energy to raise 1 kg by 1°C; water's high value (4,186 J/kg°C) makes oceans moderate climate extremes",
       "explanation": "Specific heat capacity is energy required to raise 1 kg of a substance by 1°C. Water's is very high (4,186 J/kg°C), so oceans absorb and release heat slowly — moderating coastal climates. Metals have low specific heat and heat/cool quickly.",
@@ -122,8 +122,8 @@
       "category": "History",
       "question": "The terracotta army discovered in 1974 was built to protect which Chinese emperor in the afterlife?",
       "options": [
-        "Qin Shi Huang (First Emperor of China, died 210 BC)",
         "Emperor Yongle of the Ming Dynasty",
+        "Qin Shi Huang (First Emperor of China, died 210 BC)",
         "Han Wudi",
         "Kublai Khan"
       ],
@@ -136,9 +136,9 @@
       "question": "Ridley Scott's Napoleon (2023) starred Joaquin Phoenix. What response did Scott give to French historians who criticized the film's historical inaccuracies?",
       "options": [
         "'It's a movie, not a documentary — use Wikipedia'",
-        "'Were you there?' — Scott dismissed critics who weren't present in history",
+        "He apologized and issued a director's cut with corrections",
         "'The French always complain about Napoleon films'",
-        "He apologized and issued a director's cut with corrections"
+        "'Were you there?' — Scott dismissed critics who weren't present in history"
       ],
       "answer": "'Were you there?' — Scott dismissed critics who weren't present in history",
       "explanation": "French historians objected to multiple inaccuracies in Napoleon (2023), including Napoleon attending Marie Antoinette's execution (he wasn't there). Scott's response: 'Were you there?' The film focused on Napoleon's obsessive relationship with Joséphine.",
@@ -148,10 +148,10 @@
       "category": "Sports",
       "question": "The modern Olympic Games were revived in 1896 by Pierre de Coubertin. When did Summer and Winter Olympics start being held in alternate even-numbered years (instead of the same year)?",
       "options": [
+        "1980 — after the boycott disruptions",
         "1968 — to allow more preparation time",
         "1994 — they were staggered to avoid competition",
-        "1924 — when the Winter Olympics were first held",
-        "1980 — after the boycott disruptions"
+        "1924 — when the Winter Olympics were first held"
       ],
       "answer": "1994 — they were staggered to avoid competition",
       "explanation": "Until 1992, both Summer and Winter Olympics were held in the same year (leap years). Starting with the 1994 Lillehammer Winter Olympics, they were staggered to alternate even-numbered years. The Olympic motto: 'Citius, Altius, Fortius — Communiter' (Faster, Higher, Stronger — Together).",

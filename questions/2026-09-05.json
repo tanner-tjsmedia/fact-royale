@@ -3,146 +3,153 @@
   "questions": [
     {
       "category": "History",
-      "question": "The Lighthouse of Alexandria was built around 280 BC on which island in Alexandria's harbor — a name that became the word for 'lighthouse' in French, Spanish, and Italian?",
+      "question": "The Lighthouse of Alexandria stood on Pharos island for over 1,500 years. What ended it?",
       "options": [
-        "Cyprus",
-        "Crete",
-        "Pharos",
-        "Rhodes"
+        "Rising sea levels that undermined the foundation stones",
+        "Deliberate demolition by an incoming Ottoman governor",
+        "A series of earthquakes that toppled it over centuries",
+        "A fire that consumed the wooden upper structure entirely"
       ],
-      "answer": "Pharos",
-      "explanation": "The Lighthouse of Alexandria stood on Pharos Island in the harbor of Alexandria, Egypt. Built around 280 BC under Ptolemy I, it was 100-137 meters tall — one of the tallest structures of the ancient world. The name 'Pharos' gave rise to the word for lighthouse in several European languages: phare (French), faro (Spanish and Italian), farol (Portuguese). The lighthouse was toppled by a series of earthquakes between the 10th and 14th centuries; its submerged ruins were discovered in 1994.",
-      "memory_hook": "Pharos Island = word for lighthouse in French (phare), Spanish/Italian (faro). One lighthouse so famous it named every lighthouse that followed in those languages. Built 280 BC, destroyed by medieval earthquakes."
+      "answer": "A series of earthquakes that toppled it over centuries",
+      "explanation": "Earthquakes between the 10th and 14th centuries brought it down in stages, and the stone was used to build a fort on the same site. It stood roughly 100 metres and was among the tallest structures on Earth for centuries. Divers found large blocks in Alexandria's harbour in 1994, likely from the lighthouse. The word for lighthouse in French, Spanish and Italian still derives from Pharos.",
+      "memory_hook": "Earthquakes brought it down in stages between the 10th and 14th centuries, and the stone went into a fort on the same spot. About 100 metres tall, among the tallest things on Earth for centuries. Divers found blocks in the harbour in 1994. French and Spanish still call a lighthouse a phare or faro."
     },
     {
       "category": "Science & Nature",
-      "question": "What is the name of the fundamental force that holds quarks together inside protons and neutrons?",
+      "question": "The strong nuclear force binds quarks together. What makes it behave unlike gravity?",
       "options": [
-        "Gravity",
-        "Electromagnetism",
-        "Strong nuclear force",
-        "Weak nuclear force"
+        "It only operates between particles of identical charge",
+        "It weakens to nothing beyond the width of one atom",
+        "It gets stronger as quarks are pulled further apart",
+        "It acts instantly across any distance in the universe"
       ],
-      "answer": "Strong nuclear force",
-      "explanation": "The strong nuclear force is the strongest of the four fundamental forces — about 100 times stronger than electromagnetism. It acts only at very short ranges (within the nucleus). It holds quarks together via particles called gluons, and also keeps protons and neutrons bound in the nucleus despite protons repelling each other electromagnetically.",
-      "memory_hook": "Strong force: strongest of 4 forces. Holds quarks together via gluons. Only works inside nucleus."
+      "answer": "It gets stronger as quarks are pulled further apart",
+      "explanation": "Gravity and electromagnetism weaken with distance; the strong force does the opposite between quarks, behaving somewhat like a stretching elastic band. Pull hard enough and the energy invested becomes new quark pairs rather than freeing the original, which is why isolated quarks have never been observed. This is called confinement. The force is roughly 100 times stronger than electromagnetism but acts only across subatomic distances.",
+      "memory_hook": "Gravity fades with distance; the strong force between quarks does the reverse, like an elastic band. Pull hard enough and the energy just makes new quarks instead of freeing the one you wanted, which is why nobody has ever seen a lone quark. That is confinement."
     },
     {
       "category": "Sports",
-      "question": "Which swimmer won the most medals (23 gold, 3 silver, 2 bronze) in Olympic history, making him the most decorated Olympian of all time?",
+      "question": "Michael Phelps won 28 Olympic medals. How does that compare to entire countries?",
       "options": [
-        "Mark Spitz",
-        "Michael Phelps",
-        "Ryan Lochte",
-        "Ian Thorpe"
+        "More golds than 66 nations have won in their entire history",
+        "Fewer golds than any nation that has hosted a Summer Games",
+        "Exactly matching the combined total of all African nations",
+        "Roughly equal to Australia's total across every sport"
       ],
-      "answer": "Michael Phelps",
-      "explanation": "Michael Phelps won 28 Olympic medals total: 23 gold, 3 silver, 2 bronze, across four Olympic Games (2000-2016). At the 2008 Beijing Olympics he won 8 gold medals in a single Games, surpassing Mark Spitz's 1972 record of 7. Phelps also held the record for most individual golds of any Olympian.",
-      "memory_hook": "Phelps: 28 Olympic medals (23 gold). 8 golds at 2008 Beijing. Greatest Olympian ever."
+      "answer": "More golds than 66 nations have won in their entire history",
+      "explanation": "Phelps has 23 Olympic golds. Sixty-six countries have won fewer than that across their entire Olympic history, and a further group have never won gold at all. Measured against the nations competing at Rio 2016 he would have ranked ahead of all but 32 of them, one behind host Brazil. He was diagnosed with ADHD as a child, and has since spoken openly about depression following the 2012 Games.",
+      "memory_hook": "Twenty-three golds, more than 66 countries have managed in their entire Olympic history. Ranked as a nation at Rio he would have finished ahead of all but 32 competing countries, one gold behind Brazil. Diagnosed with ADHD as a child; he has since talked openly about depression after London 2012.",
+      "sources": [
+        {
+          "claim": "66 countries have won fewer than Phelps's 23 golds all-time",
+          "source": "https://time.com/4446971/rio-2016-olympics-michael-phelps-gold-medals/",
+          "checked": "2026-08-08"
+        }
+      ]
     },
     {
       "category": "Pop Culture",
-      "question": "Which British actor played the role of James Bond in the most films (7), making his debut in Dr. No (1962)?",
+      "question": "Several actors have played James Bond. What makes counting the films complicated?",
       "options": [
-        "Pierce Brosnan",
-        "Daniel Craig",
-        "Sean Connery",
-        "Roger Moore"
+        "Three actors played the role in the same year once",
+        "Two Bond films were made outside the official series",
+        "The first Bond film was made for television, not cinema",
+        "Two films were released with two different actors in them"
       ],
-      "answer": "Roger Moore",
-      "explanation": "Roger Moore played Bond seven times (1973-1985), more than any other actor. Sean Connery played Bond six times (plus one unofficial film). Daniel Craig played Bond five times. Moore's Bond was known for a more light-hearted, quip-heavy style compared to Connery's harder edge.",
-      "memory_hook": "Roger Moore: Bond 7 times, most of any actor. 1973-1985. Connery: 6 times. Craig: 5 times."
+      "answer": "Two Bond films were made outside the official series",
+      "explanation": "Casino Royale in 1967 was a spoof with David Niven, and Never Say Never Again in 1983 brought Sean Connery back outside the EON series after a long rights dispute over Thunderball. Neither is counted in the official run. Roger Moore appeared in seven official films, one more than Connery's six for EON. Bond was also first played on television in 1954, by American actor Barry Nelson, as Jimmy Bond.",
+      "memory_hook": "Casino Royale in 1967 was a spoof with David Niven, and Never Say Never Again in 1983 got Connery back outside the official series after a rights fight. Neither counts. Moore did seven official films to Connery's six. And an American played him on TV in 1954, as Jimmy Bond."
     },
     {
       "category": "Geography",
-      "question": "The Mariana Trench, the deepest point on Earth's surface, reaches a depth of approximately 11 km. In which ocean is it located?",
+      "question": "The Mariana Trench reaches nearly 11km down. How many people have been to the bottom?",
       "options": [
-        "Indian Ocean",
-        "Arctic Ocean",
-        "Pacific Ocean",
-        "Atlantic Ocean"
+        "Around fifty, mostly military submarine crews",
+        "Fewer than have walked on the surface of the Moon",
+        "None; only uncrewed robotic vehicles have reached it",
+        "Several hundred, since commercial dives began in 2015"
       ],
-      "answer": "Pacific Ocean",
-      "explanation": "The Mariana Trench lies in the western Pacific Ocean, east of the Mariana Islands. Its deepest point, Challenger Deep, is approximately 10,935 meters below sea level. James Cameron reached the bottom in a solo submersible in 2012. The pressure there is over 1,000 times atmospheric pressure at sea level.",
-      "memory_hook": "Mariana Trench: Pacific, 10,935m deep. James Cameron dived solo to the bottom in 2012."
+      "answer": "Fewer than have walked on the surface of the Moon",
+      "explanation": "Twelve people have walked on the Moon; only a handful have reached Challenger Deep. Piccard and Walsh went first in 1960, James Cameron made a solo dive in 2012, and Victor Vescovo has since made repeat descents. Pressure at the bottom is over 1,000 times surface atmospheric, equivalent to several elephants standing on a postage stamp. Plastic bags and amphipods with plastic in their gut have been found there.",
+      "memory_hook": "Twelve people have walked on the Moon and only a handful have reached Challenger Deep. Piccard and Walsh in 1960, Cameron alone in 2012, Vescovo repeatedly since. Pressure is over 1,000 atmospheres. They have found plastic bags down there."
     },
     {
       "category": "History",
-      "question": "The Indian Independence Act of 1947 partitioned British India into two nations. Which leader of the Indian National Congress became India's first prime minister?",
+      "question": "Nehru became India's first prime minister in 1947. What was Partition's human cost?",
       "options": [
-        "Jawaharlal Nehru",
-        "Sardar Patel",
-        "Subhas Chandra Bose",
-        "Mahatma Gandhi"
+        "Between 10 and 20 million displaced and up to a million dead",
+        "Around two million displaced with almost no loss of life",
+        "Roughly 200,000 relocated under an orderly government scheme",
+        "Fewer than 50,000 affected, mostly government employees"
       ],
-      "answer": "Jawaharlal Nehru",
-      "explanation": "India and Pakistan became independent on August 14-15, 1947. Jawaharlal Nehru delivered the 'Tryst with Destiny' speech at midnight. Gandhi was the moral leader of independence but didn't take political office. Partition caused one of the largest mass migrations in history (10-20 million displaced) and roughly 200,000-2 million deaths in communal violence.",
-      "memory_hook": "Nehru: India's first PM. 'Tryst with Destiny' midnight speech. Gandhi led independence but took no office."
+      "answer": "Between 10 and 20 million displaced and up to a million dead",
+      "explanation": "It was among the largest forced migrations in human history, with Hindus and Sikhs moving one way and Muslims the other amid mass violence. Estimates of deaths range from several hundred thousand to a million. The border was drawn in five weeks by Cyril Radcliffe, who had never been to India, and was not published until two days after independence. Kashmir was left unresolved and remains disputed.",
+      "memory_hook": "Ten to twenty million displaced and estimates up to a million dead, one of the largest forced migrations ever. The border was drawn in five weeks by a man who had never visited India, and published two days after independence. Kashmir was left unresolved and still is."
     },
     {
       "category": "Pop Culture",
-      "question": "Which online video platform, founded in February 2005 and acquired by Google for $1.65 billion in 2006, became the world's second-largest search engine?",
+      "question": "YouTube launched in 2005 and Google bought it a year later. What was it originally meant to be?",
       "options": [
-        "Vimeo",
-        "Metacafe",
-        "Dailymotion",
-        "YouTube"
+        "A live streaming service for independent musicians",
+        "A private file-sharing tool for university researchers",
+        "An archive for uploading old home movie footage",
+        "A video dating site where people posted profile clips"
       ],
-      "answer": "YouTube",
-      "explanation": "YouTube was founded by Chad Hurley, Steve Chen, and Jawed Karim (former PayPal employees). The first video uploaded was 'Me at the zoo' by Jawed Karim. Google acquired it for $1.65 billion just 18 months after founding. Over 500 hours of video are uploaded to YouTube every minute as of 2024.",
-      "memory_hook": "YouTube: founded Feb 2005, sold to Google for $1.65B (2006). 500 hours of video uploaded every minute."
+      "answer": "A video dating site where people posted profile clips",
+      "explanation": "The founders built it as Tune In Hook Up and offered women money to upload dating videos, with no takers, so they opened it to any video at all. The first upload was Me at the zoo, nineteen seconds of a founder at San Diego Zoo. Google paid $1.65 billion in 2006, widely called reckless at the time. Over 500 hours of video are now uploaded every minute.",
+      "memory_hook": "It was a dating site called Tune In Hook Up, and they offered women money to post dating videos and got nobody, so they opened it to anything. The first upload is nineteen seconds of a founder at San Diego Zoo. Google paid $1.65 billion in 2006 and everyone said they had overpaid."
     },
     {
       "category": "Science & Nature",
-      "question": "What is the approximate percentage of the human body made up of water?",
+      "question": "The human body is roughly 60% water. Which organ holds the highest proportion?",
       "options": [
-        "90%",
-        "80%",
-        "60%",
-        "40%"
+        "The liver, at close to 90% by total weight",
+        "The stomach, given the fluid it constantly holds",
+        "The skin, which is the body's largest organ",
+        "The brain and heart, at about 73% water each"
       ],
-      "answer": "60%",
-      "explanation": "The average adult human body is approximately 60% water by mass, though this varies with age, sex, and body composition. Muscle tissue is about 73% water while fat tissue is about 10% water. The brain and heart are about 73% water, and the lungs about 83%. Infants are approximately 75-78% water.",
-      "memory_hook": "Human body: ~60% water. Muscles 73%, fat only 10%. Infants are born 75-78% water."
+      "answer": "The brain and heart, at about 73% water each",
+      "explanation": "The brain and heart are around 73% water, lungs about 83%, and even bones are roughly 31%. Losing as little as 2% of body water measurably degrades concentration and physical performance, which is why mild dehydration feels like tiredness. The often-repeated eight glasses a day figure has no clear scientific origin, and much of a person's intake comes from food rather than drinks.",
+      "memory_hook": "Brain and heart are about 73%, lungs 83%, and even bone is 31%. Losing 2% measurably hurts concentration, which is why mild dehydration just feels like being tired. The eight-glasses-a-day rule has no identifiable scientific origin, and a lot of your water comes from food."
     },
     {
       "category": "Geography",
-      "question": "Which country has the most natural UNESCO World Heritage Sites, with 57 natural and mixed sites — more than any other nation?",
+      "question": "China has the most natural UNESCO World Heritage sites. What does that designation actually do?",
       "options": [
-        "Brazil",
-        "China",
-        "United States",
-        "Australia"
+        "Transfers legal ownership of the site to the United Nations",
+        "Provides direct UNESCO funding for all conservation work",
+        "Bans all tourism and commercial activity at the location",
+        "Obliges the state to protect it, with removal as the sanction"
       ],
-      "answer": "China",
-      "explanation": "China has the most total UNESCO World Heritage Sites of any country (57 as of recent counts), combining natural and cultural sites. Italy has traditionally led in cultural sites. Australia, the US, and Brazil have significant natural sites but fewer in total. China's sites include the Three Parallel Rivers, Jiuzhaigou Valley, and Wulingyuan.",
-      "memory_hook": "China: most UNESCO World Heritage Sites total. Italy leads in cultural sites specifically."
+      "answer": "Obliges the state to protect it, with removal as the sanction",
+      "explanation": "Listing commits the country to preserve the site, and the main enforcement is embarrassment: UNESCO can place it on a danger list or delist it entirely. Only a few have ever been removed, including Liverpool's waterfront in 2021 over development, and the Dresden Elbe Valley over a bridge. Ownership stays with the country and funding is limited, so listing mostly confers prestige and tourism revenue.",
+      "memory_hook": "It commits the country to protect it, and the enforcement is basically shame: danger listing, or removal. Only a handful have ever been delisted, including Liverpool's waterfront in 2021 over development and Dresden over a bridge. Ownership and funding stay with the country."
     },
     {
       "category": "History",
-      "question": "Which explorer, funded by Spain, circumnavigated the globe for the first time (1519-1522), though he died in the Philippines and didn't complete the journey himself?",
+      "question": "Magellan's expedition first circumnavigated the globe. What happened to Magellan?",
       "options": [
-        "Ferdinand Magellan",
-        "Christopher Columbus",
-        "Juan Sebastián Elcano",
-        "Hernán Cortés"
+        "Killed in the Philippines, so he never completed the voyage",
+        "He was arrested for mutiny and executed by his own crew",
+        "He completed it and died of fever shortly after returning home",
+        "He turned back at the Pacific and sent his deputy onward"
       ],
-      "answer": "Ferdinand Magellan",
-      "explanation": "Magellan led the expedition that first circumnavigated Earth but was killed in the Battle of Mactan (Philippines) in 1521. Juan Sebastián Elcano completed the voyage with the 18 survivors of the original 270-man crew. Magellan is credited with the circumnavigation because he had already sailed east past India, meaning his westward journey connected.",
-      "memory_hook": "Magellan: planned first circumnavigation but died in Philippines. Elcano completed it. 18 of 270 survived."
+      "answer": "Killed in the Philippines, so he never completed the voyage",
+      "explanation": "Magellan died at Mactan in 1521, roughly halfway. Juan Sebastián Elcano brought one ship home in 1522 with 18 survivors out of about 270 who left. Magellan's Malay slave Enrique may technically have been the first person to circle the globe, since he had been taken from that region originally and returned to it. The crew also lost a day and could not work out why, an early practical encounter with time zones.",
+      "memory_hook": "He was killed at Mactan in 1521, about halfway. Elcano brought one ship home with 18 of the roughly 270 who left. Magellan's Malay slave Enrique may have been the first to actually circle the globe, since he was taken from that region and came back to it."
     },
     {
       "category": "Pop Culture",
-      "question": "Which 2017 film, winner of the Academy Award for Best Picture (following the Moonlight envelope mix-up), starred Ryan Gosling and Emma Stone in a Los Angeles musical?",
+      "question": "Moonlight won Best Picture in 2017 after La La Land was announced. How was the error caught?",
       "options": [
-        "The Artist",
-        "La La Land",
-        "Whiplash",
-        "Birdman"
+        "Both films were declared joint winners as a compromise",
+        "The Academy issued a correction the following morning",
+        "The orchestra stopped playing and the host intervened",
+        "A producer read the card and stopped his own speech"
       ],
-      "answer": "La La Land",
-      "explanation": "La La Land actually LOST the Oscar for Best Picture in 2017 — one of cinema's most dramatic moments. Warren Beatty and Faye Dunaway announced the wrong winner; La La Land producers were partway through acceptance speeches before the mistake was caught and Moonlight announced as the actual winner.",
-      "memory_hook": "La La Land: LOST Best Picture — the wrong winner announced. Moonlight was the real winner. 2017."
+      "answer": "A producer read the card and stopped his own speech",
+      "explanation": "La La Land producer Jordan Horowitz was mid-speech when the error surfaced, held up the correct card to the cameras and said Moonlight had won, handing the statuette over. PwC had duplicate envelopes on both sides of the stage and Warren Beatty was given the wrong one. Both accountants were permanently removed from the ceremony and phones were subsequently banned backstage.",
+      "memory_hook": "La La Land's producer Jordan Horowitz stopped his own acceptance speech, held the correct card up to the cameras and handed the award over. PwC keeps duplicate envelopes on both sides of the stage and Beatty got the spare. Both accountants were banned from the ceremony afterward."
     },
     {
       "category": "Sports",
@@ -150,8 +157,8 @@
       "options": [
         "He tested positive for cocaine under new IOC rules",
         "He'd earned $2 a game at semi-pro baseball",
-        "He had competed under a false name after a prior ban",
-        "He returned them voluntarily to a rival's family"
+        "He returned them voluntarily to a rival's family",
+        "He had competed under a false name after a prior ban"
       ],
       "answer": "He'd earned $2 a game at semi-pro baseball",
       "explanation": "Thorpe had played minor-league baseball for $2/game during summers in 1909-1910 to help support himself — common for poor athletes of the era, but technically a violation of Olympic amateurism rules. A newspaper exposed this in 1913; the IOC demanded the medals back. Thorpe complied. He went on to professional football and baseball careers. He died in poverty in 1953. In 1982, the IOC reversed the decision, citing the 1912 protest deadline (which had been missed) and recognizing the injustice. Replica medals were presented to his family in 1983. His original medals had been distributed to the runners-up — the Swedish copies given to his family are replicas.",

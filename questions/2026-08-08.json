@@ -6,9 +6,9 @@
       "question": "Which war was ended by the Treaty of Appomattox Court House in 1865, where Confederate General Robert E. Lee surrendered?",
       "options": [
         "Spanish-American War",
+        "American Civil War",
         "War of 1812",
-        "Mexican-American War",
-        "American Civil War"
+        "Mexican-American War"
       ],
       "answer": "American Civil War",
       "explanation": "General Robert E. Lee surrendered to Union General Ulysses S. Grant at Appomattox Court House, Virginia, on April 9, 1865, effectively ending the American Civil War (1861-1865). The war was fought between the Northern states (Union) and Southern states (Confederacy) primarily over slavery and states' rights. About 620,000 soldiers died — more than in any other American conflict. Lincoln was assassinated just five days after Lee's surrender.",
@@ -19,9 +19,9 @@
       "question": "The Warsaw Pact, a military alliance of communist nations, was formed in 1955 as a response to which Western alliance?",
       "options": [
         "CENTO",
-        "G7",
         "SEATO",
-        "NATO"
+        "NATO",
+        "G7"
       ],
       "answer": "NATO",
       "explanation": "The Warsaw Pact (formally the Treaty of Friendship, Cooperation and Mutual Assistance) was formed in May 1955 by the Soviet Union and seven Eastern European communist states, largely in response to West Germany joining NATO. It bound its members to mutual defense and Soviet military leadership. The Pact effectively kept Eastern Europe under Soviet military dominance until it dissolved in 1991 after the fall of communism.",
@@ -32,9 +32,9 @@
       "question": "Which African country was formerly known as Abyssinia?",
       "options": [
         "Kenya",
-        "Sudan",
         "Ethiopia",
-        "Somalia"
+        "Somalia",
+        "Sudan"
       ],
       "answer": "Ethiopia",
       "explanation": "Ethiopia was known as Abyssinia for centuries before gradually transitioning to its current name. It is one of the oldest nations in the world, with a history dating back over 3,000 years. Ethiopia is the only African country that was never colonized (it briefly endured Italian occupation 1936-1941 but was never fully subjugated). Its ancient Christian church, the Ethiopian Orthodox Tewahedo Church, traces its origins to the 4th century AD.",
@@ -46,8 +46,8 @@
       "options": [
         "Carl Lewis",
         "Donovan Bailey",
-        "Maurice Greene",
-        "Usain Bolt"
+        "Usain Bolt",
+        "Maurice Greene"
       ],
       "answer": "Usain Bolt",
       "explanation": "Usain Bolt of Jamaica set the world record at the 2008 Beijing Olympics, running 100 meters in 9.69 seconds — while slowing down in the final meters to celebrate. He lowered his own record to 9.58 at the 2009 World Championships. Bolt holds world records in both the 100m and 200m and won three consecutive Olympic 100m gold medals (2008, 2012, 2016).",
@@ -57,9 +57,9 @@
       "category": "Sports",
       "question": "In which sport do athletes compete for the Ashes trophy?",
       "options": [
+        "Tennis",
         "Cricket",
         "Golf",
-        "Tennis",
         "Rugby"
       ],
       "answer": "Cricket",
@@ -70,10 +70,10 @@
       "category": "Pop Culture",
       "question": "Which DreamWorks animated film, released in 2001, follows a green ogre who goes on a quest to rescue Princess Fiona from a dragon-guarded castle, accompanied by a fast-talking Donkey?",
       "options": [
+        "Monsters, Inc.",
         "Shrek",
         "Kung Fu Panda",
-        "Antz",
-        "Monsters, Inc."
+        "Antz"
       ],
       "answer": "Shrek",
       "explanation": "Shrek (2001), directed by Andrew Adamson and Vicky Jenson, was DreamWorks Animation's breakthrough hit. It won the first-ever Academy Award for Best Animated Feature. Mike Myers voiced Shrek, Eddie Murphy voiced Donkey, and Cameron Diaz voiced Princess Fiona. Its irreverent humor and fairy-tale parody spawned three sequels.",
@@ -83,10 +83,10 @@
       "category": "Pop Culture",
       "question": "Which 1999 film directed by the Wachowski siblings featured Keanu Reeves discovering that reality is a simulation?",
       "options": [
-        "The Matrix",
-        "Existenz",
         "Dark City",
-        "Strange Days"
+        "Existenz",
+        "Strange Days",
+        "The Matrix"
       ],
       "answer": "The Matrix",
       "explanation": "The Matrix (1999) starred Keanu Reeves as Neo, a hacker who discovers that human reality is a computer simulation created by machines. The film pioneered 'bullet time' special effects and became a cultural phenomenon. It won four Academy Awards and grossed $463 million. Its philosophical questions about reality and free will have made it a staple of philosophy courses.",
@@ -96,10 +96,10 @@
       "category": "Pop Culture",
       "question": "Which musician has the most number-one hits on the Billboard Hot 100, with 42 as of 2024?",
       "options": [
-        "Michael Jackson",
-        "Madonna",
         "Taylor Swift",
-        "Mariah Carey"
+        "Michael Jackson",
+        "Mariah Carey",
+        "Madonna"
       ],
       "answer": "Mariah Carey",
       "explanation": "Mariah Carey holds the record for the most number-one singles on the Billboard Hot 100, with 19 number-one songs as her sole or co-credited artist (42 total if counting her songwriting contributions). Her vocal range of five octaves is legendary. 'All I Want for Christmas Is You' (1994) has become a perennial holiday chart-topper, re-entering the top 10 annually for 30 years.",
@@ -109,9 +109,9 @@
       "category": "Geography",
       "question": "Which country is home to Angkor Wat, the world's largest religious monument?",
       "options": [
-        "Cambodia",
         "Vietnam",
         "Thailand",
+        "Cambodia",
         "Laos"
       ],
       "answer": "Cambodia",
@@ -122,10 +122,10 @@
       "category": "Science & Nature",
       "question": "In 1924 Edwin Hubble used Cepheid variable stars to prove Andromeda lies outside the Milky Way. Why did Cepheids work?",
       "options": [
-        "They always cluster in groups of exactly 10,000 stars",
-        "Their X-rays lag visible light, revealing the distance",
         "Their pulse period reveals true brightness, so distance",
-        "Their color-temperature cycle gives distance by spectroscopy"
+        "They always cluster in groups of exactly 10,000 stars",
+        "Their color-temperature cycle gives distance by spectroscopy",
+        "Their X-rays lag visible light, revealing the distance"
       ],
       "answer": "Their pulse period reveals true brightness, so distance",
       "explanation": "Henrietta Swan Leavitt discovered the period-luminosity relationship of Cepheids in 1908 by studying variable stars in the Small Magellanic Cloud — if you know a Cepheid's pulsation period, you know how intrinsically bright it is. Hubble found Cepheids in Andromeda and calculated they were about 900,000 light-years away (modern measurements: 2.5 million), far beyond the Milky Way's boundary. This settled the 'Great Debate' of 1920 and transformed our understanding of the universe's scale. Leavitt's contribution is often uncredited — she was a Harvard 'computer' (a human calculator) barred from operating telescopes.",
@@ -135,10 +135,10 @@
       "category": "Geography",
       "question": "The Azores, a Portuguese autonomous archipelago of nine islands known for volcanic landscape and whale watching, lies in which ocean?",
       "options": [
-        "Mediterranean Sea",
-        "Pacific Ocean",
+        "Atlantic Ocean",
         "Indian Ocean",
-        "Atlantic Ocean"
+        "Mediterranean Sea",
+        "Pacific Ocean"
       ],
       "answer": "Atlantic Ocean",
       "explanation": "The Azores are located in the North Atlantic Ocean, about 1,500 km west of Lisbon, Portugal. The nine islands sit on the Mid-Atlantic Ridge, making them tectonically active with volcanoes, hot springs, and fumaroles. The islands are an autonomous region of Portugal with their own government. Because they lie on major transatlantic shipping routes, the Azores were historically an important stopping point for explorers and whalers. Today they are known for whale watching, hiking, and dramatically green landscapes.",
@@ -149,9 +149,9 @@
       "question": "How do bacteria reproduce — what is the simple division process that allows them to double in number roughly every 20 minutes under ideal conditions?",
       "options": [
         "Sporulation",
-        "Mitosis",
+        "Budding",
         "Binary fission",
-        "Budding"
+        "Mitosis"
       ],
       "answer": "Binary fission",
       "explanation": "Binary fission is the primary reproductive method of bacteria: a single bacterium replicates its DNA, grows in size, and splits into two genetically identical daughter cells. Under ideal conditions (warmth, nutrients, moisture), E. coli can divide every 20 minutes, meaning a single cell becomes 1 billion in just 10 hours. This rapid reproduction is both what makes bacterial infections dangerous and what allows beneficial bacteria (in fermentation, pharmaceuticals) to be so productive. Mutations during copying introduce genetic variation.",

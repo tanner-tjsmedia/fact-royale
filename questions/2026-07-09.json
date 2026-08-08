@@ -5,9 +5,9 @@
       "question": "Which mountain range separates Europe from Asia?",
       "options": [
         "The Himalayas",
-        "The Ural Mountains",
+        "The Caucasus Mountains",
         "The Alps",
-        "The Caucasus Mountains"
+        "The Ural Mountains"
       ],
       "answer": "The Ural Mountains",
       "explanation": "The Ural Mountains, running north to south through Russia, are the traditional boundary between Europe and Asia. They stretch about 2,500 km from the Arctic Ocean to the northern border of Kazakhstan and are one of the oldest mountain ranges on Earth.",
@@ -17,9 +17,9 @@
       "category": "History",
       "question": "What is the name of the event where Native Americans and Pilgrims shared a harvest meal in 1621?",
       "options": [
-        "The Great Meal",
         "The Thanksgiving",
         "The Plymouth Feast",
+        "The Great Meal",
         "The First Harvest"
       ],
       "answer": "The Thanksgiving",
@@ -30,10 +30,10 @@
       "category": "Sports",
       "question": "In basketball, what is the diameter of the ball in inches?",
       "options": [
-        "8.5 inches",
-        "9.4 inches",
         "10.5 inches",
-        "11 inches"
+        "11 inches",
+        "9.4 inches",
+        "8.5 inches"
       ],
       "answer": "9.4 inches",
       "explanation": "A standard NBA basketball has a circumference of 29.5 inches, giving it a diameter of approximately 9.4 inches. A WNBA ball is slightly smaller. Both fit through the standard 18-inch rim, which is nearly twice the ball's diameter.",
@@ -44,9 +44,9 @@
       "question": "What country are the All Blacks rugby team from?",
       "options": [
         "Australia",
-        "England",
+        "New Zealand",
         "South Africa",
-        "New Zealand"
+        "England"
       ],
       "answer": "New Zealand",
       "explanation": "The All Blacks are the national rugby union team of New Zealand. They are named for their black uniforms and are one of the most successful teams in the history of the sport, with the best winning percentage of any national rugby team. They perform the haka before matches.",
@@ -56,10 +56,10 @@
       "category": "Pop Culture",
       "question": "Which film features the song 'My Heart Will Go On'?",
       "options": [
-        "The Bodyguard",
+        "Ghost",
         "Dirty Dancing",
-        "Titanic",
-        "Ghost"
+        "The Bodyguard",
+        "Titanic"
       ],
       "answer": "Titanic",
       "explanation": "'My Heart Will Go On' was performed by Celine Dion for the 1997 film Titanic. Written by James Horner and Will Jennings, it won the Academy Award for Best Original Song and was one of the best-selling singles of all time. Dion initially didn't want to record it.",
@@ -69,9 +69,9 @@
       "category": "Pop Culture",
       "question": "What was the first video ever played on MTV?",
       "options": [
-        "Thriller",
-        "Video Killed the Radio Star",
         "Girls Just Want to Have Fun",
+        "Video Killed the Radio Star",
+        "Thriller",
         "Bohemian Rhapsody"
       ],
       "answer": "Video Killed the Radio Star",
@@ -82,10 +82,10 @@
       "category": "Pop Culture",
       "question": "Jackson Pollock's drip paintings, created in the late 1940s in a barn in East Hampton, New York, revolutionized Abstract Expressionism. What was radical about his process?",
       "options": [
+        "He dissolved all pigment into water and let the painting dry in sunlight, producing colors and forms entirely determined by evaporation",
         "He collaborated with machines — early programmed devices that distributed paint randomly — arguing that pure chance was the only honest artistic force",
         "He used industrial house paints instead of artist's oils and worked on unstretched canvas laid on the floor, moving around it and dripping/flinging paint in a full-body physical act",
-        "He worked in total darkness by touch alone, arguing that sight was too culturally conditioned to produce authentic expression",
-        "He dissolved all pigment into water and let the painting dry in sunlight, producing colors and forms entirely determined by evaporation"
+        "He worked in total darkness by touch alone, arguing that sight was too culturally conditioned to produce authentic expression"
       ],
       "answer": "He used industrial house paints instead of artist's oils and worked on unstretched canvas laid on the floor, moving around it and dripping/flinging paint in a full-body physical act",
       "explanation": "Pollock's method — called 'action painting' by critic Harold Rosenberg — treated the canvas as an arena rather than a surface. He walked around the canvas on all sides, using sticks, trowels, and hardened brushes to fling, pour, and drip Duco enamel paint. Critic Clement Greenberg championed him as the greatest American painter, and LIFE magazine's 1949 profile made him internationally famous. He died in a drunk-driving crash in 1956 at 44. Works like 'No. 5, 1948' have sold for over $140 million.",
@@ -95,10 +95,10 @@
       "category": "History",
       "question": "The Aztec Empire was conquered by which European explorer?",
       "options": [
+        "Francisco Pizarro",
         "Juan Ponce de León",
-        "Christopher Columbus",
         "Hernán Cortés",
-        "Francisco Pizarro"
+        "Christopher Columbus"
       ],
       "answer": "Hernán Cortés",
       "explanation": "Hernán Cortés led the Spanish conquest of the Aztec Empire from 1519 to 1521. With a force of about 500 Spanish soldiers, plus thousands of Indigenous allies who opposed Aztec rule, he captured Tenochtitlán (modern-day Mexico City). The conquest was aided by smallpox epidemics that devastated the Aztec population.",
@@ -108,9 +108,9 @@
       "category": "Geography",
       "question": "The Caspian Sea, the world's largest landlocked body of water, borders five countries. Which of these is NOT one of them?",
       "options": [
-        "Turkey",
-        "Kazakhstan",
         "Iran",
+        "Kazakhstan",
+        "Turkey",
         "Russia"
       ],
       "answer": "Turkey",
@@ -121,10 +121,10 @@
       "category": "Science & Nature",
       "question": "What is the speed of light in a vacuum, approximately?",
       "options": [
-        "3,000,000 km per second",
         "30,000 km per second",
-        "300,000 km per second",
-        "3,000 km per second"
+        "3,000 km per second",
+        "3,000,000 km per second",
+        "300,000 km per second"
       ],
       "answer": "300,000 km per second",
       "explanation": "Light travels at approximately 299,792 km per second (or about 186,000 miles per second) in a vacuum. This is the cosmic speed limit — nothing with mass can reach this speed. At this velocity, light can circle the Earth about 7.5 times per second. Einstein's theory of relativity is built around the constancy of this speed.",
@@ -135,8 +135,8 @@
       "question": "The ancient city of Petra — carved into rose-red sandstone cliffs and famously featured in Indiana Jones — is located in which country?",
       "options": [
         "Jordan",
-        "Egypt",
         "Syria",
+        "Egypt",
         "Saudi Arabia"
       ],
       "answer": "Jordan",
@@ -147,10 +147,10 @@
       "category": "Science & Nature",
       "question": "What is the scientific classification system used to organize all living things into hierarchical groups based on shared characteristics?",
       "options": [
-        "Phylogenetics",
-        "Taxonomy",
+        "Morphology",
         "Genetics",
-        "Morphology"
+        "Taxonomy",
+        "Phylogenetics"
       ],
       "answer": "Taxonomy",
       "explanation": "Taxonomy is the scientific discipline of naming, defining, and classifying living organisms into hierarchical groups. The modern system, developed by Carl Linnaeus in the 18th century, organizes life into Kingdom → Phylum → Class → Order → Family → Genus → Species. Each species has a unique two-part Latin name (binomial nomenclature) — Homo sapiens, for example, means 'wise human.' Modern taxonomy increasingly incorporates genetic data (phylogenetics) alongside physical characteristics.",

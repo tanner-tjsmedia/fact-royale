@@ -3,64 +3,64 @@
   "questions": [
     {
       "category": "History",
-      "question": "The Great Depression, the worst economic crisis of the 20th century, began with the crash of the U.S. stock market in which year?",
+      "question": "The Wall Street Crash came in October 1929, but the Depression deepened for years. What made it so severe?",
       "options": [
-        "1933",
-        "1929",
-        "1927",
-        "1932"
+        "Thousands of banks failed, wiping out ordinary savings",
+        "A drought destroyed the entire American wheat harvest",
+        "The government spent so heavily it triggered inflation",
+        "European nations called in all American war loans at once"
       ],
-      "answer": "1929",
-      "explanation": "Black Tuesday, October 29, 1929, saw the Dow Jones Industrial Average lose 12% in one day. The crash followed years of speculative excess. Unemployment in the U.S. reached 25% by 1933. FDR's New Deal programs and WWII military spending ultimately ended the Depression.",
-      "memory_hook": "Stock market crash: October 29, 1929 (Black Tuesday). 25% unemployment by 1933."
+      "answer": "Thousands of banks failed, wiping out ordinary savings",
+      "explanation": "Around 9,000 US banks failed between 1930 and 1933, and deposits were not insured, so people simply lost everything. Each failure destroyed money supply and credit, and fear of the next collapse caused runs on solvent banks too. Unemployment peaked near 25%. Roosevelt's first act in 1933 was closing every bank for four days, then reopening only the sound ones, which restored confidence almost immediately.",
+      "memory_hook": "About 9,000 banks failed between 1930 and 1933 with no deposit insurance, so savings simply vanished. Each collapse destroyed credit and triggered runs on healthy banks too. Unemployment hit 25%. Roosevelt shut every bank for four days and reopened only the sound ones, which worked almost instantly."
     },
     {
       "category": "Science & Nature",
-      "question": "Which scientist formulated the three laws of motion and the law of universal gravitation, publishing 'Principia Mathematica' in 1687?",
+      "question": "Newton published his laws of motion in 1687. What did he do during the plague year of 1665?",
       "options": [
-        "René Descartes",
-        "Robert Hooke",
-        "Galileo Galilei",
-        "Isaac Newton"
+        "Worked out calculus, optics and gravitation in isolation",
+        "Abandoned science entirely to concentrate on alchemy",
+        "Served as a physician inside the London plague hospitals",
+        "Fled to France and studied there under René Descartes"
       ],
-      "answer": "Isaac Newton",
-      "explanation": "Isaac Newton's 'Principia Mathematica' laid the foundation for classical mechanics. His three laws describe inertia, force/acceleration relationships, and action-reaction. The story of an apple inspiring his gravity theory is likely apocryphal, though Newton himself told similar stories late in life. He also co-invented calculus (simultaneously with Leibniz).",
-      "memory_hook": "Newton: 3 laws of motion, gravity, Principia 1687. Also co-invented calculus."
+      "answer": "Worked out calculus, optics and gravitation in isolation",
+      "explanation": "Cambridge closed for plague and Newton went home to Woolsthorpe, where in roughly eighteen months he developed calculus, split light with a prism, and began the work on gravitation. He later called it his year of wonders. He then sat on most of it for two decades, publishing only when Halley pushed him. He also spent enormous effort on alchemy and biblical chronology, which he considered no less serious.",
+      "memory_hook": "Cambridge shut for plague, Newton went home, and in about eighteen months invented calculus, split light with a prism and started on gravity. His year of wonders. Then he sat on it for twenty years until Halley pushed him. He took his alchemy just as seriously."
     },
     {
       "category": "Sports",
-      "question": "Which country has won the most Davis Cup titles in men's tennis?",
+      "question": "The Davis Cup is tennis's oldest international team event. What is unusual about its format?",
       "options": [
-        "United States",
-        "Australia",
-        "France",
-        "Spain"
+        "Players compete individually and scores are combined",
+        "Matches are played over several days at a home venue",
+        "It is contested only in Olympic years",
+        "Only players under twenty-three may enter"
       ],
-      "answer": "United States",
-      "explanation": "The United States has won the Davis Cup 32 times — more than any other nation. Australia is second with 28 titles. The Davis Cup, first played in 1900, is the world's largest annual international team competition in sport by number of participating nations.",
-      "memory_hook": "Davis Cup: USA most wins (32). Australia second (28). Started 1900."
+      "answer": "Matches are played over several days at a home venue",
+      "explanation": "Traditionally a tie ran across three days at one nation's home ground, with the host choosing the surface to suit its own players, so Spain would pick clay and the US a hard court. Home crowds are far louder than at normal tournaments. The format was overhauled in 2019 into a centralised week-long finals event, which many players and fans disliked precisely because it removed the home-and-away element that made it distinctive.",
+      "memory_hook": "A tie ran three days at one nation's home ground, with the host picking the surface to suit itself, so Spain chose clay. Crowds were louder than normal tennis allows. It was overhauled in 2019 into a neutral week-long event, which removed the exact thing that made it special."
     },
     {
       "category": "Pop Culture",
-      "question": "Which Beatles song, released in 1965, marked a turning point toward more introspective, folk-influenced songwriting with lyrics like 'Yesterday, all my troubles seemed so far away'?",
+      "question": "Paul McCartney woke up with the melody for Yesterday already complete. What did he do next?",
       "options": [
-        "Blackbird",
-        "Yesterday",
-        "Hey Jude",
-        "Let It Be"
+        "Wrote the lyrics first and fitted the tune afterward",
+        "Spent months asking people whether he had stolen it",
+        "Recorded it the same afternoon before he forgot",
+        "Gave it away to another artist before reclaiming it"
       ],
-      "answer": "Yesterday",
-      "explanation": "'Yesterday' by Paul McCartney is the most covered song in history with over 2,200 known cover versions. McCartney reportedly woke up with the melody in his head and initially called it 'Scrambled Eggs.' He spent weeks asking people if they'd heard it before, unsure it was original.",
-      "memory_hook": "Yesterday: most covered song ever (2,200+ versions). McCartney thought he'd subconsciously stolen it."
+      "answer": "Spent months asking people whether he had stolen it",
+      "explanation": "McCartney dreamt the melody and was convinced he must have heard it somewhere, playing it to people for weeks asking if they recognised it. The working lyric was scrambled eggs, oh my baby how I love your legs. It was recorded with McCartney alone on guitar and a string quartet, the first Beatles track with no other member on it. It is among the most covered songs ever written.",
+      "memory_hook": "He dreamt the tune and spent weeks playing it to people asking whether he had accidentally stolen it. The working lyric was scrambled eggs, oh my baby how I love your legs. Recorded with just McCartney and a string quartet, the first Beatles song with no other Beatle on it."
     },
     {
       "category": "Geography",
       "question": "The Trans-Siberian Railway is the world's longest railway line. Which two cities does it connect?",
       "options": [
-        "Kiev and Vladivostok",
         "Moscow and Vladivostok",
+        "Moscow and Beijing",
         "St. Petersburg and Tokyo",
-        "Moscow and Beijing"
+        "Kiev and Vladivostok"
       ],
       "answer": "Moscow and Vladivostok",
       "explanation": "The Trans-Siberian Railway stretches 9,289 km from Moscow to Vladivostok on the Pacific coast — a journey of about 7 days covering 8 time zones. Completed in 1916, it was crucial for Russian expansion into Siberia and the Far East. A branch line extends to Beijing.",
@@ -68,29 +68,29 @@
     },
     {
       "category": "History",
-      "question": "The Rwandan genocide of 1994, during which approximately 800,000 Tutsi and moderate Hutu were killed in 100 days, occurred in which East African country?",
+      "question": "The Rwandan genocide killed around 800,000 people in 100 days. How was killing organised so fast?",
       "options": [
-        "Uganda",
-        "Rwanda",
-        "Democratic Republic of Congo",
-        "Burundi"
+        "A standing army swept systematically through each province",
+        "Radio broadcasts named targets and directed local militias",
+        "Victims were transported to a small number of camps",
+        "Foreign mercenaries were hired to carry out the killings"
       ],
-      "answer": "Rwanda",
-      "explanation": "The Rwandan genocide began April 7, 1994, following the assassination of President Juvénal Habyarimana. Radio broadcasts incited Hutu extremists to kill their Tutsi neighbors. In 100 days, an estimated 500,000-800,000 people were murdered. The failure of the UN and international community to intervene is considered one of the 20th century's greatest moral failures.",
-      "memory_hook": "Rwanda genocide: ~800,000 killed in 100 days, 1994. Radio was used to incite killing."
+      "answer": "Radio broadcasts named targets and directed local militias",
+      "explanation": "Radio Télévision Libre des Mille Collines broadcast dehumanising propaganda for months, then read out names and locations during the killing. Much of it was done by neighbours with machetes rather than soldiers, which is what made it so fast and so hard to stop. The UN force present was ordered not to intervene, and Western governments avoided the word genocide because using it would have triggered treaty obligations to act.",
+      "memory_hook": "A radio station spent months on dehumanising propaganda and then read out names and addresses during the killing. Much of it was neighbours with machetes, not soldiers, which is why it moved so fast. UN troops were ordered not to intervene, and governments dodged the word genocide to avoid the legal duty to act."
     },
     {
       "category": "Pop Culture",
-      "question": "Which animated TV show, set in Springfield and featuring the Simpson family, has been running since 1989 and is the longest-running American animated series?",
+      "question": "The Simpsons has run since 1989. What did it start as?",
       "options": [
-        "South Park",
-        "Family Guy",
-        "The Simpsons",
-        "Futurama"
+        "A one-off Christmas special never meant to continue",
+        "Crude animated shorts on a sketch comedy show",
+        "A radio serial that ran for two years first",
+        "A newspaper comic strip syndicated nationally"
       ],
-      "answer": "The Simpsons",
-      "explanation": "The Simpsons premiered December 17, 1989, and has aired over 750 episodes. Created by Matt Groening, it reportedly 'predicted' many future events including Donald Trump's presidency, the FIFA corruption scandal, and the Higgs boson particle. Homer Simpson's 'D'oh!' was added to the Oxford English Dictionary.",
-      "memory_hook": "The Simpsons: since 1989, 750+ episodes. Homer's 'D'oh!' is in the dictionary."
+      "answer": "Crude animated shorts on a sketch comedy show",
+      "explanation": "Matt Groening sketched the family in a lobby in fifteen minutes before pitching bumper shorts for The Tracey Ullman Show in 1987, naming them after his own family but substituting Bart for Matt. The early animation is notably rough. It became a half-hour series in 1989 and is now the longest-running American scripted primetime show. Groening had intended to pitch his existing comic strip and changed his mind rather than surrender the rights.",
+      "memory_hook": "Groening drew the family in a lobby in fifteen minutes for bumper shorts on The Tracey Ullman Show in 1987, naming them after his own family but swapping Bart for Matt. He was supposed to pitch his comic strip and changed his mind rather than hand over the rights."
     },
     {
       "category": "Science & Nature",
@@ -107,55 +107,55 @@
     },
     {
       "category": "Geography",
-      "question": "The Sahel is a semi-arid belt crossing Africa between the Sahara Desert to the north and the tropical savanna to the south. What does 'Sahel' mean in Arabic?",
+      "question": "The Sahel sits between the Sahara and the savanna. What is the Great Green Wall meant to do there?",
       "options": [
-        "Dry land",
-        "Desert edge",
-        "Between worlds",
-        "Shore or coast"
+        "Divert water from the Congo to irrigate the region",
+        "Plant a belt of trees 8,000km across the continent",
+        "Build a physical barrier to stop sand blowing south",
+        "Relocate farming communities away from the desert edge"
       ],
-      "answer": "Shore or coast",
-      "explanation": "'Sahel' means 'shore' or 'coast' in Arabic, referring to the region as the southern shore of the Sahara Desert. It spans from Senegal to Sudan, covering parts of 10 countries. The Sahel faces severe desertification due to drought, overgrazing, and climate change — pushing the Sahara southward.",
-      "memory_hook": "Sahel = 'shore' in Arabic. Southern shore of the Sahara. Climate crisis hotspot."
+      "answer": "Plant a belt of trees 8,000km across the continent",
+      "explanation": "The African Union project aims to restore 100 million hectares in a band from Senegal to Djibouti. Progress has been slow and early plantings often died, since simply putting trees in arid ground rarely works. The approach has shifted toward supporting farmer-managed natural regeneration, protecting existing root systems so trees regrow on their own, which has proved far more effective and much cheaper in Niger and Burkina Faso.",
+      "memory_hook": "An 8,000km band of restored land from Senegal to Djibouti, aiming at 100 million hectares. Early plantings mostly died, because sticking saplings in dry ground does not work. The shift has been to protecting existing root systems so trees regrow themselves, which is cheaper and works better."
     },
     {
       "category": "History",
-      "question": "Which medieval plague, also known as the Black Death, killed an estimated 30-60% of Europe's population between 1347 and 1351?",
+      "question": "The Black Death killed perhaps a third of Europe. What did it change for survivors?",
       "options": [
-        "Bubonic plague",
-        "Smallpox",
-        "Cholera",
-        "Typhus"
+        "Church attendance rose sharply and stayed high for centuries",
+        "Trade with Asia ceased entirely for over a hundred years",
+        "Labour shortages let peasants demand wages and mobility",
+        "Cities were abandoned permanently in favour of rural life"
       ],
-      "answer": "Bubonic plague",
-      "explanation": "The Black Death was caused by Yersinia pestis bacteria, spread by fleas on rats carried by Genoese trading ships from Central Asia. It killed 25-50 million Europeans in four years. The pandemic's aftermath accelerated social changes including the decline of feudalism and the labor shortage that empowered surviving peasants.",
-      "memory_hook": "Black Death 1347-51: bubonic plague, 30-60% of Europe dead. Ships from Asia brought it."
+      "answer": "Labour shortages let peasants demand wages and mobility",
+      "explanation": "With so many dead, surviving workers were suddenly scarce and could bargain, which undermined serfdom across Western Europe. Governments tried to freeze wages by law and largely failed. Real wages rose substantially and stayed elevated for a century. The Church also lost authority, having proved unable to explain or stop it. Historians widely treat the plague as an accelerant of the transition out of the feudal order.",
+      "memory_hook": "So many died that surviving workers became scarce and could suddenly bargain, which broke serfdom across Western Europe. Governments tried to freeze wages by law and failed. Real wages stayed high for a century. The Church lost authority too, having neither explained nor stopped it."
     },
     {
       "category": "Pop Culture",
-      "question": "Which composer, who became deaf later in life, wrote nine symphonies including the famous Ninth with its 'Ode to Joy' finale?",
+      "question": "Beethoven wrote his Ninth Symphony while completely deaf. How did he manage that?",
       "options": [
-        "Ludwig van Beethoven",
-        "Johann Sebastian Bach",
-        "Wolfgang Amadeus Mozart",
-        "Franz Schubert"
+        "He could hear the music internally without external sound",
+        "He used a device that transmitted sound through his teeth",
+        "An assistant played passages and described them to him",
+        "He recovered partial hearing during the years of composition"
       ],
-      "answer": "Ludwig van Beethoven",
-      "explanation": "Beethoven (1770-1827) began losing his hearing around 1796 and was almost completely deaf when he composed his Ninth Symphony, premiering in 1824. He is said to have conducted the premiere and turned around only at the end to see the audience's standing ovation — unable to hear it. The 'Ode to Joy' is the anthem of the European Union.",
-      "memory_hook": "Beethoven: deaf when he wrote the 9th Symphony. Turned to see the standing ovation he couldn't hear."
+      "answer": "He could hear the music internally without external sound",
+      "explanation": "Composition is largely mental for a trained musician, and Beethoven had internalised orchestral sound completely, so deafness cost him performance rather than composition. He did saw the legs off a piano to feel vibrations through the floor. At the Ninth's premiere in 1824 he was still beating time, out of sync with the orchestra, and a singer had to turn him around to see the audience applauding.",
+      "memory_hook": "Trained composers hear internally, so deafness cost him performing rather than writing. He did cut the legs off a piano to feel vibrations through the floor. At the Ninth's premiere he was still conducting, out of time, and a singer had to physically turn him round to see the applause."
     },
     {
       "category": "Sports",
-      "question": "Which country has hosted the most FIFA World Cups, having staged the tournament three times (1930, 1950, and 2014)?",
+      "question": "Roger Bannister broke the four-minute mile in May 1954. How long did his record survive?",
       "options": [
-        "Italy",
-        "Brazil",
-        "Mexico",
-        "Germany"
+        "Six years, until the Rome Olympics of 1960 came around",
+        "Forty-six days, before John Landy ran faster in Finland",
+        "Twelve years, standing until the middle of the 1960s",
+        "Two weeks, broken by one of his own pacemakers that month"
       ],
-      "answer": "Brazil",
-      "explanation": "Brazil hosted the 1950 World Cup (losing the final to Uruguay in front of 200,000 fans — the 'Maracanazo') and 2014 (suffering a historic 7-1 loss to Germany in the semi-finals). Mexico has hosted twice (1970, 1986). Brazil will co-host the 2026 World Cup with the USA and Canada.",
-      "memory_hook": "Brazil hosted 1930? No — hosted 1950 (lost final), 2014 (7-1 to Germany). 3 times total."
+      "answer": "Forty-six days, before John Landy ran faster in Finland",
+      "explanation": "Bannister ran 3:59.4 at Iffley Road, Oxford, paced by Chris Brasher and Chris Chataway. John Landy took the record 46 days later with 3:57.9. The two met that August at the Empire Games in Vancouver, the first race with two men under four minutes, and Landy glanced over his left shoulder on the final bend as Bannister passed him on the right. Bannister was a medical student training on lunch breaks and retired that year to practise neurology.",
+      "memory_hook": "Forty-six days, then John Landy beat it. They raced head to head that August in Vancouver, and Landy looked over his left shoulder exactly as Bannister came past on the right. Bannister was a medical student training on his lunch breaks, and quit running that year to become a neurologist."
     }
   ]
 }

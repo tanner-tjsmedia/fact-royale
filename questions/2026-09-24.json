@@ -5,9 +5,9 @@
       "category": "History",
       "question": "In the Korean War, who backed North Korea and who backed South Korea?",
       "options": [
-        "China alone backed North Korea; USA alone backed South Korea",
-        "USA backed North Korea; USSR backed South Korea",
         "USSR + China backed North Korea; USA + UN backed South Korea",
+        "USA backed North Korea; USSR backed South Korea",
+        "China alone backed North Korea; USA alone backed South Korea",
         "No external powers were involved"
       ],
       "answer": "USSR + China backed North Korea; USA + UN backed South Korea",
@@ -18,10 +18,10 @@
       "category": "Science & Nature",
       "question": "What does Boyle's Law state?",
       "options": [
-        "At constant temperature, pressure and volume are inversely related (P₁V₁ = P₂V₂)",
-        "All gases have the same number of molecules per liter",
         "At constant pressure, volume and temperature are proportional",
-        "At constant volume, pressure and temperature are proportional"
+        "All gases have the same number of molecules per liter",
+        "At constant volume, pressure and temperature are proportional",
+        "At constant temperature, pressure and volume are inversely related (P₁V₁ = P₂V₂)"
       ],
       "answer": "At constant temperature, pressure and volume are inversely related (P₁V₁ = P₂V₂)",
       "explanation": "Boyle's Law (Robert Boyle, 1662): P₁V₁ = P₂V₂ at constant temperature. Doubling volume halves pressure. This explains why a sealed syringe gets harder to compress — and why deep-sea fish explode when brought to the surface.",
@@ -31,10 +31,10 @@
       "category": "Sports",
       "question": "Pelé's 1,000th goal in 1969 was celebrated instantly, and questioned just as fast. Why?",
       "options": [
-        "Vasco da Gama's defense let it in out of respect",
-        "Many of the 1,000 came in unverified friendlies",
         "It was a penalty, which he called 'not a real goal'",
-        "A crowd crush at the Maracanã killed 14 that night"
+        "A crowd crush at the Maracanã killed 14 that night",
+        "Vasco da Gama's defense let it in out of respect",
+        "Many of the 1,000 came in unverified friendlies"
       ],
       "answer": "Many of the 1,000 came in unverified friendlies",
       "explanation": "The 1,000th goal was indeed a penalty (against Vasco da Gama, a penalty Pelé said he dedicated to the children of Brazil). But the deeper controversy is the count: Pelé's 'official' total of 1,283 goals is disputed because it includes goals from youth matches, exhibition games, and tournaments with incomplete records. FIFA credits him with 757 competitive goals — a number that still places him among history's top scorers but is far from 1,283. The RSSSF (statistical body) attempts more precise tracking and gives varying numbers. Pelé always maintained his count. It's one of football's longest-running statistical debates.",
@@ -45,8 +45,8 @@
       "question": "Which Pixar film (2017) set during Mexico's Day of the Dead became the highest-grossing film in Mexico's history?",
       "options": [
         "Coco",
-        "The Book of Life",
         "Soul",
+        "The Book of Life",
         "Encanto"
       ],
       "answer": "Coco",
@@ -57,10 +57,10 @@
       "category": "Geography",
       "question": "Which ocean current carries warm water northward along the U.S. East Coast and across the Atlantic, keeping Western Europe 5-10°C warmer?",
       "options": [
-        "Gulf Stream",
-        "California Current",
+        "North Pacific Current",
         "Humboldt Current",
-        "North Pacific Current"
+        "California Current",
+        "Gulf Stream"
       ],
       "answer": "Gulf Stream",
       "explanation": "The Gulf Stream flows at about 2.5 m/s, carrying 30 times more water than all the world's rivers combined. Without it, Western Europe would be 5-10°C colder — think Canadian climate in London.",
@@ -70,10 +70,10 @@
       "category": "History",
       "question": "Mao Zedong proclaimed the People's Republic of China on October 1, 1949, from where?",
       "options": [
-        "The Great Hall of the People",
-        "Shanghai Bund",
         "The Forbidden City",
-        "Tiananmen Gate, Beijing"
+        "The Great Hall of the People",
+        "Tiananmen Gate, Beijing",
+        "Shanghai Bund"
       ],
       "answer": "Tiananmen Gate, Beijing",
       "explanation": "Mao proclaimed the PRC from Tiananmen Gate on October 1, 1949. Chiang Kai-shek's Nationalists retreated to Taiwan. Mao's Great Leap Forward and Cultural Revolution caused tens of millions of deaths.",
@@ -83,10 +83,10 @@
       "category": "Pop Culture",
       "question": "Oprah's famous 'You get a car!' giveaway — who actually paid for the 276 Pontiacs?",
       "options": [
-        "The show's production budget covered it",
         "Oprah paid herself",
         "Pontiac (the car company), not Oprah",
-        "Audience members got loans in their name"
+        "Audience members got loans in their name",
+        "The show's production budget covered it"
       ],
       "answer": "Pontiac (the car company), not Oprah",
       "explanation": "The Pontiac G6 giveaway in 2004 was fully funded by Pontiac as a marketing stunt. Oprah's show ran 1986-2011. She was the first Black female billionaire in the US (net worth ~$2.5B).",
@@ -96,10 +96,10 @@
       "category": "Science & Nature",
       "question": "What surrounds the nucleus in eukaryotic cells, regulating entry and exit of molecules through pores?",
       "options": [
-        "Cell membrane",
         "Endoplasmic reticulum",
+        "Golgi apparatus",
         "Nuclear envelope",
-        "Golgi apparatus"
+        "Cell membrane"
       ],
       "answer": "Nuclear envelope",
       "explanation": "The nuclear envelope is a double membrane with nuclear pores that allow RNA to exit (to ribosomes) and proteins to enter. Prokaryotes have no nuclear envelope. The endoplasmic reticulum is a separate organelle for protein synthesis/modification.",
@@ -109,10 +109,10 @@
       "category": "Geography",
       "question": "What shape is Italy's landmass famously compared to, and what narrow water separates the 'toe' from Sicily?",
       "options": [
+        "A boot; Strait of Sicily (145 km wide)",
         "A hammer; Strait of Taranto (30 km wide)",
         "A leg; Strait of Otranto (72 km wide)",
-        "A boot; Strait of Messina (3 km wide)",
-        "A boot; Strait of Sicily (145 km wide)"
+        "A boot; Strait of Messina (3 km wide)"
       ],
       "answer": "A boot; Strait of Messina (3 km wide)",
       "explanation": "Italy's boot shape is iconic. The 'toe' (Calabria) faces Sicily across the Strait of Messina — only 3 km at its narrowest. Italy is surrounded by the Adriatic, Ionian, Mediterranean, and Tyrrhenian seas.",
@@ -122,8 +122,8 @@
       "category": "History",
       "question": "Who was U.S. president when the Berlin Wall fell on November 9, 1989?",
       "options": [
-        "George H.W. Bush",
         "George W. Bush",
+        "George H.W. Bush",
         "Ronald Reagan",
         "Bill Clinton"
       ],
@@ -135,9 +135,9 @@
       "category": "Pop Culture",
       "question": "Drake was on which TV show before becoming a music star?",
       "options": [
+        "Saved by the Bell",
         "Degrassi: The Next Generation",
         "One Tree Hill",
-        "Saved by the Bell",
         "The Fresh Prince of Bel-Air"
       ],
       "answer": "Degrassi: The Next Generation",
@@ -148,9 +148,9 @@
       "category": "Sports",
       "question": "What is Mike Powell's 1991 long jump world record, and does it still stand?",
       "options": [
+        "9.02 m, set at 2008 Beijing Olympics; still the world record",
         "8.90 m, set at 1988 Seoul Olympics; broken since",
         "8.95 m, set at 1996 Atlanta Olympics; still the world record",
-        "9.02 m, set at 2008 Beijing Olympics; still the world record",
         "8.95 m, set at 1991 World Championships in Tokyo; still the world record"
       ],
       "answer": "8.95 m, set at 1991 World Championships in Tokyo; still the world record",

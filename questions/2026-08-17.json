@@ -3,90 +3,90 @@
   "questions": [
     {
       "category": "Science & Nature",
-      "question": "Charles Darwin's theory of evolution by natural selection was primarily inspired by observations he made during his voyage to which Pacific island chain, known for its unique and isolated wildlife?",
+      "question": "Darwin's finches are the textbook example of natural selection. What is wrong with that story?",
       "options": [
-        "Falkland Islands",
-        "Hawaiian Islands",
-        "Canary Islands",
-        "Galápagos Islands"
+        "Darwin never visited the islands where they live",
+        "The finches were collected on a later voyage entirely",
+        "Darwin barely noticed them and mislabelled his specimens",
+        "They are not finches, and are unrelated to each other"
       ],
-      "answer": "Galápagos Islands",
-      "explanation": "Darwin visited the Galápagos Islands in 1835 aboard HMS Beagle. He observed that species of finches, tortoises, and other animals varied between islands in ways that seemed adapted to local conditions. These observations contributed crucially to his theory of evolution by natural selection, published in 'On the Origin of Species' in 1859.",
-      "memory_hook": "Darwin + Galápagos = evolution. Different finches on each island sparked his insight."
+      "answer": "Darwin barely noticed them and mislabelled his specimens",
+      "explanation": "Darwin did not record which island most of his bird specimens came from and initially took them for unrelated species. Ornithologist John Gould identified them as related ground finches after Darwin returned to London, and Darwin had to reconstruct the localities from the labelled collections of other crew members. The finches appear nowhere in the first edition of On the Origin of Species. The tidy story was assembled by later writers, mostly in the twentieth century.",
+      "memory_hook": "Darwin did not label which island his birds came from and thought they were unrelated species. John Gould worked out the connection back in London, and Darwin had to reconstruct the locations from other crew members' collections. The finches appear nowhere in the first edition of Origin."
     },
     {
       "category": "History",
-      "question": "The Soviet Union's attempt to suppress Hungarian revolt in 1956 was led by which Soviet leader?",
+      "question": "Soviet tanks crushed the Hungarian uprising in 1956. What had the West led Hungarians to expect?",
       "options": [
-        "Khrushchev",
-        "Stalin",
-        "Gorbachev",
-        "Brezhnev"
+        "A United Nations resolution authorising intervention",
+        "A NATO troop deployment already massing in Austria",
+        "A formal defence treaty signed with the United States",
+        "Radio Free Europe broadcasts implying help was coming"
       ],
-      "answer": "Khrushchev",
-      "explanation": "Nikita Khrushchev, who succeeded Stalin in 1953, ordered Soviet tanks into Budapest in November 1956 to crush the Hungarian Revolution. Hungarians had risen up against Soviet-imposed communist rule. About 2,500 Hungarians were killed and 200,000 fled as refugees. The same year, Khrushchev gave his famous 'Secret Speech' denouncing Stalin's crimes. The simultaneous Suez Crisis distracted Western attention from Hungary.",
-      "memory_hook": "Khrushchev = crushed Hungary 1956. Same year he denounced Stalin's crimes in the Secret Speech. He condemned Stalin's methods while using them. The contradiction defined his rule. Eisenhower didn't intervene in Hungary because the Suez Crisis was happening simultaneously."
+      "answer": "Radio Free Europe broadcasts implying help was coming",
+      "explanation": "Radio Free Europe had broadcast rollback rhetoric for years, and many Hungarians took it as a commitment. No help came. The United States was unwilling to risk war over the Soviet sphere, and the Suez Crisis was consuming attention that same fortnight. Around 2,500 Hungarians died and roughly 200,000 fled. Imre Nagy, the reformist premier, was executed in 1958. The episode ended serious belief in Western rollback across the Eastern bloc.",
+      "memory_hook": "Radio Free Europe had spent years implying the West would back an uprising, and Hungarians believed it. Nothing came; Washington would not fight over the Soviet sphere, and Suez was happening the same fortnight. 2,500 died, 200,000 fled, and Nagy was executed in 1958."
     },
     {
       "category": "Geography",
-      "question": "Which sea, lying between Greece and Turkey, takes its name from a legendary Athenian king who drowned in it after mistaking his son Theseus's black sails for a sign of defeat?",
+      "question": "The Aegean Sea is dotted with thousands of islands. How did most of them form?",
       "options": [
-        "Ionian Sea",
-        "Tyrrhenian Sea",
-        "Aegean Sea",
-        "Adriatic Sea"
+        "Volcanic cones built up from the seafloor",
+        "Debris left behind by retreating glaciers",
+        "Mountain peaks left standing when sea levels rose",
+        "Coral reefs that grew and were later uplifted"
       ],
-      "answer": "Aegean Sea",
-      "explanation": "According to Greek mythology, King Aegeus threw himself into the sea upon seeing black sails on his son Theseus's returning ship — believing Theseus had been killed by the Minotaur. The Aegean Sea contains over 2,000 islands including Crete, Rhodes, and Santorini, and separates Greece from Turkey.",
-      "memory_hook": "Aegean Sea = King Aegeus drowned there. Between Greece and Turkey."
+      "answer": "Mountain peaks left standing when sea levels rose",
+      "explanation": "Most Aegean islands are the tops of a drowned mountain range, flooded as sea levels rose after the last ice age, which is why they are rocky, steep and short of fresh water. Santorini is the major exception, a volcanic caldera left by a massive eruption around 1600 BC that may have contributed to the decline of Minoan Crete. The sea is named for Aegeus, who in myth drowned himself believing his son Theseus dead.",
+      "memory_hook": "They are drowned mountain tops, flooded when sea levels rose after the ice age, which is why they are steep, rocky and short of water. Santorini is the exception, a volcanic caldera from a huge eruption around 1600 BC. Named for Aegeus, who drowned himself thinking Theseus was dead."
     },
     {
       "category": "History",
-      "question": "The first trans-continental railroad in the United States was completed in which year?",
+      "question": "The US transcontinental railroad was completed in 1869. Who built the hardest western section?",
       "options": [
-        "1875",
-        "1857",
-        "1862",
-        "1869"
+        "Chinese labourers, who were roughly 90% of that workforce",
+        "Union Army veterans recruited straight out of the Civil War",
+        "Mormon settlers contracted directly by Brigham Young himself",
+        "Convicts leased to the railroad from California state prisons"
       ],
-      "answer": "1869",
-      "explanation": "The First Transcontinental Railroad was completed on May 10, 1869, when the Union Pacific and Central Pacific railroads met at Promontory Summit, Utah. The golden spike ceremony connected the eastern and western United States by rail for the first time. The railroad made cross-country travel practical (weeks instead of months) and was instrumental in settling the American West. It was largely built by Chinese and Irish immigrant laborers.",
-      "memory_hook": "Transcontinental railroad completed May 10, 1869. Golden spike at Promontory, Utah. Cut cross-country travel from months to days. Built mostly by Chinese immigrants (Central Pacific) and Irish immigrants (Union Pacific). Both groups were later discriminated against by the country they helped connect."
+      "answer": "Chinese labourers, who were roughly 90% of that workforce",
+      "explanation": "The Central Pacific employed around 15,000 Chinese workers to cut through the Sierra Nevada, including tunnels blasted through solid granite by hand, at roughly 30 cents per foot of progress in some stretches. Hundreds died in avalanches and explosions. They were paid less than white workers and had to buy their own food. None appear in the famous photograph at Promontory Summit. Congress passed the Chinese Exclusion Act thirteen years later.",
+      "memory_hook": "About 15,000 Chinese workers cut the Central Pacific through the Sierra Nevada, hand-blasting granite tunnels, sometimes advancing a foot a day. Hundreds died. They were paid less than white workers and bought their own food. Not one appears in the famous Promontory Summit photograph."
     },
     {
       "category": "Sports",
-      "question": "In swimming, what is the shortest Olympic race distance?",
+      "question": "Olympic swimming's shortest race is the 50m freestyle. What makes it tactically different from every other event?",
       "options": [
-        "25 meters",
-        "100 meters",
-        "50 meters",
-        "200 meters"
+        "Swimmers may use any stroke, including underwater",
+        "Many swimmers do not breathe at all during the race",
+        "It is swum in a shortened 25-metre pool",
+        "It is the only event started from inside the water"
       ],
-      "answer": "50 meters",
-      "explanation": "The 50-meter freestyle is the shortest swimming event in the Olympics and is considered the sprint of the pool. Swimmers complete one length of the 50-meter pool without turning. The race lasts only about 21-22 seconds for elite male swimmers. In 2009, Cesar Cielo of Brazil set the world record of 20.91 seconds using a controversial full-body polyurethane suit that was subsequently banned.",
-      "memory_hook": "50m freestyle = shortest Olympic swim race. About 21 seconds for the world's fastest. One lap, no turns, pure speed. The world record was set in a suit they then banned. If those suits still existed, records would be much faster."
+      "answer": "Many swimmers do not breathe at all during the race",
+      "explanation": "The 50 lasts around 21 seconds and lifting the head to breathe costs more time than the oxygen is worth, so elite sprinters routinely swim it on a single breath. It is also the only individual pool event with no turn, one length only, so the start and the underwater phase decide it. Freestyle technically permits any stroke, but everyone swims front crawl because it is fastest.",
+      "memory_hook": "It lasts about 21 seconds, and lifting your head to breathe costs more than the oxygen gains, so sprinters often do the whole thing on one breath. It is also the only individual event with no turn, so the dive and the underwater phase decide it."
     },
     {
       "category": "Sports",
-      "question": "Which country dominated Olympic weightlifting for most of the 20th century?",
+      "question": "Weightlifting has had persistent problems with one particular issue. What forced the IOC to threaten its Olympic status?",
       "options": [
-        "United States",
-        "Bulgaria",
-        "Soviet Union",
-        "Cuba"
+        "Equipment standards varied too much between competing nations",
+        "Too few countries were entering to justify keeping the events",
+        "Retesting of stored samples produced mass disqualifications",
+        "Judges were found to be scoring lifts wildly inconsistently"
       ],
-      "answer": "Soviet Union",
-      "explanation": "The Soviet Union dominated Olympic weightlifting throughout the Cold War era, winning the most medals across the sport's history. Soviet weightlifters benefited from state-sponsored training, scientific coaching methods, and (as emerged later) systematic doping programs. After the USSR dissolved, Russia, Ukraine, and other former Soviet republics continued the tradition. Bulgaria also produced world-class weightlifters, particularly in lighter weight classes.",
-      "memory_hook": "Soviet Union = Olympic weightlifting dominant. State-funded, scientifically trained, systematically enhanced. After the USSR fell, the tradition fragmented across former republics — but Russia, Ukraine, Kazakhstan, and others stayed competitive. The Soviet system essentially invented modern sports science."
+      "answer": "Retesting of stored samples produced mass disqualifications",
+      "explanation": "The IOC stores samples for years and retests them as detection improves. Reanalysis of Beijing 2008 and London 2012 samples stripped dozens of weightlifting medals, with some events losing most of the podium. Combined with governance scandals in the international federation, the IOC put the sport's Olympic place under formal review and cut its athlete quota. It survived for Los Angeles 2028 after leadership changes.",
+      "memory_hook": "The IOC freezes samples and retests them years later as science improves. Reanalysis of Beijing 2008 and London 2012 stripped dozens of weightlifting medals, some events losing nearly the whole podium. Combined with federation corruption, the IOC nearly threw the sport out."
     },
     {
       "category": "History",
       "question": "Hagia Sophia in Istanbul has served three roles across 1,500 years. What is its sequence?",
       "options": [
         "Greek theatre, then imperial mint, then cathedral",
-        "Byzantine cathedral, then Ottoman mosque, then museum",
         "Roman temple, then Christian church, then palace",
-        "Ottoman mosque, then Byzantine cathedral, then library"
+        "Ottoman mosque, then Byzantine cathedral, then library",
+        "Byzantine cathedral, then Ottoman mosque, then museum"
       ],
       "answer": "Byzantine cathedral, then Ottoman mosque, then museum",
       "explanation": "Justinian I completed it in 537 AD as the cathedral of Constantinople, and it held the record as the world's largest interior space for nearly a thousand years. After the Ottoman conquest in 1453, Mehmed II converted it to a mosque and minarets were added. Ataturk's secular republic made it a museum in 1935. It was reconverted to a mosque in 2020. Its enormous dome, which appears to float on a ring of windows, was an engineering leap that later Ottoman architects such as Sinan studied and built upon.",
@@ -94,36 +94,36 @@
     },
     {
       "category": "Pop Culture",
-      "question": "Which 1997 James Cameron film, about the sinking of a British ocean liner in 1912, became the highest-grossing film in history at the time and won 11 Academy Awards?",
+      "question": "Titanic (1997) held the box office record for twelve years. What was unusual about how it earned that money?",
       "options": [
-        "Pearl Harbor",
-        "The Perfect Storm",
-        "Waterworld",
-        "Titanic"
+        "Ticket prices were raised specifically for it",
+        "It played only in specially built widescreen theatres",
+        "It was released simultaneously on home video",
+        "It stayed in cinemas for nearly ten months"
       ],
-      "answer": "Titanic",
-      "explanation": "James Cameron's 'Titanic' (1997) starred Leonardo DiCaprio and Kate Winslet. It was the first film to gross $1 billion worldwide and held the box office record for 12 years, until Cameron's own 'Avatar' surpassed it. It tied 'Ben-Hur' and 'The Lord of the Rings: The Return of the King' for most Oscars won by a single film (11).",
-      "memory_hook": "Titanic 1997: Cameron, DiCaprio, Winslet. First $1B film. 11 Oscars."
+      "answer": "It stayed in cinemas for nearly ten months",
+      "explanation": "Titanic earned through extraordinary staying power rather than a huge opening, holding number one for fifteen consecutive weekends as audiences returned repeatedly. Modern blockbusters take most of their money in the first fortnight, so that pattern has essentially disappeared. The production went so far over budget that Fox and Paramount split the risk, and Cameron surrendered his backend points, which he later renegotiated once it became the highest-grossing film ever made.",
+      "memory_hook": "It did not open huge, it just refused to leave, holding number one for fifteen straight weekends while people saw it again and again. Modern films take everything in two weeks. It went so far over budget that two studios split the risk and Cameron gave up his profit share to get it finished."
     },
     {
       "category": "Pop Culture",
-      "question": "Which rapper and producer created the 'Chronic' sound that defined West Coast gangsta rap in 1992?",
+      "question": "Dr. Dre's The Chronic (1992) defined West Coast hip-hop. What was the G-funk sound built from?",
       "options": [
-        "Snoop Dogg",
-        "DJ Quik",
-        "Ice Cube",
-        "Dr. Dre"
+        "Digitally generated tones with no sampling at all",
+        "Slowed Parliament-Funkadelic samples and live synth lines",
+        "Jazz records looped from his father's vinyl collection",
+        "Drum machines set deliberately out of time"
       ],
-      "answer": "Dr. Dre",
-      "explanation": "Dr. Dre released The Chronic in December 1992, defining the G-funk sound — funk-influenced production with synthesized bass lines, laid-back tempos, and the vocal style of his protege Snoop Dogg. The album sold over 3 million copies and launched both Dre's and Snoop's solo careers. Dre went on to produce Eminem's breakthrough albums and founded Beats Electronics, sold to Apple for $3 billion in 2014.",
-      "memory_hook": "Dr. Dre = The Chronic, 1992. Invented G-funk. Launched Snoop Dogg, then Eminem, then Kendrick Lamar. Sold Beats to Apple for $3 billion. One of the most commercially successful music producers in history, spanning three decades of dominance."
+      "answer": "Slowed Parliament-Funkadelic samples and live synth lines",
+      "explanation": "Dre slowed 1970s funk, especially George Clinton's Parliament-Funkadelic catalogue, and layered live instrumentation and a high whining synth lead over deep bass. The sound dominated for years. The album introduced Snoop Dogg and was released on Death Row, co-founded with Suge Knight, whose methods later became the subject of extensive litigation. Dre went on to found Aftermath and sign Eminem and 50 Cent.",
+      "memory_hook": "Dre slowed down 1970s Parliament-Funkadelic, layered live instruments and that high whining synth over heavy bass, and that is G-funk. It launched Snoop Dogg on Death Row Records, co-run by Suge Knight. Dre later founded Aftermath and signed Eminem and 50 Cent."
     },
     {
       "category": "Pop Culture",
       "question": "Downton Abbey (2010-2015) spans 1912 to 1926. What social transformation does its upstairs-downstairs structure dramatize?",
       "options": [
-        "Britain's shift from landed aristocracy to modern democracy",
         "A focused history of British women's legal rights",
+        "Britain's shift from landed aristocracy to modern democracy",
         "A defense of aristocratic paternalism as a social good",
         "A precise reconstruction of an Edwardian house timetable"
       ],
@@ -133,29 +133,29 @@
     },
     {
       "category": "Geography",
-      "question": "Which mountain range runs along the western edge of North America, stretching from Alaska to Mexico?",
+      "question": "The Appalachians run down eastern North America and are far older than the Rockies. How old are they?",
       "options": [
-        "Appalachian Mountains",
-        "Sierra Nevada",
-        "Rocky Mountains",
-        "Cascade Range"
+        "Formed alongside the Rockies around 70 million years ago",
+        "Older than bones, trees, or the Atlantic Ocean itself",
+        "About the same age as the Alps, roughly 30 million years",
+        "The youngest major range in North America"
       ],
-      "answer": "Rocky Mountains",
-      "explanation": "The Rocky Mountains stretch approximately 4,800 km from northern British Columbia and Alberta in Canada down through the western United States to New Mexico. The highest peak is Mount Elbert in Colorado at 4,401 meters. The Rockies are the continental divide — water on the west side flows to the Pacific, water on the east flows toward the Atlantic or Gulf of Mexico.",
-      "memory_hook": "Rocky Mountains = western spine of North America. 4,800 km from Alaska to New Mexico. The Continental Divide runs along the Rockies — rain on one side eventually reaches the Pacific, rain on the other reaches the Gulf of Mexico or Atlantic. One mountain range, two ocean watersheds."
+      "answer": "Older than bones, trees, or the Atlantic Ocean itself",
+      "explanation": "The Appalachians began forming around 480 million years ago, before vertebrates had bones on land, before trees existed, and before the Atlantic opened. They were once Himalayan in scale and have been eroding ever since. The same range continues in Scotland, Ireland and Norway, split apart when Pangaea broke up. Their rounded worn profile is the direct visual evidence of that age.",
+      "memory_hook": "They started forming 480 million years ago, before trees existed and before the Atlantic opened. They were once Himalayan in height and have been wearing down since. The same range continues in Scotland and Norway, torn apart when Pangaea split. That is why they look so worn."
     },
     {
       "category": "Science & Nature",
-      "question": "What is the name for the region of space where a black hole's gravity is so strong that not even light can escape?",
+      "question": "Nothing escapes a black hole past the event horizon. What would an outside observer see someone falling in?",
       "options": [
-        "Accretion disk",
-        "Event horizon",
-        "Photon sphere",
-        "Singularity"
+        "They vanish instantly the moment they cross it",
+        "They appear to speed up and disappear in a flash",
+        "They reappear moments later, unchanged",
+        "They appear to slow and freeze at the horizon forever"
       ],
-      "answer": "Event horizon",
-      "explanation": "The event horizon is the boundary around a black hole beyond which nothing — not even light — can escape the black hole's gravitational pull. It is sometimes called the 'point of no return.' Inside the event horizon lies the singularity, where gravity becomes theoretically infinite and current physics breaks down. The first image of a black hole's shadow (and event horizon) was captured in 2019 by the Event Horizon Telescope.",
-      "memory_hook": "Event horizon = the point of no return around a black hole. Light can't escape if it crosses it. The first image of one was taken in 2019 — the shadow of the black hole in galaxy M87. It took eight Earth-sized telescopes linked together to capture it."
+      "answer": "They appear to slow and freeze at the horizon forever",
+      "explanation": "Gravitational time dilation means clocks run slower in stronger gravity, so from outside, a falling object appears to slow, redden as its light stretches, and asymptotically freeze at the horizon without ever quite crossing. It also dims until undetectable. From the falling person's own perspective nothing unusual happens at the horizon; they cross it in finite time. Both accounts are correct, which is one of relativity's stranger consequences.",
+      "memory_hook": "From outside they seem to slow, redden and freeze at the horizon forever, fading until you cannot see them. From their own point of view they cross straight through and notice nothing. Both are true simultaneously, which is one of the odder results in relativity."
     }
   ]
 }
