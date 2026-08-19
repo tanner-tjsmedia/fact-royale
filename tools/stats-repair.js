@@ -367,9 +367,76 @@
     return payload;
   };
 
+  // ── streak freezes ───────────────────────────────────────
+  // A freeze covers one missed day when you next play. It does NOT invent a
+  // score, add to completedDates, or touch the leaderboard — the streak simply
+  // does not reset. Free accounts hold 0, which is the old behaviour exactly.
+  //
+  //   await frFreezes()      — how many are banked
+  //   await frFreezes(30)    — set the balance to 30
+  window.frFreezes = async function (n) {
+    const u = firebase.auth().currentUser;
+    if (!u) { console.error('Not signed in.'); return; }
+    const ref  = firebase.firestore().collection('users').doc(u.uid);
+    const snap = await ref.get();
+    const s    = (snap.data() || {}).stats || {};
+
+    if (typeof n !== 'number') {
+      console.log(`streakFreezes: ${s.streakFreezes || 0}`);
+      console.log(`used to date:  ${s.freezesUsedTotal || 0}`);
+      console.log(`current streak: ${s.currentStreak || 0}  (last played ${s.lastPlayedDate || 'never'})`);
+      console.log('Set with: await frFreezes(30)');
+      return s.streakFreezes || 0;
+    }
+
+    if (!Number.isInteger(n) || n < 0) { console.error('Pass a non-negative whole number.'); return; }
+    await ref.update({ 'stats.streakFreezes': n });
+    console.log(`%cstreakFreezes set to ${n}.`, 'color:#4ade80;font-weight:bold');
+    console.log('Each missed day spends one the next time you play. Miss more days');
+    console.log('than you hold and the streak still breaks.');
+    return n;
+  };
+
+  // ── set the streak directly ──────────────────────────────
+  // Surgical. Does NOT recompute from quizHistory (that record is incomplete,
+  // which is why frRepair would have destroyed data the first time round) and
+  // does NOT touch gamesPlayed, scores or the leaderboard. It sets the streak
+  // counter and nothing else.
+  //
+  //   await frStreak()      — show current
+  //   await frStreak(53)    — set to 53
+  window.frStreak = async function (n) {
+    const u = firebase.auth().currentUser;
+    if (!u) { console.error('Not signed in.'); return; }
+    const ref  = firebase.firestore().collection('users').doc(u.uid);
+    const snap = await ref.get();
+    const s    = (snap.data() || {}).stats || {};
+
+    if (typeof n !== 'number') {
+      console.log(`current streak: ${s.currentStreak || 0}`);
+      console.log(`longest:        ${s.longestStreak || 0}`);
+      console.log(`last played:    ${s.lastPlayedDate || 'never'}`);
+      console.log(`freezes banked: ${s.streakFreezes || 0}`);
+      console.log('Set with: await frStreak(53)');
+      return s.currentStreak || 0;
+    }
+
+    if (!Number.isInteger(n) || n < 0) { console.error('Pass a non-negative whole number.'); return; }
+    await ref.update({
+      'stats.currentStreak': n,
+      'stats.longestStreak': Math.max(s.longestStreak || 0, n)
+    });
+    console.log(`%ccurrent streak set to ${n}.`, 'color:#4ade80;font-weight:bold');
+    console.log('Reload to see it. Play today to keep it moving.');
+    return n;
+  };
+
   console.log('%cFact Royale stats tool loaded.', 'color:#D4AF37;font-weight:bold');
   console.log('  await frDiagnose()   — read-only report');
+  console.log('  await frStreak()     — check / set current streak');
   console.log('  await frRepair()     — recompute + write');
   console.log('  await frRepair({ dryRun: true })  — preview without writing');
+  console.log('  await frFreezes()    — check streak-freeze balance');
+  console.log('  await frFreezes(30)  — set streak-freeze balance');
 
 })();

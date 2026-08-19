@@ -39,12 +39,8 @@
       "answer": "More golds than 66 nations have won in their entire history",
       "explanation": "Phelps has 23 Olympic golds. Sixty-six countries have won fewer than that across their entire Olympic history, and a further group have never won gold at all. Measured against the nations competing at Rio 2016 he would have ranked ahead of all but 32 of them, one behind host Brazil. He was diagnosed with ADHD as a child, and has since spoken openly about depression following the 2012 Games.",
       "memory_hook": "Twenty-three golds, more than 66 countries have managed in their entire Olympic history. Ranked as a nation at Rio he would have finished ahead of all but 32 competing countries, one gold behind Brazil. Diagnosed with ADHD as a child; he has since talked openly about depression after London 2012.",
-      "sources": [
-        {
-          "claim": "66 countries have won fewer than Phelps's 23 golds all-time",
-          "source": "https://time.com/4446971/rio-2016-olympics-michael-phelps-gold-medals/",
-          "checked": "2026-08-08"
-        }
+      "sourceRefs": [
+        "phelps-vs-nations"
       ]
     },
     {

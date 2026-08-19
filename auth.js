@@ -259,6 +259,8 @@ async function createUserProfile(user, displayName, firstName, lastName) {
       questionsCorrect:   0,
       currentStreak:      0,
       longestStreak:      0,
+      streakFreezes:      0,   // premium allowance; 0 means the streak breaks on any missed day
+      freezesUsedTotal:   0,
       lastPlayedDate:     '',
       bestScore:          0,
       bestScoreDate:      ''
@@ -366,8 +368,14 @@ async function submitScoreToFirebase(score, total, categoryScores, dateKey, isAr
 
   let levelUps = [];
 
+  // Set inside the transaction so the results screen can say the streak was
+  // saved. Declared out here because a Firestore transaction may retry; it is
+  // reset at the top of every attempt.
+  let freezesUsed = 0;
+
   try {
     const outcome = await db.runTransaction(async (tx) => {
+      freezesUsed = 0;
       // ---- all reads first (Firestore transaction requirement) ----
       const histSnap = await tx.get(histRef);
       const userSnap = await tx.get(userRef);
@@ -441,9 +449,42 @@ async function submitScoreToFirebase(score, total, categoryScores, dateKey, isAr
         d.setDate(d.getDate() - 1);
         const yesterday = `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;
 
+        // ── streak, with freezes ────────────────────────────
+        // A freeze covers ONE missed day. Miss three days with two freezes
+        // banked and the streak still breaks; the allowance is not a licence
+        // to disappear. Free accounts hold 0, so this is a no-op for them and
+        // behaviour is exactly as before.
+        //
+        // Freezes deliberately do NOT write the missed days into
+        // completedDates or quizHistory. The streak survives; the play record
+        // stays truthful. Nothing here ever invents a score.
         let currentStreak = stats.currentStreak || 0;
-        if (stats.lastPlayedDate === yesterday)      currentStreak += 1;
-        else if (stats.lastPlayedDate !== dateKey)   currentStreak  = 1;
+        const freezesHeld = stats.streakFreezes || 0;
+        freezesUsed = 0;
+
+        if (stats.lastPlayedDate === dateKey) {
+          // already recorded today, leave the streak alone
+        } else if (stats.lastPlayedDate === yesterday) {
+          currentStreak += 1;
+        } else if (stats.lastPlayedDate) {
+          const last   = new Date(stats.lastPlayedDate + 'T00:00:00');
+          const now    = new Date(dateKey + 'T00:00:00');
+          const missed = Math.round((now - last) / 86400000) - 1;
+          if (missed > 0 && missed <= freezesHeld) {
+            freezesUsed   = missed;
+            currentStreak += 1;
+          } else {
+            currentStreak = 1;
+          }
+        } else {
+          currentStreak = 1;
+        }
+
+        if (freezesUsed > 0) {
+          updates['stats.streakFreezes']    = firebase.firestore.FieldValue.increment(-freezesUsed);
+          updates['stats.freezesUsedTotal'] = firebase.firestore.FieldValue.increment(freezesUsed);
+          updates['stats.lastFreezeDate']   = dateKey;
+        }
 
         const isNewBest = score > (stats.bestScore || 0);
         updates['stats.currentStreak']  = currentStreak;

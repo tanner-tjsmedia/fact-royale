@@ -65,12 +65,8 @@
       "answer": "September extent is down around 12% per decade since 1979",
       "explanation": "Satellite records since 1979 show the September minimum falling roughly 12 to 13% per decade, and the 2010s average was about 36% below the 1980s. The remaining ice is also younger and thinner, with most multi-year ice gone. This drives a feedback: white ice reflects sunlight while dark water absorbs it, so melting accelerates further melting. The Arctic is warming several times faster than the global average.",
       "memory_hook": "September ice is falling about 12% per decade since 1979, and the 2010s ran roughly 36% below the 1980s. What remains is thinner and younger. White ice reflects sunlight, dark water absorbs it, so melting feeds melting. The Arctic warms several times faster than the rest of the planet.",
-      "sources": [
-        {
-          "claim": "September Arctic sea ice declining ~12-13% per decade since 1979; 2010s ~36% below 1980s",
-          "source": "https://www.climate.gov/news-features/understanding-climate/climate-change-arctic-sea-ice-summer-minimum",
-          "checked": "2026-08-08"
-        }
+      "sourceRefs": [
+        "arctic-sea-ice"
       ]
     },
     {

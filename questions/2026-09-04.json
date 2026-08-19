@@ -65,12 +65,8 @@
       "answer": "Around 90% of its wildlife exists nowhere else on Earth",
       "explanation": "Roughly 90% of Madagascar's wildlife is endemic, and the figure runs higher in some groups: about 92% of mammals, 95% of reptiles and over 99% of amphibians occur nowhere else, along with 89% of plants. All 100-plus lemur species are found only there, evolved from ancestors that probably rafted across on vegetation. There are no native monkeys, big cats or antelope, so lemurs occupy niches those animals fill elsewhere. Around 90% of the island's original forest cover has been cleared.",
       "memory_hook": "About 90% of its wildlife exists nowhere else, and higher in some groups: 92% of mammals, 95% of reptiles, over 99% of amphibians. Every lemur species is Malagasy, descended from ancestors that likely rafted over on vegetation. No native monkeys or big cats, so lemurs took those roles instead.",
-      "sources": [
-        {
-          "claim": "~90% of Madagascar wildlife endemic; 92% mammals, 95% reptiles, 99%+ amphibians, 89% plants",
-          "source": "https://www.science.org/doi/10.1126/science.abf0869",
-          "checked": "2026-08-08"
-        }
+      "sourceRefs": [
+        "madagascar-endemism"
       ]
     },
     {

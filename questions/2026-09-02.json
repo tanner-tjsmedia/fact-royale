@@ -156,12 +156,8 @@
       "answer": "Twenty-four in over 150 years of Major League Baseball",
       "explanation": "Twenty-four have been thrown across more than 200,000 games, the most recent by Domingo German for the Yankees in June 2023. Don Larsen threw the only one in a World Series, in 1956, and was otherwise an unremarkable pitcher with a losing career record. Armando Galarraga lost one in 2010 on a blown call at first base with two out in the ninth; the umpire apologised publicly afterward and Major League Baseball declined to reverse it.",
       "memory_hook": "Twenty-four in more than 200,000 games, the last by Domingo German in 2023. Don Larsen threw the only World Series perfect game in 1956 and was otherwise a mediocre pitcher with a losing record. Galarraga lost one in 2010 to a blown call with two out in the ninth, and the umpire apologised.",
-      "sources": [
-        {
-          "claim": "24 perfect games in MLB history; most recent Domingo German, June 2023",
-          "source": "https://www.mlb.com/news/all-time-perfect-games",
-          "checked": "2026-08-08"
-        }
+      "sourceRefs": [
+        "mlb-perfect-games"
       ]
     }
   ]

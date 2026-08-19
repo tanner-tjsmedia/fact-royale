@@ -26,12 +26,8 @@
       "answer": "It keeps rising as small objects are found and confirmed",
       "explanation": "The total is a moving target. Saturn passed Jupiter in March 2025 when the International Astronomical Union recognised 128 new moons in a single announcement, taking NASA's catalogue from 146 to 274, and further confirmations have followed. There is also no agreed minimum size for a moon, so the line between a small moon and a large ring particle is partly a definitional choice. Titan alone accounts for over 96% of the mass orbiting Saturn and has a thicker atmosphere than Earth's.",
       "memory_hook": "The count keeps moving. Saturn passed Jupiter in March 2025 when the IAU recognised 128 new moons at once, jumping the catalogue from 146 to 274, and more have been added since. There is no agreed minimum size for a moon either, so the moon-versus-ring-particle line is partly arbitrary.",
-      "sources": [
-        {
-          "claim": "IAU recognised 128 new Saturn moons March 2025, taking NASA catalogue 146 to 274",
-          "source": "https://www.sci.news/astronomy/saturn-moons-13748.html",
-          "checked": "2026-08-08"
-        }
+      "sourceRefs": [
+        "saturn-moons-2025"
       ]
     },
     {
