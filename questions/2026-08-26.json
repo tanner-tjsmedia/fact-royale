@@ -27,7 +27,8 @@
       "explanation": "The total is a moving target. Saturn passed Jupiter in March 2025 when the International Astronomical Union recognised 128 new moons in a single announcement, taking NASA's catalogue from 146 to 274, and further confirmations have followed. There is also no agreed minimum size for a moon, so the line between a small moon and a large ring particle is partly a definitional choice. Titan alone accounts for over 96% of the mass orbiting Saturn and has a thicker atmosphere than Earth's.",
       "memory_hook": "The count keeps moving. Saturn passed Jupiter in March 2025 when the IAU recognised 128 new moons at once, jumping the catalogue from 146 to 274, and more have been added since. There is no agreed minimum size for a moon either, so the moon-versus-ring-particle line is partly arbitrary.",
       "sourceRefs": [
-        "saturn-moons-2025"
+        "saturn-moons-2025",
+        "nasa-solar-system-moons"
       ]
     },
     {
@@ -66,8 +67,12 @@
         "Raises Atlantic sea level measurably each wet season"
       ],
       "answer": "Freshens the sea for over 100 miles offshore",
-      "explanation": "Discharge is so large that sailors historically drew drinkable water well out of sight of land. The plume is visible from orbit and reduces surface salinity across a vast area. The river has no bridges along its main stem, since there is nothing to connect. It also flowed westward into the Pacific until the Andes rose and reversed it. A tidal bore called the pororoca runs upstream for hundreds of kilometres.",
-      "memory_hook": "The outflow freshens the Atlantic so far out that sailors used to draw drinking water out of sight of land, and the plume is visible from orbit. No bridges cross the main stem. It flowed west into the Pacific until the Andes rose and turned it around."
+      "explanation": "Discharge is so large that the plume is visible from orbit and measurably freshens the surface of the tropical North Atlantic, with reduced salinity detectable hundreds of kilometres out and a low-salinity lens covering around a fifth of the western tropical North Atlantic in season. The river has no bridges along its main stem, since there is nothing on the far side to connect to. It also flowed westward into the Pacific until the Andes rose and reversed it.",
+      "memory_hook": "The outflow freshens the Atlantic so far out that sailors used to draw drinking water out of sight of land, and the plume is visible from orbit. No bridges cross the main stem. It flowed west into the Pacific until the Andes rose and turned it around.",
+      "sourceRefs": [
+        "amazon-plume-salinity"
+      ],
+      "riskTier": "source"
     },
     {
       "category": "History",

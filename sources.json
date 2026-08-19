@@ -1308,6 +1308,89 @@
       ],
       "checked": "2026-08-08",
       "archive": null
+    },
+    "guinness-fastest-serve": {
+      "tier": "primary",
+      "url": "https://www.guinnessworldrecords.com/world-records/fastest-serve-of-a-tennis-ball-(male)",
+      "publisher": "Guinness World Records",
+      "establishes": [
+        "Sam Groth served 263 km/h (163.4 mph) on 9 May 2012 at an ATP Challenger event in Busan, against Uladzimir Ignatik",
+        "The ATP does not recognise it because it was a Challenger; their record is John Isner's 253.0 km/h at the 2016 Davis Cup"
+      ],
+      "checked": "2026-08-19",
+      "recheck": "2028-01-01",
+      "archive": null,
+      "note": "Live record. The question names both figures and explains why they differ, so it stays correct even if one is beaten; recheck anyway."
+    },
+    "adele-21-sales": {
+      "tier": "secondary",
+      "url": "https://feeds.bbci.co.uk/news/entertainment-arts-50013491",
+      "publisher": "BBC News / Radio 2",
+      "establishes": [
+        "Adele's 21 has sold over 31 million copies worldwide and is the best-selling album of the 21st century",
+        "It is the UK's best-selling album of the century with over five million sold"
+      ],
+      "checked": "2026-08-19",
+      "recheck": "2028-01-01",
+      "archive": null
+    },
+    "jakarta-subsidence": {
+      "tier": "secondary",
+      "url": "https://www.space4water.org/news/jakarta-nusantara-land-subsidence-and-other-pressing-water-challenges-sinking-mega-city",
+      "publisher": "UN-Space4Water Portal",
+      "establishes": [
+        "Parts of north Jakarta subside up to 25cm a year; the wider city 10-20cm a year",
+        "Groundwater extraction outpacing recharge is the primary cause"
+      ],
+      "checked": "2026-08-19",
+      "archive": null,
+      "note": "The '40% of the city below sea level' figure was REMOVED from the question. Widely repeated but not stated in any source found in this pass."
+    },
+    "nusantara-capital": {
+      "tier": "secondary",
+      "url": "https://www.oxfordeconomics.com/resource/a-capital-is-born-the-impact-of-indonesia-moving-its-capital-city/",
+      "publisher": "Oxford Economics",
+      "establishes": [
+        "Nusantara, in Borneo, was inaugurated 17 August 2024 as Indonesia's new capital",
+        "Relocation is phased over decades at a cost in the tens of billions of dollars"
+      ],
+      "checked": "2026-08-19",
+      "archive": null
+    },
+    "amazon-plume-salinity": {
+      "tier": "primary",
+      "url": "https://www.salinity-pimep.org/case-studies/river-plumes/amazon_orinoco/literature_review.html",
+      "publisher": "ESA/NASA Salinity Pi-MEP",
+      "establishes": [
+        "The Amazon plume covers up to 1.3 million sq km between May and September, about 20% of the western tropical North Atlantic",
+        "Freshening is detectable as far as 2,600 km offshore; plume width ~250 km offshore",
+        "The plume is visible from orbit in satellite salinity data"
+      ],
+      "checked": "2026-08-19",
+      "archive": null,
+      "note": "The 'sailors drew drinking water out of sight of land' anecdote was REMOVED. Traditional story, no source found."
+    },
+    "nasa-hawking-radiation": {
+      "tier": "primary",
+      "url": "https://science.nasa.gov/universe/black-holes/",
+      "publisher": "NASA",
+      "establishes": [
+        "Hawking radiation is predicted theoretically and has never been directly observed from an astrophysical black hole"
+      ],
+      "checked": "2026-08-19",
+      "archive": null
+    },
+    "nasa-solar-system-moons": {
+      "tier": "primary",
+      "url": "https://science.nasa.gov/solar-system/moons/",
+      "publisher": "NASA Science",
+      "establishes": [
+        "NASA's running moon catalogue; Saturn's confirmed count exceeds Jupiter's and continues to rise as objects are confirmed",
+        "There is no agreed minimum size defining a moon"
+      ],
+      "checked": "2026-08-19",
+      "recheck": "2027-01-01",
+      "archive": null
     }
   }
 }

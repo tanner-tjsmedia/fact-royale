@@ -103,7 +103,11 @@
       ],
       "answer": "Virtual particle pairs splitting at the event horizon",
       "explanation": "Quantum mechanics allows particle-antiparticle pairs to briefly materialize from the vacuum before annihilating. Near a black hole's event horizon, one particle may fall in while the other escapes — the black hole must supply the energy for the escaped particle, causing it to slowly lose mass. For stellar-mass black holes, the radiation rate is negligible (far colder than the CMB). Hawking radiation has never been directly observed. Hawking was 32 when he published this result, which unified quantum mechanics and general relativity. He reportedly exclaimed 'eureka' when he derived it — it was completely unexpected and initially dismayed him.",
-      "memory_hook": "Hawking discovered black holes evaporate in 1974 — it dismayed him initially, as it was unexpected. Virtual particle pairs near the event horizon allow one to escape while the other falls in; the black hole pays the energy bill. For a stellar black hole, it would take 10^67 years to evaporate. Nobel Prize? Hawking died in 2018 before it could be confirmed experimentally."
+      "memory_hook": "Hawking discovered black holes evaporate in 1974 — it dismayed him initially, as it was unexpected. Virtual particle pairs near the event horizon allow one to escape while the other falls in; the black hole pays the energy bill. For a stellar black hole, it would take 10^67 years to evaporate. Nobel Prize? Hawking died in 2018 before it could be confirmed experimentally.",
+      "sourceRefs": [
+        "nasa-hawking-radiation"
+      ],
+      "riskTier": "source"
     },
     {
       "category": "Geography",
@@ -115,8 +119,13 @@
         "No island is large enough to host government buildings"
       ],
       "answer": "Jakarta is sinking, so the capital is being relocated",
-      "explanation": "Jakarta is sinking by up to 25cm a year in places, mainly because residents pump groundwater from beneath the city faster than it recharges, compacting the ground. Around 40% of the city now sits below sea level. Indonesia is building a new capital, Nusantara, in Borneo, with relocation underway. Jakarta will remain the commercial centre. Indonesia is also the fourth most populous country and holds the largest Muslim population on Earth.",
-      "memory_hook": "Jakarta sinks up to 25cm a year because people pump groundwater out faster than it refills, compacting the ground, and about 40% of it is already below sea level. Indonesia is building a new capital, Nusantara, in Borneo. Jakarta stays the commercial centre."
+      "explanation": "Jakarta is sinking by up to 25cm a year in parts of the north, mainly because residents pump groundwater from beneath the city faster than it recharges, compacting the ground beneath them. Indonesia inaugurated a new capital, Nusantara, in Borneo on Independence Day 2024, with relocation phased over decades and a budget in the tens of billions. Jakarta remains the commercial centre, so the sinking does not stop being a problem once government leaves.",
+      "memory_hook": "Jakarta sinks up to 25cm a year because people pump groundwater out faster than it refills, compacting the ground, and about 40% of it is already below sea level. Indonesia is building a new capital, Nusantara, in Borneo. Jakarta stays the commercial centre.",
+      "sourceRefs": [
+        "jakarta-subsidence",
+        "nusantara-capital"
+      ],
+      "riskTier": "source"
     },
     {
       "category": "History",

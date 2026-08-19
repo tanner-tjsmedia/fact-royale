@@ -51,7 +51,11 @@
       ],
       "answer": "30 came out when she was 33, delayed by her divorce",
       "explanation": "The numbers mark the age at which the material was written rather than release. 30 was written around her divorce and released when she was 33, and she has described it as an explanation to her son. She also had vocal cord surgery after 21 and could not speak for weeks. 21 has sold over 31 million copies, one of the best-selling albums of the century.",
-      "memory_hook": "The number is her age when she wrote it, not when it came out. 30 was written around her divorce and released at 33, framed partly as an explanation for her son. She had vocal cord surgery after 21 and could not speak for weeks. 21 has sold over 31 million."
+      "memory_hook": "The number is her age when she wrote it, not when it came out. 30 was written around her divorce and released at 33, framed partly as an explanation for her son. She had vocal cord surgery after 21 and could not speak for weeks. 21 has sold over 31 million.",
+      "sourceRefs": [
+        "adele-21-sales"
+      ],
+      "riskTier": "source"
     },
     {
       "category": "Geography",
@@ -103,7 +107,10 @@
       ],
       "answer": "From the cosmic microwave background's temperature ripples",
       "explanation": "The Planck satellite mapped microscopic temperature variations in the afterglow of the Big Bang and fitted them to a cosmological model, yielding 13.787 billion years with roughly 0.2% uncertainty. Independent checks from the oldest known stars and from the abundance of light elements agree. There is an open problem though: measuring the expansion rate using nearby supernovae gives a different answer than the microwave background does, a discrepancy called the Hubble tension.",
-      "memory_hook": "Planck mapped tiny temperature ripples in the Big Bang's afterglow and fitted them to a model: 13.787 billion years, give or take 0.2%. The oldest stars agree. But measuring expansion using nearby supernovae gives a different number, and nobody has resolved that yet. It is called the Hubble tension."
+      "memory_hook": "Planck mapped tiny temperature ripples in the Big Bang's afterglow and fitted them to a model: 13.787 billion years, give or take 0.2%. The oldest stars agree. But measuring expansion using nearby supernovae gives a different number, and nobody has resolved that yet. It is called the Hubble tension.",
+      "sourceRefs": [],
+      "riskTier": "canonical",
+      "canonicalNote": "the Hubble tension is stated AS unresolved, which is the accepted position, not a claim that could be wrong"
     },
     {
       "category": "Geography",
@@ -154,8 +161,12 @@
         "Around 320 km/h, set with an oversized racquet"
       ],
       "answer": "Around 263 km/h, by Australian Sam Groth in 2012",
-      "explanation": "Groth hit 263.4 km/h at a Challenger event in Busan, though the ATP does not formally ratify it because the radar was not their standard equipment. Their recognised record is John Isner's 253 km/h. Serving speed rose sharply once graphite replaced wood in the 1980s. Isner also played the longest match in history at Wimbledon in 2010, 11 hours 5 minutes across three days, with a final set of 70-68.",
-      "memory_hook": "Sam Groth hit 263.4 km/h in 2012, though the ATP does not ratify it because the radar was not theirs. Their official record is Isner's 253. Speeds jumped when graphite replaced wood in the 1980s. Isner also played an 11-hour Wimbledon match with a 70-68 final set."
+      "explanation": "Groth hit 263.4 km/h at a Challenger event in Busan in May 2012, and Guinness recognises it as the fastest serve ever recorded. The ATP does not ratify it, because it came at Challenger level rather than on the main tour, so their standing record is John Isner's 253.0 km/h from the 2016 Davis Cup. Serving speed rose sharply once graphite replaced wood in the 1980s. Isner also played the longest match in history at Wimbledon in 2010.",
+      "memory_hook": "Sam Groth hit 263.4 km/h in 2012, though the ATP does not ratify it because the radar was not theirs. Their official record is Isner's 253. Speeds jumped when graphite replaced wood in the 1980s. Isner also played an 11-hour Wimbledon match with a 70-68 final set.",
+      "sourceRefs": [
+        "guinness-fastest-serve"
+      ],
+      "riskTier": "source"
     }
   ]
 }
