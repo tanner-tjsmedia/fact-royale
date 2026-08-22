@@ -1164,10 +1164,13 @@ async function populateCatchUpOnLanding() {
   try {
     const completedDates = await getCompletedDates(currentUser.uid);
 
-    // Only show catch-up on the landing if the user has already played today.
-    // Before today's quiz is done, keep the focus on today — no distractions.
-    const playedToday = alreadyPlayedToday() || completedDates.includes(todayKey);
-    if (!playedToday) return;
+    // Shown whether or not today has been played. An earlier version returned
+    // early unless today was done, to "keep the focus on today" — but that
+    // hid the catch-up button from exactly the people who needed it, and the
+    // header comment above was never updated to match, so the file described
+    // behaviour it did not have. Missed days expire after ARCHIVE_FREE_DAYS,
+    // so hiding the route to them costs the user quizzes permanently.
+    const playedToday = completedDates.includes(todayKey) || alreadyPlayedToday();
 
     let oldestMissed = null;
     let missedCount  = 0;
@@ -1182,13 +1185,25 @@ async function populateCatchUpOnLanding() {
     }
 
     if (!oldestMissed) {
-      sectionEl.innerHTML = `<p class="catchup-all-done">All caught up! New quiz drops tomorrow.</p>`;
-      sectionEl.style.display = 'block';
+      sectionEl.innerHTML = playedToday
+        ? `<p class="catchup-all-done">All caught up! New quiz drops tomorrow.</p>`
+        : '';
+      sectionEl.style.display = playedToday ? 'block' : 'none';
       return;
     }
 
-    const plural = missedCount > 1 ? `${missedCount} quizzes` : '1 quiz';
-    sectionEl.innerHTML = `<a href="/?date=${oldestMissed}&autostart=1" class="btn-catchup">Play Missed Quizzes (${plural}) &#8594;</a>`;
+    // Missed days drop out of reach after ARCHIVE_FREE_DAYS, so say which one
+    // goes first. "4 quizzes waiting" is easy to defer; a date that expires
+    // tomorrow is not.
+    const plural  = missedCount > 1 ? `${missedCount} quizzes` : '1 quiz';
+    const expires = new Date(oldestMissed + 'T00:00:00');
+    expires.setDate(expires.getDate() + ARCHIVE_FREE_DAYS);
+    const daysLeft = Math.max(0, Math.round((expires - new Date(todayKey + 'T00:00:00')) / 86400000));
+    const warn = daysLeft <= 1
+      ? `<p class="catchup-cta-note">Oldest (${oldestMissed}) leaves the archive after today.</p>`
+      : `<p class="catchup-cta-note">Oldest (${oldestMissed}) available for ${daysLeft} more days.</p>`;
+    sectionEl.innerHTML =
+      `<a href="/?date=${oldestMissed}&autostart=1" class="btn-catchup">Play Missed Quizzes (${plural}) &#8594;</a>${warn}`;
     sectionEl.style.display = 'block';
   } catch (err) {
     console.error('Catch-up landing error:', err);
