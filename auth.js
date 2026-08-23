@@ -274,8 +274,17 @@ async function createUserProfile(user, displayName, firstName, lastName) {
 }
 
 // ── Get completed quiz dates for a user ────────────────
-// If completedDates is empty (pre-feature users), infers played dates
-// from currentStreak + lastPlayedDate and backfills Firestore automatically.
+// Source of truth is quizHistory: one document per day actually played.
+//
+// An earlier version inferred played dates by walking currentStreak days back
+// from lastPlayedDate. That held only while a streak necessarily meant
+// consecutive plays. Streak freezes break that premise deliberately: the
+// counter now survives days the user did not play. Left in place, the
+// inference marked frozen days as completed, which locked the user out of
+// replaying them from the archive and quietly cost them the quizzes.
+//
+// quizHistory cannot make that mistake. A document exists only if a quiz was
+// submitted, so it stays correct however the streak behaves.
 async function getCompletedDates(uid) {
   try {
     const snap = await db.collection('users').doc(uid).get();
@@ -284,31 +293,18 @@ async function getCompletedDates(uid) {
     const data    = snap.data();
     let completed = data.completedDates || [];
 
-    // Backfill from streak data whenever streak-inferred dates are missing.
-    // This runs even if completedDates has some entries (e.g. only today was
-    // written via arrayUnion but historical streak dates were never recorded).
-    if (data.stats && data.stats.lastPlayedDate && data.stats.currentStreak > 0) {
-      const lastDate = data.stats.lastPlayedDate;
-      const streak   = Math.min(data.stats.currentStreak, 60); // cap at 60
-      const inferred = [];
+    const hist = await db.collection('users').doc(uid)
+      .collection('quizHistory').get();
+    const played = [];
+    hist.forEach(doc => played.push(doc.id));
 
-      for (let i = 0; i < streak; i++) {
-        const d = new Date(lastDate + 'T00:00:00');
-        d.setDate(d.getDate() - i);
-        const dk = `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;
-        inferred.push(dk);
-      }
-
-      // Only write back if any inferred dates are actually missing
-      const missing = inferred.filter(dk => !completed.includes(dk));
-      if (missing.length > 0) {
-        // Merge locally so the UI reflects the correct state immediately
-        completed = [...new Set([...completed, ...inferred])];
-        // Write back to Firestore (fire-and-forget)
-        db.collection('users').doc(uid).update({
-          completedDates: firebase.firestore.FieldValue.arrayUnion(...inferred)
-        }).catch(e => console.warn('completedDates backfill failed:', e));
-      }
+    // Heal completedDates from real play records, never from the streak.
+    const missing = played.filter(dk => !completed.includes(dk));
+    if (missing.length > 0) {
+      completed = [...new Set([...completed, ...played])];
+      db.collection('users').doc(uid).update({
+        completedDates: firebase.firestore.FieldValue.arrayUnion(...missing)
+      }).catch(e => console.warn('completedDates heal failed:', e));
     }
 
     return completed;

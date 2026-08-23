@@ -966,7 +966,11 @@ function showResults() {
     }
   }
 
-  // Fun fact
+  // Fun fact. Re-shown explicitly: the archive already-played screen hides
+  // this same element, and without a reset it would stay hidden for the
+  // rest of the session once that screen had been seen.
+  const ffWrap = document.querySelector('.results-fun-fact');
+  if (ffWrap) ffWrap.style.display = '';
   document.getElementById('fun-fact-text').textContent = getDailyFunFact();
 
   // Share
@@ -1073,6 +1077,8 @@ function showResultsFromStorage() {
     }
   }
 
+  const ffWrap2 = document.querySelector('.results-fun-fact');
+  if (ffWrap2) ffWrap2.style.display = '';
   document.getElementById('fun-fact-text').textContent = getDailyFunFact();
   document.getElementById('btn-share').onclick = shareScore;
 
@@ -1242,6 +1248,12 @@ function showArchiveAlreadyPlayedScreen() {
 
   const shareBtn = document.getElementById('btn-share');
   if (shareBtn) shareBtn.style.display = 'none';
+
+  // This screen borrows the results layout but has no quiz behind it, so the
+  // "Did you know?" block has nothing to show. Left visible it renders as a
+  // heading over an empty box.
+  const funFact = document.querySelector('.results-fun-fact');
+  if (funFact) funFact.style.display = 'none';
 
   document.getElementById('btn-home').onclick = () => { window.location.href = '/'; };
 
