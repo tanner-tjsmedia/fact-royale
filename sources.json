@@ -1332,7 +1332,8 @@
       ],
       "checked": "2026-08-19",
       "recheck": "2028-01-01",
-      "archive": null
+      "archive": null,
+      "note": "No longer cited. The '31 million copies' claim rested on a single outlet and was decorative rather than load-bearing, so it was removed from the question instead of propped up. Kept in the registry in case a sales question is written later, when it will need a second independent source."
     },
     "jakarta-subsidence": {
       "tier": "secondary",
@@ -1390,6 +1391,224 @@
       ],
       "checked": "2026-08-19",
       "recheck": "2027-01-01",
+      "archive": null
+    },
+    "livius-thermopylae": {
+      "tier": "reference",
+      "url": "https://www.livius.org/articles/battle/thermopylae-480-bce/",
+      "publisher": "Livius (Jona Lendering)",
+      "establishes": [
+        "Greek force at Thermopylae ~7,000; Leonidas kept 300 Spartans, ~700 Thespians and ~400 Thebans for the final stand",
+        "The Thespians were wiped out; Herodotus reports the Thebans surrendered when the encirclement closed",
+        "Livius notes Herodotus may be writing with hindsight, as Thebes later collaborated with Persia"
+      ],
+      "checked": "2026-08-20",
+      "archive": null,
+      "note": "CORRECTION. The answer previously read 'Roughly 1,000 Thespians and Thebans who stayed to the end'. The Thebans did not stay to the end. Answer now names the Thespians only, and the explanation presents the Theban dispute rather than settling it."
+    },
+    "wwi-museum-june28": {
+      "tier": "primary",
+      "url": "https://www.theworldwar.org/learn/about-wwi/june-28-1914",
+      "publisher": "National WWI Museum and Memorial",
+      "establishes": [
+        "Princip, a 19-year-old Bosnian Serb, shot Franz Ferdinand and Sophie in Sarajevo on 28 June 1914"
+      ],
+      "checked": "2026-08-20",
+      "archive": null
+    },
+    "britannica-princip": {
+      "tier": "reference",
+      "url": "https://www.britannica.com/biography/Gavrilo-Princip",
+      "publisher": "Encyclopaedia Britannica",
+      "establishes": [
+        "Princip was a member of Young Bosnia (Mlada Bosna), not the Black Hand",
+        "The Black Hand, a society of Serbian army officers, supplied weapons and training",
+        "The plot aimed to detach Austria-Hungary's South Slav provinces"
+      ],
+      "checked": "2026-08-20",
+      "archive": null,
+      "note": "CORRECTION. The explanation previously called Princip 'a member of the Black Hand'. He belonged to Young Bosnia; the Black Hand armed and trained the group."
+    },
+    "artnews-rosetta-petition": {
+      "tier": "secondary",
+      "url": "https://www.artnews.com/art-news/news/archaeologists-demand-british-museum-return-rosetta-stone-1234642390/",
+      "publisher": "ARTnews",
+      "establishes": [
+        "Over 2,500 archaeologists petitioned for the Rosetta Stone's return, alongside campaigns led by Zahi Hawass",
+        "The British Museum states it has received no formal request from the Egyptian government"
+      ],
+      "checked": "2026-08-20",
+      "archive": null,
+      "note": "CORRECTION. The explanation previously said 'Egypt has formally requested the stone's return.' No formal government request exists; the campaigns are petitions and individual advocacy. 'Single most visited object' was also softened to 'one of the biggest draws'."
+    },
+    "pnas-coal-lignin": {
+      "tier": "primary",
+      "url": "https://www.pnas.org/doi/10.1073/pnas.1517943113",
+      "publisher": "PNAS (Nelsen et al., 2016)",
+      "establishes": [
+        "The lignin-lag hypothesis for Carboniferous coal is rejected on phylogenomic, geochemical, paleontological and stratigraphic grounds",
+        "Key Carboniferous peat plants were low in lignin; lignin decay was not confined to Agaricomycetes",
+        "Coal accumulation is attributed to a climate and tectonic window during Pangea's formation"
+      ],
+      "checked": "2026-08-20",
+      "archive": null,
+      "note": "CORRECTION. The explanation previously stated the lignin gap as fact ('This actually happened'). It is a refuted hypothesis and is now presented as such."
+    },
+    "zzf-berlin-wall-victims": {
+      "tier": "primary",
+      "url": "https://zzf-potsdam.de/en/research/projects/victims-at-the-berlin-wall",
+      "publisher": "Zentrum fur Zeithistorische Forschung Potsdam / Berlin Wall Foundation",
+      "establishes": [
+        "At least 140 people were killed at the Berlin Wall or died in circumstances directly connected to the border regime, 1961-1989",
+        "101 of those were escapees shot, killed accidentally, or who took their own lives during an attempt",
+        "The joint ZZF/Berlin Wall Foundation project examined 576 deaths and suspected cases"
+      ],
+      "checked": "2026-08-24",
+      "archive": null,
+      "note": "'At least 140' is the researched figure and is what the question uses. Higher numbers in circulation count border-crossing deaths from other causes separately (a further 251)."
+    },
+    "unep-victoria-falls": {
+      "tier": "primary",
+      "url": "http://world-heritage-datasheets.unep-wcmc.org/datasheet/output/site/mosi-oa-tunya-victoria-falls/",
+      "publisher": "UNEP-WCMC / UNESCO World Heritage",
+      "establishes": [
+        "Victoria Falls is 1,708m wide and 108m high, forming the largest single sheet of falling water on Earth",
+        "It is neither the tallest nor the widest waterfall; the record is the width-and-height combination",
+        "World Heritage listed 1989"
+      ],
+      "checked": "2026-08-24",
+      "archive": null
+    },
+    "rowling-cafe-myth": {
+      "tier": "primary",
+      "url": "https://www.accio-quote.org/articles/1997/1197-scotsman-woods.html",
+      "publisher": "J.K. Rowling, in interview (Accio Quote archive; BBC 2001; A&E Biography)",
+      "establishes": [
+        "Rowling wrote in cafes because walking her baby in the pram put the baby to sleep, freeing her to write",
+        "She explicitly denied the unheated-flat story: 'I am not stupid enough to rent an unheated flat in Edinburgh in midwinter. It had heating.'"
+      ],
+      "checked": "2026-08-24",
+      "archive": null,
+      "note": "CORRECTION. The explanation previously said the cafe was 'cheaper than heating a flat'. That is the myth Rowling has personally and repeatedly denied. First-person denial, so it outranks the retellings."
+    },
+    "natgeo-trail-of-tears": {
+      "tier": "reference",
+      "url": "https://education.nationalgeographic.org/resource/indian-removal-act-and-trail-tears/",
+      "publisher": "National Geographic Education",
+      "establishes": [
+        "Around 16,000 Cherokee were forcibly relocated 1836-1839 and roughly 4,000 died, about a quarter",
+        "Worcester v. Georgia (1832) held the Cherokee Nation sovereign; Jackson and Georgia ignored it",
+        "The Treaty of New Echota was signed by an unauthorised faction"
+      ],
+      "checked": "2026-08-24",
+      "archive": null,
+      "note": "The 4,000 figure is the standard estimate. Published ranges do vary; the question says 'roughly'."
+    },
+    "cherokee-nation-history": {
+      "tier": "primary",
+      "url": "https://www.cherokee.org/about-the-nation/history/",
+      "publisher": "Cherokee Nation",
+      "establishes": [
+        "The Cherokee Nation's own account of removal, the New Echota treaty and the Trail of Tears"
+      ],
+      "checked": "2026-08-24",
+      "archive": null,
+      "note": "Included deliberately: on the removal of the Cherokee, the Cherokee Nation is a primary voice, not a secondary commentator."
+    },
+    "mohs-scale-nonlinear": {
+      "tier": "reference",
+      "url": "https://www.newworldencyclopedia.org/entry/Mohs_scale_of_mineral_hardness",
+      "publisher": "New World Encyclopedia",
+      "establishes": [
+        "Mohs is ordinal, not linear: it records only what scratches what",
+        "Diamond (10) is roughly four times harder than corundum (9) in absolute terms",
+        "The 9-to-10 gap exceeds the entire cumulative gap from talc (1) to corundum (9)"
+      ],
+      "checked": "2026-08-24",
+      "archive": null
+    },
+    "fifa-maracanazo": {
+      "tier": "primary",
+      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/articles/uruguay-brazil-1950-maracanazo",
+      "publisher": "FIFA",
+      "establishes": [
+        "Brazil needed only a draw and lost 2-1 to Uruguay on 16 July 1950",
+        "Official attendance 173,850, still the World Cup record; contemporary estimates exceed 200,000"
+      ],
+      "checked": "2026-08-24",
+      "archive": null
+    },
+    "espn-barbosa": {
+      "tier": "secondary",
+      "url": "https://www.espn.com/soccer/story/_/id/37372808/not-country-keeper-tale-moacyr-barbosa",
+      "publisher": "ESPN",
+      "establishes": [
+        "Barbosa: 'The maximum sentence in Brazil is thirty years. I have been paying for fifty.'",
+        "He was voted best goalkeeper of the tournament yet blamed for decades, and died in poverty in 2000",
+        "Brazil abandoned white for a competition-chosen yellow kit by Aldyr Garcia Schlee, worn from 1954"
+      ],
+      "checked": "2026-08-24",
+      "archive": null
+    },
+    "britannica-san-marino": {
+      "tier": "reference",
+      "url": "https://www.britannica.com/topic/history-of-San-Marino",
+      "publisher": "Encyclopaedia Britannica",
+      "establishes": [
+        "Founding tradition: 3 September 301, Marinus a Christian stonemason fleeing Diocletian, on Monte Titano",
+        "Napoleon offered to extend its territory to the Adriatic; San Marino declined",
+        "It sheltered around 100,000 refugees in the Second World War, several times its own population"
+      ],
+      "checked": "2026-08-24",
+      "archive": null
+    },
+    "boxofficemojo-pulp-fiction": {
+      "tier": "primary",
+      "url": "https://www.boxofficemojo.com/release/rl2053801473/",
+      "publisher": "Box Office Mojo",
+      "establishes": [
+        "Pulp Fiction: $8 million budget, $213.9 million worldwide gross",
+        "Palme d'Or 1994; seven Academy Award nominations, one win for the screenplay"
+      ],
+      "checked": "2026-08-24",
+      "archive": null
+    },
+    "britannica-satsuma-rebellion": {
+      "tier": "reference",
+      "url": "https://www.britannica.com/topic/Satsuma-Rebellion",
+      "publisher": "Encyclopaedia Britannica",
+      "establishes": [
+        "The 1877 Satsuma Rebellion was the last and largest samurai revolt against the Meiji government",
+        "Saigo Takamori, a leader of the Restoration, led it against the government he had helped create",
+        "Government conscript levies were hard-pressed; victory came from superior transport, communications and weapons",
+        "Saigo refused surrender at Shiroyama and took his own life on 24 September 1877",
+        "He was posthumously pardoned in 1889"
+      ],
+      "checked": "2026-08-24",
+      "archive": null,
+      "note": "The question previously said the rebellion was 'crushed by peasant conscripts'. Britannica records the conscripts as hard-pressed, winning on logistics and weapons rather than easily. Wording softened."
+    },
+    "npr-adele-30": {
+      "tier": "secondary",
+      "url": "https://www.npr.org/2021/11/16/1056124172/on-30-adele-walks-among-us",
+      "publisher": "NPR",
+      "establishes": [
+        "30 released 19 November 2021, recorded 2018 to early 2020",
+        "Written around her divorce from Simon Konecki and its effect on her son",
+        "To Be Loved addresses explaining the divorce to her son"
+      ],
+      "checked": "2026-08-24",
+      "archive": null,
+      "note": "Adele was born 5 May 1988, so she was 33 at release. That is arithmetic from two documented dates, not a separate claim."
+    },
+    "cbs-adele-vocal-surgery": {
+      "tier": "secondary",
+      "url": "https://www.cbsnews.com/news/adele-opens-up-about-vocal-cord-surgery/",
+      "publisher": "CBS News",
+      "establishes": [
+        "Adele had surgery for a vocal cord haemorrhage in 2011, after 21, and cancelled remaining US and UK tour dates"
+      ],
+      "checked": "2026-08-24",
       "archive": null
     }
   }

@@ -8,11 +8,15 @@
         "A Persian contingent that defected on the second day",
         "Athenian marines landed from the fleet the night before",
         "Macedonian cavalry sent by Alexander's grandfather",
-        "Roughly 1,000 Thespians and Thebans who stayed to the end"
+        "Around 700 Thespians, who were wiped out entirely"
       ],
-      "answer": "Roughly 1,000 Thespians and Thebans who stayed to the end",
-      "explanation": "The Greek force numbered around 7,000 initially. When a local named Ephialtes showed the Persians a mountain path around the pass, Leonidas dismissed most of the army and stayed with his 300 Spartans plus about 700 Thespians and 400 Thebans. The Thespians were volunteers who chose to remain and were wiped out entirely, yet they are absent from almost every retelling. Spartan law also required Leonidas to bring only men with living sons.",
-      "memory_hook": "About 7,000 Greeks held the pass. When a local showed the Persians a way around, Leonidas sent most home and kept his 300 plus roughly 700 Thespian volunteers and 400 Thebans. The Thespians were annihilated and get left out of every version. Leonidas could only bring men who already had sons."
+      "answer": "Around 700 Thespians, who were wiped out entirely",
+      "explanation": "The Greek force numbered around 7,000. When a local named Ephialtes showed the Persians a mountain path around the pass, Leonidas dismissed most of the army and stayed with his 300 Spartans, about 700 Thespians and 400 Thebans. The Thespians were volunteers, every hoplite their city could field, and they were killed to the last man, yet they are absent from almost every retelling. Herodotus says the Thebans surrendered once the final stand began, though some historians read that as hindsight against a city that later collaborated.",
+      "memory_hook": "About 7,000 Greeks held the pass. When a local showed the Persians a way around, Leonidas sent most home and kept his 300 plus roughly 700 Thespian volunteers and 400 Thebans. The Thespians were annihilated and get left out of every version. Leonidas could only bring men who already had sons.",
+      "sourceRefs": [
+        "livius-thermopylae"
+      ],
+      "riskTier": "source"
     },
     {
       "category": "History",
@@ -24,8 +28,13 @@
         "A French soldier"
       ],
       "answer": "A Serbian nationalist",
-      "explanation": "Archduke Franz Ferdinand, heir to the Austro-Hungarian throne, was assassinated by Gavrilo Princip, a Bosnian Serb nationalist, in Sarajevo on June 28, 1914. Princip was a member of the Black Hand, a secret military society. The assassination triggered a chain of events — Austria-Hungary declared war on Serbia, pulling in Germany, Russia, France, and Britain through their alliances — beginning World War I.",
-      "memory_hook": "Franz Ferdinand killed by Gavrilo Princip in Sarajevo, June 28, 1914. One assassination pulled 20 countries into war through a web of alliances. The domino effect: Austria blamed Serbia, Germany backed Austria, Russia backed Serbia, France backed Russia, Britain backed France. Six weeks from a shooting to a world war."
+      "explanation": "Franz Ferdinand, heir to the Austro-Hungarian throne, was shot in Sarajevo on 28 June 1914 by Gavrilo Princip, a nineteen-year-old Bosnian Serb. Princip belonged to Young Bosnia, a student group opposing Austro-Hungarian rule; the weapons and training came from the Black Hand, a secret society of Serbian army officers. The aim was to detach Austria-Hungary's South Slav provinces. The alliance system did the rest, pulling in Germany, Russia, France and Britain within weeks.",
+      "memory_hook": "Franz Ferdinand killed by Gavrilo Princip in Sarajevo, June 28, 1914. One assassination pulled 20 countries into war through a web of alliances. The domino effect: Austria blamed Serbia, Germany backed Austria, Russia backed Serbia, France backed Russia, Britain backed France. Six weeks from a shooting to a world war.",
+      "sourceRefs": [
+        "wwi-museum-june28",
+        "britannica-princip"
+      ],
+      "riskTier": "source"
     },
     {
       "category": "History",
@@ -37,8 +46,12 @@
         "Britain took it after defeating the French in Egypt"
       ],
       "answer": "Britain took it after defeating the French in Egypt",
-      "explanation": "The 1801 Treaty of Alexandria transferred French-collected antiquities to Britain, and the stone has been in the British Museum since 1802, where it is the single most visited object. Champollion, working from copies in France, deciphered the hieroglyphs in 1822 by recognising that the script recorded sounds as well as ideas. Egypt has formally requested the stone's return. The text itself is a fairly mundane tax decree from 196 BC.",
-      "memory_hook": "Britain took it under the 1801 Treaty of Alexandria after beating the French in Egypt, and it has been in the British Museum since 1802 as its most visited object. Champollion cracked it in 1822 from copies, in France. Egypt wants it back. The text is a routine tax decree."
+      "explanation": "The 1801 Treaty of Alexandria transferred French-collected antiquities to Britain, and the stone reached the British Museum in 1802, where it remains one of the biggest draws. Champollion, working from copies in France, deciphered the hieroglyphs in 1822 by recognising that the script recorded sounds as well as ideas. Egyptian archaeologists have campaigned for its return and thousands have signed petitions, though the museum says it has received no formal government request. The text itself is a fairly mundane tax decree from 196 BC.",
+      "memory_hook": "Britain took it under the 1801 Treaty of Alexandria after beating the French in Egypt, and it has been in the British Museum since 1802 as its most visited object. Champollion cracked it in 1822 from copies, in France. Egypt wants it back. The text is a routine tax decree.",
+      "sourceRefs": [
+        "artnews-rosetta-petition"
+      ],
+      "riskTier": "source"
     },
     {
       "category": "Sports",
@@ -128,8 +141,12 @@
         "The forest would grow faster with far less competition"
       ],
       "answer": "Nutrients stay locked in dead matter and new growth stops",
-      "explanation": "Bacteria and fungi return nitrogen, phosphorus and carbon from dead tissue to the soil where roots can take them up again. Without that the nutrients simply sit there. This actually happened: during the Carboniferous, trees evolved lignin before anything could digest it, so dead trunks piled up unrotted for millions of years and became the coal seams we now burn. Fungi eventually evolved the enzymes and the accumulation stopped.",
-      "memory_hook": "Fungi and bacteria hand nitrogen, phosphorus and carbon back to the soil. Without them it stays locked in corpses. This genuinely happened in the Carboniferous: trees invented lignin before anything could digest it, so trunks piled up unrotted for millions of years and became coal."
+      "explanation": "Bacteria and fungi return nitrogen, phosphorus and carbon from dead tissue to the soil where roots can take them up again. Without that the nutrients simply sit there, locked in material nothing can use. A popular explanation for the Carboniferous coal seams was that trees evolved lignin before anything could digest it, so trunks piled up unrotted, but a 2016 PNAS study found lignin decay was already widespread and put the coal down to climate and tectonics instead.",
+      "memory_hook": "Fungi and bacteria hand nitrogen, phosphorus and carbon back to the soil. Without them it stays locked in corpses. This genuinely happened in the Carboniferous: trees invented lignin before anything could digest it, so trunks piled up unrotted for millions of years and became coal.",
+      "sourceRefs": [
+        "pnas-coal-lignin"
+      ],
+      "riskTier": "source"
     },
     {
       "category": "Geography",
