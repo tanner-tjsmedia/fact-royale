@@ -586,7 +586,11 @@ function saveProgress() {
     localStorage.setItem(FR_PROGRESS_KEY, JSON.stringify({
       date: progressQuizDate(),
       isArchive: !!isArchivePlay,
-      currentIndex, score, categoryScores, answered
+      currentIndex, score, categoryScores, answered,
+      // The deck is reshuffled on every load, so an index alone is meaningless
+      // across a refresh: position 8 lands on a different question and the
+      // player gets ones they have already answered. Persist the order too.
+      order: questions.map(q => q.question)
     }));
   } catch (e) { /* private mode or quota; progress saving is best-effort */ }
 }
@@ -630,6 +634,25 @@ function startQuiz() {
   // Resume an interrupted run rather than restarting it.
   const saved = loadProgress();
   if (saved) {
+    // Restore the deck exactly as it was dealt. Without this the index resumes
+    // into a reshuffled array and re-serves answered questions.
+    if (Array.isArray(saved.order) && saved.order.length === questions.length) {
+      const byText = new Map(questions.map(q => [q.question, q]));
+      const restored = saved.order.map(t => byText.get(t));
+      if (restored.every(Boolean)) {
+        questions = restored;
+      } else {
+        // The question file changed under the saved run (an edit between
+        // sessions). Reordering is impossible and dealing fresh questions to
+        // someone mid-run would hand back answers, so close the run out on the
+        // score they had rather than restart it.
+        console.warn('[FR] saved run does not match current questions; finishing on saved score');
+        score = saved.score || 0;
+        categoryScores = saved.categoryScores || categoryScores;
+        showResults();
+        return;
+      }
+    }
     score          = saved.score || 0;
     categoryScores = saved.categoryScores || categoryScores;
     // A question already answered has had its answer revealed on screen, so
