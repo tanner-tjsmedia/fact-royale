@@ -1610,6 +1610,31 @@
       ],
       "checked": "2026-08-24",
       "archive": null
+    },
+    "guinness-shortest-heavyweight": {
+      "tier": "primary",
+      "url": "https://www.guinnessworldrecords.com/world-records/106500-shortest-boxing-world-heavyweight-champion",
+      "publisher": "Guinness World Records",
+      "establishes": [
+        "Tommy Burns is the shortest world heavyweight champion at 5 ft 7 in, around 175 lbs",
+        "He took the title from Marvin Hart on 23 February 1906 and defended it eleven times",
+        "Marciano stood 5'10\" and weighed in the mid-180s, larger than Burns"
+      ],
+      "checked": "2026-08-24",
+      "archive": null,
+      "note": "CORRECTION. The answer option previously read 'He was the smallest-ever champion, always outweighed'. That is false; Burns was smaller. Reworded to 'small for a heavyweight and usually outreached', which is accurate. The question stem's 'only undefeated heavyweight champion' refers to retiring undefeated and stands."
+    },
+    "loudersound-zeppelin-singles": {
+      "tier": "secondary",
+      "url": "https://www.loudersound.com/features/the-complicated-journey-towards-legend-of-led-zeppelins-whole-lotta-love",
+      "publisher": "Louder / Classic Rock",
+      "establishes": [
+        "Led Zeppelin released no UK singles during their career, on Peter Grant's album-only policy",
+        "Over 500 UK copies of Whole Lotta Love were pressed in 1969, then recalled and destroyed once Grant confirmed the band held final say",
+        "Singles were issued elsewhere, reaching number one in Germany"
+      ],
+      "checked": "2026-08-24",
+      "archive": null
     }
   }
 }

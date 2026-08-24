@@ -32,13 +32,17 @@
       "question": "Rocky Marciano retired in 1956 at 49-0, boxing's only undefeated heavyweight champion. What qualifies his legacy?",
       "options": [
         "His era was weak; the best heavyweights fought elsewhere",
-        "He was the smallest-ever champion, always outweighed",
+        "He was small for a heavyweight and usually outreached",
         "No rematches and no foreign opponents padded his record",
         "He retired rather than face Floyd Patterson"
       ],
-      "answer": "He was the smallest-ever champion, always outweighed",
-      "explanation": "Marciano stood 5'10\" and rarely weighed more than 188 lbs — small for a heavyweight. His opponents regularly outweighed and outreached him. He compensated with extraordinary punching power (particularly his right 'Suzy Q'), granite chin, and relentless pressure. He knocked out Jersey Joe Walcott (who had dropped him) and stopped an aging Joe Louis. The debate about his all-time ranking stems from era: he fought in the early-mid 1950s when heavyweight competition was arguably thinner than the 1960s-70s (Ali era). He retired at 32 citing physical wear, never returning. He died in a plane crash in 1969.",
-      "memory_hook": "Marciano was the smallest heavyweight champion — 5'10\", 185 lbs — regularly fighting men 20-30 lbs heavier. His right hand was nicknamed 'Suzy Q.' He beat an over-the-hill Joe Louis, then retired at 32 due to physical wear. The debate is about era quality, not his record: 49-0 with no losses is inarguable, but he fought before the Ali-Frazier-Foreman era."
+      "answer": "He was small for a heavyweight and usually outreached",
+      "explanation": "Marciano stood 5'10\" and rarely weighed more than 188 lbs, small for a heavyweight though not the smallest champion ever: Tommy Burns held the title at 5'7\" and around 175 lbs. Marciano's 68-inch reach was the real handicap, and opponents routinely outweighed and outreached him. He compensated with extraordinary punching power, the right hand he called Suzy Q, a granite chin and relentless pressure, knocking out Jersey Joe Walcott for the title in 1952.",
+      "memory_hook": "Marciano was the smallest heavyweight champion — 5'10\", 185 lbs — regularly fighting men 20-30 lbs heavier. His right hand was nicknamed 'Suzy Q.' He beat an over-the-hill Joe Louis, then retired at 32 due to physical wear. The debate is about era quality, not his record: 49-0 with no losses is inarguable, but he fought before the Ali-Frazier-Foreman era.",
+      "sourceRefs": [
+        "guinness-shortest-heavyweight"
+      ],
+      "riskTier": "source"
     },
     {
       "category": "Pop Culture",
