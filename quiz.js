@@ -565,6 +565,48 @@ function syncLandingAlreadyPlayed() {
   populateCatchUpOnLanding();
 }
 
+// ── In-progress quiz state ─────────────────────────────
+// currentIndex, score and categoryScores used to live in memory only. A
+// refresh mid-quiz wiped them; alreadyPlayedToday() reads fr_lastPlayed, which
+// is written only on completion, so the guard saw nothing and startQuiz()
+// dealt a clean run to someone who had just been shown every answer.
+// Saving after each answer turns a refresh into a resume.
+//
+// This is localStorage, so it is not proof against someone who opens devtools.
+// It closes the accidental and casual cases. The determined case is the raw
+// question JSON being publicly fetchable, which the Firestore migration fixes.
+const FR_PROGRESS_KEY = 'fr_progress';
+
+function progressQuizDate() {
+  return (typeof activeQuizDate !== 'undefined' && activeQuizDate) ? activeQuizDate : todayKey;
+}
+
+function saveProgress() {
+  try {
+    localStorage.setItem(FR_PROGRESS_KEY, JSON.stringify({
+      date: progressQuizDate(),
+      isArchive: !!isArchivePlay,
+      currentIndex, score, categoryScores, answered
+    }));
+  } catch (e) { /* private mode or quota; progress saving is best-effort */ }
+}
+
+function loadProgress() {
+  try {
+    const raw = localStorage.getItem(FR_PROGRESS_KEY);
+    if (!raw) return null;
+    const p = JSON.parse(raw);
+    if (p.date !== progressQuizDate())        return null;
+    if (!!p.isArchive !== !!isArchivePlay)    return null;
+    if (typeof p.currentIndex !== 'number')   return null;
+    return p;
+  } catch (e) { return null; }
+}
+
+function clearProgress() {
+  try { localStorage.removeItem(FR_PROGRESS_KEY); } catch (e) {}
+}
+
 function startQuiz() {
   // Prevent replaying today's daily quiz if already completed
   if (!isArchivePlay && alreadyPlayedToday()) {
@@ -584,6 +626,18 @@ function startQuiz() {
     }
     categoryScores[q.category].total++;
   });
+
+  // Resume an interrupted run rather than restarting it.
+  const saved = loadProgress();
+  if (saved) {
+    score          = saved.score || 0;
+    categoryScores = saved.categoryScores || categoryScores;
+    // A question already answered has had its answer revealed on screen, so
+    // step past it. Refreshing before answering resumes on the same question,
+    // which is fair since nothing was given away.
+    currentIndex   = saved.answered ? saved.currentIndex + 1 : saved.currentIndex;
+    if (currentIndex >= questions.length) { showResults(); return; }
+  }
 
   showScreen('screen-quiz');
   renderQuestion();
@@ -657,6 +711,10 @@ function handleAnswer(selected, q) {
     score++;
     categoryScores[q.category].correct++;
   }
+
+  // Persist immediately: from here the answer is on screen, so a reload must
+  // not hand this question back.
+  saveProgress();
 
   // Feedback
   const feedbackBox    = document.getElementById('feedback-box');
@@ -816,6 +874,7 @@ function getResultsTitle(pct, streak) {
 }
 
 function showResults() {
+  clearProgress();   // run is over; nothing left to resume
   // Daily play: update local streak + log metrics
   // Archive play: skip both (don't affect streak, don't log to anon metrics)
   let streak = getStreak();
