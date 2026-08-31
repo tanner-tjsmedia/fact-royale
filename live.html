@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Fact Royale — Live Host Console</title>
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<style>
+:root{
+  --bg:#0b0b12; --panel:#14141f; --panel-2:#1b1b29; --line:#2a2a3d;
+  --gold:#d4af37; --gold-dim:#8c7328; --text:#eceaf3; --muted:#9a97ad;
+  --ok:#4ade80; --bad:#f87171; --accent:#8b5cf6;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);
+  font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;}
+.wrap{max-width:1200px;margin:0 auto;padding:24px}
+h1,h2,h3{margin:0 0 12px}
+.screen{display:none}
+.screen.active{display:block}
+
+/* header */
+.hdr{display:flex;align-items:center;justify-content:space-between;
+  padding:14px 24px;border-bottom:1px solid var(--line);background:var(--panel)}
+.logo{font-weight:700;color:var(--gold);text-decoration:none;font-size:18px}
+.tag{font-size:11px;letter-spacing:.14em;text-transform:uppercase;
+  color:var(--accent);border:1px solid var(--accent);border-radius:999px;padding:3px 10px}
+
+/* gate */
+.gate{max-width:460px;margin:14vh auto;text-align:center;background:var(--panel);
+  border:1px solid var(--line);border-radius:16px;padding:40px 32px}
+
+/* setup */
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+@media(max-width:840px){.grid{grid-template-columns:1fr}}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:20px}
+.card h3{color:var(--gold);font-size:13px;letter-spacing:.12em;text-transform:uppercase}
+label{display:block;font-size:13px;color:var(--muted);margin:14px 0 6px}
+input[type=number],input[type=text],select{width:100%;background:var(--panel-2);
+  border:1px solid var(--line);border-radius:8px;color:var(--text);
+  padding:10px 12px;font-size:15px}
+.chk{display:flex;align-items:center;gap:9px;padding:7px 0;font-size:15px;color:var(--text)}
+.chk input{width:18px;height:18px;accent-color:var(--gold)}
+.btn{background:var(--gold);color:#17140a;border:0;border-radius:9px;
+  padding:12px 20px;font-size:15px;font-weight:650;cursor:pointer}
+.btn:hover{filter:brightness(1.08)}
+.btn[disabled]{opacity:.45;cursor:not-allowed}
+.btn-ghost{background:transparent;border:1px solid var(--line);color:var(--text)}
+.btn-row{display:flex;gap:10px;flex-wrap:wrap;margin-top:18px}
+.team-row{display:flex;gap:8px;margin-bottom:8px}
+.team-row input{flex:1}
+.team-row button{background:transparent;border:1px solid var(--line);color:var(--muted);
+  border-radius:8px;padding:0 12px;cursor:pointer;font-size:18px}
+.hint{font-size:12.5px;color:var(--muted);line-height:1.55;margin-top:10px}
+.err{color:var(--bad);font-size:14px;margin-top:12px;min-height:20px}
+
+/* game */
+.stage{padding:28px 24px}
+.meta{display:flex;justify-content:space-between;align-items:center;
+  font-size:13px;color:var(--muted);letter-spacing:.08em;text-transform:uppercase;
+  margin-bottom:18px}
+.pill{background:var(--panel-2);border:1px solid var(--line);border-radius:999px;
+  padding:5px 14px;color:var(--gold);font-size:12px;letter-spacing:.1em}
+.qtext{font-size:clamp(24px,3.4vw,42px);line-height:1.28;font-weight:650;
+  margin:10px 0 28px;max-width:1000px}
+.opts{display:grid;grid-template-columns:1fr 1fr;gap:14px;max-width:1000px}
+@media(max-width:760px){.opts{grid-template-columns:1fr}}
+.opt{background:var(--panel);border:2px solid var(--line);border-radius:12px;
+  padding:18px 20px;font-size:clamp(16px,1.7vw,21px);line-height:1.35;display:flex;gap:14px}
+.opt .ltr{color:var(--gold);font-weight:700;min-width:26px}
+.opt.correct{border-color:var(--ok);background:rgba(74,222,128,.09)}
+.opt.dim{opacity:.42}
+.reveal-box{max-width:1000px;margin-top:22px;padding:18px 20px;background:var(--panel);
+  border-left:3px solid var(--gold);border-radius:0 12px 12px 0;display:none}
+.reveal-box.show{display:block}
+.reveal-box .lbl{font-size:11px;letter-spacing:.14em;text-transform:uppercase;
+  color:var(--gold);margin-bottom:8px}
+.reveal-box p{margin:0 0 8px;line-height:1.6;font-size:15.5px;color:#d8d5e6}
+.srcs{font-size:12px;color:var(--muted);margin-top:8px}
+
+/* scoring bar */
+.scorebar{position:sticky;bottom:0;background:var(--panel);border-top:1px solid var(--line);
+  padding:14px 24px;display:flex;gap:12px;align-items:center;flex-wrap:wrap}
+.tbtn{background:var(--panel-2);border:1px solid var(--line);border-radius:10px;
+  padding:9px 14px;cursor:pointer;color:var(--text);font-size:14px;display:flex;
+  align-items:center;gap:9px}
+.tbtn:hover{border-color:var(--gold)}
+.tbtn .sc{background:var(--gold);color:#17140a;border-radius:6px;padding:1px 8px;
+  font-weight:700;font-size:13px}
+.tbtn .key{font-size:11px;color:var(--muted);border:1px solid var(--line);
+  border-radius:4px;padding:0 5px}
+.spacer{flex:1}
+
+/* standings */
+.stand{max-width:620px;margin:0 auto}
+.stand-row{display:flex;justify-content:space-between;align-items:center;
+  padding:15px 18px;background:var(--panel);border:1px solid var(--line);
+  border-radius:11px;margin-bottom:10px;font-size:18px}
+.stand-row.lead{border-color:var(--gold);background:rgba(212,175,55,.07)}
+.stand-row .pos{color:var(--muted);min-width:34px}
+.stand-row .pts{color:var(--gold);font-weight:700}
+.kbd{font-size:12px;color:var(--muted);margin-top:20px;text-align:center}
+.kbd b{color:var(--text);border:1px solid var(--line);border-radius:4px;padding:1px 6px}
+</style>
+</head>
+<body>
+
+<div class="hdr">
+  <a class="logo" href="/">👑 Fact Royale <span class="tag">Live Host</span></a>
+  <div id="hdr-right" style="font-size:13px;color:var(--muted)"></div>
+</div>
+
+<!-- ── GATE ─────────────────────────────────────────── -->
+<div class="screen active" id="s-gate">
+  <div class="gate">
+    <h2>Internal tool</h2>
+    <p class="hint">Host console for live play. Admin account only.</p>
+    <div style="margin-top:20px"><button class="btn" id="btn-signin">Sign in with Google</button></div>
+    <div class="err" id="gate-err"></div>
+  </div>
+</div>
+
+<!-- ── SETUP ────────────────────────────────────────── -->
+<div class="screen" id="s-setup">
+  <div class="wrap">
+    <h1>Build a game</h1>
+    <p class="hint" style="margin-bottom:22px">
+      Draws from the live question corpus. Nothing here writes to player accounts,
+      the leaderboard, or anyone's streak.
+    </p>
+    <div class="grid">
+      <div class="card">
+        <h3>Format</h3>
+        <label>Rounds</label>
+        <input type="number" id="in-rounds" min="1" max="12" value="4">
+        <label>Questions per round</label>
+        <input type="number" id="in-perround" min="1" max="25" value="6">
+        <label>Seconds per question <span style="color:var(--muted)">(0 = untimed, host paces)</span></label>
+        <input type="number" id="in-timer" min="0" max="300" value="0">
+        <div class="hint" id="fmt-summary"></div>
+      </div>
+
+      <div class="card">
+        <h3>Categories</h3>
+        <div id="cat-list"></div>
+        <div class="hint">
+          Rounds are dealt one category at a time where possible, so each round
+          has a theme. Uncheck everything but one for a single-subject game.
+        </div>
+      </div>
+
+      <div class="card">
+        <h3>Teams</h3>
+        <div id="team-list"></div>
+        <div class="btn-row">
+          <button class="btn btn-ghost" id="btn-addteam">+ Add team</button>
+        </div>
+        <div class="hint">
+          Scoring is manual — you award the point. Keys <b>1</b>–<b>9</b> score
+          the matching team without reaching for the mouse.
+        </div>
+      </div>
+
+      <div class="card">
+        <h3>Source pool</h3>
+        <label>Draw from</label>
+        <select id="in-pool">
+          <option value="all">The whole corpus</option>
+          <option value="verified">Verified days only</option>
+          <option value="past">Already-played days only</option>
+        </select>
+        <div class="hint" id="pool-info">Loading index…</div>
+      </div>
+    </div>
+
+    <div class="btn-row">
+      <button class="btn" id="btn-build">Build game →</button>
+    </div>
+    <div class="err" id="setup-err"></div>
+  </div>
+</div>
+
+<!-- ── GAME ─────────────────────────────────────────── -->
+<div class="screen" id="s-game">
+  <div class="stage">
+    <div class="meta">
+      <span id="m-round"></span>
+      <span class="pill" id="m-cat"></span>
+      <span id="m-q"></span>
+    </div>
+    <div class="qtext" id="q-text"></div>
+    <div class="opts" id="q-opts"></div>
+    <div class="reveal-box" id="reveal">
+      <div class="lbl">Answer</div>
+      <p id="r-answer" style="color:var(--ok);font-weight:600"></p>
+      <p id="r-expl"></p>
+      <div class="srcs" id="r-srcs"></div>
+    </div>
+  </div>
+  <div class="scorebar">
+    <div id="score-btns" style="display:flex;gap:10px;flex-wrap:wrap"></div>
+    <div class="spacer"></div>
+    <button class="btn btn-ghost" id="btn-back">← Back</button>
+    <button class="btn" id="btn-adv">Reveal</button>
+  </div>
+</div>
+
+<!-- ── ROUND BREAK ──────────────────────────────────── -->
+<div class="screen" id="s-break">
+  <div class="wrap">
+    <h1 id="break-title" style="text-align:center"></h1>
+    <div class="stand" id="break-stand"></div>
+    <div class="btn-row" style="justify-content:center">
+      <button class="btn" id="btn-nextround">Next round →</button>
+    </div>
+  </div>
+</div>
+
+<!-- ── FINAL ────────────────────────────────────────── -->
+<div class="screen" id="s-final">
+  <div class="wrap">
+    <h1 style="text-align:center">Final</h1>
+    <div class="stand" id="final-stand"></div>
+    <div class="btn-row" style="justify-content:center">
+      <button class="btn btn-ghost" id="btn-again">New game</button>
+    </div>
+  </div>
+</div>
+
+<script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-auth-compat.js"></script>
+<script src="/firebase-config.js"></script>
+<script>
+// ═══════════════════════════════════════════════════════
+// FACT ROYALE — LIVE HOST CONSOLE
+//
+// Internal tool. Reads the question corpus and runs a hosted game: rounds,
+// questions per round, category themes, manual team scoring.
+//
+// Deliberately isolated from the daily quiz:
+//   - writes nothing to users/, scores/, or quizHistory
+//   - no streaks, no mastery, no leaderboard
+//   - a question used here is not "used up" anywhere else
+//
+// It is a reader of the corpus, nothing more. That is the point: the same
+// database can feed the daily quiz, live events and anything later, without
+// any of them consuming it.
+// ═══════════════════════════════════════════════════════
+
+const ADMIN_EMAIL = 'tanner@tjs16media.com';
+const CATEGORIES  = ['History','Sports','Pop Culture','Geography','Science & Nature'];
+
+let INDEX = null;          // questions/index.json
+let GAME  = null;          // built game state
+let teams = [{name:'Team 1',score:0},{name:'Team 2',score:0}];
+
+const $  = id => document.getElementById(id);
+const show = id => document.querySelectorAll('.screen')
+  .forEach(s => s.classList.toggle('active', s.id === id));
+
+// ── auth gate ──────────────────────────────────────────
+firebase.initializeApp(firebaseConfig);
+firebase.auth().onAuthStateChanged(async user => {
+  if (user && user.email === ADMIN_EMAIL) {
+    $('hdr-right').textContent = user.email;
+    await loadIndex();
+    renderTeams(); renderCats(); updateSummary();
+    show('s-setup');
+  } else if (user) {
+    $('gate-err').textContent = 'That account does not have access.';
+    firebase.auth().signOut();
+  } else {
+    show('s-gate');
+  }
+});
+$('btn-signin').onclick = () =>
+  firebase.auth().signInWithPopup(new firebase.auth.GoogleAuthProvider())
+    .catch(e => $('gate-err').textContent = e.message);
+
+// ── corpus index ───────────────────────────────────────
+async function loadIndex() {
+  try {
+    const r = await fetch('/questions/index.json?' + Date.now());
+    INDEX = await r.json();
+    $('pool-info').textContent =
+      `${INDEX.dayCount} days, ${INDEX.questionCount} questions available.`;
+  } catch (e) {
+    $('pool-info').textContent = 'Could not load the question index.';
+  }
+}
+
+// ── setup UI ───────────────────────────────────────────
+function renderCats() {
+  $('cat-list').innerHTML = CATEGORIES.map((c,i) => `
+    <label class="chk"><input type="checkbox" class="catchk" value="${c}" checked> ${c}</label>
+  `).join('');
+  $('cat-list').querySelectorAll('.catchk').forEach(el => el.onchange = updateSummary);
+}
+function selectedCats() {
+  return [...document.querySelectorAll('.catchk:checked')].map(el => el.value);
+}
+function renderTeams() {
+  $('team-list').innerHTML = teams.map((t,i) => `
+    <div class="team-row">
+      <input type="text" value="${t.name.replace(/"/g,'&quot;')}" data-i="${i}" class="tname">
+      <button data-i="${i}" class="trm" title="Remove">×</button>
+    </div>`).join('');
+  $('team-list').querySelectorAll('.tname').forEach(el =>
+    el.oninput = e => teams[+e.target.dataset.i].name = e.target.value);
+  $('team-list').querySelectorAll('.trm').forEach(el =>
+    el.onclick = e => { if (teams.length > 1) { teams.splice(+e.target.dataset.i,1); renderTeams(); } });
+}
+$('btn-addteam').onclick = () => {
+  if (teams.length >= 9) return;   // keys 1-9 only
+  teams.push({name:`Team ${teams.length+1}`, score:0}); renderTeams();
+};
+['in-rounds','in-perround','in-timer'].forEach(id => $(id).oninput = updateSummary);
+function updateSummary() {
+  const r = +$('in-rounds').value, p = +$('in-perround').value;
+  const cats = selectedCats();
+  const total = r * p;
+  const avail = cats.reduce((n,c) => n + (INDEX ? (INDEX.categories[c]||0) : 0), 0);
+  $('fmt-summary').innerHTML =
+    `<b>${total}</b> questions total, drawn from <b>${avail}</b> available in the ` +
+    `selected categories.` + (total > avail ? ' <span style="color:var(--bad)">Not enough — widen the categories or shorten the game.</span>' : '');
+}
+
+// ── build the game ─────────────────────────────────────
+const shuffle = a => { a=[...a]; for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];} return a; };
+
+$('btn-build').onclick = async () => {
+  $('setup-err').textContent = '';
+  const rounds   = +$('in-rounds').value;
+  const perRound = +$('in-perround').value;
+  const cats     = selectedCats();
+  const need     = rounds * perRound;
+
+  if (!cats.length)   return $('setup-err').textContent = 'Pick at least one category.';
+  if (need < 1)       return $('setup-err').textContent = 'Rounds and questions must be at least 1.';
+  if (!INDEX)         return $('setup-err').textContent = 'Question index not loaded.';
+
+  // Choose which days to pull. Sampling days rather than loading all 123 keeps
+  // this to a handful of requests; the pool is deliberately oversized so the
+  // category split has room to balance.
+  let days = INDEX.days.slice();
+  const pool = $('in-pool').value;
+  const today = new Date().toISOString().slice(0,10);
+  if (pool === 'past') days = days.filter(d => d.date < today);
+  // 'verified' would filter on a flag the index does not carry yet; treat as all
+  // for now rather than silently returning nothing.
+
+  if (!days.length) {
+    $('setup-err').textContent = 'That source pool has no days in it.';
+    return;
+  }
+
+  const perDayInCats = cats.reduce((n,c) =>
+    n + (days[0] && days[0].categories[c] ? days[0].categories[c] : 0), 0) || 1;
+  const daysNeeded = Math.min(days.length, Math.ceil(need / perDayInCats) * 3 + 2);
+  const picked = shuffle(days).slice(0, daysNeeded);
+
+  $('btn-build').disabled = true;
+  $('btn-build').textContent = 'Loading…';
+  let bag = [];
+  try {
+    const loaded = await Promise.all(picked.map(d =>
+      fetch(`/questions/${d.date}.json`).then(r => r.json()).catch(() => null)));
+    loaded.forEach((data, i) => {
+      if (!data) return;
+      (data.questions || []).forEach(q => {
+        if (cats.includes(q.category)) bag.push({ ...q, _date: picked[i].date });
+      });
+    });
+  } catch (e) {
+    $('btn-build').disabled = false; $('btn-build').textContent = 'Build game →';
+    return $('setup-err').textContent = 'Failed to load questions: ' + e.message;
+  }
+  $('btn-build').disabled = false; $('btn-build').textContent = 'Build game →';
+
+  if (bag.length < need)
+    return $('setup-err').textContent =
+      `Only found ${bag.length} questions; need ${need}. Widen the categories or shorten the game.`;
+
+  // Deal rounds. Where there are enough categories, give each round a single
+  // theme; a themed round plays better live than a scattered one.
+  bag = shuffle(bag);
+  const byCat = {}; cats.forEach(c => byCat[c] = bag.filter(q => q.category === c));
+  const dealt = [];
+  for (let r = 0; r < rounds; r++) {
+    const theme = cats[r % cats.length];
+    let take = byCat[theme].splice(0, perRound);
+    // Top up from anywhere if that category ran dry.
+    while (take.length < perRound) {
+      const donor = cats.map(c => byCat[c]).sort((a,b) => b.length - a.length)[0];
+      if (!donor || !donor.length) break;
+      take.push(donor.shift());
+    }
+    dealt.push({ theme: take.every(q => q.category === theme) ? theme : 'Mixed', questions: take });
+  }
+
+  teams.forEach(t => t.score = 0);
+  GAME = { rounds: dealt, r: 0, q: 0, revealed: false, timer: +$('in-timer').value };
+  renderQuestion();
+  show('s-game');
+};
+
+// ── game screen ────────────────────────────────────────
+function currentQ() { return GAME.rounds[GAME.r].questions[GAME.q]; }
+
+function renderQuestion() {
+  const rd = GAME.rounds[GAME.r], q = currentQ();
+  GAME.revealed = false;
+  $('m-round').textContent = `Round ${GAME.r+1} of ${GAME.rounds.length} — ${rd.theme}`;
+  $('m-cat').textContent   = q.category;
+  $('m-q').textContent     = `Question ${GAME.q+1} of ${rd.questions.length}`;
+  $('q-text').textContent  = q.question;
+
+  const letters = ['A','B','C','D'];
+  // Options are shuffled per render so the correct answer is not always where
+  // it sits in the file. The daily quiz does the same.
+  q._shuffled = q._shuffled || shuffle(q.options);
+  $('q-opts').innerHTML = q._shuffled.map((o,i) =>
+    `<div class="opt" data-opt="${i}"><span class="ltr">${letters[i]}</span><span>${escapeHtml(o)}</span></div>`
+  ).join('');
+
+  $('reveal').classList.remove('show');
+  $('btn-adv').textContent = 'Reveal';
+  renderScoreButtons();
+}
+
+function revealAnswer() {
+  const q = currentQ();
+  GAME.revealed = true;
+  [...$('q-opts').children].forEach(el => {
+    const txt = q._shuffled[+el.dataset.opt];
+    if (txt === q.answer) el.classList.add('correct'); else el.classList.add('dim');
+  });
+  $('r-answer').textContent = q.answer;
+  $('r-expl').textContent   = q.explanation || '';
+  $('r-srcs').textContent   = (q.sourceRefs && q.sourceRefs.length)
+    ? 'Sources: ' + q.sourceRefs.join(', ')
+    : (q.riskTier === 'canonical' ? 'Canonical — no source required' : 'Not yet source-verified');
+  $('reveal').classList.add('show');
+  $('btn-adv').textContent = 'Next →';
+}
+
+function advance() {
+  if (!GAME.revealed) return revealAnswer();
+  const rd = GAME.rounds[GAME.r];
+  if (GAME.q < rd.questions.length - 1) { GAME.q++; renderQuestion(); return; }
+  if (GAME.r < GAME.rounds.length - 1) { showBreak(); return; }
+  showFinal();
+}
+$('btn-adv').onclick = advance;
+$('btn-back').onclick = () => {
+  if (GAME.q > 0) { GAME.q--; currentQ()._shuffled = null; renderQuestion(); }
+  else if (GAME.r > 0) { GAME.r--; GAME.q = GAME.rounds[GAME.r].questions.length-1; renderQuestion(); }
+};
+
+function renderScoreButtons() {
+  $('score-btns').innerHTML = teams.map((t,i) =>
+    `<button class="tbtn" data-t="${i}"><span class="key">${i+1}</span>${escapeHtml(t.name)}<span class="sc">${t.score}</span></button>`
+  ).join('');
+  $('score-btns').querySelectorAll('.tbtn').forEach(b =>
+    b.onclick = () => { teams[+b.dataset.t].score++; renderScoreButtons(); });
+}
+
+// Host keyboard. Space/Enter advances; digits score. Live hosting means one
+// hand on a laptop and eyes on the room, so mouse-free matters.
+document.addEventListener('keydown', e => {
+  if (!$('s-game').classList.contains('active')) return;
+  if (e.target.tagName === 'INPUT') return;
+  if (e.code === 'Space' || e.code === 'Enter') { e.preventDefault(); advance(); }
+  const n = parseInt(e.key, 10);
+  if (n >= 1 && n <= teams.length) { teams[n-1].score++; renderScoreButtons(); }
+});
+
+// ── standings ──────────────────────────────────────────
+function standingsHtml() {
+  return [...teams].sort((a,b) => b.score - a.score).map((t,i) =>
+    `<div class="stand-row ${i===0?'lead':''}">
+       <span class="pos">${i+1}</span>
+       <span style="flex:1">${escapeHtml(t.name)}</span>
+       <span class="pts">${t.score}</span>
+     </div>`).join('');
+}
+function showBreak() {
+  $('break-title').textContent = `End of round ${GAME.r+1}`;
+  $('break-stand').innerHTML = standingsHtml();
+  show('s-break');
+}
+$('btn-nextround').onclick = () => { GAME.r++; GAME.q = 0; renderQuestion(); show('s-game'); };
+function showFinal() {
+  $('final-stand').innerHTML = standingsHtml();
+  show('s-final');
+}
+$('btn-again').onclick = () => { show('s-setup'); updateSummary(); };
+
+function escapeHtml(s) {
+  return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;')
+    .replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+</script>
+</body>
+</html>

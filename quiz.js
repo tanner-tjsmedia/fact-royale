@@ -406,6 +406,48 @@ function shuffle(arr) {
   return [...arr].sort(() => Math.random() - 0.5);
 }
 
+// ── Quiz loading ───────────────────────────────────────
+// Set true to serve from Firestore. Until the migration has been run and the
+// rules deployed, leave this false and the static files are used exactly as
+// before. See docs/SECURE-QUESTION-DB.md.
+const FR_USE_FIRESTORE = false;
+
+// Static files under /questions are world-readable, so today anyone can open
+// questions/2026-09-15.json and read next month's answers. Firestore refuses
+// to serve a document until its publishAt has passed, checked against the
+// SERVER's clock.
+//
+// Falls back to the static file if Firestore is unreachable or the document is
+// missing, so switching the flag on cannot take the site down. Once the cutover
+// is trusted, the static files stop being deployed and the fallback goes with
+// them, which is the point: the fallback IS the hole.
+async function loadQuizData(dateKey) {
+  if (FR_USE_FIRESTORE && typeof firebase !== 'undefined' && firebase.firestore) {
+    try {
+      const snap = await firebase.firestore().collection('quizzes').doc(dateKey).get();
+      if (snap.exists) {
+        const d = snap.data();
+        if (Array.isArray(d.questions) && d.questions.length) {
+          console.info('[FR] quiz', dateKey, 'from Firestore');
+          return d;
+        }
+        console.warn('[FR] Firestore doc for', dateKey, 'has no questions; falling back');
+      } else {
+        // Either not published yet, or never migrated. A rules denial also
+        // lands here rather than throwing, so both look the same to us.
+        console.warn('[FR] Firestore has no readable doc for', dateKey, '; falling back');
+      }
+    } catch (e) {
+      console.warn('[FR] Firestore read failed for', dateKey, e.message, '; falling back');
+    }
+  }
+
+  const res = await fetch(`questions/${dateKey}.json`);
+  if (!res.ok) throw new Error('No quiz file');
+  console.info('[FR] quiz', dateKey, 'from static file');
+  return res.json();
+}
+
 function getCategoryClass(category) {
   const c = category.toLowerCase();
   if (c.includes('history'))                        return 'cat-history';
@@ -2554,9 +2596,7 @@ async function init() {
   }
 
   try {
-    const res  = await fetch(`questions/${activeQuizDate}.json`);
-    if (!res.ok) throw new Error('No quiz file');
-    const data = await res.json();
+    const data = await loadQuizData(activeQuizDate);
 
     questions = shuffle(data.questions);
 

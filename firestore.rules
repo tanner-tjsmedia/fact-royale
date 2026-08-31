@@ -30,6 +30,41 @@ service cloud.firestore {
       }
     }
 
+    // ── Quiz content: prompts and options only ────────────
+    // Readable ONLY once publishAt has passed. request.time is the server's
+    // clock, so changing a device clock does nothing. This is the guarantee a
+    // static file host cannot give: today, questions/2026-09-15.json is
+    // fetchable by anyone three weeks early.
+    //
+    // The admin override exists for the live play area, which needs the whole
+    // corpus regardless of date.
+    //
+    // Nothing reads this collection yet. See docs/SECURE-QUESTION-DB.md.
+    match /quizzes/{dateKey} {
+      allow read: if resource.data.publishAt <= request.time
+                  || (request.auth != null
+                      && request.auth.token.email == 'tanner@tjs16media.com');
+      allow write: if false;   // Admin SDK only, via tools/migrate-to-firestore.js
+    }
+
+    // ── Answer keys: never readable by any client ─────────
+    // Answers live apart from prompts so they can be withheld independently.
+    // Phase 2 still grades client-side; phase 3 moves grading to a Cloud
+    // Function, at which point the client never holds an answer it has not
+    // already committed a guess against.
+    match /quizKeys/{dateKey} {
+      allow read, write: if false;
+    }
+
+    // ── Live game sessions (internal) ─────────────────────
+    // Host console state for in-person and online live play. Admin-only for
+    // now; opening this to player devices is a later decision and will need
+    // its own rules rather than a loosening of these.
+    match /liveGames/{gameId} {
+      allow read, write: if request.auth != null
+                         && request.auth.token.email == 'tanner@tjs16media.com';
+    }
+
     // ── Admin collection (server-side only) ───────────────
     match /admin/{document=**} {
       allow read: if request.auth != null

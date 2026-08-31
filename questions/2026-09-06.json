@@ -3,159 +3,213 @@
   "questions": [
     {
       "category": "History",
-      "question": "Which ancient Greek philosopher was put on trial for corrupting the youth and impiety, and was sentenced to death by drinking hemlock?",
+      "question": "Convicted in 399 BC, Socrates was invited to propose his own penalty instead of death. What did he suggest?",
       "options": [
-        "Plato",
-        "Diogenes",
-        "Aristotle",
-        "Socrates"
+        "Free meals at public expense, for the rest of his life",
+        "Exile to Thessaly, where friends had offered him refuge",
+        "A fine of thirty minae, paid by his wealthier students",
+        "Silence: never to teach in the agora again"
       ],
-      "answer": "Socrates",
-      "explanation": "Socrates (470-399 BC) was tried in 399 BC and executed by drinking hemlock. He left no written works — his ideas are known through Plato's dialogues. He developed the Socratic Method: questioning to expose contradictions and reach truth. His last words, according to Plato: 'Crito, I owe a cock to Asclepius.'",
-      "memory_hook": "Socrates: executed by hemlock (399 BC). Left no writings. Known through Plato's Dialogues."
-    },
-    {
-      "category": "Science & Nature",
-      "question": "What is the name of the process by which the nucleus of a heavy atom (like uranium) splits into two lighter nuclei, releasing a large amount of energy?",
-      "options": [
-        "Nuclear fusion",
-        "Nuclear transmutation",
-        "Nuclear fission",
-        "Radioactive decay"
+      "answer": "Free meals at public expense, for the rest of his life",
+      "explanation": "Athenian law let both sides propose a sentence and the jury pick one. Socrates argued that a man who had spent his life urging Athenians toward moral improvement deserved what Olympic victors got: free meals in the Prytaneum, the public dining hall. He then offered a token fine his friends would cover. The jury voted for death by a wider margin than it had voted to convict.",
+      "memory_hook": "Asked to name his own punishment, he asked to be fed at public expense for life. It is not clear he wanted to survive the trial.",
+      "sourceRefs": [
+        "plato-apology-penalty"
       ],
-      "answer": "Nuclear fission",
-      "explanation": "Nuclear fission was first demonstrated by Otto Hahn, Lise Meitner, and Fritz Strassmann in 1938. In a fission chain reaction, each split nucleus releases neutrons that trigger further splits. Atomic bombs use uncontrolled chain reactions; nuclear power plants use controlled ones. The world's first nuclear reactor (Chicago Pile-1) achieved criticality in 1942.",
-      "memory_hook": "Fission: heavy nucleus splits, releases energy. Bombs = uncontrolled. Power plants = controlled."
-    },
-    {
-      "category": "Sports",
-      "question": "Which country's national team is known as 'The Springboks' and won its fourth Rugby World Cup in France in 2023?",
-      "options": [
-        "South Africa",
-        "Australia",
-        "New Zealand",
-        "England"
-      ],
-      "answer": "South Africa",
-      "explanation": "South Africa's Springboks beat New Zealand 12-11 in the 2023 Rugby World Cup final in Paris — the tightest World Cup final in history. South Africa has now won the most Rugby World Cups (4), having also won in 1995, 2007, and 2019. They are ranked among the greatest rugby nations of all time.",
-      "memory_hook": "Springboks: South Africa. 4 World Cups (most of any team). 2023 final: beat NZ 12-11."
-    },
-    {
-      "category": "Pop Culture",
-      "question": "Which English singer-songwriter, known for acoustic guitar and introspective lyrics, released 'Shape of You,' the best-selling single in Spotify history?",
-      "options": [
-        "James Blunt",
-        "Ed Sheeran",
-        "Harry Styles",
-        "Sam Smith"
-      ],
-      "answer": "Ed Sheeran",
-      "explanation": "Ed Sheeran's 'Shape of You' (2017) is Spotify's most-streamed song ever with over 4 billion streams. He has been the world's best-selling music artist multiple times. His album '÷' (Divide) made him the first artist to have all songs from an album simultaneously in the UK Top 20.",
-      "memory_hook": "Ed Sheeran: 'Shape of You' = most-streamed song on Spotify ever. First to put entire album in UK Top 20."
-    },
-    {
-      "category": "Geography",
-      "question": "Which European country has the most coastline of any nation in the world, with over 125,000 km of coastline due to its many fjords and islands?",
-      "options": [
-        "Norway",
-        "Canada",
-        "Australia",
-        "Indonesia"
-      ],
-      "answer": "Norway",
-      "explanation": "Norway has 125,021 km of coastline, the most in the world due to its deeply indented fjords, peninsulas, and more than 50,000 islands. Canada comes second with approximately 202,000 km (some measurements dispute the ranking based on methodology). Norway's fjords, carved by glaciers, are up to 1,308 meters deep.",
-      "memory_hook": "Norway: most coastline, 125,000 km. Fjords are glacially carved — up to 1,308m deep."
+      "riskTier": "source"
     },
     {
       "category": "History",
-      "question": "The Silk Road, the ancient trade network connecting China to the Mediterranean, got its name from which primary commodity traded along it?",
+      "question": "The Silk Road connected China to the Mediterranean for centuries. What is wrong with the name?",
       "options": [
-        "Silk",
-        "Jade",
-        "Spices",
-        "Tea"
+        "Silk was banned along most of the route",
+        "Nobody who used it ever called it that",
+        "It never actually reached the Mediterranean",
+        "It was a sea route for most of its length"
       ],
-      "answer": "Silk",
-      "explanation": "The Silk Road (actually a network of routes) operated from around 130 BC to 1450 AD. Silk was China's most prized export — the method of silk production was a closely guarded state secret, punishable by death if disclosed. Other goods traded included spices, glass, gold, and disease — including the Black Death.",
-      "memory_hook": "Silk Road: 130 BC to 1450 AD. Silk production was China's state secret. Also spread the Black Death."
-    },
-    {
-      "category": "Pop Culture",
-      "question": "Which animated Pixar film (2015), featuring emotions as personified characters inside a young girl's mind, won the Academy Award for Best Animated Feature?",
-      "options": [
-        "Finding Dory",
-        "Inside Out",
-        "Coco",
-        "Soul"
+      "answer": "Nobody who used it ever called it that",
+      "explanation": "The phrase is a nineteenth-century European coinage, popularised by the German geographer Ferdinand von Richthofen in 1877 and used in a German dissertation three years earlier. No merchant, no Chinese or Persian source, nobody who actually travelled it used the term. It was also not one road but a shifting web of routes, and silk was one commodity among paper, horses, glass and ideas.",
+      "memory_hook": "A name invented in Berlin in the 1870s for a network that had stopped operating centuries earlier. Everyone who used it would not recognise it.",
+      "sourceRefs": [
+        "whe-silk-road",
+        "richthofen-silk-road-coinage"
       ],
-      "answer": "Inside Out",
-      "explanation": "Inside Out (2015) was directed by Pete Docter and features Joy, Sadness, Anger, Fear, and Disgust as characters inside 11-year-old Riley's mind. The film explores mental health themes including depression and the importance of all emotions. It was praised for helping children (and adults) understand emotional complexity.",
-      "memory_hook": "Inside Out 2015: Pixar. Joy, Sadness, Anger, Fear, Disgust inside Riley's mind. Oscar winner."
-    },
-    {
-      "category": "Science & Nature",
-      "question": "What is the name of the force that opposes the relative motion of two surfaces in contact?",
-      "options": [
-        "Friction",
-        "Normal force",
-        "Drag",
-        "Tension"
-      ],
-      "answer": "Friction",
-      "explanation": "Friction is caused by the microscopic roughness of surfaces and, at the molecular level, by electromagnetic interactions. Static friction (preventing motion) is stronger than kinetic friction (opposing motion already occurring). Without friction, we couldn't walk, grip tools, or stop cars. The coefficient of friction between rubber and dry asphalt is about 0.7.",
-      "memory_hook": "Friction: static (prevents motion) > kinetic (opposes motion). Without it: can't walk, grip, or brake."
-    },
-    {
-      "category": "Geography",
-      "question": "Which Central American country is the largest in terms of area, covering approximately 130,000 km²?",
-      "options": [
-        "Mexico",
-        "Honduras",
-        "Nicaragua",
-        "Guatemala"
-      ],
-      "answer": "Nicaragua",
-      "explanation": "Nicaragua is the largest country in Central America with 130,375 km². It is bounded by Honduras to the north and Costa Rica to the south. Lake Nicaragua is the largest lake in Central America and the only freshwater lake in the world to contain sharks (bull sharks adapted to freshwater).",
-      "memory_hook": "Nicaragua: largest in Central America. Lake Nicaragua has freshwater bull sharks."
+      "riskTier": "source"
     },
     {
       "category": "History",
-      "question": "Which ancient Greek historian, often called the 'Father of History,' wrote detailed accounts of the Greco-Persian Wars?",
+      "question": "Cicero called Herodotus the Father of History. What did Plutarch call him?",
       "options": [
-        "Herodotus",
-        "Xenophon",
-        "Polybius",
-        "Thucydides"
+        "The Father of Geography, for his maps of Egypt",
+        "A poet who had mistaken himself for a scholar",
+        "The Father of Lies, in an essay attacking him",
+        "The first true scientist of the ancient world"
       ],
-      "answer": "Herodotus",
-      "explanation": "Herodotus (c. 484-425 BC) wrote 'Histories,' the first major narrative history in Western literature. He investigated and documented the Greco-Persian Wars of 499-449 BC. Thucydides later criticized Herodotus's reliance on myth, offering a more rigorous approach in his account of the Peloponnesian War.",
-      "memory_hook": "Herodotus: 'Father of History.' First narrative history. Greco-Persian Wars. Thucydides criticized him for myths."
-    },
-    {
-      "category": "Pop Culture",
-      "question": "Which Canadian musician, born in London, Ontario, had a teenage breakthrough with the hit 'Baby' (2010) discovered via YouTube by talent manager Scooter Braun?",
-      "options": [
-        "Justin Bieber",
-        "The Weeknd",
-        "Drake",
-        "Shawn Mendes"
+      "answer": "The Father of Lies, in an essay attacking him",
+      "explanation": "Plutarch wrote On the Malice of Herodotus more than four centuries later, accusing him of bias and invention. Part of the grievance was personal: Herodotus had recorded that Plutarch's own Boeotians sided with Persia. He also called him philobarbaros, a barbarian-lover, for treating Persians as people rather than villains. Both titles stuck, which is roughly the right verdict on a writer who preserved a great deal and checked very little.",
+      "memory_hook": "Father of History and Father of Lies, from two Romans four centuries apart. Both were partly right.",
+      "sourceRefs": [
+        "whe-herodotus"
       ],
-      "answer": "Justin Bieber",
-      "explanation": "Justin Bieber was discovered at age 13 when talent manager Scooter Braun found his YouTube videos of him covering other artists' songs. His debut single 'One Time' (2009) went gold. 'Baby' (2010) featuring Ludacris was the most-viewed YouTube video for a time. He has since won multiple Grammys.",
-      "memory_hook": "Justin Bieber: discovered on YouTube age 13, by Scooter Braun. 'Baby' was biggest YouTube video."
+      "riskTier": "source"
     },
     {
       "category": "Sports",
-      "question": "What is the term for a set of three consecutive strikes in bowling?",
+      "question": "South Africa won the 2023 Rugby World Cup. What was remarkable about their knockout run?",
       "options": [
-        "Triple",
-        "Hat trick",
-        "Turkey",
-        "Strike out"
+        "They never trailed at any point in the tournament",
+        "They used the same fifteen players in every match",
+        "They scored no tries in the entire knockout stage",
+        "They won all three knockout games by one point"
       ],
-      "answer": "Turkey",
-      "explanation": "Three consecutive strikes in bowling is called a 'turkey.' The term dates to 19th-century bowling alleys where tournament organizers would award a live turkey for this achievement. Modern bowling alleys sometimes still award prizes for turkeys. Four consecutive strikes is called a 'hambone' or 'four-bagger.'",
-      "memory_hook": "Turkey = 3 consecutive strikes in bowling. Named after actual turkeys given as prizes in the 1800s."
+      "answer": "They won all three knockout games by one point",
+      "explanation": "France 29-28 in the quarter-final, England 16-15 in the semi, New Zealand 12-11 in the final. Three knockout matches, three one-point margins, and a record fourth title. No side had ever won a World Cup that way, and the aggregate margin across the three hardest games of the tournament was three points.",
+      "memory_hook": "29-28, 16-15, 12-11. Three knockout games, three single points, one trophy.",
+      "sourceRefs": [
+        "rwc-2023-knockout"
+      ],
+      "riskTier": "source"
+    },
+    {
+      "category": "Sports",
+      "question": "The Tour de France leader has worn a yellow jersey since 1919. What decided the colour?",
+      "options": [
+        "It was the only dye the wartime supplier still had",
+        "The organising newspaper was printed on yellow paper",
+        "Yellow was the traditional colour of French cycling",
+        "Riders voted for the most visible colour in a crowd"
+      ],
+      "answer": "The organising newspaper was printed on yellow paper",
+      "explanation": "L'Auto, the paper that invented the race in 1903 to sell copies, was printed on distinctive yellow newsprint. Two-thirds of the way through the 1919 race, organiser Henri Desgrange decided spectators could not tell who was leading and handed Eugene Christophe a jersey in the paper's own colour. Before that the leader wore a green armband. L'Auto later became L'Equipe, which still co-owns the Tour.",
+      "memory_hook": "The most famous jersey in cycling is the colour of the newsprint it was invented to sell.",
+      "sourceRefs": [
+        "rouleur-yellow-jersey",
+        "smithsonian-yellow-jersey"
+      ],
+      "riskTier": "source"
+    },
+    {
+      "category": "Pop Culture",
+      "question": "Pixar's Inside Out gives a child five emotions. Why five, and not more?",
+      "options": [
+        "Five was the most the animation budget allowed",
+        "Surprise and contempt were cut for simplicity",
+        "Test audiences could not follow more than five",
+        "Each one had to match a primary colour exactly"
+      ],
+      "answer": "Surprise and contempt were cut for simplicity",
+      "explanation": "Pixar consulted Paul Ekman and Dacher Keltner, whose work identifies six or seven emotions with distinctive facial expressions. The film kept joy, sadness, anger, fear and disgust, and dropped surprise and contempt, surprise overlapping heavily with fear. Pride and schadenfreude were explored and rejected. The sequel added the ones adolescence brings.",
+      "memory_hook": "The science said six or seven. Surprise looked too much like fear on screen, so it was cut.",
+      "sourceRefs": [
+        "ggsc-inside-out",
+        "ekman-inside-out"
+      ],
+      "riskTier": "source"
+    },
+    {
+      "category": "Pop Culture",
+      "question": "The Hollywood sign went up in 1923. What did it originally say, and why?",
+      "options": [
+        "HOLLYWOOD HILLS, naming the ridge it stands on",
+        "HOLLYWOOD STUDIOS, marking the first film lot",
+        "HOLLYWOODLAND, advertising a housing development",
+        "HOLLYWOODLAND, honouring the town's founders"
+      ],
+      "answer": "HOLLYWOODLAND, advertising a housing development",
+      "explanation": "It was a $21,000 billboard for a subdivision backed by the publisher of the Los Angeles Times, lit with thousands of bulbs that flashed HOLLY, WOOD and LAND in sequence after dark. It was meant to stand eighteen months. Nobody took it down, the word outgrew the property it was selling, and in 1949 the Chamber of Commerce rebuilt the H and removed LAND.",
+      "memory_hook": "A temporary property advert that outlived the property, the developer, and its own last four letters.",
+      "sourceRefs": [
+        "smithsonian-hollywood-sign",
+        "laconservancy-hollywood-sign"
+      ],
+      "riskTier": "source"
+    },
+    {
+      "category": "Pop Culture",
+      "question": "Auto-Tune's inventor worked in oil exploration before music. What does he say about the connection?",
+      "options": [
+        "That he built it during downtime on an oil rig",
+        "That Exxon still holds a share of the patent",
+        "That he sold the idea before ever hearing it used",
+        "That the popular version of the story is wrong"
+      ],
+      "answer": "That the popular version of the story is wrong",
+      "explanation": "Andy Hildebrand spent 1976 to 1989 at Exxon doing seismic signal processing, and the autocorrelation mathematics behind Auto-Tune came out of that world. But the widely repeated line that it was invented to find oil using dynamite blasts is something he has called exactly wrong. His account is plainer: a doctorate in signal processing, applied first to rock and later to voices. Antares released it in 1997.",
+      "memory_hook": "The oil-to-pop-star story is too neat, and the man who built it says so himself.",
+      "sourceRefs": [
+        "vice-autotune-hildebrand"
+      ],
+      "riskTier": "source"
+    },
+    {
+      "category": "Geography",
+      "question": "Published figures for Norway's coastline range from a few thousand kilometres to over a hundred thousand. Why the disagreement?",
+      "options": [
+        "Coastline length depends on the ruler you measure with",
+        "Norway counts its territorial waters in the figure",
+        "The fjords get measured twice, once on each side",
+        "Sea level change makes it different every decade"
+      ],
+      "answer": "Coastline length depends on the ruler you measure with",
+      "explanation": "This is the coastline paradox. Measure with a long ruler and you cut straight across the fjords; measure with a short one and you follow every inlet, and the total climbs without settling on a value. Lewis Fry Richardson noticed the effect comparing national borders, and Mandelbrot built fractal geometry partly on it. Norway is the extreme case, and whether islands are counted moves the number again.",
+      "memory_hook": "There is no true length. Shorten the ruler and the coast gets longer, forever.",
+      "sourceRefs": [
+        "britannica-coastline-paradox"
+      ],
+      "riskTier": "source"
+    },
+    {
+      "category": "Geography",
+      "question": "The Pan-American Highway runs from Alaska to Argentina with one break in it. Why has that gap never been closed?",
+      "options": [
+        "The terrain has defeated every survey attempted",
+        "Neither country actually wants the road built",
+        "An international treaty forbids building through it",
+        "The two sections use incompatible road standards"
+      ],
+      "answer": "Neither country actually wants the road built",
+      "explanation": "The Darien Gap is roughly 100km of roadless jungle and swamp between Panama and Colombia. Terrain and cost are real, but the decisive obstacles are political. Indigenous communities of some 40,000 people have opposed a road that would bring settlement and clearance, environmental studies warned of deforestation, and Panama has valued the gap as a barrier against smuggling, livestock disease and armed groups. Planning began in the 1970s and stalled repeatedly.",
+      "memory_hook": "The gap is not an engineering failure. It is a decision, renewed every time someone proposes closing it.",
+      "sourceRefs": [
+        "hrw-darien-gap"
+      ],
+      "riskTier": "source"
+    },
+    {
+      "category": "Science & Nature",
+      "question": "Otto Hahn's 1938 experiment split a uranium nucleus, but he could not explain his own result. Who did?",
+      "options": [
+        "Enrico Fermi, working from Rome the following year",
+        "Fritz Strassmann, Hahn's collaborator in the lab",
+        "Lise Meitner, who then got no share of the Nobel",
+        "Niels Bohr, who had predicted the result in advance"
+      ],
+      "answer": "Lise Meitner, who then got no share of the Nobel",
+      "explanation": "Hahn and Strassmann found barium where they expected something heavier and could not account for it. Meitner, who had worked alongside Hahn for thirty years and had fled to Sweden that summer, worked out the physics with her nephew Otto Frisch over Christmas 1938 and gave the process its name: fission. The 1944 Nobel Prize in Chemistry went to Hahn alone. The rules would have permitted three names.",
+      "memory_hook": "She named the thing. The prize went to the man who had the barium but not the explanation.",
+      "sourceRefs": [
+        "britannica-lise-meitner",
+        "nobel-1944-chemistry"
+      ],
+      "riskTier": "source"
+    },
+    {
+      "category": "Science & Nature",
+      "question": "Classical physics says friction does not depend on how much surface is touching. Why do racing cars run wide tyres then?",
+      "options": [
+        "Wider tyres run cooler and so last much longer",
+        "The extra width is for stability, not for grip",
+        "Downforce only works on a broad enough contact",
+        "Rubber breaks the rule that hard surfaces obey"
+      ],
+      "answer": "Rubber breaks the rule that hard surfaces obey",
+      "explanation": "Amontons' law holds that friction depends on load rather than on contact area, and for rigid materials it works well. Rubber is not rigid. It deforms into the roughness of the road, so the real area of contact, as opposed to the apparent one, grows with load and with width, and grip grows with it. This is also why an overinflated tyre grips worse: less rubber is genuinely touching the surface.",
+      "memory_hook": "The textbook rule is about hard surfaces sliding. A tyre is not sliding on the road so much as gripping into it.",
+      "sourceRefs": [
+        "cycleworld-amontons",
+        "nature-rubber-friction"
+      ],
+      "riskTier": "source"
     }
   ]
 }

@@ -1,2 +1,11 @@
 node_modules/
 package-lock.json
+
+# Service account keys. These grant full admin rights over the Firebase
+# project and bypass every security rule. The runbook says keep them outside
+# the repo entirely; this is the second line of defence for the day that
+# instruction gets forgotten.
+service-account*.json
+*-firebase-adminsdk-*.json
+firebase-admin-key*.json
+.fact-royale/

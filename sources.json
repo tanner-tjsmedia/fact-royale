@@ -1635,6 +1635,217 @@
       ],
       "checked": "2026-08-24",
       "archive": null
+    },
+    "plato-apology-penalty": {
+      "tier": "primary",
+      "url": "https://www.famous-trials.com/socrates/833-home",
+      "publisher": "Plato, Apology 36b-37a (Famous Trials, Univ. of Missouri-KC)",
+      "establishes": [
+        "After conviction, Athenian law let each side propose a penalty and the jury choose",
+        "Socrates proposed free meals in the Prytaneum, an honour given to Olympic victors",
+        "He then offered a small fine his friends would pay",
+        "The death vote carried by a larger margin than the conviction"
+      ],
+      "checked": "2026-08-31",
+      "archive": null
+    },
+    "whe-silk-road": {
+      "tier": "reference",
+      "url": "https://www.worldhistory.org/Silk_Road/",
+      "publisher": "World History Encyclopedia",
+      "establishes": [
+        "'Silk Road' was coined by Ferdinand von Richthofen in 1877 as Seidenstrasse",
+        "The network was many shifting routes, not one road, carrying far more than silk"
+      ],
+      "checked": "2026-08-31",
+      "archive": null
+    },
+    "richthofen-silk-road-coinage": {
+      "tier": "primary",
+      "url": "https://edspace.american.edu/silkroadjournal/wp-content/uploads/sites/984/2020/02/2-Mertens-Did-Richthofen-Really-Coin-the-Silk-Road.pdf",
+      "publisher": "Mertens, 'Did Richthofen Really Coin the Silk Road?' (Journal of Silk Road Studies)",
+      "establishes": [
+        "Robert Mack used 'Seidenstrasse' in an 1874 dissertation, three years before Richthofen",
+        "No ancient source uses any equivalent term; it is a modern academic construct"
+      ],
+      "checked": "2026-08-31",
+      "archive": null,
+      "note": "The question says only that nobody who used the route called it that, which both sources support. It deliberately avoids crediting Richthofen with coining it, since that is contested."
+    },
+    "whe-herodotus": {
+      "tier": "reference",
+      "url": "https://www.worldhistory.org/herodotus/",
+      "publisher": "World History Encyclopedia",
+      "establishes": [
+        "Cicero called Herodotus the Father of History",
+        "Plutarch attacked him in 'On the Malice of Herodotus' and called him the Father of Lies",
+        "Plutarch's Boeotians had sided with Persia, which Herodotus recorded",
+        "Plutarch called him philobarbaros, a barbarian-lover"
+      ],
+      "checked": "2026-08-31",
+      "archive": null
+    },
+    "rwc-2023-knockout": {
+      "tier": "primary",
+      "url": "https://www.rugbyworldcup.com/2023/news/888444/team-review-south-africa",
+      "publisher": "Rugby World Cup (World Rugby)",
+      "establishes": [
+        "South Africa beat France 29-28, England 16-15 and New Zealand 12-11",
+        "Three knockout wins by one point each; a record fourth title"
+      ],
+      "checked": "2026-08-31",
+      "archive": null
+    },
+    "ggsc-inside-out": {
+      "tier": "primary",
+      "url": "https://greatergood.berkeley.edu/article/item/how_ggsc_turned_pixar_inside_out",
+      "publisher": "Greater Good Science Center, UC Berkeley (Dacher Keltner)",
+      "establishes": [
+        "Keltner and Paul Ekman consulted on Inside Out",
+        "The film uses five of the emotions from Ekman's list of six or seven"
+      ],
+      "checked": "2026-08-31",
+      "archive": null
+    },
+    "ekman-inside-out": {
+      "tier": "primary",
+      "url": "https://www.paulekman.com/blog/the-science-of-inside-out/",
+      "publisher": "Paul Ekman Group",
+      "establishes": [
+        "Surprise and contempt were left out of the film for simplicity",
+        "Pride and schadenfreude were explored as characters and rejected"
+      ],
+      "checked": "2026-08-31",
+      "archive": null
+    },
+    "smithsonian-hollywood-sign": {
+      "tier": "secondary",
+      "url": "https://www.smithsonianmag.com/history/the-hidden-history-of-the-hollywood-sign-180982518/",
+      "publisher": "Smithsonian Magazine",
+      "establishes": [
+        "The sign read HOLLYWOODLAND from 1923, a $21,000 billboard for a subdivision backed by the LA Times publisher",
+        "Bulbs flashed HOLLY, WOOD and LAND in sequence",
+        "Intended to stand 18 months; LAND removed in 1949 by the Chamber of Commerce"
+      ],
+      "checked": "2026-08-31",
+      "archive": null
+    },
+    "vice-autotune-hildebrand": {
+      "tier": "primary",
+      "url": "https://www.vice.com/en/article/how-an-oil-engineer-created-auto-tune-and-changed-music-forever-interview-creator/",
+      "publisher": "Andy Hildebrand, in interview (Vice)",
+      "establishes": [
+        "Hildebrand worked at Exxon 1976-1989 on seismic signal processing",
+        "Auto-Tune uses autocorrelation methods from that work",
+        "Hildebrand calls the 'invented to find oil with dynamite' story exactly wrong",
+        "Antares released Auto-Tune in 1997"
+      ],
+      "checked": "2026-08-31",
+      "archive": null,
+      "note": "First-person correction of a widely repeated story, so it outranks the retellings. The question is built around the denial rather than the myth."
+    },
+    "britannica-coastline-paradox": {
+      "tier": "reference",
+      "url": "https://www.britannica.com/science/coastline-paradox",
+      "publisher": "Encyclopaedia Britannica",
+      "establishes": [
+        "A coastline has no well-defined length; measured length rises as the measuring unit shrinks",
+        "Lewis Fry Richardson identified the effect; Mandelbrot developed it into fractal dimension",
+        "Norway's fjords make it the extreme case"
+      ],
+      "checked": "2026-08-31",
+      "archive": null
+    },
+    "hrw-darien-gap": {
+      "tier": "reference",
+      "url": "https://www.hrw.org/news/2023/10/10/how-treacherous-darien-gap-became-migration-crossroads-americas",
+      "publisher": "Human Rights Watch",
+      "establishes": [
+        "The Darien Gap is roughly 100km of roadless jungle between Panama and Colombia",
+        "Around 40,000 Indigenous people live there and have opposed a road",
+        "Planning began in the 1970s and stalled on environmental and political grounds"
+      ],
+      "checked": "2026-08-31",
+      "archive": null
+    },
+    "britannica-lise-meitner": {
+      "tier": "reference",
+      "url": "https://www.britannica.com/biography/Lise-Meitner",
+      "publisher": "Encyclopaedia Britannica",
+      "establishes": [
+        "Hahn and Strassmann found barium in neutron-bombarded uranium but could not explain it",
+        "Meitner and Otto Frisch supplied the physical explanation and coined 'fission' in early 1939",
+        "Meitner had fled Germany for Sweden in 1938"
+      ],
+      "checked": "2026-08-31",
+      "archive": null
+    },
+    "nobel-1944-chemistry": {
+      "tier": "primary",
+      "url": "https://www.nobelprize.org/prizes/chemistry/1944/ceremony-speech/",
+      "publisher": "The Nobel Foundation",
+      "establishes": [
+        "The 1944 Nobel Prize in Chemistry was awarded to Otto Hahn alone, for the discovery of the fission of heavy nuclei"
+      ],
+      "checked": "2026-08-31",
+      "archive": null,
+      "note": "The prize could have been shared by up to three. Meitner never received one."
+    },
+    "cycleworld-amontons": {
+      "tier": "secondary",
+      "url": "https://www.cycleworld.com/blogs/ask-kevin/amontons-laws-of-friction-and-motorcycle-tires/",
+      "publisher": "Cycle World",
+      "establishes": [
+        "Amontons' laws hold friction independent of apparent contact area",
+        "They do not apply to rubber on pavement; tyre grip is tied to the real contact patch"
+      ],
+      "checked": "2026-08-31",
+      "archive": null
+    },
+    "nature-rubber-friction": {
+      "tier": "primary",
+      "url": "https://www.nature.com/articles/srep27951",
+      "publisher": "Scientific Reports (Nature)",
+      "establishes": [
+        "Real contact area for elastomers grows with normal load, unlike rigid materials",
+        "This is the documented breakdown of Amontons' law for rubber"
+      ],
+      "checked": "2026-08-31",
+      "archive": null
+    },
+    "rouleur-yellow-jersey": {
+      "tier": "secondary",
+      "url": "https://www.rouleur.cc/blogs/the-rouleur-journal/the-yellow-jersey-at-the-tour-de-france-a-brief-history",
+      "publisher": "Rouleur",
+      "establishes": [
+        "The yellow jersey was introduced during the 1919 Tour by organiser Henri Desgrange",
+        "Yellow was chosen for L'Auto, the sponsoring newspaper, printed on yellow paper",
+        "Eugene Christophe was the first to wear it; the leader previously wore a green armband"
+      ],
+      "checked": "2026-08-31",
+      "archive": null
+    },
+    "smithsonian-yellow-jersey": {
+      "tier": "secondary",
+      "url": "https://www.smithsonianmag.com/history/original-tour-de-france-yellow-jersey-was-made-wool-180972664/",
+      "publisher": "Smithsonian Magazine",
+      "establishes": [
+        "The 1919 yellow jersey's colour came from L'Auto's yellow newsprint",
+        "L'Auto was the race's founding sponsor and later became L'Equipe"
+      ],
+      "checked": "2026-08-31",
+      "archive": null
+    },
+    "laconservancy-hollywood-sign": {
+      "tier": "primary",
+      "url": "https://www.laconservancy.org/learn/historic-places/the-hollywood-sign/",
+      "publisher": "Los Angeles Conservancy",
+      "establishes": [
+        "Erected 1923 reading HOLLYWOODLAND as a real-estate advertisement",
+        "LAND removed in 1949 when the Chamber of Commerce took on its upkeep"
+      ],
+      "checked": "2026-08-31",
+      "archive": null
     }
   }
 }
