@@ -1,6 +1,7 @@
 {
   "questions": [
     {
+      "id": "frq-0241",
       "category": "History",
       "question": "The Suez Canal connects which two bodies of water?",
       "options": [
@@ -11,9 +12,16 @@
       ],
       "answer": "Mediterranean Sea and Red Sea",
       "explanation": "The Suez Canal, opened in 1869, connects the Mediterranean Sea to the Red Sea, providing a direct shipping route between Europe and Asia. It eliminates the need to sail around Africa, reducing shipping distances by up to 7,000 km. It is approximately 193 km long.",
-      "memory_hook": "Suez: MED to RED. Two colors, one canal."
+      "memory_hook": "Suez: MED to RED. Two colors, one canal.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0242",
       "category": "History",
       "question": "Who invented the World Wide Web?",
       "options": [
@@ -24,9 +32,16 @@
       ],
       "answer": "Tim Berners-Lee",
       "explanation": "Tim Berners-Lee invented the World Wide Web in 1989 while working at CERN. He proposed a system to share information among researchers and wrote the first web browser and server. He made the technology freely available, allowing the internet to grow exponentially.",
-      "memory_hook": "Berners-Lee built the web — he wove it together for everyone, for free."
+      "memory_hook": "Berners-Lee built the web — he wove it together for everyone, for free.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0243",
       "category": "Sports",
       "question": "What is the fastest recorded serve in professional tennis?",
       "options": [
@@ -37,9 +52,16 @@
       ],
       "answer": "163 mph",
       "explanation": "The fastest serve ever recorded in professional tennis was 263 km/h (163.4 mph), hit by Australian Sam Groth in 2012 at a Busan Open Challenger event. However, John Isner's 253 km/h serve is the fastest recognized at ATP level.",
-      "memory_hook": "163 mph — a tennis serve faster than most highway speed limits."
+      "memory_hook": "163 mph — a tennis serve faster than most highway speed limits.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0244",
       "category": "Sports",
       "question": "Barry Bonds set the MLB single-season home run record in 2001. How many did he hit, and what controversy surrounds the record?",
       "options": [
@@ -50,9 +72,16 @@
       ],
       "answer": "73 home runs; Bonds was later linked to performance-enhancing drugs during the BALCO investigation, leading many to view the record as tainted",
       "explanation": "Bonds hit 73 home runs in 2001, breaking Mark McGwire's 1998 record of 70 (which had broken Maris's 1961 record of 61). The BALCO investigation revealed widespread steroid use in baseball during this era. Bonds was convicted of obstruction of justice in 2011 (later overturned). The Baseball Hall of Fame has kept him out despite his statistics — 762 career home runs — reflecting baseball's ongoing reckoning with the 'Steroid Era.'",
-      "memory_hook": "Bonds hit 73 home runs in 2001 — the all-time single-season record — but the BALCO scandal linked him to steroids and has kept him out of the Hall of Fame despite 762 career home runs."
+      "memory_hook": "Bonds hit 73 home runs in 2001 — the all-time single-season record — but the BALCO scandal linked him to steroids and has kept him out of the Hall of Fame despite 762 career home runs.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0245",
       "category": "Pop Culture",
       "question": "Tom Hanks won his second consecutive Best Actor Oscar for playing a kind-hearted Alabama man who inadvertently witnesses key events in American history — from Vietnam to Watergate. What is the film?",
       "options": [
@@ -63,9 +92,16 @@
       ],
       "answer": "Forrest Gump",
       "explanation": "Forrest Gump (1994), directed by Robert Zemeckis, won six Academy Awards including Best Picture and Best Director. Tom Hanks played Forrest, a man with a below-average IQ who stumbles through pivotal moments in American history. It remains one of the highest-grossing films ever made.",
-      "memory_hook": "Hanks won back-to-back Oscars: Philadelphia (1994) then Forrest Gump (1995)."
+      "memory_hook": "Hanks won back-to-back Oscars: Philadelphia (1994) then Forrest Gump (1995).",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0246",
       "category": "Pop Culture",
       "question": "What was the first feature-length animated film produced by Walt Disney?",
       "options": [
@@ -76,9 +112,16 @@
       ],
       "answer": "Snow White and the Seven Dwarfs",
       "explanation": "Snow White and the Seven Dwarfs (1937) was the first feature-length animated film produced by Walt Disney and the first feature-length cel-animated film in motion picture history. It was a massive risk — Hollywood called it 'Disney's Folly' — but it was a smash hit.",
-      "memory_hook": "Snow White came first — Disney bet his studio on her and won."
+      "memory_hook": "Snow White came first — Disney bet his studio on her and won.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0247",
       "category": "Pop Culture",
       "question": "Which 1980s band is known for 'Don't Stop Believin''?",
       "options": [
@@ -89,9 +132,16 @@
       ],
       "answer": "Journey",
       "explanation": "'Don't Stop Believin'' was released by Journey in 1981 on their album 'Escape.' Written by Steve Perry, Neal Schon, and Jonathan Cain, it became one of the best-selling digital catalog singles in history and saw renewed popularity after being featured in The Sopranos finale.",
-      "memory_hook": "Journey never stopped believin' — and neither did a generation of fans."
+      "memory_hook": "Journey never stopped believin' — and neither did a generation of fans.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0248",
       "category": "History",
       "question": "The ancient city of Pompeii was destroyed by the eruption of which volcano?",
       "options": [
@@ -102,9 +152,16 @@
       ],
       "answer": "Mount Vesuvius",
       "explanation": "Pompeii was buried under ash and pumice during the eruption of Mount Vesuvius on August 24–25, 79 AD. The city was preserved remarkably well under the ash, and excavations beginning in the 18th century have revealed extraordinary details about Roman life.",
-      "memory_hook": "Vesuvius buried Pompeii — frozen in time under volcanic ash."
+      "memory_hook": "Vesuvius buried Pompeii — frozen in time under volcanic ash.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0249",
       "category": "Geography",
       "question": "Which country has the longest coastline in the world?",
       "options": [
@@ -115,9 +172,16 @@
       ],
       "answer": "Canada",
       "explanation": "Canada's coastline stretches approximately 202,080 kilometers — the longest of any country in the world. This includes the mainland coast and the shores of offshore islands. Canada borders three oceans: the Atlantic, Pacific, and Arctic.",
-      "memory_hook": "Canada again: longest coastline. Most lakes AND longest coastline. Canada is essentially defined by water — it borders three oceans and contains more lakes than the rest of the world."
+      "memory_hook": "Canada again: longest coastline. Most lakes AND longest coastline. Canada is essentially defined by water — it borders three oceans and contains more lakes than the rest of the world.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0250",
       "category": "Science & Nature",
       "question": "Carl Sagan famously said 'We are made of star stuff.' What is the scientific basis for this statement?",
       "options": [
@@ -128,9 +192,16 @@
       ],
       "answer": "Nearly every element heavier than hydrogen and helium — the carbon in DNA, the iron in blood, the calcium in bones — was forged inside stars through nuclear fusion and scattered by supernova explosions",
       "explanation": "The Big Bang produced only hydrogen, helium, and trace lithium. Every heavier element was manufactured inside stars through nuclear fusion — helium fuses into carbon, carbon into oxygen, oxygen into silicon, and so on up to iron. Elements heavier than iron (gold, uranium) are forged in neutron star mergers and supernovae. When massive stars explode, they scatter these elements into space; our solar system formed from this enriched gas cloud 4.6 billion years ago. The iron in hemoglobin and the calcium in bones were literally inside earlier stars.",
-      "memory_hook": "The Big Bang only made hydrogen and helium. Everything heavier — the carbon in your DNA, the iron in your blood, the gold in jewelry — was fused inside stars and scattered by supernovae. Carl Sagan's 'We are made of star stuff' is not poetry; it's nuclear physics."
+      "memory_hook": "The Big Bang only made hydrogen and helium. Everything heavier — the carbon in your DNA, the iron in your blood, the gold in jewelry — was fused inside stars and scattered by supernovae. Carl Sagan's 'We are made of star stuff' is not poetry; it's nuclear physics.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0251",
       "category": "Geography",
       "question": "The Ganges River, sacred to hundreds of millions of Hindus, flows through India and empties into which bay?",
       "options": [
@@ -141,9 +212,16 @@
       ],
       "answer": "Bay of Bengal",
       "explanation": "The Ganges River flows 2,525 km from the Gangotri Glacier in the Himalayas through northern India before entering Bangladesh and emptying into the Bay of Bengal as the Padma River. The Ganges basin is home to roughly 400 million people — one of the most densely populated river basins on Earth. Despite severe pollution from industrial waste and cremation rituals, it is considered the most sacred river in Hinduism, and bathing in it is believed to cleanse sins.",
-      "memory_hook": "Ganges: 2,525 km, Himalayas → Bay of Bengal. 400 million people in its basin. Sacred to Hindus — bathing cleanses sins. Enters Bangladesh as the Padma before meeting the sea. One of the world's most polluted rivers, also one of the most venerated."
+      "memory_hook": "Ganges: 2,525 km, Himalayas → Bay of Bengal. 400 million people in its basin. Sacred to Hindus — bathing cleanses sins. Enters Bangladesh as the Padma before meeting the sea. One of the world's most polluted rivers, also one of the most venerated.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0252",
       "category": "Science & Nature",
       "question": "Which organ in the human body produces bile, which helps break down dietary fats during digestion?",
       "options": [
@@ -154,7 +232,13 @@
       ],
       "answer": "Liver",
       "explanation": "The liver produces bile — a yellowish-green digestive fluid — which is then stored in the gallbladder and released into the small intestine during digestion. Bile emulsifies fats, breaking large fat droplets into smaller ones so enzymes can digest them. Beyond bile production, the liver performs over 500 functions: detoxifying blood, producing blood clotting factors, storing glycogen (for energy), and synthesizing proteins. It is the body's largest internal organ.",
-      "memory_hook": "Liver produces bile; gallbladder stores it. Bile emulsifies fats in the small intestine. Liver also detoxifies blood, makes clotting factors, stores glycogen — 500+ functions. It's the body's chemical processing plant and largest internal organ."
+      "memory_hook": "Liver produces bile; gallbladder stores it. Bile emulsifies fats in the small intestine. Liver also detoxifies blood, makes clotting factors, stores glycogen — 500+ functions. It's the body's chemical processing plant and largest internal organ.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     }
   ]
 }

@@ -2,6 +2,7 @@
   "date": "2026-09-03",
   "questions": [
     {
+      "id": "frq-0961",
       "category": "History",
       "question": "Constantine made Christianity the favoured religion of Rome. When was he actually baptised?",
       "options": [
@@ -12,9 +13,16 @@
       ],
       "answer": "On his deathbed, decades after backing the faith politically",
       "explanation": "Constantine delayed baptism until 337, dying shortly afterward, a common practice among those who believed it washed away sin and wanted the timing to count. He legalised Christianity in 313 and convened Nicaea in 325 to settle doctrinal disputes, presiding over debates he was not yet formally part of. His mother Helena did convert and is credited with locating sites in Jerusalem. Christianity became the official state religion later, under Theodosius.",
-      "memory_hook": "He waited until 337 and died soon after, which was common for people who thought baptism wiped the slate and wanted to time it well. He legalised Christianity in 313 and chaired the Council of Nicaea in 325 without being a member of the faith. Theodosius made it official later."
+      "memory_hook": "He waited until 337 and died soon after, which was common for people who thought baptism wiped the slate and wanted to time it well. He legalised Christianity in 313 and chaired the Council of Nicaea in 325 without being a member of the faith. Theodosius made it official later.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0962",
       "category": "Science & Nature",
       "question": "Nitrogen is 78% of the atmosphere but plants cannot use it directly. Why not?",
       "options": [
@@ -25,9 +33,16 @@
       ],
       "answer": "The two atoms are triple-bonded and extremely hard to split",
       "explanation": "N2 is held by one of the strongest bonds in chemistry, so plants are surrounded by nitrogen they cannot touch. Certain bacteria, many living in legume root nodules, can break it using the nitrogenase enzyme. The Haber-Bosch process does it industrially at high temperature and pressure, and roughly half the nitrogen in the average person's body has passed through it. It also consumes around 1 to 2% of world energy output.",
-      "memory_hook": "N2 has one of the strongest bonds in chemistry, so plants sit surrounded by nitrogen they cannot use. Bacteria in legume roots can crack it. Haber-Bosch does it industrially, and about half the nitrogen atoms in your body came through that process. It uses 1 to 2% of world energy."
+      "memory_hook": "N2 has one of the strongest bonds in chemistry, so plants sit surrounded by nitrogen they cannot use. Bacteria in legume roots can crack it. Haber-Bosch does it industrially, and about half the nitrogen atoms in your body came through that process. It uses 1 to 2% of world energy.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0963",
       "category": "Sports",
       "question": "Romanian gymnasts dominated for decades. What did Nadia Comaneci do in 1976 that broke the system?",
       "options": [
@@ -38,9 +53,16 @@
       ],
       "answer": "Scored a perfect 10, which the scoreboard could not display",
       "explanation": "The board showed 1.00 because it had been built assuming three digits would always suffice and a 10 was considered impossible. She was fourteen and scored seven perfect tens at those Games. She defected later, in 1989, days before the Ceausescu regime fell. The minimum age was raised to sixteen in 1997, partly in response to concerns about very young gymnasts competing at elite level.",
-      "memory_hook": "The scoreboard read 1.00 because it was built on the assumption a 10 could never happen. She was fourteen and scored seven of them at those Games. She defected in 1989, days before Ceausescu fell. The minimum age went up to sixteen in 1997."
+      "memory_hook": "The scoreboard read 1.00 because it was built on the assumption a 10 could never happen. She was fourteen and scored seven of them at those Games. She defected in 1989, days before Ceausescu fell. The minimum age went up to sixteen in 1997.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0964",
       "category": "Pop Culture",
       "question": "Jaws (1975) was nearly ruined by its mechanical shark. What did Spielberg do instead?",
       "options": [
@@ -51,9 +73,16 @@
       ],
       "answer": "Kept the shark off screen and used music to signal it",
       "explanation": "The shark, nicknamed Bruce, malfunctioned constantly in salt water, so Spielberg suggested its presence through John Williams's two-note motif, floating barrels and point-of-view shots. The restraint is widely credited with making it frightening. The film ran massively over schedule and budget, opened wide across hundreds of cinemas with a heavy television campaign, and effectively invented the summer blockbuster release pattern.",
-      "memory_hook": "The mechanical shark broke constantly in salt water, so Spielberg used Williams's two notes, floating barrels and point-of-view shots instead, and the restraint is what makes it scary. Hugely over budget and schedule. Its wide release with heavy TV advertising created the summer blockbuster."
+      "memory_hook": "The mechanical shark broke constantly in salt water, so Spielberg used Williams's two notes, floating barrels and point-of-view shots instead, and the restraint is what makes it scary. Hugely over budget and schedule. Its wide release with heavy TV advertising created the summer blockbuster.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0965",
       "category": "Geography",
       "question": "The Bering Strait separates Asia from North America. How far apart are the two continents there?",
       "options": [
@@ -64,9 +93,16 @@
       ],
       "answer": "About 82km, with two islands a day apart in the middle",
       "explanation": "The Diomede Islands sit in the strait, 3.8km apart, with the International Date Line between them, so Big Diomede in Russia is almost a full day ahead of Little Diomede in Alaska. Lower sea levels during the last ice age exposed Beringia, a land bridge hundreds of kilometres wide, which is the main route by which people first reached the Americas.",
-      "memory_hook": "82km across, with the Diomede Islands 3.8km apart in the middle and the Date Line between them, so one is nearly a day ahead of the other. During the ice age this was Beringia, a land bridge hundreds of kilometres wide, and it is how people first reached the Americas."
+      "memory_hook": "82km across, with the Diomede Islands 3.8km apart in the middle and the Date Line between them, so one is nearly a day ahead of the other. During the ice age this was Beringia, a land bridge hundreds of kilometres wide, and it is how people first reached the Americas.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0966",
       "category": "History",
       "question": "The Treaty of Versailles ended the First World War. Which clause caused the most lasting damage?",
       "options": [
@@ -77,9 +113,16 @@
       ],
       "answer": "Article 231, assigning Germany sole guilt for the war",
       "explanation": "The war guilt clause was the legal basis for reparations, but its symbolic weight was greater than its financial effect. Germans across the political spectrum regarded it as a national humiliation, and it fed the stab-in-the-back myth that the army had been betrayed rather than defeated. Keynes argued at the time that the settlement was economically ruinous and would produce another war. Germany was excluded from the League, not required to join.",
-      "memory_hook": "The war guilt clause justified reparations, but the humiliation mattered more than the money. Germans across politics saw it as a national insult, and it fed the myth that the army had been betrayed rather than beaten. Keynes said at the time it would cause another war."
+      "memory_hook": "The war guilt clause justified reparations, but the humiliation mattered more than the money. Germans across politics saw it as a national insult, and it fed the myth that the army had been betrayed rather than beaten. Keynes said at the time it would cause another war.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0967",
       "category": "Pop Culture",
       "question": "Cy Twombly's scrawled, scribbled canvases were dismissed for decades as child-like. What do art historians now see in them?",
       "options": [
@@ -90,9 +133,16 @@
       ],
       "answer": "His scrawls encode Greek and Roman myth and poetry",
       "explanation": "Twombly lived primarily in Italy from 1957 onward, immersed in Roman and Greek antiquity. His works like 'Leda and the Swan,' 'Fifty Days at Iliam,' and the 'Blackboard' paintings embed text fragments from Keats, Sappho, Virgil, and Homer within gestural surfaces that read as raw but are carefully constructed. Roland Barthes wrote a famous 1979 essay on Twombly. His work influenced artists across generations. A 2011 painting from his 'Camino Real' series sold for $69.6 million at Christie's. He was criticized early — one critic in 1964 wrote he painted 'like a child' — but the layered cultural references became central to postmodern art discourse.",
-      "memory_hook": "Twombly lived in Italy for decades, embedding fragments of Keats, Sappho, Virgil, and Homer into surfaces that looked like scribbles. Roland Barthes wrote a famous essay on him. Critics said 'child-like' for years; then a 2011 painting sold for $69.6M. The scrawls aren't random — they're coded with Mediterranean antiquity."
+      "memory_hook": "Twombly lived in Italy for decades, embedding fragments of Keats, Sappho, Virgil, and Homer into surfaces that looked like scribbles. Roland Barthes wrote a famous essay on him. Critics said 'child-like' for years; then a 2011 painting sold for $69.6M. The scrawls aren't random — they're coded with Mediterranean antiquity.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0968",
       "category": "Science & Nature",
       "question": "Water vapour is the biggest greenhouse gas by effect. Why is CO2 the one everyone worries about?",
       "options": [
@@ -103,9 +153,16 @@
       ],
       "answer": "Vapour responds to warming, while CO2 drives it in the first place",
       "explanation": "Atmospheric water vapour is set by temperature, since warm air holds more, so it acts as an amplifier rather than a driver. Add CO2, temperature rises, more vapour enters the air, and that adds further warming: a feedback, not an initial cause. CO2 also persists for centuries while vapour cycles out in days. Methane is far more potent per molecule but much shorter-lived.",
-      "memory_hook": "Water vapour is set by temperature, since warm air holds more, so it amplifies rather than causes. Add CO2, it warms, more vapour goes up, more warming. That is a feedback. CO2 also lingers for centuries where vapour rains out in days."
+      "memory_hook": "Water vapour is set by temperature, since warm air holds more, so it amplifies rather than causes. Add CO2, it warms, more vapour goes up, more warming. That is a feedback. CO2 also lingers for centuries where vapour rains out in days.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0969",
       "category": "Geography",
       "question": "The Caspian Sea is bordered by five countries. Why does its legal status matter so much?",
       "options": [
@@ -116,9 +173,16 @@
       ],
       "answer": "Whether it is a lake or a sea decides how oil rights split",
       "explanation": "Sea law and lake law divide resources differently, and the seabed holds enormous oil and gas reserves, so the classification is worth a great deal. Russia, Iran, Kazakhstan, Turkmenistan and Azerbaijan argued about it for decades after the Soviet collapse. A 2018 convention gave it a special status that is neither, splitting the seabed by agreement while treating the surface as shared. It is the largest inland body of water on Earth.",
-      "memory_hook": "Sea law and lake law split resources differently, and the seabed is full of oil and gas, so the label is worth billions. Russia, Iran and three ex-Soviet states argued for decades. A 2018 convention invented a third category: seabed divided, surface shared."
+      "memory_hook": "Sea law and lake law split resources differently, and the seabed is full of oil and gas, so the label is worth billions. Russia, Iran and three ex-Soviet states argued for decades. A 2018 convention invented a third category: seabed divided, surface shared.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0970",
       "category": "History",
       "question": "T.E. Lawrence helped lead the Arab Revolt against the Ottomans. How did he feel about it afterward?",
       "options": [
@@ -129,9 +193,16 @@
       ],
       "answer": "Guilty, since Britain had already promised the land elsewhere",
       "explanation": "Lawrence encouraged Arab independence while Britain and France had secretly agreed the Sykes-Picot partition, dividing the same territory between themselves. He learned of it during the campaign and described himself as continually and bitterly ashamed. He refused a knighthood, later enlisted in the RAF under a false name to escape his own fame, and died in a motorcycle crash in 1935 at forty-six.",
-      "memory_hook": "He was promising Arab independence while Britain and France had secretly agreed to carve the same land up between themselves. He found out mid-campaign and called himself bitterly ashamed. He refused a knighthood, enlisted under a false name to escape his fame, and died on a motorcycle in 1935."
+      "memory_hook": "He was promising Arab independence while Britain and France had secretly agreed to carve the same land up between themselves. He found out mid-campaign and called himself bitterly ashamed. He refused a knighthood, enlisted under a false name to escape his fame, and died on a motorcycle in 1935.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0971",
       "category": "Pop Culture",
       "question": "Led Zeppelin never released a single in the UK. Why not?",
       "options": [
@@ -143,12 +214,19 @@
       "answer": "They insisted albums be heard whole, not cut into tracks",
       "explanation": "Manager Peter Grant enforced an album-only policy in Britain, holding that singles cheapened the band. Atlantic pressed over 500 copies of Whole Lotta Love for UK release in 1969; Grant confirmed the contract gave the band final say, recalled every copy and had them destroyed. Stairway to Heaven was never a UK single either, despite becoming one of the most played songs in radio history. Singles did go out elsewhere, reaching number one in Germany.",
       "memory_hook": "Peter Grant enforced albums-only in Britain, so Stairway to Heaven was never a UK single despite being one of the most played songs ever. Grant also flipped the touring split to about 90% for the band, which changed the whole live business. Their fourth album had no title and no name on it.",
+      "riskTier": "source",
       "sourceRefs": [
         "loudersound-zeppelin-singles"
       ],
-      "riskTier": "source"
+      "review": {
+        "state": "verified",
+        "at": "2026-09-03",
+        "by": "tanner@tjs16media.com",
+        "note": "carried over: had a cited source before IDs existed"
+      }
     },
     {
+      "id": "frq-0972",
       "category": "Sports",
       "question": "The Kentucky Derby is the first leg of the Triple Crown. Why is winning all three so rare?",
       "options": [
@@ -159,7 +237,13 @@
       ],
       "answer": "Three races at three distances in five weeks, at three years old",
       "explanation": "The Derby, Preakness and Belmont run within about five weeks at increasing distances, and only three-year-olds are eligible, so a horse gets exactly one attempt in its life. The Belmont's mile and a half is longer than most will ever race again. Thirteen horses have done it since 1919. Secretariat's 1973 Belmont, won by 31 lengths in a time still unbeaten, is regarded as the finest performance in the sport.",
-      "memory_hook": "Three races, three distances, five weeks, and only three-year-olds can enter, so every horse gets exactly one shot ever. The Belmont's mile and a half is further than most run again. Thirteen have done it since 1919. Secretariat won the 1973 Belmont by 31 lengths in a time nobody has beaten."
+      "memory_hook": "Three races, three distances, five weeks, and only three-year-olds can enter, so every horse gets exactly one shot ever. The Belmont's mile and a half is further than most run again. Thirteen have done it since 1919. Secretariat won the 1973 Belmont by 31 lengths in a time nobody has beaten.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     }
   ]
 }

@@ -1,6 +1,7 @@
 {
   "questions": [
     {
+      "id": "frq-0229",
       "category": "History",
       "question": "On July 4, 1776, which document was formally adopted by the Continental Congress?",
       "options": [
@@ -11,9 +12,16 @@
       ],
       "answer": "The Declaration of Independence",
       "explanation": "The Declaration of Independence was adopted by the Continental Congress on July 4, 1776, declaring the thirteen American colonies independent from Great Britain. It was primarily drafted by Thomas Jefferson and announced the foundational principle that 'all men are created equal.'",
-      "memory_hook": "July 4 = Independence Day = Declaration of Independence. Simple as fireworks."
+      "memory_hook": "July 4 = Independence Day = Declaration of Independence. Simple as fireworks.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0230",
       "category": "History",
       "question": "Which American president delivered the Gettysburg Address?",
       "options": [
@@ -24,9 +32,16 @@
       ],
       "answer": "Abraham Lincoln",
       "explanation": "President Abraham Lincoln delivered the Gettysburg Address on November 19, 1863, at the dedication of the Soldiers' National Cemetery in Gettysburg, Pennsylvania. The speech, just 272 words, became one of the most famous in American history, redefining the Civil War as a fight for human equality.",
-      "memory_hook": "Lincoln at Gettysburg — short speech, eternal impact."
+      "memory_hook": "Lincoln at Gettysburg — short speech, eternal impact.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0231",
       "category": "Sports",
       "question": "The 'Triple Crown' in horse racing includes the Kentucky Derby, the Preakness Stakes, and which third race?",
       "options": [
@@ -37,9 +52,16 @@
       ],
       "answer": "The Belmont Stakes",
       "explanation": "The Triple Crown consists of the Kentucky Derby (Churchill Downs), the Preakness Stakes (Pimlico), and the Belmont Stakes (Belmont Park). A horse that wins all three in the same year wins the Triple Crown — one of the rarest achievements in sport.",
-      "memory_hook": "Derby, Preakness, Belmont — three jewels, one Triple Crown."
+      "memory_hook": "Derby, Preakness, Belmont — three jewels, one Triple Crown.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0232",
       "category": "Sports",
       "question": "What is the official summer national sport of Canada?",
       "options": [
@@ -50,9 +72,16 @@
       ],
       "answer": "Lacrosse",
       "explanation": "Canada actually has two official national sports under the National Sports of Canada Act (1994): lacrosse (summer) and ice hockey (winter). Lacrosse was originally played by Indigenous peoples of North America centuries before European contact, making it the older of the two. Ice hockey is Canada's official winter national sport.",
-      "memory_hook": "Canada = two national sports. Lacrosse in summer, hockey in winter. Both official since 1994."
+      "memory_hook": "Canada = two national sports. Lacrosse in summer, hockey in winter. Both official since 1994.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0233",
       "category": "Pop Culture",
       "question": "Who sang the national anthem at the 1991 Super Bowl in a performance widely considered the best ever?",
       "options": [
@@ -63,9 +92,16 @@
       ],
       "answer": "Whitney Houston",
       "explanation": "Whitney Houston's performance of 'The Star-Spangled Banner' at Super Bowl XXV in 1991 is widely considered the greatest rendition of the national anthem ever. Her recording was released as a single and charted on the Billboard Hot 100 twice — in 1991 and 2001.",
-      "memory_hook": "Whitney at the Super Bowl — she didn't just sing it, she owned it."
+      "memory_hook": "Whitney at the Super Bowl — she didn't just sing it, she owned it.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0234",
       "category": "Pop Culture",
       "question": "Which film is set on the fictional island of 'Isla Nublar'?",
       "options": [
@@ -76,9 +112,16 @@
       ],
       "answer": "Jurassic Park",
       "explanation": "Jurassic Park (1993), directed by Steven Spielberg and based on Michael Crichton's novel, is set on Isla Nublar, a fictional island off Costa Rica where genetically recreated dinosaurs are housed in a theme park. The film revolutionized the use of CGI in cinema.",
-      "memory_hook": "Isla Nublar = dinosaur island. Life found a way — and so did Spielberg."
+      "memory_hook": "Isla Nublar = dinosaur island. Life found a way — and so did Spielberg.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0235",
       "category": "Pop Culture",
       "question": "Which album by Adele contains the songs 'Hello' and 'When We Were Young'?",
       "options": [
@@ -89,9 +132,16 @@
       ],
       "answer": "25",
       "explanation": "Adele's third studio album '25' was released in November 2015 and contains 'Hello' and 'When We Were Young.' It became the fastest-selling album in history at the time, selling 3.38 million copies in its first week in the US alone.",
-      "memory_hook": "Hello from '25' — Adele called from outside her twenties."
+      "memory_hook": "Hello from '25' — Adele called from outside her twenties.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0236",
       "category": "History",
       "question": "What was the primary cause of the Irish Famine (1845–1852)?",
       "options": [
@@ -102,9 +152,16 @@
       ],
       "answer": "A potato blight",
       "explanation": "The Irish Famine was caused primarily by Phytophthora infestans, a water mold that caused potato blight, destroying the potato crop which was the main food source for much of Ireland's population. Over 1 million people died and over 1 million emigrated, reducing Ireland's population by 25%.",
-      "memory_hook": "Potato blight = Irish Famine. The crop failed and the country hollowed out."
+      "memory_hook": "Potato blight = Irish Famine. The crop failed and the country hollowed out.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0237",
       "category": "Geography",
       "question": "Greenland is a territory of which country?",
       "options": [
@@ -115,9 +172,16 @@
       ],
       "answer": "Denmark",
       "explanation": "Greenland is an autonomous territory within the Kingdom of Denmark, though it has its own government and handles most of its own affairs. Despite its name, Greenland is 80% covered by ice — it was named 'Greenland' by Erik the Red in 982 AD, reportedly to attract settlers. Iceland, ironically, is greener.",
-      "memory_hook": "Greenland belongs to Denmark. And Greenland is mostly ice while Iceland is mostly green. The names are backwards — a deliberate naming trick from the Viking Age."
+      "memory_hook": "Greenland belongs to Denmark. And Greenland is mostly ice while Iceland is mostly green. The names are backwards — a deliberate naming trick from the Viking Age.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0238",
       "category": "Science & Nature",
       "question": "What is the most abundant element in the universe?",
       "options": [
@@ -128,9 +192,16 @@
       ],
       "answer": "Hydrogen",
       "explanation": "Hydrogen makes up about 75% of all normal matter in the universe by mass. It is the simplest element — one proton, one electron — and was among the first elements formed after the Big Bang. Stars are essentially giant hydrogen-burning engines, fusing hydrogen into helium to produce energy.",
-      "memory_hook": "Hydrogen = most abundant element in the universe. The simplest atom, the first to form, the fuel of every star. The universe is mostly hydrogen with some helium and a tiny bit of everything else."
+      "memory_hook": "Hydrogen = most abundant element in the universe. The simplest atom, the first to form, the fuel of every star. The universe is mostly hydrogen with some helium and a tiny bit of everything else.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0239",
       "category": "Geography",
       "question": "The Faroe Islands, an autonomous territory with their own language and government, are officially part of which country?",
       "options": [
@@ -141,9 +212,16 @@
       ],
       "answer": "Denmark",
       "explanation": "The Faroe Islands are a self-governing archipelago of 18 islands in the North Atlantic, situated between Norway, Iceland, and the British Isles. They are officially an autonomous territory of Denmark, with their own parliament (the Løgting, one of the world's oldest), language (Faroese), and football team — but not full independence. Greenland is Denmark's other autonomous territory. The Faroes are famous for dramatic cliffs, seabirds, and puffins.",
-      "memory_hook": "Faroe Islands = autonomous Danish territory, North Atlantic. Own language, parliament (Løgting — 1,000+ years old), and even their own FIFA football team. Not independent but not quite just Denmark either. Famous for cliffs, puffins, and dramatic scenery."
+      "memory_hook": "Faroe Islands = autonomous Danish territory, North Atlantic. Own language, parliament (Løgting — 1,000+ years old), and even their own FIFA football team. Not independent but not quite just Denmark either. Famous for cliffs, puffins, and dramatic scenery.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0240",
       "category": "Science & Nature",
       "question": "What characteristic is unique to all female mammals that gives the class Mammalia its name?",
       "options": [
@@ -154,7 +232,13 @@
       ],
       "answer": "Producing milk to feed their young",
       "explanation": "The word 'mammal' comes from the Latin 'mamma' meaning breast or nipple. The defining characteristic of mammals is that females produce milk through mammary glands to nourish their young. While most mammals give live birth, some (monotremes like platypuses and echidnas) lay eggs — but all female mammals produce milk. Mammals also typically have hair or fur and are endothermic (warm-blooded).",
-      "memory_hook": "Mammal = 'mamma' (Latin for breast). All female mammals produce milk. Even the egg-laying platypus does it — it sweats milk through skin patches (no nipples). Milk is the defining mammalian trait, not live birth."
+      "memory_hook": "Mammal = 'mamma' (Latin for breast). All female mammals produce milk. Even the egg-laying platypus does it — it sweats milk through skin patches (no nipples). Milk is the defining mammalian trait, not live birth.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     }
   ]
 }

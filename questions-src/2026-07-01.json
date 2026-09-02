@@ -1,6 +1,7 @@
 {
   "questions": [
     {
+      "id": "frq-0193",
       "category": "History",
       "question": "What event triggered the start of World War I?",
       "options": [
@@ -11,9 +12,16 @@
       ],
       "answer": "The assassination of Archduke Franz Ferdinand",
       "explanation": "Archduke Franz Ferdinand of Austria-Hungary was assassinated in Sarajevo on June 28, 1914, by Gavrilo Princip, a Bosnian Serb nationalist. This triggered a chain of alliances that pulled Europe into World War I within weeks.",
-      "memory_hook": "Franz Ferdinand's death — one bullet started a world war."
+      "memory_hook": "Franz Ferdinand's death — one bullet started a world war.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0194",
       "category": "History",
       "question": "The Magna Carta was signed in which year?",
       "options": [
@@ -24,9 +32,16 @@
       ],
       "answer": "1215",
       "explanation": "The Magna Carta was signed by King John of England on June 15, 1215, at Runnymede. It established for the first time that the king was subject to the rule of law, laying the groundwork for constitutional democracy.",
-      "memory_hook": "1215 — think twelve-fifteen, like a meeting time that changed history."
+      "memory_hook": "1215 — think twelve-fifteen, like a meeting time that changed history.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0195",
       "category": "Sports",
       "question": "Walter Payton, nicknamed 'Sweetness,' held the NFL all-time rushing record for 18 years. Who eventually broke his record and when?",
       "options": [
@@ -37,9 +52,16 @@
       ],
       "answer": "Emmitt Smith broke it in 2002 with the Dallas Cowboys",
       "explanation": "Walter Payton rushed for 16,726 yards across his career with the Chicago Bears (1975–1987), setting the all-time record. Emmitt Smith surpassed him on October 27, 2002, finishing his career with 18,355 yards. Smith won three Super Bowls with Dallas and is still the all-time leader. Payton was also renowned for almost never going out of bounds — he preferred to run through defenders.",
-      "memory_hook": "Payton's 'Sweetness' — 16,726 career yards — held the NFL rushing record for 18 years until Emmitt Smith broke it in 2002 en route to 18,355, still the all-time mark."
+      "memory_hook": "Payton's 'Sweetness' — 16,726 career yards — held the NFL rushing record for 18 years until Emmitt Smith broke it in 2002 en route to 18,355, still the all-time mark.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0196",
       "category": "Sports",
       "question": "What does 'NFL' stand for?",
       "options": [
@@ -50,9 +72,16 @@
       ],
       "answer": "National Football League",
       "explanation": "The NFL (National Football League) was founded in 1920 as the American Professional Football Association, renamed the NFL in 1922. It is the highest level of professional American football with 32 teams.",
-      "memory_hook": "National Football League — America's most-watched sport has a national league."
+      "memory_hook": "National Football League — America's most-watched sport has a national league.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0197",
       "category": "Pop Culture",
       "question": "Salvador Dalí's 'The Persistence of Memory' (1931) — with its melting watches in a dreamlike landscape — is one of Surrealism's most iconic images. What philosophical idea does it express?",
       "options": [
@@ -63,9 +92,16 @@
       ],
       "answer": "That time in dreams and the unconscious mind is fluid and distorted — not the fixed, mechanical force we experience in waking life",
       "explanation": "Dalí said he was inspired by watching Camembert cheese melting in the sun on the afternoon he painted it. The melting watches suggest that in the dream world — which Surrealism sought to access — time doesn't function as the rigid, mechanical structure it is in waking life. The landscape is the coast of Catalonia near Dalí's home in Cadaqués, Spain. Dalí later called himself 'not a Surrealist but the greatest realist,' claiming he painted hallucinations precisely.",
-      "memory_hook": "Dalí said melting Camembert cheese inspired the melting watches — the painting asks what time means in the dream world, where it flows like soft cheese rather than ticking like clockwork."
+      "memory_hook": "Dalí said melting Camembert cheese inspired the melting watches — the painting asks what time means in the dream world, where it flows like soft cheese rather than ticking like clockwork.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0198",
       "category": "Pop Culture",
       "question": "'Hotel California' is a song by which band?",
       "options": [
@@ -76,9 +112,16 @@
       ],
       "answer": "Eagles",
       "explanation": "'Hotel California' was released by the Eagles in 1977 on their album of the same name. Written by Don Felder, Don Henley, and Glenn Frey, it won the Grammy for Record of the Year and is widely considered one of the greatest rock songs ever written.",
-      "memory_hook": "Hotel California — you can check out any time, but you can never leave the Eagles' catalog."
+      "memory_hook": "Hotel California — you can check out any time, but you can never leave the Eagles' catalog.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0199",
       "category": "Pop Culture",
       "question": "Who wrote the novel that 'The Godfather' film is based on?",
       "options": [
@@ -89,9 +132,16 @@
       ],
       "answer": "Mario Puzo",
       "explanation": "Mario Puzo wrote the novel The Godfather in 1969 and co-wrote the screenplay for the 1972 film with director Francis Ford Coppola. The film won the Academy Award for Best Picture and is widely considered one of the greatest films ever made.",
-      "memory_hook": "Puzo made them an offer they couldn't refuse — publish the novel, make the movie."
+      "memory_hook": "Puzo made them an offer they couldn't refuse — publish the novel, make the movie.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0200",
       "category": "History",
       "question": "Which Roman leader was famously betrayed and assassinated on the Ides of March?",
       "options": [
@@ -102,9 +152,16 @@
       ],
       "answer": "Julius Caesar",
       "explanation": "Julius Caesar was assassinated on March 15, 44 BC (the Ides of March) by a group of senators including Marcus Junius Brutus and Gaius Cassius Longinus. He was stabbed 23 times. The event was dramatized by Shakespeare in his play Julius Caesar.",
-      "memory_hook": "'Et tu, Brute?' — even his best friend stabbed him."
+      "memory_hook": "'Et tu, Brute?' — even his best friend stabbed him.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0201",
       "category": "Geography",
       "question": "Which ocean is the largest by surface area?",
       "options": [
@@ -115,9 +172,16 @@
       ],
       "answer": "Pacific Ocean",
       "explanation": "The Pacific Ocean covers about 165 million square kilometers — roughly half the world's ocean surface and more than all of Earth's landmasses combined. It is also the deepest ocean, containing the Mariana Trench, the deepest known point on Earth at about 11,000 meters below sea level.",
-      "memory_hook": "Pacific = biggest and deepest. It's so large it covers more area than all of Earth's land combined. 'Pacific' means peaceful — named by Magellan after calm sailing conditions."
+      "memory_hook": "Pacific = biggest and deepest. It's so large it covers more area than all of Earth's land combined. 'Pacific' means peaceful — named by Magellan after calm sailing conditions.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0202",
       "category": "Science & Nature",
       "question": "Neutron stars are the densest objects in the universe besides black holes — a teaspoon of neutron star material would weigh about a billion tons on Earth. How do they form?",
       "options": [
@@ -128,9 +192,16 @@
       ],
       "answer": "Neutron stars form in supernova explosions when a massive star's core collapses — protons and electrons are crushed together to form neutrons, creating an object 20 km across with more mass than the Sun",
       "explanation": "When a massive star (8–20 solar masses) exhausts its nuclear fuel, its iron core collapses in milliseconds under gravity. The collapse is so violent it compresses protons and electrons into neutrons via inverse beta decay, creating a neutron star roughly 20 km in diameter but 1–2 solar masses. Rapidly spinning neutron stars emit beams of radio waves that sweep like a lighthouse — when detected from Earth, these are called pulsars. The first pulsar was discovered by Jocelyn Bell in 1967; the signal was so regular she briefly called it LGM-1 (Little Green Men).",
-      "memory_hook": "When Jocelyn Bell discovered the first pulsar in 1967, the signal was so precisely regular she briefly labeled it LGM-1 (Little Green Men). It was a neutron star — 20 km across, more massive than the Sun — spinning 30 times per second and beaming radio waves like a cosmic lighthouse."
+      "memory_hook": "When Jocelyn Bell discovered the first pulsar in 1967, the signal was so precisely regular she briefly labeled it LGM-1 (Little Green Men). It was a neutron star — 20 km across, more massive than the Sun — spinning 30 times per second and beaming radio waves like a cosmic lighthouse.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0203",
       "category": "Geography",
       "question": "The Aral Sea, once the world's fourth-largest lake, has lost approximately 90% of its water since the 1960s due to Soviet irrigation projects. In which two countries do its remnants now lie?",
       "options": [
@@ -141,9 +212,16 @@
       ],
       "answer": "Kazakhstan and Uzbekistan",
       "explanation": "The Aral Sea once covered 68,000 km² on the border of Kazakhstan and Uzbekistan. Soviet-era irrigation canals diverted the Amu Darya and Syr Darya rivers to grow cotton, shrinking the lake by 90%. The exposed seabed became the 'Aralkum Desert,' coated with salt and pesticide residue that winds spread across the region, causing health crises. Kazakhstan has partially restored the northern Aral Sea with a dam; Uzbekistan's southern portion has largely vanished.",
-      "memory_hook": "Aral Sea: once 4th largest lake, now 90% gone. Kazakhstan + Uzbekistan diverted rivers for cotton. Exposed seafloor became toxic desert. North Aral is recovering with a Kazakh dam. South is gone. One of the worst environmental disasters in history."
+      "memory_hook": "Aral Sea: once 4th largest lake, now 90% gone. Kazakhstan + Uzbekistan diverted rivers for cotton. Exposed seafloor became toxic desert. North Aral is recovering with a Kazakh dam. South is gone. One of the worst environmental disasters in history.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0204",
       "category": "Science & Nature",
       "question": "What is the process that powers the Sun — fusing hydrogen atoms at extreme temperatures to release enormous amounts of energy?",
       "options": [
@@ -154,7 +232,13 @@
       ],
       "answer": "Nuclear fusion",
       "explanation": "The Sun generates energy through nuclear fusion — specifically the proton-proton chain, where hydrogen nuclei (protons) fuse to form helium at core temperatures of about 15 million degrees Celsius. Each fusion reaction converts a tiny amount of mass into energy (E=mc²). The Sun converts about 600 million tons of hydrogen into helium per second. Fusion is also the mechanism behind hydrogen bombs and the goal of experimental reactors like ITER.",
-      "memory_hook": "Nuclear fusion powers the Sun. Hydrogen → helium at 15 million°C, releasing enormous energy. 600 million tons of hydrogen fused per second. E=mc² converts tiny mass into vast energy. Fusion reactors on Earth (ITER) are trying to replicate this — the ultimate clean energy source."
+      "memory_hook": "Nuclear fusion powers the Sun. Hydrogen → helium at 15 million°C, releasing enormous energy. 600 million tons of hydrogen fused per second. E=mc² converts tiny mass into vast energy. Fusion reactors on Earth (ITER) are trying to replicate this — the ultimate clean energy source.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     }
   ]
 }

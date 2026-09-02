@@ -2,6 +2,7 @@
   "date": "2026-08-26",
   "questions": [
     {
+      "id": "frq-0865",
       "category": "History",
       "question": "Mandela was released in 1990 after 27 years. What did he do that surprised his opponents most?",
       "options": [
@@ -12,9 +13,16 @@
       ],
       "answer": "Kept the Springbok emblem white South Africans loved",
       "explanation": "The ANC wanted the Springbok scrapped as an apartheid symbol. Mandela argued keeping it, and wore the captain's jersey at the 1995 Rugby World Cup final in Johannesburg, a gesture aimed squarely at white South Africans who feared what majority rule meant for them. He also set up the Truth and Reconciliation Commission, offering amnesty in exchange for full confession rather than pursuing prosecutions.",
-      "memory_hook": "The ANC wanted the Springbok gone as an apartheid symbol and Mandela insisted on keeping it, then wore the captain's jersey at the 1995 final. It was aimed at white South Africans afraid of majority rule. He also chose truth commissions with amnesty over prosecutions."
+      "memory_hook": "The ANC wanted the Springbok gone as an apartheid symbol and Mandela insisted on keeping it, then wore the captain's jersey at the 1995 final. It was aimed at white South Africans afraid of majority rule. He also chose truth commissions with amnesty over prosecutions.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0866",
       "category": "Science & Nature",
       "question": "Saturn overtook Jupiter as the planet with the most known moons. Why is the exact count awkward to state?",
       "options": [
@@ -29,9 +37,16 @@
       "sourceRefs": [
         "saturn-moons-2025",
         "nasa-solar-system-moons"
-      ]
+      ],
+      "review": {
+        "state": "verified",
+        "at": "2026-09-03",
+        "by": "tanner@tjs16media.com",
+        "note": "carried over: had a cited source before IDs existed"
+      }
     },
     {
+      "id": "frq-0867",
       "category": "Sports",
       "question": "Ali beat Sonny Liston in 1964 as a heavy underdog. What did he do three years later that cost him more?",
       "options": [
@@ -42,9 +57,16 @@
       ],
       "answer": "Refused the Vietnam draft and was stripped of the title",
       "explanation": "Ali refused induction on religious grounds in 1967, was convicted, stripped of the title and banned from boxing for three and a half years across what would have been his physical peak. The Supreme Court overturned the conviction unanimously in 1971. He was widely reviled at the time and became a global figure later, which is the part usually skipped. He then beat Foreman in 1974 to reclaim the title at thirty-two.",
-      "memory_hook": "He refused induction in 1967 on religious grounds, was convicted, stripped of the title and banned for three and a half years, right through his physical peak. The Supreme Court threw the conviction out unanimously in 1971. He was hated then and revered later, which people forget."
+      "memory_hook": "He refused induction in 1967 on religious grounds, was convicted, stripped of the title and banned for three and a half years, right through his physical peak. The Supreme Court threw the conviction out unanimously in 1971. He was hated then and revered later, which people forget.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0868",
       "category": "Pop Culture",
       "question": "Star Wars (1977) was expected to fail. What did Lucas take instead of a bigger fee?",
       "options": [
@@ -55,9 +77,16 @@
       ],
       "answer": "Sequel and merchandising rights the studio thought worthless",
       "explanation": "Fox handed over merchandising and sequel rights believing film toys did not sell. Lucas took a lower directing fee for them and the decision eventually made him a billionaire, funding Lucasfilm and Industrial Light and Magic independently. He sold to Disney in 2012 for around $4 billion. The first film also nearly collapsed in the edit until his then-wife Marcia Lucas and others restructured it.",
-      "memory_hook": "Fox thought film merchandise was worthless and gave him the toy and sequel rights for a lower directing fee. It eventually made him a billionaire and funded Lucasfilm and ILM independently. He sold to Disney in 2012 for about $4 billion. The film was nearly ruined in the edit first."
+      "memory_hook": "Fox thought film merchandise was worthless and gave him the toy and sequel rights for a lower directing fee. It eventually made him a billionaire and funded Lucasfilm and ILM independently. He sold to Disney in 2012 for about $4 billion. The film was nearly ruined in the edit first.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0869",
       "category": "Geography",
       "question": "The Amazon carries about 20% of all river water reaching the ocean. What does it do to the Atlantic?",
       "options": [
@@ -69,12 +98,19 @@
       "answer": "Freshens the sea for over 100 miles offshore",
       "explanation": "Discharge is so large that the plume is visible from orbit and measurably freshens the surface of the tropical North Atlantic, with reduced salinity detectable hundreds of kilometres out and a low-salinity lens covering around a fifth of the western tropical North Atlantic in season. The river has no bridges along its main stem, since there is nothing on the far side to connect to. It also flowed westward into the Pacific until the Andes rose and reversed it.",
       "memory_hook": "The outflow freshens the Atlantic so far out that sailors used to draw drinking water out of sight of land, and the plume is visible from orbit. No bridges cross the main stem. It flowed west into the Pacific until the Andes rose and turned it around.",
+      "riskTier": "source",
       "sourceRefs": [
         "amazon-plume-salinity"
       ],
-      "riskTier": "source"
+      "review": {
+        "state": "verified",
+        "at": "2026-09-03",
+        "by": "tanner@tjs16media.com",
+        "note": "carried over: had a cited source before IDs existed"
+      }
     },
     {
+      "id": "frq-0870",
       "category": "History",
       "question": "Apollo 11 landed on 20 July 1969. What nearly aborted the landing in the final minutes?",
       "options": [
@@ -85,9 +121,16 @@
       ],
       "answer": "Computer alarms and a boulder field with fuel running out",
       "explanation": "The guidance computer threw 1201 and 1202 overload alarms during descent, and a 24-year-old engineer in Houston, Jack Garman, recognised them as non-fatal from memory. Armstrong then found the target site strewn with boulders and flew on manually, touching down with roughly 25 seconds of fuel remaining by the most-cited estimate. The computer had less processing power than a modern washing machine.",
-      "memory_hook": "The guidance computer threw overload alarms and a 24-year-old in Houston recognised them from memory as survivable. Then Armstrong found the landing site full of boulders and flew on by hand, touching down with about 25 seconds of fuel left. That computer had less power than a washing machine."
+      "memory_hook": "The guidance computer threw overload alarms and a 24-year-old in Houston recognised them from memory as survivable. Then Armstrong found the landing site full of boulders and flew on by hand, touching down with about 25 seconds of fuel left. That computer had less power than a washing machine.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0871",
       "category": "Pop Culture",
       "question": "Facebook launched at Harvard in 2004. What was Zuckerberg's earlier site that got him in trouble?",
       "options": [
@@ -98,9 +141,16 @@
       ],
       "answer": "Facemash, which rated students' photos against each other",
       "explanation": "Facemash pulled photos from Harvard house directories without permission and invited users to rate which of two people was more attractive. It drew 22,000 views in a few hours before administrators shut it down, and Zuckerberg faced disciplinary charges that were eventually dropped. TheFacebook launched a few months later. The Winklevoss twins sued, claiming he had taken their idea, settling for around $65 million.",
-      "memory_hook": "Facemash scraped photos from Harvard house directories and asked people to rate who was hotter. 22,000 views in hours before it was shut down and he faced disciplinary charges. TheFacebook came months later. The Winklevoss twins sued over the idea and settled for about $65 million."
+      "memory_hook": "Facemash scraped photos from Harvard house directories and asked people to rate who was hotter. 22,000 views in hours before it was shut down and he faced disciplinary charges. TheFacebook came months later. The Winklevoss twins sued over the idea and settled for about $65 million.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0872",
       "category": "Science & Nature",
       "question": "Gravity holds planets in orbit. What did Einstein change about how we understand it?",
       "options": [
@@ -111,9 +161,16 @@
       ],
       "answer": "It is spacetime curving, not a force pulling across a gap",
       "explanation": "Newton described gravity accurately but could not explain how it acted across empty space, which bothered him. Einstein reframed it: mass curves spacetime and objects follow the straightest available path through that curvature, so an orbit is a straight line through bent geometry. It predicted starlight bending around the Sun, confirmed in the 1919 eclipse, and time running slower in stronger gravity, which GPS satellites must correct for continuously.",
-      "memory_hook": "Newton described it accurately but could not say how it reached across empty space, which troubled him. Einstein said mass bends spacetime and things follow the straightest path through the bend, so an orbit is a straight line through curved geometry. Confirmed by starlight bending in the 1919 eclipse."
+      "memory_hook": "Newton described it accurately but could not say how it reached across empty space, which troubled him. Einstein said mass bends spacetime and things follow the straightest path through the bend, so an orbit is a straight line through curved geometry. Confirmed by starlight bending in the 1919 eclipse.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0873",
       "category": "Geography",
       "question": "The Andes run 7,000km down South America. What does living at that altitude do to people over generations?",
       "options": [
@@ -124,9 +181,16 @@
       ],
       "answer": "Andean populations evolved higher haemoglobin in their blood",
       "explanation": "Andean highlanders carry more haemoglobin per unit of blood, packing more oxygen into each volume. Tibetans solved the same problem differently, breathing faster with normal haemoglobin, partly through a gene variant inherited from Denisovans. These are two independent evolutionary answers to identical pressure, which makes them a favourite case study. La Rinconada in Peru, at 5,100m, is the highest permanent settlement on Earth.",
-      "memory_hook": "Andean people evolved more haemoglobin per unit of blood. Tibetans solved the same problem by breathing faster instead, using a gene variant inherited from Denisovans. Two separate answers to the same pressure. La Rinconada in Peru at 5,100m is the highest town anyone permanently lives in."
+      "memory_hook": "Andean people evolved more haemoglobin per unit of blood. Tibetans solved the same problem by breathing faster instead, using a gene variant inherited from Denisovans. Two separate answers to the same pressure. La Rinconada in Peru at 5,100m is the highest town anyone permanently lives in.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0874",
       "category": "History",
       "question": "The Mongol Empire became the largest contiguous land empire ever. What held it together?",
       "options": [
@@ -137,9 +201,16 @@
       ],
       "answer": "A relay postal network with stations every 40km",
       "explanation": "The Yam was a relay system of way stations with fresh horses, letting riders cover 300km a day and carrying orders across thousands of kilometres in weeks. It made governing at that scale possible at all. The Mongols also practised religious tolerance and recruited administrators from conquered populations, and the Pax Mongolica made Silk Road travel safe enough that Marco Polo could cross it, which also let the Black Death travel west.",
-      "memory_hook": "The Yam: relay stations every 40km with fresh horses, so riders covered 300km a day and orders crossed the empire in weeks. That is what made ruling it possible. They were religiously tolerant and hired administrators from conquered peoples. The safe roads also carried the Black Death west."
+      "memory_hook": "The Yam: relay stations every 40km with fresh horses, so riders covered 300km a day and orders crossed the empire in weeks. That is what made ruling it possible. They were religiously tolerant and hired administrators from conquered peoples. The safe roads also carried the Black Death west.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0875",
       "category": "Pop Culture",
       "question": "Jimi Hendrix played Woodstock in 1969. What was unusual about his set?",
       "options": [
@@ -150,9 +221,16 @@
       ],
       "answer": "He closed to a nearly empty field on Monday morning",
       "explanation": "Delays pushed the headline slot to around 9am on Monday, by which point most of the 400,000 had left for work. Perhaps 30,000 remained. His distorted Star-Spangled Banner, played into that thinning crowd, became the defining image of the festival anyway. He died thirteen months later at twenty-seven. He had spent years as a backing guitarist for the Isley Brothers and Little Richard before going to London.",
-      "memory_hook": "Delays pushed his headline slot to about 9am Monday, when most of the 400,000 had already left for work. Maybe 30,000 were still there. That is when he played the Star-Spangled Banner. He was dead thirteen months later at twenty-seven."
+      "memory_hook": "Delays pushed his headline slot to about 9am Monday, when most of the 400,000 had already left for work. Maybe 30,000 were still there. That is when he played the Star-Spangled Banner. He was dead thirteen months later at twenty-seven.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0876",
       "category": "Sports",
       "question": "A steal in basketball takes possession without fouling. Who holds the career record?",
       "options": [
@@ -163,7 +241,13 @@
       ],
       "answer": "John Stockton, who also holds the assists record",
       "explanation": "Stockton holds both the career steals record at 3,265 and the assists record at 15,806, and the assists mark exceeds second place by roughly 4,000, a margin nobody is likely to close. He played nineteen seasons with Utah and missed only 22 games total. Steals were not tracked as an official statistic until 1973, so anyone playing before that has no recorded totals at all.",
-      "memory_hook": "Stockton has both records: 3,265 steals and 15,806 assists, the assists mark about 4,000 clear of second place. Nineteen seasons in Utah, 22 games missed total. Steals were only tracked from 1973, so nobody before that has any official numbers."
+      "memory_hook": "Stockton has both records: 3,265 steals and 15,806 assists, the assists mark about 4,000 clear of second place. Nineteen seasons in Utah, 22 games missed total. Steals were only tracked from 1973, so nobody before that has any official numbers.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     }
   ]
 }

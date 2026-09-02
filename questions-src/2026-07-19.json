@@ -1,6 +1,7 @@
 {
   "questions": [
     {
+      "id": "frq-0409",
       "category": "History",
       "question": "Which famous speech begins with 'Four score and seven years ago'?",
       "options": [
@@ -11,9 +12,16 @@
       ],
       "answer": "The Gettysburg Address",
       "explanation": "The Gettysburg Address began with those words — Lincoln delivered it on November 19, 1863. Four score and seven years = 87 years, dating back to 1776.",
-      "memory_hook": "Four score = 80. Plus seven = 87. 1863 minus 87 = 1776. The math of Lincoln's speech."
+      "memory_hook": "Four score = 80. Plus seven = 87. 1863 minus 87 = 1776. The math of Lincoln's speech.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0410",
       "category": "History",
       "question": "What was the name of the communist manifesto's co-author alongside Marx?",
       "options": [
@@ -24,9 +32,16 @@
       ],
       "answer": "Engels",
       "explanation": "Friedrich Engels co-authored The Communist Manifesto with Karl Marx in 1848. Engels provided much of the funding for Marx's work and co-authored or collaborated on many of Marx's writings.",
-      "memory_hook": "Marx and Engels — the manifesto needed two: the thinker and the funder."
+      "memory_hook": "Marx and Engels — the manifesto needed two: the thinker and the funder.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0411",
       "category": "Sports",
       "question": "How many players are in a volleyball team including substitutes?",
       "options": [
@@ -37,9 +52,16 @@
       ],
       "answer": "12",
       "explanation": "A volleyball team roster consists of 12 players (6 on the court and up to 6 substitutes). One player can be designated as the libero — a defensive specialist who wears a different colored uniform.",
-      "memory_hook": "12 roster, 6 on court — volleyball's numbers are all sixes and twelves."
+      "memory_hook": "12 roster, 6 on court — volleyball's numbers are all sixes and twelves.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0412",
       "category": "Sports",
       "question": "In fencing, what are the three types of weapons used?",
       "options": [
@@ -50,9 +72,16 @@
       ],
       "answer": "Foil, epee, sabre",
       "explanation": "The three weapons in fencing are the foil (thrusting weapon targeting the torso), the epee (heavier, targets entire body), and the sabre (cutting and thrusting, targets upper body). Each has different scoring rules.",
-      "memory_hook": "Foil, epee, sabre — the three fencing weapons."
+      "memory_hook": "Foil, epee, sabre — the three fencing weapons.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0413",
       "category": "Pop Culture",
       "question": "Who composed the music for the Jurassic Park film series?",
       "options": [
@@ -63,9 +92,16 @@
       ],
       "answer": "John Williams",
       "explanation": "John Williams composed the iconic score for Jurassic Park (1993). The main theme perfectly captures the wonder and danger of encountering living dinosaurs. Williams has composed for over 100 films including Star Wars, Jaws, and Indiana Jones.",
-      "memory_hook": "John Williams: Jurassic Park, Star Wars, Indiana Jones, Jaws — one composer, all the iconic themes."
+      "memory_hook": "John Williams: Jurassic Park, Star Wars, Indiana Jones, Jaws — one composer, all the iconic themes.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0414",
       "category": "Pop Culture",
       "question": "Which Tom Petty song became an anthem after featuring in countless road-trip films?",
       "options": [
@@ -76,9 +112,16 @@
       ],
       "answer": "Runnin Down a Dream",
       "explanation": "Runnin Down a Dream (1989) from Full Moon Fever became one of Tom Petty's most recognizable anthems — a quintessential American road-trip song. Petty wrote it on a sunny drive to a recording studio. He died in October 2017.",
-      "memory_hook": "Runnin Down a Dream: Tom Petty wrote it driving fast on a sunny day. You can feel the speed in the riff."
+      "memory_hook": "Runnin Down a Dream: Tom Petty wrote it driving fast on a sunny day. You can feel the speed in the riff.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0415",
       "category": "Pop Culture",
       "question": "Georgia O'Keeffe, often called the 'Mother of American Modernism,' spent the second half of her career painting the New Mexico desert. What made her aesthetic approach groundbreaking?",
       "options": [
@@ -89,9 +132,16 @@
       ],
       "answer": "She painted ordinary subjects — flowers, bones, desert landscapes — at extreme magnification and with near-abstract simplicity, forcing viewers to see familiar things as if for the first time",
       "explanation": "O'Keeffe's close-up paintings of flowers — sometimes filling the entire canvas — were controversial partly because critics read sexual imagery into them, which she rejected. Her New Mexico skulls and desert views after 1929 showed a landscape that felt prehistoric and timeless. She lived in Ghost Ranch, New Mexico from 1949 until her death in 1986 at age 98. The Georgia O'Keeffe Museum in Santa Fe draws 200,000 visitors annually and holds the world's largest collection of her work.",
-      "memory_hook": "O'Keeffe moved to New Mexico's Ghost Ranch in 1949 and painted its bleached skulls and high desert for decades — her extreme close-ups of flowers forced viewers to see ordinary things as strange and monumental."
+      "memory_hook": "O'Keeffe moved to New Mexico's Ghost Ranch in 1949 and painted its bleached skulls and high desert for decades — her extreme close-ups of flowers forced viewers to see ordinary things as strange and monumental.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0416",
       "category": "History",
       "question": "Which Greek mathematician is known for his theorem about right triangles?",
       "options": [
@@ -102,9 +152,16 @@
       ],
       "answer": "Pythagoras",
       "explanation": "Pythagoras (c. 570-495 BC) is known for the Pythagorean theorem: in a right triangle, the square of the hypotenuse equals the sum of the squares of the other two sides (a squared + b squared = c squared).",
-      "memory_hook": "a squared + b squared = c squared — Pythagoras. Every right triangle, forever."
+      "memory_hook": "a squared + b squared = c squared — Pythagoras. Every right triangle, forever.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0417",
       "category": "Geography",
       "question": "Cape Horn, the southernmost tip of South America, belongs to which country?",
       "options": [
@@ -115,9 +172,16 @@
       ],
       "answer": "Chile",
       "explanation": "Cape Horn is located on Hornos Island in the Tierra del Fuego archipelago, part of Chile. It is one of the world's most treacherous passages for ships, where the Atlantic and Pacific oceans meet in famously rough conditions. Before the Panama Canal, ships had to round Cape Horn to travel between the two oceans.",
-      "memory_hook": "Cape Horn = Chile. The bottom of South America belongs to Chile, not Argentina. Before the Panama Canal, every ship crossing between oceans had to brave Cape Horn's brutal storms."
+      "memory_hook": "Cape Horn = Chile. The bottom of South America belongs to Chile, not Argentina. Before the Panama Canal, every ship crossing between oceans had to brave Cape Horn's brutal storms.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0418",
       "category": "Science & Nature",
       "question": "Saturn's moon Titan is unique in the solar system for a reason that makes it particularly intriguing to astrobiologists. What makes Titan so unusual?",
       "options": [
@@ -128,9 +192,16 @@
       ],
       "answer": "Titan is the only moon with a substantial atmosphere, and the only body besides Earth with stable liquid on its surface — though the lakes are filled with liquid methane and ethane, not water",
       "explanation": "Titan's atmosphere is 1.5 times denser than Earth's and primarily nitrogen — like Earth — but its surface temperature is −179°C. At this temperature, methane behaves as water does on Earth: evaporating, forming clouds, raining, and pooling in lakes and rivers. The Cassini spacecraft orbited Saturn for 13 years (2004–2017) and its Huygens probe parachuted through Titan's atmosphere in 2005. NASA's Dragonfly mission — a rotorcraft lander — is planned to arrive at Titan around 2034 to explore its chemistry, which may resemble early Earth's organic chemistry.",
-      "memory_hook": "Titan has lakes, rain, rivers, and a thick nitrogen atmosphere — but the liquid is methane, not water, at −179°C. The Huygens probe parachuted through its clouds in 2005; NASA's Dragonfly rotorcraft will land there around 2034 to study chemistry resembling early Earth."
+      "memory_hook": "Titan has lakes, rain, rivers, and a thick nitrogen atmosphere — but the liquid is methane, not water, at −179°C. The Huygens probe parachuted through its clouds in 2005; NASA's Dragonfly rotorcraft will land there around 2034 to study chemistry resembling early Earth.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0419",
       "category": "Geography",
       "question": "Cape Verde, an archipelago nation of 10 islands off the west coast of Africa, gained independence from which colonial power in 1975?",
       "options": [
@@ -141,9 +212,16 @@
       ],
       "answer": "Portugal",
       "explanation": "Cape Verde (Cabo Verde) achieved independence from Portugal on July 5, 1975, after 500 years of Portuguese rule. The islands were uninhabited when Portuguese explorers discovered them in 1456. Cape Verde became an important Atlantic trading hub and was a major stop in the transatlantic slave trade. Despite having no natural resources, Cape Verde has developed into one of Africa's most stable democracies and has the highest human development index in West Africa.",
-      "memory_hook": "Cape Verde: Portuguese colony for 500 years, independent 1975. Uninhabited when discovered in 1456. Became a slave trade hub in the Atlantic. Now one of Africa's most stable democracies despite no natural resources. 10 islands, 570 km off Senegal's coast."
+      "memory_hook": "Cape Verde: Portuguese colony for 500 years, independent 1975. Uninhabited when discovered in 1456. Became a slave trade hub in the Atlantic. Now one of Africa's most stable democracies despite no natural resources. 10 islands, 570 km off Senegal's coast.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0420",
       "category": "Science & Nature",
       "question": "What phenomenon occurs when a rotating galaxy cluster bends light from a more distant galaxy behind it, creating arcs or rings of light?",
       "options": [
@@ -154,7 +232,13 @@
       ],
       "answer": "Gravitational lensing",
       "explanation": "Gravitational lensing occurs because massive objects (like galaxy clusters) warp the fabric of spacetime, bending the path of light passing near them — exactly as Einstein's General Theory of Relativity predicted. This can create multiple images, arcs, or even complete 'Einstein rings' of distant objects. Gravitational lensing has confirmed General Relativity, revealed dark matter distributions (by mapping invisible mass that still bends light), and allowed astronomers to study extremely distant galaxies.",
-      "memory_hook": "Gravitational lensing: massive objects bend light from behind them, creating arcs or rings. Predicted by Einstein's General Relativity. Confirmed in 1919 (solar eclipse experiment). Reveals dark matter — invisible mass that still bends light. 'Einstein rings' are complete circles of lensed light."
+      "memory_hook": "Gravitational lensing: massive objects bend light from behind them, creating arcs or rings. Predicted by Einstein's General Relativity. Confirmed in 1919 (solar eclipse experiment). Reveals dark matter — invisible mass that still bends light. 'Einstein rings' are complete circles of lensed light.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     }
   ]
 }

@@ -2,6 +2,7 @@
   "date": "2026-08-24",
   "questions": [
     {
+      "id": "frq-0841",
       "category": "History",
       "question": "Chichen Itza's main pyramid does something twice a year at the equinox. What?",
       "options": [
@@ -12,9 +13,16 @@
       ],
       "answer": "A shadow forms a serpent descending the staircase",
       "explanation": "At the spring and autumn equinoxes the stepped terraces throw triangular shadows onto the northern staircase, forming a body that joins carved serpent heads at the base, so Kukulkan appears to slither down the pyramid. It has 365 steps counting the top platform. Clapping at the base produces an echo resembling the call of the quetzal bird, which acousticians consider deliberate. The Maya tracked Venus with enough precision to predict its cycle within hours.",
-      "memory_hook": "At the equinoxes the terraces throw triangular shadows down the north staircase that join the carved serpent heads at the bottom, so Kukulkan appears to descend. 365 steps. Clap at the base and the echo sounds like a quetzal, which acousticians think was designed."
+      "memory_hook": "At the equinoxes the terraces throw triangular shadows down the north staircase that join the carved serpent heads at the bottom, so Kukulkan appears to descend. 365 steps. Clap at the base and the echo sounds like a quetzal, which acousticians think was designed.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0842",
       "category": "Science & Nature",
       "question": "Subrahmanyan Chandrasekhar calculated his famous limit at 19, on a ship from India to England. What does it define?",
       "options": [
@@ -25,9 +33,16 @@
       ],
       "answer": "Max white dwarf mass, about 1.4 suns, before collapse",
       "explanation": "When Sun-like stars die, they shed their outer layers and leave a dense core — a white dwarf — where electron degeneracy pressure (quantum mechanical) supports it against gravity. Chandrasekhar showed in 1930 that this pressure has a maximum capacity of about 1.4 solar masses. Above this, the white dwarf collapses. When a white dwarf in a binary system accretes mass past the limit, it produces a Type Ia supernova — these explosions are remarkably uniform in luminosity, making them 'standard candles' used to measure cosmic distances and discover dark energy. Chandrasekhar won the Nobel Prize in 1983; his superior Arthur Eddington had ridiculed his limit for years.",
-      "memory_hook": "Chandrasekhar calculated his mass limit at 19 on a ship to England. His boss Arthur Eddington publicly ridiculed him for years. When white dwarfs exceed 1.4 solar masses, they explode as Type Ia supernovae — the 'standard candles' that discovered dark energy 68 years later. Nobel Prize came in 1983."
+      "memory_hook": "Chandrasekhar calculated his mass limit at 19 on a ship to England. His boss Arthur Eddington publicly ridiculed him for years. When white dwarfs exceed 1.4 solar masses, they explode as Type Ia supernovae — the 'standard candles' that discovered dark energy 68 years later. Nobel Prize came in 1983.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0843",
       "category": "Sports",
       "question": "Norway leads all nations in Winter Olympic gold medals despite a population of five million. What explains it?",
       "options": [
@@ -38,9 +53,16 @@
       ],
       "answer": "Skiing is transport and childhood culture, not just sport",
       "explanation": "The saying is that Norwegians are born with skis on their feet. Cross-country skiing is ordinary recreation, kindergartens take children out in snow, and the talent pool is proportionally enormous. Norwegian sport also bans keeping score in children's competition below thirteen, prioritising participation over early selection, which is often credited with retaining athletes who would otherwise drop out. Norway topped the medal table at Beijing 2022.",
-      "memory_hook": "Skiing is transport and ordinary childhood there, not a specialist sport, so the talent pool is huge relative to five million people. Norway also bans scorekeeping in children's sport under thirteen to keep kids playing rather than selecting early. They topped the table at Beijing 2022."
+      "memory_hook": "Skiing is transport and ordinary childhood there, not a specialist sport, so the talent pool is huge relative to five million people. Norway also bans scorekeeping in children's sport under thirteen to keep kids playing rather than selecting early. They topped the table at Beijing 2022.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0844",
       "category": "Pop Culture",
       "question": "Coppola nearly lost The Godfather several times. What did the studio object to most?",
       "options": [
@@ -51,9 +73,16 @@
       ],
       "answer": "Casting Brando, who was considered box office poison",
       "explanation": "Paramount had banned Brando by name after a run of flops and difficult shoots. Coppola got a screen test by persuading him to audition on camera, stuffing his cheeks with tissue, and the executives relented. Brando won the Oscar and refused it, sending Sacheen Littlefeather to decline on his behalf over the treatment of Native Americans. Coppola was nearly fired repeatedly, with a replacement director reportedly on standby.",
-      "memory_hook": "Paramount had banned Brando by name after a string of flops. Coppola talked him into a filmed audition with tissue stuffed in his cheeks and the executives caved. Brando won the Oscar and refused it, sending Sacheen Littlefeather instead. Coppola was nearly fired throughout, with a replacement waiting."
+      "memory_hook": "Paramount had banned Brando by name after a string of flops. Coppola talked him into a filmed audition with tissue stuffed in his cheeks and the executives caved. Brando won the Oscar and refused it, sending Sacheen Littlefeather instead. Coppola was nearly fired throughout, with a replacement waiting.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0845",
       "category": "Geography",
       "question": "The Nile is traditionally called the world's longest river, but that claim is disputed. Why?",
       "options": [
@@ -64,9 +93,16 @@
       ],
       "answer": "Amazon measurements vary by which headwater you pick",
       "explanation": "The Nile runs roughly 6,650km and the Amazon around 6,400km, but the Amazon's source is genuinely ambiguous, with several Peruvian headwaters in contention, and a 2007 Brazilian expedition claimed a southern source that would make it longer. The Amazon also has no single defined mouth, complicating where to stop measuring. It carries vastly more water regardless, roughly a fifth of all river discharge on Earth.",
-      "memory_hook": "Nile about 6,650km, Amazon about 6,400km, but the Amazon's source is genuinely disputed among several Peruvian headwaters, and a 2007 expedition claimed one that would make it longer. Its mouth is also hard to define. It carries a fifth of all river water on Earth either way."
+      "memory_hook": "Nile about 6,650km, Amazon about 6,400km, but the Amazon's source is genuinely disputed among several Peruvian headwaters, and a 2007 expedition claimed one that would make it longer. Its mouth is also hard to define. It carries a fifth of all river water on Earth either way.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0846",
       "category": "History",
       "question": "The Bastille fell in July 1789, but France's Revolution had a longer fuse. What was the immediate financial cause?",
       "options": [
@@ -77,9 +113,16 @@
       ],
       "answer": "Debt from helping America win its own revolution",
       "explanation": "France bankrolled the American Revolution largely to weaken Britain, and it nearly bankrupted the treasury. Servicing that debt consumed around half of government revenue by the late 1780s. A tax system that exempted nobility and clergy meant the burden fell on those least able to pay, and two disastrous harvests pushed bread prices to a peak on 14 July itself. Louis XVI's diary entry for that day famously reads nothing, referring to hunting.",
-      "memory_hook": "France funded the American Revolution to hurt Britain and nearly bankrupted itself doing it, with debt service eating about half of revenue. Nobles and clergy paid no tax, so the burden fell on people who could not carry it, and bread hit its peak price on 14 July itself."
+      "memory_hook": "France funded the American Revolution to hurt Britain and nearly bankrupted itself doing it, with debt service eating about half of revenue. Nobles and clergy paid no tax, so the burden fell on people who could not carry it, and bread hit its peak price on 14 July itself.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0847",
       "category": "Pop Culture",
       "question": "Mario first appeared in 1981, but not under that name or in that job. What was he originally?",
       "options": [
@@ -90,9 +133,16 @@
       ],
       "answer": "A carpenter called Jumpman in Donkey Kong",
       "explanation": "He debuted as Jumpman, a carpenter, in Donkey Kong. Nintendo of America renamed him after Mario Segale, the landlord of their Seattle warehouse, who reportedly turned up demanding overdue rent. He became a plumber because the sequel was set in sewers. The moustache, cap and overalls existed because 1981 hardware could not render a mouth, hair, or arm movement clearly, so constraints created the design.",
-      "memory_hook": "He was Jumpman, a carpenter, in Donkey Kong. Nintendo of America renamed him after Mario Segale, their Seattle warehouse landlord, who showed up wanting overdue rent. He became a plumber because the sequel was in sewers. The moustache and cap exist because the hardware could not draw a mouth or hair."
+      "memory_hook": "He was Jumpman, a carpenter, in Donkey Kong. Nintendo of America renamed him after Mario Segale, their Seattle warehouse landlord, who showed up wanting overdue rent. He became a plumber because the sequel was in sewers. The moustache and cap exist because the hardware could not draw a mouth or hair.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0848",
       "category": "Science & Nature",
       "question": "Stephen Hawking showed in 1974 that black holes slowly evaporate. What causes Hawking radiation?",
       "options": [
@@ -104,12 +154,19 @@
       "answer": "Virtual particle pairs splitting at the event horizon",
       "explanation": "Quantum mechanics allows particle-antiparticle pairs to briefly materialize from the vacuum before annihilating. Near a black hole's event horizon, one particle may fall in while the other escapes — the black hole must supply the energy for the escaped particle, causing it to slowly lose mass. For stellar-mass black holes, the radiation rate is negligible (far colder than the CMB). Hawking radiation has never been directly observed. Hawking was 32 when he published this result, which unified quantum mechanics and general relativity. He reportedly exclaimed 'eureka' when he derived it — it was completely unexpected and initially dismayed him.",
       "memory_hook": "Hawking discovered black holes evaporate in 1974 — it dismayed him initially, as it was unexpected. Virtual particle pairs near the event horizon allow one to escape while the other falls in; the black hole pays the energy bill. For a stellar black hole, it would take 10^67 years to evaporate. Nobel Prize? Hawking died in 2018 before it could be confirmed experimentally.",
+      "riskTier": "source",
       "sourceRefs": [
         "nasa-hawking-radiation"
       ],
-      "riskTier": "source"
+      "review": {
+        "state": "verified",
+        "at": "2026-09-03",
+        "by": "tanner@tjs16media.com",
+        "note": "carried over: had a cited source before IDs existed"
+      }
     },
     {
+      "id": "frq-0849",
       "category": "Geography",
       "question": "Indonesia spans more than 17,000 islands. What problem does that create for the capital?",
       "options": [
@@ -121,13 +178,20 @@
       "answer": "Jakarta is sinking, so the capital is being relocated",
       "explanation": "Jakarta is sinking by up to 25cm a year in parts of the north, mainly because residents pump groundwater from beneath the city faster than it recharges, compacting the ground beneath them. Indonesia inaugurated a new capital, Nusantara, in Borneo on Independence Day 2024, with relocation phased over decades and a budget in the tens of billions. Jakarta remains the commercial centre, so the sinking does not stop being a problem once government leaves.",
       "memory_hook": "Jakarta sinks up to 25cm a year because people pump groundwater out faster than it refills, compacting the ground, and about 40% of it is already below sea level. Indonesia is building a new capital, Nusantara, in Borneo. Jakarta stays the commercial centre.",
+      "riskTier": "source",
       "sourceRefs": [
         "jakarta-subsidence",
         "nusantara-capital"
       ],
-      "riskTier": "source"
+      "review": {
+        "state": "verified",
+        "at": "2026-09-03",
+        "by": "tanner@tjs16media.com",
+        "note": "carried over: had a cited source before IDs existed"
+      }
     },
     {
+      "id": "frq-0850",
       "category": "History",
       "question": "Julius Caesar made an irreversible move by crossing the Rubicon River with his army in 49 BC. Why was this act of war against Roman law?",
       "options": [
@@ -138,9 +202,16 @@
       ],
       "answer": "Generals were forbidden to bring armies into Italy",
       "explanation": "Roman law prohibited generals from commanding armies within Italy to prevent coups. By crossing the Rubicon with the 13th Legion, Caesar committed treason and civil war became inevitable. He reportedly said 'the die is cast' (alea iacta est) as he crossed.",
-      "memory_hook": "'Crossing the Rubicon' = point of no return. Caesar said 'the die is cast.'"
+      "memory_hook": "'Crossing the Rubicon' = point of no return. Caesar said 'the die is cast.'",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0851",
       "category": "Pop Culture",
       "question": "U2 spent decades as one of the biggest bands on Earth, then made a decision that annoyed millions. What?",
       "options": [
@@ -151,9 +222,16 @@
       ],
       "answer": "An album was pushed automatically into every iTunes library",
       "explanation": "Songs of Innocence appeared automatically in around 500 million iTunes accounts in 2014, and many users could not work out how to remove it. Apple had to publish a deletion tool. Bono apologised, describing it as a case of a drop of megalomania and a touch of generosity. The band had grown out of Dublin's late-1970s punk scene, forming after Larry Mullen Jr pinned a notice on a school board.",
-      "memory_hook": "Songs of Innocence auto-installed into about 500 million iTunes accounts in 2014 and people could not figure out how to delete it, so Apple had to release a removal tool. Bono apologised, blaming a drop of megalomania and a touch of generosity."
+      "memory_hook": "Songs of Innocence auto-installed into about 500 million iTunes accounts in 2014 and people could not figure out how to delete it, so Apple had to release a removal tool. Bono apologised, blaming a drop of megalomania and a touch of generosity.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0852",
       "category": "Sports",
       "question": "The Super Bowl uses Roman numerals, with one exception. Which year broke the pattern and why?",
       "options": [
@@ -164,7 +242,13 @@
       ],
       "answer": "Super Bowl 50, since L looked wrong in the logo",
       "explanation": "The NFL abandoned Roman numerals for 2016 because a logo built around a single letter L looked weak, and reverted to numerals for LI the following year. The game itself was named by Lamar Hunt after his children's Super Ball toy, intended as a placeholder until something dignified was chosen. Nothing better was found. It is consistently the most watched US broadcast of the year.",
-      "memory_hook": "The NFL dropped numerals for Super Bowl 50 because a logo built on a lone L looked feeble, then went straight back to numerals the next year. Lamar Hunt named the game after his kids' Super Ball toy as a placeholder, and nobody ever came up with anything better."
+      "memory_hook": "The NFL dropped numerals for Super Bowl 50 because a logo built on a lone L looked feeble, then went straight back to numerals the next year. Lamar Hunt named the game after his kids' Super Ball toy as a placeholder, and nobody ever came up with anything better.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     }
   ]
 }

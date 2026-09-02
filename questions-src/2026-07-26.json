@@ -1,6 +1,7 @@
 {
   "questions": [
     {
+      "id": "frq-0493",
       "category": "History",
       "question": "Who wrote 'The Art of War'?",
       "options": [
@@ -11,9 +12,16 @@
       ],
       "answer": "Sun Tzu",
       "explanation": "'The Art of War' is an ancient Chinese military treatise attributed to Sun Tzu, a military strategist who lived in the 5th century BC. It consists of 13 chapters covering strategy, tactics, and the importance of flexibility and adaptability. It remains influential in military strategy, business, and sports.",
-      "memory_hook": "Sun Tzu: 'The Art of War' — ancient Chinese wisdom still taught in business schools today."
+      "memory_hook": "Sun Tzu: 'The Art of War' — ancient Chinese wisdom still taught in business schools today.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0494",
       "category": "History",
       "question": "The 'Space Race' was a competition primarily between which two countries?",
       "options": [
@@ -24,9 +32,16 @@
       ],
       "answer": "USA and Soviet Union",
       "explanation": "The Space Race (1957–1969) was a Cold War competition between the United States and the Soviet Union for supremacy in space exploration. The Soviets launched the first satellite (Sputnik, 1957) and first human in space (Gagarin, 1961). The US won by being first to the Moon (Apollo 11, 1969).",
-      "memory_hook": "Space Race: USSR first to orbit, US first to the Moon. America won the final lap."
+      "memory_hook": "Space Race: USSR first to orbit, US first to the Moon. America won the final lap.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0495",
       "category": "Sports",
       "question": "Pelé is the only player in history to win three FIFA World Cups (1958, 1962, 1970). What made his 1958 debut particularly extraordinary?",
       "options": [
@@ -37,9 +52,16 @@
       ],
       "answer": "At 17 years and 249 days, Pelé became the youngest player to score in a World Cup final — he scored twice in a 5-2 win over Sweden and reportedly wept on the field afterward",
       "explanation": "Pelé had been unknown internationally before the 1958 Sweden tournament. He became the tournament's most exciting player, scoring six goals in three games including a semifinal hat-trick against France. In the final against host nation Sweden, he controlled a long ball on his chest, flicked it over a defender's head, and volleyed it in — a goal considered one of the tournament's greatest. Photographs of Pelé weeping on Garrincha's shoulder after the final are among soccer's most iconic images. He went on to score 77 goals in 92 appearances for Brazil.",
-      "memory_hook": "Pelé was 17 years, 249 days old when he scored twice in the 1958 World Cup final — the youngest to ever do so. He wept on the field afterward. Photos of him crying on Garrincha's shoulder are among soccer's most iconic images; he still had 12 more years of dominance ahead of him."
+      "memory_hook": "Pelé was 17 years, 249 days old when he scored twice in the 1958 World Cup final — the youngest to ever do so. He wept on the field afterward. Photos of him crying on Garrincha's shoulder are among soccer's most iconic images; he still had 12 more years of dominance ahead of him.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0496",
       "category": "Sports",
       "question": "The 1980 US Olympic hockey team's defeat of the Soviet Union — dubbed the 'Miracle on Ice' — is considered the greatest upset in sports history. What made it so improbable?",
       "options": [
@@ -50,9 +72,16 @@
       ],
       "answer": "Both A and B are true — the team was amateur college players who had lost 10-3 days before, facing a Soviet dynasty that hadn't lost an Olympic game in 20 years",
       "explanation": "The Soviet team was widely considered the best hockey team in the world — they had beaten the NHL's best players in various exhibitions and won every Olympic gold medal since 1964. Six days before the Olympic semifinal, they beat the Americans 10-3 in a Madison Square Garden exhibition. The American team was a collection of college players averaging just 21 years old. Coach Herb Brooks's training was legendary for its brutality. With the US winning 4-3, broadcaster Al Michaels asked 'Do you believe in miracles?' — one of sports broadcasting's most famous calls. The US went on to win gold by beating Finland.",
-      "memory_hook": "The Soviets beat the Americans 10-3 six days before the 1980 Olympic game. The Americans were college kids; the Soviets hadn't lost an Olympic game in 20 years. 'Do you believe in miracles? YES!' — Al Michaels's call as the buzzer sounded is sports radio's most famous moment."
+      "memory_hook": "The Soviets beat the Americans 10-3 six days before the 1980 Olympic game. The Americans were college kids; the Soviets hadn't lost an Olympic game in 20 years. 'Do you believe in miracles? YES!' — Al Michaels's call as the buzzer sounded is sports radio's most famous moment.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0497",
       "category": "Pop Culture",
       "question": "Who performed at the 2023 Super Bowl halftime show?",
       "options": [
@@ -63,9 +92,16 @@
       ],
       "answer": "Rihanna",
       "explanation": "Rihanna headlined the Super Bowl LVII halftime show on February 12, 2023, at State Farm Stadium in Glendale, Arizona. It was her first major public performance in seven years and was watched by approximately 118 million viewers. During the show, it was revealed she was pregnant with her second child.",
-      "memory_hook": "Rihanna at Super Bowl 2023 — first show in years, and she announced her pregnancy mid-performance."
+      "memory_hook": "Rihanna at Super Bowl 2023 — first show in years, and she announced her pregnancy mid-performance.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0498",
       "category": "Pop Culture",
       "question": "Toni Morrison, awarded the Nobel Prize in Literature in 1993, is widely considered America's greatest novelist. What is the central achievement of her work?",
       "options": [
@@ -76,9 +112,16 @@
       ],
       "answer": "Morrison brought the interior lives, trauma, and humanity of Black Americans — particularly Black women — to the center of the American literary canon with prose that combined mythological depth with historical specificity",
       "explanation": "Morrison's novels — including The Bluest Eye, Sula, Song of Solomon, and Beloved — examined slavery, racism, identity, and community from within the African American experience with a literary depth that had no equivalent. Beloved (1987), based on the true story of Margaret Garner, who killed her daughter rather than have her returned to slavery, won the Pulitzer Prize. Morrison said: 'If there's a book that you want to read but it hasn't been written yet, then you must write it.' She was also an editor at Random House for 20 years, championing Black writers including Angela Davis and Gayl Jones.",
-      "memory_hook": "Morrison said 'If there's a book you want to read but it hasn't been written, you must write it' — and then wrote Beloved, The Bluest Eye, and Song of Solomon. Her Nobel Prize in 1993 recognized work that put Black American interiority at the center of the literary canon, not its margins."
+      "memory_hook": "Morrison said 'If there's a book you want to read but it hasn't been written, you must write it' — and then wrote Beloved, The Bluest Eye, and Song of Solomon. Her Nobel Prize in 1993 recognized work that put Black American interiority at the center of the literary canon, not its margins.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0499",
       "category": "Pop Culture",
       "question": "Edward Hopper's 'Nighthawks' (1942) — depicting figures at an all-night diner — is one of the most widely reproduced paintings in American art. What does it capture about modern life?",
       "options": [
@@ -89,9 +132,16 @@
       ],
       "answer": "It captures the loneliness and alienation of urban life — the figures share a physical space but seem emotionally isolated, and the painting has no visible exit from the diner",
       "explanation": "Hopper said Nighthawks was 'suggested by a restaurant on Greenwich Avenue where two streets meet' in New York. The four figures — two customers, a server, and a lone man with his back to us — sit under harsh fluorescent light but make no eye contact. Hopper's wife Jo, who modeled for the red-haired woman, kept records of all his paintings. Crucially, art historians note the diner appears to have no door — the figures may be unable to leave. Hopper said he 'unconsciously' painted the loneliness of a large city.",
-      "memory_hook": "Hopper said Nighthawks was 'unconsciously' about urban loneliness — but art historians noticed something specific: the diner appears to have no door. The four figures sit under harsh light, emotionally isolated in a room they may not be able to leave."
+      "memory_hook": "Hopper said Nighthawks was 'unconsciously' about urban loneliness — but art historians noticed something specific: the diner appears to have no door. The four figures sit under harsh light, emotionally isolated in a room they may not be able to leave.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0500",
       "category": "History",
       "question": "Which American president delivered the 'I Have a Dream' speech? — Wait, that was MLK. Which president signed the Civil Rights Act of 1964?",
       "options": [
@@ -102,9 +152,16 @@
       ],
       "answer": "Lyndon B. Johnson",
       "explanation": "The Civil Rights Act of 1964 was signed into law by President Lyndon B. Johnson on July 2, 1964. It outlawed discrimination based on race, color, religion, sex, or national origin. President Kennedy had proposed the legislation, but it was Johnson who pushed it through Congress after Kennedy's assassination.",
-      "memory_hook": "LBJ signed the Civil Rights Act — Kennedy proposed it; Johnson delivered it."
+      "memory_hook": "LBJ signed the Civil Rights Act — Kennedy proposed it; Johnson delivered it.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0501",
       "category": "Geography",
       "question": "The International Date Line runs mainly through which ocean?",
       "options": [
@@ -115,9 +172,16 @@
       ],
       "answer": "Pacific Ocean",
       "explanation": "The International Date Line runs roughly along the 180-degree meridian in the Pacific Ocean, zigzagging around island groups to avoid dividing countries between two calendar days. Cross it going west and you jump a day forward; go east and you go back a day. It was established as part of the 1884 International Meridian Conference.",
-      "memory_hook": "Date Line = Pacific Ocean. Cross it heading west, and you gain a day. Go east, lose a day. It bends around islands so Fiji doesn't have one half in Monday and the other in Sunday."
+      "memory_hook": "Date Line = Pacific Ocean. Cross it heading west, and you gain a day. Go east, lose a day. It bends around islands so Fiji doesn't have one half in Monday and the other in Sunday.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0502",
       "category": "Science & Nature",
       "question": "How many DNA base pairs make up the human genome?",
       "options": [
@@ -128,9 +192,16 @@
       ],
       "answer": "3 billion",
       "explanation": "The human genome contains approximately 3 billion base pairs of DNA, encoding about 20,000-25,000 genes. If you stretched out all the DNA from a single human cell, it would be about 2 meters long. If you stretched out all the DNA in your body, it would reach from Earth to the Sun and back about 300 times.",
-      "memory_hook": "Human genome = 3 billion base pairs. 2 meters of DNA curled inside a cell too small to see. The instruction manual for a human being fits into a space smaller than the period at the end of this sentence."
+      "memory_hook": "Human genome = 3 billion base pairs. 2 meters of DNA curled inside a cell too small to see. The instruction manual for a human being fits into a space smaller than the period at the end of this sentence.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0503",
       "category": "Geography",
       "question": "Tasmania, Australia's island state, is separated from the mainland by which body of water and is home to which unique carnivorous marsupial?",
       "options": [
@@ -141,9 +212,16 @@
       ],
       "answer": "Bass Strait, Tasmanian devil",
       "explanation": "Tasmania is separated from mainland Australia by the Bass Strait (240 km wide). The Tasmanian devil — the world's largest carnivorous marsupial — lives only in Tasmania (and was reintroduced to mainland Australia in 2020). Devils are known for their powerful jaws, bone-crunching bite, and eerie screams. They faced near-extinction from a contagious facial cancer (DFTD) that has killed roughly 80% of the wild population since the 1990s.",
-      "memory_hook": "Tasmania: island state south of mainland Australia, across Bass Strait. Home of the Tasmanian devil — world's largest carnivorous marsupial. Known for jaw strength, shrieking, and scavenging bones. Facing extinction from a contagious facial cancer that's killed 80% of the population."
+      "memory_hook": "Tasmania: island state south of mainland Australia, across Bass Strait. Home of the Tasmanian devil — world's largest carnivorous marsupial. Known for jaw strength, shrieking, and scavenging bones. Facing extinction from a contagious facial cancer that's killed 80% of the population.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0504",
       "category": "Science & Nature",
       "question": "The human gut contains trillions of microorganisms — bacteria, fungi, and viruses — collectively called what?",
       "options": [
@@ -154,7 +232,13 @@
       ],
       "answer": "Microbiome",
       "explanation": "The human gut microbiome comprises approximately 38 trillion microorganisms — roughly the same number as human cells in the body. This community includes bacteria, archaea, fungi, and viruses. It plays crucial roles in digestion, immune regulation, vitamin synthesis (particularly B vitamins and vitamin K), and mental health (the gut-brain axis). Disruption of the microbiome (dysbiosis) is linked to obesity, inflammatory bowel disease, depression, and autoimmune conditions.",
-      "memory_hook": "Microbiome = the trillions of microorganisms in your gut. About 38 trillion — equal to the number of human cells. Helps digest food, makes vitamins, trains your immune system, affects your mood (gut-brain axis). Antibiotics can devastate it. Your microbiome is as unique as your fingerprint."
+      "memory_hook": "Microbiome = the trillions of microorganisms in your gut. About 38 trillion — equal to the number of human cells. Helps digest food, makes vitamins, trains your immune system, affects your mood (gut-brain axis). Antibiotics can devastate it. Your microbiome is as unique as your fingerprint.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     }
   ]
 }

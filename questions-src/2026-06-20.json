@@ -2,6 +2,7 @@
   "date": "2026-06-20",
   "questions": [
     {
+      "id": "frq-0061",
       "category": "History",
       "question": "The Black Death pandemic in the 14th century killed approximately what fraction of Europe's population?",
       "options": [
@@ -12,9 +13,16 @@
       ],
       "answer": "One third",
       "explanation": "The Black Death, caused by the bacterium Yersinia pestis, swept through Europe from 1347 to 1351, killing an estimated 30–60% of Europe's population — roughly one third by most historical consensus. It spread via fleas on rats along trade routes and killed as many as 50 million people worldwide. Europe's population didn't recover to pre-plague levels for 200 years.",
-      "memory_hook": "One third of Europe — gone in four years. Imagine every third person you know disappearing by 1351. The Black Death didn't just kill people; it restructured all of European society in its aftermath."
+      "memory_hook": "One third of Europe — gone in four years. Imagine every third person you know disappearing by 1351. The Black Death didn't just kill people; it restructured all of European society in its aftermath.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0062",
       "category": "History",
       "question": "In what year was the Roman Colosseum completed?",
       "options": [
@@ -25,9 +33,16 @@
       ],
       "answer": "80 AD",
       "explanation": "The Colosseum in Rome was completed around 80 AD under Emperor Titus, though construction began under Emperor Vespasian around 70 AD. It could hold between 50,000 and 80,000 spectators and hosted gladiatorial contests, animal hunts, executions, and mock naval battles. It remains the world's largest ancient amphitheater.",
-      "memory_hook": "80 AD, 80,000 seats. The Colosseum was completed in 80 and held 80,000 — the two 80s are the same. A stadium built for a crowd the size of a modern NFL sellout, nearly 2,000 years ago."
+      "memory_hook": "80 AD, 80,000 seats. The Colosseum was completed in 80 and held 80,000 — the two 80s are the same. A stadium built for a crowd the size of a modern NFL sellout, nearly 2,000 years ago.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0063",
       "category": "History",
       "question": "Alexander the Great was the king of which ancient kingdom?",
       "options": [
@@ -38,9 +53,16 @@
       ],
       "answer": "Macedonia",
       "explanation": "Alexander the Great was King of Macedon (Macedonia), a kingdom in northern Greece. Tutored by Aristotle, he became king at 20 and built one of history's largest empires — stretching from Greece through Persia, Egypt, and into northwest India — all by the age of 32, when he died in Babylon in 323 BC.",
-      "memory_hook": "Macedonia = Alexander. He was tutored by Aristotle and went on to conquer the known world. A student of the greatest philosopher becoming the greatest conqueror — the ultimate overachiever."
+      "memory_hook": "Macedonia = Alexander. He was tutored by Aristotle and went on to conquer the known world. A student of the greatest philosopher becoming the greatest conqueror — the ultimate overachiever.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0064",
       "category": "Sports",
       "question": "Usain Bolt's world record in the 100 meter sprint is approximately how fast?",
       "options": [
@@ -51,9 +73,16 @@
       ],
       "answer": "9.58 seconds",
       "explanation": "Usain Bolt set the 100m world record of 9.58 seconds at the 2009 World Championships in Berlin, Germany. At peak speed during the race, he was running approximately 27.8 mph (44.7 km/h). Bolt also holds the 200m world record of 19.19 seconds and won 8 Olympic gold medals across three Games.",
-      "memory_hook": "9.58 — less than 10 seconds to run 100 meters. The world's fastest human took less time than it takes to read this sentence aloud. Bolt was running faster than most people cycle."
+      "memory_hook": "9.58 — less than 10 seconds to run 100 meters. The world's fastest human took less time than it takes to read this sentence aloud. Bolt was running faster than most people cycle.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0065",
       "category": "Sports",
       "question": "How many players from one team are on the ice at a time during a standard NHL hockey game?",
       "options": [
@@ -64,9 +93,16 @@
       ],
       "answer": "6",
       "explanation": "Each NHL team has 6 players on the ice at a time: one goaltender, two defensemen, and three forwards (two wingers and a center). When a player is penalized, their team plays 'shorthanded' with only 5 or 4 skaters, giving the opposing team a 'power play' advantage.",
-      "memory_hook": "6 on ice = 1 goalie + 2 defense + 3 forwards. A triangle up front, a pair in back, and one last line of defense. Pull the goalie for an extra attacker and you're down to five — hockey's ultimate desperation move."
+      "memory_hook": "6 on ice = 1 goalie + 2 defense + 3 forwards. A triangle up front, a pair in back, and one last line of defense. Pull the goalie for an extra attacker and you're down to five — hockey's ultimate desperation move.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0066",
       "category": "Pop Culture",
       "question": "Claude Monet's Water Lilies series — painted in the last decades of his life — are among the world's most visited artworks. What circumstances make them remarkable?",
       "options": [
@@ -77,9 +113,16 @@
       ],
       "answer": "Monet painted most of the series while nearly blind from cataracts, using his knowledge of color relationships and labeling his paint tubes to work through his failing vision",
       "explanation": "Monet developed cataracts in both eyes around 1912 and for years refused surgery. His later canvases show increasingly loose, reddish brushwork — the red shift in his vision from the cataracts altered his color perception. He finally had surgery in 1923 and was reportedly horrified by how his recent paintings looked. The large-scale panels now in the Orangerie museum in Paris were his final gift to France, installed after his death in 1926.",
-      "memory_hook": "Monet painted most of his Water Lilies while nearly blind — cataracts shifted his color vision red, which explains the warmer tones in his later work; he had surgery at 83 and reportedly disliked what he saw."
+      "memory_hook": "Monet painted most of his Water Lilies while nearly blind — cataracts shifted his color vision red, which explains the warmer tones in his later work; he had surgery at 83 and reportedly disliked what he saw.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0067",
       "category": "Pop Culture",
       "question": "Beethoven composed some of his most celebrated works, including his 9th Symphony, while suffering from what condition?",
       "options": [
@@ -90,9 +133,16 @@
       ],
       "answer": "Deafness",
       "explanation": "Ludwig van Beethoven began losing his hearing in his late 20s and was almost completely deaf by his mid-40s, yet continued composing. His 9th Symphony — which includes 'Ode to Joy' — was composed entirely while deaf. At its 1824 premiere, he reportedly had to be turned around to see the audience's standing ovation because he couldn't hear it.",
-      "memory_hook": "Beethoven heard music the world couldn't — because he heard it in his head, not his ears. A deaf composer is like a blind painter. His 9th Symphony is arguably the greatest piece of music ever written, created in total silence."
+      "memory_hook": "Beethoven heard music the world couldn't — because he heard it in his head, not his ears. A deaf composer is like a blind painter. His 9th Symphony is arguably the greatest piece of music ever written, created in total silence.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0068",
       "category": "Pop Culture",
       "question": "Breaking Bad (2008–2013) is frequently cited as one of television's greatest achievements. What was creator Vince Gilligan's stated goal for the show's protagonist Walter White?",
       "options": [
@@ -103,9 +153,16 @@
       ],
       "answer": "To turn 'Mr. Chips into Scarface' — transforming a sympathetic chemistry teacher into a calculating drug lord over five seasons",
       "explanation": "Gilligan famously pitched Breaking Bad as a story about a protagonist who transforms into the villain — reversing the typical TV formula where heroes might bend rules but ultimately remain good. Walter White's transformation from mild chemistry teacher to 'Heisenberg' — a methodical, ruthless drug lord — was meticulously plotted across 62 episodes. The show is also notable for its exceptional cinematography and for launching Aaron Paul's career as Jesse Pinkman.",
-      "memory_hook": "Gilligan pitched Breaking Bad as 'turning Mr. Chips into Scarface' — Walter White's slide from cancer-patient teacher to ruthless Heisenberg is the most rigorously plotted character transformation in TV history."
+      "memory_hook": "Gilligan pitched Breaking Bad as 'turning Mr. Chips into Scarface' — Walter White's slide from cancer-patient teacher to ruthless Heisenberg is the most rigorously plotted character transformation in TV history.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0069",
       "category": "Geography",
       "question": "Which is the largest island in the Caribbean Sea?",
       "options": [
@@ -116,9 +173,16 @@
       ],
       "answer": "Cuba",
       "explanation": "Cuba spans 109,884 km² — making it the largest island in the Caribbean, more than twice the size of Hispaniola (Haiti and the Dominican Republic). Christopher Columbus landed on Cuba in 1492, calling it 'the most beautiful land human eyes have ever seen.' It was a Spanish colony for nearly 400 years before becoming a US protectorate and eventually a communist state under Fidel Castro in 1959.",
-      "memory_hook": "Cuba = largest Caribbean island. 2x bigger than Hispaniola. Columbus called it the most beautiful land he'd ever seen. Spanish for 400 years, then independent, then communist. 90 miles from Florida — the Cold War's most tense geographic fact."
+      "memory_hook": "Cuba = largest Caribbean island. 2x bigger than Hispaniola. Columbus called it the most beautiful land he'd ever seen. Spanish for 400 years, then independent, then communist. 90 miles from Florida — the Cold War's most tense geographic fact.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0070",
       "category": "Science & Nature",
       "question": "Which part of the human brain, located at the back of the skull, is primarily responsible for balance, coordination, and fine motor control?",
       "options": [
@@ -129,9 +193,16 @@
       ],
       "answer": "Cerebellum",
       "explanation": "The cerebellum ('little brain' in Latin) occupies the rear of the skull and contains more neurons than the rest of the brain combined, despite accounting for only about 10% of total brain volume. It coordinates movement, maintains balance, and refines fine motor skills. Alcohol impairs the cerebellum first — which is why intoxicated people stumble and have poor coordination before their thinking is severely affected. The cerebrum handles reasoning; the brain stem controls breathing and heart rate.",
-      "memory_hook": "Cerebellum = coordination. 'Little brain' at the back — more neurons than the rest of the brain. Alcohol hits it first: that's why drunk people stumble before they slur badly. Your cerebellum makes everything smooth."
+      "memory_hook": "Cerebellum = coordination. 'Little brain' at the back — more neurons than the rest of the brain. Alcohol hits it first: that's why drunk people stumble before they slur badly. Your cerebellum makes everything smooth.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0071",
       "category": "Geography",
       "question": "The Pantanal, the world's largest tropical wetland covering approximately 150,000 km², is located primarily in which country?",
       "options": [
@@ -142,9 +213,16 @@
       ],
       "answer": "Brazil",
       "explanation": "The Pantanal covers about 150,000-195,000 km² primarily in Brazil's Mato Grosso do Sul state, with portions in Bolivia and Paraguay. Unlike the Amazon, the Pantanal floods seasonally (during wet season, 80% is submerged) then dries, creating a pulsing mosaic of habitats. It has one of the highest densities of wildlife in the Americas: jaguars, giant anteaters, hyacinth macaws, caimans, giant otters, and tapirs. The 2020 wildfires burned roughly 30% of the Pantanal.",
-      "memory_hook": "Pantanal: world's largest tropical wetland, mostly in Brazil. 150,000+ km², floods 80% seasonally. Highest jaguar density in the Americas. Giant anteaters, hyacinth macaws, 10 million caimans. 2020 fires burned 30% of it. Less famous than the Amazon but arguably wilder."
+      "memory_hook": "Pantanal: world's largest tropical wetland, mostly in Brazil. 150,000+ km², floods 80% seasonally. Highest jaguar density in the Americas. Giant anteaters, hyacinth macaws, 10 million caimans. 2020 fires burned 30% of it. Less famous than the Amazon but arguably wilder.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0072",
       "category": "Science & Nature",
       "question": "What distinguishes plant cells from animal cells — what structure does a plant cell have that an animal cell lacks?",
       "options": [
@@ -155,7 +233,13 @@
       ],
       "answer": "Cell wall",
       "explanation": "Plant cells have a rigid cell wall made of cellulose outside their cell membrane, providing structural support and protection. Animal cells lack a cell wall — they have only a flexible cell membrane. Plant cells also contain chloroplasts (for photosynthesis) and large central vacuoles (for water storage and turgor pressure). The cell wall is what makes plants rigid enough to stand without skeletons — trees are essentially stacked cells with cellulose walls holding them upright.",
-      "memory_hook": "Plant cells have cell walls (cellulose), animal cells don't. Cell walls make plants rigid — trees are basically stacked cells with wooden walls. Plants also have chloroplasts (photosynthesis) and central vacuoles (water storage). Animal cells are more flexible; plant cells are more structured. This is why wood is wood."
+      "memory_hook": "Plant cells have cell walls (cellulose), animal cells don't. Cell walls make plants rigid — trees are basically stacked cells with wooden walls. Plants also have chloroplasts (photosynthesis) and central vacuoles (water storage). Animal cells are more flexible; plant cells are more structured. This is why wood is wood.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     }
   ]
 }

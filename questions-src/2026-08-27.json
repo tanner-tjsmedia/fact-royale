@@ -2,6 +2,7 @@
   "date": "2026-08-27",
   "questions": [
     {
+      "id": "frq-0877",
       "category": "History",
       "question": "Sparta sent only 300 citizens to Thermopylae despite the threat. Why so few?",
       "options": [
@@ -12,9 +13,16 @@
       ],
       "answer": "A religious festival barred them from marching in force",
       "explanation": "The Carneia, a sacred festival, prohibited military campaigning, and the Olympic truce was running simultaneously. Sparta sent an advance guard under Leonidas intending to follow with the full army afterward. Athens faced the same problem before Marathon when Sparta delayed for the same religious reason. Spartan society rested on the helots, an enslaved population several times their number, which also made sending the whole army abroad genuinely risky.",
-      "memory_hook": "The Carneia festival banned campaigning, and the Olympic truce overlapped, so Sparta sent an advance guard meaning to follow later. They had delayed on Athens before Marathon for the same reason. They also could not empty the city, since the enslaved helots outnumbered them several times over."
+      "memory_hook": "The Carneia festival banned campaigning, and the Olympic truce overlapped, so Sparta sent an advance guard meaning to follow later. They had delayed on Athens before Marathon for the same reason. They also could not empty the city, since the enslaved helots outnumbered them several times over.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0878",
       "category": "Science & Nature",
       "question": "Proxima Centauri is the nearest star at 4.24 light-years. How long would current spacecraft take to reach it?",
       "options": [
@@ -25,9 +33,16 @@
       ],
       "answer": "Around 70,000 years at Voyager's speed",
       "explanation": "Voyager 1 is the fastest object humans have sent out of the solar system and would still need tens of thousands of years to cover that distance. The scale is the point: 4.24 light-years is 40 trillion kilometres. Proxima also has a planet, Proxima b, in the habitable zone, but it is a red dwarf prone to violent flares that would likely strip an atmosphere. Proxima is too faint to see with the naked eye despite being closest.",
-      "memory_hook": "Voyager 1 is the fastest thing we have ever launched and would need around 70,000 years. That is 40 trillion kilometres. Proxima does have a planet in the habitable zone, but it is a flare-prone red dwarf that would likely strip the atmosphere off. You cannot see Proxima with the naked eye."
+      "memory_hook": "Voyager 1 is the fastest thing we have ever launched and would need around 70,000 years. That is 40 trillion kilometres. Proxima does have a planet in the habitable zone, but it is a flare-prone red dwarf that would likely strip the atmosphere off. You cannot see Proxima with the naked eye.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0879",
       "category": "Sports",
       "question": "Formula 1's record for World Drivers' Championships is shared by two men. Who?",
       "options": [
@@ -38,9 +53,16 @@
       ],
       "answer": "Michael Schumacher and Lewis Hamilton, seven each",
       "explanation": "Schumacher won five consecutively with Ferrari from 2000, and Hamilton equalled the total in 2020. Fangio's five in the 1950s came when a season ran seven races and fatalities were common, which makes direct comparison difficult. Hamilton lost a likely eighth in 2021 in Abu Dhabi after a contested safety car decision that led to the race director being removed from the role.",
-      "memory_hook": "Schumacher took seven, five of them consecutively with Ferrari. Hamilton matched it in 2020. Fangio's five came when a season was seven races and drivers regularly died, so comparing eras is hard. Hamilton probably lost an eighth in Abu Dhabi 2021 over a safety car call that cost the race director his job."
+      "memory_hook": "Schumacher took seven, five of them consecutively with Ferrari. Hamilton matched it in 2020. Fangio's five came when a season was seven races and drivers regularly died, so comparing eras is hard. Hamilton probably lost an eighth in Abu Dhabi 2021 over a safety car call that cost the race director his job.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0880",
       "category": "Pop Culture",
       "question": "Pixar's Monsters, Inc. (2001) required a technical breakthrough. What was it?",
       "options": [
@@ -51,9 +73,16 @@
       ],
       "answer": "Simulating Sulley's 2.3 million individual hairs",
       "explanation": "Fur had defeated computer animation because every strand needs to move independently and respond to light and contact. Pixar wrote new software for it, and some frames took over eleven hours to render. Sulley was originally designed with far less fur until the team decided to attempt it. The same problem is why earlier Pixar films used toys, bugs and smooth surfaces, and cloth on Boo's shirt was a second hard problem solved for the same film.",
-      "memory_hook": "Fur had beaten computer animation because every strand has to move and catch light independently. Pixar wrote new software for it and some frames took eleven hours each. It is why earlier films used toys and bugs with smooth surfaces. Boo's cloth shirt was the second hard problem."
+      "memory_hook": "Fur had beaten computer animation because every strand has to move and catch light independently. Pixar wrote new software for it and some frames took eleven hours each. It is why earlier films used toys and bugs with smooth surfaces. Boo's cloth shirt was the second hard problem.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0881",
       "category": "Geography",
       "question": "India overtook China as the most populous country in 2023. What is driving the divergence?",
       "options": [
@@ -64,9 +93,16 @@
       ],
       "answer": "China's one-child policy left a shrinking workforce",
       "explanation": "China's fertility rate fell below replacement decades ago, accelerated by the one-child policy from 1980 to 2015, and its population began declining in 2022. India's fertility has also fallen below replacement, to around 2.0, but its younger age structure means it keeps growing for now. China now faces a shrinking workforce supporting a large retired population, and scrapping the policy did not reverse it, since preferences had already shifted.",
-      "memory_hook": "China's fertility fell below replacement decades ago, hastened by the one-child policy from 1980 to 2015, and the population started shrinking in 2022. India's fertility is also below replacement now, but its younger population keeps it growing. Ending the policy did not reverse anything."
+      "memory_hook": "China's fertility fell below replacement decades ago, hastened by the one-child policy from 1980 to 2015, and the population started shrinking in 2022. India's fertility is also below replacement now, but its younger population keeps it growing. Ending the policy did not reverse anything.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0882",
       "category": "History",
       "question": "The Chernobyl nuclear disaster of 1986 occurred in which country (as it existed at the time)?",
       "options": [
@@ -77,9 +113,16 @@
       ],
       "answer": "The Soviet Union, in what is now Ukraine",
       "explanation": "The Chernobyl Nuclear Power Plant was in the Ukrainian Soviet Socialist Republic, part of the USSR. The explosion on April 26, 1986 was caused by a flawed reactor design and operator error during a safety test. About 350,000 people were evacuated from the surrounding area, which remains partially restricted today.",
-      "memory_hook": "Chernobyl: April 26, 1986, Ukrainian SSR. Safety test gone wrong. 350,000 evacuated."
+      "memory_hook": "Chernobyl: April 26, 1986, Ukrainian SSR. Safety test gone wrong. 350,000 evacuated.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0883",
       "category": "Pop Culture",
       "question": "Netflix started as a DVD-by-mail service. What decision nearly destroyed it in 2011?",
       "options": [
@@ -90,9 +133,16 @@
       ],
       "answer": "Splitting DVD and streaming into two separate services",
       "explanation": "Netflix separated its DVD business into a brand called Qwikster and effectively raised prices 60% for people wanting both. It lost roughly 800,000 subscribers, the stock dropped about 75%, and Qwikster was cancelled within a month. Reed Hastings publicly apologised. The strategic instinct that streaming was the future was correct; the execution was not. Blockbuster had turned down a chance to buy Netflix for $50 million in 2000.",
-      "memory_hook": "They split DVDs into a separate brand called Qwikster and effectively raised prices 60% for anyone wanting both. 800,000 subscribers gone, stock down 75%, Qwikster killed within a month. The strategy was right and the execution was a disaster. Blockbuster passed on buying them for $50 million in 2000."
+      "memory_hook": "They split DVDs into a separate brand called Qwikster and effectively raised prices 60% for anyone wanting both. 800,000 subscribers gone, stock down 75%, Qwikster killed within a month. The strategy was right and the execution was a disaster. Blockbuster passed on buying them for $50 million in 2000.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0884",
       "category": "Science & Nature",
       "question": "Plate tectonics was rejected for decades before being accepted in the 1960s. What was the objection?",
       "options": [
@@ -103,9 +153,16 @@
       ],
       "answer": "Nobody could explain what force would move continents",
       "explanation": "Wegener assembled strong evidence in 1912, matching coastlines, identical fossils on separated continents, and aligned rock formations, but had no plausible mechanism, and his suggested forces were demonstrably too weak. Geologists reasonably declined to accept an effect with no cause. Seafloor spreading supplied the missing mechanism in the 1960s, with mantle convection and magnetic striping. Wegener died on a Greenland expedition in 1930, thirty years before vindication.",
-      "memory_hook": "Wegener had the evidence in 1912, matching coastlines and identical fossils on separate continents, but no mechanism, and his proposed forces were far too weak. Geologists were right to refuse an effect with no cause. Seafloor spreading supplied it in the 1960s. Wegener died in Greenland in 1930."
+      "memory_hook": "Wegener had the evidence in 1912, matching coastlines and identical fossils on separate continents, but no mechanism, and his proposed forces were far too weak. Geologists were right to refuse an effect with no cause. Seafloor spreading supplied it in the 1960s. Wegener died in Greenland in 1930.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0885",
       "category": "Geography",
       "question": "The Drake Passage between South America and Antarctica has the roughest seas on Earth. Why?",
       "options": [
@@ -116,9 +173,16 @@
       ],
       "answer": "No landmass interrupts the current circling Antarctica",
       "explanation": "The Antarctic Circumpolar Current runs the whole way around the continent with no continental barrier to break it, so wind and water accumulate energy over an unbroken fetch and squeeze through an 800km gap. It carries more water than all the world's rivers combined, roughly 600 times the Amazon. The passage opening around 34 million years ago thermally isolated Antarctica and is a major reason it glaciated.",
-      "memory_hook": "Nothing interrupts the current circling Antarctica, so wind and water build energy all the way around and then squeeze through an 800km gap. It moves about 600 times the Amazon's flow. When the passage opened 34 million years ago it thermally isolated Antarctica, which is why it froze."
+      "memory_hook": "Nothing interrupts the current circling Antarctica, so wind and water build energy all the way around and then squeeze through an 800km gap. It moves about 600 times the Amazon's flow. When the passage opened 34 million years ago it thermally isolated Antarctica, which is why it froze.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0886",
       "category": "History",
       "question": "Copernicus proposed a Sun-centred model in 1543. Why was it not immediately convincing?",
       "options": [
@@ -129,9 +193,16 @@
       ],
       "answer": "It predicted planetary positions no better than the old model",
       "explanation": "Copernicus kept perfectly circular orbits, so his model still needed epicycles and was no more accurate than Ptolemy's, only conceptually simpler. Kepler's elliptical orbits fixed that in 1609. There was also no detectable stellar parallax, which should have appeared if Earth moved, and the real explanation, that stars are unimaginably far away, was hard to accept. Copernicus published in the year he died, avoiding the argument entirely.",
-      "memory_hook": "He kept circular orbits, so he still needed epicycles and was no more accurate than Ptolemy, just tidier. Kepler's ellipses fixed it in 1609. There was also no visible stellar parallax, which should appear if Earth moves, and the answer, that stars are absurdly far away, was hard to swallow."
+      "memory_hook": "He kept circular orbits, so he still needed epicycles and was no more accurate than Ptolemy, just tidier. Kepler's ellipses fixed it in 1609. There was also no visible stellar parallax, which should appear if Earth moves, and the answer, that stars are absurdly far away, was hard to swallow.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0887",
       "category": "Pop Culture",
       "question": "Rihanna became the wealthiest female musician, but not mainly from music. How?",
       "options": [
@@ -142,9 +213,16 @@
       ],
       "answer": "Fenty Beauty, built around a very wide shade range",
       "explanation": "Fenty Beauty launched in 2017 with 40 foundation shades, later 50, in an industry that routinely offered a handful of pale options. It made around $100 million in forty days and forced competitors to expand their ranges, an effect the industry now calls the Fenty Effect. Most of her wealth comes from that and from Savage X Fenty rather than recording, and she has released no studio album since 2016.",
-      "memory_hook": "Fenty Beauty launched in 2017 with 40 foundation shades in an industry that offered a handful of pale ones, made about $100 million in forty days, and forced everyone else to expand. The industry calls it the Fenty Effect. Most of her money is that and Savage X Fenty, not records."
+      "memory_hook": "Fenty Beauty launched in 2017 with 40 foundation shades in an industry that offered a handful of pale ones, made about $100 million in forty days, and forced everyone else to expand. The industry calls it the Fenty Effect. Most of her money is that and Savage X Fenty, not records.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0888",
       "category": "Sports",
       "question": "The 2012 Ryder Cup at Medinah became known as the 'Miracle at Medinah.' What happened?",
       "options": [
@@ -155,7 +233,13 @@
       ],
       "answer": "Europe trailed 10-6, then won the singles 8.5 to 3.5",
       "explanation": "Going into Sunday, the USA needed just 4 points from 12 singles matches to retain the cup; Europe needed 8.5. No team had ever overcome a deficit that large on the final day. Europe won the first five matches Sunday morning. Jose Maria Olazabal (European captain, invoking the memory of Seve Ballesteros who had died in 2011) watched as his team stormed back. Martin Kaymer — playing Steve Stricker — holed a 6-foot putt on the 18th to tie the match and give Europe the 14.5 points they needed for outright victory. Francesco Molinari halved the final match to make it 14.5-13.5. Tiger Woods lost to Francesco Molinari.",
-      "memory_hook": "Europe needed 8.5 points from 12 singles matches — something no team had ever done. Captain Olazabal dedicated the comeback to Seve Ballesteros, who had died in 2011. Europe won the first five singles and kept going. Kaymer holed the winning putt on 18. Tiger Woods lost his match to Molinari. Final: 14.5-13.5."
+      "memory_hook": "Europe needed 8.5 points from 12 singles matches — something no team had ever done. Captain Olazabal dedicated the comeback to Seve Ballesteros, who had died in 2011. Europe won the first five singles and kept going. Kaymer holed the winning putt on 18. Tiger Woods lost his match to Molinari. Final: 14.5-13.5.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     }
   ]
 }

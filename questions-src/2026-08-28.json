@@ -2,6 +2,7 @@
   "date": "2026-08-28",
   "questions": [
     {
+      "id": "frq-0889",
       "category": "History",
       "question": "The Great Wall of China is often said to be visible from space. Is it?",
       "options": [
@@ -12,9 +13,16 @@
       ],
       "answer": "No, and astronauts have repeatedly confirmed you cannot",
       "explanation": "The wall is long but only a few metres wide and built from local material that blends into the surrounding land, so it is effectively invisible from orbit. Chinese astronaut Yang Liwei said plainly that he could not see it. The claim predates spaceflight entirely, appearing in print in the 1930s. Cities, airports and reservoirs are far easier to spot. The wall is also not one continuous structure but many walls built across centuries.",
-      "memory_hook": "It is long but only a few metres wide, built from local materials that blend into the ground, so no. Chinese astronaut Yang Liwei confirmed he could not see it. The myth predates spaceflight, appearing in print in the 1930s. Cities and airports are easy to see; the wall is not."
+      "memory_hook": "It is long but only a few metres wide, built from local materials that blend into the ground, so no. Chinese astronaut Yang Liwei confirmed he could not see it. The myth predates spaceflight, appearing in print in the 1930s. Cities and airports are easy to see; the wall is not.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0890",
       "category": "Science & Nature",
       "question": "A proton carries positive charge. What did the discovery of quarks reveal about it?",
       "options": [
@@ -25,9 +33,16 @@
       ],
       "answer": "It is not fundamental but made of three smaller particles",
       "explanation": "A proton contains two up quarks and one down quark bound by gluons. Oddly, those quarks account for only about 1% of the proton's mass; the rest comes from the energy of the binding itself, which is mass-energy equivalence doing real work in your own atoms. Quarks cannot be isolated: pull them apart and the energy creates new quarks instead. Free protons appear to be stable, with a measured lifetime exceeding the age of the universe.",
-      "memory_hook": "Two up quarks and one down, held by gluons. The quarks are only about 1% of the mass; the rest is the binding energy itself, which is E=mc² operating inside you right now. You cannot pull a quark out, because the energy of trying just makes new ones."
+      "memory_hook": "Two up quarks and one down, held by gluons. The quarks are only about 1% of the mass; the rest is the binding energy itself, which is E=mc² operating inside you right now. You cannot pull a quark out, because the energy of trying just makes new ones.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0891",
       "category": "Sports",
       "question": "Jack Nicklaus won 18 majors. What is less well known about his record?",
       "options": [
@@ -38,9 +53,16 @@
       ],
       "answer": "He finished runner-up in majors 19 times, more than he won",
       "explanation": "Nicklaus has 18 wins and 19 second-place finishes, so he was in contention on the final day of a major an extraordinary number of times across a career spanning 1962 to 1986. He won the Masters in 1986 at forty-six, still the oldest champion. Tiger Woods stalled on 15 after injuries. Nicklaus also designed over 300 golf courses, which occupied more of his working life than playing did.",
-      "memory_hook": "18 wins and 19 runner-up finishes, so he was in contention on Sunday more than anyone. He won the Masters at forty-six in 1986, still the oldest. Woods stalled on 15 with injuries. Nicklaus has also designed over 300 courses, which took up more of his career than playing."
+      "memory_hook": "18 wins and 19 runner-up finishes, so he was in contention on Sunday more than anyone. He won the Masters at forty-six in 1986, still the oldest. Woods stalled on 15 with injuries. Nicklaus has also designed over 300 courses, which took up more of his career than playing.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0892",
       "category": "Pop Culture",
       "question": "Goodfellas (1990) follows a real FBI informant. What happened to Henry Hill afterward?",
       "options": [
@@ -51,9 +73,16 @@
       ],
       "answer": "He was thrown out of witness protection for more crimes",
       "explanation": "Hill kept getting arrested on drug charges and was expelled from the programme in the early 1990s, after which he lived openly, gave interviews and appeared on radio. He died in 2012. New York's Son of Sam law was meant to stop criminals profiting from their stories, and the Supreme Court struck it down in 1991 in a case arising directly from the book Goodfellas was based on.",
-      "memory_hook": "He kept getting arrested on drug charges and got thrown out of witness protection, then lived openly giving interviews until he died in 2012. New York's law against criminals profiting from their stories was struck down by the Supreme Court in a case about this exact book."
+      "memory_hook": "He kept getting arrested on drug charges and got thrown out of witness protection, then lived openly giving interviews until he died in 2012. New York's law against criminals profiting from their stories was struck down by the Supreme Court in a case about this exact book.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0893",
       "category": "Geography",
       "question": "The Arctic Ocean is the smallest and shallowest. What is happening to its ice?",
       "options": [
@@ -67,9 +96,16 @@
       "memory_hook": "September ice is falling about 12% per decade since 1979, and the 2010s ran roughly 36% below the 1980s. What remains is thinner and younger. White ice reflects sunlight, dark water absorbs it, so melting feeds melting. The Arctic warms several times faster than the rest of the planet.",
       "sourceRefs": [
         "arctic-sea-ice"
-      ]
+      ],
+      "review": {
+        "state": "verified",
+        "at": "2026-09-03",
+        "by": "tanner@tjs16media.com",
+        "note": "carried over: had a cited source before IDs existed"
+      }
     },
     {
+      "id": "frq-0894",
       "category": "History",
       "question": "Franz Ferdinand's assassination triggered the First World War. What nearly prevented it?",
       "options": [
@@ -80,9 +116,16 @@
       ],
       "answer": "The first attempt failed and his driver took a wrong turn",
       "explanation": "A bomb thrown that morning bounced off the car and wounded others. Franz Ferdinand insisted on visiting the injured in hospital, the route changed, and the driver was not told, took a wrong turn, and stopped to reverse directly in front of Gavrilo Princip, who had given up and gone for a sandwich. The chain of accidents is why the event is a standard example of contingency in history.",
-      "memory_hook": "A bomb that morning bounced off the car. He insisted on visiting the wounded, the route changed, nobody told the driver, and he took a wrong turn and stopped to reverse right in front of Princip, who had given up and gone to get a sandwich."
+      "memory_hook": "A bomb that morning bounced off the car. He insisted on visiting the wounded, the route changed, nobody told the driver, and he took a wrong turn and stopped to reverse right in front of Princip, who had given up and gone to get a sandwich.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0895",
       "category": "Pop Culture",
       "question": "Robert Downey Jr played Iron Man for over a decade. Why did Marvel almost not cast him?",
       "options": [
@@ -93,9 +136,16 @@
       ],
       "answer": "He was uninsurable after years of drug arrests and jail",
       "explanation": "Downey had multiple arrests and a prison term in the late 1990s and was effectively unemployable in studio films. Jon Favreau pushed hard for him and Marvel eventually agreed to a screen test. He was paid around $500,000 for the first film and reportedly over $50 million for later appearances once profit participation kicked in. The casting is widely credited with making the entire Marvel Cinematic Universe viable.",
-      "memory_hook": "Multiple arrests and a prison term had left him uninsurable and unemployable in studio films. Favreau fought for him and Marvel finally allowed a screen test. He got about $500,000 for the first film and reportedly over $50 million for later ones once the profit share kicked in."
+      "memory_hook": "Multiple arrests and a prison term had left him uninsurable and unemployable in studio films. Favreau fought for him and Marvel finally allowed a screen test. He got about $500,000 for the first film and reportedly over $50 million for later ones once the profit share kicked in.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0896",
       "category": "Science & Nature",
       "question": "The ISS has been continuously crewed since November 2000. Which description of it is accurate?",
       "options": [
@@ -106,9 +156,16 @@
       ],
       "answer": "408 km up, 16 orbits a day, 271 people from 21 nations",
       "explanation": "The ISS is as large as a football field (109 meters end to end) and weighs 420,000 kg. At 28,000 km/h, it experiences 16 sunrises and sunsets per day. It was assembled module by module over 13 years of missions (1998–2011) involving 42 Space Shuttle flights and Russian Soyuz missions. Astronauts on six-month missions experience significant muscle and bone loss from microgravity, requiring daily exercise. The ISS hosts research in medicine, physics, materials science, and Earth observation. Its orbit is visible to the naked eye — NASA's 'Spot the Station' app predicts passes.",
-      "memory_hook": "The ISS completes 16 orbits per day at 28,000 km/h — fast enough to see 16 sunrises and sunsets every 24 hours. It's been continuously crewed since November 2000 and is visible to the naked eye. NASA's 'Spot the Station' app tells you exactly when it'll cross your sky."
+      "memory_hook": "The ISS completes 16 orbits per day at 28,000 km/h — fast enough to see 16 sunrises and sunsets every 24 hours. It's been continuously crewed since November 2000 and is visible to the naked eye. NASA's 'Spot the Station' app tells you exactly when it'll cross your sky.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0897",
       "category": "Geography",
       "question": "Lake Baikal holds about 20% of the world's unfrozen fresh water. What makes it so deep?",
       "options": [
@@ -119,9 +176,16 @@
       ],
       "answer": "It sits in a continental rift that is still pulling apart",
       "explanation": "Baikal lies in an active rift where the crust is separating by about two centimetres a year, deepening the basin faster than sediment fills it. At 1,642m it is the deepest lake on Earth and the oldest at roughly 25 million years, and that age has produced extraordinary endemic life, including the nerpa, the only exclusively freshwater seal, whose ancestors reached a lake 2,000km from any ocean.",
-      "memory_hook": "It sits in an active continental rift pulling apart about two centimetres a year, so the basin deepens faster than sediment fills it. Deepest at 1,642m and oldest at 25 million years, which is why it has the nerpa, the world's only freshwater seal, 2,000km from any sea."
+      "memory_hook": "It sits in an active continental rift pulling apart about two centimetres a year, so the basin deepens faster than sediment fills it. Deepest at 1,642m and oldest at 25 million years, which is why it has the nerpa, the world's only freshwater seal, 2,000km from any sea.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0898",
       "category": "History",
       "question": "Joan of Arc turned the Hundred Years' War at seventeen. What happened to her afterward?",
       "options": [
@@ -132,9 +196,16 @@
       ],
       "answer": "Burned as a heretic, then declared innocent 25 years later",
       "explanation": "Captured by Burgundians and sold to the English, she was tried by a church court in 1431 and burned at Rouen at nineteen. The charges leaned heavily on her wearing men's clothing. A retrial in 1456, ordered after France had won, annulled the verdict entirely. She was canonised in 1920, nearly five centuries later. She was an illiterate farmer's daughter who convinced a king to give her an army.",
-      "memory_hook": "Captured by Burgundians, sold to the English, tried by a church court and burned at Rouen at nineteen, largely over wearing men's clothes. A retrial in 1456 annulled the whole verdict. Canonised in 1920. She was an illiterate farmer's daughter who talked a king into giving her an army."
+      "memory_hook": "Captured by Burgundians, sold to the English, tried by a church court and burned at Rouen at nineteen, largely over wearing men's clothes. A retrial in 1456 annulled the whole verdict. Canonised in 1920. She was an illiterate farmer's daughter who talked a king into giving her an army.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0899",
       "category": "Pop Culture",
       "question": "Jay-Z became hip-hop's first billionaire. Where does most of that wealth come from?",
       "options": [
@@ -145,9 +216,16 @@
       ],
       "answer": "Stakes in champagne, cognac and a streaming service",
       "explanation": "The bulk came from equity rather than records: Armand de Brignac champagne, a D'Ussé cognac stake, Tidal, Roc Nation and art. He also famously sold his Rocawear clothing line for $204 million. He started selling records out of a car after labels turned him down, then founded Roc-A-Fella to release his own. He has 24 Grammys and is married to Beyoncé, itself a considerable concentration of wealth.",
-      "memory_hook": "Mostly equity, not music: Armand de Brignac champagne, D'Ussé cognac, Tidal, Roc Nation and art, plus $204 million for Rocawear. He started selling CDs out of a car after labels passed, then built Roc-A-Fella to put out his own records."
+      "memory_hook": "Mostly equity, not music: Armand de Brignac champagne, D'Ussé cognac, Tidal, Roc Nation and art, plus $204 million for Rocawear. He started selling CDs out of a car after labels passed, then built Roc-A-Fella to put out his own records.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0900",
       "category": "Sports",
       "question": "The Olympic medley relay has four swimmers using four different strokes. What is the order?",
       "options": [
@@ -158,7 +236,13 @@
       ],
       "answer": "Backstroke, breaststroke, butterfly, freestyle",
       "explanation": "Backstroke goes first because it starts in the water, so it cannot follow a swimmer touching the wall. The rest run slowest to fastest, finishing with freestyle for a sprint ending. The individual medley uses a different order entirely, butterfly first and backstroke second, because there is no in-water start to accommodate. The US has historically dominated the event, though relay upsets are among the most watched moments in the sport.",
-      "memory_hook": "Backstroke leads because it starts in the water and cannot follow someone touching the wall. Then slowest to fastest, ending on freestyle for the sprint finish. The individual medley uses a different order entirely, since one swimmer has no handover problem to solve."
+      "memory_hook": "Backstroke leads because it starts in the water and cannot follow someone touching the wall. Then slowest to fastest, ending on freestyle for the sprint finish. The individual medley uses a different order entirely, since one swimmer has no handover problem to solve.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     }
   ]
 }

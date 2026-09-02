@@ -1,6 +1,7 @@
 {
   "questions": [
     {
+      "id": "frq-0361",
       "category": "History",
       "question": "Which explorer is traditionally credited with 'discovering' America in 1492?",
       "options": [
@@ -11,9 +12,16 @@
       ],
       "answer": "Christopher Columbus",
       "explanation": "Christopher Columbus arrived in the Americas on October 12, 1492, when he landed in the Bahamas. While Leif Erikson reached North America around 1000 AD, Columbus's voyage opened sustained contact between Europe and the Americas. Columbus believed he had reached Asia and called the inhabitants 'Indians.'",
-      "memory_hook": "Columbus 1492: sailed the ocean blue. He was wrong about where — but changed the world anyway."
+      "memory_hook": "Columbus 1492: sailed the ocean blue. He was wrong about where — but changed the world anyway.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0362",
       "category": "History",
       "question": "Which country did Hitler's Germany invade to trigger Britain and France entering WWII?",
       "options": [
@@ -24,9 +32,16 @@
       ],
       "answer": "Poland",
       "explanation": "Germany invaded Poland on September 1, 1939. Britain and France, bound by treaty obligations to Poland, declared war on Germany two days later on September 3, 1939, officially beginning the European theater of World War II.",
-      "memory_hook": "Poland = the trigger. One invasion started a world war."
+      "memory_hook": "Poland = the trigger. One invasion started a world war.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0363",
       "category": "Sports",
       "question": "What is the standard height of a basketball hoop from the floor?",
       "options": [
@@ -37,9 +52,16 @@
       ],
       "answer": "10 feet",
       "explanation": "A standard basketball hoop is 10 feet (3.05 meters) above the floor in the NBA, NCAA, and FIBA. The height has been standard since James Naismith invented the game in 1891. Shaquille O'Neal could touch the rim flat-footed due to his height and wingspan.",
-      "memory_hook": "10 feet high — the standard since basketball was invented in 1891."
+      "memory_hook": "10 feet high — the standard since basketball was invented in 1891.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0364",
       "category": "Sports",
       "question": "What sport takes place on a 'pitch' with a 'wicket'?",
       "options": [
@@ -50,9 +72,16 @@
       ],
       "answer": "Cricket",
       "explanation": "Cricket is played on a grass oval called a 'pitch,' with the wicket — three stumps topped by two bails — at each end of the central 22-yard strip. The batsman defends the wicket while the bowler attempts to knock off the bails. Cricket is especially popular in the UK, India, Australia, and the Caribbean.",
-      "memory_hook": "Cricket: pitch + wicket + tea breaks. Very British."
+      "memory_hook": "Cricket: pitch + wicket + tea breaks. Very British.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0365",
       "category": "Pop Culture",
       "question": "Adele won the Academy Award for Best Original Song in 2013 for the theme to which James Bond film?",
       "options": [
@@ -63,9 +92,16 @@
       ],
       "answer": "Skyfall",
       "explanation": "Skyfall (2012), directed by Sam Mendes, was the 23rd James Bond film and celebrated the franchise's 50th anniversary. Adele's theme song won the Academy Award and Grammy Award for Best Song Written for Visual Media.",
-      "memory_hook": "Adele + Bond + Oscar = Skyfall (2012). The theme is named after the villain's estate."
+      "memory_hook": "Adele + Bond + Oscar = Skyfall (2012). The theme is named after the villain's estate.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0366",
       "category": "Pop Culture",
       "question": "The Office (US, NBC, 2005–2013), adapted from Ricky Gervais's UK series, became one of the most-watched TV shows in streaming history. What structural decision made it culturally distinct?",
       "options": [
@@ -76,9 +112,16 @@
       ],
       "answer": "It used a mockumentary format — a fictional documentary crew following Dunder Mifflin paper employees — creating humor through awkward pauses, talking-head confessionals, and the gap between characters' self-perception and reality",
       "explanation": "The mockumentary format — adapted from Gervais's original — let The Office explore cringe comedy through naturalistic camera work, documentary-style talking heads, and characters who never quite explain why a camera crew is following them. Steve Carell's Michael Scott became one of TV's great comic creations: a boss desperate for approval who consistently embarrasses himself. The finale drew 22.4 million viewers in 2013. It was the most streamed show on Netflix in 2020, even after leaving for Peacock.",
-      "memory_hook": "The Office adapted the UK mockumentary format — its genius was the gap between Michael Scott's self-image and reality, delivered through talking heads, awkward glances, and the unasked question of why a documentary crew was filming a paper company."
+      "memory_hook": "The Office adapted the UK mockumentary format — its genius was the gap between Michael Scott's self-image and reality, delivered through talking heads, awkward glances, and the unasked question of why a documentary crew was filming a paper company.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0367",
       "category": "Pop Culture",
       "question": "Founded by dairy farmer Michael Eavis in 1970 on his farm in Somerset, England, which festival is the world's largest greenfield music event with a capacity of over 200,000?",
       "options": [
@@ -89,9 +132,16 @@
       ],
       "answer": "Glastonbury Festival",
       "explanation": "Glastonbury Festival of Contemporary Performing Arts was founded by Michael Eavis on Worthy Farm in Pilton, Somerset. It first ran in 1970 with 1,500 attendees. Today it is one of the most famous music events in the world, featuring hundreds of acts across dozens of stages.",
-      "memory_hook": "Glastonbury = Worthy Farm, Somerset. Michael Eavis's dairy farm became a legend."
+      "memory_hook": "Glastonbury = Worthy Farm, Somerset. Michael Eavis's dairy farm became a legend.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0368",
       "category": "History",
       "question": "The 'Cold War' was a period of geopolitical tension between the United States and which other country?",
       "options": [
@@ -102,9 +152,16 @@
       ],
       "answer": "Soviet Union",
       "explanation": "The Cold War (1947–1991) was a period of geopolitical tension between the United States and the Soviet Union, and their respective allies. It involved nuclear arms race, proxy wars, and ideological competition between capitalism and communism but never a direct military conflict between the two superpowers.",
-      "memory_hook": "Cold War: US vs. USSR. No direct fighting — just everything except fighting."
+      "memory_hook": "Cold War: US vs. USSR. No direct fighting — just everything except fighting.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0369",
       "category": "Geography",
       "question": "The Suez Canal, opened in 1869, connects which two bodies of water?",
       "options": [
@@ -115,9 +172,16 @@
       ],
       "answer": "Mediterranean Sea and Red Sea",
       "explanation": "The Suez Canal in Egypt connects the Mediterranean Sea in the north to the Red Sea in the south, cutting through the Isthmus of Suez. It eliminates the need to sail around Africa via the Cape of Good Hope, shortening the sea route from Europe to Asia by up to 7,000 km.",
-      "memory_hook": "Suez = Mediterranean to Red Sea. Opened 1869, changed global trade forever. Before Suez, ships had to go all the way around Africa. After Suez, Europe and Asia were suddenly much closer."
+      "memory_hook": "Suez = Mediterranean to Red Sea. Opened 1869, changed global trade forever. Before Suez, ships had to go all the way around Africa. After Suez, Europe and Asia were suddenly much closer.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0370",
       "category": "Science & Nature",
       "question": "The 'Hubble Tension' is one of cosmology's most pressing current problems. What is it?",
       "options": [
@@ -128,9 +192,16 @@
       ],
       "answer": "Two independent methods of measuring the universe's expansion rate give significantly different answers — measurements from the early universe (CMB) and from nearby galaxies (Cepheids, supernovae) disagree by about 9%, which is too large to be measurement error",
       "explanation": "The Hubble constant (H₀) measures how fast the universe is expanding. CMB measurements from the early universe give about 67.4 km/s/Mpc; direct measurements from Cepheid stars and Type Ia supernovae in nearby galaxies give about 73 km/s/Mpc. A 9% disagreement with modern instruments and statistics is highly significant — it could indicate new physics beyond the Standard Model of cosmology, such as dark energy that changes over time, new types of particles in the early universe, or even modifications to general relativity. The James Webb Space Telescope was partly deployed to resolve this tension; so far it has made the discrepancy sharper.",
-      "memory_hook": "The Hubble Tension: two different methods of measuring the universe's expansion rate give numbers 9% apart. Early universe measurements say 67.4 km/s/Mpc; nearby galaxy measurements say 73. Both teams have triple-checked their math — if the difference is real, it means there's physics we don't know yet."
+      "memory_hook": "The Hubble Tension: two different methods of measuring the universe's expansion rate give numbers 9% apart. Early universe measurements say 67.4 km/s/Mpc; nearby galaxy measurements say 73. Both teams have triple-checked their math — if the difference is real, it means there's physics we don't know yet.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0371",
       "category": "Geography",
       "question": "The Maldives, an island nation in the Indian Ocean, is notable for which alarming geographic fact?",
       "options": [
@@ -141,9 +212,16 @@
       ],
       "answer": "It is the world's lowest-lying country, with an average elevation of about 1.5 meters",
       "explanation": "The Maldives consists of 26 atolls and about 1,200 islands in the Indian Ocean, southwest of India. Its average ground elevation of about 1.5 meters above sea level makes it the world's flattest and lowest-lying country — rising sea levels pose an existential threat. The government has purchased land in other countries as a potential relocation site for its 500,000 citizens. About 80% of the Maldives' islands are less than 1 meter above sea level.",
-      "memory_hook": "Maldives: average elevation 1.5 meters above sea level — world's lowest country. 80% of islands under 1 meter. Rising seas are an existential threat. Government bought land in Sri Lanka and Australia as a backup. A paradise counting down."
+      "memory_hook": "Maldives: average elevation 1.5 meters above sea level — world's lowest country. 80% of islands under 1 meter. Rising seas are an existential threat. Government bought land in Sri Lanka and Australia as a backup. A paradise counting down.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0372",
       "category": "Science & Nature",
       "question": "What process describes cell division in which one cell divides to produce two identical daughter cells for growth, repair, and asexual reproduction?",
       "options": [
@@ -154,7 +232,13 @@
       ],
       "answer": "Mitosis",
       "explanation": "Mitosis is the process of cell division where a parent cell duplicates its chromosomes and divides into two genetically identical daughter cells. It consists of four phases: prophase, metaphase, anaphase, and telophase (PMAT). Mitosis is used for growth and tissue repair in multicellular organisms. It is distinct from meiosis, which produces genetically varied gametes with half the chromosomes. Bacteria use binary fission rather than mitosis.",
-      "memory_hook": "Mitosis = cell division for growth and repair, produces 2 identical copies. PMAT: Prophase, Metaphase, Anaphase, Telophase. Not to be confused with meiosis (produces gametes, genetically varied, half chromosomes). You have ~37 trillion cells; most got there through mitosis."
+      "memory_hook": "Mitosis = cell division for growth and repair, produces 2 identical copies. PMAT: Prophase, Metaphase, Anaphase, Telophase. Not to be confused with meiosis (produces gametes, genetically varied, half chromosomes). You have ~37 trillion cells; most got there through mitosis.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     }
   ]
 }

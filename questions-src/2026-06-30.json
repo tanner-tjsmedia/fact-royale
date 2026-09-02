@@ -1,6 +1,7 @@
 {
   "questions": [
     {
+      "id": "frq-0181",
       "category": "History",
       "question": "What year did the United States declare independence?",
       "options": [
@@ -11,9 +12,16 @@
       ],
       "answer": "1776",
       "explanation": "The United States declared independence from Britain on July 4, 1776, when the Continental Congress formally adopted the Declaration of Independence, written primarily by Thomas Jefferson.",
-      "memory_hook": "1776 — four sevens: se7en se7en se7en... America was born."
+      "memory_hook": "1776 — four sevens: se7en se7en se7en... America was born.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0182",
       "category": "History",
       "question": "Which pharaoh is associated with the construction of the Great Pyramid of Giza?",
       "options": [
@@ -24,9 +32,16 @@
       ],
       "answer": "Khufu",
       "explanation": "The Great Pyramid of Giza was built as a tomb for Pharaoh Khufu (also known as Cheops) around 2560 BC. It stood as the tallest man-made structure in the world for over 3,800 years.",
-      "memory_hook": "Khufu built his tomb so big, it's still standing."
+      "memory_hook": "Khufu built his tomb so big, it's still standing.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0183",
       "category": "Sports",
       "question": "How long is a standard marathon race?",
       "options": [
@@ -37,9 +52,16 @@
       ],
       "answer": "26.2 miles",
       "explanation": "A standard marathon is 26.2 miles (42.195 km). The distance was standardized at the 1908 London Olympics to accommodate the British royal family — the race started at Windsor Castle and ended in front of the royal box at the Olympic stadium.",
-      "memory_hook": "26.2 — the .2 was added for royalty."
+      "memory_hook": "26.2 — the .2 was added for royalty.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0184",
       "category": "Sports",
       "question": "In which sport is the term 'love' used to mean zero?",
       "options": [
@@ -50,9 +72,16 @@
       ],
       "answer": "Tennis",
       "explanation": "In tennis, 'love' means zero points. The term is believed to derive from the French word 'l'oeuf' (the egg), referring to the egg-shaped zero. It has been used in tennis scoring since at least the 18th century.",
-      "memory_hook": "Love = zero = egg. In tennis, love means nothing — literally."
+      "memory_hook": "Love = zero = egg. In tennis, love means nothing — literally.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0185",
       "category": "Pop Culture",
       "question": "Which director is known for films like 'Pulp Fiction' and 'Kill Bill'?",
       "options": [
@@ -63,9 +92,16 @@
       ],
       "answer": "Quentin Tarantino",
       "explanation": "Quentin Tarantino is known for his nonlinear narratives, sharp dialogue, and stylized violence. His films include Pulp Fiction, Kill Bill, Inglourious Basterds, and Django Unchained. Pulp Fiction won the Palme d'Or at Cannes in 1994.",
-      "memory_hook": "Tarantino — his films are like puzzles: out of order and full of surprises."
+      "memory_hook": "Tarantino — his films are like puzzles: out of order and full of surprises.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0186",
       "category": "Pop Culture",
       "question": "Which band performed 'Bohemian Rhapsody'?",
       "options": [
@@ -76,9 +112,16 @@
       ],
       "answer": "Queen",
       "explanation": "'Bohemian Rhapsody' was written by Freddie Mercury and recorded by Queen in 1975. The six-minute song blends ballad, opera, and hard rock and is one of the best-selling singles of all time. It reached a new generation after appearing in the 1992 film Wayne's World.",
-      "memory_hook": "Queen — is this real life? Is this just fantasy? Yes, it's Bohemian Rhapsody."
+      "memory_hook": "Queen — is this real life? Is this just fantasy? Yes, it's Bohemian Rhapsody.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0187",
       "category": "Pop Culture",
       "question": "Which composer wrote the iconic score for the original Star Wars (1977)?",
       "options": [
@@ -89,9 +132,16 @@
       ],
       "answer": "John Williams",
       "explanation": "John Williams composed the score for Star Wars in 1977, earning him one of his five Academy Awards. The main theme is one of the most recognized pieces of music in film history. Williams also scored Indiana Jones, Jaws, Schindler's List, and Harry Potter.",
-      "memory_hook": "John Williams — the man behind every theme you can hum."
+      "memory_hook": "John Williams — the man behind every theme you can hum.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0188",
       "category": "History",
       "question": "Who invented the telephone?",
       "options": [
@@ -102,9 +152,16 @@
       ],
       "answer": "Alexander Graham Bell",
       "explanation": "Alexander Graham Bell is credited with inventing the first practical telephone, receiving a patent in 1876. His first words over the telephone were to his assistant: 'Mr. Watson, come here — I want to see you.'",
-      "memory_hook": "Bell invented the bell-shaped earpiece — his name was the clue."
+      "memory_hook": "Bell invented the bell-shaped earpiece — his name was the clue.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0189",
       "category": "Geography",
       "question": "Lake Baikal in Russia holds approximately what fraction of the world's unfrozen fresh surface water?",
       "options": [
@@ -115,9 +172,16 @@
       ],
       "answer": "20%",
       "explanation": "Lake Baikal in Siberia contains about 20% of the world's unfrozen fresh surface water — more than all of North America's Great Lakes combined. It is also the world's deepest lake at 1,642 meters and the world's oldest, at approximately 25 million years old.",
-      "memory_hook": "Baikal = 20% of Earth's fresh surface water. One lake, one-fifth of the planet's fresh water. The oldest and deepest lake on Earth, in Siberia."
+      "memory_hook": "Baikal = 20% of Earth's fresh surface water. One lake, one-fifth of the planet's fresh water. The oldest and deepest lake on Earth, in Siberia.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0190",
       "category": "Science & Nature",
       "question": "What structure carries oxygen from the lungs to the rest of the body?",
       "options": [
@@ -128,9 +192,16 @@
       ],
       "answer": "Red blood cells",
       "explanation": "Red blood cells contain hemoglobin, a protein that binds to oxygen in the lungs and releases it in other tissues. A single drop of blood contains about 5 million red blood cells. They have no nucleus, which gives them more room to carry hemoglobin and allows them to squeeze through tiny capillaries.",
-      "memory_hook": "Red blood cells carry oxygen. No nucleus — just a bag of hemoglobin built for one job. They live about 120 days, then get recycled by the spleen."
+      "memory_hook": "Red blood cells carry oxygen. No nucleus — just a bag of hemoglobin built for one job. They live about 120 days, then get recycled by the spleen.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0191",
       "category": "Geography",
       "question": "Mount Fuji, Japan's highest peak at 3,776 meters, is what type of volcano — characterized by steep, symmetrical sides built from alternating layers of lava and ash?",
       "options": [
@@ -141,9 +212,16 @@
       ],
       "answer": "Stratovolcano",
       "explanation": "Mount Fuji is a stratovolcano (also called a composite volcano) — a steep-sided cone built by alternating layers of hardened lava, ash, and volcanic rock. Stratovolcanoes are typically more explosive than shield volcanoes. Fuji last erupted in 1707 in the Hōei eruption and is classified as potentially active. It is a UNESCO World Heritage Site and a revered symbol of Japan, visible from Tokyo on clear days.",
-      "memory_hook": "Mount Fuji = stratovolcano, 3,776m. Steep symmetrical sides from alternating lava and ash layers. Last erupted in 1707. UNESCO site and Japan's most iconic landmark. On a clear day it's visible from Tokyo 100 km away."
+      "memory_hook": "Mount Fuji = stratovolcano, 3,776m. Steep symmetrical sides from alternating lava and ash layers. Last erupted in 1707. UNESCO site and Japan's most iconic landmark. On a clear day it's visible from Tokyo 100 km away.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0192",
       "category": "Science & Nature",
       "question": "In 1998, two independent teams of astronomers studying distant supernovae made a shocking discovery that overturned cosmology. What did they find?",
       "options": [
@@ -154,7 +232,13 @@
       ],
       "answer": "They discovered the universe's expansion is accelerating — driven by a mysterious force called 'dark energy' — which implied the universe would expand forever and end in cold darkness",
       "explanation": "Saul Perlmutter, Brian Schmidt, and Adam Riess led the two teams using Type Ia supernovae as 'standard candles' to measure cosmic distances. They expected to find the expansion slowing down due to gravity — instead they found it speeding up. Dark energy, the name given to whatever is causing this acceleration, makes up approximately 68% of the universe. Nobody knows what it is. Perlmutter, Schmidt, and Riess shared the 2011 Nobel Prize in Physics for this discovery — one of the most counterintuitive in the history of science.",
-      "memory_hook": "Two rival astronomy teams both expected to confirm the universe's expansion was slowing — and both independently found it's accelerating. Dark energy (68% of the universe, identity unknown) got the blame; the team leaders shared the 2011 Nobel Prize."
+      "memory_hook": "Two rival astronomy teams both expected to confirm the universe's expansion was slowing — and both independently found it's accelerating. Dark energy (68% of the universe, identity unknown) got the blame; the team leaders shared the 2011 Nobel Prize.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     }
   ]
 }

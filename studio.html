@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="robots" content="noindex, nofollow" />
+<title>Question Studio — Fact Royale</title>
+
+<link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="tokens.css" />
+
+<script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-auth-compat.js"></script>
+<script src="firebase-config.js"></script>
+
+<style>
+/* Page layout only. Every colour, size and curve comes from tokens.css.
+   If you find yourself typing a hex code in here, it belongs in tokens. */
+.wrap { max-width: var(--page-width); margin: 0 auto; padding: var(--s-5); }
+
+.topbar {
+  position: sticky; top: 0; z-index: 20;
+  display: flex; align-items: center; gap: var(--s-4);
+  padding: var(--s-3) var(--s-5);
+  background: var(--surface-glass); backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--line);
+}
+.brand { font-family: var(--font-display); font-weight: 700; letter-spacing: -0.01em; }
+.brand b { color: var(--gold); }
+
+.counts { display: flex; gap: var(--s-4); }
+.count { text-align: center; line-height: 1.1; }
+.count .n { font-family: var(--font-display); font-size: var(--t-md); font-weight: 700; }
+.count .l { font-size: var(--t-xs); color: var(--fg-subtle); text-transform: uppercase;
+            letter-spacing: 0.08em; }
+
+.layout { display: grid; grid-template-columns: 340px 1fr; gap: var(--s-5);
+          align-items: start; }
+@media (max-width: 1000px) { .layout { grid-template-columns: 1fr; } }
+
+/* ---- queue ---- */
+.queue { position: sticky; top: 76px; max-height: calc(100vh - 100px);
+         display: flex; flex-direction: column; }
+.qlist { overflow-y: auto; margin: calc(var(--s-3) * -1) calc(var(--s-3) * -1);
+         padding: var(--s-3); }
+.qitem {
+  display: grid; grid-template-columns: 8px 1fr; gap: var(--s-3);
+  padding: var(--s-2) var(--s-3); border-radius: var(--r-sm);
+  cursor: pointer; border: 1px solid transparent;
+  transition: background var(--dur-1) var(--ease-out);
+}
+.qitem:hover { background: var(--surface-2); }
+.qitem[aria-selected="true"] { background: var(--surface-3); border-color: var(--gold-line); }
+.qitem .bar { border-radius: var(--r-pill); background: currentColor; }
+.qitem .txt { min-width: 0; }
+.qitem .t {
+  font-size: var(--t-sm); color: var(--fg); line-height: var(--lh-snug);
+  display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.qitem .m { font-size: var(--t-xs); color: var(--fg-subtle); margin-top: 2px; }
+
+/* ---- editor ---- */
+.optrow { display: grid; grid-template-columns: 28px 1fr 52px; gap: var(--s-2);
+          align-items: center; }
+.optrow .pick {
+  width: 24px; height: 24px; border-radius: var(--r-pill); cursor: pointer;
+  border: 2px solid var(--line-strong); background: transparent;
+  display: grid; place-items: center; color: var(--bg); font-size: var(--t-xs);
+  transition: all var(--dur-1) var(--ease-snap);
+}
+.optrow .pick[aria-pressed="true"] { background: var(--ok); border-color: var(--ok); }
+.optrow .len { font-family: var(--font-mono); font-size: var(--t-xs);
+               color: var(--fg-subtle); text-align: right; }
+
+.metrics { display: flex; gap: var(--s-5); flex-wrap: wrap; }
+.metric .v { font-family: var(--font-mono); font-size: var(--t-md); }
+.metric .k { font-size: var(--t-xs); color: var(--fg-subtle);
+             text-transform: uppercase; letter-spacing: 0.08em; }
+.metric.bad .v { color: var(--bad); }
+.metric.ok  .v { color: var(--ok); }
+
+/* ---- evidence ---- */
+.src { border: 1px solid var(--line); border-radius: var(--r-sm);
+       padding: var(--s-3); background: var(--surface-2); }
+.src h5 { margin: 0 0 var(--s-1); font-family: var(--font-display);
+          font-size: var(--t-sm); }
+.src ul { margin: var(--s-2) 0 0; padding-left: var(--s-4);
+          font-size: var(--t-sm); color: var(--fg-muted); }
+.src .meta { font-size: var(--t-xs); color: var(--fg-subtle); }
+
+.hitlist { max-height: 240px; overflow-y: auto; }
+.hit { padding: var(--s-2); border-radius: var(--r-sm); cursor: pointer;
+       font-size: var(--t-sm); }
+.hit:hover { background: var(--surface-3); }
+
+.gate { max-width: 420px; margin: 15vh auto; text-align: center; }
+.toast {
+  position: fixed; bottom: var(--s-5); left: 50%; transform: translateX(-50%);
+  background: var(--surface-3); border: 1px solid var(--gold-line);
+  padding: var(--s-2) var(--s-5); border-radius: var(--r-pill);
+  box-shadow: var(--shadow-2); opacity: 0; pointer-events: none;
+  transition: opacity var(--dur-2) var(--ease-out); z-index: 50;
+}
+.toast.on { opacity: 1; }
+.hidden { display: none !important; }
+</style>
+</head>
+<body>
+
+<div id="loading" class="wrap"><p class="eyebrow">Checking access…</p></div>
+
+<div id="gate" class="gate hidden">
+  <h1>Question Studio</h1>
+  <p style="color:var(--fg-muted)">Admin only.</p>
+  <button class="btn btn--gold" id="signin">Sign in with Google</button>
+  <p id="gate-err" style="color:var(--bad);font-size:var(--t-sm)"></p>
+</div>
+
+<div id="app" class="hidden">
+  <div class="topbar">
+    <div class="brand">Question <b>Studio</b></div>
+    <div class="counts" id="counts"></div>
+    <div class="spacer"></div>
+    <button class="btn" id="open">Open repo folder</button>
+    <button class="btn btn--gold" id="save" disabled>Save</button>
+    <a class="btn btn--ghost" href="/admin.html">Admin</a>
+  </div>
+
+  <div class="wrap">
+    <div id="nofolder" class="panel panel--gold stack">
+      <h3>Point the studio at your repo</h3>
+      <p style="color:var(--fg-muted);margin:0">
+        The studio edits <code>questions-src/*.json</code> and reads
+        <code>sources.json</code> directly on this machine. Nothing is uploaded.
+        Chrome will ask once for permission to the folder, then remember it.
+      </p>
+      <p style="color:var(--fg-subtle);font-size:var(--t-sm);margin:0">
+        Choose the <b>fact-royale</b> folder itself, not <code>questions-src</code> —
+        the registry lives one level up.
+      </p>
+      <div><button class="btn btn--gold" id="open2">Choose folder</button></div>
+      <p id="fserr" style="color:var(--bad);font-size:var(--t-sm)"></p>
+    </div>
+
+    <div class="layout hidden" id="main">
+      <!-- ---------------- queue ---------------- -->
+      <div class="panel queue">
+        <div class="row" style="margin-bottom:var(--s-3)">
+          <input class="field" id="search" placeholder="Search questions…" />
+        </div>
+        <div class="row row--wrap" style="margin-bottom:var(--s-3)">
+          <select class="field" id="f-state" style="width:auto">
+            <option value="">All states</option>
+            <option value="unreviewed">Unreviewed</option>
+            <option value="verified">Verified</option>
+            <option value="flagged">Flagged</option>
+            <option value="rejected">Rejected</option>
+          </select>
+          <select class="field" id="f-cat" style="width:auto">
+            <option value="">All categories</option>
+          </select>
+        </div>
+        <div class="qlist" id="qlist" role="listbox"></div>
+      </div>
+
+      <!-- ---------------- editor ---------------- -->
+      <div class="stack-5">
+        <div class="panel" id="editor"></div>
+        <div class="panel" id="evidence"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="toast" id="toast"></div>
+
+<script>
+/* ============================================================
+   ACCESS
+   ============================================================ */
+const ADMIN_EMAIL = 'tanner@tjs16media.com';
+firebase.initializeApp(window.firebaseConfig);
+const auth = firebase.auth();
+
+document.getElementById('signin').onclick = () => {
+  const p = new firebase.auth.GoogleAuthProvider();
+  p.setCustomParameters({ login_hint: ADMIN_EMAIL });
+  auth.signInWithPopup(p).catch(e =>
+    document.getElementById('gate-err').textContent = e.message);
+};
+auth.onAuthStateChanged(u => {
+  document.getElementById('loading').classList.add('hidden');
+  const ok = u && u.email === ADMIN_EMAIL;
+  document.getElementById('app').classList.toggle('hidden', !ok);
+  document.getElementById('gate').classList.toggle('hidden', ok);
+  if (u && !ok) {
+    document.getElementById('gate-err').textContent =
+      'Signed in as ' + u.email + ', which is not the admin account.';
+  }
+  if (ok) boot();
+});
+
+/* ============================================================
+   STATE
+   ============================================================ */
+const S = {
+  dir: null,            // FileSystemDirectoryHandle for the repo root
+  files: new Map(),     // dateKey -> { handle, data, dirty }
+  sources: {},          // sources.json "sources" block
+  sourcesRaw: null,     // whole sources.json, so _readme survives a write
+  rows: [],             // flat [{ dateKey, idx, q }]
+  sel: null,
+  booted: false
+};
+const ORDER = ['id','category','question','options','answer','explanation',
+               'memory_hook','riskTier','sourceRefs','review'];
+const CATS = ['History','Sports','Pop Culture','Geography','Science & Nature'];
+const STATES = ['unreviewed','verified','flagged','rejected','retired'];
+
+const $  = s => document.querySelector(s);
+const el = (t, c, x) => { const e = document.createElement(t);
+  if (c) e.className = c; if (x != null) e.textContent = x; return e; };
+const esc = s => String(s == null ? '' : s)
+  .replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+
+let toastT;
+function toast(msg) {
+  const t = $('#toast'); t.textContent = msg; t.classList.add('on');
+  clearTimeout(toastT); toastT = setTimeout(() => t.classList.remove('on'), 1800);
+}
+
+/* ============================================================
+   FOLDER ACCESS
+   The handle is kept in IndexedDB so the folder is chosen once rather
+   than every session. Chrome still requires an explicit permission
+   re-grant after a restart, which is a gesture, not a re-pick.
+   ============================================================ */
+const idb = {
+  db: null,
+  open() {
+    return new Promise(res => {
+      const r = indexedDB.open('fr-studio', 1);
+      r.onupgradeneeded = () => r.result.createObjectStore('kv');
+      r.onsuccess = () => { this.db = r.result; res(this.db); };
+      r.onerror = () => res(null);
+    });
+  },
+  async get(k) {
+    if (!this.db) await this.open(); if (!this.db) return null;
+    return new Promise(res => {
+      const r = this.db.transaction('kv').objectStore('kv').get(k);
+      r.onsuccess = () => res(r.result); r.onerror = () => res(null);
+    });
+  },
+  async set(k, v) {
+    if (!this.db) await this.open(); if (!this.db) return;
+    this.db.transaction('kv','readwrite').objectStore('kv').put(v, k);
+  }
+};
+
+async function boot() {
+  if (S.booted) return; S.booted = true;
+  if (!window.showDirectoryPicker) {
+    $('#fserr').textContent =
+      'This browser cannot open a local folder. Use Chrome or Edge on desktop.';
+    return;
+  }
+  const saved = await idb.get('repo');
+  if (saved) {
+    const perm = await saved.queryPermission({ mode: 'readwrite' });
+    if (perm === 'granted') { S.dir = saved; await loadAll(); }
+    else $('#open2').textContent = 'Reconnect folder';
+  }
+}
+
+async function pickFolder() {
+  try {
+    const dir = await window.showDirectoryPicker({ mode: 'readwrite' });
+    const perm = await dir.requestPermission({ mode: 'readwrite' });
+    if (perm !== 'granted') throw new Error('Permission not granted.');
+    S.dir = dir; await idb.set('repo', dir); await loadAll();
+  } catch (e) {
+    if (e.name !== 'AbortError') $('#fserr').textContent = e.message;
+  }
+}
+$('#open').onclick = pickFolder;
+$('#open2').onclick = pickFolder;
+
+async function loadAll() {
+  $('#fserr').textContent = '';
+  try {
+    const qdir = await S.dir.getDirectoryHandle('questions-src');
+    S.sourcesRaw = JSON.parse(await (await (await S.dir
+      .getFileHandle('sources.json')).getFile()).text());
+    S.sources = S.sourcesRaw.sources || {};
+
+    S.files.clear();
+    for await (const [name, h] of qdir.entries()) {
+      if (!name.endsWith('.json') || !/^\d{4}-/.test(name)) continue;
+      const data = JSON.parse(await (await h.getFile()).text());
+      S.files.set(name.slice(0, -5), { handle: h, data, dirty: false });
+    }
+    if (!S.files.size) throw new Error('No dated files found in questions-src/.');
+    reindex();
+    $('#nofolder').classList.add('hidden');
+    $('#main').classList.remove('hidden');
+    CATS.forEach(c => $('#f-cat').append(new Option(c, c)));
+    render();
+    toast(`Loaded ${S.rows.length} questions from ${S.files.size} files`);
+  } catch (e) {
+    $('#fserr').textContent =
+      e.message + ' — is this the fact-royale folder itself?';
+  }
+}
+
+function reindex() {
+  S.rows = [];
+  [...S.files.keys()].sort().forEach(dateKey => {
+    S.files.get(dateKey).data.questions.forEach((q, idx) => {
+      if (!q.review) q.review = { state: 'unreviewed', at: null, by: null, note: null };
+      S.rows.push({ dateKey, idx, q });
+    });
+  });
+}
+
+/* ============================================================
+   MECHANICAL CHECKS
+   The same two numbers the content standard is built on, shown live
+   while editing rather than discovered by a script afterwards.
+   ============================================================ */
+function metrics(q) {
+  const opts = (q.options || []).map(o => String(o || ''));
+  const prompt = String(q.question || '').length || 1;
+  const mean = opts.length ? opts.reduce((a, b) => a + b.length, 0) / opts.length : 0;
+  const ratio = mean / prompt;
+  const sorted = opts.map(o => o.length).sort((a, b) => b - a);
+  const ansLen = String(q.answer || '').length;
+  const nextLongest = opts.filter(o => o !== q.answer)
+                          .reduce((m, o) => Math.max(m, o.length), 0);
+  const lens = opts.map(o => o.length);
+  const longest = lens.length ? Math.max(...lens) : 0;
+  const spread = lens.length ? longest - Math.min(...lens) : 0;
+  return {
+    ratio,
+    ratioOk: ratio >= 0.20 && ratio <= 1.30,
+    // preflight only counts the tell when the answer IS the longest option
+    tell: ansLen - nextLongest,
+    tellOk: !(ansLen === longest) || (ansLen - nextLongest <= 5),
+    longest, longestOk: longest <= 120,        // OPT_MAX
+    spread, spreadOk: spread <= 45,            // SPREAD_MAX
+    answerPresent: opts.includes(q.answer),
+    optCount: opts.length
+  };
+}
+
+/* ============================================================
+   QUEUE
+   ============================================================ */
+function filtered() {
+  const term = $('#search').value.trim().toLowerCase();
+  const st = $('#f-state').value, cat = $('#f-cat').value;
+  return S.rows.filter(r => {
+    if (st && r.q.review.state !== st) return false;
+    if (cat && r.q.category !== cat) return false;
+    if (term) {
+      const hay = (r.q.question + ' ' + (r.q.options || []).join(' ') + ' ' +
+                   r.q.id + ' ' + r.dateKey).toLowerCase();
+      if (!hay.includes(term)) return false;
+    }
+    return true;
+  });
+}
+
+function render() {
+  // counts
+  const c = $('#counts'); c.innerHTML = '';
+  const tally = {};
+  S.rows.forEach(r => tally[r.q.review.state] = (tally[r.q.review.state] || 0) + 1);
+  STATES.filter(s => tally[s]).forEach(s => {
+    const d = el('div', 'count');
+    const n = el('div', 'n', tally[s]); n.dataset.state = s;
+    d.append(n, el('div', 'l', s));
+    c.append(d);
+  });
+
+  // list
+  const list = $('#qlist'); list.innerHTML = '';
+  const rows = filtered();
+  if (!rows.length) { list.append(el('p', 'eyebrow', 'nothing matches')); }
+  rows.forEach(r => {
+    const it = el('div', 'qitem');
+    it.setAttribute('role', 'option');
+    it.setAttribute('aria-selected', S.sel && S.sel.q.id === r.q.id ? 'true' : 'false');
+    const bar = el('div', 'bar'); bar.dataset.state = r.q.review.state;
+    const txt = el('div', 'txt');
+    txt.append(el('div', 't', r.q.question || '(empty)'));
+    const m = el('div', 'm');
+    m.innerHTML = `<span data-cat="${esc(r.q.category)}">${esc(r.q.category)}</span>
+                   · ${esc(r.dateKey)} · <span class="mono">${esc(r.q.id)}</span>`;
+    txt.append(m);
+    it.append(bar, txt);
+    it.onclick = () => { S.sel = r; render(); };
+    list.append(it);
+  });
+
+  if (!S.sel && rows.length) S.sel = rows[0];
+  renderEditor(); renderEvidence();
+  $('#save').disabled = ![...S.files.values()].some(f => f.dirty);
+}
+
+/* ============================================================
+   EDITOR
+   ============================================================ */
+function renderEditor() {
+  const box = $('#editor'); box.innerHTML = '';
+  if (!S.sel) { box.append(el('p', 'eyebrow', 'select a question')); return; }
+  const { q, dateKey } = S.sel;
+  const m = metrics(q);
+
+  const head = el('div', 'row row--wrap');
+  const st = el('span', 'chip', q.review.state);
+  st.dataset.state = q.review.state;
+  const cat = el('span', 'chip', q.category || 'no category');
+  cat.dataset.cat = q.category;
+  head.append(st, cat, el('span', 'eyebrow', dateKey),
+              el('span', 'eyebrow mono', q.id));
+  box.append(head, el('hr', 'rule'));
+
+  // prompt
+  const pl = el('label', 'lbl', 'Prompt'); pl.htmlFor = 'e-q';
+  const pt = el('textarea', 'field'); pt.id = 'e-q'; pt.rows = 3; pt.value = q.question || '';
+  pt.oninput = () => { q.question = pt.value; dirty(); renderMetrics(); };
+  box.append(pl, pt);
+
+  // options
+  box.append(el('label', 'lbl', 'Options — click the circle to set the answer'));
+  const wrap = el('div', 'stack');
+  (q.options || []).forEach((o, i) => {
+    const row = el('div', 'optrow');
+    const pick = el('button', 'pick', o === q.answer ? '✓' : '');
+    pick.setAttribute('aria-pressed', o === q.answer);
+    pick.onclick = () => { q.answer = q.options[i]; dirty(); renderEditor(); };
+    const inp = el('input', 'field'); inp.value = o;
+    inp.oninput = () => {
+      const was = q.options[i];
+      q.options[i] = inp.value;
+      if (q.answer === was) q.answer = inp.value;   // keep the answer attached
+      dirty(); renderMetrics();
+    };
+    row.append(pick, inp, el('div', 'len', String(o.length)));
+    wrap.append(row);
+  });
+  box.append(wrap);
+
+  // metrics
+  const met = el('div', 'metrics'); met.id = 'e-met';
+  box.append(el('hr', 'rule'), met);
+  renderMetrics();
+
+  // explanation + hook
+  [['Explanation', 'explanation', 5], ['Memory hook', 'memory_hook', 2]]
+    .forEach(([label, key, rows]) => {
+      box.append(el('label', 'lbl', label));
+      const ta = el('textarea', 'field'); ta.rows = rows; ta.value = q[key] || '';
+      ta.oninput = () => { q[key] = ta.value; dirty(); };
+      box.append(ta);
+    });
+
+  // verdicts
+  box.append(el('hr', 'rule'));
+  const verdicts = el('div', 'row row--wrap');
+  [['Verify', 'verified', 'btn--ok', 'V'],
+   ['Flag',   'flagged',  'btn--warn', 'F'],
+   ['Reject', 'rejected', 'btn--bad', 'X'],
+   ['Reset',  'unreviewed', 'btn--ghost', 'U']].forEach(([label, state, cls, key]) => {
+    const b = el('button', 'btn ' + cls);
+    b.innerHTML = esc(label) + ' <kbd>' + key + '</kbd>';
+    b.onclick = () => setState(state);
+    verdicts.append(b);
+  });
+  box.append(verdicts);
+
+  const note = el('input', 'field');
+  note.placeholder = 'Note — why flagged, what to check, what was fixed';
+  note.value = q.review.note || '';
+  note.oninput = () => { q.review.note = note.value || null; dirty(); };
+  box.append(el('label', 'lbl', 'Review note'), note);
+}
+
+function renderMetrics() {
+  const box = $('#e-met'); if (!box || !S.sel) return;
+  const m = metrics(S.sel.q); box.innerHTML = '';
+  const add = (k, v, ok) => {
+    const d = el('div', 'metric ' + (ok ? 'ok' : 'bad'));
+    d.append(el('div', 'v', v), el('div', 'k', k)); box.append(d);
+  };
+  add('ratio 0.20–1.30', m.ratio.toFixed(2), m.ratioOk);
+  add('length tell ≤5', (m.tell > 0 ? '+' : '') + m.tell, m.tellOk);
+  add('longest ≤120', String(m.longest), m.longestOk);
+  add('spread ≤45', String(m.spread), m.spreadOk);
+  add('options', String(m.optCount), m.optCount === 4);
+  add('answer in options', m.answerPresent ? 'yes' : 'NO', m.answerPresent);
+  add('sources', String((S.sel.q.sourceRefs || []).length),
+      (S.sel.q.sourceRefs || []).length > 0);
+}
+
+function setState(state) {
+  if (!S.sel) return;
+  const q = S.sel.q;
+  q.review = {
+    state,
+    at: state === 'unreviewed' ? null : new Date().toISOString().slice(0, 10),
+    by: state === 'unreviewed' ? null : ADMIN_EMAIL,
+    note: q.review.note || null
+  };
+  dirty(); toast(q.id + ' → ' + state); render();
+}
+
+/* ============================================================
+   EVIDENCE
+   The point of the whole tool: judge the question against what the
+   source actually establishes, rather than reading the question cold.
+   ============================================================ */
+function renderEvidence() {
+  const box = $('#evidence'); box.innerHTML = '';
+  if (!S.sel) return;
+  const q = S.sel.q;
+  box.append(el('h3', null, 'Evidence'));
+
+  const refs = q.sourceRefs || [];
+  if (!refs.length) {
+    const p = el('p', null, 'No source cited. This question asserts something with nothing behind it.');
+    p.style.color = 'var(--bad)';
+    box.append(p);
+  }
+  refs.forEach(ref => {
+    const s = S.sources[ref];
+    const card = el('div', 'src');
+    if (!s) {
+      card.innerHTML = `<h5 style="color:var(--bad)">${esc(ref)}</h5>
+        <div class="meta">Not in sources.json — dangling reference.</div>`;
+    } else {
+      const est = (Array.isArray(s.establishes) ? s.establishes : [s.establishes])
+        .filter(Boolean).map(e => `<li>${esc(e)}</li>`).join('');
+      card.innerHTML = `
+        <h5>${esc(ref)} <span class="chip" data-tier="${esc(s.tier)}">${esc(s.tier)}</span></h5>
+        <div class="meta">${esc(s.publisher || '')} · checked ${esc(s.checked || '?')}
+          ${s.archive ? '· archived' : '· <b style="color:var(--warn)">no archive snapshot</b>'}</div>
+        <ul>${est}</ul>
+        <div class="meta" style="margin-top:var(--s-2)">
+          <a href="${esc(s.url)}" target="_blank" rel="noopener">open source</a>
+          ${s.replace ? ' · <b style="color:var(--warn)">REPLACE: ' + esc(s.replace) + '</b>' : ''}
+        </div>`;
+    }
+    const rm = el('button', 'btn btn--ghost', 'remove');
+    rm.style.marginTop = 'var(--s-2)';
+    rm.onclick = () => {
+      q.sourceRefs = refs.filter(r => r !== ref); dirty(); renderEvidence(); renderMetrics();
+    };
+    card.append(rm);
+    box.append(card);
+  });
+
+  // registry search
+  box.append(el('hr', 'rule'), el('label', 'lbl', 'Cite from the registry'));
+  const find = el('input', 'field');
+  find.placeholder = 'search 154 registry entries by id, publisher or claim…';
+  const hits = el('div', 'hitlist');
+  find.oninput = () => {
+    const t = find.value.trim().toLowerCase(); hits.innerHTML = '';
+    if (t.length < 2) return;
+    Object.entries(S.sources).filter(([id, s]) => {
+      const est = (Array.isArray(s.establishes) ? s.establishes : [s.establishes]).join(' ');
+      return (id + ' ' + (s.publisher || '') + ' ' + est).toLowerCase().includes(t);
+    }).slice(0, 25).forEach(([id, s]) => {
+      const h = el('div', 'hit');
+      h.innerHTML = `<b>${esc(id)}</b>
+        <span class="chip" data-tier="${esc(s.tier)}">${esc(s.tier)}</span><br>
+        <span class="meta" style="color:var(--fg-subtle)">${esc(
+          (Array.isArray(s.establishes) ? s.establishes[0] : s.establishes) || '')}</span>`;
+      h.onclick = () => {
+        q.sourceRefs = [...new Set([...(q.sourceRefs || []), id])];
+        dirty(); renderEvidence(); renderMetrics();
+      };
+      hits.append(h);
+    });
+  };
+  box.append(find, hits);
+}
+
+/* ============================================================
+   SAVING
+   Writes whole files back with a stable key order, so a git diff shows
+   the change you made and nothing else.
+   ============================================================ */
+function dirty() {
+  if (!S.sel) return;
+  S.files.get(S.sel.dateKey).dirty = true;
+  $('#save').disabled = false;
+}
+
+async function saveAll() {
+  let n = 0;
+  for (const [dateKey, f] of S.files) {
+    if (!f.dirty) continue;
+    f.data.questions = f.data.questions.map(q => {
+      const out = {};
+      ORDER.forEach(k => { if (k in q) out[k] = q[k]; });
+      Object.keys(q).forEach(k => { if (!(k in out)) out[k] = q[k]; });
+      return out;
+    });
+    const w = await f.handle.createWritable();
+    await w.write(JSON.stringify(f.data, null, 2) + '\n');
+    await w.close();
+    f.dirty = false; n++;
+  }
+  $('#save').disabled = true;
+  toast(n ? `Saved ${n} file${n > 1 ? 's' : ''}` : 'Nothing to save');
+}
+$('#save').onclick = saveAll;
+
+/* ============================================================
+   KEYBOARD
+   ============================================================ */
+addEventListener('keydown', e => {
+  const typing = /^(INPUT|TEXTAREA|SELECT)$/.test(document.activeElement.tagName);
+  if ((e.ctrlKey || e.metaKey) && e.key === 's') { e.preventDefault(); saveAll(); return; }
+  if (typing) return;
+  const rows = filtered();
+  const i = rows.findIndex(r => S.sel && r.q.id === S.sel.q.id);
+  if (e.key === 'j' || e.key === 'ArrowDown') {
+    e.preventDefault(); S.sel = rows[Math.min(rows.length - 1, i + 1)] || S.sel; render();
+  } else if (e.key === 'k' || e.key === 'ArrowUp') {
+    e.preventDefault(); S.sel = rows[Math.max(0, i - 1)] || S.sel; render();
+  } else if (e.key === 'v') setState('verified');
+  else if (e.key === 'f') setState('flagged');
+  else if (e.key === 'x') setState('rejected');
+  else if (e.key === 'u') setState('unreviewed');
+  else if (e.key === '/') { e.preventDefault(); $('#search').focus(); }
+});
+
+['#search', '#f-state', '#f-cat'].forEach(s => {
+  document.addEventListener('input', ev => { if (ev.target.matches(s)) render(); });
+});
+</script>
+</body>
+</html>

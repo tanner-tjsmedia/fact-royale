@@ -2,6 +2,7 @@
   "date": "2026-06-24",
   "questions": [
     {
+      "id": "frq-0109",
       "category": "History",
       "question": "The Spanish Armada, a fleet of 130 ships, was defeated by England in what year?",
       "options": [
@@ -12,9 +13,16 @@
       ],
       "answer": "1588",
       "explanation": "Spain's King Philip II launched the Spanish Armada in 1588 to invade England and overthrow Queen Elizabeth I. The English fleet, commanded by Sir Francis Drake, used smaller, faster ships and fire ships to disrupt the Spanish formation. Severe storms in the North Sea finished the job, sinking many Armada ships. The victory cemented England as a naval power.",
-      "memory_hook": "1588 = Armada defeated. Think 15-88: fifteen-eighty-eight. The Spanish thought they were invincible. The English and the weather thought otherwise. It's one of history's great upsets — the underdog fleet plus a storm defeated the world's greatest naval power."
+      "memory_hook": "1588 = Armada defeated. Think 15-88: fifteen-eighty-eight. The Spanish thought they were invincible. The English and the weather thought otherwise. It's one of history's great upsets — the underdog fleet plus a storm defeated the world's greatest naval power.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0110",
       "category": "History",
       "question": "What was Leonardo da Vinci's nationality?",
       "options": [
@@ -25,9 +33,16 @@
       ],
       "answer": "Italian",
       "explanation": "Leonardo da Vinci (1452–1519) was born in Vinci, in the Tuscan region of Italy (then the Republic of Florence). The ultimate 'Renaissance man,' he excelled as a painter, sculptor, architect, scientist, mathematician, engineer, inventor, anatomist, geologist, botanist, and writer. His notebooks contain designs for flying machines, tanks, and solar power — centuries before they were invented.",
-      "memory_hook": "Da Vinci = Italian. 'Da Vinci' literally means 'from Vinci' — a small town in Tuscany. He's named after his hometown. The greatest Renaissance man came from a village of about 4,000 people."
+      "memory_hook": "Da Vinci = Italian. 'Da Vinci' literally means 'from Vinci' — a small town in Tuscany. He's named after his hometown. The greatest Renaissance man came from a village of about 4,000 people.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0111",
       "category": "History",
       "question": "Martin Luther King Jr. delivered his 'I Have a Dream' speech during the March on Washington in which year?",
       "options": [
@@ -38,9 +53,16 @@
       ],
       "answer": "1963",
       "explanation": "Martin Luther King Jr. delivered his iconic 'I Have a Dream' speech on August 28, 1963, at the Lincoln Memorial during the March on Washington for Jobs and Freedom, attended by approximately 250,000 people. The speech called for an end to racism and is considered one of the greatest speeches in American history. King was awarded the Nobel Peace Prize the following year.",
-      "memory_hook": "1963 — one year before the Civil Rights Act. The speech helped push Congress to pass landmark legislation. King stood at the Lincoln Memorial — in front of the man who signed the Emancipation Proclamation — to demand a promise 100 years overdue."
+      "memory_hook": "1963 — one year before the Civil Rights Act. The speech helped push Congress to pass landmark legislation. King stood at the Lincoln Memorial — in front of the man who signed the Emancipation Proclamation — to demand a promise 100 years overdue.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0112",
       "category": "Sports",
       "question": "The Masters golf tournament is played annually at which legendary golf course?",
       "options": [
@@ -51,9 +73,16 @@
       ],
       "answer": "Augusta National",
       "explanation": "The Masters Tournament is held every April at Augusta National Golf Club in Augusta, Georgia. It is the only major golf championship played at the same course every year. The winner receives the iconic green jacket, presented by the previous year's champion. The course is famous for its pristine conditions, azalea flowers, Amen Corner, and its historically exclusive membership policy.",
-      "memory_hook": "Masters = Augusta = Green Jacket. One tournament, one course, one jacket. The green jacket is only worn on the Augusta National grounds — winners must return it at the end of the year and retrieve it when they come back."
+      "memory_hook": "Masters = Augusta = Green Jacket. One tournament, one course, one jacket. The green jacket is only worn on the Augusta National grounds — winners must return it at the end of the year and retrieve it when they come back.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0113",
       "category": "Sports",
       "question": "The Daytona 500 is the most prestigious race in which racing series?",
       "options": [
@@ -64,9 +93,16 @@
       ],
       "answer": "NASCAR",
       "explanation": "The Daytona 500 is the most prestigious and richest race in NASCAR, held annually at Daytona International Speedway in Daytona Beach, Florida. First run in 1959, it is held on the first Sunday in February and serves as the opening race of the NASCAR Cup Series season. It is often called 'The Great American Race.'",
-      "memory_hook": "Daytona 500 = NASCAR's Super Bowl. It's the first race of the season and the most important. 500 miles at nearly 200 mph around an oval. The race that opens the year is somehow also the biggest prize of the year."
+      "memory_hook": "Daytona 500 = NASCAR's Super Bowl. It's the first race of the season and the most important. 500 miles at nearly 200 mph around an oval. The race that opens the year is somehow also the biggest prize of the year.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0114",
       "category": "Pop Culture",
       "question": "Schindler's List (1993), directed by Steven Spielberg, is based on the true story of a businessman who saved Jews during which event?",
       "options": [
@@ -77,9 +113,16 @@
       ],
       "answer": "The Holocaust",
       "explanation": "Schindler's List tells the true story of Oskar Schindler, a German businessman who saved over 1,200 Jewish people from the Holocaust by employing them in his factories. Spielberg won the Academy Award for Best Director and the film won Best Picture. Spielberg donated his entire salary from the film to Holocaust-related charities and donated the original manuscript to the US Holocaust Memorial Museum.",
-      "memory_hook": "Schindler's List = real people, real rescue. The list in the title was a literal list of names — workers Schindler paid to keep alive. The film is in black-and-white except for one detail: a girl in a red coat. The only color stands out from the horror."
+      "memory_hook": "Schindler's List = real people, real rescue. The list in the title was a literal list of names — workers Schindler paid to keep alive. The film is in black-and-white except for one detail: a girl in a red coat. The only color stands out from the horror.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0115",
       "category": "Pop Culture",
       "question": "Which singer/songwriter is known as 'The Man in Black' and recorded 'Ring of Fire' and 'Folsom Prison Blues'?",
       "options": [
@@ -90,9 +133,16 @@
       ],
       "answer": "Johnny Cash",
       "explanation": "Johnny Cash earned the nickname 'The Man in Black' from his 1971 song of the same name, in which he explained he wore black as a symbol of solidarity with the poor, the hungry, the sick, and the lonely. He recorded 'Folsom Prison Blues' in 1955 and 'Ring of Fire' in 1963. His 2002 cover of Nine Inch Nails' 'Hurt' is widely considered one of the greatest cover recordings ever made.",
-      "memory_hook": "Cash = black. Always in black, always for a reason — not fashion, philosophy. He wore black so he'd never forget the people society forgot. The most principled wardrobe choice in music history."
+      "memory_hook": "Cash = black. Always in black, always for a reason — not fashion, philosophy. He wore black so he'd never forget the people society forgot. The most principled wardrobe choice in music history.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0116",
       "category": "Pop Culture",
       "question": "E.T. the Extra-Terrestrial (1982) was directed by Steven Spielberg and was the highest-grossing film of its time. What does E.T. famously say?",
       "options": [
@@ -103,9 +153,16 @@
       ],
       "answer": "'Phone home'",
       "explanation": "E.T.'s iconic line — 'E.T. phone home' — is one of the most recognized quotes in cinema history. E.T. the Extra-Terrestrial grossed $792 million worldwide in its original release (1982), making it the highest-grossing film of all time until Return of the Jedi surpassed it in 1983. The film was nominated for 9 Academy Awards and won 4.",
-      "memory_hook": "E.T. phone home. Three words, maximum emotion. An alien learns just enough English to express the deepest feeling there is — homesickness. Spielberg made you cry over a rubber puppet in a bathrobe."
+      "memory_hook": "E.T. phone home. Three words, maximum emotion. An alien learns just enough English to express the deepest feeling there is — homesickness. Spielberg made you cry over a rubber puppet in a bathrobe.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0117",
       "category": "Geography",
       "question": "Which river, the world's longest at approximately 6,650 km, flows northward through Sudan and Egypt before emptying into the Mediterranean Sea?",
       "options": [
@@ -116,9 +173,16 @@
       ],
       "answer": "Nile River",
       "explanation": "The Nile River is approximately 6,650 km long, widely considered the world's longest (though some measurements give this distinction to the Amazon). It flows northward — counterintuitively — through Sudan and Egypt before reaching the Mediterranean. The Nile has two main tributaries: the Blue Nile (from Ethiopia, providing most of the water) and the White Nile (from Uganda). Without the Nile's annual floods depositing rich silt, Egypt would be entirely desert.",
-      "memory_hook": "Nile = world's longest river. Flows NORTH — counterintuitive. Egypt is basically the Nile: strip the river and it's all desert. Ancient Egyptians called the fertile strip 'the Black Land' and the surrounding desert 'the Red Land.'"
+      "memory_hook": "Nile = world's longest river. Flows NORTH — counterintuitive. Egypt is basically the Nile: strip the river and it's all desert. Ancient Egyptians called the fertile strip 'the Black Land' and the surrounding desert 'the Red Land.'",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0118",
       "category": "Science & Nature",
       "question": "Which greenhouse gas, produced primarily by burning fossil fuels and deforestation, is the main driver of human-caused climate change?",
       "options": [
@@ -129,9 +193,16 @@
       ],
       "answer": "Carbon dioxide (CO2)",
       "explanation": "Carbon dioxide is the primary greenhouse gas responsible for human-caused climate change, released by burning coal, oil, and natural gas, as well as deforestation and cement production. While methane is a more potent greenhouse gas per molecule, CO2 is released in far greater quantities and persists longer in the atmosphere. CO2 concentrations have risen from about 280 parts per million before industrialization to over 420 ppm today — the highest in at least 800,000 years.",
-      "memory_hook": "CO2 = primary climate change driver. Not the most potent per molecule (methane is), but by far the most abundant from human activity. 280 ppm before industry, 420+ ppm today. Ice cores show this is the highest in 800,000 years."
+      "memory_hook": "CO2 = primary climate change driver. Not the most potent per molecule (methane is), but by far the most abundant from human activity. 280 ppm before industry, 420+ ppm today. Ice cores show this is the highest in 800,000 years.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0119",
       "category": "Geography",
       "question": "Death Valley in California holds which North American record?",
       "options": [
@@ -142,9 +213,16 @@
       ],
       "answer": "Lowest elevation",
       "explanation": "Death Valley's Badwater Basin sits at 86 meters (282 feet) below sea level — the lowest elevation in North America. It also holds the record for the highest reliably recorded air temperature on Earth: 56.7°C (134°F) on July 10, 1913. Despite its extreme heat and aridity, Death Valley hosts over 1,000 plant species and is a designated national park.",
-      "memory_hook": "Death Valley: lowest elevation in N. America (-86m) AND hottest recorded temperature on Earth (56.7°C in 1913). A national park despite being a place that can kill you in hours without water. 1,000+ plant species manage to survive there."
+      "memory_hook": "Death Valley: lowest elevation in N. America (-86m) AND hottest recorded temperature on Earth (56.7°C in 1913). A national park despite being a place that can kill you in hours without water. 1,000+ plant species manage to survive there.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0120",
       "category": "Science & Nature",
       "question": "Nicolaus Copernicus's 1543 work 'On the Revolutions of the Celestial Spheres' proposed that Earth orbits the Sun, not vice versa. Why was this revolutionary — and dangerous?",
       "options": [
@@ -155,7 +233,13 @@
       ],
       "answer": "It overturned 1,400 years of Ptolemaic geocentrism endorsed by the Church, placing humans at the universe's periphery rather than its center — a philosophical and religious revolution as much as a scientific one",
       "explanation": "Ptolemy's geocentric model (Earth at center, with planets on complex epicycles) had been the accepted view since the 2nd century AD and was embedded in Church doctrine. Copernicus published his heliocentric model only as he was dying — allegedly receiving his printed book on the day of his death — partially to avoid Church condemnation. His work triggered the Copernican Revolution, inspiring Galileo (who was tried by the Inquisition for defending it) and Kepler (who refined the orbital mechanics). Copernicus's book was placed on the Church's Index of Forbidden Books in 1616.",
-      "memory_hook": "Copernicus published his heliocentric theory as he was dying — allegedly receiving his book on his deathbed — knowing the Church would condemn it. Galileo was later tried by the Inquisition for defending it; the book stayed on the Catholic 'banned list' until 1835."
+      "memory_hook": "Copernicus published his heliocentric theory as he was dying — allegedly receiving his book on his deathbed — knowing the Church would condemn it. Galileo was later tried by the Inquisition for defending it; the book stayed on the Catholic 'banned list' until 1835.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     }
   ]
 }

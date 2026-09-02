@@ -2,6 +2,7 @@
   "date": "2026-06-17",
   "questions": [
     {
+      "id": "frq-0025",
       "category": "History",
       "question": "On which date was Julius Caesar assassinated in 44 BC?",
       "options": [
@@ -12,9 +13,16 @@
       ],
       "answer": "The Ides of March (March 15)",
       "explanation": "Julius Caesar was stabbed 23 times by a group of Roman senators led by Brutus and Cassius on March 15, 44 BC. The phrase 'Beware the Ides of March' comes from Shakespeare's play Julius Caesar, spoken by a soothsayer warning Caesar of the coming danger.",
-      "memory_hook": "The Ides = the middle. March 15 is roughly the middle of March. Caesar got stabbed in the middle of the month, in the middle of the Forum, by the middle of his own inner circle."
+      "memory_hook": "The Ides = the middle. March 15 is roughly the middle of March. Caesar got stabbed in the middle of the month, in the middle of the Forum, by the middle of his own inner circle.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0026",
       "category": "History",
       "question": "Who was the first human to walk on the moon?",
       "options": [
@@ -25,9 +33,16 @@
       ],
       "answer": "Neil Armstrong",
       "explanation": "Neil Armstrong became the first human to walk on the moon on July 20, 1969, during NASA's Apollo 11 mission. His famous words upon stepping onto the lunar surface were: 'That's one small step for man, one giant leap for mankind.' Buzz Aldrin followed him minutes later.",
-      "memory_hook": "Armstrong = strong arms to climb the ladder down to the moon. Neil Armstrong, Apollo 11, July 20, 1969 — 7/20/69. The 20th day, the 20th century's greatest achievement."
+      "memory_hook": "Armstrong = strong arms to climb the ladder down to the moon. Neil Armstrong, Apollo 11, July 20, 1969 — 7/20/69. The 20th day, the 20th century's greatest achievement.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0027",
       "category": "History",
       "question": "The storming of which Paris fortress marked the symbolic start of the French Revolution in 1789?",
       "options": [
@@ -38,9 +53,16 @@
       ],
       "answer": "The Bastille",
       "explanation": "On July 14, 1789, Parisian revolutionaries stormed the Bastille — a royal prison and symbol of royal tyranny — marking the flashpoint of the French Revolution. The date is now celebrated as Bastille Day, France's national holiday. Only seven prisoners were inside at the time.",
-      "memory_hook": "Bastille Day = July 14 = France's 4th of July. Both happened within 13 years of each other — revolution was in the air on both sides of the Atlantic."
+      "memory_hook": "Bastille Day = July 14 = France's 4th of July. Both happened within 13 years of each other — revolution was in the air on both sides of the Atlantic.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0028",
       "category": "Sports",
       "question": "How many NBA championships did Michael Jordan win with the Chicago Bulls?",
       "options": [
@@ -51,9 +73,16 @@
       ],
       "answer": "6",
       "explanation": "Michael Jordan won 6 NBA championships with the Chicago Bulls — in two 'three-peats': 1991, 1992, 1993, then 1996, 1997, 1998. He was Finals MVP all six times. Jordan briefly retired between the two runs, attempting a career in minor league baseball.",
-      "memory_hook": "Six rings, six Finals MVPs. Jordan didn't just win — he was the best player in every single one of those series. Picture six championship rings lined up in a row."
+      "memory_hook": "Six rings, six Finals MVPs. Jordan didn't just win — he was the best player in every single one of those series. Picture six championship rings lined up in a row.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0029",
       "category": "Sports",
       "question": "How many innings are in a standard Major League Baseball game?",
       "options": [
@@ -64,9 +93,16 @@
       ],
       "answer": "9",
       "explanation": "A standard MLB game consists of 9 innings. Each team gets three outs per inning, both as the batting and fielding team. If the game is tied after 9 innings, extra innings are played until a winner is determined. The 9-inning standard has been in place since the 1850s.",
-      "memory_hook": "9 innings, 9 players on the field, 9 positions. Baseball is the sport of nines. Three strikes, three outs, nine innings — everything divisible by three."
+      "memory_hook": "9 innings, 9 players on the field, 9 positions. Baseball is the sport of nines. Three strikes, three outs, nine innings — everything divisible by three.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0030",
       "category": "Pop Culture",
       "question": "In which Star Wars film does Darth Vader reveal he is Luke Skywalker's father?",
       "options": [
@@ -77,9 +113,16 @@
       ],
       "answer": "The Empire Strikes Back",
       "explanation": "The famous reveal — 'No, I am your father' — occurs in The Empire Strikes Back (1980), during the duel between Darth Vader and Luke on Cloud City. It is widely considered one of the greatest plot twists in cinema history. The line is often misquoted as 'Luke, I am your father.'",
-      "memory_hook": "Empire = dark, cold, heavy — the darkest film in the trilogy, with the darkest reveal. The Empire strikes back with the truth. No Luke in the actual quote — just 'I am your father.'"
+      "memory_hook": "Empire = dark, cold, heavy — the darkest film in the trilogy, with the darkest reveal. The Empire strikes back with the truth. No Luke in the actual quote — just 'I am your father.'",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0031",
       "category": "Pop Culture",
       "question": "Which city were The Beatles from?",
       "options": [
@@ -90,9 +133,16 @@
       ],
       "answer": "Liverpool",
       "explanation": "The Beatles — John Lennon, Paul McCartney, George Harrison, and Ringo Starr — all hailed from Liverpool, England. They formed in the late 1950s and achieved global fame in 1963-64. Liverpool's Cavern Club, where they performed early in their career, remains a major tourist attraction.",
-      "memory_hook": "Liver + pool = Liverpool. The Beatles came from a city named after a liver bird — an imaginary bird on the city's coat of arms. Four lads from a city that doesn't even have a real bird on its crest."
+      "memory_hook": "Liver + pool = Liverpool. The Beatles came from a city named after a liver bird — an imaginary bird on the city's coat of arms. Four lads from a city that doesn't even have a real bird on its crest.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0032",
       "category": "Pop Culture",
       "question": "Which director helmed the 1997 blockbuster Titanic?",
       "options": [
@@ -103,9 +153,16 @@
       ],
       "answer": "James Cameron",
       "explanation": "James Cameron wrote and directed Titanic (1997), which won 11 Academy Awards — tying the record set by Ben-Hur. It was the first film to gross $1 billion at the box office and remained the highest-grossing film of all time until Cameron's own Avatar surpassed it in 2010.",
-      "memory_hook": "Cameron = king of the world — just like Jack in the movie. He directed both the #1 and #2 highest-grossing films of all time. The king of the box office, not just the world."
+      "memory_hook": "Cameron = king of the world — just like Jack in the movie. He directed both the #1 and #2 highest-grossing films of all time. The king of the box office, not just the world.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0033",
       "category": "Geography",
       "question": "Which island-nation in Southeast Asia is an archipelago of over 7,600 islands and has Manila as its capital?",
       "options": [
@@ -116,9 +173,16 @@
       ],
       "answer": "Philippines",
       "explanation": "The Philippines is an archipelago of 7,641 islands in Southeast Asia, with Manila as its capital city. Named after King Philip II of Spain, it was colonized by Spain for 333 years and then by the United States before gaining independence in 1946. It has a coastline of 36,289 km and a population of over 110 million people, many of whom speak English as a second language alongside Filipino.",
-      "memory_hook": "Philippines = 7,641 islands, Manila capital, named after Spain's King Philip. 333 years Spanish colony, then US, then independence 1946. A Pacific archipelago with a deep colonial history."
+      "memory_hook": "Philippines = 7,641 islands, Manila capital, named after Spain's King Philip. 333 years Spanish colony, then US, then independence 1946. A Pacific archipelago with a deep colonial history.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0034",
       "category": "Science & Nature",
       "question": "Solar flares and coronal mass ejections (CMEs) are the Sun's most powerful explosive events. What causes them, and what effects can they have on Earth?",
       "options": [
@@ -129,9 +193,16 @@
       ],
       "answer": "CMEs are caused by the Sun's magnetic field lines tangling and suddenly snapping into a simpler configuration, releasing enormous energy — on Earth, they can disrupt satellites, power grids, GPS, and radio communications, and cause auroras at unusual latitudes",
       "explanation": "The Sun's differential rotation (equator rotates faster than poles) twists and tangles magnetic field lines until they snap in a process called magnetic reconnection, releasing energy equivalent to billions of nuclear bombs. The 1859 Carrington Event was the largest recorded CME — telegraph systems across North America and Europe sparked and caught fire; auroras were visible as far south as Cuba. A similar event today could cause trillions in infrastructure damage. The 1989 Quebec blackout (March) was caused by a CME that induced currents in power lines, tripping circuit breakers across the entire province in 92 seconds.",
-      "memory_hook": "The 1859 Carrington Event was so powerful that telegraph wires caught fire and operators received electric shocks. The auroras were visible in Cuba. A similar CME today would cause trillions in damage — satellites fried, power grids collapsed, GPS offline. The Quebec blackout of 1989 (92 seconds, entire province) was a mild preview."
+      "memory_hook": "The 1859 Carrington Event was so powerful that telegraph wires caught fire and operators received electric shocks. The auroras were visible in Cuba. A similar CME today would cause trillions in damage — satellites fried, power grids collapsed, GPS offline. The Quebec blackout of 1989 (92 seconds, entire province) was a mild preview.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0035",
       "category": "Geography",
       "question": "Borneo, the world's third-largest island, is shared by three countries. Which country controls the largest portion?",
       "options": [
@@ -142,9 +213,16 @@
       ],
       "answer": "Indonesia",
       "explanation": "Indonesia controls approximately 73% of Borneo as the region of Kalimantan. Malaysia controls about 26% (the states of Sabah and Sarawak on the north), and the tiny nation of Brunei occupies less than 1%. Borneo is home to some of the world's oldest rainforests and is one of the few remaining habitats for wild orangutans and pygmy elephants.",
-      "memory_hook": "Borneo: Indonesia (73%) + Malaysia (26%) + Brunei (<1%). Third-largest island, home to ancient rainforests and wild orangutans. One island, three countries — Kalimantan, Sabah/Sarawak, and tiny Brunei."
+      "memory_hook": "Borneo: Indonesia (73%) + Malaysia (26%) + Brunei (<1%). Third-largest island, home to ancient rainforests and wild orangutans. One island, three countries — Kalimantan, Sabah/Sarawak, and tiny Brunei.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0036",
       "category": "Science & Nature",
       "question": "What determines the color of a star, with blue-white stars being the hottest and red stars the coolest?",
       "options": [
@@ -155,7 +233,13 @@
       ],
       "answer": "Surface temperature",
       "explanation": "A star's color directly reflects its surface temperature. Blue-white stars (like Sirius) burn at over 10,000 Kelvin; white and yellow-white stars (like our Sun) around 6,000 K; orange stars around 4,500 K; and red stars (like Betelgeuse) around 3,000 K. This is why the Sun appears yellow-white — it is a G-type star with a surface temperature of about 5,778 K.",
-      "memory_hook": "Star color = surface temperature. Blue-white = hottest (10,000K+). Red = coolest (~3,000K). Our Sun is yellow-white at 5,778K. Betelgeuse (red) is cooler than Sirius (blue-white) despite being 700 times larger."
+      "memory_hook": "Star color = surface temperature. Blue-white = hottest (10,000K+). Red = coolest (~3,000K). Our Sun is yellow-white at 5,778K. Betelgeuse (red) is cooler than Sirius (blue-white) despite being 700 times larger.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     }
   ]
 }

@@ -2,6 +2,7 @@
   "date": "2026-08-30",
   "questions": [
     {
+      "id": "frq-0913",
       "category": "History",
       "question": "The Colossus of Rhodes stood about 33 metres tall. How long did it last?",
       "options": [
@@ -12,9 +13,16 @@
       ],
       "answer": "54 years, before an earthquake brought it down",
       "explanation": "Built around 280 BC and toppled by an earthquake in 226 BC, it was the shortest-lived of the seven wonders. The broken pieces lay where they fell for roughly 800 years, and Pliny recorded that visitors came to see the ruins, since few could wrap their arms around a single fallen thumb. It did not straddle the harbour with ships passing beneath, which is a medieval invention with no ancient support.",
-      "memory_hook": "Up in 280 BC, down in an earthquake 54 years later, the shortest-lived wonder. The pieces lay there for 800 years and tourists came to look, since you could not get your arms around a fallen thumb. It never straddled the harbour; that image was invented in the Middle Ages."
+      "memory_hook": "Up in 280 BC, down in an earthquake 54 years later, the shortest-lived wonder. The pieces lay there for 800 years and tourists came to look, since you could not get your arms around a fallen thumb. It never straddled the harbour; that image was invented in the Middle Ages.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0914",
       "category": "Science & Nature",
       "question": "Eukaryotic cells have a nucleus and organelles. Where did mitochondria come from?",
       "options": [
@@ -25,9 +33,16 @@
       ],
       "answer": "A bacterium engulfed by another cell that was never digested",
       "explanation": "Mitochondria retain their own circular DNA, replicate independently, and have double membranes, all consistent with a free-living bacterium taken in roughly two billion years ago and kept. Lynn Margulis argued for endosymbiosis and was rejected repeatedly before the genetic evidence settled it. Chloroplasts arrived the same way, from cyanobacteria. Mitochondrial DNA passes only through the maternal line, which is why it is used to trace ancestry.",
-      "memory_hook": "Mitochondria have their own circular DNA, replicate on their own and carry double membranes, because they were free-living bacteria swallowed about two billion years ago and kept. Lynn Margulis was rejected for years before genetics proved her right. Chloroplasts came the same way."
+      "memory_hook": "Mitochondria have their own circular DNA, replicate on their own and carry double membranes, because they were free-living bacteria swallowed about two billion years ago and kept. Lynn Margulis was rejected for years before genetics proved her right. Chloroplasts came the same way.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0915",
       "category": "Sports",
       "question": "Rocky Marciano retired in 1956 at 49-0, boxing's only undefeated heavyweight champion. What qualifies his legacy?",
       "options": [
@@ -39,12 +54,19 @@
       "answer": "He was small for a heavyweight and usually outreached",
       "explanation": "Marciano stood 5'10\" and rarely weighed more than 188 lbs, small for a heavyweight though not the smallest champion ever: Tommy Burns held the title at 5'7\" and around 175 lbs. Marciano's 68-inch reach was the real handicap, and opponents routinely outweighed and outreached him. He compensated with extraordinary punching power, the right hand he called Suzy Q, a granite chin and relentless pressure, knocking out Jersey Joe Walcott for the title in 1952.",
       "memory_hook": "Marciano was the smallest heavyweight champion — 5'10\", 185 lbs — regularly fighting men 20-30 lbs heavier. His right hand was nicknamed 'Suzy Q.' He beat an over-the-hill Joe Louis, then retired at 32 due to physical wear. The debate is about era quality, not his record: 49-0 with no losses is inarguable, but he fought before the Ali-Frazier-Foreman era.",
+      "riskTier": "source",
       "sourceRefs": [
         "guinness-shortest-heavyweight"
       ],
-      "riskTier": "source"
+      "review": {
+        "state": "verified",
+        "at": "2026-09-03",
+        "by": "tanner@tjs16media.com",
+        "note": "carried over: had a cited source before IDs existed"
+      }
     },
     {
+      "id": "frq-0916",
       "category": "Pop Culture",
       "question": "Which iconic pop duo, consisting of Elton John and Tim Rice, wrote the music for 'The Lion King' (1994)?",
       "options": [
@@ -55,9 +77,16 @@
       ],
       "answer": "Elton John and Tim Rice",
       "explanation": "Elton John composed the songs and Hans Zimmer wrote the score for The Lion King (1994). Tim Rice wrote the lyrics for the songs. 'Can You Feel the Love Tonight' and 'Circle of Life' won Oscars. Phil Collins wrote and performed the songs for Tarzan (1999). Hans Zimmer's score — incorporating African elements — was equally celebrated.",
-      "memory_hook": "Lion King songs: Elton John (music) + Tim Rice (lyrics). 'Can You Feel the Love Tonight' won Oscar."
+      "memory_hook": "Lion King songs: Elton John (music) + Tim Rice (lyrics). 'Can You Feel the Love Tonight' won Oscar.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0917",
       "category": "Geography",
       "question": "The Strait of Gibraltar is only 14km wide at its narrowest. What happened when it last closed?",
       "options": [
@@ -68,9 +97,16 @@
       ],
       "answer": "The Mediterranean nearly dried out completely",
       "explanation": "During the Messinian Salinity Crisis around six million years ago the strait closed and the Mediterranean, which loses more water to evaporation than rivers supply, largely evaporated into a deep basin of salt flats. When the Atlantic broke back through, the Zanclean flood refilled it, possibly within a couple of years, with water pouring in at a rate estimated at a thousand times the Amazon. Kilometre-thick salt layers under the seabed record it.",
-      "memory_hook": "About six million years ago the strait closed and the Mediterranean mostly evaporated, since it loses more to evaporation than rivers put in, leaving a deep basin of salt flats. When the Atlantic broke back through it may have refilled in a couple of years, at a thousand Amazons."
+      "memory_hook": "About six million years ago the strait closed and the Mediterranean mostly evaporated, since it loses more to evaporation than rivers put in, leaving a deep basin of salt flats. When the Atlantic broke back through it may have refilled in a couple of years, at a thousand Amazons.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0918",
       "category": "History",
       "question": "European powers divided Africa at the Berlin Conference of 1884-85. Who was not in the room?",
       "options": [
@@ -81,9 +117,16 @@
       ],
       "answer": "Any African representative whatsoever",
       "explanation": "Fourteen European states plus the United States negotiated the partition with no African present. The borders were drawn along lines of European convenience, splitting ethnic groups and forcing rivals together, and roughly 30% of them are straight lines. Most survive today, because the Organisation of African Unity concluded in 1964 that redrawing them would cause more conflict than it solved. King Leopold II acquired the Congo as personal property.",
-      "memory_hook": "Fourteen European states and the US carved it up with not one African in the room. About 30% of the borders are straight lines, splitting peoples apart and forcing enemies together. They survive because the OAU decided in 1964 that redrawing them would cause worse wars."
+      "memory_hook": "Fourteen European states and the US carved it up with not one African in the room. About 30% of the borders are straight lines, splitting peoples apart and forcing enemies together. They survive because the OAU decided in 1964 that redrawing them would cause worse wars.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0919",
       "category": "Pop Culture",
       "question": "Apple was founded by three people in 1976. What happened to the third?",
       "options": [
@@ -94,9 +137,16 @@
       ],
       "answer": "Ronald Wayne sold his 10% stake for $800",
       "explanation": "Wayne was forty-one, older than the other two, and had personal assets that would be exposed if the partnership incurred debt, so he withdrew twelve days in and sold his share for $800. That stake would later be worth hundreds of billions. He has repeatedly said he does not regret it, since he made a reasonable decision with the information he had, and would not have thrived in that environment.",
-      "memory_hook": "Ronald Wayne was forty-one with assets to lose if the partnership took on debt, so he pulled out after twelve days for $800. That stake would be worth hundreds of billions. He says he does not regret it, since it was a sensible call with what he knew at the time."
+      "memory_hook": "Ronald Wayne was forty-one with assets to lose if the partnership took on debt, so he pulled out after twelve days for $800. That stake would be worth hundreds of billions. He says he does not regret it, since it was a sensible call with what he knew at the time.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0920",
       "category": "Science & Nature",
       "question": "Transcription copies DNA into RNA. Where does the copying stop being faithful?",
       "options": [
@@ -107,9 +157,16 @@
       ],
       "answer": "Most of the copy is cut out before it leaves the nucleus",
       "explanation": "Human genes contain introns, non-coding stretches spliced out of the RNA before it is used, and in some genes introns are the large majority of the sequence. Alternative splicing means one gene can produce many different proteins depending on which pieces are kept, which is a large part of how 20,000 genes build something as complex as a person. Phillip Sharp and Richard Roberts won the Nobel for discovering introns in 1993.",
-      "memory_hook": "Human genes are full of introns, non-coding stretches spliced out before the RNA is used, sometimes most of the sequence. Alternative splicing lets one gene make many proteins depending on what is kept, which is how 20,000 genes build a person. Sharp and Roberts won the Nobel for it."
+      "memory_hook": "Human genes are full of introns, non-coding stretches spliced out before the RNA is used, sometimes most of the sequence. Alternative splicing lets one gene make many proteins depending on what is kept, which is how 20,000 genes build a person. Sharp and Roberts won the Nobel for it.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0921",
       "category": "Geography",
       "question": "The Amazon rainforest spans nine countries. What proportion sits in Brazil?",
       "options": [
@@ -120,9 +177,16 @@
       ],
       "answer": "About 60%, with Peru holding the next largest share",
       "explanation": "Brazil holds roughly 60% and Peru about 13%, with the rest spread across Colombia, Venezuela, Ecuador, Bolivia, Guyana, Suriname and French Guiana. The forest generates much of its own rainfall by recycling moisture inland, so clearing it reduces rain over what remains, and scientists debate how close that feedback is to a tipping point beyond which large areas shift to savanna. Deforestation rates vary sharply with Brazilian government policy.",
-      "memory_hook": "Brazil has about 60%, Peru about 13%, the rest across seven more countries. The forest makes much of its own rain by recycling moisture inland, so clearing it dries out what is left. The argument is over how close that feedback is to flipping large areas into savanna."
+      "memory_hook": "Brazil has about 60%, Peru about 13%, the rest across seven more countries. The forest makes much of its own rain by recycling moisture inland, so clearing it dries out what is left. The argument is over how close that feedback is to flipping large areas into savanna.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0922",
       "category": "History",
       "question": "Napoleon is remembered as a general, but had a longer effect through something else. What?",
       "options": [
@@ -133,9 +197,16 @@
       ],
       "answer": "A civil legal code still underpinning law in dozens of nations",
       "explanation": "The Napoleonic Code of 1804 swept away feudal law, established equality before the law, secured property rights and made legal texts clear enough for ordinary people to read. It spread with his armies and remains the foundation of civil law in much of Europe, Latin America, and parts of Africa and Asia, and in Louisiana. Napoleon said his true glory was not the forty battles he won but the code that would live forever.",
-      "memory_hook": "The 1804 Napoleonic Code abolished feudal law, established equality before the law and was written plainly enough to actually read. It spread with his armies and still underpins civil law across Europe, Latin America and Louisiana. He said the code, not the forty battles, was his real legacy."
+      "memory_hook": "The 1804 Napoleonic Code abolished feudal law, established equality before the law and was written plainly enough to actually read. It spread with his armies and still underpins civil law across Europe, Latin America and Louisiana. He said the code, not the forty battles, was his real legacy.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0923",
       "category": "Pop Culture",
       "question": "U2's The Joshua Tree came out in 1987. What was the band trying to do with it?",
       "options": [
@@ -146,9 +217,16 @@
       ],
       "answer": "Engage with America as both an ideal and a disappointment",
       "explanation": "The band had toured the US extensively and were pulled in by its music, landscape and mythology while being repelled by Reagan-era foreign policy in Central America, and the record holds both. Bono had also worked in Ethiopia after Live Aid. Brian Eno and Daniel Lanois produced. It sold over 25 million and the tree pictured on the cover fell in 2000, though people still visit the spot.",
-      "memory_hook": "They had toured America and were pulled in by the landscape and music while repelled by Reagan-era policy in Central America, and the record holds both at once. Eno and Lanois produced. Over 25 million sold. The actual tree on the cover fell down in 2000 and people still visit the spot."
+      "memory_hook": "They had toured America and were pulled in by the landscape and music while repelled by Reagan-era policy in Central America, and the record holds both at once. Eno and Lanois produced. Over 25 million sold. The actual tree on the cover fell down in 2000 and people still visit the spot.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0924",
       "category": "Sports",
       "question": "A maximum snooker break is 147. How is that total reached?",
       "options": [
@@ -159,7 +237,13 @@
       ],
       "answer": "Fifteen reds each followed by a black, then all the colours",
       "explanation": "Fifteen reds at one point each, fifteen blacks at seven, then the six colours in order for 27, totalling 147. It requires potting 36 balls consecutively with perfect position throughout. Ronnie O'Sullivan holds the record for the fastest, five minutes and eight seconds at the 1997 World Championship, roughly nine seconds per shot including walking round the table. He has made more competitive maximums than anyone.",
-      "memory_hook": "Fifteen reds at one each, fifteen blacks at seven each, then the colours for 27. That is 36 balls in a row with perfect position every time. O'Sullivan made one in five minutes eight seconds in 1997, about nine seconds a shot including walking round the table."
+      "memory_hook": "Fifteen reds at one each, fifteen blacks at seven each, then the colours for 27. That is 36 balls in a row with perfect position every time. O'Sullivan made one in five minutes eight seconds in 1997, about nine seconds a shot including walking round the table.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     }
   ]
 }

@@ -2,6 +2,7 @@
   "date": "2026-07-27",
   "questions": [
     {
+      "id": "frq-0505",
       "category": "History",
       "question": "The Byzantine Empire, which preserved Roman culture and law for over a thousand years after Rome's fall, finally collapsed in 1453 when which power conquered Constantinople?",
       "options": [
@@ -12,9 +13,16 @@
       ],
       "answer": "Ottoman Empire",
       "explanation": "The Byzantine Empire ended on May 29, 1453, when Ottoman Sultan Mehmed II captured Constantinople. The city was renamed Istanbul and became the Ottoman capital. The fall is often cited as the end of the Middle Ages and triggered a migration of scholars to western Europe that fueled the Renaissance.",
-      "memory_hook": "Byzantine Empire ended 1453 — Ottomans took Constantinople (now Istanbul)."
+      "memory_hook": "Byzantine Empire ended 1453 — Ottomans took Constantinople (now Istanbul).",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0506",
       "category": "History",
       "question": "The French Revolution began in which year?",
       "options": [
@@ -25,9 +33,16 @@
       ],
       "answer": "1789",
       "explanation": "The French Revolution began in 1789 with the storming of the Bastille on July 14 — now celebrated as Bastille Day. It ended the absolute monarchy in France and established the principles of liberty, equality, and fraternity. The Revolution eventually gave rise to Napoleon Bonaparte, who declared himself Emperor in 1804.",
-      "memory_hook": "1789 = French Revolution. Think: 1776 is American, 1789 is French. Three years after the American Revolution inspired a generation of French intellectuals."
+      "memory_hook": "1789 = French Revolution. Think: 1776 is American, 1789 is French. Three years after the American Revolution inspired a generation of French intellectuals.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0507",
       "category": "Geography",
       "question": "Which South American country contains approximately 60% of the Amazon Rainforest and is home to a river that discharges more freshwater into the ocean than the next seven largest rivers combined?",
       "options": [
@@ -38,9 +53,16 @@
       ],
       "answer": "Brazil",
       "explanation": "About 60% of the Amazon Rainforest lies within Brazil, with the remainder spread across Peru, Colombia, Venezuela, Ecuador, Bolivia, and other nations. The Amazon River discharges approximately 20% of all freshwater that flows into Earth's oceans. The rainforest is home to an estimated 10% of all species on Earth and plays a critical role in regulating global climate. The Amazon Basin covers 7 million square kilometers.",
-      "memory_hook": "Amazon: 60% in Brazil. River carries 20% of all ocean-bound freshwater — more than the next 7 largest rivers combined. 10% of Earth's species live here. The planet's largest climate regulator."
+      "memory_hook": "Amazon: 60% in Brazil. River carries 20% of all ocean-bound freshwater — more than the next 7 largest rivers combined. 10% of Earth's species live here. The planet's largest climate regulator.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0508",
       "category": "History",
       "question": "Operation Overlord — the largest seaborne invasion in history — took place on June 6, 1944. By what name is this pivotal World War II event commonly known?",
       "options": [
@@ -51,9 +73,16 @@
       ],
       "answer": "D-Day",
       "explanation": "D-Day (June 6, 1944) saw Allied forces land on five beaches in Normandy, France — code-named Utah, Omaha, Gold, Juno, and Sword. Over 156,000 troops crossed the English Channel. The invasion opened a Western Front that accelerated Nazi Germany's defeat.",
-      "memory_hook": "D-Day = June 6, 1944, Normandy beaches. Five beaches, 156,000 troops."
+      "memory_hook": "D-Day = June 6, 1944, Normandy beaches. Five beaches, 156,000 troops.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0509",
       "category": "Sports",
       "question": "The FIFA World Cup is held every how many years?",
       "options": [
@@ -64,9 +93,16 @@
       ],
       "answer": "4 years",
       "explanation": "The FIFA World Cup takes place every four years, with the host country chosen years in advance by FIFA. The first World Cup was held in 1930 in Uruguay. The tournament features 32 national teams (expanded to 48 starting in 2026) competing over about a month. Brazil has won the most titles with five championships.",
-      "memory_hook": "World Cup = every 4 years. Like the Olympics. Only 32 teams make it (soon 48). Brazil wins it most — 5 times. Argentina and Germany each have 4."
+      "memory_hook": "World Cup = every 4 years. Like the Olympics. Only 32 teams make it (soon 48). Brazil wins it most — 5 times. Argentina and Germany each have 4.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0510",
       "category": "Sports",
       "question": "In tennis, what is the term for winning a game without the opponent scoring a single point?",
       "options": [
@@ -77,9 +113,16 @@
       ],
       "answer": "Love game",
       "explanation": "A 'love game' in tennis is a game won without the opponent scoring any points (0 points = love). The term 'love' for zero in tennis likely comes from the French 'l'oeuf' (the egg), referring to the egg-shaped zero. A set won 6-0 is called a 'bagel' and winning 6-0, 6-0 is called a 'double bagel.'",
-      "memory_hook": "Love game = opponent scores zero. 'Love' = zero in tennis, from the French word for egg. A bagel (6-0 set) is a whole egg. A double bagel (6-0, 6-0) is total domination."
+      "memory_hook": "Love game = opponent scores zero. 'Love' = zero in tennis, from the French word for egg. A bagel (6-0 set) is a whole egg. A double bagel (6-0, 6-0) is total domination.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0511",
       "category": "Pop Culture",
       "question": "Ansel Adams's black-and-white photographs of the American West — particularly Yosemite — are among the most recognized landscape images in history. What was his lasting contribution beyond aesthetics?",
       "options": [
@@ -90,9 +133,16 @@
       ],
       "answer": "Adams invented the Zone System — a technical framework for controlling exposure and development — that became the definitive standard for fine art black-and-white photography for decades",
       "explanation": "Adams co-developed the Zone System with Fred Archer in 1940 — a method for precisely controlling the relationship between exposure, development, and the final print's tonal range, from Zone 0 (pure black) to Zone X (pure white). Beyond technique, Adams's images of Yosemite, the Sierra Nevada, and national parks played a direct role in the conservation movement — he was a passionate Sierra Club advocate. His Moonrise, Hernandez, New Mexico (1941) became one of the most reproduced fine-art photographs, with prints selling for over $600,000.",
-      "memory_hook": "Adams invented the Zone System — a precise framework for exposure and development — that photographers still use today. His Yosemite images also helped build political support for the conservation movement; he was a core Sierra Club activist."
+      "memory_hook": "Adams invented the Zone System — a precise framework for exposure and development — that photographers still use today. His Yosemite images also helped build political support for the conservation movement; he was a core Sierra Club activist.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0512",
       "category": "Pop Culture",
       "question": "David Bowie performed under a flamboyant alien rock star alter ego from 1972 to 1973, retiring the character dramatically mid-tour. What was this persona called?",
       "options": [
@@ -103,9 +153,16 @@
       ],
       "answer": "Ziggy Stardust",
       "explanation": "Ziggy Stardust was David Bowie's androgynous alien rock star persona, introduced on the 1972 album 'The Rise and Fall of Ziggy Stardust and the Spiders from Mars.' Bowie famously 'killed' Ziggy Stardust mid-concert at the Hammersmith Odeon in 1973, shocking his band, who didn't know in advance.",
-      "memory_hook": "Ziggy Stardust = Bowie's alien persona, 1972-73. He killed it onstage without warning."
+      "memory_hook": "Ziggy Stardust = Bowie's alien persona, 1972-73. He killed it onstage without warning.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0513",
       "category": "Pop Culture",
       "question": "Which 1994 Quentin Tarantino film features a hitman duo, a Royale with Cheese, and a briefcase with a mysterious glow?",
       "options": [
@@ -116,9 +173,16 @@
       ],
       "answer": "Pulp Fiction",
       "explanation": "Pulp Fiction (1994) is Quentin Tarantino's landmark film starring John Travolta, Samuel L. Jackson, Uma Thurman, and Bruce Willis. The non-linear narrative follows interconnected stories of crime and redemption. It revitalized Travolta's career, was nominated for 7 Academy Awards (winning Best Original Screenplay), and is frequently listed among the greatest films ever made.",
-      "memory_hook": "Pulp Fiction = Tarantino, 1994. Royale with Cheese = McDonald's in France. The briefcase glows but we never see what's inside. Tarantino's rule: the audience's imagination is better than any prop."
+      "memory_hook": "Pulp Fiction = Tarantino, 1994. Royale with Cheese = McDonald's in France. The briefcase glows but we never see what's inside. Tarantino's rule: the audience's imagination is better than any prop.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0514",
       "category": "Science & Nature",
       "question": "Which subatomic particle, discovered by James Chadwick in 1932, has no electric charge and is found in the nucleus of every atom except the most common form of hydrogen?",
       "options": [
@@ -129,9 +193,16 @@
       ],
       "answer": "Neutron",
       "explanation": "The neutron has no electric charge and, together with protons, forms the nucleus of atoms. Chadwick's 1932 discovery completed the basic model of the atom. Hydrogen-1 (protium) is the only stable atom with no neutrons in its nucleus. The number of neutrons in a nucleus determines the isotope — carbon-12 has 6 neutrons, carbon-14 has 8 (same element, different mass). Neutron bombardment also triggers nuclear fission in uranium and plutonium.",
-      "memory_hook": "Neutron: no charge, discovered 1932 by Chadwick. Completed the atom model. Same protons + different neutrons = isotopes. Neutron bombardment = nuclear fission."
+      "memory_hook": "Neutron: no charge, discovered 1932 by Chadwick. Completed the atom model. Same protons + different neutrons = isotopes. Neutron bombardment = nuclear fission.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0515",
       "category": "Science & Nature",
       "question": "The James Webb Space Telescope's 2022 image of the 'Pillars of Creation' revealed details invisible to Hubble. What are the Pillars of Creation, and what does the Webb image show?",
       "options": [
@@ -142,9 +213,16 @@
       ],
       "answer": "The Pillars are towering columns of interstellar gas and dust in the Eagle Nebula where new stars are actively forming — Webb's infrared penetrated the dust to reveal hundreds of newly forming protostars invisible in Hubble's optical images",
       "explanation": "The Pillars of Creation, located in the Eagle Nebula about 6,500 light-years away, were first photographed by Hubble in 1995 — that image became one of the most famous astronomical photographs ever taken. Hubble's optical light couldn't penetrate the dust columns. Webb's mid-infrared camera saw through the dust entirely, revealing hundreds of newly forming stars (protostars) embedded within the columns — stars invisible in the Hubble image. Webb also detected a supersonic jet from a young star punching through one of the columns. The columns themselves are measured in light-years — the tallest is 4 light-years high.",
-      "memory_hook": "Hubble's 1995 Pillars of Creation image was so iconic it appeared on postage stamps. Webb's 2022 version penetrated the dust in infrared, revealing hundreds of newly forming stars Hubble couldn't see — including a supersonic stellar jet punching through one column. The tallest pillar is 4 light-years high."
+      "memory_hook": "Hubble's 1995 Pillars of Creation image was so iconic it appeared on postage stamps. Webb's 2022 version penetrated the dust in infrared, revealing hundreds of newly forming stars Hubble couldn't see — including a supersonic stellar jet punching through one column. The tallest pillar is 4 light-years high.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0516",
       "category": "Geography",
       "question": "Fiji, an archipelago of about 330 islands in the South Pacific, is the largest economy in which sub-region?",
       "options": [
@@ -155,7 +233,13 @@
       ],
       "answer": "Melanesia",
       "explanation": "Fiji is the largest economy in Melanesia, the sub-region of the Pacific that includes Papua New Guinea, Solomon Islands, Vanuatu, and New Caledonia. Fiji consists of 330 islands (about 110 inhabited) with roughly 900,000 people. Its population is ethnically diverse — about 57% iTaukei (indigenous Fijian, of Melanesian descent) and 37% Indo-Fijian (descendants of laborers brought by Britain from India in the 1800s). Fiji is known for rugby sevens, where it won an Olympic gold medal in 2016.",
-      "memory_hook": "Fiji: 330 Pacific islands, largest Melanesian economy. Two main groups: indigenous Fijians (Melanesian) and Indo-Fijians (descendants of British-imported Indian laborers). That colonial history created a complex ethnic mix that has caused political tensions. Also known for rugby sevens — Fiji punches well above its weight."
+      "memory_hook": "Fiji: 330 Pacific islands, largest Melanesian economy. Two main groups: indigenous Fijians (Melanesian) and Indo-Fijians (descendants of British-imported Indian laborers). That colonial history created a complex ethnic mix that has caused political tensions. Also known for rugby sevens — Fiji punches well above its weight.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     }
   ]
 }

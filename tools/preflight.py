@@ -145,7 +145,10 @@ def main():
         i = args.index('--week'); week = args[i+1]; del args[i:i+2]
 
     today = date.today().isoformat()
-    files = sorted(f for f in os.listdir(QDIR) if f.endswith('.json'))
+    # Only dated quiz files. index.json moved in here during the go-dark
+    # rename and was being parsed as a quiz with zero questions.
+    files = sorted(f for f in os.listdir(QDIR)
+                   if f.endswith('.json') and f[:4].isdigit())
     if week:
         w0 = date.fromisoformat(week)
         keep = {(w0 + timedelta(days=i)).isoformat() for i in range(7)}

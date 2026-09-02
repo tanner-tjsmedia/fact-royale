@@ -2,6 +2,7 @@
   "date": "2026-08-09",
   "questions": [
     {
+      "id": "frq-0661",
       "category": "History",
       "question": "Which empire built the Taj Mahal in India?",
       "options": [
@@ -13,12 +14,19 @@
       "answer": "Mughal Empire",
       "explanation": "Shah Jahan began the complex around 1632 as a mausoleum for Mumtaz Mahal, who died in childbirth. The mausoleum itself was finished by about 1638-39, the adjoining buildings by 1643, and decorative work ran to at least 1647, so the 42-acre site took roughly 22 years in total. It is the high point of Mughal architecture, which fused Persian, Islamic and Indian forms, and became a UNESCO World Heritage Site in 1983.",
       "memory_hook": "Taj Mahal = Mughal Emperor's tribute to his wife. She died in childbirth with their 14th child. He built the most beautiful building in the world for her. 22 years, 20,000 workers. Shah Jahan was later imprisoned by his own son and could only see the Taj from his prison window.",
+      "riskTier": "source",
       "sourceRefs": [
         "britannica-taj-mahal"
       ],
-      "riskTier": "source"
+      "review": {
+        "state": "verified",
+        "at": "2026-09-03",
+        "by": "tanner@tjs16media.com",
+        "note": "carried over: had a cited source before IDs existed"
+      }
     },
     {
+      "id": "frq-0662",
       "category": "History",
       "question": "The first telephone call in history was made by Alexander Graham Bell in 1876. What were his first words?",
       "options": [
@@ -30,12 +38,19 @@
       "answer": "Mr. Watson, come here. I want to see you.",
       "explanation": "Bell wrote the moment into his laboratory notebook on 10 March 1876: 'Mr. Watson - Come here - I want to see you,' followed by 'To my delight he came and declared that he had heard and understood what I said.' Watson was in the next room. Bell's patent had been granted three days earlier, on 7 March. The notebook page is held in the Bell Family Papers at the Library of Congress.",
       "memory_hook": "First phone call: 'Mr. Watson, come here. I want to see you.' March 10, 1876. Watson was in the next room. The first thing ever said on a phone was essentially 'come here.' Bell accidentally spilled acid on himself during the call.",
+      "riskTier": "source",
       "sourceRefs": [
         "loc-bell-notebook"
       ],
-      "riskTier": "source"
+      "review": {
+        "state": "verified",
+        "at": "2026-09-03",
+        "by": "tanner@tjs16media.com",
+        "note": "carried over: had a cited source before IDs existed"
+      }
     },
     {
+      "id": "frq-0663",
       "category": "History",
       "question": "South Africa's apartheid system ran from 1948 to the early 1990s. What did the Population Registration Act of 1950 do?",
       "options": [
@@ -47,13 +62,20 @@
       "answer": "Classified every citizen by race, fixing where they could live",
       "explanation": "The Act sorted every South African into a racial category, and that classification then governed where a person could live, work, travel, and who they could marry. Boards assessed borderline cases using tests as arbitrary as whether a pencil would stay put in someone's hair. Families were split when siblings received different classifications. It was the administrative spine of apartheid, since every other segregation law depended on the register it created.",
       "memory_hook": "Apartheid needed a list before it could segregate anyone, so the 1950 Act classified every citizen by race. Boards decided borderline cases with tests like whether a pencil stayed in your hair. Siblings were sometimes classified differently and split up. Every other apartheid law hung off this register.",
+      "riskTier": "source",
       "sourceRefs": [
         "population-registration-act",
         "sahistory-population-act"
       ],
-      "riskTier": "source"
+      "review": {
+        "state": "verified",
+        "at": "2026-09-03",
+        "by": "tanner@tjs16media.com",
+        "note": "carried over: had a cited source before IDs existed"
+      }
     },
     {
+      "id": "frq-0664",
       "category": "Sports",
       "question": "A baseball batter struck by a pitch is normally awarded first base, but not always. What forfeits it?",
       "options": [
@@ -65,13 +87,20 @@
       "answer": "Making no attempt to avoid it, or swinging at the pitch",
       "explanation": "The rulebook requires a genuine attempt to get out of the way. A batter who leans in is denied the base, and if he swings and is hit anyway the ball is dead and a strike is called, because a strike supersedes a hit by pitch. Umpires apply the no-attempt call rarely, and some hitters build careers on crowding the plate. A pitch that bounces before reaching the batter still awards the base, which surprises most spectators.",
       "memory_hook": "You have to actually try to dodge it. Lean in or swing and you get nothing, and a swing makes it a strike as well. A bounced pitch still counts, which surprises people. Umpires call the avoidance rule loosely, which is why some hitters make a career of crowding the plate and wearing it.",
+      "riskTier": "source",
       "sourceRefs": [
         "mlb-hbp-glossary",
         "littleleague-hbp"
       ],
-      "riskTier": "source"
+      "review": {
+        "state": "verified",
+        "at": "2026-09-03",
+        "by": "tanner@tjs16media.com",
+        "note": "carried over: had a cited source before IDs existed"
+      }
     },
     {
+      "id": "frq-0665",
       "category": "Sports",
       "question": "How long is a marathon running race?",
       "options": [
@@ -84,9 +113,16 @@
       "explanation": "A marathon is 26 miles and 385 yards (42.195 km). The distance was standardized at the 1908 London Olympics, set to run from Windsor Castle to the Olympic stadium and finish in front of the royal box. The race commemorates the legend of Pheidippides, a Greek messenger who allegedly ran from Marathon to Athens (about 25 miles) to announce a military victory in 490 BC, then collapsed and died.",
       "memory_hook": "Marathon = 26.2 miles. Standardized because of the British royal family's preference for the 1908 finish line. Named after a battle in ancient Greece. The original messenger legend may be apocryphal — but the race is very real.",
       "riskTier": "canonical",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      },
       "canonicalNote": "atlas/textbook level, no source disputes it"
     },
     {
+      "id": "frq-0666",
       "category": "Pop Culture",
       "question": "Kubrick filmed the Overlook Hotel corridors in The Shining (1980) with a camera rig that was then brand new. What did it let him do?",
       "options": [
@@ -98,13 +134,20 @@
       "answer": "Glide smoothly behind a moving subject without laying track",
       "explanation": "The Steadicam, invented by Garrett Brown a few years earlier, isolates the camera from the operator's movement using a counterweighted harness. Kubrick used it to follow Danny's Big Wheel through the hotel at floor level, so the camera moves like something stalking him. Before it, a shot like that meant laying rails, which no corridor could accommodate. Brown operated the rig himself for much of the film. Its first feature use was Bound for Glory in 1976.",
       "memory_hook": "The Steadicam uses a counterweighted harness to cancel the operator's bounce, so the camera floats. Kubrick put it at floor level behind Danny's Big Wheel, which is why it feels like something is following him. Before that you needed rails, impossible in a corridor. Garrett Brown, who invented it, operated it himself.",
+      "riskTier": "source",
       "sourceRefs": [
         "bfi-shining-steadicam",
         "academy-tech-history"
       ],
-      "riskTier": "source"
+      "review": {
+        "state": "verified",
+        "at": "2026-09-03",
+        "by": "tanner@tjs16media.com",
+        "note": "carried over: had a cited source before IDs existed"
+      }
     },
     {
+      "id": "frq-0667",
       "category": "Pop Culture",
       "question": "Nirvana's Nevermind pushed grunge into the mainstream in 1991. What did it knock off the top of the Billboard album chart?",
       "options": [
@@ -116,13 +159,20 @@
       "answer": "Michael Jackson's Dangerous, in January 1992",
       "explanation": "DGC shipped 46,251 copies to American shops in September 1991 against an internal target of about 250,000 over a year, benchmarked on Sonic Youth. Nevermind took number one on the chart dated 11 January 1992, pushing Dangerous down to fifth after four weeks on top. The industry read it as a generational handover and spent the next year signing anything from the Pacific Northwest. Cobain was openly uncomfortable with the scale of it.",
       "memory_hook": "Geffen pressed 46,000 copies expecting a college-radio record. Nevermind knocked Michael Jackson's Dangerous off number one in January 1992, and the industry treated it as a changing of the guard. Labels dumped hair metal and signed anyone from Seattle. Cobain hated what it turned into.",
+      "riskTier": "source",
       "sourceRefs": [
         "billboard-nevermind-1992",
         "recordcollector-nevermind"
       ],
-      "riskTier": "source"
+      "review": {
+        "state": "verified",
+        "at": "2026-09-03",
+        "by": "tanner@tjs16media.com",
+        "note": "carried over: had a cited source before IDs existed"
+      }
     },
     {
+      "id": "frq-0668",
       "category": "Pop Culture",
       "question": "True Detective Season 1 (HBO, 2014) is considered a landmark of prestige TV. What defined it narratively?",
       "options": [
@@ -134,12 +184,19 @@
       "answer": "Two timelines, 1995 and 2012, with unreliable detectives",
       "explanation": "The season ran two timelines at once, so the viewer lives through the 1995 investigation while listening to the detectives account for it in 2012 and works out where the two versions part company. Cary Fukunaga directed all eight episodes, which is rare in television and gives the season a single visual grammar. He won the 2014 Emmy for Outstanding Directing in a Drama Series for episode four, which contains a long unbroken take through a housing project.",
       "memory_hook": "True Detective's genius was its double timeline — watching 2012 detectives interrogate their 1995 selves made both the suspects and the investigators unreliable. Episode 4's unbroken 6-minute tracking shot through a drug den is still one of TV's most cited set pieces.",
+      "riskTier": "source",
       "sourceRefs": [
         "emmy-fukunaga-2014"
       ],
-      "riskTier": "source"
+      "review": {
+        "state": "verified",
+        "at": "2026-09-03",
+        "by": "tanner@tjs16media.com",
+        "note": "carried over: had a cited source before IDs existed"
+      }
     },
     {
+      "id": "frq-0669",
       "category": "Geography",
       "question": "Lake Titicaca sits at 3,812 metres on the Peru-Bolivia border. What is unusual about its Uros communities?",
       "options": [
@@ -151,13 +208,20 @@
       "answer": "They live on floating islands woven from totora reeds",
       "explanation": "The Uros build artificial islands from layered totora reed, tying the buoyant roots into a base and stacking dried reed on top in alternating directions, then anchoring the whole thing to the lakebed with stakes. The reeds rot from below, so fresh layers go on continuously and a well-kept island lasts around thirty years. The practice began as a defence, since an island can be moved away from an approaching threat.",
       "memory_hook": "The Uros live on islands they weave from totora reed and anchor to the lakebed. The reeds rot underneath so new layers go on top constantly, and an island lasts about thirty years. It started as defence, since you can move an island away from trouble. Around 1,200 to 1,500 are tied to the islands, though many now split time with Puno.",
+      "riskTier": "source",
       "sourceRefs": [
         "smithsonian-uros",
         "cib-totora-islands"
       ],
-      "riskTier": "source"
+      "review": {
+        "state": "verified",
+        "at": "2026-09-03",
+        "by": "tanner@tjs16media.com",
+        "note": "carried over: had a cited source before IDs existed"
+      }
     },
     {
+      "id": "frq-0670",
       "category": "Science & Nature",
       "question": "What is the name for the protective ozone layer primarily made of?",
       "options": [
@@ -170,9 +234,16 @@
       "explanation": "The ozone layer is made up of ozone molecules, each consisting of three oxygen atoms (O3). Normal atmospheric oxygen has two atoms (O2). Ozone is created when UV radiation splits O2 molecules, and the free oxygen atoms bond with other O2 molecules. The ozone layer absorbs most of the Sun's UV-B and UV-C radiation, protecting life on Earth from DNA damage and skin cancer.",
       "memory_hook": "Ozone = O3. Three oxygen atoms. Normal air is O2 (two oxygen atoms). The ozone layer is O3 molecules absorbing UV radiation that would otherwise fry life on Earth. CFCs break the O3 back into O2, depleting the protective layer.",
       "riskTier": "canonical",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      },
       "canonicalNote": "atlas/textbook level, no source disputes it"
     },
     {
+      "id": "frq-0671",
       "category": "Geography",
       "question": "The Carpathian arc holds Europe's largest surviving populations of three large predators. Which three?",
       "options": [
@@ -184,12 +255,19 @@
       "answer": "Brown bear, grey wolf and Eurasian lynx",
       "explanation": "Romania holds Europe's largest brown bear population outside Russia. A national genetic census completed in 2025, built on roughly 24,000 hair and scat samples, put the figure between 10,657 and 12,787 on a conservative scenario, well above the 6,000 to 8,000 that earlier observational counts assumed. The Carpathians escaped the clearance that emptied Western Europe, partly because Communist-era restrictions limited access, and they hold some of the continent's last old-growth forest. Logging pressure is now heavy.",
       "memory_hook": "Romania alone has about 6,000 brown bears, more than anywhere in Europe outside Russia, plus wolves and lynx. The Carpathians survived because Communist-era restrictions kept development out. They also hold Europe's last old-growth forest. Logging is now the threat to all of it.",
+      "riskTier": "source",
       "sourceRefs": [
         "romania-bear-census-2025"
       ],
-      "riskTier": "source"
+      "review": {
+        "state": "verified",
+        "at": "2026-09-03",
+        "by": "tanner@tjs16media.com",
+        "note": "carried over: had a cited source before IDs existed"
+      }
     },
     {
+      "id": "frq-0672",
       "category": "Science & Nature",
       "question": "Radiocarbon dating works because carbon-14 is an unstable isotope of carbon. What makes something an isotope?",
       "options": [
@@ -202,6 +280,12 @@
       "explanation": "Protons determine which element an atom is, so changing that count makes it something else entirely. Neutrons can vary freely, producing isotopes that behave identically in chemical reactions but differ in mass and stability. Carbon-12 is stable and carbon-14 is not, decaying at a known rate, which is what makes dating possible. Hydrogen's isotopes are unusual enough to have their own names: deuterium and tritium.",
       "memory_hook": "Protons decide which element you have, so changing them changes the element. Neutrons can vary, and that is what an isotope is: same chemistry, different mass and stability. Carbon-12 is stable, carbon-14 decays predictably, which is the whole basis of radiocarbon dating.",
       "riskTier": "canonical",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      },
       "canonicalNote": "atlas/textbook level, no source disputes it"
     }
   ]

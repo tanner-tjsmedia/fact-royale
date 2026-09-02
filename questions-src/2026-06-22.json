@@ -2,6 +2,7 @@
   "date": "2026-06-22",
   "questions": [
     {
+      "id": "frq-0085",
       "category": "History",
       "question": "The Cuban Missile Crisis of 1962 was a standoff between the United States and which country?",
       "options": [
@@ -12,9 +13,16 @@
       ],
       "answer": "The Soviet Union",
       "explanation": "The Cuban Missile Crisis (October 16–28, 1962) was a 13-day confrontation between the US and the Soviet Union after American reconnaissance revealed Soviet ballistic missiles being installed in Cuba. President Kennedy and Premier Khrushchev negotiated a resolution — the Soviets removed the missiles in exchange for a US pledge not to invade Cuba and secret removal of US missiles from Turkey.",
-      "memory_hook": "Cuba was the stage, the US and USSR were the actors. The crisis brought the world closer to nuclear war than any other moment in history — 13 days in October 1962 where everyone held their breath."
+      "memory_hook": "Cuba was the stage, the US and USSR were the actors. The crisis brought the world closer to nuclear war than any other moment in history — 13 days in October 1962 where everyone held their breath.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0086",
       "category": "History",
       "question": "The 19th Amendment, ratified in 1920, granted which group the right to vote in the United States?",
       "options": [
@@ -25,9 +33,16 @@
       ],
       "answer": "Women",
       "explanation": "The 19th Amendment to the US Constitution was ratified on August 18, 1920, prohibiting the denial of voting rights based on sex. It was the culmination of a decades-long women's suffrage movement. Key figures like Susan B. Anthony and Elizabeth Cady Stanton fought for this right, though Anthony died 14 years before it was ratified.",
-      "memory_hook": "19th Amendment, 1920. The 19th gives women the vote — remember it as: nineteen-twenty, women can vote now. Susan B. Anthony never lived to vote legally — she died in 1906."
+      "memory_hook": "19th Amendment, 1920. The 19th gives women the vote — remember it as: nineteen-twenty, women can vote now. Susan B. Anthony never lived to vote legally — she died in 1906.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0087",
       "category": "History",
       "question": "D-Day, the largest seaborne invasion in history, took place on what date in 1944?",
       "options": [
@@ -38,9 +53,16 @@
       ],
       "answer": "June 6",
       "explanation": "D-Day (Operation Overlord) took place on June 6, 1944, when Allied forces landed on five beaches in Normandy, France. Over 156,000 Allied troops crossed the English Channel in more than 5,000 ships. The invasion turned the tide of WWII in Europe. The 'D' in D-Day simply stands for 'Day' — it's a military designation for the day an operation commences.",
-      "memory_hook": "D-Day, June 6, 1944. 6/6/44. Three even numbers. The 'D' just means Day — Day-Day, June Day. Five beaches: Utah, Omaha, Gold, Juno, Sword. Omaha was the bloodiest — it's the one in the movies."
+      "memory_hook": "D-Day, June 6, 1944. 6/6/44. Three even numbers. The 'D' just means Day — Day-Day, June Day. Five beaches: Utah, Omaha, Gold, Juno, Sword. Omaha was the bloodiest — it's the one in the movies.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0088",
       "category": "Sports",
       "question": "Gymnast Simone Biles is the most decorated American gymnast in history. At which Games did she famously withdraw from several events citing mental health?",
       "options": [
@@ -51,9 +73,16 @@
       ],
       "answer": "Tokyo 2020",
       "explanation": "Simone Biles withdrew from the team final and several individual events at the Tokyo 2020 Olympics (held in 2021 due to COVID-19), citing mental health concerns and the 'twisties' — a dangerous disorientation gymnasts can experience in the air. She returned to win bronze on beam. Her decision sparked a global conversation about athlete mental health.",
-      "memory_hook": "Tokyo 2020 = mental health moment. The greatest gymnast of all time said 'I'm not okay' in front of the world — and it changed how we talk about athlete wellbeing. Courage isn't always a gold medal."
+      "memory_hook": "Tokyo 2020 = mental health moment. The greatest gymnast of all time said 'I'm not okay' in front of the world — and it changed how we talk about athlete wellbeing. Courage isn't always a gold medal.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0089",
       "category": "Sports",
       "question": "The Boston Marathon is the world's oldest annual marathon. In what year was it first run?",
       "options": [
@@ -64,9 +93,16 @@
       ],
       "answer": "1897",
       "explanation": "The Boston Marathon was first run on April 19, 1897, inspired by the success of the 1896 Athens Olympics marathon. It is held annually on Patriots' Day (the third Monday in April) and covers 26.2 miles from Hopkinton to Copley Square in Boston. It is one of the six World Marathon Majors and has one of the most demanding qualifying standards of any major marathon.",
-      "memory_hook": "Boston Marathon, 1897 — older than most countries' Olympic programs. It started one year after the modern Olympics were revived. Running 26 miles every April since before the Wright Brothers ever flew."
+      "memory_hook": "Boston Marathon, 1897 — older than most countries' Olympic programs. It started one year after the modern Olympics were revived. Running 26 miles every April since before the Wright Brothers ever flew.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0090",
       "category": "Pop Culture",
       "question": "Jimi Hendrix was left-handed but famously played which type of guitar?",
       "options": [
@@ -77,9 +113,16 @@
       ],
       "answer": "A right-handed guitar flipped upside down",
       "explanation": "Jimi Hendrix was left-handed but played a right-handed guitar turned upside down and restrung — a setup that contributed to his unique playing style and the distinctive way he held the instrument. He is widely regarded as the greatest electric guitarist of all time. His 1969 performance of 'The Star-Spangled Banner' at Woodstock remains one of rock's iconic moments.",
-      "memory_hook": "Hendrix flipped the guitar like he flipped rock music — upside down. A left-handed genius using right-handed tools and somehow making it sound like no one before or since. The instrument was wrong; the music was right."
+      "memory_hook": "Hendrix flipped the guitar like he flipped rock music — upside down. A left-handed genius using right-handed tools and somehow making it sound like no one before or since. The instrument was wrong; the music was right.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0091",
       "category": "Pop Culture",
       "question": "Complete the famous Forrest Gump quote: 'Life is like a box of chocolates, you never know...'",
       "options": [
@@ -90,9 +133,16 @@
       ],
       "answer": "...what you're gonna get",
       "explanation": "The full quote from Forrest Gump (1994) is: 'Mama always said life was like a box of chocolates. You never know what you're gonna get.' Tom Hanks won his second consecutive Academy Award for Best Actor for the role. The film won 6 Oscars total including Best Picture. The line is consistently ranked among the most iconic movie quotes of all time.",
-      "memory_hook": "The exact wording trips people up — it's 'what you're gonna get,' not 'what you'll get.' Gump's Southern grammar is part of the charm. His mama's philosophy was simple, and so was he — that's the whole movie."
+      "memory_hook": "The exact wording trips people up — it's 'what you're gonna get,' not 'what you'll get.' Gump's Southern grammar is part of the charm. His mama's philosophy was simple, and so was he — that's the whole movie.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0092",
       "category": "Pop Culture",
       "question": "In The Matrix (1999), what color pill does Neo take to learn the truth about the Matrix?",
       "options": [
@@ -103,9 +153,16 @@
       ],
       "answer": "Red",
       "explanation": "In The Matrix, Morpheus offers Neo a choice: take the blue pill and return to comfortable ignorance, or take the red pill and discover the disturbing truth about reality. Neo chooses the red pill. The red pill/blue pill concept has since entered popular culture as a metaphor for choosing truth over comfortable illusion.",
-      "memory_hook": "Red = reality, Blue = bliss. Red is the color of alarm, warning, wake-up. Blue is calm, peaceful, sleep. The Wachowskis chose colors that already meant something to the subconscious. Red pill = red alert."
+      "memory_hook": "Red = reality, Blue = bliss. Red is the color of alarm, warning, wake-up. Blue is calm, peaceful, sleep. The Wachowskis chose colors that already meant something to the subconscious. Red pill = red alert.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0093",
       "category": "Geography",
       "question": "The Dead Sea, the lowest point on Earth's land surface at 430 meters below sea level, sits on the border between Israel and which other country?",
       "options": [
@@ -116,9 +173,16 @@
       ],
       "answer": "Jordan",
       "explanation": "The Dead Sea lies between Israel to the west and Jordan to the east. Its extreme salinity — about 9.6 times saltier than the ocean — makes it impossible for most life to survive, but allows swimmers to float effortlessly. Due to water diversion from the Jordan River, the Dead Sea is shrinking at roughly 1 meter per year. Despite the name, extremophile bacteria do survive in its waters.",
-      "memory_hook": "Dead Sea = Israel/Jordan border. 430m below sea level — lowest land on Earth. 9.6 times saltier than the ocean. You float without trying. It's shrinking 1 meter per year from water diversion."
+      "memory_hook": "Dead Sea = Israel/Jordan border. 430m below sea level — lowest land on Earth. 9.6 times saltier than the ocean. You float without trying. It's shrinking 1 meter per year from water diversion.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0094",
       "category": "Science & Nature",
       "question": "What term describes animals like mammals and birds that generate their own body heat internally, maintaining a constant temperature regardless of the environment?",
       "options": [
@@ -129,9 +193,16 @@
       ],
       "answer": "Endothermic",
       "explanation": "Endothermic animals (commonly called 'warm-blooded') generate body heat through internal metabolic processes, maintaining constant body temperatures. Mammals and birds are endothermic. Ectothermic animals ('cold-blooded') — reptiles, fish, and most insects — depend on external heat sources. Endothermy requires far more food energy but allows activity in cold environments. A snake becomes sluggish in cold weather; a dog does not.",
-      "memory_hook": "Endothermic = generates own heat (warm-blooded). Ectothermic = uses environment (cold-blooded). Your body burns energy constantly just to stay at 37°C. A snake in winter needs the sun to move; you don't."
+      "memory_hook": "Endothermic = generates own heat (warm-blooded). Ectothermic = uses environment (cold-blooded). Your body burns energy constantly just to stay at 37°C. A snake in winter needs the sun to move; you don't.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0095",
       "category": "Geography",
       "question": "Lake Tanganyika — the world's second-deepest lake at 1,470 meters — is shared by four African countries. Which country contains the longest stretch of its shoreline?",
       "options": [
@@ -142,9 +213,16 @@
       ],
       "answer": "Democratic Republic of Congo",
       "explanation": "Lake Tanganyika is shared by the Democratic Republic of Congo (DRC), Tanzania, Zambia, and Burundi. The DRC holds the largest share of the lake's western shore (about 45% of the total shoreline). Tanganyika is also the world's longest freshwater lake at 673 km and holds about 18% of the world's available surface freshwater. It is home to over 350 species of cichlid fish found nowhere else.",
-      "memory_hook": "Lake Tanganyika: 2nd deepest lake (1,470m), shared by DRC, Tanzania, Zambia, Burundi. DRC has the most shoreline. 350+ cichlid species found only there. 673 km long — longer than the UK is wide."
+      "memory_hook": "Lake Tanganyika: 2nd deepest lake (1,470m), shared by DRC, Tanzania, Zambia, Burundi. DRC has the most shoreline. 350+ cichlid species found only there. 673 km long — longer than the UK is wide.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0096",
       "category": "Science & Nature",
       "question": "The James Webb Space Telescope (JWST), launched in December 2021, is the most powerful space observatory ever built. What key capability makes it transformative over the Hubble Telescope?",
       "options": [
@@ -155,7 +233,13 @@
       ],
       "answer": "JWST observes primarily in infrared light, allowing it to see through dust clouds and observe the universe's earliest galaxies — which are too redshifted for Hubble's optical range to detect",
       "explanation": "As the universe expands, light from the most distant (earliest) galaxies is stretched into infrared wavelengths — a phenomenon called cosmological redshift. JWST's infrared instruments let it observe galaxies formed just 300–400 million years after the Big Bang. It also operates at 1.5 million km from Earth (at Lagrange Point 2) — four times the Moon's distance — in permanent shadow of a sunshield the size of a tennis court to stay cold enough for its detectors. Its first images, released in July 2022, revealed galaxy clusters 13 billion light-years away in unprecedented detail.",
-      "memory_hook": "JWST sees in infrared because the earliest galaxies are so far away that their light has redshifted out of Hubble's visible range. It sits 1.5 million km from Earth behind a tennis-court sunshield — four times the Moon's distance."
+      "memory_hook": "JWST sees in infrared because the earliest galaxies are so far away that their light has redshifted out of Hubble's visible range. It sits 1.5 million km from Earth behind a tennis-court sunshield — four times the Moon's distance.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     }
   ]
 }

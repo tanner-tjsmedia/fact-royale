@@ -2,6 +2,7 @@
   "date": "2026-07-29",
   "questions": [
     {
+      "id": "frq-0529",
       "category": "History",
       "question": "The Boston Tea Party of 1773 saw American colonists dump 342 chests of which commodity into Boston Harbor to protest British taxation without representation?",
       "options": [
@@ -12,9 +13,16 @@
       ],
       "answer": "Tea",
       "explanation": "On December 16, 1773, members of the Sons of Liberty, some disguised as Mohawk Indians, boarded three ships in Boston Harbor and dumped 342 chests of British East India Company tea overboard. The protest against the Tea Act helped ignite the American Revolution.",
-      "memory_hook": "Boston Tea Party 1773 = tea in the harbor. 342 chests. Pre-Revolution spark."
+      "memory_hook": "Boston Tea Party 1773 = tea in the harbor. 342 chests. Pre-Revolution spark.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0530",
       "category": "History",
       "question": "Which ancient Egyptian queen was famously linked with both Julius Caesar and Mark Antony?",
       "options": [
@@ -25,9 +33,16 @@
       ],
       "answer": "Cleopatra VII",
       "explanation": "Cleopatra VII (69-30 BC) was the last active ruler of the Ptolemaic Kingdom of Egypt. She formed powerful political and romantic alliances with Julius Caesar and, after his assassination, with Mark Antony. She was known for her intelligence and command of multiple languages — she was reportedly the first Ptolemaic ruler to speak Egyptian. She died by suicide after Octavian defeated Antony.",
-      "memory_hook": "Cleopatra = Caesar + Mark Antony. She spoke 9 languages and charmed the two most powerful men in Rome. Closer in time to the Moon landing than to the pyramids."
+      "memory_hook": "Cleopatra = Caesar + Mark Antony. She spoke 9 languages and charmed the two most powerful men in Rome. Closer in time to the Moon landing than to the pyramids.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0531",
       "category": "History",
       "question": "What was the name of the first artificial satellite launched into space, sent by the Soviet Union in 1957?",
       "options": [
@@ -38,9 +53,16 @@
       ],
       "answer": "Sputnik",
       "explanation": "Sputnik 1 was launched by the Soviet Union on October 4, 1957, becoming the first artificial satellite to orbit Earth. It was a metal sphere about the size of a beach ball that transmitted a simple radio beep. The launch shocked the United States and triggered the Space Race, leading directly to the creation of NASA and, eventually, the Apollo Moon landings.",
-      "memory_hook": "Sputnik = first satellite, 1957. A beach ball beeping in space started the Space Race. Americans heard it on the radio and panicked. NASA was created in response."
+      "memory_hook": "Sputnik = first satellite, 1957. A beach ball beeping in space started the Space Race. Americans heard it on the radio and panicked. NASA was created in response.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0532",
       "category": "Sports",
       "question": "Which country won the first FIFA World Cup in 1930?",
       "options": [
@@ -51,9 +73,16 @@
       ],
       "answer": "Uruguay",
       "explanation": "Uruguay hosted and won the first FIFA World Cup in 1930, defeating Argentina 4-2 in the final in Montevideo. Uruguay had also won Olympic gold medals in football in 1924 and 1928, making them the dominant team of the era. Only 13 teams participated in the first tournament — European teams were reluctant to make the long sea voyage to South America.",
-      "memory_hook": "First World Cup = Uruguay, 1930. Uruguay hosted it and won it — the only time a host nation won the first one. Only 13 teams, Argentina in the final, Uruguay won 4-2."
+      "memory_hook": "First World Cup = Uruguay, 1930. Uruguay hosted it and won it — the only time a host nation won the first one. Only 13 teams, Argentina in the final, Uruguay won 4-2.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0533",
       "category": "Sports",
       "question": "Usain Bolt set the 100m world record of 9.58 seconds at the 2009 Berlin World Championships. What biomechanical factors explain his dominance — and what is his unusual running pattern?",
       "options": [
@@ -64,9 +93,16 @@
       ],
       "answer": "Bolt's combination of unusually long stride length (2.44m) and still-elite stride frequency means he takes fewer strides than shorter sprinters while covering the same distance — his 6'5\" frame produces natural mechanical advantages",
       "explanation": "At 6'5\" (1.95m), Bolt was unusually tall for a sprinter — conventional wisdom held that shorter athletes had better stride frequency. Bolt's stride length of 2.44 meters at peak meant he needed only 41 strides to cover 100 meters, while competitors took 44–45. Analysis of his 9.58 run showed he reached a peak speed of 44.72 km/h (27.8 mph) — the fastest human speed ever recorded. He was not actually the fastest off the blocks; his reaction time was 0.146 seconds. His dominance came from extraordinary stride length combined with adequate frequency — a combination thought impossible at his height.",
-      "memory_hook": "Bolt ran 100m in 41 strides — shorter sprinters take 44-45. At 6'5\", conventional wisdom said he was too tall for elite sprinting; he disproved it with a 44.72 km/h peak speed in Berlin 2009, the fastest human speed ever measured. His reaction time was actually mediocre — the stride length won it."
+      "memory_hook": "Bolt ran 100m in 41 strides — shorter sprinters take 44-45. At 6'5\", conventional wisdom said he was too tall for elite sprinting; he disproved it with a 44.72 km/h peak speed in Berlin 2009, the fastest human speed ever measured. His reaction time was actually mediocre — the stride length won it.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0534",
       "category": "Pop Culture",
       "question": "Alfred Hitchcock's 'Vertigo' (1958) was considered a box office disappointment in his lifetime — yet it topped the Sight & Sound poll as the greatest film ever made in 2012. What specific filmmaking technique did Hitchcock invent for it, and what psychological effect was it designed to create?",
       "options": [
@@ -77,9 +113,16 @@
       ],
       "answer": "Hitchcock invented the 'dolly zoom' (also called the 'Vertigo effect') — simultaneously dollying the camera toward a subject while zooming out — making the background appear to rush away while the subject stays the same size, visually simulating acrophobic dread",
       "explanation": "The dolly zoom was developed by Hitchcock's cinematographer Irmin Roberts for a specific staircase scene in Vertigo. Moving the camera toward James Stewart while zooming out (or vice versa) keeps Stewart the same apparent size but makes the background scale change — producing the visual impression of the ground falling away. This technique, called a 'zolly' or 'Hitchcock zoom,' has since appeared in Jaws, Goodfellas, Lord of the Rings, and hundreds of other films. Vertigo was pulled from distribution by Hitchcock himself before his death and reappeared in the 1980s. Its elevation to #1 film on Sight & Sound (displacing Citizen Kane after 50 years) remains controversial.",
-      "memory_hook": "The Vertigo effect works by moving the camera toward the subject while zooming out — so the background rushes away but the person stays the same size. Hitchcock's cinematographer invented it for a staircase scene. It's since appeared in Jaws, Goodfellas, and hundreds of other films. Vertigo ranked #1 on the Sight & Sound poll in 2012, displacing Citizen Kane after 50 years."
+      "memory_hook": "The Vertigo effect works by moving the camera toward the subject while zooming out — so the background rushes away but the person stays the same size. Hitchcock's cinematographer invented it for a staircase scene. It's since appeared in Jaws, Goodfellas, and hundreds of other films. Vertigo ranked #1 on the Sight & Sound poll in 2012, displacing Citizen Kane after 50 years.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0535",
       "category": "Pop Culture",
       "question": "Adele's album '21' (2011) became one of the best-selling albums in history. Which single from it won Record of the Year at the Grammys?",
       "options": [
@@ -90,9 +133,16 @@
       ],
       "answer": "Rolling in the Deep",
       "explanation": "'Rolling in the Deep' won Record of the Year and Song of the Year at the 2012 Grammy Awards. Adele won six Grammy Awards that night — the most wins in a single night by a female artist at the time. '21' sold over 31 million copies worldwide and is one of the best-selling albums of the 21st century.",
-      "memory_hook": "'Rolling in the Deep' = Adele's Grammy sweep. Six Grammys in one night. The album '21' was named for her age when she wrote it — a breakup album that the world adopted as its own."
+      "memory_hook": "'Rolling in the Deep' = Adele's Grammy sweep. Six Grammys in one night. The album '21' was named for her age when she wrote it — a breakup album that the world adopted as its own.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0536",
       "category": "Pop Culture",
       "question": "George Orwell's '1984' (1949) introduced terms like 'Big Brother,' 'doublethink,' and 'Newspeak' into the English language. What personal experience shaped Orwell's vision of totalitarianism?",
       "options": [
@@ -103,9 +153,16 @@
       ],
       "answer": "Orwell fought in the Spanish Civil War for the Republican side, witnessed the Soviet-backed Stalinist faction suppress and murder anarchist allies — and survived by luck — giving him direct experience of how communism devoured its own",
       "explanation": "Orwell volunteered to fight fascism in Spain in 1936, joining the POUM (a Marxist militia). The Soviet-controlled Communist faction purged non-Stalinist leftists — Orwell narrowly escaped arrest and likely execution. He was shot through the throat by a fascist sniper but survived; Soviet agents were reportedly following him. This betrayal of socialist ideals by Stalinism — documented in 'Homage to Catalonia' (1938) — formed the core of both Animal Farm and 1984. He also worked at the BBC's Indian Service during WWII (the Ministry of Truth connection), writing propaganda he personally felt was misleading.",
-      "memory_hook": "Orwell went to Spain to fight fascism and nearly got killed by Soviet-backed communists instead — who were purging non-Stalinist leftists from the Republican side. He escaped by luck. That betrayal of socialist ideals by Stalinism became Animal Farm and 1984. He also wrote BBC propaganda during WWII — basis for the Ministry of Truth."
+      "memory_hook": "Orwell went to Spain to fight fascism and nearly got killed by Soviet-backed communists instead — who were purging non-Stalinist leftists from the Republican side. He escaped by luck. That betrayal of socialist ideals by Stalinism became Animal Farm and 1984. He also wrote BBC propaganda during WWII — basis for the Ministry of Truth.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0537",
       "category": "Geography",
       "question": "Which African country contains the most of the Sahara Desert by land area?",
       "options": [
@@ -116,9 +173,16 @@
       ],
       "answer": "Algeria",
       "explanation": "Algeria is the largest country in Africa and contains the largest portion of the Sahara Desert. About 90% of Algeria is covered by the Sahara. Algeria covers 2.38 million square kilometers, making it the largest country in Africa and the 10th largest in the world.",
-      "memory_hook": "Algeria = most Sahara. 90% of Algeria is desert. It's the biggest country in Africa, mostly because it's mostly desert. The Sahara's heart is in Algeria."
+      "memory_hook": "Algeria = most Sahara. 90% of Algeria is desert. It's the biggest country in Africa, mostly because it's mostly desert. The Sahara's heart is in Algeria.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0538",
       "category": "Science & Nature",
       "question": "Which planet in our solar system is closest to the Sun?",
       "options": [
@@ -129,9 +193,16 @@
       ],
       "answer": "Mercury",
       "explanation": "Mercury is the closest planet to the Sun, orbiting at an average distance of about 58 million km. Despite being closest to the Sun, Mercury is not the hottest planet — that's Venus, which has a thick atmosphere that traps heat. Mercury has almost no atmosphere, so temperature swings wildly: 430°C during the day, -180°C at night.",
-      "memory_hook": "Mercury = closest to the Sun. Not the hottest — Venus is. No atmosphere means no insulation, so Mercury swings from 430 to -180 degrees. The closest planet has the most extreme temperature swings."
+      "memory_hook": "Mercury = closest to the Sun. Not the hottest — Venus is. No atmosphere means no insulation, so Mercury swings from 430 to -180 degrees. The closest planet has the most extreme temperature swings.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0539",
       "category": "Geography",
       "question": "The Caucasus Mountains between the Black Sea and Caspian Sea form a geographic boundary separating which two continents?",
       "options": [
@@ -142,9 +213,16 @@
       ],
       "answer": "Europe and Asia",
       "explanation": "The Caucasus Mountains form one of the conventional geographic boundaries between Europe and Asia, running approximately 1,100 km between the Black Sea (west) and Caspian Sea (east). The range includes Mount Elbrus (5,642 m), the highest peak in Europe under most definitions. Countries in the South Caucasus region — Georgia, Armenia, and Azerbaijan — are sometimes classified as European, sometimes as Asian, depending on the definition used.",
-      "memory_hook": "Caucasus Mountains = boundary between Europe and Asia. Run from Black Sea to Caspian Sea, ~1,100 km. Mount Elbrus (5,642m) is Europe's highest peak under most definitions. Georgia, Armenia, and Azerbaijan sit in this ambiguous zone — European by some definitions, Asian by others."
+      "memory_hook": "Caucasus Mountains = boundary between Europe and Asia. Run from Black Sea to Caspian Sea, ~1,100 km. Mount Elbrus (5,642m) is Europe's highest peak under most definitions. Georgia, Armenia, and Azerbaijan sit in this ambiguous zone — European by some definitions, Asian by others.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0540",
       "category": "Science & Nature",
       "question": "What environmental problem occurs when sulfur dioxide and nitrogen oxides released by burning fossil fuels react with atmospheric moisture to form acidic precipitation?",
       "options": [
@@ -155,7 +233,13 @@
       ],
       "answer": "Acid rain",
       "explanation": "Acid rain forms when sulfur dioxide (SO₂) from coal burning and nitrogen oxides (NOₓ) from vehicle emissions react with water and oxygen in the atmosphere to form sulfuric and nitric acids. This acid precipitation damages forests, acidifies lakes (killing fish), corrodes buildings and monuments, and can damage crops. The problem was severe in Europe and North America in the 1970s-80s. Regulations reducing SO₂ emissions (particularly the 1990 Clean Air Act Amendments) have significantly reduced acid rain in the US.",
-      "memory_hook": "Acid rain: SO₂ + NOₓ + water vapor → sulfuric and nitric acids falling as rain. Kills forests, acidifies lakes, erodes monuments. Black Forest in Germany was devastated. 1990 Clean Air Act dramatically reduced it. A largely solved problem in the developed world — an example of environmental regulation working."
+      "memory_hook": "Acid rain: SO₂ + NOₓ + water vapor → sulfuric and nitric acids falling as rain. Kills forests, acidifies lakes, erodes monuments. Black Forest in Germany was devastated. 1990 Clean Air Act dramatically reduced it. A largely solved problem in the developed world — an example of environmental regulation working.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     }
   ]
 }

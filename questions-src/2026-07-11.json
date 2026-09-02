@@ -1,6 +1,7 @@
 {
   "questions": [
     {
+      "id": "frq-0313",
       "category": "History",
       "question": "The 'Great Wall of China' was primarily built to protect against invasions from which direction?",
       "options": [
@@ -11,9 +12,16 @@
       ],
       "answer": "North",
       "explanation": "The Great Wall of China was built along the northern border of China to protect against invasions from nomadic peoples of the Eurasian Steppe, primarily the Mongols and Xiongnu. It stretches over 13,000 miles and was built over many centuries beginning in the 7th century BC.",
-      "memory_hook": "The Great Wall faces north — a wall against the northern nomads."
+      "memory_hook": "The Great Wall faces north — a wall against the northern nomads.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0314",
       "category": "History",
       "question": "Who was the last emperor of China?",
       "options": [
@@ -24,9 +32,16 @@
       ],
       "answer": "Puyi",
       "explanation": "Puyi (Aisin-Gioro Puyi) was the last Emperor of China, ascending the throne at age 2 in 1908 and abdicating in 1912 following the Xinhai Revolution. He was later installed as a puppet ruler of the Japanese puppet state of Manchukuo. His life story is told in the film 'The Last Emperor.'",
-      "memory_hook": "Puyi: the last emperor became a gardener — from throne to pruning shears."
+      "memory_hook": "Puyi: the last emperor became a gardener — from throne to pruning shears.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0315",
       "category": "Sports",
       "question": "How many players are on a polo team?",
       "options": [
@@ -37,9 +52,16 @@
       ],
       "answer": "4",
       "explanation": "A polo team consists of four mounted players. Each player is assigned a position number (1 through 4), with Number 1 being the most offensive player and Number 4 (or 'back') being the most defensive. Games consist of 'chukkers' (periods), typically four to eight per match.",
-      "memory_hook": "Four polo players, four horsemen — polo's a team sport on horseback."
+      "memory_hook": "Four polo players, four horsemen — polo's a team sport on horseback.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0316",
       "category": "Sports",
       "question": "Which player has scored the most points in NBA history?",
       "options": [
@@ -50,9 +72,16 @@
       ],
       "answer": "LeBron James",
       "explanation": "LeBron James surpassed Kareem Abdul-Jabbar's previous all-time scoring record of 38,387 points on February 7, 2023. LeBron continued playing and is still adding to his total. Kareem held the record for 39 years after surpassing Oscar Robertson's mark.",
-      "memory_hook": "LeBron broke Kareem's 39-year record. The King is the all-time scorer."
+      "memory_hook": "LeBron broke Kareem's 39-year record. The King is the all-time scorer.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0317",
       "category": "Pop Culture",
       "question": "Which film first introduced the character of Darth Vader?",
       "options": [
@@ -63,9 +92,16 @@
       ],
       "answer": "A New Hope",
       "explanation": "Darth Vader first appeared in Star Wars: Episode IV — A New Hope (1977). The character was voiced by James Earl Jones and physically portrayed by David Prowse. Vader's reveal as Luke Skywalker's father didn't come until The Empire Strikes Back (1980).",
-      "memory_hook": "Vader appeared in A New Hope — Episode IV, the very beginning."
+      "memory_hook": "Vader appeared in A New Hope — Episode IV, the very beginning.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0318",
       "category": "Pop Culture",
       "question": "Who sang 'Rolling in the Deep' and '21'?",
       "options": [
@@ -76,9 +112,16 @@
       ],
       "answer": "Adele",
       "explanation": "'Rolling in the Deep' is from Adele's second studio album '21' (2011). The album spent 24 non-consecutive weeks at number one in the US and 23 weeks in the UK, one of the longest-running number-one albums in chart history. Adele won six Grammy Awards at the 2012 ceremony for the album.",
-      "memory_hook": "Adele rolled deep into '21' — her second album dominated the world."
+      "memory_hook": "Adele rolled deep into '21' — her second album dominated the world.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0319",
       "category": "Pop Culture",
       "question": "Which animated studio produced 'Toy Story' and 'Finding Nemo'?",
       "options": [
@@ -89,9 +132,16 @@
       ],
       "answer": "Pixar",
       "explanation": "Toy Story (1995) and Finding Nemo (2003) were both produced by Pixar Animation Studios. Toy Story was the first fully computer-animated feature film. Pixar was acquired by Disney in 2006. Both films spawned sequels and are considered classics of animation.",
-      "memory_hook": "Pixar: toys that live, fish that swim, and emotions that make adults cry."
+      "memory_hook": "Pixar: toys that live, fish that swim, and emotions that make adults cry.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0320",
       "category": "History",
       "question": "What year did the Space Shuttle Challenger disaster occur?",
       "options": [
@@ -102,9 +152,16 @@
       ],
       "answer": "1986",
       "explanation": "The Space Shuttle Challenger broke apart 73 seconds after launch on January 28, 1986, killing all seven crew members including teacher Christa McAuliffe. The disaster was caused by an O-ring failure in cold temperatures. It led to a 32-month suspension of the shuttle program.",
-      "memory_hook": "1986: 73 seconds. The Challenger fell, and the nation watched in horror."
+      "memory_hook": "1986: 73 seconds. The Challenger fell, and the nation watched in horror.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0321",
       "category": "Geography",
       "question": "Russia spans how many time zones?",
       "options": [
@@ -115,9 +172,16 @@
       ],
       "answer": "11",
       "explanation": "Russia stretches across 11 time zones from Kaliningrad in the west (UTC+2) to the Chukotka region in the far east (UTC+12). It is the world's largest country by land area, covering about 17 million square kilometers — nearly twice the size of the next largest, Canada.",
-      "memory_hook": "Russia = 11 time zones. When it's Monday morning in Moscow, it's already Monday evening in Siberia. One country, half a day's difference end to end."
+      "memory_hook": "Russia = 11 time zones. When it's Monday morning in Moscow, it's already Monday evening in Siberia. One country, half a day's difference end to end.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0322",
       "category": "Science & Nature",
       "question": "NASA's Voyager 1 spacecraft, launched in 1977, made history in 2012. What did it achieve that no human-made object had ever done before?",
       "options": [
@@ -128,9 +192,16 @@
       ],
       "answer": "Voyager 1 crossed the heliopause — the boundary where the Sun's solar wind gives way to interstellar space — becoming the first human-made object to leave the solar system and enter interstellar space",
       "explanation": "The heliopause marks where the Sun's solar wind is no longer strong enough to push back the interstellar medium — the thin gas and particles between star systems. Voyager 1 crossed it in August 2012, confirmed by changes in particle density measurements. It currently travels about 3.6 AU per year and is now approximately 165 AU from the Sun (one AU = Earth-Sun distance). At the speed of light, a signal from Voyager 1 takes over 22 hours to reach Earth. Both Voyager spacecraft carry golden records with sounds and images of Earth — selected by a committee chaired by Carl Sagan.",
-      "memory_hook": "Voyager 1 left the solar system in 2012 — 35 years after launch. Its signal now takes 22 hours to reach Earth at the speed of light. It carries a gold record selected by Carl Sagan, including Chuck Berry's 'Johnny B. Goode' — Sagan's choice for humanity's opening message to the universe."
+      "memory_hook": "Voyager 1 left the solar system in 2012 — 35 years after launch. Its signal now takes 22 hours to reach Earth at the speed of light. It carries a gold record selected by Carl Sagan, including Chuck Berry's 'Johnny B. Goode' — Sagan's choice for humanity's opening message to the universe.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0323",
       "category": "Geography",
       "question": "Which famous waterfall system on the US-Canada border — shared between Ontario and New York — is one of the world's highest-volume waterfalls?",
       "options": [
@@ -141,9 +212,16 @@
       ],
       "answer": "Niagara Falls",
       "explanation": "Niagara Falls consists of three waterfalls on the border between Ontario, Canada and New York State: Horseshoe Falls (the largest, on the Canadian side), American Falls, and Bridal Veil Falls. About 2,800 m³ of water flows over them every second. They were formed about 12,000 years ago as glaciers receded. Niagara generates substantial hydroelectric power for both the US and Canada. The falls have been a honeymoon destination since the 19th century.",
-      "memory_hook": "Niagara Falls: US-Canada border (Ontario + New York). Three falls: Horseshoe (Canadian side, largest), American, Bridal Veil. 2,800 m³/sec. Formed 12,000 years ago. A major hydroelectric source. Traditional honeymoon destination since the 1800s."
+      "memory_hook": "Niagara Falls: US-Canada border (Ontario + New York). Three falls: Horseshoe (Canadian side, largest), American, Bridal Veil. 2,800 m³/sec. Formed 12,000 years ago. A major hydroelectric source. Traditional honeymoon destination since the 1800s.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0324",
       "category": "Science & Nature",
       "question": "The Fermi Paradox asks: if intelligent life should be common in a universe with 400 billion stars in our galaxy alone, why haven't we detected any evidence of it? What makes it a paradox?",
       "options": [
@@ -154,7 +232,13 @@
       ],
       "answer": "The paradox is between the high statistical probability that intelligent life exists elsewhere — given the number of stars, planets, and billions of years available — and the complete absence of any detected signals, artifacts, or visitors",
       "explanation": "Enrico Fermi posed his question at a 1950 lunch: 'Where is everybody?' With 400 billion stars in the Milky Way, billions of Earth-like planets, and billions of years for civilizations to develop and spread, even a single civilization traveling at 1% of light speed could colonize the galaxy in 10–50 million years — less than 1% of the universe's age. Proposed resolutions include: the Great Filter (civilizations typically destroy themselves), the Zoo hypothesis (they're watching us), or the possibility that we're genuinely among the first intelligent life. The Wow! signal (1977) remains the strongest unexplained candidate for an extraterrestrial radio signal.",
-      "memory_hook": "Fermi asked in 1950: 'Where is everybody?' The Milky Way is 10 billion years old and has 400 billion stars — a civilization traveling at 1% the speed of light could colonize the entire galaxy in 50 million years. The fact that we detect nothing is the paradox."
+      "memory_hook": "Fermi asked in 1950: 'Where is everybody?' The Milky Way is 10 billion years old and has 400 billion stars — a civilization traveling at 1% the speed of light could colonize the entire galaxy in 50 million years. The fact that we detect nothing is the paradox.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     }
   ]
 }

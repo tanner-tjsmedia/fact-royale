@@ -2,6 +2,7 @@
   "date": "2026-08-02",
   "questions": [
     {
+      "id": "frq-0577",
       "category": "History",
       "question": "Which U.S. president, who served four terms from 1933 to 1945, launched the New Deal to combat the Great Depression and led the country through most of World War II?",
       "options": [
@@ -12,9 +13,16 @@
       ],
       "answer": "Franklin D. Roosevelt",
       "explanation": "Franklin D. Roosevelt (FDR) is the only U.S. president to have served more than two terms. His New Deal programs created jobs and provided relief during the Great Depression. He led the US through WWII but died in office on April 12, 1945, just weeks before Germany surrendered.",
-      "memory_hook": "FDR: 4 terms, New Deal, WWII. Died in office April 1945."
+      "memory_hook": "FDR: 4 terms, New Deal, WWII. Died in office April 1945.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0578",
       "category": "History",
       "question": "The Black Death, a devastating pandemic that killed roughly one-third of Europe's population, swept across the continent during which century?",
       "options": [
@@ -25,9 +33,16 @@
       ],
       "answer": "14th century",
       "explanation": "The Black Death (1347-1351) was a bubonic plague pandemic caused by the bacterium Yersinia pestis, spread by fleas on rats. It killed an estimated 30-60% of Europe's population — possibly 75-200 million people worldwide. The loss of labor led to social upheaval that some historians argue helped end feudalism and accelerate the Renaissance and Reformation.",
-      "memory_hook": "Black Death = 1347-1351, 14th century. Up to 60% of Europe dead. So many died that the survivors demanded better wages — it accidentally launched the collapse of the feudal system and helped cause the Renaissance."
+      "memory_hook": "Black Death = 1347-1351, 14th century. Up to 60% of Europe dead. So many died that the survivors demanded better wages — it accidentally launched the collapse of the feudal system and helped cause the Renaissance.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0579",
       "category": "Geography",
       "question": "Antoni Gaudí's masterpiece, the Sagrada Família — a massive basilica still under construction over 140 years after it began — is located in which Spanish city?",
       "options": [
@@ -38,9 +53,16 @@
       ],
       "answer": "Barcelona",
       "explanation": "The Sagrada Família in Barcelona has been under construction since 1882. Gaudí became its chief architect in 1883 and devoted the last 43 years of his life to the project. It is expected to be completed around 2026. Gaudí died in 1926 after being struck by a tram.",
-      "memory_hook": "Sagrada Família = Barcelona. Gaudí's unfinished masterpiece, ~140 years and counting."
+      "memory_hook": "Sagrada Família = Barcelona. Gaudí's unfinished masterpiece, ~140 years and counting.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0580",
       "category": "History",
       "question": "The printing press, invented around 1440, is credited to which German goldsmith — a development that revolutionized the spread of information and enabled the Protestant Reformation?",
       "options": [
@@ -51,9 +73,16 @@
       ],
       "answer": "Johannes Gutenberg",
       "explanation": "Johannes Gutenberg's movable-type printing press, developed around 1440 in Mainz, Germany, transformed European society. The Gutenberg Bible (1455) was among the first books printed with movable type. Cheaper books enabled mass literacy and the rapid spread of ideas, fueling the Renaissance and Reformation.",
-      "memory_hook": "Gutenberg ~1440: printing press. Bible first. Changed everything."
+      "memory_hook": "Gutenberg ~1440: printing press. Bible first. Changed everything.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0581",
       "category": "Sports",
       "question": "In baseball, how many strikes result in a strikeout?",
       "options": [
@@ -64,9 +93,16 @@
       ],
       "answer": "3",
       "explanation": "Three strikes result in a strikeout in baseball. A 'K' is the scoring shorthand for a strikeout — from the last letter of 'struck,' since 'S' was already used for sacrifice. A batter can foul off the third strike indefinitely (as long as the catcher doesn't catch it), but cannot foul into a third strikeout if they swing and foul the ball directly into the catcher's mitt.",
-      "memory_hook": "Three strikes = out. Baseball uses 'K' for strikeout because 'S' was taken by 'sacrifice.' Three strikes, three outs per half-inning, nine innings per game. Baseball runs on threes."
+      "memory_hook": "Three strikes = out. Baseball uses 'K' for strikeout because 'S' was taken by 'sacrifice.' Three strikes, three outs per half-inning, nine innings per game. Baseball runs on threes.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0582",
       "category": "Sports",
       "question": "The 'Thrilla in Manila' (1975) was the third and final fight between Muhammad Ali and Joe Frazier. Why is it remembered as one of boxing's most brutal contests?",
       "options": [
@@ -77,9 +113,16 @@
       ],
       "answer": "The fight lasted 14 exhausting rounds in 100-degree heat before Frazier's corner stopped it; both men later said it nearly killed them",
       "explanation": "Fought in Manila, Philippines on October 1, 1975, in brutal heat and humidity, the Thrilla in Manila lasted 14 rounds before Joe Frazier's trainer Eddie Futch stopped the fight to protect Frazier — who was virtually blind from swelling. Ali later said it was 'the closest thing to dying that I know.' Both men's health declined sharply in subsequent years. Ali won all three fights in the trilogy but Frazier won their first — the 'Fight of the Century' in 1971.",
-      "memory_hook": "The Thrilla in Manila (1975): 14 rounds in Manila's heat until Frazier's corner stopped it — Ali said it was 'the closest thing to dying that I know,' and both men's health never fully recovered."
+      "memory_hook": "The Thrilla in Manila (1975): 14 rounds in Manila's heat until Frazier's corner stopped it — Ali said it was 'the closest thing to dying that I know,' and both men's health never fully recovered.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0583",
       "category": "Pop Culture",
       "question": "Chernobyl (HBO, 2019), a five-episode miniseries by Craig Mazin, received near-universal critical acclaim and broke records on IMDb. What storytelling approach made it distinctive?",
       "options": [
@@ -90,9 +133,16 @@
       ],
       "answer": "It reconstructed the disaster through meticulous historical research — dramatizing not just the explosion but the systemic institutional lying and Soviet political culture that caused it and amplified its consequences",
       "explanation": "Chernobyl's central drama isn't just the April 1986 explosion — it's the Soviet system's pathological inability to tell the truth about it. Valery Legasov (Jared Harris) and Ulana Khomyuk (a composite character representing multiple scientists) work to uncover what happened while party officials suppress information that costs lives. Mazin spent two years researching Soviet bureaucracy, the physics of the RBMK reactor, and first-responder accounts. The show briefly held the top spot on IMDb's all-time ratings list with 9.4/10.",
-      "memory_hook": "Chernobyl (HBO) argued the reactor didn't just explode — Soviet institutional lying caused the disaster and multiplied its casualties. Writer Craig Mazin spent two years in research; it briefly topped IMDb's all-time ratings list."
+      "memory_hook": "Chernobyl (HBO) argued the reactor didn't just explode — Soviet institutional lying caused the disaster and multiplied its casualties. Writer Craig Mazin spent two years in research; it briefly topped IMDb's all-time ratings list.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0584",
       "category": "Pop Culture",
       "question": "Nirvana's 'Nevermind' (1991) featured which iconic swimming baby on its cover?",
       "options": [
@@ -103,9 +153,16 @@
       ],
       "answer": "Spencer Elden",
       "explanation": "Spencer Elden was the 4-month-old baby photographed for Nevermind's cover, swimming toward a dollar bill on a fishhook. The album sold 30 million copies and is one of the best-selling albums ever. Nevermind's release is often cited as the moment grunge went mainstream and alternative rock overtook pop on radio and MTV. Elden later sued Nirvana over the image.",
-      "memory_hook": "Nirvana's baby = Spencer Elden. He was paid $200 for the shoot. The album went on to sell 30 million copies. He later sued — and lost — claiming the image was exploitative. The fishhook dollar bill is one of the most famous album images ever."
+      "memory_hook": "Nirvana's baby = Spencer Elden. He was paid $200 for the shoot. The album went on to sell 30 million copies. He later sued — and lost — claiming the image was exploitative. The fishhook dollar bill is one of the most famous album images ever.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0585",
       "category": "Pop Culture",
       "question": "Jean-Baptiste Lully, court composer to Louis XIV and one of the founders of French opera, died in one of history's most unusual composer deaths. What happened?",
       "options": [
@@ -116,9 +173,16 @@
       ],
       "answer": "While conducting a Te Deum with a long staff used to beat time on the floor, Lully struck his own foot — the resulting gangrene spread and killed him after he refused amputation so he could dance again",
       "explanation": "In January 1687, Lully was conducting a Te Deum to celebrate Louis XIV's recovery from illness. He was using a long pointed staff (a bâton) to beat time by striking the floor — the method before conductor's batons. He accidentally drove it into his toe. The wound became gangrenous. Doctors recommended amputation; Lully refused because he still wanted to dance (he was also a celebrated dancer and choreographer). Gangrene spread and he died in March 1687. He is often cited as one of the earliest known victims of a conducting accident — and the reason we now use small batons.",
-      "memory_hook": "Lully literally beat himself to death conducting. He drove a long staff into his foot keeping time, got gangrene, and refused amputation because he still wanted to dance — he was famous as a dancer too. He died two months later. It's one reason conductors now use small batons instead of floor-pounding staffs."
+      "memory_hook": "Lully literally beat himself to death conducting. He drove a long staff into his foot keeping time, got gangrene, and refused amputation because he still wanted to dance — he was famous as a dancer too. He died two months later. It's one reason conductors now use small batons instead of floor-pounding staffs.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0586",
       "category": "Geography",
       "question": "What is the name of the narrow body of water that separates the Asian and North American continents?",
       "options": [
@@ -129,9 +193,16 @@
       ],
       "answer": "Bering Strait",
       "explanation": "The Bering Strait separates Russia (Asia) from Alaska (North America) at its narrowest point — only about 85 km wide. During the last Ice Age, lower sea levels exposed a land bridge here called Beringia, which humans used to migrate from Asia into the Americas approximately 15,000-25,000 years ago. The strait was named after Danish explorer Vitus Bering, who sailed through it in 1728.",
-      "memory_hook": "Bering Strait = Russia from Alaska, 85 km. The land bridge here is how humans first reached the Americas. On a clear day you can see Russia from Alaska's Little Diomede Island."
+      "memory_hook": "Bering Strait = Russia from Alaska, 85 km. The land bridge here is how humans first reached the Americas. On a clear day you can see Russia from Alaska's Little Diomede Island.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0587",
       "category": "Science & Nature",
       "question": "What is the name for a group of stars that forms a recognizable pattern, like Orion or the Big Dipper?",
       "options": [
@@ -142,9 +213,16 @@
       ],
       "answer": "Constellation",
       "explanation": "A constellation is a group of stars that forms a recognizable pattern when viewed from Earth. The International Astronomical Union recognizes 88 official constellations covering the entire sky. Ancient cultures worldwide used constellations for navigation, agriculture, and mythology. Orion, the Big Dipper (Ursa Major), and Scorpius are among the most recognizable in the Northern Hemisphere.",
-      "memory_hook": "Constellation = star pattern. 88 official ones. The stars in a constellation usually aren't close to each other — they just look grouped from Earth. Orion's stars are between 243 and 1,344 light-years away from us, scattered through space."
+      "memory_hook": "Constellation = star pattern. 88 official ones. The stars in a constellation usually aren't close to each other — they just look grouped from Earth. Orion's stars are between 243 and 1,344 light-years away from us, scattered through space.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0588",
       "category": "Science & Nature",
       "question": "What are vestigial structures — and what do they reveal about evolution?",
       "options": [
@@ -155,7 +233,13 @@
       ],
       "answer": "Structures that serve no known function and are inherited from ancestors who used them",
       "explanation": "Vestigial structures are anatomical features that have lost most or all of their original function through evolution but are still present in organisms. Examples in humans include: the appendix (remnant of a digestive organ), coccyx/tailbone (remnant of a tail), ear muscles (can't move ears like other mammals), and wisdom teeth (remnants of a larger jaw for raw food). In whales, vestigial hind leg bones remain embedded in their body — evidence of their terrestrial ancestors. These structures provide direct evidence of evolutionary descent.",
-      "memory_hook": "Vestigial structures: evolutionary leftovers with reduced or no function. Human examples: appendix, tailbone (coccyx), ear muscles that can't move ears, wisdom teeth. Whale skeletons contain tiny vestigial leg bones — evidence they evolved from land mammals. Nature keeps old blueprints lying around even when they're no longer needed."
+      "memory_hook": "Vestigial structures: evolutionary leftovers with reduced or no function. Human examples: appendix, tailbone (coccyx), ear muscles that can't move ears, wisdom teeth. Whale skeletons contain tiny vestigial leg bones — evidence they evolved from land mammals. Nature keeps old blueprints lying around even when they're no longer needed.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     }
   ]
 }

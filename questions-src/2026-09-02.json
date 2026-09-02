@@ -2,6 +2,7 @@
   "date": "2026-09-02",
   "questions": [
     {
+      "id": "frq-0949",
       "category": "History",
       "question": "The Korean War ended in armistice at roughly the border where it began. What is the DMZ now?",
       "options": [
@@ -12,9 +13,16 @@
       ],
       "answer": "One of the most militarised borders and an accidental nature reserve",
       "explanation": "The strip is 4km wide and 250km long, mined and fenced, with enormous troop concentrations on both sides. Because almost nobody has entered it since 1953, it has become an unintentional wildlife refuge holding endangered species including red-crowned cranes and possibly Amur leopards. The two Koreas remain technically at war, since an armistice is a ceasefire rather than a peace treaty.",
-      "memory_hook": "4km wide, 250km long, mined and fenced with huge troop concentrations either side. Because nobody has walked in since 1953 it has accidentally become a wildlife refuge with red-crowned cranes and maybe Amur leopards. The two Koreas are still technically at war."
+      "memory_hook": "4km wide, 250km long, mined and fenced with huge troop concentrations either side. Because nobody has walked in since 1953 it has accidentally become a wildlife refuge with red-crowned cranes and maybe Amur leopards. The two Koreas are still technically at war.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0950",
       "category": "Science & Nature",
       "question": "The human genome runs to about 3 billion base pairs. How much of it codes for proteins?",
       "options": [
@@ -25,9 +33,16 @@
       ],
       "answer": "Roughly 1 to 2 percent, with the rest doing other things",
       "explanation": "Only about 1 to 2% codes directly for proteins. The rest was once dismissed as junk DNA, and much of it is now known to regulate when and where genes switch on, which turns out to matter enormously. Around 8% of the human genome is leftover viral sequence inserted by ancient retroviruses. Sequencing the first genome took thirteen years and $2.7 billion; it now costs a few hundred dollars and takes a day.",
-      "memory_hook": "Only 1 to 2% codes for protein. The rest was called junk, and much of it turns out to control when genes switch on. About 8% is leftover virus DNA from ancient infections. The first genome took thirteen years and $2.7 billion; now it is a few hundred dollars overnight."
+      "memory_hook": "Only 1 to 2% codes for protein. The rest was called junk, and much of it turns out to control when genes switch on. About 8% is leftover virus DNA from ancient infections. The first genome took thirteen years and $2.7 billion; now it is a few hundred dollars overnight.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0951",
       "category": "Sports",
       "question": "Federer holds the men's record for Wimbledon singles titles. What is unusual about grass-court tennis?",
       "options": [
@@ -38,9 +53,16 @@
       ],
       "answer": "The season lasts only a few weeks of the entire year",
       "explanation": "Grass is the shortest season in tennis, roughly a month between the French Open and Wimbledon, so players get very few competitive matches to adapt to a surface that behaves unlike anything else. The ball skids low and fast and the bounce is unpredictable, which historically rewarded serve-and-volley. Wimbledon changed its grass seed mix in 2001 to a harder-wearing ryegrass, which slowed play and helped baseliners.",
-      "memory_hook": "Grass is about a month of the whole year, between the French Open and Wimbledon, so players barely get to adapt to a surface that behaves like nothing else. It skids low and fast. Wimbledon changed its grass mix in 2001 to a tougher ryegrass, which slowed it down and helped baseliners."
+      "memory_hook": "Grass is about a month of the whole year, between the French Open and Wimbledon, so players barely get to adapt to a surface that behaves like nothing else. It skids low and fast. Wimbledon changed its grass mix in 2001 to a tougher ryegrass, which slowed it down and helped baseliners.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0952",
       "category": "Pop Culture",
       "question": "Inception (2010) hinges on a spinning top. What did Christopher Nolan say about the ending?",
       "options": [
@@ -51,9 +73,16 @@
       ],
       "answer": "The point is that Cobb stops watching it, not what it does",
       "explanation": "Nolan has repeatedly declined to say whether the top falls, and has pointed out that Cobb walks away from it to see his children, which is the actual resolution regardless. Michael Caine said Nolan told him any scene Caine appeared in was reality. The film was shot largely with practical effects, including a rotating corridor built on gimbals, rather than computer graphics.",
-      "memory_hook": "Nolan will not say whether it falls, and points out Cobb walks away to see his children, which resolves it either way. Michael Caine said Nolan told him any scene with Caine in it was real. The rotating corridor was a physical set on gimbals, not CGI."
+      "memory_hook": "Nolan will not say whether it falls, and points out Cobb walks away to see his children, which resolves it either way. Michael Caine said Nolan told him any scene with Caine in it was real. The rotating corridor was a physical set on gimbals, not CGI.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0953",
       "category": "Geography",
       "question": "The Black Sea is bordered by six countries. What makes its deep water unusual?",
       "options": [
@@ -64,9 +93,16 @@
       ],
       "answer": "Below 150 metres it is anoxic, so nothing larger can live",
       "explanation": "The Black Sea has two layers that barely mix: fresher water from rivers on top, dense salt water below. Without circulation the deep layer has no oxygen, and roughly 90% of its volume is lifeless apart from bacteria. That also means shipwrecks are preserved extraordinarily well, including a 2,400-year-old Greek merchant vessel found intact in 2018, the oldest ever recovered.",
-      "memory_hook": "Two layers that barely mix: river water on top, dense salt water below. The deep layer gets no oxygen, so about 90% of the sea is dead apart from bacteria. It also preserves shipwrecks perfectly, including an intact 2,400-year-old Greek ship found in 2018."
+      "memory_hook": "Two layers that barely mix: river water on top, dense salt water below. The deep layer gets no oxygen, so about 90% of the sea is dead apart from bacteria. It also preserves shipwrecks perfectly, including an intact 2,400-year-old Greek ship found in 2018.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0954",
       "category": "History",
       "question": "Hannibal crossed the Alps with elephants to attack Rome. How did that campaign end?",
       "options": [
@@ -77,9 +113,16 @@
       ],
       "answer": "He won repeatedly in Italy but never took the city itself",
       "explanation": "Hannibal spent fifteen years in Italy winning crushing victories, including Cannae, where he destroyed a much larger Roman army in a double envelopment still studied in military academies. He lacked siege equipment and reinforcements to take Rome. Rome eventually attacked Carthage directly, forcing his recall, and Scipio beat him at Zama in 202 BC. Most of the elephants died soon after the crossing.",
-      "memory_hook": "Fifteen years in Italy winning battles, including Cannae, where he destroyed a much bigger Roman army in an encirclement still taught in war colleges. He never had the siege gear to take Rome. Rome attacked Carthage instead, forced him home, and beat him at Zama."
+      "memory_hook": "Fifteen years in Italy winning battles, including Cannae, where he destroyed a much bigger Roman army in an encirclement still taught in war colleges. He never had the siege gear to take Rome. Rome attacked Carthage instead, forced him home, and beat him at Zama.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0955",
       "category": "Pop Culture",
       "question": "Tolkien invented languages before he wrote The Lord of the Rings. Which came first?",
       "options": [
@@ -90,9 +133,16 @@
       ],
       "answer": "The languages, with the stories built to give them speakers",
       "explanation": "Tolkien was a professional philologist and had been constructing Elvish languages since his teens. He said the stories existed to provide a world where those languages could be spoken, which is close to the reverse of how fiction usually works. Quenya draws on Finnish and Sindarin on Welsh. The Hobbit came first as a children's book, and the publisher's request for a sequel produced the larger work.",
-      "memory_hook": "He was a professional philologist inventing Elvish since his teens, and said the stories existed to give the languages somewhere to be spoken, which is backwards from how fiction usually works. Quenya is Finnish-flavoured, Sindarin Welsh. The Hobbit came first and the sequel request did the rest."
+      "memory_hook": "He was a professional philologist inventing Elvish since his teens, and said the stories existed to give the languages somewhere to be spoken, which is backwards from how fiction usually works. Quenya is Finnish-flavoured, Sindarin Welsh. The Hobbit came first and the sequel request did the rest.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0956",
       "category": "Science & Nature",
       "question": "Darwin sat on natural selection for over twenty years. What finally made him publish?",
       "options": [
@@ -103,9 +153,16 @@
       ],
       "answer": "Another naturalist sent him the same theory independently",
       "explanation": "Alfred Russel Wallace, working in the Malay Archipelago, sent Darwin an essay in 1858 laying out essentially the same mechanism. Darwin's colleagues arranged for both to be presented jointly to the Linnean Society, and Darwin published On the Origin of Species the following year. He had delayed largely because he understood how the argument would be received, and his wife Emma was devout and troubled by it.",
-      "memory_hook": "Wallace, working in the Malay Archipelago, mailed Darwin an essay in 1858 containing essentially the same idea. Friends arranged a joint presentation and Darwin published the next year. He had sat on it for twenty years partly because he knew the reaction, and partly because his wife was devout."
+      "memory_hook": "Wallace, working in the Malay Archipelago, mailed Darwin an essay in 1858 containing essentially the same idea. Friends arranged a joint presentation and Darwin published the next year. He had sat on it for twenty years partly because he knew the reaction, and partly because his wife was devout.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0957",
       "category": "Geography",
       "question": "The Danube flows through more countries than any other river. How many?",
       "options": [
@@ -116,9 +173,16 @@
       ],
       "answer": "Ten, more than any other river anywhere in the world",
       "explanation": "The Danube passes through Germany, Austria, Slovakia, Hungary, Croatia, Serbia, Romania, Bulgaria, Moldova and Ukraine, and touches four capital cities, more than any river. It flows west to east, unusual for European rivers. It has been a political boundary since Roman times, when it marked the northern frontier of the empire, and it remains a major freight route into central Europe.",
-      "memory_hook": "Ten countries and four capitals, more than any river on Earth. It runs west to east, which is unusual in Europe. It was the Roman Empire's northern frontier, and it is still a major freight artery into central Europe."
+      "memory_hook": "Ten countries and four capitals, more than any river on Earth. It runs west to east, which is unusual in Europe. It was the Roman Empire's northern frontier, and it is still a major freight artery into central Europe.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0958",
       "category": "History",
       "question": "Sputnik 1 launched in October 1957 and did almost nothing. Why did it matter so much?",
       "options": [
@@ -129,9 +193,16 @@
       ],
       "answer": "A rocket that could reach orbit could also deliver a warhead",
       "explanation": "Sputnik was a metal sphere that transmitted beeps for three weeks, but the R-7 rocket that lifted it was an intercontinental ballistic missile, and Americans understood the implication immediately. The response created NASA in 1958, poured money into science education, and produced the agency that became DARPA, whose network project eventually became the internet. Laika flew a month later on Sputnik 2 and did not survive.",
-      "memory_hook": "It was a metal ball that beeped for three weeks, but the rocket underneath was an ICBM and Americans grasped that instantly. The panic created NASA, rebuilt US science education, and funded the agency whose network became the internet. Laika went up a month later and did not come back."
+      "memory_hook": "It was a metal ball that beeped for three weeks, but the rocket underneath was an ICBM and Americans grasped that instantly. The panic created NASA, rebuilt US science education, and funded the agency whose network became the internet. Laika went up a month later and did not come back.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0959",
       "category": "Pop Culture",
       "question": "Lady Gaga wore a dress made of raw meat in 2010. What did she say it meant?",
       "options": [
@@ -142,9 +213,16 @@
       ],
       "answer": "A protest against the military policy on gay service members",
       "explanation": "Gaga said that if people did not stand up for their rights they would have as many rights as the meat on her bones, tying it to the Don't Ask Don't Tell policy she was actively campaigning against. She attended the awards with discharged servicemembers. The dress was real flank steak and is now preserved as jerky in the Rock and Roll Hall of Fame. She trained in classical piano and studied at NYU's Tisch school.",
-      "memory_hook": "She said that if you do not fight for your rights you will have as many rights as the meat on your bones, aimed at Don't Ask Don't Tell, and she brought discharged servicemembers as her guests. The dress was real flank steak and is now jerky in the Rock and Roll Hall of Fame."
+      "memory_hook": "She said that if you do not fight for your rights you will have as many rights as the meat on your bones, aimed at Don't Ask Don't Tell, and she brought discharged servicemembers as her guests. The dress was real flank steak and is now jerky in the Rock and Roll Hall of Fame.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0960",
       "category": "Sports",
       "question": "A perfect game means 27 batters up and 27 down. How rare is it?",
       "options": [
@@ -158,7 +236,13 @@
       "memory_hook": "Twenty-four in more than 200,000 games, the last by Domingo German in 2023. Don Larsen threw the only World Series perfect game in 1956 and was otherwise a mediocre pitcher with a losing record. Galarraga lost one in 2010 to a blown call with two out in the ninth, and the umpire apologised.",
       "sourceRefs": [
         "mlb-perfect-games"
-      ]
+      ],
+      "review": {
+        "state": "verified",
+        "at": "2026-09-03",
+        "by": "tanner@tjs16media.com",
+        "note": "carried over: had a cited source before IDs existed"
+      }
     }
   ]
 }

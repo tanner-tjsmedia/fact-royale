@@ -2,6 +2,7 @@
   "date": "2026-08-18",
   "questions": [
     {
+      "id": "frq-0769",
       "category": "History",
       "question": "Martin Luther King Jr was in Memphis in April 1968 for a reason often left out of the story. What brought him there?",
       "options": [
@@ -12,9 +13,16 @@
       ],
       "answer": "A strike by Black sanitation workers over pay and safety",
       "explanation": "Two workers had been crushed to death by a malfunctioning truck, and 1,300 men walked out carrying signs reading I AM A MAN. By 1968 King had shifted toward economic justice and was organising the Poor People's Campaign, positions considerably less popular than his earlier work. His approval rating was around 25% at his death. He gave the Mountaintop speech the night before he was shot.",
-      "memory_hook": "Two sanitation workers had been crushed by a faulty truck and 1,300 walked out with signs reading I AM A MAN. King had moved to economic justice by then, which was far less popular. His approval was around 25% when he died. He gave the Mountaintop speech the night before."
+      "memory_hook": "Two sanitation workers had been crushed by a faulty truck and 1,300 walked out with signs reading I AM A MAN. King had moved to economic justice by then, which was far less popular. His approval was around 25% when he died. He gave the Mountaintop speech the night before.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0770",
       "category": "History",
       "question": "Churchill's Iron Curtain speech in 1946 named the Cold War divide. Where did he give it?",
       "options": [
@@ -25,9 +33,16 @@
       ],
       "answer": "A small college in Fulton, Missouri",
       "explanation": "Churchill was out of office, having lost the 1945 election, and spoke at Westminster College in Fulton at Truman's invitation, with Truman on stage. The reaction was mixed and many Americans thought it needlessly provocative, since the USSR had been an ally months earlier. Stalin compared it to Nazi racial theory. The phrase was not new, having appeared in print before, but Churchill fixed it permanently in the language.",
-      "memory_hook": "He was out of office, having lost the 1945 election, speaking at a small Missouri college with Truman sitting behind him. Many Americans thought it provocative, since the Soviets had just been allies. Stalin compared it to Nazi race theory."
+      "memory_hook": "He was out of office, having lost the 1945 election, speaking at a small Missouri college with Truman sitting behind him. Many Americans thought it provocative, since the Soviets had just been allies. Stalin compared it to Nazi race theory.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0771",
       "category": "History",
       "question": "The Chernobyl reactor exploded in 1986 during a safety test. What was the test trying to establish?",
       "options": [
@@ -38,9 +53,16 @@
       ],
       "answer": "Whether spinning turbines could power cooling in a blackout",
       "explanation": "If external power failed there was a gap of about a minute before backup diesels came up, and the test checked whether a turbine's rotational momentum could bridge it. To run the test operators disabled safety systems and drove the reactor into an unstable low-power state. The RBMK design had a fatal quirk: at low power, inserting the graphite-tipped control rods briefly increased reactivity, so the emergency shutdown triggered the explosion.",
-      "memory_hook": "They were testing whether a spinning turbine could power the coolant pumps for the minute before backup diesels started. To do it they switched off safety systems and pushed the reactor into an unstable state. Then the emergency shutdown itself caused the explosion, because the graphite rod tips briefly boosted the reaction."
+      "memory_hook": "They were testing whether a spinning turbine could power the coolant pumps for the minute before backup diesels started. To do it they switched off safety systems and pushed the reactor into an unstable state. Then the emergency shutdown itself caused the explosion, because the graphite rod tips briefly boosted the reaction.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0772",
       "category": "Sports",
       "question": "Cricket calls a batter dismissed without scoring a duck. Where does the term come from?",
       "options": [
@@ -51,9 +73,16 @@
       ],
       "answer": "The zero on the scoreboard resembles a duck's egg",
       "explanation": "Duck is short for duck's egg, from the shape of the nought. Tennis borrows the same idea from French: love comes from l'oeuf, the egg. A golden duck is out on the first ball faced, a diamond duck without facing one at all, run out from the non-striker's end. Sachin Tendulkar and Don Bradman both have a duck against them, and Bradman's most famous is his last innings, needing four runs for a career average of 100 and making none.",
-      "memory_hook": "Duck is short for duck's egg, from the shape of a nought. Tennis does the same with love, from l'oeuf. A golden duck is first ball, a diamond duck is out without facing one. Bradman's last innings he needed four runs for a career average of 100 and got nought."
+      "memory_hook": "Duck is short for duck's egg, from the shape of a nought. Tennis does the same with love, from l'oeuf. A golden duck is first ball, a diamond duck is out without facing one. Bradman's last innings he needed four runs for a career average of 100 and got nought.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0773",
       "category": "Sports",
       "question": "Judo and wrestling both involve throwing an opponent. What decides a judo match instantly?",
       "options": [
@@ -64,9 +93,16 @@
       ],
       "answer": "An ippon, a throw landing the opponent flat on their back",
       "explanation": "An ippon ends the contest immediately and is awarded for a throw landing the opponent largely on their back with control and force, or for a 20-second pin, or a submission by strangle or armlock. Everything else scores waza-ari, worth half, and two of those also end it. The instant-win structure is deliberate: Jigoro Kano designed judo so a single decisive technique settles matters, reflecting its origins as combat rather than points-scoring.",
-      "memory_hook": "Ippon ends it on the spot: a throw landing them largely on the back with control and force, or a 20-second pin, or a submission. Anything less is waza-ari, worth half, and two of those also finish it. Kano built it so one decisive technique settles the fight."
+      "memory_hook": "Ippon ends it on the spot: a throw landing them largely on the back with control and force, or a 20-second pin, or a submission. Anything less is waza-ari, worth half, and two of those also finish it. Kano built it so one decisive technique settles the fight.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0774",
       "category": "Pop Culture",
       "question": "Bob Dylan's Like a Rolling Stone ran over six minutes in 1965, when singles were half that. How did it get on the radio?",
       "options": [
@@ -77,9 +113,16 @@
       ],
       "answer": "A DJ played an acetate and stations were flooded with calls",
       "explanation": "Columbia thought it unplayable and initially refused to release it as a single. A copy reached a New York club, a DJ played it, and stations were pressured into it by listener demand. Columbia split it across both sides of the 45, but DJs simply played the whole thing. It reached number two. Dylan had also just gone electric at Newport that summer, to considerable booing.",
-      "memory_hook": "Columbia thought it unplayable at six minutes and would not release it. Someone played an acetate in a New York club, DJs got calls, and the label caved. They split it over both sides of the 45 and DJs ignored that and played it whole. Number two."
+      "memory_hook": "Columbia thought it unplayable at six minutes and would not release it. Someone played an acetate in a New York club, DJs got calls, and the label caved. They split it over both sides of the 45 and DJs ignored that and played it whole. Number two.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0775",
       "category": "Pop Culture",
       "question": "Roy Lichtenstein enlarged comic-book panels to gallery scale in the 1960s. What controversy still follows the work?",
       "options": [
@@ -90,9 +133,16 @@
       ],
       "answer": "He copied real artists' panels without credit or payment",
       "explanation": "Art historian David Barsalou spent decades documenting Lichtenstein's source material, showing that paintings like 'Whaam!' (1963) and 'Drowning Girl' (1963) were extremely close copies of specific panels by artists including Russ Heath, Tony Abruzzo, and others. The original artists — working anonymously for publishers on work-for-hire contracts — received nothing while Lichtenstein's versions sold for tens of millions. 'Whaam!' sold for $43 million in 2011. Lichtenstein argued he transformed the work through scale, color, and context. The debate touches on appropriation, copyright (the panels were published in the 1950s-60s), and the art world's hierarchy that valued Lichtenstein while ignoring his sources.",
-      "memory_hook": "Lichtenstein's 'Whaam!' sold for $43 million. The artists he copied — Russ Heath, Tony Abruzzo, others — received nothing; they'd signed work-for-hire contracts. David Barsalou spent decades documenting how closely the paintings matched the originals. Lichtenstein said 'transformation' made it art. The original comic artists mostly went uncredited for decades."
+      "memory_hook": "Lichtenstein's 'Whaam!' sold for $43 million. The artists he copied — Russ Heath, Tony Abruzzo, others — received nothing; they'd signed work-for-hire contracts. David Barsalou spent decades documenting how closely the paintings matched the originals. Lichtenstein said 'transformation' made it art. The original comic artists mostly went uncredited for decades.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0776",
       "category": "Pop Culture",
       "question": "The Power of the Dog (2021) earned Jane Campion a Best Director Oscar. What did that make her?",
       "options": [
@@ -106,9 +156,16 @@
       "memory_hook": "Campion was nominated for The Piano in 1994, and this made her the first woman nominated twice for directing. Only three women have ever won it. The Piano also made her the first woman to take the Palme d'Or, in 1993, with only Julia Ducournau and Justine Triet following since. This was shot in New Zealand playing 1925 Montana.",
       "sourceRefs": [
         "palme-dor-women"
-      ]
+      ],
+      "review": {
+        "state": "verified",
+        "at": "2026-09-03",
+        "by": "tanner@tjs16media.com",
+        "note": "carried over: had a cited source before IDs existed"
+      }
     },
     {
+      "id": "frq-0777",
       "category": "Geography",
       "question": "The Suez Canal has no locks, unlike Panama. Why not?",
       "options": [
@@ -119,9 +176,16 @@
       ],
       "answer": "The seas at both ends sit at nearly the same level",
       "explanation": "The Mediterranean and Red Sea differ little in elevation and the terrain between is low desert, so a sea-level cut was possible. Panama needed locks because the isthmus is mountainous and Gatun Lake sits 26 metres up. That difference is why de Lesseps, who built Suez, insisted a sea-level canal would work in Panama, and why his attempt failed. Suez carries roughly 12% of global trade and blocking it for six days in 2021 cost billions.",
-      "memory_hook": "The Mediterranean and Red Sea are at nearly the same level with low desert between, so you can just cut straight through. Panama is mountainous and needed locks. De Lesseps built Suez and assumed Panama would work the same way, which is exactly why his Panama attempt collapsed."
+      "memory_hook": "The Mediterranean and Red Sea are at nearly the same level with low desert between, so you can just cut straight through. Panama is mountainous and needed locks. De Lesseps built Suez and assumed Panama would work the same way, which is exactly why his Panama attempt collapsed.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0778",
       "category": "Science & Nature",
       "question": "Two species cannot occupy the same niche in the same place indefinitely. What happens instead?",
       "options": [
@@ -132,9 +196,16 @@
       ],
       "answer": "One is driven out, or they diverge to use different resources",
       "explanation": "This is competitive exclusion. Gause demonstrated it with paramecia in the 1930s: two species that overlapped completely could not coexist in one culture. In the wild, species usually partition instead, feeding at different heights or hunting at different hours. Darwin's finches diverged in beak shape to exploit different seeds, which is why they became the standard example of adaptive radiation.",
-      "memory_hook": "Competitive exclusion: identical niches cannot coexist, so one goes or they specialise. Gause proved it with paramecia in the 1930s. In the wild species usually partition instead, feeding at different heights or different times of day. Darwin's finches split by beak shape and seed size."
+      "memory_hook": "Competitive exclusion: identical niches cannot coexist, so one goes or they specialise. Gause proved it with paramecia in the 1930s. In the wild species usually partition instead, feeding at different heights or different times of day. Darwin's finches split by beak shape and seed size.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0779",
       "category": "Geography",
       "question": "Mount Whitney and Death Valley are about 135km apart in California. What is remarkable about that pairing?",
       "options": [
@@ -145,9 +216,16 @@
       ],
       "answer": "Highest and lowest points in the contiguous US, side by side",
       "explanation": "Whitney reaches 4,421m and Badwater Basin in Death Valley sits 86m below sea level, and they are close enough to see between on a clear day. Both result from Basin and Range extension, where the crust is being pulled apart, dropping blocks down and pushing others up. Death Valley also holds the highest reliably recorded air temperature on Earth, 56.7C at Furnace Creek in 1913.",
-      "memory_hook": "Whitney is 4,421m up, Badwater Basin is 86m below sea level, and they are 135km apart. Both come from the same process, crustal stretching that drops some blocks and lifts others. Death Valley also holds the highest air temperature ever reliably recorded, 56.7C in 1913."
+      "memory_hook": "Whitney is 4,421m up, Badwater Basin is 86m below sea level, and they are 135km apart. Both come from the same process, crustal stretching that drops some blocks and lifts others. Death Valley also holds the highest air temperature ever reliably recorded, 56.7C in 1913.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0780",
       "category": "Science & Nature",
       "question": "Ecologists distinguish a species' fundamental niche from its realised niche. What is the difference?",
       "options": [
@@ -158,7 +236,13 @@
       ],
       "answer": "Where it could live, versus where competitors allow",
       "explanation": "The fundamental niche is the full range of conditions a species could tolerate with no competition. The realised niche is the narrower slice it actually occupies once rivals, predators and disease are present. Connell's barnacle experiments on Scottish shores showed one species could live across the whole tidal range but was confined to the upper zone by a competitor. Remove the competitor and it expands.",
-      "memory_hook": "Fundamental niche is everywhere a species could survive; realised niche is the smaller part competitors leave it. Connell's barnacle work in Scotland showed one species could handle the whole tidal range but got squeezed into the top by a rival. Remove the rival and it spreads back out."
+      "memory_hook": "Fundamental niche is everywhere a species could survive; realised niche is the smaller part competitors leave it. Connell's barnacle work in Scotland showed one species could handle the whole tidal range but got squeezed into the top by a rival. Remove the rival and it spreads back out.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     }
   ]
 }

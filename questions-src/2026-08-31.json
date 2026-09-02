@@ -2,6 +2,7 @@
   "date": "2026-08-31",
   "questions": [
     {
+      "id": "frq-0925",
       "category": "History",
       "question": "Cleopatra allied with Caesar and Antony. What is usually got wrong about her?",
       "options": [
@@ -12,9 +13,16 @@
       ],
       "answer": "She was Greek Macedonian, not ethnically Egyptian",
       "explanation": "The Ptolemies descended from one of Alexander's generals and ruled Egypt for nearly three centuries while remaining culturally Greek. Cleopatra was reportedly the first of the line to bother learning Egyptian, and spoke several languages. Roman propaganda cast her as an exotic seductress, and that framing stuck. She was also a capable administrator during famine and currency crises, which gets far less attention than the asp.",
-      "memory_hook": "The Ptolemies came from one of Alexander's generals and stayed culturally Greek for three centuries. Cleopatra was reportedly the first of them to learn Egyptian at all. Roman propaganda made her an exotic seductress and it stuck, which buries the fact that she was a competent administrator."
+      "memory_hook": "The Ptolemies came from one of Alexander's generals and stayed culturally Greek for three centuries. Cleopatra was reportedly the first of them to learn Egyptian at all. Roman propaganda made her an exotic seductress and it stuck, which buries the fact that she was a competent administrator.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0926",
       "category": "Science & Nature",
       "question": "The ozone hole was discovered in 1985. Why is it considered an environmental success story?",
       "options": [
@@ -25,9 +33,16 @@
       ],
       "answer": "A 1987 treaty phased out CFCs and the hole is now healing",
       "explanation": "The Montreal Protocol is the only UN treaty ratified by every country on Earth. CFC production was phased out, and the ozone layer is projected to recover to 1980 levels around mid-century. It worked because the harm was clear, the chemicals had substitutes, and the industry was concentrated. The substitutes turned out to be potent greenhouse gases, so a later amendment addressed those too, which is a fair illustration of how these problems chain.",
-      "memory_hook": "The Montreal Protocol is the only UN treaty every country has ratified. CFCs were phased out and the layer should be back to 1980 levels around mid-century. It worked because the harm was obvious, substitutes existed, and few companies made the stuff. Those substitutes turned out to be greenhouse gases."
+      "memory_hook": "The Montreal Protocol is the only UN treaty every country has ratified. CFCs were phased out and the layer should be back to 1980 levels around mid-century. It worked because the harm was obvious, substitutes existed, and few companies made the stuff. Those substitutes turned out to be greenhouse gases.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0927",
       "category": "Sports",
       "question": "Tom Brady is widely considered the greatest quarterback in NFL history. How many Super Bowl championships did he win, and with how many different teams?",
       "options": [
@@ -38,9 +53,16 @@
       ],
       "answer": "7 Super Bowls, 6 with New England and 1 with Tampa Bay",
       "explanation": "Brady won Super Bowls XXXVI, XXXVIII, XXXIX, XLIX, LI, and LIII with New England, then won Super Bowl LV with Tampa Bay at age 43 — making him the oldest Super Bowl-winning quarterback ever. His 7 titles are more than any NFL franchise except the Patriots (6) and Pittsburgh Steelers (6). He also holds records for most Super Bowl touchdown passes, yards, and completions.",
-      "memory_hook": "Brady's 7 Super Bowls (6 with New England, 1 with Tampa Bay at age 43) are more championships than any other player in NFL history — more than most franchises have ever won."
+      "memory_hook": "Brady's 7 Super Bowls (6 with New England, 1 with Tampa Bay at age 43) are more championships than any other player in NFL history — more than most franchises have ever won.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0928",
       "category": "Pop Culture",
       "question": "Mozart was composing from about five. What was his financial situation at his death?",
       "options": [
@@ -51,9 +73,16 @@
       ],
       "answer": "Earning well but spending faster, buried in a common grave",
       "explanation": "Mozart earned considerable sums but lived expensively and had debts when he died at thirty-five. The common grave was standard Viennese practice under Joseph II's burial reforms rather than a mark of poverty, which is a detail the pauper's-grave story usually omits. He wrote over 600 works. The Requiem was unfinished and completed by his student Süssmayr, and the story that Salieri poisoned him has no evidence behind it.",
-      "memory_hook": "He earned well and spent faster, dying at thirty-five in debt. The common grave was standard Viennese practice at the time, not a sign of destitution, which the pauper story leaves out. Over 600 works. His student finished the Requiem, and the Salieri poisoning story is fiction."
+      "memory_hook": "He earned well and spent faster, dying at thirty-five in debt. The common grave was standard Viennese practice at the time, not a sign of destitution, which the pauper story leaves out. Over 600 works. His student finished the Requiem, and the Salieri poisoning story is fiction.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0929",
       "category": "Geography",
       "question": "Egypt's population is concentrated in a remarkably small area. How small?",
       "options": [
@@ -64,9 +93,16 @@
       ],
       "answer": "About 95% live on 5% of the land, along the Nile",
       "explanation": "The Nile valley and delta are a thin green ribbon through desert, and satellite images at night show the population as a bright line with a fan at the end. Egypt is around 100 million people occupying an inhabited area comparable to a small country. This is why Nile water is an existential issue, and why Ethiopia's Grand Renaissance Dam upstream has been a source of serious diplomatic tension.",
-      "memory_hook": "About 95% of Egyptians live on 5% of the land, along the Nile. At night from orbit the population is a bright line with a fan at the delta. That is why upstream water matters so much, and why Ethiopia's dam on the Blue Nile has been such a diplomatic problem."
+      "memory_hook": "About 95% of Egyptians live on 5% of the land, along the Nile. At night from orbit the population is a bright line with a fan at the delta. That is why upstream water matters so much, and why Ethiopia's dam on the Blue Nile has been such a diplomatic problem.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0930",
       "category": "History",
       "question": "The Suez Canal opened in 1869 and was blocked for six days in 2021. What caused the blockage?",
       "options": [
@@ -77,9 +113,16 @@
       ],
       "answer": "A container ship turned sideways in high wind",
       "explanation": "The Ever Given, 400 metres long, was pushed off course by a sandstorm and wedged diagonally across the channel. Roughly 12% of global trade passes through, and around 400 ships backed up while alternatives meant an extra two weeks around Africa. Estimated cost ran to billions per day. It became one of the most widely shared memes of the year, largely because of a photograph of one small excavator beside the bow.",
-      "memory_hook": "The Ever Given, 400 metres long, got shoved sideways by a sandstorm and wedged across the channel. About 12% of world trade goes through, 400 ships backed up, and the alternative was two extra weeks around Africa. Billions a day. And that photo of one tiny excavator next to the bow."
+      "memory_hook": "The Ever Given, 400 metres long, got shoved sideways by a sandstorm and wedged across the channel. About 12% of world trade goes through, 400 ships backed up, and the alternative was two extra weeks around Africa. Billions a day. And that photo of one tiny excavator next to the bow.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0931",
       "category": "Pop Culture",
       "question": "Spotify launched in 2008 as an alternative to something specific. What?",
       "options": [
@@ -90,9 +133,16 @@
       ],
       "answer": "Piracy, which was destroying music revenue in Sweden",
       "explanation": "Daniel Ek built Spotify on the premise that people pirated because it was more convenient, not because it was free, so the product had to be faster and easier than The Pirate Bay, which was also Swedish. It worked, and streaming has since restored industry revenue. Artist payouts remain deeply contested, at fractions of a cent per stream, with the money concentrated among a small number of very large acts.",
-      "memory_hook": "Ek's premise was that people pirated for convenience, not price, so Spotify had to be easier than The Pirate Bay, which was also Swedish. It worked and streaming restored industry revenue. Per-stream payouts remain tiny and heavily concentrated among the biggest acts."
+      "memory_hook": "Ek's premise was that people pirated for convenience, not price, so Spotify had to be easier than The Pirate Bay, which was also Swedish. It worked and streaming restored industry revenue. Per-stream payouts remain tiny and heavily concentrated among the biggest acts.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0932",
       "category": "Science & Nature",
       "question": "A covalent bond involves atoms sharing electrons. Why is water's version so consequential?",
       "options": [
@@ -103,9 +153,16 @@
       ],
       "answer": "The sharing is uneven, making water pull on itself",
       "explanation": "Oxygen attracts the shared electrons more strongly than hydrogen, so water is polar with slightly charged ends. That polarity produces hydrogen bonding, which gives water high surface tension, an unusually high boiling point for its size, and the ability to dissolve an enormous range of substances. It also makes ice less dense than liquid water, so lakes freeze from the top down and life survives beneath.",
-      "memory_hook": "Oxygen hogs the shared electrons, so water is polar with charged ends, and that makes it stick to itself. Hence surface tension, a high boiling point for such a small molecule, and dissolving almost everything. It also makes ice float, which is why lakes freeze from the top and things live underneath."
+      "memory_hook": "Oxygen hogs the shared electrons, so water is polar with charged ends, and that makes it stick to itself. Hence surface tension, a high boiling point for such a small molecule, and dissolving almost everything. It also makes ice float, which is why lakes freeze from the top and things live underneath.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0933",
       "category": "Geography",
       "question": "Tanzania holds the Serengeti and Kilimanjaro. What else sits within its borders?",
       "options": [
@@ -116,9 +173,16 @@
       ],
       "answer": "Olduvai Gorge, where key early human fossils were found",
       "explanation": "Mary and Louis Leakey worked Olduvai for decades, recovering hominin fossils and stone tools spanning nearly two million years, which helped establish East Africa as the region where humans originated. Nearby Laetoli preserves 3.6-million-year-old footprints showing upright walking well before large brains evolved. Tanzania also holds Ngorongoro Crater, a collapsed caldera enclosing one of the densest concentrations of large mammals anywhere.",
-      "memory_hook": "Olduvai Gorge, where the Leakeys spent decades pulling out hominin fossils and tools spanning two million years, which is much of why East Africa is seen as where we started. Nearby Laetoli has 3.6-million-year-old footprints proving upright walking came long before big brains."
+      "memory_hook": "Olduvai Gorge, where the Leakeys spent decades pulling out hominin fossils and tools spanning two million years, which is much of why East Africa is seen as where we started. Nearby Laetoli has 3.6-million-year-old footprints proving upright walking came long before big brains.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0934",
       "category": "History",
       "question": "Qin Shi Huang unified China and began the Great Wall. What else did he build?",
       "options": [
@@ -129,9 +193,16 @@
       ],
       "answer": "An 8,000-figure terracotta army guarding his tomb",
       "explanation": "Farmers digging a well found the army in 1974. Every figure has individual features, and the whole complex was buried for over two thousand years. The tomb mound itself remains unexcavated, partly because ancient accounts describe rivers of mercury inside, and soil testing has found unusually high mercury concentrations consistent with that. Qin also standardised writing, currency and axle widths, and died pursuing an elixir of immortality that may have contained mercury.",
-      "memory_hook": "Farmers digging a well found 8,000 terracotta soldiers in 1974, every face different. The tomb itself is still unopened, partly because ancient texts describe rivers of mercury and soil tests found high mercury. He standardised writing, money and axle widths, then died chasing an immortality elixir."
+      "memory_hook": "Farmers digging a well found 8,000 terracotta soldiers in 1974, every face different. The tomb itself is still unopened, partly because ancient texts describe rivers of mercury and soil tests found high mercury. He standardised writing, money and axle widths, then died chasing an immortality elixir.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0935",
       "category": "Pop Culture",
       "question": "Titanic (1997) won 11 Academy Awards, tying the record. Which films share it?",
       "options": [
@@ -142,9 +213,16 @@
       ],
       "answer": "Ben-Hur and The Lord of the Rings: The Return of the King",
       "explanation": "Ben-Hur took 11 in 1960, Titanic matched it in 1998, and Return of the King made it three in 2004, winning every category it was nominated in, which none of the others managed. Titanic was the most expensive film ever made at the time, running so far over budget that Fox brought in Paramount to share the risk. It held the box office record for twelve years until Cameron's own Avatar passed it.",
-      "memory_hook": "Ben-Hur in 1960, Titanic in 1998, Return of the King in 2004, and only Return of the King went 11 for 11 on its nominations. Titanic was the priciest film ever made at the time, so far over budget that two studios split the risk. Cameron's own Avatar eventually beat its box office record."
+      "memory_hook": "Ben-Hur in 1960, Titanic in 1998, Return of the King in 2004, and only Return of the King went 11 for 11 on its nominations. Titanic was the priciest film ever made at the time, so far over budget that two studios split the risk. Cameron's own Avatar eventually beat its box office record.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0936",
       "category": "Sports",
       "question": "The US topped the medal table at Tokyo 2020, held in 2021. What made those Games unique?",
       "options": [
@@ -155,7 +233,13 @@
       ],
       "answer": "They were held with no spectators in the venues",
       "explanation": "Postponed a year by the pandemic and then run in near-empty stadiums, with athletes hearing their own footsteps and the crowd noise piped in artificially. Athletes were tested daily and confined to a bubble. Japan spent an estimated $15 billion or more with almost no tourism return. Simone Biles withdrawing from events to protect her mental health became the defining story, and shifted how sport talks about it.",
-      "memory_hook": "Postponed a year, then run in empty stadiums with artificial crowd noise piped in and athletes able to hear their own footsteps. Daily testing and a strict bubble. Japan spent $15 billion or more with no tourists. Biles withdrawing for her mental health became the story of the Games."
+      "memory_hook": "Postponed a year, then run in empty stadiums with artificial crowd noise piped in and athletes able to hear their own footsteps. Daily testing and a strict bubble. Japan spent $15 billion or more with no tourists. Biles withdrawing for her mental health became the story of the Games.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     }
   ]
 }

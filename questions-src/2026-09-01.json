@@ -2,6 +2,7 @@
   "date": "2026-09-01",
   "questions": [
     {
+      "id": "frq-0937",
       "category": "History",
       "question": "Germany hosted the Berlin Conference that carved up Africa. What did it gain?",
       "options": [
@@ -12,9 +13,16 @@
       ],
       "answer": "Four colonies, all lost within thirty years",
       "explanation": "Germany took Togoland, Cameroon, German South West Africa and German East Africa, then lost all of them under the Treaty of Versailles after the First World War. Bismarck had little enthusiasm for colonies and hosted the conference mainly to manage rivalries among the other powers. The Congo went to King Leopold II of Belgium as personal property, not to Belgium itself, and his administration killed millions.",
-      "memory_hook": "Germany took Togoland, Cameroon and two larger territories, then lost every one at Versailles. Bismarck barely wanted colonies and hosted mainly to referee everyone else. The Congo went to Leopold II personally, not to Belgium, and his rule there killed millions."
+      "memory_hook": "Germany took Togoland, Cameroon and two larger territories, then lost every one at Versailles. Bismarck barely wanted colonies and hosted mainly to referee everyone else. The Congo went to Leopold II personally, not to Belgium, and his rule there killed millions.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0938",
       "category": "Science & Nature",
       "question": "A catalyst speeds a reaction without being consumed. What is the catalytic converter in a car doing?",
       "options": [
@@ -25,9 +33,16 @@
       ],
       "answer": "Turning toxic exhaust gases into less harmful ones",
       "explanation": "Platinum, palladium and rhodium convert carbon monoxide and unburnt hydrocarbons into carbon dioxide and water, and nitrogen oxides back into nitrogen. The metals are not consumed, which is why one unit lasts the life of the car. Those metals are also worth more than gold by weight, which is why converter theft is common. Leaded petrol had to be phased out because lead permanently poisons the catalyst.",
-      "memory_hook": "Platinum, palladium and rhodium turn carbon monoxide and unburnt fuel into CO2 and water, and nitrogen oxides back into nitrogen. The metals are not used up, so one lasts the car's life. They are worth more than gold, which is why people steal them. Leaded petrol had to go because lead poisons them."
+      "memory_hook": "Platinum, palladium and rhodium turn carbon monoxide and unburnt fuel into CO2 and water, and nitrogen oxides back into nitrogen. The metals are not used up, so one lasts the car's life. They are worth more than gold, which is why people steal them. Leaded petrol had to go because lead poisons them.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0939",
       "category": "Sports",
       "question": "Usain Bolt ran 9.58 in Berlin in 2009. What is unusual about how he did it?",
       "options": [
@@ -38,9 +53,16 @@
       ],
       "answer": "He is unusually tall, taking 41 strides where rivals take 45",
       "explanation": "At 6'5\" Bolt was thought too tall for sprinting, since height was supposed to cost you out of the blocks. His stride reached 2.44 metres, so he covered 100m in about 41 strides against 44 or 45 for his rivals. His reaction time in Berlin was 0.146 seconds, unremarkable. He hit a peak speed of 44.72 km/h, the fastest ever measured for a human, between 60 and 80 metres.",
-      "memory_hook": "At 6'5\" he was supposed to be too tall to sprint, since height costs you out of the blocks. His stride hit 2.44 metres, so he needed 41 strides where rivals needed 45. His reaction time was ordinary. His peak of 44.72 km/h is the fastest speed ever measured for a human."
+      "memory_hook": "At 6'5\" he was supposed to be too tall to sprint, since height costs you out of the blocks. His stride hit 2.44 metres, so he needed 41 strides where rivals needed 45. His reaction time was ordinary. His peak of 44.72 km/h is the fastest speed ever measured for a human.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0940",
       "category": "Pop Culture",
       "question": "Prince's Purple Rain was a film and an album at once. What did Prince do that was almost unheard of?",
       "options": [
@@ -51,9 +73,16 @@
       ],
       "answer": "Played every instrument on much of his earlier work himself",
       "explanation": "Prince played all 27 instruments on his 1978 debut at nineteen, having negotiated full creative control from Warner Bros, which almost no new artist obtained. He later fought the same label over ownership of his masters, changed his name to an unpronounceable symbol, and appeared with SLAVE written on his face. Purple Rain sold over 25 million and he won an Oscar for the score.",
-      "memory_hook": "He played all 27 instruments on his 1978 debut at nineteen, with full creative control from Warner Bros, which new artists never got. He later fought the same label over his masters, changed his name to a symbol, and performed with SLAVE written on his cheek."
+      "memory_hook": "He played all 27 instruments on his 1978 debut at nineteen, with full creative control from Warner Bros, which new artists never got. He later fought the same label over his masters, changed his name to a symbol, and performed with SLAVE written on his cheek.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0941",
       "category": "Geography",
       "question": "A ship takes 8 to 10 hours to transit the Panama Canal. What consumes most of that time?",
       "options": [
@@ -64,9 +93,16 @@
       ],
       "answer": "Locks raising and lowering ships 26 metres each way",
       "explanation": "Ships are lifted 26 metres to Gatun Lake and back down again, and each lock chamber takes time to fill or drain. Electric locomotives called mules guide vessels through the chambers but do not tow them the length of the canal. Around 200 million litres of fresh water flow to the sea per transit, which is why drought now forces the authority to restrict daily crossings. Tolls can exceed half a million dollars.",
-      "memory_hook": "Ships get lifted 26 metres up to Gatun Lake and back down, and filling each chamber takes time. The mules only guide them through the locks. Every transit dumps about 200 million litres of fresh water into the sea, which is why droughts now limit how many ships can cross."
+      "memory_hook": "Ships get lifted 26 metres up to Gatun Lake and back down, and filling each chamber takes time. The mules only guide them through the locks. Every transit dumps about 200 million litres of fresh water into the sea, which is why droughts now limit how many ships can cross.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0942",
       "category": "History",
       "question": "William won at Hastings in 1066. How is the battle recorded in unusual detail?",
       "options": [
@@ -77,9 +113,16 @@
       ],
       "answer": "The Bayeux Tapestry, a 70-metre embroidered narrative",
       "explanation": "The tapestry is nearly 70 metres of embroidered linen telling the story in sequence, probably made in England within about twenty years of the battle. It is technically embroidery rather than tapestry. It shows Halley's Comet as an omen, which independently dates the events. Whether Harold is the figure with an arrow in his eye is genuinely disputed, since the scene is ambiguous and was partly restored later.",
-      "memory_hook": "Nearly 70 metres of embroidered linen, probably made in England within twenty years of the battle, telling it in sequence. It is embroidery, not tapestry. It shows Halley's Comet as an omen. Whether Harold is really the man with the arrow in his eye is still argued over."
+      "memory_hook": "Nearly 70 metres of embroidered linen, probably made in England within twenty years of the battle, telling it in sequence. It is embroidery, not tapestry. It shows Halley's Comet as an omen. Whether Harold is really the man with the arrow in his eye is still argued over.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0943",
       "category": "Pop Culture",
       "question": "The Weeknd built an audience before anyone knew who he was. How?",
       "options": [
@@ -90,9 +133,16 @@
       ],
       "answer": "Anonymous mixtapes posted to YouTube with no name attached",
       "explanation": "Abel Tesfaye posted three mixtapes in 2011 with no name, face or interviews, and the mystery drove attention as much as the music. Drake amplified it early. He had dropped out of high school and left home at seventeen. He later declined to submit work for Grammy consideration after being shut out in 2021, calling the process corrupt, and performed the Super Bowl halftime show the same year.",
-      "memory_hook": "Three mixtapes in 2011 with no name, no face and no interviews, and the mystery pulled people in as much as the songs. Drake boosted him early. He had left school and home at seventeen. He later boycotted the Grammys entirely after being shut out in 2021."
+      "memory_hook": "Three mixtapes in 2011 with no name, no face and no interviews, and the mystery pulled people in as much as the songs. Drake boosted him early. He had left school and home at seventeen. He later boycotted the Grammys entirely after being shut out in 2021.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0944",
       "category": "Science & Nature",
       "question": "In an autoimmune disorder the immune system attacks the body itself. Why is that hard to treat?",
       "options": [
@@ -103,9 +153,16 @@
       ],
       "answer": "Suppressing the attack also suppresses defence against infection",
       "explanation": "Treatment usually means dampening immune activity, which leaves patients more vulnerable to infection and some cancers, so it is a constant trade-off rather than a cure. Newer biologics target narrower pathways to reduce that cost. Around 80% of autoimmune patients are women, and nobody fully knows why, though sex hormones and the second X chromosome are leading suspects. There are over 80 recognised autoimmune conditions.",
-      "memory_hook": "Treating it means turning the immune system down, which leaves you open to infection, so it is a permanent trade-off rather than a fix. Newer drugs target narrower pathways. About 80% of patients are women and nobody is sure why, though the second X chromosome is a suspect."
+      "memory_hook": "Treating it means turning the immune system down, which leaves you open to infection, so it is a permanent trade-off rather than a fix. Newer drugs target narrower pathways. About 80% of patients are women and nobody is sure why, though the second X chromosome is a suspect.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0945",
       "category": "Geography",
       "question": "Lesotho is entirely surrounded by South Africa. What else is unusual about it?",
       "options": [
@@ -116,9 +173,16 @@
       ],
       "answer": "Its lowest point is higher than most countries' mountains",
       "explanation": "Lesotho's lowest elevation is 1,400 metres, the highest low point of any country, and the entire territory sits above 1,000 metres, which is why it is called the Kingdom in the Sky. That altitude gives it snow and abundant water, and it sells water to South Africa through the Lesotho Highlands Water Project, one of its main sources of income. There are only three fully enclaved countries: Lesotho, San Marino and Vatican City.",
-      "memory_hook": "Its lowest point is 1,400 metres, the highest low point of any country, and the whole place sits above 1,000. Hence the Kingdom in the Sky. All that altitude means snow and water, which it sells to South Africa. Only three countries are fully enclaved: this, San Marino and the Vatican."
+      "memory_hook": "Its lowest point is 1,400 metres, the highest low point of any country, and the whole place sits above 1,000. Hence the Kingdom in the Sky. All that altitude means snow and water, which it sells to South Africa. Only three countries are fully enclaved: this, San Marino and the Vatican.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0946",
       "category": "History",
       "question": "Suleiman ruled the Ottoman Empire at its height. What were the two names he is known by?",
       "options": [
@@ -129,9 +193,16 @@
       ],
       "answer": "The Magnificent in Europe, the Lawgiver at home",
       "explanation": "Europeans called him the Magnificent for his court and campaigns, while Ottomans called him Kanuni, the Lawgiver, for reorganising the legal system, which tells you what each side found impressive. He reigned 46 years, besieged Vienna in 1529, and made the empire the dominant Mediterranean power. He also had his own son executed on suspicion of plotting, and his marriage to Roxelana, a former slave, broke with palace convention.",
-      "memory_hook": "Europeans called him the Magnificent for his court and armies; Ottomans called him Kanuni, the Lawgiver, for rebuilding the legal system. Which name each side chose says a lot. He reigned 46 years, besieged Vienna, and had his own son executed over a suspected plot."
+      "memory_hook": "Europeans called him the Magnificent for his court and armies; Ottomans called him Kanuni, the Lawgiver, for rebuilding the legal system. Which name each side chose says a lot. He reigned 46 years, besieged Vienna, and had his own son executed over a suspected plot.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0947",
       "category": "Pop Culture",
       "question": "Eminem became one of the best-selling artists ever. What did Dr. Dre have to overcome to sign him?",
       "options": [
@@ -142,9 +213,16 @@
       ],
       "answer": "Advice that a white rapper would destroy his credibility",
       "explanation": "Dre was warned repeatedly that signing a white rapper would wreck his standing, and said he did not care what colour Eminem was. Eminem had placed second at the 1997 Rap Olympics and a tape reached Interscope's Jimmy Iovine. He was living in poverty in Detroit having been rejected repeatedly. He has since sold over 220 million records and won an Oscar for Lose Yourself, and his mother did sue him, for defamation.",
-      "memory_hook": "People told Dre that signing a white rapper would destroy his credibility and he said he did not care what colour he was. Eminem came second at the 1997 Rap Olympics and a tape got to Jimmy Iovine. Over 220 million records since. His mother did sue him, for defamation."
+      "memory_hook": "People told Dre that signing a white rapper would destroy his credibility and he said he did not care what colour he was. Eminem came second at the 1997 Rap Olympics and a tape got to Jimmy Iovine. Over 220 million records since. His mother did sue him, for defamation.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0948",
       "category": "Sports",
       "question": "A football referee decides when the match ends, not the clock. What is stoppage time meant to cover?",
       "options": [
@@ -155,7 +233,13 @@
       ],
       "answer": "Time lost to injuries, substitutions and goal celebrations",
       "explanation": "The referee estimates time lost and adds it at their discretion, and the clock never stops during play, which is why a 90-minute match contains far less than 90 minutes of live action, often under 60. FIFA pushed for much longer stoppage additions from the 2022 World Cup, producing added periods of ten minutes or more. The referee also decides exactly when to blow, and may allow an attack in progress to finish.",
-      "memory_hook": "The referee estimates the time lost and adds what they choose, and the clock never stops, so a 90-minute match often has under 60 minutes of actual play. FIFA pushed for much longer additions from 2022, hence ten-minute stoppages. The ref also decides the exact moment to blow."
+      "memory_hook": "The referee estimates the time lost and adds what they choose, and the clock never stops, so a 90-minute match often has under 60 minutes of actual play. FIFA pushed for much longer additions from 2022, hence ten-minute stoppages. The ref also decides the exact moment to blow.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     }
   ]
 }

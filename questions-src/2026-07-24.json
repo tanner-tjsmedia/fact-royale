@@ -1,6 +1,7 @@
 {
   "questions": [
     {
+      "id": "frq-0469",
       "category": "History",
       "question": "Which country invented gunpowder?",
       "options": [
@@ -11,9 +12,16 @@
       ],
       "answer": "China",
       "explanation": "Gunpowder was invented in China by Taoist alchemists during the Tang Dynasty (9th century AD) while searching for an elixir of immortality. The formula spread along the Silk Road to the Middle East and eventually Europe, where it transformed warfare. The Chinese also invented fireworks.",
-      "memory_hook": "China: invented gunpowder while looking for immortality. Found explosions instead."
+      "memory_hook": "China: invented gunpowder while looking for immortality. Found explosions instead.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0470",
       "category": "History",
       "question": "Who was the South African president who served time in prison before becoming a symbol of freedom?",
       "options": [
@@ -24,9 +32,16 @@
       ],
       "answer": "Nelson Mandela",
       "explanation": "Nelson Mandela was imprisoned for 27 years (1964–1990) on Robben Island and other prisons for his anti-apartheid activism. After his release, he negotiated the end of apartheid and became South Africa's first democratically elected president in 1994. He was awarded the Nobel Peace Prize in 1993.",
-      "memory_hook": "Mandela: 27 years imprisoned, then president. From cell to chair of state."
+      "memory_hook": "Mandela: 27 years imprisoned, then president. From cell to chair of state.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0471",
       "category": "Sports",
       "question": "In which city were the first modern Olympic Games held?",
       "options": [
@@ -37,9 +52,16 @@
       ],
       "answer": "Athens",
       "explanation": "The first modern Olympic Games were held in Athens, Greece in 1896. Organized by Pierre de Coubertin, 241 athletes from 14 nations competed in 43 events. The Games were a revival of the ancient Greek Olympics, last held in 393 AD.",
-      "memory_hook": "Athens 1896 — where it all started, again."
+      "memory_hook": "Athens 1896 — where it all started, again.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0472",
       "category": "Sports",
       "question": "How long is a standard NBA game in minutes (regulation)?",
       "options": [
@@ -50,9 +72,16 @@
       ],
       "answer": "48 minutes",
       "explanation": "A standard NBA game consists of four quarters of 12 minutes each, for a total of 48 minutes of regulation play. NCAA college basketball uses two 20-minute halves (40 minutes total), and FIBA uses four 10-minute quarters (40 minutes total). Overtime periods in the NBA are 5 minutes each.",
-      "memory_hook": "NBA: 4 quarters x 12 minutes = 48. College: 2 halves x 20 = 40."
+      "memory_hook": "NBA: 4 quarters x 12 minutes = 48. College: 2 halves x 20 = 40.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0473",
       "category": "Pop Culture",
       "question": "Who sang 'Shape of You' and 'Bad Habits'?",
       "options": [
@@ -63,9 +92,16 @@
       ],
       "answer": "Ed Sheeran",
       "explanation": "Ed Sheeran released 'Shape of You' in 2017 — it became one of the best-selling singles of all time with over 3.5 billion Spotify streams. 'Bad Habits' was released in 2021. Sheeran began his career busking on the streets of London and has become one of the world's best-selling music artists.",
-      "memory_hook": "Ed Sheeran: ginger, guitar, global domination. 'Shape of You' + 'Bad Habits.'"
+      "memory_hook": "Ed Sheeran: ginger, guitar, global domination. 'Shape of You' + 'Bad Habits.'",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0474",
       "category": "Pop Culture",
       "question": "Beethoven's 9th Symphony (1824), composed when he was almost completely deaf, is considered one of music's supreme achievements. What makes its premiere extraordinary?",
       "options": [
@@ -76,9 +112,16 @@
       ],
       "answer": "Beethoven had to be turned to face the audience at the premiere because he was conducting from memory — facing the orchestra — and couldn't hear the applause that began before the symphony even finished",
       "explanation": "Beethoven had been profoundly deaf for years by 1824. At the premiere in Vienna, a younger conductor was actually directing the orchestra — Beethoven stood on stage as a ceremonial figure, conducting from memory without hearing the orchestra. When the symphony ended, the audience erupted in applause; Beethoven continued conducting, unaware. Contralto Caroline Unger gently turned him around to face the standing ovation. He reportedly wept when he understood. The 9th introduced the human voice into the symphonic form for the first time — its final movement sets Friedrich Schiller's 'Ode to Joy,' now the EU's anthem.",
-      "memory_hook": "Beethoven couldn't hear his own 9th Symphony at its premiere — a singer turned him around to see the standing ovation he couldn't hear. He composed it while nearly completely deaf. The finale ('Ode to Joy') was the first time a symphony used a full chorus — it's now the European Union's anthem."
+      "memory_hook": "Beethoven couldn't hear his own 9th Symphony at its premiere — a singer turned him around to see the standing ovation he couldn't hear. He composed it while nearly completely deaf. The finale ('Ode to Joy') was the first time a symphony used a full chorus — it's now the European Union's anthem.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0475",
       "category": "Pop Culture",
       "question": "Which album is considered the best-selling of all time?",
       "options": [
@@ -89,9 +132,16 @@
       ],
       "answer": "Thriller by Michael Jackson",
       "explanation": "Michael Jackson's Thriller (1982) is the best-selling album of all time, with estimated sales of 66–70 million copies. It produced seven Billboard Top 10 singles and the iconic music video for 'Thriller,' directed by John Landis, which is the most-viewed music video in history on YouTube.",
-      "memory_hook": "Thriller: 70 million copies. The undisputed king of albums."
+      "memory_hook": "Thriller: 70 million copies. The undisputed king of albums.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0476",
       "category": "History",
       "question": "Which French emperor was exiled to the island of St. Helena?",
       "options": [
@@ -102,9 +152,16 @@
       ],
       "answer": "Napoléon Bonaparte",
       "explanation": "Napoleon Bonaparte was exiled to the remote island of St. Helena in the South Atlantic Ocean after his final defeat at Waterloo in 1815. He lived there under British supervision until his death in 1821. It is one of the most remote inhabited islands in the world, specifically chosen to prevent his escape.",
-      "memory_hook": "Napoleon's last exile: St. Helena. So remote no one could rescue him."
+      "memory_hook": "Napoleon's last exile: St. Helena. So remote no one could rescue him.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0477",
       "category": "Geography",
       "question": "Which European country has the most UNESCO World Heritage Sites?",
       "options": [
@@ -115,9 +172,16 @@
       ],
       "answer": "Italy",
       "explanation": "Italy leads the world with 58 UNESCO World Heritage Sites, including the Colosseum, Pompeii, Venice, the Amalfi Coast, and the historic centers of Rome, Florence, and Siena. China is close behind with 57. Italy's extraordinary concentration of ancient history, Renaissance art, and natural beauty contributes to its record.",
-      "memory_hook": "Italy = most UNESCO World Heritage Sites in the world. 58 sites. Rome, Venice, Florence, Pompeii — the entire country is essentially a museum you can walk through."
+      "memory_hook": "Italy = most UNESCO World Heritage Sites in the world. 58 sites. Rome, Venice, Florence, Pompeii — the entire country is essentially a museum you can walk through.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0478",
       "category": "Science & Nature",
       "question": "In 2017, astronomers detected both gravitational waves and light from the same event for the first time — a neutron star merger. Why was this discovery transformative?",
       "options": [
@@ -128,9 +192,16 @@
       ],
       "answer": "It confirmed that neutron star mergers produce heavy elements like gold and platinum through the r-process — solving the decades-long mystery of where these elements are forged — and validated multi-messenger astronomy",
       "explanation": "The event GW170817 was detected by LIGO/Virgo (gravitational waves) and simultaneously by telescopes worldwide in gamma rays, X-rays, optical, and radio — the first complete multi-messenger observation. The afterglow (kilonova) confirmed the r-process rapid neutron capture that forges elements heavier than iron. In the days after the merger, astronomers estimated it produced gold equal to several Earth masses. This answered where gold and platinum come from — not supernovae as previously assumed, but neutron star mergers. Gravitational waves also arrived 1.7 seconds before gamma rays, confirming they travel at essentially the speed of light.",
-      "memory_hook": "GW170817 (2017) was the first cosmic event seen in both gravitational waves and light simultaneously. Its kilonova produced several Earth-masses of gold — confirming neutron star mergers, not supernovae, forge the gold in your jewelry. Einstein was right: gravitational waves travel at the speed of light, arriving 1.7 seconds before gamma rays."
+      "memory_hook": "GW170817 (2017) was the first cosmic event seen in both gravitational waves and light simultaneously. Its kilonova produced several Earth-masses of gold — confirming neutron star mergers, not supernovae, forge the gold in your jewelry. Einstein was right: gravitational waves travel at the speed of light, arriving 1.7 seconds before gamma rays.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0479",
       "category": "Geography",
       "question": "Bhutan, the Himalayan kingdom nestled between India and China, measures national wellbeing using a unique metric it pioneered. What is it?",
       "options": [
@@ -141,9 +212,16 @@
       ],
       "answer": "Gross National Happiness",
       "explanation": "Bhutan is the only country in the world that measures policy success through Gross National Happiness (GNH) rather than Gross Domestic Product (GDP). The concept was introduced by the fourth King of Bhutan in the 1970s and encompasses psychological wellbeing, cultural resilience, environmental conservation, and good governance. Bhutan is also notable for being carbon-negative (it absorbs more CO2 than it produces) and for being one of the last countries to get television (1999).",
-      "memory_hook": "Bhutan: Gross National Happiness instead of GDP. The only country measuring wellbeing as official policy. Carbon-negative — it absorbs more CO2 than it emits. TV only arrived in 1999. A tiny Himalayan kingdom between India and China that's doing things very differently."
+      "memory_hook": "Bhutan: Gross National Happiness instead of GDP. The only country measuring wellbeing as official policy. Carbon-negative — it absorbs more CO2 than it emits. TV only arrived in 1999. A tiny Himalayan kingdom between India and China that's doing things very differently.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0480",
       "category": "Science & Nature",
       "question": "Gregor Mendel's pea plant experiments revealed that some traits are 'dominant' and some 'recessive.' What does it mean for a trait to be recessive?",
       "options": [
@@ -154,7 +232,13 @@
       ],
       "answer": "It only appears when an organism inherits two copies of the recessive allele",
       "explanation": "A recessive trait is only expressed when an organism is homozygous for the recessive allele (inherits one copy from each parent). A single dominant allele 'overrides' the recessive one. Mendel's key insight (published 1866, ignored for 35 years) was that traits don't blend — they are inherited as discrete particles (genes) with dominant/recessive relationships. Common recessive traits in humans include blue eyes, blood type O, cystic fibrosis, and albinism.",
-      "memory_hook": "Recessive = only shows when you have TWO copies. One dominant allele silences it. Mendel figured this out with peas — published in 1866, ignored for 35 years, then rediscovered. Blue eyes, blood type O, cystic fibrosis are all recessive. You can carry a trait invisibly for generations."
+      "memory_hook": "Recessive = only shows when you have TWO copies. One dominant allele silences it. Mendel figured this out with peas — published in 1866, ignored for 35 years, then rediscovered. Blue eyes, blood type O, cystic fibrosis are all recessive. You can carry a trait invisibly for generations.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     }
   ]
 }

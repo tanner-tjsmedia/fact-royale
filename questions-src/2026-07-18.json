@@ -1,6 +1,7 @@
 {
   "questions": [
     {
+      "id": "frq-0397",
       "category": "History",
       "question": "The construction of which U.S. landmark began on August 28, 1963, the same day MLK gave his 'I Have a Dream' speech?",
       "options": [
@@ -11,9 +12,16 @@
       ],
       "answer": "The space between the Lincoln Memorial and Washington Monument",
       "explanation": "On August 28, 1963, Martin Luther King Jr. delivered his 'I Have a Dream' speech at the Lincoln Memorial during the March on Washington. The speech is considered one of the greatest in American history and was a pivotal moment in the civil rights movement, drawing over 250,000 people.",
-      "memory_hook": "'I Have a Dream' — Lincoln Memorial steps, August 28, 1963. 250,000 witnesses."
+      "memory_hook": "'I Have a Dream' — Lincoln Memorial steps, August 28, 1963. 250,000 witnesses.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0398",
       "category": "History",
       "question": "Which country was formerly known as 'Persia'?",
       "options": [
@@ -24,9 +32,16 @@
       ],
       "answer": "Iran",
       "explanation": "Persia was the historical name for the region centered on modern-day Iran. The country officially changed its name to Iran in 1935, during the reign of Reza Shah Pahlavi. 'Iran' comes from the ancient Aryan people who settled the region. 'Persian' is still used to refer to the language and culture.",
-      "memory_hook": "Persia = Iran. The name changed in 1935, the culture never did."
+      "memory_hook": "Persia = Iran. The name changed in 1935, the culture never did.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0399",
       "category": "Sports",
       "question": "What is the term for a score of three under par on a single hole in golf?",
       "options": [
@@ -37,9 +52,16 @@
       ],
       "answer": "Albatross",
       "explanation": "In golf, an albatross (also called a double eagle) is three strokes under par on a single hole. It is extremely rare — a condor (four under par, usually a hole-in-one on a par 5) is even rarer. The terms follow a bird theme: birdie (1 under), eagle (2 under), albatross (3 under).",
-      "memory_hook": "Golf birds: birdie, eagle, albatross. Each rarer than the last, like the actual birds."
+      "memory_hook": "Golf birds: birdie, eagle, albatross. Each rarer than the last, like the actual birds.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0400",
       "category": "Sports",
       "question": "How many players are on a water polo team in the pool?",
       "options": [
@@ -50,9 +72,16 @@
       ],
       "answer": "7",
       "explanation": "A water polo team has seven players in the pool during play: one goalkeeper and six field players. Teams have a maximum of 13 players on their roster. Games consist of four periods of eight minutes each, and the pool is at least 1.8 meters deep throughout.",
-      "memory_hook": "7 in the water: 1 goalkeeper + 6 field players. Think of a football team in a pool."
+      "memory_hook": "7 in the water: 1 goalkeeper + 6 field players. Think of a football team in a pool.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0401",
       "category": "Pop Culture",
       "question": "Which film features the famous shower scene score by Bernard Herrmann?",
       "options": [
@@ -63,9 +92,16 @@
       ],
       "answer": "Psycho",
       "explanation": "The shower scene in Alfred Hitchcock's Psycho (1960) features Bernard Herrmann's iconic shrieking strings score — played entirely by string instruments. The scene became one of the most studied in film history. Hitchcock reportedly considered having the scene with no music, but Herrmann convinced him otherwise.",
-      "memory_hook": "Psycho shower scene: screeching strings. You can hear it without seeing the film."
+      "memory_hook": "Psycho shower scene: screeching strings. You can hear it without seeing the film.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0402",
       "category": "Pop Culture",
       "question": "Who sang 'I Will Always Love You' in the film 'The Bodyguard'?",
       "options": [
@@ -76,9 +112,16 @@
       ],
       "answer": "Whitney Houston",
       "explanation": "Whitney Houston's version of 'I Will Always Love You' was the theme for The Bodyguard (1992). Originally written and recorded by Dolly Parton in 1973, Houston's version became the best-selling single by a female artist in history at the time. Houston held the note at the end for 14 seconds in the recording.",
-      "memory_hook": "Whitney held that note forever. Dolly wrote it; Whitney made it immortal."
+      "memory_hook": "Whitney held that note forever. Dolly wrote it; Whitney made it immortal.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0403",
       "category": "Pop Culture",
       "question": "Which country does the band ABBA come from?",
       "options": [
@@ -89,9 +132,16 @@
       ],
       "answer": "Sweden",
       "explanation": "ABBA is from Stockholm, Sweden. The name is an acronym of the four members' first names: Agnetha Fältskog, Björn Ulvaeus, Benny Andersson, and Anni-Frid Lyngstad. They won the Eurovision Song Contest in 1974 with 'Waterloo' and became one of the best-selling music artists of all time.",
-      "memory_hook": "ABBA: Agnetha, Björn, Benny, Anni-Frid — Sweden's biggest export after IKEA."
+      "memory_hook": "ABBA: Agnetha, Björn, Benny, Anni-Frid — Sweden's biggest export after IKEA.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0404",
       "category": "History",
       "question": "Which Roman emperor converted to Christianity?",
       "options": [
@@ -102,9 +152,16 @@
       ],
       "answer": "Constantine I",
       "explanation": "Constantine I (Constantine the Great) was the first Roman emperor to convert to Christianity. After his vision before the Battle of Milvian Bridge in 312 AD, he issued the Edict of Milan (313 AD) which granted religious tolerance. Christianity became the state religion under his successor Theodosius I in 380 AD.",
-      "memory_hook": "Constantine converted Rome — from persecuting Christians to becoming one."
+      "memory_hook": "Constantine converted Rome — from persecuting Christians to becoming one.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0405",
       "category": "Geography",
       "question": "Iceland sits on the boundary between which two tectonic plates?",
       "options": [
@@ -115,9 +172,16 @@
       ],
       "answer": "North American and Eurasian",
       "explanation": "Iceland straddles the Mid-Atlantic Ridge, where the North American and Eurasian tectonic plates are slowly pulling apart. This makes Iceland one of the most volcanically and geologically active places on Earth, with geysers, hot springs, and frequent eruptions. You can literally stand with one foot on each tectonic plate in some locations.",
-      "memory_hook": "Iceland = two tectonic plates splitting apart. You can stand where the continents are tearing open. The island exists because volcanic activity keeps filling the gap as the plates separate."
+      "memory_hook": "Iceland = two tectonic plates splitting apart. You can stand where the continents are tearing open. The island exists because volcanic activity keeps filling the gap as the plates separate.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0406",
       "category": "Science & Nature",
       "question": "Evidence strongly suggests that Mars once had liquid water on its surface — rivers, lakes, and possibly an ocean. What happened to it, and where is Mars's water now?",
       "options": [
@@ -128,9 +192,16 @@
       ],
       "answer": "Mars lost its global magnetic field about 4 billion years ago, exposing its atmosphere to the solar wind which stripped away atmospheric molecules — eventually making the planet too cold and low-pressure for liquid water. Most water is now frozen in the polar ice caps and locked in permafrost",
       "explanation": "Early Mars had a magnetic field generated by its molten iron core. When the core cooled and solidified (unlike Earth's still-active dynamo), the magnetic field collapsed. Without magnetic protection, the solar wind — charged particles streaming from the Sun — stripped away Mars's atmosphere over billions of years. As atmospheric pressure dropped, liquid water became impossible (below ~610 Pa, water can only exist as ice or vapor). Mars still has significant water ice: the polar caps contain enough to cover Mars in 35 meters of water if melted. NASA's MAVEN mission has directly measured the current atmospheric loss rate.",
-      "memory_hook": "Mars died when its iron core cooled and its magnetic field collapsed. Without magnetic protection, solar wind stripped the atmosphere over billions of years — dropping pressure until liquid water became impossible. The water is still there, frozen: Mars's polar caps alone could cover the planet in 35 meters of water if melted."
+      "memory_hook": "Mars died when its iron core cooled and its magnetic field collapsed. Without magnetic protection, solar wind stripped the atmosphere over billions of years — dropping pressure until liquid water became impossible. The water is still there, frozen: Mars's polar caps alone could cover the planet in 35 meters of water if melted.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0407",
       "category": "Geography",
       "question": "The Orinoco River, the third-longest river in South America, flows primarily through which country before emptying into the Atlantic Ocean?",
       "options": [
@@ -141,9 +212,16 @@
       ],
       "answer": "Venezuela",
       "explanation": "The Orinoco River flows about 2,140 km through Venezuela, with its upper portion forming part of the Colombia-Venezuela border. It drains into the Atlantic Ocean via a broad delta in northeastern Venezuela. The Orinoco basin contains Angel Falls (the world's highest waterfall) as a tributary system and is home to the Amazon river dolphin, giant otters, caimans, and electric eels. Venezuela's oil-rich Orinoco Belt contains some of the world's largest proven oil reserves.",
-      "memory_hook": "Orinoco = Venezuela's great river, 2,140 km, drains to Atlantic. Angel Falls is in its tributary system. Amazon river dolphins, giant otters, caimans in its basin. Venezuela's Orinoco Belt contains some of the world's largest oil reserves beneath the river's floodplains."
+      "memory_hook": "Orinoco = Venezuela's great river, 2,140 km, drains to Atlantic. Angel Falls is in its tributary system. Amazon river dolphins, giant otters, caimans in its basin. Venezuela's Orinoco Belt contains some of the world's largest oil reserves beneath the river's floodplains.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0408",
       "category": "Science & Nature",
       "question": "Astronomers observe that distant galaxies are moving away from us, with farther galaxies receding faster. What causes the light from these galaxies to shift toward the red end of the spectrum?",
       "options": [
@@ -154,7 +232,13 @@
       ],
       "answer": "Redshift from the Doppler effect and space expansion",
       "explanation": "Redshift occurs when the wavelength of light is stretched — shifted toward the red (longer wavelength) end of the spectrum — due to the expansion of space itself (cosmological redshift) or because the source is moving away (Doppler redshift). Edwin Hubble's 1929 observation that nearly all galaxies show redshift was key evidence for the Big Bang and the expansion of the universe. The greater the redshift, the faster the recession and (by Hubble's Law) the greater the distance.",
-      "memory_hook": "Redshift: galaxies moving away stretch their light toward longer (red) wavelengths. Hubble observed this in 1929 — evidence the universe is expanding. The farther a galaxy, the faster it recedes (Hubble's Law). The Big Bang wasn't an explosion IN space — it was space itself expanding."
+      "memory_hook": "Redshift: galaxies moving away stretch their light toward longer (red) wavelengths. Hubble observed this in 1929 — evidence the universe is expanding. The farther a galaxy, the faster it recedes (Hubble's Law). The Big Bang wasn't an explosion IN space — it was space itself expanding.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     }
   ]
 }

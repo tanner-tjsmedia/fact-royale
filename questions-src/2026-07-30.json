@@ -2,6 +2,7 @@
   "date": "2026-07-30",
   "questions": [
     {
+      "id": "frq-0541",
       "category": "History",
       "question": "Julius Caesar was assassinated on the Ides of March — which date is that?",
       "options": [
@@ -12,9 +13,16 @@
       ],
       "answer": "March 15",
       "explanation": "Julius Caesar was stabbed to death on March 15, 44 BC in the Theatre of Pompey by a group of senators including Brutus and Cassius. 'Ides' referred to the 15th in March, May, July, and October; the 13th in other months. Caesar had reportedly been warned to beware the Ides of March by a soothsayer.",
-      "memory_hook": "Ides of March = March 15. Caesar was warned, ignored it. 23 stab wounds from 60 conspirators. Shakespeare made the date immortal."
+      "memory_hook": "Ides of March = March 15. Caesar was warned, ignored it. 23 stab wounds from 60 conspirators. Shakespeare made the date immortal.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0542",
       "category": "History",
       "question": "The ancient Aztec capital of Tenochtitlan was built on an island in the middle of Lake Texcoco. It was destroyed by Spanish conquistadors and is now the site of which modern city?",
       "options": [
@@ -25,9 +33,16 @@
       ],
       "answer": "Mexico City",
       "explanation": "Tenochtitlan, founded around 1325 CE, was the capital of the Aztec Empire and one of the largest cities in the world at the time of Spanish arrival. Hernán Cortés and his forces conquered and destroyed it in 1521. Mexico City was built on its ruins, and remnants of Aztec architecture can still be found beneath the modern city.",
-      "memory_hook": "Tenochtitlan = Aztec capital on a lake, now Mexico City."
+      "memory_hook": "Tenochtitlan = Aztec capital on a lake, now Mexico City.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0543",
       "category": "History",
       "question": "The Korean War armistice was signed in 1953, effectively creating which boundary between North and South Korea?",
       "options": [
@@ -38,9 +53,16 @@
       ],
       "answer": "The 38th parallel",
       "explanation": "The Korean War armistice, signed on July 27, 1953, established the Korean Demilitarized Zone (DMZ) near the 38th parallel as the boundary between North and South Korea. The 38th parallel had been used as a temporary division after WWII when the Soviet Union occupied the north and the United States occupied the south. The war ended in an armistice — not a peace treaty — so technically the war has never officially ended.",
-      "memory_hook": "Korea divided at the 38th parallel. No peace treaty, just a ceasefire. Technically still at war since 1953. The DMZ is one of the most fortified borders on Earth."
+      "memory_hook": "Korea divided at the 38th parallel. No peace treaty, just a ceasefire. Technically still at war since 1953. The DMZ is one of the most fortified borders on Earth.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0544",
       "category": "Sports",
       "question": "Wayne Gretzky holds 61 NHL records — including some so dominant that his career statistics defy rational comparison. Which fact best illustrates his statistical singularity?",
       "options": [
@@ -51,9 +73,16 @@
       ],
       "answer": "Gretzky's career assists total (1,963) is more than the career points total of any other player in NHL history — he would be the all-time points leader on assists alone, without counting his 894 goals",
       "explanation": "Gretzky's career stats are so extreme that the 'assists alone beats everyone's total points' fact is real: his 1,963 assists exceeds the next highest career points total (Jaromir Jagr's 1,921). His total career points (2,857) are 894 more than the second-place Gretzky-era competitor. He scored 92 goals in 1981-82 and won nine Hart Trophies (MVP). He revolutionized offensive hockey from behind the opponent's net — 'Gretzky's office' — creating plays nobody had conceived before. He was so dominant he was called 'The Great One' from his early teens.",
-      "memory_hook": "Gretzky's career assists (1,963) alone would make him the all-time NHL points leader — before you count his 894 goals. His full total (2,857 points) exceeds second place by nearly 900 points. He scored 92 goals in a single season. He's so far beyond everyone else that these facts sound like typos."
+      "memory_hook": "Gretzky's career assists (1,963) alone would make him the all-time NHL points leader — before you count his 894 goals. His full total (2,857 points) exceeds second place by nearly 900 points. He scored 92 goals in a single season. He's so far beyond everyone else that these facts sound like typos.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0545",
       "category": "Sports",
       "question": "The 1994 FIFA World Cup, hosted by the United States, was notable for introducing soccer to a mass American audience. What unexpected record did it set, and what controversy ended it?",
       "options": [
@@ -64,9 +93,16 @@
       ],
       "answer": "The 1994 World Cup was the first to feature penalty shootouts in the final — Brazil beat Italy on penalties — and the final in the Rose Bowl set an attendance record of 94,194 that remains the highest for any World Cup final",
       "explanation": "The Rose Bowl final (Brazil 0-0 Italy after 120 minutes, Brazil won 3-2 on penalties) drew 94,194 spectators — the highest attendance for any World Cup final. Roberto Baggio's missed penalty (he shot over the bar with Italy needing it to stay alive) became one of soccer's iconic images of heartbreak. Diego Maradona was indeed sent home for a failed drug test (ephedrine) but after scoring, not before. The US tournament averaged 68,991 fans per match — more than any World Cup before or since. The tournament significantly boosted MLS's eventual founding in 1996.",
-      "memory_hook": "The 1994 World Cup final at the Rose Bowl still holds the attendance record at 94,194. Baggio's missed penalty — shooting over the bar to hand Brazil the title — became soccer's defining image of heartbreak. The US tournament averaged 69,000 fans per match, more than any World Cup ever, and directly led to MLS being founded in 1996."
+      "memory_hook": "The 1994 World Cup final at the Rose Bowl still holds the attendance record at 94,194. Baggio's missed penalty — shooting over the bar to hand Brazil the title — became soccer's defining image of heartbreak. The US tournament averaged 69,000 fans per match, more than any World Cup ever, and directly led to MLS being founded in 1996.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0546",
       "category": "Pop Culture",
       "question": "Which band released the 1979 album 'The Wall,' featuring the hit 'Another Brick in the Wall'?",
       "options": [
@@ -77,9 +113,16 @@
       ],
       "answer": "Pink Floyd",
       "explanation": "The Wall (1979) by Pink Floyd was a concept album written largely by Roger Waters, exploring themes of isolation, abandonment, and mental breakdown. The album spawned a massive live concert production and a 1982 film. 'Another Brick in the Wall (Part II)' — with its iconic chorus sung by schoolchildren — was banned in South Africa during the anti-apartheid movement.",
-      "memory_hook": "The Wall = Pink Floyd, 1979. Roger Waters wrote most of it about his own isolation and his father killed in WWII. The schoolchildren's chorus was banned in South Africa. A protest song disguised as a rock anthem."
+      "memory_hook": "The Wall = Pink Floyd, 1979. Roger Waters wrote most of it about his own isolation and his father killed in WWII. The schoolchildren's chorus was banned in South Africa. A protest song disguised as a rock anthem.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0547",
       "category": "Pop Culture",
       "question": "Thelonious Monk is considered one of jazz's most distinctive composers — his music is immediately recognizable and his playing technique was unconventional even by jazz standards. What made him so unusual?",
       "options": [
@@ -90,9 +133,16 @@
       ],
       "answer": "Monk's angular melodies, use of dissonance, sudden silences, and distinctive flat-fingered piano technique were so idiosyncratic that critics dismissed him for years before recognizing him as one of jazz's essential voices",
       "explanation": "Monk played piano with flat fingers rather than the standard curved technique, producing a more percussive attack. His compositions like 'Round Midnight,' 'Straight, No Chaser,' and 'Blue Monk' use unexpected chord substitutions and intervals that felt wrong to ears trained in bebop convention. He was known for walking away from the piano mid-performance to dance near the bandstand. He lost his New York cabaret card (required to perform in clubs) after a 1951 drug arrest and couldn't legally work in NYC venues for six years — during which time Miles Davis and others played his compositions. He was on Time magazine's cover in 1964.",
-      "memory_hook": "Monk played piano with flat fingers — not curved — producing an unusually percussive sound. He'd walk away from the piano mid-performance to dance near the bandstand. After a 1951 drug arrest, he lost his NYC cabaret card and couldn't work in clubs for six years, yet his compositions were everywhere. Time put him on the cover in 1964."
+      "memory_hook": "Monk played piano with flat fingers — not curved — producing an unusually percussive sound. He'd walk away from the piano mid-performance to dance near the bandstand. After a 1951 drug arrest, he lost his NYC cabaret card and couldn't work in clubs for six years, yet his compositions were everywhere. Time put him on the cover in 1964.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0548",
       "category": "Pop Culture",
       "question": "Which artist holds the record for the most Grammy Awards won in history?",
       "options": [
@@ -103,9 +153,16 @@
       ],
       "answer": "Beyonce",
       "explanation": "Beyoncé holds the record for the most Grammy wins in history. She set the single-night record at the 2024 Grammy Awards and continued adding to her total at the 2025 ceremony with wins for her Cowboy Carter album. She is the most decorated artist in Grammy history.",
-      "memory_hook": "Beyoncé = 32 Grammy wins, most ever. She broke the all-time record in 2023, surpassing a classical conductor who held it for decades. She spans pop, R&B, country, and everything between."
+      "memory_hook": "Beyoncé = 32 Grammy wins, most ever. She broke the all-time record in 2023, surpassing a classical conductor who held it for decades. She spans pop, R&B, country, and everything between.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0549",
       "category": "Geography",
       "question": "Which sea lies between Europe and Africa and is almost entirely enclosed by land?",
       "options": [
@@ -116,9 +173,16 @@
       ],
       "answer": "Mediterranean Sea",
       "explanation": "The Mediterranean Sea is bordered by Southern Europe to the north, North Africa to the south, and the Middle East to the east. Its only natural connection to the Atlantic Ocean is through the Strait of Gibraltar. It has been a crucial crossroads of civilization for thousands of years — the Romans called it 'Mare Nostrum' (Our Sea).",
-      "memory_hook": "Mediterranean = almost landlocked. Surrounded by Europe, Africa, and the Middle East. Only one narrow opening to the Atlantic. The cradle of Western civilization — Greece, Rome, Egypt, Phoenicia all rose around its shores."
+      "memory_hook": "Mediterranean = almost landlocked. Surrounded by Europe, Africa, and the Middle East. Only one narrow opening to the Atlantic. The cradle of Western civilization — Greece, Rome, Egypt, Phoenicia all rose around its shores.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0550",
       "category": "Science & Nature",
       "question": "What is the name of the process by which plants lose water through their leaves?",
       "options": [
@@ -129,9 +193,16 @@
       ],
       "answer": "Transpiration",
       "explanation": "Transpiration is the process by which water moves through a plant from roots to leaves and evaporates into the air through tiny pores called stomata. A single large tree can transpire hundreds of liters of water per day. The Amazon rainforest transpires so much water that it generates its own rainfall — the forest creates the rain that sustains it.",
-      "memory_hook": "Transpiration = plants sweating. Water moves up from roots, exits through leaf pores into the air. The Amazon forest transpires so much water it rains on itself — the trees make their own weather."
+      "memory_hook": "Transpiration = plants sweating. Water moves up from roots, exits through leaf pores into the air. The Amazon forest transpires so much water it rains on itself — the trees make their own weather.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0551",
       "category": "Geography",
       "question": "Lake Huron, the second-largest of the five Great Lakes, is shared between the United States and which other country?",
       "options": [
@@ -142,9 +213,16 @@
       ],
       "answer": "Canada",
       "explanation": "Lake Huron borders Michigan (US) to the south and Ontario (Canada) to the north and east. It is the second-largest of the Great Lakes by surface area at about 59,570 km² and contains Manitoulin Island — the world's largest freshwater island. The five Great Lakes (Superior, Huron, Michigan, Erie, Ontario — SHME O) contain about 21% of the world's surface fresh water. Lake Michigan is the only Great Lake entirely within the US.",
-      "memory_hook": "Lake Huron: 2nd largest Great Lake, shared by Michigan and Ontario (Canada). Contains Manitoulin Island — world's largest freshwater island. The 5 Great Lakes (SHME O) hold 21% of Earth's surface freshwater. Only Lake Michigan is entirely within the US."
+      "memory_hook": "Lake Huron: 2nd largest Great Lake, shared by Michigan and Ontario (Canada). Contains Manitoulin Island — world's largest freshwater island. The 5 Great Lakes (SHME O) hold 21% of Earth's surface freshwater. Only Lake Michigan is entirely within the US.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0552",
       "category": "Science & Nature",
       "question": "What describes the feeding relationships in an ecosystem where organisms are grouped by how many steps they are from the original energy source?",
       "options": [
@@ -155,7 +233,13 @@
       ],
       "answer": "Trophic levels",
       "explanation": "Trophic levels describe the position of an organism in a food chain based on its energy source. Level 1 (producers): plants that convert sunlight. Level 2 (primary consumers): herbivores eating plants. Level 3 (secondary consumers): carnivores eating herbivores. Level 4 (tertiary consumers): top predators. Energy is lost at each level — typically only about 10% transfers up. This 10% rule explains why food chains rarely have more than 4-5 levels and why it takes far more plant calories to produce a kilogram of beef than a kilogram of grain.",
-      "memory_hook": "Trophic levels: Producer → Primary consumer → Secondary → Tertiary. Only ~10% of energy transfers up each level. That's why beef is so energy-intensive — it takes 10 kg of plant calories to make 1 kg of animal. The 10% rule explains why top predators are rare and food chains are short."
+      "memory_hook": "Trophic levels: Producer → Primary consumer → Secondary → Tertiary. Only ~10% of energy transfers up each level. That's why beef is so energy-intensive — it takes 10 kg of plant calories to make 1 kg of animal. The 10% rule explains why top predators are rare and food chains are short.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     }
   ]
 }

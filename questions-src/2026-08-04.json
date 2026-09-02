@@ -2,6 +2,7 @@
   "date": "2026-08-04",
   "questions": [
     {
+      "id": "frq-0601",
       "category": "History",
       "question": "Which ancient wonder was a giant statue straddling the harbor of the Greek island of Rhodes?",
       "options": [
@@ -12,9 +13,16 @@
       ],
       "answer": "Colossus of Rhodes",
       "explanation": "The Colossus of Rhodes was a massive statue of the Greek sun god Helios, standing approximately 33 meters (108 feet) tall at the harbor entrance of Rhodes. Built around 280 BC to celebrate Rhodes' victory over Cyprus, it stood for only about 54 years before being toppled by an earthquake in 226 BC. Despite myths, it likely did not straddle the harbor entrance — ships would have sailed beneath it.",
-      "memory_hook": "Colossus of Rhodes = giant statue at a Greek harbor. Stood for 54 years before an earthquake knocked it over. Inspired the concept for the Statue of Liberty — both are colossal harbor statues symbolizing freedom."
+      "memory_hook": "Colossus of Rhodes = giant statue at a Greek harbor. Stood for 54 years before an earthquake knocked it over. Inspired the concept for the Statue of Liberty — both are colossal harbor statues symbolizing freedom.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0602",
       "category": "History",
       "question": "The Reign of Terror during the French Revolution was associated with which political leader?",
       "options": [
@@ -25,9 +33,16 @@
       ],
       "answer": "Maximilien Robespierre",
       "explanation": "Maximilien Robespierre led the Committee of Public Safety during the Reign of Terror (1793-1794), a period of mass executions of perceived enemies of the French Revolution. An estimated 17,000 were officially executed (including by guillotine) and 23,000 died in prison or without trial. The Terror ended when Robespierre himself was arrested and guillotined in the Thermidorian Reaction.",
-      "memory_hook": "Robespierre = Reign of Terror. He executed thousands in the name of the Revolution — then was guillotined himself. The revolution consumed its own leaders. He died by the same method he'd used on thousands of others."
+      "memory_hook": "Robespierre = Reign of Terror. He executed thousands in the name of the Revolution — then was guillotined himself. The revolution consumed its own leaders. He died by the same method he'd used on thousands of others.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0603",
       "category": "History",
       "question": "Who wrote the Communist Manifesto, published in 1848?",
       "options": [
@@ -38,9 +53,16 @@
       ],
       "answer": "Friedrich Engels and Karl Marx",
       "explanation": "The Communist Manifesto was written by Karl Marx and Friedrich Engels and published in February 1848, coinciding with the wave of revolutions sweeping Europe. It outlined the theory of historical materialism, class struggle, and called for the workers of the world to unite. It remains one of the most influential political documents ever written.",
-      "memory_hook": "Communist Manifesto = Marx AND Engels, 1848. Both names, not just Marx. Engels also financially supported Marx for much of his life. The last line: 'Workers of the world, unite!' — perhaps the most famous political closing line ever written."
+      "memory_hook": "Communist Manifesto = Marx AND Engels, 1848. Both names, not just Marx. Engels also financially supported Marx for much of his life. The last line: 'Workers of the world, unite!' — perhaps the most famous political closing line ever written.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0604",
       "category": "Sports",
       "question": "What is the maximum number of sets in a men's Grand Slam tennis match?",
       "options": [
@@ -51,9 +73,16 @@
       ],
       "answer": "5",
       "explanation": "Men's Grand Slam tennis matches (Australian Open, French Open, Wimbledon, US Open) are played best of 5 sets. Women's Grand Slam matches are best of 3 sets. A set is typically won by the first player to reach 6 games with at least a 2-game lead. Tiebreaks are played when sets reach 6-6, with some variations depending on the tournament.",
-      "memory_hook": "Men's Grand Slam = best of 5 sets. Women's = best of 3. A 5-set match can last 5+ hours. The longest Grand Slam match ever was John Isner vs Nicolas Mahut at Wimbledon in 2010 — 11 hours, 5 minutes over 3 days."
+      "memory_hook": "Men's Grand Slam = best of 5 sets. Women's = best of 3. A 5-set match can last 5+ hours. The longest Grand Slam match ever was John Isner vs Nicolas Mahut at Wimbledon in 2010 — 11 hours, 5 minutes over 3 days.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0605",
       "category": "Sports",
       "question": "What term describes a perfect game in bowling — 12 consecutive strikes?",
       "options": [
@@ -64,9 +93,16 @@
       ],
       "answer": "300",
       "explanation": "A perfect game in bowling consists of 12 consecutive strikes (rolling the ball into the pocket and knocking all 10 pins down on the first ball each frame), resulting in a score of 300 — the maximum possible. Bowling a 300 is extremely rare — the odds for an average recreational bowler are roughly 1 in 11,500. Even professional bowlers consider it a remarkable achievement.",
-      "memory_hook": "Perfect bowling game = 300. 12 consecutive strikes. You get 12 balls in a perfect game (not 10) because you get bonus rolls in the 10th frame. A '300 game' is bowling's equivalent of a hole-in-one — rare enough to be memorable."
+      "memory_hook": "Perfect bowling game = 300. 12 consecutive strikes. You get 12 balls in a perfect game (not 10) because you get bonus rolls in the 10th frame. A '300 game' is bowling's equivalent of a hole-in-one — rare enough to be memorable.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0606",
       "category": "Pop Culture",
       "question": "Which British band is known for 'Hey Jude,' 'Let It Be,' and 'Come Together'?",
       "options": [
@@ -77,9 +113,16 @@
       ],
       "answer": "The Beatles",
       "explanation": "The Beatles — John Lennon, Paul McCartney, George Harrison, and Ringo Starr — are widely considered the most influential band in music history. They dominated the 1960s, introduced the album as an art form, pioneered music video, and transformed pop songwriting. They broke up in 1970. Their music has sold an estimated 600 million records — more than any other act.",
-      "memory_hook": "Beatles = Lennon, McCartney, Harrison, Starr. 600 million records sold, most ever. They changed everything: albums as art, music videos, stadium concerts, global fandom. In 1966 they got death threats in the Philippines for inadvertently snubbing Imelda Marcos."
+      "memory_hook": "Beatles = Lennon, McCartney, Harrison, Starr. 600 million records sold, most ever. They changed everything: albums as art, music videos, stadium concerts, global fandom. In 1966 they got death threats in the Philippines for inadvertently snubbing Imelda Marcos.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0607",
       "category": "Pop Culture",
       "question": "Which 1980s coming-of-age film featured the song 'Don't You (Forget About Me)' by Simple Minds?",
       "options": [
@@ -90,9 +133,16 @@
       ],
       "answer": "The Breakfast Club",
       "explanation": "The Breakfast Club (1985), directed by John Hughes, starred five high school students in Saturday detention representing different social cliques. The ending, where they raise a fist in solidarity to 'Don't You (Forget About Me),' is one of cinema's most iconic closing shots. The film perfectly captured 1980s teenage anxiety and is still studied in film schools as a model of character-driven storytelling.",
-      "memory_hook": "Breakfast Club = 'Don't You Forget About Me.' Five archetypes: the brain, athlete, basket case, princess, criminal. The fist raise at the end. Simple Minds almost passed on the song — John Hughes called them directly."
+      "memory_hook": "Breakfast Club = 'Don't You Forget About Me.' Five archetypes: the brain, athlete, basket case, princess, criminal. The fist raise at the end. Simple Minds almost passed on the song — John Hughes called them directly.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0608",
       "category": "Pop Culture",
       "question": "Banksy is the world's most famous anonymous street artist, whose identity has never been officially confirmed. What aspect of Banksy's practice makes their work historically significant beyond its visual impact?",
       "options": [
@@ -103,9 +153,16 @@
       ],
       "answer": "Banksy's 2018 auction stunt — where 'Girl With Balloon' shredded itself moments after selling for $1.4 million — was later revealed to have increased the work's value to $25.4 million, making it one of the most expensive British artworks ever sold",
       "explanation": "At a Sotheby's London auction in October 2018, 'Girl With Balloon' sold for £1.04 million. Seconds after the hammer fell, a hidden shredder built into the frame activated and partially destroyed the artwork — live on camera in the auction room. Banksy revealed they had built the mechanism years before in anticipation. The partially shredded work was renamed 'Love Is in the Bin' and in 2021 sold for £18.6 million (~$25.4M), making it far more valuable than the intact version. Banksy commented: 'The urge to destroy is also a creative urge.' The buyer in 2018 kept the work (and profited enormously).",
-      "memory_hook": "Banksy built a shredder into a picture frame years before the auction, hiding it in plain sight. The moment it sold for £1M at Sotheby's, it shredded itself on camera. Banksy called it expected. The buyer kept the half-shredded piece, renamed 'Love Is in the Bin,' and sold it in 2021 for £18.6 million — 18 times what they paid."
+      "memory_hook": "Banksy built a shredder into a picture frame years before the auction, hiding it in plain sight. The moment it sold for £1M at Sotheby's, it shredded itself on camera. Banksy called it expected. The buyer kept the half-shredded piece, renamed 'Love Is in the Bin,' and sold it in 2021 for £18.6 million — 18 times what they paid.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0609",
       "category": "Geography",
       "question": "Which South American country is home to the Galapagos Islands, famous for inspiring Darwin's theory of evolution?",
       "options": [
@@ -116,9 +173,16 @@
       ],
       "answer": "Ecuador",
       "explanation": "The Galapagos Islands are located about 1,000 km off the coast of Ecuador in the Pacific Ocean and are an Ecuadorian territory. Charles Darwin visited in 1835 on the HMS Beagle and observed distinct species of finches on different islands — each adapted to local food sources. This observation was key to developing his theory of natural selection, published in On the Origin of Species in 1859.",
-      "memory_hook": "Galapagos = Ecuador. Darwin's finches. Each island had finches with different beak shapes adapted to local food. One trip in 1835 eventually produced the most revolutionary idea in the history of biology."
+      "memory_hook": "Galapagos = Ecuador. Darwin's finches. Each island had finches with different beak shapes adapted to local food. One trip in 1835 eventually produced the most revolutionary idea in the history of biology.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0610",
       "category": "Science & Nature",
       "question": "What is the term for the process by which one species gradually changes into another over many generations?",
       "options": [
@@ -129,9 +193,16 @@
       ],
       "answer": "Evolution",
       "explanation": "Evolution is the process of change in all forms of life over generations. Driven primarily by natural selection — where individuals with traits better suited to their environment are more likely to survive and reproduce — it explains the diversity of life on Earth. Charles Darwin and Alfred Russel Wallace independently developed the theory of evolution by natural selection, published by Darwin in 1859.",
-      "memory_hook": "Evolution = change over generations. Darwin's big idea. The finches in the Galapagos, the fossils in the rocks, the DNA in every living thing — all tell the same story. Life changes, slowly, generation by generation."
+      "memory_hook": "Evolution = change over generations. Darwin's big idea. The finches in the Galapagos, the fossils in the rocks, the DNA in every living thing — all tell the same story. Life changes, slowly, generation by generation.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0611",
       "category": "Geography",
       "question": "Mount Olympus, the highest peak in Greece at 2,917 meters, is located in which part of the country?",
       "options": [
@@ -142,9 +213,16 @@
       ],
       "answer": "In northern Greece near Thessaloniki",
       "explanation": "Mount Olympus is located in northern Greece, on the border between Thessaly and Macedonia, about 80 km southwest of Thessaloniki. In Greek mythology, it was the home of the twelve Olympian gods (Zeus, Hera, Poseidon, Athena, etc.) who ruled from its peak. It has 52 peaks; Mytikas (2,917 m) is the highest. Mount Olympus was declared a national park in 1938 — Greece's first — and is a UNESCO Biosphere Reserve.",
-      "memory_hook": "Mount Olympus: 2,917m, northern Greece near Thessaloniki. Home of the 12 Olympian gods in Greek mythology. 52 peaks — Mytikas is the highest. Greece's first national park (1938). The gods lived 2,917 meters up on perpetually cloud-covered rock — not a bad metaphor for being unreachable."
+      "memory_hook": "Mount Olympus: 2,917m, northern Greece near Thessaloniki. Home of the 12 Olympian gods in Greek mythology. 52 peaks — Mytikas is the highest. Greece's first national park (1938). The gods lived 2,917 meters up on perpetually cloud-covered rock — not a bad metaphor for being unreachable.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0612",
       "category": "Science & Nature",
       "question": "When a ball rolls downhill, what conversion of energy is occurring?",
       "options": [
@@ -155,7 +233,13 @@
       ],
       "answer": "Potential to kinetic",
       "explanation": "Potential energy is stored energy based on position or configuration — an object at height has gravitational potential energy. Kinetic energy is the energy of motion. When an object falls or rolls downhill, potential energy converts to kinetic energy. The total mechanical energy (potential + kinetic) is conserved in the absence of friction. Energy conversions are happening constantly: chemical → kinetic (muscles), electrical → light (bulbs), kinetic → electrical (generators).",
-      "memory_hook": "Potential energy (stored in height/position) converts to kinetic energy (motion) as a ball rolls downhill. At the top: all potential. At the bottom: all kinetic. In between: a mix. Energy isn't destroyed — just transformed. The law of conservation of energy applies throughout the universe."
+      "memory_hook": "Potential energy (stored in height/position) converts to kinetic energy (motion) as a ball rolls downhill. At the top: all potential. At the bottom: all kinetic. In between: a mix. Energy isn't destroyed — just transformed. The law of conservation of energy applies throughout the universe.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     }
   ]
 }

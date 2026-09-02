@@ -2,6 +2,7 @@
   "date": "2026-06-13",
   "questions": [
     {
+      "id": "frq-0001",
       "category": "History",
       "question": "Which ancient structure served as a lighthouse and was located on an island near Alexandria, Egypt?",
       "options": [
@@ -12,9 +13,16 @@
       ],
       "answer": "The Pharos of Alexandria",
       "explanation": "Built around 280 BC under Ptolemy II, the Pharos of Alexandria stood roughly 330–430 feet tall — one of the tallest man-made structures for centuries. A fire at its top guided sailors into the harbor. It collapsed from earthquakes by the 14th century.",
-      "memory_hook": "Pharos = lighthouse in Greek. 'Pharos' is the root of the word 'pharmacy' in many languages — both are beacons guiding people to what they need."
+      "memory_hook": "Pharos = lighthouse in Greek. 'Pharos' is the root of the word 'pharmacy' in many languages — both are beacons guiding people to what they need.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0002",
       "category": "History",
       "question": "The Berlin Wall fell in November of which year?",
       "options": [
@@ -25,9 +33,16 @@
       ],
       "answer": "1989",
       "explanation": "The Berlin Wall fell on November 9, 1989, after East Germany announced citizens could cross freely. Built in 1961, the wall had divided East and West Berlin for 28 years and became the defining symbol of the Cold War.",
-      "memory_hook": "1989: think '89 = eight-nine = ate nine — the Wall got eaten. Also the same year Taylor Swift was born, if that helps."
+      "memory_hook": "1989: think '89 = eight-nine = ate nine — the Wall got eaten. Also the same year Taylor Swift was born, if that helps.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0003",
       "category": "History",
       "question": "Who was the first woman to win a Nobel Prize?",
       "options": [
@@ -38,9 +53,16 @@
       ],
       "answer": "Marie Curie",
       "explanation": "Marie Curie won the Nobel Prize in Physics in 1903 (shared with Pierre Curie and Henri Becquerel) for her work on radioactivity. She went on to win a second Nobel — this time in Chemistry — in 1911, making her the first person ever to win Nobels in two different sciences.",
-      "memory_hook": "Curie = Curious = always discovering. She wasn't just the first woman — she's the only person, male or female, to win Nobel Prizes in two different sciences."
+      "memory_hook": "Curie = Curious = always discovering. She wasn't just the first woman — she's the only person, male or female, to win Nobel Prizes in two different sciences.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0004",
       "category": "Sports",
       "question": "How many interlocking rings appear on the Olympic flag?",
       "options": [
@@ -51,9 +73,16 @@
       ],
       "answer": "5",
       "explanation": "The five interlocked rings of the Olympic flag represent the five inhabited continents of the world: Africa, the Americas, Asia, Europe, and Oceania. Designed by Pierre de Coubertin in 1912, every national flag in the world contains at least one of the five ring colors.",
-      "memory_hook": "Five rings, five continents. Count one hand — five fingers, five continents. One ring per continent, all linked together."
+      "memory_hook": "Five rings, five continents. Count one hand — five fingers, five continents. One ring per continent, all linked together.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0005",
       "category": "Sports",
       "question": "Which country has won the most FIFA World Cup titles?",
       "options": [
@@ -64,9 +93,16 @@
       ],
       "answer": "Brazil",
       "explanation": "Brazil has won the FIFA World Cup five times (1958, 1962, 1970, 1994, 2002), more than any other nation. They are also the only team to have played in every single World Cup tournament.",
-      "memory_hook": "Brazil wears yellow — picture five gold stars on their jersey. Five stars, five cups. Yellow = gold = trophies."
+      "memory_hook": "Brazil wears yellow — picture five gold stars on their jersey. Five stars, five cups. Yellow = gold = trophies.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0006",
       "category": "Pop Culture",
       "question": "Which Pink Floyd album features a prism splitting white light into a spectrum on its cover?",
       "options": [
@@ -77,9 +113,16 @@
       ],
       "answer": "The Dark Side of the Moon",
       "explanation": "Released in 1973, The Dark Side of the Moon features iconic cover art designed by Hipgnosis. The album spent 741 weeks on the Billboard 200 — one of the longest-charting albums in history — and explores themes of conflict, greed, time, and mental illness.",
-      "memory_hook": "Dark on the outside, rainbow on the inside: a prism turns darkness into color. That's the album in one image — and one of the most recognizable covers in music history."
+      "memory_hook": "Dark on the outside, rainbow on the inside: a prism turns darkness into color. That's the album in one image — and one of the most recognizable covers in music history.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0007",
       "category": "Pop Culture",
       "question": "In the original 1900 novel 'The Wonderful Wizard of Oz,' what were Dorothy's magical slippers made of?",
       "options": [
@@ -90,9 +133,16 @@
       ],
       "answer": "Silver",
       "explanation": "In L. Frank Baum's original novel, Dorothy wears silver slippers. They were changed to ruby red for the 1939 MGM film to showcase the vibrant colors of the new Technicolor process. It's one of Hollywood's most famous creative deviations from source material.",
-      "memory_hook": "Silver in the book, red in the movie — the shoes changed color exactly when the story went from black-and-white to Technicolor. The film literally upgraded the shoes."
+      "memory_hook": "Silver in the book, red in the movie — the shoes changed color exactly when the story went from black-and-white to Technicolor. The film literally upgraded the shoes.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0008",
       "category": "Pop Culture",
       "question": "Which director helmed the 1993 blockbuster Jurassic Park?",
       "options": [
@@ -103,9 +153,16 @@
       ],
       "answer": "Steven Spielberg",
       "explanation": "Steven Spielberg directed Jurassic Park, based on Michael Crichton's 1990 novel. The film revolutionized CGI visual effects and grossed over $1 billion worldwide, becoming the highest-grossing film of its time. It remains a landmark in cinematic history.",
-      "memory_hook": "Spielberg tamed every kind of beast: a shark (Jaws), an alien (E.T.), Nazis (Indiana Jones), and then dinosaurs. He runs the biggest zoo in Hollywood."
+      "memory_hook": "Spielberg tamed every kind of beast: a shark (Jaws), an alien (E.T.), Nazis (Indiana Jones), and then dinosaurs. He runs the biggest zoo in Hollywood.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0009",
       "category": "Geography",
       "question": "Which country has the longest coastline in the world, stretching approximately 202,080 km including its mainland and island shores?",
       "options": [
@@ -116,9 +173,16 @@
       ],
       "answer": "Canada",
       "explanation": "Canada has the world's longest coastline at approximately 202,080 km — more than any other nation. Its vast northern archipelago and Hudson Bay contribute enormously to this total. Norway has the second-longest coastline per land area, and Australia's is about 25,760 km. Measuring Canada's coastline entirely would take years on foot.",
-      "memory_hook": "Canada = longest coastline. More shoreline than any country on Earth — even counting all its Arctic islands. Longer than you'd expect from a country most famous for being cold and polite."
+      "memory_hook": "Canada = longest coastline. More shoreline than any country on Earth — even counting all its Arctic islands. Longer than you'd expect from a country most famous for being cold and polite.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0010",
       "category": "Science & Nature",
       "question": "Earth's atmosphere is approximately 78% which gas — making it far more abundant than the oxygen we breathe?",
       "options": [
@@ -129,9 +193,16 @@
       ],
       "answer": "Nitrogen",
       "explanation": "Earth's atmosphere is approximately 78% nitrogen, 21% oxygen, 0.9% argon, and 0.04% carbon dioxide. Most living organisms cannot use atmospheric nitrogen directly — it must be 'fixed' into usable compounds by nitrogen-fixing bacteria in soil or by lightning. The nitrogen cycle is fundamental to all life on Earth.",
-      "memory_hook": "Atmosphere: 78% nitrogen, only 21% oxygen. Most people think oxygen dominates — it doesn't. Nitrogen is the silent majority of every breath you take. Plants can't use it directly; soil bacteria must convert it first."
+      "memory_hook": "Atmosphere: 78% nitrogen, only 21% oxygen. Most people think oxygen dominates — it doesn't. Nitrogen is the silent majority of every breath you take. Plants can't use it directly; soil bacteria must convert it first.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0011",
       "category": "Geography",
       "question": "Which is the largest island in the Caribbean Sea?",
       "options": [
@@ -142,9 +213,16 @@
       ],
       "answer": "Cuba",
       "explanation": "Cuba spans 109,884 km² — making it the largest island in the Caribbean. Hispaniola (Haiti and the Dominican Republic) is the second-largest. Christopher Columbus landed on Cuba in 1492, and it was a Spanish colony for nearly 400 years before US occupation following the Spanish-American War. Cuba's capital, Havana, was one of the wealthiest cities in the Western Hemisphere in the 19th century.",
-      "memory_hook": "Cuba = largest Caribbean island. Bigger than Hispaniola (Haiti+DR). Columbus landed there in 1492. Havana was once one of the richest cities in the hemisphere."
+      "memory_hook": "Cuba = largest Caribbean island. Bigger than Hispaniola (Haiti+DR). Columbus landed there in 1492. Havana was once one of the richest cities in the hemisphere.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0012",
       "category": "Science & Nature",
       "question": "What property of water allows insects like water striders to walk on its surface?",
       "options": [
@@ -155,7 +233,13 @@
       ],
       "answer": "Surface tension",
       "explanation": "Surface tension is the elastic-like force at the surface of a liquid caused by cohesive forces between water molecules. Water molecules at the surface have unbalanced attractive forces, creating a 'skin' strong enough to support lightweight objects. Surface tension also causes water to form drops, rise in thin tubes (capillary action), and creates the curved meniscus seen in lab glassware.",
-      "memory_hook": "Surface tension = water's 'skin.' Cohesion pulls surface molecules inward, creating tension. Insects walk on it; raindrops are spherical because of it. Soap breaks surface tension — that's why soapy water doesn't bead up."
+      "memory_hook": "Surface tension = water's 'skin.' Cohesion pulls surface molecules inward, creating tension. Insects walk on it; raindrops are spherical because of it. Soap breaks surface tension — that's why soapy water doesn't bead up.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     }
   ]
 }

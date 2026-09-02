@@ -1,6 +1,7 @@
 {
   "questions": [
     {
+      "id": "frq-0265",
       "category": "History",
       "question": "Which war was fought between the North and South in the United States?",
       "options": [
@@ -11,9 +12,16 @@
       ],
       "answer": "The Civil War",
       "explanation": "The American Civil War (1861–1865) was fought between the Union (Northern states) and the Confederacy (Southern states). The primary cause was slavery. The Union won, and the 13th Amendment abolished slavery. It remains the deadliest war in American history with an estimated 620,000 deaths.",
-      "memory_hook": "Civil War: brother vs. brother, North vs. South, 1861–1865."
+      "memory_hook": "Civil War: brother vs. brother, North vs. South, 1861–1865.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0266",
       "category": "History",
       "question": "What was the name of the first moon landing mission?",
       "options": [
@@ -24,9 +32,16 @@
       ],
       "answer": "Apollo 11",
       "explanation": "Apollo 11 was the first crewed mission to land on the Moon, on July 20, 1969. Neil Armstrong and Buzz Aldrin walked on the surface while Michael Collins orbited above. Armstrong's famous words: 'That's one small step for man, one giant leap for mankind.'",
-      "memory_hook": "Apollo 11: the 11th try was the first to land. One giant leap."
+      "memory_hook": "Apollo 11: the 11th try was the first to land. One giant leap.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0267",
       "category": "Sports",
       "question": "What color is the first place jersey in the Tour de France?",
       "options": [
@@ -37,9 +52,16 @@
       ],
       "answer": "Yellow",
       "explanation": "The leader of the Tour de France wears the yellow jersey (maillot jaune). It was first awarded in 1919 and is the most prestigious prize in cycling. The green jersey goes to the best sprinter, the polka-dot jersey to the best climber, and the white jersey to the best young rider.",
-      "memory_hook": "Yellow jersey = Tour leader. Like a yellow highlighter marking the best."
+      "memory_hook": "Yellow jersey = Tour leader. Like a yellow highlighter marking the best.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0268",
       "category": "Sports",
       "question": "Which city has hosted the most Summer Olympic Games?",
       "options": [
@@ -50,9 +72,16 @@
       ],
       "answer": "London",
       "explanation": "London has hosted the Summer Olympic Games three times: 1908, 1948, and 2012. It is the only city to have hosted three Summer Olympics. Paris has hosted twice (1900, 1924) and is set to host again in 2024. Los Angeles hosted in 1932 and 1984.",
-      "memory_hook": "London: three-time Summer Olympics host. The city keeps coming back."
+      "memory_hook": "London: three-time Summer Olympics host. The city keeps coming back.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0269",
       "category": "Pop Culture",
       "question": "Which band sang 'Sweet Home Alabama'?",
       "options": [
@@ -63,9 +92,16 @@
       ],
       "answer": "Lynyrd Skynyrd",
       "explanation": "'Sweet Home Alabama' was released by Lynyrd Skynyrd in 1974. It was written partly as a response to Neil Young's songs 'Southern Man' and 'Alabama,' which criticized the South. The song has become one of the most recognizable rock anthems of all time.",
-      "memory_hook": "'Sweet Home Alabama' — Lynyrd Skynyrd said it with a Southern drawl."
+      "memory_hook": "'Sweet Home Alabama' — Lynyrd Skynyrd said it with a Southern drawl.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0270",
       "category": "Pop Culture",
       "question": "Fleabag (BBC, 2016–2019), written by and starring Phoebe Waller-Bridge, is celebrated for its formal innovation as much as its emotional depth. What technique made it distinctive?",
       "options": [
@@ -76,9 +112,16 @@
       ],
       "answer": "Its protagonist constantly breaks the fourth wall, speaking directly to the audience — building an intimate relationship that becomes structurally crucial to the story",
       "explanation": "Fleabag's direct-address technique wasn't just a stylistic choice — by Series 2, the audience's relationship with Fleabag becomes plot-relevant when another character notices her 'talking to someone.' Waller-Bridge adapted it from her Edinburgh Fringe one-woman show. The series won six Emmy Awards in 2019 including Outstanding Comedy, Outstanding Writing, and Outstanding Lead Actress — nearly unprecedented for a foreign production. It's often credited with reviving interest in the female anti-hero.",
-      "memory_hook": "Fleabag's fourth-wall breaks aren't just stylish — by Series 2, another character notices her 'talking to someone,' making the audience itself part of the plot. Waller-Bridge wrote the role for herself from a one-woman Fringe show."
+      "memory_hook": "Fleabag's fourth-wall breaks aren't just stylish — by Series 2, another character notices her 'talking to someone,' making the audience itself part of the plot. Waller-Bridge wrote the role for herself from a one-woman Fringe show.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0271",
       "category": "Pop Culture",
       "question": "Who wrote and performed 'Imagine'?",
       "options": [
@@ -89,9 +132,16 @@
       ],
       "answer": "John Lennon",
       "explanation": "'Imagine' was written and recorded by John Lennon and released in 1971. It is widely regarded as one of the greatest songs ever written, promoting peace, harmony, and a world without divisions. Lennon called it 'virtually the Communist Manifesto' but wrapped in sugar.",
-      "memory_hook": "'Imagine' — Lennon asked us to picture a better world. Simple piano, profound words."
+      "memory_hook": "'Imagine' — Lennon asked us to picture a better world. Simple piano, profound words.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0272",
       "category": "History",
       "question": "The 'Boston Tea Party' was a protest against taxation by which country?",
       "options": [
@@ -102,9 +152,16 @@
       ],
       "answer": "Great Britain",
       "explanation": "The Boston Tea Party occurred on December 16, 1773, when American colonists disguised as Mohawk Indians boarded British ships and dumped 342 chests of tea into Boston Harbor. It was a protest against the Tea Act and British taxation without colonial representation.",
-      "memory_hook": "Boston Tea Party: 'No taxation without representation' — they threw the tea out."
+      "memory_hook": "Boston Tea Party: 'No taxation without representation' — they threw the tea out.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0273",
       "category": "Geography",
       "question": "Which desert is the largest hot desert in the world?",
       "options": [
@@ -115,9 +172,16 @@
       ],
       "answer": "Sahara Desert",
       "explanation": "The Sahara is the world's largest hot desert, covering about 9.2 million square kilometers across northern Africa — roughly the size of the contiguous United States. It spans 11 countries. Despite its reputation, only about 25% of the Sahara is sand dunes; most of it is rocky plateau.",
-      "memory_hook": "Sahara = largest hot desert. (Antarctica is technically the largest desert overall — cold deserts count too.) The Sahara is as big as the US and most of it is rock, not sand."
+      "memory_hook": "Sahara = largest hot desert. (Antarctica is technically the largest desert overall — cold deserts count too.) The Sahara is as big as the US and most of it is rock, not sand.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0274",
       "category": "Science & Nature",
       "question": "Johannes Kepler's three laws of planetary motion (published 1609–1619) revolutionized astronomy. What did his first law establish about planetary orbits?",
       "options": [
@@ -128,9 +192,16 @@
       ],
       "answer": "Planets orbit the Sun in ellipses, with the Sun at one focus — not the center — meaning each planet's distance from the Sun varies throughout its orbit",
       "explanation": "Kepler broke with 2,000 years of astronomical tradition that insisted on circular orbits (because circles were 'perfect'). Working from Tycho Brahe's meticulous observational data — which Brahe denied him, forcing Kepler to work from memory after Brahe's death — he deduced that Mars's orbit was an ellipse. His second law states a planet sweeps equal areas in equal times (faster near perihelion, slower near aphelion). His third law links orbital period to distance: the square of a planet's year equals the cube of its average distance from the Sun. Newton later showed gravity explains all three laws.",
-      "memory_hook": "Kepler abandoned perfect circles and deduced ellipses from Tycho Brahe's data — working partly from stolen notes after Brahe died suspicious Kepler would steal them. Newton later showed gravity explains all three Kepler laws, confirming the heliocentric model mathematically."
+      "memory_hook": "Kepler abandoned perfect circles and deduced ellipses from Tycho Brahe's data — working partly from stolen notes after Brahe died suspicious Kepler would steal them. Newton later showed gravity explains all three Kepler laws, confirming the heliocentric model mathematically.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0275",
       "category": "Geography",
       "question": "Denali, the highest peak in North America at 6,190 meters, is located in which U.S. state?",
       "options": [
@@ -141,9 +212,16 @@
       ],
       "answer": "Alaska",
       "explanation": "Denali (formerly known as Mount McKinley) is located in Denali National Park in Alaska. At 6,190 meters (20,310 feet), it is the highest peak in North America. The name Denali comes from the Koyukon Athabascan people and means 'the tall one' or 'the great one.' The US officially renamed the peak from McKinley to Denali in 2015, restoring its indigenous name. Its extreme latitude makes it one of the coldest mountains on Earth, requiring extensive mountaineering preparation.",
-      "memory_hook": "Denali (McKinley) = highest peak in N. America, 6,190m, Alaska. Official name changed back to Denali in 2015 — its indigenous Koyukon name meaning 'the great one.' Extremely cold due to its northern latitude, not just altitude."
+      "memory_hook": "Denali (McKinley) = highest peak in N. America, 6,190m, Alaska. Official name changed back to Denali in 2015 — its indigenous Koyukon name meaning 'the great one.' Extremely cold due to its northern latitude, not just altitude.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0276",
       "category": "Science & Nature",
       "question": "What is the biological transformation process where an insect completely changes its body form — such as a caterpillar becoming a butterfly?",
       "options": [
@@ -154,7 +232,13 @@
       ],
       "answer": "Complete metamorphosis",
       "explanation": "Complete metamorphosis (holometabolism) involves four distinct life stages: egg → larva (caterpillar) → pupa (chrysalis) → adult. The larval stage does most of the eating and growing; the pupal stage involves complete reorganization of body tissues; the adult stage focuses on reproduction. Butterflies, beetles, flies, and bees all undergo complete metamorphosis. Partial metamorphosis (hemimetabolism, seen in grasshoppers and dragonflies) skips the pupal stage: egg → nymph → adult.",
-      "memory_hook": "Complete metamorphosis: egg → larva → pupa → adult. The pupa stage essentially dissolves the caterpillar into cellular soup and reassembles it into a butterfly. Butterflies, beetles, flies, and bees do this. Grasshoppers don't — they use partial metamorphosis."
+      "memory_hook": "Complete metamorphosis: egg → larva → pupa → adult. The pupa stage essentially dissolves the caterpillar into cellular soup and reassembles it into a butterfly. Butterflies, beetles, flies, and bees do this. Grasshoppers don't — they use partial metamorphosis.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     }
   ]
 }

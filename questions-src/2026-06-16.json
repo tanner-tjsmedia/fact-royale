@@ -2,6 +2,7 @@
   "date": "2026-06-16",
   "questions": [
     {
+      "id": "frq-0013",
       "category": "History",
       "question": "Which U.S. President signed the Emancipation Proclamation in 1863?",
       "options": [
@@ -12,9 +13,16 @@
       ],
       "answer": "Abraham Lincoln",
       "explanation": "Abraham Lincoln issued the Emancipation Proclamation on January 1, 1863, declaring enslaved people in Confederate states to be free. It didn't end slavery outright — that came with the 13th Amendment in 1865 — but it fundamentally changed the character of the Civil War.",
-      "memory_hook": "Lincoln is on the penny and the $5 bill — two denominations, two big moves: the Proclamation and the 13th Amendment. He did double the work."
+      "memory_hook": "Lincoln is on the penny and the $5 bill — two denominations, two big moves: the Proclamation and the 13th Amendment. He did double the work.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0014",
       "category": "History",
       "question": "What ancient city was buried under volcanic ash when Mount Vesuvius erupted in 79 AD?",
       "options": [
@@ -25,9 +33,16 @@
       ],
       "answer": "Pompeii",
       "explanation": "Mount Vesuvius erupted on August 24, 79 AD, burying the Roman city of Pompeii under 13-20 feet of volcanic ash and pumice. The city was preserved so completely that archaeologists have uncovered entire streets, buildings, artwork, and even the shapes of people frozen at the moment of death.",
-      "memory_hook": "Pompeii = 'frozen in time.' The ash that destroyed it also preserved it — the worst disaster became history's greatest time capsule."
+      "memory_hook": "Pompeii = 'frozen in time.' The ash that destroyed it also preserved it — the worst disaster became history's greatest time capsule.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0015",
       "category": "History",
       "question": "The Silk Road was a network of trade routes connecting China to which region?",
       "options": [
@@ -38,9 +53,16 @@
       ],
       "answer": "The Mediterranean and Europe",
       "explanation": "The Silk Road stretched roughly 4,000 miles, linking China through Central Asia to the Mediterranean world. It wasn't just one road but a network of routes, and it traded far more than silk — spices, glassware, paper, gunpowder, religion, and disease all traveled these routes.",
-      "memory_hook": "Silk Road = East meets West. Think of it as the ancient internet — information, goods, and ideas flowing in both directions across the known world."
+      "memory_hook": "Silk Road = East meets West. Think of it as the ancient internet — information, goods, and ideas flowing in both directions across the known world.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0016",
       "category": "Sports",
       "question": "In what sport would you perform a 'slam dunk'?",
       "options": [
@@ -51,9 +73,16 @@
       ],
       "answer": "Basketball",
       "explanation": "A slam dunk is when a player jumps and forcefully drives the ball down through the basket. Wilt Chamberlain is widely credited with popularizing it in the early 1960s. The dunk was actually banned in college basketball (NCAA) from 1967–1976, largely because Lew Alcindor (later Kareem Abdul-Jabbar) was so dominant.",
-      "memory_hook": "Dunk = down. The ball goes DOWN through the hoop from ABOVE. Simple physics, maximum theater."
+      "memory_hook": "Dunk = down. The ball goes DOWN through the hoop from ABOVE. Simple physics, maximum theater.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0017",
       "category": "Sports",
       "question": "How many players are on the field for one team in American football?",
       "options": [
@@ -64,9 +93,16 @@
       ],
       "answer": "11",
       "explanation": "Each team fields 11 players at a time in American football — the same as soccer. The offense and defense are separate units, each with 11 players, though rosters can carry 53 players (NFL). Having 12 men on the field is actually a penalty.",
-      "memory_hook": "11 on each side — same as soccer. Two very different sports, same number on the field. Eleven is apparently the magic number for team sports."
+      "memory_hook": "11 on each side — same as soccer. Two very different sports, same number on the field. Eleven is apparently the magic number for team sports.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0018",
       "category": "Pop Culture",
       "question": "Mark Rothko was a leading Abstract Expressionist whose large-scale color field paintings became iconic. What makes his approach to painting philosophically distinctive?",
       "options": [
@@ -77,9 +113,16 @@
       ],
       "answer": "He insisted his paintings were not abstract — they were expressions of basic human emotions (tragedy, ecstasy, doom), and he wanted viewers to weep in front of them",
       "explanation": "Rothko rejected the label 'abstract painter' — he saw his luminous rectangles of color as direct expressions of universal human emotion. He wanted viewers to stand very close to his large canvases and be emotionally overwhelmed. When he learned his Seagram Murals (now in the Tate Modern) would hang in an expensive New York restaurant where they'd be ignored over dinner, he returned the commission. He died by suicide in 1970.",
-      "memory_hook": "Rothko said his color-field paintings weren't abstract — they were about tragedy and ecstasy, and he wanted people to weep in front of them. He returned his Seagram commission when he learned they'd hang behind diners."
+      "memory_hook": "Rothko said his color-field paintings weren't abstract — they were about tragedy and ecstasy, and he wanted people to weep in front of them. He returned his Seagram commission when he learned they'd hang behind diners.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0019",
       "category": "Pop Culture",
       "question": "Which artist released the best-selling album 'Thriller' in 1982?",
       "options": [
@@ -90,9 +133,16 @@
       ],
       "answer": "Michael Jackson",
       "explanation": "Thriller was released on November 30, 1982, and remains the best-selling album of all time with an estimated 66-70 million copies sold worldwide. It produced seven Billboard Hot 100 top-10 singles — a record — and the 14-minute 'Thriller' music video is considered a landmark in the art form.",
-      "memory_hook": "Thriller = 66+ million copies. That's roughly the population of the UK, all owning the same album. Michael Jackson didn't just sell records — he sold a cultural moment."
+      "memory_hook": "Thriller = 66+ million copies. That's roughly the population of the UK, all owning the same album. Michael Jackson didn't just sell records — he sold a cultural moment.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0020",
       "category": "Pop Culture",
       "question": "The Sopranos (1999–2007) is widely regarded as the television series that launched the 'Golden Age of TV.' What made it a watershed moment for the medium?",
       "options": [
@@ -103,9 +153,16 @@
       ],
       "answer": "It applied novelistic depth, moral ambiguity, and cinematic production values to a long-form TV story — proving TV could be as serious an art form as film",
       "explanation": "The Sopranos, created by David Chase for HBO, followed mob boss Tony Soprano simultaneously as a violent criminal and a man in therapy grappling with panic attacks and mother issues. Its refusal to moralize, its Freudian depth, and its cinematic quality redefined what television could do. Shows like The Wire, Mad Men, Breaking Bad, and Game of Thrones are direct inheritors of what The Sopranos established. The controversial cut-to-black finale remains one of TV's most discussed endings.",
-      "memory_hook": "The Sopranos (1999) launched the Golden Age of TV by applying the moral ambiguity and depth of the best novels to a mob boss in therapy — its cut-to-black finale is still debated 20 years later."
+      "memory_hook": "The Sopranos (1999) launched the Golden Age of TV by applying the moral ambiguity and depth of the best novels to a mob boss in therapy — its cut-to-black finale is still debated 20 years later.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0021",
       "category": "Geography",
       "question": "Victoria Falls — called 'the smoke that thunders' by locals — sits on the border of Zimbabwe and which neighboring country?",
       "options": [
@@ -116,9 +173,16 @@
       ],
       "answer": "Zambia",
       "explanation": "Victoria Falls straddles the border between Zimbabwe (south bank) and Zambia (north bank) on the Zambezi River. At 1.7 km wide and 108 meters tall, it generates a mist column visible from 50 km away — earning its local Tonga name Mosi-oa-Tunya ('the smoke that thunders'). David Livingstone named it after Queen Victoria in 1855, becoming the first European to see it.",
-      "memory_hook": "Victoria Falls = Zimbabwe/Zambia border. Zambezi River. 'The smoke that thunders' — mist visible from 50 km. Livingstone named it after his queen; locals had a much better name."
+      "memory_hook": "Victoria Falls = Zimbabwe/Zambia border. Zambezi River. 'The smoke that thunders' — mist visible from 50 km. Livingstone named it after his queen; locals had a much better name.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0022",
       "category": "Science & Nature",
       "question": "What term describes the rigid outer shell of Earth, broken into tectonic plates that slowly drift on the semi-molten rock beneath?",
       "options": [
@@ -129,9 +193,16 @@
       ],
       "answer": "Lithosphere",
       "explanation": "The lithosphere is Earth's rigid outer shell, comprising the crust and the uppermost solid mantle. It is divided into about 15 major tectonic plates. Below the lithosphere is the asthenosphere — a semi-molten layer on which the plates slowly move at a few centimeters per year. This movement drives earthquakes, volcanic eruptions, mountain building, and the slow drift of continents.",
-      "memory_hook": "Lithosphere = tectonic plate layer. 'Litho' means rock. Below it: asthenosphere (semi-molten, makes plates move). Plates drift at fingernail speed — but that's fast enough to build mountain ranges and open oceans."
+      "memory_hook": "Lithosphere = tectonic plate layer. 'Litho' means rock. Below it: asthenosphere (semi-molten, makes plates move). Plates drift at fingernail speed — but that's fast enough to build mountain ranges and open oceans.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0023",
       "category": "Geography",
       "question": "Which river, flowing entirely within Russia, is the longest in Europe and empties into the Caspian Sea?",
       "options": [
@@ -142,9 +213,16 @@
       ],
       "answer": "Volga",
       "explanation": "The Volga River stretches 3,531 km, making it Europe's longest river by length. It flows south through central Russia before emptying into the Caspian Sea. The Volga drains about 40% of European Russia and historically connected Moscow to the Caspian trade routes. Cities like Nizhny Novgorod, Kazan, and Volgograd (formerly Stalingrad) sit on its banks.",
-      "memory_hook": "Volga = Europe's longest river. Flows through Russia → Caspian Sea. 40% of European Russia drains through it. Nizhny Novgorod, Kazan, and Stalingrad (Volgograd) are on its banks. Russia's 'Mother River.'"
+      "memory_hook": "Volga = Europe's longest river. Flows through Russia → Caspian Sea. 40% of European Russia drains through it. Nizhny Novgorod, Kazan, and Stalingrad (Volgograd) are on its banks. Russia's 'Mother River.'",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0024",
       "category": "Science & Nature",
       "question": "At which two points in Earth's orbit is it closest to and farthest from the Sun?",
       "options": [
@@ -155,7 +233,13 @@
       ],
       "answer": "Perihelion and aphelion",
       "explanation": "Perihelion is the point in Earth's orbit when it is closest to the Sun (about 147 million km), occurring around January 3. Aphelion is the farthest point (about 152 million km), occurring around July 4. Counterintuitively, Earth is closest to the Sun during Northern Hemisphere winter — the seasons are caused by Earth's axial tilt, not its distance from the Sun.",
-      "memory_hook": "Perihelion = closest to Sun (Jan 3). Aphelion = farthest (Jul 4). Earth is nearest the Sun in WINTER — seasons come from axial tilt, not distance. Most people get this backwards."
+      "memory_hook": "Perihelion = closest to Sun (Jan 3). Aphelion = farthest (Jul 4). Earth is nearest the Sun in WINTER — seasons come from axial tilt, not distance. Most people get this backwards.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     }
   ]
 }

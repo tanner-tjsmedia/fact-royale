@@ -2,6 +2,7 @@
   "date": "2026-09-06",
   "questions": [
     {
+      "id": "frq-0973",
       "category": "History",
       "question": "Convicted in 399 BC, Socrates was invited to propose his own penalty instead of death. What did he suggest?",
       "options": [
@@ -13,12 +14,19 @@
       "answer": "Free meals at public expense, for the rest of his life",
       "explanation": "Athenian law let both sides propose a sentence and the jury pick one. Socrates argued that a man who had spent his life urging Athenians toward moral improvement deserved what Olympic victors got: free meals in the Prytaneum, the public dining hall. He then offered a token fine his friends would cover. The jury voted for death by a wider margin than it had voted to convict.",
       "memory_hook": "Asked to name his own punishment, he asked to be fed at public expense for life. It is not clear he wanted to survive the trial.",
+      "riskTier": "source",
       "sourceRefs": [
         "plato-apology-penalty"
       ],
-      "riskTier": "source"
+      "review": {
+        "state": "verified",
+        "at": "2026-09-03",
+        "by": "tanner@tjs16media.com",
+        "note": "carried over: had a cited source before IDs existed"
+      }
     },
     {
+      "id": "frq-0974",
       "category": "History",
       "question": "The Silk Road connected China to the Mediterranean for centuries. What is wrong with the name?",
       "options": [
@@ -30,13 +38,20 @@
       "answer": "Nobody who used it ever called it that",
       "explanation": "The phrase is a nineteenth-century European coinage, popularised by the German geographer Ferdinand von Richthofen in 1877 and used in a German dissertation three years earlier. No merchant, no Chinese or Persian source, nobody who actually travelled it used the term. It was also not one road but a shifting web of routes, and silk was one commodity among paper, horses, glass and ideas.",
       "memory_hook": "A name invented in Berlin in the 1870s for a network that had stopped operating centuries earlier. Everyone who used it would not recognise it.",
+      "riskTier": "source",
       "sourceRefs": [
         "whe-silk-road",
         "richthofen-silk-road-coinage"
       ],
-      "riskTier": "source"
+      "review": {
+        "state": "verified",
+        "at": "2026-09-03",
+        "by": "tanner@tjs16media.com",
+        "note": "carried over: had a cited source before IDs existed"
+      }
     },
     {
+      "id": "frq-0975",
       "category": "History",
       "question": "Cicero called Herodotus the Father of History. What did Plutarch call him?",
       "options": [
@@ -48,12 +63,19 @@
       "answer": "The Father of Lies, in an essay attacking him",
       "explanation": "Plutarch wrote On the Malice of Herodotus more than four centuries later, accusing him of bias and invention. Part of the grievance was personal: Herodotus had recorded that Plutarch's own Boeotians sided with Persia. He also called him philobarbaros, a barbarian-lover, for treating Persians as people rather than villains. Both titles stuck, which is roughly the right verdict on a writer who preserved a great deal and checked very little.",
       "memory_hook": "Father of History and Father of Lies, from two Romans four centuries apart. Both were partly right.",
+      "riskTier": "source",
       "sourceRefs": [
         "whe-herodotus"
       ],
-      "riskTier": "source"
+      "review": {
+        "state": "verified",
+        "at": "2026-09-03",
+        "by": "tanner@tjs16media.com",
+        "note": "carried over: had a cited source before IDs existed"
+      }
     },
     {
+      "id": "frq-0976",
       "category": "Sports",
       "question": "South Africa won the 2023 Rugby World Cup. What was remarkable about their knockout run?",
       "options": [
@@ -65,12 +87,19 @@
       "answer": "They won all three knockout games by one point",
       "explanation": "France 29-28 in the quarter-final, England 16-15 in the semi, New Zealand 12-11 in the final. Three knockout matches, three one-point margins, and a record fourth title. No side had ever won a World Cup that way, and the aggregate margin across the three hardest games of the tournament was three points.",
       "memory_hook": "29-28, 16-15, 12-11. Three knockout games, three single points, one trophy.",
+      "riskTier": "source",
       "sourceRefs": [
         "rwc-2023-knockout"
       ],
-      "riskTier": "source"
+      "review": {
+        "state": "verified",
+        "at": "2026-09-03",
+        "by": "tanner@tjs16media.com",
+        "note": "carried over: had a cited source before IDs existed"
+      }
     },
     {
+      "id": "frq-0977",
       "category": "Sports",
       "question": "The Tour de France leader has worn a yellow jersey since 1919. What decided the colour?",
       "options": [
@@ -82,13 +111,20 @@
       "answer": "The organising newspaper was printed on yellow paper",
       "explanation": "L'Auto, the paper that invented the race in 1903 to sell copies, was printed on distinctive yellow newsprint. Two-thirds of the way through the 1919 race, organiser Henri Desgrange decided spectators could not tell who was leading and handed Eugene Christophe a jersey in the paper's own colour. Before that the leader wore a green armband. L'Auto later became L'Equipe, which still co-owns the Tour.",
       "memory_hook": "The most famous jersey in cycling is the colour of the newsprint it was invented to sell.",
+      "riskTier": "source",
       "sourceRefs": [
         "rouleur-yellow-jersey",
         "smithsonian-yellow-jersey"
       ],
-      "riskTier": "source"
+      "review": {
+        "state": "verified",
+        "at": "2026-09-03",
+        "by": "tanner@tjs16media.com",
+        "note": "carried over: had a cited source before IDs existed"
+      }
     },
     {
+      "id": "frq-0978",
       "category": "Pop Culture",
       "question": "Pixar's Inside Out gives a child five emotions. Why five, and not more?",
       "options": [
@@ -100,13 +136,20 @@
       "answer": "Surprise and contempt were cut for simplicity",
       "explanation": "Pixar consulted Paul Ekman and Dacher Keltner, whose work identifies six or seven emotions with distinctive facial expressions. The film kept joy, sadness, anger, fear and disgust, and dropped surprise and contempt, surprise overlapping heavily with fear. Pride and schadenfreude were explored and rejected. The sequel added the ones adolescence brings.",
       "memory_hook": "The science said six or seven. Surprise looked too much like fear on screen, so it was cut.",
+      "riskTier": "source",
       "sourceRefs": [
         "ggsc-inside-out",
         "ekman-inside-out"
       ],
-      "riskTier": "source"
+      "review": {
+        "state": "verified",
+        "at": "2026-09-03",
+        "by": "tanner@tjs16media.com",
+        "note": "carried over: had a cited source before IDs existed"
+      }
     },
     {
+      "id": "frq-0979",
       "category": "Pop Culture",
       "question": "The Hollywood sign went up in 1923. What did it originally say, and why?",
       "options": [
@@ -118,13 +161,20 @@
       "answer": "HOLLYWOODLAND, advertising a housing development",
       "explanation": "It was a $21,000 billboard for a subdivision backed by the publisher of the Los Angeles Times, lit with thousands of bulbs that flashed HOLLY, WOOD and LAND in sequence after dark. It was meant to stand eighteen months. Nobody took it down, the word outgrew the property it was selling, and in 1949 the Chamber of Commerce rebuilt the H and removed LAND.",
       "memory_hook": "A temporary property advert that outlived the property, the developer, and its own last four letters.",
+      "riskTier": "source",
       "sourceRefs": [
         "smithsonian-hollywood-sign",
         "laconservancy-hollywood-sign"
       ],
-      "riskTier": "source"
+      "review": {
+        "state": "verified",
+        "at": "2026-09-03",
+        "by": "tanner@tjs16media.com",
+        "note": "carried over: had a cited source before IDs existed"
+      }
     },
     {
+      "id": "frq-0980",
       "category": "Pop Culture",
       "question": "Auto-Tune's inventor worked in oil exploration before music. What does he say about the connection?",
       "options": [
@@ -136,12 +186,19 @@
       "answer": "That the popular version of the story is wrong",
       "explanation": "Andy Hildebrand spent 1976 to 1989 at Exxon doing seismic signal processing, and the autocorrelation mathematics behind Auto-Tune came out of that world. But the widely repeated line that it was invented to find oil using dynamite blasts is something he has called exactly wrong. His account is plainer: a doctorate in signal processing, applied first to rock and later to voices. Antares released it in 1997.",
       "memory_hook": "The oil-to-pop-star story is too neat, and the man who built it says so himself.",
+      "riskTier": "source",
       "sourceRefs": [
         "vice-autotune-hildebrand"
       ],
-      "riskTier": "source"
+      "review": {
+        "state": "verified",
+        "at": "2026-09-03",
+        "by": "tanner@tjs16media.com",
+        "note": "carried over: had a cited source before IDs existed"
+      }
     },
     {
+      "id": "frq-0981",
       "category": "Geography",
       "question": "Published figures for Norway's coastline range from a few thousand kilometres to over a hundred thousand. Why the disagreement?",
       "options": [
@@ -153,12 +210,19 @@
       "answer": "Coastline length depends on the ruler you measure with",
       "explanation": "This is the coastline paradox. Measure with a long ruler and you cut straight across the fjords; measure with a short one and you follow every inlet, and the total climbs without settling on a value. Lewis Fry Richardson noticed the effect comparing national borders, and Mandelbrot built fractal geometry partly on it. Norway is the extreme case, and whether islands are counted moves the number again.",
       "memory_hook": "There is no true length. Shorten the ruler and the coast gets longer, forever.",
+      "riskTier": "source",
       "sourceRefs": [
         "britannica-coastline-paradox"
       ],
-      "riskTier": "source"
+      "review": {
+        "state": "verified",
+        "at": "2026-09-03",
+        "by": "tanner@tjs16media.com",
+        "note": "carried over: had a cited source before IDs existed"
+      }
     },
     {
+      "id": "frq-0982",
       "category": "Geography",
       "question": "The Pan-American Highway runs from Alaska to Argentina with one break in it. Why has that gap never been closed?",
       "options": [
@@ -170,12 +234,19 @@
       "answer": "Neither country actually wants the road built",
       "explanation": "The Darien Gap is roughly 100km of roadless jungle and swamp between Panama and Colombia. Terrain and cost are real, but the decisive obstacles are political. Indigenous communities of some 40,000 people have opposed a road that would bring settlement and clearance, environmental studies warned of deforestation, and Panama has valued the gap as a barrier against smuggling, livestock disease and armed groups. Planning began in the 1970s and stalled repeatedly.",
       "memory_hook": "The gap is not an engineering failure. It is a decision, renewed every time someone proposes closing it.",
+      "riskTier": "source",
       "sourceRefs": [
         "hrw-darien-gap"
       ],
-      "riskTier": "source"
+      "review": {
+        "state": "verified",
+        "at": "2026-09-03",
+        "by": "tanner@tjs16media.com",
+        "note": "carried over: had a cited source before IDs existed"
+      }
     },
     {
+      "id": "frq-0983",
       "category": "Science & Nature",
       "question": "Otto Hahn's 1938 experiment split a uranium nucleus, but he could not explain his own result. Who did?",
       "options": [
@@ -187,13 +258,20 @@
       "answer": "Lise Meitner, who then got no share of the Nobel",
       "explanation": "Hahn and Strassmann found barium where they expected something heavier and could not account for it. Meitner, who had worked alongside Hahn for thirty years and had fled to Sweden that summer, worked out the physics with her nephew Otto Frisch over Christmas 1938 and gave the process its name: fission. The 1944 Nobel Prize in Chemistry went to Hahn alone. The rules would have permitted three names.",
       "memory_hook": "She named the thing. The prize went to the man who had the barium but not the explanation.",
+      "riskTier": "source",
       "sourceRefs": [
         "britannica-lise-meitner",
         "nobel-1944-chemistry"
       ],
-      "riskTier": "source"
+      "review": {
+        "state": "verified",
+        "at": "2026-09-03",
+        "by": "tanner@tjs16media.com",
+        "note": "carried over: had a cited source before IDs existed"
+      }
     },
     {
+      "id": "frq-0984",
       "category": "Science & Nature",
       "question": "Classical physics says friction does not depend on how much surface is touching. Why do racing cars run wide tyres then?",
       "options": [
@@ -205,11 +283,17 @@
       "answer": "Rubber breaks the rule that hard surfaces obey",
       "explanation": "Amontons' law holds that friction depends on load rather than on contact area, and for rigid materials it works well. Rubber is not rigid. It deforms into the roughness of the road, so the real area of contact, as opposed to the apparent one, grows with load and with width, and grip grows with it. This is also why an overinflated tyre grips worse: less rubber is genuinely touching the surface.",
       "memory_hook": "The textbook rule is about hard surfaces sliding. A tyre is not sliding on the road so much as gripping into it.",
+      "riskTier": "source",
       "sourceRefs": [
         "cycleworld-amontons",
         "nature-rubber-friction"
       ],
-      "riskTier": "source"
+      "review": {
+        "state": "verified",
+        "at": "2026-09-03",
+        "by": "tanner@tjs16media.com",
+        "note": "carried over: had a cited source before IDs existed"
+      }
     }
   ]
 }

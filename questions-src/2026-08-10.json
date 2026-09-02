@@ -2,6 +2,7 @@
   "date": "2026-08-10",
   "questions": [
     {
+      "id": "frq-0673",
       "category": "History",
       "question": "The Panama Canal opened in 1914, but a French attempt had already failed there. What defeated the French effort?",
       "options": [
@@ -13,13 +14,20 @@
       "answer": "Malaria and yellow fever killed more than 20,000 workers",
       "explanation": "Ferdinand de Lesseps, fresh from Suez, began digging in 1881 and insisted on a sea-level canal with no locks, which the terrain could not support. Roughly 22,000 workers died of disease, and nobody yet understood the transmission route; three quarters of the engineers who arrived with de Lesseps were dead within three months. The company went bankrupt in 1889 amid a scandal that reached the French parliament. The Americans succeeded partly because the Reed Commission had by then shown mosquitoes carried yellow fever.",
       "memory_hook": "De Lesseps came from Suez insisting on a sea-level canal, which Panama's terrain would not allow. Malaria and yellow fever killed over 20,000 before anyone knew mosquitoes carried them. The company collapsed in 1889 in a corruption scandal. The Americans won partly because by then the mosquito link was understood.",
+      "riskTier": "source",
       "sourceRefs": [
         "lindahall-panama-french",
         "history-panama-deaths"
       ],
-      "riskTier": "source"
+      "review": {
+        "state": "verified",
+        "at": "2026-09-03",
+        "by": "tanner@tjs16media.com",
+        "note": "carried over: had a cited source before IDs existed"
+      }
     },
     {
+      "id": "frq-0674",
       "category": "History",
       "question": "Ho Chi Minh spent roughly thirty years abroad before returning to lead Vietnam's independence movement. Where did those years take him?",
       "options": [
@@ -31,12 +39,19 @@
       "answer": "Paris, London, Moscow and New York, working odd jobs",
       "explanation": "He left Saigon in 1911 as a kitchen hand on the steamer Amirale de Latouche-Treville, spent two years at sea calling at ports in Europe, Africa and the United States, then took odd jobs in New York and Boston and worked in London restaurants through the war. At the 1919 Versailles conference, writing as Nguyen Ai Quoc, he petitioned the great powers for equal rights in French Indochina and was ignored. He was a founding member of the French Communist Party in December 1920, trained in Moscow, and returned to Vietnam in 1941.",
       "memory_hook": "He left in 1911 as a ship's cook, worked as a pastry chef in London under Escoffier and retouched photos in Paris. At Versailles in 1919 he petitioned for Vietnamese rights and was ignored. He helped found the French Communist Party, trained in Moscow, and got home in 1941 after thirty years.",
+      "riskTier": "source",
       "sourceRefs": [
         "britannica-ho-chi-minh"
       ],
-      "riskTier": "source"
+      "review": {
+        "state": "verified",
+        "at": "2026-09-03",
+        "by": "tanner@tjs16media.com",
+        "note": "carried over: had a cited source before IDs existed"
+      }
     },
     {
+      "id": "frq-0675",
       "category": "History",
       "question": "The storming of the Bastille on 14 July 1789 became France's national day. How many prisoners were actually inside?",
       "options": [
@@ -48,13 +63,20 @@
       "answer": "Seven, none of them political prisoners",
       "explanation": "The seven were four forgers, two men held as insane, and one aristocrat imprisoned at his own family's request. The crowd was not there to free them; they came for the gunpowder stored inside, having already taken muskets from the Invalides. The Bastille mattered as a symbol of arbitrary royal power rather than as a working prison, and demolition began almost immediately. Its governor was killed and his head paraded on a pike.",
       "memory_hook": "Seven prisoners: four forgers, two men held as insane, and one aristocrat locked up at his own family's request. The crowd wanted the gunpowder inside, not the prisoners. The Bastille was a symbol of arbitrary royal power, which is why it mattered. Demolition started almost at once.",
+      "riskTier": "source",
       "sourceRefs": [
         "britannica-bastille",
         "whe-bastille"
       ],
-      "riskTier": "source"
+      "review": {
+        "state": "verified",
+        "at": "2026-09-03",
+        "by": "tanner@tjs16media.com",
+        "note": "carried over: had a cited source before IDs existed"
+      }
     },
     {
+      "id": "frq-0676",
       "category": "Sports",
       "question": "The Indianapolis 500 covers 200 laps of a two-and-a-half-mile oval. What tradition marks the finish?",
       "options": [
@@ -66,14 +88,21 @@
       "answer": "The winner drinks a bottle of milk in victory lane",
       "explanation": "Louis Meyer drank buttermilk after winning in 1936 because it was hot and his mother recommended it. A photographer caught it, a dairy executive saw the picture, and the industry turned it into a standing arrangement. Since 2006 every driver states a preference before the race: whole, two percent or skim. Emerson Fittipaldi drank orange juice in 1993 to promote his own Brazilian groves, was booed, and forfeited a $5,000 dairy prize. Kissing the yard of bricks started separately, at the 1996 Brickyard 400.",
       "memory_hook": "Louis Meyer drank buttermilk after winning in 1936 on his mother's advice, a photographer caught it, and a dairy group made it permanent. Winners now pick whole, two percent or skim beforehand. Fittipaldi drank orange juice in 1993 because he owned groves, and got booed for it.",
+      "riskTier": "source",
       "sourceRefs": [
         "ims-milk-tradition",
         "ims-kiss-bricks",
         "deseret-fittipaldi-1993"
       ],
-      "riskTier": "source"
+      "review": {
+        "state": "verified",
+        "at": "2026-09-03",
+        "by": "tanner@tjs16media.com",
+        "note": "carried over: had a cited source before IDs existed"
+      }
     },
     {
+      "id": "frq-0677",
       "category": "Sports",
       "question": "Icing is called in ice hockey when a team shoots the puck the length of the rink untouched. What does the offending team face?",
       "options": [
@@ -85,13 +114,20 @@
       "answer": "A faceoff in their own zone with no line change",
       "explanation": "The no-change rule is what gives icing its teeth. Teams ice the puck to relieve pressure, so the punishment is being pinned in your own end with the tired players who just did it, against fresh opponents. That part is recent: the line-change ban came in with the 2005-06 rules package, alongside the removal of the centre red line and the shootout. Icing itself dates to 1937, brought in to stop teams dumping the puck out of their own zone to kill time. A shorthanded team may still ice it legally.",
       "memory_hook": "The punishment is the no-change rule: you are stuck in your own zone with the exhausted line that just iced it, facing fresh legs. Icing exists to relieve pressure, so the penalty removes exactly that. Brought in during 1937 after teams iced the puck dozens of times to sit on a lead.",
+      "riskTier": "source",
       "sourceRefs": [
         "nhl-historical-rule-changes",
         "espn-2005-rule-changes"
       ],
-      "riskTier": "source"
+      "review": {
+        "state": "verified",
+        "at": "2026-09-03",
+        "by": "tanner@tjs16media.com",
+        "note": "carried over: had a cited source before IDs existed"
+      }
     },
     {
+      "id": "frq-0678",
       "category": "Pop Culture",
       "question": "Henri Matisse co-founded Fauvism in 1905 and reinvented himself again with cut-outs in his 80s. What was his central obsession?",
       "options": [
@@ -103,12 +139,19 @@
       "answer": "Color, not form, as painting's fundamental language",
       "explanation": "Where Picasso pursued form and structure, Matisse pursued colour as the thing itself. The 1905 Fauve canvases used unblended, deliberately unrealistic combinations, green and red faces, orange shadows. He told the critic Teriade in 1936: 'I don't paint things. I only paint the difference between things.' Bedridden after cancer surgery in his final years, he made the gouaches decoupees, cut-paper works like The Snail and Blue Nude that many rank with his paintings. The Jazz series was published as a book in 1947.",
       "memory_hook": "Matisse said 'I don't paint things; I paint the difference between things' — his entire career was about color as emotion, not description. When cancer forced him to bed, he switched to scissors and paper, creating cut-outs many consider his masterworks.",
+      "riskTier": "source",
       "sourceRefs": [
         "matisse-teriade-quote"
       ],
-      "riskTier": "source"
+      "review": {
+        "state": "verified",
+        "at": "2026-09-03",
+        "by": "tanner@tjs16media.com",
+        "note": "carried over: had a cited source before IDs existed"
+      }
     },
     {
+      "id": "frq-0679",
       "category": "Pop Culture",
       "question": "West Side Story moves Romeo and Juliet to 1950s New York. Which two groups stand in for the Montagues and Capulets?",
       "options": [
@@ -120,12 +163,19 @@
       "answer": "The Jets and the Sharks, split along ethnic lines",
       "explanation": "The Jets are white working-class New Yorkers, the Sharks are Puerto Rican immigrants, and the feud plays out on the Upper West Side blocks then being cleared for Lincoln Center. Jerome Robbins pitched it to Bernstein and Arthur Laurents in 1949 as East Side Story, a Jewish girl and an Italian Catholic boy at Easter and Passover, with the rival gangs called the Jets and the Emeralds. Bernstein wrote the score and Stephen Sondheim, then twenty-five, the lyrics.",
       "memory_hook": "Jets are white working-class New Yorkers, Sharks are Puerto Rican, and they fight over blocks being demolished for Lincoln Center. Robbins first drafted it as Catholic against Jewish at Easter and Passover. Bernstein wrote the music, Sondheim the lyrics at twenty-five. It lost the Tony to The Music Man.",
+      "riskTier": "source",
       "sourceRefs": [
         "bernstein-wss-official"
       ],
-      "riskTier": "source"
+      "review": {
+        "state": "verified",
+        "at": "2026-09-03",
+        "by": "tanner@tjs16media.com",
+        "note": "carried over: had a cited source before IDs existed"
+      }
     },
     {
+      "id": "frq-0680",
       "category": "Pop Culture",
       "question": "David Bowie's alter ego 'Ziggy Stardust' appeared on which 1972 album?",
       "options": [
@@ -138,9 +188,16 @@
       "explanation": "The Rise and Fall of Ziggy Stardust and the Spiders from Mars (1972) introduced David Bowie's androgynous alien rock star alter ego. The concept album blended glam rock with science fiction themes about a doomed musician who becomes a messiah. Bowie performed as Ziggy for 18 months before dramatically retiring the character onstage. It is one of the most influential albums in rock history.",
       "memory_hook": "Ziggy Stardust = Bowie, 1972. An alien rock star persona who becomes a messiah. Bowie 'killed' Ziggy onstage in 1973 — announced mid-concert that it was their last show. The audience had no idea. They thought it was part of the act.",
       "riskTier": "canonical",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      },
       "canonicalNote": "universally attested, no source disputes it and nothing here can change"
     },
     {
+      "id": "frq-0681",
       "category": "Geography",
       "question": "The East African Rift is slowly pulling the continent apart. What will eventually happen along it?",
       "options": [
@@ -152,12 +209,19 @@
       "answer": "A new ocean will form, cutting off the Horn of Africa",
       "explanation": "The Somali and Nubian plates are separating at roughly 6 to 7 millimetres a year. On a timescale of five to ten million years the rift will flood and the Horn of Africa will become an island, the same way Arabia separated to form the Red Sea. The process is observable now: in September 2005 a 60-kilometre dyke forced its way into the Dabbahu segment of Ethiopia's Afar region, the largest single magmatic rifting episode on record. The rift's lakes, Tanganyika and Malawi among them, sit in the widening trough.",
       "memory_hook": "The Somali and Nubian plates are pulling apart about 6mm a year, and in five to ten million years the sea will flood in and make the Horn of Africa an island, exactly how the Red Sea formed. You can watch it happen: a 56km crack opened in Ethiopia's Afar region in ten days in 2005.",
+      "riskTier": "source",
       "sourceRefs": [
         "gji-dabbahu-2005"
       ],
-      "riskTier": "source"
+      "review": {
+        "state": "verified",
+        "at": "2026-09-03",
+        "by": "tanner@tjs16media.com",
+        "note": "carried over: had a cited source before IDs existed"
+      }
     },
     {
+      "id": "frq-0682",
       "category": "Science & Nature",
       "question": "Mary Anning found some of the first complete ichthyosaur and plesiosaur fossils in the cliffs at Lyme Regis. Why did she get so little credit?",
       "options": [
@@ -169,12 +233,19 @@
       "answer": "As a woman she was barred from the Geological Society",
       "explanation": "Anning was a working-class woman selling fossils to support her family, and the gentlemen geologists who bought them published the findings under their own names without crediting her. She could not join the Geological Society of London, attend its meetings, or publish in its journals. Her work was central to establishing that species had gone extinct, which unsettled prevailing religious accounts of creation. The Society finally admitted women in 1904, fifty-seven years after her death.",
       "memory_hook": "Anning was a working-class woman selling fossils to feed her family, and the gentlemen who bought them published under their own names. She could not join the Geological Society, attend meetings, or publish. Her finds helped prove extinction was real. The Society admitted women in 1904, 57 years after she died.",
+      "riskTier": "source",
       "sourceRefs": [
         "britannica-mary-anning"
       ],
-      "riskTier": "source"
+      "review": {
+        "state": "verified",
+        "at": "2026-09-03",
+        "by": "tanner@tjs16media.com",
+        "note": "carried over: had a cited source before IDs existed"
+      }
     },
     {
+      "id": "frq-0683",
       "category": "Geography",
       "question": "The Great Artesian Basin underlies about a fifth of Australia. Why does its water reach the surface without any pumping?",
       "options": [
@@ -186,12 +257,19 @@
       "answer": "Pressure from water entering at higher ground far away",
       "explanation": "Rain falls on the Great Dividing Range in the east and soaks into porous rock sandwiched between impermeable layers. Because the intake sits higher than the outlets, the trapped water is under pressure and rises on its own wherever the confining layer is breached. That is what artesian means. The basin covers about 1.7 million square kilometres, roughly a fifth of the continent, and the water emerges hot. Uncapped bores wasted enormous volumes through the twentieth century, and basin pressure has fallen measurably since.",
       "memory_hook": "Rain falls on high ground in the east, soaks into porous rock trapped between impermeable layers, and because the intake is higher than the outlet the water is under pressure and rises by itself. That is what artesian means. It can be a million years old and comes up hot. Uncapped bores drained the pressure for decades.",
+      "riskTier": "source",
       "sourceRefs": [
         "dcceew-gab-2024"
       ],
-      "riskTier": "source"
+      "review": {
+        "state": "verified",
+        "at": "2026-09-03",
+        "by": "tanner@tjs16media.com",
+        "note": "carried over: had a cited source before IDs existed"
+      }
     },
     {
+      "id": "frq-0684",
       "category": "Science & Nature",
       "question": "What are the noble gases — the chemically unreactive elements in Group 18 of the periodic table?",
       "options": [
@@ -204,6 +282,12 @@
       "explanation": "The noble gases (Group 18) are helium (He), neon (Ne), argon (Ar), krypton (Kr), xenon (Xe), and radon (Rn). They are chemically unreactive because their outer electron shells are completely full, giving them no tendency to form bonds. Their uses include: helium (balloons, MRI cooling), neon (signs), argon (welding shield gas), krypton and xenon (specialty lights), radon (radiation monitoring — it's a radioactive health hazard from soil). Oganesson (Og) is sometimes included as a theoretical noble gas.",
       "memory_hook": "Noble gases: He, Ne, Ar, Kr, Xe, Rn. Full outer electron shells = never react. Helium in balloons and MRI machines. Neon in signs. Argon in welding. Radon is the scary one — seeps from soil into basements and is the #2 cause of lung cancer. Being unreactive is usually safe; radon is the exception.",
       "riskTier": "canonical",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      },
       "canonicalNote": "universally attested, no source disputes it and nothing here can change"
     }
   ]

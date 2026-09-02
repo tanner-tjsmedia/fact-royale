@@ -1,6 +1,7 @@
 {
   "questions": [
     {
+      "id": "frq-0217",
       "category": "History",
       "question": "Which disease caused the Black Death pandemic of the 14th century?",
       "options": [
@@ -11,9 +12,16 @@
       ],
       "answer": "Bubonic plague",
       "explanation": "The Black Death (1347–1351) was caused by Yersinia pestis, the bacterium responsible for bubonic plague. It killed an estimated 30–60% of Europe's population. The disease was spread primarily by fleas on rats, which traveled along trade routes.",
-      "memory_hook": "Bubonic = buboes (swollen lymph nodes) = the Black Death's calling card."
+      "memory_hook": "Bubonic = buboes (swollen lymph nodes) = the Black Death's calling card.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0218",
       "category": "History",
       "question": "The first successful powered airplane flight was made by whom?",
       "options": [
@@ -24,9 +32,16 @@
       ],
       "answer": "The Wright Brothers",
       "explanation": "Orville and Wilbur Wright made the first successful powered airplane flight on December 17, 1903, at Kitty Hawk, North Carolina. The first flight lasted 12 seconds and covered 120 feet. They made four flights that day, the longest lasting 59 seconds.",
-      "memory_hook": "Wright brothers — they made it right on their first try (after years of trying)."
+      "memory_hook": "Wright brothers — they made it right on their first try (after years of trying).",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0219",
       "category": "Sports",
       "question": "In which sport would you find a 'hat trick'?",
       "options": [
@@ -37,9 +52,16 @@
       ],
       "answer": "Both Ice Hockey and Soccer",
       "explanation": "A hat trick is scoring three goals in a single game, and the term is most commonly used in soccer/football and ice hockey. It originated in cricket, where a bowler taking three consecutive wickets earned a hat. Baseball has no equivalent term. In hockey and soccer, scoring three in one game is one of the most celebrated individual feats.",
-      "memory_hook": "Hat trick = three goals in one game. Hockey and soccer own the term — baseball has strikeouts, not hat tricks."
+      "memory_hook": "Hat trick = three goals in one game. Hockey and soccer own the term — baseball has strikeouts, not hat tricks.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0220",
       "category": "Sports",
       "question": "Donated by a Canadian Governor General in 1892, which trophy is the oldest championship trophy awarded in North American professional sports?",
       "options": [
@@ -50,9 +72,16 @@
       ],
       "answer": "The Stanley Cup",
       "explanation": "The Stanley Cup was donated by Lord Stanley of Preston, the Governor General of Canada, in 1892. It has been awarded to the NHL playoff champion since 1926 and is the oldest professional sports championship trophy in North America.",
-      "memory_hook": "Stanley Cup = oldest pro sports trophy in North America. Lord Stanley donated it in 1892."
+      "memory_hook": "Stanley Cup = oldest pro sports trophy in North America. Lord Stanley donated it in 1892.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0221",
       "category": "Pop Culture",
       "question": "Which 1997 James Cameron film starred Leonardo DiCaprio and Kate Winslet?",
       "options": [
@@ -63,9 +92,16 @@
       ],
       "answer": "Titanic",
       "explanation": "Titanic (1997) starred Leonardo DiCaprio as Jack Dawson and Kate Winslet as Rose DeWitt Bukater. The film won 11 Academy Awards, including Best Picture and Best Director, and was the highest-grossing film of all time until Avatar (also directed by Cameron) surpassed it.",
-      "memory_hook": "DiCaprio never won an Oscar for Titanic — but the ship won 11."
+      "memory_hook": "DiCaprio never won an Oscar for Titanic — but the ship won 11.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0222",
       "category": "Pop Culture",
       "question": "What instrument is Yo-Yo Ma famous for playing?",
       "options": [
@@ -76,9 +112,16 @@
       ],
       "answer": "Cello",
       "explanation": "Yo-Yo Ma is a world-renowned cellist born in Paris to Chinese parents. He began playing cello at age four and has recorded over 100 albums. He has won 19 Grammy Awards and is known for both classical and cross-genre work including collaboration with bluegrass and tango musicians.",
-      "memory_hook": "Yo-Yo Ma: his name bounces up and down like his bow on the cello strings."
+      "memory_hook": "Yo-Yo Ma: his name bounces up and down like his bow on the cello strings.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0223",
       "category": "Pop Culture",
       "question": "Which film series features 'Hogwarts School of Witchcraft and Wizardry'?",
       "options": [
@@ -89,9 +132,16 @@
       ],
       "answer": "Harry Potter",
       "explanation": "The Harry Potter film series (2001–2011), based on J.K. Rowling's books, follows Harry Potter at Hogwarts School of Witchcraft and Wizardry. The series of eight films grossed over $7.7 billion worldwide, making it one of the highest-grossing franchises in history.",
-      "memory_hook": "Hogwarts: hogs + warts = not pretty, but magical."
+      "memory_hook": "Hogwarts: hogs + warts = not pretty, but magical.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0224",
       "category": "History",
       "question": "Which nation did Germany invade in 1939 to trigger the start of World War II?",
       "options": [
@@ -102,9 +152,16 @@
       ],
       "answer": "Poland",
       "explanation": "Germany invaded Poland on September 1, 1939, under Adolf Hitler's orders. Britain and France, bound by treaty to defend Poland, declared war on Germany two days later, officially beginning World War II in Europe.",
-      "memory_hook": "Poland first — one invasion started the world's deadliest war."
+      "memory_hook": "Poland first — one invasion started the world's deadliest war.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0225",
       "category": "Geography",
       "question": "The Panama Canal connects which two bodies of water?",
       "options": [
@@ -115,9 +172,16 @@
       ],
       "answer": "Pacific Ocean and Atlantic Ocean",
       "explanation": "The Panama Canal, completed in 1914, cuts through the isthmus of Panama to connect the Pacific Ocean on the west with the Atlantic Ocean (via the Caribbean Sea) on the east. It shortens the sea voyage between the two oceans by about 15,000 km, eliminating the need to sail around South America's Cape Horn.",
-      "memory_hook": "Panama = Pacific to Atlantic shortcut. Before the canal, ships had to go all the way around South America. 15,000 km saved per trip."
+      "memory_hook": "Panama = Pacific to Atlantic shortcut. Before the canal, ships had to go all the way around South America. 15,000 km saved per trip.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0226",
       "category": "Science & Nature",
       "question": "Which organ in the human body produces insulin?",
       "options": [
@@ -128,9 +192,16 @@
       ],
       "answer": "Pancreas",
       "explanation": "The pancreas produces insulin, a hormone that allows cells to absorb glucose from the bloodstream. Without insulin, blood sugar builds up dangerously. In Type 1 diabetes, the immune system destroys the insulin-producing cells. In Type 2, cells become resistant to insulin. The pancreas also produces digestive enzymes.",
-      "memory_hook": "Pancreas = insulin factory. When the pancreas fails to produce insulin, you get diabetes. It's both an endocrine organ (hormones) and a digestive organ (enzymes) at the same time."
+      "memory_hook": "Pancreas = insulin factory. When the pancreas fails to produce insulin, you get diabetes. It's both an endocrine organ (hormones) and a digestive organ (enzymes) at the same time.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0227",
       "category": "Geography",
       "question": "Mount Aconcagua in Argentina, at 6,961 meters, is the highest peak in which geographic region?",
       "options": [
@@ -141,9 +212,16 @@
       ],
       "answer": "The Americas (Western and Southern Hemispheres)",
       "explanation": "Mount Aconcagua in the Argentine Andes is the highest peak in both the Western and Southern Hemispheres, as well as the highest peak outside Asia. It sits near the border with Chile and is a popular mountaineering destination since it can be climbed without technical climbing equipment (though altitude acclimatization is essential). The name Aconcagua is derived from the Quechua language, meaning 'sentinel of stone.'",
-      "memory_hook": "Aconcagua = 6,961m, highest peak in the Americas (and outside Asia). Argentine Andes, near Chilean border. 'Sentinel of stone' in Quechua. A major mountaineering peak — no technical equipment needed, but altitude is brutal."
+      "memory_hook": "Aconcagua = 6,961m, highest peak in the Americas (and outside Asia). Argentine Andes, near Chilean border. 'Sentinel of stone' in Quechua. A major mountaineering peak — no technical equipment needed, but altitude is brutal.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0228",
       "category": "Science & Nature",
       "question": "What is the term for a close long-term relationship between two different species where both benefit?",
       "options": [
@@ -154,7 +232,13 @@
       ],
       "answer": "Mutualism",
       "explanation": "Mutualism is a type of symbiosis where both species benefit from their relationship. Classic examples include: clownfish and sea anemones (fish gets protection, anemone gets cleaning and nutrient-rich waste); bees and flowers (bees get nectar, flowers get pollinated); and the relationship between humans and gut bacteria (we provide a habitat, bacteria help digest food). Mutualism is distinguished from commensalism (one benefits, other unaffected) and parasitism (one benefits, other harmed).",
-      "memory_hook": "Mutualism = both species benefit. Clownfish + anemone. Bees + flowers. You + gut bacteria. Distinguished from commensalism (one benefits, other neutral) and parasitism (one benefits, other harmed). Most ecosystems run on mutualistic relationships."
+      "memory_hook": "Mutualism = both species benefit. Clownfish + anemone. Bees + flowers. You + gut bacteria. Distinguished from commensalism (one benefits, other neutral) and parasitism (one benefits, other harmed). Most ecosystems run on mutualistic relationships.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     }
   ]
 }

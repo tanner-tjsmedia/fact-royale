@@ -2,6 +2,7 @@
   "date": "2026-08-05",
   "questions": [
     {
+      "id": "frq-0613",
       "category": "History",
       "question": "The Viking Age is generally considered to have begun with an attack on which English monastery in 793 AD?",
       "options": [
@@ -12,9 +13,16 @@
       ],
       "answer": "Lindisfarne",
       "explanation": "The Viking Age is traditionally dated from the raid on the monastery of Lindisfarne (Holy Island) off the northeast coast of England on June 8, 793 AD. Vikings from Scandinavia attacked the monastery, killed monks, stole treasure, and left. The raid shocked Christian Europe and marked the beginning of over 200 years of Viking expansion across Europe, the North Atlantic, and eventually to North America.",
-      "memory_hook": "Vikings started with Lindisfarne, 793 AD. Christian Europe was horrified — raiding a holy island seemed beyond the pale. For the Vikings it was just business. 200 years of raids, trade, settlement, and exploration followed."
+      "memory_hook": "Vikings started with Lindisfarne, 793 AD. Christian Europe was horrified — raiding a holy island seemed beyond the pale. For the Vikings it was just business. 200 years of raids, trade, settlement, and exploration followed.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0614",
       "category": "History",
       "question": "The Aztec Empire had its capital at Tenochtitlan, located on the site of which modern city?",
       "options": [
@@ -25,9 +33,16 @@
       ],
       "answer": "Mexico City",
       "explanation": "Tenochtitlan was built on an island in Lake Texcoco, which now lies beneath modern Mexico City. Founded in 1325, it became one of the largest cities in the world, with an estimated population of 200,000-300,000 at its peak. Spanish conquistador Hernán Cortés conquered and destroyed Tenochtitlan in 1521, building Mexico City on its ruins. The Aztec capital had advanced water systems, markets, and causeways.",
-      "memory_hook": "Tenochtitlan = Mexico City. The Aztec capital was on an island with causeways and aqueducts. The Spanish razed it and built Mexico City directly on top. The foundation of a destroyed civilization literally supports the modern city."
+      "memory_hook": "Tenochtitlan = Mexico City. The Aztec capital was on an island with causeways and aqueducts. The Spanish razed it and built Mexico City directly on top. The foundation of a destroyed civilization literally supports the modern city.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0615",
       "category": "History",
       "question": "The Cold War standoff between the US and Soviet Union over nuclear missiles in Cuba occurred in which year?",
       "options": [
@@ -38,9 +53,16 @@
       ],
       "answer": "1962",
       "explanation": "The Cuban Missile Crisis (October 1962) was the closest the world came to nuclear war during the Cold War. The Soviet Union began installing nuclear missiles in Cuba, 90 miles from Florida. After 13 days of tense negotiations, the Soviets agreed to remove the missiles in exchange for a US pledge not to invade Cuba and a secret agreement to remove US missiles from Turkey.",
-      "memory_hook": "Cuban Missile Crisis = 1962, 13 days. Missiles 90 miles from Florida. The world was hours from nuclear war. Both Kennedy and Khrushchev had advisors urging military action. Both leaders chose negotiation instead."
+      "memory_hook": "Cuban Missile Crisis = 1962, 13 days. Missiles 90 miles from Florida. The world was hours from nuclear war. Both Kennedy and Khrushchev had advisors urging military action. Both leaders chose negotiation instead.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0616",
       "category": "Sports",
       "question": "In which sport do athletes compete in the 'decathlon'?",
       "options": [
@@ -51,9 +73,16 @@
       ],
       "answer": "Track and field",
       "explanation": "The decathlon is a combined event in track and field consisting of ten events over two days: 100m, long jump, shot put, high jump, 400m on day one; then 110m hurdles, discus, pole vault, javelin, and 1500m on day two. Points are scored based on performance in each event, and the winner is called the world's greatest athlete. Daley Thompson, Ashton Eaton, and Kevin Mayer are notable champions.",
-      "memory_hook": "Decathlon = ten events, two days. 100m through 1500m with jumping and throwing mixed in. The decathlon winner gets called the world's greatest athlete — ten different disciplines, one supreme generalist."
+      "memory_hook": "Decathlon = ten events, two days. 100m through 1500m with jumping and throwing mixed in. The decathlon winner gets called the world's greatest athlete — ten different disciplines, one supreme generalist.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0617",
       "category": "Sports",
       "question": "The 1999 Women's World Cup final (USA vs China) drew a record US TV audience. How did it end?",
       "options": [
@@ -64,9 +93,16 @@
       ],
       "answer": "Brandi Chastain won it on penalties, then removed her jersey",
       "explanation": "The match at the Rose Bowl drew 90,185 spectators — still the women's soccer attendance record. The game ended 0-0 after 120 minutes. Chinese goalkeeper Gao Hong and US goalkeeper Briana Scurry both made crucial saves. Scurry saved Liu Ying's kick in the third round — rules state goalkeepers must stay on their line but Scurry stepped forward early, which was technically illegal but not called. Chastain converted the final penalty and immediately pulled off her jersey, dropping to her knees. Time magazine, Newsweek, and Sports Illustrated all put the image on their covers. The tournament generated more US TV viewership than many men's sporting events and transformed women's soccer in America.",
-      "memory_hook": "90,185 fans at the Rose Bowl — still the women's soccer attendance record. The goalkeeper Scurry stepped off her line early to save a key penalty (technically illegal, uncalled). Chastain's winning penalty and jersey-removal went on the covers of Time, Newsweek, and Sports Illustrated simultaneously. The tournament essentially launched women's pro soccer in America."
+      "memory_hook": "90,185 fans at the Rose Bowl — still the women's soccer attendance record. The goalkeeper Scurry stepped off her line early to save a key penalty (technically illegal, uncalled). Chastain's winning penalty and jersey-removal went on the covers of Time, Newsweek, and Sports Illustrated simultaneously. The tournament essentially launched women's pro soccer in America.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0618",
       "category": "Pop Culture",
       "question": "Gustav Klimt's 'The Kiss' (1907-08) is the signature work of his Golden Phase. What defines it?",
       "options": [
@@ -77,9 +113,16 @@
       ],
       "answer": "Real gold leaf, Byzantine influence, a sensual subject",
       "explanation": "Klimt's Golden Phase (roughly 1899–1910) was inspired by Byzantine mosaics he saw in Ravenna, Italy. The Kiss features the couple dissolving into a swirling field of gold and geometric patterns — their clothes merge into abstract decoration, making it impossible to tell where one figure ends and the other begins. Klimt's frank sensuality made him a controversial figure in Vienna's art establishment. The Kiss never left Vienna — it's at the Belvedere Museum, which declined to sell it; the Austrian government later declared it a national treasure.",
-      "memory_hook": "Klimt used real gold leaf — inspired by Byzantine mosaics in Ravenna — to dissolve two lovers into a swirling golden field where you can't tell where one body ends and the other begins. The Kiss never left Vienna; Austria declared it a national treasure."
+      "memory_hook": "Klimt used real gold leaf — inspired by Byzantine mosaics in Ravenna — to dissolve two lovers into a swirling golden field where you can't tell where one body ends and the other begins. The Kiss never left Vienna; Austria declared it a national treasure.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0619",
       "category": "Pop Culture",
       "question": "Which musician was known as the 'Purple One' and performed at the 2007 Super Bowl halftime show?",
       "options": [
@@ -90,9 +133,16 @@
       ],
       "answer": "Prince",
       "explanation": "Prince (Prince Rogers Nelson) was known as the 'Purple One' for his signature color and performed one of the most celebrated Super Bowl halftime shows ever in 2007. He played during a rainstorm and said he wouldn't use a rain cover for his guitar because it would look bad — then closed with 'Purple Rain,' his ode to emotional turmoil, during actual rain. It's still considered the greatest Super Bowl halftime performance.",
-      "memory_hook": "Prince = Purple Rain in the actual rain at Super Bowl XLI. He was asked if the rain was a problem. He said: 'Can you make it rain harder?' Then he played 'Purple Rain' in a downpour. Legend."
+      "memory_hook": "Prince = Purple Rain in the actual rain at Super Bowl XLI. He was asked if the rain was a problem. He said: 'Can you make it rain harder?' Then he played 'Purple Rain' in a downpour. Legend.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0620",
       "category": "Pop Culture",
       "question": "Gaudí's Sagrada Família, begun in 1882, is still unfinished. What makes it architecturally radical?",
       "options": [
@@ -103,9 +153,16 @@
       ],
       "answer": "Organic forms from trees and bones; no straight lines",
       "explanation": "Gaudí studied the structural logic of nature — the branching of trees, the geometry of shells — and used hyperboloid columns, paraboloid vaults, and hyperbolic paraboloids to create forms that are structurally self-supporting without buttresses. He reportedly said: 'Originality means returning to the origin.' Gaudí died in 1926 after being struck by a tram; much of his documentation was destroyed in the Spanish Civil War, forcing architects to reconstruct his intentions from models and photographs. Completion is projected for 2026.",
-      "memory_hook": "Gaudí modeled the Sagrada Família on trees and bones — his organic columns branch like forests to distribute load without buttresses. He was killed by a tram in 1926; completion is projected for 2026, 144 years after construction began."
+      "memory_hook": "Gaudí modeled the Sagrada Família on trees and bones — his organic columns branch like forests to distribute load without buttresses. He was killed by a tram in 1926; completion is projected for 2026, 144 years after construction began.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0621",
       "category": "Geography",
       "question": "Which African country has the largest population?",
       "options": [
@@ -116,9 +173,16 @@
       ],
       "answer": "Nigeria",
       "explanation": "Nigeria is Africa's most populous country, with approximately 220 million people, and is projected to become the world's third most populous country by 2050, ahead of the United States. Located in West Africa, it has over 500 ethnic groups and languages. Lagos, its commercial capital, is one of Africa's largest cities with an estimated 15-20 million people in its metro area.",
-      "memory_hook": "Nigeria = most people in Africa, ~220 million. Projected to be 3rd most populous in the world by 2050, passing the US. Lagos is already one of the fastest-growing megacities in the world."
+      "memory_hook": "Nigeria = most people in Africa, ~220 million. Projected to be 3rd most populous in the world by 2050, passing the US. Lagos is already one of the fastest-growing megacities in the world.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0622",
       "category": "Science & Nature",
       "question": "What is the name for the period in Earth's history when dinosaurs lived?",
       "options": [
@@ -129,9 +193,16 @@
       ],
       "answer": "Mesozoic Era",
       "explanation": "Dinosaurs lived during the Mesozoic Era, which lasted from about 252 to 66 million years ago. The Mesozoic is divided into three periods: the Triassic (when dinosaurs first appeared), Jurassic, and Cretaceous (when they went extinct). The era ended when a massive asteroid impact combined with volcanic activity caused a mass extinction that wiped out about 76% of all species, including non-avian dinosaurs.",
-      "memory_hook": "Dinosaurs = Mesozoic Era. Triassic, Jurassic, Cretaceous. Mesozoic means 'middle life.' Birds are actually living dinosaurs — the only lineage that survived the asteroid 66 million years ago."
+      "memory_hook": "Dinosaurs = Mesozoic Era. Triassic, Jurassic, Cretaceous. Mesozoic means 'middle life.' Birds are actually living dinosaurs — the only lineage that survived the asteroid 66 million years ago.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0623",
       "category": "Geography",
       "question": "The Strait of Dover, the narrowest point of the English Channel, separates England from France. How wide is it at its narrowest?",
       "options": [
@@ -142,9 +213,16 @@
       ],
       "answer": "33 km",
       "explanation": "The Strait of Dover (French: Pas de Calais) is approximately 33 km (21 miles) wide at its narrowest point, between Dover (England) and Cap Gris-Nez (France). It is the world's busiest shipping lane, with over 600 ships passing through daily. The Channel Tunnel runs beneath it (38 km of the 50 km total is underwater). On a clear day, the French coast is visible from the White Cliffs of Dover — which is why England has always worried about invasion from the continent.",
-      "memory_hook": "Strait of Dover: 33 km wide, world's busiest shipping lane. 600+ ships daily. You can see France from Dover on a clear day. Channel Tunnel runs beneath it (38 km underwater). This narrow strip of water has shaped British history — it's the reason England avoided so many European invasions."
+      "memory_hook": "Strait of Dover: 33 km wide, world's busiest shipping lane. 600+ ships daily. You can see France from Dover on a clear day. Channel Tunnel runs beneath it (38 km underwater). This narrow strip of water has shaped British history — it's the reason England avoided so many European invasions.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0624",
       "category": "Science & Nature",
       "question": "What process causes materials to expand when heated and contract when cooled — and why do bridges and railroads need expansion joints?",
       "options": [
@@ -155,7 +233,13 @@
       ],
       "answer": "Thermal expansion",
       "explanation": "Thermal expansion occurs because heat increases the kinetic energy of molecules, causing them to move faster and push farther apart, expanding the material. Different materials expand at different rates (their coefficient of thermal expansion). Bridges and railroad tracks use expansion joints — deliberate gaps that accommodate expansion on hot summer days and contraction in winter. Without them, roads would buckle in summer heat. The Eiffel Tower is 15 cm taller in summer than in winter due to thermal expansion of its iron structure.",
-      "memory_hook": "Thermal expansion: molecules move faster when hot, spread apart. Bridges and tracks need expansion joints or they buckle in summer. The Eiffel Tower is 15 cm taller in summer than winter. This is also why you should check tire pressure in cold weather — cold air contracts, reducing pressure."
+      "memory_hook": "Thermal expansion: molecules move faster when hot, spread apart. Bridges and tracks need expansion joints or they buckle in summer. The Eiffel Tower is 15 cm taller in summer than winter. This is also why you should check tire pressure in cold weather — cold air contracts, reducing pressure.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     }
   ]
 }

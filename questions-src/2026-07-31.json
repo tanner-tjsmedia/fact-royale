@@ -2,6 +2,7 @@
   "date": "2026-07-31",
   "questions": [
     {
+      "id": "frq-0553",
       "category": "History",
       "question": "The Titanic sank in which year?",
       "options": [
@@ -12,9 +13,16 @@
       ],
       "answer": "1912",
       "explanation": "The RMS Titanic sank on April 15, 1912, after striking an iceberg in the North Atlantic Ocean on its maiden voyage from Southampton to New York. About 1,500 of the 2,224 passengers and crew died. The disaster led to major changes in maritime regulations, including requiring ships to carry enough lifeboats for everyone aboard.",
-      "memory_hook": "Titanic sank in 1912. Maiden voyage. 1,500 deaths. The ship was said to be unsinkable by the press — the White Star Line itself never made that claim. Four days into its first trip."
+      "memory_hook": "Titanic sank in 1912. Maiden voyage. 1,500 deaths. The ship was said to be unsinkable by the press — the White Star Line itself never made that claim. Four days into its first trip.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0554",
       "category": "Science & Nature",
       "question": "Which physicist formulated the theory of special relativity in 1905 and derived the famous equation E=mc², showing mass and energy are interchangeable?",
       "options": [
@@ -25,9 +33,16 @@
       ],
       "answer": "Albert Einstein",
       "explanation": "Albert Einstein published four groundbreaking papers in 1905 — his 'miracle year' — including the theory of special relativity and the mass-energy equivalence equation E=mc². He was awarded the Nobel Prize in Physics in 1921, not for relativity, but for his explanation of the photoelectric effect.",
-      "memory_hook": "Einstein 1905: E=mc², special relativity. Nobel 1921 for photoelectric effect."
+      "memory_hook": "Einstein 1905: E=mc², special relativity. Nobel 1921 for photoelectric effect.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0555",
       "category": "History",
       "question": "The atomic bombs dropped on Japan in August 1945 ended World War II. On which two cities were they dropped?",
       "options": [
@@ -38,9 +53,16 @@
       ],
       "answer": "Hiroshima and Nagasaki",
       "explanation": "The United States dropped an atomic bomb on Hiroshima on August 6, 1945, and another on Nagasaki on August 9, 1945. Hiroshima's bomb ('Little Boy') killed approximately 70,000-80,000 immediately; Nagasaki's ('Fat Man') killed about 40,000 immediately. Japan's Emperor Hirohito announced surrender on August 15, ending World War II. The bombings remain the only use of nuclear weapons in warfare.",
-      "memory_hook": "Hiroshima (Aug 6) then Nagasaki (Aug 9), then Japan surrendered. Three days between the bombs. The only nuclear weapons ever used in war. The decision is still debated by historians today."
+      "memory_hook": "Hiroshima (Aug 6) then Nagasaki (Aug 9), then Japan surrendered. Three days between the bombs. The only nuclear weapons ever used in war. The decision is still debated by historians today.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0556",
       "category": "History",
       "question": "The construction of the Great Wall of China was started during which dynasty to protect against northern invaders?",
       "options": [
@@ -51,9 +73,16 @@
       ],
       "answer": "Qin Dynasty",
       "explanation": "The first sections of the Great Wall were built during the Qin Dynasty (221-206 BC) under Emperor Qin Shi Huang, who unified China and ordered the connection of existing walls to form a northern frontier defense. Most of the wall visible today was built during the Ming Dynasty (1368-1644). The wall stretches over 20,000 km and took hundreds of years and millions of workers to build.",
-      "memory_hook": "Great Wall started in the Qin Dynasty. Most of what tourists see today is Ming Dynasty. It took over 1,000 years of building across multiple dynasties — no single emperor built the whole thing."
+      "memory_hook": "Great Wall started in the Qin Dynasty. Most of what tourists see today is Ming Dynasty. It took over 1,000 years of building across multiple dynasties — no single emperor built the whole thing.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0557",
       "category": "Sports",
       "question": "Which swimmer holds the record for the most Olympic medals of all time?",
       "options": [
@@ -64,9 +93,16 @@
       ],
       "answer": "Michael Phelps",
       "explanation": "Michael Phelps won 28 Olympic medals (23 gold, 3 silver, 2 bronze) across four Olympic Games from 2000 to 2016, making him the most decorated Olympian in history. He won 8 gold medals at the 2008 Beijing Olympics alone, beating the single-Games record. He competed in multiple individual and relay events simultaneously.",
-      "memory_hook": "Phelps = 28 Olympic medals, 23 gold. No one is close. At the 2008 Beijing Olympics he won 8 golds in one Games. His arm span (193 cm) exceeds his height, giving him a physical advantage."
+      "memory_hook": "Phelps = 28 Olympic medals, 23 gold. No one is close. At the 2008 Beijing Olympics he won 8 golds in one Games. His arm span (193 cm) exceeds his height, giving him a physical advantage.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0558",
       "category": "Sports",
       "question": "Simone Biles's withdrawal from multiple events at the 2020 Tokyo Olympics (held 2021) to protect her mental health sparked global conversation. What competitive context makes her overall career so historically significant?",
       "options": [
@@ -77,9 +113,16 @@
       ],
       "answer": "Biles is the most decorated US gymnast ever, with 37 Olympic and World Championship medals, and has performed skills at difficulty levels intentionally rated lower by governing bodies to discourage others from attempting them",
       "explanation": "Biles has 37 Olympic and World Championship medals — more than any other American gymnast. She performs skills like the Biles (floor) and Biles II (beam) — moves the Code of Points scores at lower difficulty than they're actually worth, reportedly to discourage other gymnasts from attempting skills considered too dangerous. She withdrew from team and individual events in Tokyo citing 'the twisties' — a dangerous disorientation gymnasts can experience that causes them to lose spatial awareness mid-air, creating serious injury risk. She returned at the 2024 Paris Olympics, winning gold in team, all-around, and vault.",
-      "memory_hook": "Gymnastics governing bodies deliberately underrate Biles's hardest skills to discourage others from trying them — they're too dangerous. She has 37 Olympic and World Championship medals, and the 'twisties' she experienced in Tokyo (a mid-air spatial disorientation) can be fatal in gymnastics. She came back at Paris 2024 and won three golds."
+      "memory_hook": "Gymnastics governing bodies deliberately underrate Biles's hardest skills to discourage others from trying them — they're too dangerous. She has 37 Olympic and World Championship medals, and the 'twisties' she experienced in Tokyo (a mid-air spatial disorientation) can be fatal in gymnastics. She came back at Paris 2024 and won three golds.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0559",
       "category": "Pop Culture",
       "question": "Aretha Franklin's recording of 'Respect' (1967) transformed an Otis Redding song into an anthem for civil rights and women's liberation. What did she change, and why did it resonate so much more than the original?",
       "options": [
@@ -90,9 +133,16 @@
       ],
       "answer": "Franklin added the iconic spelling 'R-E-S-P-E-C-T' and the 'TCB' bridge (the 'sock it to me' section) — transforming what Redding intended as a straightforward love song into a defiant assertion of female authority",
       "explanation": "Otis Redding wrote and recorded 'Respect' in 1965 as a man's plea to his woman: give me respect when I come home. Franklin flipped the power dynamic — she's commanding, not pleading. She added the spelling (a party-trick hook that became iconic), the 'TCB' bridge, and the 'sock it to me' call-and-response. Redding reportedly heard her version and said she'd 'stolen his song' — in admiration. The recording hit #1 on both pop and R&B charts and won Franklin two Grammys. It was released in April 1967; the Detroit riots began in July 1967. TIME called it one of the 100 greatest songs ever made.",
-      "memory_hook": "Otis Redding wrote 'Respect' as a man pleading for respect from his woman. Franklin flipped the power dynamic, added the spelling, the 'TCB' bridge, and the 'sock it to me' section — turning a plea into a command. Redding heard her version and said she'd 'stolen his song' — meaning it as a compliment. It hit #1 on pop and R&B the same year as the Detroit riots."
+      "memory_hook": "Otis Redding wrote 'Respect' as a man pleading for respect from his woman. Franklin flipped the power dynamic, added the spelling, the 'TCB' bridge, and the 'sock it to me' section — turning a plea into a command. Redding heard her version and said she'd 'stolen his song' — meaning it as a compliment. It hit #1 on pop and R&B the same year as the Detroit riots.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0560",
       "category": "Pop Culture",
       "question": "Which 1977 George Lucas film launched one of the most successful film franchises in history?",
       "options": [
@@ -103,9 +153,16 @@
       ],
       "answer": "Star Wars",
       "explanation": "Star Wars (later subtitled A New Hope) was released on May 25, 1977, and became a cultural phenomenon. It was groundbreaking for its special effects, sound design, and mythological storytelling. It spawned 11 sequel and prequel films, animated series, theme parks, and merchandise that has generated over $70 billion in revenue — the highest-grossing franchise in history at the time.",
-      "memory_hook": "Star Wars, 1977. George Lucas. Studios rejected it repeatedly before Fox took a chance. Lucas gave up his director's fee in exchange for merchandising rights — that decision made him a billionaire."
+      "memory_hook": "Star Wars, 1977. George Lucas. Studios rejected it repeatedly before Fox took a chance. Lucas gave up his director's fee in exchange for merchandising rights — that decision made him a billionaire.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0561",
       "category": "Pop Culture",
       "question": "Which musician is known as the 'King of Rock and Roll'?",
       "options": [
@@ -116,9 +173,16 @@
       ],
       "answer": "Elvis Presley",
       "explanation": "Elvis Presley earned the title 'King of Rock and Roll' through his pioneering fusion of country, blues, and gospel music in the 1950s. He recorded hits including 'Hound Dog,' 'Jailhouse Rock,' and 'Love Me Tender,' and starred in 33 films. His hip-swiveling performance style was considered scandalous on television in the 1950s. He died in 1977 at age 42.",
-      "memory_hook": "Elvis = King of Rock and Roll. His TV appearances were so scandalous they filmed him from the waist up. He took Black musical traditions and brought them to white mainstream America — which made him famous and raises ongoing questions about credit and appropriation."
+      "memory_hook": "Elvis = King of Rock and Roll. His TV appearances were so scandalous they filmed him from the waist up. He took Black musical traditions and brought them to white mainstream America — which made him famous and raises ongoing questions about credit and appropriation.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0562",
       "category": "Geography",
       "question": "The Rhine River flows through Germany and empties into which sea?",
       "options": [
@@ -129,9 +193,16 @@
       ],
       "answer": "North Sea",
       "explanation": "The Rhine originates in the Swiss Alps and flows approximately 1,230 km through Switzerland, Austria, Liechtenstein, Germany, France, and the Netherlands before emptying into the North Sea. It passes through several major European cities including Basel, Cologne, and Rotterdam. The Rhine has been a central artery of European trade and culture for millennia.",
-      "memory_hook": "Rhine flows to the North Sea. Starts in the Swiss Alps, ends in the Netherlands. Major European trade route for 2,000 years — Romans, medieval merchants, and modern shipping all used it."
+      "memory_hook": "Rhine flows to the North Sea. Starts in the Swiss Alps, ends in the Netherlands. Major European trade route for 2,000 years — Romans, medieval merchants, and modern shipping all used it.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0563",
       "category": "Science & Nature",
       "question": "The Oort Cloud is a theoretical region surrounding the solar system that astronomers believe is the source of long-period comets. Why is it 'theoretical'?",
       "options": [
@@ -142,9 +213,16 @@
       ],
       "answer": "No spacecraft has ever reached it, it's too distant for direct observation with current telescopes, and it's inferred from comet trajectories — but its existence and properties are deduced, not directly measured",
       "explanation": "Astronomer Jan Oort proposed the Oort Cloud in 1950 to explain why long-period comets (those taking more than 200 years to orbit) approach from all directions rather than the ecliptic plane. The cloud likely extends from about 2,000 to 100,000 AU — Voyager 1, now 165 AU away after 47 years, won't reach its inner edge for about 300 years. The Kuiper Belt (30–50 AU) is the source of short-period comets like Halley's. Gravitational perturbations from passing stars or the galactic tide occasionally deflect Oort Cloud objects into the inner solar system as comets.",
-      "memory_hook": "The Oort Cloud exists only as a theory — inferred from comet trajectories, never directly observed. It extends up to 100,000 AU from the Sun; Voyager 1, traveling 47 years, won't reach its inner edge for another 300 years. Passing stars nudge icy objects out of it, sending comets toward us."
+      "memory_hook": "The Oort Cloud exists only as a theory — inferred from comet trajectories, never directly observed. It extends up to 100,000 AU from the Sun; Voyager 1, traveling 47 years, won't reach its inner edge for another 300 years. Passing stars nudge icy objects out of it, sending comets toward us.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0564",
       "category": "Geography",
       "question": "The Indus River, which gave India its name, flows primarily through which modern-day country before reaching the Arabian Sea?",
       "options": [
@@ -155,7 +233,13 @@
       ],
       "answer": "Pakistan",
       "explanation": "The Indus River originates in Tibet and flows about 3,180 km through India (briefly) and then almost entirely through Pakistan before emptying into the Arabian Sea near Karachi. The ancient Indus Valley Civilization (3300-1300 BCE), one of the world's earliest urban civilizations, developed along its banks. Today the Indus is Pakistan's lifeblood — its water is distributed through an enormous irrigation network. The river's name gave rise to 'India,' 'Hinduism,' and 'Hindu.'",
-      "memory_hook": "Indus River: 3,180 km, mostly Pakistan → Arabian Sea. Gave 'India,' 'Hindu,' and 'Hinduism' their names. The Indus Valley Civilization (3300 BCE) built sophisticated cities along it. Today it's Pakistan's most critical water source — shared with India via the Indus Waters Treaty (1960)."
+      "memory_hook": "Indus River: 3,180 km, mostly Pakistan → Arabian Sea. Gave 'India,' 'Hindu,' and 'Hinduism' their names. The Indus Valley Civilization (3300 BCE) built sophisticated cities along it. Today it's Pakistan's most critical water source — shared with India via the Indus Waters Treaty (1960).",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     }
   ]
 }

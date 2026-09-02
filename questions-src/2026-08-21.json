@@ -2,6 +2,7 @@
   "date": "2026-08-21",
   "questions": [
     {
+      "id": "frq-0805",
       "category": "History",
       "question": "Around 300 Spartans held Thermopylae in 480 BC, but they were not alone. Who else fought and died there?",
       "options": [
@@ -13,12 +14,19 @@
       "answer": "Around 700 Thespians, who were wiped out entirely",
       "explanation": "The Greek force numbered around 7,000. When a local named Ephialtes showed the Persians a mountain path around the pass, Leonidas dismissed most of the army and stayed with his 300 Spartans, about 700 Thespians and 400 Thebans. The Thespians were volunteers, every hoplite their city could field, and they were killed to the last man, yet they are absent from almost every retelling. Herodotus says the Thebans surrendered once the final stand began, though some historians read that as hindsight against a city that later collaborated.",
       "memory_hook": "About 7,000 Greeks held the pass. When a local showed the Persians a way around, Leonidas sent most home and kept his 300 plus roughly 700 Thespian volunteers and 400 Thebans. The Thespians were annihilated and get left out of every version. Leonidas could only bring men who already had sons.",
+      "riskTier": "source",
       "sourceRefs": [
         "livius-thermopylae"
       ],
-      "riskTier": "source"
+      "review": {
+        "state": "verified",
+        "at": "2026-09-03",
+        "by": "tanner@tjs16media.com",
+        "note": "carried over: had a cited source before IDs existed"
+      }
     },
     {
+      "id": "frq-0806",
       "category": "History",
       "question": "Who assassinated Archduke Franz Ferdinand of Austria in 1914, triggering World War I?",
       "options": [
@@ -30,13 +38,20 @@
       "answer": "A Serbian nationalist",
       "explanation": "Franz Ferdinand, heir to the Austro-Hungarian throne, was shot in Sarajevo on 28 June 1914 by Gavrilo Princip, a nineteen-year-old Bosnian Serb. Princip belonged to Young Bosnia, a student group opposing Austro-Hungarian rule; the weapons and training came from the Black Hand, a secret society of Serbian army officers. The aim was to detach Austria-Hungary's South Slav provinces. The alliance system did the rest, pulling in Germany, Russia, France and Britain within weeks.",
       "memory_hook": "Franz Ferdinand killed by Gavrilo Princip in Sarajevo, June 28, 1914. One assassination pulled 20 countries into war through a web of alliances. The domino effect: Austria blamed Serbia, Germany backed Austria, Russia backed Serbia, France backed Russia, Britain backed France. Six weeks from a shooting to a world war.",
+      "riskTier": "source",
       "sourceRefs": [
         "wwi-museum-june28",
         "britannica-princip"
       ],
-      "riskTier": "source"
+      "review": {
+        "state": "verified",
+        "at": "2026-09-03",
+        "by": "tanner@tjs16media.com",
+        "note": "carried over: had a cited source before IDs existed"
+      }
     },
     {
+      "id": "frq-0807",
       "category": "History",
       "question": "Napoleon's soldiers found the Rosetta Stone in 1799. Who ended up with it, and how?",
       "options": [
@@ -48,12 +63,19 @@
       "answer": "Britain took it after defeating the French in Egypt",
       "explanation": "The 1801 Treaty of Alexandria transferred French-collected antiquities to Britain, and the stone reached the British Museum in 1802, where it remains one of the biggest draws. Champollion, working from copies in France, deciphered the hieroglyphs in 1822 by recognising that the script recorded sounds as well as ideas. Egyptian archaeologists have campaigned for its return and thousands have signed petitions, though the museum says it has received no formal government request. The text itself is a fairly mundane tax decree from 196 BC.",
       "memory_hook": "Britain took it under the 1801 Treaty of Alexandria after beating the French in Egypt, and it has been in the British Museum since 1802 as its most visited object. Champollion cracked it in 1822 from copies, in France. Egypt wants it back. The text is a routine tax decree.",
+      "riskTier": "source",
       "sourceRefs": [
         "artnews-rosetta-petition"
       ],
-      "riskTier": "source"
+      "review": {
+        "state": "verified",
+        "at": "2026-09-03",
+        "by": "tanner@tjs16media.com",
+        "note": "carried over: had a cited source before IDs existed"
+      }
     },
     {
+      "id": "frq-0808",
       "category": "Sports",
       "question": "A hat trick means three of something in one game. Where did cricket's original version get its name?",
       "options": [
@@ -64,9 +86,16 @@
       ],
       "answer": "A bowler took three wickets and was bought a hat",
       "explanation": "H. H. Stephenson took three wickets with consecutive balls in 1858, a collection was taken among spectators, and he was presented with a hat bought with the proceeds. The term spread to hockey, then soccer, where it now means three goals in a match without the consecutive requirement. Ice hockey fans throw hats onto the ice, a custom that began in Toronto where a hatter offered a free hat for three goals.",
-      "memory_hook": "H. H. Stephenson took three wickets in three balls in 1858, spectators passed a hat round, and bought him one with the money. Soccer dropped the consecutive requirement. Hockey fans throw hats on the ice, which started with a Toronto hatter offering a free one for three goals."
+      "memory_hook": "H. H. Stephenson took three wickets in three balls in 1858, spectators passed a hat round, and bought him one with the money. Soccer dropped the consecutive requirement. Hockey fans throw hats on the ice, which started with a Toronto hatter offering a free one for three goals.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0809",
       "category": "Sports",
       "question": "Tokyo 1964 was the first Olympics held in Asia. What technology did those Games introduce?",
       "options": [
@@ -77,9 +106,16 @@
       ],
       "answer": "Live satellite broadcast to other continents",
       "explanation": "Tokyo 1964 was the first Games transmitted live overseas by satellite, using Syncom 3, so Americans watched events as they happened rather than waiting for film to be flown across. Japan also opened the Shinkansen bullet train nine days before the opening ceremony. The Games functioned as a deliberate statement of postwar recovery, and the final torchbearer was born in Hiroshima on the day the bomb fell.",
-      "memory_hook": "First Games broadcast live overseas by satellite, so America watched in real time instead of waiting for film to fly over. Japan opened the Shinkansen nine days before the ceremony. The last torchbearer had been born in Hiroshima on the day the bomb dropped."
+      "memory_hook": "First Games broadcast live overseas by satellite, so America watched in real time instead of waiting for film to fly over. Japan opened the Shinkansen nine days before the ceremony. The last torchbearer had been born in Hiroshima on the day the bomb dropped.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0810",
       "category": "Pop Culture",
       "question": "Easy Rider (1969) cost around $400,000 and changed Hollywood. What did it prove to the studios?",
       "options": [
@@ -90,9 +126,16 @@
       ],
       "answer": "Cheap films aimed at young audiences could earn fortunes",
       "explanation": "It grossed over $60 million against a tiny budget, and studios that had been losing money on expensive musicals concluded that young directors working cheap were a better bet. That opened the door to Scorsese, Coppola, Altman and the rest of the New Hollywood era. It also used existing rock recordings rather than a composed score, which was unusual then and standard now. Jack Nicholson became a star from a supporting part.",
-      "memory_hook": "It made over $60 million on a $400,000 budget while studios were losing fortunes on musicals, so they started handing money to young directors working cheap. That is the door Scorsese and Coppola walked through. It also used existing rock records instead of a score, which was new."
+      "memory_hook": "It made over $60 million on a $400,000 budget while studios were losing fortunes on musicals, so they started handing money to young directors working cheap. That is the door Scorsese and Coppola walked through. It also used existing rock records instead of a score, which was new.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0811",
       "category": "Pop Culture",
       "question": "Whitney Houston's I Will Always Love You spent fourteen weeks at number one in 1992. Who wrote it?",
       "options": [
@@ -103,9 +146,16 @@
       ],
       "answer": "Dolly Parton, who wrote it as a farewell in 1973",
       "explanation": "Parton wrote it about leaving Porter Wagoner's show, a professional parting rather than a romance. Elvis wanted to record it but Colonel Tom Parker demanded half the publishing, and Parton refused, which she has called one of the hardest and best decisions she ever made. Houston's version made Parton an enormous amount of money in royalties. The a cappella opening was Kevin Costner's suggestion.",
-      "memory_hook": "Dolly Parton wrote it in 1973 about leaving Porter Wagoner's show, not a romance. Elvis wanted it but Colonel Parker demanded half the publishing and she said no, which she calls the best decision she ever made. Houston's version then paid her enormously. Costner suggested the a cappella opening."
+      "memory_hook": "Dolly Parton wrote it in 1973 about leaving Porter Wagoner's show, not a romance. Elvis wanted it but Colonel Parker demanded half the publishing and she said no, which she calls the best decision she ever made. Houston's version then paid her enormously. Costner suggested the a cappella opening.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0812",
       "category": "Pop Culture",
       "question": "The Wolf of Wall Street (2013) drew criticism alongside its five Oscar nominations. What was the complaint?",
       "options": [
@@ -116,9 +166,16 @@
       ],
       "answer": "It made the fraud look enjoyable rather than condemning it",
       "explanation": "Scorsese refused to insert a moralising frame, arguing that showing the seduction honestly was the sharper indictment, and some critics and victims disagreed. The daughter of one of Belfort's associates wrote an open letter accusing the film of glamorising theft. Belfort was ordered to repay $110 million and had reportedly paid a small fraction. He now works as a motivational speaker, which is arguably the film's point.",
-      "memory_hook": "Scorsese refused to add a moral frame, arguing that showing how fun the fraud was made the sharper point. A victim's daughter wrote an open letter saying it glamorised theft. Belfort owed $110 million in restitution and had paid a fraction. He is now a motivational speaker."
+      "memory_hook": "Scorsese refused to add a moral frame, arguing that showing how fun the fraud was made the sharper point. A victim's daughter wrote an open letter saying it glamorised theft. Belfort owed $110 million in restitution and had paid a fraction. He is now a motivational speaker.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0813",
       "category": "Geography",
       "question": "Parts of the Atacama Desert have never recorded rainfall. What do scientists use it for?",
       "options": [
@@ -129,9 +186,16 @@
       ],
       "answer": "Testing Mars rovers, since the soil is comparably lifeless",
       "explanation": "Some Atacama soils are so dry that standard tests detect no microbial life, which makes it the closest analogue to Martian conditions on Earth, and NASA tests instruments there. The extreme dryness comes from a rain shadow on both sides plus a cold offshore current that suppresses evaporation. The same conditions preserve things indefinitely: the Chinchorro mummies there predate Egyptian ones by around two thousand years.",
-      "memory_hook": "Some Atacama soil registers no detectable microbial life, so NASA tests Mars rovers there. It is dry because it sits in a rain shadow from both directions with a cold current offshore killing evaporation. The same dryness preserved the Chinchorro mummies, which are 2,000 years older than Egypt's."
+      "memory_hook": "Some Atacama soil registers no detectable microbial life, so NASA tests Mars rovers there. It is dry because it sits in a rain shadow from both directions with a cold current offshore killing evaporation. The same dryness preserved the Chinchorro mummies, which are 2,000 years older than Egypt's.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0814",
       "category": "Science & Nature",
       "question": "Decomposers break down dead material. What would happen to a forest without them?",
       "options": [
@@ -143,12 +207,19 @@
       "answer": "Nutrients stay locked in dead matter and new growth stops",
       "explanation": "Bacteria and fungi return nitrogen, phosphorus and carbon from dead tissue to the soil where roots can take them up again. Without that the nutrients simply sit there, locked in material nothing can use. A popular explanation for the Carboniferous coal seams was that trees evolved lignin before anything could digest it, so trunks piled up unrotted, but a 2016 PNAS study found lignin decay was already widespread and put the coal down to climate and tectonics instead.",
       "memory_hook": "Fungi and bacteria hand nitrogen, phosphorus and carbon back to the soil. Without them it stays locked in corpses. This genuinely happened in the Carboniferous: trees invented lignin before anything could digest it, so trunks piled up unrotted for millions of years and became coal.",
+      "riskTier": "source",
       "sourceRefs": [
         "pnas-coal-lignin"
       ],
-      "riskTier": "source"
+      "review": {
+        "state": "verified",
+        "at": "2026-09-03",
+        "by": "tanner@tjs16media.com",
+        "note": "carried over: had a cited source before IDs existed"
+      }
     },
     {
+      "id": "frq-0815",
       "category": "Geography",
       "question": "The Lena is one of the world's ten longest rivers, running north through Siberia. What does flowing north cause?",
       "options": [
@@ -159,9 +230,16 @@
       ],
       "answer": "Spring ice jams downstream, flooding upstream towns",
       "explanation": "The southern headwaters thaw first while the northern mouth is still frozen solid, so meltwater arrives at a wall of ice and backs up. Ice-jam flooding is a routine spring hazard on Arctic-flowing rivers including the Lena, Ob and Yenisei, and Russia sometimes bombs the jams from the air to break them. The Lena delta is also one of the largest protected wildernesses on the planet.",
-      "memory_hook": "The southern end thaws first while the northern mouth is still solid ice, so meltwater hits a frozen wall and backs up over the towns. Every Arctic-flowing river does it, and Russia sometimes bombs the ice jams from aircraft to clear them."
+      "memory_hook": "The southern end thaws first while the northern mouth is still solid ice, so meltwater hits a frozen wall and backs up over the towns. Every Arctic-flowing river does it, and Russia sometimes bombs the ice jams from aircraft to clear them.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0816",
       "category": "Science & Nature",
       "question": "Clinical trials are usually double-blind. What does the second blind protect against?",
       "options": [
@@ -172,7 +250,13 @@
       ],
       "answer": "Researchers unconsciously influencing what they observe",
       "explanation": "Single-blind hides the assignment from the patient. Double-blind hides it from the researchers too, because someone who knows which patient got the drug will unconsciously assess them differently, prompt differently, and interpret ambiguous symptoms differently. This is observer bias and it operates without any intent to deceive. Placebo effects are real and measurable, including in surgery, where sham operations have sometimes matched actual procedures.",
-      "memory_hook": "Single-blind hides it from the patient. Double-blind hides it from the researcher too, because knowing who got the drug changes how you assess them without any intent to cheat. That is observer bias. Placebo effects are real enough that sham surgery has sometimes matched real operations."
+      "memory_hook": "Single-blind hides it from the patient. Double-blind hides it from the researcher too, because knowing who got the drug changes how you assess them without any intent to cheat. That is observer bias. Placebo effects are real enough that sham surgery has sometimes matched real operations.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     }
   ]
 }

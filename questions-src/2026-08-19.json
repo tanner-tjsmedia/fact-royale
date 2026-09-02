@@ -2,6 +2,7 @@
   "date": "2026-08-19",
   "questions": [
     {
+      "id": "frq-0781",
       "category": "History",
       "question": "Who invented the telephone, receiving the first patent in 1876?",
       "options": [
@@ -12,9 +13,16 @@
       ],
       "answer": "Alexander Graham Bell",
       "explanation": "Alexander Graham Bell received US Patent 174,465 for the telephone on March 7, 1876 — widely regarded as the most valuable patent ever issued. The first successful voice transmission was made three days later. Bell's achievement is disputed — Elisha Gray filed a patent caveat the same day, and Italian inventor Antonio Meucci had developed a voice communication device earlier but couldn't afford the patent fees.",
-      "memory_hook": "Bell = telephone patent, 1876. Most valuable patent in history. He filed hours before a competitor. He went on to help found AT&T. Ironically, he refused to have a phone in his study — he found it disruptive."
+      "memory_hook": "Bell = telephone patent, 1876. Most valuable patent in history. He filed hours before a competitor. He went on to help found AT&T. Ironically, he refused to have a phone in his study — he found it disruptive.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0782",
       "category": "History",
       "question": "Augustus became Rome's first emperor while insisting he had restored the Republic. How did he manage that?",
       "options": [
@@ -25,9 +33,16 @@
       ],
       "answer": "He held ordinary offices simultaneously and refused a crown",
       "explanation": "Augustus took no title suggesting monarchy. He accumulated existing republican powers, tribunician authority, control of the provinces holding the legions, and called himself princeps, first citizen. The Senate continued meeting. Everyone understood who was in charge, but the forms were preserved, which is precisely why it worked where Caesar's open dictatorship had got him stabbed. He ruled 41 years and the month of August is named for him.",
-      "memory_hook": "Augustus never took a crown. He just collected republican powers, controlled the provinces with the legions, and called himself first citizen. The Senate kept meeting. Everyone knew, but keeping the forms is exactly why he lasted 41 years where Caesar's open dictatorship got him killed."
+      "memory_hook": "Augustus never took a crown. He just collected republican powers, controlled the provinces with the legions, and called himself first citizen. The Senate kept meeting. Everyone knew, but keeping the forms is exactly why he lasted 41 years where Caesar's open dictatorship got him killed.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0783",
       "category": "History",
       "question": "Srebrenica in 1995 was the worst atrocity in Europe since 1945. What made it possible?",
       "options": [
@@ -38,9 +53,16 @@
       ],
       "answer": "It was a UN safe area, guarded by lightly armed peacekeepers",
       "explanation": "The UN had declared Srebrenica a safe area and stationed around 400 lightly armed Dutch peacekeepers with no mandate or means to fight. When Bosnian Serb forces under Ratko Mladic entered, the Dutch requested air support that did not come, and handed over the men and boys sheltering at their base. Over 8,000 were killed in days. International courts have ruled it genocide, and the Netherlands accepted partial state liability.",
-      "memory_hook": "The UN declared it a safe area and put 400 lightly armed Dutch peacekeepers there with no mandate to fight. When Mladic's forces arrived, requested air support never came and the Dutch handed over the men and boys at their own base. Over 8,000 killed in days."
+      "memory_hook": "The UN declared it a safe area and put 400 lightly armed Dutch peacekeepers there with no mandate to fight. When Mladic's forces arrived, requested air support never came and the Dutch handed over the men and boys at their own base. Over 8,000 killed in days.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0784",
       "category": "Sports",
       "question": "Ice hockey plays five skaters plus a goalie. What is the most common way a team ends up with four?",
       "options": [
@@ -51,9 +73,16 @@
       ],
       "answer": "A two-minute penalty, leaving them short-handed",
       "explanation": "Minor penalties put a player in the box for two minutes and the team plays a man down, which is the power play. The penalty ends early if the other team scores. Teams also pull the goalie when losing late, going to six skaters with an empty net, which is why blowout scorelines often gain a goal in the last minute. Hockey is unusual in substituting on the fly during live play.",
-      "memory_hook": "A minor penalty is two minutes in the box and your team plays a man down, which is the power play, and it ends early if they score. Losing teams also pull the goalie late for a sixth skater, which is why empty-net goals happen. Hockey also changes lines during live play."
+      "memory_hook": "A minor penalty is two minutes in the box and your team plays a man down, which is the power play, and it ends early if they score. Losing teams also pull the goalie late for a sixth skater, which is why empty-net goals happen. Hockey also changes lines during live play.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0785",
       "category": "Sports",
       "question": "Arthur Ashe won Wimbledon in 1975 and later became known for something beyond tennis. What?",
       "options": [
@@ -64,9 +93,16 @@
       ],
       "answer": "Campaigning on AIDS after a transfusion infected him",
       "explanation": "Ashe contracted HIV from a blood transfusion during heart surgery in 1983, before donated blood was screened. He kept it private until a newspaper prepared to publish in 1992, forcing him to announce it, and spent his last year campaigning on AIDS awareness. He had already been arrested protesting apartheid and had been refused a South African visa. The main court at the US Open is named for him.",
-      "memory_hook": "Ashe got HIV from a transfusion during 1983 heart surgery, before blood was screened. He kept it private until a paper was about to print it in 1992, then spent his last year campaigning on AIDS. He had already been arrested protesting apartheid. The US Open's main court carries his name."
+      "memory_hook": "Ashe got HIV from a transfusion during 1983 heart surgery, before blood was screened. He kept it private until a paper was about to print it in 1992, then spent his last year campaigning on AIDS. He had already been arrested protesting apartheid. The US Open's main court carries his name.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0786",
       "category": "Pop Culture",
       "question": "Eric Clapton wrote Layla in 1970 about a specific person. Who was she?",
       "options": [
@@ -77,9 +113,16 @@
       ],
       "answer": "Pattie Boyd, then married to his friend George Harrison",
       "explanation": "Clapton was in love with Boyd while she was married to Harrison, and took the name from a Persian poem, Layla and Majnun, about a man driven mad by unattainable love. She eventually left Harrison and married Clapton in 1979. Harrison attended the wedding. Boyd also inspired Harrison's Something and Clapton's Wonderful Tonight, an unusually productive love triangle.",
-      "memory_hook": "Clapton was in love with Pattie Boyd while she was married to George Harrison, and took the title from a Persian poem about a man driven mad by love he cannot have. She left Harrison and married Clapton in 1979, and Harrison came to the wedding. She also inspired Something and Wonderful Tonight."
+      "memory_hook": "Clapton was in love with Pattie Boyd while she was married to George Harrison, and took the title from a Persian poem about a man driven mad by love he cannot have. She left Harrison and married Clapton in 1979, and Harrison came to the wedding. She also inspired Something and Wonderful Tonight.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0787",
       "category": "Pop Culture",
       "question": "Platoon (1986) was written by a director who had been in Vietnam himself. What set it apart from earlier war films?",
       "options": [
@@ -90,9 +133,16 @@
       ],
       "answer": "Soldiers were shown fighting each other, not just the enemy",
       "explanation": "Oliver Stone had served as an infantryman and structured the film around two sergeants representing opposed moral positions, with the platoon fracturing between them. The atrocity sequence in the village drew directly on things he witnessed. He put the cast through a punishing two-week jungle training regime run by a former Marine before shooting in the Philippines. It won Best Picture.",
-      "memory_hook": "Stone had served as an infantryman, and built the film around two sergeants on opposite moral poles with the platoon splitting between them. The village atrocity scene came from what he saw. He put the cast through two weeks of real jungle training run by an ex-Marine first."
+      "memory_hook": "Stone had served as an infantryman, and built the film around two sergeants on opposite moral poles with the platoon splitting between them. The village atrocity scene came from what he saw. He put the cast through two weeks of real jungle training run by an ex-Marine first.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0788",
       "category": "Pop Culture",
       "question": "Michael Jackson's Thriller video ran nearly fourteen minutes in 1983. Why did he nearly destroy the master?",
       "options": [
@@ -103,9 +153,16 @@
       ],
       "answer": "His Jehovah's Witness congregation objected to the occult",
       "explanation": "Under pressure from the church Jackson planned to burn the negative. The compromise was a disclaimer at the start stating the film in no way endorses belief in the occult. It cost around $500,000, funded partly by selling the making-of documentary, and MTV played it constantly at a moment when the channel was being criticised for rarely airing Black artists. Thriller is generally cited as the best-selling album worldwide, though US certification figures put the Eagles' Greatest Hits ahead domestically.",
-      "memory_hook": "His Jehovah's Witness congregation objected and Jackson planned to burn the negative. The compromise was the disclaimer at the start disavowing belief in the occult. It cost about $500,000, paid for partly by selling the making-of, and MTV played it endlessly while being criticised for ignoring Black artists."
+      "memory_hook": "His Jehovah's Witness congregation objected and Jackson planned to burn the negative. The compromise was the disclaimer at the start disavowing belief in the occult. It cost about $500,000, paid for partly by selling the making-of, and MTV played it endlessly while being criticised for ignoring Black artists.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0789",
       "category": "Geography",
       "question": "Victoria Falls sits on the Zambia-Zimbabwe border. What does its local name mean?",
       "options": [
@@ -116,9 +173,16 @@
       ],
       "answer": "The smoke that thunders",
       "explanation": "Mosi-oa-Tunya in Lozi means the smoke that thunders, describing spray that rises hundreds of metres and is visible 50km away. Livingstone renamed it for Queen Victoria in 1855. It is neither the tallest nor the widest waterfall but has the largest single sheet of falling water, roughly 1,700m wide and 108m high. During low water a rock lip lets people swim in Devil's Pool at the very edge.",
-      "memory_hook": "Mosi-oa-Tunya, the smoke that thunders, for spray rising hundreds of metres and visible 50km off. Livingstone renamed it for Queen Victoria in 1855. Not the tallest or widest, but the largest single sheet of falling water. At low water you can swim in Devil's Pool right on the lip."
+      "memory_hook": "Mosi-oa-Tunya, the smoke that thunders, for spray rising hundreds of metres and visible 50km off. Livingstone renamed it for Queen Victoria in 1855. Not the tallest or widest, but the largest single sheet of falling water. At low water you can swim in Devil's Pool right on the lip.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0790",
       "category": "Science & Nature",
       "question": "Mendel worked out the rules of inheritance in the 1860s, but nobody noticed for 35 years. Why not?",
       "options": [
@@ -129,9 +193,16 @@
       ],
       "answer": "He published in an obscure journal and was a monk, not an academic",
       "explanation": "Mendel published in the proceedings of a local natural history society in Brno in 1866. He had no university position, and the mathematical treatment of ratios was unfamiliar to naturalists of the time. Darwin never read it, though a copy sat uncut in his library. Three separate botanists rediscovered the same laws independently around 1900 and found Mendel's paper while searching the literature. Statisticians have since noted his ratios are suspiciously clean.",
-      "memory_hook": "He published in a Brno natural history society journal in 1866 with no university post, and his mathematical approach was alien to naturalists. Darwin had a copy in his library, uncut. Three botanists rediscovered the same laws around 1900 and found his paper afterward."
+      "memory_hook": "He published in a Brno natural history society journal in 1866 with no university post, and his mathematical approach was alien to naturalists. Darwin had a copy in his library, uncut. Three botanists rediscovered the same laws around 1900 and found his paper afterward.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0791",
       "category": "Geography",
       "question": "The Everglades is often called a swamp, which is wrong. What is it actually?",
       "options": [
@@ -142,9 +213,16 @@
       ],
       "answer": "A river 100km wide, flowing a few centimetres per minute",
       "explanation": "Water moves from Lake Okeechobee toward Florida Bay across a limestone shelf so flat it drops only a few centimetres per kilometre, producing a sheet of water tens of kilometres wide creeping slowly south. Marjory Stoneman Douglas named it the River of Grass in 1947. Twentieth-century canal building for agriculture cut the flow drastically, and the restoration programme is among the largest and most expensive environmental projects ever attempted.",
-      "memory_hook": "It is a river about 100km wide moving a few centimetres a minute across limestone so flat it drops a few centimetres per kilometre. Marjory Stoneman Douglas called it the River of Grass in 1947. Canals for farming cut the flow, and restoring it is one of the biggest environmental projects ever."
+      "memory_hook": "It is a river about 100km wide moving a few centimetres a minute across limestone so flat it drops a few centimetres per kilometre. Marjory Stoneman Douglas called it the River of Grass in 1947. Canals for farming cut the flow, and restoring it is one of the biggest environmental projects ever.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0792",
       "category": "Science & Nature",
       "question": "DNA holds the instructions but does not build proteins itself. What does RNA do about that?",
       "options": [
@@ -155,7 +233,13 @@
       ],
       "answer": "Copies the gene and carries it out to the ribosome",
       "explanation": "Messenger RNA transcribes a gene and carries the copy out of the nucleus. Ribosomal RNA forms part of the ribosome that reads it, and transfer RNA brings the matching amino acids. DNA stays protected inside the nucleus throughout. Keeping the master copy safe and sending working copies out is the same logic as not taking an original document into a workshop. Covid vaccines work by supplying mRNA directly.",
-      "memory_hook": "Messenger RNA copies a gene and carries it out of the nucleus, ribosomal RNA is part of the machine that reads it, transfer RNA fetches the amino acids. The DNA never leaves. Same logic as not carrying an original document into a workshop. mRNA vaccines just supply the working copy directly."
+      "memory_hook": "Messenger RNA copies a gene and carries it out of the nucleus, ribosomal RNA is part of the machine that reads it, transfer RNA fetches the amino acids. The DNA never leaves. Same logic as not carrying an original document into a workshop. mRNA vaccines just supply the working copy directly.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     }
   ]
 }

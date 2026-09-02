@@ -2,6 +2,7 @@
   "date": "2026-06-18",
   "questions": [
     {
+      "id": "frq-0037",
       "category": "History",
       "question": "On what date did the RMS Titanic sink in 1912?",
       "options": [
@@ -12,9 +13,16 @@
       ],
       "answer": "April 15",
       "explanation": "The RMS Titanic struck an iceberg at 11:40 PM on April 14, 1912, and sank at 2:20 AM on April 15. Of the 2,224 people aboard, approximately 1,500 died — making it one of the deadliest peacetime maritime disasters in history. There were only enough lifeboats for about half the passengers.",
-      "memory_hook": "April 15 = Tax Day in the US. The Titanic sank on Tax Day — the most expensive day of the year, for the most expensive ship of its time. Both take things you didn't want to give up."
+      "memory_hook": "April 15 = Tax Day in the US. The Titanic sank on Tax Day — the most expensive day of the year, for the most expensive ship of its time. Both take things you didn't want to give up.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0038",
       "category": "History",
       "question": "The assassination of which Archduke triggered the start of World War I?",
       "options": [
@@ -25,9 +33,16 @@
       ],
       "answer": "Archduke Franz Ferdinand",
       "explanation": "Archduke Franz Ferdinand of Austria-Hungary was assassinated in Sarajevo on June 28, 1914, by Gavrilo Princip, a Bosnian Serb nationalist. The assassination set off a chain of alliances and ultimatums that escalated into a world war within six weeks, ultimately claiming over 20 million lives.",
-      "memory_hook": "Franz Ferdinand — also the name of a Scottish indie rock band. When you hear that band, remember: their name is literally the man whose death started WWI. The most consequential name in rock history."
+      "memory_hook": "Franz Ferdinand — also the name of a Scottish indie rock band. When you hear that band, remember: their name is literally the man whose death started WWI. The most consequential name in rock history.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0039",
       "category": "History",
       "question": "At which battle was Napoleon Bonaparte finally defeated in 1815?",
       "options": [
@@ -38,9 +53,16 @@
       ],
       "answer": "Battle of Waterloo",
       "explanation": "Napoleon was decisively defeated at the Battle of Waterloo on June 18, 1815, by the Duke of Wellington's allied forces and Prussian troops. He was exiled to the remote island of Saint Helena in the South Atlantic, where he died in 1821. Waterloo gave us the phrase 'meeting your Waterloo.'",
-      "memory_hook": "Waterloo = final defeat. ABBA's 'Waterloo' is literally about surrendering — 'I was defeated, you won the war.' The song and the battle share the same meaning: the moment you finally lose."
+      "memory_hook": "Waterloo = final defeat. ABBA's 'Waterloo' is literally about surrendering — 'I was defeated, you won the war.' The song and the battle share the same meaning: the moment you finally lose.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0040",
       "category": "Sports",
       "question": "Muhammad Ali was born with which name?",
       "options": [
@@ -51,9 +73,16 @@
       ],
       "answer": "Cassius Clay",
       "explanation": "Muhammad Ali was born Cassius Marcellus Clay Jr. in Louisville, Kentucky, in 1942. He changed his name to Muhammad Ali in 1964 after converting to Islam following his first world heavyweight title win. Ali refused induction into the US Army in 1967, citing religious beliefs, and was stripped of his title.",
-      "memory_hook": "Clay before Ali — he started as clay and was shaped into something greater. Cassius Clay floated like a butterfly, Muhammad Ali stung like a bee. Same fighter, greater name."
+      "memory_hook": "Clay before Ali — he started as clay and was shaped into something greater. Cassius Clay floated like a butterfly, Muhammad Ali stung like a bee. Same fighter, greater name.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0041",
       "category": "Sports",
       "question": "Joe DiMaggio set one of baseball's most unbreakable records in 1941. What did he accomplish, and how long has the record stood?",
       "options": [
@@ -64,9 +93,16 @@
       ],
       "answer": "Got a hit in 56 consecutive games — a record that has stood for over 80 years",
       "explanation": "DiMaggio's 56-game hitting streak from May 15 to July 16, 1941, is widely considered baseball's most untouchable record. The closest anyone has come since is Pete Rose's 44-game streak in 1978. Statistically, the probability of any player replicating it under modern pitching conditions is astronomically small. DiMaggio was also hitting .408 during the streak.",
-      "memory_hook": "DiMaggio's 56-game hit streak (1941) is baseball's most untouchable record — Pete Rose got to 44 in 1978 and that's as close as anyone has come in over 80 years."
+      "memory_hook": "DiMaggio's 56-game hit streak (1941) is baseball's most untouchable record — Pete Rose got to 44 in 1978 and that's as close as anyone has come in over 80 years.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0042",
       "category": "Pop Culture",
       "question": "Which actor played the title role in The Godfather (1972)?",
       "options": [
@@ -77,9 +113,16 @@
       ],
       "answer": "Marlon Brando",
       "explanation": "Marlon Brando played Vito Corleone in The Godfather (1972), directed by Francis Ford Coppola. Brando won the Academy Award for Best Actor for the role but famously refused it, sending a Native American activist named Sacheen Littlefeather to decline on his behalf as a protest against Hollywood's portrayal of Native Americans.",
-      "memory_hook": "Brando = Godfather. Stuffed cheeks, raspy voice, 'I'm gonna make him an offer he can't refuse.' Brando didn't just act the role — he invented the archetype of the cinematic mob boss."
+      "memory_hook": "Brando = Godfather. Stuffed cheeks, raspy voice, 'I'm gonna make him an offer he can't refuse.' Brando didn't just act the role — he invented the archetype of the cinematic mob boss.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0043",
       "category": "Pop Culture",
       "question": "Elvis Presley is commonly known by what royal nickname?",
       "options": [
@@ -90,9 +133,16 @@
       ],
       "answer": "The King of Rock and Roll",
       "explanation": "Elvis Presley earned the title 'The King of Rock and Roll' through his pioneering fusion of country, blues, and gospel that helped define the genre in the mid-1950s. He sold over one billion records worldwide — more than any other solo artist in history — and his Graceland estate in Memphis remains one of the most-visited private homes in America.",
-      "memory_hook": "Elvis = The King. Michael Jackson = The King of Pop. There's a dynasty here. Two Kings, two different eras, both from humble American beginnings who changed music forever."
+      "memory_hook": "Elvis = The King. Michael Jackson = The King of Pop. There's a dynasty here. Two Kings, two different eras, both from humble American beginnings who changed music forever.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0044",
       "category": "Pop Culture",
       "question": "Which band recorded 'Stairway to Heaven,' often cited as one of the greatest rock songs ever written?",
       "options": [
@@ -103,9 +153,16 @@
       ],
       "answer": "Led Zeppelin",
       "explanation": "Led Zeppelin recorded 'Stairway to Heaven' in 1971 for their untitled fourth album (commonly called Led Zeppelin IV). Clocking in at 8 minutes, it builds from a quiet acoustic guitar intro into an explosive rock finale. Despite never being released as a single, it became the most requested song in FM radio history.",
-      "memory_hook": "Led Zeppelin went UP — Zeppelin (airship) + stairway to heaven. Their whole brand was ascending: heavy, epic, reaching for something bigger. Stairway is just the most literal version of that."
+      "memory_hook": "Led Zeppelin went UP — Zeppelin (airship) + stairway to heaven. Their whole brand was ascending: heavy, epic, reaching for something bigger. Stairway is just the most literal version of that.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0045",
       "category": "Geography",
       "question": "The Bosphorus Strait, which divides Istanbul between two continents, connects the Black Sea to which body of water?",
       "options": [
@@ -116,9 +173,16 @@
       ],
       "answer": "Sea of Marmara",
       "explanation": "The Bosphorus (or Istanbul Strait) is a 31 km waterway separating European and Asian Istanbul. It connects the Black Sea in the north to the Sea of Marmara, which then links to the Aegean and Mediterranean via the Dardanelles Strait. Istanbul is the only major city in the world that straddles two continents, with the Bosphorus as the dividing line between Europe and Asia.",
-      "memory_hook": "Bosphorus = Black Sea to Sea of Marmara. Istanbul sits on both sides — one city, two continents. Europe on the west bank, Asia on the east. The only place you can swim from one continent to another in a city."
+      "memory_hook": "Bosphorus = Black Sea to Sea of Marmara. Istanbul sits on both sides — one city, two continents. Europe on the west bank, Asia on the east. The only place you can swim from one continent to another in a city.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0046",
       "category": "Science & Nature",
       "question": "What is the name of the Sun's outermost atmospheric layer, visible as a glowing halo during total solar eclipses — and paradoxically hotter than the Sun's surface?",
       "options": [
@@ -129,9 +193,16 @@
       ],
       "answer": "Corona",
       "explanation": "The corona is the Sun's outermost atmospheric layer, extending millions of kilometers into space. Paradoxically, it reaches temperatures of 1-3 million Kelvin, far hotter than the Sun's surface at about 5,778 Kelvin. Why the corona is so much hotter than the surface below it is one of astrophysics' longstanding mysteries. It is only visible to the naked eye during total solar eclipses, appearing as a white glowing halo.",
-      "memory_hook": "Corona = Sun's outer atmosphere. 1-3 million Kelvin — hotter than the surface. Visible during total solar eclipses only. The Sun gets hotter the further out you go from its surface — and nobody fully understands why."
+      "memory_hook": "Corona = Sun's outer atmosphere. 1-3 million Kelvin — hotter than the surface. Visible during total solar eclipses only. The Sun gets hotter the further out you go from its surface — and nobody fully understands why.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0047",
       "category": "Geography",
       "question": "Easter Island, famous for its nearly 1,000 giant stone Moai statues, is a territory of which country?",
       "options": [
@@ -142,9 +213,16 @@
       ],
       "answer": "Chile",
       "explanation": "Easter Island (Rapa Nui in the indigenous language) lies about 3,700 km off Chile's coast in the southeastern Pacific Ocean and is a Chilean territory. The Moai were carved by the Rapa Nui people between roughly 1400 and 1650 CE. Nearly 1,000 statues were created, some weighing over 80 tons. The island's population and ecosystem collapsed, likely due to deforestation and resource depletion.",
-      "memory_hook": "Easter Island = Chile (3,700 km offshore). Moai carved by Rapa Nui people, 1400-1650 CE. 1,000 statues, some 80+ tons. The island's civilization collapsed — a cautionary tale about deforestation and resource exhaustion."
+      "memory_hook": "Easter Island = Chile (3,700 km offshore). Moai carved by Rapa Nui people, 1400-1650 CE. 1,000 statues, some 80+ tons. The island's civilization collapsed — a cautionary tale about deforestation and resource exhaustion.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0048",
       "category": "Science & Nature",
       "question": "What is the name of the fatty sheath surrounding nerve fibers that speeds up electrical signal transmission?",
       "options": [
@@ -155,7 +233,13 @@
       ],
       "answer": "Myelin sheath",
       "explanation": "The myelin sheath is a fatty insulating layer that wraps around the axons of many neurons. It allows electrical signals to 'jump' between gaps in the sheath (nodes of Ranvier) rather than traveling along the entire axon surface — dramatically speeding up transmission. Multiple sclerosis (MS) is an autoimmune disease that damages the myelin sheath, disrupting nerve signal conduction.",
-      "memory_hook": "Myelin sheath = fatty insulation around nerve fibers. Signals jump between gaps (nodes of Ranvier) — much faster than bare axons. Multiple sclerosis destroys myelin, causing signal disruption. Think of myelin as the plastic coating on an electrical wire."
+      "memory_hook": "Myelin sheath = fatty insulation around nerve fibers. Signals jump between gaps (nodes of Ranvier) — much faster than bare axons. Multiple sclerosis destroys myelin, causing signal disruption. Think of myelin as the plastic coating on an electrical wire.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     }
   ]
 }

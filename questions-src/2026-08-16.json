@@ -2,6 +2,7 @@
   "date": "2026-08-16",
   "questions": [
     {
+      "id": "frq-0745",
       "category": "History",
       "question": "Elvis Presley's Graceland is the second most visited private home in America. Which house draws more?",
       "options": [
@@ -12,9 +13,16 @@
       ],
       "answer": "The White House",
       "explanation": "Graceland receives around 600,000 visitors a year, behind only the White House. Elvis bought it in 1957 for around $100,000 at twenty-two. By the 1970s his father was managing finances badly and Elvis was spending faster than he earned, so Priscilla opened the house to the public in 1982 partly to cover costs. It worked, and the estate is now worth many times what it was at his death.",
-      "memory_hook": "Graceland gets about 600,000 visitors a year, second only to the White House. Elvis bought it at twenty-two for around $100,000. By 1982 the estate was struggling financially, so Priscilla opened it to the public to pay the bills. It saved the whole thing."
+      "memory_hook": "Graceland gets about 600,000 visitors a year, second only to the White House. Elvis bought it at twenty-two for around $100,000. By 1982 the estate was struggling financially, so Priscilla opened it to the public to pay the bills. It saved the whole thing.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0746",
       "category": "History",
       "question": "The First Crusade captured Jerusalem in 1099. What did Pope Urban II promise those who went?",
       "options": [
@@ -25,9 +33,16 @@
       ],
       "answer": "Remission of sins for anyone who took up the cross",
       "explanation": "At Clermont in 1095 Urban offered indulgence, the remission of penance for sin, to those who marched. For a warrior class whose profession involved constant sin, that was a powerful offer. Tens of thousands went, including a disorganised People's Crusade that was destroyed before reaching Jerusalem. When the city fell in 1099 the slaughter was extensive. Four Crusader states were established and the last fell in 1291.",
-      "memory_hook": "Urban offered remission of sins at Clermont in 1095, which mattered enormously to a warrior class whose job was sinning. Tens of thousands went, including a shambolic People's Crusade wiped out before it arrived. Jerusalem fell in 1099 with heavy slaughter. The last Crusader state fell in 1291."
+      "memory_hook": "Urban offered remission of sins at Clermont in 1095, which mattered enormously to a warrior class whose job was sinning. Tens of thousands went, including a shambolic People's Crusade wiped out before it arrived. Jerusalem fell in 1099 with heavy slaughter. The last Crusader state fell in 1291.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0747",
       "category": "History",
       "question": "The Wright brothers flew at Kitty Hawk in 1903. What did they solve that others had not?",
       "options": [
@@ -38,9 +53,16 @@
       ],
       "answer": "How to steer, by warping the wings to bank and turn",
       "explanation": "Others had achieved lift and had engines. The unsolved problem was control in three axes, and the Wrights cracked it with wing-warping for roll, which they reportedly worked out watching buzzards and testing on a bicycle-mounted rig. They were bicycle mechanics, and their wind tunnel work produced better lift data than anything published. The first flight covered 120 feet in 12 seconds, shorter than a modern airliner's wingspan.",
-      "memory_hook": "Everyone had lift and engines. Nobody had control. The Wrights solved roll with wing-warping, worked out partly from watching buzzards and tested on a rig mounted to a bicycle. Their homemade wind tunnel gave better data than anything published. First flight: 120 feet, 12 seconds."
+      "memory_hook": "Everyone had lift and engines. Nobody had control. The Wrights solved roll with wing-warping, worked out partly from watching buzzards and tested on a rig mounted to a bicycle. Their homemade wind tunnel gave better data than anything published. First flight: 120 feet, 12 seconds.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0748",
       "category": "Sports",
       "question": "Volleyball limits each side to three touches before returning the ball. Which touch does not count?",
       "options": [
@@ -51,9 +73,16 @@
       ],
       "answer": "A block at the net, which is free",
       "explanation": "A block does not count toward the three, so a team can block and still have three touches to organise a return. The libero, in a contrasting shirt, is a defensive specialist who can replace back-row players freely but cannot attack above net height or serve in most systems. Rally scoring, where every rally scores regardless of who served, replaced side-out scoring in 1999 to make match length predictable for television.",
-      "memory_hook": "Blocks are free and do not count against your three touches. The libero in the different-coloured shirt is a defence specialist who substitutes freely but cannot spike or usually serve. Rally scoring came in 1999 so matches would fit a TV slot."
+      "memory_hook": "Blocks are free and do not count against your three touches. The libero in the different-coloured shirt is a defence specialist who substitutes freely but cannot spike or usually serve. Rally scoring came in 1999 so matches would fit a TV slot.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0749",
       "category": "Sports",
       "question": "Offside exists in both soccer and hockey but works differently. What is the soccer version?",
       "options": [
@@ -64,9 +93,16 @@
       ],
       "answer": "Ahead of the last defender when the ball is played",
       "explanation": "In soccer a player is offside if any part of the body that can score is nearer the goal line than both the ball and the second-last defender at the moment a teammate plays it, and is only penalised if involved in play. Hockey's version is simpler: you cannot cross the attacking blue line before the puck does. Soccer's rule prevents goal-hanging; VAR now adjudicates it to the centimetre, which has proved contentious.",
-      "memory_hook": "Soccer: you are offside if you are past the second-last defender when the ball is played to you, and only if you are involved. Hockey: you cannot cross the blue line before the puck. Both stop goal-hanging, but VAR now measures soccer's to the centimetre, which nobody enjoys."
+      "memory_hook": "Soccer: you are offside if you are past the second-last defender when the ball is played to you, and only if you are involved. Hockey: you cannot cross the blue line before the puck. Both stop goal-hanging, but VAR now measures soccer's to the centimetre, which nobody enjoys.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0750",
       "category": "Pop Culture",
       "question": "Schindler's Ark won the Booker Prize in 1982, then caused an argument. What was the objection?",
       "options": [
@@ -77,9 +113,16 @@
       ],
       "answer": "It was factual, and the Booker is for fiction",
       "explanation": "Thomas Keneally researched real events and real people, then wrote it in novelistic form, and judges awarding the fiction prize to something so close to reportage drew objections. Keneally learned the story by chance from Leopold Pfefferberg, a Schindler survivor, in a Beverly Hills luggage shop while waiting for a credit card to clear. Pfefferberg had been trying for decades to get someone to tell it.",
-      "memory_hook": "It was researched fact written like a novel, and giving the fiction prize to reportage annoyed people. Keneally only heard the story because he wandered into a Beverly Hills luggage shop owned by a Schindler survivor and waited for his credit card to clear."
+      "memory_hook": "It was researched fact written like a novel, and giving the fiction prize to reportage annoyed people. Keneally only heard the story because he wandered into a Beverly Hills luggage shop owned by a Schindler survivor and waited for his credit card to clear.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0751",
       "category": "Pop Culture",
       "question": "The Notorious B.I.G. released Ready to Die in 1994. What had he been doing shortly before?",
       "options": [
@@ -90,9 +133,16 @@
       ],
       "answer": "Selling crack in Brooklyn, having dropped out at seventeen",
       "explanation": "Christopher Wallace left school at seventeen and was dealing, with an arrest record including a stint in North Carolina, before a demo tape reached Sean Combs. His delivery, dense internal rhyme carried in a relaxed baritone, is widely imitated. He released two albums. Life After Death came out sixteen days after he was shot dead in Los Angeles in March 1997 at twenty-four, six months after Tupac Shakur was killed.",
-      "memory_hook": "He dropped out at seventeen and was dealing crack in Brooklyn when a demo reached Puff Daddy. Two albums total. Life After Death came out sixteen days after he was shot dead in LA in 1997, aged twenty-four, six months after Tupac."
+      "memory_hook": "He dropped out at seventeen and was dealing crack in Brooklyn when a demo reached Puff Daddy. Two albums total. Life After Death came out sixteen days after he was shot dead in LA in 1997, aged twenty-four, six months after Tupac.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0752",
       "category": "Pop Culture",
       "question": "Spirited Away won Best Animated Feature in 2003. What did its director do about the award?",
       "options": [
@@ -103,9 +153,16 @@
       ],
       "answer": "He skipped the ceremony in protest at the Iraq war",
       "explanation": "Hayao Miyazaki did not attend, later explaining he did not want to visit a country that was bombing Iraq. It remains the only hand-drawn, non-English-language film to win the category. It also overtook Titanic at the Japanese box office. Miyazaki has announced retirement several times and returned each time, most recently with The Boy and the Heron, which won the same award in 2024.",
-      "memory_hook": "Miyazaki stayed home, saying he did not want to visit a country bombing Iraq. It is still the only hand-drawn, non-English film to win the category, and it outgrossed Titanic in Japan. He has retired several times and come back every time."
+      "memory_hook": "Miyazaki stayed home, saying he did not want to visit a country bombing Iraq. It is still the only hand-drawn, non-English film to win the category, and it outgrossed Titanic in Japan. He has retired several times and come back every time.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0753",
       "category": "Geography",
       "question": "The Nile's source was argued over by European explorers for decades. Why was it so hard to settle?",
       "options": [
@@ -116,9 +173,16 @@
       ],
       "answer": "The river has two branches meeting far downstream",
       "explanation": "The White Nile rises around Lake Victoria and the Blue Nile at Lake Tana in Ethiopia, and they join at Khartoum. The Blue Nile supplies most of the water and nearly all the silt that made Egyptian agriculture possible, while the White Nile is longer. John Hanning Speke identified Lake Victoria in 1858, and Richard Burton publicly disputed it for years. Burton died the day before a debate that was supposed to settle it.",
-      "memory_hook": "Two branches: the White Nile from Lake Victoria and the Blue Nile from Ethiopia, joining at Khartoum. The Blue carries most of the water and silt, the White is longer. Speke found Lake Victoria in 1858, Burton spent years disputing it, and died the day before the debate meant to settle it."
+      "memory_hook": "Two branches: the White Nile from Lake Victoria and the Blue Nile from Ethiopia, joining at Khartoum. The Blue carries most of the water and silt, the White is longer. Speke found Lake Victoria in 1858, Burton spent years disputing it, and died the day before the debate meant to settle it.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0754",
       "category": "Science & Nature",
       "question": "A supermoon looks bigger because the Moon's orbit is not circular. How much bigger is it actually?",
       "options": [
@@ -129,9 +193,16 @@
       ],
       "answer": "About 14% wider, which the eye barely registers",
       "explanation": "At perigee the Moon is roughly 363,000km away and at apogee about 405,000km, giving a 14% difference in apparent diameter and around 30% in brightness. Side by side the difference is obvious; in isolation almost nobody can tell. The dramatic huge moon people photograph near the horizon is the separate moon illusion, a perceptual effect that still lacks a fully agreed explanation.",
-      "memory_hook": "14% wider and about 30% brighter between closest and furthest approach. Obvious in a side-by-side photo, essentially invisible in the sky. The enormous moon you see near the horizon is a different thing entirely, a perceptual illusion nobody has fully explained."
+      "memory_hook": "14% wider and about 30% brighter between closest and furthest approach. Obvious in a side-by-side photo, essentially invisible in the sky. The enormous moon you see near the horizon is a different thing entirely, a perceptual illusion nobody has fully explained.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0755",
       "category": "Geography",
       "question": "The Murray River, Australia's longest at 2,508 km, forms the border between which two Australian states?",
       "options": [
@@ -142,9 +213,16 @@
       ],
       "answer": "Victoria and New South Wales",
       "explanation": "The Murray River forms the boundary between Victoria (south bank) and New South Wales (north bank) for most of its length before flowing through South Australia to the sea. Together with the Darling River, the Murray-Darling Basin is Australia's most important agricultural region, producing roughly 40% of the country's food. The river suffers from over-allocation of water for irrigation, causing environmental damage. Murray cod — a large freshwater fish — are native to the river.",
-      "memory_hook": "Murray River: 2,508 km, forms Victoria/NSW border. Murray-Darling Basin produces 40% of Australia's food. Severely stressed from over-irrigation. Murray cod can live 50+ years. The Murray's mouth now barely reaches the sea in drought years — a classic river over-allocation story."
+      "memory_hook": "Murray River: 2,508 km, forms Victoria/NSW border. Murray-Darling Basin produces 40% of Australia's food. Severely stressed from over-irrigation. Murray cod can live 50+ years. The Murray's mouth now barely reaches the sea in drought years — a classic river over-allocation story.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0756",
       "category": "Science & Nature",
       "question": "Fertiliser runoff into a lake triggers a chain of events that kills fish. What actually kills them?",
       "options": [
@@ -155,7 +233,13 @@
       ],
       "answer": "Bacteria decomposing the dead algae strip out the oxygen",
       "explanation": "Nitrogen and phosphorus feed an algal bloom, the algae die, and bacteria consuming the dead mass use up dissolved oxygen faster than it can be replaced. Fish suffocate. That is eutrophication, and it creates dead zones, including one in the Gulf of Mexico fed by the Mississippi that can exceed 15,000 square kilometres. The fertiliser itself is not toxic to fish; the oxygen crash is what does it.",
-      "memory_hook": "The fertiliser feeds an algal bloom, the algae die, and the bacteria eating the corpses consume all the dissolved oxygen. The fish suffocate. That is eutrophication, and the Mississippi feeds a Gulf of Mexico dead zone that can top 15,000 square kilometres."
+      "memory_hook": "The fertiliser feeds an algal bloom, the algae die, and the bacteria eating the corpses consume all the dissolved oxygen. The fish suffocate. That is eutrophication, and the Mississippi feeds a Gulf of Mexico dead zone that can top 15,000 square kilometres.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     }
   ]
 }

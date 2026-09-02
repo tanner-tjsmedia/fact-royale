@@ -1,0 +1,318 @@
+/* ============================================================
+   FACT ROYALE — DESIGN TOKENS
+   The single source of visual truth for every page.
+
+   RULES OF USE
+     1. Pages never hardcode a colour, size, duration or curve.
+        If a value is not in here, it does not belong in a page.
+     2. Add tokens here, not overrides there. An override in one page
+        is how a platform ends up looking like five platforms.
+     3. Semantic names beat literal ones. Use --fg-muted, not --grey-4,
+        so a palette change is one edit rather than a search.
+
+   Extends the palette already established in style.css so the two can
+   coexist during the migration. style.css keeps its own copies for now;
+   once every page imports tokens.css, delete them from style.css.
+   ============================================================ */
+
+:root {
+  /* ---- surfaces, dark to light ----------------------------- */
+  --bg:            #07070f;   /* page */
+  --surface:       #0d0d1a;   /* card on page */
+  --surface-2:     #12121f;   /* card on card */
+  --surface-3:     #1a1a2b;   /* input, well, pressed state */
+  --surface-glass: rgba(18,18,31,0.72);
+
+  /* ---- ink ------------------------------------------------- */
+  --fg:            #f2f2fa;
+  --fg-muted:      rgba(242,242,250,0.52);
+  --fg-subtle:     rgba(242,242,250,0.30);
+  --fg-faint:      rgba(242,242,250,0.14);
+
+  /* ---- the brand: gold on near-black ----------------------- */
+  --gold:          #d4af37;
+  --gold-bright:   #f0c040;
+  --gold-deep:     #9a7c22;
+  --gold-wash:     rgba(212,175,55,0.10);
+  --gold-glow:     rgba(212,175,55,0.22);
+  --gold-line:     rgba(212,175,55,0.20);
+
+  --royal:         #5b2a86;   /* the banner purple */
+  --royal-bright:  #8b52c4;
+  --royal-wash:    rgba(91,42,134,0.16);
+
+  /* ---- state ----------------------------------------------- */
+  --ok:            #34d399;
+  --ok-wash:       rgba(52,211,153,0.09);
+  --warn:          #f0a92a;
+  --warn-wash:     rgba(240,169,42,0.10);
+  --bad:           #f87171;
+  --bad-wash:      rgba(248,113,113,0.09);
+  --info:          #4d9de0;
+  --info-wash:     rgba(77,157,224,0.09);
+
+  /* ---- review states. These are load-bearing, not decorative:
+         the studio colours every question by exactly these. ---- */
+  --st-unreviewed: var(--fg-subtle);
+  --st-verified:   var(--ok);
+  --st-flagged:    var(--warn);
+  --st-rejected:   var(--bad);
+  --st-retired:    var(--fg-faint);
+
+  /* ---- the five categories --------------------------------- */
+  --cat-history:   #e8a020;
+  --cat-sports:    #4d9de0;
+  --cat-pop:       #9b72cf;
+  --cat-geography: #1fb5c8;
+  --cat-science:   #3dbe7a;
+
+  /* ---- source tiers ---------------------------------------- */
+  --tier-primary:   var(--ok);
+  --tier-reference: var(--info);
+  --tier-secondary: var(--warn);
+  --tier-canonical: var(--gold);
+
+  /* ---- lines ----------------------------------------------- */
+  --line:          rgba(255,255,255,0.07);
+  --line-strong:   rgba(255,255,255,0.13);
+  --line-gold:     var(--gold-line);
+
+  /* ---- type ------------------------------------------------ */
+  --font-display: 'Space Grotesk', system-ui, sans-serif;
+  --font-body:    'DM Sans', system-ui, sans-serif;
+  --font-mono:    ui-monospace, 'SF Mono', 'Cascadia Mono', Menlo, monospace;
+
+  /* Modular scale, 1.25. Never invent a size between these. */
+  --t-xs:   0.72rem;
+  --t-sm:   0.82rem;
+  --t-base: 0.94rem;
+  --t-md:   1.10rem;
+  --t-lg:   1.40rem;
+  --t-xl:   1.80rem;
+  --t-2xl:  2.40rem;
+  --t-3xl:  3.20rem;
+
+  --lh-tight: 1.15;
+  --lh-snug:  1.35;
+  --lh-body:  1.62;
+
+  --tracking-caps: 0.14em;
+
+  /* ---- space. 4px base, no arbitrary values. --------------- */
+  --s-1: 4px;   --s-2: 8px;   --s-3: 12px;  --s-4: 16px;
+  --s-5: 24px;  --s-6: 32px;  --s-7: 48px;  --s-8: 64px;  --s-9: 96px;
+
+  /* ---- shape ----------------------------------------------- */
+  --r-sm:   8px;
+  --r:     14px;
+  --r-lg:  20px;
+  --r-pill: 999px;
+
+  /* ---- depth ----------------------------------------------- */
+  --shadow-1: 0 1px 2px rgba(0,0,0,0.4);
+  --shadow-2: 0 6px 20px rgba(0,0,0,0.45);
+  --shadow-3: 0 18px 48px rgba(0,0,0,0.55);
+  --shadow-gold: 0 0 0 1px var(--gold-line), 0 8px 30px var(--gold-glow);
+
+  /* ---- motion.
+         One ramp for entrances, one for exits, one for physical
+         things that should feel weighted. Pages pick from these. --- */
+  --ease-out:  cubic-bezier(0.22, 0.7, 0.3, 1);
+  --ease-in:   cubic-bezier(0.6, 0, 0.85, 0.3);
+  --ease-body: cubic-bezier(0.5, 0, 0.35, 1);   /* trebuchets, counterweights */
+  --ease-snap: cubic-bezier(0.2, 1.4, 0.4, 1);  /* small confident pops */
+
+  --dur-1: 120ms;
+  --dur-2: 220ms;
+  --dur-3: 420ms;
+  --dur-4: 800ms;
+
+  --page-width: 1180px;
+}
+
+/* ============================================================
+   BASE
+   ============================================================ */
+
+*, *::before, *::after { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--fg);
+  font-family: var(--font-body);
+  font-size: var(--t-base);
+  line-height: var(--lh-body);
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--font-display);
+  line-height: var(--lh-tight);
+  margin: 0;
+  font-weight: 700;
+}
+h1 { font-size: var(--t-2xl); }
+h2 { font-size: var(--t-xl); }
+h3 { font-size: var(--t-lg); }
+h4 { font-size: var(--t-md); }
+
+a { color: var(--gold); text-decoration-color: var(--gold-line); }
+a:hover { color: var(--gold-bright); }
+
+code, kbd, .mono { font-family: var(--font-mono); font-size: 0.92em; }
+
+kbd {
+  background: var(--surface-3);
+  border: 1px solid var(--line-strong);
+  border-bottom-width: 2px;
+  border-radius: var(--r-sm);
+  padding: 1px var(--s-2);
+  font-size: var(--t-xs);
+  color: var(--fg-muted);
+}
+
+/* One visible focus treatment everywhere. Never remove it without
+   replacing it -- keyboard use is the whole point of the studio. */
+:focus-visible {
+  outline: 2px solid var(--gold-bright);
+  outline-offset: 2px;
+  border-radius: var(--r-sm);
+}
+
+/* ============================================================
+   COMPONENTS
+   Small, composable, no page-specific logic.
+   ============================================================ */
+
+.eyebrow {
+  font-family: var(--font-display);
+  font-size: var(--t-xs);
+  letter-spacing: var(--tracking-caps);
+  text-transform: uppercase;
+  color: var(--fg-subtle);
+}
+
+.panel {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--r);
+  padding: var(--s-5);
+}
+.panel--raised { background: var(--surface-2); box-shadow: var(--shadow-2); }
+.panel--gold   { border-color: var(--gold-line); box-shadow: var(--shadow-gold); }
+
+.btn {
+  font-family: var(--font-display);
+  font-size: var(--t-sm);
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  padding: var(--s-2) var(--s-4);
+  border-radius: var(--r-sm);
+  border: 1px solid var(--line-strong);
+  background: var(--surface-3);
+  color: var(--fg);
+  cursor: pointer;
+  transition: background var(--dur-1) var(--ease-out),
+              border-color var(--dur-1) var(--ease-out),
+              transform var(--dur-1) var(--ease-snap);
+}
+.btn:hover  { background: var(--surface-2); border-color: var(--gold-line); }
+.btn:active { transform: translateY(1px); }
+.btn[disabled] { opacity: 0.4; cursor: not-allowed; }
+
+.btn--gold { background: var(--gold); border-color: var(--gold); color: #1a1405; }
+.btn--gold:hover { background: var(--gold-bright); border-color: var(--gold-bright); }
+.btn--ok   { background: var(--ok-wash);   border-color: var(--ok);   color: var(--ok); }
+.btn--warn { background: var(--warn-wash); border-color: var(--warn); color: var(--warn); }
+.btn--bad  { background: var(--bad-wash);  border-color: var(--bad);  color: var(--bad); }
+.btn--ghost { background: transparent; border-color: var(--line); color: var(--fg-muted); }
+
+.chip {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--s-1);
+  font-family: var(--font-display);
+  font-size: var(--t-xs);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 2px var(--s-2);
+  border-radius: var(--r-pill);
+  border: 1px solid currentColor;
+  background: color-mix(in srgb, currentColor 10%, transparent);
+}
+
+.field {
+  width: 100%;
+  background: var(--surface-3);
+  border: 1px solid var(--line);
+  border-radius: var(--r-sm);
+  color: var(--fg);
+  font-family: var(--font-body);
+  font-size: var(--t-base);
+  line-height: var(--lh-snug);
+  padding: var(--s-2) var(--s-3);
+  transition: border-color var(--dur-1) var(--ease-out);
+}
+.field:hover { border-color: var(--line-strong); }
+.field:focus { border-color: var(--gold); outline: none; }
+.field::placeholder { color: var(--fg-faint); }
+
+label.lbl {
+  display: block;
+  font-family: var(--font-display);
+  font-size: var(--t-xs);
+  letter-spacing: var(--tracking-caps);
+  text-transform: uppercase;
+  color: var(--fg-subtle);
+  margin-bottom: var(--s-1);
+}
+
+.rule { height: 1px; background: var(--line); border: 0; margin: var(--s-5) 0; }
+
+.stack   > * + * { margin-top: var(--s-3); }
+.stack-5 > * + * { margin-top: var(--s-5); }
+.row { display: flex; align-items: center; gap: var(--s-3); }
+.row--wrap { flex-wrap: wrap; }
+.spacer { flex: 1; }
+
+/* ---- state helpers, driven by a data attribute so markup stays clean --- */
+[data-state="unreviewed"] { color: var(--st-unreviewed); }
+[data-state="verified"]   { color: var(--st-verified); }
+[data-state="flagged"]    { color: var(--st-flagged); }
+[data-state="rejected"]   { color: var(--st-rejected); }
+[data-state="retired"]    { color: var(--st-retired); }
+
+[data-cat="History"]           { color: var(--cat-history); }
+[data-cat="Sports"]            { color: var(--cat-sports); }
+[data-cat="Pop Culture"]       { color: var(--cat-pop); }
+[data-cat="Geography"]         { color: var(--cat-geography); }
+[data-cat="Science & Nature"]  { color: var(--cat-science); }
+
+[data-tier="primary"]   { color: var(--tier-primary); }
+[data-tier="reference"] { color: var(--tier-reference); }
+[data-tier="secondary"] { color: var(--tier-secondary); }
+[data-tier="canonical"] { color: var(--tier-canonical); }
+
+/* ---- scrollbars, because this platform lives in long lists ---- */
+* { scrollbar-width: thin; scrollbar-color: var(--surface-3) transparent; }
+*::-webkit-scrollbar { width: 10px; height: 10px; }
+*::-webkit-scrollbar-thumb {
+  background: var(--surface-3); border-radius: var(--r-pill);
+  border: 2px solid var(--bg);
+}
+*::-webkit-scrollbar-thumb:hover { background: var(--line-strong); }
+
+/* ============================================================
+   MOTION CONSENT
+   Every page inherits this. Anything decorative must sit behind it,
+   and no feature may exist only for people who tolerate movement.
+   ============================================================ */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}

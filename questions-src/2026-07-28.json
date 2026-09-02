@@ -2,6 +2,7 @@
   "date": "2026-07-28",
   "questions": [
     {
+      "id": "frq-0517",
       "category": "History",
       "question": "The Gunpowder Plot of 1605 was a failed conspiracy to blow up the English Parliament and assassinate which reigning monarch?",
       "options": [
@@ -12,9 +13,16 @@
       ],
       "answer": "King James I",
       "explanation": "The Gunpowder Plot was hatched by a group of English Catholics, including Guy Fawkes, who planned to blow up the Houses of Parliament on November 5, 1605. The plot was foiled when an anonymous tip led to a search of the cellars, where Fawkes was discovered with barrels of gunpowder. Guy Fawkes Night is still celebrated in the UK on November 5.",
-      "memory_hook": "Guy Fawkes, 1605, wanted to kill King James I. Caught in the cellar."
+      "memory_hook": "Guy Fawkes, 1605, wanted to kill King James I. Caught in the cellar.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0518",
       "category": "History",
       "question": "The printing press, which revolutionized the spread of information, was invented by whom around 1440?",
       "options": [
@@ -25,9 +33,16 @@
       ],
       "answer": "Johannes Gutenberg",
       "explanation": "Johannes Gutenberg invented the movable-type printing press around 1440 in Mainz, Germany. The first major book printed was the Gutenberg Bible around 1455. The press enabled mass production of books, spreading literacy, accelerating the Renaissance and Reformation, and fundamentally changing how knowledge was shared — arguably the most important invention before the internet.",
-      "memory_hook": "Gutenberg = printing press, ~1440. Before Gutenberg, books were hand-copied — expensive and rare. After, ideas spread like fire. Martin Luther's 95 Theses went viral in the 1500s because of the printing press."
+      "memory_hook": "Gutenberg = printing press, ~1440. Before Gutenberg, books were hand-copied — expensive and rare. After, ideas spread like fire. Martin Luther's 95 Theses went viral in the 1500s because of the printing press.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0519",
       "category": "History",
       "question": "The Ottoman Empire's capital, Constantinople, was conquered by the Ottomans in which year — marking the end of the Byzantine Empire?",
       "options": [
@@ -38,9 +53,16 @@
       ],
       "answer": "1453",
       "explanation": "Ottoman Sultan Mehmed II conquered Constantinople on May 29, 1453, ending the Byzantine Empire (Eastern Roman Empire) after more than 1,000 years. The city was renamed Istanbul and became the Ottoman capital. Historians often mark this event as the end of the Middle Ages and the beginning of the Early Modern Period.",
-      "memory_hook": "1453 = Constantinople falls. The Byzantine Empire, which had kept Roman civilization alive for 1,000 years after Rome fell, ended in a single day. The date is still mourned in Greece."
+      "memory_hook": "1453 = Constantinople falls. The Byzantine Empire, which had kept Roman civilization alive for 1,000 years after Rome fell, ended in a single day. The date is still mourned in Greece.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0520",
       "category": "Science & Nature",
       "question": "Nuclear fusion — the process powering the Sun — has been called the 'holy grail' of clean energy. What is the key challenge that has prevented fusion power plants from operating?",
       "options": [
@@ -51,9 +73,16 @@
       ],
       "answer": "Fusion requires plasma heated to 100+ million degrees Celsius — hotter than the Sun's core — and no material can physically contain it; magnetic fields must do so, but sustaining the confinement long enough to produce more energy than input has proven enormously difficult",
       "explanation": "The Sun fuses hydrogen at 15 million°C using its enormous gravity to confine plasma. On Earth, without that gravity, fusion requires even higher temperatures (100–200 million°C) and magnetic confinement (tokamak reactors). The goal is 'ignition' — more energy out than in. In December 2022, the US National Ignition Facility (NIF) achieved fusion ignition for the first time using laser-driven inertial confinement — 3.15 megajoules out from 2.05 MJ in. ITER, the multinational tokamak being built in France, aims to produce 500 MW from 50 MW input by the 2030s. Unlike fission, fusion produces no long-lived radioactive waste and cannot melt down.",
-      "memory_hook": "Fusion plasma must be 100 million°C — hotter than the Sun's core — because Earth has no gravitational confinement. Magnetic fields (tokamaks) must substitute. In 2022, NIF achieved fusion ignition for the first time: 3.15 MJ out from 2.05 MJ in. ITER aims for 500 MW from 50 MW input."
+      "memory_hook": "Fusion plasma must be 100 million°C — hotter than the Sun's core — because Earth has no gravitational confinement. Magnetic fields (tokamaks) must substitute. In 2022, NIF achieved fusion ignition for the first time: 3.15 MJ out from 2.05 MJ in. ITER aims for 500 MW from 50 MW input.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0521",
       "category": "Sports",
       "question": "The Tour de France cycling race is traditionally held in which month?",
       "options": [
@@ -64,9 +93,16 @@
       ],
       "answer": "July",
       "explanation": "The Tour de France is held annually in July, covering approximately 3,400 kilometers across France and sometimes into neighboring countries over 21 stages. The overall leader wears the yellow jersey (maillot jaune). It is the most prestigious race in professional cycling and one of the most watched annual sporting events in the world.",
-      "memory_hook": "Tour de France = July. 21 stages, ~3,400 km, yellow jersey. The most grueling regular sporting event in the world — riders climb the Alps and Pyrenees in consecutive days."
+      "memory_hook": "Tour de France = July. 21 stages, ~3,400 km, yellow jersey. The most grueling regular sporting event in the world — riders climb the Alps and Pyrenees in consecutive days.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0522",
       "category": "Sports",
       "question": "The modern Olympic Games were revived in 1896 in Athens. Which French baron and educator is credited as the primary founder of the modern Olympics?",
       "options": [
@@ -77,9 +113,16 @@
       ],
       "answer": "Pierre de Coubertin",
       "explanation": "Pierre de Coubertin (1863-1937) was a French educator and historian who proposed reviving the Olympic Games in 1892. He founded the International Olympic Committee in 1894 and served as its second president. He also designed the iconic five-ring Olympic symbol.",
-      "memory_hook": "Pierre de Coubertin = founder of modern Olympics. French, 1896 Athens."
+      "memory_hook": "Pierre de Coubertin = founder of modern Olympics. French, 1896 Athens.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0523",
       "category": "Pop Culture",
       "question": "Which artist won the very first Grammy Award for Best Rap Performance in 1989?",
       "options": [
@@ -90,9 +133,16 @@
       ],
       "answer": "DJ Jazzy Jeff & The Fresh Prince",
       "explanation": "DJ Jazzy Jeff & The Fresh Prince (featuring a young Will Smith) won the inaugural Grammy for Best Rap Performance in 1989 for 'Parents Just Don't Understand.' In protest of rap not being televised at the ceremony, they boycotted the show — a move that made headlines.",
-      "memory_hook": "Will Smith skipped his first Grammy. On purpose."
+      "memory_hook": "Will Smith skipped his first Grammy. On purpose.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0524",
       "category": "Pop Culture",
       "question": "The Crown (Netflix, 2016–2023) dramatizes the reign of Queen Elizabeth II across six decades. What challenging artistic decision shaped the series?",
       "options": [
@@ -103,9 +153,16 @@
       ],
       "answer": "The creators recasted all major roles entirely every two seasons to capture the physical aging of the characters — requiring audiences to re-bond with new actors playing the same people at different life stages",
       "explanation": "Across six seasons, Queen Elizabeth II was played by Claire Foy (young), Olivia Colman (middle age), and Imelda Staunton (elder). Prince Philip changed from Matt Smith to Tobias Menzies to Jonathan Pryce. This recurring recasting was both a practical and artistic statement — time passing visibly on screen, with new actors bringing fresh interpretations. Creator Peter Morgan (The Queen, Frost/Nixon) wrote fictional scenes based on documented events; episodes covering Diana's death and Charles's affairs generated significant controversy.",
-      "memory_hook": "The Crown recasted every major role every two seasons — Queen Elizabeth alone was played by three different actresses across six seasons. Creator Peter Morgan used the physical transformation of actors to dramatize decades of royal history."
+      "memory_hook": "The Crown recasted every major role every two seasons — Queen Elizabeth alone was played by three different actresses across six seasons. Creator Peter Morgan used the physical transformation of actors to dramatize decades of royal history.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0525",
       "category": "Pop Culture",
       "question": "Bob Dylan was awarded the Nobel Prize in Literature in 2016. He is primarily known as what type of artist?",
       "options": [
@@ -116,9 +173,16 @@
       ],
       "answer": "Singer-songwriter",
       "explanation": "Bob Dylan won the Nobel Prize in Literature 'for having created new poetic expressions within the great American song tradition.' It was controversial — many questioned whether song lyrics counted as literature. Dylan initially didn't acknowledge the award and took weeks to respond. His songs including 'Blowin' in the Wind,' 'The Times They Are A-Changin',' and 'Like a Rolling Stone' are considered literary masterpieces.",
-      "memory_hook": "Dylan won the Nobel Prize for Literature — for songs. The Nobel Committee said his lyrics are poetry. He didn't respond for weeks. He's the only musician to win it."
+      "memory_hook": "Dylan won the Nobel Prize for Literature — for songs. The Nobel Committee said his lyrics are poetry. He didn't respond for weeks. He's the only musician to win it.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0526",
       "category": "Geography",
       "question": "The Mariana Trench, the deepest point in the world's oceans, is located in which ocean?",
       "options": [
@@ -129,9 +193,16 @@
       ],
       "answer": "Pacific Ocean",
       "explanation": "The Mariana Trench is located in the western Pacific Ocean, east of the Mariana Islands. Its deepest point, Challenger Deep, is approximately 11,034 meters below sea level — deeper than Mount Everest is tall. James Cameron became one of the few people to reach the bottom solo, in 2012, in a submersible he helped design.",
-      "memory_hook": "Mariana Trench = deepest place on Earth, Pacific Ocean. Deeper than Everest is tall. James Cameron directed Titanic and Avatar — then dove to the bottom of the ocean in his spare time."
+      "memory_hook": "Mariana Trench = deepest place on Earth, Pacific Ocean. Deeper than Everest is tall. James Cameron directed Titanic and Avatar — then dove to the bottom of the ocean in his spare time.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0527",
       "category": "Science & Nature",
       "question": "What is the name for the process by which a solid converts directly into a gas without becoming a liquid first?",
       "options": [
@@ -142,9 +213,16 @@
       ],
       "answer": "Sublimation",
       "explanation": "Sublimation is the phase transition from solid directly to gas. Dry ice (solid CO2) sublimates at room temperature — that's the eerie fog you see at concerts. Mothballs sublime slowly at room temperature. Water ice can also sublime, which is how freeze-dried food works and why ice in a freezer slowly shrinks over time.",
-      "memory_hook": "Sublimation = solid to gas, skipping liquid. Dry ice doesn't melt into liquid CO2 — it goes straight from solid to gas. That's why it creates fog instead of a puddle."
+      "memory_hook": "Sublimation = solid to gas, skipping liquid. Dry ice doesn't melt into liquid CO2 — it goes straight from solid to gas. That's why it creates fog instead of a puddle.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0528",
       "category": "Geography",
       "question": "The Sea of Azov, bordered by Russia and Ukraine, holds which geographic distinction?",
       "options": [
@@ -155,7 +233,13 @@
       ],
       "answer": "World's shallowest sea",
       "explanation": "The Sea of Azov is the world's shallowest sea, with an average depth of only 7 meters and a maximum depth of about 14 meters. It is connected to the Black Sea via the Strait of Kerch. The Don and Kuban rivers flow into it, making it much less salty than most seas. The Azov has been strategically important throughout history and has been at the center of the Russia-Ukraine conflict — Russia's seizure of Crimea in 2014 gave it control of the Kerch Strait.",
-      "memory_hook": "Sea of Azov: world's shallowest sea, average 7m deep (max 14m). Between Russia and Ukraine, connected to Black Sea via Kerch Strait. Russia's seizure of Crimea (2014) effectively blockaded Ukraine's Azov ports. So shallow you could wade across much of it in theory."
+      "memory_hook": "Sea of Azov: world's shallowest sea, average 7m deep (max 14m). Between Russia and Ukraine, connected to Black Sea via Kerch Strait. Russia's seizure of Crimea (2014) effectively blockaded Ukraine's Azov ports. So shallow you could wade across much of it in theory.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     }
   ]
 }

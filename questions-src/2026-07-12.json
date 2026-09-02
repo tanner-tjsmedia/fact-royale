@@ -1,6 +1,7 @@
 {
   "questions": [
     {
+      "id": "frq-0325",
       "category": "History",
       "question": "In which year did the French Revolution begin?",
       "options": [
@@ -11,9 +12,16 @@
       ],
       "answer": "1789",
       "explanation": "The French Revolution began in 1789 with the storming of the Bastille on July 14. It was driven by widespread discontent with social inequality, financial crisis, and political oppression under the monarchy. It led to the end of the French monarchy and the rise of Napoleon.",
-      "memory_hook": "1789 = French Revolution. The Bastille fell. Liberty, Equality, Fraternity was born."
+      "memory_hook": "1789 = French Revolution. The Bastille fell. Liberty, Equality, Fraternity was born.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0326",
       "category": "History",
       "question": "Which document established the framework for U.S. federal government?",
       "options": [
@@ -24,9 +32,16 @@
       ],
       "answer": "The U.S. Constitution",
       "explanation": "The U.S. Constitution, drafted in 1787 and ratified in 1788, established the framework for the federal government of the United States, including the separation of powers into three branches: executive, legislative, and judicial. It remains the oldest written national constitution still in use.",
-      "memory_hook": "The Constitution built the government — the Declaration just said they were leaving."
+      "memory_hook": "The Constitution built the government — the Declaration just said they were leaving.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0327",
       "category": "Sports",
       "question": "Who holds the record for the most home runs in MLB history?",
       "options": [
@@ -37,9 +52,16 @@
       ],
       "answer": "Barry Bonds",
       "explanation": "Barry Bonds holds the all-time MLB home run record with 762 career home runs, set when he retired in 2007. Hank Aaron held the record at 755 for 33 years before Bonds surpassed him. Bonds' records are viewed with skepticism due to his connection to PED use.",
-      "memory_hook": "Bonds = 762. The number that came with an asterisk in many minds."
+      "memory_hook": "Bonds = 762. The number that came with an asterisk in many minds.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0328",
       "category": "Sports",
       "question": "What is the official weight of a regulation NFL football?",
       "options": [
@@ -50,9 +72,16 @@
       ],
       "answer": "14–15 ounces",
       "explanation": "An NFL football must weigh between 14 and 15 ounces (397–425 grams). The ball is inflated to 12.5 to 13.5 psi. The New England Patriots were involved in the 'Deflategate' controversy in 2015 when their balls were found underinflated.",
-      "memory_hook": "14-15 oz NFL ball — Deflategate made everyone suddenly know the spec."
+      "memory_hook": "14-15 oz NFL ball — Deflategate made everyone suddenly know the spec.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0329",
       "category": "Pop Culture",
       "question": "'Don't Stop Me Now' is a classic track by which band?",
       "options": [
@@ -63,9 +92,16 @@
       ],
       "answer": "Queen",
       "explanation": "'Don't Stop Me Now' was released by Queen in 1978. Written by Freddie Mercury, it features Mercury playing piano and describes the euphoric rush of performing. Despite being a modest chart success initially, it has since been voted one of the greatest rock songs of all time in multiple polls.",
-      "memory_hook": "Don't stop Queen now — they're having a good time, having a ball."
+      "memory_hook": "Don't stop Queen now — they're having a good time, having a ball.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0330",
       "category": "Pop Culture",
       "question": "Which director made 'Get Out' and 'Us'?",
       "options": [
@@ -76,9 +112,16 @@
       ],
       "answer": "Jordan Peele",
       "explanation": "Jordan Peele wrote and directed both Get Out (2017) and Us (2019). Get Out won him the Academy Award for Best Original Screenplay, making him the first Black writer to win in that category. Both films blend social commentary with horror in a distinctive style.",
-      "memory_hook": "Peele made the world peel back its skin — Get Out, Us, and our own discomfort."
+      "memory_hook": "Peele made the world peel back its skin — Get Out, Us, and our own discomfort.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0331",
       "category": "Pop Culture",
       "question": "Which singer is known by the stage name 'Lady Gaga'?",
       "options": [
@@ -89,9 +132,16 @@
       ],
       "answer": "Stefani Germanotta",
       "explanation": "Lady Gaga's real name is Stefani Joanne Angelina Germanotta. She chose her stage name from the Queen song 'Radio Ga Ga.' She rose to fame with 'Just Dance' and 'Poker Face' in 2008 and has since won Oscars, Grammys, and Golden Globes. Robyn Fenty is Rihanna; Alecia Moore is Pink; Ella Yelich-O'Connor is Lorde.",
-      "memory_hook": "Gaga's real name: Stefani Germanotta. Radio Ga Ga gave her the name."
+      "memory_hook": "Gaga's real name: Stefani Germanotta. Radio Ga Ga gave her the name.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0332",
       "category": "History",
       "question": "What was the name of the first nuclear bomb dropped on Japan in World War II?",
       "options": [
@@ -102,9 +152,16 @@
       ],
       "answer": "Little Boy",
       "explanation": "'Little Boy' was the first atomic bomb used in warfare, dropped on Hiroshima on August 6, 1945. Three days later, 'Fat Man' was dropped on Nagasaki. The bombings killed between 129,000 and 226,000 people and led to Japan's surrender and the end of World War II.",
-      "memory_hook": "Little Boy on Hiroshima, Fat Man on Nagasaki — the names belie the horror."
+      "memory_hook": "Little Boy on Hiroshima, Fat Man on Nagasaki — the names belie the horror.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0333",
       "category": "Geography",
       "question": "Which South American country is the largest by land area?",
       "options": [
@@ -115,9 +172,16 @@
       ],
       "answer": "Brazil",
       "explanation": "Brazil covers 8.51 million square kilometers, making it the largest country in South America and the fifth largest in the world. It borders every South American country except Ecuador and Chile. The Amazon rainforest, which covers about 60% of Brazil, contains the largest tropical rainforest on Earth.",
-      "memory_hook": "Brazil = biggest in South America. It borders almost every other country on the continent. And it contains most of the Amazon — the lungs of the planet."
+      "memory_hook": "Brazil = biggest in South America. It borders almost every other country on the continent. And it contains most of the Amazon — the lungs of the planet.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0334",
       "category": "Science & Nature",
       "question": "The ozone layer that protects Earth from ultraviolet radiation is found in which layer of the atmosphere?",
       "options": [
@@ -128,9 +192,16 @@
       ],
       "answer": "Stratosphere",
       "explanation": "The ozone layer sits in the stratosphere, approximately 15 to 35 km above Earth's surface. It absorbs most of the Sun's harmful ultraviolet radiation. Chlorofluorocarbons (CFCs) from aerosols and refrigerants caused significant ozone depletion in the 20th century, creating the 'ozone hole' over Antarctica.",
-      "memory_hook": "Ozone = stratosphere. It's above the weather (troposphere) but below space. Think: stra-to-sphere, the layer above the storms where the ozone shield lives."
+      "memory_hook": "Ozone = stratosphere. It's above the weather (troposphere) but below space. Think: stra-to-sphere, the layer above the storms where the ozone shield lives.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0335",
       "category": "Geography",
       "question": "The Yellow River (Huang He) in China is known by what nickname because of its frequent devastating floods throughout history?",
       "options": [
@@ -141,9 +212,16 @@
       ],
       "answer": "China's Sorrow",
       "explanation": "The Yellow River gets its name from the yellow loess silt it carries from the Loess Plateau. Historically prone to catastrophic flooding, it has been called 'China's Sorrow' — its floods have killed millions throughout history, including the 1931 China floods (the deadliest natural disaster in recorded history, killing 1-4 million people). The river is also called 'the cradle of Chinese civilization' as the ancient Chinese people developed along its banks. It is China's second-longest river after the Yangtze.",
-      "memory_hook": "Yellow River (Huang He) = 'China's Sorrow.' Yellow from loess silt. Floods have killed millions. The 1931 flood killed up to 4 million — deadliest natural disaster in recorded history. Also 'cradle of Chinese civilization.' Beauty and catastrophe in the same river."
+      "memory_hook": "Yellow River (Huang He) = 'China's Sorrow.' Yellow from loess silt. Floods have killed millions. The 1931 flood killed up to 4 million — deadliest natural disaster in recorded history. Also 'cradle of Chinese civilization.' Beauty and catastrophe in the same river.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0336",
       "category": "Science & Nature",
       "question": "What is the term for medicines that kill or inhibit the growth of bacteria — famously discovered when Alexander Fleming noticed a mold killing bacteria in 1928?",
       "options": [
@@ -154,7 +232,13 @@
       ],
       "answer": "Antibiotics",
       "explanation": "Antibiotics are drugs that kill bacteria or prevent their reproduction. The first antibiotic, penicillin, was discovered by Alexander Fleming in 1928 when he noticed the mold Penicillium notatum killing bacteria in a petri dish. Howard Florey and Ernst Chain later purified it for medical use. Antibiotics revolutionized medicine and have saved hundreds of millions of lives. However, overuse has led to antibiotic-resistant bacteria — one of the most serious public health challenges today.",
-      "memory_hook": "Antibiotics = bacteria killers. Fleming discovered penicillin in 1928 from a mold contaminating his petri dish. Florey and Chain made it usable. Saved hundreds of millions of lives. Overuse is now creating antibiotic-resistant 'superbugs' — one of medicine's biggest coming crises."
+      "memory_hook": "Antibiotics = bacteria killers. Fleming discovered penicillin in 1928 from a mold contaminating his petri dish. Florey and Chain made it usable. Saved hundreds of millions of lives. Overuse is now creating antibiotic-resistant 'superbugs' — one of medicine's biggest coming crises.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     }
   ]
 }

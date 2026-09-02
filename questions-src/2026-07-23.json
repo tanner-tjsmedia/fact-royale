@@ -1,6 +1,7 @@
 {
   "questions": [
     {
+      "id": "frq-0457",
       "category": "History",
       "question": "Which city was divided by a wall between 1961 and 1989?",
       "options": [
@@ -11,9 +12,16 @@
       ],
       "answer": "Berlin",
       "explanation": "Berlin was divided by the Berlin Wall from August 13, 1961 to November 9, 1989. The Wall separated communist East Berlin (capital of East Germany) from democratic West Berlin. During the Wall's existence, at least 140 people were killed attempting to cross it.",
-      "memory_hook": "Berlin: the Wall divided families for 28 years. It fell in a single night."
+      "memory_hook": "Berlin: the Wall divided families for 28 years. It fell in a single night.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0458",
       "category": "History",
       "question": "Who was the first emperor of the Roman Empire?",
       "options": [
@@ -24,9 +32,16 @@
       ],
       "answer": "Augustus",
       "explanation": "Augustus (born Gaius Octavius, later Gaius Julius Caesar Augustus) became the first Roman Emperor after defeating Mark Antony and Cleopatra at the Battle of Actium in 31 BC. He transformed Rome from a republic into an empire and reigned for 41 years. The month of August is named after him.",
-      "memory_hook": "August = Augustus. The month was named for Rome's first emperor."
+      "memory_hook": "August = Augustus. The month was named for Rome's first emperor.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0459",
       "category": "Sports",
       "question": "In basketball, what line must be crossed within 8 seconds of gaining possession in the backcourt (NBA)?",
       "options": [
@@ -37,9 +52,16 @@
       ],
       "answer": "The half-court line",
       "explanation": "In the NBA, a team has 8 seconds to advance the ball from their backcourt (behind the half-court line) into the frontcourt. In FIBA (international) rules, the time limit is also 8 seconds. Violation results in a turnover. Previously the NBA rule was 10 seconds.",
-      "memory_hook": "8 seconds to cross half-court — don't just stand there dribbling."
+      "memory_hook": "8 seconds to cross half-court — don't just stand there dribbling.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0460",
       "category": "Sports",
       "question": "What is the scoring system used in volleyball?",
       "options": [
@@ -50,9 +72,16 @@
       ],
       "answer": "Rally scoring to 25",
       "explanation": "Volleyball uses rally scoring, meaning a point is scored on every rally regardless of who served. Sets are played to 25 points (with a 2-point advantage required), except the deciding fifth set, which is played to 15. Rally scoring replaced side-out scoring in international volleyball in 1999.",
-      "memory_hook": "Rally scoring: every rally = a point. First to 25, needs 2-point lead."
+      "memory_hook": "Rally scoring: every rally = a point. First to 25, needs 2-point lead.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0461",
       "category": "Pop Culture",
       "question": "Which musician released the album 'The Dark Side of the Moon' in 1973?",
       "options": [
@@ -63,9 +92,16 @@
       ],
       "answer": "Pink Floyd",
       "explanation": "Pink Floyd's 'The Dark Side of the Moon' was released on March 1, 1973. It spent a record 741 weeks on the US Billboard 200. The album features iconic imagery (a prism splitting white light into a rainbow) and addresses themes of time, money, conflict, and mental illness. It is one of the best-selling albums of all time.",
-      "memory_hook": "Pink Floyd's prism album — 741 weeks on the Billboard chart. The dark side never left."
+      "memory_hook": "Pink Floyd's prism album — 741 weeks on the Billboard chart. The dark side never left.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0462",
       "category": "Pop Culture",
       "question": "Band of Brothers (HBO, 2001), produced by Steven Spielberg and Tom Hanks, follows Easy Company of the 101st Airborne from D-Day to Germany's surrender. Why is it considered a landmark miniseries?",
       "options": [
@@ -76,9 +112,16 @@
       ],
       "answer": "It combined the budget and production values of major studio films with the narrative depth of a long-form documentary, using the real Easy Company veterans' firsthand testimony as its foundation",
       "explanation": "Band of Brothers was based on historian Stephen Ambrose's 1992 book, which drew on interviews with Easy Company survivors. The 10-episode, $125 million production (a record for TV at the time) opened each episode with actual veterans — not identified until the finale — sharing memories. It traced the company from jump training in Georgia through Bastogne's freezing siege, to Hitler's Eagle's Nest. It set the template for prestige limited series that followed, including The Pacific and Generation Kill.",
-      "memory_hook": "Band of Brothers opened each episode with unidentified WWII veterans speaking — only the finale revealed who they were. The $125 million HBO miniseries used their real testimony as its backbone, setting the template for prestige limited TV."
+      "memory_hook": "Band of Brothers opened each episode with unidentified WWII veterans speaking — only the finale revealed who they were. The $125 million HBO miniseries used their real testimony as its backbone, setting the template for prestige limited TV.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0463",
       "category": "Pop Culture",
       "question": "Which singer's documentary is titled 'Miss Americana'?",
       "options": [
@@ -89,9 +132,16 @@
       ],
       "answer": "Taylor Swift",
       "explanation": "'Miss Americana' is a 2020 Netflix documentary directed by Lana Wilson that follows Taylor Swift during the recording of her Lover album, her public political awakening, and her efforts to reclaim ownership of her masters from Scooter Braun. The film offers an intimate look at her life and decision-making.",
-      "memory_hook": "'Miss Americana' — Taylor Swift goes political and personal on Netflix."
+      "memory_hook": "'Miss Americana' — Taylor Swift goes political and personal on Netflix.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0464",
       "category": "History",
       "question": "The 'Watergate scandal' led to the resignation of which U.S. president?",
       "options": [
@@ -102,9 +152,16 @@
       ],
       "answer": "Richard Nixon",
       "explanation": "The Watergate scandal began with the 1972 break-in at the Democratic National Committee headquarters at the Watergate complex in Washington, D.C. Nixon participated in covering up the crime. Facing near-certain impeachment, he resigned on August 9, 1974 — the only U.S. president to have resigned from office.",
-      "memory_hook": "Nixon, Watergate, resignation: he was going to be impeached, so he quit."
+      "memory_hook": "Nixon, Watergate, resignation: he was going to be impeached, so he quit.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0465",
       "category": "Geography",
       "question": "Which is the world's largest freshwater lake by surface area?",
       "options": [
@@ -115,9 +172,16 @@
       ],
       "answer": "Lake Superior",
       "explanation": "Lake Superior, on the border of the United States and Canada, is the world's largest freshwater lake by surface area at approximately 82,000 square kilometers. The Great Lakes as a system contain about 21% of the world's surface fresh water. Lake Baikal holds more water by volume, but Lake Superior wins on surface area.",
-      "memory_hook": "Lake Superior = largest by surface area. Baikal is deepest and holds the most water, but Superior is widest. On a calm day, you cannot see across it — it looks like an ocean."
+      "memory_hook": "Lake Superior = largest by surface area. Baikal is deepest and holds the most water, but Superior is widest. On a calm day, you cannot see across it — it looks like an ocean.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0466",
       "category": "Science & Nature",
       "question": "The Sun is classified as what type of star?",
       "options": [
@@ -128,9 +192,16 @@
       ],
       "answer": "Yellow dwarf",
       "explanation": "The Sun is a G-type main-sequence star, commonly called a yellow dwarf. It is middle-aged at about 4.6 billion years old and is expected to remain stable for another 5 billion years before expanding into a red giant. Despite being called 'yellow dwarf,' the Sun actually appears white from space — it looks yellow from Earth because of atmospheric scattering.",
-      "memory_hook": "The Sun = yellow dwarf. Middle-aged, middle-sized. About 5 billion years left before it expands and swallows the inner planets. From space it's actually white, not yellow."
+      "memory_hook": "The Sun = yellow dwarf. Middle-aged, middle-sized. About 5 billion years left before it expands and swallows the inner planets. From space it's actually white, not yellow.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0467",
       "category": "Geography",
       "question": "Papua New Guinea, one of the world's most culturally diverse nations with over 800 languages, occupies the eastern half of which large island?",
       "options": [
@@ -141,9 +212,16 @@
       ],
       "answer": "New Guinea",
       "explanation": "New Guinea is the world's second-largest island (after Greenland) and is divided between Papua New Guinea (east) and Indonesia's Papua provinces (west). Papua New Guinea has one of the most linguistically diverse populations on Earth — over 800 languages among 9 million people. The country contains extraordinary biodiversity including birds of paradise and tree kangaroos. Its highland regions weren't contacted by outside civilization until the 1930s.",
-      "memory_hook": "Papua New Guinea: eastern half of New Guinea (world's 2nd largest island). 9 million people, 800+ languages — one of the most linguistically diverse places on Earth. Birds of paradise, tree kangaroos. Highlands not contacted by outside world until the 1930s."
+      "memory_hook": "Papua New Guinea: eastern half of New Guinea (world's 2nd largest island). 9 million people, 800+ languages — one of the most linguistically diverse places on Earth. Birds of paradise, tree kangaroos. Highlands not contacted by outside world until the 1930s.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0468",
       "category": "Science & Nature",
       "question": "What is the molecule often called the 'energy currency' of cells — produced in the mitochondria and used to power virtually every cellular function?",
       "options": [
@@ -154,7 +232,13 @@
       ],
       "answer": "ATP (adenosine triphosphate)",
       "explanation": "ATP (adenosine triphosphate) is the primary energy carrier in all living cells. When cells need energy for any function — muscle contraction, nerve firing, protein synthesis, active transport — they break the phosphate bond in ATP, releasing energy and producing ADP (adenosine diphosphate). The mitochondria (and to a lesser extent other pathways) continuously regenerate ATP from ADP using glucose, fats, or other fuels. A human body turns over its own weight in ATP every day.",
-      "memory_hook": "ATP = cellular energy currency. Mitochondria make it from glucose/oxygen. Every muscle contraction, nerve signal, and protein built costs ATP. Your body turns over its own weight in ATP daily — you make and break trillions of these molecules every second. Without ATP, cells stop within seconds."
+      "memory_hook": "ATP = cellular energy currency. Mitochondria make it from glucose/oxygen. Every muscle contraction, nerve signal, and protein built costs ATP. Your body turns over its own weight in ATP daily — you make and break trillions of these molecules every second. Without ATP, cells stop within seconds.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     }
   ]
 }

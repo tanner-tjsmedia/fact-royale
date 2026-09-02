@@ -1,6 +1,7 @@
 {
   "questions": [
     {
+      "id": "frq-0277",
       "category": "History",
       "question": "What was the name of the ship on which the Pilgrims sailed to America in 1620?",
       "options": [
@@ -11,9 +12,16 @@
       ],
       "answer": "Mayflower",
       "explanation": "The Mayflower carried 102 passengers and about 30 crew members from Plymouth, England to Plymouth, Massachusetts in 1620. The voyage took 66 days. The Pilgrims signed the Mayflower Compact aboard the ship, which was one of the first governing documents in the New World.",
-      "memory_hook": "Mayflower — flowers bloomed in a new world."
+      "memory_hook": "Mayflower — flowers bloomed in a new world.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0278",
       "category": "History",
       "question": "Which country was the first to give women the right to vote in a national election in Europe?",
       "options": [
@@ -24,9 +32,16 @@
       ],
       "answer": "Finland",
       "explanation": "Finland was the first European country to give women the right to vote in national elections in 1906. Finnish women were also the first in the world to be eligible to stand for election. In 1907, 19 women were elected to the Finnish Parliament.",
-      "memory_hook": "Finland was first in Europe for female suffrage — a Nordic pioneer."
+      "memory_hook": "Finland was first in Europe for female suffrage — a Nordic pioneer.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0279",
       "category": "Sports",
       "question": "What is the name of the award given to the best player in the NHL each season?",
       "options": [
@@ -37,9 +52,16 @@
       ],
       "answer": "The Hart Trophy",
       "explanation": "The Hart Memorial Trophy is awarded annually to the player judged most valuable to his team in the NHL. It has been awarded since 1924. Wayne Gretzky won it a record nine times. The Vezina Trophy goes to the best goaltender, and the Norris to the best defenseman.",
-      "memory_hook": "Hart Trophy = Heart of the team. MVP of hockey."
+      "memory_hook": "Hart Trophy = Heart of the team. MVP of hockey.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0280",
       "category": "Sports",
       "question": "How many events are in a decathlon?",
       "options": [
@@ -50,9 +72,16 @@
       ],
       "answer": "10",
       "explanation": "A decathlon consists of ten events spread over two days: 100m, long jump, shot put, high jump, and 400m on day one; 110m hurdles, discus, pole vault, javelin, and 1500m on day two. The winner is often called 'the world's greatest athlete.'",
-      "memory_hook": "Deca = ten. Decathlon = 10 events, one champion."
+      "memory_hook": "Deca = ten. Decathlon = 10 events, one champion.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0281",
       "category": "Pop Culture",
       "question": "Which film series features a character who says 'May the Force be with you'?",
       "options": [
@@ -63,9 +92,16 @@
       ],
       "answer": "Star Wars",
       "explanation": "'May the Force be with you' is the iconic phrase from the Star Wars franchise, first used in the original 1977 film. The Force is a metaphysical power that connects all living things in the Star Wars universe. May 4 is celebrated as 'Star Wars Day' based on a pun on the phrase.",
-      "memory_hook": "May the Force — May 4 = Star Wars Day. May the fourth be with you."
+      "memory_hook": "May the Force — May 4 = Star Wars Day. May the fourth be with you.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0282",
       "category": "Pop Culture",
       "question": "Which artist released the albums 'Lemonade' and 'Renaissance'?",
       "options": [
@@ -76,9 +112,16 @@
       ],
       "answer": "Beyoncé",
       "explanation": "Beyoncé released 'Lemonade' as a visual album in 2016 and 'Renaissance' in 2022. 'Lemonade' received widespread critical acclaim and was named album of the year by numerous publications. 'Renaissance' debuted at number one and won the Grammy for Best Dance/Electronic Album.",
-      "memory_hook": "Beyoncé made lemonade when life gave her lemons — and a Renaissance followed."
+      "memory_hook": "Beyoncé made lemonade when life gave her lemons — and a Renaissance followed.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0283",
       "category": "Pop Culture",
       "question": "Which director made 'E.T. the Extra-Terrestrial' and 'Jaws'?",
       "options": [
@@ -89,9 +132,16 @@
       ],
       "answer": "Steven Spielberg",
       "explanation": "Steven Spielberg directed both Jaws (1975) and E.T. the Extra-Terrestrial (1982). Jaws is credited with creating the 'summer blockbuster' concept. E.T. was the highest-grossing film of all time for 11 years until Jurassic Park (also Spielberg) surpassed it.",
-      "memory_hook": "Spielberg made the shark scary and the alien lovable. Opposite ends of the spectrum."
+      "memory_hook": "Spielberg made the shark scary and the alien lovable. Opposite ends of the spectrum.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0284",
       "category": "History",
       "question": "The 'Trojan War' was fought over which city?",
       "options": [
@@ -102,9 +152,16 @@
       ],
       "answer": "Troy",
       "explanation": "The Trojan War, as described in Homer's Iliad, was fought between the Greeks and the city of Troy (in present-day Turkey). It began when Paris of Troy took Helen from Sparta. The Greeks used the Trojan Horse to infiltrate the city after a 10-year siege.",
-      "memory_hook": "Trojan Horse, Trojan War, Trojan everything — Troy was at the center."
+      "memory_hook": "Trojan Horse, Trojan War, Trojan everything — Troy was at the center.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0285",
       "category": "Geography",
       "question": "Angel Falls, the world's highest uninterrupted waterfall, is located in which country?",
       "options": [
@@ -115,9 +172,16 @@
       ],
       "answer": "Venezuela",
       "explanation": "Angel Falls in Venezuela drops 979 meters (3,212 feet), making it the world's highest uninterrupted waterfall. It cascades off Auyán-tepui, a flat-topped mountain in the Canaima National Park. It was named after American aviator Jimmie Angel, who flew over it in 1933 and brought it to the world's attention.",
-      "memory_hook": "Angel Falls = Venezuela. Nearly 1 km of freefall. Named after an American pilot who spotted it from his plane. The water atomizes into mist before it reaches the bottom."
+      "memory_hook": "Angel Falls = Venezuela. Nearly 1 km of freefall. Named after an American pilot who spotted it from his plane. The water atomizes into mist before it reaches the bottom.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0286",
       "category": "Science & Nature",
       "question": "The Cosmic Microwave Background (CMB) radiation, discovered accidentally in 1965, is considered the strongest evidence for the Big Bang. What is it?",
       "options": [
@@ -128,9 +192,16 @@
       ],
       "answer": "The CMB is the afterglow of the Big Bang itself — thermal radiation from 380,000 years after the Big Bang, when the universe cooled enough for atoms to form and light to travel freely for the first time",
       "explanation": "For the first 380,000 years after the Big Bang, the universe was so hot and dense that photons couldn't travel freely — they bounced around in an opaque plasma. When the universe cooled to ~3,000 K, electrons combined with protons to form hydrogen atoms (the 'recombination' epoch), releasing photons that have traveled unimpeded ever since. That light has been stretched by cosmic expansion from visible/infrared to microwave frequencies. Arno Penzias and Robert Wilson at Bell Labs discovered it accidentally as 'antenna noise' in 1965 — and won the 1978 Nobel Prize. The CMB temperature is 2.725 K everywhere.",
-      "memory_hook": "Penzias and Wilson discovered the CMB in 1965 while trying to eliminate 'noise' from a Bell Labs antenna — they even cleaned out pigeons nesting in the horn, suspecting bird droppings. The 'noise' was the afterglow of the Big Bang, now stretched to microwaves at 2.7 K. Nobel Prize, 1978."
+      "memory_hook": "Penzias and Wilson discovered the CMB in 1965 while trying to eliminate 'noise' from a Bell Labs antenna — they even cleaned out pigeons nesting in the horn, suspecting bird droppings. The 'noise' was the afterglow of the Big Bang, now stretched to microwaves at 2.7 K. Nobel Prize, 1978.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0287",
       "category": "Geography",
       "question": "The Baltic Sea is one of the world's largest bodies of brackish water (a mix of salt and fresh water). Which of these countries does NOT border the Baltic Sea?",
       "options": [
@@ -141,9 +212,16 @@
       ],
       "answer": "Norway",
       "explanation": "Norway is the only Scandinavian country that does not border the Baltic Sea — its coast faces the Norwegian Sea (part of the North Atlantic). The Baltic Sea is bordered by nine countries: Sweden, Finland, Russia, Estonia, Latvia, Lithuania, Poland, Germany, and Denmark. Its relatively low salinity (due to limited exchange with the Atlantic and freshwater inflow) makes it significantly less salty than most ocean water.",
-      "memory_hook": "Baltic Sea borders: Sweden, Finland, Russia, Estonia, Latvia, Lithuania, Poland, Germany, Denmark. Norway — despite being Scandinavian — is NOT on the Baltic. It faces the Norwegian Sea instead. 9 countries, 1 shallow, low-salinity sea."
+      "memory_hook": "Baltic Sea borders: Sweden, Finland, Russia, Estonia, Latvia, Lithuania, Poland, Germany, Denmark. Norway — despite being Scandinavian — is NOT on the Baltic. It faces the Norwegian Sea instead. 9 countries, 1 shallow, low-salinity sea.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0288",
       "category": "Science & Nature",
       "question": "What branch of medicine specializes in the diagnosis and treatment of diseases of the brain and nervous system?",
       "options": [
@@ -154,7 +232,13 @@
       ],
       "answer": "Neurology",
       "explanation": "Neurology is the medical specialty focused on the diagnosis and treatment of disorders of the nervous system — the brain, spinal cord, and peripheral nerves. Neurologists treat conditions such as stroke, epilepsy, Parkinson's disease, multiple sclerosis, and Alzheimer's disease. Neurosurgery is the surgical subspecialty. Neurologists use tools like MRI, CT scans, EEG (brain wave measurement), and lumbar punctures to evaluate patients.",
-      "memory_hook": "Neurology = medical specialty for brain and nervous system diseases. Neurologists treat stroke, epilepsy, Parkinson's, MS, Alzheimer's. The surgical counterpart is neurosurgery. 'Neuro' from Greek for nerve or sinew — the network that runs your entire body."
+      "memory_hook": "Neurology = medical specialty for brain and nervous system diseases. Neurologists treat stroke, epilepsy, Parkinson's, MS, Alzheimer's. The surgical counterpart is neurosurgery. 'Neuro' from Greek for nerve or sinew — the network that runs your entire body.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     }
   ]
 }

@@ -2,6 +2,7 @@
   "date": "2026-08-25",
   "questions": [
     {
+      "id": "frq-0853",
       "category": "History",
       "question": "The Berlin Wall went up overnight in August 1961. Why did East Germany build it?",
       "options": [
@@ -13,12 +14,19 @@
       "answer": "Skilled workers were leaving west at an unsustainable rate",
       "explanation": "Around 3.5 million East Germans, roughly a fifth of the population, had left since 1949, disproportionately doctors, engineers and the young. Berlin was the last open crossing. Construction began overnight on 13 August with barbed wire, cutting streets, tram lines and families mid-sentence. The official name was the Anti-Fascist Protection Rampart, though it was plainly built to keep people in. At least 140 died attempting to cross.",
       "memory_hook": "About 3.5 million had already left, a fifth of the population and heavily weighted to doctors, engineers and the young. Berlin was the last hole. They strung wire overnight on 13 August, cutting streets and families in half. Officially it was an anti-fascist rampart; it faced inward.",
+      "riskTier": "source",
       "sourceRefs": [
         "zzf-berlin-wall-victims"
       ],
-      "riskTier": "source"
+      "review": {
+        "state": "verified",
+        "at": "2026-09-03",
+        "by": "tanner@tjs16media.com",
+        "note": "carried over: had a cited source before IDs existed"
+      }
     },
     {
+      "id": "frq-0854",
       "category": "Science & Nature",
       "question": "Diamond scores 10 on the Mohs hardness scale. What does that scale actually measure?",
       "options": [
@@ -30,12 +38,19 @@
       "answer": "What scratches what, not how much force it survives",
       "explanation": "Mohs is an ordinal scratch test: each mineral scratches those below it, nothing more. It says nothing about toughness, which is why a diamond can be split with a well-placed strike despite being the hardest natural substance. It is also badly non-linear. Diamond at 10 is roughly four times harder than corundum at 9 in absolute terms, and that single step is a bigger jump than the whole span from talc at 1 up to corundum.",
       "memory_hook": "Mohs just ranks what scratches what. It says nothing about toughness, which is why the hardest natural substance still shatters under a hammer. It is not linear either: the jump from 9 to 10 is about four times, while the low-end gaps are tiny.",
+      "riskTier": "source",
       "sourceRefs": [
         "mohs-scale-nonlinear"
       ],
-      "riskTier": "source"
+      "review": {
+        "state": "verified",
+        "at": "2026-09-03",
+        "by": "tanner@tjs16media.com",
+        "note": "carried over: had a cited source before IDs existed"
+      }
     },
     {
+      "id": "frq-0855",
       "category": "Sports",
       "question": "Brazil has won five World Cups. What happened the one time they hosted before 2014?",
       "options": [
@@ -47,13 +62,20 @@
       "answer": "They lost the deciding match at home to Uruguay",
       "explanation": "The 1950 final round ended with Brazil needing only a draw against Uruguay. Official attendance was 173,850, still a World Cup record, and the real figure is widely put above 200,000. They lost 2-1. It is called the Maracanazo, and Brazil abandoned its white shirts as unlucky, running a competition for a new kit; the winning yellow-and-green design came from a nineteen-year-old, Aldyr Garcia Schlee, and was worn from 1954. Goalkeeper Moacir Barbosa was blamed for the rest of his life: 'The maximum sentence in Brazil is thirty years. I have been paying for fifty.'",
       "memory_hook": "1950, at home, needing only a draw against Uruguay in front of 200,000 at the Maracana, and they lost 2-1. The Maracanazo. They ditched the white kit as unlucky and adopted the yellow. Barbosa, the keeper, said Brazil's maximum sentence is thirty years and he had served fifty.",
+      "riskTier": "source",
       "sourceRefs": [
         "fifa-maracanazo",
         "espn-barbosa"
       ],
-      "riskTier": "source"
+      "review": {
+        "state": "verified",
+        "at": "2026-09-03",
+        "by": "tanner@tjs16media.com",
+        "note": "carried over: had a cited source before IDs existed"
+      }
     },
     {
+      "id": "frq-0856",
       "category": "Pop Culture",
       "question": "Adele names her albums after her age at the time of writing. What broke that pattern?",
       "options": [
@@ -65,13 +87,20 @@
       "answer": "30 came out when she was 33, delayed by her divorce",
       "explanation": "The numbers mark the age at which the material was written, not the release date. 30 was written around her divorce from Simon Konecki, recorded between 2018 and 2020, and released in November 2021 when she was 33. She has described it as an attempt to explain to her son why the marriage did not work, most directly on the track To Be Loved. She also had surgery for a vocal cord haemorrhage in 2011 after 21, cancelling the rest of that year's tour dates to recover.",
       "memory_hook": "The number is her age when she wrote it, not when it came out. 30 was written around her divorce and released at 33, framed partly as an explanation for her son. She had vocal cord surgery after 21 and could not speak for weeks. 21 has sold over 31 million.",
+      "riskTier": "source",
       "sourceRefs": [
         "npr-adele-30",
         "cbs-adele-vocal-surgery"
       ],
-      "riskTier": "source"
+      "review": {
+        "state": "verified",
+        "at": "2026-09-03",
+        "by": "tanner@tjs16media.com",
+        "note": "carried over: had a cited source before IDs existed"
+      }
     },
     {
+      "id": "frq-0857",
       "category": "Geography",
       "question": "Victoria Falls is neither the tallest nor the widest waterfall. What record does it hold?",
       "options": [
@@ -83,12 +112,19 @@
       "answer": "The largest single sheet of falling water anywhere",
       "explanation": "At around 1,700m wide and 108m high it forms the biggest continuous curtain of water on Earth, though Angel Falls is far taller and Khone Falls far wider. The river drops into a narrow zigzag gorge system carved as the falls retreated upstream along cracks in the basalt over hundreds of thousands of years. Each gorge marks a former position of the falls, so you can read its history backwards along the canyon.",
       "memory_hook": "About 1,700m wide and 108m high, the largest unbroken curtain of falling water anywhere, though Angel Falls is taller and Khone wider. It drops into a zigzag gorge that marks where the falls used to be, retreating upstream along cracks in the basalt over hundreds of thousands of years.",
+      "riskTier": "source",
       "sourceRefs": [
         "unep-victoria-falls"
       ],
-      "riskTier": "source"
+      "review": {
+        "state": "verified",
+        "at": "2026-09-03",
+        "by": "tanner@tjs16media.com",
+        "note": "carried over: had a cited source before IDs existed"
+      }
     },
     {
+      "id": "frq-0858",
       "category": "History",
       "question": "The Meiji Restoration stripped the samurai of their status. What was the Satsuma Rebellion?",
       "options": [
@@ -100,12 +136,19 @@
       "answer": "A samurai revolt in 1877, crushed by peasant conscripts",
       "explanation": "Saigo Takamori, himself a leading figure in the Restoration, led disaffected Satsuma samurai against the government he had helped create. The government's conscript levies of commoners were hard-pressed and won on transport, communications and modern weapons rather than easily, but they won, which settled the argument about whether hereditary warrior status still meant anything militarily. Cornered at Shiroyama on 24 September 1877, Saigo refused surrender and took his own life. He was posthumously pardoned in 1889 and remains widely admired in Japan.",
       "memory_hook": "Saigo Takamori, who had helped create the new government, led disaffected samurai against it in 1877 and was destroyed by conscripted commoners with rifles and artillery. That ended any argument about hereditary warriors mattering militarily. He was pardoned posthumously and is still admired.",
+      "riskTier": "source",
       "sourceRefs": [
         "britannica-satsuma-rebellion"
       ],
-      "riskTier": "source"
+      "review": {
+        "state": "verified",
+        "at": "2026-09-03",
+        "by": "tanner@tjs16media.com",
+        "note": "carried over: had a cited source before IDs existed"
+      }
     },
     {
+      "id": "frq-0859",
       "category": "Pop Culture",
       "question": "Rowling wrote much of the first Harry Potter book in Edinburgh cafes. Why there?",
       "options": [
@@ -117,12 +160,19 @@
       "answer": "Walking her baby to sleep, then writing while she napped",
       "explanation": "Rowling was a single mother on state benefits, and walking her daughter in the pram until she fell asleep, then writing while she napped, was simply the arrangement that worked. She has flatly denied the version where she went to cafes to escape an unheated flat: 'I am not stupid enough to rent an unheated flat in Edinburgh in midwinter.' Twelve publishers rejected the manuscript. Bloomsbury took it after the chairman's eight-year-old daughter read the first chapter and demanded the rest, and she was advised to get a day job because children's books do not pay.",
       "memory_hook": "Single mother on benefits, walking her daughter to sleep then writing in a warm cafe because it was cheaper than heating the flat. Twelve publishers said no. Bloomsbury said yes because the chairman's eight-year-old demanded the rest, then told her to keep a day job. First print run: 500 copies.",
+      "riskTier": "source",
       "sourceRefs": [
         "rowling-cafe-myth"
       ],
-      "riskTier": "source"
+      "review": {
+        "state": "verified",
+        "at": "2026-09-03",
+        "by": "tanner@tjs16media.com",
+        "note": "carried over: had a cited source before IDs existed"
+      }
     },
     {
+      "id": "frq-0860",
       "category": "Science & Nature",
       "question": "The universe is about 13.8 billion years old. How is that number arrived at?",
       "options": [
@@ -134,11 +184,18 @@
       "answer": "From the cosmic microwave background's temperature ripples",
       "explanation": "The Planck satellite mapped microscopic temperature variations in the afterglow of the Big Bang and fitted them to a cosmological model, yielding 13.787 billion years with roughly 0.2% uncertainty. Independent checks from the oldest known stars and from the abundance of light elements agree. There is an open problem though: measuring the expansion rate using nearby supernovae gives a different answer than the microwave background does, a discrepancy called the Hubble tension.",
       "memory_hook": "Planck mapped tiny temperature ripples in the Big Bang's afterglow and fitted them to a model: 13.787 billion years, give or take 0.2%. The oldest stars agree. But measuring expansion using nearby supernovae gives a different number, and nobody has resolved that yet. It is called the Hubble tension.",
-      "sourceRefs": [],
       "riskTier": "canonical",
+      "sourceRefs": [],
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      },
       "canonicalNote": "the Hubble tension is stated AS unresolved, which is the accepted position, not a claim that could be wrong"
     },
     {
+      "id": "frq-0861",
       "category": "Geography",
       "question": "San Marino claims to be the world's oldest surviving republic. What is its founding story?",
       "options": [
@@ -150,12 +207,19 @@
       "answer": "A stonemason fled Roman persecution and hid on a mountain",
       "explanation": "Tradition dates it to 3 September 301, when Marinus, a Christian stonemason, took refuge on Monte Titano from Diocletian's persecution. It has stayed independent largely by being too small and too awkwardly placed to be worth conquering. Napoleon offered to extend its territory east to the Adriatic and San Marino declined, reasoning that staying tiny was the survival strategy. It sheltered around 100,000 refugees during the Second World War, several times its own population.",
       "memory_hook": "A Christian stonemason named Marinus hid on Monte Titano in 301 AD, and it has survived by being too small and awkward to be worth taking. Napoleon offered it more land and it refused, on the grounds that staying tiny was the whole strategy. It sheltered 100,000 refugees in WWII, ten times its population.",
+      "riskTier": "source",
       "sourceRefs": [
         "britannica-san-marino"
       ],
-      "riskTier": "source"
+      "review": {
+        "state": "verified",
+        "at": "2026-09-03",
+        "by": "tanner@tjs16media.com",
+        "note": "carried over: had a cited source before IDs existed"
+      }
     },
     {
+      "id": "frq-0862",
       "category": "History",
       "question": "The Trail of Tears removed the Cherokee in 1838. What made it legally extraordinary?",
       "options": [
@@ -167,13 +231,20 @@
       "answer": "The Supreme Court had already ruled the removal unlawful",
       "explanation": "In Worcester v. Georgia (1832) Chief Justice Marshall held the Cherokee Nation sovereign and Georgia's laws inapplicable to it. Jackson declined to enforce the ruling. Removal proceeded under the Treaty of New Echota, signed by a faction of around 100 Cherokee with no authority to represent the nation, and rejected by a petition carrying over 15,000 Cherokee signatures. Roughly 4,000 of 16,000 died on the march.",
       "memory_hook": "The Supreme Court had already ruled in 1832 that the Cherokee were sovereign and Georgia had no authority. Jackson simply did not enforce it. Removal went ahead under a treaty signed by about 100 people with no authority, against a petition with 15,000 signatures. Around 4,000 of 16,000 died.",
+      "riskTier": "source",
       "sourceRefs": [
         "natgeo-trail-of-tears",
         "cherokee-nation-history"
       ],
-      "riskTier": "source"
+      "review": {
+        "state": "verified",
+        "at": "2026-09-03",
+        "by": "tanner@tjs16media.com",
+        "note": "carried over: had a cited source before IDs existed"
+      }
     },
     {
+      "id": "frq-0863",
       "category": "Pop Culture",
       "question": "Pulp Fiction (1994) tells its story out of order. What does that structure accomplish?",
       "options": [
@@ -185,12 +256,19 @@
       "answer": "A character killed midway is alive again in the final scene",
       "explanation": "Vincent Vega is shot dead partway through and appears alive in the closing diner scene, because that scene occurs earlier chronologically. Tarantino has said the structure lets a film end on a character's redemption rather than his death. It cost around $8 million, took over $213 million worldwide, won the Palme d'Or at Cannes in 1994, took seven Oscar nominations and won for the screenplay, and pulled John Travolta's career back from near-total obscurity.",
       "memory_hook": "Vincent Vega is shot dead midway and is alive in the last scene, because that scene happens earlier in time. Tarantino wanted to end on redemption rather than a corpse. Made for $8 million, took over $200 million, won the Palme d'Or, and pulled Travolta out of obscurity.",
+      "riskTier": "source",
       "sourceRefs": [
         "boxofficemojo-pulp-fiction"
       ],
-      "riskTier": "source"
+      "review": {
+        "state": "verified",
+        "at": "2026-09-03",
+        "by": "tanner@tjs16media.com",
+        "note": "carried over: had a cited source before IDs existed"
+      }
     },
     {
+      "id": "frq-0864",
       "category": "Sports",
       "question": "An ace in tennis is a serve the returner never touches. What is the fastest ever recorded?",
       "options": [
@@ -202,10 +280,16 @@
       "answer": "Around 263 km/h, by Australian Sam Groth in 2012",
       "explanation": "Groth hit 263.4 km/h at a Challenger event in Busan in May 2012, and Guinness recognises it as the fastest serve ever recorded. The ATP does not ratify it, because it came at Challenger level rather than on the main tour, so their standing record is John Isner's 253.0 km/h from the 2016 Davis Cup. Serving speed rose sharply once graphite replaced wood in the 1980s. Isner also played the longest match in history at Wimbledon in 2010.",
       "memory_hook": "Sam Groth hit 263.4 km/h in 2012, though the ATP does not ratify it because the radar was not theirs. Their official record is Isner's 253. Speeds jumped when graphite replaced wood in the 1980s. Isner also played an 11-hour Wimbledon match with a 70-68 final set.",
+      "riskTier": "source",
       "sourceRefs": [
         "guinness-fastest-serve"
       ],
-      "riskTier": "source"
+      "review": {
+        "state": "verified",
+        "at": "2026-09-03",
+        "by": "tanner@tjs16media.com",
+        "note": "carried over: had a cited source before IDs existed"
+      }
     }
   ]
 }

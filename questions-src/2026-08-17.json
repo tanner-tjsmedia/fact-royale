@@ -2,6 +2,7 @@
   "date": "2026-08-17",
   "questions": [
     {
+      "id": "frq-0757",
       "category": "Science & Nature",
       "question": "Darwin's finches are the textbook example of natural selection. What is wrong with that story?",
       "options": [
@@ -12,9 +13,16 @@
       ],
       "answer": "Darwin barely noticed them and mislabelled his specimens",
       "explanation": "Darwin did not record which island most of his bird specimens came from and initially took them for unrelated species. Ornithologist John Gould identified them as related ground finches after Darwin returned to London, and Darwin had to reconstruct the localities from the labelled collections of other crew members. The finches appear nowhere in the first edition of On the Origin of Species. The tidy story was assembled by later writers, mostly in the twentieth century.",
-      "memory_hook": "Darwin did not label which island his birds came from and thought they were unrelated species. John Gould worked out the connection back in London, and Darwin had to reconstruct the locations from other crew members' collections. The finches appear nowhere in the first edition of Origin."
+      "memory_hook": "Darwin did not label which island his birds came from and thought they were unrelated species. John Gould worked out the connection back in London, and Darwin had to reconstruct the locations from other crew members' collections. The finches appear nowhere in the first edition of Origin.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0758",
       "category": "History",
       "question": "Soviet tanks crushed the Hungarian uprising in 1956. What had the West led Hungarians to expect?",
       "options": [
@@ -25,9 +33,16 @@
       ],
       "answer": "Radio Free Europe broadcasts implying help was coming",
       "explanation": "Radio Free Europe had broadcast rollback rhetoric for years, and many Hungarians took it as a commitment. No help came. The United States was unwilling to risk war over the Soviet sphere, and the Suez Crisis was consuming attention that same fortnight. Around 2,500 Hungarians died and roughly 200,000 fled. Imre Nagy, the reformist premier, was executed in 1958. The episode ended serious belief in Western rollback across the Eastern bloc.",
-      "memory_hook": "Radio Free Europe had spent years implying the West would back an uprising, and Hungarians believed it. Nothing came; Washington would not fight over the Soviet sphere, and Suez was happening the same fortnight. 2,500 died, 200,000 fled, and Nagy was executed in 1958."
+      "memory_hook": "Radio Free Europe had spent years implying the West would back an uprising, and Hungarians believed it. Nothing came; Washington would not fight over the Soviet sphere, and Suez was happening the same fortnight. 2,500 died, 200,000 fled, and Nagy was executed in 1958.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0759",
       "category": "Geography",
       "question": "The Aegean Sea is dotted with thousands of islands. How did most of them form?",
       "options": [
@@ -38,9 +53,16 @@
       ],
       "answer": "Mountain peaks left standing when sea levels rose",
       "explanation": "Most Aegean islands are the tops of a drowned mountain range, flooded as sea levels rose after the last ice age, which is why they are rocky, steep and short of fresh water. Santorini is the major exception, a volcanic caldera left by a massive eruption around 1600 BC that may have contributed to the decline of Minoan Crete. The sea is named for Aegeus, who in myth drowned himself believing his son Theseus dead.",
-      "memory_hook": "They are drowned mountain tops, flooded when sea levels rose after the ice age, which is why they are steep, rocky and short of water. Santorini is the exception, a volcanic caldera from a huge eruption around 1600 BC. Named for Aegeus, who drowned himself thinking Theseus was dead."
+      "memory_hook": "They are drowned mountain tops, flooded when sea levels rose after the ice age, which is why they are steep, rocky and short of water. Santorini is the exception, a volcanic caldera from a huge eruption around 1600 BC. Named for Aegeus, who drowned himself thinking Theseus was dead.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0760",
       "category": "History",
       "question": "The US transcontinental railroad was completed in 1869. Who built the hardest western section?",
       "options": [
@@ -51,9 +73,16 @@
       ],
       "answer": "Chinese labourers, who were roughly 90% of that workforce",
       "explanation": "The Central Pacific employed around 15,000 Chinese workers to cut through the Sierra Nevada, including tunnels blasted through solid granite by hand, at roughly 30 cents per foot of progress in some stretches. Hundreds died in avalanches and explosions. They were paid less than white workers and had to buy their own food. None appear in the famous photograph at Promontory Summit. Congress passed the Chinese Exclusion Act thirteen years later.",
-      "memory_hook": "About 15,000 Chinese workers cut the Central Pacific through the Sierra Nevada, hand-blasting granite tunnels, sometimes advancing a foot a day. Hundreds died. They were paid less than white workers and bought their own food. Not one appears in the famous Promontory Summit photograph."
+      "memory_hook": "About 15,000 Chinese workers cut the Central Pacific through the Sierra Nevada, hand-blasting granite tunnels, sometimes advancing a foot a day. Hundreds died. They were paid less than white workers and bought their own food. Not one appears in the famous Promontory Summit photograph.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0761",
       "category": "Sports",
       "question": "Olympic swimming's shortest race is the 50m freestyle. What makes it tactically different from every other event?",
       "options": [
@@ -64,9 +93,16 @@
       ],
       "answer": "Many swimmers do not breathe at all during the race",
       "explanation": "The 50 lasts around 21 seconds and lifting the head to breathe costs more time than the oxygen is worth, so elite sprinters routinely swim it on a single breath. It is also the only individual pool event with no turn, one length only, so the start and the underwater phase decide it. Freestyle technically permits any stroke, but everyone swims front crawl because it is fastest.",
-      "memory_hook": "It lasts about 21 seconds, and lifting your head to breathe costs more than the oxygen gains, so sprinters often do the whole thing on one breath. It is also the only individual event with no turn, so the dive and the underwater phase decide it."
+      "memory_hook": "It lasts about 21 seconds, and lifting your head to breathe costs more than the oxygen gains, so sprinters often do the whole thing on one breath. It is also the only individual event with no turn, so the dive and the underwater phase decide it.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0762",
       "category": "Sports",
       "question": "Weightlifting has had persistent problems with one particular issue. What forced the IOC to threaten its Olympic status?",
       "options": [
@@ -77,9 +113,16 @@
       ],
       "answer": "Retesting of stored samples produced mass disqualifications",
       "explanation": "The IOC stores samples for years and retests them as detection improves. Reanalysis of Beijing 2008 and London 2012 samples stripped dozens of weightlifting medals, with some events losing most of the podium. Combined with governance scandals in the international federation, the IOC put the sport's Olympic place under formal review and cut its athlete quota. It survived for Los Angeles 2028 after leadership changes.",
-      "memory_hook": "The IOC freezes samples and retests them years later as science improves. Reanalysis of Beijing 2008 and London 2012 stripped dozens of weightlifting medals, some events losing nearly the whole podium. Combined with federation corruption, the IOC nearly threw the sport out."
+      "memory_hook": "The IOC freezes samples and retests them years later as science improves. Reanalysis of Beijing 2008 and London 2012 stripped dozens of weightlifting medals, some events losing nearly the whole podium. Combined with federation corruption, the IOC nearly threw the sport out.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0763",
       "category": "History",
       "question": "Hagia Sophia in Istanbul has served three roles across 1,500 years. What is its sequence?",
       "options": [
@@ -90,9 +133,16 @@
       ],
       "answer": "Byzantine cathedral, then Ottoman mosque, then museum",
       "explanation": "Justinian I completed it in 537 AD as the cathedral of Constantinople, and it held the record as the world's largest interior space for nearly a thousand years. After the Ottoman conquest in 1453, Mehmed II converted it to a mosque and minarets were added. Ataturk's secular republic made it a museum in 1935. It was reconverted to a mosque in 2020. Its enormous dome, which appears to float on a ring of windows, was an engineering leap that later Ottoman architects such as Sinan studied and built upon.",
-      "memory_hook": "Hagia Sophia went cathedral in 537, mosque in 1453, museum in 1935, and mosque again in 2020. It held the record for largest interior space on Earth for a thousand years. The dome looks like it floats because it sits on a ring of windows, which is the whole engineering trick."
+      "memory_hook": "Hagia Sophia went cathedral in 537, mosque in 1453, museum in 1935, and mosque again in 2020. It held the record for largest interior space on Earth for a thousand years. The dome looks like it floats because it sits on a ring of windows, which is the whole engineering trick.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0764",
       "category": "Pop Culture",
       "question": "Titanic (1997) held the box office record for twelve years. What was unusual about how it earned that money?",
       "options": [
@@ -103,9 +153,16 @@
       ],
       "answer": "It stayed in cinemas for nearly ten months",
       "explanation": "Titanic earned through extraordinary staying power rather than a huge opening, holding number one for fifteen consecutive weekends as audiences returned repeatedly. Modern blockbusters take most of their money in the first fortnight, so that pattern has essentially disappeared. The production went so far over budget that Fox and Paramount split the risk, and Cameron surrendered his backend points, which he later renegotiated once it became the highest-grossing film ever made.",
-      "memory_hook": "It did not open huge, it just refused to leave, holding number one for fifteen straight weekends while people saw it again and again. Modern films take everything in two weeks. It went so far over budget that two studios split the risk and Cameron gave up his profit share to get it finished."
+      "memory_hook": "It did not open huge, it just refused to leave, holding number one for fifteen straight weekends while people saw it again and again. Modern films take everything in two weeks. It went so far over budget that two studios split the risk and Cameron gave up his profit share to get it finished.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0765",
       "category": "Pop Culture",
       "question": "Dr. Dre's The Chronic (1992) defined West Coast hip-hop. What was the G-funk sound built from?",
       "options": [
@@ -116,9 +173,16 @@
       ],
       "answer": "Slowed Parliament-Funkadelic samples and live synth lines",
       "explanation": "Dre slowed 1970s funk, especially George Clinton's Parliament-Funkadelic catalogue, and layered live instrumentation and a high whining synth lead over deep bass. The sound dominated for years. The album introduced Snoop Dogg and was released on Death Row, co-founded with Suge Knight, whose methods later became the subject of extensive litigation. Dre went on to found Aftermath and sign Eminem and 50 Cent.",
-      "memory_hook": "Dre slowed down 1970s Parliament-Funkadelic, layered live instruments and that high whining synth over heavy bass, and that is G-funk. It launched Snoop Dogg on Death Row Records, co-run by Suge Knight. Dre later founded Aftermath and signed Eminem and 50 Cent."
+      "memory_hook": "Dre slowed down 1970s Parliament-Funkadelic, layered live instruments and that high whining synth over heavy bass, and that is G-funk. It launched Snoop Dogg on Death Row Records, co-run by Suge Knight. Dre later founded Aftermath and signed Eminem and 50 Cent.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0766",
       "category": "Pop Culture",
       "question": "Downton Abbey (2010-2015) spans 1912 to 1926. What social transformation does its upstairs-downstairs structure dramatize?",
       "options": [
@@ -129,9 +193,16 @@
       ],
       "answer": "Britain's shift from landed aristocracy to modern democracy",
       "explanation": "Downton Abbey's timeline — from the Titanic sinking in 1912 to the general strike era in 1926 — covers WWI, the influenza pandemic, the rise of labour politics, the servant class's gradual disappearance, and the collapse of the great house system that had structured British rural society for centuries. Creator Julian Fellowes (screenwriter of Gosford Park) gave equal weight to both the aristocratic Crawley family and their servants. It holds the Guinness record for highest critical ratings for a drama TV series at launch (debut season) and was seen by 120 million viewers across 220 territories.",
-      "memory_hook": "Downton Abbey's 1912–1926 timeline spans the Titanic, WWI, and the beginning of the servant class's disappearance — it dramatizes two groups (aristocrats and servants) both becoming obsolete at the same time. Its debut season held the Guinness record for highest critical ratings."
+      "memory_hook": "Downton Abbey's 1912–1926 timeline spans the Titanic, WWI, and the beginning of the servant class's disappearance — it dramatizes two groups (aristocrats and servants) both becoming obsolete at the same time. Its debut season held the Guinness record for highest critical ratings.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0767",
       "category": "Geography",
       "question": "The Appalachians run down eastern North America and are far older than the Rockies. How old are they?",
       "options": [
@@ -142,9 +213,16 @@
       ],
       "answer": "Older than bones, trees, or the Atlantic Ocean itself",
       "explanation": "The Appalachians began forming around 480 million years ago, before vertebrates had bones on land, before trees existed, and before the Atlantic opened. They were once Himalayan in scale and have been eroding ever since. The same range continues in Scotland, Ireland and Norway, split apart when Pangaea broke up. Their rounded worn profile is the direct visual evidence of that age.",
-      "memory_hook": "They started forming 480 million years ago, before trees existed and before the Atlantic opened. They were once Himalayan in height and have been wearing down since. The same range continues in Scotland and Norway, torn apart when Pangaea split. That is why they look so worn."
+      "memory_hook": "They started forming 480 million years ago, before trees existed and before the Atlantic opened. They were once Himalayan in height and have been wearing down since. The same range continues in Scotland and Norway, torn apart when Pangaea split. That is why they look so worn.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0768",
       "category": "Science & Nature",
       "question": "Nothing escapes a black hole past the event horizon. What would an outside observer see someone falling in?",
       "options": [
@@ -155,7 +233,13 @@
       ],
       "answer": "They appear to slow and freeze at the horizon forever",
       "explanation": "Gravitational time dilation means clocks run slower in stronger gravity, so from outside, a falling object appears to slow, redden as its light stretches, and asymptotically freeze at the horizon without ever quite crossing. It also dims until undetectable. From the falling person's own perspective nothing unusual happens at the horizon; they cross it in finite time. Both accounts are correct, which is one of relativity's stranger consequences.",
-      "memory_hook": "From outside they seem to slow, redden and freeze at the horizon forever, fading until you cannot see them. From their own point of view they cross straight through and notice nothing. Both are true simultaneously, which is one of the odder results in relativity."
+      "memory_hook": "From outside they seem to slow, redden and freeze at the horizon forever, fading until you cannot see them. From their own point of view they cross straight through and notice nothing. Both are true simultaneously, which is one of the odder results in relativity.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     }
   ]
 }

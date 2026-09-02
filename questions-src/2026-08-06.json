@@ -2,6 +2,7 @@
   "date": "2026-08-06",
   "questions": [
     {
+      "id": "frq-0625",
       "category": "History",
       "question": "The RMS Titanic sank on April 15, 1912, killing over 1,500 people. From which English port city did the ship depart on its maiden voyage?",
       "options": [
@@ -12,9 +13,16 @@
       ],
       "answer": "Southampton",
       "explanation": "The Titanic departed from Southampton, England on April 10, 1912, on its maiden voyage to New York City. It stopped at Cherbourg, France and Queenstown (now Cobh), Ireland before heading into the North Atlantic, where it struck an iceberg and sank in under three hours.",
-      "memory_hook": "Titanic departed Southampton, April 10, 1912. Sank April 15."
+      "memory_hook": "Titanic departed Southampton, April 10, 1912. Sank April 15.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0626",
       "category": "History",
       "question": "The Suez Crisis of 1956 was triggered when Egypt nationalized the Suez Canal. Who was Egypt's president at the time?",
       "options": [
@@ -25,9 +33,16 @@
       ],
       "answer": "Gamal Abdel Nasser",
       "explanation": "Egyptian President Gamal Abdel Nasser nationalized the Suez Canal in July 1956, leading to a military response from Britain, France, and Israel. The US pressured all sides to stand down, humiliating Britain and France and marking the end of their status as global superpowers. The crisis is considered the moment when American and Soviet dominance replaced European colonial power.",
-      "memory_hook": "Suez Crisis 1956 = Nasser nationalized the canal. Britain and France attacked — the US told them to stop. The moment Britain realized it was no longer a superpower. The US saved Egypt by threatening economic ruin to its former allies."
+      "memory_hook": "Suez Crisis 1956 = Nasser nationalized the canal. Britain and France attacked — the US told them to stop. The moment Britain realized it was no longer a superpower. The US saved Egypt by threatening economic ruin to its former allies.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0627",
       "category": "History",
       "question": "The Watergate scandal, which led to President Nixon's resignation in 1974, began with a break-in at which Washington DC complex?",
       "options": [
@@ -38,9 +53,16 @@
       ],
       "answer": "Watergate Hotel",
       "explanation": "The Watergate scandal began with a break-in at the Democratic National Committee headquarters in the Watergate Hotel complex in Washington DC on June 17, 1972. Nixon administration officials tried to cover up White House involvement. The cover-up ultimately destroyed Nixon's presidency. He resigned on August 9, 1974 — the only US president ever to do so. The '-gate' suffix became shorthand for political scandals worldwide.",
-      "memory_hook": "Watergate = hotel break-in, Nixon resignation. 'What did the president know and when did he know it?' The cover-up was worse than the crime. Nixon added '-gate' to the English language as a suffix for every political scandal since."
+      "memory_hook": "Watergate = hotel break-in, Nixon resignation. 'What did the president know and when did he know it?' The cover-up was worse than the crime. Nixon added '-gate' to the English language as a suffix for every political scandal since.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0628",
       "category": "Sports",
       "question": "In which Olympic sport do athletes use a bow and arrows to hit a target?",
       "options": [
@@ -51,9 +73,16 @@
       ],
       "answer": "Archery",
       "explanation": "Archery has been part of the Olympic Games since 1900 (with gaps). Olympic archers shoot recurve bows at targets 70 meters away in the outdoor competition. The target is 122 cm in diameter and the gold bullseye is 12.2 cm — about the size of an apple. South Korea has dominated Olympic archery for decades, particularly in the women's category.",
-      "memory_hook": "Archery = Olympic sport since 1900. Shooting at a target 70 meters away, bullseye the size of an apple. South Korea has won the women's Olympic team event at every Olympics since 1988 — one of the most dominant dynasties in Olympic history."
+      "memory_hook": "Archery = Olympic sport since 1900. Shooting at a target 70 meters away, bullseye the size of an apple. South Korea has won the women's Olympic team event at every Olympics since 1988 — one of the most dominant dynasties in Olympic history.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0629",
       "category": "Sports",
       "question": "The 'Fosbury Flop' is a technique used in which track and field event?",
       "options": [
@@ -64,9 +93,16 @@
       ],
       "answer": "High jump",
       "explanation": "Dick Fosbury won gold at the 1968 Mexico City Olympics using a completely new high jump technique — jumping headfirst and backward over the bar rather than face-down. Before Fosbury, athletes jumped using the 'Western Roll' or 'Straddle.' His technique was so effective that virtually all high jumpers now use it. Fosbury cleared 2.24 meters with his revolutionary style.",
-      "memory_hook": "Fosbury Flop = high jump, 1968 Olympics. Dick Fosbury invented it and won gold. Before 1968, jumpers went over face-down. He went backward and changed the sport forever. Every high jumper in the world now uses his technique."
+      "memory_hook": "Fosbury Flop = high jump, 1968 Olympics. Dick Fosbury invented it and won gold. Before 1968, jumpers went over face-down. He went backward and changed the sport forever. Every high jumper in the world now uses his technique.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0630",
       "category": "Pop Culture",
       "question": "Which musician famously performed at Woodstock in 1969 and is known for his electric guitar rendition of the National Anthem?",
       "options": [
@@ -77,9 +113,16 @@
       ],
       "answer": "Jimi Hendrix",
       "explanation": "Jimi Hendrix closed the Woodstock festival in August 1969 with a legendary performance including a deconstructed, feedback-laden version of 'The Star-Spangled Banner.' He played his Fender Stratocaster upside down (he was left-handed) and restrung. Rolling Stone ranks him as the greatest guitarist of all time. He died in September 1970 at age 27 — one of the most devastating losses in music history.",
-      "memory_hook": "Hendrix at Woodstock, 1969. National Anthem on guitar — with feedback and distortion representing jets and bombs. Left-handed guitarist playing a right-handed guitar upside down. He died 13 months after Woodstock. Greatest of all time in under a decade of fame."
+      "memory_hook": "Hendrix at Woodstock, 1969. National Anthem on guitar — with feedback and distortion representing jets and bombs. Left-handed guitarist playing a right-handed guitar upside down. He died 13 months after Woodstock. Greatest of all time in under a decade of fame.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0631",
       "category": "Pop Culture",
       "question": "Which 2009 animated Pixar film opens with a sequence widely considered one of the most emotional in film history?",
       "options": [
@@ -90,9 +133,16 @@
       ],
       "answer": "Up",
       "explanation": "The opening montage of Up (2009), directed by Pete Docter, condenses an entire marriage — from young couple to widower — in about four minutes with minimal dialogue. It is frequently cited as one of the most emotionally resonant sequences in cinema. The film won the Academy Award for Best Animated Feature and Best Original Score and was the second animated film nominated for Best Picture.",
-      "memory_hook": "Up's opening = four minutes, no dialogue, destroys you emotionally. Pixar made adults cry in the first 10 minutes of a children's movie. The rest of the film is about what you do with grief. A flying house and a talking dog are the vehicle for one of cinema's most profound stories about loss."
+      "memory_hook": "Up's opening = four minutes, no dialogue, destroys you emotionally. Pixar made adults cry in the first 10 minutes of a children's movie. The rest of the film is about what you do with grief. A flying house and a talking dog are the vehicle for one of cinema's most profound stories about loss.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0632",
       "category": "Pop Culture",
       "question": "The Eagles' 'Hotel California' (1977) was written by three band members. Who is credited as the primary lyricist and lead vocalist who defined the song's concept?",
       "options": [
@@ -103,9 +153,16 @@
       ],
       "answer": "Don Henley",
       "explanation": "'Hotel California' was written collaboratively: Don Felder created the original guitar riff and chord progression, while Don Henley wrote the iconic lyrics and sang lead vocals. Glenn Frey co-wrote the words. Henley is credited as the song's primary writer — his lyrics about excess and disillusionment in the California music industry define what the song is. The dual guitar solo at the end was performed by Felder and Joe Walsh.",
-      "memory_hook": "Hotel California: Felder wrote the riff, Henley wrote the words. 'You can check out any time you like, but you can never leave' — that's Henley's pen. The lyrics define the song, so Henley is the primary writer."
+      "memory_hook": "Hotel California: Felder wrote the riff, Henley wrote the words. 'You can check out any time you like, but you can never leave' — that's Henley's pen. The lyrics define the song, so Henley is the primary writer.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0633",
       "category": "Geography",
       "question": "Which Asian country has the most people in the world?",
       "options": [
@@ -116,9 +173,16 @@
       ],
       "answer": "India",
       "explanation": "India surpassed China as the world's most populous country in 2023, with approximately 1.43 billion people. India's population is younger than China's, which began declining due to decades of the one-child policy. At current growth rates, India's population could reach 1.7 billion by mid-century, making it by far the most populous nation on Earth.",
-      "memory_hook": "India = world's most populous country since 2023. Passed China for the first time. India's median age is 28, much younger than China's 38. The two most populous nations together account for over a third of all humans alive."
+      "memory_hook": "India = world's most populous country since 2023. Passed China for the first time. India's median age is 28, much younger than China's 38. The two most populous nations together account for over a third of all humans alive.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0634",
       "category": "Science & Nature",
       "question": "What is the name of the boundary below which no light penetrates the ocean?",
       "options": [
@@ -129,9 +193,16 @@
       ],
       "answer": "Midnight zone",
       "explanation": "The midnight zone (or bathypelagic zone) extends from about 1,000 to 4,000 meters below the ocean surface, where absolutely no sunlight reaches. Creatures in this zone must either produce their own light (bioluminescence) or rely on organic matter drifting down from above. Pressure at these depths is extreme — hundreds of times greater than at the surface.",
-      "memory_hook": "Midnight zone = no light, 1,000-4,000 meters down. Creatures make their own light. Pressure is crushing. Less explored than the Moon's surface. The deep ocean is the largest inhabitable environment on Earth and the least understood."
+      "memory_hook": "Midnight zone = no light, 1,000-4,000 meters down. Creatures make their own light. Pressure is crushing. Less explored than the Moon's surface. The deep ocean is the largest inhabitable environment on Earth and the least understood.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0635",
       "category": "Geography",
       "question": "The Aleutian Islands, a chain of about 300 volcanic islands extending 1,900 km into the Pacific, belong to which U.S. state?",
       "options": [
@@ -142,9 +213,16 @@
       ],
       "answer": "Alaska",
       "explanation": "The Aleutian Islands are an archipelago of volcanic islands stretching from the Alaska Peninsula westward toward Russia's Kamchatka Peninsula. They lie along the Pacific Ring of Fire and are tectonically active. The islands were the site of the only North American land battle of World War II — the Battle of Attu (1943) and Battle of Kiska — when Japan briefly occupied two islands. The islands are part of Alaska and create one of the world's most productive fishing areas.",
-      "memory_hook": "Aleutian Islands: 300 volcanic islands extending from Alaska toward Russia. Ring of Fire geology. The ONLY land battle on US/North American soil in WWII was here — Japan occupied Attu and Kiska in 1943. Incredibly productive fishing waters. The chain that nearly connects the Americas to Asia."
+      "memory_hook": "Aleutian Islands: 300 volcanic islands extending from Alaska toward Russia. Ring of Fire geology. The ONLY land battle on US/North American soil in WWII was here — Japan occupied Attu and Kiska in 1943. Incredibly productive fishing waters. The chain that nearly connects the Americas to Asia.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     },
     {
+      "id": "frq-0636",
       "category": "Science & Nature",
       "question": "What is Archimedes' principle — the law that explains why ships made of steel can float even though steel is denser than water?",
       "options": [
@@ -155,7 +233,13 @@
       ],
       "answer": "A submerged object experiences an upward force equal to the weight of fluid displaced",
       "explanation": "Archimedes' principle states that any object submerged in a fluid experiences an upward buoyant force equal to the weight of the fluid it displaces. A steel ship floats because its shape displaces enough water that the weight of that water exceeds the ship's weight. Archimedes reportedly discovered this while stepping into a bath and ran through the streets shouting 'Eureka!' (I have found it). The same principle explains why people float more easily in saltwater (denser water → greater buoyant force).",
-      "memory_hook": "Archimedes' principle: buoyant force = weight of displaced fluid. A ship's hollow shape displaces more water than the ship weighs → it floats. Eureka! — Archimedes allegedly ran naked through Syracuse after his bathtub discovery. Saltwater has more buoyancy than fresh because it's denser."
+      "memory_hook": "Archimedes' principle: buoyant force = weight of displaced fluid. A ship's hollow shape displaces more water than the ship weighs → it floats. Eureka! — Archimedes allegedly ran naked through Syracuse after his bathtub discovery. Saltwater has more buoyancy than fresh because it's denser.",
+      "review": {
+        "state": "unreviewed",
+        "at": null,
+        "by": null,
+        "note": null
+      }
     }
   ]
 }
