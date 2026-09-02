@@ -20,7 +20,7 @@ from collections import Counter, defaultdict
 from datetime import date, timedelta
 from itertools import combinations
 
-QDIR = os.path.join(os.path.dirname(__file__), '..', 'questions')
+QDIR = os.path.join(os.path.dirname(__file__), '..', 'questions-src')
 REG_PATH = os.path.join(os.path.dirname(__file__), '..', 'sources.json')
 
 def load_registry():

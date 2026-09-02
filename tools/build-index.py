@@ -6,7 +6,7 @@ files. It carries no answers, only dates and category counts.
 """
 import json, os
 from collections import Counter
-QD = os.path.join(os.path.dirname(__file__), '..', 'questions')
+QD = os.path.join(os.path.dirname(__file__), '..', 'questions-src')
 days, cats = [], Counter()
 for fn in sorted(os.listdir(QD)):
     if not fn.endswith('.json') or fn == 'index.json':

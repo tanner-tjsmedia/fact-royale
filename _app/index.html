@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <title>Fact Royale</title>
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <link rel="alternate icon" href="/icons/icon-192.png" type="image/png" />
+  <link rel="apple-touch-icon" href="/icons/icon-192.png" />
+  <!-- SEO -->
+  <meta name="description" content="Daily trivia. Every answer teaches you something. Play Fact Royale — one quiz a day across History, Sports, and Music & Movies." />
+  <meta name="theme-color" content="#07070f" />
+
+  <!-- Open Graph (link previews on social/iMessage) -->
+  <meta property="og:title" content="Fact Royale" />
+  <meta property="og:description" content="Daily trivia. Every answer teaches you something." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://fact-royale.com/" />
+
+  <!-- iOS home screen install -->
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-title" content="Fact Royale" />
+
+  <!-- PWA Manifest (Android install prompt + app metadata) -->
+  <link rel="manifest" href="manifest.json" />
+
+  <!-- Firebase SDKs (must load before firebase-config.js and auth.js) -->
+  <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-auth-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-messaging-compat.js"></script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css?v=21" />
+  <style>
+    /* ── Mastery teaser layout (inline to survive CSS caching) ── */
+    #mastery-teaser {
+      background: linear-gradient(135deg, rgba(212,175,55,0.05) 0%, rgba(7,7,15,0) 60%);
+      border: 1px solid rgba(212,175,55,0.15);
+      border-radius: 20px;
+      padding: 1.5rem !important;
+      margin-top: 1.25rem;
+    }
+    .mt-header {
+      display: flex; align-items: center;
+      justify-content: space-between; flex-wrap: wrap;
+      gap: 0.75rem; margin-bottom: 1.25rem;
+    }
+    .mt-title {
+      font-family: var(--font-display, 'Space Grotesk', sans-serif);
+      font-size: 0.7rem; font-weight: 700;
+      color: rgba(212,175,55,0.65);
+      letter-spacing: 0.14em; text-transform: uppercase;
+    }
+    .mt-score-row { display: flex; align-items: baseline; gap: 0.5rem; flex-wrap: wrap; }
+    .mt-score-num {
+      font-family: var(--font-display, 'Space Grotesk', sans-serif);
+      font-size: 2.2rem; font-weight: 700;
+      color: var(--gold, #d4af37);
+      letter-spacing: -0.04em; line-height: 1;
+    }
+    .mt-score-lbl { font-size: 0.8rem; color: var(--text-muted, rgba(232,232,240,0.5)); }
+    .mt-view-link {
+      font-size: 0.82rem; font-weight: 600;
+      color: var(--gold, #d4af37); text-decoration: none; opacity: 0.65;
+      transition: opacity 0.2s;
+    }
+    .mt-view-link:hover { opacity: 1; }
+    #mastery-teaser-pills { display: flex; gap: 0.5rem; flex-wrap: wrap; }
+    .mt-pill {
+      display: inline-flex; align-items: center; gap: 0.4rem;
+      border-radius: 20px; padding: 0.4rem 0.9rem; font-size: 0.8rem;
+      background: rgba(255,255,255,0.06);
+      border: 1px solid rgba(255,255,255,0.12);
+      cursor: default; transition: background 0.2s;
+    }
+    .mt-pill:hover { background: rgba(255,255,255,0.1); }
+    .mt-pill-icon { display: inline-flex; align-items: center; width: 1rem; height: 1rem; }
+    .mt-pill-icon svg { width: 100%; height: 100%; display: block; }
+    .mt-pill-cat {
+      font-family: var(--font-display, 'Space Grotesk', sans-serif);
+      font-weight: 600; font-size: 0.8rem;
+    }
+    .mt-pill-tier { font-size: 0.72rem; opacity: 0.7; }
+  </style>
+</head>
+<body>
+
+  <!-- LANDING / HOME SCREEN -->
+  <div id="screen-landing" class="screen active">
+
+    <!-- NAV -->
+    <nav class="home-nav">
+      <span class="nav-logo"><svg class="nav-crown-svg" viewBox="0 0 100 74" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M4,54 L4,40 L18,16 L36,44 L50,4 L64,44 L82,16 L96,40 L96,54 Z" fill="#D4AF37"/><path d="M4,47 L96,47 L96,54 L4,54 Z" fill="rgba(70,44,0,0.28)"/><rect x="4" y="54" width="92" height="17" rx="3" fill="#9A7010"/><rect x="4" y="54" width="92" height="2.5" rx="1.25" fill="rgba(255,220,60,0.55)"/><circle cx="18" cy="16" r="5.5" fill="#FFE47A"/><circle cx="50" cy="4" r="7" fill="#FFE47A"/><circle cx="82" cy="16" r="5.5" fill="#FFE47A"/><circle cx="16.5" cy="14" r="2" fill="rgba(255,255,255,0.50)"/><circle cx="48.5" cy="2" r="2.5" fill="rgba(255,255,255,0.50)"/><circle cx="80.5" cy="14" r="2" fill="rgba(255,255,255,0.50)"/><circle cx="4" cy="54" r="3" fill="#C4900A"/><circle cx="96" cy="54" r="3" fill="#C4900A"/></svg> Fact Royale</span>
+      <div class="nav-links">
+        <a href="#daily" class="nav-link">Play Today</a>
+        <a href="#leaderboard" class="nav-link">Leaderboard</a>
+        <a href="mastery.html" class="nav-link">Royal Record</a>
+        <a href="groups.html" class="nav-link">Groups</a>
+        <a href="#notify" class="nav-link nav-link-cta">Stay Updated</a>
+      </div>
+      <div class="nav-auth">
+        <button class="btn-nav-signin" id="nav-signin-btn">Sign In</button>
+        <div class="nav-user-menu" id="nav-user-menu" style="display:none;">
+          <span class="nav-user-name" id="nav-user-name"></span>
+          <button class="btn-nav-signout" id="btn-signout">Sign Out</button>
+        </div>
+      </div>
+    </nav>
+
+    <!-- STREAK BANNER (logged-in users only) -->
+    <div class="streak-banner" id="streak-banner" style="display:none;">
+      <span class="streak-banner-icon fr-icon fr-icon-md" style="color:var(--gold,#d4af37)"></span>
+      <span class="streak-banner-text" id="streak-banner-text"></span>
+      <button class="streak-banner-btn" id="streak-banner-btn" style="display:none;">Play Now →</button>
+    </div>
+
+    <!-- RETURNING VISITOR BANNER (anonymous users who have played before) -->
+    <div class="returning-visitor-banner" id="returning-visitor-banner" style="display:none;">
+      <span class="returning-visitor-icon">⚠️</span>
+      <span class="returning-visitor-text" id="returning-visitor-text"></span>
+      <button class="returning-visitor-btn" id="returning-visitor-btn">Protect My Streak →</button>
+    </div>
+
+    <!-- NOTIFICATION OPT-IN PROMPT (logged-in users, shown once) -->
+    <div class="notif-prompt" id="notif-prompt" style="display:none;" role="alert">
+      <span class="notif-prompt-icon fr-icon fr-icon-md" style="color:var(--gold,#d4af37)"></span>
+      <div class="notif-prompt-body">
+        <strong>Never miss a day.</strong>
+        <span>Get a daily reminder when the quiz drops. No spam, just the quiz.</span>
+      </div>
+      <div class="notif-prompt-actions">
+        <button class="notif-prompt-enable" onclick="enableNotifications()">Enable →</button>
+        <button class="notif-prompt-dismiss" onclick="dismissNotifPrompt()">Not now</button>
+      </div>
+    </div>
+    <div class="notif-enabled-confirm" id="notif-enabled-confirm" style="display:none;">
+      ✓ You're in. We'll remind you daily.
+    </div>
+
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-glow"></div>
+      <div class="hero-content">
+        <p class="hero-eyebrow">♛ The Daily Trivia Platform</p>
+        <h1 class="hero-title">Know More.<br/><span class="hero-title-accent">Every Day.</span></h1>
+        <p class="hero-sub">One daily quiz. Real explanations after every answer.<br/>The kind of facts that actually stick.</p>
+        <div class="hero-actions">
+          <button class="btn-hero" id="btn-start-hero">Play Today's Quiz →</button>
+          <div class="hero-badges">
+            <span class="meta-badge" id="landing-date"></span>
+            <span class="meta-badge" id="landing-streak"></span>
+          </div>
+        </div>
+        <p class="already-played" id="already-played-msg" style="display:none;">
+          You played today. <span id="final-score-replay"></span>
+        </p>
+        <!-- Catch-up CTA for logged-in users who've played today but missed earlier days -->
+        <div class="catchup-landing" id="catchup-landing" style="display:none;"></div>
+        <!-- Sent challenge results — visible to signed-in users -->
+        <div id="challenge-results-section" style="display:none"></div>
+      </div>
+      <div class="hero-stat-row">
+        <div class="hero-stat"><span class="stat-num">12</span><span class="stat-label">Questions Daily</span></div>
+        <div class="hero-stat-divider"></div>
+        <div class="hero-stat"><span class="stat-num">5</span><span class="stat-label">Categories</span></div>
+        <div class="hero-stat-divider"></div>
+        <div class="hero-stat"><span class="stat-num">100%</span><span class="stat-label">Free to Play</span></div>
+      </div>
+    </section>
+
+    <!-- TODAY'S CHALLENGE -->
+    <section class="home-section" id="daily">
+      <div class="section-header">
+        <div>
+          <h2 class="section-title">Today's Challenge</h2>
+          <p class="section-sub">Fresh questions every day. Wrong answers come with a full breakdown. You'll actually learn something.</p>
+        </div>
+        <button class="btn-outline" id="btn-start-section">Play Now →</button>
+      </div>
+
+      <div class="daily-grid">
+        <div class="daily-main-card">
+          <div class="daily-card-top">
+            <span class="daily-label">Daily Quiz</span>
+            <span class="daily-live-dot"><span class="dot-pulse"></span> Live</span>
+          </div>
+          <p class="daily-card-title">Test your knowledge across five categories today</p>
+          <div class="category-pills" id="landing-categories"></div>
+          <p class="daily-card-meta" id="landing-date-card"></p>
+        </div>
+
+        <div class="daily-side-cards">
+          <div class="side-card">
+            <div class="side-card-icon">💡</div>
+            <h4 class="side-card-title">Learn from misses</h4>
+            <p class="side-card-desc">Every wrong answer reveals a breakdown and a memory hook so it sticks.</p>
+          </div>
+          <div class="side-card">
+            <div class="side-card-icon">🔥</div>
+            <h4 class="side-card-title">Build your streak</h4>
+            <p class="side-card-desc">Play daily to keep your streak alive. Miss a day and start over.</p>
+          </div>
+          <div class="side-card">
+            <div class="side-card-icon">📤</div>
+            <h4 class="side-card-title">Share your score</h4>
+            <p class="side-card-desc">Copy your result and challenge friends to beat it.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- LEADERBOARD -->
+    <section class="home-section" id="leaderboard">
+      <div class="section-header">
+        <div>
+          <h2 class="section-title">Today's Leaderboard</h2>
+          <p class="section-sub">Top scores from today's quiz. Resets every night at midnight.</p>
+        </div>
+        <span class="lb-count" id="leaderboard-count"></span>
+      </div>
+
+      <div class="leaderboard-wrap">
+        <div class="lb-header-row">
+          <span>Rank</span>
+          <span>Player</span>
+          <span>Score</span>
+          <span>Accuracy</span>
+        </div>
+        <div class="leaderboard-list" id="leaderboard-list">
+          <p class="lb-loading">Loading scores…</p>
+        </div>
+      </div>
+
+      <div class="lb-cta" id="lb-cta">
+        <p class="lb-cta-text">Sign in to appear on the leaderboard and track your stats across every quiz.</p>
+        <button class="btn-outline lb-signup-btn">Create Free Account →</button>
+      </div>
+    </section>
+
+    <!-- PERSONAL STATS -->
+    <section class="home-section stats-section" id="personal-stats-section" style="display:none;">
+      <div class="section-header">
+        <div>
+          <h2 class="section-title">Your Stats</h2>
+          <p class="section-sub">Your performance across every quiz you've played.</p>
+        </div>
+        <span class="stats-username" id="stats-username"></span>
+      </div>
+
+      <div class="stats-grid">
+        <div class="stat-box">
+          <span class="stat-box-num" id="stat-games">—</span>
+          <span class="stat-box-label">Games Played</span>
+        </div>
+        <div class="stat-box">
+          <span class="stat-box-num" id="stat-streak">—</span>
+          <span class="stat-box-label">Current Streak 🔥</span>
+        </div>
+        <div class="stat-box">
+          <span class="stat-box-num" id="stat-longest">—</span>
+          <span class="stat-box-label">Best Streak</span>
+        </div>
+        <div class="stat-box">
+          <span class="stat-box-num" id="stat-accuracy">—</span>
+          <span class="stat-box-label">Overall Accuracy</span>
+        </div>
+        <div class="stat-box">
+          <span class="stat-box-num" id="stat-best-score">—</span>
+          <span class="stat-box-label">Best Score</span>
+        </div>
+      </div>
+
+      <div class="stat-cats-wrap">
+        <h3 class="stat-cats-title">Category Breakdown</h3>
+        <div id="stat-categories"></div>
+      </div>
+    </section>
+
+    <!-- MASTERY TEASER (shown to signed-in users) -->
+    <section class="home-section" id="mastery-teaser" style="display:none;">
+      <div class="mt-header">
+        <span class="mt-title">Your Mastery</span>
+        <div class="mt-score-row">
+          <span class="mt-score-num" id="mastery-teaser-score">0</span>
+          <span class="mt-score-lbl">mastery score</span>
+          <a href="mastery.html" class="mt-view-link" style="margin-left:1rem">Full Breakdown →</a>
+        </div>
+      </div>
+      <div id="mastery-teaser-pills"></div>
+    </section>
+
+    <!-- COMING SOON -->
+    <section class="home-section" id="coming-soon">
+      <div class="section-header">
+        <div>
+          <h2 class="section-title">What's Coming</h2>
+          <p class="section-sub">Fact Royale is building out a full trivia platform. Here's what's on the roadmap.</p>
+        </div>
+      </div>
+      <div class="features-grid">
+
+        <div class="feature-card">
+          <div class="feature-icon-wrap">⚡</div>
+          <div class="feature-body">
+            <h3 class="feature-title">Live Multiplayer</h3>
+            <p class="feature-desc">Head-to-head trivia in real time. Create a lobby, invite friends, and see who wins.</p>
+          </div>
+          <span class="feature-badge">Coming Soon</span>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon-wrap">🎯</div>
+          <div class="feature-body">
+            <h3 class="feature-title">Mastery Competitions</h3>
+            <p class="feature-desc">Community-wide events where category masters go head to head. Pub quiz, evolved.</p>
+          </div>
+          <span class="feature-badge">Coming Soon</span>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon-wrap">🧠</div>
+          <div class="feature-body">
+            <h3 class="feature-title">Study Mode</h3>
+            <p class="feature-desc">Drill specific categories at your own pace. Spaced repetition for the facts that matter to you.</p>
+          </div>
+          <span class="feature-badge">Coming Soon</span>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon-wrap">🎙️</div>
+          <div class="feature-body">
+            <h3 class="feature-title">Host a Quiz</h3>
+            <p class="feature-desc">Run your own live trivia night, online or in person. Custom questions, your crowd, your rules.</p>
+          </div>
+          <span class="feature-badge">Coming Soon</span>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- EMAIL SIGNUP -->
+    <section class="home-section notify-section" id="notify">
+      <div class="notify-card">
+        <div class="notify-left">
+          <h2 class="notify-title">Be the first to know.</h2>
+          <p class="notify-sub">Drop your email and we'll let you know when multiplayer, live competitions, and new features go live. No spam, just updates.</p>
+        </div>
+        <form class="notify-form" id="notify-form">
+          <div class="notify-name-row">
+            <input type="text"  name="firstName" class="notify-input" placeholder="First name" required />
+            <input type="text"  name="lastName"  class="notify-input" placeholder="Last name"  required />
+          </div>
+          <input type="email" name="email" class="notify-input" placeholder="your@email.com" required />
+          <button type="submit" class="btn-primary notify-btn">Notify Me</button>
+        </form>
+        <p class="notify-confirm" id="notify-confirm" style="display:none;">You're in! We'll be in touch. ♛</p>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="home-footer">
+      <div class="footer-inner">
+        <span class="footer-logo"><svg class="footer-crown-svg" viewBox="0 0 100 74" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M4,54 L4,40 L18,16 L36,44 L50,4 L64,44 L82,16 L96,40 L96,54 Z" fill="#D4AF37"/><rect x="4" y="54" width="92" height="17" rx="3" fill="#9A7010"/><circle cx="18" cy="16" r="5.5" fill="#FFE47A"/><circle cx="50" cy="4" r="7" fill="#FFE47A"/><circle cx="82" cy="16" r="5.5" fill="#FFE47A"/><circle cx="4" cy="54" r="3" fill="#C4900A"/><circle cx="96" cy="54" r="3" fill="#C4900A"/></svg> Fact Royale</span>
+        <p class="footer-copy">New quiz every day · Built for curious minds</p>
+      </div>
+    </footer>
+
+  </div>
+
+  <!-- QUIZ SCREEN -->
+  <div id="screen-quiz" class="screen">
+    <div id="challenge-banner" class="challenge-banner" style="display:none">
+      <span class="challenge-banner-crown">♛</span>
+      <span id="challenge-banner-text"></span>
+    </div>
+    <header class="quiz-header">
+      <div class="header-left">
+        <span class="logo-small">Fact Royale</span>
+      </div>
+      <div class="header-right">
+        <span class="streak-badge" id="quiz-streak"></span>
+      </div>
+    </header>
+
+    <div class="progress-wrap">
+      <div class="progress-bar" id="progress-bar"></div>
+    </div>
+    <p class="progress-text" id="progress-text"></p>
+
+    <div class="question-card" id="question-card">
+      <span class="category-tag" id="q-category"></span>
+      <p class="question-text" id="q-text"></p>
+
+      <div class="options-grid" id="options-grid"></div>
+
+      <!-- Shown after answering -->
+      <div class="feedback-box" id="feedback-box" style="display:none;">
+        <div class="feedback-result" id="feedback-result"></div>
+        <p class="feedback-explanation" id="feedback-explanation"></p>
+        <div class="memory-hook" id="memory-hook" style="display:none;">
+          <span class="hook-label">💡 Remember it</span>
+          <p id="hook-text"></p>
+        </div>
+        <button class="btn-next" id="btn-next">Next Question →</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- RESULTS SCREEN -->
+  <div id="screen-results" class="screen">
+    <div class="results-card">
+      <div class="crown"><svg class="crown-svg" viewBox="0 0 100 74" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><circle cx="18" cy="16" r="10" fill="rgba(212,175,55,0.10)"/><circle cx="50" cy="4" r="13" fill="rgba(212,175,55,0.08)"/><circle cx="82" cy="16" r="10" fill="rgba(212,175,55,0.10)"/><path d="M4,54 L4,40 L18,16 L36,44 L50,4 L64,44 L82,16 L96,40 L96,54 Z" fill="#D4AF37"/><path d="M4,47 L96,47 L96,54 L4,54 Z" fill="rgba(70,44,0,0.28)"/><path d="M50,4 L36,44 L4,40 L4,33 L18,16 L50,4 Z" fill="rgba(255,245,160,0.18)"/><rect x="4" y="54" width="92" height="17" rx="3" fill="#9A7010"/><rect x="4" y="54" width="92" height="2.5" rx="1.25" fill="rgba(255,220,60,0.55)"/><circle cx="18" cy="16" r="7.5" fill="rgba(212,175,55,0.20)"/><circle cx="50" cy="4" r="9.5" fill="rgba(212,175,55,0.15)"/><circle cx="82" cy="16" r="7.5" fill="rgba(212,175,55,0.20)"/><circle cx="18" cy="16" r="5.5" fill="#FFE47A"/><circle cx="50" cy="4" r="7" fill="#FFE47A"/><circle cx="82" cy="16" r="5.5" fill="#FFE47A"/><circle cx="16.5" cy="14" r="2" fill="rgba(255,255,255,0.55)"/><circle cx="48.5" cy="2" r="2.5" fill="rgba(255,255,255,0.55)"/><circle cx="80.5" cy="14" r="2" fill="rgba(255,255,255,0.55)"/><circle cx="4" cy="54" r="3.5" fill="#C4900A"/><circle cx="96" cy="54" r="3.5" fill="#C4900A"/><ellipse cx="50" cy="63" rx="6" ry="4.5" fill="#7C3AED"/><ellipse cx="49" cy="61.5" rx="3.5" ry="2.5" fill="rgba(200,160,255,0.60)"/></svg></div>
+      <h2 class="results-title" id="results-title"></h2>
+      <div class="score-display" id="score-display"></div>
+
+      <!-- Rank percentage -->
+      <div class="results-rank-wrap" id="results-rank-wrap" style="display:none;">
+        <p class="results-rank-pct" id="results-rank-pct"></p>
+      </div>
+
+      <!-- Level-up banner (shown when mastery tier increases) -->
+      <div id="levelup-banner" style="display:none;"></div>
+
+      <div class="category-breakdown" id="category-breakdown"></div>
+
+      <!-- Sign-up nudge (anonymous users only) -->
+      <div class="signup-nudge" id="signup-nudge" style="display:none;">
+        <div class="signup-nudge-inner">
+          <span class="signup-nudge-icon">🔥</span>
+          <div class="signup-nudge-body">
+            <strong>Don't lose this streak.</strong>
+            <p>Create a free account to track your daily streak, save your scores, and claim your spot on the leaderboard.</p>
+          </div>
+        </div>
+        <button class="btn-nudge-signup" id="btn-nudge-signup">Create Free Account →</button>
+      </div>
+
+      <!-- Archive notice (shown for archive/catch-up plays only) -->
+      <div class="archive-results-notice" id="archive-results-notice" style="display:none;">
+        <span class="archive-results-icon">📚</span>
+        <span>This counted toward your mastery, not your streak or leaderboard.</span>
+      </div>
+
+      <!-- Catch-up CTA (shown after completing any quiz, for logged-in users with missed dates) -->
+      <div class="catchup-section" id="catchup-section" style="display:none;"></div>
+
+      <!-- Fun fact -->
+      <div class="results-fun-fact">
+        <span class="fun-fact-label">🧠 Did you know?</span>
+        <p class="fun-fact-text" id="fun-fact-text"></p>
+      </div>
+
+      <!-- Challenge comparison -->
+      <div id="challenge-result" class="challenge-result-section" style="display:none">
+        <div class="challenge-vs-wrap">
+          <div class="challenge-vs-card challenge-vs-card--you">
+            <div class="cvs-label">You</div>
+            <div class="cvs-score" id="cvs-your-score">--</div>
+          </div>
+          <div class="cvs-divider">VS</div>
+          <div class="challenge-vs-card challenge-vs-card--them">
+            <div class="cvs-label" id="cvs-them-name">Friend</div>
+            <div class="cvs-score" id="cvs-them-score">--</div>
+          </div>
+        </div>
+        <p class="challenge-verdict" id="challenge-verdict"></p>
+        <div class="challenge-facts-wrap" id="challenge-facts-wrap"></div>
+      </div>
+
+
+      <!-- Email capture — anonymous users only -->
+      <div id="email-capture" class="email-capture-wrap" style="display:none">
+        <p class="email-capture-label">Get tomorrow's quiz in your inbox</p>
+        <div class="email-capture-row">
+          <input type="email" id="email-capture-input" class="email-capture-input" placeholder="your@email.com" />
+          <button class="email-capture-btn" onclick="submitEmailCapture()">Remind me</button>
+        </div>
+        <p class="email-capture-fine">No spam. Just the daily quiz.</p>
+      </div>
+
+      <div class="results-actions">
+        <button class="btn-primary" id="btn-share">Share Score →</button>
+        <button id="btn-challenge" class="btn-challenge" style="display:none" onclick="openChallengeShare()">
+          ⚔ Challenge a Friend
+        </button>
+        <p class="share-confirm" id="share-confirm" style="display:none;">Copied to clipboard!</p>
+        <button class="btn-results-home" id="btn-home">← Back to Home</button>
+      </div>
+
+      <!-- Post-challenge sign-up nudge (shown to anonymous users after they send a challenge) -->
+      <div id="challenge-sent-nudge" class="challenge-sent-nudge" style="display:none;">
+        <p>Want to know if they beat you?</p>
+        <button class="csn-signup-btn"
+                onclick="document.getElementById('challenge-sent-nudge').style.display='none';document.getElementById('auth-modal').style.display='flex'">
+          Create a free account
+        </button>
+        <button class="csn-dismiss" onclick="this.parentElement.style.display='none'">Maybe later</button>
+      </div>
+
+      <p class="comeback-msg">New quiz drops tomorrow. See you then.</p>
+    </div>
+  </div>
+
+  <!-- NO QUIZ SCREEN -->
+  <div id="screen-noquiz" class="screen">
+    <div class="landing-card">
+      <div class="crown"><svg class="crown-svg" viewBox="0 0 100 74" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><circle cx="18" cy="16" r="10" fill="rgba(212,175,55,0.10)"/><circle cx="50" cy="4" r="13" fill="rgba(212,175,55,0.08)"/><circle cx="82" cy="16" r="10" fill="rgba(212,175,55,0.10)"/><path d="M4,54 L4,40 L18,16 L36,44 L50,4 L64,44 L82,16 L96,40 L96,54 Z" fill="#D4AF37"/><path d="M4,47 L96,47 L96,54 L4,54 Z" fill="rgba(70,44,0,0.28)"/><path d="M50,4 L36,44 L4,40 L4,33 L18,16 L50,4 Z" fill="rgba(255,245,160,0.18)"/><rect x="4" y="54" width="92" height="17" rx="3" fill="#9A7010"/><rect x="4" y="54" width="92" height="2.5" rx="1.25" fill="rgba(255,220,60,0.55)"/><circle cx="18" cy="16" r="7.5" fill="rgba(212,175,55,0.20)"/><circle cx="50" cy="4" r="9.5" fill="rgba(212,175,55,0.15)"/><circle cx="82" cy="16" r="7.5" fill="rgba(212,175,55,0.20)"/><circle cx="18" cy="16" r="5.5" fill="#FFE47A"/><circle cx="50" cy="4" r="7" fill="#FFE47A"/><circle cx="82" cy="16" r="5.5" fill="#FFE47A"/><circle cx="16.5" cy="14" r="2" fill="rgba(255,255,255,0.55)"/><circle cx="48.5" cy="2" r="2.5" fill="rgba(255,255,255,0.55)"/><circle cx="80.5" cy="14" r="2" fill="rgba(255,255,255,0.55)"/><circle cx="4" cy="54" r="3.5" fill="#C4900A"/><circle cx="96" cy="54" r="3.5" fill="#C4900A"/><ellipse cx="50" cy="63" rx="6" ry="4.5" fill="#7C3AED"/><ellipse cx="49" cy="61.5" rx="3.5" ry="2.5" fill="rgba(200,160,255,0.60)"/></svg></div>
+      <h1 class="logo">Fact Royale</h1>
+      <p class="tagline">No quiz loaded for today. Check back soon.</p>
+    </div>
+  </div>
+
+  <!-- AUTH MODAL -->
+  <div id="auth-modal" class="modal-overlay" style="display:none;" role="dialog" aria-modal="true">
+    <div class="modal-card">
+      <button class="modal-close" id="modal-close" aria-label="Close">✕</button>
+
+      <div class="modal-header">
+        <span class="modal-crown"><svg class="crown-svg" viewBox="0 0 100 74" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><circle cx="18" cy="16" r="10" fill="rgba(212,175,55,0.10)"/><circle cx="50" cy="4" r="13" fill="rgba(212,175,55,0.08)"/><circle cx="82" cy="16" r="10" fill="rgba(212,175,55,0.10)"/><path d="M4,54 L4,40 L18,16 L36,44 L50,4 L64,44 L82,16 L96,40 L96,54 Z" fill="#D4AF37"/><path d="M4,47 L96,47 L96,54 L4,54 Z" fill="rgba(70,44,0,0.28)"/><path d="M50,4 L36,44 L4,40 L4,33 L18,16 L50,4 Z" fill="rgba(255,245,160,0.18)"/><rect x="4" y="54" width="92" height="17" rx="3" fill="#9A7010"/><rect x="4" y="54" width="92" height="2.5" rx="1.25" fill="rgba(255,220,60,0.55)"/><circle cx="18" cy="16" r="7.5" fill="rgba(212,175,55,0.20)"/><circle cx="50" cy="4" r="9.5" fill="rgba(212,175,55,0.15)"/><circle cx="82" cy="16" r="7.5" fill="rgba(212,175,55,0.20)"/><circle cx="18" cy="16" r="5.5" fill="#FFE47A"/><circle cx="50" cy="4" r="7" fill="#FFE47A"/><circle cx="82" cy="16" r="5.5" fill="#FFE47A"/><circle cx="16.5" cy="14" r="2" fill="rgba(255,255,255,0.55)"/><circle cx="48.5" cy="2" r="2.5" fill="rgba(255,255,255,0.55)"/><circle cx="80.5" cy="14" r="2" fill="rgba(255,255,255,0.55)"/><circle cx="4" cy="54" r="3.5" fill="#C4900A"/><circle cx="96" cy="54" r="3.5" fill="#C4900A"/><ellipse cx="50" cy="63" rx="6" ry="4.5" fill="#7C3AED"/><ellipse cx="49" cy="61.5" rx="3.5" ry="2.5" fill="rgba(200,160,255,0.60)"/></svg></span>
+        <h2 class="modal-title">Join Fact Royale</h2>
+        <p class="modal-sub">Track your streak, appear on the leaderboard, compete daily.</p>
+      </div>
+
+      <div class="modal-tabs">
+        <button class="modal-tab active" id="tab-login">Sign In</button>
+        <button class="modal-tab" id="tab-signup">Create Account</button>
+      </div>
+
+      <!-- Login Form -->
+      <form id="form-login" class="auth-form">
+        <input type="email"    class="auth-input" id="login-email"    placeholder="Email address" autocomplete="email" required />
+        <input type="password" class="auth-input" id="login-password" placeholder="Password"      autocomplete="current-password" required />
+        <button type="submit" class="btn-primary auth-submit">Sign In</button>
+        <p class="auth-error" id="login-error"></p>
+      </form>
+
+      <!-- Sign Up Form -->
+      <form id="form-signup" class="auth-form" style="display:none;">
+        <div class="auth-input-row">
+          <input type="text" class="auth-input" id="signup-firstname" placeholder="First name" autocomplete="given-name" required />
+          <input type="text" class="auth-input" id="signup-lastname"  placeholder="Last name"  autocomplete="family-name" required />
+        </div>
+        <input type="text"     class="auth-input" id="signup-name"     placeholder="Display name (shown on leaderboard)" autocomplete="nickname" required />
+        <input type="email"    class="auth-input" id="signup-email"    placeholder="Email address" autocomplete="email" required />
+        <input type="password" class="auth-input" id="signup-password" placeholder="Password (min 6 characters)" autocomplete="new-password" required />
+        <button type="submit" class="btn-primary auth-submit">Create Account</button>
+        <p class="auth-error" id="signup-error"></p>
+      </form>
+
+      <div class="auth-divider"><span>or</span></div>
+
+      <button class="btn-google" id="btn-google-signin">
+        <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true">
+          <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
+          <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/>
+          <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l3.66-2.84z"/>
+          <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/>
+        </svg>
+        Continue with Google
+      </button>
+
+      <p class="auth-fine-print">We collect your name and email to personalize your experience and keep you updated on new features. No spam, ever.</p>
+    </div>
+  </div>
+
+  <!-- SHARE MODAL -->
+  <div id="share-modal" class="share-modal-overlay" style="display:none;" role="dialog" aria-modal="true" aria-label="Share your score">
+    <div class="share-modal-card">
+      <button class="share-modal-close" id="share-modal-close" aria-label="Close">✕</button>
+      <h3 class="share-modal-title">Share your score</h3>
+      <p class="share-modal-sub">Pick a format for your platform</p>
+
+      <div class="share-fmt-tabs">
+        <button class="share-fmt-btn active" data-format="story">
+          Story<br/><span class="share-fmt-hint">Instagram · Snap</span>
+        </button>
+        <button class="share-fmt-btn" data-format="wide">
+          Wide<br/><span class="share-fmt-hint">Twitter · Facebook</span>
+        </button>
+        <button class="share-fmt-btn" data-format="square">
+          Square<br/><span class="share-fmt-hint">Facebook · Grid</span>
+        </button>
+      </div>
+
+      <div class="share-canvas-wrap">
+        <canvas id="share-canvas"></canvas>
+      </div>
+
+      <div class="share-modal-actions">
+        <button class="btn-primary share-action-btn" id="btn-share-image">Share Image →</button>
+        <button class="btn-outline share-action-btn" id="btn-download-image">Download ↓</button>
+        <button class="btn-outline share-action-btn" id="btn-copy-link">Copy Link</button>
+      </div>
+      <p class="share-modal-note">fact-royale.com is included on every card</p>
+    </div>
+  </div>
+
+  <!-- CHALLENGE NAME PROMPT MODAL (for anonymous challengers) -->
+  <div id="challenge-name-modal" class="modal-overlay" style="display:none;" role="dialog" aria-modal="true"
+       onclick="if(event.target===this)closeChallengeNameModal()">
+    <div class="cnm-card">
+      <button class="cnm-close" onclick="closeChallengeNameModal()" aria-label="Close">&times;</button>
+      <h3 class="cnm-title">Who's challenging?</h3>
+      <p class="cnm-sub">Add your name so your friend knows who to beat.</p>
+      <input type="text" id="challenge-name-input" class="cnm-input"
+             placeholder="Your first name" maxlength="30"
+             onkeydown="if(event.key==='Enter')submitChallengeName()" />
+      <button class="btn-primary cnm-send-btn" onclick="submitChallengeName()">Send Challenge →</button>
+      <div class="cnm-or">or</div>
+      <button class="cnm-signin-link"
+              onclick="closeChallengeNameModal();document.getElementById('auth-modal').style.display='flex'">
+        Sign in to track if they beat you
+      </button>
+    </div>
+  </div>
+
+  <!-- CHALLENGE SHARE MODAL (fallback for browsers without Web Share API) -->
+  <div id="challenge-share-modal" class="modal-overlay" style="display:none;" role="dialog" aria-modal="true" onclick="closeChallengeShareModal(event)">
+    <div class="csm-card">
+      <button class="modal-close" onclick="closeChallengeShareModal()" aria-label="Close">&#x2715;</button>
+      <div class="csm-header">
+        <div class="csm-crown">&#9819;</div>
+        <h3 class="csm-title">Challenge a Friend</h3>
+        <p class="csm-score" id="csm-score-text"></p>
+        <p class="csm-sub">Send them your challenge link and see if they can beat you.</p>
+      </div>
+      <div class="csm-toname-wrap">
+        <label class="csm-toname-label" for="csm-toname">Who are you challenging? <span class="csm-toname-opt">(optional)</span></label>
+        <input type="text" id="csm-toname" class="csm-toname-input" placeholder="e.g. Alex, Mom, work group..." maxlength="40" autocomplete="off" />
+      </div>
+      <div class="csm-buttons">
+        <a id="csm-sms" href="#" class="csm-btn csm-btn--sms" onclick="saveChallengeTo()">
+          <span class="csm-btn-icon">&#128172;</span>
+          <span>iMessage / SMS</span>
+        </a>
+        <a id="csm-whatsapp" href="#" class="csm-btn csm-btn--wa" target="_blank" rel="noopener noreferrer" onclick="saveChallengeTo()">
+          <span class="csm-btn-icon">&#128241;</span>
+          <span>WhatsApp</span>
+        </a>
+        <a id="csm-twitter" href="#" class="csm-btn csm-btn--tw" target="_blank" rel="noopener noreferrer" onclick="saveChallengeTo()">
+          <span class="csm-btn-icon">&#120143;</span>
+          <span>X / Twitter</span>
+        </a>
+        <button id="csm-copy" class="csm-btn csm-btn--copy" onclick="saveChallengeTo(); copyChallengeFallback()">
+          <span class="csm-btn-icon">&#128279;</span>
+          <span>Copy Link</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="firebase-config.js?v=2"></script>
+  <script src="icons.js?v=2"></script>
+  <script src="auth.js?v=6"></script>
+  <script src="mastery.js?v=9"></script>
+  <script src="notifications.js?v=2"></script>
+  <script src="quiz.js?v=18"></script>
+  <script>
+    // Inject static SVG icons into banner/notif icon spans
+    document.addEventListener('DOMContentLoaded', () => {
+      const bannerIcon = document.querySelector('.streak-banner-icon');
+      if (bannerIcon) bannerIcon.innerHTML = ICONS.flame;
+      const notifIcon = document.querySelector('.notif-prompt-icon');
+      if (notifIcon) notifIcon.innerHTML = ICONS.bell;
+    });
+  </script>
+
+<!-- Mobile bottom tab bar -->
+<nav class="mobile-tab-bar" aria-label="Main navigation">
+  <a href="/" class="tab-item tab-active">
+    <span class="tab-icon">&#9819;</span>
+    <span class="tab-label">Play</span>
+  </a>
+  <a href="/#leaderboard" class="tab-item">
+    <span class="tab-icon">&#127942;</span>
+    <span class="tab-label">Ranks</span>
+  </a>
+  <a href="/groups.html" class="tab-item">
+    <span class="tab-icon">&#128101;</span>
+    <span class="tab-label">Groups</span>
+  </a>
+  <a href="/mastery.html" class="tab-item">
+    <span class="tab-icon">&#9733;</span>
+    <span class="tab-label">Mastery</span>
+  </a>
+</nav>
+</body>
+</html>

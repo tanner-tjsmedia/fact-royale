@@ -47,7 +47,7 @@
 const fs   = require('fs');
 const path = require('path');
 
-const QDIR = path.join(__dirname, '..', 'questions');
+const QDIR = path.join(__dirname, '..', 'questions-src');
 
 // Publish at local midnight of the quiz date. The daily quiz is keyed to the
 // player's local clock (see quiz.js getTodayKey), so a player east of UTC

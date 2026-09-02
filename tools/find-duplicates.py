@@ -14,7 +14,7 @@ import json, os, re, sys
 from collections import defaultdict
 from itertools import combinations
 
-QDIR = os.path.join(os.path.dirname(__file__), '..', 'questions')
+QDIR = os.path.join(os.path.dirname(__file__), '..', 'questions-src')
 
 STOP = set("""a an the of in on at to for from by with without and or but is are was were be been
 being what which who whom whose when where why how did does do done has have had this that these
