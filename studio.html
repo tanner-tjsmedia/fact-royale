@@ -14,6 +14,7 @@
 
 <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-app-compat.js"></script>
 <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-auth-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore-compat.js"></script>
 <script src="firebase-config.js"></script>
 
 <style>
@@ -183,8 +184,10 @@
    ACCESS
    ============================================================ */
 const ADMIN_EMAIL = 'tanner@tjs16media.com';
-firebase.initializeApp(window.firebaseConfig);
-const auth = firebase.auth();
+// firebase-config.js has already called initializeApp() and declared `auth`
+// and `db` as globals. Re-declaring either is a SyntaxError that silently
+// kills this whole script, so use what is already there.
+
 
 document.getElementById('signin').onclick = () => {
   const p = new firebase.auth.GoogleAuthProvider();

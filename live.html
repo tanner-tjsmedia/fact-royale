@@ -228,8 +228,12 @@ input[type=number],input[type=text],select{width:100%;background:var(--panel-2);
   </div>
 </div>
 
-<script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-app-compat.js"></script>
-<script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-auth-compat.js"></script>
+<!-- firestore-compat is required: firebase-config.js calls firebase.firestore()
+     on load, so without it the config file throws and `auth` is never declared.
+     Pinned to 10.12.2 to match every other page rather than 9.23.0. -->
+<script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-auth-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore-compat.js"></script>
 <script src="/firebase-config.js"></script>
 <script>
 // ═══════════════════════════════════════════════════════
@@ -260,7 +264,9 @@ const show = id => document.querySelectorAll('.screen')
   .forEach(s => s.classList.toggle('active', s.id === id));
 
 // ── auth gate ──────────────────────────────────────────
-firebase.initializeApp(firebaseConfig);
+// initializeApp already ran inside firebase-config.js.
+// This line referenced `firebaseConfig`, which does not exist
+// (the config is FIREBASE_CONFIG), and threw on every load.
 firebase.auth().onAuthStateChanged(async user => {
   if (user && user.email === ADMIN_EMAIL) {
     $('hdr-right').textContent = user.email;
