@@ -56,6 +56,31 @@ service cloud.firestore {
       allow read, write: if false;
     }
 
+    // ── Question bank: the working store ──────────────────
+    // This is where questions are AUTHORED and REVIEWED, keyed by their
+    // permanent frq- id. It is not what players read -- that is quizzes/,
+    // which is publishAt-gated and populated by an explicit publish step.
+    //
+    // Admin-only in both directions, and that is the whole security story
+    // for this collection: it holds unpublished content and answers.
+    //
+    // When user-submitted question reports arrive later, they do NOT get
+    // write access here. They write to a separate reports collection that
+    // this bank never trusts directly.
+    match /questionBank/{questionId} {
+      allow read, write: if request.auth != null
+                         && request.auth.token.email == 'tanner@tjs16media.com';
+    }
+
+    // ── Studio metadata: the source registry mirror ───────
+    // meta/sources is a copy of sources.json so the studio can show what a
+    // citation establishes when running against the bank rather than files.
+    // Admin-only: it is working data, not published evidence.
+    match /meta/{docId} {
+      allow read, write: if request.auth != null
+                         && request.auth.token.email == 'tanner@tjs16media.com';
+    }
+
     // ── Live game sessions (internal) ─────────────────────
     // Host console state for in-person and online live play. Admin-only for
     // now; opening this to player devices is a later decision and will need

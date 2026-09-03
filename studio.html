@@ -126,7 +126,9 @@
     <div class="brand">Question <b>Studio</b></div>
     <div class="counts" id="counts"></div>
     <div class="spacer"></div>
-    <button class="btn" id="open">Open repo folder</button>
+    <span class="eyebrow" id="backend">not connected</span>
+    <button class="btn" id="open">Files</button>
+    <button class="btn" id="cloud">Question bank</button>
     <button class="btn btn--gold" id="save" disabled>Save</button>
     <a class="btn btn--ghost" href="/admin.html">Admin</a>
   </div>
@@ -143,7 +145,16 @@
         Choose the <b>fact-royale</b> folder itself, not <code>questions-src</code> —
         the registry lives one level up.
       </p>
-      <div><button class="btn btn--gold" id="open2">Choose folder</button></div>
+      <div class="row row--wrap">
+        <button class="btn btn--gold" id="open2">Choose folder</button>
+        <button class="btn" id="cloud2">Use the question bank instead</button>
+      </div>
+      <p style="color:var(--fg-subtle);font-size:var(--t-sm);margin:0">
+        <b>Files</b> keep git history, diffs and the preflight gate, but need
+        Chrome or Edge on a desktop. <b>The question bank</b> works on any device
+        and browser; <code>tools/sync-questions.js</code> moves it back into the
+        repo so nothing loses its history.
+      </p>
       <p id="fserr" style="color:var(--bad);font-size:var(--t-sm)"></p>
     </div>
 
@@ -217,7 +228,8 @@ const S = {
   sourcesRaw: null,     // whole sources.json, so _readme survives a write
   rows: [],             // flat [{ dateKey, idx, q }]
   sel: null,
-  booted: false
+  booted: false,
+  store: null
 };
 const ORDER = ['id','category','question','options','answer','explanation',
                'memory_hook','riskTier','sourceRefs','review'];
@@ -268,14 +280,18 @@ const idb = {
 async function boot() {
   if (S.booted) return; S.booted = true;
   if (!window.showDirectoryPicker) {
+    // Firefox, Safari, and every phone. Previously this dead-ended; now it
+    // just means the file route is unavailable and the bank is the way in.
+    $('#open').disabled = $('#open2').disabled = true;
     $('#fserr').textContent =
-      'This browser cannot open a local folder. Use Chrome or Edge on desktop.';
+      'This browser cannot open a local folder, so the file route is off. ' +
+      'Use the question bank, or switch to Chrome or Edge on a desktop.';
     return;
   }
   const saved = await idb.get('repo');
   if (saved) {
     const perm = await saved.queryPermission({ mode: 'readwrite' });
-    if (perm === 'granted') { S.dir = saved; await loadAll(); }
+    if (perm === 'granted') { S.dir = saved; await loadAll(FileStore); }
     else $('#open2').textContent = 'Reconnect folder';
   }
 }
@@ -285,7 +301,7 @@ async function pickFolder() {
     const dir = await window.showDirectoryPicker({ mode: 'readwrite' });
     const perm = await dir.requestPermission({ mode: 'readwrite' });
     if (perm !== 'granted') throw new Error('Permission not granted.');
-    S.dir = dir; await idb.set('repo', dir); await loadAll();
+    S.dir = dir; await idb.set('repo', dir); await loadAll(FileStore);
   } catch (e) {
     if (e.name !== 'AbortError') $('#fserr').textContent = e.message;
   }
@@ -293,14 +309,48 @@ async function pickFolder() {
 $('#open').onclick = pickFolder;
 $('#open2').onclick = pickFolder;
 
-async function loadAll() {
-  $('#fserr').textContent = '';
-  try {
+async function useCloud() {
+  // Guard against silently abandoning edits when switching backend.
+  if ([...S.files.values()].some(f => f.dirty) &&
+      !confirm('You have unsaved changes. Switching backend will discard them. Continue?'))
+    return;
+  S.sel = null;
+  await loadAll(CloudStore);
+}
+$('#cloud').onclick = useCloud;
+$('#cloud2').onclick = useCloud;
+
+/* ============================================================
+   STORAGE ADAPTER
+
+   Everything below this block -- queue, editor, evidence, metrics,
+   keyboard -- takes a plain array of question objects and has no idea
+   where they came from. That is deliberate: it is what lets the same
+   tool run against local files or against Firestore without a rewrite.
+
+   Two backends, one interface:
+
+     load()          fill S.files and S.sources
+     save()          persist whatever is marked dirty
+     label           what to show the user about where they are working
+
+   FileStore   questions-src/*.json on this machine.
+               Git-native: every edit is a diff, revertable, and
+               preflight.py gates it before it can be pushed.
+
+   CloudStore  questionBank/{frq-id} in Firestore.
+               Works on any device and browser. No git history of its
+               own -- tools/sync-questions.js --pull is what puts the
+               bank back into the repo so history survives.
+   ============================================================ */
+
+const FileStore = {
+  label: 'local files',
+  async load() {
     const qdir = await S.dir.getDirectoryHandle('questions-src');
     S.sourcesRaw = JSON.parse(await (await (await S.dir
       .getFileHandle('sources.json')).getFile()).text());
     S.sources = S.sourcesRaw.sources || {};
-
     S.files.clear();
     for await (const [name, h] of qdir.entries()) {
       if (!name.endsWith('.json') || !/^\d{4}-/.test(name)) continue;
@@ -308,15 +358,93 @@ async function loadAll() {
       S.files.set(name.slice(0, -5), { handle: h, data, dirty: false });
     }
     if (!S.files.size) throw new Error('No dated files found in questions-src/.');
+  },
+  async save() {
+    let n = 0;
+    for (const [, f] of S.files) {
+      if (!f.dirty) continue;
+      f.data.questions = f.data.questions.map(orderKeys);
+      const w = await f.handle.createWritable();
+      await w.write(JSON.stringify(f.data, null, 2) + '\n');
+      await w.close();
+      f.dirty = false; n++;
+    }
+    return n + ' file' + (n === 1 ? '' : 's');
+  }
+};
+
+const CloudStore = {
+  label: 'question bank (Firestore)',
+  async load() {
+    const reg = await db.collection('meta').doc('sources').get();
+    if (!reg.exists) throw new Error(
+      'meta/sources is empty. Run: node tools/sync-questions.js --push');
+    S.sourcesRaw = reg.data(); S.sources = reg.data().sources || {};
+
+    const snap = await db.collection('questionBank').get();
+    if (snap.empty) throw new Error(
+      'questionBank is empty. Run: node tools/sync-questions.js --push');
+
+    // The bank is flat, keyed by permanent id. Regroup by date so the
+    // rest of the tool sees the same shape it gets from files.
+    S.files.clear();
+    snap.forEach(doc => {
+      const q = doc.data();
+      const dateKey = q._date || 'unscheduled';
+      if (!S.files.has(dateKey))
+        S.files.set(dateKey, { data: { date: dateKey, questions: [] }, dirty: false });
+      S.files.get(dateKey).data.questions.push(q);
+    });
+    // Bank order is arbitrary; sort inside each day by id so the queue is stable.
+    for (const [, f] of S.files)
+      f.data.questions.sort((a, b) => (a.id || '').localeCompare(b.id || ''));
+  },
+  async save() {
+    let n = 0;
+    // Firestore caps a batch at 500 writes.
+    let batch = db.batch(), inBatch = 0;
+    for (const [dateKey, f] of S.files) {
+      if (!f.dirty) continue;
+      for (const q of f.data.questions) {
+        const doc = orderKeys(q); doc._date = dateKey;
+        doc._updatedAt = firebase.firestore.FieldValue.serverTimestamp();
+        batch.set(db.collection('questionBank').doc(q.id), doc);
+        n++; inBatch++;
+        if (inBatch >= 450) { await batch.commit(); batch = db.batch(); inBatch = 0; }
+      }
+      f.dirty = false;
+    }
+    if (inBatch) await batch.commit();
+    return n + ' question' + (n === 1 ? '' : 's');
+  }
+};
+
+/** One key order, used by both backends, so a file round-trips byte-identical. */
+function orderKeys(q) {
+  const out = {};
+  ORDER.forEach(k => { if (k in q) out[k] = q[k]; });
+  Object.keys(q).forEach(k => { if (!(k in out)) out[k] = q[k]; });
+  return out;
+}
+
+async function loadAll(store) {
+  $('#fserr').textContent = '';
+  try {
+    S.store = store || S.store || FileStore;
+    await S.store.load();
     reindex();
     $('#nofolder').classList.add('hidden');
     $('#main').classList.remove('hidden');
-    CATS.forEach(c => $('#f-cat').append(new Option(c, c)));
+    if (!$('#f-cat').dataset.filled) {
+      CATS.forEach(c => $('#f-cat').append(new Option(c, c)));
+      $('#f-cat').dataset.filled = '1';
+    }
     render();
-    toast(`Loaded ${S.rows.length} questions from ${S.files.size} files`);
+    $('#backend').textContent = S.store.label;
+    toast(`Loaded ${S.rows.length} questions from ${S.store.label}`);
   } catch (e) {
-    $('#fserr').textContent =
-      e.message + ' — is this the fact-royale folder itself?';
+    $('#fserr').textContent = e.message;
+    $('#nofolder').classList.remove('hidden');
   }
 }
 
@@ -607,22 +735,15 @@ function dirty() {
 }
 
 async function saveAll() {
-  let n = 0;
-  for (const [dateKey, f] of S.files) {
-    if (!f.dirty) continue;
-    f.data.questions = f.data.questions.map(q => {
-      const out = {};
-      ORDER.forEach(k => { if (k in q) out[k] = q[k]; });
-      Object.keys(q).forEach(k => { if (!(k in out)) out[k] = q[k]; });
-      return out;
-    });
-    const w = await f.handle.createWritable();
-    await w.write(JSON.stringify(f.data, null, 2) + '\n');
-    await w.close();
-    f.dirty = false; n++;
+  if (!S.store) return;
+  try {
+    const what = await S.store.save();
+    $('#save').disabled = true;
+    toast(what === '0 files' || what === '0 questions'
+      ? 'Nothing to save' : 'Saved ' + what + ' to ' + S.store.label);
+  } catch (e) {
+    toast('SAVE FAILED: ' + e.message);
   }
-  $('#save').disabled = true;
-  toast(n ? `Saved ${n} file${n > 1 ? 's' : ''}` : 'Nothing to save');
 }
 $('#save').onclick = saveAll;
 
