@@ -4,6 +4,7 @@
     {
       "id": "frq-0685",
       "category": "History",
+      "difficulty": null,
       "question": "Athenian democracy let citizens vote directly on laws. How were most public officials chosen?",
       "options": [
         "By appointment from the ten elected generals",
@@ -24,11 +25,19 @@
         "at": "2026-09-03",
         "by": "tanner@tjs16media.com",
         "note": "carried over: had a cited source before IDs existed"
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-11",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0686",
       "category": "History",
+      "difficulty": null,
       "question": "Stalingrad (1942-43) is widely called the turning point of the war in Europe. How did the German position collapse?",
       "options": [
         "Allied bombing wiped out the German supply depots",
@@ -49,11 +58,19 @@
         "at": "2026-09-03",
         "by": "tanner@tjs16media.com",
         "note": "carried over: had a cited source before IDs existed"
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-11",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0687",
       "category": "History",
+      "difficulty": null,
       "question": "William the Conqueror ordered the Domesday Book in 1086, twenty years after the conquest. What was it for?",
       "options": [
         "A census of Norman nobles and their new titles",
@@ -74,11 +91,19 @@
         "at": "2026-09-03",
         "by": "tanner@tjs16media.com",
         "note": "carried over: had a cited source before IDs existed"
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-11",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0688",
       "category": "Sports",
+      "difficulty": null,
       "question": "Jesse Owens and Luz Long's friendship at the 1936 Berlin Olympics is a famous story. Which part of it is disputed?",
       "options": [
         "That Long took the silver medal behind Owens",
@@ -99,11 +124,19 @@
         "at": "2026-09-03",
         "by": "tanner@tjs16media.com",
         "note": "carried over: had a cited source before IDs existed"
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-11",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0689",
       "category": "Sports",
+      "difficulty": null,
       "question": "The 1904 St Louis Olympic marathon is considered the strangest ever run. What did the eventual winner receive mid-race?",
       "options": [
         "A bicycle escort over the final three miles",
@@ -124,11 +157,19 @@
         "at": "2026-09-03",
         "by": "tanner@tjs16media.com",
         "note": "carried over: had a cited source before IDs existed"
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-11",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0690",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "A much-repeated statistic says Top Gun (1986) caused a 500% jump in US Navy recruiting. What is wrong with it?",
       "options": [
         "It counted Air Force applicants alongside Navy ones",
@@ -149,11 +190,19 @@
         "at": "2026-09-03",
         "by": "tanner@tjs16media.com",
         "note": "carried over: had a cited source before IDs existed"
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-11",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0691",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Stevie Wonder renegotiated his Motown contract at twenty-one, which almost nobody managed. What did he win?",
       "options": [
         "A guaranteed number of singles released every year",
@@ -174,11 +223,19 @@
         "at": "2026-09-03",
         "by": "tanner@tjs16media.com",
         "note": "carried over: had a cited source before IDs existed"
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-11",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0692",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Michelangelo spent four years on the Sistine Chapel ceiling (1508-1512). What's the popular myth about how he painted it?",
       "options": [
         "He used a projector he invented to scale up the designs",
@@ -199,11 +256,19 @@
         "at": "2026-09-03",
         "by": "tanner@tjs16media.com",
         "note": "carried over: had a cited source before IDs existed"
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-11",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0693",
       "category": "Geography",
+      "difficulty": null,
       "question": "Antarctica counts as a desert even though it holds most of the planet's fresh water. What qualifies it?",
       "options": [
         "Its surface has no soil that could support plants",
@@ -224,11 +289,19 @@
         "at": "2026-09-03",
         "by": "tanner@tjs16media.com",
         "note": "carried over: had a cited source before IDs existed"
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-11",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0694",
       "category": "Science & Nature",
+      "difficulty": null,
       "question": "Table salt dissolves in water because it is held together by ionic bonds. What is an ion?",
       "options": [
         "An atom whose nucleus has started to decay",
@@ -246,11 +319,19 @@
         "by": null,
         "note": null
       },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-11",
+          "context": "daily"
+        }
+      ],
       "canonicalNote": "textbook chemistry, universally attested and cannot change"
     },
     {
       "id": "frq-0695",
       "category": "Geography",
+      "difficulty": null,
       "question": "About a third of Socotra's plant species exist nowhere else on Earth. What explains that?",
       "options": [
         "Medieval traders deliberately planted the species there",
@@ -269,11 +350,19 @@
         "at": "2026-09-03",
         "by": "tanner@tjs16media.com",
         "note": "carried over: had a cited source before IDs existed"
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-11",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0696",
       "category": "Science & Nature",
+      "difficulty": null,
       "question": "Diamond and graphite are both pure carbon, yet one is the hardest natural substance and the other flakes apart in your fingers. Why?",
       "options": [
         "The atoms are bonded in completely different arrangements",
@@ -291,6 +380,13 @@
         "by": null,
         "note": null
       },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-11",
+          "context": "daily"
+        }
+      ],
       "canonicalNote": "textbook chemistry, universally attested and cannot change"
     }
   ]

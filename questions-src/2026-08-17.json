@@ -4,6 +4,7 @@
     {
       "id": "frq-0757",
       "category": "Science & Nature",
+      "difficulty": null,
       "question": "Darwin's finches are the textbook example of natural selection. What is wrong with that story?",
       "options": [
         "Darwin never visited the islands where they live",
@@ -19,11 +20,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-17",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0758",
       "category": "History",
+      "difficulty": null,
       "question": "Soviet tanks crushed the Hungarian uprising in 1956. What had the West led Hungarians to expect?",
       "options": [
         "A United Nations resolution authorising intervention",
@@ -39,11 +48,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-17",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0759",
       "category": "Geography",
+      "difficulty": null,
       "question": "The Aegean Sea is dotted with thousands of islands. How did most of them form?",
       "options": [
         "Volcanic cones built up from the seafloor",
@@ -59,11 +76,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-17",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0760",
       "category": "History",
+      "difficulty": null,
       "question": "The US transcontinental railroad was completed in 1869. Who built the hardest western section?",
       "options": [
         "Chinese labourers, who were roughly 90% of that workforce",
@@ -79,11 +104,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-17",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0761",
       "category": "Sports",
+      "difficulty": null,
       "question": "Olympic swimming's shortest race is the 50m freestyle. What makes it tactically different from every other event?",
       "options": [
         "Swimmers may use any stroke, including underwater",
@@ -99,11 +132,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-17",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0762",
       "category": "Sports",
+      "difficulty": null,
       "question": "Weightlifting has had persistent problems with one particular issue. What forced the IOC to threaten its Olympic status?",
       "options": [
         "Equipment standards varied too much between competing nations",
@@ -119,11 +160,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-17",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0763",
       "category": "History",
+      "difficulty": null,
       "question": "Hagia Sophia in Istanbul has served three roles across 1,500 years. What is its sequence?",
       "options": [
         "Greek theatre, then imperial mint, then cathedral",
@@ -139,11 +188,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-17",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0764",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Titanic (1997) held the box office record for twelve years. What was unusual about how it earned that money?",
       "options": [
         "Ticket prices were raised specifically for it",
@@ -159,11 +216,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-17",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0765",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Dr. Dre's The Chronic (1992) defined West Coast hip-hop. What was the G-funk sound built from?",
       "options": [
         "Digitally generated tones with no sampling at all",
@@ -179,11 +244,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-17",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0766",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Downton Abbey (2010-2015) spans 1912 to 1926. What social transformation does its upstairs-downstairs structure dramatize?",
       "options": [
         "A focused history of British women's legal rights",
@@ -199,11 +272,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-17",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0767",
       "category": "Geography",
+      "difficulty": null,
       "question": "The Appalachians run down eastern North America and are far older than the Rockies. How old are they?",
       "options": [
         "Formed alongside the Rockies around 70 million years ago",
@@ -219,11 +300,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-17",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0768",
       "category": "Science & Nature",
+      "difficulty": null,
       "question": "Nothing escapes a black hole past the event horizon. What would an outside observer see someone falling in?",
       "options": [
         "They vanish instantly the moment they cross it",
@@ -239,7 +328,14 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-17",
+          "context": "daily"
+        }
+      ]
     }
   ]
 }

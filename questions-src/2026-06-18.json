@@ -4,6 +4,7 @@
     {
       "id": "frq-0037",
       "category": "History",
+      "difficulty": null,
       "question": "On what date did the RMS Titanic sink in 1912?",
       "options": [
         "April 15",
@@ -19,11 +20,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-18",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0038",
       "category": "History",
+      "difficulty": null,
       "question": "The assassination of which Archduke triggered the start of World War I?",
       "options": [
         "Archduke Franz Ferdinand",
@@ -39,11 +48,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-18",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0039",
       "category": "History",
+      "difficulty": null,
       "question": "At which battle was Napoleon Bonaparte finally defeated in 1815?",
       "options": [
         "Battle of Trafalgar",
@@ -59,11 +76,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-18",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0040",
       "category": "Sports",
+      "difficulty": null,
       "question": "Muhammad Ali was born with which name?",
       "options": [
         "Sonny Liston",
@@ -79,11 +104,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-18",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0041",
       "category": "Sports",
+      "difficulty": null,
       "question": "Joe DiMaggio set one of baseball's most unbreakable records in 1941. What did he accomplish, and how long has the record stood?",
       "options": [
         "Batted .406 for the season, the last player to hit .400 or above",
@@ -99,11 +132,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-18",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0042",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Which actor played the title role in The Godfather (1972)?",
       "options": [
         "Jack Nicholson",
@@ -119,11 +160,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-18",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0043",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Elvis Presley is commonly known by what royal nickname?",
       "options": [
         "The Prince of Soul",
@@ -139,11 +188,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-18",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0044",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Which band recorded 'Stairway to Heaven,' often cited as one of the greatest rock songs ever written?",
       "options": [
         "The Who",
@@ -159,11 +216,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-18",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0045",
       "category": "Geography",
+      "difficulty": null,
       "question": "The Bosphorus Strait, which divides Istanbul between two continents, connects the Black Sea to which body of water?",
       "options": [
         "Red Sea",
@@ -179,11 +244,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-18",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0046",
       "category": "Science & Nature",
+      "difficulty": null,
       "question": "What is the name of the Sun's outermost atmospheric layer, visible as a glowing halo during total solar eclipses — and paradoxically hotter than the Sun's surface?",
       "options": [
         "Chromosphere",
@@ -199,11 +272,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-18",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0047",
       "category": "Geography",
+      "difficulty": null,
       "question": "Easter Island, famous for its nearly 1,000 giant stone Moai statues, is a territory of which country?",
       "options": [
         "Chile",
@@ -219,11 +300,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-18",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0048",
       "category": "Science & Nature",
+      "difficulty": null,
       "question": "What is the name of the fatty sheath surrounding nerve fibers that speeds up electrical signal transmission?",
       "options": [
         "Dendrite coating",
@@ -239,7 +328,14 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-18",
+          "context": "daily"
+        }
+      ]
     }
   ]
 }

@@ -4,6 +4,7 @@
     {
       "id": "frq-0589",
       "category": "History",
+      "difficulty": null,
       "question": "The Battle of Stalingrad (1942-43), considered the turning point of World War II on the Eastern Front, was fought between Nazi Germany and which country?",
       "options": [
         "Soviet Union",
@@ -19,11 +20,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-03",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0590",
       "category": "History",
+      "difficulty": null,
       "question": "Vasco da Gama became the first European to reach India by sea, opening a direct trade route and bypassing the Ottoman-controlled Silk Road. From which country did he sail in 1497?",
       "options": [
         "Netherlands",
@@ -39,11 +48,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-03",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0591",
       "category": "History",
+      "difficulty": null,
       "question": "Which ancient Greek mathematician formulated the theorem that the square of the hypotenuse of a right triangle equals the sum of the squares of the other two sides (a² + b² = c²)?",
       "options": [
         "Thales",
@@ -59,11 +76,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-03",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0592",
       "category": "Sports",
+      "difficulty": null,
       "question": "The Kentucky Derby, the first leg of horse racing's Triple Crown, is run at which distance?",
       "options": [
         "Two miles",
@@ -79,11 +104,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-03",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0593",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "The Bauhaus school operated in Germany from 1919 until the Nazis shut it down in 1933. What was its founding principle?",
       "options": [
         "Preserve traditional handcraft against industrial machinery",
@@ -99,11 +132,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-03",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0594",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Which 1972 Francis Ford Coppola film won the Academy Award for Best Picture and is widely considered one of the greatest films ever made?",
       "options": [
         "Chinatown",
@@ -119,11 +160,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-03",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0595",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Which artist is known as the 'Queen of Pop'?",
       "options": [
         "Beyonce",
@@ -139,11 +188,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-03",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0596",
       "category": "Sports",
+      "difficulty": null,
       "question": "Muhammad Ali's 'Rumble in the Jungle' (1974) against George Foreman in Kinshasa, Zaire is considered one of boxing's greatest upsets. What tactic did Ali use to defeat the heavily favored Foreman?",
       "options": [
         "Ali employed the 'rope-a-dope' — leaning against the ropes and covering up, letting Foreman punch himself to exhaustion, then attacking in round 8 when Foreman was too tired to defend",
@@ -159,11 +216,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-03",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0597",
       "category": "Geography",
+      "difficulty": null,
       "question": "The Tropic of Cancer and the Tropic of Capricorn mark the northern and southern limits of what?",
       "options": [
         "The temperate zones",
@@ -179,11 +244,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-03",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0598",
       "category": "Science & Nature",
+      "difficulty": null,
       "question": "What is the name of the force that keeps electrons orbiting the nucleus of an atom?",
       "options": [
         "Weak nuclear force",
@@ -199,11 +272,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-03",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0599",
       "category": "Geography",
+      "difficulty": null,
       "question": "The Namib Desert, running along the Atlantic coast of Namibia, is considered the world's oldest desert. Approximately how long has it been a desert?",
       "options": [
         "5 million years",
@@ -219,11 +300,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-03",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0600",
       "category": "Science & Nature",
+      "difficulty": null,
       "question": "What is the reproductive process by which flowers receive pollen from the same or another plant, allowing fertilization to occur?",
       "options": [
         "Germination",
@@ -239,7 +328,14 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-03",
+          "context": "daily"
+        }
+      ]
     }
   ]
 }

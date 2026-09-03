@@ -3,6 +3,7 @@
     {
       "id": "frq-0205",
       "category": "History",
+      "difficulty": null,
       "question": "Which country was the first to use paper money?",
       "options": [
         "India",
@@ -18,11 +19,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-02",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0206",
       "category": "History",
+      "difficulty": null,
       "question": "The Cuban Missile Crisis occurred during the presidency of which U.S. leader?",
       "options": [
         "Eisenhower",
@@ -38,11 +47,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-02",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0207",
       "category": "Sports",
+      "difficulty": null,
       "question": "What sport uses a 'puck'?",
       "options": [
         "Ice hockey",
@@ -58,11 +75,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-02",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0208",
       "category": "Sports",
+      "difficulty": null,
       "question": "How many points is a touchdown worth in American football?",
       "options": [
         "6",
@@ -78,11 +103,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-02",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0209",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Which 1994 Disney film features the song 'Circle of Life'?",
       "options": [
         "Aladdin",
@@ -98,11 +131,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-02",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0210",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Mad Men (AMC, 2007–2015) is praised for its precise historical reconstruction of 1960s America and its morally complex protagonist. What does Don Draper's character arc examine?",
       "options": [
         "How the civil rights movement and women's liberation transformed the US advertising industry from within during the 1960s",
@@ -118,11 +159,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-02",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0211",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Which artist is known as the 'King of Pop'?",
       "options": [
         "Michael Jackson",
@@ -138,11 +187,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-02",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0212",
       "category": "History",
+      "difficulty": null,
       "question": "The fall of Constantinople in 1453 ended which empire?",
       "options": [
         "Byzantine Empire",
@@ -158,11 +215,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-02",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0213",
       "category": "Geography",
+      "difficulty": null,
       "question": "Which is the world's longest mountain range?",
       "options": [
         "Andes",
@@ -178,11 +243,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-02",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0214",
       "category": "Science & Nature",
+      "difficulty": null,
       "question": "How long does light from the Sun take to reach Earth?",
       "options": [
         "About 8 days",
@@ -198,11 +271,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-02",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0215",
       "category": "Geography",
+      "difficulty": null,
       "question": "Tierra del Fuego, the island at the southernmost tip of South America, is divided between Argentina and which other country?",
       "options": [
         "Bolivia",
@@ -218,11 +299,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-02",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0216",
       "category": "Science & Nature",
+      "difficulty": null,
       "question": "What is the time it takes for half of a radioactive substance to decay called?",
       "options": [
         "Half-life",
@@ -238,7 +327,14 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-02",
+          "context": "daily"
+        }
+      ]
     }
   ]
 }

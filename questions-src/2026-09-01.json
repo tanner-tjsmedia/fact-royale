@@ -4,6 +4,7 @@
     {
       "id": "frq-0937",
       "category": "History",
+      "difficulty": null,
       "question": "Germany hosted the Berlin Conference that carved up Africa. What did it gain?",
       "options": [
         "Nothing; Bismarck declined any territory at all",
@@ -19,11 +20,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-09-01",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0938",
       "category": "Science & Nature",
+      "difficulty": null,
       "question": "A catalyst speeds a reaction without being consumed. What is the catalytic converter in a car doing?",
       "options": [
         "Burning unused fuel to squeeze out more power",
@@ -39,11 +48,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-09-01",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0939",
       "category": "Sports",
+      "difficulty": null,
       "question": "Usain Bolt ran 9.58 in Berlin in 2009. What is unusual about how he did it?",
       "options": [
         "He had the fastest reaction time off the blocks that night",
@@ -59,11 +76,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-09-01",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0940",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Prince's Purple Rain was a film and an album at once. What did Prince do that was almost unheard of?",
       "options": [
         "Refused to appear on screen anywhere in his own feature film",
@@ -79,11 +104,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-09-01",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0941",
       "category": "Geography",
+      "difficulty": null,
       "question": "A ship takes 8 to 10 hours to transit the Panama Canal. What consumes most of that time?",
       "options": [
         "Locks raising and lowering ships 26 metres each way",
@@ -99,11 +132,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-09-01",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0942",
       "category": "History",
+      "difficulty": null,
       "question": "William won at Hastings in 1066. How is the battle recorded in unusual detail?",
       "options": [
         "A verse account written by a survivor on both sides",
@@ -119,11 +160,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-09-01",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0943",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "The Weeknd built an audience before anyone knew who he was. How?",
       "options": [
         "Releasing music only on physical cassette within Canada",
@@ -139,11 +188,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-09-01",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0944",
       "category": "Science & Nature",
+      "difficulty": null,
       "question": "In an autoimmune disorder the immune system attacks the body itself. Why is that hard to treat?",
       "options": [
         "Each patient's immune system rejects the standard medication",
@@ -159,11 +216,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-09-01",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0945",
       "category": "Geography",
+      "difficulty": null,
       "question": "Lesotho is entirely surrounded by South Africa. What else is unusual about it?",
       "options": [
         "It has no permanent rivers or natural water sources",
@@ -179,11 +244,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-09-01",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0946",
       "category": "History",
+      "difficulty": null,
       "question": "Suleiman ruled the Ottoman Empire at its height. What were the two names he is known by?",
       "options": [
         "The Magnificent in Europe, the Lawgiver at home",
@@ -199,11 +272,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-09-01",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0947",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Eminem became one of the best-selling artists ever. What did Dr. Dre have to overcome to sign him?",
       "options": [
         "A legal injunction filed by Eminem's own mother",
@@ -219,11 +300,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-09-01",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0948",
       "category": "Sports",
+      "difficulty": null,
       "question": "A football referee decides when the match ends, not the clock. What is stoppage time meant to cover?",
       "options": [
         "Only the time the ball spent outside the field of play",
@@ -239,7 +328,14 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-09-01",
+          "context": "daily"
+        }
+      ]
     }
   ]
 }

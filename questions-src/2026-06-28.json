@@ -3,6 +3,7 @@
     {
       "id": "frq-0157",
       "category": "History",
+      "difficulty": null,
       "question": "Which explorer is credited with the first circumnavigation of the globe?",
       "options": [
         "Christopher Columbus",
@@ -18,11 +19,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-28",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0158",
       "category": "History",
+      "difficulty": null,
       "question": "What ancient civilization built Machu Picchu?",
       "options": [
         "Olmec",
@@ -38,11 +47,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-28",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0159",
       "category": "Sports",
+      "difficulty": null,
       "question": "How many players are on a standard volleyball team on the court?",
       "options": [
         "8",
@@ -58,11 +75,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-28",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0160",
       "category": "Sports",
+      "difficulty": null,
       "question": "What is the maximum score in a single game of ten-pin bowling?",
       "options": [
         "270",
@@ -78,11 +103,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-28",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0161",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Who sang 'Respect', which became an anthem of the civil rights movement?",
       "options": [
         "Diana Ross",
@@ -98,11 +131,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-28",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0162",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Which film franchise features a character named 'Jack Sparrow'?",
       "options": [
         "Treasure Island",
@@ -118,11 +159,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-28",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0163",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "What decade did rock and roll emerge as a mainstream genre?",
       "options": [
         "1940s",
@@ -138,11 +187,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-28",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0164",
       "category": "History",
+      "difficulty": null,
       "question": "Which U.S. President signed the Emancipation Proclamation?",
       "options": [
         "Abraham Lincoln",
@@ -158,11 +215,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-28",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0165",
       "category": "Geography",
+      "difficulty": null,
       "question": "Mount Everest sits on the border of which two countries?",
       "options": [
         "Nepal and China",
@@ -178,11 +243,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-28",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0166",
       "category": "Science & Nature",
+      "difficulty": null,
       "question": "Which gas makes up approximately 78% of Earth's atmosphere?",
       "options": [
         "Carbon dioxide",
@@ -198,11 +271,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-28",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0167",
       "category": "Geography",
+      "difficulty": null,
       "question": "Sri Lanka, the island nation at the southern tip of India, was known as what name under British colonial rule?",
       "options": [
         "Siam",
@@ -218,11 +299,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-28",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0168",
       "category": "Science & Nature",
+      "difficulty": null,
       "question": "Saturn's rings are among the solar system's most spectacular features — but they are also surprisingly young and disappearing. What do scientists now understand about them?",
       "options": [
         "Saturn's rings formed with the planet 4.6 billion years ago and are gradually expanding outward — they will eventually escape Saturn's gravity and become a separate moon in about 500 million years",
@@ -238,7 +327,14 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-28",
+          "context": "daily"
+        }
+      ]
     }
   ]
 }

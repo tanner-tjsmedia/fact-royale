@@ -4,6 +4,7 @@
     {
       "id": "frq-0553",
       "category": "History",
+      "difficulty": null,
       "question": "The Titanic sank in which year?",
       "options": [
         "1915",
@@ -19,11 +20,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-31",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0554",
       "category": "Science & Nature",
+      "difficulty": null,
       "question": "Which physicist formulated the theory of special relativity in 1905 and derived the famous equation E=mc², showing mass and energy are interchangeable?",
       "options": [
         "Ernest Rutherford",
@@ -39,11 +48,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-31",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0555",
       "category": "History",
+      "difficulty": null,
       "question": "The atomic bombs dropped on Japan in August 1945 ended World War II. On which two cities were they dropped?",
       "options": [
         "Tokyo and Osaka",
@@ -59,11 +76,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-31",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0556",
       "category": "History",
+      "difficulty": null,
       "question": "The construction of the Great Wall of China was started during which dynasty to protect against northern invaders?",
       "options": [
         "Ming Dynasty",
@@ -79,11 +104,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-31",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0557",
       "category": "Sports",
+      "difficulty": null,
       "question": "Which swimmer holds the record for the most Olympic medals of all time?",
       "options": [
         "Ian Thorpe",
@@ -99,11 +132,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-31",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0558",
       "category": "Sports",
+      "difficulty": null,
       "question": "Simone Biles's withdrawal from multiple events at the 2020 Tokyo Olympics (held 2021) to protect her mental health sparked global conversation. What competitive context makes her overall career so historically significant?",
       "options": [
         "Biles is the most decorated US gymnast ever, with 37 Olympic and World Championship medals, and has performed skills at difficulty levels intentionally rated lower by governing bodies to discourage others from attempting them",
@@ -119,11 +160,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-31",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0559",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Aretha Franklin's recording of 'Respect' (1967) transformed an Otis Redding song into an anthem for civil rights and women's liberation. What did she change, and why did it resonate so much more than the original?",
       "options": [
         "Franklin added the iconic spelling 'R-E-S-P-E-C-T' and the 'TCB' bridge (the 'sock it to me' section) — transforming what Redding intended as a straightforward love song into a defiant assertion of female authority",
@@ -139,11 +188,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-31",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0560",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Which 1977 George Lucas film launched one of the most successful film franchises in history?",
       "options": [
         "Star Wars",
@@ -159,11 +216,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-31",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0561",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Which musician is known as the 'King of Rock and Roll'?",
       "options": [
         "Jerry Lee Lewis",
@@ -179,11 +244,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-31",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0562",
       "category": "Geography",
+      "difficulty": null,
       "question": "The Rhine River flows through Germany and empties into which sea?",
       "options": [
         "Mediterranean Sea",
@@ -199,11 +272,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-31",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0563",
       "category": "Science & Nature",
+      "difficulty": null,
       "question": "The Oort Cloud is a theoretical region surrounding the solar system that astronomers believe is the source of long-period comets. Why is it 'theoretical'?",
       "options": [
         "The Oort Cloud was directly photographed by the Hubble Space Telescope in 1997, but its distance makes it impossible to study individual objects, so its composition remains theoretical",
@@ -219,11 +300,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-31",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0564",
       "category": "Geography",
+      "difficulty": null,
       "question": "The Indus River, which gave India its name, flows primarily through which modern-day country before reaching the Arabian Sea?",
       "options": [
         "India",
@@ -239,7 +328,14 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-31",
+          "context": "daily"
+        }
+      ]
     }
   ]
 }

@@ -3,6 +3,7 @@
     {
       "id": "frq-0469",
       "category": "History",
+      "difficulty": null,
       "question": "Which country invented gunpowder?",
       "options": [
         "China",
@@ -18,11 +19,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-24",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0470",
       "category": "History",
+      "difficulty": null,
       "question": "Who was the South African president who served time in prison before becoming a symbol of freedom?",
       "options": [
         "Nelson Mandela",
@@ -38,11 +47,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-24",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0471",
       "category": "Sports",
+      "difficulty": null,
       "question": "In which city were the first modern Olympic Games held?",
       "options": [
         "Stockholm",
@@ -58,11 +75,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-24",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0472",
       "category": "Sports",
+      "difficulty": null,
       "question": "How long is a standard NBA game in minutes (regulation)?",
       "options": [
         "36 minutes",
@@ -78,11 +103,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-24",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0473",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Who sang 'Shape of You' and 'Bad Habits'?",
       "options": [
         "Ed Sheeran",
@@ -98,11 +131,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-24",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0474",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Beethoven's 9th Symphony (1824), composed when he was almost completely deaf, is considered one of music's supreme achievements. What makes its premiere extraordinary?",
       "options": [
         "Beethoven had to be turned to face the audience at the premiere because he was conducting from memory — facing the orchestra — and couldn't hear the applause that began before the symphony even finished",
@@ -118,11 +159,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-24",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0475",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Which album is considered the best-selling of all time?",
       "options": [
         "Back in Black by AC/DC",
@@ -138,11 +187,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-24",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0476",
       "category": "History",
+      "difficulty": null,
       "question": "Which French emperor was exiled to the island of St. Helena?",
       "options": [
         "Napoléon Bonaparte",
@@ -158,11 +215,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-24",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0477",
       "category": "Geography",
+      "difficulty": null,
       "question": "Which European country has the most UNESCO World Heritage Sites?",
       "options": [
         "Spain",
@@ -178,11 +243,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-24",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0478",
       "category": "Science & Nature",
+      "difficulty": null,
       "question": "In 2017, astronomers detected both gravitational waves and light from the same event for the first time — a neutron star merger. Why was this discovery transformative?",
       "options": [
         "It revealed that neutron star mergers are far more common than predicted — occurring once per year in the Milky Way — suggesting heavy elements are much more abundant in the universe than previous models indicated",
@@ -198,11 +271,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-24",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0479",
       "category": "Geography",
+      "difficulty": null,
       "question": "Bhutan, the Himalayan kingdom nestled between India and China, measures national wellbeing using a unique metric it pioneered. What is it?",
       "options": [
         "Gross National Happiness",
@@ -218,11 +299,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-24",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0480",
       "category": "Science & Nature",
+      "difficulty": null,
       "question": "Gregor Mendel's pea plant experiments revealed that some traits are 'dominant' and some 'recessive.' What does it mean for a trait to be recessive?",
       "options": [
         "It appears in every generation",
@@ -238,7 +327,14 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-24",
+          "context": "daily"
+        }
+      ]
     }
   ]
 }

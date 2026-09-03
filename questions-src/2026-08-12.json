@@ -4,6 +4,7 @@
     {
       "id": "frq-0697",
       "category": "History",
+      "difficulty": null,
       "question": "By 1914 the Scramble for Africa had left almost the entire continent under European control. Two states stayed independent. How did Ethiopia manage it?",
       "options": [
         "Its highlands were considered too poor to be worth taking",
@@ -23,11 +24,19 @@
         "at": "2026-09-03",
         "by": "tanner@tjs16media.com",
         "note": "carried over: had a cited source before IDs existed"
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-12",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0698",
       "category": "History",
+      "difficulty": null,
       "question": "Yuri Gagarin orbited Earth in April 1961, beating the United States into space. What did he not do on that flight?",
       "options": [
         "Communicate with ground control at any point",
@@ -48,11 +57,19 @@
         "at": "2026-09-03",
         "by": "tanner@tjs16media.com",
         "note": "carried over: had a cited source before IDs existed"
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-12",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0699",
       "category": "History",
+      "difficulty": null,
       "question": "The Hundred Years War finally ended in 1453, the same year as another major historical event. What was it?",
       "options": [
         "Gutenberg's printing press",
@@ -70,11 +87,19 @@
         "by": null,
         "note": null
       },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-12",
+          "context": "daily"
+        }
+      ],
       "canonicalNote": "both 1453 dates are fixed and universally attested"
     },
     {
       "id": "frq-0700",
       "category": "Sports",
+      "difficulty": null,
       "question": "Figure skating jumps are scored partly by difficulty. What separates the toe jumps from the edge jumps?",
       "options": [
         "Toe jumps launch by stabbing the free skate's pick in",
@@ -92,11 +117,19 @@
         "by": null,
         "note": null
       },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-12",
+          "context": "daily"
+        }
+      ],
       "canonicalNote": "ISU jump taxonomy is a published rulebook definition"
     },
     {
       "id": "frq-0701",
       "category": "Geography",
+      "difficulty": null,
       "question": "Kilimanjaro rises 5,895m from the plains of northern Tanzania. What is unusual about climbing it?",
       "options": [
         "The summit can only be reached during two months a year",
@@ -116,11 +149,19 @@
         "at": "2026-09-03",
         "by": "tanner@tjs16media.com",
         "note": "carried over: had a cited source before IDs existed"
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-12",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0702",
       "category": "Sports",
+      "difficulty": null,
       "question": "A bowling frame can score more than the ten pins standing. How is that possible?",
       "options": [
         "A strike adds the next two balls to that frame's score",
@@ -138,11 +179,19 @@
         "by": null,
         "note": null
       },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-12",
+          "context": "daily"
+        }
+      ],
       "canonicalNote": "bowling scoring is a published rulebook, not a contestable claim"
     },
     {
       "id": "frq-0703",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "James Brown was billed as the hardest working man in show business. What did his band say made the job so demanding?",
       "options": [
         "He changed the setlist only minutes before curtain",
@@ -163,11 +212,19 @@
         "at": "2026-09-03",
         "by": "tanner@tjs16media.com",
         "note": "carried over: had a cited source before IDs existed"
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-12",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0704",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Guardians of the Galaxy (2014) was Marvel's riskiest film to that point. Why did the studio consider it a gamble?",
       "options": [
         "Almost nobody had heard of the comic it came from",
@@ -188,11 +245,19 @@
         "at": "2026-09-03",
         "by": "tanner@tjs16media.com",
         "note": "carried over: had a cited source before IDs existed"
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-12",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0705",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Bohemian Rhapsody, the song, broke the rules of what radio would play in 1975. What made it so unlikely?",
       "options": [
         "It was released with no vocals on the first pressing",
@@ -213,11 +278,19 @@
         "at": "2026-09-03",
         "by": "tanner@tjs16media.com",
         "note": "carried over: had a cited source before IDs existed"
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-12",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0706",
       "category": "Geography",
+      "difficulty": null,
       "question": "The Sahara has not always been desert. What was it like around 6,000 years ago?",
       "options": [
         "Shallow sea, part of a Mediterranean that reached further south",
@@ -238,11 +311,19 @@
         "at": "2026-09-03",
         "by": "tanner@tjs16media.com",
         "note": "carried over: had a cited source before IDs existed"
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-12",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0707",
       "category": "Science & Nature",
+      "difficulty": null,
       "question": "A catalyst speeds up a chemical reaction without being consumed. How does it manage that?",
       "options": [
         "It raises the temperature of the surrounding mixture",
@@ -260,11 +341,19 @@
         "by": null,
         "note": null
       },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-12",
+          "context": "daily"
+        }
+      ],
       "canonicalNote": "textbook chemistry; the volatile-phrase match is on \"far more collisions\", not a record claim"
     },
     {
       "id": "frq-0708",
       "category": "Science & Nature",
+      "difficulty": null,
       "question": "Enzymes speed up reactions in the body, but stop working if things get too hot. Why does heat break them?",
       "options": [
         "It strips their electrons, leaving them charged",
@@ -282,6 +371,13 @@
         "by": null,
         "note": null
       },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-12",
+          "context": "daily"
+        }
+      ],
       "canonicalNote": "textbook biochemistry, universally attested"
     }
   ]

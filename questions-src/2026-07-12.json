@@ -3,6 +3,7 @@
     {
       "id": "frq-0325",
       "category": "History",
+      "difficulty": null,
       "question": "In which year did the French Revolution begin?",
       "options": [
         "1804",
@@ -18,11 +19,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-12",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0326",
       "category": "History",
+      "difficulty": null,
       "question": "Which document established the framework for U.S. federal government?",
       "options": [
         "The Declaration of Independence",
@@ -38,11 +47,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-12",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0327",
       "category": "Sports",
+      "difficulty": null,
       "question": "Who holds the record for the most home runs in MLB history?",
       "options": [
         "Barry Bonds",
@@ -58,11 +75,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-12",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0328",
       "category": "Sports",
+      "difficulty": null,
       "question": "What is the official weight of a regulation NFL football?",
       "options": [
         "12–14 ounces",
@@ -78,11 +103,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-12",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0329",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "'Don't Stop Me Now' is a classic track by which band?",
       "options": [
         "ABBA",
@@ -98,11 +131,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-12",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0330",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Which director made 'Get Out' and 'Us'?",
       "options": [
         "Ava DuVernay",
@@ -118,11 +159,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-12",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0331",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Which singer is known by the stage name 'Lady Gaga'?",
       "options": [
         "Stefani Germanotta",
@@ -138,11 +187,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-12",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0332",
       "category": "History",
+      "difficulty": null,
       "question": "What was the name of the first nuclear bomb dropped on Japan in World War II?",
       "options": [
         "Fat Man",
@@ -158,11 +215,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-12",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0333",
       "category": "Geography",
+      "difficulty": null,
       "question": "Which South American country is the largest by land area?",
       "options": [
         "Peru",
@@ -178,11 +243,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-12",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0334",
       "category": "Science & Nature",
+      "difficulty": null,
       "question": "The ozone layer that protects Earth from ultraviolet radiation is found in which layer of the atmosphere?",
       "options": [
         "Stratosphere",
@@ -198,11 +271,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-12",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0335",
       "category": "Geography",
+      "difficulty": null,
       "question": "The Yellow River (Huang He) in China is known by what nickname because of its frequent devastating floods throughout history?",
       "options": [
         "The Yellow Dragon",
@@ -218,11 +299,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-12",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0336",
       "category": "Science & Nature",
+      "difficulty": null,
       "question": "What is the term for medicines that kill or inhibit the growth of bacteria — famously discovered when Alexander Fleming noticed a mold killing bacteria in 1928?",
       "options": [
         "Antivirals",
@@ -238,7 +327,14 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-12",
+          "context": "daily"
+        }
+      ]
     }
   ]
 }

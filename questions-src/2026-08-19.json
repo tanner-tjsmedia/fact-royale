@@ -4,6 +4,7 @@
     {
       "id": "frq-0781",
       "category": "History",
+      "difficulty": null,
       "question": "Who invented the telephone, receiving the first patent in 1876?",
       "options": [
         "Nikola Tesla",
@@ -19,11 +20,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-19",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0782",
       "category": "History",
+      "difficulty": null,
       "question": "Augustus became Rome's first emperor while insisting he had restored the Republic. How did he manage that?",
       "options": [
         "He ruled through a puppet consul who signed everything",
@@ -39,11 +48,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-19",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0783",
       "category": "History",
+      "difficulty": null,
       "question": "Srebrenica in 1995 was the worst atrocity in Europe since 1945. What made it possible?",
       "options": [
         "It was a UN safe area, guarded by lightly armed peacekeepers",
@@ -59,11 +76,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-19",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0784",
       "category": "Sports",
+      "difficulty": null,
       "question": "Ice hockey plays five skaters plus a goalie. What is the most common way a team ends up with four?",
       "options": [
         "An automatic reduction in the final two minutes",
@@ -79,11 +104,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-19",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0785",
       "category": "Sports",
+      "difficulty": null,
       "question": "Arthur Ashe won Wimbledon in 1975 and later became known for something beyond tennis. What?",
       "options": [
         "Coaching the US Davis Cup team to five straight titles",
@@ -99,11 +132,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-19",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0786",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Eric Clapton wrote Layla in 1970 about a specific person. Who was she?",
       "options": [
         "A woman from a Persian poem he never actually met",
@@ -119,11 +160,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-19",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0787",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Platoon (1986) was written by a director who had been in Vietnam himself. What set it apart from earlier war films?",
       "options": [
         "It used no professional actors in any of the speaking roles",
@@ -139,11 +188,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-19",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0788",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Michael Jackson's Thriller video ran nearly fourteen minutes in 1983. Why did he nearly destroy the master?",
       "options": [
         "He disliked the makeup and thought it looked unconvincing",
@@ -159,11 +216,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-19",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0789",
       "category": "Geography",
+      "difficulty": null,
       "question": "Victoria Falls sits on the Zambia-Zimbabwe border. What does its local name mean?",
       "options": [
         "The gate of the great river",
@@ -179,11 +244,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-19",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0790",
       "category": "Science & Nature",
+      "difficulty": null,
       "question": "Mendel worked out the rules of inheritance in the 1860s, but nobody noticed for 35 years. Why not?",
       "options": [
         "He deliberately withheld the work until after his death",
@@ -199,11 +272,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-19",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0791",
       "category": "Geography",
+      "difficulty": null,
       "question": "The Everglades is often called a swamp, which is wrong. What is it actually?",
       "options": [
         "A river 100km wide, flowing a few centimetres per minute",
@@ -219,11 +300,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-19",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0792",
       "category": "Science & Nature",
+      "difficulty": null,
       "question": "DNA holds the instructions but does not build proteins itself. What does RNA do about that?",
       "options": [
         "Copies the gene and carries it out to the ribosome",
@@ -239,7 +328,14 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-19",
+          "context": "daily"
+        }
+      ]
     }
   ]
 }

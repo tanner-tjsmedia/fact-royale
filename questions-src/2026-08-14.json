@@ -4,6 +4,7 @@
     {
       "id": "frq-0721",
       "category": "History",
+      "difficulty": null,
       "question": "Alexander the Great was tutored as a boy by Aristotle. What did he carry with him on campaign as a result?",
       "options": [
         "A written constitution for every city he founded",
@@ -23,11 +24,19 @@
         "at": "2026-09-03",
         "by": "tanner@tjs16media.com",
         "note": "carried over: had a cited source before IDs existed"
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-14",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0722",
       "category": "History",
+      "difficulty": null,
       "question": "Marathon, Thermopylae and Salamis were fought between Greek city-states and Persia. Why did the Greeks keep winning?",
       "options": [
         "Heavy infantry and narrow ground negated Persian numbers",
@@ -47,11 +56,19 @@
         "at": "2026-09-03",
         "by": "tanner@tjs16media.com",
         "note": "carried over: had a cited source before IDs existed"
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-14",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0723",
       "category": "History",
+      "difficulty": null,
       "question": "The United States dropped atomic bombs on Hiroshima and Nagasaki in August 1945. Why were those two cities chosen?",
       "options": [
         "They held the last remaining Japanese military garrisons",
@@ -72,11 +89,19 @@
         "at": "2026-09-03",
         "by": "tanner@tjs16media.com",
         "note": "carried over: had a cited source before IDs existed"
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-14",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0724",
       "category": "Sports",
+      "difficulty": null,
       "question": "Polo is played on the largest field in organised sport. What must riders do between chukkas?",
       "options": [
         "Switch mallets to the opposite hand each period",
@@ -94,11 +119,19 @@
         "by": null,
         "note": null
       },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-14",
+          "context": "daily"
+        }
+      ],
       "canonicalNote": "polo rulebook: chukka length, field dimensions and pony changes are published rules"
     },
     {
       "id": "frq-0725",
       "category": "Sports",
+      "difficulty": null,
       "question": "Michael Phelps won eight golds at Beijing in 2008. How close was the narrowest of them?",
       "options": [
         "One hundredth of a second, in the 100m butterfly",
@@ -119,11 +152,19 @@
         "at": "2026-09-03",
         "by": "tanner@tjs16media.com",
         "note": "carried over: had a cited source before IDs existed"
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-14",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0726",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Kanye West spent years as a producer before anyone would let him rap. Why did labels resist?",
       "options": [
         "He refused to perform anywhere outside Chicago",
@@ -144,11 +185,19 @@
         "at": "2026-09-03",
         "by": "tanner@tjs16media.com",
         "note": "carried over: had a cited source before IDs existed"
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-14",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0727",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "La La Land was announced as the 2017 Best Picture winner, then wasn't. What went wrong?",
       "options": [
         "The Academy recounted the ballots after the ceremony",
@@ -169,11 +218,19 @@
         "at": "2026-09-03",
         "by": "tanner@tjs16media.com",
         "note": "carried over: had a cited source before IDs existed"
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-14",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0728",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Kendrick Lamar's good kid, m.A.A.d city is subtitled a short film. Why?",
       "options": [
         "Each song was released with its own music video",
@@ -193,11 +250,19 @@
         "at": "2026-09-03",
         "by": "tanner@tjs16media.com",
         "note": "carried over: had a cited source before IDs existed"
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-14",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0729",
       "category": "Geography",
+      "difficulty": null,
       "question": "Which two continents are separated by the Ural Mountains and Ural River?",
       "options": [
         "Africa and Asia",
@@ -215,11 +280,19 @@
         "by": null,
         "note": null
       },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-14",
+          "context": "daily"
+        }
+      ],
       "canonicalNote": "the Urals as the Europe-Asia boundary is a standard atlas convention"
     },
     {
       "id": "frq-0730",
       "category": "Science & Nature",
+      "difficulty": null,
       "question": "Nuclear fission releases energy by splitting heavy atoms. What keeps a reactor from running away?",
       "options": [
         "A hard limit on how much fuel can be loaded at once",
@@ -237,11 +310,19 @@
         "by": null,
         "note": null
       },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-14",
+          "context": "daily"
+        }
+      ],
       "canonicalNote": "reactor physics is textbook; the Chernobyl graphite-tipped rod detail is in every official account"
     },
     {
       "id": "frq-0731",
       "category": "Geography",
+      "difficulty": null,
       "question": "The Canary Islands lie off the Moroccan coast but belong to Spain. Where does the name come from?",
       "options": [
         "A Spanish admiral named Canario who claimed them",
@@ -262,11 +343,19 @@
         "at": "2026-09-03",
         "by": "tanner@tjs16media.com",
         "note": "carried over: had a cited source before IDs existed"
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-14",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0732",
       "category": "Science & Nature",
+      "difficulty": null,
       "question": "A car turning a corner needs a force pulling it toward the centre of the curve. What actually supplies it?",
       "options": [
         "Friction between the tyres and the road surface",
@@ -284,6 +373,13 @@
         "by": null,
         "note": null
       },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-14",
+          "context": "daily"
+        }
+      ],
       "canonicalNote": "textbook mechanics, universally attested"
     }
   ]

@@ -3,6 +3,7 @@
     {
       "id": "frq-0277",
       "category": "History",
+      "difficulty": null,
       "question": "What was the name of the ship on which the Pilgrims sailed to America in 1620?",
       "options": [
         "The Endeavour",
@@ -18,11 +19,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-08",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0278",
       "category": "History",
+      "difficulty": null,
       "question": "Which country was the first to give women the right to vote in a national election in Europe?",
       "options": [
         "Finland",
@@ -38,11 +47,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-08",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0279",
       "category": "Sports",
+      "difficulty": null,
       "question": "What is the name of the award given to the best player in the NHL each season?",
       "options": [
         "The Hart Trophy",
@@ -58,11 +75,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-08",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0280",
       "category": "Sports",
+      "difficulty": null,
       "question": "How many events are in a decathlon?",
       "options": [
         "12",
@@ -78,11 +103,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-08",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0281",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Which film series features a character who says 'May the Force be with you'?",
       "options": [
         "Star Trek",
@@ -98,11 +131,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-08",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0282",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Which artist released the albums 'Lemonade' and 'Renaissance'?",
       "options": [
         "Rihanna",
@@ -118,11 +159,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-08",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0283",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Which director made 'E.T. the Extra-Terrestrial' and 'Jaws'?",
       "options": [
         "James Cameron",
@@ -138,11 +187,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-08",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0284",
       "category": "History",
+      "difficulty": null,
       "question": "The 'Trojan War' was fought over which city?",
       "options": [
         "Sparta",
@@ -158,11 +215,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-08",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0285",
       "category": "Geography",
+      "difficulty": null,
       "question": "Angel Falls, the world's highest uninterrupted waterfall, is located in which country?",
       "options": [
         "Colombia",
@@ -178,11 +243,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-08",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0286",
       "category": "Science & Nature",
+      "difficulty": null,
       "question": "The Cosmic Microwave Background (CMB) radiation, discovered accidentally in 1965, is considered the strongest evidence for the Big Bang. What is it?",
       "options": [
         "The CMB is heat from the interior of the Milky Way's central black hole that radiates outward in all directions, forming a uniform temperature background across the sky",
@@ -198,11 +271,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-08",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0287",
       "category": "Geography",
+      "difficulty": null,
       "question": "The Baltic Sea is one of the world's largest bodies of brackish water (a mix of salt and fresh water). Which of these countries does NOT border the Baltic Sea?",
       "options": [
         "Finland",
@@ -218,11 +299,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-08",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0288",
       "category": "Science & Nature",
+      "difficulty": null,
       "question": "What branch of medicine specializes in the diagnosis and treatment of diseases of the brain and nervous system?",
       "options": [
         "Neurology",
@@ -238,7 +327,14 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-08",
+          "context": "daily"
+        }
+      ]
     }
   ]
 }

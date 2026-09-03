@@ -3,6 +3,7 @@
     {
       "id": "frq-0169",
       "category": "History",
+      "difficulty": null,
       "question": "Which empire built the Colosseum in Rome?",
       "options": [
         "Greek Empire",
@@ -18,11 +19,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-29",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0170",
       "category": "History",
+      "difficulty": null,
       "question": "What was the name of the first artificial satellite launched into orbit?",
       "options": [
         "Luna 1",
@@ -38,11 +47,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-29",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0171",
       "category": "Sports",
+      "difficulty": null,
       "question": "The 1930 FIFA World Cup was the first ever held. Which country won, and why was the tournament historically unique?",
       "options": [
         "Italy won; the tournament was held across three continents simultaneously for the first time",
@@ -58,11 +75,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-29",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0172",
       "category": "Sports",
+      "difficulty": null,
       "question": "What is the diameter of a standard basketball hoop in inches?",
       "options": [
         "16 inches",
@@ -78,11 +103,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-29",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0173",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Which artist sang 'Billie Jean' and 'Thriller'?",
       "options": [
         "Stevie Wonder",
@@ -98,11 +131,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-29",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0174",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Which film won the first Academy Award for Best Picture?",
       "options": [
         "The Jazz Singer",
@@ -118,11 +159,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-29",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0175",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Who wrote the music for the film 'Star Wars'?",
       "options": [
         "Hans Zimmer",
@@ -138,11 +187,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-29",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0176",
       "category": "History",
+      "difficulty": null,
       "question": "Which war was ended by the Treaty of Versailles?",
       "options": [
         "The Crimean War",
@@ -158,11 +215,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-29",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0177",
       "category": "Geography",
+      "difficulty": null,
       "question": "Which strait separates Europe from Africa at its narrowest point?",
       "options": [
         "Strait of Malacca",
@@ -178,11 +243,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-29",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0178",
       "category": "Science & Nature",
+      "difficulty": null,
       "question": "Which planet in our solar system currently has the most confirmed moons?",
       "options": [
         "Jupiter",
@@ -198,11 +271,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-29",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0179",
       "category": "Geography",
+      "difficulty": null,
       "question": "The Strait of Hormuz — through which about 20% of the world's oil passes — connects the Persian Gulf to which body of water?",
       "options": [
         "Gulf of Aden",
@@ -218,11 +299,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-29",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0180",
       "category": "Science & Nature",
+      "difficulty": null,
       "question": "In 2006, the International Astronomical Union voted to reclassify Pluto from a planet to a 'dwarf planet.' What three criteria must a body meet to be classified as a planet?",
       "options": [
         "A planet must orbit the Sun, not be a moon of another body, and have an internal heat source — Pluto has no measurable internal heat after its core cooled",
@@ -238,7 +327,14 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-29",
+          "context": "daily"
+        }
+      ]
     }
   ]
 }

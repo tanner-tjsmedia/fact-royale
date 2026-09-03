@@ -175,6 +175,18 @@
           <select class="field" id="f-cat" style="width:auto">
             <option value="">All categories</option>
           </select>
+          <select class="field" id="f-diff" style="width:auto">
+            <option value="">Any difficulty</option>
+            <option value="none">Unjudged</option>
+            <option value="1">1</option><option value="2">2</option>
+            <option value="3">3</option><option value="4">4</option>
+            <option value="5">5</option>
+          </select>
+          <select class="field" id="f-status" style="width:auto">
+            <option value="active">Active</option>
+            <option value="retired">Retired</option>
+            <option value="">Any status</option>
+          </select>
         </div>
         <div class="qlist" id="qlist" role="listbox"></div>
       </div>
@@ -231,8 +243,9 @@ const S = {
   booted: false,
   store: null
 };
-const ORDER = ['id','category','question','options','answer','explanation',
-               'memory_hook','riskTier','sourceRefs','review'];
+const ORDER = ['id','category','difficulty','question','options','answer',
+               'explanation','memory_hook','riskTier','sourceRefs',
+               'review','status','usage'];
 const CATS = ['History','Sports','Pop Culture','Geography','Science & Nature'];
 const STATES = ['unreviewed','verified','flagged','rejected','retired'];
 
@@ -497,6 +510,10 @@ function filtered() {
   return S.rows.filter(r => {
     if (st && r.q.review.state !== st) return false;
     if (cat && r.q.category !== cat) return false;
+    const df = $('#f-diff').value, stat = $('#f-status').value;
+    if (df === 'none' && r.q.difficulty != null) return false;
+    if (df && df !== 'none' && String(r.q.difficulty) !== df) return false;
+    if (stat && (r.q.status || 'active') !== stat) return false;
     if (term) {
       const hay = (r.q.question + ' ' + (r.q.options || []).join(' ') + ' ' +
                    r.q.id + ' ' + r.dateKey).toLowerCase();
@@ -559,7 +576,38 @@ function renderEditor() {
   cat.dataset.cat = q.category;
   head.append(st, cat, el('span', 'eyebrow', dateKey),
               el('span', 'eyebrow mono', q.id));
-  box.append(head, el('hr', 'rule'));
+
+  // Difficulty: an author's estimate until players correct it. Left null
+  // rather than defaulted, so "nobody has judged this" stays visible.
+  const diff = el('select', 'field'); diff.style.width = 'auto';
+  diff.append(new Option('difficulty —', ''));
+  [1,2,3,4,5].forEach(n => diff.append(new Option('difficulty ' + n, n)));
+  diff.value = q.difficulty == null ? '' : String(q.difficulty);
+  diff.onchange = () => {
+    q.difficulty = diff.value === '' ? null : Number(diff.value); dirty(); render();
+  };
+  head.append(diff);
+
+  // Retire rather than delete: a weak question keeps its record of why.
+  const stat = el('button', 'btn ' + (q.status === 'retired' ? 'btn--warn' : 'btn--ghost'),
+                  q.status === 'retired' ? 'retired' : 'active');
+  stat.onclick = () => {
+    q.status = q.status === 'retired' ? 'active' : 'retired'; dirty(); render();
+  };
+  head.append(stat);
+  box.append(head);
+
+  // Usage log drives reuse cooldown for live and tournament play.
+  const use = q.usage || [];
+  const last = use.length ? use.map(u => u.date).sort().pop() : null;
+  const days = last ? Math.round((Date.now() - Date.parse(last)) / 86400000) : null;
+  const uline = el('p', 'eyebrow');
+  uline.textContent = use.length
+    ? `used ${use.length}\u00d7 \u00b7 last ${last} (${days} days ago) \u00b7 ` +
+      [...new Set(use.map(u => u.context))].join(', ')
+    : 'never used';
+  if (days !== null && days < 90) uline.style.color = 'var(--warn)';
+  box.append(uline, el('hr', 'rule'));
 
   // prompt
   const pl = el('label', 'lbl', 'Prompt'); pl.htmlFor = 'e-q';
@@ -767,7 +815,7 @@ addEventListener('keydown', e => {
   else if (e.key === '/') { e.preventDefault(); $('#search').focus(); }
 });
 
-['#search', '#f-state', '#f-cat'].forEach(s => {
+['#search', '#f-state', '#f-cat', '#f-diff', '#f-status'].forEach(s => {
   document.addEventListener('input', ev => { if (ev.target.matches(s)) render(); });
 });
 </script>

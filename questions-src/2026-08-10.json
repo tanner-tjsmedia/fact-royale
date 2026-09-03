@@ -4,6 +4,7 @@
     {
       "id": "frq-0673",
       "category": "History",
+      "difficulty": null,
       "question": "The Panama Canal opened in 1914, but a French attempt had already failed there. What defeated the French effort?",
       "options": [
         "Malaria and yellow fever killed more than 20,000 workers",
@@ -24,11 +25,19 @@
         "at": "2026-09-03",
         "by": "tanner@tjs16media.com",
         "note": "carried over: had a cited source before IDs existed"
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-10",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0674",
       "category": "History",
+      "difficulty": null,
       "question": "Ho Chi Minh spent roughly thirty years abroad before returning to lead Vietnam's independence movement. Where did those years take him?",
       "options": [
         "Paris, London, Moscow and New York, working odd jobs",
@@ -48,11 +57,19 @@
         "at": "2026-09-03",
         "by": "tanner@tjs16media.com",
         "note": "carried over: had a cited source before IDs existed"
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-10",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0675",
       "category": "History",
+      "difficulty": null,
       "question": "The storming of the Bastille on 14 July 1789 became France's national day. How many prisoners were actually inside?",
       "options": [
         "Seven, none of them political prisoners",
@@ -73,11 +90,19 @@
         "at": "2026-09-03",
         "by": "tanner@tjs16media.com",
         "note": "carried over: had a cited source before IDs existed"
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-10",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0676",
       "category": "Sports",
+      "difficulty": null,
       "question": "The Indianapolis 500 covers 200 laps of a two-and-a-half-mile oval. What tradition marks the finish?",
       "options": [
         "The winner laps the track once more in reverse",
@@ -99,11 +124,19 @@
         "at": "2026-09-03",
         "by": "tanner@tjs16media.com",
         "note": "carried over: had a cited source before IDs existed"
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-10",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0677",
       "category": "Sports",
+      "difficulty": null,
       "question": "Icing is called in ice hockey when a team shoots the puck the length of the rink untouched. What does the offending team face?",
       "options": [
         "A two-minute minor penalty for delay of game",
@@ -124,11 +157,19 @@
         "at": "2026-09-03",
         "by": "tanner@tjs16media.com",
         "note": "carried over: had a cited source before IDs existed"
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-10",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0678",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Henri Matisse co-founded Fauvism in 1905 and reinvented himself again with cut-outs in his 80s. What was his central obsession?",
       "options": [
         "Fusing European oil painting with Japanese prints",
@@ -148,11 +189,19 @@
         "at": "2026-09-03",
         "by": "tanner@tjs16media.com",
         "note": "carried over: had a cited source before IDs existed"
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-10",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0679",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "West Side Story moves Romeo and Juliet to 1950s New York. Which two groups stand in for the Montagues and Capulets?",
       "options": [
         "Two dockworkers' unions fighting over contracts",
@@ -172,11 +221,19 @@
         "at": "2026-09-03",
         "by": "tanner@tjs16media.com",
         "note": "carried over: had a cited source before IDs existed"
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-10",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0680",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "David Bowie's alter ego 'Ziggy Stardust' appeared on which 1972 album?",
       "options": [
         "The Rise and Fall of Ziggy Stardust and the Spiders from Mars",
@@ -194,11 +251,19 @@
         "by": null,
         "note": null
       },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-10",
+          "context": "daily"
+        }
+      ],
       "canonicalNote": "universally attested, no source disputes it and nothing here can change"
     },
     {
       "id": "frq-0681",
       "category": "Geography",
+      "difficulty": null,
       "question": "The East African Rift is slowly pulling the continent apart. What will eventually happen along it?",
       "options": [
         "A new ocean will form, cutting off the Horn of Africa",
@@ -218,11 +283,19 @@
         "at": "2026-09-03",
         "by": "tanner@tjs16media.com",
         "note": "carried over: had a cited source before IDs existed"
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-10",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0682",
       "category": "Science & Nature",
+      "difficulty": null,
       "question": "Mary Anning found some of the first complete ichthyosaur and plesiosaur fossils in the cliffs at Lyme Regis. Why did she get so little credit?",
       "options": [
         "She never published, keeping her methods secret",
@@ -242,11 +315,19 @@
         "at": "2026-09-03",
         "by": "tanner@tjs16media.com",
         "note": "carried over: had a cited source before IDs existed"
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-10",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0683",
       "category": "Geography",
+      "difficulty": null,
       "question": "The Great Artesian Basin underlies about a fifth of Australia. Why does its water reach the surface without any pumping?",
       "options": [
         "Pacific tides push it inland and up twice a day",
@@ -266,11 +347,19 @@
         "at": "2026-09-03",
         "by": "tanner@tjs16media.com",
         "note": "carried over: had a cited source before IDs existed"
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-10",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0684",
       "category": "Science & Nature",
+      "difficulty": null,
       "question": "What are the noble gases — the chemically unreactive elements in Group 18 of the periodic table?",
       "options": [
         "Lithium, sodium and potassium, the alkali metals",
@@ -288,6 +377,13 @@
         "by": null,
         "note": null
       },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-10",
+          "context": "daily"
+        }
+      ],
       "canonicalNote": "universally attested, no source disputes it and nothing here can change"
     }
   ]

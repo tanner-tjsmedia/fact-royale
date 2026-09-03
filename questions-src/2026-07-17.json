@@ -3,6 +3,7 @@
     {
       "id": "frq-0385",
       "category": "History",
+      "difficulty": null,
       "question": "Which U.S. president, who served from 1809 to 1817, famously declared war on Britain in the War of 1812 and is sometimes called 'the Father of the Constitution'?",
       "options": [
         "James Madison",
@@ -18,11 +19,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-17",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0386",
       "category": "History",
+      "difficulty": null,
       "question": "The 'Cultural Revolution' in China was led by whom?",
       "options": [
         "Mao Zedong",
@@ -38,11 +47,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-17",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0387",
       "category": "Sports",
+      "difficulty": null,
       "question": "In American football, what is a 'Hail Mary' pass?",
       "options": [
         "A trick play involving a lateral",
@@ -58,11 +75,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-17",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0388",
       "category": "Sports",
+      "difficulty": null,
       "question": "What country does tennis player Rafael Nadal represent?",
       "options": [
         "Argentina",
@@ -78,11 +103,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-17",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0389",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "What rapper's real name is Marshall Bruce Mathers III?",
       "options": [
         "Kanye West",
@@ -98,11 +131,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-17",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0390",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Which film features the villain Hannibal Lecter in three movies?",
       "options": [
         "Prisoners",
@@ -118,11 +159,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-17",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0391",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Which British punk band, formed in London in 1975, released 'Never Mind the Bollocks, Here's the Sex Pistols' and defined the punk rock movement?",
       "options": [
         "The Ramones",
@@ -138,11 +187,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-17",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0392",
       "category": "History",
+      "difficulty": null,
       "question": "What was the primary purpose of the Berlin Wall?",
       "options": [
         "To protect against nuclear attack",
@@ -158,11 +215,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-17",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0393",
       "category": "Geography",
+      "difficulty": null,
       "question": "Which country has the most neighboring countries, sharing borders with 14 nations?",
       "options": [
         "China",
@@ -178,11 +243,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-17",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0394",
       "category": "Science & Nature",
+      "difficulty": null,
       "question": "The multiverse hypothesis — that our universe is one of many — appears in several modern physics theories. What is its basis in current physics?",
       "options": [
         "The multiverse requires the existence of extra dimensions predicted by string theory, which has been experimentally confirmed by the Large Hadron Collider at CERN",
@@ -198,11 +271,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-17",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0395",
       "category": "Geography",
+      "difficulty": null,
       "question": "Lake Nicaragua, the largest lake in Central America, is unique for containing what unusual type of animal?",
       "options": [
         "Freshwater jellyfish",
@@ -218,11 +299,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-17",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0396",
       "category": "Science & Nature",
+      "difficulty": null,
       "question": "What is the change in the frequency of sound (or light) waves caused by the motion of the source or observer relative to each other?",
       "options": [
         "Doppler effect",
@@ -238,7 +327,14 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-17",
+          "context": "daily"
+        }
+      ]
     }
   ]
 }

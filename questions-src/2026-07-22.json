@@ -3,6 +3,7 @@
     {
       "id": "frq-0445",
       "category": "History",
+      "difficulty": null,
       "question": "Who was the first man to run a sub-4-minute mile?",
       "options": [
         "Roger Bannister",
@@ -18,11 +19,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-22",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0446",
       "category": "History",
+      "difficulty": null,
       "question": "The 'Protestant Reformation' was triggered by Martin Luther nailing his 95 Theses to a church door in which year?",
       "options": [
         "1517",
@@ -38,11 +47,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-22",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0447",
       "category": "Sports",
+      "difficulty": null,
       "question": "At the 1976 Montreal Olympics, 14-year-old Nadia Comaneci became the first gymnast in Olympic history to receive a perfect score. What made the moment historically awkward?",
       "options": [
         "The crowd booed because Romanian gymnasts were expected to score lower under a new scoring system introduced that year, making a 10.0 mathematically impossible",
@@ -58,11 +75,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-22",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0448",
       "category": "Sports",
+      "difficulty": null,
       "question": "Which swimmer won 8 gold medals at the 2008 Beijing Olympics — the most by any athlete at a single Games — breaking Mark Spitz's 1972 record of 7?",
       "options": [
         "Ian Thorpe",
@@ -78,11 +103,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-22",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0449",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Which band wrote and performed 'Comfortably Numb'?",
       "options": [
         "Genesis",
@@ -98,11 +131,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-22",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0450",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Which 1999 science fiction film starring Keanu Reeves depicts a dystopian future where humans live in a simulated reality controlled by machines?",
       "options": [
         "Dark City",
@@ -118,11 +159,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-22",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0451",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "David Bowie created the alter ego 'Ziggy Stardust' in 1972 — a bisexual alien rock star — then famously 'killed' the character on stage in 1973. Why is this moment significant in rock history?",
       "options": [
         "It was one of rock's first deliberate examples of performance art as celebrity persona — Bowie created, performed, and then consciously destroyed a character, treating pop music as theater and blurring the line between artist and identity",
@@ -138,11 +187,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-22",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0452",
       "category": "History",
+      "difficulty": null,
       "question": "The 'Battle of Thermopylae' is famous for which force's last stand?",
       "options": [
         "300 Spartans",
@@ -158,11 +215,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-22",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0453",
       "category": "Geography",
+      "difficulty": null,
       "question": "Indonesia has the most islands of any country. Approximately how many does it have?",
       "options": [
         "7,500",
@@ -178,11 +243,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-22",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0454",
       "category": "Science & Nature",
+      "difficulty": null,
       "question": "Karl Jansky's accidental discovery in 1932 gave birth to an entirely new branch of astronomy. What did he find, and what has radio astronomy revealed that optical telescopes cannot?",
       "options": [
         "Jansky discovered that stars emit radio waves in addition to light, proving that visible light represents only a tiny fraction of the electromagnetic spectrum that stars produce",
@@ -198,11 +271,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-22",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0455",
       "category": "Geography",
+      "difficulty": null,
       "question": "The Atlas Mountains, a range spanning approximately 2,500 km, run across which three North African countries?",
       "options": [
         "Morocco, Algeria, Mali",
@@ -218,11 +299,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-22",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0456",
       "category": "Science & Nature",
+      "difficulty": null,
       "question": "What is the term for different forms of the same chemical element that have the same number of protons but different numbers of neutrons in their nuclei?",
       "options": [
         "Allotropes",
@@ -238,7 +327,14 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-22",
+          "context": "daily"
+        }
+      ]
     }
   ]
 }

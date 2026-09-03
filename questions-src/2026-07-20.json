@@ -3,6 +3,7 @@
     {
       "id": "frq-0421",
       "category": "History",
+      "difficulty": null,
       "question": "The moon landing occurred on July 20, 1969. Which astronaut remained in orbit while the others walked on the moon?",
       "options": [
         "Buzz Aldrin",
@@ -18,11 +19,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-20",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0422",
       "category": "History",
+      "difficulty": null,
       "question": "The 'Panama Canal' connects which two oceans?",
       "options": [
         "Atlantic and Indian",
@@ -38,11 +47,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-20",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0423",
       "category": "Sports",
+      "difficulty": null,
       "question": "In American football, how many points is a field goal worth?",
       "options": [
         "3",
@@ -58,11 +75,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-20",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0424",
       "category": "Sports",
+      "difficulty": null,
       "question": "The Olympic torch relay tradition, where a flame is carried from Greece to the host city, was introduced at which Olympic Games?",
       "options": [
         "Rome 1960",
@@ -78,11 +103,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-20",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0425",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Black Mirror (Channel 4/Netflix, 2011–present), created by Charlie Brooker, is a landmark anthology series. What unifies its episodes and what cultural anxiety does it explore?",
       "options": [
         "The series is a direct critique of television itself — each episode satirizes a different TV genre to expose how screen culture shapes thought",
@@ -98,11 +131,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-20",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0426",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Johannes Vermeer's 'Girl with a Pearl Earring' (c. 1665) is often called the 'Mona Lisa of the North.' What is distinctive about Vermeer's technical mastery and his mystery?",
       "options": [
         "Vermeer's secret technique involved painting with powdered lapis lazuli dissolved in egg white, producing the distinctive blue that appears in nearly all his works",
@@ -118,11 +159,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-20",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0427",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "What was the first James Bond film?",
       "options": [
         "From Russia with Love",
@@ -138,11 +187,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-20",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0428",
       "category": "History",
+      "difficulty": null,
       "question": "The Holocaust was the systematic genocide of which group, among others?",
       "options": [
         "Only Romani people",
@@ -158,11 +215,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-20",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0429",
       "category": "Geography",
+      "difficulty": null,
       "question": "Which river flows through the most countries in Europe?",
       "options": [
         "Volga",
@@ -178,11 +243,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-20",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0430",
       "category": "Science & Nature",
+      "difficulty": null,
       "question": "How many elements are currently on the periodic table?",
       "options": [
         "126",
@@ -198,11 +271,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-20",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0431",
       "category": "Geography",
+      "difficulty": null,
       "question": "The Great Salt Lake in Utah is the largest saltwater lake in the Western Hemisphere. What unique feature makes it impossible for most fish to survive in it?",
       "options": [
         "It is too cold year-round",
@@ -218,11 +299,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-20",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0432",
       "category": "Science & Nature",
+      "difficulty": null,
       "question": "Which environmental problem, caused by chlorofluorocarbons (CFCs) used in aerosols and refrigerants, has led to the thinning of a protective atmospheric layer?",
       "options": [
         "Global warming",
@@ -238,7 +327,14 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-20",
+          "context": "daily"
+        }
+      ]
     }
   ]
 }

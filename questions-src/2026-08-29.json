@@ -4,6 +4,7 @@
     {
       "id": "frq-0901",
       "category": "History",
+      "difficulty": null,
       "question": "The Wall Street Crash came in October 1929, but the Depression deepened for years. What made it so severe?",
       "options": [
         "Thousands of banks failed, wiping out ordinary savings",
@@ -19,11 +20,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-29",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0902",
       "category": "Science & Nature",
+      "difficulty": null,
       "question": "Newton published his laws of motion in 1687. What did he do during the plague year of 1665?",
       "options": [
         "Worked out calculus, optics and gravitation in isolation",
@@ -39,11 +48,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-29",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0903",
       "category": "Sports",
+      "difficulty": null,
       "question": "The Davis Cup is tennis's oldest international team event. What is unusual about its format?",
       "options": [
         "Players compete individually and scores are combined",
@@ -59,11 +76,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-29",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0904",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Paul McCartney woke up with the melody for Yesterday already complete. What did he do next?",
       "options": [
         "Wrote the lyrics first and fitted the tune afterward",
@@ -79,11 +104,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-29",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0905",
       "category": "Geography",
+      "difficulty": null,
       "question": "The Trans-Siberian Railway is the world's longest railway line. Which two cities does it connect?",
       "options": [
         "Moscow and Vladivostok",
@@ -99,11 +132,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-29",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0906",
       "category": "History",
+      "difficulty": null,
       "question": "The Rwandan genocide killed around 800,000 people in 100 days. How was killing organised so fast?",
       "options": [
         "A standing army swept systematically through each province",
@@ -119,11 +160,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-29",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0907",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "The Simpsons has run since 1989. What did it start as?",
       "options": [
         "A one-off Christmas special never meant to continue",
@@ -139,11 +188,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-29",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0908",
       "category": "Science & Nature",
+      "difficulty": null,
       "question": "Frank Drake proposed his equation at the first SETI conference in 1961. What does it try to calculate?",
       "options": [
         "How many communicating civilizations exist in our galaxy",
@@ -159,11 +216,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-29",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0909",
       "category": "Geography",
+      "difficulty": null,
       "question": "The Sahel sits between the Sahara and the savanna. What is the Great Green Wall meant to do there?",
       "options": [
         "Divert water from the Congo to irrigate the region",
@@ -179,11 +244,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-29",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0910",
       "category": "History",
+      "difficulty": null,
       "question": "The Black Death killed perhaps a third of Europe. What did it change for survivors?",
       "options": [
         "Church attendance rose sharply and stayed high for centuries",
@@ -199,11 +272,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-29",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0911",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Beethoven wrote his Ninth Symphony while completely deaf. How did he manage that?",
       "options": [
         "He could hear the music internally without external sound",
@@ -219,11 +300,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-29",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0912",
       "category": "Sports",
+      "difficulty": null,
       "question": "Roger Bannister broke the four-minute mile in May 1954. How long did his record survive?",
       "options": [
         "Six years, until the Rome Olympics of 1960 came around",
@@ -239,7 +328,14 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-29",
+          "context": "daily"
+        }
+      ]
     }
   ]
 }

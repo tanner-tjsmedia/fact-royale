@@ -4,6 +4,7 @@
     {
       "id": "frq-0001",
       "category": "History",
+      "difficulty": null,
       "question": "Which ancient structure served as a lighthouse and was located on an island near Alexandria, Egypt?",
       "options": [
         "The Temple of Artemis",
@@ -19,11 +20,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-13",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0002",
       "category": "History",
+      "difficulty": null,
       "question": "The Berlin Wall fell in November of which year?",
       "options": [
         "1985",
@@ -39,11 +48,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-13",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0003",
       "category": "History",
+      "difficulty": null,
       "question": "Who was the first woman to win a Nobel Prize?",
       "options": [
         "Florence Nightingale",
@@ -59,11 +76,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-13",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0004",
       "category": "Sports",
+      "difficulty": null,
       "question": "How many interlocking rings appear on the Olympic flag?",
       "options": [
         "4",
@@ -79,11 +104,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-13",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0005",
       "category": "Sports",
+      "difficulty": null,
       "question": "Which country has won the most FIFA World Cup titles?",
       "options": [
         "Brazil",
@@ -99,11 +132,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-13",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0006",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Which Pink Floyd album features a prism splitting white light into a spectrum on its cover?",
       "options": [
         "Animals",
@@ -119,11 +160,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-13",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0007",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "In the original 1900 novel 'The Wonderful Wizard of Oz,' what were Dorothy's magical slippers made of?",
       "options": [
         "Diamond",
@@ -139,11 +188,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-13",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0008",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Which director helmed the 1993 blockbuster Jurassic Park?",
       "options": [
         "Steven Spielberg",
@@ -159,11 +216,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-13",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0009",
       "category": "Geography",
+      "difficulty": null,
       "question": "Which country has the longest coastline in the world, stretching approximately 202,080 km including its mainland and island shores?",
       "options": [
         "Australia",
@@ -179,11 +244,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-13",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0010",
       "category": "Science & Nature",
+      "difficulty": null,
       "question": "Earth's atmosphere is approximately 78% which gas — making it far more abundant than the oxygen we breathe?",
       "options": [
         "Oxygen",
@@ -199,11 +272,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-13",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0011",
       "category": "Geography",
+      "difficulty": null,
       "question": "Which is the largest island in the Caribbean Sea?",
       "options": [
         "Cuba",
@@ -219,11 +300,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-13",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0012",
       "category": "Science & Nature",
+      "difficulty": null,
       "question": "What property of water allows insects like water striders to walk on its surface?",
       "options": [
         "Cohesion",
@@ -239,7 +328,14 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-13",
+          "context": "daily"
+        }
+      ]
     }
   ]
 }

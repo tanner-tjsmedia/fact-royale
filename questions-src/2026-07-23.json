@@ -3,6 +3,7 @@
     {
       "id": "frq-0457",
       "category": "History",
+      "difficulty": null,
       "question": "Which city was divided by a wall between 1961 and 1989?",
       "options": [
         "Vienna",
@@ -18,11 +19,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-23",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0458",
       "category": "History",
+      "difficulty": null,
       "question": "Who was the first emperor of the Roman Empire?",
       "options": [
         "Augustus",
@@ -38,11 +47,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-23",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0459",
       "category": "Sports",
+      "difficulty": null,
       "question": "In basketball, what line must be crossed within 8 seconds of gaining possession in the backcourt (NBA)?",
       "options": [
         "The half-court line",
@@ -58,11 +75,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-23",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0460",
       "category": "Sports",
+      "difficulty": null,
       "question": "What is the scoring system used in volleyball?",
       "options": [
         "Alternating first-to-serve scoring",
@@ -78,11 +103,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-23",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0461",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Which musician released the album 'The Dark Side of the Moon' in 1973?",
       "options": [
         "Pink Floyd",
@@ -98,11 +131,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-23",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0462",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Band of Brothers (HBO, 2001), produced by Steven Spielberg and Tom Hanks, follows Easy Company of the 101st Airborne from D-Day to Germany's surrender. Why is it considered a landmark miniseries?",
       "options": [
         "It was the most expensive television production ever made at the time ($125 million for 10 episodes) and pioneered the use of realistic WWII military technical advisors from actual veterans",
@@ -118,11 +159,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-23",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0463",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Which singer's documentary is titled 'Miss Americana'?",
       "options": [
         "Katy Perry",
@@ -138,11 +187,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-23",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0464",
       "category": "History",
+      "difficulty": null,
       "question": "The 'Watergate scandal' led to the resignation of which U.S. president?",
       "options": [
         "Richard Nixon",
@@ -158,11 +215,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-23",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0465",
       "category": "Geography",
+      "difficulty": null,
       "question": "Which is the world's largest freshwater lake by surface area?",
       "options": [
         "Lake Victoria",
@@ -178,11 +243,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-23",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0466",
       "category": "Science & Nature",
+      "difficulty": null,
       "question": "The Sun is classified as what type of star?",
       "options": [
         "Red giant",
@@ -198,11 +271,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-23",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0467",
       "category": "Geography",
+      "difficulty": null,
       "question": "Papua New Guinea, one of the world's most culturally diverse nations with over 800 languages, occupies the eastern half of which large island?",
       "options": [
         "Borneo",
@@ -218,11 +299,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-23",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0468",
       "category": "Science & Nature",
+      "difficulty": null,
       "question": "What is the molecule often called the 'energy currency' of cells — produced in the mitochondria and used to power virtually every cellular function?",
       "options": [
         "NADH",
@@ -238,7 +327,14 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-23",
+          "context": "daily"
+        }
+      ]
     }
   ]
 }

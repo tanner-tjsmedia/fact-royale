@@ -4,6 +4,7 @@
     {
       "id": "frq-0841",
       "category": "History",
+      "difficulty": null,
       "question": "Chichen Itza's main pyramid does something twice a year at the equinox. What?",
       "options": [
         "A shadow forms a serpent descending the staircase",
@@ -19,11 +20,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-24",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0842",
       "category": "Science & Nature",
+      "difficulty": null,
       "question": "Subrahmanyan Chandrasekhar calculated his famous limit at 19, on a ship from India to England. What does it define?",
       "options": [
         "The hottest a star can get before it explodes outright",
@@ -39,11 +48,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-24",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0843",
       "category": "Sports",
+      "difficulty": null,
       "question": "Norway leads all nations in Winter Olympic gold medals despite a population of five million. What explains it?",
       "options": [
         "Norway has hosted more Winter Games than anyone else",
@@ -59,11 +76,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-24",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0844",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Coppola nearly lost The Godfather several times. What did the studio object to most?",
       "options": [
         "The three-hour running time in the shooting script",
@@ -79,11 +104,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-24",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0845",
       "category": "Geography",
+      "difficulty": null,
       "question": "The Nile is traditionally called the world's longest river, but that claim is disputed. Why?",
       "options": [
         "Amazon measurements vary by which headwater you pick",
@@ -99,11 +132,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-24",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0846",
       "category": "History",
+      "difficulty": null,
       "question": "The Bastille fell in July 1789, but France's Revolution had a longer fuse. What was the immediate financial cause?",
       "options": [
         "The cost of building Versailles two decades earlier",
@@ -119,11 +160,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-24",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0847",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Mario first appeared in 1981, but not under that name or in that job. What was he originally?",
       "options": [
         "A racing driver in an unreleased arcade cabinet",
@@ -139,11 +188,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-24",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0848",
       "category": "Science & Nature",
+      "difficulty": null,
       "question": "Stephen Hawking showed in 1974 that black holes slowly evaporate. What causes Hawking radiation?",
       "options": [
         "Virtual particle pairs splitting at the event horizon",
@@ -163,11 +220,19 @@
         "at": "2026-09-03",
         "by": "tanner@tjs16media.com",
         "note": "carried over: had a cited source before IDs existed"
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-24",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0849",
       "category": "Geography",
+      "difficulty": null,
       "question": "Indonesia spans more than 17,000 islands. What problem does that create for the capital?",
       "options": [
         "Jakarta is sinking, so the capital is being relocated",
@@ -188,11 +253,19 @@
         "at": "2026-09-03",
         "by": "tanner@tjs16media.com",
         "note": "carried over: had a cited source before IDs existed"
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-24",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0850",
       "category": "History",
+      "difficulty": null,
       "question": "Julius Caesar made an irreversible move by crossing the Rubicon River with his army in 49 BC. Why was this act of war against Roman law?",
       "options": [
         "The Senate had formally declared it sacred ground",
@@ -208,11 +281,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-24",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0851",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "U2 spent decades as one of the biggest bands on Earth, then made a decision that annoyed millions. What?",
       "options": [
         "They sold their name to a sponsor for a stadium tour",
@@ -228,11 +309,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-24",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0852",
       "category": "Sports",
+      "difficulty": null,
       "question": "The Super Bowl uses Roman numerals, with one exception. Which year broke the pattern and why?",
       "options": [
         "Super Bowl 40, dropped for a stadium sponsorship",
@@ -248,7 +337,14 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-24",
+          "context": "daily"
+        }
+      ]
     }
   ]
 }

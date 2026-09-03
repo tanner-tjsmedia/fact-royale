@@ -4,6 +4,7 @@
     {
       "id": "frq-0049",
       "category": "History",
+      "difficulty": null,
       "question": "The United States dropped an atomic bomb on Hiroshima on August 6 of which year?",
       "options": [
         "1946",
@@ -19,11 +20,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-19",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0050",
       "category": "History",
+      "difficulty": null,
       "question": "Approximately how long is the Great Wall of China?",
       "options": [
         "8,000 miles",
@@ -39,11 +48,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-19",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0051",
       "category": "History",
+      "difficulty": null,
       "question": "In what year was the United States Declaration of Independence signed?",
       "options": [
         "1775",
@@ -59,11 +76,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-19",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0052",
       "category": "Sports",
+      "difficulty": null,
       "question": "How many Olympic gold medals did swimmer Michael Phelps win in his career?",
       "options": [
         "28",
@@ -79,11 +104,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-19",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0053",
       "category": "Sports",
+      "difficulty": null,
       "question": "Serena Williams won how many Grand Slam singles titles in her career?",
       "options": [
         "25",
@@ -99,11 +132,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-19",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0054",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Wolfgang Amadeus Mozart died at what age?",
       "options": [
         "31",
@@ -119,11 +160,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-19",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0055",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "The Shawshank Redemption is consistently rated #1 on IMDb's Top 250. Which actor plays Andy Dufresne?",
       "options": [
         "Tom Hanks",
@@ -139,11 +188,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-19",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0056",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Freddie Mercury was the lead vocalist of which legendary rock band?",
       "options": [
         "Queen",
@@ -159,11 +216,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-19",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0057",
       "category": "Geography",
+      "difficulty": null,
       "question": "The Atacama Desert, one of the driest places on Earth with some areas having never recorded rainfall, is located primarily in which South American country?",
       "options": [
         "Chile",
@@ -179,11 +244,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-19",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0058",
       "category": "Science & Nature",
+      "difficulty": null,
       "question": "What is the biological process by which yeast converts glucose into alcohol and carbon dioxide in the absence of oxygen — also responsible for making bread rise?",
       "options": [
         "Photosynthesis",
@@ -199,11 +272,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-19",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0059",
       "category": "Geography",
+      "difficulty": null,
       "question": "The Strait of Malacca, one of the world's busiest shipping lanes, lies between the Malay Peninsula and which large island?",
       "options": [
         "Borneo",
@@ -219,11 +300,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-19",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0060",
       "category": "Science & Nature",
+      "difficulty": null,
       "question": "All life on Earth is classified into three domains. Which domain includes all organisms whose cells have a nucleus?",
       "options": [
         "Bacteria",
@@ -239,7 +328,14 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-19",
+          "context": "daily"
+        }
+      ]
     }
   ]
 }

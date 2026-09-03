@@ -4,6 +4,7 @@
     {
       "id": "frq-0541",
       "category": "History",
+      "difficulty": null,
       "question": "Julius Caesar was assassinated on the Ides of March — which date is that?",
       "options": [
         "March 15",
@@ -19,11 +20,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-30",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0542",
       "category": "History",
+      "difficulty": null,
       "question": "The ancient Aztec capital of Tenochtitlan was built on an island in the middle of Lake Texcoco. It was destroyed by Spanish conquistadors and is now the site of which modern city?",
       "options": [
         "Guadalajara",
@@ -39,11 +48,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-30",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0543",
       "category": "History",
+      "difficulty": null,
       "question": "The Korean War armistice was signed in 1953, effectively creating which boundary between North and South Korea?",
       "options": [
         "The 38th parallel",
@@ -59,11 +76,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-30",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0544",
       "category": "Sports",
+      "difficulty": null,
       "question": "Wayne Gretzky holds 61 NHL records — including some so dominant that his career statistics defy rational comparison. Which fact best illustrates his statistical singularity?",
       "options": [
         "Gretzky's career assists total (1,963) is more than the career points total of any other player in NHL history — he would be the all-time points leader on assists alone, without counting his 894 goals",
@@ -79,11 +104,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-30",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0545",
       "category": "Sports",
+      "difficulty": null,
       "question": "The 1994 FIFA World Cup, hosted by the United States, was notable for introducing soccer to a mass American audience. What unexpected record did it set, and what controversy ended it?",
       "options": [
         "Diego Maradona was banned from the 1994 World Cup for testing positive for ephedrine — he had scored in Argentina's opening games but was disqualified, and Argentina was eliminated in the round of 16",
@@ -99,11 +132,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-30",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0546",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Which band released the 1979 album 'The Wall,' featuring the hit 'Another Brick in the Wall'?",
       "options": [
         "The Who",
@@ -119,11 +160,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-30",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0547",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Thelonious Monk is considered one of jazz's most distinctive composers — his music is immediately recognizable and his playing technique was unconventional even by jazz standards. What made him so unusual?",
       "options": [
         "Monk's angular melodies, use of dissonance, sudden silences, and distinctive flat-fingered piano technique were so idiosyncratic that critics dismissed him for years before recognizing him as one of jazz's essential voices",
@@ -139,11 +188,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-30",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0548",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Which artist holds the record for the most Grammy Awards won in history?",
       "options": [
         "Taylor Swift",
@@ -159,11 +216,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-30",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0549",
       "category": "Geography",
+      "difficulty": null,
       "question": "Which sea lies between Europe and Africa and is almost entirely enclosed by land?",
       "options": [
         "Black Sea",
@@ -179,11 +244,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-30",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0550",
       "category": "Science & Nature",
+      "difficulty": null,
       "question": "What is the name of the process by which plants lose water through their leaves?",
       "options": [
         "Respiration",
@@ -199,11 +272,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-30",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0551",
       "category": "Geography",
+      "difficulty": null,
       "question": "Lake Huron, the second-largest of the five Great Lakes, is shared between the United States and which other country?",
       "options": [
         "Russia",
@@ -219,11 +300,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-30",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0552",
       "category": "Science & Nature",
+      "difficulty": null,
       "question": "What describes the feeding relationships in an ecosystem where organisms are grouped by how many steps they are from the original energy source?",
       "options": [
         "Food web",
@@ -239,7 +328,14 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-30",
+          "context": "daily"
+        }
+      ]
     }
   ]
 }

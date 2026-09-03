@@ -4,6 +4,7 @@
     {
       "id": "frq-0061",
       "category": "History",
+      "difficulty": null,
       "question": "The Black Death pandemic in the 14th century killed approximately what fraction of Europe's population?",
       "options": [
         "One half",
@@ -19,11 +20,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-20",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0062",
       "category": "History",
+      "difficulty": null,
       "question": "In what year was the Roman Colosseum completed?",
       "options": [
         "120 AD",
@@ -39,11 +48,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-20",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0063",
       "category": "History",
+      "difficulty": null,
       "question": "Alexander the Great was the king of which ancient kingdom?",
       "options": [
         "Macedonia",
@@ -59,11 +76,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-20",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0064",
       "category": "Sports",
+      "difficulty": null,
       "question": "Usain Bolt's world record in the 100 meter sprint is approximately how fast?",
       "options": [
         "9.58 seconds",
@@ -79,11 +104,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-20",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0065",
       "category": "Sports",
+      "difficulty": null,
       "question": "How many players from one team are on the ice at a time during a standard NHL hockey game?",
       "options": [
         "5",
@@ -99,11 +132,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-20",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0066",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Claude Monet's Water Lilies series — painted in the last decades of his life — are among the world's most visited artworks. What circumstances make them remarkable?",
       "options": [
         "Monet painted most of the series while nearly blind from cataracts, using his knowledge of color relationships and labeling his paint tubes to work through his failing vision",
@@ -119,11 +160,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-20",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0067",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Beethoven composed some of his most celebrated works, including his 9th Symphony, while suffering from what condition?",
       "options": [
         "Chronic pain",
@@ -139,11 +188,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-20",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0068",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Breaking Bad (2008–2013) is frequently cited as one of television's greatest achievements. What was creator Vince Gilligan's stated goal for the show's protagonist Walter White?",
       "options": [
         "To create the most realistic portrayal of the US drug trade ever shown on television",
@@ -159,11 +216,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-20",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0069",
       "category": "Geography",
+      "difficulty": null,
       "question": "Which is the largest island in the Caribbean Sea?",
       "options": [
         "Puerto Rico",
@@ -179,11 +244,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-20",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0070",
       "category": "Science & Nature",
+      "difficulty": null,
       "question": "Which part of the human brain, located at the back of the skull, is primarily responsible for balance, coordination, and fine motor control?",
       "options": [
         "Cerebrum",
@@ -199,11 +272,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-20",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0071",
       "category": "Geography",
+      "difficulty": null,
       "question": "The Pantanal, the world's largest tropical wetland covering approximately 150,000 km², is located primarily in which country?",
       "options": [
         "Bolivia",
@@ -219,11 +300,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-20",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0072",
       "category": "Science & Nature",
+      "difficulty": null,
       "question": "What distinguishes plant cells from animal cells — what structure does a plant cell have that an animal cell lacks?",
       "options": [
         "Nucleus",
@@ -239,7 +328,14 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-20",
+          "context": "daily"
+        }
+      ]
     }
   ]
 }

@@ -4,6 +4,7 @@
     {
       "id": "frq-0121",
       "category": "History",
+      "difficulty": null,
       "question": "The ancient Olympic Games were held in which Greek city?",
       "options": [
         "Olympia",
@@ -19,11 +20,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-25",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0122",
       "category": "History",
+      "difficulty": null,
       "question": "Women's suffrage — the right to vote — was first granted nationally in which country?",
       "options": [
         "Australia",
@@ -39,11 +48,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-25",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0123",
       "category": "History",
+      "difficulty": null,
       "question": "Who was the first person to sail solo around the world nonstop?",
       "options": [
         "Robin Knox-Johnston",
@@ -59,11 +76,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-25",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0124",
       "category": "Sports",
+      "difficulty": null,
       "question": "Lance Armstrong was stripped of his record seven Tour de France titles due to doping. In what year was this decision made?",
       "options": [
         "2008",
@@ -79,11 +104,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-25",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0125",
       "category": "Sports",
+      "difficulty": null,
       "question": "In which country did table tennis (ping pong) originate?",
       "options": [
         "England",
@@ -99,11 +132,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-25",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0126",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Alfred Hitchcock's Psycho (1960) is famous for a shocking scene in which location?",
       "options": [
         "A shower",
@@ -119,11 +160,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-25",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0127",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "The Rolling Stones' song 'Paint It Black' is recognizable for featuring which unusual instrument?",
       "options": [
         "Bagpipes",
@@ -139,11 +188,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-25",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0128",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Adele's 2008 debut album, which includes the singles 'Chasing Pavements' and 'Hometown Glory,' is named after what?",
       "options": [
         "Her grandmother's nickname for her",
@@ -159,11 +216,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-25",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0129",
       "category": "Geography",
+      "difficulty": null,
       "question": "Which country has more lakes than the rest of the world combined?",
       "options": [
         "Finland",
@@ -179,11 +244,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-25",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0130",
       "category": "Science & Nature",
+      "difficulty": null,
       "question": "The Apollo 11 mission in July 1969 landed the first humans on the Moon. What did Neil Armstrong and Buzz Aldrin do during their 2.5 hours on the lunar surface?",
       "options": [
         "They drove a lunar rover for approximately 25 km, collected samples from multiple sites, and deployed a seismometer to detect moonquakes",
@@ -199,11 +272,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-25",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0131",
       "category": "Geography",
+      "difficulty": null,
       "question": "Norway's Svalbard archipelago, located halfway between Norway and the North Pole, is home to which unique global facility?",
       "options": [
         "The UNESCO Ice Core Library",
@@ -219,11 +300,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-25",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0132",
       "category": "Science & Nature",
+      "difficulty": null,
       "question": "Which American physician developed the first effective polio vaccine, announced in 1955?",
       "options": [
         "Louis Pasteur",
@@ -239,7 +328,14 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-25",
+          "context": "daily"
+        }
+      ]
     }
   ]
 }

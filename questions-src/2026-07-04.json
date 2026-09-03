@@ -3,6 +3,7 @@
     {
       "id": "frq-0229",
       "category": "History",
+      "difficulty": null,
       "question": "On July 4, 1776, which document was formally adopted by the Continental Congress?",
       "options": [
         "The Declaration of Independence",
@@ -18,11 +19,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-04",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0230",
       "category": "History",
+      "difficulty": null,
       "question": "Which American president delivered the Gettysburg Address?",
       "options": [
         "George Washington",
@@ -38,11 +47,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-04",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0231",
       "category": "Sports",
+      "difficulty": null,
       "question": "The 'Triple Crown' in horse racing includes the Kentucky Derby, the Preakness Stakes, and which third race?",
       "options": [
         "The Arlington Million",
@@ -58,11 +75,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-04",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0232",
       "category": "Sports",
+      "difficulty": null,
       "question": "What is the official summer national sport of Canada?",
       "options": [
         "Football",
@@ -78,11 +103,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-04",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0233",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Who sang the national anthem at the 1991 Super Bowl in a performance widely considered the best ever?",
       "options": [
         "Mariah Carey",
@@ -98,11 +131,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-04",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0234",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Which film is set on the fictional island of 'Isla Nublar'?",
       "options": [
         "Jurassic Park",
@@ -118,11 +159,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-04",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0235",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Which album by Adele contains the songs 'Hello' and 'When We Were Young'?",
       "options": [
         "21",
@@ -138,11 +187,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-04",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0236",
       "category": "History",
+      "difficulty": null,
       "question": "What was the primary cause of the Irish Famine (1845–1852)?",
       "options": [
         "A plague of locusts",
@@ -158,11 +215,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-04",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0237",
       "category": "Geography",
+      "difficulty": null,
       "question": "Greenland is a territory of which country?",
       "options": [
         "Canada",
@@ -178,11 +243,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-04",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0238",
       "category": "Science & Nature",
+      "difficulty": null,
       "question": "What is the most abundant element in the universe?",
       "options": [
         "Hydrogen",
@@ -198,11 +271,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-04",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0239",
       "category": "Geography",
+      "difficulty": null,
       "question": "The Faroe Islands, an autonomous territory with their own language and government, are officially part of which country?",
       "options": [
         "Norway",
@@ -218,11 +299,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-04",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0240",
       "category": "Science & Nature",
+      "difficulty": null,
       "question": "What characteristic is unique to all female mammals that gives the class Mammalia its name?",
       "options": [
         "Having fur or hair",
@@ -238,7 +327,14 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-04",
+          "context": "daily"
+        }
+      ]
     }
   ]
 }

@@ -4,6 +4,7 @@
     {
       "id": "frq-0817",
       "category": "History",
+      "difficulty": null,
       "question": "Gorbachev launched perestroika and glasnost in the 1980s to save the Soviet system. What did they do instead?",
       "options": [
         "Restored growth but at the cost of political freedom",
@@ -19,11 +20,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-22",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0818",
       "category": "History",
+      "difficulty": null,
       "question": "Lexington and Concord in April 1775 began the American Revolution. What were the British troops actually sent to do?",
       "options": [
         "Arrest John Hancock and Samuel Adams in Boston",
@@ -39,11 +48,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-22",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0819",
       "category": "History",
+      "difficulty": null,
       "question": "The Colosseum held around 50,000 spectators. How did Romans manage the crowds?",
       "options": [
         "Numbered tickets directing each person to a specific arch",
@@ -59,11 +76,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-22",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0820",
       "category": "Sports",
+      "difficulty": null,
       "question": "The US beat the Soviets 4-3 in 1980, but that was not the gold medal game. What did the Americans still have to do?",
       "options": [
         "Beat Finland two days later, which they nearly failed to do",
@@ -79,11 +104,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-22",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0821",
       "category": "Sports",
+      "difficulty": null,
       "question": "The Olympic rings use five colours plus a white background. Why those particular colours?",
       "options": [
         "They were the only inks available to the 1913 printer",
@@ -99,11 +132,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-22",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0822",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Tupac Shakur released only a few albums before dying in 1996. What has happened since?",
       "options": [
         "His unreleased recordings were destroyed in a 2008 fire",
@@ -119,11 +160,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-22",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0823",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "The Star Wars cantina band plays music that sounds oddly familiar. What was John Williams told to write?",
       "options": [
         "A score using only instruments invented for the film",
@@ -139,11 +188,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-22",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0824",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "The Beatles played their last public performance on a London rooftop in January 1969. How did it end?",
       "options": [
         "Lennon walked off mid-song and never came back up",
@@ -159,11 +216,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-22",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0825",
       "category": "Geography",
+      "difficulty": null,
       "question": "The Irish Sea separates Britain and Ireland. What lies beneath it that connects them?",
       "options": [
         "An active fault line still pulling the islands apart",
@@ -179,11 +244,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-22",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0826",
       "category": "Science & Nature",
+      "difficulty": null,
       "question": "Ribosomes assemble proteins inside cells. What makes them unusual among cell structures?",
       "options": [
         "They can leave the cell entirely and function on their own",
@@ -199,11 +272,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-22",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0827",
       "category": "Geography",
+      "difficulty": null,
       "question": "The Dolomites look unlike the rest of the Alps, glowing pink at sunset. Why?",
       "options": [
         "Iron oxide staining left by retreating glaciers",
@@ -219,11 +300,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-22",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0828",
       "category": "Science & Nature",
+      "difficulty": null,
       "question": "What are phototropism and geotropism in plants — how do plants respond to light and gravity?",
       "options": [
         "Phototropism = food storage; geotropism = immune response",
@@ -239,7 +328,14 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-22",
+          "context": "daily"
+        }
+      ]
     }
   ]
 }

@@ -4,6 +4,7 @@
     {
       "id": "frq-0649",
       "category": "History",
+      "difficulty": null,
       "question": "Which war was ended by the Treaty of Appomattox Court House in 1865, where Confederate General Robert E. Lee surrendered?",
       "options": [
         "Spanish-American War",
@@ -19,11 +20,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-08",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0650",
       "category": "History",
+      "difficulty": null,
       "question": "The Warsaw Pact, a military alliance of communist nations, was formed in 1955 as a response to which Western alliance?",
       "options": [
         "CENTO",
@@ -39,11 +48,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-08",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0651",
       "category": "History",
+      "difficulty": null,
       "question": "Which African country was formerly known as Abyssinia?",
       "options": [
         "Kenya",
@@ -59,11 +76,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-08",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0652",
       "category": "Sports",
+      "difficulty": null,
       "question": "At the 2008 Beijing Olympics, which sprinter set a world record in the 100m, finishing in 9.69 seconds?",
       "options": [
         "Carl Lewis",
@@ -79,11 +104,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-08",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0653",
       "category": "Sports",
+      "difficulty": null,
       "question": "In which sport do athletes compete for the Ashes trophy?",
       "options": [
         "Tennis",
@@ -99,11 +132,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-08",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0654",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Which DreamWorks animated film, released in 2001, follows a green ogre who goes on a quest to rescue Princess Fiona from a dragon-guarded castle, accompanied by a fast-talking Donkey?",
       "options": [
         "Monsters, Inc.",
@@ -119,11 +160,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-08",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0655",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Which 1999 film directed by the Wachowski siblings featured Keanu Reeves discovering that reality is a simulation?",
       "options": [
         "Dark City",
@@ -139,11 +188,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-08",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0656",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Which musician has the most number-one hits on the Billboard Hot 100, with 42 as of 2024?",
       "options": [
         "Taylor Swift",
@@ -159,11 +216,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-08",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0657",
       "category": "Geography",
+      "difficulty": null,
       "question": "Which country is home to Angkor Wat, the world's largest religious monument?",
       "options": [
         "Vietnam",
@@ -179,11 +244,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-08",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0658",
       "category": "Science & Nature",
+      "difficulty": null,
       "question": "In 1924 Edwin Hubble used Cepheid variable stars to prove Andromeda lies outside the Milky Way. Why did Cepheids work?",
       "options": [
         "Their pulse period reveals true brightness, so distance",
@@ -199,11 +272,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-08",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0659",
       "category": "Geography",
+      "difficulty": null,
       "question": "The Azores, a Portuguese autonomous archipelago of nine islands known for volcanic landscape and whale watching, lies in which ocean?",
       "options": [
         "Atlantic Ocean",
@@ -219,11 +300,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-08",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0660",
       "category": "Science & Nature",
+      "difficulty": null,
       "question": "How do bacteria reproduce — what is the simple division process that allows them to double in number roughly every 20 minutes under ideal conditions?",
       "options": [
         "Sporulation",
@@ -239,7 +328,14 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-08",
+          "context": "daily"
+        }
+      ]
     }
   ]
 }

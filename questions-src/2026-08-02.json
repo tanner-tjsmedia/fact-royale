@@ -4,6 +4,7 @@
     {
       "id": "frq-0577",
       "category": "History",
+      "difficulty": null,
       "question": "Which U.S. president, who served four terms from 1933 to 1945, launched the New Deal to combat the Great Depression and led the country through most of World War II?",
       "options": [
         "Theodore Roosevelt",
@@ -19,11 +20,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-02",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0578",
       "category": "History",
+      "difficulty": null,
       "question": "The Black Death, a devastating pandemic that killed roughly one-third of Europe's population, swept across the continent during which century?",
       "options": [
         "12th century",
@@ -39,11 +48,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-02",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0579",
       "category": "Geography",
+      "difficulty": null,
       "question": "Antoni Gaudí's masterpiece, the Sagrada Família — a massive basilica still under construction over 140 years after it began — is located in which Spanish city?",
       "options": [
         "Valencia",
@@ -59,11 +76,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-02",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0580",
       "category": "History",
+      "difficulty": null,
       "question": "The printing press, invented around 1440, is credited to which German goldsmith — a development that revolutionized the spread of information and enabled the Protestant Reformation?",
       "options": [
         "Johannes Gutenberg",
@@ -79,11 +104,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-02",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0581",
       "category": "Sports",
+      "difficulty": null,
       "question": "In baseball, how many strikes result in a strikeout?",
       "options": [
         "5",
@@ -99,11 +132,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-02",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0582",
       "category": "Sports",
+      "difficulty": null,
       "question": "The 'Thrilla in Manila' (1975) was the third and final fight between Muhammad Ali and Joe Frazier. Why is it remembered as one of boxing's most brutal contests?",
       "options": [
         "Both fighters were knocked down multiple times before a judge's decision separated them after 15 rounds",
@@ -119,11 +160,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-02",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0583",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Chernobyl (HBO, 2019), a five-episode miniseries by Craig Mazin, received near-universal critical acclaim and broke records on IMDb. What storytelling approach made it distinctive?",
       "options": [
         "It reconstructed the disaster through meticulous historical research — dramatizing not just the explosion but the systemic institutional lying and Soviet political culture that caused it and amplified its consequences",
@@ -139,11 +188,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-02",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0584",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Nirvana's 'Nevermind' (1991) featured which iconic swimming baby on its cover?",
       "options": [
         "Dave Grohl's son",
@@ -159,11 +216,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-02",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0585",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Jean-Baptiste Lully, court composer to Louis XIV and one of the founders of French opera, died in one of history's most unusual composer deaths. What happened?",
       "options": [
         "Lully collapsed at the harpsichord during a performance after suffering a stroke triggered by the extreme physical exertion required by his conducting style — he died within minutes on stage",
@@ -179,11 +244,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-02",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0586",
       "category": "Geography",
+      "difficulty": null,
       "question": "What is the name of the narrow body of water that separates the Asian and North American continents?",
       "options": [
         "Drake Passage",
@@ -199,11 +272,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-02",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0587",
       "category": "Science & Nature",
+      "difficulty": null,
       "question": "What is the name for a group of stars that forms a recognizable pattern, like Orion or the Big Dipper?",
       "options": [
         "Galaxy",
@@ -219,11 +300,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-02",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0588",
       "category": "Science & Nature",
+      "difficulty": null,
       "question": "What are vestigial structures — and what do they reveal about evolution?",
       "options": [
         "Genetic mutations that benefit organisms",
@@ -239,7 +328,14 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-02",
+          "context": "daily"
+        }
+      ]
     }
   ]
 }

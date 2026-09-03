@@ -3,6 +3,7 @@
     {
       "id": "frq-0397",
       "category": "History",
+      "difficulty": null,
       "question": "The construction of which U.S. landmark began on August 28, 1963, the same day MLK gave his 'I Have a Dream' speech?",
       "options": [
         "The Pentagon",
@@ -18,11 +19,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-18",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0398",
       "category": "History",
+      "difficulty": null,
       "question": "Which country was formerly known as 'Persia'?",
       "options": [
         "Turkey",
@@ -38,11 +47,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-18",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0399",
       "category": "Sports",
+      "difficulty": null,
       "question": "What is the term for a score of three under par on a single hole in golf?",
       "options": [
         "Birdie",
@@ -58,11 +75,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-18",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0400",
       "category": "Sports",
+      "difficulty": null,
       "question": "How many players are on a water polo team in the pool?",
       "options": [
         "8",
@@ -78,11 +103,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-18",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0401",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Which film features the famous shower scene score by Bernard Herrmann?",
       "options": [
         "Vertigo",
@@ -98,11 +131,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-18",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0402",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Who sang 'I Will Always Love You' in the film 'The Bodyguard'?",
       "options": [
         "Celine Dion",
@@ -118,11 +159,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-18",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0403",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Which country does the band ABBA come from?",
       "options": [
         "Norway",
@@ -138,11 +187,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-18",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0404",
       "category": "History",
+      "difficulty": null,
       "question": "Which Roman emperor converted to Christianity?",
       "options": [
         "Augustus",
@@ -158,11 +215,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-18",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0405",
       "category": "Geography",
+      "difficulty": null,
       "question": "Iceland sits on the boundary between which two tectonic plates?",
       "options": [
         "African and Eurasian",
@@ -178,11 +243,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-18",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0406",
       "category": "Science & Nature",
+      "difficulty": null,
       "question": "Evidence strongly suggests that Mars once had liquid water on its surface — rivers, lakes, and possibly an ocean. What happened to it, and where is Mars's water now?",
       "options": [
         "Mars lost its global magnetic field about 4 billion years ago, exposing its atmosphere to the solar wind which stripped away atmospheric molecules — eventually making the planet too cold and low-pressure for liquid water. Most water is now frozen in the polar ice caps and locked in permafrost",
@@ -198,11 +271,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-18",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0407",
       "category": "Geography",
+      "difficulty": null,
       "question": "The Orinoco River, the third-longest river in South America, flows primarily through which country before emptying into the Atlantic Ocean?",
       "options": [
         "Brazil",
@@ -218,11 +299,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-18",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0408",
       "category": "Science & Nature",
+      "difficulty": null,
       "question": "Astronomers observe that distant galaxies are moving away from us, with farther galaxies receding faster. What causes the light from these galaxies to shift toward the red end of the spectrum?",
       "options": [
         "Gravitational lensing",
@@ -238,7 +327,14 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-18",
+          "context": "daily"
+        }
+      ]
     }
   ]
 }

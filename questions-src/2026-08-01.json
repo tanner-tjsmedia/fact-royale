@@ -4,6 +4,7 @@
     {
       "id": "frq-0565",
       "category": "History",
+      "difficulty": null,
       "question": "The first moon landing was achieved by which country in 1969?",
       "options": [
         "Soviet Union",
@@ -19,11 +20,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-01",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0566",
       "category": "History",
+      "difficulty": null,
       "question": "The Great Depression, one of the worst economic crises in history, began with a stock market crash in which year?",
       "options": [
         "1929",
@@ -39,11 +48,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-01",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0567",
       "category": "History",
+      "difficulty": null,
       "question": "Which U.S. president authorized the dropping of atomic bombs on Hiroshima and Nagasaki in August 1945, ending World War II in the Pacific?",
       "options": [
         "Harry Truman",
@@ -59,11 +76,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-01",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0568",
       "category": "Sports",
+      "difficulty": null,
       "question": "Dr. James Naismith invented basketball in 1891 at a YMCA in Springfield, Massachusetts. What was his nationality?",
       "options": [
         "Australian",
@@ -79,11 +104,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-01",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0569",
       "category": "Sports",
+      "difficulty": null,
       "question": "In Formula 1 racing, how many points does the winner of a race receive?",
       "options": [
         "10",
@@ -99,11 +132,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-01",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0570",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Which Seattle grunge band, fronted by Kurt Cobain, released 'Nevermind' in 1991 and brought alternative rock to mainstream audiences?",
       "options": [
         "Pearl Jam",
@@ -119,11 +160,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-01",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0571",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Jean-Michel Basquiat rose from painting graffiti on Manhattan streets as 'SAMO' to selling work for millions — all before his death at 27. What makes his art historically significant?",
       "options": [
         "He was discovered by Andy Warhol, who trained him for three years before Basquiat exceeded his mentor's commercial success and became the first artist to outsell Warhol at auction",
@@ -139,11 +188,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-01",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0572",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "What Pixar film features a rat who dreams of becoming a gourmet chef in Paris?",
       "options": [
         "Ratatouille",
@@ -159,11 +216,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-01",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0573",
       "category": "Geography",
+      "difficulty": null,
       "question": "Which two continents are connected by the Isthmus of Panama?",
       "options": [
         "Africa and Europe",
@@ -179,11 +244,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-01",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0574",
       "category": "Science & Nature",
+      "difficulty": null,
       "question": "Most stars in the Milky Way are not solitary like our Sun — they exist in binary or multiple star systems. What have binary stars revealed about stellar physics?",
       "options": [
         "Binary stars allow precise measurement of stellar masses (impossible for solitary stars) because orbital mechanics let astronomers directly calculate each star's mass from orbital period and separation",
@@ -199,11 +272,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-01",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0575",
       "category": "Geography",
+      "difficulty": null,
       "question": "The Yellow Sea, a semi-enclosed sea with unusually shallow, nutrient-rich water, lies between China and which peninsula?",
       "options": [
         "Korean",
@@ -219,11 +300,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-01",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0576",
       "category": "Science & Nature",
+      "difficulty": null,
       "question": "Underground reservoirs of fresh water stored in porous rock formations, from which wells and springs draw water, are called what?",
       "options": [
         "Estuaries",
@@ -239,7 +328,14 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-01",
+          "context": "daily"
+        }
+      ]
     }
   ]
 }

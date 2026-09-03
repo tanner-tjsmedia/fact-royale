@@ -3,6 +3,7 @@
     {
       "id": "frq-0241",
       "category": "History",
+      "difficulty": null,
       "question": "The Suez Canal connects which two bodies of water?",
       "options": [
         "Mediterranean Sea and Red Sea",
@@ -18,11 +19,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-05",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0242",
       "category": "History",
+      "difficulty": null,
       "question": "Who invented the World Wide Web?",
       "options": [
         "Vint Cerf",
@@ -38,11 +47,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-05",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0243",
       "category": "Sports",
+      "difficulty": null,
       "question": "What is the fastest recorded serve in professional tennis?",
       "options": [
         "175 mph",
@@ -58,11 +75,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-05",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0244",
       "category": "Sports",
+      "difficulty": null,
       "question": "Barry Bonds set the MLB single-season home run record in 2001. How many did he hit, and what controversy surrounds the record?",
       "options": [
         "70 home runs; Bonds allegedly corked his bat in several games that season",
@@ -78,11 +103,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-05",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0245",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Tom Hanks won his second consecutive Best Actor Oscar for playing a kind-hearted Alabama man who inadvertently witnesses key events in American history — from Vietnam to Watergate. What is the film?",
       "options": [
         "Forrest Gump",
@@ -98,11 +131,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-05",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0246",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "What was the first feature-length animated film produced by Walt Disney?",
       "options": [
         "Snow White and the Seven Dwarfs",
@@ -118,11 +159,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-05",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0247",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Which 1980s band is known for 'Don't Stop Believin''?",
       "options": [
         "Foreigner",
@@ -138,11 +187,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-05",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0248",
       "category": "History",
+      "difficulty": null,
       "question": "The ancient city of Pompeii was destroyed by the eruption of which volcano?",
       "options": [
         "Mount Vesuvius",
@@ -158,11 +215,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-05",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0249",
       "category": "Geography",
+      "difficulty": null,
       "question": "Which country has the longest coastline in the world?",
       "options": [
         "Norway",
@@ -178,11 +243,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-05",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0250",
       "category": "Science & Nature",
+      "difficulty": null,
       "question": "Carl Sagan famously said 'We are made of star stuff.' What is the scientific basis for this statement?",
       "options": [
         "All atoms on Earth arrived via meteorites that fell from dying stars, meaning every element in the human body was physically inside a star before it was ejected into space",
@@ -198,11 +271,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-05",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0251",
       "category": "Geography",
+      "difficulty": null,
       "question": "The Ganges River, sacred to hundreds of millions of Hindus, flows through India and empties into which bay?",
       "options": [
         "Bay of Bengal",
@@ -218,11 +299,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-05",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0252",
       "category": "Science & Nature",
+      "difficulty": null,
       "question": "Which organ in the human body produces bile, which helps break down dietary fats during digestion?",
       "options": [
         "Liver",
@@ -238,7 +327,14 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-05",
+          "context": "daily"
+        }
+      ]
     }
   ]
 }

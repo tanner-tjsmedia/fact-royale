@@ -4,6 +4,7 @@
     {
       "id": "frq-0805",
       "category": "History",
+      "difficulty": null,
       "question": "Around 300 Spartans held Thermopylae in 480 BC, but they were not alone. Who else fought and died there?",
       "options": [
         "A Persian contingent that defected on the second day",
@@ -23,11 +24,19 @@
         "at": "2026-09-03",
         "by": "tanner@tjs16media.com",
         "note": "carried over: had a cited source before IDs existed"
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-21",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0806",
       "category": "History",
+      "difficulty": null,
       "question": "Who assassinated Archduke Franz Ferdinand of Austria in 1914, triggering World War I?",
       "options": [
         "A Russian anarchist",
@@ -48,11 +57,19 @@
         "at": "2026-09-03",
         "by": "tanner@tjs16media.com",
         "note": "carried over: had a cited source before IDs existed"
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-21",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0807",
       "category": "History",
+      "difficulty": null,
       "question": "Napoleon's soldiers found the Rosetta Stone in 1799. Who ended up with it, and how?",
       "options": [
         "France kept it, and it remains in the Louvre today",
@@ -72,11 +89,19 @@
         "at": "2026-09-03",
         "by": "tanner@tjs16media.com",
         "note": "carried over: had a cited source before IDs existed"
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-21",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0808",
       "category": "Sports",
+      "difficulty": null,
       "question": "A hat trick means three of something in one game. Where did cricket's original version get its name?",
       "options": [
         "Three hats were awarded at the end of each season",
@@ -92,11 +117,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-21",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0809",
       "category": "Sports",
+      "difficulty": null,
       "question": "Tokyo 1964 was the first Olympics held in Asia. What technology did those Games introduce?",
       "options": [
         "The first use of synthetic running tracks",
@@ -112,11 +145,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-21",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0810",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Easy Rider (1969) cost around $400,000 and changed Hollywood. What did it prove to the studios?",
       "options": [
         "Colour film stock was no longer necessary for a hit",
@@ -132,11 +173,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-21",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0811",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Whitney Houston's I Will Always Love You spent fourteen weeks at number one in 1992. Who wrote it?",
       "options": [
         "Prince, under one of his several pseudonyms",
@@ -152,11 +201,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-21",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0812",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "The Wolf of Wall Street (2013) drew criticism alongside its five Oscar nominations. What was the complaint?",
       "options": [
         "Belfort was paid more than his victims ever recovered",
@@ -172,11 +229,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-21",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0813",
       "category": "Geography",
+      "difficulty": null,
       "question": "Parts of the Atacama Desert have never recorded rainfall. What do scientists use it for?",
       "options": [
         "Testing Mars rovers, since the soil is comparably lifeless",
@@ -192,11 +257,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-21",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0814",
       "category": "Science & Nature",
+      "difficulty": null,
       "question": "Decomposers break down dead material. What would happen to a forest without them?",
       "options": [
         "Dead material slowly evaporates away into the atmosphere",
@@ -216,11 +289,19 @@
         "at": "2026-09-03",
         "by": "tanner@tjs16media.com",
         "note": "carried over: had a cited source before IDs existed"
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-21",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0815",
       "category": "Geography",
+      "difficulty": null,
       "question": "The Lena is one of the world's ten longest rivers, running north through Siberia. What does flowing north cause?",
       "options": [
         "Spring ice jams downstream, flooding upstream towns",
@@ -236,11 +317,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-21",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0816",
       "category": "Science & Nature",
+      "difficulty": null,
       "question": "Clinical trials are usually double-blind. What does the second blind protect against?",
       "options": [
         "Patients guessing which treatment they received",
@@ -256,7 +345,14 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-21",
+          "context": "daily"
+        }
+      ]
     }
   ]
 }

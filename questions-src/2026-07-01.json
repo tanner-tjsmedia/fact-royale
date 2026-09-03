@@ -3,6 +3,7 @@
     {
       "id": "frq-0193",
       "category": "History",
+      "difficulty": null,
       "question": "What event triggered the start of World War I?",
       "options": [
         "The sinking of the Lusitania",
@@ -18,11 +19,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-01",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0194",
       "category": "History",
+      "difficulty": null,
       "question": "The Magna Carta was signed in which year?",
       "options": [
         "1066",
@@ -38,11 +47,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-01",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0195",
       "category": "Sports",
+      "difficulty": null,
       "question": "Walter Payton, nicknamed 'Sweetness,' held the NFL all-time rushing record for 18 years. Who eventually broke his record and when?",
       "options": [
         "Emmitt Smith broke it in 2002 with the Dallas Cowboys",
@@ -58,11 +75,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-01",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0196",
       "category": "Sports",
+      "difficulty": null,
       "question": "What does 'NFL' stand for?",
       "options": [
         "North Football League",
@@ -78,11 +103,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-01",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0197",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Salvador Dalí's 'The Persistence of Memory' (1931) — with its melting watches in a dreamlike landscape — is one of Surrealism's most iconic images. What philosophical idea does it express?",
       "options": [
         "That all human achievements eventually crumble, with watches symbolizing the futility of human ambition against nature",
@@ -98,11 +131,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-01",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0198",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "'Hotel California' is a song by which band?",
       "options": [
         "Eagles",
@@ -118,11 +159,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-01",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0199",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Who wrote the novel that 'The Godfather' film is based on?",
       "options": [
         "Tom Clancy",
@@ -138,11 +187,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-01",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0200",
       "category": "History",
+      "difficulty": null,
       "question": "Which Roman leader was famously betrayed and assassinated on the Ides of March?",
       "options": [
         "Mark Antony",
@@ -158,11 +215,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-01",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0201",
       "category": "Geography",
+      "difficulty": null,
       "question": "Which ocean is the largest by surface area?",
       "options": [
         "Atlantic Ocean",
@@ -178,11 +243,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-01",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0202",
       "category": "Science & Nature",
+      "difficulty": null,
       "question": "Neutron stars are the densest objects in the universe besides black holes — a teaspoon of neutron star material would weigh about a billion tons on Earth. How do they form?",
       "options": [
         "Neutron stars are ancient relics from the Big Bang — the only objects dense enough to survive from the universe's first seconds, slowly cooling over 13 billion years",
@@ -198,11 +271,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-01",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0203",
       "category": "Geography",
+      "difficulty": null,
       "question": "The Aral Sea, once the world's fourth-largest lake, has lost approximately 90% of its water since the 1960s due to Soviet irrigation projects. In which two countries do its remnants now lie?",
       "options": [
         "Turkmenistan and Kazakhstan",
@@ -218,11 +299,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-01",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0204",
       "category": "Science & Nature",
+      "difficulty": null,
       "question": "What is the process that powers the Sun — fusing hydrogen atoms at extreme temperatures to release enormous amounts of energy?",
       "options": [
         "Nuclear fission",
@@ -238,7 +327,14 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-01",
+          "context": "daily"
+        }
+      ]
     }
   ]
 }

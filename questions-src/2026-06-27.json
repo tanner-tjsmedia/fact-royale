@@ -3,6 +3,7 @@
     {
       "id": "frq-0145",
       "category": "History",
+      "difficulty": null,
       "question": "Which ancient wonder was located in Alexandria, Egypt?",
       "options": [
         "The Lighthouse of Alexandria",
@@ -18,11 +19,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-27",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0146",
       "category": "History",
+      "difficulty": null,
       "question": "What year did the Berlin Wall fall?",
       "options": [
         "1987",
@@ -38,11 +47,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-27",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0147",
       "category": "Geography",
+      "difficulty": null,
       "question": "Which tiny European republic, entirely surrounded by Italy and claiming to be founded in 301 AD, is considered the world's oldest surviving republic?",
       "options": [
         "Liechtenstein",
@@ -58,11 +75,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-27",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0148",
       "category": "History",
+      "difficulty": null,
       "question": "The Rosetta Stone, found in 1799, unlocked Egyptian hieroglyphs. What made it the key?",
       "options": [
         "It listed every pharaoh's name in chronological order",
@@ -78,11 +103,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-27",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0149",
       "category": "Sports",
+      "difficulty": null,
       "question": "In which sport would you perform a 'slam dunk'?",
       "options": [
         "Volleyball",
@@ -98,11 +131,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-27",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0150",
       "category": "Sports",
+      "difficulty": null,
       "question": "What country has won the most FIFA World Cup titles?",
       "options": [
         "Brazil",
@@ -118,11 +159,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-27",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0151",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Which film features the song 'Somewhere Over the Rainbow'?",
       "options": [
         "Cinderella",
@@ -138,11 +187,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-27",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0152",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Andy Warhol's 'Factory' studio in New York was the center of a remarkable creative scene in the 1960s. What was Warhol's central argument about art and consumer culture?",
       "options": [
         "That the boundary between high art and commercial imagery was artificial — mass-produced consumer goods (Campbell's soup, Brillo boxes, celebrity photos) were as worthy of artistic attention as any subject",
@@ -158,11 +215,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-27",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0153",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Which band released the album 'Abbey Road'?",
       "options": [
         "The Who",
@@ -178,11 +243,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-27",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0154",
       "category": "Science & Nature",
+      "difficulty": null,
       "question": "In chemistry, what is the name for a solution that resists significant changes to its pH when small amounts of acid or base are added?",
       "options": [
         "Alloy",
@@ -198,11 +271,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-27",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0155",
       "category": "Geography",
+      "difficulty": null,
       "question": "Which is the world's smallest country by area?",
       "options": [
         "San Marino",
@@ -218,11 +299,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-27",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0156",
       "category": "Science & Nature",
+      "difficulty": null,
       "question": "The Hubble Space Telescope, launched in 1990, was initially a near-catastrophic failure before becoming one of science's greatest instruments. What went wrong — and how was it fixed?",
       "options": [
         "Hubble's primary mirror was polished to the wrong shape — off by just 2.2 micrometers — creating blurry images; astronauts installed corrective optics in a 1993 spacewalk that saved the mission",
@@ -238,7 +327,14 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-27",
+          "context": "daily"
+        }
+      ]
     }
   ]
 }

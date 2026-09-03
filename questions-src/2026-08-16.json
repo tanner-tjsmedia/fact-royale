@@ -4,6 +4,7 @@
     {
       "id": "frq-0745",
       "category": "History",
+      "difficulty": null,
       "question": "Elvis Presley's Graceland is the second most visited private home in America. Which house draws more?",
       "options": [
         "The White House",
@@ -19,11 +20,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-16",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0746",
       "category": "History",
+      "difficulty": null,
       "question": "The First Crusade captured Jerusalem in 1099. What did Pope Urban II promise those who went?",
       "options": [
         "Command of a papal fleet in the Mediterranean",
@@ -39,11 +48,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-16",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0747",
       "category": "History",
+      "difficulty": null,
       "question": "The Wright brothers flew at Kitty Hawk in 1903. What did they solve that others had not?",
       "options": [
         "How to make a propeller from laminated spruce",
@@ -59,11 +76,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-16",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0748",
       "category": "Sports",
+      "difficulty": null,
       "question": "Volleyball limits each side to three touches before returning the ball. Which touch does not count?",
       "options": [
         "Any touch made below the waist",
@@ -79,11 +104,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-16",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0749",
       "category": "Sports",
+      "difficulty": null,
       "question": "Offside exists in both soccer and hockey but works differently. What is the soccer version?",
       "options": [
         "Ahead of the halfway line without possession",
@@ -99,11 +132,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-16",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0750",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Schindler's Ark won the Booker Prize in 1982, then caused an argument. What was the objection?",
       "options": [
         "Its author had never visited Poland or Germany",
@@ -119,11 +160,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-16",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0751",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "The Notorious B.I.G. released Ready to Die in 1994. What had he been doing shortly before?",
       "options": [
         "Selling crack in Brooklyn, having dropped out at seventeen",
@@ -139,11 +188,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-16",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0752",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Spirited Away won Best Animated Feature in 2003. What did its director do about the award?",
       "options": [
         "He donated the statuette to a museum in Tokyo",
@@ -159,11 +216,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-16",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0753",
       "category": "Geography",
+      "difficulty": null,
       "question": "The Nile's source was argued over by European explorers for decades. Why was it so hard to settle?",
       "options": [
         "No European survived the journey until the 1900s",
@@ -179,11 +244,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-16",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0754",
       "category": "Science & Nature",
+      "difficulty": null,
       "question": "A supermoon looks bigger because the Moon's orbit is not circular. How much bigger is it actually?",
       "options": [
         "Roughly double the usual apparent diameter",
@@ -199,11 +272,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-16",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0755",
       "category": "Geography",
+      "difficulty": null,
       "question": "The Murray River, Australia's longest at 2,508 km, forms the border between which two Australian states?",
       "options": [
         "South Australia and Victoria",
@@ -219,11 +300,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-16",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0756",
       "category": "Science & Nature",
+      "difficulty": null,
       "question": "Fertiliser runoff into a lake triggers a chain of events that kills fish. What actually kills them?",
       "options": [
         "Mats of algae physically clog and block the fishes' gills",
@@ -239,7 +328,14 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-16",
+          "context": "daily"
+        }
+      ]
     }
   ]
 }

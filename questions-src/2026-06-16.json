@@ -4,6 +4,7 @@
     {
       "id": "frq-0013",
       "category": "History",
+      "difficulty": null,
       "question": "Which U.S. President signed the Emancipation Proclamation in 1863?",
       "options": [
         "James Buchanan",
@@ -19,11 +20,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-16",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0014",
       "category": "History",
+      "difficulty": null,
       "question": "What ancient city was buried under volcanic ash when Mount Vesuvius erupted in 79 AD?",
       "options": [
         "Athens",
@@ -39,11 +48,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-16",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0015",
       "category": "History",
+      "difficulty": null,
       "question": "The Silk Road was a network of trade routes connecting China to which region?",
       "options": [
         "Australia",
@@ -59,11 +76,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-16",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0016",
       "category": "Sports",
+      "difficulty": null,
       "question": "In what sport would you perform a 'slam dunk'?",
       "options": [
         "Basketball",
@@ -79,11 +104,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-16",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0017",
       "category": "Sports",
+      "difficulty": null,
       "question": "How many players are on the field for one team in American football?",
       "options": [
         "11",
@@ -99,11 +132,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-16",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0018",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Mark Rothko was a leading Abstract Expressionist whose large-scale color field paintings became iconic. What makes his approach to painting philosophically distinctive?",
       "options": [
         "He insisted his paintings were not abstract — they were expressions of basic human emotions (tragedy, ecstasy, doom), and he wanted viewers to weep in front of them",
@@ -119,11 +160,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-16",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0019",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Which artist released the best-selling album 'Thriller' in 1982?",
       "options": [
         "Prince",
@@ -139,11 +188,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-16",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0020",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "The Sopranos (1999–2007) is widely regarded as the television series that launched the 'Golden Age of TV.' What made it a watershed moment for the medium?",
       "options": [
         "It was the first television series to have a budget exceeding $5 million per episode, establishing that TV could compete with film financially",
@@ -159,11 +216,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-16",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0021",
       "category": "Geography",
+      "difficulty": null,
       "question": "Victoria Falls — called 'the smoke that thunders' by locals — sits on the border of Zimbabwe and which neighboring country?",
       "options": [
         "Angola",
@@ -179,11 +244,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-16",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0022",
       "category": "Science & Nature",
+      "difficulty": null,
       "question": "What term describes the rigid outer shell of Earth, broken into tectonic plates that slowly drift on the semi-molten rock beneath?",
       "options": [
         "Asthenosphere",
@@ -199,11 +272,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-16",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0023",
       "category": "Geography",
+      "difficulty": null,
       "question": "Which river, flowing entirely within Russia, is the longest in Europe and empties into the Caspian Sea?",
       "options": [
         "Don",
@@ -219,11 +300,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-16",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0024",
       "category": "Science & Nature",
+      "difficulty": null,
       "question": "At which two points in Earth's orbit is it closest to and farthest from the Sun?",
       "options": [
         "Perihelion and aphelion",
@@ -239,7 +328,14 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-16",
+          "context": "daily"
+        }
+      ]
     }
   ]
 }

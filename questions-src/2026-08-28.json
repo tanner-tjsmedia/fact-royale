@@ -4,6 +4,7 @@
     {
       "id": "frq-0889",
       "category": "History",
+      "difficulty": null,
       "question": "The Great Wall of China is often said to be visible from space. Is it?",
       "options": [
         "Yes, but only at sunrise when the shadows lengthen it",
@@ -19,11 +20,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-28",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0890",
       "category": "Science & Nature",
+      "difficulty": null,
       "question": "A proton carries positive charge. What did the discovery of quarks reveal about it?",
       "options": [
         "It can decay into a neutron under normal conditions",
@@ -39,11 +48,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-28",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0891",
       "category": "Sports",
+      "difficulty": null,
       "question": "Jack Nicklaus won 18 majors. What is less well known about his record?",
       "options": [
         "He played only sixty tournaments in his entire career",
@@ -59,11 +76,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-28",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0892",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Goodfellas (1990) follows a real FBI informant. What happened to Henry Hill afterward?",
       "options": [
         "He was never identified and still lives anonymously today",
@@ -79,11 +104,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-28",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0893",
       "category": "Geography",
+      "difficulty": null,
       "question": "The Arctic Ocean is the smallest and shallowest. What is happening to its ice?",
       "options": [
         "September extent is down around 12% per decade since 1979",
@@ -102,11 +135,19 @@
         "at": "2026-09-03",
         "by": "tanner@tjs16media.com",
         "note": "carried over: had a cited source before IDs existed"
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-28",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0894",
       "category": "History",
+      "difficulty": null,
       "question": "Franz Ferdinand's assassination triggered the First World War. What nearly prevented it?",
       "options": [
         "Guards arrested the assassin an hour before the parade",
@@ -122,11 +163,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-28",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0895",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Robert Downey Jr played Iron Man for over a decade. Why did Marvel almost not cast him?",
       "options": [
         "He was uninsurable after years of drug arrests and jail",
@@ -142,11 +191,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-28",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0896",
       "category": "Science & Nature",
+      "difficulty": null,
       "question": "The ISS has been continuously crewed since November 2000. Which description of it is accurate?",
       "options": [
         "Built whole in the Mojave, launched on a Saturn V",
@@ -162,11 +219,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-28",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0897",
       "category": "Geography",
+      "difficulty": null,
       "question": "Lake Baikal holds about 20% of the world's unfrozen fresh water. What makes it so deep?",
       "options": [
         "It sits in a continental rift that is still pulling apart",
@@ -182,11 +247,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-28",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0898",
       "category": "History",
+      "difficulty": null,
       "question": "Joan of Arc turned the Hundred Years' War at seventeen. What happened to her afterward?",
       "options": [
         "She led French forces until the war ended in 1453",
@@ -202,11 +275,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-28",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0899",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Jay-Z became hip-hop's first billionaire. Where does most of that wealth come from?",
       "options": [
         "Touring revenue accumulated over three decades",
@@ -222,11 +303,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-28",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0900",
       "category": "Sports",
+      "difficulty": null,
       "question": "The Olympic medley relay has four swimmers using four different strokes. What is the order?",
       "options": [
         "Freestyle, butterfly, breaststroke, backstroke",
@@ -242,7 +331,14 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-28",
+          "context": "daily"
+        }
+      ]
     }
   ]
 }

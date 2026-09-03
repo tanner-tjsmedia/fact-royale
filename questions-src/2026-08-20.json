@@ -4,6 +4,7 @@
     {
       "id": "frq-0793",
       "category": "Sports",
+      "difficulty": null,
       "question": "Maradona's Hand of God goal stood in 1986 because the referee could not see it. What has changed since?",
       "options": [
         "Handball was legalised for attacking players in 1992",
@@ -19,11 +20,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-20",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0794",
       "category": "History",
+      "difficulty": null,
       "question": "The Bay of Pigs invasion failed within three days in 1961. What did Kennedy withhold at the last moment?",
       "options": [
         "Weapons, leaving the brigade with training rifles",
@@ -39,11 +48,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-20",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0795",
       "category": "History",
+      "difficulty": null,
       "question": "The Parthenon stood largely intact for over two thousand years. What destroyed most of it?",
       "options": [
         "Ottoman forces dismantled it for building material",
@@ -59,11 +76,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-20",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0796",
       "category": "History",
+      "difficulty": null,
       "question": "Mao's Great Leap Forward aimed to industrialise China rapidly. What made the famine so severe?",
       "options": [
         "Farmers deliberately destroyed crops as a form of protest",
@@ -79,11 +104,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-20",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0797",
       "category": "Sports",
+      "difficulty": null,
       "question": "The Olympic torch relay was introduced at the 1936 Berlin Games. Who devised it?",
       "options": [
         "Greek officials, as a condition of hosting rights",
@@ -99,11 +132,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-20",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0798",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "David Lynch's Eraserhead took five years to finish. How did he keep it going?",
       "options": [
         "A film school grant covered the entire production",
@@ -119,11 +160,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-20",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0799",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Otis Redding wrote Respect in 1965, but Aretha Franklin's 1967 version is the one people know. What did she change?",
       "options": [
         "She slowed it into a gospel ballad with no rhythm section",
@@ -139,11 +188,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-20",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0800",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Tootsie (1982) has Dustin Hoffman playing an actor disguised as a woman. What did Hoffman say the role taught him?",
       "options": [
         "He learned he preferred comedy to dramatic roles",
@@ -159,11 +216,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-20",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0801",
       "category": "Geography",
+      "difficulty": null,
       "question": "The Tigris and Euphrates both rise in Turkey and flow through Iraq. What tension does that create?",
       "options": [
         "Both rivers change course across the border annually",
@@ -179,11 +244,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-20",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0802",
       "category": "Science & Nature",
+      "difficulty": null,
       "question": "What is the name of the star closest to our solar system?",
       "options": [
         "Sirius",
@@ -199,11 +272,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-20",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0803",
       "category": "Geography",
+      "difficulty": null,
       "question": "Uluru rises 348 metres from the Australian desert. How much of it is underground?",
       "options": [
         "Roughly half, matching what is visible above the ground",
@@ -219,11 +300,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-20",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0804",
       "category": "Science & Nature",
+      "difficulty": null,
       "question": "Stem cells can become other cell types, but not all are equally flexible. What can an embryonic stem cell do that an adult one cannot?",
       "options": [
         "Survive outside the body without a nutrient medium",
@@ -239,7 +328,14 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-20",
+          "context": "daily"
+        }
+      ]
     }
   ]
 }

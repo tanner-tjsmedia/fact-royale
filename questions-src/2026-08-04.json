@@ -4,6 +4,7 @@
     {
       "id": "frq-0601",
       "category": "History",
+      "difficulty": null,
       "question": "Which ancient wonder was a giant statue straddling the harbor of the Greek island of Rhodes?",
       "options": [
         "Lighthouse of Alexandria",
@@ -19,11 +20,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-04",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0602",
       "category": "History",
+      "difficulty": null,
       "question": "The Reign of Terror during the French Revolution was associated with which political leader?",
       "options": [
         "Napoleon Bonaparte",
@@ -39,11 +48,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-04",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0603",
       "category": "History",
+      "difficulty": null,
       "question": "Who wrote the Communist Manifesto, published in 1848?",
       "options": [
         "Friedrich Engels and Karl Marx",
@@ -59,11 +76,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-04",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0604",
       "category": "Sports",
+      "difficulty": null,
       "question": "What is the maximum number of sets in a men's Grand Slam tennis match?",
       "options": [
         "4",
@@ -79,11 +104,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-04",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0605",
       "category": "Sports",
+      "difficulty": null,
       "question": "What term describes a perfect game in bowling — 12 consecutive strikes?",
       "options": [
         "Grand slam",
@@ -99,11 +132,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-04",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0606",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Which British band is known for 'Hey Jude,' 'Let It Be,' and 'Come Together'?",
       "options": [
         "The Kinks",
@@ -119,11 +160,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-04",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0607",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Which 1980s coming-of-age film featured the song 'Don't You (Forget About Me)' by Simple Minds?",
       "options": [
         "Ferris Bueller's Day Off",
@@ -139,11 +188,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-04",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0608",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Banksy is the world's most famous anonymous street artist, whose identity has never been officially confirmed. What aspect of Banksy's practice makes their work historically significant beyond its visual impact?",
       "options": [
         "Banksy's 2018 auction stunt — where 'Girl With Balloon' shredded itself moments after selling for $1.4 million — was later revealed to have increased the work's value to $25.4 million, making it one of the most expensive British artworks ever sold",
@@ -159,11 +216,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-04",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0609",
       "category": "Geography",
+      "difficulty": null,
       "question": "Which South American country is home to the Galapagos Islands, famous for inspiring Darwin's theory of evolution?",
       "options": [
         "Ecuador",
@@ -179,11 +244,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-04",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0610",
       "category": "Science & Nature",
+      "difficulty": null,
       "question": "What is the term for the process by which one species gradually changes into another over many generations?",
       "options": [
         "Genetic drift",
@@ -199,11 +272,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-04",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0611",
       "category": "Geography",
+      "difficulty": null,
       "question": "Mount Olympus, the highest peak in Greece at 2,917 meters, is located in which part of the country?",
       "options": [
         "In northern Greece near Thessaloniki",
@@ -219,11 +300,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-04",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0612",
       "category": "Science & Nature",
+      "difficulty": null,
       "question": "When a ball rolls downhill, what conversion of energy is occurring?",
       "options": [
         "Chemical to kinetic",
@@ -239,7 +328,14 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-04",
+          "context": "daily"
+        }
+      ]
     }
   ]
 }

@@ -4,6 +4,7 @@
     {
       "id": "frq-0949",
       "category": "History",
+      "difficulty": null,
       "question": "The Korean War ended in armistice at roughly the border where it began. What is the DMZ now?",
       "options": [
         "A fully open crossing used by many thousands of commuters every day",
@@ -19,11 +20,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-09-02",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0950",
       "category": "Science & Nature",
+      "difficulty": null,
       "question": "The human genome runs to about 3 billion base pairs. How much of it codes for proteins?",
       "options": [
         "Roughly 1 to 2 percent, with the rest doing other things",
@@ -39,11 +48,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-09-02",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0951",
       "category": "Sports",
+      "difficulty": null,
       "question": "Federer holds the men's record for Wimbledon singles titles. What is unusual about grass-court tennis?",
       "options": [
         "The season lasts only a few weeks of the entire year",
@@ -59,11 +76,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-09-02",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0952",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Inception (2010) hinges on a spinning top. What did Christopher Nolan say about the ending?",
       "options": [
         "The top was added in editing and means nothing at all",
@@ -79,11 +104,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-09-02",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0953",
       "category": "Geography",
+      "difficulty": null,
       "question": "The Black Sea is bordered by six countries. What makes its deep water unusual?",
       "options": [
         "Its depth changes by several metres between the seasons",
@@ -99,11 +132,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-09-02",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0954",
       "category": "History",
+      "difficulty": null,
       "question": "Hannibal crossed the Alps with elephants to attack Rome. How did that campaign end?",
       "options": [
         "He won repeatedly in Italy but never took the city itself",
@@ -119,11 +160,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-09-02",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0955",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Tolkien invented languages before he wrote The Lord of the Rings. Which came first?",
       "options": [
         "The languages, with the stories built to give them speakers",
@@ -139,11 +188,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-09-02",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0956",
       "category": "Science & Nature",
+      "difficulty": null,
       "question": "Darwin sat on natural selection for over twenty years. What finally made him publish?",
       "options": [
         "His university threatened to withdraw his research funding",
@@ -159,11 +216,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-09-02",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0957",
       "category": "Geography",
+      "difficulty": null,
       "question": "The Danube flows through more countries than any other river. How many?",
       "options": [
         "Six, all of which are members of the European Union",
@@ -179,11 +244,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-09-02",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0958",
       "category": "History",
+      "difficulty": null,
       "question": "Sputnik 1 launched in October 1957 and did almost nothing. Why did it matter so much?",
       "options": [
         "It photographed American military installations from above",
@@ -199,11 +272,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-09-02",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0959",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Lady Gaga wore a dress made of raw meat in 2010. What did she say it meant?",
       "options": [
         "A statement about the fashion industry's treatment of models",
@@ -219,11 +300,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-09-02",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0960",
       "category": "Sports",
+      "difficulty": null,
       "question": "A perfect game means 27 batters up and 27 down. How rare is it?",
       "options": [
         "Twenty-four in over 150 years of Major League Baseball",
@@ -242,7 +331,14 @@
         "at": "2026-09-03",
         "by": "tanner@tjs16media.com",
         "note": "carried over: had a cited source before IDs existed"
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-09-02",
+          "context": "daily"
+        }
+      ]
     }
   ]
 }

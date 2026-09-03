@@ -4,6 +4,7 @@
     {
       "id": "frq-0529",
       "category": "History",
+      "difficulty": null,
       "question": "The Boston Tea Party of 1773 saw American colonists dump 342 chests of which commodity into Boston Harbor to protest British taxation without representation?",
       "options": [
         "Cotton",
@@ -19,11 +20,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-29",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0530",
       "category": "History",
+      "difficulty": null,
       "question": "Which ancient Egyptian queen was famously linked with both Julius Caesar and Mark Antony?",
       "options": [
         "Ankhesenamun",
@@ -39,11 +48,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-29",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0531",
       "category": "History",
+      "difficulty": null,
       "question": "What was the name of the first artificial satellite launched into space, sent by the Soviet Union in 1957?",
       "options": [
         "Explorer 1",
@@ -59,11 +76,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-29",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0532",
       "category": "Sports",
+      "difficulty": null,
       "question": "Which country won the first FIFA World Cup in 1930?",
       "options": [
         "Brazil",
@@ -79,11 +104,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-29",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0533",
       "category": "Sports",
+      "difficulty": null,
       "question": "Usain Bolt set the 100m world record of 9.58 seconds at the 2009 Berlin World Championships. What biomechanical factors explain his dominance — and what is his unusual running pattern?",
       "options": [
         "Bolt's combination of unusually long stride length (2.44m) and still-elite stride frequency means he takes fewer strides than shorter sprinters while covering the same distance — his 6'5\" frame produces natural mechanical advantages",
@@ -99,11 +132,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-29",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0534",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Alfred Hitchcock's 'Vertigo' (1958) was considered a box office disappointment in his lifetime — yet it topped the Sight & Sound poll as the greatest film ever made in 2012. What specific filmmaking technique did Hitchcock invent for it, and what psychological effect was it designed to create?",
       "options": [
         "Hitchcock invented the 'dolly zoom' (also called the 'Vertigo effect') — simultaneously dollying the camera toward a subject while zooming out — making the background appear to rush away while the subject stays the same size, visually simulating acrophobic dread",
@@ -119,11 +160,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-29",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0535",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Adele's album '21' (2011) became one of the best-selling albums in history. Which single from it won Record of the Year at the Grammys?",
       "options": [
         "Someone Like You",
@@ -139,11 +188,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-29",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0536",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "George Orwell's '1984' (1949) introduced terms like 'Big Brother,' 'doublethink,' and 'Newspeak' into the English language. What personal experience shaped Orwell's vision of totalitarianism?",
       "options": [
         "Orwell developed his vision of totalitarianism by studying the Nazi concentration camp system, which he wrote about in a classified British government report before adapting the material for 1984",
@@ -159,11 +216,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-29",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0537",
       "category": "Geography",
+      "difficulty": null,
       "question": "Which African country contains the most of the Sahara Desert by land area?",
       "options": [
         "Libya",
@@ -179,11 +244,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-29",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0538",
       "category": "Science & Nature",
+      "difficulty": null,
       "question": "Which planet in our solar system is closest to the Sun?",
       "options": [
         "Mercury",
@@ -199,11 +272,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-29",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0539",
       "category": "Geography",
+      "difficulty": null,
       "question": "The Caucasus Mountains between the Black Sea and Caspian Sea form a geographic boundary separating which two continents?",
       "options": [
         "Asia and Africa",
@@ -219,11 +300,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-29",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0540",
       "category": "Science & Nature",
+      "difficulty": null,
       "question": "What environmental problem occurs when sulfur dioxide and nitrogen oxides released by burning fossil fuels react with atmospheric moisture to form acidic precipitation?",
       "options": [
         "Acid rain",
@@ -239,7 +328,14 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-29",
+          "context": "daily"
+        }
+      ]
     }
   ]
 }

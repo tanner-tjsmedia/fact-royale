@@ -4,6 +4,7 @@
     {
       "id": "frq-0973",
       "category": "History",
+      "difficulty": null,
       "question": "Convicted in 399 BC, Socrates was invited to propose his own penalty instead of death. What did he suggest?",
       "options": [
         "Free meals at public expense, for the rest of his life",
@@ -23,11 +24,14 @@
         "at": "2026-09-03",
         "by": "tanner@tjs16media.com",
         "note": "carried over: had a cited source before IDs existed"
-      }
+      },
+      "status": "active",
+      "usage": []
     },
     {
       "id": "frq-0974",
       "category": "History",
+      "difficulty": null,
       "question": "The Silk Road connected China to the Mediterranean for centuries. What is wrong with the name?",
       "options": [
         "Silk was banned along most of the route",
@@ -48,11 +52,14 @@
         "at": "2026-09-03",
         "by": "tanner@tjs16media.com",
         "note": "carried over: had a cited source before IDs existed"
-      }
+      },
+      "status": "active",
+      "usage": []
     },
     {
       "id": "frq-0975",
       "category": "History",
+      "difficulty": null,
       "question": "Cicero called Herodotus the Father of History. What did Plutarch call him?",
       "options": [
         "The Father of Geography, for his maps of Egypt",
@@ -72,11 +79,14 @@
         "at": "2026-09-03",
         "by": "tanner@tjs16media.com",
         "note": "carried over: had a cited source before IDs existed"
-      }
+      },
+      "status": "active",
+      "usage": []
     },
     {
       "id": "frq-0976",
       "category": "Sports",
+      "difficulty": null,
       "question": "South Africa won the 2023 Rugby World Cup. What was remarkable about their knockout run?",
       "options": [
         "They never trailed at any point in the tournament",
@@ -96,11 +106,14 @@
         "at": "2026-09-03",
         "by": "tanner@tjs16media.com",
         "note": "carried over: had a cited source before IDs existed"
-      }
+      },
+      "status": "active",
+      "usage": []
     },
     {
       "id": "frq-0977",
       "category": "Sports",
+      "difficulty": null,
       "question": "The Tour de France leader has worn a yellow jersey since 1919. What decided the colour?",
       "options": [
         "It was the only dye the wartime supplier still had",
@@ -121,11 +134,14 @@
         "at": "2026-09-03",
         "by": "tanner@tjs16media.com",
         "note": "carried over: had a cited source before IDs existed"
-      }
+      },
+      "status": "active",
+      "usage": []
     },
     {
       "id": "frq-0978",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Pixar's Inside Out gives a child five emotions. Why five, and not more?",
       "options": [
         "Five was the most the animation budget allowed",
@@ -146,11 +162,14 @@
         "at": "2026-09-03",
         "by": "tanner@tjs16media.com",
         "note": "carried over: had a cited source before IDs existed"
-      }
+      },
+      "status": "active",
+      "usage": []
     },
     {
       "id": "frq-0979",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "The Hollywood sign went up in 1923. What did it originally say, and why?",
       "options": [
         "HOLLYWOOD HILLS, naming the ridge it stands on",
@@ -171,11 +190,14 @@
         "at": "2026-09-03",
         "by": "tanner@tjs16media.com",
         "note": "carried over: had a cited source before IDs existed"
-      }
+      },
+      "status": "active",
+      "usage": []
     },
     {
       "id": "frq-0980",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Auto-Tune's inventor worked in oil exploration before music. What does he say about the connection?",
       "options": [
         "That he built it during downtime on an oil rig",
@@ -195,11 +217,14 @@
         "at": "2026-09-03",
         "by": "tanner@tjs16media.com",
         "note": "carried over: had a cited source before IDs existed"
-      }
+      },
+      "status": "active",
+      "usage": []
     },
     {
       "id": "frq-0981",
       "category": "Geography",
+      "difficulty": null,
       "question": "Published figures for Norway's coastline range from a few thousand kilometres to over a hundred thousand. Why the disagreement?",
       "options": [
         "Coastline length depends on the ruler you measure with",
@@ -219,11 +244,14 @@
         "at": "2026-09-03",
         "by": "tanner@tjs16media.com",
         "note": "carried over: had a cited source before IDs existed"
-      }
+      },
+      "status": "active",
+      "usage": []
     },
     {
       "id": "frq-0982",
       "category": "Geography",
+      "difficulty": null,
       "question": "The Pan-American Highway runs from Alaska to Argentina with one break in it. Why has that gap never been closed?",
       "options": [
         "The terrain has defeated every survey attempted",
@@ -243,11 +271,14 @@
         "at": "2026-09-03",
         "by": "tanner@tjs16media.com",
         "note": "carried over: had a cited source before IDs existed"
-      }
+      },
+      "status": "active",
+      "usage": []
     },
     {
       "id": "frq-0983",
       "category": "Science & Nature",
+      "difficulty": null,
       "question": "Otto Hahn's 1938 experiment split a uranium nucleus, but he could not explain his own result. Who did?",
       "options": [
         "Enrico Fermi, working from Rome the following year",
@@ -268,11 +299,14 @@
         "at": "2026-09-03",
         "by": "tanner@tjs16media.com",
         "note": "carried over: had a cited source before IDs existed"
-      }
+      },
+      "status": "active",
+      "usage": []
     },
     {
       "id": "frq-0984",
       "category": "Science & Nature",
+      "difficulty": null,
       "question": "Classical physics says friction does not depend on how much surface is touching. Why do racing cars run wide tyres then?",
       "options": [
         "Wider tyres run cooler and so last much longer",
@@ -293,7 +327,9 @@
         "at": "2026-09-03",
         "by": "tanner@tjs16media.com",
         "note": "carried over: had a cited source before IDs existed"
-      }
+      },
+      "status": "active",
+      "usage": []
     }
   ]
 }

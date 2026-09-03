@@ -3,6 +3,7 @@
     {
       "id": "frq-0337",
       "category": "History",
+      "difficulty": null,
       "question": "What was the name of Napoleon Bonaparte's final battle?",
       "options": [
         "Battle of Waterloo",
@@ -18,11 +19,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-13",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0338",
       "category": "History",
+      "difficulty": null,
       "question": "Which organization was established after World War II to promote international peace and security?",
       "options": [
         "NATO",
@@ -38,11 +47,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-13",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0339",
       "category": "Sports",
+      "difficulty": null,
       "question": "What is the official length of a standard Olympic swimming pool in meters?",
       "options": [
         "75 meters",
@@ -58,11 +75,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-13",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0340",
       "category": "Sports",
+      "difficulty": null,
       "question": "In darts, what is the highest score achievable with a single dart?",
       "options": [
         "100",
@@ -78,11 +103,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-13",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0341",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "What is the name of the island in 'Cast Away' where the FedEx plane crashes?",
       "options": [
         "The film doesn't name it",
@@ -98,11 +131,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-13",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0342",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Which rapper's real name is Shawn Corey Carter?",
       "options": [
         "Lil Wayne",
@@ -118,11 +159,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-13",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0343",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Ben-Hur (1959) was the first film to win 11 Academy Awards — a record later tied by which two films?",
       "options": [
         "Titanic and Gladiator",
@@ -138,11 +187,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-13",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0344",
       "category": "History",
+      "difficulty": null,
       "question": "Who was the first female Prime Minister of the United Kingdom?",
       "options": [
         "Theresa May",
@@ -158,11 +215,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-13",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0345",
       "category": "Geography",
+      "difficulty": null,
       "question": "The Dead Sea, the lowest point on Earth's surface, borders which two countries?",
       "options": [
         "Egypt and Israel",
@@ -178,11 +243,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-13",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0346",
       "category": "Science & Nature",
+      "difficulty": null,
       "question": "What force keeps planets in orbit around the Sun?",
       "options": [
         "Nuclear force",
@@ -198,11 +271,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-13",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0347",
       "category": "Geography",
+      "difficulty": null,
       "question": "Mongolia is one of the world's most sparsely populated countries. What is it geographically landlocked by?",
       "options": [
         "China and Russia",
@@ -218,11 +299,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-13",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0348",
       "category": "Science & Nature",
+      "difficulty": null,
       "question": "Quasars, first identified in the 1960s, are the most luminous persistent objects in the observable universe — some outshine entire galaxies by a factor of 1,000. What are they?",
       "options": [
         "Quasars are remnant shockwaves from galaxy collisions — when two galaxies merge, the combined gravitational energy is released as electromagnetic radiation that can last for millions of years",
@@ -238,7 +327,14 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-13",
+          "context": "daily"
+        }
+      ]
     }
   ]
 }

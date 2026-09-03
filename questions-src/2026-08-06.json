@@ -4,6 +4,7 @@
     {
       "id": "frq-0625",
       "category": "History",
+      "difficulty": null,
       "question": "The RMS Titanic sank on April 15, 1912, killing over 1,500 people. From which English port city did the ship depart on its maiden voyage?",
       "options": [
         "Liverpool",
@@ -19,11 +20,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-06",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0626",
       "category": "History",
+      "difficulty": null,
       "question": "The Suez Crisis of 1956 was triggered when Egypt nationalized the Suez Canal. Who was Egypt's president at the time?",
       "options": [
         "Gamal Abdel Nasser",
@@ -39,11 +48,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-06",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0627",
       "category": "History",
+      "difficulty": null,
       "question": "The Watergate scandal, which led to President Nixon's resignation in 1974, began with a break-in at which Washington DC complex?",
       "options": [
         "Pentagon",
@@ -59,11 +76,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-06",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0628",
       "category": "Sports",
+      "difficulty": null,
       "question": "In which Olympic sport do athletes use a bow and arrows to hit a target?",
       "options": [
         "Biathlon",
@@ -79,11 +104,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-06",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0629",
       "category": "Sports",
+      "difficulty": null,
       "question": "The 'Fosbury Flop' is a technique used in which track and field event?",
       "options": [
         "Pole vault",
@@ -99,11 +132,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-06",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0630",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Which musician famously performed at Woodstock in 1969 and is known for his electric guitar rendition of the National Anthem?",
       "options": [
         "Eric Clapton",
@@ -119,11 +160,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-06",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0631",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Which 2009 animated Pixar film opens with a sequence widely considered one of the most emotional in film history?",
       "options": [
         "Wall-E",
@@ -139,11 +188,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-06",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0632",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "The Eagles' 'Hotel California' (1977) was written by three band members. Who is credited as the primary lyricist and lead vocalist who defined the song's concept?",
       "options": [
         "Joe Walsh",
@@ -159,11 +216,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-06",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0633",
       "category": "Geography",
+      "difficulty": null,
       "question": "Which Asian country has the most people in the world?",
       "options": [
         "Bangladesh",
@@ -179,11 +244,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-06",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0634",
       "category": "Science & Nature",
+      "difficulty": null,
       "question": "What is the name of the boundary below which no light penetrates the ocean?",
       "options": [
         "Photic zone",
@@ -199,11 +272,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-06",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0635",
       "category": "Geography",
+      "difficulty": null,
       "question": "The Aleutian Islands, a chain of about 300 volcanic islands extending 1,900 km into the Pacific, belong to which U.S. state?",
       "options": [
         "Hawaii",
@@ -219,11 +300,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-06",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0636",
       "category": "Science & Nature",
+      "difficulty": null,
       "question": "What is Archimedes' principle — the law that explains why ships made of steel can float even though steel is denser than water?",
       "options": [
         "A submerged object experiences an upward force equal to the weight of fluid displaced",
@@ -239,7 +328,14 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-06",
+          "context": "daily"
+        }
+      ]
     }
   ]
 }

@@ -3,6 +3,7 @@
     {
       "id": "frq-0409",
       "category": "History",
+      "difficulty": null,
       "question": "Which famous speech begins with 'Four score and seven years ago'?",
       "options": [
         "The Emancipation Proclamation",
@@ -18,11 +19,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-19",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0410",
       "category": "History",
+      "difficulty": null,
       "question": "What was the name of the communist manifesto's co-author alongside Marx?",
       "options": [
         "Lenin",
@@ -38,11 +47,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-19",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0411",
       "category": "Sports",
+      "difficulty": null,
       "question": "How many players are in a volleyball team including substitutes?",
       "options": [
         "6",
@@ -58,11 +75,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-19",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0412",
       "category": "Sports",
+      "difficulty": null,
       "question": "In fencing, what are the three types of weapons used?",
       "options": [
         "Sword, sabre, rapier",
@@ -78,11 +103,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-19",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0413",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Who composed the music for the Jurassic Park film series?",
       "options": [
         "John Williams",
@@ -98,11 +131,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-19",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0414",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Which Tom Petty song became an anthem after featuring in countless road-trip films?",
       "options": [
         "Free Fallin",
@@ -118,11 +159,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-19",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0415",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Georgia O'Keeffe, often called the 'Mother of American Modernism,' spent the second half of her career painting the New Mexico desert. What made her aesthetic approach groundbreaking?",
       "options": [
         "She was the first American artist to work exclusively in watercolor, arguing that oil paint's European associations made it unsuitable for American subjects",
@@ -138,11 +187,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-19",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0416",
       "category": "History",
+      "difficulty": null,
       "question": "Which Greek mathematician is known for his theorem about right triangles?",
       "options": [
         "Archimedes",
@@ -158,11 +215,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-19",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0417",
       "category": "Geography",
+      "difficulty": null,
       "question": "Cape Horn, the southernmost tip of South America, belongs to which country?",
       "options": [
         "Argentina",
@@ -178,11 +243,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-19",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0418",
       "category": "Science & Nature",
+      "difficulty": null,
       "question": "Saturn's moon Titan is unique in the solar system for a reason that makes it particularly intriguing to astrobiologists. What makes Titan so unusual?",
       "options": [
         "Titan is the largest moon in the solar system and the only one with sufficient gravity to retain a ring system similar to Saturn's, making it technically a 'sub-ringed world'",
@@ -198,11 +271,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-19",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0419",
       "category": "Geography",
+      "difficulty": null,
       "question": "Cape Verde, an archipelago nation of 10 islands off the west coast of Africa, gained independence from which colonial power in 1975?",
       "options": [
         "France",
@@ -218,11 +299,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-19",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0420",
       "category": "Science & Nature",
+      "difficulty": null,
       "question": "What phenomenon occurs when a rotating galaxy cluster bends light from a more distant galaxy behind it, creating arcs or rings of light?",
       "options": [
         "Diffraction",
@@ -238,7 +327,14 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-19",
+          "context": "daily"
+        }
+      ]
     }
   ]
 }

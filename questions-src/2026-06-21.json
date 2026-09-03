@@ -4,6 +4,7 @@
     {
       "id": "frq-0073",
       "category": "History",
+      "difficulty": null,
       "question": "Genghis Khan founded which empire — the largest contiguous land empire in history?",
       "options": [
         "The Roman Empire",
@@ -19,11 +20,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-21",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0074",
       "category": "History",
+      "difficulty": null,
       "question": "The Wright Brothers made the first successful powered airplane flight in 1903 at which location?",
       "options": [
         "Philadelphia, Pennsylvania",
@@ -39,11 +48,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-21",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0075",
       "category": "History",
+      "difficulty": null,
       "question": "Johannes Gutenberg's invention of the movable-type printing press around 1440 occurred in which modern-day country?",
       "options": [
         "Germany",
@@ -59,11 +76,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-21",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0076",
       "category": "Sports",
+      "difficulty": null,
       "question": "How many FIFA World Cup titles did Pelé win during his international career with Brazil?",
       "options": [
         "4",
@@ -79,11 +104,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-21",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0077",
       "category": "Sports",
+      "difficulty": null,
       "question": "The Kentucky Derby horse race is nicknamed 'The Run for the' what?",
       "options": [
         "Gold",
@@ -99,11 +132,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-21",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0078",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Whitney Houston's iconic 'I Will Always Love You' was originally written and recorded by which other artist?",
       "options": [
         "Celine Dion",
@@ -119,11 +160,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-21",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0079",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Frida Kahlo's paintings are among the most recognized in the world, yet she had only two solo exhibitions during her lifetime. What makes her work distinctive in art history?",
       "options": [
         "She pioneered a style using exclusively natural pigments made from Mexican plants and minerals, making her canvases uniquely resistant to aging",
@@ -139,11 +188,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-21",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0080",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Bob Dylan became the first musician to win the Nobel Prize in which category in 2016?",
       "options": [
         "Nobel Prize in Physics",
@@ -159,11 +216,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-21",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0081",
       "category": "Geography",
+      "difficulty": null,
       "question": "Which ocean is slowly growing wider each year as tectonic plates separate at the Mid-Atlantic Ridge?",
       "options": [
         "Arctic Ocean",
@@ -179,11 +244,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-21",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0082",
       "category": "Science & Nature",
+      "difficulty": null,
       "question": "What is the most abundant element in Earth's crust by mass — found primarily bonded within silicate minerals, not as a free gas?",
       "options": [
         "Oxygen",
@@ -199,11 +272,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-21",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0083",
       "category": "Geography",
+      "difficulty": null,
       "question": "Which mountain, located on the Russia-Georgia border in the Caucasus range, is considered the highest peak in Europe at 5,642 meters?",
       "options": [
         "Mont Blanc",
@@ -219,11 +300,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-21",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0084",
       "category": "Science & Nature",
+      "difficulty": null,
       "question": "A light-year is a unit of distance, not time. Approximately how far does light travel in one year?",
       "options": [
         "100 trillion km",
@@ -239,7 +328,14 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-21",
+          "context": "daily"
+        }
+      ]
     }
   ]
 }

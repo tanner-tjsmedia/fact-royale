@@ -3,6 +3,7 @@
     {
       "id": "frq-0373",
       "category": "History",
+      "difficulty": null,
       "question": "Which treaty ended World War II in the Pacific?",
       "options": [
         "Missouri Instrument of Surrender",
@@ -18,11 +19,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-16",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0374",
       "category": "History",
+      "difficulty": null,
       "question": "The 'Harlem Renaissance' was a cultural movement centered in which U.S. city?",
       "options": [
         "Atlanta",
@@ -38,11 +47,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-16",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0375",
       "category": "Sports",
+      "difficulty": null,
       "question": "At the 2009 World Championships in Berlin, Usain Bolt set a world record of 9.58 seconds in which track and field event?",
       "options": [
         "120 meters",
@@ -58,11 +75,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-16",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0376",
       "category": "Sports",
+      "difficulty": null,
       "question": "Which country invented table tennis?",
       "options": [
         "China",
@@ -78,11 +103,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-16",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0377",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "What band recorded 'Smells Like Teen Spirit'?",
       "options": [
         "Alice in Chains",
@@ -98,11 +131,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-16",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0378",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Who starred in 'Black Panther' as T'Challa?",
       "options": [
         "Michael B. Jordan",
@@ -118,11 +159,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-16",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0379",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Which TV detective's signature move was to pause while leaving a suspect's room, turn back, and say 'Just one more thing...' before delivering his key insight?",
       "options": [
         "Inspector Morse",
@@ -138,11 +187,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-16",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0380",
       "category": "History",
+      "difficulty": null,
       "question": "The ancient city of Constantinople is now known by what name?",
       "options": [
         "Athens",
@@ -158,11 +215,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-16",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0381",
       "category": "Geography",
+      "difficulty": null,
       "question": "Which country contains the most of the Amazon rainforest?",
       "options": [
         "Brazil",
@@ -178,11 +243,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-16",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0382",
       "category": "Science & Nature",
+      "difficulty": null,
       "question": "The Hertzsprung-Russell (H-R) diagram is one of astronomy's most powerful tools. What does it plot, and what pattern does it reveal?",
       "options": [
         "The H-R diagram plots a star's mass against its chemical composition — revealing that all stars on the 'main sequence' convert hydrogen to helium at exactly the same rate regardless of size",
@@ -198,11 +271,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-16",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0383",
       "category": "Geography",
+      "difficulty": null,
       "question": "Niagara... no. Java, the most populous island in the world with about 150 million people, belongs to which country?",
       "options": [
         "Indonesia",
@@ -218,11 +299,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-16",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0384",
       "category": "Science & Nature",
+      "difficulty": null,
       "question": "How does bioluminescence work — what is the chemical process that allows living organisms like fireflies and deep-sea creatures to produce light?",
       "options": [
         "A chemical reaction between luciferin and luciferase produces light without heat",
@@ -238,7 +327,14 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-16",
+          "context": "daily"
+        }
+      ]
     }
   ]
 }

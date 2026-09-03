@@ -3,6 +3,7 @@
     {
       "id": "frq-0361",
       "category": "History",
+      "difficulty": null,
       "question": "Which explorer is traditionally credited with 'discovering' America in 1492?",
       "options": [
         "Christopher Columbus",
@@ -18,11 +19,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-15",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0362",
       "category": "History",
+      "difficulty": null,
       "question": "Which country did Hitler's Germany invade to trigger Britain and France entering WWII?",
       "options": [
         "Czechoslovakia",
@@ -38,11 +47,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-15",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0363",
       "category": "Sports",
+      "difficulty": null,
       "question": "What is the standard height of a basketball hoop from the floor?",
       "options": [
         "11 feet",
@@ -58,11 +75,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-15",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0364",
       "category": "Sports",
+      "difficulty": null,
       "question": "What sport takes place on a 'pitch' with a 'wicket'?",
       "options": [
         "Cricket",
@@ -78,11 +103,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-15",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0365",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Adele won the Academy Award for Best Original Song in 2013 for the theme to which James Bond film?",
       "options": [
         "Casino Royale",
@@ -98,11 +131,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-15",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0366",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "The Office (US, NBC, 2005–2013), adapted from Ricky Gervais's UK series, became one of the most-watched TV shows in streaming history. What structural decision made it culturally distinct?",
       "options": [
         "It was the first US network comedy to abandon a studio audience, using deadpan silence and character glances to deliver humor",
@@ -118,11 +159,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-15",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0367",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Founded by dairy farmer Michael Eavis in 1970 on his farm in Somerset, England, which festival is the world's largest greenfield music event with a capacity of over 200,000?",
       "options": [
         "Reading Festival",
@@ -138,11 +187,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-15",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0368",
       "category": "History",
+      "difficulty": null,
       "question": "The 'Cold War' was a period of geopolitical tension between the United States and which other country?",
       "options": [
         "Soviet Union",
@@ -158,11 +215,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-15",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0369",
       "category": "Geography",
+      "difficulty": null,
       "question": "The Suez Canal, opened in 1869, connects which two bodies of water?",
       "options": [
         "Atlantic Ocean and Indian Ocean",
@@ -178,11 +243,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-15",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0370",
       "category": "Science & Nature",
+      "difficulty": null,
       "question": "The 'Hubble Tension' is one of cosmology's most pressing current problems. What is it?",
       "options": [
         "Two independent methods of measuring the universe's expansion rate give significantly different answers — measurements from the early universe (CMB) and from nearby galaxies (Cepheids, supernovae) disagree by about 9%, which is too large to be measurement error",
@@ -198,11 +271,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-15",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0371",
       "category": "Geography",
+      "difficulty": null,
       "question": "The Maldives, an island nation in the Indian Ocean, is notable for which alarming geographic fact?",
       "options": [
         "It is the world's smallest country by population",
@@ -218,11 +299,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-15",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0372",
       "category": "Science & Nature",
+      "difficulty": null,
       "question": "What process describes cell division in which one cell divides to produce two identical daughter cells for growth, repair, and asexual reproduction?",
       "options": [
         "Mitosis",
@@ -238,7 +327,14 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-15",
+          "context": "daily"
+        }
+      ]
     }
   ]
 }

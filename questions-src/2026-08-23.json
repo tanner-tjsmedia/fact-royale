@@ -4,6 +4,7 @@
     {
       "id": "frq-0829",
       "category": "History",
+      "difficulty": null,
       "question": "Kennedy was president during the 1963 March on Washington. What was his position on it beforehand?",
       "options": [
         "He was abroad and learned of it afterward",
@@ -19,11 +20,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-23",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0830",
       "category": "History",
+      "difficulty": null,
       "question": "The Meiji Restoration ended samurai rule in Japan. What happened to the samurai themselves?",
       "options": [
         "They kept full privileges but lost all political power",
@@ -39,11 +48,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-23",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0831",
       "category": "History",
+      "difficulty": null,
       "question": "Angela Merkel was a scientist before entering politics. What was her field?",
       "options": [
         "Quantum chemistry, with a doctorate from East Berlin",
@@ -59,11 +76,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-23",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0832",
       "category": "Sports",
+      "difficulty": null,
       "question": "Jesse Owens won four golds at the 1936 Berlin Olympics. What's the truth behind the story that Hitler 'snubbed' him?",
       "options": [
         "Hitler hosted him at a state dinner in the Olympic Village",
@@ -79,11 +104,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-23",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0833",
       "category": "Sports",
+      "difficulty": null,
       "question": "FIFA governs world soccer and has faced repeated corruption allegations. What happened in 2015?",
       "options": [
         "The UN placed formal sanctions on the organisation",
@@ -99,11 +132,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-23",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0834",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Apocalypse Now (1979) nearly destroyed its director. What went wrong during production?",
       "options": [
         "The Philippine government seized the film mid-shoot",
@@ -119,11 +160,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-23",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0835",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "John Lennon later described Imagine as an anti-religious, anti-nationalist song. Why did it become so widely acceptable?",
       "options": [
         "He said the message was sugar-coated enough to slip past",
@@ -139,11 +188,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-23",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0836",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Mark Rothko made 14 near-black paintings for the Rothko Chapel in Houston. What did he intend them to do?",
       "options": [
         "Shift in color with the changing light through the day",
@@ -159,11 +216,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-23",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0837",
       "category": "Geography",
+      "difficulty": null,
       "question": "The Serengeti hosts the largest land mammal migration on Earth. What actually drives it?",
       "options": [
         "A fixed migratory instinct inherited over generations",
@@ -179,11 +244,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-23",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0838",
       "category": "Science & Nature",
+      "difficulty": null,
       "question": "What is the name of the boundary between Earth's crust and mantle?",
       "options": [
         "Mohorovicic discontinuity",
@@ -199,11 +272,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-23",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0839",
       "category": "Geography",
+      "difficulty": null,
       "question": "The Black Forest gave its name to a famous cake and something else entirely. What?",
       "options": [
         "The oldest continuously operating brewery in Europe",
@@ -219,11 +300,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-23",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0840",
       "category": "Science & Nature",
+      "difficulty": null,
       "question": "Passing electricity through water splits it into hydrogen and oxygen. Why is this suddenly commercially interesting?",
       "options": [
         "Hydrogen made from renewables burns without carbon output",
@@ -239,7 +328,14 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-23",
+          "context": "daily"
+        }
+      ]
     }
   ]
 }

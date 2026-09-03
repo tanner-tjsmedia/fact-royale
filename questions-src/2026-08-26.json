@@ -4,6 +4,7 @@
     {
       "id": "frq-0865",
       "category": "History",
+      "difficulty": null,
       "question": "Mandela was released in 1990 after 27 years. What did he do that surprised his opponents most?",
       "options": [
         "Kept the Springbok emblem white South Africans loved",
@@ -19,11 +20,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-26",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0866",
       "category": "Science & Nature",
+      "difficulty": null,
       "question": "Saturn overtook Jupiter as the planet with the most known moons. Why is the exact count awkward to state?",
       "options": [
         "It keeps rising as small objects are found and confirmed",
@@ -43,11 +52,19 @@
         "at": "2026-09-03",
         "by": "tanner@tjs16media.com",
         "note": "carried over: had a cited source before IDs existed"
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-26",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0867",
       "category": "Sports",
+      "difficulty": null,
       "question": "Ali beat Sonny Liston in 1964 as a heavy underdog. What did he do three years later that cost him more?",
       "options": [
         "Retired undefeated and then returned out of shape",
@@ -63,11 +80,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-26",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0868",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Star Wars (1977) was expected to fail. What did Lucas take instead of a bigger fee?",
       "options": [
         "Sequel and merchandising rights the studio thought worthless",
@@ -83,11 +108,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-26",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0869",
       "category": "Geography",
+      "difficulty": null,
       "question": "The Amazon carries about 20% of all river water reaching the ocean. What does it do to the Atlantic?",
       "options": [
         "Creates a permanent whirlpool at its mouth",
@@ -107,11 +140,19 @@
         "at": "2026-09-03",
         "by": "tanner@tjs16media.com",
         "note": "carried over: had a cited source before IDs existed"
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-26",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0870",
       "category": "History",
+      "difficulty": null,
       "question": "Apollo 11 landed on 20 July 1969. What nearly aborted the landing in the final minutes?",
       "options": [
         "Computer alarms and a boulder field with fuel running out",
@@ -127,11 +168,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-26",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0871",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Facebook launched at Harvard in 2004. What was Zuckerberg's earlier site that got him in trouble?",
       "options": [
         "A course catalogue that scraped professors' salaries",
@@ -147,11 +196,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-26",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0872",
       "category": "Science & Nature",
+      "difficulty": null,
       "question": "Gravity holds planets in orbit. What did Einstein change about how we understand it?",
       "options": [
         "It only operates on objects larger than a certain mass",
@@ -167,11 +224,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-26",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0873",
       "category": "Geography",
+      "difficulty": null,
       "question": "The Andes run 7,000km down South America. What does living at that altitude do to people over generations?",
       "options": [
         "Bone density drops sharply above 3,000 metres",
@@ -187,11 +252,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-26",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0874",
       "category": "History",
+      "difficulty": null,
       "question": "The Mongol Empire became the largest contiguous land empire ever. What held it together?",
       "options": [
         "A relay postal network with stations every 40km",
@@ -207,11 +280,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-26",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0875",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Jimi Hendrix played Woodstock in 1969. What was unusual about his set?",
       "options": [
         "He closed to a nearly empty field on Monday morning",
@@ -227,11 +308,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-26",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0876",
       "category": "Sports",
+      "difficulty": null,
       "question": "A steal in basketball takes possession without fouling. Who holds the career record?",
       "options": [
         "Scottie Pippen, from his years alongside Jordan",
@@ -247,7 +336,14 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-26",
+          "context": "daily"
+        }
+      ]
     }
   ]
 }

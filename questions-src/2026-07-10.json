@@ -3,6 +3,7 @@
     {
       "id": "frq-0301",
       "category": "History",
+      "difficulty": null,
       "question": "Which ancient Greek philosopher taught Alexander the Great?",
       "options": [
         "Socrates",
@@ -18,11 +19,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-10",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0302",
       "category": "History",
+      "difficulty": null,
       "question": "The Eiffel Tower was built for which World's Fair?",
       "options": [
         "1876 Philadelphia",
@@ -38,11 +47,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-10",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0303",
       "category": "Sports",
+      "difficulty": null,
       "question": "What is the highest possible break (score) in a single game of snooker?",
       "options": [
         "175",
@@ -58,11 +75,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-10",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0304",
       "category": "Sports",
+      "difficulty": null,
       "question": "How wide is an American football goal post (between the uprights) in feet?",
       "options": [
         "18.5 feet",
@@ -78,11 +103,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-10",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0305",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Which actor starred as Neo in 'The Matrix' trilogy?",
       "options": [
         "Tom Cruise",
@@ -98,11 +131,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-10",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0306",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "The song 'Purple Rain' is associated with which artist?",
       "options": [
         "Stevie Wonder",
@@ -118,11 +159,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-10",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0307",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Which 1994 film features the line 'Stupid is as stupid does'?",
       "options": [
         "Billy Madison",
@@ -138,11 +187,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-10",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0308",
       "category": "History",
+      "difficulty": null,
       "question": "Which country was divided into East and West after World War II?",
       "options": [
         "Poland",
@@ -158,11 +215,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-10",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0309",
       "category": "Geography",
+      "difficulty": null,
       "question": "Australia is unique because it is both a country and what else?",
       "options": [
         "An island",
@@ -178,11 +243,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-10",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0310",
       "category": "Science & Nature",
+      "difficulty": null,
       "question": "Watson and Crick are credited with discovering the structure of DNA in 1953. What is that structure called?",
       "options": [
         "Double strand",
@@ -198,11 +271,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-10",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0311",
       "category": "Geography",
+      "difficulty": null,
       "question": "What is the capital city of New Zealand — not Auckland, its largest city, but a purpose-built capital on the southern tip of the North Island?",
       "options": [
         "Dunedin",
@@ -218,11 +299,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-10",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0312",
       "category": "Science & Nature",
+      "difficulty": null,
       "question": "Jupiter's moon Europa is considered one of the most promising places in the solar system to search for extraterrestrial life. Why?",
       "options": [
         "Europa's surface temperature (−160°C) is too cold for life, but radar imaging shows ancient microfossils embedded in its ice crust from a warmer era 2 billion years ago",
@@ -238,7 +327,14 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-10",
+          "context": "daily"
+        }
+      ]
     }
   ]
 }

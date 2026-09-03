@@ -4,6 +4,7 @@
     {
       "id": "frq-0025",
       "category": "History",
+      "difficulty": null,
       "question": "On which date was Julius Caesar assassinated in 44 BC?",
       "options": [
         "The Ides of April (April 15)",
@@ -19,11 +20,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-17",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0026",
       "category": "History",
+      "difficulty": null,
       "question": "Who was the first human to walk on the moon?",
       "options": [
         "John Glenn",
@@ -39,11 +48,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-17",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0027",
       "category": "History",
+      "difficulty": null,
       "question": "The storming of which Paris fortress marked the symbolic start of the French Revolution in 1789?",
       "options": [
         "Versailles",
@@ -59,11 +76,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-17",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0028",
       "category": "Sports",
+      "difficulty": null,
       "question": "How many NBA championships did Michael Jordan win with the Chicago Bulls?",
       "options": [
         "6",
@@ -79,11 +104,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-17",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0029",
       "category": "Sports",
+      "difficulty": null,
       "question": "How many innings are in a standard Major League Baseball game?",
       "options": [
         "8",
@@ -99,11 +132,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-17",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0030",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "In which Star Wars film does Darth Vader reveal he is Luke Skywalker's father?",
       "options": [
         "Return of the Jedi",
@@ -119,11 +160,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-17",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0031",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Which city were The Beatles from?",
       "options": [
         "Birmingham",
@@ -139,11 +188,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-17",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0032",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Which director helmed the 1997 blockbuster Titanic?",
       "options": [
         "Steven Spielberg",
@@ -159,11 +216,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-17",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0033",
       "category": "Geography",
+      "difficulty": null,
       "question": "Which island-nation in Southeast Asia is an archipelago of over 7,600 islands and has Manila as its capital?",
       "options": [
         "New Zealand",
@@ -179,11 +244,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-17",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0034",
       "category": "Science & Nature",
+      "difficulty": null,
       "question": "Solar flares and coronal mass ejections (CMEs) are the Sun's most powerful explosive events. What causes them, and what effects can they have on Earth?",
       "options": [
         "CMEs occur when solar wind pressure builds up behind the Earth's magnetosphere and suddenly releases — the 1989 Quebec blackout lasted 9 hours when one CME overloaded transformer capacity across Canada",
@@ -199,11 +272,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-17",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0035",
       "category": "Geography",
+      "difficulty": null,
       "question": "Borneo, the world's third-largest island, is shared by three countries. Which country controls the largest portion?",
       "options": [
         "Indonesia",
@@ -219,11 +300,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-17",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0036",
       "category": "Science & Nature",
+      "difficulty": null,
       "question": "What determines the color of a star, with blue-white stars being the hottest and red stars the coolest?",
       "options": [
         "Size",
@@ -239,7 +328,14 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-17",
+          "context": "daily"
+        }
+      ]
     }
   ]
 }

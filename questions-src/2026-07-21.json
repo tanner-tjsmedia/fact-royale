@@ -3,6 +3,7 @@
     {
       "id": "frq-0433",
       "category": "History",
+      "difficulty": null,
       "question": "Which war followed the assassination of Archduke Franz Ferdinand?",
       "options": [
         "The Korean War",
@@ -18,11 +19,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-21",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0434",
       "category": "History",
+      "difficulty": null,
       "question": "'D-Day' (June 6, 1944) was the invasion of which coastline?",
       "options": [
         "The coast of Normandy, France",
@@ -38,11 +47,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-21",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0435",
       "category": "Sports",
+      "difficulty": null,
       "question": "Which tennis tournament is played on clay courts and often called 'Roland Garros'?",
       "options": [
         "Australian Open",
@@ -58,11 +75,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-21",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0436",
       "category": "Sports",
+      "difficulty": null,
       "question": "What does 'NBA' stand for?",
       "options": [
         "National Ball Association",
@@ -78,11 +103,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-21",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0437",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Who wrote 'Thriller' — the song, not the album?",
       "options": [
         "Michael Jackson",
@@ -98,11 +131,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-21",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0438",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "What film does the song 'You've Got a Friend in Me' come from?",
       "options": [
         "Finding Nemo",
@@ -118,11 +159,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-21",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0439",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Which singer was known as the 'Voice' and sold over 200 million records worldwide?",
       "options": [
         "Dean Martin",
@@ -138,11 +187,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-21",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0440",
       "category": "History",
+      "difficulty": null,
       "question": "The 'Apollo 13' mission is famous for which near-disaster?",
       "options": [
         "Computer failure during reentry",
@@ -158,11 +215,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-21",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0441",
       "category": "Geography",
+      "difficulty": null,
       "question": "Which country is home to the Great Barrier Reef?",
       "options": [
         "Indonesia",
@@ -178,11 +243,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-21",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0442",
       "category": "Science & Nature",
+      "difficulty": null,
       "question": "What tiny organisms are responsible for producing about half of the world's oxygen?",
       "options": [
         "Amazon rainforest trees",
@@ -198,11 +271,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-21",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0443",
       "category": "Geography",
+      "difficulty": null,
       "question": "The Himalayas contain how many of the world's 14 peaks that exceed 8,000 meters in elevation?",
       "options": [
         "10",
@@ -218,11 +299,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-21",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0444",
       "category": "Science & Nature",
+      "difficulty": null,
       "question": "What is the term for the slow bleaching and death of coral reefs caused when rising water temperatures stress corals and cause them to expel the algae that give them color and energy?",
       "options": [
         "Coral bleaching",
@@ -238,7 +327,14 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-21",
+          "context": "daily"
+        }
+      ]
     }
   ]
 }

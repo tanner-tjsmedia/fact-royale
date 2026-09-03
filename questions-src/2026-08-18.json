@@ -4,6 +4,7 @@
     {
       "id": "frq-0769",
       "category": "History",
+      "difficulty": null,
       "question": "Martin Luther King Jr was in Memphis in April 1968 for a reason often left out of the story. What brought him there?",
       "options": [
         "A strike by Black sanitation workers over pay and safety",
@@ -19,11 +20,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-18",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0770",
       "category": "History",
+      "difficulty": null,
       "question": "Churchill's Iron Curtain speech in 1946 named the Cold War divide. Where did he give it?",
       "options": [
         "The United Nations General Assembly",
@@ -39,11 +48,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-18",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0771",
       "category": "History",
+      "difficulty": null,
       "question": "The Chernobyl reactor exploded in 1986 during a safety test. What was the test trying to establish?",
       "options": [
         "Whether the reactor could restart after a full shutdown",
@@ -59,11 +76,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-18",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0772",
       "category": "Sports",
+      "difficulty": null,
       "question": "Cricket calls a batter dismissed without scoring a duck. Where does the term come from?",
       "options": [
         "Ducking away from the ball that got you out",
@@ -79,11 +104,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-18",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0773",
       "category": "Sports",
+      "difficulty": null,
       "question": "Judo and wrestling both involve throwing an opponent. What decides a judo match instantly?",
       "options": [
         "Three consecutive takedowns within a single two-minute span",
@@ -99,11 +132,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-18",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0774",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Bob Dylan's Like a Rolling Stone ran over six minutes in 1965, when singles were half that. How did it get on the radio?",
       "options": [
         "Columbia edited it down to three minutes for airplay",
@@ -119,11 +160,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-18",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0775",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Roy Lichtenstein enlarged comic-book panels to gallery scale in the 1960s. What controversy still follows the work?",
       "options": [
         "He invented the panels rather than copying any real comic",
@@ -139,11 +188,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-18",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0776",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "The Power of the Dog (2021) earned Jane Campion a Best Director Oscar. What did that make her?",
       "options": [
         "The first New Zealander to win any Academy Award",
@@ -162,11 +219,19 @@
         "at": "2026-09-03",
         "by": "tanner@tjs16media.com",
         "note": "carried over: had a cited source before IDs existed"
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-18",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0777",
       "category": "Geography",
+      "difficulty": null,
       "question": "The Suez Canal has no locks, unlike Panama. Why not?",
       "options": [
         "Egyptian engineers rejected locks on cost grounds",
@@ -182,11 +247,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-18",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0778",
       "category": "Science & Nature",
+      "difficulty": null,
       "question": "Two species cannot occupy the same niche in the same place indefinitely. What happens instead?",
       "options": [
         "They interbreed until they become a single species",
@@ -202,11 +275,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-18",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0779",
       "category": "Geography",
+      "difficulty": null,
       "question": "Mount Whitney and Death Valley are about 135km apart in California. What is remarkable about that pairing?",
       "options": [
         "Both were formed by the same volcanic eruption",
@@ -222,11 +303,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-18",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0780",
       "category": "Science & Nature",
+      "difficulty": null,
       "question": "Ecologists distinguish a species' fundamental niche from its realised niche. What is the difference?",
       "options": [
         "Where it could live, versus where competitors allow",
@@ -242,7 +331,14 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-18",
+          "context": "daily"
+        }
+      ]
     }
   ]
 }

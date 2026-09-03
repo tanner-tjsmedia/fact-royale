@@ -4,6 +4,7 @@
     {
       "id": "frq-0505",
       "category": "History",
+      "difficulty": null,
       "question": "The Byzantine Empire, which preserved Roman culture and law for over a thousand years after Rome's fall, finally collapsed in 1453 when which power conquered Constantinople?",
       "options": [
         "Persian Empire",
@@ -19,11 +20,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-27",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0506",
       "category": "History",
+      "difficulty": null,
       "question": "The French Revolution began in which year?",
       "options": [
         "1789",
@@ -39,11 +48,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-27",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0507",
       "category": "Geography",
+      "difficulty": null,
       "question": "Which South American country contains approximately 60% of the Amazon Rainforest and is home to a river that discharges more freshwater into the ocean than the next seven largest rivers combined?",
       "options": [
         "Venezuela",
@@ -59,11 +76,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-27",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0508",
       "category": "History",
+      "difficulty": null,
       "question": "Operation Overlord — the largest seaborne invasion in history — took place on June 6, 1944. By what name is this pivotal World War II event commonly known?",
       "options": [
         "Operation Barbarossa",
@@ -79,11 +104,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-27",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0509",
       "category": "Sports",
+      "difficulty": null,
       "question": "The FIFA World Cup is held every how many years?",
       "options": [
         "3 years",
@@ -99,11 +132,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-27",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0510",
       "category": "Sports",
+      "difficulty": null,
       "question": "In tennis, what is the term for winning a game without the opponent scoring a single point?",
       "options": [
         "Ace",
@@ -119,11 +160,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-27",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0511",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Ansel Adams's black-and-white photographs of the American West — particularly Yosemite — are among the most recognized landscape images in history. What was his lasting contribution beyond aesthetics?",
       "options": [
         "Adams pioneered the use of color in landscape photography, later abandoning it to work in black-and-white as a political statement against commercial photography's commercialization of nature",
@@ -139,11 +188,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-27",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0512",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "David Bowie performed under a flamboyant alien rock star alter ego from 1972 to 1973, retiring the character dramatically mid-tour. What was this persona called?",
       "options": [
         "Ziggy Stardust",
@@ -159,11 +216,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-27",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0513",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Which 1994 Quentin Tarantino film features a hitman duo, a Royale with Cheese, and a briefcase with a mysterious glow?",
       "options": [
         "Reservoir Dogs",
@@ -179,11 +244,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-27",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0514",
       "category": "Science & Nature",
+      "difficulty": null,
       "question": "Which subatomic particle, discovered by James Chadwick in 1932, has no electric charge and is found in the nucleus of every atom except the most common form of hydrogen?",
       "options": [
         "Quark",
@@ -199,11 +272,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-27",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0515",
       "category": "Science & Nature",
+      "difficulty": null,
       "question": "The James Webb Space Telescope's 2022 image of the 'Pillars of Creation' revealed details invisible to Hubble. What are the Pillars of Creation, and what does the Webb image show?",
       "options": [
         "The Pillars are a gravitational anomaly in the Milky Way where dark matter concentrations are unusually high — Webb was able to map them for the first time using gravitational lensing of background galaxies",
@@ -219,11 +300,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-27",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0516",
       "category": "Geography",
+      "difficulty": null,
       "question": "Fiji, an archipelago of about 330 islands in the South Pacific, is the largest economy in which sub-region?",
       "options": [
         "Polynesia",
@@ -239,7 +328,14 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-27",
+          "context": "daily"
+        }
+      ]
     }
   ]
 }

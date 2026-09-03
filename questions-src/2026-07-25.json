@@ -3,6 +3,7 @@
     {
       "id": "frq-0481",
       "category": "History",
+      "difficulty": null,
       "question": "Which war is known as 'The Great War'?",
       "options": [
         "The Boer War",
@@ -18,11 +19,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-25",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0482",
       "category": "History",
+      "difficulty": null,
       "question": "Which explorer first circumnavigated the globe solo?",
       "options": [
         "Joshua Slocum",
@@ -38,11 +47,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-25",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0483",
       "category": "Sports",
+      "difficulty": null,
       "question": "What is the distance of a standard marathon in kilometers?",
       "options": [
         "43 km",
@@ -58,11 +75,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-25",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0484",
       "category": "Sports",
+      "difficulty": null,
       "question": "Muhammad Ali's refusal to be inducted into the US military in 1967 cost him three years of his prime fighting career. What were the consequences and ultimate outcome?",
       "options": [
         "Ali's draft refusal was actually legal — he had applied for conscientious objector status as a Muslim minister, and the ban on boxing was a commercial boycott by promoters, not a government action",
@@ -78,11 +103,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-25",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0485",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Hip-hop is widely considered to have been born on August 11, 1973, at a party in the Bronx, New York. What happened that night, and why does it matter?",
       "options": [
         "Afrika Bambaataa founded the Universal Zulu Nation at a Bronx party, creating the organizational structure that would protect and promote hip-hop as a cultural movement rather than just a musical style",
@@ -98,11 +131,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-25",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0486",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Which band is known for 'Welcome to the Jungle' and 'November Rain'?",
       "options": [
         "Def Leppard",
@@ -118,11 +159,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-25",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0487",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Billie Holiday's 1939 recording of 'Strange Fruit' — a graphic depiction of Southern lynching — is often cited as the first great protest song of the civil rights era. What made it so historically significant?",
       "options": [
         "Strange Fruit launched the commercial career of Mercury Records, the first record label founded by Black musicians, after major labels refused to record it due to its subject matter",
@@ -138,11 +187,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-25",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0488",
       "category": "History",
+      "difficulty": null,
       "question": "Which event is known as the 'Shot Heard 'Round the World'?",
       "options": [
         "The dropping of the first atomic bomb",
@@ -158,11 +215,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-25",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0489",
       "category": "Geography",
+      "difficulty": null,
       "question": "The Gobi Desert, one of the world's largest, spans which two countries?",
       "options": [
         "China and Mongolia",
@@ -178,11 +243,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-25",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0490",
       "category": "Science & Nature",
+      "difficulty": null,
       "question": "Sound travels fastest through which medium?",
       "options": [
         "Steel",
@@ -198,11 +271,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-25",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0491",
       "category": "Geography",
+      "difficulty": null,
       "question": "The Yucatán Peninsula in southeastern Mexico contains thousands of cenotes — what are these natural features?",
       "options": [
         "Coastal lagoons",
@@ -218,11 +299,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-25",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0492",
       "category": "Science & Nature",
+      "difficulty": null,
       "question": "Which pigment in plant leaves absorbs sunlight for photosynthesis and gives most plants their green color?",
       "options": [
         "Xanthophyll",
@@ -238,7 +327,14 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-25",
+          "context": "daily"
+        }
+      ]
     }
   ]
 }

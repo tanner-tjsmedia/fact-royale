@@ -3,6 +3,7 @@
     {
       "id": "frq-0493",
       "category": "History",
+      "difficulty": null,
       "question": "Who wrote 'The Art of War'?",
       "options": [
         "Sun Tzu",
@@ -18,11 +19,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-26",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0494",
       "category": "History",
+      "difficulty": null,
       "question": "The 'Space Race' was a competition primarily between which two countries?",
       "options": [
         "USA and Germany",
@@ -38,11 +47,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-26",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0495",
       "category": "Sports",
+      "difficulty": null,
       "question": "Pelé is the only player in history to win three FIFA World Cups (1958, 1962, 1970). What made his 1958 debut particularly extraordinary?",
       "options": [
         "At 17 years and 249 days, Pelé became the youngest player to score in a World Cup final — he scored twice in a 5-2 win over Sweden and reportedly wept on the field afterward",
@@ -58,11 +75,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-26",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0496",
       "category": "Sports",
+      "difficulty": null,
       "question": "The 1980 US Olympic hockey team's defeat of the Soviet Union — dubbed the 'Miracle on Ice' — is considered the greatest upset in sports history. What made it so improbable?",
       "options": [
         "Both A and B are true — the team was amateur college players who had lost 10-3 days before, facing a Soviet dynasty that hadn't lost an Olympic game in 20 years",
@@ -78,11 +103,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-26",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0497",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Who performed at the 2023 Super Bowl halftime show?",
       "options": [
         "Beyoncé",
@@ -98,11 +131,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-26",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0498",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Toni Morrison, awarded the Nobel Prize in Literature in 1993, is widely considered America's greatest novelist. What is the central achievement of her work?",
       "options": [
         "Morrison founded the first publishing house dedicated exclusively to African American literature, and her editorial work at Random House discovered and published 12 novelists who went on to win major literary awards",
@@ -118,11 +159,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-26",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0499",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Edward Hopper's 'Nighthawks' (1942) — depicting figures at an all-night diner — is one of the most widely reproduced paintings in American art. What does it capture about modern life?",
       "options": [
         "It was the first major painting to depict artificial fluorescent lighting, documenting how electric light was transforming American city life and social behavior",
@@ -138,11 +187,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-26",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0500",
       "category": "History",
+      "difficulty": null,
       "question": "Which American president delivered the 'I Have a Dream' speech? — Wait, that was MLK. Which president signed the Civil Rights Act of 1964?",
       "options": [
         "Robert F. Kennedy",
@@ -158,11 +215,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-26",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0501",
       "category": "Geography",
+      "difficulty": null,
       "question": "The International Date Line runs mainly through which ocean?",
       "options": [
         "Atlantic Ocean",
@@ -178,11 +243,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-26",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0502",
       "category": "Science & Nature",
+      "difficulty": null,
       "question": "How many DNA base pairs make up the human genome?",
       "options": [
         "30 million",
@@ -198,11 +271,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-26",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0503",
       "category": "Geography",
+      "difficulty": null,
       "question": "Tasmania, Australia's island state, is separated from the mainland by which body of water and is home to which unique carnivorous marsupial?",
       "options": [
         "Coral Sea, wombat",
@@ -218,11 +299,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-26",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0504",
       "category": "Science & Nature",
+      "difficulty": null,
       "question": "The human gut contains trillions of microorganisms — bacteria, fungi, and viruses — collectively called what?",
       "options": [
         "Immune system",
@@ -238,7 +327,14 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-26",
+          "context": "daily"
+        }
+      ]
     }
   ]
 }

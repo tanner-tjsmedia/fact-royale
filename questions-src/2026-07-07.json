@@ -3,6 +3,7 @@
     {
       "id": "frq-0265",
       "category": "History",
+      "difficulty": null,
       "question": "Which war was fought between the North and South in the United States?",
       "options": [
         "The Revolutionary War",
@@ -18,11 +19,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-07",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0266",
       "category": "History",
+      "difficulty": null,
       "question": "What was the name of the first moon landing mission?",
       "options": [
         "Apollo 8",
@@ -38,11 +47,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-07",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0267",
       "category": "Sports",
+      "difficulty": null,
       "question": "What color is the first place jersey in the Tour de France?",
       "options": [
         "Yellow",
@@ -58,11 +75,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-07",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0268",
       "category": "Sports",
+      "difficulty": null,
       "question": "Which city has hosted the most Summer Olympic Games?",
       "options": [
         "Los Angeles",
@@ -78,11 +103,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-07",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0269",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Which band sang 'Sweet Home Alabama'?",
       "options": [
         "The Allman Brothers Band",
@@ -98,11 +131,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-07",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0270",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Fleabag (BBC, 2016–2019), written by and starring Phoebe Waller-Bridge, is celebrated for its formal innovation as much as its emotional depth. What technique made it distinctive?",
       "options": [
         "It was filmed in a single unbroken take per episode, removing all editing to simulate the feeling of watching live theater",
@@ -118,11 +159,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-07",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0271",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Who wrote and performed 'Imagine'?",
       "options": [
         "Bob Dylan",
@@ -138,11 +187,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-07",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0272",
       "category": "History",
+      "difficulty": null,
       "question": "The 'Boston Tea Party' was a protest against taxation by which country?",
       "options": [
         "The Netherlands",
@@ -158,11 +215,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-07",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0273",
       "category": "Geography",
+      "difficulty": null,
       "question": "Which desert is the largest hot desert in the world?",
       "options": [
         "Arabian Desert",
@@ -178,11 +243,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-07",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0274",
       "category": "Science & Nature",
+      "difficulty": null,
       "question": "Johannes Kepler's three laws of planetary motion (published 1609–1619) revolutionized astronomy. What did his first law establish about planetary orbits?",
       "options": [
         "Planets orbit the Sun in perfect circles, with the Sun at the exact center of each circular orbit",
@@ -198,11 +271,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-07",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0275",
       "category": "Geography",
+      "difficulty": null,
       "question": "Denali, the highest peak in North America at 6,190 meters, is located in which U.S. state?",
       "options": [
         "Montana",
@@ -218,11 +299,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-07",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0276",
       "category": "Science & Nature",
+      "difficulty": null,
       "question": "What is the biological transformation process where an insect completely changes its body form — such as a caterpillar becoming a butterfly?",
       "options": [
         "Molting",
@@ -238,7 +327,14 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-07",
+          "context": "daily"
+        }
+      ]
     }
   ]
 }

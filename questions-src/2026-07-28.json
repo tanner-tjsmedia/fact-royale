@@ -4,6 +4,7 @@
     {
       "id": "frq-0517",
       "category": "History",
+      "difficulty": null,
       "question": "The Gunpowder Plot of 1605 was a failed conspiracy to blow up the English Parliament and assassinate which reigning monarch?",
       "options": [
         "Queen Elizabeth I",
@@ -19,11 +20,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-28",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0518",
       "category": "History",
+      "difficulty": null,
       "question": "The printing press, which revolutionized the spread of information, was invented by whom around 1440?",
       "options": [
         "Johannes Gutenberg",
@@ -39,11 +48,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-28",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0519",
       "category": "History",
+      "difficulty": null,
       "question": "The Ottoman Empire's capital, Constantinople, was conquered by the Ottomans in which year — marking the end of the Byzantine Empire?",
       "options": [
         "1571",
@@ -59,11 +76,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-28",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0520",
       "category": "Science & Nature",
+      "difficulty": null,
       "question": "Nuclear fusion — the process powering the Sun — has been called the 'holy grail' of clean energy. What is the key challenge that has prevented fusion power plants from operating?",
       "options": [
         "Fusion reactions require tritium, an isotope of hydrogen that exists in only microgram quantities on Earth — without a way to produce tritium at scale, fusion plants have no viable fuel source",
@@ -79,11 +104,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-28",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0521",
       "category": "Sports",
+      "difficulty": null,
       "question": "The Tour de France cycling race is traditionally held in which month?",
       "options": [
         "August",
@@ -99,11 +132,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-28",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0522",
       "category": "Sports",
+      "difficulty": null,
       "question": "The modern Olympic Games were revived in 1896 in Athens. Which French baron and educator is credited as the primary founder of the modern Olympics?",
       "options": [
         "Henri Didon",
@@ -119,11 +160,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-28",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0523",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Which artist won the very first Grammy Award for Best Rap Performance in 1989?",
       "options": [
         "Run-DMC",
@@ -139,11 +188,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-28",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0524",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "The Crown (Netflix, 2016–2023) dramatizes the reign of Queen Elizabeth II across six decades. What challenging artistic decision shaped the series?",
       "options": [
         "It was broadcast simultaneously in 73 countries in 50 languages, making it the most globally coordinated drama launch in television history",
@@ -159,11 +216,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-28",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0525",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Bob Dylan was awarded the Nobel Prize in Literature in 2016. He is primarily known as what type of artist?",
       "options": [
         "Singer-songwriter",
@@ -179,11 +244,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-28",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0526",
       "category": "Geography",
+      "difficulty": null,
       "question": "The Mariana Trench, the deepest point in the world's oceans, is located in which ocean?",
       "options": [
         "Atlantic Ocean",
@@ -199,11 +272,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-28",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0527",
       "category": "Science & Nature",
+      "difficulty": null,
       "question": "What is the name for the process by which a solid converts directly into a gas without becoming a liquid first?",
       "options": [
         "Condensation",
@@ -219,11 +300,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-28",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0528",
       "category": "Geography",
+      "difficulty": null,
       "question": "The Sea of Azov, bordered by Russia and Ukraine, holds which geographic distinction?",
       "options": [
         "World's deepest sea",
@@ -239,7 +328,14 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-28",
+          "context": "daily"
+        }
+      ]
     }
   ]
 }

@@ -3,6 +3,7 @@
     {
       "id": "frq-0181",
       "category": "History",
+      "difficulty": null,
       "question": "What year did the United States declare independence?",
       "options": [
         "1777",
@@ -18,11 +19,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-30",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0182",
       "category": "History",
+      "difficulty": null,
       "question": "Which pharaoh is associated with the construction of the Great Pyramid of Giza?",
       "options": [
         "Tutankhamun",
@@ -38,11 +47,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-30",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0183",
       "category": "Sports",
+      "difficulty": null,
       "question": "How long is a standard marathon race?",
       "options": [
         "27 miles",
@@ -58,11 +75,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-30",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0184",
       "category": "Sports",
+      "difficulty": null,
       "question": "In which sport is the term 'love' used to mean zero?",
       "options": [
         "Squash",
@@ -78,11 +103,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-30",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0185",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Which director is known for films like 'Pulp Fiction' and 'Kill Bill'?",
       "options": [
         "David Fincher",
@@ -98,11 +131,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-30",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0186",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Which band performed 'Bohemian Rhapsody'?",
       "options": [
         "Queen",
@@ -118,11 +159,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-30",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0187",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Which composer wrote the iconic score for the original Star Wars (1977)?",
       "options": [
         "Bernard Herrmann",
@@ -138,11 +187,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-30",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0188",
       "category": "History",
+      "difficulty": null,
       "question": "Who invented the telephone?",
       "options": [
         "Nikola Tesla",
@@ -158,11 +215,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-30",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0189",
       "category": "Geography",
+      "difficulty": null,
       "question": "Lake Baikal in Russia holds approximately what fraction of the world's unfrozen fresh surface water?",
       "options": [
         "35%",
@@ -178,11 +243,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-30",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0190",
       "category": "Science & Nature",
+      "difficulty": null,
       "question": "What structure carries oxygen from the lungs to the rest of the body?",
       "options": [
         "White blood cells",
@@ -198,11 +271,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-30",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0191",
       "category": "Geography",
+      "difficulty": null,
       "question": "Mount Fuji, Japan's highest peak at 3,776 meters, is what type of volcano — characterized by steep, symmetrical sides built from alternating layers of lava and ash?",
       "options": [
         "Stratovolcano",
@@ -218,11 +299,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-30",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0192",
       "category": "Science & Nature",
+      "difficulty": null,
       "question": "In 1998, two independent teams of astronomers studying distant supernovae made a shocking discovery that overturned cosmology. What did they find?",
       "options": [
         "They discovered that the universe's expansion had been decelerating since the Big Bang, confirming that gravity would eventually cause a 'Big Crunch' — the universe collapsing back on itself",
@@ -238,7 +327,14 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-30",
+          "context": "daily"
+        }
+      ]
     }
   ]
 }

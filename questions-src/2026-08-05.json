@@ -4,6 +4,7 @@
     {
       "id": "frq-0613",
       "category": "History",
+      "difficulty": null,
       "question": "The Viking Age is generally considered to have begun with an attack on which English monastery in 793 AD?",
       "options": [
         "Lindisfarne",
@@ -19,11 +20,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-05",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0614",
       "category": "History",
+      "difficulty": null,
       "question": "The Aztec Empire had its capital at Tenochtitlan, located on the site of which modern city?",
       "options": [
         "Puebla",
@@ -39,11 +48,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-05",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0615",
       "category": "History",
+      "difficulty": null,
       "question": "The Cold War standoff between the US and Soviet Union over nuclear missiles in Cuba occurred in which year?",
       "options": [
         "1961",
@@ -59,11 +76,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-05",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0616",
       "category": "Sports",
+      "difficulty": null,
       "question": "In which sport do athletes compete in the 'decathlon'?",
       "options": [
         "Track and field",
@@ -79,11 +104,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-05",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0617",
       "category": "Sports",
+      "difficulty": null,
       "question": "The 1999 Women's World Cup final (USA vs China) drew a record US TV audience. How did it end?",
       "options": [
         "Brandi Chastain won it on penalties, then removed her jersey",
@@ -99,11 +132,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-05",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0618",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Gustav Klimt's 'The Kiss' (1907-08) is the signature work of his Golden Phase. What defines it?",
       "options": [
         "The first use of photographic gold leaf as a medium",
@@ -119,11 +160,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-05",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0619",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Which musician was known as the 'Purple One' and performed at the 2007 Super Bowl halftime show?",
       "options": [
         "James Brown",
@@ -139,11 +188,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-05",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0620",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Gaudí's Sagrada Família, begun in 1882, is still unfinished. What makes it architecturally radical?",
       "options": [
         "It holds the record for longest active construction",
@@ -159,11 +216,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-05",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0621",
       "category": "Geography",
+      "difficulty": null,
       "question": "Which African country has the largest population?",
       "options": [
         "Ethiopia",
@@ -179,11 +244,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-05",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0622",
       "category": "Science & Nature",
+      "difficulty": null,
       "question": "What is the name for the period in Earth's history when dinosaurs lived?",
       "options": [
         "Paleozoic Era",
@@ -199,11 +272,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-05",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0623",
       "category": "Geography",
+      "difficulty": null,
       "question": "The Strait of Dover, the narrowest point of the English Channel, separates England from France. How wide is it at its narrowest?",
       "options": [
         "13 km",
@@ -219,11 +300,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-05",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0624",
       "category": "Science & Nature",
+      "difficulty": null,
       "question": "What process causes materials to expand when heated and contract when cooled — and why do bridges and railroads need expansion joints?",
       "options": [
         "Phase transition",
@@ -239,7 +328,14 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-05",
+          "context": "daily"
+        }
+      ]
     }
   ]
 }

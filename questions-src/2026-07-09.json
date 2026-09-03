@@ -3,6 +3,7 @@
     {
       "id": "frq-0289",
       "category": "History",
+      "difficulty": null,
       "question": "Which mountain range separates Europe from Asia?",
       "options": [
         "The Himalayas",
@@ -18,11 +19,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-09",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0290",
       "category": "History",
+      "difficulty": null,
       "question": "What is the name of the event where Native Americans and Pilgrims shared a harvest meal in 1621?",
       "options": [
         "The Thanksgiving",
@@ -38,11 +47,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-09",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0291",
       "category": "Sports",
+      "difficulty": null,
       "question": "In basketball, what is the diameter of the ball in inches?",
       "options": [
         "10.5 inches",
@@ -58,11 +75,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-09",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0292",
       "category": "Sports",
+      "difficulty": null,
       "question": "What country are the All Blacks rugby team from?",
       "options": [
         "Australia",
@@ -78,11 +103,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-09",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0293",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Which film features the song 'My Heart Will Go On'?",
       "options": [
         "Ghost",
@@ -98,11 +131,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-09",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0294",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "What was the first video ever played on MTV?",
       "options": [
         "Girls Just Want to Have Fun",
@@ -118,11 +159,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-09",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0295",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Jackson Pollock's drip paintings, created in the late 1940s in a barn in East Hampton, New York, revolutionized Abstract Expressionism. What was radical about his process?",
       "options": [
         "He dissolved all pigment into water and let the painting dry in sunlight, producing colors and forms entirely determined by evaporation",
@@ -138,11 +187,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-09",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0296",
       "category": "History",
+      "difficulty": null,
       "question": "The Aztec Empire was conquered by which European explorer?",
       "options": [
         "Francisco Pizarro",
@@ -158,11 +215,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-09",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0297",
       "category": "Geography",
+      "difficulty": null,
       "question": "The Caspian Sea, the world's largest landlocked body of water, borders five countries. Which of these is NOT one of them?",
       "options": [
         "Iran",
@@ -178,11 +243,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-09",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0298",
       "category": "Science & Nature",
+      "difficulty": null,
       "question": "What is the speed of light in a vacuum, approximately?",
       "options": [
         "30,000 km per second",
@@ -198,11 +271,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-09",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0299",
       "category": "Geography",
+      "difficulty": null,
       "question": "The ancient city of Petra — carved into rose-red sandstone cliffs and famously featured in Indiana Jones — is located in which country?",
       "options": [
         "Jordan",
@@ -218,11 +299,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-09",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0300",
       "category": "Science & Nature",
+      "difficulty": null,
       "question": "What is the scientific classification system used to organize all living things into hierarchical groups based on shared characteristics?",
       "options": [
         "Morphology",
@@ -238,7 +327,14 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-09",
+          "context": "daily"
+        }
+      ]
     }
   ]
 }

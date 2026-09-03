@@ -3,6 +3,7 @@
     {
       "id": "frq-0217",
       "category": "History",
+      "difficulty": null,
       "question": "Which disease caused the Black Death pandemic of the 14th century?",
       "options": [
         "Smallpox",
@@ -18,11 +19,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-03",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0218",
       "category": "History",
+      "difficulty": null,
       "question": "The first successful powered airplane flight was made by whom?",
       "options": [
         "The Wright Brothers",
@@ -38,11 +47,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-03",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0219",
       "category": "Sports",
+      "difficulty": null,
       "question": "In which sport would you find a 'hat trick'?",
       "options": [
         "Soccer/Football",
@@ -58,11 +75,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-03",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0220",
       "category": "Sports",
+      "difficulty": null,
       "question": "Donated by a Canadian Governor General in 1892, which trophy is the oldest championship trophy awarded in North American professional sports?",
       "options": [
         "The Conn Smythe",
@@ -78,11 +103,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-03",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0221",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Which 1997 James Cameron film starred Leonardo DiCaprio and Kate Winslet?",
       "options": [
         "The Revenant",
@@ -98,11 +131,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-03",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0222",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "What instrument is Yo-Yo Ma famous for playing?",
       "options": [
         "Piano",
@@ -118,11 +159,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-03",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0223",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Which film series features 'Hogwarts School of Witchcraft and Wizardry'?",
       "options": [
         "The Golden Compass",
@@ -138,11 +187,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-03",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0224",
       "category": "History",
+      "difficulty": null,
       "question": "Which nation did Germany invade in 1939 to trigger the start of World War II?",
       "options": [
         "Poland",
@@ -158,11 +215,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-03",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0225",
       "category": "Geography",
+      "difficulty": null,
       "question": "The Panama Canal connects which two bodies of water?",
       "options": [
         "Pacific and Arctic Oceans",
@@ -178,11 +243,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-03",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0226",
       "category": "Science & Nature",
+      "difficulty": null,
       "question": "Which organ in the human body produces insulin?",
       "options": [
         "Pancreas",
@@ -198,11 +271,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-03",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0227",
       "category": "Geography",
+      "difficulty": null,
       "question": "Mount Aconcagua in Argentina, at 6,961 meters, is the highest peak in which geographic region?",
       "options": [
         "The Americas (Western and Southern Hemispheres)",
@@ -218,11 +299,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-03",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0228",
       "category": "Science & Nature",
+      "difficulty": null,
       "question": "What is the term for a close long-term relationship between two different species where both benefit?",
       "options": [
         "Predation",
@@ -238,7 +327,14 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-03",
+          "context": "daily"
+        }
+      ]
     }
   ]
 }

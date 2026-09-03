@@ -4,6 +4,7 @@
     {
       "id": "frq-0733",
       "category": "History",
+      "difficulty": null,
       "question": "India and Pakistan became independent within a day of each other in August 1947. Why do they mark different dates?",
       "options": [
         "Pakistan declared early, before the handover was legal",
@@ -24,11 +25,19 @@
         "at": "2026-09-03",
         "by": "tanner@tjs16media.com",
         "note": "carried over: had a cited source before IDs existed"
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-15",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0734",
       "category": "History",
+      "difficulty": null,
       "question": "The Battle of Waterloo in 1815 ended whose rule over much of Europe?",
       "options": [
         "Maximilien Robespierre",
@@ -46,11 +55,19 @@
         "by": null,
         "note": null
       },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-15",
+          "context": "daily"
+        }
+      ],
       "canonicalNote": "Waterloo and Napoleon are fixed and universally attested"
     },
     {
       "id": "frq-0735",
       "category": "History",
+      "difficulty": null,
       "question": "Jamestown was founded in 1607 as England's first lasting settlement in North America. What nearly ended it?",
       "options": [
         "A fire set deliberately by a rival Dutch expedition",
@@ -71,11 +88,19 @@
         "at": "2026-09-03",
         "by": "tanner@tjs16media.com",
         "note": "carried over: had a cited source before IDs existed"
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-15",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0736",
       "category": "Sports",
+      "difficulty": null,
       "question": "Judo was created in 1882 by Jigoro Kano, drawing from older jujutsu schools. What did Kano deliberately remove?",
       "options": [
         "Strikes and joint locks too dangerous to practise fully",
@@ -96,11 +121,19 @@
         "at": "2026-09-03",
         "by": "tanner@tjs16media.com",
         "note": "carried over: had a cited source before IDs existed"
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-15",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0737",
       "category": "Sports",
+      "difficulty": null,
       "question": "A volleyball dig keeps a spiked ball alive. What makes it so difficult?",
       "options": [
         "It must be played with a closed fist to be legal",
@@ -121,11 +154,19 @@
         "at": "2026-09-03",
         "by": "tanner@tjs16media.com",
         "note": "carried over: had a cited source before IDs existed"
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-15",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0738",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Toy Story (1995) was the first fully computer-animated feature. What limitation shaped how it looks?",
       "options": [
         "Toys were chosen because plastic was easy to render",
@@ -146,11 +187,19 @@
         "at": "2026-09-03",
         "by": "tanner@tjs16media.com",
         "note": "carried over: had a cited source before IDs existed"
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-15",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0739",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "The Eagles' Hotel California has been argued over for decades. What did Don Henley say the title track is actually about?",
       "options": [
         "A coded account of a satanic church in Los Angeles",
@@ -170,11 +219,19 @@
         "at": "2026-09-03",
         "by": "tanner@tjs16media.com",
         "note": "carried over: had a cited source before IDs existed"
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-15",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0740",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Grant Wood's American Gothic (1930) is usually taken as satire of the rural Midwest. What did Wood say about that?",
       "options": [
         "He said he had meant it as a joke on his own family",
@@ -194,11 +251,19 @@
         "at": "2026-09-03",
         "by": "tanner@tjs16media.com",
         "note": "carried over: had a cited source before IDs existed"
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-15",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0741",
       "category": "Geography",
+      "difficulty": null,
       "question": "Africa is the only continent with land in all four hemispheres. What line runs almost exactly through its middle?",
       "options": [
         "The Tropic of Cancer, which bisects the continent",
@@ -216,11 +281,19 @@
         "by": null,
         "note": null
       },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-15",
+          "context": "daily"
+        }
+      ],
       "canonicalNote": "atlas-level geography; the equator and prime meridian crossings are fixed"
     },
     {
       "id": "frq-0742",
       "category": "Science & Nature",
+      "difficulty": null,
       "question": "A straw in a glass of water looks bent at the surface. What causes that?",
       "options": [
         "Water magnifies whatever sits behind it",
@@ -238,11 +311,19 @@
         "by": null,
         "note": null
       },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-15",
+          "context": "daily"
+        }
+      ],
       "canonicalNote": "textbook optics, universally attested"
     },
     {
       "id": "frq-0743",
       "category": "Geography",
+      "difficulty": null,
       "question": "The Sea of Japan lies between Japan and the Korean Peninsula. By what name do South Korea and Japan disagree on what this body of water should be called?",
       "options": [
         "Both agree it should be the Pacific Sea",
@@ -263,11 +344,19 @@
         "at": "2026-09-03",
         "by": "tanner@tjs16media.com",
         "note": "carried over: had a cited source before IDs existed"
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-15",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0744",
       "category": "Science & Nature",
+      "difficulty": null,
       "question": "A mutation is a change in a DNA sequence. What makes most of them harmless?",
       "options": [
         "Cells destroy any DNA strand that has been altered",
@@ -285,6 +374,13 @@
         "by": null,
         "note": null
       },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-15",
+          "context": "daily"
+        }
+      ],
       "canonicalNote": "textbook genetics; the ~1-2% coding figure is universally attested"
     }
   ]

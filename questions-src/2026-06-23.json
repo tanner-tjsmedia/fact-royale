@@ -4,6 +4,7 @@
     {
       "id": "frq-0097",
       "category": "History",
+      "difficulty": null,
       "question": "The Boston Tea Party of 1773 was a protest against taxation by which colonial power?",
       "options": [
         "The Netherlands",
@@ -19,11 +20,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-23",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0098",
       "category": "History",
+      "difficulty": null,
       "question": "The Eiffel Tower was built for which major international event?",
       "options": [
         "The Treaty of Paris signing",
@@ -39,11 +48,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-23",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0099",
       "category": "History",
+      "difficulty": null,
       "question": "Leonardo da Vinci painted which portrait, now considered the most famous painting in the world?",
       "options": [
         "The Last Supper",
@@ -59,11 +76,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-23",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0100",
       "category": "Sports",
+      "difficulty": null,
       "question": "The Rugby World Cup has been dominated by which country, known as the All Blacks?",
       "options": [
         "Australia",
@@ -79,11 +104,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-23",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0101",
       "category": "Sports",
+      "difficulty": null,
       "question": "The Stanley Cup, awarded to the NHL champion, is unique among major sports trophies because of which tradition?",
       "options": [
         "Each winning player gets to spend a day alone with it",
@@ -99,11 +132,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-23",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0102",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "David Bowie created which famous glam rock alter ego in the early 1970s?",
       "options": [
         "Ziggy Stardust",
@@ -119,11 +160,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-23",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0103",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Which director created Pulp Fiction, known for its non-linear storytelling and sharp dialogue?",
       "options": [
         "Paul Thomas Anderson",
@@ -139,11 +188,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-23",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0104",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Frank Sinatra was famously part of which iconic celebrity social group in 1950s-60s Las Vegas?",
       "options": [
         "The Chairman's Club",
@@ -159,11 +216,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-23",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0105",
       "category": "Geography",
+      "difficulty": null,
       "question": "Which Pacific island nation, consisting of 33 coral atolls with a highest point of just 2 meters above sea level, is one of the countries most threatened by rising seas?",
       "options": [
         "Fiji",
@@ -179,11 +244,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-23",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0106",
       "category": "Science & Nature",
+      "difficulty": null,
       "question": "What type of rock forms when magma or lava cools and solidifies — accounting for about 90% of Earth's crust?",
       "options": [
         "Alluvial",
@@ -199,11 +272,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-23",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0107",
       "category": "Geography",
+      "difficulty": null,
       "question": "Lake Malawi (also called Lake Nyasa) — Africa's third-largest lake — is shared by Malawi, Tanzania, and which third country?",
       "options": [
         "Zambia",
@@ -219,11 +300,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-23",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0108",
       "category": "Science & Nature",
+      "difficulty": null,
       "question": "What do geologists call the era spanning roughly 541 to 252 million years ago, when complex animal life first exploded in diversity?",
       "options": [
         "Paleozoic Era",
@@ -239,7 +328,14 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-23",
+          "context": "daily"
+        }
+      ]
     }
   ]
 }

@@ -4,6 +4,7 @@
     {
       "id": "frq-0661",
       "category": "History",
+      "difficulty": null,
       "question": "Which empire built the Taj Mahal in India?",
       "options": [
         "British Empire",
@@ -23,11 +24,19 @@
         "at": "2026-09-03",
         "by": "tanner@tjs16media.com",
         "note": "carried over: had a cited source before IDs existed"
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-09",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0662",
       "category": "History",
+      "difficulty": null,
       "question": "The first telephone call in history was made by Alexander Graham Bell in 1876. What were his first words?",
       "options": [
         "Hello, can you hear me clearly at that end?",
@@ -47,11 +56,19 @@
         "at": "2026-09-03",
         "by": "tanner@tjs16media.com",
         "note": "carried over: had a cited source before IDs existed"
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-09",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0663",
       "category": "History",
+      "difficulty": null,
       "question": "South Africa's apartheid system ran from 1948 to the early 1990s. What did the Population Registration Act of 1950 do?",
       "options": [
         "Created separate parliaments for each of the four provinces",
@@ -72,11 +89,19 @@
         "at": "2026-09-03",
         "by": "tanner@tjs16media.com",
         "note": "carried over: had a cited source before IDs existed"
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-09",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0664",
       "category": "Sports",
+      "difficulty": null,
       "question": "A baseball batter struck by a pitch is normally awarded first base, but not always. What forfeits it?",
       "options": [
         "Being hit when the count already stands at three balls",
@@ -97,11 +122,19 @@
         "at": "2026-09-03",
         "by": "tanner@tjs16media.com",
         "note": "carried over: had a cited source before IDs existed"
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-09",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0665",
       "category": "Sports",
+      "difficulty": null,
       "question": "How long is a marathon running race?",
       "options": [
         "42 kilometers",
@@ -119,11 +152,19 @@
         "by": null,
         "note": null
       },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-09",
+          "context": "daily"
+        }
+      ],
       "canonicalNote": "atlas/textbook level, no source disputes it"
     },
     {
       "id": "frq-0666",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Kubrick filmed the Overlook Hotel corridors in The Shining (1980) with a camera rig that was then brand new. What did it let him do?",
       "options": [
         "Shoot in near-total darkness using only candlelight for light",
@@ -144,11 +185,19 @@
         "at": "2026-09-03",
         "by": "tanner@tjs16media.com",
         "note": "carried over: had a cited source before IDs existed"
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-09",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0667",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Nirvana's Nevermind pushed grunge into the mainstream in 1991. What did it knock off the top of the Billboard album chart?",
       "options": [
         "U2's Achtung Baby, after a long run at number one",
@@ -169,11 +218,19 @@
         "at": "2026-09-03",
         "by": "tanner@tjs16media.com",
         "note": "carried over: had a cited source before IDs existed"
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-09",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0668",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "True Detective Season 1 (HBO, 2014) is considered a landmark of prestige TV. What defined it narratively?",
       "options": [
         "All eight episodes written in a single six-week burst",
@@ -193,11 +250,19 @@
         "at": "2026-09-03",
         "by": "tanner@tjs16media.com",
         "note": "carried over: had a cited source before IDs existed"
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-09",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0669",
       "category": "Geography",
+      "difficulty": null,
       "question": "Lake Titicaca sits at 3,812 metres on the Peru-Bolivia border. What is unusual about its Uros communities?",
       "options": [
         "They farm the only crop that grows above 3,500 metres",
@@ -218,11 +283,19 @@
         "at": "2026-09-03",
         "by": "tanner@tjs16media.com",
         "note": "carried over: had a cited source before IDs existed"
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-09",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0670",
       "category": "Science & Nature",
+      "difficulty": null,
       "question": "What is the name for the protective ozone layer primarily made of?",
       "options": [
         "Nitrogen",
@@ -240,11 +313,19 @@
         "by": null,
         "note": null
       },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-09",
+          "context": "daily"
+        }
+      ],
       "canonicalNote": "atlas/textbook level, no source disputes it"
     },
     {
       "id": "frq-0671",
       "category": "Geography",
+      "difficulty": null,
       "question": "The Carpathian arc holds Europe's largest surviving populations of three large predators. Which three?",
       "options": [
         "Brown bear, wolverine and snow leopard",
@@ -264,11 +345,19 @@
         "at": "2026-09-03",
         "by": "tanner@tjs16media.com",
         "note": "carried over: had a cited source before IDs existed"
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-09",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0672",
       "category": "Science & Nature",
+      "difficulty": null,
       "question": "Radiocarbon dating works because carbon-14 is an unstable isotope of carbon. What makes something an isotope?",
       "options": [
         "Extra or missing neutrons, changing mass but not charge",
@@ -286,6 +375,13 @@
         "by": null,
         "note": null
       },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-09",
+          "context": "daily"
+        }
+      ],
       "canonicalNote": "atlas/textbook level, no source disputes it"
     }
   ]

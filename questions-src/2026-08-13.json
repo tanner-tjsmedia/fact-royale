@@ -4,6 +4,7 @@
     {
       "id": "frq-0709",
       "category": "History",
+      "difficulty": null,
       "question": "Cortes reached the Aztec capital Tenochtitlan in 1519 with a few hundred men. What did the Spanish find there?",
       "options": [
         "A city larger than any in Spain, built on a lake",
@@ -24,11 +25,19 @@
         "at": "2026-09-03",
         "by": "tanner@tjs16media.com",
         "note": "carried over: had a cited source before IDs existed"
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-13",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0710",
       "category": "History",
+      "difficulty": null,
       "question": "The Emancipation Proclamation took effect on which date?",
       "options": [
         "January 1, 1863",
@@ -46,11 +55,19 @@
         "by": null,
         "note": null
       },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-13",
+          "context": "daily"
+        }
+      ],
       "canonicalNote": "the date of the Emancipation Proclamation is fixed and universally attested"
     },
     {
       "id": "frq-0711",
       "category": "History",
+      "difficulty": null,
       "question": "Constantinople fell to Ottoman forces in 1453 after surviving sieges for a thousand years. What broke the walls?",
       "options": [
         "Enormous cannon cast specifically for the siege",
@@ -71,11 +88,19 @@
         "at": "2026-09-03",
         "by": "tanner@tjs16media.com",
         "note": "carried over: had a cited source before IDs existed"
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-13",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0712",
       "category": "Sports",
+      "difficulty": null,
       "question": "In American football, what is a 'Hail Mary' play?",
       "options": [
         "A defensive blitz sending every linebacker",
@@ -93,11 +118,19 @@
         "by": null,
         "note": null
       },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-13",
+          "context": "daily"
+        }
+      ],
       "canonicalNote": "definition of a common football term, universally attested"
     },
     {
       "id": "frq-0713",
       "category": "Sports",
+      "difficulty": null,
       "question": "Tiger Woods won the 1997 Masters by twelve strokes at twenty-one. What did Augusta National do afterward?",
       "options": [
         "Lengthened the course, a change nicknamed Tiger-proofing",
@@ -117,11 +150,19 @@
         "at": "2026-09-03",
         "by": "tanner@tjs16media.com",
         "note": "carried over: had a cited source before IDs existed"
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-13",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0714",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Jordan Peele's Get Out (2017) was made for about $4.5 million. What did it achieve at the Oscars?",
       "options": [
         "Peele won Best Director on his first ever feature film",
@@ -142,11 +183,19 @@
         "at": "2026-09-03",
         "by": "tanner@tjs16media.com",
         "note": "carried over: had a cited source before IDs existed"
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-13",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0715",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Deadwood (HBO, 2004-2006), set in an 1870s mining camp, is praised for its language. What was David Milch's approach?",
       "options": [
         "Modern profanity for period effect, Shakespearean structure",
@@ -167,11 +216,19 @@
         "at": "2026-09-03",
         "by": "tanner@tjs16media.com",
         "note": "carried over: had a cited source before IDs existed"
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-13",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0716",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Pearl Jam's Ten and Nirvana's Nevermind both came out in 1991. What set the two bands against each other?",
       "options": [
         "Their labels forced them to tour together for a year",
@@ -191,11 +248,19 @@
         "at": "2026-09-03",
         "by": "tanner@tjs16media.com",
         "note": "carried over: had a cited source before IDs existed"
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-13",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0717",
       "category": "Geography",
+      "difficulty": null,
       "question": "The Yangtze is Asia's longest river. What did China build across it that broke records?",
       "options": [
         "The longest undersea rail tunnel anywhere in the world",
@@ -217,11 +282,19 @@
         "at": "2026-09-03",
         "by": "tanner@tjs16media.com",
         "note": "carried over: had a cited source before IDs existed"
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-13",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0718",
       "category": "Science & Nature",
+      "difficulty": null,
       "question": "Most life on Earth runs on energy that traces back to sunlight. Which organisms break that rule entirely?",
       "options": [
         "Deep-sea vent bacteria, which live on chemical energy",
@@ -241,11 +314,19 @@
         "at": "2026-09-03",
         "by": "tanner@tjs16media.com",
         "note": "carried over: had a cited source before IDs existed"
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-13",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0719",
       "category": "Geography",
+      "difficulty": null,
       "question": "The Po Valley is Italy's agricultural and industrial heartland. What environmental problem does its geography create?",
       "options": [
         "Annual flooding leaves half the valley unusable each spring",
@@ -266,11 +347,19 @@
         "at": "2026-09-03",
         "by": "tanner@tjs16media.com",
         "note": "carried over: had a cited source before IDs existed"
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-13",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0720",
       "category": "Science & Nature",
+      "difficulty": null,
       "question": "What is apoptosis — and why is it essential for normal development and disease prevention?",
       "options": [
         "Programmed cell death, removing damaged or unneeded cells",
@@ -288,6 +377,13 @@
         "by": null,
         "note": null
       },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-13",
+          "context": "daily"
+        }
+      ],
       "canonicalNote": "textbook cell biology, universally attested"
     }
   ]

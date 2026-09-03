@@ -4,6 +4,7 @@
     {
       "id": "frq-0637",
       "category": "History",
+      "difficulty": null,
       "question": "Which abolitionist, called 'Moses' by those she helped escape slavery, conducted 13 Underground Railroad missions and never lost a single passenger?",
       "options": [
         "Harriet Beecher Stowe",
@@ -19,11 +20,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-07",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0638",
       "category": "History",
+      "difficulty": null,
       "question": "Which Argentine-born Marxist revolutionary, who fought alongside Fidel Castro in Cuba, later attempted to spread revolution across Africa and South America before being captured and executed in Bolivia in 1967?",
       "options": [
         "Che Guevara",
@@ -39,11 +48,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-07",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0639",
       "category": "History",
+      "difficulty": null,
       "question": "The Reformation, which split Western Christianity, was ignited when which monk posted his 95 Theses in 1517?",
       "options": [
         "John Calvin",
@@ -59,11 +76,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-07",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0640",
       "category": "Sports",
+      "difficulty": null,
       "question": "In which sport would athletes compete using a 'shuttlecock' — a feathered or plastic projectile — hit back and forth over a net?",
       "options": [
         "Table Tennis",
@@ -79,11 +104,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-07",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0641",
       "category": "Sports",
+      "difficulty": null,
       "question": "The Ryder Cup is a golf competition between players from which two teams?",
       "options": [
         "Europe and Rest of World",
@@ -99,11 +132,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-07",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0642",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Which rapper's debut album 'Illmatic' (1994) is widely considered one of the greatest hip-hop albums ever recorded?",
       "options": [
         "Notorious B.I.G.",
@@ -119,11 +160,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-07",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0643",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Which author, who has published over 60 novels and is often called 'the King of Horror,' wrote 'The Shining,' 'It,' 'Carrie,' and 'Misery'?",
       "options": [
         "Anne Rice",
@@ -139,11 +188,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-07",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0644",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Which singer is known as the 'Material Girl' and released the album Like a Virgin in 1984?",
       "options": [
         "Janet Jackson",
@@ -159,11 +216,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-07",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0645",
       "category": "Geography",
+      "difficulty": null,
       "question": "Which river did Lewis and Clark follow on the first leg of their 1804-1806 expedition westward across North America?",
       "options": [
         "Missouri River",
@@ -179,11 +244,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-07",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0646",
       "category": "Science & Nature",
+      "difficulty": null,
       "question": "What is the term for animals that are active at night and sleep during the day?",
       "options": [
         "Nocturnal",
@@ -199,11 +272,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-07",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0647",
       "category": "Geography",
+      "difficulty": null,
       "question": "The Alps, Europe's highest mountain range, span eight countries. Which peak, at 4,808 meters, is the highest in the Alps and in all of Western Europe?",
       "options": [
         "The Matterhorn",
@@ -219,11 +300,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-07",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0648",
       "category": "Science & Nature",
+      "difficulty": null,
       "question": "What is the Fibonacci sequence, and where does it famously appear in nature?",
       "options": [
         "A random number sequence found only in mathematics",
@@ -239,7 +328,14 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-07",
+          "context": "daily"
+        }
+      ]
     }
   ]
 }

@@ -4,6 +4,7 @@
     {
       "id": "frq-0853",
       "category": "History",
+      "difficulty": null,
       "question": "The Berlin Wall went up overnight in August 1961. Why did East Germany build it?",
       "options": [
         "West Germany had openly threatened to annex East Berlin",
@@ -23,11 +24,19 @@
         "at": "2026-09-03",
         "by": "tanner@tjs16media.com",
         "note": "carried over: had a cited source before IDs existed"
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-25",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0854",
       "category": "Science & Nature",
+      "difficulty": null,
       "question": "Diamond scores 10 on the Mohs hardness scale. What does that scale actually measure?",
       "options": [
         "Density relative to an equal volume of water",
@@ -47,11 +56,19 @@
         "at": "2026-09-03",
         "by": "tanner@tjs16media.com",
         "note": "carried over: had a cited source before IDs existed"
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-25",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0855",
       "category": "Sports",
+      "difficulty": null,
       "question": "Brazil has won five World Cups. What happened the one time they hosted before 2014?",
       "options": [
         "They lost the deciding match at home to Uruguay",
@@ -72,11 +89,19 @@
         "at": "2026-09-03",
         "by": "tanner@tjs16media.com",
         "note": "carried over: had a cited source before IDs existed"
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-25",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0856",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Adele names her albums after her age at the time of writing. What broke that pattern?",
       "options": [
         "21 referred to the number of songs she demoed",
@@ -97,11 +122,19 @@
         "at": "2026-09-03",
         "by": "tanner@tjs16media.com",
         "note": "carried over: had a cited source before IDs existed"
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-25",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0857",
       "category": "Geography",
+      "difficulty": null,
       "question": "Victoria Falls is neither the tallest nor the widest waterfall. What record does it hold?",
       "options": [
         "The only waterfall visible from low Earth orbit",
@@ -121,11 +154,19 @@
         "at": "2026-09-03",
         "by": "tanner@tjs16media.com",
         "note": "carried over: had a cited source before IDs existed"
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-25",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0858",
       "category": "History",
+      "difficulty": null,
       "question": "The Meiji Restoration stripped the samurai of their status. What was the Satsuma Rebellion?",
       "options": [
         "A naval mutiny by officers loyal to the deposed shogun",
@@ -145,11 +186,19 @@
         "at": "2026-09-03",
         "by": "tanner@tjs16media.com",
         "note": "carried over: had a cited source before IDs existed"
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-25",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0859",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Rowling wrote much of the first Harry Potter book in Edinburgh cafes. Why there?",
       "options": [
         "Walking her baby to sleep, then writing while she napped",
@@ -169,11 +218,19 @@
         "at": "2026-09-03",
         "by": "tanner@tjs16media.com",
         "note": "carried over: had a cited source before IDs existed"
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-25",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0860",
       "category": "Science & Nature",
+      "difficulty": null,
       "question": "The universe is about 13.8 billion years old. How is that number arrived at?",
       "options": [
         "By counting the oldest known stars and adding a safety margin",
@@ -192,11 +249,19 @@
         "by": null,
         "note": null
       },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-25",
+          "context": "daily"
+        }
+      ],
       "canonicalNote": "the Hubble tension is stated AS unresolved, which is the accepted position, not a claim that could be wrong"
     },
     {
       "id": "frq-0861",
       "category": "Geography",
+      "difficulty": null,
       "question": "San Marino claims to be the world's oldest surviving republic. What is its founding story?",
       "options": [
         "A stonemason fled Roman persecution and hid on a mountain",
@@ -216,11 +281,19 @@
         "at": "2026-09-03",
         "by": "tanner@tjs16media.com",
         "note": "carried over: had a cited source before IDs existed"
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-25",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0862",
       "category": "History",
+      "difficulty": null,
       "question": "The Trail of Tears removed the Cherokee in 1838. What made it legally extraordinary?",
       "options": [
         "Congress voted against it and was overruled by the states",
@@ -241,11 +314,19 @@
         "at": "2026-09-03",
         "by": "tanner@tjs16media.com",
         "note": "carried over: had a cited source before IDs existed"
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-25",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0863",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Pulp Fiction (1994) tells its story out of order. What does that structure accomplish?",
       "options": [
         "It conceals the identity of the narrator until the end",
@@ -265,11 +346,19 @@
         "at": "2026-09-03",
         "by": "tanner@tjs16media.com",
         "note": "carried over: had a cited source before IDs existed"
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-25",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0864",
       "category": "Sports",
+      "difficulty": null,
       "question": "An ace in tennis is a serve the returner never touches. What is the fastest ever recorded?",
       "options": [
         "Around 210 km/h, unchanged since the wooden era",
@@ -289,7 +378,14 @@
         "at": "2026-09-03",
         "by": "tanner@tjs16media.com",
         "note": "carried over: had a cited source before IDs existed"
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-25",
+          "context": "daily"
+        }
+      ]
     }
   ]
 }

@@ -4,6 +4,7 @@
     {
       "id": "frq-0925",
       "category": "History",
+      "difficulty": null,
       "question": "Cleopatra allied with Caesar and Antony. What is usually got wrong about her?",
       "options": [
         "She was Greek Macedonian, not ethnically Egyptian",
@@ -19,11 +20,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-31",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0926",
       "category": "Science & Nature",
+      "difficulty": null,
       "question": "The ozone hole was discovered in 1985. Why is it considered an environmental success story?",
       "options": [
         "A replacement chemical was found that rebuilt the ozone",
@@ -39,11 +48,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-31",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0927",
       "category": "Sports",
+      "difficulty": null,
       "question": "Tom Brady is widely considered the greatest quarterback in NFL history. How many Super Bowl championships did he win, and with how many different teams?",
       "options": [
         "5 Super Bowls, 4 with New England and 1 with Tampa Bay",
@@ -59,11 +76,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-31",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0928",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Mozart was composing from about five. What was his financial situation at his death?",
       "options": [
         "Supported entirely by a single wealthy aristocratic patron",
@@ -79,11 +104,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-31",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0929",
       "category": "Geography",
+      "difficulty": null,
       "question": "Egypt's population is concentrated in a remarkably small area. How small?",
       "options": [
         "About 95% live on 5% of the land, along the Nile",
@@ -99,11 +132,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-31",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0930",
       "category": "History",
+      "difficulty": null,
       "question": "The Suez Canal opened in 1869 and was blocked for six days in 2021. What caused the blockage?",
       "options": [
         "A deliberate protest by canal pilots over pay",
@@ -119,11 +160,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-31",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0931",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Spotify launched in 2008 as an alternative to something specific. What?",
       "options": [
         "CD sales, which had become too expensive to produce",
@@ -139,11 +188,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-31",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0932",
       "category": "Science & Nature",
+      "difficulty": null,
       "question": "A covalent bond involves atoms sharing electrons. Why is water's version so consequential?",
       "options": [
         "The bonds only form below four degrees Celsius",
@@ -159,11 +216,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-31",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0933",
       "category": "Geography",
+      "difficulty": null,
       "question": "Tanzania holds the Serengeti and Kilimanjaro. What else sits within its borders?",
       "options": [
         "The largest active volcano in the southern hemisphere",
@@ -179,11 +244,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-31",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0934",
       "category": "History",
+      "difficulty": null,
       "question": "Qin Shi Huang unified China and began the Great Wall. What else did he build?",
       "options": [
         "A national road network still partly in use today",
@@ -199,11 +272,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-31",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0935",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Titanic (1997) won 11 Academy Awards, tying the record. Which films share it?",
       "options": [
         "Ben-Hur and The Lord of the Rings: The Return of the King",
@@ -219,11 +300,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-31",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0936",
       "category": "Sports",
+      "difficulty": null,
       "question": "The US topped the medal table at Tokyo 2020, held in 2021. What made those Games unique?",
       "options": [
         "Athletes competed remotely from their home countries",
@@ -239,7 +328,14 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-31",
+          "context": "daily"
+        }
+      ]
     }
   ]
 }

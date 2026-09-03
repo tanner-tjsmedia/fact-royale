@@ -56,8 +56,9 @@ const path = require('path');
 const QDIR = path.join(__dirname, '..', 'questions-src');
 const REG  = path.join(__dirname, '..', 'sources.json');
 
-const ORDER = ['id', 'category', 'question', 'options', 'answer',
-               'explanation', 'memory_hook', 'riskTier', 'sourceRefs', 'review'];
+const ORDER = ['id','category','difficulty','question','options','answer',
+               'explanation','memory_hook','riskTier','sourceRefs',
+               'review','status','usage'];
 
 function orderKeys(q) {
   const out = {};

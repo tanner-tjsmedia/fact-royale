@@ -4,6 +4,7 @@
     {
       "id": "frq-0913",
       "category": "History",
+      "difficulty": null,
       "question": "The Colossus of Rhodes stood about 33 metres tall. How long did it last?",
       "options": [
         "Around 300 years, until it was melted for coinage",
@@ -19,11 +20,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-30",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0914",
       "category": "Science & Nature",
+      "difficulty": null,
       "question": "Eukaryotic cells have a nucleus and organelles. Where did mitochondria come from?",
       "options": [
         "Spontaneous assembly from free-floating proteins",
@@ -39,11 +48,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-30",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0915",
       "category": "Sports",
+      "difficulty": null,
       "question": "Rocky Marciano retired in 1956 at 49-0, boxing's only undefeated heavyweight champion. What qualifies his legacy?",
       "options": [
         "His era was weak; the best heavyweights fought elsewhere",
@@ -63,11 +80,19 @@
         "at": "2026-09-03",
         "by": "tanner@tjs16media.com",
         "note": "carried over: had a cited source before IDs existed"
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-30",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0916",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Which iconic pop duo, consisting of Elton John and Tim Rice, wrote the music for 'The Lion King' (1994)?",
       "options": [
         "Alan Menken and Howard Ashman",
@@ -83,11 +108,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-30",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0917",
       "category": "Geography",
+      "difficulty": null,
       "question": "The Strait of Gibraltar is only 14km wide at its narrowest. What happened when it last closed?",
       "options": [
         "Atlantic sea level fell by more than 50 metres",
@@ -103,11 +136,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-30",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0918",
       "category": "History",
+      "difficulty": null,
       "question": "European powers divided Africa at the Berlin Conference of 1884-85. Who was not in the room?",
       "options": [
         "Portugal, which had already withdrawn its claims",
@@ -123,11 +164,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-30",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0919",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Apple was founded by three people in 1976. What happened to the third?",
       "options": [
         "Ronald Wayne sold his 10% stake for $800",
@@ -143,11 +192,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-30",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0920",
       "category": "Science & Nature",
+      "difficulty": null,
       "question": "Transcription copies DNA into RNA. Where does the copying stop being faithful?",
       "options": [
         "Errors are deliberately introduced to create variation",
@@ -163,11 +220,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-30",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0921",
       "category": "Geography",
+      "difficulty": null,
       "question": "The Amazon rainforest spans nine countries. What proportion sits in Brazil?",
       "options": [
         "About 60%, with Peru holding the next largest share",
@@ -183,11 +248,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-30",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0922",
       "category": "History",
+      "difficulty": null,
       "question": "Napoleon is remembered as a general, but had a longer effect through something else. What?",
       "options": [
         "A canal network that permanently reshaped European trade routes",
@@ -203,11 +276,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-30",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0923",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "U2's The Joshua Tree came out in 1987. What was the band trying to do with it?",
       "options": [
         "Produce an album with no singles for radio",
@@ -223,11 +304,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-30",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0924",
       "category": "Sports",
+      "difficulty": null,
       "question": "A maximum snooker break is 147. How is that total reached?",
       "options": [
         "Potting every ball on the table twice in sequence",
@@ -243,7 +332,14 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-08-30",
+          "context": "daily"
+        }
+      ]
     }
   ]
 }

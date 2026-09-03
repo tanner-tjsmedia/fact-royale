@@ -3,6 +3,7 @@
     {
       "id": "frq-0349",
       "category": "History",
+      "difficulty": null,
       "question": "Bastille Day, celebrated on July 14, is the national day of which country?",
       "options": [
         "Belgium",
@@ -18,11 +19,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-14",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0350",
       "category": "History",
+      "difficulty": null,
       "question": "Which European country colonized Brazil?",
       "options": [
         "Netherlands",
@@ -38,11 +47,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-14",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0351",
       "category": "Sports",
+      "difficulty": null,
       "question": "What is the maximum weight for a lightweight boxer?",
       "options": [
         "135 lbs",
@@ -58,11 +75,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-14",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0352",
       "category": "Sports",
+      "difficulty": null,
       "question": "In which sport would you find a 'bully-off'?",
       "options": [
         "Field hockey",
@@ -78,11 +103,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-14",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0353",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Edvard Munch's 'The Scream' (1893) is one of the most replicated images in art history. What experience inspired it, and what does the agonized figure represent?",
       "options": [
         "Munch witnessed a violent confrontation in Oslo and captured the moment of collective human dread, making it a political commentary on urban violence",
@@ -98,11 +131,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-14",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0354",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Which famous concert took place in August 1969 in New York?",
       "options": [
         "Lollapalooza",
@@ -118,11 +159,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-14",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0355",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Which Pixar film features the song 'Remember Me'?",
       "options": [
         "Coco",
@@ -138,11 +187,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-14",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0356",
       "category": "History",
+      "difficulty": null,
       "question": "Which country was the first to develop nuclear weapons?",
       "options": [
         "Soviet Union",
@@ -158,11 +215,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-14",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0357",
       "category": "Geography",
+      "difficulty": null,
       "question": "Which continent has the most countries?",
       "options": [
         "South America",
@@ -178,11 +243,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-14",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0358",
       "category": "Science & Nature",
+      "difficulty": null,
       "question": "Jupiter's Great Red Spot is a storm larger than Earth that has been observed continuously since at least 1831 — and possibly since the 1600s. What is happening to it?",
       "options": [
         "The Great Red Spot is shrinking — it was once three times Earth's diameter but is now barely larger than Earth, and some models predict it could disappear within decades",
@@ -198,11 +271,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-14",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0359",
       "category": "Geography",
+      "difficulty": null,
       "question": "Mount Kenya, Africa's second-highest peak after Kilimanjaro, is located in which country and reaches what approximate elevation?",
       "options": [
         "Kenya at 5,199 meters",
@@ -218,11 +299,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-14",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0360",
       "category": "Science & Nature",
+      "difficulty": null,
       "question": "In genetics, what term describes alternative versions of a gene that can produce different traits — such as blue or brown eye color?",
       "options": [
         "Genomes",
@@ -238,7 +327,14 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-14",
+          "context": "daily"
+        }
+      ]
     }
   ]
 }

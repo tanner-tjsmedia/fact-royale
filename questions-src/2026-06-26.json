@@ -4,6 +4,7 @@
     {
       "id": "frq-0133",
       "category": "History",
+      "difficulty": null,
       "question": "WWI officially ended on November 11, 1918 at what time, now observed as a moment of silence?",
       "options": [
         "11:00 AM",
@@ -19,11 +20,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-26",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0134",
       "category": "History",
+      "difficulty": null,
       "question": "The Trojan Horse was a military stratagem used by the Greeks against which city?",
       "options": [
         "Carthage",
@@ -39,11 +48,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-26",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0135",
       "category": "History",
+      "difficulty": null,
       "question": "The Prohibition era in the United States, banning alcohol, lasted from 1920 to which year?",
       "options": [
         "1941",
@@ -59,11 +76,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-26",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0136",
       "category": "Sports",
+      "difficulty": null,
       "question": "Which country has won the most Summer Olympic gold medals in the history of the Games?",
       "options": [
         "United States",
@@ -79,11 +104,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-26",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0137",
       "category": "Sports",
+      "difficulty": null,
       "question": "The first Super Bowl was played in 1967 between the Green Bay Packers and which team?",
       "options": [
         "Kansas City Chiefs",
@@ -99,11 +132,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-26",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0138",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Citizen Kane (1941), often called the greatest film ever made, was directed by and starred which filmmaker?",
       "options": [
         "Frank Capra",
@@ -119,11 +160,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-26",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0139",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Which legendary singer's real name was Stefani Joanne Angelina Germanotta?",
       "options": [
         "Rihanna",
@@ -139,11 +188,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-26",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0140",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Which film franchise holds the record as the highest-grossing of all time?",
       "options": [
         "Star Wars",
@@ -159,11 +216,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-26",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0141",
       "category": "Geography",
+      "difficulty": null,
       "question": "The Amazon River empties into which ocean?",
       "options": [
         "Caribbean Sea",
@@ -179,11 +244,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-26",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0142",
       "category": "Science & Nature",
+      "difficulty": null,
       "question": "NASA's Perseverance rover landed on Mars in February 2021. What unique experiment did it carry that marked a first in the history of space exploration?",
       "options": [
         "It contained a nuclear fusion reactor small enough to fit in a car, powering the rover for an indefinite mission without the solar power limitations of previous rovers",
@@ -199,11 +272,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-26",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0143",
       "category": "Geography",
+      "difficulty": null,
       "question": "Machu Picchu, a 15th-century Inca citadel at 2,430 meters above sea level, is located in which country?",
       "options": [
         "Bolivia",
@@ -219,11 +300,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-26",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0144",
       "category": "Science & Nature",
+      "difficulty": null,
       "question": "What is the name of the mineral hardness scale that ranks substances from 1 (talc) to 10 (diamond)?",
       "options": [
         "Vickers Scale",
@@ -239,7 +328,14 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-26",
+          "context": "daily"
+        }
+      ]
     }
   ]
 }

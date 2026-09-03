@@ -4,6 +4,7 @@
     {
       "id": "frq-0961",
       "category": "History",
+      "difficulty": null,
       "question": "Constantine made Christianity the favoured religion of Rome. When was he actually baptised?",
       "options": [
         "As an infant, since his mother Helena was already a Christian",
@@ -19,11 +20,14 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": []
     },
     {
       "id": "frq-0962",
       "category": "Science & Nature",
+      "difficulty": null,
       "question": "Nitrogen is 78% of the atmosphere but plants cannot use it directly. Why not?",
       "options": [
         "It exists only as a gas and plants can absorb only liquids",
@@ -39,11 +43,14 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": []
     },
     {
       "id": "frq-0963",
       "category": "Sports",
+      "difficulty": null,
       "question": "Romanian gymnasts dominated for decades. What did Nadia Comaneci do in 1976 that broke the system?",
       "options": [
         "Scored a perfect 10, which the scoreboard could not display",
@@ -59,11 +66,14 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": []
     },
     {
       "id": "frq-0964",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Jaws (1975) was nearly ruined by its mechanical shark. What did Spielberg do instead?",
       "options": [
         "Filmed with a real great white shark using cage divers",
@@ -79,11 +89,14 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": []
     },
     {
       "id": "frq-0965",
       "category": "Geography",
+      "difficulty": null,
       "question": "The Bering Strait separates Asia from North America. How far apart are the two continents there?",
       "options": [
         "Around 400km, too far to see across in clear conditions",
@@ -99,11 +112,14 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": []
     },
     {
       "id": "frq-0966",
       "category": "History",
+      "difficulty": null,
       "question": "The Treaty of Versailles ended the First World War. Which clause caused the most lasting damage?",
       "options": [
         "The transfer of all German colonies to Britain and France",
@@ -119,11 +135,14 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": []
     },
     {
       "id": "frq-0967",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Cy Twombly's scrawled, scribbled canvases were dismissed for decades as child-like. What do art historians now see in them?",
       "options": [
         "Rauschenberg's 1960 defense that won over MoMA",
@@ -139,11 +158,14 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": []
     },
     {
       "id": "frq-0968",
       "category": "Science & Nature",
+      "difficulty": null,
       "question": "Water vapour is the biggest greenhouse gas by effect. Why is CO2 the one everyone worries about?",
       "options": [
         "Water vapour has no greenhouse effect at all above the clouds",
@@ -159,11 +181,14 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": []
     },
     {
       "id": "frq-0969",
       "category": "Geography",
+      "difficulty": null,
       "question": "The Caspian Sea is bordered by five countries. Why does its legal status matter so much?",
       "options": [
         "Its water level drops enough each year to move the borders",
@@ -179,11 +204,14 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": []
     },
     {
       "id": "frq-0970",
       "category": "History",
+      "difficulty": null,
       "question": "T.E. Lawrence helped lead the Arab Revolt against the Ottomans. How did he feel about it afterward?",
       "options": [
         "Vindicated, having secured every promise he made to the Arabs",
@@ -199,11 +227,14 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": []
     },
     {
       "id": "frq-0971",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Led Zeppelin never released a single in the UK. Why not?",
       "options": [
         "They insisted albums be heard whole, not cut into tracks",
@@ -223,11 +254,14 @@
         "at": "2026-09-03",
         "by": "tanner@tjs16media.com",
         "note": "carried over: had a cited source before IDs existed"
-      }
+      },
+      "status": "active",
+      "usage": []
     },
     {
       "id": "frq-0972",
       "category": "Sports",
+      "difficulty": null,
       "question": "The Kentucky Derby is the first leg of the Triple Crown. Why is winning all three so rare?",
       "options": [
         "Only horses bred in Kentucky are eligible for all three races",
@@ -243,7 +277,9 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": []
     }
   ]
 }

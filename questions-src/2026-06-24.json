@@ -4,6 +4,7 @@
     {
       "id": "frq-0109",
       "category": "History",
+      "difficulty": null,
       "question": "The Spanish Armada, a fleet of 130 ships, was defeated by England in what year?",
       "options": [
         "1620",
@@ -19,11 +20,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-24",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0110",
       "category": "History",
+      "difficulty": null,
       "question": "What was Leonardo da Vinci's nationality?",
       "options": [
         "Italian",
@@ -39,11 +48,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-24",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0111",
       "category": "History",
+      "difficulty": null,
       "question": "Martin Luther King Jr. delivered his 'I Have a Dream' speech during the March on Washington in which year?",
       "options": [
         "1955",
@@ -59,11 +76,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-24",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0112",
       "category": "Sports",
+      "difficulty": null,
       "question": "The Masters golf tournament is played annually at which legendary golf course?",
       "options": [
         "Augusta National",
@@ -79,11 +104,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-24",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0113",
       "category": "Sports",
+      "difficulty": null,
       "question": "The Daytona 500 is the most prestigious race in which racing series?",
       "options": [
         "IMSA",
@@ -99,11 +132,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-24",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0114",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Schindler's List (1993), directed by Steven Spielberg, is based on the true story of a businessman who saved Jews during which event?",
       "options": [
         "The Armenian Genocide",
@@ -119,11 +160,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-24",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0115",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Which singer/songwriter is known as 'The Man in Black' and recorded 'Ring of Fire' and 'Folsom Prison Blues'?",
       "options": [
         "Waylon Jennings",
@@ -139,11 +188,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-24",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0116",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "E.T. the Extra-Terrestrial (1982) was directed by Steven Spielberg and was the highest-grossing film of its time. What does E.T. famously say?",
       "options": [
         "'Go home'",
@@ -159,11 +216,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-24",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0117",
       "category": "Geography",
+      "difficulty": null,
       "question": "Which river, the world's longest at approximately 6,650 km, flows northward through Sudan and Egypt before emptying into the Mediterranean Sea?",
       "options": [
         "Niger River",
@@ -179,11 +244,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-24",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0118",
       "category": "Science & Nature",
+      "difficulty": null,
       "question": "Which greenhouse gas, produced primarily by burning fossil fuels and deforestation, is the main driver of human-caused climate change?",
       "options": [
         "Methane (CH4)",
@@ -199,11 +272,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-24",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0119",
       "category": "Geography",
+      "difficulty": null,
       "question": "Death Valley in California holds which North American record?",
       "options": [
         "Lowest elevation",
@@ -219,11 +300,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-24",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0120",
       "category": "Science & Nature",
+      "difficulty": null,
       "question": "Nicolaus Copernicus's 1543 work 'On the Revolutions of the Celestial Spheres' proposed that Earth orbits the Sun, not vice versa. Why was this revolutionary — and dangerous?",
       "options": [
         "It overturned 1,400 years of Ptolemaic geocentrism endorsed by the Church, placing humans at the universe's periphery rather than its center — a philosophical and religious revolution as much as a scientific one",
@@ -239,7 +328,14 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-06-24",
+          "context": "daily"
+        }
+      ]
     }
   ]
 }

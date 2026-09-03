@@ -3,6 +3,7 @@
     {
       "id": "frq-0253",
       "category": "History",
+      "difficulty": null,
       "question": "Which U.S. state was purchased from Russia in 1867?",
       "options": [
         "Hawaii",
@@ -18,11 +19,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-06",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0254",
       "category": "History",
+      "difficulty": null,
       "question": "The Reformation, which challenged the Catholic Church, was started by which figure?",
       "options": [
         "King Henry VIII",
@@ -38,11 +47,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-06",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0255",
       "category": "Sports",
+      "difficulty": null,
       "question": "What surface is Wimbledon tennis played on?",
       "options": [
         "Hard court",
@@ -58,11 +75,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-06",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0256",
       "category": "Sports",
+      "difficulty": null,
       "question": "How many yards long is an American football field, including both end zones?",
       "options": [
         "120",
@@ -78,11 +103,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-06",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0257",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Auguste Rodin's sculpture 'The Thinker' (1880) is among the world's most recognized works of art. What was its original purpose and meaning?",
       "options": [
         "It was commissioned as a monument to René Descartes and the Age of Reason, representing philosophy's triumph over religious superstition",
@@ -98,11 +131,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-06",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0258",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Which musician is known as 'The Boss'?",
       "options": [
         "Tom Petty",
@@ -118,11 +159,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-06",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0259",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "In 'The Silence of the Lambs,' who plays Hannibal Lecter?",
       "options": [
         "Daniel Day-Lewis",
@@ -138,11 +187,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-06",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0260",
       "category": "History",
+      "difficulty": null,
       "question": "The 'Silk Road' was a trade network that connected China to which continent?",
       "options": [
         "Africa",
@@ -158,11 +215,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-06",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0261",
       "category": "Geography",
+      "difficulty": null,
       "question": "The Nile River flows northward through how many countries before reaching the Mediterranean Sea?",
       "options": [
         "11",
@@ -178,11 +243,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-06",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0262",
       "category": "Science & Nature",
+      "difficulty": null,
       "question": "The Moon always shows the same face to Earth — we never see its 'far side' from the surface. Why, and what does this reveal about orbital mechanics?",
       "options": [
         "The Moon is tidally locked — Earth's gravity has gradually slowed the Moon's rotation until its spin period exactly matches its orbital period (27.3 days each), permanently fixing one face toward Earth",
@@ -198,11 +271,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-06",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0263",
       "category": "Geography",
+      "difficulty": null,
       "question": "The Kalahari Desert, a semi-arid region home to the San people and meerkats, spans primarily which two countries?",
       "options": [
         "South Africa and Zimbabwe",
@@ -218,11 +299,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-06",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0264",
       "category": "Science & Nature",
+      "difficulty": null,
       "question": "What term describes the study of the interactions between living organisms and their environment, including how energy flows through ecosystems?",
       "options": [
         "Zoology",
@@ -238,7 +327,14 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-06",
+          "context": "daily"
+        }
+      ]
     }
   ]
 }

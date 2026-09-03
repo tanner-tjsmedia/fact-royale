@@ -3,6 +3,7 @@
     {
       "id": "frq-0313",
       "category": "History",
+      "difficulty": null,
       "question": "The 'Great Wall of China' was primarily built to protect against invasions from which direction?",
       "options": [
         "North",
@@ -18,11 +19,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-11",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0314",
       "category": "History",
+      "difficulty": null,
       "question": "Who was the last emperor of China?",
       "options": [
         "Puyi",
@@ -38,11 +47,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-11",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0315",
       "category": "Sports",
+      "difficulty": null,
       "question": "How many players are on a polo team?",
       "options": [
         "2",
@@ -58,11 +75,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-11",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0316",
       "category": "Sports",
+      "difficulty": null,
       "question": "Which player has scored the most points in NBA history?",
       "options": [
         "Karl Malone",
@@ -78,11 +103,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-11",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0317",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Which film first introduced the character of Darth Vader?",
       "options": [
         "Revenge of the Sith",
@@ -98,11 +131,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-11",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0318",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Who sang 'Rolling in the Deep' and '21'?",
       "options": [
         "Lorde",
@@ -118,11 +159,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-11",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0319",
       "category": "Pop Culture",
+      "difficulty": null,
       "question": "Which animated studio produced 'Toy Story' and 'Finding Nemo'?",
       "options": [
         "Disney",
@@ -138,11 +187,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-11",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0320",
       "category": "History",
+      "difficulty": null,
       "question": "What year did the Space Shuttle Challenger disaster occur?",
       "options": [
         "1996",
@@ -158,11 +215,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-11",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0321",
       "category": "Geography",
+      "difficulty": null,
       "question": "Russia spans how many time zones?",
       "options": [
         "11",
@@ -178,11 +243,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-11",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0322",
       "category": "Science & Nature",
+      "difficulty": null,
       "question": "NASA's Voyager 1 spacecraft, launched in 1977, made history in 2012. What did it achieve that no human-made object had ever done before?",
       "options": [
         "Voyager 1 became the first spacecraft to successfully orbit the Sun outside the Kuiper Belt, establishing a new category of 'interplanetary observer' missions",
@@ -198,11 +271,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-11",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0323",
       "category": "Geography",
+      "difficulty": null,
       "question": "Which famous waterfall system on the US-Canada border — shared between Ontario and New York — is one of the world's highest-volume waterfalls?",
       "options": [
         "Victoria Falls",
@@ -218,11 +299,19 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-11",
+          "context": "daily"
+        }
+      ]
     },
     {
       "id": "frq-0324",
       "category": "Science & Nature",
+      "difficulty": null,
       "question": "The Fermi Paradox asks: if intelligent life should be common in a universe with 400 billion stars in our galaxy alone, why haven't we detected any evidence of it? What makes it a paradox?",
       "options": [
         "The paradox is between the high statistical probability that intelligent life exists elsewhere — given the number of stars, planets, and billions of years available — and the complete absence of any detected signals, artifacts, or visitors",
@@ -238,7 +327,14 @@
         "at": null,
         "by": null,
         "note": null
-      }
+      },
+      "status": "active",
+      "usage": [
+        {
+          "date": "2026-07-11",
+          "context": "daily"
+        }
+      ]
     }
   ]
 }
