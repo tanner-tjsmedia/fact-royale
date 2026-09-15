@@ -489,8 +489,10 @@ function metrics(q) {
   const longest = lens.length ? Math.max(...lens) : 0;
   const spread = lens.length ? longest - Math.min(...lens) : 0;
   return {
-    ratio,
-    ratioOk: ratio >= 0.20 && ratio <= 1.30,
+    prompt, promptOk: prompt <= 160,          // PROMPT_MAX in preflight.py
+    ratio,                                     // reported nowhere; kept for reference
+    ratioOk: true,                             // retired rule, never fails
+
     // preflight only counts the tell when the answer IS the longest option
     tell: ansLen - nextLongest,
     tellOk: !(ansLen === longest) || (ansLen - nextLongest <= 5),
@@ -677,7 +679,11 @@ function renderMetrics() {
     const d = el('div', 'metric ' + (ok ? 'ok' : 'bad'));
     d.append(el('div', 'v', v), el('div', 'k', k)); box.append(d);
   };
-  add('ratio 0.20–1.30', m.ratio.toFixed(2), m.ratioOk);
+  // Ceilings only. The ratio rule was retired 2026-09-15 - it asked content
+  // to hit a target relationship between prompt and answer length, which
+  // good writing does not have, and it rejected 48 of 48 numeric questions.
+  // See tools/preflight.py for the measurement.
+  add('prompt ≤160', String(m.prompt), m.promptOk);
   add('length tell ≤5', (m.tell > 0 ? '+' : '') + m.tell, m.tellOk);
   add('longest ≤120', String(m.longest), m.longestOk);
   add('spread ≤45', String(m.spread), m.spreadOk);

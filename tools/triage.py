@@ -37,8 +37,10 @@ import json, glob, os, re, statistics, sys
 
 QDIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'questions-src')
 
-RATIO_LOW, RATIO_HIGH = 0.20, 1.30
-OPT_MAX, SPREAD_MAX, TELL_MAX = 120, 45, 5
+# Ceilings only. The ratio rule was retired 2026-09-15 - see preflight.py
+# for the measurement that killed it. Nothing here asks content to hit a
+# target; every rule is "do not exceed".
+PROMPT_MAX, OPT_MAX, SPREAD_MAX, TELL_MAX = 160, 120, 45, 5
 
 # Reference points, measured from the corpus itself further down rather than
 # assumed: a "normal" prompt and a "normal" option length.
@@ -94,16 +96,12 @@ def main():
 
     def fails(r):
         out = []
-        # The low-ratio rule does not apply to short-answer formats.
-        # See preflight.py for the measurement behind this.
-        if r['ratio'] < RATIO_LOW and not is_shortform(r['opts']):
-            out.append('ratio-low')
-        if r['ratio'] > RATIO_HIGH: out.append('ratio-high')
-        if r['longest'] > OPT_MAX:  out.append('option-too-long')
-        if r['spread'] > SPREAD_MAX: out.append('spread')
-        if r['tell'] > TELL_MAX:    out.append('length-tell')
-        if r['count'] != 4:         out.append('option-count')
-        if not r['answer_ok']:      out.append('answer-missing')
+        if r['prompt'] > PROMPT_MAX:  out.append('prompt-too-long')
+        if r['longest'] > OPT_MAX:    out.append('option-too-long')
+        if r['spread'] > SPREAD_MAX:  out.append('spread')
+        if r['tell'] > TELL_MAX:      out.append('length-tell')
+        if r['count'] != 4:           out.append('option-count')
+        if not r['answer_ok']:        out.append('answer-missing')
         return out
 
     per_q = {r['id']: fails(r) for r in rows}
@@ -119,89 +117,50 @@ def main():
     for k, v in c.most_common():
         print(f'    {k:18s} {v:4d}')
 
-    # ---- the part that matters: WHY is the ratio low? -----------------
-    # Two different populations, and conflating them made this report
-    # contradict itself: the failure table above counts only GENUINE ratio
-    # failures, while the analysis below needs ALL low-ratio questions to
-    # show why the exemption exists.
-    low     = [r for r in rows if r['ratio'] < RATIO_LOW]          # all, incl. exempt
-    genuine = [r for r in low if not is_shortform(r['opts'])]      # prose only
-
-    print(f'\n  {len(genuine)} GENUINE ratio failures (prose answers).')
-    print(f'  {len(low) - len(genuine)} more are exempt: numeric or two-word answers')
-    print(f'  that cannot clear the gate by construction.\n')
-    print(f'  cause of the {len(genuine)} genuine failures:\n')
-
-    # A prompt well above the median with normal-length options is padding.
-    # Short options with a normal prompt is genuine shallowness.
-    padded  = [r for r in genuine if r['prompt'] > med_prompt * 1.4 and r['mean'] >= med_mean * 0.6]
-    shallow = [r for r in genuine if r['mean'] < med_mean * 0.6 and r['prompt'] <= med_prompt * 1.4]
-    both    = [r for r in genuine if r['prompt'] > med_prompt * 1.4 and r['mean'] < med_mean * 0.6]
-    other   = [r for r in genuine if r not in padded and r not in shallow and r not in both]
-
-    print(f'    PADDED PROMPT   {len(padded):4d}   trim the stem, options are fine')
-    print(f'    SHORT OPTIONS   {len(shallow):4d}   genuinely shallow, needs rewriting')
-    print(f'    BOTH            {len(both):4d}   long stem AND one-word answers')
-    print(f'    neither         {len(other):4d}   near the boundary, judgement call')
-
-    def show(label, items):
-        if not items: return
-        print(f'\n  --- {label} ---')
-        for r in sorted(items, key=lambda r: r['ratio'])[:4]:
-            print(f'    {r["id"]}  ratio {r["ratio"]:.2f}  '
-                  f'prompt {r["prompt"]}  mean option {r["mean"]:.0f}')
-            print(f'      "{r["q"][:110]}{"..." if len(r["q"]) > 110 else ""}"')
-
-    show('PADDED PROMPT examples', padded)
-    show('SHORT OPTIONS examples', shallow)
-
-    # ---- is the ratio rule even applicable to these? ------------------
-    # A numeric answer cannot pass. "How many NBA titles did Jordan win?"
-    # has options 5/6/7/8, so mean option length is 1 and the ratio is 0.01
-    # against any prompt. The gate is not measuring quality here, it is
-    # measuring that the answer is a number.
-    def kind(r):
-        opts = r.get('opts', [])
-        stripped = [o.replace(',', '').replace('%', '').strip() for o in opts]
-        if all(re.fullmatch(r'-?\d+(\.\d+)?', o or 'x') for o in stripped):
-            return 'numeric'
-        if all(len(o.split()) <= 2 for o in opts):
-            return 'short-form'          # cities, names, single terms
-        return 'prose'
-
-    for r in rows:
-        r['kind'] = kind(r)
-    lowk = Counter(r['kind'] for r in low)
-    allk = Counter(r['kind'] for r in rows)
-    print('\n  ratio-low questions by ANSWER FORMAT:\n')
-    print(f'    {"format":12s} {"ratio-low":>10s} {"in corpus":>10s} {"% failing":>10s}')
-    for k in ('numeric', 'short-form', 'prose'):
-        pct = (100 * lowk[k] / allk[k]) if allk[k] else 0
-        print(f'    {k:12s} {lowk[k]:10d} {allk[k]:10d} {pct:9.0f}%')
-    struct = lowk['numeric'] + lowk['short-form']
-    print(f'\n  {struct} of {len(low)} ratio-low questions have numeric or two-word')
-    print(f'  answers, which cannot pass this gate by construction.')
-    print(f'  Excluding them leaves {len(low) - struct} genuine ratio failures.')
-
-    # ---- how much is salvageable by trimming alone? -------------------
-    # If the stem were cut to the median length, would the ratio pass?
-    # RETRACTED CLAIM, kept visible on purpose.
+    # ---- where each ceiling actually bites ----------------------------
     #
-    # This was first reported as "the cheapest repair available". It is not.
-    # Trimming prompts to the median rescues a handful of questions, not a
-    # meaningful share, because the ratio is dominated by option length and
-    # not by prompt length. The advice was given before the number was
-    # checked. Recording the correction here so the wrong version does not
-    # get rediscovered and acted on.
-    rescued = [r for r in genuine if (r['mean'] / med_prompt) >= RATIO_LOW]
-    print(f'\n  {len(rescued)} of the {len(genuine)} genuine failures would pass if the prompt')
-    print(f'  were trimmed to the corpus median ({med_prompt:.0f} chars). Trimming is a minor')
-    print(f'  fix, not a strategy: the ratio is driven by option length.\n')
+    # HISTORY, recorded so the reasoning is not lost. This section used to
+    # analyse why the RATIO was low, splitting questions into "padded
+    # prompt" versus "genuinely shallow". That whole framing went with the
+    # ratio rule on 2026-09-15.
+    #
+    # The ratio asked content to hit a target RELATIONSHIP between prompt
+    # and answer length. Good writing has no such relationship: an answer
+    # is one word when one word is right, and a sentence when it is not.
+    # The rule rejected 48 of 48 numeric questions, which is not a quality
+    # signal, it is a format ban.
+    #
+    # Ceilings replaced it. Nothing has to reach a length; nothing may
+    # exceed one. The useful analysis is therefore no longer "why is this
+    # ratio low" but "how close is the corpus to each ceiling".
+    print('\n  distance to each ceiling:\n')
+    print(f'    {"rule":18s} {"ceiling":>8s} {"median":>8s} {"p90":>8s} {"over":>6s}')
+
+    def pctile(vals, p):
+        s = sorted(vals)
+        return s[min(len(s) - 1, int(len(s) * p))] if s else 0
+
+    for label, key, ceiling in (('prompt chars', 'prompt', PROMPT_MAX),
+                                ('longest option', 'longest', OPT_MAX),
+                                ('option spread', 'spread', SPREAD_MAX),
+                                ('answer tell', 'tell', TELL_MAX)):
+        vals = [r[key] for r in rows]
+        over = sum(1 for v in vals if v > ceiling)
+        print(f'    {label:18s} {ceiling:8d} '
+              f'{statistics.median(vals):8.0f} {pctile(vals, 0.9):8.0f} {over:6d}')
+
+    worst = sorted(rows, key=lambda r: r['prompt'], reverse=True)[:4]
+    if worst and worst[0]['prompt'] > PROMPT_MAX:
+        print('\n  longest prompts:')
+        for r in worst:
+            flag = 'OVER' if r['prompt'] > PROMPT_MAX else '  ok'
+            print(f'    {flag}  {r["id"]}  {r["prompt"]} chars')
+            print(f'      "{r["q"][:100]}{"..." if len(r["q"]) > 100 else ""}"')
 
     unsourced_broken = sum(1 for r in rows if per_q[r['id']] and not r['sourced'])
     clean_unsourced  = sum(1 for r in rows if not per_q[r['id']] and not r['sourced'])
     clean_sourced    = sum(1 for r in rows if not per_q[r['id']] and r['sourced'])
-    print('  crossed with sourcing (ratio exemption applied):')
+    print('\n  crossed with sourcing:')
     print(f'    mechanically clean AND sourced      {clean_sourced:4d}   ready to use')
     print(f'    mechanically clean, needs a source  {clean_unsourced:4d}   cheapest to rescue')
     print(f'    broken and unsourced                {unsourced_broken:4d}   most expensive')

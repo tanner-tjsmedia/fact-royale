@@ -33,8 +33,32 @@ REGISTRY = load_registry()
 # ── the standard ──────────────────────────────────────────
 OPT_MAX     = 120   # hard ceiling on an option
 SPREAD_MAX  = 45    # longest minus shortest option in one question
-RATIO_LOW   = 0.20  # below: one-word recall, question is shallow
-RATIO_HIGH  = 1.30  # above: answers dwarf the question
+PROMPT_MAX  = 160   # hard ceiling on a question stem
+
+# RATIO_LOW / RATIO_HIGH are RETIRED as of 2026-09-15. Kept defined only so
+# nothing referencing them raises NameError; nothing should reference them.
+#
+# The ratio was mean(option length) / prompt length, floored at 0.20. It was
+# the wrong shape of rule. Measured across all 984 questions it rejected:
+#     numeric answers     48 of  48   100%
+#     two-word answers   294 of 346    85%
+#     prose answers       84 of 590    14%
+# A gate that rejects every question whose answer is a number is banning a
+# format, not measuring quality. Scoping it helped but did not fix the
+# premise: it asked content to hit a TARGET RELATIONSHIP between prompt and
+# answer length, which is not something good writing has.
+#
+# Replaced by ceilings. Use as many words as the question needs and no more;
+# exceed a limit and it is blocked. Nothing has to hit a mean.
+#     prompt   <= PROMPT_MAX   readability
+#     option   <= OPT_MAX      readability
+#     spread   <= SPREAD_MAX   no option stands out by length alone
+#     tell     <= TELL_MAX     the answer must not be the longest by a margin
+#     day load <= LOAD_MAX     total reading burden for one quiz
+#
+# Every one is "do not exceed". None is "hit a number".
+RATIO_LOW   = None
+RATIO_HIGH  = None
 TELL_MAX    = 5     # answer may not exceed next-longest by more than this
 LOAD_MAX    = 5500  # characters a player reads for a full day
 POS_TOL     = 0.09  # answer-position share may not deviate more than this from .25
@@ -176,9 +200,6 @@ def main():
 
     hard, soft = [], []
     pos = Counter(); n_q = 0
-    # Mutable box so the inner loop can increment it. Counts questions whose
-    # low ratio was ignored because their answers are numeric or two words.
-    n_shortform_exempt = [0]
     items = []          # for duplicate detection
     volatile_hits = []
     sourced = []
@@ -218,43 +239,11 @@ def main():
             load += len(p) + sum(L)
             pos[o.index(a)] += 1
 
-            if len(p):
-                r = statistics.mean(L) / len(p)
-
-                # The LOW-ratio rule applies to prose answers only.
-                #
-                # Measured across all 984 questions on 2026-09-15, the
-                # unscoped rule rejected:
-                #     numeric      48 of  48   100%
-                #     short-form  294 of 346    85%
-                #     prose        84 of 590    14%
-                #
-                # A one-character answer ("6") against a 90-character prompt
-                # gives ratio 0.011. No numeric question can EVER clear 0.20,
-                # so the gate was not judging quality, it was banning a
-                # legitimate format. "How many NBA championships did Michael
-                # Jordan win with the Chicago Bulls?" is a fine question and
-                # this rule blocked it.
-                #
-                # 14% on prose is what a working gate looks like: a minority
-                # of real outliers. So the rule is kept there and scoped out
-                # elsewhere, rather than deleted.
-                #
-                # Quality for a short answer is carried by DISTRACTOR
-                # PLAUSIBILITY instead: 5/6/7/8 is a good question, 5/6/47/1000
-                # is not. Length was never able to tell those apart.
-                # See docs/FACT-LAYER.md section 4.
-                opts_s = [str(x).strip() for x in o]
-                numeric   = all(re.fullmatch(r'-?[\d,]+(\.\d+)?%?', x) for x in opts_s)
-                shortform = all(len(x.split()) <= 2 for x in opts_s)
-
-                if r > RATIO_HIGH:
-                    # Answers dwarfing the question is bad in ANY format.
-                    hard.append(f'{loc}: ratio {r:.2f}, answers dwarf the question')
-                elif r < RATIO_LOW and not (numeric or shortform):
-                    hard.append(f'{loc}: ratio {r:.2f}, shallow recall')
-                elif r < RATIO_LOW:
-                    n_shortform_exempt[0] += 1
+            # Ceiling, not a ratio. A question may use as many words as it
+            # needs and no more. Past this it stops being read and starts
+            # being skimmed, which is a different game.
+            if len(p) > PROMPT_MAX:
+                hard.append(f'{loc}: prompt {len(p)} chars over {PROMPT_MAX}')
             if max(L) > OPT_MAX:
                 hard.append(f'{loc}: option {max(L)} chars over {OPT_MAX}')
             if max(L) - min(L) > SPREAD_MAX:
@@ -348,11 +337,6 @@ def main():
     print(f'COVERAGE  {covered}/{covered + n_uns + len(weak)}   '
           f'{n_src} sourced, {n_can} canonical, {n_uns} unsourced, {len(weak)} under-sourced\n')
 
-    if n_shortform_exempt[0]:
-        print(f'RATIO EXEMPT  {n_shortform_exempt[0]} questions have numeric or '
-              f'two-word answers, so the low-ratio rule')
-        print(f'              does not apply to them. Their quality rests on '
-              f'distractor plausibility instead.\n')
 
     unchecked_volatile = [v for v in volatile_hits if not v[3]]
     if unchecked_volatile:
