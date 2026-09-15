@@ -160,10 +160,25 @@ def main():
             files = [f for f in files if f[:-5] >= today]
 
     if not files:
-        print('No files in scope.'); return 1
+        # The default scope is future-dated files only, which is right when
+        # content runs ahead of today. During corpus REPAIR every file is in
+        # the past, so this message means "nothing scheduled", not "nothing
+        # wrong" - and those look identical if the message does not say so.
+        print('No files dated today or later.')
+        print()
+        print('  That means nothing is SCHEDULED. It does not mean the corpus')
+        print('  is clean - the default scope skips every past-dated file.')
+        print()
+        print('  To gate the whole corpus:      python tools/preflight.py --all')
+        print('  To gate one week:              python tools/preflight.py --week 2026-08-09')
+        print('  To gate one month:             python tools/preflight.py 2026-08')
+        return 1
 
     hard, soft = [], []
     pos = Counter(); n_q = 0
+    # Mutable box so the inner loop can increment it. Counts questions whose
+    # low ratio was ignored because their answers are numeric or two words.
+    n_shortform_exempt = [0]
     items = []          # for duplicate detection
     volatile_hits = []
     sourced = []
@@ -205,10 +220,41 @@ def main():
 
             if len(p):
                 r = statistics.mean(L) / len(p)
+
+                # The LOW-ratio rule applies to prose answers only.
+                #
+                # Measured across all 984 questions on 2026-09-15, the
+                # unscoped rule rejected:
+                #     numeric      48 of  48   100%
+                #     short-form  294 of 346    85%
+                #     prose        84 of 590    14%
+                #
+                # A one-character answer ("6") against a 90-character prompt
+                # gives ratio 0.011. No numeric question can EVER clear 0.20,
+                # so the gate was not judging quality, it was banning a
+                # legitimate format. "How many NBA championships did Michael
+                # Jordan win with the Chicago Bulls?" is a fine question and
+                # this rule blocked it.
+                #
+                # 14% on prose is what a working gate looks like: a minority
+                # of real outliers. So the rule is kept there and scoped out
+                # elsewhere, rather than deleted.
+                #
+                # Quality for a short answer is carried by DISTRACTOR
+                # PLAUSIBILITY instead: 5/6/7/8 is a good question, 5/6/47/1000
+                # is not. Length was never able to tell those apart.
+                # See docs/FACT-LAYER.md section 4.
+                opts_s = [str(x).strip() for x in o]
+                numeric   = all(re.fullmatch(r'-?[\d,]+(\.\d+)?%?', x) for x in opts_s)
+                shortform = all(len(x.split()) <= 2 for x in opts_s)
+
                 if r > RATIO_HIGH:
+                    # Answers dwarfing the question is bad in ANY format.
                     hard.append(f'{loc}: ratio {r:.2f}, answers dwarf the question')
-                elif r < RATIO_LOW:
+                elif r < RATIO_LOW and not (numeric or shortform):
                     hard.append(f'{loc}: ratio {r:.2f}, shallow recall')
+                elif r < RATIO_LOW:
+                    n_shortform_exempt[0] += 1
             if max(L) > OPT_MAX:
                 hard.append(f'{loc}: option {max(L)} chars over {OPT_MAX}')
             if max(L) - min(L) > SPREAD_MAX:
@@ -301,6 +347,12 @@ def main():
     covered = n_src + n_can
     print(f'COVERAGE  {covered}/{covered + n_uns + len(weak)}   '
           f'{n_src} sourced, {n_can} canonical, {n_uns} unsourced, {len(weak)} under-sourced\n')
+
+    if n_shortform_exempt[0]:
+        print(f'RATIO EXEMPT  {n_shortform_exempt[0]} questions have numeric or '
+              f'two-word answers, so the low-ratio rule')
+        print(f'              does not apply to them. Their quality rests on '
+              f'distractor plausibility instead.\n')
 
     unchecked_volatile = [v for v in volatile_hits if not v[3]]
     if unchecked_volatile:

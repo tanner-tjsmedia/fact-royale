@@ -58,12 +58,22 @@ VALID_TIER     = {'canonical','standard','volatile'}
 
 # Superlatives that hide their measure. "Smallest" is how the Marciano error
 # shipped: height and weight silently competed and nobody had said which.
+#
+# The (?!-) guard matters. An earlier version flagged "best-selling album",
+# because a hyphen is a word boundary so \bbest\b matched inside it. But
+# "best-selling" NAMES its measure - units sold - which is exactly the
+# specificity this gate is asking for. Hyphenated compounds are precise by
+# construction and must not be flagged.
 VAGUE = re.compile(r'\b(smallest|biggest|largest|best|greatest|worst|'
                    r'most famous|longest|shortest|fastest|richest|oldest|'
-                   r'youngest|deadliest|rarest)\b', re.I)
-# A measure or unit nearby redeems a vague word.
-MEASURED = re.compile(r'\d|\bby (height|weight|length|area|population|revenue|'
-                      r'wins|points|goals|mass|volume|duration)\b', re.I)
+                   r'youngest|deadliest|rarest)\b(?!-)', re.I)
+
+# A measure, unit or number anywhere in the sentence redeems a vague word:
+# "the largest by area", "the longest at 3,600 km", "the oldest university,
+# founded 1088".
+MEASURED = re.compile(r'\d|\b(by|in|at|per)\s+(height|weight|length|area|'
+                      r'population|revenue|units|sales|mass|volume|duration|'
+                      r'wins|points|goals|capacity|surface|diameter)\b', re.I)
 
 PRONOUN = re.compile(r'^\s*(he|she|it|they|this|that|these|those|his|her|'
                      r'their|its)\b', re.I)
