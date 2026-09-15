@@ -1,8 +1,11 @@
 # The Fact Layer — Base Design
 
 **Status:** design under section-by-section review.
-**Settled:** §2 fact record · §3 claimType · §4 distractors.
-**Open:** §5 volatility onward.
+**Settled:** §2 fact record · §3 claimType · §4 distractors · §5 volatility ·
+§6 cooldown · §7 tags · §8 storage.
+**Open:** nothing in the record design. The MIGRATION PATH — how 984 existing
+questions with string options and zero facts become fact-layer records — is
+the one substantial piece still undesigned.
 
 **This document is the foundation.** Individual rules may be tuned as the
 system is used. The shape below is not up for renegotiation without a
@@ -343,19 +346,82 @@ faster than most.
 | `seasonal` | **3 months** | active sports records, standings, active-career stats |
 | `live` | 1 month | office holders, rankings, current champions |
 
-`preflight.py` refuses to publish a question resting on a fact whose
-`recheck` date has passed. The studio surfaces overdue facts as a queue.
+### The house rule that beats all of this
 
-### The editorial rule that beats all of this
+> **Anchor a changeable claim in time and it stops being changeable.**
 
-> **Anchor volatile claims in time, and they stop being volatile.**
+"Who holds the record?" goes false the moment the record falls. "Who led the
+category as of the 2024 season?" is true forever.
 
-"Who holds the record?" goes false the moment the record falls.
-"Who held the record at the end of the 2024 season?" is true forever.
+This is not a nicety. At `seasonal` = 3 months and `live` = 1 month, a
+3,000-fact corpus with even 5% volatile content means **600 to 1,800
+rechecks a year, forever**, whether or not anyone has time. Anchoring is the
+difference between a knowledge base that maintains itself and one that
+decays the moment you stop feeding it.
 
-A dated claim converts `seasonal` into `static`. Prefer it. Reserve genuinely
-live claims for cases where the currency *is* the point — and accept that
-those carry a standing maintenance cost.
+**Target: under 2% of the corpus carrying any recheck at all.** Achievable
+if anchoring is the habit from the first question. Effectively impossible to
+retrofit across three thousand.
+
+#### Say it the way a person would
+
+The anchor belongs in the sentence, not bolted to the front of it. House
+phrasings, in rough order of preference:
+
+> "As of the 2024 season, which player led the league in assists?"
+> "Through 2025, which nation had won the most Winter Olympic golds?"
+> "At the end of the 2024 season, who held the career passing record?"
+> "As of January 2026, which company had the largest market capitalisation?"
+
+Avoid the bare present tense for anything that can change: *"Who holds…",
+"Which is the tallest…", "Who is the current…"*. Those are the sentences
+that quietly go wrong.
+
+The anchor goes in **both** the fact's `claim` and the question text. The
+claim is what gets verified; the question is what the player reads. If only
+one carries the date, they will drift.
+
+#### The anchor must be backed by the evidence
+
+An anchor is a claim about currency, and claiming currency you do not have
+is its own kind of wrong. "As of 2025" resting on a source last checked in
+2023 asserts two years of knowledge nobody verified.
+
+**Rule: the anchor year may not exceed the most recent cited source's
+`checked` date.** `preflight` enforces it by comparing the year in the
+anchor against the newest source on the fact. Cheap to check, and it closes
+the gap where date-anchoring becomes a way to *look* rigorous while
+actually asserting more.
+
+### Mechanics
+
+**`volatility` is derived, not assigned 984 times.** `claimType` already
+implies most of it — a `definition` is static, a `superlative` rarely is, a
+`point` about a past event is static. The default comes from `claimType`;
+an explicit value is required only to override it.
+
+**`recheck` is computed, never stored.** It is `verifiedAt` plus the
+interval for the fact's `volatility`. Storing both a `verifiedAt` and a
+`recheck` date means re-verifying can update one and not the other, and they
+disagree silently — the same class of bug as two `ORDER` constants drifting
+apart. One source of truth, one field fewer.
+
+**An expired fact stops being DRAWN, not merely published.** Blocking
+publication is not enough: once quizzes are assembled from the pool, a fact
+whose recheck lapsed weeks ago is still eligible for selection into
+tomorrow's quiz. Expired facts are excluded from selection everywhere —
+daily, live and tournament — and surface in the studio as a queue.
+
+**Known dates beat fixed intervals.** A record set in March gets rechecked
+in June, but the season ended in April. Elections, Olympics and award cycles
+all have dates a 90-day timer ignores. The interval is the default; an
+explicit `recheckAfter` overrides it for facts tied to a known event.
+
+**Superseded facts are retained for audit only.** When Burj Khalifa is
+overtaken, the old fact stays so past quizzes remain explicable. But it is
+**never taught in learning mode, never drawn, never cited by a new
+question**. A knowledge base that serves superseded facts as instruction is
+worse than one with gaps: gaps are visible, confident wrongness is not.
 
 ---
 
@@ -379,6 +445,64 @@ power of 900.
 
 ---
 
+### Settled rules for cooldown
+
+**Cooldown tracks EXPOSURE, not association.** A question touches facts in
+three different ways and only some of them teach the player anything. An
+earlier draft blocked a question if *any* cited fact was recently used,
+which would have crippled reuse for no benefit.
+
+| Fact's role in a question | Does the player see it? | Cooldown |
+|---|---|---|
+| `answer` — the correct answer rests on it | yes, directly | **full** |
+| `context` — appears in the explanation after answering | yes, read once | **half** |
+| `refutation` — cited by `falseByFact` to kill a distractor | **never** | **none** |
+
+The last row is what makes rich questions affordable. A refutation basis and
+its sources are admin-only and never ship to the player, so a fact used only
+to disprove a distractor can back an answer tomorrow with no staleness at
+all. A question resting on five facts may carry exactly one full cooldown.
+
+**Provisional values, in one config block:** 180 days on the question,
+45 days on the answer-fact. These are invented. Nothing was measured and no
+player data exists. They belong in a single place precisely so they are the
+easiest thing in the system to change once telemetry can correct them.
+
+**Usage is recorded per appearance, not as a counter.** Cooldown is global
+for now, which is wrong in both directions: too strict for a newcomer who
+has seen nothing, too loose for a day-one regular who has seen everything.
+Keeping each appearance as its own record leaves a per-player calculation
+possible later. Cheap to preserve now, expensive to reconstruct.
+
+### Tournament reuse
+
+**The distinction that settles this: recognition versus knowledge.**
+
+*Recognition* — "I remember this exact question" — is cheap and worth
+preventing. *Knowledge* — "I know this because I learned it here" — is the
+product working as intended. A trivia competition is supposed to reward
+people who know more trivia.
+
+So the rule bites on recognition only:
+
+| Since the question last ran | In a tournament |
+|---|---|
+| 0–7 days | **excluded** |
+| 8–14 days | permitted, but **must be reworded** — different stem, ideally a different angle on the same fact |
+| 15+ days | free |
+
+**Why not a reserved pool that never touches the daily quiz.** It was
+considered and rejected. A daily player sees roughly 4,380 question-slots a
+year, which exceeds any realistic authoring rate, so no corpus size can make
+a regular a stranger to your content. But the boundary is arbitrary anyway:
+someone who plays pub quizzes elsewhere arrives with exposure that is
+invisible and uncontrollable. Engineering around internal exposure while
+ignoring external exposure is precision theatre. `neverDaily` remains
+available per question for a specific event, but it is an option, not a
+requirement.
+
+---
+
 ## 7. Tags
 
 On the fact, inherited by the question. Controlled vocabulary in a
@@ -394,6 +518,86 @@ already exists.
 **Build the starter vocabulary from the 97 already-clean questions**, not
 from imagination. Vocabularies invented up front miss how the content
 actually clusters — you get tags nobody uses and gaps nobody predicted.
+
+---
+
+### Settled rules for tags
+
+**The vocabulary is seeded and faceted, not invented one tag at a time.**
+An empty controlled vocabulary puts the approver in front of infinite
+choices with no frame, which is how you end up with `space`, `astronomy`,
+`spaceflight` and `cosmos` all meaning roughly one thing. So `tags.json`
+ships with a starter bank organised by facet, and every tag belongs to
+exactly one:
+
+| facet | holds | examples |
+|---|---|---|
+| `domain` | subject matter | philosophy, astronomy, cinema, macroeconomics |
+| `period` | named eras | ancient-greece, cold-war, renaissance |
+| `place` | geography | japan, west-africa, the-pacific |
+| `form` | medium or artefact | painting, album, treaty, spacecraft |
+| `event` | kinds of happening | olympics, election, eruption |
+
+Facets are not a hierarchy. They are orthogonal dimensions, so they coexist
+with the flat-plus-`broader` rule below. Their practical value is that the
+studio can offer candidates per facet while tagging, and can show what is
+*missing* — "this fact has no period tag" — instead of leaving the approver
+to remember.
+
+**Tags have the same lifecycle as questions: `proposed` → `approved` →
+`deprecated`.** Claude may propose a tag; nothing is bindable until the
+approver accepts it, and accepting requires writing the **scope note** in
+the same action. A tag arriving without a scope note arrives broken, because
+the scope note is the only thing preventing the four-way split above.
+
+**2 to 4 tags per fact.** `preflight` warns outside that range rather than
+blocking; a fact genuinely needing six tags is usually two facts. More than
+four requires explicit approval, recorded.
+
+**Flat, with an optional single-level `broader` pointer.**
+`ancient-greece → ancient-world` is allowed. A four-level taxonomy is not.
+Most of the query benefit, a fraction of the upkeep.
+
+**A tag may never share a name with a category.** History is one of the five
+fixed quiz slots; it is not a tag. Categories are structure, tags are
+subject matter, and letting them overlap gives round-building two competing
+notions of the same thing. `preflight` rejects it.
+
+**Granularity: a tag should plausibly reach 10+ facts**, since that is
+roughly a themed round. Tags still under 5 facts after a year get merged or
+retired, and `check.py` reports them. Provisional numbers, easily adjusted —
+the point is that the vocabulary is pruned on evidence rather than growing
+forever.
+
+### Era and tags are complementary, not merely separate
+
+Keeping them apart avoids conflict but wastes the relationship. So the link
+is explicit: **a `period` tag carries its own numeric range in the
+registry.**
+
+```json
+"cold-war": {
+  "facet": "period",
+  "label": "The Cold War",
+  "scope": "1947 to 1991. Superpower rivalry, proxy conflicts, the arms and
+            space races. Not post-1991 Russia relations.",
+  "era": { "from": 1947, "to": 1991 },
+  "status": "approved"
+}
+```
+
+That gives three things at once:
+
+- **"anything between 1900 and 1950"** queries the numeric `era` on facts
+- **"a Cold War round"** queries the tag
+- **they cannot disagree**, because the tag defines its own range and
+  `preflight` warns when a fact's `era` falls outside the range of a period
+  tag it carries
+
+The studio can also suggest a fact's `era` from its period tag, so the
+numeric range is usually inherited rather than typed. `era.to` may be null
+for an open period, and a fact may carry an `era` with no period tag at all
+— a 2019 research finding sits in no named era and needs none.
 
 ---
 
@@ -414,6 +618,79 @@ positional, never a content hash.
 of verification metadata — `falseBy`, `basis`, `plausibility`, `factRef` —
 stays admin-side. It cannot leak an answer, and the published payload gets
 smaller, not larger.
+
+---
+
+### Settled rules for storage
+
+**`facts-src/` shards by ID block**, not by tag, date or category:
+`facts-0001-0499.json`, `facts-0500-0999.json`. Stable forever, no
+reorganisation when a fact is retagged, and a diff stays inside one file
+instead of rewriting the corpus.
+
+**Filenames deliberately carry no category.** A fact has no category — the
+*question* does. The same fact can back a History question today and a
+Geography one tomorrow, so naming files by category would bake in an
+association the data does not have. The blocks are meaningless on purpose.
+
+**Tag ids are slugs, immutable once approved.** `ancient-greece`, not
+`tag-0042`. You will read these constantly in diffs and queries and rename
+them almost never. A rename creates a new tag and deprecates the old one.
+
+**`sync-questions.js` gains facts as a third collection**, with `--status`
+reporting fact counts beside question counts, and the same byte-identical
+round-trip guarantee. Otherwise facts would live only on one machine and
+silently never reach the bank.
+
+**Scale threshold, noted rather than engineered for.** 3,000 facts at ~1KB
+is about 3MB: fine to load wholesale into the studio, comfortably inside the
+Firestore free tier. Around **10,000 facts** the studio needs pagination and
+daily read counts start to matter. That is years away; building for it now
+would be speculative.
+
+### What reaches the player
+
+**The player-facing payload does not change at all.** Question, options as
+plain text, answer, `explanation`, `memory_hook` — the same shape it already
+has, whether it is the daily quiz, a live round or a tournament.
+
+**Sources are not shown to players.** An earlier draft argued citations on
+the results screen would differentiate a trivia app that has made accuracy
+its point. Overruled, and rightly: accuracy is the baseline expectation of a
+trivia platform, not a claim that needs evidence attached. Displaying
+citations reads as defensive, and it invites players to audit the source
+rather than trust the product. The standard is met, not proven.
+
+This has a useful consequence: **the entire verification apparatus is
+internal.** Nothing about facts, evidence or review crosses to the client in
+any format, so the fact layer's blast radius on the player-facing side is
+zero.
+
+Never published, in any format:
+
+    claim · claimType · scope · sources · falseBy · basis · falseByFact
+    plausibility · factRefs · riskTier · volatility · review · usage
+
+`basis` and `falseByFact` are the hard prohibition. Distractor reasoning is
+a map of which options are wrong, and shipping it hands the answer to anyone
+who opens devtools. The answer-fact's claim leaks the same way `answer`
+already does under client-side grading; server-side grading in phase 3
+closes that whole class at once, not field by field.
+
+> **The rule to hold: if the client must render it, assume it leaks.**
+
+This is the same mistake the first secure-database draft made — specifying
+answers as living only in an unreadable collection while grading stayed on
+the client, two things that could not both be true. Stating the rule once is
+cheaper than rediscovering it per field.
+
+**Explanations stay authored, not composed.** Keeping one consistent surface
+across every format is worth more than generating prose from `context`. The
+risk is that a hand-written explanation can quietly contradict the evidence
+its question rests on, so the studio shows the explanation **beside the
+cited claims** during review. That is the §4 responsiveness check extended:
+the approver is confirming the explanation agrees with the evidence, not
+only that it reads well.
 
 ---
 

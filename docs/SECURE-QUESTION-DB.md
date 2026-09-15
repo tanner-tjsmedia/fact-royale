@@ -265,11 +265,15 @@ This is the part worth caring about more than the cheating.
    would happily publish unverified content, which is the failure mode we have
    been fighting all week.*
 
-4. **Sources: public or private?**
-   Showing sources on the results screen would be a real differentiator for a
-   trivia app that has made accuracy its point. That argues for keeping
-   `sourceRefs` in the readable document rather than the key document.
-   *Leaning: move `sourceRefs` back to the public doc and show them.*
+4. **Sources: public or private?** ~~Leaning: public.~~
+   **DECIDED 2026-09-15: PRIVATE. Sources are never shown to players.**
+
+   Accuracy is the baseline expectation of a trivia platform, not a claim
+   that needs evidence bolted to it. Showing citations reads as defensive and
+   invites players to audit the source instead of trusting the product.
+
+   The whole verification apparatus stays internal. See
+   `docs/FACT-LAYER.md` section 8, which supersedes this item.
 
 ---
 
