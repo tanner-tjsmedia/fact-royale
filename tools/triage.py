@@ -189,18 +189,21 @@ def main():
     print(f'    mechanically clean, needs a source  {clean_unsourced:4d}   cheapest to rescue')
     print(f'    broken and unsourced                {unsourced_broken:4d}   most expensive')
 
-    # The set that actually matters. Every error found in this corpus so far
-    # was a record, count or superlative - not a formatting problem.
-    volatile = re.compile(r'\b(only|first|last|most|least|record|fastest|'
-                          r'slowest|highest|lowest|largest|smallest|longest|'
-                          r'shortest|best|worst|oldest|youngest|never|all|'
-                          r'every|billion|million)\b', re.I)
-    risky = [r for r in rows if not r['sourced'] and
-             volatile.search(r['q'] + ' ' + ' '.join(r['opts']))]
-    print(f'\n  VOLATILE AND UNSOURCED  {len(risky)}')
-    print('    Records, counts, superlatives with no evidence behind them.')
-    print('    Mechanical failures are a quality problem. These are a')
-    print('    credibility problem, and they are where every known error came from.')
+    # DELIBERATELY NOT COUNTED HERE.
+    #
+    # A first version of this script counted "volatile and unsourced" with
+    # its own regex and reported 380. preflight.py reports 131 for the same
+    # thing. Mine was wrong - it matched ordinary words like "all", "every"
+    # and "first", and searched the options as well as the prompt.
+    #
+    # The point is not that the regex was sloppy. It is that two tools
+    # answering the same question with different numbers is the exact drift
+    # bug this project keeps hitting, and the fix is one owner per question,
+    # not two implementations kept in sync by good intentions.
+    #
+    # preflight.py owns "which claims are volatile and unsourced".
+    print('\n  Volatile and unsourced claims are counted by preflight.py,')
+    print('  which owns that question:   python tools/preflight.py --all')
 
 
 if __name__ == '__main__':
