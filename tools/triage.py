@@ -120,15 +120,24 @@ def main():
         print(f'    {k:18s} {v:4d}')
 
     # ---- the part that matters: WHY is the ratio low? -----------------
-    low = [r for r in rows if r['ratio'] < RATIO_LOW]
-    print(f'\n  of the {len(low)} ratio-low questions, the cause splits:\n')
+    # Two different populations, and conflating them made this report
+    # contradict itself: the failure table above counts only GENUINE ratio
+    # failures, while the analysis below needs ALL low-ratio questions to
+    # show why the exemption exists.
+    low     = [r for r in rows if r['ratio'] < RATIO_LOW]          # all, incl. exempt
+    genuine = [r for r in low if not is_shortform(r['opts'])]      # prose only
+
+    print(f'\n  {len(genuine)} GENUINE ratio failures (prose answers).')
+    print(f'  {len(low) - len(genuine)} more are exempt: numeric or two-word answers')
+    print(f'  that cannot clear the gate by construction.\n')
+    print(f'  cause of the {len(genuine)} genuine failures:\n')
 
     # A prompt well above the median with normal-length options is padding.
     # Short options with a normal prompt is genuine shallowness.
-    padded  = [r for r in low if r['prompt'] > med_prompt * 1.4 and r['mean'] >= med_mean * 0.6]
-    shallow = [r for r in low if r['mean'] < med_mean * 0.6 and r['prompt'] <= med_prompt * 1.4]
-    both    = [r for r in low if r['prompt'] > med_prompt * 1.4 and r['mean'] < med_mean * 0.6]
-    other   = [r for r in low if r not in padded and r not in shallow and r not in both]
+    padded  = [r for r in genuine if r['prompt'] > med_prompt * 1.4 and r['mean'] >= med_mean * 0.6]
+    shallow = [r for r in genuine if r['mean'] < med_mean * 0.6 and r['prompt'] <= med_prompt * 1.4]
+    both    = [r for r in genuine if r['prompt'] > med_prompt * 1.4 and r['mean'] < med_mean * 0.6]
+    other   = [r for r in genuine if r not in padded and r not in shallow and r not in both]
 
     print(f'    PADDED PROMPT   {len(padded):4d}   trim the stem, options are fine')
     print(f'    SHORT OPTIONS   {len(shallow):4d}   genuinely shallow, needs rewriting')
@@ -176,10 +185,18 @@ def main():
 
     # ---- how much is salvageable by trimming alone? -------------------
     # If the stem were cut to the median length, would the ratio pass?
-    rescued = [r for r in low if (r['mean'] / med_prompt) >= RATIO_LOW]
-    print(f'\n  {len(rescued)} of {len(low)} ratio-low questions would PASS if the')
-    print(f'  prompt were trimmed to the corpus median ({med_prompt:.0f} chars).')
-    print(f'  That is editing, not rewriting, and it is the cheapest repair available.\n')
+    # RETRACTED CLAIM, kept visible on purpose.
+    #
+    # This was first reported as "the cheapest repair available". It is not.
+    # Trimming prompts to the median rescues a handful of questions, not a
+    # meaningful share, because the ratio is dominated by option length and
+    # not by prompt length. The advice was given before the number was
+    # checked. Recording the correction here so the wrong version does not
+    # get rediscovered and acted on.
+    rescued = [r for r in genuine if (r['mean'] / med_prompt) >= RATIO_LOW]
+    print(f'\n  {len(rescued)} of the {len(genuine)} genuine failures would pass if the prompt')
+    print(f'  were trimmed to the corpus median ({med_prompt:.0f} chars). Trimming is a minor')
+    print(f'  fix, not a strategy: the ratio is driven by option length.\n')
 
     unsourced_broken = sum(1 for r in rows if per_q[r['id']] and not r['sourced'])
     clean_unsourced  = sum(1 for r in rows if not per_q[r['id']] and not r['sourced'])
