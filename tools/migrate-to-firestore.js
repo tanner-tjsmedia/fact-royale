@@ -111,12 +111,18 @@ function splitDay(dateKey, data) {
       // two fields come out. quizKeys/ below is populated now so that is a
       // one-line change rather than a second migration.
       answer:      q.answer,
-      explanation: q.explanation || '',
-      // Verification metadata rides with the public document deliberately.
-      // Showing sources on the results screen is a feature for a trivia app
-      // that has made accuracy its whole argument. See design doc, item 8.4.
-      riskTier:    q.riskTier || 'unclassified',
-      sourceRefs:  q.sourceRefs || []
+      explanation: q.explanation || ''
+      // NO verification metadata. An earlier version shipped riskTier and
+      // sourceRefs in the public document, on the theory that showing
+      // sources differentiates a trivia app built on accuracy.
+      //
+      // Reversed 2026-09-15. Accuracy is the baseline expectation of a
+      // trivia platform, not a claim needing evidence attached. The whole
+      // verification apparatus stays internal, so nothing about facts,
+      // sources or review reaches a client in any format.
+      //
+      // Practical rule: if the client must render it, assume it leaks.
+      // See docs/FACT-LAYER.md section 8.
     });
 
     keys[id] = idx;
