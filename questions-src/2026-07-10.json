@@ -96,8 +96,8 @@
         "14.5 feet"
       ],
       "answer": "18.5 feet",
-      "explanation": "NFL goal posts are 18 feet 6 inches (18.5 feet) wide between the uprights. The crossbar is 10 feet above the ground. College football uses the same width. Kickers must split the uprights from sometimes 60+ yards away — a margin of about 18.5 feet for a tiny ball.",
-      "memory_hook": "18.5 feet wide — just slightly wider than a yellow school bus.",
+      "explanation": "NFL goal posts are 18 feet 6 inches (18.5 feet) wide between the uprights. The crossbar is 10 feet above the ground. College football uses the same width. Kickers must split the uprights from sometimes 60+ yards away - a margin of about 18.5 feet for a tiny ball.",
+      "memory_hook": "18.5 feet wide - just slightly wider than a yellow school bus.",
       "review": {
         "state": "unreviewed",
         "at": null,
@@ -125,7 +125,7 @@
       ],
       "answer": "Keanu Reeves",
       "explanation": "Keanu Reeves played Thomas Anderson/Neo in The Matrix (1999), The Matrix Reloaded (2003), The Matrix Revolutions (2003), and The Matrix Resurrections (2021). Will Smith was originally offered the role of Neo but turned it down to star in Wild Wild West.",
-      "memory_hook": "Reeves chose the red pill — he became Neo. Will Smith chose Wild Wild West.",
+      "memory_hook": "Reeves chose the red pill - he became Neo. Will Smith chose Wild Wild West.",
       "review": {
         "state": "unreviewed",
         "at": null,
@@ -152,8 +152,8 @@
         "Prince"
       ],
       "answer": "Prince",
-      "explanation": "'Purple Rain' was the title track of Prince's 1984 album and accompanying film. It is often considered one of the greatest songs ever recorded. Prince performed it live as a guitar solo at the 2007 Super Bowl halftime show during an actual rainstorm — widely considered the greatest Super Bowl performance ever.",
-      "memory_hook": "Prince, purple, rain — he made the weather match the music.",
+      "explanation": "'Purple Rain' was the title track of Prince's 1984 album and accompanying film. It is often considered one of the greatest songs ever recorded. Prince performed it live as a guitar solo at the 2007 Super Bowl halftime show during an actual rainstorm - widely considered the greatest Super Bowl performance ever.",
+      "memory_hook": "Prince, purple, rain - he made the weather match the music.",
       "review": {
         "state": "unreviewed",
         "at": null,
@@ -181,7 +181,7 @@
       ],
       "answer": "Forrest Gump",
       "explanation": "'Stupid is as stupid does' is said by Forrest Gump (played by Tom Hanks) in the 1994 film of the same name. It is a variation of the expression 'handsome is as handsome does,' meaning that a person's actions define them more than their appearance or intelligence.",
-      "memory_hook": "Forrest: 'Stupid is as stupid does' — wisdom from the simplest character.",
+      "memory_hook": "Forrest: 'Stupid is as stupid does' - wisdom from the simplest character.",
       "review": {
         "state": "unreviewed",
         "at": null,
@@ -209,7 +209,7 @@
       ],
       "answer": "Germany",
       "explanation": "Germany was divided into West Germany (Federal Republic of Germany, aligned with the West) and East Germany (German Democratic Republic, controlled by the Soviet Union) after World War II. The division lasted until German Reunification on October 3, 1990, after the fall of the Berlin Wall.",
-      "memory_hook": "Germany was split — West and East — from 1949 to 1990.",
+      "memory_hook": "Germany was split - West and East - from 1949 to 1990.",
       "review": {
         "state": "unreviewed",
         "at": null,
@@ -237,7 +237,7 @@
       ],
       "answer": "A continent",
       "explanation": "Australia is the only nation in the world that occupies an entire continent. It is also the world's largest island if Antarctica is excluded, and the smallest, lowest, and flattest of all continents. The continent is sometimes called 'Sahul' or 'Oceania' in geological contexts.",
-      "memory_hook": "Australia = country + continent. The only place where national borders and continental borders are the same thing. It's also the flattest continent — more than a third of it is desert.",
+      "memory_hook": "Australia = country + continent. The only place where national borders and continental borders are the same thing. It's also the flattest continent - more than a third of it is desert.",
       "review": {
         "state": "unreviewed",
         "at": null,
@@ -284,7 +284,7 @@
       "id": "frq-0311",
       "category": "Geography",
       "difficulty": null,
-      "question": "What is the capital city of New Zealand — not Auckland, its largest city, but a purpose-built capital on the southern tip of the North Island?",
+      "question": "What is the capital city of New Zealand - not Auckland, its largest city, but a purpose-built capital on the southern tip of the North Island?",
       "options": [
         "Dunedin",
         "Hamilton",
@@ -292,8 +292,8 @@
         "Wellington"
       ],
       "answer": "Wellington",
-      "explanation": "Wellington became New Zealand's capital in 1865 (replacing Auckland) to be more centrally located between the North and South Islands. It sits at the southern tip of the North Island and is one of the windiest cities in the world. Wellington is home to New Zealand's parliament, government buildings, and Te Papa Tongarewa — the national museum. The Peter Jackson film studios (Weta Workshop) that produced Lord of the Rings are also based there.",
-      "memory_hook": "Wellington = NZ capital (not Auckland). Moved from Auckland in 1865 to be more central. Southernmost capital in the world (along with Canberra and others). Home of Weta Workshop — where Lord of the Rings was made. Extremely windy city.",
+      "explanation": "Wellington became New Zealand's capital in 1865 (replacing Auckland) to be more centrally located between the North and South Islands. It sits at the southern tip of the North Island and is one of the windiest cities in the world. Wellington is home to New Zealand's parliament, government buildings, and Te Papa Tongarewa - the national museum. The Peter Jackson film studios (Weta Workshop) that produced Lord of the Rings are also based there.",
+      "memory_hook": "Wellington = NZ capital (not Auckland). Moved from Auckland in 1865 to be more central. Southernmost capital in the world (along with Canberra and others). Home of Weta Workshop - where Lord of the Rings was made. Extremely windy city.",
       "review": {
         "state": "unreviewed",
         "at": null,
@@ -314,14 +314,14 @@
       "difficulty": null,
       "question": "Jupiter's moon Europa is considered one of the most promising places in the solar system to search for extraterrestrial life. Why?",
       "options": [
-        "Europa's surface temperature (−160°C) is too cold for life, but radar imaging shows ancient microfossils embedded in its ice crust from a warmer era 2 billion years ago",
+        "Europa's surface temperature (-160°C) is too cold for life, but radar imaging shows ancient microfossils embedded in its ice crust from a warmer era 2 billion years ago",
         "Europa orbits inside Jupiter's magnetosphere, which screens it from radiation, making it the only moon in the solar system with a protected environment potentially hospitable to surface life",
         "Europa has an oxygen-rich atmosphere thicker than Earth's, and its volcanic activity creates conditions similar to early Earth when life first emerged",
-        "Europa has a global liquid water ocean beneath its icy crust — kept liquid by tidal heating from Jupiter's gravity — and possibly hydrothermal vents on the ocean floor where life might exist"
+        "Europa has a global liquid water ocean beneath its icy crust - kept liquid by tidal heating from Jupiter's gravity - and possibly hydrothermal vents on the ocean floor where life might exist"
       ],
-      "answer": "Europa has a global liquid water ocean beneath its icy crust — kept liquid by tidal heating from Jupiter's gravity — and possibly hydrothermal vents on the ocean floor where life might exist",
-      "explanation": "Europa's surface is −160°C, but tidal flexing from Jupiter's immense gravity generates internal heat, maintaining a liquid ocean estimated at 100 km deep beneath an ice shell 10–30 km thick. This ocean may contain more liquid water than all of Earth's oceans combined. On Earth, life thrives at hydrothermal vents in the total absence of sunlight — chemosynthetic bacteria form the base of entire ecosystems. If similar vents exist on Europa's ocean floor, life might exist there independently of sunlight. NASA's Europa Clipper mission, launched in 2024, will make 49 flybys.",
-      "memory_hook": "Europa's liquid ocean — kept warm by Jupiter's tidal squeezing — may contain more water than all Earth's oceans. Life around Earth's hydrothermal vents needs no sunlight, suggesting similar ecosystems could exist under Europa's ice. Europa Clipper launched in 2024 to investigate.",
+      "answer": "Europa has a global liquid water ocean beneath its icy crust - kept liquid by tidal heating from Jupiter's gravity - and possibly hydrothermal vents on the ocean floor where life might exist",
+      "explanation": "Europa's surface is -160°C, but tidal flexing from Jupiter's immense gravity generates internal heat, maintaining a liquid ocean estimated at 100 km deep beneath an ice shell 10-30 km thick. This ocean may contain more liquid water than all of Earth's oceans combined. On Earth, life thrives at hydrothermal vents in the total absence of sunlight - chemosynthetic bacteria form the base of entire ecosystems. If similar vents exist on Europa's ocean floor, life might exist there independently of sunlight. NASA's Europa Clipper mission, launched in 2024, will make 49 flybys.",
+      "memory_hook": "Europa's liquid ocean - kept warm by Jupiter's tidal squeezing - may contain more water than all Earth's oceans. Life around Earth's hydrothermal vents needs no sunlight, suggesting similar ecosystems could exist under Europa's ice. Europa Clipper launched in 2024 to investigate.",
       "review": {
         "state": "unreviewed",
         "at": null,

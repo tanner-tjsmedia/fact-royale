@@ -187,6 +187,7 @@ def check_questions(sources, facts):
     if not files:
         B('no dated question files found in questions-src/'); return
     seen, total, rewrite = {}, 0, []
+    dashed = []   # questions containing an em or en dash
 
     for path in files:
         name = os.path.basename(path)
@@ -289,7 +290,25 @@ def check_questions(sources, facts):
                 if s not in sources:
                     B(f'{qid}: sourceRef "{s}" is not in sources.json')
 
+            # Em and en dashes. You set this standard for UI copy months ago
+            # and nothing has ever enforced it on question CONTENT. They also
+            # render as a replacement block on a Windows console, which makes
+            # every report harder to read and harder to paste.
+            fields = [q.get('question', ''), q.get('explanation', ''),
+                      q.get('memory_hook', '')] + \
+                     [str(o) for o in q.get('options', []) if not isinstance(o, dict)] + \
+                     [str(o.get('text', '')) for o in q.get('options', [])
+                      if isinstance(o, dict)]
+            if any('—' in f or '–' in f for f in fields):
+                dashed.append(qid)
+
     N(f'questions: {total} across {len(files)} files, {len(seen)} unique ids')
+    if dashed:
+        W(f'{len(dashed)} questions contain an em or en dash, against the '
+          f'no-dash rule set for UI copy: ' + ', '.join(dashed[:6])
+          + ('...' if len(dashed) > 6 else ''))
+    else:
+        N('no em or en dashes in question content')
     if rewrite:
         W(f'{len(rewrite)} files would be rewritten by a no-op save '
           f'(key order or formatting drift): ' + ', '.join(rewrite[:5])

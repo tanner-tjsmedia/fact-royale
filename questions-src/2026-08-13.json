@@ -47,7 +47,7 @@
       ],
       "answer": "January 1, 1863",
       "explanation": "President Lincoln's Emancipation Proclamation took effect on January 1, 1863, declaring that enslaved people in Confederate states in rebellion were free. It was issued after the Union victory at Antietam in September 1862 gave Lincoln the political standing to make such a declaration. The 13th Amendment, which permanently abolished slavery throughout the US, was ratified in December 1865.",
-      "memory_hook": "Emancipation Proclamation = January 1, 1863. New Year's Day. Lincoln waited for a Union victory before issuing it — he didn't want it to look like desperation. It didn't immediately free anyone but changed the moral character of the Civil War forever.",
+      "memory_hook": "Emancipation Proclamation = January 1, 1863. New Year's Day. Lincoln waited for a Union victory before issuing it - he didn't want it to look like desperation. It didn't immediately free anyone but changed the moral character of the Civil War forever.",
       "riskTier": "canonical",
       "review": {
         "state": "unreviewed",
@@ -109,8 +109,8 @@
         "A long, desperate forward pass into the end zone"
       ],
       "answer": "A long, desperate forward pass into the end zone",
-      "explanation": "A Hail Mary is a long forward pass thrown in desperation near the end of a game with little time remaining, typically when the trailing team needs a touchdown. The term is associated with a prayer — you throw the ball and 'pray' it's caught. The name was popularized by Roger Staubach of the Dallas Cowboys after a 1975 playoff win. Such passes rarely work, but when they do, they produce some of football's most memorable moments.",
-      "memory_hook": "Hail Mary = desperate long pass. Named after a prayer. Roger Staubach coined the term in 1975 after throwing one. It almost never works, which is why it's desperate. But when it does — Doug Flutie, 1984, one of football's most iconic plays.",
+      "explanation": "A Hail Mary is a long forward pass thrown in desperation near the end of a game with little time remaining, typically when the trailing team needs a touchdown. The term is associated with a prayer - you throw the ball and 'pray' it's caught. The name was popularized by Roger Staubach of the Dallas Cowboys after a 1975 playoff win. Such passes rarely work, but when they do, they produce some of football's most memorable moments.",
+      "memory_hook": "Hail Mary = desperate long pass. Named after a prayer. Roger Staubach coined the term in 1975 after throwing one. It almost never works, which is why it's desperate. But when it does - Doug Flutie, 1984, one of football's most iconic plays.",
       "riskTier": "canonical",
       "review": {
         "state": "unreviewed",
@@ -205,7 +205,7 @@
       ],
       "answer": "Modern profanity for period effect, Shakespearean structure",
       "explanation": "Milch researched the period and found the mining camps really were relentlessly obscene, but that Victorian swearing was blasphemous rather than scatological, so a modern ear would hear it as quaint. He used contemporary profanity to land the force the original had. The digressive monologues, Ian McShane's Al Swearengen especially, run closer to soliloquy than to dialogue. Milch built the camp as a society inventing its own law without outside governance. HBO cancelled it after season three; a 2019 film closed the story.",
-      "memory_hook": "Deadwood uses modern profanity by design — period-accurate 19th-century obscenity would be meaningless to viewers, Milch argued. The camp's Shakespearean monologues and improvised frontier law-making are the real subject; Ian McShane's Swearengen is one of TV's great villains.",
+      "memory_hook": "Deadwood uses modern profanity by design - period-accurate 19th-century obscenity would be meaningless to viewers, Milch argued. The camp's Shakespearean monologues and improvised frontier law-making are the real subject; Ian McShane's Swearengen is one of TV's great villains.",
       "riskTier": "source",
       "sourceRefs": [
         "lithub-milch-obscenity",
@@ -360,7 +360,7 @@
       "id": "frq-0720",
       "category": "Science & Nature",
       "difficulty": null,
-      "question": "What is apoptosis — and why is it essential for normal development and disease prevention?",
+      "question": "What is apoptosis - and why is it essential for normal development and disease prevention?",
       "options": [
         "Programmed cell death, removing damaged or unneeded cells",
         "Cellular energy production carried out in the mitochondria",
@@ -368,8 +368,8 @@
         "Replication of DNA in preparation for a cell to divide"
       ],
       "answer": "Programmed cell death, removing damaged or unneeded cells",
-      "explanation": "Apoptosis is a highly regulated process of programmed cell death — cells essentially commit suicide in an orderly way, without triggering inflammation. It is essential for: embryonic development (fingers form when cells between them die), immune regulation (eliminating autoreactive T cells), and cancer prevention (eliminating mutated cells before they proliferate). When apoptosis fails — cells that should die instead survive and divide — cancer can result. Many cancer treatments work by triggering apoptosis in tumor cells.",
-      "memory_hook": "Apoptosis = programmed cell death. Cells commit suicide on cue — orderly, without inflammation. Your fingers formed when cells between them died in the womb. Immune cells that attack 'self' are eliminated this way. When apoptosis fails, cells that should die keep dividing — that's cancer. Many cancer drugs work by restarting this process.",
+      "explanation": "Apoptosis is a highly regulated process of programmed cell death - cells essentially commit suicide in an orderly way, without triggering inflammation. It is essential for: embryonic development (fingers form when cells between them die), immune regulation (eliminating autoreactive T cells), and cancer prevention (eliminating mutated cells before they proliferate). When apoptosis fails - cells that should die instead survive and divide - cancer can result. Many cancer treatments work by triggering apoptosis in tumor cells.",
+      "memory_hook": "Apoptosis = programmed cell death. Cells commit suicide on cue - orderly, without inflammation. Your fingers formed when cells between them died in the womb. Immune cells that attack 'self' are eliminated this way. When apoptosis fails, cells that should die keep dividing - that's cancer. Many cancer drugs work by restarting this process.",
       "riskTier": "canonical",
       "review": {
         "state": "unreviewed",
