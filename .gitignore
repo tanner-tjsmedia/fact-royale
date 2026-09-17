@@ -9,3 +9,15 @@ service-account*.json
 *-firebase-adminsdk-*.json
 firebase-admin-key*.json
 .fact-royale/
+
+# Python bytecode. Created whenever one tool imports another - cluster.py
+# and worklist.py both import preflight, which is deliberate (one owner per
+# rule) but leaves a .pyc behind.
+__pycache__/
+*.pyc
+
+# Generated reports. Regenerate them any time with the tool that writes
+# them; committing them means every run produces a diff that says nothing.
+clusters.txt
+worklist.txt
+preflight.txt
