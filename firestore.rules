@@ -2,13 +2,36 @@ rules_version = '2';
 service cloud.firestore {
   match /databases/{database}/documents {
 
-    // ── Daily leaderboard scores (public read, auth write) ──
+    // ── Daily leaderboard scores (public read, write-once) ──
+    //
+    // A score may be created once and never changed.
+    //
+    // The previous rule allowed update and delete on your own row. That let
+    // a player submit honestly, look at the leaderboard, and then overwrite
+    // their own score with a perfect one. Nothing recorded that it happened.
+    //
+    // What this still does NOT prevent: a signed-in user posting 12/12
+    // without playing. Security rules cannot regrade a quiz - only a server
+    // can. That is phase 3 (Cloud Function grading) and stays open until
+    // then. See docs/SECURE-QUESTION-DB.md.
     match /scores/{scoreId} {
       allow read: if true;
+
+      allow update, delete: if false;
+
       allow create: if request.auth != null
-                    && request.auth.uid == request.resource.data.uid;
-      allow update, delete: if request.auth != null
-                            && request.auth.uid == resource.data.uid;
+        && request.auth.uid == request.resource.data.uid
+        // The doc id must be uid_date, so one score per player per day and
+        // nobody can write a row under someone else's key.
+        && scoreId == request.auth.uid + '_' + request.resource.data.date
+        && request.resource.data.score is int
+        && request.resource.data.total is int
+        && request.resource.data.total > 0
+        && request.resource.data.total <= 50
+        && request.resource.data.score >= 0
+        && request.resource.data.score <= request.resource.data.total
+        && request.resource.data.displayName is string
+        && request.resource.data.displayName.size() <= 40;
     }
 
     // ── User profiles ──────────────────────────────────────

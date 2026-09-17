@@ -2,7 +2,7 @@
 
 **Status:** design under section-by-section review.
 **Settled:** §2 fact record · §3 claimType · §4 distractors · §5 volatility ·
-§6 cooldown · §7 tags · §8 storage.
+§6 cooldown · §7 tags · §8 storage · §9 generation.
 **Open:** nothing in the record design. The MIGRATION PATH — how 984 existing
 questions with string options and zero facts become fact-layer records — is
 the one substantial piece still undesigned.
@@ -51,6 +51,8 @@ including refuting their distractors.
 {
   "id": "fct-0142",
   "claim": "At his trial in 399 BC Socrates proposed free meals in the Prytaneum as his penalty.",
+  "subject": "Socrates' proposed penalty at his 399 BC trial",
+  "answer": "Free meals in the Prytaneum",
   "claimType": "enumeration",
   "context": "Athenian law let both sides propose a sentence and the jury pick one. Socrates argued that a man who had spent his life urging Athenians toward moral improvement deserved what Olympic victors got.",
   "tags": ["ancient-greece", "philosophy", "law-and-justice"],
@@ -78,6 +80,27 @@ standards-compliant. `era` is null for facts with no meaningful date.
 **Claims must be self-contained.** No pronouns, no implied subject, no
 "this". A claim is detached from its question the moment a second question
 cites it. `preflight` flags any claim opening with a pronoun.
+
+**`subject` and `answer` exist so the fact can generate, not just be cited.**
+The `claim` is prose, and prose does not say which part is the answer. These
+two short fields split it:
+
+    claim    the verified assertion, in full
+    subject  the thing being asked about, as a noun phrase
+    answer   the short answer string
+
+You already write both when you author a question by hand. Storing them on
+the fact makes them reusable across every format. Two mechanical rules, both
+checkable:
+
+- the `answer` must appear in or be directly entailed by the `claim`, so it
+  inherits the claim's verification rather than asserting something new
+- the `subject` must not contain the `answer`, which would give it away
+
+Deliberately NOT going further: full subject-predicate-object triples would
+make everything machine-queryable, but knowledge-graph authoring is slow
+enough to kill a project this size. Two strings is the most structure worth
+paying for.
 
 **`riskTier` lives on the fact, not the question.** Evidentiary risk is a
 property of a claim, not of the wording wrapped around it. Questions inherit
@@ -694,7 +717,101 @@ only that it reads well.
 
 ---
 
-## 9. What this breaks
+## 9. Generation — turning facts into questions
+
+Everything above describes how a fact is verified and stored. This section
+describes the step that makes the fact base an asset rather than an archive:
+producing questions from it.
+
+> **Generation reduces authoring effort. It does not remove the human gate.**
+
+That line governs the whole section. A generated question enters as
+`review.state: unreviewed` with `researchedBy: "generator"` and no
+`approvedBy`, exactly like any other machine output, and cannot be published
+until a human approves it. The reason is the same one that put `approvedBy`
+in section 2: this corpus reached its current state because unreviewed
+machine output had nothing standing between it and a player.
+
+### 9.1 Distractors come from siblings
+
+This is the engine. A multiple-choice question needs three plausible false
+options, and hand-authoring them is most of the cost of writing a question.
+Generation works only if they can come from **other facts in the same set**.
+
+Three sibling sources, strongest first:
+
+| Source | Example | Can the distractor be auto-refuted? |
+|---|---|---|
+| **Enumeration members** | other people in "the only six EGOT winners" | **Yes.** Exhaustiveness makes a non-member provably false, so `falseBy: exhaustive` and `falseByFact` fill themselves in |
+| **Same tag and overlapping era** | contemporaries of Beethoven | **No.** Plausible by construction, but falsity must still be established |
+| **Same category, similar magnitude** | other numbers of a similar order | **No**, and weakest. Use for numeric answers only |
+
+**Only enumeration-derived distractors may be refuted automatically.** That
+follows directly from section 3: an `enumeration` licenses refutation by
+absence and nothing else does. A distractor drawn from a tag match has no
+evidence behind it yet and must be researched or rejected like any other.
+
+This is also why enumerations are worth roughly twice a `point` fact to
+verify and yield several times the value. They are the only fact type that
+generates *both* the question and its distractors.
+
+### 9.2 What the generator may and may not do
+
+| May | May not |
+|---|---|
+| propose question text from `subject` | set `approvedBy` |
+| propose distractors from siblings | publish anything |
+| fill `falseBy`/`falseByFact` for enumeration siblings | set `claimType` or `scope` |
+| propose a `plausibility` rating | mark a fact verified |
+| assemble rounds and quizzes | invent a claim not already in a fact |
+
+That last prohibition matters most. **The generator may only rearrange
+verified facts.** It may never introduce an assertion that is not already in
+the fact base, because anything it invents has no evidence behind it by
+definition.
+
+### 9.3 What each format needs
+
+| Format | Required structure | Distractors from |
+|---|---|---|
+| Daily multiple choice | any fact with `subject` + `answer` | siblings by tag and era |
+| **Imposter** (nine true, one false) | any nine verified claims on a theme, plus one false | one non-member, refuted |
+| **Grid fill-in** | one `enumeration` with `scope` | not applicable, the set is the answer |
+| Ranking / ordering | two or more `superlative` facts sharing a measure | the other ranked items |
+| Nearest guess | a numeric `point` fact | not applicable |
+
+Imposter is nearly free once facts exist: it is the section 4 distractor
+machinery pointed at a different screen. Grid needs `enumeration` facts and
+no new architecture at all.
+
+### 9.4 Assembly
+
+Selecting a set of questions for a day, a round or a tournament, subject to:
+
+- category mix, difficulty curve, tag diversity
+- both cooldown windows from section 6
+- **no two questions in one sitting resting on the same fact** — otherwise
+  the second is answered by the first
+- nothing citing a retired, superseded or overdue fact
+
+### 9.5 The honest limit
+
+**Generation quality is bounded by sibling density.** A fact with no
+siblings cannot produce a good multiple-choice question: with nothing to
+draw distractors from, they have to be invented, which is authoring again.
+
+Early on, most facts will be isolated. The cluster report already measured
+this: 881 distinct subjects across 984 questions, roughly 90% singletons. So
+generation will be weak at first and improve as the base thickens around
+topics.
+
+**Do not plan the relaunch around it.** Generation is what makes years two
+and three cheap, not month one. The first wave of questions will be written
+by hand, and the fact base earns its cost later.
+
+---
+
+## 10. What this breaks
 
 Honest blast radius. Options becoming objects touches:
 
@@ -714,7 +831,7 @@ flag day.
 
 ---
 
-## 10. What this costs
+## 11. What this costs
 
 Verification goes from **984 checks to ~3,936** — one answer plus three
 distractors per question. That is the honest headline.
@@ -730,7 +847,7 @@ rejection rate recorded.
 
 ---
 
-## 11. Deliberately not decided yet
+## 12. Deliberately not decided yet
 
 - **Question formats beyond 4-option multiple choice.** Tournaments usually
   want variety. Changes the player UI, not just the data. Later.
