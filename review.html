@@ -276,7 +276,12 @@ async function scan(){
   for (let d = from; d && d <= to; d = addDays(d,1)) dates.push(d);
 
   const files = await Promise.all(dates.map(d =>
-    fetch(`questions/${d}.json`, {cache:'no-store'})
+    // questions-src/, not questions/. Going dark renamed the directory and
+    // this tool was left pointing at the old path, so every fetch 404'd and
+    // the scan reported a clean corpus of zero questions rather than an
+    // error. A review tool that silently finds nothing is worse than one
+    // that refuses to load.
+    fetch(`questions-src/${d}.json`, {cache:'no-store'})
       .then(r => r.ok ? r.json().then(j => ({date:d, data:j})) : null)
       .catch(() => null)
   ));

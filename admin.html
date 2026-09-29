@@ -494,7 +494,10 @@
     <section>
       <h2>Data Integrity <a href="/review.html" style="float:right;font-size:.8rem;font-weight:400;color:#d4af37;text-decoration:none">Question Review &rarr;</a></h2>
       <div class="chart-card">
-        <div class="stat-grid" style="margin-bottom:1rem">
+        <!-- These four are a summary, not column headings. Without a rule
+             between them and the table they line up with the first four
+             columns and read as though "5" is a value under Player. -->
+        <div class="stat-grid" style="margin-bottom:1.4rem">
           <div>
             <div class="stat-value" id="di-clean">—</div>
             <div class="stat-label">Accounts clean</div>
@@ -512,6 +515,11 @@
             <div class="stat-label">Awaiting migration</div>
           </div>
         </div>
+        <div style="border-top:1px solid rgba(232,232,240,0.10);padding-top:1rem">
+        <div style="font-size:0.72rem;letter-spacing:0.08em;text-transform:uppercase;
+                    color:rgba(232,232,240,0.45);margin-bottom:0.5rem">
+          Accounts needing attention
+        </div>
         <table class="streak-table">
           <thead>
             <tr>
@@ -526,6 +534,7 @@
             <tr class="loading-row"><td colspan="5"><span class="spinner"></span>Loading...</td></tr>
           </tbody>
         </table>
+        </div>
         <p style="margin-top:0.9rem;font-size:0.8rem;color:rgba(232,232,240,0.45);line-height:1.6">
           Accounts self-heal on next sign-in via the schema v2 migration. Rows persisting here
           across several days mean the migration is failing and needs investigation.
