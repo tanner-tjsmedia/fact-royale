@@ -159,7 +159,11 @@
           "context": "daily"
         }
       ],
-      "canonicalNote": "atlas/textbook level, no source disputes it"
+      "canonicalNote": "atlas/textbook level, no source disputes it",
+      "sourceRefs": [
+        "britannica-marathon-distance",
+        "worldathletics-marathon"
+      ]
     },
     {
       "id": "frq-0666",
@@ -320,7 +324,11 @@
           "context": "daily"
         }
       ],
-      "canonicalNote": "atlas/textbook level, no source disputes it"
+      "canonicalNote": "atlas/textbook level, no source disputes it",
+      "sourceRefs": [
+        "nasa-ozone",
+        "noaa-ozone-twenty-questions"
+      ]
     },
     {
       "id": "frq-0671",

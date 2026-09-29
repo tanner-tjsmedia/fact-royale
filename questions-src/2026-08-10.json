@@ -258,7 +258,11 @@
           "context": "daily"
         }
       ],
-      "canonicalNote": "universally attested, no source disputes it and nothing here can change"
+      "canonicalNote": "universally attested, no source disputes it and nothing here can change",
+      "sourceRefs": [
+        "britannica-ziggy-stardust",
+        "grammy-ziggy-stardust"
+      ]
     },
     {
       "id": "frq-0681",
@@ -384,7 +388,11 @@
           "context": "daily"
         }
       ],
-      "canonicalNote": "universally attested, no source disputes it and nothing here can change"
+      "canonicalNote": "universally attested, no source disputes it and nothing here can change",
+      "sourceRefs": [
+        "rsc-noble-gases",
+        "acs-bartlett-noble-gases"
+      ]
     }
   ]
 }

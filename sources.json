@@ -3224,6 +3224,182 @@
       ],
       "checked": "2026-09-29",
       "archive": null
+    },
+    "britannica-marathon-distance": {
+      "tier": "reference",
+      "url": "https://www.britannica.com/sports/Why-Is-a-Marathon-26-2-Miles",
+      "publisher": "Encyclopaedia Britannica",
+      "establishes": [
+        "The marathon is 26 miles 385 yards, or 42.195 kilometres",
+        "The 385 yards were added at the 1908 London Olympics when the start was moved back to Windsor"
+      ],
+      "checked": "2026-09-29",
+      "archive": null
+    },
+    "worldathletics-marathon": {
+      "tier": "primary",
+      "url": "https://worldathletics.org/disciplines/road-running/marathon",
+      "publisher": "World Athletics",
+      "establishes": [
+        "The marathon distance was standardised at 26 miles 385 yards in 1921",
+        "The governing body adopted it for all subsequent Olympic Games"
+      ],
+      "checked": "2026-09-29",
+      "archive": null
+    },
+    "britannica-hail-mary-pass": {
+      "tier": "reference",
+      "url": "https://www.britannica.com/sports/Hail-Mary-pass",
+      "publisher": "Encyclopaedia Britannica",
+      "establishes": [
+        "A Hail Mary is a long forward pass thrown into or near the end zone",
+        "It is a last-ditch attempt to score as time runs out"
+      ],
+      "checked": "2026-09-29",
+      "archive": null
+    },
+    "merriam-webster-hail-mary-pass": {
+      "tier": "reference",
+      "url": "https://www.merriam-webster.com/dictionary/Hail%20Mary%20pass",
+      "publisher": "Merriam-Webster",
+      "establishes": [
+        "Dictionary definition: a long desperate forward pass in football with little chance of success"
+      ],
+      "checked": "2026-09-29",
+      "archive": null
+    },
+    "nasa-ozone": {
+      "tier": "primary",
+      "url": "https://science.nasa.gov/earth/earth-observatory/ozone/",
+      "publisher": "NASA Earth Observatory",
+      "establishes": [
+        "Ozone is a molecule of three oxygen atoms, O3",
+        "Most ozone sits in the stratosphere, roughly 10 to 40 km up",
+        "The layer absorbs harmful ultraviolet radiation before it reaches the surface"
+      ],
+      "checked": "2026-09-29",
+      "archive": null
+    },
+    "noaa-ozone-twenty-questions": {
+      "tier": "primary",
+      "url": "https://csl.noaa.gov/assessments/ozone/2014/twentyquestions/Q3.pdf",
+      "publisher": "NOAA Chemical Sciences Laboratory",
+      "establishes": [
+        "Stratospheric ozone protects the biosphere by absorbing ultraviolet radiation",
+        "UV-B is strongly absorbed, greatly reducing what reaches the ground"
+      ],
+      "checked": "2026-09-29",
+      "archive": null
+    },
+    "britannica-ural-mountains-summary": {
+      "tier": "reference",
+      "url": "https://www.britannica.com/summary/Ural-Mountains",
+      "publisher": "Encyclopaedia Britannica",
+      "establishes": [
+        "The Ural Mountains generally constitute the boundary between Europe and Asia",
+        "They run north to south for some 2,500 kilometres to the Ural River"
+      ],
+      "checked": "2026-09-29",
+      "archive": null
+    },
+    "britannica-eurasia": {
+      "tier": "reference",
+      "url": "https://www.britannica.com/place/Eurasia",
+      "publisher": "Encyclopaedia Britannica",
+      "establishes": [
+        "Most geographers run the Europe-Asia boundary south along the Urals",
+        "The boundary is a historical and cultural convention, not a physical necessity"
+      ],
+      "checked": "2026-09-29",
+      "archive": null
+    },
+    "rsc-noble-gases": {
+      "tier": "primary",
+      "url": "https://pubs.rsc.org/en/content/chapter/bk9780854046171-00146/978-0-85404-617-1",
+      "publisher": "Royal Society of Chemistry",
+      "establishes": [
+        "The group 18 noble gases are helium, neon, argon, krypton, xenon and radon"
+      ],
+      "checked": "2026-09-29",
+      "archive": null
+    },
+    "acs-bartlett-noble-gases": {
+      "tier": "primary",
+      "url": "https://www.acs.org/education/whatischemistry/landmarks/bartlettnoblegases.html",
+      "publisher": "American Chemical Society",
+      "establishes": [
+        "Helium, neon, argon, krypton, xenon and radon constitute Group 18",
+        "Their full outer electron shells are why they were thought unable to form compounds",
+        "Neil Bartlett produced the first noble gas compound, with xenon, in 1962"
+      ],
+      "checked": "2026-09-29",
+      "archive": null
+    },
+    "britannica-ziggy-stardust": {
+      "tier": "reference",
+      "url": "https://www.britannica.com/topic/The-Rise-and-Fall-of-Ziggy-Stardust-and-the-Spiders-from-Mars",
+      "publisher": "Encyclopaedia Britannica",
+      "establishes": [
+        "The Rise and Fall of Ziggy Stardust and the Spiders from Mars is David Bowie's 1972 album",
+        "Ziggy Stardust is the alter ego at its centre"
+      ],
+      "checked": "2026-09-29",
+      "archive": null
+    },
+    "grammy-ziggy-stardust": {
+      "tier": "secondary",
+      "url": "https://www.grammy.com/news/david-bowies-ziggy-stardust-record/",
+      "publisher": "The Recording Academy",
+      "establishes": [
+        "The album was released on 16 June 1972 and was Bowie's fifth studio album",
+        "It was inducted into the Grammy Hall of Fame in 1999"
+      ],
+      "checked": "2026-09-29",
+      "archive": null
+    },
+    "hpa-about-polo": {
+      "tier": "primary",
+      "url": "https://hpa-polo.co.uk/about-polo/",
+      "publisher": "Hurlingham Polo Association",
+      "establishes": [
+        "Players ride several different ponies during a match to stop them tiring",
+        "A match is divided into chukkas of seven minutes, four to six per match"
+      ],
+      "checked": "2026-09-29",
+      "archive": null
+    },
+    "uspolo-spectator-guide": {
+      "tier": "primary",
+      "url": "https://www.uspolo.org/sport/spectator-guide",
+      "publisher": "United States Polo Association",
+      "establishes": [
+        "Players change ponies in allocated box areas at the corners of the field",
+        "A full grass field is 300 by 160 yards, roughly nine football fields"
+      ],
+      "checked": "2026-09-29",
+      "archive": null
+    },
+    "britannica-mechanics-circular-motion": {
+      "tier": "reference",
+      "url": "https://www.britannica.com/science/mechanics/Circular-motion",
+      "publisher": "Encyclopaedia Britannica",
+      "establishes": [
+        "Circular motion requires a force directed toward the centre of the circle",
+        "That inward force is the centripetal force"
+      ],
+      "checked": "2026-09-29",
+      "archive": null
+    },
+    "physicsclassroom-centripetal-force": {
+      "tier": "secondary",
+      "url": "https://www.physicsclassroom.com/class/circles/lesson-1/the-centripetal-force-requirement",
+      "publisher": "The Physics Classroom",
+      "establishes": [
+        "Friction between tyres and road supplies the centripetal force when a car turns",
+        "Without friction the wheels turn but the car does not follow the curve, as on ice"
+      ],
+      "checked": "2026-09-29",
+      "archive": null
     }
   }
 }

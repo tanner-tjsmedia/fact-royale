@@ -126,7 +126,11 @@
           "context": "daily"
         }
       ],
-      "canonicalNote": "polo rulebook: chukka length, field dimensions and pony changes are published rules"
+      "canonicalNote": "polo rulebook: chukka length, field dimensions and pony changes are published rules",
+      "sourceRefs": [
+        "hpa-about-polo",
+        "uspolo-spectator-guide"
+      ]
     },
     {
       "id": "frq-0725",
@@ -287,7 +291,11 @@
           "context": "daily"
         }
       ],
-      "canonicalNote": "the Urals as the Europe-Asia boundary is a standard atlas convention"
+      "canonicalNote": "the Urals as the Europe-Asia boundary is a standard atlas convention",
+      "sourceRefs": [
+        "britannica-ural-mountains-summary",
+        "britannica-eurasia"
+      ]
     },
     {
       "id": "frq-0730",
@@ -383,7 +391,11 @@
           "context": "daily"
         }
       ],
-      "canonicalNote": "textbook mechanics, universally attested"
+      "canonicalNote": "textbook mechanics, universally attested",
+      "sourceRefs": [
+        "physicsclassroom-centripetal-force",
+        "britannica-mechanics-circular-motion"
+      ]
     }
   ]
 }

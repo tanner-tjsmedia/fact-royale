@@ -129,7 +129,11 @@
           "context": "daily"
         }
       ],
-      "canonicalNote": "definition of a common football term, universally attested"
+      "canonicalNote": "definition of a common football term, universally attested",
+      "sourceRefs": [
+        "britannica-hail-mary-pass",
+        "merriam-webster-hail-mary-pass"
+      ]
     },
     {
       "id": "frq-0713",
