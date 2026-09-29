@@ -32,7 +32,8 @@
           "date": "2026-08-10",
           "context": "daily"
         }
-      ]
+      ],
+      "sourcedAt": "2026-09-03"
     },
     {
       "id": "frq-0674",
@@ -64,7 +65,8 @@
           "date": "2026-08-10",
           "context": "daily"
         }
-      ]
+      ],
+      "sourcedAt": "2026-09-03"
     },
     {
       "id": "frq-0675",
@@ -97,7 +99,8 @@
           "date": "2026-08-10",
           "context": "daily"
         }
-      ]
+      ],
+      "sourcedAt": "2026-09-03"
     },
     {
       "id": "frq-0676",
@@ -131,7 +134,8 @@
           "date": "2026-08-10",
           "context": "daily"
         }
-      ]
+      ],
+      "sourcedAt": "2026-09-03"
     },
     {
       "id": "frq-0677",
@@ -164,7 +168,8 @@
           "date": "2026-08-10",
           "context": "daily"
         }
-      ]
+      ],
+      "sourcedAt": "2026-09-03"
     },
     {
       "id": "frq-0678",
@@ -196,7 +201,8 @@
           "date": "2026-08-10",
           "context": "daily"
         }
-      ]
+      ],
+      "sourcedAt": "2026-09-03"
     },
     {
       "id": "frq-0679",
@@ -228,7 +234,8 @@
           "date": "2026-08-10",
           "context": "daily"
         }
-      ]
+      ],
+      "sourcedAt": "2026-09-03"
     },
     {
       "id": "frq-0680",
@@ -262,7 +269,8 @@
       "sourceRefs": [
         "britannica-ziggy-stardust",
         "grammy-ziggy-stardust"
-      ]
+      ],
+      "sourcedAt": "2026-09-29"
     },
     {
       "id": "frq-0681",
@@ -294,7 +302,8 @@
           "date": "2026-08-10",
           "context": "daily"
         }
-      ]
+      ],
+      "sourcedAt": "2026-09-03"
     },
     {
       "id": "frq-0682",
@@ -326,7 +335,8 @@
           "date": "2026-08-10",
           "context": "daily"
         }
-      ]
+      ],
+      "sourcedAt": "2026-09-03"
     },
     {
       "id": "frq-0683",
@@ -358,7 +368,8 @@
           "date": "2026-08-10",
           "context": "daily"
         }
-      ]
+      ],
+      "sourcedAt": "2026-09-03"
     },
     {
       "id": "frq-0684",
@@ -392,7 +403,8 @@
       "sourceRefs": [
         "rsc-noble-gases",
         "acs-bartlett-noble-gases"
-      ]
+      ],
+      "sourcedAt": "2026-09-29"
     }
   ]
 }

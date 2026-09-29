@@ -31,7 +31,8 @@
           "date": "2026-08-14",
           "context": "daily"
         }
-      ]
+      ],
+      "sourcedAt": "2026-09-03"
     },
     {
       "id": "frq-0722",
@@ -63,7 +64,8 @@
           "date": "2026-08-14",
           "context": "daily"
         }
-      ]
+      ],
+      "sourcedAt": "2026-09-03"
     },
     {
       "id": "frq-0723",
@@ -96,7 +98,8 @@
           "date": "2026-08-14",
           "context": "daily"
         }
-      ]
+      ],
+      "sourcedAt": "2026-09-03"
     },
     {
       "id": "frq-0724",
@@ -130,7 +133,8 @@
       "sourceRefs": [
         "hpa-about-polo",
         "uspolo-spectator-guide"
-      ]
+      ],
+      "sourcedAt": "2026-09-29"
     },
     {
       "id": "frq-0725",
@@ -163,7 +167,8 @@
           "date": "2026-08-14",
           "context": "daily"
         }
-      ]
+      ],
+      "sourcedAt": "2026-09-03"
     },
     {
       "id": "frq-0726",
@@ -196,7 +201,8 @@
           "date": "2026-08-14",
           "context": "daily"
         }
-      ]
+      ],
+      "sourcedAt": "2026-09-03"
     },
     {
       "id": "frq-0727",
@@ -229,7 +235,8 @@
           "date": "2026-08-14",
           "context": "daily"
         }
-      ]
+      ],
+      "sourcedAt": "2026-09-03"
     },
     {
       "id": "frq-0728",
@@ -261,7 +268,8 @@
           "date": "2026-08-14",
           "context": "daily"
         }
-      ]
+      ],
+      "sourcedAt": "2026-09-03"
     },
     {
       "id": "frq-0729",
@@ -295,7 +303,8 @@
       "sourceRefs": [
         "britannica-ural-mountains-summary",
         "britannica-eurasia"
-      ]
+      ],
+      "sourcedAt": "2026-09-29"
     },
     {
       "id": "frq-0730",
@@ -328,7 +337,8 @@
       "canonicalNote": "reactor physics is textbook; the Chernobyl graphite-tipped rod detail is in every official account",
       "sourceRefs": [
         "nrc-nuclear-reactors"
-      ]
+      ],
+      "sourcedAt": "2026-09-29"
     },
     {
       "id": "frq-0731",
@@ -361,7 +371,8 @@
           "date": "2026-08-14",
           "context": "daily"
         }
-      ]
+      ],
+      "sourcedAt": "2026-09-03"
     },
     {
       "id": "frq-0732",
@@ -395,7 +406,8 @@
       "sourceRefs": [
         "physicsclassroom-centripetal-force",
         "britannica-mechanics-circular-motion"
-      ]
+      ],
+      "sourcedAt": "2026-09-29"
     }
   ]
 }

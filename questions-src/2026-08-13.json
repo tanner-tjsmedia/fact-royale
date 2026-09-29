@@ -32,7 +32,8 @@
           "date": "2026-08-13",
           "context": "daily"
         }
-      ]
+      ],
+      "sourcedAt": "2026-09-03"
     },
     {
       "id": "frq-0710",
@@ -66,7 +67,8 @@
       "sourceRefs": [
         "archives-emancipation-proclamation",
         "britannica-emancipation-proclamation"
-      ]
+      ],
+      "sourcedAt": "2026-09-29"
     },
     {
       "id": "frq-0711",
@@ -99,7 +101,8 @@
           "date": "2026-08-13",
           "context": "daily"
         }
-      ]
+      ],
+      "sourcedAt": "2026-09-03"
     },
     {
       "id": "frq-0712",
@@ -133,7 +136,8 @@
       "sourceRefs": [
         "britannica-hail-mary-pass",
         "merriam-webster-hail-mary-pass"
-      ]
+      ],
+      "sourcedAt": "2026-09-29"
     },
     {
       "id": "frq-0713",
@@ -165,7 +169,8 @@
           "date": "2026-08-13",
           "context": "daily"
         }
-      ]
+      ],
+      "sourcedAt": "2026-09-03"
     },
     {
       "id": "frq-0714",
@@ -198,7 +203,8 @@
           "date": "2026-08-13",
           "context": "daily"
         }
-      ]
+      ],
+      "sourcedAt": "2026-09-03"
     },
     {
       "id": "frq-0715",
@@ -231,7 +237,8 @@
           "date": "2026-08-13",
           "context": "daily"
         }
-      ]
+      ],
+      "sourcedAt": "2026-09-03"
     },
     {
       "id": "frq-0716",
@@ -263,7 +270,8 @@
           "date": "2026-08-13",
           "context": "daily"
         }
-      ]
+      ],
+      "sourcedAt": "2026-09-03"
     },
     {
       "id": "frq-0717",
@@ -297,7 +305,8 @@
           "date": "2026-08-13",
           "context": "daily"
         }
-      ]
+      ],
+      "sourcedAt": "2026-09-03"
     },
     {
       "id": "frq-0718",
@@ -329,7 +338,8 @@
           "date": "2026-08-13",
           "context": "daily"
         }
-      ]
+      ],
+      "sourcedAt": "2026-09-03"
     },
     {
       "id": "frq-0719",
@@ -362,7 +372,8 @@
           "date": "2026-08-13",
           "context": "daily"
         }
-      ]
+      ],
+      "sourcedAt": "2026-09-03"
     },
     {
       "id": "frq-0720",
@@ -395,7 +406,8 @@
       "canonicalNote": "textbook cell biology, universally attested",
       "sourceRefs": [
         "pmc-apoptosis-review"
-      ]
+      ],
+      "sourcedAt": "2026-09-29"
     }
   ]
 }

@@ -24,7 +24,7 @@ cost this project once: review.html pointed at a dead directory, caught
 nothing, and reported a clean corpus of zero questions.
 """
 
-import json, glob, os, re, sys
+import datetime, json, glob, os, re, sys
 
 ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..')
 QDIR = os.path.join(ROOT, 'questions-src')
@@ -106,6 +106,10 @@ def apply(mappings, force=False, dry=False):
             print(f'  would set {qid} -> {", ".join(refs)}')
         else:
             q['sourceRefs'] = refs
+            # Stamped here and nowhere else. Without it there is no way to ask
+            # "what did we source this week", which is the question a reviewer
+            # actually wants to ask before trusting a batch.
+            q['sourcedAt'] = datetime.date.today().isoformat()
             touched.add(path)
         written += 1
 
