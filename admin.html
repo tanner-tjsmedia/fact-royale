@@ -620,25 +620,61 @@ function adminSignIn() {
 
 // ── Load all data ──────────────────────────────────────
 
-async function loadData() {
+// Each panel is rendered inside its own guard. A panel that throws marks
+// itself failed and the rest of the dashboard still draws.
+//
+// Previously all seven calls sat in one try block, so the first exception
+// silently cancelled every panel after it. A key mismatch in the category
+// chart left Top Streaks and Data Integrity spinning forever, which looks
+// like a slow network and is not one.
+function panel(name, fn) {
   try {
-    const [playsData, usersData] = await Promise.all([
+    fn();
+  } catch (err) {
+    console.error('Admin panel failed:', name, err);
+    failedPanels.push(name);
+  }
+}
+
+let failedPanels = [];
+
+async function loadData() {
+  failedPanels = [];
+  let playsData, usersData;
+
+  try {
+    [playsData, usersData] = await Promise.all([
       fetchPlays(),
       fetchUsers()
     ]);
-
-    renderToday(playsData);
-    renderPlaysChart(playsData);
-    renderUserStats(usersData);
-    renderConversionChart(playsData, usersData);
-    renderCategoryAccuracy(usersData);
-    renderTopStreaks(usersData);
-    renderDataIntegrity(usersData);
   } catch (err) {
-    console.error('Admin data error:', err);
+    console.error('Admin fetch error:', err);
     if (err.code === 'permission-denied') {
       alert('Firestore permission denied. Make sure the admin rules are updated (see setup notes).');
+    } else {
+      alert('Could not load admin data: ' + (err.message || err));
     }
+    return;
+  }
+
+  panel('today',      () => renderToday(playsData));
+  panel('playsChart', () => renderPlaysChart(playsData));
+  panel('userStats',  () => renderUserStats(usersData));
+  panel('conversion', () => renderConversionChart(playsData, usersData));
+  panel('categories', () => renderCategoryAccuracy(usersData));
+  panel('topStreaks', () => renderTopStreaks(usersData));
+  panel('integrity',  () => renderDataIntegrity(usersData));
+
+  // Never leave a spinner as the only signal. A panel that failed says so.
+  if (failedPanels.length) {
+    console.warn('Panels failed:', failedPanels.join(', '));
+    ['streak-tbody', 'di-tbody'].forEach(id => {
+      const el = document.getElementById(id);
+      if (el && /Loading/.test(el.textContent)) {
+        el.innerHTML = '<tr><td colspan="6" style="color:#c66">' +
+          'Failed to render. See browser console.</td></tr>';
+      }
+    });
   }
 }
 
@@ -903,33 +939,60 @@ function renderConversionChart({ byDay, days }, users) {
 
 // ── Category accuracy ──────────────────────────────────
 
+// One table. The category key, its accumulator and its DOM ids live in the
+// same record so they cannot drift apart.
+//
+// They had drifted: the accumulator was keyed 'Pop Culture' while the DOM
+// lookup table was keyed 'Music/Movies'. The third iteration read
+// catMap['Pop Culture'].bar, which is undefined.bar, and threw. That
+// exception escaped to loadData's catch, which only alerts on
+// permission-denied, so a TypeError died in the console and took
+// renderTopStreaks and renderDataIntegrity down with it. Two panels span
+// forever because a third one could not find a DOM id.
+//
+// aliases folds legacy category keys still present on older user documents
+// into the current key, so the bar reflects all the data rather than only
+// what was written after the rename.
+const CATEGORY_ROWS = [
+  { key: 'History',     bar: 'bar-history', pct: 'pct-history', aliases: [] },
+  { key: 'Sports',      bar: 'bar-sports',  pct: 'pct-sports',  aliases: [] },
+  { key: 'Pop Culture', bar: 'bar-movies',  pct: 'pct-movies',
+    aliases: ['Music/Movies', 'Music', 'Movies'] }
+];
+
 function renderCategoryAccuracy(users) {
-  const cats = {
-    'History':      { played: 0, correct: 0 },
-    'Sports':       { played: 0, correct: 0 },
-    'Pop Culture':  { played: 0, correct: 0 }
-  };
+  const totals = {};
+  CATEGORY_ROWS.forEach(row => { totals[row.key] = { played: 0, correct: 0 }; });
 
   users.forEach(u => {
     const cs = u.categoryStats || {};
-    Object.keys(cats).forEach(cat => {
-      if (cs[cat]) {
-        cats[cat].played  += cs[cat].played  || 0;
-        cats[cat].correct += cs[cat].correct || 0;
-      }
+    CATEGORY_ROWS.forEach(row => {
+      [row.key, ...row.aliases].forEach(k => {
+        if (cs[k]) {
+          totals[row.key].played  += cs[k].played  || 0;
+          totals[row.key].correct += cs[k].correct || 0;
+        }
+      });
     });
   });
 
-  const catMap = {
-    'History':      { bar: 'bar-history', pct: 'pct-history' },
-    'Sports':       { bar: 'bar-sports',  pct: 'pct-sports'  },
-    'Music/Movies': { bar: 'bar-movies',  pct: 'pct-movies'  }
-  };
-
-  Object.entries(cats).forEach(([cat, s]) => {
-    const pct = s.played > 0 ? Math.round((s.correct / s.played) * 100) : 0;
-    document.getElementById(catMap[cat].bar).style.width = `${pct}%`;
-    document.getElementById(catMap[cat].pct).textContent = `${pct}%`;
+  CATEGORY_ROWS.forEach(row => {
+    const s   = totals[row.key];
+    const bar = document.getElementById(row.bar);
+    const pctEl = document.getElementById(row.pct);
+    // A missing element is a template change, not a reason to abort the page.
+    if (!bar || !pctEl) {
+      console.warn('renderCategoryAccuracy: no DOM node for', row.key);
+      return;
+    }
+    if (s.played === 0) {
+      bar.style.width = '0%';
+      pctEl.textContent = '—';
+      return;
+    }
+    const pct = Math.round((s.correct / s.played) * 100);
+    bar.style.width = `${pct}%`;
+    pctEl.textContent = `${pct}%`;
   });
 }
 

@@ -31,6 +31,29 @@
     "selfReported: true."
   ],
   "sources": {
+    "britannica-princip": {
+      "tier": "reference",
+      "url": "https://www.britannica.com/biography/Gavrilo-Princip",
+      "publisher": "Encyclopaedia Britannica",
+      "establishes": [
+        "Gavrilo Princip shot Archduke Franz Ferdinand and his wife Sophie at Sarajevo on 28 June 1914",
+        "Austria-Hungary declared war on Serbia on 28 July 1914",
+        "Princip was sentenced on 28 October 1914 to 20 years' imprisonment and died 28 April 1918"
+      ],
+      "checked": "2026-09-17",
+      "archive": null
+    },
+    "britannica-franz-ferdinand": {
+      "tier": "reference",
+      "url": "https://www.britannica.com/biography/Franz-Ferdinand-Archduke-of-Austria-Este",
+      "publisher": "Encyclopaedia Britannica",
+      "establishes": [
+        "Franz Ferdinand was heir presumptive to the Austro-Hungarian throne at his death",
+        "His assassination gave Austria-Hungary the pretext it sought for war against Serbia"
+      ],
+      "checked": "2026-09-17",
+      "archive": null
+    },
     "madagascar-endemism": {
       "tier": "primary",
       "url": "https://www.science.org/doi/10.1126/science.abf0869",
@@ -1845,6 +1868,1257 @@
         "LAND removed in 1949 when the Chamber of Commerce took on its upkeep"
       ],
       "checked": "2026-08-31",
+      "archive": null
+    },
+    "whe-colosseum": {
+      "tier": "secondary",
+      "url": "https://www.worldhistory.org/Colosseum/",
+      "publisher": "World History Encyclopedia",
+      "establishes": [
+        "Dedicated in 80 CE by Titus with a hundred days of games",
+        "Built under the Flavian emperors Vespasian, Titus and Domitian",
+        "Fourth storey added by Domitian in 82 CE",
+        "Measures 189 by 156 metres and stands 45 metres high",
+        "Largest amphitheatre built in the Roman world"
+      ],
+      "checked": "2026-09-17",
+      "archive": null
+    },
+    "britannica-colosseum-built": {
+      "tier": "secondary",
+      "url": "https://www.britannica.com/technology/How-Was-the-Roman-Colosseum-Built",
+      "publisher": "Encyclopaedia Britannica",
+      "establishes": [
+        "Construction begun under Vespasian and dedicated by Titus in 80 CE",
+        "Domitian completed the uppermost storey",
+        "Largest amphitheatre of the Roman world"
+      ],
+      "checked": "2026-09-17",
+      "archive": null
+    },
+    "nasa-apollo-11": {
+      "tier": "primary",
+      "url": "https://www.nasa.gov/mission/apollo-11/",
+      "publisher": "NASA",
+      "establishes": [
+        "Launched 16 July 1969 with Armstrong, Aldrin and Collins",
+        "Armstrong and Aldrin landed the lunar module Eagle in the Sea of Tranquility",
+        "Collins remained in lunar orbit aboard the command module Columbia"
+      ],
+      "checked": "2026-09-17",
+      "archive": null
+    },
+    "nasa-alsj-apollo-11-overview": {
+      "tier": "primary",
+      "url": "https://history.nasa.gov/wp-content/uploads/static/history/alsj/a11/a11ov.html",
+      "publisher": "NASA Apollo Lunar Surface Journal",
+      "establishes": [
+        "The single Apollo 11 moonwalk lasted 2 hours 31 minutes",
+        "The crew collected 21.55 kilograms of lunar rock and soil",
+        "The astronauts traversed about 250 metres, ranging up to 100 metres from the lunar module"
+      ],
+      "checked": "2026-09-17",
+      "archive": null
+    },
+    "nationalarchives-magna-carta-1215": {
+      "tier": "primary",
+      "url": "https://www.nationalarchives.gov.uk/education/resources/magna-carta/british-library-magna-carta-1215-runnymede/",
+      "publisher": "The National Archives (UK)",
+      "establishes": [
+        "Magna Carta was agreed by King John at Runnymede on 15 June 1215",
+        "The barons rebelled against John's arbitrary rule and unjust penalties",
+        "It guaranteed the freedom of the church and lawful judgement by one's peers"
+      ],
+      "checked": "2026-09-17",
+      "archive": null
+    },
+    "britannica-magna-carta": {
+      "tier": "secondary",
+      "url": "https://www.britannica.com/topic/Magna-Carta",
+      "publisher": "Encyclopaedia Britannica",
+      "establishes": [
+        "Royal charter of rights agreed at Runnymede on 15 June 1215",
+        "The 1215 charter contained 63 clauses",
+        "Clauses 39 and 40 forbid the sale of justice and require due process"
+      ],
+      "checked": "2026-09-17",
+      "archive": null
+    },
+    "parliament-magna-carta-still-matter": {
+      "tier": "primary",
+      "url": "https://commonslibrary.parliament.uk/magna-carta-does-it-still-matter/",
+      "publisher": "UK Parliament, House of Commons Library",
+      "establishes": [
+        "Only three clauses of Magna Carta remain in force in English law",
+        "Those are the liberties of the City of London and the right to due legal process",
+        "The surviving text is the 1297 statute, not the 1215 charter"
+      ],
+      "checked": "2026-09-17",
+      "archive": null
+    },
+    "berlin-de-wall-construction": {
+      "tier": "primary",
+      "url": "https://www.berlin.de/mauer/en/history/construction-of-the-berlin-wall/",
+      "publisher": "Berlin.de, the official Berlin city portal",
+      "establishes": [
+        "Temporary barriers went up in the early hours of 13 August 1961",
+        "They sealed the border between the Soviet sector and West Berlin"
+      ],
+      "checked": "2026-09-17",
+      "archive": null
+    },
+    "berlin-de-wall-opening": {
+      "tier": "primary",
+      "url": "https://www.berlin.de/en/history/8482274-8619314-opening-and-fall-of-the-berlin-wall.en.html",
+      "publisher": "Berlin.de, the official Berlin city portal",
+      "establishes": [
+        "The Wall was opened on 9 November 1989",
+        "It had stood 28 years, 2 months and 28 days"
+      ],
+      "checked": "2026-09-17",
+      "archive": null
+    },
+    "bundesregierung-wall-fell": {
+      "tier": "primary",
+      "url": "https://www.bundesregierung.de/breg-en/service/the-day-the-berlin-wall-fell-in-november-1989-404490",
+      "publisher": "Press and Information Office of the German Federal Government",
+      "establishes": [
+        "Guenter Schabowski announced a liberalised travel regime on 9 November 1989",
+        "Asked when it took effect he said immediately, though it was meant for the next morning",
+        "ARD led its 8pm bulletin with the announcement and crowds gathered at the checkpoints"
+      ],
+      "checked": "2026-09-17",
+      "archive": null
+    },
+    "britannica-titanic": {
+      "tier": "secondary",
+      "url": "https://www.britannica.com/topic/Titanic",
+      "publisher": "Encyclopaedia Britannica",
+      "establishes": [
+        "British liner that sank on 14 to 15 April 1912 on its maiden voyage",
+        "Sailing from Southampton, England to New York City",
+        "Of some 2,200 people on board only about 705 survived",
+        "The 20 lifeboats had space for only 1,178 people"
+      ],
+      "checked": "2026-09-17",
+      "archive": null
+    },
+    "britannica-titanic-final-hours": {
+      "tier": "secondary",
+      "url": "https://www.britannica.com/story/timeline-of-the-titanics-final-hours",
+      "publisher": "Encyclopaedia Britannica",
+      "establishes": [
+        "Titanic sank at 2:20am on 15 April 1912",
+        "That was about 2 hours and 40 minutes after striking the iceberg",
+        "The impact breached at least five compartments"
+      ],
+      "checked": "2026-09-17",
+      "archive": null
+    },
+    "rmg-titanic-facts": {
+      "tier": "primary",
+      "url": "https://www.rmg.co.uk/stories/maritime-history/rms-titanic-facts",
+      "publisher": "Royal Museums Greenwich",
+      "establishes": [
+        "Maiden voyage from Southampton bound for New York",
+        "Struck an iceberg in the North Atlantic and sank in the early hours of 15 April 1912",
+        "Survivor and casualty totals differ between official inquiries"
+      ],
+      "checked": "2026-09-17",
+      "archive": null
+    },
+    "britannica-howard-carter": {
+      "tier": "secondary",
+      "url": "https://www.britannica.com/biography/Howard-Carter",
+      "publisher": "Encyclopaedia Britannica",
+      "establishes": [
+        "Howard Carter discovered Tutankhamun's tomb on 4 November 1922",
+        "The find came after a seven-year search in the Valley of the Kings",
+        "He opened the tomb on 24 November with his sponsor Lord Carnarvon present"
+      ],
+      "checked": "2026-09-17",
+      "archive": null
+    },
+    "griffith-carter": {
+      "tier": "primary",
+      "url": "https://tutankhamun.griffith.ox.ac.uk/people/howard-carter",
+      "publisher": "Griffith Institute, University of Oxford",
+      "establishes": [
+        "Carter's excavation journal dates the discovery of the tomb stairway to 4 November 1922",
+        "The tomb is designated KV62 in the Valley of the Kings",
+        "The tomb comprises four chambers"
+      ],
+      "checked": "2026-09-17",
+      "archive": null
+    },
+    "britannica-tutankhamun-death": {
+      "tier": "secondary",
+      "url": "https://www.britannica.com/question/How-did-Tutankhamun-die",
+      "publisher": "Encyclopaedia Britannica",
+      "establishes": [
+        "Tutankhamun died at about age 19",
+        "He came to the throne at about age 9 and reigned roughly nine years",
+        "The cause of death is not settled; disease and a broken bone are among the proposals"
+      ],
+      "checked": "2026-09-17",
+      "archive": null
+    },
+    "britannica-great-wall": {
+      "tier": "secondary",
+      "url": "https://www.britannica.com/topic/Great-Wall-of-China",
+      "publisher": "Encyclopaedia Britannica",
+      "establishes": [
+        "All sections ever built total about 21,196 kilometres, or 13,171 miles",
+        "The Ming dynasty wall is about 8,850 kilometres long and the best preserved",
+        "The larger Ming total was announced after a government survey in 2009"
+      ],
+      "checked": "2026-09-17",
+      "archive": null
+    },
+    "unesco-great-wall": {
+      "tier": "primary",
+      "url": "https://whc.unesco.org/en/list/438",
+      "publisher": "UNESCO World Heritage Centre",
+      "establishes": [
+        "The Great Wall is an inscribed World Heritage property",
+        "Construction spans from the third century BC to the Ming dynasty"
+      ],
+      "checked": "2026-09-17",
+      "archive": null
+    },
+    "nasa-great-wall-from-space": {
+      "tier": "primary",
+      "url": "https://www.nasa.gov/wp-content/uploads/static/history/PDFs/great_wall_less_great_from_space.pdf",
+      "publisher": "NASA History Office",
+      "establishes": [
+        "The Great Wall is not visible to the naked eye from the Moon",
+        "Astronauts have reported it is difficult or impossible to pick out even from low Earth orbit"
+      ],
+      "checked": "2026-09-17",
+      "archive": null
+    },
+    "britannica-storming-bastille": {
+      "tier": "secondary",
+      "url": "https://www.britannica.com/event/storming-of-the-Bastille",
+      "publisher": "Encyclopaedia Britannica",
+      "establishes": [
+        "A Paris crowd stormed the Bastille on 14 July 1789",
+        "About 900 Parisians gathered to seize gunpowder and cannon",
+        "Governor Bernard-Rene Jordan de Launay surrendered the fortress",
+        "The event is commemorated as Bastille Day"
+      ],
+      "checked": "2026-09-17",
+      "archive": null
+    },
+    "britannica-bastille": {
+      "tier": "secondary",
+      "url": "https://www.britannica.com/topic/Bastille",
+      "publisher": "Encyclopaedia Britannica",
+      "establishes": [
+        "The Bastille was a medieval fortress used as a state prison",
+        "It held only seven inmates on 14 July 1789",
+        "Those were four counterfeiters, two men held as insane, and one count imprisoned at his family's request"
+      ],
+      "checked": "2026-09-17",
+      "archive": null
+    },
+    "britannica-everest-height": {
+      "tier": "secondary",
+      "url": "https://www.britannica.com/place/Mount-Everest/The-height-of-Everest",
+      "publisher": "Encyclopaedia Britannica",
+      "establishes": [
+        "China and Nepal jointly declared Everest's height in December 2020",
+        "The agreed figure is 8,848.86 metres, or 29,031.69 feet",
+        "China had previously used a rock height of 8,844.43 metres and Nepal a snow height of 29,028 feet"
+      ],
+      "checked": "2026-09-17",
+      "archive": null
+    },
+    "natgeo-everest-new-height": {
+      "tier": "secondary",
+      "url": "https://www.nationalgeographic.com/science/article/new-height-of-mount-everest-announced-by-china-and-nepal",
+      "publisher": "National Geographic",
+      "establishes": [
+        "The December 2020 figure came from parallel surveys by both countries",
+        "The National Geographic Society adopted the new height",
+        "The revision settled a long-running disagreement over whether to include the snowcap"
+      ],
+      "checked": "2026-09-17",
+      "archive": null
+    },
+    "archives-declaration-history": {
+      "tier": "primary",
+      "url": "https://www.archives.gov/founding-docs/declaration-history",
+      "publisher": "U.S. National Archives and Records Administration",
+      "establishes": [
+        "The Continental Congress adopted the Declaration of Independence on 4 July 1776",
+        "The Committee of Five was Jefferson, Adams, Franklin, Livingston and Sherman, with Jefferson doing the writing",
+        "The engrossed parchment was signed beginning 2 August 1776",
+        "Fifty-six delegates eventually signed"
+      ],
+      "checked": "2026-09-17",
+      "archive": null
+    },
+    "archives-declaration-signed-aug-2": {
+      "tier": "primary",
+      "url": "https://prologue.blogs.archives.gov/2016/08/02/making-it-official-the-day-the-declaration-of-independence-was-signed/",
+      "publisher": "U.S. National Archives, Pieces of History",
+      "establishes": [
+        "Delegates began signing the engrossed Declaration on 2 August 1776, not 4 July",
+        "John Hancock, president of the Congress, signed first",
+        "John Dickinson and Robert R. Livingston never signed"
+      ],
+      "checked": "2026-09-17",
+      "archive": null
+    },
+    "britannica-declaration-of-independence": {
+      "tier": "secondary",
+      "url": "https://www.britannica.com/topic/Declaration-of-Independence",
+      "publisher": "Encyclopaedia Britannica",
+      "establishes": [
+        "Jefferson drafted the text between 11 and 28 June 1776",
+        "Congress voted for independence on 2 July under the Lee Resolution",
+        "The text was then debated and adopted on 4 July"
+      ],
+      "checked": "2026-09-17",
+      "archive": null
+    },
+    "fifa-most-world-cup-titles": {
+      "tier": "primary",
+      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/articles/teams-most-wins-titles-trophies",
+      "publisher": "FIFA",
+      "establishes": [
+        "Brazil has won five World Cups, more than any other nation",
+        "Germany and Italy have four each",
+        "Uruguay, France, Argentina and Spain follow"
+      ],
+      "checked": "2026-09-17",
+      "archive": null
+    },
+    "britannica-most-world-cup-titles": {
+      "tier": "secondary",
+      "url": "https://www.britannica.com/sports/Which-team-has-won-the-most-World-Cup-titles",
+      "publisher": "Encyclopaedia Britannica",
+      "establishes": [
+        "Brazil leads with five titles: 1958, 1962, 1970, 1994 and 2002"
+      ],
+      "checked": "2026-09-17",
+      "archive": null
+    },
+    "olympics-most-world-cup-wins": {
+      "tier": "secondary",
+      "url": "https://www.olympics.com/en/news/most-fifa-world-cup-football-wins",
+      "publisher": "International Olympic Committee",
+      "establishes": [
+        "Brazil is the most successful nation at the World Cup with five titles"
+      ],
+      "checked": "2026-09-17",
+      "archive": null
+    },
+    "fifa-2026-final": {
+      "tier": "primary",
+      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/final",
+      "publisher": "FIFA",
+      "establishes": [
+        "Spain beat Argentina 1-0 after extra time in the 2026 World Cup final",
+        "The final was played on Sunday 19 July 2026 at New York New Jersey Stadium",
+        "It was Spain's second World Cup title"
+      ],
+      "checked": "2026-09-17",
+      "archive": null
+    },
+    "npr-2026-world-cup-final": {
+      "tier": "secondary",
+      "url": "https://www.npr.org/2026/07/19/nx-s1-5899071/2026-world-cup-fifa-argentina-spain-final-championship",
+      "publisher": "NPR",
+      "establishes": [
+        "Spain defeated Argentina to win the 2026 World Cup, its second title"
+      ],
+      "checked": "2026-09-17",
+      "archive": null
+    },
+    "worldathletics-bolt-berlin": {
+      "tier": "primary",
+      "url": "https://worldathletics.org/news/news/bolt-again-958-world-record-in-berlin-updat",
+      "publisher": "World Athletics",
+      "establishes": [
+        "Usain Bolt ran 9.58 for 100m at the 2009 World Championships in Berlin",
+        "That took 0.11 seconds off his own 9.69 set at the 2008 Beijing Olympics"
+      ],
+      "checked": "2026-09-17",
+      "archive": null
+    },
+    "worldathletics-bolt-profile": {
+      "tier": "primary",
+      "url": "https://worldathletics.org/athletes/jamaica/usain-bolt-14201847",
+      "publisher": "World Athletics",
+      "establishes": [
+        "Bolt holds the world record in both the 100m and the 200m"
+      ],
+      "checked": "2026-09-17",
+      "archive": null
+    },
+    "britannica-usain-bolt": {
+      "tier": "secondary",
+      "url": "https://www.britannica.com/biography/Usain-Bolt",
+      "publisher": "Encyclopaedia Britannica",
+      "establishes": [
+        "Bolt's 9.58 from Berlin in 2009 is the men's 100m world record"
+      ],
+      "checked": "2026-09-17",
+      "archive": null
+    },
+    "guinness-best-selling-album": {
+      "tier": "primary",
+      "url": "https://www.guinnessworldrecords.com/world-records/70133-best-selling-album",
+      "publisher": "Guinness World Records",
+      "establishes": [
+        "Thriller is the world's best-selling album by global sales",
+        "It was released on 30 November 1982"
+      ],
+      "checked": "2026-09-17",
+      "archive": null
+    },
+    "britannica-thriller-best-selling": {
+      "tier": "secondary",
+      "url": "https://www.britannica.com/question/Is-Thriller-the-best-selling-album-in-history",
+      "publisher": "Encyclopaedia Britannica",
+      "establishes": [
+        "Thriller leads worldwide with an estimated 67 million copies sold",
+        "In the United States it was overtaken in 2018 by the Eagles' Their Greatest Hits 1971-1975"
+      ],
+      "checked": "2026-09-17",
+      "archive": null
+    },
+    "grammy-riaa-eagles-outsold-thriller": {
+      "tier": "secondary",
+      "url": "https://www.grammy.com/news/riaa-eagles-greatest-hits-has-outsold-michael-jacksons-thriller-best-selling-albums-all-time/",
+      "publisher": "The Recording Academy",
+      "establishes": [
+        "RIAA certified the Eagles' Their Greatest Hits 1971-1975 at 38x platinum",
+        "Thriller sits second on the RIAA list at 33x platinum"
+      ],
+      "checked": "2026-09-17",
+      "archive": null
+    },
+    "britannica-thriller-album": {
+      "tier": "secondary",
+      "url": "https://www.britannica.com/topic/Thriller-recording-by-Jackson",
+      "publisher": "Encyclopaedia Britannica",
+      "establishes": [
+        "Thriller was released on 30 November 1982",
+        "It was produced by Quincy Jones"
+      ],
+      "checked": "2026-09-17",
+      "archive": null
+    },
+    "boxofficemojo-top-lifetime-ww": {
+      "tier": "primary",
+      "url": "https://www.boxofficemojo.com/chart/ww_top_lifetime_gross/",
+      "publisher": "Box Office Mojo",
+      "establishes": [
+        "Avatar leads the all-time worldwide chart at about 2.92 billion dollars",
+        "Avengers: Endgame is second at about 2.72 billion dollars"
+      ],
+      "checked": "2026-09-17",
+      "archive": null
+    },
+    "the-numbers-top-grossing-worldwide": {
+      "tier": "primary",
+      "url": "https://www.the-numbers.com/box-office-records/worldwide/all-movies/cumulative/all-time",
+      "publisher": "The Numbers",
+      "establishes": [
+        "Avatar holds the all-time worldwide record at 2,923,706,026 dollars",
+        "Avengers: Endgame follows at 2,717,503,922 dollars"
+      ],
+      "checked": "2026-09-17",
+      "archive": null
+    },
+    "statista-highest-grossing-films": {
+      "tier": "secondary",
+      "url": "https://www.statista.com/statistics/262926/box-office-revenue-of-the-most-successful-movies-of-all-time/",
+      "publisher": "Statista",
+      "establishes": [
+        "As of May 2026 Avatar remained the highest-grossing film worldwide at about 2.92 billion dollars",
+        "Avengers: Endgame and Avatar: The Way of Water rank second and third",
+        "Avatar's lead depends in part on its 2021 and 2022 re-releases"
+      ],
+      "checked": "2026-09-17",
+      "archive": null
+    },
+    "nasa-saturn-moons": {
+      "tier": "primary",
+      "url": "https://science.nasa.gov/saturn/moons/",
+      "publisher": "NASA Science",
+      "establishes": [
+        "Saturn has 293 confirmed moons as of August 2026",
+        "That is more than any other planet in the solar system"
+      ],
+      "checked": "2026-09-17",
+      "archive": null
+    },
+    "nasa-jupiter-moons": {
+      "tier": "primary",
+      "url": "https://science.nasa.gov/jupiter/jupiter-moons/",
+      "publisher": "NASA Science",
+      "establishes": [
+        "Jupiter has 115 moons officially recognised by the International Astronomical Union as of August 2026"
+      ],
+      "checked": "2026-09-17",
+      "archive": null
+    },
+    "britannica-moons-of-saturn": {
+      "tier": "secondary",
+      "url": "https://www.britannica.com/place/moons-of-Saturn-2237282",
+      "publisher": "Encyclopaedia Britannica",
+      "establishes": [
+        "Saturn leads the solar system in confirmed moons",
+        "Most of the recent additions are small irregular outer satellites"
+      ],
+      "checked": "2026-09-17",
+      "archive": null
+    },
+    "nasa-voyager-1": {
+      "tier": "primary",
+      "url": "https://science.nasa.gov/mission/voyager/voyager-1/",
+      "publisher": "NASA Science",
+      "establishes": [
+        "Voyager 1 launched in 1977",
+        "It entered interstellar space on 25 August 2012, the first human-made object to do so"
+      ],
+      "checked": "2026-09-17",
+      "archive": null
+    },
+    "nasa-voyager-interstellar-mission": {
+      "tier": "primary",
+      "url": "https://science.nasa.gov/mission/voyager/interstellar-mission/",
+      "publisher": "NASA Science",
+      "establishes": [
+        "Voyager 1 crossed the heliopause at about 122 astronomical units from the Sun",
+        "The heliopause is the boundary of the bubble of particles and magnetic field from the Sun"
+      ],
+      "checked": "2026-09-17",
+      "archive": null
+    },
+    "jpl-voyager-how-we-know": {
+      "tier": "primary",
+      "url": "https://www.jpl.nasa.gov/news/how-do-we-know-when-voyager-reaches-interstellar-space/",
+      "publisher": "NASA Jet Propulsion Laboratory",
+      "establishes": [
+        "The crossing was confirmed by plasma density measurements, not by a visible boundary",
+        "Solar particles dropped away and outside particles rose sharply on 25 August 2012"
+      ],
+      "checked": "2026-09-17",
+      "archive": null
+    },
+    "nobel-physics-2011-press": {
+      "tier": "primary",
+      "url": "https://www.nobelprize.org/prizes/physics/2011/press-release/",
+      "publisher": "The Nobel Foundation",
+      "establishes": [
+        "The 2011 Nobel Prize in Physics went to Saul Perlmutter, Brian Schmidt and Adam Riess",
+        "It was awarded for the discovery of the accelerating expansion of the universe",
+        "The finding came from observations of distant Type Ia supernovae"
+      ],
+      "checked": "2026-09-17",
+      "archive": null
+    },
+    "nobel-physics-2011-popular": {
+      "tier": "primary",
+      "url": "https://www.nobelprize.org/prizes/physics/2011/popular-information/",
+      "publisher": "The Nobel Foundation",
+      "establishes": [
+        "Two teams reported the result in 1998: the Supernova Cosmology Project and the High-z Supernova Search Team",
+        "Distant supernovae appeared fainter, and so further away, than an decelerating universe predicted",
+        "Astronomers had expected expansion to be slowing under gravity"
+      ],
+      "checked": "2026-09-17",
+      "archive": null
+    },
+    "nasa-dark-energy": {
+      "tier": "primary",
+      "url": "https://science.nasa.gov/dark-energy/",
+      "publisher": "NASA Science",
+      "establishes": [
+        "Dark energy is the name for whatever is driving the accelerating expansion",
+        "The acceleration was established from Type Ia supernova observations"
+      ],
+      "checked": "2026-09-17",
+      "archive": null
+    },
+    "esa-webb-factsheet": {
+      "tier": "primary",
+      "url": "https://www.esa.int/Science_Exploration/Space_Science/Webb/Webb_factsheet",
+      "publisher": "European Space Agency",
+      "establishes": [
+        "Webb's instruments cover about 0.6 to 28 microns, visible to mid-infrared",
+        "Hubble observes 0.1 to 2.5 microns, ultraviolet to near-infrared",
+        "Webb orbits the Sun at Lagrange point 2, about 1.5 million kilometres from Earth"
+      ],
+      "checked": "2026-09-17",
+      "archive": null
+    },
+    "nasa-webb-mirrors": {
+      "tier": "primary",
+      "url": "https://webb.nasa.gov/content/observatory/ote/mirrors/index.html",
+      "publisher": "NASA",
+      "establishes": [
+        "Webb's segmented primary mirror is 6.5 metres across",
+        "It collects almost six times more light than Hubble's 2.4 metre mirror"
+      ],
+      "checked": "2026-09-17",
+      "archive": null
+    },
+    "britannica-dead-sea": {
+      "tier": "secondary",
+      "url": "https://www.britannica.com/place/Dead-Sea",
+      "publisher": "Encyclopaedia Britannica",
+      "establishes": [
+        "The Dead Sea shore is the lowest point on Earth's land surface",
+        "The eastern shore is Jordan; the southern half of the western shore is Israel",
+        "The level was about 400 metres below sea level in the mid-twentieth century and about 430 metres by the mid-2010s",
+        "The level keeps falling as tributaries are diverted for irrigation and evaporation works"
+      ],
+      "checked": "2026-09-17",
+      "archive": null
+    },
+    "usgs-dead-sea-earthshots": {
+      "tier": "primary",
+      "url": "https://eros.usgs.gov/earthshots/dead-sea-israel-jordan-west-bank",
+      "publisher": "U.S. Geological Survey, EROS",
+      "establishes": [
+        "The Dead Sea is bordered by Israel, Jordan and the West Bank",
+        "Satellite imagery documents the shrinking of the lake over decades"
+      ],
+      "checked": "2026-09-17",
+      "archive": null
+    },
+    "britannica-gettysburg-address": {
+      "tier": "secondary",
+      "url": "https://www.britannica.com/event/Gettysburg-Address",
+      "publisher": "Encyclopaedia Britannica",
+      "establishes": [
+        "Abraham Lincoln delivered the Gettysburg Address on 19 November 1863",
+        "The occasion was the dedication of the national cemetery at Gettysburg, Pennsylvania",
+        "Lincoln spoke for about two minutes",
+        "Edward Everett spoke for two hours before him"
+      ],
+      "checked": "2026-09-17",
+      "archive": null
+    },
+    "loc-gettysburg-address": {
+      "tier": "primary",
+      "url": "https://guides.loc.gov/gettysburg-address",
+      "publisher": "Library of Congress",
+      "establishes": [
+        "Lincoln delivered the address at Gettysburg on 19 November 1863",
+        "Several manuscript copies in Lincoln's hand survive and differ slightly"
+      ],
+      "checked": "2026-09-17",
+      "archive": null
+    },
+    "nps-gettysburg-cemetery": {
+      "tier": "primary",
+      "url": "https://www.nps.gov/gett/learn/historyculture/cemetery.htm",
+      "publisher": "U.S. National Park Service",
+      "establishes": [
+        "The Soldiers' National Cemetery at Gettysburg was dedicated on 19 November 1863",
+        "The battle had been fought there the previous July"
+      ],
+      "checked": "2026-09-17",
+      "archive": null
+    },
+    "usgs-dead-sea-rates-of-decline": {
+      "tier": "primary",
+      "url": "https://eros.usgs.gov/earthshots/rates-of-decline",
+      "publisher": "U.S. Geological Survey, EROS",
+      "establishes": [
+        "The Dead Sea surface is the lowest natural land or water surface on Earth, more than 400 metres below sea level",
+        "The level has dropped about 45 metres over the past fifty years",
+        "The rate of decline rose from 17 centimetres a year in 1930 to 1973 to about 1 metre a year by 1994 to 2001",
+        "Upstream irrigation has cut the inflow from the Jordan river"
+      ],
+      "checked": "2026-09-17",
+      "archive": null
+    },
+    "nba-all-time-leaders": {
+      "tier": "primary",
+      "url": "https://www.nba.com/stats/alltime-leaders",
+      "publisher": "National Basketball Association",
+      "establishes": [
+        "LeBron James leads all players in career regular-season points",
+        "The list is maintained live and changes while he is active"
+      ],
+      "checked": "2026-09-17",
+      "archive": null
+    },
+    "nba-lebron-scoring-record": {
+      "tier": "primary",
+      "url": "https://www.nba.com/news/lebron-james-sets-all-time-scoring-record-nba",
+      "publisher": "National Basketball Association",
+      "establishes": [
+        "LeBron James broke Kareem Abdul-Jabbar's career regular-season scoring record"
+      ],
+      "checked": "2026-09-17",
+      "archive": null
+    },
+    "olympics-lebron-points-tracker": {
+      "tier": "secondary",
+      "url": "https://www.olympics.com/en/news/lebron-james-points-tracker-nba-all-time-top-scorer",
+      "publisher": "International Olympic Committee",
+      "establishes": [
+        "James closed the 2025-26 regular season with 43,440 career regular-season points",
+        "He leads the playoffs scoring list as well, at 8,289 points",
+        "He is the only player past 50,000 combined regular-season and playoff points"
+      ],
+      "checked": "2026-09-17",
+      "archive": null
+    },
+    "mlb-bonds-top-moments": {
+      "tier": "primary",
+      "url": "https://www.mlb.com/news/barry-bonds-top-moments",
+      "publisher": "Major League Baseball",
+      "establishes": [
+        "Barry Bonds finished with 762 career home runs, the major league record",
+        "He also holds the single-season record with 73 in 2001"
+      ],
+      "checked": "2026-09-17",
+      "archive": null
+    },
+    "mlb-bonds-breaks-aaron": {
+      "tier": "primary",
+      "url": "https://www.mlb.com/cut4/bonds-breaks-aaron-s-record-on-august-7-c289134264",
+      "publisher": "Major League Baseball",
+      "establishes": [
+        "Bonds hit his 756th home run on 7 August 2007, passing Hank Aaron",
+        "Aaron's record of 755 had stood for 33 years"
+      ],
+      "checked": "2026-09-17",
+      "archive": null
+    },
+    "britannica-barry-bonds": {
+      "tier": "secondary",
+      "url": "https://www.britannica.com/biography/Barry-Bonds",
+      "publisher": "Encyclopaedia Britannica",
+      "establishes": [
+        "Bonds holds the career home run record at 762 and the single-season record at 73",
+        "He played 22 seasons for the Pittsburgh Pirates and San Francisco Giants"
+      ],
+      "checked": "2026-09-17",
+      "archive": null
+    },
+    "nfl-emmitt-smith-rushing-record": {
+      "tier": "primary",
+      "url": "https://www.nfl.com/videos/this-day-in-history-dallas-cowboy-running-back-emmitt-smith-breaks-all-ti-274144",
+      "publisher": "National Football League",
+      "establishes": [
+        "Emmitt Smith passed Walter Payton as the NFL career rushing leader on 27 October 2002",
+        "He did it with an 11-yard run in the fourth quarter against Seattle"
+      ],
+      "checked": "2026-09-17",
+      "archive": null
+    },
+    "profootballhof-emmitt-smith": {
+      "tier": "primary",
+      "url": "https://www.profootballhof.com/players/emmitt-smith",
+      "publisher": "Pro Football Hall of Fame",
+      "establishes": [
+        "Smith's run took him to 16,728 career yards, passing Payton's 16,726"
+      ],
+      "checked": "2026-09-17",
+      "archive": null
+    },
+    "britannica-emmitt-smith": {
+      "tier": "secondary",
+      "url": "https://www.britannica.com/biography/Emmitt-Smith",
+      "publisher": "Encyclopaedia Britannica",
+      "establishes": [
+        "Smith became the NFL's all-time leading rusher in 2002"
+      ],
+      "checked": "2026-09-17",
+      "archive": null
+    },
+    "wst-147s": {
+      "tier": "primary",
+      "url": "https://www.wst.tv/147s/",
+      "publisher": "World Snooker Tour",
+      "establishes": [
+        "147 is snooker's maximum break",
+        "It requires potting all 15 reds each followed by a black, then clearing the colours"
+      ],
+      "checked": "2026-09-17",
+      "archive": null
+    },
+    "wst-147-facts": {
+      "tier": "primary",
+      "url": "https://www.wst.tv/147s/fascinatingfactsabout147s/",
+      "publisher": "World Snooker Tour",
+      "establishes": [
+        "The first official maximum break was made by Steve Davis in 1982 at the Lada Classic"
+      ],
+      "checked": "2026-09-17",
+      "archive": null
+    },
+    "britannica-worlds-longest-rivers": {
+      "tier": "secondary",
+      "url": "https://www.britannica.com/science/worlds-longest-rivers-2225894",
+      "publisher": "Encyclopaedia Britannica",
+      "establishes": [
+        "The Nile is widely held to be the world's longest river at about 6,650 kilometres",
+        "The USGS puts the Nile about 100 miles longer than the Amazon",
+        "River length comparisons are hard because stream definitions and standards differ by country"
+      ],
+      "checked": "2026-09-17",
+      "archive": null
+    },
+    "britannica-how-long-amazon": {
+      "tier": "secondary",
+      "url": "https://www.britannica.com/story/how-long-is-the-amazon-river",
+      "publisher": "Encyclopaedia Britannica",
+      "establishes": [
+        "A 2007 Brazilian study put the Amazon at 6,992 kilometres and the Nile at 6,853 kilometres",
+        "It took Apacheta Creek as the Amazon's source and the south side of Marajo Island as its mouth",
+        "That choice of mouth added 353 kilometres and is contested",
+        "Both the Amazon's length and its ultimate source have been debated since the mid-twentieth century"
+      ],
+      "checked": "2026-09-17",
+      "archive": null
+    },
+    "britannica-nile-river": {
+      "tier": "secondary",
+      "url": "https://www.britannica.com/place/Nile-River",
+      "publisher": "Encyclopaedia Britannica",
+      "establishes": [
+        "The Nile runs about 6,650 kilometres, or 4,132 miles"
+      ],
+      "checked": "2026-09-17",
+      "archive": null
+    },
+    "britannica-worlds-largest-deserts": {
+      "tier": "secondary",
+      "url": "https://www.britannica.com/topic/worlds-largest-deserts-2225895",
+      "publisher": "Encyclopaedia Britannica",
+      "establishes": [
+        "By the precipitation definition the largest desert is the Antarctic Ice Sheet",
+        "Its area is about 13,960,000 square kilometres",
+        "Its interior receives fewer than 5 centimetres of precipitation a year"
+      ],
+      "checked": "2026-09-17",
+      "archive": null
+    },
+    "britannica-why-antarctica-desert": {
+      "tier": "secondary",
+      "url": "https://www.britannica.com/topic/Why-Is-Antarctica-a-Desert",
+      "publisher": "Encyclopaedia Britannica",
+      "establishes": [
+        "Antarctica's inland polar plateau receives about 50 millimetres of precipitation a year",
+        "Almost all of it falls as snow",
+        "The coastal belt receives considerably more, perhaps 500 millimetres a year"
+      ],
+      "checked": "2026-09-17",
+      "archive": null
+    },
+    "britannica-desert": {
+      "tier": "secondary",
+      "url": "https://www.britannica.com/science/desert",
+      "publisher": "Encyclopaedia Britannica",
+      "establishes": [
+        "A desert is commonly defined as an area receiving less than 250 millimetres of precipitation a year",
+        "Some authorities set the upper limit at 25 centimetres, with up to 40 centimetres counted as semidesert"
+      ],
+      "checked": "2026-09-17",
+      "archive": null
+    },
+    "usgs-types-of-deserts": {
+      "tier": "primary",
+      "url": "https://pubs.usgs.gov/gip/deserts/types/",
+      "publisher": "U.S. Geological Survey",
+      "establishes": [
+        "Polar deserts are a recognised desert type, occurring in ice-covered areas near both poles"
+      ],
+      "checked": "2026-09-17",
+      "archive": null
+    },
+    "britannica-hydrogen": {
+      "tier": "secondary",
+      "url": "https://www.britannica.com/science/hydrogen",
+      "publisher": "Encyclopaedia Britannica",
+      "establishes": [
+        "Hydrogen is the most abundant element in the universe, about 74 percent of all matter",
+        "Helium is next at about 24 percent",
+        "Hydrogen is about three times as abundant as helium",
+        "Hydrogen is only about 0.14 percent of Earth's crust by weight"
+      ],
+      "checked": "2026-09-17",
+      "archive": null
+    },
+    "britannica-abundance-of-the-elements": {
+      "tier": "secondary",
+      "url": "https://www.britannica.com/science/abundance-of-the-elements",
+      "publisher": "Encyclopaedia Britannica",
+      "establishes": [
+        "Cosmic abundances are dominated by hydrogen and helium",
+        "Crustal abundances differ sharply from cosmic ones"
+      ],
+      "checked": "2026-09-17",
+      "archive": null
+    },
+    "britannica-oxygen": {
+      "tier": "secondary",
+      "url": "https://www.britannica.com/science/oxygen",
+      "publisher": "Encyclopaedia Britannica",
+      "establishes": [
+        "Oxygen is the most plentiful element in Earth's crust, about 46 percent by mass"
+      ],
+      "checked": "2026-09-17",
+      "archive": null
+    },
+    "usgs-abundance-elements-crust": {
+      "tier": "primary",
+      "url": "https://www.usgs.gov/publications/abundance-and-distribution-chemical-elements-earths-crust",
+      "publisher": "U.S. Geological Survey",
+      "establishes": [
+        "Published estimates of the abundance and distribution of the chemical elements in Earth's crust"
+      ],
+      "checked": "2026-09-17",
+      "archive": null
+    },
+    "un-india-overtakes-china": {
+      "tier": "primary",
+      "url": "https://www.un.org/development/desa/pd/content/india-overtakes-china-world%E2%80%99s-most-populous-country",
+      "publisher": "United Nations, Population Division",
+      "establishes": [
+        "India overtook China as the world's most populous country in April 2023",
+        "India's population was estimated at 1,425,775,850 at the crossover",
+        "India's population is projected to keep growing for several decades",
+        "China's population peaked and declined during 2022"
+      ],
+      "checked": "2026-09-17",
+      "archive": null
+    },
+    "un-desa-policy-brief-153": {
+      "tier": "primary",
+      "url": "https://desapublications.un.org/policy-briefs/un-desa-policy-brief-no-153-india-overtakes-china-worlds-most-populous-country",
+      "publisher": "UN Department of Economic and Social Affairs",
+      "establishes": [
+        "Policy brief documenting the India and China population crossover in 2023"
+      ],
+      "checked": "2026-09-17",
+      "archive": null
+    },
+    "census-world-population-day-2026": {
+      "tier": "primary",
+      "url": "https://www.census.gov/newsroom/stories/world-population-day.html",
+      "publisher": "U.S. Census Bureau",
+      "establishes": [
+        "As of 1 July 2026 India and China remain the two most populous countries",
+        "Indonesia and Pakistan are also among the five most populous"
+      ],
+      "checked": "2026-09-17",
+      "archive": null
+    },
+    "britannica-world-war-ii": {
+      "tier": "secondary",
+      "url": "https://www.britannica.com/event/World-War-II",
+      "publisher": "Encyclopaedia Britannica",
+      "establishes": [
+        "The war began in Europe on 1 September 1939 with Germany's invasion of Poland",
+        "Japan's formal surrender on 2 September 1945 ended the war"
+      ],
+      "checked": "2026-09-17",
+      "archive": null
+    },
+    "britannica-invasion-of-poland": {
+      "tier": "secondary",
+      "url": "https://www.britannica.com/event/Invasion-of-Poland",
+      "publisher": "Encyclopaedia Britannica",
+      "establishes": [
+        "Germany invaded Poland on 1 September 1939",
+        "Britain and France declared war on Germany two days later"
+      ],
+      "checked": "2026-09-17",
+      "archive": null
+    },
+    "iwm-second-world-war": {
+      "tier": "primary",
+      "url": "https://www.iwm.org.uk/history/second-world-war",
+      "publisher": "Imperial War Museums",
+      "establishes": [
+        "The Second World War ran from 1939 to 1945",
+        "It ended with the surrender of Japan in September 1945"
+      ],
+      "checked": "2026-09-17",
+      "archive": null
+    },
+    "statcan-geography-international": {
+      "tier": "primary",
+      "url": "https://www150.statcan.gc.ca/n1/pub/11-402-x/2012000/chap/geo/geo01-eng.htm",
+      "publisher": "Statistics Canada",
+      "establishes": [
+        "Canada's coastline is the world's longest at 243,042 kilometres",
+        "That figure includes the mainland coast and the coasts of offshore islands",
+        "Freshwater covers 891,163 square kilometres of Canada",
+        "That compares with 664,709 for the United States and 58,920 for Australia"
+      ],
+      "checked": "2026-09-17",
+      "archive": null
+    },
+    "canada-water-sources-lakes": {
+      "tier": "primary",
+      "url": "https://www.canada.ca/en/environment-climate-change/services/water-overview/sources/lakes.html",
+      "publisher": "Environment and Climate Change Canada",
+      "establishes": [
+        "Canada has more lake area than any other country",
+        "It has 563 lakes larger than 100 square kilometres",
+        "The Great Lakes hold 18 percent of the world's fresh lake water"
+      ],
+      "checked": "2026-09-17",
+      "archive": null
+    },
+    "britannica-amazon-rainforest": {
+      "tier": "secondary",
+      "url": "https://www.britannica.com/place/Amazon-Rainforest",
+      "publisher": "Encyclopaedia Britannica",
+      "establishes": [
+        "The Amazon Rainforest covers about 6,000,000 square kilometres",
+        "It is the world's largest tropical rainforest",
+        "Brazil holds about 60 percent of it",
+        "It makes up about 40 percent of Brazil's total area"
+      ],
+      "checked": "2026-09-17",
+      "archive": null
+    },
+    "wwf-pantanal": {
+      "tier": "secondary",
+      "url": "https://www.worldwildlife.org/places/pantanal/",
+      "publisher": "World Wildlife Fund",
+      "establishes": [
+        "The Pantanal is the world's largest tropical wetland",
+        "It covers about 42 million acres across Bolivia, Brazil and Paraguay",
+        "It holds more than 4,700 plant and animal species",
+        "Floodwaters fill it from October to March and drain from April to September"
+      ],
+      "checked": "2026-09-17",
+      "archive": null
+    },
+    "unesco-pantanal-conservation-area": {
+      "tier": "primary",
+      "url": "https://whc.unesco.org/en/list/999/",
+      "publisher": "UNESCO World Heritage Centre",
+      "establishes": [
+        "The Pantanal Conservation Area is an inscribed World Heritage property in Brazil",
+        "It covers part of the wider Pantanal wetland, not the whole of it"
+      ],
+      "checked": "2026-09-17",
+      "archive": null
+    },
+    "fifa-uruguay-1930-review": {
+      "tier": "primary",
+      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/uruguay-1930-tournament-review",
+      "publisher": "FIFA",
+      "establishes": [
+        "Uruguay hosted and won the first World Cup in 1930",
+        "Uruguay beat Argentina 4-2 in the final"
+      ],
+      "checked": "2026-09-17",
+      "archive": null
+    },
+    "olympics-first-world-cup-1930": {
+      "tier": "secondary",
+      "url": "https://www.olympics.com/en/news/first-fifa-world-cup-football-1930-uruguay-champion-records",
+      "publisher": "International Olympic Committee",
+      "establishes": [
+        "The first World Cup ran from 13 to 30 July 1930 in Uruguay",
+        "Hosts Uruguay became the first champions"
+      ],
+      "checked": "2026-09-17",
+      "archive": null
+    },
+    "britannica-world-cup-football": {
+      "tier": "secondary",
+      "url": "https://www.britannica.com/sports/World-Cup-football",
+      "publisher": "Encyclopaedia Britannica",
+      "establishes": [
+        "The Jules Rimet Trophy was awarded from 1930 to 1970",
+        "It was named for the FIFA president who proposed the tournament",
+        "It was given permanently to Brazil in 1970 after a third win, in 1958, 1962 and 1970"
+      ],
+      "checked": "2026-09-17",
+      "archive": null
+    },
+    "britannica-easter-island": {
+      "tier": "secondary",
+      "url": "https://www.britannica.com/place/Easter-Island",
+      "publisher": "Encyclopaedia Britannica",
+      "establishes": [
+        "Easter Island is a Chilean dependency in the eastern Pacific",
+        "It lies about 3,500 kilometres west of Chile",
+        "There are over 600 moai, thought to represent ancestors",
+        "Most are 10 to 20 feet tall; the largest raised on a platform was about 32 feet",
+        "They were carved from tuff in the crater walls of the volcano Rano Raraku"
+      ],
+      "checked": "2026-09-17",
+      "archive": null
+    },
+    "unesco-rapa-nui": {
+      "tier": "primary",
+      "url": "https://whc.unesco.org/en/list/715/",
+      "publisher": "UNESCO World Heritage Centre",
+      "establishes": [
+        "Rapa Nui National Park on Easter Island is an inscribed World Heritage property",
+        "The island is Chilean territory"
+      ],
+      "checked": "2026-09-17",
+      "archive": null
+    },
+    "britannica-cape-horn": {
+      "tier": "secondary",
+      "url": "https://www.britannica.com/place/Cape-Horn",
+      "publisher": "Encyclopaedia Britannica",
+      "establishes": [
+        "Cape Horn is a steep rocky headland on Hornos Island in the Tierra del Fuego archipelago, southern Chile",
+        "It is not technically the southernmost point of Chile or of South America"
+      ],
+      "checked": "2026-09-17",
+      "archive": null
+    },
+    "britannica-ides-of-march": {
+      "tier": "secondary",
+      "url": "https://www.britannica.com/topic/Ides-of-March",
+      "publisher": "Encyclopaedia Britannica",
+      "establishes": [
+        "The Ides of March falls on 15 March in the ancient Roman calendar",
+        "Julius Caesar was murdered on that date in 44 BCE"
+      ],
+      "checked": "2026-09-17",
+      "archive": null
+    },
+    "britannica-julius-caesar": {
+      "tier": "secondary",
+      "url": "https://www.britannica.com/biography/Julius-Caesar-Roman-ruler",
+      "publisher": "Encyclopaedia Britannica",
+      "establishes": [
+        "Caesar was murdered in the Roman Senate House by a group of nobles on 15 March 44 BCE",
+        "The plot was led by Gaius Cassius Longinus and Marcus Junius Brutus",
+        "Some 60 men were reportedly involved"
+      ],
+      "checked": "2026-09-17",
+      "archive": null
+    },
+    "britannica-battle-of-waterloo": {
+      "tier": "secondary",
+      "url": "https://www.britannica.com/event/Battle-of-Waterloo",
+      "publisher": "Encyclopaedia Britannica",
+      "establishes": [
+        "The Battle of Waterloo was fought on 18 June 1815 south of Waterloo, Belgium",
+        "Napoleon was defeated by Wellington's allied army and a Prussian army under Blucher",
+        "It ended 23 years of recurrent warfare between France and the other European powers",
+        "Napoleon abdicated on 22 June 1815 and was exiled to St Helena"
+      ],
+      "checked": "2026-09-17",
+      "archive": null
+    },
+    "nam-battle-of-waterloo": {
+      "tier": "primary",
+      "url": "https://www.nam.ac.uk/explore/battle-waterloo",
+      "publisher": "National Army Museum",
+      "establishes": [
+        "Waterloo was fought on 18 June 1815 and was Napoleon's final defeat"
+      ],
+      "checked": "2026-09-17",
+      "archive": null
+    },
+    "olympics-phelps-medals": {
+      "tier": "primary",
+      "url": "https://www.olympics.com/en/news/michael-phelps-olympic-medals-record-how-many-gold-swimmer-world-record",
+      "publisher": "International Olympic Committee",
+      "establishes": [
+        "Michael Phelps won 28 Olympic medals in total, 23 of them gold",
+        "He won eight golds at Beijing 2008, every event he entered",
+        "That broke Mark Spitz's record of seven golds at a single Games, set in 1972",
+        "He took four golds and two silvers at London 2012 and five golds and a silver at Rio 2016"
+      ],
+      "checked": "2026-09-17",
+      "archive": null
+    },
+    "olympics-phelps-profile": {
+      "tier": "primary",
+      "url": "https://www.olympics.com/en/athletes/michael-phelps-ii",
+      "publisher": "International Olympic Committee",
+      "establishes": [
+        "Phelps is the most decorated Olympian, with 28 medals and 23 golds"
+      ],
+      "checked": "2026-09-17",
+      "archive": null
+    },
+    "britannica-michael-phelps": {
+      "tier": "secondary",
+      "url": "https://www.britannica.com/biography/Michael-Phelps",
+      "publisher": "Encyclopaedia Britannica",
+      "establishes": [
+        "Phelps holds the record for most Olympic medals won by any athlete"
+      ],
+      "checked": "2026-09-17",
+      "archive": null
+    },
+    "archives-emancipation-proclamation": {
+      "tier": "primary",
+      "url": "https://www.archives.gov/milestone-documents/emancipation-proclamation",
+      "publisher": "U.S. National Archives and Records Administration",
+      "establishes": [
+        "Lincoln issued the Emancipation Proclamation on 1 January 1863",
+        "It declared that all persons held as slaves within the rebellious areas shall be free",
+        "It applied only to states that had seceded and left slavery untouched in the border states",
+        "It announced the acceptance of Black men into the Union Army and Navy"
+      ],
+      "checked": "2026-09-17",
+      "archive": null
+    },
+    "archives-preliminary-emancipation": {
+      "tier": "primary",
+      "url": "https://www.archives.gov/exhibits/american_originals_iv/sections/preliminary_emancipation_proclamation.html",
+      "publisher": "U.S. National Archives and Records Administration",
+      "establishes": [
+        "Lincoln issued the Preliminary Emancipation Proclamation on 22 September 1862",
+        "It warned that enslaved people in areas still in rebellion on 1 January 1863 would be declared free"
+      ],
+      "checked": "2026-09-17",
+      "archive": null
+    },
+    "britannica-emancipation-proclamation": {
+      "tier": "secondary",
+      "url": "https://www.britannica.com/event/Emancipation-Proclamation",
+      "publisher": "Encyclopaedia Britannica",
+      "establishes": [
+        "The proclamation excluded the border states of Maryland, Kentucky and Missouri",
+        "It was framed as a military measure",
+        "Almost 200,000 Black soldiers and sailors served the Union by the end of the war"
+      ],
+      "checked": "2026-09-17",
+      "archive": null
+    },
+    "britannica-atacama-desert": {
+      "tier": "secondary",
+      "url": "https://www.britannica.com/place/Atacama-Desert",
+      "publisher": "Encyclopaedia Britannica",
+      "establishes": [
+        "The Atacama is a cool arid region in northern Chile, 1,000 to 1,100 kilometres long north to south",
+        "It is the driest non-polar desert on Earth",
+        "Some areas have never had rainfall recorded",
+        "In the driest parts mean annual precipitation is under 1 millimetre"
+      ],
+      "checked": "2026-09-17",
+      "archive": null
+    },
+    "esa-atacama-desert": {
+      "tier": "primary",
+      "url": "https://www.esa.int/Applications/Observing_the_Earth/The_Atacama_Desert_Chile",
+      "publisher": "European Space Agency",
+      "establishes": [
+        "The Atacama is the driest place on Earth outside the Antarctic dry valleys",
+        "Parts of it see rainfall only two to four times a century"
+      ],
+      "checked": "2026-09-17",
       "archive": null
     }
   }

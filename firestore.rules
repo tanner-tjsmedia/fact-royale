@@ -2,6 +2,20 @@ rules_version = '2';
 service cloud.firestore {
   match /databases/{database}/documents {
 
+    // ── Who counts as admin ────────────────────────────────
+    // One definition, imported everywhere. This string used to be written
+    // out in five separate rules, which is five places to miss when the
+    // address changes and five chances for them to drift apart.
+    //
+    // Deliberately NOT checking email_verified here. Adding it would be a
+    // real hardening, but if the admin account was created without
+    // verification it locks the admin out of their own console. Decide that
+    // one on purpose, not as a side effect of this fix.
+    function isAdmin() {
+      return request.auth != null
+             && request.auth.token.email == 'tanner@tjs16media.com';
+    }
+
     // ── Daily leaderboard scores (public read, write-once) ──
     //
     // A score may be created once and never changed.
@@ -35,9 +49,18 @@ service cloud.firestore {
     }
 
     // ── User profiles ──────────────────────────────────────
+    // Admin gets read across the whole collection. The admin dashboard
+    // counts registered users, actives, streaks and new signups, all of
+    // which need collection('users').get() rather than a keyed lookup.
+    //
+    // Read only. Admin has no write access to user documents: nothing in
+    // the console edits a profile, so granting it would widen the blast
+    // radius of a compromised admin session for no feature.
     match /users/{userId} {
-      allow read, write: if request.auth != null
-                         && request.auth.uid == userId;
+      allow read: if isAdmin()
+                  || (request.auth != null && request.auth.uid == userId);
+      allow write: if request.auth != null
+                   && request.auth.uid == userId;
 
       // Mastery history snapshots
       match /masteryHistory/{entryId} {
@@ -64,9 +87,7 @@ service cloud.firestore {
     //
     // Nothing reads this collection yet. See docs/SECURE-QUESTION-DB.md.
     match /quizzes/{dateKey} {
-      allow read: if resource.data.publishAt <= request.time
-                  || (request.auth != null
-                      && request.auth.token.email == 'tanner@tjs16media.com');
+      allow read: if resource.data.publishAt <= request.time || isAdmin();
       allow write: if false;   // Admin SDK only, via tools/migrate-to-firestore.js
     }
 
@@ -91,8 +112,7 @@ service cloud.firestore {
     // write access here. They write to a separate reports collection that
     // this bank never trusts directly.
     match /questionBank/{questionId} {
-      allow read, write: if request.auth != null
-                         && request.auth.token.email == 'tanner@tjs16media.com';
+      allow read, write: if isAdmin();
     }
 
     // ── Studio metadata: the source registry mirror ───────
@@ -100,8 +120,7 @@ service cloud.firestore {
     // citation establishes when running against the bank rather than files.
     // Admin-only: it is working data, not published evidence.
     match /meta/{docId} {
-      allow read, write: if request.auth != null
-                         && request.auth.token.email == 'tanner@tjs16media.com';
+      allow read, write: if isAdmin();
     }
 
     // ── Live game sessions (internal) ─────────────────────
@@ -109,14 +128,12 @@ service cloud.firestore {
     // now; opening this to player devices is a later decision and will need
     // its own rules rather than a loosening of these.
     match /liveGames/{gameId} {
-      allow read, write: if request.auth != null
-                         && request.auth.token.email == 'tanner@tjs16media.com';
+      allow read, write: if isAdmin();
     }
 
     // ── Admin collection (server-side only) ───────────────
     match /admin/{document=**} {
-      allow read: if request.auth != null
-                  && request.auth.token.email == 'tanner@tjs16media.com';
+      allow read: if isAdmin();
       allow write: if false;
     }
 
@@ -131,9 +148,16 @@ service cloud.firestore {
       allow delete: if request.auth != null && request.auth.uid == resource.data.createdBy;
     }
     // ── Anonymous play tracking ────────────────────────────
+    // Write-only for players, readable by admin. The dashboard's play
+    // counts and the 14-day trend query this collection by timestamp.
+    //
+    // This was read:false for everyone, which is why the admin console
+    // returned permission-denied rather than empty tiles: the rule was
+    // doing exactly what it said, just to the wrong audience.
     match /plays/{playId} {
       allow create: if true;
-      allow read, update, delete: if false;
+      allow read: if isAdmin();
+      allow update, delete: if false;
     }
 
     match /emailCaptures/{docId} {
