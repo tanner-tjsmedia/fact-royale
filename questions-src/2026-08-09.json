@@ -382,7 +382,11 @@
           "context": "daily"
         }
       ],
-      "canonicalNote": "atlas/textbook level, no source disputes it"
+      "canonicalNote": "atlas/textbook level, no source disputes it",
+      "sourceRefs": [
+        "britannica-atom-isotopes",
+        "britannica-isotope-summary"
+      ]
     }
   ]
 }

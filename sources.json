@@ -3120,6 +3120,110 @@
       ],
       "checked": "2026-09-17",
       "archive": null
+    },
+    "britannica-ion": {
+      "tier": "reference",
+      "url": "https://www.britannica.com/science/ion-physics",
+      "publisher": "Encyclopaedia Britannica",
+      "establishes": [
+        "An ion is an atom or group of atoms bearing one or more electrical charges",
+        "Ions form by adding electrons to, or removing them from, neutral atoms",
+        "Positively charged ions are cations, negatively charged ions are anions"
+      ],
+      "checked": "2026-09-29",
+      "archive": null
+    },
+    "britannica-atom-isotopes": {
+      "tier": "reference",
+      "url": "https://www.britannica.com/science/atom/Atomic-mass-and-isotopes",
+      "publisher": "Encyclopaedia Britannica",
+      "establishes": [
+        "Isotopes are atoms of one element with the same protons but different neutron counts",
+        "Neutron count changes the atom's mass but not its chemical properties"
+      ],
+      "checked": "2026-09-29",
+      "archive": null
+    },
+    "britannica-isotope-summary": {
+      "tier": "reference",
+      "url": "https://www.britannica.com/summary/isotope",
+      "publisher": "Encyclopaedia Britannica",
+      "establishes": [
+        "An isotope differs from its siblings only in neutron number and therefore atomic mass"
+      ],
+      "checked": "2026-09-29",
+      "archive": null
+    },
+    "britannica-catalysis": {
+      "tier": "reference",
+      "url": "https://www.britannica.com/science/catalysis",
+      "publisher": "Encyclopaedia Britannica",
+      "establishes": [
+        "A catalyst speeds a reaction by offering a path with lower activation energy",
+        "Activation energy is the minimum energy a reaction must clear to proceed",
+        "The catalyst is not consumed by the reaction"
+      ],
+      "checked": "2026-09-29",
+      "archive": null
+    },
+    "britannica-carbon-allotropes": {
+      "tier": "reference",
+      "url": "https://www.britannica.com/science/carbon-chemical-element/Structure-of-carbon-allotropes",
+      "publisher": "Encyclopaedia Britannica",
+      "establishes": [
+        "Diamond and graphite are the two commonest allotropes of carbon",
+        "Diamond is a three-dimensional array with each carbon bonded to four others tetrahedrally",
+        "Graphite is stacked planar hexagonal layers held together by much weaker forces",
+        "The difference between them is the bonding arrangement, not the element"
+      ],
+      "checked": "2026-09-29",
+      "archive": null
+    },
+    "nrc-nuclear-reactors": {
+      "tier": "primary",
+      "url": "https://www.nrc.gov/education-regulatory-research/the-student-corner/unit-3-nuclear-reactorsenergy-generation",
+      "publisher": "U.S. Nuclear Regulatory Commission",
+      "establishes": [
+        "Control rods are neutron-absorbing material inserted into the reactor core",
+        "Inserting them absorbs neutrons and slows or stops the chain reaction",
+        "Fission releases more than one neutron, so excess neutrons must be absorbed to hold a steady state"
+      ],
+      "checked": "2026-09-29",
+      "archive": null
+    },
+    "esa-planck-almost-perfect-universe": {
+      "tier": "primary",
+      "url": "https://www.esa.int/Science_Exploration/Space_Science/Planck/Planck_reveals_an_almost_perfect_Universe",
+      "publisher": "European Space Agency",
+      "establishes": [
+        "Planck put the age of the universe at 13.8 billion years",
+        "The figure comes from mapping tiny variations in the cosmic microwave background",
+        "That background light was emitted about 380,000 years after the Big Bang"
+      ],
+      "checked": "2026-09-29",
+      "archive": null
+    },
+    "nasa-planck": {
+      "tier": "primary",
+      "url": "https://science.nasa.gov/resource/planck/",
+      "publisher": "NASA Science",
+      "establishes": [
+        "Planck measured the cosmic microwave background to derive the age and composition of the universe"
+      ],
+      "checked": "2026-09-29",
+      "archive": null
+    },
+    "pmc-apoptosis-review": {
+      "tier": "primary",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2117903/",
+      "publisher": "Toxicologic Pathology, via PubMed Central",
+      "establishes": [
+        "Apoptosis is programmed cell death, an energy-dependent regulated process",
+        "It removes superfluous, aged or damaged cells in an ordered way",
+        "It runs by an intrinsic mitochondrial pathway and an extrinsic death-receptor pathway"
+      ],
+      "checked": "2026-09-29",
+      "archive": null
     }
   }
 }

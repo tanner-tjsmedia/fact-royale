@@ -242,7 +242,10 @@
       "explanation": "The Planck satellite mapped microscopic temperature variations in the afterglow of the Big Bang and fitted them to a cosmological model, yielding 13.787 billion years with roughly 0.2% uncertainty. Independent checks from the oldest known stars and from the abundance of light elements agree. There is an open problem though: measuring the expansion rate using nearby supernovae gives a different answer than the microwave background does, a discrepancy called the Hubble tension.",
       "memory_hook": "Planck mapped tiny temperature ripples in the Big Bang's afterglow and fitted them to a model: 13.787 billion years, give or take 0.2%. The oldest stars agree. But measuring expansion using nearby supernovae gives a different number, and nobody has resolved that yet. It is called the Hubble tension.",
       "riskTier": "canonical",
-      "sourceRefs": [],
+      "sourceRefs": [
+        "esa-planck-almost-perfect-universe",
+        "nasa-planck"
+      ],
       "review": {
         "state": "unreviewed",
         "at": null,

@@ -388,7 +388,10 @@
           "context": "daily"
         }
       ],
-      "canonicalNote": "textbook cell biology, universally attested"
+      "canonicalNote": "textbook cell biology, universally attested",
+      "sourceRefs": [
+        "pmc-apoptosis-review"
+      ]
     }
   ]
 }

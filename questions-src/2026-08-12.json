@@ -348,7 +348,10 @@
           "context": "daily"
         }
       ],
-      "canonicalNote": "textbook chemistry; the volatile-phrase match is on \"far more collisions\", not a record claim"
+      "canonicalNote": "textbook chemistry; the volatile-phrase match is on \"far more collisions\", not a record claim",
+      "sourceRefs": [
+        "britannica-catalysis"
+      ]
     },
     {
       "id": "frq-0708",

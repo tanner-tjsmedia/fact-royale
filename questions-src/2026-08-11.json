@@ -326,7 +326,10 @@
           "context": "daily"
         }
       ],
-      "canonicalNote": "textbook chemistry, universally attested and cannot change"
+      "canonicalNote": "textbook chemistry, universally attested and cannot change",
+      "sourceRefs": [
+        "britannica-ion"
+      ]
     },
     {
       "id": "frq-0695",
@@ -387,7 +390,10 @@
           "context": "daily"
         }
       ],
-      "canonicalNote": "textbook chemistry, universally attested and cannot change"
+      "canonicalNote": "textbook chemistry, universally attested and cannot change",
+      "sourceRefs": [
+        "britannica-carbon-allotropes"
+      ]
     }
   ]
 }

@@ -317,7 +317,10 @@
           "context": "daily"
         }
       ],
-      "canonicalNote": "reactor physics is textbook; the Chernobyl graphite-tipped rod detail is in every official account"
+      "canonicalNote": "reactor physics is textbook; the Chernobyl graphite-tipped rod detail is in every official account",
+      "sourceRefs": [
+        "nrc-nuclear-reactors"
+      ]
     },
     {
       "id": "frq-0731",
