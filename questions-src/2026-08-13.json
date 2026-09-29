@@ -62,7 +62,11 @@
           "context": "daily"
         }
       ],
-      "canonicalNote": "the date of the Emancipation Proclamation is fixed and universally attested"
+      "canonicalNote": "the date of the Emancipation Proclamation is fixed and universally attested",
+      "sourceRefs": [
+        "archives-emancipation-proclamation",
+        "britannica-emancipation-proclamation"
+      ]
     },
     {
       "id": "frq-0711",

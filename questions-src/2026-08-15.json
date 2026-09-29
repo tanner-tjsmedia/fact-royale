@@ -62,7 +62,11 @@
           "context": "daily"
         }
       ],
-      "canonicalNote": "Waterloo and Napoleon are fixed and universally attested"
+      "canonicalNote": "Waterloo and Napoleon are fixed and universally attested",
+      "sourceRefs": [
+        "britannica-battle-of-waterloo",
+        "nam-battle-of-waterloo"
+      ]
     },
     {
       "id": "frq-0735",
