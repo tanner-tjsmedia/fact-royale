@@ -490,6 +490,29 @@
       </div>
     </section>
 
+    <!-- Question and fact review -->
+    <section>
+      <h2>Review queue
+        <a href="/review.html" style="float:right;font-size:.8rem;font-weight:400;color:#d4af37;text-decoration:none">Full corpus scan &rarr;</a>
+      </h2>
+      <div class="chart-card">
+        <div style="display:flex;gap:.6rem;align-items:center;flex-wrap:wrap;margin-bottom:1rem">
+          <label for="rq-days" style="font-size:.78rem;color:rgba(232,232,240,0.55)">Changed in the last</label>
+          <input type="number" id="rq-days" value="7" min="1" max="365"
+                 style="width:72px;background:#15151f;border:1px solid rgba(232,232,240,.15);
+                        color:#e8e8f0;border-radius:6px;padding:.35rem .5rem">
+          <span style="font-size:.78rem;color:rgba(232,232,240,0.55)">days</span>
+          <button id="rq-refresh" class="btn-ghost"
+                  style="font-size:.78rem;padding:.35rem .8rem">Refresh</button>
+        </div>
+        <div id="review-queue"><em style="color:rgba(232,232,240,0.45)">Loading...</em></div>
+        <p style="margin-top:0.9rem;font-size:0.8rem;color:rgba(232,232,240,0.45);line-height:1.6">
+          A fact with no <code>approvedBy</code> cannot be published. That list is the
+          approval queue, and it shows whether or not anything was added recently.
+        </p>
+      </div>
+    </section>
+
     <!-- Data Integrity -->
     <section>
       <h2>Data Integrity <a href="/review.html" style="float:right;font-size:.8rem;font-weight:400;color:#d4af37;text-decoration:none">Question Review &rarr;</a></h2>
@@ -545,6 +568,7 @@
   </main>
 </div>
 
+<script src="review-queue.js"></script>
 <script>
 /* =====================================================
    FACT ROYALE — Admin Dashboard
@@ -592,6 +616,12 @@ auth.onAuthStateChanged(user => {
     document.getElementById('header-date').textContent =
       new Date().toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric' });
     loadData();
+    const rqGo = () => FRReviewQueue.render({
+      into: 'review-queue',
+      days: +document.getElementById('rq-days').value || 7
+    });
+    document.getElementById('rq-refresh').onclick = rqGo;
+    document.getElementById('rq-days').onchange  = rqGo;
   } else if (user) {
     // Wrong account — sign them out immediately
     auth.signOut();
@@ -673,6 +703,10 @@ async function loadData() {
   panel('categories', () => renderCategoryAccuracy(usersData));
   panel('topStreaks', () => renderTopStreaks(usersData));
   panel('integrity',  () => renderDataIntegrity(usersData));
+  panel('reviewQueue', () => FRReviewQueue.render({
+    into: 'review-queue',
+    days: +document.getElementById('rq-days').value || 7
+  }));
 
   // Never leave a spinner as the only signal. A panel that failed says so.
   if (failedPanels.length) {

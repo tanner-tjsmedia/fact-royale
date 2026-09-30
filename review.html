@@ -218,10 +218,9 @@ details p{margin:.5rem 0 0}
       <h2 style="margin:0 0 .6rem;font-size:1rem">Recent activity</h2>
       <div style="display:flex;gap:.6rem;align-items:center;flex-wrap:wrap;margin-bottom:.9rem">
         <label for="r-days" style="font-size:.78rem;color:var(--mut)">Changed in the last</label>
-        <input type="number" id="r-days" value="7" min="1" max="365"
-               style="width:70px" onchange="renderRecent()">
+        <input type="number" id="r-days" value="7" min="1" max="365" style="width:70px">
         <span style="font-size:.78rem;color:var(--mut)">days</span>
-        <button class="fbtn" onclick="renderRecent()">Refresh</button>
+        <button class="fbtn" id="r-refresh">Refresh</button>
         <span id="r-note" style="font-size:.75rem;color:var(--mut)"></span>
       </div>
       <div id="recent-out"><em style="color:var(--mut)">Loading...</em></div>
@@ -229,8 +228,18 @@ details p{margin:.5rem 0 0}
   </div>
 </div>
 
+<script src="review-queue.js"></script>
 <script>
 const ADMIN_EMAIL = 'tanner@tjs16media.com';
+
+// One renderer, shared with admin.html. See the header of review-queue.js for
+// why this is not a second copy.
+function refreshQueue(){
+  FRReviewQueue.render({
+    into: 'recent-out',
+    days: +document.getElementById('r-days').value || 7
+  });
+}
 let _signingIn = false;
 
 auth.onAuthStateChanged(user => {
@@ -238,9 +247,11 @@ auth.onAuthStateChanged(user => {
   if (user && user.email === ADMIN_EMAIL) {
     document.getElementById('gate').style.display = 'none';
     document.getElementById('app').style.display  = 'block';
-    setPreset('upcoming');
-    scan();
-    renderRecent();   // independent of the scan: it reads the files directly
+    learnCorpusRange().then(() => {
+      setPreset('all');          // open on a range that actually holds content
+      scan();
+      refreshQueue();
+    });
   } else if (user) {
     auth.signOut();
     document.getElementById('gate').style.display = 'flex';
@@ -265,19 +276,41 @@ function adminSignIn(){
 const iso = d => d.toISOString().slice(0,10);
 const addDays = (s,n) => { const d = new Date(s+'T12:00:00'); d.setDate(d.getDate()+n); return iso(d); };
 
+// Ranges come from the corpus, not from today's date and not from constants
+// typed in months ago. The page used to open on "upcoming 60 days", which
+// after the content purge covered a window containing no question files at
+// all, so a working tool reported an empty corpus and looked broken.
+let CORPUS_FIRST = '2026-06-13', CORPUS_LAST = '2026-12-31';
+
+async function learnCorpusRange(){
+  try{
+    const r = await fetch('questions-src/index.json', {cache:'no-store'});
+    if (!r.ok) return;
+    const j = await r.json();
+    const ds = (j.days||[]).map(d => typeof d === 'string' ? d : d.date)
+                           .filter(Boolean).sort();
+    if (ds.length){ CORPUS_FIRST = ds[0]; CORPUS_LAST = ds[ds.length-1]; }
+  }catch(e){ /* fall back to the defaults above */ }
+}
+
 function setPreset(p){
   const today = iso(new Date());
   const F = document.getElementById('d-from'), T = document.getElementById('d-to');
-  if (p === 'upcoming') { F.value = today; T.value = addDays(today, 60); }
+  // "Upcoming" means upcoming content, not upcoming calendar days. When the
+  // corpus ends in the past, scanning forward from today finds nothing.
+  if (p === 'upcoming') { F.value = today > CORPUS_LAST ? CORPUS_FIRST : today;
+                          T.value = CORPUS_LAST; }
   if (p === 'month')    { F.value = today.slice(0,8)+'01'; T.value = addDays(today.slice(0,8)+'01', 31); }
   if (p === 'next')     { const n = addDays(today.slice(0,8)+'01', 32).slice(0,8)+'01';
                           F.value = n; T.value = addDays(n, 31); }
-  if (p === 'all')      { F.value = '2026-06-13'; T.value = '2026-12-31'; }
-  if (p === 'exemplar') { F.value = '2026-11-24'; T.value = '2026-11-24'; }
+  if (p === 'all')      { F.value = CORPUS_FIRST; T.value = CORPUS_LAST; }
+  if (p === 'exemplar') { F.value = CORPUS_LAST;  T.value = CORPUS_LAST; }
 }
 document.querySelectorAll('.chip[data-preset]').forEach(c =>
   c.onclick = () => { setPreset(c.dataset.preset); scan(); });
 document.getElementById('run').onclick = scan;
+document.getElementById('r-refresh').onclick = refreshQueue;
+document.getElementById('r-days').onchange  = refreshQueue;
 
 // ── scan ──
 let _rows = [];
@@ -408,128 +441,8 @@ async function scan(){
 function set(id,v){ document.getElementById(id).textContent = v; }
 const esc = s => String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 
-// ── Recent activity ─────────────────────────────────────
-// Reads the corpus and the fact base directly rather than depending on a scan
-// having been run, because the first thing you want after a batch is to check
-// the batch, not to re-scan eight months of quizzes.
-let _factCache = null;
-
-async function loadFacts(){
-  if (_factCache) return _factCache;
-  const files = ['facts-src/facts-0001-0499.json'];
-  const out = [];
-  for (const f of files){
-    try {
-      const r = await fetch(f, {cache:'no-store'});
-      if (r.ok) { const j = await r.json(); out.push(...(j.facts || [])); }
-    } catch(e){ /* a missing shard is not fatal; the note below reports it */ }
-  }
-  _factCache = out;
-  return out;
-}
-
-async function loadAllQuestions(){
-  // Uses the index so this does not fire 200 speculative 404s every refresh.
-  let days = [];
-  try {
-    const r = await fetch('questions-src/index.json', {cache:'no-store'});
-    if (r.ok) {
-      const j = await r.json();
-      days = (j.days || []).map(d => typeof d === 'string' ? d : d.date).filter(Boolean);
-    }
-  } catch(e){}
-  const files = await Promise.all(days.map(d =>
-    fetch(`questions-src/${d}.json`, {cache:'no-store'})
-      .then(r => r.ok ? r.json().then(j => ({date:d, data:j})) : null)
-      .catch(() => null)
-  ));
-  const qs = [];
-  files.filter(Boolean).forEach(({date, data}) =>
-    (data.questions || []).forEach(q => qs.push({date, q})));
-  return qs;
-}
-
-function daysAgo(iso){
-  if (!iso) return Infinity;
-  const t = Date.parse(iso + 'T00:00:00Z');
-  if (isNaN(t)) return Infinity;
-  return Math.floor((Date.now() - t) / 86400000);
-}
-
-async function renderRecent(){
-  const out  = document.getElementById('recent-out');
-  const note = document.getElementById('r-note');
-  const win  = +document.getElementById('r-days').value || 7;
-  out.innerHTML = '<em style="color:var(--mut)">Loading...</em>';
-
-  const [facts, qs] = await Promise.all([loadFacts(), loadAllQuestions()]);
-
-  const newFacts = facts.filter(f => daysAgo(f.addedAt) <= win);
-  const unappr   = facts.filter(f => !f.approvedBy);
-  const srcQs    = qs.filter(x => daysAgo(x.q.sourcedAt) <= win);
-
-  note.textContent = `${facts.length} facts, ${qs.length} questions loaded`;
-
-  let h = '';
-
-  h += `<div style="display:flex;gap:1.6rem;flex-wrap:wrap;margin-bottom:1rem">
-    <div><div class="sv">${srcQs.length}</div><div class="sl">Questions sourced</div></div>
-    <div><div class="sv">${newFacts.length}</div><div class="sl">Facts added</div></div>
-    <div><div class="sv ${unappr.length ? 'amb' : 'grn'}">${unappr.length}</div>
-         <div class="sl">Facts awaiting approval</div></div>
-  </div>`;
-
-  if (srcQs.length){
-    h += `<h3 style="font-size:.85rem;margin:1rem 0 .5rem">Questions sourced in the last ${win} days</h3>`;
-    srcQs.sort((a,b) => (a.q.sourcedAt < b.q.sourcedAt ? 1 : -1));
-    srcQs.forEach(({date, q}) => {
-      h += `<div style="border-left:2px solid var(--gold);padding:.5rem .8rem;margin-bottom:.5rem">
-        <div style="font-size:.72rem;color:var(--mut)">${q.id} &middot; ${date} &middot; ${escH(q.category||'')} &middot; sourced ${q.sourcedAt}</div>
-        <div style="margin:.2rem 0">${escH(q.question||'')}</div>
-        <div style="font-size:.8rem;color:var(--grn,#6c6)">A: ${escH(String(q.answer||''))}</div>
-        <div style="font-size:.72rem;color:var(--mut);margin-top:.25rem">
-          ${(q.sourceRefs||[]).map(s => `<code>${escH(s)}</code>`).join(' &middot; ') || 'none'}
-        </div>
-      </div>`;
-    });
-  }
-
-  // Unapproved facts are the standing blocker: approvedBy must be a human and
-  // nothing publishes without it, so this list is the actual work queue.
-  const showFacts = newFacts.length ? newFacts : unappr;
-  const label = newFacts.length
-    ? `Facts added in the last ${win} days`
-    : `Facts awaiting approval (none added in the last ${win} days)`;
-  if (showFacts.length){
-    h += `<h3 style="font-size:.85rem;margin:1.4rem 0 .5rem">${label}</h3>`;
-    showFacts.slice(0, 60).forEach(f => {
-      h += `<div style="border-left:2px solid ${f.approvedBy ? '#5a5' : '#a85'};padding:.5rem .8rem;margin-bottom:.5rem">
-        <div style="font-size:.72rem;color:var(--mut)">
-          ${f.id} &middot; ${escH(f.claimType||'')} &middot; ${escH(f.riskTier||'')}
-          &middot; added ${escH(f.addedAt||'unknown')}
-          &middot; ${f.approvedBy ? 'approved by ' + escH(f.approvedBy) : '<strong>NOT APPROVED</strong>'}
-        </div>
-        <div style="margin:.2rem 0">${escH(f.claim||'')}</div>
-        <div style="font-size:.8rem;color:var(--grn,#6c6)">A: ${escH(String(f.answer||''))}</div>
-        <div style="font-size:.72rem;color:var(--mut);margin-top:.25rem">
-          ${(f.sources||[]).map(s => `<code>${escH(s)}</code>`).join(' &middot; ') || 'none'}
-        </div>
-      </div>`;
-    });
-    if (showFacts.length > 60)
-      h += `<div style="font-size:.78rem;color:var(--mut)">... and ${showFacts.length-60} more</div>`;
-  }
-
-  if (!srcQs.length && !showFacts.length)
-    h += `<em style="color:var(--mut)">Nothing changed in that window.</em>`;
-
-  out.innerHTML = h;
-}
-
-function escH(s){
-  return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;')
-                  .replace(/>/g,'&gt;').replace(/"/g,'&quot;');
-}
+// Recent activity is rendered by review-queue.js, the single copy
+// shared with admin.html.
 
 function render(){
   const f = document.querySelector('.fbtn.on').dataset.f;
