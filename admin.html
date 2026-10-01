@@ -346,6 +346,25 @@
     }
 
     @keyframes spin { to { transform: rotate(360deg); } }
+
+    /* ─── Tabs ─────────────────────────────────────────── */
+    .tabbar{display:flex;gap:.4rem;margin:0 0 1.6rem;border-bottom:1px solid rgba(232,232,240,.10);
+            flex-wrap:wrap}
+    .tab{background:none;border:none;border-bottom:2px solid transparent;color:rgba(232,232,240,.55);
+         font:inherit;font-size:.9rem;padding:.6rem 1rem;cursor:pointer;transition:color .15s,border-color .15s}
+    .tab:hover{color:#e8e8f0}
+    .tab.on{color:#d4af37;border-bottom-color:#d4af37;font-weight:600}
+    .tabpane[hidden]{display:none}
+    .lib-row{border-left:2px solid rgba(232,232,240,.18);padding:.55rem .85rem;margin-bottom:.5rem;
+             background:rgba(255,255,255,.02);border-radius:0 4px 4px 0}
+    .lib-row.ok{border-left-color:#5a5}
+    .lib-row.pending{border-left-color:#a85}
+    .lib-meta{font-size:.72rem;opacity:.55}
+    .lib-ans{font-size:.82rem;color:#7c7;margin-top:.15rem}
+    .lib-src{font-size:.72rem;opacity:.55;margin-top:.3rem}
+    .btn-approve{background:#2a4a2a;border:1px solid #5a5;color:#cfc;border-radius:5px;
+                 font-size:.72rem;padding:.25rem .6rem;cursor:pointer;margin-left:.4rem}
+    .btn-approve:hover{background:#355}
   </style>
 </head>
 <body>
@@ -381,7 +400,17 @@
   </header>
 
   <main>
+    <!-- Three tabs, one page. The dashboard answers "how is the site doing",
+         review answers "what needs me", the library answers "what do we have".
+         They are different questions and stacking them vertically made the
+         page a scroll with no shape. -->
+    <div class="tabbar" role="tablist">
+      <button class="tab on" data-tab="dashboard" role="tab">Data &amp; Members</button>
+      <button class="tab"    data-tab="review"    role="tab">Review</button>
+      <button class="tab"    data-tab="library"   role="tab">Library</button>
+    </div>
 
+    <div id="tab-dashboard" class="tabpane">
     <!-- Today's Snapshot -->
     <section>
       <h2>Today</h2>
@@ -404,7 +433,6 @@
         </div>
       </div>
     </section>
-
     <!-- 14-Day Play Trend -->
     <section>
       <h2>14-Day Play Trend</h2>
@@ -412,7 +440,6 @@
         <canvas id="chart-plays" height="220"></canvas>
       </div>
     </section>
-
     <!-- Users & Retention -->
     <section>
       <h2>Users & Retention</h2>
@@ -435,7 +462,6 @@
         </div>
       </div>
     </section>
-
     <!-- Signup Conversion -->
     <section>
       <h2>Signup Conversion — 14 Days</h2>
@@ -443,7 +469,6 @@
         <canvas id="chart-conversion" height="180"></canvas>
       </div>
     </section>
-
     <!-- Category Accuracy -->
     <section>
       <h2>Category Accuracy (All Users)</h2>
@@ -465,7 +490,6 @@
         </div>
       </div>
     </section>
-
     <!-- Top Active Streaks -->
     <section>
       <h2>Top Active Streaks</h2>
@@ -489,30 +513,6 @@
         </table>
       </div>
     </section>
-
-    <!-- Question and fact review -->
-    <section>
-      <h2>Review queue
-        <a href="/review.html" style="float:right;font-size:.8rem;font-weight:400;color:#d4af37;text-decoration:none">Full corpus scan &rarr;</a>
-      </h2>
-      <div class="chart-card">
-        <div style="display:flex;gap:.6rem;align-items:center;flex-wrap:wrap;margin-bottom:1rem">
-          <label for="rq-days" style="font-size:.78rem;color:rgba(232,232,240,0.55)">Changed in the last</label>
-          <input type="number" id="rq-days" value="7" min="1" max="365"
-                 style="width:72px;background:#15151f;border:1px solid rgba(232,232,240,.15);
-                        color:#e8e8f0;border-radius:6px;padding:.35rem .5rem">
-          <span style="font-size:.78rem;color:rgba(232,232,240,0.55)">days</span>
-          <button id="rq-refresh" class="btn-ghost"
-                  style="font-size:.78rem;padding:.35rem .8rem">Refresh</button>
-        </div>
-        <div id="review-queue"><em style="color:rgba(232,232,240,0.45)">Loading...</em></div>
-        <p style="margin-top:0.9rem;font-size:0.8rem;color:rgba(232,232,240,0.45);line-height:1.6">
-          A fact with no <code>approvedBy</code> cannot be published. That list is the
-          approval queue, and it shows whether or not anything was added recently.
-        </p>
-      </div>
-    </section>
-
     <!-- Data Integrity -->
     <section>
       <h2>Data Integrity <a href="/review.html" style="float:right;font-size:.8rem;font-weight:400;color:#d4af37;text-decoration:none">Question Review &rarr;</a></h2>
@@ -564,11 +564,64 @@
         </p>
       </div>
     </section>
+    </div>
 
+    <div id="tab-review" class="tabpane" hidden>
+    <!-- Question and fact review -->
+    <section>
+      <h2>Review queue
+        <a href="/review.html" style="float:right;font-size:.8rem;font-weight:400;color:#d4af37;text-decoration:none">Full corpus scan &rarr;</a>
+      </h2>
+      <div class="chart-card">
+        <div style="display:flex;gap:.6rem;align-items:center;flex-wrap:wrap;margin-bottom:1rem">
+          <label for="rq-days" style="font-size:.78rem;color:rgba(232,232,240,0.55)">Changed in the last</label>
+          <input type="number" id="rq-days" value="7" min="1" max="365"
+                 style="width:72px;background:#15151f;border:1px solid rgba(232,232,240,.15);
+                        color:#e8e8f0;border-radius:6px;padding:.35rem .5rem">
+          <span style="font-size:.78rem;color:rgba(232,232,240,0.55)">days</span>
+          <button id="rq-refresh" class="btn-ghost"
+                  style="font-size:.78rem;padding:.35rem .8rem">Refresh</button>
+        </div>
+        <div id="review-queue"><em style="color:rgba(232,232,240,0.45)">Loading...</em></div>
+        <p style="margin-top:0.9rem;font-size:0.8rem;color:rgba(232,232,240,0.45);line-height:1.6">
+          A fact with no <code>approvedBy</code> cannot be published. That list is the
+          approval queue, and it shows whether or not anything was added recently.
+        </p>
+      </div>
+    </section>
+    </div>
+
+    <div id="tab-library" class="tabpane" hidden>
+      <section>
+        <h2>Library</h2>
+        <div class="chart-card">
+          <div style="display:flex;gap:.6rem;align-items:center;flex-wrap:wrap;margin-bottom:1rem">
+            <input id="lib-q" placeholder="Search claims, questions, answers, sources..."
+                   style="flex:1;min-width:240px;background:#15151f;
+                          border:1px solid rgba(232,232,240,.15);color:#e8e8f0;
+                          border-radius:6px;padding:.45rem .7rem">
+            <select id="lib-kind" style="background:#15151f;border:1px solid rgba(232,232,240,.15);
+                                         color:#e8e8f0;border-radius:6px;padding:.45rem .5rem">
+              <option value="all">Facts and questions</option>
+              <option value="facts">Facts only</option>
+              <option value="questions">Questions only</option>
+            </select>
+            <select id="lib-state" style="background:#15151f;border:1px solid rgba(232,232,240,.15);
+                                          color:#e8e8f0;border-radius:6px;padding:.45rem .5rem">
+              <option value="ready">Approved / sourced only</option>
+              <option value="all">Everything</option>
+              <option value="pending">Not yet approved / unsourced</option>
+            </select>
+          </div>
+          <div id="library-out"><em style="color:rgba(232,232,240,0.45)">Open this tab to load the library.</em></div>
+        </div>
+      </section>
+    </div>
   </main>
 </div>
 
 <script src="review-queue.js"></script>
+  <script src="store.js"></script>
 <script>
 /* =====================================================
    FACT ROYALE — Admin Dashboard
@@ -1087,6 +1140,34 @@ function escHtml(str) {
     .replace(/>/g, '&gt;')
     .replace(/"/g, '&quot;');
 }
+
+// ── Tabs ───────────────────────────────────────────────
+// The library reads all 82 question files, so it loads on first open rather
+// than on every page load. Nothing else here is expensive.
+let _libLoaded = false;
+function showTab(name){
+  document.querySelectorAll('.tab').forEach(b =>
+    b.classList.toggle('on', b.dataset.tab === name));
+  document.querySelectorAll('.tabpane').forEach(p =>
+    p.hidden = (p.id !== 'tab-' + name));
+  if (name === 'library' && !_libLoaded){ _libLoaded = true; renderLibrary(); }
+}
+document.querySelectorAll('.tab').forEach(b =>
+  b.onclick = () => showTab(b.dataset.tab));
+
+function renderLibrary(){
+  FRReviewQueue.renderLibrary({
+    into:  'library-out',
+    query: document.getElementById('lib-q').value,
+    kind:  document.getElementById('lib-kind').value,
+    state: document.getElementById('lib-state').value
+  });
+}
+['lib-q','lib-kind','lib-state'].forEach(id => {
+  const el = document.getElementById(id);
+  if (el) el.oninput = el.onchange = () => { if (_libLoaded) renderLibrary(); };
+});
+
 </script>
 </body>
 </html>

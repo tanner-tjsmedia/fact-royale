@@ -180,5 +180,125 @@
     });
   }
 
-  global.FRReviewQueue = { render: render, daysAgo: daysAgo, escH: escH };
+  /* ─── Library ──────────────────────────────────────────────────────────
+   * Browse what exists rather than what needs attention. Facts and questions
+   * in one list so "what backs this" is answerable without knowing the file
+   * layout - which is the point of having it at all, for anyone who joins
+   * later and has never seen facts-src/.
+   */
+  function matches(hay, q) {
+    if (!q) return true;
+    var needle = q.toLowerCase();
+    return (hay || '').toLowerCase().indexOf(needle) !== -1;
+  }
+
+  function renderLibrary(opts) {
+    opts = opts || {};
+    var el = document.getElementById(opts.into || 'library-out');
+    if (!el) return Promise.resolve();
+    var q = (opts.query || '').trim();
+    var kind = opts.kind || 'all';
+    var want = opts.state || 'ready';
+    el.innerHTML = '<em style="opacity:.6">Loading library...</em>';
+
+    return Promise.all([loadFacts(), loadQuestions()]).then(function (res) {
+      var facts = res[0], qs = res[1], rows = [], shownF = 0, shownQ = 0;
+
+      if (kind !== 'questions') {
+        facts.forEach(function (f) {
+          var ok = !!f.approvedBy;
+          if (want === 'ready' && !ok) return;
+          if (want === 'pending' && ok) return;
+          var blob = [f.claim, f.answer, f.subject, (f.tags || []).join(' '),
+                      (f.sources || []).join(' '), f.id].join(' ');
+          if (!matches(blob, q)) return;
+          shownF++;
+          rows.push('<div class="lib-row ' + (ok ? 'ok' : 'pending') + '">' +
+            '<div class="lib-meta">FACT &middot; ' + escH(f.id) + ' &middot; ' +
+              escH(f.claimType) + ' &middot; ' + escH(f.riskTier) +
+              ' &middot; ' + (f.tags || []).map(escH).join(', ') +
+              ' &middot; ' + (ok ? 'approved by ' + escH(f.approvedBy)
+                                 : '<strong style="color:#c86">not approved</strong>') +
+            '</div>' +
+            '<div>' + escH(f.claim) + '</div>' +
+            '<div class="lib-ans">A: ' + escH(f.answer) + '</div>' +
+            '<div class="lib-src">' + ((f.sources || []).map(function (s) {
+              return '<code>' + escH(s) + '</code>'; }).join(' &middot; ') || 'no source') +
+              (ok ? '' : '<button class="btn-approve" data-approve="' + escH(f.id) +
+                         '">Approve</button>') +
+            '</div></div>');
+        });
+      }
+
+      if (kind !== 'facts') {
+        qs.forEach(function (x) {
+          var ok = !!(x.q.sourceRefs && x.q.sourceRefs.length);
+          if (want === 'ready' && !ok) return;
+          if (want === 'pending' && ok) return;
+          var blob = [x.q.question, x.q.answer, x.q.category, x.q.id,
+                      (x.q.sourceRefs || []).join(' ')].join(' ');
+          if (!matches(blob, q)) return;
+          shownQ++;
+          rows.push('<div class="lib-row ' + (ok ? 'ok' : 'pending') + '">' +
+            '<div class="lib-meta">QUESTION &middot; ' + escH(x.q.id) + ' &middot; ' +
+              escH(x.date) + ' &middot; ' + escH(x.q.category) +
+              (x.q.sourcedAt ? ' &middot; sourced ' + escH(x.q.sourcedAt) : '') + '</div>' +
+            '<div>' + escH(x.q.question) + '</div>' +
+            '<div class="lib-ans">A: ' + escH(x.q.answer) + '</div>' +
+            '<div class="lib-src">' + ((x.q.sourceRefs || []).map(function (s) {
+              return '<code>' + escH(s) + '</code>'; }).join(' &middot; ')
+              || '<span style="color:#c86">unsourced</span>') + '</div></div>');
+        });
+      }
+
+      var head = '<div style="font-size:.78rem;opacity:.6;margin-bottom:.8rem">' +
+        shownF + ' fact' + (shownF === 1 ? '' : 's') + ', ' +
+        shownQ + ' question' + (shownQ === 1 ? '' : 's') +
+        (q ? ' matching "' + escH(q) + '"' : '') + '</div>';
+
+      var LIMIT = 300;
+      el.innerHTML = head + (rows.length
+        ? rows.slice(0, LIMIT).join('') +
+          (rows.length > LIMIT
+            ? '<div style="font-size:.78rem;opacity:.55">... and ' +
+              (rows.length - LIMIT) + ' more. Narrow the search.</div>' : '')
+        : '<em style="opacity:.6">Nothing matches.</em>');
+
+      wireApprovals(el);
+    }).catch(function (err) {
+      el.innerHTML = '<span style="color:#c66">Library failed to load. See console.</span>';
+      console.error('library:', err);
+    });
+  }
+
+  /* Approving needs write access, which needs a folder grant. Ask for it at
+   * the moment it is needed rather than on page load, so simply looking at
+   * the dashboard never triggers a permission prompt. */
+  function wireApprovals(root) {
+    root.querySelectorAll('[data-approve]').forEach(function (btn) {
+      btn.onclick = async function () {
+        var id = btn.getAttribute('data-approve');
+        var who = (global.auth && global.auth.currentUser && global.auth.currentUser.email) || '';
+        btn.disabled = true; btn.textContent = 'Approving...';
+        try {
+          if (!global.FRStore.isConnected()) await global.FRStore.connect('local');
+          await global.FRStore.approve(id, who);
+          _facts = null;                       // force a reread next render
+          btn.textContent = 'Approved';
+          btn.style.background = '#2a4a2a';
+        } catch (e) {
+          btn.disabled = false; btn.textContent = 'Approve';
+          alert('Could not approve ' + id + ':\n\n' + e.message);
+          console.error(e);
+        }
+      };
+    });
+  }
+
+  global.FRReviewQueue = {
+    render: render,
+    renderLibrary: renderLibrary,
+    daysAgo: daysAgo,
+    escH: escH
+  };
 })(window);
