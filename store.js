@@ -61,13 +61,22 @@
     });
   }
 
-  function hasCloud() { return typeof global.db !== 'undefined' && !!global.db; }
+  /* firebase-config.js declares `const db` and `const auth` at the top level
+   * of a classic script. Those land in the global LEXICAL environment, not on
+   * window, so window.db is undefined while the bare identifier resolves
+   * fine. Reading them by name is the only thing that works, and getting this
+   * wrong reported "No Firestore on this page" on a page that plainly had it.
+   */
+  function fdb()  { try { return (typeof db   !== 'undefined') ? db   : null; } catch (e) { return null; } }
+  function fauth(){ try { return (typeof auth !== 'undefined') ? auth : null; } catch (e) { return null; } }
+
+  function hasCloud() { return !!fdb(); }
   function hasFS()    { return !!global.showDirectoryPicker; }
 
   /* ---- read paths ------------------------------------------------------- */
 
   async function readCloud() {
-    var snap = await global.db.collection(COLLECTION).get();
+    var snap = await fdb().collection(COLLECTION).get();
     if (snap.empty) return null;                 // not seeded yet
     var out = [];
     snap.forEach(function (d) { out.push(d.data()); });
@@ -157,11 +166,11 @@
   }
 
   async function writeCloud(ids) {
-    var batch = global.db.batch(), n = 0;
+    var batch = fdb().batch(), n = 0;
     S.facts.forEach(function (f) {
       if (ids && ids.indexOf(f.id) === -1) return;
       var c = {}; Object.keys(f).forEach(function (k) { if (k[0] !== '_') c[k] = f[k]; });
-      batch.set(global.db.collection(COLLECTION).doc(f.id), c, { merge: true });
+      batch.set(fdb().collection(COLLECTION).doc(f.id), c, { merge: true });
       n++;
       });
     if (n) await batch.commit();

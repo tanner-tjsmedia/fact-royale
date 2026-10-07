@@ -25,6 +25,15 @@
   var _facts = null;
   var _questions = null;
 
+  /* Same trap as db: firebase-config.js uses `const auth`, which is not a
+   * window property. Read it by identifier or the approver email comes back
+   * empty and the human check rejects the write. */
+  function currentEmail() {
+    try {
+      return (typeof auth !== 'undefined' && auth.currentUser && auth.currentUser.email) || '';
+    } catch (e) { return ''; }
+  }
+
   function escH(s) {
     return String(s === null || s === undefined ? '' : s)
       .replace(/&/g, '&amp;').replace(/</g, '&lt;')
@@ -293,7 +302,7 @@
     root.querySelectorAll('[data-approve]').forEach(function (btn) {
       btn.onclick = async function () {
         var id = btn.getAttribute('data-approve');
-        var who = (global.auth && global.auth.currentUser && global.auth.currentUser.email) || '';
+        var who = currentEmail();
         btn.disabled = true; btn.textContent = 'Approving...';
         try {
           await global.FRStore.approve(id, who);
@@ -325,7 +334,7 @@
     };
     go.onclick = async function () {
       var ids = picked();
-      var who = (global.auth && global.auth.currentUser && global.auth.currentUser.email) || '';
+      var who = currentEmail();
       if (!ids.length) { alert('Select some facts first.'); return; }
       if (!confirm('Approve ' + ids.length + ' fact' + (ids.length === 1 ? '' : 's') +
                    ' as ' + who + '?\n\nApproval says a person read the claim and ' +
