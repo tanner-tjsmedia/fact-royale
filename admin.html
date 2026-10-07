@@ -365,6 +365,21 @@
     .btn-approve{background:#2a4a2a;border:1px solid #5a5;color:#cfc;border-radius:5px;
                  font-size:.72rem;padding:.25rem .6rem;cursor:pointer;margin-left:.4rem}
     .btn-approve:hover{background:#355}
+
+    .storebar{display:flex;gap:.7rem;align-items:center;flex-wrap:wrap;
+              background:rgba(212,175,55,.06);border:1px solid rgba(212,175,55,.22);
+              border-radius:8px;padding:.6rem .9rem;margin-bottom:1rem;font-size:.8rem}
+    .storebar .dot{width:8px;height:8px;border-radius:50%;background:#d4af37;flex:none}
+    .storebar .dot.cloud{background:#5a5}
+    .storebar .grow{flex:1;min-width:140px;opacity:.75}
+    .bulkbar{display:flex;gap:.8rem;align-items:center;flex-wrap:wrap;
+             background:rgba(255,255,255,.03);border-radius:6px;padding:.5rem .8rem;
+             margin-bottom:.9rem;font-size:.78rem}
+    .pickwrap{font-size:.72rem;opacity:.6;margin-left:.5rem;cursor:pointer}
+    .pickwrap input{vertical-align:middle;margin-right:.25rem}
+    .btn-ghost{background:none;border:1px solid rgba(232,232,240,.22);color:#e8e8f0;
+               border-radius:6px;padding:.35rem .8rem;font:inherit;font-size:.78rem;cursor:pointer}
+    .btn-ghost:hover{border-color:#d4af37;color:#d4af37}
   </style>
 </head>
 <body>
@@ -612,6 +627,13 @@
               <option value="all">Everything</option>
               <option value="pending">Not yet approved / unsourced</option>
             </select>
+          </div>
+          <div class="storebar">
+            <span class="dot" id="store-dot"></span>
+            <strong id="store-mode">checking store...</strong>
+            <span class="grow" id="store-note"></span>
+            <button class="btn-ghost" id="btn-seed">Seed cloud</button>
+            <button class="btn-ghost" id="btn-export">Export to disk</button>
           </div>
           <div id="library-out"><em style="color:rgba(232,232,240,0.45)">Open this tab to load the library.</em></div>
         </div>
@@ -1150,7 +1172,8 @@ function showTab(name){
     b.classList.toggle('on', b.dataset.tab === name));
   document.querySelectorAll('.tabpane').forEach(p =>
     p.hidden = (p.id !== 'tab-' + name));
-  if (name === 'library' && !_libLoaded){ _libLoaded = true; renderLibrary(); }
+  if (name === 'library' && !_libLoaded){ _libLoaded = true;
+    refreshStoreBar().then(renderLibrary); }
 }
 document.querySelectorAll('.tab').forEach(b =>
   b.onclick = () => showTab(b.dataset.tab));
@@ -1167,6 +1190,51 @@ function renderLibrary(){
   const el = document.getElementById(id);
   if (el) el.oninput = el.onchange = () => { if (_libLoaded) renderLibrary(); };
 });
+
+
+// ── Fact store status, seeding and export ──────────────
+// Cloud is primary so approving works away from this machine. The file copy
+// is the backup that gives git the history Firestore cannot.
+async function refreshStoreBar(){
+  const dot = document.getElementById('store-dot');
+  const mode = document.getElementById('store-mode');
+  const note = document.getElementById('store-note');
+  if (!mode) return;
+  if (!FRStore.mode()) { try { await FRStore.init(); } catch(e){ console.error(e); } }
+  const m = FRStore.mode();
+  mode.textContent = m === 'cloud' ? 'Firestore (works anywhere)'
+                   : m === 'file-rw' ? 'local files (read/write)'
+                   : 'local file (read only)';
+  dot.className = 'dot' + (m === 'cloud' ? ' cloud' : '');
+  note.textContent = FRStore.note() || '';
+  document.getElementById('btn-seed').style.display   = m === 'cloud' ? 'none' : '';
+  document.getElementById('btn-export').style.display = m === 'cloud' ? '' : 'none';
+}
+
+document.getElementById('btn-seed').onclick = async function(){
+  if (!confirm('Copy every fact from the file into Firestore?\n\n' +
+               'After this, approving works from any device. Run it once, ' +
+               'from this machine.')) return;
+  this.disabled = true; this.textContent = 'Seeding...';
+  try {
+    const n = await FRStore.seedToCloud();
+    alert('Seeded ' + n + ' facts to Firestore.');
+    await refreshStoreBar(); renderLibrary();
+  } catch(e){ alert(e.message); console.error(e); }
+  this.disabled = false; this.textContent = 'Seed cloud';
+};
+
+document.getElementById('btn-export').onclick = async function(){
+  this.disabled = true; this.textContent = 'Exporting...';
+  try {
+    const f = await FRStore.exportToDisk();
+    alert('Wrote ' + f + '.\n\nRun tools/check.py, then commit so git has the history.');
+  } catch(e){ alert(e.message); console.error(e); }
+  this.disabled = false; this.textContent = 'Export to disk';
+};
+
+// review-queue calls this after a bulk approve so counts stay honest
+window.FRAdminRefreshLibrary = function(){ renderLibrary(); };
 
 </script>
 </body>

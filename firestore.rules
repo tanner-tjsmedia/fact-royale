@@ -115,6 +115,23 @@ service cloud.firestore {
       allow read, write: if isAdmin();
     }
 
+    // ── Fact bank: the working store for facts ────────────
+    // Same shape and same reasoning as questionBank. Admin-only in both
+    // directions because it holds unapproved claims, and a claim without
+    // approvedBy is explicitly not fit to publish.
+    //
+    // Browser-writable by the admin on purpose. That is what lets approvals
+    // happen from a laptop that is nowhere near the repo. The serving
+    // collections below stay Admin-SDK-only, so nothing a browser session can
+    // reach is what players actually read.
+    //
+    // History still lives in git: Firestore cannot diff or revert, so
+    // facts-src/*.json remains the manuscript and the cloud copy is the
+    // workbench. Export back to disk periodically.
+    match /factBank/{factId} {
+      allow read, write: if isAdmin();
+    }
+
     // ── Studio metadata: the source registry mirror ───────
     // meta/sources is a copy of sources.json so the studio can show what a
     // citation establishes when running against the bank rather than files.

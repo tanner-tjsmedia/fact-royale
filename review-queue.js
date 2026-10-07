@@ -39,6 +39,12 @@
   }
 
   function loadFacts() {
+    // FRStore owns fact access when it is present (admin.html). review.html
+    // does not load it, so the direct fetch stays as a read-only fallback.
+    if (global.FRStore) {
+      if (global.FRStore.mode()) return Promise.resolve(global.FRStore.facts());
+      return global.FRStore.init().then(function () { return global.FRStore.facts(); });
+    }
     if (_facts) return Promise.resolve(_facts);
     return Promise.all(FACT_SHARDS.map(function (f) {
       return fetch(f, { cache: 'no-store' })
@@ -224,7 +230,9 @@
             '<div class="lib-ans">A: ' + escH(f.answer) + '</div>' +
             '<div class="lib-src">' + ((f.sources || []).map(function (s) {
               return '<code>' + escH(s) + '</code>'; }).join(' &middot; ') || 'no source') +
-              (ok ? '' : '<button class="btn-approve" data-approve="' + escH(f.id) +
+              (ok ? '' : '<label class="pickwrap"><input type="checkbox" class="pick" ' +
+                         'value="' + escH(f.id) + '"> select</label>' +
+                         '<button class="btn-approve" data-approve="' + escH(f.id) +
                          '">Approve</button>') +
             '</div></div>');
         });
@@ -251,7 +259,13 @@
         });
       }
 
-      var head = '<div style="font-size:.78rem;opacity:.6;margin-bottom:.8rem">' +
+      var pend = rows.filter(function (r) { return r.indexOf('class="pick"') !== -1; }).length;
+      var bulk = pend ? '<div class="bulkbar">' +
+          '<label><input type="checkbox" id="pick-all"> select all ' + pend + ' shown</label>' +
+          '<button class="btn-approve" id="approve-picked">Approve selected</button>' +
+          '<span id="pick-count" style="opacity:.55;font-size:.75rem"></span></div>' : '';
+
+      var head = bulk + '<div style="font-size:.78rem;opacity:.6;margin-bottom:.8rem">' +
         shownF + ' fact' + (shownF === 1 ? '' : 's') + ', ' +
         shownQ + ' question' + (shownQ === 1 ? '' : 's') +
         (q ? ' matching "' + escH(q) + '"' : '') + '</div>';
@@ -265,6 +279,7 @@
         : '<em style="opacity:.6">Nothing matches.</em>');
 
       wireApprovals(el);
+      wireBulk(el);
     }).catch(function (err) {
       el.innerHTML = '<span style="color:#c66">Library failed to load. See console.</span>';
       console.error('library:', err);
@@ -281,9 +296,7 @@
         var who = (global.auth && global.auth.currentUser && global.auth.currentUser.email) || '';
         btn.disabled = true; btn.textContent = 'Approving...';
         try {
-          if (!global.FRStore.isConnected()) await global.FRStore.connect('local');
           await global.FRStore.approve(id, who);
-          _facts = null;                       // force a reread next render
           btn.textContent = 'Approved';
           btn.style.background = '#2a4a2a';
         } catch (e) {
@@ -293,6 +306,41 @@
         }
       };
     });
+  }
+
+  function wireBulk(root) {
+    var all   = root.querySelector('#pick-all');
+    var go    = root.querySelector('#approve-picked');
+    var count = root.querySelector('#pick-count');
+    if (!go) return;
+    function picked() {
+      return Array.prototype.slice.call(root.querySelectorAll('.pick:checked'))
+        .map(function (c) { return c.value; });
+    }
+    function tally() { if (count) count.textContent = picked().length + ' selected'; }
+    root.querySelectorAll('.pick').forEach(function (c) { c.onchange = tally; });
+    if (all) all.onchange = function () {
+      root.querySelectorAll('.pick').forEach(function (c) { c.checked = all.checked; });
+      tally();
+    };
+    go.onclick = async function () {
+      var ids = picked();
+      var who = (global.auth && global.auth.currentUser && global.auth.currentUser.email) || '';
+      if (!ids.length) { alert('Select some facts first.'); return; }
+      if (!confirm('Approve ' + ids.length + ' fact' + (ids.length === 1 ? '' : 's') +
+                   ' as ' + who + '?\n\nApproval says a person read the claim and ' +
+                   'checked it against its sources.')) return;
+      go.disabled = true; go.textContent = 'Approving...';
+      try {
+        var n = await global.FRStore.approveMany(ids, who);
+        go.textContent = 'Approved ' + n;
+        if (global.FRAdminRefreshLibrary) global.FRAdminRefreshLibrary();
+      } catch (e) {
+        go.disabled = false; go.textContent = 'Approve selected';
+        alert(e.message); console.error(e);
+      }
+    };
+    tally();
   }
 
   global.FRReviewQueue = {
