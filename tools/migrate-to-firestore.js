@@ -151,7 +151,14 @@ function splitDay(dateKey, data) {
 async function main() {
   const args = parseArgs(process.argv.slice(2));
 
-  let files = fs.readdirSync(QDIR).filter(f => f.endsWith('.json')).sort();
+  // Dated files only. questions-src/ also holds index.json, which is a
+  // manifest, not a quiz day: it has no date, so publishAtFor() returns an
+  // Invalid Date and the run dies printing the summary. preflight.py hit the
+  // same thing after the go-dark rename. Every tool that walks this directory
+  // needs the same guard, so it is spelled the same way in each.
+  let files = fs.readdirSync(QDIR)
+                .filter(f => /^\d{4}-\d{2}-\d{2}\.json$/.test(f))
+                .sort();
   if (args.only) files = files.filter(f => f.slice(0, -5) === args.only);
   if (args.from) files = files.filter(f => f.slice(0, -5) >= args.from);
 
