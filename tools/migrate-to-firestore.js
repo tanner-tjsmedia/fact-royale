@@ -102,16 +102,24 @@ function splitDay(dateKey, data) {
       category:    q.category || '',
       question:    q.question,
       options:     q.options,
-      memory_hook: q.memory_hook || '',
-      // answer and explanation ride in the PUBLIC document through phase 2,
-      // because grading is still client-side and a client that cannot read the
-      // answer cannot mark the quiz. They are still behind publishAt, so
-      // tomorrow's answers are unreachable today - which is the leak that
-      // actually matters. Phase 3 moves grading to a Cloud Function and these
-      // two fields come out. quizKeys/ below is populated now so that is a
-      // one-line change rather than a second migration.
-      answer:      q.answer,
-      explanation: q.explanation || ''
+      memory_hook: q.memory_hook || ''
+      // NO answer, NO explanation.
+      //
+      // Through phase 2 these rode in the public document, because grading
+      // was client-side and a client that cannot read the answer cannot mark
+      // the quiz. publishAt still hid tomorrow's answers, which was the leak
+      // that mattered most, and that was a reasonable trade at the time.
+      //
+      // Dropped 2026-10-09. The decision was taken to ship server-side
+      // grading before relaunch rather than after, so there is no phase-2
+      // window to support: writing them here would mean publishing 82
+      // documents in a shape we would immediately rewrite, and running a
+      // knowingly readable answer key in the meantime for no gain, since
+      // nobody is playing while the site is dark.
+      //
+      // The answers live in quizKeys/, which no client can read in any
+      // circumstance. functions/ grades against it and returns only a score.
+      // The client never holds an answer it has not already committed to.
       // NO verification metadata. An earlier version shipped riskTier and
       // sourceRefs in the public document, on the theory that showing
       // sources differentiates a trivia app built on accuracy.
