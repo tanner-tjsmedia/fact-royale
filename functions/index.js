@@ -315,7 +315,7 @@ async function openQuizOrThrow(date) {
    would mean the server string-matching against the key, which is the join
    the two-collection split exists to prevent.
 */
-exports.commitAnswer = onCall({ region: 'us-central1' }, async (req) => {
+exports.commitAnswer = onCall({ region: 'us-central1', cors: true }, async (req) => {
   const uid = req.auth && req.auth.uid;
   if (!uid)
     throw new HttpsError('unauthenticated', 'No session. Reload the page.');
@@ -371,7 +371,7 @@ exports.commitAnswer = onCall({ region: 'us-central1' }, async (req) => {
    wrong, which is the correct reading of an abandoned quiz: it cannot be
    worth more than the questions actually answered.
 */
-exports.submitQuiz = onCall({ region: 'us-central1' }, async (req) => {
+exports.submitQuiz = onCall({ region: 'us-central1', cors: true }, async (req) => {
   const uid = req.auth && req.auth.uid;
   if (!uid)
     throw new HttpsError('unauthenticated', 'No session. Reload the page.');
