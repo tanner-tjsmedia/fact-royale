@@ -387,6 +387,7 @@ let answered       = false;
 let categoryScores = {}; // { "History": {correct:0, total:0}, ... }
 let todayKey       = '';   // "2026-06-13"
 let isArchivePlay  = false; // true when loading a past date via ?date= param
+let isReplayView   = false; // true when rebuilding a finished run from the server record
 let activeQuizDate = '';    // the date key for the current quiz (today or archive)
 
 // ── Challenge State ────────────────────────────────────
@@ -593,6 +594,39 @@ function finalizeQuizRemote(dateKey) {
       return d;
     })
     .catch(err => { console.error('[FR] finalize failed', err); return null; });
+}
+
+/* Rebuild the results screen from the server's record rather than from
+   localStorage.
+
+   Needed because the thing that sends a player here is localStorage being
+   gone - so reading the score back out of localStorage, which is what
+   showResultsFromStorage() does, would show them a zero. The server has the
+   real answers; perQuestion plus the loaded questions is enough to
+   reconstruct the per-category breakdown exactly. */
+async function showRecordedResults(dateKey) {
+  const res = await finalizeQuizRemote(dateKey);
+  if (!res || !res.perQuestion) {
+    // Could not reach the server. Fall back to whatever is local; it may be
+    // empty, but a results screen beats being stranded on a locked question.
+    if (typeof showResultsFromStorage === 'function') showResultsFromStorage();
+    return;
+  }
+
+  // showResults() normally means "a run just finished": it bumps the streak
+  // and logs a play. Neither is true here, so say so before calling it.
+  isReplayView = true;
+
+  score = 0;
+  categoryScores = {};
+  questions.forEach(q => {
+    if (!categoryScores[q.category]) categoryScores[q.category] = { correct: 0, total: 0 };
+    categoryScores[q.category].total++;
+    const pq = res.perQuestion[q.id];
+    if (pq && pq.correct) { score++; categoryScores[q.category].correct++; }
+  });
+
+  showResults();
 }
 
 function gradeLocally(q, choice) {
@@ -818,6 +852,7 @@ function startQuiz() {
   currentIndex = 0;
   score        = 0;
   answered     = false;
+  isReplayView = false;
   categoryScores = {};
 
   // Init category score trackers
@@ -959,6 +994,28 @@ async function handleAnswer(selected, q) {
       fb.className   = 'feedback-result wrong';
       document.getElementById('feedback-box').style.display = 'block';
     }
+    return;
+  }
+
+  /* A replay means the server already holds a choice for this question, so
+     the verdict it just returned describes the player's EARLIER answer, not
+     the one they just tapped. Showing it would tell someone "correct" for an
+     option they did not pick.
+
+     Reachable without any trickery: the daily replay guard is localStorage,
+     so clearing site data hands the quiz back while the attempt record on the
+     server stays put. Before server grading that was harmless, because the
+     browser regraded from scratch and the duplicate-score guard caught the
+     rest. It is not harmless now.
+
+     So the server, not localStorage, is the authority on whether this date
+     has been played. If the first commit of a run comes back as a replay,
+     this is a replay. */
+  if (verdict.replay) {
+    console.info('[FR] server already holds answers for', progressQuizDate());
+    clearProgress();
+    await showRecordedResults(progressQuizDate());
+    if (grid) grid.classList.remove('awaiting');
     return;
   }
 
@@ -1147,7 +1204,10 @@ function showResults() {
   // Daily play: update local streak + log metrics
   // Archive play: skip both (don't affect streak, don't log to anon metrics)
   let streak = getStreak();
-  if (!isArchivePlay) {
+  // isReplayView: this screen is reconstructing a run that already happened
+  // (see showRecordedResults). Bumping the streak or logging a second play
+  // for it would reward clearing localStorage.
+  if (!isArchivePlay && !isReplayView) {
     streak = saveResult(score);
     logPlayToFirestore(score, questions.length);
   }
@@ -1161,7 +1221,7 @@ function showResults() {
   // below was tallied from the server's own per-question verdicts, so the two
   // cannot disagree for a completed quiz, and blocking the results reveal on a
   // second round trip would cost the best moment in the product a spinner.
-  if (gradingMode === 'server' && !isArchivePlay) {
+  if (gradingMode === 'server' && !isArchivePlay && !isReplayView) {
     finalizeQuizRemote(activeQuizDate);
   }
 

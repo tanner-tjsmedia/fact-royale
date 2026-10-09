@@ -205,11 +205,12 @@ document.getElementById('form-signup').addEventListener('submit', async (e) => {
   btn.disabled    = true;
 
   try {
-    const cred = await auth.createUserWithEmailAndPassword(email, password);
+    const cred = await upgradeOrCreateEmailAccount(email, password);
     await cred.user.updateProfile({ displayName: name });
     await createUserProfile(cred.user, name, firstName, lastName);
     logSignupToSheet(email, name, firstName, lastName, 'account');
     await linkPendingChallenge(cred.user);
+    await claimTodaysRow();
     closeAuthModal();
   } catch (err) {
     errorEl.textContent = friendlyAuthError(err.code);
@@ -222,7 +223,7 @@ document.getElementById('form-signup').addEventListener('submit', async (e) => {
 document.getElementById('btn-google-signin').addEventListener('click', async () => {
   const provider = new firebase.auth.GoogleAuthProvider();
   try {
-    const cred = await auth.signInWithPopup(provider);
+    const cred = await upgradeOrSignInWithPopup(provider);
     const profileRef = db.collection('users').doc(cred.user.uid);
     const snap = await profileRef.get();
     if (!snap.exists) {
@@ -241,6 +242,81 @@ document.getElementById('btn-google-signin').addEventListener('click', async () 
     }
   }
 });
+
+/* ── Account upgrade, not account replacement ──────────
+   Every player now holds an anonymous uid so the server can pin their
+   answers before revealing anything (see firebase-config.js). Their
+   committed answers live at attempts/{uid}_{date}, and submitQuiz grades
+   exactly that document.
+
+   createUserWithEmailAndPassword() and signInWithPopup() both THROW AWAY the
+   anonymous session and mint a fresh uid. Used here unchanged, they would
+   have orphaned every answer a player committed before signing up - so
+   someone who played the quiz, saw "sign up to get on the leaderboard", and
+   signed up would have landed on an account with no attempt record, no score
+   row, and no explanation. The nudge would have been false, and the funnel
+   that nudge exists to drive is the main reason anonymous play is allowed at
+   all.
+
+   linkWithCredential / linkWithPopup upgrade the SAME uid in place. The
+   attempt record carries over, so claimTodaysRow() below can finish the job
+   the moment they have a display name.
+
+   The one case that cannot be saved: the credential already belongs to
+   another account. Two uids cannot be merged from the client, so this signs
+   them in normally and the anonymous attempt is left behind. That is the
+   correct outcome - they are a returning player, not a new one, and their
+   real history is on the account they just proved they own. */
+async function upgradeOrCreateEmailAccount(email, password) {
+  const anon = auth.currentUser;
+  if (anon && anon.isAnonymous) {
+    const credential = firebase.auth.EmailAuthProvider.credential(email, password);
+    try {
+      return await anon.linkWithCredential(credential);
+    } catch (err) {
+      if (err.code === 'auth/email-already-in-use' ||
+          err.code === 'auth/credential-already-in-use' ||
+          err.code === 'auth/provider-already-linked') {
+        throw err;   // surfaced to the user by friendlyAuthError
+      }
+      console.warn('[FR] anonymous upgrade failed, creating a fresh account:', err.code);
+    }
+  }
+  return auth.createUserWithEmailAndPassword(email, password);
+}
+
+async function upgradeOrSignInWithPopup(provider) {
+  const anon = auth.currentUser;
+  if (anon && anon.isAnonymous) {
+    try {
+      return await anon.linkWithPopup(provider);
+    } catch (err) {
+      if (err.code === 'auth/popup-closed-by-user') throw err;
+      // Already a Fact Royale player on this Google account. Sign them in and
+      // let the anonymous attempt go; their real history is on that account.
+      console.info('[FR] Google account already exists, signing in:', err.code);
+    }
+  }
+  return auth.signInWithPopup(provider);
+}
+
+/* The payoff for the upgrade above: if this player already finished today's
+   quiz as an anonymous session, their answers are on record and the only
+   thing that was missing was a name. Now that they have one, ask the server
+   to write the row.
+
+   Idempotent and safe to call on every signup: submitQuiz refuses to
+   overwrite an existing row, and returns recorded:false if there are no
+   committed answers to grade. */
+async function claimTodaysRow() {
+  if (typeof finalizeQuizRemote !== 'function') return;   // not on the quiz page
+  try {
+    const key = (typeof getTodayKey === 'function') ? getTodayKey() : null;
+    if (!key) return;
+    const res = await finalizeQuizRemote(key);
+    if (res && res.recorded) console.info('[FR] leaderboard row claimed for', key);
+  } catch (e) { /* best effort: signup must not fail on this */ }
+}
 
 // ── Pending Challenge Linker ───────────────────────────
 // If an anonymous user sent a challenge before signing up, we stored the
