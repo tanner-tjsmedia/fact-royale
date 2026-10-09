@@ -65,12 +65,35 @@ const QDIR = path.join(__dirname, '..', 'questions-src');
 const PUBLISH_OFFSET_HOURS = 5;
 
 function parseArgs(argv) {
-  const a = { dryRun: false, from: null, only: null };
+  const a = { dryRun: false, from: null, only: null, publishAs: null };
   for (let i = 0; i < argv.length; i++) {
     if (argv[i] === '--dry-run') a.dryRun = true;
     else if (argv[i] === '--from') a.from = argv[++i];
     else if (argv[i] === '--only') a.only = argv[++i];
+    else if (argv[i] === '--publish-as') a.publishAs = argv[++i];
     else { console.error(`unknown argument: ${argv[i]}`); process.exit(2); }
+  }
+
+  // --publish-as writes one source day under a DIFFERENT date key. It exists
+  // because the corpus stops at 2026-09-06 while the clock does not: with
+  // every document in the past there is no "today" to load, and the main
+  // quiz path cannot be exercised at all.
+  //
+  // Narrow on purpose. It demands --only, so it can never re-date a range by
+  // accident, and it is a testing affordance rather than a content tool. If
+  // the decision is ever taken to republish the back catalogue on new dates,
+  // that belongs in a script of its own that also deals with the players who
+  // already answered those questions. This one would happily hand someone a
+  // quiz they have seen.
+  if (a.publishAs) {
+    if (!a.only) {
+      console.error('--publish-as requires --only <source-date>.');
+      process.exit(2);
+    }
+    if (!/^\d{4}-\d{2}-\d{2}$/.test(a.publishAs)) {
+      console.error('--publish-as needs a YYYY-MM-DD date.');
+      process.exit(2);
+    }
   }
   return a;
 }
@@ -184,7 +207,12 @@ async function main() {
   const allProblems = [];
 
   for (const f of files) {
-    const dateKey = f.slice(0, -5);
+    const sourceKey = f.slice(0, -5);
+    // The key the documents are written under. Normally the source date.
+    const dateKey   = args.publishAs || sourceKey;
+    if (args.publishAs) {
+      console.log(`publishing ${sourceKey} AS ${dateKey}`);
+    }
     const data = JSON.parse(fs.readFileSync(path.join(QDIR, f), 'utf8'));
     const split = splitDay(dateKey, data);
     allProblems.push(...split.problems);
