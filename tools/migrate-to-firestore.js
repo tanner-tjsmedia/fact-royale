@@ -49,15 +49,20 @@ const path = require('path');
 
 const QDIR = path.join(__dirname, '..', 'questions-src');
 
-// Publish at local midnight of the quiz date. The daily quiz is keyed to the
-// player's local clock (see quiz.js getTodayKey), so a player east of UTC
-// reaches their date first. Publishing at UTC midnight would leave them
-// staring at a locked quiz for up to twelve hours.
+// Publish at 05:00 UTC on the quiz date: one global reset for every player,
+// which is midnight in New York in winter and 01:00 there in summer.
 //
-// PUBLISH_OFFSET_HOURS shifts publication earlier to cover that. -14 covers
-// every inhabited timezone (UTC+14, Kiritimati). Set to 0 for strict UTC
-// midnight if the daily quiz ever moves to a fixed global reset.
-const PUBLISH_OFFSET_HOURS = -14;
+// This was -14. The quiz date used to come from the player's own clock, so
+// publication had to run 14 hours early to cover UTC+14 and spare the first
+// timezone on Earth a locked quiz. The cost was that everybody else could
+// fetch tomorrow's questions up to eighteen hours before their own day began
+// - fine for a solo puzzle, not fine next to a leaderboard.
+//
+// Changed 2026-10-09 with quiz.js moving to a shared reset. The two constants
+// must agree: this one decides when a document becomes readable, and
+// QUIZ_RESET_UTC_HOUR in _app/quiz.js decides which date the client asks for.
+// If they drift the client requests a day the server has not published yet.
+const PUBLISH_OFFSET_HOURS = 5;
 
 function parseArgs(argv) {
   const a = { dryRun: false, from: null, only: null };

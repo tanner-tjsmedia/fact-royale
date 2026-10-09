@@ -394,12 +394,34 @@ let challengeData = null; // { from, score, total, date } when playing a challen
 
 // ── Helpers ────────────────────────────────────────────
 
+// ── The quiz day ───────────────────────────────────────
+// ONE global reset for everybody: 05:00 UTC, which is midnight in New York
+// through the winter and 01:00 there in summer. A fixed instant rather than a
+// DST-aware "midnight ET", because a shifting reset means one day a year has
+// an hour that does not exist and another has it twice, and a daily quiz
+// cannot afford either.
+//
+// This replaces deriving the date from the player's own clock. That was the
+// right call while quizzes were static files, but it cannot survive a
+// leaderboard: publishAt had to be set 14 hours early so the first timezone
+// on Earth never saw a locked quiz, which meant everyone else could fetch
+// tomorrow's questions up to eighteen hours before their own day started. A
+// shared reset closes that window and makes every score comparable, because
+// every player gets the same quiz at the same instant.
+//
+// Must stay in step with PUBLISH_OFFSET_HOURS in tools/migrate-to-firestore.js.
+// If they disagree the client asks for a date the server has not published.
+const QUIZ_RESET_UTC_HOUR = 5;
+
+/** The quiz date key, optionally N days back. UTC date of (now - reset). */
+function quizDayKey(daysBack) {
+  const d = new Date(Date.now() - QUIZ_RESET_UTC_HOUR * 3600000);
+  if (daysBack) d.setUTCDate(d.getUTCDate() - daysBack);
+  return d.toISOString().slice(0, 10);
+}
+
 function getTodayKey() {
-  const d = new Date();
-  const yyyy = d.getFullYear();
-  const mm   = String(d.getMonth() + 1).padStart(2, '0');
-  const dd   = String(d.getDate()).padStart(2, '0');
-  return `${yyyy}-${mm}-${dd}`;
+  return quizDayKey(0);
 }
 
 function shuffle(arr) {
@@ -482,11 +504,9 @@ function getLastPlayed() {
 }
 
 function saveResult(finalScore) {
-  const yesterday = (() => {
-    const d = new Date();
-    d.setDate(d.getDate() - 1);
-    return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;
-  })();
+  // Quiz days, not device days: a streak must break on the same boundary
+  // the quiz itself rolls over on.
+  const yesterday = quizDayKey(1);
 
   const lastPlayed = getLastPlayed();
   let streak = getStreak();
@@ -1246,9 +1266,7 @@ async function showCatchUpSection() {
     let oldestMissed = null;
     let missedCount  = 0;
     for (let i = ARCHIVE_FREE_DAYS; i >= 1; i--) {
-      const d = new Date();
-      d.setDate(d.getDate() - i);
-      const dateKey = `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;
+      const dateKey = quizDayKey(i);
       if (dateKey === activeQuizDate) continue; // skip what we just played
       if (!completedDates.includes(dateKey)) {
         if (!oldestMissed) oldestMissed = dateKey;
@@ -1305,9 +1323,7 @@ async function populateCatchUpOnLanding() {
     let oldestMissed = null;
     let missedCount  = 0;
     for (let i = ARCHIVE_FREE_DAYS; i >= 1; i--) {
-      const d = new Date();
-      d.setDate(d.getDate() - i);
-      const dateKey = `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;
+      const dateKey = quizDayKey(i);
       if (!completedDates.includes(dateKey)) {
         if (!oldestMissed) oldestMissed = dateKey;
         missedCount++;
