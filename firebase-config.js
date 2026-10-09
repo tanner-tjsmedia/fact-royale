@@ -22,6 +22,41 @@ const auth = firebase.auth();
 const db   = firebase.firestore();
 
 
+/* ── Who is an admin ───────────────────────────────────
+   One list, imported everywhere. The address used to be written out as a
+   literal in five places - firestore.rules plus admin.html, live.html,
+   review.html and studio.html - which is five places to miss when it
+   changes. It just changed.
+
+   A LIST, not a string, because an email migration has an overlap period.
+   tanner@tjs16media.com became tanner@takt16.com in October 2026, and which
+   identity a given Firebase Auth session carries depends on how that sign-in
+   was created: a Google sign-in follows the Workspace account, an
+   email/password record keeps whatever address it was registered with. Both
+   are allowed until it is confirmed which one the live session actually
+   presents, because the failure mode of guessing wrong is being locked out
+   of the admin console, the question bank and the fact bank at once.
+
+   Drop the old address once admin.html has been opened successfully on the
+   new one. Leaving a dead address here is a standing liability: if that
+   domain is ever released, whoever registers it next inherits admin.
+
+   firestore.rules keeps its own copy of this list because rules cannot
+   import from JavaScript. That one is the copy that actually enforces
+   anything; these are UI gates. They must be changed together. */
+const FR_ADMIN_EMAILS = [
+  'tanner@takt16.com',      // current
+  'tanner@tjs16media.com'   // legacy, remove once the new one is confirmed
+];
+
+/** The address to prefill on sign-in and attribute new work to. */
+const FR_ADMIN_PRIMARY = FR_ADMIN_EMAILS[0];
+
+function isAdminEmail(email) {
+  return !!email && FR_ADMIN_EMAILS.indexOf(String(email).toLowerCase()) !== -1;
+}
+
+
 /* ── Account session vs. grading session ───────────────
    Two kinds of signed-in exist as of server-side grading, and conflating
    them is the easiest way to break this app.

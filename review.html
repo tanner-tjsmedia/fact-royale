@@ -11,7 +11,7 @@
   <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-app-compat.js"></script>
   <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-auth-compat.js"></script>
   <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore-compat.js"></script>
-  <script src="firebase-config.js?v=3"></script>
+  <script src="firebase-config.js?v=4"></script>
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -230,7 +230,9 @@ details p{margin:.5rem 0 0}
 
 <script src="review-queue.js?v=2"></script>
 <script>
-const ADMIN_EMAIL = 'tanner@tjs16media.com';
+// The list lives in firebase-config.js. This is the address to prefill
+// on the sign-in prompt; isAdminEmail() decides who actually gets in.
+const ADMIN_EMAIL = FR_ADMIN_PRIMARY;
 
 // One renderer, shared with admin.html. See the header of review-queue.js for
 // why this is not a second copy.
@@ -244,7 +246,7 @@ let _signingIn = false;
 
 auth.onAuthStateChanged(user => {
   document.getElementById('loading').style.display = 'none';
-  if (user && user.email === ADMIN_EMAIL) {
+  if (user && isAdminEmail(user.email)) {
     document.getElementById('gate').style.display = 'none';
     document.getElementById('app').style.display  = 'block';
     learnCorpusRange().then(() => {

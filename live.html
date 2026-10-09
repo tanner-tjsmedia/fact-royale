@@ -234,7 +234,7 @@ input[type=number],input[type=text],select{width:100%;background:var(--panel-2);
 <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-app-compat.js"></script>
 <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-auth-compat.js"></script>
 <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore-compat.js"></script>
-<script src="/firebase-config.js?v=3"></script>
+<script src="/firebase-config.js?v=4"></script>
 <script>
 // ═══════════════════════════════════════════════════════
 // FACT ROYALE — LIVE HOST CONSOLE
@@ -252,7 +252,9 @@ input[type=number],input[type=text],select{width:100%;background:var(--panel-2);
 // any of them consuming it.
 // ═══════════════════════════════════════════════════════
 
-const ADMIN_EMAIL = 'tanner@tjs16media.com';
+// The list lives in firebase-config.js. This is the address to prefill
+// on the sign-in prompt; isAdminEmail() decides who actually gets in.
+const ADMIN_EMAIL = FR_ADMIN_PRIMARY;
 const CATEGORIES  = ['History','Sports','Pop Culture','Geography','Science & Nature'];
 
 let INDEX = null;          // questions/index.json
@@ -268,7 +270,7 @@ const show = id => document.querySelectorAll('.screen')
 // This line referenced `firebaseConfig`, which does not exist
 // (the config is FIREBASE_CONFIG), and threw on every load.
 firebase.auth().onAuthStateChanged(async user => {
-  if (user && user.email === ADMIN_EMAIL) {
+  if (user && isAdminEmail(user.email)) {
     $('hdr-right').textContent = user.email;
     await loadIndex();
     renderTeams(); renderCats(); updateSummary();

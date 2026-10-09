@@ -15,7 +15,7 @@
 <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-app-compat.js"></script>
 <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-auth-compat.js"></script>
 <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore-compat.js"></script>
-<script src="firebase-config.js?v=3"></script>
+<script src="firebase-config.js?v=4"></script>
 
 <style>
 /* Page layout only. Every colour, size and curve comes from tokens.css.
@@ -206,7 +206,9 @@
 /* ============================================================
    ACCESS
    ============================================================ */
-const ADMIN_EMAIL = 'tanner@tjs16media.com';
+// The list lives in firebase-config.js. This is the address to prefill
+// on the sign-in prompt; isAdminEmail() decides who actually gets in.
+const ADMIN_EMAIL = FR_ADMIN_PRIMARY;
 // firebase-config.js has already called initializeApp() and declared `auth`
 // and `db` as globals. Re-declaring either is a SyntaxError that silently
 // kills this whole script, so use what is already there.
@@ -220,7 +222,7 @@ document.getElementById('signin').onclick = () => {
 };
 auth.onAuthStateChanged(u => {
   document.getElementById('loading').classList.add('hidden');
-  const ok = u && u.email === ADMIN_EMAIL;
+  const ok = u && isAdminEmail(u.email);
   document.getElementById('app').classList.toggle('hidden', !ok);
   document.getElementById('gate').classList.toggle('hidden', ok);
   if (u && !ok) {
@@ -699,7 +701,7 @@ function setState(state) {
   q.review = {
     state,
     at: state === 'unreviewed' ? null : new Date().toISOString().slice(0, 10),
-    by: state === 'unreviewed' ? null : ADMIN_EMAIL,
+    by: state === 'unreviewed' ? null : ((auth.currentUser && auth.currentUser.email) || null),
     note: q.review.note || null
   };
   dirty(); toast(q.id + ' → ' + state); render();

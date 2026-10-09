@@ -11,9 +11,26 @@ service cloud.firestore {
     // real hardening, but if the admin account was created without
     // verification it locks the admin out of their own console. Decide that
     // one on purpose, not as a side effect of this fix.
+    // A LIST, because an email migration has an overlap period.
+    // tanner@tjs16media.com became tanner@takt16.com in October 2026. Which
+    // address a live session presents depends on how that sign-in was
+    // created, and guessing wrong here locks the admin out of the console,
+    // the question bank and the fact bank simultaneously - recoverable only
+    // by redeploying rules.
+    //
+    // Must stay in step with FR_ADMIN_EMAILS in firebase-config.js. Rules
+    // cannot import from JavaScript, so this duplication is forced; the two
+    // are changed together or not at all. THIS is the copy that enforces.
+    //
+    // Remove the legacy address once admin.html has been opened successfully
+    // on the new one. A dead address left here means whoever registers that
+    // domain next inherits admin.
     function isAdmin() {
       return request.auth != null
-             && request.auth.token.email == 'tanner@tjs16media.com';
+             && request.auth.token.email in [
+                  'tanner@takt16.com',
+                  'tanner@tjs16media.com'
+                ];
     }
 
     // ── Daily leaderboard scores (public read, server write only) ──
