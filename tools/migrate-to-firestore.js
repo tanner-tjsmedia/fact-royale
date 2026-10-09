@@ -241,14 +241,50 @@ async function main() {
     return;
   }
 
-  if (!process.env.GOOGLE_APPLICATION_CREDENTIALS) {
+  // Check the credential before touching the SDK.
+  //
+  // This used to test only that the variable was non-empty, so a path with a
+  // typo in it passed, and the run then died inside firebase-admin with a
+  // TypeError about a property of undefined. The real problem - "that file is
+  // not there" - appeared nowhere in the output. A guard that confirms the
+  // variable is set but not that it points at anything is not a guard.
+  const keyPath = process.env.GOOGLE_APPLICATION_CREDENTIALS;
+  if (!keyPath) {
     console.error('\nGOOGLE_APPLICATION_CREDENTIALS is not set. See the header of this file.');
     process.exit(1);
   }
+  if (!fs.existsSync(keyPath)) {
+    console.error(`\nGOOGLE_APPLICATION_CREDENTIALS points at a file that does not exist:\n  ${keyPath}`);
+    console.error('\nFind the key (Git Bash):');
+    console.error('  ls ~/keys ~/.fact-royale 2>/dev/null');
+    console.error('  find /c/Users/tanne -maxdepth 4 -name "*firebase*adminsdk*.json" 2>/dev/null');
+    console.error('\nIf there is no key, generate one: Firebase console -> Project settings');
+    console.error('-> Service accounts -> Generate new private key. Save it OUTSIDE this repo.');
+    process.exit(1);
+  }
+  try {
+    const parsed = JSON.parse(fs.readFileSync(keyPath, 'utf8'));
+    if (parsed.type !== 'service_account' || !parsed.project_id) {
+      console.error(`\n${keyPath} is JSON but not a service account key.`);
+      process.exit(1);
+    }
+    console.log(`\ncredential  ${parsed.client_email}  (project ${parsed.project_id})`);
+  } catch (e) {
+    console.error(`\n${keyPath} could not be read as JSON: ${e.message}`);
+    process.exit(1);
+  }
 
-  const admin = require('firebase-admin');
-  admin.initializeApp({ credential: admin.credential.applicationDefault() });
-  const db = admin.firestore();
+  // Modular entry points, not the legacy default export.
+  //
+  // firebase-admin 14 (installed at the repo root) no longer exposes
+  // admin.credential on the package's main export, so
+  // `require('firebase-admin').credential.applicationDefault()` threw
+  // "Cannot read properties of undefined". functions/index.js already uses
+  // the modular form; this file was written against v12 and never updated.
+  const { initializeApp, applicationDefault } = require('firebase-admin/app');
+  const { getFirestore } = require('firebase-admin/firestore');
+  initializeApp({ credential: applicationDefault() });
+  const db = getFirestore();
 
   let written = 0;
   // Firestore caps a batch at 500 writes. Two documents per day, so 200 days
