@@ -155,6 +155,47 @@ def check_facts(sources):
                 B(f'{fid}: superlative claim uses a vague word with no stated '
                   f'measure - this is the Marciano failure')
 
+            # subject and answer: what makes a fact GENERATIVE rather than
+            # merely citable. See FACT-LAYER section 9.
+            subj = (f.get('subject') or '').strip()
+            ans  = (f.get('answer') or '').strip()
+            if not subj:
+                B(f'{fid}: no subject - the fact cannot generate a question')
+            if not ans:
+                B(f'{fid}: no answer - nothing marks which part of the claim '
+                  f'is being asked for')
+            if ans and claim and ans.lower() not in claim.lower():
+                W(f'{fid}: answer "{ans[:40]}" does not appear verbatim in the '
+                  f'claim. Allowed if entailed, but check it is not asserting '
+                  f'something the claim never verified.')
+            if ans and subj and ans.lower() in subj.lower():
+                B(f'{fid}: the subject contains the answer, which gives it away')
+
+            # Source COUNT is set by riskTier. FACT-LAYER section 2.
+            srcs = f.get('sources', [])
+            tier = f.get('riskTier')
+            need = {'canonical': 1, 'standard': 1, 'volatile': 3}.get(tier)
+            if need and len(srcs) < need:
+                B(f'{fid}: riskTier "{tier}" needs {need} source(s), has {len(srcs)}')
+            if tier == 'volatile':
+                prim = sum(1 for s in srcs
+                           if sources.get(s, {}).get('tier') == 'primary')
+                if prim < 1:
+                    B(f'{fid}: volatile claims need at least one PRIMARY source')
+
+            tg = f.get('tags', [])
+            if not 2 <= len(tg) <= 4:
+                W(f'{fid}: {len(tg)} tags, expected 2 to 4')
+
+            era = f.get('era')
+            if isinstance(era, dict):
+                fr, to = era.get('from'), era.get('to')
+                if fr is not None and to is not None and fr > to:
+                    B(f'{fid}: era from {fr} is after to {to}')
+                # Negative means BC by our own convention, not ISO 8601.
+                if fr is not None and not -4000 <= fr <= 2100:
+                    W(f'{fid}: era.from {fr} is outside a plausible range')
+
             if f.get('status') not in VALID_STATUS:
                 B(f'{fid}: status "{f.get("status")}" invalid')
             if f.get('volatility') and f['volatility'] not in VALID_VOLATILE:

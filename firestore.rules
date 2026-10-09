@@ -16,36 +16,44 @@ service cloud.firestore {
              && request.auth.token.email == 'tanner@tjs16media.com';
     }
 
-    // ── Daily leaderboard scores (public read, write-once) ──
+    // ── Daily leaderboard scores (public read, server write only) ──
     //
-    // A score may be created once and never changed.
+    // NO CLIENT MAY WRITE A SCORE. Not even its own, not even a valid-looking
+    // one. The submitQuiz Cloud Function grades against quizKeys/ and writes
+    // the row through the Admin SDK, which bypasses these rules entirely.
     //
-    // The previous rule allowed update and delete on your own row. That let
-    // a player submit honestly, look at the leaderboard, and then overwrite
-    // their own score with a perfect one. Nothing recorded that it happened.
+    // This closes the hole that survived every earlier version. The old rule
+    // validated the SHAPE of a score - right uid, sane range, correct doc id
+    // - and shape was all it could ever check. A signed-in player could post
+    // a flawless 12/12 without answering a question and no rule could tell.
+    // Rules cannot regrade a quiz; only a server that holds the answer key
+    // can, and no client holds it now.
     //
-    // What this still does NOT prevent: a signed-in user posting 12/12
-    // without playing. Security rules cannot regrade a quiz - only a server
-    // can. That is phase 3 (Cloud Function grading) and stays open until
-    // then. See docs/SECURE-QUESTION-DB.md.
+    // Write-once is enforced in the function's transaction as well, so two
+    // submissions racing cannot both land.
     match /scores/{scoreId} {
       allow read: if true;
+      allow write: if false;
+    }
 
-      allow update, delete: if false;
-
-      allow create: if request.auth != null
-        && request.auth.uid == request.resource.data.uid
-        // The doc id must be uid_date, so one score per player per day and
-        // nobody can write a row under someone else's key.
-        && scoreId == request.auth.uid + '_' + request.resource.data.date
-        && request.resource.data.score is int
-        && request.resource.data.total is int
-        && request.resource.data.total > 0
-        && request.resource.data.total <= 50
-        && request.resource.data.score >= 0
-        && request.resource.data.score <= request.resource.data.total
-        && request.resource.data.displayName is string
-        && request.resource.data.displayName.size() <= 40;
+    // ── Attempt records: the commit half of commit-then-reveal ──
+    //
+    // attempts/{uid}_{date} holds each choice a player committed, with the
+    // instant they committed it. commitAnswer writes it through the Admin
+    // SDK before it reveals anything, and refuses to regrade a question it
+    // already holds - which is what stops a caller walking all four options
+    // to find the right one.
+    //
+    // No client touches this in either direction. If a player could read it
+    // they would learn nothing (it holds their own guesses, not the key), but
+    // if a player could WRITE it they could rewrite history and then call
+    // submitQuiz, which grades exactly this document. So: closed.
+    //
+    // Admin read is for forensics. A row of twelve commits three seconds
+    // apart is a bot; the timestamps are the only place that shows.
+    match /attempts/{attemptId} {
+      allow read: if isAdmin();
+      allow write: if false;
     }
 
     // ── User profiles ──────────────────────────────────────

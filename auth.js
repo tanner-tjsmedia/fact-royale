@@ -347,7 +347,6 @@ async function submitScoreToFirebase(score, total, categoryScores, dateKey, isAr
   const displayName = currentUser.displayName || currentUser.email.split('@')[0];
   const userRef     = db.collection('users').doc(uid);
   const histRef     = userRef.collection('quizHistory').doc(dateKey);
-  const scoreRef    = db.collection('scores').doc(`${uid}_${dateKey}`);
   const masteryRef  = userRef.collection('masteryHistory').doc(dateKey);
 
   // Normalize category keys up front so nothing legacy enters the store
@@ -489,12 +488,19 @@ async function submitScoreToFirebase(score, total, categoryScores, dateKey, isAr
         updates['stats.bestScore']      = isNewBest ? score   : (stats.bestScore || 0);
         updates['stats.bestScoreDate']  = isNewBest ? dateKey : (stats.bestScoreDate || '');
 
-        tx.set(scoreRef, {
-          uid, displayName, score, total,
-          date: dateKey,
-          timestamp: firebase.firestore.FieldValue.serverTimestamp(),
-          categories: cats
-        });
+        // The leaderboard row is NOT written here any more.
+        //
+        // scores/ is server-write-only as of 2026-10-09: the submitQuiz Cloud
+        // Function grades against quizKeys/ and writes the row itself. Leaving
+        // this tx.set in place would fail the whole transaction on a
+        // permission error, taking the player's streak and history down with
+        // a leaderboard row they were never allowed to write.
+        //
+        // What stays here is everything that belongs to the player and only
+        // the player: their own stats, streak, category totals and history,
+        // all under users/{uid} where they do have write access. The score
+        // used below is the one the function returned, not one this client
+        // worked out for itself.
       }
 
       // ---- writes ----
