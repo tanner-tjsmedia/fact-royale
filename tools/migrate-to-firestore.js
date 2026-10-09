@@ -248,12 +248,43 @@ async function main() {
   // TypeError about a property of undefined. The real problem - "that file is
   // not there" - appeared nowhere in the output. A guard that confirms the
   // variable is set but not that it points at anything is not a guard.
+  // Two ways to authenticate, and the second one is better.
+  //
+  //   A. A downloaded service-account key, pointed at by
+  //      GOOGLE_APPLICATION_CREDENTIALS. Works everywhere, needs no extra
+  //      tooling, and leaves a file on disk that never expires and carries
+  //      full administrative rights over the whole project.
+  //
+  //   B. gcloud application-default credentials:
+  //        gcloud auth application-default login
+  //      Google's own recommendation for local development. Writes
+  //      short-lived, refreshable credentials to a well-known path, tied to
+  //      a human account rather than a permanent robot one, and revocable
+  //      from the Google account page. Nothing to leak and nothing to
+  //      rotate. Costs one install of the Google Cloud SDK.
+  //
+  // applicationDefault() finds either. This preflight used to demand the
+  // environment variable, which would have rejected B outright and quietly
+  // pushed the worse option.
   const keyPath = process.env.GOOGLE_APPLICATION_CREDENTIALS;
+
   if (!keyPath) {
-    console.error('\nGOOGLE_APPLICATION_CREDENTIALS is not set. See the header of this file.');
-    process.exit(1);
-  }
-  if (!fs.existsSync(keyPath)) {
+    // No explicit key. Look for gcloud ADC at its well-known location.
+    const adc = process.platform === 'win32'
+      ? path.join(process.env.APPDATA || '', 'gcloud', 'application_default_credentials.json')
+      : path.join(process.env.HOME || '', '.config', 'gcloud', 'application_default_credentials.json');
+
+    if (fs.existsSync(adc)) {
+      console.log(`\ncredential  gcloud application-default\n            ${adc}`);
+    } else {
+      console.error('\nNo credential found. Either:');
+      console.error('\n  gcloud auth application-default login      (recommended, no key file)');
+      console.error('\nor point at a downloaded service-account key:');
+      console.error('  export GOOGLE_APPLICATION_CREDENTIALS="/c/Users/tanne/.fact-royale/key.json"');
+      console.error('\nSee the header of this file.');
+      process.exit(1);
+    }
+  } else if (!fs.existsSync(keyPath)) {
     console.error(`\nGOOGLE_APPLICATION_CREDENTIALS points at a file that does not exist:\n  ${keyPath}`);
     console.error('\nFind the key (Git Bash):');
     console.error('  ls ~/keys ~/.fact-royale 2>/dev/null');
@@ -262,7 +293,10 @@ async function main() {
     console.error('-> Service accounts -> Generate new private key. Save it OUTSIDE this repo.');
     process.exit(1);
   }
-  try {
+  // Only a service-account key can be inspected this way. gcloud ADC is a
+  // different shape, already reported above, and reading it here would have
+  // thrown on an undefined path.
+  if (keyPath) try {
     const parsed = JSON.parse(fs.readFileSync(keyPath, 'utf8'));
     if (parsed.type !== 'service_account' || !parsed.project_id) {
       console.error(`\n${keyPath} is JSON but not a service account key.`);
