@@ -237,11 +237,16 @@ async function main() {
     console.log(JSON.stringify({ ...s.quiz, questions: [s.quiz.questions[0], '…'] }, null, 2));
     console.log('\n--- sample key doc (quizKeys/' + s.key.date + ') ---');
     console.log(JSON.stringify({ date: s.key.date, answers: s.key.answers, explanations: '…' }, null, 2));
-    console.log('\nDRY RUN - nothing written. Drop --dry-run to write.');
-    return;
   }
 
-  // Check the credential before touching the SDK.
+  // The credential check runs on a DRY RUN TOO.
+  //
+  // It used to sit after the dry-run return, which meant the rehearsal
+  // skipped the one step that had actually been failing: you could get a
+  // clean --dry-run and then watch the real run die on authentication. A
+  // rehearsal that omits the risky part is not a rehearsal.
+  //
+  // It is only filesystem reads, so it costs nothing to run either way.
   //
   // This used to test only that the variable was non-empty, so a path with a
   // typo in it passed, and the run then died inside firebase-admin with a
@@ -306,6 +311,11 @@ async function main() {
   } catch (e) {
     console.error(`\n${keyPath} could not be read as JSON: ${e.message}`);
     process.exit(1);
+  }
+
+  if (args.dryRun) {
+    console.log('\nDRY RUN - credential checked, nothing written. Drop --dry-run to write.');
+    return;
   }
 
   // Modular entry points, not the legacy default export.
