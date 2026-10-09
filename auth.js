@@ -4,13 +4,40 @@
    ===================================================== */
 
 // ── Auth State ─────────────────────────────────────────
+//
+// currentUser means ONE thing and has always meant one thing: this player has
+// a real account. Roughly twenty-five places in this codebase branch on its
+// truthiness to decide whether to show personal stats, write mastery, join a
+// group, register for push, or put a name on a leaderboard row.
+//
+// Server-side grading introduced a second kind of session. Every player now
+// signs in anonymously so their answers can be pinned to a uid before the
+// answer is revealed to them (see the grading section of _app/quiz.js). That
+// makes firebase.auth().currentUser truthy for someone who has no account,
+// no email and no profile.
+//
+// Rather than audit twenty-five call sites and get one of them wrong, the
+// distinction is drawn ONCE, here, at the fan-out point. currentUser stays
+// null for an anonymous session, so every downstream check keeps the exact
+// meaning it already had and needed no edit. The anonymous session is still
+// live and reachable through firebase.auth(), which is what the grading
+// module uses and the only thing that should.
+//
+// The concrete bug this avoids: the `if (user)` branch below reads
+// user.email.split('@')[0]. An anonymous user's email is null, so the first
+// anonymous visitor would have hit a TypeError before the quiz ever rendered.
+//
+// isRealUser() and realUser() are defined in firebase-config.js, which every
+// page loads first. They are not redefined here on purpose.
+
 let currentUser = null;
 
 // ── Archive Feature ────────────────────────────────────
 const ARCHIVE_FREE_DAYS = 7;
 
 // ── Auth State Listener ────────────────────────────────
-auth.onAuthStateChanged(user => {
+auth.onAuthStateChanged(rawUser => {
+  const user = isRealUser(rawUser) ? rawUser : null;
   currentUser = user;
   updateNavForAuth(user);
   loadLeaderboard();

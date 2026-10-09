@@ -80,8 +80,9 @@ function computeMasteryScore(categoryMastery) {
 // Returns array of level-up objects: [{category, from, to}]
 
 async function updateCategoryMastery(categoryScores, dateKey) {
-  if (typeof auth === 'undefined' || !auth.currentUser) return [];
-  const uid     = auth.currentUser.uid;
+  const _u = (typeof realUser === 'function') ? realUser() : null;
+  if (!_u) return [];
+  const uid     = _u.uid;
   const userRef = db.collection('users').doc(uid);
 
   let levelUps = [];
@@ -143,7 +144,9 @@ async function loadMasteryPage() {
   const signinEl  = document.getElementById('mastery-signin');
   const contentEl = document.getElementById('mastery-content');
 
-  auth.onAuthStateChanged(async user => {
+  auth.onAuthStateChanged(async rawUser => {
+    // Anonymous grading sessions are not accounts. See firebase-config.js.
+    const user = isRealUser(rawUser) ? rawUser : null;
     if (loadEl)  loadEl.style.display  = 'none';
 
     if (!user) {
@@ -419,7 +422,9 @@ async function loadMasteryTeaser() {
   const teaserEl = document.getElementById('mastery-teaser');
   if (!teaserEl || typeof auth === 'undefined') return;
 
-  auth.onAuthStateChanged(async user => {
+  auth.onAuthStateChanged(async rawUser => {
+    // Anonymous grading sessions are not accounts. See firebase-config.js.
+    const user = isRealUser(rawUser) ? rawUser : null;
     if (!user) { teaserEl.style.display = 'none'; return; }
     try {
       const userRef = db.collection('users').doc(user.uid);

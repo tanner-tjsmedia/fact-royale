@@ -80,6 +80,36 @@ There is no test suite for visuals. Before claiming any item done:
   against class names that did not exist in the HTML, so it silently did
   nothing.
 
+## Before you try to open the page
+
+**The app in `_app/` cannot currently be loaded in a browser.** `_app/*.html`
+reference `firebase-config.js`, `auth.js` and `icons.js` relatively, but those
+three live at the repo root, not in `_app/`. The relative paths are correct for
+the layout the app will have *after* relaunch (everything back at root); they
+404 in the layout it has now.
+
+So to view a page, copy it and its root-level dependencies into one directory
+first, outside the repo, and open it from there. Do not "fix" the paths in
+`_app/*.html` - they are right for the destination, and changing them would
+break the relaunch move, which is `git mv _app/* .`.
+
+A local HTTP server is required either way: `fetch()` on `questions/*.json`
+fails under `file://`.
+
+## New hooks you can style
+
+Server-side grading introduced one state the UI did not previously have.
+
+- `#options-grid.awaiting` — set the instant a player taps an option, cleared
+  when the verdict comes back. In server mode there is now a network round
+  trip in a moment that used to be instant, and right now nothing marks it, so
+  a slow connection reads as a dead tap. This needs a treatment: pulse the
+  chosen option, dim the others, something. It is the one piece of this
+  feature that is purely visual and it is yours.
+  The chosen button is identifiable: every option button carries
+  `data-ci="<index>"`, and the tapped one is the only one that will later gain
+  `.correct` or `.wrong`.
+
 ## Requests into quiz.js
 
 (append here; do not edit the file)

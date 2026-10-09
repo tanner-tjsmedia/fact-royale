@@ -67,7 +67,7 @@ async function enableNotifications() {
     return;
   }
 
-  const user = firebase.auth().currentUser;
+  const user = realUser();
   if (!user) return;
 
   await registerAndSaveToken(user);
@@ -121,7 +121,7 @@ async function registerAndSaveToken(user) {
 // ── Disable notifications ─────────────────────────────
 // Call this if you add a settings toggle later
 async function disableNotifications() {
-  const user = firebase.auth().currentUser;
+  const user = realUser();
   if (!user) return;
   try {
     await db.collection('users').doc(user.uid).update({

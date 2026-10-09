@@ -43,7 +43,9 @@ function showError(id, msg) {
 }
 
 // ── Auth ───────────────────────────────────────────────
-auth.onAuthStateChanged(async user => {
+auth.onAuthStateChanged(async rawUser => {
+  // Anonymous grading sessions are not accounts. See firebase-config.js.
+  const user = isRealUser(rawUser) ? rawUser : null;
   const loading    = document.getElementById('groups-loading');
   const main       = document.getElementById('groups-main');
   const authGate   = document.getElementById('groups-auth-gate');

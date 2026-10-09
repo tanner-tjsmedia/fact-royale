@@ -451,6 +451,7 @@ async function loadQuizData(dateKey) {
         const d = snap.data();
         if (Array.isArray(d.questions) && d.questions.length) {
           console.info('[FR] quiz', dateKey, 'from Firestore');
+          setGradingMode(d);
           return d;
         }
         console.warn('[FR] Firestore doc for', dateKey, 'has no questions; falling back');
@@ -467,7 +468,141 @@ async function loadQuizData(dateKey) {
   const res = await fetch(`questions/${dateKey}.json`);
   if (!res.ok) throw new Error('No quiz file');
   console.info('[FR] quiz', dateKey, 'from static file');
-  return res.json();
+  const data = await res.json();
+  setGradingMode(data);
+  return data;
+}
+
+/* ── GRADING TRANSPORT ─────────────────────────────────
+   Who decides whether an answer was right.
+
+   Two modes, chosen once per quiz load by looking at the data that actually
+   arrived rather than at a flag:
+
+     'local'   the loaded quiz carries q.answer, so it came from a static
+               file. Grade in the browser, exactly as this app always did.
+     'server'  the loaded quiz has prompts and options but no answers, so it
+               came from Firestore. The browser CANNOT grade it, because it
+               does not know the answer and will not be told until it has
+               committed one.
+
+   Deriving the mode from the payload rather than from FR_USE_FIRESTORE is
+   deliberate. loadQuizData() falls back to the static file whenever Firestore
+   is unreachable, so the flag describes an intention and the payload
+   describes a fact. If those two disagree - flag on, fallback fired - a mode
+   read off the flag would try to grade server-side against a day the server
+   may not even have, and the player would sit on a spinner. The payload
+   cannot be wrong about what it contains.
+
+   LATENCY. Server mode costs one round trip at the moment the player taps an
+   option, which is currently instant. Cloud Functions cold starts make the
+   first call of a session the slow one, so warmUpGrading() fires a throwaway
+   commit for a question that does not exist while the player is still reading
+   question one. By the time they answer, the container is warm.
+*/
+
+let gradingMode  = 'local';
+let _fnCache     = null;
+let _warmed      = false;
+
+/** Decide how this quiz will be graded. Called once, from the loader. */
+function setGradingMode(data) {
+  const qs = (data && data.questions) || [];
+  const carriesAnswers = qs.some(q => typeof q.answer === 'string' && q.answer.length > 0);
+  gradingMode = carriesAnswers ? 'local' : 'server';
+  console.info('[FR] grading mode:', gradingMode);
+  return gradingMode;
+}
+
+function _functions() {
+  if (_fnCache) return _fnCache;
+  if (typeof firebase === 'undefined' || !firebase.functions)
+    throw new Error('Functions SDK not loaded');
+  _fnCache = firebase.functions();
+  return _fnCache;
+}
+
+/* Every player needs a uid before they can be graded, because the uid is what
+   their committed answer is pinned to. Players with an account already have
+   one; everyone else gets an anonymous one here.
+
+   This is the ONLY place in the app that signs anyone in automatically, and
+   the session it creates is deliberately invisible to the rest of the
+   codebase: realUser() returns null for it, so nothing treats this player as
+   having an account. See the long note in firebase-config.js.
+
+   Requires the Anonymous provider to be enabled in the Firebase console. If
+   it is not, this rejects and the quiz falls back to telling the player to
+   reload rather than silently failing to grade. */
+async function ensureGradingSession() {
+  if (typeof firebase === 'undefined' || !firebase.auth)
+    throw new Error('Auth SDK not loaded');
+  const a = firebase.auth();
+  if (a.currentUser) return a.currentUser;
+
+  const cred = await a.signInAnonymously();
+  console.info('[FR] anonymous grading session opened');
+  return cred.user;
+}
+
+/** Pay the cold start early, on a call we do not care about the result of. */
+function warmUpGrading(dateKey) {
+  if (_warmed || gradingMode !== 'server') return;
+  _warmed = true;
+  ensureGradingSession()
+    .then(() => _functions().httpsCallable('commitAnswer')({
+      date: dateKey, qid: 'q99', choice: 0
+    }))
+    .catch(() => { /* expected to fail: q99 does not exist. The container is what we wanted. */ });
+}
+
+/* Commit one choice and get back the verdict for that one question.
+
+   choice is an index into the options array AS THE SERVER STORED IT. The
+   display order is shuffled on every render, so the caller must translate.
+   Sending the option text instead would force the server to string-match
+   against the answer key, which is precisely the join that splitting
+   quizzes/ from quizKeys/ exists to prevent.
+
+   Returns { correct, correctIndex, explanation }. */
+async function commitChoiceRemote(dateKey, qid, choice) {
+  await ensureGradingSession();
+  const call = _functions().httpsCallable('commitAnswer');
+  const res  = await call({ date: dateKey, qid: qid, choice: choice });
+  return res.data;
+}
+
+/* Grade locally against q.answer. Static-file mode only.
+
+   Returns the same shape as the server so handleAnswer() has one code path
+   for the reveal. Two functions returning two shapes for the same question is
+   how a UI ends up with two renderers that drift. */
+/* Close the quiz out server-side: grade the committed answers and write the
+   leaderboard row. Takes a date and nothing else, so there is no score for a
+   client to assert. */
+function finalizeQuizRemote(dateKey) {
+  if (gradingMode !== 'server') return Promise.resolve(null);
+  return ensureGradingSession()
+    .then(() => _functions().httpsCallable('submitQuiz')({ date: dateKey }))
+    .then(res => {
+      const d = res.data || {};
+      if (d.recorded === false && d.reason === 'anonymous')
+        console.info('[FR] graded, not ranked: no account');
+      else if (d.recorded === false)
+        console.info('[FR] already on the board for', dateKey);
+      return d;
+    })
+    .catch(err => { console.error('[FR] finalize failed', err); return null; });
+}
+
+function gradeLocally(q, choice) {
+  const correctIndex = q.options.indexOf(q.answer);
+  return {
+    correct:      choice === correctIndex,
+    correctIndex: correctIndex,
+    explanation:  q.explanation || '',
+    local:        true
+  };
 }
 
 function getCategoryClass(category) {
@@ -749,18 +884,33 @@ function renderQuestion() {
   // Question
   document.getElementById('q-text').textContent = q.question;
 
-  // Options — shuffle them each render
-  const opts   = shuffle(q.options);
+  // Options — shuffle the ORDER, not the array.
+  //
+  // What gets shuffled is a list of indices into q.options, and each button
+  // remembers the index it came from. That index is the only thing the server
+  // understands: the answer key stores a position, not a string.
+  //
+  // The previous version shuffled the option strings and passed the chosen
+  // TEXT back to be compared against q.answer. That works when the browser
+  // holds the answer, and cannot work at all when it does not. It also had a
+  // latent bug worth not reinheriting: two options with identical text would
+  // make indexOf() resolve both to the first one.
+  const order  = shuffle(q.options.map((_, i) => i));
   const grid   = document.getElementById('options-grid');
   grid.innerHTML = '';
 
-  opts.forEach(opt => {
+  order.forEach(canonicalIndex => {
     const btn = document.createElement('button');
-    btn.className   = 'option-btn';
-    btn.textContent = opt;
-    btn.addEventListener('click', () => handleAnswer(opt, q));
+    btn.className     = 'option-btn';
+    btn.textContent   = q.options[canonicalIndex];
+    btn.dataset.ci    = String(canonicalIndex);
+    btn.addEventListener('click', () => handleAnswer(canonicalIndex, q));
     grid.appendChild(btn);
   });
+
+  // Start warming the grading container while they read. Server mode only,
+  // and only once per session.
+  warmUpGrading(progressQuizDate());
 
   // Hide feedback
   document.getElementById('feedback-box').style.display = 'none';
@@ -774,21 +924,57 @@ function renderQuestion() {
   }
 }
 
-function handleAnswer(selected, q) {
+/* selected is a canonical index into q.options, not the option text. See the
+   note in renderQuestion(). */
+async function handleAnswer(selected, q) {
   if (answered) return;
   answered = true;
 
-  const isCorrect = selected === q.answer;
-
-  // Highlight all option buttons
+  const grid    = document.getElementById('options-grid');
   const buttons = document.querySelectorAll('.option-btn');
-  buttons.forEach(btn => {
-    btn.disabled = true;
-    if (btn.textContent === q.answer) {
-      btn.classList.add('correct');
-    } else if (btn.textContent === selected && !isCorrect) {
-      btn.classList.add('wrong');
+
+  // Lock the board before anything else. In server mode there is a round trip
+  // between the tap and the verdict, and an unlocked board during it would let
+  // a fast player fire a second choice at a question already committed.
+  buttons.forEach(btn => { btn.disabled = true; });
+  if (grid) grid.classList.add('awaiting');
+
+  let verdict;
+  try {
+    verdict = (gradingMode === 'server')
+      ? await commitChoiceRemote(progressQuizDate(), q.id, selected)
+      : gradeLocally(q, selected);
+  } catch (err) {
+    // The commit did not land, so nothing has been revealed and nothing has
+    // been recorded. Give the question back rather than scoring it wrong:
+    // a dropped connection is not a wrong answer, and this is the one failure
+    // in the quiz that a player would rightly be angry about.
+    console.error('[FR] grading failed', err);
+    answered = false;
+    if (grid) grid.classList.remove('awaiting');
+    buttons.forEach(btn => { btn.disabled = false; });
+    const fb = document.getElementById('feedback-result');
+    if (fb) {
+      fb.textContent = 'Could not reach the scorer. Tap your answer again.';
+      fb.className   = 'feedback-result wrong';
+      document.getElementById('feedback-box').style.display = 'block';
     }
+    return;
+  }
+
+  if (grid) grid.classList.remove('awaiting');
+
+  const isCorrect    = !!verdict.correct;
+  const correctIndex = verdict.correctIndex;
+  const correctText  = q.options[correctIndex];
+
+  // Highlight by the index each button was dealt, not by its text. Identical
+  // option strings no longer collide, and nothing here needs to know the
+  // answer ahead of time.
+  buttons.forEach(btn => {
+    const ci = Number(btn.dataset.ci);
+    if (ci === correctIndex)                 btn.classList.add('correct');
+    else if (ci === selected && !isCorrect)  btn.classList.add('wrong');
   });
 
   // Track score
@@ -808,9 +994,9 @@ function handleAnswer(selected, q) {
   const hookBox        = document.getElementById('memory-hook');
   const hookText       = document.getElementById('hook-text');
 
-  feedbackResult.textContent = isCorrect ? '✓ Correct!' : `✗ The answer was: ${q.answer}`;
+  feedbackResult.textContent = isCorrect ? '✓ Correct!' : `✗ The answer was: ${correctText}`;
   feedbackResult.className   = `feedback-result ${isCorrect ? 'correct' : 'wrong'}`;
-  explanation.textContent    = q.explanation;
+  explanation.textContent    = verdict.explanation || '';
 
   if (q.memory_hook) {
     hookText.textContent        = q.memory_hook;
@@ -850,9 +1036,7 @@ function handleAnswer(selected, q) {
 function logPlayToFirestore(finalScore, total) {
   if (typeof db === 'undefined') return;
   try {
-    const isSignedIn = !!(typeof firebase !== 'undefined' &&
-                          firebase.auth &&
-                          firebase.auth().currentUser);
+    const isSignedIn = !!realUser();
     db.collection('plays').add({
       date:      todayKey,
       score:     finalScore,
@@ -968,7 +1152,21 @@ function showResults() {
     logPlayToFirestore(score, questions.length);
   }
 
-  // Submit to Firebase (auth.js handles the guard; isArchive skips streak+leaderboard)
+  // The leaderboard row. Written by the submitQuiz Cloud Function, which
+  // regrades from the answers on record in attempts/ - not from anything sent
+  // from here. scores/ is write:false for every client, so this is the only
+  // path to a row and there is nothing to spoof.
+  //
+  // Fire-and-forget on purpose: the row is not on this screen. The score shown
+  // below was tallied from the server's own per-question verdicts, so the two
+  // cannot disagree for a completed quiz, and blocking the results reveal on a
+  // second round trip would cost the best moment in the product a spinner.
+  if (gradingMode === 'server' && !isArchivePlay) {
+    finalizeQuizRemote(activeQuizDate);
+  }
+
+  // Streak, profile, quizHistory and mastery. Not the score row: that write
+  // was removed from auth.js when scores/ became server-only.
   if (typeof submitScoreToFirebase === 'function') {
     submitScoreToFirebase(score, questions.length, categoryScores, activeQuizDate, isArchivePlay);
   }
@@ -1068,7 +1266,7 @@ function showResults() {
   }
 
   // Catch-up tiles (async — fills in after render)
-  if (auth.currentUser) {
+  if (realUser()) {
     showCatchUpSection();
   }
 
@@ -1077,7 +1275,8 @@ function showResults() {
 
   // Record Person B's result back to the challenge Firestore doc (fire-and-forget)
   if (challengeData && challengeData.cid) {
-    const resultName = auth.currentUser ? (auth.currentUser.displayName || 'A challenger') : 'A challenger';
+    const _ru = realUser();
+    const resultName = _ru ? (_ru.displayName || 'A challenger') : 'A challenger';
     recordChallengeResult(challengeData.cid, score, questions.length, resultName);
   }
 
@@ -1093,9 +1292,7 @@ function showResults() {
   // Sign-up nudge — only for anonymous users on daily plays
   const nudgeEl = document.getElementById('signup-nudge');
   if (nudgeEl) {
-    const isLoggedIn = !!(typeof firebase !== 'undefined' &&
-                          firebase.auth &&
-                          firebase.auth().currentUser);
+    const isLoggedIn = !!realUser();
     nudgeEl.style.display = (isLoggedIn || isArchivePlay) ? 'none' : 'block';
     if (!isLoggedIn && !isArchivePlay) {
       const nudgeBtn = document.getElementById('btn-nudge-signup');
@@ -1205,8 +1402,7 @@ function showResultsFromStorage() {
   // Hide signup nudge for returning players who are signed in
   const nudgeEl = document.getElementById('signup-nudge');
   if (nudgeEl) {
-    const isLoggedIn = !!(typeof firebase !== 'undefined' &&
-                          firebase.auth && firebase.auth().currentUser);
+    const isLoggedIn = !!realUser();
     nudgeEl.style.display = isLoggedIn ? 'none' : 'block';
     if (!isLoggedIn) {
       const nudgeBtn = document.getElementById('btn-nudge-signup');
@@ -2429,9 +2625,10 @@ function submitChallengeName() {
 
 // ── Challenge Share (Web Share API + modal fallback) ───
 function openChallengeShare() {
-  if (auth.currentUser) {
+  const ru = realUser();
+  if (ru) {
     // Signed in — use their display name and create a Firestore record
-    _buildAndSendChallenge(auth.currentUser.displayName || 'A friend', auth.currentUser.uid);
+    _buildAndSendChallenge(ru.displayName || 'A friend', ru.uid);
   } else {
     // Anonymous — prompt for a name first
     showChallengeNamePrompt();
@@ -2497,7 +2694,7 @@ async function _buildAndSendChallenge(fromName, uid) {
 // Save the optional "who are you challenging" label to Firestore
 function saveChallengeTo() {
   if (typeof db === 'undefined' || !_activeChallengeId) return;
-  if (!auth.currentUser) return;
+  if (!realUser()) return;
   const input = document.getElementById('csm-toname');
   const toName = input ? input.value.trim() : '';
   if (!toName) return;
