@@ -65,12 +65,13 @@ const QDIR = path.join(__dirname, '..', 'questions-src');
 const PUBLISH_OFFSET_HOURS = 5;
 
 function parseArgs(argv) {
-  const a = { dryRun: false, from: null, only: null, publishAs: null };
+  const a = { dryRun: false, from: null, only: null, publishAs: null, limit: null };
   for (let i = 0; i < argv.length; i++) {
     if (argv[i] === '--dry-run') a.dryRun = true;
     else if (argv[i] === '--from') a.from = argv[++i];
     else if (argv[i] === '--only') a.only = argv[++i];
     else if (argv[i] === '--publish-as') a.publishAs = argv[++i];
+    else if (argv[i] === '--limit') a.limit = parseInt(argv[++i], 10);
     else { console.error(`unknown argument: ${argv[i]}`); process.exit(2); }
   }
 
@@ -86,14 +87,22 @@ function parseArgs(argv) {
   // already answered those questions. This one would happily hand someone a
   // quiz they have seen.
   if (a.publishAs) {
-    if (!a.only) {
-      console.error('--publish-as requires --only <source-date>.');
+    if (!a.only && !a.from) {
+      console.error('--publish-as requires --only <date> or --from <date>.');
       process.exit(2);
     }
     if (!/^\d{4}-\d{2}-\d{2}$/.test(a.publishAs)) {
       console.error('--publish-as needs a YYYY-MM-DD date.');
       process.exit(2);
     }
+    if (a.from && !a.limit) {
+      console.error('--publish-as with --from also needs --limit <n>, so the span is stated rather than implied.');
+      process.exit(2);
+    }
+  }
+  if (a.limit !== null && !(a.limit > 0)) {
+    console.error('--limit needs a positive number.');
+    process.exit(2);
   }
   return a;
 }
@@ -197,6 +206,7 @@ async function main() {
                 .sort();
   if (args.only) files = files.filter(f => f.slice(0, -5) === args.only);
   if (args.from) files = files.filter(f => f.slice(0, -5) >= args.from);
+  if (args.limit) files = files.slice(0, args.limit);
 
   if (files.length === 0) {
     console.error('No files matched.');
@@ -206,10 +216,21 @@ async function main() {
   const payloads = [];
   const allProblems = [];
 
+  // When --publish-as maps a RUN of days, each source day lands on the next
+  // consecutive date from the start. Source dates have gaps (days were deleted
+  // during the content cleanup) and the published run must not: a missing day
+  // in the middle is a day the quiz does not load.
+  function addDays(dateKey, n) {
+    const d = new Date(`${dateKey}T00:00:00Z`);
+    d.setUTCDate(d.getUTCDate() + n);
+    return d.toISOString().slice(0, 10);
+  }
+
+  let offset = 0;
   for (const f of files) {
     const sourceKey = f.slice(0, -5);
     // The key the documents are written under. Normally the source date.
-    const dateKey   = args.publishAs || sourceKey;
+    const dateKey   = args.publishAs ? addDays(args.publishAs, offset++) : sourceKey;
     if (args.publishAs) {
       console.log(`publishing ${sourceKey} AS ${dateKey}`);
     }
@@ -327,7 +348,33 @@ async function main() {
   // the modular form; this file was written against v12 and never updated.
   const { initializeApp, applicationDefault } = require('firebase-admin/app');
   const { getFirestore } = require('firebase-admin/firestore');
-  initializeApp({ credential: applicationDefault() });
+
+  // Say which project explicitly.
+  //
+  // A service-account key names its own project, so this never came up. gcloud
+  // ADC does not: the credential is a user, and the project has to come from
+  // somewhere else. When it could not be found the SDK failed deep inside a
+  // batch commit with "Unable to detect a Project Id in the current
+  // environment" and a stack trace through google-gax - an error about the
+  // environment, raised at write time, that says nothing about what to do.
+  //
+  // .firebaserc is the repo's own statement of which project this is, and the
+  // Firebase CLI already reads it for deploys. Using it here means one owner
+  // for that answer rather than a second copy in an environment variable.
+  const RC = path.join(__dirname, '..', '.firebaserc');
+  let projectId = process.env.GOOGLE_CLOUD_PROJECT || process.env.GCLOUD_PROJECT || null;
+  if (!projectId && fs.existsSync(RC)) {
+    try {
+      projectId = (JSON.parse(fs.readFileSync(RC, 'utf8')).projects || {}).default || null;
+    } catch (e) { /* fall through to the error below */ }
+  }
+  if (!projectId) {
+    console.error('\nCould not determine the project id.');
+    console.error('Expected a "projects.default" in .firebaserc, or GOOGLE_CLOUD_PROJECT set.');
+    process.exit(1);
+  }
+  console.log(`project     ${projectId}`);
+  initializeApp({ credential: applicationDefault(), projectId: projectId });
   const db = getFirestore();
 
   let written = 0;
