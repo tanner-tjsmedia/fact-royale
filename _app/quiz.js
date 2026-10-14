@@ -433,7 +433,7 @@ function shuffle(arr) {
 // Set true to serve from Firestore. Until the migration has been run and the
 // rules deployed, leave this false and the static files are used exactly as
 // before. See docs/SECURE-QUESTION-DB.md.
-const FR_USE_FIRESTORE = false;
+const FR_USE_FIRESTORE = true;
 
 // Static files under /questions are world-readable, so today anyone can open
 // questions/2026-09-15.json and read next month's answers. Firestore refuses

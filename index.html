@@ -119,6 +119,21 @@ body{
   56%{transform:translate(.7px,-.4px)}59%,100%{transform:translate(0,0)}}
 .shake{animation:shake 6.4s linear infinite}
 
+/* Heavier shake, used only when the whole span comes down. */
+@keyframes quake{0%{transform:translate(0,0)}
+  12%{transform:translate(-6px,3px)}25%{transform:translate(5px,-3px)}
+  38%{transform:translate(-4.5px,2px)}52%{transform:translate(3.5px,-2px)}
+  66%{transform:translate(-2.5px,1.4px)}80%{transform:translate(1.4px,-.8px)}
+  100%{transform:translate(0,0)}}
+
+/* transform-box:fill-box makes transform-origin resolve against the element's
+   own bounding box rather than the SVG user-space origin. Without it a
+   percentage origin lands at the top-left of the whole 400x250 viewBox and
+   every rotation swings the piece across the scene. */
+#gWall{transform-box:fill-box;transform-origin:0% 100%}
+#gPieces path{transform-box:fill-box;transform-origin:50% 50%}
+#gDust ellipse{transform-box:fill-box;transform-origin:50% 100%}
+
 @keyframes rubble{0%,45%{opacity:0;transform:translate(0,0) rotate(0)}
   50%{opacity:.85}88%{opacity:0;transform:translate(-22px,26px) rotate(150deg)}100%{opacity:0}}
 .rubble{animation:rubble 6.4s ease-in infinite}
@@ -293,30 +308,59 @@ h1{font-size:clamp(30px,6vw,50px);margin:10px 0 8px;color:var(--gold-lt);
       </pattern>
     </defs>
     <g class="shake" id="gShake">
-      <rect x="228" y="118" width="86" height="100" fill="url(#mason)"/>
-      <rect x="228" y="110" width="14" height="9" fill="var(--stone-a)"/>
-      <rect x="252" y="110" width="14" height="9" fill="var(--stone-a)"/>
-      <rect x="276" y="110" width="14" height="9" fill="var(--stone-a)"/>
-      <rect x="300" y="110" width="14" height="9" fill="var(--stone-a)"/>
-      <rect x="228" y="106" width="86" height="5" fill="var(--stone-c)"/>
-      <rect x="240" y="132" width="4" height="13" fill="#07070f"/>
-      <rect x="268" y="132" width="4" height="13" fill="#07070f"/>
-      <rect x="296" y="132" width="4" height="13" fill="#07070f"/>
-      <rect x="252" y="170" width="26" height="48" fill="#0b0b16"/>
-      <path d="M252,170 a13,13 0 0 1 26,0" fill="#0b0b16"/>
-      <g stroke="var(--iron)" stroke-width="1.4" opacity=".8">
-        <line x1="256" y1="174" x2="256" y2="218"/><line x1="262" y1="170" x2="262" y2="218"/>
-        <line x1="268" y1="170" x2="268" y2="218"/><line x1="274" y1="174" x2="274" y2="218"/>
-        <line x1="252" y1="184" x2="278" y2="184"/><line x1="252" y1="198" x2="278" y2="198"/>
+      <!-- Everything inside gWall is the standing wall and topples as one
+           piece. Debris, dust and the rubble pile sit OUTSIDE it, so they
+           stay put while the wall goes over. -->
+      <g id="gWall">
+        <!-- The wall face, parapet and merlons are one lattice of irregular
+             blocks, generated per rebuild. These same blocks ARE the standing
+             wall, the knocked-out debris and the final rubble pile: one set of
+             objects in three states, so the wall and its wreckage can never
+             disagree about where the stone went. -->
+        <g id="gPieces" fill="url(#mason)"></g>
+
+        <!-- Painted detail. Not physical. Fades out when the span goes, so the
+             gate does not hang in mid-air over a heap of rubble. -->
+        <g id="gTrim">
+          <rect x="252" y="170" width="26" height="48" fill="#0b0b16"/>
+          <path d="M252,170 a13,13 0 0 1 26,0" fill="#0b0b16"/>
+          <g stroke="var(--iron)" stroke-width="1.4" opacity=".8">
+            <line x1="256" y1="174" x2="256" y2="218"/><line x1="262" y1="170" x2="262" y2="218"/>
+            <line x1="268" y1="170" x2="268" y2="218"/><line x1="274" y1="174" x2="274" y2="218"/>
+            <line x1="252" y1="184" x2="278" y2="184"/><line x1="252" y1="198" x2="278" y2="198"/>
+          </g>
+          <g id="gSlits" fill="#07070f"></g>
+          <g id="gPace" fill="#0a0a14">
+            <path class="pace" d="M238,104 h4 v-7 a2,2 0 0 0 -4,0 Z"/>
+            <path class="pace pace2" d="M288,104 h4 v-7 a2,2 0 0 0 -4,0 Z"/>
+            <path d="M262,104 h4 v-7 a2,2 0 0 0 -4,0 Z"/>
+            <line x1="264" y1="97" x2="264" y2="86" stroke="#0a0a14" stroke-width="1.4"/>
+          </g>
+          <!-- Damage cracks only. The wall no longer ships pre-cracked: it
+               starts sound and every mark on it is one you put there. -->
+          <g id="gDmg" stroke="#06060d" stroke-width="2.6" fill="none">
+            <path d="M244,124 L254,134 L246,146" opacity="0"/>
+            <path d="M286,116 L278,128 L288,138" opacity="0"/>
+            <path d="M234,158 L246,166 L238,180" opacity="0"/>
+            <path d="M296,150 L288,162 L300,172" opacity="0"/>
+            <path d="M258,120 L266,136 L256,150 L268,162" opacity="0" stroke-width="3.4"/>
+            <path d="M240,190 L256,196 L272,190 L290,198" opacity="0" stroke-width="3.4"/>
+          </g>
+          <g fill="#39394f">
+            <rect class="rubble"    x="252" y="152" width="4" height="4"/>
+            <rect class="rubble r2" x="261" y="156" width="3.4" height="3.4"/>
+            <rect class="rubble r3" x="248" y="160" width="3" height="3"/>
+            <rect class="rubble r4" x="264" y="148" width="2.6" height="2.6"/>
+          </g>
+        </g>
       </g>
-      <path d="M230,126 L244,134 L236,148 L250,157 L240,172 L252,182" fill="none" stroke="#06060d" stroke-width="3.2"/>
-      <path d="M300,120 L292,132 L302,140" fill="none" stroke="#06060d" stroke-width="2.4"/>
-      <g fill="#0a0a14">
-        <path class="pace" d="M238,104 h4 v-7 a2,2 0 0 0 -4,0 Z"/>
-        <path class="pace pace2" d="M288,104 h4 v-7 a2,2 0 0 0 -4,0 Z"/>
-        <path d="M262,104 h4 v-7 a2,2 0 0 0 -4,0 Z"/>
-        <line x1="264" y1="97" x2="264" y2="86" stroke="#0a0a14" stroke-width="1.4"/>
+
+      <g id="gDust" fill="#2a2a3c">
+        <ellipse cx="248" cy="216" rx="20" ry="9" opacity="0"/>
+        <ellipse cx="274" cy="216" rx="24" ry="11" opacity="0"/>
+        <ellipse cx="296" cy="216" rx="18" ry="8" opacity="0"/>
       </g>
+
       <g class="hit" id="gHit">
         <circle cx="258" cy="150" r="10" fill="none" stroke="var(--flame-hot)" stroke-width="2.6"/>
         <circle cx="258" cy="150" r="4" fill="var(--flame-hot)"/>
@@ -325,24 +369,18 @@ h1{font-size:clamp(30px,6vw,50px);margin:10px 0 8px;color:var(--gold-lt);
         <line x1="258" y1="150" x2="246" y2="140"/><line x1="258" y1="150" x2="272" y2="142"/>
         <line x1="258" y1="150" x2="250" y2="163"/><line x1="258" y1="150" x2="270" y2="162"/>
       </g>
-      <g id="gDmg" stroke="#06060d" stroke-width="2.6" fill="none">
-        <path d="M244,124 L254,134 L246,146" opacity="0"/>
-        <path d="M286,116 L278,128 L288,138" opacity="0"/>
-        <path d="M234,158 L246,166 L238,180" opacity="0"/>
-        <path d="M296,150 L288,162 L300,172" opacity="0"/>
-        <path d="M258,120 L266,136 L256,150 L268,162" opacity="0" stroke-width="3.4"/>
-        <path d="M240,190 L256,196 L272,190 L290,198" opacity="0" stroke-width="3.4"/>
-      </g>
-      <g fill="#39394f">
-        <rect class="rubble"    x="252" y="152" width="4" height="4"/>
-        <rect class="rubble r2" x="261" y="156" width="3.4" height="3.4"/>
-        <rect class="rubble r3" x="248" y="160" width="3" height="3"/>
-        <rect class="rubble r4" x="264" y="148" width="2.6" height="2.6"/>
-      </g>
     </g>
   </svg></div>
 
   <div class="layer z-treb"><svg viewBox="0 0 400 250" aria-hidden="true">
+    <!-- The machine was drawn at a scale that left its swept arm 6px from the
+         wall, so it threw a stone a shorter distance than its own length. This
+         wrapper stands it off and shrinks it; the standard travels with it so
+         the composition of machine-and-banner is unchanged, just smaller.
+         The transform lives here and not on .rig, because .rig carries the
+         recoil animation and a CSS transform would override the attribute.
+         Physics stays in this group's local space: see RIG_S in the script. -->
+    <g id="gRigScale" transform="translate(6.5,64.2) scale(0.7)">
     <g class="rig">
       <g fill="var(--timber)" stroke="var(--timber-dk)" stroke-width="1">
         <rect x="98" y="206" width="118" height="8" rx="1.5"/>
@@ -409,6 +447,7 @@ h1{font-size:clamp(30px,6vw,50px);margin:10px 0 8px;color:var(--gold-lt);
       <path d="M74,62 L116,70 L108,82 L116,94 L74,86 Z" fill="#5b2a86" stroke="var(--gold)" stroke-width="1.2"/>
       <circle cx="91" cy="76" r="4.8" fill="var(--gold)"/>
       <path d="M91,71 l1.4,3.2 l3.4,.3 l-2.6,2.3 l.8,3.4 l-3,-1.8 l-3,1.8 l.8,-3.4 l-2.6,-2.3 l3.4,-.3 Z" fill="#5b2a86"/>
+    </g>
     </g>
   </svg></div>
 
@@ -525,6 +564,9 @@ h1{font-size:clamp(30px,6vw,50px);margin:10px 0 8px;color:var(--gold-lt);
       sling = document.getElementById('gSling'), shot = document.getElementById('gShot'),
       shake = document.getElementById('gShake'), hitG = document.getElementById('gHit'),
       dmgG  = document.getElementById('gDmg'),
+      wallG = document.getElementById('gWall'),   piecesG = document.getElementById('gPieces'),
+      trimG = document.getElementById('gTrim'),   dustG   = document.getElementById('gDust'),
+      slitsG= document.getElementById('gSlits'),
       hud   = document.getElementById('hud'), meter = document.getElementById('meter'),
       fill  = document.getElementById('meterFill'), hint = document.getElementById('hint'),
       quit  = document.getElementById('quit');
@@ -537,15 +579,91 @@ h1{font-size:clamp(30px,6vw,50px);margin:10px 0 8px;color:var(--gold-lt);
   var PLAY  = TOUCH ? 'hold to wind  ·  release to loose'
                     : 'hold to wind  ·  release to loose  ·  esc to stand down';
 
-  var cracks = dmgG ? dmgG.querySelectorAll('path') : [];
-  var BREACH = cracks.length;                 // hits needed to bring the wall down
+  var cracks = dmgG  ? dmgG.querySelectorAll('path')     : [];
+  var dust   = dustG ? dustG.querySelectorAll('ellipse') : [];
+
+  // Three stages, escalating. Stone spiders first, then blocks come out and
+  // leave real voids, then the span fails. A wall that simply blinks back to
+  // new gives the player nothing to read; this way the damage is a story.
+  var CRACK_HITS = 3;
+  var CHUNK_HITS = 4;                         // hits that punch blocks out
+  var BREACH = CRACK_HITS + CHUNK_HITS + 1;   // the last hit brings it down
+
   var WALL = { x0:228, x1:314, y0:106, y1:218 };
+  var SPAN_X0 = 228, SPAN_X1 = 314, BASE_Y = 218;
+  var GATE_X0 = 252, GATE_X1 = 278;
+  var NS = 'http://www.w3.org/2000/svg';
+
+  // Debris physics. The previous version animated chunks with CSS transitions
+  // that faded to zero opacity over the same duration as the movement, so a
+  // block dissolved in mid-air instead of landing. These are real particles
+  // stepped by the same animation loop as the projectile: they accelerate,
+  // bounce, lose energy and come to rest, and where they rest becomes the
+  // rubble pile. Nothing fades.
+  var PIECES = [];            // {el,cx,cy,x,y,vx,vy,rot,vr,state,delay}
+  // Halved the speed of the whole collapse: gravity scales with the square of
+  // the time factor and the launch velocities with the factor itself, so the
+  // trajectories keep their shape and only the clock changes. The first pass
+  // put the wall down in 0.9s, which read as a puff rather than a fall.
+  var D_GRAV = 0.11, BOUNCE = -0.30, FRICTION = 0.62, SLEEP_V = 0.55;
+
+  // The heap is tracked in buckets across the ground. The span is wider than
+  // the wall on purpose: debris is thrown out past the left edge, and when the
+  // buckets only covered the wall itself everything that flew clear clamped
+  // into bucket zero and stacked 52px into a tower. PILE_MAX caps it too.
+  var BUCKETS = 18, PILE_STEP = 2.2, pileTop = [];
+  var PILE_X0 = 186, PILE_X1 = 322, PILE_MAX = 15;
+
+  function rnd(a,b){ return a + Math.random()*(b-a); }
+  function rndInt(a,b){ return Math.floor(a + Math.random()*(b-a+1)); }
+  function clearKids(el){ while (el && el.firstChild) el.removeChild(el.firstChild); }
+  function bucketOf(x){
+    var b = Math.floor((x - PILE_X0) / (PILE_X1 - PILE_X0) * BUCKETS);
+    return b < 0 ? 0 : b >= BUCKETS ? BUCKETS-1 : b;
+  }
+  function dropPile(b, amt){
+    pileTop[b] = Math.max(BASE_Y - PILE_MAX, pileTop[b] - amt);
+  }
   // Sweep matches the idle keyframes exactly, or the machine would flip
   // direction the instant you started playing.
   var COCK = -35, FIRE = 115, SWING = -190;
   var GROUND = 216, GRAV = 0.11;
-  var REL_T = 5, GAIN = 0.14;   // tuned by simulation: low power falls
-                                // short, mid band hits, full power sails over
+
+  // Retuned by simulation. The arm used to cross its whole 150 degree sweep
+  // in about 8 frames at full wind, which is 19 degrees a frame: that was the
+  // choppiness. SWEEP now stretches the same arc over roughly 35 frames.
+  //
+  // Release was at 45% of the sweep with the arm still at 29 degrees, low and
+  // rising, which is why the stone left before the machine had come forward.
+  // 62% puts the arm at 66 degrees and throwing. Past about 72% the launch
+  // vector tips downward again, so later is not better.
+  var SWEEP = 40, SLING_SWEEP = 45;
+  var WIND_BASE = 0.30, WIND_GAIN = 0.75;   // t per frame = base + gain*power
+
+  // The machine is drawn inside #gRigScale, so everything the arm does happens
+  // in that group's local space. The projectile is integrated in the same
+  // space (it is parented there too, which is why it renders correctly without
+  // conversion) and is mapped to scene coordinates only for the collision
+  // test. Keeping ONE conversion point means the stone the player sees and the
+  // stone the wall is tested against can never be two different stones.
+  // One owner: the transform lives in the markup, because this script returns
+  // early under prefers-reduced-motion and the scene still has to be laid out
+  // correctly for those readers. The physics reads the attribute back instead
+  // of keeping a second copy of the numbers that can drift away from it.
+  var RIG_S = 0.70, RIG_TX = 6.5, RIG_TY = 64.2;
+  (function(){
+    var el = document.getElementById('gRigScale');
+    if (!el) return;
+    var m = /translate\(\s*(-?[\d.]+)[\s,]+(-?[\d.]+)\s*\)\s*scale\(\s*(-?[\d.]+)/
+              .exec(el.getAttribute('transform') || '');
+    if (m){ RIG_TX = parseFloat(m[1]); RIG_TY = parseFloat(m[2]); RIG_S = parseFloat(m[3]); }
+  })();
+  function toSceneX(x){ return RIG_S*x + RIG_TX; }
+  function toSceneY(y){ return RIG_S*y + RIG_TY; }
+
+  // Standing the machine off from 73px to 113px more than doubled the range it
+  // has to cover in its own local units, so the release retuned with it.
+  var REL_T = 0.58 * SWEEP, GAIN = 0.78;
   function rotp(px,py,cx,cy,deg){
     var r=deg*Math.PI/180, c=Math.cos(r), sn=Math.sin(r), dx=px-cx, dy=py-cy;
     return [cx+dx*c-dy*sn, cy+dx*sn+dy*c];
@@ -557,10 +675,10 @@ h1{font-size:clamp(30px,6vw,50px);margin:10px 0 8px;color:var(--gold-lt);
     var q = rotp(48,129, 60,96, sA);
     return rotp(q[0],q[1], 155,104, a);
   }
-  function angAt(tt){ var k=Math.min(1,tt/11); return COCK+(FIRE-COCK)*(k*k*(3-2*k)); }
-  function sAt(tt){ return SWING*Math.min(1,tt/13); }
+  function angAt(tt){ var k=Math.min(1,tt/SWEEP); return COCK+(FIRE-COCK)*(k*k*(3-2*k)); }
+  function sAt(tt){ return SWING*Math.min(1,tt/SLING_SWEEP); }
 
-  var on=false, charging=false, power=0, phase='ready', t=0,
+  var on=false, charging=false, power=0, phase='ready', t=0, falling=false,
       shots=0, hits=0, dmg=0,
       best = parseInt(localStorage.getItem('fr_siege_best')||'0', 10),
       p=null, raf=null, idleAt=Date.now();
@@ -572,8 +690,12 @@ h1{font-size:clamp(30px,6vw,50px);margin:10px 0 8px;color:var(--gold-lt);
       sAng = power*5;
     } else if (phase==='throw'){
       ang  = angAt(t); sAng = sAt(t);
-    } else {                                   // spent, arm over the top
-      ang = FIRE; sAng = SWING;
+    } else {
+      // Spent. Let the arm keep running out its own sweep rather than being
+      // snapped to the end pose. At low wind the stone lands while the arm is
+      // only part way round, and jumping it to FIRE was a visible flick right
+      // at the moment the player was watching the shot.
+      ang = angAt(t); sAng = sAt(t);
     }
     // CSS transforms, not SVG attributes: the pivot must come from
     // transform-origin alone, never from rotate()'s own cx/cy as well.
@@ -587,10 +709,17 @@ h1{font-size:clamp(30px,6vw,50px);margin:10px 0 8px;color:var(--gold-lt);
       'translate(' + (q[0]-46).toFixed(1) + 'px,' + (q[1]-106).toFixed(1) + 'px)';
   }
 
+  function stageWord(){
+    if (dmg >= BREACH)                    return 'breached';
+    if (dmg >= CRACK_HITS + CHUNK_HITS)   return 'failing';
+    if (dmg >= CRACK_HITS)                return 'breaching';
+    return 'holding';
+  }
+
   function hudText(){
     hud.innerHTML = on
-      ? 'shots <b>'+shots+'</b> · hits <b>'+hits+'</b> · wall <b>'+Math.max(0,BREACH-dmg)+'</b>'
-        + (best?' · best <b>'+best+'</b>':'')
+      ? 'shots <b>'+shots+'</b> · hits <b>'+hits+'</b> · wall <b>'+Math.max(0,BREACH-dmg)+'</b> '
+        + stageWord() + (best?' · best <b>'+best+'</b>':'')
       : '';
   }
 
@@ -605,24 +734,278 @@ h1{font-size:clamp(30px,6vw,50px);margin:10px 0 8px;color:var(--gold-lt);
       shake.style.animation='shake .55s linear'; }
   }
 
+  function showCrack(i){
+    if (!cracks[i]) return;
+    cracks[i].style.transition='opacity .35s';
+    cracks[i].style.opacity=.95;
+  }
+
+  // Where each crack sits, measured from the DOM rather than transcribed from
+  // the path data into a second list that could fall out of step with it.
+  var crackAt = null;
+  function crackCentres(){
+    if (crackAt) return crackAt;
+    crackAt = [];
+    for (var i=0;i<cracks.length;i++){
+      var c = { cx:-999, cy:-999 };
+      try {
+        var bb = cracks[i].getBBox();
+        c.cx = bb.x + bb.width/2;
+        c.cy = bb.y + bb.height/2;
+      } catch(e){ /* not rendered yet; leave it off the map */ }
+      crackAt.push(c);
+    }
+    return crackAt;
+  }
+
+  function hideCracksNear(x,y,r){
+    var cc = crackCentres();
+    for (var i=0;i<cc.length;i++){
+      if (!cracks[i]) continue;
+      var dx = cc[i].cx - x, dy = cc[i].cy - y;
+      if (dx*dx + dy*dy < r*r){
+        cracks[i].style.transition='opacity .3s';
+        cracks[i].style.opacity=0;
+      }
+    }
+  }
+
+  function puff(i, scale){
+    var d = dust[i];
+    if (!d) return;
+    d.style.transition='none';
+    d.style.transform='scale(.35)'; d.style.opacity='0';
+    void d.getBoundingClientRect();
+    d.style.transition='transform 1.3s ease-out, opacity 1.3s ease-out';
+    d.style.transform='scale('+scale.toFixed(2)+') translateY(-7px)';
+    d.style.opacity='.5';
+    setTimeout(function(){ d.style.opacity='0'; }, 500);
+  }
+
+  // One integration step for every piece that is in the air. Called from the
+  // same requestAnimationFrame loop that flies the projectile, so the debris
+  // obeys the same clock as everything else on screen.
+  function stepDebris(){
+    for (var i=0;i<PIECES.length;i++){
+      var q = PIECES[i];
+      if (q.state !== 1) continue;
+      if (q.delay > 0){ q.delay--; continue; }
+
+      q.vy += D_GRAV;
+      q.x  += q.vx;
+      q.y  += q.vy;
+      q.rot += q.vr;
+
+      // Rest height comes from what has already landed nearby, so the debris
+      // stacks into a mound instead of lining up flat along the ground.
+      var b     = bucketOf(q.cx + q.x);
+      var floor = pileTop[b] - q.cy;
+
+      if (q.y >= floor){
+        q.y = floor;
+        if (Math.abs(q.vy) < SLEEP_V){
+          q.vy = 0; q.vx = 0; q.vr = 0; q.state = 2;
+          dropPile(b, PILE_STEP);                  // the heap grows
+          if (b > 0)          dropPile(b-1, PILE_STEP*0.35);
+          if (b < BUCKETS-1)  dropPile(b+1, PILE_STEP*0.35);
+        } else {
+          q.vy *= BOUNCE; q.vx *= FRICTION; q.vr *= 0.45;
+        }
+      }
+      q.el.style.transform = 'translate('+q.x.toFixed(2)+'px,'+q.y.toFixed(2)+'px) '
+                           + 'rotate('+q.rot.toFixed(1)+'deg)';
+    }
+  }
+
+  // Stage two: the blocks nearest the impact come clean out. The void is not
+  // painted on - it is simply where a block used to be.
+  function knockOut(x,y,count){
+    var near = [];
+    for (var i=0;i<PIECES.length;i++){
+      var q = PIECES[i];
+      if (q.state !== 0) continue;
+      var dx = q.cx-x, dy = q.cy-y;
+      near.push({ q:q, d:dx*dx + dy*dy });
+    }
+    near.sort(function(a,b){ return a.d - b.d; });
+    var n = Math.min(count, near.length);
+    for (var j=0;j<n;j++){
+      var p2 = near[j].q;
+      p2.state = 1;
+      p2.vx = -rnd(0.26, 1.0);
+      p2.vy = -rnd(0.16, 0.79);
+      p2.vr = rnd(-4, 4);
+      p2.delay = j*2;
+      // A crack drawn across stone that is no longer there has nothing to be
+      // a crack in, so it goes with the block.
+      hideCracksNear(p2.cx, p2.cy, 15);
+    }
+    puff(Math.floor(rnd(0,dust.length)), 1.0);
+  }
+
+  // Stage three. Every block still standing lets go, base first, so the wall
+  // sits down into itself and the upper courses topple out over the rubble.
+  function collapse(){
+    falling = true;
+    if (shake){
+      shake.style.animation='none'; void shake.offsetWidth;
+      shake.style.animation='quake 1.2s ease-out';
+    }
+    var topY = WALL.y0, span = Math.max(1, BASE_Y - topY);
+    for (var i=0;i<PIECES.length;i++){
+      var q = PIECES[i];
+      if (q.state !== 0) continue;
+      var h = (BASE_Y - q.cy) / span;          // 1 at the parapet, 0 at the base
+      q.state = 1;
+      // Near-simultaneous release. The first version staggered by 16 frames
+      // from the base up, which left the whole upper wall hanging unsupported
+      // in mid-air for a quarter second before it dropped onto the rubble
+      // that had already settled underneath it. That pause is what looked
+      // like the wall reassembling itself. Gravity gives the cascade for
+      // free, because the high blocks have further to fall.
+      q.delay = Math.round((1-h)*5 + rnd(0,4));
+      q.vx = -(0.13 + h*1.10) * rnd(0.55,1.25); // the top still carries furthest
+      q.vy = -rnd(0, 0.48);
+      q.vr = rnd(-5, 5);
+    }
+    // The painted detail is not masonry and must not hang in the air.
+    if (trimG){
+      trimG.style.transition='opacity .45s ease-in';
+      trimG.style.opacity='0';
+    }
+    for (var d=0;d<dust.length;d++) puff(d, 1.8);
+
+    if (hits > best || best===0){
+      best = hits;
+      try{ localStorage.setItem('fr_siege_best', best); }catch(e){}
+    }
+    setTimeout(rebuild, 3400);   // the fall now takes ~1.6s; let the ruin sit
+  }
+
+  function applyDamage(n,x,y){
+    if (n <= CRACK_HITS){
+      showCrack(n-1);
+    } else if (n <= CRACK_HITS + CHUNK_HITS){
+      showCrack(CRACK_HITS + (n - CRACK_HITS - 1));   // keep spidering
+      knockOut(x, y, rndInt(2,3));
+    } else {
+      collapse();
+    }
+  }
+
   function land(hit,x,y){
     shots++;
-    if (hit){
+    if (hit && !falling){
       hits++;
-      if (dmg < BREACH){ cracks[dmg].style.transition='opacity .35s'; cracks[dmg].style.opacity=.95; dmg++; }
+      if (dmg < BREACH){ dmg++; applyDamage(dmg, x, y); }
       burst(x,y);
-      if (dmg >= BREACH){
-        if (hits > best || best===0){ best = hits; try{ localStorage.setItem('fr_siege_best', best); }catch(e){} }
-        setTimeout(reset, 1400);
-      }
     }
     p=null; phase='spent'; hudText();
     setTimeout(function(){ if(on && phase==='spent'){ phase='ready'; t=0; power=0; draw(); } }, 700);
   }
 
-  function reset(){
-    dmg=0; hits=0; shots=0;
-    for (var i=0;i<cracks.length;i++) cracks[i].style.opacity=0;
+  // Cut the wall into blocks. A jittered lattice, not a grid: every vertex is
+  // nudged, so no two blocks are the same rectangle and the courses do not
+  // line up into the obvious chequerboard the first version had.
+  //
+  // The parapet falls out of the same lattice. A cell in the top band only
+  // becomes a block if it sits under a merlon, so the crenellated outline is
+  // a consequence of which blocks exist rather than a shape drawn on top.
+  function buildWall(){
+    clearKids(piecesG);
+    PIECES.length = 0;
+    pileTop.length = 0;
+    for (var b=0;b<BUCKETS;b++) pileTop[b] = BASE_Y;
+
+    var capY  = [104,108,112][rndInt(0,2)];
+    var faceY = capY + 14;
+
+    var n = rndInt(3,5), mw = 14, gap = (SPAN_X1 - SPAN_X0 - n*mw) / (n-1);
+    var merlons = [];
+    for (var i=0;i<n;i++){
+      var mx = SPAN_X0 + i*(mw+gap);
+      merlons.push([mx, mx+mw]);
+    }
+
+    var COLS = 7, ROWS = 8, pts = [], r, c;
+    for (r=0;r<=ROWS;r++){
+      pts[r] = [];
+      for (c=0;c<=COLS;c++){
+        var px = SPAN_X0 + (SPAN_X1-SPAN_X0)*c/COLS;
+        var py = capY    + (BASE_Y-capY)   *r/ROWS;
+        if (c>0 && c<COLS) px += rnd(-2.6,2.6);
+        if (r>0 && r<ROWS) py += rnd(-2.3,2.3);
+        pts[r][c] = [px,py];
+      }
+    }
+
+    for (r=0;r<ROWS;r++){
+      for (c=0;c<COLS;c++){
+        var a=pts[r][c], bb=pts[r][c+1], d=pts[r+1][c+1], e=pts[r+1][c];
+        var cx=(a[0]+bb[0]+d[0]+e[0])/4, cy=(a[1]+bb[1]+d[1]+e[1])/4;
+
+        if (cy < faceY){                       // parapet band
+          var inM=false;
+          for (var m=0;m<merlons.length;m++)
+            if (cx>=merlons[m][0] && cx<=merlons[m][1]) inM=true;
+          if (!inM) continue;
+        }
+        if (cx>GATE_X0 && cx<GATE_X1 && cy>168) continue;   // gateway void
+
+        var path = document.createElementNS(NS,'path');
+        path.setAttribute('d','M'+a[0].toFixed(1)+','+a[1].toFixed(1)
+                            +'L'+bb[0].toFixed(1)+','+bb[1].toFixed(1)
+                            +'L'+d[0].toFixed(1)+','+d[1].toFixed(1)
+                            +'L'+e[0].toFixed(1)+','+e[1].toFixed(1)+'Z');
+        piecesG.appendChild(path);
+        PIECES.push({ el:path, cx:cx, cy:cy, x:0, y:0,
+                      vx:0, vy:0, rot:0, vr:0, state:0, delay:0 });
+      }
+    }
+
+    clearKids(slitsG);
+    var sn = rndInt(2,4);
+    for (var j=0;j<sn;j++){
+      var sx, guard=0;
+      do { sx = rnd(SPAN_X0+8, SPAN_X1-12); guard++; }
+      while (sx > GATE_X0-6 && sx < GATE_X1+2 && guard < 24);
+      var s = document.createElementNS(NS,'rect');
+      s.setAttribute('x', sx.toFixed(1));
+      s.setAttribute('y', (faceY + rnd(8,24)).toFixed(1));
+      s.setAttribute('width', 4);
+      s.setAttribute('height', rnd(10,15).toFixed(1));
+      slitsG.appendChild(s);
+    }
+
+    // One owner: the hit box comes from the geometry just drawn rather than
+    // being written down a second time and left to drift.
+    WALL.y0 = capY;
+  }
+
+  // Wipe every damage visual without animating. Used by the rebuild and by
+  // standing down, which must not leave half a collapse on screen.
+  function clearDamage(){
+    dmg=0; hits=0; shots=0; falling=false;
+    var i;
+    for (i=0;i<cracks.length;i++){ cracks[i].style.transition='none'; cracks[i].style.opacity=0; }
+    for (i=0;i<dust.length;i++){   dust[i].style.transition='none';
+                                   dust[i].style.transform='';    dust[i].style.opacity='0'; }
+    if (trimG){ trimG.style.transition='none'; trimG.style.opacity='1'; }
+    if (shake){ shake.style.animation=''; }
+  }
+
+  function rebuild(){
+    clearDamage();
+    buildWall();
+    if (wallG){
+      wallG.style.transition='none';
+      wallG.style.transform='translate(0px,14px)';
+      wallG.style.opacity='0';
+      void wallG.getBoundingClientRect();
+      wallG.style.transition='transform .6s ease-out, opacity .6s ease-out';
+      wallG.style.transform='';
+      wallG.style.opacity='1';
+    }
     hudText();
   }
 
@@ -636,20 +1019,27 @@ h1{font-size:clamp(30px,6vw,50px);margin:10px 0 8px;color:var(--gold-lt);
       // A harder wind swings the arm faster, so release speed comes out of
       // the geometry rather than being a separate made-up number.
       var prevQ = pouchAt(angAt(t), sAt(t));
-      t += 0.55 + 0.85*power;
+      t += WIND_BASE + WIND_GAIN*power;
       if (!p && t >= REL_T){
         var q = pouchAt(angAt(t), sAt(t));
         p = { x:q[0], y:q[1],
               vx:(q[0]-prevQ[0])*GAIN, vy:(q[1]-prevQ[1])*GAIN };
       }
-      if (t>34 && !p){ phase='spent'; setTimeout(function(){ if(on){phase='ready';t=0;power=0;} },600); }
+      if (t>SWEEP*1.6 && !p){ phase='spent'; setTimeout(function(){ if(on){phase='ready';t=0;power=0;} },600); }
     }
     if (p){
       p.x += p.vx; p.y += p.vy; p.vy += GRAV;
-      var inWall = p.x>=WALL.x0 && p.x<=WALL.x1 && p.y>=WALL.y0 && p.y<=WALL.y1;
-      var gone   = p.y >= GROUND || p.x > 402;
-      if (inWall || gone) land(inWall, p.x, p.y);
+      // The wall lives in scene coordinates, the stone in the rig's. Convert
+      // here and nowhere else, and hand land() the scene position so the
+      // impact flash and the block it dislodges agree on where it struck.
+      var sx = toSceneX(p.x), sy = toSceneY(p.y);
+      var inWall = sx>=WALL.x0 && sx<=WALL.x1 && sy>=WALL.y0 && sy<=WALL.y1;
+      var gone   = sy >= GROUND || sx > 402;
+      if (inWall || gone) land(inWall, sx, sy);
     }
+    // Follow-through: the machine finishes its motion after the shot has gone.
+    if (phase==='spent' && t < SLING_SWEEP) t += 0.9;
+    stepDebris();      // masonry falls on the same clock as the stone
     draw();
     raf = requestAnimationFrame(loop);
   }
@@ -658,7 +1048,7 @@ h1{font-size:clamp(30px,6vw,50px);margin:10px 0 8px;color:var(--gold-lt);
     if (on) return;
     on = true; stage.classList.add('playing');
     hint.textContent = PLAY; hint.classList.add('on');
-    phase='ready'; t=0; power=0; p=null; reset(); draw();
+    phase='ready'; t=0; power=0; p=null; rebuild(); draw();
     raf = requestAnimationFrame(loop);
   }
   function disarm(){
@@ -667,7 +1057,10 @@ h1{font-size:clamp(30px,6vw,50px);margin:10px 0 8px;color:var(--gold-lt);
     stage.classList.remove('playing');
     [beam, cw, sling, shot].forEach(function(el){ el.style.transform = ''; });
     shot.style.opacity=''; hitG.style.opacity=''; hitG.style.transform=''; hitG.style.animation='';
-    for (var i=0;i<cracks.length;i++) cracks[i].style.opacity=0;
+    // Standing down mid-collapse must not leave a half-fallen wall on the
+    // idle screen, so the wall group is put back as well as the damage.
+    clearDamage();
+    if (wallG){ wallG.style.transition='none'; wallG.style.transform=''; wallG.style.opacity='1'; }
     hud.innerHTML=''; meter.classList.remove('on'); idleAt=Date.now();
     hint.textContent = TAKE;
   }
