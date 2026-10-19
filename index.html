@@ -13,7 +13,12 @@
   --gold:#d4af37; --gold-lt:#f5dd8f; --gold-dk:#8a7024;
   --flame:#f0a92a; --flame-hot:#ffd77a; --muted:#8b88a0;
   --timber:#4a3822; --timber-lt:#6b5231; --timber-dk:#2e2315;
-  --iron:#5a5a6e; --stone-a:#232336; --stone-b:#1b1b2b; --stone-c:#2b2b40;
+  --iron:#5a5a6e;
+  /* The wall is the NEAREST mass and this is a night scene, so it reads
+     darkest and silhouettes against the lit city behind. These used to be
+     #232336/#1b1b2b/#2b2b40 against a castle of #1e1e36 - near enough the
+     same value that the two merged and the wall had no edge. */
+  --stone-a:#14141f; --stone-b:#0d0d16; --stone-c:#1d1d2b;
   --mx:0; --my:0;
 }
 *{box-sizing:border-box}
@@ -115,7 +120,7 @@ body{
 
 @keyframes hit{0%,44%{opacity:0;transform:scale(.3)}47%{opacity:1;transform:scale(1)}
   60%{opacity:0;transform:scale(2.1)}100%{opacity:0}}
-.hit{transform-origin:258px 150px;animation:hit 6.4s ease-out infinite}
+.hit{transform-origin:272px 150px;animation:hit 6.4s ease-out infinite}
 @keyframes hit2{0%,45%{opacity:0}48%{opacity:.9}56%{opacity:0}100%{opacity:0}}
 .spark{animation:hit2 6.4s ease-out infinite}
 
@@ -193,6 +198,12 @@ body{
    them may be running at a time. */
 .playing .beam,.playing .cw,.playing .sling,.playing .shot,
 .playing .rig,.playing .winch{animation:none!important}
+/* The ambient siege is scenery for the holding page. While someone is
+   actually playing, a phantom stone hitting the wall every 6.4 seconds -
+   flash, sparks and a screen shake they did not cause - competes with their
+   own shots and makes their hits unreadable. */
+.playing .hit,.playing .spark,.playing .shake{animation:none!important}
+.playing .hit,.playing .spark{opacity:0}
 .stage{cursor:default;
   /* A long press on a phone otherwise selects text, pops the callout menu, or
      scrolls the page instead of winding the counterweight. */
@@ -280,24 +291,78 @@ h1{font-size:clamp(30px,6vw,50px);margin:10px 0 8px;color:var(--gold-lt);
     </g>
   </svg></div>
 
+  <!-- THE CITY AND THE CASTLE BEHIND THE WALL.
+       
+       This layer used to be one keep shoved off to the right at x298-388,
+       which at this layer's scale(1.30) put most of it past the right edge
+       of the stage. Behind the gatehouse - where you are actually looking -
+       there was nothing, so the wall read as a lone structure in open
+       country rather than the thing standing between you and a city.
+       
+       Laid out in three bands of decreasing height so the eye reads depth:
+       the city roofs low and wide, the inner halls behind them, and the
+       donjon rising over the gate. x255 in this layer sits behind the
+       gatehouse once scale(1.30) is applied. -->
   <div class="layer z-keep"><svg viewBox="0 0 400 250" aria-hidden="true">
-    <g fill="#101020">
-      <rect x="298" y="74" width="90" height="144"/>
-      <rect x="294" y="66" width="98" height="10"/>
-      <rect x="296" y="56" width="11" height="11"/><rect x="318" y="56" width="11" height="11"/>
-      <rect x="340" y="56" width="11" height="11"/><rect x="362" y="56" width="11" height="11"/>
-      <rect x="381" y="56" width="11" height="11"/>
-      <path d="M330,42 L346,42 L338,26 Z"/>
-      <rect x="336" y="100" width="5" height="16" fill="#f0a92a" opacity=".5"/>
-      <rect x="358" y="128" width="5" height="16" fill="#f0a92a" opacity=".35"/>
-      <rect x="312" y="150" width="5" height="16" fill="#f0a92a" opacity=".4"/>
-      <rect x="14" y="140" width="52" height="78"/>
-      <rect x="10" y="132" width="60" height="9"/>
-      <rect x="12" y="122" width="10" height="10"/><rect x="34" y="122" width="10" height="10"/>
-      <rect x="56" y="122" width="10" height="10"/>
-      <rect x="36" y="156" width="5" height="14" fill="#f0a92a" opacity=".3"/>
+
+    <!-- City: roofs and chimneys, furthest back and faintest. -->
+    <g fill="#141425" opacity=".92">
+      <rect x="96" y="150" width="26" height="68"/><path d="M94,151 L109,138 L124,151 Z"/>
+      <rect x="124" y="158" width="22" height="60"/><path d="M122,159 L135,147 L148,159 Z"/>
+      <rect x="150" y="146" width="24" height="72"/><path d="M148,147 L162,133 L176,147 Z"/>
+      <rect x="318" y="152" width="24" height="66"/><path d="M316,153 L330,140 L344,153 Z"/>
+      <rect x="344" y="160" width="22" height="58"/><path d="M342,161 L353,149 L364,161 Z"/>
+      <rect x="368" y="150" width="26" height="68"/><path d="M366,151 L381,138 L396,151 Z"/>
+      <rect x="104" y="128" width="3" height="11"/><rect x="158" y="124" width="3" height="10"/>
+      <rect x="330" y="130" width="3" height="11"/><rect x="376" y="128" width="3" height="10"/>
     </g>
-    <g class="banner bn3"><path d="M338,26 L338,10 L362,16 L338,22 Z" fill="#5b2a86" opacity=".85"/></g>
+
+    <!-- Inner halls: the castle's lower ranges, flanking the keep. -->
+    <g fill="#191930">
+      <rect x="176" y="118" width="40" height="100"/>
+      <rect x="172" y="112" width="48" height="8"/>
+      <rect x="174" y="104" width="8" height="9"/><rect x="190" y="104" width="8" height="9"/>
+      <rect x="206" y="104" width="8" height="9"/>
+      <rect x="296" y="118" width="40" height="100"/>
+      <rect x="292" y="112" width="48" height="8"/>
+      <rect x="294" y="104" width="8" height="9"/><rect x="310" y="104" width="8" height="9"/>
+      <rect x="326" y="104" width="8" height="9"/>
+    </g>
+
+    <!-- The castle proper: two drum towers and the donjon between them. -->
+    <g fill="#1e1e36">
+      <rect x="214" y="74" width="26" height="144"/>
+      <rect x="210" y="66" width="34" height="9"/>
+      <rect x="212" y="56" width="9" height="11"/><rect x="226" y="56" width="9" height="11"/>
+      <path d="M212,56 L244,56 L228,34 Z"/>
+
+      <rect x="272" y="74" width="26" height="144"/>
+      <rect x="268" y="66" width="34" height="9"/>
+      <rect x="270" y="56" width="9" height="11"/><rect x="284" y="56" width="9" height="11"/>
+      <path d="M268,56 L300,56 L284,34 Z"/>
+
+      <rect x="240" y="50" width="32" height="168"/>
+      <rect x="236" y="42" width="40" height="9"/>
+      <rect x="238" y="31" width="9" height="12"/><rect x="252" y="31" width="9" height="12"/>
+      <rect x="266" y="31" width="9" height="12"/>
+      <path d="M248,31 L264,31 L256,8 Z"/>
+    </g>
+
+    <!-- Lit windows. Sparse and uneven: a castle at night is mostly dark,
+         and evenly spaced lights read as a spreadsheet. -->
+    <g fill="#f0a92a">
+      <rect x="252" y="72"  width="4" height="13" opacity=".55"/>
+      <rect x="260" y="104" width="4" height="13" opacity=".35"/>
+      <rect x="244" y="138" width="4" height="13" opacity=".45"/>
+      <rect x="222" y="96"  width="4" height="12" opacity=".40"/>
+      <rect x="282" y="122" width="4" height="12" opacity=".30"/>
+      <rect x="190" y="140" width="4" height="12" opacity=".35"/>
+      <rect x="312" y="146" width="4" height="12" opacity=".30"/>
+      <rect x="132" y="176" width="3" height="9"  opacity=".28"/>
+      <rect x="352" y="178" width="3" height="9"  opacity=".25"/>
+    </g>
+
+    <g class="banner bn3"><path d="M256,8 L256,-8 L280,-2 L256,4 Z" fill="#5b2a86" opacity=".85"/></g>
   </svg></div>
 
   <div class="layer z-fog1"><svg viewBox="0 0 400 250" aria-hidden="true">
@@ -327,29 +392,29 @@ h1{font-size:clamp(30px,6vw,50px);margin:10px 0 8px;color:var(--gold-lt);
         <!-- Painted detail. Not physical. Fades out when the span goes, so the
              gate does not hang in mid-air over a heap of rubble. -->
         <g id="gTrim">
-          <rect x="252" y="170" width="26" height="48" fill="#0b0b16"/>
-          <path d="M252,170 a13,13 0 0 1 26,0" fill="#0b0b16"/>
+          <rect x="260" y="172" width="24" height="46" fill="#07070e"/>
+          <path d="M260,172 a12,12 0 0 1 24,0" fill="#07070e"/>
           <g stroke="var(--iron)" stroke-width="1.4" opacity=".8">
-            <line x1="256" y1="174" x2="256" y2="218"/><line x1="262" y1="170" x2="262" y2="218"/>
-            <line x1="268" y1="170" x2="268" y2="218"/><line x1="274" y1="174" x2="274" y2="218"/>
-            <line x1="252" y1="184" x2="278" y2="184"/><line x1="252" y1="198" x2="278" y2="198"/>
+            <line x1="265" y1="175" x2="265" y2="218"/><line x1="272" y1="171" x2="272" y2="218"/>
+            <line x1="279" y1="175" x2="279" y2="218"/>
+            <line x1="260" y1="186" x2="284" y2="186"/><line x1="260" y1="200" x2="284" y2="200"/>
           </g>
           <g id="gSlits" fill="#07070f"></g>
           <g id="gPace" fill="#0a0a14">
-            <path class="pace" d="M238,104 h4 v-7 a2,2 0 0 0 -4,0 Z"/>
-            <path class="pace pace2" d="M288,104 h4 v-7 a2,2 0 0 0 -4,0 Z"/>
-            <path d="M262,104 h4 v-7 a2,2 0 0 0 -4,0 Z"/>
-            <line x1="264" y1="97" x2="264" y2="86" stroke="#0a0a14" stroke-width="1.4"/>
+            <path class="pace" d="M211,88 h4 v-7 a2,2 0 0 0 -4,0 Z"/>
+            <path class="pace pace2" d="M329,88 h4 v-7 a2,2 0 0 0 -4,0 Z"/>
+            <path d="M270,104 h4 v-7 a2,2 0 0 0 -4,0 Z"/>
+            <line x1="272" y1="97" x2="272" y2="84" stroke="#0a0a14" stroke-width="1.4"/>
           </g>
           <!-- Damage cracks only. The wall no longer ships pre-cracked: it
                starts sound and every mark on it is one you put there. -->
-          <g id="gDmg" stroke="#06060d" stroke-width="2.6" fill="none">
-            <path d="M244,124 L254,134 L246,146" opacity="0"/>
-            <path d="M286,116 L278,128 L288,138" opacity="0"/>
-            <path d="M234,158 L246,166 L238,180" opacity="0"/>
-            <path d="M296,150 L288,162 L300,172" opacity="0"/>
-            <path d="M258,120 L266,136 L256,150 L268,162" opacity="0" stroke-width="3.4"/>
-            <path d="M240,190 L256,196 L272,190 L290,198" opacity="0" stroke-width="3.4"/>
+          <g id="gDmg" stroke="#04040a" stroke-width="2.6" fill="none">
+            <path d="M206,112 L216,124 L208,138" opacity="0"/>
+            <path d="M238,146 L246,158 L236,170" opacity="0"/>
+            <path d="M266,126 L278,140 L264,154" opacity="0" stroke-width="3.4"/>
+            <path d="M300,148 L308,160 L298,174" opacity="0"/>
+            <path d="M330,110 L338,124 L328,138" opacity="0"/>
+            <path d="M212,190 L244,198 L272,190 L304,198 L336,190" opacity="0" stroke-width="3.4"/>
           </g>
           <g fill="#39394f">
             <rect class="rubble"    x="252" y="152" width="4" height="4"/>
@@ -361,18 +426,20 @@ h1{font-size:clamp(30px,6vw,50px);margin:10px 0 8px;color:var(--gold-lt);
       </g>
 
       <g id="gDust" fill="#2a2a3c">
-        <ellipse cx="248" cy="216" rx="20" ry="9" opacity="0"/>
-        <ellipse cx="274" cy="216" rx="24" ry="11" opacity="0"/>
-        <ellipse cx="296" cy="216" rx="18" ry="8" opacity="0"/>
+        <ellipse cx="213" cy="216" rx="26" ry="10" opacity="0"/>
+        <ellipse cx="272" cy="216" rx="32" ry="12" opacity="0"/>
+        <ellipse cx="331" cy="216" rx="26" ry="10" opacity="0"/>
       </g>
 
+      <!-- Idle impact, centred on the gatehouse. Was 258,150, the middle of
+           the old single-block wall; the gate is at 271 now. -->
       <g class="hit" id="gHit">
-        <circle cx="258" cy="150" r="10" fill="none" stroke="var(--flame-hot)" stroke-width="2.6"/>
-        <circle cx="258" cy="150" r="4" fill="var(--flame-hot)"/>
+        <circle cx="272" cy="150" r="10" fill="none" stroke="var(--flame-hot)" stroke-width="2.6"/>
+        <circle cx="272" cy="150" r="4" fill="var(--flame-hot)"/>
       </g>
       <g class="spark" stroke="var(--flame-hot)" stroke-width="1.6" stroke-linecap="round">
-        <line x1="258" y1="150" x2="246" y2="140"/><line x1="258" y1="150" x2="272" y2="142"/>
-        <line x1="258" y1="150" x2="250" y2="163"/><line x1="258" y1="150" x2="270" y2="162"/>
+        <line x1="272" y1="150" x2="260" y2="140"/><line x1="272" y1="150" x2="286" y2="142"/>
+        <line x1="272" y1="150" x2="264" y2="163"/><line x1="272" y1="150" x2="284" y2="162"/>
       </g>
     </g>
   </svg></div>
@@ -615,8 +682,52 @@ h1{font-size:clamp(30px,6vw,50px);margin:10px 0 8px;color:var(--gold-lt);
   var BREACH = CRACK_HITS + CHUNK_HITS + 1;   // the last hit brings it down
 
   var WALL = { x0:228, x1:314, y0:106, y1:218 };
-  var SPAN_X0 = 228, SPAN_X1 = 314, BASE_Y = 218;
-  var GATE_X0 = 252, GATE_X1 = 278;
+  /* The wall is a GATEHOUSE BETWEEN TWO TOWERS, all one curtain.
+
+     It used to be a single uniform lattice from x228 to x314 - one rectangle
+     of blocks with a gate painted on it. That is why it read as an isolated
+     tower rather than a stretch of defended wall: there was no profile to
+     read, just a box.
+
+     Five segments now, each with its own crest height, sharing one base and
+     one run of masonry. Low curtain between high towers, with the gatehouse
+     stepping up in the middle, gives the silhouette somewhere for the eye to
+     go and makes it obvious what you are aiming at.
+
+     Segment table is the single owner of the wall's shape. The hit box, the
+     merlons, the arrow slits, the gateway void and the rubble buckets are
+     all derived from it below, so widening a tower here cannot leave some
+     other part of the file believing the old geometry. */
+  var BASE_Y = 218;
+  var SEGMENTS = [
+    { x0:196, x1:230, top: 88, kind:'tower'  },
+    { x0:230, x1:248, top:130, kind:'curtain'},
+    { x0:248, x1:296, top:104, kind:'gate'   },
+    { x0:296, x1:314, top:130, kind:'curtain'},
+    { x0:314, x1:348, top: 88, kind:'tower'  }
+  ];
+  var SPAN_X0 = SEGMENTS[0].x0, SPAN_X1 = SEGMENTS[SEGMENTS.length-1].x1;
+
+  /* Crest height per segment, filled in by buildWall with the jitter that
+     was actually drawn. The hit test reads this rather than a single top.
+     
+     Without it the wall was one bounding box from the tallest tower crest
+     down to the ground, so a stone sailing clean over the LOW curtain
+     between the towers was still inside the box and scored as a hit. That
+     is the "it hits even when I overshoot" case: the stone visibly cleared
+     the wall and the collision thought otherwise. */
+  var SEG_TOP = [];
+  function wallTopAt(x){
+    for (var i=0;i<SEGMENTS.length;i++)
+      if (x >= SEGMENTS[i].x0 && x <= SEGMENTS[i].x1)
+        return SEG_TOP[i] != null ? SEG_TOP[i] : SEGMENTS[i].top;
+    return Infinity;        // not over the wall at all
+  }
+  /* The opening is 24 wide inside a 48-wide gatehouse, so twelve pixels of
+     masonry stand either side of the arch. It was 24 inside 30: three
+     pixels a side, which is a hole with a frame, not a gatehouse. */
+  var GATE_X0 = 260, GATE_X1 = 284;
+  var GATE_Y  = 172;                      // everything below this is archway
   var NS = 'http://www.w3.org/2000/svg';
 
   // Debris physics. The previous version animated chunks with CSS transitions
@@ -637,7 +748,7 @@ h1{font-size:clamp(30px,6vw,50px);margin:10px 0 8px;color:var(--gold-lt);
   // buckets only covered the wall itself everything that flew clear clamped
   // into bucket zero and stacked 52px into a tower. PILE_MAX caps it too.
   var BUCKETS = 18, PILE_STEP = 2.2, pileTop = [];
-  var PILE_X0 = 186, PILE_X1 = 322, PILE_MAX = 15;
+  var PILE_X0 = SPAN_X0 - 22, PILE_X1 = SPAN_X1 + 22, PILE_MAX = 15;
 
   function rnd(a,b){ return a + Math.random()*(b-a); }
   function rndInt(a,b){ return Math.floor(a + Math.random()*(b-a+1)); }
@@ -707,7 +818,7 @@ h1{font-size:clamp(30px,6vw,50px);margin:10px 0 8px;color:var(--gold-lt);
      doing: power 0.25 and power 0.50 both landed at x=229, the near edge.
      Two very different winds, identical result, and full power sailed over.
      Most of the power bar did nothing. */
-  var REL_T = REL_K * SWEEP, GAIN = 0.54;
+  var REL_T = REL_K * SWEEP, GAIN = 0.44;
   function rotp(px,py,cx,cy,deg){
     var r=deg*Math.PI/180, c=Math.cos(r), sn=Math.sin(r), dx=px-cx, dy=py-cy;
     return [cx+dx*c-dy*sn, cy+dx*sn+dy*c];
@@ -744,11 +855,36 @@ h1{font-size:clamp(30px,6vw,50px);margin:10px 0 8px;color:var(--gold-lt);
   }
   function angAt(tt){ return COCK + (FIRE-COCK) * armFrac(tt/SWEEP); }
 
-  /* Sling: lags, then whips. Linear meant the sling rotated at a constant
-     rate while the arm was accelerating, so the two never looked connected.
-     The exponent makes it trail early and snap through near release, which
-     is the part of a trebuchet that actually throws the stone. */
-  function sAt(tt){ return SWING * Math.pow(Math.min(1, tt/SLING_SWEEP), 1.4); }
+  /* Sling: lags, then whips, and finishes its whip AS the stone leaves.
+
+     The scale here used to be SLING_SWEEP (45), which is the follow-through
+     bound, not a statement about the sling. Release fires at t=23.2, so the
+     sling was only 40% through its travel when the stone separated: it let
+     go while the sling still had most of its swing ahead of it, which is why
+     the throw looked disjointed. Two constants that had to agree, with
+     nothing making them agree.
+
+     SLING_FULL is sized from REL_T on purpose. At release the sling is 95%
+     open, which is roughly when a real one lets go. */
+  var SLING_FULL = 24;                    // whip completes at t=24, release is 23.2
+  function sAt(tt){
+    if (tt <= SLING_FULL) return SWING * Math.pow(tt/SLING_FULL, 1.4);
+    /* Past the throw the sling is EMPTY, and an empty sling does not hold
+       its pose.
+
+       This used to be Math.min(1, ...), which clamped the rotation at -190
+       and left it welded there for the whole follow-through while the arm
+       swept on another 40 degrees. A rigid line locked at full wrap, moving
+       only because the arm beneath it moved: that is the part that read as
+       wrong, and no amount of retiming the release was going to fix it,
+       because the problem happens after the release.
+
+       Momentum carries the slack sling past the stop, then it trails. An
+       exponential approach gives that in one expression and settles instead
+       of oscillating. */
+    var over = tt - SLING_FULL;
+    return SWING * (1 + 0.17 * (1 - Math.exp(-over / 5.5)));
+  }
 
   var on=false, charging=false, power=0, phase='ready', t=0, falling=false,
       shots=0, hits=0, dmg=0,
@@ -1004,7 +1140,8 @@ h1{font-size:clamp(30px,6vw,50px);margin:10px 0 8px;color:var(--gold-lt);
       burst(x,y);
     }
     p=null; phase='spent'; hudText();
-    setTimeout(function(){ if(on && phase==='spent'){ phase='ready'; t=0; power=0; draw(); } }, 700);
+    // Hand off to the 'return' phase rather than slamming t to 0. See loop().
+    setTimeout(function(){ if(on && phase==='spent'){ phase='return'; } }, 700);
   }
 
   // Cut the wall into blocks. A jittered lattice, not a grid: every vertex is
@@ -1020,69 +1157,96 @@ h1{font-size:clamp(30px,6vw,50px);margin:10px 0 8px;color:var(--gold-lt);
     pileTop.length = 0;
     for (var b=0;b<BUCKETS;b++) pileTop[b] = BASE_Y;
 
-    var capY  = [104,108,112][rndInt(0,2)];
-    var faceY = capY + 14;
+    var topMost = 1e9;
+    SEG_TOP.length = 0;
 
-    var n = rndInt(3,5), mw = 14, gap = (SPAN_X1 - SPAN_X0 - n*mw) / (n-1);
-    var merlons = [];
-    for (var i=0;i<n;i++){
-      var mx = SPAN_X0 + i*(mw+gap);
-      merlons.push([mx, mx+mw]);
-    }
+    // Each segment is its own lattice. Separate grids rather than one grid
+    // with a varying top, because neighbouring columns at different heights
+    // in a shared grid produce sloped quads across the step; what a wall does
+    // at a change of height is step, cleanly.
+    SEGMENTS.forEach(function (seg) {
+      var w = seg.x1 - seg.x0;
+      // A touch of variation so two rebuilds are not identical, but never
+      // enough to change which segment is tall.
+      var capY  = seg.top + rnd(-3, 3);
+      SEG_TOP[SEGMENTS.indexOf(seg)] = capY;
+      var faceY = capY + 13;                 // parapet band depth
+      if (capY < topMost) topMost = capY;
 
-    var COLS = 7, ROWS = 8, pts = [], r, c;
-    for (r=0;r<=ROWS;r++){
-      pts[r] = [];
-      for (c=0;c<=COLS;c++){
-        var px = SPAN_X0 + (SPAN_X1-SPAN_X0)*c/COLS;
-        var py = capY    + (BASE_Y-capY)   *r/ROWS;
-        if (c>0 && c<COLS) px += rnd(-2.6,2.6);
-        if (r>0 && r<ROWS) py += rnd(-2.3,2.3);
-        pts[r][c] = [px,py];
+      var COLS = Math.max(2, Math.round(w / 12));
+      var ROWS = Math.max(4, Math.round((BASE_Y - capY) / 14));
+
+      // Merlons sized per segment, so a narrow curtain does not get the same
+      // count as a tower and end up looking like a comb.
+      var mw = 9, gapW = 7;
+      var n = Math.max(2, Math.floor((w + gapW) / (mw + gapW)));
+      var spare = w - (n*mw + (n-1)*gapW);
+      var merlons = [];
+      for (var i=0;i<n;i++){
+        var mx = seg.x0 + spare/2 + i*(mw+gapW);
+        merlons.push([mx, mx+mw]);
       }
-    }
 
-    for (r=0;r<ROWS;r++){
-      for (c=0;c<COLS;c++){
-        var a=pts[r][c], bb=pts[r][c+1], d=pts[r+1][c+1], e=pts[r+1][c];
-        var cx=(a[0]+bb[0]+d[0]+e[0])/4, cy=(a[1]+bb[1]+d[1]+e[1])/4;
-
-        if (cy < faceY){                       // parapet band
-          var inM=false;
-          for (var m=0;m<merlons.length;m++)
-            if (cx>=merlons[m][0] && cx<=merlons[m][1]) inM=true;
-          if (!inM) continue;
+      var pts = [], r, c;
+      for (r=0;r<=ROWS;r++){
+        pts[r] = [];
+        for (c=0;c<=COLS;c++){
+          var px = seg.x0 + w*c/COLS;
+          var py = capY + (BASE_Y-capY)*r/ROWS;
+          if (c>0 && c<COLS) px += rnd(-2.2,2.2);
+          if (r>0 && r<ROWS) py += rnd(-2.0,2.0);
+          pts[r][c] = [px,py];
         }
-        if (cx>GATE_X0 && cx<GATE_X1 && cy>168) continue;   // gateway void
-
-        var path = document.createElementNS(NS,'path');
-        path.setAttribute('d','M'+a[0].toFixed(1)+','+a[1].toFixed(1)
-                            +'L'+bb[0].toFixed(1)+','+bb[1].toFixed(1)
-                            +'L'+d[0].toFixed(1)+','+d[1].toFixed(1)
-                            +'L'+e[0].toFixed(1)+','+e[1].toFixed(1)+'Z');
-        piecesG.appendChild(path);
-        PIECES.push({ el:path, cx:cx, cy:cy, x:0, y:0,
-                      vx:0, vy:0, rot:0, vr:0, state:0, delay:0 });
       }
-    }
 
+      for (r=0;r<ROWS;r++){
+        for (c=0;c<COLS;c++){
+          var a=pts[r][c], bb=pts[r][c+1], d=pts[r+1][c+1], e=pts[r+1][c];
+          var cx=(a[0]+bb[0]+d[0]+e[0])/4, cy=(a[1]+bb[1]+d[1]+e[1])/4;
+
+          if (cy < faceY){                       // parapet band: merlons only
+            var inM=false;
+            for (var m=0;m<merlons.length;m++)
+              if (cx>=merlons[m][0] && cx<=merlons[m][1]) inM=true;
+            if (!inM) continue;
+          }
+          // The archway is a void in the gatehouse, not a hole punched
+          // through whatever happens to be in the middle of the wall.
+          if (seg.kind==='gate' && cx>GATE_X0 && cx<GATE_X1 && cy>GATE_Y) continue;
+
+          var path = document.createElementNS(NS,'path');
+          path.setAttribute('d','M'+a[0].toFixed(1)+','+a[1].toFixed(1)
+                              +'L'+bb[0].toFixed(1)+','+bb[1].toFixed(1)
+                              +'L'+d[0].toFixed(1)+','+d[1].toFixed(1)
+                              +'L'+e[0].toFixed(1)+','+e[1].toFixed(1)+'Z');
+          piecesG.appendChild(path);
+          PIECES.push({ el:path, cx:cx, cy:cy, x:0, y:0,
+                        vx:0, vy:0, rot:0, vr:0, state:0, delay:0 });
+        }
+      }
+    });
+
+    // Arrow slits: towers get them high, the gatehouse gets a pair flanking
+    // the arch. Curtain walls are too low to be worth piercing here.
     clearKids(slitsG);
-    var sn = rndInt(2,4);
-    for (var j=0;j<sn;j++){
-      var sx, guard=0;
-      do { sx = rnd(SPAN_X0+8, SPAN_X1-12); guard++; }
-      while (sx > GATE_X0-6 && sx < GATE_X1+2 && guard < 24);
-      var s = document.createElementNS(NS,'rect');
-      s.setAttribute('x', sx.toFixed(1));
-      s.setAttribute('y', (faceY + rnd(8,24)).toFixed(1));
-      s.setAttribute('width', 4);
-      s.setAttribute('height', rnd(10,15).toFixed(1));
-      slitsG.appendChild(s);
-    }
+    SEGMENTS.forEach(function (seg) {
+      if (seg.kind === 'curtain') return;
+      var list = seg.kind === 'gate'
+        ? [GATE_X0 - 9, GATE_X1 + 5]
+        : [seg.x0 + (seg.x1-seg.x0)/2 - 2];
+      list.forEach(function (sx) {
+        var s = document.createElementNS(NS,'rect');
+        s.setAttribute('x', sx.toFixed(1));
+        s.setAttribute('y', (seg.top + rnd(26, 42)).toFixed(1));
+        s.setAttribute('width', 4);
+        s.setAttribute('height', rnd(11,15).toFixed(1));
+        slitsG.appendChild(s);
+      });
+    });
 
     // One owner: the hit box comes from the geometry just drawn rather than
     // being written down a second time and left to drift.
-    WALL.y0 = capY;
+    WALL.x0 = SPAN_X0; WALL.x1 = SPAN_X1; WALL.y0 = topMost;
   }
 
   // Wipe every damage visual without animating. Used by the rebuild and by
@@ -1128,7 +1292,10 @@ h1{font-size:clamp(30px,6vw,50px);margin:10px 0 8px;color:var(--gold-lt);
         p = { x:q[0], y:q[1],
               vx:(q[0]-prevQ[0])*GAIN, vy:(q[1]-prevQ[1])*GAIN };
       }
-      if (t>SWEEP*1.6 && !p){ phase='spent'; setTimeout(function(){ if(on){phase='ready';t=0;power=0;} },600); }
+      // Safety net: the sweep ran out without a projectile ever being made.
+      // Routed through 'return' like every other reset, so there is one way
+      // the arm goes home and not two.
+      if (t>SWEEP*1.6 && !p){ phase='spent'; setTimeout(function(){ if(on && phase==='spent'){ phase='return'; } },600); }
     }
     if (p){
       p.x += p.vx; p.y += p.vy; p.vy += GRAV;
@@ -1136,12 +1303,27 @@ h1{font-size:clamp(30px,6vw,50px);margin:10px 0 8px;color:var(--gold-lt);
       // here and nowhere else, and hand land() the scene position so the
       // impact flash and the block it dislodges agree on where it struck.
       var sx = toSceneX(p.x), sy = toSceneY(p.y);
-      var inWall = sx>=WALL.x0 && sx<=WALL.x1 && sy>=WALL.y0 && sy<=WALL.y1;
+      var inWall = sx>=WALL.x0 && sx<=WALL.x1 && sy>=wallTopAt(sx) && sy<=WALL.y1;
       var gone   = sy >= GROUND || sx > 402;
       if (inWall || gone) land(inWall, sx, sy);
     }
     // Follow-through: the machine finishes its motion after the shot has gone.
     if (phase==='spent' && t < SLING_SWEEP) t += 0.9;
+
+    /* Winching back.
+
+       This used to be `t = 0` inside a setTimeout, which teleported the arm
+       from wherever the follow-through had left it (up to t=45) straight
+       back to the cocked angle in a single frame. Against the run-out that
+       preceded it, the pair read as the arm bouncing.
+
+       A crew does not teleport a trebuchet arm, they winch it down, and it
+       takes a moment. Exponential decay on t gives that for one line: fast
+       at first, easing in as it seats. */
+    if (phase==='return'){
+      t *= 0.86;
+      if (t < 0.4){ t = 0; power = 0; phase = 'ready'; }
+    }
     stepDebris();      // masonry falls on the same clock as the stone
     draw();
     raf = requestAnimationFrame(loop);
