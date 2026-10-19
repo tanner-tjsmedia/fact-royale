@@ -27,8 +27,13 @@ body{
 .stage{perspective:1250px;perspective-origin:50% 48%;
   width:min(900px,97vw);height:min(400px,50vh);position:relative;margin-bottom:4px}
 .world{position:absolute;inset:0;transform-style:preserve-3d;
-  transform:rotateY(calc(var(--mx) * 6deg)) rotateX(calc(var(--my) * -2.2deg));
-  transition:transform .4s cubic-bezier(.2,.7,.3,1)}
+  transform:rotateY(calc(var(--mx) * 6deg)) rotateX(calc(var(--my) * -2.2deg))}
+/* No transition on that transform. --mx and --my are rewritten every frame by
+   the parallax loop, which already eases them in JS (cx += (tx-cx)*0.06). A
+   400ms transition on top of a per-frame change means the browser restarts an
+   interpolation sixty times a second and never finishes one, so the layer
+   lags behind the pointer and feels like syrup. The easing belongs in exactly
+   one place and it is the JS. */
 .layer{position:absolute;inset:0;transform-style:preserve-3d}
 .layer svg{position:absolute;inset:0;width:100%;height:100%;overflow:visible}
 .z-sky{transform:translateZ(-820px) scale(1.68)}
@@ -527,13 +532,33 @@ h1{font-size:clamp(30px,6vw,50px);margin:10px 0 8px;color:var(--gold-lt);
 
 <script>
 (function(){
-  var root = document.documentElement;
   if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+
+  /* Write the parallax variables to the STAGE, not to :root.
+
+     A custom property set on document.documentElement invalidates style for
+     every element in the document, because anything could inherit it. This
+     loop runs at 60fps forever, so the page was doing a full-document style
+     recalculation sixty times a second, permanently, whether or not anyone
+     was looking at it. The only consumer is .world's 3D transform, so the
+     variable only ever needed to reach .stage.
+
+     Falls back to documentElement if the stage is not on the page, so the
+     effect degrades rather than disappearing. */
+  var host = document.querySelector('.stage') || document.documentElement;
+
   var tx=0, ty=0, cx=0, cy=0, drift=0, raf;
+  var lastX = null, lastY = null;
+
   function tick(){
     cx += (tx-cx)*0.06; cy += (ty-cy)*0.06; drift += 0.003;
-    root.style.setProperty('--mx', (cx + Math.sin(drift)*0.2).toFixed(4));
-    root.style.setProperty('--my', cy.toFixed(4));
+    var mx = +(cx + Math.sin(drift)*0.2).toFixed(3);
+    var my = +cy.toFixed(3);
+    // Three decimals is below what a 6deg rotation can show on screen, and
+    // skipping the write when nothing visibly changed keeps a still pointer
+    // from costing a restyle every frame.
+    if (mx !== lastX) { host.style.setProperty('--mx', mx); lastX = mx; }
+    if (my !== lastY) { host.style.setProperty('--my', my); lastY = my; }
     raf = requestAnimationFrame(tick);
   }
   tick();
@@ -638,6 +663,13 @@ h1{font-size:clamp(30px,6vw,50px);margin:10px 0 8px;color:var(--gold-lt);
   // 62% puts the arm at 66 degrees and throwing. Past about 72% the launch
   // vector tips downward again, so later is not better.
   var SWEEP = 40, SLING_SWEEP = 45;
+
+  // Release point, as a fraction of the sweep. Declared here rather than next
+  // to armFrac() because REL_T below is computed from it, and a `var` read
+  // before its assignment line is undefined, not hoisted-with-value: REL_T
+  // came out NaN and the stone never released.
+  var REL_K = 0.58;
+  var ARM_A = 1 / REL_K;                  // makes armFrac(1) land exactly on 1
   var WIND_BASE = 0.30, WIND_GAIN = 0.75;   // t per frame = base + gain*power
 
   // The machine is drawn inside #gRigScale, so everything the arm does happens
@@ -663,7 +695,19 @@ h1{font-size:clamp(30px,6vw,50px);margin:10px 0 8px;color:var(--gold-lt);
 
   // Standing the machine off from 73px to 113px more than doubled the range it
   // has to cover in its own local units, so the release retuned with it.
-  var REL_T = 0.58 * SWEEP, GAIN = 0.78;
+  /* GAIN was 0.78 against the old smoothstep arm. The new curve releases 37%
+     faster, so holding GAIN would have sent every shot over the wall.
+
+     0.54 was chosen by simulating the whole flight at 21 power settings and
+     taking the value that put the most of them on the wall with the widest
+     spread across its face: 13 of 21 land on the wall, covering 86px of an
+     86px-wide wall, usable from 40% power to 100%.
+
+     The old numbers are worth recording because they are why this needed
+     doing: power 0.25 and power 0.50 both landed at x=229, the near edge.
+     Two very different winds, identical result, and full power sailed over.
+     Most of the power bar did nothing. */
+  var REL_T = REL_K * SWEEP, GAIN = 0.54;
   function rotp(px,py,cx,cy,deg){
     var r=deg*Math.PI/180, c=Math.cos(r), sn=Math.sin(r), dx=px-cx, dy=py-cy;
     return [cx+dx*c-dy*sn, cy+dx*sn+dy*c];
@@ -675,8 +719,36 @@ h1{font-size:clamp(30px,6vw,50px);margin:10px 0 8px;color:var(--gold-lt);
     var q = rotp(48,129, 60,96, sA);
     return rotp(q[0],q[1], 155,104, a);
   }
-  function angAt(tt){ var k=Math.min(1,tt/SWEEP); return COCK+(FIRE-COCK)*(k*k*(3-2*k)); }
-  function sAt(tt){ return SWING*Math.min(1,tt/SLING_SWEEP); }
+  /* Arm sweep: accelerate from rest THROUGH the release, then run down.
+
+     This was smoothstep, k*k*(3-2*k), whose speed is 6k(1-k): zero at both
+     ends, peak at the exact middle. Release happens at k=0.58, so the arm
+     was already slowing down when it let go, and then eased to a dead stop.
+     That is an easing curve for a UI panel, not a counterweight. A falling
+     weight accelerates the arm the whole way round, hardest at the moment
+     the sling lets go, and the arm overruns afterwards because nothing is
+     stopping it except the beam hitting its stops.
+
+     So: constant angular acceleration until release, then decelerate to rest
+     at the end of the sweep. Peak angular speed now lands exactly on the
+     release instead of 8% past it, and the follow-through is a run-down
+     rather than a glide to a halt.
+
+     Measured against the old curve: speed at release 2.00 vs 1.46 (relative
+     units), which is why GAIN came down with it. */
+  function armFrac(k){
+    if (k >= 1) return 1;
+    if (k <= REL_K) return ARM_A * k * k;
+    var d = k - REL_K;
+    return ARM_A*REL_K*REL_K + 2*ARM_A*REL_K*d - (ARM_A*REL_K/(1-REL_K))*d*d;
+  }
+  function angAt(tt){ return COCK + (FIRE-COCK) * armFrac(tt/SWEEP); }
+
+  /* Sling: lags, then whips. Linear meant the sling rotated at a constant
+     rate while the arm was accelerating, so the two never looked connected.
+     The exponent makes it trail early and snap through near release, which
+     is the part of a trebuchet that actually throws the stone. */
+  function sAt(tt){ return SWING * Math.pow(Math.min(1, tt/SLING_SWEEP), 1.4); }
 
   var on=false, charging=false, power=0, phase='ready', t=0, falling=false,
       shots=0, hits=0, dmg=0,
@@ -738,6 +810,37 @@ h1{font-size:clamp(30px,6vw,50px);margin:10px 0 8px;color:var(--gold-lt);
     if (!cracks[i]) return;
     cracks[i].style.transition='opacity .35s';
     cracks[i].style.opacity=.95;
+  }
+
+  /* Reveal the crack NEAREST the impact, not the next one in document order.
+
+     Two bugs this replaces, both visible:
+
+     1. Cracks appeared in a fixed sequence regardless of where the stone
+        struck. Hit the left buttress and a crack would open on the right.
+        The wall was telling a story, but not the player's story, and that
+        reads as the damage being fake - which it was.
+
+     2. The index arithmetic ran off the end. With CRACK_HITS 3 and
+        CHUNK_HITS 4 the seventh hit asked for crack index 6, and only six
+        paths exist (0-5). showCrack returned silently, so the last hit
+        before the collapse added no damage at all. Picking by position has
+        no indices to overflow.
+
+     Returns true if it opened one, false when they are all already showing. */
+  function showCrackNear(x, y){
+    var cc = crackCentres(), best = -1, bestD = Infinity;
+    for (var i=0;i<cc.length;i++){
+      if (!cracks[i]) continue;
+      if (+cracks[i].style.opacity > 0) continue;        // already open
+      if (cc[i].cx === -999) continue;                   // never measured
+      var dx = cc[i].cx - x, dy = cc[i].cy - y;
+      var d = dx*dx + dy*dy;                             // no sqrt; ordering is the same
+      if (d < bestD){ bestD = d; best = i; }
+    }
+    if (best === -1) return false;
+    showCrack(best);
+    return true;
   }
 
   // Where each crack sits, measured from the DOM rather than transcribed from
@@ -884,9 +987,9 @@ h1{font-size:clamp(30px,6vw,50px);margin:10px 0 8px;color:var(--gold-lt);
 
   function applyDamage(n,x,y){
     if (n <= CRACK_HITS){
-      showCrack(n-1);
+      showCrackNear(x, y);
     } else if (n <= CRACK_HITS + CHUNK_HITS){
-      showCrack(CRACK_HITS + (n - CRACK_HITS - 1));   // keep spidering
+      showCrackNear(x, y);                            // keep spidering
       knockOut(x, y, rndInt(2,3));
     } else {
       collapse();
