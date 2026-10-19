@@ -78,7 +78,13 @@ Test list for the grading cutover:
                                    response. If it is, the migration ran
                                    with an old version of the script.
 
-Ctrl-C to stop. The scratch copy is at:
+THIS TERMINAL WILL NOW APPEAR TO HANG. That is the web server running, not
+a stall: a server holds its terminal for as long as it is serving. Leave this
+window open and use a DIFFERENT one for git and gcloud.
+
+Press Ctrl-C here when you are finished testing.
+
+The scratch copy is at:
   $OUT
 EOF
 
