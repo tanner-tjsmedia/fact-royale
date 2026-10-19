@@ -156,11 +156,19 @@ body{
 @keyframes flick{0%,100%{opacity:.9;transform:scale(1) translateY(0)}
   40%{opacity:.55;transform:scale(.85) translateY(1px)}
   70%{opacity:1;transform:scale(1.12) translateY(-1px)}}
-.flame{transform-origin:bottom center;animation:flick 1.5s ease-in-out infinite}
+/* transform-box:fill-box is REQUIRED here. Every other transform-origin in
+   this file is written in absolute viewBox pixels, which works against the
+   default transform-box:view-box. This one uses keywords, and "bottom
+   center" against the view-box means the bottom centre of the whole 400x250
+   canvas - so each flame was scaling and shifting about a point halfway
+   across the stage instead of about its own base, and flailing. */
+.flame{transform-box:fill-box;transform-origin:bottom center;
+  animation:flick 1.5s ease-in-out infinite}
 .f2{animation-delay:.4s}.f3{animation-delay:.8s}.f4{animation-delay:1.1s}
 
 @keyframes ripple{0%,100%{transform:skewY(0) scaleX(1)}50%{transform:skewY(3.4deg) scaleX(.92)}}
-.banner{animation:ripple 3.4s ease-in-out infinite}
+.banner{transform-box:fill-box;transform-origin:0% 50%;
+  animation:ripple 3.4s ease-in-out infinite}
 .bn2{animation-duration:4.1s;animation-delay:.7s}
 .bn3{animation-duration:3.7s;animation-delay:1.4s}
 
@@ -377,6 +385,46 @@ h1{font-size:clamp(30px,6vw,50px);margin:10px 0 8px;color:var(--gold-lt);
         <rect x="8" y="4.5" width="15" height="8" fill="var(--stone-c)" opacity=".55"/>
       </pattern>
     </defs>
+    <!-- THE REST OF THE CURTAIN.
+         
+         The breachable section is 196-348. Everything outside it is the
+         same wall continuing off both edges of the frame, and it is drawn
+         OUTSIDE gShake and gWall so it neither shakes nor topples: it is
+         not what you are attacking, it is what tells you that what you are
+         attacking is one gate in a city's defences rather than a free-
+         standing block in open country.
+         
+         Drawn before gShake so the besieged section overlaps it. -->
+    <g fill="#1b1b29">
+      <rect x="0" y="134" width="198" height="84"/>
+      <rect x="346" y="134" width="54" height="84"/>
+      <g fill="#2c2c40">
+        <rect x="0" y="134" width="198" height="5"/>
+        <rect x="346" y="134" width="54" height="5"/>
+      </g>
+      <g>
+        <rect x="6" y="126" width="9" height="9"/><rect x="22" y="126" width="9" height="9"/>
+        <rect x="38" y="126" width="9" height="9"/><rect x="54" y="126" width="9" height="9"/>
+        <rect x="70" y="126" width="9" height="9"/><rect x="86" y="126" width="9" height="9"/>
+        <rect x="102" y="126" width="9" height="9"/><rect x="118" y="126" width="9" height="9"/>
+        <rect x="134" y="126" width="9" height="9"/><rect x="150" y="126" width="9" height="9"/>
+        <rect x="166" y="126" width="9" height="9"/><rect x="182" y="126" width="9" height="9"/>
+        <rect x="350" y="126" width="9" height="9"/><rect x="366" y="126" width="9" height="9"/>
+        <rect x="382" y="126" width="9" height="9"/>
+      </g>
+      <!-- A squat interval tower each side, so the run is not a bare slab. -->
+      <rect x="108" y="116" width="26" height="102"/>
+      <rect x="104" y="110" width="34" height="7"/>
+      <rect x="106" y="101" width="9" height="10"/><rect x="120" y="101" width="9" height="10"/>
+      <rect x="374" y="116" width="26" height="102"/>
+      <rect x="370" y="110" width="34" height="7"/>
+      <rect x="372" y="101" width="9" height="10"/><rect x="386" y="101" width="9" height="10"/>
+    </g>
+    <g fill="#07070f">
+      <rect x="60" y="152" width="4" height="12"/><rect x="160" y="156" width="4" height="12"/>
+      <rect x="118" y="132" width="5" height="13"/><rect x="384" y="132" width="5" height="13"/>
+    </g>
+
     <g class="shake" id="gShake">
       <!-- Everything inside gWall is the standing wall and topples as one
            piece. Debris, dust and the rubble pile sit OUTSIDE it, so they
@@ -763,7 +811,16 @@ h1{font-size:clamp(30px,6vw,50px);margin:10px 0 8px;color:var(--gold-lt);
   // Sweep matches the idle keyframes exactly, or the machine would flip
   // direction the instant you started playing.
   var COCK = -35, FIRE = 115, SWING = -190;
-  var GROUND = 216, GRAV = 0.11;
+  /* GRAV was 0.11 while the release was damped by GAIN 0.44. That pairing
+     is what made the throw look wrong: the stone travelled 9.6px per frame
+     in the sling and 4.1px per frame the instant it left, so it visibly
+     DECELERATED at the exact moment it should have been fastest. GAIN was
+     never a gain, it was a 56% brake, and it was being tuned to make shots
+     land on the wall - so every retune made the discontinuity worse.
+     
+     Range is governed by gravity now, where it belongs, and the stone keeps
+     the speed the sling gave it. */
+  var GROUND = 216, GRAV = 1.90;
 
   // Retuned by simulation. The arm used to cross its whole 150 degree sweep
   // in about 8 frames at full wind, which is 19 degrees a frame: that was the
@@ -818,7 +875,11 @@ h1{font-size:clamp(30px,6vw,50px);margin:10px 0 8px;color:var(--gold-lt);
      doing: power 0.25 and power 0.50 both landed at x=229, the near edge.
      Two very different winds, identical result, and full power sailed over.
      Most of the power bar did nothing. */
-  var REL_T = REL_K * SWEEP, GAIN = 0.44;
+  /* 1.0 means the stone leaves at exactly the speed the sling tip was
+     moving: no discontinuity at release. Anything less is a brake applied
+     at the moment of launch, which is visible however carefully it is
+     tuned. Range belongs to GRAV above. */
+  var REL_T = REL_K * SWEEP, GAIN = 1.0;
   function rotp(px,py,cx,cy,deg){
     var r=deg*Math.PI/180, c=Math.cos(r), sn=Math.sin(r), dx=px-cx, dy=py-cy;
     return [cx+dx*c-dy*sn, cy+dx*sn+dy*c];
@@ -855,36 +916,82 @@ h1{font-size:clamp(30px,6vw,50px);margin:10px 0 8px;color:var(--gold-lt);
   }
   function angAt(tt){ return COCK + (FIRE-COCK) * armFrac(tt/SWEEP); }
 
-  /* Sling: lags, then whips, and finishes its whip AS the stone leaves.
+  /* ── THE SLING IS SIMULATED, NOT SCRIPTED ─────────────────────────────
 
-     The scale here used to be SLING_SWEEP (45), which is the follow-through
-     bound, not a statement about the sling. Release fires at t=23.2, so the
-     sling was only 40% through its travel when the stone separated: it let
-     go while the sling still had most of its swing ahead of it, which is why
-     the throw looked disjointed. Two constants that had to agree, with
-     nothing making them agree.
+     Everything the sling did used to come out of sAt(t): a hand-picked
+     curve mapping elapsed time to an angle. That is why it kept producing a
+     new fault every time one was fixed. It decelerated the stone at
+     release, then popped it forward by a frame, then stayed welded at full
+     wrap through the follow-through, then ended pointing forward. Four
+     symptoms of one cause: there was no model underneath, so every
+     behaviour had to be authored by hand, and any behaviour nobody thought
+     to author came out wrong.
 
-     SLING_FULL is sized from REL_T on purpose. At release the sling is 95%
-     open, which is roughly when a real one lets go. */
-  var SLING_FULL = 24;                    // whip completes at t=24, release is 23.2
-  function sAt(tt){
-    if (tt <= SLING_FULL) return SWING * Math.pow(tt/SLING_FULL, 1.4);
-    /* Past the throw the sling is EMPTY, and an empty sling does not hold
-       its pose.
+     A sling is a pendulum hanging from a moving pivot. Integrating that
+     directly is ten lines and it yields the lag, the whip, the release
+     angle, the follow-through and the resting pose for free, because they
+     are all consequences of the same equation rather than five separate
+     decisions.
 
-       This used to be Math.min(1, ...), which clamped the rotation at -190
-       and left it welded there for the whole follow-through while the arm
-       swept on another 40 degrees. A rigid line locked at full wrap, moving
-       only because the arm beneath it moved: that is the part that read as
-       wrong, and no amount of retiming the release was going to fix it,
-       because the problem happens after the release.
+     With y pointing down, for sling angle phi in world space:
 
-       Momentum carries the slack sling past the stop, then it trails. An
-       exponential approach gives that in one expression and settles instead
-       of oscillating. */
-    var over = tt - SLING_FULL;
-    return SWING * (1 + 0.17 * (1 - Math.exp(-over / 5.5)));
+        L * phi'' = g*cos(phi) + aTx*sin(phi) - aTy*cos(phi)
+
+     The first term is gravity pulling the stone down. The other two are the
+     pivot being yanked out from under it, which is what actually throws the
+     stone. */
+  var SLING_L    = Math.hypot(48-60, 129-96);                 // 35.11
+  var SLING_BASE = Math.atan2(129-96, 48-60) * 180/Math.PI;   // 110deg, beam-local
+  var G_SLING    = 0.20;    // gravity on the stone while the sling still holds it
+  var REL_GATE   = 45;      // the arm must be past this angle before it can let go
+  var REL_ANG    = 38;      // and the stone must be rising at this angle
+
+  var phi = 0, dphi = 0, tipPrev = null, tipVel = [0,0];
+
+  function tipAt(a){ return rotp(60, 96, 155, 104, a); }
+
+  /** Seat the stone in the sling, hanging from the tip at arm angle a. */
+  function seatSling(a){
+    phi = (SLING_BASE + a) * Math.PI/180;
+    dphi = 0; tipPrev = tipAt(a); tipVel = [0,0];
   }
+
+  /** Advance the pendulum one frame against the arm's current angle. */
+  function stepSling(a){
+    var T = tipAt(a);
+    if (!tipPrev) tipPrev = T;
+    var vT = [T[0]-tipPrev[0], T[1]-tipPrev[1]];
+    var aT = [vT[0]-tipVel[0], vT[1]-tipVel[1]];
+    dphi += (G_SLING*Math.cos(phi) + aT[0]*Math.sin(phi) - aT[1]*Math.cos(phi)) / SLING_L;
+    // Rope is not frictionless. Without this the freed sling keeps spinning
+    // round the arm tip forever, because nothing in an ideal pendulum ever
+    // takes energy out of it.
+    /* A LOADED sling must keep almost all its energy or it cannot throw.
+       An EMPTY one is a few metres of slack rope with nothing on the end,
+       so it sheds energy fast and flops. One damping value for both made it
+       spin round the arm tip like a rotor after the shot had gone. */
+    dphi *= p ? 0.86 : 0.995;
+    // Hard cap on angular speed. The integrator is happy to spin the sling
+    // at any rate the tip's acceleration implies, and during the winch-back
+    // that was several revolutions a second - a rotor, not a rope.
+    var LIM = 0.30;
+    if (dphi >  LIM) dphi =  LIM;
+    if (dphi < -LIM) dphi = -LIM;
+    phi  += dphi;
+    tipPrev = T; tipVel = vT;
+  }
+
+  function stonePos(a){
+    var T = tipAt(a);
+    return [T[0] + SLING_L*Math.cos(phi), T[1] + SLING_L*Math.sin(phi)];
+  }
+  function stoneVel(){
+    return [tipVel[0] - SLING_L*dphi*Math.sin(phi),
+            tipVel[1] + SLING_L*dphi*Math.cos(phi)];
+  }
+  /** The sling element rotates in BEAM space, so take the arm back out. */
+  function slingLocalDeg(a){ return phi*180/Math.PI - SLING_BASE - a; }
+
 
   var on=false, charging=false, power=0, phase='ready', t=0, falling=false,
       shots=0, hits=0, dmg=0,
@@ -895,15 +1002,16 @@ h1{font-size:clamp(30px,6vw,50px);margin:10px 0 8px;color:var(--gold-lt);
     var ang, sAng;
     if (phase==='ready' || phase==='charging'){
       ang  = COCK - power*7;                  // creaks further back under load
-      sAng = power*5;
+      seatSling(ang);                         // rope lies in the trough
+      sAng = 0;
     } else if (phase==='throw'){
-      ang  = angAt(t); sAng = sAt(t);
+      ang  = angAt(t); sAng = slingLocalDeg(ang);
     } else {
       // Spent. Let the arm keep running out its own sweep rather than being
       // snapped to the end pose. At low wind the stone lands while the arm is
       // only part way round, and jumping it to FIRE was a visible flick right
       // at the moment the player was watching the shot.
-      ang = angAt(t); sAng = sAt(t);
+      ang = angAt(t); sAng = slingLocalDeg(ang);
     }
     // CSS transforms, not SVG attributes: the pivot must come from
     // transform-origin alone, never from rotate()'s own cx/cy as well.
@@ -1058,13 +1166,27 @@ h1{font-size:clamp(30px,6vw,50px);margin:10px 0 8px;color:var(--gold-lt);
 
   // Stage two: the blocks nearest the impact come clean out. The void is not
   // painted on - it is simply where a block used to be.
+  /* Blocks come out WITHIN REACH of the impact, and only those.
+     
+     This used to collect every surviving block, sort the whole wall by
+     distance and take the closest few - with no limit on how far "closest"
+     was allowed to be. Once the stone's own neighbourhood had been cleared,
+     the nearest intact masonry might be in the other tower, and the wall
+     would shed blocks sixty pixels from anywhere the stone had ever landed.
+     That is the "it breaks where it wasn't hit" case.
+     
+     A stone that lands somewhere already hollowed out now simply scuffs the
+     stone instead of teleporting its damage across the wall. */
+  var KNOCK_R2 = 24 * 24;
   function knockOut(x,y,count){
     var near = [];
     for (var i=0;i<PIECES.length;i++){
       var q = PIECES[i];
       if (q.state !== 0) continue;
       var dx = q.cx-x, dy = q.cy-y;
-      near.push({ q:q, d:dx*dx + dy*dy });
+      var d2 = dx*dx + dy*dy;
+      if (d2 > KNOCK_R2) continue;
+      near.push({ q:q, d:d2 });
     }
     near.sort(function(a,b){ return a.d - b.d; });
     var n = Math.min(count, near.length);
@@ -1084,8 +1206,28 @@ h1{font-size:clamp(30px,6vw,50px);margin:10px 0 8px;color:var(--gold-lt);
 
   // Stage three. Every block still standing lets go, base first, so the wall
   // sits down into itself and the upper courses topple out over the rubble.
-  function collapse(){
+  /* THE SECTION YOU BREACHED COMES DOWN. Not the whole wall.
+     
+     collapse() used to drop every surviving block on the stage, which was
+     right when the wall was one undifferentiated slab. Against a gatehouse
+     between two towers it means a stone that has spent its whole life
+     hitting the left tower brings down the right tower too, and the reading
+     is nonsense: nothing connects the damage you did to the thing that
+     fell.
+     
+     Now the section containing the killing blow goes, plus whatever is
+     within a short reach of its edges in the neighbouring sections, so the
+     break is ragged instead of guillotined along a segment boundary. */
+  var EDGE_BITE = 9;
+  function collapse(x){
     falling = true;
+    var seg = -1;
+    for (var si=0; si<SEGMENTS.length; si++)
+      if (x >= SEGMENTS[si].x0 && x <= SEGMENTS[si].x1) { seg = si; break; }
+    // No usable impact position (shouldn't happen): fall back to the
+    // gatehouse, which is the section the whole scene is about.
+    if (seg === -1) seg = 2;
+    var lo = SEGMENTS[seg].x0 - EDGE_BITE, hi = SEGMENTS[seg].x1 + EDGE_BITE;
     if (shake){
       shake.style.animation='none'; void shake.offsetWidth;
       shake.style.animation='quake 1.2s ease-out';
@@ -1094,6 +1236,9 @@ h1{font-size:clamp(30px,6vw,50px);margin:10px 0 8px;color:var(--gold-lt);
     for (var i=0;i<PIECES.length;i++){
       var q = PIECES[i];
       if (q.state !== 0) continue;
+      // In the breached section, or close enough to its edge to be dragged
+      // down with it.
+      if (q.seg !== seg && (q.cx < lo || q.cx > hi)) continue;
       var h = (BASE_Y - q.cy) / span;          // 1 at the parapet, 0 at the base
       q.state = 1;
       // Near-simultaneous release. The first version staggered by 16 frames
@@ -1128,7 +1273,7 @@ h1{font-size:clamp(30px,6vw,50px);margin:10px 0 8px;color:var(--gold-lt);
       showCrackNear(x, y);                            // keep spidering
       knockOut(x, y, rndInt(2,3));
     } else {
-      collapse();
+      collapse(x);
     }
   }
 
@@ -1220,7 +1365,7 @@ h1{font-size:clamp(30px,6vw,50px);margin:10px 0 8px;color:var(--gold-lt);
                               +'L'+d[0].toFixed(1)+','+d[1].toFixed(1)
                               +'L'+e[0].toFixed(1)+','+e[1].toFixed(1)+'Z');
           piecesG.appendChild(path);
-          PIECES.push({ el:path, cx:cx, cy:cy, x:0, y:0,
+          PIECES.push({ el:path, cx:cx, cy:cy, x:0, y:0, seg:SEGMENTS.indexOf(seg),
                         vx:0, vy:0, rot:0, vr:0, state:0, delay:0 });
         }
       }
@@ -1278,26 +1423,31 @@ h1{font-size:clamp(30px,6vw,50px);margin:10px 0 8px;color:var(--gold-lt);
 
   function loop(){
     if (!on) return;
+    var justReleased = false;
     if (phase==='charging'){
       power = Math.min(1, power + 0.017);
       fill.style.width = (power*100).toFixed(0)+'%';
     }
     if (phase==='throw'){
-      // A harder wind swings the arm faster, so release speed comes out of
-      // the geometry rather than being a separate made-up number.
-      var prevQ = pouchAt(angAt(t), sAt(t));
       t += WIND_BASE + WIND_GAIN*power;
-      if (!p && t >= REL_T){
-        var q = pouchAt(angAt(t), sAt(t));
-        p = { x:q[0], y:q[1],
-              vx:(q[0]-prevQ[0])*GAIN, vy:(q[1]-prevQ[1])*GAIN };
+      var armNow = angAt(t);
+      stepSling(armNow);
+      if (!p){
+        var vS = stoneVel();
+        var up = Math.atan2(-vS[1], vS[0]) * 180/Math.PI;
+        // Let go when the arm is well round AND the stone is rising at the
+        // release angle. Both conditions are geometric, so the release point
+        // comes out the same every shot the way a fixed hook would give it,
+        // while the SPEED still scales with how hard it was wound.
+        if (armNow > REL_GATE && vS[0] > 0 && up <= REL_ANG){
+          var S = stonePos(armNow);
+          p = { x:S[0], y:S[1], vx:vS[0], vy:vS[1] };
+          justReleased = true;   // do not also integrate it this frame
+        }
       }
-      // Safety net: the sweep ran out without a projectile ever being made.
-      // Routed through 'return' like every other reset, so there is one way
-      // the arm goes home and not two.
       if (t>SWEEP*1.6 && !p){ phase='spent'; setTimeout(function(){ if(on && phase==='spent'){ phase='return'; } },600); }
     }
-    if (p){
+    if (p && !justReleased){
       p.x += p.vx; p.y += p.vy; p.vy += GRAV;
       // The wall lives in scene coordinates, the stone in the rig's. Convert
       // here and nowhere else, and hand land() the scene position so the
@@ -1309,6 +1459,10 @@ h1{font-size:clamp(30px,6vw,50px);margin:10px 0 8px;color:var(--gold-lt);
     }
     // Follow-through: the machine finishes its motion after the shot has gone.
     if (phase==='spent' && t < SLING_SWEEP) t += 0.9;
+    // An empty sling is still a pendulum. Integrating it through the
+    // follow-through and the winch-back is what makes it trail and settle
+    // instead of holding whatever pose the last scripted frame left it in.
+    if (phase==='spent') stepSling(angAt(t));
 
     /* Winching back.
 
@@ -1321,7 +1475,18 @@ h1{font-size:clamp(30px,6vw,50px);margin:10px 0 8px;color:var(--gold-lt);
        takes a moment. Exponential decay on t gives that for one line: fast
        at first, easing in as it seats. */
     if (phase==='return'){
-      t *= 0.86;
+      t *= 0.90;
+      /* While the machine is being reset the sling is not swinging freely -
+         it is slack rope being laid back into the trough. Simulating it
+         here is what produced the helicopter: the arm travels 150 degrees
+         in a dozen frames, and that tip acceleration drives the pendulum
+         far harder than the throw ever did. Easing it home instead is both
+         calmer to look at and closer to what is actually happening. */
+      var seated = (SLING_BASE + angAt(t)) * Math.PI/180;
+      var d = seated - phi;
+      while (d >  Math.PI) d -= 2*Math.PI;
+      while (d < -Math.PI) d += 2*Math.PI;
+      phi += d * 0.18; dphi *= 0.6;
       if (t < 0.4){ t = 0; power = 0; phase = 'ready'; }
     }
     stepDebris();      // masonry falls on the same clock as the stone
@@ -1358,7 +1523,7 @@ h1{font-size:clamp(30px,6vw,50px);margin:10px 0 8px;color:var(--gold-lt);
   }
   function release(){
     if (!on || phase!=='charging') return;
-    charging=false; phase='throw'; t=0; meter.classList.remove('on');
+    charging=false; phase='throw'; t=0; seatSling(angAt(0)); meter.classList.remove('on');
   }
 
   addEventListener('keydown', function(e){

@@ -115,3 +115,100 @@ Server-side grading introduced one state the UI did not previously have.
 (append here; do not edit the file)
 
 - _none yet_
+
+
+---
+
+# Under Siege: state as of 2026-10-19
+
+Worked on heavily. Structural faults found and fixed with measurements; what
+remains is visual iteration.
+
+## Fixed, with the evidence
+
+- **Parallax lag.** `--mx`/`--my` were written to `document.documentElement`
+  every frame, invalidating style for the whole document 60x a second,
+  permanently. Scoped to `.stage`. Also removed a `transition` on a transform
+  that was being rewritten per frame - two owners of the same easing.
+- **Arm curve.** Was `smoothstep`, whose angular speed peaks at the midpoint;
+  release fires at 58%, so the arm was decelerating as it let go and then
+  eased to a dead stop. Now accelerates from rest through release, then runs
+  down. Peak speed 2.00 vs 1.46, landing exactly on the release.
+- **Speed discontinuity at release.** `GAIN = 0.44` meant the stone travelled
+  9.6px/frame in the sling and 4.1px/frame the instant it left: a 56% brake
+  applied at the moment of launch. GAIN is 1.0 now; range comes from gravity.
+- **One-frame teleport.** The stone was placed at the pouch position AND
+  advanced a full velocity step on the same frame, covering 2v between two
+  drawn frames. Series read `9.9 9.9 10.1 19.8 9.5`. Fixed with a
+  `justReleased` guard; now smooth through the release.
+- **Scripted sling replaced with a simulated one.** See below.
+- **Flames flailing.** `.flame` used keyword `transform-origin: bottom
+  center` without `transform-box: fill-box`, so it resolved against the
+  400x250 view-box, not each flame. Every flame was scaling about a point
+  halfway across the stage. Banners had the same fault.
+- **Sling rotoring on reset.** The winch-back swung the arm 150 degrees in a
+  dozen frames and that tip acceleration drove the pendulum harder than the
+  throw. Capped angular speed, slowed the winch, and the reset now EASES the
+  sling home rather than simulating it. 5.67 revolutions -> 1.75.
+- **Damage localisation.** `knockOut` had no distance limit, so once the
+  impact area was hollow the "nearest" block could be in the far tower.
+  `collapse` dropped every block on the stage. Both now local: verified at a
+  breach, gatehouse 24/24 down, curtains 6/12, both towers standing.
+- **Hit box.** Was one rectangle from the tallest crest to the ground, so a
+  stone clearing the LOW curtain still scored. Now reads the per-segment
+  profile.
+- **Wall rebuilt** as tower / curtain / gatehouse / curtain / tower, with a
+  curtain running off both edges of the frame, and a castle and city behind.
+  Stone darkened to `#14141f`: it was `#232336` against a `#1e1e36` castle,
+  which is no contrast at all.
+
+## The one structural fault NOT fixed
+
+**The sling is too short to behave like a sling.** It is 35 units against a
+95-unit arm, about 1:3. Real trebuchets run close to 1:1, and that ratio is
+what makes a sling matter - it lets the stone trail, get dragged forward, and
+take a second rotation at the end. At 1:3 under high angular speed the sling
+just locks radially outward along the arm, which is correct physics for the
+geometry it has been given. The geometry is what is wrong.
+
+Symptom the user reported: "the swing and release point is still off".
+
+Fixing it means lengthening the drawn sling in the SVG (the `REST`/`TIE`
+points, which is where `SLING_L` is derived from), then re-deriving the
+release gate and re-tuning `GRAV`. `tools/` has no script for this; the
+tuning was done by simulating the whole flight at 21 power settings and
+choosing for most-hits plus widest spread across the wall face.
+
+## The lesson worth carrying into the rest of the site
+
+Every fault above except the flames came from the same root: the motion was
+SCRIPTED - an angle as a function of elapsed time - rather than modelled. So
+each behaviour had to be authored by hand, and anything nobody thought to
+author came out wrong. Four separate "fix the throw" passes each fixed a real
+thing and left another.
+
+Replacing the scripted sling with ten lines of pendulum integration produced
+the lag, the whip, the release angle, the follow-through and the rest pose at
+once, because they are all consequences of one equation.
+
+**Rule: if it has mass, contact, or a handoff between two bodies, model it.
+Only decorate what does not move.** A scripted curve is fine for a fade or a
+slide; it is not fine for anything that is supposed to look physical.
+
+## Debugging technique that worked
+
+The browser tab gets throttled in the background, which makes frame timing
+unreliable and wasted several rounds. The fix is to take manual control of the
+clock from the console:
+
+```js
+window.__raf = window.requestAnimationFrame.bind(window);
+window.__pending = null;
+window.requestAnimationFrame = cb => { window.__pending = cb; return 1; };
+window.__step = n => { for (let i=0;i<(n||1);i++){ const cb=window.__pending;
+                       window.__pending=null; if(cb) cb(performance.now()); } };
+```
+
+Then `__step(n)` advances exactly n frames, and screenshots can be taken at
+any point in the throw. Note the machine must be armed from a FRESH page load,
+or the first keypress fires a zero-power shot instead of arming.
