@@ -31,8 +31,13 @@ body{color:var(--fg);font-family:var(--body);-webkit-font-smoothing:antialiased;
 a{color:inherit;text-decoration:none}
 .wrap{max-width:var(--wrap);margin:0 auto;padding:0 clamp(18px,4vw,36px)}
 .narrow{max-width:var(--narrow);margin:0 auto;padding:0 clamp(18px,4vw,30px)}
+/* background-clip:text clips to the LINE BOX, not the glyphs, so a tight
+   line-height shears the descenders off anything with a y, g or p in it.
+   "Every day." lost both y tails. The padding gives the box somewhere to
+   put them; the line-height stops it closing back up. */
 .gold{background:linear-gradient(94deg,var(--gold-br),var(--gold) 48%,#ab8829);
-  -webkit-background-clip:text;background-clip:text;color:transparent}
+  -webkit-background-clip:text;background-clip:text;color:transparent;
+  padding-bottom:.09em;line-height:1.04}
 
 /* ── which mockup am I looking at ── */
 .tag{position:fixed;top:0;right:0;z-index:99;background:#1a1a2b;color:var(--gold);
@@ -100,3 +105,56 @@ h2{font-family:var(--disp);font-size:clamp(22px,3.2vw,31px);font-weight:700;
   color:var(--fg-subtle);margin-bottom:12px;display:flex;justify-content:space-between;
   align-items:center}
 .ct b{color:var(--gold);font-weight:600}
+
+
+/* ============================================================
+   HERALDIC TRIM
+   Small, repeatable marks that put the theme on pages that would
+   otherwise be a generic calendar or a generic table. Deliberately
+   restrained: a rule, a seal, a corner tick. If any single one of
+   these reads as decoration rather than structure, it is too much.
+   ============================================================ */
+
+/* A section rule with a diamond on it. Replaces a plain border-top. */
+.hrule{display:flex;align-items:center;gap:12px;margin:clamp(22px,3vw,32px) 0}
+.hrule:before,.hrule:after{content:"";flex:1;height:1px;
+  background:linear-gradient(90deg,transparent,var(--gold-line),transparent)}
+.hrule i{width:7px;height:7px;flex:none;transform:rotate(45deg);
+  border:1px solid var(--gold-line);background:var(--gold-wash)}
+.hrule.left:before{display:none}
+.hrule.left i{margin-left:0}
+
+/* A heading that sits on a short gold stroke. */
+.hhead{font-family:var(--disp);font-size:11px;letter-spacing:.2em;text-transform:uppercase;
+  color:var(--fg-subtle);display:flex;align-items:center;gap:10px;
+  margin-bottom:clamp(16px,2.4vw,24px)}
+.hhead:before{content:"";width:18px;height:2px;background:var(--gold);flex:none;border-radius:1px}
+
+/* Wax seal. Used for a day that is done, a rank that is held. */
+.seal{width:22px;height:22px;border-radius:50%;display:inline-flex;align-items:center;
+  justify-content:center;font-family:var(--disp);font-size:9px;font-weight:700;
+  background:radial-gradient(circle at 34% 30%,#7b1f2b,#4e1119);color:#f0cdd2;
+  box-shadow:inset 0 0 0 1px rgba(255,255,255,.1)}
+.seal.gold{background:radial-gradient(circle at 34% 30%,#d4af37,#8a6c18);color:#1a1405}
+
+/* Corner ticks: a card that looks a little bit like a charter. */
+.charter{position:relative}
+.charter:before,.charter:after{content:"";position:absolute;width:11px;height:11px;
+  border-color:var(--gold-line);border-style:solid;pointer-events:none}
+.charter:before{top:7px;left:7px;border-width:1px 0 0 1px}
+.charter:after{bottom:7px;right:7px;border-width:0 1px 1px 0}
+
+/* A crenellated divider. One silhouette, reused as a band between sections. */
+.crenel{height:11px;width:100%;opacity:.5;
+  background:repeating-linear-gradient(90deg,
+    var(--surface-3) 0 13px, transparent 13px 26px);
+  border-bottom:1px solid rgba(255,255,255,.05)}
+
+/* Page header with the scene behind it. The member pages use this so they
+   carry the same branding as the public home rather than starting cold. */
+.scenehead{position:relative;overflow:hidden;
+  background:linear-gradient(180deg,#0a0a18,#0d0d1c 58%,#07070f)}
+.scenehead>svg{position:absolute;left:0;bottom:0;width:100%;height:100%;opacity:.55}
+.scenehead .veil{position:absolute;inset:0;
+  background:linear-gradient(180deg,rgba(5,5,12,.2),rgba(7,7,15,.9))}
+.scenehead .inner{position:relative;z-index:2}

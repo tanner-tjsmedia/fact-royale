@@ -3,22 +3,31 @@
 <link rel="stylesheet" href="mock.css">
 <div class="tag">5 · Member home</div>
 <style>
-/* What a returning player sees instead of the marketing page. Four modules,
-   not nine. The day's job is unambiguous at the top; the grid is the streak
-   made visible; new modes arrive as cards rather than new sections. */
+/* Same format as the public home: same scene, same nav, same type scale.
+   Only the CONTENT of the hero changes, because a returning player already
+   knows what this is and needs today's job instead of the pitch. Branding
+   should not drop away the moment someone signs in. */
 body{min-height:100vh;display:flex;flex-direction:column}
-main{flex:1;padding:clamp(28px,5vh,52px) 0 clamp(40px,7vh,72px)}
-.top{display:flex;justify-content:space-between;align-items:flex-start;gap:clamp(18px,4vw,50px);
+.hero{position:relative;min-height:clamp(380px,56vh,500px);display:flex;align-items:flex-end;
+  overflow:hidden;background:linear-gradient(180deg,#090916,#111120 55%,#15151f)}
+.hero>svg{position:absolute;inset:0;width:100%;height:100%}
+.veil{position:absolute;inset:0;
+  background:linear-gradient(180deg,rgba(5,5,12,.10),rgba(5,5,12,.45) 52%,rgba(7,7,15,.96))}
+.hin{position:relative;z-index:3;width:100%;padding-bottom:clamp(30px,5vh,52px)}
+.htop{display:flex;justify-content:space-between;align-items:flex-end;gap:clamp(18px,4vw,50px);
   flex-wrap:wrap}
-.date{font-family:var(--disp);font-size:11px;letter-spacing:.2em;text-transform:uppercase;
-  color:var(--fg-subtle)}
-.top h1{font-size:clamp(28px,4.6vw,46px);margin:10px 0 20px;letter-spacing:-.03em}
-.flame{text-align:right;flex:none}
-.flame .n{font-family:var(--disp);font-size:clamp(46px,7vw,72px);font-weight:700;line-height:.86;
+.date{font-family:var(--disp);font-size:11px;letter-spacing:.22em;text-transform:uppercase;
+  color:var(--gold);margin-bottom:14px}
+.hin h1{font-size:clamp(34px,6vw,62px);letter-spacing:-.034em;
+  text-shadow:0 2px 40px rgba(0,0,0,.55)}
+.hin h1 em{font-style:normal;display:block}
+.row{display:flex;gap:11px;align-items:center;flex-wrap:wrap;margin-top:22px}
+.flame{text-align:right;flex:none;padding-bottom:6px}
+.flame .n{font-family:var(--disp);font-size:clamp(44px,6.6vw,70px);font-weight:700;line-height:.86;
   letter-spacing:-.04em}
 .flame .t{font-family:var(--disp);font-size:10px;letter-spacing:.2em;text-transform:uppercase;
-  color:var(--fg-subtle);margin-top:8px}
-.gridwrap{margin-top:clamp(26px,4vw,38px)}
+  color:rgba(242,242,250,.5);margin-top:8px}
+main{flex:1;padding:clamp(26px,4vh,44px) 0 clamp(40px,7vh,72px)}
 .grid30{display:flex;gap:4px;flex-wrap:wrap}
 .d{width:clamp(14px,2.1vw,22px);height:clamp(14px,2.1vw,22px);border-radius:4px;background:var(--fg-faint)}
 .d.p{background:var(--ok);opacity:.82}
@@ -26,8 +35,7 @@ main{flex:1;padding:clamp(28px,5vh,52px) 0 clamp(40px,7vh,72px)}
 .d.t{background:var(--gold);box-shadow:0 0 0 3px rgba(212,175,55,.22)}
 .gl{display:flex;justify-content:space-between;font-family:var(--disp);font-size:10px;
   letter-spacing:.14em;color:var(--fg-subtle);margin-top:10px;text-transform:uppercase}
-.board{display:grid;grid-template-columns:1fr 1fr;gap:clamp(10px,1.6vw,16px);
-  margin-top:clamp(28px,4vw,42px)}
+.board{display:grid;grid-template-columns:1fr 1fr;gap:clamp(10px,1.6vw,16px)}
 @media(max-width:700px){.board{grid-template-columns:1fr}}
 .wide{grid-column:1/-1}
 .crow{display:flex;align-items:center;gap:11px;margin-bottom:10px;font-size:13.5px}
@@ -36,51 +44,109 @@ main{flex:1;padding:clamp(28px,5vh,52px) 0 clamp(40px,7vh,72px)}
 .cbar{flex:1;height:6px;border-radius:3px;background:rgba(255,255,255,.07);overflow:hidden}
 .cbar i{display:block;height:100%;border-radius:3px}
 .cpc{width:32px;text-align:right;font-family:var(--disp);font-size:12px;color:var(--fg-subtle)}
-.pill{display:inline-block;background:var(--surface-3);border-radius:8px;padding:8px 12px;
-  font-size:12.5px;font-family:var(--disp);color:var(--fg-muted);margin:0 6px 6px 0}
+.pill{display:inline-flex;align-items:center;gap:8px;background:var(--surface-3);border-radius:8px;
+  padding:8px 12px;font-size:12.5px;font-family:var(--disp);color:var(--fg-muted);
+  margin:0 6px 6px 0;border:1px solid transparent}
 .pill:hover{color:var(--gold);border-color:var(--gold-line)}
 .note{font-size:12.5px;color:var(--fg-subtle);line-height:1.5;margin-top:10px}
-.soon{border:1px dashed rgba(212,175,55,.26);background:transparent;border-radius:14px;
-  padding:clamp(14px,2vw,20px)}
+.soon{border:1px dashed rgba(212,175,55,.26);border-radius:14px;padding:clamp(14px,2vw,20px)}
 .soonrow{display:flex;gap:clamp(14px,3vw,34px);flex-wrap:wrap}
 .soonrow>div{flex:1;min-width:200px}
 .st{font-family:var(--disp);font-size:14.5px;font-weight:600;margin-bottom:5px}
 .ss{font-size:12.5px;color:var(--fg-muted);line-height:1.55}
 </style>
 
-<div class="nav"><div class="wrap"><div class="navin">
-  <span class="brand"><svg width="19" height="19" viewBox="0 0 24 24"><path d="M3 8l4 4 5-7 5 7 4-4v9H3V8z" fill="#d4af37"/><rect x="3" y="18" width="18" height="2.8" rx="1.2" fill="#d4af37"/></svg>Fact Royale</span>
-  <span class="links"><span>Royal Record</span><span>Leaderboard</span><span>Groups</span><span class="cta">Tanner</span></span>
-</div></div></div>
+<div class="hero">
+  <svg viewBox="0 0 1200 500" preserveAspectRatio="xMidYMax slice" aria-hidden="true">
+    <g fill="#d6d1ee">
+      <circle cx="90" cy="54" r="1.6" opacity=".5"/><circle cx="240" cy="34" r="2" opacity=".4"/>
+      <circle cx="410" cy="76" r="1.5" opacity=".45"/><circle cx="600" cy="44" r="1.8" opacity=".4"/>
+      <circle cx="760" cy="88" r="1.5" opacity=".35"/><circle cx="930" cy="38" r="2" opacity=".45"/>
+      <circle cx="1090" cy="70" r="1.6" opacity=".4"/><circle cx="520" cy="118" r="1.4" opacity=".28"/>
+      <circle cx="170" cy="136" r="1.4" opacity=".3"/><circle cx="1010" cy="146" r="1.4" opacity=".26"/></g>
+    <circle cx="960" cy="136" r="56" fill="#ece7cd" opacity=".93"/>
+    <circle cx="936" cy="120" r="10" fill="#d3cdae" opacity=".5"/>
+    <circle cx="976" cy="156" r="13" fill="#d3cdae" opacity=".42"/>
+    <path d="M0,318 L150,270 L300,308 L460,256 L620,300 L780,260 L940,304 L1100,264 L1200,300 L1200,500 L0,500 Z" fill="#0b0b17"/>
+    <g fill="#121223">
+      <rect x="40" y="348" width="56" height="96"/><path d="M36,349 L68,322 L100,349 Z"/>
+      <rect x="110" y="362" width="46" height="82"/><path d="M106,363 L133,338 L160,363 Z"/>
+      <rect x="1044" y="354" width="52" height="90"/><path d="M1040,355 L1070,328 L1100,355 Z"/>
+      <rect x="1108" y="366" width="44" height="78"/><path d="M1104,367 L1130,342 L1156,367 Z"/></g>
+    <g fill="#191930">
+      <rect x="300" y="294" width="74" height="150"/><rect x="292" y="281" width="90" height="15"/>
+      <rect x="296" y="262" width="19" height="20"/><rect x="330" y="262" width="19" height="20"/>
+      <rect x="362" y="262" width="19" height="20"/>
+      <rect x="826" y="294" width="74" height="150"/><rect x="818" y="281" width="90" height="15"/>
+      <rect x="822" y="262" width="19" height="20"/><rect x="856" y="262" width="19" height="20"/>
+      <rect x="888" y="262" width="19" height="20"/></g>
+    <g fill="#21213c">
+      <rect x="430" y="224" width="64" height="220"/><rect x="422" y="210" width="80" height="15"/>
+      <rect x="426" y="190" width="19" height="21"/><rect x="458" y="190" width="19" height="21"/>
+      <rect x="706" y="224" width="64" height="220"/><rect x="698" y="210" width="80" height="15"/>
+      <rect x="702" y="190" width="19" height="21"/><rect x="734" y="190" width="19" height="21"/>
+      <rect x="530" y="176" width="136" height="268"/><rect x="520" y="161" width="156" height="16"/>
+      <rect x="526" y="138" width="21" height="24"/><rect x="565" y="138" width="21" height="24"/>
+      <rect x="604" y="138" width="21" height="24"/><rect x="643" y="138" width="21" height="24"/>
+      <path d="M574,138 L622,138 L598,84 Z"/></g>
+    <g fill="#f0a92a">
+      <rect x="584" y="222" width="10" height="27" opacity=".6"/>
+      <rect x="626" y="288" width="10" height="27" opacity=".34"/>
+      <rect x="552" y="344" width="10" height="25" opacity=".44"/>
+      <rect x="458" y="270" width="9" height="24" opacity=".38"/>
+      <rect x="736" y="314" width="9" height="24" opacity=".3"/></g>
+    <g fill="#14141f"><rect x="0" y="400" width="1200" height="100"/>
+      <g><rect x="12" y="383" width="22" height="18"/><rect x="58" y="383" width="22" height="18"/>
+        <rect x="104" y="383" width="22" height="18"/><rect x="150" y="383" width="22" height="18"/>
+        <rect x="196" y="383" width="22" height="18"/><rect x="242" y="383" width="22" height="18"/>
+        <rect x="288" y="383" width="22" height="18"/><rect x="334" y="383" width="22" height="18"/>
+        <rect x="380" y="383" width="22" height="18"/><rect x="426" y="383" width="22" height="18"/>
+        <rect x="472" y="383" width="22" height="18"/><rect x="518" y="383" width="22" height="18"/>
+        <rect x="564" y="383" width="22" height="18"/><rect x="610" y="383" width="22" height="18"/>
+        <rect x="656" y="383" width="22" height="18"/><rect x="702" y="383" width="22" height="18"/>
+        <rect x="748" y="383" width="22" height="18"/><rect x="794" y="383" width="22" height="18"/>
+        <rect x="840" y="383" width="22" height="18"/><rect x="886" y="383" width="22" height="18"/>
+        <rect x="932" y="383" width="22" height="18"/><rect x="978" y="383" width="22" height="18"/>
+        <rect x="1024" y="383" width="22" height="18"/><rect x="1070" y="383" width="22" height="18"/>
+        <rect x="1116" y="383" width="22" height="18"/><rect x="1162" y="383" width="22" height="18"/></g></g>
+    <g fill="#f0a92a" opacity=".8">
+      <path d="M200,446 C190,432 212,426 200,410 C222,422 218,440 200,446 Z"/>
+      <path d="M1000,446 C990,432 1012,426 1000,410 C1022,422 1018,440 1000,446 Z"/></g>
+  </svg>
+  <div class="veil"></div>
 
-<main><div class="wrap">
-  <div class="top">
+  <nav class="nav over"><div class="wrap"><div class="navin">
+    <span class="brand"><svg width="19" height="19" viewBox="0 0 24 24"><path d="M3 8l4 4 5-7 5 7 4-4v9H3V8z" fill="#d4af37"/><rect x="3" y="18" width="18" height="2.8" rx="1.2" fill="#d4af37"/></svg>Fact Royale</span>
+    <span class="links"><span>Royal Record</span><span>Leaderboard</span><span>Groups</span><span class="cta">Tanner</span></span>
+  </div></div></nav>
+
+  <div class="hin"><div class="wrap"><div class="htop">
     <div>
       <div class="date">Monday, 19 October</div>
-      <h1>Today's twelve<br>are ready.</h1>
-      <a class="btn" href="#">Play today &rarr;</a>
-      <a class="btn g" href="#" style="margin-left:8px">Yesterday's results</a>
+      <h1>Today's twelve<em class="gold">are ready.</em></h1>
+      <div class="row"><a class="btn" href="#">Play today &rarr;</a>
+        <a class="btn g" href="#">Yesterday's results</a></div>
     </div>
-    <div class="flame">
-      <div class="n gold">17</div>
-      <div class="t">day streak</div>
-    </div>
-  </div>
+    <div class="flame"><div class="n gold">17</div><div class="t">day streak</div></div>
+  </div></div></div>
+</div>
 
-  <div class="gridwrap">
-    <div class="grid30">
-      <i class="d p"></i><i class="d p"></i><i class="d m"></i><i class="d p"></i><i class="d p"></i>
-      <i class="d p"></i><i class="d p"></i><i class="d p"></i><i class="d m"></i><i class="d p"></i>
-      <i class="d p"></i><i class="d p"></i><i class="d p"></i><i class="d p"></i><i class="d p"></i>
-      <i class="d p"></i><i class="d p"></i><i class="d p"></i><i class="d p"></i><i class="d p"></i>
-      <i class="d p"></i><i class="d p"></i><i class="d p"></i><i class="d p"></i><i class="d p"></i>
-      <i class="d p"></i><i class="d p"></i><i class="d p"></i><i class="d p"></i><i class="d t"></i>
-    </div>
-    <div class="gl"><span>30 days ago</span><span>Today</span></div>
+<main><div class="wrap">
+  <div class="hhead" style="margin-top:4px">The last thirty days</div>
+  <div class="grid30">
+    <i class="d p"></i><i class="d p"></i><i class="d m"></i><i class="d p"></i><i class="d p"></i>
+    <i class="d p"></i><i class="d p"></i><i class="d p"></i><i class="d m"></i><i class="d p"></i>
+    <i class="d p"></i><i class="d p"></i><i class="d p"></i><i class="d p"></i><i class="d p"></i>
+    <i class="d p"></i><i class="d p"></i><i class="d p"></i><i class="d p"></i><i class="d p"></i>
+    <i class="d p"></i><i class="d p"></i><i class="d p"></i><i class="d p"></i><i class="d p"></i>
+    <i class="d p"></i><i class="d p"></i><i class="d p"></i><i class="d p"></i><i class="d t"></i>
   </div>
+  <div class="gl"><span>30 days ago</span><span>Today</span></div>
+
+  <div class="hrule"><i></i></div>
 
   <div class="board">
-    <div class="card">
+    <div class="card charter">
       <div class="ct">Record by category</div>
       <div class="crow"><span class="cnm">History</span>
         <span class="cbar"><i style="width:84%;background:var(--history)"></i></span><span class="cpc">84</span></div>
@@ -94,10 +160,11 @@ main{flex:1;padding:clamp(28px,5vh,52px) 0 clamp(40px,7vh,72px)}
         <span class="cbar"><i style="width:41%;background:var(--sports)"></i></span><span class="cpc">41</span></div>
     </div>
 
-    <div class="card">
+    <div class="card charter">
       <div class="ct">Catch up <b>3 missed</b></div>
-      <a class="pill" href="#">Sat 11 Oct</a><a class="pill" href="#">Tue 07 Oct</a>
-      <a class="pill" href="#">Mon 29 Sep</a>
+      <a class="pill" href="#"><span class="seal">&times;</span>Sat 11 Oct</a>
+      <a class="pill" href="#"><span class="seal">&times;</span>Tue 07 Oct</a>
+      <a class="pill" href="#"><span class="seal">&times;</span>Mon 29 Sep</a>
       <div class="note">Archive plays count toward your record but not your streak &mdash; the
         streak only moves on the day itself.</div>
     </div>

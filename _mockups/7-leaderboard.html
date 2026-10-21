@@ -1,0 +1,102 @@
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Fact Royale — Leaderboard</title>
+<link rel="stylesheet" href="mock.css">
+<div class="tag">7 · Leaderboard</div>
+<style>
+body{min-height:100vh;display:flex;flex-direction:column}
+main{flex:1;padding:clamp(28px,5vh,52px) 0 clamp(40px,7vh,72px)}
+.head{display:flex;justify-content:space-between;align-items:flex-end;gap:20px;flex-wrap:wrap}
+.head h1{font-size:clamp(28px,4.4vw,44px);letter-spacing:-.03em}
+.hsub{font-size:14px;color:var(--fg-muted);margin-top:9px}
+.tabs{display:flex;gap:4px;background:var(--surface-2);padding:4px;border-radius:11px}
+.tab{font-family:var(--disp);font-size:12.5px;font-weight:600;padding:9px 15px;border-radius:8px;
+  color:var(--fg-subtle)}
+.tab.on{background:var(--surface-3);color:var(--gold)}
+/* The podium: three shields, biggest in the middle. Reuses the shield at a
+   size nothing else uses, so first place reads as an event. */
+.podium{display:grid;grid-template-columns:1fr 1.25fr 1fr;gap:clamp(8px,1.4vw,16px);
+  align-items:end;margin:clamp(26px,4vw,40px) 0 clamp(22px,3vw,32px)}
+.pod{text-align:center;border:1px solid rgba(255,255,255,.07);border-radius:15px;
+  padding:clamp(14px,2vw,20px) 10px;background:linear-gradient(180deg,rgba(255,255,255,.035),transparent)}
+.pod.first{border-color:var(--gold-line);background:linear-gradient(180deg,rgba(212,175,55,.09),transparent)}
+.pod svg{display:block;margin:0 auto 10px}
+.pname{font-family:var(--disp);font-size:14px;font-weight:600;overflow:hidden;text-overflow:ellipsis;
+  white-space:nowrap}
+.pscore{font-family:var(--disp);font-size:clamp(18px,2.6vw,26px);font-weight:700;margin-top:5px}
+.ptime{font-size:11px;color:var(--fg-subtle);margin-top:4px}
+.rows{border-top:1px solid rgba(255,255,255,.06)}
+.r{display:flex;align-items:center;gap:clamp(10px,1.6vw,18px);padding:14px 10px;
+  border-bottom:1px solid rgba(255,255,255,.04);font-size:14.5px}
+.r.me{background:var(--gold-wash);border-left:2px solid var(--gold);padding-left:14px;
+  border-radius:0 8px 8px 0}
+.rn{font-family:var(--disp);font-size:13px;color:var(--fg-subtle);width:32px;flex:none;
+  text-align:center;padding:3px 0;border-right:1px solid rgba(255,255,255,.055)}
+.r.me .rn{color:var(--gold)}
+.rnm{flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.rst{font-size:12px;color:var(--fg-subtle);width:62px;flex:none;text-align:right;font-family:var(--disp)}
+.rsc{font-family:var(--disp);font-weight:700;width:52px;flex:none;text-align:right}
+.cut{text-align:center;font-size:12px;color:var(--fg-subtle);padding:16px 0;font-family:var(--disp);
+  letter-spacing:.14em;text-transform:uppercase}
+.empty{margin-top:30px;border:1px dashed rgba(212,175,55,.25);border-radius:14px;
+  padding:clamp(18px,3vw,26px);text-align:center}
+.empty .t{font-family:var(--disp);font-size:16px;font-weight:600;margin-bottom:7px}
+.empty .s{font-size:13.5px;color:var(--fg-muted);line-height:1.6;max-width:34em;margin:0 auto 16px}
+</style>
+
+<div class="nav"><div class="wrap"><div class="navin">
+  <span class="brand"><svg width="19" height="19" viewBox="0 0 24 24"><path d="M3 8l4 4 5-7 5 7 4-4v9H3V8z" fill="#d4af37"/><rect x="3" y="18" width="18" height="2.8" rx="1.2" fill="#d4af37"/></svg>Fact Royale</span>
+  <span class="links"><span>Royal Record</span><span class="cta">Leaderboard</span><span>Groups</span><span>Tanner</span></span>
+</div></div></div>
+
+<main><div class="wrap">
+  <div class="hhead">Today's standing</div>
+  <div class="head">
+    <div><h1>Leaderboard</h1>
+      <div class="hsub">Monday, 19 October &middot; 1,284 played today</div></div>
+    <div class="tabs"><span class="tab on">Today</span><span class="tab">This week</span>
+      <span class="tab">All time</span><span class="tab">My group</span></div>
+  </div>
+
+  <div class="hrule"><i></i></div>
+  <div class="podium">
+    <div class="pod">
+      <svg width="40" height="44" viewBox="0 0 20 22"><path d="M10 1l8 3v8c0 5-4 8-8 9-4-1-8-4-8-9V4l8-3z" fill="rgba(242,242,250,.1)" stroke="rgba(242,242,250,.4)" stroke-width="1.1"/><text x="10" y="14.5" text-anchor="middle" font-size="7" font-weight="700" fill="rgba(242,242,250,.7)" font-family="Space Grotesk,sans-serif">2</text></svg>
+      <div class="pname">Priya K.</div><div class="pscore">12/12</div><div class="ptime">3m 41s</div></div>
+    <div class="pod first">
+      <svg width="20" height="14" viewBox="0 0 24 18" style="display:block;margin:0 auto 6px">
+        <path d="M3 6l4 4 5-7 5 7 4-4v9H3V6z" fill="#d4af37"/><rect x="3" y="16" width="18" height="2" rx="1" fill="#d4af37"/></svg>
+      <svg width="54" height="60" viewBox="0 0 20 22"><path d="M10 1l8 3v8c0 5-4 8-8 9-4-1-8-4-8-9V4l8-3z" fill="rgba(212,175,55,.28)" stroke="#d4af37" stroke-width="1.2"/><text x="10" y="14.5" text-anchor="middle" font-size="7" font-weight="700" fill="#f0c040" font-family="Space Grotesk,sans-serif">1</text></svg>
+      <div class="pname" style="font-size:16px">M. Osei</div>
+      <div class="pscore gold" style="font-size:clamp(22px,3.2vw,32px)">12/12</div>
+      <div class="ptime">2m 58s</div></div>
+    <div class="pod">
+      <svg width="40" height="44" viewBox="0 0 20 22"><path d="M10 1l8 3v8c0 5-4 8-8 9-4-1-8-4-8-9V4l8-3z" fill="rgba(205,127,50,.14)" stroke="rgba(205,127,50,.55)" stroke-width="1.1"/><text x="10" y="14.5" text-anchor="middle" font-size="7" font-weight="700" fill="#cd7f32" font-family="Space Grotesk,sans-serif">3</text></svg>
+      <div class="pname">J. Whitfield</div><div class="pscore">12/12</div><div class="ptime">4m 06s</div></div>
+  </div>
+
+  <div class="hhead" style="margin-top:4px">The field</div>
+  <div class="rows">
+    <div class="r"><span class="rn">4</span><span class="rnm">A. Lindqvist</span><span class="rst">&#9733; 41</span><span class="rsc">11/12</span></div>
+    <div class="r"><span class="rn">5</span><span class="rnm">Dani R.</span><span class="rst">&#9733; 9</span><span class="rsc">11/12</span></div>
+    <div class="r"><span class="rn">6</span><span class="rnm">S. Nakamura</span><span class="rst">&#9733; 23</span><span class="rsc">11/12</span></div>
+    <div class="r"><span class="rn">7</span><span class="rnm">peregrine</span><span class="rst">&#9733; 5</span><span class="rsc">10/12</span></div>
+    <div class="r"><span class="rn">8</span><span class="rnm">C. Mbeki</span><span class="rst">&#9733; 62</span><span class="rsc">10/12</span></div>
+    <div class="r"><span class="rn">9</span><span class="rnm">hallveig</span><span class="rst">&#9733; 14</span><span class="rsc">10/12</span></div>
+    <div class="r me"><span class="rn">10</span><span class="rnm">You</span><span class="rst">&#9733; 18</span><span class="rsc">9/12</span></div>
+    <div class="r"><span class="rn">11</span><span class="rnm">T. Varga</span><span class="rst">&#9733; 7</span><span class="rsc">9/12</span></div>
+    <div class="r"><span class="rn">12</span><span class="rnm">bellfounder</span><span class="rst">&#9733; 31</span><span class="rsc">9/12</span></div>
+    <div class="r"><span class="rn">13</span><span class="rnm">N. Achebe</span><span class="rst">&#9733; 2</span><span class="rsc">9/12</span></div>
+  </div>
+  <div class="cut">Showing 13 of 1,284</div>
+
+  <div class="empty">
+    <div class="t">Signed-out state</div>
+    <div class="s">The board is public, but you need an account to appear on it. This block
+      replaces the highlighted row when nobody is signed in.</div>
+    <a class="btn" href="#">Create an account</a>
+  </div>
+</div></main>
+
+<footer><div class="wrap"><div class="fin">
+  <span>&#9819; Fact Royale</span><span>Royal Record &middot; Groups &middot; Settings</span>
+</div></div></footer>

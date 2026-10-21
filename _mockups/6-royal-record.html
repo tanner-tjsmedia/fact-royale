@@ -3,41 +3,57 @@
 <link rel="stylesheet" href="mock.css">
 <div class="tag">6 · Royal Record</div>
 <style>
-/* Mastery as heraldry rather than progress bars. The same shield from the
-   homepage, the quiz chip and the results breakdown, here at its largest
-   and carrying a tier numeral. Rank becomes readable at a glance. */
+/* Six ranks, six names, six symbols. The numeral stays so order is never
+   ambiguous, but the symbol is what you recognise across the site — on a
+   leaderboard row, a group list or a share card there is no room to spell
+   "Herald" and no need to. */
 body{min-height:100vh;display:flex;flex-direction:column}
-main{flex:1;padding:clamp(28px,5vh,52px) 0 clamp(40px,7vh,72px)}
-.head{display:flex;justify-content:space-between;align-items:flex-end;gap:20px;flex-wrap:wrap;
-  padding-bottom:clamp(22px,3vw,32px);border-bottom:1px solid rgba(255,255,255,.06)}
+main{flex:1;padding:clamp(26px,4vh,46px) 0 clamp(40px,7vh,72px)}
+.head{display:flex;justify-content:space-between;align-items:flex-end;gap:20px;flex-wrap:wrap}
 .head h1{font-size:clamp(28px,4.4vw,44px);letter-spacing:-.03em}
 .hsub{font-size:14px;color:var(--fg-muted);margin-top:9px}
 .hnum{display:flex;gap:clamp(20px,4vw,44px);flex-wrap:wrap}
 .hn{font-family:var(--disp);font-size:clamp(22px,3vw,30px);font-weight:700;color:var(--gold);line-height:1}
 .hl{font-size:11.5px;color:var(--fg-subtle);margin-top:6px;font-family:var(--disp);
   letter-spacing:.14em;text-transform:uppercase}
-.crests{display:grid;grid-template-columns:repeat(auto-fit,minmax(246px,1fr));
-  gap:clamp(11px,1.6vw,16px);margin-top:clamp(26px,4vw,38px)}
+.crests{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+  gap:clamp(11px,1.6vw,16px)}
 .crest{border:1px solid;border-radius:15px;padding:clamp(16px,2.2vw,22px);
   background:linear-gradient(180deg,rgba(255,255,255,.035),transparent);
-  display:flex;gap:16px;align-items:center}
-.crest.low{opacity:.68}
-.cinfo{min-width:0}
+  display:flex;gap:16px;align-items:center;position:relative}
+.crest.low{opacity:.7}
 .cname{font-family:var(--disp);font-size:16.5px;font-weight:600;letter-spacing:-.01em}
-.ctier{font-family:var(--disp);font-size:12px;letter-spacing:.14em;text-transform:uppercase;
-  color:var(--fg-subtle);margin-top:5px}
+.ctier{font-family:var(--disp);font-size:12.5px;letter-spacing:.1em;text-transform:uppercase;
+  margin-top:5px;display:flex;align-items:center;gap:7px}
+.ctier b{font-size:10px;opacity:.6;font-weight:600}
 .cstat{font-size:12.5px;color:var(--fg-muted);margin-top:9px}
 .cnext{font-size:11.5px;color:var(--fg-subtle);margin-top:5px}
-.ladder{margin-top:clamp(34px,5vw,54px)}
-.lrow{display:flex;align-items:center;gap:14px;padding:13px 0;
-  border-bottom:1px solid rgba(255,255,255,.045);font-size:14px}
+/* the ladder */
+.lrow{display:flex;align-items:center;gap:clamp(10px,1.8vw,18px);padding:14px 10px;
+  border-bottom:1px solid rgba(255,255,255,.045);font-size:14px;border-radius:8px}
 .lrow:last-child{border-bottom:0}
-.lnum{font-family:var(--disp);font-size:12px;color:var(--gold);width:26px;flex:none;letter-spacing:.1em}
-.lname{font-family:var(--disp);font-weight:600;width:110px;flex:none}
-.lreq{color:var(--fg-muted);flex:1}
-.lmark{font-family:var(--disp);font-size:12px;color:var(--fg-subtle)}
+.lrow.have{background:rgba(212,175,55,.035)}
+.lsym{width:34px;flex:none;display:flex;align-items:center;justify-content:center}
+.lnum{font-family:var(--disp);font-size:11px;color:var(--fg-subtle);width:24px;flex:none;
+  letter-spacing:.12em}
+.lname{font-family:var(--disp);font-weight:600;width:112px;flex:none;font-size:14.5px}
+.lrow.have .lname{color:var(--gold)}
+.lreq{color:var(--fg-muted);flex:1;min-width:120px}
+.lmark{font-family:var(--disp);font-size:11.5px;color:var(--fg-subtle);letter-spacing:.1em;
+  text-transform:uppercase;flex:none}
 .lrow.have .lmark{color:var(--ok)}
+@media(max-width:640px){.lreq{display:none}}
 </style>
+
+<!-- Rank symbols, defined once and used by reference everywhere below. -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>
+  <g id="r-page">   <path d="M7 3v14M7 4h8l-2.5 3L15 10H7" fill="currentColor" stroke="currentColor" stroke-width=".9" stroke-linejoin="round"/></g>
+  <g id="r-squire"> <path d="M10 3l6 2.2v4.6c0 3.6-2.9 5.8-6 6.7-3.1-.9-6-3.1-6-6.7V5.2z" fill="none" stroke="currentColor" stroke-width="1.5"/></g>
+  <g id="r-herald"> <path d="M3 10h7l6-4v8l-6-4" fill="currentColor" stroke="currentColor" stroke-width="1" stroke-linejoin="round"/><circle cx="4" cy="10" r="1.6" fill="currentColor"/></g>
+  <g id="r-knight"> <path d="M5 9a5 5 0 0 1 10 0v6a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1z" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M8 9.5h4M7.5 12.5h5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></g>
+  <g id="r-marshal"><path d="M4.5 15.5l11-11M15.5 15.5l-11-11" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/><circle cx="10" cy="10" r="2.1" fill="currentColor"/></g>
+  <g id="r-sover">  <path d="M3 8l3.5 3.2L10 5l3.5 6.2L17 8v7H3z" fill="currentColor"/><rect x="3" y="16" width="14" height="2" rx="1" fill="currentColor"/></g>
+</defs></svg>
 
 <div class="nav"><div class="wrap"><div class="navin">
   <span class="brand"><svg width="19" height="19" viewBox="0 0 24 24"><path d="M3 8l4 4 5-7 5 7 4-4v9H3V8z" fill="#d4af37"/><rect x="3" y="18" width="18" height="2.8" rx="1.2" fill="#d4af37"/></svg>Fact Royale</span>
@@ -55,56 +71,66 @@ main{flex:1;padding:clamp(28px,5vh,52px) 0 clamp(40px,7vh,72px)}
     </div>
   </div>
 
+  <div class="hrule"><i></i></div>
+
   <div class="crests">
-    <div class="crest" style="border-color:rgba(232,160,32,.32)">
-      <svg width="54" height="60" viewBox="0 0 20 22"><path d="M10 1l8 3v8c0 5-4 8-8 9-4-1-8-4-8-9V4l8-3z" fill="rgba(232,160,32,.26)" stroke="#e8a020" stroke-width="1.1"/><text x="10" y="14.5" text-anchor="middle" font-size="7" font-family="Space Grotesk,sans-serif" font-weight="700" fill="#f0c070">IV</text></svg>
-      <div class="cinfo"><div class="cname" style="color:#f0c070">History</div>
-        <div class="ctier">Scholar IV</div>
+    <div class="crest charter" style="border-color:rgba(232,160,32,.32)">
+      <svg width="56" height="62" viewBox="0 0 20 22" style="flex:none"><path d="M10 1l8 3v8c0 5-4 8-8 9-4-1-8-4-8-9V4l8-3z" fill="rgba(232,160,32,.24)" stroke="#e8a020" stroke-width="1"/><g transform="translate(4.2,5.4) scale(.58)" color="#f0c070"><use href="#r-knight"/></g></svg>
+      <div><div class="cname" style="color:#f0c070">History</div>
+        <div class="ctier" style="color:#f0c070">Knight <b>IV</b></div>
         <div class="cstat">102 answered &middot; 84% correct</div>
-        <div class="cnext">6 more correct for Scholar V</div></div></div>
+        <div class="cnext">6 more correct to reach Marshal</div></div></div>
 
-    <div class="crest" style="border-color:rgba(61,190,122,.3)">
-      <svg width="54" height="60" viewBox="0 0 20 22"><path d="M10 1l8 3v8c0 5-4 8-8 9-4-1-8-4-8-9V4l8-3z" fill="rgba(61,190,122,.22)" stroke="#3dbe7a" stroke-width="1.1"/><text x="10" y="14.5" text-anchor="middle" font-size="7" font-family="Space Grotesk,sans-serif" font-weight="700" fill="#7fd9a9">III</text></svg>
-      <div class="cinfo"><div class="cname" style="color:#7fd9a9">Science &amp; Nature</div>
-        <div class="ctier">Scholar III</div>
+    <div class="crest charter" style="border-color:rgba(61,190,122,.3)">
+      <svg width="56" height="62" viewBox="0 0 20 22" style="flex:none"><path d="M10 1l8 3v8c0 5-4 8-8 9-4-1-8-4-8-9V4l8-3z" fill="rgba(61,190,122,.2)" stroke="#3dbe7a" stroke-width="1"/><g transform="translate(4.2,5.4) scale(.58)" color="#7fd9a9"><use href="#r-herald"/></g></svg>
+      <div><div class="cname" style="color:#7fd9a9">Science &amp; Nature</div>
+        <div class="ctier" style="color:#7fd9a9">Herald <b>III</b></div>
         <div class="cstat">96 answered &middot; 71% correct</div>
-        <div class="cnext">14 more correct for Scholar IV</div></div></div>
+        <div class="cnext">14 more correct to reach Knight</div></div></div>
 
-    <div class="crest" style="border-color:rgba(31,181,200,.3)">
-      <svg width="54" height="60" viewBox="0 0 20 22"><path d="M10 1l8 3v8c0 5-4 8-8 9-4-1-8-4-8-9V4l8-3z" fill="rgba(31,181,200,.2)" stroke="#1fb5c8" stroke-width="1.1"/><text x="10" y="14.5" text-anchor="middle" font-size="7" font-family="Space Grotesk,sans-serif" font-weight="700" fill="#6fd8e4">III</text></svg>
-      <div class="cinfo"><div class="cname" style="color:#6fd8e4">Geography</div>
-        <div class="ctier">Scholar III</div>
+    <div class="crest charter" style="border-color:rgba(31,181,200,.3)">
+      <svg width="56" height="62" viewBox="0 0 20 22" style="flex:none"><path d="M10 1l8 3v8c0 5-4 8-8 9-4-1-8-4-8-9V4l8-3z" fill="rgba(31,181,200,.18)" stroke="#1fb5c8" stroke-width="1"/><g transform="translate(4.2,5.4) scale(.58)" color="#6fd8e4"><use href="#r-herald"/></g></svg>
+      <div><div class="cname" style="color:#6fd8e4">Geography</div>
+        <div class="ctier" style="color:#6fd8e4">Herald <b>III</b></div>
         <div class="cstat">88 answered &middot; 66% correct</div>
-        <div class="cnext">19 more correct for Scholar IV</div></div></div>
+        <div class="cnext">19 more correct to reach Knight</div></div></div>
 
-    <div class="crest" style="border-color:rgba(155,114,207,.28)">
-      <svg width="54" height="60" viewBox="0 0 20 22"><path d="M10 1l8 3v8c0 5-4 8-8 9-4-1-8-4-8-9V4l8-3z" fill="rgba(155,114,207,.18)" stroke="#9b72cf" stroke-width="1.1"/><text x="10" y="14.5" text-anchor="middle" font-size="7" font-family="Space Grotesk,sans-serif" font-weight="700" fill="#c6a6ea">II</text></svg>
-      <div class="cinfo"><div class="cname" style="color:#c6a6ea">Music &amp; Film</div>
-        <div class="ctier">Squire II</div>
+    <div class="crest charter" style="border-color:rgba(155,114,207,.28)">
+      <svg width="56" height="62" viewBox="0 0 20 22" style="flex:none"><path d="M10 1l8 3v8c0 5-4 8-8 9-4-1-8-4-8-9V4l8-3z" fill="rgba(155,114,207,.16)" stroke="#9b72cf" stroke-width="1"/><g transform="translate(4.2,5.4) scale(.58)" color="#c6a6ea"><use href="#r-squire"/></g></svg>
+      <div><div class="cname" style="color:#c6a6ea">Music &amp; Film</div>
+        <div class="ctier" style="color:#c6a6ea">Squire <b>II</b></div>
         <div class="cstat">74 answered &middot; 58% correct</div>
-        <div class="cnext">9 more correct for Scholar III</div></div></div>
+        <div class="cnext">9 more correct to reach Herald</div></div></div>
 
-    <div class="crest low" style="border-color:rgba(77,157,224,.24)">
-      <svg width="54" height="60" viewBox="0 0 20 22"><path d="M10 1l8 3v8c0 5-4 8-8 9-4-1-8-4-8-9V4l8-3z" fill="rgba(77,157,224,.12)" stroke="#4d9de0" stroke-width="1.1"/><text x="10" y="14.5" text-anchor="middle" font-size="7" font-family="Space Grotesk,sans-serif" font-weight="700" fill="#86c2ef">I</text></svg>
-      <div class="cinfo"><div class="cname" style="color:#86c2ef">Sports</div>
-        <div class="ctier">Squire I</div>
+    <div class="crest charter low" style="border-color:rgba(77,157,224,.24)">
+      <svg width="56" height="62" viewBox="0 0 20 22" style="flex:none"><path d="M10 1l8 3v8c0 5-4 8-8 9-4-1-8-4-8-9V4l8-3z" fill="rgba(77,157,224,.1)" stroke="#4d9de0" stroke-width="1"/><g transform="translate(4.2,5.4) scale(.58)" color="#86c2ef"><use href="#r-page"/></g></svg>
+      <div><div class="cname" style="color:#86c2ef">Sports</div>
+        <div class="ctier" style="color:#86c2ef">Page <b>I</b></div>
         <div class="cstat">52 answered &middot; 41% correct</div>
         <div class="cnext">Your weakest ground</div></div></div>
   </div>
 
-  <div class="ladder">
-    <p class="kick">The ladder</p>
-    <div class="lrow have"><span class="lnum">I</span><span class="lname">Squire</span>
+  <div class="hrule"><i></i></div>
+  <div class="hhead">The six ranks</div>
+
+  <div>
+    <div class="lrow have"><span class="lsym"><svg width="22" height="22" viewBox="0 0 20 20" color="var(--gold)"><use href="#r-page"/></svg></span>
+      <span class="lnum">I</span><span class="lname">Page</span>
       <span class="lreq">Answer 20 in a category</span><span class="lmark">Held &times;5</span></div>
-    <div class="lrow have"><span class="lnum">II</span><span class="lname">Squire II</span>
-      <span class="lreq">50 answered, 50% correct</span><span class="lmark">Held &times;5</span></div>
-    <div class="lrow have"><span class="lnum">III</span><span class="lname">Scholar</span>
+    <div class="lrow have"><span class="lsym"><svg width="22" height="22" viewBox="0 0 20 20" color="var(--gold)"><use href="#r-squire"/></svg></span>
+      <span class="lnum">II</span><span class="lname">Squire</span>
+      <span class="lreq">50 answered, 50% correct</span><span class="lmark">Held &times;4</span></div>
+    <div class="lrow have"><span class="lsym"><svg width="22" height="22" viewBox="0 0 20 20" color="var(--gold)"><use href="#r-herald"/></svg></span>
+      <span class="lnum">III</span><span class="lname">Herald</span>
       <span class="lreq">75 answered, 65% correct</span><span class="lmark">Held &times;3</span></div>
-    <div class="lrow have"><span class="lnum">IV</span><span class="lname">Scholar IV</span>
+    <div class="lrow have"><span class="lsym"><svg width="22" height="22" viewBox="0 0 20 20" color="var(--gold)"><use href="#r-knight"/></svg></span>
+      <span class="lnum">IV</span><span class="lname">Knight</span>
       <span class="lreq">100 answered, 80% correct</span><span class="lmark">Held &times;1</span></div>
-    <div class="lrow"><span class="lnum">V</span><span class="lname">Master</span>
+    <div class="lrow"><span class="lsym"><svg width="22" height="22" viewBox="0 0 20 20" color="var(--fg-subtle)"><use href="#r-marshal"/></svg></span>
+      <span class="lnum">V</span><span class="lname">Marshal</span>
       <span class="lreq">150 answered, 85% correct</span><span class="lmark">Not yet</span></div>
-    <div class="lrow"><span class="lnum">VI</span><span class="lname">Royal</span>
+    <div class="lrow"><span class="lsym"><svg width="22" height="22" viewBox="0 0 20 20" color="var(--fg-subtle)"><use href="#r-sover"/></svg></span>
+      <span class="lnum">VI</span><span class="lname">Sovereign</span>
       <span class="lreq">250 answered, 90% correct</span><span class="lmark">Not yet</span></div>
   </div>
 </div></main>

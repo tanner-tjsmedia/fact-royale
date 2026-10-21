@@ -3,52 +3,92 @@
 <link rel="stylesheet" href="mock.css">
 <style>
 main{padding:clamp(40px,8vh,80px) 0}
-h1{font-size:clamp(30px,5vw,52px);letter-spacing:-.03em}
-.lede{font-size:15px;color:var(--fg-muted);margin:16px 0 36px;max-width:40em;line-height:1.65}
-.list{display:grid;gap:10px;max-width:640px}
-.item{display:flex;align-items:center;gap:16px;padding:18px 20px;border-radius:13px;
+h1{font-size:clamp(30px,5vw,54px);letter-spacing:-.035em}
+.lede{font-size:15px;color:var(--fg-muted);margin:16px 0 34px;max-width:42em;line-height:1.65}
+.grp{font-family:var(--disp);font-size:11px;letter-spacing:.2em;text-transform:uppercase;
+  color:var(--fg-subtle);margin:30px 0 12px}
+.list{display:grid;gap:9px;max-width:680px}
+.item{display:flex;align-items:center;gap:16px;padding:17px 20px;border-radius:13px;
   background:var(--surface);border:1px solid rgba(255,255,255,.06);transition:.14s}
-.item:hover{border-color:var(--gold-line);background:var(--surface-2)}
-.n{font-family:var(--disp);font-size:13px;font-weight:700;color:var(--gold);width:20px;flex:none}
+.item:hover{border-color:var(--gold-line);background:var(--surface-2);transform:translateX(2px)}
+.n{font-family:var(--disp);font-size:13px;font-weight:700;color:var(--gold);width:22px;flex:none}
 .t{font-family:var(--disp);font-size:16px;font-weight:600}
 .d{font-size:12.5px;color:var(--fg-subtle);margin-top:3px}
 .arr{margin-left:auto;color:var(--fg-subtle)}
-.warn{margin-top:40px;border-left:2px solid var(--gold-line);padding-left:16px;
-  font-size:13px;color:var(--fg-muted);line-height:1.65;max-width:44em}
+.soonb{font-family:var(--disp);font-size:9px;letter-spacing:.14em;text-transform:uppercase;
+  color:#f0a92a;border:1px solid rgba(240,169,42,.3);border-radius:999px;padding:3px 8px;
+  margin-left:10px}
+.warn{margin-top:42px;border-left:2px solid var(--gold-line);padding-left:17px;
+  font-size:13px;color:var(--fg-muted);line-height:1.7;max-width:46em}
+.warn b{color:var(--fg)}
 </style>
 
 <main><div class="wrap">
-  <h1>Mockups</h1>
-  <p class="lede">Design drafts for the visual overhaul, in the royal direction. Open each at full
-    browser width &mdash; they are responsive, so narrow the window to see the mobile layout.</p>
+  <h1>The full spread</h1>
+  <p class="lede">Every player-facing screen in the royal direction. Open each at full browser
+    width; they are responsive, so narrow the window to check the mobile layout. Real fonts load
+    when opened in a browser.</p>
 
+  <div class="grp">Arriving</div>
   <div class="list">
     <a class="item" href="1-public-home.html"><span class="n">01</span>
-      <span><span class="t">Public home</span><span class="d">What a stranger sees</span></span>
-      <span class="arr">&rarr;</span></a>
-    <a class="item" href="2-quiz-question.html"><span class="n">02</span>
-      <span><span class="t">The question</span><span class="d">Least decorated screen on the site, on purpose</span></span>
-      <span class="arr">&rarr;</span></a>
-    <a class="item" href="3-quiz-reveal.html"><span class="n">03</span>
-      <span><span class="t">The reveal</span><span class="d">Verdict small, reasoning large</span></span>
-      <span class="arr">&rarr;</span></a>
-    <a class="item" href="4-results.html"><span class="n">04</span>
-      <span><span class="t">Results</span><span class="d">The screen people screenshot</span></span>
-      <span class="arr">&rarr;</span></a>
-    <a class="item" href="5-member-home.html"><span class="n">05</span>
-      <span><span class="t">Member home</span><span class="d">What a returning player sees instead of 01</span></span>
-      <span class="arr">&rarr;</span></a>
-    <a class="item" href="6-royal-record.html"><span class="n">06</span>
-      <span><span class="t">Royal Record</span><span class="d">Mastery as heraldry</span></span>
-      <span class="arr">&rarr;</span></a>
+      <span><span class="t">Public home</span><span class="d">What a stranger sees</span></span><span class="arr">&rarr;</span></a>
+    <a class="item" href="9-auth.html"><span class="n">09</span>
+      <span><span class="t">Sign up &amp; sign in</span><span class="d">Shown after a quiz, where it converts</span></span><span class="arr">&rarr;</span></a>
   </div>
 
-  <div class="warn">These are drafts, not production code. Everything shared lives in
-    <b>mock.css</b>; each page adds only what is specific to it. If the direction is approved, the
-    real token set and the shared components get extracted from these files into
-    <b>tokens.css</b> &mdash; which also ends the duplication between tokens.css and style.css that
-    the migration note in tokens.css admits to and never finished.
+  <div class="grp">Playing</div>
+  <div class="list">
+    <a class="item" href="2-quiz-question.html"><span class="n">02</span>
+      <span><span class="t">The question</span><span class="d">Deliberately the plainest screen on the site</span></span><span class="arr">&rarr;</span></a>
+    <a class="item" href="3-quiz-reveal.html"><span class="n">03</span>
+      <span><span class="t">The reveal</span><span class="d">Verdict small, reasoning large</span></span><span class="arr">&rarr;</span></a>
+    <a class="item" href="4-results.html"><span class="n">04</span>
+      <span><span class="t">Results</span><span class="d">The screen people screenshot</span></span><span class="arr">&rarr;</span></a>
+  </div>
+
+  <div class="grp">Returning</div>
+  <div class="list">
+    <a class="item" href="5-member-home.html"><span class="n">05</span>
+      <span><span class="t">Member home</span><span class="d">What a returning player sees instead of 01</span></span><span class="arr">&rarr;</span></a>
+    <a class="item" href="6-royal-record.html"><span class="n">06</span>
+      <span><span class="t">Royal Record</span><span class="d">Mastery as heraldry, plus the tier ladder</span></span><span class="arr">&rarr;</span></a>
+    <a class="item" href="10-archive.html"><span class="n">10</span>
+      <span><span class="t">Archive &amp; catch-up</span><span class="d">Every past quiz as a calendar</span></span><span class="arr">&rarr;</span></a>
+  </div>
+
+  <div class="grp">Against other people</div>
+  <div class="list">
+    <a class="item" href="7-leaderboard.html"><span class="n">07</span>
+      <span><span class="t">Leaderboard</span><span class="d">Podium, then the list, with you pinned</span></span><span class="arr">&rarr;</span></a>
+    <a class="item" href="8-groups.html"><span class="n">08</span>
+      <span><span class="t">Groups</span><span class="d">Private boards and the invite flow</span></span><span class="arr">&rarr;</span></a>
+    <a class="item" href="11-challenge-share.html"><span class="n">11</span>
+      <span><span class="t">Challenge &amp; share</span><span class="d">Head to head, and the image that gets posted</span></span><span class="arr">&rarr;</span></a>
+  </div>
+
+  <div class="grp">Proving the system extends</div>
+  <div class="list">
+    <a class="item" href="12-board-mode.html"><span class="n">12</span>
+      <span><span class="t">Board mode<span class="soonb">Concept</span></span>
+        <span class="d">A second game built from the same components</span></span><span class="arr">&rarr;</span></a>
+    <a class="item" href="13-live-event.html"><span class="n">13</span>
+      <span><span class="t">Live event<span class="soonb">Concept</span></span>
+        <span class="d">Room screen and phone, same tokens at two densities</span></span><span class="arr">&rarr;</span></a>
+  </div>
+
+  <div class="warn">
+    <b>These are drafts, not production code.</b> Everything shared lives in <b>mock.css</b>;
+    each page adds only what is specific to it. That is the test, not tidiness: if a design needs
+    a dozen per-page overrides the system is wrong, and across thirteen screens it needed almost
+    none. The two concepts at the end exist to check the same thing from the other direction
+    &mdash; board mode introduced exactly one new component, and the live event none at all.
+    <br><br>
+    If the direction is approved, the real token set and the shared components get extracted
+    from these files into <b>tokens.css</b>, which also ends the duplication between tokens.css
+    and style.css that the migration note in tokens.css admits to and never finished.
     <br><br>
     <b>_mockups/</b> is underscore-prefixed so Jekyll never publishes it, the same reason
-    <b>_app/</b> is named that way.</div>
+    <b>_app/</b> is named that way. Nothing here reaches the live site.
+  </div>
 </div></main>

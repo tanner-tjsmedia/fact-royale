@@ -1,0 +1,118 @@
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Fact Royale — Archive</title>
+<link rel="stylesheet" href="mock.css">
+<div class="tag">10 · Archive &amp; catch-up</div>
+<style>
+body{min-height:100vh;display:flex;flex-direction:column}
+main{flex:1;padding:clamp(28px,5vh,52px) 0 clamp(40px,7vh,72px)}
+.head{margin-bottom:clamp(24px,4vw,34px)}
+.head h1{font-size:clamp(28px,4.4vw,44px);letter-spacing:-.03em}
+.hsub{font-size:14px;color:var(--fg-muted);margin-top:9px;max-width:40em;line-height:1.6}
+.mon{font-family:var(--disp);font-size:12px;letter-spacing:.2em;text-transform:uppercase;
+  color:var(--fg-subtle);margin:clamp(22px,3vw,32px) 0 14px;display:flex;align-items:center;gap:9px}
+.mon:before{content:"";width:6px;height:6px;transform:rotate(45deg);border:1px solid var(--gold-line);
+  background:var(--gold-wash);flex:none}
+.cal{display:grid;grid-template-columns:repeat(7,1fr);gap:clamp(5px,.9vw,9px)}
+.dow{font-family:var(--disp);font-size:10px;letter-spacing:.12em;color:var(--fg-faint);
+  text-align:center;padding-bottom:5px}
+.cd{aspect-ratio:1;border-radius:9px;display:flex;flex-direction:column;align-items:center;
+  justify-content:center;border:1px solid rgba(255,255,255,.055);background:var(--surface);
+  font-family:var(--disp);position:relative}
+.cd .n{font-size:13px;font-weight:600;color:var(--fg-muted)}
+.cd .s{font-size:10px;margin-top:3px;color:var(--fg-subtle)}
+.cd.pl{border-color:rgba(52,211,153,.3);background:rgba(52,211,153,.06)}
+.cd.pl .n{color:#a9f0d4}.cd.pl .s{color:var(--ok)}
+/* A sealed day. The mark is small and sits in the corner so the grid still
+   scans as a calendar, but it stops looking like any calendar. */
+.cd.pl:after{content:"";position:absolute;top:5px;right:5px;width:7px;height:7px;border-radius:50%;
+  background:radial-gradient(circle at 34% 30%,#2f7f5f,#13503a);opacity:.9}
+.cd.miss:after{content:"";position:absolute;top:5px;right:5px;width:7px;height:7px;border-radius:50%;
+  background:radial-gradient(circle at 34% 30%,#d4af37,#8a6c18)}
+.cd.miss{border-color:rgba(212,175,55,.34);background:rgba(212,175,55,.07);cursor:pointer}
+.cd.miss .n{color:var(--gold)}.cd.miss .s{color:var(--gold);opacity:.8}
+.cd.today{border-color:var(--gold);box-shadow:0 0 0 2px rgba(212,175,55,.18)}
+.cd.today .n{color:var(--gold)}
+.cd.none{opacity:.28}
+.key{display:flex;gap:clamp(12px,2.4vw,26px);flex-wrap:wrap;margin-top:clamp(22px,3vw,30px);
+  padding-top:20px;border-top:1px solid rgba(255,255,255,.06);font-size:12.5px;color:var(--fg-subtle)}
+.k{display:flex;align-items:center;gap:8px}
+.kb{width:14px;height:14px;border-radius:4px;border:1px solid}
+.cta{margin-top:clamp(24px,4vw,34px);display:flex;gap:11px;align-items:center;flex-wrap:wrap}
+.cnote{font-size:12.5px;color:var(--fg-subtle)}
+</style>
+
+<div class="nav"><div class="wrap"><div class="navin">
+  <span class="brand"><svg width="19" height="19" viewBox="0 0 24 24"><path d="M3 8l4 4 5-7 5 7 4-4v9H3V8z" fill="#d4af37"/><rect x="3" y="18" width="18" height="2.8" rx="1.2" fill="#d4af37"/></svg>Fact Royale</span>
+  <span class="links"><span>Royal Record</span><span>Leaderboard</span><span>Groups</span><span class="cta">Tanner</span></span>
+</div></div></div>
+
+<main><div class="wrap">
+  <div class="hhead">Your ledger</div>
+  <div class="head">
+    <h1>Archive</h1>
+    <div class="hsub">Every quiz since you joined. Playing an old one adds to your record by
+      category but never moves your streak &mdash; the streak only counts the day itself.</div>
+  </div>
+
+  <div class="hrule"><i></i></div>
+  <div class="mon">October 2026</div>
+  <div class="cal">
+    <div class="dow">M</div><div class="dow">T</div><div class="dow">W</div><div class="dow">T</div>
+    <div class="dow">F</div><div class="dow">S</div><div class="dow">S</div>
+    <div class="cd pl"><span class="n">1</span><span class="s">10</span></div>
+    <div class="cd pl"><span class="n">2</span><span class="s">9</span></div>
+    <div class="cd pl"><span class="n">3</span><span class="s">12</span></div>
+    <div class="cd pl"><span class="n">4</span><span class="s">8</span></div>
+    <div class="cd pl"><span class="n">5</span><span class="s">11</span></div>
+    <div class="cd pl"><span class="n">6</span><span class="s">9</span></div>
+    <div class="cd miss"><span class="n">7</span><span class="s">play</span></div>
+    <div class="cd pl"><span class="n">8</span><span class="s">10</span></div>
+    <div class="cd pl"><span class="n">9</span><span class="s">7</span></div>
+    <div class="cd pl"><span class="n">10</span><span class="s">11</span></div>
+    <div class="cd miss"><span class="n">11</span><span class="s">play</span></div>
+    <div class="cd pl"><span class="n">12</span><span class="s">12</span></div>
+    <div class="cd pl"><span class="n">13</span><span class="s">9</span></div>
+    <div class="cd pl"><span class="n">14</span><span class="s">10</span></div>
+    <div class="cd pl"><span class="n">15</span><span class="s">8</span></div>
+    <div class="cd pl"><span class="n">16</span><span class="s">11</span></div>
+    <div class="cd pl"><span class="n">17</span><span class="s">10</span></div>
+    <div class="cd pl"><span class="n">18</span><span class="s">9</span></div>
+    <div class="cd today"><span class="n">19</span><span class="s">today</span></div>
+    <div class="cd none"><span class="n">20</span></div>
+    <div class="cd none"><span class="n">21</span></div>
+    <div class="cd none"><span class="n">22</span></div>
+    <div class="cd none"><span class="n">23</span></div>
+    <div class="cd none"><span class="n">24</span></div>
+    <div class="cd none"><span class="n">25</span></div>
+    <div class="cd none"><span class="n">26</span></div>
+  </div>
+
+  <div class="hrule"><i></i></div>
+  <div class="mon">September 2026</div>
+  <div class="cal">
+    <div class="cd pl"><span class="n">22</span><span class="s">9</span></div>
+    <div class="cd pl"><span class="n">23</span><span class="s">11</span></div>
+    <div class="cd pl"><span class="n">24</span><span class="s">8</span></div>
+    <div class="cd pl"><span class="n">25</span><span class="s">10</span></div>
+    <div class="cd pl"><span class="n">26</span><span class="s">12</span></div>
+    <div class="cd pl"><span class="n">27</span><span class="s">9</span></div>
+    <div class="cd pl"><span class="n">28</span><span class="s">10</span></div>
+    <div class="cd miss"><span class="n">29</span><span class="s">play</span></div>
+    <div class="cd pl"><span class="n">30</span><span class="s">11</span></div>
+  </div>
+
+  <div class="key">
+    <span class="k"><i class="kb" style="border-color:rgba(52,211,153,.5);background:rgba(52,211,153,.1)"></i>Played, with your score</span>
+    <span class="k"><i class="kb" style="border-color:rgba(212,175,55,.5);background:rgba(212,175,55,.1)"></i>Missed, still playable</span>
+    <span class="k"><i class="kb" style="border-color:var(--gold)"></i>Today</span>
+  </div>
+
+  <div class="cta">
+    <a class="btn" href="#">Play the oldest missed &mdash; 29 Sept &rarr;</a>
+    <span class="cnote">3 missed days available</span>
+  </div>
+</div></main>
+
+<footer><div class="wrap"><div class="fin">
+  <span>&#9819; Fact Royale</span><span>Royal Record &middot; Leaderboard &middot; Settings</span>
+</div></div></footer>

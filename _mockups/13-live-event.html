@@ -1,0 +1,140 @@
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Fact Royale — Live event</title>
+<link rel="stylesheet" href="mock.css">
+<div class="tag">13 · Live event (concept)</div>
+<style>
+/* CONCEPT. Two surfaces at once: the room screen (projected, read at
+   distance) and the player's phone. Same tokens, different density — which
+   is the real test of a design system. */
+body{background:#050510;padding:clamp(14px,3vw,26px) 0}
+.note{font-size:13px;color:var(--fg-muted);line-height:1.65;max-width:46em;margin-bottom:22px}
+.note b{font-family:var(--disp);color:var(--gold);letter-spacing:.14em;text-transform:uppercase;
+  font-size:10px;display:block;margin-bottom:6px}
+.lbl{font-family:var(--disp);font-size:11px;letter-spacing:.2em;text-transform:uppercase;
+  color:var(--fg-subtle);margin:clamp(24px,4vw,36px) 0 12px}
+
+/* ── room screen ── */
+.room{border:1px solid rgba(255,255,255,.08);border-radius:14px;overflow:hidden;
+  background:linear-gradient(170deg,#0b0b1c,#080814);aspect-ratio:16/9;position:relative;
+  display:flex;flex-direction:column}
+.rtop{display:flex;justify-content:space-between;align-items:center;
+  padding:clamp(12px,2vw,22px) clamp(16px,2.6vw,30px);border-bottom:1px solid rgba(255,255,255,.06)}
+.rbrand{font-family:var(--disp);font-weight:700;font-size:clamp(13px,1.7vw,20px);
+  display:flex;align-items:center;gap:9px}
+.rq{font-family:var(--disp);font-size:clamp(10px,1.2vw,14px);letter-spacing:.18em;
+  text-transform:uppercase;color:var(--gold)}
+.rmid{flex:1;display:flex;flex-direction:column;justify-content:center;
+  padding:clamp(14px,3vw,38px) clamp(20px,4vw,56px);text-align:center}
+.rchip{align-self:center;margin-bottom:clamp(10px,2vw,20px)}
+.rtext{font-family:var(--disp);font-weight:600;font-size:clamp(16px,3.1vw,38px);line-height:1.22;
+  letter-spacing:-.02em}
+.ropts{display:grid;grid-template-columns:1fr 1fr;gap:clamp(6px,1vw,12px);
+  margin-top:clamp(14px,2.6vw,30px)}
+.ropt{border:1px solid rgba(255,255,255,.1);border-radius:10px;background:rgba(255,255,255,.03);
+  padding:clamp(8px,1.5vw,16px);font-size:clamp(10px,1.5vw,18px);display:flex;gap:9px;
+  align-items:center;text-align:left}
+.ropt b{font-family:var(--disp);color:var(--gold);font-size:.85em;flex:none}
+.rbot{display:flex;align-items:center;justify-content:space-between;gap:16px;
+  padding:clamp(10px,1.8vw,20px) clamp(16px,2.6vw,30px);border-top:1px solid rgba(255,255,255,.06)}
+.timer{display:flex;align-items:center;gap:10px;flex:1}
+.tbar{flex:1;height:clamp(5px,.9vw,9px);border-radius:4px;background:rgba(255,255,255,.08);overflow:hidden}
+.tbar i{display:block;height:100%;width:62%;border-radius:4px;
+  background:linear-gradient(90deg,var(--gold),var(--gold-br))}
+.tnum{font-family:var(--disp);font-weight:700;font-size:clamp(13px,1.8vw,22px);color:var(--gold)}
+.rin{font-family:var(--disp);font-size:clamp(10px,1.3vw,15px);color:var(--fg-muted)}
+.rin b{color:var(--fg)}
+
+/* ── phone ── */
+.phones{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:14px}
+.phone{border:1px solid rgba(255,255,255,.08);border-radius:22px;overflow:hidden;
+  background:var(--bg);aspect-ratio:9/17;display:flex;flex-direction:column;max-width:280px}
+.ptop{padding:14px 16px 0;display:flex;justify-content:space-between;align-items:center;
+  font-family:var(--disp);font-size:10px;letter-spacing:.14em;text-transform:uppercase;
+  color:var(--fg-subtle)}
+.pmid{flex:1;padding:16px;display:flex;flex-direction:column;justify-content:center;gap:8px}
+.pbtn{border:1px solid rgba(255,255,255,.1);border-radius:11px;background:var(--surface-2);
+  padding:14px 13px;font-size:13.5px;display:flex;gap:9px;align-items:center}
+.pbtn b{font-family:var(--disp);font-size:11px;color:var(--fg-subtle);flex:none}
+.pbtn.sel{border-color:var(--gold);background:var(--gold-wash);color:var(--gold)}
+.pbtn.ok{border-color:rgba(52,211,153,.45);background:rgba(52,211,153,.08);color:#d7fff1}
+.pbtn.no{border-color:rgba(248,113,113,.4);background:rgba(248,113,113,.07);color:#ffdcdc}
+.pbot{padding:0 16px 16px;text-align:center}
+.plock{font-family:var(--disp);font-size:11px;letter-spacing:.15em;text-transform:uppercase;
+  color:var(--gold)}
+.pres{font-family:var(--disp);font-size:26px;font-weight:700;line-height:1}
+.pres-l{font-size:11px;color:var(--fg-subtle);margin-top:5px;font-family:var(--disp);
+  letter-spacing:.14em;text-transform:uppercase}
+.cap{font-size:12px;color:var(--fg-subtle);text-align:center;margin-top:9px}
+</style>
+
+<div class="wrap">
+  <p class="note"><b>Live event &middot; concept</b>
+    Everyone in a room, or at home, answers the same question at the same moment. Two surfaces
+    have to work at once: a screen read from across a room, and a phone held at arm's length.
+    Same tokens, same shield, same gold &mdash; only the density changes. That is the actual test
+    of whether this is a design system or just a nice-looking page.</p>
+
+  <div class="lbl">The room screen</div>
+  <div class="room">
+    <div class="rtop">
+      <span class="rbrand"><svg width="22" height="22" viewBox="0 0 24 24"><path d="M3 8l4 4 5-7 5 7 4-4v9H3V8z" fill="#d4af37"/><rect x="3" y="18" width="18" height="2.8" rx="1.2" fill="#d4af37"/></svg>Fact Royale Live</span>
+      <span class="rq">Question 7 of 15</span>
+    </div>
+    <div class="rmid">
+      <span class="chip rchip" style="color:#f0c070;border-color:rgba(232,160,32,.45);background:rgba(232,160,32,.1)">
+        <svg width="15" height="17" viewBox="0 0 20 22"><path d="M10 1l8 3v8c0 5-4 8-8 9-4-1-8-4-8-9V4l8-3z" fill="rgba(232,160,32,.3)" stroke="#e8a020" stroke-width="1.5"/></svg>
+        History</span>
+      <div class="rtext">Which structure served as a lighthouse on an island near Alexandria?</div>
+      <div class="ropts">
+        <div class="ropt"><b>A</b>The Temple of Artemis</div>
+        <div class="ropt"><b>B</b>The Pharos of Alexandria</div>
+        <div class="ropt"><b>C</b>The Hanging Gardens</div>
+        <div class="ropt"><b>D</b>The Colossus of Rhodes</div>
+      </div>
+    </div>
+    <div class="rbot">
+      <div class="timer"><span class="tnum">12</span><span class="tbar"><i></i></span></div>
+      <span class="rin"><b>38</b> of 44 answered</span>
+    </div>
+  </div>
+  <div class="cap">Projected. Large type, four options in a 2&times;2, timer and answered-count
+    always visible.</div>
+
+  <div class="lbl">On the player's phone</div>
+  <div class="phones">
+    <div class="phone">
+      <div class="ptop"><span>Q7</span><span style="color:var(--gold)">&#9733; 4 streak</span></div>
+      <div class="pmid">
+        <div class="pbtn"><b>A</b>Temple of Artemis</div>
+        <div class="pbtn"><b>B</b>Pharos of Alexandria</div>
+        <div class="pbtn"><b>C</b>Hanging Gardens</div>
+        <div class="pbtn"><b>D</b>Colossus of Rhodes</div>
+      </div>
+      <div class="pbot"><div class="plock">12 seconds</div></div>
+    </div>
+
+    <div class="phone">
+      <div class="ptop"><span>Q7</span><span style="color:var(--gold)">&#9733; 4 streak</span></div>
+      <div class="pmid">
+        <div class="pbtn" style="opacity:.3"><b>A</b>Temple of Artemis</div>
+        <div class="pbtn sel"><b>B</b>Pharos of Alexandria</div>
+        <div class="pbtn" style="opacity:.3"><b>C</b>Hanging Gardens</div>
+        <div class="pbtn" style="opacity:.3"><b>D</b>Colossus of Rhodes</div>
+      </div>
+      <div class="pbot"><div class="plock">Locked in &middot; waiting</div></div>
+    </div>
+
+    <div class="phone">
+      <div class="ptop"><span>Q7</span><span style="color:var(--gold)">&#9733; 5 streak</span></div>
+      <div class="pmid">
+        <div class="pbtn" style="opacity:.25"><b>A</b>Temple of Artemis</div>
+        <div class="pbtn ok"><b>B</b>Pharos of Alexandria</div>
+        <div class="pbtn" style="opacity:.25"><b>C</b>Hanging Gardens</div>
+        <div class="pbtn" style="opacity:.25"><b>D</b>Colossus of Rhodes</div>
+      </div>
+      <div class="pbot"><div class="pres gold">4th</div><div class="pres-l">of 44</div></div>
+    </div>
+  </div>
+  <div class="cap">Answering, locked in, and the reveal. No question text on the phone &mdash; it is
+    on the wall, and repeating it splits attention.</div>
+</div>
