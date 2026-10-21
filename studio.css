@@ -1,0 +1,199 @@
+/* ============================================================
+   FACT ROYALE — STUDIO / TOOLS STYLES
+   Base styles and components for the INTERNAL pages: studio, review,
+   admin, live. Split out of tokens.css on 2026-10-21 so that token
+   values have one home and component classes have another.
+
+   Requires tokens.css to be loaded first.
+
+   The player-facing site does not load this file; it loads app.css,
+   which defines its own .btn and .chip to a different design. That is
+   why these had to be separated rather than shared.
+   ============================================================ */
+
+/* ============================================================
+   BASE
+   ============================================================ */
+
+*, *::before, *::after { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--fg);
+  font-family: var(--font-body);
+  font-size: var(--t-base);
+  line-height: var(--lh-body);
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--font-display);
+  line-height: var(--lh-tight);
+  margin: 0;
+  font-weight: 700;
+}
+h1 { font-size: var(--t-2xl); }
+h2 { font-size: var(--t-xl); }
+h3 { font-size: var(--t-lg); }
+h4 { font-size: var(--t-md); }
+
+a { color: var(--gold); text-decoration-color: var(--gold-line); }
+a:hover { color: var(--gold-bright); }
+
+code, kbd, .mono { font-family: var(--font-mono); font-size: 0.92em; }
+
+kbd {
+  background: var(--surface-3);
+  border: 1px solid var(--line-strong);
+  border-bottom-width: 2px;
+  border-radius: var(--r-sm);
+  padding: 1px var(--s-2);
+  font-size: var(--t-xs);
+  color: var(--fg-muted);
+}
+
+/* One visible focus treatment everywhere. Never remove it without
+   replacing it -- keyboard use is the whole point of the studio. */
+:focus-visible {
+  outline: 2px solid var(--gold-bright);
+  outline-offset: 2px;
+  border-radius: var(--r-sm);
+}
+
+/* ============================================================
+   COMPONENTS
+   Small, composable, no page-specific logic.
+   ============================================================ */
+
+.eyebrow {
+  font-family: var(--font-display);
+  font-size: var(--t-xs);
+  letter-spacing: var(--tracking-caps);
+  text-transform: uppercase;
+  color: var(--fg-subtle);
+}
+
+.panel {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--r);
+  padding: var(--s-5);
+}
+.panel--raised { background: var(--surface-2); box-shadow: var(--shadow-2); }
+.panel--gold   { border-color: var(--gold-line); box-shadow: var(--shadow-gold); }
+
+.btn {
+  font-family: var(--font-display);
+  font-size: var(--t-sm);
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  padding: var(--s-2) var(--s-4);
+  border-radius: var(--r-sm);
+  border: 1px solid var(--line-strong);
+  background: var(--surface-3);
+  color: var(--fg);
+  cursor: pointer;
+  transition: background var(--dur-1) var(--ease-out),
+              border-color var(--dur-1) var(--ease-out),
+              transform var(--dur-1) var(--ease-snap);
+}
+.btn:hover  { background: var(--surface-2); border-color: var(--gold-line); }
+.btn:active { transform: translateY(1px); }
+.btn[disabled] { opacity: 0.4; cursor: not-allowed; }
+
+.btn--gold { background: var(--gold); border-color: var(--gold); color: #1a1405; }
+.btn--gold:hover { background: var(--gold-bright); border-color: var(--gold-bright); }
+.btn--ok   { background: var(--ok-wash);   border-color: var(--ok);   color: var(--ok); }
+.btn--warn { background: var(--warn-wash); border-color: var(--warn); color: var(--warn); }
+.btn--bad  { background: var(--bad-wash);  border-color: var(--bad);  color: var(--bad); }
+.btn--ghost { background: transparent; border-color: var(--line); color: var(--fg-muted); }
+
+.chip {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--s-1);
+  font-family: var(--font-display);
+  font-size: var(--t-xs);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 2px var(--s-2);
+  border-radius: var(--r-pill);
+  border: 1px solid currentColor;
+  background: color-mix(in srgb, currentColor 10%, transparent);
+}
+
+.field {
+  width: 100%;
+  background: var(--surface-3);
+  border: 1px solid var(--line);
+  border-radius: var(--r-sm);
+  color: var(--fg);
+  font-family: var(--font-body);
+  font-size: var(--t-base);
+  line-height: var(--lh-snug);
+  padding: var(--s-2) var(--s-3);
+  transition: border-color var(--dur-1) var(--ease-out);
+}
+.field:hover { border-color: var(--line-strong); }
+.field:focus { border-color: var(--gold); outline: none; }
+.field::placeholder { color: var(--fg-faint); }
+
+label.lbl {
+  display: block;
+  font-family: var(--font-display);
+  font-size: var(--t-xs);
+  letter-spacing: var(--tracking-caps);
+  text-transform: uppercase;
+  color: var(--fg-subtle);
+  margin-bottom: var(--s-1);
+}
+
+.rule { height: 1px; background: var(--line); border: 0; margin: var(--s-5) 0; }
+
+.stack   > * + * { margin-top: var(--s-3); }
+.stack-5 > * + * { margin-top: var(--s-5); }
+.row { display: flex; align-items: center; gap: var(--s-3); }
+.row--wrap { flex-wrap: wrap; }
+.spacer { flex: 1; }
+
+/* ---- state helpers, driven by a data attribute so markup stays clean --- */
+[data-state="unreviewed"] { color: var(--st-unreviewed); }
+[data-state="verified"]   { color: var(--st-verified); }
+[data-state="flagged"]    { color: var(--st-flagged); }
+[data-state="rejected"]   { color: var(--st-rejected); }
+[data-state="retired"]    { color: var(--st-retired); }
+
+[data-cat="History"]           { color: var(--cat-history); }
+[data-cat="Sports"]            { color: var(--cat-sports); }
+[data-cat="Pop Culture"]       { color: var(--cat-pop); }
+[data-cat="Geography"]         { color: var(--cat-geography); }
+[data-cat="Science & Nature"]  { color: var(--cat-science); }
+
+[data-tier="primary"]   { color: var(--tier-primary); }
+[data-tier="reference"] { color: var(--tier-reference); }
+[data-tier="secondary"] { color: var(--tier-secondary); }
+[data-tier="canonical"] { color: var(--tier-canonical); }
+
+/* ---- scrollbars, because this platform lives in long lists ---- */
+* { scrollbar-width: thin; scrollbar-color: var(--surface-3) transparent; }
+*::-webkit-scrollbar { width: 10px; height: 10px; }
+*::-webkit-scrollbar-thumb {
+  background: var(--surface-3); border-radius: var(--r-pill);
+  border: 2px solid var(--bg);
+}
+*::-webkit-scrollbar-thumb:hover { background: var(--line-strong); }
+
+/* ============================================================
+   MOTION CONSENT
+   Every page inherits this. Anything decorative must sit behind it,
+   and no feature may exist only for people who tolerate movement.
+   ============================================================ */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}

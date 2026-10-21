@@ -1,0 +1,237 @@
+/* ============================================================
+   FACT ROYALE — PLAYER-FACING COMPONENTS
+
+   Every class the public site needs, built from the approved mockups in
+   _mockups/. Requires tokens.css first and takes every colour, size,
+   radius and curve from it: there are no literal values in this file
+   except where a gradient or a one-off geometry genuinely needs one,
+   and those are commented.
+
+   Does NOT load alongside studio.css. The two define .btn and .chip to
+   different designs on purpose, which is why they were separated.
+
+   Replaces style.css, which is loaded by exactly three pages
+   (_app/index.html, _app/mastery.html, _app/groups.html) and is deleted
+   once all three move over.
+   ============================================================ */
+
+/* ── base ───────────────────────────────────────────────────── */
+*, *::before, *::after { box-sizing: border-box; }
+html, body { background: var(--bg); }
+body {
+  margin: 0;
+  color: var(--fg);
+  font-family: var(--font-body);
+  line-height: var(--lh-body);
+  -webkit-font-smoothing: antialiased;
+}
+a { color: inherit; text-decoration: none; }
+img, svg { display: block; max-width: 100%; }
+
+:focus-visible {
+  outline: 2px solid var(--gold-bright);
+  outline-offset: 2px;
+  border-radius: var(--r-sm);
+}
+
+/* ── layout ─────────────────────────────────────────────────── */
+.wrap   { max-width: var(--page-width); margin: 0 auto; padding: 0 clamp(18px, 4vw, 36px); }
+.narrow { max-width: 720px;             margin: 0 auto; padding: 0 clamp(18px, 4vw, 30px); }
+
+/* ── the gold treatment ─────────────────────────────────────────
+   Reserved for exactly three things: the headline, the score, the
+   streak. Used anywhere else it stops meaning anything.
+
+   padding-bottom and line-height are load-bearing, not styling.
+   background-clip:text clips to the LINE BOX rather than the glyphs,
+   so a tight line-height shears the tails off any y, g or p. */
+.gold {
+  background: linear-gradient(94deg, var(--gold-bright), var(--gold) 48%, var(--gold-deep));
+  -webkit-background-clip: text; background-clip: text;
+  color: transparent;
+  padding-bottom: .09em;
+  line-height: 1.04;
+}
+
+/* ── type ───────────────────────────────────────────────────── */
+h1, h2, h3 { font-family: var(--font-display); margin: 0; font-weight: 700; }
+h1 { letter-spacing: -.035em; line-height: .96; }
+h2 { font-size: clamp(22px, 3.2vw, 31px); letter-spacing: -.022em; line-height: 1.16; }
+
+.eyebrow {
+  font-family: var(--font-display);
+  font-size: var(--t-xs); letter-spacing: .24em; text-transform: uppercase;
+  color: var(--gold);
+}
+.kick {
+  font-family: var(--font-display);
+  font-size: var(--t-xs); letter-spacing: .22em; text-transform: uppercase;
+  color: var(--fg-subtle); margin-bottom: clamp(18px, 2.6vw, 26px);
+}
+
+/* ── chrome ─────────────────────────────────────────────────── */
+.nav { border-bottom: 1px solid var(--line); }
+.nav--over { position: absolute; top: 0; left: 0; right: 0; z-index: 4; border-bottom: 0; }
+.nav__in { display: flex; align-items: center; justify-content: space-between; height: 68px; }
+.brand {
+  font-family: var(--font-display); font-weight: 700;
+  font-size: clamp(15px, 1.6vw, 17px); letter-spacing: -.01em;
+  display: flex; align-items: center; gap: var(--s-2);
+}
+.navlinks {
+  display: flex; align-items: center; gap: clamp(14px, 2.4vw, 28px);
+  font-size: 13.5px; color: rgba(242,242,250,.68);
+}
+.navlinks .is-cta { color: var(--gold); font-weight: 600; }
+@media (max-width: 620px) { .navlinks > :not(.is-cta) { display: none; } }
+
+.sitefoot { border-top: 1px solid var(--line); }
+.sitefoot__in {
+  display: flex; justify-content: space-between; align-items: center;
+  padding: var(--s-5) 0; font-size: 12.5px; color: var(--fg-subtle);
+  flex-wrap: wrap; gap: var(--s-3);
+}
+
+/* ── buttons ────────────────────────────────────────────────── */
+.btn {
+  display: inline-block; font-family: var(--font-display); font-weight: 700;
+  font-size: 14.5px; padding: 14px 26px; border-radius: 11px; border: 0; cursor: pointer;
+  background: linear-gradient(180deg, var(--gold-bright), var(--gold-press));
+  color: var(--on-gold);
+  box-shadow: 0 8px 28px var(--gold-glow);
+  transition: transform var(--dur-1) var(--ease-out), box-shadow var(--dur-1) var(--ease-out);
+}
+.btn:hover { transform: translateY(-1px); box-shadow: 0 10px 34px var(--gold-glow); }
+.btn--ghost {
+  background: rgba(255,255,255,.05); color: rgba(242,242,250,.86);
+  font-weight: 500; border: 1px solid var(--line-strong); box-shadow: none;
+}
+.btn--ghost:hover { box-shadow: none; border-color: var(--gold-line); }
+.btn--sm { font-size: 12.5px; padding: 10px 18px; border-radius: var(--r-sm); }
+
+/* ── the shield ─────────────────────────────────────────────────
+   One component, four jobs: category chip in the quiz, results
+   breakdown, standard on the homepage, mastery crest on the Royal
+   Record. The SVG path lives in the markup; this styles its wrapper. */
+.chip {
+  display: inline-flex; align-items: center; gap: 7px;
+  font-family: var(--font-display); font-size: var(--t-xs);
+  letter-spacing: .15em; text-transform: uppercase; font-weight: 600;
+  padding: 6px 13px 6px 9px; border-radius: var(--r-pill); border: 1px solid;
+}
+.standard {
+  border: 1px solid; border-radius: 13px; text-align: center;
+  padding: clamp(14px, 2.2vw, 22px) var(--s-3);
+  background: linear-gradient(180deg, rgba(255,255,255,.04), transparent);
+}
+.standard svg { margin: 0 auto var(--s-3); }
+.standard b { font-family: var(--font-display); font-weight: 600; display: block; line-height: 1.3; }
+.standard i { font-style: normal; display: block; font-size: var(--t-xs);
+  color: var(--fg-subtle); margin-top: 5px; }
+
+/* ── quiz ───────────────────────────────────────────────────── */
+.segs { display: flex; gap: var(--s-1); }
+.seg  { height: 4px; flex: 1; border-radius: 2px; background: rgba(255,255,255,.09); }
+.seg--hit  { background: var(--ok); }
+.seg--miss { background: var(--bad); }
+.seg--now  { background: var(--gold); }
+
+.question {
+  font-family: var(--font-display); font-weight: 600;
+  font-size: clamp(20px, 2.9vw, 29px); line-height: 1.3; letter-spacing: -.015em;
+}
+
+.opt {
+  display: flex; align-items: center; gap: 14px;
+  padding: 17px 20px; border-radius: var(--r); margin-bottom: 9px;
+  background: var(--surface-2); border: 1px solid var(--line);
+  font-size: 15.5px; cursor: pointer;
+  transition: border-color var(--dur-1) var(--ease-out), background var(--dur-1) var(--ease-out);
+}
+.opt:hover { border-color: var(--gold-line); background: var(--surface-3); }
+.opt__key  { font-family: var(--font-display); font-size: var(--t-xs);
+  color: var(--fg-subtle); width: 14px; flex: none; }
+.opt__mark { margin-left: auto; font-weight: 700; font-size: 15px; }
+.opt--right { background: var(--ok-wash);  border-color: var(--ok-line);  color: var(--ok-ink); }
+.opt--wrong { background: var(--bad-wash); border-color: var(--bad-line); color: var(--bad-ink); }
+.opt--dim   { opacity: .36; }
+.opt--right:hover, .opt--wrong:hover, .opt--dim:hover { background: inherit; }
+
+/* ── cards ──────────────────────────────────────────────────── */
+.card {
+  background: var(--surface); border: 1px solid var(--line);
+  border-radius: var(--r); padding: clamp(14px, 2vw, 20px);
+}
+.card__title {
+  font-family: var(--font-display); font-size: var(--t-xs);
+  letter-spacing: .17em; text-transform: uppercase; color: var(--fg-subtle);
+  margin-bottom: var(--s-3);
+  display: flex; justify-content: space-between; align-items: center;
+}
+.card__title b { color: var(--gold); font-weight: 600; }
+
+/* ── heraldic trim ──────────────────────────────────────────────
+   Structural, not decorative: a rule, a heading stroke, a seal, a
+   corner tick. The moment one of these reads as ornament it comes out. */
+.hrule { display: flex; align-items: center; gap: var(--s-3); margin: clamp(22px,3vw,32px) 0; }
+.hrule::before, .hrule::after {
+  content: ""; flex: 1; height: 1px;
+  background: linear-gradient(90deg, transparent, var(--gold-line), transparent);
+}
+.hrule i {
+  width: 7px; height: 7px; flex: none; transform: rotate(45deg);
+  border: 1px solid var(--gold-line); background: var(--gold-wash);
+}
+
+.hhead {
+  font-family: var(--font-display); font-size: var(--t-xs);
+  letter-spacing: .2em; text-transform: uppercase; color: var(--fg-subtle);
+  display: flex; align-items: center; gap: var(--s-3);
+  margin-bottom: clamp(16px, 2.4vw, 24px);
+}
+.hhead::before { content: ""; width: 18px; height: 2px; background: var(--gold);
+  flex: none; border-radius: 1px; }
+
+.seal {
+  width: 22px; height: 22px; border-radius: 50%;
+  display: inline-flex; align-items: center; justify-content: center;
+  font-family: var(--font-display); font-size: 9px; font-weight: 700;
+  /* Wax, lit from the upper left. Literal values: this is a material, not a token. */
+  background: radial-gradient(circle at 34% 30%, #7b1f2b, #4e1119);
+  color: #f0cdd2;
+  box-shadow: inset 0 0 0 1px rgba(255,255,255,.1);
+}
+.seal--gold { background: radial-gradient(circle at 34% 30%, var(--gold), #8a6c18); color: #1a1405; }
+.seal--ok   { background: radial-gradient(circle at 34% 30%, #2f7f5f, #13503a); color: var(--ok-ink); }
+
+.charter { position: relative; }
+.charter::before, .charter::after {
+  content: ""; position: absolute; width: 11px; height: 11px;
+  border-color: var(--gold-line); border-style: solid; pointer-events: none;
+}
+.charter::before { top: 7px; left: 7px;     border-width: 1px 0 0 1px; }
+.charter::after  { bottom: 7px; right: 7px; border-width: 0 1px 1px 0; }
+
+/* ── the scene ──────────────────────────────────────────────────
+   The castle backdrop. Used on the public hero and the member hero and
+   nowhere else: atmosphere for arrival and reward, not wallpaper. */
+.scene { position: relative; overflow: hidden;
+  background: linear-gradient(180deg, var(--scene-sky), var(--scene-mid) 55%, var(--scene-low)); }
+.scene > svg { position: absolute; inset: 0; width: 100%; height: 100%; }
+.scene__veil { position: absolute; inset: 0;
+  background: linear-gradient(180deg, rgba(5,5,12,.10), rgba(5,5,12,.45) 52%, rgba(7,7,15,.96)); }
+.scene__in { position: relative; z-index: 3; width: 100%; }
+
+/* ── the streak grid ────────────────────────────────────────── */
+.grid30 { display: flex; gap: var(--s-1); flex-wrap: wrap; }
+.day {
+  width: clamp(14px, 2.1vw, 22px); height: clamp(14px, 2.1vw, 22px);
+  border-radius: var(--s-1); background: var(--fg-faint);
+}
+.day--played { background: var(--ok); opacity: .82; }
+.day--missed { background: rgba(248,113,113,.26); }
+.day--today  { background: var(--gold); box-shadow: 0 0 0 3px var(--gold-glow); }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: .001ms !important; transition-duration: .001ms !important; }
+}
