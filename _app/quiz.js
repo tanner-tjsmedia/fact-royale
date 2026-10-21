@@ -657,14 +657,19 @@ function gradeLocally(q, choice) {
   };
 }
 
+/* Delegates to categories.js, which is the single owner of the list.
+ *
+ * This used to carry its own substring match, and it did not know 'pop
+ * culture' -- the retired name, still on 246 of 984 questions -- so a
+ * quarter of the corpus rendered in the grey default. Kept as a function
+ * rather than inlined because it is called from several places. */
 function getCategoryClass(category) {
-  const c = category.toLowerCase();
-  if (c.includes('history'))                        return 'cat-history';
-  if (c.includes('sport'))                          return 'cat-sports';
-  if (c.includes('music') || c.includes('movie'))   return 'cat-music';
-  if (c.includes('geography') || c.includes('geo')) return 'cat-geography';
-  if (c.includes('science') || c.includes('nature')) return 'cat-science';
-  return 'cat-default';
+  return frCategory(category).cls;
+}
+
+/* The name to SHOW. The corpus holds retired names; the UI should not. */
+function getCategoryLabel(category) {
+  return frCategory(category).label;
 }
 
 function formatDate(key) {
@@ -982,7 +987,7 @@ function renderQuestion() {
   catEl.innerHTML =
     '<svg width="14" height="16" viewBox="0 0 20 22" aria-hidden="true">' +
     '<path class="shield-fill shield-line" d="M10 1l8 3v8c0 5-4 8-8 9-4-1-8-4-8-9V4l8-3z" ' +
-    'stroke-width="1.5"/></svg>' + escapeHtml(q.category);
+    'stroke-width="1.5"/></svg>' + escapeHtml(getCategoryLabel(q.category));
 
   // Question
   document.getElementById('q-text').textContent = q.question;
@@ -1168,7 +1173,7 @@ async function handleAnswer(selected, q) {
   // Wire up Next button
   const btnNext = document.getElementById('btn-next');
   const isLast  = currentIndex === questions.length - 1;
-  btnNext.textContent = isLast ? 'See Results →' : 'Next Question →';
+  btnNext.textContent = isLast ? 'See results →' : 'Next question →';
 
   btnNext.onclick = () => {
     const qCard = document.querySelector('.question-card');

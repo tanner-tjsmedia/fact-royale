@@ -237,6 +237,12 @@ h2 { font-size: clamp(22px, 3.2vw, 31px); letter-spacing: -.022em; line-height: 
 }
 
 /* ── category identity ──────────────────────────────────────────
+   Named hue-* and NOT cat-*: style.css already owns .cat-history and
+   friends as the old category PILL, complete with its own background.
+   Putting that class on the explanation to carry a colour also brought
+   the pill's amber fill with it, which is how a rule meant to draw a
+   2px left border ended up drawing a tinted box.
+
    One class per category, setting two custom properties. Everything
    that needs to be "the colour of Geography" reads --hue and --hue-ink
    rather than hardcoding a hex, so the shield, the chip, the
@@ -248,12 +254,12 @@ h2 { font-size: clamp(22px, 3.2vw, 31px); letter-spacing: -.022em; line-height: 
 
    quiz.js only has to put the right class on the element. It never
    names a colour. */
-.cat-history   { --hue: var(--cat-history);   --hue-ink: #f0c070; }
-.cat-sports    { --hue: var(--cat-sports);    --hue-ink: #86c2ef; }
-.cat-music     { --hue: var(--cat-music);     --hue-ink: #c6a6ea; }
-.cat-geography { --hue: var(--cat-geography); --hue-ink: #6fd8e4; }
-.cat-science   { --hue: var(--cat-science);   --hue-ink: #7fd9a9; }
-.cat-default   { --hue: var(--cat-default);   --hue-ink: var(--fg-muted); }
+.hue-history   { --hue: var(--cat-history);   --hue-ink: #f0c070; }
+.hue-sports    { --hue: var(--cat-sports);    --hue-ink: #86c2ef; }
+.hue-music     { --hue: var(--cat-music);     --hue-ink: #c6a6ea; }
+.hue-geography { --hue: var(--cat-geography); --hue-ink: #6fd8e4; }
+.hue-science   { --hue: var(--cat-science);   --hue-ink: #7fd9a9; }
+.hue-default   { --hue: var(--cat-default);   --hue-ink: var(--fg-muted); }
 
 .chip--cat {
   color: var(--hue-ink);
@@ -302,3 +308,33 @@ h2 { font-size: clamp(22px, 3.2vw, 31px); letter-spacing: -.022em; line-height: 
    sentences, and two sentences side by side is unreadable. */
 .options-grid { display: block; }
 .opt__text { flex: 1; min-width: 0; }
+
+/* A <button> sizes to its content even as a flex container, so options
+   came out at whatever width their text needed — 371px of a 660px column,
+   ragged down the page. Block-level width is not inherited by buttons the
+   way it is by divs, and this is the line that would have been easy to
+   miss and hard to spot later. */
+.opt { width: 100%; text-align: left; font-family: inherit; color: inherit; }
+
+/* The quiz screen's own vertical rhythm. The old style.css centred this
+   with rules tied to .question-card, which no longer exists. */
+#screen-quiz.screen { display: block; padding: 0 0 clamp(60px,12vh,120px); }
+#screen-quiz .segs   { margin-top: clamp(26px,5vh,46px); }
+#screen-quiz .question { margin: 0 0 clamp(22px,3.5vh,32px); }
+#screen-quiz .feedback-box { margin-top: clamp(20px,3vh,28px); }
+.streak-badge { font-family: var(--font-display); font-size: 13px; color: var(--gold);
+  display: inline-flex; align-items: center; gap: 6px; }
+
+/* style.css gave .feedback-box a border and padding because the old reveal
+   was a panel inside a card. The new one is not a container at all — the
+   verdict, the rule and the hook each carry their own treatment — so the
+   inherited chrome draws a stray box around the explanation.
+
+   Resetting here rather than editing style.css: that file is deleted at
+   the end of Phase 3 and editing it now is work that gets thrown away. */
+#screen-quiz .feedback-box {
+  border: 0;
+  background: none;
+  padding: 0;
+  margin-top: clamp(20px, 3vh, 28px);
+}

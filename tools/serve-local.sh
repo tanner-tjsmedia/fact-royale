@@ -48,8 +48,8 @@ echo "== assembling =="
 cp _app/* "$OUT"/ && echo "  _app/* -> $(basename "$OUT")/"
 
 # The shared dependencies go-dark.sh deliberately left at root.
-for f in auth.js firebase-config.js icons.js style.css tokens.css app.css \
-         manifest.json favicon.svg; do
+for f in auth.js firebase-config.js categories.js icons.js style.css \
+         tokens.css app.css manifest.json favicon.svg; do
   [ -f "$f" ] && cp "$f" "$OUT"/ && echo "  $f"
 done
 [ -d icons ] && cp -r icons "$OUT"/ && echo "  icons/"
@@ -82,11 +82,39 @@ THIS TERMINAL WILL NOW APPEAR TO HANG. That is the web server running, not
 a stall: a server holds its terminal for as long as it is serving. Leave this
 window open and use a DIFFERENT one for git and gcloud.
 
+EDITS SYNC AUTOMATICALLY. A background loop re-copies changed files into
+the scratch directory once a second, so you do not need to restart this
+after every edit. You DO still need to bump the ?v= on a changed CSS or JS
+file, or the browser will keep its cached copy regardless.
+
 Press Ctrl-C here when you are finished testing.
 
 The scratch copy is at:
   $OUT
 EOF
+
+# ── keep the scratch copy in step with the repo ───────────────────────
+#
+# The copy above is a snapshot. Without this, every edit made while the
+# server is running is invisible until it is restarted, and a browser
+# hard-reload does not help because the server itself is serving stale
+# bytes. That cost several rounds of "why has my change not appeared".
+#
+# cp -u only copies files that are newer, so this is cheap.
+REPO="$PWD"
+sync_loop() {
+  while true; do
+    sleep 1
+    cp -u "$REPO"/_app/* "$OUT"/ 2>/dev/null
+    for f in auth.js firebase-config.js categories.js icons.js style.css \
+             tokens.css app.css manifest.json favicon.svg; do
+      [ -f "$REPO/$f" ] && cp -u "$REPO/$f" "$OUT"/ 2>/dev/null
+    done
+  done
+}
+sync_loop &
+SYNC_PID=$!
+trap 'kill $SYNC_PID 2>/dev/null' EXIT INT TERM
 
 cd "$OUT"
 python3 -m http.server "$PORT" 2>/dev/null || python -m http.server "$PORT"
