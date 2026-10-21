@@ -1,0 +1,185 @@
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Fact Royale — Public home</title>
+<link rel="stylesheet" href="mock.css">
+<div class="tag">1 · Public home</div>
+<style>
+/* page-specific only; everything shared lives in mock.css */
+.hero{position:relative;min-height:clamp(430px,66vh,580px);display:flex;align-items:flex-end;
+  overflow:hidden;background:linear-gradient(180deg,#090916,#111120 55%,#15151f)}
+.hero>svg{position:absolute;inset:0;width:100%;height:100%}
+.veil{position:absolute;inset:0;background:linear-gradient(180deg,rgba(5,5,12,.10),rgba(5,5,12,.45) 52%,rgba(7,7,15,.96))}
+.hin{position:relative;z-index:3;width:100%;padding-bottom:clamp(34px,6vh,58px)}
+.hin h1{font-size:clamp(42px,8.2vw,84px);text-shadow:0 2px 40px rgba(0,0,0,.55)}
+.hin h1 em{font-style:normal;display:block}
+.lede{font-size:clamp(14.5px,1.7vw,17px);color:rgba(242,242,250,.76);margin:20px 0 26px;max-width:30em;line-height:1.6}
+.row{display:flex;gap:11px;align-items:center;flex-wrap:wrap}
+.tick{font-size:12.5px;color:rgba(242,242,250,.44);margin-top:15px}
+.strip{border-top:1px solid var(--gold-line);border-bottom:1px solid rgba(255,255,255,.055);background:var(--gold-wash)}
+.stripin{display:grid;grid-template-columns:repeat(3,1fr)}
+.sc{padding:clamp(18px,3vw,26px) 0;border-right:1px solid rgba(255,255,255,.05)}
+.sc:last-child{border-right:0}.sc:not(:first-child){padding-left:clamp(14px,3vw,30px)}
+.sn{font-family:var(--disp);font-size:clamp(24px,3.4vw,34px);font-weight:700;color:var(--gold);line-height:1}
+.sl{font-size:12.5px;color:var(--fg-subtle);margin-top:7px;line-height:1.4}
+section{padding:clamp(44px,7vw,78px) 0}
+.std{display:grid;grid-template-columns:repeat(5,1fr);gap:clamp(8px,1.4vw,14px)}
+@media(max-width:700px){.std{grid-template-columns:repeat(2,1fr)}}
+.s1{border:1px solid;border-radius:13px;padding:clamp(16px,2.4vw,22px) 12px;text-align:center;
+  background:linear-gradient(180deg,rgba(255,255,255,.04),transparent)}
+.s1 svg{display:block;margin:0 auto 11px}
+.s1 b{font-family:var(--disp);font-size:13px;font-weight:600;display:block;line-height:1.3}
+.s1 i{font-style:normal;display:block;font-size:11px;color:var(--fg-subtle);margin-top:5px}
+.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:clamp(16px,2.6vw,30px)}
+@media(max-width:760px){.steps{grid-template-columns:1fr}}
+.step{border-top:2px solid var(--gold-line);padding-top:18px}
+.stn{font-family:var(--disp);font-size:12px;font-weight:700;color:var(--gold);letter-spacing:.14em;margin-bottom:10px}
+.stt{font-family:var(--disp);font-size:17px;font-weight:600;margin-bottom:8px;line-height:1.25}
+.sts{font-size:13.5px;color:var(--fg-muted);line-height:1.62}
+.close{border-top:1px solid rgba(255,255,255,.06);
+  background:radial-gradient(900px 300px at 50% 120%,rgba(212,175,55,.09),transparent 70%)}
+.closein{text-align:center;padding:clamp(48px,8vw,86px) 0}
+.closein h2{max-width:16em;margin:0 auto 16px}
+.closein p{font-size:14.5px;color:var(--fg-muted);max-width:34em;margin:0 auto 26px;line-height:1.6}
+</style>
+
+<div class="hero">
+  <svg viewBox="0 0 1200 560" preserveAspectRatio="xMidYMax slice" aria-hidden="true">
+    <defs><radialGradient id="mg" cx="50%" cy="50%"><stop offset="0%" stop-color="#1e1e36" stop-opacity=".9"/>
+      <stop offset="100%" stop-color="#1e1e36" stop-opacity="0"/></radialGradient></defs>
+    <g fill="#d6d1ee">
+      <circle cx="90" cy="60" r="1.6" opacity=".5"/><circle cx="240" cy="38" r="2" opacity=".4"/>
+      <circle cx="410" cy="84" r="1.5" opacity=".45"/><circle cx="600" cy="48" r="1.8" opacity=".4"/>
+      <circle cx="760" cy="96" r="1.5" opacity=".35"/><circle cx="930" cy="42" r="2" opacity=".45"/>
+      <circle cx="1090" cy="78" r="1.6" opacity=".4"/><circle cx="520" cy="130" r="1.4" opacity=".28"/>
+      <circle cx="170" cy="150" r="1.4" opacity=".3"/><circle cx="1010" cy="160" r="1.4" opacity=".26"/>
+      <circle cx="330" cy="200" r="1.2" opacity=".22"/><circle cx="860" cy="190" r="1.2" opacity=".24"/></g>
+    <circle cx="960" cy="150" r="130" fill="url(#mg)"/>
+    <circle cx="960" cy="150" r="62" fill="#ece7cd" opacity=".95"/>
+    <circle cx="934" cy="132" r="11" fill="#d3cdae" opacity=".5"/>
+    <circle cx="978" cy="172" r="15" fill="#d3cdae" opacity=".42"/>
+    <circle cx="984" cy="126" r="7" fill="#d3cdae" opacity=".45"/>
+    <path d="M0,360 L150,308 L300,348 L460,292 L620,340 L780,296 L940,344 L1100,300 L1200,338 L1200,560 L0,560 Z" fill="#0b0b17"/>
+    <g fill="#121223">
+      <rect x="40" y="392" width="58" height="108"/><path d="M36,393 L69,364 L102,393 Z"/>
+      <rect x="110" y="408" width="48" height="92"/><path d="M106,409 L134,382 L162,409 Z"/>
+      <rect x="1040" y="398" width="54" height="102"/><path d="M1036,399 L1067,370 L1098,399 Z"/>
+      <rect x="1106" y="412" width="46" height="88"/><path d="M1102,413 L1129,386 L1156,413 Z"/></g>
+    <g fill="#191930">
+      <rect x="300" y="330" width="78" height="170"/><rect x="292" y="316" width="94" height="16"/>
+      <rect x="296" y="296" width="20" height="21"/><rect x="330" y="296" width="20" height="21"/>
+      <rect x="364" y="296" width="20" height="21"/>
+      <rect x="822" y="330" width="78" height="170"/><rect x="814" y="316" width="94" height="16"/>
+      <rect x="818" y="296" width="20" height="21"/><rect x="852" y="296" width="20" height="21"/>
+      <rect x="886" y="296" width="20" height="21"/></g>
+    <g fill="#21213c">
+      <rect x="430" y="250" width="68" height="250"/><rect x="422" y="235" width="84" height="16"/>
+      <rect x="426" y="214" width="20" height="22"/><rect x="458" y="214" width="20" height="22"/>
+      <rect x="490" y="214" width="16" height="22"/>
+      <rect x="702" y="250" width="68" height="250"/><rect x="694" y="235" width="84" height="16"/>
+      <rect x="698" y="214" width="20" height="22"/><rect x="730" y="214" width="20" height="22"/>
+      <rect x="762" y="214" width="16" height="22"/>
+      <rect x="530" y="196" width="140" height="304"/><rect x="520" y="180" width="160" height="17"/>
+      <rect x="526" y="156" width="22" height="25"/><rect x="566" y="156" width="22" height="25"/>
+      <rect x="606" y="156" width="22" height="25"/><rect x="646" y="156" width="22" height="25"/>
+      <path d="M576,156 L624,156 L600,96 Z"/></g>
+    <g fill="#f0a92a">
+      <rect x="586" y="250" width="10" height="30" opacity=".6"/>
+      <rect x="628" y="320" width="10" height="30" opacity=".34"/>
+      <rect x="554" y="382" width="10" height="28" opacity=".44"/>
+      <rect x="458" y="300" width="9" height="26" opacity=".38"/>
+      <rect x="738" y="352" width="9" height="26" opacity=".3"/>
+      <rect x="340" y="400" width="9" height="24" opacity=".34"/>
+      <rect x="858" y="410" width="9" height="24" opacity=".28"/></g>
+    <g fill="#14141f"><rect x="0" y="452" width="1200" height="108"/>
+      <g id="cren"><rect x="12" y="434" width="22" height="19"/><rect x="58" y="434" width="22" height="19"/>
+        <rect x="104" y="434" width="22" height="19"/><rect x="150" y="434" width="22" height="19"/>
+        <rect x="196" y="434" width="22" height="19"/><rect x="242" y="434" width="22" height="19"/>
+        <rect x="288" y="434" width="22" height="19"/><rect x="334" y="434" width="22" height="19"/>
+        <rect x="380" y="434" width="22" height="19"/><rect x="426" y="434" width="22" height="19"/>
+        <rect x="472" y="434" width="22" height="19"/><rect x="518" y="434" width="22" height="19"/>
+        <rect x="564" y="434" width="22" height="19"/><rect x="610" y="434" width="22" height="19"/>
+        <rect x="656" y="434" width="22" height="19"/><rect x="702" y="434" width="22" height="19"/>
+        <rect x="748" y="434" width="22" height="19"/><rect x="794" y="434" width="22" height="19"/>
+        <rect x="840" y="434" width="22" height="19"/><rect x="886" y="434" width="22" height="19"/>
+        <rect x="932" y="434" width="22" height="19"/><rect x="978" y="434" width="22" height="19"/>
+        <rect x="1024" y="434" width="22" height="19"/><rect x="1070" y="434" width="22" height="19"/>
+        <rect x="1116" y="434" width="22" height="19"/><rect x="1162" y="434" width="22" height="19"/></g></g>
+    <g fill="#f0a92a" opacity=".8">
+      <path d="M200,500 C190,486 212,480 200,464 C222,476 218,494 200,500 Z"/>
+      <path d="M1000,500 C990,486 1012,480 1000,464 C1022,476 1018,494 1000,500 Z"/></g>
+  </svg>
+  <div class="veil"></div>
+
+  <nav class="nav over"><div class="wrap"><div class="navin">
+    <span class="brand"><svg width="19" height="19" viewBox="0 0 24 24"><path d="M3 8l4 4 5-7 5 7 4-4v9H3V8z" fill="#d4af37"/><rect x="3" y="18" width="18" height="2.8" rx="1.2" fill="#d4af37"/></svg>Fact Royale</span>
+    <span class="links"><span>How it works</span><span>Leaderboard</span><span class="cta">Sign in</span></span>
+  </div></div></nav>
+
+  <div class="hin"><div class="wrap">
+    <p class="eyebrow">A new quiz every day</p>
+    <h1>Know more.<em class="gold">Every day.</em></h1>
+    <p class="lede">Twelve questions a day. Every answer comes with the reason it is the
+      answer &mdash; which is the part you keep.</p>
+    <div class="row"><a class="btn" href="#">Play today &rarr;</a>
+      <a class="btn g" href="#">How it works</a></div>
+    <p class="tick">No account needed &middot; about five minutes</p>
+  </div></div>
+</div>
+
+<div class="strip"><div class="wrap"><div class="stripin">
+  <div class="sc"><div class="sn">12</div><div class="sl">questions<br>every day</div></div>
+  <div class="sc"><div class="sn">5 min</div><div class="sl">start to<br>finish</div></div>
+  <div class="sc"><div class="sn">1</div><div class="sl">attempt per<br>question</div></div>
+</div></div></div>
+
+<section><div class="wrap">
+  <p class="kick">Five standards</p>
+  <div class="std">
+    <div class="s1" style="border-color:rgba(232,160,32,.3)">
+      <svg width="30" height="33" viewBox="0 0 20 22"><path d="M10 1l8 3v8c0 5-4 8-8 9-4-1-8-4-8-9V4l8-3z" fill="rgba(232,160,32,.17)" stroke="#e8a020" stroke-width="1.2"/></svg>
+      <b style="color:#f0c070">History</b><i>Empires to elections</i></div>
+    <div class="s1" style="border-color:rgba(77,157,224,.3)">
+      <svg width="30" height="33" viewBox="0 0 20 22"><path d="M10 1l8 3v8c0 5-4 8-8 9-4-1-8-4-8-9V4l8-3z" fill="rgba(77,157,224,.17)" stroke="#4d9de0" stroke-width="1.2"/></svg>
+      <b style="color:#86c2ef">Sports</b><i>Records and the people who broke them</i></div>
+    <div class="s1" style="border-color:rgba(155,114,207,.3)">
+      <svg width="30" height="33" viewBox="0 0 20 22"><path d="M10 1l8 3v8c0 5-4 8-8 9-4-1-8-4-8-9V4l8-3z" fill="rgba(155,114,207,.17)" stroke="#9b72cf" stroke-width="1.2"/></svg>
+      <b style="color:#c6a6ea">Music &amp; Film</b><i>What made it matter</i></div>
+    <div class="s1" style="border-color:rgba(31,181,200,.3)">
+      <svg width="30" height="33" viewBox="0 0 20 22"><path d="M10 1l8 3v8c0 5-4 8-8 9-4-1-8-4-8-9V4l8-3z" fill="rgba(31,181,200,.17)" stroke="#1fb5c8" stroke-width="1.2"/></svg>
+      <b style="color:#6fd8e4">Geography</b><i>Borders, rivers, cities</i></div>
+    <div class="s1" style="border-color:rgba(61,190,122,.3)">
+      <svg width="30" height="33" viewBox="0 0 20 22"><path d="M10 1l8 3v8c0 5-4 8-8 9-4-1-8-4-8-9V4l8-3z" fill="rgba(61,190,122,.17)" stroke="#3dbe7a" stroke-width="1.2"/></svg>
+      <b style="color:#7fd9a9">Science &amp; Nature</b><i>How the world works</i></div>
+  </div>
+</div></section>
+
+<section style="padding-top:0"><div class="wrap">
+  <p class="kick">How it works</p>
+  <div class="steps">
+    <div class="step"><div class="stn">01</div>
+      <div class="stt">One quiz, released at midnight</div>
+      <div class="sts">Everybody gets the same twelve questions at the same moment, wherever they
+        are in the world. No practice runs and no second attempts &mdash; which is what makes the
+        leaderboard mean something.</div></div>
+    <div class="step"><div class="stn">02</div>
+      <div class="stt">Answer, then learn why</div>
+      <div class="sts">Each answer is followed by the reasoning and a hook built to make the fact
+        stick past the end of the quiz. Every question is checked against a source that establishes
+        the answer, not just the topic.</div></div>
+    <div class="step"><div class="stn">03</div>
+      <div class="stt">Come back tomorrow</div>
+      <div class="sts">Keep a streak, build a record by category, and see where you landed against
+        everyone else who played that day. Miss one and you can still go back for it.</div></div>
+  </div>
+</div></section>
+
+<div class="close"><div class="wrap"><div class="closein">
+  <h2>Today's twelve are waiting.</h2>
+  <p>Play without an account. Sign up only if you want the streak, the leaderboard and your
+    record by category kept.</p>
+  <a class="btn" href="#">Play today &rarr;</a>
+</div></div></div>
+
+<footer><div class="wrap"><div class="fin">
+  <span>&#9819; Fact Royale</span>
+  <span>Leaderboard &middot; Privacy &middot; Contact</span>
+</div></div></footer>

@@ -1,0 +1,102 @@
+/* ============================================================
+   FACT ROYALE — MOCKUP STYLESHEET
+   Shared by every file in _mockups/. These are DESIGN DRAFTS, not
+   production CSS: the real token set gets extracted from whichever
+   direction is approved and goes into tokens.css.
+
+   _mockups/ is underscore-prefixed so Jekyll never publishes it,
+   the same reason _app/ is named that way.
+
+   Fonts: Space Grotesk / DM Sans are loaded from Google Fonts below.
+   Opened from disk in a browser they will load; in an offline preview
+   the fallback stacks approximate them.
+   ============================================================ */
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=DM+Sans:opsz,wght@9..40,400;9..40,500&display=swap');
+
+*{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --bg:#07070f; --surface:#0d0d1a; --surface-2:#12121f; --surface-3:#1a1a2b;
+  --fg:#f2f2fa; --fg-muted:rgba(242,242,250,.56); --fg-subtle:rgba(242,242,250,.34);
+  --fg-faint:rgba(242,242,250,.12);
+  --gold:#d4af37; --gold-br:#f0c040; --gold-line:rgba(212,175,55,.22);
+  --gold-wash:rgba(212,175,55,.07);
+  --royal:#5b2a86; --ok:#34d399; --bad:#f87171;
+  --history:#e8a020; --sports:#4d9de0; --music:#9b72cf; --geo:#1fb5c8; --sci:#3dbe7a;
+  --disp:"Space Grotesk",ui-sans-serif,system-ui,sans-serif;
+  --body:"DM Sans",ui-sans-serif,system-ui,sans-serif;
+  --wrap:1080px; --narrow:720px;
+}
+html,body{background:var(--bg)}
+body{color:var(--fg);font-family:var(--body);-webkit-font-smoothing:antialiased;line-height:1.5}
+a{color:inherit;text-decoration:none}
+.wrap{max-width:var(--wrap);margin:0 auto;padding:0 clamp(18px,4vw,36px)}
+.narrow{max-width:var(--narrow);margin:0 auto;padding:0 clamp(18px,4vw,30px)}
+.gold{background:linear-gradient(94deg,var(--gold-br),var(--gold) 48%,#ab8829);
+  -webkit-background-clip:text;background-clip:text;color:transparent}
+
+/* ── which mockup am I looking at ── */
+.tag{position:fixed;top:0;right:0;z-index:99;background:#1a1a2b;color:var(--gold);
+  font-family:var(--disp);font-size:10px;letter-spacing:.14em;text-transform:uppercase;
+  padding:6px 12px;border-bottom-left-radius:8px;border:1px solid rgba(212,175,55,.2);
+  border-top:0;border-right:0}
+
+/* ── chrome ── */
+.nav{border-bottom:1px solid rgba(255,255,255,.055)}
+.nav.over{position:absolute;top:0;left:0;right:0;z-index:4;border-bottom:0}
+.navin{display:flex;align-items:center;justify-content:space-between;height:68px}
+.brand{font-family:var(--disp);font-weight:700;font-size:clamp(15px,1.6vw,17px);
+  display:flex;align-items:center;gap:8px;letter-spacing:-.01em}
+.links{display:flex;align-items:center;gap:clamp(14px,2.4vw,28px);font-size:13.5px;
+  color:rgba(242,242,250,.68)}
+.links .cta{color:var(--gold);font-weight:600}
+@media(max-width:620px){.links span:not(.cta){display:none}}
+footer{border-top:1px solid rgba(255,255,255,.055);margin-top:auto}
+.fin{display:flex;justify-content:space-between;align-items:center;padding:24px 0;
+  font-size:12.5px;color:var(--fg-subtle);flex-wrap:wrap;gap:10px}
+
+/* ── type ── */
+h1{font-family:var(--disp);font-weight:700;letter-spacing:-.035em;line-height:.96}
+h2{font-family:var(--disp);font-size:clamp(22px,3.2vw,31px);font-weight:700;
+  letter-spacing:-.022em;line-height:1.16}
+.kick{font-family:var(--disp);font-size:11px;letter-spacing:.22em;text-transform:uppercase;
+  color:var(--fg-subtle);margin-bottom:clamp(18px,2.6vw,26px)}
+.eyebrow{font-family:var(--disp);font-size:11px;letter-spacing:.24em;text-transform:uppercase;
+  color:var(--gold)}
+
+/* ── buttons ── */
+.btn{display:inline-block;font-family:var(--disp);font-weight:700;font-size:14.5px;
+  padding:14px 26px;border-radius:11px;background:linear-gradient(180deg,var(--gold-br),#c2991f);
+  color:#0a0a12;box-shadow:0 8px 28px rgba(212,175,55,.18);border:0;cursor:pointer}
+.btn.g{background:rgba(255,255,255,.05);color:rgba(242,242,250,.86);font-weight:500;
+  border:1px solid rgba(255,255,255,.15);box-shadow:none}
+.btn.sm{font-size:12.5px;padding:10px 18px;border-radius:9px}
+
+/* ── the shield: one component, four jobs ── */
+.shield{display:inline-block;vertical-align:middle}
+.chip{display:inline-flex;align-items:center;gap:7px;font-family:var(--disp);font-size:11px;
+  letter-spacing:.15em;text-transform:uppercase;padding:6px 13px 6px 9px;border-radius:999px;
+  border:1px solid;font-weight:600}
+
+/* ── quiz ── */
+.segs{display:flex;gap:4px}
+.sg{height:4px;flex:1;border-radius:2px;background:rgba(255,255,255,.09)}
+.sg.y{background:var(--ok)} .sg.n{background:var(--bad)} .sg.now{background:var(--gold)}
+.q{font-family:var(--disp);font-size:clamp(20px,2.9vw,29px);font-weight:600;line-height:1.3;
+  letter-spacing:-.015em}
+.opt{display:flex;align-items:center;gap:14px;padding:17px 20px;border-radius:12px;
+  background:var(--surface-2);border:1px solid rgba(255,255,255,.055);
+  font-size:15.5px;margin-bottom:9px;transition:.14s}
+.opt:hover{border-color:var(--gold-line);background:var(--surface-3)}
+.opt .k{font-family:var(--disp);font-size:12px;color:var(--fg-subtle);width:14px;flex:none}
+.opt.right{background:rgba(52,211,153,.08);border-color:rgba(52,211,153,.42);color:#d7fff1}
+.opt.wrong{background:rgba(248,113,113,.07);border-color:rgba(248,113,113,.38);color:#ffdcdc}
+.opt.dim{opacity:.36}
+.opt .mk{margin-left:auto;font-weight:700;font-size:15px}
+
+/* ── cards ── */
+.card{background:var(--surface);border:1px solid rgba(255,255,255,.06);border-radius:14px;
+  padding:clamp(14px,2vw,20px)}
+.ct{font-family:var(--disp);font-size:10px;letter-spacing:.17em;text-transform:uppercase;
+  color:var(--fg-subtle);margin-bottom:12px;display:flex;justify-content:space-between;
+  align-items:center}
+.ct b{color:var(--gold);font-weight:600}

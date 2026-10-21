@@ -1,0 +1,70 @@
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Fact Royale — The reveal</title>
+<link rel="stylesheet" href="mock.css">
+<div class="tag">3 · The reveal</div>
+<style>
+/* The verdict is one line. The weight goes to the reason and the hook,
+   because that is the thing actually being sold. Category colour returns
+   as the rule beside the explanation rather than as a wash. */
+body{min-height:100vh;display:flex;flex-direction:column}
+.bar{border-bottom:1px solid rgba(255,255,255,.055)}
+.barin{display:flex;align-items:center;justify-content:space-between;height:60px}
+.streak{font-family:var(--disp);font-size:13px;color:var(--gold)}
+main{flex:1;padding:clamp(24px,5vh,46px) 0 clamp(40px,8vh,80px)}
+.segwrap{margin-bottom:26px}
+.q{margin:0 0 24px;font-size:clamp(18px,2.4vw,24px)}
+.verdict{display:flex;align-items:baseline;gap:11px;margin:26px 0 14px;flex-wrap:wrap}
+.vbig{font-family:var(--disp);font-size:clamp(19px,2.6vw,25px);font-weight:700;letter-spacing:-.02em}
+.vsub{font-size:14px;color:var(--fg-muted)}
+.why{border-left:2px solid var(--music);padding-left:18px;font-size:15px;line-height:1.72;
+  color:rgba(242,242,250,.86);max-width:44em}
+.hook{margin-top:20px;background:var(--gold-wash);border:1px solid var(--gold-line);
+  border-radius:13px;padding:16px 18px;font-size:14px;line-height:1.65;color:#f2e4bd;max-width:44em}
+.hook b{font-family:var(--disp);display:block;font-size:10px;letter-spacing:.18em;
+  text-transform:uppercase;color:var(--gold);margin-bottom:7px;font-weight:600}
+.src{margin-top:14px;font-size:12.5px;color:var(--fg-subtle)}
+.src a{color:var(--fg-muted);border-bottom:1px solid rgba(242,242,250,.2)}
+.next{margin-top:30px;display:flex;align-items:center;gap:14px;flex-wrap:wrap}
+.nhint{font-size:12.5px;color:var(--fg-subtle)}
+</style>
+
+<div class="bar"><div class="narrow"><div class="barin">
+  <span class="brand"><svg width="19" height="19" viewBox="0 0 24 24"><path d="M3 8l4 4 5-7 5 7 4-4v9H3V8z" fill="#d4af37"/><rect x="3" y="18" width="18" height="2.8" rx="1.2" fill="#d4af37"/></svg>Fact Royale</span>
+  <span class="streak">&#9733; 17</span>
+</div></div></div>
+
+<main><div class="narrow">
+  <div class="segwrap"><div class="segs">
+    <i class="sg y"></i><i class="sg y"></i><i class="sg n"></i><i class="sg y"></i>
+    <i class="sg n"></i><i class="sg"></i><i class="sg"></i><i class="sg"></i>
+    <i class="sg"></i><i class="sg"></i><i class="sg"></i><i class="sg"></i>
+  </div></div>
+
+  <div class="q">Kendrick Lamar's <i>good kid, m.A.A.d city</i> carries the subtitle
+    &ldquo;A Short Film&rdquo;. Why?</div>
+
+  <div class="opt dim"><span class="k">A</span>The album was written as a screenplay first</div>
+  <div class="opt wrong"><span class="k">B</span>Each song was released with its own music video<span class="mk">&times;</span></div>
+  <div class="opt right"><span class="k">C</span>The tracks tell one night in Compton out of order<span class="mk">&check;</span></div>
+  <div class="opt dim"><span class="k">D</span>It was recorded live in one continuous session</div>
+
+  <div class="verdict">
+    <span class="vbig" style="color:var(--bad)">Not quite.</span>
+    <span class="vsub">The answer was C.</span>
+  </div>
+
+  <div class="why">The cover carries the subtitle &ldquo;A Short Film by Kendrick Lamar&rdquo;.
+    It follows a teenage Kendrick through a single day and night in Compton, told deliberately out
+    of order, with voicemails from his parents marking the timeline rather than the tracklist
+    doing it.</div>
+
+  <div class="hook"><b>Remember it</b>One day, out of order, voicemails for timestamps &mdash;
+    documentary specific, not generic. That specificity is the thing critics kept pointing at,
+    and it is why <i>DAMN.</i> later took a Pulitzer.</div>
+
+  <div class="src">Checked against a source that establishes the answer &middot;
+    <a href="#">see it</a></div>
+
+  <div class="next"><a class="btn" href="#">Next question &rarr;</a>
+    <span class="nhint">7 to go</span></div>
+</div></main>

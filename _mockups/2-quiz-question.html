@@ -1,0 +1,66 @@
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Fact Royale — The question</title>
+<link rel="stylesheet" href="mock.css">
+<div class="tag">2 · The question</div>
+<style>
+/* The screen where the time actually goes, so it carries the least
+   decoration: one faint wall at the foot keeps the world present without
+   competing with the thing being read. */
+body{min-height:100vh;display:flex;flex-direction:column}
+.bar{border-bottom:1px solid rgba(255,255,255,.055)}
+.barin{display:flex;align-items:center;justify-content:space-between;height:60px}
+.streak{font-family:var(--disp);font-size:13px;color:var(--gold);display:flex;align-items:center;gap:6px}
+.quit{font-size:13px;color:var(--fg-subtle)}
+main{flex:1;display:flex;align-items:center;padding:clamp(28px,6vh,64px) 0 clamp(80px,14vh,140px)}
+.inner{width:100%}
+.meta{display:flex;align-items:center;justify-content:space-between;gap:16px;margin-bottom:26px}
+.count{font-family:var(--disp);font-size:12px;letter-spacing:.14em;color:var(--fg-subtle)}
+.segwrap{margin-bottom:30px}
+.q{margin:22px 0 30px}
+.foot{position:fixed;left:0;right:0;bottom:0;pointer-events:none;opacity:.55}
+.foot svg{display:block;width:100%;height:clamp(54px,9vh,92px)}
+</style>
+
+<div class="bar"><div class="narrow"><div class="barin">
+  <span class="brand"><svg width="19" height="19" viewBox="0 0 24 24"><path d="M3 8l4 4 5-7 5 7 4-4v9H3V8z" fill="#d4af37"/><rect x="3" y="18" width="18" height="2.8" rx="1.2" fill="#d4af37"/></svg>Fact Royale</span>
+  <span style="display:flex;align-items:center;gap:20px">
+    <span class="streak">&#9733; 17</span><span class="quit">Quit</span></span>
+</div></div></div>
+
+<main><div class="narrow inner">
+  <div class="segwrap"><div class="segs">
+    <i class="sg y"></i><i class="sg y"></i><i class="sg n"></i><i class="sg y"></i>
+    <i class="sg now"></i><i class="sg"></i><i class="sg"></i><i class="sg"></i>
+    <i class="sg"></i><i class="sg"></i><i class="sg"></i><i class="sg"></i>
+  </div></div>
+
+  <div class="meta">
+    <span class="chip" style="color:#c6a6ea;border-color:rgba(155,114,207,.4);background:rgba(155,114,207,.08)">
+      <svg class="shield" width="14" height="16" viewBox="0 0 20 22"><path d="M10 1l8 3v8c0 5-4 8-8 9-4-1-8-4-8-9V4l8-3z" fill="rgba(155,114,207,.28)" stroke="#9b72cf" stroke-width="1.5"/></svg>
+      Music &amp; Film</span>
+    <span class="count">05 / 12</span>
+  </div>
+
+  <div class="q">Kendrick Lamar's <i>good kid, m.A.A.d city</i> carries the subtitle
+    &ldquo;A Short Film&rdquo;. Why?</div>
+
+  <div class="opt"><span class="k">A</span>The album was written as a screenplay first</div>
+  <div class="opt"><span class="k">B</span>Each song was released with its own music video</div>
+  <div class="opt"><span class="k">C</span>The tracks tell one night in Compton out of order</div>
+  <div class="opt"><span class="k">D</span>It was recorded live in one continuous session</div>
+</div></main>
+
+<div class="foot"><svg viewBox="0 0 1200 90" preserveAspectRatio="none" aria-hidden="true">
+  <g fill="#12121f"><rect x="0" y="34" width="1200" height="56"/>
+    <g><rect x="14" y="12" width="26" height="23"/><rect x="68" y="12" width="26" height="23"/>
+      <rect x="122" y="12" width="26" height="23"/><rect x="176" y="12" width="26" height="23"/>
+      <rect x="230" y="12" width="26" height="23"/><rect x="284" y="12" width="26" height="23"/>
+      <rect x="338" y="12" width="26" height="23"/><rect x="392" y="12" width="26" height="23"/>
+      <rect x="446" y="12" width="26" height="23"/><rect x="500" y="12" width="26" height="23"/>
+      <rect x="554" y="12" width="26" height="23"/><rect x="608" y="12" width="26" height="23"/>
+      <rect x="662" y="12" width="26" height="23"/><rect x="716" y="12" width="26" height="23"/>
+      <rect x="770" y="12" width="26" height="23"/><rect x="824" y="12" width="26" height="23"/>
+      <rect x="878" y="12" width="26" height="23"/><rect x="932" y="12" width="26" height="23"/>
+      <rect x="986" y="12" width="26" height="23"/><rect x="1040" y="12" width="26" height="23"/>
+      <rect x="1094" y="12" width="26" height="23"/><rect x="1148" y="12" width="26" height="23"/></g></g>
+</svg></div>

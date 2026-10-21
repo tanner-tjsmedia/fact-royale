@@ -1,0 +1,121 @@
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Fact Royale — Member home</title>
+<link rel="stylesheet" href="mock.css">
+<div class="tag">5 · Member home</div>
+<style>
+/* What a returning player sees instead of the marketing page. Four modules,
+   not nine. The day's job is unambiguous at the top; the grid is the streak
+   made visible; new modes arrive as cards rather than new sections. */
+body{min-height:100vh;display:flex;flex-direction:column}
+main{flex:1;padding:clamp(28px,5vh,52px) 0 clamp(40px,7vh,72px)}
+.top{display:flex;justify-content:space-between;align-items:flex-start;gap:clamp(18px,4vw,50px);
+  flex-wrap:wrap}
+.date{font-family:var(--disp);font-size:11px;letter-spacing:.2em;text-transform:uppercase;
+  color:var(--fg-subtle)}
+.top h1{font-size:clamp(28px,4.6vw,46px);margin:10px 0 20px;letter-spacing:-.03em}
+.flame{text-align:right;flex:none}
+.flame .n{font-family:var(--disp);font-size:clamp(46px,7vw,72px);font-weight:700;line-height:.86;
+  letter-spacing:-.04em}
+.flame .t{font-family:var(--disp);font-size:10px;letter-spacing:.2em;text-transform:uppercase;
+  color:var(--fg-subtle);margin-top:8px}
+.gridwrap{margin-top:clamp(26px,4vw,38px)}
+.grid30{display:flex;gap:4px;flex-wrap:wrap}
+.d{width:clamp(14px,2.1vw,22px);height:clamp(14px,2.1vw,22px);border-radius:4px;background:var(--fg-faint)}
+.d.p{background:var(--ok);opacity:.82}
+.d.m{background:rgba(248,113,113,.26)}
+.d.t{background:var(--gold);box-shadow:0 0 0 3px rgba(212,175,55,.22)}
+.gl{display:flex;justify-content:space-between;font-family:var(--disp);font-size:10px;
+  letter-spacing:.14em;color:var(--fg-subtle);margin-top:10px;text-transform:uppercase}
+.board{display:grid;grid-template-columns:1fr 1fr;gap:clamp(10px,1.6vw,16px);
+  margin-top:clamp(28px,4vw,42px)}
+@media(max-width:700px){.board{grid-template-columns:1fr}}
+.wide{grid-column:1/-1}
+.crow{display:flex;align-items:center;gap:11px;margin-bottom:10px;font-size:13.5px}
+.crow:last-child{margin-bottom:0}
+.cnm{width:94px;flex:none;color:var(--fg-muted)}
+.cbar{flex:1;height:6px;border-radius:3px;background:rgba(255,255,255,.07);overflow:hidden}
+.cbar i{display:block;height:100%;border-radius:3px}
+.cpc{width:32px;text-align:right;font-family:var(--disp);font-size:12px;color:var(--fg-subtle)}
+.pill{display:inline-block;background:var(--surface-3);border-radius:8px;padding:8px 12px;
+  font-size:12.5px;font-family:var(--disp);color:var(--fg-muted);margin:0 6px 6px 0}
+.pill:hover{color:var(--gold);border-color:var(--gold-line)}
+.note{font-size:12.5px;color:var(--fg-subtle);line-height:1.5;margin-top:10px}
+.soon{border:1px dashed rgba(212,175,55,.26);background:transparent;border-radius:14px;
+  padding:clamp(14px,2vw,20px)}
+.soonrow{display:flex;gap:clamp(14px,3vw,34px);flex-wrap:wrap}
+.soonrow>div{flex:1;min-width:200px}
+.st{font-family:var(--disp);font-size:14.5px;font-weight:600;margin-bottom:5px}
+.ss{font-size:12.5px;color:var(--fg-muted);line-height:1.55}
+</style>
+
+<div class="nav"><div class="wrap"><div class="navin">
+  <span class="brand"><svg width="19" height="19" viewBox="0 0 24 24"><path d="M3 8l4 4 5-7 5 7 4-4v9H3V8z" fill="#d4af37"/><rect x="3" y="18" width="18" height="2.8" rx="1.2" fill="#d4af37"/></svg>Fact Royale</span>
+  <span class="links"><span>Royal Record</span><span>Leaderboard</span><span>Groups</span><span class="cta">Tanner</span></span>
+</div></div></div>
+
+<main><div class="wrap">
+  <div class="top">
+    <div>
+      <div class="date">Monday, 19 October</div>
+      <h1>Today's twelve<br>are ready.</h1>
+      <a class="btn" href="#">Play today &rarr;</a>
+      <a class="btn g" href="#" style="margin-left:8px">Yesterday's results</a>
+    </div>
+    <div class="flame">
+      <div class="n gold">17</div>
+      <div class="t">day streak</div>
+    </div>
+  </div>
+
+  <div class="gridwrap">
+    <div class="grid30">
+      <i class="d p"></i><i class="d p"></i><i class="d m"></i><i class="d p"></i><i class="d p"></i>
+      <i class="d p"></i><i class="d p"></i><i class="d p"></i><i class="d m"></i><i class="d p"></i>
+      <i class="d p"></i><i class="d p"></i><i class="d p"></i><i class="d p"></i><i class="d p"></i>
+      <i class="d p"></i><i class="d p"></i><i class="d p"></i><i class="d p"></i><i class="d p"></i>
+      <i class="d p"></i><i class="d p"></i><i class="d p"></i><i class="d p"></i><i class="d p"></i>
+      <i class="d p"></i><i class="d p"></i><i class="d p"></i><i class="d p"></i><i class="d t"></i>
+    </div>
+    <div class="gl"><span>30 days ago</span><span>Today</span></div>
+  </div>
+
+  <div class="board">
+    <div class="card">
+      <div class="ct">Record by category</div>
+      <div class="crow"><span class="cnm">History</span>
+        <span class="cbar"><i style="width:84%;background:var(--history)"></i></span><span class="cpc">84</span></div>
+      <div class="crow"><span class="cnm">Science</span>
+        <span class="cbar"><i style="width:71%;background:var(--sci)"></i></span><span class="cpc">71</span></div>
+      <div class="crow"><span class="cnm">Geography</span>
+        <span class="cbar"><i style="width:66%;background:var(--geo)"></i></span><span class="cpc">66</span></div>
+      <div class="crow"><span class="cnm">Music &amp; Film</span>
+        <span class="cbar"><i style="width:58%;background:var(--music)"></i></span><span class="cpc">58</span></div>
+      <div class="crow"><span class="cnm">Sports</span>
+        <span class="cbar"><i style="width:41%;background:var(--sports)"></i></span><span class="cpc">41</span></div>
+    </div>
+
+    <div class="card">
+      <div class="ct">Catch up <b>3 missed</b></div>
+      <a class="pill" href="#">Sat 11 Oct</a><a class="pill" href="#">Tue 07 Oct</a>
+      <a class="pill" href="#">Mon 29 Sep</a>
+      <div class="note">Archive plays count toward your record but not your streak &mdash; the
+        streak only moves on the day itself.</div>
+    </div>
+
+    <div class="soon wide">
+      <div class="ct" style="margin-bottom:14px">Coming <b>two new ways to play</b></div>
+      <div class="soonrow">
+        <div><div class="st">Board mode</div>
+          <div class="ss">Pick your category and your value off a grid. Same question bank,
+            scored differently, play as long as you like.</div></div>
+        <div><div class="st">Live events</div>
+          <div class="ss">Everyone answers the same board at the same moment, on a screen in the
+            room or from home. The host console already exists.</div></div>
+      </div>
+    </div>
+  </div>
+</div></main>
+
+<footer><div class="wrap"><div class="fin">
+  <span>&#9819; Fact Royale</span><span>Royal Record &middot; Leaderboard &middot; Settings</span>
+</div></div></footer>
