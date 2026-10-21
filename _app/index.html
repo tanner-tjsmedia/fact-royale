@@ -43,7 +43,7 @@
        rules win wherever the two still overlap. -->
   <link rel="stylesheet" href="style.css?v=21" />
   <link rel="stylesheet" href="tokens.css?v=2" />
-  <link rel="stylesheet" href="app.css?v=4" />
+  <link rel="stylesheet" href="app.css?v=6" />
   <style>
     /* ── Mastery teaser layout (inline to survive CSS caching) ── */
     #mastery-teaser {
@@ -100,6 +100,272 @@
 
   <!-- LANDING / HOME SCREEN -->
   <div id="screen-landing" class="screen active">
+
+    <!-- ══════════════════════════════════════════════════════════════
+         TWO HOMES, ONE ROUTE.
+
+         A first-time visitor and a returning player want different
+         things from this URL: one needs to know what this is, the other
+         needs today's quiz and their streak. The old page tried to be
+         both and ended up as nine stacked sections that showed and hid.
+
+         homeFor() in quiz.js picks one. Both carry the same scene, nav
+         and type scale — signing in should not feel like a different
+         product.
+         ═══════════════════════════════════════════════════════════ -->
+
+    <!-- ───────────── PUBLIC ───────────── -->
+    <div id="home-public">
+      <div class="scene home-hero">
+      <svg viewBox="0 0 1200 560" preserveAspectRatio="xMidYMax slice" aria-hidden="true">
+        <g fill="#d6d1ee">
+          <circle cx="90" cy="60" r="1.6" opacity=".5"/><circle cx="240" cy="38" r="2" opacity=".4"/>
+          <circle cx="410" cy="84" r="1.5" opacity=".45"/><circle cx="600" cy="48" r="1.8" opacity=".4"/>
+          <circle cx="760" cy="96" r="1.5" opacity=".35"/><circle cx="930" cy="42" r="2" opacity=".45"/>
+          <circle cx="1090" cy="78" r="1.6" opacity=".4"/><circle cx="520" cy="130" r="1.4" opacity=".28"/>
+          <circle cx="170" cy="150" r="1.4" opacity=".3"/><circle cx="1010" cy="160" r="1.4" opacity=".26"/></g>
+        <circle cx="985" cy="214" r="56" fill="#ece7cd" opacity=".95"/>
+        <circle cx="962" cy="198" r="10" fill="#d3cdae" opacity=".5"/>
+        <circle cx="1002" cy="233" r="13" fill="#d3cdae" opacity=".42"/>
+        <path d="M0,360 L150,308 L300,348 L460,292 L620,340 L780,296 L940,344 L1100,300 L1200,338 L1200,560 L0,560 Z" fill="#0b0b17"/>
+        <g fill="#121223">
+          <rect x="40" y="392" width="58" height="108"/><path d="M36,393 L69,364 L102,393 Z"/>
+          <rect x="110" y="408" width="48" height="92"/><path d="M106,409 L134,382 L162,409 Z"/>
+          <rect x="1040" y="398" width="54" height="102"/><path d="M1036,399 L1067,370 L1098,399 Z"/>
+          <rect x="1106" y="412" width="46" height="88"/><path d="M1102,413 L1129,386 L1156,413 Z"/></g>
+        <g fill="#191930">
+          <rect x="300" y="330" width="78" height="170"/><rect x="292" y="316" width="94" height="16"/>
+          <rect x="296" y="296" width="20" height="21"/><rect x="330" y="296" width="20" height="21"/>
+          <rect x="364" y="296" width="20" height="21"/>
+          <rect x="822" y="330" width="78" height="170"/><rect x="814" y="316" width="94" height="16"/>
+          <rect x="818" y="296" width="20" height="21"/><rect x="852" y="296" width="20" height="21"/>
+          <rect x="886" y="296" width="20" height="21"/></g>
+        <g fill="#21213c">
+          <rect x="430" y="250" width="68" height="250"/><rect x="422" y="235" width="84" height="16"/>
+          <rect x="426" y="214" width="20" height="22"/><rect x="458" y="214" width="20" height="22"/>
+          <rect x="702" y="250" width="68" height="250"/><rect x="694" y="235" width="84" height="16"/>
+          <rect x="698" y="214" width="20" height="22"/><rect x="730" y="214" width="20" height="22"/>
+          <rect x="530" y="196" width="140" height="304"/><rect x="520" y="180" width="160" height="17"/>
+          <rect x="526" y="156" width="22" height="25"/><rect x="566" y="156" width="22" height="25"/>
+          <rect x="606" y="156" width="22" height="25"/><rect x="646" y="156" width="22" height="25"/>
+          <path d="M576,156 L624,156 L600,96 Z"/></g>
+        <g fill="#f0a92a">
+          <rect x="586" y="250" width="10" height="30" opacity=".6"/>
+          <rect x="628" y="320" width="10" height="30" opacity=".34"/>
+          <rect x="554" y="382" width="10" height="28" opacity=".44"/>
+          <rect x="458" y="300" width="9" height="26" opacity=".38"/>
+          <rect x="738" y="352" width="9" height="26" opacity=".3"/></g>
+        <g fill="#14141f"><rect x="0" y="452" width="1200" height="108"/>
+          <g><rect x="12" y="434" width="22" height="19"/><rect x="58" y="434" width="22" height="19"/>
+            <rect x="104" y="434" width="22" height="19"/><rect x="150" y="434" width="22" height="19"/>
+            <rect x="196" y="434" width="22" height="19"/><rect x="242" y="434" width="22" height="19"/>
+            <rect x="288" y="434" width="22" height="19"/><rect x="334" y="434" width="22" height="19"/>
+            <rect x="380" y="434" width="22" height="19"/><rect x="426" y="434" width="22" height="19"/>
+            <rect x="472" y="434" width="22" height="19"/><rect x="518" y="434" width="22" height="19"/>
+            <rect x="564" y="434" width="22" height="19"/><rect x="610" y="434" width="22" height="19"/>
+            <rect x="656" y="434" width="22" height="19"/><rect x="702" y="434" width="22" height="19"/>
+            <rect x="748" y="434" width="22" height="19"/><rect x="794" y="434" width="22" height="19"/>
+            <rect x="840" y="434" width="22" height="19"/><rect x="886" y="434" width="22" height="19"/>
+            <rect x="932" y="434" width="22" height="19"/><rect x="978" y="434" width="22" height="19"/>
+            <rect x="1024" y="434" width="22" height="19"/><rect x="1070" y="434" width="22" height="19"/>
+            <rect x="1116" y="434" width="22" height="19"/><rect x="1162" y="434" width="22" height="19"/></g></g>
+        <g fill="#f0a92a" opacity=".8">
+          <path d="M200,500 C190,486 212,480 200,464 C222,476 218,494 200,500 Z"/>
+          <path d="M1000,500 C990,486 1012,480 1000,464 C1022,476 1018,494 1000,500 Z"/></g>
+      </svg>
+        <div class="scene__veil"></div>
+        <nav class="nav nav--over"><div class="wrap"><div class="nav__in">
+          <span class="brand"><svg width="19" height="19" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 8l4 4 5-7 5 7 4-4v9H3V8z" fill="var(--gold)"/><rect x="3" y="18" width="18" height="2.8" rx="1.2" fill="var(--gold)"/></svg> Fact Royale</span>
+          <span class="navlinks">
+            <span>How it works</span><span>Leaderboard</span>
+            <a class="is-cta" href="#" id="hp-signin">Sign in</a></span>
+        </div></div></nav>
+        <div class="scene__in home-hero__in"><div class="wrap">
+          <p class="eyebrow">A new quiz every day</p>
+          <h1 class="home-hero__h1">Know more.<em class="gold">Every day.</em></h1>
+          <p class="home-hero__lede">Twelve questions a day. Every answer comes with the reason
+            it is the answer &mdash; which is the part you keep.</p>
+          <div class="home-hero__row">
+            <button class="btn" id="hp-play">Play today &rarr;</button>
+            <a class="btn btn--ghost" href="#how">How it works</a>
+          </div>
+          <p class="home-hero__tick">No account needed &middot; about five minutes</p>
+        </div></div>
+      </div>
+
+      <div class="strip"><div class="wrap"><div class="strip__in">
+        <div class="strip__c"><div class="strip__n">12</div><div class="strip__l">questions<br>every day</div></div>
+        <div class="strip__c"><div class="strip__n">5 min</div><div class="strip__l">start to<br>finish</div></div>
+        <div class="strip__c"><div class="strip__n">1</div><div class="strip__l">attempt per<br>question</div></div>
+      </div></div></div>
+
+      <section class="home-sec"><div class="wrap">
+        <p class="kick">Five standards</p>
+        <div class="standards" id="hp-standards"></div>
+      </div></section>
+
+      <section class="home-sec" id="how" style="padding-top:0"><div class="wrap">
+        <p class="kick">How it works</p>
+        <div class="steps">
+          <div class="step"><div class="step__n">01</div>
+            <div class="step__t">One quiz, released at midnight</div>
+            <div class="step__s">Everybody gets the same twelve questions at the same moment,
+              wherever they are. No practice runs and no second attempts, which is what makes
+              the leaderboard mean anything.</div></div>
+          <div class="step"><div class="step__n">02</div>
+            <div class="step__t">Answer, then learn why</div>
+            <div class="step__s">Each answer is followed by the reasoning and a hook built to
+              make the fact stick past the end of the quiz. Every question is checked against a
+              source that establishes the answer, not just the topic.</div></div>
+          <div class="step"><div class="step__n">03</div>
+            <div class="step__t">Come back tomorrow</div>
+            <div class="step__s">Keep a streak, build a record by category, and see where you
+              landed against everyone who played that day. Miss one and you can still go
+              back for it.</div></div>
+        </div>
+      </div></section>
+
+      <div class="closer"><div class="wrap"><div class="closer__in">
+        <h2>Today's twelve are waiting.</h2>
+        <p>Play without an account. Sign up only if you want the streak, the leaderboard and
+          your record by category kept.</p>
+        <button class="btn" id="hp-play-2">Play today &rarr;</button>
+      </div></div></div>
+    </div>
+
+    <!-- ───────────── MEMBER ───────────── -->
+    <div id="home-member" hidden>
+      <div class="scene home-hero home-hero--member">
+      <svg viewBox="0 0 1200 560" preserveAspectRatio="xMidYMax slice" aria-hidden="true">
+        <g fill="#d6d1ee">
+          <circle cx="90" cy="60" r="1.6" opacity=".5"/><circle cx="240" cy="38" r="2" opacity=".4"/>
+          <circle cx="410" cy="84" r="1.5" opacity=".45"/><circle cx="600" cy="48" r="1.8" opacity=".4"/>
+          <circle cx="760" cy="96" r="1.5" opacity=".35"/><circle cx="930" cy="42" r="2" opacity=".45"/>
+          <circle cx="1090" cy="78" r="1.6" opacity=".4"/><circle cx="520" cy="130" r="1.4" opacity=".28"/>
+          <circle cx="170" cy="150" r="1.4" opacity=".3"/><circle cx="1010" cy="160" r="1.4" opacity=".26"/></g>
+        <circle cx="985" cy="214" r="56" fill="#ece7cd" opacity=".95"/>
+        <circle cx="962" cy="198" r="10" fill="#d3cdae" opacity=".5"/>
+        <circle cx="1002" cy="233" r="13" fill="#d3cdae" opacity=".42"/>
+        <path d="M0,360 L150,308 L300,348 L460,292 L620,340 L780,296 L940,344 L1100,300 L1200,338 L1200,560 L0,560 Z" fill="#0b0b17"/>
+        <g fill="#121223">
+          <rect x="40" y="392" width="58" height="108"/><path d="M36,393 L69,364 L102,393 Z"/>
+          <rect x="110" y="408" width="48" height="92"/><path d="M106,409 L134,382 L162,409 Z"/>
+          <rect x="1040" y="398" width="54" height="102"/><path d="M1036,399 L1067,370 L1098,399 Z"/>
+          <rect x="1106" y="412" width="46" height="88"/><path d="M1102,413 L1129,386 L1156,413 Z"/></g>
+        <g fill="#191930">
+          <rect x="300" y="330" width="78" height="170"/><rect x="292" y="316" width="94" height="16"/>
+          <rect x="296" y="296" width="20" height="21"/><rect x="330" y="296" width="20" height="21"/>
+          <rect x="364" y="296" width="20" height="21"/>
+          <rect x="822" y="330" width="78" height="170"/><rect x="814" y="316" width="94" height="16"/>
+          <rect x="818" y="296" width="20" height="21"/><rect x="852" y="296" width="20" height="21"/>
+          <rect x="886" y="296" width="20" height="21"/></g>
+        <g fill="#21213c">
+          <rect x="430" y="250" width="68" height="250"/><rect x="422" y="235" width="84" height="16"/>
+          <rect x="426" y="214" width="20" height="22"/><rect x="458" y="214" width="20" height="22"/>
+          <rect x="702" y="250" width="68" height="250"/><rect x="694" y="235" width="84" height="16"/>
+          <rect x="698" y="214" width="20" height="22"/><rect x="730" y="214" width="20" height="22"/>
+          <rect x="530" y="196" width="140" height="304"/><rect x="520" y="180" width="160" height="17"/>
+          <rect x="526" y="156" width="22" height="25"/><rect x="566" y="156" width="22" height="25"/>
+          <rect x="606" y="156" width="22" height="25"/><rect x="646" y="156" width="22" height="25"/>
+          <path d="M576,156 L624,156 L600,96 Z"/></g>
+        <g fill="#f0a92a">
+          <rect x="586" y="250" width="10" height="30" opacity=".6"/>
+          <rect x="628" y="320" width="10" height="30" opacity=".34"/>
+          <rect x="554" y="382" width="10" height="28" opacity=".44"/>
+          <rect x="458" y="300" width="9" height="26" opacity=".38"/>
+          <rect x="738" y="352" width="9" height="26" opacity=".3"/></g>
+        <g fill="#14141f"><rect x="0" y="452" width="1200" height="108"/>
+          <g><rect x="12" y="434" width="22" height="19"/><rect x="58" y="434" width="22" height="19"/>
+            <rect x="104" y="434" width="22" height="19"/><rect x="150" y="434" width="22" height="19"/>
+            <rect x="196" y="434" width="22" height="19"/><rect x="242" y="434" width="22" height="19"/>
+            <rect x="288" y="434" width="22" height="19"/><rect x="334" y="434" width="22" height="19"/>
+            <rect x="380" y="434" width="22" height="19"/><rect x="426" y="434" width="22" height="19"/>
+            <rect x="472" y="434" width="22" height="19"/><rect x="518" y="434" width="22" height="19"/>
+            <rect x="564" y="434" width="22" height="19"/><rect x="610" y="434" width="22" height="19"/>
+            <rect x="656" y="434" width="22" height="19"/><rect x="702" y="434" width="22" height="19"/>
+            <rect x="748" y="434" width="22" height="19"/><rect x="794" y="434" width="22" height="19"/>
+            <rect x="840" y="434" width="22" height="19"/><rect x="886" y="434" width="22" height="19"/>
+            <rect x="932" y="434" width="22" height="19"/><rect x="978" y="434" width="22" height="19"/>
+            <rect x="1024" y="434" width="22" height="19"/><rect x="1070" y="434" width="22" height="19"/>
+            <rect x="1116" y="434" width="22" height="19"/><rect x="1162" y="434" width="22" height="19"/></g></g>
+        <g fill="#f0a92a" opacity=".8">
+          <path d="M200,500 C190,486 212,480 200,464 C222,476 218,494 200,500 Z"/>
+          <path d="M1000,500 C990,486 1012,480 1000,464 C1022,476 1018,494 1000,500 Z"/></g>
+      </svg>
+        <div class="scene__veil"></div>
+        <nav class="nav nav--over"><div class="wrap"><div class="nav__in">
+          <span class="brand"><svg width="19" height="19" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 8l4 4 5-7 5 7 4-4v9H3V8z" fill="var(--gold)"/><rect x="3" y="18" width="18" height="2.8" rx="1.2" fill="var(--gold)"/></svg> Fact Royale</span>
+          <span class="navlinks">
+            <a href="mastery.html">Royal Record</a><span>Leaderboard</span>
+            <a href="groups.html">Groups</a>
+            <a class="is-cta" href="#" id="hm-name">You</a></span>
+        </div></div></nav>
+        <div class="scene__in home-hero__in"><div class="wrap">
+          <div class="memhero">
+            <div>
+              <p class="eyebrow" id="hm-date"></p>
+              <h1 class="home-hero__h1 memhero__h1">Today's twelve<em class="gold" id="hm-state">are ready.</em></h1>
+              <div class="home-hero__row">
+                <button class="btn" id="hm-play">Play today &rarr;</button>
+                <button class="btn btn--ghost" id="hm-yesterday">Yesterday's results</button>
+              </div>
+            </div>
+            <div class="memhero__streak">
+              <div class="memhero__n gold" id="hm-streak">0</div>
+              <div class="memhero__t">day streak</div>
+            </div>
+          </div>
+        </div></div>
+      </div>
+
+      <main class="home-sec"><div class="wrap">
+        <div class="hhead">The last thirty days</div>
+        <div class="grid30" id="hm-grid"></div>
+        <div class="grid30__legend"><span>30 days ago</span><span>Today</span></div>
+
+        <div class="hrule"><i></i></div>
+
+        <div class="board">
+          <div class="card charter">
+            <div class="card__title">Record by category</div>
+            <div id="hm-record"></div>
+          </div>
+          <div class="card charter">
+            <div class="card__title">Catch up <b id="hm-missed-count"></b></div>
+            <div id="hm-missed"></div>
+            <div class="card__note">Archive plays count toward your record but not your
+              streak &mdash; the streak only moves on the day itself.</div>
+          </div>
+          <div class="soon board__wide">
+            <div class="card__title" style="margin-bottom:14px">Coming <b>two new ways to play</b></div>
+            <div class="soon__row">
+              <div><div class="soon__t">Board mode</div>
+                <div class="soon__s">Pick your category and your value off a grid. Same question
+                  bank, scored differently, play as long as you like.</div></div>
+              <div><div class="soon__t">Live events</div>
+                <div class="soon__s">Everyone answers the same board at the same moment, on a
+                  screen in the room or from home.</div></div>
+            </div>
+          </div>
+        </div>
+      </div></main>
+    </div>
+
+    <footer class="sitefoot"><div class="wrap"><div class="sitefoot__in">
+      <span>&#9819; Fact Royale</span>
+      <span>Leaderboard &middot; Privacy &middot; Contact</span>
+    </div></div></footer>
+
+    <!-- ══════════════════════════════════════════════════════════════
+         LEGACY LANDING — hidden, kept only so the forty-two ids that
+         auth.js, mastery.js and quiz.js still write to continue to
+         exist. Writing to a hidden element is harmless; writing to null
+         is a TypeError that takes the page down.
+
+         Deleted in Phase 4, when those writers are pointed at the new
+         markup. Do not add anything to it.
+         ═══════════════════════════════════════════════════════════ -->
+    <div id="legacy-landing" hidden aria-hidden="true">
 
     <!-- NAV -->
     <nav class="home-nav">
@@ -377,6 +643,7 @@
         <p class="footer-copy">New quiz every day · Built for curious minds</p>
       </div>
     </footer>
+    </div>
 
   </div>
 
@@ -677,10 +944,11 @@
   <script src="firebase-config.js?v=4"></script>
   <script src="categories.js?v=2"></script>
   <script src="icons.js?v=2"></script>
-  <script src="auth.js?v=7"></script>
+  <script src="auth.js?v=8"></script>
   <script src="mastery.js?v=10"></script>
   <script src="notifications.js?v=3"></script>
   <script src="quiz.js?v=22"></script>
+  <script src="home.js?v=1"></script>
   <script>
     // Inject static SVG icons into banner/notif icon spans
     document.addEventListener('DOMContentLoaded', () => {

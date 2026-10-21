@@ -266,8 +266,14 @@ h2 { font-size: clamp(22px, 3.2vw, 31px); letter-spacing: -.022em; line-height: 
   border-color: color-mix(in srgb, var(--hue) 40%, transparent);
   background: color-mix(in srgb, var(--hue) 8%, transparent);
 }
-.chip--cat .shield-fill { fill: color-mix(in srgb, var(--hue) 28%, transparent); }
-.chip--cat .shield-line { stroke: var(--hue); }
+/* Keyed off --hue, NOT off .chip--cat. These were scoped to the chip, so
+   the same shield used as a standard on the homepage or a crest on the
+   Royal Record came out with no fill and no stroke at all: invisible, and
+   invisible in a way that looks like a layout bug rather than a missing
+   rule. The shield is one component and must style itself wherever it is
+   used. */
+.shield-fill { fill: color-mix(in srgb, var(--hue, var(--gold)) 28%, transparent); }
+.shield-line { stroke: var(--hue, var(--gold)); }
 
 /* ── the reveal ─────────────────────────────────────────────── */
 .verdict { display: flex; align-items: baseline; gap: 11px; margin: 26px 0 14px; flex-wrap: wrap; }
@@ -338,3 +344,97 @@ h2 { font-size: clamp(22px, 3.2vw, 31px); letter-spacing: -.022em; line-height: 
   padding: 0;
   margin-top: clamp(20px, 3vh, 28px);
 }
+
+/* ══════════════════════════════════════════════════════════════
+   THE TWO HOMES
+   Shared hero, different content. Signing in must not feel like a
+   different product, so the scene, nav, type scale and gold
+   treatment are identical and only the copy changes.
+   ══════════════════════════════════════════════════════════════ */
+/* The scene is drawn 1200x560 and slices with the BOTTOM anchored, so a
+   shorter viewport crops the top. Anything placed high in the artwork
+   climbs into the nav as the hero gets shorter — which is what the moon
+   did. Fixed in the artwork by sitting it lower, not here. */
+.home-hero { min-height: clamp(430px, 66vh, 580px); display: flex; align-items: flex-end; }
+.home-hero--member { min-height: clamp(380px, 56vh, 500px); }
+.home-hero__in { padding-bottom: clamp(34px, 6vh, 58px); }
+.home-hero__h1 { font-size: clamp(42px, 8.2vw, 84px); text-shadow: 0 2px 40px rgba(0,0,0,.55); }
+.home-hero__h1 em { font-style: normal; display: block; }
+.memhero__h1 { font-size: clamp(34px, 6vw, 62px); }
+.home-hero__lede { font-size: clamp(14.5px, 1.7vw, 17px); color: rgba(242,242,250,.76);
+  margin: 20px 0 26px; max-width: 30em; line-height: 1.6; }
+.home-hero__row { display: flex; gap: 11px; align-items: center; flex-wrap: wrap; }
+.home-hero__tick { font-size: 12.5px; color: rgba(242,242,250,.44); margin-top: 15px; }
+
+.memhero { display: flex; justify-content: space-between; align-items: flex-end;
+  gap: clamp(18px,4vw,50px); flex-wrap: wrap; }
+.memhero__streak { text-align: right; flex: none; padding-bottom: 6px; }
+.memhero__n { font-family: var(--font-display); font-weight: 700; line-height: .86;
+  font-size: clamp(44px,6.6vw,70px); letter-spacing: -.04em; }
+.memhero__t { font-family: var(--font-display); font-size: 10px; letter-spacing: .2em;
+  text-transform: uppercase; color: rgba(242,242,250,.5); margin-top: 8px; }
+
+/* the three numbers */
+.strip { border-top: 1px solid var(--gold-line); border-bottom: 1px solid var(--line);
+  background: var(--gold-wash); }
+.strip__in { display: grid; grid-template-columns: repeat(3,1fr); }
+.strip__c { padding: clamp(18px,3vw,26px) 0; border-right: 1px solid var(--line); }
+.strip__c:last-child { border-right: 0; }
+.strip__c:not(:first-child) { padding-left: clamp(14px,3vw,30px); }
+.strip__n { font-family: var(--font-display); font-weight: 700; color: var(--gold);
+  font-size: clamp(24px,3.4vw,34px); line-height: 1; }
+.strip__l { font-size: 12.5px; color: var(--fg-subtle); margin-top: 7px; line-height: 1.4; }
+
+.home-sec { padding: clamp(44px,7vw,78px) 0; }
+.standards { display: grid; grid-template-columns: repeat(5,1fr); gap: clamp(8px,1.4vw,14px); }
+@media (max-width: 700px) { .standards { grid-template-columns: repeat(2,1fr); } }
+
+.steps { display: grid; grid-template-columns: repeat(3,1fr); gap: clamp(16px,2.6vw,30px); }
+@media (max-width: 760px) { .steps { grid-template-columns: 1fr; } }
+.step { border-top: 2px solid var(--gold-line); padding-top: 18px; }
+.step__n { font-family: var(--font-display); font-size: 12px; font-weight: 700;
+  color: var(--gold); letter-spacing: .14em; margin-bottom: 10px; }
+.step__t { font-family: var(--font-display); font-size: 17px; font-weight: 600;
+  margin-bottom: 8px; line-height: 1.25; }
+.step__s { font-size: 13.5px; color: var(--fg-muted); line-height: 1.62; }
+
+.closer { border-top: 1px solid var(--line);
+  background: radial-gradient(900px 300px at 50% 120%, var(--gold-glow), transparent 70%); }
+.closer__in { text-align: center; padding: clamp(48px,8vw,86px) 0; }
+.closer__in h2 { max-width: 16em; margin: 0 auto 16px; }
+.closer__in p { font-size: 14.5px; color: var(--fg-muted); max-width: 34em;
+  margin: 0 auto 26px; line-height: 1.6; }
+
+.grid30__legend { display: flex; justify-content: space-between; font-family: var(--font-display);
+  font-size: 10px; letter-spacing: .14em; text-transform: uppercase;
+  color: var(--fg-subtle); margin-top: 10px; }
+
+.board { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(10px,1.6vw,16px); }
+@media (max-width: 700px) { .board { grid-template-columns: 1fr; } }
+.board__wide { grid-column: 1 / -1; }
+.card__note { font-size: 12.5px; color: var(--fg-subtle); line-height: 1.5; margin-top: 10px; }
+
+.soon { border: 1px dashed rgba(212,175,55,.26); border-radius: var(--r);
+  padding: clamp(14px,2vw,20px); }
+.soon__row { display: flex; gap: clamp(14px,3vw,34px); flex-wrap: wrap; }
+.soon__row > div { flex: 1; min-width: 200px; }
+.soon__t { font-family: var(--font-display); font-size: 14.5px; font-weight: 600; margin-bottom: 5px; }
+.soon__s { font-size: 12.5px; color: var(--fg-muted); line-height: 1.55; }
+
+/* record bars */
+.rec { display: flex; align-items: center; gap: 11px; margin-bottom: 10px; font-size: 13.5px; }
+.rec:last-child { margin-bottom: 0; }
+.rec__n { width: 94px; flex: none; color: var(--fg-muted); }
+.rec__bar { flex: 1; height: 6px; border-radius: 3px; background: rgba(255,255,255,.07); overflow: hidden; }
+.rec__bar i { display: block; height: 100%; border-radius: 3px; background: var(--hue, var(--gold)); }
+.rec__pc { width: 32px; text-align: right; font-family: var(--font-display);
+  font-size: 12px; color: var(--fg-subtle); }
+
+.daypill { display: inline-flex; align-items: center; gap: 8px; background: var(--surface-3);
+  border-radius: var(--r-sm); padding: 8px 12px; font-size: 12.5px;
+  font-family: var(--font-display); color: var(--fg-muted);
+  margin: 0 6px 6px 0; border: 1px solid transparent; }
+.daypill:hover { color: var(--gold); border-color: var(--gold-line); }
+
+/* The legacy block must not take up space even though it is in the DOM. */
+#legacy-landing { display: none !important; }

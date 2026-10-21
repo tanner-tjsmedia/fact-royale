@@ -21,3 +21,9 @@ __pycache__/
 clusters.txt
 worklist.txt
 preflight.txt
+
+# Local test credentials. A throwaway account on the real Firebase project,
+# used to exercise the signed-in paths that cannot be tested anonymously.
+# Not secret in the sense that it guards anything valuable, but it is a real
+# login on a real project and this repository is public.
+.local/

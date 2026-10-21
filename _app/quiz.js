@@ -430,18 +430,7 @@ function getTodayKey() {
   return quizDayKey(0);
 }
 
-/* Anything from Firestore that lands in innerHTML goes through this.
- *
- * Question and category text is authored by us, so this is not guarding
- * against a hostile author — it is guarding against an ampersand or a
- * stray angle bracket in a question silently eating the rest of the
- * element. The quiz text itself uses textContent and does not need it;
- * the category chip does, because it also contains an SVG. */
-function escapeHtml(str) {
-  return String(str == null ? '' : str)
-    .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
-    .replace(/"/g, '&quot;').replace(/'/g, '&#39;');
-}
+// escapeHtml lives in auth.js, which loads first and already had it.
 
 function shuffle(arr) {
   return [...arr].sort(() => Math.random() - 0.5);

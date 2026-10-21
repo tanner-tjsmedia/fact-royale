@@ -39,6 +39,10 @@ const ARCHIVE_FREE_DAYS = 7;
 auth.onAuthStateChanged(rawUser => {
   const user = isRealUser(rawUser) ? rawUser : null;
   currentUser = user;
+  // Swap the home between the public page and the member board. Runs on
+  // every auth change, including the one that fires on load, so a returning
+  // player never sees the marketing page flash first.
+  if (typeof homeFor === 'function') homeFor(user);
   updateNavForAuth(user);
   loadLeaderboard();
 
@@ -431,7 +435,17 @@ const FR_CATEGORY_ALIASES = {
 function normalizeCategory(name) {
   return FR_CATEGORY_ALIASES[name] || name;
 }
-const FR_CATEGORIES = ['History', 'Sports', 'Pop Culture', 'Geography', 'Science & Nature'];
+// FR_CATEGORIES used to be declared here as a bare array of names, holding
+// the retired 'Pop Culture', and referenced nowhere in this file. It is
+// now owned by categories.js, which also carries the aliases, labels and
+// colour classes.
+//
+// Leaving it here was not harmless. `const` redeclaration across two
+// classic scripts is a SyntaxError that aborts the whole file, so the
+// moment categories.js loaded, every function in auth.js stopped being
+// defined: no sign-in, no sign-up, no score submission, and no error
+// anywhere except one line in the console. A dead constant took the
+// entire auth layer down.
 
 // ── Submit Score to Firestore ──────────────────────────
 // Called from quiz.js at the end of showResults()
@@ -1185,11 +1199,17 @@ function getTodayKeyForAuth() {
   return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;
 }
 
+/* The one owner. quiz.js declared a second copy of this; function
+   declarations do not throw on redeclaration the way const does, so the
+   duplicate was silent and whichever file loaded last quietly won.
+   Quotes added, because this is used inside attribute values too. */
 function escapeHtml(str) {
-  return String(str)
+  return String(str == null ? '' : str)
     .replace(/&/g, '&amp;')
     .replace(/</g, '&lt;')
-    .replace(/>/g, '&gt;');
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#39;');
 }
 
 function friendlyAuthError(code) {
