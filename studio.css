@@ -164,9 +164,18 @@ label.lbl {
 [data-state="rejected"]   { color: var(--st-rejected); }
 [data-state="retired"]    { color: var(--st-retired); }
 
+/* The live category name is "Music/Movies". "Pop Culture" is the retired
+   name and the selector below matched only that, so every Music/Movies row
+   in the studio fell through to the default colour -- silently, because a
+   missing match just means no colour rather than an error.
+
+   Both are listed because the question corpus still contains rows written
+   under the old name. The same drift between these two strings crashed two
+   admin panels in October. */
 [data-cat="History"]           { color: var(--cat-history); }
 [data-cat="Sports"]            { color: var(--cat-sports); }
-[data-cat="Pop Culture"]       { color: var(--cat-pop); }
+[data-cat="Music/Movies"]      { color: var(--cat-music); }
+[data-cat="Pop Culture"]       { color: var(--cat-music); }   /* legacy rows */
 [data-cat="Geography"]         { color: var(--cat-geography); }
 [data-cat="Science & Nature"]  { color: var(--cat-science); }
 

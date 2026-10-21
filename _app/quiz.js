@@ -388,6 +388,11 @@ let categoryScores = {}; // { "History": {correct:0, total:0}, ... }
 let todayKey       = '';   // "2026-06-13"
 let isArchivePlay  = false; // true when loading a past date via ?date= param
 let isReplayView   = false; // true when rebuilding a finished run from the server record
+/* Per-question outcome for the progress segments: true, false, or undefined
+ * for not yet reached. Indexed by position in the dealt deck, so it is
+ * meaningless without the deck order — which is why saveProgress persists
+ * both together. */
+let outcomes       = [];
 let activeQuizDate = '';    // the date key for the current quiz (today or archive)
 
 // ── Challenge State ────────────────────────────────────
@@ -423,6 +428,19 @@ function quizDayKey(daysBack) {
 
 function getTodayKey() {
   return quizDayKey(0);
+}
+
+/* Anything from Firestore that lands in innerHTML goes through this.
+ *
+ * Question and category text is authored by us, so this is not guarding
+ * against a hostile author — it is guarding against an ampersand or a
+ * stray angle bracket in a question silently eating the rest of the
+ * element. The quiz text itself uses textContent and does not need it;
+ * the category chip does, because it also contains an SVG. */
+function escapeHtml(str) {
+  return String(str == null ? '' : str)
+    .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;').replace(/'/g, '&#39;');
 }
 
 function shuffle(arr) {
@@ -817,7 +835,7 @@ function saveProgress() {
     localStorage.setItem(FR_PROGRESS_KEY, JSON.stringify({
       date: progressQuizDate(),
       isArchive: !!isArchivePlay,
-      currentIndex, score, categoryScores, answered,
+      currentIndex, score, categoryScores, answered, outcomes,
       // The deck is reshuffled on every load, so an index alone is meaningless
       // across a refresh: position 8 lands on a different question and the
       // player gets ones they have already answered. Persist the order too.
@@ -853,6 +871,7 @@ function startQuiz() {
   score        = 0;
   answered     = false;
   isReplayView = false;
+  outcomes     = [];
   categoryScores = {};
 
   // Init category score trackers
@@ -887,6 +906,7 @@ function startQuiz() {
     }
     score          = saved.score || 0;
     categoryScores = saved.categoryScores || categoryScores;
+    outcomes       = Array.isArray(saved.outcomes) ? saved.outcomes : [];
     // A question already answered has had its answer revealed on screen, so
     // step past it. Refreshing before answering resumes on the same question,
     // which is fair since nothing was given away.
@@ -898,23 +918,71 @@ function startQuiz() {
   renderQuestion();
 }
 
+/* Per-question outcome, one segment each.
+ *
+ * The old progress bar was a percentage: it said how far through you were
+ * and nothing else. These say how it has GONE, which is the thing a player
+ * actually wants mid-run, and they do it without printing a score — a
+ * "7/12" counter tells you your score whether you want it or not, and this
+ * quiz is built around not knowing until the end.
+ *
+ * outcomes[] is written by handleAnswer and survives a reload through
+ * saveProgress, so a resumed run shows the same history it had.
+ */
+/* What to say after a correct answer. Repeating the option they just
+ * clicked tells them nothing, so say something about the run instead.
+ * Counts the current streak of correct answers inside this quiz, which is
+ * the only number available that they do not already know. */
+function runNote() {
+  let n = 0;
+  for (let i = currentIndex; i >= 0; i--) {
+    if (outcomes[i] === true) n++; else break;
+  }
+  if (n >= 5) return n + ' in a row.';
+  if (n === 4) return 'Four straight.';
+  if (n === 3) return 'Three in a row.';
+  if (n === 2) return 'Two straight.';
+  return 'One down.';
+}
+
+function renderSegments() {
+  const el = document.getElementById('q-segs');
+  if (!el) return;
+  let h = '';
+  for (let i = 0; i < questions.length; i++) {
+    let cls = 'seg';
+    if (outcomes[i] === true)       cls += ' seg--hit';
+    else if (outcomes[i] === false) cls += ' seg--miss';
+    else if (i === currentIndex)    cls += ' seg--now';
+    h += `<i class="${cls}"></i>`;
+  }
+  el.innerHTML = h;
+}
+
 function renderQuestion() {
   const q = questions[currentIndex];
   answered = false;
 
   // Progress
-  const pct = (currentIndex / questions.length) * 100;
-  document.getElementById('progress-bar').style.width  = `${pct}%`;
-  document.getElementById('progress-text').textContent = `${currentIndex + 1} / ${questions.length}`;
+  renderSegments();
+  document.getElementById('progress-text').textContent =
+    `${String(currentIndex + 1).padStart(2, '0')} / ${questions.length}`;
 
   // Streak in header
   const streak = getStreak();
   document.getElementById('quiz-streak').innerHTML = streak > 0 ? `<span class="fr-icon fr-icon-sm" style="color:var(--gold,#d4af37)">${ICONS.flame}</span> ${streak}` : '';
 
   // Category tag
+  // Category: a shield, coloured by CSS. This sets the class and the label
+  // and names no colour of its own — app.css maps the class to --hue, and
+  // the explanation rule, the chip border and the shield fill all read it,
+  // so they cannot drift apart.
   const catEl = document.getElementById('q-category');
-  catEl.textContent  = q.category;
-  catEl.className    = `category-tag ${getCategoryClass(q.category)}`;
+  catEl.className = `chip chip--cat ${getCategoryClass(q.category)}`;
+  catEl.innerHTML =
+    '<svg width="14" height="16" viewBox="0 0 20 22" aria-hidden="true">' +
+    '<path class="shield-fill shield-line" d="M10 1l8 3v8c0 5-4 8-8 9-4-1-8-4-8-9V4l8-3z" ' +
+    'stroke-width="1.5"/></svg>' + escapeHtml(q.category);
 
   // Question
   document.getElementById('q-text').textContent = q.question;
@@ -934,11 +1002,18 @@ function renderQuestion() {
   const grid   = document.getElementById('options-grid');
   grid.innerHTML = '';
 
-  order.forEach(canonicalIndex => {
+  order.forEach((canonicalIndex, displayIndex) => {
     const btn = document.createElement('button');
-    btn.className     = 'option-btn';
-    btn.textContent   = q.options[canonicalIndex];
+    btn.className     = 'opt';
     btn.dataset.ci    = String(canonicalIndex);
+    // A, B, C, D by DISPLAY position, not by canonical index: the letter is
+    // a label for "the third one down", and the player has no idea the
+    // stored order exists.
+    btn.innerHTML =
+      '<span class="opt__key">' + 'ABCDEFGH'[displayIndex] + '</span>' +
+      '<span class="opt__text"></span>' +
+      '<span class="opt__mark"></span>';
+    btn.querySelector('.opt__text').textContent = q.options[canonicalIndex];
     btn.addEventListener('click', () => handleAnswer(canonicalIndex, q));
     grid.appendChild(btn);
   });
@@ -966,7 +1041,7 @@ async function handleAnswer(selected, q) {
   answered = true;
 
   const grid    = document.getElementById('options-grid');
-  const buttons = document.querySelectorAll('.option-btn');
+  const buttons = document.querySelectorAll('.opt');
 
   // Lock the board before anything else. In server mode there is a round trip
   // between the tap and the verdict, and an unlocked board during it would let
@@ -1030,11 +1105,21 @@ async function handleAnswer(selected, q) {
   // answer ahead of time.
   buttons.forEach(btn => {
     const ci = Number(btn.dataset.ci);
-    if (ci === correctIndex)                 btn.classList.add('correct');
-    else if (ci === selected && !isCorrect)  btn.classList.add('wrong');
+    const mark = btn.querySelector('.opt__mark');
+    if (ci === correctIndex) {
+      btn.classList.add('opt--right');
+      if (mark) mark.textContent = '\u2713';
+    } else if (ci === selected && !isCorrect) {
+      btn.classList.add('opt--wrong');
+      if (mark) mark.textContent = '\u00d7';
+    } else {
+      btn.classList.add('opt--dim');
+    }
   });
 
-  // Track score
+  // Track score, and the per-question outcome the segments draw from.
+  outcomes[currentIndex] = isCorrect;
+  renderSegments();
   if (isCorrect) {
     score++;
     categoryScores[q.category].correct++;
@@ -1051,9 +1136,25 @@ async function handleAnswer(selected, q) {
   const hookBox        = document.getElementById('memory-hook');
   const hookText       = document.getElementById('hook-text');
 
-  feedbackResult.textContent = isCorrect ? '✓ Correct!' : `✗ The answer was: ${correctText}`;
-  feedbackResult.className   = `feedback-result ${isCorrect ? 'correct' : 'wrong'}`;
-  explanation.textContent    = verdict.explanation || '';
+  /* The verdict is one line and deliberately quiet. The weight belongs to
+     the reasoning and the hook, because "every answer explained properly"
+     is the thing this product actually sells — and in the old design the
+     explanation was the least-styled element on the screen.
+
+     Two parts: a short judgement, and what the answer was. When you got it
+     right the second part becomes the streak instead, since repeating the
+     answer you just chose is noise. */
+  feedbackResult.className = 'verdict ' + (isCorrect ? 'verdict--right' : 'verdict--wrong');
+  feedbackResult.innerHTML =
+    '<span class="verdict__big">' + (isCorrect ? 'Correct.' : 'Not quite.') + '</span>' +
+    '<span class="verdict__sub">' +
+      (isCorrect ? escapeHtml(runNote()) : 'The answer was ' + escapeHtml(correctText) + '.') +
+    '</span>';
+
+  // The explanation carries the category colour as its rule. The class is
+  // set here; app.css turns it into --hue. No colour is named in JS.
+  explanation.className   = 'why ' + getCategoryClass(q.category);
+  explanation.textContent = verdict.explanation || '';
 
   if (q.memory_hook) {
     hookText.textContent        = q.memory_hook;

@@ -88,9 +88,13 @@
   /* ---- the five categories --------------------------------- */
   --cat-history:   #e8a020;
   --cat-sports:    #4d9de0;
-  --cat-pop:       #9b72cf;
+  --cat-music:     #9b72cf;   /* was --cat-pop. The category is Music/Movies;
+                                 'Pop Culture' is a retired name and keeping it
+                                 here is how 'Pop Culture' vs 'Music/Movies'
+                                 drifted apart and crashed two admin panels. */
   --cat-geography: #1fb5c8;
   --cat-science:   #3dbe7a;
+  --cat-default:   #64748b;   /* anything unmapped */
 
   /* ---- source tiers ---------------------------------------- */
   --tier-primary:   var(--ok);

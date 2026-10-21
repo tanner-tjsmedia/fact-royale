@@ -48,7 +48,7 @@ echo "== assembling =="
 cp _app/* "$OUT"/ && echo "  _app/* -> $(basename "$OUT")/"
 
 # The shared dependencies go-dark.sh deliberately left at root.
-for f in auth.js firebase-config.js icons.js style.css tokens.css \
+for f in auth.js firebase-config.js icons.js style.css tokens.css app.css \
          manifest.json favicon.svg; do
   [ -f "$f" ] && cp "$f" "$OUT"/ && echo "  $f"
 done

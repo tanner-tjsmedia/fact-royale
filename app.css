@@ -235,3 +235,70 @@ h2 { font-size: clamp(22px, 3.2vw, 31px); letter-spacing: -.022em; line-height: 
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation-duration: .001ms !important; transition-duration: .001ms !important; }
 }
+
+/* ── category identity ──────────────────────────────────────────
+   One class per category, setting two custom properties. Everything
+   that needs to be "the colour of Geography" reads --hue and --hue-ink
+   rather than hardcoding a hex, so the shield, the chip, the
+   explanation rule and the results breakdown can never disagree.
+
+   --hue is deliberately NOT called --cat-something: tokens.css already
+   owns --cat-history and friends as values, and a local that looked like
+   one of those would be read as a value by the next person.
+
+   quiz.js only has to put the right class on the element. It never
+   names a colour. */
+.cat-history   { --hue: var(--cat-history);   --hue-ink: #f0c070; }
+.cat-sports    { --hue: var(--cat-sports);    --hue-ink: #86c2ef; }
+.cat-music     { --hue: var(--cat-music);     --hue-ink: #c6a6ea; }
+.cat-geography { --hue: var(--cat-geography); --hue-ink: #6fd8e4; }
+.cat-science   { --hue: var(--cat-science);   --hue-ink: #7fd9a9; }
+.cat-default   { --hue: var(--cat-default);   --hue-ink: var(--fg-muted); }
+
+.chip--cat {
+  color: var(--hue-ink);
+  border-color: color-mix(in srgb, var(--hue) 40%, transparent);
+  background: color-mix(in srgb, var(--hue) 8%, transparent);
+}
+.chip--cat .shield-fill { fill: color-mix(in srgb, var(--hue) 28%, transparent); }
+.chip--cat .shield-line { stroke: var(--hue); }
+
+/* ── the reveal ─────────────────────────────────────────────── */
+.verdict { display: flex; align-items: baseline; gap: 11px; margin: 26px 0 14px; flex-wrap: wrap; }
+.verdict__big { font-family: var(--font-display); font-weight: 700;
+  font-size: clamp(19px, 2.6vw, 25px); letter-spacing: -.02em; }
+.verdict__sub { font-size: 14px; color: var(--fg-muted); }
+.verdict--right .verdict__big { color: var(--ok); }
+.verdict--wrong .verdict__big { color: var(--bad); }
+
+.why {
+  border-left: 2px solid var(--hue, var(--gold));
+  padding-left: 18px; max-width: 44em;
+  font-size: 15px; line-height: 1.72; color: rgba(242,242,250,.86);
+}
+
+.hook {
+  margin-top: var(--s-5); max-width: 44em;
+  background: var(--gold-wash); border: 1px solid var(--gold-line);
+  border-radius: 13px; padding: 16px 18px;
+  font-size: 14px; line-height: 1.65; color: #f2e4bd;
+}
+.hook b {
+  font-family: var(--font-display); display: block;
+  font-size: 10px; letter-spacing: .18em; text-transform: uppercase;
+  color: var(--gold); margin-bottom: 7px; font-weight: 600;
+}
+
+/* ── quiz chrome ────────────────────────────────────────────── */
+.quizbar { border-bottom: 1px solid var(--line); }
+.quizbar__in { display: flex; align-items: center; justify-content: space-between; height: 60px; }
+.quizmeta { display: flex; align-items: center; justify-content: space-between;
+  gap: var(--s-4); margin: var(--s-6) 0 var(--s-5); }
+.quizcount { font-family: var(--font-display); font-size: var(--t-xs);
+  letter-spacing: .14em; color: var(--fg-subtle); }
+
+/* Options stack full width. They were a grid when they were short labels;
+   the option-length standard in CONTENT-STANDARDS.md means they are now
+   sentences, and two sentences side by side is unreadable. */
+.options-grid { display: block; }
+.opt__text { flex: 1; min-width: 0; }
