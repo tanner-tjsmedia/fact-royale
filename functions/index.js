@@ -11,8 +11,38 @@ const { getFirestore }   = require('firebase-admin/firestore');
 const { getMessaging }   = require('firebase-admin/messaging');
 
 initializeApp();
-const db        = getFirestore();
-const messaging = getMessaging();
+
+/* LAZY CLIENTS — do not move these back to module scope.
+ *
+ * `const db = getFirestore()` at module scope broke deployment on
+ * 2026-10-26 with:
+ *
+ *   Error: User code failed to load. Cannot determine backend
+ *   specification. Timeout after 10000.
+ *
+ * The deploy analyzer loads this file in a child process to discover what
+ * functions it exports, and gives it ten seconds. getFirestore() does
+ * credential discovery and client construction on the spot, which is work
+ * this file does not need done until a request is actually being served.
+ * Lazy construction is Google's own documented remedy for this error:
+ * https://firebase.google.com/docs/functions/tips#avoid_deployment_timeouts_during_initialization
+ *
+ * Honest caveat on the diagnosis: the obvious confirmation would be a
+ * timing measurement, and the one taken when this was written came from a
+ * sandbox whose node_modules sat on a slow network mount, where EVERY
+ * require took tens of seconds. That number proved nothing. Lazy clients
+ * are correct regardless; if the ten-second timeout is still hit after
+ * this change, the cause is elsewhere and the escape hatch is
+ * FUNCTIONS_DISCOVERY_TIMEOUT.
+ *
+ * initializeApp() is cheap and does no I/O, so it can stay.
+ *
+ * Both are memoised: one client per container, built on first use, reused
+ * for every subsequent invocation on that instance.
+ */
+let _db = null, _messaging = null;
+function db()        { return _db        || (_db        = getFirestore()); }
+function messaging() { return _messaging || (_messaging = getMessaging()); }
 
 // ── Message variants ───────────────────────────────────
 // Rotates daily. Each is a function(name, streak) → {title, body}.
@@ -86,7 +116,7 @@ exports.sendDailyNotifications = onSchedule(
       const variantFn = VARIANTS[dayOfYear % VARIANTS.length];
 
       // Fetch all opted-in users
-      const snap = await db.collection('users')
+      const snap = await db().collection('users')
         .where('notificationsEnabled', '==', true)
         .get();
 
@@ -125,7 +155,7 @@ exports.sendDailyNotifications = onSchedule(
         };
 
         try {
-          await messaging.send(message);
+          await messaging().send(message);
           sent++;
         } catch (err) {
           failed++;
@@ -141,9 +171,9 @@ exports.sendDailyNotifications = onSchedule(
 
       // Remove stale tokens in batch
       if (invalidUids.length > 0) {
-        const batch = db.batch();
+        const batch = db().batch();
         for (const uid of invalidUids) {
-          batch.update(db.collection('users').doc(uid), {
+          batch.update(db().collection('users').doc(uid), {
             fcmToken:             null,
             notificationsEnabled: false
           });
@@ -175,7 +205,7 @@ exports.analyzePeakPlayTime = onSchedule(
       const twoWeeksAgo = new Date();
       twoWeeksAgo.setDate(twoWeeksAgo.getDate() - 14);
 
-      const playsSnap = await db.collection('plays')
+      const playsSnap = await db().collection('plays')
         .where('ts', '>=', twoWeeksAgo)
         .get();
 
@@ -202,7 +232,7 @@ exports.analyzePeakPlayTime = onSchedule(
         }
       }
 
-      await db.collection('config').doc('notifications').set(
+      await db().collection('config').doc('notifications').set(
         { peakHour, analyzedAt: new Date().toISOString(), totalPlays: playsSnap.size },
         { merge: true }
       );
@@ -286,7 +316,7 @@ async function openQuizOrThrow(date) {
   if (!/^\d{4}-\d{2}-\d{2}$/.test(date))
     throw new HttpsError('invalid-argument', 'Bad date.');
 
-  const quizSnap = await db.collection('quizzes').doc(date).get();
+  const quizSnap = await db().collection('quizzes').doc(date).get();
   if (!quizSnap.exists) throw new HttpsError('not-found', 'No quiz for that date.');
 
   const quiz = quizSnap.data();
@@ -295,7 +325,7 @@ async function openQuizOrThrow(date) {
   if (publishAt.getTime() > Date.now())
     throw new HttpsError('failed-precondition', 'That quiz has not opened yet.');
 
-  const keySnap = await db.collection('quizKeys').doc(date).get();
+  const keySnap = await db().collection('quizKeys').doc(date).get();
   if (!keySnap.exists) throw new HttpsError('not-found', 'No answer key for that date.');
 
   const key = keySnap.data();
@@ -333,12 +363,12 @@ exports.commitAnswer = onCall({ region: 'us-central1', cors: true }, async (req)
   if (!(qid in solutions))
     throw new HttpsError('not-found', 'No such question in that quiz.');
 
-  const ref = db.collection('attempts').doc(`${uid}_${date}`);
+  const ref = db().collection('attempts').doc(`${uid}_${date}`);
 
   // The transaction is what makes this safe. Two calls racing for the same
   // qid cannot both write, so the first choice to land is the one on record
   // and the second gets told it is a replay.
-  const outcome = await db.runTransaction(async (tx) => {
+  const outcome = await db().runTransaction(async (tx) => {
     const snap     = await tx.get(ref);
     const existing = snap.exists ? (snap.data().answers || {}) : {};
 
@@ -383,7 +413,7 @@ exports.submitQuiz = onCall({ region: 'us-central1', cors: true }, async (req) =
   if (total > MAX_QUESTIONS)
     throw new HttpsError('internal', 'Answer key is implausibly large.');
 
-  const attemptSnap = await db.collection('attempts').doc(`${uid}_${date}`).get();
+  const attemptSnap = await db().collection('attempts').doc(`${uid}_${date}`).get();
   const committed   = attemptSnap.exists ? (attemptSnap.data().answers || {}) : {};
 
   const perQuestion = {};
@@ -433,14 +463,14 @@ exports.submitQuiz = onCall({ region: 'us-central1', cors: true }, async (req) =
   // injection vector as well as an impersonation one.
   let displayName = (req.auth.token && req.auth.token.name) || 'Player';
   try {
-    const prof = await db.collection('users').doc(uid).get();
+    const prof = await db().collection('users').doc(uid).get();
     if (prof.exists && prof.data().displayName) displayName = prof.data().displayName;
   } catch (e) { /* fall back to the token name */ }
   displayName = String(displayName).slice(0, 40);
 
-  const ref = db.collection('scores').doc(`${uid}_${date}`);
+  const ref = db().collection('scores').doc(`${uid}_${date}`);
   let recorded = true;
-  await db.runTransaction(async (tx) => {
+  await db().runTransaction(async (tx) => {
     const existing = await tx.get(ref);
     if (existing.exists) { recorded = false; return; }   // already played
     tx.set(ref, {
