@@ -5,6 +5,12 @@ Where the project is, what is still open, and the order things should happen in.
 Written 2026-10-01 at commit `b4f2765`. Update the numbers when they move; the
 reasoning is the part worth preserving.
 
+**Reviewed 2026-10-26.** Every number in §1 is unchanged. Twenty-five days of
+work went into security, the visual rebuild and tooling — all of it real, none
+of it content. That is the single most important line in this file: the code
+side is close to done and the content side has not moved since it was written.
+See §7.
+
 This file exists so a cold start does not have to reconstruct the state from a
 chat transcript. The other docs explain *why* decisions were made; this one
 says *where we are*.
@@ -57,11 +63,12 @@ advantage.
 
 ## 3. Open decisions
 
-### `questions-src/` is publicly fetchable
-Tracked in git and served by GitHub Pages, so anyone can read tomorrow's
-answers. The `publishAt` gating in Firestore is decorative while the flat
-files are public. **Firebase Hosting closes this.** It is a security fix, not
-a migration chore.
+### ~~`questions-src/` is publicly fetchable~~ — CLOSED 2026-10-26
+The directory was renamed and is no longer served, the answers were stripped
+out of the public `quizzes/` document, and `quizKeys/` is unreadable from the
+client. Verified by reading the live document from a browser: the public
+payload carries `id, options, question, memory_hook, category` and nothing
+else, and a direct read of `quizKeys` returns `permission-denied`.
 
 ### `groups` leaks across users
 `allow read: if request.auth != null` lets *any* signed-in user read *every*

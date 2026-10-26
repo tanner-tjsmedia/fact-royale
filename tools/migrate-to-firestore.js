@@ -171,6 +171,13 @@ function parseArgs(argv) {
     else if (argv[i] === '--stage') a.stage = true;
     else if (argv[i] === '--run-staged') a.runStaged = true;
     else if (argv[i] === '--force') a.force = true;
+    // Prints the start date --run-staged would use, and exits. Exists so
+    // go-live.sh can SHOW that date instead of working it out again with
+    // `date -u +%F`: the quiz day rolls over at PUBLISH_OFFSET_HOURS, not
+    // at UTC midnight, so a second implementation of "today" disagrees
+    // with this one for five hours out of every twenty-four — and agrees
+    // for the other nineteen, which is how it stays hidden.
+    else if (argv[i] === '--print-start-date') { console.log(today()); process.exit(0); }
     else { console.error(`unknown argument: ${argv[i]}`); process.exit(2); }
   }
 

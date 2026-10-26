@@ -69,7 +69,12 @@ if [ "${1:-}" = "--dry-run" ]; then
   echo "== DRY RUN - nothing will change =="
   if [ -f PENDING-REPUBLISH.json ]; then
     if grep -q '"executed": null' PENDING-REPUBLISH.json; then
-      echo "  would re-date  the question catalogue, start date = $(date -u +%F):"
+      # Ask the tool for the date; do not compute it here. A quiz day rolls
+      # over five hours after UTC midnight, so `date -u +%F` is the wrong
+      # answer between 00:00 and 05:00 UTC — and the right one the rest of
+      # the time, which is why it survived a dry run unnoticed.
+      START="$(node tools/migrate-to-firestore.js --print-start-date 2>/dev/null || echo '(could not resolve)')"
+      echo "  would re-date  the question catalogue, start date = $START:"
       node -e 'const p=require("./PENDING-REPUBLISH.json");console.log(`                 ${p.days} days (${p.questions} questions) from ${p.from}`)' 2>/dev/null || true
     else
       echo "  re-date already executed - would skip"
@@ -103,7 +108,7 @@ fi
 # outcome; a launch that dies after the restore is a broken public site.
 if [ -f PENDING-REPUBLISH.json ] && grep -q '"executed": null' PENDING-REPUBLISH.json; then
   echo "== staged content re-date =="
-  echo "  publishing the catalogue from $(date -u +%F)"
+  echo "  publishing the catalogue from $(node tools/migrate-to-firestore.js --print-start-date 2>/dev/null || echo '?')"
   if ! node tools/migrate-to-firestore.js --run-staged; then
     cat <<'EOF'
 

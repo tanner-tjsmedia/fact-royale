@@ -208,10 +208,19 @@ Only after section A is clear.
 4. `git commit -m "Back online" && git push`
 5. Within ten minutes, load `fact-royale.com` in a private window and play a
    full quiz as a stranger would
+6. **Resume the notification job** — see A5. Only after step 5 passes.
+   ```
+   gcloud scheduler jobs resume firebase-schedule-sendDailyNotifications-us-central1 --location=us-central1
+   gcloud scheduler jobs describe  firebase-schedule-sendDailyNotifications-us-central1 --location=us-central1
+   ```
+   Expect `state: ENABLED`.
 
 Step 5 matters because every test so far has run against `localhost` with a
 flattened directory. The real site has different paths, the real Pages cache,
 and a service worker.
+
+Step 6 is the one with no error message attached to forgetting it. A paused
+scheduler job looks exactly like a working one from the outside.
 
 **Rollback:** `./go-dark.sh` puts the holding page back. It is one command and
 it works, which is the main reason going live early is survivable.
