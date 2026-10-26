@@ -42,6 +42,22 @@
  *
  * Idempotent: re-running overwrites the same document ids with the same
  * content. Safe to run repeatedly.
+ *
+ * STAGING A RE-DATE FOR LAUNCH DAY
+ *
+ *   node tools/migrate-to-firestore.js --stage --from 2026-06-13 --limit 82
+ *   node tools/migrate-to-firestore.js --run-staged
+ *
+ * The back catalogue has to be re-dated so the published run starts on the
+ * day the site comes back up — but that day is not known in advance, so the
+ * work cannot simply be done early and left. --stage records the INTENT in
+ * PENDING-REPUBLISH.json (and rehearses it in full, including credentials,
+ * so launch day holds no surprises). --run-staged reads that file, resolves
+ * the start date to today, writes, and stamps the file as executed.
+ *
+ * go-live.sh calls --run-staged itself, before it touches any file, so the
+ * re-date cannot be forgotten and a failure cannot leave a half-launched
+ * site. See the pre-flight section in that script.
  */
 
 const fs   = require('fs');
@@ -64,15 +80,125 @@ const QDIR = path.join(__dirname, '..', 'questions-src');
 // If they drift the client requests a day the server has not published yet.
 const PUBLISH_OFFSET_HOURS = 5;
 
+/* Firebase's own error for an expired ADC blames a "certificate key file"
+ * that may not exist — this project authenticates with gcloud ADC, not a
+ * key — and sends you to the service-accounts console, which is the wrong
+ * place entirely. Translate it.
+ *
+ * The distinction that causes this: `gcloud auth login` refreshes the
+ * gcloud CLI's own credential; `gcloud auth application-default login`
+ * refreshes the one Node and firebase-admin read. They expire separately,
+ * and a Workspace reauth policy expires both on a schedule. */
+function explainCredentialError(e) {
+  var m = String((e && e.message) || e);
+  if (/invalid_rapt|reauth related error/.test(m)) {
+    return 'Your application-default credential needs reauthentication.\n\n' +
+           '  gcloud auth application-default login\n\n' +
+           'Note this is NOT the same as `gcloud auth login`, which refreshes\n' +
+           'the gcloud CLI only. Nothing is wrong with any key file.';
+  }
+  if (/invalid_grant/.test(m)) {
+    return 'The application-default credential was rejected (invalid_grant).\n\n' +
+           '  gcloud auth application-default login';
+  }
+  if (/PERMISSION_DENIED|insufficient permissions/i.test(m)) {
+    return 'Authenticated, but this account lacks permission on the project.\n' +
+           'Check: gcloud projects get-iam-policy fact-royale';
+  }
+  return m;
+}
+
+/* ── The staged re-date ───────────────────────────────────────────────
+ *
+ * PENDING-REPUBLISH.json sits at the repo root, tracked, deliberately
+ * SHOUTY in a directory listing and in `git status`. It is not in .local/
+ * and not a dotfile: the whole point is that it is impossible to miss.
+ *
+ * It holds an intent, not data — which day the catalogue starts from and
+ * how many days to publish — because the one value that matters, the date
+ * the run starts on, is not knowable until the site actually comes back up.
+ *
+ * It is also the idempotency guard. Once executed, the file records when
+ * and onto which start date, and --run-staged refuses to run again. That
+ * refusal is the important part: a second run would re-date the whole
+ * catalogue onto a NEW today, silently moving every quiz. go-live.sh can
+ * be run twice (a failed push, a half-finished restore) and must not
+ * reshuffle the content on the second pass.
+ */
+const PLAN = path.join(__dirname, '..', 'PENDING-REPUBLISH.json');
+
+function today() {
+  return new Date().toISOString().slice(0, 10);
+}
+
+function readPlan() {
+  if (!fs.existsSync(PLAN)) return null;
+  try { return JSON.parse(fs.readFileSync(PLAN, 'utf8')); }
+  catch (e) {
+    console.error(`\n${path.basename(PLAN)} is not readable as JSON: ${e.message}`);
+    console.error('Fix or delete it. Nothing will run while it is malformed.');
+    process.exit(1);
+  }
+}
+
 function parseArgs(argv) {
-  const a = { dryRun: false, from: null, only: null, publishAs: null, limit: null };
+  const a = { dryRun: false, from: null, only: null, publishAs: null, limit: null,
+              stage: false, runStaged: false, force: false };
   for (let i = 0; i < argv.length; i++) {
     if (argv[i] === '--dry-run') a.dryRun = true;
     else if (argv[i] === '--from') a.from = argv[++i];
     else if (argv[i] === '--only') a.only = argv[++i];
     else if (argv[i] === '--publish-as') a.publishAs = argv[++i];
     else if (argv[i] === '--limit') a.limit = parseInt(argv[++i], 10);
+    else if (argv[i] === '--stage') a.stage = true;
+    else if (argv[i] === '--run-staged') a.runStaged = true;
+    else if (argv[i] === '--force') a.force = true;
     else { console.error(`unknown argument: ${argv[i]}`); process.exit(2); }
+  }
+
+  if (a.stage && a.runStaged) {
+    console.error('--stage and --run-staged are opposites. Pick one.');
+    process.exit(2);
+  }
+
+  // --stage is a full rehearsal that happens to leave a note behind. Making
+  // it literally a dry run means it exercises the same code path as the real
+  // thing rather than a parallel one that can drift out of agreement with it.
+  if (a.stage) {
+    if (!a.from || !a.limit) {
+      console.error('--stage needs --from <date> and --limit <n>, so the span is stated rather than implied.');
+      process.exit(2);
+    }
+    if (a.publishAs) {
+      console.error('--stage cannot take --publish-as: the start date is resolved on launch day,\n' +
+                    'which is the entire reason this mode exists.');
+      process.exit(2);
+    }
+    a.dryRun   = true;
+    a.publishAs = today();   // preview only; recomputed by --run-staged
+  }
+
+  if (a.runStaged) {
+    if (a.from || a.only || a.limit || a.publishAs) {
+      console.error('--run-staged takes its span from PENDING-REPUBLISH.json. Do not also pass --from/--limit.');
+      process.exit(2);
+    }
+    const plan = readPlan();
+    if (!plan) {
+      console.error(`\nNo ${path.basename(PLAN)} to run. Stage one first:\n` +
+                    '  node tools/migrate-to-firestore.js --stage --from <date> --limit <n>');
+      process.exit(1);
+    }
+    if (plan.executed && !a.force) {
+      console.error(`\nAlready executed on ${plan.executed.at}, publishing from ${plan.executed.publishedFrom}.`);
+      console.error('Refusing to run again: a second run would re-date the whole catalogue onto');
+      console.error("today's date and move every quiz out from under anyone mid-streak.");
+      console.error('\nIf that is genuinely what you want:  --run-staged --force');
+      process.exit(1);
+    }
+    a.from      = plan.from;
+    a.limit     = plan.limit;
+    a.publishAs = today();
   }
 
   // --publish-as writes one source day under a DIFFERENT date key. It exists
@@ -231,7 +357,11 @@ async function main() {
     const sourceKey = f.slice(0, -5);
     // The key the documents are written under. Normally the source date.
     const dateKey   = args.publishAs ? addDays(args.publishAs, offset++) : sourceKey;
-    if (args.publishAs) {
+    // One line per day is useful when re-dating a handful by hand. For the
+    // staged run it is 82 lines that bury the summary and, on failure, the
+    // error — so the staged path reports the first and last dates only,
+    // which is the whole of what you need to check.
+    if (args.publishAs && !args.stage && !args.runStaged) {
       console.log(`publishing ${sourceKey} AS ${dateKey}`);
     }
     const data = JSON.parse(fs.readFileSync(path.join(QDIR, f), 'utf8'));
@@ -334,6 +464,39 @@ async function main() {
     process.exit(1);
   }
 
+  if (args.stage) {
+    const existing = readPlan();
+    if (existing && existing.executed && !args.force) {
+      console.error(`\n${path.basename(PLAN)} already records an executed run on ${existing.executed.at}.`);
+      console.error('Re-staging would arm a second re-date of the same catalogue.');
+      console.error('If the content really needs republishing, say so explicitly:  --stage ... --force');
+      process.exit(1);
+    }
+    fs.writeFileSync(PLAN, JSON.stringify({
+      _what: 'A re-date of the question catalogue, armed and waiting for launch day.',
+      _who:  'Written by tools/migrate-to-firestore.js --stage. Executed by go-live.sh,',
+      _how:  'or by hand: node tools/migrate-to-firestore.js --run-staged',
+      _note: 'The start date is deliberately absent. It is resolved to the day the ' +
+             'run actually happens, because that is the day the site comes back up.',
+      from:    args.from,
+      limit:   args.limit,
+      days:    payloads.length,
+      questions: payloads.reduce((n, p) => n + p.quiz.questionCount, 0),
+      stagedAt: new Date().toISOString(),
+      executed: null
+    }, null, 2) + '\n');
+
+    console.log(`\nSTAGED - rehearsed in full, nothing written to Firestore.`);
+    console.log(`  plan        ${path.basename(PLAN)}`);
+    console.log(`  catalogue   ${payloads.length} days from ${args.from}`);
+    console.log(`  start date  resolved on launch day (previewed above as ${args.publishAs})`);
+    console.log(`\nIt now runs by itself:  ./go-live.sh`);
+    console.log(`Or on its own:          node tools/migrate-to-firestore.js --run-staged`);
+    console.log(`\nCommit the plan file so it is visible in the repo:`);
+    console.log(`  git add ${path.basename(PLAN)} && git commit -m "Arm the launch-day re-date"`);
+    return;
+  }
+
   if (args.dryRun) {
     console.log('\nDRY RUN - credential checked, nothing written. Drop --dry-run to write.');
     return;
@@ -394,7 +557,27 @@ async function main() {
   }
 
   console.log(`\nWrote ${written} days to quizzes/ and quizKeys/.`);
-  console.log('Nothing on the site reads these yet. That is phase 2.');
+
+  // The stamp goes on AFTER the commits, never before. If the batch throws
+  // half way the plan stays unexecuted and the next run picks it up again —
+  // the writes are idempotent, so re-running costs nothing but re-running
+  // something recorded as done would silently shift every date.
+  if (args.runStaged) {
+    const plan = readPlan() || {};
+    plan.executed = {
+      at: new Date().toISOString(),
+      publishedFrom: args.publishAs,
+      through: payloads[payloads.length - 1].quiz.date,
+      days: payloads.length
+    };
+    fs.writeFileSync(PLAN, JSON.stringify(plan, null, 2) + '\n');
+    console.log(`\nThe staged re-date is done and stamped as executed.`);
+    console.log(`  published   ${args.publishAs} through ${plan.executed.through}`);
+    console.log(`  plan file   ${path.basename(PLAN)}  (commit it)`);
+    console.log(`\nIt will not run a second time. --run-staged --force overrides that.`);
+  } else {
+    console.log('Nothing on the site reads these yet. That is phase 2.');
+  }
 }
 
-main().catch(e => { console.error(e); process.exit(1); });
+main().catch(e => { console.error('\n' + explainCredentialError(e)); process.exit(1); });

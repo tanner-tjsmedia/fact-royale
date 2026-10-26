@@ -10,28 +10,46 @@ things already proven, and things being accepted knowingly.
 
 ## A. Blockers
 
-### A1. Content runs out on 2026-10-26
+### A1. Content dates — RESOLVED, armed for launch day
 
-The hardest number here. Firestore holds 82 historical days (2026-06-13 to
-2026-09-06, all in the past) plus 14 re-dated onto **Oct 13-26**. After Oct 26
-there is no document for any date, and the quiz will not load at all - not
-degrade, not fall back. The static fallback is gone on purpose.
+Firestore holds 82 historical days (2026-06-13 to 2026-09-06, all in the
+past) plus 14 re-dated onto Oct 13-26 for testing. With every document in
+the past there is no "today" to load, and the quiz does not degrade or fall
+back — it does not load at all. The static fallback is gone on purpose.
 
-So launching today buys a one-week runway.
+**Decision: re-date the whole back catalogue onto the launch day.** 82 days
+is roughly three months of runway. 80 of those days were served live between
+June and September, so returning players will see repeats; with the current
+user base that is accepted. Old `scores/` rows are keyed by the old dates, so
+nothing collides.
 
-Options, and this is a decision not a task:
+This could not simply be done early, because the one value that matters —
+the date the run starts on — is the day the site actually comes back up. So
+it is **armed in advance and fired by `go-live.sh`** rather than remembered:
 
-- **Re-date the back catalogue.** `--publish-as` already does it:
-  `node tools/migrate-to-firestore.js --from 2026-08-23 --limit 30 --publish-as 2026-10-27`
-  Cheap, instant, and it will serve returning players questions they have
-  already answered. With a small user base that may be acceptable; it also
-  means their old `scores/` rows and the new ones are for different dates, so
-  nothing collides.
-- **Author new days.** Correct, slow, and gated on the sourcing standard
-  below.
-- **Launch short on purpose** with a stated end date and fill behind it.
+```
+# now, once: rehearses the whole thing including credentials
+node tools/migrate-to-firestore.js --stage --from 2026-06-13 --limit 82
+git add PENDING-REPUBLISH.json && git commit -m "Arm the launch-day re-date"
 
-Pick one before go-live, not after.
+# launch day: runs the re-date itself, first, before any file moves
+./go-live.sh
+```
+
+`PENDING-REPUBLISH.json` is tracked at the repo root on purpose — loud in a
+listing and in `git status`. It records the intent, not the dates, and once
+executed it records that too and refuses to run a second time. That refusal
+matters: a second run would re-date everything onto a new today and move
+every quiz out from under anyone mid-streak.
+
+If the re-date fails on launch day (an expired credential is the likely
+cause), `go-live.sh` aborts before touching a single file. The holding page
+stays up and nothing is stamped, so fixing the credential and re-running is
+the whole recovery.
+
+**Authoring new days** is still the correct long-term answer and is gated on
+the sourcing standard below — 118 of 984 questions are sourced, 7 days fully.
+That work now has three months of runway behind it instead of one week.
 
 ### A2. The signed-in path has never executed
 

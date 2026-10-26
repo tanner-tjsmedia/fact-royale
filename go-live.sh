@@ -67,12 +67,73 @@ echo
 # script's behaviour instead of running it.
 if [ "${1:-}" = "--dry-run" ]; then
   echo "== DRY RUN - nothing will change =="
+  if [ -f PENDING-REPUBLISH.json ]; then
+    if grep -q '"executed": null' PENDING-REPUBLISH.json; then
+      echo "  would re-date  the question catalogue, start date = $(date -u +%F):"
+      node -e 'const p=require("./PENDING-REPUBLISH.json");console.log(`                 ${p.days} days (${p.questions} questions) from ${p.from}`)' 2>/dev/null || true
+    else
+      echo "  re-date already executed - would skip"
+    fi
+  else
+    echo "  no PENDING-REPUBLISH.json - no re-date staged"
+  fi
   echo "  would delete   index.html  (the Under Siege holding page)"
   for f in _app/*; do echo "  would restore  $(basename "$f")"; done
   echo "  would delete   404.html"
   echo
   echo "Run without --dry-run to do it. The site goes public at the next push."
   exit 0
+fi
+
+# ── The staged content re-date ───────────────────────────────────────
+#
+# The catalogue's source dates run June-September 2026. Published as-is,
+# every quiz is in the past and there is no "today" to load: the site comes
+# up and the homepage cannot find a quiz. So the days have to be re-dated to
+# start on the day the site actually returns — which is today, and was not
+# knowable when the decision to do it was made.
+#
+# That made it exactly the kind of step that gets missed. So it is armed in
+# advance (--stage, which rehearses the whole thing including credentials)
+# and fired from here rather than remembered.
+#
+# It runs FIRST, before a single file moves. If the credential has expired or
+# the write fails, the repo is untouched and the holding page is still up. A
+# launch that dies here is a launch that did not happen, which is the correct
+# outcome; a launch that dies after the restore is a broken public site.
+if [ -f PENDING-REPUBLISH.json ] && grep -q '"executed": null' PENDING-REPUBLISH.json; then
+  echo "== staged content re-date =="
+  echo "  publishing the catalogue from $(date -u +%F)"
+  if ! node tools/migrate-to-firestore.js --run-staged; then
+    cat <<'EOF'
+
+ABORTED - the content re-date failed, so nothing was restored.
+
+The holding page is still up and the repo is untouched. Most likely the
+application-default credential expired:
+
+    gcloud auth application-default login
+
+Then run ./go-live.sh again. The re-date is idempotent and has not been
+stamped as executed, so it picks up where it left off.
+EOF
+    exit 1
+  fi
+  echo
+elif [ -f PENDING-REPUBLISH.json ]; then
+  echo "== staged content re-date: already executed, skipping =="
+  node -e 'const e=require("./PENDING-REPUBLISH.json").executed;console.log(`  published ${e.publishedFrom} through ${e.through} on ${e.at.slice(0,10)}`)' 2>/dev/null || true
+  echo
+else
+  cat <<'EOF'
+== staged content re-date: NONE ==
+  No PENDING-REPUBLISH.json. If the catalogue has not been re-dated by hand,
+  every quiz is still dated June-September and the site will come up with no
+  quiz for today. Check, or stage one:
+
+      node tools/migrate-to-firestore.js --stage --from 2026-06-13 --limit 82
+
+EOF
 fi
 
 echo "== restoring public entry points =="

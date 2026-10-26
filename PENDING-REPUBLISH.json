@@ -1,0 +1,12 @@
+{
+  "_what": "A re-date of the question catalogue, armed and waiting for launch day.",
+  "_who": "Written by tools/migrate-to-firestore.js --stage. Executed by go-live.sh,",
+  "_how": "or by hand: node tools/migrate-to-firestore.js --run-staged",
+  "_note": "The start date is deliberately absent. It is resolved to the day the run actually happens, because that is the day the site comes back up.",
+  "from": "2026-06-13",
+  "limit": 82,
+  "days": 82,
+  "questions": 984,
+  "stagedAt": "2026-10-26T01:52:10.037Z",
+  "executed": null
+}
