@@ -388,10 +388,12 @@ exports.submitQuiz = onCall({ region: 'us-central1', cors: true }, async (req) =
 
   const perQuestion = {};
   let score = 0;
+  let answered = 0;
   Object.keys(solutions).forEach((qid) => {
     const given   = committed[qid] ? committed[qid].choice : null;
     const correct = (typeof given === 'number') && given === solutions[qid];
     if (correct) score++;
+    if (given !== null) answered++;
     perQuestion[qid] = {
       correct,
       answered:     given !== null,
@@ -399,6 +401,24 @@ exports.submitQuiz = onCall({ region: 'us-central1', cors: true }, async (req) =
       explanation:  explanations[qid] || ''
     };
   });
+
+  // A PARTIAL ATTEMPT NEVER TAKES THE ROW.
+  //
+  // This is not hypothetical. On 2026-10-26 a test account signed up
+  // mid-quiz; claimTodaysRow() called this function with two questions
+  // answered, it wrote score 0, and when the player finished the real
+  // submission hit the `existing.exists` guard below and was discarded as
+  // a replay. The leaderboard kept the 0 permanently while the player's
+  // own profile correctly showed 7 of 12. The row is write-once, so the
+  // first write has to be the real one.
+  //
+  // Returning rather than throwing: the caller did nothing wrong. Signing
+  // up part-way through a quiz is a normal thing to do, and claimTodaysRow
+  // is supposed to be a no-op when there is nothing yet to claim.
+  if (answered < total) {
+    return { score, total, perQuestion, recorded: false,
+             reason: 'incomplete', answered };
+  }
 
   // Anonymous players are graded but not ranked. A leaderboard row needs a
   // profile name, and an anonymous uid has none; the signup nudge on the

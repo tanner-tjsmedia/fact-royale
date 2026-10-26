@@ -348,7 +348,13 @@ async function claimTodaysRow() {
     const key = (typeof getTodayKey === 'function') ? getTodayKey() : null;
     if (!key) return;
     const res = await finalizeQuizRemote(key);
+    // Say what happened either way. This used to log only on success, so
+    // the day a signup mid-quiz wrote a score-0 row and locked the real
+    // score out of the leaderboard, the console said nothing at all.
+    // The server now refuses a partial attempt; this makes the refusal
+    // visible instead of silent.
     if (res && res.recorded) console.info('[FR] leaderboard row claimed for', key);
+    else if (res) console.info('[FR] no row claimed for', key, '-', res.reason || 'already recorded');
   } catch (e) { /* best effort: signup must not fail on this */ }
 }
 

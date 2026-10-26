@@ -420,8 +420,26 @@ textarea.fc-field { resize: vertical; min-height: 110px; line-height: var(--lh-b
 .opt { width: 100%; text-align: left; font-family: inherit; color: inherit; }
 
 /* The quiz screen's own vertical rhythm. The old style.css centred this
-   with rules tied to .question-card, which no longer exists. */
-#screen-quiz.screen { display: block; padding: 0 0 clamp(60px,12vh,120px); }
+   with rules tied to .question-card, which no longer exists.
+
+   NO `display` HERE. It used to say `display: block`, and because
+   #screen-quiz.screen is an id selector it outranked style.css's
+   `.screen { display: none }` in every state — so the quiz screen was
+   never hidden. Clicking "See results" added .active to #screen-results
+   as designed, but the quiz stayed on the page above it and the results
+   read as a continuation of the last question instead of a screen of
+   their own.
+
+   Visibility belongs to the .screen / .screen.active pair and to nothing
+   else. This rule owns spacing and direction, never display.
+
+   style.css turns this screen into a flex container when active
+   (`#screen-quiz.active { display: flex }`). That was written for the old
+   single-child layout; the rebuilt screen has three children, so without
+   a direction they lay out in a row. Set the direction, not the display —
+   this rule then applies in both states and changes visibility in
+   neither. */
+#screen-quiz.screen { flex-direction: column; padding: 0 0 clamp(60px,12vh,120px); }
 #screen-quiz .segs   { margin-top: clamp(26px,5vh,46px); }
 #screen-quiz .question { margin: 0 0 clamp(22px,3.5vh,32px); }
 #screen-quiz .feedback-box { margin-top: clamp(20px,3vh,28px); }
