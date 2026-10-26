@@ -85,12 +85,109 @@ h2 { font-size: clamp(22px, 3.2vw, 31px); letter-spacing: -.022em; line-height: 
 .navlinks .is-cta { color: var(--gold); font-weight: 600; }
 @media (max-width: 620px) { .navlinks > :not(.is-cta) { display: none; } }
 
-.sitefoot { border-top: 1px solid var(--line); }
+/* ── site footer ─────────────────────────────────────────────
+   Markup comes from _app/footer.js, which is the single owner. Nothing
+   here is page-specific: the same footer renders on index, groups and
+   mastery, so any rule that needs a page name is in the wrong file.
+
+   .sitefoot__in is the OLD one-line footer, kept only because
+   #legacy-landing still contains markup that uses it. It goes with that
+   block in Phase 4.                                                   */
+.sitefoot { border-top: 1px solid var(--line); margin-top: var(--s-9);
+  background: linear-gradient(180deg, transparent, var(--surface)); }
 .sitefoot__in {
   display: flex; justify-content: space-between; align-items: center;
   padding: var(--s-5) 0; font-size: 12.5px; color: var(--fg-subtle);
   flex-wrap: wrap; gap: var(--s-3);
 }
+
+.sitefoot__charter { padding: var(--s-7) var(--s-5) var(--s-6); }
+
+.sitefoot__mark { display: flex; align-items: center; gap: var(--s-3);
+  flex-wrap: wrap; justify-content: center; text-align: center; }
+.foot-crest { width: 26px; height: auto; flex: none; }
+.sitefoot__mark b { font-family: var(--font-display); font-size: var(--t-md);
+  color: var(--fg); letter-spacing: .01em; }
+.sitefoot__mark i { font-style: normal; color: var(--fg-subtle);
+  font-size: var(--t-sm); }
+
+/* Three columns that become one on a phone. auto-fit rather than a fixed
+   count so adding a fourth column never needs a new breakpoint. */
+.sitefoot__cols { display: grid; gap: var(--s-6);
+  grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); }
+.sitefoot__col { display: flex; flex-direction: column; align-items: flex-start;
+  gap: var(--s-2); }
+.sitefoot__head { font-family: var(--font-display); font-size: 11px;
+  letter-spacing: var(--tracking-caps); text-transform: uppercase;
+  color: var(--gold); margin: 0 0 var(--s-1); font-weight: 700; }
+.sitefoot__col a { color: var(--fg-muted); text-decoration: none;
+  font-size: var(--t-sm); line-height: 1.9; }
+.sitefoot__col a:hover { color: var(--gold); }
+.sitefoot__col a.is-here { color: var(--fg); }
+.sitefoot__note { color: var(--fg-subtle); font-size: 12.5px; margin: 0 0 var(--s-2);
+  line-height: var(--lh-body); }
+
+.sitefoot__seal { display: flex; align-items: center; justify-content: center;
+  gap: var(--s-2); color: var(--fg-faint); font-size: 12px; }
+
+/* ── document pages (privacy, terms) ─────────────────────────
+   One measure, generous leading, nothing clever. These are pages people
+   read when they are already slightly annoyed, so legibility beats
+   personality. The heraldic trim is limited to a single .hrule under the
+   title; a wax seal on a privacy notice reads as a joke. */
+.doc { max-width: 68ch; padding-top: var(--s-8); padding-bottom: var(--s-9); }
+.doc__title { font-family: var(--font-display); font-size: var(--t-2xl);
+  color: var(--fg); margin: 0; line-height: var(--lh-tight); }
+.doc__meta { color: var(--fg-faint); font-size: 12.5px; margin: var(--s-2) 0 0; }
+.doc__lede { color: var(--fg-muted); font-size: var(--t-md);
+  line-height: var(--lh-body); margin: 0 0 var(--s-6); }
+.doc h2 { font-family: var(--font-display); font-size: var(--t-lg);
+  color: var(--gold); margin: var(--s-7) 0 var(--s-3); line-height: var(--lh-snug); }
+.doc h3 { font-family: var(--font-display); font-size: var(--t-base);
+  color: var(--fg); margin: var(--s-5) 0 var(--s-2); }
+.doc p, .doc li { color: var(--fg-muted); line-height: 1.75;
+  font-size: var(--t-sm); margin: 0 0 var(--s-3); }
+.doc ul { margin: 0 0 var(--s-4); padding-left: 1.2em; }
+.doc b { color: var(--fg); font-weight: 600; }
+.doc a { color: var(--gold); }
+
+/* ── contact dialog ──────────────────────────────────────────
+   Markup from _app/contact.js. Named fc-* rather than modal-* because
+   style.css owns .modal-card and .modal-close with the pre-rebuild
+   treatment; borrowing those classes would import that look wholesale. */
+.fc-modal { position: fixed; inset: 0; z-index: 90; display: none;
+  align-items: center; justify-content: center; padding: var(--s-4);
+  background: rgba(4, 4, 10, .72); backdrop-filter: blur(3px); }
+.fc-card { position: relative; width: min(460px, 100%);
+  max-height: 90vh; overflow-y: auto;
+  background: linear-gradient(180deg, var(--surface-2), var(--surface));
+  border: 1px solid var(--line-gold); border-radius: var(--r-lg);
+  padding: var(--s-6) var(--s-5); box-shadow: var(--shadow-3); }
+.fc-x { position: absolute; top: 10px; right: 12px; background: none; border: 0;
+  color: var(--fg-subtle); font-size: 22px; line-height: 1; cursor: pointer;
+  padding: 4px 8px; border-radius: var(--r-sm); }
+.fc-x:hover { color: var(--fg); background: var(--surface-3); }
+.fc-lede { color: var(--fg-muted); font-size: var(--t-sm);
+  line-height: var(--lh-body); margin: 0 0 var(--s-5); }
+.fc-label { display: block; font-size: 11px; letter-spacing: var(--tracking-caps);
+  text-transform: uppercase; color: var(--fg-subtle); margin: var(--s-4) 0 var(--s-2);
+  font-family: var(--font-display); }
+.fc-field { width: 100%; background: var(--bg); color: var(--fg);
+  border: 1px solid var(--line); border-radius: var(--r-sm);
+  padding: 11px 13px; font-family: var(--font-body); font-size: var(--t-sm); }
+.fc-field:focus { outline: none; border-color: var(--gold-line);
+  box-shadow: 0 0 0 3px var(--gold-wash); }
+textarea.fc-field { resize: vertical; min-height: 110px; line-height: var(--lh-body); }
+.fc-error { color: var(--bad-ink); font-size: 12.5px; min-height: 16px;
+  margin: var(--s-3) 0 0; }
+#fc-send { width: 100%; margin-top: var(--s-3); }
+.fc-fine { color: var(--fg-faint); font-size: 11.5px; margin: var(--s-4) 0 0;
+  text-align: center; line-height: var(--lh-body); }
+.fc-fine a { color: var(--fg-subtle); }
+.fc-done { display: flex; align-items: center; gap: var(--s-3);
+  color: var(--fg-muted); font-size: var(--t-sm); line-height: var(--lh-body);
+  margin: 0; padding: var(--s-4) 0; }
+.fc-done b { color: var(--fg); }
 
 /* ── buttons ────────────────────────────────────────────────── */
 .btn {

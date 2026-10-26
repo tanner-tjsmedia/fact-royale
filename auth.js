@@ -170,6 +170,10 @@ document.getElementById('form-login').addEventListener('submit', async (e) => {
     await auth.signInWithEmailAndPassword(email, password);
     closeAuthModal();
   } catch (err) {
+    // See the note in the signup handler: the friendly message is
+    // deliberately vague, so the real code has to go somewhere. Without it
+    // a failed sign-in is undiagnosable from the browser.
+    console.error('[FR] sign-in failed:', err.code || err.message, err);
     errorEl.textContent = friendlyAuthError(err.code);
     btn.textContent     = 'Sign In';
     btn.disabled        = false;
@@ -179,14 +183,12 @@ document.getElementById('form-login').addEventListener('submit', async (e) => {
 // ── Log signup to Google Sheet ─────────────────────────
 // Fires on new account creation (email or Google).
 // Uses the same Apps Script endpoint as the notify form.
-const SHEET_URL = 'https://script.google.com/macros/s/AKfycbzCboRQs6V2YbKuUTSnGIdMXZIPlmYl2jLZVMnbvapVNlDIOKlQgLmsW1Qqjsc1BkoK/exec';
-
+// The URL used to be declared here as SHEET_URL, and again in quiz.js as
+// SIGNUP_URL. Same string, two owners. It now lives in firebase-config.js
+// as FR_SHEET_URL, with frPostToSheet() wrapping the post.
 function logSignupToSheet(email, displayName, firstName, lastName, source) {
-  fetch(SHEET_URL, {
-    method: 'POST',
-    mode:   'no-cors',
-    body:   new URLSearchParams({ email, name: displayName, firstName, lastName, source })
-  }).catch(() => {}); // fire-and-forget, never block the signup flow
+  frPostToSheet({ email, name: displayName, firstName, lastName, source })
+    .catch(() => {}); // fire-and-forget, never block the signup flow
 }
 
 // ── Email Sign Up ──────────────────────────────────────
@@ -209,14 +211,42 @@ document.getElementById('form-signup').addEventListener('submit', async (e) => {
   btn.disabled    = true;
 
   try {
+    // Everything the PERSON is waiting for, and nothing else.
+    //
+    // This used to await five things before closing the modal, the last of
+    // which was claimTodaysRow() -> finalizeQuizRemote() -> a Cloud Function
+    // call. On a cold start that is ten seconds or more of a modal stuck on
+    // "Creating account…" while the account already exists. People reload,
+    // and reloading is how they discover they are signed in.
+    //
+    // The account exists the moment these two resolve. The rest is
+    // bookkeeping that the player does not need to watch, so it runs after
+    // the modal is gone and reports to the console rather than to a button.
     const cred = await upgradeOrCreateEmailAccount(email, password);
     await cred.user.updateProfile({ displayName: name });
-    await createUserProfile(cred.user, name, firstName, lastName);
-    logSignupToSheet(email, name, firstName, lastName, 'account');
-    await linkPendingChallenge(cred.user);
-    await claimTodaysRow();
     closeAuthModal();
+
+    // Deliberately not awaited. Each of these already swallows its own
+    // errors; the only one that can fail loudly is createUserProfile, and a
+    // missing profile document is repaired by migrateAndReconcileStats() on
+    // the next auth state change.
+    (async () => {
+      try {
+        await createUserProfile(cred.user, name, firstName, lastName);
+        logSignupToSheet(email, name, firstName, lastName, 'account');
+        await linkPendingChallenge(cred.user);
+        await claimTodaysRow();
+      } catch (e) {
+        console.error('[FR] post-signup bookkeeping failed:', e.code || e.message, e);
+      }
+    })();
   } catch (err) {
+    // The code, not just the friendly text. friendlyAuthError() deliberately
+    // says little - Email Enumeration Protection means a wrong password, a
+    // missing account and a wrong sign-in method all produce the same
+    // auth/invalid-credential - but swallowing the code entirely left
+    // nothing to debug from. It belongs in the console, not on screen.
+    console.error('[FR] signup failed:', err.code || err.message, err);
     errorEl.textContent = friendlyAuthError(err.code);
     btn.textContent     = 'Create Account';
     btn.disabled        = false;
@@ -1216,7 +1246,15 @@ function friendlyAuthError(code) {
   const map = {
     'auth/user-not-found':         'No account found with that email.',
     'auth/wrong-password':         'Incorrect password.',
-    'auth/invalid-credential':     'Incorrect email or password.',
+    /* This project has Email Enumeration Protection on, so Firebase returns
+       invalid-credential for a wrong password AND for an address that has
+       no account AND for an account that exists with a different sign-in
+       method. The old copy said "Incorrect email or password", which is a
+       confident claim the app cannot actually make, and it sends someone
+       hunting for a typo when the real answer may be that they signed up
+       with Google. */
+    'auth/invalid-credential':     'That did not match. Check the address, or try ' +
+                                   'Continue with Google if that is how you signed up.',
     'auth/email-already-in-use':   'That email is already registered. Try signing in.',
     'auth/invalid-email':          'Please enter a valid email address.',
     'auth/weak-password':          'Password must be at least 6 characters.',

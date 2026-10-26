@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<!--
+  PRIVACY — DRAFT, NOT REVIEWED BY A LAWYER.
+
+  Written from what the code actually does, not from a template: every
+  claim below was checked against auth.js, quiz.js, firebase-config.js,
+  notifications.js and firestore.rules. That makes it accurate, which is
+  the hard part of a privacy notice and the part templates get wrong.
+
+  It does NOT make it legally sufficient. Fact Royale has signed-up users
+  in the EU and collects names and email addresses, so this needs review
+  by someone qualified before launch.
+
+  Controller: Takt16, Amsterdam, Netherlands (confirmed by Tanner,
+  2026-10-26). Retention for contact messages set to 24 months.
+
+  STILL THIN, and a reviewer will probably say so: GDPR Art. 13 wants the
+  controller's identity AND contact details. A city is not an address. If
+  Takt16 is a registered entity, a street address and KvK number are what
+  a Dutch reviewer will expect here. The contact form is offered as the
+  contact route, which may or may not be judged sufficient on its own.
+-->
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Privacy · Fact Royale</title>
+  <meta name="robots" content="index,follow" />
+  <link rel="icon" href="favicon.svg" />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="tokens.css?v=2" />
+  <link rel="stylesheet" href="app.css?v=7" />
+</head>
+<body>
+
+<header class="nav">
+  <div class="wrap navbar">
+    <a class="brand" href="index.html">&#9819; Fact Royale</a>
+    <nav class="navlinks">
+      <a href="index.html">Play</a>
+      <a href="terms.html">Terms</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap doc">
+  <h1 class="doc__title">Privacy</h1>
+  <p class="doc__meta">Last updated <time datetime="2026-10-26">26 October 2026</time></p>
+
+  <div class="hrule"><i></i></div>
+
+  <p class="doc__lede">Fact Royale is a daily quiz. It needs very little about you,
+  and this page says exactly what it keeps and why, in the order you would
+  actually ask.</p>
+
+  <h2>Who is responsible</h2>
+  <p>Fact Royale is run by <b>Takt16</b>, Amsterdam, the Netherlands. Takt16 is the
+  data controller for everything described on this page. For anything here,
+  write to us through the contact form in the footer of any page.</p>
+
+  <h2>What we collect</h2>
+
+  <h3>If you only play</h3>
+  <p>You do not need an account. The moment you open a quiz, we create an
+  anonymous identifier for your browser. It is a random string. It is not
+  linked to your name, your email, or anything else about you, and we use it
+  for one thing: to record which answer you gave to which question, so the
+  same question cannot be answered twice. Your answers and your score are
+  stored against that identifier.</p>
+
+  <h3>If you create an account</h3>
+  <p>We ask for your <b>first name, last name, a display name, and an email
+  address</b>. If you sign in with Google instead, we receive your name and
+  email address from Google. We store these so that you can sign back in, so
+  the leaderboard can show who you are, and so we can reach you about your
+  account.</p>
+  <p>Alongside that we keep your quiz record: which days you played, how many
+  questions you answered, how many you got right, your streak, and your
+  results by category. That is the product &mdash; without it there is no
+  streak and no Royal Record.</p>
+
+  <h3>If you contact us or ask to be notified</h3>
+  <p>Your message, your email address, and the topic you picked are sent to a
+  Google Sheet we use as an inbox. If you asked to be told when the quiz
+  returns, we keep your name and email on that sheet until we have told you.</p>
+
+  <h3>Notifications</h3>
+  <p>If &mdash; and only if &mdash; you accept the browser prompt, we store a push
+  token so we can send you a daily reminder. Declining costs you nothing else.
+  You can revoke it in your browser settings at any time.</p>
+
+  <h3>What we do not do</h3>
+  <p>We do not sell your data. We do not share it with advertisers. There is no
+  advertising network on this site, no third-party analytics beyond what
+  Firebase provides, and no tracking pixels.</p>
+
+  <h2>Why we are allowed to hold it</h2>
+  <p>Under the GDPR we rely on two grounds. Your account details and quiz
+  record are held because they are <b>necessary to provide the service you
+  asked for</b> &mdash; you cannot have a leaderboard position without a name on
+  it. Notifications and the notify-me list rely on <b>your consent</b>, which you
+  give by opting in and can withdraw at any time.</p>
+
+  <h2>Who else sees it</h2>
+  <p>Two companies process data on our behalf:</p>
+  <ul>
+    <li><b>Google</b> (Firebase Authentication, Cloud Firestore, Cloud Functions,
+      Cloud Messaging, Apps Script and Sheets) stores your account, your quiz
+      record and any message you send us.</li>
+    <li><b>GitHub</b> (GitHub Pages) serves the website itself and will see your
+      IP address in its server logs, as any web host does.</li>
+  </ul>
+  <p>Both are US companies and data may be processed outside the EU under the
+  transfer mechanisms in their own terms.</p>
+
+  <h2>How long we keep it</h2>
+  <p>Your account and quiz record are kept for as long as the account exists.
+  Delete the account and they go with it. Messages sent through the contact
+  form are kept for as long as they are useful to answer, and no more than
+  24 months.</p>
+
+  <h2>What you can ask for</h2>
+  <p>You can ask us to show you what we hold, correct it, delete it, hand it to
+  you in a portable form, or stop using it. You can withdraw consent for
+  notifications without affecting anything else. Ask through the contact form
+  and we will answer within one month.</p>
+  <p>If you think we have handled your data badly, you can complain to your
+  national data protection authority &mdash; in the Netherlands, the
+  <i>Autoriteit Persoonsgegevens</i>, which is the authority for where Takt16
+  is established.</p>
+
+  <h2>Cookies and local storage</h2>
+  <p>We do not use advertising or analytics cookies. Firebase sets what it
+  needs to keep you signed in, and the site keeps a few things in your
+  browser's local storage &mdash; which quiz you are part-way through, whether
+  you have dismissed a prompt. Clearing your browser data clears them, and the
+  site still works.</p>
+
+  <h2>Children</h2>
+  <p>Fact Royale is not aimed at children and we do not knowingly create
+  accounts for anyone under 16. If you believe a child has an account, contact
+  us and we will remove it.</p>
+
+  <h2>Changes</h2>
+  <p>If this page changes in a way that matters, we will say so on the site
+  rather than quietly editing the date at the top.</p>
+</main>
+
+<script src="sheet.js?v=1"></script>
+<script src="contact.js?v=1"></script>
+<script src="footer.js?v=1"></script>
+</body>
+</html>

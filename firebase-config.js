@@ -96,6 +96,14 @@ function realUser() {
 }
 
 
+/* The Apps Script endpoint (FR_SHEET_URL, frPostToSheet) briefly lived
+   here, on the reasoning that every page loads this file. privacy.html
+   disproved that within the hour: it has no Firebase SDK, so the
+   initializeApp call near the top of this file threw and every
+   declaration below it never ran. It is now in sheet.js, which has no
+   dependencies at all. */
+
+
 /* =====================================================
    FIRESTORE SECURITY RULES
 

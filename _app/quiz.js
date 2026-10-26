@@ -751,9 +751,9 @@ function setupLanding(data) {
     });
   }
 
-  // Email form — submits to Google Sheets via Apps Script
-  const SIGNUP_URL = 'https://script.google.com/macros/s/AKfycbzCboRQs6V2YbKuUTSnGIdMXZIPlmYl2jLZVMnbvapVNlDIOKlQgLmsW1Qqjsc1BkoK/exec';
-
+  // Email form — submits to Google Sheets via Apps Script.
+  // The URL was a second copy of auth.js's SHEET_URL. Both now read
+  // FR_SHEET_URL from firebase-config.js via frPostToSheet().
   const form = document.getElementById('notify-form');
   if (form) {
     form.addEventListener('submit', (e) => {
@@ -764,11 +764,7 @@ function setupLanding(data) {
 
       if (!email) return;
 
-      fetch(SIGNUP_URL, {
-        method: 'POST',
-        mode: 'no-cors',
-        body: new URLSearchParams({ email, firstName, lastName, source: 'notify-form' })
-      });
+      frPostToSheet({ email, firstName, lastName, source: 'notify-form' });
 
       // Show confirmation immediately (optimistic — submission is reliable)
       form.style.display = 'none';
