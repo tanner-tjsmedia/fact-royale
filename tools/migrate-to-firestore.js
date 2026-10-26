@@ -127,8 +127,26 @@ function explainCredentialError(e) {
  */
 const PLAN = path.join(__dirname, '..', 'PENDING-REPUBLISH.json');
 
+/* The QUIZ day, not the calendar day.
+ *
+ * A quiz day rolls over at PUBLISH_OFFSET_HOURS past UTC midnight, not at
+ * UTC midnight, and the client's getTodayKey() uses that same boundary to
+ * decide which document to ask for. The re-date has to agree with it.
+ *
+ * Using the plain UTC date meant a launch run between 00:00 and 05:00 UTC
+ * published the catalogue starting on a date the site would not ask for
+ * until 05:00 — so the site came back up and the homepage requested
+ * YESTERDAY, which the re-date had just moved out from under it. No quiz
+ * at all, for up to five hours, on launch morning. Tanner works at 3am;
+ * this was not a theoretical window.
+ *
+ * Subtracting the offset before taking the date gives the key the client
+ * will actually request at this instant. One rule, two places, same
+ * answer. */
 function today() {
-  return new Date().toISOString().slice(0, 10);
+  const d = new Date();
+  d.setUTCHours(d.getUTCHours() - PUBLISH_OFFSET_HOURS);
+  return d.toISOString().slice(0, 10);
 }
 
 function readPlan() {

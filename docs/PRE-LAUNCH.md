@@ -90,6 +90,50 @@ They have been failing on every run since deployment.
 Launching with push notifications silently broken wastes the retention
 mechanism they exist to serve.
 
+### A5. Pause notifications while the site is dark
+
+`sendDailyNotifications` fires **every day at 13:00 America/New_York** and
+pushes "today's quiz is ready" to every user holding a push token. While the
+site is dark that is a notification pointing at a holding page, sent to real
+people who opted in months ago — the fastest way to turn a returning player
+into someone who revokes the permission.
+
+It is live right now: redeploying the functions on 2026-10-26 re-armed the
+Cloud Scheduler job. Nothing in this project sends **email** — the Apps
+Script endpoint only appends rows and has zero triggers — but push is a
+notification like any other and the distinction will not matter to whoever
+receives one.
+
+**Pause it now:**
+
+```
+gcloud scheduler jobs list --location=us-central1
+gcloud scheduler jobs pause firebase-schedule-sendDailyNotifications-us-central1 --location=us-central1
+```
+
+Run `list` first and use the exact name it prints; the generated name can
+differ from the one above.
+
+- [ ] paused   (date: ________)
+
+**RESUME IT ON LAUNCH DAY.** This is the half of the pair that gets
+forgotten, and a paused job is indistinguishable from a working one until
+someone notices the notifications stopped months ago:
+
+```
+gcloud scheduler jobs resume firebase-schedule-sendDailyNotifications-us-central1 --location=us-central1
+gcloud scheduler jobs describe firebase-schedule-sendDailyNotifications-us-central1 --location=us-central1
+```
+
+`describe` should report `state: ENABLED`. Do this AFTER `./go-live.sh`
+succeeds, never before — a notification that beats the site back up is the
+same mistake in the other direction.
+
+- [ ] resumed and `state: ENABLED` confirmed   (date: ________)
+
+`analyzePeakPlayTime` (daily 06:00 ET) only reads and writes Firestore. It
+sends nothing. Leave it running.
+
 ---
 
 ## B. Verified
