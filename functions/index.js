@@ -416,17 +416,36 @@ exports.submitQuiz = onCall({ region: 'us-central1', cors: true }, async (req) =
   const attemptSnap = await db().collection('attempts').doc(`${uid}_${date}`).get();
   const committed   = attemptSnap.exists ? (attemptSnap.data().answers || {}) : {};
 
+  // THE REVEAL IS EARNED PER QUESTION, NOT PER CALL.
+  //
+  // This loop used to put correctIndex and explanation on EVERY question
+  // in the key, marking the untouched ones `answered: false` and nothing
+  // more. So calling submitQuiz({date}) on a quiz you had never opened
+  // returned the complete answer key — the exact leak commit-then-reveal
+  // exists to prevent, reachable in one call by anyone with a session.
+  //
+  // It was found on 2026-10-26 by calling the function with 3 of 12
+  // answered to test the incomplete guard, and reading what came back.
+  //
+  // A question you have not committed an answer to tells you nothing: no
+  // correctIndex, no explanation, not even whether it was right. The
+  // earlier design leaned on the client never calling this early, which
+  // is not a control — it is a hope about code the attacker controls.
   const perQuestion = {};
   let score = 0;
   let answered = 0;
   Object.keys(solutions).forEach((qid) => {
-    const given   = committed[qid] ? committed[qid].choice : null;
+    const given = committed[qid] ? committed[qid].choice : null;
+    if (given === null) {
+      perQuestion[qid] = { answered: false };
+      return;
+    }
+    answered++;
     const correct = (typeof given === 'number') && given === solutions[qid];
     if (correct) score++;
-    if (given !== null) answered++;
     perQuestion[qid] = {
+      answered:     true,
       correct,
-      answered:     given !== null,
       correctIndex: solutions[qid],
       explanation:  explanations[qid] || ''
     };
