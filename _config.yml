@@ -1,0 +1,76 @@
+# ============================================================
+# WHAT GITHUB PAGES IS ALLOWED TO PUBLISH
+#
+# This repository is public AND it is the web root. Every tracked file
+# without an exclusion is downloadable by anyone, whether or not anything
+# links to it. That is not a quirk; it is what GitHub Pages does.
+#
+# WHY THIS FILE EXISTS (2026-10-26)
+#
+# questions-src/ was being served. Every day file carried `answer` and
+# `explanation` in plain JSON, and index.json listed all 82 days. The
+# whole of Phase 3 — commit-then-reveal, an unreadable quizKeys
+# collection, server-side grading verified under attack — was bypassable
+# by typing a URL.
+#
+# PENDING-REPUBLISH.json made it worse by being the decoder ring: it
+# states the catalogue runs from 2026-06-13 mapped onto 2026-10-26
+# through 2027-01-15, and index.json gives the ordered day list, so the
+# source file behind any future date is a short calculation.
+#
+# go-live.sh's pre-flight reported "questions/ absent (static answers not
+# served)" the whole time. It looks for a directory called `questions/`,
+# which go-dark.sh renamed to `questions-src/` in September. The check
+# passed because the thing it was looking for no longer existed under
+# that name. A guard that cannot fail is not a guard.
+#
+# THE RULE
+#
+# Default to excluding. Add a file to the published site on purpose,
+# never by leaving it alone. Before adding anything to the repo root,
+# ask whether a stranger may read it — the answer decides whether it
+# needs a line here.
+#
+# VERIFY, DO NOT ASSUME. After any change:
+#   curl -s -o /dev/null -w '%{http_code}\n' https://fact-royale.com/questions-src/index.json
+# 404 is correct. 200 means this file is not doing its job.
+#
+# NOTE: Jekyll already excludes dotfiles, anything starting with `_`,
+# node_modules/, package.json and package-lock.json. They are listed
+# below anyway where it is cheap, because relying on a default you did
+# not write down is how the last one happened.
+# ============================================================
+
+exclude:
+  # ---- The answer key. The reason this file exists. ----
+  - questions-src/
+  - sources.json
+  - facts-src/
+
+  # ---- Operational state that describes the content schedule ----
+  - PENDING-REPUBLISH.json
+
+  # ---- Internal notes. docs/ carries security analysis, including
+  #      descriptions of holes and how they were found. ----
+  - docs/
+  - README.md
+  - CONTENT-STANDARDS.md
+  - FIREBASE_SETUP.md
+
+  # ---- Tooling and infrastructure ----
+  - tools/
+  - functions/
+  - _mockups/
+  - go-live.sh
+  - go-dark.sh
+  - setup.sh
+  - firebase.json
+  - firestore.rules
+  - package.json
+  - package-lock.json
+  - node_modules/
+
+# No plugins, no theme, no markdown rendering wanted. This site is
+# hand-written HTML; Jekyll's only job here is to copy it and honour the
+# list above.
+plugins: []

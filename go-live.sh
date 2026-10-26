@@ -44,12 +44,49 @@ else
   echo "  FR_USE_FIRESTORE = true"
 fi
 
-if [ -d questions ]; then
-  echo "  WARNING: questions/ exists and will be served. That is the pre-dark"
-  echo "           leak: every future day readable by anyone. Remove it or"
-  echo "           confirm on purpose."
+# Are the answers reachable over HTTP?
+#
+# This used to test `[ -d questions ]` and print "static answers not
+# served" when it was absent. go-dark.sh renamed that directory to
+# questions-src/ in September, so from then on the check passed by
+# looking for something that no longer existed under that name — while
+# questions-src/ sat in the web root serving `answer` and `explanation`
+# for all 984 questions. It reported safety for six weeks.
+#
+# Check the actual property: is there a directory of day files in the web
+# root, whatever it is called, and does _config.yml exclude it.
+ANSWER_DIRS="$(find . -maxdepth 1 -type d -name 'questions*' -printf '%f ' 2>/dev/null)"
+if [ -n "$ANSWER_DIRS" ]; then
+  echo "  answer files on disk: $ANSWER_DIRS"
+  MISSING=""
+  for d in $ANSWER_DIRS; do
+    grep -q "^\s*-\s*$d/\?\s*$" _config.yml 2>/dev/null || MISSING="$MISSING $d"
+  done
+  if [ -n "$MISSING" ]; then
+    cat <<EOF
+
+  REFUSING: these directories are in the web root and NOT excluded in
+  _config.yml:$MISSING
+
+  GitHub Pages serves every tracked file. A directory of day files
+  contains the answer to every future quiz, which makes server-side
+  grading decorative.
+
+  Add them to the exclude list in _config.yml, or override knowingly:
+      ALLOW_PUBLIC_ANSWERS=1 ./go-live.sh
+EOF
+    [ "${ALLOW_PUBLIC_ANSWERS:-0}" = "1" ] || exit 1
+    echo "  overridden by ALLOW_PUBLIC_ANSWERS=1"
+  else
+    echo "  all excluded in _config.yml (verify live after pushing:"
+    echo "    curl -s -o /dev/null -w '%{http_code}\\n' https://fact-royale.com/questions-src/index.json )"
+  fi
 else
-  echo "  questions/ absent (static answers not served)"
+  echo "  no answer directory in the web root"
+fi
+
+if [ ! -f _config.yml ]; then
+  echo "  WARNING: no _config.yml. Everything tracked is published."
 fi
 
 echo "  reminder: Anonymous sign-in must be enabled in the Firebase console,"
