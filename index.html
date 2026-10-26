@@ -1,1549 +1,985 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Fact Royale — Under Siege</title>
-<meta name="description" content="Fact Royale is temporarily unavailable.">
-<link rel="icon" href="/favicon.svg" type="image/svg+xml">
-<meta property="og:title" content="Fact Royale — Under Siege">
-<meta property="og:description" content="We're having trouble. The keep is holding.">
-<style>
-:root{
-  --gold:#d4af37; --gold-lt:#f5dd8f; --gold-dk:#8a7024;
-  --flame:#f0a92a; --flame-hot:#ffd77a; --muted:#8b88a0;
-  --timber:#4a3822; --timber-lt:#6b5231; --timber-dk:#2e2315;
-  --iron:#5a5a6e;
-  /* The wall is the NEAREST mass and this is a night scene, so it reads
-     darkest and silhouettes against the lit city behind. These used to be
-     #232336/#1b1b2b/#2b2b40 against a castle of #1e1e36 - near enough the
-     same value that the two merged and the wall had no edge. */
-  --stone-a:#14141f; --stone-b:#0d0d16; --stone-c:#1d1d2b;
-  --mx:0; --my:0;
-}
-*{box-sizing:border-box}
-html,body{height:100%;margin:0}
-body{
-  background:#05050b; color:#eceaf3; overflow:hidden;
-  font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
-  display:flex;flex-direction:column;align-items:center;justify-content:center;
-  min-height:100%;padding:16px;
-}
-.stage{perspective:1250px;perspective-origin:50% 48%;
-  width:min(900px,97vw);height:min(400px,50vh);position:relative;margin-bottom:4px}
-.world{position:absolute;inset:0;transform-style:preserve-3d;
-  transform:rotateY(calc(var(--mx) * 6deg)) rotateX(calc(var(--my) * -2.2deg))}
-/* No transition on that transform. --mx and --my are rewritten every frame by
-   the parallax loop, which already eases them in JS (cx += (tx-cx)*0.06). A
-   400ms transition on top of a per-frame change means the browser restarts an
-   interpolation sixty times a second and never finishes one, so the layer
-   lags behind the pointer and feels like syrup. The easing belongs in exactly
-   one place and it is the JS. */
-.layer{position:absolute;inset:0;transform-style:preserve-3d}
-.layer svg{position:absolute;inset:0;width:100%;height:100%;overflow:visible}
-.z-sky{transform:translateZ(-820px) scale(1.68)}
-.z-moon{transform:translateZ(-660px) scale(1.55)}
-.z-hills{transform:translateZ(-500px) scale(1.42)}
-.z-keep{transform:translateZ(-360px) scale(1.30)}
-.z-fog1{transform:translateZ(-250px) scale(1.21)}
-.z-wall{transform:translateZ(-100px) scale(1.08)}
-.z-treb{transform:translateZ(50px) scale(.96)}
-.z-camp{transform:translateZ(170px) scale(.86)}
-.z-fore{transform:translateZ(300px) scale(.76)}
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <title>Fact Royale</title>
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <link rel="alternate icon" href="/icons/icon-192.png" type="image/png" />
+  <link rel="apple-touch-icon" href="/icons/icon-192.png" />
+  <!-- SEO -->
+  <meta name="description" content="Daily trivia. Every answer teaches you something. Play Fact Royale — one quiz a day across History, Sports, and Music & Movies." />
+  <meta name="theme-color" content="#07070f" />
 
-/* ── siege cycle, 6.4s. every part keyed to the same clock ── */
-@keyframes beam{
-  0%,10%{transform:rotate(-35deg)}
-  18%{transform:rotate(126deg)}
-  23%{transform:rotate(107deg)}
-  28%{transform:rotate(120deg)}
-  33%{transform:rotate(111deg)}
-  38%{transform:rotate(117deg)}
-  46%{transform:rotate(115deg)}
-  62%{transform:rotate(115deg)}
-  94%,100%{transform:rotate(-35deg)}
-}
-.beam{transform-origin:155px 104px;animation:beam 6.4s cubic-bezier(.5,0,.35,1) infinite}
+  <!-- Open Graph (link previews on social/iMessage) -->
+  <meta property="og:title" content="Fact Royale" />
+  <meta property="og:description" content="Daily trivia. Every answer teaches you something." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://fact-royale.com/" />
 
-/* counterweight hangs true: counter-rotates against the beam */
-@keyframes cw{
-  0%,10%{transform:rotate(35deg)}
-  18%{transform:rotate(-134deg)}
-  23%{transform:rotate(-100deg)}
-  28%{transform:rotate(-124deg)}
-  33%{transform:rotate(-108deg)}
-  38%{transform:rotate(-119deg)}
-  46%{transform:rotate(-115deg)}
-  62%{transform:rotate(-115deg)}
-  94%,100%{transform:rotate(35deg)}
-}
-.cw{transform-origin:196px 118px;animation:cw 6.4s cubic-bezier(.5,0,.35,1) infinite}
+  <!-- iOS home screen install -->
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-title" content="Fact Royale" />
 
-/* sling trails, then whips past the beam and lets go */
-@keyframes sling{
-  0%,10%{transform:rotate(0deg)}
-  16%{transform:rotate(-62deg)}
-  19%{transform:rotate(-128deg)}
-  22%{transform:rotate(-172deg);opacity:1}
-  26%{transform:rotate(-202deg);opacity:.85}
-  34%{transform:rotate(-180deg);opacity:.85}
-  48%{transform:rotate(-192deg);opacity:.85}
-  62%{transform:rotate(-192deg);opacity:.85}
-  94%,100%{transform:rotate(0deg);opacity:1}
-}
-.sling{transform-origin:60px 96px;animation:sling 6.4s cubic-bezier(.5,0,.35,1) infinite}
+  <!-- PWA Manifest (Android install prompt + app metadata) -->
+  <link rel="manifest" href="manifest.json" />
 
-/* frame recoils and rolls back, then is winched forward again */
-@keyframes recoil{
-  0%,12%{transform:translateX(0)}
-  20%{transform:translateX(7px)}
-  26%{transform:translateX(9px)}
-  60%{transform:translateX(9px)}
-  92%,100%{transform:translateX(0)}
-}
-.rig{animation:recoil 6.4s ease-out infinite}
+  <!-- Firebase SDKs (must load before firebase-config.js and auth.js) -->
+  <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-auth-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-messaging-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-functions-compat.js"></script>
 
-@keyframes shot{
-  0%,19%{transform:translate(114px,-61px);opacity:0}
-  20%{opacity:1}
-  26%{transform:translate(150px,-72px)}
-  32%{transform:translate(186px,-66px)}
-  38%{transform:translate(214px,-44px)}
-  43%{transform:translate(230px,-8px)}
-  45%{transform:translate(236px,20px);opacity:1}
-  47%{transform:translate(238px,30px);opacity:0}
-  100%{opacity:0}
-}
-.shot{animation:shot 6.4s cubic-bezier(.35,0,.7,1) infinite}
-@keyframes spin{to{transform:rotate(360deg)}}
-.shot-spin{transform-origin:46px 106px;animation:spin 1.1s linear infinite}
-
-@keyframes hit{0%,44%{opacity:0;transform:scale(.3)}47%{opacity:1;transform:scale(1)}
-  60%{opacity:0;transform:scale(2.1)}100%{opacity:0}}
-.hit{transform-origin:272px 150px;animation:hit 6.4s ease-out infinite}
-@keyframes hit2{0%,45%{opacity:0}48%{opacity:.9}56%{opacity:0}100%{opacity:0}}
-.spark{animation:hit2 6.4s ease-out infinite}
-
-@keyframes shake{0%,44%{transform:translate(0,0)}47%{transform:translate(-3px,2px)}
-  50%{transform:translate(2.5px,-1.5px)}53%{transform:translate(-1.5px,1px)}
-  56%{transform:translate(.7px,-.4px)}59%,100%{transform:translate(0,0)}}
-.shake{animation:shake 6.4s linear infinite}
-
-/* Heavier shake, used only when the whole span comes down. */
-@keyframes quake{0%{transform:translate(0,0)}
-  12%{transform:translate(-6px,3px)}25%{transform:translate(5px,-3px)}
-  38%{transform:translate(-4.5px,2px)}52%{transform:translate(3.5px,-2px)}
-  66%{transform:translate(-2.5px,1.4px)}80%{transform:translate(1.4px,-.8px)}
-  100%{transform:translate(0,0)}}
-
-/* transform-box:fill-box makes transform-origin resolve against the element's
-   own bounding box rather than the SVG user-space origin. Without it a
-   percentage origin lands at the top-left of the whole 400x250 viewBox and
-   every rotation swings the piece across the scene. */
-#gWall{transform-box:fill-box;transform-origin:0% 100%}
-#gPieces path{transform-box:fill-box;transform-origin:50% 50%}
-#gDust ellipse{transform-box:fill-box;transform-origin:50% 100%}
-
-@keyframes rubble{0%,45%{opacity:0;transform:translate(0,0) rotate(0)}
-  50%{opacity:.85}88%{opacity:0;transform:translate(-22px,26px) rotate(150deg)}100%{opacity:0}}
-.rubble{animation:rubble 6.4s ease-in infinite}
-.r2{animation-delay:.1s}.r3{animation-delay:.2s}.r4{animation-delay:.3s}
-
-/* winch turning while the crew re-cocks */
-@keyframes winch{0%,62%{transform:rotate(0)}92%,100%{transform:rotate(-540deg)}}
-.winch{transform-origin:186px 200px;animation:winch 6.4s ease-in-out infinite}
-
-@keyframes flick{0%,100%{opacity:.9;transform:scale(1) translateY(0)}
-  40%{opacity:.55;transform:scale(.85) translateY(1px)}
-  70%{opacity:1;transform:scale(1.12) translateY(-1px)}}
-/* transform-box:fill-box is REQUIRED here. Every other transform-origin in
-   this file is written in absolute viewBox pixels, which works against the
-   default transform-box:view-box. This one uses keywords, and "bottom
-   center" against the view-box means the bottom centre of the whole 400x250
-   canvas - so each flame was scaling and shifting about a point halfway
-   across the stage instead of about its own base, and flailing. */
-.flame{transform-box:fill-box;transform-origin:bottom center;
-  animation:flick 1.5s ease-in-out infinite}
-.f2{animation-delay:.4s}.f3{animation-delay:.8s}.f4{animation-delay:1.1s}
-
-@keyframes ripple{0%,100%{transform:skewY(0) scaleX(1)}50%{transform:skewY(3.4deg) scaleX(.92)}}
-.banner{transform-box:fill-box;transform-origin:0% 50%;
-  animation:ripple 3.4s ease-in-out infinite}
-.bn2{animation-duration:4.1s;animation-delay:.7s}
-.bn3{animation-duration:3.7s;animation-delay:1.4s}
-
-@keyframes rise{0%{transform:translateY(0) scale(.5);opacity:0}20%{opacity:.9}
-  100%{transform:translateY(-120px) scale(1.1);opacity:0}}
-.ember{animation:rise 4.6s ease-out infinite}
-.e2{animation-duration:5.9s;animation-delay:.9s}
-.e3{animation-duration:4.1s;animation-delay:1.9s}
-.e4{animation-duration:6.3s;animation-delay:2.8s}
-.e5{animation-duration:5.2s;animation-delay:3.6s}
-.e6{animation-duration:4.8s;animation-delay:1.3s}
-
-@keyframes smoke{0%{transform:translateY(0) scale(.7);opacity:0}
-  25%{opacity:.22}100%{transform:translateY(-70px) scale(2.1);opacity:0}}
-.smoke{animation:smoke 7s ease-out infinite}
-.s2{animation-delay:2.3s}.s3{animation-delay:4.6s}
-
-@keyframes drift{0%{transform:translateX(-7%)}100%{transform:translateX(7%)}}
-.fog{animation:drift 28s ease-in-out infinite alternate}
-.fog2{animation-duration:21s;animation-direction:alternate-reverse}
-@keyframes cloud{0%{transform:translateX(-40px)}100%{transform:translateX(430px)}}
-.cloud{animation:cloud 64s linear infinite}
-.cl2{animation-duration:88s;animation-delay:-30s}
-
-@keyframes twinkle{0%,100%{opacity:.22}50%{opacity:.85}}
-.star{animation:twinkle 4s ease-in-out infinite}
-
-@keyframes pace{0%,100%{transform:translateX(0)}50%{transform:translateX(13px)}}
-.pace{animation:pace 9s ease-in-out infinite}
-.pace2{animation-duration:11s;animation-direction:reverse}
-
-/* ── hidden siege game ──────────────────────────────────
-   Taking the trebuchet stops the idle loop and hands the mechanism to JS.
-   The CSS animations and the game drive the same transforms, so only one of
-   them may be running at a time. */
-.playing .beam,.playing .cw,.playing .sling,.playing .shot,
-.playing .rig,.playing .winch{animation:none!important}
-/* The ambient siege is scenery for the holding page. While someone is
-   actually playing, a phantom stone hitting the wall every 6.4 seconds -
-   flash, sparks and a screen shake they did not cause - competes with their
-   own shots and makes their hits unreadable. */
-.playing .hit,.playing .spark,.playing .shake{animation:none!important}
-.playing .hit,.playing .spark{opacity:0}
-.stage{cursor:default;
-  /* A long press on a phone otherwise selects text, pops the callout menu, or
-     scrolls the page instead of winding the counterweight. */
-  touch-action:none;-webkit-user-select:none;user-select:none;
-  -webkit-touch-callout:none;-webkit-tap-highlight-color:transparent}
-.stage.armable{cursor:crosshair}
-.quit{position:absolute;top:4px;left:8px;font-size:11px;letter-spacing:.12em;
-  text-transform:uppercase;color:#4e4c60;border:1px solid #2c2c44;border-radius:4px;
-  padding:4px 9px;display:none;cursor:pointer;background:#0f0f1c;pointer-events:auto}
-.playing .quit{display:block}
-.quit:hover{color:var(--gold);border-color:var(--gold-dk)}
-.hud{position:absolute;top:6px;right:10px;font-size:11px;letter-spacing:.14em;
-  color:#4e4c60;text-transform:uppercase;pointer-events:none;transition:color .3s}
-.playing .hud{color:#7c7892}
-.hud b{color:var(--gold);font-weight:600}
-.meter{position:absolute;left:50%;bottom:2px;transform:translateX(-50%);
-  width:168px;height:5px;background:#16162a;border:1px solid #2c2c44;border-radius:3px;
-  opacity:0;transition:opacity .18s;pointer-events:none;overflow:hidden}
-.meter.on{opacity:1}
-.meter i{display:block;height:100%;width:0%;background:linear-gradient(90deg,var(--flame),var(--flame-hot))}
-.hint{position:absolute;left:50%;bottom:12px;transform:translateX(-50%);
-  font-size:11.5px;letter-spacing:.1em;color:#3a3849;text-transform:uppercase;
-  opacity:0;transition:opacity 1.1s,color .3s;pointer-events:none;white-space:nowrap;
-  text-align:center;max-width:94%}
-.hint.on{opacity:1}
-.playing .hint{opacity:1;color:#56546a}
-@media(max-height:560px){
-  .stage{height:min(300px,44vh)}
-  h1{font-size:clamp(24px,5vw,34px);margin:6px 0 4px}
-  .tiny{margin-top:10px}
-}
-h1{font-size:clamp(30px,6vw,50px);margin:10px 0 8px;color:var(--gold-lt);
-  letter-spacing:.02em;font-weight:700;text-align:center;
-  text-shadow:0 0 36px rgba(212,175,55,.3)}
-.line{color:var(--muted);font-size:clamp(15px,2.1vw,17px);text-align:center;margin:0;max-width:36ch}
-.tiny{color:#5f5d70;font-size:12.5px;margin-top:18px;text-align:center;letter-spacing:.03em}
-.tiny a{color:#7a7690;text-decoration:none;border-bottom:1px solid #34324a}
-.tiny a:hover{color:var(--gold)}
-@media(prefers-reduced-motion:reduce){
-  *{animation:none!important}
-  .world{transform:none!important;transition:none!important}
-}
-</style>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet" />
+  <!-- tokens.css holds values and nothing else; app.css holds the
+       player-facing components. style.css is still loaded underneath while
+       the screens are migrated one at a time — the quiz and results screens
+       no longer use it, the landing page still does. It is deleted when the
+       last screen moves over, and app.css is loaded AFTER it so the new
+       rules win wherever the two still overlap. -->
+  <link rel="stylesheet" href="style.css?v=21" />
+  <link rel="stylesheet" href="tokens.css?v=2" />
+  <link rel="stylesheet" href="app.css?v=9" />
+  <style>
+    /* ── Mastery teaser layout (inline to survive CSS caching) ── */
+    #mastery-teaser {
+      background: linear-gradient(135deg, rgba(212,175,55,0.05) 0%, rgba(7,7,15,0) 60%);
+      border: 1px solid rgba(212,175,55,0.15);
+      border-radius: 20px;
+      padding: 1.5rem !important;
+      margin-top: 1.25rem;
+    }
+    .mt-header {
+      display: flex; align-items: center;
+      justify-content: space-between; flex-wrap: wrap;
+      gap: 0.75rem; margin-bottom: 1.25rem;
+    }
+    .mt-title {
+      font-family: var(--font-display, 'Space Grotesk', sans-serif);
+      font-size: 0.7rem; font-weight: 700;
+      color: rgba(212,175,55,0.65);
+      letter-spacing: 0.14em; text-transform: uppercase;
+    }
+    .mt-score-row { display: flex; align-items: baseline; gap: 0.5rem; flex-wrap: wrap; }
+    .mt-score-num {
+      font-family: var(--font-display, 'Space Grotesk', sans-serif);
+      font-size: 2.2rem; font-weight: 700;
+      color: var(--gold, #d4af37);
+      letter-spacing: -0.04em; line-height: 1;
+    }
+    .mt-score-lbl { font-size: 0.8rem; color: var(--text-muted, rgba(232,232,240,0.5)); }
+    .mt-view-link {
+      font-size: 0.82rem; font-weight: 600;
+      color: var(--gold, #d4af37); text-decoration: none; opacity: 0.65;
+      transition: opacity 0.2s;
+    }
+    .mt-view-link:hover { opacity: 1; }
+    #mastery-teaser-pills { display: flex; gap: 0.5rem; flex-wrap: wrap; }
+    .mt-pill {
+      display: inline-flex; align-items: center; gap: 0.4rem;
+      border-radius: 20px; padding: 0.4rem 0.9rem; font-size: 0.8rem;
+      background: rgba(255,255,255,0.06);
+      border: 1px solid rgba(255,255,255,0.12);
+      cursor: default; transition: background 0.2s;
+    }
+    .mt-pill:hover { background: rgba(255,255,255,0.1); }
+    .mt-pill-icon { display: inline-flex; align-items: center; width: 1rem; height: 1rem; }
+    .mt-pill-icon svg { width: 100%; height: 100%; display: block; }
+    .mt-pill-cat {
+      font-family: var(--font-display, 'Space Grotesk', sans-serif);
+      font-weight: 600; font-size: 0.8rem;
+    }
+    .mt-pill-tier { font-size: 0.72rem; opacity: 0.7; }
+  </style>
 </head>
 <body>
 
-<div class="stage">
- <div class="world">
-
-  <div class="layer z-sky"><svg viewBox="0 0 400 250" aria-hidden="true">
-    <defs>
-      <radialGradient id="night" cx="50%" cy="88%" r="76%">
-        <stop offset="0%" stop-color="#191932"/><stop offset="100%" stop-color="#08080f"/>
-      </radialGradient>
-    </defs>
-    <rect width="400" height="250" fill="url(#night)"/>
-    <g fill="#d6d1ee">
-      <circle class="star" cx="34" cy="30" r="1.1"/><circle class="star" cx="92" cy="16" r=".8" style="animation-delay:1.2s"/>
-      <circle class="star" cx="148" cy="38" r="1.2" style="animation-delay:2.1s"/><circle class="star" cx="212" cy="14" r=".9" style="animation-delay:.6s"/>
-      <circle class="star" cx="266" cy="34" r="1.1" style="animation-delay:2.8s"/><circle class="star" cx="358" cy="22" r="1" style="animation-delay:3.5s"/>
-      <circle class="star" cx="62" cy="58" r=".8" style="animation-delay:3.4s"/><circle class="star" cx="182" cy="62" r=".7" style="animation-delay:1.7s"/>
-      <circle class="star" cx="298" cy="60" r=".9" style="animation-delay:2.4s"/><circle class="star" cx="126" cy="8" r=".7" style="animation-delay:4.1s"/>
-      <circle class="star" cx="242" cy="52" r=".8" style="animation-delay:.9s"/><circle class="star" cx="380" cy="52" r=".8" style="animation-delay:3.1s"/>
-    </g>
-  </svg></div>
-
-  <div class="layer z-moon"><svg viewBox="0 0 400 250" aria-hidden="true">
-    <circle cx="250" cy="72" r="27" fill="#20203a" opacity=".8"/>
-    <circle cx="250" cy="72" r="20" fill="#ece7cd"/>
-    <circle cx="241" cy="66" r="3.6" fill="#d3cdae" opacity=".6"/>
-    <circle cx="256" cy="78" r="4.8" fill="#d3cdae" opacity=".5"/>
-    <circle cx="258" cy="64" r="2.4" fill="#d3cdae" opacity=".55"/>
-    <circle cx="245" cy="80" r="2" fill="#d3cdae" opacity=".45"/>
-    <g fill="#0e0e1c" opacity=".62">
-      <ellipse class="cloud" cx="-20" cy="40" rx="34" ry="6"/>
-      <ellipse class="cloud cl2" cx="-40" cy="58" rx="46" ry="5"/>
-    </g>
-  </svg></div>
-
-  <div class="layer z-hills"><svg viewBox="0 0 400 250" aria-hidden="true">
-    <path d="M0,178 L46,150 L88,168 L132,138 L186,166 L232,148 L286,172 L340,146 L400,170 L400,250 L0,250 Z" fill="#0d0d1a"/>
-    <g fill="#0a0a15">
-      <path d="M20,176 l4,-12 l4,12 Z"/><path d="M60,168 l5,-14 l5,14 Z"/>
-      <path d="M348,162 l4,-11 l4,11 Z"/><path d="M372,166 l5,-13 l5,13 Z"/>
-    </g>
-  </svg></div>
-
-  <!-- THE CITY AND THE CASTLE BEHIND THE WALL.
-       
-       This layer used to be one keep shoved off to the right at x298-388,
-       which at this layer's scale(1.30) put most of it past the right edge
-       of the stage. Behind the gatehouse - where you are actually looking -
-       there was nothing, so the wall read as a lone structure in open
-       country rather than the thing standing between you and a city.
-       
-       Laid out in three bands of decreasing height so the eye reads depth:
-       the city roofs low and wide, the inner halls behind them, and the
-       donjon rising over the gate. x255 in this layer sits behind the
-       gatehouse once scale(1.30) is applied. -->
-  <div class="layer z-keep"><svg viewBox="0 0 400 250" aria-hidden="true">
-
-    <!-- City: roofs and chimneys, furthest back and faintest. -->
-    <g fill="#141425" opacity=".92">
-      <rect x="96" y="150" width="26" height="68"/><path d="M94,151 L109,138 L124,151 Z"/>
-      <rect x="124" y="158" width="22" height="60"/><path d="M122,159 L135,147 L148,159 Z"/>
-      <rect x="150" y="146" width="24" height="72"/><path d="M148,147 L162,133 L176,147 Z"/>
-      <rect x="318" y="152" width="24" height="66"/><path d="M316,153 L330,140 L344,153 Z"/>
-      <rect x="344" y="160" width="22" height="58"/><path d="M342,161 L353,149 L364,161 Z"/>
-      <rect x="368" y="150" width="26" height="68"/><path d="M366,151 L381,138 L396,151 Z"/>
-      <rect x="104" y="128" width="3" height="11"/><rect x="158" y="124" width="3" height="10"/>
-      <rect x="330" y="130" width="3" height="11"/><rect x="376" y="128" width="3" height="10"/>
-    </g>
-
-    <!-- Inner halls: the castle's lower ranges, flanking the keep. -->
-    <g fill="#191930">
-      <rect x="176" y="118" width="40" height="100"/>
-      <rect x="172" y="112" width="48" height="8"/>
-      <rect x="174" y="104" width="8" height="9"/><rect x="190" y="104" width="8" height="9"/>
-      <rect x="206" y="104" width="8" height="9"/>
-      <rect x="296" y="118" width="40" height="100"/>
-      <rect x="292" y="112" width="48" height="8"/>
-      <rect x="294" y="104" width="8" height="9"/><rect x="310" y="104" width="8" height="9"/>
-      <rect x="326" y="104" width="8" height="9"/>
-    </g>
-
-    <!-- The castle proper: two drum towers and the donjon between them. -->
-    <g fill="#1e1e36">
-      <rect x="214" y="74" width="26" height="144"/>
-      <rect x="210" y="66" width="34" height="9"/>
-      <rect x="212" y="56" width="9" height="11"/><rect x="226" y="56" width="9" height="11"/>
-      <path d="M212,56 L244,56 L228,34 Z"/>
-
-      <rect x="272" y="74" width="26" height="144"/>
-      <rect x="268" y="66" width="34" height="9"/>
-      <rect x="270" y="56" width="9" height="11"/><rect x="284" y="56" width="9" height="11"/>
-      <path d="M268,56 L300,56 L284,34 Z"/>
-
-      <rect x="240" y="50" width="32" height="168"/>
-      <rect x="236" y="42" width="40" height="9"/>
-      <rect x="238" y="31" width="9" height="12"/><rect x="252" y="31" width="9" height="12"/>
-      <rect x="266" y="31" width="9" height="12"/>
-      <path d="M248,31 L264,31 L256,8 Z"/>
-    </g>
-
-    <!-- Lit windows. Sparse and uneven: a castle at night is mostly dark,
-         and evenly spaced lights read as a spreadsheet. -->
-    <g fill="#f0a92a">
-      <rect x="252" y="72"  width="4" height="13" opacity=".55"/>
-      <rect x="260" y="104" width="4" height="13" opacity=".35"/>
-      <rect x="244" y="138" width="4" height="13" opacity=".45"/>
-      <rect x="222" y="96"  width="4" height="12" opacity=".40"/>
-      <rect x="282" y="122" width="4" height="12" opacity=".30"/>
-      <rect x="190" y="140" width="4" height="12" opacity=".35"/>
-      <rect x="312" y="146" width="4" height="12" opacity=".30"/>
-      <rect x="132" y="176" width="3" height="9"  opacity=".28"/>
-      <rect x="352" y="178" width="3" height="9"  opacity=".25"/>
-    </g>
-
-    <g class="banner bn3"><path d="M256,8 L256,-8 L280,-2 L256,4 Z" fill="#5b2a86" opacity=".85"/></g>
-  </svg></div>
-
-  <div class="layer z-fog1"><svg viewBox="0 0 400 250" aria-hidden="true">
-    <ellipse class="fog" cx="200" cy="192" rx="240" ry="28" fill="#141426" opacity=".55"/>
-  </svg></div>
-
-  <div class="layer z-wall"><svg viewBox="0 0 400 250" aria-hidden="true">
-    <defs>
-      <pattern id="mason" width="16" height="9" patternUnits="userSpaceOnUse">
-        <rect width="16" height="9" fill="var(--stone-b)"/>
-        <rect width="15" height="8" fill="var(--stone-a)"/>
-        <rect x="8" y="4.5" width="15" height="8" fill="var(--stone-c)" opacity=".55"/>
-      </pattern>
-    </defs>
-    <!-- THE REST OF THE CURTAIN.
-         
-         The breachable section is 196-348. Everything outside it is the
-         same wall continuing off both edges of the frame, and it is drawn
-         OUTSIDE gShake and gWall so it neither shakes nor topples: it is
-         not what you are attacking, it is what tells you that what you are
-         attacking is one gate in a city's defences rather than a free-
-         standing block in open country.
-         
-         Drawn before gShake so the besieged section overlaps it. -->
-    <g fill="#1b1b29">
-      <rect x="0" y="134" width="198" height="84"/>
-      <rect x="346" y="134" width="54" height="84"/>
-      <g fill="#2c2c40">
-        <rect x="0" y="134" width="198" height="5"/>
-        <rect x="346" y="134" width="54" height="5"/>
-      </g>
-      <g>
-        <rect x="6" y="126" width="9" height="9"/><rect x="22" y="126" width="9" height="9"/>
-        <rect x="38" y="126" width="9" height="9"/><rect x="54" y="126" width="9" height="9"/>
-        <rect x="70" y="126" width="9" height="9"/><rect x="86" y="126" width="9" height="9"/>
-        <rect x="102" y="126" width="9" height="9"/><rect x="118" y="126" width="9" height="9"/>
-        <rect x="134" y="126" width="9" height="9"/><rect x="150" y="126" width="9" height="9"/>
-        <rect x="166" y="126" width="9" height="9"/><rect x="182" y="126" width="9" height="9"/>
-        <rect x="350" y="126" width="9" height="9"/><rect x="366" y="126" width="9" height="9"/>
-        <rect x="382" y="126" width="9" height="9"/>
-      </g>
-      <!-- A squat interval tower each side, so the run is not a bare slab. -->
-      <rect x="108" y="116" width="26" height="102"/>
-      <rect x="104" y="110" width="34" height="7"/>
-      <rect x="106" y="101" width="9" height="10"/><rect x="120" y="101" width="9" height="10"/>
-      <rect x="374" y="116" width="26" height="102"/>
-      <rect x="370" y="110" width="34" height="7"/>
-      <rect x="372" y="101" width="9" height="10"/><rect x="386" y="101" width="9" height="10"/>
-    </g>
-    <g fill="#07070f">
-      <rect x="60" y="152" width="4" height="12"/><rect x="160" y="156" width="4" height="12"/>
-      <rect x="118" y="132" width="5" height="13"/><rect x="384" y="132" width="5" height="13"/>
-    </g>
-
-    <g class="shake" id="gShake">
-      <!-- Everything inside gWall is the standing wall and topples as one
-           piece. Debris, dust and the rubble pile sit OUTSIDE it, so they
-           stay put while the wall goes over. -->
-      <g id="gWall">
-        <!-- The wall face, parapet and merlons are one lattice of irregular
-             blocks, generated per rebuild. These same blocks ARE the standing
-             wall, the knocked-out debris and the final rubble pile: one set of
-             objects in three states, so the wall and its wreckage can never
-             disagree about where the stone went. -->
-        <g id="gPieces" fill="url(#mason)"></g>
-
-        <!-- Painted detail. Not physical. Fades out when the span goes, so the
-             gate does not hang in mid-air over a heap of rubble. -->
-        <g id="gTrim">
-          <rect x="260" y="172" width="24" height="46" fill="#07070e"/>
-          <path d="M260,172 a12,12 0 0 1 24,0" fill="#07070e"/>
-          <g stroke="var(--iron)" stroke-width="1.4" opacity=".8">
-            <line x1="265" y1="175" x2="265" y2="218"/><line x1="272" y1="171" x2="272" y2="218"/>
-            <line x1="279" y1="175" x2="279" y2="218"/>
-            <line x1="260" y1="186" x2="284" y2="186"/><line x1="260" y1="200" x2="284" y2="200"/>
-          </g>
-          <g id="gSlits" fill="#07070f"></g>
-          <g id="gPace" fill="#0a0a14">
-            <path class="pace" d="M211,88 h4 v-7 a2,2 0 0 0 -4,0 Z"/>
-            <path class="pace pace2" d="M329,88 h4 v-7 a2,2 0 0 0 -4,0 Z"/>
-            <path d="M270,104 h4 v-7 a2,2 0 0 0 -4,0 Z"/>
-            <line x1="272" y1="97" x2="272" y2="84" stroke="#0a0a14" stroke-width="1.4"/>
-          </g>
-          <!-- Damage cracks only. The wall no longer ships pre-cracked: it
-               starts sound and every mark on it is one you put there. -->
-          <g id="gDmg" stroke="#04040a" stroke-width="2.6" fill="none">
-            <path d="M206,112 L216,124 L208,138" opacity="0"/>
-            <path d="M238,146 L246,158 L236,170" opacity="0"/>
-            <path d="M266,126 L278,140 L264,154" opacity="0" stroke-width="3.4"/>
-            <path d="M300,148 L308,160 L298,174" opacity="0"/>
-            <path d="M330,110 L338,124 L328,138" opacity="0"/>
-            <path d="M212,190 L244,198 L272,190 L304,198 L336,190" opacity="0" stroke-width="3.4"/>
-          </g>
-          <g fill="#39394f">
-            <rect class="rubble"    x="252" y="152" width="4" height="4"/>
-            <rect class="rubble r2" x="261" y="156" width="3.4" height="3.4"/>
-            <rect class="rubble r3" x="248" y="160" width="3" height="3"/>
-            <rect class="rubble r4" x="264" y="148" width="2.6" height="2.6"/>
-          </g>
-        </g>
-      </g>
-
-      <g id="gDust" fill="#2a2a3c">
-        <ellipse cx="213" cy="216" rx="26" ry="10" opacity="0"/>
-        <ellipse cx="272" cy="216" rx="32" ry="12" opacity="0"/>
-        <ellipse cx="331" cy="216" rx="26" ry="10" opacity="0"/>
-      </g>
-
-      <!-- Idle impact, centred on the gatehouse. Was 258,150, the middle of
-           the old single-block wall; the gate is at 271 now. -->
-      <g class="hit" id="gHit">
-        <circle cx="272" cy="150" r="10" fill="none" stroke="var(--flame-hot)" stroke-width="2.6"/>
-        <circle cx="272" cy="150" r="4" fill="var(--flame-hot)"/>
-      </g>
-      <g class="spark" stroke="var(--flame-hot)" stroke-width="1.6" stroke-linecap="round">
-        <line x1="272" y1="150" x2="260" y2="140"/><line x1="272" y1="150" x2="286" y2="142"/>
-        <line x1="272" y1="150" x2="264" y2="163"/><line x1="272" y1="150" x2="284" y2="162"/>
-      </g>
-    </g>
-  </svg></div>
-
-  <div class="layer z-treb"><svg viewBox="0 0 400 250" aria-hidden="true">
-    <!-- The machine was drawn at a scale that left its swept arm 6px from the
-         wall, so it threw a stone a shorter distance than its own length. This
-         wrapper stands it off and shrinks it; the standard travels with it so
-         the composition of machine-and-banner is unchanged, just smaller.
-         The transform lives here and not on .rig, because .rig carries the
-         recoil animation and a CSS transform would override the attribute.
-         Physics stays in this group's local space: see RIG_S in the script. -->
-    <g id="gRigScale" transform="translate(6.5,64.2) scale(0.7)">
-    <g class="rig">
-      <g fill="var(--timber)" stroke="var(--timber-dk)" stroke-width="1">
-        <rect x="98" y="206" width="118" height="8" rx="1.5"/>
-        <rect x="104" y="196" width="8" height="12"/><rect x="200" y="196" width="8" height="12"/>
-      </g>
-      <g stroke="var(--iron)" stroke-width="1.6" fill="#1a1a26">
-        <circle cx="112" cy="214" r="8"/><circle cx="204" cy="214" r="8"/>
-        <circle cx="112" cy="214" r="2.2" fill="var(--iron)"/><circle cx="204" cy="214" r="2.2" fill="var(--iron)"/>
-        <line x1="106" y1="209" x2="118" y2="219"/><line x1="118" y1="209" x2="106" y2="219"/>
-        <line x1="198" y1="209" x2="210" y2="219"/><line x1="210" y1="209" x2="198" y2="219"/>
-      </g>
-      <g stroke="var(--timber-lt)" stroke-width="5" stroke-linecap="round" fill="none">
-        <line x1="118" y1="206" x2="155" y2="104"/>
-        <line x1="192" y1="206" x2="155" y2="104"/>
-      </g>
-      <g stroke="var(--timber)" stroke-width="3.4" stroke-linecap="round" fill="none">
-        <line x1="133" y1="164" x2="177" y2="164"/>
-        <line x1="133" y1="164" x2="177" y2="128"/>
-        <line x1="177" y1="164" x2="133" y2="128"/>
-      </g>
-      <g stroke="var(--iron)" stroke-width="2">
-        <line x1="146" y1="130" x2="164" y2="130"/><line x1="140" y1="152" x2="170" y2="152"/>
-      </g>
-
-      <g class="beam" id="gBeam">
-        <line x1="60" y1="96" x2="196" y2="118" stroke="var(--timber-lt)" stroke-width="6" stroke-linecap="round"/>
-        <line x1="60" y1="96" x2="196" y2="118" stroke="var(--timber-dk)" stroke-width="1.4" opacity=".7"/>
-        <g stroke="var(--iron)" stroke-width="2.4">
-          <line x1="92" y1="101" x2="93" y2="107"/><line x1="124" y1="106" x2="125" y2="112"/>
-          <line x1="172" y1="114" x2="173" y2="120"/>
-        </g>
-        <g class="cw" id="gCw">
-          <line x1="196" y1="118" x2="196" y2="136" stroke="var(--iron)" stroke-width="2.4"/>
-          <rect x="180" y="136" width="33" height="28" rx="2" fill="#241d10" stroke="var(--timber-lt)" stroke-width="2.2"/>
-          <g stroke="var(--iron)" stroke-width="1.8">
-            <line x1="180" y1="145" x2="213" y2="145"/><line x1="180" y1="155" x2="213" y2="155"/>
-            <line x1="190" y1="136" x2="190" y2="164"/><line x1="203" y1="136" x2="203" y2="164"/>
-          </g>
-        </g>
-        <g class="sling" id="gSling">
-          <line x1="60" y1="96" x2="52" y2="128" stroke="#b9a06a" stroke-width="1.5"/>
-          <line x1="60" y1="96" x2="44" y2="124" stroke="#b9a06a" stroke-width="1.5"/>
-          <path d="M52,128 Q47,136 44,124" fill="#6b5231" stroke="#b9a06a" stroke-width="1.2"/>
-        </g>
-      </g>
-
-      <g class="shot" id="gShot">
-        <g class="shot-spin">
-          <circle cx="46" cy="106" r="5.4" fill="#3b3b52" stroke="var(--flame)" stroke-width="1.4"/>
-          <path d="M43,103 l2,2 M49,108 l-2,-2" stroke="var(--flame-hot)" stroke-width="1.2"/>
-        </g>
-        <circle cx="46" cy="106" r="10" fill="var(--flame)" opacity=".22"/>
-      </g>
-
-      <g class="winch" stroke="var(--iron)" stroke-width="1.8" fill="#1a1a26">
-        <circle cx="186" cy="200" r="7"/>
-        <line x1="180" y1="196" x2="192" y2="204"/><line x1="192" y1="196" x2="180" y2="204"/>
-      </g>
-      <line x1="186" y1="200" x2="150" y2="196" stroke="#b9a06a" stroke-width="1.2" opacity=".65"/>
-    </g>
-
-    <g class="banner bn2">
-      <line x1="74" y1="212" x2="74" y2="58" stroke="var(--timber)" stroke-width="2.4"/>
-      <path d="M74,62 L116,70 L108,82 L116,94 L74,86 Z" fill="#5b2a86" stroke="var(--gold)" stroke-width="1.2"/>
-      <circle cx="91" cy="76" r="4.8" fill="var(--gold)"/>
-      <path d="M91,71 l1.4,3.2 l3.4,.3 l-2.6,2.3 l.8,3.4 l-3,-1.8 l-3,1.8 l.8,-3.4 l-2.6,-2.3 l3.4,-.3 Z" fill="#5b2a86"/>
-    </g>
-    </g>
-  </svg></div>
-
-  <div class="layer z-camp"><svg viewBox="0 0 400 250" aria-hidden="true">
-    <g fill="#171726" stroke="var(--timber-dk)" stroke-width="1">
-      <path d="M18,214 L34,182 L50,214 Z"/><path d="M56,214 L70,190 L84,214 Z"/>
-      <path d="M330,214 L346,184 L362,214 Z"/>
-    </g>
-    <g stroke="var(--gold-dk)" stroke-width="1.2" opacity=".7">
-      <line x1="34" y1="182" x2="34" y2="176"/><line x1="70" y1="190" x2="70" y2="185"/>
-      <line x1="346" y1="184" x2="346" y2="178"/>
-    </g>
-    <g class="banner"><path d="M34,176 L48,180 L34,184 Z" fill="#5b2a86"/></g>
-    <g fill="#2b2b3e" stroke="var(--timber-dk)" stroke-width=".8">
-      <circle cx="236" cy="210" r="4"/><circle cx="244" cy="212" r="4.4"/><circle cx="230" cy="213" r="3.6"/>
-      <circle cx="239" cy="204" r="3.8"/>
-    </g>
-    <g fill="var(--timber)" stroke="var(--timber-dk)" stroke-width="1">
-      <rect x="292" y="192" width="24" height="24" rx="2"/>
-      <rect x="120" y="194" width="22" height="22" rx="2"/>
-    </g>
-    <g stroke="var(--timber-lt)" stroke-width="1.2">
-      <line x1="292" y1="200" x2="316" y2="200"/><line x1="292" y1="208" x2="316" y2="208"/>
-      <line x1="120" y1="202" x2="142" y2="202"/><line x1="120" y1="210" x2="142" y2="210"/>
-    </g>
-  </svg></div>
-
-  <div class="layer z-fore"><svg viewBox="0 0 400 250" aria-hidden="true">
-    <ellipse class="fog fog2" cx="200" cy="216" rx="255" ry="18" fill="#08080f" opacity=".6"/>
-    <g>
-      <rect x="158" y="204" width="16" height="13" rx="2" fill="#241d10" stroke="var(--gold-dk)" stroke-width="1.4"/>
-      <path class="flame" d="M166,204 C161,196 171,193 166,185 C175,191 174,201 166,204 Z" fill="var(--flame)"/>
-      <path class="flame" d="M166,204 C163,198 169,196 166,190 C171,195 170,201 166,204 Z" fill="var(--flame-hot)" style="animation-delay:.2s"/>
-    </g>
-    <g>
-      <rect x="266" y="206" width="15" height="12" rx="2" fill="#241d10" stroke="var(--gold-dk)" stroke-width="1.4"/>
-      <path class="flame f2" d="M273,206 C268,198 278,195 273,188 C282,193 281,203 273,206 Z" fill="var(--flame)"/>
-    </g>
-    <g>
-      <rect x="60" y="206" width="15" height="12" rx="2" fill="#241d10" stroke="var(--gold-dk)" stroke-width="1.4"/>
-      <path class="flame f3" d="M67,206 C62,198 72,195 67,188 C76,193 75,203 67,206 Z" fill="var(--flame)"/>
-    </g>
-    <g>
-      <rect x="356" y="208" width="14" height="11" rx="2" fill="#241d10" stroke="var(--gold-dk)" stroke-width="1.4"/>
-      <path class="flame f4" d="M363,208 C359,201 367,198 363,192 C370,197 369,205 363,208 Z" fill="var(--flame)"/>
-    </g>
-    <g fill="#4a4a66" opacity=".5">
-      <circle class="smoke" cx="166" cy="196" r="7"/>
-      <circle class="smoke s2" cx="273" cy="198" r="6"/>
-      <circle class="smoke s3" cx="67" cy="198" r="6.5"/>
-    </g>
-    <g fill="var(--flame-hot)">
-      <circle class="ember" cx="166" cy="196" r="2.1"/>
-      <circle class="ember e2" cx="273" cy="198" r="1.7"/>
-      <circle class="ember e3" cx="67" cy="198" r="1.9"/>
-      <circle class="ember e4" cx="363" cy="200" r="1.5"/>
-      <circle class="ember e5" cx="200" cy="206" r="1.6"/>
-      <circle class="ember e6" cx="316" cy="204" r="1.4"/>
-    </g>
-    <rect x="0" y="217" width="400" height="2.5" fill="var(--gold)" opacity=".45"/>
-    <rect x="0" y="219" width="400" height="31" fill="#06060d"/>
-  </svg></div>
-
- </div>
- <div class="hud" id="hud"></div>
- <div class="meter" id="meter"><i id="meterFill"></i></div>
- <div class="hint" id="hint"></div>
- <div class="quit" id="quit">stand down</div>
-</div>
-
-<h1>Under Siege</h1>
-<p class="line">Fact Royale is unavailable while we make repairs.</p>
-<p class="tiny">
-  Your streak, stats and history are secure &nbsp;·&nbsp;
-  <a href="mailto:tanner@tjs16media.com?subject=Fact%20Royale">Get in touch</a>
-</p>
-
-<script>
-(function(){
-  if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
-
-  /* Write the parallax variables to the STAGE, not to :root.
-
-     A custom property set on document.documentElement invalidates style for
-     every element in the document, because anything could inherit it. This
-     loop runs at 60fps forever, so the page was doing a full-document style
-     recalculation sixty times a second, permanently, whether or not anyone
-     was looking at it. The only consumer is .world's 3D transform, so the
-     variable only ever needed to reach .stage.
-
-     Falls back to documentElement if the stage is not on the page, so the
-     effect degrades rather than disappearing. */
-  var host = document.querySelector('.stage') || document.documentElement;
-
-  var tx=0, ty=0, cx=0, cy=0, drift=0, raf;
-  var lastX = null, lastY = null;
-
-  function tick(){
-    cx += (tx-cx)*0.06; cy += (ty-cy)*0.06; drift += 0.003;
-    var mx = +(cx + Math.sin(drift)*0.2).toFixed(3);
-    var my = +cy.toFixed(3);
-    // Three decimals is below what a 6deg rotation can show on screen, and
-    // skipping the write when nothing visibly changed keeps a still pointer
-    // from costing a restyle every frame.
-    if (mx !== lastX) { host.style.setProperty('--mx', mx); lastX = mx; }
-    if (my !== lastY) { host.style.setProperty('--my', my); lastY = my; }
-    raf = requestAnimationFrame(tick);
-  }
-  tick();
-  addEventListener('pointermove', function(e){
-    tx = (e.clientX/innerWidth - .5)*2; ty = (e.clientY/innerHeight - .5)*2;
-  }, {passive:true});
-  addEventListener('pointerleave', function(){ tx=0; ty=0; }, {passive:true});
-  addEventListener('deviceorientation', function(e){
-    // iOS returns null here until permission is granted; we never prompt.
-    if (e.gamma == null) return;
-    tx = Math.max(-1, Math.min(1, e.gamma/30));
-    ty = Math.max(-1, Math.min(1, ((e.beta||45)-45)/30));
-  }, {passive:true});
-  document.addEventListener('visibilitychange', function(){
-    if (document.hidden) cancelAnimationFrame(raf); else raf = requestAnimationFrame(tick);
-  });
-})();
-
-// ── The siege, playable ────────────────────────────────────────────────
-// Hold to wind the counterweight, release to loose. Same mechanism the idle
-// loop drives, handed over to physics. Discovered rather than advertised —
-// the hint only appears if you have been sitting here a while.
-(function(){
-  if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
-
-  var stage = document.querySelector('.stage'),
-      beam  = document.getElementById('gBeam'), cw    = document.getElementById('gCw'),
-      sling = document.getElementById('gSling'), shot = document.getElementById('gShot'),
-      shake = document.getElementById('gShake'), hitG = document.getElementById('gHit'),
-      dmgG  = document.getElementById('gDmg'),
-      wallG = document.getElementById('gWall'),   piecesG = document.getElementById('gPieces'),
-      trimG = document.getElementById('gTrim'),   dustG   = document.getElementById('gDust'),
-      slitsG= document.getElementById('gSlits'),
-      hud   = document.getElementById('hud'), meter = document.getElementById('meter'),
-      fill  = document.getElementById('meterFill'), hint = document.getElementById('hint'),
-      quit  = document.getElementById('quit');
-  if (!beam || !stage) return;
-
-  // Touch devices get different words and an on-screen exit, because there is
-  // no space bar and no Escape key to tell them about.
-  var TOUCH = window.matchMedia('(pointer: coarse)').matches || 'ontouchstart' in window;
-  var TAKE  = TOUCH ? 'touch and hold the trebuchet' : 'hold space to take the trebuchet';
-  var PLAY  = TOUCH ? 'hold to wind  ·  release to loose'
-                    : 'hold to wind  ·  release to loose  ·  esc to stand down';
-
-  var cracks = dmgG  ? dmgG.querySelectorAll('path')     : [];
-  var dust   = dustG ? dustG.querySelectorAll('ellipse') : [];
-
-  // Three stages, escalating. Stone spiders first, then blocks come out and
-  // leave real voids, then the span fails. A wall that simply blinks back to
-  // new gives the player nothing to read; this way the damage is a story.
-  var CRACK_HITS = 3;
-  var CHUNK_HITS = 4;                         // hits that punch blocks out
-  var BREACH = CRACK_HITS + CHUNK_HITS + 1;   // the last hit brings it down
-
-  var WALL = { x0:228, x1:314, y0:106, y1:218 };
-  /* The wall is a GATEHOUSE BETWEEN TWO TOWERS, all one curtain.
-
-     It used to be a single uniform lattice from x228 to x314 - one rectangle
-     of blocks with a gate painted on it. That is why it read as an isolated
-     tower rather than a stretch of defended wall: there was no profile to
-     read, just a box.
-
-     Five segments now, each with its own crest height, sharing one base and
-     one run of masonry. Low curtain between high towers, with the gatehouse
-     stepping up in the middle, gives the silhouette somewhere for the eye to
-     go and makes it obvious what you are aiming at.
-
-     Segment table is the single owner of the wall's shape. The hit box, the
-     merlons, the arrow slits, the gateway void and the rubble buckets are
-     all derived from it below, so widening a tower here cannot leave some
-     other part of the file believing the old geometry. */
-  var BASE_Y = 218;
-  var SEGMENTS = [
-    { x0:196, x1:230, top: 88, kind:'tower'  },
-    { x0:230, x1:248, top:130, kind:'curtain'},
-    { x0:248, x1:296, top:104, kind:'gate'   },
-    { x0:296, x1:314, top:130, kind:'curtain'},
-    { x0:314, x1:348, top: 88, kind:'tower'  }
-  ];
-  var SPAN_X0 = SEGMENTS[0].x0, SPAN_X1 = SEGMENTS[SEGMENTS.length-1].x1;
-
-  /* Crest height per segment, filled in by buildWall with the jitter that
-     was actually drawn. The hit test reads this rather than a single top.
-     
-     Without it the wall was one bounding box from the tallest tower crest
-     down to the ground, so a stone sailing clean over the LOW curtain
-     between the towers was still inside the box and scored as a hit. That
-     is the "it hits even when I overshoot" case: the stone visibly cleared
-     the wall and the collision thought otherwise. */
-  var SEG_TOP = [];
-  function wallTopAt(x){
-    for (var i=0;i<SEGMENTS.length;i++)
-      if (x >= SEGMENTS[i].x0 && x <= SEGMENTS[i].x1)
-        return SEG_TOP[i] != null ? SEG_TOP[i] : SEGMENTS[i].top;
-    return Infinity;        // not over the wall at all
-  }
-  /* The opening is 24 wide inside a 48-wide gatehouse, so twelve pixels of
-     masonry stand either side of the arch. It was 24 inside 30: three
-     pixels a side, which is a hole with a frame, not a gatehouse. */
-  var GATE_X0 = 260, GATE_X1 = 284;
-  var GATE_Y  = 172;                      // everything below this is archway
-  var NS = 'http://www.w3.org/2000/svg';
-
-  // Debris physics. The previous version animated chunks with CSS transitions
-  // that faded to zero opacity over the same duration as the movement, so a
-  // block dissolved in mid-air instead of landing. These are real particles
-  // stepped by the same animation loop as the projectile: they accelerate,
-  // bounce, lose energy and come to rest, and where they rest becomes the
-  // rubble pile. Nothing fades.
-  var PIECES = [];            // {el,cx,cy,x,y,vx,vy,rot,vr,state,delay}
-  // Halved the speed of the whole collapse: gravity scales with the square of
-  // the time factor and the launch velocities with the factor itself, so the
-  // trajectories keep their shape and only the clock changes. The first pass
-  // put the wall down in 0.9s, which read as a puff rather than a fall.
-  var D_GRAV = 0.11, BOUNCE = -0.30, FRICTION = 0.62, SLEEP_V = 0.55;
-
-  // The heap is tracked in buckets across the ground. The span is wider than
-  // the wall on purpose: debris is thrown out past the left edge, and when the
-  // buckets only covered the wall itself everything that flew clear clamped
-  // into bucket zero and stacked 52px into a tower. PILE_MAX caps it too.
-  var BUCKETS = 18, PILE_STEP = 2.2, pileTop = [];
-  var PILE_X0 = SPAN_X0 - 22, PILE_X1 = SPAN_X1 + 22, PILE_MAX = 15;
-
-  function rnd(a,b){ return a + Math.random()*(b-a); }
-  function rndInt(a,b){ return Math.floor(a + Math.random()*(b-a+1)); }
-  function clearKids(el){ while (el && el.firstChild) el.removeChild(el.firstChild); }
-  function bucketOf(x){
-    var b = Math.floor((x - PILE_X0) / (PILE_X1 - PILE_X0) * BUCKETS);
-    return b < 0 ? 0 : b >= BUCKETS ? BUCKETS-1 : b;
-  }
-  function dropPile(b, amt){
-    pileTop[b] = Math.max(BASE_Y - PILE_MAX, pileTop[b] - amt);
-  }
-  // Sweep matches the idle keyframes exactly, or the machine would flip
-  // direction the instant you started playing.
-  var COCK = -35, FIRE = 115, SWING = -190;
-  /* GRAV was 0.11 while the release was damped by GAIN 0.44. That pairing
-     is what made the throw look wrong: the stone travelled 9.6px per frame
-     in the sling and 4.1px per frame the instant it left, so it visibly
-     DECELERATED at the exact moment it should have been fastest. GAIN was
-     never a gain, it was a 56% brake, and it was being tuned to make shots
-     land on the wall - so every retune made the discontinuity worse.
-     
-     Range is governed by gravity now, where it belongs, and the stone keeps
-     the speed the sling gave it. */
-  var GROUND = 216, GRAV = 1.90;
-
-  // Retuned by simulation. The arm used to cross its whole 150 degree sweep
-  // in about 8 frames at full wind, which is 19 degrees a frame: that was the
-  // choppiness. SWEEP now stretches the same arc over roughly 35 frames.
-  //
-  // Release was at 45% of the sweep with the arm still at 29 degrees, low and
-  // rising, which is why the stone left before the machine had come forward.
-  // 62% puts the arm at 66 degrees and throwing. Past about 72% the launch
-  // vector tips downward again, so later is not better.
-  var SWEEP = 40, SLING_SWEEP = 45;
-
-  // Release point, as a fraction of the sweep. Declared here rather than next
-  // to armFrac() because REL_T below is computed from it, and a `var` read
-  // before its assignment line is undefined, not hoisted-with-value: REL_T
-  // came out NaN and the stone never released.
-  var REL_K = 0.58;
-  var ARM_A = 1 / REL_K;                  // makes armFrac(1) land exactly on 1
-  var WIND_BASE = 0.30, WIND_GAIN = 0.75;   // t per frame = base + gain*power
-
-  // The machine is drawn inside #gRigScale, so everything the arm does happens
-  // in that group's local space. The projectile is integrated in the same
-  // space (it is parented there too, which is why it renders correctly without
-  // conversion) and is mapped to scene coordinates only for the collision
-  // test. Keeping ONE conversion point means the stone the player sees and the
-  // stone the wall is tested against can never be two different stones.
-  // One owner: the transform lives in the markup, because this script returns
-  // early under prefers-reduced-motion and the scene still has to be laid out
-  // correctly for those readers. The physics reads the attribute back instead
-  // of keeping a second copy of the numbers that can drift away from it.
-  var RIG_S = 0.70, RIG_TX = 6.5, RIG_TY = 64.2;
-  (function(){
-    var el = document.getElementById('gRigScale');
-    if (!el) return;
-    var m = /translate\(\s*(-?[\d.]+)[\s,]+(-?[\d.]+)\s*\)\s*scale\(\s*(-?[\d.]+)/
-              .exec(el.getAttribute('transform') || '');
-    if (m){ RIG_TX = parseFloat(m[1]); RIG_TY = parseFloat(m[2]); RIG_S = parseFloat(m[3]); }
-  })();
-  function toSceneX(x){ return RIG_S*x + RIG_TX; }
-  function toSceneY(y){ return RIG_S*y + RIG_TY; }
-
-  // Standing the machine off from 73px to 113px more than doubled the range it
-  // has to cover in its own local units, so the release retuned with it.
-  /* GAIN was 0.78 against the old smoothstep arm. The new curve releases 37%
-     faster, so holding GAIN would have sent every shot over the wall.
-
-     0.54 was chosen by simulating the whole flight at 21 power settings and
-     taking the value that put the most of them on the wall with the widest
-     spread across its face: 13 of 21 land on the wall, covering 86px of an
-     86px-wide wall, usable from 40% power to 100%.
-
-     The old numbers are worth recording because they are why this needed
-     doing: power 0.25 and power 0.50 both landed at x=229, the near edge.
-     Two very different winds, identical result, and full power sailed over.
-     Most of the power bar did nothing. */
-  /* 1.0 means the stone leaves at exactly the speed the sling tip was
-     moving: no discontinuity at release. Anything less is a brake applied
-     at the moment of launch, which is visible however carefully it is
-     tuned. Range belongs to GRAV above. */
-  var REL_T = REL_K * SWEEP, GAIN = 1.0;
-  function rotp(px,py,cx,cy,deg){
-    var r=deg*Math.PI/180, c=Math.cos(r), sn=Math.sin(r), dx=px-cx, dy=py-cy;
-    return [cx+dx*c-dy*sn, cy+dx*sn+dy*c];
-  }
-  // Where the sling pouch actually is: rotate it about the arm tip, then
-  // rotate that about the main pivot. Previously the stone was spawned at a
-  // hardcoded point that had nothing to do with the arm, so it teleported.
-  function pouchAt(a,sA){
-    var q = rotp(48,129, 60,96, sA);
-    return rotp(q[0],q[1], 155,104, a);
-  }
-  /* Arm sweep: accelerate from rest THROUGH the release, then run down.
-
-     This was smoothstep, k*k*(3-2*k), whose speed is 6k(1-k): zero at both
-     ends, peak at the exact middle. Release happens at k=0.58, so the arm
-     was already slowing down when it let go, and then eased to a dead stop.
-     That is an easing curve for a UI panel, not a counterweight. A falling
-     weight accelerates the arm the whole way round, hardest at the moment
-     the sling lets go, and the arm overruns afterwards because nothing is
-     stopping it except the beam hitting its stops.
-
-     So: constant angular acceleration until release, then decelerate to rest
-     at the end of the sweep. Peak angular speed now lands exactly on the
-     release instead of 8% past it, and the follow-through is a run-down
-     rather than a glide to a halt.
-
-     Measured against the old curve: speed at release 2.00 vs 1.46 (relative
-     units), which is why GAIN came down with it. */
-  function armFrac(k){
-    if (k >= 1) return 1;
-    if (k <= REL_K) return ARM_A * k * k;
-    var d = k - REL_K;
-    return ARM_A*REL_K*REL_K + 2*ARM_A*REL_K*d - (ARM_A*REL_K/(1-REL_K))*d*d;
-  }
-  function angAt(tt){ return COCK + (FIRE-COCK) * armFrac(tt/SWEEP); }
-
-  /* ── THE SLING IS SIMULATED, NOT SCRIPTED ─────────────────────────────
-
-     Everything the sling did used to come out of sAt(t): a hand-picked
-     curve mapping elapsed time to an angle. That is why it kept producing a
-     new fault every time one was fixed. It decelerated the stone at
-     release, then popped it forward by a frame, then stayed welded at full
-     wrap through the follow-through, then ended pointing forward. Four
-     symptoms of one cause: there was no model underneath, so every
-     behaviour had to be authored by hand, and any behaviour nobody thought
-     to author came out wrong.
-
-     A sling is a pendulum hanging from a moving pivot. Integrating that
-     directly is ten lines and it yields the lag, the whip, the release
-     angle, the follow-through and the resting pose for free, because they
-     are all consequences of the same equation rather than five separate
-     decisions.
-
-     With y pointing down, for sling angle phi in world space:
-
-        L * phi'' = g*cos(phi) + aTx*sin(phi) - aTy*cos(phi)
-
-     The first term is gravity pulling the stone down. The other two are the
-     pivot being yanked out from under it, which is what actually throws the
-     stone. */
-  var SLING_L    = Math.hypot(48-60, 129-96);                 // 35.11
-  var SLING_BASE = Math.atan2(129-96, 48-60) * 180/Math.PI;   // 110deg, beam-local
-  var G_SLING    = 0.20;    // gravity on the stone while the sling still holds it
-  var REL_GATE   = 45;      // the arm must be past this angle before it can let go
-  var REL_ANG    = 38;      // and the stone must be rising at this angle
-
-  var phi = 0, dphi = 0, tipPrev = null, tipVel = [0,0];
-
-  function tipAt(a){ return rotp(60, 96, 155, 104, a); }
-
-  /** Seat the stone in the sling, hanging from the tip at arm angle a. */
-  function seatSling(a){
-    phi = (SLING_BASE + a) * Math.PI/180;
-    dphi = 0; tipPrev = tipAt(a); tipVel = [0,0];
-  }
-
-  /** Advance the pendulum one frame against the arm's current angle. */
-  function stepSling(a){
-    var T = tipAt(a);
-    if (!tipPrev) tipPrev = T;
-    var vT = [T[0]-tipPrev[0], T[1]-tipPrev[1]];
-    var aT = [vT[0]-tipVel[0], vT[1]-tipVel[1]];
-    dphi += (G_SLING*Math.cos(phi) + aT[0]*Math.sin(phi) - aT[1]*Math.cos(phi)) / SLING_L;
-    // Rope is not frictionless. Without this the freed sling keeps spinning
-    // round the arm tip forever, because nothing in an ideal pendulum ever
-    // takes energy out of it.
-    /* A LOADED sling must keep almost all its energy or it cannot throw.
-       An EMPTY one is a few metres of slack rope with nothing on the end,
-       so it sheds energy fast and flops. One damping value for both made it
-       spin round the arm tip like a rotor after the shot had gone. */
-    dphi *= p ? 0.86 : 0.995;
-    // Hard cap on angular speed. The integrator is happy to spin the sling
-    // at any rate the tip's acceleration implies, and during the winch-back
-    // that was several revolutions a second - a rotor, not a rope.
-    var LIM = 0.30;
-    if (dphi >  LIM) dphi =  LIM;
-    if (dphi < -LIM) dphi = -LIM;
-    phi  += dphi;
-    tipPrev = T; tipVel = vT;
-  }
-
-  function stonePos(a){
-    var T = tipAt(a);
-    return [T[0] + SLING_L*Math.cos(phi), T[1] + SLING_L*Math.sin(phi)];
-  }
-  function stoneVel(){
-    return [tipVel[0] - SLING_L*dphi*Math.sin(phi),
-            tipVel[1] + SLING_L*dphi*Math.cos(phi)];
-  }
-  /** The sling element rotates in BEAM space, so take the arm back out. */
-  function slingLocalDeg(a){ return phi*180/Math.PI - SLING_BASE - a; }
-
-
-  var on=false, charging=false, power=0, phase='ready', t=0, falling=false,
-      shots=0, hits=0, dmg=0,
-      best = parseInt(localStorage.getItem('fr_siege_best')||'0', 10),
-      p=null, raf=null, idleAt=Date.now();
-
-  function draw(){
-    var ang, sAng;
-    if (phase==='ready' || phase==='charging'){
-      ang  = COCK - power*7;                  // creaks further back under load
-      seatSling(ang);                         // rope lies in the trough
-      sAng = 0;
-    } else if (phase==='throw'){
-      ang  = angAt(t); sAng = slingLocalDeg(ang);
-    } else {
-      // Spent. Let the arm keep running out its own sweep rather than being
-      // snapped to the end pose. At low wind the stone lands while the arm is
-      // only part way round, and jumping it to FIRE was a visible flick right
-      // at the moment the player was watching the shot.
-      ang = angAt(t); sAng = slingLocalDeg(ang);
-    }
-    // CSS transforms, not SVG attributes: the pivot must come from
-    // transform-origin alone, never from rotate()'s own cx/cy as well.
-    beam.style.transform  = 'rotate(' + ang.toFixed(2) + 'deg)';
-    cw.style.transform    = 'rotate(' + (-ang).toFixed(2) + 'deg)';   // hangs plumb
-    sling.style.transform = 'rotate(' + sAng.toFixed(2) + 'deg)';
-    // Before release the stone sits in the sling; after, it flies.
-    var q = p ? [p.x,p.y] : pouchAt(ang,sAng);
-    shot.style.opacity = 1;
-    shot.style.transform =
-      'translate(' + (q[0]-46).toFixed(1) + 'px,' + (q[1]-106).toFixed(1) + 'px)';
-  }
-
-  function stageWord(){
-    if (dmg >= BREACH)                    return 'breached';
-    if (dmg >= CRACK_HITS + CHUNK_HITS)   return 'failing';
-    if (dmg >= CRACK_HITS)                return 'breaching';
-    return 'holding';
-  }
-
-  function hudText(){
-    hud.innerHTML = on
-      ? 'shots <b>'+shots+'</b> · hits <b>'+hits+'</b> · wall <b>'+Math.max(0,BREACH-dmg)+'</b> '
-        + stageWord() + (best?' · best <b>'+best+'</b>':'')
-      : '';
-  }
-
-  function burst(x,y){
-    hitG.style.animation='none';
-    hitG.setAttribute('transform','translate('+(x-258)+','+(y-150)+')');
-    hitG.style.opacity=1; hitG.style.transform='scale(1)';
-    setTimeout(function(){ hitG.style.transition='opacity .45s, transform .45s';
-      hitG.style.opacity=0; hitG.style.transform='scale(2.1)'; }, 20);
-    setTimeout(function(){ hitG.style.transition=''; }, 500);
-    if (shake){ shake.style.animation='none'; void shake.offsetWidth;
-      shake.style.animation='shake .55s linear'; }
-  }
-
-  function showCrack(i){
-    if (!cracks[i]) return;
-    cracks[i].style.transition='opacity .35s';
-    cracks[i].style.opacity=.95;
-  }
-
-  /* Reveal the crack NEAREST the impact, not the next one in document order.
-
-     Two bugs this replaces, both visible:
-
-     1. Cracks appeared in a fixed sequence regardless of where the stone
-        struck. Hit the left buttress and a crack would open on the right.
-        The wall was telling a story, but not the player's story, and that
-        reads as the damage being fake - which it was.
-
-     2. The index arithmetic ran off the end. With CRACK_HITS 3 and
-        CHUNK_HITS 4 the seventh hit asked for crack index 6, and only six
-        paths exist (0-5). showCrack returned silently, so the last hit
-        before the collapse added no damage at all. Picking by position has
-        no indices to overflow.
-
-     Returns true if it opened one, false when they are all already showing. */
-  function showCrackNear(x, y){
-    var cc = crackCentres(), best = -1, bestD = Infinity;
-    for (var i=0;i<cc.length;i++){
-      if (!cracks[i]) continue;
-      if (+cracks[i].style.opacity > 0) continue;        // already open
-      if (cc[i].cx === -999) continue;                   // never measured
-      var dx = cc[i].cx - x, dy = cc[i].cy - y;
-      var d = dx*dx + dy*dy;                             // no sqrt; ordering is the same
-      if (d < bestD){ bestD = d; best = i; }
-    }
-    if (best === -1) return false;
-    showCrack(best);
-    return true;
-  }
-
-  // Where each crack sits, measured from the DOM rather than transcribed from
-  // the path data into a second list that could fall out of step with it.
-  var crackAt = null;
-  function crackCentres(){
-    if (crackAt) return crackAt;
-    crackAt = [];
-    for (var i=0;i<cracks.length;i++){
-      var c = { cx:-999, cy:-999 };
-      try {
-        var bb = cracks[i].getBBox();
-        c.cx = bb.x + bb.width/2;
-        c.cy = bb.y + bb.height/2;
-      } catch(e){ /* not rendered yet; leave it off the map */ }
-      crackAt.push(c);
-    }
-    return crackAt;
-  }
-
-  function hideCracksNear(x,y,r){
-    var cc = crackCentres();
-    for (var i=0;i<cc.length;i++){
-      if (!cracks[i]) continue;
-      var dx = cc[i].cx - x, dy = cc[i].cy - y;
-      if (dx*dx + dy*dy < r*r){
-        cracks[i].style.transition='opacity .3s';
-        cracks[i].style.opacity=0;
-      }
-    }
-  }
-
-  function puff(i, scale){
-    var d = dust[i];
-    if (!d) return;
-    d.style.transition='none';
-    d.style.transform='scale(.35)'; d.style.opacity='0';
-    void d.getBoundingClientRect();
-    d.style.transition='transform 1.3s ease-out, opacity 1.3s ease-out';
-    d.style.transform='scale('+scale.toFixed(2)+') translateY(-7px)';
-    d.style.opacity='.5';
-    setTimeout(function(){ d.style.opacity='0'; }, 500);
-  }
-
-  // One integration step for every piece that is in the air. Called from the
-  // same requestAnimationFrame loop that flies the projectile, so the debris
-  // obeys the same clock as everything else on screen.
-  function stepDebris(){
-    for (var i=0;i<PIECES.length;i++){
-      var q = PIECES[i];
-      if (q.state !== 1) continue;
-      if (q.delay > 0){ q.delay--; continue; }
-
-      q.vy += D_GRAV;
-      q.x  += q.vx;
-      q.y  += q.vy;
-      q.rot += q.vr;
-
-      // Rest height comes from what has already landed nearby, so the debris
-      // stacks into a mound instead of lining up flat along the ground.
-      var b     = bucketOf(q.cx + q.x);
-      var floor = pileTop[b] - q.cy;
-
-      if (q.y >= floor){
-        q.y = floor;
-        if (Math.abs(q.vy) < SLEEP_V){
-          q.vy = 0; q.vx = 0; q.vr = 0; q.state = 2;
-          dropPile(b, PILE_STEP);                  // the heap grows
-          if (b > 0)          dropPile(b-1, PILE_STEP*0.35);
-          if (b < BUCKETS-1)  dropPile(b+1, PILE_STEP*0.35);
-        } else {
-          q.vy *= BOUNCE; q.vx *= FRICTION; q.vr *= 0.45;
-        }
-      }
-      q.el.style.transform = 'translate('+q.x.toFixed(2)+'px,'+q.y.toFixed(2)+'px) '
-                           + 'rotate('+q.rot.toFixed(1)+'deg)';
-    }
-  }
-
-  // Stage two: the blocks nearest the impact come clean out. The void is not
-  // painted on - it is simply where a block used to be.
-  /* Blocks come out WITHIN REACH of the impact, and only those.
-     
-     This used to collect every surviving block, sort the whole wall by
-     distance and take the closest few - with no limit on how far "closest"
-     was allowed to be. Once the stone's own neighbourhood had been cleared,
-     the nearest intact masonry might be in the other tower, and the wall
-     would shed blocks sixty pixels from anywhere the stone had ever landed.
-     That is the "it breaks where it wasn't hit" case.
-     
-     A stone that lands somewhere already hollowed out now simply scuffs the
-     stone instead of teleporting its damage across the wall. */
-  var KNOCK_R2 = 24 * 24;
-  function knockOut(x,y,count){
-    var near = [];
-    for (var i=0;i<PIECES.length;i++){
-      var q = PIECES[i];
-      if (q.state !== 0) continue;
-      var dx = q.cx-x, dy = q.cy-y;
-      var d2 = dx*dx + dy*dy;
-      if (d2 > KNOCK_R2) continue;
-      near.push({ q:q, d:d2 });
-    }
-    near.sort(function(a,b){ return a.d - b.d; });
-    var n = Math.min(count, near.length);
-    for (var j=0;j<n;j++){
-      var p2 = near[j].q;
-      p2.state = 1;
-      p2.vx = -rnd(0.26, 1.0);
-      p2.vy = -rnd(0.16, 0.79);
-      p2.vr = rnd(-4, 4);
-      p2.delay = j*2;
-      // A crack drawn across stone that is no longer there has nothing to be
-      // a crack in, so it goes with the block.
-      hideCracksNear(p2.cx, p2.cy, 15);
-    }
-    puff(Math.floor(rnd(0,dust.length)), 1.0);
-  }
-
-  // Stage three. Every block still standing lets go, base first, so the wall
-  // sits down into itself and the upper courses topple out over the rubble.
-  /* THE SECTION YOU BREACHED COMES DOWN. Not the whole wall.
-     
-     collapse() used to drop every surviving block on the stage, which was
-     right when the wall was one undifferentiated slab. Against a gatehouse
-     between two towers it means a stone that has spent its whole life
-     hitting the left tower brings down the right tower too, and the reading
-     is nonsense: nothing connects the damage you did to the thing that
-     fell.
-     
-     Now the section containing the killing blow goes, plus whatever is
-     within a short reach of its edges in the neighbouring sections, so the
-     break is ragged instead of guillotined along a segment boundary. */
-  var EDGE_BITE = 9;
-  function collapse(x){
-    falling = true;
-    var seg = -1;
-    for (var si=0; si<SEGMENTS.length; si++)
-      if (x >= SEGMENTS[si].x0 && x <= SEGMENTS[si].x1) { seg = si; break; }
-    // No usable impact position (shouldn't happen): fall back to the
-    // gatehouse, which is the section the whole scene is about.
-    if (seg === -1) seg = 2;
-    var lo = SEGMENTS[seg].x0 - EDGE_BITE, hi = SEGMENTS[seg].x1 + EDGE_BITE;
-    if (shake){
-      shake.style.animation='none'; void shake.offsetWidth;
-      shake.style.animation='quake 1.2s ease-out';
-    }
-    var topY = WALL.y0, span = Math.max(1, BASE_Y - topY);
-    for (var i=0;i<PIECES.length;i++){
-      var q = PIECES[i];
-      if (q.state !== 0) continue;
-      // In the breached section, or close enough to its edge to be dragged
-      // down with it.
-      if (q.seg !== seg && (q.cx < lo || q.cx > hi)) continue;
-      var h = (BASE_Y - q.cy) / span;          // 1 at the parapet, 0 at the base
-      q.state = 1;
-      // Near-simultaneous release. The first version staggered by 16 frames
-      // from the base up, which left the whole upper wall hanging unsupported
-      // in mid-air for a quarter second before it dropped onto the rubble
-      // that had already settled underneath it. That pause is what looked
-      // like the wall reassembling itself. Gravity gives the cascade for
-      // free, because the high blocks have further to fall.
-      q.delay = Math.round((1-h)*5 + rnd(0,4));
-      q.vx = -(0.13 + h*1.10) * rnd(0.55,1.25); // the top still carries furthest
-      q.vy = -rnd(0, 0.48);
-      q.vr = rnd(-5, 5);
-    }
-    // The painted detail is not masonry and must not hang in the air.
-    if (trimG){
-      trimG.style.transition='opacity .45s ease-in';
-      trimG.style.opacity='0';
-    }
-    for (var d=0;d<dust.length;d++) puff(d, 1.8);
-
-    if (hits > best || best===0){
-      best = hits;
-      try{ localStorage.setItem('fr_siege_best', best); }catch(e){}
-    }
-    setTimeout(rebuild, 3400);   // the fall now takes ~1.6s; let the ruin sit
-  }
-
-  function applyDamage(n,x,y){
-    if (n <= CRACK_HITS){
-      showCrackNear(x, y);
-    } else if (n <= CRACK_HITS + CHUNK_HITS){
-      showCrackNear(x, y);                            // keep spidering
-      knockOut(x, y, rndInt(2,3));
-    } else {
-      collapse(x);
-    }
-  }
-
-  function land(hit,x,y){
-    shots++;
-    if (hit && !falling){
-      hits++;
-      if (dmg < BREACH){ dmg++; applyDamage(dmg, x, y); }
-      burst(x,y);
-    }
-    p=null; phase='spent'; hudText();
-    // Hand off to the 'return' phase rather than slamming t to 0. See loop().
-    setTimeout(function(){ if(on && phase==='spent'){ phase='return'; } }, 700);
-  }
-
-  // Cut the wall into blocks. A jittered lattice, not a grid: every vertex is
-  // nudged, so no two blocks are the same rectangle and the courses do not
-  // line up into the obvious chequerboard the first version had.
-  //
-  // The parapet falls out of the same lattice. A cell in the top band only
-  // becomes a block if it sits under a merlon, so the crenellated outline is
-  // a consequence of which blocks exist rather than a shape drawn on top.
-  function buildWall(){
-    clearKids(piecesG);
-    PIECES.length = 0;
-    pileTop.length = 0;
-    for (var b=0;b<BUCKETS;b++) pileTop[b] = BASE_Y;
-
-    var topMost = 1e9;
-    SEG_TOP.length = 0;
-
-    // Each segment is its own lattice. Separate grids rather than one grid
-    // with a varying top, because neighbouring columns at different heights
-    // in a shared grid produce sloped quads across the step; what a wall does
-    // at a change of height is step, cleanly.
-    SEGMENTS.forEach(function (seg) {
-      var w = seg.x1 - seg.x0;
-      // A touch of variation so two rebuilds are not identical, but never
-      // enough to change which segment is tall.
-      var capY  = seg.top + rnd(-3, 3);
-      SEG_TOP[SEGMENTS.indexOf(seg)] = capY;
-      var faceY = capY + 13;                 // parapet band depth
-      if (capY < topMost) topMost = capY;
-
-      var COLS = Math.max(2, Math.round(w / 12));
-      var ROWS = Math.max(4, Math.round((BASE_Y - capY) / 14));
-
-      // Merlons sized per segment, so a narrow curtain does not get the same
-      // count as a tower and end up looking like a comb.
-      var mw = 9, gapW = 7;
-      var n = Math.max(2, Math.floor((w + gapW) / (mw + gapW)));
-      var spare = w - (n*mw + (n-1)*gapW);
-      var merlons = [];
-      for (var i=0;i<n;i++){
-        var mx = seg.x0 + spare/2 + i*(mw+gapW);
-        merlons.push([mx, mx+mw]);
-      }
-
-      var pts = [], r, c;
-      for (r=0;r<=ROWS;r++){
-        pts[r] = [];
-        for (c=0;c<=COLS;c++){
-          var px = seg.x0 + w*c/COLS;
-          var py = capY + (BASE_Y-capY)*r/ROWS;
-          if (c>0 && c<COLS) px += rnd(-2.2,2.2);
-          if (r>0 && r<ROWS) py += rnd(-2.0,2.0);
-          pts[r][c] = [px,py];
-        }
-      }
-
-      for (r=0;r<ROWS;r++){
-        for (c=0;c<COLS;c++){
-          var a=pts[r][c], bb=pts[r][c+1], d=pts[r+1][c+1], e=pts[r+1][c];
-          var cx=(a[0]+bb[0]+d[0]+e[0])/4, cy=(a[1]+bb[1]+d[1]+e[1])/4;
-
-          if (cy < faceY){                       // parapet band: merlons only
-            var inM=false;
-            for (var m=0;m<merlons.length;m++)
-              if (cx>=merlons[m][0] && cx<=merlons[m][1]) inM=true;
-            if (!inM) continue;
-          }
-          // The archway is a void in the gatehouse, not a hole punched
-          // through whatever happens to be in the middle of the wall.
-          if (seg.kind==='gate' && cx>GATE_X0 && cx<GATE_X1 && cy>GATE_Y) continue;
-
-          var path = document.createElementNS(NS,'path');
-          path.setAttribute('d','M'+a[0].toFixed(1)+','+a[1].toFixed(1)
-                              +'L'+bb[0].toFixed(1)+','+bb[1].toFixed(1)
-                              +'L'+d[0].toFixed(1)+','+d[1].toFixed(1)
-                              +'L'+e[0].toFixed(1)+','+e[1].toFixed(1)+'Z');
-          piecesG.appendChild(path);
-          PIECES.push({ el:path, cx:cx, cy:cy, x:0, y:0, seg:SEGMENTS.indexOf(seg),
-                        vx:0, vy:0, rot:0, vr:0, state:0, delay:0 });
-        }
-      }
+  <!-- LANDING / HOME SCREEN -->
+  <div id="screen-landing" class="screen active">
+
+    <!-- ══════════════════════════════════════════════════════════════
+         TWO HOMES, ONE ROUTE.
+
+         A first-time visitor and a returning player want different
+         things from this URL: one needs to know what this is, the other
+         needs today's quiz and their streak. The old page tried to be
+         both and ended up as nine stacked sections that showed and hid.
+
+         homeFor() in quiz.js picks one. Both carry the same scene, nav
+         and type scale — signing in should not feel like a different
+         product.
+         ═══════════════════════════════════════════════════════════ -->
+
+    <!-- ───────────── PUBLIC ───────────── -->
+    <div id="home-public">
+      <div class="scene home-hero">
+      <svg viewBox="0 0 1200 560" preserveAspectRatio="xMidYMax slice" aria-hidden="true">
+        <g fill="#d6d1ee">
+          <circle cx="90" cy="60" r="1.6" opacity=".5"/><circle cx="240" cy="38" r="2" opacity=".4"/>
+          <circle cx="410" cy="84" r="1.5" opacity=".45"/><circle cx="600" cy="48" r="1.8" opacity=".4"/>
+          <circle cx="760" cy="96" r="1.5" opacity=".35"/><circle cx="930" cy="42" r="2" opacity=".45"/>
+          <circle cx="1090" cy="78" r="1.6" opacity=".4"/><circle cx="520" cy="130" r="1.4" opacity=".28"/>
+          <circle cx="170" cy="150" r="1.4" opacity=".3"/><circle cx="1010" cy="160" r="1.4" opacity=".26"/></g>
+        <circle cx="985" cy="214" r="56" fill="#ece7cd" opacity=".95"/>
+        <circle cx="962" cy="198" r="10" fill="#d3cdae" opacity=".5"/>
+        <circle cx="1002" cy="233" r="13" fill="#d3cdae" opacity=".42"/>
+        <path d="M0,360 L150,308 L300,348 L460,292 L620,340 L780,296 L940,344 L1100,300 L1200,338 L1200,560 L0,560 Z" fill="#0b0b17"/>
+        <g fill="#121223">
+          <rect x="40" y="392" width="58" height="108"/><path d="M36,393 L69,364 L102,393 Z"/>
+          <rect x="110" y="408" width="48" height="92"/><path d="M106,409 L134,382 L162,409 Z"/>
+          <rect x="1040" y="398" width="54" height="102"/><path d="M1036,399 L1067,370 L1098,399 Z"/>
+          <rect x="1106" y="412" width="46" height="88"/><path d="M1102,413 L1129,386 L1156,413 Z"/></g>
+        <g fill="#191930">
+          <rect x="300" y="330" width="78" height="170"/><rect x="292" y="316" width="94" height="16"/>
+          <rect x="296" y="296" width="20" height="21"/><rect x="330" y="296" width="20" height="21"/>
+          <rect x="364" y="296" width="20" height="21"/>
+          <rect x="822" y="330" width="78" height="170"/><rect x="814" y="316" width="94" height="16"/>
+          <rect x="818" y="296" width="20" height="21"/><rect x="852" y="296" width="20" height="21"/>
+          <rect x="886" y="296" width="20" height="21"/></g>
+        <g fill="#21213c">
+          <rect x="430" y="250" width="68" height="250"/><rect x="422" y="235" width="84" height="16"/>
+          <rect x="426" y="214" width="20" height="22"/><rect x="458" y="214" width="20" height="22"/>
+          <rect x="702" y="250" width="68" height="250"/><rect x="694" y="235" width="84" height="16"/>
+          <rect x="698" y="214" width="20" height="22"/><rect x="730" y="214" width="20" height="22"/>
+          <rect x="530" y="196" width="140" height="304"/><rect x="520" y="180" width="160" height="17"/>
+          <rect x="526" y="156" width="22" height="25"/><rect x="566" y="156" width="22" height="25"/>
+          <rect x="606" y="156" width="22" height="25"/><rect x="646" y="156" width="22" height="25"/>
+          <path d="M576,156 L624,156 L600,96 Z"/></g>
+        <g fill="#f0a92a">
+          <rect x="586" y="250" width="10" height="30" opacity=".6"/>
+          <rect x="628" y="320" width="10" height="30" opacity=".34"/>
+          <rect x="554" y="382" width="10" height="28" opacity=".44"/>
+          <rect x="458" y="300" width="9" height="26" opacity=".38"/>
+          <rect x="738" y="352" width="9" height="26" opacity=".3"/></g>
+        <g fill="#14141f"><rect x="0" y="452" width="1200" height="108"/>
+          <g><rect x="12" y="434" width="22" height="19"/><rect x="58" y="434" width="22" height="19"/>
+            <rect x="104" y="434" width="22" height="19"/><rect x="150" y="434" width="22" height="19"/>
+            <rect x="196" y="434" width="22" height="19"/><rect x="242" y="434" width="22" height="19"/>
+            <rect x="288" y="434" width="22" height="19"/><rect x="334" y="434" width="22" height="19"/>
+            <rect x="380" y="434" width="22" height="19"/><rect x="426" y="434" width="22" height="19"/>
+            <rect x="472" y="434" width="22" height="19"/><rect x="518" y="434" width="22" height="19"/>
+            <rect x="564" y="434" width="22" height="19"/><rect x="610" y="434" width="22" height="19"/>
+            <rect x="656" y="434" width="22" height="19"/><rect x="702" y="434" width="22" height="19"/>
+            <rect x="748" y="434" width="22" height="19"/><rect x="794" y="434" width="22" height="19"/>
+            <rect x="840" y="434" width="22" height="19"/><rect x="886" y="434" width="22" height="19"/>
+            <rect x="932" y="434" width="22" height="19"/><rect x="978" y="434" width="22" height="19"/>
+            <rect x="1024" y="434" width="22" height="19"/><rect x="1070" y="434" width="22" height="19"/>
+            <rect x="1116" y="434" width="22" height="19"/><rect x="1162" y="434" width="22" height="19"/></g></g>
+        <g fill="#f0a92a" opacity=".8">
+          <path d="M200,500 C190,486 212,480 200,464 C222,476 218,494 200,500 Z"/>
+          <path d="M1000,500 C990,486 1012,480 1000,464 C1022,476 1018,494 1000,500 Z"/></g>
+      </svg>
+        <div class="scene__veil"></div>
+        <nav class="nav nav--over"><div class="wrap"><div class="nav__in">
+          <span class="brand"><svg width="19" height="19" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 8l4 4 5-7 5 7 4-4v9H3V8z" fill="var(--gold)"/><rect x="3" y="18" width="18" height="2.8" rx="1.2" fill="var(--gold)"/></svg> Fact Royale</span>
+          <span class="navlinks">
+            <span>How it works</span><span>Leaderboard</span>
+            <a class="is-cta" href="#" id="hp-signin">Sign in</a></span>
+        </div></div></nav>
+        <div class="scene__in home-hero__in"><div class="wrap">
+          <p class="eyebrow">A new quiz every day</p>
+          <h1 class="home-hero__h1">Know more.<em class="gold">Every day.</em></h1>
+          <p class="home-hero__lede">Twelve questions a day. Every answer comes with the reason
+            it is the answer &mdash; which is the part you keep.</p>
+          <div class="home-hero__row">
+            <button class="btn" id="hp-play">Play today &rarr;</button>
+            <a class="btn btn--ghost" href="#how">How it works</a>
+          </div>
+          <p class="home-hero__tick">No account needed &middot; about five minutes</p>
+        </div></div>
+      </div>
+
+      <div class="strip"><div class="wrap"><div class="strip__in">
+        <div class="strip__c"><div class="strip__n">12</div><div class="strip__l">questions<br>every day</div></div>
+        <div class="strip__c"><div class="strip__n">5 min</div><div class="strip__l">start to<br>finish</div></div>
+        <div class="strip__c"><div class="strip__n">1</div><div class="strip__l">attempt per<br>question</div></div>
+      </div></div></div>
+
+      <section class="home-sec"><div class="wrap">
+        <p class="kick">Five standards</p>
+        <div class="standards" id="hp-standards"></div>
+      </div></section>
+
+      <section class="home-sec" id="how" style="padding-top:0"><div class="wrap">
+        <p class="kick">How it works</p>
+        <div class="steps">
+          <div class="step"><div class="step__n">01</div>
+            <div class="step__t">One quiz, released at midnight</div>
+            <div class="step__s">Everybody gets the same twelve questions at the same moment,
+              wherever they are. No practice runs and no second attempts, which is what makes
+              the leaderboard mean anything.</div></div>
+          <div class="step"><div class="step__n">02</div>
+            <div class="step__t">Answer, then learn why</div>
+            <div class="step__s">Each answer is followed by the reasoning and a hook built to
+              make the fact stick past the end of the quiz. Every question is checked against a
+              source that establishes the answer, not just the topic.</div></div>
+          <div class="step"><div class="step__n">03</div>
+            <div class="step__t">Come back tomorrow</div>
+            <div class="step__s">Keep a streak, build a record by category, and see where you
+              landed against everyone who played that day. Miss one and you can still go
+              back for it.</div></div>
+        </div>
+      </div></section>
+
+      <div class="closer"><div class="wrap"><div class="closer__in">
+        <h2>Today's twelve are waiting.</h2>
+        <p>Play without an account. Sign up only if you want the streak, the leaderboard and
+          your record by category kept.</p>
+        <button class="btn" id="hp-play-2">Play today &rarr;</button>
+      </div></div></div>
+    </div>
+
+    <!-- ───────────── MEMBER ───────────── -->
+    <div id="home-member" hidden>
+      <div class="scene home-hero home-hero--member">
+      <svg viewBox="0 0 1200 560" preserveAspectRatio="xMidYMax slice" aria-hidden="true">
+        <g fill="#d6d1ee">
+          <circle cx="90" cy="60" r="1.6" opacity=".5"/><circle cx="240" cy="38" r="2" opacity=".4"/>
+          <circle cx="410" cy="84" r="1.5" opacity=".45"/><circle cx="600" cy="48" r="1.8" opacity=".4"/>
+          <circle cx="760" cy="96" r="1.5" opacity=".35"/><circle cx="930" cy="42" r="2" opacity=".45"/>
+          <circle cx="1090" cy="78" r="1.6" opacity=".4"/><circle cx="520" cy="130" r="1.4" opacity=".28"/>
+          <circle cx="170" cy="150" r="1.4" opacity=".3"/><circle cx="1010" cy="160" r="1.4" opacity=".26"/></g>
+        <circle cx="985" cy="214" r="56" fill="#ece7cd" opacity=".95"/>
+        <circle cx="962" cy="198" r="10" fill="#d3cdae" opacity=".5"/>
+        <circle cx="1002" cy="233" r="13" fill="#d3cdae" opacity=".42"/>
+        <path d="M0,360 L150,308 L300,348 L460,292 L620,340 L780,296 L940,344 L1100,300 L1200,338 L1200,560 L0,560 Z" fill="#0b0b17"/>
+        <g fill="#121223">
+          <rect x="40" y="392" width="58" height="108"/><path d="M36,393 L69,364 L102,393 Z"/>
+          <rect x="110" y="408" width="48" height="92"/><path d="M106,409 L134,382 L162,409 Z"/>
+          <rect x="1040" y="398" width="54" height="102"/><path d="M1036,399 L1067,370 L1098,399 Z"/>
+          <rect x="1106" y="412" width="46" height="88"/><path d="M1102,413 L1129,386 L1156,413 Z"/></g>
+        <g fill="#191930">
+          <rect x="300" y="330" width="78" height="170"/><rect x="292" y="316" width="94" height="16"/>
+          <rect x="296" y="296" width="20" height="21"/><rect x="330" y="296" width="20" height="21"/>
+          <rect x="364" y="296" width="20" height="21"/>
+          <rect x="822" y="330" width="78" height="170"/><rect x="814" y="316" width="94" height="16"/>
+          <rect x="818" y="296" width="20" height="21"/><rect x="852" y="296" width="20" height="21"/>
+          <rect x="886" y="296" width="20" height="21"/></g>
+        <g fill="#21213c">
+          <rect x="430" y="250" width="68" height="250"/><rect x="422" y="235" width="84" height="16"/>
+          <rect x="426" y="214" width="20" height="22"/><rect x="458" y="214" width="20" height="22"/>
+          <rect x="702" y="250" width="68" height="250"/><rect x="694" y="235" width="84" height="16"/>
+          <rect x="698" y="214" width="20" height="22"/><rect x="730" y="214" width="20" height="22"/>
+          <rect x="530" y="196" width="140" height="304"/><rect x="520" y="180" width="160" height="17"/>
+          <rect x="526" y="156" width="22" height="25"/><rect x="566" y="156" width="22" height="25"/>
+          <rect x="606" y="156" width="22" height="25"/><rect x="646" y="156" width="22" height="25"/>
+          <path d="M576,156 L624,156 L600,96 Z"/></g>
+        <g fill="#f0a92a">
+          <rect x="586" y="250" width="10" height="30" opacity=".6"/>
+          <rect x="628" y="320" width="10" height="30" opacity=".34"/>
+          <rect x="554" y="382" width="10" height="28" opacity=".44"/>
+          <rect x="458" y="300" width="9" height="26" opacity=".38"/>
+          <rect x="738" y="352" width="9" height="26" opacity=".3"/></g>
+        <g fill="#14141f"><rect x="0" y="452" width="1200" height="108"/>
+          <g><rect x="12" y="434" width="22" height="19"/><rect x="58" y="434" width="22" height="19"/>
+            <rect x="104" y="434" width="22" height="19"/><rect x="150" y="434" width="22" height="19"/>
+            <rect x="196" y="434" width="22" height="19"/><rect x="242" y="434" width="22" height="19"/>
+            <rect x="288" y="434" width="22" height="19"/><rect x="334" y="434" width="22" height="19"/>
+            <rect x="380" y="434" width="22" height="19"/><rect x="426" y="434" width="22" height="19"/>
+            <rect x="472" y="434" width="22" height="19"/><rect x="518" y="434" width="22" height="19"/>
+            <rect x="564" y="434" width="22" height="19"/><rect x="610" y="434" width="22" height="19"/>
+            <rect x="656" y="434" width="22" height="19"/><rect x="702" y="434" width="22" height="19"/>
+            <rect x="748" y="434" width="22" height="19"/><rect x="794" y="434" width="22" height="19"/>
+            <rect x="840" y="434" width="22" height="19"/><rect x="886" y="434" width="22" height="19"/>
+            <rect x="932" y="434" width="22" height="19"/><rect x="978" y="434" width="22" height="19"/>
+            <rect x="1024" y="434" width="22" height="19"/><rect x="1070" y="434" width="22" height="19"/>
+            <rect x="1116" y="434" width="22" height="19"/><rect x="1162" y="434" width="22" height="19"/></g></g>
+        <g fill="#f0a92a" opacity=".8">
+          <path d="M200,500 C190,486 212,480 200,464 C222,476 218,494 200,500 Z"/>
+          <path d="M1000,500 C990,486 1012,480 1000,464 C1022,476 1018,494 1000,500 Z"/></g>
+      </svg>
+        <div class="scene__veil"></div>
+        <nav class="nav nav--over"><div class="wrap"><div class="nav__in">
+          <span class="brand"><svg width="19" height="19" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 8l4 4 5-7 5 7 4-4v9H3V8z" fill="var(--gold)"/><rect x="3" y="18" width="18" height="2.8" rx="1.2" fill="var(--gold)"/></svg> Fact Royale</span>
+          <span class="navlinks">
+            <a href="mastery.html">Royal Record</a><span>Leaderboard</span>
+            <a href="groups.html">Groups</a>
+            <a class="is-cta" href="#" id="hm-name">You</a></span>
+        </div></div></nav>
+        <div class="scene__in home-hero__in"><div class="wrap">
+          <div class="memhero">
+            <div>
+              <p class="eyebrow" id="hm-date"></p>
+              <h1 class="home-hero__h1 memhero__h1">Today's twelve<em class="gold" id="hm-state">are ready.</em></h1>
+              <div class="home-hero__row">
+                <button class="btn" id="hm-play">Play today &rarr;</button>
+                <button class="btn btn--ghost" id="hm-yesterday">Yesterday's results</button>
+              </div>
+            </div>
+            <div class="memhero__streak">
+              <div class="memhero__n gold" id="hm-streak">0</div>
+              <div class="memhero__t">day streak</div>
+            </div>
+          </div>
+        </div></div>
+      </div>
+
+      <main class="home-sec"><div class="wrap">
+        <div class="hhead">The last thirty days</div>
+        <div class="grid30" id="hm-grid"></div>
+        <div class="grid30__legend"><span>30 days ago</span><span>Today</span></div>
+
+        <div class="hrule"><i></i></div>
+
+        <div class="board">
+          <div class="card charter">
+            <div class="card__title">Record by category</div>
+            <div id="hm-record"></div>
+          </div>
+          <div class="card charter">
+            <div class="card__title">Catch up <b id="hm-missed-count"></b></div>
+            <div id="hm-missed"></div>
+            <div class="card__note">Archive plays count toward your record but not your
+              streak &mdash; the streak only moves on the day itself.</div>
+          </div>
+          <div class="soon board__wide">
+            <div class="card__title" style="margin-bottom:14px">Coming <b>two new ways to play</b></div>
+            <div class="soon__row">
+              <div><div class="soon__t">Board mode</div>
+                <div class="soon__s">Pick your category and your value off a grid. Same question
+                  bank, scored differently, play as long as you like.</div></div>
+              <div><div class="soon__t">Live events</div>
+                <div class="soon__s">Everyone answers the same board at the same moment, on a
+                  screen in the room or from home.</div></div>
+            </div>
+          </div>
+        </div>
+      </div></main>
+    </div>
+
+    <footer class="sitefoot"><div class="wrap"><div class="sitefoot__in">
+      <span>&#9819; Fact Royale</span>
+      <span>Leaderboard &middot; Privacy &middot; Contact</span>
+    </div></div></footer>
+
+    <!-- ══════════════════════════════════════════════════════════════
+         LEGACY LANDING — hidden, kept only so the forty-two ids that
+         auth.js, mastery.js and quiz.js still write to continue to
+         exist. Writing to a hidden element is harmless; writing to null
+         is a TypeError that takes the page down.
+
+         Deleted in Phase 4, when those writers are pointed at the new
+         markup. Do not add anything to it.
+         ═══════════════════════════════════════════════════════════ -->
+    <div id="legacy-landing" hidden aria-hidden="true">
+
+    <!-- NAV -->
+    <nav class="home-nav">
+      <span class="nav-logo"><svg class="nav-crown-svg" viewBox="0 0 100 74" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M4,54 L4,40 L18,16 L36,44 L50,4 L64,44 L82,16 L96,40 L96,54 Z" fill="#D4AF37"/><path d="M4,47 L96,47 L96,54 L4,54 Z" fill="rgba(70,44,0,0.28)"/><rect x="4" y="54" width="92" height="17" rx="3" fill="#9A7010"/><rect x="4" y="54" width="92" height="2.5" rx="1.25" fill="rgba(255,220,60,0.55)"/><circle cx="18" cy="16" r="5.5" fill="#FFE47A"/><circle cx="50" cy="4" r="7" fill="#FFE47A"/><circle cx="82" cy="16" r="5.5" fill="#FFE47A"/><circle cx="16.5" cy="14" r="2" fill="rgba(255,255,255,0.50)"/><circle cx="48.5" cy="2" r="2.5" fill="rgba(255,255,255,0.50)"/><circle cx="80.5" cy="14" r="2" fill="rgba(255,255,255,0.50)"/><circle cx="4" cy="54" r="3" fill="#C4900A"/><circle cx="96" cy="54" r="3" fill="#C4900A"/></svg> Fact Royale</span>
+      <div class="nav-links">
+        <a href="#daily" class="nav-link">Play Today</a>
+        <a href="#leaderboard" class="nav-link">Leaderboard</a>
+        <a href="mastery.html" class="nav-link">Royal Record</a>
+        <a href="groups.html" class="nav-link">Groups</a>
+        <a href="#notify" class="nav-link nav-link-cta">Stay Updated</a>
+      </div>
+      <div class="nav-auth">
+        <button class="btn-nav-signin" id="nav-signin-btn">Sign In</button>
+        <div class="nav-user-menu" id="nav-user-menu" style="display:none;">
+          <span class="nav-user-name" id="nav-user-name"></span>
+          <button class="btn-nav-signout" id="btn-signout">Sign Out</button>
+        </div>
+      </div>
+    </nav>
+
+    <!-- STREAK BANNER (logged-in users only) -->
+    <div class="streak-banner" id="streak-banner" style="display:none;">
+      <span class="streak-banner-icon fr-icon fr-icon-md" style="color:var(--gold,#d4af37)"></span>
+      <span class="streak-banner-text" id="streak-banner-text"></span>
+      <button class="streak-banner-btn" id="streak-banner-btn" style="display:none;">Play Now →</button>
+    </div>
+
+    <!-- RETURNING VISITOR BANNER (anonymous users who have played before) -->
+    <div class="returning-visitor-banner" id="returning-visitor-banner" style="display:none;">
+      <span class="returning-visitor-icon">⚠️</span>
+      <span class="returning-visitor-text" id="returning-visitor-text"></span>
+      <button class="returning-visitor-btn" id="returning-visitor-btn">Protect My Streak →</button>
+    </div>
+
+    <!-- NOTIFICATION OPT-IN PROMPT (logged-in users, shown once) -->
+    <div class="notif-prompt" id="notif-prompt" style="display:none;" role="alert">
+      <span class="notif-prompt-icon fr-icon fr-icon-md" style="color:var(--gold,#d4af37)"></span>
+      <div class="notif-prompt-body">
+        <strong>Never miss a day.</strong>
+        <span>Get a daily reminder when the quiz drops. No spam, just the quiz.</span>
+      </div>
+      <div class="notif-prompt-actions">
+        <button class="notif-prompt-enable" onclick="enableNotifications()">Enable →</button>
+        <button class="notif-prompt-dismiss" onclick="dismissNotifPrompt()">Not now</button>
+      </div>
+    </div>
+    <div class="notif-enabled-confirm" id="notif-enabled-confirm" style="display:none;">
+      ✓ You're in. We'll remind you daily.
+    </div>
+
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-glow"></div>
+      <div class="hero-content">
+        <p class="hero-eyebrow">♛ The Daily Trivia Platform</p>
+        <h1 class="hero-title">Know More.<br/><span class="hero-title-accent">Every Day.</span></h1>
+        <p class="hero-sub">One daily quiz. Real explanations after every answer.<br/>The kind of facts that actually stick.</p>
+        <div class="hero-actions">
+          <button class="btn-hero" id="btn-start-hero">Play Today's Quiz →</button>
+          <div class="hero-badges">
+            <span class="meta-badge" id="landing-date"></span>
+            <span class="meta-badge" id="landing-streak"></span>
+          </div>
+        </div>
+        <p class="already-played" id="already-played-msg" style="display:none;">
+          You played today. <span id="final-score-replay"></span>
+        </p>
+        <!-- Catch-up CTA for logged-in users who've played today but missed earlier days -->
+        <div class="catchup-landing" id="catchup-landing" style="display:none;"></div>
+        <!-- Sent challenge results — visible to signed-in users -->
+        <div id="challenge-results-section" style="display:none"></div>
+      </div>
+      <div class="hero-stat-row">
+        <div class="hero-stat"><span class="stat-num">12</span><span class="stat-label">Questions Daily</span></div>
+        <div class="hero-stat-divider"></div>
+        <div class="hero-stat"><span class="stat-num">5</span><span class="stat-label">Categories</span></div>
+        <div class="hero-stat-divider"></div>
+        <div class="hero-stat"><span class="stat-num">100%</span><span class="stat-label">Free to Play</span></div>
+      </div>
+    </section>
+
+    <!-- TODAY'S CHALLENGE -->
+    <section class="home-section" id="daily">
+      <div class="section-header">
+        <div>
+          <h2 class="section-title">Today's Challenge</h2>
+          <p class="section-sub">Fresh questions every day. Wrong answers come with a full breakdown. You'll actually learn something.</p>
+        </div>
+        <button class="btn-outline" id="btn-start-section">Play Now →</button>
+      </div>
+
+      <div class="daily-grid">
+        <div class="daily-main-card">
+          <div class="daily-card-top">
+            <span class="daily-label">Daily Quiz</span>
+            <span class="daily-live-dot"><span class="dot-pulse"></span> Live</span>
+          </div>
+          <p class="daily-card-title">Test your knowledge across five categories today</p>
+          <div class="category-pills" id="landing-categories"></div>
+          <p class="daily-card-meta" id="landing-date-card"></p>
+        </div>
+
+        <div class="daily-side-cards">
+          <div class="side-card">
+            <div class="side-card-icon">💡</div>
+            <h4 class="side-card-title">Learn from misses</h4>
+            <p class="side-card-desc">Every wrong answer reveals a breakdown and a memory hook so it sticks.</p>
+          </div>
+          <div class="side-card">
+            <div class="side-card-icon">🔥</div>
+            <h4 class="side-card-title">Build your streak</h4>
+            <p class="side-card-desc">Play daily to keep your streak alive. Miss a day and start over.</p>
+          </div>
+          <div class="side-card">
+            <div class="side-card-icon">📤</div>
+            <h4 class="side-card-title">Share your score</h4>
+            <p class="side-card-desc">Copy your result and challenge friends to beat it.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- LEADERBOARD -->
+    <section class="home-section" id="leaderboard">
+      <div class="section-header">
+        <div>
+          <h2 class="section-title">Today's Leaderboard</h2>
+          <p class="section-sub">Top scores from today's quiz. Resets every night at midnight.</p>
+        </div>
+        <span class="lb-count" id="leaderboard-count"></span>
+      </div>
+
+      <div class="leaderboard-wrap">
+        <div class="lb-header-row">
+          <span>Rank</span>
+          <span>Player</span>
+          <span>Score</span>
+          <span>Accuracy</span>
+        </div>
+        <div class="leaderboard-list" id="leaderboard-list">
+          <p class="lb-loading">Loading scores…</p>
+        </div>
+      </div>
+
+      <div class="lb-cta" id="lb-cta">
+        <p class="lb-cta-text">Sign in to appear on the leaderboard and track your stats across every quiz.</p>
+        <button class="btn-outline lb-signup-btn">Create Free Account →</button>
+      </div>
+    </section>
+
+    <!-- PERSONAL STATS -->
+    <section class="home-section stats-section" id="personal-stats-section" style="display:none;">
+      <div class="section-header">
+        <div>
+          <h2 class="section-title">Your Stats</h2>
+          <p class="section-sub">Your performance across every quiz you've played.</p>
+        </div>
+        <span class="stats-username" id="stats-username"></span>
+      </div>
+
+      <div class="stats-grid">
+        <div class="stat-box">
+          <span class="stat-box-num" id="stat-games">—</span>
+          <span class="stat-box-label">Games Played</span>
+        </div>
+        <div class="stat-box">
+          <span class="stat-box-num" id="stat-streak">—</span>
+          <span class="stat-box-label">Current Streak 🔥</span>
+        </div>
+        <div class="stat-box">
+          <span class="stat-box-num" id="stat-longest">—</span>
+          <span class="stat-box-label">Best Streak</span>
+        </div>
+        <div class="stat-box">
+          <span class="stat-box-num" id="stat-accuracy">—</span>
+          <span class="stat-box-label">Overall Accuracy</span>
+        </div>
+        <div class="stat-box">
+          <span class="stat-box-num" id="stat-best-score">—</span>
+          <span class="stat-box-label">Best Score</span>
+        </div>
+      </div>
+
+      <div class="stat-cats-wrap">
+        <h3 class="stat-cats-title">Category Breakdown</h3>
+        <div id="stat-categories"></div>
+      </div>
+    </section>
+
+    <!-- MASTERY TEASER (shown to signed-in users) -->
+    <section class="home-section" id="mastery-teaser" style="display:none;">
+      <div class="mt-header">
+        <span class="mt-title">Your Mastery</span>
+        <div class="mt-score-row">
+          <span class="mt-score-num" id="mastery-teaser-score">0</span>
+          <span class="mt-score-lbl">mastery score</span>
+          <a href="mastery.html" class="mt-view-link" style="margin-left:1rem">Full Breakdown →</a>
+        </div>
+      </div>
+      <div id="mastery-teaser-pills"></div>
+    </section>
+
+    <!-- COMING SOON -->
+    <section class="home-section" id="coming-soon">
+      <div class="section-header">
+        <div>
+          <h2 class="section-title">What's Coming</h2>
+          <p class="section-sub">Fact Royale is building out a full trivia platform. Here's what's on the roadmap.</p>
+        </div>
+      </div>
+      <div class="features-grid">
+
+        <div class="feature-card">
+          <div class="feature-icon-wrap">⚡</div>
+          <div class="feature-body">
+            <h3 class="feature-title">Live Multiplayer</h3>
+            <p class="feature-desc">Head-to-head trivia in real time. Create a lobby, invite friends, and see who wins.</p>
+          </div>
+          <span class="feature-badge">Coming Soon</span>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon-wrap">🎯</div>
+          <div class="feature-body">
+            <h3 class="feature-title">Mastery Competitions</h3>
+            <p class="feature-desc">Community-wide events where category masters go head to head. Pub quiz, evolved.</p>
+          </div>
+          <span class="feature-badge">Coming Soon</span>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon-wrap">🧠</div>
+          <div class="feature-body">
+            <h3 class="feature-title">Study Mode</h3>
+            <p class="feature-desc">Drill specific categories at your own pace. Spaced repetition for the facts that matter to you.</p>
+          </div>
+          <span class="feature-badge">Coming Soon</span>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon-wrap">🎙️</div>
+          <div class="feature-body">
+            <h3 class="feature-title">Host a Quiz</h3>
+            <p class="feature-desc">Run your own live trivia night, online or in person. Custom questions, your crowd, your rules.</p>
+          </div>
+          <span class="feature-badge">Coming Soon</span>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- EMAIL SIGNUP -->
+    <section class="home-section notify-section" id="notify">
+      <div class="notify-card">
+        <div class="notify-left">
+          <h2 class="notify-title">Be the first to know.</h2>
+          <p class="notify-sub">Drop your email and we'll let you know when multiplayer, live competitions, and new features go live. No spam, just updates.</p>
+        </div>
+        <form class="notify-form" id="notify-form">
+          <div class="notify-name-row">
+            <input type="text"  name="firstName" class="notify-input" placeholder="First name" required />
+            <input type="text"  name="lastName"  class="notify-input" placeholder="Last name"  required />
+          </div>
+          <input type="email" name="email" class="notify-input" placeholder="your@email.com" required />
+          <button type="submit" class="btn-primary notify-btn">Notify Me</button>
+        </form>
+        <p class="notify-confirm" id="notify-confirm" style="display:none;">You're in! We'll be in touch. ♛</p>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="home-footer">
+      <div class="footer-inner">
+        <span class="footer-logo"><svg class="footer-crown-svg" viewBox="0 0 100 74" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M4,54 L4,40 L18,16 L36,44 L50,4 L64,44 L82,16 L96,40 L96,54 Z" fill="#D4AF37"/><rect x="4" y="54" width="92" height="17" rx="3" fill="#9A7010"/><circle cx="18" cy="16" r="5.5" fill="#FFE47A"/><circle cx="50" cy="4" r="7" fill="#FFE47A"/><circle cx="82" cy="16" r="5.5" fill="#FFE47A"/><circle cx="4" cy="54" r="3" fill="#C4900A"/><circle cx="96" cy="54" r="3" fill="#C4900A"/></svg> Fact Royale</span>
+        <p class="footer-copy">New quiz every day · Built for curious minds</p>
+      </div>
+    </footer>
+    </div>
+
+  </div>
+
+  <!-- QUIZ SCREEN -->
+  <div id="screen-quiz" class="screen">
+    <div id="challenge-banner" class="challenge-banner" style="display:none">
+      <span class="challenge-banner-crown">♛</span>
+      <span id="challenge-banner-text"></span>
+    </div>
+    <header class="quizbar">
+      <div class="narrow"><div class="quizbar__in">
+        <span class="brand">
+          <svg width="19" height="19" viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M3 8l4 4 5-7 5 7 4-4v9H3V8z" fill="var(--gold)"/>
+            <rect x="3" y="18" width="18" height="2.8" rx="1.2" fill="var(--gold)"/></svg>
+          Fact Royale</span>
+        <span class="streak-badge" id="quiz-streak"></span>
+      </div></div>
+    </header>
+
+    <div class="narrow">
+      <!-- Progress is per-question OUTCOME, not a percentage. You can read
+           your run at a glance without being handed a score mid-quiz, which
+           a "7/12" counter does whether you want it to or not. Filled by
+           renderSegments() in quiz.js. -->
+      <div class="segs" id="q-segs" aria-label="Quiz progress"></div>
+
+      <div class="quizmeta">
+        <span class="chip chip--cat cat-default" id="q-category"></span>
+        <span class="quizcount" id="progress-text"></span>
+      </div>
+
+      <div id="question-card">
+        <p class="question" id="q-text"></p>
+
+        <div class="options-grid" id="options-grid"></div>
+
+        <!-- Shown after answering -->
+        <div class="feedback-box" id="feedback-box" style="display:none;">
+          <div class="verdict" id="feedback-result"></div>
+          <p class="why" id="feedback-explanation"></p>
+          <div class="hook" id="memory-hook" style="display:none;">
+            <b>Remember it</b>
+            <span id="hook-text"></span>
+          </div>
+          <div style="margin-top:30px">
+            <button class="btn" id="btn-next">Next question →</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- RESULTS SCREEN -->
+  <div id="screen-results" class="screen">
+    <div class="results-card">
+      <div class="crown"><svg class="crown-svg" viewBox="0 0 100 74" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><circle cx="18" cy="16" r="10" fill="rgba(212,175,55,0.10)"/><circle cx="50" cy="4" r="13" fill="rgba(212,175,55,0.08)"/><circle cx="82" cy="16" r="10" fill="rgba(212,175,55,0.10)"/><path d="M4,54 L4,40 L18,16 L36,44 L50,4 L64,44 L82,16 L96,40 L96,54 Z" fill="#D4AF37"/><path d="M4,47 L96,47 L96,54 L4,54 Z" fill="rgba(70,44,0,0.28)"/><path d="M50,4 L36,44 L4,40 L4,33 L18,16 L50,4 Z" fill="rgba(255,245,160,0.18)"/><rect x="4" y="54" width="92" height="17" rx="3" fill="#9A7010"/><rect x="4" y="54" width="92" height="2.5" rx="1.25" fill="rgba(255,220,60,0.55)"/><circle cx="18" cy="16" r="7.5" fill="rgba(212,175,55,0.20)"/><circle cx="50" cy="4" r="9.5" fill="rgba(212,175,55,0.15)"/><circle cx="82" cy="16" r="7.5" fill="rgba(212,175,55,0.20)"/><circle cx="18" cy="16" r="5.5" fill="#FFE47A"/><circle cx="50" cy="4" r="7" fill="#FFE47A"/><circle cx="82" cy="16" r="5.5" fill="#FFE47A"/><circle cx="16.5" cy="14" r="2" fill="rgba(255,255,255,0.55)"/><circle cx="48.5" cy="2" r="2.5" fill="rgba(255,255,255,0.55)"/><circle cx="80.5" cy="14" r="2" fill="rgba(255,255,255,0.55)"/><circle cx="4" cy="54" r="3.5" fill="#C4900A"/><circle cx="96" cy="54" r="3.5" fill="#C4900A"/><ellipse cx="50" cy="63" rx="6" ry="4.5" fill="#7C3AED"/><ellipse cx="49" cy="61.5" rx="3.5" ry="2.5" fill="rgba(200,160,255,0.60)"/></svg></div>
+      <h2 class="results-title" id="results-title"></h2>
+      <div class="score-display" id="score-display"></div>
+
+      <!-- Rank percentage -->
+      <div class="results-rank-wrap" id="results-rank-wrap" style="display:none;">
+        <p class="results-rank-pct" id="results-rank-pct"></p>
+      </div>
+
+      <!-- Level-up banner (shown when mastery tier increases) -->
+      <div id="levelup-banner" style="display:none;"></div>
+
+      <div class="category-breakdown" id="category-breakdown"></div>
+
+      <!-- Sign-up nudge (anonymous users only) -->
+      <div class="signup-nudge" id="signup-nudge" style="display:none;">
+        <div class="signup-nudge-inner">
+          <span class="signup-nudge-icon">🔥</span>
+          <div class="signup-nudge-body">
+            <strong>Don't lose this streak.</strong>
+            <p>Create a free account to track your daily streak, save your scores, and claim your spot on the leaderboard.</p>
+          </div>
+        </div>
+        <button class="btn-nudge-signup" id="btn-nudge-signup">Create Free Account →</button>
+      </div>
+
+      <!-- Archive notice (shown for archive/catch-up plays only) -->
+      <div class="archive-results-notice" id="archive-results-notice" style="display:none;">
+        <span class="archive-results-icon">📚</span>
+        <span>This counted toward your mastery, not your streak or leaderboard.</span>
+      </div>
+
+      <!-- Catch-up CTA (shown after completing any quiz, for logged-in users with missed dates) -->
+      <div class="catchup-section" id="catchup-section" style="display:none;"></div>
+
+      <!-- Fun fact -->
+      <div class="results-fun-fact">
+        <span class="fun-fact-label">🧠 Did you know?</span>
+        <p class="fun-fact-text" id="fun-fact-text"></p>
+      </div>
+
+      <!-- Challenge comparison -->
+      <div id="challenge-result" class="challenge-result-section" style="display:none">
+        <div class="challenge-vs-wrap">
+          <div class="challenge-vs-card challenge-vs-card--you">
+            <div class="cvs-label">You</div>
+            <div class="cvs-score" id="cvs-your-score">--</div>
+          </div>
+          <div class="cvs-divider">VS</div>
+          <div class="challenge-vs-card challenge-vs-card--them">
+            <div class="cvs-label" id="cvs-them-name">Friend</div>
+            <div class="cvs-score" id="cvs-them-score">--</div>
+          </div>
+        </div>
+        <p class="challenge-verdict" id="challenge-verdict"></p>
+        <div class="challenge-facts-wrap" id="challenge-facts-wrap"></div>
+      </div>
+
+
+      <!-- Email capture — anonymous users only -->
+      <div id="email-capture" class="email-capture-wrap" style="display:none">
+        <p class="email-capture-label">Get tomorrow's quiz in your inbox</p>
+        <div class="email-capture-row">
+          <input type="email" id="email-capture-input" class="email-capture-input" placeholder="your@email.com" />
+          <button class="email-capture-btn" onclick="submitEmailCapture()">Remind me</button>
+        </div>
+        <p class="email-capture-fine">No spam. Just the daily quiz.</p>
+      </div>
+
+      <div class="results-actions">
+        <button class="btn-primary" id="btn-share">Share Score →</button>
+        <button id="btn-challenge" class="btn-challenge" style="display:none" onclick="openChallengeShare()">
+          ⚔ Challenge a Friend
+        </button>
+        <p class="share-confirm" id="share-confirm" style="display:none;">Copied to clipboard!</p>
+        <button class="btn-results-home" id="btn-home">← Back to Home</button>
+      </div>
+
+      <!-- Post-challenge sign-up nudge (shown to anonymous users after they send a challenge) -->
+      <div id="challenge-sent-nudge" class="challenge-sent-nudge" style="display:none;">
+        <p>Want to know if they beat you?</p>
+        <button class="csn-signup-btn"
+                onclick="document.getElementById('challenge-sent-nudge').style.display='none';document.getElementById('auth-modal').style.display='flex'">
+          Create a free account
+        </button>
+        <button class="csn-dismiss" onclick="this.parentElement.style.display='none'">Maybe later</button>
+      </div>
+
+      <p class="comeback-msg">New quiz drops tomorrow. See you then.</p>
+    </div>
+  </div>
+
+  <!-- NO QUIZ SCREEN -->
+  <div id="screen-noquiz" class="screen">
+    <div class="landing-card">
+      <div class="crown"><svg class="crown-svg" viewBox="0 0 100 74" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><circle cx="18" cy="16" r="10" fill="rgba(212,175,55,0.10)"/><circle cx="50" cy="4" r="13" fill="rgba(212,175,55,0.08)"/><circle cx="82" cy="16" r="10" fill="rgba(212,175,55,0.10)"/><path d="M4,54 L4,40 L18,16 L36,44 L50,4 L64,44 L82,16 L96,40 L96,54 Z" fill="#D4AF37"/><path d="M4,47 L96,47 L96,54 L4,54 Z" fill="rgba(70,44,0,0.28)"/><path d="M50,4 L36,44 L4,40 L4,33 L18,16 L50,4 Z" fill="rgba(255,245,160,0.18)"/><rect x="4" y="54" width="92" height="17" rx="3" fill="#9A7010"/><rect x="4" y="54" width="92" height="2.5" rx="1.25" fill="rgba(255,220,60,0.55)"/><circle cx="18" cy="16" r="7.5" fill="rgba(212,175,55,0.20)"/><circle cx="50" cy="4" r="9.5" fill="rgba(212,175,55,0.15)"/><circle cx="82" cy="16" r="7.5" fill="rgba(212,175,55,0.20)"/><circle cx="18" cy="16" r="5.5" fill="#FFE47A"/><circle cx="50" cy="4" r="7" fill="#FFE47A"/><circle cx="82" cy="16" r="5.5" fill="#FFE47A"/><circle cx="16.5" cy="14" r="2" fill="rgba(255,255,255,0.55)"/><circle cx="48.5" cy="2" r="2.5" fill="rgba(255,255,255,0.55)"/><circle cx="80.5" cy="14" r="2" fill="rgba(255,255,255,0.55)"/><circle cx="4" cy="54" r="3.5" fill="#C4900A"/><circle cx="96" cy="54" r="3.5" fill="#C4900A"/><ellipse cx="50" cy="63" rx="6" ry="4.5" fill="#7C3AED"/><ellipse cx="49" cy="61.5" rx="3.5" ry="2.5" fill="rgba(200,160,255,0.60)"/></svg></div>
+      <h1 class="logo">Fact Royale</h1>
+      <p class="tagline">No quiz loaded for today. Check back soon.</p>
+    </div>
+  </div>
+
+  <!-- AUTH MODAL -->
+  <div id="auth-modal" class="modal-overlay" style="display:none;" role="dialog" aria-modal="true">
+    <div class="modal-card">
+      <button class="modal-close" id="modal-close" aria-label="Close">✕</button>
+
+      <div class="modal-header">
+        <span class="modal-crown"><svg class="crown-svg" viewBox="0 0 100 74" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><circle cx="18" cy="16" r="10" fill="rgba(212,175,55,0.10)"/><circle cx="50" cy="4" r="13" fill="rgba(212,175,55,0.08)"/><circle cx="82" cy="16" r="10" fill="rgba(212,175,55,0.10)"/><path d="M4,54 L4,40 L18,16 L36,44 L50,4 L64,44 L82,16 L96,40 L96,54 Z" fill="#D4AF37"/><path d="M4,47 L96,47 L96,54 L4,54 Z" fill="rgba(70,44,0,0.28)"/><path d="M50,4 L36,44 L4,40 L4,33 L18,16 L50,4 Z" fill="rgba(255,245,160,0.18)"/><rect x="4" y="54" width="92" height="17" rx="3" fill="#9A7010"/><rect x="4" y="54" width="92" height="2.5" rx="1.25" fill="rgba(255,220,60,0.55)"/><circle cx="18" cy="16" r="7.5" fill="rgba(212,175,55,0.20)"/><circle cx="50" cy="4" r="9.5" fill="rgba(212,175,55,0.15)"/><circle cx="82" cy="16" r="7.5" fill="rgba(212,175,55,0.20)"/><circle cx="18" cy="16" r="5.5" fill="#FFE47A"/><circle cx="50" cy="4" r="7" fill="#FFE47A"/><circle cx="82" cy="16" r="5.5" fill="#FFE47A"/><circle cx="16.5" cy="14" r="2" fill="rgba(255,255,255,0.55)"/><circle cx="48.5" cy="2" r="2.5" fill="rgba(255,255,255,0.55)"/><circle cx="80.5" cy="14" r="2" fill="rgba(255,255,255,0.55)"/><circle cx="4" cy="54" r="3.5" fill="#C4900A"/><circle cx="96" cy="54" r="3.5" fill="#C4900A"/><ellipse cx="50" cy="63" rx="6" ry="4.5" fill="#7C3AED"/><ellipse cx="49" cy="61.5" rx="3.5" ry="2.5" fill="rgba(200,160,255,0.60)"/></svg></span>
+        <h2 class="modal-title">Join Fact Royale</h2>
+        <p class="modal-sub">Track your streak, appear on the leaderboard, compete daily.</p>
+      </div>
+
+      <div class="modal-tabs">
+        <button class="modal-tab active" id="tab-login">Sign In</button>
+        <button class="modal-tab" id="tab-signup">Create Account</button>
+      </div>
+
+      <!-- Login Form -->
+      <form id="form-login" class="auth-form">
+        <input type="email"    class="auth-input" id="login-email"    placeholder="Email address" autocomplete="email" required />
+        <input type="password" class="auth-input" id="login-password" placeholder="Password"      autocomplete="current-password" required />
+        <button type="submit" class="btn-primary auth-submit">Sign In</button>
+        <p class="auth-error" id="login-error"></p>
+      </form>
+
+      <!-- Sign Up Form -->
+      <form id="form-signup" class="auth-form" style="display:none;">
+        <div class="auth-input-row">
+          <input type="text" class="auth-input" id="signup-firstname" placeholder="First name" autocomplete="given-name" required />
+          <input type="text" class="auth-input" id="signup-lastname"  placeholder="Last name"  autocomplete="family-name" required />
+        </div>
+        <input type="text"     class="auth-input" id="signup-name"     placeholder="Display name (shown on leaderboard)" autocomplete="nickname" required />
+        <input type="email"    class="auth-input" id="signup-email"    placeholder="Email address" autocomplete="email" required />
+        <input type="password" class="auth-input" id="signup-password" placeholder="Password (min 6 characters)" autocomplete="new-password" required />
+        <button type="submit" class="btn-primary auth-submit">Create Account</button>
+        <p class="auth-error" id="signup-error"></p>
+      </form>
+
+      <div class="auth-divider"><span>or</span></div>
+
+      <button class="btn-google" id="btn-google-signin">
+        <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true">
+          <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
+          <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/>
+          <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l3.66-2.84z"/>
+          <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/>
+        </svg>
+        Continue with Google
+      </button>
+
+      <p class="auth-fine-print">We collect your name and email to personalize your experience and keep you updated on new features. No spam, ever.</p>
+    </div>
+  </div>
+
+  <!-- SHARE MODAL -->
+  <div id="share-modal" class="share-modal-overlay" style="display:none;" role="dialog" aria-modal="true" aria-label="Share your score">
+    <div class="share-modal-card">
+      <button class="share-modal-close" id="share-modal-close" aria-label="Close">✕</button>
+      <h3 class="share-modal-title">Share your score</h3>
+      <p class="share-modal-sub">Pick a format for your platform</p>
+
+      <div class="share-fmt-tabs">
+        <button class="share-fmt-btn active" data-format="story">
+          Story<br/><span class="share-fmt-hint">Instagram · Snap</span>
+        </button>
+        <button class="share-fmt-btn" data-format="wide">
+          Wide<br/><span class="share-fmt-hint">Twitter · Facebook</span>
+        </button>
+        <button class="share-fmt-btn" data-format="square">
+          Square<br/><span class="share-fmt-hint">Facebook · Grid</span>
+        </button>
+      </div>
+
+      <div class="share-canvas-wrap">
+        <canvas id="share-canvas"></canvas>
+      </div>
+
+      <div class="share-modal-actions">
+        <button class="btn-primary share-action-btn" id="btn-share-image">Share Image →</button>
+        <button class="btn-outline share-action-btn" id="btn-download-image">Download ↓</button>
+        <button class="btn-outline share-action-btn" id="btn-copy-link">Copy Link</button>
+      </div>
+      <p class="share-modal-note">fact-royale.com is included on every card</p>
+    </div>
+  </div>
+
+  <!-- CHALLENGE NAME PROMPT MODAL (for anonymous challengers) -->
+  <div id="challenge-name-modal" class="modal-overlay" style="display:none;" role="dialog" aria-modal="true"
+       onclick="if(event.target===this)closeChallengeNameModal()">
+    <div class="cnm-card">
+      <button class="cnm-close" onclick="closeChallengeNameModal()" aria-label="Close">&times;</button>
+      <h3 class="cnm-title">Who's challenging?</h3>
+      <p class="cnm-sub">Add your name so your friend knows who to beat.</p>
+      <input type="text" id="challenge-name-input" class="cnm-input"
+             placeholder="Your first name" maxlength="30"
+             onkeydown="if(event.key==='Enter')submitChallengeName()" />
+      <button class="btn-primary cnm-send-btn" onclick="submitChallengeName()">Send Challenge →</button>
+      <div class="cnm-or">or</div>
+      <button class="cnm-signin-link"
+              onclick="closeChallengeNameModal();document.getElementById('auth-modal').style.display='flex'">
+        Sign in to track if they beat you
+      </button>
+    </div>
+  </div>
+
+  <!-- CHALLENGE SHARE MODAL (fallback for browsers without Web Share API) -->
+  <div id="challenge-share-modal" class="modal-overlay" style="display:none;" role="dialog" aria-modal="true" onclick="closeChallengeShareModal(event)">
+    <div class="csm-card">
+      <button class="modal-close" onclick="closeChallengeShareModal()" aria-label="Close">&#x2715;</button>
+      <div class="csm-header">
+        <div class="csm-crown">&#9819;</div>
+        <h3 class="csm-title">Challenge a Friend</h3>
+        <p class="csm-score" id="csm-score-text"></p>
+        <p class="csm-sub">Send them your challenge link and see if they can beat you.</p>
+      </div>
+      <div class="csm-toname-wrap">
+        <label class="csm-toname-label" for="csm-toname">Who are you challenging? <span class="csm-toname-opt">(optional)</span></label>
+        <input type="text" id="csm-toname" class="csm-toname-input" placeholder="e.g. Alex, Mom, work group..." maxlength="40" autocomplete="off" />
+      </div>
+      <div class="csm-buttons">
+        <a id="csm-sms" href="#" class="csm-btn csm-btn--sms" onclick="saveChallengeTo()">
+          <span class="csm-btn-icon">&#128172;</span>
+          <span>iMessage / SMS</span>
+        </a>
+        <a id="csm-whatsapp" href="#" class="csm-btn csm-btn--wa" target="_blank" rel="noopener noreferrer" onclick="saveChallengeTo()">
+          <span class="csm-btn-icon">&#128241;</span>
+          <span>WhatsApp</span>
+        </a>
+        <a id="csm-twitter" href="#" class="csm-btn csm-btn--tw" target="_blank" rel="noopener noreferrer" onclick="saveChallengeTo()">
+          <span class="csm-btn-icon">&#120143;</span>
+          <span>X / Twitter</span>
+        </a>
+        <button id="csm-copy" class="csm-btn csm-btn--copy" onclick="saveChallengeTo(); copyChallengeFallback()">
+          <span class="csm-btn-icon">&#128279;</span>
+          <span>Copy Link</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="firebase-config.js?v=4"></script>
+  <script src="categories.js?v=2"></script>
+  <script src="icons.js?v=2"></script>
+  <script src="auth.js?v=12"></script>
+  <script src="mastery.js?v=11"></script>
+  <script src="notifications.js?v=3"></script>
+  <script src="quiz.js?v=24"></script>
+  <script src="home.js?v=2"></script>
+  <script src="sheet.js?v=1"></script>
+  <script src="contact.js?v=1"></script>
+  <script src="footer.js?v=1"></script>
+  <script>
+    // Inject static SVG icons into banner/notif icon spans
+    document.addEventListener('DOMContentLoaded', () => {
+      const bannerIcon = document.querySelector('.streak-banner-icon');
+      if (bannerIcon) bannerIcon.innerHTML = ICONS.flame;
+      const notifIcon = document.querySelector('.notif-prompt-icon');
+      if (notifIcon) notifIcon.innerHTML = ICONS.bell;
     });
+  </script>
 
-    // Arrow slits: towers get them high, the gatehouse gets a pair flanking
-    // the arch. Curtain walls are too low to be worth piercing here.
-    clearKids(slitsG);
-    SEGMENTS.forEach(function (seg) {
-      if (seg.kind === 'curtain') return;
-      var list = seg.kind === 'gate'
-        ? [GATE_X0 - 9, GATE_X1 + 5]
-        : [seg.x0 + (seg.x1-seg.x0)/2 - 2];
-      list.forEach(function (sx) {
-        var s = document.createElementNS(NS,'rect');
-        s.setAttribute('x', sx.toFixed(1));
-        s.setAttribute('y', (seg.top + rnd(26, 42)).toFixed(1));
-        s.setAttribute('width', 4);
-        s.setAttribute('height', rnd(11,15).toFixed(1));
-        slitsG.appendChild(s);
-      });
-    });
-
-    // One owner: the hit box comes from the geometry just drawn rather than
-    // being written down a second time and left to drift.
-    WALL.x0 = SPAN_X0; WALL.x1 = SPAN_X1; WALL.y0 = topMost;
-  }
-
-  // Wipe every damage visual without animating. Used by the rebuild and by
-  // standing down, which must not leave half a collapse on screen.
-  function clearDamage(){
-    dmg=0; hits=0; shots=0; falling=false;
-    var i;
-    for (i=0;i<cracks.length;i++){ cracks[i].style.transition='none'; cracks[i].style.opacity=0; }
-    for (i=0;i<dust.length;i++){   dust[i].style.transition='none';
-                                   dust[i].style.transform='';    dust[i].style.opacity='0'; }
-    if (trimG){ trimG.style.transition='none'; trimG.style.opacity='1'; }
-    if (shake){ shake.style.animation=''; }
-  }
-
-  function rebuild(){
-    clearDamage();
-    buildWall();
-    if (wallG){
-      wallG.style.transition='none';
-      wallG.style.transform='translate(0px,14px)';
-      wallG.style.opacity='0';
-      void wallG.getBoundingClientRect();
-      wallG.style.transition='transform .6s ease-out, opacity .6s ease-out';
-      wallG.style.transform='';
-      wallG.style.opacity='1';
-    }
-    hudText();
-  }
-
-  function loop(){
-    if (!on) return;
-    var justReleased = false;
-    if (phase==='charging'){
-      power = Math.min(1, power + 0.017);
-      fill.style.width = (power*100).toFixed(0)+'%';
-    }
-    if (phase==='throw'){
-      t += WIND_BASE + WIND_GAIN*power;
-      var armNow = angAt(t);
-      stepSling(armNow);
-      if (!p){
-        var vS = stoneVel();
-        var up = Math.atan2(-vS[1], vS[0]) * 180/Math.PI;
-        // Let go when the arm is well round AND the stone is rising at the
-        // release angle. Both conditions are geometric, so the release point
-        // comes out the same every shot the way a fixed hook would give it,
-        // while the SPEED still scales with how hard it was wound.
-        if (armNow > REL_GATE && vS[0] > 0 && up <= REL_ANG){
-          var S = stonePos(armNow);
-          p = { x:S[0], y:S[1], vx:vS[0], vy:vS[1] };
-          justReleased = true;   // do not also integrate it this frame
-        }
-      }
-      if (t>SWEEP*1.6 && !p){ phase='spent'; setTimeout(function(){ if(on && phase==='spent'){ phase='return'; } },600); }
-    }
-    if (p && !justReleased){
-      p.x += p.vx; p.y += p.vy; p.vy += GRAV;
-      // The wall lives in scene coordinates, the stone in the rig's. Convert
-      // here and nowhere else, and hand land() the scene position so the
-      // impact flash and the block it dislodges agree on where it struck.
-      var sx = toSceneX(p.x), sy = toSceneY(p.y);
-      var inWall = sx>=WALL.x0 && sx<=WALL.x1 && sy>=wallTopAt(sx) && sy<=WALL.y1;
-      var gone   = sy >= GROUND || sx > 402;
-      if (inWall || gone) land(inWall, sx, sy);
-    }
-    // Follow-through: the machine finishes its motion after the shot has gone.
-    if (phase==='spent' && t < SLING_SWEEP) t += 0.9;
-    // An empty sling is still a pendulum. Integrating it through the
-    // follow-through and the winch-back is what makes it trail and settle
-    // instead of holding whatever pose the last scripted frame left it in.
-    if (phase==='spent') stepSling(angAt(t));
-
-    /* Winching back.
-
-       This used to be `t = 0` inside a setTimeout, which teleported the arm
-       from wherever the follow-through had left it (up to t=45) straight
-       back to the cocked angle in a single frame. Against the run-out that
-       preceded it, the pair read as the arm bouncing.
-
-       A crew does not teleport a trebuchet arm, they winch it down, and it
-       takes a moment. Exponential decay on t gives that for one line: fast
-       at first, easing in as it seats. */
-    if (phase==='return'){
-      t *= 0.90;
-      /* While the machine is being reset the sling is not swinging freely -
-         it is slack rope being laid back into the trough. Simulating it
-         here is what produced the helicopter: the arm travels 150 degrees
-         in a dozen frames, and that tip acceleration drives the pendulum
-         far harder than the throw ever did. Easing it home instead is both
-         calmer to look at and closer to what is actually happening. */
-      var seated = (SLING_BASE + angAt(t)) * Math.PI/180;
-      var d = seated - phi;
-      while (d >  Math.PI) d -= 2*Math.PI;
-      while (d < -Math.PI) d += 2*Math.PI;
-      phi += d * 0.18; dphi *= 0.6;
-      if (t < 0.4){ t = 0; power = 0; phase = 'ready'; }
-    }
-    stepDebris();      // masonry falls on the same clock as the stone
-    draw();
-    raf = requestAnimationFrame(loop);
-  }
-
-  function arm(){
-    if (on) return;
-    on = true; stage.classList.add('playing');
-    hint.textContent = PLAY; hint.classList.add('on');
-    phase='ready'; t=0; power=0; p=null; rebuild(); draw();
-    raf = requestAnimationFrame(loop);
-  }
-  function disarm(){
-    on=false; charging=false; phase='ready'; p=null;
-    cancelAnimationFrame(raf);
-    stage.classList.remove('playing');
-    [beam, cw, sling, shot].forEach(function(el){ el.style.transform = ''; });
-    shot.style.opacity=''; hitG.style.opacity=''; hitG.style.transform=''; hitG.style.animation='';
-    // Standing down mid-collapse must not leave a half-fallen wall on the
-    // idle screen, so the wall group is put back as well as the damage.
-    clearDamage();
-    if (wallG){ wallG.style.transition='none'; wallG.style.transform=''; wallG.style.opacity='1'; }
-    hud.innerHTML=''; meter.classList.remove('on'); idleAt=Date.now();
-    hint.textContent = TAKE;
-  }
-
-  function press(){
-    if (!on) { arm(); return; }
-    if (phase!=='ready') return;
-    charging=true; phase='charging'; power=0;
-    meter.classList.add('on'); fill.style.width='0%';
-  }
-  function release(){
-    if (!on || phase!=='charging') return;
-    charging=false; phase='throw'; t=0; seatSling(angAt(0)); meter.classList.remove('on');
-  }
-
-  addEventListener('keydown', function(e){
-    if (e.code==='Space'){ e.preventDefault(); if(!e.repeat) press(); }
-    if (e.code==='Escape' && on) disarm();
-  });
-  addEventListener('keyup', function(e){ if (e.code==='Space'){ e.preventDefault(); release(); } });
-  stage.addEventListener('pointerdown', function(e){ e.preventDefault(); press(); });
-  addEventListener('pointerup', release);
-
-  if (quit) quit.addEventListener('pointerdown', function(e){
-    e.preventDefault(); e.stopPropagation(); disarm();
-  });
-
-  stage.classList.add('armable');
-  hint.textContent = TAKE;
-  // Plain timer, not an idle timer. The parallax means the pointer is
-  // almost always moving, so an idle gate never fired on desktop.
-  setTimeout(function(){ hint.classList.add('on'); }, 3500);
-})();
-</script>
+<!-- Mobile bottom tab bar -->
+<nav class="mobile-tab-bar" aria-label="Main navigation">
+  <a href="/" class="tab-item tab-active">
+    <span class="tab-icon">&#9819;</span>
+    <span class="tab-label">Play</span>
+  </a>
+  <a href="/#leaderboard" class="tab-item">
+    <span class="tab-icon">&#127942;</span>
+    <span class="tab-label">Ranks</span>
+  </a>
+  <a href="/groups.html" class="tab-item">
+    <span class="tab-icon">&#128101;</span>
+    <span class="tab-label">Groups</span>
+  </a>
+  <a href="/mastery.html" class="tab-item">
+    <span class="tab-icon">&#9733;</span>
+    <span class="tab-label">Mastery</span>
+  </a>
+</nav>
 </body>
 </html>
