@@ -8,5 +8,10 @@
   "days": 82,
   "questions": 984,
   "stagedAt": "2026-10-26T01:52:10.037Z",
-  "executed": null
+  "executed": {
+    "at": "2026-10-26T11:41:22.517Z",
+    "publishedFrom": "2026-10-26",
+    "through": "2027-01-15",
+    "days": 82
+  }
 }

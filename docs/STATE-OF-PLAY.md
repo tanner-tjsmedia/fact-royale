@@ -85,10 +85,24 @@ relaunching groups.
 junk goes straight into the admin numbers. Cheap fix: validate the shape
 `quiz.js` actually writes.
 
-### Server-side grading absent
-A signed-in user can still post 12/12 without playing. Rules cannot regrade a
-quiz. Needs Cloud Functions, which needs the Blaze plan. Only matters while a
-public leaderboard exists.
+### ~~Server-side grading absent~~ — CLOSED 2026-10-26
+`commitAnswer` writes the choice in a transaction *before* returning a
+verdict, so a second call replays rather than regrades; `submitQuiz` reads the
+committed attempt and is the only writer of `scores/`. Verified under direct
+attack: sending the correct index to an already-answered question returns
+`correct:false, replay:true`.
+
+Two holes found and closed on the same day, both worth remembering:
+
+- `submitQuiz` returned `correctIndex` and the explanation for **every**
+  question in the key, so one call on a quiz you had never opened handed back
+  the whole answer key. The reveal is now earned per committed answer.
+- A partial attempt wrote a `scores/` row. The row is write-once, so a signup
+  mid-quiz locked a 0 in permanently while the player's own profile showed the
+  real score. Partial attempts are now refused.
+
+Both existed because the server trusted the client to call it at the right
+moment. That is not a control.
 
 ### Facts: 0 of 93 approved
 `approvedBy` must be a human and nothing publishes without it. The review
@@ -166,8 +180,9 @@ needs a real filesystem and the repo it already reads.
 
 ## 6. The recurring bug in this project
 
-Five instances of one mistake: a rule written in two places, then allowed to
-drift.
+**Eleven** instances of one mistake: a rule written in two places, then
+allowed to drift. It has caused more defects here than every other cause
+combined, and it keeps arriving in a new disguise.
 
 | where | what happened |
 | --- | --- |
@@ -176,6 +191,12 @@ drift.
 | `under-siege.html` | rig scale in the SVG attribute and again in the physics |
 | `review.html` | reported the retired ratio rule as a live gate |
 | triage | the retired ratio rule restated from memory, inventing 426 defects |
+| `auth.js` | a dead `FR_CATEGORIES` const — redeclaration is a SyntaxError that aborted the entire file, so every auth function silently vanished |
+| `auth.js` | its own alias table pointing the OPPOSITE way to `categories.js`, canonicalising every stored category onto the retired name |
+| `createUserProfile` | seeded three categories, under retired names, so every account was born missing Geography and Science & Nature |
+| `mastery.js` | `CAT_META` keyed by display name, which the fix above renamed under it |
+| `quiz.js` / `auth.js` | the Apps Script URL typed out twice; `contact.js` was about to make three |
+| `go-live.sh` | computed the re-date start with `date -u +%F` while the tool used the quiz-day boundary — agreeing 19 hours a day, wrong for 5 |
 
 Current owners, to import rather than restate:
 
@@ -186,5 +207,108 @@ Current owners, to import rather than restate:
 - the review queue UI → `review-queue.js`, shared by both pages
 - the rig transform → the SVG attribute, parsed back by the script
 - what counts as evidence → `docs/SOURCING-STANDARD.md`
+- **category names, labels, colours → `categories.js`**
+- **the Apps Script endpoint → `FR_SHEET_URL` in `_app/sheet.js`**
+- **design values → `tokens.css`** (no classes in it, ever)
+- **the site footer → `_app/footer.js`**
+- **the re-date start date → `migrate-to-firestore.js --print-start-date`**
 
 If a rule needs to exist in two places, make the second read the first.
+
+**Still not converted**, and therefore the next three instances waiting to
+happen: `admin.html` (`DI_LEGACY_KEYS` plus a `catMap` with its own aliases),
+`live.html` (`const CATEGORIES`) and `studio.html` (`const CATS`). All three
+hold their own copy of the category list and none of them loads
+`categories.js`. They are internal tools, so drift there breaks a dashboard
+rather than a score — which is exactly how instance #2 was found.
+
+### Two sub-patterns worth naming separately
+
+**A guard that cannot fail is not a guard.** The sync loop in
+`serve-local.sh` inherited `set -e`, died on a transient `sed` temp file, and
+went on looking healthy for an hour while half the files froze. The credential
+preflight in `migrate-to-firestore.js` once checked only that an environment
+variable was non-empty. Both *looked* like safety.
+
+**Trusting the client to call the server at the right moment is not a
+control.** Both `submitQuiz` holes were this.
+
+---
+
+## 7. The review of 2026-10-26
+
+Measured, not remembered. Run the tools if you doubt any of it.
+
+### What moved in 25 days
+
+| | 2026-10-01 | 2026-10-26 |
+| --- | --- | --- |
+| Questions | 984 | 984 |
+| Sourced | 118 (12%) | **118 (12%)** |
+| Publishable days | 7 | **7** |
+| Facts approved | 0 / 93 | **0 / 93** |
+| Archive snapshots | 0 / 288 | **0 / 288** |
+| Server-side grading | absent | done, verified under attack |
+| Answer key exposure | questions-src public | closed, verified |
+| Player-facing UI | pre-rebuild | rebuilt: home, quiz, reveal, results, footer, legal |
+
+Everything in the bottom three rows is real work and most of it was necessary.
+But the top five rows are the scarce resource, and **not one of them moved.**
+
+### The actual risk, in order
+
+**1. 866 unsourced questions are about to be published.** 88% of the corpus
+has never been checked against a source. A trivia site survives on being
+right; one confidently wrong answer costs more trust than fifty good questions
+earn. The gates in `preflight.py` catch *structural* defects — they cannot
+tell you a claim is false.
+
+This is not an argument against launching. It is an argument for knowing that
+the thing most likely to hurt Fact Royale is not downtime or a leaked answer
+key. It is a question that is simply wrong, published under a crest that says
+"the reason it is the answer is the part you keep."
+
+**2. There is no content pipeline.** 82 days is roughly three months of
+runway. Nothing currently produces new days at the rate the site consumes
+them, and the generation track that was supposed to — the fact layer — has 93
+facts and zero approved, unchanged since it was built. Three months is enough
+time to fix this and not enough to ignore it.
+
+**3. `style.css` is still 4,244 lines and loaded on every page.** It was
+scheduled for deletion at the end of Phase 3. Phase 3 is over. It still owns
+`.screen`, `.modal-card`, `.cat-*` and the legacy landing, which is why
+`app.css` carries rules whose only job is to undo it. Every one of those
+override rules is a future collision.
+
+**4. `_app/quiz.js` is 3,001 lines.** It is the largest player-facing file by
+a factor of three and it holds the quiz, the results, the archive, sharing,
+challenges and the notify form. The next hard bug will be in here, and it will
+be hard because of the size.
+
+### What is genuinely strong
+
+- **The security model.** Commit-then-reveal, a key collection the client
+  cannot read, a reveal earned per answer, write-once leaderboard rows.
+  Verified by attacking it rather than by reading it.
+- **The tooling.** 26 tools, real runbooks, scripts that refuse rather than
+  guess, and error messages that translate Google's into something true. The
+  credential preflight and `go-live.sh`'s abort-before-destroy ordering are
+  better than most production systems.
+- **The documentation.** 2,300 lines that explain *why*. This file exists so a
+  cold start does not have to reconstruct the state from a chat transcript,
+  and that has already paid for itself more than once.
+
+### What I would do next, in order
+
+1. **Launch.** It is ready, the rollback is one command, and nothing on this
+   list gets easier while dark.
+2. **Source the 21 days behind the launch window** before they are served.
+   That is the cheapest possible version of risk #1: you only need the days
+   ahead of the player, not all 82.
+3. **Decide the content pipeline** — generation from the fact layer, manual
+   authoring, or a deliberate reduced cadence. Any answer beats discovering
+   the cliff in January.
+4. **Delete `style.css`** and the `#legacy-landing` block together. They are
+   one job.
+5. **Convert `admin.html`, `live.html`, `studio.html`** to `categories.js`.
+6. **Split `quiz.js`.** Results and archive are the obvious seams.
