@@ -15,15 +15,31 @@ const MASTERY_TIERS = [
   { id: 'royale',   name: 'Royale',   minTotal: 200, minAcc: 0.92, color: '#f0c040', icon: ICONS.tiers.royale   },
 ];
 
+// Keyed by SLUG, not by display name.
+//
+// This map was keyed 'Pop Culture' — the retired name. auth.js now
+// canonicalises category keys through categories.js, which resolves that
+// name to 'Music/Movies', so a display-name lookup here would have missed
+// and the Royal Record would have shown a grey zero for a quarter of
+// everyone's answers. Slugs do not get renamed; display names do.
 const CAT_META = {
-  'History':          { color: '#f59e0b', bg: 'rgba(245,158,11,0.12)'  },
-  'Sports':           { color: '#60a5fa', bg: 'rgba(59,130,246,0.12)'  },
-  'Pop Culture':      { color: '#c084fc', bg: 'rgba(168,85,247,0.12)'  },
-  'Geography':        { color: '#22d3ee', bg: 'rgba(34,211,238,0.12)'  },
-  'Science & Nature': { color: '#4ade80', bg: 'rgba(74,222,128,0.12)'  },
+  history:   { color: '#f59e0b', bg: 'rgba(245,158,11,0.12)' },
+  sports:    { color: '#60a5fa', bg: 'rgba(59,130,246,0.12)' },
+  music:     { color: '#c084fc', bg: 'rgba(168,85,247,0.12)' },
+  geography: { color: '#22d3ee', bg: 'rgba(34,211,238,0.12)' },
+  science:   { color: '#4ade80', bg: 'rgba(74,222,128,0.12)' },
 };
 
-const ALL_CATEGORIES = ['History', 'Sports', 'Pop Culture', 'Geography', 'Science & Nature'];
+/* Look up a category's colour by any name it might arrive under —
+   current, retired, or unknown. One call site for the fallback. */
+function catMeta(name) {
+  return CAT_META[frCategory(name).slug] ||
+         { color: '#f0c040', bg: 'rgba(240,192,64,0.1)' };
+}
+
+// Derived from the category table rather than typed out again. Requires
+// categories.js, which both index.html and mastery.html now load first.
+const ALL_CATEGORIES = frCategoryList().map(function (c) { return c.label; });
 
 // ── Tier Utilities ────────────────────────────────────────
 
@@ -256,12 +272,12 @@ function renderMasteryHero(score, categoryMastery, user) {
   });
 
   if (el('mastery-strongest') && strongest) {
-    const m = CAT_META[strongest.cat] || { color: '#f0c040' };
+    const m = catMeta(strongest.cat);
     el('mastery-strongest').innerHTML =
       `<span style="color:${m.color}">${strongest.cat}</span>&nbsp;<span class="hero-acc">${Math.round(strongest.acc * 100)}%</span>`;
   }
   if (el('mastery-weakest') && weakest) {
-    const m = CAT_META[weakest.cat] || { color: '#f0c040' };
+    const m = catMeta(weakest.cat);
     el('mastery-weakest').innerHTML =
       `<span style="color:${m.color}">${weakest.cat}</span>&nbsp;<span class="hero-acc">${Math.round(weakest.acc * 100)}%</span>`;
   }
@@ -276,7 +292,7 @@ function renderCategoryCards(categoryMastery, historyMap) {
     const stats   = categoryMastery[cat] || { correct: 0, total: 0, perfectStreak: 0, bestPerfectStreak: 0 };
     const tier    = computeTier(stats.correct, stats.total);
     const prog    = getTierProgress(stats.correct, stats.total);
-    const meta    = CAT_META[cat] || { color: '#f0c040', bg: 'rgba(240,192,64,0.1)' };
+    const meta    = catMeta(cat);
     const acc     = stats.total > 0 ? Math.round((stats.correct / stats.total) * 100) : 0;
     const history = historyMap[cat] || [];
 
@@ -448,7 +464,7 @@ async function loadMasteryTeaser() {
         pillsEl.innerHTML = ALL_CATEGORIES.map(cat => {
           const s    = cm[cat] || { correct: 0, total: 0 };
           const tier = computeTier(s.correct, s.total);
-          const meta = CAT_META[cat] || { color: '#f0c040' };
+          const meta = catMeta(cat);
           return `
             <div class="mt-pill" title="${cat}: ${tier.name}" style="border-color:${tier.color}44">
               <span class="mt-pill-icon" style="color:${tier.color}">${tier.icon}</span>

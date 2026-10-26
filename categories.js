@@ -23,12 +23,34 @@
    because the real fault was that four files each held their own opinion
    about the list.
 
+   A fourth and fifth turned up later, and were worse:
+
+     4. auth.js carried its OWN alias table pointing the opposite way --
+        'Music/Movies' -> 'Pop Culture' -- so every category total written
+        to Firestore was canonicalised to the dead name.
+     5. createUserProfile() seeded categoryStats with three categories
+        under those dead names, so every new account was missing Geography
+        and Science & Nature from the day it was created.
+
    RULES
      - Nothing outside this file hardcodes a category name or colour.
      - The corpus still contains the retired name. Do not rewrite 246
        question files to fix a display bug; alias it here instead.
      - Adding a category means editing this file and tokens.css, and
        nothing else.
+     - Key maps by SLUG, never by display name. Slugs do not get renamed.
+
+   WHO HAS BEEN CONVERTED
+
+     done     quiz.js, home.js, auth.js, mastery.js  (player-facing)
+     NOT YET  admin.html   DI_LEGACY_KEYS + a catMap with its own aliases
+              live.html    const CATEGORIES = [...]
+              studio.html  const CATS = [...]
+
+   The three outstanding ones are internal tools, so a drift there shows
+   up as a broken dashboard rather than a wrong score — which is how
+   bug 1 was found. They do not load this file yet; converting them means
+   adding the <script> tag as well as deleting the array.
    ============================================================ */
 
 var FR_CATEGORIES = [

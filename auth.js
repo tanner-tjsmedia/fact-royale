@@ -402,11 +402,16 @@ async function createUserProfile(user, displayName, firstName, lastName) {
       bestScore:          0,
       bestScoreDate:      ''
     },
-    categoryStats: {
-      'History':      { played: 0, correct: 0 },
-      'Sports':       { played: 0, correct: 0 },
-      'Pop Culture':  { played: 0, correct: 0 }
-    }
+    // Seeded from the category table, not written out.
+    //
+    // The literal list that was here held three categories under the
+    // retired names, so every new account was created missing Geography
+    // and Science & Nature entirely — the two the Royal Record then had
+    // nothing to show for.
+    categoryStats: frCategoryList().reduce(function (acc, c) {
+      acc[c.label] = { played: 0, correct: 0 };
+      return acc;
+    }, {})
   });
 }
 
@@ -452,18 +457,26 @@ async function getCompletedDates(uid) {
 }
 
 // ── Category name normalization ────────────────────────
-// 'Music/Movies' was the pre-2026 name for what is now 'Pop Culture'.
-// Any legacy name must map to a current one or stats fragment across
-// two keys and category totals stop matching questionsAnswered.
-const FR_CATEGORY_ALIASES = {
-  'Music/Movies': 'Pop Culture',
-  'Music':        'Pop Culture',
-  'Movies':       'Pop Culture',
-  'Science':      'Science & Nature',
-  'Nature':       'Science & Nature'
-};
+//
+// This file used to carry its own alias table, and it pointed the OPPOSITE
+// WAY from categories.js:
+//
+//     auth.js        'Music/Movies' -> 'Pop Culture'   ("Pop Culture is current")
+//     categories.js  'pop culture'  -> 'Music/Movies'  ("Pop Culture is retired")
+//
+// categories.js is right: 'Pop Culture' is the retired name, still sitting
+// on 246 question files. So every category total this file wrote was being
+// canonicalised to a name the rest of the site treats as dead, and
+// admin.html — which reads categoryStats raw — displayed it.
+//
+// That made six bugs from one cause: four files each holding an opinion
+// about the category list. The table is gone; this delegates.
+//
+// Existing documents keyed 'Pop Culture' are not a migration problem.
+// frCategory() aliases the old name onto the current one, so the next
+// read-modify-write merges the two keys into one by itself.
 function normalizeCategory(name) {
-  return FR_CATEGORY_ALIASES[name] || name;
+  return frCategory(name).label;
 }
 // FR_CATEGORIES used to be declared here as a bare array of names, holding
 // the retired 'Pop Culture', and referenced nowhere in this file. It is
