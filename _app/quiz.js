@@ -627,13 +627,35 @@ async function showRecordedResults(dateKey) {
   score = 0;
   categoryScores = {};
   questions.forEach(q => {
-    if (!categoryScores[q.category]) categoryScores[q.category] = { correct: 0, total: 0 };
-    categoryScores[q.category].total++;
+    const ck = getCategoryLabel(q.category);
+    if (!categoryScores[ck]) categoryScores[ck] = { correct: 0, total: 0 };
+    categoryScores[ck].total++;
     const pq = res.perQuestion[q.id];
-    if (pq && pq.correct) { score++; categoryScores[q.category].correct++; }
+    if (pq && pq.correct) { score++; categoryScores[ck].correct++; }
   });
 
   showResults();
+}
+
+/* Merge a categoryScores map onto canonical labels before rendering.
+ *
+ * Keying the live tally by getCategoryLabel() fixes what we WRITE from now
+ * on, but two sources still hand us retired names: fr_categoryScores saved
+ * in localStorage by any earlier build, and Firestore documents written
+ * before the category tables were merged. Normalising only at write time
+ * leaves those rendering 'Pop Culture' forever.
+ *
+ * So normalise at READ time too. Two old keys collapsing onto one slug are
+ * summed, never overwritten. */
+function canonicalCategoryScores(src) {
+  const out = {};
+  Object.entries(src || {}).forEach(([name, s]) => {
+    const k = getCategoryLabel(name);
+    if (!out[k]) out[k] = { correct: 0, total: 0 };
+    out[k].correct += (s.correct || 0);
+    out[k].total   += (s.total   || 0);
+  });
+  return out;
 }
 
 function gradeLocally(q, choice) {
@@ -720,7 +742,7 @@ function setupLanding(data) {
   streakEl.innerHTML = streak > 0 ? `<span class="fr-icon fr-icon-sm" style="color:var(--gold,#d4af37)">${ICONS.flame}</span> ${streak} day streak` : 'Start your streak!';
 
   // Category pills
-  const cats = [...new Set(data.questions.map(q => q.category))];
+  const cats = [...new Set(data.questions.map(q => getCategoryLabel(q.category)))];
   const pillsEl = document.getElementById('landing-categories');
   pillsEl.innerHTML = cats.map(c =>
     `<span class="pill ${getCategoryClass(c)}">${c}</span>`
@@ -866,10 +888,11 @@ function startQuiz() {
 
   // Init category score trackers
   questions.forEach(q => {
-    if (!categoryScores[q.category]) {
-      categoryScores[q.category] = { correct: 0, total: 0 };
+    const ck = getCategoryLabel(q.category);
+    if (!categoryScores[ck]) {
+      categoryScores[ck] = { correct: 0, total: 0 };
     }
-    categoryScores[q.category].total++;
+    categoryScores[ck].total++;
   });
 
   // Resume an interrupted run rather than restarting it.
@@ -1112,7 +1135,7 @@ async function handleAnswer(selected, q) {
   renderSegments();
   if (isCorrect) {
     score++;
-    categoryScores[q.category].correct++;
+    categoryScores[getCategoryLabel(q.category)].correct++;
   }
 
   // Persist immediately: from here the answer is on screen, so a reload must
@@ -1377,7 +1400,7 @@ function showResults() {
   // Category breakdown with animated bars
   const breakdown = document.getElementById('category-breakdown');
   breakdown.innerHTML = '';
-  Object.entries(categoryScores).forEach(([cat, s], idx) => {
+  Object.entries(canonicalCategoryScores(categoryScores)).forEach(([cat, s], idx) => {
     const pct = s.total > 0 ? (s.correct / s.total) * 100 : 0;
     const catClass = getCategoryClass(cat);
     const row = document.createElement('div');
@@ -1519,7 +1542,7 @@ function showResultsFromStorage() {
   // Category breakdown with animated bars
   const breakdown = document.getElementById('category-breakdown');
   breakdown.innerHTML = '';
-  Object.entries(categoryScores).forEach(([cat, s], idx) => {
+  Object.entries(canonicalCategoryScores(categoryScores)).forEach(([cat, s], idx) => {
     const pct = s.total > 0 ? (s.correct / s.total) * 100 : 0;
     const catClass = getCategoryClass(cat);
     const row = document.createElement('div');
@@ -1845,7 +1868,7 @@ function getShareData() {
     streak: getStreak(),
     date: formatDate(activeQuizDate),
     rank,
-    categories: Object.entries(categoryScores).map(([cat, s]) => ({
+    categories: Object.entries(canonicalCategoryScores(categoryScores)).map(([cat, s]) => ({
       name: cat, correct: s.correct, total: s.total
     }))
   };

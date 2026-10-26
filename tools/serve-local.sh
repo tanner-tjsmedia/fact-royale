@@ -101,20 +101,48 @@ EOF
 # bytes. That cost several rounds of "why has my change not appeared".
 #
 # cp -u only copies files that are newer, so this is cheap.
+#
+# THE LOOP MUST NOT INHERIT `set -e`. (Added 2026-10-26, after it bit.)
+#
+# This script runs under `set -euo pipefail`, which a background function
+# inherits. `cp -u "$REPO"/_app/*` expands a glob over a directory that
+# editors write into, and `sed -i` creates a temporary file next to its
+# target and renames it away a few milliseconds later. Land the glob on
+# that instant and cp exits non-zero for a file that no longer exists —
+# errexit then kills the loop. Silently: stderr is already sent to
+# /dev/null, the loop is in the background, and the server it was started
+# alongside carries on serving perfectly.
+#
+# The result is the worst kind of stale: SOME files keep updating (the
+# ones copied before it died) while others freeze, so the page half-works
+# and the version numbers in index.html stop matching the repo. An hour
+# went into chasing a "caching problem" that was this.
+#
+# `set +e` plus `|| true` on every copy. A failed copy is a non-event —
+# the next pass is one second away.
 REPO="$PWD"
 sync_loop() {
+  set +e
   while true; do
     sleep 1
-    cp -u "$REPO"/_app/* "$OUT"/ 2>/dev/null
+    cp -u "$REPO"/_app/* "$OUT"/ 2>/dev/null || true
     for f in auth.js firebase-config.js categories.js icons.js style.css \
              tokens.css app.css manifest.json favicon.svg; do
-      [ -f "$REPO/$f" ] && cp -u "$REPO/$f" "$OUT"/ 2>/dev/null
+      [ -f "$REPO/$f" ] && { cp -u "$REPO/$f" "$OUT"/ 2>/dev/null || true; }
     done
   done
 }
 sync_loop &
 SYNC_PID=$!
 trap 'kill $SYNC_PID 2>/dev/null' EXIT INT TERM
+
+# Prove the loop is alive rather than assuming it. If it has already died
+# there is no point serving: every edit from here on would be invisible.
+sleep 2
+if ! kill -0 "$SYNC_PID" 2>/dev/null; then
+  echo "WARNING: the sync loop died immediately. Edits will NOT reach the"
+  echo "         browser. Restart, and if it keeps happening say so."
+fi
 
 cd "$OUT"
 python3 -m http.server "$PORT" 2>/dev/null || python -m http.server "$PORT"
