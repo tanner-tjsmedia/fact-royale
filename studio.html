@@ -17,6 +17,7 @@
 <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-auth-compat.js"></script>
 <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore-compat.js"></script>
 <script src="firebase-config.js?v=4"></script>
+<script src="categories.js?v=2"></script>
 
 <style>
 /* Page layout only. Every colour, size and curve comes from tokens.css.
@@ -249,7 +250,9 @@ const S = {
 const ORDER = ['id','category','difficulty','question','options','answer',
                'explanation','memory_hook','riskTier','sourceRefs',
                'review','status','usage'];
-const CATS = ['History','Sports','Pop Culture','Geography','Science & Nature'];
+// From categories.js, not typed out. The literal list here carried the
+// retired 'Pop Culture' and was the fifth copy of this array in the repo.
+const CATS = frCategoryList().map(c => c.label);
 const STATES = ['unreviewed','verified','flagged','rejected','retired'];
 
 const $  = s => document.querySelector(s);

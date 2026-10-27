@@ -13,6 +13,7 @@
   <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-auth-compat.js"></script>
   <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore-compat.js"></script>
   <script src="firebase-config.js?v=4"></script>
+  <script src="categories.js?v=2"></script>
 
   <!-- Chart.js -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
@@ -487,23 +488,10 @@
     <!-- Category Accuracy -->
     <section>
       <h2>Category Accuracy (All Users)</h2>
-      <div class="cat-list">
-        <div class="cat-row">
-          <div class="cat-name">📜 History</div>
-          <div class="cat-bar-bg"><div class="cat-bar-fill" id="bar-history" style="width:0%"></div></div>
-          <div class="cat-pct" id="pct-history">—</div>
-        </div>
-        <div class="cat-row">
-          <div class="cat-name">⚽ Sports</div>
-          <div class="cat-bar-bg"><div class="cat-bar-fill" id="bar-sports" style="width:0%"></div></div>
-          <div class="cat-pct" id="pct-sports">—</div>
-        </div>
-        <div class="cat-row">
-          <div class="cat-name">🎬 Music / Movies</div>
-          <div class="cat-bar-bg"><div class="cat-bar-fill" id="bar-movies" style="width:0%"></div></div>
-          <div class="cat-pct" id="pct-movies">—</div>
-        </div>
-      </div>
+      <!-- Rows are generated from frCategoryList(); see renderCategoryAccuracy().
+           Hand-written rows held three of five categories and keyed the
+           retired name. -->
+      <div class="cat-list" id="cat-list"></div>
     </section>
     <!-- Top Active Streaks -->
     <section>
@@ -839,7 +827,13 @@ async function fetchUsers() {
 // Surfaces the two failure modes that silently corrupted stats before the
 // transactional write path: categoryStats drifting away from
 // stats.questionsAnswered, and legacy category keys never migrated.
-const DI_LEGACY_KEYS = ['Music/Movies', 'Music', 'Movies', 'Science', 'Nature'];
+// A key is legacy if the category table resolves it to a DIFFERENT name.
+// One owner, and it cannot go stale.
+//
+// The literal list here named 'Music/Movies' as legacy. That became the
+// CURRENT name on 2026-10-26, so this audit was about to report every
+// correctly-written account as corrupt.
+function isLegacyCategoryKey(k) { return frCategory(k).label !== k; }
 const DI_SCHEMA_VERSION = 2;
 const DI_TOLERANCE = 2; // rounding slack
 
@@ -852,7 +846,7 @@ function renderDataIntegrity(users) {
     const answered = stats.questionsAnswered || 0;
     const cs = u.categoryStats || {};
     const sum = Object.values(cs).reduce((n, v) => n + (v.played || 0), 0);
-    const hasLegacy = Object.keys(cs).some(k => DI_LEGACY_KEYS.includes(k));
+    const hasLegacy = Object.keys(cs).some(isLegacyCategoryKey);
     const needsMigration = (stats.schemaVersion || 0) < DI_SCHEMA_VERSION;
     const delta = sum - answered;
 
@@ -1073,26 +1067,57 @@ function renderConversionChart({ byDay, days }, users) {
 // aliases folds legacy category keys still present on older user documents
 // into the current key, so the bar reflects all the data rather than only
 // what was written after the rename.
-const CATEGORY_ROWS = [
-  { key: 'History',     bar: 'bar-history', pct: 'pct-history', aliases: [] },
-  { key: 'Sports',      bar: 'bar-sports',  pct: 'pct-sports',  aliases: [] },
-  { key: 'Pop Culture', bar: 'bar-movies',  pct: 'pct-movies',
-    aliases: ['Music/Movies', 'Music', 'Movies'] }
-];
+// Derived from categories.js — the single owner of what a category is
+// called and what it used to be called.
+//
+// The literal table here held THREE of five categories (no Geography, no
+// Science & Nature) and keyed the retired 'Pop Culture' with the current
+// 'Music/Movies' listed as its alias, i.e. exactly backwards. The DOM ids
+// were hand-written to match, so adding a category meant editing markup
+// too. Both are generated now.
+const CATEGORY_ROWS = frCategoryList().map(c => ({
+  key:   c.label,
+  slug:  c.slug,
+  bar:   'bar-' + c.slug,
+  pct:   'pct-' + c.slug
+}));
+
+const CATEGORY_ICONS = {
+  history: '\u{1F4DC}', sports: '\u26BD', music: '\u{1F3AC}',
+  geography: '\u{1F30D}', science: '\u{1F9EA}'
+};
+
+/* Build the rows before anything tries to write into them. */
+function buildCategoryRows() {
+  const list = document.getElementById('cat-list');
+  if (!list) return;
+  list.innerHTML = CATEGORY_ROWS.map(r =>
+    '<div class="cat-row">' +
+      '<div class="cat-name">' + (CATEGORY_ICONS[r.slug] || '') + ' ' + r.key + '</div>' +
+      '<div class="cat-bar-bg"><div class="cat-bar-fill" id="' + r.bar + '" style="width:0%"></div></div>' +
+      '<div class="cat-pct" id="' + r.pct + '">\u2014</div>' +
+    '</div>').join('');
+}
 
 function renderCategoryAccuracy(users) {
+  // The rows are generated, so build them before looking any ids up.
+  // Idempotent — safe on every refresh.
+  buildCategoryRows();
+
   const totals = {};
   CATEGORY_ROWS.forEach(row => { totals[row.key] = { played: 0, correct: 0 }; });
 
   users.forEach(u => {
     const cs = u.categoryStats || {};
-    CATEGORY_ROWS.forEach(row => {
-      [row.key, ...row.aliases].forEach(k => {
-        if (cs[k]) {
-          totals[row.key].played  += cs[k].played  || 0;
-          totals[row.key].correct += cs[k].correct || 0;
-        }
-      });
+    // Fold every stored key through the category table rather than
+    // checking a hand-kept alias list per row. A key nobody anticipated
+    // still lands somewhere instead of being silently dropped.
+    Object.keys(cs).forEach(k => {
+      const label = frCategory(k).label;
+      if (totals[label]) {
+        totals[label].played  += cs[k].played  || 0;
+        totals[label].correct += cs[k].correct || 0;
+      }
     });
   });
 

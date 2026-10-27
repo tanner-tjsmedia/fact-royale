@@ -235,6 +235,7 @@ input[type=number],input[type=text],select{width:100%;background:var(--panel-2);
 <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-auth-compat.js"></script>
 <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore-compat.js"></script>
 <script src="/firebase-config.js?v=4"></script>
+<script src="/categories.js?v=2"></script>
 <script>
 // ═══════════════════════════════════════════════════════
 // FACT ROYALE — LIVE HOST CONSOLE
@@ -255,7 +256,9 @@ input[type=number],input[type=text],select{width:100%;background:var(--panel-2);
 // The list lives in firebase-config.js. This is the address to prefill
 // on the sign-in prompt; isAdminEmail() decides who actually gets in.
 const ADMIN_EMAIL = FR_ADMIN_PRIMARY;
-const CATEGORIES  = ['History','Sports','Pop Culture','Geography','Science & Nature'];
+// From categories.js, not typed out. The literal list here carried the
+// retired 'Pop Culture' and was the fourth copy of this array in the repo.
+const CATEGORIES  = frCategoryList().map(c => c.label);
 
 let INDEX = null;          // questions/index.json
 let GAME  = null;          // built game state

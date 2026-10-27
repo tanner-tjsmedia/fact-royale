@@ -38,21 +38,55 @@ cd "$(dirname "$0")/.."
 PORT="${1:-8787}"
 OUT="${TMPDIR:-/tmp}/fact-royale-local"
 
-[ -d _app ] || { echo "_app/ not found. The app is already at root; serve it directly."; exit 1; }
+# Works in BOTH states.
+#
+# This used to require _app/ and exit otherwise. _app/ only exists while
+# the site is dark; the moment go-live.sh ran on 2026-10-26 this script
+# stopped working entirely, which is a poor way for a development server
+# to behave on the day the project ships.
+if [ -d _app ]; then
+  STATE="dark"
+else
+  STATE="live"
+fi
 
 rm -rf "$OUT"
 mkdir -p "$OUT"
 
-echo "== assembling =="
-# The app's entry points, flattened out of _app/.
-cp _app/* "$OUT"/ && echo "  _app/* -> $(basename "$OUT")/"
-
-# The shared dependencies go-dark.sh deliberately left at root.
-for f in auth.js firebase-config.js categories.js icons.js style.css \
-         tokens.css app.css manifest.json favicon.svg; do
-  [ -f "$f" ] && cp "$f" "$OUT"/ && echo "  $f"
-done
+echo "== assembling ($STATE) =="
+if [ "$STATE" = "dark" ]; then
+  # Entry points are parked in _app/; flatten them next to their deps.
+  cp _app/* "$OUT"/ && echo "  _app/* -> $(basename "$OUT")/"
+  for f in auth.js firebase-config.js categories.js icons.js style.css \
+           tokens.css app.css manifest.json favicon.svg; do
+    [ -f "$f" ] && cp "$f" "$OUT"/ && echo "  $f"
+  done
+else
+  # Already flat at root. Copy the web files only — not the repo.
+  for f in *.html *.js *.css manifest.json favicon.svg CNAME; do
+    [ -f "$f" ] && cp "$f" "$OUT"/
+  done
+  echo "  root *.html *.js *.css -> $(basename "$OUT")/"
+fi
 [ -d icons ] && cp -r icons "$OUT"/ && echo "  icons/"
+
+# ── The authoring tools, local only ──────────────────────────────────
+#
+# review.html and review-queue.js read questions-src/ over HTTP. That
+# directory is the MANUSCRIPT: every answer and explanation in plain
+# JSON. It was publicly served by GitHub Pages until 2026-10-27, which
+# made server-side grading decorative — anyone could fetch the key.
+#
+# _config.yml now excludes it from the published site, so the review
+# queue only works where the manuscript legitimately lives: here, on the
+# machine that authors it. That is the correct home for an authoring
+# tool, not a compromise.
+if [ -d questions-src ]; then
+  cp -r questions-src "$OUT"/ && echo "  questions-src/  (LOCAL ONLY - never published)"
+  for f in review.html review-queue.js store.js; do
+    [ -f "$f" ] && cp "$f" "$OUT"/ && echo "  $f"
+  done
+fi
 
 # Not copied on purpose:
 #   questions-src/  renaming it to questions/ here would let the static

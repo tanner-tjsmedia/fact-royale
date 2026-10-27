@@ -42,15 +42,28 @@
 
    WHO HAS BEEN CONVERTED
 
-     done     quiz.js, home.js, auth.js, mastery.js  (player-facing)
-     NOT YET  admin.html   DI_LEGACY_KEYS + a catMap with its own aliases
-              live.html    const CATEGORIES = [...]
-              studio.html  const CATS = [...]
+     All of them, as of 2026-10-27:
+       quiz.js, home.js, auth.js, mastery.js      player-facing
+       admin.html, live.html, studio.html         internal tools
 
-   The three outstanding ones are internal tools, so a drift there shows
-   up as a broken dashboard rather than a wrong score — which is how
-   bug 1 was found. They do not load this file yet; converting them means
-   adding the <script> tag as well as deleting the array.
+   admin.html was the worst of them and was actively wrong by the time it
+   was converted:
+
+     - `CATEGORY_ROWS` held THREE of five categories, so Geography and
+       Science & Nature were missing from the dashboard entirely, and it
+       keyed the retired 'Pop Culture' with the current 'Music/Movies'
+       listed as its *alias* — exactly inverted.
+     - `DI_LEGACY_KEYS` named 'Music/Movies' as a legacy key. That became
+       the CURRENT name on 2026-10-26, so the data-integrity audit was
+       one refresh away from reporting every correctly-written account as
+       corrupt. "Legacy" now means `frCategory(k).label !== k`, which
+       cannot go stale.
+     - The category bars were hand-written DOM with ids to match. They are
+       generated from frCategoryList() now, so adding a category is still
+       this file plus tokens.css and nothing else.
+
+   If a sixth category is ever added, the honest test of this file is that
+   nothing but it and tokens.css needs touching.
    ============================================================ */
 
 var FR_CATEGORIES = [
