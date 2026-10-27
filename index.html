@@ -823,6 +823,13 @@
         <input type="password" class="auth-input" id="login-password" placeholder="Password"      autocomplete="current-password" required />
         <button type="submit" class="btn-primary auth-submit">Sign In</button>
         <p class="auth-error" id="login-error"></p>
+        <!-- Until 2026-10-27 there was no way back into an account whose
+             password had been forgotten. Three of the real accounts on this
+             project are password sign-ins, and their streak and history are
+             the whole product. -->
+        <p class="auth-forgot">
+          <a href="#" id="link-forgot">Forgotten your password?</a>
+        </p>
       </form>
 
       <!-- Sign Up Form -->
@@ -947,7 +954,7 @@
   <script src="auth.js?v=12"></script>
   <script src="mastery.js?v=11"></script>
   <script src="notifications.js?v=3"></script>
-  <script src="quiz.js?v=24"></script>
+  <script src="quiz.js?v=25"></script>
   <script src="home.js?v=2"></script>
   <script src="sheet.js?v=1"></script>
   <script src="contact.js?v=1"></script>

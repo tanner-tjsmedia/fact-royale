@@ -611,6 +611,70 @@ function finalizeQuizRemote(dateKey) {
    showResultsFromStorage() does, would show them a zero. The server has the
    real answers; perQuestion plus the loaded questions is enough to
    reconstruct the per-category breakdown exactly. */
+/* THE SERVER IS THE RECORD OF WHAT HAS BEEN ANSWERED.
+ *
+ * localStorage is a cache of it, and a cache that does not travel: a new
+ * device, a private window or a cleared browser all produce a player who
+ * is served questions they have already committed. Those replay rather
+ * than regrade, so it is not a scoring hole — but they are shown answers
+ * they already saw, on a run they cannot improve, and nothing explains
+ * why. For a daily quiz whose whole premise is one attempt, that reads
+ * as the site being broken.
+ *
+ * submitQuiz already returns everything needed to place them: which
+ * questions are answered, whether each was right, and the running score.
+ * Unanswered questions come back as a bare { answered: false } with no
+ * key attached, so using it as a resume oracle gives nothing away.
+ *
+ * Returns true if the run was resumed, false if there is nothing to
+ * resume to — in which case the caller carries on with a fresh deal.
+ *
+ * One owner: both startQuiz() and showRecordedResults() come through
+ * here, because "where was this player up to" is one question and should
+ * not have two answers.
+ */
+function resumeFromServer(res) {
+  if (!res || !res.perQuestion) return false;
+
+  const firstUnanswered = questions.findIndex(
+    q => !(res.perQuestion[q.id] && res.perQuestion[q.id].answered)
+  );
+  // Every question already committed: this is a finished run, not a
+  // resumable one. The caller decides what to show.
+  if (firstUnanswered === -1) return false;
+
+  isReplayView = false;
+  answered     = false;
+  currentIndex = firstUnanswered;
+  score        = res.score || 0;
+
+  // Rebuild the tallies and the progress segments from the server's
+  // record rather than from whatever localStorage happens to hold, so
+  // the bar and the breakdown match the answers that actually exist.
+  categoryScores = {};
+  outcomes = [];
+  questions.forEach((q, i) => {
+    const ck = getCategoryLabel(q.category);
+    if (!categoryScores[ck]) categoryScores[ck] = { correct: 0, total: 0 };
+    categoryScores[ck].total++;
+    const pq = res.perQuestion[q.id];
+    if (pq && pq.answered) {
+      if (pq.correct) categoryScores[ck].correct++;
+      outcomes[i] = pq.correct ? 'hit' : 'miss';
+    }
+  });
+
+  // Write the recovered position back to localStorage so a refresh on
+  // this device does not need another round trip.
+  saveProgress();
+
+  console.info('[FR] resumed from the server at question', firstUnanswered + 1,
+               'of', questions.length, '(' + (res.answered || 0) + ' already committed)');
+  showScreen('screen-quiz');
+  renderQuestion();
+  return true;
+}
+
 async function showRecordedResults(dateKey) {
   const res = await finalizeQuizRemote(dateKey);
   if (!res || !res.perQuestion) {
@@ -619,6 +683,16 @@ async function showRecordedResults(dateKey) {
     if (typeof showResultsFromStorage === 'function') showResultsFromStorage();
     return;
   }
+
+  // AN UNFINISHED RUN IS NOT A RESULT.
+  //
+  // This used to render the results screen whatever came back, so a player
+  // with 2 of 12 committed was shown "0/12" as though they had played and
+  // scored nothing. It happened to a real account on 2026-10-27.
+  //
+  // The server already says so — `reason: 'incomplete'` and a count — and
+  // the client was throwing both away.
+  if (res.reason === 'incomplete' && resumeFromServer(res)) return;
 
   // showResults() normally means "a run just finished": it bumps the streak
   // and logs a play. Neither is true here, so say so before calling it.
@@ -872,7 +946,7 @@ function clearProgress() {
   try { localStorage.removeItem(FR_PROGRESS_KEY); } catch (e) {}
 }
 
-function startQuiz() {
+async function startQuiz() {
   // Prevent replaying today's daily quiz if already completed
   if (!isArchivePlay && alreadyPlayedToday()) {
     showResultsFromStorage();
@@ -925,6 +999,35 @@ function startQuiz() {
     // which is fair since nothing was given away.
     currentIndex   = saved.answered ? saved.currentIndex + 1 : saved.currentIndex;
     if (currentIndex >= questions.length) { showResults(); return; }
+  } else if (gradingMode === 'server' && !isArchivePlay) {
+    // NO LOCAL PROGRESS. That does not mean no progress.
+    //
+    // It means this browser has never seen the run — a new device, a
+    // private window, cleared site data. The answers may still be on
+    // record server-side, and dealing from question one would re-serve
+    // them: each would reveal instantly as a replay, on a run the player
+    // cannot improve, with no explanation.
+    //
+    // Only on this branch, so a player resuming on the same device pays
+    // nothing for it. A genuinely fresh start costs one callable and
+    // resumes to question one, which is where it was going anyway.
+    try {
+      const res = await finalizeQuizRemote(progressQuizDate());
+      if (res && res.reason === 'incomplete' && res.answered > 0) {
+        if (resumeFromServer(res)) return;
+      } else if (res && res.perQuestion && res.reason !== 'incomplete') {
+        // Every question is committed: the run is finished, it just
+        // finished somewhere else. Show the result rather than dealing a
+        // quiz they are not allowed to play.
+        await showRecordedResults(progressQuizDate());
+        return;
+      }
+    } catch (e) {
+      // Offline, cold start, anything. Falling through deals a fresh run;
+      // committed answers still replay rather than regrade, so the worst
+      // case is the behaviour we had before this existed.
+      console.warn('[FR] could not check the server for progress:', e.code || e.message);
+    }
   }
 
   showScreen('screen-quiz');
