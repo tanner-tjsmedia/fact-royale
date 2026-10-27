@@ -27,11 +27,19 @@ done
 echo
 echo "== installing the holding page =="
 cp under-siege.html index.html
-# GitHub Pages serves 404.html for any route it cannot resolve, so every
-# deep link, bookmark and stale share URL lands on Under Siege too.
-cp under-siege.html 404.html
 echo "  index.html  <- under-siege.html"
-echo "  404.html    <- under-siege.html"
+
+# GitHub Pages serves 404.html for any route it cannot resolve, so every
+# deep link, bookmark and stale share URL lands here too.
+#
+# This used to be `cp under-siege.html 404.html`, and go-live.sh deleted
+# the file again — so a live site had no branded 404 at all, and a dark
+# one had two 74KB copies free to drift apart.
+#
+# It is generated now, in DARK wording: while the whole site is down the
+# page a visitor asked for does exist, it just is not being served, so
+# "we are making repairs" is true and "no such page" is not.
+python3 tools/make-404.py --dark
 
 echo
 echo "== staying live (admin only, auth-gated) =="

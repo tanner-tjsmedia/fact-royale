@@ -121,7 +121,7 @@ if [ "${1:-}" = "--dry-run" ]; then
   fi
   echo "  would delete   index.html  (the Under Siege holding page)"
   for f in _app/*; do echo "  would restore  $(basename "$f")"; done
-  echo "  would delete   404.html"
+  echo "  would rebuild  404.html (live wording, via tools/make-404.py)"
   echo
   echo "Run without --dry-run to do it. The site goes public at the next push."
   exit 0
@@ -209,8 +209,13 @@ if ! rmdir _app 2>/dev/null; then
   exit 1
 fi
 
-rm -f 404.html
-echo "  404.html removed"
+# 404.html is NOT deleted. It used to be, which left the live site with
+# no branded error page: every mistyped URL, dead bookmark and stale
+# share link got GitHub's default white page.
+#
+# Rebuilt in LIVE wording instead — the site is up, so a missing route
+# really is missing, and the page says which one and offers a way back.
+python3 tools/make-404.py --live
 
 echo
 git status --short
