@@ -180,6 +180,65 @@ document.getElementById('form-login').addEventListener('submit', async (e) => {
   }
 });
 
+// ── Forgotten password ─────────────────────────────────
+//
+// Until 2026-11-16 there was no route back into an account whose password
+// had been forgotten. Firebase sends the email and hosts the reset page,
+// so this is only the trigger — no new infrastructure, and nothing here
+// ever sees a password.
+//
+// THE REPLY IS DELIBERATELY UNINFORMATIVE. Email Enumeration Protection
+// is on for this project, which is the whole point: an unauthenticated
+// form that answers "no account with that address" is an account
+// checker. So a success message is shown whatever happened, including
+// for an address with no account, and `auth/user-not-found` is treated
+// as success rather than surfaced. That is not a cosmetic choice and it
+// should not be "improved" later by someone making the errors more
+// helpful.
+//
+// The one case worth reporting honestly is a Google-only account: the
+// email would arrive and set a password that works, which is correct
+// behaviour, so it still counts as success.
+const forgotLink = document.getElementById('link-forgot');
+if (forgotLink) forgotLink.addEventListener('click', async (e) => {
+  e.preventDefault();
+
+  const emailEl = document.getElementById('login-email');
+  const errorEl = document.getElementById('login-error');
+  const email   = (emailEl && emailEl.value || '').trim();
+
+  // Ask for the address rather than sending a reset to an empty string.
+  if (!email || email.indexOf('@') < 1) {
+    errorEl.textContent = 'Enter your email address above, then tap this again.';
+    if (emailEl) emailEl.focus();
+    return;
+  }
+
+  forgotLink.textContent = 'Sending…';
+  try {
+    await auth.sendPasswordResetEmail(email);
+  } catch (err) {
+    // user-not-found is not an error the player may see: see above.
+    if (err.code !== 'auth/user-not-found') {
+      console.error('[FR] password reset failed:', err.code || err.message, err);
+      // Only genuine, non-enumerating failures are worth showing.
+      if (err.code === 'auth/invalid-email' ||
+          err.code === 'auth/too-many-requests' ||
+          err.code === 'auth/network-request-failed') {
+        errorEl.textContent = friendlyAuthError(err.code);
+        forgotLink.textContent = 'Forgotten your password?';
+        return;
+      }
+    }
+  }
+
+  errorEl.textContent = '';
+  forgotLink.replaceWith(Object.assign(document.createElement('span'), {
+    className: 'auth-sent',
+    textContent: 'If that address has an account, a reset link is on its way.'
+  }));
+});
+
 // ── Log signup to Google Sheet ─────────────────────────
 // Fires on new account creation (email or Google).
 // Uses the same Apps Script endpoint as the notify form.
@@ -1282,7 +1341,11 @@ function friendlyAuthError(code) {
     'auth/network-request-failed': 'Network error. Please check your connection.',
     'auth/unauthorized-domain':    'Domain not authorized. Check Firebase Auth settings.',
     'auth/operation-not-allowed':  'Email sign-up is not enabled. Check Firebase Auth providers.',
-    'auth/configuration-not-found':'Firebase configuration error. Check project setup.'
+    'auth/configuration-not-found':'Firebase configuration error. Check project setup.',
+    // Reset-specific. user-not-found is deliberately NOT mapped: the
+    // forgot-password handler swallows it so the form cannot be used
+    // to test whether an address has an account.
+    'auth/missing-email':           'Enter your email address first.'
   };
   return map[code] || `Error: ${code}`;
 }

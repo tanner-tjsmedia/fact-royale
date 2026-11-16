@@ -660,7 +660,13 @@ function resumeFromServer(res) {
     const pq = res.perQuestion[q.id];
     if (pq && pq.answered) {
       if (pq.correct) categoryScores[ck].correct++;
-      outcomes[i] = pq.correct ? 'hit' : 'miss';
+      // BOOLEAN, not 'hit'/'miss'. renderSegments() tests `outcomes[i] ===
+      // true` and `=== false`; a string matches neither, so the first
+      // version of this rendered every answered question as untouched —
+      // the progress bar quietly denying the resume had happened.
+      // outcomes already had an encoding; inventing a second one for the
+      // same array is the bug this project keeps paying for.
+      outcomes[i] = !!pq.correct;
     }
   });
 

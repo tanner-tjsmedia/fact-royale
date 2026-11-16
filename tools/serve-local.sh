@@ -53,22 +53,44 @@ fi
 rm -rf "$OUT"
 mkdir -p "$OUT"
 
+# ONE DEFINITION OF "WHICH FILES MAKE UP THE SITE".
+#
+# The initial assembly and the once-a-second sync loop are the same
+# question asked twice, and they were answered differently: on
+# 2026-11-16 the assembly had been taught about live mode while the sync
+# loop still copied the dark-mode list. auth.js and app.css reached the
+# browser; index.html and quiz.js silently did not, so edits appeared to
+# land for some files and vanish for others.
+#
+# That is the same class of bug as the two category tables and the two
+# "today" implementations. Both callers go through this function now.
+#
+# $1 is "say" to narrate (first run) or empty to stay quiet (the loop).
+copy_site() {
+  local narrate="${1:-}"
+  if [ "$STATE" = "dark" ]; then
+    cp -u _app/* "$OUT"/ 2>/dev/null || true
+    [ -n "$narrate" ] && echo "  _app/* -> $(basename "$OUT")/"
+    local f
+    for f in auth.js firebase-config.js categories.js icons.js style.css \
+             tokens.css app.css manifest.json favicon.svg; do
+      [ -f "$f" ] && { cp -u "$f" "$OUT"/ 2>/dev/null || true; }
+    done
+  else
+    # Already flat at root. Web files only — never the whole repo.
+    local f
+    for f in *.html *.js *.css manifest.json favicon.svg CNAME; do
+      [ -f "$f" ] && { cp -u "$f" "$OUT"/ 2>/dev/null || true; }
+    done
+    [ -n "$narrate" ] && echo "  root *.html *.js *.css -> $(basename "$OUT")/"
+  fi
+  [ -d icons ] && { cp -r icons "$OUT"/ 2>/dev/null || true; }
+  [ -n "$narrate" ] && [ -d icons ] && echo "  icons/"
+  return 0
+}
+
 echo "== assembling ($STATE) =="
-if [ "$STATE" = "dark" ]; then
-  # Entry points are parked in _app/; flatten them next to their deps.
-  cp _app/* "$OUT"/ && echo "  _app/* -> $(basename "$OUT")/"
-  for f in auth.js firebase-config.js categories.js icons.js style.css \
-           tokens.css app.css manifest.json favicon.svg; do
-    [ -f "$f" ] && cp "$f" "$OUT"/ && echo "  $f"
-  done
-else
-  # Already flat at root. Copy the web files only — not the repo.
-  for f in *.html *.js *.css manifest.json favicon.svg CNAME; do
-    [ -f "$f" ] && cp "$f" "$OUT"/
-  done
-  echo "  root *.html *.js *.css -> $(basename "$OUT")/"
-fi
-[ -d icons ] && cp -r icons "$OUT"/ && echo "  icons/"
+copy_site say
 
 # ── The authoring tools, local only ──────────────────────────────────
 #
@@ -157,12 +179,15 @@ EOF
 REPO="$PWD"
 sync_loop() {
   set +e
+  cd "$REPO" || return
   while true; do
     sleep 1
-    cp -u "$REPO"/_app/* "$OUT"/ 2>/dev/null || true
-    for f in auth.js firebase-config.js categories.js icons.js style.css \
-             tokens.css app.css manifest.json favicon.svg; do
-      [ -f "$REPO/$f" ] && { cp -u "$REPO/$f" "$OUT"/ 2>/dev/null || true; }
+    # Same function the first assembly used. See copy_site().
+    copy_site
+    # The authoring tools and the manuscript, local only.
+    [ -d questions-src ] && { cp -u questions-src/*.json "$OUT"/questions-src/ 2>/dev/null || true; }
+    for f in review.html review-queue.js store.js; do
+      [ -f "$f" ] && { cp -u "$f" "$OUT"/ 2>/dev/null || true; }
     done
   done
 }
